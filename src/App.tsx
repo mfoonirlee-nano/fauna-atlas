@@ -112,6 +112,22 @@ function formatDate(value: string) {
   }).format(new Date(`${value}T00:00:00`));
 }
 
+function focalPointStyle(focalPoint?: { readonly x: number; readonly y: number }) {
+  const x = focalPoint?.x ?? 0.5;
+  const y = focalPoint?.y ?? 0.5;
+  return {
+    '--focal-x': `${x <= 1 ? x * 100 : x}%`,
+    '--focal-y': `${y <= 1 ? y * 100 : y}%`,
+  } as CSSProperties;
+}
+
+function formatCoordinates(center: Species['distribution']['center']) {
+  if (!center) return 'RANGE DATA';
+  return `${Math.abs(center.lat).toFixed(1)}°${center.lat >= 0 ? 'N' : 'S'} · ${Math.abs(center.lng).toFixed(1)}°${
+    center.lng >= 0 ? 'E' : 'W'
+  }`;
+}
+
 function scrollToAtlas() {
   document.querySelector('#atlas')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
@@ -130,19 +146,13 @@ function TaxonArtwork({ item, index, large = false }: { item: Species; index: nu
   const Icon = classIcon(item.taxonomy.class.zhName);
   const hasPhoto = Boolean(item.media.image);
   const tone = visualTones[index % visualTones.length];
-  const focalX = item.media.focalPoint?.x ?? 0.5;
-  const focalY = item.media.focalPoint?.y ?? 0.5;
-  const artStyle = {
-    '--focal-x': `${focalX <= 1 ? focalX * 100 : focalX}%`,
-    '--focal-y': `${focalY <= 1 ? focalY * 100 : focalY}%`,
-  } as CSSProperties;
 
   return (
     <div
       className={`taxon-art taxon-art--${tone}${large ? ' taxon-art--large' : ''}${
         hasPhoto ? ' taxon-art--photo' : ''
       }`}
-      style={artStyle}
+      style={focalPointStyle(item.media.focalPoint)}
     >
       {item.media.image ? (
         <img src={item.media.image} alt={item.media.alt} />
@@ -168,6 +178,50 @@ function TaxonArtwork({ item, index, large = false }: { item: Species; index: nu
         {item.distribution.realms.map((realm) => realmLabels[realm]).join(' / ')}
       </span>
     </div>
+  );
+}
+
+function SpeciesGallery({ item }: { item: Species }) {
+  const gallery = item.media.gallery;
+  if (!gallery?.length) return null;
+
+  const hasCover = Boolean(item.media.image);
+  const frameCount = gallery.length + (hasCover ? 1 : 0);
+  const galleryNumberOffset = hasCover ? 2 : 1;
+
+  return (
+    <section className="detail-gallery" aria-labelledby="detail-gallery-title">
+      <div className="detail-gallery__heading">
+        <div>
+          <p className="section-kicker">IMAGE NOTES · 影像观察</p>
+          <h3 id="detail-gallery-title">{item.names.zh}的观察切面</h3>
+        </div>
+        <p>
+          <strong>{String(frameCount).padStart(2, '0')}</strong>
+          <span>{hasCover ? 'FRAMES · 含封面' : 'FRAMES · 观察图'}</span>
+        </p>
+      </div>
+      <div className="detail-gallery__grid">
+        {gallery.map((image, imageIndex) => (
+          <figure
+            key={image.image}
+            className={imageIndex === 0 ? 'detail-gallery__item detail-gallery__item--wide' : 'detail-gallery__item'}
+          >
+            <div className="detail-gallery__image" style={focalPointStyle(image.focalPoint)}>
+              <img src={image.image} alt={image.alt} loading="lazy" decoding="async" />
+            </div>
+            <figcaption>
+              <span>{String(imageIndex + galleryNumberOffset).padStart(2, '0')}</span>
+              <div>
+                <strong>{image.title}</strong>
+                {image.caption && <p>{image.caption}</p>}
+                {(image.credit ?? item.media.credit) && <small>{image.credit ?? item.media.credit}</small>}
+              </div>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
   );
 }
 
@@ -305,6 +359,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
 
         <div className="detail-hero">
           <TaxonArtwork item={item} index={index} large />
+          {item.media.image && item.media.credit && <span className="detail-hero__credit">{item.media.credit}</span>}
           <div className="detail-hero__title">
             <div className="detail-hero__status">
               <span className={`status-badge status-badge--${status.tone}`}>{status.short}</span>
@@ -343,6 +398,8 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
               ))}
             </section>
           )}
+
+          <SpeciesGallery item={item} />
 
           <div className="detail-grid">
             <section className="detail-section">
@@ -384,8 +441,29 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
             </section>
           </div>
 
+          {item.storySections && item.storySections.length > 0 && (
+            <section className="detail-story" aria-labelledby="detail-story-title">
+              <div className="detail-story__heading">
+                <p className="section-kicker">03 / 生命史</p>
+                <h3 id="detail-story-title">从身体，到下一代</h3>
+              </div>
+              <div className="detail-story__grid">
+                {item.storySections.map((section, sectionIndex) => (
+                  <article key={section.key}>
+                    <span>{String(sectionIndex + 1).padStart(2, '0')}</span>
+                    <div>
+                      <p className="section-kicker">{section.label}</p>
+                      <h4>{section.title}</h4>
+                      <p>{section.body}</p>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )}
+
           <section className="detail-section detail-section--facts">
-            <p className="section-kicker">03 / 自然观察</p>
+            <p className="section-kicker">{item.storySections?.length ? '04' : '03'} / 自然观察</p>
             <h3>值得记住的事实</h3>
             <ol className="fact-list">
               {item.keyFacts.map((fact, factIndex) => (
@@ -502,9 +580,10 @@ function App() {
     });
   }, [activeClass, activeStatus, query]);
 
-  const heroSpecies = species.find(
+  const heroSpecies: Species | undefined = species.find(
     (item) => item.featured && 'image' in item.media && Boolean(item.media.image),
   ) ?? species.find((item) => item.featured) ?? species[0];
+  const heroIndex = heroSpecies ? species.findIndex((item) => item.slug === heroSpecies.slug) : 0;
   const regionCount = new Set(species.flatMap((item) => item.distribution.regions)).size;
   const threatenedCount = species.filter((item) => ['CR', 'EN', 'VU'].includes(item.conservation.code)).length;
 
@@ -574,7 +653,14 @@ function App() {
 
       <main>
         <section className="hero" id="top" aria-labelledby="hero-title">
-          <img className="hero__image" src="/images/fauna-hero.webp" alt="晨雾山脊上的雪豹" />
+          <img
+            className="hero__image"
+            src={heroSpecies?.media.image ?? '/images/fauna-hero.webp'}
+            alt={heroSpecies?.media.alt ?? '晨雾山脊上的雪豹'}
+            style={focalPointStyle(heroSpecies?.media.focalPoint)}
+            decoding="async"
+            fetchPriority="high"
+          />
           <div className="hero__veil" />
           <div className="hero__grid" aria-hidden="true" />
           <div className="hero__content">
@@ -592,7 +678,9 @@ function App() {
 
             {heroSpecies && (
               <button type="button" className="hero-specimen" onClick={() => openSpecies(heroSpecies)}>
-                <span className="hero-specimen__index">本期观察 / 001</span>
+                <span className="hero-specimen__index">
+                  本期观察 / {String(heroIndex + 1).padStart(3, '0')}
+                </span>
                 <span className="hero-specimen__line" />
                 <span className="hero-specimen__latin">{heroSpecies.scientificName}</span>
                 <strong>{heroSpecies.names.zh}</strong>
@@ -604,8 +692,8 @@ function App() {
             )}
           </div>
           <div className="hero__footnote">
-            <span>31.5° N</span>
-            <span>HIMALAYAN BIOREGION</span>
+            <span>{formatCoordinates(heroSpecies?.distribution.center)}</span>
+            <span>{heroSpecies?.distribution.regions.slice(0, 2).join(' · ') ?? 'MOUNTAIN BIOREGION'}</span>
             <span>VOL. 01 / 2026</span>
           </div>
         </section>

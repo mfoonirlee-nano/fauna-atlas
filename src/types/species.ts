@@ -119,6 +119,16 @@ export interface FeaturedStat {
   readonly note?: string;
 }
 
+export interface SpeciesGalleryImage {
+  readonly image: `/${string}.webp`;
+  readonly alt: string;
+  readonly title: string;
+  readonly caption?: string;
+  /** Normalized image focal point: both axes use the inclusive range 0..1. */
+  readonly focalPoint?: { readonly x: number; readonly y: number };
+  readonly credit?: string;
+}
+
 export interface SpeciesMedia {
   /** Optional project-local runtime asset; absent entries use generated taxon artwork. */
   readonly image?: `/${string}.webp`;
@@ -126,6 +136,16 @@ export interface SpeciesMedia {
   /** Normalized image focal point: both axes use the inclusive range 0..1. */
   readonly focalPoint?: { readonly x: number; readonly y: number };
   readonly credit?: string;
+  /** Additional detail-page images; the cover image is not repeated here. */
+  readonly gallery?: readonly SpeciesGalleryImage[];
+}
+
+/** Optional long-form chapters for species with a complete editorial profile. */
+export interface SpeciesStorySection {
+  readonly key: string;
+  readonly label: string;
+  readonly title: string;
+  readonly body: string;
 }
 
 export type SourceKind =
@@ -157,6 +177,7 @@ export interface Species {
   readonly tags: readonly string[];
   readonly summary: string;
   readonly description: string;
+  readonly storySections?: readonly SpeciesStorySection[];
   readonly keyFacts: readonly string[];
   readonly threats: readonly string[];
   readonly conservationActions: readonly string[];
