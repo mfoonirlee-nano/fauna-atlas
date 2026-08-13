@@ -120,7 +120,7 @@ export interface FeaturedStat {
 }
 
 export interface SpeciesGalleryImage {
-  readonly image: `/${string}.webp`;
+  readonly image: `./images/${string}.webp`;
   readonly alt: string;
   readonly title: string;
   readonly caption?: string;
@@ -131,7 +131,7 @@ export interface SpeciesGalleryImage {
 
 export interface SpeciesMedia {
   /** Optional project-local runtime asset; absent entries use generated taxon artwork. */
-  readonly image?: `/${string}.webp`;
+  readonly image?: `./images/${string}.webp`;
   readonly alt: string;
   /** Normalized image focal point: both axes use the inclusive range 0..1. */
   readonly focalPoint?: { readonly x: number; readonly y: number };

@@ -61,7 +61,7 @@ fauna-atlas/
 
 1. 查看 `src/types/species.ts` 中的 `Species` 类型，确认必填字段和可选字段。
 2. 在 `src/data/species.ts` 中复制一个已有条目，替换本地化名称、分类、分布、栖息地、保护现状、体型、食性、摘要与关键事实等内容；该文件通过 `src/data/index.ts` 统一导出。
-3. 如有经过授权的图片，将封面和图集保存为 `public/images/species/<slug>/*.webp`。封面通过可选的 `media.image` 引用，其余观察图写入 `media.gallery`；没有封面时界面会自动使用分类标本牌。每张图片都须补全准确的 `alt`，并可用 `0..1` 归一化坐标记录 `focalPoint`、用 `credit` 记录署名。生成或可编辑源图及最终提示词保存在 `src/assets/source/species/<slug>/`。
+3. 如有经过授权的图片，将封面和图集保存为 `public/images/species/<slug>/*.webp`，并以 `./images/species/<slug>/*.webp` 的相对路径引用，确保构建产物可部署在任意子路径。封面通过可选的 `media.image` 引用，其余观察图写入 `media.gallery`；没有封面时界面会自动使用分类标本牌。每张图片都须补全准确的 `alt`，并可用 `0..1` 归一化坐标记录 `focalPoint`、用 `credit` 记录署名。生成或可编辑源图及最终提示词保存在 `src/assets/source/species/<slug>/`。
 4. 在 `sources` 中记录每条资料的标题、URL、访问日期与来源类型。保护现状还应注明评估年份与评估机构，避免将不同年份的结论混为一谈。
 5. 检查列表卡片、筛选结果和详情展示，并在提交前运行 `npm run typecheck` 与 `npm run build`。
 

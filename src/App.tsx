@@ -655,7 +655,7 @@ function App() {
         <section className="hero" id="top" aria-labelledby="hero-title">
           <img
             className="hero__image"
-            src={heroSpecies?.media.image ?? '/images/fauna-hero.webp'}
+            src={heroSpecies?.media.image ?? './images/fauna-hero.webp'}
             alt={heroSpecies?.media.alt ?? '晨雾山脊上的雪豹'}
             style={focalPointStyle(heroSpecies?.media.focalPoint)}
             decoding="async"

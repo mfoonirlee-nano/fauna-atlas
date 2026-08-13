@@ -1,17 +1,17 @@
 {
-  "id": "/",
+  "id": "./",
   "name": "万物生灵图册 · Fauna Atlas",
   "short_name": "Fauna Atlas",
   "description": "一部持续生长的现代生物电子图册。",
   "lang": "zh-CN",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f4f0e5",
   "theme_color": "#173f35",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "./favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
