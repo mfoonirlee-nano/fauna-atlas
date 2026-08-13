@@ -14,10 +14,12 @@ export type {
   Species,
   SpeciesDiet,
   SpeciesDistribution,
+  SpeciesGalleryImage,
   SpeciesMeasurements,
   SpeciesMedia,
   SpeciesMetrics,
   SpeciesSource,
+  SpeciesStorySection,
   SpeciesTaxonomy,
   Taxon,
 } from './species';

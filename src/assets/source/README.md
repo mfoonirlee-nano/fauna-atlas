@@ -1,6 +1,10 @@
-# Hero image source
+# Visual source assets
 
-The landing-page hero is an original project asset generated with Codex's built-in image generation tool, then converted to WebP for the runtime site.
+Species-specific image sets and their final prompts live under `species/<slug>/`. The first complete set is [the giant panda image set](./species/giant-panda/README.md).
+
+## Landing-page hero
+
+The original snow-leopard landing-page hero is an original project asset generated with Codex's built-in image generation tool, then converted to WebP for the runtime site. The page now chooses its live hero from the first featured species with a cover image, while this asset remains the snow leopard's runtime image and the fallback hero.
 
 - Editable source: `fauna-hero-source.png`
 - Runtime asset: `public/images/fauna-hero.webp`
