@@ -1,6 +1,9 @@
 # Visual source assets
 
-Species-specific image sets and their final prompts live under `species/<slug>/`. The first complete set is [the giant panda image set](./species/giant-panda/README.md).
+Species-specific image sets and their final prompts live under `species/<slug>/`.
+
+- [Giant panda image set](./species/giant-panda/README.md)
+- [Red panda image set](./species/red-panda/README.md)
 
 ## Landing-page hero
 
