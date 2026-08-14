@@ -4,10 +4,11 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 
 - [Giant panda image set](./species/giant-panda/README.md)
 - [Red panda image set](./species/red-panda/README.md)
+- [Snow leopard image set](./species/snow-leopard/README.md)
 
 ## Landing-page hero
 
-The original snow-leopard landing-page hero is an original project asset generated with Codex's built-in image generation tool, then converted to WebP for the runtime site. The page now chooses its live hero from the first featured species with a cover image, while this asset remains the snow leopard's runtime image and the fallback hero.
+The original snow-leopard landing-page hero is an original project asset generated with Codex's built-in image generation tool, then converted to WebP for the runtime site. The page now chooses its live hero from the first featured species with a cover image, while this asset remains the fallback hero. The snow leopard profile uses its dedicated 3:2 image set linked above.
 
 - Editable source: `fauna-hero-source.png`
 - Runtime asset: `public/images/fauna-hero.webp`
