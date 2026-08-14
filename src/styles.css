@@ -158,70 +158,59 @@
 
 @layer components {
   .brand-mark {
-    position: relative;
+    --brand-mark-size: 39px;
+
     display: inline-grid;
     flex: 0 0 auto;
-    width: 39px;
-    height: 39px;
+    width: var(--brand-mark-size);
+    height: var(--brand-mark-size);
+    line-height: 0;
     place-items: center;
   }
 
+  .brand-mark__icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+
   .brand-mark__orbit {
-    position: absolute;
-    inset: 3px;
-    border: 1px solid currentColor;
-    border-radius: 50%;
-    opacity: 0.74;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.25;
+    opacity: 0.78;
   }
 
   .brand-mark__leaf {
-    width: 16px;
-    height: 23px;
-    border-radius: 100% 0 100% 0;
-    background: var(--moss-light);
-    transform: rotate(15deg);
+    fill: var(--moss);
   }
 
-  .brand-mark__leaf::after {
-    position: absolute;
-    width: 1px;
-    height: 21px;
-    content: '';
-    background: currentColor;
-    transform: translate(8px, 1px) rotate(28deg);
-    transform-origin: bottom;
-    opacity: 0.75;
+  .brand-mark__vein,
+  .brand-mark__twig {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.4;
+  }
+
+  .brand-mark__vein {
+    stroke: currentColor;
+    opacity: 0.88;
+  }
+
+  .brand-mark__twig {
+    stroke: var(--sun);
   }
 
   .brand-mark__star {
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    width: 7px;
-    height: 7px;
-    border: 2px solid currentColor;
-    border-radius: 50%;
-    background: var(--sun);
+    fill: var(--sun);
+    stroke: currentColor;
+    stroke-width: 2;
   }
 
   .brand-mark--compact {
-    width: 27px;
-    height: 27px;
-  }
-
-  .brand-mark--compact .brand-mark__leaf {
-    width: 11px;
-    height: 16px;
-  }
-
-  .brand-mark--compact .brand-mark__leaf::after {
-    height: 15px;
-    transform: translate(5px, 0) rotate(28deg);
-  }
-
-  .brand-mark--compact .brand-mark__star {
-    width: 6px;
-    height: 6px;
+    --brand-mark-size: 27px;
   }
 
   .section-kicker {
@@ -2105,9 +2094,8 @@
       top: 72px;
     }
 
-    .brand-mark {
-      width: 34px;
-      height: 34px;
+    .site-header .brand-mark {
+      --brand-mark-size: 34px;
     }
 
     .brand__type {

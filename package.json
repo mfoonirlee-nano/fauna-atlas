@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "test": "npm run test:dist-subpath",
+    "test": "npm run test:brand-mark && npm run test:dist-subpath",
+    "test:brand-mark": "node --test tests/brand-mark.test.mjs",
     "test:dist-subpath": "npm run build && node --test tests/dist-subpath.test.mjs",
     "typecheck": "tsc -b --pretty false"
   },

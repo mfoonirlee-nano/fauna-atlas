@@ -135,9 +135,22 @@ function scrollToAtlas() {
 function BrandMark({ compact = false }: { compact?: boolean }) {
   return (
     <span className={`brand-mark${compact ? ' brand-mark--compact' : ''}`} aria-hidden="true">
-      <span className="brand-mark__orbit" />
-      <span className="brand-mark__leaf" />
-      <span className="brand-mark__star" />
+      <svg className="brand-mark__icon" viewBox="0 0 64 64" focusable="false">
+        <circle className="brand-mark__orbit" cx="32" cy="32" r="22" />
+        <path
+          className="brand-mark__leaf"
+          d="M20.5 40.5C20.6 28.1 28.2 19.8 42.2 19C42 32.1 34.2 40.3 20.5 40.5Z"
+        />
+        <path
+          className="brand-mark__vein"
+          d="M20.5 43.4C23.8 33.7 30.5 26.2 40.8 20.6"
+        />
+        <path
+          className="brand-mark__twig"
+          d="M23.3 40.7C28.9 41.2 33.7 43.2 37.8 46.2"
+        />
+        <circle className="brand-mark__star" cx="48.5" cy="15.5" r="3.75" />
+      </svg>
     </span>
   );
 }
