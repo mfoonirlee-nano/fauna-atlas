@@ -31,6 +31,7 @@ import {
   type ComponentType,
   type CSSProperties,
 } from 'react';
+import { TaxonomyExplorer } from './components/TaxonomyExplorer';
 import { species } from './data';
 import type { IucnStatusCode, Species } from './types';
 
@@ -583,6 +584,7 @@ function App() {
         item.names.en,
         item.scientificName,
         ...item.names.aliases ?? [],
+        ...Object.values(item.taxonomy).flatMap((taxon) => [taxon.zhName, taxon.scientificName]),
         ...item.tags,
         ...item.distribution.regions,
         ...item.habitats.map((habitat) => habitat.name),
@@ -626,7 +628,7 @@ function App() {
 
   return (
     <div className="app-shell">
-      <a className="skip-link" href="#atlas">跳到图册内容</a>
+      <a className="skip-link" href="#taxonomy">跳到分类图谱</a>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Fauna Atlas 首页">
           <BrandMark />
@@ -637,6 +639,7 @@ function App() {
         </a>
 
         <nav className={`site-nav${mobileMenuOpen ? ' site-nav--open' : ''}`} aria-label="主导航">
+          <a href="#taxonomy" onClick={onNavClick}>分类图谱</a>
           <a href="#atlas" onClick={onNavClick}>探索图鉴</a>
           <a href="#mission" onClick={onNavClick}>我们为何记录</a>
           <a href="#about" onClick={onNavClick}>关于项目</a>
@@ -723,13 +726,15 @@ function App() {
           </div>
         </section>
 
+        <TaxonomyExplorer items={species} onOpenSpecies={openSpecies} />
+
         <section className="atlas-section" id="atlas" aria-labelledby="atlas-title">
           <div className="section-heading">
             <div>
               <p className="section-kicker">EXPLORE THE ATLAS · 探索图鉴</p>
               <h2 id="atlas-title">今天，想认识谁？</h2>
             </div>
-            <p>按名字、学名、栖息地或保护等级，找到一条通往自然的路径。</p>
+            <p>按名字、学名、分类、栖息地或保护等级，找到一条通往自然的路径。</p>
           </div>
 
           <div className="atlas-tools">
@@ -741,7 +746,7 @@ function App() {
                 type="search"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
-                placeholder="搜索物种、学名或栖息地…"
+                placeholder="搜索物种、分类或栖息地…"
               />
               <kbd>⌘ K</kbd>
             </label>
@@ -833,7 +838,7 @@ function App() {
             <h2 id="newsletter-title">把自然，放回日常视野。</h2>
           </div>
           <div className="newsletter__aside">
-            <p>Fauna Atlas 正在从第一批物种开始。未来将加入地点、观察记录与更完整的谱系关系。</p>
+            <p>Fauna Atlas 正在从第一批物种开始。未来将加入地点、观察记录与更完整的分类关系。</p>
             <button type="button" onClick={scrollToAtlas}>
               浏览首批档案 <ArrowRight size={17} />
             </button>
