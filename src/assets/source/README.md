@@ -7,6 +7,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Snow leopard image set](./species/snow-leopard/README.md)
 - [Chinese mountain cat image set](./species/chinese-mountain-cat/README.md)
 - [Emperor penguin image set](./species/emperor-penguin/README.md)
+- [Whale shark image set](./species/whale-shark/README.md)
 
 ## Landing-page hero
 
