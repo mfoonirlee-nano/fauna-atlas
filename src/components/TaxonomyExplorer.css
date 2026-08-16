@@ -1,26 +1,28 @@
 .taxonomy-explorer {
-  --taxonomy-canvas: color-mix(in srgb, var(--paper-soft) 88%, var(--moss-light));
-  --taxonomy-node: color-mix(in srgb, var(--paper-soft) 94%, var(--paper-deep));
-  --taxonomy-node-hover: color-mix(in srgb, var(--moss-light) 28%, var(--paper-soft));
-  --taxonomy-guide: color-mix(in srgb, var(--forest) 32%, transparent);
+  --taxonomy-canvas: color-mix(in srgb, var(--paper-soft) 90%, var(--moss-light));
+  --taxonomy-label: color-mix(in srgb, var(--paper-soft) 94%, var(--paper-deep));
+  --taxonomy-diagram-line: rgba(23, 63, 53, 0.25);
+  --taxonomy-diagram-active: #9e593f;
 
   max-width: 1440px;
   margin: 0 auto;
-  padding: 126px clamp(24px, 5.5vw, 80px) 24px;
+  padding: clamp(82px, 8vw, 112px) clamp(24px, 5.5vw, 80px) 24px;
 }
 
 :root[data-theme='dark'] .taxonomy-explorer {
-  --taxonomy-canvas: color-mix(in srgb, var(--paper-soft) 88%, var(--forest-deep));
-  --taxonomy-node: color-mix(in srgb, var(--card) 92%, var(--paper));
-  --taxonomy-node-hover: color-mix(in srgb, var(--moss-light) 20%, var(--paper-soft));
-  --taxonomy-guide: color-mix(in srgb, var(--moss) 42%, transparent);
+  --taxonomy-canvas: color-mix(in srgb, var(--paper-soft) 90%, var(--forest-deep));
+  --taxonomy-label: color-mix(in srgb, var(--card) 94%, var(--paper));
+  --taxonomy-diagram-line: rgba(163, 199, 159, 0.3);
+  --taxonomy-diagram-active: #e4b46e;
 }
 
-.taxonomy-explorer__heading {
+.taxonomy-explorer__heading,
+.taxonomy-lineage__heading,
+.taxonomy-focus__heading {
   display: grid;
   align-items: end;
-  gap: clamp(56px, 7vw, 112px);
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.48fr);
+  gap: clamp(38px, 6vw, 92px);
+  grid-template-columns: minmax(0, 1fr) minmax(290px, 0.45fr);
 }
 
 .taxonomy-explorer__kicker {
@@ -32,116 +34,32 @@
   line-height: 1.5;
 }
 
-.taxonomy-explorer__heading h2 {
-  max-width: 850px;
-  margin: 17px 0 0;
+.taxonomy-explorer h2 {
+  max-width: 890px;
+  margin: 15px 0 0;
   font-family: var(--serif);
-  font-size: clamp(3rem, 5vw, 5.25rem);
+  font-size: clamp(2.8rem, 4.6vw, 4.9rem);
   font-weight: 400;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.038em;
   line-height: 1.08;
+  text-wrap: balance;
 }
 
-.taxonomy-explorer__introduction > p {
-  max-width: 430px;
+.taxonomy-explorer__introduction > p,
+.taxonomy-lineage__heading > p,
+.taxonomy-focus__heading > p {
+  max-width: 450px;
   margin: 0;
   color: var(--ink-soft);
-  font-size: 0.84rem;
+  font-size: 0.82rem;
   line-height: 1.9;
-}
-
-.taxonomy-explorer__stats {
-  display: grid;
-  margin: 30px 0 0;
-  border-top: 1px solid var(--line);
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.taxonomy-explorer__stats > div {
-  display: flex;
-  min-width: 0;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 18px 0 0;
-}
-
-.taxonomy-explorer__stats > div + div {
-  margin-left: 22px;
-  padding-left: 22px;
-  border-left: 1px solid var(--line);
-}
-
-.taxonomy-explorer__stats dt {
-  color: var(--ink-faint);
-  font-size: 0.61rem;
-  letter-spacing: 0.08em;
-}
-
-.taxonomy-explorer__stats dd {
-  margin: 0;
-  font-family: var(--serif);
-  font-size: 1.6rem;
-  line-height: 1;
-}
-
-.taxonomy-explorer__canvas {
-  position: relative;
-  overflow: hidden;
-  margin-top: 66px;
-  padding: 0 clamp(22px, 3.2vw, 46px) clamp(30px, 4vw, 56px);
-  border: 1px solid var(--line-strong);
-  background: var(--paper-soft);
-  background:
-    linear-gradient(var(--line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--line) 1px, transparent 1px),
-    var(--taxonomy-canvas);
-  background-position: -1px -1px;
-  background-size: 36px 36px;
-  box-shadow: var(--shadow);
-}
-
-.taxonomy-explorer__canvas::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: min(34vw, 430px);
-  height: min(34vw, 430px);
-  border: 1px solid var(--taxonomy-guide);
-  border-radius: 50%;
-  content: '';
-  opacity: 0.55;
-  pointer-events: none;
-  transform: translate(42%, -57%);
-}
-
-.taxonomy-explorer__canvas-header {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  min-height: 68px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-  margin: 0 calc(clamp(22px, 3.2vw, 46px) * -1) 28px;
-  padding: 0 clamp(22px, 3.2vw, 46px);
-  border-bottom: 1px solid var(--line-strong);
-  background: color-mix(in srgb, var(--paper-soft) 90%, transparent);
-  backdrop-filter: blur(9px);
-}
-
-.taxonomy-explorer__canvas-header > p {
-  margin: 0;
-  color: var(--forest);
-  font-size: 0.61rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
 }
 
 .taxonomy-explorer__legend {
   display: flex;
   align-items: center;
   gap: 22px;
+  margin-top: 23px;
   color: var(--ink-faint);
   font-size: 0.61rem;
   letter-spacing: 0.06em;
@@ -155,574 +73,1067 @@
 
 .taxonomy-explorer__legend i {
   display: inline-block;
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   border: 1px solid var(--forest);
   border-radius: 50%;
   background: var(--paper-soft);
 }
 
-.taxonomy-explorer__legend span:last-child i {
+.taxonomy-explorer__legend span:nth-child(2) i {
   border-color: var(--rust);
   background: var(--rust);
 }
 
-.taxonomy-tree,
-.taxonomy-tree__children {
+.taxonomy-explorer__legend .taxonomy-explorer__legend-fold i {
+  width: 18px;
+  height: 0;
+  border: 0;
+  border-top: 1px dashed var(--forest);
+  border-radius: 0;
+  background: transparent;
+}
+
+.taxonomy-panel,
+.taxonomy-lineage__panel {
   position: relative;
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  background:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px),
+    var(--taxonomy-canvas);
+  background-position: -1px -1px;
+  background-size: 36px 36px;
+  box-shadow: var(--shadow);
 }
 
-.taxonomy-tree {
-  display: grid;
-  gap: 18px;
+.taxonomy-panel--overview {
+  margin-top: 42px;
 }
 
-.taxonomy-tree__children {
-  margin: 9px 0 4px 29px;
-  padding: 6px 0 6px 35px;
-  border-left: 1px solid var(--taxonomy-guide);
-}
-
-.taxonomy-tree__children > .taxonomy-tree__item {
+.taxonomy-panel__header {
   position: relative;
-  margin-top: 9px;
-}
-
-.taxonomy-tree__children > .taxonomy-tree__item:first-child {
-  margin-top: 0;
-}
-
-.taxonomy-tree__children > .taxonomy-tree__item::before {
-  position: absolute;
-  top: 31px;
-  left: -35px;
-  width: 35px;
-  border-top: 1px solid var(--taxonomy-guide);
-  content: '';
-}
-
-.taxonomy-branch > summary {
-  list-style: none;
-}
-
-.taxonomy-branch > summary::-webkit-details-marker {
-  display: none;
-}
-
-.taxonomy-node,
-.taxonomy-species {
-  position: relative;
-  display: grid;
-  width: 100%;
+  z-index: 4;
+  display: flex;
   min-height: 62px;
   align-items: center;
-  gap: 17px;
-  padding: 8px 18px 8px 13px;
+  justify-content: space-between;
+  gap: 26px;
+  padding: 0 clamp(18px, 2.8vw, 38px);
+  border-bottom: 1px solid var(--line-strong);
+  background: color-mix(in srgb, var(--paper-soft) 91%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.taxonomy-panel__header > p {
+  margin: 0;
+  color: var(--forest);
+  font-size: 0.59rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.taxonomy-panel__header > span {
+  color: var(--ink-faint);
+  font-family: var(--serif);
+  font-size: 0.9rem;
+}
+
+.taxonomy-panel__ranks {
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 7px;
+  color: var(--ink-faint);
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+}
+
+.taxonomy-panel__ranks span {
+  padding: 0;
+  border: 0;
+}
+
+.taxonomy-panel__ranks span + span::before {
+  margin-right: 7px;
+  content: '/';
+  opacity: 0.45;
+}
+
+.taxonomy-panel__scroll,
+.taxonomy-lineage__stage-scroll {
+  position: relative;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-color: var(--line-strong) transparent;
+  scrollbar-width: thin;
+}
+
+.taxonomy-diagram {
+  --taxonomy-diagram-label: var(--taxonomy-label);
+
+  position: relative;
+  width: 100%;
+  min-width: 1120px;
   color: var(--ink);
-  border: 1px solid var(--line-strong);
+  isolation: isolate;
+}
+
+.taxonomy-diagram--path {
+  min-width: 930px;
+}
+
+.taxonomy-diagram--focus {
+  min-width: 1020px;
+}
+
+.taxonomy-diagram--mobile-path {
+  width: 100%;
+  min-width: 0;
+}
+
+.taxonomy-diagram__canvas {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.taxonomy-diagram__node {
+  position: absolute;
+  z-index: 2;
+  top: var(--diagram-y);
+  left: var(--diagram-x);
+  display: flex;
+  min-height: 38px;
+  align-items: center;
+  padding: 0;
+  text-align: left;
+  transform: translateY(-50%);
+}
+
+.taxonomy-diagram__node--taxon {
+  width: 132px;
+  pointer-events: none;
+}
+
+.taxonomy-diagram__node--species {
+  width: 225px;
+  color: inherit;
   border-radius: 2px;
-  background: var(--taxonomy-node);
-  box-shadow: 0 7px 24px color-mix(in srgb, var(--ink) 5%, transparent);
-  grid-template-columns: 26px 82px minmax(0, 1fr) auto;
-  transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+  background: transparent;
 }
 
-.taxonomy-node {
-  cursor: pointer;
+.taxonomy-diagram__marker {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--forest);
+  border-radius: 50%;
+  background: var(--taxonomy-diagram-label);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--taxonomy-diagram-label) 82%, transparent);
+  transform: translateY(-50%);
+  transition: background-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
-.taxonomy-node:hover,
-.taxonomy-species:hover {
-  border-color: var(--forest);
-  background: var(--taxonomy-node-hover);
+.taxonomy-diagram__node--species .taxonomy-diagram__marker {
+  border-color: var(--rust);
+  background: var(--rust);
+}
+
+.taxonomy-diagram__node-copy {
+  display: grid;
+  min-width: 0;
+  gap: 1px;
+  margin-left: 11px;
+  padding: 4px 7px 5px;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--taxonomy-diagram-label) 91%, transparent);
+  transition: color 150ms ease, background-color 150ms ease, transform 150ms ease;
+}
+
+.taxonomy-diagram__node-copy small {
+  color: var(--forest);
+  font-size: 0.49rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
+}
+
+.taxonomy-diagram__node-copy strong {
+  overflow: hidden;
+  font-family: var(--serif);
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.18;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.taxonomy-diagram__node-copy i {
+  overflow: hidden;
+  color: var(--ink-faint);
+  font-family: var(--serif);
+  font-size: 0.62rem;
+  font-weight: 400;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.taxonomy-diagram__node--species:hover .taxonomy-diagram__node-copy,
+.taxonomy-diagram__node--species:focus-visible .taxonomy-diagram__node-copy,
+.taxonomy-diagram__node--species.is-active .taxonomy-diagram__node-copy {
+  color: var(--forest);
+  background: color-mix(in srgb, var(--moss-light) 42%, var(--taxonomy-diagram-label));
   transform: translateX(3px);
 }
 
-.taxonomy-node:focus-visible,
-.taxonomy-species:focus-visible {
+.taxonomy-diagram__node--species:hover .taxonomy-diagram__marker,
+.taxonomy-diagram__node--species:focus-visible .taxonomy-diagram__marker,
+.taxonomy-diagram__node--species.is-active .taxonomy-diagram__marker {
+  box-shadow: 0 0 0 7px color-mix(in srgb, var(--rust) 18%, transparent);
+  transform: translateY(-50%) scale(1.15);
+}
+
+.taxonomy-diagram__node--species:focus-visible {
   outline: 2px solid var(--sun);
   outline-offset: 3px;
 }
 
-.taxonomy-node__toggle {
-  display: inline-grid;
-  width: 26px;
-  height: 44px;
-  place-items: center;
-  color: var(--forest);
+.taxonomy-diagram--path .taxonomy-diagram__node {
+  width: 120px;
+  min-height: 44px;
+  justify-content: center;
+  transform: translate(-50%, -50%);
 }
 
-.taxonomy-node__toggle svg {
-  transition: transform 180ms ease;
+.taxonomy-diagram--path .taxonomy-diagram__marker {
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.taxonomy-branch[open] > .taxonomy-node .taxonomy-node__toggle svg {
-  transform: rotate(90deg);
+.taxonomy-diagram--path .taxonomy-diagram__node-copy {
+  position: absolute;
+  left: 50%;
+  width: 126px;
+  margin: 0;
+  text-align: center;
+  transform: translateX(-50%);
 }
 
-.taxonomy-node__marker {
-  width: 9px;
-  height: 9px;
-  margin-left: 8px;
-  border-radius: 50%;
-  background: var(--rust);
-  box-shadow: 0 0 0 5px color-mix(in srgb, var(--rust) 13%, transparent);
+.taxonomy-diagram--path [data-label-position='above'] .taxonomy-diagram__node-copy {
+  bottom: calc(50% + 17px);
 }
 
-.taxonomy-node__rank {
+.taxonomy-diagram--path [data-label-position='below'] .taxonomy-diagram__node-copy {
+  top: calc(50% + 17px);
+}
+
+.taxonomy-diagram--path .taxonomy-diagram__node--species:hover .taxonomy-diagram__node-copy,
+.taxonomy-diagram--path .taxonomy-diagram__node--species:focus-visible .taxonomy-diagram__node-copy,
+.taxonomy-diagram--path .taxonomy-diagram__node--species.is-active .taxonomy-diagram__node-copy {
+  transform: translateX(-50%);
+}
+
+.taxonomy-diagram--path .taxonomy-diagram__node--species:hover .taxonomy-diagram__marker,
+.taxonomy-diagram--path .taxonomy-diagram__node--species:focus-visible .taxonomy-diagram__marker,
+.taxonomy-diagram--path .taxonomy-diagram__node--species.is-active .taxonomy-diagram__marker {
+  transform: translate(-50%, -50%) scale(1.15);
+}
+
+.taxonomy-path {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  min-width: 850px;
+  grid-template-columns: 180px minmax(0, 1fr);
+  border-top: 1px solid var(--line-strong);
+  background: color-mix(in srgb, var(--paper-soft) 93%, transparent);
+}
+
+.taxonomy-path__identity {
   display: grid;
   align-content: center;
-  align-self: stretch;
-  padding-right: 14px;
+  gap: 3px;
+  padding: 18px 24px;
   border-right: 1px solid var(--line);
 }
 
-.taxonomy-node__rank > span {
+.taxonomy-path__identity > span {
   color: var(--forest);
+  font-size: 0.52rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+}
+
+.taxonomy-path__identity strong {
+  margin-top: 3px;
   font-family: var(--serif);
-  font-size: 0.92rem;
-}
-
-.taxonomy-node__rank small {
-  margin-top: 2px;
-  color: var(--ink-faint);
-  font-size: 0.5rem;
-  font-weight: 650;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.taxonomy-node__name {
-  display: flex;
-  min-width: 0;
-  align-items: baseline;
-  gap: 13px;
-}
-
-.taxonomy-node__name strong {
-  flex: 0 0 auto;
-  font-family: var(--serif);
-  font-size: 1.08rem;
+  font-size: 1.06rem;
   font-weight: 500;
 }
 
-.taxonomy-node__name i {
+.taxonomy-path__identity i {
   overflow: hidden;
   color: var(--ink-faint);
   font-family: var(--serif);
-  font-size: 0.77rem;
+  font-size: 0.65rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.taxonomy-path__identity button {
+  display: inline-flex;
+  width: max-content;
+  min-height: 30px;
+  align-items: center;
+  gap: 7px;
+  margin-top: 8px;
+  padding: 0 10px;
+  color: var(--paper-soft);
+  background: var(--forest);
+  font-size: 0.57rem;
+  font-weight: 650;
+  letter-spacing: 0.05em;
+}
+
+.taxonomy-path__identity button svg {
+  transition: transform 150ms ease;
+}
+
+.taxonomy-path__identity button:hover svg {
+  transform: translate(2px, -2px);
+}
+
+.taxonomy-path ol {
+  display: grid;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.taxonomy-path li {
+  display: grid;
+  min-width: 0;
+  align-content: center;
+  gap: 3px;
+  padding: 17px 12px;
+  border-right: 1px solid var(--line);
+}
+
+.taxonomy-path li:last-child {
+  border-right: 0;
+}
+
+.taxonomy-path li small {
+  color: var(--rust);
+  font-size: 0.53rem;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+}
+
+.taxonomy-path li span {
+  overflow: hidden;
+  font-family: var(--serif);
+  font-size: 0.75rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.taxonomy-path li i {
+  overflow: hidden;
+  color: var(--ink-faint);
+  font-family: var(--serif);
+  font-size: 0.56rem;
   font-weight: 400;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node {
-  min-height: 72px;
-  color: var(--paper-soft);
-  border-color: var(--forest);
-  background: var(--forest);
+.taxonomy-disclaimer {
+  max-width: 760px;
+  margin: 16px 0 0 auto;
+  color: var(--ink-faint);
+  font-size: 0.61rem;
+  letter-spacing: 0.035em;
+  line-height: 1.7;
+  text-align: right;
 }
 
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node:hover {
-  background: var(--forest-deep);
+.taxonomy-lineage__layout {
+  display: grid;
+  align-items: start;
+  gap: 18px;
+  margin-top: 42px;
+  grid-template-columns: minmax(250px, 0.31fr) minmax(0, 1fr);
 }
 
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__toggle,
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__rank > span,
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__count strong {
-  color: var(--moss-light);
+.taxonomy-species-index {
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  background: var(--paper-soft);
 }
 
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__rank,
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__count {
-  border-color: color-mix(in srgb, var(--paper-soft) 22%, transparent);
-}
-
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__rank small,
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__name i,
-.taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__count small {
-  color: color-mix(in srgb, var(--paper-soft) 70%, transparent);
-}
-
-:root[data-theme='dark'] .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node {
-  color: var(--forest-deep);
-  background: var(--forest);
-}
-
-:root[data-theme='dark'] .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node:hover {
-  background: var(--moss);
-}
-
-:root[data-theme='dark'] .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__toggle,
-:root[data-theme='dark'] .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__rank > span,
-:root[data-theme='dark'] .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__count strong {
-  color: var(--forest-deep);
-}
-
-:root[data-theme='dark'] .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__rank small,
-:root[data-theme='dark'] .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__name i,
-:root[data-theme='dark'] .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node .taxonomy-node__count small {
-  color: color-mix(in srgb, var(--forest-deep) 72%, transparent);
-}
-
-.taxonomy-node__count {
-  display: inline-flex;
-  min-width: 62px;
-  min-height: 38px;
-  align-items: baseline;
-  justify-content: flex-end;
-  gap: 5px;
-  padding-left: 16px;
-  border-left: 1px solid var(--line);
-}
-
-.taxonomy-node__count strong {
+.taxonomy-species-index__heading {
+  display: flex;
+  min-height: 62px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
   color: var(--forest);
+  border-bottom: 1px solid var(--line-strong);
+  font-size: 0.57rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.taxonomy-species-index__heading strong {
   font-family: var(--serif);
-  font-size: 1.15rem;
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.taxonomy-species-index__list {
+  max-height: 590px;
+  overflow-y: auto;
+  scrollbar-color: var(--line-strong) transparent;
+  scrollbar-width: thin;
+}
+
+.taxonomy-species-index__list button {
+  display: grid;
+  width: 100%;
+  min-height: 52px;
+  align-items: center;
+  gap: 13px;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  grid-template-columns: 24px minmax(0, 1fr);
+  transition: color 150ms ease, background-color 150ms ease;
+}
+
+.taxonomy-species-index__list button:last-child {
+  border-bottom: 0;
+}
+
+.taxonomy-species-index__list button > span:first-child {
+  color: var(--ink-faint);
+  font-size: 0.52rem;
+}
+
+.taxonomy-species-index__list button > span:last-child {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.taxonomy-species-index__list strong {
+  font-family: var(--serif);
+  font-size: 0.92rem;
   font-weight: 500;
 }
 
-.taxonomy-node__count small {
+.taxonomy-species-index__list i {
+  overflow: hidden;
   color: var(--ink-faint);
-  font-size: 0.58rem;
-}
-
-.taxonomy-tree__item--species {
-  max-width: calc(100% - 24px);
-}
-
-.taxonomy-species {
-  min-height: 58px;
-  padding-right: 16px;
-  text-align: left;
-}
-
-.taxonomy-species__action {
-  display: inline-flex;
-  min-height: 44px;
-  align-items: center;
-  gap: 7px;
-  color: var(--forest);
-  font-size: 0.65rem;
-  font-weight: 650;
-  letter-spacing: 0.05em;
+  font-family: var(--serif);
+  font-size: 0.61rem;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.taxonomy-species__action svg {
-  transition: transform 160ms ease;
+.taxonomy-species-index__list button:hover,
+.taxonomy-species-index__list button.is-active {
+  color: var(--forest);
+  background: color-mix(in srgb, var(--moss-light) 32%, transparent);
 }
 
-.taxonomy-species:hover .taxonomy-species__action svg {
+.taxonomy-lineage__panel {
+  --taxonomy-diagram-label: var(--taxonomy-canvas);
+
+  min-width: 0;
+}
+
+.taxonomy-lineage__identity {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  min-height: 112px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 20px clamp(20px, 3vw, 38px);
+  border-bottom: 1px solid var(--line-strong);
+  background: color-mix(in srgb, var(--paper-soft) 92%, transparent);
+}
+
+.taxonomy-lineage__identity > div {
+  display: grid;
+  gap: 2px;
+}
+
+.taxonomy-lineage__identity span {
+  color: var(--forest);
+  font-size: 0.53rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+}
+
+.taxonomy-lineage__identity h3 {
+  margin: 5px 0 0;
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.taxonomy-lineage__identity i {
+  color: var(--ink-faint);
+  font-family: var(--serif);
+  font-size: 0.75rem;
+}
+
+.taxonomy-lineage__identity button {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  gap: 9px;
+  padding: 0 15px;
+  color: var(--paper-soft);
+  background: var(--forest);
+  font-size: 0.66rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+}
+
+.taxonomy-lineage__identity button svg {
+  transition: transform 150ms ease;
+}
+
+.taxonomy-lineage__identity button:hover svg {
   transform: translate(2px, -2px);
 }
 
-.taxonomy-branch[open] > .taxonomy-tree__children {
-  animation: taxonomy-children-in 180ms ease-out both;
+.taxonomy-lineage__panel > .taxonomy-disclaimer {
+  max-width: none;
+  margin: 0;
+  padding: 15px 24px;
+  border-top: 1px solid var(--line);
+  background: color-mix(in srgb, var(--paper-soft) 90%, transparent);
+  text-align: left;
+}
+
+.taxonomy-explorer--focus {
+  --focus-paper: #eef0e4;
+  --focus-ink: #f4f1e8;
+  --focus-muted: rgba(244, 241, 232, 0.65);
+  --taxonomy-diagram-line: rgba(211, 226, 201, 0.28);
+  --taxonomy-diagram-active: #e4b46e;
+}
+
+.taxonomy-focus__heading {
+  padding: clamp(30px, 4vw, 52px);
+  color: var(--focus-ink);
+  background: var(--forest-deep);
+}
+
+.taxonomy-focus__heading .taxonomy-explorer__kicker {
+  color: var(--moss-light);
+}
+
+.taxonomy-focus__heading > p {
+  color: var(--focus-muted);
+}
+
+.taxonomy-class-tabs {
+  display: grid;
+  overflow-x: auto;
+  color: var(--focus-ink);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background: var(--forest-deep);
+  grid-template-columns: repeat(7, minmax(116px, 1fr));
+  scrollbar-width: thin;
+}
+
+.taxonomy-class-tabs button {
+  display: grid;
+  min-height: 74px;
+  align-content: center;
+  gap: 5px;
+  padding: 12px 16px;
+  color: inherit;
+  border-right: 1px solid rgba(255, 255, 255, 0.14);
+  text-align: left;
+  transition: color 150ms ease, background-color 150ms ease;
+}
+
+.taxonomy-class-tabs button:last-child {
+  border-right: 0;
+}
+
+.taxonomy-class-tabs button:hover,
+.taxonomy-class-tabs button.is-active {
+  color: var(--forest-deep);
+  background: var(--moss-light);
+}
+
+.taxonomy-class-tabs span {
+  font-family: var(--serif);
+  font-size: 1rem;
+}
+
+.taxonomy-class-tabs small {
+  font-size: 0.52rem;
+  letter-spacing: 0.08em;
+  opacity: 0.66;
+}
+
+.taxonomy-focus__panel {
+  --taxonomy-canvas: #173f35;
+  --taxonomy-label: #173f35;
+
+  overflow: hidden;
+  color: var(--focus-ink);
+  border-right: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    var(--taxonomy-canvas);
+  background-position: -1px -1px;
+  background-size: 36px 36px;
+  box-shadow: var(--shadow);
+}
+
+.taxonomy-focus__panel .taxonomy-panel__header {
+  color: var(--focus-ink);
+  border-color: rgba(255, 255, 255, 0.17);
+  background: rgba(11, 35, 28, 0.82);
+}
+
+.taxonomy-focus__panel .taxonomy-panel__header > p,
+.taxonomy-focus__panel .taxonomy-panel__header > span,
+.taxonomy-focus__panel .taxonomy-diagram__node-copy small,
+.taxonomy-focus__panel .taxonomy-diagram__node-copy i {
+  color: var(--focus-muted);
+}
+
+.taxonomy-focus__panel .taxonomy-diagram__marker {
+  border-color: var(--moss-light);
+  background: var(--taxonomy-label);
+  box-shadow: 0 0 0 4px rgba(23, 63, 53, 0.82);
+}
+
+.taxonomy-focus__panel .taxonomy-diagram__node--species .taxonomy-diagram__marker {
+  border-color: var(--sun);
+  background: var(--sun);
+}
+
+.taxonomy-focus__panel .taxonomy-diagram__node--species:hover .taxonomy-diagram__node-copy,
+.taxonomy-focus__panel .taxonomy-diagram__node--species:focus-visible .taxonomy-diagram__node-copy,
+.taxonomy-focus__panel .taxonomy-diagram__node--species.is-active .taxonomy-diagram__node-copy {
+  color: var(--focus-ink);
+  background: color-mix(in srgb, var(--moss) 28%, var(--taxonomy-label));
+}
+
+.taxonomy-focus__panel .taxonomy-path {
+  color: var(--focus-ink);
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(11, 35, 28, 0.78);
+}
+
+.taxonomy-focus__panel .taxonomy-path__identity,
+.taxonomy-focus__panel .taxonomy-path li {
+  border-color: rgba(255, 255, 255, 0.13);
+}
+
+.taxonomy-focus__panel .taxonomy-path__identity > span,
+.taxonomy-focus__panel .taxonomy-path__identity i,
+.taxonomy-focus__panel .taxonomy-path li i {
+  color: var(--focus-muted);
+}
+
+.taxonomy-focus__panel .taxonomy-path li small {
+  color: var(--sun);
+}
+
+.taxonomy-explorer--focus > .taxonomy-disclaimer {
+  margin-right: 0;
 }
 
 .taxonomy-explorer__empty {
   display: grid;
-  min-height: 230px;
-  place-content: center;
+  min-height: 300px;
   place-items: center;
-  gap: 13px;
   color: var(--ink-faint);
-  text-align: center;
-}
-
-.taxonomy-explorer__empty span {
-  font-family: var(--serif);
-  font-size: 2.6rem;
-}
-
-.taxonomy-explorer__empty p {
-  margin: 0;
   font-size: 0.78rem;
 }
 
-@keyframes taxonomy-children-in {
-  from {
-    opacity: 0;
-    transform: translateY(-5px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.taxonomy-mobile-map {
+  display: none;
 }
 
 @media (max-width: 1100px) {
-  .taxonomy-explorer__heading {
-    gap: 48px;
-    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.58fr);
+  .taxonomy-explorer__heading,
+  .taxonomy-lineage__heading,
+  .taxonomy-focus__heading {
+    gap: 38px;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 0.52fr);
   }
 
-  .taxonomy-explorer__heading h2 {
-    font-size: clamp(3rem, 6vw, 4.5rem);
+  .taxonomy-explorer h2 {
+    font-size: clamp(2.8rem, 5.7vw, 4.4rem);
   }
 
-  .taxonomy-explorer__stats {
-    grid-template-columns: 1fr;
+  .taxonomy-lineage__layout {
+    grid-template-columns: 230px minmax(0, 1fr);
   }
 
-  .taxonomy-explorer__stats > div {
-    padding: 13px 0;
+  .taxonomy-species-index__list {
+    max-height: 560px;
   }
 
-  .taxonomy-explorer__stats > div + div {
-    margin: 0;
-    padding-left: 0;
-    border-top: 1px solid var(--line);
-    border-left: 0;
-  }
-
-  .taxonomy-tree__children {
-    margin-left: 24px;
-    padding-left: 29px;
-  }
-
-  .taxonomy-tree__children > .taxonomy-tree__item::before {
-    left: -29px;
-    width: 29px;
+  .taxonomy-lineage__identity {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
-@media (max-width: 760px) {
-  .taxonomy-explorer {
-    padding-top: 88px;
-    padding-bottom: 0;
-  }
-
-  .taxonomy-explorer__heading {
-    gap: 24px;
+@media (max-width: 960px) {
+  .taxonomy-path {
+    min-width: 0;
     grid-template-columns: 1fr;
   }
 
-  .taxonomy-explorer__heading h2 {
-    font-size: clamp(2.7rem, 12vw, 4.2rem);
+  .taxonomy-path__identity {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
   }
 
-  .taxonomy-explorer__introduction > p {
-    max-width: 540px;
+  .taxonomy-path ol {
+    overflow-x: auto;
+    grid-template-columns: repeat(7, minmax(108px, 1fr));
+    scrollbar-color: var(--line-strong) transparent;
+    scrollbar-width: thin;
   }
+}
 
-  .taxonomy-explorer__stats {
-    max-width: 420px;
-    margin-top: 22px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .taxonomy-explorer__stats > div {
-    padding-top: 15px;
+@media (max-width: 960px) {
+  .taxonomy-explorer {
+    padding-top: 76px;
     padding-bottom: 0;
   }
 
-  .taxonomy-explorer__stats > div + div {
-    margin-left: 18px;
-    padding-left: 18px;
-    border-top: 0;
-    border-left: 1px solid var(--line);
+  .taxonomy-explorer__heading,
+  .taxonomy-lineage__heading,
+  .taxonomy-focus__heading {
+    gap: 21px;
+    grid-template-columns: 1fr;
   }
 
-  .taxonomy-explorer__canvas {
-    margin-top: 42px;
-    padding-right: 16px;
-    padding-bottom: 28px;
-    padding-left: 16px;
-    background-size: 28px 28px;
-  }
-
-  .taxonomy-explorer__canvas-header {
-    min-height: 58px;
-    margin-right: -16px;
-    margin-bottom: 18px;
-    margin-left: -16px;
-    padding-right: 16px;
-    padding-left: 16px;
-  }
-
-  .taxonomy-explorer__canvas-header > p {
-    font-size: 0.55rem;
+  .taxonomy-explorer h2 {
+    font-size: clamp(2.55rem, 11vw, 4rem);
   }
 
   .taxonomy-explorer__legend {
-    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 17px;
   }
 
-  .taxonomy-explorer__legend span:first-child {
+  .taxonomy-panel--overview,
+  .taxonomy-lineage__layout {
+    margin-top: 32px;
+  }
+
+  .taxonomy-panel__header {
+    min-height: 56px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .taxonomy-panel__ranks {
     display: none;
   }
 
-  .taxonomy-tree__children {
-    margin-left: 13px;
-    padding-left: 17px;
+  .taxonomy-panel__header > p {
+    font-size: 0.53rem;
   }
 
-  .taxonomy-tree__children > .taxonomy-tree__item::before {
-    left: -17px;
-    width: 17px;
+  .taxonomy-diagram {
+    min-width: 1040px;
   }
 
-  .taxonomy-node,
-  .taxonomy-species {
-    min-height: 58px;
-    gap: 11px;
-    padding-right: 12px;
-    padding-left: 9px;
-    grid-template-columns: 24px 55px minmax(0, 1fr) auto;
+  .taxonomy-diagram--path {
+    min-width: 900px;
   }
 
-  .taxonomy-tree__item--kingdom > .taxonomy-branch > .taxonomy-node {
-    min-height: 64px;
+  .taxonomy-diagram--focus {
+    min-width: 960px;
   }
 
-  .taxonomy-node__rank {
-    padding-right: 8px;
+  .taxonomy-desktop-map {
+    display: none;
   }
 
-  .taxonomy-node__rank > span {
-    font-size: 0.82rem;
-  }
+  .taxonomy-mobile-map {
+    --taxonomy-diagram-label: var(--taxonomy-label);
 
-  .taxonomy-node__rank small {
-    font-size: 0.44rem;
-  }
-
-  .taxonomy-node__name {
-    display: grid;
-    gap: 2px;
-  }
-
-  .taxonomy-node__name strong {
+    display: block;
     overflow: hidden;
-    font-size: 0.98rem;
+    margin-top: 32px;
+    border: 1px solid var(--line-strong);
+    background:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px),
+      var(--taxonomy-canvas);
+    background-position: -1px -1px;
+    background-size: 28px 28px;
+    box-shadow: var(--shadow);
+  }
+
+  .taxonomy-mobile-map__header {
+    display: flex;
+    min-height: 58px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 0 16px;
+    border-bottom: 1px solid var(--line-strong);
+    background: color-mix(in srgb, var(--paper-soft) 91%, transparent);
+  }
+
+  .taxonomy-mobile-map__header p,
+  .taxonomy-mobile-map__header span {
+    margin: 0;
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+  }
+
+  .taxonomy-mobile-map__header p {
+    color: var(--forest);
+    font-weight: 700;
+  }
+
+  .taxonomy-mobile-map__header span {
+    overflow: hidden;
+    font-family: var(--serif);
+    font-size: 0.82rem;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
-  .taxonomy-node__name i {
-    font-size: 0.66rem;
+  .taxonomy-mobile-species-tabs {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    border-bottom: 1px solid var(--line);
+    gap: 7px;
+    scrollbar-color: var(--line-strong) transparent;
+    scrollbar-width: thin;
   }
 
-  .taxonomy-node__count {
-    min-width: 45px;
-    padding-left: 8px;
+  .taxonomy-mobile-species-tabs button {
+    flex: 0 0 auto;
+    min-height: 34px;
+    padding: 0 12px;
+    color: var(--ink-soft);
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--paper-soft) 88%, transparent);
+    font-family: var(--serif);
+    font-size: 0.72rem;
   }
 
-  .taxonomy-node__count strong {
-    font-size: 1rem;
+  .taxonomy-mobile-species-tabs button.is-active {
+    color: var(--paper-soft);
+    border-color: var(--forest);
+    background: var(--forest);
   }
 
-  .taxonomy-species__action {
-    width: 44px;
-    justify-content: center;
-    font-size: 0;
+  .taxonomy-diagram--mobile-path {
+    min-width: 0;
   }
 
-  .taxonomy-tree__item--species {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 430px) {
-  .taxonomy-explorer {
-    padding-right: 16px;
-    padding-left: 16px;
+  .taxonomy-diagram--mobile-path .taxonomy-diagram__node--taxon,
+  .taxonomy-diagram--mobile-path .taxonomy-diagram__node--species {
+    width: min(260px, calc(100% - 48px));
   }
 
-  .taxonomy-explorer__heading h2 {
-    font-size: 2.75rem;
+  .taxonomy-diagram--mobile-path .taxonomy-diagram__node-copy {
+    width: calc(100% - 12px);
   }
 
-  .taxonomy-explorer__stats {
-    max-width: none;
+  .taxonomy-mobile-map__hint {
+    margin: 0;
+    padding: 13px 16px;
+    color: var(--ink-faint);
+    border-top: 1px solid var(--line);
+    background: color-mix(in srgb, var(--paper-soft) 90%, transparent);
+    font-size: 0.58rem;
+    line-height: 1.6;
   }
 
-  .taxonomy-explorer__stats dt {
-    font-size: 0.55rem;
-  }
-
-  .taxonomy-explorer__canvas {
-    margin-right: -16px;
-    margin-left: -16px;
-    border-right: 0;
-    border-left: 0;
+  .taxonomy-lineage__panel > .taxonomy-mobile-map {
+    margin-top: 0;
+    border: 0;
     box-shadow: none;
   }
 
-  .taxonomy-explorer__canvas-header {
-    align-items: flex-start;
-    padding-top: 14px;
-    padding-bottom: 14px;
+  .taxonomy-explorer--focus > .taxonomy-mobile-map {
+    --taxonomy-canvas: #173f35;
+    --taxonomy-label: #173f35;
+
+    margin-top: 0;
+    color: var(--focus-ink);
+    border-color: rgba(255, 255, 255, 0.15);
   }
 
-  .taxonomy-explorer__canvas-header > p {
-    max-width: 175px;
-    line-height: 1.55;
+  .taxonomy-explorer--focus .taxonomy-mobile-map__header,
+  .taxonomy-explorer--focus .taxonomy-mobile-map__hint {
+    color: var(--focus-ink);
+    border-color: rgba(255, 255, 255, 0.15);
+    background: rgba(11, 35, 28, 0.82);
+  }
+
+  .taxonomy-explorer--focus .taxonomy-mobile-map__header p,
+  .taxonomy-explorer--focus .taxonomy-mobile-map__hint,
+  .taxonomy-explorer--focus .taxonomy-diagram__node-copy small,
+  .taxonomy-explorer--focus .taxonomy-diagram__node-copy i {
+    color: var(--focus-muted);
+  }
+
+  .taxonomy-explorer--focus .taxonomy-mobile-species-tabs {
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  .taxonomy-explorer--focus .taxonomy-mobile-species-tabs button {
+    color: var(--focus-ink);
+    border-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  .taxonomy-explorer--focus .taxonomy-mobile-species-tabs button.is-active {
+    color: var(--forest-deep);
+    border-color: var(--moss-light);
+    background: var(--moss-light);
+  }
+
+  .taxonomy-explorer--focus .taxonomy-mobile-map .taxonomy-diagram__node-copy {
+    color: var(--focus-ink);
+    background: rgba(23, 63, 53, 0.9);
+  }
+
+  .taxonomy-explorer--focus .taxonomy-mobile-map .taxonomy-diagram__marker {
+    border-color: var(--moss-light);
+    background: #173f35;
+    box-shadow: 0 0 0 4px rgba(23, 63, 53, 0.82);
+  }
+
+  .taxonomy-explorer--focus .taxonomy-mobile-map .taxonomy-diagram__node--species .taxonomy-diagram__marker {
+    border-color: var(--sun);
+    background: var(--sun);
+  }
+
+  .taxonomy-explorer--focus .taxonomy-mobile-map .taxonomy-diagram__node--species:hover .taxonomy-diagram__node-copy,
+  .taxonomy-explorer--focus .taxonomy-mobile-map .taxonomy-diagram__node--species:focus-visible .taxonomy-diagram__node-copy,
+  .taxonomy-explorer--focus .taxonomy-mobile-map .taxonomy-diagram__node--species.is-active .taxonomy-diagram__node-copy {
+    color: var(--focus-ink);
+    background: color-mix(in srgb, var(--moss) 28%, #173f35);
+  }
+
+  .taxonomy-disclaimer {
+    text-align: left;
+  }
+
+  .taxonomy-lineage__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .taxonomy-species-index__list {
+    display: grid;
+    max-height: 250px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .taxonomy-species-index__list button:nth-child(odd) {
+    border-right: 1px solid var(--line);
+  }
+
+  .taxonomy-lineage__identity {
+    min-height: 100px;
+  }
+
+  .taxonomy-focus__heading {
+    padding: 28px 22px;
+  }
+
+  .taxonomy-class-tabs {
+    grid-template-columns: repeat(7, minmax(104px, 1fr));
+  }
+
+}
+
+@media (max-width: 430px) {
+  .taxonomy-explorer h2 {
+    font-size: 2.75rem;
   }
 
   .taxonomy-explorer__legend {
-    min-height: 30px;
+    gap: 15px;
   }
 
-  .taxonomy-tree__children {
-    margin-left: 8px;
-    padding-left: 10px;
+  .taxonomy-species-index__list {
+    grid-template-columns: 1fr;
   }
 
-  .taxonomy-tree__children > .taxonomy-tree__item::before {
-    left: -10px;
-    width: 10px;
+  .taxonomy-species-index__list button:nth-child(odd) {
+    border-right: 0;
   }
 
-  .taxonomy-node,
-  .taxonomy-species {
-    gap: 8px;
-    padding-right: 8px;
-    padding-left: 6px;
-    grid-template-columns: 24px 40px minmax(0, 1fr) auto;
+  .taxonomy-lineage__identity {
+    gap: 17px;
+    padding: 18px;
   }
 
-  .taxonomy-node__rank {
-    padding-right: 5px;
-  }
-
-  .taxonomy-node__rank small {
-    display: none;
-  }
-
-  .taxonomy-node__count {
-    min-width: 38px;
-    gap: 2px;
-    padding-left: 6px;
-  }
-
-  .taxonomy-node__count small {
-    font-size: 0.5rem;
-  }
-
-  .taxonomy-species__action {
-    width: 32px;
-    min-height: 44px;
+  .taxonomy-lineage__identity button {
+    width: 100%;
+    justify-content: space-between;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .taxonomy-node,
-  .taxonomy-species,
-  .taxonomy-node__toggle svg,
-  .taxonomy-species__action svg {
+  .taxonomy-diagram__marker,
+  .taxonomy-diagram__node-copy,
+  .taxonomy-species-index__list button,
+  .taxonomy-lineage__identity button svg,
+  .taxonomy-class-tabs button {
     transition: none;
   }
+}
 
-  .taxonomy-branch[open] > .taxonomy-tree__children {
-    animation: none;
+@media (forced-colors: active) {
+  .taxonomy-explorer {
+    --taxonomy-diagram-line: CanvasText;
+    --taxonomy-diagram-active: Highlight;
+  }
+
+  .taxonomy-panel,
+  .taxonomy-lineage__panel,
+  .taxonomy-species-index,
+  .taxonomy-focus__panel,
+  .taxonomy-diagram__marker {
+    border-color: CanvasText;
   }
 }

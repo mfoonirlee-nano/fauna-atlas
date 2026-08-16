@@ -726,7 +726,7 @@ function App() {
           </div>
         </section>
 
-        <TaxonomyExplorer items={species} onOpenSpecies={openSpecies} />
+        <TaxonomyExplorer items={species} theme={theme} onOpenSpecies={openSpecies} />
 
         <section className="atlas-section" id="atlas" aria-labelledby="atlas-title">
           <div className="section-heading">
