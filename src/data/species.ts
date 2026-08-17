@@ -25,6 +25,8 @@ const GOLDEN_POISON_FROG_SOURCE_DATE = '2026-08-16' as const;
 const GOLDEN_POISON_FROG_CONTENT_DATE = '2026-08-16' as const;
 const AFRICAN_SAVANNA_ELEPHANT_SOURCE_DATE = '2026-08-17' as const;
 const AFRICAN_SAVANNA_ELEPHANT_CONTENT_DATE = '2026-08-17' as const;
+const KOMODO_DRAGON_SOURCE_DATE = '2026-08-17' as const;
+const KOMODO_DRAGON_CONTENT_DATE = '2026-08-17' as const;
 
 const iucnLabels: Record<IucnStatusCode, { zh: string; en: string }> = {
   EX: { zh: '灭绝', en: 'Extinct' },
@@ -670,6 +672,183 @@ const AFRICAN_SAVANNA_ELEPHANT_SOURCES = [
     url: 'https://africanelephantfund.org/en/home-1',
     kind: 'conservation',
     accessedAt: AFRICAN_SAVANNA_ELEPHANT_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const KOMODO_DRAGON_SOURCES = [
+  {
+    title: 'IUCN Red List — Varanus komodoensis (2019 assessment, published in 2021-2)',
+    url: 'https://doi.org/10.2305/IUCN.UK.2021-2.RLTS.T22884A123633058.en',
+    kind: 'conservation',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Indonesia Ministry of Forestry — Komodo Dragon Conservation Strategy and Action Plan 2025–2035',
+    url: 'https://ksdae.kehutanan.go.id/in-flores/storage/7b49f5e3-eedd-484c-8014-aa19a4e79892/preview/',
+    kind: 'conservation',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Indonesia Ministry of Forestry — Priority Species Conservation: 2024 Komodo monitoring',
+    url: 'https://ksdae.kehutanan.go.id/in-flores/program/priority-species-conservation/',
+    kind: 'conservation',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'CITES — Appendices I, II and III (25 May 2024)',
+    url: 'https://www.cites.org/sites/default/files/eng/app/2024/E-Appendices-2024-05-25.pdf',
+    kind: 'conservation',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Reptile Database — Varanus komodoensis',
+    url: 'https://reptile-database.reptarium.cz/Varanus/komodoensis',
+    kind: 'taxonomy',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Ouwens 1912 — Original description of Varanus komodoensis',
+    url: 'https://www.biodiversitylibrary.org/part/76070',
+    kind: 'taxonomy',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'CITES/BfN — Identification Guide for Monitor Lizards',
+    url: 'https://cites.org/sites/default/files/vc-files/files/ID_Guide_Lizards_BFN.pdf',
+    kind: 'general',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: "Smithsonian's National Zoo — Komodo Dragon",
+    url: 'https://nationalzoo.si.edu/animals/komodo-dragon',
+    kind: 'general',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Iannucci et al. 2022 — Population genomics and conservation units',
+    url: 'https://doi.org/10.1111/mec.16121',
+    kind: 'distribution',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Harlow et al. 2010 — Thermoregulatory habits of free-ranging Komodo dragons',
+    url: 'https://doi.org/10.1155/2010/921371',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Imansyah et al. 2008 — Ontogenetic habitat use and arboreality',
+    url: 'https://doi.org/10.1111/j.1469-7998.2007.00368.x',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Laver et al. 2012 — Sex-biased life-history divergence and growth',
+    url: 'https://doi.org/10.1371/journal.pone.0045398',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Jessop et al. 2006 — Island differences in body size and prey biomass',
+    url: 'https://doi.org/10.1111/j.0030-1299.2006.14371.x',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Purwandana et al. 2016 — Ontogenetic shift in diet and foraging',
+    url: 'https://doi.org/10.1007/s00114-016-1351-6',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Fry et al. 2009 — Venom system and predatory mechanics',
+    url: 'https://doi.org/10.1073/pnas.0810883106',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: "D'Amore et al. 2011 — Bite force and bite-and-pull feeding mechanics",
+    url: 'https://doi.org/10.1371/journal.pone.0026226',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Goldstein et al. 2013 — Saliva and gingiva bacteriology of captive Komodo dragons',
+    url: 'https://doi.org/10.1638/2012-0022R.1',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'LeBlanc et al. 2024 — Iron-coated serrated teeth',
+    url: 'https://doi.org/10.1038/s41559-024-02477-7',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Lind et al. 2019 — Komodo dragon genome and vomeronasal receptors',
+    url: 'https://doi.org/10.1038/s41559-019-0945-8',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Jessop et al. 2004 — Nesting ecology and conservation',
+    url: 'https://doi.org/10.1016/j.biocon.2003.08.005',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Purwandana et al. 2020 — Reproductive periodicity and hatchling emergence',
+    url: 'https://doi.org/10.1643/CH-19-337',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Purwandana et al. 2022 — Seasonal activity and reproduction',
+    url: 'https://doi.org/10.1093/biolinnean/blac045',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Jessop et al. 2018 — Dispersal, site fidelity and movement',
+    url: 'https://doi.org/10.1098/rspb.2018.1829',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Clemente et al. 2009 — Locomotor capacity in monitor lizards',
+    url: 'https://doi.org/10.1111/j.1469-7998.2009.00559.x',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Watts et al. 2006 — Parthenogenesis in captive Komodo dragons',
+    url: 'https://doi.org/10.1038/4441021a',
+    kind: 'ecology',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Jones et al. 2020 — Climate-change vulnerability to 2050',
+    url: 'https://doi.org/10.1002/ece3.6705',
+    kind: 'conservation',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Ariefiandy et al. 2021 — Human pressures and range loss on Flores',
+    url: 'https://doi.org/10.1007/s10531-020-02100-8',
+    kind: 'conservation',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'Azmi et al. 2021 — Road mortality in northern Flores',
+    url: 'https://www.herpconbio.org/Volume_16/Issue_1/Azmi_etal_2021.pdf',
+    kind: 'conservation',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+  {
+    title: 'UNESCO/IUCN 2022 — Reactive Monitoring Mission to Komodo National Park',
+    url: 'https://whc.unesco.org/document/199286',
+    kind: 'conservation',
+    accessedAt: KOMODO_DRAGON_SOURCE_DATE,
   },
 ] as const satisfies readonly SpeciesSource[];
 
@@ -2221,7 +2400,7 @@ export const species = [
   {
     id: 'species-varanus-komodoensis',
     slug: 'komodo-dragon',
-    names: { zh: '科莫多巨蜥', en: 'Komodo Dragon', aliases: ['科莫多龙'] },
+    names: { zh: '科莫多巨蜥', en: 'Komodo Dragon', aliases: ['科莫多龙', '科摩多巨蜥'] },
     scientificName: 'Varanus komodoensis',
     taxonomy: animalTaxonomy(
       taxon('Chordata', '脊索动物门'),
@@ -2230,63 +2409,208 @@ export const species = [
       taxon('Varanidae', '巨蜥科'),
       taxon('Varanus', '巨蜥属'),
     ),
-    conservation: conservation('EN', 'decreasing', 2021, 'B1ab(iii)+2ab(iii)'),
+    conservation: conservation('EN', 'decreasing', 2019, 'C1'),
     distribution: {
       realms: ['terrestrial'],
       continents: ['亚洲'],
-      regions: ['小巽他群岛'],
+      regions: ['小巽他群岛', '科莫多国家公园', '弗洛勒斯沿海'],
       countries: ['印度尼西亚'],
-      endemicTo: ['科莫多岛', '林卡岛', '弗洛勒斯岛', '吉利莫堂岛'],
-      range: '现生野外种群局限于印度尼西亚小巽他群岛的少数岛屿。',
+      endemicTo: [
+        '科莫多岛',
+        '林卡岛',
+        '吉利莫堂岛',
+        '努沙科德岛',
+        '帕达尔岛',
+        '弗洛勒斯岛及邻近小岛',
+      ],
+      range:
+        '仅自然分布于印度尼西亚小巽他群岛。2024 年国家公园监测覆盖科莫多、林卡、吉利莫堂、努沙科德和帕达尔五岛；国家公园外仍见于弗洛勒斯岛西、南、北部破碎沿海生境及 Longos、Ontoloe 等近岸小岛。',
       center: { lat: -8.56, lng: 119.48 },
     },
     habitats: [
       {
-        name: '热带干燥草原与季风林',
+        name: '沿海落叶季风林与谷地',
         realm: 'terrestrial',
-        description: '利用低地稀树草原、灌丛、季风林和季节性溪谷。',
+        description:
+          '靠近海岸的开放落叶季风林、谷地与山麓提供阴蔽、巢址、猎物和幼体所需的树木；多年龄阶段会主动选择这类生境。',
         isPrimary: true,
+      },
+      {
+        name: '稀树草原、草地与灌丛镶嵌',
+        realm: 'terrestrial',
+        description:
+          '成年个体会穿行和伏击于季节性干燥的稀树草原、林地、草地与灌丛，但并非只生活在完全开阔地。',
+      },
+      {
+        name: '河岸带、红树林与沿海避难生境',
+        realm: 'terrestrial',
+        description:
+          '河岸植被、红树林边缘和较湿润的沿海微生境在干季提供遮蔽与食物资源，也是整体生境镶嵌的一部分。',
       },
     ],
     measurements: {
-      length: { min: 2, max: 3, unit: 'm' },
-      weight: { min: 70, max: 90, unit: 'kg', note: '大型野生雄性' },
+      length: {
+        max: 3.04,
+        unit: 'm',
+        note: '雄性全长纪录；雌性纪录可达 2.67 米，不代表普通成体都接近上限',
+      },
     },
     diet: {
       types: ['carnivore'],
-      foods: ['帝汶鹿', '野猪', '水牛幼体', '腐肉', '同类幼体'],
-      description: '兼具伏击捕猎与食腐习性，以锯齿状牙齿和含毒腺分泌物的咬伤制服猎物。',
+      foods: ['昆虫与其他节肢动物', '小型爬行动物和鸟类', '帝汶鹿', '野猪', '水牛', '腐肉', '较小同类'],
+      description:
+        '幼体主动搜索小型猎物；体型超过约 20 千克后，更常伏击大型脊椎动物。后弯锯齿牙切开组织，颈部和身体后拉扩大伤口，下颌毒腺分泌物可加重失血和低血压；武器化口腔细菌不是当前证据支持的主机制。',
     },
-    activity: ['日行性', '伏击捕猎', '独居'],
-    tags: ['岛屿特有种', '最大蜥蜴', '顶级捕食者', '印度尼西亚'],
-    summary: '仅存于印度尼西亚少数岛屿的现生最大蜥蜴。',
-    description: '科莫多巨蜥是干燥岛屿生态系统的顶级捕食者。灵敏的犁鼻器让它能循气味寻找远处猎物；海平面上升、栖息地缩减和猎物变化使狭窄分布区面临风险。',
-    keyFacts: [
-      '分叉舌把气味颗粒送入犁鼻器，可追踪数千米外的腐肉。',
-      '幼蜥常爬到树上，避开会捕食它们的成年同类。',
-      '短距离奔跑速度可接近每小时 20 千米。',
+    activity: ['日间活动为主', '幼体主动觅食—大型个体伏击', '高度地点忠诚', '多独行、可在尸体边竞争性聚集'],
+    tags: ['印度尼西亚特有种', 'IUCN 濒危', '现生最大蜥蜴', '岛屿顶级捕食者', 'CITES 附录 I', '幼体树栖'],
+    summary: '仅存于印度尼西亚小巽他群岛、会随成长从树栖小猎手转为大型伏击者的现生最大蜥蜴。',
+    description:
+      '科莫多巨蜥生活在沿海落叶季风林与稀树草原交错的岛屿景观。黄色分叉舌采集化学颗粒，成对犁鼻器帮助它循迹；后弯锯齿牙、咬住后拉和毒腺分泌物共同造成猎物创伤。幼体纤细而斑纹鲜明，主要在树上活动；成年雄性则可能长到约 3 米。国家公园内种群近年总体稳定，但弗洛勒斯破碎生境、猎物减少、犬、道路、非法捕捉与未来海平面上升仍使全球状态维持濒危。',
+    storySections: [
+      {
+        key: 'island-giant',
+        label: '外形与岛屿',
+        title: '三米纪录，只属于最大的雄性',
+        body:
+          '它是现生体长最大的蜥蜴，雄性全长纪录 3.04 米、雌性纪录 2.67 米。长期研究种群中，成年雄性约 70 千克、雌性约 25 千克；岛上大型猎物多少还会让不同种群长成不同量级。它没有恐龙式背棘，也不是鳄鱼。',
+      },
+      {
+        key: 'chemical-trail',
+        label: '感官',
+        title: '舌头采样，犁鼻器判断方向',
+        body:
+          '黄色分叉舌不断伸缩，分别从左右两侧带回化学颗粒，再送入口腔顶部成对的犁鼻器。全基因组研究发现的犁鼻受体扩张与发达化学感知相符；自然史资料另称它能循线索寻找数千米外的受伤动物或腐肉，但这不是固定探测半径。',
+      },
+      {
+        key: 'bite-and-pull',
+        label: '捕猎',
+        title: '真正危险的是一整套咬住—后拉',
+        body:
+          '后弯锯齿牙先切开组织，巨蜥再用颈部、四肢和身体向后拉扯；下颌毒腺分泌物可放大出血和低血压。它不是靠一口“毒杀”，也没有证据证明会专门培养致命口腔细菌。',
+      },
+      {
+        key: 'tree-childhood',
+        label: '成长',
+        title: '先在树上长大，再到地面伏击',
+        body:
+          '刚出巢的幼体更纤细，身上有醒目的黄黑或橙黑斑带，主要在树上寻找昆虫、小蜥蜴和鸟类，也躲避会捕食它们的成年同类。随着身体变重，树栖活动下降，食谱和捕猎方式一起转向大型地面猎物。',
+      },
+      {
+        key: 'five-park-islands',
+        label: '分布',
+        title: '五座国家公园岛屿之外，还有破碎的弗洛勒斯海岸',
+        body:
+          '2024 年官方监测覆盖科莫多、林卡、吉利莫堂、努沙科德和帕达尔五岛；国家公园外的弗洛勒斯沿岸和近岸小岛仍保有分散种群。小岛之间高度隔离，使每一处栖息地和遗传单元都不能轻易替代。',
+      },
+      {
+        key: 'conservation-boundary',
+        label: '保护',
+        title: '公园内稳定，不等于全球风险解除',
+        body:
+          '国家公园 2024 年估计有 3,270 ± 371 只各年龄个体，近年总体稳定；IUCN 的全球评估却仍为濒危、下降。弗洛勒斯生境破碎、猎物盗猎、犬、道路和非法捕捉已在发生，海平面上升和气候变化还会把沿海窄域风险推向未来。',
+      },
     ],
-    threats: ['栖息地缩减', '海平面上升', '猎物减少', '人类活动与火灾'],
-    conservationActions: ['科莫多国家公园保护', '猎物与种群监测', '限制栖息地开发'],
-    metrics: {
-      adultLengthCm: [200, 300],
-      adultMassKg: [70, 90],
-      lifespanYears: [20, 30],
-      topSpeedKph: 20,
-    },
+    keyFacts: [
+      '黄色分叉舌采集化学颗粒，成对犁鼻器负责分析；自然史资料称可循线索数千米，但不是固定探测半径。',
+      '幼体高度树栖、斑纹鲜明，随着体型增长逐渐转到地面并由主动觅食转向伏击。',
+      '锯齿牙撕裂、身体后拉和毒腺分泌物共同致伤，不是靠武器化口腔细菌。',
+      '圈养雌性曾被证实可孤雌生殖，但野外常规繁殖仍是有性生殖。',
+    ],
+    threats: [
+      '弗洛勒斯沿海生境丧失、退化与破碎化',
+      '鹿和野猪等猎物被盗猎',
+      '自由活动犬与人兽冲突',
+      '道路致死和未经充分评估的基础设施开发',
+      '非法捕捉与贸易',
+      '海平面上升和气候变化',
+      '低遗传多样性与种群隔离',
+    ],
+    conservationActions: [
+      '保护并恢复沿海季风林谷地和弗洛勒斯破碎生境',
+      '保护猎物并加强协同巡护、反盗猎和贸易执法',
+      '控制自由活动犬并缓解道路和人兽冲突',
+      '持续开展种群、巢址、猎物和遗传监测',
+      '分别维护重要遗传单元并规划气候避难所',
+      '对旅游和基础设施开展环评、承载量评估及社区共管',
+    ],
+    metrics: {},
     featuredStats: [
-      { key: 'length', label: '最大体长', value: '约 3', unit: '米' },
-      { key: 'speed', label: '短跑速度', value: '约 20', unit: '千米/时' },
-      { key: 'islands', label: '现存主要岛屿', value: '4', unit: '座' },
+      {
+        key: 'maximum-length',
+        label: '雄性全长纪录',
+        value: '3.04',
+        unit: '米',
+        note: '雌性纪录 2.67 米；不是普通成体范围',
+      },
+      {
+        key: 'mature-individuals',
+        label: 'IUCN 成熟个体估算',
+        value: '1,383',
+        unit: '只',
+        note: '2019 全球评估；不等于全部年龄总数',
+      },
+      {
+        key: 'park-population',
+        label: '国家公园总个体估算',
+        value: '3,270 ± 371',
+        unit: '只',
+        note: '印度尼西亚官方 2024 监测，包含不同年龄阶段',
+      },
+      {
+        key: 'monitored-islands',
+        label: '国家公园监测岛屿',
+        value: '5',
+        unit: '座',
+        note: '科莫多、林卡、吉利莫堂、努沙科德、帕达尔',
+      },
     ],
     media: {
-      alt: '干燥草地上的科莫多巨蜥',
-      focalPoint: { x: 0.5, y: 0.5 },
+      image: './images/species/komodo-dragon/01-dry-savanna-portrait.webp',
+      alt: '旱季小巽他群岛的枯黄草地与棕榈山坡前，一只成年科莫多巨蜥完整地横向走过开阔地',
+      focalPoint: { x: 0.68, y: 0.62 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/komodo-dragon/02-forked-tongue-sensing.webp',
+          alt: '落叶季风林边缘，一只成年科莫多巨蜥抬头伸出一条末端分成两叉的浅黄色舌头',
+          title: '把空气送进犁鼻器',
+          caption: '分叉舌负责采集化学颗粒，犁鼻器参与辨别方向；画面不把感知能力夸成固定的最远距离。',
+          focalPoint: { x: 0.72, y: 0.53 },
+        },
+        {
+          image: './images/species/komodo-dragon/03-island-habitat-mosaic.webp',
+          alt: '云层下的小巽他群岛山地景观中，枯草坡、季风林、棕榈与远海相连，一只科莫多巨蜥在中景行走',
+          title: '草原与季风林之间',
+          caption: '科莫多巨蜥利用的是季节性生境镶嵌；开阔草坡、林地遮阴、溪谷和沿海植被共同支持不同体型与季节需求。',
+          focalPoint: { x: 0.62, y: 0.58 },
+        },
+        {
+          image: './images/species/komodo-dragon/04-timor-deer-ambush.webp',
+          alt: '干燥季风林小径旁，一只科莫多巨蜥伏在左侧阴影中，与右侧一只完整无伤的帝汶鹿保持明显距离',
+          title: '伏击发生在最后几步之前',
+          caption: '大型个体减少主动搜索，更多在猎物通道等待机会；画面保留距离，不把捕食呈现成追逐、血腥或必然成功。',
+          focalPoint: { x: 0.57, y: 0.57 },
+        },
+        {
+          image: './images/species/komodo-dragon/05-arboreal-juvenile.webp',
+          alt: '季风林的一根粗壮低树枝上，一只带黑黄橙斑带的细长科莫多巨蜥幼体伸展长尾向前爬行',
+          title: '幼体先到树上生活',
+          caption: '初孵幼体体型很小、花纹鲜明，树栖能降低被大型同类捕食的风险，也提供适合其体型的昆虫和小型脊椎动物。',
+          focalPoint: { x: 0.58, y: 0.52 },
+        },
+        {
+          image: './images/species/komodo-dragon/06-mound-nest-guarding.webp',
+          alt: '落叶季风林中，一只成年科莫多巨蜥守在带有多处穴口和新翻土迹的宽大土丘巢旁，地面没有裸露的卵',
+          title: '真正的卵室藏在假洞之后',
+          caption: '守巢行为由雌性完成；画面用已记录的守巢情境表达身份，并不声称能仅凭外观判定雌雄。卵深埋于多腔土丘的一处真巢室。',
+          focalPoint: { x: 0.57, y: 0.55 },
+        },
+      ],
     },
-    sources: sourcesFor('Varanus komodoensis'),
+    sources: KOMODO_DRAGON_SOURCES,
     featured: true,
     publishedAt: CONTENT_DATE,
-    updatedAt: CONTENT_DATE,
+    updatedAt: KOMODO_DRAGON_CONTENT_DATE,
   },
   {
     id: 'species-gavialis-gangeticus',
