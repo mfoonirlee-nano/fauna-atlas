@@ -29,6 +29,8 @@ const KOMODO_DRAGON_SOURCE_DATE = '2026-08-17' as const;
 const KOMODO_DRAGON_CONTENT_DATE = '2026-08-17' as const;
 const RUSTY_PATCHED_BUMBLE_BEE_SOURCE_DATE = '2026-08-17' as const;
 const RUSTY_PATCHED_BUMBLE_BEE_CONTENT_DATE = '2026-08-17' as const;
+const STAGHORN_CORAL_SOURCE_DATE = '2026-08-17' as const;
+const STAGHORN_CORAL_CONTENT_DATE = '2026-08-17' as const;
 
 const iucnLabels: Record<IucnStatusCode, { zh: string; en: string }> = {
   EX: { zh: '灭绝', en: 'Extinct' },
@@ -974,6 +976,117 @@ const RUSTY_PATCHED_BUMBLE_BEE_SOURCES = [
     url: 'https://doi.org/10.1051/apido:19940404',
     kind: 'ecology',
     accessedAt: RUSTY_PATCHED_BUMBLE_BEE_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const STAGHORN_CORAL_SOURCES = [
+  {
+    title: 'Crabbe et al. 2022 — Acropora cervicornis, IUCN Red List',
+    url: 'https://www.iucnredlist.org/species/133381/165860142',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'ITIS — Acropora cervicornis (TSN 52862)',
+    url: 'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=52862',
+    kind: 'taxonomy',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'WoRMS — Acropora cervicornis (AphiaID 206989)',
+    url: 'https://www.marinespecies.org/aphia.php?p=taxdetails&id=206989',
+    kind: 'taxonomy',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries — Staghorn Coral current species profile',
+    url: 'https://www.fisheries.noaa.gov/species/staghorn-coral',
+    kind: 'general',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries 2006 — Final ESA listing rule for elkhorn and staghorn corals',
+    url: 'https://www.govinfo.gov/content/pkg/FR-2006-05-09/pdf/06-4321.pdf',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries 2014 — Final coral listing and Acropora reclassification rule',
+    url: 'https://www.federalregister.gov/documents/2014/09/10/2014-20814/endangered-and-threatened-wildlife-and-plants-final-listing-determinations-on-proposal-to-list-66',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries 2008 — Critical habitat for elkhorn and staghorn corals',
+    url: 'https://www.fisheries.noaa.gov/action/critical-habitat-elkhorn-and-staghorn-corals',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries 2015 — Recovery Plan for Elkhorn and Staghorn Corals',
+    url: 'https://repository.library.noaa.gov/view/noaa/8950/noaa_8950_DS1.pdf',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries 2022 — Caribbean Corals 5-Year Review',
+    url: 'https://media.fisheries.noaa.gov/2022-08/Caribbean%20Corals%205%20Year%20Review_0.pdf',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Aronson & Precht 2001 — White-band disease and Caribbean reef change',
+    url: 'https://doi.org/10.1023/A:1013103928980',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Lirman et al. 2014 — Growth dynamics of Acropora cervicornis',
+    url: 'https://doi.org/10.1371/journal.pone.0107253',
+    kind: 'ecology',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Mercado-Molina et al. 2014 — Survival and growth of unattached fragments',
+    url: 'https://doi.org/10.1016/j.jembe.2014.04.017',
+    kind: 'ecology',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Irwin et al. 2017 — Age and diversity of resilient Acropora communities',
+    url: 'https://doi.org/10.1007/s00338-017-1602-9',
+    kind: 'ecology',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Goergen et al. 2019 — Temporal change and recovery potential',
+    url: 'https://doi.org/10.3389/fmars.2019.00036',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Miller et al. 2020 — Larval longevity and settlement competency',
+    url: 'https://doi.org/10.7717/peerj.9705',
+    kind: 'ecology',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Palacio-Castro et al. 2021 — Nutrient and heat susceptibility',
+    url: 'https://doi.org/10.1007/s00338-021-02159-x',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Vollmer et al. 2023 — Genomic signatures of disease resistance',
+    url: 'https://doi.org/10.1126/science.adi3601',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
+  },
+  {
+    title: 'Muller et al. 2025 — Restoration strategies after the 2023 Florida heatwave',
+    url: 'https://doi.org/10.1111/cobi.70168',
+    kind: 'conservation',
+    accessedAt: STAGHORN_CORAL_SOURCE_DATE,
   },
 ] as const satisfies readonly SpeciesSource[];
 
@@ -3276,7 +3389,7 @@ export const species = [
   {
     id: 'species-acropora-cervicornis',
     slug: 'staghorn-coral',
-    names: { zh: '鹿角珊瑚', en: 'Staghorn Coral', aliases: ['麋角珊瑚'] },
+    names: { zh: '鹿角珊瑚', en: 'Staghorn Coral', aliases: [] },
     scientificName: 'Acropora cervicornis',
     taxonomy: animalTaxonomy(
       taxon('Cnidaria', '刺胞动物门'),
@@ -3285,67 +3398,220 @@ export const species = [
       taxon('Acroporidae', '轴孔珊瑚科'),
       taxon('Acropora', '轴孔珊瑚属'),
     ),
-    conservation: conservation('CR', 'decreasing', 2021, 'A2ace'),
+    conservation: conservation('CR', 'decreasing', 2021, 'A2bce'),
     distribution: {
       realms: ['marine'],
       continents: ['北美洲', '南美洲'],
-      regions: ['加勒比海', '佛罗里达礁岛群', '巴哈马'],
-      countries: ['美国', '巴哈马', '古巴', '伯利兹', '牙买加', '多米尼加共和国'],
-      range: '分布于加勒比海及邻近西大西洋温暖浅海，过去曾形成广阔而密集的枝状礁区。',
+      regions: [
+        '热带西大西洋',
+        '加勒比海',
+        '墨西哥湾',
+        '佛罗里达礁群',
+        '大安的列斯与小安的列斯',
+        '中美洲加勒比岸',
+      ],
+      countries: [
+        '美国',
+        '巴哈马',
+        '墨西哥',
+        '伯利兹',
+        '洪都拉斯',
+        '古巴',
+        '牙买加',
+        '多米尼加共和国',
+        '哥伦比亚',
+        '委内瑞拉',
+      ],
+      range:
+        '分布于热带西大西洋、加勒比海与墨西哥湾多国及属地的适宜礁区和硬底。大尺度地理包络仍广，但历史出现礁点、覆盖度、密度和连续枝丛均已严重减少；国家列表仅列代表性范围。',
       center: { lat: 20, lng: -78 },
     },
     habitats: [
       {
-        name: '清澈浅水珊瑚礁',
+        name: '中浅水礁坡与斑块礁',
         realm: 'marine',
-        description: '多生长在光照充足、水流良好、约 1—30 米深的前礁与礁坪。',
+        description:
+          '常见于约 5—20 米深的沟脊礁、银行礁、斑块礁与过渡礁；局地可更浅，罕见记录可深至约 60 米。',
         isPrimary: true,
+      },
+      {
+        name: '固结硬底与石灰岩台地',
+        realm: 'marine',
+        description: '稳定的死珊瑚骨骼、石灰岩脊、台地和其他硬底为幼体附着与断枝再附着提供基底。',
+      },
+      {
+        name: '清澈、流通且光照充足的水体',
+        realm: 'marine',
+        description: '高度依赖共生藻光合供能；长期浑浊、沉积物、营养盐和大型藻覆盖会降低生长与招募。',
       },
     ],
     measurements: {
-      length: { min: 0.5, max: 2, unit: 'm', note: '珊瑚群体横向尺度，而非单个珊瑚虫' },
+      length: {
+        max: 2.4,
+        unit: 'm',
+        note: '群体最大直径的公众资料上限；现代残存枝丛常小得多，不是单个珊瑚虫体长',
+      },
+      height: {
+        max: 1.2,
+        unit: 'm',
+        note: '群体最大高度；断枝可使同一基因个体形成多个分离枝丛',
+      },
     },
     diet: {
       types: ['filter-feeder'],
-      foods: ['共生虫黄藻提供的光合产物', '浮游生物', '溶解有机物'],
-      description: '主要能量来自组织内共生藻的光合作用，珊瑚虫也会伸出触手捕捉浮游生物。',
+      foods: ['共生甲藻转移的光合产物', '浮游生物与悬浮有机颗粒'],
+      description:
+        '主要能量来自组织内共生甲藻的光合作用，珊瑚虫也用触手捕捉浮游生物和悬浮颗粒；“滤食者”只是现有分类对悬浮摄食的近似。',
     },
-    activity: ['固着群体', '夜间伸展触手', '无性断枝繁殖'],
-    tags: ['加勒比海', '造礁珊瑚', '共生', '极危'],
-    summary: '枝条如鹿角般伸展、为加勒比珊瑚礁营造三维庇护空间的造礁动物。',
-    description: '鹿角珊瑚生长较快，断裂枝条也能附着形成新群体，因此是礁体恢复的重要物种。白带病、海洋热浪和飓风已使其覆盖率较历史水平大幅下降。',
-    keyFacts: [
-      '健康群体每年可延伸约 10—20 厘米，是生长较快的加勒比造礁珊瑚。',
-      '复杂枝杈为幼鱼和无脊椎动物提供藏身空间。',
-      '水温异常会破坏珊瑚与共生藻关系，引发“白化”。',
-    ],
-    threats: ['海洋热浪与白化', '白带病等疾病', '风暴破坏', '污染和沉积物'],
-    conservationActions: ['珊瑚苗圃与断枝移植', '改善沿岸水质', '疾病监测', '减缓气候变化'],
-    metrics: {
-      adultLengthCm: [50, 200],
-      lifespanYears: [10, 100],
-    },
-    featuredStats: [
-      { key: 'growth', label: '年生长', value: '约 10—20', unit: '厘米' },
-      { key: 'depth', label: '常见水深', value: '1—30', unit: '米' },
-      { key: 'form', label: '生命形态', value: '珊瑚虫群体' },
-    ],
-    media: {
-      alt: '加勒比浅海中的鹿角珊瑚群体',
-      focalPoint: { x: 0.5, y: 0.48 },
-    },
-    sources: [
-      ...sourcesFor('Acropora cervicornis'),
+    activity: ['固着珊瑚虫群体', '持续钙化与分枝生长', '年度广播产卵', '断枝克隆繁殖'],
+    tags: ['热带西大西洋', '加勒比海', '基础造礁种', '共生', '克隆繁殖', 'IUCN 极危', '美国 ESA 受威胁'],
+    summary: '以金褐色圆柱枝构成鹿角状群体、曾在加勒比中浅水礁形成广阔三维枝丛的基础造礁珊瑚。',
+    description:
+      '鹿角珊瑚能快速分枝并通过断枝扩展克隆枝丛，但克隆覆盖不能替代有性繁殖带来的新基因型。白带病引发的历史崩落、不断加剧的海洋热浪、酸化、污染与沉积、藻类竞争、物理破坏和低基因个体密度共同限制恢复；苗圃、基因库与移植能避免局地消失，却必须与减排和改善礁区环境并行。',
+    storySections: [
       {
-        title: 'NOAA Fisheries — Staghorn Coral',
-        url: 'https://www.fisheries.noaa.gov/species/staghorn-coral',
-        kind: 'ecology',
-        accessedAt: CONTENT_DATE,
+        key: 'cylindrical-branches',
+        label: '辨识',
+        title: '真正的“鹿角”，是覆着活组织的圆柱枝',
+        body:
+          '它的枝条直或略弯，恢复计划记录枝径约 0.25—5 厘米；组织呈金黄至中褐色，正在生长的枝尖自然较浅。宽扁的板状枝更像麋角珊瑚，整片惨白也可能是白化或组织脱落，不能只凭“像鹿角”完成物种鉴定。',
+      },
+      {
+        key: 'colony-clone-thicket',
+        label: '生命形态',
+        title: '一片枝丛，不等于许多个基因个体',
+        body:
+          '每个可见群体由许多遗传相同的珊瑚虫组成；断枝再附着会形成同一基因个体（genet）的新分株（ramet），多个分株又会交错成连续枝丛。覆盖度可以增长而基因型不增加，这正是恢复既要扩增珊瑚量、也要追踪遗传多样性的原因。',
+      },
+      {
+        key: 'symbiosis-and-bleaching',
+        label: '共生',
+        title: '失去共生藻的白，不等于已经死亡',
+        body:
+          '组织内共生甲藻把光合产物供给珊瑚，珊瑚虫也捕捉浮游生物。热应激使共生体系失衡时，仍存活的组织会苍白透明、露出白色骨骼；若压力持续，才可能因能量不足、疾病和组织死亡而失去整枝。',
+      },
+      {
+        key: 'two-reproductive-paths',
+        label: '繁殖',
+        title: '断枝扩张得快，新基因型却来自短暂的产卵窗口',
+        body:
+          '断枝在稳定硬底上可形成克隆群体；每年少数夜晚，成熟群体也会把卵和精子释放到水柱中。虽然同一群体同时产生两类配子，通常仍需不同基因个体交配。如今范围内有效有性招募几乎缺失，低基因个体密度会进一步降低受精机会。',
+      },
+      {
+        key: 'collapse-and-heat',
+        label: '危机',
+        title: '白带病打碎历史优势，热浪缩短恢复间隔',
+        body:
+          '1980 年代白带病使历史优势种大规模崩落；疾病、风暴和热异常持续造成脉冲式死亡。2023 年佛州创纪录热浪又重创野生、苗圃与移植群体。局地可在平静年份恢复，但扰动越来越频繁，使枝条生长和断枝补充难以追上损失。',
+      },
+      {
+        key: 'restoration-boundaries',
+        label: '恢复',
+        title: '苗圃是在争取时间，不是替海洋降温',
+        body:
+          '海上苗圃、陆基活体基因库、有性繁育和移植可保存基因型、增加局地覆盖并避免区域消失；长期成活却随地点、年份和基因型大幅变化。恢复还需要清洁稳定的招募硬底、减少沉积和营养盐、疾病与遗传监测，以及压低温室气体排放。',
       },
     ],
+    keyFacts: [
+      '早期野外研究汇总的枝条线性延伸约 3—11.5 厘米/年；NOAA 公众资料给出健康状态最高约 20 厘米/年，基因型与环境差异很大。',
+      '断枝会形成遗传相同的分株；只有有性繁殖产生的幼体才能为种群加入新基因型。',
+      '白化是共生藻或其色素丧失，活组织仍可能存在；白带病则表现为推进的组织损失和新鲜裸露骨骼。',
+      '交错的圆柱枝在中浅水礁形成三维庇护空间，但可见枝条数不能直接换算成群体或基因个体数。',
+      'IUCN 全球等级为极危；美国 ESA 法律状态仍为受威胁，两者不可互换。',
+    ],
+    threats: [
+      '海洋升温、海洋热浪与白化',
+      '白带病等疾病及温度—疾病协同',
+      '海洋酸化',
+      '沉积物、营养盐、污染与藻类竞争',
+      '风暴、船只搁浅、锚具和潜水活动造成的物理破坏',
+      '捕食与疾病传播',
+      '低群体/基因个体密度和有性招募不足',
+    ],
+    conservationActions: [
+      '减少温室气体排放与海洋升温、酸化压力',
+      '改善流域水质，保护稳定硬底并减少物理破坏',
+      '以基因型追踪的海上苗圃、陆基活体基因库和审慎移植分散风险',
+      '辅助有性繁殖、幼体培育与新基因型补充',
+      '疾病、白化、覆盖度和长期成活联合监测',
+    ],
+    metrics: {},
+    featuredStats: [
+      {
+        key: 'growth',
+        label: '枝条线性延伸',
+        value: '约 3—11.5',
+        unit: '厘米/年',
+        note: 'NOAA 恢复计划汇总的早期野外范围；健康个体上限可更高，环境与基因型差异显著。',
+      },
+      {
+        key: 'depth',
+        label: '常见水深',
+        value: '5—20',
+        unit: '米',
+        note: '局地可更浅；罕见记录可深至约 60 米，不代表各水深丰度相同。',
+      },
+      {
+        key: 'historic-decline',
+        label: '历史丰度衰退',
+        value: '约 97',
+        unit: '%',
+        note: 'NOAA 对 1980 年代以来白带病相关种群崩落的范围级概述，不是全球基因个体逐一普查。',
+      },
+      {
+        key: 'form',
+        label: '生命形态',
+        value: '克隆珊瑚虫群体',
+        note: '断枝形成分株；多个分株可属于同一基因个体，并交错构成连续枝丛。',
+      },
+    ],
+    media: {
+      image: './images/species/staghorn-coral/01-shallow-reef-colony-cover.webp',
+      alt: '依照 Acropora cervicornis 形态创作的 AI 图像：清澈加勒比浅海中一个金褐色鹿角珊瑚群体从礁石向上伸展，枝端呈自然浅色，远处有小型礁鱼',
+      focalPoint: { x: 0.62, y: 0.56 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/staghorn-coral/02-axial-radial-corallites-macro.webp',
+          alt: '依照 Acropora cervicornis 形态创作的 AI 图像：鹿角珊瑚活枝尖微距，末端较大的轴向珊瑚杯与朝枝尖排列的细小辐射珊瑚杯清楚可见',
+          title: '圆柱枝端的生长点',
+          caption: '浅色活跃枝尖是健康形态之一；轴向和辐射珊瑚杯是辨识线索，但生成图不能替代标本或遗传鉴定。',
+          focalPoint: { x: 0.62, y: 0.47 },
+        },
+        {
+          image: './images/species/staghorn-coral/03-interlocking-thicket-fish-habitat.webp',
+          alt: '依照 Acropora cervicornis 形态创作的 AI 图像：密集交错的金褐色鹿角珊瑚圆柱枝铺满浅礁，几尾小型加勒比礁鱼在分枝间穿梭',
+          title: '由许多枝条织成的庇护空间',
+          caption: '枝丛形成复杂三维结构；可见分枝、物理分株与基因个体数并不一一对应。',
+          focalPoint: { x: 0.57, y: 0.54 },
+        },
+        {
+          image: './images/species/staghorn-coral/04-bleaching-versus-white-band.webp',
+          alt: '依照 Acropora cervicornis 形态创作的 AI 图像：两组鹿角珊瑚并列，左侧仍有组织但整体白化，右侧鲜白裸骨带分隔金褐活组织与覆藻旧骨',
+          title: '三种白色，三种含义',
+          caption: '均匀苍白的活组织是白化；推进的鲜白裸骨带提示组织损失；健康枝尖的自然浅色又是正常生长。',
+          focalPoint: { x: 0.5, y: 0.52 },
+        },
+        {
+          image: './images/species/staghorn-coral/05-in-water-coral-tree-nursery.webp',
+          alt: '依照 Acropora cervicornis 形态创作的 AI 图像：海中树状苗圃上分别悬挂着多枚健康鹿角珊瑚圆柱形断枝，一名潜水员在远处维护',
+          title: '把基因型分散保存在海上苗圃',
+          caption: '苗圃断枝多是克隆分株；它们可保存和扩增既有基因型，却不会自动增加遗传多样性。',
+          focalPoint: { x: 0.62, y: 0.5 },
+        },
+        {
+          image: './images/species/staghorn-coral/06-diver-outplanting-fragments.webp',
+          alt: '依照 Acropora cervicornis 形态创作的 AI 图像：戴手套的潜水员把五枚苗圃培育鹿角珊瑚碎枝用少量海用环氧胶固定在石灰岩硬底上',
+          title: '回到硬底，只是长期恢复的开始',
+          caption: '移植可增加局地覆盖并避免消失，但长期成活仍取决于水质、疾病、热浪、基因型和持续监测。',
+          focalPoint: { x: 0.54, y: 0.65 },
+        },
+      ],
+    },
+    sources: STAGHORN_CORAL_SOURCES,
     featured: true,
     publishedAt: CONTENT_DATE,
-    updatedAt: CONTENT_DATE,
+    updatedAt: STAGHORN_CORAL_CONTENT_DATE,
   },
 ] as const satisfies readonly Species[];
 
