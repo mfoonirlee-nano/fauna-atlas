@@ -11,6 +11,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Golden poison frog image set](./species/golden-poison-frog/README.md)
 - [African savanna elephant image set](./species/african-savanna-elephant/README.md)
 - [Komodo dragon image set](./species/komodo-dragon/README.md)
+- [Rusty-patched bumble bee image set](./species/rusty-patched-bumble-bee/README.md)
 
 ## Landing-page hero
 
