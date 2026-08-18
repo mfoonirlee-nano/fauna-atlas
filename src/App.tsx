@@ -278,11 +278,10 @@ interface SpeciesCardProps {
 
 function SpeciesCard({ item, index, saved, onOpen, onToggleSaved }: SpeciesCardProps) {
   const status = statusMeta[item.conservation.code];
-  const featured = Boolean(item.featured && item.media.image);
 
   return (
-    <article className={`species-card${featured ? ' species-card--featured' : ''}`}>
-      <TaxonArtwork item={item} index={index} large={featured} />
+    <article className="species-card">
+      <TaxonArtwork item={item} index={index} large />
       <div className="species-card__content">
         <div className="species-card__eyebrow">
           <span>NO. {String(index + 1).padStart(2, '0')}</span>
@@ -1122,7 +1121,7 @@ function App() {
               {filteredSpecies.map((item) => {
                 const itemIndex = species.findIndex((candidate) => candidate.slug === item.slug);
                 return (
-                  <div key={item.slug}>
+                  <div className="species-grid__item" key={item.slug}>
                     <SpeciesCard
                       item={item}
                       index={itemIndex}
