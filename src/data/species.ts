@@ -17,6 +17,8 @@ const SNOW_LEOPARD_SOURCE_DATE = '2026-08-14' as const;
 const SNOW_LEOPARD_CONTENT_DATE = '2026-08-14' as const;
 const CHINESE_MOUNTAIN_CAT_SOURCE_DATE = '2026-08-15' as const;
 const CHINESE_MOUNTAIN_CAT_CONTENT_DATE = '2026-08-15' as const;
+const BLUE_WHALE_SOURCE_DATE = '2026-08-18' as const;
+const BLUE_WHALE_CONTENT_DATE = '2026-08-18' as const;
 const EMPEROR_PENGUIN_SOURCE_DATE = '2026-08-15' as const;
 const EMPEROR_PENGUIN_CONTENT_DATE = '2026-08-15' as const;
 const WHALE_SHARK_SOURCE_DATE = '2026-08-16' as const;
@@ -82,21 +84,6 @@ const conservation = (
   criteria,
   assessor: 'International Union for Conservation of Nature (IUCN)',
 });
-
-const sourcesFor = (scientificName: string): readonly SpeciesSource[] => [
-  {
-    title: `IUCN Red List — ${scientificName}`,
-    url: `https://www.iucnredlist.org/search?query=${encodeURIComponent(scientificName)}&searchType=species`,
-    kind: 'conservation',
-    accessedAt: CONTENT_DATE,
-  },
-  {
-    title: `GBIF Backbone Taxonomy — ${scientificName}`,
-    url: `https://www.gbif.org/species/search?q=${encodeURIComponent(scientificName)}`,
-    kind: 'taxonomy',
-    accessedAt: CONTENT_DATE,
-  },
-];
 
 const EMPEROR_PENGUIN_SOURCES = [
   {
@@ -263,6 +250,141 @@ const CHINESE_MOUNTAIN_CAT_SOURCES = [
     url: 'https://doi.org/10.1017/S0030605304000092',
     kind: 'distribution',
     accessedAt: CHINESE_MOUNTAIN_CAT_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const BLUE_WHALE_SOURCES = [
+  {
+    title: 'Society for Marine Mammalogy — List of Marine Mammal Species and Subspecies (April 2026)',
+    url: 'https://marinemammalscience.org/science-and-publications/list-marine-mammal-species-subspecies/',
+    kind: 'taxonomy',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN Red List — Balaenoptera musculus (2018 assessment, 2019 errata)',
+    url: 'https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T2477A156923585.en',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries — Recovery Plan for the Blue Whale (2020)',
+    url: 'https://repository.library.noaa.gov/view/noaa/27399/noaa_27399_DS1.pdf',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries — Blue Whale',
+    url: 'https://www.fisheries.noaa.gov/species/blue-whale?page=1',
+    kind: 'general',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Attard et al. 2024 — Global genomic population structure of blue whales',
+    url: 'https://doi.org/10.1111/acv.12935',
+    kind: 'taxonomy',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Branch et al. 2007 — Intraspecific structure and body length of blue whales',
+    url: 'https://doi.org/10.1111/j.1748-7692.2007.00137.x',
+    kind: 'taxonomy',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Branch et al. 2007 — Past and present distribution, densities and movements of blue whales',
+    url: 'https://doi.org/10.1111/j.1365-2907.2007.00106.x',
+    kind: 'distribution',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Abrahms et al. 2019 — Memory and resource tracking drive blue whale migrations',
+    url: 'https://doi.org/10.1073/pnas.1819031116',
+    kind: 'distribution',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Savoca et al. 2021 — Baleen whale prey consumption',
+    url: 'https://doi.org/10.1038/s41586-021-03991-5',
+    kind: 'ecology',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Goldbogen et al. 2011 — Mechanics and energetics of blue whale lunge feeding',
+    url: 'https://doi.org/10.1242/jeb.048157',
+    kind: 'ecology',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Owen et al. 2016 — Dive and movement behaviour of an Indian Ocean pygmy blue whale',
+    url: 'https://doi.org/10.1186/s40317-016-0109-4',
+    kind: 'ecology',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'McDonald et al. 2006 — Biogeographic characterisation of blue whale song worldwide',
+    url: 'https://escholarship.org/uc/item/5r16c2mz',
+    kind: 'distribution',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Oleson et al. 2007 — Behavioural context of call production by eastern North Pacific blue whales',
+    url: 'https://doi.org/10.3354/meps330269',
+    kind: 'ecology',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Stafford et al. 1998 — Blue whale calls recorded on a regional hydrophone array',
+    url: 'https://doi.org/10.1121/1.423944',
+    kind: 'ecology',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Sears et al. 2013 — Photographic identification reveals blue whale life-history data',
+    url: 'https://doi.org/10.3354/esr00532',
+    kind: 'ecology',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Rockwood et al. 2017 — High mortality of blue whales from ship strikes off the U.S. West Coast',
+    url: 'https://doi.org/10.1371/journal.pone.0183052',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Goldbogen et al. 2013 — Blue whale behavioural response to simulated sonar',
+    url: 'https://doi.org/10.1098/rspb.2013.0657',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Rocha et al. 2014 — Summary of industrial whaling catches in the 20th century',
+    url: 'https://doi.org/10.7755/MFR.76.4.3',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Olson et al. 2025 — Antarctic blue whale abundance from photo identification',
+    url: 'https://doi.org/10.1111/mms.13215',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'CITES — Appendices I, II and III',
+    url: 'https://cites.org/sites/default/files/esp/app/2025/S-Appendices-2025-02-07.pdf',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'Convention on Migratory Species — Appendices I and II (effective June 2026)',
+    url: 'https://www.cms.int/species/appendix-i-ii-cms',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
+  },
+  {
+    title: 'International Whaling Commission — Commercial whaling',
+    url: 'https://iwc.int/management-and-conservation/whaling/commercial',
+    kind: 'conservation',
+    accessedAt: BLUE_WHALE_SOURCE_DATE,
   },
 ] as const satisfies readonly SpeciesSource[];
 
@@ -2204,7 +2326,7 @@ export const species = [
   {
     id: 'species-balaenoptera-musculus',
     slug: 'blue-whale',
-    names: { zh: '蓝鲸', en: 'Blue Whale', aliases: ['剃刀鲸'] },
+    names: { zh: '蓝鲸', en: 'Blue Whale', aliases: [] },
     scientificName: 'Balaenoptera musculus',
     taxonomy: animalTaxonomy(
       taxon('Chordata', '脊索动物门'),
@@ -2217,58 +2339,203 @@ export const species = [
     distribution: {
       realms: ['marine'],
       continents: ['亚洲', '非洲', '欧洲', '北美洲', '南美洲', '大洋洲', '南极洲'],
-      regions: ['北大西洋', '北太平洋', '南大洋', '印度洋'],
+      regions: [
+        '南极洲周边与南大洋',
+        '东南太平洋与智利海域',
+        '北太平洋',
+        '北大西洋',
+        '北印度洋',
+        '南印度洋与澳大利亚周边',
+      ],
       countries: [],
-      range: '除北冰洋核心海域外广布全球，许多种群在高纬摄食区与低纬繁殖区之间迁徙。',
-      center: { lat: -45, lng: -100 },
+      range:
+        '广布除北冰洋主体之外的世界各大洋，并分成多个具有不同歌型、移动方式和恢复进程的种群。多数种群进行季节移动，但路线和时序因种群与个体而异；北印度洋还存在不遵循典型高纬—低纬往返的驻留型。',
+      center: { lat: -35, lng: -120 },
     },
     habitats: [
       {
-        name: '远洋与大陆架边缘',
+        name: '高生产力摄食海域',
         realm: 'marine',
-        description: '季节性聚集在磷虾高密度的涌升流、极锋与大陆架水域。',
+        description: '在涌升流、海洋锋、大陆架边缘和极地水域寻找高密度磷虾斑块；这些热点会随季节和海况移动。',
         isPrimary: true,
       },
+      {
+        name: '开阔大洋与移动通道',
+        realm: 'marine',
+        description: '跨越远洋盆地连接不同季节生境；部分个体会迁徙，另一些可能全年留在同一大区。',
+      },
+      {
+        name: '温暖水域的繁殖与育幼区',
+        realm: 'marine',
+        description: '多个种群会在较暖水域产仔和哺乳，但许多具体繁殖海域仍未被清楚划定。',
+      },
     ],
-    measurements: {
-      length: { min: 24, max: 30, unit: 'm', note: '南半球个体通常更大' },
-      weight: { min: 100, max: 150, unit: 't' },
-    },
+    measurements: {},
     diet: {
       types: ['filter-feeder'],
-      foods: ['磷虾', '少量桡足类'],
-      description: '张开带有喉腹褶的巨口吞入海水，再用鲸须板滤出小型甲壳动物。',
+      foods: ['磷虾（主要猎物）', '桡足类等小型甲壳动物（少数地区或记录）'],
+      description:
+        '蓝鲸先加速冲进稠密猎物斑块，张口让喉腹褶扩张并吞入大量海水，再闭口用鲸须排水、留下微小甲壳动物；收益取决于猎物密度，而不是持续张口巡游。',
     },
-    activity: ['远距离迁徙', '潜水觅食'],
-    tags: ['全球海洋', '须鲸', '迁徙物种', '现生最大动物'],
-    summary: '地球上已知体型最大的动物，以微小磷虾为主要食物。',
-    description: '蓝鲸流线型的蓝灰色身体可达近三十米。商业捕鲸曾使其数量崩溃；全球禁捕后部分种群缓慢恢复，但船撞、水下噪声与气候驱动的食物变化仍是长期压力。',
-    keyFacts: [
-      '在摄食旺季，一天可摄入数吨磷虾。',
-      '低频鸣声能在海水中传播数百甚至上千千米。',
-      '喷气可形成高约 9—12 米的垂直雾柱。',
+    activity: [
+      '单独活动或在食物热点松散聚集',
+      '冲刺式吞噬滤食',
+      '随猎物深度调整昼夜潜水',
+      '种群与个体依赖的季节移动',
+      '发出低频叫声与区域性歌型',
+      '母鲸与幼鲸短期同行',
     ],
-    threats: ['船舶碰撞', '渔具缠绕', '水下噪声', '气候变化影响磷虾资源'],
-    conservationActions: ['国际商业捕鲸禁令', '航线调整与限速', '声学监测和种群调查'],
+    tags: ['全球海洋', 'IUCN 濒危', 'CITES 附录 I', 'CMS 附录 I', '现生最大动物', '冲刺滤食', '低频歌声'],
+    summary: '现生体型最大的动物，以冲刺吞入稠密磷虾斑块；区域歌型与远距离声学记录帮助研究其分散种群。',
+    description:
+      '蓝鲸不是一群沿同一条环球路线迁徙的巨鲸。现行分类承认北方、南极、侏儒与北印度洋四个亚种，不同海区种群拥有可辨认的歌型、移动节律与恢复轨迹。工业捕鲸曾把全球数量压到历史基线的一小部分；IUCN 记录总体趋势上升，但成熟个体估计仍只有约 5,000—15,000 只，船撞、渔具缠绕以及尚在量化中的噪声和气候压力继续造成不均衡风险。',
+    storySections: [
+      {
+        key: 'ocean-giant',
+        label: '形态与体型',
+        title: '最大的动物，也没有一个通用尺寸',
+        body: '宽扁的 U 形吻部、成对呼吸孔、细长胸鳍与位置极靠后的微小背鳍，共同勾勒出蓝鲸轮廓。不同亚种或种群的成熟雌性平均体长从侏儒蓝鲸约 21.0 米，到南极蓝鲸约 25.4—26.6 米；把 30 米写成所有成体的常见长度，会抹平真实差异。现行科学系统把鲸类置于偶蹄目之内，本项目分类图谱则为界面一致性把 Cetacea 简化显示为“鲸目”。',
+      },
+      {
+        key: 'lunge-feeding',
+        label: '冲刺滤食',
+        title: '先吞下一片海水，再把磷虾留下',
+        body: '每次冲刺张口都会让身体显著减速，因此只有足够稠密的磷虾斑块才值得追逐。喉腹褶扩张以容纳猎物和海水，闭口后再由鲸须排水。东部北太平洋一头 22.4 米成体的模型估计，在觅食日约摄入 16 吨磷虾、区间 10—22 吨；这不是每头蓝鲸每天固定摄入量。',
+      },
+      {
+        key: 'many-migrations',
+        label: '移动策略',
+        title: '迁徙不是一条画在地图上的固定箭头',
+        body: '东部北太平洋 60 只标记蓝鲸的移动更贴合多年平均叶绿素季节峰值，而不是当年即时峰值，显示经验与记忆可能帮助它们追踪季节资源。其他种群的时序和路线不同，北印度洋还存在驻留型；并非所有个体每年都完成同样的极地—热带往返。',
+      },
+      {
+        key: 'songs-and-calls',
+        label: '声学',
+        title: '歌型能提示种群，却不是亚种身份证',
+        body: '不同海区的重复歌型可帮助提出种群边界假说，但不能单凭声音命名亚种。东部北太平洋研究样本中的 AB 歌只由雄性发出，D 型叫声则在雌雄觅食时都被记录；水听器从数百千米外检出声音，也只说明传播与探测条件，不等于已知鲸间通信距离。',
+      },
+      {
+        key: 'calf-cycle',
+        label: '繁殖与成长',
+        title: '短暂的母幼同行，连接漫长的繁殖周期',
+        body: '蓝鲸通常单胎，妊娠约 10—12 个月，幼鲸约 6—7 个月断奶。美国西岸与加利福尼亚湾长期照片识别得到的平均产仔间隔约 2.57 年，但重见率和未记录产仔会影响估计；母幼同行也不表示蓝鲸会长期组成稳定家庭群。',
+      },
+      {
+        key: 'uneven-recovery',
+        label: '历史与保护',
+        title: '停止捕杀之后，恢复仍以海区为单位发生',
+        body: '研究汇总的 1900—1999 年有记录与重建工业捕鲸量达到 379,185 只蓝鲸。IUCN 2018 年估计全球仍只有 5,000—15,000 只成熟个体，约为 1926 年的 3%—11%。总趋势上升掩盖了种群间差异；今天的直接风险更多来自船撞和缠网，噪声与猎物变化则需要持续监测。',
+      },
+    ],
+    keyFacts: [
+      'IUCN 2018 年估计全球约有 5,000—15,000 只成熟个体、10,000—25,000 只总个体，趋势上升但仍列为濒危。',
+      '现行海洋哺乳动物分类承认北方、南极、侏儒和北印度洋四个蓝鲸亚种；智利群可作为独特种群或管理单元讨论，但尚不是正式第五亚种。',
+      '成熟雌性平均体长随亚种和种群而变：侏儒蓝鲸约 21.0 米、智利群约 23.5 米、南极蓝鲸约 25.4—26.6 米。',
+      '觅食日约 16 吨磷虾是对一头 22.4 米东部北太平洋成体的模型估计，不能外推成所有蓝鲸每天的固定食量。',
+      '506 米潜深来自一头西澳侏儒蓝鲸 7.6 天标签记录中的最深一次，不应当作全物种典型潜深。',
+      '区域歌型有助于识别种群假说，却不能单独确定亚种；声学探测距离也不等于鲸彼此通信的距离。',
+      '多数种群季节移动，但路线与时序不统一，部分个体并非每年迁徙，北印度洋还存在驻留型。',
+      '现行科学系统把鲸类置于偶蹄目之内；本项目为保持分类图谱阶元一致，把 Cetacea 简化显示为“鲸目”。',
+    ],
+    threats: [
+      '繁忙航道和高船速造成致死性船舶碰撞',
+      '固定或漂流渔具导致缠绕、受伤和溺亡',
+      '航运、工业活动与声呐等人为噪声可能改变行为和声学环境，种群尺度效应仍待量化',
+      '气候变化可能通过海温、海冰、上升流与磷虾分布改变觅食机会',
+      '污染与船只干扰等累积压力的种群尺度效应仍待量化',
+    ],
+    conservationActions: [
+      '维持国际商业捕鲸禁令并监测任何直接捕杀',
+      '在高风险海域调整航线、实施动态或季节限速并改进船撞报告',
+      '改良渔具、减少高风险绳索并建立大型鲸缠网响应能力',
+      '结合照片识别、遗传、卫星标签和被动声学开展分种群长期监测',
+      '评估并降低关键海域的累积噪声，避免把单次声学记录直接换算成数量',
+      '把磷虾渔业与气候变化纳入摄食热点和跨境保护规划',
+    ],
     metrics: {
-      adultLengthCm: [2400, 3000],
-      adultMassKg: [100000, 150000],
-      lifespanYears: [70, 90],
-      maxDiveDepthM: 500,
+      estimatedMatureIndividuals: [5000, 15000],
     },
     featuredStats: [
-      { key: 'length', label: '体长', value: '24—30', unit: '米' },
-      { key: 'mass', label: '体重', value: '100—150', unit: '吨' },
-      { key: 'lifespan', label: '寿命', value: '70—90', unit: '年' },
+      {
+        key: 'mature-individuals',
+        label: 'IUCN 成熟个体估计',
+        value: '5,000—15,000',
+        unit: '只',
+        note: '2018 评估；总个体估计约 10,000—25,000 只',
+      },
+      {
+        key: 'historical-level',
+        label: '相对 1926 年成熟数量',
+        value: '约 3—11',
+        unit: '%',
+        note: 'IUCN 全球估计，不代表每个海区恢复比例相同',
+      },
+      {
+        key: 'female-mean-length',
+        label: '成熟雌性平均体长',
+        value: '21.0—26.6',
+        unit: '米',
+        note: '跨亚种或种群平均值，不是绝对体长范围',
+      },
+      {
+        key: 'industrial-catch',
+        label: '20 世纪工业捕鲸汇总',
+        value: '379,185',
+        unit: '只',
+        note: '1900—1999 年有记录与重建的捕获量',
+      },
     ],
     media: {
-      alt: '深蓝海水中游弋的蓝鲸',
-      focalPoint: { x: 0.55, y: 0.48 },
+      image: './images/species/blue-whale/01-open-ocean-portrait.webp',
+      alt: '清澈冷蓝色外海的海面下，一头蓝鲸从画面右侧向左平稳游过，宽扁头部、斑驳蓝灰色全身和靠后的微小背鳍完整可见',
+      focalPoint: { x: 0.68, y: 0.52 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/blue-whale/02-krill-lunge-feeding.webp',
+          alt: '冷水层的稠密磷虾斑块中，一头蓝鲸侧向张开巨口冲刺摄食，深色鲸须、扩张的喉腹褶和完整身体清楚可见',
+          title: '先吞海水，再留下磷虾',
+          caption:
+            '冲刺张口时，喉腹褶扩张以容纳含磷虾的海水；闭口后海水经鲸须排出。单头东部北太平洋成体约 16 吨的觅食日模型，不是全物种每日定额。',
+          focalPoint: { x: 0.48, y: 0.54 },
+        },
+        {
+          image: './images/species/blue-whale/03-productive-ocean-front.webp',
+          alt: '高处俯瞰深蓝与青绿色水团缓慢交汇的开阔海面，一头完整蓝鲸在广阔海洋锋附近显得很小',
+          title: '沿着高生产力水域移动',
+          caption:
+            '海洋锋和涌升流能聚集猎物，却会随季节和海况移动；不同种群与个体采用不同路线，不能把一条锋面画成全球固定迁徙边界。',
+          focalPoint: { x: 0.62, y: 0.56 },
+        },
+        {
+          image: './images/species/blue-whale/04-tall-surface-blow.webp',
+          alt: '灰蓝色外海上，一头蓝鲸的宽阔头部和长背刚露出水面，一对呼吸孔上方升起高而近乎垂直的白色雾柱',
+          title: '雾柱来自一次呼气',
+          caption: '蓝鲸从一对呼吸孔快速呼气，形成高而较直的雾柱；没有校准尺度时，不能从图片测量雾柱高度。',
+          focalPoint: { x: 0.58, y: 0.46 },
+        },
+        {
+          image: './images/species/blue-whale/05-mother-calf-travel.webp',
+          alt: '温暖外海水下，一头较大的蓝鲸与一头体型明显较小的蓝鲸保持距离并行，两头鲸的全身、胸鳍和尾鳍都在画面内',
+          title: '最初的旅程跟着母鲸',
+          caption:
+            '幼鲸出生后约 6—7 个月断奶并随母鲸移动；这段短暂同行不表示蓝鲸通常会长期组成稳定家庭群。',
+          focalPoint: { x: 0.54, y: 0.55 },
+        },
+        {
+          image: './images/species/blue-whale/06-passive-acoustic-monitoring.webp',
+          alt: '深蓝远洋中，一头完整蓝鲸从远处游过，前景一套系泊式水下声学记录器与鲸保持清晰距离',
+          title: '在海里记录低频声',
+          caption:
+            '被动声学设备能记录蓝鲸叫声出现的时间与海域；设备与鲸同框不证明该个体正在发声，一次记录也不能直接换算成唯一鲸或精确数量。',
+          focalPoint: { x: 0.5, y: 0.52 },
+        },
+      ],
     },
-    sources: sourcesFor('Balaenoptera musculus'),
+    sources: BLUE_WHALE_SOURCES,
     featured: true,
     publishedAt: CONTENT_DATE,
-    updatedAt: CONTENT_DATE,
+    updatedAt: BLUE_WHALE_CONTENT_DATE,
   },
   {
     id: 'species-loxodonta-africana',

@@ -13,6 +13,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [African savanna elephant image set](./species/african-savanna-elephant/README.md)
 - [Komodo dragon image set](./species/komodo-dragon/README.md)
 - [Gharial image set](./species/gharial/README.md)
+- [Blue whale image set](./species/blue-whale/README.md)
 - [Rusty-patched bumble bee image set](./species/rusty-patched-bumble-bee/README.md)
 - [Staghorn coral image set](./species/staghorn-coral/README.md)
 
