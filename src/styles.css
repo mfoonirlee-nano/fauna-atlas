@@ -1334,7 +1334,7 @@
     background: #263536;
   }
 
-  .hero__image,
+  .hero-carousel__visual,
   .hero__veil,
   .hero__grid {
     position: absolute;
@@ -1343,19 +1343,64 @@
     height: 100%;
   }
 
+  .hero-carousel__visual {
+    z-index: 0;
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  .hero-carousel__slide {
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+  }
+
   .hero__image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    max-width: none;
+    height: 100%;
     object-fit: cover;
     object-position: var(--focal-x, 50%) var(--focal-y, 50%);
+  }
+
+  .hero__image--entering-forward,
+  .hero__image--leaving-forward,
+  .hero__image--entering-backward,
+  .hero__image--leaving-backward {
+    will-change: opacity, transform;
+  }
+
+  .hero__image--initial {
     animation: hero-enter 1.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
   }
 
+  .hero__image--entering-forward {
+    animation: hero-enter-forward 900ms cubic-bezier(0.22, 0.72, 0.2, 1) both;
+  }
+
+  .hero__image--leaving-forward {
+    animation: hero-leave-forward 900ms cubic-bezier(0.22, 0.72, 0.2, 1) both;
+  }
+
+  .hero__image--entering-backward {
+    animation: hero-enter-backward 900ms cubic-bezier(0.22, 0.72, 0.2, 1) both;
+  }
+
+  .hero__image--leaving-backward {
+    animation: hero-leave-backward 900ms cubic-bezier(0.22, 0.72, 0.2, 1) both;
+  }
+
   .hero__veil {
+    z-index: 1;
     background:
       linear-gradient(90deg, rgba(9, 23, 23, 0.75) 0%, rgba(9, 23, 23, 0.38) 45%, rgba(9, 23, 23, 0.04) 75%),
       linear-gradient(180deg, rgba(7, 16, 17, 0.23) 0%, transparent 30%, rgba(7, 16, 17, 0.32) 100%);
   }
 
   .hero__grid {
+    z-index: 1;
     left: 50%;
     width: 1px;
     border-left: 1px solid rgba(255, 255, 255, 0.11);
@@ -1429,12 +1474,16 @@
     margin-top: 37px;
   }
 
-  .hero-specimen {
-    position: relative;
-    display: grid;
+  .hero-carousel__panel {
     width: 240px;
     align-self: end;
     justify-self: end;
+  }
+
+  .hero-specimen {
+    position: relative;
+    display: grid;
+    width: 100%;
     padding: 18px 0 18px 21px;
     color: #f5f2e8;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
@@ -1492,6 +1541,106 @@
     transform: translateX(5px);
   }
 
+  .hero-carousel__mobile-specimen {
+    display: none;
+    min-height: 50px;
+    align-items: center;
+    padding: 8px 13px 8px 15px;
+    color: #f5f2e8;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-bottom: 0;
+    background: rgba(8, 22, 22, 0.58);
+    text-align: left;
+    backdrop-filter: blur(14px);
+    grid-template-columns: 1fr auto;
+  }
+
+  .hero-carousel__mobile-specimen span {
+    font-size: 0.54rem;
+    font-weight: 650;
+    letter-spacing: 0.13em;
+    opacity: 0.66;
+    grid-column: 1;
+  }
+
+  .hero-carousel__mobile-specimen strong {
+    margin-top: 2px;
+    overflow: hidden;
+    font-family: var(--serif);
+    font-size: 1rem;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    grid-column: 1;
+  }
+
+  .hero-carousel__mobile-specimen svg {
+    grid-row: 1 / 3;
+    grid-column: 2;
+  }
+
+  .hero-carousel__controls {
+    display: grid;
+    width: 100%;
+    min-height: 46px;
+    margin-top: 10px;
+    overflow: hidden;
+    color: #f5f2e8;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background: rgba(8, 22, 22, 0.52);
+    backdrop-filter: blur(14px);
+    grid-template-columns: 44px minmax(64px, 1fr) 44px 44px;
+  }
+
+  .hero-carousel__controls button {
+    display: grid;
+    min-width: 44px;
+    min-height: 44px;
+    place-items: center;
+    transition: color 180ms ease, background-color 180ms ease;
+  }
+
+  .hero-carousel__controls button + button,
+  .hero-carousel__controls span + button {
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .hero-carousel__controls button:hover:not(:disabled):not([aria-disabled='true']) {
+    color: #d7e5cc;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .hero-carousel__controls button:focus-visible {
+    outline-offset: -3px;
+  }
+
+  .hero-carousel__controls button:disabled,
+  .hero-carousel__controls button[aria-disabled='true'] {
+    cursor: not-allowed;
+    opacity: 0.46;
+  }
+
+  .hero-carousel__status {
+    display: grid;
+    min-width: 0;
+    place-items: center;
+    font-size: 0.58rem;
+    font-weight: 650;
+    letter-spacing: 0.12em;
+  }
+
+  .hero-carousel__status strong {
+    display: none;
+    overflow: hidden;
+    max-width: 92px;
+    font-family: var(--serif);
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .hero__footnote {
     position: absolute;
     z-index: 3;
@@ -1509,6 +1658,26 @@
   @keyframes hero-enter {
     from { transform: scale(1.04); opacity: 0.72; }
     to { transform: scale(1); opacity: 1; }
+  }
+
+  @keyframes hero-enter-forward {
+    from { transform: translate3d(5%, 0, 0) scale(1.025); opacity: 0.16; }
+    to { transform: translate3d(0, 0, 0) scale(1); opacity: 1; }
+  }
+
+  @keyframes hero-leave-forward {
+    from { transform: translate3d(0, 0, 0) scale(1); opacity: 1; }
+    to { transform: translate3d(-4%, 0, 0) scale(1.015); opacity: 0; }
+  }
+
+  @keyframes hero-enter-backward {
+    from { transform: translate3d(-5%, 0, 0) scale(1.025); opacity: 0.16; }
+    to { transform: translate3d(0, 0, 0) scale(1); opacity: 1; }
+  }
+
+  @keyframes hero-leave-backward {
+    from { transform: translate3d(0, 0, 0) scale(1); opacity: 1; }
+    to { transform: translate3d(4%, 0, 0) scale(1.015); opacity: 0; }
   }
 
   .atlas-intro {
@@ -2055,7 +2224,7 @@
       grid-template-columns: 1fr;
     }
 
-    .hero-specimen {
+    .hero-carousel__panel {
       position: absolute;
       right: clamp(24px, 6.4vw, 104px);
       bottom: 96px;
@@ -2076,6 +2245,37 @@
 
     .newsletter {
       gap: 50px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .hero-specimen {
+      display: none;
+    }
+
+    .hero-carousel__mobile-specimen {
+      display: grid;
+    }
+
+    .hero-carousel__panel {
+      top: 110px;
+      right: 24px;
+      bottom: auto;
+      width: min(270px, calc(100% - 48px));
+    }
+
+    .hero-carousel__controls {
+      margin-top: 0;
+      grid-template-columns: 44px minmax(86px, 1fr) 44px 44px;
+    }
+
+    .hero-carousel__status {
+      gap: 2px;
+      padding: 4px 8px;
+    }
+
+    .hero-carousel__status strong {
+      display: block;
     }
   }
 
@@ -2157,8 +2357,11 @@
       margin-top: 27px;
     }
 
-    .hero-specimen {
-      display: none;
+    .hero-carousel__panel {
+      top: 92px;
+      right: 18px;
+      bottom: auto;
+      width: min(270px, calc(100% - 36px));
     }
 
     .hero__footnote {

@@ -6,6 +6,8 @@ import {
   Bug,
   Check,
   ChevronDown,
+  ChevronLeft,
+  ChevronRight,
   ExternalLink,
   Feather,
   Fish,
@@ -14,7 +16,9 @@ import {
   Leaf,
   Menu,
   Moon,
+  Pause,
   PawPrint,
+  Play,
   Search,
   Shell,
   Sparkles,
@@ -33,9 +37,24 @@ import {
 } from 'react';
 import { TaxonomyExplorer } from './components/TaxonomyExplorer';
 import { species } from './data';
+import {
+  shouldAutoplayCarousel,
+  stepCarouselIndex,
+} from './domain/carousel';
 import type { IucnStatusCode, Species } from './types';
 
 type Theme = 'light' | 'dark';
+type HeroDirection = -1 | 1;
+
+interface HeroCarouselFrame {
+  readonly activeIndex: number;
+  readonly previousIndex: number | null;
+  readonly direction: HeroDirection;
+  readonly revision: number;
+}
+
+const HERO_ROTATION_DELAY_MS = 6500;
+const HERO_TRANSITION_DURATION_MS = 900;
 
 const statusMeta: Record<
   IucnStatusCode,
@@ -89,6 +108,16 @@ function getInitialBookmarks(): string[] {
   } catch {
     return [];
   }
+}
+
+function getInitialReducedMotion() {
+  if (typeof window === 'undefined') return false;
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
+
+function getInitialPageVisibility() {
+  if (typeof document === 'undefined') return true;
+  return !document.hidden;
 }
 
 function classIcon(className: string): ComponentType<{ size?: number; strokeWidth?: number }> {
@@ -532,6 +561,350 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
   );
 }
 
+interface HeroCarouselProps {
+  readonly items: readonly Species[];
+  readonly isObscured: boolean;
+  readonly onOpenSpecies: (item: Species) => void;
+}
+
+function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
+  const heroSlides = useMemo(() => items.filter((item) => Boolean(item.media.image)), [items]);
+  const [frame, setFrame] = useState<HeroCarouselFrame>({
+    activeIndex: 0,
+    previousIndex: null,
+    direction: 1,
+    revision: 0,
+  });
+  const [autoplayPaused, setAutoplayPaused] = useState(false);
+  const [pointerOver, setPointerOver] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(getInitialReducedMotion);
+  const [pageVisible, setPageVisible] = useState(getInitialPageVisibility);
+  const [inViewport, setInViewport] = useState(true);
+  const [transitioning, setTransitioning] = useState(false);
+  const heroRef = useRef<HTMLElement>(null);
+  const pointerFocusRef = useRef(false);
+  const frameRef = useRef(frame);
+  const mountedRef = useRef(true);
+  const transitionLockRef = useRef(false);
+  const transitionTimerRef = useRef<number | undefined>(undefined);
+  const imagePreparationRef = useRef(new Map<string, Promise<boolean>>());
+  const autoplayActiveRef = useRef(false);
+  const slideCount = heroSlides.length;
+  frameRef.current = frame;
+
+  const autoplayActive = shouldAutoplayCarousel({
+    slideCount,
+    paused: autoplayPaused,
+    reducedMotion: prefersReducedMotion,
+    interacting: pointerOver,
+    pageVisible,
+    inViewport,
+    obscured: isObscured,
+  });
+  autoplayActiveRef.current = autoplayActive;
+
+  const prepareHeroImage = useCallback((index: number) => {
+    const source = heroSlides[index]?.media.image;
+    if (!source || typeof window === 'undefined') return Promise.resolve(false);
+
+    const existing = imagePreparationRef.current.get(source);
+    if (existing) return existing;
+
+    const preparation = new Promise<boolean>((resolve) => {
+      const image = new window.Image();
+      let finished = false;
+      const finish = async (loaded: boolean) => {
+        if (finished) return;
+        finished = true;
+        if (!loaded) {
+          imagePreparationRef.current.delete(source);
+          resolve(false);
+          return;
+        }
+        try {
+          if (typeof image.decode === 'function') await image.decode();
+          resolve(true);
+        } catch {
+          imagePreparationRef.current.delete(source);
+          resolve(false);
+        }
+      };
+      image.addEventListener('load', () => { void finish(true); }, { once: true });
+      image.addEventListener('error', () => { void finish(false); }, { once: true });
+      image.src = source;
+      if (image.complete) void finish(image.naturalWidth > 0);
+    });
+
+    imagePreparationRef.current.set(source, preparation);
+    return preparation;
+  }, [heroSlides]);
+
+  const moveHero = useCallback(async (step: HeroDirection, userInitiated: boolean) => {
+    if (slideCount <= 1 || transitionLockRef.current) return;
+    transitionLockRef.current = true;
+    setTransitioning(true);
+    if (userInitiated) setAutoplayPaused(true);
+
+    const currentFrame = frameRef.current;
+    const nextIndex = stepCarouselIndex(currentFrame.activeIndex, step, slideCount);
+    const imageReady = await prepareHeroImage(nextIndex);
+
+    if (!mountedRef.current) return;
+    if (!imageReady) {
+      transitionLockRef.current = false;
+      setTransitioning(false);
+      return;
+    }
+    if (!userInitiated && !autoplayActiveRef.current) {
+      transitionLockRef.current = false;
+      setTransitioning(false);
+      return;
+    }
+    const nextFrame: HeroCarouselFrame = {
+      activeIndex: nextIndex,
+      previousIndex: currentFrame.activeIndex,
+      direction: step,
+      revision: currentFrame.revision + 1,
+    };
+    frameRef.current = nextFrame;
+    setFrame(nextFrame);
+
+    if (transitionTimerRef.current !== undefined) window.clearTimeout(transitionTimerRef.current);
+    const transitionDuration = prefersReducedMotion ? 0 : HERO_TRANSITION_DURATION_MS;
+    transitionTimerRef.current = window.setTimeout(() => {
+      transitionLockRef.current = false;
+      setTransitioning(false);
+      setFrame((current) => {
+        if (current.revision !== nextFrame.revision) return current;
+        const settled = { ...current, previousIndex: null };
+        frameRef.current = settled;
+        return settled;
+      });
+    }, transitionDuration);
+  }, [prepareHeroImage, prefersReducedMotion, slideCount]);
+
+  useEffect(() => {
+    if (!autoplayActive) return;
+    const timer = window.setTimeout(() => { void moveHero(1, false); }, HERO_ROTATION_DELAY_MS);
+    return () => window.clearTimeout(timer);
+  }, [autoplayActive, frame.activeIndex, moveHero]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined' || slideCount <= 1) return;
+    for (const step of [-1, 1] as const) {
+      void prepareHeroImage(stepCarouselIndex(frame.activeIndex, step, slideCount));
+    }
+  }, [frame.activeIndex, prepareHeroImage, slideCount]);
+
+  useEffect(() => {
+    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const updatePreference = () => setPrefersReducedMotion(preference.matches);
+    updatePreference();
+    preference.addEventListener('change', updatePreference);
+    return () => preference.removeEventListener('change', updatePreference);
+  }, []);
+
+  useEffect(() => {
+    const updateVisibility = () => setPageVisible(!document.hidden);
+    document.addEventListener('visibilitychange', updateVisibility);
+    return () => document.removeEventListener('visibilitychange', updateVisibility);
+  }, []);
+
+  useEffect(() => {
+    const resetPointerFocus = () => { pointerFocusRef.current = false; };
+    window.addEventListener('pointerup', resetPointerFocus);
+    window.addEventListener('pointercancel', resetPointerFocus);
+    window.addEventListener('blur', resetPointerFocus);
+    return () => {
+      window.removeEventListener('pointerup', resetPointerFocus);
+      window.removeEventListener('pointercancel', resetPointerFocus);
+      window.removeEventListener('blur', resetPointerFocus);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (typeof IntersectionObserver === 'undefined' || !heroRef.current) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setInViewport((entry?.intersectionRatio ?? 1) >= 0.08),
+      { threshold: 0.08 },
+    );
+    observer.observe(heroRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    mountedRef.current = true;
+    return () => {
+      mountedRef.current = false;
+      transitionLockRef.current = false;
+      if (transitionTimerRef.current !== undefined) window.clearTimeout(transitionTimerRef.current);
+    };
+  }, []);
+
+  const heroSpecies = heroSlides[frame.activeIndex] ?? items[0];
+  const previousSpecies = frame.previousIndex === null ? undefined : heroSlides[frame.previousIndex];
+  const heroIndex = heroSpecies ? items.findIndex((item) => item.slug === heroSpecies.slug) : 0;
+  const previousName = heroSlides[stepCarouselIndex(frame.activeIndex, -1, slideCount)]?.names.zh;
+  const nextName = heroSlides[stepCarouselIndex(frame.activeIndex, 1, slideCount)]?.names.zh;
+  const directionClass = frame.direction === 1 ? 'forward' : 'backward';
+
+  return (
+    <section
+      ref={heroRef}
+      className="hero"
+      id="top"
+      role="region"
+      aria-labelledby="hero-carousel-label"
+      aria-roledescription="轮播图"
+      onMouseEnter={() => setPointerOver(true)}
+      onMouseLeave={() => {
+        setPointerOver(false);
+        pointerFocusRef.current = false;
+      }}
+      onPointerDownCapture={() => { pointerFocusRef.current = true; }}
+      onPointerUpCapture={() => { pointerFocusRef.current = false; }}
+      onPointerCancelCapture={() => { pointerFocusRef.current = false; }}
+      onLostPointerCapture={() => { pointerFocusRef.current = false; }}
+      onClickCapture={() => { pointerFocusRef.current = false; }}
+      onFocusCapture={() => {
+        if (!pointerFocusRef.current) setAutoplayPaused(true);
+      }}
+    >
+      <span id="hero-carousel-label" className="sr-only">动物封面</span>
+      <div
+        className="hero-carousel__visual"
+        aria-live={autoplayActive ? 'off' : 'polite'}
+      >
+        {previousSpecies?.media.image && (
+          <img
+            key={`previous-${frame.revision}-${previousSpecies.slug}`}
+            className={`hero__image hero__image--leaving-${directionClass}`}
+            src={previousSpecies.media.image}
+            alt=""
+            style={focalPointStyle(previousSpecies.media.focalPoint)}
+            decoding="async"
+            aria-hidden="true"
+          />
+        )}
+        {heroSpecies && (
+          <div
+            key={`slide-${frame.revision}-${heroSpecies.slug}`}
+            className="hero-carousel__slide"
+            role="group"
+            aria-roledescription="幻灯片"
+            aria-label={`第 ${frame.activeIndex + 1} 张，共 ${slideCount} 张：${heroSpecies.names.zh}`}
+          >
+            <img
+              className={`hero__image ${
+                frame.revision === 0
+                  ? 'hero__image--initial'
+                  : frame.previousIndex !== null
+                    ? `hero__image--entering-${directionClass}`
+                    : 'hero__image--settled'
+              }`}
+              src={heroSpecies.media.image ?? './images/fauna-hero.webp'}
+              alt={heroSpecies.media.alt}
+              style={focalPointStyle(heroSpecies.media.focalPoint)}
+              decoding="async"
+              loading="eager"
+              fetchPriority={frame.revision === 0 ? 'high' : 'auto'}
+            />
+          </div>
+        )}
+      </div>
+      <div className="hero__veil" />
+      <div className="hero__grid" aria-hidden="true" />
+      <div className="hero__content">
+        <div className="hero__copy">
+          <p className="hero__kicker"><span /> A LIVING INDEX OF EARTH</p>
+          <h1 id="hero-title">在万物之间，<br />重新认识世界。</h1>
+          <p className="hero__intro">
+            一部持续生长的现代生物电子图册。记录名字，也记录每一种生命与地球相连的方式。
+          </p>
+          <button type="button" className="primary-cta" onClick={scrollToAtlas}>
+            <span>开始探索</span>
+            <ArrowDown size={17} />
+          </button>
+        </div>
+
+        {heroSpecies && (
+          <div className="hero-carousel__panel">
+            <button type="button" className="hero-specimen" onClick={() => onOpenSpecies(heroSpecies)}>
+              <span className="hero-specimen__index">
+                本期观察 / {String(heroIndex + 1).padStart(3, '0')}
+              </span>
+              <span className="hero-specimen__line" />
+              <span className="hero-specimen__latin">{heroSpecies.scientificName}</span>
+              <strong>{heroSpecies.names.zh}</strong>
+              <span className="hero-specimen__meta">
+                {heroSpecies.distribution.regions[0]} · {statusMeta[heroSpecies.conservation.code].label}
+              </span>
+              <ArrowRight size={20} />
+            </button>
+
+            <button
+              type="button"
+              className="hero-carousel__mobile-specimen"
+              onClick={() => onOpenSpecies(heroSpecies)}
+              aria-label={`查看${heroSpecies.names.zh}的完整档案`}
+            >
+              <span>查看当前动物</span>
+              <strong>{heroSpecies.names.zh}</strong>
+              <ArrowRight size={18} aria-hidden="true" />
+            </button>
+
+            {slideCount > 1 && (
+              <div className="hero-carousel__controls" role="group" aria-label="封面轮播控制">
+                <button
+                  type="button"
+                  onClick={() => { void moveHero(-1, true); }}
+                  aria-label={`上一种动物${previousName ? `：${previousName}` : ''}`}
+                  aria-disabled={transitioning}
+                >
+                  <ChevronLeft size={18} aria-hidden="true" />
+                </button>
+                <span className="hero-carousel__status" aria-hidden="true">
+                  <span>{String(frame.activeIndex + 1).padStart(2, '0')} / {String(slideCount).padStart(2, '0')}</span>
+                  <strong>{heroSpecies.names.zh}</strong>
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setAutoplayPaused((paused) => !paused)}
+                  aria-label={
+                    prefersReducedMotion
+                      ? '已根据系统设置停止自动播放'
+                      : autoplayPaused
+                        ? '继续播放封面轮播'
+                        : '暂停封面轮播'
+                  }
+                  disabled={prefersReducedMotion}
+                >
+                  {autoplayPaused || prefersReducedMotion
+                    ? <Play size={16} aria-hidden="true" />
+                    : <Pause size={16} aria-hidden="true" />}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => { void moveHero(1, true); }}
+                  aria-label={`下一种动物${nextName ? `：${nextName}` : ''}`}
+                  aria-disabled={transitioning}
+                >
+                  <ChevronRight size={18} aria-hidden="true" />
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+      <div className="hero__footnote">
+        <span>{formatCoordinates(heroSpecies?.distribution.center)}</span>
+        <span>{heroSpecies?.distribution.regions.slice(0, 2).join(' · ') ?? 'MOUNTAIN BIOREGION'}</span>
+        <span>VOL. 01 / 2026</span>
+      </div>
+    </section>
+  );
+}
+
 function App() {
   const [theme, setTheme] = useState<Theme>(getInitialTheme);
   const [query, setQuery] = useState('');
@@ -595,10 +968,6 @@ function App() {
     });
   }, [activeClass, activeStatus, query]);
 
-  const heroSpecies: Species | undefined = species.find(
-    (item) => item.featured && 'image' in item.media && Boolean(item.media.image),
-  ) ?? species.find((item) => item.featured) ?? species[0];
-  const heroIndex = heroSpecies ? species.findIndex((item) => item.slug === heroSpecies.slug) : 0;
   const regionCount = new Set(species.flatMap((item) => item.distribution.regions)).size;
   const threatenedCount = species.filter((item) => ['CR', 'EN', 'VU'].includes(item.conservation.code)).length;
 
@@ -668,51 +1037,11 @@ function App() {
       </header>
 
       <main>
-        <section className="hero" id="top" aria-labelledby="hero-title">
-          <img
-            className="hero__image"
-            src={heroSpecies?.media.image ?? './images/fauna-hero.webp'}
-            alt={heroSpecies?.media.alt ?? '晨雾山脊上的雪豹'}
-            style={focalPointStyle(heroSpecies?.media.focalPoint)}
-            decoding="async"
-            fetchPriority="high"
-          />
-          <div className="hero__veil" />
-          <div className="hero__grid" aria-hidden="true" />
-          <div className="hero__content">
-            <div className="hero__copy">
-              <p className="hero__kicker"><span /> A LIVING INDEX OF EARTH</p>
-              <h1 id="hero-title">在万物之间，<br />重新认识世界。</h1>
-              <p className="hero__intro">
-                一部持续生长的现代生物电子图册。记录名字，也记录每一种生命与地球相连的方式。
-              </p>
-              <button type="button" className="primary-cta" onClick={scrollToAtlas}>
-                <span>开始探索</span>
-                <ArrowDown size={17} />
-              </button>
-            </div>
-
-            {heroSpecies && (
-              <button type="button" className="hero-specimen" onClick={() => openSpecies(heroSpecies)}>
-                <span className="hero-specimen__index">
-                  本期观察 / {String(heroIndex + 1).padStart(3, '0')}
-                </span>
-                <span className="hero-specimen__line" />
-                <span className="hero-specimen__latin">{heroSpecies.scientificName}</span>
-                <strong>{heroSpecies.names.zh}</strong>
-                <span className="hero-specimen__meta">
-                  {heroSpecies.distribution.regions[0]} · {statusMeta[heroSpecies.conservation.code].label}
-                </span>
-                <ArrowRight size={20} />
-              </button>
-            )}
-          </div>
-          <div className="hero__footnote">
-            <span>{formatCoordinates(heroSpecies?.distribution.center)}</span>
-            <span>{heroSpecies?.distribution.regions.slice(0, 2).join(' · ') ?? 'MOUNTAIN BIOREGION'}</span>
-            <span>VOL. 01 / 2026</span>
-          </div>
-        </section>
+        <HeroCarousel
+          items={species}
+          isObscured={selected !== null || mobileMenuOpen}
+          onOpenSpecies={openSpecies}
+        />
 
         <section className="atlas-intro" aria-label="图册概览">
           <div className="atlas-intro__statement">
