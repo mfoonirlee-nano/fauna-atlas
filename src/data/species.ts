@@ -29,6 +29,8 @@ const AFRICAN_SAVANNA_ELEPHANT_SOURCE_DATE = '2026-08-17' as const;
 const AFRICAN_SAVANNA_ELEPHANT_CONTENT_DATE = '2026-08-17' as const;
 const KOMODO_DRAGON_SOURCE_DATE = '2026-08-17' as const;
 const KOMODO_DRAGON_CONTENT_DATE = '2026-08-17' as const;
+const GHARIAL_SOURCE_DATE = '2026-08-18' as const;
+const GHARIAL_CONTENT_DATE = '2026-08-18' as const;
 const RUSTY_PATCHED_BUMBLE_BEE_SOURCE_DATE = '2026-08-17' as const;
 const RUSTY_PATCHED_BUMBLE_BEE_CONTENT_DATE = '2026-08-17' as const;
 const STAGHORN_CORAL_SOURCE_DATE = '2026-08-17' as const;
@@ -984,6 +986,141 @@ const KOMODO_DRAGON_SOURCES = [
     url: 'https://whc.unesco.org/document/199286',
     kind: 'conservation',
     accessedAt: KOMODO_DRAGON_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const GHARIAL_SOURCES = [
+  {
+    title: 'IUCN Red List — Gavialis gangeticus (2017 assessment; 2019 errata)',
+    url: 'https://doi.org/10.2305/IUCN.UK.2019-1.RLTS.T8966A149227430.en',
+    kind: 'conservation',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'The Reptile Database — Gavialis gangeticus',
+    url: 'https://reptile-database.reptarium.cz/species?genus=Gavialis&species=gangeticus',
+    kind: 'taxonomy',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'CITES — Appendices I, II and III',
+    url: 'https://cites.org/eng/app/appendices.php',
+    kind: 'conservation',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN/SSC Crocodile Specialist Group — Gharial species account',
+    url: 'https://www.iucncsg.org/365_docs/attachments/protarea/23_G-6764939a.pdf',
+    kind: 'general',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Hone et al. 2020 — Ontogeny of the male ghara and sexual dimorphism',
+    url: 'https://doi.org/10.7717/peerj.9134',
+    kind: 'ecology',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Ajji & Lang 2025 — Male-specific underwater POP signals',
+    url: 'https://doi.org/10.1111/joa.14171',
+    kind: 'ecology',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Thorbjarnarson 1990 — Notes on feeding behavior of gharials',
+    url: 'https://doi.org/10.2307/1564301',
+    kind: 'ecology',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Khadka et al. 2020 — Seventeen years of nesting ecology in Chitwan',
+    url: 'https://doi.org/10.1655/Herpetologica-D-19-00038.1',
+    kind: 'ecology',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Khadka et al. 2024 — Spatially uneven population change in Chitwan',
+    url: 'https://doi.org/10.17161/randa.v31i1.21018',
+    kind: 'distribution',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Vashistha et al. 2024 — Status in the upper Ghaghara River',
+    url: 'https://doi.org/10.1017/S0030605323001485',
+    kind: 'distribution',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Sharma et al. 2025 — Population trend in National Chambal Sanctuary',
+    url: 'https://doi.org/10.1002/ece3.72643',
+    kind: 'conservation',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Kashmi et al. 2026 — Occurrence in the Lower Ganges of Bangladesh',
+    url: 'https://doi.org/10.17017/j.fish.1261',
+    kind: 'distribution',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Khalid et al. 2023 — Rediscovery in Punjab, Pakistan',
+    url: 'https://www.iucncsg.org/365_docs/attachments/protarea/e5a83965a9969ec6121b78fed635e3e7.pdf',
+    kind: 'distribution',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Khan et al. 2025 — Follow-up survey of gharial rediscovery in Pakistan',
+    url: 'https://www.wildlife-journal.org/wp-content/uploads/Rediscovery-of-Gavial-in-Pakistan-1.pdf',
+    kind: 'distribution',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Vashistha et al. 2021 — Reduced flow and vegetation limit reservoir nesting',
+    url: 'https://doi.org/10.1038/s41598-021-84143-7',
+    kind: 'ecology',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Vashistha et al. 2021 — Sand addition promotes nesting',
+    url: 'https://doi.org/10.1002/2688-8319.12068',
+    kind: 'conservation',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Nepal DNPWC 2018 — Gharial Conservation Action Plan 2018–2022',
+    url: 'https://dnpwc.gov.np/content/97/gharial-conservation-action-plan--2018-2022-/',
+    kind: 'conservation',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Acharya et al. 2017 — Conservation and population recovery in Nepal',
+    url: 'https://doi.org/10.1655/Herpetologica-D-16-00048.1',
+    kind: 'conservation',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Bustard 1980 — Maternal care in the gharial',
+    url: 'https://www.thebhs.org/publications/british-journal-of-herpetology/4163-volume-6-number-2-june-1980/file',
+    kind: 'ecology',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN/SSC CSG 2016 — Direct observation of male care and hatchling riding',
+    url: 'https://www.iucncsg.org/365_docs/attachments/protarea/daf68c23d4e8447d7b2083a3b59931d5.pdf',
+    kind: 'ecology',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'Zoological Survey of India 2025 — Checklist of Indian reptiles',
+    url: 'https://zsi.gov.in/uploads/documents/checklist/english/119_Reptilia_V2_2025.pdf',
+    kind: 'conservation',
+    accessedAt: GHARIAL_SOURCE_DATE,
+  },
+  {
+    title: 'India MoEFCC 2025–26 Annual Report — Species Recovery Programme',
+    url: 'https://moef.gov.in/uploads/pdf-uploads/Nitin_Rev_4.pdf',
+    kind: 'conservation',
+    accessedAt: GHARIAL_SOURCE_DATE,
   },
 ] as const satisfies readonly SpeciesSource[];
 
@@ -2993,61 +3130,210 @@ export const species = [
       taxon('Gavialidae', '长吻鳄科'),
       taxon('Gavialis', '恒河鳄属'),
     ),
-    conservation: conservation('CR', 'decreasing', 2017, 'A2bcde+4bcde'),
+    conservation: conservation('CR', 'increasing', 2017, 'A2bce'),
     distribution: {
-      realms: ['freshwater'],
+      realms: ['freshwater', 'terrestrial'],
       continents: ['亚洲'],
-      regions: ['印度河—恒河平原'],
-      countries: ['印度', '尼泊尔'],
-      range: '稳定繁殖种群现主要集中在印度和尼泊尔少数未被截断的大河河段。',
+      regions: [
+        '恒河干流与北印度支流',
+        '昌巴尔河',
+        '吉尔瓦—格哈格拉河',
+        '纳拉亚尼—拉普蒂河',
+        '帕德玛—布拉马普特拉河近期记录段',
+        '苏特莱杰河近期记录段',
+      ],
+      countries: ['印度', '尼泊尔', '孟加拉国', '巴基斯坦'],
+      range:
+        '主要自持繁殖种群集中在印度和尼泊尔少数河段；孟加拉国与巴基斯坦近年有重复记录，但这些个体来自本地繁殖还是跨境扩散，仍需系统监测。',
       center: { lat: 26.6, lng: 80.6 },
     },
     habitats: [
       {
-        name: '大型低地河流',
+        name: '中大型永久性河流',
         realm: 'freshwater',
-        description: '需要深水、缓急相间的河道以及可供晒背和筑巢的宽阔沙洲。',
+        description: '依赖连通且保有季节流量变化的河道，并在深水、缓流、浅岸与开阔水面之间移动。',
         isPrimary: true,
+      },
+      {
+        name: '深水区与岸边浅水',
+        realm: 'freshwater',
+        description: '深水提供水栖活动与避难空间，临近沙岸的浅水供幼体停留、托儿群聚集和成体上下岸。',
+      },
+      {
+        name: '季节性裸露沙洲与沙岸',
+        realm: 'terrestrial',
+        description: '干季裸露沙地用于晒背、繁殖期聚集和挖穴筑巢；采砂、植被侵入与异常水位会迅速降低适用性。',
       },
     ],
     measurements: {
-      length: { min: 3.5, max: 6, unit: 'm', note: '雄性通常明显大于雌性' },
-      weight: { min: 160, max: 250, unit: 'kg', note: '大型成体估计范围' },
+      length: {
+        min: 3.5,
+        max: 4.5,
+        unit: 'm',
+        note: '较常见成体参考范围；雄性通常更大，超过 6 米属于历史大型雄性记录而非普通上限',
+      },
     },
     diet: {
       types: ['carnivore', 'piscivore'],
-      foods: ['淡水鱼', '甲壳类', '两栖动物'],
-      description: '极狭长的吻部减少水阻，交错尖牙尤其适合迅速夹住滑溜的鱼。',
+      foods: ['淡水鱼类（主食）', '昆虫等小型无脊椎动物（幼体）', '蛙类及其他小型动物（有记录）'],
+      description:
+        '极长而狭窄的吻部降低侧向摆动的水阻，多数大小相近的尖牙适于迅速夹住鱼；幼体也会取食昆虫、蛙类和其他小型动物。',
     },
-    activity: ['水栖', '日间晒背', '季节性筑巢'],
-    tags: ['南亚河流', '极危', '食鱼特化', '淡水旗舰物种'],
-    summary: '长吻高度特化、几乎完全水栖的南亚大型鳄类。',
-    description: '恒河鳄的腿不适合在陆地高抬行走，却是灵活的游泳者。成年雄性吻端长有壶状突起“ghara”，既能放大求偶声，也会在吐气时产生气泡。',
-    keyFacts: [
-      '成年雄性的吻端会形成该物种独有的壶状突起。',
-      '雌鳄一次可在沙岸产下约 30—60 枚卵。',
-      '它们通常避开人类，狭窄口鼻不适于捕捉大型陆生猎物。',
+    activity: ['高度水栖', '日间晒背', '季节性长距离移动', '干季筑巢', '幼体托儿群'],
+    tags: ['南亚大河', 'IUCN 极危', '食鱼特化', '成熟雄性 ghara', 'CITES 附录 I', '淡水旗舰物种'],
+    summary: '以极长窄吻捕捉鱼类、依赖连通大河与裸露沙洲，并由成熟雄性长出 ghara 的南亚极危鳄类。',
+    description:
+      '恒河鳄把大部分活动交给河流：长而狭窄的吻部适合在水中迅速夹鱼，成体会上岸晒背，雌性还会上岸筑巢。大型成熟雄性吻端会形成壶状 ghara，并能发出短促的水下 POP 信号；该结构与视觉和声学展示相关，但具体发声机制仍在研究。IUCN 评估记录的总体趋势为上升，主要种群却仍高度破碎，坝闸、渔网、采砂和河岸扰动持续威胁繁殖与连通。',
+    storySections: [
+      {
+        key: 'river-specialist',
+        label: '形态与食性',
+        title: '把吻部变成夹鱼的长镊子',
+        body: '恒河鳄每侧上颌有 27—29 枚牙、下颌有 25—26 枚牙，多数大小接近。细长吻部减少侧摆水阻，闭颌时交错尖牙能迅速夹住鱼；幼体也会取食昆虫、蛙类和其他小动物。',
+      },
+      {
+        key: 'male-ghara',
+        label: '雄性信号',
+        title: '吻端的壶，水下的一声 POP',
+        body: '只有较大成熟雄性会在外鼻孔周围长出软组织与软骨构成的 ghara。野外研究记录到短促水下 POP，并同时记录呼吸、下潜和水面气泡等行为；情境包括警戒与巡游，因此不能把它简单叫作求偶扩音器。',
+      },
+      {
+        key: 'connected-river',
+        label: '生境',
+        title: '保护一只鳄，必须让整条河仍像河',
+        body: '深水、浅岸、裸露沙洲与季节洪水共同组成恒河鳄生境。坝闸既阻断移动，也改变泥沙和植被；抽水、采砂与河岸农业会继续压缩筑巢空间。局部补沙能救急，却不能代替自然流量与河道连通。',
+      },
+      {
+        key: 'sandbank-nursery',
+        label: '繁殖',
+        title: '一片沙洲，同时是产房与育幼场',
+        body: '雌性在干季临水沙岸挖穴，通常产约 30—50 枚卵。她会守巢并在孵化时打开巢穴，却不会把幼体含在嘴里搬运；多个巢的幼体可合并成托儿群，由雌性和通常一只大型雄性守护。',
+      },
+      {
+        key: 'counting-boundaries',
+        label: '种群',
+        title: '650、1,857 与 486，说的是三件不同的事',
+        body: 'IUCN 的 300—900 是全球成熟个体估计；昌巴尔 1,857 是 2019 年全部体型的地方计数；486 则是同年的巢数。调查范围、体型标准与方法不同，不能把这些数字相加或互相替代。',
+      },
+      {
+        key: 'recovery-with-caveats',
+        label: '保护',
+        title: '总体上升，不等于河流危机结束',
+        body: 'IUCN 把总体趋势记为上升，但恢复高度集中在昌巴尔等少数地点。人工育幼放归曾帮助部分种群，却因历史标记和追踪不足难以量化总体成效；减少渔网死亡、维护沙洲和恢复连通仍不可替代。',
+      },
     ],
-    threats: ['水坝与河道改造', '渔网误捕', '采砂破坏巢址', '鱼类资源下降'],
-    conservationActions: ['河流保护区', '人工繁育放归', '巢址巡护与渔业协作'],
+    keyFacts: [
+      'IUCN 当前档案为极危 A2bce、趋势上升；两者分别描述历史衰退等级与评估时的近期方向。',
+      '极长窄吻两侧排列大量大小较接近的细牙，适合快速夹鱼，不适合擒住大型陆生猎物。',
+      'ghara 只见于大型成熟雄性，是围绕外鼻孔形成的软组织与软骨结构，不是骨角或可充气气囊。',
+      '雌性会守巢和开巢，却不会把幼体含在嘴里搬到水中；幼体可组成由多只成体守护的托儿群。',
+      '全球成熟个体估计、地方全部体型计数和巢数是不同统计口径，不能直接比较或相加。',
+      '主要自持繁殖种群仍集中在印度和尼泊尔；孟加拉国、巴基斯坦的近期记录尚未证实稳定本地繁殖。',
+      '高度水栖不等于没有陆地需求：沙洲既是晒背场，也是穴巢与孵化后的育幼岸线。',
+      '人工育幼放归只有与河流连通、适宜流量、渔业协作和长期标记监测结合，才可能形成可衡量的恢复。',
+    ],
+    threats: [
+      '坝闸、水量调控与抽水造成河流破碎和季节水文改变',
+      '刺网等渔具导致溺亡、吻部损伤并加剧鱼类资源竞争',
+      '采砂、采石、农业和河岸扰动破坏巢址与晒背地',
+      '小型隔离种群缺少繁殖雄性、招募不足并发生单向下游流失',
+      '局地采卵、历史皮张捕猎及持续的人为接近',
+      '污染以及病因尚未完全解释的大规模死亡事件',
+    ],
+    conservationActions: [
+      '保护整段河流连通性并维持季节流量和泥沙过程',
+      '保护裸露沙洲、限制采砂采石，并对退化巢址开展审慎的局部补沙',
+      '与渔民协作减少刺网误捕并建立缠网个体快速响应机制',
+      '统一调查、体型分级、个体标记与长期追踪方法',
+      '只在生境适宜且能持续监测的河段开展育幼放归',
+      '加强印度、尼泊尔、孟加拉国和巴基斯坦的跨境河流监测',
+    ],
     metrics: {
-      adultLengthCm: [350, 600],
-      adultMassKg: [160, 250],
-      lifespanYears: [40, 60],
+      adultLengthCm: [350, 450],
+      estimatedMatureIndividuals: [300, 900],
     },
     featuredStats: [
-      { key: 'length', label: '雄性体长', value: '可达 6', unit: '米' },
-      { key: 'clutch', label: '每窝卵数', value: '约 30—60', unit: '枚' },
-      { key: 'range', label: '主要现存国家', value: '2', unit: '个' },
+      {
+        key: 'mature-individuals',
+        label: 'IUCN 成熟个体估计',
+        value: '300—900',
+        unit: '只',
+        note: '中位数约 650；2017 评估，资料主要来自 2010—2017 年',
+      },
+      {
+        key: 'generation-length',
+        label: '世代长度',
+        value: '25',
+        unit: '年',
+        note: 'IUCN 评估参数，不是寿命',
+      },
+      {
+        key: 'clutch-size',
+        label: '每窝卵数',
+        value: '约 30—50',
+        unit: '枚',
+        note: 'IUCN 常用概括约 40；不同地点和年份会变化',
+      },
+      {
+        key: 'aoo-decline',
+        label: '占据面积历史降幅',
+        value: '约 94',
+        unit: '%',
+        note: 'IUCN 2017 评估中的历史—当前估算',
+      },
     ],
     media: {
-      alt: '河岸沙洲上晒太阳的恒河鳄',
-      focalPoint: { x: 0.55, y: 0.52 },
+      image: './images/species/gharial/01-sandbank-river-portrait.webp',
+      alt: '宽阔南亚河流的裸露沙洲上，一只吻端带 ghara 的成年雄性恒河鳄完整地低伏晒背',
+      focalPoint: { x: 0.66, y: 0.58 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/gharial/02-male-ghara-underwater-pop.webp',
+          alt: '自然河流的绿色水下，一只吻端带 ghara 的成年雄性恒河鳄闭合长吻，鼻端周围留有一小团气泡',
+          title: '水下的一声 POP',
+          caption:
+            '野外研究确认成熟雄性会发出短促 POP；清澈水体下的初步观察曾记录快速闭颌及随后出现的泡云，但它们是否构成 POP 的声源机制仍待验证，也不能被定义为固定求偶动作。',
+          focalPoint: { x: 0.76, y: 0.49 },
+        },
+        {
+          image: './images/species/gharial/03-free-flowing-river-habitat.webp',
+          alt: '深水主槽、临岸浅水与大片裸露沙洲相连的宽阔河段中，一只恒河鳄在沙洲上显得很小',
+          title: '一条河，三种必需空间',
+          caption:
+            '恒河鳄依赖的是深水、浅岸和裸露沙洲相连的河流镶嵌；让动物在画面里变小，才能看见保护尺度为什么必须大于一个巢址。',
+          focalPoint: { x: 0.7, y: 0.66 },
+        },
+        {
+          image: './images/species/gharial/04-underwater-lateral-fish-strike.webp',
+          alt: '河底上方，一只没有 ghara 的亚成体恒河鳄用极长窄吻夹住一条完整的小鱼',
+          title: '侧向一击夹住鱼',
+          caption:
+            '长吻与密集细牙适合在水下迅速夹持小鱼；躯干保持低而稳定，动作集中在头颈，不把它画成追逐大型猎物或进行死亡翻滚。',
+          focalPoint: { x: 0.72, y: 0.58 },
+        },
+        {
+          image: './images/species/gharial/05-female-hatchling-nursery.webp',
+          alt: '临水沙岸的穴巢已经打开，一只没有 ghara 的成年雌性恒河鳄在浅水中守望自行下水的幼体群',
+          title: '守护，不用长吻搬运',
+          caption:
+            '雌性会守巢、开巢并在浅水旁照看托儿群，但不会像许多其他鳄类那样把幼体含在嘴里搬到水边。',
+          focalPoint: { x: 0.56, y: 0.58 },
+        },
+        {
+          image: './images/species/gharial/06-sandbank-restoration-monitoring.webp',
+          alt: '三名保护人员在空置沙岸上清理木本植被、平整沙面并记录岸高，一只雌性恒河鳄在河对面保持距离',
+          title: '先让沙洲重新适合筑巢',
+          caption:
+            '清除侵入木本植被、局部补沙和测量巢岸可缓解特定受调控河段的瓶颈；它们是地点性的修复工具，不能替代自然流量与河道连通。',
+          focalPoint: { x: 0.5, y: 0.57 },
+        },
+      ],
     },
-    sources: sourcesFor('Gavialis gangeticus'),
-    featured: false,
+    sources: GHARIAL_SOURCES,
+    featured: true,
     publishedAt: CONTENT_DATE,
-    updatedAt: CONTENT_DATE,
+    updatedAt: GHARIAL_CONTENT_DATE,
   },
   {
     id: 'species-ambystoma-mexicanum',
