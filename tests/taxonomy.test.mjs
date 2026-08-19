@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 49 taxon nodes and 14 unique species leaves', () => {
+test('builds the current catalogue into 51 taxon nodes and 15 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 14, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 49);
-  assert.equal(speciesNodes.length, 14);
-  assert.equal(nodes.length, 63);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 63, 'every node key is unique');
+  assert.equal(species.length, 15, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 51);
+  assert.equal(speciesNodes.length, 15);
+  assert.equal(nodes.length, 66);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 66, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -84,14 +84,38 @@ test('keeps every catalogue association unique and attached to its named genus',
   }
 });
 
+test('registers the Eurasian otter as a complete Lutra lutra profile', () => {
+  const otter = findSpecies('eurasian-otter');
+
+  assert.equal(otter.id, 'species-lutra-lutra');
+  assert.equal(otter.names.zh, '水獭');
+  assert.equal(otter.scientificName, 'Lutra lutra');
+  assert.equal(otter.taxonomy.family.scientificName, 'Mustelidae');
+  assert.equal(otter.taxonomy.genus.scientificName, 'Lutra');
+  assert.deepEqual(
+    {
+      code: otter.conservation.code,
+      trend: otter.conservation.trend,
+      assessedYear: otter.conservation.assessedYear,
+      criteria: otter.conservation.criteria,
+    },
+    { code: 'NT', trend: 'decreasing', assessedYear: 2020, criteria: 'A2c' },
+  );
+  assert.deepEqual(otter.distribution.realms, ['freshwater', 'terrestrial', 'marine']);
+  assert.equal(otter.storySections?.length, 6);
+  assert.equal(otter.media.gallery?.length, 5);
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 14);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 12);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 6);
-  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 1);
 });
 
