@@ -32,6 +32,7 @@ const layoutSource = stylesSource.slice(
   stylesSource.indexOf('@layer layout'),
   stylesSource.indexOf('@layer responsive'),
 );
+const extraWideGridSource = blockStartingAt(stylesSource, '@media (min-width: 1600px)');
 const mediumGridSource = blockStartingAt(stylesSource, '@media (max-width: 1100px)');
 const compactCardSource = blockStartingAt(
   stylesSource,
@@ -47,24 +48,34 @@ test('species list sizing is presentation-driven instead of featured-content-dri
   assert.match(appSource, /className="species-grid__item"/);
 });
 
-test('wide species list presents two large cards per row', () => {
+test('standard desktop species list presents two large cards per row', () => {
   assert.match(
     layoutSource,
     /\.species-grid\s*{[^}]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)/s,
   );
+  assert.match(layoutSource, /\.atlas-section\s*{[^}]*max-width:\s*1920px/s);
+  assert.match(stylesSource, /\.species-card\s*{[^}]*display:\s*flex/s);
+  assert.match(stylesSource, /\.species-card\s*{[^}]*height:\s*100%/s);
+  assert.match(stylesSource, /\.species-card\s*{[^}]*flex-direction:\s*column/s);
+  assert.match(stylesSource, /\.species-card__content\s*{[^}]*flex:\s*1/s);
   assert.match(stylesSource, /\.species-card\s*{[^}]*min-height:\s*573px/s);
   assert.match(stylesSource, /\.species-card h3\s*{[^}]*font-size:\s*clamp\(2\.2rem,\s*3vw,\s*3\.4rem\)/s);
 });
 
-test('medium species list pairs one large card with one compact card', () => {
+test('extra-wide species list presents three large cards per row', () => {
+  assert.match(
+    extraWideGridSource,
+    /\.species-grid\s*{[^}]*grid-template-columns:\s*repeat\(3,\s*minmax\(0,\s*1fr\)\)/s,
+  );
+});
+
+test('medium species list pairs one large card with one equal-height compact card', () => {
   assert.match(
     mediumGridSource,
     /\.species-grid\s*{[^}]*grid-template-columns:\s*minmax\(0,\s*2fr\)\s*minmax\(240px,\s*1fr\)/s,
   );
-  assert.match(
-    compactCardSource,
-    /\.species-grid__item:nth-child\(even\) \.species-card\s*{[^}]*min-height:\s*525px/s,
-  );
+  assert.doesNotMatch(compactCardSource, /\.species-grid__item:nth-child\(even\) \.species-card\s*{/);
+  assert.doesNotMatch(compactCardSource, /min-height:\s*525px/);
   assert.match(
     compactCardSource,
     /\.species-grid__item:nth-child\(even\) \.taxon-art\s*{[^}]*min-height:\s*245px/s,
