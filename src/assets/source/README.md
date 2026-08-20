@@ -20,6 +20,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Staghorn coral image set](./species/staghorn-coral/README.md)
 - [Western gorilla image set](./species/western-gorilla/README.md)
 - [Polar bear image set](./species/polar-bear/README.md)
+- [Red kangaroo image set](./species/red-kangaroo/README.md)
 
 ## Landing-page hero
 

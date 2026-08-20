@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 58 taxon nodes and 18 unique species leaves', () => {
+test('builds the current catalogue into 61 taxon nodes and 19 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 18, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 58);
-  assert.equal(speciesNodes.length, 18);
-  assert.equal(nodes.length, 76);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 76, 'every node key is unique');
+  assert.equal(species.length, 19, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 61);
+  assert.equal(speciesNodes.length, 19);
+  assert.equal(nodes.length, 80);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 80, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -176,12 +176,37 @@ test('registers the polar bear as a complete Ursus maritimus profile', () => {
   assert.equal(polarBear.media.gallery?.length, 5);
 });
 
+test('registers the red kangaroo as a complete Osphranter rufus profile', () => {
+  const redKangaroo = findSpecies('red-kangaroo');
+
+  assert.equal(redKangaroo.id, 'species-osphranter-rufus');
+  assert.equal(redKangaroo.names.zh, '红袋鼠');
+  assert.equal(redKangaroo.names.en, 'Red Kangaroo');
+  assert.ok(redKangaroo.names.aliases.includes('Macropus rufus'));
+  assert.equal(redKangaroo.scientificName, 'Osphranter rufus');
+  assert.equal(redKangaroo.taxonomy.order.scientificName, 'Diprotodontia');
+  assert.equal(redKangaroo.taxonomy.family.scientificName, 'Macropodidae');
+  assert.equal(redKangaroo.taxonomy.genus.scientificName, 'Osphranter');
+  assert.deepEqual(
+    {
+      code: redKangaroo.conservation.code,
+      trend: redKangaroo.conservation.trend,
+      assessedYear: redKangaroo.conservation.assessedYear,
+      criteria: redKangaroo.conservation.criteria,
+    },
+    { code: 'LC', trend: 'stable', assessedYear: 2015, criteria: undefined },
+  );
+  assert.deepEqual(redKangaroo.distribution.realms, ['terrestrial']);
+  assert.equal(redKangaroo.storySections?.length, 6);
+  assert.equal(redKangaroo.media.gallery?.length, 5);
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 18);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 16);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 19);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 17);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Ursidae')?.speciesCount, 2);
@@ -194,6 +219,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Monotremata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Ornithorhynchidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Ornithorhynchus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Diprotodontia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Macropodidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Osphranter')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 1);
 });
 
