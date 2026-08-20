@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 63 taxon nodes and 20 unique species leaves', () => {
+test('builds the current catalogue into 66 taxon nodes and 21 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 20, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 63);
-  assert.equal(speciesNodes.length, 20);
-  assert.equal(nodes.length, 83);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 83, 'every node key is unique');
+  assert.equal(species.length, 21, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 66);
+  assert.equal(speciesNodes.length, 21);
+  assert.equal(nodes.length, 87);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 87, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -226,12 +226,38 @@ test('registers the common bottlenose dolphin as a complete Tursiops truncatus p
   assert.equal(bottlenoseDolphin.media.gallery?.length, 5);
 });
 
+test('registers the Snowy Albatross as a complete Diomedea exulans profile', () => {
+  const wanderingAlbatross = findSpecies('wandering-albatross');
+
+  assert.equal(wanderingAlbatross.id, 'species-diomedea-exulans');
+  assert.equal(wanderingAlbatross.names.zh, '漂泊信天翁');
+  assert.equal(wanderingAlbatross.names.en, 'Snowy Albatross');
+  assert.ok(wanderingAlbatross.names.aliases.includes('Wandering Albatross'));
+  assert.equal(wanderingAlbatross.scientificName, 'Diomedea exulans');
+  assert.equal(wanderingAlbatross.taxonomy.order.scientificName, 'Procellariiformes');
+  assert.equal(wanderingAlbatross.taxonomy.family.scientificName, 'Diomedeidae');
+  assert.equal(wanderingAlbatross.taxonomy.genus.scientificName, 'Diomedea');
+  assert.deepEqual(
+    {
+      code: wanderingAlbatross.conservation.code,
+      trend: wanderingAlbatross.conservation.trend,
+      assessedYear: wanderingAlbatross.conservation.assessedYear,
+      criteria: wanderingAlbatross.conservation.criteria,
+    },
+    { code: 'VU', trend: 'decreasing', assessedYear: 2018, criteria: 'A4bd' },
+  );
+  assert.deepEqual(wanderingAlbatross.distribution.realms, ['marine', 'terrestrial']);
+  assert.equal(wanderingAlbatross.storySections?.length, 6);
+  assert.equal(wanderingAlbatross.media.gallery?.length, 5);
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 20);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 18);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 21);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 19);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Ursidae')?.speciesCount, 2);
@@ -250,6 +276,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cetacea')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Delphinidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tursiops')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Procellariiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Diomedeidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Diomedea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 1);
 });
 
