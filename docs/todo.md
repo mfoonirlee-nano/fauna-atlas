@@ -1,5 +1,4 @@
 # 待实现的动物
-大猩猩（Gorilla gorilla）  
 北极熊（Ursus maritimus）  
 红袋鼠（Macropus rufus）  
 宽吻海豚（Tursiops truncatus）  
@@ -11,4 +10,3 @@
 帝王蝶（Danaus plexippus）  
 招潮蟹（Uca spp.）  
 海月水母（Aurelia aurita）
-

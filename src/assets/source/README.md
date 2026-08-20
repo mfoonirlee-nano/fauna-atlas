@@ -18,6 +18,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Blue whale image set](./species/blue-whale/README.md)
 - [Rusty-patched bumble bee image set](./species/rusty-patched-bumble-bee/README.md)
 - [Staghorn coral image set](./species/staghorn-coral/README.md)
+- [Western gorilla image set](./species/western-gorilla/README.md)
 
 ## Landing-page hero
 

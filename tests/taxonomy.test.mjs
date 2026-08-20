@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 54 taxon nodes and 16 unique species leaves', () => {
+test('builds the current catalogue into 57 taxon nodes and 17 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 16, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 54);
-  assert.equal(speciesNodes.length, 16);
-  assert.equal(nodes.length, 70);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 70, 'every node key is unique');
+  assert.equal(species.length, 17, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 57);
+  assert.equal(speciesNodes.length, 17);
+  assert.equal(nodes.length, 74);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 74, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -129,16 +129,42 @@ test('registers the platypus as a complete Ornithorhynchus anatinus profile', ()
   assert.equal(platypus.media.gallery?.length, 5);
 });
 
+test('registers the Western gorilla as a complete Gorilla gorilla profile', () => {
+  const gorilla = findSpecies('western-gorilla');
+
+  assert.equal(gorilla.id, 'species-gorilla-gorilla');
+  assert.equal(gorilla.names.zh, '大猩猩');
+  assert.equal(gorilla.scientificName, 'Gorilla gorilla');
+  assert.equal(gorilla.taxonomy.order.scientificName, 'Primates');
+  assert.equal(gorilla.taxonomy.family.scientificName, 'Hominidae');
+  assert.equal(gorilla.taxonomy.genus.scientificName, 'Gorilla');
+  assert.deepEqual(
+    {
+      code: gorilla.conservation.code,
+      trend: gorilla.conservation.trend,
+      assessedYear: gorilla.conservation.assessedYear,
+      criteria: gorilla.conservation.criteria,
+    },
+    { code: 'CR', trend: 'decreasing', assessedYear: 2016, criteria: 'A4bcde' },
+  );
+  assert.deepEqual(gorilla.distribution.realms, ['terrestrial']);
+  assert.equal(gorilla.storySections?.length, 6);
+  assert.equal(gorilla.media.gallery?.length, 5);
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 16);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 14);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 17);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 9);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Hominidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Gorilla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Monotremata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Ornithorhynchidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Ornithorhynchus')?.speciesCount, 1);
