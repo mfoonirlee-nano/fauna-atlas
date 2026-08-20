@@ -1,5 +1,4 @@
 # 待实现的动物
-北极熊（Ursus maritimus）  
 红袋鼠（Macropus rufus）  
 宽吻海豚（Tursiops truncatus）  
 漂泊信天翁（Diomedea exulans）  

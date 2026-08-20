@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 57 taxon nodes and 17 unique species leaves', () => {
+test('builds the current catalogue into 58 taxon nodes and 18 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 17, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 57);
-  assert.equal(speciesNodes.length, 17);
-  assert.equal(nodes.length, 74);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 74, 'every node key is unique');
+  assert.equal(species.length, 18, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 58);
+  assert.equal(speciesNodes.length, 18);
+  assert.equal(nodes.length, 76);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 76, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -152,16 +152,42 @@ test('registers the Western gorilla as a complete Gorilla gorilla profile', () =
   assert.equal(gorilla.media.gallery?.length, 5);
 });
 
+test('registers the polar bear as a complete Ursus maritimus profile', () => {
+  const polarBear = findSpecies('polar-bear');
+
+  assert.equal(polarBear.id, 'species-ursus-maritimus');
+  assert.equal(polarBear.names.zh, '北极熊');
+  assert.equal(polarBear.names.en, 'Polar Bear');
+  assert.equal(polarBear.scientificName, 'Ursus maritimus');
+  assert.equal(polarBear.taxonomy.order.scientificName, 'Carnivora');
+  assert.equal(polarBear.taxonomy.family.scientificName, 'Ursidae');
+  assert.equal(polarBear.taxonomy.genus.scientificName, 'Ursus');
+  assert.deepEqual(
+    {
+      code: polarBear.conservation.code,
+      trend: polarBear.conservation.trend,
+      assessedYear: polarBear.conservation.assessedYear,
+      criteria: polarBear.conservation.criteria,
+    },
+    { code: 'VU', trend: 'unknown', assessedYear: 2015, criteria: 'A3c' },
+  );
+  assert.deepEqual(polarBear.distribution.realms, ['marine', 'terrestrial']);
+  assert.equal(polarBear.storySections?.length, 6);
+  assert.equal(polarBear.media.gallery?.length, 5);
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 17);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 15);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 9);
-  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 18);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 16);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Ursidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Ursus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Hominidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Gorilla')?.speciesCount, 1);
