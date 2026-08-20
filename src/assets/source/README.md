@@ -5,6 +5,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Giant panda image set](./species/giant-panda/README.md)
 - [Red panda image set](./species/red-panda/README.md)
 - [Eurasian otter image set](./species/eurasian-otter/README.md)
+- [Platypus image set](./species/platypus/README.md)
 - [Snow leopard image set](./species/snow-leopard/README.md)
 - [Chinese mountain cat image set](./species/chinese-mountain-cat/README.md)
 - [Emperor penguin image set](./species/emperor-penguin/README.md)
