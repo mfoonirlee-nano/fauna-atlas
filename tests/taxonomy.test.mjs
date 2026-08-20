@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 66 taxon nodes and 21 unique species leaves', () => {
+test('builds the current catalogue into 69 taxon nodes and 22 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 21, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 66);
-  assert.equal(speciesNodes.length, 21);
-  assert.equal(nodes.length, 87);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 87, 'every node key is unique');
+  assert.equal(species.length, 22, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 69);
+  assert.equal(speciesNodes.length, 22);
+  assert.equal(nodes.length, 91);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 91, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -251,13 +251,37 @@ test('registers the Snowy Albatross as a complete Diomedea exulans profile', () 
   assert.equal(wanderingAlbatross.media.gallery?.length, 5);
 });
 
+test('registers the Ruby-throated Hummingbird as a complete Archilochus colubris profile', () => {
+  const hummingbird = findSpecies('ruby-throated-hummingbird');
+
+  assert.equal(hummingbird.id, 'species-archilochus-colubris');
+  assert.equal(hummingbird.names.zh, '红喉北蜂鸟');
+  assert.equal(hummingbird.names.en, 'Ruby-throated Hummingbird');
+  assert.equal(hummingbird.scientificName, 'Archilochus colubris');
+  assert.equal(hummingbird.taxonomy.order.scientificName, 'Apodiformes');
+  assert.equal(hummingbird.taxonomy.family.scientificName, 'Trochilidae');
+  assert.equal(hummingbird.taxonomy.genus.scientificName, 'Archilochus');
+  assert.deepEqual(
+    {
+      code: hummingbird.conservation.code,
+      trend: hummingbird.conservation.trend,
+      assessedYear: hummingbird.conservation.assessedYear,
+      criteria: hummingbird.conservation.criteria,
+    },
+    { code: 'LC', trend: 'increasing', assessedYear: 2020, criteria: undefined },
+  );
+  assert.deepEqual(hummingbird.distribution.realms, ['terrestrial']);
+  assert.equal(hummingbird.storySections?.length, 6);
+  assert.equal(hummingbird.media.gallery?.length, 5);
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 21);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 19);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 22);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 20);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 12);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Ursidae')?.speciesCount, 2);
@@ -279,6 +303,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Procellariiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Diomedeidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Diomedea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Apodiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Trochilidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Archilochus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 1);
 });
 

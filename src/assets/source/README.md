@@ -23,6 +23,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Red kangaroo image set](./species/red-kangaroo/README.md)
 - [Common bottlenose dolphin image set](./species/common-bottlenose-dolphin/README.md)
 - [Snowy albatross image set](./species/wandering-albatross/README.md)
+- [Ruby-throated hummingbird image set](./species/ruby-throated-hummingbird/README.md)
 
 ## Landing-page hero
 

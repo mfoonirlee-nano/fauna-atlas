@@ -1,5 +1,4 @@
 # 待实现的动物
-红喉北蜂鸟（Archilochus colubris）  
 绿海龟（Chelonia mydas）  
 网纹蟒（Malayopython reticulatus）  
 中国大鲵（Andrias davidianus）  
