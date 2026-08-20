@@ -1,0 +1,14 @@
+# 待实现的动物
+大猩猩（Gorilla gorilla）  
+北极熊（Ursus maritimus）  
+红袋鼠（Macropus rufus）  
+宽吻海豚（Tursiops truncatus）  
+漂泊信天翁（Diomedea exulans）  
+红喉北蜂鸟（Archilochus colubris）  
+绿海龟（Chelonia mydas）  
+网纹蟒（Malayopython reticulatus）  
+中国大鲵（Andrias davidianus）  
+帝王蝶（Danaus plexippus）  
+招潮蟹（Uca spp.）  
+海月水母（Aurelia aurita）
+
