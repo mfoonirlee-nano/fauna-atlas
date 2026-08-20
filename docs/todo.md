@@ -1,5 +1,4 @@
 # 待实现的动物
-宽吻海豚（Tursiops truncatus）  
 漂泊信天翁（Diomedea exulans）  
 红喉北蜂鸟（Archilochus colubris）  
 绿海龟（Chelonia mydas）  

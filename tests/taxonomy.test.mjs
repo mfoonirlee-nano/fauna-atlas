@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 61 taxon nodes and 19 unique species leaves', () => {
+test('builds the current catalogue into 63 taxon nodes and 20 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 19, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 61);
-  assert.equal(speciesNodes.length, 19);
-  assert.equal(nodes.length, 80);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 80, 'every node key is unique');
+  assert.equal(species.length, 20, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 63);
+  assert.equal(speciesNodes.length, 20);
+  assert.equal(nodes.length, 83);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 83, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -201,12 +201,37 @@ test('registers the red kangaroo as a complete Osphranter rufus profile', () => 
   assert.equal(redKangaroo.media.gallery?.length, 5);
 });
 
+test('registers the common bottlenose dolphin as a complete Tursiops truncatus profile', () => {
+  const bottlenoseDolphin = findSpecies('common-bottlenose-dolphin');
+
+  assert.equal(bottlenoseDolphin.id, 'species-tursiops-truncatus');
+  assert.equal(bottlenoseDolphin.names.zh, '宽吻海豚');
+  assert.equal(bottlenoseDolphin.names.en, 'Common Bottlenose Dolphin');
+  assert.ok(bottlenoseDolphin.names.aliases.includes('Bottlenose Dolphin'));
+  assert.equal(bottlenoseDolphin.scientificName, 'Tursiops truncatus');
+  assert.equal(bottlenoseDolphin.taxonomy.order.scientificName, 'Cetacea');
+  assert.equal(bottlenoseDolphin.taxonomy.family.scientificName, 'Delphinidae');
+  assert.equal(bottlenoseDolphin.taxonomy.genus.scientificName, 'Tursiops');
+  assert.deepEqual(
+    {
+      code: bottlenoseDolphin.conservation.code,
+      trend: bottlenoseDolphin.conservation.trend,
+      assessedYear: bottlenoseDolphin.conservation.assessedYear,
+      criteria: bottlenoseDolphin.conservation.criteria,
+    },
+    { code: 'LC', trend: 'unknown', assessedYear: 2018, criteria: undefined },
+  );
+  assert.deepEqual(bottlenoseDolphin.distribution.realms, ['marine']);
+  assert.equal(bottlenoseDolphin.storySections?.length, 6);
+  assert.equal(bottlenoseDolphin.media.gallery?.length, 5);
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 19);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 17);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 20);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 18);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Ursidae')?.speciesCount, 2);
@@ -222,6 +247,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Diprotodontia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Macropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Osphranter')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Cetacea')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Delphinidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Tursiops')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 1);
 });
 
