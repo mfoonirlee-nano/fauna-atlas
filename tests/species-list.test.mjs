@@ -28,6 +28,10 @@ const cardSource = appSource.slice(
   appSource.indexOf('function SpeciesCard'),
   appSource.indexOf('interface SpeciesDetailProps'),
 );
+const classIconSource = appSource.slice(
+  appSource.indexOf('function classIcon'),
+  appSource.indexOf('\nfunction formatClassName'),
+);
 const layoutSource = stylesSource.slice(
   stylesSource.indexOf('@layer layout'),
   stylesSource.indexOf('@layer responsive'),
@@ -46,6 +50,10 @@ test('species list sizing is presentation-driven instead of featured-content-dri
   assert.match(cardSource, /className="species-card"/);
   assert.match(cardSource, /<TaxonArtwork item=\{item\} index=\{index\} large \/>/);
   assert.match(appSource, /className="species-grid__item"/);
+});
+
+test('malacostracan artwork uses the shell icon instead of the fallback leaf', () => {
+  assert.match(classIconSource, /className\.includes\('软甲'\)[^;\n]*return Shell;/);
 });
 
 test('standard desktop species list presents two large cards per row', () => {

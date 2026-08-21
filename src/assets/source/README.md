@@ -29,6 +29,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Reticulated python image set](./species/reticulated-python/README.md)
 - [Chinese giant salamander image set](./species/chinese-giant-salamander/README.md)
 - [Monarch butterfly image set](./species/monarch-butterfly/README.md)
+- [Bowed fiddler crab image set](./species/bowed-fiddler-crab/README.md)
 
 ## Landing-page hero
 

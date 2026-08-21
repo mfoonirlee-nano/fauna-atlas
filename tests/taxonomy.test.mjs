@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 83 taxon nodes and 27 unique species leaves', () => {
+test('builds the current catalogue into 87 taxon nodes and 28 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 27, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 83);
-  assert.equal(speciesNodes.length, 27);
-  assert.equal(nodes.length, 110);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 110, 'every node key is unique');
+  assert.equal(species.length, 28, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 87);
+  assert.equal(speciesNodes.length, 28);
+  assert.equal(nodes.length, 115);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 115, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -575,16 +575,87 @@ test('registers the Moon Jellyfish as a complete Aurelia aurita profile', () => 
   assert.equal(moonJelly.updatedAt, '2026-08-21');
 });
 
+test('registers the Bowed Fiddler Crab as a complete Tubuca arcuata profile', () => {
+  const fiddlerCrab = findSpecies('bowed-fiddler-crab');
+
+  assert.equal(fiddlerCrab.id, 'species-tubuca-arcuata');
+  assert.equal(fiddlerCrab.names.zh, '弧边招潮蟹');
+  assert.equal(fiddlerCrab.names.en, 'Bowed Fiddler Crab');
+  assert.deepEqual(fiddlerCrab.names.aliases, [
+    '弧边管招潮',
+    '网纹招潮',
+    '大栱仙',
+    'Uca arcuata',
+  ]);
+  assert.equal(fiddlerCrab.scientificName, 'Tubuca arcuata');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(fiddlerCrab).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Arthropoda'],
+      ['class', 'Malacostraca'],
+      ['order', 'Decapoda'],
+      ['family', 'Ocypodidae'],
+      ['genus', 'Tubuca'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: fiddlerCrab.conservation.code,
+      trend: fiddlerCrab.conservation.trend,
+      assessedYear: fiddlerCrab.conservation.assessedYear,
+      criteria: fiddlerCrab.conservation.criteria,
+    },
+    { code: 'NE', trend: 'unknown', assessedYear: undefined, criteria: undefined },
+  );
+  assert.deepEqual(fiddlerCrab.distribution.realms, ['marine', 'terrestrial']);
+  assert.deepEqual(fiddlerCrab.measurements, {
+    length: {
+      typical: 30,
+      max: 40.2,
+      unit: 'mm',
+      note: '背甲宽，不是全身长；约 30 毫米是公众典型值，40.2 毫米为已核分类凭证，不代表绝对最大值',
+    },
+  });
+  assert.deepEqual(fiddlerCrab.metrics, {});
+  assert.equal(fiddlerCrab.storySections?.length, 6);
+  assert.equal(fiddlerCrab.featuredStats.length, 4);
+  assert.equal(fiddlerCrab.media.gallery?.length, 5);
+  assert.deepEqual(
+    [fiddlerCrab.media.image, ...fiddlerCrab.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/bowed-fiddler-crab/01-mudflat-burrow-portrait.webp',
+      './images/species/bowed-fiddler-crab/02-male-female-claw-dimorphism.webp',
+      './images/species/bowed-fiddler-crab/03-estuarine-mudflat-habitat.webp',
+      './images/species/bowed-fiddler-crab/04-female-sediment-feeding.webp',
+      './images/species/bowed-fiddler-crab/05-vertical-claw-wave.webp',
+      './images/species/bowed-fiddler-crab/06-burrow-habitat-monitoring.webp',
+    ],
+  );
+  assert.equal(fiddlerCrab.sources.length, 19);
+  assert.ok(fiddlerCrab.sources.every(({ accessedAt }) => accessedAt === '2026-08-21'));
+  assert.equal(fiddlerCrab.featured, true);
+  assert.equal(fiddlerCrab.publishedAt, '2026-08-21');
+  assert.equal(fiddlerCrab.updatedAt, '2026-08-21');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 27);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 23);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nymphalidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Danaus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Ocypodidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Tubuca')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'class', 'Scyphozoa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Semaeostomeae')?.speciesCount, 1);
