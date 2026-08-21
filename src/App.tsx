@@ -15,6 +15,7 @@ import {
   Heart,
   Leaf,
   Menu,
+  Maximize2,
   Moon,
   Pause,
   PawPrint,
@@ -34,6 +35,7 @@ import {
   useState,
   type ComponentType,
   type CSSProperties,
+  type RefObject,
 } from 'react';
 import { TaxonomyExplorer } from './components/TaxonomyExplorer';
 import { species } from './data';
@@ -41,6 +43,10 @@ import {
   shouldAutoplayCarousel,
   stepCarouselIndex,
 } from './domain/carousel';
+import {
+  buildSpeciesImageFrames,
+  type SpeciesImageFrame,
+} from './domain/image-viewer';
 import type { IucnStatusCode, Species } from './types';
 
 type Theme = 'light' | 'dark';
@@ -224,13 +230,19 @@ function TaxonArtwork({ item, index, large = false }: { item: Species; index: nu
   );
 }
 
-function SpeciesGallery({ item }: { item: Species }) {
+interface SpeciesGalleryProps {
+  readonly item: Species;
+  readonly onOpenImage: (frameIndex: number, trigger: HTMLButtonElement) => void;
+}
+
+function SpeciesGallery({ item, onOpenImage }: SpeciesGalleryProps) {
   const gallery = item.media.gallery;
   if (!gallery?.length) return null;
 
   const hasCover = Boolean(item.media.image);
   const frameCount = gallery.length + (hasCover ? 1 : 0);
   const galleryNumberOffset = hasCover ? 2 : 1;
+  const galleryFrameOffset = hasCover ? 1 : 0;
 
   return (
     <section className="detail-gallery" aria-labelledby="detail-gallery-title">
@@ -250,9 +262,19 @@ function SpeciesGallery({ item }: { item: Species }) {
             key={image.image}
             className={imageIndex === 0 ? 'detail-gallery__item detail-gallery__item--wide' : 'detail-gallery__item'}
           >
-            <div className="detail-gallery__image" style={focalPointStyle(image.focalPoint)}>
+            <button
+              type="button"
+              className="detail-gallery__image"
+              style={focalPointStyle(image.focalPoint)}
+              onClick={(event) => onOpenImage(imageIndex + galleryFrameOffset, event.currentTarget)}
+              aria-label={`全屏查看${item.names.zh}影像：${image.title}`}
+            >
               <img src={image.image} alt={image.alt} loading="lazy" decoding="async" />
-            </div>
+              <span className="detail-gallery__zoom" aria-hidden="true">
+                <Maximize2 size={16} />
+                全屏查看
+              </span>
+            </button>
             <figcaption>
               <span>{String(imageIndex + galleryNumberOffset).padStart(2, '0')}</span>
               <div>
@@ -265,6 +287,154 @@ function SpeciesGallery({ item }: { item: Species }) {
         ))}
       </div>
     </section>
+  );
+}
+
+interface SpeciesImageViewerProps {
+  readonly item: Species;
+  readonly frames: readonly SpeciesImageFrame[];
+  readonly activeIndex: number;
+  readonly dialogRef: RefObject<HTMLDivElement | null>;
+  readonly onClose: () => void;
+  readonly onSelect: (index: number) => void;
+}
+
+function SpeciesImageViewer({
+  item,
+  frames,
+  activeIndex,
+  dialogRef,
+  onClose,
+  onSelect,
+}: SpeciesImageViewerProps) {
+  const frame = frames[activeIndex];
+  if (!frame) return null;
+
+  const status = statusMeta[item.conservation.code];
+  const previousIndex = stepCarouselIndex(activeIndex, -1, frames.length);
+  const nextIndex = stepCarouselIndex(activeIndex, 1, frames.length);
+  const previousFrame = frames[previousIndex];
+  const nextFrame = frames[nextIndex];
+  const viewerTitleId = `image-viewer-title-${item.slug}`;
+  const viewerDescriptionId = `image-viewer-description-${item.slug}`;
+
+  return (
+    <div
+      className={`image-viewer${frames.length > 1 ? '' : ' image-viewer--single'}`}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby={viewerTitleId}
+      aria-describedby={viewerDescriptionId}
+      ref={dialogRef}
+      onClick={(event) => {
+        if (event.target === event.currentTarget) onClose();
+      }}
+    >
+      <header className="image-viewer__topbar">
+        <div className="image-viewer__brand">
+          <BrandMark compact />
+          <span>FAUNA / IMMERSIVE IMAGE FILE</span>
+        </div>
+        <div className="image-viewer__topbar-meta" role="status" aria-live="polite" aria-atomic="true">
+          第 {activeIndex + 1} 张，共 {frames.length} 张：{frame.title}
+        </div>
+        <button type="button" className="image-viewer__close" onClick={onClose} aria-label="关闭全屏影像" autoFocus>
+          <X size={21} />
+        </button>
+      </header>
+
+      <div className="image-viewer__main">
+        <figure
+          className="image-viewer__stage"
+          onClick={(event) => {
+            if (event.target === event.currentTarget) onClose();
+          }}
+        >
+          <span className="image-viewer__coordinates" aria-hidden="true">
+            {formatCoordinates(item.distribution.center)}
+          </span>
+          <img
+            key={frame.id}
+            src={frame.image}
+            alt={frame.alt}
+            style={focalPointStyle(frame.focalPoint)}
+            decoding="async"
+          />
+          {frames.length > 1 && previousFrame && nextFrame && (
+            <div className="image-viewer__navigation" role="group" aria-label="影像切换">
+              <button
+                type="button"
+                onClick={() => onSelect(previousIndex)}
+                aria-label={`上一张：${previousFrame.title}`}
+              >
+                <ChevronLeft size={23} />
+              </button>
+              <button
+                type="button"
+                onClick={() => onSelect(nextIndex)}
+                aria-label={`下一张：${nextFrame.title}`}
+              >
+                <ChevronRight size={23} />
+              </button>
+            </div>
+          )}
+        </figure>
+
+        <aside className="image-viewer__info">
+          <p className="section-kicker">
+            {frame.kind === 'cover' ? 'COVER IMAGE · 封面影像' : 'IMAGE NOTE · 影像观察'}
+          </p>
+          <p className="image-viewer__scientific">{item.scientificName}</p>
+          <h2 id={viewerTitleId}>{item.names.zh}影像档案</h2>
+          <p className="image-viewer__english">{item.names.en}</p>
+
+          <div className="image-viewer__frame-heading">
+            <span>{String(activeIndex + 1).padStart(2, '0')}</span>
+            <h3>{frame.title}</h3>
+          </div>
+          <p id={viewerDescriptionId} className="image-viewer__caption">{frame.caption}</p>
+
+          <dl className="image-viewer__facts">
+            <div>
+              <dt>保护状态</dt>
+              <dd><span className={`status-badge status-badge--${status.tone}`}>{status.short}</span>{status.label}</dd>
+            </div>
+            <div>
+              <dt>观察区域</dt>
+              <dd>{item.distribution.regions.slice(0, 2).join('、')}</dd>
+            </div>
+            <div>
+              <dt>核心生境</dt>
+              <dd>{item.habitats[0]?.name ?? '尚待记录'}</dd>
+            </div>
+            {frame.credit && (
+              <div>
+                <dt>影像来源</dt>
+                <dd>{frame.credit}</dd>
+              </div>
+            )}
+          </dl>
+        </aside>
+      </div>
+
+      {frames.length > 1 && (
+        <nav className="image-viewer__rail" aria-label="全部影像">
+          {frames.map((candidate, index) => (
+            <button
+              type="button"
+              key={candidate.id}
+              className={index === activeIndex ? 'is-active' : ''}
+              onClick={() => onSelect(index)}
+              aria-label={`查看第 ${index + 1} 张：${candidate.title}`}
+              aria-current={index === activeIndex ? 'true' : undefined}
+            >
+              <span>{String(index + 1).padStart(2, '0')}</span>
+              <img src={candidate.image} alt="" style={focalPointStyle(candidate.focalPoint)} loading="lazy" decoding="async" />
+            </button>
+          ))}
+        </nav>
+      )}
+    </div>
   );
 }
 
@@ -332,26 +502,90 @@ interface SpeciesDetailProps {
 
 function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDetailProps) {
   const status = statusMeta[item.conservation.code];
+  const imageFrames = useMemo(() => buildSpeciesImageFrames(item), [item]);
+  const [activeImageIndex, setActiveImageIndex] = useState<number | null>(null);
   const dialogRef = useRef<HTMLDivElement>(null);
+  const imageViewerRef = useRef<HTMLDivElement>(null);
+  const lastImageTriggerRef = useRef<HTMLButtonElement | null>(null);
+  const focusRestoreFrameRef = useRef<number | undefined>(undefined);
+
+  const openImageViewer = useCallback((frameIndex: number, trigger: HTMLButtonElement) => {
+    if (!imageFrames[frameIndex]) return;
+    lastImageTriggerRef.current = trigger;
+    setActiveImageIndex(frameIndex);
+  }, [imageFrames]);
+
+  const closeImageViewer = useCallback(() => {
+    setActiveImageIndex(null);
+    if (focusRestoreFrameRef.current !== undefined) {
+      window.cancelAnimationFrame(focusRestoreFrameRef.current);
+    }
+    focusRestoreFrameRef.current = window.requestAnimationFrame(() => {
+      lastImageTriggerRef.current?.focus();
+      focusRestoreFrameRef.current = undefined;
+    });
+  }, []);
 
   useEffect(() => {
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, []);
+
+  useEffect(() => () => {
+    if (focusRestoreFrameRef.current !== undefined) {
+      window.cancelAnimationFrame(focusRestoreFrameRef.current);
+    }
+  }, []);
+
+  useEffect(() => {
     const onKeyDown = (event: globalThis.KeyboardEvent) => {
       if (event.key === 'Escape') {
-        onClose();
+        event.preventDefault();
+        if (activeImageIndex !== null) {
+          closeImageViewer();
+        } else {
+          onClose();
+        }
         return;
       }
 
-      if (event.key !== 'Tab' || !dialogRef.current) return;
+      if (
+        activeImageIndex !== null
+        && imageFrames.length > 1
+        && !event.altKey
+        && !event.ctrlKey
+        && !event.metaKey
+        && !event.shiftKey
+      ) {
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+          event.preventDefault();
+          const step = event.key === 'ArrowLeft' ? -1 : 1;
+          setActiveImageIndex((current) => (
+            current === null ? null : stepCarouselIndex(current, step, imageFrames.length)
+          ));
+          return;
+        }
+      }
+
+      const activeDialog = activeImageIndex === null ? dialogRef.current : imageViewerRef.current;
+      if (event.key !== 'Tab' || !activeDialog) return;
       const focusableElements = Array.from(
-        dialogRef.current.querySelectorAll<HTMLElement>(
-          'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])',
+        activeDialog.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), summary, [contenteditable="true"], [tabindex]:not([tabindex="-1"])',
         ),
       );
       const firstElement = focusableElements[0];
       const lastElement = focusableElements.at(-1);
       if (!firstElement || !lastElement) return;
+
+      if (!activeDialog.contains(document.activeElement)) {
+        event.preventDefault();
+        (event.shiftKey ? lastElement : firstElement).focus();
+        return;
+      }
 
       if (event.shiftKey && document.activeElement === firstElement) {
         event.preventDefault();
@@ -363,21 +597,22 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
     };
     document.addEventListener('keydown', onKeyDown);
     return () => {
-      document.body.style.overflow = previousOverflow;
       document.removeEventListener('keydown', onKeyDown);
     };
-  }, [onClose]);
+  }, [activeImageIndex, closeImageViewer, imageFrames.length, onClose]);
 
   return (
-    <div className="detail-backdrop" role="presentation" onMouseDown={onClose}>
-      <div
-        className="detail-panel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="detail-title"
-        ref={dialogRef}
-        onMouseDown={(event) => event.stopPropagation()}
-      >
+    <>
+      <div className="detail-backdrop" role="presentation" onMouseDown={onClose}>
+        <div
+          className="detail-panel"
+          role="dialog"
+          aria-modal={activeImageIndex === null}
+          aria-labelledby="detail-title"
+          inert={activeImageIndex !== null}
+          ref={dialogRef}
+          onMouseDown={(event) => event.stopPropagation()}
+        >
         <div className="detail-panel__topbar">
           <div className="detail-panel__brand">
             <BrandMark compact />
@@ -400,7 +635,24 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
         </div>
 
         <div className="detail-hero">
-          <TaxonArtwork item={item} index={index} large />
+          {item.media.image ? (
+            <>
+              <TaxonArtwork item={item} index={index} large />
+              <button
+                type="button"
+                className="detail-hero__image-trigger"
+                onClick={(event) => openImageViewer(0, event.currentTarget)}
+                aria-label={`全屏查看${item.names.zh}封面影像`}
+              >
+                <span className="detail-hero__zoom" aria-hidden="true">
+                  <Maximize2 size={17} />
+                  全屏查看
+                </span>
+              </button>
+            </>
+          ) : (
+            <TaxonArtwork item={item} index={index} large />
+          )}
           {item.media.image && item.media.credit && <span className="detail-hero__credit">{item.media.credit}</span>}
           <div className="detail-hero__title">
             <div className="detail-hero__status">
@@ -441,7 +693,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
             </section>
           )}
 
-          <SpeciesGallery item={item} />
+          <SpeciesGallery item={item} onOpenImage={openImageViewer} />
 
           <div className="detail-grid">
             <section className="detail-section">
@@ -556,7 +808,19 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
           </section>
         </div>
       </div>
-    </div>
+      </div>
+
+      {activeImageIndex !== null && (
+        <SpeciesImageViewer
+          item={item}
+          frames={imageFrames}
+          activeIndex={activeImageIndex}
+          dialogRef={imageViewerRef}
+          onClose={closeImageViewer}
+          onSelect={setActiveImageIndex}
+        />
+      )}
+    </>
   );
 }
 
