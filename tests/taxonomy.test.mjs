@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 69 taxon nodes and 22 unique species leaves', () => {
+test('builds the current catalogue into 72 taxon nodes and 23 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 22, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 69);
-  assert.equal(speciesNodes.length, 22);
-  assert.equal(nodes.length, 91);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 91, 'every node key is unique');
+  assert.equal(species.length, 23, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 72);
+  assert.equal(speciesNodes.length, 23);
+  assert.equal(nodes.length, 95);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 95, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -275,13 +275,60 @@ test('registers the Ruby-throated Hummingbird as a complete Archilochus colubris
   assert.equal(hummingbird.media.gallery?.length, 5);
 });
 
+test('registers the Green Turtle as a complete Chelonia mydas profile', () => {
+  const greenTurtle = findSpecies('green-sea-turtle');
+
+  assert.equal(greenTurtle.id, 'species-chelonia-mydas');
+  assert.equal(greenTurtle.names.zh, '绿海龟');
+  assert.equal(greenTurtle.names.en, 'Green Turtle');
+  assert.deepEqual(greenTurtle.names.aliases, ['绿蠵龟', '青海龟']);
+  assert.equal(greenTurtle.scientificName, 'Chelonia mydas');
+  assert.equal(greenTurtle.taxonomy.class.scientificName, 'Reptilia');
+  assert.equal(greenTurtle.taxonomy.order.scientificName, 'Testudines');
+  assert.equal(greenTurtle.taxonomy.family.scientificName, 'Cheloniidae');
+  assert.equal(greenTurtle.taxonomy.genus.scientificName, 'Chelonia');
+  assert.deepEqual(
+    {
+      code: greenTurtle.conservation.code,
+      trend: greenTurtle.conservation.trend,
+      assessedYear: greenTurtle.conservation.assessedYear,
+      criteria: greenTurtle.conservation.criteria,
+    },
+    { code: 'LC', trend: 'increasing', assessedYear: 2025, criteria: undefined },
+  );
+  assert.deepEqual(greenTurtle.distribution.realms, ['marine', 'terrestrial']);
+  assert.deepEqual(greenTurtle.metrics, {
+    adultLengthCm: [91, 122],
+    adultMassKg: [113, 181],
+  });
+  assert.equal(greenTurtle.storySections?.length, 6);
+  assert.equal(greenTurtle.featuredStats.length, 4);
+  assert.equal(greenTurtle.media.gallery?.length, 5);
+  assert.deepEqual(
+    [greenTurtle.media.image, ...greenTurtle.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/green-sea-turtle/01-seagrass-meadow-grazing.webp',
+      './images/species/green-sea-turtle/02-serrated-beak-grazing.webp',
+      './images/species/green-sea-turtle/03-pelagic-juvenile-sargassum.webp',
+      './images/species/green-sea-turtle/04-ocean-migration-surface-breath.webp',
+      './images/species/green-sea-turtle/05-night-nest-covering.webp',
+      './images/species/green-sea-turtle/06-dark-beach-hatchling-monitoring.webp',
+    ],
+  );
+  assert.ok(greenTurtle.sources.length > 0);
+  assert.ok(greenTurtle.sources.every(({ accessedAt }) => accessedAt === '2026-08-21'));
+  assert.equal(greenTurtle.publishedAt, '2026-08-21');
+  assert.equal(greenTurtle.updatedAt, '2026-08-21');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 22);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 20);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 23);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 21);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Ursidae')?.speciesCount, 2);
@@ -306,6 +353,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Apodiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Trochilidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Archilochus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Testudines')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Cheloniidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Chelonia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 1);
 });
 
