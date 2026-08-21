@@ -27,6 +27,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Green sea turtle image set](./species/green-sea-turtle/README.md)
 - [Reticulated python image set](./species/reticulated-python/README.md)
 - [Chinese giant salamander image set](./species/chinese-giant-salamander/README.md)
+- [Monarch butterfly image set](./species/monarch-butterfly/README.md)
 
 ## Landing-page hero
 

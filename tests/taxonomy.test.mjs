@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 76 taxon nodes and 25 unique species leaves', () => {
+test('builds the current catalogue into 79 taxon nodes and 26 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 25, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 76);
-  assert.equal(speciesNodes.length, 25);
-  assert.equal(nodes.length, 101);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 101, 'every node key is unique');
+  assert.equal(species.length, 26, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 79);
+  assert.equal(speciesNodes.length, 26);
+  assert.equal(nodes.length, 105);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 105, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -426,11 +426,87 @@ test('registers the Chinese Giant Salamander as a complete Andrias davidianus pr
   assert.equal(giantSalamander.updatedAt, '2026-08-21');
 });
 
+test('registers the Monarch Butterfly as a complete Danaus plexippus profile', () => {
+  const monarch = findSpecies('monarch-butterfly');
+
+  assert.equal(monarch.id, 'species-danaus-plexippus');
+  assert.equal(monarch.names.zh, '帝王蝶');
+  assert.equal(monarch.names.en, 'Monarch Butterfly');
+  assert.deepEqual(monarch.names.aliases, [
+    '君主斑蝶',
+    '黑脉金斑蝶',
+    'Monarch',
+    'Papilio plexippus',
+  ]);
+  assert.equal(monarch.scientificName, 'Danaus plexippus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(monarch).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Arthropoda'],
+      ['class', 'Insecta'],
+      ['order', 'Lepidoptera'],
+      ['family', 'Nymphalidae'],
+      ['genus', 'Danaus'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: monarch.conservation.code,
+      trend: monarch.conservation.trend,
+      assessedYear: monarch.conservation.assessedYear,
+      criteria: monarch.conservation.criteria,
+    },
+    { code: 'LC', trend: 'unknown', assessedYear: 2021, criteria: undefined },
+  );
+  assert.deepEqual(monarch.distribution.realms, ['terrestrial']);
+  assert.deepEqual(monarch.measurements, {
+    weight: {
+      typical: 0.5,
+      unit: 'g',
+      note: 'USFWS 概括的成虫平均体重；会随进食、脱水、迁飞和生命阶段变化，不是固定值或完整范围',
+    },
+    wingspan: {
+      min: 93,
+      max: 105,
+      unit: 'mm',
+      note: 'COSEWIC 成虫翼展；USFWS 公众资料以更粗粒度概括为约 7—10 厘米',
+    },
+  });
+  assert.deepEqual(monarch.metrics, { wingspanCm: [9.3, 10.5] });
+  assert.equal(monarch.storySections?.length, 6);
+  assert.equal(monarch.featuredStats.length, 4);
+  assert.equal(monarch.media.gallery?.length, 5);
+  assert.deepEqual(
+    [monarch.media.image, ...monarch.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/monarch-butterfly/01-female-milkweed-portrait.webp',
+      './images/species/monarch-butterfly/02-diagnostic-male-wing-pattern.webp',
+      './images/species/monarch-butterfly/03-milkweed-caterpillar-feeding.webp',
+      './images/species/monarch-butterfly/04-jade-chrysalis.webp',
+      './images/species/monarch-butterfly/05-great-lakes-autumn-migration.webp',
+      './images/species/monarch-butterfly/06-oyamel-fir-overwintering.webp',
+    ],
+  );
+  assert.equal(monarch.sources.length, 20);
+  assert.ok(monarch.sources.every(({ accessedAt }) => accessedAt === '2026-08-21'));
+  assert.equal(monarch.publishedAt, '2026-08-21');
+  assert.equal(monarch.updatedAt, '2026-08-21');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 25);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 26);
   assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 23);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Nymphalidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Danaus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
