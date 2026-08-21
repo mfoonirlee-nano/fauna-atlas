@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 79 taxon nodes and 26 unique species leaves', () => {
+test('builds the current catalogue into 83 taxon nodes and 27 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 26, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 79);
-  assert.equal(speciesNodes.length, 26);
-  assert.equal(nodes.length, 105);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 105, 'every node key is unique');
+  assert.equal(species.length, 27, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 83);
+  assert.equal(speciesNodes.length, 27);
+  assert.equal(nodes.length, 110);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 110, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -81,6 +81,19 @@ test('keeps every catalogue association unique and attached to its named genus',
       genus,
       `${profile.scientificName} should be attached to its named genus`,
     );
+  }
+});
+
+test('omits assessment years only for not-evaluated profiles', () => {
+  for (const profile of species) {
+    if (profile.conservation.code === 'NE') {
+      assert.equal(profile.conservation.assessedYear, undefined);
+    } else {
+      assert.ok(
+        Number.isInteger(profile.conservation.assessedYear),
+        `${profile.slug} should retain its IUCN assessment year`,
+      );
+    }
   }
 });
 
@@ -497,16 +510,86 @@ test('registers the Monarch Butterfly as a complete Danaus plexippus profile', (
   assert.equal(monarch.updatedAt, '2026-08-21');
 });
 
+test('registers the Moon Jellyfish as a complete Aurelia aurita profile', () => {
+  const moonJelly = findSpecies('moon-jelly');
+
+  assert.equal(moonJelly.id, 'species-aurelia-aurita');
+  assert.equal(moonJelly.names.zh, '海月水母');
+  assert.equal(moonJelly.names.en, 'Moon Jellyfish');
+  assert.deepEqual(moonJelly.names.aliases, [
+    'Common Jellyfish',
+    'Saucer Jelly',
+    'Medusa aurita',
+  ]);
+  assert.equal(moonJelly.scientificName, 'Aurelia aurita');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(moonJelly).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Cnidaria'],
+      ['class', 'Scyphozoa'],
+      ['order', 'Semaeostomeae'],
+      ['family', 'Ulmaridae'],
+      ['genus', 'Aurelia'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: moonJelly.conservation.code,
+      trend: moonJelly.conservation.trend,
+      assessedYear: moonJelly.conservation.assessedYear,
+      criteria: moonJelly.conservation.criteria,
+    },
+    { code: 'NE', trend: 'unknown', assessedYear: undefined, criteria: undefined },
+  );
+  assert.deepEqual(moonJelly.distribution.realms, ['marine']);
+  assert.deepEqual(moonJelly.measurements, {
+    length: {
+      min: 15,
+      max: 30,
+      unit: 'cm',
+      note: '成体伞径的典型范围；较大个体可接近 40 厘米，个体、地点和季节差异明显，不是口腕全长',
+    },
+  });
+  assert.deepEqual(moonJelly.metrics, {});
+  assert.equal(moonJelly.storySections?.length, 6);
+  assert.equal(moonJelly.featuredStats.length, 4);
+  assert.equal(moonJelly.media.gallery?.length, 5);
+  assert.deepEqual(
+    [moonJelly.media.image, ...moonJelly.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/moon-jelly/01-coastal-water-portrait.webp',
+      './images/species/moon-jelly/02-four-horseshoe-gonads.webp',
+      './images/species/moon-jelly/03-sheltered-bay-habitat.webp',
+      './images/species/moon-jelly/04-plankton-capture-feeding.webp',
+      './images/species/moon-jelly/05-strobila-ephyra-release.webp',
+      './images/species/moon-jelly/06-coastal-bloom-monitoring.webp',
+    ],
+  );
+  assert.equal(moonJelly.sources.length, 19);
+  assert.ok(moonJelly.sources.every(({ accessedAt }) => accessedAt === '2026-08-21'));
+  assert.equal(moonJelly.publishedAt, '2026-08-21');
+  assert.equal(moonJelly.updatedAt, '2026-08-21');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 26);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 27);
   assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 23);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nymphalidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Danaus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Scyphozoa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Semaeostomeae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Ulmaridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Aurelia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);

@@ -131,7 +131,7 @@ function classIcon(className: string): ComponentType<{ size?: number; strokeWidt
   if (className.includes('鱼')) return Fish;
   if (className.includes('昆虫')) return Bug;
   if (className.includes('头足') || className.includes('腹足')) return Shell;
-  if (className.includes('珊瑚') || className.includes('水螅')) return Waves;
+  if (className.includes('珊瑚') || className.includes('水螅') || className.includes('水母')) return Waves;
   if (className.includes('哺乳')) return PawPrint;
   return Leaf;
 }
@@ -803,7 +803,10 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
               ))}
             </div>
             <p className="source-section__updated">
-              最近更新于 {formatDate(item.updatedAt)} · 保护等级评估年份 {item.conservation.assessedYear}
+              最近更新于 {formatDate(item.updatedAt)} ·{' '}
+              {item.conservation.assessedYear === undefined
+                ? 'IUCN 尚未评估'
+                : `保护等级评估年份 ${item.conservation.assessedYear}`}
             </p>
           </section>
         </div>
@@ -1352,6 +1355,7 @@ function App() {
                 <option value="NT">NT · 近危</option>
                 <option value="LC">LC · 无危</option>
                 <option value="DD">DD · 数据缺乏</option>
+                <option value="NE">NE · 未评估</option>
               </select>
               <ChevronDown size={16} aria-hidden="true" />
             </label>

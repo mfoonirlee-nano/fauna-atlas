@@ -96,3 +96,8 @@ test('narrow species list returns every entry to one full-width large card', () 
   assert.match(narrowGridSource, /\.species-card \.taxon-art\s*{[^}]*min-height:\s*255px/s);
   assert.doesNotMatch(narrowGridSource, /species-grid__item:nth-child\(even\)/);
 });
+
+test('species status filter exposes not-evaluated profiles', () => {
+  assert.match(appSource, /<option value="NE">NE · 未评估<\/option>/);
+  assert.match(appSource, /IUCN 尚未评估/);
+});

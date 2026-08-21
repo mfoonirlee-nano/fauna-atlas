@@ -48,8 +48,8 @@ export interface ConservationStatus {
   readonly code: IucnStatusCode;
   readonly label: LocalizedText;
   readonly trend: PopulationTrend;
-  /** Year of the assessment represented by this record, not the import year. */
-  readonly assessedYear: number;
+  /** Year of the assessment represented by this record, not the import year. Absent for NE. */
+  readonly assessedYear?: number;
   readonly criteria?: string;
   readonly assessor: string;
 }
