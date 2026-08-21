@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 72 taxon nodes and 23 unique species leaves', () => {
+test('builds the current catalogue into 74 taxon nodes and 24 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 23, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 72);
-  assert.equal(speciesNodes.length, 23);
-  assert.equal(nodes.length, 95);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 95, 'every node key is unique');
+  assert.equal(species.length, 24, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 74);
+  assert.equal(speciesNodes.length, 24);
+  assert.equal(nodes.length, 98);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 98, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -321,14 +321,64 @@ test('registers the Green Turtle as a complete Chelonia mydas profile', () => {
   assert.equal(greenTurtle.updatedAt, '2026-08-21');
 });
 
+test('registers the Reticulated Python as a complete Malayopython reticulatus profile', () => {
+  const reticulatedPython = findSpecies('reticulated-python');
+
+  assert.equal(reticulatedPython.id, 'species-malayopython-reticulatus');
+  assert.equal(reticulatedPython.names.zh, '网纹蟒');
+  assert.equal(reticulatedPython.names.en, 'Reticulated Python');
+  assert.deepEqual(reticulatedPython.names.aliases, [
+    'Python reticulatus',
+    'Broghammerus reticulatus',
+  ]);
+  assert.equal(reticulatedPython.scientificName, 'Malayopython reticulatus');
+  assert.equal(reticulatedPython.taxonomy.class.scientificName, 'Reptilia');
+  assert.equal(reticulatedPython.taxonomy.order.scientificName, 'Squamata');
+  assert.equal(reticulatedPython.taxonomy.family.scientificName, 'Pythonidae');
+  assert.equal(reticulatedPython.taxonomy.genus.scientificName, 'Malayopython');
+  assert.deepEqual(
+    {
+      code: reticulatedPython.conservation.code,
+      trend: reticulatedPython.conservation.trend,
+      assessedYear: reticulatedPython.conservation.assessedYear,
+      criteria: reticulatedPython.conservation.criteria,
+    },
+    { code: 'LC', trend: 'unknown', assessedYear: 2011, criteria: undefined },
+  );
+  assert.deepEqual(reticulatedPython.distribution.realms, ['terrestrial', 'freshwater']);
+  assert.deepEqual(reticulatedPython.measurements, {});
+  assert.deepEqual(reticulatedPython.metrics, {});
+  assert.equal(reticulatedPython.storySections?.length, 6);
+  assert.equal(reticulatedPython.featuredStats.length, 4);
+  assert.equal(reticulatedPython.media.gallery?.length, 5);
+  assert.deepEqual(
+    [reticulatedPython.media.image, ...reticulatedPython.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/reticulated-python/01-rainforest-riverbank-portrait.webp',
+      './images/species/reticulated-python/02-net-pattern-and-labial-pits.webp',
+      './images/species/reticulated-python/03-arboreal-juvenile.webp',
+      './images/species/reticulated-python/04-plantation-edge-rat-ambush.webp',
+      './images/species/reticulated-python/05-female-coiled-around-eggs.webp',
+      './images/species/reticulated-python/06-nocturnal-riverside-survey.webp',
+    ],
+  );
+  assert.ok(reticulatedPython.sources.length > 0);
+  assert.ok(reticulatedPython.sources.every(({ accessedAt }) => accessedAt === '2026-08-21'));
+  assert.equal(reticulatedPython.publishedAt, '2026-08-21');
+  assert.equal(reticulatedPython.updatedAt, '2026-08-21');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 23);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 21);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 24);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 22);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 3);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Pythonidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Malayopython')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Ursidae')?.speciesCount, 2);

@@ -25,6 +25,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Snowy albatross image set](./species/wandering-albatross/README.md)
 - [Ruby-throated hummingbird image set](./species/ruby-throated-hummingbird/README.md)
 - [Green sea turtle image set](./species/green-sea-turtle/README.md)
+- [Reticulated python image set](./species/reticulated-python/README.md)
 
 ## Landing-page hero
 
