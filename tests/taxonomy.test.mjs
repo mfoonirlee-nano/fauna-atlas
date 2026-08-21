@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 74 taxon nodes and 24 unique species leaves', () => {
+test('builds the current catalogue into 76 taxon nodes and 25 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 24, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 74);
-  assert.equal(speciesNodes.length, 24);
-  assert.equal(nodes.length, 98);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 98, 'every node key is unique');
+  assert.equal(species.length, 25, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 76);
+  assert.equal(speciesNodes.length, 25);
+  assert.equal(nodes.length, 101);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 101, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -368,11 +368,73 @@ test('registers the Reticulated Python as a complete Malayopython reticulatus pr
   assert.equal(reticulatedPython.updatedAt, '2026-08-21');
 });
 
+test('registers the Chinese Giant Salamander as a complete Andrias davidianus profile', () => {
+  const giantSalamander = findSpecies('chinese-giant-salamander');
+
+  assert.equal(giantSalamander.id, 'species-andrias-davidianus');
+  assert.equal(giantSalamander.names.zh, '中国大鲵');
+  assert.equal(giantSalamander.names.en, 'Chinese Giant Salamander');
+  assert.deepEqual(giantSalamander.names.aliases, [
+    '大鲵',
+    '娃娃鱼',
+    'Sieboldia davidiana',
+  ]);
+  assert.equal(giantSalamander.scientificName, 'Andrias davidianus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(giantSalamander).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Amphibia'],
+      ['order', 'Caudata'],
+      ['family', 'Cryptobranchidae'],
+      ['genus', 'Andrias'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: giantSalamander.conservation.code,
+      trend: giantSalamander.conservation.trend,
+      assessedYear: giantSalamander.conservation.assessedYear,
+      criteria: giantSalamander.conservation.criteria,
+    },
+    { code: 'CR', trend: 'decreasing', assessedYear: 2020, criteria: 'A2acde' },
+  );
+  assert.deepEqual(giantSalamander.distribution.realms, ['freshwater']);
+  assert.deepEqual(giantSalamander.measurements, {});
+  assert.deepEqual(giantSalamander.metrics, {});
+  assert.equal(giantSalamander.storySections?.length, 6);
+  assert.equal(giantSalamander.featuredStats.length, 4);
+  assert.equal(giantSalamander.media.gallery?.length, 5);
+  assert.deepEqual(
+    [giantSalamander.media.image, ...giantSalamander.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/chinese-giant-salamander/01-rocky-stream-portrait.webp',
+      './images/species/chinese-giant-salamander/02-flattened-head-and-skin-folds.webp',
+      './images/species/chinese-giant-salamander/03-forest-stream-habitat.webp',
+      './images/species/chinese-giant-salamander/04-nocturnal-crab-encounter.webp',
+      './images/species/chinese-giant-salamander/05-den-master-egg-guarding.webp',
+      './images/species/chinese-giant-salamander/06-edna-water-sampling.webp',
+    ],
+  );
+  assert.equal(giantSalamander.sources.length, 18);
+  assert.ok(giantSalamander.sources.every(({ accessedAt }) => accessedAt === '2026-08-21'));
+  assert.equal(giantSalamander.publishedAt, '2026-08-21');
+  assert.equal(giantSalamander.updatedAt, '2026-08-21');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 24);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 22);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 25);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 23);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Andrias')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 4);
