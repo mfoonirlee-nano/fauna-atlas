@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 90 taxon nodes and 29 unique species leaves', () => {
+test('builds the current catalogue into 93 taxon nodes and 30 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 29, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 90);
-  assert.equal(speciesNodes.length, 29);
-  assert.equal(nodes.length, 119);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 119, 'every node key is unique');
+  assert.equal(species.length, 30, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 93);
+  assert.equal(speciesNodes.length, 30);
+  assert.equal(nodes.length, 123);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 123, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -716,11 +716,85 @@ test('registers the Chinese Pangolin as a complete Manis pentadactyla profile', 
   assert.equal(pangolin.updatedAt, '2026-08-22');
 });
 
+test('registers the Dugong as a complete Dugong dugon profile', () => {
+  const dugong = findSpecies('dugong');
+
+  assert.equal(dugong.id, 'species-dugong-dugon');
+  assert.equal(dugong.names.zh, '儒艮');
+  assert.equal(dugong.names.en, 'Dugong');
+  assert.deepEqual(dugong.names.aliases, ['海牛', 'Sea Cow']);
+  assert.equal(dugong.scientificName, 'Dugong dugon');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(dugong).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Sirenia'],
+      ['family', 'Dugongidae'],
+      ['genus', 'Dugong'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: dugong.conservation.code,
+      trend: dugong.conservation.trend,
+      assessedYear: dugong.conservation.assessedYear,
+      criteria: dugong.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2015,
+      criteria: 'A2bcd+4bcd',
+    },
+  );
+  assert.deepEqual(dugong.distribution.realms, ['marine']);
+  assert.deepEqual(dugong.measurements, {
+    length: {
+      typical: 2.5,
+      max: 3,
+      unit: 'm',
+      note: '泰国成熟个体研究均值约 2.5 米；政府概览给出的近似最大体长约 3 米',
+    },
+    weight: {
+      typical: 250,
+      max: 500,
+      unit: 'kg',
+      note: '泰国成熟个体均值约 250 千克；不同官方概览给出的最大值为 400—500 千克',
+    },
+  });
+  assert.deepEqual(dugong.metrics, {});
+  assert.equal(dugong.storySections?.length, 6);
+  assert.equal(dugong.featuredStats.length, 4);
+  assert.equal(dugong.media.gallery?.length, 5);
+  assert.deepEqual(
+    [dugong.media.image, ...dugong.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/dugong/01-seagrass-meadow-portrait.webp',
+      './images/species/dugong/02-downturned-muzzle-grazing.webp',
+      './images/species/dugong/03-tropical-seagrass-habitat.webp',
+      './images/species/dugong/04-surface-breath.webp',
+      './images/species/dugong/05-mother-and-calf.webp',
+      './images/species/dugong/06-seagrass-edna-monitoring.webp',
+    ],
+  );
+  assert.equal(dugong.sources.length, 21);
+  assert.equal(new Set(dugong.sources.map(({ url }) => url)).size, 21);
+  assert.ok(dugong.sources.every(({ accessedAt }) => accessedAt === '2026-08-22'));
+  assert.equal(dugong.featured, true);
+  assert.equal(dugong.publishedAt, '2026-08-22');
+  assert.equal(dugong.updatedAt, '2026-08-22');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 29);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 24);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 30);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 25);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
@@ -739,7 +813,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Andrias')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 14);
+  assert.equal(findTaxon(tree, 'order', 'Sirenia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Dugongidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Dugong')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Pholidota')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Manidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Manis')?.speciesCount, 1);

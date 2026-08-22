@@ -31,6 +31,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Monarch butterfly image set](./species/monarch-butterfly/README.md)
 - [Bowed fiddler crab image set](./species/bowed-fiddler-crab/README.md)
 - [Chinese pangolin image set](./species/chinese-pangolin/README.md)
+- [Dugong image set](./species/dugong/README.md)
 
 ## Image compression workflow
 
