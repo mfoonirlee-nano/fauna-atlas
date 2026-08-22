@@ -17,7 +17,9 @@
     "test:brand-mark": "node --test tests/brand-mark.test.mjs",
     "test:species-list": "node --test tests/species-list.test.mjs",
     "test:dist-subpath": "npm run build && node --test tests/dist-subpath.test.mjs",
-    "typecheck": "tsc -b --pretty false"
+    "typecheck": "tsc -b --pretty false",
+    "compress": "node scripts/compress-assets.js",
+    "convert:webp": "node scripts/convert-webp.js"
   },
   "dependencies": {
     "lucide-react": "^1.28.0",
@@ -29,6 +31,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.0.5",
+    "tinify": "^1.8.3",
     "typescript": "^7.0.2",
     "vite": "^8.2.0"
   }

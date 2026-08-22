@@ -31,6 +31,24 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Monarch butterfly image set](./species/monarch-butterfly/README.md)
 - [Bowed fiddler crab image set](./species/bowed-fiddler-crab/README.md)
 
+## Image compression workflow
+
+Source PNGs are compressed in place with TinyPNG, then converted to the runtime WebP assets. Both steps need a one-time setup: copy `.env.example` to `.env` and fill in `TINYPNG_API_KEY` (free tier: 500 images/month).
+
+```bash
+npm run compress        # tinify-compress source PNGs in place
+npm run convert:webp    # regenerate public/images WebP from the sources (cwebp -q 82 -m 6 -mt)
+```
+
+Both scripts accept explicit file paths, so a newly added image set can be processed on its own:
+
+```bash
+npm run compress src/assets/source/species/<slug>/*.png
+npm run convert:webp src/assets/source/species/<slug>/*-source.png
+```
+
+Compress new sources with `npm run compress` before their first commit; git history keeps every earlier revision of already-committed files.
+
 ## Landing-page hero
 
 The original snow-leopard landing-page hero is an original project asset generated with Codex's built-in image generation tool, then converted to WebP for the runtime site. The page now chooses its live hero from the first featured species with a cover image, while this asset remains the fallback hero. The snow leopard profile uses its dedicated 3:2 image set linked above.
