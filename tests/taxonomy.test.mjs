@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 87 taxon nodes and 28 unique species leaves', () => {
+test('builds the current catalogue into 90 taxon nodes and 29 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 28, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 87);
-  assert.equal(speciesNodes.length, 28);
-  assert.equal(nodes.length, 115);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 115, 'every node key is unique');
+  assert.equal(species.length, 29, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 90);
+  assert.equal(speciesNodes.length, 29);
+  assert.equal(nodes.length, 119);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 119, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -642,11 +642,85 @@ test('registers the Bowed Fiddler Crab as a complete Tubuca arcuata profile', ()
   assert.equal(fiddlerCrab.updatedAt, '2026-08-21');
 });
 
+test('registers the Chinese Pangolin as a complete Manis pentadactyla profile', () => {
+  const pangolin = findSpecies('chinese-pangolin');
+
+  assert.equal(pangolin.id, 'species-manis-pentadactyla');
+  assert.equal(pangolin.names.zh, '中华穿山甲');
+  assert.equal(pangolin.names.en, 'Chinese Pangolin');
+  assert.deepEqual(pangolin.names.aliases, [
+    '穿山甲',
+    '中国穿山甲',
+    '鲮鲤',
+    'Short-tailed Pangolin',
+  ]);
+  assert.equal(pangolin.scientificName, 'Manis pentadactyla');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(pangolin).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Pholidota'],
+      ['family', 'Manidae'],
+      ['genus', 'Manis'],
+    ],
+  );
+  assert.equal(pangolin.taxonomy.family.zhName, '鲮鲤科');
+  assert.deepEqual(
+    {
+      code: pangolin.conservation.code,
+      trend: pangolin.conservation.trend,
+      assessedYear: pangolin.conservation.assessedYear,
+      criteria: pangolin.conservation.criteria,
+    },
+    { code: 'CR', trend: 'decreasing', assessedYear: 2019, criteria: 'A3d+4d' },
+  );
+  assert.deepEqual(pangolin.distribution.realms, ['terrestrial']);
+  assert.deepEqual(pangolin.measurements, {
+    length: {
+      min: 44,
+      max: 56,
+      unit: 'cm',
+      note: '台湾指名种群头体长；尾长另为 30—40 厘米，不是全范围总长',
+    },
+    weight: {
+      typical: 4.65,
+      unit: 'kg',
+      note: '台湾指名种群成体平均 4.5—4.8 千克的展示中点；不是狭义种全球典型值或个体范围',
+    },
+  });
+  assert.deepEqual(pangolin.metrics, {});
+  assert.equal(pangolin.storySections?.length, 6);
+  assert.equal(pangolin.featuredStats.length, 4);
+  assert.equal(pangolin.media.gallery?.length, 5);
+  assert.deepEqual(
+    [pangolin.media.image, ...pangolin.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/chinese-pangolin/01-forest-floor-portrait.webp',
+      './images/species/chinese-pangolin/02-scale-and-claw-anatomy.webp',
+      './images/species/chinese-pangolin/03-core-natural-habitat.webp',
+      './images/species/chinese-pangolin/04-ant-foraging.webp',
+      './images/species/chinese-pangolin/05-mother-and-single-pup.webp',
+      './images/species/chinese-pangolin/06-burrow-camera-monitoring.webp',
+    ],
+  );
+  assert.equal(pangolin.sources.length, 21);
+  assert.equal(new Set(pangolin.sources.map(({ url }) => url)).size, 21);
+  assert.ok(pangolin.sources.every(({ accessedAt }) => accessedAt === '2026-08-22'));
+  assert.equal(pangolin.featured, true);
+  assert.equal(pangolin.publishedAt, '2026-08-22');
+  assert.equal(pangolin.updatedAt, '2026-08-22');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 28);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 23);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 29);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 24);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
@@ -665,7 +739,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Andrias')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'order', 'Pholidota')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Manidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Manis')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 2);

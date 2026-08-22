@@ -53,6 +53,8 @@ const MOON_JELLY_SOURCE_DATE = '2026-08-21' as const;
 const MOON_JELLY_CONTENT_DATE = '2026-08-21' as const;
 const BOWED_FIDDLER_CRAB_SOURCE_DATE = '2026-08-21' as const;
 const BOWED_FIDDLER_CRAB_CONTENT_DATE = '2026-08-21' as const;
+const CHINESE_PANGOLIN_SOURCE_DATE = '2026-08-22' as const;
+const CHINESE_PANGOLIN_CONTENT_DATE = '2026-08-22' as const;
 const WESTERN_GORILLA_SOURCE_DATE = '2026-08-20' as const;
 const WESTERN_GORILLA_CONTENT_DATE = '2026-08-20' as const;
 const POLAR_BEAR_SOURCE_DATE = '2026-08-20' as const;
@@ -3014,6 +3016,136 @@ const BOWED_FIDDLER_CRAB_SOURCES = [
     url: 'https://www.pref.kochi.lg.jp/doc/siteisyu/file_contents/file_201972292055_1.pdf',
     kind: 'conservation',
     accessedAt: BOWED_FIDDLER_CRAB_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const CHINESE_PANGOLIN_SOURCES = [
+  {
+    title: 'Mammal Diversity Database — Manis pentadactyla',
+    url: 'https://www.mammaldiversity.org/taxon/1005797/',
+    kind: 'taxonomy',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title:
+      'Koju et al. 2026 — Revalidation of Manis aurita based on integrative genomic and morphological evidence',
+    url: 'https://doi.org/10.1038/s42003-026-10314-9',
+    kind: 'taxonomy',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN Red List — Manis pentadactyla (2019 errata assessment)',
+    url: 'https://doi.org/10.2305/IUCN.UK.2019-3.RLTS.T12764A168392151.en',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'CITES Appendices — effective 5 March 2026',
+    url: 'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'CITES Resolution Conf. 17.10 (Rev. CoP19) — Conservation of and trade in pangolins',
+    url: 'https://cites.org/sites/default/files/documents/COP/19/resolution/E-Res-17-10-R19.pdf',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'CITES SC74 Doc. 73 Annex 2 — Implementation of Decision 18.240',
+    url: 'https://www.cites.org/sites/default/files/eng/com/sc/74/E-SC74-73-A2.pdf',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'CITES Decisions 19.201–19.203 — pangolin species identification and stock controls',
+    url: 'https://cites.org/sites/default/files/eng/dec/valid19/E19-Dec.pdf',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: '国家林业和草原局公告 2020 年第 12 号 — 穿山甲调整保护级别',
+    url: 'https://www.forestry.gov.cn/main/3457/20200619/092010699781014.html',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: '国家重点保护野生动物名录 2021 — 穿山甲 Manis pentadactyla',
+    url: 'https://www.forestry.gov.cn/html/main/main_5461/20210205122418860831352/file/20210205151950336764982.pdf',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: '国家林业和草原局 2020 — 关于加大中华穿山甲保护的建议复文',
+    url: 'https://www.forestry.gov.cn/c/www/gkjyfw/132202.jhtml',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: '台湾林业及自然保育署、台湾生物多样性研究所 2025 — 台湾穿山甲保育行动计划（第二版）',
+    url: 'https://conservation.forest.gov.tw/File.aspx?fno=91300',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: '台湾林业及自然保育署 — 台湾穿山甲物种页',
+    url: 'https://www.forest.gov.tw/0008047',
+    kind: 'general',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Kong et al. 2021 — Distribution records and conservation status in China during 2010–2020',
+    url: 'https://doi.org/10.17520/biods.2020446',
+    kind: 'distribution',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Wu et al. 2021 — Observations of Chinese pangolins in mainland China',
+    url: 'https://doi.org/10.1016/j.gecco.2021.e01460',
+    kind: 'distribution',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Lee et al. 2017 — Diet of one juvenile Chinese pangolin in Hong Kong',
+    url: 'https://doi.org/10.1177/1940082917709648',
+    kind: 'ecology',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Sun, Pei & Wu 2021 — Long-term monitoring of wild reproductive behaviour',
+    url: 'https://doi.org/10.1038/s41598-021-97618-4',
+    kind: 'ecology',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Chin et al. 2012 — Gestation monitoring in rescued Formosan pangolins',
+    url: 'https://doi.org/10.1002/zoo.20413',
+    kind: 'ecology',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Sun, Lin & Pei 2025 — Characteristics and usage patterns of resting burrows',
+    url: 'https://doi.org/10.1016/j.gecco.2025.e03406',
+    kind: 'ecology',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Sun, Pei & Lin 2019 — Attaching tracking devices to Chinese pangolins in Taiwan',
+    url: 'https://doi.org/10.1016/j.gecco.2019.e00700',
+    kind: 'ecology',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Zhang et al. 2024 — Disturbance by free-ranging domestic dogs in Guangdong',
+    url: 'https://doi.org/10.3390/d16070386',
+    kind: 'conservation',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
+  },
+  {
+    title: 'Heath 1992 — Manis pentadactyla species account',
+    url: 'https://doi.org/10.2307/3504143',
+    kind: 'general',
+    accessedAt: CHINESE_PANGOLIN_SOURCE_DATE,
   },
 ] as const satisfies readonly SpeciesSource[];
 
@@ -9185,6 +9317,242 @@ export const species = [
     featured: true,
     publishedAt: BOWED_FIDDLER_CRAB_CONTENT_DATE,
     updatedAt: BOWED_FIDDLER_CRAB_CONTENT_DATE,
+  },
+  {
+    id: 'species-manis-pentadactyla',
+    slug: 'chinese-pangolin',
+    names: {
+      zh: '中华穿山甲',
+      en: 'Chinese Pangolin',
+      aliases: ['穿山甲', '中国穿山甲', '鲮鲤', 'Short-tailed Pangolin'],
+    },
+    scientificName: 'Manis pentadactyla',
+    taxonomy: animalTaxonomy(
+      taxon('Chordata', '脊索动物门'),
+      taxon('Mammalia', '哺乳纲'),
+      taxon('Pholidota', '鳞甲目'),
+      taxon('Manidae', '鲮鲤科'),
+      taxon('Manis', '穿山甲属'),
+    ),
+    conservation: conservation('CR', 'decreasing', 2019, 'A3d+4d'),
+    distribution: {
+      realms: ['terrestrial'],
+      continents: ['亚洲'],
+      regions: ['台湾、海南与中国南部及东部', '中南半岛北部（按 2026 种界仍待逐点复核）'],
+      countries: ['中国', '老挝', '缅甸', '泰国', '越南'],
+      range:
+        '2026 年种界下，狭义 Manis pentadactyla 包括以台湾为模式产地的指名种群和海南 pusilla 谱系，主要分布于中国南部、东部及东南亚。过去归入本种的尼泊尔、藏南和印度东北部种群现属 Manis aurita；缅甸北部可能接触区及东南亚国家级边界仍需有凭证的遗传与形态采样复核。旧 MDD 国家列表和 IUCN 2019 范围仍含拆分前口径，不能视为完成更新的狭义种地图。',
+      center: { lat: 24.5, lng: 111.5 },
+    },
+    habitats: [
+      {
+        name: '亚热带与热带森林',
+        realm: 'terrestrial',
+        description:
+          '原生和成熟阔叶林提供低干扰休息地、可挖掘土层、倒木以及稳定的蚂蚁和白蚁资源；连续林地有助于个体在多个休息洞之间移动。',
+        isPrimary: true,
+      },
+      {
+        name: '次生林、竹林与灌草镶嵌',
+        realm: 'terrestrial',
+        description:
+          '台湾指名种群可利用次生林、竹林、混合林、灌草地和林缘；低干扰且具有黏土或壤土的地点可保留长期复用的休息洞。',
+        isPrimary: true,
+      },
+      {
+        name: '低强度农林与浅山里山环境',
+        realm: 'terrestrial',
+        description:
+          '可进入果园、农垦地和聚落边缘觅食，但道路、犬只、兽夹、农药和开发风险随之上升；能出现不等于生境质量没有下降。',
+      },
+    ],
+    measurements: {
+      length: {
+        min: 44,
+        max: 56,
+        unit: 'cm',
+        note: '台湾指名种群头体长；尾长另为 30—40 厘米，不是全范围总长',
+      },
+      weight: {
+        typical: 4.65,
+        unit: 'kg',
+        note: '台湾指名种群成体平均 4.5—4.8 千克的展示中点；不是狭义种全球典型值或个体范围',
+      },
+    },
+    diet: {
+      types: ['insectivore'],
+      foods: ['蚂蚁', '白蚁', '蚁蛹与幼体', '有翅繁殖型社会性昆虫'],
+      description:
+        '专食社会性昆虫，以嗅觉定位蚁巢或白蚁巢，用发达前爪打开土壤、朽木或巢体，再以细长黏性舌取食；猎物组成会随地区、季节和可利用巢穴改变，不能把单一个体胃内容物当作固定菜单。',
+    },
+    activity: [
+      '以陆栖和掘洞生活为主，前爪用于建立休息洞与打开社会性昆虫巢',
+      '台湾材料多记录傍晚至夜间出洞，白天在休息洞隐蔽；该时段不外推为全范围固定日历',
+      '通常独居，繁殖、雄性造访育幼洞及母兽携带单仔时例外',
+      '在活动范围内轮换多个休息洞，洞穴可被不同个体共享并跨季节重复利用',
+      '受威胁可蜷缩保护柔软腹面，但鳞球姿态不能防御人类捕捉和犬只持续攻击',
+    ],
+    tags: [
+      'IUCN极危',
+      'CITES附录I',
+      '国家一级保护',
+      '鳞甲目',
+      '食虫动物',
+      '掘洞',
+      '夜间活动',
+      '单仔育幼',
+      '分类新修订',
+    ],
+    summary:
+      '披覆角蛋白鳞片、专食蚂蚁和白蚁的亚洲掘洞哺乳动物；2026 年种界收窄后，南喜马拉雅种群已另属 Manis aurita。',
+    description:
+      '中华穿山甲是以台湾为模式产地的鳞甲目哺乳动物，具有圆锥形头部、明显耳廓、宽菱形重叠角蛋白鳞片、发达五爪前肢和相对较短的尾。它在中国南部、东部及东南亚的森林、次生林、竹林与低强度农林镶嵌中建立并轮换休息洞，专食蚂蚁和白蚁。2026 年整合分类研究把南喜马拉雅的 Manis aurita 从旧广义种中恢复，令分布和保护资料必须重新校正；IUCN 当前仍沿用拆分前的 2019 年评估，将其列为极危、趋势下降。过度利用和非法贸易是全球核心威胁，生境破碎、犬伤、兽夹、路杀及潜在污染和疾病风险在不同地区叠加。',
+    storySections: [
+      {
+        key: 'aurita-split',
+        label: '分类更新',
+        title: '一个旧名字，终于分开两条古老支系',
+        body: '2026 年基因组、模式标本和形态证据把南喜马拉雅的 Manis aurita 恢复为独立种；它与狭义中华穿山甲约在 180 万年前分化。旧资料中的尼泊尔、藏南和印度东北部记录不能继续画进本档案，缅甸北部边界仍需补采样。',
+      },
+      {
+        key: 'scales-and-claws',
+        label: '独特身体',
+        title: '鳞片不是骨甲，前爪才是开路工具',
+        body: '角蛋白鳞片像瓦片般覆盖头背、躯干和尾部，腹面仍柔软；圆锥形头、明显耳廓和五爪前肢构成狭义种的安全图像锚点。它用粗壮前爪挖洞和打开蚁巢，而不是以牙齿啃食。',
+      },
+      {
+        key: 'burrow-is-not-individual',
+        label: '监测边界',
+        title: '一个个洞口，并不是一只只动物',
+        body: '无线电追踪显示一只个体可轮换数十个休息洞，同一洞也会被不同个体共享并跨季节重用；压实洞口甚至可能仍在使用。洞穴能提示出现，却不能直接换算种群密度，调查必须记录检测概率和重复努力。',
+      },
+      {
+        key: 'selective-myrmecophagy',
+        label: '选择性觅食',
+        title: '不是见到蚂蚁就吃',
+        body: '香港一只幼体胃中超过 2.6 万件猎物支持直接打开树上或地表蚁巢，台湾排遗又显示猎物组成随季节改变。这个惊人的数字来自单一个体，不能被包装成每日食量；真正稳健的结论是专食、选择性和地域差异。',
+      },
+      {
+        key: 'single-pup-maternal-care',
+        label: '低速生活史',
+        title: '一只幼仔，在多个育幼洞之间长大',
+        body: '台湾一只雌兽四年间两次在 12 月初各产一仔，并把幼仔在核心活动区的多个洞穴间转移；第一胎育幼 157 天。它让母幼行为第一次可见，也提醒我们约 150 天妊娠和延迟着床仍是小样本证据。',
+      },
+      {
+        key: 'trade-and-recovery',
+        label: '保护链条',
+        title: '卷成球，挡不住一条贸易链',
+        body: 'IUCN 怀疑拆分前广义种在三个世代下降超过 80%，CITES 附录 I 后非法贸易仍未消失。恢复需要供应链执法与种级法证，也需要连续生境、标准化监测、犬只和道路管理、规范救伤放归及社区需求降低同时推进。',
+      },
+    ],
+    keyFacts: [
+      '当前接受名为 Manis pentadactyla，模式产地为台湾；MDD 首选英文名是 Short-tailed Pangolin。',
+      '2026 年 Manis aurita 恢复为独立种，南喜马拉雅记录不再属于狭义中华穿山甲。',
+      'IUCN 当前正式值为 CR、趋势下降、2019 年评估、准则 A3d+4d，但评估证据早于物种拆分。',
+      '现行 CITES 附录将中华穿山甲列入附录 I，中国大陆名录将其列为国家一级重点保护野生动物。',
+      '台湾指名种群头体长 44—56 厘米、尾长 30—40 厘米，成体平均 4.5—4.8 千克。',
+      '身体大部覆以角蛋白鳞片，腹面和四肢内侧无鳞；发达五爪前肢用于掘洞和打开昆虫巢。',
+      '核心食物是蚂蚁和白蚁，猎物选择随地区与季节变化；一只香港幼体的胃内容物不能代表每日食量。',
+      '个体会轮换多个休息洞且洞穴可共享、复用，洞穴数不能直接换算种群密度。',
+      '野外资料通常为每胎一仔；台湾完整个案的约 150 天妊娠和 157 天育幼只来自一只雌兽。',
+    ],
+    threats: [
+      '肉和鳞片需求驱动的盗猎、国内非法交易与跨境走私',
+      '道路、建设、农业扩张和持续干扰造成的森林及浅山生境丧失、退化与破碎化',
+      '自由活动犬只造成的攻击、创伤、死亡与活动空间干扰，严重程度具有区域差异',
+      '兽夹等非目标猎具、道路死亡、沟渠与其他人工结构造成的伤亡和阻隔',
+      '农药与污染物累积以及犬源病原等潜在健康风险，剂量和种群效应仍需研究',
+      '每胎通常一仔、低自然密度与破碎种群导致的缓慢恢复',
+      '新旧种界错位造成的分布误判、扣押物误鉴、风险评估滞后和错误放归',
+    ],
+    conservationActions: [
+      '联合范围国、过境国和消费市场打击盗猎与非法供应链，对扣押物尽量完成种级法证鉴定',
+      '保护并连接有可挖掘土层、低干扰休息洞和稳定蚁白蚁资源的森林、竹林及农林镶嵌',
+      '组合标准化相机、占域模型、遗传或环境 DNA、个体标记和重复调查，不以洞穴数替代个体数',
+      '补充缅甸北部等缺资料区的有凭证样本，更新 Manis pentadactyla 与 M. aurita 的边界',
+      '建立救伤、检疫、原产地鉴定、放归地评估和放归后追踪 SOP，避免来源不明个体跨区释放',
+      '在犬只冲突热点实施饲主管理、游荡犬控制，并减缓兽夹、路杀、沟渠和道路阻隔',
+      '与社区推进友善农作、减少除草剂和杀虫剂，保护林缘昆虫资源并建立威胁通报网络',
+      '开展有评估的需求降低、库存控制和公众教育，并推动 IUCN、CITES 与国家数据库同步新种界',
+    ],
+    metrics: {},
+    featuredStats: [
+      {
+        key: 'aurita-divergence',
+        label: '与南喜马拉雅种分化',
+        value: '约 1.8',
+        unit: '百万年',
+        note: '2026 年基因组时钟均值，95% 置信区间约 1.3—2.5 百万年；不是现存种群年龄',
+      },
+      {
+        key: 'iucn-decline',
+        label: 'IUCN 怀疑三个世代下降',
+        value: '>80',
+        unit: '%',
+        note: '2019 年拆分前评估，三个世代约 21 年、主要归因于捕猎和非法贸易；并非狭义种 2026 年后独立重算',
+      },
+      {
+        key: 'china-records',
+        label: '中国确认发现记录',
+        value: '142 / 11',
+        unit: '条 / 省级行政区',
+        note: '2010—2020 年资料汇编；记录量不是个体总数，西南边缘记录还需按新种界复核',
+      },
+      {
+        key: 'usual-litter-size',
+        label: '野外通常每胎',
+        value: '1',
+        unit: '仔',
+        note: '台湾官方行动计划和一只雌兽连续两年单仔记录；不是对所有个体与地区的无例外保证',
+      },
+    ],
+    media: {
+      image: './images/species/chinese-pangolin/01-forest-floor-portrait.webp',
+      alt: '潮湿的东亚亚热带森林地面，一只完整的深灰褐中华穿山甲在右侧低头行走，圆形耳廓、重叠鳞片、粗壮前爪和完整尾巴清晰可见，左侧为较暗的林地留白',
+      focalPoint: { x: 0.68, y: 0.61 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/chinese-pangolin/02-scale-and-claw-anatomy.webp',
+          alt: '一只中华穿山甲的近距离侧前方全身视图，圆锥形头部、明显圆耳、宽菱形重叠鳞片、三枚发达中爪和较短的完整尾巴清晰可见',
+          title: '鳞片是角蛋白，前爪才是挖掘工具',
+          caption: '台湾指名种群具有明显耳廓、重叠角蛋白鳞片和五爪前肢；鳞片行数在中华穿山甲与南喜马拉雅穿山甲间没有显著诊断力。',
+          focalPoint: { x: 0.48, y: 0.54 },
+        },
+        {
+          image: './images/species/chinese-pangolin/03-core-natural-habitat.webp',
+          alt: '雨后的亚热带次生阔叶林、竹林和草地开口形成连续镶嵌，一只小型中华穿山甲位于右下方一块自然裸露、轻微扰动的可挖掘土壤旁',
+          title: '可挖掘土壤，只是核心生境的一部分',
+          caption: '次生林、竹林、草地与可挖掘黏壤土可共同提供觅食和休息条件；画面中的裸露扰动土面没有清晰洞口，不能据此确认洞穴或个体数量。',
+          focalPoint: { x: 0.68, y: 0.72 },
+        },
+        {
+          image: './images/species/chinese-pangolin/04-ant-foraging.webp',
+          alt: '夜间湿润林地中，一只中华穿山甲把粗壮前爪抵在倒木旁，并将细长舌头伸入腐木中的疑似蚁巢缝隙',
+          title: '探入一道缝隙，而不是随机舔食',
+          caption: '香港一只幼体的胃内容物和台湾排遗都支持选择性、随季节变化的蚁白蚁食谱；画面是机制示意，不代表每日摄食量。',
+          focalPoint: { x: 0.51, y: 0.58 },
+        },
+        {
+          image: './images/species/chinese-pangolin/05-mother-and-single-pup.webp',
+          alt: '夜间林坡一处洞口附近，一只短尾的中华穿山甲母兽缓慢行走，尾基和臀部稳稳背着恰好一只鳞片较细小的灰色幼仔',
+          title: '一只幼仔，在多个育幼洞之间长大',
+          caption: '台湾野外个案记录母兽背负单仔并在育幼期更换洞穴；“一胎一仔”是稳健框架，约 150 天妊娠和 157 天育幼仍来自单一雌兽。',
+          focalPoint: { x: 0.54, y: 0.58 },
+        },
+        {
+          image: './images/species/chinese-pangolin/06-burrow-camera-monitoring.webp',
+          alt: '日间的亚热带次生林中，恰好两名研究人员带着一块记录夹在树旁设置一台红外相机，镜头朝向数米外的候选洞穴并保持非接触',
+          title: '一次拍到，只是一次检测',
+          caption: '相机、重复调查与个体或遗传证据可共同估计趋势；拍到一只、记录一个候选洞穴或一次未检出，都不能单独给出种群数量。',
+          focalPoint: { x: 0.52, y: 0.58 },
+        },
+      ],
+    },
+    sources: CHINESE_PANGOLIN_SOURCES,
+    featured: true,
+    publishedAt: CHINESE_PANGOLIN_CONTENT_DATE,
+    updatedAt: CHINESE_PANGOLIN_CONTENT_DATE,
   },
 ] as const satisfies readonly Species[];
 
