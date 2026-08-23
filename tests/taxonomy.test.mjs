@@ -480,7 +480,7 @@ test('registers the Monarch Butterfly as a complete Danaus plexippus profile', (
     weight: {
       typical: 0.5,
       unit: 'g',
-      note: 'USFWS 概括的成虫平均体重；会随进食、脱水、迁飞和生命阶段变化，不是固定值或完整范围',
+      note: 'USFWS 概括的成虫平均体重；随进食、脱水、迁飞和生命阶段起伏',
     },
     wingspan: {
       min: 93,
