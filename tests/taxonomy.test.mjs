@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 93 taxon nodes and 30 unique species leaves', () => {
+test('builds the current catalogue into 96 taxon nodes and 31 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 30, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 93);
-  assert.equal(speciesNodes.length, 30);
-  assert.equal(nodes.length, 123);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 123, 'every node key is unique');
+  assert.equal(species.length, 31, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 96);
+  assert.equal(speciesNodes.length, 31);
+  assert.equal(nodes.length, 127);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 127, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -790,11 +790,97 @@ test('registers the Dugong as a complete Dugong dugon profile', () => {
   assert.equal(dugong.updatedAt, '2026-08-22');
 });
 
+test('registers the White Rhinoceros as a complete Ceratotherium simum profile', () => {
+  const whiteRhinoceros = findSpecies('white-rhinoceros');
+
+  assert.equal(whiteRhinoceros.id, 'species-ceratotherium-simum');
+  assert.equal(whiteRhinoceros.names.zh, '白犀');
+  assert.equal(whiteRhinoceros.names.en, 'White Rhinoceros');
+  assert.deepEqual(whiteRhinoceros.names.aliases, ['Square-lipped Rhinoceros']);
+  assert.equal(whiteRhinoceros.scientificName, 'Ceratotherium simum');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(whiteRhinoceros).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Perissodactyla'],
+      ['family', 'Rhinocerotidae'],
+      ['genus', 'Ceratotherium'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: whiteRhinoceros.conservation.code,
+      trend: whiteRhinoceros.conservation.trend,
+      assessedYear: whiteRhinoceros.conservation.assessedYear,
+      criteria: whiteRhinoceros.conservation.criteria,
+    },
+    {
+      code: 'NT',
+      trend: 'decreasing',
+      assessedYear: 2020,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(whiteRhinoceros.distribution.realms, ['terrestrial']);
+  assert.equal(whiteRhinoceros.distribution.countries.length, 13);
+  assert.deepEqual(whiteRhinoceros.measurements, {
+    length: {
+      min: 3.35,
+      max: 3.77,
+      unit: 'm',
+      note: '头体长，Groves 1972 的四成体历史样本；不是全物种极值',
+    },
+    height: {
+      min: 1.71,
+      max: 1.85,
+      unit: 'm',
+      note: '肩高，Groves 1972 的四成体历史样本',
+    },
+    weight: {
+      min: 1.4,
+      max: 2.4,
+      unit: 't',
+      note: '野外参考；成年雌性约 1.4—1.8 吨，成年雄性约 2.0—2.4 吨',
+    },
+  });
+  assert.deepEqual(whiteRhinoceros.metrics, {
+    adultMassKg: [1400, 2400],
+    lifespanYears: [30, 40],
+  });
+  assert.equal(whiteRhinoceros.storySections?.length, 6);
+  assert.equal(whiteRhinoceros.featuredStats.length, 4);
+  assert.equal(whiteRhinoceros.media.gallery?.length, 5);
+  assert.deepEqual(
+    [whiteRhinoceros.media.image, ...whiteRhinoceros.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/white-rhinoceros/01-square-lipped-savanna-portrait.webp',
+      './images/species/white-rhinoceros/02-square-lip-grazing.webp',
+      './images/species/white-rhinoceros/03-grassland-water-pan-habitat.webp',
+      './images/species/white-rhinoceros/04-mud-coating-after-wallow.webp',
+      './images/species/white-rhinoceros/05-cow-and-calf.webp',
+      './images/species/white-rhinoceros/06-distance-monitoring.webp',
+    ],
+  );
+  assert.equal(whiteRhinoceros.sources.length, 22);
+  assert.equal(new Set(whiteRhinoceros.sources.map(({ url }) => url)).size, 22);
+  assert.ok(
+    whiteRhinoceros.sources.every(({ accessedAt }) => accessedAt === '2026-08-23'),
+  );
+  assert.equal(whiteRhinoceros.featured, true);
+  assert.equal(whiteRhinoceros.publishedAt, '2026-08-23');
+  assert.equal(whiteRhinoceros.updatedAt, '2026-08-23');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 30);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 25);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 31);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 26);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
@@ -813,7 +899,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Andrias')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 14);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'order', 'Perissodactyla')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Rhinocerotidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Ceratotherium')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Sirenia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dugongidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Dugong')?.speciesCount, 1);
