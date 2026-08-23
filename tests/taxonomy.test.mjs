@@ -685,12 +685,12 @@ test('registers the Chinese Pangolin as a complete Manis pentadactyla profile', 
       min: 44,
       max: 56,
       unit: 'cm',
-      note: '台湾指名种群头体长；尾长另为 30—40 厘米，不是全范围总长',
+      note: '台湾指名种群头体长；尾长另有 30—40 厘米，全长要两项相加',
     },
     weight: {
       typical: 4.65,
       unit: 'kg',
-      note: '台湾指名种群成体平均 4.5—4.8 千克的展示中点；不是狭义种全球典型值或个体范围',
+      note: '台湾指名种群成体平均 4.5—4.8 千克的展示中点；其他地区的数字仍待补充',
     },
   });
   assert.deepEqual(pangolin.metrics, {});
