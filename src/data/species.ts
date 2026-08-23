@@ -4246,7 +4246,7 @@ export const species = [
       {
         name: '针叶林缘与局部混交林',
         realm: 'terrestrial',
-        description: '并非严格草原专属，在高原边缘也有林缘和混交林记录，但现有资料不足以量化其依赖程度。',
+        description: '在高原边缘也有林缘和混交林记录；它对森林的依赖有多深，现有资料还说不清。',
       },
     ],
     measurements: {
@@ -4267,7 +4267,7 @@ export const species = [
         key: 'name-and-habitat',
         label: '名字与家园',
         title: '名叫“荒漠”，却住在高原草地',
-        body: '荒漠猫的可靠家园集中在青藏高原东部，主要是高山草原、高寒草甸和灌丛，也会进入林缘。当前专家资料没有真正沙漠中的可靠记录；“荒漠猫”是沿用已久的名称，不能据此推断它生活在典型沙漠。',
+        body: '荒漠猫的可靠家园集中在青藏高原东部，主要是高山草原、高寒草甸和灌丛，也会进入林缘。在专家资料里，真正的沙漠中反而没有它的可靠记录。“荒漠猫”只是沿用已久的老名字，名字里的那片荒漠，它几乎从不去。',
       },
       {
         key: 'adaptation',
@@ -4284,7 +4284,7 @@ export const species = [
       {
         key: 'activity',
         label: '活动节律',
-        title: '隐秘，不等于只在深夜出现',
+        title: '隐秘的猫，白天也在走动',
         body: '旧资料常把荒漠猫写成夜行或晨昏活动。新的卫星项圈与相机研究却记录到全天活动，并在傍晚达到研究地高峰。不同设备看到的是移动、觅食或洞边社交等不同片段，也提醒我们：这个物种仍有大量生活细节未知。',
       },
       {
@@ -4335,7 +4335,7 @@ export const species = [
         label: '成熟个体估计',
         value: '<10,000',
         unit: '只',
-        note: 'IUCN 2021 评估的保守模型判断，不是直接全球普查',
+        note: 'IUCN 2021 评估经保守模型推得的数字',
       },
       {
         key: 'typical-elevation',
@@ -4349,7 +4349,7 @@ export const species = [
         key: 'activity-peak',
         label: '研究地活动高峰',
         value: '17:00—19:00',
-        note: '2020—2021 年 10 只项圈个体与相机资料；不代表所有地区固定时段',
+        note: '来自 2020—2021 年 10 只项圈个体与相机资料；其他地区的高峰时段仍待观察',
       },
     ],
     media: {
@@ -4362,14 +4362,14 @@ export const species = [
           image: './images/species/chinese-mountain-cat/02-zokor-listening.webp',
           alt: '高寒草甸上，一只荒漠猫俯身倾听新鲜土丘下的动静，并把一只前爪放在松土上',
           title: '听见地下的猎物',
-          caption: '荒漠猫能用听觉定位浅层地下的鼢鼠，再以前爪迅速挖掘；图中没有呈现猎物或捕杀。',
+          caption: '荒漠猫凭听觉定位浅层地下的鼢鼠，再用前爪迅速挖开土层。',
           focalPoint: { x: 0.57, y: 0.58 },
         },
         {
           image: './images/species/chinese-mountain-cat/03-eastern-plateau-habitat.webp',
           alt: '辽阔连绵的高原草甸、低矮灌丛和远处疏林之间，一只小小的荒漠猫穿过坡面',
           title: '高原尺度',
-          caption: '它依赖青藏高原东部连通的草原、草甸与灌丛景观，而不是典型沙漠。',
+          caption: '它依赖青藏高原东部连通的草原、草甸与灌丛；名字里的“荒漠”，在地图上几乎找不到。',
           focalPoint: { x: 0.68, y: 0.7 },
         },
         {
