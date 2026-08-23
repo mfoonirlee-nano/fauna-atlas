@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 96 taxon nodes and 31 unique species leaves', () => {
+test('builds the current catalogue into 99 taxon nodes and 32 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 31, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 96);
-  assert.equal(speciesNodes.length, 31);
-  assert.equal(nodes.length, 127);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 127, 'every node key is unique');
+  assert.equal(species.length, 32, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 99);
+  assert.equal(speciesNodes.length, 32);
+  assert.equal(nodes.length, 131);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 131, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -876,11 +876,98 @@ test('registers the White Rhinoceros as a complete Ceratotherium simum profile',
   assert.equal(whiteRhinoceros.updatedAt, '2026-08-23');
 });
 
+test('registers the Brown-throated Sloth as a complete Bradypus variegatus profile', () => {
+  const brownThroatedSloth = findSpecies('brown-throated-sloth');
+
+  assert.equal(brownThroatedSloth.id, 'species-bradypus-variegatus');
+  assert.equal(brownThroatedSloth.names.zh, '褐喉树懒');
+  assert.equal(brownThroatedSloth.names.en, 'Brown-throated Three-toed Sloth');
+  assert.deepEqual(brownThroatedSloth.names.aliases, [
+    'Brown-throated Sloth',
+    'Brown-throated Three-fingered Sloth',
+  ]);
+  assert.equal(brownThroatedSloth.scientificName, 'Bradypus variegatus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(brownThroatedSloth).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Pilosa'],
+      ['family', 'Bradypodidae'],
+      ['genus', 'Bradypus'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: brownThroatedSloth.conservation.code,
+      trend: brownThroatedSloth.conservation.trend,
+      assessedYear: brownThroatedSloth.conservation.assessedYear,
+      criteria: brownThroatedSloth.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'decreasing',
+      assessedYear: 2022,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(brownThroatedSloth.distribution.realms, ['terrestrial']);
+  assert.equal(brownThroatedSloth.distribution.countries.length, 10);
+  assert.deepEqual(brownThroatedSloth.measurements, {
+    length: {
+      min: 52,
+      max: 54,
+      unit: 'cm',
+      note: '头体长，IUCN SSC 专家组参考值；不含约 5 cm 的退化短尾',
+    },
+    weight: {
+      min: 3.7,
+      max: 6,
+      unit: 'kg',
+      note: 'IUCN SSC 专家组参考值，不代表全分布区极值',
+    },
+  });
+  assert.deepEqual(brownThroatedSloth.metrics, {
+    adultLengthCm: [52, 54],
+    adultMassKg: [3.7, 6],
+    elevationM: [0, 2500],
+  });
+  assert.equal(brownThroatedSloth.storySections?.length, 6);
+  assert.equal(brownThroatedSloth.featuredStats.length, 4);
+  assert.equal(brownThroatedSloth.media.gallery?.length, 5);
+  assert.deepEqual(
+    [
+      brownThroatedSloth.media.image,
+      ...brownThroatedSloth.media.gallery.map(({ image }) => image),
+    ],
+    [
+      './images/species/brown-throated-sloth/01-canopy-portrait.webp',
+      './images/species/brown-throated-sloth/02-three-clawed-anatomy.webp',
+      './images/species/brown-throated-sloth/03-lowland-forest-habitat.webp',
+      './images/species/brown-throated-sloth/04-selective-leaf-feeding.webp',
+      './images/species/brown-throated-sloth/05-mother-and-infant.webp',
+      './images/species/brown-throated-sloth/06-canopy-survey-monitoring.webp',
+    ],
+  );
+  assert.equal(brownThroatedSloth.sources.length, 20);
+  assert.equal(new Set(brownThroatedSloth.sources.map(({ url }) => url)).size, 20);
+  assert.ok(
+    brownThroatedSloth.sources.every(({ accessedAt }) => accessedAt === '2026-08-23'),
+  );
+  assert.equal(brownThroatedSloth.featured, true);
+  assert.equal(brownThroatedSloth.publishedAt, '2026-08-23');
+  assert.equal(brownThroatedSloth.updatedAt, '2026-08-23');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 31);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 26);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 32);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 27);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
@@ -899,7 +986,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Andrias')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 16);
+  assert.equal(findTaxon(tree, 'order', 'Pilosa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Bradypodidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Bradypus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Perissodactyla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Rhinocerotidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Ceratotherium')?.speciesCount, 1);
