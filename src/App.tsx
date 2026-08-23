@@ -249,7 +249,7 @@ function SpeciesGallery({ item, onOpenImage }: SpeciesGalleryProps) {
       <div className="detail-gallery__heading">
         <div>
           <p className="section-kicker">IMAGE NOTES · 影像观察</p>
-          <h3 id="detail-gallery-title">{item.names.zh}的观察切面</h3>
+          <h3 id="detail-gallery-title">镜头里的{item.names.zh}</h3>
         </div>
         <p>
           <strong>{String(frameCount).padStart(2, '0')}</strong>
@@ -718,7 +718,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
 
             <section className="detail-section">
               <p className="section-kicker">02 / 行为与食性</p>
-              <h3>如何在自然中生存</h3>
+              <h3>吃什么，怎么活</h3>
               <p>{item.diet.description}</p>
               <dl className="detail-facts">
                 <div>
@@ -772,7 +772,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
           <section className="conservation-callout">
             <div>
               <p className="section-kicker">CONSERVATION · 共同守护</p>
-              <h3>保护不是远方的故事</h3>
+              <h3>看见威胁，也看见出路</h3>
               <p>
                 {item.threats.length > 0
                   ? `当前主要威胁包括${item.threats.join('、')}。`
@@ -1422,7 +1422,7 @@ function App() {
           </div>
           <div className="mission-principles">
             <div><span>01</span><strong>科学可信</strong><p>保留学名、评估年份与资料出处。</p></div>
-            <div><span>02</span><strong>持续生长</strong><p>结构化内容，让修订与扩展更简单。</p></div>
+            <div><span>02</span><strong>持续生长</strong><p>档案共用一副骨架，增删修订都轻便。</p></div>
             <div><span>03</span><strong>尊重生命</strong><p>不暴露敏感坐标，不消费濒危处境。</p></div>
           </div>
         </section>

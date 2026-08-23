@@ -49,7 +49,7 @@ const rankLabels: Record<DisplayRank, { readonly zh: string; readonly en: string
 };
 
 const prototypeVariants = [
-  { key: 'A', label: '横向枝序总览' },
+  { key: 'A', label: '横向图谱总览' },
   { key: 'B', label: '单一物种路径' },
   { key: 'C', label: '按纲聚焦浏览' },
 ] as const satisfies readonly PrototypeVariant[];
