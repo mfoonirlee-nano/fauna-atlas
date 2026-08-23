@@ -34,6 +34,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Dugong image set](./species/dugong/README.md)
 - [White rhinoceros image set](./species/white-rhinoceros/README.md)
 - [Brown-throated three-toed sloth image set](./species/brown-throated-sloth/README.md)
+- [Eurasian beaver image set](./species/eurasian-beaver/README.md)
 
 ## Image compression workflow
 

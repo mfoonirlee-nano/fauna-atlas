@@ -61,6 +61,8 @@ const WHITE_RHINOCEROS_SOURCE_DATE = '2026-08-23' as const;
 const WHITE_RHINOCEROS_CONTENT_DATE = '2026-08-23' as const;
 const BROWN_THROATED_SLOTH_SOURCE_DATE = '2026-08-23' as const;
 const BROWN_THROATED_SLOTH_CONTENT_DATE = '2026-08-23' as const;
+const EURASIAN_BEAVER_SOURCE_DATE = '2026-08-23' as const;
+const EURASIAN_BEAVER_CONTENT_DATE = '2026-08-23' as const;
 const WESTERN_GORILLA_SOURCE_DATE = '2026-08-20' as const;
 const WESTERN_GORILLA_CONTENT_DATE = '2026-08-20' as const;
 const POLAR_BEAR_SOURCE_DATE = '2026-08-20' as const;
@@ -3540,6 +3542,147 @@ const BROWN_THROATED_SLOTH_SOURCES = [
     url: 'https://www.slothconservation.org/connected-gardens',
     kind: 'conservation',
     accessedAt: BROWN_THROATED_SLOTH_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const EURASIAN_BEAVER_SOURCES = [
+  {
+    title: 'ASM Mammal Diversity Database v2.5: Castor fiber',
+    url: 'https://www.mammaldiversity.org/taxon/1001958/',
+    kind: 'taxonomy',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN Red List: Castor fiber (2016 assessment, amended publication 2021)',
+    url: 'https://doi.org/10.2305/IUCN.UK.2021-1.RLTS.T4007A197499749.en',
+    kind: 'conservation',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'NatureScot: Eurasian beaver species account',
+    url: 'https://www.nature.scot/plants-animals-and-fungi/mammals/land-mammals/eurasian-beaver',
+    kind: 'general',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'NatureScot: legal ecology of Eurasian beaver breeding and resting sites',
+    url: 'https://www.nature.scot/doc/ecological-and-practical-interpretation-legal-definitions-disturbance-breeding-sites-and-resting',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'NatureScot Review 86: The ecology of the Eurasian beaver',
+    url: 'https://www.nature.scot/sites/default/files/2025-06/naturescot-review-86.pdf',
+    kind: 'general',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Halley, Saveljev and Rosell 2021: population and distribution of Eurasian beavers',
+    url: 'https://doi.org/10.1111/mam.12216',
+    kind: 'distribution',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Chu and Jiang 2009: Chinese beaver population and conservation',
+    url: 'https://doi.org/10.1017/S0030605308002056',
+    kind: 'conservation',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: '国家林业和草原局、农业农村部：国家重点保护野生动物名录（2021年第3号）',
+    url: 'https://www.forestry.gov.cn/c/www/gkzfwj/546057.jhtml',
+    kind: 'conservation',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Haarberg and Rosell 2006: selective foraging on woody plants',
+    url: 'https://doi.org/10.1111/j.1469-7998.2006.00142.x',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Mikulka et al. 2022: seasonal Eurasian beaver diet in agricultural landscapes',
+    url: 'https://doi.org/10.11118/actaun.2022.007',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Bartra Cabré et al. 2020: Eurasian beaver activity patterns',
+    url: 'https://doi.org/10.1007/s42991-020-00029-7',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Campbell et al. 2005: territoriality and group size in Eurasian beavers',
+    url: 'https://doi.org/10.1007/s00265-005-0942-6',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Syrůčková et al. 2015: genetic mating system of Eurasian beavers',
+    url: 'https://doi.org/10.1007/s13364-015-0219-z',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Parker, Zedrosser and Rosell 2017: female reproductive investment',
+    url: 'https://doi.org/10.1111/jzo.12458',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Graf et al. 2018: diving behavior in free-ranging Eurasian beavers',
+    url: 'https://doi.org/10.1002/ece3.3726',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Rosell et al. 2005: ecological impact of beavers',
+    url: 'https://doi.org/10.1111/j.1365-2907.2005.00067.x',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Puttock et al. 2017: beaver dams in an agricultural headwater',
+    url: 'https://doi.org/10.1016/j.scitotenv.2016.10.122',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Puttock et al. 2021: beaver dams and flow attenuation across multiple sites',
+    url: 'https://doi.org/10.1002/hyp.14017',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Law et al. 2017: beavers and plant diversity in a degraded wetland',
+    url: 'https://doi.org/10.1016/j.scitotenv.2017.06.173',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Orazi et al. 2022: biodiversity in Eurasian beaver ponds',
+    url: 'https://doi.org/10.3389/fevo.2022.873307',
+    kind: 'ecology',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'UK Forestry Commission: managing Eurasian beaver impacts on trees and land',
+    url: 'https://www.gov.uk/guidance/protecting-trees-from-mammal-damage-technical-guidance/eurasian-beaver',
+    kind: 'conservation',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Senn et al. 2014: genetic structure and reintroduction of Eurasian beavers',
+    url: 'https://doi.org/10.1111/eva.12162',
+    kind: 'conservation',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
+  },
+  {
+    title: 'Brazier et al. 2021: river restoration with Eurasian beaver',
+    url: 'https://doi.org/10.1002/wat2.1494',
+    kind: 'general',
+    accessedAt: EURASIAN_BEAVER_SOURCE_DATE,
   },
 ] as const satisfies readonly SpeciesSource[];
 
@@ -10711,6 +10854,289 @@ export const species = [
     featured: true,
     publishedAt: BROWN_THROATED_SLOTH_CONTENT_DATE,
     updatedAt: BROWN_THROATED_SLOTH_CONTENT_DATE,
+  },
+  {
+    id: 'species-castor-fiber',
+    slug: 'eurasian-beaver',
+    names: {
+      zh: '欧亚河狸',
+      en: 'Eurasian Beaver',
+      aliases: ['河狸', 'European Beaver'],
+    },
+    scientificName: 'Castor fiber',
+    taxonomy: animalTaxonomy(
+      taxon('Chordata', '脊索动物门'),
+      taxon('Mammalia', '哺乳纲'),
+      taxon('Rodentia', '啮齿目'),
+      taxon('Castoridae', '河狸科'),
+      taxon('Castor', '河狸属'),
+    ),
+    conservation: conservation('LC', 'increasing', 2016),
+    distribution: {
+      realms: ['freshwater', 'terrestrial'],
+      continents: ['欧洲', '亚洲'],
+      regions: ['北欧与西欧', '中欧与东欧', '俄罗斯与西伯利亚', '哈萨克斯坦', '蒙古与中国新疆'],
+      countries: [
+        '奥地利',
+        '白俄罗斯',
+        '比利时',
+        '波斯尼亚和黑塞哥维那',
+        '保加利亚',
+        '中国',
+        '克罗地亚',
+        '捷克',
+        '丹麦',
+        '爱沙尼亚',
+        '芬兰',
+        '法国',
+        '德国',
+        '匈牙利',
+        '意大利',
+        '哈萨克斯坦',
+        '拉脱维亚',
+        '列支敦士登',
+        '立陶宛',
+        '卢森堡',
+        '蒙古',
+        '黑山',
+        '荷兰',
+        '挪威',
+        '波兰',
+        '罗马尼亚',
+        '俄罗斯',
+        '塞尔维亚',
+        '斯洛伐克',
+        '斯洛文尼亚',
+        '西班牙',
+        '瑞典',
+        '瑞士',
+        '乌克兰',
+      ],
+      range:
+        '历史原生范围横跨北部欧亚大陆。现代分布由遗存种群、原生范围内重引入和自然扩散共同形成；MDD v2.5 的结构化字段列出 34 国，但没有收录英国已经重建的野生种群，概述文字另提摩尔多瓦，因此国家数组不宣称覆盖全部最新记录。',
+      center: { lat: 53, lng: 55 },
+    },
+    habitats: [
+      {
+        name: '缓流河流与溪流',
+        realm: 'freshwater',
+        description: '水位较稳定、岸坡可掘洞且附近有丰富水生、草本和落叶木本植物的河段，是常见核心生境。',
+        isPrimary: true,
+      },
+      {
+        name: '湖泊、池塘、湿地与运河',
+        realm: 'freshwater',
+        description: '已有足够水深的水体可直接提供隐蔽和移动通道，河狸常使用岸洞或巢，不一定修坝。',
+      },
+      {
+        name: '河岸阔叶林与灌丛',
+        realm: 'terrestrial',
+        description: '柳、杨、桦等落叶木本和多样草本提供食物、隐蔽与建筑材料，具体选择随当地资源改变。',
+      },
+      {
+        name: '农业沟渠与城镇水道',
+        realm: 'freshwater',
+        description: '连续水体、可食植被和安全岸坡也能让河狸进入人类改造景观，同时可能带来淹水、涵洞和树木管理冲突。',
+      },
+    ],
+    measurements: {
+      length: {
+        min: 70,
+        max: 100,
+        unit: 'cm',
+        note: '成年头体长参考范围；尾另长约 25—40 cm',
+      },
+      weight: {
+        min: 15,
+        max: 35,
+        unit: 'kg',
+        note: '成年常见参考范围，不代表绝对极值',
+      },
+    },
+    diet: {
+      types: ['herbivore'],
+      foods: ['水生植物', '岸边草本', '叶与嫩枝', '落叶树皮和形成层', '根与根茎'],
+      description:
+        '广食性植食动物。春夏常大量利用草本、水生植物和叶，寒冷季节转向树皮、形成层、嫩枝及水下食物堆；砍树还服务于搬运和建筑，不能简化成“吃木头”。',
+    },
+    activity: [
+      '主要在黄昏、夜间和清晨活动，具体时段随季节、天气、月光和个体年龄改变',
+      '以具蹼后足推进，扁平尾辅助水中操纵；较小前足用于抓握和搬运枝条',
+      '常以繁殖成体、当年幼仔和未扩散年轻个体组成领地家族群',
+      '通过海狸香和其他气味标记维护领地边界',
+      '岸洞、巢、坝、运河和食物堆都是条件性结构，并非每处领地都有完整组合',
+    ],
+    tags: [
+      '古北界',
+      '欧洲与北亚',
+      '啮齿目',
+      '半水栖',
+      '植食者',
+      '生态系统工程师',
+      'IUCN 无危',
+      '种群增加',
+      '中国一级保护野生动物',
+    ],
+    summary:
+      '横跨欧洲与亚洲北部的半水栖大型啮齿动物。它会通过伐木、掘洞、挖沟和条件性筑坝重塑河岸水文与生境；全球种群正在恢复，亚洲隔离遗存种群仍然脆弱。',
+    description:
+      '欧亚河狸有粗壮躯体、致密棕色双层被毛、具蹼大后足和宽扁覆鳞尾。它在水中移动，也上岸取食草本、叶、嫩枝、树皮和形成层。小水道中的坝能形成池塘和湿地镶嵌，较深河流与湖泊中的领地则可能只使用岸洞。保护与重引入让本种从 20 世纪初约 1,200 只遗存个体恢复到百万量级的非同步汇总估计；IUCN 当前为无危、趋势增加，中国新疆及蒙古等隔离种群仍面临河岸退化、水资源开发和遗传瓶颈。',
+    storySections: [
+      {
+        key: 'semi-aquatic-anatomy',
+        label: '形态与运动',
+        title: '后足、前掌和扁尾各有分工',
+        body:
+          '宽大的具蹼后足承担游泳推进，横向扁尾参与水中操纵，较小而趾间分离的前足能抓握细枝。致密双层被毛帮助隔开冷水。欧亚河狸与北美河狸外形很接近，普通照片不能只凭毛色、头形或尾宽完成可靠鉴别。',
+      },
+      {
+        key: 'conditional-dam-building',
+        label: '筑坝与巢穴',
+        title: '筑不筑坝，先看水有多深',
+        body:
+          '小而浅的水道可能出现由枝条、泥和石块构成的坝，以抬高水位并保护巢穴或岸洞入口。湖泊和较深河段已经提供足够水深，河狸常直接使用岸洞。坝、巢、运河和食物堆都不是每处领地的固定配置。',
+      },
+      {
+        key: 'seasonal-plant-diet',
+        label: '食性',
+        title: '岸边食谱会随季节换挡',
+        body:
+          '春夏的食谱常由草本、水生植物和叶占据更多位置，秋冬则增加嫩枝、树皮和形成层，并可能把枝条储在水下。树种偏好与实际摄入量还受当地可用性影响；伐下一棵树也可能是为了搬运或建筑。',
+      },
+      {
+        key: 'family-territory',
+        label: '繁殖与社会',
+        title: '一个领地容纳两代年轻河狸',
+        body:
+          '常见家族群包含繁殖成体、当年幼仔和尚未扩散的年轻个体。每年通常一胎、2 至 4 仔，年轻河狸多在约两岁后寻找领地；初次繁殖可以推迟，成熟雌性也可能跳过某个繁殖季。',
+      },
+      {
+        key: 'context-dependent-engineering',
+        label: '生态工程',
+        title: '改变水流，不保证同一种结果',
+        body:
+          '在有坝的地点，池塘和湿地边缘可增加蓄水、截留部分泥沙与营养物，并创造新的水深、流速和植被组合。效果会随河阶、季节、土地利用、坝龄和被测类群改变；局部淹水、涵洞阻塞和流水生境减少也可能发生。',
+      },
+      {
+        key: 'recovery-and-refugia',
+        label: '保护',
+        title: '全球回归，亚洲遗存仍需守护',
+        body:
+          '法律保护、重引入和自然扩散推动欧洲许多种群恢复，IUCN 全球趋势为增加。新疆、蒙古和西伯利亚的隔离遗存谱系仍受河岸植被退化、水资源开发、小种群效应及外来北美河狸接触影响；中国把河狸列为国家一级保护野生动物。',
+      },
+    ],
+    keyFacts: [
+      'MDD 接受名为 Castor fiber；European Beaver 是常用英文别名。',
+      'IUCN 当前为无危、全球趋势增加；2021 条目是 2016 年评估的修订版本。',
+      '中国国家重点保护野生动物名录把河狸列为一级保护野生动物，这一法律等级不替代全球 IUCN 等级。',
+      '成年头体长常见参考为 70—100 厘米，尾另长约 25—40 厘米，成年体重约 15—35 千克。',
+      '它严格植食，但食谱不只包含树皮，也包括水生植物、草本、叶、嫩枝、根和根茎。',
+      '不是每只河狸都会筑坝；湖泊和较深河流中的领地常直接使用岸洞。',
+      '每年通常一胎、2—4 仔，年轻个体多在约两岁后扩散，初次繁殖可能更晚。',
+      '坝池会改变峰流、泥沙、营养盐和生境异质性，方向与强度取决于地点和被测对象。',
+      '20 世纪初约 1,200 只的历史低谷与 2020 年百万量级汇总说明了恢复尺度，但后者不是同步全球普查或成熟个体估计。',
+      '普通照片无法仅凭毛色、头形或尾宽可靠区分欧亚河狸与北美河狸。',
+    ],
+    threats: [
+      '历史上为毛皮、肉和海狸香进行的过度捕猎，曾使物种退缩至少数遗存区',
+      '亚洲遗存区的河岸植被退化、水资源过度利用、农业扩张和河流片段化',
+      '淹水、涵洞堵塞、农作物或经营林木损失引发的冲突性捕杀、移除和干扰',
+      '道路与其他基础设施造成的局部死亡和水系连通性下降',
+      '中国、蒙古和西伯利亚部分小型隔离种群的遗传瓶颈与随机事件风险',
+      '芬兰和俄罗斯西北部接触区的外来北美河狸竞争与扩张',
+      '来源不清或健康筛查不足的放归可能带来遗传、疾病和失败风险',
+    ],
+    conservationActions: [
+      '保护繁殖巢、岸洞、关键河岸带及维持其功能的水位，处理坝体前先做生态和法律评估',
+      '在亚洲遗存区恢复本地河岸木本与湿地植被，限制不可持续取水和薪柴采集',
+      '推进中国与蒙古之间的跨境监测、保护区协作和湿地管理',
+      '以标准化集群、分布、繁殖和遗传监测追踪隔离种群及重引入后的扩散',
+      '冲突管理优先采用河岸缓冲带、树干护网、围栏、涵洞防护和经许可的水位控制设施',
+      '重引入和转移前评估来源谱系、健康及生境承载条件，放归后持续监测',
+      '在接触区控制外来北美河狸，并以来源或遗传证据完成物种鉴定',
+      '落实中国国家一级保护制度，把执法与新疆河岸带恢复、跨境协作结合',
+    ],
+    metrics: {
+      adultLengthCm: [70, 100],
+      adultMassKg: [15, 35],
+    },
+    featuredStats: [
+      {
+        key: 'global-iucn-status',
+        label: 'IUCN 全球等级',
+        value: 'LC',
+        unit: '无危',
+        note: '2016 年评估，2021 年发布修订版本；全球趋势为增加',
+      },
+      {
+        key: 'adult-head-body-length',
+        label: '成年头体长',
+        value: '70—100',
+        unit: '厘米',
+        note: '常见参考范围；尾另长约 25—40 厘米',
+      },
+      {
+        key: 'adult-mass',
+        label: '成年体重',
+        value: '15—35',
+        unit: '千克',
+        note: '常见参考范围，不代表绝对极值',
+      },
+      {
+        key: 'gestation-and-litter',
+        label: '妊娠与胎仔',
+        value: '105—107',
+        unit: '天',
+        note: '每年通常一胎、2—4 仔；初次繁殖可能晚于性成熟',
+      },
+    ],
+    media: {
+      image: './images/species/eurasian-beaver/01-riparian-portrait.webp',
+      alt: '一只完整的欧亚河狸停在黄昏的缓流河岸，湿润棕色被毛和贴地的宽扁覆鳞尾清楚可见',
+      focalPoint: { x: 0.67, y: 0.57 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/eurasian-beaver/02-tail-and-hind-foot-anatomy.webp',
+          alt: '一只完整的欧亚河狸从浅水走上泥岸，宽扁覆鳞尾和较大的近侧后足清楚可见',
+          title: '为水陆两边分工的身体',
+          caption: '大后足承担游泳推进，扁尾参与水中操纵；普通照片不能据此可靠排除北美河狸。',
+          focalPoint: { x: 0.58, y: 0.57 },
+        },
+        {
+          image: './images/species/eurasian-beaver/03-beaver-wetland-habitat.webp',
+          alt: '枝条、泥和石块组成的低矮河狸坝横过林间小溪，后方池塘中只有一只小型远景河狸',
+          title: '一处由坝形成的湿地镶嵌',
+          caption: '这幅图只呈现一处可筑坝的小水道；并非每个河狸领地都有坝。',
+          focalPoint: { x: 0.53, y: 0.56 },
+        },
+        {
+          image: './images/species/eurasian-beaver/04-woody-plant-feeding.webp',
+          alt: '一只完整的欧亚河狸用前足支撑身体，以橙色门齿啃咬一株仍扎根岸边的细落叶树干',
+          title: '木本食物不等于吃木头',
+          caption: '河狸取食树皮与形成层，也利用叶、嫩枝、草本和水生植物；画面不能可靠鉴定树种。',
+          focalPoint: { x: 0.55, y: 0.52 },
+        },
+        {
+          image: './images/species/eurasian-beaver/05-adult-and-kit.webp',
+          alt: '一只成年欧亚河狸与两只较小幼仔停在河岸洞口和浅水之间，三只动物均完整可见',
+          title: '一个领地里的成体与幼仔',
+          caption: '静态画面不能确认成体性别、亲子关系、幼仔年龄或配偶制度。',
+          focalPoint: { x: 0.52, y: 0.53 },
+        },
+        {
+          image: './images/species/eurasian-beaver/06-wetland-monitoring.webp',
+          alt: '两名湿地监测人员在左岸记录水位，远处右侧水面只有一只河狸，人与动物保持明显距离',
+          title: '从一次读数积累长期变化',
+          caption: '一处水位读数和一次目击都不能单独证明水文效应、数量或种群趋势。',
+          focalPoint: { x: 0.52, y: 0.55 },
+        },
+      ],
+    },
+    sources: EURASIAN_BEAVER_SOURCES,
+    featured: true,
+    publishedAt: EURASIAN_BEAVER_CONTENT_DATE,
+    updatedAt: EURASIAN_BEAVER_CONTENT_DATE,
   },
 ] as const satisfies readonly Species[];
 

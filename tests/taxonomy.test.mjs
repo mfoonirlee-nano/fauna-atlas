@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 99 taxon nodes and 32 unique species leaves', () => {
+test('builds the current catalogue into 102 taxon nodes and 33 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 32, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 99);
-  assert.equal(speciesNodes.length, 32);
-  assert.equal(nodes.length, 131);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 131, 'every node key is unique');
+  assert.equal(species.length, 33, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 102);
+  assert.equal(speciesNodes.length, 33);
+  assert.equal(nodes.length, 135);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 135, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -963,11 +963,89 @@ test('registers the Brown-throated Sloth as a complete Bradypus variegatus profi
   assert.equal(brownThroatedSloth.updatedAt, '2026-08-23');
 });
 
+test('registers the Eurasian Beaver as a complete Castor fiber profile', () => {
+  const eurasianBeaver = findSpecies('eurasian-beaver');
+
+  assert.equal(eurasianBeaver.id, 'species-castor-fiber');
+  assert.equal(eurasianBeaver.names.zh, '欧亚河狸');
+  assert.equal(eurasianBeaver.names.en, 'Eurasian Beaver');
+  assert.deepEqual(eurasianBeaver.names.aliases, ['河狸', 'European Beaver']);
+  assert.equal(eurasianBeaver.scientificName, 'Castor fiber');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(eurasianBeaver).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Rodentia'],
+      ['family', 'Castoridae'],
+      ['genus', 'Castor'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: eurasianBeaver.conservation.code,
+      trend: eurasianBeaver.conservation.trend,
+      assessedYear: eurasianBeaver.conservation.assessedYear,
+      criteria: eurasianBeaver.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'increasing',
+      assessedYear: 2016,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(eurasianBeaver.distribution.realms, ['freshwater', 'terrestrial']);
+  assert.equal(eurasianBeaver.distribution.countries.length, 34);
+  assert.deepEqual(eurasianBeaver.measurements, {
+    length: {
+      min: 70,
+      max: 100,
+      unit: 'cm',
+      note: '成年头体长参考范围；尾另长约 25—40 cm',
+    },
+    weight: {
+      min: 15,
+      max: 35,
+      unit: 'kg',
+      note: '成年常见参考范围，不代表绝对极值',
+    },
+  });
+  assert.deepEqual(eurasianBeaver.metrics, {
+    adultLengthCm: [70, 100],
+    adultMassKg: [15, 35],
+  });
+  assert.equal(eurasianBeaver.storySections?.length, 6);
+  assert.equal(eurasianBeaver.featuredStats.length, 4);
+  assert.equal(eurasianBeaver.media.gallery?.length, 5);
+  assert.deepEqual(
+    [eurasianBeaver.media.image, ...eurasianBeaver.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/eurasian-beaver/01-riparian-portrait.webp',
+      './images/species/eurasian-beaver/02-tail-and-hind-foot-anatomy.webp',
+      './images/species/eurasian-beaver/03-beaver-wetland-habitat.webp',
+      './images/species/eurasian-beaver/04-woody-plant-feeding.webp',
+      './images/species/eurasian-beaver/05-adult-and-kit.webp',
+      './images/species/eurasian-beaver/06-wetland-monitoring.webp',
+    ],
+  );
+  assert.equal(eurasianBeaver.sources.length, 23);
+  assert.equal(new Set(eurasianBeaver.sources.map(({ url }) => url)).size, 23);
+  assert.ok(eurasianBeaver.sources.every(({ accessedAt }) => accessedAt === '2026-08-23'));
+  assert.equal(eurasianBeaver.featured, true);
+  assert.equal(eurasianBeaver.publishedAt, '2026-08-23');
+  assert.equal(eurasianBeaver.updatedAt, '2026-08-23');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 32);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 27);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 33);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
@@ -986,7 +1064,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Andrias')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 16);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 17);
+  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Castoridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Castor')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Pilosa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bradypodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bradypus')?.speciesCount, 1);
