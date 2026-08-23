@@ -617,7 +617,7 @@ test('registers the Bowed Fiddler Crab as a complete Tubuca arcuata profile', ()
       typical: 30,
       max: 40.2,
       unit: 'mm',
-      note: '背甲宽，不是全身长；约 30 毫米是公众典型值，40.2 毫米为已核分类凭证，不代表绝对最大值',
+      note: '量的是背甲宽；公众典型值约 30 毫米，已核实的分类凭证最宽 40.2 毫米',
     },
   });
   assert.deepEqual(fiddlerCrab.metrics, {});
