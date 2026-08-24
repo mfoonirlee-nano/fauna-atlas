@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 102 taxon nodes and 33 unique species leaves', () => {
+test('builds the current catalogue into 108 taxon nodes and 35 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 33, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 102);
-  assert.equal(speciesNodes.length, 33);
-  assert.equal(nodes.length, 135);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 135, 'every node key is unique');
+  assert.equal(species.length, 35, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 108);
+  assert.equal(speciesNodes.length, 35);
+  assert.equal(nodes.length, 143);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 143, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -1041,11 +1041,170 @@ test('registers the Eurasian Beaver as a complete Castor fiber profile', () => {
   assert.equal(eurasianBeaver.updatedAt, '2026-08-23');
 });
 
+test('registers the Plateau Pika as a complete Ochotona curzoniae profile', () => {
+  const plateauPika = findSpecies('plateau-pika');
+
+  assert.equal(plateauPika.id, 'species-ochotona-curzoniae');
+  assert.equal(plateauPika.slug, 'plateau-pika');
+  assert.equal(plateauPika.names.zh, '高原鼠兔');
+  assert.equal(plateauPika.names.en, 'Plateau Pika');
+  assert.deepEqual(plateauPika.names.aliases, ['黑唇鼠兔', 'Black-lipped Pika']);
+  assert.equal(plateauPika.scientificName, 'Ochotona curzoniae');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(plateauPika).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Lagomorpha'],
+      ['family', 'Ochotonidae'],
+      ['genus', 'Ochotona'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: plateauPika.conservation.code,
+      trend: plateauPika.conservation.trend,
+      assessedYear: plateauPika.conservation.assessedYear,
+      criteria: plateauPika.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'decreasing',
+      assessedYear: 2016,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(plateauPika.distribution.realms, ['terrestrial']);
+  assert.deepEqual(plateauPika.distribution.countries, ['中国', '印度', '尼泊尔']);
+  assert.match(plateauPika.distribution.range, /尼泊尔.*不确定性/);
+  assert.deepEqual(plateauPika.measurements, {
+    length: {
+      min: 14,
+      max: 19.2,
+      unit: 'cm',
+      note: '体长参考范围；不含耳长和后足长，也不表示物种极值',
+    },
+    weight: {
+      typical: 150,
+      unit: 'g',
+      note: '成年典型体重；性别、季节、地点和研究样本会改变实测值，不拼接成统一范围',
+    },
+  });
+  assert.deepEqual(plateauPika.metrics, {
+    adultLengthCm: [14, 19.2],
+    elevationM: [3000, 5000],
+  });
+  assert.equal(plateauPika.storySections?.length, 6);
+  assert.equal(plateauPika.featuredStats.length, 4);
+  assert.equal(plateauPika.media.gallery?.length, 5);
+  assert.equal(plateauPika.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  assert.deepEqual(
+    [plateauPika.media.image, ...plateauPika.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/plateau-pika/01-alpine-meadow-portrait.webp',
+      './images/species/plateau-pika/02-black-lip-and-ear-markings.webp',
+      './images/species/plateau-pika/03-burrow-meadow-mosaic.webp',
+      './images/species/plateau-pika/04-forb-and-grass-feeding.webp',
+      './images/species/plateau-pika/05-family-at-shared-burrow.webp',
+      './images/species/plateau-pika/06-nonlethal-density-monitoring.webp',
+    ],
+  );
+  assert.equal(plateauPika.sources.length, 23);
+  assert.equal(new Set(plateauPika.sources.map(({ url }) => url)).size, 23);
+  assert.ok(plateauPika.sources.every(({ accessedAt }) => accessedAt === '2026-08-23'));
+  assert.equal(plateauPika.featured, true);
+  assert.equal(plateauPika.publishedAt, '2026-08-23');
+  assert.equal(plateauPika.updatedAt, '2026-08-23');
+});
+
+test('registers the Chinese Rufous Horseshoe Bat as a complete Rhinolophus sinicus profile', () => {
+  const bat = findSpecies('chinese-rufous-horseshoe-bat');
+
+  assert.equal(bat.id, 'species-rhinolophus-sinicus');
+  assert.equal(bat.slug, 'chinese-rufous-horseshoe-bat');
+  assert.equal(bat.names.zh, '中华菊头蝠');
+  assert.equal(bat.names.en, 'Chinese Rufous Horseshoe Bat');
+  assert.deepEqual(bat.names.aliases, [
+    'Chinese Horseshoe Bat',
+    'Little Nepalese Horseshoe Bat',
+    '鲁氏菊头蝠（旧称）',
+  ]);
+  assert.equal(bat.scientificName, 'Rhinolophus sinicus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(bat).map(({ rank, taxon }) => [rank, taxon.scientificName]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Chiroptera'],
+      ['family', 'Rhinolophidae'],
+      ['genus', 'Rhinolophus'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: bat.conservation.code,
+      trend: bat.conservation.trend,
+      assessedYear: bat.conservation.assessedYear,
+      criteria: bat.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'unknown',
+      assessedYear: 2019,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(bat.distribution.realms, ['terrestrial']);
+  assert.deepEqual(bat.distribution.countries, ['中国', '印度', '缅甸', '尼泊尔', '越南']);
+  assert.match(bat.distribution.range, /Rhinolophus septentrionalis.*重新核对/);
+  assert.deepEqual(bat.measurements, {
+    length: {
+      min: 43,
+      max: 53.5,
+      unit: 'mm',
+      note: '2019 专论的头体长；来源仍采用包含 R. septentrionalis 的宽物种概念，不进入 normalized metrics',
+    },
+    weight: {
+      min: 10,
+      max: 12.5,
+      unit: 'g',
+      note: '四川 4 只个体的地区样本，不作为全球范围',
+    },
+  });
+  assert.deepEqual(bat.metrics, {});
+  assert.equal(bat.storySections?.length, 6);
+  assert.equal(bat.featuredStats.length, 4);
+  assert.equal(bat.media.gallery?.length, 5);
+  assert.equal(bat.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  assert.deepEqual(
+    [bat.media.image, ...bat.media.gallery.map(({ image }) => image)],
+    [
+      './images/species/chinese-rufous-horseshoe-bat/01-cave-mouth-roost-portrait.webp',
+      './images/species/chinese-rufous-horseshoe-bat/02-horseshoe-noseleaf-anatomy.webp',
+      './images/species/chinese-rufous-horseshoe-bat/03-cave-exit-flight.webp',
+      './images/species/chinese-rufous-horseshoe-bat/04-cave-roost-group.webp',
+      './images/species/chinese-rufous-horseshoe-bat/05-forest-edge-moth-foraging.webp',
+      './images/species/chinese-rufous-horseshoe-bat/06-passive-acoustic-monitoring.webp',
+    ],
+  );
+  assert.equal(bat.sources.length, 14);
+  assert.equal(new Set(bat.sources.map(({ url }) => url)).size, 14);
+  assert.ok(bat.sources.every(({ accessedAt }) => accessedAt === '2026-08-24'));
+  assert.equal(bat.featured, true);
+  assert.equal(bat.publishedAt, '2026-08-24');
+  assert.equal(bat.updatedAt, '2026-08-24');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 33);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 28);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 35);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 30);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
@@ -1064,7 +1223,13 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Andrias')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 17);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 19);
+  assert.equal(findTaxon(tree, 'order', 'Chiroptera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Rhinolophidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Rhinolophus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Lagomorpha')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Ochotonidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Ochotona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Castoridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Castor')?.speciesCount, 1);
