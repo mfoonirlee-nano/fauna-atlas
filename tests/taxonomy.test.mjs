@@ -1431,6 +1431,121 @@ test('registers the West Indian Ocean Coelacanth as a complete Latimeria chalumn
   assert.equal(coelacanth.updatedAt, '2026-08-25');
 });
 
+test('registers the Tiger as a complete Panthera tigris profile', () => {
+  const tiger = findSpecies('tiger');
+
+  assert.equal(tiger.id, 'species-panthera-tigris');
+  assert.equal(tiger.slug, 'tiger');
+  assert.equal(tiger.names.zh, '虎');
+  assert.equal(tiger.names.en, 'Tiger');
+  assert.deepEqual(tiger.names.aliases, ['老虎']);
+  assert.equal(tiger.scientificName, 'Panthera tigris');
+  assert.equal(tiger.scientificName.split(' ')[0], 'Panthera');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(tiger).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+      ]),
+      ['species', tiger.scientificName],
+    ],
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Carnivora'],
+      ['family', 'Felidae'],
+      ['genus', 'Panthera'],
+      ['species', 'Panthera tigris'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: tiger.conservation.code,
+      trend: tiger.conservation.trend,
+      assessedYear: tiger.conservation.assessedYear,
+      criteria: tiger.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'decreasing',
+      assessedYear: 2021,
+      criteria: 'A2abcd',
+    },
+  );
+  assert.deepEqual(tiger.distribution.realms, ['terrestrial']);
+  assert.deepEqual(tiger.distribution.countries, [
+    '孟加拉国',
+    '不丹',
+    '中国',
+    '印度',
+    '印度尼西亚',
+    '马来西亚',
+    '缅甸',
+    '尼泊尔',
+    '俄罗斯',
+    '泰国',
+  ]);
+  assert.match(tiger.distribution.range, /10 个国家.*不足历史范围的 7%/);
+  assert.deepEqual(tiger.measurements, {
+    length: {
+      min: 150,
+      max: 230,
+      unit: 'cm',
+      note: '头体长；另有 90–110 厘米尾长，为跨性别和地理种群的物种级概览',
+    },
+    weight: {
+      min: 75,
+      max: 325,
+      unit: 'kg',
+      note: 'IUCN/SSC 猫科专家组物种级宽范围，不代表典型个体或任何单一亚种',
+    },
+  });
+  assert.deepEqual(tiger.metrics, {
+    adultLengthCm: [150, 230],
+    adultMassKg: [75, 325],
+    lifespanYears: [12, 15],
+    estimatedMatureIndividuals: [2608, 3905],
+  });
+  assert.equal(tiger.storySections?.length, 6);
+  assert.equal(tiger.featuredStats.length, 4);
+  assert.equal(tiger.media.gallery?.length, 5);
+  assert.equal(tiger.media.credit, 'Fauna Atlas · AI 生成原创图像');
+
+  const mediaPaths = [
+    tiger.media.image,
+    ...tiger.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/tiger/01-forest-edge-portrait.webp',
+    './images/species/tiger/02-stripe-pattern-profile.webp',
+    './images/species/tiger/03-forest-grassland-water-mosaic.webp',
+    './images/species/tiger/04-wild-boar-ambush.webp',
+    './images/species/tiger/05-tigress-with-cubs.webp',
+    './images/species/tiger/06-camera-trap-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(!tiger.media.gallery.some(({ image }) => image === tiger.media.image));
+
+  assert.equal(tiger.sources.length, 20);
+  assert.equal(new Set(tiger.sources.map(({ url }) => url)).size, tiger.sources.length);
+  assert.ok(tiger.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(tiger.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'));
+  assert.ok(
+    tiger.names.aliases.every(
+      (alias) =>
+        !/东北虎|孟加拉虎|华南虎|马来虎|苏门答腊虎|Amur|Bengal|Sumatran/iu.test(
+          alias,
+        ),
+    ),
+  );
+
+  assert.equal(tiger.featured, true);
+  assert.equal(tiger.publishedAt, '2026-08-25');
+  assert.equal(tiger.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -1447,6 +1562,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Coelacanthiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Latimeriidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Latimeria')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'genus', 'Tigris'), undefined);
 });
 
 test('keeps every branch in canonical rank order with species at the leaf', () => {
