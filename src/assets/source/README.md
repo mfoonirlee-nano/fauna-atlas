@@ -38,6 +38,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Plateau pika image set](./species/plateau-pika/README.md)
 - [Chinese rufous horseshoe bat image set](./species/chinese-rufous-horseshoe-bat/README.md)
 - [Chinese sturgeon image set](./species/chinese-sturgeon/README.md)
+- [West Indian Ocean coelacanth image set](./species/coelacanth/README.md)
 
 ## Image compression workflow
 

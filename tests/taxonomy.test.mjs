@@ -41,6 +41,12 @@ function findSpecies(slug) {
   return profile;
 }
 
+function countCatalogueDescendants(node) {
+  return species.filter((profile) =>
+    getSpeciesTaxonomyPath(profile).some(({ key }) => key === node.key),
+  ).length;
+}
+
 function withTaxon(profile, rank, taxon) {
   return {
     ...profile,
@@ -51,17 +57,25 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 112 taxon nodes and 36 unique species leaves', () => {
+test('builds one uniquely keyed taxonomy leaf for every catalogue profile', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
+  const catalogueTaxonKeys = new Set(
+    species.flatMap((profile) =>
+      getSpeciesTaxonomyPath(profile).map(({ key }) => key),
+    ),
+  );
 
-  assert.equal(species.length, 36, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 112);
-  assert.equal(speciesNodes.length, 36);
-  assert.equal(nodes.length, 148);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 148, 'every node key is unique');
+  assert.equal(taxonNodes.length, catalogueTaxonKeys.size);
+  assert.equal(speciesNodes.length, species.length);
+  assert.equal(nodes.length, catalogueTaxonKeys.size + species.length);
+  assert.equal(
+    new Set(nodes.map((node) => node.key)).size,
+    nodes.length,
+    'every node key is unique',
+  );
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -1294,89 +1308,145 @@ test('registers the Chinese Sturgeon as a complete Acipenser sinensis profile', 
   assert.equal(chineseSturgeon.updatedAt, '2026-08-24');
 });
 
+test('registers the West Indian Ocean Coelacanth as a complete Latimeria chalumnae profile', () => {
+  const coelacanth = findSpecies('coelacanth');
+
+  assert.equal(coelacanth.id, 'species-latimeria-chalumnae');
+  assert.equal(coelacanth.slug, 'coelacanth');
+  assert.equal(coelacanth.names.zh, '西印度洋矛尾鱼');
+  assert.equal(coelacanth.names.en, 'West Indian Ocean Coelacanth');
+  assert.deepEqual(coelacanth.names.aliases, [
+    '腔棘鱼',
+    '矛尾鱼',
+    '非洲拉蒂迈鱼',
+    'African Coelacanth',
+    'Coelacanth',
+    'Gombessa',
+  ]);
+  assert.equal(coelacanth.scientificName, 'Latimeria chalumnae');
+  assert.equal(coelacanth.scientificName.split(' ')[0], 'Latimeria');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(coelacanth).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+      ]),
+      ['species', coelacanth.scientificName],
+    ],
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Sarcopterygii'],
+      ['order', 'Coelacanthiformes'],
+      ['family', 'Latimeriidae'],
+      ['genus', 'Latimeria'],
+      ['species', 'Latimeria chalumnae'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: coelacanth.conservation.code,
+      trend: coelacanth.conservation.trend,
+      assessedYear: coelacanth.conservation.assessedYear,
+      criteria: coelacanth.conservation.criteria,
+    },
+    {
+      code: 'CR',
+      trend: 'unknown',
+      assessedYear: 2000,
+      criteria: 'A2bcd',
+    },
+  );
+  assert.deepEqual(coelacanth.distribution.realms, ['marine']);
+  assert.deepEqual(coelacanth.distribution.countries, [
+    '科摩罗',
+    '肯尼亚',
+    '马达加斯加',
+    '莫桑比克',
+    '南非',
+    '坦桑尼亚',
+  ]);
+  assert.match(coelacanth.distribution.range, /驻留或繁殖证据.*少量捕获记录/);
+  assert.ok(!coelacanth.distribution.countries.includes('印度尼西亚'));
+  assert.deepEqual(coelacanth.measurements, {
+    length: {
+      max: 200,
+      unit: 'cm',
+      note: 'NOAA 与 ACEP 的约数上限；n=87 的资料实测 42.5–183 cm，雌鱼极值模型约 199 cm，不是普通成体范围',
+    },
+    weight: {
+      max: 105,
+      unit: 'kg',
+      note: 'Cooke 等汇总的坦桑尼亚捕获记录上限；NOAA 概括约 89.8 kg，地区、渔具、性别和怀孕状态会筛选体重',
+    },
+  });
+  assert.deepEqual(coelacanth.metrics, {});
+  assert.equal(coelacanth.storySections?.length, 6);
+  assert.equal(coelacanth.featuredStats.length, 4);
+  assert.equal(coelacanth.media.gallery?.length, 5);
+  assert.equal(coelacanth.media.credit, 'Fauna Atlas · AI 生成原创图像');
+
+  const mediaPaths = [
+    coelacanth.media.image,
+    ...coelacanth.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/coelacanth/01-deep-slope-portrait.webp',
+    './images/species/coelacanth/02-lobed-fins-and-three-lobed-tail.webp',
+    './images/species/coelacanth/03-steep-cave-slope-habitat.webp',
+    './images/species/coelacanth/04-night-drift-foraging.webp',
+    './images/species/coelacanth/05-daytime-cave-shelter-group.webp',
+    './images/species/coelacanth/06-rov-video-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !coelacanth.media.gallery.some(({ image }) => image === coelacanth.media.image),
+  );
+
+  assert.equal(coelacanth.sources.length, 23);
+  assert.equal(
+    new Set(coelacanth.sources.map(({ url }) => url)).size,
+    coelacanth.sources.length,
+  );
+  assert.ok(coelacanth.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    coelacanth.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'),
+  );
+
+  const editorialText = [
+    coelacanth.summary,
+    coelacanth.description,
+    ...coelacanth.storySections.flatMap(({ label, title, body }) => [label, title, body]),
+    ...coelacanth.keyFacts,
+    ...coelacanth.tags,
+  ].join('\n');
+  assert.doesNotMatch(
+    editorialText,
+    /活化石|missing link|缺失环节|直接祖先|用鳍行走/iu,
+  );
+
+  assert.equal(coelacanth.featured, true);
+  assert.equal(coelacanth.publishedAt, '2026-08-25');
+  assert.equal(coelacanth.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 36);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 31);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Acipenseriformes')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Acipenseridae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Acipenser')?.speciesCount, 1);
+  for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
+    assert.equal(
+      node.speciesCount,
+      countCatalogueDescendants(node),
+      `${node.rank} ${node.taxon.scientificName} should count its catalogue descendants`,
+    );
+  }
+
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Nymphalidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Danaus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Ocypodidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Tubuca')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'class', 'Scyphozoa')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Semaeostomeae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Ulmaridae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Aurelia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 3);
-  assert.equal(findTaxon(tree, 'order', 'Caudata')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'family', 'Cryptobranchidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Andrias')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 19);
-  assert.equal(findTaxon(tree, 'order', 'Chiroptera')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Rhinolophidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Rhinolophus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Lagomorpha')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Ochotonidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Ochotona')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Castoridae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Castor')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Pilosa')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Bradypodidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Bradypus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Perissodactyla')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Rhinocerotidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Ceratotherium')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Sirenia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Dugongidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Dugong')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Pholidota')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Manidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Manis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 3);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 4);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'family', 'Pythonidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Malayopython')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 6);
-  assert.equal(findTaxon(tree, 'family', 'Felidae')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'family', 'Ursidae')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Ursus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Hominidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Gorilla')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Monotremata')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Ornithorhynchidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Ornithorhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Diprotodontia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Macropodidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Osphranter')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Cetacea')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'family', 'Delphinidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Tursiops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Procellariiformes')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Diomedeidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Diomedea')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Apodiformes')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Trochilidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Archilochus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Testudines')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Cheloniidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Chelonia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Sarcopterygii')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Coelacanthiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Latimeriidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Latimeria')?.speciesCount, 1);
 });
 
 test('keeps every branch in canonical rank order with species at the leaf', () => {
