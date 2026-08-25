@@ -42,6 +42,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Tiger image set](./species/tiger/README.md)
 - [Sea otter image set](./species/sea-otter/README.md)
 - [Golden snub-nosed monkey image set](./species/golden-snub-nosed-monkey/README.md)
+- [Tibetan antelope image set](./species/tibetan-antelope/README.md)
 
 ## Image compression workflow
 

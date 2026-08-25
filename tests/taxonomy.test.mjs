@@ -1791,6 +1791,171 @@ test('registers the Golden Snub-nosed Monkey as a complete Rhinopithecus roxella
   assert.equal(goldenMonkey.updatedAt, '2026-08-25');
 });
 
+test('registers the Tibetan Antelope as a complete Pantholops hodgsonii profile', () => {
+  const tibetanAntelope = findSpecies('tibetan-antelope');
+
+  assert.equal(tibetanAntelope.id, 'species-pantholops-hodgsonii');
+  assert.equal(tibetanAntelope.slug, 'tibetan-antelope');
+  assert.equal(tibetanAntelope.names.zh, '藏羚');
+  assert.equal(tibetanAntelope.names.en, 'Tibetan Antelope');
+  assert.deepEqual(tibetanAntelope.names.aliases, ['藏羚羊', 'Chiru']);
+  assert.equal(tibetanAntelope.scientificName, 'Pantholops hodgsonii');
+  assert.equal(tibetanAntelope.scientificName.split(' ')[0], 'Pantholops');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(tibetanAntelope).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', tibetanAntelope.scientificName, tibetanAntelope.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Artiodactyla', '偶蹄目'],
+      ['family', 'Bovidae', '牛科'],
+      ['genus', 'Pantholops', '藏羚属'],
+      ['species', 'Pantholops hodgsonii', '藏羚'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: tibetanAntelope.conservation.code,
+      trend: tibetanAntelope.conservation.trend,
+      assessedYear: tibetanAntelope.conservation.assessedYear,
+      criteria: tibetanAntelope.conservation.criteria,
+    },
+    {
+      code: 'NT',
+      trend: 'increasing',
+      assessedYear: 2016,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(tibetanAntelope.distribution.realms, ['terrestrial']);
+  assert.deepEqual(tibetanAntelope.distribution.continents, ['亚洲']);
+  assert.deepEqual(tibetanAntelope.distribution.countries, ['中国', '印度']);
+  assert.deepEqual(tibetanAntelope.distribution.endemicTo, ['青藏高原']);
+  assert.equal(tibetanAntelope.distribution.regions.length, 5);
+  assert.deepEqual(tibetanAntelope.distribution.center, { lat: 34.5, lng: 89 });
+  assert.match(tibetanAntelope.distribution.range, /印度拉达克北部.*3,250 至 5,500 米/);
+  assert.doesNotMatch(tibetanAntelope.summary, /中国特有/);
+  assert.match(tibetanAntelope.summary, /近危状态仍依赖持续保护/);
+
+  assert.equal(tibetanAntelope.habitats.length, 3);
+  assert.equal(
+    tibetanAntelope.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.deepEqual(tibetanAntelope.measurements, {});
+  assert.deepEqual(tibetanAntelope.metrics, { elevationM: [3250, 5500] });
+  assert.ok(!('adultLengthCm' in tibetanAntelope.metrics));
+  assert.ok(!('adultMassKg' in tibetanAntelope.metrics));
+  assert.ok(!('lifespanYears' in tibetanAntelope.metrics));
+  assert.ok(!('topSpeedKph' in tibetanAntelope.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in tibetanAntelope.metrics));
+  assert.deepEqual(tibetanAntelope.diet.types, ['herbivore']);
+  assert.equal(tibetanAntelope.diet.foods.length, 5);
+
+  assert.equal(tibetanAntelope.storySections?.length, 6);
+  assert.equal(new Set(tibetanAntelope.storySections.map(({ key }) => key)).size, 6);
+  assert.equal(tibetanAntelope.keyFacts.length, 10);
+  assert.equal(tibetanAntelope.threats.length, 6);
+  assert.equal(tibetanAntelope.conservationActions.length, 7);
+  assert.equal(tibetanAntelope.featuredStats.length, 4);
+  assert.deepEqual(
+    tibetanAntelope.featuredStats.map(({ key }) => key),
+    [
+      'adult-weight-sex-means',
+      'adult-shoulder-height-sex-means',
+      'elevation',
+      'male-horn-length',
+    ],
+  );
+  assert.equal(
+    tibetanAntelope.featuredStats.find(({ key }) => key === 'adult-weight-sex-means')
+      ?.value,
+    '雌约 26 / 雄约 39',
+  );
+  assert.match(
+    tibetanAntelope.featuredStats.find(({ key }) => key === 'adult-weight-sex-means')
+      ?.note ?? '',
+    /小样本性别均值.*不是全物种范围/,
+  );
+
+  assert.equal(tibetanAntelope.media.gallery?.length, 5);
+  assert.equal(tibetanAntelope.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    tibetanAntelope.media.image,
+    ...tibetanAntelope.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/tibetan-antelope/01-high-plateau-male-portrait.webp',
+    './images/species/tibetan-antelope/02-male-horns-and-winter-coat.webp',
+    './images/species/tibetan-antelope/03-alpine-desert-steppe-habitat.webp',
+    './images/species/tibetan-antelope/04-female-alpine-sedge-foraging.webp',
+    './images/species/tibetan-antelope/05-female-and-calf-migration.webp',
+    './images/species/tibetan-antelope/06-noninvasive-plateau-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !tibetanAntelope.media.gallery.some(
+      ({ image }) => image === tibetanAntelope.media.image,
+    ),
+  );
+  const mediaRecords = [tibetanAntelope.media, ...tibetanAntelope.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok(
+    tibetanAntelope.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(tibetanAntelope.sources.length, 19);
+  assert.equal(
+    new Set(tibetanAntelope.sources.map(({ url }) => url)).size,
+    tibetanAntelope.sources.length,
+  );
+  assert.ok(tibetanAntelope.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(tibetanAntelope.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    tibetanAntelope.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'),
+  );
+  assert.deepEqual(
+    new Set(tibetanAntelope.sources.map(({ kind }) => kind)),
+    new Set(['conservation', 'taxonomy', 'general', 'ecology', 'distribution']),
+  );
+
+  assert.match(tibetanAntelope.description, /部分雌性种群.*另有种群全年定居/);
+  assert.match(tibetanAntelope.keyFacts.join(' '), /CITES.*附录 I.*CMS.*没有.*附录/);
+  assert.doesNotMatch(
+    [
+      tibetanAntelope.summary,
+      tibetanAntelope.description,
+      ...tibetanAntelope.storySections.map(({ body }) => body),
+    ].join(' '),
+    /所有藏羚.*迁徙|中国独有|中国特有种|CMS 附录 [IⅡ12]/,
+  );
+
+  assert.equal(tibetanAntelope.featured, true);
+  assert.equal(tibetanAntelope.publishedAt, '2026-08-25');
+  assert.equal(tibetanAntelope.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -1815,6 +1980,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cercopithecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Rhinopithecus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Bovidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Pantholops')?.speciesCount, 1);
 });
 
 test('keeps every branch in canonical rank order with species at the leaf', () => {
