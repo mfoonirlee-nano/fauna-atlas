@@ -2353,6 +2353,247 @@ test('registers the Short-beaked Echidna as a complete Tachyglossus aculeatus pr
   assert.equal(echidna.updatedAt, '2026-08-25');
 });
 
+test('registers the Yangtze finless porpoise as a complete Neophocaena asiaeorientalis profile', () => {
+  const porpoise = findSpecies('yangtze-finless-porpoise');
+
+  assert.equal(porpoise.id, 'species-neophocaena-asiaeorientalis');
+  assert.equal(porpoise.slug, 'yangtze-finless-porpoise');
+  assert.equal(porpoise.names.zh, '长江江豚');
+  assert.equal(porpoise.names.en, 'Yangtze Finless Porpoise');
+  assert.deepEqual(porpoise.names.aliases, [
+    '江豚',
+    '江猪',
+    '微笑天使',
+    'Yangtze River Finless Porpoise',
+  ]);
+  assert.equal(porpoise.scientificName, 'Neophocaena asiaeorientalis');
+  assert.equal(porpoise.scientificName.split(' ')[0], 'Neophocaena');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(porpoise).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', porpoise.scientificName, porpoise.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Cetacea', '鲸目'],
+      ['family', 'Phocoenidae', '鼠海豚科'],
+      ['genus', 'Neophocaena', '江豚属'],
+      ['species', 'Neophocaena asiaeorientalis', '长江江豚'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: porpoise.conservation.code,
+      trend: porpoise.conservation.trend,
+      assessedYear: porpoise.conservation.assessedYear,
+      criteria: porpoise.conservation.criteria,
+    },
+    {
+      code: 'CR',
+      trend: 'decreasing',
+      assessedYear: 2012,
+      criteria: 'A3b+4b',
+    },
+  );
+
+  assert.deepEqual(porpoise.distribution.realms, ['freshwater']);
+  assert.deepEqual(porpoise.distribution.continents, ['亚洲']);
+  assert.deepEqual(porpoise.distribution.regions, [
+    '长江中下游干流',
+    '鄱阳湖',
+    '洞庭湖',
+    '少数通江支流、汊江与江湖连接水道',
+  ]);
+  assert.deepEqual(porpoise.distribution.countries, ['中国']);
+  assert.deepEqual(porpoise.distribution.endemicTo, ['中国长江中下游水系']);
+  assert.match(porpoise.distribution.range, /中国特有/);
+  assert.match(porpoise.distribution.range, /Neophocaena sunameri/);
+
+  assert.deepEqual(
+    {
+      min: porpoise.measurements.length?.min,
+      max: porpoise.measurements.length?.max,
+      unit: porpoise.measurements.length?.unit,
+    },
+    { min: 131, max: 168, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: porpoise.measurements.weight?.min,
+      max: porpoise.measurements.weight?.max,
+      unit: porpoise.measurements.weight?.unit,
+    },
+    { min: 33, max: 83, unit: 'kg' },
+  );
+  assert.match(
+    porpoise.measurements.length?.note ?? '',
+    /审慎成体样本包络.*不是全种绝对极值/,
+  );
+  assert.match(
+    porpoise.measurements.weight?.note ?? '',
+    /成体实测值取整包络.*性别.*妊娠.*样地.*年份/,
+  );
+  assert.deepEqual(porpoise.metrics, {
+    adultLengthCm: [131, 168],
+    adultMassKg: [33, 83],
+  });
+  assert.ok(!('estimatedMatureIndividuals' in porpoise.metrics));
+  assert.equal(porpoise.habitats.length, 3);
+  assert.equal(porpoise.habitats.filter(({ isPrimary }) => isPrimary).length, 2);
+  assert.ok(porpoise.habitats.every(({ realm }) => realm === 'freshwater'));
+  assert.deepEqual(porpoise.diet.types, ['carnivore', 'piscivore']);
+  assert.equal(porpoise.diet.foods.length, 3);
+  assert.equal(porpoise.activity.length, 6);
+
+  assert.equal(porpoise.storySections?.length, 6);
+  assert.deepEqual(
+    porpoise.storySections.map(({ key }) => key),
+    [
+      'freshwater-species-boundary',
+      'finless-dorsal-ridge',
+      'sound-guided-fishing',
+      'water-level-corridors',
+      'year-long-pregnancy',
+      'recovery-with-caveats',
+    ],
+  );
+  assert.equal(new Set(porpoise.storySections.map(({ key }) => key)).size, 6);
+  assert.equal(porpoise.keyFacts.length, 11);
+  assert.equal(porpoise.threats.length, 7);
+  assert.equal(porpoise.conservationActions.length, 9);
+  assert.equal(porpoise.featuredStats.length, 4);
+  assert.deepEqual(
+    porpoise.featuredStats.map(({ key }) => key),
+    [
+      'wild-population-2025',
+      'increase-since-2022',
+      'dorsal-ridge-width',
+      'gestation',
+    ],
+  );
+  assert.equal(
+    porpoise.featuredStats.find(({ key }) => key === 'wild-population-2025')
+      ?.value,
+    '1,426',
+  );
+  assert.match(
+    porpoise.featuredStats.find(({ key }) => key === 'wild-population-2025')
+      ?.note ?? '',
+    /全龄估计.*不是成熟个体数.*未给置信区间/,
+  );
+
+  assert.equal(porpoise.media.gallery?.length, 5);
+  assert.equal(porpoise.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    porpoise.media.image,
+    ...porpoise.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/yangtze-finless-porpoise/01-yangtze-channel-portrait.webp',
+    './images/species/yangtze-finless-porpoise/02-rounded-head-and-dorsal-ridge.webp',
+    './images/species/yangtze-finless-porpoise/03-connected-river-lake-habitat.webp',
+    './images/species/yangtze-finless-porpoise/04-surface-breath.webp',
+    './images/species/yangtze-finless-porpoise/05-mother-and-calf-travel.webp',
+    './images/species/yangtze-finless-porpoise/06-passive-acoustic-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !porpoise.media.gallery.some(({ image }) => image === porpoise.media.image),
+  );
+  const mediaRecords = [porpoise.media, ...porpoise.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok(
+    porpoise.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(porpoise.sources.length, 33);
+  const sourceUrls = new Set(porpoise.sources.map(({ url }) => url));
+  assert.equal(sourceUrls.size, porpoise.sources.length);
+  assert.ok(
+    [
+      'https://cjyzbgs.moa.gov.cn/gzdt/202304/t20230426_6426280.htm',
+      'https://cjyzbgs.moa.gov.cn/ztzl/201904/t20190428_6220353.htm',
+      'https://pmc.ncbi.nlm.nih.gov/articles/PMC10559091/',
+      'https://www.mammal.cn/EN/Y1993/V13/I4/260',
+      'https://doi.org/10.3389/fendo.2019.00606',
+    ].every((url) => sourceUrls.has(url)),
+  );
+  assert.ok(porpoise.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(porpoise.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    porpoise.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'),
+  );
+  assert.deepEqual(
+    new Set(porpoise.sources.map(({ kind }) => kind)),
+    new Set(['conservation', 'taxonomy', 'general', 'ecology', 'distribution']),
+  );
+
+  const profileText = [
+    porpoise.summary,
+    porpoise.description,
+    porpoise.distribution.range,
+    ...porpoise.names.aliases,
+    ...porpoise.tags,
+    ...porpoise.storySections.flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...porpoise.keyFacts,
+    ...porpoise.threats,
+    ...porpoise.conservationActions,
+    ...porpoise.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(profileText, /MDD v2\.5.*N\. sunameri/);
+  assert.match(profileText, /SMM 2026.*两个亚种.*长江口.*取样不足/);
+  assert.match(
+    profileText,
+    /同域的旧亚种评估：CR、decreasing、2012、A3b\+4b；2017 广义种 EN 评估还包含海生单元/,
+  );
+  assert.match(
+    profileText,
+    /2025 年专项调查估算自然种群 1,426 头.*全龄(?:调查)?估计.*(?:不能|不是).*成熟个体数/,
+  );
+  assert.match(
+    profileText,
+    /国家一级重点保护野生动物.*CITES 附录 I.*CMS 附录 II.*旧广义种口径/,
+  );
+  assert.match(profileText, /(?:没有|无)背鳍.*瘤粒脊/);
+  assert.match(
+    profileText,
+    /嘴线自然上弯.*“微笑天使”.*(?:不能|不).*人类式情绪/,
+  );
+  assert.doesNotMatch(profileText, /CMS.*(?:证明|表示).*跨国迁徙/);
+  assert.doesNotMatch(profileText, /微笑(?:表示|说明).*(?:开心|亲人)/);
+
+  assert.equal(porpoise.featured, true);
+  assert.equal(porpoise.publishedAt, '2026-08-25');
+  assert.equal(porpoise.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -2389,6 +2630,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Ornithorhynchus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Tachyglossidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachyglossus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Cetacea')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'family', 'Balaenopteridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Delphinidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Phocoenidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Neophocaena')?.speciesCount, 1);
 });
 
 test('keeps every branch in canonical rank order with species at the leaf', () => {
