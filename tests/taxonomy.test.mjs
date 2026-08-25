@@ -2152,6 +2152,207 @@ test('registers the Asian Elephant as a complete Elephas maximus profile', () =>
   assert.equal(asianElephant.updatedAt, '2026-08-25');
 });
 
+test('registers the Short-beaked Echidna as a complete Tachyglossus aculeatus profile', () => {
+  const echidna = findSpecies('short-beaked-echidna');
+
+  assert.equal(echidna.id, 'species-tachyglossus-aculeatus');
+  assert.equal(echidna.slug, 'short-beaked-echidna');
+  assert.equal(echidna.names.zh, '针鼹');
+  assert.equal(echidna.names.en, 'Short-beaked Echidna');
+  assert.deepEqual(echidna.names.aliases, [
+    '澳洲针鼹',
+    '短吻针鼹',
+    'Australian Echidna',
+    'Short-nosed Echidna',
+    'Spiny Anteater',
+    'Bristly Echidna',
+  ]);
+  assert.equal(echidna.scientificName, 'Tachyglossus aculeatus');
+  assert.equal(echidna.scientificName.split(' ')[0], 'Tachyglossus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(echidna).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', echidna.scientificName, echidna.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Monotremata', '单孔目'],
+      ['family', 'Tachyglossidae', '针鼹科'],
+      ['genus', 'Tachyglossus', '针鼹属'],
+      ['species', 'Tachyglossus aculeatus', '针鼹'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: echidna.conservation.code,
+      trend: echidna.conservation.trend,
+      assessedYear: echidna.conservation.assessedYear,
+      criteria: echidna.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2015,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(echidna.distribution.realms, ['terrestrial']);
+  assert.deepEqual(echidna.distribution.continents, ['大洋洲']);
+  assert.deepEqual(echidna.distribution.countries, [
+    '澳大利亚',
+    '印度尼西亚',
+    '巴布亚新几内亚',
+  ]);
+  assert.ok(!echidna.distribution.endemicTo?.includes('澳大利亚'));
+  assert.deepEqual(
+    {
+      min: echidna.measurements.length?.min,
+      max: echidna.measurements.length?.max,
+      unit: echidna.measurements.length?.unit,
+    },
+    { min: 30, max: 45, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: echidna.measurements.weight?.min,
+      max: echidna.measurements.weight?.max,
+      unit: echidna.measurements.weight?.unit,
+    },
+    { min: 2, max: 7, unit: 'kg' },
+  );
+  assert.match(echidna.measurements.length?.note ?? '', /成体.*头体长/);
+  assert.match(echidna.measurements.weight?.note ?? '', /成体/);
+  assert.deepEqual(echidna.metrics, {
+    adultLengthCm: [30, 45],
+    adultMassKg: [2, 7],
+    elevationM: [0, 1800],
+  });
+  assert.equal(echidna.habitats.length, 3);
+  assert.equal(echidna.habitats.filter(({ isPrimary }) => isPrimary).length, 2);
+  assert.deepEqual(echidna.diet.types, ['insectivore']);
+  assert.equal(echidna.diet.foods.length, 5);
+  assert.equal(echidna.activity.length, 5);
+
+  assert.equal(echidna.storySections?.length, 6);
+  assert.equal(new Set(echidna.storySections.map(({ key }) => key)).size, 6);
+  assert.equal(echidna.keyFacts.length, 11);
+  assert.equal(echidna.threats.length, 7);
+  assert.equal(echidna.conservationActions.length, 7);
+  assert.equal(echidna.featuredStats.length, 4);
+  assert.deepEqual(
+    echidna.featuredStats.map(({ key }) => key),
+    [
+      'active-body-temperature',
+      'pouch-incubation',
+      'potential-soil-turnover',
+      'wild-longevity-record',
+    ],
+  );
+  assert.equal(echidna.media.gallery?.length, 5);
+  assert.equal(echidna.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    echidna.media.image,
+    ...echidna.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/short-beaked-echidna/01-eucalyptus-woodland-portrait.webp',
+    './images/species/short-beaked-echidna/02-termite-gallery-foraging.webp',
+    './images/species/short-beaked-echidna/03-forest-heath-habitat.webp',
+    './images/species/short-beaked-echidna/04-defensive-digging.webp',
+    './images/species/short-beaked-echidna/05-courtship-train.webp',
+    './images/species/short-beaked-echidna/06-nursery-burrow-backfill.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(!echidna.media.gallery.some(({ image }) => image === echidna.media.image));
+  const mediaRecords = [echidna.media, ...echidna.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok(
+    echidna.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(echidna.sources.length, 25);
+  assert.equal(
+    new Set(echidna.sources.map(({ url }) => url)).size,
+    echidna.sources.length,
+  );
+  assert.ok(echidna.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(echidna.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    echidna.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'),
+  );
+  assert.deepEqual(
+    new Set(echidna.sources.map(({ kind }) => kind)),
+    new Set(['conservation', 'taxonomy', 'general', 'ecology', 'distribution']),
+  );
+
+  const profileText = [
+    echidna.summary,
+    echidna.description,
+    echidna.distribution.range,
+    ...echidna.names.aliases,
+    ...echidna.storySections.flatMap(({ label, title, body }) => [label, title, body]),
+    ...echidna.keyFacts,
+    ...echidna.threats,
+    ...echidna.conservationActions,
+    ...echidna.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(profileText, /印度尼西亚.*巴布亚新几内亚/);
+  assert.match(profileText, /袋鼠岛亚种.*(?:EN|濒危)/);
+  assert.match(profileText, /全种.*(?:LC|无危)/);
+  assert.match(
+    profileText,
+    /CITES.*(?:附录 II.*Zaglossus|Zaglossus.*附录 II)|Zaglossus.*CITES.*附录 II/iu,
+  );
+  assert.match(
+    profileText,
+    /CITES.*(?:未列|不在).*(?:短吻针鼹|Tachyglossus)|(?:短吻针鼹|Tachyglossus).*(?:未列|不在).*CITES/iu,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /Tachyglossus aculeatus.{0,16}(?<!未)被列入 CITES 附录 II/iu,
+  );
+  assert.match(profileText, /(?:不能|不会).*射.*棘|棘.*(?:不能|不会).*射/);
+  assert.match(profileText, /单孔类|单孔目/);
+  assert.match(profileText, /(?:不是|并非|而非|不属于)有袋类/);
+  assert.doesNotMatch(profileText, /(?<!不)(?:归入|属于)有袋类|有袋目/);
+  assert.match(
+    profileText,
+    /Spiny Anteater.*(?:俗名|旧称|历史)|食蚁兽.*(?:趋同|并非近亲|没有近缘)/iu,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?<!不)属于食蚁兽|(?<!不)(?<!非)与食蚁兽近缘|(?<!不)是食蚁兽近亲|食蚁兽科/,
+  );
+
+  assert.equal(echidna.featured, true);
+  assert.equal(echidna.publishedAt, '2026-08-25');
+  assert.equal(echidna.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -2183,6 +2384,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'family', 'Elephantidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Loxodonta')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Elephas')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Monotremata')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Ornithorhynchidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Ornithorhynchus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Tachyglossidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Tachyglossus')?.speciesCount, 1);
 });
 
 test('keeps every branch in canonical rank order with species at the leaf', () => {
