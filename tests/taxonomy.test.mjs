@@ -1956,6 +1956,202 @@ test('registers the Tibetan Antelope as a complete Pantholops hodgsonii profile'
   assert.equal(tibetanAntelope.updatedAt, '2026-08-25');
 });
 
+test('registers the Asian Elephant as a complete Elephas maximus profile', () => {
+  const asianElephant = findSpecies('asian-elephant');
+
+  assert.equal(asianElephant.id, 'species-elephas-maximus');
+  assert.equal(asianElephant.slug, 'asian-elephant');
+  assert.equal(asianElephant.names.zh, '亚洲象');
+  assert.equal(asianElephant.names.en, 'Asian Elephant');
+  assert.deepEqual(asianElephant.names.aliases, ['Asiatic Elephant']);
+  assert.equal(asianElephant.scientificName, 'Elephas maximus');
+  assert.equal(asianElephant.scientificName.split(' ')[0], 'Elephas');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(asianElephant).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', asianElephant.scientificName, asianElephant.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Proboscidea', '长鼻目'],
+      ['family', 'Elephantidae', '象科'],
+      ['genus', 'Elephas', '亚洲象属'],
+      ['species', 'Elephas maximus', '亚洲象'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: asianElephant.conservation.code,
+      trend: asianElephant.conservation.trend,
+      assessedYear: asianElephant.conservation.assessedYear,
+      criteria: asianElephant.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'decreasing',
+      assessedYear: 2019,
+      criteria: 'A2c',
+    },
+  );
+
+  assert.deepEqual(asianElephant.distribution.realms, ['terrestrial']);
+  assert.deepEqual(asianElephant.distribution.continents, ['亚洲']);
+  assert.equal(asianElephant.distribution.regions.length, 8);
+  assert.ok(asianElephant.distribution.regions.includes('印度中部、西北部与南部'));
+  assert.deepEqual(asianElephant.distribution.countries, [
+    '孟加拉国',
+    '不丹',
+    '柬埔寨',
+    '中国',
+    '印度',
+    '印度尼西亚',
+    '老挝',
+    '马来西亚',
+    '缅甸',
+    '尼泊尔',
+    '斯里兰卡',
+    '泰国',
+    '越南',
+  ]);
+  assert.deepEqual(asianElephant.distribution.center, { lat: 18, lng: 96 });
+  assert.match(asianElephant.distribution.range, /13 个范围国.*海平面至 3,000 米/);
+
+  assert.equal(asianElephant.habitats.length, 3);
+  assert.equal(
+    asianElephant.habitats.filter(({ isPrimary }) => isPrimary).length,
+    2,
+  );
+  assert.deepEqual(asianElephant.measurements, {
+    height: {
+      min: 2.28,
+      max: 2.89,
+      unit: 'm',
+      note: '良好发育、完全长成个体的约 90% 范围；雌性 2.28–2.52 米，雄性 2.61–2.89 米',
+    },
+    weight: {
+      min: 2.3,
+      max: 4.6,
+      unit: 't',
+      note: '良好发育、完全长成个体的约 90% 范围；雌性 2.3–3.1 吨，雄性 3.5–4.6 吨',
+    },
+  });
+  assert.deepEqual(asianElephant.metrics, {
+    topSpeedKph: 25,
+    elevationM: [0, 3000],
+  });
+  assert.ok(!('adultLengthCm' in asianElephant.metrics));
+  assert.ok(!('adultMassKg' in asianElephant.metrics));
+  assert.ok(!('lifespanYears' in asianElephant.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in asianElephant.metrics));
+  assert.deepEqual(asianElephant.diet.types, ['herbivore']);
+  assert.equal(asianElephant.diet.foods.length, 6);
+  assert.equal(asianElephant.activity.length, 4);
+
+  assert.equal(asianElephant.storySections?.length, 6);
+  assert.equal(new Set(asianElephant.storySections.map(({ key }) => key)).size, 6);
+  assert.equal(asianElephant.keyFacts.length, 10);
+  assert.equal(asianElephant.threats.length, 6);
+  assert.equal(asianElephant.conservationActions.length, 7);
+  assert.equal(asianElephant.featuredStats.length, 4);
+  assert.deepEqual(
+    asianElephant.featuredStats.map(({ key }) => key),
+    [
+      'adult-size-sex-means',
+      'three-generation-decline',
+      'wild-population-2018',
+      'gestation',
+    ],
+  );
+  assert.equal(
+    asianElephant.featuredStats.find(({ key }) => key === 'wild-population-2018')
+      ?.value,
+    '48,323–51,680',
+  );
+  assert.match(
+    asianElephant.featuredStats.find(({ key }) => key === 'wild-population-2018')
+      ?.note ?? '',
+    /不是成熟个体数.*可靠性存疑/,
+  );
+
+  assert.equal(asianElephant.media.gallery?.length, 5);
+  assert.equal(asianElephant.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    asianElephant.media.image,
+    ...asianElephant.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/asian-elephant/01-rainforest-female-portrait.webp',
+    './images/species/asian-elephant/02-tusked-bull-morphology.webp',
+    './images/species/asian-elephant/03-forest-river-mosaic.webp',
+    './images/species/asian-elephant/04-wild-grass-foraging.webp',
+    './images/species/asian-elephant/05-matrilineal-calf-care.webp',
+    './images/species/asian-elephant/06-aerial-corridor-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !asianElephant.media.gallery.some(({ image }) => image === asianElephant.media.image),
+  );
+  const mediaRecords = [asianElephant.media, ...asianElephant.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok(
+    asianElephant.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(asianElephant.sources.length, 27);
+  assert.equal(
+    new Set(asianElephant.sources.map(({ url }) => url)).size,
+    asianElephant.sources.length,
+  );
+  assert.ok(asianElephant.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(asianElephant.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    asianElephant.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'),
+  );
+  assert.deepEqual(
+    new Set(asianElephant.sources.map(({ kind }) => kind)),
+    new Set(['conservation', 'taxonomy', 'general', 'ecology', 'distribution']),
+  );
+
+  const storyText = [
+    asianElephant.summary,
+    asianElephant.description,
+    ...asianElephant.storySections.map(({ body }) => body),
+    ...asianElephant.keyFacts,
+  ].join(' ');
+  assert.match(storyText, /20 个月纵向观察/);
+  assert.match(storyText, /约 500 千米.*1,300 多千米/);
+  assert.match(storyText, /15 头与 17 头.*不同阶段和队伍分合/);
+  assert.match(storyText, /现有研究尚不能锁定单一原因/);
+  assert.match(storyText, /CITES.*全种.*CMS.*大陆亚种.*不是 IUCN 受威胁等级/);
+  assert.doesNotMatch(
+    storyText,
+    /象群迷路|寻找新家园|每年固定迁徙|所有亚洲象.*迁徙|CMS 将亚洲象全种列入附录 I/,
+  );
+
+  assert.equal(asianElephant.featured, true);
+  assert.equal(asianElephant.publishedAt, '2026-08-25');
+  assert.equal(asianElephant.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -1983,6 +2179,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bovidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Pantholops')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Proboscidea')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Elephantidae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'genus', 'Loxodonta')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Elephas')?.speciesCount, 1);
 });
 
 test('keeps every branch in canonical rank order with species at the leaf', () => {
