@@ -1546,6 +1546,113 @@ test('registers the Tiger as a complete Panthera tigris profile', () => {
   assert.equal(tiger.updatedAt, '2026-08-25');
 });
 
+test('registers the Sea Otter as a complete Enhydra lutris profile', () => {
+  const seaOtter = findSpecies('sea-otter');
+  const eurasianOtter = findSpecies('eurasian-otter');
+
+  assert.equal(seaOtter.id, 'species-enhydra-lutris');
+  assert.equal(seaOtter.slug, 'sea-otter');
+  assert.equal(seaOtter.names.zh, '海獭');
+  assert.equal(seaOtter.names.en, 'Sea Otter');
+  assert.deepEqual(seaOtter.names.aliases, ['海虎']);
+  assert.equal(seaOtter.scientificName, 'Enhydra lutris');
+  assert.equal(seaOtter.scientificName.split(' ')[0], 'Enhydra');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(seaOtter).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+      ]),
+      ['species', seaOtter.scientificName],
+    ],
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Carnivora'],
+      ['family', 'Mustelidae'],
+      ['genus', 'Enhydra'],
+      ['species', 'Enhydra lutris'],
+    ],
+  );
+  assert.notEqual(
+    seaOtter.taxonomy.genus.scientificName,
+    eurasianOtter.taxonomy.genus.scientificName,
+  );
+  assert.equal(eurasianOtter.taxonomy.genus.scientificName, 'Lutra');
+  assert.deepEqual(
+    {
+      code: seaOtter.conservation.code,
+      trend: seaOtter.conservation.trend,
+      assessedYear: seaOtter.conservation.assessedYear,
+      criteria: seaOtter.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'decreasing',
+      assessedYear: 2020,
+      criteria: 'A2abe',
+    },
+  );
+  assert.deepEqual(seaOtter.distribution.realms, ['marine']);
+  assert.deepEqual(seaOtter.distribution.countries, [
+    '加拿大',
+    '日本',
+    '墨西哥',
+    '俄罗斯',
+    '美国',
+  ]);
+  assert.equal(seaOtter.measurements.length?.max, 148);
+  assert.equal(seaOtter.measurements.length?.unit, 'cm');
+  assert.equal(seaOtter.measurements.weight?.max, 46);
+  assert.equal(seaOtter.measurements.weight?.unit, 'kg');
+  assert.deepEqual(seaOtter.metrics, {
+    lifespanYears: [10, 20],
+    maxDiveDepthM: 100,
+  });
+  assert.equal(seaOtter.storySections?.length, 6);
+  assert.equal(seaOtter.featuredStats.length, 4);
+  assert.equal(seaOtter.media.gallery?.length, 5);
+  assert.equal(seaOtter.media.credit, 'Fauna Atlas · AI 生成原创图像');
+
+  const mediaPaths = [
+    seaOtter.media.image,
+    ...seaOtter.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/sea-otter/01-kelp-surface-portrait.webp',
+    './images/species/sea-otter/02-surface-fur-grooming.webp',
+    './images/species/sea-otter/03-rocky-kelp-forest-habitat.webp',
+    './images/species/sea-otter/04-stone-anvil-mussel-foraging.webp',
+    './images/species/sea-otter/05-mother-carrying-pup.webp',
+    './images/species/sea-otter/06-shore-based-visual-survey.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(!seaOtter.media.gallery.some(({ image }) => image === seaOtter.media.image));
+
+  assert.equal(seaOtter.sources.length, 16);
+  assert.equal(
+    new Set(seaOtter.sources.map(({ url }) => url)).size,
+    seaOtter.sources.length,
+  );
+  assert.ok(seaOtter.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    seaOtter.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'),
+  );
+
+  const citesFact = seaOtter.keyFacts.find((fact) => /CITES/iu.test(fact));
+  assert.ok(citesFact, 'Sea Otter key facts should preserve the split CITES listing');
+  assert.match(
+    citesFact,
+    /E\. l\. nereis.*附录\s*I.*其余海獭.*附录\s*II/iu,
+  );
+
+  assert.equal(seaOtter.featured, true);
+  assert.equal(seaOtter.publishedAt, '2026-08-25');
+  assert.equal(seaOtter.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -1564,6 +1671,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Latimeria')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Tigris'), undefined);
+  assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Enhydra')?.speciesCount, 1);
 });
 
 test('keeps every branch in canonical rank order with species at the leaf', () => {
