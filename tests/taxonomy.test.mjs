@@ -51,17 +51,17 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
-test('builds the current catalogue into 108 taxon nodes and 35 unique species leaves', () => {
+test('builds the current catalogue into 112 taxon nodes and 36 unique species leaves', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
   const taxonNodes = nodes.filter((node) => node.kind === 'taxon');
   const speciesNodes = nodes.filter((node) => node.kind === 'species');
 
-  assert.equal(species.length, 35, 'fixture should continue to represent the current catalogue');
-  assert.equal(taxonNodes.length, 108);
-  assert.equal(speciesNodes.length, 35);
-  assert.equal(nodes.length, 143);
-  assert.equal(new Set(nodes.map((node) => node.key)).size, 143, 'every node key is unique');
+  assert.equal(species.length, 36, 'fixture should continue to represent the current catalogue');
+  assert.equal(taxonNodes.length, 112);
+  assert.equal(speciesNodes.length, 36);
+  assert.equal(nodes.length, 148);
+  assert.equal(new Set(nodes.map((node) => node.key)).size, 148, 'every node key is unique');
 
   const leafIds = speciesNodes.map((node) => node.species.id).sort();
   const catalogueIds = species.map((profile) => profile.id).sort();
@@ -1200,11 +1200,110 @@ test('registers the Chinese Rufous Horseshoe Bat as a complete Rhinolophus sinic
   assert.equal(bat.updatedAt, '2026-08-24');
 });
 
+test('registers the Chinese Sturgeon as a complete Acipenser sinensis profile', () => {
+  const chineseSturgeon = findSpecies('chinese-sturgeon');
+
+  assert.equal(chineseSturgeon.id, 'species-acipenser-sinensis');
+  assert.equal(chineseSturgeon.slug, 'chinese-sturgeon');
+  assert.equal(chineseSturgeon.names.zh, '中华鲟');
+  assert.equal(chineseSturgeon.names.en, 'Chinese Sturgeon');
+  assert.deepEqual(chineseSturgeon.names.aliases, [
+    'Sagami Sturgeon（历史英文名）',
+    'Acipenser kikuchii（同物异名）',
+    'Sinosturio sinensis（2025 年提出的新组合）',
+  ]);
+  assert.equal(chineseSturgeon.scientificName, 'Acipenser sinensis');
+  assert.equal(chineseSturgeon.scientificName.split(' ')[0], 'Acipenser');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(chineseSturgeon).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Actinopterygii'],
+      ['order', 'Acipenseriformes'],
+      ['family', 'Acipenseridae'],
+      ['genus', 'Acipenser'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: chineseSturgeon.conservation.code,
+      trend: chineseSturgeon.conservation.trend,
+      assessedYear: chineseSturgeon.conservation.assessedYear,
+      criteria: chineseSturgeon.conservation.criteria,
+    },
+    {
+      code: 'CR',
+      trend: 'decreasing',
+      assessedYear: 2019,
+      criteria: 'A2bc',
+    },
+  );
+  assert.deepEqual(chineseSturgeon.distribution.realms, ['freshwater', 'marine']);
+  assert.deepEqual(chineseSturgeon.distribution.countries, ['中国']);
+  assert.match(chineseSturgeon.distribution.range, /当前自然生活史核心.*历史或状态未明/);
+  assert.deepEqual(chineseSturgeon.measurements, {
+    length: {
+      min: 189,
+      max: 383,
+      unit: 'cm',
+      note: '1981—1996 年长江湖北段繁殖群体 n=415 的全长范围；平均 275.9 cm，不是物种极值',
+    },
+    weight: {
+      min: 42.5,
+      max: 420,
+      unit: 'kg',
+      note: '同一繁殖群体 n=415 的体重范围；平均 144.0 kg，不代表所有年龄阶段',
+    },
+  });
+  assert.deepEqual(chineseSturgeon.metrics, {
+    adultLengthCm: [189, 383],
+    adultMassKg: [42.5, 420],
+  });
+  assert.equal(chineseSturgeon.storySections?.length, 6);
+  assert.equal(chineseSturgeon.featuredStats.length, 4);
+  assert.equal(chineseSturgeon.media.gallery?.length, 5);
+  assert.equal(chineseSturgeon.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  assert.deepEqual(
+    [
+      chineseSturgeon.media.image,
+      ...chineseSturgeon.media.gallery.map(({ image }) => image),
+    ],
+    [
+      './images/species/chinese-sturgeon/01-yangtze-migration-portrait.webp',
+      './images/species/chinese-sturgeon/02-scuted-body-and-barbels.webp',
+      './images/species/chinese-sturgeon/03-deep-river-spawning-habitat.webp',
+      './images/species/chinese-sturgeon/04-estuary-juvenile-foraging.webp',
+      './images/species/chinese-sturgeon/05-gravel-bed-spawning-run.webp',
+      './images/species/chinese-sturgeon/06-edna-water-monitoring.webp',
+    ],
+  );
+  assert.equal(chineseSturgeon.sources.length, 23);
+  assert.equal(
+    new Set(chineseSturgeon.sources.map(({ url }) => url)).size,
+    chineseSturgeon.sources.length,
+  );
+  assert.ok(
+    chineseSturgeon.sources.every(({ accessedAt }) => accessedAt === '2026-08-24'),
+  );
+  assert.equal(chineseSturgeon.featured, true);
+  assert.equal(chineseSturgeon.publishedAt, '2026-08-24');
+  assert.equal(chineseSturgeon.updatedAt, '2026-08-24');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 35);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 30);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 36);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 31);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Acipenseriformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Acipenseridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Acipenser')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 1);
