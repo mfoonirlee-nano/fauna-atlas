@@ -1653,6 +1653,144 @@ test('registers the Sea Otter as a complete Enhydra lutris profile', () => {
   assert.equal(seaOtter.updatedAt, '2026-08-25');
 });
 
+test('registers the Golden Snub-nosed Monkey as a complete Rhinopithecus roxellana profile', () => {
+  const goldenMonkey = findSpecies('golden-snub-nosed-monkey');
+
+  assert.equal(goldenMonkey.id, 'species-rhinopithecus-roxellana');
+  assert.equal(goldenMonkey.slug, 'golden-snub-nosed-monkey');
+  assert.equal(goldenMonkey.names.zh, '川金丝猴');
+  assert.equal(goldenMonkey.names.en, 'Golden Snub-nosed Monkey');
+  assert.deepEqual(goldenMonkey.names.aliases, [
+    '四川金丝猴',
+    'Sichuan Snub-nosed Monkey',
+  ]);
+  assert.equal(goldenMonkey.scientificName, 'Rhinopithecus roxellana');
+  assert.equal(goldenMonkey.scientificName.split(' ')[0], 'Rhinopithecus');
+  assert.equal(goldenMonkey.taxonomy.genus.zhName, '仰鼻猴属');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(goldenMonkey).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+      ]),
+      ['species', goldenMonkey.scientificName],
+    ],
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Primates'],
+      ['family', 'Cercopithecidae'],
+      ['genus', 'Rhinopithecus'],
+      ['species', 'Rhinopithecus roxellana'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: goldenMonkey.conservation.code,
+      trend: goldenMonkey.conservation.trend,
+      assessedYear: goldenMonkey.conservation.assessedYear,
+      criteria: goldenMonkey.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'decreasing',
+      assessedYear: 2015,
+      criteria: 'A2cd+4cd',
+    },
+  );
+  assert.deepEqual(goldenMonkey.distribution.realms, ['terrestrial']);
+  assert.deepEqual(goldenMonkey.distribution.countries, ['中国']);
+  assert.deepEqual(goldenMonkey.distribution.endemicTo, ['中国']);
+  assert.equal(goldenMonkey.distribution.regions.length, 3);
+  assert.match(goldenMonkey.distribution.range, /三个彼此隔离.*1,000 至 4,100 米/);
+  assert.deepEqual(goldenMonkey.measurements, {
+    length: {
+      min: 47,
+      max: 83,
+      unit: 'cm',
+      note: '成年头体长；雌性 47–74 厘米、雄性 56–83 厘米，尾另长 51–104 厘米',
+    },
+    weight: {
+      min: 6,
+      max: 19,
+      unit: 'kg',
+      note: '成年雌性 6–10 千克、雄性 15–19 千克，性别二型明显',
+    },
+  });
+  assert.deepEqual(goldenMonkey.metrics, {
+    adultLengthCm: [47, 83],
+    adultMassKg: [6, 19],
+    elevationM: [1000, 4100],
+  });
+  assert.ok(!('lifespanYears' in goldenMonkey.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in goldenMonkey.metrics));
+  assert.deepEqual(goldenMonkey.diet.types, ['herbivore']);
+  assert.equal(goldenMonkey.storySections?.length, 6);
+  assert.equal(goldenMonkey.keyFacts.length, 8);
+  assert.equal(goldenMonkey.threats.length, 5);
+  assert.equal(goldenMonkey.conservationActions.length, 5);
+  assert.equal(goldenMonkey.featuredStats.length, 4);
+  assert.equal(goldenMonkey.media.gallery?.length, 5);
+  assert.equal(goldenMonkey.media.credit, 'Fauna Atlas · AI 生成原创图像');
+
+  const mediaPaths = [
+    goldenMonkey.media.image,
+    ...goldenMonkey.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/golden-snub-nosed-monkey/01-snowy-forest-portrait.webp',
+    './images/species/golden-snub-nosed-monkey/02-adult-male-morphology.webp',
+    './images/species/golden-snub-nosed-monkey/03-montane-forest-habitat.webp',
+    './images/species/golden-snub-nosed-monkey/04-winter-lichen-foraging.webp',
+    './images/species/golden-snub-nosed-monkey/05-one-male-unit.webp',
+    './images/species/golden-snub-nosed-monkey/06-noninvasive-visual-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !goldenMonkey.media.gallery.some(({ image }) => image === goldenMonkey.media.image),
+  );
+
+  assert.equal(goldenMonkey.sources.length, 21);
+  assert.equal(
+    new Set(goldenMonkey.sources.map(({ url }) => url)).size,
+    goldenMonkey.sources.length,
+  );
+  assert.ok(goldenMonkey.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(goldenMonkey.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    goldenMonkey.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'),
+  );
+
+  const populationStat = goldenMonkey.featuredStats.find(
+    ({ key }) => key === 'national-population-estimate',
+  );
+  assert.equal(populationStat?.value, '22,710–26,130');
+  assert.match(
+    populationStat?.note ?? '',
+    /2019 年.*不是成熟个体数.*同步逐只普查/,
+  );
+  assert.match(goldenMonkey.description, /全国调查.*恢复.*IUCN.*濒危/);
+
+  const taxonomyAndStoryBoundary = [
+    ...goldenMonkey.names.aliases,
+    ...Object.values(goldenMonkey.taxonomy).flatMap((taxon) => [
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    ...goldenMonkey.storySections.map(({ key }) => key),
+  ].join(' ');
+  assert.doesNotMatch(
+    taxonomyAndStoryBoundary,
+    /qinlingensis|hubeiensis|roxellana roxellana/iu,
+  );
+
+  assert.equal(goldenMonkey.featured, true);
+  assert.equal(goldenMonkey.publishedAt, '2026-08-25');
+  assert.equal(goldenMonkey.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -1674,6 +1812,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Enhydra')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Cercopithecidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Rhinopithecus')?.speciesCount, 1);
 });
 
 test('keeps every branch in canonical rank order with species at the leaf', () => {
