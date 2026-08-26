@@ -4299,6 +4299,285 @@ test('registers the Green Peafowl as a complete Pavo muticus profile', async () 
   assert.equal(greenPeafowl.updatedAt, '2026-08-26');
 });
 
+test('registers the Arctic Tern as a complete Sterna paradisaea profile', async () => {
+  const arcticTern = findSpecies('arctic-tern');
+
+  assert.equal(arcticTern.id, 'species-sterna-paradisaea');
+  assert.equal(arcticTern.names.zh, '北极燕鸥');
+  assert.equal(arcticTern.names.en, 'Arctic Tern');
+  assert.deepEqual(arcticTern.names.aliases, ['北極燕鷗']);
+  assert.equal(arcticTern.scientificName, 'Sterna paradisaea');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(arcticTern).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', arcticTern.scientificName, arcticTern.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Charadriiformes', '鸻形目'],
+      ['family', 'Laridae', '鸥科'],
+      ['genus', 'Sterna', '燕鸥属'],
+      ['species', 'Sterna paradisaea', '北极燕鸥'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: arcticTern.conservation.code,
+      trend: arcticTern.conservation.trend,
+      assessedYear: arcticTern.conservation.assessedYear,
+      criteria: arcticTern.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'decreasing',
+      assessedYear: 2018,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('criteria' in arcticTern.conservation));
+
+  assert.deepEqual(arcticTern.distribution.realms, [
+    'marine',
+    'terrestrial',
+    'freshwater',
+  ]);
+  assert.ok(
+    ['亚洲', '欧洲', '北美洲', '南美洲', '非洲', '大洋洲', '南极洲'].every(
+      (continent) => arcticTern.distribution.continents.includes(continent),
+    ),
+  );
+  assert.ok(!('endemicTo' in arcticTern.distribution));
+  assert.ok(!('center' in arcticTern.distribution));
+  assert.match(
+    arcticTern.distribution.range,
+    /(?:环北极|北极周缘).*(?:亚北极|副北极).*繁殖|繁殖.*(?:环北极|北极周缘).*(?:亚北极|副北极)/,
+  );
+  assert.match(
+    arcticTern.distribution.range,
+    /非繁殖季.*南大洋.*(?:南极浮冰缘|南极海冰边缘)|南大洋.*(?:南极浮冰缘|南极海冰边缘).*非繁殖/,
+  );
+
+  assert.ok(arcticTern.habitats.length >= 3);
+  assert.equal(
+    arcticTern.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.deepEqual(
+    new Set(arcticTern.habitats.map(({ realm }) => realm)),
+    new Set(['marine', 'terrestrial', 'freshwater']),
+  );
+  assert.ok(
+    arcticTern.diet.types.some((type) =>
+      ['piscivore', 'carnivore'].includes(type),
+    ),
+  );
+  assert.ok(arcticTern.diet.foods.length > 0);
+  assert.ok((arcticTern.activity?.length ?? 0) > 0);
+  assert.ok(arcticTern.tags.length > 0);
+
+  assert.equal(arcticTern.storySections?.length, 6);
+  assert.equal(
+    new Set(arcticTern.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    arcticTern.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(arcticTern.keyFacts.length >= 6);
+  assert.ok(arcticTern.threats.length >= 5);
+  assert.ok(arcticTern.conservationActions.length >= 5);
+  assert.equal(arcticTern.featuredStats.length, 4);
+  assert.equal(
+    new Set(arcticTern.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  const migrationDistanceStat = arcticTern.featuredStats.find(
+    ({ value }) => value === '70,900',
+  );
+  assert.ok(migrationDistanceStat);
+  assert.equal(migrationDistanceStat.unit, '千米');
+  assert.match(
+    [migrationDistanceStat.label, migrationDistanceStat.note].join(' '),
+    /11\s*只.*59,500.*81,600.*(?:不代表|不能代表|不可外推|不能外推).*(?:全种|所有|每只|普遍|固定)/,
+  );
+
+  assert.equal(arcticTern.media.gallery?.length, 5);
+  assert.equal(arcticTern.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    arcticTern.media.image,
+    ...arcticTern.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/arctic-tern/01-arctic-coast-breeding-adult.webp',
+    './images/species/arctic-tern/02-flight-field-marks.webp',
+    './images/species/arctic-tern/03-antarctic-pack-ice-migration.webp',
+    './images/species/arctic-tern/04-shallow-plunge-foraging.webp',
+    './images/species/arctic-tern/05-ground-scrape-and-two-eggs.webp',
+    './images/species/arctic-tern/06-distance-colony-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !arcticTern.media.gallery.some(
+      ({ image }) => image === arcticTern.media.image,
+    ),
+  );
+  const mediaRecords = [arcticTern.media, ...arcticTern.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    arcticTern.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  const fieldMarksMedia = arcticTern.media.gallery.find(({ image }) =>
+    image.includes('02-flight-field-marks'),
+  );
+  assert.match(
+    [fieldMarksMedia?.alt, fieldMarksMedia?.caption].join(' '),
+    /红(?:色)?喙.*(?:短腿|腿短).*(?:长.*深(?:叉|分叉).*尾|尾.*长.*深(?:叉|分叉))/,
+  );
+  assert.match(
+    arcticTern.media.gallery.find(({ image }) =>
+      image.includes('04-shallow-plunge-foraging'),
+    )?.alt ?? '',
+    /(?:浅水|近水面|表层).*(?:扎水|俯冲|浅潜).*(?:鱼|捕食)/,
+  );
+  assert.match(
+    arcticTern.media.gallery.find(({ image }) =>
+      image.includes('05-ground-scrape-and-two-eggs'),
+    )?.alt ?? '',
+    /(?:地面浅窝|地面刮巢|浅刮巢).*(?:恰好)?两枚.*卵/,
+  );
+  assert.match(
+    arcticTern.media.gallery.find(({ image }) =>
+      image.includes('06-distance-colony-monitoring'),
+    )?.alt ?? '',
+    /(?:调查人员|研究人员|观察者).*(?:远距离|安全距离|三脚架望远镜)/,
+  );
+
+  assert.ok(arcticTern.sources.length >= 5);
+  assert.equal(
+    new Set(arcticTern.sources.map(({ url }) => url)).size,
+    arcticTern.sources.length,
+  );
+  assert.ok(arcticTern.sources.every(({ title }) => title.length > 0));
+  assert.ok(arcticTern.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(arcticTern.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    arcticTern.sources.every(({ accessedAt }) => accessedAt === '2026-08-26'),
+  );
+  assert.deepEqual(
+    new Set(arcticTern.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general', 'distribution']),
+  );
+  const sourceUrls = new Set(arcticTern.sources.map(({ url }) => url));
+  assert.ok(
+    [
+      'https://www.worldbirdnames.org/new/bow/gulls/',
+      'https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22694629A132065195.en',
+      'https://datazone.birdlife.org/species/factsheet/arctic-tern-sterna-paradisaea',
+      'https://doi.org/10.1073/pnas.0909493107',
+      'https://www.bto.org/learn/about-birds/birdfacts/arctic-tern',
+    ].every((url) => sourceUrls.has(url)),
+  );
+
+  const profileText = [
+    arcticTern.summary,
+    arcticTern.description,
+    arcticTern.distribution.range,
+    ...arcticTern.names.aliases,
+    ...arcticTern.habitats.map(({ description }) => description),
+    arcticTern.diet.description,
+    ...(arcticTern.activity ?? []),
+    ...arcticTern.tags,
+    ...arcticTern.storySections.flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...arcticTern.keyFacts,
+    ...arcticTern.threats,
+    ...arcticTern.conservationActions,
+    ...arcticTern.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(profileText, /(?:完整|完全)迁徙(?:型|物种)|full migrant/i);
+  assert.match(
+    profileText,
+    /11\s*只.*(?:追踪|跟踪).*(?:平均|均值).*70,900.*59,500.*81,600|(?:追踪|跟踪).*11\s*只.*(?:平均|均值).*70,900.*59,500.*81,600/,
+  );
+  assert.match(
+    profileText,
+    /(?:北返|北迁|向北).*40\s*天.*(?:南下|南迁|向南).*93\s*天/,
+  );
+  assert.match(
+    profileText,
+    /(?:单型种|单型物种|monotypic).*(?:没有|不承认|无).*亚种|(?:没有|不承认|无).*亚种.*(?:单型种|单型物种|monotypic)/i,
+  );
+  assert.match(profileText, /红(?:色)?喙/);
+  assert.match(profileText, /(?:短腿|腿(?:较)?短)/);
+  assert.match(
+    profileText,
+    /(?:长.*深(?:叉|分叉).*尾|尾.*长.*深(?:叉|分叉))/,
+  );
+  assert.match(
+    profileText,
+    /(?:每窝|窝卵数).*(?:1\s*(?:至|—|-|~)\s*2|一至两|一到两)枚.*(?:偶尔|偶见|有时).*(?:3|三)枚/,
+  );
+  assert.match(
+    profileText,
+    /孵化(?:期)?.*(?:21\s*(?:至|—|-|~)\s*22)天/,
+  );
+  assert.match(
+    profileText,
+    /(?:IUCN\s*\/\s*BirdLife|BirdLife\s*\/\s*IUCN).*2018.*(?:无危|LC).*(?:趋势下降|下降趋势)/,
+  );
+  assert.match(
+    profileText,
+    /(?:无危|LC).*(?:不等于|不代表|不意味着).*(?:稳定|没有风险|各地安全|局地)/,
+  );
+  assert.match(
+    profileText,
+    /(?:局地|部分繁殖地|繁殖群落).*(?:繁殖失败|连续失败|下降|消失)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:所有|每只|每一只)北极燕鸥.*(?:70,900|7\.09\s*万)/,
+  );
+
+  assert.equal(arcticTern.featured, true);
+  assert.equal(arcticTern.publishedAt, '2026-08-26');
+  assert.equal(arcticTern.updatedAt, '2026-08-26');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -4311,7 +4590,10 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'order', 'Charadriiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Laridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Sterna')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Galliformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Phasianidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Pavo')?.speciesCount, 1);
