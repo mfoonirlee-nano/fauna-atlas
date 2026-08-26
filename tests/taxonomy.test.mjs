@@ -3430,6 +3430,344 @@ test('registers the Golden Eagle as a complete Aquila chrysaetos profile', () =>
   assert.equal(goldenEagle.updatedAt, '2026-08-26');
 });
 
+test('registers the Peregrine Falcon as a complete Falco peregrinus profile', () => {
+  const peregrine = findSpecies('peregrine-falcon');
+
+  assert.equal(peregrine.id, 'species-falco-peregrinus');
+  assert.equal(peregrine.names.zh, '游隼');
+  assert.equal(peregrine.names.en, 'Peregrine Falcon');
+  assert.deepEqual(peregrine.names.aliases, [
+    '花梨鹰',
+    'Peregrine',
+    'Duck Hawk',
+  ]);
+  assert.equal(peregrine.scientificName, 'Falco peregrinus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(peregrine).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', peregrine.scientificName, peregrine.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Falconiformes', '隼形目'],
+      ['family', 'Falconidae', '隼科'],
+      ['genus', 'Falco', '隼属'],
+      ['species', 'Falco peregrinus', '游隼'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: peregrine.conservation.code,
+      trend: peregrine.conservation.trend,
+      assessedYear: peregrine.conservation.assessedYear,
+      criteria: peregrine.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'increasing',
+      assessedYear: 2021,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('criteria' in peregrine.conservation));
+
+  assert.deepEqual(peregrine.distribution.realms, ['terrestrial']);
+  assert.deepEqual(peregrine.distribution.continents, [
+    '亚洲',
+    '欧洲',
+    '非洲',
+    '北美洲',
+    '南美洲',
+    '大洋洲',
+  ]);
+  assert.equal(peregrine.distribution.regions.length, 6);
+  assert.equal(peregrine.distribution.countries.length, 36);
+  assert.ok(
+    [
+      '加拿大',
+      '美国',
+      '巴西',
+      '阿根廷',
+      '英国',
+      '俄罗斯',
+      '摩洛哥',
+      '南非',
+      '马达加斯加',
+      '中国',
+      '日本',
+      '印度',
+      '菲律宾',
+      '澳大利亚',
+      '斐济',
+    ].every((country) => peregrine.distribution.countries.includes(country)),
+  );
+  assert.ok(!('center' in peregrine.distribution));
+  assert.match(
+    peregrine.distribution.range,
+    /除南极洲外六大洲.*国家列表只列代表性常规范围.*不含完整通道、偶见和迷鸟记录/,
+  );
+  assert.match(
+    peregrine.distribution.range,
+    /高纬种群可作洲际迁徙.*低纬度和南半球种群多留居或局地移动/,
+  );
+
+  assert.deepEqual(
+    {
+      min: peregrine.measurements.length?.min,
+      max: peregrine.measurements.length?.max,
+      unit: peregrine.measurements.length?.unit,
+    },
+    { min: 36, max: 49, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: peregrine.measurements.weight?.min,
+      max: peregrine.measurements.weight?.max,
+      unit: peregrine.measurements.weight?.unit,
+    },
+    { min: 0.53, max: 1.6, unit: 'kg' },
+  );
+  assert.deepEqual(
+    {
+      min: peregrine.measurements.wingspan?.min,
+      max: peregrine.measurements.wingspan?.max,
+      unit: peregrine.measurements.wingspan?.unit,
+    },
+    { min: 100, max: 110, unit: 'cm' },
+  );
+  assert.match(
+    peregrine.measurements.length?.note ?? '',
+    /Cornell 北美.*不代表 18 亚种全球极值/,
+  );
+  assert.match(
+    peregrine.measurements.weight?.note ?? '',
+    /Cornell 北美.*雌鸟通常较大/,
+  );
+  assert.match(peregrine.measurements.wingspan?.note ?? '', /Cornell 北美/);
+  assert.deepEqual(peregrine.metrics, {
+    adultLengthCm: [36, 49],
+    adultMassKg: [0.53, 1.6],
+    wingspanCm: [100, 110],
+    topSpeedKph: 320,
+    estimatedMatureIndividuals: [248000, 478000],
+  });
+  assert.ok(!('elevationM' in peregrine.metrics));
+
+  assert.equal(peregrine.habitats.length, 5);
+  assert.equal(
+    peregrine.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(peregrine.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.deepEqual(peregrine.diet.types, ['carnivore']);
+  assert.equal(peregrine.diet.foods.length, 6);
+  assert.equal(peregrine.activity.length, 6);
+  assert.equal(peregrine.tags.length, 10);
+  assert.ok(peregrine.tags.includes('CITES 附录 I'));
+  assert.ok(peregrine.tags.includes('CMS 附录 II'));
+
+  assert.equal(peregrine.storySections?.length, 6);
+  assert.deepEqual(
+    peregrine.storySections.map(({ key }) => key),
+    [
+      'hood-and-pointed-wings',
+      'stoop-speed-evidence',
+      'urban-cliff-analogue',
+      'aerial-bird-hunter',
+      'latitude-and-migration',
+      'recovery-and-vigilance',
+    ],
+  );
+  assert.equal(new Set(peregrine.storySections.map(({ key }) => key)).size, 6);
+  assert.equal(peregrine.keyFacts.length, 8);
+  assert.equal(peregrine.threats.length, 7);
+  assert.equal(peregrine.conservationActions.length, 9);
+  assert.equal(peregrine.featuredStats.length, 4);
+  assert.deepEqual(
+    peregrine.featuredStats.map(({ key }) => key),
+    ['stoop-speed', 'mature-population', 'incubation', 'arctic-migration'],
+  );
+  assert.equal(
+    peregrine.featuredStats.find(({ key }) => key === 'stoop-speed')?.value,
+    '320',
+  );
+  assert.equal(
+    peregrine.featuredStats.find(({ key }) => key === 'mature-population')
+      ?.value,
+    '24.8万至47.8万',
+  );
+  assert.match(
+    peregrine.featuredStats.find(({ key }) => key === 'mature-population')
+      ?.note ?? '',
+    /资料质量 poor、推导方式 suspected/,
+  );
+
+  assert.equal(peregrine.media.gallery?.length, 5);
+  assert.equal(peregrine.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    peregrine.media.image,
+    ...peregrine.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/peregrine-falcon/01-cliff-portrait.webp',
+    './images/species/peregrine-falcon/02-high-speed-stoop.webp',
+    './images/species/peregrine-falcon/03-urban-nest-ledge.webp',
+    './images/species/peregrine-falcon/04-aerial-bird-hunt.webp',
+    './images/species/peregrine-falcon/05-migration-coastline.webp',
+    './images/species/peregrine-falcon/06-cliff-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !peregrine.media.gallery.some(
+      ({ image }) => image === peregrine.media.image,
+    ),
+  );
+  const mediaRecords = [peregrine.media, ...peregrine.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.72, y: 0.5 },
+      { x: 0.56, y: 0.43 },
+      { x: 0.6, y: 0.5 },
+      { x: 0.54, y: 0.46 },
+      { x: 0.64, y: 0.4 },
+      { x: 0.68, y: 0.44 },
+    ],
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok(
+    peregrine.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    peregrine.media.alt,
+    /海岸崖缘.*一只完整成年游隼.*蓝灰上体.*深色头罩.*粗黑髭纹.*黄色脚/,
+  );
+  assert.match(
+    peregrine.media.gallery.find(({ image }) => image.includes('02-high-speed'))
+      ?.alt ?? '',
+    /一只完整成年游隼.*陡角俯冲.*长尖双翼后掠/,
+  );
+  assert.match(
+    peregrine.media.gallery.find(({ image }) => image.includes('03-urban-nest'))
+      ?.alt ?? '',
+    /一只成年游隼.*浅巢凹.*恰好.*三枚.*卵.*没有雏鸟或枝巢/,
+  );
+  assert.match(
+    peregrine.media.gallery.find(({ image }) => image.includes('04-aerial'))
+      ?.alt ?? '',
+    /一只成年游隼.*一只健康.*原鸽.*保持距离.*没有接触或伤口/,
+  );
+  assert.match(
+    peregrine.media.gallery.find(({ image }) => image.includes('06-cliff'))
+      ?.alt ?? '',
+    /两名调查人员.*一台三脚架望远镜.*一只成年游隼/,
+  );
+
+  assert.equal(peregrine.sources.length, 16);
+  const sourceUrls = new Set(peregrine.sources.map(({ url }) => url));
+  assert.equal(sourceUrls.size, peregrine.sources.length);
+  assert.ok(
+    [
+      'https://www.worldbirdnames.org/new/bow/falcons/',
+      'https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T45354964A206217909.en',
+      'https://datazone.birdlife.org/species/factsheet/peregrine-falcon-falco-peregrinus/details',
+      'https://www.allaboutbirds.org/guide/Peregrine_Falcon/id',
+      'https://www.allaboutbirds.org/guide/Peregrine_Falcon/lifehistory',
+      'https://www.fws.gov/press-release/1999-08/peregrine-falcon-back-babbit-announces-removal-worlds-fastest-bird-endangered',
+      'https://www.fws.gov/sites/default/files/federal_register_document/99-21959.pdf',
+      'https://doi.org/10.1038/s41586-021-03265-0',
+      'https://doi.org/10.1111/j.1474-919X.1987.tb03207.x',
+      'https://doi.org/10.1242/jeb.201.3.403',
+      'https://doi.org/10.15845/on.v39i0.1048',
+      'https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/W020230522536559098623.pdf',
+      'https://www.forestry.gov.cn/html/main/main_5461/20210205122418860831352/file/20210205151950336764982.pdf',
+      'https://www.cms.int/species/falco-peregrinus',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+      'https://doi.org/10.3390/v17010024',
+    ].every((url) => sourceUrls.has(url)),
+  );
+  assert.ok(peregrine.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(peregrine.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    peregrine.sources.every(({ accessedAt }) => accessedAt === '2026-08-26'),
+  );
+  assert.deepEqual(
+    new Set(peregrine.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general', 'distribution']),
+  );
+
+  const profileText = [
+    peregrine.summary,
+    peregrine.description,
+    peregrine.distribution.range,
+    ...peregrine.names.aliases,
+    ...peregrine.tags,
+    ...peregrine.storySections.flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...peregrine.keyFacts,
+    ...peregrine.threats,
+    ...peregrine.conservationActions,
+    ...peregrine.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(profileText, /IOC World Bird List v15\.2.*18 个亚种/);
+  assert.match(
+    profileText,
+    /IUCN\/BirdLife 2021 年全球评估为无危.*趋势上升.*没有受胁标准代码/,
+  );
+  assert.match(
+    profileText,
+    /248,000 至 478,000.*poor.*suspected/,
+  );
+  assert.match(
+    profileText,
+    /320 千米\/小时.*高空俯冲.*(?:不代表平飞|平飞速度也低得多).*(?:每次野外捕猎|不同结果)/,
+  );
+  assert.match(
+    profileText,
+    /高纬种群.*远距离迁徙.*低纬度.*南半球种群多留居/,
+  );
+  assert.match(profileText, /禁用 DDT.*圈养繁育.*放归.*北美.*恢复/);
+  assert.match(
+    profileText,
+    /中国.*红色名录.*近危.*国家.*二级.*CITES.*附录 I.*CMS.*附录 II/,
+  );
+  assert.match(profileText, /HPAI.*部分区域|区域性 HPAI/);
+  assert.doesNotMatch(profileText, /CITES(?: 列入| 列)?附录 II/);
+  assert.doesNotMatch(profileText, /所有(?:游隼|个体).*(?:长距离)?迁徙/);
+  assert.doesNotMatch(profileText, /320 千米\/小时.*(?:平飞|每次).*均可达到/);
+  assert.doesNotMatch(profileText, /2021 年(?:全球)?普查(?:到|出)/);
+
+  assert.equal(peregrine.featured, true);
+  assert.equal(peregrine.publishedAt, '2026-08-26');
+  assert.equal(peregrine.updatedAt, '2026-08-26');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -3442,10 +3780,13 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 7);
   assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Aquila')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Falconiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Falconidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Falco')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Threskiornithidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nipponia')?.speciesCount, 1);
