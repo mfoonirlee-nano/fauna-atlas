@@ -29,6 +29,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Red-crowned Crane image set](./species/red-crowned-crane/README.md)
 - [Golden eagle image set](./species/golden-eagle/README.md)
 - [Peregrine falcon image set](./species/peregrine-falcon/README.md)
+- [Snowy owl image set](./species/snowy-owl/README.md)
 - [Snowy albatross image set](./species/wandering-albatross/README.md)
 - [Ruby-throated hummingbird image set](./species/ruby-throated-hummingbird/README.md)
 - [Green sea turtle image set](./species/green-sea-turtle/README.md)

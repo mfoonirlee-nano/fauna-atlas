@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import test from 'node:test';
 
 async function importCompiledModule(relativePath) {
@@ -3768,6 +3768,240 @@ test('registers the Peregrine Falcon as a complete Falco peregrinus profile', ()
   assert.equal(peregrine.updatedAt, '2026-08-26');
 });
 
+test('registers the Snowy Owl as a complete Bubo scandiacus profile', async () => {
+  const snowyOwl = findSpecies('snowy-owl');
+
+  assert.equal(snowyOwl.id, 'species-bubo-scandiacus');
+  assert.equal(snowyOwl.names.zh, '雪鸮');
+  assert.equal(snowyOwl.names.en, 'Snowy Owl');
+  assert.deepEqual(snowyOwl.names.aliases, ['雪鴞', 'Nyctea scandiaca']);
+  assert.equal(snowyOwl.scientificName, 'Bubo scandiacus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(snowyOwl).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', snowyOwl.scientificName, snowyOwl.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Strigiformes', '鸮形目'],
+      ['family', 'Strigidae', '鸱鸮科'],
+      ['genus', 'Bubo', '雕鸮属'],
+      ['species', 'Bubo scandiacus', '雪鸮'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: snowyOwl.conservation.code,
+      trend: snowyOwl.conservation.trend,
+      assessedYear: snowyOwl.conservation.assessedYear,
+      criteria: snowyOwl.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2021,
+      criteria: 'A2bd+3bd+4bd',
+    },
+  );
+  assert.deepEqual(snowyOwl.distribution.realms, ['terrestrial', 'freshwater']);
+  assert.deepEqual(snowyOwl.distribution.continents, ['亚洲', '欧洲', '北美洲']);
+  assert.equal(snowyOwl.distribution.countries.length, 8);
+  assert.ok(snowyOwl.distribution.countries.includes('中国'));
+  assert.match(
+    snowyOwl.distribution.range,
+    /中国大陆.*原生非繁殖季范围.*不是稳定繁殖区/,
+  );
+
+  assert.deepEqual(
+    {
+      min: snowyOwl.measurements.length?.min,
+      max: snowyOwl.measurements.length?.max,
+      unit: snowyOwl.measurements.length?.unit,
+    },
+    { min: 52, max: 71, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: snowyOwl.measurements.weight?.min,
+      max: snowyOwl.measurements.weight?.max,
+      unit: snowyOwl.measurements.weight?.unit,
+    },
+    { min: 1.6, max: 2.95, unit: 'kg' },
+  );
+  assert.deepEqual(
+    {
+      min: snowyOwl.measurements.wingspan?.min,
+      max: snowyOwl.measurements.wingspan?.max,
+      unit: snowyOwl.measurements.wingspan?.unit,
+    },
+    { min: 126, max: 145, unit: 'cm' },
+  );
+  assert.deepEqual(snowyOwl.metrics, {
+    adultLengthCm: [52, 71],
+    adultMassKg: [1.6, 2.95],
+    wingspanCm: [126, 145],
+    estimatedMatureIndividuals: [14000, 28000],
+  });
+  assert.equal(snowyOwl.habitats.length, 4);
+  assert.equal(
+    snowyOwl.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.deepEqual(
+    new Set(snowyOwl.habitats.map(({ realm }) => realm)),
+    new Set(['terrestrial', 'freshwater']),
+  );
+  assert.deepEqual(snowyOwl.diet.types, ['carnivore']);
+  assert.equal(snowyOwl.diet.foods.length, 6);
+  assert.equal(snowyOwl.activity.length, 6);
+  assert.equal(snowyOwl.tags.length, 12);
+  assert.ok(snowyOwl.tags.includes('CITES 附录 II'));
+  assert.ok(snowyOwl.tags.includes('CMS 附录 II'));
+
+  assert.equal(snowyOwl.storySections?.length, 6);
+  assert.deepEqual(
+    snowyOwl.storySections.map(({ key }) => key),
+    [
+      'plumage-sex-and-age',
+      'daylight-and-darkness',
+      'lemming-pulse-breeding',
+      'ground-scrape-and-hatching',
+      'irruption-is-not-starvation',
+      'circumpolar-conservation',
+    ],
+  );
+  assert.equal(new Set(snowyOwl.storySections.map(({ key }) => key)).size, 6);
+  const storyText = snowyOwl.storySections
+    .flatMap(({ label, title, body }) => [label, title, body])
+    .join(' ');
+  assert.match(storyText, /雄鸟.*随年龄变白.*雌鸟.*横斑.*重叠/);
+  assert.match(storyText, /连续日照.*守望和扑击.*严格夜行/);
+  assert.match(storyText, /旅鼠密度高.*定居.*窝卵数.*幼鸟/);
+  assert.match(storyText, /侵入年.*旅鼠丰年.*高繁殖产出.*饥饿或迷路/);
+  assert.match(storyText, /跨境监测.*西伯利亚.*缺少连续数据/);
+  assert.equal(snowyOwl.keyFacts.length, 9);
+  assert.equal(snowyOwl.threats.length, 7);
+  assert.equal(snowyOwl.conservationActions.length, 10);
+  assert.deepEqual(
+    snowyOwl.featuredStats.map(({ key }) => key),
+    ['mature-population', 'clutch-size', 'incubation', 'breeding-dispersal'],
+  );
+  assert.match(
+    snowyOwl.featuredStats.find(({ key }) => key === 'mature-population')
+      ?.note ?? '',
+    /低质量估算.*不是同期全球普查/,
+  );
+
+  assert.equal(snowyOwl.media.gallery?.length, 5);
+  assert.equal(snowyOwl.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    snowyOwl.media.image,
+    ...snowyOwl.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/snowy-owl/01-arctic-tundra-portrait.webp',
+    './images/species/snowy-owl/02-adult-flight-field-marks.webp',
+    './images/species/snowy-owl/03-treeless-tundra-habitat.webp',
+    './images/species/snowy-owl/04-daylight-lemming-hunt.webp',
+    './images/species/snowy-owl/05-ground-scrape-and-eggs.webp',
+    './images/species/snowy-owl/06-distance-winter-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(
+    !snowyOwl.media.gallery.some(({ image }) => image === snowyOwl.media.image),
+  );
+  const mediaRecords = [snowyOwl.media, ...snowyOwl.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.7, y: 0.52 },
+      { x: 0.58, y: 0.5 },
+      { x: 0.69, y: 0.51 },
+      { x: 0.5, y: 0.55 },
+      { x: 0.52, y: 0.58 },
+      { x: 0.58, y: 0.53 },
+    ],
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    snowyOwl.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    snowyOwl.media.gallery.find(({ image }) => image.includes('04-daylight'))
+      ?.alt ?? '',
+    /一只完整雪鸮.*一只健康小旅鼠.*没有接触或伤口/,
+  );
+  assert.match(
+    snowyOwl.media.gallery.find(({ image }) => image.includes('05-ground'))
+      ?.alt ?? '',
+    /浅刮巢.*恰好有五枚.*没有枝条、雏鸟或第二只鸮/,
+  );
+
+  assert.equal(snowyOwl.sources.length, 18);
+  assert.equal(
+    new Set(snowyOwl.sources.map(({ url }) => url)).size,
+    snowyOwl.sources.length,
+  );
+  assert.ok(snowyOwl.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(snowyOwl.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    snowyOwl.sources.every(({ accessedAt }) => accessedAt === '2026-08-26'),
+  );
+  assert.deepEqual(
+    new Set(snowyOwl.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general', 'distribution']),
+  );
+  const sourceUrls = new Set(snowyOwl.sources.map(({ url }) => url));
+  assert.ok(
+    [
+      'https://www.worldbirdnames.org/new/bow/owls/',
+      'https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T22689055A205475036.en',
+      'https://doi.org/10.1017/S0959270924000248',
+      'https://www.allaboutbirds.org/guide/Snowy_Owl/id',
+      'https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/W020230522536559098623.pdf',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    ].every((url) => sourceUrls.has(url)),
+  );
+
+  const profileText = [
+    snowyOwl.summary,
+    snowyOwl.description,
+    ...snowyOwl.keyFacts,
+    ...snowyOwl.tags,
+  ].join(' ');
+  assert.match(profileText, /IUCN\/BirdLife 2021.*VU.*趋势下降/);
+  assert.match(profileText, /14,000 至 28,000/);
+  assert.match(profileText, /中国.*红色名录.*易危.*国家.*二级.*CITES.*附录 II.*CMS.*附录 II/);
+  assert.doesNotMatch(profileText, /严格夜行物种|所有雪鸮.*饥饿.*南下/);
+
+  assert.equal(snowyOwl.featured, true);
+  assert.equal(snowyOwl.publishedAt, '2026-08-26');
+  assert.equal(snowyOwl.updatedAt, '2026-08-26');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -3780,13 +4014,16 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Aquila')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Falconiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Falconidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Falco')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Strigiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Strigidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Bubo')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Threskiornithidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nipponia')?.speciesCount, 1);
