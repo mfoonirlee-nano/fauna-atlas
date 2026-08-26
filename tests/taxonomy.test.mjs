@@ -4002,6 +4002,303 @@ test('registers the Snowy Owl as a complete Bubo scandiacus profile', async () =
   assert.equal(snowyOwl.updatedAt, '2026-08-26');
 });
 
+test('registers the Green Peafowl as a complete Pavo muticus profile', async () => {
+  const greenPeafowl = findSpecies('green-peafowl');
+
+  assert.equal(greenPeafowl.id, 'species-pavo-muticus');
+  assert.equal(greenPeafowl.names.zh, '绿孔雀');
+  assert.equal(greenPeafowl.names.en, 'Green Peafowl');
+  assert.deepEqual(greenPeafowl.names.aliases, ['綠孔雀', '爪哇孔雀']);
+  assert.equal(greenPeafowl.scientificName, 'Pavo muticus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(greenPeafowl).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', greenPeafowl.scientificName, greenPeafowl.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Galliformes', '鸡形目'],
+      ['family', 'Phasianidae', '雉科'],
+      ['genus', 'Pavo', '孔雀属'],
+      ['species', 'Pavo muticus', '绿孔雀'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: greenPeafowl.conservation.code,
+      trend: greenPeafowl.conservation.trend,
+      assessedYear: greenPeafowl.conservation.assessedYear,
+      criteria: greenPeafowl.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'decreasing',
+      assessedYear: 2018,
+      criteria: 'A2cd+3cd+4cd',
+    },
+  );
+
+  assert.deepEqual(greenPeafowl.distribution.realms, ['terrestrial']);
+  assert.deepEqual(greenPeafowl.distribution.continents, ['亚洲']);
+  assert.equal(greenPeafowl.distribution.regions.length, 3);
+  assert.deepEqual(greenPeafowl.distribution.countries, [
+    '中国',
+    '缅甸',
+    '泰国',
+    '老挝',
+    '柬埔寨',
+    '越南',
+    '印度尼西亚',
+  ]);
+  assert.ok(!('endemicTo' in greenPeafowl.distribution));
+  assert.ok(!('center' in greenPeafowl.distribution));
+  assert.match(
+    greenPeafowl.distribution.range,
+    /中国云南、缅甸、泰国、老挝、柬埔寨、越南和印度尼西亚.*中国现存野生种群仅见于云南/,
+  );
+
+  assert.deepEqual(Object.keys(greenPeafowl.measurements), ['length']);
+  assert.deepEqual(
+    {
+      min: greenPeafowl.measurements.length?.min,
+      max: greenPeafowl.measurements.length?.max,
+      unit: greenPeafowl.measurements.length?.unit,
+    },
+    { min: 100, max: 244, unit: 'cm' },
+  );
+  assert.match(
+    greenPeafowl.measurements.length?.note ?? '',
+    /雌鸟.*100.*110.*雄鸟.*244.*(?:尾屏|尾上覆羽)/,
+  );
+  assert.deepEqual(greenPeafowl.metrics, {
+    elevationM: [0, 2100],
+    estimatedMatureIndividuals: [10000, 19999],
+  });
+  assert.ok(!('adultLengthCm' in greenPeafowl.metrics));
+  assert.ok(!('adultMassKg' in greenPeafowl.metrics));
+  assert.ok(!('wingspanCm' in greenPeafowl.metrics));
+
+  assert.equal(greenPeafowl.habitats.length, 4);
+  assert.equal(
+    greenPeafowl.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(greenPeafowl.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.deepEqual(greenPeafowl.diet.types, ['omnivore']);
+  assert.equal(greenPeafowl.diet.foods.length, 4);
+  assert.equal(greenPeafowl.activity.length, 6);
+  assert.equal(greenPeafowl.tags.length, 12);
+  assert.ok(greenPeafowl.tags.some((tag) => /国家一级/.test(tag)));
+  assert.ok(greenPeafowl.tags.some((tag) => /CITES 附录 II/.test(tag)));
+
+  assert.equal(greenPeafowl.storySections?.length, 6);
+  assert.deepEqual(
+    greenPeafowl.storySections.map(({ key }) => key),
+    [
+      'identity',
+      'river-valley',
+      'daily-rhythm',
+      'courtship-and-nest',
+      'last-wild-populations-in-china',
+      'protection-beyond-reserves',
+    ],
+  );
+  assert.equal(new Set(greenPeafowl.storySections.map(({ key }) => key)).size, 6);
+  const storyText = greenPeafowl.storySections
+    .flatMap(({ label, title, body }) => [label, title, body])
+    .join(' ');
+  assert.match(storyText, /不是蓝孔雀的绿色变型/);
+  assert.match(storyText, /高而窄.*直立冠羽.*鳞片般排列的绿色颈羽/);
+  assert.match(storyText, /河流或湿地.*干燥落叶林.*疏林.*草地/);
+  assert.match(storyText, /地面觅食.*(?:高树夜栖|飞上高树)/);
+  assert.match(storyText, /尾屏.*尾上覆羽.*(?:真正尾羽|真尾)/);
+  assert.match(storyText, /中国(?:现存范围|可靠现存记录).*云南.*元江中上游/);
+  assert.match(storyText, /保护地外.*保护需要连接.*河谷/);
+  assert.equal(greenPeafowl.keyFacts.length, 10);
+  assert.equal(greenPeafowl.threats.length, 6);
+  assert.equal(greenPeafowl.conservationActions.length, 8);
+  assert.equal(greenPeafowl.featuredStats.length, 4);
+  assert.deepEqual(
+    greenPeafowl.featuredStats.map(({ key }) => key),
+    [
+      'global-mature-population',
+      'yunnan-wild-monitoring',
+      'adult-length',
+      'clutch-and-incubation',
+    ],
+  );
+
+  assert.equal(greenPeafowl.media.gallery?.length, 5);
+  assert.equal(greenPeafowl.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    greenPeafowl.media.image,
+    ...greenPeafowl.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/green-peafowl/01-yunnan-river-valley-male-portrait.webp',
+    './images/species/green-peafowl/02-adult-female-field-marks.webp',
+    './images/species/green-peafowl/03-seasonal-river-valley-habitat.webp',
+    './images/species/green-peafowl/04-male-courtship-train-display.webp',
+    './images/species/green-peafowl/05-ground-scrape-and-four-eggs.webp',
+    './images/species/green-peafowl/06-distance-riverbank-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !greenPeafowl.media.gallery.some(
+      ({ image }) => image === greenPeafowl.media.image,
+    ),
+  );
+  const mediaRecords = [greenPeafowl.media, ...greenPeafowl.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.69, y: 0.52 },
+      { x: 0.56, y: 0.5 },
+      { x: 0.68, y: 0.57 },
+      { x: 0.52, y: 0.52 },
+      { x: 0.52, y: 0.6 },
+      { x: 0.58, y: 0.56 },
+    ],
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    greenPeafowl.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    greenPeafowl.media.alt,
+    /一只完整成年雄性绿孔雀.*高窄冠羽.*鳞状绿色颈羽.*折叠长尾屏/,
+  );
+  const femaleMedia = greenPeafowl.media.gallery.find(({ image }) =>
+    image.includes('02-adult-female'),
+  );
+  assert.match(
+    [femaleMedia?.alt, femaleMedia?.caption].join(' '),
+    /一只完整成年雌性绿孔雀.*绿色鳞状颈羽.*没有雄鸟长尾屏/,
+  );
+  const displayMedia = greenPeafowl.media.gallery.find(({ image }) =>
+    image.includes('04-male-courtship'),
+  );
+  assert.match(
+    [displayMedia?.alt, displayMedia?.title, displayMedia?.caption].join(' '),
+    /只有一只完整成年雄性绿孔雀.*眼状斑尾屏.*延长的尾上覆羽/,
+  );
+  assert.match(
+    greenPeafowl.media.gallery.find(({ image }) => image.includes('05-ground'))?.alt ?? '',
+    /一只完整成年雌性绿孔雀.*地面浅窝.*恰好四枚.*没有雄鸟、雏鸟或第五枚卵/,
+  );
+  assert.match(
+    greenPeafowl.media.gallery.find(({ image }) => image.includes('06-distance'))?.alt ?? '',
+    /两名.*观察者.*一台三脚架望远镜.*一只完整雌性绿孔雀/,
+  );
+
+  assert.equal(greenPeafowl.sources.length, 19);
+  assert.equal(
+    new Set(greenPeafowl.sources.map(({ url }) => url)).size,
+    greenPeafowl.sources.length,
+  );
+  assert.ok(greenPeafowl.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(greenPeafowl.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    greenPeafowl.sources.every(({ accessedAt }) => accessedAt === '2026-08-26'),
+  );
+  assert.deepEqual(
+    new Set(greenPeafowl.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general', 'distribution']),
+  );
+  const sourceUrls = new Set(greenPeafowl.sources.map(({ url }) => url));
+  assert.ok(
+    [
+      'https://www.worldbirdnames.org/new/bow/pheasants/',
+      'https://datazone.birdlife.org/species/factsheet/green-peafowl-pavo-muticus',
+      'https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22679440A131749282.en',
+      'https://doi.org/10.1186/s40657-018-0110-0',
+      'https://li01.tci-thaijo.org/index.php/tjf/article/view/256671',
+      'https://www.sciencedirect.com/science/article/pii/S1978301916302054',
+      'https://sdr.cas.cn/zcgz/gjfg/202306/P020230523325260524862.pdf',
+      'https://www.forestry.gov.cn/main/3457/20210205/122612568723707.html',
+      'https://www.forestry.gov.cn/lyj/1/dzbhdt/20260818/684856.html',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+      'https://www.cms.int/species/appendix-i-ii-cms',
+    ].every((url) => sourceUrls.has(url)),
+  );
+
+  const profileText = [
+    greenPeafowl.summary,
+    greenPeafowl.description,
+    greenPeafowl.distribution.range,
+    greenPeafowl.measurements.length?.note ?? '',
+    greenPeafowl.diet.description,
+    ...greenPeafowl.tags,
+    ...greenPeafowl.storySections.flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...greenPeafowl.keyFacts,
+    ...greenPeafowl.threats,
+    ...greenPeafowl.conservationActions,
+    ...greenPeafowl.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    greenPeafowl.description,
+    /IUCN\/BirdLife 2018 全球评估为 EN、趋势下降.*中国 2020 区域红色名录.*A2cd\+3cd\+4cd.*CR/,
+  );
+  assert.match(
+    greenPeafowl.featuredStats.find(
+      ({ key }) => key === 'yunnan-wild-monitoring',
+    )?.note ?? '',
+    /未分年龄.*不与全球成熟个体区间直接比较/,
+  );
+  assert.match(profileText, /IUCN\/BirdLife 2018 全球评估为 EN、趋势下降/);
+  assert.match(profileText, /全球.*10,000.*19,999.*成熟个体.*(?:poor|低质量)/);
+  assert.match(profileText, /中国.*红色名录.*(?:CR|极危).*国家.*一级/);
+  assert.match(
+    profileText,
+    /云南.*(?:超过 )?1,000 只.*(?:未分龄|未分年龄|未注明全部为成熟个体)/,
+  );
+  assert.match(
+    profileText,
+    /全球.*成熟个体.*云南.*(?:未分龄|未分年龄|未注明全部为成熟个体).*(?:不能|不可).*直接比较/,
+  );
+  assert.match(profileText, /尾屏.*(?:延长的)?尾上覆羽.*(?:不是|并非).*真正尾羽/);
+  assert.match(profileText, /CMS.*(?:未列入|附录没有)/);
+  assert.doesNotMatch(profileText, /全球(?:现存)?(?:野生)?种群仅(?:见于|分布于)云南/);
+  assert.doesNotMatch(profileText, /CMS(?: 已| 被| 将本种)?列入.*附录 [IⅡ12]/);
+  assert.ok(!greenPeafowl.tags.some((tag) => /^CMS 附录/.test(tag)));
+
+  assert.equal(greenPeafowl.featured, true);
+  assert.equal(greenPeafowl.publishedAt, '2026-08-26');
+  assert.equal(greenPeafowl.updatedAt, '2026-08-26');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -4014,7 +4311,10 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'order', 'Galliformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Phasianidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Pavo')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Aquila')?.speciesCount, 1);
