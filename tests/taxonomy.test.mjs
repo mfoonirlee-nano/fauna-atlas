@@ -3100,6 +3100,336 @@ test('registers the Red-crowned Crane as a complete Grus japonensis profile', ()
   assert.equal(crane.updatedAt, '2026-08-25');
 });
 
+test('registers the Golden Eagle as a complete Aquila chrysaetos profile', () => {
+  const goldenEagle = findSpecies('golden-eagle');
+
+  assert.equal(goldenEagle.id, 'species-aquila-chrysaetos');
+  assert.equal(goldenEagle.names.zh, '金雕');
+  assert.equal(goldenEagle.names.en, 'Golden Eagle');
+  assert.deepEqual(goldenEagle.names.aliases, ['金鵰']);
+  assert.equal(goldenEagle.scientificName, 'Aquila chrysaetos');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(goldenEagle).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', goldenEagle.scientificName, goldenEagle.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Accipitriformes', '鹰形目'],
+      ['family', 'Accipitridae', '鹰科'],
+      ['genus', 'Aquila', '雕属'],
+      ['species', 'Aquila chrysaetos', '金雕'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: goldenEagle.conservation.code,
+      trend: goldenEagle.conservation.trend,
+      assessedYear: goldenEagle.conservation.assessedYear,
+      criteria: goldenEagle.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2021,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('criteria' in goldenEagle.conservation));
+
+  assert.deepEqual(goldenEagle.distribution.realms, ['terrestrial']);
+  assert.deepEqual(goldenEagle.distribution.continents, [
+    '亚洲',
+    '欧洲',
+    '北美洲',
+    '非洲',
+  ]);
+  assert.deepEqual(goldenEagle.distribution.regions, [
+    '阿拉斯加、加拿大与北美西部',
+    '欧洲山地、北欧与地中海地区',
+    '北非与西亚',
+    '中亚草原、荒漠山地与青藏高原—喜马拉雅',
+    '蒙古、西伯利亚、东北亚与日本列岛',
+  ]);
+  assert.equal(goldenEagle.distribution.countries.length, 32);
+  assert.ok(
+    [
+      '加拿大',
+      '美国',
+      '墨西哥',
+      '俄罗斯',
+      '中国',
+      '蒙古',
+      '印度',
+      '日本',
+      '英国',
+      '西班牙',
+      '土耳其',
+      '伊朗',
+      '摩洛哥',
+      '阿尔及利亚',
+    ].every((country) => goldenEagle.distribution.countries.includes(country)),
+  );
+  assert.ok(!('center' in goldenEagle.distribution));
+  assert.match(
+    goldenEagle.distribution.range,
+    /北美、欧洲、北非和亚洲.*国家列表为代表性常规范围.*不含完整的通道、偶见和迷鸟记录/,
+  );
+  assert.match(
+    goldenEagle.distribution.range,
+    /中低纬成鸟留居.*高纬种群可南迁.*幼鸟.*远距离扩散/,
+  );
+
+  assert.deepEqual(
+    {
+      min: goldenEagle.measurements.length?.min,
+      max: goldenEagle.measurements.length?.max,
+      unit: goldenEagle.measurements.length?.unit,
+    },
+    { min: 70, max: 84, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: goldenEagle.measurements.weight?.min,
+      max: goldenEagle.measurements.weight?.max,
+      unit: goldenEagle.measurements.weight?.unit,
+    },
+    { min: 3, max: 6.125, unit: 'kg' },
+  );
+  assert.deepEqual(
+    {
+      min: goldenEagle.measurements.wingspan?.min,
+      max: goldenEagle.measurements.wingspan?.max,
+      unit: goldenEagle.measurements.wingspan?.unit,
+    },
+    { min: 185, max: 220, unit: 'cm' },
+  );
+  assert.match(
+    goldenEagle.measurements.length?.note ?? '',
+    /Cornell 北美.*不代表六亚种全球极值/,
+  );
+  assert.match(
+    goldenEagle.measurements.weight?.note ?? '',
+    /Cornell 北美.*雌鸟平均大于雄鸟/,
+  );
+  assert.match(goldenEagle.measurements.wingspan?.note ?? '', /Cornell 北美/);
+  assert.deepEqual(goldenEagle.metrics, {
+    adultLengthCm: [70, 84],
+    adultMassKg: [3, 6.125],
+    wingspanCm: [185, 220],
+    estimatedMatureIndividuals: [85000, 160000],
+  });
+  assert.ok(!('topSpeedKph' in goldenEagle.metrics));
+  assert.ok(!('elevationM' in goldenEagle.metrics));
+
+  assert.equal(goldenEagle.habitats.length, 5);
+  assert.equal(
+    goldenEagle.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(goldenEagle.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.deepEqual(goldenEagle.diet.types, ['carnivore']);
+  assert.equal(goldenEagle.diet.foods.length, 6);
+  assert.equal(goldenEagle.activity.length, 6);
+  assert.equal(goldenEagle.tags.length, 9);
+  assert.ok(goldenEagle.tags.includes('CITES 附录 II'));
+  assert.ok(goldenEagle.tags.includes('CMS 附录 II'));
+
+  assert.equal(goldenEagle.storySections?.length, 6);
+  assert.deepEqual(
+    goldenEagle.storySections.map(({ key }) => key),
+    [
+      'golden-nape-and-age',
+      'uplift-and-movement',
+      'open-ground-hunter',
+      'alternate-eyries',
+      'status-at-different-scales',
+      'preventable-mortality',
+    ],
+  );
+  assert.equal(new Set(goldenEagle.storySections.map(({ key }) => key)).size, 6);
+  assert.equal(goldenEagle.keyFacts.length, 8);
+  assert.equal(goldenEagle.threats.length, 7);
+  assert.equal(goldenEagle.conservationActions.length, 8);
+  assert.equal(goldenEagle.featuredStats.length, 4);
+  assert.deepEqual(
+    goldenEagle.featuredStats.map(({ key }) => key),
+    ['wingspan', 'mass', 'incubation', 'mature-population'],
+  );
+  assert.equal(
+    goldenEagle.featuredStats.find(({ key }) => key === 'wingspan')?.value,
+    '185—220',
+  );
+  assert.equal(
+    goldenEagle.featuredStats.find(({ key }) => key === 'mature-population')
+      ?.value,
+    '8.5万—16万',
+  );
+  assert.match(
+    goldenEagle.featuredStats.find(({ key }) => key === 'mature-population')
+      ?.note ?? '',
+    /低质量推断区间.*不是同期全球普查/,
+  );
+
+  assert.equal(goldenEagle.media.gallery?.length, 5);
+  assert.equal(goldenEagle.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    goldenEagle.media.image,
+    ...goldenEagle.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/golden-eagle/01-alpine-ridge-portrait.webp',
+    './images/species/golden-eagle/02-adult-flight-field-marks.webp',
+    './images/species/golden-eagle/03-open-mountain-habitat.webp',
+    './images/species/golden-eagle/04-hare-hunting-approach.webp',
+    './images/species/golden-eagle/05-cliff-eyrie-and-eaglet.webp',
+    './images/species/golden-eagle/06-distance-raptor-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !goldenEagle.media.gallery.some(
+      ({ image }) => image === goldenEagle.media.image,
+    ),
+  );
+  const mediaRecords = [goldenEagle.media, ...goldenEagle.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.7, y: 0.52 },
+      { x: 0.59, y: 0.46 },
+      { x: 0.67, y: 0.48 },
+      { x: 0.51, y: 0.49 },
+      { x: 0.55, y: 0.52 },
+      { x: 0.7, y: 0.39 },
+    ],
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok(
+    goldenEagle.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(goldenEagle.media.alt, /完整成年金雕.*深褐.*后颈.*金褐/);
+  assert.match(
+    goldenEagle.media.gallery.find(({ image }) => image.includes('02-adult-flight'))
+      ?.alt ?? '',
+    /成年金雕.*长宽双翼.*分指状翼尖.*圆形.*尾/,
+  );
+  assert.match(
+    goldenEagle.media.gallery.find(({ image }) => image.includes('04-hare'))
+      ?.alt ?? '',
+    /一只成年金雕.*一只.*野兔.*没有接触/,
+  );
+  assert.match(
+    goldenEagle.media.gallery.find(({ image }) => image.includes('05-cliff'))
+      ?.alt ?? '',
+    /一只成年金雕.*一只.*幼鸟/,
+  );
+  assert.match(
+    goldenEagle.media.gallery.find(({ image }) => image.includes('06-distance'))
+      ?.alt ?? '',
+    /两名.*观察者.*一只.*金雕/,
+  );
+
+  assert.equal(goldenEagle.sources.length, 15);
+  const sourceUrls = new Set(goldenEagle.sources.map(({ url }) => url));
+  assert.equal(sourceUrls.size, goldenEagle.sources.length);
+  assert.ok(
+    [
+      'https://www.worldbirdnames.org/new/ioc-lists/master-list-2/',
+      'https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T22696060A202078899.en',
+      'https://datazone.birdlife.org/species/factsheet/golden-eagle-aquila-chrysaetos',
+      'https://doi.org/10.2173/bow.goleag.02',
+      'https://www.allaboutbirds.org/guide/Golden_Eagle/id',
+      'https://www.fws.gov/species/golden-eagle-aquila-chrysaetos',
+      'https://www.cms.int/species/aquila-chrysaetos',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+      'https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/W020230522536559098623.pdf',
+      'https://www.forestry.gov.cn/html/main/main_5461/20210205122418860831352/file/20210205151950336764982.pdf',
+      'https://doi.org/10.1371/journal.pone.0205204',
+      'https://doi.org/10.1126/science.abj3068',
+    ].every((url) => sourceUrls.has(url)),
+  );
+  assert.ok(goldenEagle.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(goldenEagle.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    goldenEagle.sources.every(({ accessedAt }) => accessedAt === '2026-08-26'),
+  );
+  assert.deepEqual(
+    new Set(goldenEagle.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general', 'distribution']),
+  );
+
+  const profileText = [
+    goldenEagle.summary,
+    goldenEagle.description,
+    goldenEagle.distribution.range,
+    ...goldenEagle.names.aliases,
+    ...goldenEagle.tags,
+    ...goldenEagle.storySections.flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...goldenEagle.keyFacts,
+    ...goldenEagle.threats,
+    ...goldenEagle.conservationActions,
+    ...goldenEagle.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(profileText, /IOC World Bird List v15\.2.*六个亚种/);
+  assert.match(
+    profileText,
+    /IUCN\/BirdLife 2021 年全球评估为无危.*趋势稳定.*未触发受胁标准代码/,
+  );
+  assert.match(
+    profileText,
+    /85,000—160,000.*(?:poor.*inferred|低质量推断).*不是同期全球普查/,
+  );
+  assert.match(profileText, /金褐色集中在后头和后颈.*幼鸟.*白色尾基.*翼部白斑/);
+  assert.match(
+    profileText,
+    /部分高纬种群.*长距离迁徙.*许多中低纬.*留居|高纬种群可南迁.*中低纬成鸟留居/,
+  );
+  assert.match(profileText, /草原、山地、荒漠灌丛、苔原和疏林边缘/);
+  assert.match(
+    profileText,
+    /全球.*(?:无危|LC).*中国.*(?:易危|VU).*国家一级重点保护/,
+  );
+  assert.match(
+    profileText,
+    /CITES 与 CMS.*附录 II.*分别管理国际贸易与迁徙物种合作/,
+  );
+  assert.match(profileText, /触电.*碰撞.*含铅|含铅.*触电.*碰撞/);
+  assert.doesNotMatch(profileText, /所有(?:金雕|个体).*(?:长距离)?迁徙/);
+  assert.doesNotMatch(profileText, /2021 年(?:全球)?普查(?:到|出)/);
+  assert.ok(!('center' in goldenEagle.distribution));
+
+  assert.equal(goldenEagle.featured, true);
+  assert.equal(goldenEagle.publishedAt, '2026-08-26');
+  assert.equal(goldenEagle.updatedAt, '2026-08-26');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -3112,7 +3442,10 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Aquila')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Threskiornithidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nipponia')?.speciesCount, 1);
