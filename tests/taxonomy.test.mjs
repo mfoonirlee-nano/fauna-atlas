@@ -4868,10 +4868,282 @@ test('registers the Common Ostrich as a complete Struthio camelus profile', asyn
   assert.equal(ostrich.updatedAt, '2026-08-26');
 });
 
+test('registers the Tuatara as a complete Sphenodon punctatus profile', async () => {
+  const tuatara = findSpecies('tuatara');
+
+  assert.equal(tuatara.id, 'species-sphenodon-punctatus');
+  assert.equal(tuatara.names.zh, '喙头蜥');
+  assert.equal(tuatara.names.en, 'Tuatara');
+  assert.deepEqual(tuatara.names.aliases, ['楔齿蜥']);
+  assert.equal(tuatara.scientificName, 'Sphenodon punctatus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(tuatara).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', tuatara.scientificName, tuatara.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Reptilia', '爬行纲'],
+      ['order', 'Rhynchocephalia', '喙头目'],
+      ['family', 'Sphenodontidae', '楔齿蜥科'],
+      ['genus', 'Sphenodon', '楔齿蜥属'],
+      ['species', 'Sphenodon punctatus', '喙头蜥'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: tuatara.conservation.code,
+      trend: tuatara.conservation.trend,
+      assessedYear: tuatara.conservation.assessedYear,
+      criteria: tuatara.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'unknown',
+      assessedYear: 2019,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('criteria' in tuatara.conservation));
+
+  assert.deepEqual(tuatara.distribution.realms, ['terrestrial']);
+  assert.deepEqual(tuatara.distribution.continents, ['大洋洲']);
+  assert.deepEqual(tuatara.distribution.countries, ['新西兰']);
+  assert.deepEqual(tuatara.distribution.endemicTo, ['新西兰']);
+  assert.ok(!('center' in tuatara.distribution));
+  assert.match(
+    tuatara.distribution.range,
+    /新西兰.*(?:岛屿|围栏保护地).*(?:迁移恢复|恢复)|(?:岛屿|围栏保护地).*(?:迁移恢复|恢复).*新西兰/,
+  );
+
+  assert.ok(tuatara.habitats.length >= 3);
+  assert.equal(tuatara.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.ok(tuatara.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.ok(tuatara.diet.types.includes('carnivore'));
+  assert.ok(tuatara.diet.types.includes('insectivore'));
+  assert.ok(!tuatara.diet.types.includes('herbivore'));
+  assert.ok((tuatara.activity?.length ?? 0) > 0);
+  assert.ok(tuatara.tags.length > 0);
+
+  assert.deepEqual(
+    {
+      typical: tuatara.measurements.length?.typical,
+      max: tuatara.measurements.length?.max,
+      unit: tuatara.measurements.length?.unit,
+    },
+    { typical: 0.5, max: undefined, unit: 'm' },
+  );
+  assert.deepEqual(
+    {
+      max: tuatara.measurements.weight?.max,
+      unit: tuatara.measurements.weight?.unit,
+    },
+    { max: 1.5, unit: 'kg' },
+  );
+  assert.deepEqual(tuatara.metrics, {});
+
+  assert.equal(tuatara.storySections?.length, 6);
+  assert.equal(new Set(tuatara.storySections.map(({ key }) => key)).size, 6);
+  assert.ok(
+    tuatara.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(tuatara.keyFacts.length >= 8);
+  assert.ok(tuatara.threats.length >= 5);
+  assert.ok(tuatara.conservationActions.length >= 5);
+  assert.equal(tuatara.featuredStats.length, 4);
+  assert.equal(new Set(tuatara.featuredStats.map(({ key }) => key)).size, 4);
+
+  assert.equal(tuatara.media.gallery?.length, 5);
+  assert.equal(tuatara.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    tuatara.media.image,
+    ...tuatara.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/tuatara/01-coastal-forest-adult-male-portrait.webp',
+    './images/species/tuatara/02-adult-female-field-marks.webp',
+    './images/species/tuatara/03-seabird-island-burrow-habitat.webp',
+    './images/species/tuatara/04-nocturnal-weta-foraging.webp',
+    './images/species/tuatara/05-nesting-slope-female.webp',
+    './images/species/tuatara/06-predator-free-island-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !tuatara.media.gallery.some(({ image }) => image === tuatara.media.image),
+  );
+  const mediaRecords = [tuatara.media, ...tuatara.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    tuatara.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    tuatara.media.alt,
+    /(?:只有|恰好)?一只完整成年雄性喙头蜥.*(?:橄榄灰|斑点).*(?:柔软|皮褶).*(?:洞口|海岸森林)/,
+  );
+  const femaleMedia = tuatara.media.gallery.find(({ image }) =>
+    image.includes('02-adult-female-field-marks'),
+  );
+  assert.match(
+    [femaleMedia?.alt, femaleMedia?.caption].join(' '),
+    /一只完整成年雌性喙头蜥.*(?:皮褶|背褶).*(?:单幅|外观).*(?:不能|无法).*确认性别/,
+  );
+  const habitatMedia = tuatara.media.gallery.find(({ image }) =>
+    image.includes('03-seabird-island-burrow-habitat'),
+  );
+  assert.match(
+    [habitatMedia?.alt, habitatMedia?.caption].join(' '),
+    /(?:海岸灌丛|海岸森林).*(?:洞口|洞穴).*(?:没有海鸟|没有海鸟入画).*(?:不能|无法).*(?:挖掘|共享)/,
+  );
+  const foragingMedia = tuatara.media.gallery.find(({ image }) =>
+    image.includes('04-nocturnal-weta-foraging'),
+  );
+  assert.match(
+    [foragingMedia?.alt, foragingMedia?.caption].join(' '),
+    /一只完整喙头蜥.*一只完整 wētā.*(?:间距|接触前).*(?:不证明|不能证明).*(?:捕获|取食)/i,
+  );
+  const nestingMedia = tuatara.media.gallery.find(({ image }) =>
+    image.includes('05-nesting-slope-female'),
+  );
+  assert.match(
+    [nestingMedia?.alt, nestingMedia?.caption].join(' '),
+    /一只完整成年雌性喙头蜥.*(?:浅坑|松土).*(?:没有|无).*(?:可见卵|卵).*(?:不能|无法).*(?:卵数|孵化期|性别)/,
+  );
+  const monitoringMedia = tuatara.media.gallery.find(({ image }) =>
+    image.includes('06-predator-free-island-monitoring'),
+  );
+  assert.match(
+    [monitoringMedia?.alt, monitoringMedia?.caption].join(' '),
+    /一只完整喙头蜥.*一名.*(?:巡护员|工作人员).*(?:隧道状监测装置|监测).*(?:不代表|不表示).*(?:流程|检测结果|无鼠)/,
+  );
+
+  assert.ok(tuatara.sources.length >= 5);
+  assert.equal(
+    new Set(tuatara.sources.map(({ url }) => url)).size,
+    tuatara.sources.length,
+  );
+  assert.ok(tuatara.sources.every(({ title }) => title.length > 0));
+  assert.ok(tuatara.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(tuatara.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    tuatara.sources.every(({ accessedAt }) => accessedAt === '2026-08-26'),
+  );
+  assert.deepEqual(
+    new Set(tuatara.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+
+  const profileText = [
+    tuatara.summary,
+    tuatara.description,
+    tuatara.distribution.range,
+    ...tuatara.habitats.flatMap(({ name, description }) => [name, description]),
+    tuatara.measurements.length?.note ?? '',
+    tuatara.measurements.weight?.note ?? '',
+    tuatara.diet.description,
+    ...(tuatara.activity ?? []),
+    ...(tuatara.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...tuatara.keyFacts,
+    ...tuatara.threats,
+    ...tuatara.conservationActions,
+    ...tuatara.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /喙头目.*唯一现生(?:物种|种).*(?:不是|不属于).*蜥蜴|(?:不是|不属于).*蜥蜴.*喙头目.*唯一现生(?:物种|种)/,
+  );
+  assert.match(
+    profileText,
+    /Sphenodon guntheri.*(?:并回|归入|不再列作独立种).*(?:北兄弟岛|独立保护管理单元)/,
+  );
+  assert.match(
+    profileText,
+    /活化石.*(?:比喻|通俗).*(?:不表示|不等于).*(?:没有演化|停止演化)/,
+  );
+  assert.match(
+    profileText,
+    /IUCN.*2019.*(?:无危|LC).*(?:趋势未知|未知趋势)/,
+  );
+  assert.match(
+    profileText,
+    /新西兰.*2025.*At Risk\s*–\s*Uncommon.*CI.*CD.*RR.*Rel/i,
+  );
+  assert.match(
+    profileText,
+    /(?:最适体温|体温).*16\s*(?:至|—|-|~)\s*21.*(?:25).*(?:不存在|不能|不等于).*(?:即死|死亡阈值|硬阈值)/,
+  );
+  assert.match(
+    profileText,
+    /(?:平均寿命|寿命).*(?:60|六十).*年.*(?:100|一百).*年.*(?:不是|不能|并非).*(?:预期寿命|范围|精确)/,
+  );
+  assert.match(
+    profileText,
+    /Takapourewa.*(?:平均)?约?四年.*(?:9\s*(?:至|—|-|~)\s*10|九至十)\s*枚.*11\s*(?:至|—|-|~)\s*16\s*个月/,
+  );
+  assert.match(
+    profileText,
+    /较暖.*(?:更多)?雄性.*(?:22|二十二).*不是.*(?:全种|固定开关|固定阈值)/,
+  );
+  assert.match(
+    profileText,
+    /(?:幼体|幼年).*(?:顶眼|头顶).*(?:鳞片|色素).*(?:覆盖|盖住).*(?:成体|成年).*(?:没有|不能|不).*外露.*(?:眼球|第三眼)/,
+  );
+  assert.match(
+    profileText,
+    /32\s*(?:个|座).*(?:自然残存|自然野生).*岛屿.*(?:约\s*)?10\s*个.*(?:迁地|迁移)?恢复种群/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?<!不)(?:属于|归入)\s*(?:Squamata|有鳞目)/i,
+  );
+  assert.match(
+    profileText,
+    /2\.5\s*亿.*(?:不是|不等于).*(?:现生物种|本种|个体).*(?:年龄|寿命)/,
+  );
+
+  assert.equal(tuatara.featured, true);
+  assert.equal(tuatara.publishedAt, '2026-08-26');
+  assert.equal(tuatara.updatedAt, '2026-08-26');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 52);
+  assert.equal(species.length, 53);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -4882,6 +5154,10 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'order', 'Struthioniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Struthionidae')?.speciesCount, 1);
