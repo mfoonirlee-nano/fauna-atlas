@@ -85,6 +85,10 @@ const SHORT_BEAKED_ECHIDNA_SOURCE_DATE = '2026-08-25' as const;
 const SHORT_BEAKED_ECHIDNA_CONTENT_DATE = '2026-08-25' as const;
 const YANGTZE_FINLESS_PORPOISE_SOURCE_DATE = '2026-08-25' as const;
 const YANGTZE_FINLESS_PORPOISE_CONTENT_DATE = '2026-08-25' as const;
+const CRESTED_IBIS_SOURCE_DATE = '2026-08-25' as const;
+const CRESTED_IBIS_CONTENT_DATE = '2026-08-25' as const;
+const RED_CROWNED_CRANE_SOURCE_DATE = '2026-08-25' as const;
+const RED_CROWNED_CRANE_CONTENT_DATE = '2026-08-25' as const;
 const WESTERN_GORILLA_SOURCE_DATE = '2026-08-20' as const;
 const WESTERN_GORILLA_CONTENT_DATE = '2026-08-20' as const;
 const POLAR_BEAR_SOURCE_DATE = '2026-08-20' as const;
@@ -5202,6 +5206,240 @@ const YANGTZE_FINLESS_PORPOISE_SOURCES = [
     url: 'https://www.cms.int/species/neophocaena-asiaeorientalis',
     kind: 'conservation',
     accessedAt: YANGTZE_FINLESS_PORPOISE_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const CRESTED_IBIS_SOURCES = [
+  {
+    title: 'Avibase — Nipponia nippon',
+    url: 'https://avibase.bsc-eoc.org/species.jsp?avibaseid=3E328C3C526E7ECF',
+    kind: 'taxonomy',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'BirdLife International — Asian Crested Ibis species factsheet',
+    url: 'https://datazone.birdlife.org/species/factsheet/asian-crested-ibis-nipponia-nippon',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '国家林草局 2024 — 全球朱鹮种群数量已超过 1.1 万只',
+    url: 'https://www.forestry.gov.cn/c/www/dfdt/545445.jhtml',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '重庆市农业农村委 2023 — 全球朱鹮种群数量达 1.1 万只',
+    url: 'https://nyncw.cq.gov.cn/zwxx_161/ywxx/202311/t20231109_12540505.html',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '生态环境部 2022 — 朱鹮拯救保护案例',
+    url: 'https://www.mee.gov.cn/ywgz/zrstbh/swdyxbh/202212/t20221212_1007662.shtml',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '国家林草局、农业农村部 — 国家重点保护野生动物名录（2021 年第 3 号）',
+    url: 'https://www.forestry.gov.cn/main/3457/20210205/122612568723707.html',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '生态环境部、中国科学院 — 中国生物多样性红色名录：脊椎动物卷（2020）',
+    url: 'https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/W020230522536559098623.pdf',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'CITES — Appendices effective 5 March 2026',
+    url: 'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'CMS — Species list',
+    url: 'https://www.cms.int/species',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '日本环境省 2026 — レッドデータブック鳥類・トキ',
+    url: 'https://www.env.go.jp/nature/kisho/5th-rl-2026/BI0054_RDB5th.pdf',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '日本环境省 — 佐渡朱鹮野外放归与首次野外孵化',
+    url: 'https://www.env.go.jp/content/000039969.pdf',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '韩国政府 2019 — First release at Upo Wetland',
+    url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148860661',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '韩国环境部 2023 — Seventh release of Crested Ibises',
+    url: 'https://eng.me.go.kr/eng/web/board/read.do?boardId=1599780&boardMasterId=522',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'Bird Research — 生態図鑑 トキ',
+    url: 'https://www.bird-research.jp/1_shiryo/seitai/toki.pdf',
+    kind: 'general',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: '日本国立科学博物館 — トキ Nipponia nippon',
+    url: 'https://www.kahaku.go.jp/pickup-science/nid00001005.html',
+    kind: 'general',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'Uchida 1970 — Nuptial coloration in the Japanese Crested Ibis',
+    url: 'https://doi.org/10.3312/jyio1952.6.54',
+    kind: 'ecology',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'Endo & Nagata 2013 — Seasonal foraging habitats and prey on Sado',
+    url: 'https://doi.org/10.1017/S0959270913000035',
+    kind: 'ecology',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'Okahisa et al. 2022 — Integrated population model in Japan',
+    url: 'https://doi.org/10.1111/ibi.13071',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'Feng et al. 2019 — The genomic footprints of the fall and recovery of the Crested Ibis',
+    url: 'https://www.sciencedirect.com/science/article/pii/S0960982218316099',
+    kind: 'conservation',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+  {
+    title: 'Oxford Ornithology 2023 — Density-dependent natal dispersal',
+    url: 'https://academic.oup.com/condor/article/125/1/duac042/6779103',
+    kind: 'distribution',
+    accessedAt: CRESTED_IBIS_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const RED_CROWNED_CRANE_SOURCES = [
+  {
+    title: 'ITIS: Grus japonensis, TSN 176184',
+    url: 'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=176184',
+    kind: 'taxonomy',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Ornithological Society of Japan: Check-list of Japanese Birds, 5th edition',
+    url: 'https://ornithology.jp/materials/checklist/osj_checklist_5ed-en.pdf',
+    kind: 'taxonomy',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN Red List: Grus japonensis, 2021 assessment with 2022 errata',
+    url: 'https://www.iucnredlist.org/species/22692167/213488064',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN SSC Crane Specialist Group: Crane Conservation Strategy, Red-crowned Crane',
+    url: 'https://savingcranes.org/wp-content/uploads/2024/10/crane_conservation_strategy_red-crowned_crane.pdf',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'International Red-crowned Crane Network: 2024/25 winter census',
+    url: 'https://rbcu.ru/upload/medialibrary/a07/k3qe0f3mm8kfdqsfmpakmodgf00k04xp/2026_CWGE%20Newsletter%20z20_compressed.pdf',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'International Crane Foundation: Conservation Status of Cranes 2025',
+    url: 'https://savingcranes.org/wp-content/uploads/2024/10/conservation_status_of_cranes_2025.pdf',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Higuchi et al. 1998: Satellite tracking of Red-crowned Crane migration',
+    url: 'https://doi.org/10.1046/j.1440-1703.1998.00271.x',
+    kind: 'distribution',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Inoue et al. 2013: Morphometrics of wild Red-crowned Cranes in Hokkaido',
+    url: 'https://pubmed.ncbi.nlm.nih.gov/23585489/',
+    kind: 'general',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Smithsonian National Zoo: Red-crowned Crane',
+    url: 'https://nationalzoo.si.edu/animals/red-crowned-crane',
+    kind: 'ecology',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Klenova et al. 2008: Pair identity in Red-crowned Crane duets',
+    url: 'https://doi.org/10.1007/s10164-007-0063-y',
+    kind: 'ecology',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Takeda et al. 2018: Duet displays and resource defence',
+    url: 'https://doi.org/10.1007/s00265-018-2485-7',
+    kind: 'ecology',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Ishiguro et al. 2024: Possible continental gene flow into Hokkaido',
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11171382/',
+    kind: 'ecology',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'CITES: Appendices I, II and III, valid from 5 March 2026',
+    url: 'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'CMS: Grus japonensis species listing',
+    url: 'https://www.cms.int/species/grus-japonensis',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: '中国国家重点保护野生动物名录（2021）',
+    url: 'https://www.forestry.gov.cn/html/main/main_5461/20210205122418860831352/file/20210205151950336764982.pdf',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: '中国生物多样性红色名录：脊椎动物卷（2020）',
+    url: 'https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/W020230522536559098623.pdf',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Japan Ministry of the Environment: Red List 5th edition, Grus japonensis',
+    url: 'https://ikilog.biodic.go.jp/rl_rdb/a/894.html',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
+  },
+  {
+    title: 'Japan Ministry of the Environment: HPAI response at crane feeding stations',
+    url: 'https://hokkaido.env.go.jp/kushiro/press_00110.html',
+    kind: 'conservation',
+    accessedAt: RED_CROWNED_CRANE_SOURCE_DATE,
   },
 ] as const satisfies readonly SpeciesSource[];
 
@@ -15537,6 +15775,520 @@ export const species = [
     featured: true,
     publishedAt: YANGTZE_FINLESS_PORPOISE_CONTENT_DATE,
     updatedAt: YANGTZE_FINLESS_PORPOISE_CONTENT_DATE,
+  },
+  {
+    id: 'species-nipponia-nippon',
+    slug: 'crested-ibis',
+    names: {
+      zh: '朱鹮',
+      en: 'Crested Ibis',
+      aliases: ['Asian Crested Ibis', 'Japanese Crested Ibis', 'Toki'],
+    },
+    scientificName: 'Nipponia nippon',
+    taxonomy: animalTaxonomy(
+      taxon('Chordata', '脊索动物门'),
+      taxon('Aves', '鸟纲'),
+      taxon('Pelecaniformes', '鹈形目'),
+      taxon('Threskiornithidae', '鹮科'),
+      taxon('Nipponia', '朱鹮属'),
+    ),
+    conservation: conservation('EN', 'increasing', 2018, 'B1ab(iii)'),
+    distribution: {
+      realms: ['terrestrial', 'freshwater'],
+      continents: ['亚洲'],
+      regions: ['中国秦岭及扩展区', '日本佐渡岛', '韩国牛浦湿地'],
+      countries: ['中国', '日本', '韩国'],
+      range:
+        '历史分布于东亚大陆、朝鲜半岛、日本和台湾；当前中国种群以陕西秦岭为恢复源头并持续扩展，日本佐渡和韩国牛浦为重引入种群。',
+      center: { lat: 33.23, lng: 107.55 },
+    },
+    habitats: [
+      {
+        name: '浅水稻田、河岸与淡水湿地',
+        realm: 'freshwater',
+        description: '在浅泥、浅水和缓流边缘探食，水位和农法改变季节可用性。',
+        isPrimary: true,
+      },
+      {
+        name: '农田、池塘与草地镶嵌景观',
+        realm: 'terrestrial',
+        description: '稻田、田埂、草地、池塘和水库组成觅食网络，冬季蓄水与低投入耕作维持猎物。',
+        isPrimary: true,
+      },
+      {
+        name: '湿地附近温带高大乔木林',
+        realm: 'terrestrial',
+        description: '在邻近觅食地的高大松、栎、榆等横枝筑盘状巢并夜栖。',
+      },
+    ],
+    measurements: {
+      length: {
+        typical: 75,
+        unit: 'cm',
+        note: '日本国立科学博物馆物种概览的代表值，不是全种极值。',
+      },
+      weight: {
+        min: 1.6,
+        max: 2,
+        unit: 'kg',
+        note: '日本国立科学博物馆物种概览的体重范围。',
+      },
+      wingspan: {
+        typical: 1.4,
+        unit: 'm',
+        note: '日本国立科学博物馆物种概览的代表值，不是全种极值。',
+      },
+    },
+    diet: {
+      types: ['carnivore', 'piscivore', 'insectivore'],
+      foods: [
+        '泥鳅及其他小鱼',
+        '蛙类',
+        '淡水蟹与螯虾',
+        '河螺等软体动物',
+        '昆虫及幼虫',
+        '蚯蚓',
+      ],
+      description:
+        '以弯喙在浅泥和浅水中触觉探食，随季节在稻田、河岸、田埂和草地间改变猎物组合。',
+    },
+    activity: [
+      '日出前后离开夜栖树',
+      '以弯喙触觉探查浅泥',
+      '白天觅食与树上休息交替',
+      '日落前返回林木夜栖',
+      '非繁殖期可形成觅食群',
+      '双亲共同筑巢、孵卵和育雏',
+    ],
+    tags: [
+      '东亚涉禽',
+      'IUCN 濒危',
+      '国家一级重点保护野生动物',
+      'CITES 附录 I',
+      '重引入',
+      '稻田湿地',
+      '触觉探食',
+      '繁殖期涂羽',
+    ],
+    summary:
+      '1981 年在陕西重新发现 7 只后恢复到全球超过 11,000 只的东亚涉禽，会把皮肤分泌物涂在白羽上形成灰色繁殖外观。',
+    description:
+      '朱鹮以红色裸脸、下弯黑喙、朱红腿和鲑橙飞羽辨识，在高树筑巢，到附近稻田、河岸和浅水湿地探食。1981 年陕西洋县仅发现 7 只，此后通过巡护、繁育、栖息地管理和中日韩重引入恢复到全球超过 11,000 只。IUCN 结构化状态仍为 2018 年 EN、increasing、B1ab(iii)，其成熟个体估计沿用 2006 年数据；恢复不等于遗传瓶颈、污染和生境风险已经消失。',
+    storySections: [
+      {
+        key: 'seven-founders',
+        label: '恢复史',
+        title: '从七只幸存者重新铺开东亚种群',
+        body: '1981 年仅确认 4 成鸟、3 幼鸟。全球总量后来超过 11,000 只，但终点是混合总量，创始瓶颈仍留在遗传结构中。',
+      },
+      {
+        key: 'cosmetic-plumage',
+        label: '繁殖外观',
+        title: '灰色不是换羽，而是自己涂上去的',
+        body: '成鸟洗浴后把面部附近皮肤产生的黑色物质涂到头颈和肩背白羽，多次涂抹形成炭灰色外观。',
+      },
+      {
+        key: 'paddy-forest-mosaic',
+        label: '生境拼图',
+        title: '在稻田觅食，在邻近高树筑巢',
+        body: '浅水农田和河岸提供猎物，高树承载巢与夜栖点；冬季蓄水、低投入耕作和林木保护必须一起发生。',
+      },
+      {
+        key: 'assessment-clock',
+        label: '数字边界',
+        title: '2018 年状态背后，仍是 2006 年数量',
+        body: 'IUCN 的 330 只成熟个体来自 2006 年。2024 年日本成熟个体估计已达 336 只，全球正式状态仍要等待重评。',
+      },
+      {
+        key: 'east-asian-return',
+        label: '重引入',
+        title: '佐渡与牛浦的归来，从放飞才刚开始',
+        body: '中国秦岭、日本佐渡、韩国牛浦重建部分历史范围；野外出生、成熟、配对与持续生存比放飞数更能说明恢复。',
+      },
+      {
+        key: 'tactile-foraging',
+        label: '觅食',
+        title: '用弯喙的末端读出泥里的猎物',
+        body: '朱鹮把弯喙探入浅泥，以触觉发现小鱼、蟹、昆虫幼虫和蚯蚓，季节水位改变田块选择。',
+      },
+    ],
+    keyFacts: [
+      '主名 Crested Ibis；Asian Crested Ibis 为别名。',
+      'IUCN 为 EN、increasing、2018、B1ab(iii)，正在重评。',
+      'IUCN 约 330 只成熟个体源于 2006 年旧估计。',
+      '1981 年重新发现 7 只；2024 年全球概数超过 11,000 只，但不是成熟个体数。',
+      '中国列国家一级，中国红名录 2020 为 EN，CITES 列附录 I。',
+      '繁殖期炭灰色来自把皮肤分泌物涂在白羽上。',
+      '佐渡雌雄均值约总长 73.1—77.2 cm、体重 1.55—1.78 kg，不是绝对范围。',
+      '窝卵数中位数 3、范围 2—5，孵化约 27—28 天，约 40—45 天离巢。',
+    ],
+    threats: [
+      '历史猎捕、巢树砍伐与湿地丧失',
+      '农药、化肥与猎物衰退',
+      '冬季稻田排干、土地转用和河岸硬化',
+      '偶发射杀、捕捉和巢区干扰',
+      '七只创始瓶颈造成的低遗传多样性',
+      '小型重引入种群的疾病、随机事件与连通风险',
+    ],
+    conservationActions: [
+      '保护巢树、繁殖核心和夜栖林',
+      '推广低投入稻作、冬季延长蓄水并恢复浅水猎物',
+      '分别监测野外、放归和人工种群',
+      '结合健康、行为和遗传评估开展放归与追踪',
+      '维持中日韩种群遗传管理与疾病防控',
+      '执行国家一级与 CITES 管理并规范观鸟距离',
+    ],
+    metrics: {
+      adultMassKg: [1.6, 2],
+    },
+    featuredStats: [
+      {
+        key: 'rediscovery',
+        label: '1981 年重新发现',
+        value: '7',
+        unit: '只',
+        note: '4 成鸟、3 幼鸟',
+      },
+      {
+        key: 'global-total',
+        label: '2024 全球官方概数',
+        value: '>11,000',
+        unit: '只',
+        note: '全龄、野外与人工混合；不是成熟个体数',
+      },
+      {
+        key: 'sado-wild',
+        label: '2024 年末佐渡野外',
+        value: '576',
+        unit: '只',
+        note: '133 只放归、443 只野外出生',
+      },
+      {
+        key: 'clutch',
+        label: '窝卵数',
+        value: '2—5',
+        unit: '枚',
+        note: '研究汇总中位数 3',
+      },
+    ],
+    media: {
+      image: './images/species/crested-ibis/01-rice-paddy-flight.webp',
+      alt: '一只朱鹮伸直颈部低飞越过浅水稻田，红色裸脸、下弯黑喙、白色身体和鲑橙色下翼清楚可见',
+      focalPoint: { x: 0.68, y: 0.48 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/crested-ibis/02-adult-field-marks.webp',
+          alt: '浅水田边一只完整非繁殖成鸟侧身站立，红色裸脸和腿、黑色下弯喙红色喙端、白色冠羽与淡鲑色飞羽可见',
+          title: '红脸、弯喙与鲑色飞羽',
+          caption:
+            '红脸、下弯黑喙与鲑橙飞羽组合用于辨识；重建图保留非繁殖期白色体羽。',
+          focalPoint: { x: 0.55, y: 0.52 },
+        },
+        {
+          image: './images/species/crested-ibis/03-paddy-forest-mosaic.webp',
+          alt: '东亚浅水稻田、河岸池塘与邻近温带高树林组成连续景观，一只小比例朱鹮在田中觅食',
+          title: '稻田与巢树组成的生境拼图',
+          caption:
+            '浅水农田供食，高大邻林承载巢与夜栖点；画面展示通用景观，不代表某个恢复区。',
+          focalPoint: { x: 0.55, y: 0.57 },
+        },
+        {
+          image: './images/species/crested-ibis/04-tactile-paddy-foraging.webp',
+          alt: '一只朱鹮把向下弯曲的长喙探入浅水稻田软泥，以触觉寻找泥中小型猎物',
+          title: '用弯喙探读浅泥',
+          caption:
+            '喙端在泥中依靠触觉寻找猎物；单幅觅食场景不表示泥鳅是全年唯一主食。',
+          focalPoint: { x: 0.5, y: 0.58 },
+        },
+        {
+          image: './images/species/crested-ibis/05-cosmetic-daubing.webp',
+          alt: '繁殖期朱鹮洗浴后把头侧贴向肩背涂抹，头颈与上背呈炭灰色，翼和腹部仍白',
+          title: '自己涂出的繁殖灰色',
+          caption:
+            '炭灰来自洗浴后反复涂抹皮肤分泌物，不是换出的黑色新羽，也不覆盖翼腹。',
+          focalPoint: { x: 0.55, y: 0.5 },
+        },
+        {
+          image: './images/species/crested-ibis/06-leg-band-monitoring.webp',
+          alt: '恢复区浅水稻田中一只佩戴细小彩色脚环的朱鹮正常觅食，两名研究人员在远处用望远镜记录',
+          title: '从远处追踪一次归来',
+          caption:
+            '脚环让研究者从远处记录生存与移动；画面不对应特定个体、放归批次或恢复成效。',
+          focalPoint: { x: 0.62, y: 0.58 },
+        },
+      ],
+    },
+    sources: CRESTED_IBIS_SOURCES,
+    featured: true,
+    publishedAt: CRESTED_IBIS_CONTENT_DATE,
+    updatedAt: CRESTED_IBIS_CONTENT_DATE,
+  },
+  {
+    id: 'species-grus-japonensis',
+    slug: 'red-crowned-crane',
+    names: {
+      zh: '丹顶鹤',
+      en: 'Red-crowned Crane',
+      aliases: ['Japanese Crane', 'Manchurian Crane'],
+    },
+    scientificName: 'Grus japonensis',
+    taxonomy: animalTaxonomy(
+      taxon('Chordata', '脊索动物门'),
+      taxon('Aves', '鸟纲'),
+      taxon('Gruiformes', '鹤形目'),
+      taxon('Gruidae', '鹤科'),
+      taxon('Grus', '鹤属'),
+    ),
+    conservation: conservation('VU', 'decreasing', 2021, 'A2ac+4ac; C1'),
+    distribution: {
+      realms: ['terrestrial', 'freshwater', 'marine'],
+      continents: ['亚洲'],
+      regions: [
+        '中国东北与俄罗斯远东繁殖湿地',
+        '北海道与国后岛',
+        '中国黄渤海沿岸',
+        '朝鲜半岛非军事区及民统线地区',
+      ],
+      countries: ['中国', '俄罗斯', '蒙古', '朝鲜', '韩国', '日本'],
+      range:
+        '大陆迁徙种群在中国东北和俄罗斯远东南部繁殖，经两条主要路线迁往中国东部沿海及朝鲜半岛越冬；岛屿留居种群主要全年生活在北海道，并向国后岛扩展。蒙古包括已确认范围记录，不表示全国普遍分布。',
+    },
+    habitats: [
+      {
+        name: '芦苇、苔草沼泽与湿草甸',
+        realm: 'freshwater',
+        description: '主要繁殖生境；成鸟在浅水包围的植被垫或低丘上筑巢，水位过高或过低都会降低繁殖安全。',
+        isPrimary: true,
+      },
+      {
+        name: '河流、浅水沼泽与水库',
+        realm: 'freshwater',
+        description: '用于取食、夜栖、停歇和局地移动，生境质量取决于水位、开阔浅水与干扰程度。',
+      },
+      {
+        name: '黄海潮滩、盐沼与河口',
+        realm: 'marine',
+        description: '大陆种群的重要越冬和停歇环境，可提供软体动物、鱼类及其他水生动物。',
+      },
+      {
+        name: '稻田与收获后农田',
+        realm: 'terrestrial',
+        description: '朝鲜半岛和中国部分越冬地的重要落谷觅食环境，依赖鹤友好耕作与低干扰管理。',
+      },
+    ],
+    measurements: {
+      length: {
+        min: 101.9,
+        max: 147,
+        unit: 'cm',
+        note: '北海道成鸟尸体样本的雌雄合并包络，不是全球健康活体范围。',
+      },
+      height: {
+        typical: 1.58,
+        unit: 'm',
+        note: 'Smithsonian 给出的站立高度，不能与体长混用。',
+      },
+      weight: {
+        min: 4.8,
+        max: 10.55,
+        unit: 'kg',
+        note: '北海道成鸟尸体样本；雌雄、年龄、季节和身体状况均会影响体重。',
+      },
+      wingspan: {
+        max: 2.5,
+        unit: 'm',
+        note: 'Smithsonian 物种概览给出的翼展上限，现有来源不支持完整范围。',
+      },
+    },
+    diet: {
+      types: ['omnivore'],
+      foods: [
+        '鱼类',
+        '蛙、蛇及其他小型脊椎动物',
+        '软体动物与水生无脊椎动物',
+        '昆虫',
+        '芦苇和其他草本植物',
+        '稻谷与其他落谷',
+      ],
+      description:
+        '在浅水、泥滩和农田步行取食。动物性食物占有重要位置，也取食植物、种子和落谷，食物组合随种群、季节与地点改变。',
+    },
+    activity: [
+      '繁殖期建立并防卫湿地领域',
+      '在浅水、泥滩与农田步行取食',
+      '配对合鸣与舞蹈',
+      '冬季以家庭和更大群体活动',
+      '大陆种群季节性迁徙，北海道种群主要留居',
+    ],
+    tags: [
+      '东亚湿地旗舰种',
+      'IUCN 易危',
+      '中国国家一级保护野生动物',
+      '大陆迁徙与北海道留居',
+      'CITES 附录 I',
+      'CMS 附录 I 和 II',
+      '裸露红冠',
+    ],
+    summary:
+      '头顶裸露红色皮肤、颈腿修长的东亚湿地鹤类，同一物种包含大陆迁徙种群与北海道留居种群。',
+    description:
+      '丹顶鹤的一部分沿东亚湿地链迁徙，另一部分主要全年留居北海道。繁殖巢依赖稳定浅水，越冬活动连接潮滩、河流和农田。2024/25 冬季同步普查记录 5,887 只全龄个体，其中大陆迁徙种群 3,737 只、日本留居种群 2,150 只；IUCN 正式字段仍采用 2021 年评估的 VU、decreasing 与 2,000—2,650 只成熟个体，两个统计口径不能互换。',
+    storySections: [
+      {
+        key: 'two-annual-cycles',
+        label: '种群',
+        title: '同一物种过着两种年周期',
+        body:
+          '大陆种群在中国东北和俄罗斯远东南部繁殖，迁往中国沿海与朝鲜半岛越冬；岛屿种群主要留居北海道和国后岛。两者属于移动和保护管理单元，不是两个亚种，遗传研究提示其间可能存在有限交流。',
+      },
+      {
+        key: 'two-flyways',
+        label: '迁徙',
+        title: '两条路线把湿地串成生命链',
+        body:
+          '西线约 2,200 千米，连接俄罗斯繁殖地与江苏沿海；东线约 900 千米，通往朝鲜半岛。盘锦、黄河口、图们江口与铁原等停歇地支撑长途移动，任一节点退化都可能影响整条路线。',
+      },
+      {
+        key: 'nest-water-balance',
+        label: '繁殖',
+        title: '浅水既是围障，也是风险',
+        body:
+          '成鸟把巢建在芦苇和苔草形成的低丘上，周围站立水体能隔开部分捕食者与干扰。干旱会使巢暴露，骤涨又会淹没巢，繁殖地管理需要维持合适水位并控制火灾。',
+      },
+      {
+        key: 'feeding-concentration',
+        label: '恢复',
+        title: '补饲恢复种群，也带来集中风险',
+        body:
+          '北海道冬季补饲帮助丹顶鹤度过食物短缺，却使数百只鸟聚在少数地点。禽流感、交通碰撞和对人工食物的依赖随之增加，管理者正分散补饲压力并扩大安全栖息地。',
+      },
+      {
+        key: 'duet-and-dance',
+        label: '行为',
+        title: '合鸣不只发生在求偶时',
+        body:
+          '丹顶鹤的合鸣具有可识别的配对声学结构，家庭关系、群体竞争和食物资源也会改变展示频率。舞蹈与合鸣共同参与配对协调、家庭联系及领域或资源防卫。',
+      },
+      {
+        key: 'wetland-chain-conservation',
+        label: '保护',
+        title: '数量回升仍依赖完整湿地链',
+        body:
+          '日本留居种群的恢复和近期冬季计数增加，没有消除大陆迁徙种群面临的湿地转换、水位失调、火灾、互花米草、毒物与电力线风险。保护需要同时覆盖繁殖地、停歇地、越冬地和鹤友好农田。',
+      },
+    ],
+    keyFacts: [
+      '接受名为 Grus japonensis，当前按单型种处理；大陆迁徙与日本留居单元不是亚种。',
+      'IUCN 正式字段为 VU、decreasing、2021、A2ac+4ac; C1；2022 是 errata 发布年，不是重评年份。',
+      'IUCN 采用 2,000—2,650 只成熟个体估计；2024/25 冬季普查的 5,887 是全龄数量，不能直接互换。',
+      '2024/25 冬季计数中，大陆迁徙种群为 3,737 只，日本留居种群为 2,150 只。',
+      '西线迁徙约 2,200 千米，东线约 900 千米，不存在适用于所有大陆个体的单一路线。',
+      '成鸟红色头冠是裸露皮肤，折翼时看似黑尾的部分主要是长黑色三级飞羽，真实尾羽为白色。',
+      '通常每窝两枚卵，双亲孵化约 29—34 天，幼鸟约 95 天具飞行能力。',
+      'CITES 将本种列入附录 I，CMS 将本种列入附录 I 和 II。两个公约的附录体系不能互换。',
+      '中国国家一级、全球 IUCN VU、中国红名录 EN C1 与日本国内 NT 属于不同法律或评估体系。',
+    ],
+    threats: [
+      '繁殖、停歇和越冬湿地丧失与破碎化',
+      '水坝、引水、排水及异常水位改变',
+      '巢区火灾和互花米草入侵',
+      '农药、毒饵、重金属及食物污染',
+      '电力线、道路和其他基础设施碰撞',
+      '朝鲜半岛关键农田与非军事区土地用途变化',
+      '北海道补饲点集中引起的疾病、碰撞和人类依赖风险',
+    ],
+    conservationActions: [
+      '保护并恢复跨境繁殖、停歇和越冬湿地链',
+      '维持适合筑巢的浅水水位并加强繁殖地防火',
+      '控制互花米草并恢复潮滩和盐沼',
+      '保护非军事区、民统线和鹤友好稻田并补偿农户',
+      '降低毒物暴露并标记或改造高风险电力线',
+      '同步监测大陆迁徙与日本留居种群并统一计数口径',
+      '分散北海道冬季补饲和夜栖压力，扩大替代栖息地',
+    ],
+    metrics: {
+      adultLengthCm: [101.9, 147],
+      adultMassKg: [4.8, 10.55],
+      estimatedMatureIndividuals: [2000, 2650],
+    },
+    featuredStats: [
+      {
+        key: 'winter-total',
+        label: '2024/25 冬季全龄计数',
+        value: '5,887',
+        unit: '只',
+        note: 'IRCN 同步普查，不是成熟个体数',
+      },
+      {
+        key: 'continental-population',
+        label: '大陆迁徙种群',
+        value: '3,737',
+        unit: '只',
+        note: '2024/25 冬季：中国 1,033 只，韩国 2,704 只',
+      },
+      {
+        key: 'resident-population',
+        label: '日本留居种群',
+        value: '2,150',
+        unit: '只',
+        note: '2024/25 冬季计数或估计',
+      },
+      {
+        key: 'standing-height',
+        label: '站立高度',
+        value: '约 158',
+        unit: '厘米',
+        note: 'Smithsonian 物种概览代表值，不是体长',
+      },
+    ],
+    media: {
+      image: './images/species/red-crowned-crane/01-red-crown-marsh-portrait.webp',
+      alt: '一只头顶具有裸露红色皮肤、黑色脸和前颈、白色后颈与身体的成鸟丹顶鹤，站在春季浅水芦苇沼泽中',
+      focalPoint: { x: 0.7, y: 0.5 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/red-crowned-crane/02-hokkaido-snow-courtship-duet.webp',
+          alt: '两只成鸟丹顶鹤在北海道雪地湿草甸中保持自然距离合鸣和舞蹈，其中一只展翼，另一只昂首鸣叫',
+          title: '雪地中的配对合鸣与舞蹈',
+          caption: '合鸣和舞蹈参与配对协调及资源防卫，单幅展示不能判断配对持续时间或繁殖结果。',
+          focalPoint: { x: 0.59, y: 0.51 },
+        },
+        {
+          image: './images/species/red-crowned-crane/03-shallow-water-nest-and-chicks.webp',
+          alt: '一只成鸟丹顶鹤守在浅水芦苇间的低矮植被巢丘旁，两只头颈肉桂褐且没有红冠的幼鸟留在近处',
+          title: '需要稳定浅水的巢与幼鸟',
+          caption: '巢周浅水能隔开部分干扰，但水位骤降会暴露巢，骤升则可能淹没巢与幼鸟。',
+          focalPoint: { x: 0.6, y: 0.53 },
+        },
+        {
+          image: './images/species/red-crowned-crane/04-continental-wetland-migration.webp',
+          alt: '两只成鸟丹顶鹤伸直长颈、双腿向后，在东亚大陆湿地上空迁飞，白色初级飞羽和黑色次级飞羽清楚可见',
+          title: '大陆迁徙种群的长途飞行',
+          caption: '画面代表大陆种群迁徙形态，不对应具体遥测个体，也不能代表主要留居北海道的种群。',
+          focalPoint: { x: 0.57, y: 0.42 },
+        },
+        {
+          image: './images/species/red-crowned-crane/05-coastal-winter-foraging.webp',
+          alt: '两只成鸟丹顶鹤在东亚沿海冬季潮滩浅水中步行，低头寻找小鱼、软体动物及其他小型猎物',
+          title: '沿海越冬地的成鸟觅食',
+          caption: '潮滩与河口为大陆种群提供动物性食物，单个场景不能概括全年或全分布区食谱。',
+          focalPoint: { x: 0.57, y: 0.56 },
+        },
+        {
+          image: './images/species/red-crowned-crane/06-distance-conservation-monitoring.webp',
+          alt: '一只丹顶鹤在宽阔浅水湿地中活动，两名研究人员在远处堤岸使用单筒望远镜并记录鸟类与水位',
+          title: '保持距离的湿地监测',
+          caption: '重复调查能比较数量与生境变化；画面不冒充一次真实调查，也不由一次目击推算种群规模。',
+          focalPoint: { x: 0.61, y: 0.49 },
+        },
+      ],
+    },
+    sources: RED_CROWNED_CRANE_SOURCES,
+    featured: true,
+    publishedAt: RED_CROWNED_CRANE_CONTENT_DATE,
+    updatedAt: RED_CROWNED_CRANE_CONTENT_DATE,
   },
 ] as const satisfies readonly Species[];
 

@@ -25,6 +25,8 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Red kangaroo image set](./species/red-kangaroo/README.md)
 - [Common bottlenose dolphin image set](./species/common-bottlenose-dolphin/README.md)
 - [Yangtze Finless Porpoise image set](./species/yangtze-finless-porpoise/README.md)
+- [Crested Ibis image set](./species/crested-ibis/README.md)
+- [Red-crowned Crane image set](./species/red-crowned-crane/README.md)
 - [Snowy albatross image set](./species/wandering-albatross/README.md)
 - [Ruby-throated hummingbird image set](./species/ruby-throated-hummingbird/README.md)
 - [Green sea turtle image set](./species/green-sea-turtle/README.md)

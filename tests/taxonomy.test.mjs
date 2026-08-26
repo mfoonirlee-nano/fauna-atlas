@@ -2594,6 +2594,512 @@ test('registers the Yangtze finless porpoise as a complete Neophocaena asiaeorie
   assert.equal(porpoise.updatedAt, '2026-08-25');
 });
 
+test('registers the Crested Ibis as a complete Nipponia nippon profile', () => {
+  const ibis = findSpecies('crested-ibis');
+
+  assert.equal(ibis.id, 'species-nipponia-nippon');
+  assert.equal(ibis.names.zh, '朱鹮');
+  assert.equal(ibis.names.en, 'Crested Ibis');
+  assert.deepEqual(ibis.names.aliases, [
+    'Asian Crested Ibis',
+    'Japanese Crested Ibis',
+    'Toki',
+  ]);
+  assert.equal(ibis.scientificName, 'Nipponia nippon');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(ibis).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', ibis.scientificName, ibis.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Pelecaniformes', '鹈形目'],
+      ['family', 'Threskiornithidae', '鹮科'],
+      ['genus', 'Nipponia', '朱鹮属'],
+      ['species', 'Nipponia nippon', '朱鹮'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: ibis.conservation.code,
+      trend: ibis.conservation.trend,
+      assessedYear: ibis.conservation.assessedYear,
+      criteria: ibis.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'increasing',
+      assessedYear: 2018,
+      criteria: 'B1ab(iii)',
+    },
+  );
+
+  assert.deepEqual(ibis.distribution.realms, ['terrestrial', 'freshwater']);
+  assert.deepEqual(ibis.distribution.continents, ['亚洲']);
+  assert.deepEqual(ibis.distribution.regions, [
+    '中国秦岭及扩展区',
+    '日本佐渡岛',
+    '韩国牛浦湿地',
+  ]);
+  assert.deepEqual(ibis.distribution.countries, ['中国', '日本', '韩国']);
+  assert.deepEqual(ibis.distribution.center, { lat: 33.23, lng: 107.55 });
+  assert.match(ibis.distribution.range, /历史分布.*日本和台湾/);
+  assert.match(ibis.distribution.range, /佐渡和韩国牛浦为重引入种群/);
+
+  assert.deepEqual(
+    {
+      typical: ibis.measurements.length?.typical,
+      unit: ibis.measurements.length?.unit,
+    },
+    { typical: 75, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: ibis.measurements.weight?.min,
+      max: ibis.measurements.weight?.max,
+      unit: ibis.measurements.weight?.unit,
+    },
+    { min: 1.6, max: 2, unit: 'kg' },
+  );
+  assert.deepEqual(
+    {
+      typical: ibis.measurements.wingspan?.typical,
+      unit: ibis.measurements.wingspan?.unit,
+    },
+    { typical: 1.4, unit: 'm' },
+  );
+  assert.match(ibis.measurements.length?.note ?? '', /代表值.*不是全种极值/);
+  assert.match(ibis.measurements.weight?.note ?? '', /体重范围/);
+  assert.match(ibis.measurements.wingspan?.note ?? '', /代表值.*不是全种极值/);
+  assert.equal(ibis.measurements.length?.min, undefined);
+  assert.equal(ibis.measurements.length?.max, undefined);
+  assert.equal(ibis.measurements.wingspan?.min, undefined);
+  assert.equal(ibis.measurements.wingspan?.max, undefined);
+  assert.deepEqual(ibis.metrics, { adultMassKg: [1.6, 2] });
+  assert.ok(!('estimatedMatureIndividuals' in ibis.metrics));
+
+  assert.equal(ibis.habitats.length, 3);
+  assert.equal(ibis.habitats.filter(({ isPrimary }) => isPrimary).length, 2);
+  assert.deepEqual(ibis.diet.types, ['carnivore', 'piscivore', 'insectivore']);
+  assert.equal(ibis.diet.foods.length, 6);
+  assert.equal(ibis.activity.length, 6);
+
+  assert.equal(ibis.storySections?.length, 6);
+  assert.deepEqual(
+    ibis.storySections.map(({ key }) => key),
+    [
+      'seven-founders',
+      'cosmetic-plumage',
+      'paddy-forest-mosaic',
+      'assessment-clock',
+      'east-asian-return',
+      'tactile-foraging',
+    ],
+  );
+  assert.equal(new Set(ibis.storySections.map(({ key }) => key)).size, 6);
+  assert.equal(ibis.keyFacts.length, 8);
+  assert.equal(ibis.threats.length, 6);
+  assert.equal(ibis.conservationActions.length, 6);
+  assert.equal(ibis.featuredStats.length, 4);
+  assert.deepEqual(
+    ibis.featuredStats.map(({ key }) => key),
+    ['rediscovery', 'global-total', 'sado-wild', 'clutch'],
+  );
+  assert.equal(
+    ibis.featuredStats.find(({ key }) => key === 'global-total')?.value,
+    '>11,000',
+  );
+  assert.match(
+    ibis.featuredStats.find(({ key }) => key === 'global-total')?.note ?? '',
+    /全龄、野外与人工混合.*不是成熟个体数/,
+  );
+  assert.equal(
+    ibis.featuredStats.find(({ key }) => key === 'sado-wild')?.value,
+    '576',
+  );
+
+  assert.equal(ibis.media.gallery?.length, 5);
+  assert.equal(ibis.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [ibis.media.image, ...ibis.media.gallery.map(({ image }) => image)];
+  assert.deepEqual(mediaPaths, [
+    './images/species/crested-ibis/01-rice-paddy-flight.webp',
+    './images/species/crested-ibis/02-adult-field-marks.webp',
+    './images/species/crested-ibis/03-paddy-forest-mosaic.webp',
+    './images/species/crested-ibis/04-tactile-paddy-foraging.webp',
+    './images/species/crested-ibis/05-cosmetic-daubing.webp',
+    './images/species/crested-ibis/06-leg-band-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(!ibis.media.gallery.some(({ image }) => image === ibis.media.image));
+  const mediaRecords = [ibis.media, ...ibis.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok(
+    ibis.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(ibis.sources.length, 20);
+  const sourceUrls = new Set(ibis.sources.map(({ url }) => url));
+  assert.equal(sourceUrls.size, ibis.sources.length);
+  assert.ok(
+    [
+      'https://avibase.bsc-eoc.org/species.jsp?avibaseid=3E328C3C526E7ECF',
+      'https://datazone.birdlife.org/species/factsheet/asian-crested-ibis-nipponia-nippon',
+      'https://www.forestry.gov.cn/c/www/dfdt/545445.jhtml',
+      'https://www.env.go.jp/nature/kisho/5th-rl-2026/BI0054_RDB5th.pdf',
+      'https://www.kahaku.go.jp/pickup-science/nid00001005.html',
+      'https://doi.org/10.3312/jyio1952.6.54',
+      'https://doi.org/10.1017/S0959270913000035',
+      'https://www.sciencedirect.com/science/article/pii/S0960982218316099',
+    ].every((url) => sourceUrls.has(url)),
+  );
+  assert.ok(ibis.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(ibis.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(ibis.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'));
+  assert.deepEqual(
+    new Set(ibis.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'ecology', 'distribution']),
+  );
+
+  const profileText = [
+    ibis.summary,
+    ibis.description,
+    ibis.distribution.range,
+    ...ibis.names.aliases,
+    ...ibis.tags,
+    ...ibis.storySections.flatMap(({ label, title, body }) => [label, title, body]),
+    ...ibis.keyFacts,
+    ...ibis.threats,
+    ...ibis.conservationActions,
+    ...ibis.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(ibis.summary, /1981 年在陕西重新发现 7 只/);
+  assert.doesNotMatch(ibis.summary, /1981 年仅存 7 只/);
+  assert.match(profileText, /1981 年.*(?:发现|确认).*7 只|1981 年重新发现 7 只/);
+  assert.match(profileText, /超过 11,000 只.*不是成熟个体数/);
+  assert.match(profileText, /IUCN.*330 只成熟个体.*2006 年/);
+  assert.match(profileText, /2024 年日本成熟个体估计已达 336 只.*等待重评/);
+  assert.match(profileText, /国家一级.*中国红名录 2020 为 EN.*CITES 列附录 I/);
+  assert.match(profileText, /皮肤分泌物.*白羽/);
+  assert.match(profileText, /雌雄均值约总长 73\.1—77\.2 cm、体重 1\.55—1\.78 kg.*不是绝对范围/);
+  assert.match(profileText, /佐渡.*韩国牛浦.*重引入种群/);
+  assert.doesNotMatch(profileText, /朱鹭/);
+  assert.ok(!ibis.tags.some((tag) => tag.includes('CMS')));
+
+  assert.equal(ibis.featured, true);
+  assert.equal(ibis.publishedAt, '2026-08-25');
+  assert.equal(ibis.updatedAt, '2026-08-25');
+});
+
+test('registers the Red-crowned Crane as a complete Grus japonensis profile', () => {
+  const crane = findSpecies('red-crowned-crane');
+
+  assert.equal(crane.id, 'species-grus-japonensis');
+  assert.equal(crane.names.zh, '丹顶鹤');
+  assert.equal(crane.names.en, 'Red-crowned Crane');
+  assert.deepEqual(crane.names.aliases, ['Japanese Crane', 'Manchurian Crane']);
+  assert.equal(crane.scientificName, 'Grus japonensis');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(crane).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', crane.scientificName, crane.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Gruiformes', '鹤形目'],
+      ['family', 'Gruidae', '鹤科'],
+      ['genus', 'Grus', '鹤属'],
+      ['species', 'Grus japonensis', '丹顶鹤'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: crane.conservation.code,
+      trend: crane.conservation.trend,
+      assessedYear: crane.conservation.assessedYear,
+      criteria: crane.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2021,
+      criteria: 'A2ac+4ac; C1',
+    },
+  );
+
+  assert.deepEqual(crane.distribution.realms, [
+    'terrestrial',
+    'freshwater',
+    'marine',
+  ]);
+  assert.deepEqual(crane.distribution.continents, ['亚洲']);
+  assert.deepEqual(crane.distribution.regions, [
+    '中国东北与俄罗斯远东繁殖湿地',
+    '北海道与国后岛',
+    '中国黄渤海沿岸',
+    '朝鲜半岛非军事区及民统线地区',
+  ]);
+  assert.deepEqual(crane.distribution.countries, [
+    '中国',
+    '俄罗斯',
+    '蒙古',
+    '朝鲜',
+    '韩国',
+    '日本',
+  ]);
+  assert.ok(!('center' in crane.distribution));
+  assert.match(crane.distribution.range, /大陆迁徙种群.*两条主要路线/);
+  assert.match(crane.distribution.range, /岛屿留居种群.*北海道/);
+
+  assert.deepEqual(
+    {
+      min: crane.measurements.length?.min,
+      max: crane.measurements.length?.max,
+      unit: crane.measurements.length?.unit,
+    },
+    { min: 101.9, max: 147, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      typical: crane.measurements.height?.typical,
+      unit: crane.measurements.height?.unit,
+    },
+    { typical: 1.58, unit: 'm' },
+  );
+  assert.deepEqual(
+    {
+      min: crane.measurements.weight?.min,
+      max: crane.measurements.weight?.max,
+      unit: crane.measurements.weight?.unit,
+    },
+    { min: 4.8, max: 10.55, unit: 'kg' },
+  );
+  assert.deepEqual(
+    {
+      max: crane.measurements.wingspan?.max,
+      unit: crane.measurements.wingspan?.unit,
+    },
+    { max: 2.5, unit: 'm' },
+  );
+  assert.match(
+    crane.measurements.length?.note ?? '',
+    /北海道成鸟尸体样本.*不是全球健康活体范围/,
+  );
+  assert.match(crane.measurements.height?.note ?? '', /站立高度.*体长/);
+  assert.match(
+    crane.measurements.wingspan?.note ?? '',
+    /翼展上限.*不支持完整范围/,
+  );
+  assert.equal(crane.measurements.wingspan?.min, undefined);
+  assert.equal(crane.measurements.wingspan?.typical, undefined);
+  assert.deepEqual(crane.metrics, {
+    adultLengthCm: [101.9, 147],
+    adultMassKg: [4.8, 10.55],
+    estimatedMatureIndividuals: [2000, 2650],
+  });
+  assert.ok(!('lifespanYears' in crane.metrics));
+  assert.ok(!('wingspanCm' in crane.metrics));
+
+  assert.equal(crane.habitats.length, 4);
+  assert.equal(crane.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.deepEqual(
+    new Set(crane.habitats.map(({ realm }) => realm)),
+    new Set(['freshwater', 'marine', 'terrestrial']),
+  );
+  assert.deepEqual(crane.diet.types, ['omnivore']);
+  assert.equal(crane.diet.foods.length, 6);
+  assert.equal(crane.activity.length, 5);
+
+  assert.equal(crane.storySections?.length, 6);
+  assert.deepEqual(
+    crane.storySections.map(({ key }) => key),
+    [
+      'two-annual-cycles',
+      'two-flyways',
+      'nest-water-balance',
+      'feeding-concentration',
+      'duet-and-dance',
+      'wetland-chain-conservation',
+    ],
+  );
+  assert.equal(new Set(crane.storySections.map(({ key }) => key)).size, 6);
+  assert.equal(crane.keyFacts.length, 9);
+  assert.equal(crane.threats.length, 7);
+  assert.equal(crane.conservationActions.length, 7);
+  assert.equal(crane.featuredStats.length, 4);
+  assert.deepEqual(
+    crane.featuredStats.map(({ key }) => key),
+    [
+      'winter-total',
+      'continental-population',
+      'resident-population',
+      'standing-height',
+    ],
+  );
+  assert.equal(
+    crane.featuredStats.find(({ key }) => key === 'winter-total')?.value,
+    '5,887',
+  );
+  assert.match(
+    crane.featuredStats.find(({ key }) => key === 'winter-total')?.note ?? '',
+    /不是成熟个体数/,
+  );
+  assert.equal(
+    crane.featuredStats.find(({ key }) => key === 'continental-population')
+      ?.value,
+    '3,737',
+  );
+  assert.equal(
+    crane.featuredStats.find(({ key }) => key === 'resident-population')?.value,
+    '2,150',
+  );
+
+  assert.equal(crane.media.gallery?.length, 5);
+  assert.equal(crane.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    crane.media.image,
+    ...crane.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/red-crowned-crane/01-red-crown-marsh-portrait.webp',
+    './images/species/red-crowned-crane/02-hokkaido-snow-courtship-duet.webp',
+    './images/species/red-crowned-crane/03-shallow-water-nest-and-chicks.webp',
+    './images/species/red-crowned-crane/04-continental-wetland-migration.webp',
+    './images/species/red-crowned-crane/05-coastal-winter-foraging.webp',
+    './images/species/red-crowned-crane/06-distance-conservation-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(!crane.media.gallery.some(({ image }) => image === crane.media.image));
+  const mediaRecords = [crane.media, ...crane.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok(
+    crane.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    crane.media.gallery.find(({ image }) => image.includes('03-shallow-water'))
+      ?.alt ?? '',
+    /一只成鸟.*两只.*幼鸟/,
+  );
+  assert.match(
+    crane.media.gallery.find(({ image }) => image.includes('05-coastal'))?.alt ?? '',
+    /两只成鸟/,
+  );
+  assert.doesNotMatch(
+    crane.media.gallery.find(({ image }) => image.includes('05-coastal'))?.alt ?? '',
+    /幼鸟/,
+  );
+  assert.match(
+    crane.media.gallery.find(({ image }) => image.includes('06-distance'))?.alt ?? '',
+    /两名研究人员/,
+  );
+
+  assert.equal(crane.sources.length, 18);
+  const sourceUrls = new Set(crane.sources.map(({ url }) => url));
+  assert.equal(sourceUrls.size, crane.sources.length);
+  assert.ok(
+    [
+      'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=176184',
+      'https://www.iucnredlist.org/species/22692167/213488064',
+      'https://rbcu.ru/upload/medialibrary/a07/k3qe0f3mm8kfdqsfmpakmodgf00k04xp/2026_CWGE%20Newsletter%20z20_compressed.pdf',
+      'https://doi.org/10.1046/j.1440-1703.1998.00271.x',
+      'https://pubmed.ncbi.nlm.nih.gov/23585489/',
+      'https://doi.org/10.1007/s10164-007-0063-y',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+      'https://www.cms.int/species/grus-japonensis',
+      'https://ikilog.biodic.go.jp/rl_rdb/a/894.html',
+    ].every((url) => sourceUrls.has(url)),
+  );
+  assert.ok(crane.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(crane.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(crane.sources.every(({ accessedAt }) => accessedAt === '2026-08-25'));
+  assert.deepEqual(
+    new Set(crane.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'general', 'ecology']),
+  );
+
+  const profileText = [
+    crane.summary,
+    crane.description,
+    crane.distribution.range,
+    ...crane.names.aliases,
+    ...crane.tags,
+    ...crane.storySections.flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...crane.keyFacts,
+    ...crane.threats,
+    ...crane.conservationActions,
+    ...crane.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /IUCN.*2021 年.*VU、decreasing.*2,000—2,650 只成熟个体/,
+  );
+  assert.match(
+    profileText,
+    /2024\/25 冬季.*5,887 只全龄个体.*大陆迁徙种群 3,737 只.*日本留居种群 2,150 只/,
+  );
+  assert.match(profileText, /两个统计口径不能互换|不能直接互换/);
+  assert.match(profileText, /2022 是 errata 发布年.*不是重评年份/);
+  assert.match(profileText, /大陆种群.*迁往.*北海道.*留居/);
+  assert.match(profileText, /日本留居种群的恢复.*没有消除大陆迁徙种群/);
+  assert.match(profileText, /红色头冠是裸露皮肤.*真实尾羽为白色/);
+  assert.match(profileText, /CITES 将本种列入附录 I.*CMS 将本种列入附录 I 和 II/);
+  assert.doesNotMatch(profileText, /CITES(?: 列入| 将本种列入)?附录 II/);
+  assert.doesNotMatch(profileText, /所有(?:个体|丹顶鹤).*(?:迁徙|迁移)/);
+
+  assert.equal(crane.featured, true);
+  assert.equal(crane.publishedAt, '2026-08-25');
+  assert.equal(crane.updatedAt, '2026-08-25');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
@@ -2606,6 +3112,13 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Threskiornithidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Nipponia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Gruiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Gruidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Grus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Sarcopterygii')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Coelacanthiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Latimeriidae')?.speciesCount, 1);
