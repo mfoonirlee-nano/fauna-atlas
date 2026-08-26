@@ -32,6 +32,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Snowy owl image set](./species/snowy-owl/README.md)
 - [Green peafowl image set](./species/green-peafowl/README.md)
 - [Arctic Tern image set](./species/arctic-tern/README.md)
+- [Common Ostrich image set](./species/african-ostrich/README.md)
 - [Snowy albatross image set](./species/wandering-albatross/README.md)
 - [Ruby-throated hummingbird image set](./species/ruby-throated-hummingbird/README.md)
 - [Green sea turtle image set](./species/green-sea-turtle/README.md)

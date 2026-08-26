@@ -4578,8 +4578,300 @@ test('registers the Arctic Tern as a complete Sterna paradisaea profile', async 
   assert.equal(arcticTern.updatedAt, '2026-08-26');
 });
 
+test('registers the Common Ostrich as a complete Struthio camelus profile', async () => {
+  const ostrich = findSpecies('african-ostrich');
+
+  assert.equal(ostrich.id, 'species-struthio-camelus');
+  assert.equal(ostrich.names.zh, '非洲鸵鸟');
+  assert.equal(ostrich.names.en, 'Common Ostrich');
+  assert.ok(ostrich.names.aliases.includes('鴕鳥'));
+  assert.ok(ostrich.names.aliases.includes('African Ostrich'));
+  assert.equal(ostrich.scientificName, 'Struthio camelus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(ostrich).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', ostrich.scientificName, ostrich.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Struthioniformes', '鸵鸟目'],
+      ['family', 'Struthionidae', '鸵鸟科'],
+      ['genus', 'Struthio', '鸵鸟属'],
+      ['species', 'Struthio camelus', '非洲鸵鸟'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: ostrich.conservation.code,
+      trend: ostrich.conservation.trend,
+      assessedYear: ostrich.conservation.assessedYear,
+      criteria: ostrich.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'decreasing',
+      assessedYear: 2025,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('criteria' in ostrich.conservation));
+
+  assert.deepEqual(ostrich.distribution.realms, ['terrestrial']);
+  assert.deepEqual(ostrich.distribution.continents, ['非洲']);
+  assert.ok(!('endemicTo' in ostrich.distribution));
+  assert.ok(!('center' in ostrich.distribution));
+  assert.match(
+    ostrich.distribution.range,
+    /非洲.*(?:稀树草原|草原|半干旱|灌丛)|(?:稀树草原|草原|半干旱|灌丛).*非洲/,
+  );
+
+  assert.ok(ostrich.habitats.length >= 3);
+  assert.equal(ostrich.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.ok(ostrich.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.ok(ostrich.diet.types.includes('omnivore'));
+  assert.ok(ostrich.diet.foods.length > 0);
+  assert.ok((ostrich.activity?.length ?? 0) > 0);
+  assert.ok(ostrich.tags.length > 0);
+
+  assert.deepEqual(
+    {
+      min: ostrich.measurements.height?.min,
+      max: ostrich.measurements.height?.max,
+      unit: ostrich.measurements.height?.unit,
+    },
+    { min: 1.7, max: 2.7, unit: 'm' },
+  );
+  assert.match(
+    ostrich.measurements.height?.note ?? '',
+    /雌(?:鸟|性)?.*1\.7\s*(?:至|—|-|~)\s*1\.9\s*米.*雄(?:鸟|性)?.*2\.1\s*(?:至|—|-|~)\s*2\.7\s*米/,
+  );
+  assert.deepEqual(
+    {
+      min: ostrich.measurements.weight?.min,
+      max: ostrich.measurements.weight?.max,
+      unit: ostrich.measurements.weight?.unit,
+    },
+    { min: 90, max: 130, unit: 'kg' },
+  );
+  assert.match(
+    ostrich.measurements.weight?.note ?? '',
+    /雌(?:鸟|性)?.*90\s*(?:至|—|-|~)\s*110\s*千克.*雄(?:鸟|性)?.*100\s*(?:至|—|-|~)\s*130\s*千克/,
+  );
+  assert.ok(!('adultLengthCm' in ostrich.metrics));
+  assert.deepEqual(ostrich.metrics.adultMassKg, [90, 130]);
+  assert.ok(!('topSpeedKph' in ostrich.metrics));
+
+  assert.equal(ostrich.storySections?.length, 6);
+  assert.equal(new Set(ostrich.storySections.map(({ key }) => key)).size, 6);
+  assert.ok(
+    ostrich.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(ostrich.keyFacts.length >= 8);
+  assert.ok(ostrich.threats.length >= 5);
+  assert.ok(ostrich.conservationActions.length >= 5);
+  assert.equal(ostrich.featuredStats.length, 4);
+  assert.equal(new Set(ostrich.featuredStats.map(({ key }) => key)).size, 4);
+
+  assert.equal(ostrich.media.gallery?.length, 5);
+  assert.equal(ostrich.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    ostrich.media.image,
+    ...ostrich.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/african-ostrich/01-open-savanna-adult-male-portrait.webp',
+    './images/species/african-ostrich/02-adult-female-field-marks.webp',
+    './images/species/african-ostrich/03-semi-arid-savanna-habitat.webp',
+    './images/species/african-ostrich/04-two-toed-running-stride.webp',
+    './images/species/african-ostrich/05-communal-ground-nest-and-eggs.webp',
+    './images/species/african-ostrich/06-distance-savanna-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !ostrich.media.gallery.some(({ image }) => image === ostrich.media.image),
+  );
+  const mediaRecords = [ostrich.media, ...ostrich.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    ostrich.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    ostrich.media.alt,
+    /(?:恰好|只有)?一只完整成年雄性非洲鸵鸟.*黑色体羽.*白色(?:飞羽|翼羽|翅羽|尾羽)/,
+  );
+  const femaleMedia = ostrich.media.gallery.find(({ image }) =>
+    image.includes('02-adult-female-field-marks'),
+  );
+  assert.match(
+    [femaleMedia?.alt, femaleMedia?.caption].join(' '),
+    /(?:恰好|只有)?一只完整成年雌性非洲鸵鸟.*灰褐(?:色)?体羽.*(?:浅色|较淡).*(?:翼|尾)/,
+  );
+  const habitatMedia = ostrich.media.gallery.find(({ image }) =>
+    image.includes('03-semi-arid-savanna-habitat'),
+  );
+  assert.match(
+    [habitatMedia?.alt, habitatMedia?.caption].join(' '),
+    /半干旱.*(?:稀树草原|草原).*(?:灌丛|开阔地).*(?:恰好|只有)?一只.*非洲鸵鸟/,
+  );
+  const runningMedia = ostrich.media.gallery.find(({ image }) =>
+    image.includes('04-two-toed-running-stride'),
+  );
+  const runningMediaText = [runningMedia?.alt, runningMedia?.caption].join(' ');
+  assert.match(
+    runningMediaText,
+    /(?:奔跑|跑动).*后脚.*两(?:个|枚)向前脚趾.*前脚.*(?:重叠|遮挡)/,
+  );
+  assert.match(
+    runningMediaText,
+    /每只脚.*两(?:个|枚)向前脚趾.*不能作为.*解剖图/,
+  );
+  assert.match(
+    runningMediaText,
+    /短翼.*(?:平衡|转向).*(?:单帧|画面).*(?:不证明|不能证明)/,
+  );
+  assert.match(
+    ostrich.media.gallery.find(({ image }) =>
+      image.includes('05-communal-ground-nest-and-eggs'),
+    )?.alt ?? '',
+    /一只完整成年雌性非洲鸵鸟.*(?:共同|公共)?地面浅(?:刮巢|窝).*(?:多枚|数枚|八枚).*卵/,
+  );
+  assert.match(
+    ostrich.media.gallery.find(({ image }) =>
+      image.includes('06-distance-savanna-monitoring'),
+    )?.alt ?? '',
+    /(?:恰好)?两名.*观察者.*一台三脚架望远镜.*(?:远处|远距离).*(?:恰好|只有)?一只.*非洲鸵鸟/,
+  );
+
+  assert.ok(ostrich.sources.length >= 5);
+  assert.equal(
+    new Set(ostrich.sources.map(({ url }) => url)).size,
+    ostrich.sources.length,
+  );
+  assert.ok(ostrich.sources.every(({ title }) => title.length > 0));
+  assert.ok(ostrich.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(ostrich.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    ostrich.sources.every(({ accessedAt }) => accessedAt === '2026-08-26'),
+  );
+  assert.deepEqual(
+    new Set(ostrich.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general', 'distribution']),
+  );
+
+  const profileText = [
+    ostrich.summary,
+    ostrich.description,
+    ostrich.distribution.range,
+    ...ostrich.names.aliases,
+    ...ostrich.habitats.map(({ description }) => description),
+    ostrich.measurements.height?.note ?? '',
+    ostrich.measurements.weight?.note ?? '',
+    ostrich.diet.description,
+    ...(ostrich.activity ?? []),
+    ...ostrich.tags,
+    ...ostrich.storySections.flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...ostrich.keyFacts,
+    ...ostrich.threats,
+    ...ostrich.conservationActions,
+    ...ostrich.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /IOC.*(?:4|四)(?:个|个获承认的)?亚种.*(?:3|三)(?:个)?现生.*(?:syriacus|阿拉伯鸵鸟).*(?:约)?\s*1966.*灭绝/i,
+  );
+  assert.match(
+    profileText,
+    /Struthio molybdophanes.*(?:独立物种|独立种).*(?:不是|不再作为).*亚种|(?:不是|不再作为).*亚种.*Struthio molybdophanes.*(?:独立物种|独立种)/i,
+  );
+  assert.match(profileText, /现存最大(?:的)?鸟类/);
+  assert.match(
+    profileText,
+    /(?:2\.7|2\.70)\s*米.*130\s*千克.*(?:上限|范围顶端|极值|最大).*(?:不代表|并非|不是).*(?:普通|典型|所有)/,
+  );
+  assert.match(
+    profileText,
+    /48\s*(?:至|—|-|~)\s*59\s*(?:千米\/小时|公里\/小时|km\/h).*(?:持续|较长时间).*69\s*(?:千米\/小时|公里\/小时|km\/h).*(?:短时|瞬时|峰值)/i,
+  );
+  assert.match(profileText, /(?:每只脚|双脚).*两(?:个|枚)(?:向前)?脚趾/);
+  assert.match(
+    profileText,
+    /翅膀.*(?:平衡|转向|制动|求偶).*(?:不能飞|不会飞|飞行退化)|(?:不能飞|不会飞|飞行退化).*翅膀.*(?:平衡|转向|制动|求偶)/,
+  );
+  assert.match(profileText, /(?:共同巢|公共巢).*(?:多只|数只).*雌鸟.*产卵/);
+  assert.match(
+    profileText,
+    /雌(?:鸟|性).*(?:7\s*(?:至|—|-|~)\s*10|七至十)枚.*卵/,
+  );
+  assert.match(
+    profileText,
+    /孵化(?:期)?.*42\s*(?:至|—|-|~)\s*46\s*天.*雌鸟.*(?:白天|日间).*雄鸟.*(?:夜间|夜里)/,
+  );
+  assert.match(
+    profileText,
+    /(?:IUCN\s*\/\s*BirdLife|BirdLife\s*\/\s*IUCN).*2025.*(?:无危|LC).*(?:趋势下降|下降趋势)/,
+  );
+  assert.match(
+    profileText,
+    /(?:无危|LC).*(?:不等于|不代表|不意味着).*(?:区域|各地|亚种|种群).*(?:安全|稳定|没有风险)/,
+  );
+  assert.match(
+    profileText,
+    /(?:把头埋进沙里|将头埋进沙中).*(?:神话|误解|不实)|(?:不会|并不|没有).*头.*埋.*沙/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:躲避危险|受惊|害怕).{0,12}(?:把|将)?头.{0,8}埋.{0,8}沙/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /Struthio molybdophanes.{0,30}(?:是|作为|属于).*Struthio camelus.{0,20}亚种/i,
+  );
+
+  assert.equal(ostrich.featured, true);
+  assert.equal(ostrich.publishedAt, '2026-08-26');
+  assert.equal(ostrich.updatedAt, '2026-08-26');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
+
+  assert.equal(species.length, 52);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -4590,7 +4882,10 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'order', 'Struthioniformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Struthionidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Struthio')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Charadriiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Laridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sterna')?.speciesCount, 1);
