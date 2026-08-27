@@ -5750,10 +5750,331 @@ test('registers the Leatherback Turtle as a complete Dermochelys coriacea profil
   assert.equal(leatherback.updatedAt, '2026-08-27');
 });
 
+test('registers the Marine Iguana as a complete Amblyrhynchus cristatus profile', async () => {
+  const marineIguana = findSpecies('marine-iguana');
+
+  assert.equal(marineIguana.id, 'species-amblyrhynchus-cristatus');
+  assert.equal(marineIguana.names.zh, '海鬣蜥');
+  assert.equal(marineIguana.names.en, 'Marine Iguana');
+  assert.deepEqual(marineIguana.names.aliases, [
+    '加拉帕戈斯海鬣蜥',
+    '海洋鬣蜥',
+    '钝鼻蜥',
+  ]);
+  assert.equal(marineIguana.scientificName, 'Amblyrhynchus cristatus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(marineIguana).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', marineIguana.scientificName, marineIguana.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Reptilia', '爬行纲'],
+      ['order', 'Squamata', '有鳞目'],
+      ['family', 'Iguanidae', '美洲鬣蜥科'],
+      ['genus', 'Amblyrhynchus', '海鬣蜥属'],
+      ['species', 'Amblyrhynchus cristatus', '海鬣蜥'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: marineIguana.conservation.code,
+      trend: marineIguana.conservation.trend,
+      assessedYear: marineIguana.conservation.assessedYear,
+      criteria: marineIguana.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2019,
+      criteria: 'A2abce+4abce',
+    },
+  );
+
+  assert.deepEqual(marineIguana.distribution.realms, ['marine', 'terrestrial']);
+  assert.deepEqual(marineIguana.distribution.continents, ['南美洲']);
+  assert.deepEqual(marineIguana.distribution.countries, ['厄瓜多尔']);
+  assert.deepEqual(marineIguana.distribution.endemicTo, ['加拉帕戈斯群岛']);
+  assert.deepEqual(marineIguana.distribution.center, {
+    lat: -0.65,
+    lng: -90.55,
+  });
+  assert.match(
+    marineIguana.distribution.range,
+    /仅自然分布.*加拉帕戈斯群岛.*(?:不能|不).*调查覆盖.*岛屿数.*完整分布岛数/,
+  );
+
+  assert.equal(marineIguana.habitats.length, 3);
+  assert.equal(
+    marineIguana.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.equal(
+    marineIguana.habitats.filter(({ realm }) => realm === 'marine').length,
+    2,
+  );
+  assert.equal(
+    marineIguana.habitats.filter(({ realm }) => realm === 'terrestrial').length,
+    1,
+  );
+  assert.deepEqual(marineIguana.diet.types, ['herbivore']);
+  assert.ok(marineIguana.diet.foods.some((food) => food.includes('红藻')));
+  assert.ok(marineIguana.diet.foods.some((food) => food.includes('绿藻')));
+  assert.match(
+    marineIguana.diet.description,
+    /北西摩.*局地.*Batis.*(?:不能|不).*代表全种/,
+  );
+  assert.ok((marineIguana.activity?.length ?? 0) > 0);
+  assert.ok(marineIguana.tags.includes('11个亚种'));
+
+  assert.deepEqual(
+    {
+      max: marineIguana.measurements.length?.max,
+      unit: marineIguana.measurements.length?.unit,
+    },
+    { max: 1.3, unit: 'm' },
+  );
+  assert.deepEqual(
+    {
+      max: marineIguana.measurements.weight?.max,
+      unit: marineIguana.measurements.weight?.unit,
+    },
+    { max: 12, unit: 'kg' },
+  );
+  assert.match(
+    marineIguana.measurements.length?.note ?? '',
+    /大型雄性.*(?:不是|不).*普通成体.*上限/,
+  );
+  assert.match(
+    marineIguana.measurements.weight?.note ?? '',
+    /岛屿最大雄性.*0\.9千克/,
+  );
+  assert.deepEqual(marineIguana.metrics, { maxDiveDepthM: 30 });
+  assert.ok(!('adultMassKg' in marineIguana.metrics));
+  assert.ok(!('adultLengthCm' in marineIguana.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in marineIguana.metrics));
+
+  assert.equal(marineIguana.storySections?.length, 6);
+  assert.deepEqual(
+    marineIguana.storySections.map(({ key }) => key),
+    [
+      'volcanic-shore',
+      'low-tide-table',
+      'cold-water-dive',
+      'nasal-salt',
+      'enso-shrinkage',
+      'island-by-island',
+    ],
+  );
+  assert.ok(
+    marineIguana.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(marineIguana.keyFacts.length, 14);
+  assert.ok(marineIguana.threats.length >= 5);
+  assert.ok(marineIguana.conservationActions.length >= 5);
+  assert.equal(marineIguana.featuredStats.length, 4);
+  assert.deepEqual(
+    marineIguana.featuredStats.map(({ key }) => key),
+    [
+      'recognized-subspecies',
+      'island-male-mass',
+      'foraging-depth',
+      'enso-shrinkage',
+    ],
+  );
+
+  assert.equal(marineIguana.media.gallery?.length, 5);
+  assert.equal(marineIguana.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    marineIguana.media.image,
+    ...marineIguana.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/marine-iguana/01-black-lava-adult-cover.webp',
+    './images/species/marine-iguana/02-flattened-tail-swimming.webp',
+    './images/species/marine-iguana/03-volcanic-intertidal-habitat.webp',
+    './images/species/marine-iguana/04-underwater-algae-grazing.webp',
+    './images/species/marine-iguana/05-sandy-nest-burrow-female.webp',
+    './images/species/marine-iguana/06-distance-shoreline-census.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !marineIguana.media.gallery.some(
+      ({ image }) => image === marineIguana.media.image,
+    ),
+  );
+  const mediaRecords = [marineIguana.media, ...marineIguana.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.7, y: 0.58 },
+      { x: 0.5, y: 0.56 },
+      { x: 0.31, y: 0.48 },
+      { x: 0.51, y: 0.58 },
+      { x: 0.49, y: 0.56 },
+      { x: 0.42, y: 0.68 },
+    ],
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    marineIguana.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    marineIguana.media.alt,
+    /只有一只完整.*海鬣蜥.*完整尾尖.*右侧.*海面/,
+  );
+  const swimmingMedia = marineIguana.media.gallery.find(({ image }) =>
+    image.includes('02-flattened-tail-swimming'),
+  );
+  assert.match(
+    [swimmingMedia?.alt, swimmingMedia?.caption].join(' '),
+    /只有一只完整.*海鬣蜥.*四肢贴近.*侧扁.*尾.*(?:不能提供|不提供).*潜水深度.*持续时间/,
+  );
+  const habitatMedia = marineIguana.media.gallery.find(({ image }) =>
+    image.includes('03-volcanic-intertidal-habitat'),
+  );
+  assert.match(
+    [habitatMedia?.alt, habitatMedia?.caption].join(' '),
+    /低潮.*(?:干燥|晒背).*浪溅带.*潮池.*近岸海水.*红绿藻.*(?:不代表|不对应).*指定岛屿.*覆盖率/,
+  );
+  const grazingMedia = marineIguana.media.gallery.find(({ image }) =>
+    image.includes('04-underwater-algae-grazing'),
+  );
+  assert.match(
+    [grazingMedia?.alt, grazingMedia?.caption].join(' '),
+    /只有一只完整.*海鬣蜥.*长爪.*岩面.*短钝吻.*藻.*不能确认.*物种.*摄入量.*潜深.*结果/,
+  );
+  const nestingMedia = marineIguana.media.gallery.find(({ image }) =>
+    image.includes('05-sandy-nest-burrow-female'),
+  );
+  assert.match(
+    [nestingMedia?.alt, nestingMedia?.caption].join(' '),
+    /只有一只完整.*雌性海鬣蜥.*巢洞.*(?:没有|无)可见卵.*(?:不提供|不能提供).*窝卵数.*巢深.*孵化期.*繁殖结果/,
+  );
+  const censusMedia = marineIguana.media.gallery.find(({ image }) =>
+    image.includes('06-distance-shoreline-census'),
+  );
+  assert.match(
+    [censusMedia?.alt, censusMedia?.caption].join(' '),
+    /只有一只完整.*海鬣蜥.*只有一名观察员.*双筒望远镜.*记录板.*没有接触.*代表性重建.*不对应真实调查.*监测结果/,
+  );
+
+  assert.equal(marineIguana.sources.length, 19);
+  assert.equal(
+    new Set(marineIguana.sources.map(({ url }) => url)).size,
+    marineIguana.sources.length,
+  );
+  assert.ok(marineIguana.sources.every(({ title }) => title.length > 0));
+  assert.ok(marineIguana.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(marineIguana.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    marineIguana.sources.every(({ accessedAt }) => accessedAt === '2026-08-27'),
+  );
+  assert.deepEqual(
+    new Set(marineIguana.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'distribution', 'ecology']),
+  );
+
+  const profileText = [
+    marineIguana.summary,
+    marineIguana.description,
+    marineIguana.distribution.range,
+    ...marineIguana.habitats.flatMap(({ name, description }) => [name, description]),
+    marineIguana.measurements.length?.note ?? '',
+    marineIguana.measurements.weight?.note ?? '',
+    marineIguana.diet.description,
+    ...(marineIguana.activity ?? []),
+    ...marineIguana.tags,
+    ...(marineIguana.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...marineIguana.keyFacts,
+    ...marineIguana.threats,
+    ...marineIguana.conservationActions,
+    ...marineIguana.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /Amblyrhynchus cristatus.*(?:该属只有.*一个现生种|只有海鬣蜥一个现生种)/,
+  );
+  assert.match(profileText, /11个亚种.*(?:不是|不等于)11个物种/);
+  assert.match(
+    profileText,
+    /唯一.*海中取食.*(?:现生蜥蜴|蜥蜴).*(?:陆地|陆上).*(?:休息|调温|繁殖)/,
+  );
+  assert.match(
+    profileText,
+    /30米.*(?:极值|最大).*(?:多数个体|不是.*日常|潮间带)/,
+  );
+  assert.match(profileText, /鼻盐腺.*(?:不是吐毒|不.*毒)/);
+  assert.match(
+    profileText,
+    /0\.9—12千克.*(?:不是|不代表).*普通成体.*(?:范围|上限)/,
+  );
+  assert.match(
+    profileText,
+    /1997—1998年.*部分成体.*最多约20%.*(?:不适用|不代表|不能).*(?:每次事件|每只个体)/,
+  );
+  assert.match(
+    profileText,
+    /IUCN全种字段为VU、decreasing、2019、A2abce\+4abce.*(?:EN|CR).*(?:不能|不).*覆盖全种字段/i,
+  );
+  assert.match(
+    profileText,
+    /2026年3月5日.*CITES附录I.*国际贸易.*(?:不改变|不能改变).*IUCN.*VU/i,
+  );
+  assert.doesNotMatch(profileText, /当前.*CITES附录II/i);
+  assert.match(
+    profileText,
+    /13岛33点位.*27,758只.*抽样.*不是全群岛总数/,
+  );
+  assert.match(
+    profileText,
+    /Jessica号.*圣菲.*一年内死亡62%.*(?:不能|不).*外推/,
+  );
+
+  assert.equal(marineIguana.featured, true);
+  assert.equal(marineIguana.publishedAt, '2026-08-27');
+  assert.equal(marineIguana.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 55);
+  assert.equal(species.length, 56);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -5764,7 +6085,7 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Gavialidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Gavialis')?.speciesCount, 1);
@@ -5778,6 +6099,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'order', 'Struthioniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Struthionidae')?.speciesCount, 1);
