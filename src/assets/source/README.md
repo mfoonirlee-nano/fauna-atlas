@@ -14,6 +14,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Golden poison frog image set](./species/golden-poison-frog/README.md)
 - [Goliath frog image set](./species/goliath-frog/README.md)
 - [Xiamen lancelet image set](./species/belchers-lancelet/README.md)
+- [Sea lamprey image set](./species/sea-lamprey/README.md)
 - [Axolotl image set](./species/axolotl/README.md)
 - [African savanna elephant image set](./species/african-savanna-elephant/README.md)
 - [Komodo dragon image set](./species/komodo-dragon/README.md)

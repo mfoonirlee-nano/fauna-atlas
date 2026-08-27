@@ -6729,10 +6729,447 @@ test("registers Belcher's Lancelet as a complete Branchiostoma belcheri profile"
   assert.equal(lancelet.updatedAt, '2026-08-27');
 });
 
+test('registers Sea Lamprey as a complete Petromyzon marinus profile', async () => {
+  const lamprey = findSpecies('sea-lamprey');
+
+  assert.equal(lamprey.id, 'species-petromyzon-marinus');
+  assert.equal(lamprey.names.zh, '海七鳃鳗');
+  assert.equal(lamprey.names.en, 'Sea Lamprey');
+  assert.deepEqual(lamprey.names.aliases, ['海七鰓鰻', 'Lake Lamprey']);
+  assert.equal(lamprey.scientificName, 'Petromyzon marinus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(lamprey).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', lamprey.scientificName, lamprey.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Petromyzonti', '七鳃鳗纲'],
+      ['order', 'Petromyzontiformes', '七鳃鳗目'],
+      ['family', 'Petromyzontidae', '七鳃鳗科'],
+      ['genus', 'Petromyzon', '海七鳃鳗属'],
+      ['species', 'Petromyzon marinus', '海七鳃鳗'],
+    ],
+  );
+  assert.ok(
+    ![
+      'Actinopterygii',
+      'Sarcopterygii',
+      'Chondrichthyes',
+      'Cephalaspidomorphi',
+      'Cyclostomata',
+    ].includes(lamprey.taxonomy.class.scientificName),
+  );
+  assert.deepEqual(
+    {
+      code: lamprey.conservation.code,
+      trend: lamprey.conservation.trend,
+      assessedYear: lamprey.conservation.assessedYear,
+      criteria: lamprey.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2022,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(lamprey.distribution.realms, ['freshwater', 'marine']);
+  assert.deepEqual(lamprey.distribution.continents, ['欧洲', '北美洲', '非洲']);
+  assert.deepEqual(lamprey.distribution.regions, [
+    '北大西洋西岸及入海河流',
+    '北大西洋东岸、波罗的海及入海河流',
+    '西部和中部地中海、亚得里亚海及北非沿岸',
+    '五大湖与其他陆封湖泊种群',
+  ]);
+  assert.deepEqual(lamprey.distribution.countries, [
+    '加拿大',
+    '美国',
+    '冰岛',
+    '挪威',
+    '芬兰',
+    '爱沙尼亚',
+    '拉脱维亚',
+    '立陶宛',
+    '波兰',
+    '俄罗斯',
+    '英国',
+    '法国',
+    '西班牙',
+    '葡萄牙',
+    '意大利',
+    '克罗地亚',
+    '波黑',
+    '黑山',
+    '摩洛哥',
+    '阿尔及利亚',
+    '突尼斯',
+  ]);
+  assert.deepEqual(lamprey.distribution.center, { lat: 48, lng: -25 });
+  assert.match(
+    lamprey.distribution.range,
+    /北大西洋两岸.*波罗的海.*地中海.*Lake Erie.*Michigan.*Huron.*Superior.*外来入侵.*Lake Ontario.*起源.*争议/,
+  );
+  assert.equal(lamprey.habitats.length, 4);
+  assert.equal(
+    lamprey.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(
+    lamprey.habitats.every(({ realm }) =>
+      lamprey.distribution.realms.includes(realm),
+    ),
+  );
+  assert.match(
+    lamprey.habitats
+      .flatMap(({ name, description }) => [name, description])
+      .join(' '),
+    /水流.*砾石.*产卵.*幼体.*粉砂.*细砂.*碎屑.*海洋.*宿主.*大湖.*寄生/,
+  );
+
+  assert.deepEqual(
+    {
+      min: lamprey.measurements.length?.min,
+      max: lamprey.measurements.length?.max,
+      unit: lamprey.measurements.length?.unit,
+    },
+    { min: 11.4, max: 120, unit: 'cm' },
+  );
+  assert.match(
+    lamprey.measurements.length?.note ?? '',
+    /FAO.*成体.*观测.*汇编.*海洋型.*陆封型.*不同成熟阶段.*不是普通成体范围/,
+  );
+  assert.deepEqual(
+    {
+      min: lamprey.measurements.weight?.min,
+      max: lamprey.measurements.weight?.max,
+      unit: lamprey.measurements.weight?.unit,
+    },
+    { min: undefined, max: 2.3, unit: 'kg' },
+  );
+  assert.match(
+    lamprey.measurements.weight?.note ?? '',
+    /1\.2\s*米.*最大标本.*湿重.*不是平均值.*全种常见上限/,
+  );
+  assert.deepEqual(lamprey.metrics, {});
+  assert.ok(!('adultLengthCm' in lamprey.metrics));
+  assert.ok(!('adultMassKg' in lamprey.metrics));
+  assert.ok(!('lifespanYears' in lamprey.metrics));
+  assert.ok(!('maxDiveDepthM' in lamprey.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in lamprey.metrics));
+
+  assert.deepEqual(lamprey.diet.types, [
+    'carnivore',
+    'filter-feeder',
+    'detritivore',
+  ]);
+  assert.deepEqual(lamprey.diet.foods, [
+    '硅藻',
+    '细菌',
+    '有机碎屑',
+    '宿主鱼血液',
+    '宿主体液和少量组织',
+  ]);
+  assert.match(
+    lamprey.diet.description,
+    /埋栖幼体.*黏液.*滤取.*变态后.*寄生.*大型鱼类.*血液.*体液.*性成熟.*停止摄食/,
+  );
+
+  assert.equal(lamprey.storySections?.length, 6);
+  assert.deepEqual(
+    lamprey.storySections.map(({ key }) => key),
+    [
+      'jawless-vertebrate',
+      'buried-larval-years',
+      'metamorphic-rebuild',
+      'attachment-and-breathing',
+      'scent-guided-migration',
+      'two-management-goals',
+    ],
+  );
+  assert.ok(
+    lamprey.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(lamprey.keyFacts.length, 12);
+  assert.equal(lamprey.threats.length, 7);
+  assert.equal(lamprey.conservationActions.length, 9);
+  assert.match(
+    lamprey.conservationActions.slice(0, 3).join(' '),
+    /原生范围.*阻隔.*Lake Erie.*Michigan.*Huron.*Superior.*TFM.*逐地核验.*争议/,
+  );
+  assert.equal(lamprey.featuredStats.length, 4);
+  assert.deepEqual(
+    lamprey.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'gill-pores-per-side', value: '7', unit: '个' },
+      {
+        key: 'maximum-documented-length',
+        value: '1.2',
+        unit: '米',
+      },
+      { key: 'larval-duration', value: '2 至 19+', unit: '年' },
+      {
+        key: 'anadromous-fecundity',
+        value: '15.2 万至 30.5 万',
+        unit: '粒',
+      },
+    ],
+  );
+  assert.match(
+    lamprey.featuredStats.map(({ note }) => note ?? '').join(' '),
+    /两侧共\s*14\s*个.*侧面.*近侧七孔.*2\.3\s*千克.*不是典型成体.*通常至少.*5\s*年.*温度.*食物.*种群.*陆封型.*4\.4\s*万.*10\.2\s*万/,
+  );
+
+  assert.equal(lamprey.media.gallery?.length, 5);
+  const mediaPaths = [
+    lamprey.media.image,
+    ...lamprey.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/sea-lamprey/01-open-water-portrait.webp',
+    './images/species/sea-lamprey/02-oral-disc-and-seven-gill-pores.webp',
+    './images/species/sea-lamprey/03-gravel-riffle-nest-building.webp',
+    './images/species/sea-lamprey/04-lake-trout-parasitic-feeding.webp',
+    './images/species/sea-lamprey/05-buried-ammocoete-filter-feeding.webp',
+    './images/species/sea-lamprey/06-edna-stream-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !lamprey.media.gallery.some(({ image }) => image === lamprey.media.image),
+  );
+  const mediaRecords = [lamprey.media, ...lamprey.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    lamprey.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.72, y: 0.47 },
+      { x: 0.4, y: 0.5 },
+      { x: 0.66, y: 0.58 },
+      { x: 0.57, y: 0.49 },
+      { x: 0.33, y: 0.58 },
+      { x: 0.59, y: 0.52 },
+    ],
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  const sourcePaths = [
+    '01-open-water-portrait-source.png',
+    '02-oral-disc-and-seven-gill-pores-source.png',
+    '03-gravel-riffle-nest-building-source.png',
+    '04-lake-trout-parasitic-feeding-source.png',
+    '05-buried-ammocoete-filter-feeding-source.png',
+    '06-edna-stream-monitoring-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(
+        `../src/assets/source/species/sea-lamprey/${filename}`,
+        import.meta.url,
+      ),
+    })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+  const mediaText = mediaRecords
+    .flatMap(({ alt, caption }) => [alt, caption ?? ''])
+    .join(' ');
+  assert.match(
+    mediaText,
+    /近侧七个.*圆形鳃孔.*重建.*不提供.*凭证标本级.*鉴定/,
+  );
+  assert.match(
+    mediaText,
+    /一次搬石动作.*不证明巢已完成.*Lake Erie.*Michigan.*Huron.*Superior.*争议.*Lake Ontario.*一次附着.*不代表宿主死亡/,
+  );
+  assert.match(
+    mediaText,
+    /幼体.*(?:形态|外形).*不能.*物种.*一(?:个|次)水样.*不能.*(?:存在|缺失|数量|趋势)/,
+  );
+
+  assert.equal(lamprey.sources.length, 19);
+  assert.equal(
+    new Set(lamprey.sources.map(({ url }) => url)).size,
+    lamprey.sources.length,
+  );
+  assert.ok(lamprey.sources.every(({ title }) => title.length > 0));
+  assert.ok(lamprey.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(lamprey.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    lamprey.sources.every(({ accessedAt }) => accessedAt === '2026-08-27'),
+  );
+  assert.deepEqual(
+    new Set(lamprey.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+
+  const profileText = [
+    lamprey.summary,
+    lamprey.description,
+    lamprey.distribution.range,
+    ...lamprey.habitats.flatMap(({ name, description }) => [name, description]),
+    lamprey.measurements.length?.note ?? '',
+    lamprey.measurements.weight?.note ?? '',
+    lamprey.diet.description,
+    ...(lamprey.activity ?? []),
+    ...lamprey.tags,
+    ...(lamprey.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...lamprey.keyFacts,
+    ...lamprey.threats,
+    ...lamprey.conservationActions,
+    ...lamprey.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(profileText, /无颌脊椎动物.*不是鳗鲡/);
+  assert.match(profileText, /圆形口盘.*角质齿.*锉状舌/);
+  assert.match(profileText, /每侧(?:有)?七个(?:圆形)?鳃孔/);
+  assert.match(profileText, /(?:光滑)?无鳞.*没有胸鳍和腹鳍/);
+  assert.match(profileText, /没有上下颌、鳞片、鳃盖或成对鳍/);
+  assert.match(profileText, /幼体.*(?:软沉积|粉砂).*滤食/);
+  assert.match(profileText, /变态.*眼.*齿盘.*海水/);
+  assert.match(profileText, /寄生.*(?:血液|体液).*停止摄食/);
+  assert.match(profileText, /一次(?:繁殖|产卵)后死亡/);
+  assert.match(profileText, /没有.*出生河归巢.*幼体.*气味.*雄体信息素/);
+  assert.match(profileText, /口盘.*(?:移动|逐块).*石头.*筑巢/);
+  assert.match(profileText, /口盘.*宿主.*鳃囊.*外侧鳃孔/);
+  assert.match(
+    profileText,
+    /全球.*LC.*趋势稳定.*OSPAR.*HELCOM.*区域.*更差/i,
+  );
+  assert.match(profileText, /大西洋.*原生/);
+  assert.match(
+    profileText,
+    /原生范围.*连通海洋.*产卵砾石床.*幼体软底区/,
+  );
+  assert.match(profileText, /限制.*采砂.*粗底产卵区.*细沉积幼体区/);
+  assert.match(profileText, /改善污水处理.*营养盐.*有毒污染物.*低氧/);
+  assert.match(
+    profileText,
+    /上游五大湖.*外来入侵.*TFM.*Bayluscide.*屏障.*陷阱.*综合控制/,
+  );
+  assert.match(
+    profileText,
+    /Lake Ontario.*Lake Champlain.*Finger Lakes.*起源.*争议/,
+  );
+  assert.match(profileText, /Lake Ontario.*起源.*不能.*定论/);
+  assert.doesNotMatch(profileText, /所有海七鳃鳗.*(?:外来|入侵)/);
+  assert.doesNotMatch(
+    profileText,
+    /(?:大西洋|欧洲).{0,40}(?:TFM|Bayluscide).{0,40}(?:清除|压低)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /五大湖.{0,40}(?:恢复|保护).{0,20}海七鳃鳗(?:种群)?/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /Lake Ontario.{0,50}(?:已经|确认|证实).{0,20}(?:原生|外来)/i,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:普通|典型|平均)成体(?:体长|总长|可达|长达|通常为|一般为).{0,15}1\.2\s*米/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /1\.2\s*米.{0,20}(?:是|属于|代表)(?:普通|典型|平均)成体/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /4[,，]?099\s*米.{0,20}(?:最大潜水深度|主动潜水上限)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:每只|单只).{0,15}(?:固定|必然).{0,15}(?:18|19\.3|20)\s*千克/,
+  );
+  assert.doesNotMatch(profileText, /固定(?:埋栖|幼体期)?\s*5\s*年/);
+  assert.doesNotMatch(
+    profileText,
+    /海七鳃鳗(?:单独|独自).{0,30}五大湖.{0,30}(?:崩溃|毁灭)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /TFM.{0,40}(?:只伤害海七鳃鳗|对所有非目标生物完全无害)/,
+  );
+
+  assert.equal(lamprey.featured, true);
+  assert.equal(lamprey.publishedAt, '2026-08-27');
+  assert.equal(lamprey.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 58);
+  assert.equal(species.length, 59);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -6764,7 +7201,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 53);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 54);
+  assert.equal(findTaxon(tree, 'class', 'Petromyzonti')?.speciesCount, 1);
+  assert.equal(
+    findTaxon(tree, 'order', 'Petromyzontiformes')?.speciesCount,
+    1,
+  );
+  assert.equal(findTaxon(tree, 'family', 'Petromyzontidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Petromyzon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Leptocardii')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
