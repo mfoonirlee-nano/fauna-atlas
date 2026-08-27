@@ -103,6 +103,10 @@ const AFRICAN_OSTRICH_SOURCE_DATE = '2026-08-26' as const;
 const AFRICAN_OSTRICH_CONTENT_DATE = '2026-08-26' as const;
 const TUATARA_SOURCE_DATE = '2026-08-26' as const;
 const TUATARA_CONTENT_DATE = '2026-08-26' as const;
+const NILE_CROCODILE_SOURCE_DATE = '2026-08-27' as const;
+const NILE_CROCODILE_CONTENT_DATE = '2026-08-27' as const;
+const LEATHERBACK_TURTLE_SOURCE_DATE = '2026-08-27' as const;
+const LEATHERBACK_TURTLE_CONTENT_DATE = '2026-08-27' as const;
 const WESTERN_GORILLA_SOURCE_DATE = '2026-08-20' as const;
 const WESTERN_GORILLA_CONTENT_DATE = '2026-08-20' as const;
 const POLAR_BEAR_SOURCE_DATE = '2026-08-20' as const;
@@ -6141,6 +6145,228 @@ const TUATARA_SOURCES = [
     url: 'https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/science-and-nature/tuatara-longtime-resident',
     kind: 'general',
     accessedAt: TUATARA_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const NILE_CROCODILE_SOURCES = [
+  {
+    title: 'The Reptile Database — Crocodylus niloticus',
+    url: 'https://reptile-database.reptarium.cz/Crocodylus/niloticus',
+    kind: 'taxonomy',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN/SSC Crocodile Specialist Group 2019 — Nile Crocodile species account',
+    url: 'https://www.iucncsg.org/365_docs/attachments/protarea/7386996acf2d72b2379d0f905b2c3200.pdf',
+    kind: 'general',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Hekkala et al. 2011 — Mummy DNA resurrects a cryptic African crocodile species',
+    url: 'https://doi.org/10.1111/j.1365-294X.2011.05245.x',
+    kind: 'taxonomy',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Velo-Antón et al. 2019 — Phylogeography and population structure in southern Africa',
+    url: 'https://doi.org/10.1371/journal.pone.0226505',
+    kind: 'distribution',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Cott 1961 — Ecology and economic status in Uganda and Northern Rhodesia',
+    url: 'https://doi.org/10.1111/j.1096-3642.1961.tb00220.x',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Wallace & Leslie 2008 — Diet in the Okavango Delta',
+    url: 'https://doi.org/10.1670/07-1071.1',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Leitch & Catania 2012 — Integumentary sensory organs in crocodilians',
+    url: 'https://doi.org/10.1242/jeb.076836',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Grap et al. 2015 — Sensitivity to water-surface waves',
+    url: 'https://doi.org/10.1016/j.zool.2015.03.004',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Erickson et al. 2012 — Crocodilian bite-force experiment',
+    url: 'https://doi.org/10.1371/journal.pone.0031781',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Price et al. 2022 — Wild gaping behaviour at Ndumo Game Reserve',
+    url: 'https://doi.org/10.1016/j.beproc.2022.104772',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Calverley & Downs 2015 — Seasonal movements at Ndumo Game Reserve',
+    url: 'https://doi.org/10.4102/koedoe.v57i1.1234',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Combrink, Warner & Downs 2016 — Nest predation and maternal care at Lake St Lucia',
+    url: 'https://doi.org/10.1016/j.beproc.2016.10.014',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Combrink, Warner & Downs 2017 — Nest-site selection and female spatial ecology',
+    url: 'https://doi.org/10.1016/j.beproc.2016.12.006',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Vergne & Mathevon 2008 — Crocodile egg sounds and hatching synchrony',
+    url: 'https://doi.org/10.1016/j.cub.2008.04.011',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Hutton 1987 — Incubation temperature, sex ratios and development',
+    url: 'https://doi.org/10.1111/j.1469-7998.1987.tb07458.x',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Leslie & Spotila 2001 — Alien plants and breeding habitat at Lake St Lucia',
+    url: 'https://doi.org/10.1016/S0006-3207(00)00177-4',
+    kind: 'conservation',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Ezat et al. 2025 — Crocodile occurrence near fishing camps at Lake Nasser',
+    url: 'https://doi.org/10.1002/ece3.71970',
+    kind: 'conservation',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'SANBI 2017 — Regional assessment for South Africa and Eswatini',
+    url: 'https://speciesstatus.sanbi.org/assessment/last-assessment/2680/',
+    kind: 'conservation',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+  {
+    title: 'Pooley 1977 — Nest opening and buccal transport of young',
+    url: 'https://doi.org/10.1111/j.1469-7998.1977.tb04137.x',
+    kind: 'ecology',
+    accessedAt: NILE_CROCODILE_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const LEATHERBACK_TURTLE_SOURCES = [
+  {
+    title: 'The Reptile Database — Dermochelys coriacea (Vandelli, 1761)',
+    url: 'https://reptile-database.reptarium.cz/Dermochelys/coriacea',
+    kind: 'taxonomy',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN Red List — Dermochelys coriacea global assessment (2013)',
+    url: 'https://doi.org/10.2305/IUCN.UK.2013-2.RLTS.T6494A43526147.en',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN-SSC Marine Turtle Specialist Group — Red List assessments',
+    url: 'https://www.iucn-mtsg.org/statuses',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN-SSC MTSG — 2013 leatherback Red List assessments',
+    url: 'https://www.iucn-mtsg.org/updates/2013-leatherback-red-list-assessments',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN-SSC MTSG — 2019 Northwest Atlantic leatherback update',
+    url: 'https://www.iucn-mtsg.org/updates/2019-red-list-updates',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN Red List — Northwest Atlantic Dermochelys coriacea assessment',
+    url: 'https://doi.org/10.2305/IUCN.UK.2019-2.RLTS.T46967827A184748440.en',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA Fisheries — Leatherback Turtle (updated 3 August 2026)',
+    url: 'https://www.fisheries.noaa.gov/species/leatherback-turtle',
+    kind: 'general',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'NOAA and U.S. Fish & Wildlife Service — 2020 status review of the leatherback sea turtle',
+    url: 'https://repository.library.noaa.gov/view/noaa/25629',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'U.S. Fish & Wildlife Service — Leatherback Sea Turtle',
+    url: 'https://www.fws.gov/species/leatherback-sea-turtle-dermochelys-coriacea',
+    kind: 'general',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'Wallace et al. 2025 — Updated global conservation status and priorities for marine turtles',
+    url: 'https://doi.org/10.3354/esr01385',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'Benson et al. 2011 — Large-scale movements and high-use areas of western Pacific leatherbacks',
+    url: 'https://doi.org/10.1890/ES11-00053.1',
+    kind: 'distribution',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'Houghton et al. 2008 — Deep diving by leatherback turtles',
+    url: 'https://doi.org/10.1242/jeb.020065',
+    kind: 'ecology',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'Heaslip et al. 2012 — Jellyfish consumption by leatherback turtles',
+    url: 'https://doi.org/10.1371/journal.pone.0033259',
+    kind: 'ecology',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'Casey et al. 2014 — Thermal biology of free-swimming adult leatherbacks',
+    url: 'https://doi.org/10.1242/jeb.100347',
+    kind: 'ecology',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'CITES — Appendices I, II and III effective 5 March 2026',
+    url: 'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: 'CMS — Appendices I and II effective 27 June 2026',
+    url: 'https://www.cms.int/sites/default/files/basic_page_documents/revised-appendices_cop15_e.pdf',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
+  },
+  {
+    title: '国家林业和草原局、农业农村部 — 国家重点保护野生动物名录（2021年第3号）',
+    url: 'https://www.forestry.gov.cn/c/www/gkzfwj/546057.jhtml',
+    kind: 'conservation',
+    accessedAt: LEATHERBACK_TURTLE_SOURCE_DATE,
   },
 ] as const satisfies readonly SpeciesSource[];
 
@@ -18997,6 +19223,523 @@ export const species = [
     featured: true,
     publishedAt: TUATARA_CONTENT_DATE,
     updatedAt: TUATARA_CONTENT_DATE,
+  },
+  {
+    id: 'species-crocodylus-niloticus',
+    slug: 'nile-crocodile',
+    names: { zh: '尼罗鳄', en: 'Nile Crocodile', aliases: [] },
+    scientificName: 'Crocodylus niloticus',
+    taxonomy: animalTaxonomy(
+      taxon('Chordata', '脊索动物门'),
+      taxon('Reptilia', '爬行纲'),
+      taxon('Crocodylia', '鳄目'),
+      taxon('Crocodylidae', '鳄科'),
+      taxon('Crocodylus', '鳄属'),
+    ),
+    conservation: conservation('LC', 'stable', 2017),
+    distribution: {
+      realms: ['freshwater', 'terrestrial'],
+      continents: ['非洲'],
+      regions: [
+        '尼罗河上游与纳赛尔湖',
+        '东非大裂谷湖群',
+        '刚果盆地部分水系',
+        '赞比西—奥卡万戈—林波波水系',
+        '南部非洲河流、湿地与河口',
+        '马达加斯加淡水湿地',
+      ],
+      countries: [
+        '安哥拉',
+        '博茨瓦纳',
+        '布隆迪',
+        '喀麦隆',
+        '刚果民主共和国',
+        '埃及',
+        '厄立特里亚',
+        '埃塞俄比亚',
+        '加蓬',
+        '肯尼亚',
+        '马达加斯加',
+        '马拉维',
+        '莫桑比克',
+        '纳米比亚',
+        '刚果共和国',
+        '卢旺达',
+        '索马里',
+        '南非',
+        '南苏丹',
+        '苏丹',
+        '埃斯瓦蒂尼',
+        '坦桑尼亚',
+        '乌干达',
+        '赞比亚',
+        '津巴布韦',
+      ],
+      range:
+        '现存分布以东部和南部撒哈拉以南非洲、尼罗河上游与纳赛尔湖及马达加斯加为主；中非和东北非部分记录仍需遗传核验，以排除已经恢复为独立种的西非圣鳄 Crocodylus suchus。',
+      center: { lat: -10, lng: 28 },
+    },
+    habitats: [
+      {
+        name: '河流、湖泊与水库',
+        realm: 'freshwater',
+        description:
+          '常年水体提供取食、避难与繁殖季移动通道；岸线形态、水深和开阔晒背处共同影响利用。',
+        isPrimary: true,
+      },
+      {
+        name: '季节性漫滩与淡水湿地',
+        realm: 'freshwater',
+        description:
+          '涨水期连通主河道、水潭和沼泽，个体会随水文周期在这些水体之间转换活动空间。',
+      },
+      {
+        name: '河口与高盐潟湖',
+        realm: 'freshwater',
+        description:
+          '部分种群会利用河口和高盐度水体；耐盐记录不等于以海洋为主要生活领域。',
+      },
+      {
+        name: '开放沙岸与巢址',
+        realm: 'terrestrial',
+        description:
+          '成体上岸晒背，雌鳄在干季于临水开阔沙地挖穴筑巢并守护卵和刚孵化幼体。',
+      },
+    ],
+    measurements: {
+      length: {
+        min: 2.18,
+        max: 5.5,
+        unit: 'm',
+        note: '2.18米是历史记录中的最小筑巢雌性，5.5米是今天罕见的大型雄性上限；两端口径不同，不代表典型成体范围。',
+      },
+    },
+    diet: {
+      types: ['carnivore', 'piscivore'],
+      foods: ['水生昆虫', '蛛形动物', '甲壳类', '两栖动物', '鱼类', '其他脊椎动物', '腐肉'],
+      description:
+        '食谱随体型扩展：初生幼体主要摄食水生昆虫和蛛形动物，生长后增加甲壳类、两栖动物和鱼类。奥卡万戈最大样本组仍属亚成体且以鱼为主，不能据此宣称所有大型成体都以大型哺乳动物为日常主食。',
+    },
+    activity: ['水陆两栖活动', '潜伏取食', '日间晒背', '季节性水域转换', '守巢与幼体照护'],
+    tags: ['鳄类', '淡水捕食者', '皮肤感受器', '温度依赖型性别决定', '亲代照护', '人鳄共存'],
+    summary: '以宽而结实的V形吻、全身皮肤感受器和颊囊含运幼体著称，广布非洲东部与南部水域的大型鳄科动物。',
+    description:
+      '尼罗鳄拥有厚重躯干、侧扁强尾和宽而结实的V形吻，与细长吻的恒河鳄形成鲜明对照。约9,000个皮肤感受器散布在颌缘和身体鳞片上，帮助它读取水面扰动与接触信息；这些只是细小暗点，不会发光。雌鳄会守护穴巢，听到孵化叫声后开巢，并能用颊囊把幼体送到水边，恒河鳄则不会用嘴含运幼体。IUCN鳄类专家组采用2017年全球无危、稳定趋势记录，但南非区域评估为易危，多地仍有地方下降、湿地改变与调查资料不足。',
+    storySections: [
+      {
+        key: 'species-boundary',
+        label: '分类',
+        title: '一个旧名字，曾装下两条非洲谱系',
+        body:
+          '遗传研究把西部谱系恢复为独立种西非圣鳄 Crocodylus suchus，东部谱系继续使用 Crocodylus niloticus。中非与东北非仍有鉴定空白，因此旧地图上的每一条“大尼罗鳄”记录都不能直接搬进当前分布。',
+      },
+      {
+        key: 'sensory-skin',
+        label: '感知',
+        title: '鳞片上的暗点读取细小水波',
+        body:
+          '解剖研究估算颌部与全身约有9,000个皮肤感受器。两只圈养幼体的实验还显示它们能学习回应细小水面波；样本有限，页面只呈现真实涟漪和感受器暗点，不把它包装成声呐、电感应或全种固定阈值。',
+      },
+      {
+        key: 'diet-growth',
+        label: '食性',
+        title: '猎物随着身体一起变大',
+        body:
+          '初生幼体从水生昆虫和蛛形动物开始，较大幼体逐步增加甲壳类、两栖类和鱼。奥卡万戈研究的最大体型组主要吃鱼，但它们仍是亚成体；这项地方样本不能代表大型成体在全分布区的食谱。',
+      },
+      {
+        key: 'gaping',
+        label: '行为',
+        title: '张口同时受到热和邻居影响',
+        body:
+          '南非野外300小时观察记录1,120次张口，持续时间随气温升高而缩短、随邻近个体增加而延长。结果支持温度调节和社会信号共同参与，不能把每次张口都解释成单一散热动作或单一威吓。',
+      },
+      {
+        key: 'nesting-care',
+        label: '繁殖',
+        title: '叫声把母鳄从守巢带到开巢',
+        body:
+          '已发表单窝极值为14—95枚，多个地点的平均窝卵数约33—60.4枚。孵化约需75—115天，温度会影响发育速度和性别，却不存在全种固定温度开关。母鳄可开巢，并用颊囊含运幼鳄和未孵化卵。',
+      },
+      {
+        key: 'coexistence',
+        label: '保护',
+        title: '让取水路线与鳄的岸线分开',
+        body:
+          '刺网、湿地破碎、筑坝、污染与报复性捕杀共同造成地方压力。固定取水点、防鳄屏障、桥或码头、替代水井和风险教育能降低岸边暴露；人鳄共存需要改变接触条件，不能只靠迁走一只动物。',
+      },
+    ],
+    keyFacts: [
+      '当前接受名为Crocodylus niloticus，归入鳄目、鳄科和鳄属；西非圣鳄Crocodylus suchus已恢复为独立物种。',
+      '现存范围以非洲东部和南部、尼罗河上游与纳赛尔湖及马达加斯加为主，中非和东北非部分记录需要遗传核验。',
+      'IUCN鳄类专家组沿用2017年全球LC且stable记录；地方下降、南非区域VU和调查不足仍需分别呈现。',
+      '2.18米是历史最小筑巢雌性记录，5.5米是今天罕见的大型雄性上限，不代表典型成体范围。',
+      '颌缘和全身鳞片约有9,000个皮肤感受器，外观是细小暗点而不是发光器官。',
+      '初生幼体以水生昆虫和蛛形动物为主，随体型增长逐步增加甲壳类、两栖动物和鱼类。',
+      '张口持续时间同时受气温和邻近个体影响，不能只解释为散热或威吓。',
+      '地方平均窝卵数约33—60枚，单窝记录为14—95枚；孵化约75—115天，不存在一个全种固定温度阈值。',
+      '母鳄会开巢并用颊囊含运幼体；现有恒河鳄资料显示后者守护幼体但不会用嘴搬运。',
+      '皮张猎捕后部分种群曾恢复，当前主要压力转为河流湿地改变、污染、渔具死亡和人鳄冲突。',
+    ],
+    threats: [
+      '河流、湖泊、湿地与河口开发造成的生境丧失和连通性下降',
+      '筑坝、抽水和异常放水改变漫滩、岸线与巢址水文',
+      '农业、城市、工业与矿业污染进入水体和食物网',
+      '刺网缠绕、诱饵钩、套索、毒杀及其他非选择性捕杀',
+      '对人身与牲畜风险的报复性捕杀及岸边鱼废料造成的吸引',
+      '巢、卵和筑巢雌性受踩踏、采集、洪水和外来植物遮阴影响',
+      '分布国调查与遗传鉴定不足掩盖地方下降和物种边界',
+    ],
+    conservationActions: [
+      '保持主河道、季节漫滩、水潭和湿地连通，保护开阔沙质巢岸与自然水文过程',
+      '统一夜间聚光调查、体型分级、巢址和死亡记录，并在鉴定空白区加入遗传取样',
+      '减少刺网和诱饵钩死亡，治理农业、城市和矿业污染，避免在岸边弃置鱼废料',
+      '建设有防鳄屏障的固定取水点、桥或码头及替代水井，配合本地风险教育',
+      '保护守巢雌性、穴巢和孵化期微环境，控制遮阴巢址的外来木本植物',
+      '按地方风险评估处理冲突个体，监测迁移后的归巢和新地点风险，避免把迁移当作唯一方案',
+    ],
+    metrics: {
+      adultLengthCm: [218, 550],
+    },
+    featuredStats: [
+      {
+        key: 'rare-male-length',
+        label: '罕见大型雄性上限',
+        value: '5.5',
+        unit: '米',
+        note: '今天已罕见，不代表典型成体',
+      },
+      {
+        key: 'mean-clutch-range',
+        label: '地方平均窝卵数',
+        value: '33—60',
+        unit: '枚',
+        note: '多个地方研究的均值跨度；已发表单窝极值为14—95枚',
+      },
+      {
+        key: 'incubation-days',
+        label: '孵化期',
+        value: '75—115',
+        unit: '天',
+        note: '随温度变化，低温发育较慢，不存在全种固定温度阈值',
+      },
+      {
+        key: 'sensory-organs',
+        label: '皮肤感受器',
+        value: '约9,000',
+        unit: '个',
+        note: '解剖研究对颌部与全身鳞片的估算',
+      },
+    ],
+    media: {
+      image: './images/species/nile-crocodile/01-river-sandbank-adult.webp',
+      alt: '宽阔非洲河流的开放沙岸上，一只完整成年雄性尼罗鳄低伏晒背，宽而结实的V形吻、厚躯干和完整尾尖清楚可见',
+      focalPoint: { x: 0.69, y: 0.64 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/nile-crocodile/02-ripple-sensory-hunt.webp',
+          alt: '浅水中一只完整幼鳄贴近水面，吻端前方出现一圈由水下未知扰动形成的细小涟漪，颌缘皮肤感受器只呈自然暗点',
+          title: '暗点读取水面的细小扰动',
+          caption: '实验支持幼鳄感知水波；暗点不是发光声呐或电感应特效，少量圈养样本也不代表全种固定通用能力。',
+          focalPoint: { x: 0.61, y: 0.61 },
+        },
+        {
+          image: './images/species/nile-crocodile/03-social-gaping.webp',
+          alt: '南非浅水岸边分散着多只完整尼罗鳄，其中一只自然张口，个体之间留有清楚距离',
+          title: '张口不只有一种解释',
+          caption: '野外数据同时关联气温和邻近个体，因此不能仅凭一张图判定它是在散热或威吓。',
+          focalPoint: { x: 0.58, y: 0.62 },
+        },
+        {
+          image: './images/species/nile-crocodile/04-seasonal-floodplain-movement.webp',
+          alt: '季节性漫滩、水潭和主河道相连，一只完整成年尼罗鳄背负小型无线电发射器从浅水移向河道',
+          title: '水文周期改变活动空间',
+          caption: '恩杜莫地方研究记录无线电标记个体在季节水体之间转换，不能外推为全物种固定迁徙距离。',
+          focalPoint: { x: 0.64, y: 0.63 },
+        },
+        {
+          image: './images/species/nile-crocodile/05-hatchling-mouth-transport.webp',
+          alt: '穴巢与浅水之间，一只完整母鳄用颊囊轻含两只完整幼体，幼体姿势自然无伤，母鳄没有咬合或咀嚼动作',
+          title: '把孵化声回应成一趟水边旅程',
+          caption: '圈养研究证实颊囊含运，野外相机记录巢水往返和幼体转移；画面不声称记录了指定地点或个体。',
+          focalPoint: { x: 0.57, y: 0.61 },
+        },
+        {
+          image: './images/species/nile-crocodile/06-protected-water-access.webp',
+          alt: '湖岸固定取水平台和防鳄屏障把人留在设施一侧，远处水面只有一只尼罗鳄并与取水者保持距离',
+          title: '先改变人与鳄相遇的岸线',
+          caption: '固定取水设施是专家组建议的预防措施，不代表经过纳赛尔湖实验验证的万能方案。',
+          focalPoint: { x: 0.63, y: 0.58 },
+        },
+      ],
+    },
+    sources: NILE_CROCODILE_SOURCES,
+    featured: true,
+    publishedAt: NILE_CROCODILE_CONTENT_DATE,
+    updatedAt: NILE_CROCODILE_CONTENT_DATE,
+  },
+  {
+    id: 'species-dermochelys-coriacea',
+    slug: 'leatherback-turtle',
+    names: {
+      zh: '棱皮龟',
+      en: 'Leatherback Turtle',
+      aliases: ['革龟'],
+    },
+    scientificName: 'Dermochelys coriacea',
+    taxonomy: animalTaxonomy(
+      taxon('Chordata', '脊索动物门'),
+      taxon('Reptilia', '爬行纲'),
+      taxon('Testudines', '龟鳖目'),
+      taxon('Dermochelyidae', '棱皮龟科'),
+      taxon('Dermochelys', '棱皮龟属'),
+    ),
+    conservation: conservation('VU', 'decreasing', 2013, 'A2bd'),
+    distribution: {
+      realms: ['marine', 'terrestrial'],
+      continents: ['亚洲', '非洲', '欧洲', '北美洲', '南美洲', '大洋洲'],
+      regions: [
+        '北大西洋、加勒比海与地中海',
+        '南大西洋与西非沿岸',
+        '印度洋',
+        '东太平洋与西太平洋',
+        '温带与近寒带高生产力觅食水域',
+        '热带与亚热带繁殖海滩',
+      ],
+      countries: [
+        '中国',
+        '印度',
+        '斯里兰卡',
+        '印度尼西亚',
+        '巴布亚新几内亚',
+        '所罗门群岛',
+        '澳大利亚',
+        '美国',
+        '加拿大',
+        '墨西哥',
+        '哥斯达黎加',
+        '巴拿马',
+        '特立尼达和多巴哥',
+        '圭亚那',
+        '苏里南',
+        '巴西',
+        '加蓬',
+        '加纳',
+        '南非',
+        '莫桑比克',
+      ],
+      range:
+        '广布于大西洋、太平洋、印度洋和地中海；筑巢主要发生在热带与亚热带沙滩，大幼体和成体可迁往温带及近寒带的陆架、大洋锋面和上升流区觅食。所列国家仅为代表性范围国，不是完整分布或偶见记录清单。',
+    },
+    habitats: [
+      {
+        name: '大洋锋面、汇聚带与上升流区',
+        realm: 'marine',
+        description:
+          '胶质浮游动物随动态水团聚集，是成体跨洋迁徙和觅食的重要环境；位置随季节、洋流与海况改变。',
+        isPrimary: true,
+      },
+      {
+        name: '温带与近寒带陆架觅食水域',
+        realm: 'marine',
+        description:
+          '大幼体和成体可利用加拿大外海、加利福尼亚洋流等高生产力海区，凭体型、隔热、循环和行为维持高于环境的体温。',
+      },
+      {
+        name: '跨洋迁徙通道与深水水柱',
+        realm: 'marine',
+        description:
+          '连接繁殖地与季节性觅食区，跨越公海和多国水域；绝大多数记录潜水浅于300米，极深潜水罕见。',
+      },
+      {
+        name: '热带与亚热带沙质繁殖海滩',
+        realm: 'terrestrial',
+        description:
+          '雌龟夜间挖体坑和深卵室；足够宽的干沙、天然暗夜、适宜温度及不过度淹水共同影响繁殖成功。',
+      },
+    ],
+    measurements: {
+      length: {
+        min: 152,
+        max: 183,
+        unit: 'cm',
+        note: 'NOAA成体5至6英尺展示范围的四舍五入换算，不代表全球最大背甲长。',
+      },
+      weight: {
+        min: 340,
+        max: 454,
+        unit: 'kg',
+        note: 'NOAA成体750至1,000磅展示范围的四舍五入换算，不代表全球极值。',
+      },
+    },
+    diet: {
+      types: ['carnivore'],
+      foods: ['水母', '狮鬃水母', '海月水母', '樽海鞘', '其他胶质浮游动物'],
+      description:
+        '高度专食柔软胶质猎物的肉食性海龟；双尖突颌缘和向后角质乳突帮助留住水母与樽海鞘，但这些结构不是牙齿，也不适合压碎硬壳猎物。',
+    },
+    activity: ['昼夜活动随觅食条件而变', '跨洋洄游', '深潜与表层觅食', '单独活动为主', '雌龟夜间上岸筑巢'],
+    tags: ['海龟', '海洋爬行动物', '胶质浮游动物捕食者', '跨洋洄游', '深潜', '七条背棱', '温度依赖型性别决定'],
+    summary: '拥有七条纵棱和柔韧皮质背甲、以水母等胶质猎物为主食，并跨越热带繁殖海滩与高纬觅食区的最大型海龟。',
+    description:
+      '棱皮龟没有其他海龟那样外露的硬质盾片，深色皮肤下的真皮骨构成柔韧背甲，七条纵棱与极长无爪前鳍肢适合远洋游动。成体能在冷水觅食，部分西太平洋路线超过一万千米，少数潜水达到1,250米；日常潜水远浅于这项纪录。它以水母和樽海鞘等胶质动物为主食，雌龟每隔数年返回热带或亚热带海滩夜间产卵。IUCN当前全球记录为2013年易危且下降，七个亚种群中有四个极危、一个濒危和两个数据缺乏，渔业兼捕仍是首要保护压力。',
+    storySections: [
+      {
+        key: 'identity',
+        label: '辨识',
+        title: '柔韧背甲上，恰好七条纵棱',
+        body:
+          '深黑皮肤下的小型真皮骨拼成背甲，外表没有硬质盾片；七条纵棱汇向钝尖后缘。两只极长前鳍肢和两只短后鳍肢都无爪，头顶常有粉红斑。图像一旦加上褐绿硬壳或把棱数画错，就失去本种最可靠的身份线索。',
+      },
+      {
+        key: 'gelatinous-diet',
+        label: '食性',
+        title: '低能量猎物，需要高吞吐量',
+        body:
+          '棱皮龟以水母、樽海鞘等胶质动物为主。加拿大一处研究用19只龟的短时视频和能量模型估计，日均摄入约330千克湿重水母；这个局地结果解释了它为何持续追随高密度猎物，却不是全球个体每天固定配额。',
+      },
+      {
+        key: 'thermal-biology',
+        label: '体温',
+        title: '在冷海水中保留身体热量',
+        body:
+          '五只高纬觅食成体在13.6至15.9°C海水中保持25.4至27.3°C核心体温。巨型身体、脂肪和结缔组织隔热、血流调节、游泳与消化产热、表层晒暖共同维持10.7至12.1°C温差；这属于区域性内温与巨温效应，不等同哺乳动物恒温。',
+      },
+      {
+        key: 'migration-diving',
+        label: '迁徙与潜水',
+        title: '跨洋万里，极深潜水仍是少数',
+        body:
+          '部分西太平洋个体从巴布亚或印度尼西亚前往东北太平洋，路线超过10,000千米。13只成体的26,146次潜水中，最深纪录达1,250米，但99.6%浅于300米；迁徙路线和潜水策略随繁殖群、季节与猎物改变。',
+      },
+      {
+        key: 'nesting',
+        label: '繁殖',
+        title: '夜间在动态沙滩挖出深卵室',
+        body:
+          '雌龟通常每二至四年回到繁殖区，一个季节每隔八至十二天再筑一巢，每巢约一百枚卵，孵化约两个月。沙温影响性别与存活，照明、硬质护岸、侵蚀、风暴和淹水会同时改变母龟上岸与下一代出巢。',
+      },
+      {
+        key: 'regional-risk',
+        label: '保护',
+        title: '全球易危之下，四个区域已经极危',
+        body:
+          '当前全球记录仍是2013年VU且下降；东太平洋、西南大西洋、西南印度洋和西太平洋亚种群为CR，西北大西洋为EN，另有两个DD。2025年优先级研究再次把兼捕列为最高威胁，保护必须按种群和渔业现场实施。',
+      },
+    ],
+    keyFacts: [
+      '当前接受名为Dermochelys coriacea，归入龟鳖目、棱皮龟科、棱皮龟属；当前分类记录不承认有效亚种。',
+      '背部没有外露硬质盾片，连续深色皮肤下由小型真皮骨构成柔韧背甲，并有恰好7条纵棱。',
+      '成体前鳍肢比例极长，四个鳍肢均无爪；上颌双尖突和咽部乳突不是牙齿。',
+      'NOAA成体展示范围约长152至183厘米、重340至454千克；这是典型范围，不是全球极值。',
+      '主要摄食水母、樽海鞘和其他胶质浮游动物，结构化食性为carnivore。',
+      '五只高纬成体在13.6至15.9°C海水中维持25.4至27.3°C核心体温，但不能称为哺乳动物式恒温。',
+      '研究样本最深潜水为1,250米；13只成体的26,146次潜水中有99.6%浅于300米。',
+      '部分西太平洋迁徙路线超过10,000千米，路线随繁殖群与季节变化。',
+      '雌龟通常每2至4年繁殖，一个季节多次筑巢，间隔8至12天，每巢约100枚卵并孵化约两个月。',
+      'IUCN当前全球字段为VU、decreasing、2013、A2bd；四个亚种群为CR，西北大西洋为EN。',
+      'CITES附录I、CMS附录I和中国国家一级保护均是法律状态，不能替代IUCN全球风险字段。',
+    ],
+    threats: [
+      '刺网、延绳钓、拖网、笼具和垂直浮标绳造成的兼捕、溺亡、吞钩与缠绕',
+      '为肉、卵及销售进行的直接捕杀与采集',
+      '人工照明、滨海开发、硬质护岸、采砂和车辆造成的繁殖海滩丧失与退化',
+      '海滩升温、海平面上升、侵蚀、风暴和淹水对巢、性别比与幼龟产出的影响',
+      '海洋变暖导致猎物、觅食区和迁徙时序改变',
+      '塑料、气球、钓线、油污和遗失渔具造成的误食或缠绕',
+      '港口、航道和近岸繁殖迁徙热点的船只撞击',
+    ],
+    conservationActions: [
+      '按渔具和海区验证圆形钩、饵料调整、网具改造、弱链、时空关闭、TED与安全放生流程',
+      '保护筑巢雌龟、卵室、天然沙丘和足够宽的干沙，限制车辆、采砂、白光与硬质护岸',
+      '只在具体现场风险高于搬迁风险时由受训团队移巢，并完整记录深度、朝向、时间和温度',
+      '与社区合作减少捕杀和采卵，执行国内保护、CITES贸易管制与CMS跨国协作',
+      '清除遗失渔具、钓线、气球和塑料，在近岸热点实施船只减速、瞭望与避让',
+      '按遗传种群和RMU维持可比的巢数、海上丰度、兼捕、遥测与气候监测',
+      '补足雄龟、幼龟和非繁殖区资料，以多处动态繁殖海滩分散气候风险',
+    ],
+    metrics: {
+      adultLengthCm: [152, 183],
+      adultMassKg: [340, 454],
+    },
+    featuredStats: [
+      {
+        key: 'adult-length',
+        label: '成体长度',
+        value: '152—183',
+        unit: '厘米',
+        note: 'NOAA 5至6英尺展示范围的换算，不是全球最大甲长',
+      },
+      {
+        key: 'adult-mass',
+        label: '成体质量',
+        value: '340—454',
+        unit: '千克',
+        note: 'NOAA 750至1,000磅展示范围的换算，不是全球极值',
+      },
+      {
+        key: 'recorded-dive',
+        label: '研究纪录潜深',
+        value: '1,250',
+        unit: '米',
+        note: '13只成体研究中的最深纪录；99.6%的潜水浅于300米，不是日常深度或物种上限',
+      },
+      {
+        key: 'transoceanic-route',
+        label: '跨洋迁徙路线',
+        value: '>10,000',
+        unit: '千米',
+        note: '西太平洋部分个体从巴布亚或印度尼西亚前往东北太平洋的路线，不是全种平均值',
+      },
+    ],
+    media: {
+      image: './images/species/leatherback-turtle/01-open-ocean-ridged-swim.webp',
+      alt: '一只七条纵棱清楚、深色淡斑且无硬质盾片的成年棱皮龟在开放蓝水中游动，主体位于画面右侧，左侧保留宽阔安静水体',
+      focalPoint: { x: 0.72, y: 0.56 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/leatherback-turtle/02-seven-ridges-clawless-flippers.webp',
+          alt: '从略高的三分之四视角观察一只成年棱皮龟，恰好七条背棱、粉红头斑、两只长前鳍和两只短后鳍完整可见且均无爪',
+          title: '七条纵棱与无爪长鳍',
+          caption: '连续皮肤覆盖柔韧背甲，七条纵棱和极长前鳍是区别于其他海龟的核心特征。',
+          focalPoint: { x: 0.6, y: 0.5 },
+        },
+        {
+          image: './images/species/leatherback-turtle/03-jellyfish-foraging.webp',
+          alt: '一只成年棱皮龟在开放海水中接近一只狮鬃水母，平滑双尖突上颌和中央缺口可见，口中没有独立牙齿',
+          title: '追随胶质浮游动物',
+          caption: '水母与樽海鞘是主要猎物；加拿大局地的高摄入量模型不能外推为每只龟的固定日粮。',
+          focalPoint: { x: 0.62, y: 0.52 },
+        },
+        {
+          image: './images/species/leatherback-turtle/04-deep-transit-dive.webp',
+          alt: '一只成年棱皮龟从高处明亮海面斜向下潜入无海底可见的深蓝水柱，完整四鳍肢与七条纵棱保持清楚',
+          title: '迁徙阶段的罕见深潜',
+          caption: '研究最深纪录为1,250米，但26,146次潜水中99.6%浅于300米，极深潜水并非常态。',
+          focalPoint: { x: 0.61, y: 0.61 },
+        },
+        {
+          image: './images/species/leatherback-turtle/05-night-nest-digging.webp',
+          alt: '月光下的暗色热带沙滩上，一只短尾成年雌性棱皮龟用后鳍挖深卵室，周围只有体坑与自然鳍痕且没有外露卵',
+          title: '短尾雌龟夜间挖巢',
+          caption: '雌龟先挖体坑和深卵室；画面保留单一筑巢瞬间，不把产卵、覆巢和幼龟出巢拼在一起。',
+          focalPoint: { x: 0.63, y: 0.58 },
+        },
+        {
+          image: './images/species/leatherback-turtle/06-striped-hatchlings-dark-beach.webp',
+          alt: '恰好三只深黑棱皮龟幼龟在无人工白光的暗色沙滩朝低海平线爬行，每只都有七条淡色背棱线和淡色鳍缘',
+          title: '带淡色棱线的幼龟入海',
+          caption: '幼龟不是微缩成体：七条淡色棱线、淡色鳍缘和相对很长的前鳍在暗夜中清楚可辨。',
+          focalPoint: { x: 0.55, y: 0.62 },
+        },
+      ],
+    },
+    sources: LEATHERBACK_TURTLE_SOURCES,
+    featured: true,
+    publishedAt: LEATHERBACK_TURTLE_CONTENT_DATE,
+    updatedAt: LEATHERBACK_TURTLE_CONTENT_DATE,
   },
 ] as const satisfies readonly Species[];
 

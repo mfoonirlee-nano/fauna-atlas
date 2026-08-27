@@ -5140,10 +5140,620 @@ test('registers the Tuatara as a complete Sphenodon punctatus profile', async ()
   assert.equal(tuatara.updatedAt, '2026-08-26');
 });
 
+test('registers the Nile Crocodile as a complete Crocodylus niloticus profile', async () => {
+  const nileCrocodile = findSpecies('nile-crocodile');
+
+  assert.equal(nileCrocodile.id, 'species-crocodylus-niloticus');
+  assert.equal(nileCrocodile.names.zh, '尼罗鳄');
+  assert.equal(nileCrocodile.names.en, 'Nile Crocodile');
+  assert.deepEqual(nileCrocodile.names.aliases, []);
+  assert.equal(nileCrocodile.scientificName, 'Crocodylus niloticus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(nileCrocodile).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', nileCrocodile.scientificName, nileCrocodile.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Reptilia', '爬行纲'],
+      ['order', 'Crocodylia', '鳄目'],
+      ['family', 'Crocodylidae', '鳄科'],
+      ['genus', 'Crocodylus', '鳄属'],
+      ['species', 'Crocodylus niloticus', '尼罗鳄'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: nileCrocodile.conservation.code,
+      trend: nileCrocodile.conservation.trend,
+      assessedYear: nileCrocodile.conservation.assessedYear,
+      criteria: nileCrocodile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2017,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('criteria' in nileCrocodile.conservation));
+
+  assert.deepEqual(nileCrocodile.distribution.realms, ['freshwater', 'terrestrial']);
+  assert.deepEqual(nileCrocodile.distribution.continents, ['非洲']);
+  assert.equal(nileCrocodile.distribution.countries.length, 25);
+  assert.ok(
+    ['埃及', '肯尼亚', '南非', '马达加斯加', '津巴布韦'].every((country) =>
+      nileCrocodile.distribution.countries.includes(country),
+    ),
+  );
+  assert.ok(!nileCrocodile.distribution.countries.includes('赤道几内亚'));
+  assert.ok(!('endemicTo' in nileCrocodile.distribution));
+  assert.deepEqual(nileCrocodile.distribution.center, { lat: -10, lng: 28 });
+  assert.match(
+    nileCrocodile.distribution.range,
+    /(?:东部|东非).*(?:南部|南非).*(?:尼罗河上游|纳赛尔湖).*马达加斯加.*(?:西非圣鳄|Crocodylus suchus)/,
+  );
+
+  assert.ok(nileCrocodile.habitats.length >= 3);
+  assert.equal(
+    nileCrocodile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(
+    nileCrocodile.habitats.every(({ realm }) =>
+      ['freshwater', 'terrestrial'].includes(realm),
+    ),
+  );
+  assert.ok(nileCrocodile.diet.types.includes('carnivore'));
+  assert.ok(nileCrocodile.diet.types.includes('piscivore'));
+  assert.ok(nileCrocodile.diet.foods.length > 0);
+  assert.ok((nileCrocodile.activity?.length ?? 0) > 0);
+  assert.ok(nileCrocodile.tags.length > 0);
+
+  assert.deepEqual(
+    {
+      min: nileCrocodile.measurements.length?.min,
+      max: nileCrocodile.measurements.length?.max,
+      unit: nileCrocodile.measurements.length?.unit,
+    },
+    { min: 2.18, max: 5.5, unit: 'm' },
+  );
+  assert.match(
+    nileCrocodile.measurements.length?.note ?? '',
+    /2\.18.*历史.*最小.*筑巢雌性.*5\.5.*罕见.*大型雄性.*(?:不是|不代表).*典型/,
+  );
+  assert.ok(!('weight' in nileCrocodile.measurements));
+  assert.deepEqual(nileCrocodile.metrics, { adultLengthCm: [218, 550] });
+  assert.ok(!('adultMassKg' in nileCrocodile.metrics));
+  assert.ok(!('lifespanYears' in nileCrocodile.metrics));
+  assert.ok(!('topSpeedKph' in nileCrocodile.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in nileCrocodile.metrics));
+
+  assert.equal(nileCrocodile.storySections?.length, 6);
+  assert.equal(new Set(nileCrocodile.storySections.map(({ key }) => key)).size, 6);
+  assert.ok(
+    nileCrocodile.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(nileCrocodile.keyFacts.length >= 8);
+  assert.ok(nileCrocodile.threats.length >= 5);
+  assert.ok(nileCrocodile.conservationActions.length >= 5);
+  assert.equal(nileCrocodile.featuredStats.length, 4);
+  assert.equal(new Set(nileCrocodile.featuredStats.map(({ key }) => key)).size, 4);
+
+  assert.equal(nileCrocodile.media.gallery?.length, 5);
+  assert.equal(nileCrocodile.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    nileCrocodile.media.image,
+    ...nileCrocodile.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/nile-crocodile/01-river-sandbank-adult.webp',
+    './images/species/nile-crocodile/02-ripple-sensory-hunt.webp',
+    './images/species/nile-crocodile/03-social-gaping.webp',
+    './images/species/nile-crocodile/04-seasonal-floodplain-movement.webp',
+    './images/species/nile-crocodile/05-hatchling-mouth-transport.webp',
+    './images/species/nile-crocodile/06-protected-water-access.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !nileCrocodile.media.gallery.some(
+      ({ image }) => image === nileCrocodile.media.image,
+    ),
+  );
+  const mediaRecords = [nileCrocodile.media, ...nileCrocodile.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    nileCrocodile.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    nileCrocodile.media.alt,
+    /(?:沙岸.*一只完整成年雄性尼罗鳄.*(?:V 形|V形|宽而结实).*(?:完整尾尖|尾尖)|一只完整成年雄性尼罗鳄.*(?:V 形|V形|宽而结实).*沙岸.*(?:完整尾尖|尾尖))/,
+  );
+  const sensoryMedia = nileCrocodile.media.gallery.find(({ image }) =>
+    image.includes('02-ripple-sensory-hunt'),
+  );
+  const sensoryText = [sensoryMedia?.alt, sensoryMedia?.caption].join(' ');
+  assert.match(
+    sensoryText,
+    /一只完整幼鳄.*(?:水下未知扰动|猎物不可见|未见猎物).*(?:涟漪|水波).*(?:暗点|感受器)/,
+  );
+  assert.match(
+    sensoryText,
+    /(?:暗点|感受器).*(?:不是|不代表|没有).*(?:声呐|电感|发光|通用能力)/,
+  );
+  assert.doesNotMatch(sensoryMedia?.alt ?? '', /小鱼|鱼类|猎物留下/);
+  const gapingMedia = nileCrocodile.media.gallery.find(({ image }) =>
+    image.includes('03-social-gaping'),
+  );
+  assert.match(
+    [gapingMedia?.alt, gapingMedia?.caption].join(' '),
+    /多只.*尼罗鳄.*一只.*张口.*气温.*邻近个体.*(?:不能|无法).*(?:散热|威吓)/,
+  );
+  const movementMedia = nileCrocodile.media.gallery.find(({ image }) =>
+    image.includes('04-seasonal-floodplain-movement'),
+  );
+  assert.match(
+    [movementMedia?.alt, movementMedia?.caption].join(' '),
+    /(?:漫滩|水潭).*一只完整.*尼罗鳄.*(?:无线电|发射器|标记).*(?:恩杜莫|地方研究).*(?:不能|不代表).*(?:全物种|固定迁徙距离)/,
+  );
+  const transportMedia = nileCrocodile.media.gallery.find(({ image }) =>
+    image.includes('05-hatchling-mouth-transport'),
+  );
+  assert.match(
+    [transportMedia?.alt, transportMedia?.caption].join(' '),
+    /一只完整母鳄.*(?:颊囊|口中|含运).*两只.*完整幼体.*(?:无伤|没有咬合|没有咀嚼).*(?:圈养|野外相机)/,
+  );
+  assert.doesNotMatch(transportMedia?.alt ?? '', /三只/);
+  const accessMedia = nileCrocodile.media.gallery.find(({ image }) =>
+    image.includes('06-protected-water-access'),
+  );
+  assert.match(
+    [accessMedia?.alt, accessMedia?.caption].join(' '),
+    /(?:取水平台|防鳄屏障).*人.*设施一侧.*远处.*一只尼罗鳄.*(?:建议|预防措施).*(?:不是|不代表|未验证).*(?:万能|纳赛尔湖实验)/,
+  );
+
+  assert.ok(nileCrocodile.sources.length >= 5);
+  assert.equal(
+    new Set(nileCrocodile.sources.map(({ url }) => url)).size,
+    nileCrocodile.sources.length,
+  );
+  assert.ok(nileCrocodile.sources.every(({ title }) => title.length > 0));
+  assert.ok(nileCrocodile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(nileCrocodile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    nileCrocodile.sources.every(({ accessedAt }) => accessedAt === '2026-08-27'),
+  );
+  assert.deepEqual(
+    new Set(nileCrocodile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'distribution', 'ecology', 'conservation']),
+  );
+
+  const profileText = [
+    nileCrocodile.summary,
+    nileCrocodile.description,
+    nileCrocodile.distribution.range,
+    ...nileCrocodile.habitats.flatMap(({ name, description }) => [name, description]),
+    nileCrocodile.measurements.length?.note ?? '',
+    nileCrocodile.diet.description,
+    ...(nileCrocodile.activity ?? []),
+    ...nileCrocodile.tags,
+    ...(nileCrocodile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...nileCrocodile.keyFacts,
+    ...nileCrocodile.threats,
+    ...nileCrocodile.conservationActions,
+    ...nileCrocodile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /Crocodylus suchus.*(?:独立物种|独立种|恢复).*(?:中非|东北非).*(?:遗传核验|分子鉴定|鉴定空白)/,
+  );
+  assert.match(
+    profileText,
+    /(?:IUCN|鳄类专家组).*2017.*(?:无危|LC).*(?:稳定|stable).*(?:地方|区域).*(?:下降|易危|VU|资料不足)/i,
+  );
+  assert.match(
+    profileText,
+    /2\.18.*历史.*筑巢雌性.*5\.5.*罕见.*大型雄性.*(?:不是|不代表).*典型/,
+  );
+  assert.match(
+    profileText,
+    /约?\s*9,?000.*(?:皮肤|鳞片).*感受器.*(?:暗点|不发光)/,
+  );
+  assert.match(
+    profileText,
+    /初生.*(?:水生昆虫|蛛形).*(?:体型|随.*生长).*(?:甲壳|两栖|鱼).*(?:亚成体|不能|不代表).*(?:大型成体|所有成年)/,
+  );
+  assert.match(
+    profileText,
+    /张口.*气温.*邻近个体.*(?:不能|无法).*(?:单一|只).*(?:散热|威吓)/,
+  );
+  assert.match(
+    profileText,
+    /(?:14\s*(?:至|—|-|~)\s*95).*枚.*(?:33\s*(?:至|—|-|~)\s*60(?:\.4)?).*地方.*(?:75\s*(?:至|—|-|~)\s*115).*天.*(?:固定温度|固定阈值|不是.*开关)/,
+  );
+  assert.match(
+    profileText,
+    /(?:颊囊|口中).*(?:幼体|幼鳄).*(?:恒河鳄).*(?:不口衔|不会用嘴|无法口衔)/,
+  );
+  assert.match(
+    profileText,
+    /(?:刺网|湿地|筑坝).*(?:固定取水点|防鳄屏障|桥|码头).*(?:人鳄共存|风险教育)/,
+  );
+  assert.doesNotMatch(profileText, /5,?000\s*psi/i);
+  assert.doesNotMatch(profileText, /(?:所有|全部)成年尼罗鳄.*大型哺乳动物/);
+
+  assert.equal(nileCrocodile.featured, true);
+  assert.equal(nileCrocodile.publishedAt, '2026-08-27');
+  assert.equal(nileCrocodile.updatedAt, '2026-08-27');
+});
+
+test('registers the Leatherback Turtle as a complete Dermochelys coriacea profile', async () => {
+  const leatherback = findSpecies('leatherback-turtle');
+
+  assert.equal(leatherback.id, 'species-dermochelys-coriacea');
+  assert.equal(leatherback.names.zh, '棱皮龟');
+  assert.equal(leatherback.names.en, 'Leatherback Turtle');
+  assert.deepEqual(leatherback.names.aliases, ['革龟']);
+  assert.equal(leatherback.scientificName, 'Dermochelys coriacea');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(leatherback).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', leatherback.scientificName, leatherback.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Reptilia', '爬行纲'],
+      ['order', 'Testudines', '龟鳖目'],
+      ['family', 'Dermochelyidae', '棱皮龟科'],
+      ['genus', 'Dermochelys', '棱皮龟属'],
+      ['species', 'Dermochelys coriacea', '棱皮龟'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: leatherback.conservation.code,
+      trend: leatherback.conservation.trend,
+      assessedYear: leatherback.conservation.assessedYear,
+      criteria: leatherback.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2013,
+      criteria: 'A2bd',
+    },
+  );
+
+  assert.deepEqual(leatherback.distribution.realms, ['marine', 'terrestrial']);
+  assert.deepEqual(leatherback.distribution.continents, [
+    '亚洲',
+    '非洲',
+    '欧洲',
+    '北美洲',
+    '南美洲',
+    '大洋洲',
+  ]);
+  assert.equal(leatherback.distribution.countries.length, 20);
+  assert.ok(
+    ['中国', '印度尼西亚', '巴布亚新几内亚', '加拿大', '加蓬'].every(
+      (country) => leatherback.distribution.countries.includes(country),
+    ),
+  );
+  assert.ok(!('center' in leatherback.distribution));
+  assert.ok(!('endemicTo' in leatherback.distribution));
+  assert.match(
+    leatherback.distribution.range,
+    /大西洋.*太平洋.*印度洋.*地中海.*筑巢.*(?:热带|亚热带).*(?:温带|近寒带).*(?:代表性|不是完整)/,
+  );
+
+  assert.equal(leatherback.habitats.length, 4);
+  assert.equal(
+    leatherback.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.equal(
+    leatherback.habitats.filter(({ realm }) => realm === 'terrestrial').length,
+    1,
+  );
+  assert.ok(
+    leatherback.habitats.every(({ realm }) =>
+      ['marine', 'terrestrial'].includes(realm),
+    ),
+  );
+  assert.deepEqual(leatherback.diet.types, ['carnivore']);
+  assert.ok(leatherback.diet.foods.includes('水母'));
+  assert.ok(leatherback.diet.foods.includes('樽海鞘'));
+  assert.match(
+    leatherback.diet.description,
+    /胶质.*(?:双尖突|颌缘).*(?:角质乳突).*(?:不是|不属于)牙齿/,
+  );
+  assert.ok((leatherback.activity?.length ?? 0) > 0);
+  assert.ok(leatherback.tags.includes('七条背棱'));
+
+  assert.deepEqual(
+    {
+      min: leatherback.measurements.length?.min,
+      max: leatherback.measurements.length?.max,
+      unit: leatherback.measurements.length?.unit,
+    },
+    { min: 152, max: 183, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: leatherback.measurements.weight?.min,
+      max: leatherback.measurements.weight?.max,
+      unit: leatherback.measurements.weight?.unit,
+    },
+    { min: 340, max: 454, unit: 'kg' },
+  );
+  assert.match(
+    leatherback.measurements.length?.note ?? '',
+    /NOAA.*5\s*(?:至|—|-|~)\s*6.*英尺.*换算.*(?:不代表|不是).*全球最大/,
+  );
+  assert.match(
+    leatherback.measurements.weight?.note ?? '',
+    /NOAA.*750\s*(?:至|—|-|~)\s*1,000.*磅.*换算.*(?:不代表|不是).*全球极值/,
+  );
+  assert.deepEqual(leatherback.metrics, {
+    adultLengthCm: [152, 183],
+    adultMassKg: [340, 454],
+  });
+  assert.ok(!('lifespanYears' in leatherback.metrics));
+  assert.ok(!('maxDiveDepthM' in leatherback.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in leatherback.metrics));
+
+  assert.equal(leatherback.storySections?.length, 6);
+  assert.deepEqual(
+    leatherback.storySections.map(({ key }) => key),
+    [
+      'identity',
+      'gelatinous-diet',
+      'thermal-biology',
+      'migration-diving',
+      'nesting',
+      'regional-risk',
+    ],
+  );
+  assert.ok(
+    leatherback.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(leatherback.keyFacts.length >= 8);
+  assert.ok(leatherback.threats.length >= 5);
+  assert.ok(leatherback.conservationActions.length >= 5);
+  assert.equal(leatherback.featuredStats.length, 4);
+  assert.deepEqual(
+    leatherback.featuredStats.map(({ key }) => key),
+    ['adult-length', 'adult-mass', 'recorded-dive', 'transoceanic-route'],
+  );
+
+  assert.equal(leatherback.media.gallery?.length, 5);
+  assert.equal(leatherback.media.credit, 'Fauna Atlas · AI 生成原创图像');
+  const mediaPaths = [
+    leatherback.media.image,
+    ...leatherback.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/leatherback-turtle/01-open-ocean-ridged-swim.webp',
+    './images/species/leatherback-turtle/02-seven-ridges-clawless-flippers.webp',
+    './images/species/leatherback-turtle/03-jellyfish-foraging.webp',
+    './images/species/leatherback-turtle/04-deep-transit-dive.webp',
+    './images/species/leatherback-turtle/05-night-nest-digging.webp',
+    './images/species/leatherback-turtle/06-striped-hatchlings-dark-beach.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !leatherback.media.gallery.some(({ image }) => image === leatherback.media.image),
+  );
+  const mediaRecords = [leatherback.media, ...leatherback.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.72, y: 0.56 },
+      { x: 0.6, y: 0.5 },
+      { x: 0.62, y: 0.52 },
+      { x: 0.61, y: 0.61 },
+      { x: 0.63, y: 0.58 },
+      { x: 0.55, y: 0.62 },
+    ],
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    leatherback.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    leatherback.media.alt,
+    /一只.*七条纵棱.*(?:无|没有)硬质盾片.*成年棱皮龟.*右侧.*左侧.*(?:安静水体|负空间)/,
+  );
+  const anatomyMedia = leatherback.media.gallery.find(({ image }) =>
+    image.includes('02-seven-ridges-clawless-flippers'),
+  );
+  assert.match(
+    [anatomyMedia?.alt, anatomyMedia?.caption].join(' '),
+    /一只成年棱皮龟.*恰好七条.*(?:纵棱|背棱).*粉红头斑.*两只长前鳍.*两只短后鳍.*(?:无爪|没有爪)/,
+  );
+  const foragingMedia = leatherback.media.gallery.find(({ image }) =>
+    image.includes('03-jellyfish-foraging'),
+  );
+  assert.match(
+    [foragingMedia?.alt, foragingMedia?.caption].join(' '),
+    /一只成年棱皮龟.*一只狮鬃水母.*(?:双尖突|中央缺口).*(?:没有|无)独立牙齿.*(?:加拿大|局地).*(?:不能|不是).*(?:固定日粮|每只)/,
+  );
+  const diveMedia = leatherback.media.gallery.find(({ image }) =>
+    image.includes('04-deep-transit-dive'),
+  );
+  assert.match(
+    [diveMedia?.alt, diveMedia?.caption].join(' '),
+    /一只成年棱皮龟.*斜向下潜.*(?:无|没有)海底.*1,250.*26,146.*99\.6%.*300.*(?:罕见|并非常态)/,
+  );
+  const nestingMedia = leatherback.media.gallery.find(({ image }) =>
+    image.includes('05-night-nest-digging'),
+  );
+  assert.match(
+    [nestingMedia?.alt, nestingMedia?.caption].join(' '),
+    /一只短尾成年雌性棱皮龟.*(?:深卵室|挖巢).*(?:没有|无)外露卵.*(?:单一|不把).*(?:筑巢瞬间|产卵|幼龟出巢)/,
+  );
+  const hatchlingMedia = leatherback.media.gallery.find(({ image }) =>
+    image.includes('06-striped-hatchlings-dark-beach'),
+  );
+  assert.match(
+    [hatchlingMedia?.alt, hatchlingMedia?.caption].join(' '),
+    /恰好三只.*棱皮龟幼龟.*(?:无|没有)人工白光.*七条淡色背棱线.*淡色鳍缘.*(?:不是|不等于)微缩成体/,
+  );
+
+  assert.equal(leatherback.sources.length, 17);
+  assert.equal(
+    new Set(leatherback.sources.map(({ url }) => url)).size,
+    leatherback.sources.length,
+  );
+  assert.ok(leatherback.sources.every(({ title }) => title.length > 0));
+  assert.ok(leatherback.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(leatherback.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    leatherback.sources.every(({ accessedAt }) => accessedAt === '2026-08-27'),
+  );
+  assert.deepEqual(
+    new Set(leatherback.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'distribution', 'ecology']),
+  );
+
+  const profileText = [
+    leatherback.summary,
+    leatherback.description,
+    leatherback.distribution.range,
+    ...leatherback.habitats.flatMap(({ name, description }) => [name, description]),
+    leatherback.measurements.length?.note ?? '',
+    leatherback.measurements.weight?.note ?? '',
+    leatherback.diet.description,
+    ...(leatherback.activity ?? []),
+    ...leatherback.tags,
+    ...(leatherback.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...leatherback.keyFacts,
+    ...leatherback.threats,
+    ...leatherback.conservationActions,
+    ...leatherback.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(profileText, /(?:恰好)?(?:7|七)条.*(?:纵棱|背棱)/);
+  assert.match(
+    profileText,
+    /(?:没有|无)外露硬质盾片.*真皮骨.*(?:柔韧)?背甲|真皮骨.*背甲.*(?:没有|无)硬质盾片/,
+  );
+  assert.doesNotMatch(profileText, /(?:完全|根本)(?:没有|无)(?:壳|甲结构)/);
+  assert.match(
+    profileText,
+    /五只.*高纬.*13\.6\s*(?:至|—|-|~)\s*15\.9.*海水.*25\.4\s*(?:至|—|-|~)\s*27\.3.*核心体温.*10\.7\s*(?:至|—|-|~)\s*12\.1.*(?:不等同|不能称为).*哺乳动物.*恒温/,
+  );
+  assert.match(
+    profileText,
+    /13只.*26,146.*1,250.*99\.6%.*浅于300.*(?:罕见|并非常态|不是日常)/,
+  );
+  assert.match(
+    profileText,
+    /(?:部分)?西太平洋.*(?:巴布亚|印度尼西亚).*(?:东北太平洋|加利福尼亚).*(?:超过|>)10,000.*(?:不是|不代表).*(?:全种平均|每只)/,
+  );
+  assert.match(
+    profileText,
+    /加拿大.*19只.*(?:短时视频|能量模型).*约330千克.*(?:局地|这个地点).*(?:不是|不能).*(?:固定配额|固定日粮|全球)/,
+  );
+  assert.match(
+    profileText,
+    /(?:全球|当前全球).*2013.*(?:易危|VU).*(?:下降|decreasing).*(?:四个|四个区域|四个亚种群).*(?:极危|CR).*(?:一个|西北大西洋).*(?:濒危|EN).*(?:两个|另有两个).*(?:数据缺乏|DD)/i,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /全球(?:等级|记录|字段)(?:为|：|:)\s*(?:极危|CR)\b/i,
+  );
+  assert.match(
+    profileText,
+    /(?:每)?2\s*(?:至|—|-|~)\s*4年.*8\s*(?:至|—|-|~)\s*12天.*(?:每巢)?约100枚.*(?:孵化)?约两个月/,
+  );
+  assert.match(
+    profileText,
+    /CITES附录I.*CMS附录I.*中国国家一级保护.*(?:法律状态|法律).*(?:不能|不代表).*(?:IUCN|全球风险)/i,
+  );
+  assert.match(
+    profileText,
+    /Dermochelys coriacea.*(?:不承认|无).*有效亚种/,
+  );
+
+  assert.equal(leatherback.featured, true);
+  assert.equal(leatherback.publishedAt, '2026-08-27');
+  assert.equal(leatherback.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 53);
+  assert.equal(species.length, 55);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -5154,7 +5764,17 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Gavialidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Gavialis')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Crocodylidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Crocodylus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Testudines')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Cheloniidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Chelonia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Dermochelyidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Dermochelys')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
