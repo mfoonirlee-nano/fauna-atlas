@@ -1,6 +1,11 @@
 import assert from 'node:assert/strict';
+import { execFile } from 'node:child_process';
 import { access, readFile } from 'node:fs/promises';
 import test from 'node:test';
+import { fileURLToPath } from 'node:url';
+import { promisify } from 'node:util';
+
+const execFileAsync = promisify(execFile);
 
 async function importCompiledModule(relativePath) {
   const fileUrl = new URL(relativePath, import.meta.url);
@@ -6389,10 +6394,345 @@ test('registers the Goliath Frog as a complete Conraua goliath profile', async (
   assert.equal(goliathFrog.updatedAt, '2026-08-27');
 });
 
+test("registers Belcher's Lancelet as a complete Branchiostoma belcheri profile", async () => {
+  const lancelet = findSpecies('belchers-lancelet');
+
+  assert.equal(lancelet.id, 'species-branchiostoma-belcheri');
+  assert.equal(lancelet.names.zh, '厦门文昌鱼');
+  assert.equal(lancelet.names.en, "Belcher's Lancelet");
+  assert.deepEqual(lancelet.names.aliases, [
+    '文昌鱼',
+    '白氏鳃口文昌鱼',
+    '白氏文昌鱼',
+    'Chinese Lancelet',
+  ]);
+  assert.equal(lancelet.scientificName, 'Branchiostoma belcheri');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(lancelet).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', lancelet.scientificName, lancelet.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Leptocardii', '文昌鱼纲'],
+      ['order', 'Amphioxiformes', '文昌鱼目'],
+      ['family', 'Branchiostomatidae', '文昌鱼科'],
+      ['genus', 'Branchiostoma', '鳃口文昌鱼属'],
+      ['species', 'Branchiostoma belcheri', '厦门文昌鱼'],
+    ],
+  );
+  assert.ok(
+    !['Actinopterygii', 'Sarcopterygii', 'Chondrichthyes'].includes(
+      lancelet.taxonomy.class.scientificName,
+    ),
+  );
+  assert.deepEqual(
+    {
+      code: lancelet.conservation.code,
+      trend: lancelet.conservation.trend,
+      assessedYear: lancelet.conservation.assessedYear,
+      criteria: lancelet.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(lancelet.distribution.realms, ['marine']);
+  assert.deepEqual(lancelet.distribution.continents, ['亚洲']);
+  assert.deepEqual(lancelet.distribution.countries, ['中国', '马来西亚', '新加坡']);
+  assert.deepEqual(lancelet.distribution.center, { lat: 21.5, lng: 113.8 });
+  assert.match(
+    lancelet.distribution.range,
+    /厦门.*香港.*台湾.*新加坡.*模式产地.*婆罗洲.*日本.*青岛.*B\. japonicum.*逐点重鉴定/,
+  );
+  assert.equal(lancelet.habitats.length, 3);
+  assert.equal(
+    lancelet.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(lancelet.habitats.every(({ realm }) => realm === 'marine'));
+  assert.match(
+    lancelet.habitats.map(({ description }) => description).join(' '),
+    /低有机质.*近底水流.*32\s*至\s*33\s*米.*两个标本.*不代表全种深度上限.*浮游.*变态后.*砂底/,
+  );
+
+  assert.deepEqual(
+    {
+      min: lancelet.measurements.length?.min,
+      max: lancelet.measurements.length?.max,
+      unit: lancelet.measurements.length?.unit,
+    },
+    { min: 39.3, max: 57.2, unit: 'mm' },
+  );
+  assert.match(
+    lancelet.measurements.length?.note ?? '',
+    /厦门\s*100\s*只.*B\. belcheri.*47\.63\s*±\s*4\.73\s*毫米.*不是全种成年范围或绝对最大体长/,
+  );
+  assert.deepEqual(lancelet.metrics, {});
+  assert.ok(!('adultLengthCm' in lancelet.metrics));
+  assert.ok(!('maxDiveDepthM' in lancelet.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in lancelet.metrics));
+  assert.deepEqual(lancelet.diet.types, ['filter-feeder', 'detritivore']);
+  assert.deepEqual(lancelet.diet.foods, [
+    '微生物与细菌',
+    '微型浮游生物',
+    '微藻与甲藻',
+    '小型浮游动物',
+    '悬浮有机碎屑',
+  ]);
+  assert.match(
+    lancelet.diet.description,
+    /口笠触手.*轮器.*咽部纤毛.*内柱黏液.*稳定同位素.*不提供固定食谱比例/,
+  );
+
+  assert.equal(lancelet.storySections?.length, 6);
+  assert.deepEqual(
+    lancelet.storySections.map(({ key }) => key),
+    [
+      'notochord-not-vertebrae',
+      'oral-hood-filter',
+      'buried-filter-feeder',
+      'two-lancelet-names',
+      'planktonic-to-benthic',
+      'protect-moving-sand',
+    ],
+  );
+  assert.ok(
+    lancelet.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(lancelet.keyFacts.length, 7);
+  assert.ok(lancelet.threats.length >= 7);
+  assert.ok(lancelet.conservationActions.length >= 8);
+  assert.equal(lancelet.featuredStats.length, 4);
+  assert.deepEqual(
+    lancelet.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      {
+        key: 'xiamen-sample-max-length',
+        value: '57.2',
+        unit: '毫米',
+      },
+      {
+        key: 'preanal-fin-chambers',
+        value: '80 至 103',
+        unit: '个',
+      },
+      {
+        key: 'pak-lap-wan-density',
+        value: '423.8 ± 111.1',
+        unit: '只/平方米',
+      },
+      {
+        key: 'reference-haplotype-assembly',
+        value: '426',
+        unit: 'Mb',
+      },
+    ],
+  );
+  assert.match(
+    lancelet.featuredStats.map(({ note }) => note ?? '').join(' '),
+    /100\s*只.*不是物种绝对上限.*鉴别范围.*不是肌节数.*2005\s*至\s*2006\s*年.*一站.*不是全球平均.*2014\s*年.*一只厦门雄体.*不是固定种级基因组大小/,
+  );
+
+  assert.equal(lancelet.media.gallery?.length, 5);
+  const mediaPaths = [
+    lancelet.media.image,
+    ...lancelet.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/belchers-lancelet/01-sandy-seabed-cover.webp',
+    './images/species/belchers-lancelet/02-translucent-body-field-marks.webp',
+    './images/species/belchers-lancelet/03-coarse-sand-habitat.webp',
+    './images/species/belchers-lancelet/04-buried-filter-feeding.webp',
+    './images/species/belchers-lancelet/05-night-swimming-emergence.webp',
+    './images/species/belchers-lancelet/06-noninvasive-sediment-survey.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !lancelet.media.gallery.some(({ image }) => image === lancelet.media.image),
+  );
+  const mediaRecords = [lancelet.media, ...lancelet.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.68, y: 0.61 },
+      { x: 0.53, y: 0.55 },
+      { x: 0.68, y: 0.76 },
+      { x: 0.72, y: 0.55 },
+      { x: 0.55, y: 0.55 },
+      { x: 0.69, y: 0.78 },
+    ],
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  const sourcePaths = [
+    '01-sandy-seabed-cover-source.png',
+    '02-translucent-body-field-marks-source.png',
+    '03-coarse-sand-habitat-source.png',
+    '04-buried-filter-feeding-source.png',
+    '05-night-swimming-emergence-source.png',
+    '06-noninvasive-sediment-survey-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(
+        `../src/assets/source/species/belchers-lancelet/${filename}`,
+        import.meta.url,
+      ),
+    })),
+  ];
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+  assert.ok(
+    lancelet.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  const mediaText = mediaRecords
+    .flatMap(({ alt, caption }) => [alt, caption ?? ''])
+    .join(' ');
+  assert.match(
+    mediaText,
+    /人字形肌节.*背索.*没有鱼类眼、颌、鳞片或成对鳍.*不保证精确显示全部肌节或鳍室数量/,
+  );
+  assert.match(
+    mediaText,
+    /概括性重建.*不代表已确认站位、深度或种群密度.*轮器位于口腔前庭内部.*不显示地下身体、食物颗粒或一次真实摄食结果/,
+  );
+  assert.match(
+    mediaText,
+    /暮色重建.*不据此判断昼夜节律.*不代表迁徙、集群或繁殖行为.*不代表真实人员、站位、规程、捕获数或种群结果/,
+  );
+
+  assert.equal(lancelet.sources.length, 20);
+  assert.equal(
+    new Set(lancelet.sources.map(({ url }) => url)).size,
+    lancelet.sources.length,
+  );
+  assert.ok(lancelet.sources.every(({ title }) => title.length > 0));
+  assert.ok(lancelet.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(lancelet.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    lancelet.sources.every(({ accessedAt }) => accessedAt === '2026-08-27'),
+  );
+  assert.deepEqual(
+    new Set(lancelet.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+
+  const profileText = [
+    lancelet.summary,
+    lancelet.description,
+    lancelet.distribution.range,
+    ...lancelet.habitats.flatMap(({ name, description }) => [name, description]),
+    lancelet.measurements.length?.note ?? '',
+    lancelet.diet.description,
+    ...(lancelet.activity ?? []),
+    ...lancelet.tags,
+    ...(lancelet.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...lancelet.keyFacts,
+    ...lancelet.threats,
+    ...lancelet.conservationActions,
+    ...lancelet.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /头索动物.*不是鱼类或脊椎动物.*没有真正头颅、脊柱、颌、鳞片、鳃盖和成对鳍.*背索.*吻端.*人字形肌节/,
+  );
+  assert.match(
+    profileText,
+    /口笠触手.*内部轮器.*咽鳃裂.*内柱黏液.*肝盲囊.*不宜直接称为原始肝脏/,
+  );
+  assert.match(
+    profileText,
+    /B\. japonicum.*48\s*至\s*64.*青岛.*日本.*旧称.*必须先确认物种身份/,
+  );
+  assert.match(
+    profileText,
+    /IUCN\s*尚无全球评估.*国家二级保护野生动物.*仅限野外种群/,
+  );
+  assert.doesNotMatch(profileText, /IUCN\s*(?:全球)?(?:评为|等级为|状态为)?\s*EN/i);
+  assert.doesNotMatch(profileText, /全球(?:平均密度|总数|成年范围|最大体长)/);
+
+  assert.equal(lancelet.featured, true);
+  assert.equal(lancelet.publishedAt, '2026-08-27');
+  assert.equal(lancelet.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 57);
+  assert.equal(species.length, 58);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -6424,6 +6764,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 53);
+  assert.equal(findTaxon(tree, 'class', 'Leptocardii')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'order', 'Struthioniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Struthionidae')?.speciesCount, 1);
