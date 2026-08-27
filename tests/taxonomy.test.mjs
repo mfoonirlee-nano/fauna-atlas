@@ -6071,10 +6071,328 @@ test('registers the Marine Iguana as a complete Amblyrhynchus cristatus profile'
   assert.equal(marineIguana.updatedAt, '2026-08-27');
 });
 
+test('registers the Goliath Frog as a complete Conraua goliath profile', async () => {
+  const goliathFrog = findSpecies('goliath-frog');
+
+  assert.equal(goliathFrog.id, 'species-conraua-goliath');
+  assert.equal(goliathFrog.names.zh, '非洲巨蛙');
+  assert.equal(goliathFrog.names.en, 'Goliath Frog');
+  assert.deepEqual(goliathFrog.names.aliases, [
+    '巨谐蛙',
+    '歌利亚蛙',
+    '巨型滑蛙',
+    'Giant Slippery Frog',
+  ]);
+  assert.equal(goliathFrog.scientificName, 'Conraua goliath');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(goliathFrog).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', goliathFrog.scientificName, goliathFrog.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Amphibia', '两栖纲'],
+      ['order', 'Anura', '无尾目'],
+      ['family', 'Conrauidae', '巨谐蛙科'],
+      ['genus', 'Conraua', '巨谐蛙属'],
+      ['species', 'Conraua goliath', '非洲巨蛙'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: goliathFrog.conservation.code,
+      trend: goliathFrog.conservation.trend,
+      assessedYear: goliathFrog.conservation.assessedYear,
+      criteria: goliathFrog.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'decreasing',
+      assessedYear: 2018,
+      criteria: 'A2d',
+    },
+  );
+
+  assert.deepEqual(goliathFrog.distribution.realms, ['freshwater', 'terrestrial']);
+  assert.deepEqual(goliathFrog.distribution.continents, ['非洲']);
+  assert.deepEqual(goliathFrog.distribution.countries, ['喀麦隆', '赤道几内亚']);
+  assert.ok(!goliathFrog.distribution.countries.includes('加蓬'));
+  assert.deepEqual(goliathFrog.distribution.center, { lat: 3.2, lng: 10.15 });
+  assert.match(
+    goliathFrog.distribution.range,
+    /喀麦隆西南部.*赤道几内亚大陆部.*1,000\s*米以下.*加蓬.*未确认.*不列作确定范围国/,
+  );
+
+  assert.equal(goliathFrog.habitats.length, 3);
+  assert.equal(
+    goliathFrog.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.equal(
+    goliathFrog.habitats.filter(({ realm }) => realm === 'freshwater').length,
+    2,
+  );
+  assert.equal(
+    goliathFrog.habitats.filter(({ realm }) => realm === 'terrestrial').length,
+    1,
+  );
+  assert.deepEqual(goliathFrog.diet.types, ['carnivore']);
+  assert.deepEqual(goliathFrog.diet.foods, [
+    '陆生节肢动物',
+    '淡水虾等甲壳类',
+    '淡水蜗牛',
+    '其他蛙类及蝌蚪',
+  ]);
+  assert.ok(!goliathFrog.diet.foods.some((food) => /植物|Dicraea/i.test(food)));
+  assert.match(
+    goliathFrog.diet.description,
+    /成蛙为肉食者.*蝌蚪.*水生植物.*可能.*河川草科.*确切种类和是否专食未定.*Dicraea warmingii\s*不作为已确认食物/i,
+  );
+  assert.ok(goliathFrog.activity?.includes('主要夜行'));
+  assert.ok(goliathFrog.activity?.includes('白天岩石晒背'));
+  assert.ok(goliathFrog.activity?.includes('非迁徙'));
+  assert.ok(goliathFrog.tags.includes('喀麦隆 A 类保护动物'));
+
+  assert.deepEqual(
+    {
+      max: goliathFrog.measurements.length?.max,
+      unit: goliathFrog.measurements.length?.unit,
+    },
+    { max: 33.5, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      max: goliathFrog.measurements.weight?.max,
+      unit: goliathFrog.measurements.weight?.unit,
+    },
+    { max: 3.3, unit: 'kg' },
+  );
+  assert.match(
+    goliathFrog.measurements.length?.note ?? '',
+    /2021—2022\s*年.*三地\s*139\s*只样本.*最大实测吻肛长.*同只重\s*2\.529\s*千克.*不是普通成体范围或绝对上限/,
+  );
+  assert.match(
+    goliathFrog.measurements.weight?.note ?? '',
+    /1960\s*年.*一只\s*32\s*厘米个体.*历史记录.*不是普通成体范围或绝对上限/,
+  );
+  assert.deepEqual(goliathFrog.metrics, { elevationM: [0, 1000] });
+  assert.ok(!('adultLengthCm' in goliathFrog.metrics));
+  assert.ok(!('adultMassKg' in goliathFrog.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in goliathFrog.metrics));
+
+  assert.equal(goliathFrog.storySections?.length, 6);
+  assert.deepEqual(
+    goliathFrog.storySections.map(({ key }) => key),
+    [
+      'record-with-boundaries',
+      'torrent-built-body',
+      'night-riverbank',
+      'tadpole-food-question',
+      'shallow-nest-pools',
+      'largest-taken-first',
+    ],
+  );
+  assert.ok(
+    goliathFrog.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(goliathFrog.keyFacts.length, 6);
+  assert.ok(goliathFrog.threats.length >= 7);
+  assert.ok(goliathFrog.conservationActions.length >= 8);
+  assert.equal(goliathFrog.featuredStats.length, 4);
+  assert.deepEqual(
+    goliathFrog.featuredStats.map(({ key }) => key),
+    [
+      'published-sample-max-svl',
+      'historical-max-mass',
+      'iucn-three-generation-decline',
+      'nest-construction-types',
+    ],
+  );
+
+  assert.equal(goliathFrog.media.gallery?.length, 5);
+  const mediaPaths = [
+    goliathFrog.media.image,
+    ...goliathFrog.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/goliath-frog/01-rapid-river-adult-cover.webp',
+    './images/species/goliath-frog/02-adult-field-marks.webp',
+    './images/species/goliath-frog/03-rainforest-rapids-habitat.webp',
+    './images/species/goliath-frog/04-nocturnal-forest-foraging.webp',
+    './images/species/goliath-frog/05-cleared-gravel-nest-pool.webp',
+    './images/species/goliath-frog/06-distance-night-river-survey.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !goliathFrog.media.gallery.some(
+      ({ image }) => image === goliathFrog.media.image,
+    ),
+  );
+  const mediaRecords = [goliathFrog.media, ...goliathFrog.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.67, y: 0.56 },
+      { x: 0.54, y: 0.56 },
+      { x: 0.63, y: 0.62 },
+      { x: 0.63, y: 0.61 },
+      { x: 0.72, y: 0.67 },
+      { x: 0.72, y: 0.63 },
+    ],
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
+    ),
+  );
+  assert.ok(
+    goliathFrog.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  const fieldMarksMedia = goliathFrog.media.gallery.find(({ image }) =>
+    image.includes('02-adult-field-marks'),
+  );
+  assert.match(
+    [fieldMarksMedia?.alt, fieldMarksMedia?.caption].join(' '),
+    /一只.*非洲巨蛙.*宽头.*颗粒状.*长后肢.*全蹼.*不代表.*纪录个体/,
+  );
+  const habitatMedia = goliathFrog.media.gallery.find(({ image }) =>
+    image.includes('03-rainforest-rapids-habitat'),
+  );
+  assert.match(
+    [habitatMedia?.alt, habitatMedia?.caption].join(' '),
+    /急流.*瀑布.*缓流.*河岸林.*概括性生境重建.*不是已确认地点/,
+  );
+  const foragingMedia = goliathFrog.media.gallery.find(({ image }) =>
+    image.includes('04-nocturnal-forest-foraging'),
+  );
+  assert.match(
+    [foragingMedia?.alt, foragingMedia?.caption].join(' '),
+    /夜间.*一只非洲巨蛙.*河岸.*林地.*没有展示猎物.*移动距离.*真实觅食结果/,
+  );
+  const nestingMedia = goliathFrog.media.gallery.find(({ image }) =>
+    image.includes('05-cleared-gravel-nest-pool'),
+  );
+  assert.match(
+    [nestingMedia?.alt, nestingMedia?.caption].join(' '),
+    /一只性别未知.*非洲巨蛙.*砂砾浅池.*不证明.*移动过石块.*建造巢池.*守护特定卵团.*已知性别/,
+  );
+  const surveyMedia = goliathFrog.media.gallery.find(({ image }) =>
+    image.includes('06-distance-night-river-survey'),
+  );
+  assert.match(
+    [surveyMedia?.alt, surveyMedia?.caption].join(' '),
+    /夜间一名研究者.*远距离观察.*一只非洲巨蛙.*不代表真实人员、地点、规程或数量结果/,
+  );
+
+  assert.equal(goliathFrog.sources.length, 19);
+  assert.equal(
+    new Set(goliathFrog.sources.map(({ url }) => url)).size,
+    goliathFrog.sources.length,
+  );
+  assert.ok(goliathFrog.sources.every(({ title }) => title.length > 0));
+  assert.ok(goliathFrog.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(goliathFrog.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    goliathFrog.sources.every(({ accessedAt }) => accessedAt === '2026-08-27'),
+  );
+  assert.deepEqual(
+    new Set(goliathFrog.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general']),
+  );
+  assert.ok(
+    goliathFrog.sources.some(
+      ({ title }) =>
+        title ===
+        'IUCN Red List — Conraua goliath (assessed 2018, published 2019)',
+    ),
+  );
+
+  const profileText = [
+    goliathFrog.summary,
+    goliathFrog.description,
+    goliathFrog.distribution.range,
+    ...goliathFrog.habitats.flatMap(({ name, description }) => [name, description]),
+    goliathFrog.measurements.length?.note ?? '',
+    goliathFrog.measurements.weight?.note ?? '',
+    goliathFrog.diet.description,
+    ...(goliathFrog.activity ?? []),
+    ...goliathFrog.tags,
+    ...(goliathFrog.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...goliathFrog.keyFacts,
+    ...goliathFrog.threats,
+    ...goliathFrog.conservationActions,
+    ...goliathFrog.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /IUCN\s*在\s*2018\s*年评为濒危\s*A2d、趋势下降.*过去三代约\s*15\s*年.*成熟个体.*过度捕捉.*超过\s*70%/i,
+  );
+  assert.doesNotMatch(profileText, /A2d\+3d/i);
+  assert.match(
+    profileText,
+    /139\s*只样本.*33\.5\s*厘米.*2\.529\s*千克.*1960\s*年.*(?:另一只|另一).*32\s*厘米.*3\.3\s*千克.*(?:两者不是同一只|不同个体.*不能拼成)/,
+  );
+  assert.doesNotMatch(profileText, /全球(?:仅有|总数为|剩余)\s*490/i);
+  assert.match(profileText, /22\s*个筑巢地点.*19\s*个完整可用.*三类巢池/);
+  assert.match(
+    profileText,
+    /(?:最大约)?两千克.*性别未知.*(?:没有直接|没有直接拍到|没有直接目击).*(?:没有确定|仍未确定).*雌雄分工/,
+  );
+  assert.match(
+    profileText,
+    /Dicraea warmingii.*(?:不作为已确认食物|确切植物身份仍未解决|不能据此宣称.*只吃一个物种)/i,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /当前(?:已)?列入CITES附录|CITES附录(?:I|II|III)(?:物种|保护)/i,
+  );
+  assert.match(profileText, /喀麦隆.*A\s*类全面保护动物/);
+
+  assert.equal(goliathFrog.featured, true);
+  assert.equal(goliathFrog.publishedAt, '2026-08-27');
+  assert.equal(goliathFrog.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 56);
+  assert.equal(species.length, 57);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -6102,6 +6420,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'order', 'Struthioniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Struthionidae')?.speciesCount, 1);
