@@ -7892,10 +7892,392 @@ test('registers Atlantic bluefin tuna as a complete Thunnus thynnus profile', as
   assert.equal(tuna.updatedAt, '2026-08-27');
 });
 
+test('registers the Great Blue-spotted Mudskipper as a complete Boleophthalmus pectinirostris profile', async () => {
+  const mudskipper = findSpecies('great-blue-spotted-mudskipper');
+
+  assert.equal(mudskipper.id, 'species-boleophthalmus-pectinirostris');
+  assert.equal(mudskipper.slug, 'great-blue-spotted-mudskipper');
+  assert.equal(mudskipper.names.zh, '大弹涂鱼');
+  assert.equal(mudskipper.names.en, 'Great Blue-spotted Mudskipper');
+  assert.deepEqual(mudskipper.names.aliases, ['花跳', '花条']);
+  assert.ok(!mudskipper.names.aliases.includes('Giant Mudskipper'));
+  assert.equal(mudskipper.scientificName, 'Boleophthalmus pectinirostris');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(mudskipper).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', mudskipper.scientificName, mudskipper.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Actinopterygii', '辐鳍鱼纲'],
+      ['order', 'Gobiiformes', '虾虎鱼目'],
+      ['family', 'Oxudercidae', '背眼虾虎鱼科'],
+      ['genus', 'Boleophthalmus', '大弹涂鱼属'],
+      ['species', 'Boleophthalmus pectinirostris', '大弹涂鱼'],
+    ],
+  );
+  assert.equal(mudskipper.scientificName.split(' ')[0], 'Boleophthalmus');
+  assert.deepEqual(
+    {
+      code: mudskipper.conservation.code,
+      trend: mudskipper.conservation.trend,
+      assessedYear: mudskipper.conservation.assessedYear,
+      criteria: mudskipper.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2024,
+      criteria: 'A2bcd',
+    },
+  );
+
+  assert.deepEqual(mudskipper.distribution.realms, ['marine']);
+  assert.deepEqual(mudskipper.distribution.continents, ['亚洲']);
+  assert.deepEqual(mudskipper.distribution.countries, [
+    '中国',
+    '韩国',
+    '日本',
+    '越南',
+    '马来西亚',
+    '印度尼西亚',
+  ]);
+  assert.equal(
+    new Set(mudskipper.distribution.countries).size,
+    mudskipper.distribution.countries.length,
+  );
+  assert.deepEqual(mudskipper.distribution.center, { lat: 27, lng: 124 });
+  assert.match(
+    mudskipper.distribution.range,
+    /东亚.*东南亚.*西太平洋.*东印度洋.*河口潮间带.*湿软泥滩.*潮沟.*红树林边缘/,
+  );
+  assert.equal(mudskipper.habitats.length, 4);
+  assert.equal(
+    mudskipper.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(
+    mudskipper.habitats.every(({ realm }) =>
+      mudskipper.distribution.realms.includes(realm),
+    ),
+  );
+  assert.match(
+    mudskipper.habitats
+      .flatMap(({ name, description }) => [name, description])
+      .join(' '),
+    /河口开阔软泥潮滩.*红树林边缘.*潮沟.*浅潮池.*低盐.*潮滩泥洞.*空气产卵室/,
+  );
+
+  assert.deepEqual(mudskipper.measurements, {
+    length: {
+      max: 17.5,
+      unit: 'cm',
+      note: 'FishBase 对雄性或未判性个体的最大总长记录；台湾野外资料常见 10—15 厘米。',
+    },
+  });
+  assert.deepEqual(mudskipper.metrics, {});
+  assert.ok(!('adultLengthCm' in mudskipper.metrics));
+  assert.ok(!('lifespanYears' in mudskipper.metrics));
+
+  assert.deepEqual(mudskipper.diet.types, ['herbivore']);
+  assert.deepEqual(mudskipper.diet.foods, [
+    '底栖硅藻',
+    '微型底栖藻类',
+    '泥表有机藻膜',
+  ]);
+  assert.match(
+    mudskipper.diet.description,
+    /低潮.*宽口.*下颌齿.*泥表微型底栖藻类.*香港.*较大的硅藻.*地点.*季节.*体长/,
+  );
+  assert.match(
+    mudskipper.activity.join(' '),
+    /低潮.*泥表.*肉质胸鳍.*爬行.*短距离跳跃.*求偶.*空气.*浅水.*高潮.*泥洞.*雄鱼.*护卵/,
+  );
+
+  assert.equal(mudskipper.storySections?.length, 6);
+  assert.deepEqual(
+    mudskipper.storySections.map(({ key }) => key),
+    [
+      'blue-spotted-identity',
+      'amphibious-respiration',
+      'fin-supported-motion',
+      'diatom-grazing',
+      'air-filled-nursery',
+      'shared-mudflat',
+    ],
+  );
+  assert.ok(
+    mudskipper.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(mudskipper.keyFacts.length, 6);
+  assert.equal(mudskipper.threats.length, 4);
+  assert.equal(mudskipper.conservationActions.length, 5);
+  assert.equal(mudskipper.featuredStats.length, 4);
+  assert.deepEqual(
+    mudskipper.featuredStats.map(({ key, value, unit }) => ({
+      key,
+      value,
+      unit,
+    })),
+    [
+      { key: 'max-length', value: '17.5', unit: '厘米' },
+      { key: 'generation-length', value: '4.5', unit: '年' },
+      { key: 'selected-diatom-size', value: '>50', unit: '微米' },
+      { key: 'burrow-air-volume', value: '30–>400', unit: '毫升' },
+    ],
+  );
+  const statsText = mudskipper.featuredStats
+    .flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ])
+    .join(' ');
+  assert.match(
+    statsText,
+    /报告最大总长.*17\.5.*最大记录.*估算世代长度.*4\.5.*IUCN.*选择摄食硅藻.*>50.*香港.*洞穴回收气体.*30–>400.*有明海/,
+  );
+
+  assert.equal(mudskipper.media.gallery?.length, 5);
+  const mediaPaths = [
+    mudskipper.media.image,
+    ...mudskipper.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/great-blue-spotted-mudskipper/01-mudflat-adult-portrait.webp',
+    './images/species/great-blue-spotted-mudskipper/02-dorsal-fins-and-blue-spots.webp',
+    './images/species/great-blue-spotted-mudskipper/03-mudflat-fiddler-crab-cooccurrence.webp',
+    './images/species/great-blue-spotted-mudskipper/04-diatom-film-grazing.webp',
+    './images/species/great-blue-spotted-mudskipper/05-short-mudflat-skip.webp',
+    './images/species/great-blue-spotted-mudskipper/06-air-filled-egg-chamber-cutaway.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !mudskipper.media.gallery.some(
+      ({ image }) => image === mudskipper.media.image,
+    ),
+  );
+  const mediaRecords = [mudskipper.media, ...mudskipper.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    mudskipper.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(
+        new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+      ),
+    ),
+  );
+
+  const sourcePaths = [
+    '01-mudflat-adult-portrait-source.png',
+    '02-dorsal-fins-and-blue-spots-source.png',
+    '03-mudflat-fiddler-crab-cooccurrence-source.png',
+    '04-diatom-film-grazing-source.png',
+    '05-short-mudflat-skip-source.png',
+    '06-air-filled-egg-chamber-cutaway-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(
+        `../src/assets/source/species/great-blue-spotted-mudskipper/${filename}`,
+        import.meta.url,
+      ),
+    })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const mediaText = mediaRecords
+    .flatMap(({ alt, caption }) => [alt, caption ?? ''])
+    .join(' ');
+  assert.match(mediaText, /高位眼.*两枚(?:分离的)?背鳍.*浅蓝斑/);
+  assert.match(
+    mediaText,
+    /不能展示皮肤与口咽表面.*不能替代凭证标本.*共现不等于互利、共生或捕食.*不能识别硅藻种类.*不定义完整步态.*不给出真实洞穴尺寸.*补气频率/,
+  );
+  assert.doesNotMatch(
+    mediaText,
+    /(?:鱼与蟹|大弹涂鱼与弧边招潮蟹)(?:会|能|相互).{0,12}(?:喂食|合作|依存|互利)/,
+  );
+
+  assert.equal(mudskipper.sources.length, 19);
+  assert.equal(
+    new Set(mudskipper.sources.map(({ url }) => url)).size,
+    mudskipper.sources.length,
+  );
+  assert.ok(mudskipper.sources.every(({ title }) => title.length > 0));
+  assert.ok(mudskipper.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(mudskipper.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    mudskipper.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-27',
+    ),
+  );
+  assert.deepEqual(
+    new Set(mudskipper.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  assert.ok(
+    [
+      'https://doi.org/10.2305/IUCN.UK.2025-1.RLTS.T241148837A241148840.en',
+      'https://journals.australian.museum/media/Uploads/Journals/17704/93_complete.pdf',
+      'https://doi.org/10.1007/s00227-003-1067-y',
+      'https://doi.org/10.1002/jmor.1052140305',
+      'https://doi.org/10.1002/jmor.21404',
+      'https://doi.org/10.1242/jeb.217307',
+      'https://doi.org/10.1111/jfb.12324',
+    ].every((url) =>
+      mudskipper.sources.some((source) => source.url === url),
+    ),
+  );
+  assert.ok(
+    !mudskipper.sources.some(({ title, url }) =>
+      /summary\/8414|Boleophthalmus chinensis|Tamura 1976/i.test(
+        `${title} ${url}`,
+      ),
+    ),
+  );
+
+  const profileText = [
+    mudskipper.names.en,
+    mudskipper.scientificName,
+    mudskipper.summary,
+    mudskipper.description,
+    mudskipper.distribution.range,
+    ...mudskipper.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    mudskipper.measurements.length?.note ?? '',
+    mudskipper.diet.description,
+    ...(mudskipper.activity ?? []),
+    ...mudskipper.tags,
+    ...(mudskipper.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...mudskipper.keyFacts,
+    ...mudskipper.threats,
+    ...mudskipper.conservationActions,
+    ...mudskipper.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /Great Blue-spotted Mudskipper.*Giant Mudskipper.*Periophthalmodon schlosseri/,
+  );
+  assert.match(profileText, /IUCN.*2024.*VU A2bcd.*decreasing/);
+  assert.match(profileText, /FishBase.*最大总长.*10—15 厘米/);
+  assert.match(profileText, /17\.5.*不是普通成鱼的典型体长/);
+  assert.match(
+    profileText,
+    /皮肤.*口咽—鳃盖.*鳃.*共同.*气体交换|皮肤.*口咽—鳃盖.*鳃.*共同.*呼吸/,
+  );
+  assert.match(profileText, /肉质胸鳍.*支撑.*爬行.*短跃.*不是四足动物式步态/);
+  assert.match(
+    profileText,
+    /硅藻.*微型底栖藻.*香港.*(?:超过|>50).*微米.*(?:不是|非).*固定/,
+  );
+  assert.match(
+    profileText,
+    /产卵室.*壁面.*顶部.*空气.*雄鱼.*护卵.*30.*400.*补气.*机制模型.*(?:尚不能|不能).*直接/,
+  );
+  assert.match(
+    profileText,
+    /大弹涂鱼.*弧边招潮蟹.*(?:共域|共现)/,
+  );
+  assert.match(
+    profileText,
+    /(?:不是|不等于|不能写|不代表).*(?:互利共生|互利、共生)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:完全|只|仅)(?:依靠|靠|用)皮肤呼吸|长有肺|离水后不用鳃/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:大弹涂鱼|本种).{0,12}(?:捕食|主要吃|以.{0,6}为食).{0,12}(?:招潮蟹|小鱼|昆虫)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:大弹涂鱼|本种)(?:的)?英文(?:主名|名)(?:是|为) Giant Mudskipper/,
+  );
+  assert.doesNotMatch(profileText, /(?:43%.*皮肤|52%.*鳃)/);
+
+  assert.equal(mudskipper.featured, true);
+  assert.equal(mudskipper.publishedAt, '2026-08-27');
+  assert.equal(mudskipper.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 61);
+  assert.equal(species.length, 62);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -7927,8 +8309,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 56);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 57);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Scombriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Scombridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Thunnus')?.speciesCount, 1);
