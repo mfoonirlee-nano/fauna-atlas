@@ -7166,10 +7166,287 @@ test('registers Sea Lamprey as a complete Petromyzon marinus profile', async () 
   assert.equal(lamprey.updatedAt, '2026-08-27');
 });
 
+test('registers Arapaima as a complete Arapaima gigas profile', async () => {
+  const arapaima = findSpecies('arapaima');
+
+  assert.equal(arapaima.id, 'species-arapaima-gigas');
+  assert.equal(arapaima.slug, 'arapaima');
+  assert.equal(arapaima.names.zh, '巨骨舌鱼');
+  assert.equal(arapaima.names.en, 'Arapaima');
+  assert.deepEqual(arapaima.names.aliases, ['巨巴西骨舌鱼', 'Pirarucu', 'Paiche']);
+  assert.equal(arapaima.scientificName, 'Arapaima gigas');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(arapaima).map(({ rank, taxon }) => [rank, taxon.scientificName, taxon.zhName]),
+      ['species', arapaima.scientificName, arapaima.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Actinopterygii', '辐鳍鱼纲'],
+      ['order', 'Osteoglossiformes', '骨舌鱼目'],
+      ['family', 'Arapaimidae', '巨骨舌鱼科'],
+      ['genus', 'Arapaima', '巨骨舌鱼属'],
+      ['species', 'Arapaima gigas', '巨骨舌鱼'],
+    ],
+  );
+  assert.equal(arapaima.scientificName.split(' ')[0], 'Arapaima');
+  assert.deepEqual(
+    {
+      code: arapaima.conservation.code,
+      trend: arapaima.conservation.trend,
+      assessedYear: arapaima.conservation.assessedYear,
+      criteria: arapaima.conservation.criteria,
+    },
+    {
+      code: 'DD',
+      trend: 'unknown',
+      assessedYear: 1996,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(arapaima.distribution.realms, ['freshwater']);
+  assert.deepEqual(arapaima.distribution.continents, ['南美洲']);
+  assert.deepEqual(arapaima.distribution.countries, ['巴西', '秘鲁', '哥伦比亚', '厄瓜多尔']);
+  assert.deepEqual(arapaima.distribution.center, { lat: -3.5, lng: -62 });
+  assert.match(
+    arapaima.distribution.range,
+    /亚马孙低地.*2026.*索利蒙伊斯.*茹鲁阿.*普鲁斯.*桑塔伦.*不能.*整个流域.*圭亚那.*Arapaima arapaima.*玻利维亚.*(?:引入|养殖逸出)/,
+  );
+  assert.ok(!arapaima.distribution.countries.includes('圭亚那'));
+  assert.ok(!arapaima.distribution.countries.includes('玻利维亚'));
+  assert.equal(arapaima.habitats.length, 4);
+  assert.equal(arapaima.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.ok(arapaima.habitats.every(({ realm }) => arapaima.distribution.realms.includes(realm)));
+  assert.match(
+    arapaima.habitats.flatMap(({ name, description }) => [name, description]).join(' '),
+    /洪泛湖.*缓流.*淹水森林.*水位回落.*浅水.*筑巢.*低氧.*鳔.*二氧化碳/,
+  );
+
+  assert.deepEqual(arapaima.measurements, {
+    length: {
+      max: 300,
+      unit: 'cm',
+      note: 'Smithsonian 等现代权威资料采用的保守近似上限；FishBase 的 450 cm 沿用未经现代凭证核验的历史记录，且早于属内拆分，不作为比较指标',
+    },
+    weight: {
+      max: 200,
+      unit: 'kg',
+      note: '现代权威资料采用的近似上限，不代表普通成体或经统一方法核验的世界纪录',
+    },
+  });
+  assert.deepEqual(arapaima.metrics, {});
+  assert.ok(!('adultLengthCm' in arapaima.metrics));
+  assert.ok(!('adultMassKg' in arapaima.metrics));
+  assert.ok(!('lifespanYears' in arapaima.metrics));
+
+  assert.deepEqual(arapaima.diet.types, ['carnivore', 'piscivore']);
+  assert.deepEqual(arapaima.diet.foods, ['鱼类', '水生昆虫', '微型甲壳类', '其他水生无脊椎动物']);
+  assert.match(arapaima.diet.description, /动物性食物.*成鱼.*鱼类.*幼鱼.*昆虫.*微型甲壳类.*植物.*主动摄食.*未厘清/);
+
+  assert.equal(arapaima.storySections?.length, 6);
+  assert.deepEqual(
+    arapaima.storySections.map(({ key }) => key),
+    [
+      'giant-with-boundaries',
+      'swim-bladder-lung',
+      'flood-pulse-movement',
+      'animal-dominated-diet',
+      'variable-parental-care',
+      'surface-count-management',
+    ],
+  );
+  assert.ok(
+    arapaima.storySections.every(({ label, title, body }) => label.length > 0 && title.length > 0 && body.length > 0),
+  );
+  assert.equal(arapaima.keyFacts.length, 12);
+  assert.equal(arapaima.threats.length, 6);
+  assert.equal(arapaima.conservationActions.length, 9);
+  assert.equal(arapaima.featuredStats.length, 4);
+  assert.deepEqual(
+    arapaima.featuredStats.map(({ key, value, unit }) => ({
+      key,
+      value,
+      unit,
+    })),
+    [
+      {
+        key: 'conservative-maximum-length',
+        value: '接近 3',
+        unit: '米',
+      },
+      {
+        key: 'conservative-maximum-mass',
+        value: '约 200',
+        unit: '千克',
+      },
+      {
+        key: 'juvenile-aerial-oxygen-share',
+        value: '63–75',
+        unit: '%',
+      },
+      {
+        key: 'surface-count-validation',
+        value: 'r = 0.98',
+        unit: undefined,
+      },
+    ],
+  );
+  assert.match(
+    arapaima.featuredStats.map(({ note }) => note ?? '').join(' '),
+    /4\.5\s*米.*历史.*不是普通成体.*4–6\s*克.*600–700\s*克.*不能外推.*受训渔民.*标记重捕.*本地校准/,
+  );
+
+  assert.equal(arapaima.media.gallery?.length, 5);
+  const mediaPaths = [arapaima.media.image, ...arapaima.media.gallery.map(({ image }) => image)];
+  assert.deepEqual(mediaPaths, [
+    './images/species/arapaima/01-floodplain-portrait.webp',
+    './images/species/arapaima/02-bony-head-and-posterior-fins.webp',
+    './images/species/arapaima/03-surface-air-breath.webp',
+    './images/species/arapaima/04-flooded-forest-fish-foraging.webp',
+    './images/species/arapaima/05-juvenile-school-guarding.webp',
+    './images/species/arapaima/06-community-surface-count.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(!arapaima.media.gallery.some(({ image }) => image === arapaima.media.image));
+  const mediaRecords = [arapaima.media, ...arapaima.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(arapaima.media.gallery.every(({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0));
+  assert.ok(mediaRecords.every(({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像'));
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint && focalPoint.x >= 0 && focalPoint.x <= 1 && focalPoint.y >= 0 && focalPoint.y <= 1,
+    ),
+  );
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.68, y: 0.51 },
+      { x: 0.5, y: 0.52 },
+      { x: 0.58, y: 0.51 },
+      { x: 0.62, y: 0.53 },
+      { x: 0.53, y: 0.49 },
+      { x: 0.52, y: 0.58 },
+    ],
+  );
+  await Promise.all(
+    mediaPaths.map((path) => access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url))),
+  );
+
+  const sourcePaths = [
+    '01-floodplain-portrait-source.png',
+    '02-bony-head-and-posterior-fins-source.png',
+    '03-surface-air-breath-source.png',
+    '04-flooded-forest-fish-foraging-source.png',
+    '05-juvenile-school-guarding-source.png',
+    '06-community-surface-count-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(`../src/assets/source/species/arapaima/${filename}`, import.meta.url),
+    })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] = metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const mediaText = mediaRecords.flatMap(({ alt, caption }) => [alt, caption ?? '']).join(' ');
+  assert.match(
+    mediaText,
+    /不能替代凭证标本.*不能区分属内.*一次浮头.*不能给出固定间隔.*接近不等于.*不能判定成鱼性别.*不提供真实地点.*数量.*配额.*趋势/,
+  );
+  assert.match(mediaText, /宽阔骨质头.*巨大的重叠鳞片.*后置背鳍和臀鳍.*圆尾.*红橙色鳞缘/);
+
+  assert.equal(arapaima.sources.length, 28);
+  assert.equal(new Set(arapaima.sources.map(({ url }) => url)).size, arapaima.sources.length);
+  assert.ok(arapaima.sources.every(({ title }) => title.length > 0));
+  assert.ok(arapaima.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(arapaima.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(arapaima.sources.every(({ accessedAt }) => accessedAt === '2026-08-27'));
+  assert.deepEqual(
+    new Set(arapaima.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+
+  const profileText = [
+    arapaima.summary,
+    arapaima.description,
+    arapaima.distribution.range,
+    ...arapaima.habitats.flatMap(({ name, description }) => [name, description]),
+    arapaima.measurements.length?.note ?? '',
+    arapaima.measurements.weight?.note ?? '',
+    arapaima.diet.description,
+    ...(arapaima.activity ?? []),
+    ...arapaima.tags,
+    ...(arapaima.storySections ?? []).flatMap(({ label, title, body }) => [label, title, body]),
+    ...arapaima.keyFacts,
+    ...arapaima.threats,
+    ...arapaima.conservationActions,
+    ...arapaima.featuredStats.flatMap(({ label, value, unit, note }) => [label, value, unit ?? '', note ?? '']),
+  ].join(' ');
+  assert.match(profileText, /Arapaima gigas.*Arapaimidae/);
+  assert.match(profileText, /A\. agassizii.*A\. arapaima.*A\. leptosoma.*A\. mapae.*不能写成单型属/);
+  assert.match(profileText, /2026.*索利蒙伊斯.*茹鲁阿.*普鲁斯.*桑塔伦.*未覆盖整个属/);
+  assert.match(profileText, /IUCN.*DD.*趋势未知.*1996.*CITES.*附录 II.*贸易管制不等于 IUCN/);
+  assert.match(profileText, /接近 3 米.*约 200 千克/);
+  assert.match(profileText, /4\.5 米.*(?:缺少现代凭证|历史值.*不作为现代纪录)/);
+  assert.match(profileText, /强制空气呼吸.*高度血管化.*鳔.*大部分二氧化碳.*鳃/);
+  assert.match(profileText, /63%.*75%.*4–6 克.*600–700 克.*不能外推/);
+  assert.match(profileText, /洪水.*淹水森林.*水位回落.*湖泊.*水道.*横向连通/);
+  assert.match(profileText, /成鱼.*鱼类.*幼鱼.*昆虫.*微型甲壳类.*植物材料.*未厘清/);
+  assert.match(profileText, /筑巢.*雄鱼.*更多.*雌鱼.*协防.*多亲/);
+  assert.match(profileText, /筑巢.*护卵护幼/);
+  assert.match(profileText, /不能.*严格单配.*(?:典型)?口孵/);
+  assert.match(profileText, /受训渔民.*水面计数.*r\s*=\s*0\.98.*天气.*本地校准/);
+  assert.match(profileText, /禁捕湖.*巡护.*配额.*CITES.*追溯.*新的 IUCN 全球评估/);
+  assert.doesNotMatch(profileText, /Arapaima gigas 是巨骨舌鱼属(?:中|内)?唯一(?:的)?种/);
+  assert.doesNotMatch(profileText, /(?:世界上)?最大(?:的)?淡水鱼[。；]/);
+  assert.doesNotMatch(profileText, /(?:固定|每隔)\s*(?:5|五)\s*(?:至|到|–|—|-)\s*(?:15|十五)\s*分钟/);
+  assert.doesNotMatch(profileText, /IUCN.{0,30}(?:全球)?(?:濒危|易危)/);
+  assert.doesNotMatch(profileText, /严格单配制[。；]/);
+  assert.doesNotMatch(profileText, /(?:巨骨舌鱼|Arapaima gigas)(?:是|属于)(?:典型|确定)(?:的)?口孵鱼[。；]/);
+  assert.doesNotMatch(profileText, /(?:捕食|吃)(?:猴|鸟|小型哺乳动物)/);
+
+  assert.equal(arapaima.featured, true);
+  assert.equal(arapaima.publishedAt, '2026-08-27');
+  assert.equal(arapaima.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 59);
+  assert.equal(species.length, 60);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -7201,7 +7478,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 54);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 55);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Osteoglossiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Arapaimidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Arapaima')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Petromyzonti')?.speciesCount, 1);
   assert.equal(
     findTaxon(tree, 'order', 'Petromyzontiformes')?.speciesCount,
