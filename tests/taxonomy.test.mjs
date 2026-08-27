@@ -7443,10 +7443,459 @@ test('registers Arapaima as a complete Arapaima gigas profile', async () => {
   assert.equal(arapaima.updatedAt, '2026-08-27');
 });
 
+test('registers Atlantic bluefin tuna as a complete Thunnus thynnus profile', async () => {
+  const tuna = findSpecies('atlantic-bluefin-tuna');
+
+  assert.equal(tuna.id, 'species-thunnus-thynnus');
+  assert.equal(tuna.slug, 'atlantic-bluefin-tuna');
+  assert.equal(tuna.names.zh, '大西洋蓝鳍金枪鱼');
+  assert.equal(tuna.names.en, 'Atlantic Bluefin Tuna');
+  assert.deepEqual(tuna.names.aliases, [
+    '北方蓝鳍金枪鱼',
+    'Northern Bluefin Tuna',
+  ]);
+  assert.equal(tuna.scientificName, 'Thunnus thynnus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(tuna).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', tuna.scientificName, tuna.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Actinopterygii', '辐鳍鱼纲'],
+      ['order', 'Scombriformes', '鲭形目'],
+      ['family', 'Scombridae', '鲭科'],
+      ['genus', 'Thunnus', '金枪鱼属'],
+      ['species', 'Thunnus thynnus', '大西洋蓝鳍金枪鱼'],
+    ],
+  );
+  assert.equal(tuna.scientificName.split(' ')[0], 'Thunnus');
+  assert.deepEqual(
+    {
+      code: tuna.conservation.code,
+      trend: tuna.conservation.trend,
+      assessedYear: tuna.conservation.assessedYear,
+      criteria: tuna.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'unknown',
+      assessedYear: 2021,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(tuna.distribution.realms, ['marine']);
+  assert.deepEqual(tuna.distribution.continents, [
+    '欧洲',
+    '北美洲',
+    '非洲',
+    '亚洲',
+    '南美洲',
+  ]);
+  assert.equal(tuna.distribution.countries.length, 21);
+  assert.ok(
+    [
+      '加拿大',
+      '美国',
+      '墨西哥',
+      '冰岛',
+      '西班牙',
+      '意大利',
+      '土耳其',
+      '摩洛哥',
+    ].every((country) => tuna.distribution.countries.includes(country)),
+  );
+  assert.equal(
+    new Set(tuna.distribution.countries).size,
+    tuna.distribution.countries.length,
+  );
+  assert.deepEqual(tuna.distribution.center, { lat: 38, lng: -30 });
+  assert.match(
+    tuna.distribution.range,
+    /北大西洋.*外海.*陆架.*沿岸索饵区.*地中海.*西大西洋.*历史或边缘.*黑海.*西波罗的海.*巴西东北.*南非.*不等于完整出现记录/,
+  );
+  assert.equal(tuna.habitats.length, 4);
+  assert.equal(tuna.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.ok(
+    tuna.habitats.every(({ realm }) =>
+      tuna.distribution.realms.includes(realm),
+    ),
+  );
+  assert.match(
+    tuna.habitats
+      .flatMap(({ name, description }) => [name, description])
+      .join(' '),
+    /北大西洋外海.*陆架边缘.*高纬.*索饵.*暖水外海产卵区.*体外受精.*浮性卵.*适温范围.*随海区和年份变化.*中层.*一千米以下/,
+  );
+
+  assert.deepEqual(tuna.measurements, {
+    length: {
+      max: 330,
+      unit: 'cm',
+      note: 'ICCAT 2019 SCRS 生物学摘要采用的最大直线叉长；不是普通成体范围，也不表示与 725 千克上限来自同一尾实测个体',
+    },
+    weight: {
+      max: 725,
+      unit: 'kg',
+      note: 'ICCAT 2019 SCRS 生物学摘要采用的近似体重上限；不是普通成体、全球统一测量样本范围或与 330 厘米记录配对的个体',
+    },
+  });
+  assert.deepEqual(tuna.metrics, {});
+  assert.ok(!('adultLengthCm' in tuna.metrics));
+  assert.ok(!('adultMassKg' in tuna.metrics));
+  assert.ok(!('lifespanYears' in tuna.metrics));
+  assert.ok(!('maxDiveDepthM' in tuna.metrics));
+  assert.ok(!('topSpeedKph' in tuna.metrics));
+
+  assert.deepEqual(tuna.diet.types, ['carnivore', 'piscivore']);
+  assert.deepEqual(tuna.diet.foods, [
+    '鲱鱼和鲭鱼等群游鱼',
+    '其他海洋鱼类',
+    '鱿鱼等头足类',
+    '甲壳类',
+  ]);
+  assert.match(
+    tuna.diet.description,
+    /机会性.*鱼类.*头足类.*甲壳类.*海区.*年份.*季节.*体长.*不支持.*固定主食/,
+  );
+  assert.match(
+    tuna.activity.join(' '),
+    /长距离季节移动.*45°W 管理线.*混合.*结群巡游.*一千米以上.*区域性内温.*体外受精.*分批产卵.*不筑巢.*不护幼/,
+  );
+
+  assert.equal(tuna.storySections?.length, 6);
+  assert.deepEqual(
+    tuna.storySections.map(({ key }) => key),
+    [
+      'streamlined-ocean-giant',
+      'regional-endothermy-and-depth',
+      'ocean-crossing-stock-mixing',
+      'variable-pelagic-diet',
+      'broad-spawning-waters',
+      'management-with-uncertainty',
+    ],
+  );
+  assert.ok(
+    tuna.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(tuna.keyFacts.length, 12);
+  assert.equal(tuna.threats.length, 6);
+  assert.equal(tuna.conservationActions.length, 9);
+  assert.equal(tuna.featuredStats.length, 4);
+  assert.deepEqual(
+    tuna.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      {
+        key: 'maximum-straight-fork-length',
+        value: '330',
+        unit: '厘米',
+      },
+      {
+        key: 'approximate-maximum-mass',
+        value: '725',
+        unit: '千克',
+      },
+      {
+        key: 'recorded-dive-depth',
+        value: '> 1,000',
+        unit: '米',
+      },
+      {
+        key: 'approximate-lifespan',
+        value: '约 40',
+        unit: '年',
+      },
+    ],
+  );
+  const statsText = tuna.featuredStats
+    .flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ])
+    .join(' ');
+  assert.match(
+    statsText,
+    /最大直线叉长.*330.*不是普通成体.*725.*不是常见体重.*> 1,000.*不是所有个体.*约 40.*近似值/,
+  );
+  assert.doesNotMatch(
+    statsText,
+    /48,?403|3,?081\.6|2,?568|(?:70|80|100)\s*(?:km\/h|千米\/小时)/,
+  );
+
+  assert.equal(tuna.media.gallery?.length, 5);
+  const mediaPaths = [
+    tuna.media.image,
+    ...tuna.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/atlantic-bluefin-tuna/01-open-ocean-portrait.webp',
+    './images/species/atlantic-bluefin-tuna/02-streamlined-body-and-finlets.webp',
+    './images/species/atlantic-bluefin-tuna/03-pelagic-schooling-cruise.webp',
+    './images/species/atlantic-bluefin-tuna/04-prey-school-foraging.webp',
+    './images/species/atlantic-bluefin-tuna/05-spawning-aggregation.webp',
+    './images/species/atlantic-bluefin-tuna/06-satellite-tag-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !tuna.media.gallery.some(({ image }) => image === tuna.media.image),
+  );
+  const mediaRecords = [tuna.media, ...tuna.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    tuna.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.deepEqual(
+    mediaRecords.map(({ focalPoint }) => focalPoint),
+    [
+      { x: 0.65, y: 0.5 },
+      { x: 0.51, y: 0.5 },
+      { x: 0.59, y: 0.49 },
+      { x: 0.61, y: 0.51 },
+      { x: 0.51, y: 0.49 },
+      { x: 0.52, y: 0.5 },
+    ],
+  );
+  await Promise.all(
+    mediaPaths.map((path) =>
+      access(
+        new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+      ),
+    ),
+  );
+
+  const sourcePaths = [
+    '01-open-ocean-portrait-source.png',
+    '02-streamlined-body-and-finlets-source.png',
+    '03-pelagic-schooling-cruise-source.png',
+    '04-prey-school-foraging-source.png',
+    '05-spawning-aggregation-source.png',
+    '06-satellite-tag-monitoring-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(
+        `../src/assets/source/species/atlantic-bluefin-tuna/${filename}`,
+        import.meta.url,
+      ),
+    })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const mediaText = mediaRecords
+    .flatMap(({ alt, caption }) => [alt, caption ?? ''])
+    .join(' ');
+  assert.match(
+    mediaText,
+    /不能替代凭证标本.*不(?:给出|提供).*迁徙路线.*接近只重建索饵情境.*没有证明正在产卵.*系绳和锚点没有清楚呈现/,
+  );
+  assert.match(mediaText, /短胸鳍.*两枚背鳍.*尾前小鳍/);
+  assert.match(mediaText, /七尾.*第一背鳍可收进背沟.*五尾.*卫星档案标签/);
+  assert.ok(mediaRecords.every(({ alt }) => !alt.includes('北大西洋')));
+
+  assert.equal(tuna.sources.length, 32);
+  assert.equal(
+    new Set(tuna.sources.map(({ url }) => url)).size,
+    tuna.sources.length,
+  );
+  assert.ok(tuna.sources.every(({ title }) => title.length > 0));
+  assert.ok(tuna.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(tuna.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    tuna.sources.every(({ accessedAt }) => accessedAt === '2026-08-27'),
+  );
+  assert.deepEqual(
+    new Set(tuna.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  assert.ok(
+    [
+      'https://www.iccat.int/Documents/SCRS/ExecSum/BFT_E_ENG.pdf',
+      'https://www.iccat.int/Documents/Meetings/Docs/2019/REPORTS/2019_SCRS_ENG.pdf',
+      'https://doi.org/10.1098/rsos.190203',
+      'https://doi.org/10.1093/icesjms/fsr008',
+    ].every((url) => tuna.sources.some((source) => source.url === url)),
+  );
+  const sourcesByUrl = new Map(tuna.sources.map((source) => [source.url, source]));
+  assert.equal(
+    sourcesByUrl.get('https://doi.org/10.1098/rsos.190203')?.title,
+    'Gleiss et al. 2019 — Atlantic bluefin tuna locomotor behaviour',
+  );
+  assert.equal(
+    sourcesByUrl.get('https://doi.org/10.1093/icesjms/fsr008')?.title,
+    'Muhling et al. 2011 — Climate change and Gulf of Mexico spawning habitat',
+  );
+  assert.ok(
+    !tuna.sources.some(({ title, url }) =>
+      /Andrzejaczek|Arrizabalaga|Incardona|Deepwater Horizon|crude-oil|srep33824|pnas\.1320950111/i.test(
+        `${title} ${url}`,
+      ),
+    ),
+  );
+
+  const profileText = [
+    tuna.summary,
+    tuna.description,
+    tuna.distribution.range,
+    ...tuna.habitats.flatMap(({ name, description }) => [name, description]),
+    tuna.measurements.length?.note ?? '',
+    tuna.measurements.weight?.note ?? '',
+    tuna.diet.description,
+    ...(tuna.activity ?? []),
+    ...tuna.tags,
+    ...(tuna.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...tuna.keyFacts,
+    ...tuna.threats,
+    ...tuna.conservationActions,
+    ...tuna.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    profileText,
+    /Thunnus thynnus.*T\. orientalis.*T\. maccoyii.*独立种/,
+  );
+  assert.match(profileText, /IUCN.*2021.*LC.*趋势未知|IUCN.*2021.*LC.*unknown/);
+  assert.match(profileText, /330 厘米.*725 千克.*不是普通成体.*同一尾/);
+  assert.match(profileText, /约 40 年.*一千米以上.*上限或能力记录.*固定值/);
+  assert.match(profileText, /逆流热交换.*区域性内温.*(?:并非|而非).*全身恒温/);
+  assert.match(profileText, /跨大西洋.*45°W.*管理线.*不是.*生态屏障/);
+  assert.match(profileText, /食物.*海区.*年份.*季节.*体长.*固定主食/);
+  assert.match(
+    profileText,
+    /地中海.*西大西洋.*主要繁殖.*西侧产卵证据.*墨西哥湾.*体外受精.*分批排卵.*不筑巢.*不护幼/,
+  );
+  assert.match(
+    profileText,
+    /ICCAT 2025.*2020.*东部 Fcur\/F0\.1 为 0\.81.*95% 置信区间 0\.48—1\.62.*西部 F2018—2020\/F0\.1 为 0\.53.*80% 置信区间 0\.49—0\.58.*正式结论均为未发生过度捕捞/,
+  );
+  assert.match(profileText, /西部.*过度捕捞.*概率不超过 1%/);
+  assert.match(
+    profileText,
+    /东部 2022.*三个模型.*产卵亲鱼生物量回升.*幅度.*速率.*绝对生物量.*差异.*相对捕捞率点估计.*1\.16.*0\.72.*0\.54.*真实 B0\.1 参考点.*未知/,
+  );
+  assert.match(profileText, /西部.*招募潜力不确定.*没有估算生物量参考点/);
+  assert.match(profileText, /两区当前生物量状态都无法判定/);
+  assert.match(profileText, /2026.*没有公开最终结论/);
+  assert.match(profileText, /CITES.*未.*附录.*ICCAT.*eBCD/);
+  assert.match(
+    profileText,
+    /配额.*观察.*转笼.*立体视频.*港口核验.*电子监测.*eBCD/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:全球种群|IUCN.{0,30})(?:持续增长|正在增加)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:两个管理种群|东部|西部).{0,30}(?:均已|已经|完全)恢复/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /45°W.{0,30}(?:生态隔离|地理隔离|无法跨越|迁徙终点)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /Slope Sea.{0,30}(?:第三个独立种群|第三管理种群).{0,20}(?:确认|承认|建立)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /CITES.{0,20}(?:当前|现行).{0,10}(?:已|被)?列入.{0,10}(?:附录 I|附录 II|Appendix I|Appendix II)/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:最高时速|top speed).{0,20}(?:70|80|100)/i,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /(?:大西洋蓝鳍金枪鱼|本种)(?:是|属于).{0,8}全身恒温/,
+  );
+  assert.doesNotMatch(
+    profileText,
+    /全身(?:维持|保持).{0,8}(?:单一|固定)(?:体温|温度)/,
+  );
+  assert.doesNotMatch(profileText, /地中海.{0,30}西大西洋.{0,30}23—28°C/);
+  assert.doesNotMatch(
+    profileText,
+    /石油泄漏.*(?:本种|大西洋蓝鳍金枪鱼|卵|胚胎)/,
+  );
+  assert.doesNotMatch(profileText, /是否已过度开发/);
+
+  assert.equal(tuna.featured, true);
+  assert.equal(tuna.publishedAt, '2026-08-27');
+  assert.equal(tuna.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 60);
+  assert.equal(species.length, 61);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -7478,8 +7927,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 55);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 56);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'order', 'Scombriformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Scombridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Thunnus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Osteoglossiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Arapaimidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Arapaima')?.speciesCount, 1);
