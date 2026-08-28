@@ -5,7 +5,7 @@ export type TaxonomyDiagramLayout = 'overview' | 'path' | 'focus' | 'mobile-path
 
 export interface TaxonomyDiagramNode {
   readonly id: string;
-  readonly kind: 'taxon' | 'species';
+  readonly kind: 'taxon' | 'species' | 'summary';
   readonly rankLabel: string;
   readonly zhName: string;
   readonly scientificName: string;
@@ -14,6 +14,12 @@ export interface TaxonomyDiagramNode {
   readonly leafSlugs: readonly string[];
   readonly labelPosition?: 'above' | 'below';
   readonly species?: Species;
+  readonly summary?: {
+    readonly branchKey: string;
+    readonly branchName: string;
+    readonly speciesCount: number;
+    readonly expanded: boolean;
+  };
 }
 
 export interface TaxonomyDiagramEdge {
@@ -32,8 +38,12 @@ interface TaxonomyDiagramProps {
   readonly layout: TaxonomyDiagramLayout;
   readonly theme: 'light' | 'dark';
   readonly activeSlug?: string;
+  readonly selectedSlug?: string;
   readonly ariaLabel: string;
   readonly onActivateSpecies?: (item: Species) => void;
+  readonly onDeactivateSpecies?: () => void;
+  readonly onSelectSpecies?: (item: Species) => void;
+  readonly onToggleBranch?: (branchKey: string) => void;
   readonly onOpenSpecies: (item: Species) => void;
 }
 
@@ -51,12 +61,38 @@ export function TaxonomyDiagram({
   layout,
   theme,
   activeSlug,
+  selectedSlug,
   ariaLabel,
   onActivateSpecies,
+  onDeactivateSpecies,
+  onSelectSpecies,
+  onToggleBranch,
   onOpenSpecies,
 }: TaxonomyDiagramProps) {
   const hostRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const previewTimerRef = useRef<number | undefined>(undefined);
+
+  const cancelPreviewTimer = () => {
+    if (previewTimerRef.current === undefined) return;
+    window.clearTimeout(previewTimerRef.current);
+    previewTimerRef.current = undefined;
+  };
+
+  const previewSpecies = (item: Species) => {
+    cancelPreviewTimer();
+    previewTimerRef.current = window.setTimeout(() => {
+      onActivateSpecies?.(item);
+      previewTimerRef.current = undefined;
+    }, 90);
+  };
+
+  const stopPreviewingSpecies = () => {
+    cancelPreviewTimer();
+    onDeactivateSpecies?.();
+  };
+
+  useEffect(() => () => cancelPreviewTimer(), []);
 
   useEffect(() => {
     const host = hostRef.current;
@@ -165,32 +201,41 @@ export function TaxonomyDiagram({
       aria-label={ariaLabel}
     >
       <canvas ref={canvasRef} className="taxonomy-diagram__canvas" aria-hidden="true" />
-      {nodes.map((node) =>
-        node.kind === 'species' && node.species ? (
+      {nodes.map((node) => {
+        const isOnActivePath = Boolean(activeSlug && node.leafSlugs.includes(activeSlug));
+        const isSelected = Boolean(
+          selectedSlug && node.kind === 'species' && node.species?.slug === selectedSlug,
+        );
+
+        return node.kind === 'species' && node.species ? (
           <button
             key={node.id}
             type="button"
             className={`taxonomy-diagram__node taxonomy-diagram__node--species${
-              activeSlug === node.species.slug ? ' is-active' : ''
-            }`}
+              isOnActivePath ? ' is-active' : ''
+            }${isSelected ? ' is-selected' : ''}`}
             style={nodePositionStyle(node)}
             data-label-position={node.labelPosition}
             onPointerEnter={(event) => {
-              if (event.pointerType === 'mouse') onActivateSpecies?.(node.species!);
+              if (event.pointerType === 'mouse') previewSpecies(node.species!);
             }}
-            onFocus={() => onActivateSpecies?.(node.species!)}
+            onPointerLeave={(event) => {
+              if (event.pointerType === 'mouse') stopPreviewingSpecies();
+            }}
+            onFocus={() => {
+              cancelPreviewTimer();
+              onActivateSpecies?.(node.species!);
+            }}
+            onBlur={stopPreviewingSpecies}
             onClick={() => {
-              if (onActivateSpecies && activeSlug !== node.species!.slug) {
-                onActivateSpecies(node.species!);
-                return;
-              }
-              onOpenSpecies(node.species!);
+              cancelPreviewTimer();
+              if (onSelectSpecies) onSelectSpecies(node.species!);
+              else onOpenSpecies(node.species!);
             }}
-            aria-label={
-              onActivateSpecies && activeSlug !== node.species.slug
-                ? `选择${node.species.names.zh}以查看完整分类路径`
-                : `打开${node.species.names.zh}（${node.species.scientificName}）物种档案`
-            }
+            aria-label={onSelectSpecies
+              ? `选择${node.species.names.zh}以查看完整分类路径`
+              : `打开${node.species.names.zh}（${node.species.scientificName}）物种档案`}
+            aria-pressed={onSelectSpecies ? isSelected : undefined}
           >
             <span className="taxonomy-diagram__marker" aria-hidden="true" />
             <span className="taxonomy-diagram__node-copy">
@@ -199,10 +244,35 @@ export function TaxonomyDiagram({
               <i lang="la">{node.scientificName}</i>
             </span>
           </button>
+        ) : node.kind === 'summary' && node.summary ? (
+          <button
+            key={node.id}
+            type="button"
+            className={`taxonomy-diagram__node taxonomy-diagram__node--summary${
+              isOnActivePath ? ' is-on-path' : ''
+            }`}
+            style={nodePositionStyle(node)}
+            data-taxonomy-branch={node.summary.branchKey}
+            onClick={() => onToggleBranch?.(node.summary!.branchKey)}
+            aria-expanded={node.summary.expanded}
+            aria-label={`${node.summary.expanded ? '收起' : '展开'}${node.summary.branchName}下的${node.summary.speciesCount}份物种档案`}
+          >
+            <span className="taxonomy-diagram__marker" aria-hidden="true" />
+            <span className="taxonomy-diagram__node-copy">
+              <small>{node.rankLabel}</small>
+              <strong>{node.zhName}</strong>
+              <i lang="la">{node.scientificName}</i>
+              <span className="taxonomy-diagram__disclosure" aria-hidden="true">
+                {node.summary.expanded ? '−' : '+'}
+              </span>
+            </span>
+          </button>
         ) : (
           <div
             key={node.id}
-            className="taxonomy-diagram__node taxonomy-diagram__node--taxon"
+            className={`taxonomy-diagram__node taxonomy-diagram__node--taxon${
+              isOnActivePath ? ' is-on-path' : ''
+            }`}
             style={nodePositionStyle(node)}
             data-label-position={node.labelPosition}
             aria-hidden="true"
@@ -214,8 +284,8 @@ export function TaxonomyDiagram({
               <i lang="la">{node.scientificName}</i>
             </span>
           </div>
-        ),
-      )}
+        );
+      })}
     </div>
   );
 }

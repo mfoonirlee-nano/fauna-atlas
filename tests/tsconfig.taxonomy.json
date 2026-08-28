@@ -15,6 +15,7 @@
     "outDir": "../node_modules/.tmp/taxonomy-test"
   },
   "include": [
+    "../src/domain/taxonomy-overview.ts",
     "../src/domain/taxonomy.ts",
     "../src/data/species.ts",
     "../src/types/species.ts"

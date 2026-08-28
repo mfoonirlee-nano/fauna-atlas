@@ -15,9 +15,10 @@ async function importCompiledModule(relativePath) {
   return import(moduleUrl);
 }
 
-const [speciesModule, taxonomyModule] = await Promise.all([
+const [speciesModule, taxonomyModule, taxonomyOverviewModule] = await Promise.all([
   importCompiledModule('../node_modules/.tmp/taxonomy-test/data/species.js'),
   importCompiledModule('../node_modules/.tmp/taxonomy-test/domain/taxonomy.js'),
+  importCompiledModule('../node_modules/.tmp/taxonomy-test/domain/taxonomy-overview.js'),
 ]);
 const { species } = speciesModule;
 const {
@@ -26,6 +27,7 @@ const {
   buildTaxonomyTree,
   getSpeciesTaxonomyPath,
 } = taxonomyModule;
+const { projectTaxonomyOverview } = taxonomyOverviewModule;
 
 function flatten(nodes) {
   return nodes.flatMap((node) => [node, ...flatten(node.children)]);
@@ -8816,6 +8818,100 @@ test('exposes complete, stable taxonomy paths for search and node identity', () 
       'a node key should contain its full parent path and own identity',
     );
   }
+});
+
+test('projects one collapsed summary row for each class taxon by default', () => {
+  const tree = buildTaxonomyTree(species);
+  const projection = projectTaxonomyOverview(tree);
+  const classNodes = flatten(tree).filter(
+    (node) => node.kind === 'taxon' && node.rank === 'class',
+  );
+
+  assert.equal(projection.expandedBranchKey, null);
+  assert.deepEqual(
+    projection.branches.map(({ key }) => key),
+    classNodes.map(({ key }) => key),
+    'class branches should keep taxonomy-tree order',
+  );
+  assert.equal(projection.rows.length, projection.branches.length);
+
+  for (const [index, branch] of projection.branches.entries()) {
+    const row = projection.rows[index];
+    assert.equal(branch.key, branch.node.key);
+    assert.equal(branch.node.rank, 'class');
+    assert.equal(branch.species.length, branch.node.speciesCount);
+    assert.equal(row?.kind, 'summary');
+    assert.equal(row?.branchKey, branch.key);
+    assert.deepEqual(
+      row?.leafSlugs,
+      branch.species.map(({ species: profile }) => profile.slug),
+    );
+  }
+});
+
+test('adds species profile rows only below the requested class summary', () => {
+  const tree = buildTaxonomyTree(species);
+  const mammalClass = findTaxon(tree, 'class', 'Mammalia');
+  assert.ok(mammalClass);
+
+  const projection = projectTaxonomyOverview(tree, mammalClass.key);
+  const mammalBranch = projection.branches.find(
+    ({ key }) => key === mammalClass.key,
+  );
+  assert.ok(mammalBranch);
+  assert.equal(projection.expandedBranchKey, mammalClass.key);
+  assert.equal(
+    projection.rows.length,
+    projection.branches.length + mammalBranch.species.length,
+  );
+
+  const mammalSummaryIndex = projection.rows.findIndex(
+    (row) => row.kind === 'summary' && row.branchKey === mammalClass.key,
+  );
+  const expandedRows = projection.rows.slice(
+    mammalSummaryIndex + 1,
+    mammalSummaryIndex + 1 + mammalBranch.species.length,
+  );
+  assert.deepEqual(
+    expandedRows.map((row) => row.kind),
+    mammalBranch.species.map(() => 'species'),
+  );
+  assert.deepEqual(
+    expandedRows.map((row) => row.kind === 'species' ? row.leaf.key : null),
+    mammalBranch.species.map(({ key }) => key),
+    'expanded species profiles should keep taxonomy-tree order',
+  );
+  assert.ok(
+    projection.rows.every(
+      (row) => row.kind === 'summary' || row.branchKey === mammalClass.key,
+    ),
+  );
+});
+
+test('falls back to the collapsed projection for an unknown class key', () => {
+  const tree = buildTaxonomyTree(species);
+  const collapsed = projectTaxonomyOverview(tree, null);
+  const unknown = projectTaxonomyOverview(tree, 'taxonomy:unknown-class');
+
+  assert.equal(unknown.expandedBranchKey, null);
+  assert.deepEqual(unknown.rows, collapsed.rows);
+});
+
+test('projects class branches without modifying the taxonomy tree', () => {
+  const tree = buildTaxonomyTree(species);
+  const treeBeforeProjection = JSON.stringify(tree);
+  const birdClass = findTaxon(tree, 'class', 'Aves');
+  assert.ok(birdClass);
+
+  const projection = projectTaxonomyOverview(tree, birdClass.key);
+
+  assert.equal(JSON.stringify(tree), treeBeforeProjection);
+  assert.ok(projection.branches.every(({ node }) => node.rank === 'class'));
+  assert.equal(
+    new Set(projection.rows.map(({ key }) => key)).size,
+    projection.rows.length,
+    'summary and species profile row keys should stay unique',
+  );
 });
 
 test('rejects one scientific taxon identity with conflicting Chinese names', () => {
