@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { execFile } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import { access, readFile } from 'node:fs/promises';
 import test from 'node:test';
 import { fileURLToPath } from 'node:url';
@@ -9826,10 +9827,518 @@ test('registers the Seven-spotted Ladybird as a complete Coccinella septempuncta
   assert.equal(sevenSpottedLadybird.updatedAt, '2026-08-28');
 });
 
+test('registers the Emperor Dragonfly as a complete Anax imperator profile', async () => {
+  const emperorDragonfly = findSpecies('emperor-dragonfly');
+
+  assert.equal(emperorDragonfly.id, 'species-anax-imperator');
+  assert.equal(emperorDragonfly.slug, 'emperor-dragonfly');
+  assert.equal(emperorDragonfly.names.zh, '皇帝蜻蜓');
+  assert.equal(emperorDragonfly.names.en, 'Emperor Dragonfly');
+  assert.ok(
+    ['帝王蜻蜓', '帝王伟蜓', 'Blue Emperor'].every((alias) =>
+      emperorDragonfly.names.aliases.includes(alias),
+    ),
+  );
+  assert.equal(emperorDragonfly.scientificName, 'Anax imperator');
+  assert.doesNotMatch(emperorDragonfly.scientificName, /Leach|1815/);
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(emperorDragonfly).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Insecta', '昆虫纲'],
+      ['order', 'Odonata', '蜻蜓目'],
+      ['family', 'Aeshnidae', '蜓科'],
+      ['genus', 'Anax', '伟蜓属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: emperorDragonfly.conservation.code,
+      trend: emperorDragonfly.conservation.trend,
+      assessedYear: emperorDragonfly.conservation.assessedYear,
+      criteria: emperorDragonfly.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2015,
+      criteria: undefined,
+    },
+  );
+  assert.ok('assessedYear' in emperorDragonfly.conservation);
+  assert.ok(!('criteria' in emperorDragonfly.conservation));
+
+  assert.deepEqual(emperorDragonfly.distribution.realms, [
+    'freshwater',
+    'terrestrial',
+  ]);
+  assert.deepEqual(emperorDragonfly.distribution.continents, [
+    '欧洲',
+    '非洲',
+    '亚洲',
+  ]);
+  assert.deepEqual(emperorDragonfly.distribution.countries, [
+    '英国',
+    '法国',
+    '西班牙',
+    '德国',
+    '瑞典',
+    '土耳其',
+    '摩洛哥',
+    '阿尔及利亚',
+    '肯尼亚',
+    '南非',
+    '沙特阿拉伯',
+    '也门',
+    '哈萨克斯坦',
+    '印度',
+  ]);
+  assert.equal(emperorDragonfly.distribution.regions.length, 5);
+  assert.deepEqual(emperorDragonfly.distribution.center, { lat: 32, lng: 20 });
+  for (const place of [
+    '非洲',
+    '欧洲',
+    '阿拉伯半岛',
+    '西南亚',
+    '中亚',
+    '印度',
+  ]) {
+    assert.match(emperorDragonfly.distribution.range, new RegExp(place));
+  }
+  assert.match(
+    emperorDragonfly.distribution.range,
+    /国家数组.*(?:代表性|不是完整名录)/,
+  );
+
+  assert.equal(emperorDragonfly.habitats.length, 4);
+  const primaryHabitats = emperorDragonfly.habitats.filter(
+    ({ isPrimary }) => isPrimary,
+  );
+  assert.equal(primaryHabitats.length, 1);
+  assert.equal(
+    primaryHabitats[0]?.name,
+    '阳光充足且植被丰富的池塘和湖泊',
+  );
+  assert.deepEqual(
+    emperorDragonfly.habitats.map(({ realm }) => realm),
+    ['freshwater', 'freshwater', 'freshwater', 'terrestrial'],
+  );
+  const habitatText = emperorDragonfly.habitats
+    .flatMap(({ name, description }) => [name, description])
+    .join(' ');
+  assert.match(habitatText, /开阔水面.*沉水.*浮叶.*挺水/);
+  assert.match(habitatText, /缓流.*运河.*(?:不把|不是).*急流/);
+  assert.match(habitatText, /水库.*采石坑.*人工池塘.*水质.*植被/);
+  assert.match(habitatText, /池岸.*陆地.*池塘.*移动.*(?:不等于|不能证明).*繁殖/);
+
+  assert.deepEqual(
+    {
+      typical: emperorDragonfly.measurements.length?.typical,
+      unit: emperorDragonfly.measurements.length?.unit,
+    },
+    { typical: 78, unit: 'mm' },
+  );
+  assert.deepEqual(
+    {
+      typical: emperorDragonfly.measurements.wingspan?.typical,
+      unit: emperorDragonfly.measurements.wingspan?.unit,
+    },
+    { typical: 10.5, unit: 'cm' },
+  );
+  assert.ok(emperorDragonfly.measurements.length);
+  assert.ok(!('min' in emperorDragonfly.measurements.length));
+  assert.ok(!('max' in emperorDragonfly.measurements.length));
+  assert.match(
+    emperorDragonfly.measurements.length.note ?? '',
+    /British Dragonfly Society.*77\.2.*72\.9.*地区.*不是全球范围/,
+  );
+  assert.ok(emperorDragonfly.measurements.wingspan);
+  assert.ok(!('min' in emperorDragonfly.measurements.wingspan));
+  assert.ok(!('max' in emperorDragonfly.measurements.wingspan));
+  assert.match(
+    emperorDragonfly.measurements.wingspan.note ?? '',
+    /Natural History Museum.*英国.*(?:不宣称|不是).*全球.*(?:平均|极值)/,
+  );
+  assert.equal(emperorDragonfly.measurements.weight, undefined);
+  assert.deepEqual(emperorDragonfly.metrics, {});
+  assert.ok(!('adultLengthCm' in emperorDragonfly.metrics));
+  assert.ok(!('wingspanCm' in emperorDragonfly.metrics));
+
+  assert.deepEqual(emperorDragonfly.diet.types, [
+    'carnivore',
+    'insectivore',
+  ]);
+  const foodText = emperorDragonfly.diet.foods.join(' ');
+  for (const foodPattern of [
+    /水生昆虫幼体/,
+    /甲壳动物.*水生无脊椎动物/,
+    /蝌蚪.*条件性/,
+    /飞行昆虫/,
+  ]) {
+    assert.match(foodText, foodPattern);
+  }
+  assert.match(
+    emperorDragonfly.diet.description,
+    /幼虫.*捕捉面罩.*成虫.*六足.*飞虫.*咀嚼式口器/,
+  );
+  assert.match(
+    emperorDragonfly.diet.description,
+    /蝌蚪.*实验室家蝇.*(?:不能|不等于).*全球主要食物比例/,
+  );
+
+  assert.equal(emperorDragonfly.storySections?.length, 6);
+  assert.deepEqual(
+    emperorDragonfly.storySections.map(({ key }) => key),
+    [
+      'name-and-four-wings',
+      'blue-male-green-female',
+      'two-worlds-no-pupa',
+      'underwater-ballistic-mask',
+      'territory-and-oviposition',
+      'range-expansion-and-pond-network',
+    ],
+  );
+  assert.equal(
+    new Set(emperorDragonfly.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    emperorDragonfly.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+
+  assert.equal(emperorDragonfly.featuredStats.length, 4);
+  assert.deepEqual(
+    emperorDragonfly.featuredStats.map(({ key, value, unit }) => ({
+      key,
+      value,
+      unit,
+    })),
+    [
+      { key: 'typical-adult-length', value: '78', unit: 'mm' },
+      { key: 'uk-wingspan', value: '10.5', unit: 'cm' },
+      { key: 'final-instar-length', value: '45–56', unit: 'mm' },
+      { key: 'tracked-female-distance', value: '1,902', unit: 'm' },
+    ],
+  );
+  assert.equal(
+    new Set(emperorDragonfly.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    emperorDragonfly.featuredStats.every(
+      ({ label, note }) => label.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    emperorDragonfly.featuredStats.find(
+      ({ key }) => key === 'final-instar-length',
+    )?.note ?? '',
+    /只指末龄幼虫/,
+  );
+  assert.match(
+    emperorDragonfly.featuredStats.find(
+      ({ key }) => key === 'tracked-female-distance',
+    )?.note ?? '',
+    /诺曼底.*一只雌虫.*(?:不是|非).*最大.*(?:扩散|迁徙)/,
+  );
+
+  assert.equal(emperorDragonfly.media.gallery?.length, 5);
+  const mediaPaths = [
+    emperorDragonfly.media.image,
+    ...emperorDragonfly.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/emperor-dragonfly/01-adult-male-pond-portrait.webp',
+    './images/species/emperor-dragonfly/02-female-pondweed-oviposition.webp',
+    './images/species/emperor-dragonfly/03-vegetated-pond-patrol.webp',
+    './images/species/emperor-dragonfly/04-aerial-prey-interception.webp',
+    './images/species/emperor-dragonfly/05-underwater-final-instar-larva.webp',
+    './images/species/emperor-dragonfly/06-emergence-exuvia-on-reed.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path?.endsWith('.webp')));
+  assert.ok(
+    !emperorDragonfly.media.gallery.some(
+      ({ image }) => image === emperorDragonfly.media.image,
+    ),
+  );
+  const mediaRecords = [
+    emperorDragonfly.media,
+    ...emperorDragonfly.media.gallery,
+  ];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    emperorDragonfly.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok((emperorDragonfly.media.focalPoint?.x ?? 0) >= 0.65);
+  assert.ok((emperorDragonfly.media.focalPoint?.x ?? 1) <= 0.75);
+
+  const interceptionMedia = emperorDragonfly.media.gallery.find(({ image }) =>
+    image.endsWith('/04-aerial-prey-interception.webp'),
+  );
+  assert.ok(interceptionMedia);
+  assert.match(
+    `${interceptionMedia.alt} ${interceptionMedia.caption ?? ''}`,
+    /(?:尚未接触|接触之前|接触前|保持间隙)/,
+  );
+  const exuviaMedia = emperorDragonfly.media.gallery.find(({ image }) =>
+    image.endsWith('/06-emergence-exuvia-on-reed.webp'),
+  );
+  assert.ok(exuviaMedia);
+  assert.match(`${exuviaMedia.alt} ${exuviaMedia.caption ?? ''}`, /空.*(?:蜕|壳)/);
+  assert.match(
+    `${exuviaMedia.alt} ${exuviaMedia.caption ?? ''}`,
+    /(?:没有|无)活体成虫/,
+  );
+
+  const sourcePaths = [
+    '01-adult-male-pond-portrait-source.png',
+    '02-female-pondweed-oviposition-source.png',
+    '03-vegetated-pond-patrol-source.png',
+    '04-aerial-prey-interception-source.png',
+    '05-underwater-final-instar-larva-source.png',
+    '06-emergence-exuvia-on-reed-source.png',
+  ];
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/emperor-dragonfly/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const [runtimeHashes, sourceHashes] = await Promise.all(
+    [runtimeUrls, sourceUrls].map((urls) =>
+      Promise.all(
+        urls.map(async (url) =>
+          createHash('sha256').update(await readFile(url)).digest('hex'),
+        ),
+      ),
+    ),
+  );
+  assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
+  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
+
+  assert.ok(emperorDragonfly.sources.length >= 25);
+  assert.equal(
+    new Set(emperorDragonfly.sources.map(({ url }) => url)).size,
+    emperorDragonfly.sources.length,
+  );
+  assert.ok(emperorDragonfly.sources.every(({ title }) => title.length > 0));
+  assert.ok(emperorDragonfly.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    emperorDragonfly.sources.every(({ url }) => url.startsWith('https://')),
+  );
+  assert.ok(
+    emperorDragonfly.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(emperorDragonfly.sources.map(({ kind }) => kind)),
+    new Set([
+      'taxonomy',
+      'distribution',
+      'ecology',
+      'conservation',
+      'general',
+    ]),
+  );
+  assert.ok(
+    [
+      'https://www.gbif.org/species/5051775',
+      'https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Anax+imperator',
+      'https://www.odonatacentral.org/app/#/wol/',
+      'https://doi.org/10.2305/IUCN.UK.2016-3.RLTS.T59812A72311295.en',
+      'https://speciesstatus.sanbi.org/assessment/last-assessment/1607/',
+      'https://doi.org/10.2305/IUCN.UK.2024-1.RLTS.T59812A208815239.en',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+      'https://british-dragonflies.org.uk/species/emperor-dragonfly/',
+      'https://www.nhm.ac.uk/discover/dragonflies-the-ultimate-hunters.html',
+      'https://doi.org/10.14411/eje.2019.031',
+      'https://doi.org/10.1038/175338b0',
+      'https://doi.org/10.1242/jeb.33.1.1a',
+      'https://doi.org/10.1002/aqc.739',
+      'https://doi.org/10.1111/fwb.13632',
+      'https://natuurtijdschriften.nl/pub/591417',
+      'https://doi.org/10.1002/ece3.3975',
+      'https://doi.org/10.1002/jmor.21497',
+    ].every((url) =>
+      emperorDragonfly.sources.some((source) => source.url === url),
+    ),
+  );
+
+  const editorialText = [
+    emperorDragonfly.summary,
+    emperorDragonfly.description,
+    emperorDragonfly.distribution.range,
+    ...emperorDragonfly.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    emperorDragonfly.measurements.length.note ?? '',
+    emperorDragonfly.measurements.wingspan.note ?? '',
+    emperorDragonfly.diet.description,
+    ...emperorDragonfly.diet.foods,
+    ...(emperorDragonfly.activity ?? []),
+    ...emperorDragonfly.tags,
+    ...(emperorDragonfly.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...emperorDragonfly.keyFacts,
+    ...emperorDragonfly.threats,
+    ...emperorDragonfly.conservationActions,
+    ...emperorDragonfly.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /全球.*(?:无危|LC).*(?:稳定|stable).*欧洲.*(?:增长|增加|北扩)/,
+  );
+  assert.match(
+    editorialText,
+    /CITES.*(?:未列入|未收录).*(?:不能|不等于).*地方.*保护/,
+  );
+  assert.match(editorialText, /四片.*膜质翅.*六足.*短触角.*复眼/);
+  assert.match(
+    editorialText,
+    /雄虫.*蓝.*雌虫.*(?:绿|蓝绿色).*(?:重叠|也可能.*蓝)/,
+  );
+  assert.match(editorialText, /卵.*水生幼虫.*成虫.*(?:没有|无).*蛹/);
+  assert.match(
+    editorialText,
+    /雌虫.*(?:单独|独自).*卵.*(?:插入|藏进).*植物.*(?:不形成|而非).*水面.*卵串/,
+  );
+  assert.match(
+    editorialText,
+    /末龄幼虫.*45(?:–|至)56\s*mm.*(?:只指|不等于).*末龄幼虫/,
+  );
+  assert.match(
+    editorialText,
+    /12 只幼虫.*0\.03.*0\.25\s*m\/s.*(?:不能|不是).*全球.*(?:最高|最大)/,
+  );
+  assert.match(
+    editorialText,
+    /一只雌虫.*1,902\s*m.*(?:不是|非).*最大.*(?:扩散|迁徙)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:不表示|不应).{0,40}(?:远古|史前|活化石)/,
+  );
+  assert.match(
+    editorialText,
+    /发育.*(?:一年.*两年|两年.*一年).*(?:地区|条件|温度).*(?:变化|取决)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:皇帝蜻蜓|Anax imperator)(?:是|属于|堪称|可称为)(?:一种|一个)?(?:活化石|史前物种)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:所有|每只|全部).{0,10}(?:必须|固定|都).{0,10}(?:两年|2 年)|(?:固定|必须).{0,8}(?:两年|2 年)(?:水生|发育)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /雌虫(?:一定|始终|都是|只能是|必为).{0,8}(?:绿色|绿腹)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /全球最高攻击速度(?:为|是)\s*0\.25|0\.25\s*m\/s.{0,12}(?:为|是).*全球最高/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /最大(?:扩散|迁徙)距离(?:为|是)\s*1,902|1,902\s*m\s*(?:为|是)(?:本种|物种|其)?最大(?:扩散|迁徙)距离/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /蝌蚪(?:是|为).{0,8}(?:主要食物|主食)|家蝇(?:是|为).{0,8}(?:主要食物|主食)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /CITES(?:已|已经)(?:将)?(?:本种|皇帝蜻蜓)?(?:列入|收录)|受 CITES 附录保护/,
+  );
+
+  assert.equal(emperorDragonfly.publishedAt, '2026-08-28');
+  assert.equal(emperorDragonfly.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 66);
+  assert.equal(species.length, 67);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -9840,14 +10349,17 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 7);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Mantidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tenodera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Coleoptera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Coccinellidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Coccinella')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Aeshnidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Anax')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Theraphosidae')?.speciesCount, 1);

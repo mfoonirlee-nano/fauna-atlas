@@ -68,6 +68,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Goliath Birdeater image set](./species/goliath-birdeater/README.md)
 - [Chinese Mantis image set](./species/chinese-mantis/README.md)
 - [Seven-spotted Ladybird image set](./species/seven-spotted-ladybird/README.md)
+- [Emperor Dragonfly image set](./species/emperor-dragonfly/README.md)
 
 ## Image compression workflow
 
