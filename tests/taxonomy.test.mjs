@@ -11562,10 +11562,358 @@ test('registers the Coconut Crab as a complete Birgus latro profile', async () =
   assert.equal(coconutCrab.updatedAt, '2026-08-28');
 });
 
+test('registers the Chambered Nautilus as a complete Nautilus pompilius profile', async () => {
+  const chamberedNautilus = findSpecies('chambered-nautilus');
+
+  assert.equal(chamberedNautilus.id, 'species-nautilus-pompilius');
+  assert.equal(chamberedNautilus.slug, 'chambered-nautilus');
+  assert.equal(chamberedNautilus.names.zh, '鹦鹉螺');
+  assert.equal(chamberedNautilus.names.en, 'Chambered Nautilus');
+  assert.equal(chamberedNautilus.scientificName, 'Nautilus pompilius');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(chamberedNautilus).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Mollusca', '软体动物门'],
+      ['class', 'Cephalopoda', '头足纲'],
+      ['order', 'Nautilida', '鹦鹉螺目'],
+      ['family', 'Nautilidae', '鹦鹉螺科'],
+      ['genus', 'Nautilus', '鹦鹉螺属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: chamberedNautilus.conservation.code,
+      trend: chamberedNautilus.conservation.trend,
+      assessedYear: chamberedNautilus.conservation.assessedYear,
+      criteria: chamberedNautilus.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(chamberedNautilus.distribution.realms, ['marine']);
+  assert.deepEqual(chamberedNautilus.distribution.countries, [
+    '印度尼西亚',
+    '菲律宾',
+  ]);
+  for (const excludedCountry of [
+    '澳大利亚',
+    '帕劳',
+    '斐济',
+    '瓦努阿图',
+    '美属萨摩亚',
+  ]) {
+    assert.ok(
+      !chamberedNautilus.distribution.countries.includes(excludedCountry),
+      `${excludedCountry} should not be an unqualified Nautilus pompilius country`,
+    );
+  }
+  assert.equal(chamberedNautilus.habitats.length, 3);
+  assert.equal(
+    chamberedNautilus.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(
+    chamberedNautilus.habitats.every(({ realm }) => realm === 'marine'),
+  );
+
+  assert.ok(chamberedNautilus.measurements.length);
+  assert.deepEqual(
+    {
+      min: chamberedNautilus.measurements.length.min,
+      max: chamberedNautilus.measurements.length.max,
+      unit: chamberedNautilus.measurements.length.unit,
+    },
+    { min: 10, max: 22, unit: 'cm' },
+  );
+  const lengthNote = chamberedNautilus.measurements.length.note ?? '';
+  assert.match(lengthNote, /(?:壳径|壳(?:最大)?直径)/);
+  assert.match(lengthNote, /(?:成体|成熟|常见|典型|通常|约)/);
+
+  assert.ok(chamberedNautilus.diet.types.includes('carnivore'));
+  assert.deepEqual(chamberedNautilus.metrics, {});
+
+  assert.equal(chamberedNautilus.storySections?.length, 6);
+  assert.equal(
+    new Set(chamberedNautilus.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    chamberedNautilus.storySections.every(
+      ({ key, label, title, body }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        title.length > 0 &&
+        body.length > 0,
+    ),
+  );
+
+  assert.equal(chamberedNautilus.featuredStats.length, 4);
+  assert.equal(
+    new Set(chamberedNautilus.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    chamberedNautilus.featuredStats.every(
+      ({ key, label, value, note }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        value.length > 0 &&
+        (note?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(chamberedNautilus.media.gallery?.length, 5);
+  const mediaPaths = [
+    chamberedNautilus.media.image,
+    ...chamberedNautilus.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/chambered-nautilus/01-steep-reef-adult-portrait.webp',
+    './images/species/chambered-nautilus/02-pinhole-eye-and-suckerless-cirri.webp',
+    './images/species/chambered-nautilus/03-seafloor-carrion-foraging.webp',
+    './images/species/chambered-nautilus/04-nighttime-vertical-movement.webp',
+    './images/species/chambered-nautilus/05-chambered-shell-cutaway.webp',
+    './images/species/chambered-nautilus/06-captive-egg-development.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path?.endsWith('.webp')));
+  assert.ok(
+    !chamberedNautilus.media.gallery.some(
+      ({ image }) => image === chamberedNautilus.media.image,
+    ),
+  );
+  const mediaRecords = [
+    chamberedNautilus.media,
+    ...chamberedNautilus.media.gallery,
+  ];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    chamberedNautilus.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-steep-reef-adult-portrait-source.png',
+    '02-pinhole-eye-and-suckerless-cirri-source.png',
+    '03-seafloor-carrion-foraging-source.png',
+    '04-nighttime-vertical-movement-source.png',
+    '05-chambered-shell-cutaway-source.png',
+    '06-captive-egg-development-source.png',
+  ];
+  assert.deepEqual(
+    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    mediaPaths.map((path) =>
+      path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
+    ),
+  );
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/chambered-nautilus/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const [runtimeHashes, sourceHashes] = await Promise.all(
+    [runtimeUrls, sourceUrls].map((urls) =>
+      Promise.all(
+        urls.map(async (url) =>
+          createHash('sha256').update(await readFile(url)).digest('hex'),
+        ),
+      ),
+    ),
+  );
+  assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
+  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
+  assert.equal(
+    new Set([...runtimeHashes, ...sourceHashes]).size,
+    12,
+    'runtime and source image files should all differ',
+  );
+
+  assert.ok(chamberedNautilus.sources.length >= 20);
+  assert.equal(
+    new Set(chamberedNautilus.sources.map(({ url }) => url)).size,
+    chamberedNautilus.sources.length,
+  );
+  assert.ok(chamberedNautilus.sources.every(({ title }) => title.length > 0));
+  assert.ok(chamberedNautilus.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    chamberedNautilus.sources.every(({ url }) => url.startsWith('https://')),
+  );
+  assert.ok(
+    chamberedNautilus.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(chamberedNautilus.sources.map(({ kind }) => kind)),
+    new Set([
+      'taxonomy',
+      'distribution',
+      'ecology',
+      'conservation',
+      'general',
+    ]),
+  );
+
+  const editorialText = [
+    chamberedNautilus.summary,
+    chamberedNautilus.description,
+    chamberedNautilus.distribution.range,
+    ...chamberedNautilus.distribution.regions,
+    ...chamberedNautilus.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    lengthNote,
+    chamberedNautilus.diet.description,
+    ...chamberedNautilus.diet.foods,
+    ...(chamberedNautilus.activity ?? []),
+    ...chamberedNautilus.tags,
+    ...(chamberedNautilus.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...chamberedNautilus.keyFacts,
+    ...chamberedNautilus.threats,
+    ...chamberedNautilus.conservationActions,
+    ...chamberedNautilus.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(editorialText, /(?:壳室|气室)/);
+  assert.match(editorialText, /(?:体管|连室细管|siphuncle)/i);
+  assert.match(
+    editorialText,
+    /(?:体管|连室细管|siphuncle).{0,100}(?:不同于|区别于|不是|并非|勿混淆|区分).{0,60}(?:漏斗|funnel)|(?:漏斗|funnel).{0,100}(?:不同于|区别于|不是|并非|勿混淆|区分).{0,60}(?:体管|连室细管|siphuncle)|(?:体管|连室细管|siphuncle)[^。；]{0,160}(?:漏斗|funnel)[^。；]{0,80}(?:不能混|不可混|两套结构|功能不同)/i,
+  );
+
+  assert.match(editorialText, /(?:针孔眼|小孔眼|pinhole eye)/i);
+  assert.match(
+    editorialText,
+    /(?:腕须|腕丝|触手丝|触手样附肢|cirri).{0,60}(?:没有|无|缺少|不具).{0,20}吸盘|(?:没有|无|缺少|不具).{0,20}吸盘.{0,60}(?:腕须|腕丝|触手丝|触手样附肢|cirri)/i,
+  );
+
+  assert.match(editorialText, /(?:昼夜)?(?:垂直|深度)(?:移动|迁移)/);
+  assert.match(editorialText, /(?:地点|岛屿|海域|种群).{0,50}(?:依赖|取决|不同|差异|变化|因地而异)/);
+
+  assert.match(
+    editorialText,
+    /(?:每次|一次|逐次)?(?:产下|产出|排出|附着|只产)?[^。；]{0,24}(?:一枚|单枚|单个|1\s*枚)[^。；]{0,12}卵|(?:一枚|单枚|单个|1\s*枚)[^。；]{0,20}卵/,
+  );
+  assert.match(editorialText, /269\s*[–—-]\s*362\s*(?:日|天)/);
+  assert.match(
+    editorialText,
+    /(?:没有|不经历|无|缺少).{0,24}(?:浮游幼体|浮游幼生|浮游期)/,
+  );
+
+  assert.match(editorialText, /CITES.{0,40}(?:附录\s*II|Appendix\s*II)/i);
+  assert.match(
+    editorialText,
+    /(?:ESA|美国濒危物种法).{0,80}(?:受威胁|threatened|列名|列入|保护)/i,
+  );
+  assert.match(editorialText, /IUCN.{0,40}(?:NE|未评估|尚未评估)/i);
+  assert.match(
+    editorialText,
+    /(?:CITES|ESA|美国濒危物种法)[\s\S]{0,160}(?:不等于|不同于|不能替代|并非)[\s\S]{0,80}IUCN|IUCN[\s\S]{0,120}(?:不等于|不同于|不能替代|并非)[\s\S]{0,120}(?:CITES|ESA|美国濒危物种法)|(?:CITES|ESA|美国濒危物种法)[\s\S]{0,180}(?:贸易|管制|法定保护)[\s\S]{0,100}IUCN[\s\S]{0,60}(?:NE|未评估|尚未完成全球评估)/i,
+  );
+
+  assert.match(editorialText, /2023/);
+  for (const speciesName of [
+    /N(?:autilus|\.)\s*vitiensis/i,
+    /N(?:autilus|\.)\s*samoaensis/i,
+    /N(?:autilus|\.)\s*vanuatuensis/i,
+  ]) {
+    assert.match(editorialText, speciesName);
+  }
+  assert.match(
+    editorialText,
+    /(?:种界|(?:物种|分类|地理).{0,16}边界)|(?:不能|不可|不应|不宜).{0,40}(?:并入|算作|归入|等同于).{0,40}(?:本种|鹦鹉螺|Nautilus pompilius)/i,
+  );
+
+  assert.equal(chamberedNautilus.featured, true);
+  assert.equal(chamberedNautilus.publishedAt, '2026-08-28');
+  assert.equal(chamberedNautilus.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 70);
+  assert.equal(species.length, 71);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -11584,6 +11932,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Nautilus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
