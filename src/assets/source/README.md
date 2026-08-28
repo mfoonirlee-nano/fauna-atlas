@@ -71,6 +71,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Emperor Dragonfly image set](./species/emperor-dragonfly/README.md)
 - [Domestic Silkworm image set](./species/domestic-silkworm/README.md)
 - [Antarctic Krill image set](./species/antarctic-krill/README.md)
+- [Coconut Crab image set](./species/coconut-crab/README.md)
 
 ## Image compression workflow
 

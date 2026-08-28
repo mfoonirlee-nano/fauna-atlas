@@ -11136,10 +11136,436 @@ test('registers the Antarctic Krill as a complete Euphausia superba profile', as
   assert.equal(antarcticKrill.updatedAt, '2026-08-28');
 });
 
+test('registers the Coconut Crab as a complete Birgus latro profile', async () => {
+  const coconutCrab = findSpecies('coconut-crab');
+
+  assert.equal(coconutCrab.id, 'species-birgus-latro');
+  assert.equal(coconutCrab.slug, 'coconut-crab');
+  assert.equal(coconutCrab.names.zh, '椰子蟹');
+  assert.equal(coconutCrab.names.en, 'Coconut Crab');
+  assert.equal(coconutCrab.scientificName, 'Birgus latro');
+  assert.doesNotMatch(coconutCrab.scientificName, /Linnaeus|1767/);
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(coconutCrab).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Malacostraca', '软甲纲'],
+      ['order', 'Decapoda', '十足目'],
+      ['family', 'Coenobitidae', '陆寄居蟹科'],
+      ['genus', 'Birgus', '椰子蟹属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: coconutCrab.conservation.code,
+      trend: coconutCrab.conservation.trend,
+      assessedYear: coconutCrab.conservation.assessedYear,
+      criteria: coconutCrab.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2018,
+      criteria: 'A2cd+4cd',
+    },
+  );
+
+  assert.deepEqual(coconutCrab.distribution.realms, ['terrestrial', 'marine']);
+  assert.equal(coconutCrab.habitats.length, 4);
+  assert.equal(
+    coconutCrab.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.equal(
+    coconutCrab.habitats.filter(({ realm }) => realm === 'terrestrial').length,
+    3,
+  );
+  assert.equal(
+    coconutCrab.habitats.filter(({ realm }) => realm === 'marine').length,
+    1,
+  );
+
+  assert.deepEqual(Object.keys(coconutCrab.measurements), ['weight']);
+  assert.deepEqual(
+    {
+      max: coconutCrab.measurements.weight.max,
+      unit: coconutCrab.measurements.weight.unit,
+    },
+    { max: 4, unit: 'kg' },
+  );
+  const weightNote = coconutCrab.measurements.weight.note ?? '';
+  assert.match(weightNote, /(?:极端|极大|上限|最高记录)/);
+  assert.match(weightNote, /(?:典型|平均|常见|普通)/);
+  assert.match(weightNote, /(?:不是|并非|不代表|不能)/);
+  assert.deepEqual(coconutCrab.metrics, {});
+
+  assert.ok(coconutCrab.diet.types.includes('omnivore'));
+  assert.ok(coconutCrab.diet.foods.length >= 4);
+  assert.ok(coconutCrab.diet.foods.some((food) => /(?:椰子|椰肉)/.test(food)));
+  const nonCoconutFoodPatterns = [
+    /(?:果实|无花果|露兜树|海檬果)/,
+    /(?:种子|坚果|棕榈髓)/,
+    /(?:腐肉|动物尸体)/,
+    /(?:陆生动物|红蟹|其他蟹|活体猎物)/,
+  ];
+  const foodText = coconutCrab.diet.foods.join(' ');
+  assert.ok(
+    nonCoconutFoodPatterns.filter((pattern) => pattern.test(foodText)).length >=
+      3,
+  );
+
+  assert.equal(coconutCrab.storySections?.length, 6);
+  assert.equal(
+    new Set(coconutCrab.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    coconutCrab.storySections.every(
+      ({ key, label, title, body }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        title.length > 0 &&
+        body.length > 0,
+    ),
+  );
+
+  assert.equal(coconutCrab.featuredStats.length, 4);
+  assert.equal(
+    new Set(coconutCrab.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    coconutCrab.featuredStats.every(
+      ({ key, label, value, note }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        value.length > 0 &&
+        (note?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(coconutCrab.media.gallery?.length, 5);
+  const mediaPaths = [
+    coconutCrab.media.image,
+    ...coconutCrab.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/coconut-crab/01-rainforest-adult-portrait.webp',
+    './images/species/coconut-crab/02-shell-carrying-early-juvenile.webp',
+    './images/species/coconut-crab/03-ovigerous-female-at-surf.webp',
+    './images/species/coconut-crab/04-coconut-fiber-feeding.webp',
+    './images/species/coconut-crab/05-airborne-odor-foraging.webp',
+    './images/species/coconut-crab/06-night-road-monitoring.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path?.endsWith('.webp')));
+  assert.ok(
+    !coconutCrab.media.gallery.some(
+      ({ image }) => image === coconutCrab.media.image,
+    ),
+  );
+  const mediaRecords = [coconutCrab.media, ...coconutCrab.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    coconutCrab.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-rainforest-adult-portrait-source.png',
+    '02-shell-carrying-early-juvenile-source.png',
+    '03-ovigerous-female-at-surf-source.png',
+    '04-coconut-fiber-feeding-source.png',
+    '05-airborne-odor-foraging-source.png',
+    '06-night-road-monitoring-source.png',
+  ];
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/coconut-crab/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const [runtimeHashes, sourceHashes] = await Promise.all(
+    [runtimeUrls, sourceUrls].map((urls) =>
+      Promise.all(
+        urls.map(async (url) =>
+          createHash('sha256').update(await readFile(url)).digest('hex'),
+        ),
+      ),
+    ),
+  );
+  assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
+  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
+
+  assert.ok(coconutCrab.sources.length >= 25);
+  assert.equal(
+    new Set(coconutCrab.sources.map(({ url }) => url)).size,
+    coconutCrab.sources.length,
+  );
+  assert.ok(coconutCrab.sources.every(({ title }) => title.length > 0));
+  assert.ok(coconutCrab.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(coconutCrab.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    coconutCrab.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(coconutCrab.sources.map(({ kind }) => kind)),
+    new Set([
+      'taxonomy',
+      'distribution',
+      'ecology',
+      'conservation',
+      'general',
+    ]),
+  );
+
+  const editorialText = [
+    coconutCrab.summary,
+    coconutCrab.description,
+    coconutCrab.distribution.range,
+    ...coconutCrab.distribution.regions,
+    ...coconutCrab.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    weightNote,
+    coconutCrab.diet.description,
+    ...coconutCrab.diet.foods,
+    ...(coconutCrab.activity ?? []),
+    ...coconutCrab.tags,
+    ...(coconutCrab.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...coconutCrab.keyFacts,
+    ...coconutCrab.threats,
+    ...coconutCrab.conservationActions,
+    ...coconutCrab.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  const assertHasAny = (text, patterns, message) => {
+    assert.ok(patterns.some((pattern) => pattern.test(text)), message);
+  };
+
+  assertHasAny(
+    editorialText,
+    [
+      /(?:现存)?最大(?:的)?陆生节肢动物/,
+      /陆生节肢动物.{0,16}(?:最大|之最)/,
+    ],
+    'profile should identify the land-arthropod size record',
+  );
+  assertHasAny(
+    editorialText,
+    [
+      /(?:并非|不是|不等于).{0,24}(?:所有)?(?:蟹|蟹类).{0,16}(?:最大|体型冠军)/,
+      /(?:最大|体型冠军).{0,16}(?:蟹|蟹类).{0,24}(?:并非|不是|不等于)/,
+    ],
+    'profile should not turn the land-arthropod record into a largest-crab claim',
+  );
+  assertHasAny(
+    editorialText,
+    [
+      /(?:不是|并非).{0,16}(?:短尾类|真蟹)/,
+      /(?:陆寄居蟹科|异尾类).{0,24}(?:不是|并非).{0,16}(?:短尾类|真蟹)/,
+    ],
+    'profile should distinguish a terrestrial hermit crab from a true crab',
+  );
+
+  assertHasAny(
+    editorialText,
+    [
+      /(?:成体|成年).{0,30}(?:不再|不|没有|无).{0,12}(?:背|携带)?(?:螺)?壳/,
+      /(?:弃壳|脱离螺壳).{0,30}(?:成体|成年)/,
+    ],
+    'profile should keep adults shell-free',
+  );
+  assertHasAny(
+    editorialText,
+    [
+      /(?:蚤状幼体|早期幼生|海洋幼生).{0,40}(?:海中|海水|海洋|浮游)/,
+      /(?:海中|海水|海洋).{0,40}(?:蚤状幼体|早期幼生|海洋幼生)/,
+    ],
+    'profile should retain the marine larval phase',
+  );
+  assert.match(editorialText, /(?:大眼幼体|glaucothoe)/i);
+  assertHasAny(
+    editorialText,
+    [
+      /(?:大眼幼体|glaucothoe).{0,80}(?:螺壳|贝壳).{0,80}(?:上岸|登陆)/i,
+      /(?:大眼幼体|glaucothoe).{0,80}(?:上岸|登陆).{0,80}(?:螺壳|贝壳)/i,
+    ],
+    'profile should explain shell-assisted landing by glaucothoes',
+  );
+
+  assert.match(editorialText, /(?:鳃盖肺|鳃室.{0,8}(?:肺|空气呼吸))/);
+  assertHasAny(
+    editorialText,
+    [
+      /(?:成体|成年).{0,40}(?:不能|无法).{0,16}(?:水下|水中|海里).{0,12}(?:生活|呼吸|生存)/,
+      /(?:成体|成年).{0,40}(?:浸没|泡在水中).{0,20}(?:溺亡|淹死)/,
+      /(?:水下|水中|海里).{0,20}(?:不能|无法).{0,20}(?:生活|呼吸|生存)/,
+    ],
+    'profile should not make air-breathing adults aquatic',
+  );
+
+  assertHasAny(
+    editorialText,
+    [
+      /椰子.{0,30}(?:只是|仅是|并非|不是).{0,24}(?:菜单|食物|食谱|一部分|唯一)/,
+      /(?:并非|不是).{0,16}(?:只吃|唯一).{0,16}椰子/,
+      /(?:菜单|食谱).{0,20}(?:不止|远不止).{0,12}椰子/,
+    ],
+    'profile should present coconut as one food among many',
+  );
+
+  const measuredForceStat = coconutCrab.featuredStats.find(
+    ({ value, unit }) => unit === 'N' && /1,?765\.2/.test(value),
+  );
+  assert.ok(
+    measuredForceStat,
+    'profile should feature the measured 1,765.2 N force',
+  );
+  const measuredForceNote = measuredForceStat.note ?? '';
+  assert.match(measuredForceNote, /(?:实测|测得)/);
+  assert.match(measuredForceNote, /3,?300/);
+  assert.match(measuredForceNote, /(?:外推|推算|回归|模型)/);
+
+  const longevityStat = coconutCrab.featuredStats.find(
+    ({ value, unit }) => unit === '年' && /50/.test(value),
+  );
+  assert.ok(
+    longevityStat,
+    'profile should feature the roughly 50-year lifespan',
+  );
+  assert.match(longevityStat.note ?? '', /(?:模型|估算|拟合)/);
+
+  assert.ok(coconutCrab.threats.length >= 4);
+  assert.ok(coconutCrab.conservationActions.length >= 4);
+  const threatText = coconutCrab.threats.join(' ');
+  for (const threatPattern of [
+    /(?:捕捉|捕猎|食用|贸易)/,
+    /(?:森林|生境|栖息地|沿岸).{0,30}(?:破坏|清除|丧失|破碎)/,
+    /(?:道路|车辆|路杀|撞击)/,
+    /(?:外来种|外来捕食者|黄疯蚁|鼠|猪)/,
+  ]) {
+    assert.match(threatText, threatPattern);
+  }
+  const actionText = coconutCrab.conservationActions.join(' ');
+  for (const actionPattern of [
+    /(?:森林|生境|栖息地|保护地|连接带)/,
+    /(?:禁捕|休渔|限捕|袋限|许可证|抱卵雌蟹)/,
+    /(?:限速|封路|道路|避让)/,
+    /(?:外来种|黄疯蚁|鼠|猪)/,
+    /(?:监测|样线|相机|标记重捕|个体识别)/,
+  ]) {
+    assert.match(actionText, actionPattern);
+  }
+
+  const sizeText = [
+    `最大体重 ${coconutCrab.measurements.weight.max} ${coconutCrab.measurements.weight.unit}`,
+    weightNote,
+    ...coconutCrab.featuredStats.flatMap(({ value, unit, note }) => [
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...(coconutCrab.storySections ?? []).map(({ body }) => body),
+    ...coconutCrab.keyFacts,
+  ].join(' ');
+  assert.match(sizeText, /4\s*(?:kg|千克)/i);
+  assertHasAny(
+    sizeText,
+    [
+      /(?:足展|跨足).{0,50}(?:约|接近|可达).{0,10}1\s*(?:米|m)/i,
+      /1\s*(?:米|m).{0,50}(?:足展|跨足)/i,
+    ],
+    'profile should identify one metre as a leg-span scale',
+  );
+  assert.match(sizeText, /(?:极端|极大|大型个体|最大记录|上限)/);
+  assert.doesNotMatch(editorialText, /(?:最高|最大|可达).{0,12}6\s*(?:kg|千克)/i);
+
+  assert.equal(coconutCrab.featured, true);
+  assert.equal(coconutCrab.publishedAt, '2026-08-28');
+  assert.equal(coconutCrab.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 69);
+  assert.equal(species.length, 70);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -11150,8 +11576,11 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 10);
-  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Coenobitidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Birgus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
