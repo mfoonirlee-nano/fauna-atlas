@@ -8977,10 +8977,420 @@ test('registers the Goliath Birdeater as a complete Theraphosa blondi profile', 
   assert.equal(goliathBirdeater.updatedAt, '2026-08-28');
 });
 
+test('registers the Chinese Mantis as a complete Tenodera sinensis profile', async () => {
+  const chineseMantis = findSpecies('chinese-mantis');
+
+  assert.equal(chineseMantis.id, 'species-tenodera-sinensis');
+  assert.equal(chineseMantis.slug, 'chinese-mantis');
+  assert.equal(chineseMantis.names.zh, '中华大刀螳');
+  assert.equal(chineseMantis.names.en, 'Chinese Mantis');
+  assert.deepEqual(chineseMantis.names.aliases, [
+    '中华刀螳',
+    '中华大刀螂',
+    'Chinese Praying Mantis',
+    'Chinese Mantid',
+    'Tenodera aridifolia sinensis',
+    'Paratenodera sinensis',
+    'Mantis mandarinea',
+  ]);
+  assert.equal(chineseMantis.scientificName, 'Tenodera sinensis');
+  assert.notEqual(
+    chineseMantis.scientificName,
+    'Tenodera aridifolia sinensis',
+  );
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(chineseMantis).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Insecta', '昆虫纲'],
+      ['order', 'Mantodea', '螳螂目'],
+      ['family', 'Mantidae', '螳科'],
+      ['genus', 'Tenodera', '大刀螳属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: chineseMantis.conservation.code,
+      trend: chineseMantis.conservation.trend,
+      assessedYear: chineseMantis.conservation.assessedYear,
+      criteria: chineseMantis.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('assessedYear' in chineseMantis.conservation));
+  assert.ok(!('criteria' in chineseMantis.conservation));
+
+  assert.deepEqual(chineseMantis.distribution.realms, ['terrestrial']);
+  assert.deepEqual(chineseMantis.distribution.continents, [
+    '亚洲',
+    '北美洲',
+  ]);
+  assert.deepEqual(chineseMantis.distribution.countries, [
+    '中国',
+    '韩国',
+    '日本',
+    '俄罗斯',
+    '尼泊尔',
+    '泰国',
+    '美国',
+    '加拿大',
+  ]);
+  assert.deepEqual(chineseMantis.distribution.regions, [
+    '中国大陆与台湾',
+    '朝鲜半岛南部',
+    '日本列岛',
+    '俄罗斯远东及亚洲温带记录区',
+    '尼泊尔和泰国的已列记录区',
+    '美国东部及其他引入记录区',
+    '加拿大南部引入记录区',
+  ]);
+  assert.deepEqual(chineseMantis.distribution.center, { lat: 35, lng: 112 });
+  assert.match(
+    chineseMantis.distribution.range,
+    /原生.*亚洲.*中国.*尼泊尔.*日本.*俄罗斯.*泰国.*韩国.*台湾.*引入.*美国.*加拿大.*(?:不能|不等于).*繁殖种群/,
+  );
+  assert.equal(chineseMantis.habitats.length, 4);
+  assert.equal(
+    chineseMantis.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(
+    chineseMantis.habitats.every(({ realm }) => realm === 'terrestrial'),
+  );
+  const habitatText = chineseMantis.habitats
+    .flatMap(({ name, description }) => [name, description])
+    .join(' ');
+  assert.match(habitatText, /温带高草.*草本.*河岸.*农田边缘.*城市.*郊区/);
+  assert.match(habitatText, /北美引入区.*(?:不定义|不代表).*亚洲/);
+
+  assert.deepEqual(chineseMantis.measurements.length, {
+    min: 5.42,
+    max: 10.08,
+    unit: 'cm',
+    note: chineseMantis.measurements.length?.note,
+  });
+  assert.match(
+    chineseMantis.measurements.length?.note ?? '',
+    /韩国.*37 只成体雄性.*17 只成体雌性.*实际样本量未报告.*不是全球极值/,
+  );
+  assert.equal(chineseMantis.measurements.weight, undefined);
+  assert.equal(chineseMantis.measurements.wingspan, undefined);
+  assert.deepEqual(chineseMantis.metrics, {});
+  assert.ok(!('adultLengthCm' in chineseMantis.metrics));
+  assert.ok(!('adultMassKg' in chineseMantis.metrics));
+  assert.ok(!('lifespanYears' in chineseMantis.metrics));
+  assert.ok(!('wingspanCm' in chineseMantis.metrics));
+  assert.ok(!('estimatedMatureIndividuals' in chineseMantis.metrics));
+
+  assert.deepEqual(chineseMantis.diet.types, [
+    'carnivore',
+    'insectivore',
+  ]);
+  assert.equal(chineseMantis.diet.foods.length, 4);
+  assert.match(
+    chineseMantis.diet.foods.join(' '),
+    /鳞翅目.*直翅目.*双翅目.*半翅目.*蜘蛛.*传粉.*寄生蜂.*机会性脊椎动物/,
+  );
+  assert.match(
+    chineseMantis.diet.description,
+    /DNA.*植食者.*捕食者.*传粉者.*寄生蜂.*不能.*只吃害虫.*小型脊椎动物.*没有日常食谱占比/,
+  );
+
+  assert.equal(chineseMantis.storySections?.length, 6);
+  assert.deepEqual(
+    chineseMantis.storySections.map(({ key }) => key),
+    [
+      'species-not-subspecies',
+      'sex-and-season',
+      'ootheca-and-molts',
+      'eyes-to-forelegs',
+      'generalist-not-pest-specialist',
+      'cannibalism-range-and-data-gap',
+    ],
+  );
+  assert.equal(
+    new Set(chineseMantis.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    chineseMantis.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+
+  assert.equal(chineseMantis.featuredStats.length, 4);
+  assert.deepEqual(
+    chineseMantis.featuredStats.map(({ key, value, unit }) => ({
+      key,
+      value,
+      unit,
+    })),
+    [
+      { key: 'male-voucher-length', value: '54.2–89.1', unit: 'mm' },
+      { key: 'female-voucher-length', value: '58.2–100.8', unit: 'mm' },
+      { key: 'ootheca-length', value: '30.0–42.2', unit: 'mm' },
+      { key: 'nymphal-molts', value: '6–7', unit: '次' },
+    ],
+  );
+  assert.ok(
+    chineseMantis.featuredStats.every(
+      ({ label, note }) => label.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    chineseMantis.featuredStats.find(({ key }) => key === 'ootheca-length')
+      ?.note ?? '',
+    /15–29 个卵室.*(?:不是|不等于)卵数/,
+  );
+  assert.match(
+    chineseMantis.featuredStats.find(({ key }) => key === 'nymphal-molts')
+      ?.note ?? '',
+    /食物.*温度.*改变.*发育/,
+  );
+
+  assert.equal(chineseMantis.media.gallery?.length, 5);
+  const mediaPaths = [
+    chineseMantis.media.image,
+    ...chineseMantis.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/chinese-mantis/01-adult-female-vegetation-portrait.webp',
+    './images/species/chinese-mantis/02-adult-male-brown-morph.webp',
+    './images/species/chinese-mantis/03-prestrike-cricket-tracking.webp',
+    './images/species/chinese-mantis/04-distant-courtship-approach.webp',
+    './images/species/chinese-mantis/05-ootheca-on-shrub-branch.webp',
+    './images/species/chinese-mantis/06-successional-old-field-habitat.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !chineseMantis.media.gallery.some(
+      ({ image }) => image === chineseMantis.media.image,
+    ),
+  );
+  const mediaRecords = [
+    chineseMantis.media,
+    ...chineseMantis.media.gallery,
+  ];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    chineseMantis.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+
+  const sourcePaths = [
+    '01-adult-female-vegetation-portrait-source.png',
+    '02-adult-male-brown-morph-source.png',
+    '03-prestrike-cricket-tracking-source.png',
+    '04-distant-courtship-approach-source.png',
+    '05-ootheca-on-shrub-branch-source.png',
+    '06-successional-old-field-habitat-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(
+        `../src/assets/source/species/chinese-mantis/${filename}`,
+        import.meta.url,
+      ),
+    })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  assert.equal(chineseMantis.sources.length, 28);
+  assert.equal(
+    new Set(chineseMantis.sources.map(({ url }) => url)).size,
+    chineseMantis.sources.length,
+  );
+  assert.ok(chineseMantis.sources.every(({ title }) => title.length > 0));
+  assert.ok(chineseMantis.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    chineseMantis.sources.every(({ url }) => url.startsWith('https://')),
+  );
+  assert.ok(
+    chineseMantis.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(chineseMantis.sources.map(({ kind }) => kind)),
+    new Set([
+      'taxonomy',
+      'distribution',
+      'general',
+      'conservation',
+      'ecology',
+    ]),
+  );
+  assert.ok(
+    [
+      'https://doi.org/10.3897/zookeys.1206.123355',
+      'https://taxatree.tbn.org.tw/taxa/8eb77f1b-dcf5-4fd1-84f3-7f4326b5e24f',
+      'https://www.iucnredlist.org/search?query=Tenodera%20sinensis&searchType=species',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+      'https://doi.org/10.1016/j.fooweb.2023.e00280',
+      'https://doi.org/10.1085/jgp.57.1.93',
+      'https://doi.org/10.3389/fncir.2022.893004',
+      'https://doi.org/10.1016/S0003-3472(87)80024-6',
+      'https://doi.org/10.1086/505757',
+      'https://doi.org/10.1098/rspb.2016.0656',
+    ].every((url) =>
+      chineseMantis.sources.some((source) => source.url === url),
+    ),
+  );
+
+  const editorialText = [
+    chineseMantis.summary,
+    chineseMantis.description,
+    chineseMantis.distribution.range,
+    ...chineseMantis.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    chineseMantis.measurements.length?.note ?? '',
+    chineseMantis.diet.description,
+    ...chineseMantis.diet.foods,
+    ...(chineseMantis.activity ?? []),
+    ...chineseMantis.tags,
+    ...(chineseMantis.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...chineseMantis.keyFacts,
+    ...chineseMantis.threats,
+    ...chineseMantis.conservationActions,
+    ...chineseMantis.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /Tenodera aridifolia sinensis.*历史亚种组合/,
+  );
+  assert.match(
+    editorialText,
+    /54\.2.*89\.1.*58\.2.*100\.8.*(?:重叠|不是全球极值)/,
+  );
+  assert.match(
+    editorialText,
+    /15(?:–|至)29 个卵室.*(?:不等于|不是)卵数/,
+  );
+  assert.match(
+    editorialText,
+    /510(?:–|至)520\s*nm.*370\s*nm.*(?:不能|不等于).*颜色辨别/,
+  );
+  assert.match(editorialText, /传粉者.*寄生蜂.*捕食者/);
+  assert.match(editorialText, /(?:不能|不是).*只吃害虫/);
+  assert.match(
+    editorialText,
+    /小型脊椎动物.*(?:机会性|事件|记录).*(?:没有|不代表).*(?:日常|常规|主食|占比)/,
+  );
+  assert.match(
+    editorialText,
+    /饥饿.*(?:捕食状态|风险).*雄性.*(?:放慢|接近|求偶).*性食同类.*(?:不是|不等于).*(?:固定|必经|每次|必然)/,
+  );
+  assert.match(editorialText, /亚洲.*原生.*北美.*引入/);
+  assert.match(editorialText, /IUCN.*(?:尚未评估|没有本种评估)/);
+  assert.match(editorialText, /CITES.*(?:未列入|未收录|没有本种条目)/);
+  assert.doesNotMatch(
+    editorialText,
+    /中华大刀螳(?:只|仅|专门)吃害虫|它(?:只|仅|专门)吃害虫/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:鸟类|蜂鸟|蝾螈).{0,12}(?:主食|常规食物|日常食物)|(?:主要|通常|经常).{0,10}捕食(?:鸟类|蜂鸟|蝾螈)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /交配后都会吃掉雄性|一定吃掉雄性|必然吃掉雄性|性食同类是交配的必经步骤/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:能|会)辨别绿色和紫外两种颜色/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /中华大刀螳(?:取食|捕食).*22\s*目/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /100\.8\s*(?:毫米|mm)\s*(?:为|是|达到|可达)?\s*(?:全球最大|全球极值|平均体长)|(?:全球最大|全球极值|平均体长)(?:为|是|达到|可达)?\s*100\.8/,
+  );
+  assert.doesNotMatch(editorialText, /15(?:–|至)29\s*枚卵/);
+  assert.doesNotMatch(editorialText, /IUCN.*(?:LC|无危)/);
+  assert.doesNotMatch(
+    editorialText,
+    /(?:CITES.*(?:已列入|已收录)|(?:列入|收录于)\s*CITES\s*附录)/,
+  );
+
+  assert.equal(chineseMantis.featured, true);
+  assert.equal(chineseMantis.publishedAt, '2026-08-28');
+  assert.equal(chineseMantis.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 64);
+  assert.equal(species.length, 65);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -8991,7 +9401,11 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Mantidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Tenodera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Theraphosidae')?.speciesCount, 1);
