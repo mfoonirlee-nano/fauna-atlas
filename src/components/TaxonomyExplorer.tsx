@@ -13,7 +13,7 @@ import {
 } from '../domain/taxonomy';
 import {
   projectTaxonomyOverview,
-  type TaxonomyOverviewBranch,
+  toggleOverviewTaxon,
   type TaxonomyOverviewProjection,
 } from '../domain/taxonomy-overview';
 import type { Species } from '../types';
@@ -86,7 +86,7 @@ function collectTaxonNodes(nodes: readonly TaxonomyTreeNode[]): TaxonomyTaxonNod
 function makeOverviewDiagram(
   tree: TaxonomyTree,
   overview: TaxonomyOverviewProjection,
-  { showSummaries = true }: { readonly showSummaries?: boolean } = {},
+  { interactiveTaxa = true }: { readonly interactiveTaxa?: boolean } = {},
   columns: readonly [number, number, number, number, number, number, number] = [
     0.035,
     0.165,
@@ -94,65 +94,43 @@ function makeOverviewDiagram(
     0.425,
     0.555,
     0.685,
-    0.79,
+    0.8,
   ],
 ): DiagramData {
-  const diagramRows = showSummaries
-    ? overview.rows
-    : overview.rows.filter((row) => row.kind === 'species');
   const rowYByKey = new Map(
-    diagramRows.map((row, index) => [
+    overview.rows.map((row, index) => [
       row.key,
-      diagramRows.length <= 1 ? 0.5 : 0.045 + (index / (diagramRows.length - 1)) * 0.91,
+      overview.rows.length <= 1 ? 0.5 : 0.045 + (index / (overview.rows.length - 1)) * 0.91,
     ]),
   );
-  const summaryRowByBranchKey = new Map(
-    diagramRows
-      .filter((row) => row.kind === 'summary')
-      .map((row) => [row.branchKey, row]),
+  const taxonYByKey = new Map(
+    overview.rows
+      .filter((row) => row.kind === 'taxon')
+      .map((row) => [row.node.key, rowYByKey.get(row.key) ?? 0.5]),
   );
-  const speciesRowByLeafKey = new Map(
-    diagramRows
+  const speciesYByKey = new Map(
+    overview.rows
       .filter((row) => row.kind === 'species')
-      .map((row) => [row.leaf.key, row]),
+      .map((row) => [row.leaf.key, rowYByKey.get(row.key) ?? 0.5]),
   );
-  const speciesYBySlug = new Map(
-    diagramRows
-      .filter((row) => row.kind === 'species')
-      .map((row) => [row.leaf.species.slug, rowYByKey.get(row.key) ?? 0.5]),
-  );
-  const summaryYByBranchKey = new Map(diagramRows
-    .filter((row) => row.kind === 'summary')
-    .map((row) => [row.branchKey, rowYByKey.get(row.key) ?? 0.5]));
-  const branchKeyBySlug = new Map(
-    overview.branches.flatMap((branch) =>
-      branch.species.map((leaf) => [leaf.species.slug, branch.key] as const),
-    ),
-  );
-  const overviewBranchByKey = new Map(overview.branches.map((branch) => [branch.key, branch]));
+  const collapsedKeySet = new Set(overview.collapsedTaxonKeys);
   const nodes: TaxonomyDiagramNode[] = [];
   const edges: TaxonomyDiagramEdge[] = [];
 
-  const meanVisibleY = (node: TaxonomyTaxonNode): number => {
-    const descendantSlugs = new Set(
-      collectSpeciesNodes(node.children).map((leaf) => leaf.species.slug),
-    );
-    const positions = [...descendantSlugs]
-      .map((slug) => speciesYBySlug.get(slug))
-      .filter((position): position is number => position !== undefined);
-
-    if (TAXONOMY_RANKS.indexOf(node.rank) <= TAXONOMY_RANKS.indexOf('class')) {
-      const branchKeys = new Set(
-        [...descendantSlugs]
-          .map((slug) => branchKeyBySlug.get(slug))
-          .filter((key): key is string => key !== undefined),
-      );
-      for (const branchKey of branchKeys) {
-        const summaryY = summaryYByBranchKey.get(branchKey);
-        if (summaryY !== undefined) positions.push(summaryY);
-      }
+  const visibleYPositions = (node: TaxonomyTreeNode): number[] => {
+    if (node.kind === 'species') {
+      const position = speciesYByKey.get(node.key);
+      return position === undefined ? [] : [position];
     }
+    if (collapsedKeySet.has(node.key)) {
+      const position = taxonYByKey.get(node.key);
+      return position === undefined ? [] : [position];
+    }
+    return node.children.flatMap(visibleYPositions);
+  };
 
+  const meanVisibleY = (node: TaxonomyTaxonNode): number => {
+    const positions = visibleYPositions(node);
     if (positions.length === 0) return 0.5;
     return positions.reduce((total, position) => total + position, 0) / positions.length;
   };
@@ -169,13 +147,20 @@ function makeOverviewDiagram(
       x: columns[rankIndex] ?? columns[0],
       y: meanVisibleY(node),
       leafSlugs,
+      disclosure: interactiveTaxa
+        ? {
+            nodeKey: node.key,
+            nodeName: node.taxon.zhName,
+            speciesCount: node.speciesCount,
+            expanded: !collapsedKeySet.has(node.key),
+          }
+        : undefined,
     });
   };
 
   const addEdge = (
     from: TaxonomyTaxonNode,
     to: TaxonomyTaxonNode | TaxonomySpeciesNode,
-    collapsedRanks: readonly string[] = [],
   ) => {
     const leafSlugs = to.kind === 'species'
       ? [to.species.slug]
@@ -185,99 +170,41 @@ function makeOverviewDiagram(
       from: from.key,
       to: to.key,
       leafSlugs,
-      collapsedRanks,
     });
   };
 
-  const addSummary = (branch: TaxonomyOverviewBranch) => {
-    const row = summaryRowByBranchKey.get(branch.key);
-    if (!row) return;
-
-    const expanded = overview.expandedBranchKey === branch.key;
-    const leafSlugs = branch.species.map((leaf) => leaf.species.slug);
-    const summaryLeafSlugs = expanded ? [] : leafSlugs;
+  const addSpecies = (node: TaxonomySpeciesNode, parent: TaxonomyTaxonNode) => {
+    const y = speciesYByKey.get(node.key);
+    if (y === undefined) return;
     nodes.push({
-      id: row.key,
-      kind: 'summary',
-      rankLabel: `${branch.node.taxon.zhName} · ${expanded ? '收起' : '展开'}`,
-      zhName: `${branch.node.speciesCount} 份物种档案`,
-      scientificName: branch.node.taxon.scientificName,
+      id: node.key,
+      kind: 'species',
+      rankLabel: rankLabels.species.zh,
+      zhName: node.species.names.zh,
+      scientificName: node.species.scientificName,
       x: columns[6],
-      y: rowYByKey.get(row.key) ?? 0.5,
-      leafSlugs: summaryLeafSlugs,
-      summary: {
-        branchKey: branch.key,
-        branchName: branch.node.taxon.zhName,
-        speciesCount: branch.node.speciesCount,
-        expanded,
-      },
+      y,
+      leafSlugs: [node.species.slug],
+      species: node.species,
     });
-    if (!expanded) {
-      edges.push({
-        id: `${branch.key}→${row.key}`,
-        from: branch.key,
-        to: row.key,
-        leafSlugs: summaryLeafSlugs,
-        collapsedRanks: ['目', '科', '属', '种'],
-      });
-    }
+    addEdge(parent, node);
   };
 
-  const projectNode = (
-    node: TaxonomyTreeNode,
-    visibleParent: TaxonomyTaxonNode,
-    collapsedRanks: readonly string[],
+  const addVisibleTaxon = (
+    node: TaxonomyTaxonNode,
+    parent?: TaxonomyTaxonNode,
   ) => {
-    if (node.kind === 'species') {
-      const row = speciesRowByLeafKey.get(node.key);
-      if (!row) return;
+    addTaxon(node);
+    if (parent) addEdge(parent, node);
+    if (collapsedKeySet.has(node.key)) return;
 
-      nodes.push({
-        id: node.key,
-        kind: 'species',
-        rankLabel: rankLabels.species.zh,
-        zhName: node.species.names.zh,
-        scientificName: node.species.scientificName,
-        x: columns[6],
-        y: rowYByKey.get(row.key) ?? 0.5,
-        leafSlugs: [node.species.slug],
-        species: node.species,
-      });
-      addEdge(visibleParent, node, collapsedRanks);
-      return;
+    for (const child of node.children) {
+      if (child.kind === 'species') addSpecies(child, node);
+      else addVisibleTaxon(child, node);
     }
-
-    if (node.rank === 'class') {
-      addTaxon(node);
-      addEdge(visibleParent, node, collapsedRanks);
-
-      const branch = overviewBranchByKey.get(node.key);
-      if (!branch) return;
-      addSummary(branch);
-      if (overview.expandedBranchKey === branch.key) {
-        for (const child of node.children) projectNode(child, node, []);
-      }
-      return;
-    }
-
-    const isStructuralLevel = node.rank === 'phylum';
-    const isTrueBranch = node.children.length > 1;
-
-    if (isStructuralLevel || isTrueBranch) {
-      addTaxon(node);
-      addEdge(visibleParent, node, collapsedRanks);
-      for (const child of node.children) projectNode(child, node, []);
-      return;
-    }
-
-    const nextCollapsedRanks = [...collapsedRanks, rankLabels[node.rank].zh];
-    for (const child of node.children) projectNode(child, visibleParent, nextCollapsedRanks);
   };
 
-  for (const root of tree) {
-    addTaxon(root);
-    for (const child of root.children) projectNode(child, root, []);
-  }
+  for (const root of tree) addVisibleTaxon(root);
 
   return { nodes, edges };
 }
@@ -391,10 +318,11 @@ function AccessibleTaxonomyPaths({ items }: { readonly items: readonly Species[]
   );
 }
 
-function DiagramDisclaimer() {
+function DiagramDisclaimer({ interactive = false }: { readonly interactive?: boolean }) {
   return (
     <p className="taxonomy-disclaimer">
-      虚线表示已折叠的分类阶元或纲分支；所有枝线只表示当前图册收录口径下的分类归属，长度与位置不表示演化时间、祖先关系或亲缘远近。
+      {interactive ? '带加减号的分类单元可以逐级收起或展开；' : ''}
+      所有枝线只表示当前图册收录口径下的分类归属，长度与位置不表示演化时间、祖先关系或亲缘远近。
     </p>
   );
 }
@@ -403,24 +331,18 @@ function MobileLineageMap({
   items,
   tree,
   activeItem,
-  branches,
-  activeBranchKey,
   label,
   theme,
   showSelector = true,
-  onSelectBranch,
   onSelectSpecies,
   onOpenSpecies,
 }: {
   readonly items: readonly Species[];
   readonly tree: TaxonomyTree;
   readonly activeItem?: Species;
-  readonly branches?: readonly TaxonomyOverviewBranch[];
-  readonly activeBranchKey?: string;
   readonly label: string;
   readonly theme: 'light' | 'dark';
   readonly showSelector?: boolean;
-  readonly onSelectBranch?: (branchKey: string) => void;
   readonly onSelectSpecies: (item: Species) => void;
   readonly onOpenSpecies: (item: Species) => void;
 }) {
@@ -440,21 +362,6 @@ function MobileLineageMap({
         <p>{label}</p>
         <span>{activeItem?.names.zh ?? '暂无物种档案'}</span>
       </div>
-      {branches && branches.length > 0 && activeBranchKey && onSelectBranch && (
-        <label className="taxonomy-mobile-branch-select">
-          <span>按纲浏览</span>
-          <select
-            value={activeBranchKey}
-            onChange={(event) => onSelectBranch(event.currentTarget.value)}
-          >
-            {branches.map((branch) => (
-              <option key={branch.key} value={branch.key}>
-                {branch.node.taxon.zhName} · {branch.node.speciesCount} 份
-              </option>
-            ))}
-          </select>
-        </label>
-      )}
       {showSelector && items.length > 0 && (
         <div className="taxonomy-mobile-species-tabs" role="group" aria-label="选择物种档案">
           {items.map((item) => (
@@ -494,28 +401,31 @@ function MobileLineageMap({
 function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const hasMountedOverviewRef = useRef(false);
-  const collapsedOverview = useMemo(() => projectTaxonomyOverview(tree), [tree]);
+  const fullOverview = useMemo(() => projectTaxonomyOverview(tree), [tree]);
   const initialSlug = items[0]?.slug ?? '';
-  const initialBranchKey = collapsedOverview.branches.find((branch) =>
+  const initialExpandedClassKey = fullOverview.branches.find((branch) =>
     branch.species.some((leaf) => leaf.species.slug === initialSlug),
-  )?.key ?? collapsedOverview.branches[0]?.key ?? null;
-  const scrollTargetBranchKeyRef = useRef<string | null>(initialBranchKey);
-  const [expandedBranchKey, setExpandedBranchKey] = useState<string | null>(initialBranchKey);
+  )?.key ?? fullOverview.branches[0]?.key ?? null;
+  const scrollTargetTaxonKeyRef = useRef<string | null>(initialExpandedClassKey);
+  const [collapsedTaxonKeys, setCollapsedTaxonKeys] = useState<ReadonlySet<string>>(
+    () => new Set(
+      fullOverview.branches
+        .filter((branch) => branch.key !== initialExpandedClassKey)
+        .map((branch) => branch.key),
+    ),
+  );
   const [selectedSlug, setSelectedSlug] = useState(initialSlug);
   const [previewSlug, setPreviewSlug] = useState<string | undefined>(undefined);
   const overview = useMemo(
-    () => projectTaxonomyOverview(tree, expandedBranchKey),
-    [expandedBranchKey, tree],
+    () => projectTaxonomyOverview(tree, collapsedTaxonKeys),
+    [collapsedTaxonKeys, tree],
+  );
+  const taxonKeys = useMemo(
+    () => new Set(collectTaxonNodes(tree).map((node) => node.key)),
+    [tree],
   );
   const selectedItem = items.find((item) => item.slug === selectedSlug) ?? items[0];
   const activeItem = items.find((item) => item.slug === previewSlug) ?? selectedItem;
-  const selectedBranch = overview.branches.find((branch) =>
-    branch.species.some((leaf) => leaf.species.slug === selectedItem?.slug),
-  ) ?? overview.branches[0];
-  const mobileItems = selectedBranch?.species.map((leaf) => leaf.species) ?? [];
-  const expandedBranch = overview.branches.find(
-    (branch) => branch.key === overview.expandedBranchKey,
-  );
   const diagram = useMemo(
     () => makeOverviewDiagram(tree, overview),
     [overview, tree],
@@ -527,17 +437,17 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
       hasMountedOverviewRef.current = true;
       return undefined;
     }
-    const targetBranchKey = scrollTargetBranchKeyRef.current;
-    if (!targetBranchKey) return undefined;
+    const targetTaxonKey = scrollTargetTaxonKeyRef.current;
+    if (!targetTaxonKey) return undefined;
 
     const animationFrame = window.requestAnimationFrame(() => {
       const scroller = scrollRef.current;
       if (!scroller) return;
-      const summary = [...scroller.querySelectorAll<HTMLElement>('[data-taxonomy-branch]')]
-        .find((element) => element.dataset.taxonomyBranch === targetBranchKey);
-      if (!summary) return;
+      const taxon = [...scroller.querySelectorAll<HTMLElement>('[data-taxonomy-node]')]
+        .find((element) => element.dataset.taxonomyNode === targetTaxonKey);
+      if (!taxon) return;
 
-      const targetTop = summary.offsetTop + summary.offsetHeight / 2 - scroller.clientHeight / 2;
+      const targetTop = taxon.offsetTop + taxon.offsetHeight / 2 - scroller.clientHeight / 2;
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       scroller.scrollTo({
         top: Math.max(0, targetTop),
@@ -546,31 +456,15 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
     });
 
     return () => window.cancelAnimationFrame(animationFrame);
-  }, [expandedBranchKey]);
+  }, [collapsedTaxonKeys]);
 
-  const toggleBranch = (branchKey: string) => {
-    const branch = overview.branches.find((candidate) => candidate.key === branchKey);
-    if (!branch) return;
-
-    const nextBranchKey = overview.expandedBranchKey === branchKey ? null : branchKey;
-    if (
-      nextBranchKey
-      && !branch.species.some((leaf) => leaf.species.slug === selectedItem?.slug)
-    ) {
-      setSelectedSlug(branch.species[0]?.species.slug ?? '');
-    }
-    scrollTargetBranchKeyRef.current = branchKey;
+  const toggleTaxon = (nodeKey: string) => {
+    if (!taxonKeys.has(nodeKey)) return;
+    scrollTargetTaxonKeyRef.current = nodeKey;
     setPreviewSlug(undefined);
-    setExpandedBranchKey(nextBranchKey);
-  };
-
-  const selectMobileBranch = (branchKey: string) => {
-    const branch = overview.branches.find((candidate) => candidate.key === branchKey);
-    if (!branch) return;
-    scrollTargetBranchKeyRef.current = branchKey;
-    setPreviewSlug(undefined);
-    setSelectedSlug(branch.species[0]?.species.slug ?? '');
-    setExpandedBranchKey(branchKey);
+    setCollapsedTaxonKeys((currentKeys) =>
+      toggleOverviewTaxon(currentKeys, nodeKey, taxonKeys),
+    );
   };
 
   const selectSpecies = (item: Species) => {
@@ -592,7 +486,7 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
         </div>
         <div className="taxonomy-explorer__introduction">
           <p id="taxonomy-description">
-            按纲收起物种档案，一次展开一个分支；悬停可预览路径，点击可固定选择并在下方读取全部七阶归属。
+            点击带加减号的分类单元，可独立收起或展开其下分支；悬停物种可预览路径，点击可固定选择并读取完整归属。
           </p>
           <div className="taxonomy-explorer__legend" aria-label="图例">
             <span><i aria-hidden="true" />分类单元</span>
@@ -602,14 +496,14 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
         </div>
       </header>
 
-      <div className="taxonomy-panel taxonomy-panel--overview taxonomy-desktop-map">
+      <div className="taxonomy-panel taxonomy-panel--overview">
         <div className="taxonomy-panel__header">
           <div className="taxonomy-panel__header-copy">
             <p>COMPRESSED OVERVIEW · {String(items.length).padStart(2, '0')} PROFILES</p>
             <span className="taxonomy-panel__branch-status" aria-live="polite">
-              {expandedBranch
-                ? `${expandedBranch.node.taxon.zhName}已展开 · ${expandedBranch.node.speciesCount} 份`
-                : `${overview.branches.length} 个纲分支均已收起`}
+              {overview.collapsedTaxonKeys.length > 0
+                ? `${overview.collapsedTaxonKeys.length} 个分类单元已收起`
+                : '全部分类单元已展开'}
             </span>
           </div>
           <div className="taxonomy-panel__ranks" aria-hidden="true">
@@ -627,11 +521,11 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
                 theme={theme}
                 activeSlug={activeItem?.slug}
                 selectedSlug={selectedItem?.slug}
-                ariaLabel="按纲折叠、一次展开一个分支的分类图谱总览"
+                ariaLabel="可逐级收起或展开分类单元的分类图谱总览"
                 onActivateSpecies={(item) => setPreviewSlug(item.slug)}
                 onDeactivateSpecies={() => setPreviewSlug(undefined)}
                 onSelectSpecies={selectSpecies}
-                onToggleBranch={toggleBranch}
+                onToggleTaxon={toggleTaxon}
                 onOpenSpecies={onOpenSpecies}
               />
             </div>
@@ -644,20 +538,7 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
         )}
       </div>
 
-      <MobileLineageMap
-        items={mobileItems}
-        tree={tree}
-        activeItem={selectedItem}
-        branches={overview.branches}
-        activeBranchKey={selectedBranch?.key}
-        label="MOBILE PATH · 选择物种档案"
-        theme={theme}
-        onSelectBranch={selectMobileBranch}
-        onSelectSpecies={selectSpecies}
-        onOpenSpecies={onOpenSpecies}
-      />
-
-      <DiagramDisclaimer />
+      <DiagramDisclaimer interactive />
       <AccessibleTaxonomyPaths items={items} />
       <p className="sr-only" aria-live="polite">
         {selectedItem ? `已选择${selectedItem.names.zh}，下方显示完整分类路径。` : ''}
@@ -785,12 +666,12 @@ function VariantC({ items, tree, theme, onOpenSpecies }: VariantProps) {
     () => buildTaxonomyTree(classItems),
     [classItems],
   );
-  const focusedOverview = useMemo(() => {
-    const collapsed = projectTaxonomyOverview(focusedTree);
-    return projectTaxonomyOverview(focusedTree, collapsed.branches[0]?.key);
-  }, [focusedTree]);
+  const focusedOverview = useMemo(
+    () => projectTaxonomyOverview(focusedTree),
+    [focusedTree],
+  );
   const diagram = useMemo(
-    () => makeOverviewDiagram(focusedTree, focusedOverview, { showSummaries: false }),
+    () => makeOverviewDiagram(focusedTree, focusedOverview, { interactiveTaxa: false }),
     [focusedOverview, focusedTree],
   );
   const diagramHeight = Math.max(300, classLeaves.length * 52 + 64);
@@ -814,7 +695,7 @@ function VariantC({ items, tree, theme, onOpenSpecies }: VariantProps) {
           <h2 id="taxonomy-title">先按纲定位，再沿枝干认识物种。</h2>
         </div>
         <p id="taxonomy-description">
-          每次只展开一组物种档案，让真实分叉保持清楚；虚线折叠的单一路径仍在图谱下方完整呈现。
+          每次聚焦一组物种档案，完整呈现从界、门、纲、目、科、属到物种档案的分类归属。
         </p>
       </div>
 

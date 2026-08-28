@@ -28,7 +28,7 @@ const {
   buildTaxonomyTree,
   getSpeciesTaxonomyPath,
 } = taxonomyModule;
-const { projectTaxonomyOverview } = taxonomyOverviewModule;
+const { projectTaxonomyOverview, toggleOverviewTaxon } = taxonomyOverviewModule;
 
 function flatten(nodes) {
   return nodes.flatMap((node) => [node, ...flatten(node.children)]);
@@ -12532,97 +12532,173 @@ test('exposes complete, stable taxonomy paths for search and node identity', () 
   }
 });
 
-test('projects one collapsed summary row for each class taxon by default', () => {
+function visibleFrontierKeys(nodes, collapsedTaxonKeys) {
+  return nodes.flatMap((node) => {
+    if (node.kind === 'species' || collapsedTaxonKeys.has(node.key)) return [node.key];
+    return visibleFrontierKeys(node.children, collapsedTaxonKeys);
+  });
+}
+
+function projectedRowNodeKey(row) {
+  return row.kind === 'taxon' ? row.node.key : row.leaf.key;
+}
+
+test('projects every species leaf in tree order when no taxon is collapsed', () => {
   const tree = buildTaxonomyTree(species);
-  const projection = projectTaxonomyOverview(tree);
-  const classNodes = flatten(tree).filter(
-    (node) => node.kind === 'taxon' && node.rank === 'class',
-  );
+  const speciesLeaves = flatten(tree).filter((node) => node.kind === 'species');
+  const projection = projectTaxonomyOverview(tree, new Set());
 
-  assert.equal(projection.expandedBranchKey, null);
+  assert.deepEqual([...projection.collapsedTaxonKeys], []);
+  assert.equal(projection.rows.length, speciesLeaves.length);
+  assert.ok(projection.rows.every((row) => row.kind === 'species'));
   assert.deepEqual(
-    projection.branches.map(({ key }) => key),
-    classNodes.map(({ key }) => key),
-    'class branches should keep taxonomy-tree order',
+    projection.rows.map(projectedRowNodeKey),
+    speciesLeaves.map(({ key }) => key),
+    'the fully expanded frontier should keep taxonomy-tree order',
   );
-  assert.equal(projection.rows.length, projection.branches.length);
+});
 
-  for (const [index, branch] of projection.branches.entries()) {
-    const row = projection.rows[index];
-    assert.equal(branch.key, branch.node.key);
-    assert.equal(branch.node.rank, 'class');
-    assert.equal(branch.species.length, branch.node.speciesCount);
-    assert.equal(row?.kind, 'summary');
-    assert.equal(row?.branchKey, branch.key);
+test('toggles one known taxon without mutating the requested collapse state', () => {
+  const tree = buildTaxonomyTree(species);
+  const taxonNodes = flatten(tree).filter((node) => node.kind === 'taxon');
+  const knownTaxonKeys = new Set(taxonNodes.map(({ key }) => key));
+  const mammalClass = findTaxon(tree, 'class', 'Mammalia');
+  assert.ok(mammalClass);
+  const initialKeys = new Set();
+
+  const collapsedKeys = toggleOverviewTaxon(
+    initialKeys,
+    mammalClass.key,
+    knownTaxonKeys,
+  );
+  assert.notEqual(collapsedKeys, initialKeys);
+  assert.deepEqual(initialKeys, new Set());
+  assert.deepEqual(collapsedKeys, new Set([mammalClass.key]));
+
+  const expandedKeys = toggleOverviewTaxon(
+    collapsedKeys,
+    mammalClass.key,
+    knownTaxonKeys,
+  );
+  assert.deepEqual(expandedKeys, new Set());
+  assert.deepEqual(collapsedKeys, new Set([mammalClass.key]));
+
+  const unchangedKeys = toggleOverviewTaxon(
+    expandedKeys,
+    'taxonomy:unknown-taxon',
+    knownTaxonKeys,
+  );
+  assert.equal(unchangedKeys, expandedKeys);
+});
+
+test('lets every taxon replace its descendants as one collapsed frontier row', () => {
+  const tree = buildTaxonomyTree(species);
+  const taxonNodes = flatten(tree).filter((node) => node.kind === 'taxon');
+
+  for (const taxon of taxonNodes) {
+    const collapsedTaxonKeys = new Set([taxon.key]);
+    const projection = projectTaxonomyOverview(tree, collapsedTaxonKeys);
+    const taxonRows = projection.rows.filter((row) => row.kind === 'taxon');
+    const descendantLeaves = flatten(taxon.children)
+      .filter((node) => node.kind === 'species');
+
+    assert.deepEqual(new Set(projection.collapsedTaxonKeys), collapsedTaxonKeys);
     assert.deepEqual(
-      row?.leafSlugs,
-      branch.species.map(({ species: profile }) => profile.slug),
+      projection.rows.map(projectedRowNodeKey),
+      visibleFrontierKeys(tree, collapsedTaxonKeys),
+      `${taxon.rank} ${taxon.taxon.scientificName} should own one stable frontier position`,
+    );
+    assert.equal(taxonRows.length, 1);
+    assert.equal(taxonRows[0]?.node.key, taxon.key);
+    assert.deepEqual(
+      taxonRows[0]?.leafSlugs,
+      descendantLeaves.map(({ species: profile }) => profile.slug),
     );
   }
 });
 
-test('adds species profile rows only below the requested class summary', () => {
+test('keeps parent, child, and sibling collapse state independent', () => {
   const tree = buildTaxonomyTree(species);
   const mammalClass = findTaxon(tree, 'class', 'Mammalia');
+  const carnivoreOrder = findTaxon(tree, 'order', 'Carnivora');
+  const primateOrder = findTaxon(tree, 'order', 'Primates');
   assert.ok(mammalClass);
+  assert.ok(carnivoreOrder);
+  assert.ok(primateOrder);
 
-  const projection = projectTaxonomyOverview(tree, mammalClass.key);
-  const mammalBranch = projection.branches.find(
-    ({ key }) => key === mammalClass.key,
-  );
-  assert.ok(mammalBranch);
-  assert.equal(projection.expandedBranchKey, mammalClass.key);
-  assert.equal(
-    projection.rows.length,
-    projection.branches.length + mammalBranch.species.length,
-  );
-
-  const mammalSummaryIndex = projection.rows.findIndex(
-    (row) => row.kind === 'summary' && row.branchKey === mammalClass.key,
-  );
-  const expandedRows = projection.rows.slice(
-    mammalSummaryIndex + 1,
-    mammalSummaryIndex + 1 + mammalBranch.species.length,
-  );
-  assert.deepEqual(
-    expandedRows.map((row) => row.kind),
-    mammalBranch.species.map(() => 'species'),
-  );
-  assert.deepEqual(
-    expandedRows.map((row) => row.kind === 'species' ? row.leaf.key : null),
-    mammalBranch.species.map(({ key }) => key),
-    'expanded species profiles should keep taxonomy-tree order',
-  );
+  const childOnly = projectTaxonomyOverview(tree, new Set([carnivoreOrder.key]));
   assert.ok(
-    projection.rows.every(
-      (row) => row.kind === 'summary' || row.branchKey === mammalClass.key,
+    childOnly.rows.some(
+      (row) => row.kind === 'taxon' && row.node.key === carnivoreOrder.key,
     ),
   );
+  assert.ok(
+    childOnly.rows.some(
+      (row) =>
+        row.kind === 'species' &&
+        getSpeciesTaxonomyPath(row.leaf.species).some(({ key }) => key === primateOrder.key),
+    ),
+    'collapsing Carnivora should leave its Primates sibling visible',
+  );
+
+  const parentAndChildKeys = new Set([mammalClass.key, carnivoreOrder.key]);
+  const parentAndChild = projectTaxonomyOverview(tree, parentAndChildKeys);
+  assert.deepEqual(new Set(parentAndChild.collapsedTaxonKeys), parentAndChildKeys);
+  assert.ok(
+    parentAndChild.rows.some(
+      (row) => row.kind === 'taxon' && row.node.key === mammalClass.key,
+    ),
+  );
+  assert.ok(
+    !parentAndChild.rows.some(
+      (row) => row.kind === 'taxon' && row.node.key === carnivoreOrder.key,
+    ),
+    'a collapsed parent should hide a collapsed child without discarding its state',
+  );
+
+  const parentExpanded = projectTaxonomyOverview(tree, new Set([carnivoreOrder.key]));
+  assert.ok(
+    parentExpanded.rows.some(
+      (row) => row.kind === 'taxon' && row.node.key === carnivoreOrder.key,
+    ),
+    'expanding the parent should reveal the child in its prior collapsed state',
+  );
+
+  const siblingsCollapsed = projectTaxonomyOverview(
+    tree,
+    new Set([carnivoreOrder.key, primateOrder.key]),
+  );
+  assert.deepEqual(
+    new Set(siblingsCollapsed.collapsedTaxonKeys),
+    new Set([carnivoreOrder.key, primateOrder.key]),
+  );
 });
 
-test('falls back to the collapsed projection for an unknown class key', () => {
-  const tree = buildTaxonomyTree(species);
-  const collapsed = projectTaxonomyOverview(tree, null);
-  const unknown = projectTaxonomyOverview(tree, 'taxonomy:unknown-class');
-
-  assert.equal(unknown.expandedBranchKey, null);
-  assert.deepEqual(unknown.rows, collapsed.rows);
-});
-
-test('projects class branches without modifying the taxonomy tree', () => {
+test('discards unknown and species keys without modifying the taxonomy tree or request set', () => {
   const tree = buildTaxonomyTree(species);
   const treeBeforeProjection = JSON.stringify(tree);
-  const birdClass = findTaxon(tree, 'class', 'Aves');
-  assert.ok(birdClass);
+  const mammalClass = findTaxon(tree, 'class', 'Mammalia');
+  const pandaLeaf = flatten(tree).find(
+    (node) => node.kind === 'species' && node.species.slug === 'giant-panda',
+  );
+  assert.ok(mammalClass);
+  assert.ok(pandaLeaf);
+  const requestedKeys = new Set([
+    'taxonomy:unknown-taxon',
+    pandaLeaf.key,
+    mammalClass.key,
+  ]);
+  const requestedKeysBeforeProjection = new Set(requestedKeys);
 
-  const projection = projectTaxonomyOverview(tree, birdClass.key);
+  const projection = projectTaxonomyOverview(tree, requestedKeys);
 
   assert.equal(JSON.stringify(tree), treeBeforeProjection);
-  assert.ok(projection.branches.every(({ node }) => node.rank === 'class'));
+  assert.deepEqual(requestedKeys, requestedKeysBeforeProjection);
+  assert.deepEqual(new Set(projection.collapsedTaxonKeys), new Set([mammalClass.key]));
   assert.equal(
     new Set(projection.rows.map(({ key }) => key)).size,
     projection.rows.length,
-    'summary and species profile row keys should stay unique',
+    'taxon and species frontier row keys should stay unique',
   );
 });
 

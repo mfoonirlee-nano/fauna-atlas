@@ -100,12 +100,11 @@
 }
 
 .taxonomy-explorer__legend .taxonomy-explorer__legend-fold i {
-  width: 18px;
-  height: 0;
-  border: 0;
-  border-top: 1px dashed var(--forest);
-  border-radius: 0;
-  background: transparent;
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--forest);
+  border-radius: 3px;
+  background: var(--moss-light);
 }
 
 .taxonomy-panel,
@@ -124,10 +123,8 @@
 
 .taxonomy-panel--overview {
   display: grid;
-  height: min(760px, calc(100vh - 24px));
-  height: min(760px, calc(100svh - 24px));
-  max-height: calc(100vh - 24px);
-  max-height: calc(100svh - 24px);
+  height: 100vh;
+  height: 100dvh;
   grid-template-rows: auto minmax(0, 1fr) auto;
   margin-top: 42px;
 }
@@ -229,7 +226,7 @@
 
   position: relative;
   width: 100%;
-  min-width: 1120px;
+  min-width: 1260px;
   color: var(--ink);
   isolation: isolate;
 }
@@ -239,7 +236,7 @@
 }
 
 .taxonomy-diagram--focus {
-  min-width: 1020px;
+  min-width: 1260px;
 }
 
 .taxonomy-diagram--mobile-path {
@@ -274,6 +271,15 @@
   pointer-events: none;
 }
 
+.taxonomy-diagram__node--taxon[aria-expanded] {
+  color: inherit;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
 .taxonomy-diagram__node--species {
   width: 225px;
   color: inherit;
@@ -281,16 +287,10 @@
   background: transparent;
 }
 
-.taxonomy-diagram__node--summary {
-  width: 215px;
-  color: inherit;
-  border-radius: 8px;
-  background: transparent;
-}
-
 .taxonomy-diagram__marker {
   position: absolute;
   z-index: 2;
+  pointer-events: none;
   top: 50%;
   left: -5px;
   width: 10px;
@@ -331,22 +331,22 @@
   background: var(--taxonomy-species-surface);
 }
 
-.taxonomy-diagram__node--summary .taxonomy-diagram__node-copy {
-  min-width: 168px;
-  padding: 7px 36px 8px 10px;
+.taxonomy-diagram__node--taxon[aria-expanded] .taxonomy-diagram__node-copy {
+  width: 118px;
+  padding-right: 32px;
   border-color: color-mix(in srgb, var(--forest) 26%, transparent);
   background: color-mix(in srgb, var(--taxonomy-canvas) 67%, var(--moss-light));
 }
 
-.taxonomy-diagram__node--summary .taxonomy-diagram__marker {
+.taxonomy-diagram__node--taxon[aria-expanded='false'] .taxonomy-diagram__marker {
   width: 11px;
   height: 11px;
   border-radius: 3px;
   background: var(--moss-light);
 }
 
-.taxonomy-diagram__node--summary .taxonomy-diagram__node-copy i {
-  display: none;
+.taxonomy-diagram__node--taxon[aria-expanded='false'] .taxonomy-diagram__node-copy {
+  border-style: dashed;
 }
 
 .taxonomy-diagram__disclosure {
@@ -431,18 +431,23 @@
 }
 
 .taxonomy-diagram__node--species:focus-visible,
-.taxonomy-diagram__node--summary:focus-visible {
+.taxonomy-diagram__node--taxon[aria-expanded]:focus-visible {
   outline: 0;
 }
 
 .taxonomy-diagram__node--species:focus-visible .taxonomy-diagram__node-copy,
-.taxonomy-diagram__node--summary:focus-visible .taxonomy-diagram__node-copy {
+.taxonomy-diagram__node--taxon[aria-expanded]:focus-visible .taxonomy-diagram__node-copy {
   outline: 2px solid var(--sun);
   outline-offset: 2px;
 }
 
-.taxonomy-diagram__node--summary:focus-visible .taxonomy-diagram__node-copy,
-.taxonomy-diagram__node--summary[aria-expanded='true'] .taxonomy-diagram__node-copy {
+.taxonomy-diagram__node--taxon[aria-expanded='true'] .taxonomy-diagram__node-copy {
+  color: var(--forest);
+  border-color: color-mix(in srgb, var(--forest) 32%, transparent);
+  background: color-mix(in srgb, var(--taxonomy-canvas) 52%, var(--moss-light));
+}
+
+.taxonomy-diagram__node--taxon[aria-expanded]:focus-visible .taxonomy-diagram__node-copy {
   color: var(--forest);
   border-color: color-mix(in srgb, var(--forest) 42%, transparent);
   background: color-mix(in srgb, var(--taxonomy-canvas) 52%, var(--moss-light));
@@ -450,25 +455,25 @@
   transform: translateX(3px);
 }
 
-.taxonomy-diagram__node--summary.is-on-path .taxonomy-diagram__node-copy {
+.taxonomy-diagram__node--taxon[aria-expanded].is-on-path .taxonomy-diagram__node-copy {
   border-color: color-mix(in srgb, var(--rust) 38%, transparent);
   box-shadow: inset 3px 0 0 var(--rust), var(--taxonomy-node-lift-shadow);
 }
 
-.taxonomy-diagram__node--summary:focus-visible .taxonomy-diagram__disclosure,
-.taxonomy-diagram__node--summary[aria-expanded='true'] .taxonomy-diagram__disclosure {
+.taxonomy-diagram__node--taxon[aria-expanded]:focus-visible .taxonomy-diagram__disclosure,
+.taxonomy-diagram__node--taxon[aria-expanded='true'] .taxonomy-diagram__disclosure {
   color: var(--paper-soft);
   background: var(--forest);
   transform: translateY(-50%) scale(1.08);
 }
 
 .taxonomy-diagram__node--species:active .taxonomy-diagram__node-copy,
-.taxonomy-diagram__node--summary:active .taxonomy-diagram__node-copy {
+.taxonomy-diagram__node--taxon[aria-expanded]:active .taxonomy-diagram__node-copy {
   transform: translateX(2px) scale(0.985);
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .taxonomy-diagram__node--summary:hover .taxonomy-diagram__node-copy {
+  .taxonomy-diagram__node--taxon[aria-expanded]:hover .taxonomy-diagram__node-copy {
     color: var(--forest);
     border-color: color-mix(in srgb, var(--forest) 42%, transparent);
     background: color-mix(in srgb, var(--taxonomy-canvas) 52%, var(--moss-light));
@@ -476,7 +481,7 @@
     transform: translateX(3px);
   }
 
-  .taxonomy-diagram__node--summary:hover .taxonomy-diagram__disclosure {
+  .taxonomy-diagram__node--taxon[aria-expanded]:hover .taxonomy-diagram__disclosure {
     color: var(--paper-soft);
     background: var(--forest);
     transform: translateY(-50%) scale(1.08);
@@ -1085,7 +1090,7 @@
   }
 
   .taxonomy-diagram {
-    min-width: 1040px;
+    min-width: 1260px;
   }
 
   .taxonomy-diagram--path {
@@ -1093,7 +1098,7 @@
   }
 
   .taxonomy-diagram--focus {
-    min-width: 960px;
+    min-width: 1260px;
   }
 
   .taxonomy-desktop-map {
@@ -1105,10 +1110,8 @@
 
     display: flex;
     overflow: hidden;
-    height: min(720px, calc(100vh - 16px));
-    height: min(720px, calc(100svh - 16px));
-    max-height: calc(100vh - 16px);
-    max-height: calc(100svh - 16px);
+    height: 100vh;
+    height: 100dvh;
     flex-direction: column;
     margin-top: 32px;
     border: 1px solid var(--line-strong);
@@ -1137,41 +1140,6 @@
     margin: 0;
     font-size: 0.55rem;
     letter-spacing: 0.1em;
-  }
-
-  .taxonomy-mobile-branch-select {
-    display: grid;
-    min-height: 54px;
-    align-items: center;
-    gap: 12px;
-    padding: 8px 12px 8px 16px;
-    border-bottom: 1px solid var(--line);
-    background: color-mix(in srgb, var(--taxonomy-canvas) 84%, var(--moss-light));
-    grid-template-columns: auto minmax(0, 1fr);
-  }
-
-  .taxonomy-mobile-branch-select > span {
-    color: var(--forest);
-    font-size: 0.56rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-  }
-
-  .taxonomy-mobile-branch-select select {
-    width: 100%;
-    min-height: 36px;
-    padding: 0 34px 0 12px;
-    color: var(--ink);
-    border: 1px solid color-mix(in srgb, var(--forest) 24%, transparent);
-    border-radius: 7px;
-    background: var(--taxonomy-node-surface);
-    font-family: var(--serif);
-    font-size: 0.75rem;
-  }
-
-  .taxonomy-mobile-branch-select select:focus-visible {
-    border-color: var(--forest);
-    box-shadow: 0 0 0 2px color-mix(in srgb, var(--sun) 72%, transparent);
   }
 
   .taxonomy-mobile-map__header p {
@@ -1428,7 +1396,7 @@
   }
 
   .taxonomy-diagram__node--species.is-selected .taxonomy-diagram__node-copy,
-  .taxonomy-diagram__node--summary[aria-expanded='true'] .taxonomy-diagram__node-copy {
+  .taxonomy-diagram__node--taxon[aria-expanded='true'] .taxonomy-diagram__node-copy {
     outline: 2px solid Highlight;
     outline-offset: 1px;
   }

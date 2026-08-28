@@ -5,7 +5,7 @@ export type TaxonomyDiagramLayout = 'overview' | 'path' | 'focus' | 'mobile-path
 
 export interface TaxonomyDiagramNode {
   readonly id: string;
-  readonly kind: 'taxon' | 'species' | 'summary';
+  readonly kind: 'taxon' | 'species';
   readonly rankLabel: string;
   readonly zhName: string;
   readonly scientificName: string;
@@ -14,9 +14,9 @@ export interface TaxonomyDiagramNode {
   readonly leafSlugs: readonly string[];
   readonly labelPosition?: 'above' | 'below';
   readonly species?: Species;
-  readonly summary?: {
-    readonly branchKey: string;
-    readonly branchName: string;
+  readonly disclosure?: {
+    readonly nodeKey: string;
+    readonly nodeName: string;
     readonly speciesCount: number;
     readonly expanded: boolean;
   };
@@ -27,8 +27,6 @@ export interface TaxonomyDiagramEdge {
   readonly from: string;
   readonly to: string;
   readonly leafSlugs: readonly string[];
-  /** Ranked taxon nodes intentionally compressed between the visible endpoints. */
-  readonly collapsedRanks?: readonly string[];
 }
 
 interface TaxonomyDiagramProps {
@@ -43,7 +41,7 @@ interface TaxonomyDiagramProps {
   readonly onActivateSpecies?: (item: Species) => void;
   readonly onDeactivateSpecies?: () => void;
   readonly onSelectSpecies?: (item: Species) => void;
-  readonly onToggleBranch?: (branchKey: string) => void;
+  readonly onToggleTaxon?: (nodeKey: string) => void;
   readonly onOpenSpecies: (item: Species) => void;
 }
 
@@ -66,7 +64,7 @@ export function TaxonomyDiagram({
   onActivateSpecies,
   onDeactivateSpecies,
   onSelectSpecies,
-  onToggleBranch,
+  onToggleTaxon,
   onOpenSpecies,
 }: TaxonomyDiagramProps) {
   const hostRef = useRef<HTMLDivElement>(null);
@@ -146,23 +144,17 @@ export function TaxonomyDiagram({
         context.stroke();
       };
 
-      const strokeEdge = (edge: TaxonomyDiagramEdge) => {
-        context.setLineDash(edge.collapsedRanks?.length ? [4, 6] : []);
-        traceEdge(edge);
-      };
-
       context.strokeStyle = quietLine;
       context.lineWidth = 1;
-      for (const edge of edges) strokeEdge(edge);
+      for (const edge of edges) traceEdge(edge);
 
       if (activeSlug) {
         context.strokeStyle = activeLine;
         context.lineWidth = 2.25;
         for (const edge of edges) {
-          if (edge.leafSlugs.includes(activeSlug)) strokeEdge(edge);
+          if (edge.leafSlugs.includes(activeSlug)) traceEdge(edge);
         }
       }
-      context.setLineDash([]);
     };
 
     const scheduleDraw = () => {
@@ -206,6 +198,7 @@ export function TaxonomyDiagram({
         const isSelected = Boolean(
           selectedSlug && node.kind === 'species' && node.species?.slug === selectedSlug,
         );
+        const disclosure = node.disclosure;
 
         return node.kind === 'species' && node.species ? (
           <button
@@ -244,18 +237,18 @@ export function TaxonomyDiagram({
               <i lang="la">{node.scientificName}</i>
             </span>
           </button>
-        ) : node.kind === 'summary' && node.summary ? (
+        ) : disclosure ? (
           <button
             key={node.id}
             type="button"
-            className={`taxonomy-diagram__node taxonomy-diagram__node--summary${
+            className={`taxonomy-diagram__node taxonomy-diagram__node--taxon${
               isOnActivePath ? ' is-on-path' : ''
             }`}
             style={nodePositionStyle(node)}
-            data-taxonomy-branch={node.summary.branchKey}
-            onClick={() => onToggleBranch?.(node.summary!.branchKey)}
-            aria-expanded={node.summary.expanded}
-            aria-label={`${node.summary.expanded ? '收起' : '展开'}${node.summary.branchName}下的${node.summary.speciesCount}份物种档案`}
+            data-taxonomy-node={disclosure.nodeKey}
+            onClick={() => onToggleTaxon?.(disclosure.nodeKey)}
+            aria-expanded={disclosure.expanded}
+            aria-label={`${disclosure.expanded ? '收起' : '展开'}${disclosure.nodeName}分类单元，其下${disclosure.speciesCount}份物种档案`}
           >
             <span className="taxonomy-diagram__marker" aria-hidden="true" />
             <span className="taxonomy-diagram__node-copy">
@@ -263,7 +256,7 @@ export function TaxonomyDiagram({
               <strong>{node.zhName}</strong>
               <i lang="la">{node.scientificName}</i>
               <span className="taxonomy-diagram__disclosure" aria-hidden="true">
-                {node.summary.expanded ? '−' : '+'}
+                {disclosure.expanded ? '−' : '+'}
               </span>
             </span>
           </button>
