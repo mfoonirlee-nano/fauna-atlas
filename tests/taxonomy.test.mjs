@@ -9387,10 +9387,449 @@ test('registers the Chinese Mantis as a complete Tenodera sinensis profile', asy
   assert.equal(chineseMantis.updatedAt, '2026-08-28');
 });
 
+test('registers the Seven-spotted Ladybird as a complete Coccinella septempunctata profile', async () => {
+  const sevenSpottedLadybird = findSpecies('seven-spotted-ladybird');
+
+  assert.equal(
+    sevenSpottedLadybird.id,
+    'species-coccinella-septempunctata',
+  );
+  assert.equal(sevenSpottedLadybird.names.zh, '七星瓢虫');
+  assert.equal(
+    sevenSpottedLadybird.names.en,
+    'Seven-spotted Ladybird',
+  );
+  assert.ok(
+    sevenSpottedLadybird.names.aliases.includes('Seven-spot Ladybird'),
+  );
+  assert.ok(
+    sevenSpottedLadybird.names.aliases.includes(
+      'Seven-spotted Lady Beetle',
+    ),
+  );
+  assert.ok(sevenSpottedLadybird.names.aliases.includes('C-7'));
+  assert.ok(
+    sevenSpottedLadybird.names.aliases.includes(
+      'Coccinella 7-punctata',
+    ),
+  );
+  assert.equal(
+    sevenSpottedLadybird.scientificName,
+    'Coccinella septempunctata',
+  );
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(sevenSpottedLadybird).map(
+      ({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ],
+    ),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Insecta', '昆虫纲'],
+      ['order', 'Coleoptera', '鞘翅目'],
+      ['family', 'Coccinellidae', '瓢虫科'],
+      ['genus', 'Coccinella', '瓢虫属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: sevenSpottedLadybird.conservation.code,
+      trend: sevenSpottedLadybird.conservation.trend,
+      assessedYear: sevenSpottedLadybird.conservation.assessedYear,
+      criteria: sevenSpottedLadybird.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('assessedYear' in sevenSpottedLadybird.conservation));
+  assert.ok(!('criteria' in sevenSpottedLadybird.conservation));
+
+  assert.deepEqual(sevenSpottedLadybird.distribution.realms, [
+    'terrestrial',
+  ]);
+  assert.deepEqual(sevenSpottedLadybird.distribution.continents, [
+    '亚洲',
+    '欧洲',
+    '非洲',
+    '北美洲',
+  ]);
+  assert.match(
+    sevenSpottedLadybird.distribution.range,
+    /古北界|欧亚|欧洲.*亚洲/,
+  );
+  assert.match(
+    sevenSpottedLadybird.distribution.range,
+    /北非.*北美.*(?:引入|外来)/,
+  );
+  assert.match(
+    sevenSpottedLadybird.distribution.range,
+    /(?:不穷尽|不代表|不是).*完整.*分布/,
+  );
+  assert.ok(sevenSpottedLadybird.distribution.center);
+
+  assert.equal(sevenSpottedLadybird.habitats.length, 4);
+  assert.equal(
+    sevenSpottedLadybird.habitats.filter(({ isPrimary }) => isPrimary)
+      .length,
+    1,
+  );
+  assert.ok(
+    sevenSpottedLadybird.habitats.every(
+      ({ realm }) => realm === 'terrestrial',
+    ),
+  );
+  const habitatText = sevenSpottedLadybird.habitats
+    .flatMap(({ name, description }) => [name, description])
+    .join(' ');
+  assert.match(
+    habitatText,
+    /农田|作物.*草地|草本.*田边|林缘.*枯叶|落叶.*越冬/,
+  );
+  assert.match(habitatText, /蚜虫|猎物.*季节|扰动/);
+
+  assert.deepEqual(sevenSpottedLadybird.measurements.length, {
+    min: 0.52,
+    max: 0.86,
+    unit: 'cm',
+    note: sevenSpottedLadybird.measurements.length?.note,
+  });
+  assert.match(
+    sevenSpottedLadybird.measurements.length?.note ?? '',
+    /NBAIR|印度.*5\.2.*8\.6.*英国.*6.*8.*巴基斯坦.*6\.63.*7\.20.*(?:不是|不等于).*全球极值/,
+  );
+  assert.equal(sevenSpottedLadybird.measurements.weight, undefined);
+  assert.equal(sevenSpottedLadybird.measurements.wingspan, undefined);
+  assert.deepEqual(sevenSpottedLadybird.metrics, {});
+
+  assert.deepEqual(sevenSpottedLadybird.diet.types, [
+    'carnivore',
+    'insectivore',
+  ]);
+  assert.ok(sevenSpottedLadybird.diet.foods.length >= 4);
+  assert.match(
+    sevenSpottedLadybird.diet.foods.join(' '),
+    /蚜虫.*粉虱|木虱|介壳虫.*瓢虫.*卵|幼虫.*花粉|花蜜/,
+  );
+  assert.match(
+    sevenSpottedLadybird.diet.description,
+    /成虫.*幼虫.*蚜虫.*(?:田间|粪便|肠道).*多类.*猎物.*(?:不能|不等于).*只吃害虫/,
+  );
+
+  assert.equal(sevenSpottedLadybird.storySections?.length, 6);
+  assert.deepEqual(
+    sevenSpottedLadybird.storySections.map(({ key }) => key),
+    [
+      'seven-spots-not-seven-certainties',
+      'elytra-and-flight',
+      'aphid-predator-not-pest-specialist',
+      'coccinelline-warning',
+      'four-stages-and-winter',
+      'beneficial-here-nonnative-there',
+    ],
+  );
+  assert.equal(
+    new Set(
+      sevenSpottedLadybird.storySections.map(({ key }) => key),
+    ).size,
+    6,
+  );
+  assert.ok(
+    sevenSpottedLadybird.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+
+  assert.equal(sevenSpottedLadybird.featuredStats.length, 4);
+  assert.deepEqual(
+    sevenSpottedLadybird.featuredStats.map(
+      ({ key, value, unit }) => ({ key, value, unit }),
+    ),
+    [
+      { key: 'adult-length', value: '5.2–8.6', unit: 'mm' },
+      { key: 'elytral-spots', value: '7', unit: '个' },
+      { key: 'larval-instars', value: '4', unit: '龄' },
+      {
+        key: 'north-american-establishment',
+        value: '1973',
+        unit: '年',
+      },
+    ],
+  );
+  assert.ok(
+    sevenSpottedLadybird.featuredStats.every(
+      ({ label, note }) =>
+        label.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    sevenSpottedLadybird.featuredStats.find(
+      ({ key }) => key === 'elytral-spots',
+    )?.note ?? '',
+    /鞘翅.*3.*3.*(?:跨|共享).*1.*(?:不是|不代表).*年龄/,
+  );
+  assert.match(
+    sevenSpottedLadybird.featuredStats.find(
+      ({ key }) => key === 'north-american-establishment',
+    )?.note ?? '',
+    /新泽西.*(?:定殖|繁殖种群|建立种群).*(?:不是|不等于).*首次释放/,
+  );
+
+  assert.equal(sevenSpottedLadybird.media.gallery?.length, 5);
+  const mediaPaths = [
+    sevenSpottedLadybird.media.image,
+    ...sevenSpottedLadybird.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/seven-spotted-ladybird/01-adult-aphid-colony-portrait.webp',
+    './images/species/seven-spotted-ladybird/02-standard-seven-spot-dorsal.webp',
+    './images/species/seven-spotted-ladybird/03-larva-aphid-hunt.webp',
+    './images/species/seven-spotted-ladybird/04-pupa-on-leaf.webp',
+    './images/species/seven-spotted-ladybird/05-reflex-bleeding-defense.webp',
+    './images/species/seven-spotted-ladybird/06-leaf-litter-overwintering.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !sevenSpottedLadybird.media.gallery.some(
+      ({ image }) => image === sevenSpottedLadybird.media.image,
+    ),
+  );
+  const mediaRecords = [
+    sevenSpottedLadybird.media,
+    ...sevenSpottedLadybird.media.gallery,
+  ];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    sevenSpottedLadybird.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-adult-aphid-colony-portrait-source.png',
+    '02-standard-seven-spot-dorsal-source.png',
+    '03-larva-aphid-hunt-source.png',
+    '04-pupa-on-leaf-source.png',
+    '05-reflex-bleeding-defense-source.png',
+    '06-leaf-litter-overwintering-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(
+        '../public/' + path.replace(/^\.\//, ''),
+        import.meta.url,
+      ),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(
+        '../src/assets/source/species/seven-spotted-ladybird/' +
+          filename,
+        import.meta.url,
+      ),
+    })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  assert.ok(sevenSpottedLadybird.sources.length >= 20);
+  assert.equal(
+    new Set(sevenSpottedLadybird.sources.map(({ url }) => url)).size,
+    sevenSpottedLadybird.sources.length,
+  );
+  assert.ok(
+    sevenSpottedLadybird.sources.every(
+      ({ title }) => title.length > 0,
+    ),
+  );
+  assert.ok(
+    sevenSpottedLadybird.sources.every(({ url }) => URL.canParse(url)),
+  );
+  assert.ok(
+    sevenSpottedLadybird.sources.every(({ url }) =>
+      url.startsWith('https://'),
+    ),
+  );
+  assert.ok(
+    sevenSpottedLadybird.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(sevenSpottedLadybird.sources.map(({ kind }) => kind)),
+    new Set([
+      'taxonomy',
+      'distribution',
+      'general',
+      'conservation',
+      'ecology',
+    ]),
+  );
+  assert.ok(
+    [
+      'https://www.gbif.org/species/4990191',
+      'https://gd.eppo.int/taxon/COCISE',
+      'https://databases.nbair.res.in/Featured_insects/Coccinella-septempunctata.php',
+      'https://doi.org/10.1093/ee/16.2.368',
+      'https://doi.org/10.1007/BF01240660',
+      'https://doi.org/10.1111/j.1365-2435.2012.01961.x',
+      'https://doi.org/10.1155/2012/249081',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    ].every((url) =>
+      sevenSpottedLadybird.sources.some(
+        (source) => source.url === url,
+      ),
+    ),
+  );
+
+  const editorialText = [
+    sevenSpottedLadybird.summary,
+    sevenSpottedLadybird.description,
+    sevenSpottedLadybird.distribution.range,
+    ...sevenSpottedLadybird.habitats.flatMap(
+      ({ name, description }) => [name, description],
+    ),
+    sevenSpottedLadybird.measurements.length?.note ?? '',
+    sevenSpottedLadybird.diet.description,
+    ...sevenSpottedLadybird.diet.foods,
+    ...(sevenSpottedLadybird.activity ?? []),
+    ...sevenSpottedLadybird.tags,
+    ...(sevenSpottedLadybird.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...sevenSpottedLadybird.keyFacts,
+    ...sevenSpottedLadybird.threats,
+    ...sevenSpottedLadybird.conservationActions,
+    ...sevenSpottedLadybird.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /三枚.*左.*三枚.*右.*(?:跨越|横跨|共享).*一枚.*七.*(?:不代表|不能).*年龄/,
+  );
+  assert.match(
+    editorialText,
+    /鞘翅.*硬化.*前翅.*膜质.*后翅.*飞行/,
+  );
+  assert.match(
+    editorialText,
+    /成虫.*幼虫.*蚜虫.*替代猎物.*(?:不等于|不能).*只吃害虫/,
+  );
+  assert.match(
+    editorialText,
+    /卵.*四龄幼虫.*蛹.*成虫.*完全变态.*温度.*食物.*(?:改变|影响)/,
+  );
+  assert.match(
+    editorialText,
+    /黄色.*血淋巴.*腿.*关节.*反射出血.*(?:coccinelline|瓢虫素)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:不是|不等于).*尿液.*(?:不是|不等于).*毒液/,
+  );
+  assert.match(editorialText, /古北界.*原生.*北美.*引入/);
+  assert.match(
+    editorialText,
+    /北美.*本地瓢虫.*(?:相关|伴随).*(?:不能|不足以).*单一因果/,
+  );
+  assert.match(
+    editorialText,
+    /IUCN.*(?:尚未评估|没有物种级评估).*CITES.*(?:未列入|未收录)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /斑点(?:数量|数目)(?:代表|显示|等于|对应)(?:年龄|岁数)|每(?:长|活)一岁.{0,8}(?:多|增加)一/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /七星瓢虫(?:只|仅|专门)吃害虫|它(?:只|仅|专门)吃害虫/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /黄色液体(?:是|就是|属于)(?:尿|尿液)|(?:尿|尿液)(?:就是|构成)黄色液体/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:用|把)(?:毒液|毒汁).{0,6}(?:注入|咬人)|有毒的咬伤/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /七星瓢虫导致.*(?:本地|原生).*瓢虫.*(?:灭绝|下降)|本地瓢虫.*下降.*完全由七星瓢虫/,
+  );
+  assert.doesNotMatch(editorialText, /IUCN.*(?:LC|无危)/);
+
+  assert.equal(sevenSpottedLadybird.featured, true);
+  assert.equal(sevenSpottedLadybird.publishedAt, '2026-08-28');
+  assert.equal(sevenSpottedLadybird.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 65);
+  assert.equal(species.length, 66);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -9401,11 +9840,14 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 6);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Mantidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tenodera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Coleoptera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Coccinellidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Coccinella')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Theraphosidae')?.speciesCount, 1);
