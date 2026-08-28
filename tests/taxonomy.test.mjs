@@ -10335,10 +10335,396 @@ test('registers the Emperor Dragonfly as a complete Anax imperator profile', asy
   assert.equal(emperorDragonfly.updatedAt, '2026-08-28');
 });
 
+test('registers the Domestic Silkworm as a complete Bombyx mori profile', async () => {
+  const domesticSilkworm = findSpecies('domestic-silkworm');
+
+  assert.equal(domesticSilkworm.id, 'species-bombyx-mori');
+  assert.equal(domesticSilkworm.slug, 'domestic-silkworm');
+  assert.equal(domesticSilkworm.names.zh, '家蚕');
+  assert.equal(domesticSilkworm.names.en, 'Domestic Silkworm');
+  assert.ok(
+    ['蚕', '桑蚕', 'Silkworm', 'Silk Moth', 'Mulberry Silkworm', 'Phalaena mori'].every(
+      (alias) => domesticSilkworm.names.aliases.includes(alias),
+    ),
+  );
+  assert.equal(domesticSilkworm.scientificName, 'Bombyx mori');
+  assert.doesNotMatch(domesticSilkworm.scientificName, /Linnaeus|1758/);
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(domesticSilkworm).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Insecta', '昆虫纲'],
+      ['order', 'Lepidoptera', '鳞翅目'],
+      ['family', 'Bombycidae', '蚕蛾科'],
+      ['genus', 'Bombyx', '家蚕蛾属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: domesticSilkworm.conservation.code,
+      trend: domesticSilkworm.conservation.trend,
+      assessedYear: domesticSilkworm.conservation.assessedYear,
+      criteria: domesticSilkworm.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('assessedYear' in domesticSilkworm.conservation));
+  assert.ok(!('criteria' in domesticSilkworm.conservation));
+
+  assert.deepEqual(domesticSilkworm.distribution.realms, ['terrestrial']);
+  assert.ok(domesticSilkworm.distribution.continents.includes('亚洲'));
+  assert.ok(domesticSilkworm.distribution.countries.includes('中国'));
+  assert.ok(domesticSilkworm.distribution.regions.length >= 2);
+  assert.match(
+    domesticSilkworm.distribution.range,
+    /(?:中国.{0,20}(?:驯化|起源)|(?:驯化|起源).{0,20}中国)/,
+  );
+  assert.match(
+    domesticSilkworm.distribution.range,
+    /(?:全球.{0,20}(?:人工饲养|养殖|蚕业)|(?:人工饲养|养殖|蚕业).{0,20}全球)/,
+  );
+  assert.match(
+    domesticSilkworm.distribution.range,
+    /(?:没有|不存在|缺乏|不具备).{0,30}(?:自我维持|可持续).{0,20}(?:野生|野外).{0,8}种群|(?:野生|野外).{0,20}种群.{0,30}(?:没有|不存在|缺乏|不具备).{0,20}(?:自我维持|可持续)/,
+  );
+  assert.ok(domesticSilkworm.distribution.center);
+  assert.ok(domesticSilkworm.distribution.center.lat >= 18);
+  assert.ok(domesticSilkworm.distribution.center.lat <= 54);
+  assert.ok(domesticSilkworm.distribution.center.lng >= 73);
+  assert.ok(domesticSilkworm.distribution.center.lng <= 135);
+
+  assert.ok(domesticSilkworm.habitats.length >= 3);
+  assert.equal(
+    domesticSilkworm.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(
+    domesticSilkworm.habitats.every(({ realm }) => realm === 'terrestrial'),
+  );
+  const habitatText = domesticSilkworm.habitats
+    .flatMap(({ name, description }) => [name, description])
+    .join(' ');
+  assert.match(habitatText, /(?:蚕室|饲养室|人工饲养|种质资源)/);
+  assert.match(habitatText, /(?:桑园|桑叶|桑树)/);
+  assert.match(
+    habitatText,
+    /(?:不是|不代表|不等于).{0,16}(?:野生|野外).{0,8}(?:生境|分布|种群)/,
+  );
+
+  const measurementRecords = Object.values(domesticSilkworm.measurements).filter(
+    Boolean,
+  );
+  assert.equal(measurementRecords.length, 0);
+  assert.deepEqual(domesticSilkworm.metrics, {});
+
+  assert.ok(domesticSilkworm.diet.types.includes('herbivore'));
+  assert.match(domesticSilkworm.diet.foods.join(' '), /(?:桑叶|桑树叶片)/);
+  assert.match(
+    domesticSilkworm.diet.description,
+    /幼虫.{0,24}(?:桑叶|桑树叶片).{0,60}成虫.{0,24}(?:不取食|不再取食|口器退化)/,
+  );
+
+  assert.equal(domesticSilkworm.storySections?.length, 6);
+  assert.equal(
+    new Set(domesticSilkworm.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    domesticSilkworm.storySections.every(
+      ({ key, label, title, body }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        title.length > 0 &&
+        body.length > 0,
+    ),
+  );
+
+  assert.equal(domesticSilkworm.featuredStats.length, 4);
+  assert.equal(
+    new Set(domesticSilkworm.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    domesticSilkworm.featuredStats.every(
+      ({ key, label, value, note }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        value.length > 0 &&
+        (note?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(domesticSilkworm.media.gallery?.length, 5);
+  const mediaPaths = [
+    domesticSilkworm.media.image,
+    ...domesticSilkworm.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/domestic-silkworm/01-adult-domestic-silkworm-portrait.webp',
+    './images/species/domestic-silkworm/02-mature-larva-mulberry-feeding.webp',
+    './images/species/domestic-silkworm/03-first-instar-hatching-from-eggs.webp',
+    './images/species/domestic-silkworm/04-larva-spinning-silk-scaffold.webp',
+    './images/species/domestic-silkworm/05-pupa-inside-opened-cocoon.webp',
+    './images/species/domestic-silkworm/06-germplasm-line-rearing.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path?.endsWith('.webp')));
+  assert.ok(
+    !domesticSilkworm.media.gallery.some(
+      ({ image }) => image === domesticSilkworm.media.image,
+    ),
+  );
+  const mediaRecords = [
+    domesticSilkworm.media,
+    ...domesticSilkworm.media.gallery,
+  ];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    domesticSilkworm.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok((domesticSilkworm.media.focalPoint?.x ?? 0) >= 0.65);
+  assert.ok((domesticSilkworm.media.focalPoint?.x ?? 1) <= 0.75);
+
+  const hatchingMedia = domesticSilkworm.media.gallery.find(({ image }) =>
+    image.endsWith('/03-first-instar-hatching-from-eggs.webp'),
+  );
+  assert.ok(hatchingMedia);
+  assert.match(
+    `${hatchingMedia.alt} ${hatchingMedia.caption ?? ''}`,
+    /(?:初孵|一龄).{0,30}卵|卵.{0,30}(?:初孵|一龄)/,
+  );
+  const spinningMedia = domesticSilkworm.media.gallery.find(({ image }) =>
+    image.endsWith('/04-larva-spinning-silk-scaffold.webp'),
+  );
+  assert.ok(spinningMedia);
+  assert.match(
+    `${spinningMedia.alt} ${spinningMedia.caption ?? ''}`,
+    /(?:疏松|开放|支架|早期).{0,30}(?:丝|结茧|蚕茧)/,
+  );
+  const pupaMedia = domesticSilkworm.media.gallery.find(({ image }) =>
+    image.endsWith('/05-pupa-inside-opened-cocoon.webp'),
+  );
+  assert.ok(pupaMedia);
+  assert.match(
+    `${pupaMedia.alt} ${pupaMedia.caption ?? ''}`,
+    /(?:人为|人工|观察窗|打开|剖开).{0,30}(?:茧|蚕茧)/,
+  );
+  assert.match(`${pupaMedia.alt} ${pupaMedia.caption ?? ''}`, /完整.{0,12}蛹/);
+  const germplasmMedia = domesticSilkworm.media.gallery.find(({ image }) =>
+    image.endsWith('/06-germplasm-line-rearing.webp'),
+  );
+  assert.ok(germplasmMedia);
+  assert.match(
+    `${germplasmMedia.alt} ${germplasmMedia.caption ?? ''}`,
+    /(?:种质|品系).{0,24}(?:分开|分隔|独立).{0,12}饲养|(?:分开|分隔|独立).{0,12}饲养.{0,24}(?:种质|品系)/,
+  );
+
+  const sourcePaths = [
+    '01-adult-domestic-silkworm-portrait-source.png',
+    '02-mature-larva-mulberry-feeding-source.png',
+    '03-first-instar-hatching-from-eggs-source.png',
+    '04-larva-spinning-silk-scaffold-source.png',
+    '05-pupa-inside-opened-cocoon-source.png',
+    '06-germplasm-line-rearing-source.png',
+  ];
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/domestic-silkworm/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const [runtimeHashes, sourceHashes] = await Promise.all(
+    [runtimeUrls, sourceUrls].map((urls) =>
+      Promise.all(
+        urls.map(async (url) =>
+          createHash('sha256').update(await readFile(url)).digest('hex'),
+        ),
+      ),
+    ),
+  );
+  assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
+  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
+
+  assert.ok(domesticSilkworm.sources.length >= 20);
+  assert.equal(
+    new Set(domesticSilkworm.sources.map(({ url }) => url)).size,
+    domesticSilkworm.sources.length,
+  );
+  assert.ok(domesticSilkworm.sources.every(({ title }) => title.length > 0));
+  assert.ok(domesticSilkworm.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    domesticSilkworm.sources.every(({ url }) => url.startsWith('https://')),
+  );
+  assert.ok(
+    domesticSilkworm.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(domesticSilkworm.sources.map(({ kind }) => kind)),
+    new Set([
+      'taxonomy',
+      'distribution',
+      'ecology',
+      'conservation',
+      'general',
+    ]),
+  );
+
+  const editorialText = [
+    domesticSilkworm.summary,
+    domesticSilkworm.description,
+    domesticSilkworm.distribution.range,
+    ...domesticSilkworm.distribution.regions,
+    ...domesticSilkworm.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    ...measurementRecords.map(({ note }) => note ?? ''),
+    domesticSilkworm.diet.description,
+    ...domesticSilkworm.diet.foods,
+    ...(domesticSilkworm.activity ?? []),
+    ...domesticSilkworm.tags,
+    ...(domesticSilkworm.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...domesticSilkworm.keyFacts,
+    ...domesticSilkworm.threats,
+    ...domesticSilkworm.conservationActions,
+    ...domesticSilkworm.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(editorialText, /完全变态/);
+  assert.match(editorialText, /卵.{0,40}幼虫.{0,40}蛹.{0,40}成虫/);
+  assert.match(
+    editorialText,
+    /幼虫.{0,40}(?:桑叶|桑树叶片).{0,80}成虫.{0,40}(?:不取食|不再取食|口器退化)/,
+  );
+  assert.match(
+    editorialText,
+    /成虫.{0,40}(?:有翅|四片.{0,8}翅|保留.{0,8}翅).{0,80}(?:不能.{0,8}飞|失去.{0,8}飞行能力|飞行能力.{0,20}(?:削弱|降低|退化))/,
+  );
+  assert.match(editorialText, /幼虫.{0,50}(?:丝腺|唇腺).{0,40}(?:蚕丝|丝)/);
+  assert.match(editorialText, /(?:吐丝器|下唇).{0,40}(?:蚕丝|丝)/);
+  assert.match(
+    editorialText,
+    /(?:Bombyx|B\.) mandarina.{0,50}(?:野生祖先|野桑蚕|独立|分开)|(?:野生祖先|野桑蚕|独立|分开).{0,50}(?:Bombyx|B\.) mandarina/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*品系)(?=[\s\S]*温度)(?=[\s\S]*饲养条件)(?=[\s\S]*(?:变化|差异|取决|不能.{0,12}固定))/,
+  );
+  assert.match(
+    editorialText,
+    /IUCN.{0,80}(?:驯化|家养).{0,80}(?:不纳入|不评估|排除|不适用)/,
+  );
+  assert.match(
+    editorialText,
+    /CITES.{0,50}(?:未列入|未收录).{0,80}(?:不能|不等于|不代表).{0,40}(?:风险|保护|国内|地方)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:全球(?:自然|野生)分布|(?:自然|野生)分布(?:覆盖|遍及|横跨)全球)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /成虫(?:会|能够|负责|通过).{0,12}(?:吐丝|产丝|结茧)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /成虫(?:没有|无).{0,6}(?:翅|翅膀)|(?:翅|翅膀)(?:完全)?消失/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:Bombyx mori|家蚕)(?:就是|等同于|与).{0,20}(?:Bombyx mandarina|野桑蚕).{0,12}(?:同一种|没有区别)/,
+  );
+
+  assert.equal(domesticSilkworm.featured, true);
+  assert.equal(domesticSilkworm.publishedAt, '2026-08-28');
+  assert.equal(domesticSilkworm.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 67);
+  assert.equal(species.length, 68);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -10349,8 +10735,11 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 8);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Bombyx')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Mantidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tenodera')?.speciesCount, 1);
