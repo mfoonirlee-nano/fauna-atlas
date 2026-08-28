@@ -129,7 +129,7 @@ function getInitialPageVisibility() {
 function classIcon(className: string): ComponentType<{ size?: number; strokeWidth?: number }> {
   if (className.includes('鸟')) return Bird;
   if (className.includes('鱼')) return Fish;
-  if (className.includes('昆虫')) return Bug;
+  if (className.includes('昆虫') || className.includes('蛛形')) return Bug;
   if (className.includes('头足') || className.includes('腹足') || className.includes('软甲')) return Shell;
   if (className.includes('珊瑚') || className.includes('水螅') || className.includes('水母')) return Waves;
   if (className.includes('哺乳')) return PawPrint;

@@ -56,6 +56,10 @@ test('malacostracan artwork uses the shell icon instead of the fallback leaf', (
   assert.match(classIconSource, /className\.includes\('软甲'\)[^;\n]*return Shell;/);
 });
 
+test('arachnid artwork uses the bug icon instead of the fallback leaf', () => {
+  assert.match(classIconSource, /className\.includes\('蛛形'\)[^;\n]*return Bug;/);
+});
+
 test('standard desktop species list presents two large cards per row', () => {
   assert.match(
     layoutSource,

@@ -8654,10 +8654,333 @@ test('registers the Chinese Horseshoe Crab as a complete Tachypleus tridentatus 
   assert.equal(horseshoeCrab.updatedAt, '2026-08-27');
 });
 
+test('registers the Goliath Birdeater as a complete Theraphosa blondi profile', async () => {
+  const goliathBirdeater = findSpecies('goliath-birdeater');
+
+  assert.equal(goliathBirdeater.id, 'species-theraphosa-blondi');
+  assert.equal(goliathBirdeater.slug, 'goliath-birdeater');
+  assert.equal(goliathBirdeater.names.zh, '巨人捕鸟蛛');
+  assert.equal(goliathBirdeater.names.en, 'Goliath Birdeater');
+  assert.equal(goliathBirdeater.scientificName, 'Theraphosa blondi');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(goliathBirdeater).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Arachnida', '蛛形纲'],
+      ['order', 'Araneae', '蜘蛛目'],
+      ['family', 'Theraphosidae', '捕鸟蛛科'],
+      ['genus', 'Theraphosa', '巨人捕鸟蛛属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: goliathBirdeater.conservation.code,
+      trend: goliathBirdeater.conservation.trend,
+      assessedYear: goliathBirdeater.conservation.assessedYear,
+      criteria: goliathBirdeater.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('assessedYear' in goliathBirdeater.conservation));
+  assert.ok(!('criteria' in goliathBirdeater.conservation));
+
+  assert.deepEqual(goliathBirdeater.distribution.realms, ['terrestrial']);
+  assert.deepEqual(goliathBirdeater.distribution.continents, ['南美洲']);
+  assert.deepEqual(goliathBirdeater.distribution.countries, [
+    '委内瑞拉',
+    '巴西',
+    '圭亚那',
+    '法国',
+  ]);
+  assert.deepEqual(goliathBirdeater.distribution.regions, [
+    '委内瑞拉南部',
+    '巴西北部',
+    '圭亚那',
+    '法属圭亚那',
+  ]);
+  assert.deepEqual(goliathBirdeater.distribution.center, {
+    lat: 4.5,
+    lng: -59,
+  });
+  assert.match(
+    goliathBirdeater.distribution.range,
+    /(?:WSC|World Spider Catalog).*委内瑞拉.*巴西.*圭亚那.*法属圭亚那.*物种级野外研究.*苏里南.*史密森尼.*同属种误鉴.*地图中心.*不代表采集点/,
+  );
+  assert.equal(goliathBirdeater.habitats.length, 4);
+  assert.equal(
+    goliathBirdeater.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(
+    goliathBirdeater.habitats.every(({ realm }) => realm === 'terrestrial'),
+  );
+
+  assert.deepEqual(
+    {
+      max: goliathBirdeater.measurements.length?.max,
+      unit: goliathBirdeater.measurements.length?.unit,
+    },
+    { max: 12, unit: 'cm' },
+  );
+  assert.match(
+    goliathBirdeater.measurements.length?.note ?? '',
+    /身体长度上限.*不含步足.*不是腿展.*普通成体均值/,
+  );
+  assert.deepEqual(
+    {
+      max: goliathBirdeater.measurements.weight?.max,
+      unit: goliathBirdeater.measurements.weight?.unit,
+    },
+    { max: 170, unit: 'g' },
+  );
+  assert.match(
+    goliathBirdeater.measurements.weight?.note ?? '',
+    /一只两岁圈养个体.*1998 年 2 月.*未公开原始称量报告.*不代表野外或典型/,
+  );
+  assert.equal(goliathBirdeater.measurements.wingspan, undefined);
+  assert.deepEqual(goliathBirdeater.metrics, {});
+  assert.ok(!('adultLengthCm' in goliathBirdeater.metrics));
+  assert.ok(!('adultMassKg' in goliathBirdeater.metrics));
+  assert.ok(!('lifespanYears' in goliathBirdeater.metrics));
+  assert.ok(!('wingspanCm' in goliathBirdeater.metrics));
+
+  assert.deepEqual(goliathBirdeater.diet.types, [
+    'carnivore',
+    'insectivore',
+  ]);
+  assert.ok(!goliathBirdeater.diet.foods.some((food) => /鸟/.test(food)));
+
+  assert.equal(goliathBirdeater.storySections?.length, 6);
+  assert.equal(
+    new Set(goliathBirdeater.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    goliathBirdeater.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(goliathBirdeater.featuredStats.length, 4);
+  assert.deepEqual(
+    goliathBirdeater.featuredStats.map(({ key }) => key),
+    [
+      'body-length-upper',
+      'reported-leg-span',
+      'captive-record-mass',
+      'female-captive-longevity',
+    ],
+  );
+  const captiveMassStat = goliathBirdeater.featuredStats.find(
+    ({ key }) => key === 'captive-record-mass',
+  );
+  assert.deepEqual(
+    { value: captiveMassStat?.value, unit: captiveMassStat?.unit },
+    { value: '170', unit: '克' },
+  );
+  assert.match(
+    captiveMassStat?.note ?? '',
+    /两岁圈养个体.*原始称量报告.*未公开.*不是野外或典型质量/,
+  );
+
+  assert.equal(goliathBirdeater.media.gallery?.length, 5);
+  const mediaPaths = [
+    goliathBirdeater.media.image,
+    ...goliathBirdeater.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/goliath-birdeater/01-burrow-entrance-portrait.webp',
+    './images/species/goliath-birdeater/02-eye-cluster-and-pedipalps.webp',
+    './images/species/goliath-birdeater/03-nocturnal-invertebrate-approach.webp',
+    './images/species/goliath-birdeater/04-defensive-stridulation-posture.webp',
+    './images/species/goliath-birdeater/05-female-guarding-egg-sac.webp',
+    './images/species/goliath-birdeater/06-noninvasive-burrow-survey.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !goliathBirdeater.media.gallery.some(
+      ({ image }) => image === goliathBirdeater.media.image,
+    ),
+  );
+  const mediaRecords = [
+    goliathBirdeater.media,
+    ...goliathBirdeater.media.gallery,
+  ];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    goliathBirdeater.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+
+  const sourcePaths = [
+    '01-burrow-entrance-portrait-source.png',
+    '02-eye-cluster-and-pedipalps-source.png',
+    '03-nocturnal-invertebrate-approach-source.png',
+    '04-defensive-stridulation-posture-source.png',
+    '05-female-guarding-egg-sac-source.png',
+    '06-noninvasive-burrow-survey-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(
+        `../src/assets/source/species/goliath-birdeater/${filename}`,
+        import.meta.url,
+      ),
+    })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+        },
+      );
+      if (format === 'PNG') assert.equal(opaque, 'True');
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  assert.equal(goliathBirdeater.sources.length, 22);
+  assert.equal(
+    new Set(goliathBirdeater.sources.map(({ url }) => url)).size,
+    goliathBirdeater.sources.length,
+  );
+  assert.ok(goliathBirdeater.sources.every(({ title }) => title.length > 0));
+  assert.ok(goliathBirdeater.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    goliathBirdeater.sources.every(({ url }) => url.startsWith('https://')),
+  );
+  assert.ok(
+    goliathBirdeater.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(goliathBirdeater.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general']),
+  );
+  assert.ok(
+    [
+      'https://wsc.nmbe.ch/lsid/urn:lsid:nmbe.ch:spidersp:002488',
+      'https://www.wsc.nmbe.ch/genus-catalog/3612/Theraphosa',
+      'https://www.iucnredlist.org/search?query=Theraphosa%20blondi&searchType=species',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+      'https://checklist.cites.org/',
+      'https://nationalzoo.si.edu/animals/goliath-bird-eating-tarantula',
+      'https://doi.org/10.7717/peerj.3972',
+      'https://doi.org/10.1111/j.1469-7998.1995.tb01770.x',
+      'https://doi.org/10.1590/S0104-79302002000200010',
+      'https://doi.org/10.1080/01650521.2016.1237802',
+    ].every((url) =>
+      goliathBirdeater.sources.some((source) => source.url === url),
+    ),
+  );
+
+  const editorialText = [
+    goliathBirdeater.summary,
+    goliathBirdeater.description,
+    goliathBirdeater.distribution.range,
+    ...goliathBirdeater.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    goliathBirdeater.measurements.length?.note ?? '',
+    goliathBirdeater.measurements.weight?.note ?? '',
+    goliathBirdeater.diet.description,
+    ...(goliathBirdeater.activity ?? []),
+    ...goliathBirdeater.tags,
+    ...(goliathBirdeater.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...goliathBirdeater.keyFacts,
+    ...goliathBirdeater.threats,
+    ...goliathBirdeater.conservationActions,
+    ...goliathBirdeater.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+  ].join(' ');
+  assert.match(editorialText, /雾网.*(?:不能|不代表).*(?:常规|日常)/);
+  assert.match(editorialText, /后足.*(?:擦过|扬起).*腹部.*刚毛/);
+  assert.match(editorialText, /(?:刚毛不是被.*射出|不是把毛射出)/);
+  assert.match(editorialText, /离体.*不能.*人类.*致死/);
+  assert.match(editorialText, /IUCN.*(?:尚未评估|没有本种评估)/);
+  assert.match(editorialText, /CITES.*(?:未收录|没有本种条目)/);
+  assert.doesNotMatch(
+    editorialText,
+    /(?<!不)以鸟(?:类)?为(?:主食|常规食物|日常食物)|(?:^|[。；]\s*)(?:本种|巨人捕鸟蛛|这种蜘蛛|它)?(?:通常|经常|常规|日常)(?:会|主动)?捕鸟/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:平均|典型|普通成体)(?:体重|质量)?(?:为|是|可达)?\s*170\s*(?:克|g)|170\s*(?:克|g)\s*(?:平均|典型|常态)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /射毛|发射刚毛|射出刚毛|刚毛(?:会|可|能够)(?:被)?(?:射出|发射)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /致命毒液|毒液(?:会|可|能够|足以)(?:对人)?致命|拥有致命剧毒/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /IUCN(?:已|已经)(?:评估|列为|评为)|CITES(?:已|已经)(?:收录|列入)|(?:列入|收录于)\s*CITES\s*附录/,
+  );
+
+  assert.equal(goliathBirdeater.featured, true);
+  assert.equal(goliathBirdeater.publishedAt, '2026-08-28');
+  assert.equal(goliathBirdeater.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 63);
+  assert.equal(species.length, 64);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -8668,7 +8991,11 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Theraphosidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Theraphosa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Merostomata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
