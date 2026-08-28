@@ -18,6 +18,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Arapaima image set](./species/arapaima/README.md)
 - [Atlantic bluefin tuna image set](./species/atlantic-bluefin-tuna/README.md)
 - [Great Blue-spotted Mudskipper image set](./species/great-blue-spotted-mudskipper/README.md)
+- [Chinese Horseshoe Crab image set](./species/chinese-horseshoe-crab/README.md)
 - [Axolotl image set](./species/axolotl/README.md)
 - [African savanna elephant image set](./species/african-savanna-elephant/README.md)
 - [Komodo dragon image set](./species/komodo-dragon/README.md)

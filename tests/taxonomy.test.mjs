@@ -8274,10 +8274,388 @@ test('registers the Great Blue-spotted Mudskipper as a complete Boleophthalmus p
   assert.equal(mudskipper.updatedAt, '2026-08-27');
 });
 
+test('registers the Chinese Horseshoe Crab as a complete Tachypleus tridentatus profile', async () => {
+  const horseshoeCrab = findSpecies('chinese-horseshoe-crab');
+
+  assert.equal(horseshoeCrab.id, 'species-tachypleus-tridentatus');
+  assert.equal(horseshoeCrab.slug, 'chinese-horseshoe-crab');
+  assert.equal(horseshoeCrab.names.zh, '中华鲎');
+  assert.equal(horseshoeCrab.names.en, 'Chinese Horseshoe Crab');
+  assert.deepEqual(horseshoeCrab.names.aliases, [
+    '中国鲎',
+    '三棘鲎',
+    'Tri-spine Horseshoe Crab',
+  ]);
+  assert.equal(horseshoeCrab.scientificName, 'Tachypleus tridentatus');
+  assert.deepEqual(
+    [
+      ...getSpeciesTaxonomyPath(horseshoeCrab).map(({ rank, taxon }) => [
+        rank,
+        taxon.scientificName,
+        taxon.zhName,
+      ]),
+      ['species', horseshoeCrab.scientificName, horseshoeCrab.names.zh],
+    ],
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Merostomata', '肢口纲'],
+      ['order', 'Xiphosurida', '剑尾目'],
+      ['family', 'Limulidae', '鲎科'],
+      ['genus', 'Tachypleus', '东方鲎属'],
+      ['species', 'Tachypleus tridentatus', '中华鲎'],
+    ],
+  );
+  assert.equal(horseshoeCrab.scientificName.split(' ')[0], 'Tachypleus');
+  assert.deepEqual(
+    {
+      code: horseshoeCrab.conservation.code,
+      trend: horseshoeCrab.conservation.trend,
+      assessedYear: horseshoeCrab.conservation.assessedYear,
+      criteria: horseshoeCrab.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'decreasing',
+      assessedYear: 2018,
+      criteria: 'A4bcd',
+    },
+  );
+
+  assert.deepEqual(horseshoeCrab.distribution.realms, ['marine', 'terrestrial']);
+  assert.deepEqual(horseshoeCrab.distribution.continents, ['亚洲']);
+  assert.deepEqual(horseshoeCrab.distribution.countries, [
+    '中国',
+    '日本',
+    '越南',
+    '菲律宾',
+    '马来西亚',
+    '文莱',
+    '印度尼西亚',
+  ]);
+  assert.equal(
+    new Set(horseshoeCrab.distribution.countries).size,
+    horseshoeCrab.distribution.countries.length,
+  );
+  assert.deepEqual(horseshoeCrab.distribution.center, { lat: 22.5, lng: 115 });
+  assert.match(
+    horseshoeCrab.distribution.range,
+    /东亚.*东南亚.*西太平洋.*东印度洋.*日本.*中国.*越南.*菲律宾.*婆罗洲.*印度尼西亚/,
+  );
+  assert.equal(horseshoeCrab.habitats.length, 4);
+  assert.equal(
+    horseshoeCrab.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(
+    horseshoeCrab.habitats.every(({ realm }) =>
+      horseshoeCrab.distribution.realms.includes(realm),
+    ),
+  );
+  assert.match(
+    horseshoeCrab.habitats
+      .flatMap(({ name, description }) => [name, description])
+      .join(' '),
+    /近岸浅海沙泥质海床.*潮间带沙泥滩.*海草.*浅潮下带.*上部潮间带沙质产卵滩/,
+  );
+
+  assert.deepEqual(horseshoeCrab.measurements, {
+    length: {
+      max: 85,
+      unit: 'cm',
+      note: 'IUCN 汇总的沙巴罕见成年雌体总长，包含尾剑；不是普通成体体长，也不是统一方法得到的全球最大值。',
+    },
+    weight: {
+      max: 4.33,
+      unit: 'kg',
+      note: '菲律宾巴拉望 Honda Bay 样本中成年雌体最大体重；这是当地样本上限，不是全球最大体重。',
+    },
+  });
+  assert.deepEqual(horseshoeCrab.metrics, {});
+  assert.ok(!('adultLengthCm' in horseshoeCrab.metrics));
+  assert.ok(!('adultMassKg' in horseshoeCrab.metrics));
+  assert.ok(!('lifespanYears' in horseshoeCrab.metrics));
+
+  assert.deepEqual(horseshoeCrab.diet.types, ['omnivore']);
+  assert.deepEqual(horseshoeCrab.diet.foods, [
+    '多毛类',
+    '摇蚊等昆虫幼虫',
+    '小型甲壳类',
+    '薄壳双壳类',
+    '寡毛类',
+    '沉积有机物与海草相关食物网来源',
+  ]);
+  assert.match(
+    horseshoeCrab.diet.description,
+    /幼体.*小型底栖无脊椎动物.*混合食物.*稳定同位素.*海草.*不能.*专吃海草/,
+  );
+  assert.match(
+    horseshoeCrab.activity.join(' '),
+    /成体.*近岸海床.*产卵.*幼体.*退潮.*回潮.*抱钩.*外部受精.*蜕皮.*浅潮下带.*尾剑.*五对书鳃/,
+  );
+
+  assert.equal(horseshoeCrab.storySections?.length, 6);
+  assert.deepEqual(
+    horseshoeCrab.storySections.map(({ key }) => key),
+    [
+      'chelicerate-not-crab',
+      'sex-and-claspers',
+      'eggs-to-offshore',
+      'low-tide-foraging',
+      'blue-blood-and-tal',
+      'four-linked-habitats',
+    ],
+  );
+  assert.ok(
+    horseshoeCrab.storySections.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(horseshoeCrab.keyFacts.length, 7);
+  assert.equal(horseshoeCrab.threats.length, 6);
+  assert.equal(horseshoeCrab.conservationActions.length, 7);
+  assert.equal(horseshoeCrab.featuredStats.length, 4);
+  assert.deepEqual(
+    horseshoeCrab.featuredStats.map(({ key, value, unit }) => ({
+      key,
+      value,
+      unit,
+    })),
+    [
+      { key: 'recorded-total-length', value: '85.0', unit: '厘米' },
+      { key: 'northern-generation-length', value: '20.25', unit: '年' },
+      { key: 'assessed-reduction', value: '≥50', unit: '%' },
+      { key: 'hong-kong-molts', value: '约 17', unit: '次蜕皮' },
+    ],
+  );
+  const statsText = horseshoeCrab.featuredStats
+    .flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ])
+    .join(' ');
+  assert.match(
+    statsText,
+    /罕见雌体总长记录.*85\.0.*沙巴.*北部估算世代长度.*20\.25.*南部.*三代推断减少.*≥50.*60 年.*香港成长概括.*约 17.*香港政府/,
+  );
+
+  assert.equal(horseshoeCrab.media.gallery?.length, 5);
+  const mediaPaths = [
+    horseshoeCrab.media.image,
+    ...horseshoeCrab.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/chinese-horseshoe-crab/01-shallow-seabed-adult-portrait.webp',
+    './images/species/chinese-horseshoe-crab/02-seabed-foraging-trail.webp',
+    './images/species/chinese-horseshoe-crab/03-spawning-pair-at-tide-line.webp',
+    './images/species/chinese-horseshoe-crab/04-buried-egg-cluster-cutaway.webp',
+    './images/species/chinese-horseshoe-crab/05-juvenile-nursery-mudflat.webp',
+    './images/species/chinese-horseshoe-crab/06-blue-hemolymph-and-amebocytes.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path.endsWith('.webp')));
+  assert.ok(
+    !horseshoeCrab.media.gallery.some(
+      ({ image }) => image === horseshoeCrab.media.image,
+    ),
+  );
+  const mediaRecords = [
+    horseshoeCrab.media,
+    ...horseshoeCrab.media.gallery,
+  ];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    horseshoeCrab.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-shallow-seabed-adult-portrait-source.png',
+    '02-seabed-foraging-trail-source.png',
+    '03-spawning-pair-at-tide-line-source.png',
+    '04-buried-egg-cluster-cutaway-source.png',
+    '05-juvenile-nursery-mudflat-source.png',
+    '06-blue-hemolymph-and-amebocytes-source.png',
+  ];
+  const imageFiles = [
+    ...mediaPaths.map((path) => ({
+      format: 'WEBP',
+      url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+    })),
+    ...sourcePaths.map((filename) => ({
+      format: 'PNG',
+      url: new URL(
+        `../src/assets/source/species/chinese-horseshoe-crab/${filename}`,
+        import.meta.url,
+      ),
+    })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const mediaText = mediaRecords
+    .flatMap(({ alt, caption }) => [alt, caption ?? ''])
+    .join(' ');
+  assert.match(
+    mediaText,
+    /马蹄形前体.*具棘后体.*完整长尾剑.*雄体.*抱附.*雌体.*卵窝.*7 至 8 厘米.*幼体.*海草.*蓝色.*血蓝蛋白.*TAL/,
+  );
+  assert.doesNotMatch(
+    mediaText,
+    /成对出现(?:表示|证明)终生配偶|专吃海草|尾剑(?:是|作为|用作).{0,8}毒刺/,
+  );
+
+  assert.equal(horseshoeCrab.sources.length, 20);
+  assert.equal(
+    new Set(horseshoeCrab.sources.map(({ url }) => url)).size,
+    horseshoeCrab.sources.length,
+  );
+  assert.ok(horseshoeCrab.sources.every(({ title }) => title.length > 0));
+  assert.ok(horseshoeCrab.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    horseshoeCrab.sources.every(({ url }) => url.startsWith('https://')),
+  );
+  assert.ok(
+    horseshoeCrab.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-27',
+    ),
+  );
+  assert.deepEqual(
+    new Set(horseshoeCrab.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'ecology', 'general']),
+  );
+  assert.ok(
+    [
+      'https://www.marinespecies.org/aphia.php?p=taxdetails&id=238270',
+      'https://doi.org/10.2305/IUCN.UK.2019-1.RLTS.T21309A149768986.en',
+      'https://doi.org/10.1007/s00227-015-2647-3',
+      'https://doi.org/10.1080/0022293031000155377',
+      'https://doi.org/10.1007/s11802-022-5164-2',
+      'https://doi.org/10.1016/j.aquaculture.2019.734576',
+      'https://doi.org/10.1093/oxfordjournals.jbchem.a122276',
+      'https://doi.org/10.1186/s12864-020-6488-1',
+    ].every((url) =>
+      horseshoeCrab.sources.some((source) => source.url === url),
+    ),
+  );
+
+  const profileText = [
+    horseshoeCrab.names.en,
+    ...(horseshoeCrab.names.aliases ?? []),
+    horseshoeCrab.scientificName,
+    horseshoeCrab.summary,
+    horseshoeCrab.description,
+    horseshoeCrab.distribution.range,
+    ...horseshoeCrab.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    horseshoeCrab.measurements.length?.note ?? '',
+    horseshoeCrab.measurements.weight?.note ?? '',
+    horseshoeCrab.diet.description,
+    ...(horseshoeCrab.activity ?? []),
+    ...horseshoeCrab.tags,
+    ...(horseshoeCrab.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...horseshoeCrab.keyFacts,
+    ...horseshoeCrab.threats,
+    ...horseshoeCrab.conservationActions,
+    ...horseshoeCrab.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(profileText, /IUCN.*2018.*EN A4bcd.*decreasing/);
+  assert.match(
+    profileText,
+    /中华鲎不是螃蟹.*马蹄形前体.*具棘后体.*长尾剑.*海生铰口类节肢动物/,
+  );
+  assert.match(
+    profileText,
+    /化石历史.*古老.*不是四亿多年不变.*分化与演化/,
+  );
+  assert.match(
+    profileText,
+    /雄体.*前缘.*凹入.*第二、第三对.*抱钩.*不证明.*终生/,
+  );
+  assert.match(
+    profileText,
+    /卵.*沙.*外部受精.*幼体.*潮间带.*多次蜕皮.*浅潮下带.*成体海床/,
+  );
+  assert.match(
+    profileText,
+    /血蓝蛋白.*铜.*氧.*蓝色.*变形细胞.*因子 C.*TAL.*内毒素检测/,
+  );
+  assert.match(
+    profileText,
+    /成体海床.*浅潮下带.*幼体育幼滩.*上部产卵沙滩.*连通/,
+  );
+  assert.match(profileText, /国家二级保护.*2026-08-27.*CITES/);
+  assert.doesNotMatch(
+    profileText,
+    /中华鲎(?:就是|是)螃蟹|尾剑(?:是|作为|用作).{0,8}毒刺/,
+  );
+  assert.doesNotMatch(profileText, /蓝血.*治(?:疗|愈).*(?:癌|感染)/);
+  assert.doesNotMatch(profileText, /中华鲎.*四亿.*没有变化/);
+
+  assert.equal(horseshoeCrab.featured, true);
+  assert.equal(horseshoeCrab.publishedAt, '2026-08-27');
+  assert.equal(horseshoeCrab.updatedAt, '2026-08-27');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 62);
+  assert.equal(species.length, 63);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -8288,6 +8666,11 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'class', 'Merostomata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Gavialidae')?.speciesCount, 1);
