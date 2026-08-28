@@ -10721,10 +10721,425 @@ test('registers the Domestic Silkworm as a complete Bombyx mori profile', async 
   assert.equal(domesticSilkworm.updatedAt, '2026-08-28');
 });
 
+test('registers the Antarctic Krill as a complete Euphausia superba profile', async () => {
+  const antarcticKrill = findSpecies('antarctic-krill');
+
+  assert.equal(antarcticKrill.id, 'species-euphausia-superba');
+  assert.equal(antarcticKrill.slug, 'antarctic-krill');
+  assert.equal(antarcticKrill.names.zh, '南极磷虾');
+  assert.equal(antarcticKrill.names.en, 'Antarctic Krill');
+  assert.equal(antarcticKrill.scientificName, 'Euphausia superba');
+  assert.doesNotMatch(antarcticKrill.scientificName, /Dana|1850/);
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(antarcticKrill).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Malacostraca', '软甲纲'],
+      ['order', 'Euphausiacea', '磷虾目'],
+      ['family', 'Euphausiidae', '磷虾科'],
+      ['genus', 'Euphausia', '磷虾属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: antarcticKrill.conservation.code,
+      trend: antarcticKrill.conservation.trend,
+      assessedYear: antarcticKrill.conservation.assessedYear,
+      criteria: antarcticKrill.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+  assert.ok(!('assessedYear' in antarcticKrill.conservation));
+  assert.ok(!('criteria' in antarcticKrill.conservation));
+
+  assert.deepEqual(antarcticKrill.distribution.realms, ['marine']);
+  assert.deepEqual(antarcticKrill.distribution.continents, ['南极洲']);
+  assert.deepEqual(antarcticKrill.distribution.countries, []);
+  assert.ok(antarcticKrill.distribution.regions.length >= 4);
+  assert.match(antarcticKrill.distribution.range, /南大洋/);
+  assert.match(
+    antarcticKrill.distribution.range,
+    /(?:环南极|环绕南极|南极周围)/,
+  );
+  assert.match(
+    antarcticKrill.distribution.range,
+    /(?:南极辐合带|南极汇聚带|南极锋|极锋)/,
+  );
+  assert.match(
+    antarcticKrill.distribution.range,
+    /(?:西南大西洋|大西洋扇区|斯科舍海|南极半岛)/,
+  );
+  assert.ok(antarcticKrill.distribution.center);
+  assert.ok(antarcticKrill.distribution.center.lat >= -75);
+  assert.ok(antarcticKrill.distribution.center.lat <= -55);
+  assert.ok(antarcticKrill.distribution.center.lng >= -180);
+  assert.ok(antarcticKrill.distribution.center.lng <= 180);
+
+  assert.equal(antarcticKrill.habitats.length, 4);
+  assert.equal(
+    antarcticKrill.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(antarcticKrill.habitats.every(({ realm }) => realm === 'marine'));
+  const habitatText = antarcticKrill.habitats
+    .flatMap(({ name, description }) => [name, description])
+    .join(' ');
+  for (const habitatPattern of [
+    /(?:季节性海冰区|海冰边缘|冰下)/,
+    /(?:大陆架|陆架|陆坡)/,
+    /(?:远洋|开阔水域|表层水域)/,
+    /(?:水柱|中深层|深水)/,
+  ]) {
+    assert.match(habitatText, habitatPattern);
+  }
+
+  assert.ok(antarcticKrill.measurements.length);
+  assert.deepEqual(
+    {
+      min: antarcticKrill.measurements.length.min,
+      max: antarcticKrill.measurements.length.max,
+      unit: antarcticKrill.measurements.length.unit,
+    },
+    { min: 42, max: 65, unit: 'mm' },
+  );
+  assert.match(
+    antarcticKrill.measurements.length.note ?? '',
+    /(?=[\s\S]*(?:成体|成年))(?=[\s\S]*(?:全长|体长))(?=[\s\S]*(?:年龄|海区|地区|个体).{0,20}(?:变化|差异))/,
+  );
+  assert.ok(antarcticKrill.measurements.weight);
+  assert.deepEqual(
+    {
+      max: antarcticKrill.measurements.weight.max,
+      unit: antarcticKrill.measurements.weight.unit,
+    },
+    { max: 2, unit: 'g' },
+  );
+  assert.match(
+    antarcticKrill.measurements.weight.note ?? '',
+    /(?=[\s\S]*(?:最大|上限))(?=[\s\S]*(?:不是|不等于|并非).{0,12}(?:平均|均值|典型))/,
+  );
+  assert.deepEqual(antarcticKrill.metrics, {
+    adultLengthCm: [4.2, 6.5],
+    lifespanYears: [5, 7],
+  });
+  assert.ok(!('estimatedMatureIndividuals' in antarcticKrill.metrics));
+  assert.ok(!('adultMassKg' in antarcticKrill.metrics));
+
+  assert.ok(antarcticKrill.diet.types.includes('filter-feeder'));
+  assert.ok(antarcticKrill.diet.types.includes('omnivore'));
+  const foodText = antarcticKrill.diet.foods.join(' ');
+  for (const foodPattern of [
+    /(?:浮游植物|硅藻)/,
+    /(?:海冰藻|冰藻)/,
+    /(?:浮游动物|原生动物|桡足类)/,
+    /(?:碎屑|有机颗粒)/,
+  ]) {
+    assert.match(foodText, foodPattern);
+  }
+  assert.match(
+    antarcticKrill.diet.description,
+    /(?=[\s\S]*(?:滤食|胸足))(?=[\s\S]*(?:浮游植物|硅藻))/,
+  );
+  assert.match(
+    antarcticKrill.diet.description,
+    /(?=[\s\S]*(?:季节|冬季|食物条件))(?=[\s\S]*(?:海冰藻|冰藻|浮游动物|碎屑))/,
+  );
+
+  assert.equal(antarcticKrill.storySections?.length, 6);
+  assert.equal(
+    new Set(antarcticKrill.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    antarcticKrill.storySections.every(
+      ({ key, label, title, body }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        title.length > 0 &&
+        body.length > 0,
+    ),
+  );
+
+  assert.equal(antarcticKrill.featuredStats.length, 4);
+  assert.equal(
+    new Set(antarcticKrill.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    antarcticKrill.featuredStats.every(
+      ({ key, label, value, note }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        value.length > 0 &&
+        (note?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(antarcticKrill.media.gallery?.length, 5);
+  const mediaPaths = [
+    antarcticKrill.media.image,
+    ...antarcticKrill.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/antarctic-krill/01-adult-krill-under-sea-ice.webp',
+    './images/species/antarctic-krill/02-filter-feeding-phytoplankton.webp',
+    './images/species/antarctic-krill/03-larval-development-under-sea-ice.webp',
+    './images/species/antarctic-krill/04-diel-vertical-migration.webp',
+    './images/species/antarctic-krill/05-predator-prey-swarm.webp',
+    './images/species/antarctic-krill/06-scientific-net-sampling.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path?.endsWith('.webp')));
+  assert.ok(
+    !antarcticKrill.media.gallery.some(
+      ({ image }) => image === antarcticKrill.media.image,
+    ),
+  );
+  const mediaRecords = [antarcticKrill.media, ...antarcticKrill.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    antarcticKrill.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+  assert.ok((antarcticKrill.media.focalPoint?.x ?? 0) >= 0.65);
+  assert.ok((antarcticKrill.media.focalPoint?.x ?? 1) <= 0.75);
+
+  const migrationMedia = antarcticKrill.media.gallery.find(({ image }) =>
+    image.endsWith('/04-diel-vertical-migration.webp'),
+  );
+  assert.ok(migrationMedia);
+  assert.match(
+    `${migrationMedia.alt} ${migrationMedia.caption ?? ''}`,
+    /(?:昼夜垂直迁移|日周垂直迁移)/,
+  );
+  assert.match(
+    `${migrationMedia.alt} ${migrationMedia.caption ?? ''}`,
+    /(?:海区|区域|季节|海冰|群体).{0,50}(?:变化|差异|并非固定|不固定)|(?:变化|差异|并非固定|不固定).{0,50}(?:海区|区域|季节|海冰|群体)/,
+  );
+
+  const sourcePaths = [
+    '01-adult-krill-under-sea-ice-source.png',
+    '02-filter-feeding-phytoplankton-source.png',
+    '03-larval-development-under-sea-ice-source.png',
+    '04-diel-vertical-migration-source.png',
+    '05-predator-prey-swarm-source.png',
+    '06-scientific-net-sampling-source.png',
+  ];
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/antarctic-krill/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const [runtimeHashes, sourceHashes] = await Promise.all(
+    [runtimeUrls, sourceUrls].map((urls) =>
+      Promise.all(
+        urls.map(async (url) =>
+          createHash('sha256').update(await readFile(url)).digest('hex'),
+        ),
+      ),
+    ),
+  );
+  assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
+  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
+
+  assert.ok(antarcticKrill.sources.length >= 20);
+  assert.equal(
+    new Set(antarcticKrill.sources.map(({ url }) => url)).size,
+    antarcticKrill.sources.length,
+  );
+  assert.ok(antarcticKrill.sources.every(({ title }) => title.length > 0));
+  assert.ok(antarcticKrill.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    antarcticKrill.sources.every(({ url }) => url.startsWith('https://')),
+  );
+  assert.ok(
+    antarcticKrill.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(antarcticKrill.sources.map(({ kind }) => kind)),
+    new Set([
+      'taxonomy',
+      'distribution',
+      'ecology',
+      'conservation',
+      'general',
+    ]),
+  );
+
+  const editorialText = [
+    antarcticKrill.summary,
+    antarcticKrill.description,
+    antarcticKrill.distribution.range,
+    ...antarcticKrill.distribution.regions,
+    ...antarcticKrill.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    antarcticKrill.measurements.length.note ?? '',
+    antarcticKrill.measurements.weight?.note ?? '',
+    antarcticKrill.diet.description,
+    ...antarcticKrill.diet.foods,
+    ...(antarcticKrill.activity ?? []),
+    ...antarcticKrill.tags,
+    ...(antarcticKrill.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...antarcticKrill.keyFacts,
+    ...antarcticKrill.threats,
+    ...antarcticKrill.conservationActions,
+    ...antarcticKrill.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  for (const lifecyclePattern of [
+    /(?:卵|受精卵).{0,50}(?:下沉|沉降)/,
+    /(?:无节幼体|nauplius).{0,80}(?:上升|上浮|发育上升)/i,
+    /(?:糠虾期幼体|糠虾幼体|furcilia|晚期幼体).{0,80}(?:海冰藻|冰藻|冰下)/i,
+    /(?:蜕皮|多次蜕变|多个幼体阶段)/,
+  ]) {
+    assert.match(editorialText, lifecyclePattern);
+  }
+  assert.match(editorialText, /(?:关键种|关键饵料|食物网枢纽)/);
+  assert.ok(
+    [/(?:鲸|须鲸)/, /海豹/, /(?:企鹅|海鸟)/, /鱼/, /(?:鱿鱼|头足类)/].filter(
+      (pattern) => pattern.test(editorialText),
+    ).length >= 4,
+  );
+  assert.match(editorialText, /(?:群集|聚群|虾群).{0,80}(?:捕食|觅食|食物网)/);
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*生物量)(?=[\s\S]*(?:估计|模型|区间|不确定|调查))(?=[\s\S]*(?:3\.79 亿|379(?:,?000,?000)?|379 百万))(?=[\s\S]*(?:环极|环南极|南大洋))(?=[\s\S]*(?:夏季|后幼体))/,
+  );
+  assert.match(editorialText, /CCAMLR/);
+  assert.match(editorialText, /(?:Area 48|48 区|第 48 区)/);
+  assert.match(editorialText, /(?:捕捞|渔业)/);
+  assert.match(editorialText, /(?:限额|上限|预防性|生态系统管理)/);
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*5\.61\s*(?:Mt|百万吨))(?=[\s\S]*(?:620,?000|62 万)\s*(?:t|吨))(?=[\s\S]*(?:trigger|触发|实际|空间分配))/i,
+  );
+  assert.match(
+    editorialText,
+    /51-07.{0,60}(?:失效|到期|届满)|(?:失效|到期|届满).{0,60}51-07/,
+  );
+  assert.match(
+    editorialText,
+    /2025.{0,100}(?:没有|缺乏|未有|尚无|取消).{0,30}(?:法定|进一步|细分|分区|空间).{0,20}(?:分配|上限|限额)|2025.{0,100}(?:法定|进一步|细分|分区|空间).{0,20}(?:分配|上限|限额).{0,30}(?:没有|缺乏|未有|尚无|取消)/,
+  );
+  assert.match(editorialText, /(?:局地集中|空间重叠|时空重叠|捕食者需求)/);
+  assert.match(editorialText, /(?:监测|分区|限额|管理)/);
+  assert.match(editorialText, /(?:海冰|海水温度|海洋变暖)/);
+  assert.match(editorialText, /(?:幼体|补充量|栖息地|食物)/);
+  assert.match(editorialText, /(?:变化|风险|影响)/);
+  assert.match(editorialText, /IUCN/);
+  assert.match(editorialText, /(?:未评估|尚未评估|NE)/);
+  assert.match(editorialText, /(?:不等于|不代表|不能说明).{0,40}(?:安全|无风险|无危)/);
+  assert.match(editorialText, /(?:甲壳动物|软甲纲)/);
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:昼夜垂直迁移|日周垂直迁移))(?=[\s\S]*(?:海区|区域|季节|海冰|群体))(?=[\s\S]*(?:变化|差异|不固定|并非固定))/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:所有|全部|每一群).{0,20}(?:白天|夜间).{0,40}(?:固定|必定|总是)|(?:昼夜垂直迁移|日周垂直迁移).{0,40}(?:固定规律|所有群体相同)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:所有|全部).{0,16}(?:幼体|幼虾).{0,24}(?:全年|终年).{0,20}(?:冰下|海冰)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:生物量最大的野生动物|地球上生物量最高的动物)(?!之一)/,
+  );
+
+  assert.equal(antarcticKrill.featured, true);
+  assert.equal(antarcticKrill.publishedAt, '2026-08-28');
+  assert.equal(antarcticKrill.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 68);
+  assert.equal(species.length, 69);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -10735,7 +11150,11 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);

@@ -70,6 +70,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Seven-spotted Ladybird image set](./species/seven-spotted-ladybird/README.md)
 - [Emperor Dragonfly image set](./species/emperor-dragonfly/README.md)
 - [Domestic Silkworm image set](./species/domestic-silkworm/README.md)
+- [Antarctic Krill image set](./species/antarctic-krill/README.md)
 
 ## Image compression workflow
 
