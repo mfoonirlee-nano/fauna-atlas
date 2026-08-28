@@ -73,6 +73,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Antarctic Krill image set](./species/antarctic-krill/README.md)
 - [Coconut Crab image set](./species/coconut-crab/README.md)
 - [Chambered Nautilus image set](./species/chambered-nautilus/README.md)
+- [Common Octopus image set](./species/common-octopus/README.md)
 
 ## Image compression workflow
 

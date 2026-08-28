@@ -11910,10 +11910,434 @@ test('registers the Chambered Nautilus as a complete Nautilus pompilius profile'
   assert.equal(chamberedNautilus.updatedAt, '2026-08-28');
 });
 
+test('registers the Common Octopus as a complete Octopus vulgaris sensu stricto profile', async () => {
+  const commonOctopus = findSpecies('common-octopus');
+
+  assert.equal(commonOctopus.id, 'species-octopus-vulgaris');
+  assert.equal(commonOctopus.slug, 'common-octopus');
+  assert.equal(commonOctopus.names.zh, '普通章鱼');
+  assert.equal(commonOctopus.names.en, 'Common Octopus');
+  assert.ok(commonOctopus.names.aliases?.includes('Common Atlantic Octopus'));
+  assert.ok(commonOctopus.names.aliases?.includes('Common European Octopus'));
+  assert.ok(!commonOctopus.names.aliases?.includes('真蛸'));
+  assert.ok(!commonOctopus.names.aliases?.includes('ma-dako'));
+  assert.equal(commonOctopus.scientificName, 'Octopus vulgaris');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(commonOctopus).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Mollusca', '软体动物门'],
+      ['class', 'Cephalopoda', '头足纲'],
+      ['order', 'Octopoda', '八腕目'],
+      ['family', 'Octopodidae', '章鱼科'],
+      ['genus', 'Octopus', '章鱼属'],
+    ],
+  );
+  assert.equal(commonOctopus.scientificName.split(' ')[0], 'Octopus');
+
+  assert.deepEqual(
+    {
+      code: commonOctopus.conservation.code,
+      trend: commonOctopus.conservation.trend,
+      assessedYear: commonOctopus.conservation.assessedYear,
+      criteria: commonOctopus.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'unknown',
+      assessedYear: 2016,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(commonOctopus.distribution.realms, ['marine']);
+  assert.deepEqual(commonOctopus.distribution.continents, ['欧洲', '非洲']);
+  assert.deepEqual(commonOctopus.distribution.regions, [
+    '地中海',
+    '东北大西洋欧洲沿岸',
+    '西北非洲与东部中大西洋沿岸',
+    '亚速尔、马德拉、加那利与佛得角群岛',
+  ]);
+  assert.deepEqual(commonOctopus.distribution.countries, [
+    '葡萄牙',
+    '西班牙',
+    '法国',
+    '意大利',
+    '希腊',
+    '摩洛哥',
+  ]);
+  assert.deepEqual(commonOctopus.distribution.center, { lat: 37, lng: 3 });
+  for (const excludedCountry of [
+    '中国',
+    '日本',
+    '韩国',
+    '美国',
+    '巴西',
+    '南非',
+    '澳大利亚',
+  ]) {
+    assert.ok(
+      !commonOctopus.distribution.countries.includes(excludedCountry),
+      `${excludedCountry} should not be an unqualified Octopus vulgaris sensu stricto country`,
+    );
+  }
+  assert.match(
+    commonOctopus.distribution.range,
+    /(?:狭义|sensu stricto).*地中海.*(?:东北|东部中)大西洋.*(?:东亚|日本).*(?:加勒比|美洲).*巴西.*南非.*澳大利亚.*(?:其他物种|待命名|待正式命名|未计入)/i,
+  );
+
+  assert.equal(commonOctopus.habitats.length, 3);
+  assert.equal(
+    commonOctopus.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(commonOctopus.habitats.every(({ realm }) => realm === 'marine'));
+
+  assert.deepEqual(
+    {
+      min: commonOctopus.measurements.length?.min,
+      max: commonOctopus.measurements.length?.max,
+      unit: commonOctopus.measurements.length?.unit,
+    },
+    { min: 10, max: 25, unit: 'cm' },
+  );
+  const lengthNote = commonOctopus.measurements.length?.note ?? '';
+  assert.match(lengthNote, /外套膜长/);
+  assert.match(
+    lengthNote,
+    /(?:不是|非|不含).{0,20}(?:含腕全长|全长|腕长)|(?:含腕全长|全长|腕长).{0,20}(?:不是|非|不含)/,
+  );
+  assert.deepEqual(
+    {
+      min: commonOctopus.measurements.weight?.min,
+      max: commonOctopus.measurements.weight?.max,
+      unit: commonOctopus.measurements.weight?.unit,
+    },
+    { min: 1, max: 3, unit: 'kg' },
+  );
+  assert.match(
+    commonOctopus.measurements.weight?.note ?? '',
+    /(?:FAO|地中海).*(?:常见|历史).*(?:不是|非).*(?:全球|自然极值|上限)/,
+  );
+  assert.deepEqual(commonOctopus.metrics, {});
+  assert.ok(!('adultLengthCm' in commonOctopus.metrics));
+
+  assert.deepEqual(commonOctopus.diet.types, ['carnivore']);
+  assert.deepEqual(commonOctopus.diet.foods, [
+    '蟹类等甲壳动物',
+    '双壳类',
+    '腹足类',
+    '小型鱼类与其他底栖动物',
+  ]);
+
+  assert.equal(commonOctopus.storySections?.length, 6);
+  assert.equal(
+    new Set(commonOctopus.storySections.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    commonOctopus.storySections.every(
+      ({ key, label, title, body }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        title.length > 0 &&
+        body.length > 0,
+    ),
+  );
+  assert.ok(commonOctopus.keyFacts.length >= 6);
+  assert.equal(commonOctopus.threats.length, 5);
+  assert.equal(commonOctopus.conservationActions.length, 6);
+
+  assert.deepEqual(
+    commonOctopus.featuredStats.map(({ key, value, unit }) => ({
+      key,
+      value,
+      unit,
+    })),
+    [
+      { key: 'arms', value: '8', unit: '条' },
+      { key: 'common-mantle-length', value: '10–25', unit: 'cm' },
+      { key: 'potential-fecundity', value: '约 10万–50万', unit: '枚' },
+      { key: 'planktonic-settlement', value: '47–54', unit: '日' },
+    ],
+  );
+  assert.equal(
+    new Set(commonOctopus.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    commonOctopus.featuredStats.every(
+      ({ key, label, value, note }) =>
+        key.length > 0 &&
+        label.length > 0 &&
+        value.length > 0 &&
+        (note?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(commonOctopus.media.gallery?.length, 5);
+  const mediaPaths = [
+    commonOctopus.media.image,
+    ...commonOctopus.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/common-octopus/01-rocky-reef-adult-portrait.webp',
+    './images/species/common-octopus/02-chromatophore-papillae-camouflage.webp',
+    './images/species/common-octopus/03-rock-crevice-den-and-midden.webp',
+    './images/species/common-octopus/04-crab-capture-and-sucker-use.webp',
+    './images/species/common-octopus/05-female-egg-brooding-and-ventilation.webp',
+    './images/species/common-octopus/06-pelagic-paralarva.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaPaths.every((path) => path?.endsWith('.webp')));
+  assert.ok(
+    !commonOctopus.media.gallery.some(
+      ({ image }) => image === commonOctopus.media.image,
+    ),
+  );
+  const mediaRecords = [commonOctopus.media, ...commonOctopus.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    commonOctopus.media.gallery.every(
+      ({ title, caption }) =>
+        title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ credit }) => credit === 'Fauna Atlas · AI 生成原创图像',
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint }) =>
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-rocky-reef-adult-portrait-source.png',
+    '02-chromatophore-papillae-camouflage-source.png',
+    '03-rock-crevice-den-and-midden-source.png',
+    '04-crab-capture-and-sucker-use-source.png',
+    '05-female-egg-brooding-and-ventilation-source.png',
+    '06-pelagic-paralarva-source.png',
+  ];
+  assert.deepEqual(
+    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    mediaPaths.map((path) =>
+      path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
+    ),
+  );
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/common-octopus/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  assert.equal(imageFiles.length, 12);
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%[channels]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, channels] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const [runtimeHashes, sourceHashes] = await Promise.all(
+    [runtimeUrls, sourceUrls].map((urls) =>
+      Promise.all(
+        urls.map(async (url) =>
+          createHash('sha256').update(await readFile(url)).digest('hex'),
+        ),
+      ),
+    ),
+  );
+  assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
+  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
+  assert.equal(
+    new Set([...runtimeHashes, ...sourceHashes]).size,
+    12,
+    'runtime and source image files should all differ',
+  );
+
+  assert.ok(commonOctopus.sources.length >= 20);
+  assert.equal(
+    new Set(commonOctopus.sources.map(({ url }) => url)).size,
+    commonOctopus.sources.length,
+  );
+  assert.ok(commonOctopus.sources.every(({ title }) => title.length > 0));
+  assert.ok(commonOctopus.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(
+    commonOctopus.sources.every(({ url }) => url.startsWith('https://')),
+  );
+  assert.ok(
+    commonOctopus.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-08-28',
+    ),
+  );
+  assert.deepEqual(
+    new Set(commonOctopus.sources.map(({ kind }) => kind)),
+    new Set([
+      'taxonomy',
+      'distribution',
+      'ecology',
+      'conservation',
+      'general',
+    ]),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=140605',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/140605',
+    'https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T162571A918906.en',
+    'https://doi.org/10.12782/sd.21.1.031',
+    'https://doi.org/10.1371/journal.pone.0230294',
+    'https://doi.org/10.1002/ece3.73235',
+    'https://doi.org/10.1186/s12861-020-00212-6',
+    'https://doi.org/10.1139/f95-853',
+  ]) {
+    assert.ok(
+      commonOctopus.sources.some(({ url }) => url === requiredUrl),
+      `common-octopus sources should include ${requiredUrl}`,
+    );
+  }
+
+  const editorialText = [
+    commonOctopus.summary,
+    commonOctopus.description,
+    commonOctopus.distribution.range,
+    ...commonOctopus.distribution.regions,
+    ...commonOctopus.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    lengthNote,
+    commonOctopus.measurements.weight?.note ?? '',
+    commonOctopus.diet.description,
+    ...commonOctopus.diet.foods,
+    ...(commonOctopus.activity ?? []),
+    ...commonOctopus.tags,
+    ...(commonOctopus.storySections ?? []).flatMap(
+      ({ label, title, body }) => [label, title, body],
+    ),
+    ...commonOctopus.keyFacts,
+    ...commonOctopus.threats,
+    ...commonOctopus.conservationActions,
+    ...commonOctopus.featuredStats.flatMap(
+      ({ label, value, unit, note }) => [
+        label,
+        value,
+        unit ?? '',
+        note ?? '',
+      ],
+    ),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(editorialText, /(?:狭义|sensu stricto)/i);
+  assert.match(editorialText, /(?:物种复合群|vulgaris complex)/i);
+  assert.match(editorialText, /O(?:ctopus|\.)\s*sinensis.*(?:东亚|日本|真蛸)/i);
+  assert.match(
+    editorialText,
+    /(?:南非|Type III).{0,100}(?:分离|独立|不同谱系|待正式命名)/i,
+  );
+  assert.match(
+    editorialText,
+    /IUCN.{0,80}(?:2016|2018).{0,100}(?:广义|旧(?:的)?范围|分类基础|需要更新)/i,
+  );
+  assert.match(editorialText, /(?:2016.{0,30}评估|评估.{0,30}2016)/);
+  assert.match(editorialText, /(?:2018.{0,30}发布|发布.{0,30}2018)/);
+
+  assert.match(
+    editorialText,
+    /(?:八条|八腕|8\s*条).{0,60}(?:两列|双列).{0,20}吸盘/,
+  );
+  assert.match(
+    editorialText,
+    /(?:无|没有|不具).{0,20}(?:外露壳|外壳).{0,30}(?:鱼鳍|鳍)/,
+  );
+  assert.match(editorialText, /(?:色素胞|反光结构).{0,80}(?:乳突|皮肤纹理)/);
+  assert.match(
+    editorialText,
+    /(?:附近|周围).{0,20}(?:物体|环境).{0,30}(?:关键|选定).{0,20}(?:特征|视觉线索).{0,100}(?:不(?:是|会)|并非|不能).{0,30}(?:逐像素|整个背景|完整背景)/,
+  );
+
+  assert.match(
+    editorialText,
+    /(?:midden|巢口).{0,80}(?:不(?:是|等于)|并非|不能(?:当作|视为|代表)).{0,30}(?:完整食谱|食谱普查)/i,
+  );
+  assert.match(
+    editorialText,
+    /(?:夜间活动|夜行).{0,80}(?:地点|风险|食物|变化|并非严格)|(?:并非|不写).{0,20}严格夜行/,
+  );
+  assert.match(
+    editorialText,
+    /(?:约\s*)?1\s*(?:–|—|-|至)\s*2\s*年.{0,30}(?:估计|地点|圈养|温度)/,
+  );
+
+  assert.match(
+    editorialText,
+    /(?:雌体|母体).{0,80}(?:卵串|小卵).{0,80}(?:清洁|通水|防卫)/,
+  );
+  assert.match(editorialText, /(?:浮游幼体|副幼体|paralarva)/i);
+  assert.match(
+    editorialText,
+    /21\.2\s*°?C.{0,80}47\s*(?:–|—|-)\s*54\s*日.{0,80}(?:着底|培养|实验)/i,
+  );
+  assert.match(
+    editorialText,
+    /(?:浮游|阶段|幼体|水柱).{0,50}数周至数月|数周至数月.{0,50}(?:浮游|阶段|幼体|水柱)/,
+  );
+
+  assert.equal(commonOctopus.featured, true);
+  assert.equal(commonOctopus.publishedAt, '2026-08-28');
+  assert.equal(commonOctopus.updatedAt, '2026-08-28');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 71);
+  assert.equal(species.length, 72);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -11932,11 +12356,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nautilus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Octopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Octopodidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Octopus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
