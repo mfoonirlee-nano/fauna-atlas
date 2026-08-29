@@ -30,6 +30,23 @@
   --taxonomy-node-lift-shadow: 0 8px 26px rgba(0, 0, 0, 0.36);
 }
 
+.taxonomy-explorer--overview {
+  --taxonomy-canvas: color-mix(in srgb, var(--paper-deep) 74%, var(--moss-light));
+  --taxonomy-grid-line: color-mix(in srgb, var(--forest) 9%, transparent);
+  --taxonomy-label: var(--taxonomy-canvas);
+  --taxonomy-muted-ink: color-mix(in srgb, var(--ink-soft) 90%, var(--ink));
+  --taxonomy-node-surface: color-mix(in srgb, var(--taxonomy-canvas) 80%, var(--moss-light));
+  --taxonomy-rank-ink: color-mix(in srgb, var(--rust) 80%, var(--forest));
+  --taxonomy-species-surface: color-mix(in srgb, var(--taxonomy-canvas) 86%, var(--rust));
+}
+
+:root[data-theme='dark'] .taxonomy-explorer--overview {
+  --taxonomy-canvas: color-mix(in srgb, var(--paper-soft) 88%, var(--forest-deep));
+  --taxonomy-label: var(--taxonomy-canvas);
+  --taxonomy-node-surface: color-mix(in srgb, var(--taxonomy-canvas) 86%, var(--moss-light));
+  --taxonomy-species-surface: color-mix(in srgb, var(--taxonomy-canvas) 84%, var(--rust));
+}
+
 .taxonomy-explorer__heading,
 .taxonomy-lineage__heading,
 .taxonomy-focus__heading {
@@ -94,6 +111,10 @@
   background: var(--paper-soft);
 }
 
+.taxonomy-explorer--overview .taxonomy-explorer__legend i {
+  background: var(--taxonomy-canvas);
+}
+
 .taxonomy-explorer__legend span:nth-child(2) i {
   border-color: var(--rust);
   background: var(--rust);
@@ -127,6 +148,9 @@
   height: 100dvh;
   grid-template-rows: auto minmax(0, 1fr) auto;
   margin-top: 42px;
+  background-image:
+    linear-gradient(var(--taxonomy-grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--taxonomy-grid-line) 1px, transparent 1px);
 }
 
 .taxonomy-panel__header {
@@ -141,6 +165,11 @@
   border-bottom: 1px solid var(--line-strong);
   background: color-mix(in srgb, var(--paper-soft) 91%, transparent);
   backdrop-filter: blur(10px);
+}
+
+.taxonomy-panel--overview > .taxonomy-panel__header {
+  background: color-mix(in srgb, var(--taxonomy-canvas) 82%, var(--paper-deep));
+  backdrop-filter: none;
 }
 
 .taxonomy-panel__header > p {
@@ -175,6 +204,14 @@
   font-size: 0.66rem;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.taxonomy-panel--overview .taxonomy-panel__branch-status {
+  color: var(--ink-soft);
+}
+
+.taxonomy-panel--overview .taxonomy-panel__ranks {
+  color: var(--ink-soft);
 }
 
 .taxonomy-panel__header > span {
@@ -425,11 +462,27 @@
   white-space: nowrap;
 }
 
+.taxonomy-explorer--overview .taxonomy-diagram__node--species .taxonomy-diagram__node-copy i {
+  color: var(--taxonomy-muted-ink);
+}
+
+.taxonomy-panel--overview .taxonomy-path__identity i {
+  color: var(--taxonomy-muted-ink);
+}
+
+.taxonomy-panel--overview .taxonomy-path li i {
+  color: var(--taxonomy-muted-ink);
+}
+
+.taxonomy-panel--overview .taxonomy-path li small {
+  color: var(--taxonomy-rank-ink);
+}
+
 .taxonomy-diagram__node--taxon[aria-expanded] .taxonomy-diagram__node-copy small {
+  color: var(--forest);
   font-size: 0.44rem;
   font-weight: 600;
   letter-spacing: 0.1em;
-  opacity: 0.72;
 }
 
 .taxonomy-diagram__node--taxon[aria-expanded] .taxonomy-diagram__node-copy strong {
@@ -438,9 +491,9 @@
 }
 
 .taxonomy-diagram__node--taxon[aria-expanded] .taxonomy-diagram__node-copy i {
+  color: var(--ink-soft);
   font-size: 0.56rem;
   line-height: 1;
-  opacity: 0.76;
 }
 
 .taxonomy-diagram__node--taxon.is-on-path .taxonomy-diagram__node-copy {
@@ -1454,7 +1507,19 @@
   }
 
   .taxonomy-diagram--overview .taxonomy-diagram__node--taxon[aria-expanded] .taxonomy-diagram__node-copy {
+    color: CanvasText;
     border-color: CanvasText;
+    background: Canvas;
+  }
+
+  .taxonomy-panel--overview {
+    color: CanvasText;
+    background: Canvas;
+  }
+
+  .taxonomy-panel--overview > .taxonomy-panel__header {
+    color: CanvasText;
+    background: Canvas;
   }
 
   .taxonomy-panel,
@@ -1467,7 +1532,7 @@
   }
 
   .taxonomy-diagram__node--species.is-selected .taxonomy-diagram__node-copy,
-  .taxonomy-diagram__node--taxon[aria-expanded='true'] .taxonomy-diagram__node-copy {
+  .taxonomy-diagram__node--taxon[aria-expanded]:focus-visible .taxonomy-diagram__node-copy {
     outline: 2px solid Highlight;
     outline-offset: 1px;
   }

@@ -186,9 +186,23 @@ test('keeps species surfaces while rendering interactive taxa as quiet labels', 
     '.taxonomy-diagram--overview .taxonomy-diagram__node--taxon[aria-expanded] .taxonomy-diagram__node-copy',
     forcedColorsStyles,
   )[0];
+  const forcedColorsPanelRule = ruleBodies(
+    '.taxonomy-panel--overview > .taxonomy-panel__header',
+    forcedColorsStyles,
+  )[0];
+  const forcedColorsOverviewPanelRule = ruleBodies(
+    '.taxonomy-panel--overview',
+    forcedColorsStyles,
+  )[0];
   const forcedColorsDarkOverviewRule = ruleBodies(
     ":root[data-theme='dark'] .taxonomy-diagram--overview",
     forcedColorsStyles,
+  )[0];
+  const taxonRankRule = ruleBodies(
+    '.taxonomy-diagram__node--taxon[aria-expanded] .taxonomy-diagram__node-copy small',
+  )[0];
+  const taxonScientificNameRule = ruleBodies(
+    '.taxonomy-diagram__node--taxon[aria-expanded] .taxonomy-diagram__node-copy i',
   )[0];
 
   assert.match(styles, /--taxonomy-species-surface:/);
@@ -198,6 +212,10 @@ test('keeps species surfaces while rendering interactive taxa as quiet labels', 
   assert.match(taxonCopyRule, /box-shadow:\s*none/);
   assert.match(taxonMarkerRule, /width:\s*8px/);
   assert.match(taxonMarkerRule, /box-shadow:\s*none/);
+  assert.match(taxonRankRule, /color:\s*var\(--forest\)/);
+  assert.doesNotMatch(taxonRankRule, /opacity:/);
+  assert.match(taxonScientificNameRule, /color:\s*var\(--ink-soft\)/);
+  assert.doesNotMatch(taxonScientificNameRule, /opacity:/);
   assert.match(disclosureRule, /width:\s*16px/);
   assert.match(disclosureRule, /border:\s*0/);
   assert.match(disclosureRule, /background:\s*transparent/);
@@ -242,6 +260,13 @@ test('keeps species surfaces while rendering interactive taxa as quiet labels', 
   );
   assert.match(forcedColorsDarkOverviewRule, /--taxonomy-diagram-line:\s*CanvasText/);
   assert.match(forcedColorsTaxonRule, /border-color:\s*CanvasText/);
+  assert.match(forcedColorsTaxonRule, /color:\s*CanvasText/);
+  assert.match(forcedColorsTaxonRule, /background:\s*Canvas/);
+  assert.match(forcedColorsPanelRule, /color:\s*CanvasText/);
+  assert.match(forcedColorsPanelRule, /background:\s*Canvas/);
+  assert.match(forcedColorsOverviewPanelRule, /color:\s*CanvasText/);
+  assert.match(forcedColorsOverviewPanelRule, /background:\s*Canvas/);
+  assert.doesNotMatch(forcedColorsStyles, /aria-expanded='true'/);
   assert.match(
     explorerSource,
     /matchMedia\(['"]\(prefers-reduced-motion: reduce\)['"]\)/,
@@ -253,5 +278,101 @@ test('keeps species surfaces while rendering interactive taxa as quiet labels', 
   assert.doesNotMatch(
     styles,
     /\.taxonomy-diagram__node-copy\s*\{[^}]*var\(--taxonomy-diagram-label\) 91%/s,
+  );
+});
+
+test('uses botanical paper tones for the overview instead of near-white surfaces', () => {
+  const overviewSurfaceRule = ruleBodies('.taxonomy-explorer--overview')[0];
+  const overviewPanelRule = ruleBodies('.taxonomy-panel--overview')
+    .find((rule) => /--taxonomy-grid-line/.test(rule));
+  const sharedPanelRule = ruleBodies('.taxonomy-lineage__panel')[0];
+  const overviewHeaderRule = ruleBodies(
+    '.taxonomy-panel--overview > .taxonomy-panel__header',
+  )[0];
+  const overviewLegendRule = ruleBodies(
+    '.taxonomy-explorer--overview .taxonomy-explorer__legend i',
+  )[0];
+  const darkOverviewRule = ruleBodies(
+    ":root[data-theme='dark'] .taxonomy-explorer--overview",
+  )[0];
+  const overviewHeaderRanksRule = ruleBodies(
+    '.taxonomy-panel--overview .taxonomy-panel__ranks',
+  )[0];
+  const overviewHeaderStatusRule = ruleBodies(
+    '.taxonomy-panel--overview .taxonomy-panel__branch-status',
+  )[0];
+  const overviewSpeciesScientificNameRule = ruleBodies(
+    '.taxonomy-explorer--overview .taxonomy-diagram__node--species .taxonomy-diagram__node-copy i',
+  )[0];
+  const overviewPathIdentityRule = ruleBodies(
+    '.taxonomy-panel--overview .taxonomy-path__identity i',
+  )[0];
+  const overviewPathScientificNameRule = ruleBodies(
+    '.taxonomy-panel--overview .taxonomy-path li i',
+  )[0];
+  const overviewPathRankRule = ruleBodies(
+    '.taxonomy-panel--overview .taxonomy-path li small',
+  )[0];
+
+  assert.match(
+    overviewSurfaceRule,
+    /--taxonomy-canvas:\s*color-mix\([^;]*var\(--paper-deep\)\s+74%[^;]*var\(--moss-light\)/,
+  );
+  assert.match(overviewSurfaceRule, /--taxonomy-label:\s*var\(--taxonomy-canvas\)/);
+  assert.match(
+    overviewSurfaceRule,
+    /--taxonomy-muted-ink:\s*color-mix\([^;]*var\(--ink-soft\)\s+90%[^;]*var\(--ink\)/,
+  );
+  assert.match(
+    overviewSurfaceRule,
+    /--taxonomy-grid-line:\s*color-mix\([^;]*var\(--forest\)\s+9%[^;]*transparent/,
+  );
+  assert.match(
+    overviewSurfaceRule,
+    /--taxonomy-species-surface:\s*color-mix\([^;]*var\(--taxonomy-canvas\)\s+86%[^;]*var\(--rust\)/,
+  );
+  assert.match(
+    overviewSurfaceRule,
+    /--taxonomy-rank-ink:\s*color-mix\([^;]*var\(--rust\)\s+80%[^;]*var\(--forest\)/,
+  );
+  assert.doesNotMatch(
+    overviewSurfaceRule,
+    /--taxonomy-canvas:[^;]*(?:var\(--paper-soft\)|transparent)/,
+  );
+  assert.match(
+    overviewPanelRule,
+    /background-image:[^;]*linear-gradient\(var\(--taxonomy-grid-line\) 1px, transparent 1px\)/,
+  );
+  assert.doesNotMatch(overviewPanelRule, /(?:^|;)\s*background:/);
+  assert.match(sharedPanelRule, /var\(--taxonomy-canvas\)/);
+  assert.match(sharedPanelRule, /background-position:\s*-1px -1px/);
+  assert.match(sharedPanelRule, /background-size:\s*36px 36px/);
+  assert.match(
+    overviewHeaderRule,
+    /background:\s*color-mix\([^;]*var\(--taxonomy-canvas\)\s+82%[^;]*var\(--paper-deep\)/,
+  );
+  assert.match(overviewHeaderRule, /backdrop-filter:\s*none/);
+  assert.doesNotMatch(overviewHeaderRule, /var\(--paper-soft\)|transparent/);
+  assert.match(overviewHeaderRanksRule, /color:\s*var\(--ink-soft\)/);
+  assert.match(overviewHeaderStatusRule, /color:\s*var\(--ink-soft\)/);
+  assert.match(
+    overviewSpeciesScientificNameRule,
+    /color:\s*var\(--taxonomy-muted-ink\)/,
+  );
+  assert.match(overviewPathIdentityRule, /color:\s*var\(--taxonomy-muted-ink\)/);
+  assert.match(
+    overviewPathScientificNameRule,
+    /color:\s*var\(--taxonomy-muted-ink\)/,
+  );
+  assert.match(overviewPathRankRule, /color:\s*var\(--taxonomy-rank-ink\)/);
+  assert.match(overviewLegendRule, /background:\s*var\(--taxonomy-canvas\)/);
+  assert.match(
+    darkOverviewRule,
+    /--taxonomy-canvas:\s*color-mix\([^;]*var\(--paper-soft\)\s+88%[^;]*var\(--forest-deep\)/,
+  );
+  assert.match(darkOverviewRule, /--taxonomy-label:\s*var\(--taxonomy-canvas\)/);
+  assert.match(
+    darkOverviewRule,
+    /--taxonomy-species-surface:\s*color-mix\([^;]*var\(--taxonomy-canvas\)\s+84%[^;]*var\(--rust\)/,
   );
 });
