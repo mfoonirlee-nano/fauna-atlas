@@ -12869,10 +12869,347 @@ test('registers the giant clam as a complete Tridacna gigas profile', async () =
   assert.equal(giantClam.updatedAt, '2026-08-29');
 });
 
+test('registers the Portuguese Man-of-War as a complete Physalia physalis profile', async () => {
+  const manOfWar = findSpecies('portuguese-man-of-war');
+
+  assert.equal(manOfWar.id, 'species-physalia-physalis');
+  assert.equal(manOfWar.slug, 'portuguese-man-of-war');
+  assert.equal(manOfWar.names.zh, '僧帽水母');
+  assert.equal(manOfWar.names.en, 'Portuguese Man-of-War');
+  assert.deepEqual(manOfWar.names.aliases, [
+    '葡萄牙战舰',
+    'Atlantic Portuguese Man-of-War',
+    "Portuguese Man o' War",
+  ]);
+  assert.ok(
+    manOfWar.names.aliases.every((alias) => alias.trim().toLowerCase() !== 'bluebottle'),
+    'the ambiguous bare name Bluebottle must not be an alias for this Atlantic species',
+  );
+  assert.equal(manOfWar.scientificName, 'Physalia physalis');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(manOfWar).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Cnidaria', '刺胞动物门'],
+      ['class', 'Hydrozoa', '水螅纲'],
+      ['order', 'Siphonophorae', '管水母目'],
+      ['family', 'Physaliidae', '僧帽水母科'],
+      ['genus', 'Physalia', '僧帽水母属'],
+    ],
+  );
+
+  assert.equal(manOfWar.conservation.code, 'NE');
+  assert.equal(manOfWar.conservation.trend, 'unknown');
+  assert.equal(Object.hasOwn(manOfWar.conservation, 'assessedYear'), false);
+  assert.equal(Object.hasOwn(manOfWar.conservation, 'criteria'), false);
+  assert.deepEqual(manOfWar.distribution.realms, ['marine']);
+  assert.deepEqual(manOfWar.distribution.continents, [
+    '北美洲',
+    '南美洲',
+    '欧洲',
+    '非洲',
+  ]);
+  assert.match(manOfWar.distribution.range, /主要分布于北大西洋和西南大西洋/);
+  assert.match(
+    manOfWar.distribution.range,
+    /(?:2025年前|旧).{0,40}全球.{0,30}(?:混入|包括).{0,30}其他Physalia物种/,
+  );
+  assert.match(
+    `${manOfWar.distribution.range} ${manOfWar.distribution.regions.join(' ')}`,
+    /西南大西洋.{0,50}(?:多种|物种).{0,20}重叠/,
+  );
+  assert.match(manOfWar.distribution.range, /历史记录.{0,50}(?:重鉴|复核)/);
+  assert.ok(
+    manOfWar.distribution.countries.every(
+      (country) => !/(?:澳大利亚|新西兰|日本|台湾)/.test(country),
+    ),
+    'old Indo-Pacific Bluebottle records must not widen the structured range',
+  );
+  assert.equal(manOfWar.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.ok(manOfWar.habitats.every(({ realm }) => realm === 'marine'));
+  assert.match(
+    manOfWar.habitats.map(({ name, description }) => `${name} ${description}`).join(' '),
+    /海气界面|pleuston/i,
+  );
+  assert.deepEqual(manOfWar.measurements, {});
+  assert.deepEqual(manOfWar.metrics, {});
+
+  assert.deepEqual(manOfWar.diet.types, ['carnivore', 'piscivore']);
+  assert.deepEqual(manOfWar.diet.foods, [
+    '鱼苗和小型鱼类',
+    '头足类',
+    '毛颚动物',
+    '鳗形叶状幼体',
+  ]);
+  assert.match(
+    manOfWar.diet.description,
+    /无口的tentacular palpon.{0,80}(?:截获|捕获).{0,80}有口.{0,40}gastrozooid.{0,80}(?:消化|摄食)/i,
+  );
+  assert.match(manOfWar.diet.description, /共享胃循环腔/);
+  assert.match(
+    manOfWar.diet.description,
+    /旧种界.{0,40}历史样本.{0,60}(?:不能|不可|不应).{0,50}(?:百分比|全物种固定食谱)/,
+  );
+
+  assert.equal(manOfWar.storySections?.length, 6);
+  assert.equal(new Set(manOfWar.storySections?.map(({ key }) => key)).size, 6);
+  assert.equal(manOfWar.featuredStats.length, 4);
+  assert.equal(new Set(manOfWar.featuredStats.map(({ key }) => key)).size, 4);
+  assert.ok(manOfWar.keyFacts.length >= 20);
+  assert.ok(manOfWar.threats.length >= 4);
+  assert.ok(manOfWar.conservationActions.length >= 6);
+
+  assert.equal(manOfWar.media.gallery?.length, 5);
+  const mediaPaths = [
+    manOfWar.media.image,
+    ...manOfWar.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/portuguese-man-of-war/01-atlantic-surface-colony-portrait.webp',
+    './images/species/portuguese-man-of-war/02-specialized-zooids-under-float.webp',
+    './images/species/portuguese-man-of-war/03-raised-crest-wind-drift.webp',
+    './images/species/portuguese-man-of-war/04-unequal-tentacles-prey-contact.webp',
+    './images/species/portuguese-man-of-war/05-attached-developing-gonodendron.webp',
+    './images/species/portuguese-man-of-war/06-stranded-colony-no-contact.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  const mediaRecords = [manOfWar.media, ...manOfWar.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    manOfWar.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint, credit }) =>
+        credit === 'Fauna Atlas · AI 生成科学情景重建' &&
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-atlantic-surface-colony-portrait-source.png',
+    '02-specialized-zooids-under-float-source.png',
+    '03-raised-crest-wind-drift-source.png',
+    '04-unequal-tentacles-prey-contact-source.png',
+    '05-attached-developing-gonodendron-source.png',
+    '06-stranded-colony-no-contact-source.png',
+  ];
+  assert.deepEqual(
+    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    mediaPaths.map((path) =>
+      path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
+    ),
+  );
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/portuguese-man-of-war/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%n',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, frameCount] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque, frameCount },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+          frameCount: '1',
+        },
+      );
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+  const imageHashes = await Promise.all(
+    imageFiles.map(async ({ url }) =>
+      createHash('sha256').update(await readFile(url)).digest('hex'),
+    ),
+  );
+  assert.equal(new Set(imageHashes).size, 12);
+
+  assert.equal(manOfWar.sources.length, 32);
+  assert.equal(
+    new Set(manOfWar.sources.map(({ url }) => url)).size,
+    manOfWar.sources.length,
+  );
+  assert.ok(manOfWar.sources.every(({ title }) => title.length > 0));
+  assert.ok(manOfWar.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(manOfWar.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    manOfWar.sources.every(({ accessedAt }) => accessedAt === '2026-08-29'),
+  );
+  assert.deepEqual(
+    new Set(manOfWar.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'distribution', 'ecology', 'conservation', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=135479',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/135479',
+    'https://pmc.ncbi.nlm.nih.gov/articles/PMC12224019/',
+    'https://pmc.ncbi.nlm.nih.gov/articles/PMC6820529/',
+    'https://www.iucnredlist.org/search?query=Physalia%20physalis&searchType=species',
+    'https://cites.org/eng/app/appendices.php',
+    'https://checklist.cites.org/',
+  ]) {
+    assert.ok(
+      manOfWar.sources.some(({ url }) => url === requiredUrl),
+      `portuguese-man-of-war sources should include ${requiredUrl}`,
+    );
+  }
+
+  const editorialText = [
+    manOfWar.summary,
+    manOfWar.description,
+    manOfWar.distribution.range,
+    ...manOfWar.distribution.regions,
+    ...manOfWar.habitats.flatMap(({ name, description }) => [name, description]),
+    manOfWar.diet.description,
+    ...manOfWar.diet.foods,
+    ...(manOfWar.activity ?? []),
+    ...manOfWar.tags,
+    ...(manOfWar.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...manOfWar.keyFacts,
+    ...manOfWar.threats,
+    ...manOfWar.conservationActions,
+    ...manOfWar.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /(?:一个|同一)胚胎.{0,40}(?:出芽|开始).{0,80}(?:遗传同源|克隆).{0,20}zooid/i,
+  );
+  assert.match(
+    editorialText,
+    /不是.{0,40}单体水母.{0,50}不是.{0,40}(?:多个物种|多物种).{0,20}(?:临时)?共生/,
+  );
+  assert.match(
+    editorialText,
+    /无口的tentacular palpon.{0,100}(?:捕食|截获).{0,100}有口.{0,50}gastrozooid.{0,80}(?:摄食|消化)/i,
+  );
+  assert.match(editorialText, /gonodendron.{0,50}(?:繁殖|生殖)zooid/i);
+  assert.match(editorialText, /共享.{0,20}(?:胃循环腔|胃循环系统|胃腔)/);
+  assert.match(
+    editorialText,
+    /浮囊.{0,40}空气.{0,30}(?:比例会变化|比例可变|可变比例).{0,20}一氧化碳/,
+  );
+  assert.match(
+    editorialText,
+    /风.{0,30}表层流.{0,50}(?:左右镜像型|帆形).{0,50}(?:触手阻力|触手水阻)/,
+  );
+  assert.match(editorialText, /没有舵.{0,30}(?:不会|不能).{0,20}选择目的地/);
+  assert.match(editorialText, /左右型.{0,20}不由半球或性别决定/);
+  assert.match(editorialText, /2025年.{0,60}151份.{0,30}(?:基因组|样本)/);
+  assert.match(editorialText, /4,?047张.{0,30}(?:可用观察)?照片/);
+  assert.match(editorialText, /五个.{0,20}谱系.{0,30}至少四个物种/);
+  assert.match(editorialText, /2026年.{0,60}(?:五种|第五个名称|第五谱系)/);
+  assert.match(
+    editorialText,
+    /群体.{0,30}(?:雌雄异体|要么是雄性.{0,20}要么是雌性|雄性或雌性)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:卵、planula、成熟gonodendron脱落|成熟gonodendron.{0,30}脱落).{0,80}(?:仍未|尚未|未被).{0,20}(?:连续)?直接观察/i,
+  );
+  assert.match(editorialText, /(?:没有证据支持|不能|不应|不是).{0,20}底栖水螅阶段/);
+  assert.match(
+    editorialText,
+    /搁浅、断裂或看似干燥.{0,30}(?:仍|也).{0,20}(?:蜇伤|放电)/,
+  );
+  assert.match(
+    editorialText,
+    /遵循.{0,20}(?:事发地|当地).{0,30}(?:卫生、救生或毒物中心|急救)协议/,
+  );
+  assert.match(editorialText, /没有.{0,20}全球.{0,30}统一醋规则/);
+  assert.match(
+    editorialText,
+    /IUCN.{0,30}(?:尚未|未).{0,10}评估.{0,30}NE.{0,20}(?:未知|未评估).{0,20}(?:而非|不等于|不是)无危/,
+  );
+
+  const zooidCaption = manOfWar.media.gallery[0].caption ?? '';
+  assert.match(zooidCaption, /AI生成科学情景重建/);
+  assert.match(zooidCaption, /不能鉴定个体、计数zooid、测量结构/);
+  assert.match(zooidCaption, /不能.{0,20}证明.{0,20}分工行为/);
+  const driftCaption = manOfWar.media.gallery[1].caption ?? '';
+  assert.match(driftCaption, /AI生成科学情景重建/);
+  assert.match(
+    driftCaption,
+    /不能(?:判定左右型、)?鉴定(?:海上个体|物种)、测量偏角或速度/,
+  );
+  assert.match(driftCaption, /不证明.{0,30}轨迹.{0,20}直接观察/);
+  const preyCaption = manOfWar.media.gallery[2].caption ?? '';
+  assert.match(preyCaption, /AI生成科学情景重建/);
+  assert.match(preyCaption, /不能鉴定群体、测量触手或毒液/);
+  assert.match(
+    preyCaption,
+    /不证明.{0,20}捕获瞬间、猎物种类或收缩路径.{0,20}直接记录/,
+  );
+  const gonodendronCaption = manOfWar.media.gallery[3].caption ?? '';
+  assert.match(gonodendronCaption, /AI科学情景重建/);
+  assert.match(gonodendronCaption, /仍附着、尚在发育/);
+  assert.match(
+    gonodendronCaption,
+    /不证明.{0,30}成熟脱落、配子释放、受精或后续行为/,
+  );
+  const strandingCaption = manOfWar.media.gallery[4].caption ?? '';
+  assert.match(strandingCaption, /AI生成科学情景重建/);
+  assert.match(
+    strandingCaption,
+    /不证明.{0,30}死亡、残体的实际毒力或毒力维持时长/,
+  );
+  assert.match(strandingCaption, /任何部分都不要触摸/);
+
+  assert.equal(manOfWar.featured, true);
+  assert.equal(manOfWar.publishedAt, '2026-08-29');
+  assert.equal(manOfWar.updatedAt, '2026-08-29');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 74);
+  assert.equal(species.length, 75);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -12883,6 +13220,13 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
+  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Anthozoa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Scyphozoa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Hydrozoa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
