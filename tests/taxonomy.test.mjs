@@ -12334,10 +12334,251 @@ test('registers the Common Octopus as a complete Octopus vulgaris sensu stricto 
   assert.equal(commonOctopus.updatedAt, '2026-08-28');
 });
 
+test('registers the Atlantic blue sea slug as a complete Glaucus atlanticus profile', async () => {
+  const blueSeaSlug = findSpecies('atlantic-blue-sea-slug');
+
+  assert.equal(blueSeaSlug.id, 'species-glaucus-atlanticus');
+  assert.equal(blueSeaSlug.names.zh, '大西洋海神海蛞蝓');
+  assert.equal(blueSeaSlug.names.en, 'Atlantic Blue Sea Slug');
+  assert.ok(blueSeaSlug.names.aliases.includes('Blue Sea Dragon'));
+  assert.equal(blueSeaSlug.scientificName, 'Glaucus atlanticus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(blueSeaSlug).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Mollusca', '软体动物门'],
+      ['class', 'Gastropoda', '腹足纲'],
+      ['order', 'Nudibranchia', '裸鳃目'],
+      ['family', 'Glaucidae', '海神鳃科'],
+      ['genus', 'Glaucus', '海神鳃属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: blueSeaSlug.conservation.code,
+      trend: blueSeaSlug.conservation.trend,
+      assessedYear: blueSeaSlug.conservation.assessedYear,
+      criteria: blueSeaSlug.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(blueSeaSlug.distribution.realms, ['marine']);
+  assert.ok(blueSeaSlug.distribution.regions.some((region) => /大西洋/.test(region)));
+  assert.ok(blueSeaSlug.distribution.regions.some((region) => /印度洋/.test(region)));
+  assert.ok(blueSeaSlug.distribution.regions.some((region) => /太平洋/.test(region)));
+  assert.equal(blueSeaSlug.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.ok(blueSeaSlug.habitats.every(({ realm }) => realm === 'marine'));
+  assert.equal(blueSeaSlug.measurements.length?.max, 43);
+  assert.equal(blueSeaSlug.measurements.length?.unit, 'mm');
+  assert.match(blueSeaSlug.measurements.length?.note ?? '', /WoRMS.{0,40}6 cm/);
+  assert.match(blueSeaSlug.measurements.length?.note ?? '', /15–35 mm/);
+  assert.deepEqual(blueSeaSlug.diet.types, ['carnivore']);
+  assert.deepEqual(blueSeaSlug.diet.foods, [
+    '僧帽水母属 Physalia',
+    '帆水母 Velella velella',
+    '银币水母 Porpita porpita',
+  ]);
+  assert.equal(blueSeaSlug.storySections?.length, 6);
+  assert.equal(new Set(blueSeaSlug.storySections?.map(({ key }) => key)).size, 6);
+  assert.equal(blueSeaSlug.featuredStats.length, 4);
+  assert.equal(new Set(blueSeaSlug.featuredStats.map(({ key }) => key)).size, 4);
+  assert.ok(blueSeaSlug.keyFacts.length >= 9);
+  assert.deepEqual(blueSeaSlug.threats, []);
+  assert.deepEqual(blueSeaSlug.metrics, {});
+  assert.ok(blueSeaSlug.conservationActions.length >= 5);
+
+  assert.equal(blueSeaSlug.media.gallery?.length, 5);
+  const mediaPaths = [
+    blueSeaSlug.media.image,
+    ...blueSeaSlug.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/atlantic-blue-sea-slug/01-ocean-surface-adult-portrait.webp',
+    './images/species/atlantic-blue-sea-slug/02-upside-down-countershading.webp',
+    './images/species/atlantic-blue-sea-slug/03-physalia-feeding.webp',
+    './images/species/atlantic-blue-sea-slug/04-cerata-cnidosac-closeup.webp',
+    './images/species/atlantic-blue-sea-slug/05-free-egg-strings.webp',
+    './images/species/atlantic-blue-sea-slug/06-veliger-larva.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  const mediaRecords = [blueSeaSlug.media, ...blueSeaSlug.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    blueSeaSlug.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint, credit }) =>
+        credit === 'Fauna Atlas · AI 生成原创图像' &&
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-ocean-surface-adult-portrait-source.png',
+    '02-upside-down-countershading-source.png',
+    '03-physalia-feeding-source.png',
+    '04-cerata-cnidosac-closeup-source.png',
+    '05-free-egg-strings-source.png',
+    '06-veliger-larva-source.png',
+  ];
+  assert.deepEqual(
+    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    mediaPaths.map((path) =>
+      path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
+    ),
+  );
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/atlantic-blue-sea-slug/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque] = metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+  for (const urls of [runtimeUrls, sourceUrls]) {
+    const hashes = await Promise.all(
+      urls.map(async (url) =>
+        createHash('sha256').update(await readFile(url)).digest('hex'),
+      ),
+    );
+    assert.equal(new Set(hashes).size, 6);
+  }
+
+  assert.equal(blueSeaSlug.sources.length, 19);
+  assert.equal(
+    new Set(blueSeaSlug.sources.map(({ url }) => url)).size,
+    blueSeaSlug.sources.length,
+  );
+  assert.ok(blueSeaSlug.sources.every(({ title }) => title.length > 0));
+  assert.ok(blueSeaSlug.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(blueSeaSlug.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    blueSeaSlug.sources.every(({ accessedAt }) => accessedAt === '2026-08-29'),
+  );
+  assert.deepEqual(
+    new Set(blueSeaSlug.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'distribution', 'ecology', 'conservation', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=140022',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/140022',
+    'https://doi.org/10.1071/IS13038',
+    'https://doi.org/10.1007/s00227-014-2389-7',
+    'https://doi.org/10.1007/s12526-021-01233-5',
+    'https://doi.org/10.1002/ecy.70062',
+  ]) {
+    assert.ok(
+      blueSeaSlug.sources.some(({ url }) => url === requiredUrl),
+      `atlantic-blue-sea-slug sources should include ${requiredUrl}`,
+    );
+  }
+
+  const editorialText = [
+    blueSeaSlug.summary,
+    blueSeaSlug.description,
+    blueSeaSlug.distribution.range,
+    ...blueSeaSlug.habitats.flatMap(({ name, description }) => [name, description]),
+    blueSeaSlug.measurements.length?.note ?? '',
+    blueSeaSlug.diet.description,
+    ...blueSeaSlug.diet.foods,
+    ...(blueSeaSlug.activity ?? []),
+    ...blueSeaSlug.tags,
+    ...(blueSeaSlug.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...blueSeaSlug.keyFacts,
+    ...blueSeaSlug.threats,
+    ...blueSeaSlug.conservationActions,
+    ...blueSeaSlug.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(editorialText, /(?:海气界面|海面漂浮|表层漂浮|neuston)/i);
+  assert.match(editorialText, /(?:腹面|足面).{0,30}(?:朝上|向上|天空)/);
+  assert.match(
+    editorialText,
+    /(?:银白.{0,10}(?:真)?背面.{0,20}(?:深水|向下)|(?:背面|背侧).{0,20}银白.{0,20}(?:深水|向下))/,
+  );
+  assert.match(editorialText, /(?:空气|气泡).{0,40}(?:胃腔|浮力)/);
+  assert.match(editorialText, /每侧四组.{0,80}前三组.{0,80}第四组.{0,30}无柄/);
+  assert.match(editorialText, /单列鳃突/);
+  assert.match(editorialText, /(?:鳃突多列.{0,30}Glaucilla|Glaucilla.{0,50}近似种)/);
+  assert.match(editorialText, /Physalia|僧帽水母/);
+  assert.match(editorialText, /Velella|帆水母/);
+  assert.match(editorialText, /Porpita|银币水母/);
+  assert.match(editorialText, /(?:刺丝囊|kleptocn)/i);
+  assert.match(editorialText, /(?:同时雌雄同体|雌雄同体)/);
+  assert.match(editorialText, /(?:面盘幼体|veliger)/i);
+  assert.match(editorialText, /19\s*°?C.{0,80}(?:2\.5|3\s*天|72\s*小时)/i);
+  assert.match(editorialText, /IUCN.{0,50}(?:NE|未评估)/i);
+  assert.match(editorialText, /(?:数量|种群).{0,50}(?:未知|缺乏|没有可靠)/);
+
+  assert.equal(blueSeaSlug.featured, true);
+  assert.equal(blueSeaSlug.publishedAt, '2026-08-29');
+  assert.equal(blueSeaSlug.updatedAt, '2026-08-29');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 72);
+  assert.equal(species.length, 73);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -12356,7 +12597,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
@@ -12364,6 +12605,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Octopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Octopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Octopus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Nudibranchia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Glaucidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Glaucus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
