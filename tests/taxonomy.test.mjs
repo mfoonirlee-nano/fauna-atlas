@@ -65,6 +65,96 @@ function withTaxon(profile, rank, taxon) {
   };
 }
 
+async function assertGeneratedImageSet({
+  profile,
+  slug,
+  basenames,
+  credit = 'Fauna Atlas · AI 生成科学情景重建',
+}) {
+  assert.equal(basenames.length, 6);
+  assert.equal(profile.media.gallery?.length, 5);
+
+  const gallery = profile.media.gallery ?? [];
+  const mediaRecords = [profile.media, ...gallery];
+  const mediaPaths = mediaRecords.map(({ image }) => image);
+  assert.deepEqual(
+    mediaPaths,
+    basenames.map((basename) => `./images/species/${slug}/${basename}.webp`),
+  );
+  assert.equal(new Set(mediaPaths).size, 6);
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint, credit: mediaCredit }) =>
+        mediaCredit === credit &&
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const runtimeUrls = basenames.map(
+    (basename) =>
+      new URL(
+        `../public/images/species/${slug}/${basename}.webp`,
+        import.meta.url,
+      ),
+  );
+  const sourceUrls = basenames.map(
+    (basename) =>
+      new URL(
+        `../src/assets/source/species/${slug}/${basename}-source.png`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%n',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, frameCount] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque, frameCount },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+          frameCount: '1',
+        },
+      );
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+
+  const imageHashes = await Promise.all(
+    imageFiles.map(async ({ url }) =>
+      createHash('sha256').update(await readFile(url)).digest('hex'),
+    ),
+  );
+  assert.equal(new Set(imageHashes).size, 12);
+}
+
 test('builds one uniquely keyed taxonomy leaf for every catalogue profile', () => {
   const tree = buildTaxonomyTree(species);
   const nodes = flatten(tree);
@@ -13518,10 +13608,144 @@ test('registers the Crown-of-thorns Starfish as a complete Acanthaster planci pr
   assert.equal(crownOfThorns.updatedAt, '2026-08-29');
 });
 
+test('registers the Japanese Sea Cucumber with the post-2017 species boundary', async () => {
+  const profile = findSpecies('japanese-sea-cucumber');
+
+  assert.equal(profile.id, 'species-apostichopus-japonicus');
+  assert.equal(profile.names.zh, '仿刺参');
+  assert.equal(profile.names.en, 'Japanese Spiky Sea Cucumber');
+  assert.equal(profile.scientificName, 'Apostichopus japonicus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Echinodermata'],
+      ['class', 'Holothuroidea'],
+      ['order', 'Synallactida'],
+      ['family', 'Stichopodidae'],
+      ['genus', 'Apostichopus'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    { code: 'EN', trend: 'decreasing', assessedYear: 2010, criteria: 'A2bd' },
+  );
+  assert.match(
+    profile.conservation.assessor,
+    /2010-05-19.{0,40}2013年发布.{0,60}早于2017年.*拆分/,
+  );
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.countries, [
+    '中国',
+    '日本',
+    '朝鲜',
+    '韩国',
+    '俄罗斯',
+  ]);
+  assert.deepEqual(profile.measurements, {});
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['detritivore']);
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(profile.keyFacts.length, 28);
+  assert.equal(profile.threats.length, 5);
+  assert.equal(profile.conservationActions.length, 7);
+  assert.equal(profile.featuredStats.length, 4);
+  const colorTypeStat = profile.featuredStats.find(
+    ({ key }) => key === 'former-color-types',
+  );
+  assert.equal(colorTypeStat?.label, '原三色型现行归属');
+  assert.equal(colorTypeStat?.value, '2');
+  assert.match(colorTypeStat?.note ?? '', /不是该属全球物种数/);
+  assert.ok(
+    !profile.featuredStats.some(({ label }) => label === '现行属内有效种'),
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'japanese-sea-cucumber',
+    basenames: [
+      '01-rocky-reef-red-adult-portrait',
+      '02-peltate-tentacle-sediment-feeding',
+      '03-ventral-tube-feet-locomotion',
+      '04-summer-aestivation-rock-shelter',
+      '05-upright-egg-release-reconstruction',
+      '06-auricularia-larva-microscopy',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 22);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 22);
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-29'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'ecology']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=241776',
+    'https://www.marinespecies.org/aphia.php?p=taxlist&tName=Apostichopus',
+    'https://doi.org/10.11646/zootaxa.4350.1.7',
+    'https://doi.org/10.2305/IUCN.UK.2013-1.RLTS.T180424A1629389.en',
+    'https://doi.org/10.2331/suisan.27.97',
+    'https://doi.org/10.1111/j.1365-2109.2011.03078.x',
+  ]) {
+    assert.ok(profile.sources.some(({ url }) => url === requiredUrl));
+  }
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+    ...(profile.media.gallery ?? []).map(({ caption }) => caption ?? ''),
+  ].join(' ');
+
+  assert.match(editorialText, /红色型.{0,80}(?:严格)?Apostichopus japonicus/i);
+  assert.match(editorialText, /绿色型和黑色型.{0,40}A\. armatus/i);
+  assert.match(editorialText, /(?:照片|图像|画面).{0,100}(?:不能|无法).{0,60}(?:鉴定|确认)/);
+  assert.match(editorialText, /背侧体壁.{0,80}骨片/);
+  assert.match(editorialText, /IUCN.{0,100}(?:早于|拆分前|分类口径)/i);
+  assert.match(editorialText, /(?:至少下降60%|≥60).{0,100}(?:广义种|拆分前|不是当前严格本种)/);
+  assert.match(editorialText, /20枚.{0,30}(?:盾状)?口触手|二十枚盾状触手/);
+  assert.match(
+    profile.media.gallery?.[0]?.caption ?? '',
+    /接触沉积物.{0,80}不能证明正在抓取或摄入颗粒/,
+  );
+  assert.match(editorialText, /前端背侧.{0,30}单一生殖孔/);
+  assert.match(editorialText, /透明.{0,30}耳状幼体/);
+  assert.match(editorialText, /放流前.{0,80}(?:物种|遗传).{0,40}(?:病原|对照)/);
+  assert.equal(profile.featured, false);
+  assert.equal(profile.publishedAt, '2026-08-29');
+  assert.equal(profile.updatedAt, '2026-08-29');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 76);
+  assert.equal(species.length, 77);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -13539,11 +13763,15 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'class', 'Asteroidea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Valvatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Acanthasteridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Acanthaster')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Holothuroidea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Synallactida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Stichopodidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Apostichopus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);

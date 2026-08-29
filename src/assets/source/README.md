@@ -78,6 +78,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Giant Clam image set](./species/giant-clam/README.md)
 - [Portuguese Man o' War image set](./species/portuguese-man-of-war/README.md)
 - [Crown-of-thorns Starfish image set](./species/crown-of-thorns-starfish/README.md)
+- [Japanese Sea Cucumber image set](./species/japanese-sea-cucumber/README.md)
 
 ## Image compression workflow
 
