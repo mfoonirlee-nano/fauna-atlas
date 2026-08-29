@@ -13742,10 +13742,141 @@ test('registers the Japanese Sea Cucumber with the post-2017 species boundary', 
   assert.equal(profile.updatedAt, '2026-08-29');
 });
 
+test('registers the Giant Gippsland Earthworm as a complete endemic profile', async () => {
+  const profile = findSpecies('giant-gippsland-earthworm');
+
+  assert.equal(profile.id, 'species-megascolides-australis');
+  assert.equal(profile.names.zh, '巨蚯蚓');
+  assert.equal(profile.names.en, 'Giant Gippsland Earthworm');
+  assert.equal(profile.scientificName, 'Megascolides australis');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Annelida'],
+      ['class', 'Clitellata'],
+      ['order', 'Crassiclitellata'],
+      ['family', 'Megascolecidae'],
+      ['genus', 'Megascolides'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'unknown',
+      assessedYear: 2013,
+      criteria: 'B1ab(iii)+2ab(iii)',
+    },
+  );
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.countries, ['澳大利亚']);
+  assert.deepEqual(profile.distribution.endemicTo, [
+    '澳大利亚维多利亚州南部和西部吉普斯兰',
+  ]);
+  assert.deepEqual(profile.measurements.length, {
+    typical: 80,
+    max: 150,
+    unit: 'cm',
+    note: '成体平均约80厘米；现代可靠记录可达约1.5米。身体可伸缩，未采用缺少现代标本支持的3米旧报告。',
+  });
+  assert.deepEqual(profile.measurements.weight, {
+    typical: 200,
+    max: 400,
+    unit: 'g',
+    note: '成体平均约200克，现代研究和政府资料记录最高接近400克；不是所有成体范围。',
+  });
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['detritivore']);
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(profile.keyFacts.length, 22);
+  assert.equal(profile.threats.length, 8);
+  assert.equal(profile.conservationActions.length, 10);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.deepEqual(profile.media.focalPoint, { x: 0.35, y: 0.55 });
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'giant-gippsland-earthworm',
+    basenames: [
+      '01-moist-clay-burrow-adult',
+      '02-purple-anterior-segmented-body',
+      '03-streambank-clay-habitat-cutaway',
+      '04-wet-permanent-burrow-movement',
+      '05-amber-egg-cocoon-side-chamber',
+      '06-acoustic-hydrology-monitoring',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 18);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 18);
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-29'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'general', 'ecology']),
+  );
+  for (const requiredUrl of [
+    'https://biodiversity.org.au/afd/taxa/Megascolides_australis',
+    'https://doi.org/10.2305/IUCN.UK.2014-1.RLTS.T13008A21416160.en',
+    'https://www.dcceew.gov.au/sites/default/files/documents/giant-gippsland-earthworm.pdf',
+    'https://collections.museumsvictoria.com.au/species/14381',
+    'https://doi.org/10.1016/0038-0717(92)90119-I',
+  ]) {
+    assert.ok(profile.sources.some(({ url }) => url === requiredUrl));
+  }
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...(profile.media.gallery ?? []).map(({ caption }) => caption ?? ''),
+  ].join(' ');
+
+  assert.match(editorialText, /IUCN.{0,80}(?:濒危|EN)/i);
+  assert.match(editorialText, /EPBC.{0,30}(?:易危|VU)/i);
+  assert.match(editorialText, /FFG.{0,30}(?:濒危|EN)/i);
+  assert.match(editorialText, /40,000公顷.{0,100}(?:不足10平方米|小于10平方米)/);
+  assert.match(editorialText, /(?:没有可靠的全种数量|全种总量.{0,20}未知)/);
+  assert.match(editorialText, /3米.{0,80}(?:没有|未采用|缺少).{0,30}(?:标本|支持)/);
+  assert.match(editorialText, /全年湿润.{0,30}(?:不积水|不长期积水)/);
+  assert.match(editorialText, /每个卵茧只有一个胚胎.{0,40}(?:至少需要12个月|至少孵化12个月)/);
+  assert.match(editorialText, /性成熟.{0,30}(?:4至5年|4—5年).{0,40}(?:寿命未知|最大寿命未知)/);
+  assert.match(editorialText, /(?:密集植树|密植).{0,80}(?:水文|水分)/);
+  assert.match(editorialText, /迁地.{0,80}(?:最后手段|原地避让|难以确定)/);
+  assert.match(editorialText, /(?:咕噜声|声音).{0,60}不能.{0,40}(?:个体数|种群数量|趋势)/);
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-29');
+  assert.equal(profile.updatedAt, '2026-08-29');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 77);
+  assert.equal(species.length, 78);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -13772,6 +13903,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Synallactida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Stichopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Apostichopus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Clitellata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Crassiclitellata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Megascolecidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Megascolides')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
