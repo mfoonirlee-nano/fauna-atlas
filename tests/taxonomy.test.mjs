@@ -13206,10 +13206,322 @@ test('registers the Portuguese Man-of-War as a complete Physalia physalis profil
   assert.equal(manOfWar.updatedAt, '2026-08-29');
 });
 
+test('registers the Crown-of-thorns Starfish as a complete Acanthaster planci profile', async () => {
+  const crownOfThorns = findSpecies('crown-of-thorns-starfish');
+
+  assert.equal(crownOfThorns.id, 'species-acanthaster-planci');
+  assert.equal(crownOfThorns.slug, 'crown-of-thorns-starfish');
+  assert.equal(crownOfThorns.names.zh, '棘冠海星');
+  assert.equal(crownOfThorns.names.en, 'Crown-of-thorns Starfish');
+  assert.equal(crownOfThorns.scientificName, 'Acanthaster planci');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(crownOfThorns).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Echinodermata'],
+      ['class', 'Asteroidea'],
+      ['order', 'Valvatida'],
+      ['family', 'Acanthasteridae'],
+      ['genus', 'Acanthaster'],
+    ],
+  );
+
+  assert.equal(crownOfThorns.conservation.code, 'NE');
+  assert.equal(crownOfThorns.conservation.trend, 'unknown');
+  assert.equal(Object.hasOwn(crownOfThorns.conservation, 'assessedYear'), false);
+  assert.equal(Object.hasOwn(crownOfThorns.conservation, 'criteria'), false);
+  assert.deepEqual(crownOfThorns.distribution.realms, ['marine']);
+  assert.match(crownOfThorns.distribution.range, /北印度洋/);
+  assert.ok(crownOfThorns.distribution.countries.length > 0);
+  assert.ok(
+    crownOfThorns.distribution.countries.every(
+      (country) =>
+        !/(?:澳大利亚|大堡礁|太平洋|日本|菲律宾|巴布亚新几内亚|斐济|新喀里多尼亚|瓦努阿图|萨摩亚|汤加|帕劳|马绍尔群岛|密克罗尼西亚|夏威夷|美国|墨西哥|巴拿马|厄瓜多尔|红海|埃及|沙特阿拉伯|以色列|约旦|苏丹|厄立特里亚|也门|吉布提|南印度洋|南非|莫桑比克|马达加斯加|毛里求斯|留尼汪|塞舌尔|坦桑尼亚|肯尼亚)/.test(
+          country,
+        ),
+    ),
+    'the structured country list must stay within the conservative northern Indian Ocean range',
+  );
+  assert.ok(crownOfThorns.habitats.every(({ realm }) => realm === 'marine'));
+
+  assert.equal(crownOfThorns.storySections?.length, 6);
+  assert.equal(new Set(crownOfThorns.storySections?.map(({ key }) => key)).size, 6);
+  assert.equal(crownOfThorns.featuredStats.length, 4);
+  assert.equal(new Set(crownOfThorns.featuredStats.map(({ key }) => key)).size, 4);
+  assert.ok(crownOfThorns.keyFacts.length >= 20);
+  assert.ok(crownOfThorns.threats.length >= 5);
+  assert.ok(crownOfThorns.conservationActions.length >= 7);
+
+  assert.equal(crownOfThorns.media.gallery?.length, 5);
+  const mediaPaths = [
+    crownOfThorns.media.image,
+    ...crownOfThorns.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/crown-of-thorns-starfish/01-coral-reef-adult-portrait.webp',
+    './images/species/crown-of-thorns-starfish/02-dorsal-disc-arms-and-spines.webp',
+    './images/species/crown-of-thorns-starfish/03-everted-stomach-coral-feeding.webp',
+    './images/species/crown-of-thorns-starfish/04-reef-high-density-mosaic.webp',
+    './images/species/crown-of-thorns-starfish/05-broadcast-spawning-plume.webp',
+    './images/species/crown-of-thorns-starfish/06-five-arm-juvenile-coralline-algae.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  const mediaRecords = [
+    crownOfThorns.media,
+    ...crownOfThorns.media.gallery,
+  ];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    crownOfThorns.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint, credit }) =>
+        credit === 'Fauna Atlas · AI 生成科学情景重建' &&
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-coral-reef-adult-portrait-source.png',
+    '02-dorsal-disc-arms-and-spines-source.png',
+    '03-everted-stomach-coral-feeding-source.png',
+    '04-reef-high-density-mosaic-source.png',
+    '05-broadcast-spawning-plume-source.png',
+    '06-five-arm-juvenile-coralline-algae-source.png',
+  ];
+  assert.deepEqual(
+    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    mediaPaths.map((path) =>
+      path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
+    ),
+  );
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/crown-of-thorns-starfish/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]|%n',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque, frameCount] =
+        metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque, frameCount },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+          frameCount: '1',
+        },
+      );
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+  const imageHashes = await Promise.all(
+    imageFiles.map(async ({ url }) =>
+      createHash('sha256').update(await readFile(url)).digest('hex'),
+    ),
+  );
+  assert.equal(new Set(imageHashes).size, 12);
+
+  assert.equal(
+    new Set(crownOfThorns.sources.map(({ url }) => url)).size,
+    crownOfThorns.sources.length,
+  );
+  assert.ok(crownOfThorns.sources.every(({ title }) => title.length > 0));
+  assert.ok(crownOfThorns.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(crownOfThorns.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    crownOfThorns.sources.every(({ accessedAt }) => accessedAt === '2026-08-29'),
+  );
+  assert.deepEqual(
+    new Set(crownOfThorns.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'distribution', 'ecology', 'conservation', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=213289',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/213289',
+    'https://www.aims.gov.au/research-topics/marine-life/crown-thorns-starfish',
+    'https://pmc.ncbi.nlm.nih.gov/articles/PMC3424128/',
+    'https://pmc.ncbi.nlm.nih.gov/articles/PMC9023020/',
+    'https://doi.org/10.1201/b17143-4',
+    'https://doi.org/10.1007/s00338-025-02637-6',
+    'https://www.iucnredlist.org/search?query=Acanthaster%20planci&searchType=species',
+    'https://cites.org/eng/app/appendices.php',
+  ]) {
+    assert.ok(
+      crownOfThorns.sources.some(({ url }) => url === requiredUrl),
+      `crown-of-thorns-starfish sources should include ${requiredUrl}`,
+    );
+  }
+
+  const editorialText = [
+    crownOfThorns.summary,
+    crownOfThorns.description,
+    crownOfThorns.distribution.range,
+    ...crownOfThorns.distribution.regions,
+    ...crownOfThorns.habitats.flatMap(({ name, description }) => [
+      name,
+      description,
+    ]),
+    crownOfThorns.diet.description,
+    ...crownOfThorns.diet.foods,
+    ...(crownOfThorns.activity ?? []),
+    ...crownOfThorns.tags,
+    ...(crownOfThorns.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...crownOfThorns.keyFacts,
+    ...crownOfThorns.threats,
+    ...crownOfThorns.conservationActions,
+    ...crownOfThorns.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    editorialText,
+    /(?:WoRMS.{0,100}(?:接受|有效).{0,120}(?:四|4).{0,20}(?:谱系|物种)|(?:四|4).{0,20}(?:谱系|物种).{0,120}WoRMS.{0,100}(?:接受|有效))/i,
+  );
+  assert.match(editorialText, /(?:种界|分类).{0,50}(?:冲突|不一致|尚未统一|未协调|口径并存)/);
+  assert.match(
+    editorialText,
+    /(?:AIMS|澳大利亚海洋科学研究所|大堡礁|GBR|太平洋).{0,180}(?:Acanthaster\s+spp\.?|Acanthaster属|A\.?\s*cf\.?\s*solaris)/i,
+  );
+  assert.match(
+    editorialText,
+    /(?:(?:太平洋|大堡礁|GBR).{0,160}(?:而非|不是|不作|不能|不可|不应).{0,80}(?:本种|严格种级|狭义|Acanthaster\s+planci)|(?:本种|严格种级|狭义|Acanthaster\s+planci).{0,80}(?:而非|不是|不作|不能|不可|不应).{0,160}(?:太平洋|大堡礁|GBR))/i,
+  );
+  assert.match(
+    editorialText,
+    /(?:自然|原生|本土).{0,40}(?:珊瑚捕食者|捕食珊瑚)|(?:珊瑚捕食者|捕食珊瑚).{0,40}(?:自然|原生|本土)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:低密度|正常密度|常态密度|背景密度|非暴发).{0,100}(?:生态|自然|更新|多样性|不等于|不同)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:暴发|爆发|高密度).{0,100}(?:活珊瑚|造礁珊瑚|珊瑚覆盖).{0,70}(?:损失|下降|死亡|破坏)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:(?:胃|胃囊).{0,30}(?:外翻|翻出|伸出).{0,100}(?:活珊瑚|珊瑚组织|珊瑚)|(?:外翻|翻出|伸出).{0,30}(?:胃|胃囊).{0,100}(?:活珊瑚|珊瑚组织|珊瑚))/,
+  );
+  assert.match(
+    editorialText,
+    /(?:(?:取食|进食).{0,20}(?:白斑|疤痕|痕迹).{0,60}(?:不同于|有别于|不是|并非|不能混同|不能等同).{0,40}白化|白化.{0,60}(?:不同于|有别于|不是|并非|不能混同|不能等同).{0,40}(?:取食|进食).{0,20}(?:白斑|疤痕|痕迹))/,
+  );
+  assert.match(
+    editorialText,
+    /(?:(?:暴发|爆发).{0,100}(?:多因素|多个因素|共同作用|因素叠加|没有单一|尚无单一|不能归因于单一|竞争假说)|(?:多因素|多个因素|共同作用|因素叠加|没有单一|尚无单一|不能归因于单一|竞争假说).{0,100}(?:暴发|爆发))/,
+  );
+  const outbreakHypothesisPatterns = [
+    /(?:营养盐|富营养化|陆源径流|水质)/,
+    /(?:捕食者|捕食压力|捕食释放)/,
+    /(?:幼体存活|幼体补充|招募)/,
+    /(?:洋流|海流|输送|连通性)/,
+    /(?:气候|海温|温度|降雨|风暴)/,
+  ];
+  assert.ok(
+    outbreakHypothesisPatterns.filter((pattern) => pattern.test(editorialText))
+      .length >= 3,
+    'the profile should retain at least three competing or interacting outbreak mechanisms',
+  );
+  assert.match(
+    editorialText,
+    /(?:五臂|5臂|五条臂).{0,80}(?:幼体|幼年|稚体)|(?:幼体|幼年|稚体).{0,80}(?:五臂|5臂|五条臂)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:幼体|幼年|稚体).{0,100}(?:壳状珊瑚藻|珊瑚藻|藻食)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:(?:随后|之后|后来|成长|发育).{0,120}(?:增加|长出|增多|形成).{0,50}(?:臂|棘).{0,120}(?:转向|改食|转食|开始).{0,50}(?:活珊瑚|珊瑚)|(?:随后|之后|后来|成长|发育).{0,120}(?:转向|改食|转食|开始).{0,50}(?:活珊瑚|珊瑚).{0,120}(?:增加|长出|增多|形成).{0,50}(?:臂|棘))/,
+  );
+  assert.match(
+    editorialText,
+    /(?:长棘|棘刺|毒棘|spines?).{0,80}(?:刺伤|疼痛|毒素|有毒|伤口)/i,
+  );
+  assert.match(
+    editorialText,
+    /(?:不要|不得|避免).{0,30}(?:徒手|触摸|搬动|处理)|(?:专业|受训|防护).{0,40}(?:处理|移除|接触)/,
+  );
+  assert.match(
+    editorialText,
+    /NE.{0,40}(?:不等于|并非|不是).{0,20}(?:LC|无危)/i,
+  );
+
+  const galleryCaptions = crownOfThorns.media.gallery.map(
+    ({ caption }) => caption ?? '',
+  );
+  assert.ok(
+    galleryCaptions.every((caption) => /AI.{0,10}科学情景重建/.test(caption)),
+  );
+  assert.ok(
+    galleryCaptions.every((caption) =>
+      /(?:不能|无法|不证明|不代表|不足以|不可)/.test(caption),
+    ),
+  );
+  const captionText = galleryCaptions.join(' ');
+  assert.match(
+    captionText,
+    /(?:(?:像素|画面|图像).{0,60}(?:不能|无法|不足以|不可).{0,60}(?:鉴定|确诊|确认|区分).{0,40}(?:Acanthaster|物种)|(?:Acanthaster|物种).{0,40}(?:不能|无法|不足以|不可).{0,60}(?:像素|画面|图像))/i,
+  );
+  assert.match(
+    captionText,
+    /(?:(?:不能|无法|不(?:能)?提供|不(?:能)?支持|不用于|不可).{0,50}(?:测量|量取|确定).{0,50}(?:臂数|棘长|体径|尺寸|数量|密度|范围|速率|配子量)|(?:臂数|棘长|体径|尺寸|数量|密度|范围|速率|配子量).{0,50}(?:不能|无法|不(?:能)?提供|不(?:能)?支持|不用于|不可).{0,50}(?:测量|量取|确定)?)/,
+  );
+
+  assert.equal(crownOfThorns.featured, true);
+  assert.equal(crownOfThorns.publishedAt, '2026-08-29');
+  assert.equal(crownOfThorns.updatedAt, '2026-08-29');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 75);
+  assert.equal(species.length, 76);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -13227,6 +13539,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Asteroidea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Valvatida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Acanthasteridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Acanthaster')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
