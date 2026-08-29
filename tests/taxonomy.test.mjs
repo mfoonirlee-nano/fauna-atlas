@@ -12575,10 +12575,304 @@ test('registers the Atlantic blue sea slug as a complete Glaucus atlanticus prof
   assert.equal(blueSeaSlug.updatedAt, '2026-08-29');
 });
 
+test('registers the giant clam as a complete Tridacna gigas profile', async () => {
+  const giantClam = findSpecies('giant-clam');
+
+  assert.equal(giantClam.id, 'species-tridacna-gigas');
+  assert.equal(giantClam.names.zh, '巨砗磲');
+  assert.equal(giantClam.names.en, 'Giant Clam');
+  assert.ok(giantClam.names.aliases.includes('大砗磲'));
+  assert.ok(giantClam.names.aliases.includes('True Giant Clam'));
+  assert.equal(giantClam.scientificName, 'Tridacna gigas');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(giantClam).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Mollusca', '软体动物门'],
+      ['class', 'Bivalvia', '双壳纲'],
+      ['order', 'Cardiida', '鸟蛤目'],
+      ['family', 'Cardiidae', '鸟蛤科'],
+      ['genus', 'Tridacna', '砗磲属'],
+    ],
+  );
+
+  assert.deepEqual(
+    {
+      code: giantClam.conservation.code,
+      trend: giantClam.conservation.trend,
+      assessedYear: giantClam.conservation.assessedYear,
+      criteria: giantClam.conservation.criteria,
+    },
+    {
+      code: 'CR',
+      trend: 'decreasing',
+      assessedYear: 2024,
+      criteria: 'A2acd',
+    },
+  );
+  assert.deepEqual(giantClam.distribution.realms, ['marine']);
+  assert.deepEqual(giantClam.distribution.continents, ['亚洲', '大洋洲']);
+  assert.equal(giantClam.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.ok(giantClam.habitats.every(({ realm }) => realm === 'marine'));
+  assert.match(
+    giantClam.habitats.map(({ description }) => description).join(' '),
+    /2\s*(?:–|—|-|至)\s*20\s*(?:m|米)/i,
+  );
+  assert.deepEqual(
+    {
+      max: giantClam.measurements.length?.max,
+      unit: giantClam.measurements.length?.unit,
+    },
+    { max: 137, unit: 'cm' },
+  );
+  assert.match(giantClam.measurements.length?.note ?? '', /壳长/);
+  assert.deepEqual(giantClam.diet.types, ['filter-feeder']);
+  assert.deepEqual(giantClam.diet.foods, [
+    '浮游植物与其他微型浮游生物',
+    '水体中的悬浮有机颗粒',
+  ]);
+  assert.deepEqual(giantClam.metrics, {});
+  assert.equal(giantClam.storySections?.length, 6);
+  assert.equal(new Set(giantClam.storySections?.map(({ key }) => key)).size, 6);
+  assert.equal(giantClam.featuredStats.length, 4);
+  assert.equal(new Set(giantClam.featuredStats.map(({ key }) => key)).size, 4);
+  assert.ok(giantClam.keyFacts.length >= 10);
+  assert.ok(giantClam.threats.length >= 5);
+  assert.ok(giantClam.conservationActions.length >= 7);
+
+  assert.equal(giantClam.media.gallery?.length, 5);
+  const mediaPaths = [
+    giantClam.media.image,
+    ...giantClam.media.gallery.map(({ image }) => image),
+  ];
+  assert.deepEqual(mediaPaths, [
+    './images/species/giant-clam/01-shallow-reef-adult-portrait.webp',
+    './images/species/giant-clam/02-heavy-shell-rib-profile.webp',
+    './images/species/giant-clam/03-mantle-and-siphonal-openings-macro.webp',
+    './images/species/giant-clam/04-sunlit-open-mantle.webp',
+    './images/species/giant-clam/05-broadcast-spawning-plume.webp',
+    './images/species/giant-clam/06-juvenile-byssal-attachment.webp',
+  ]);
+  assert.equal(new Set(mediaPaths).size, 6);
+  const mediaRecords = [giantClam.media, ...giantClam.media.gallery];
+  assert.ok(mediaRecords.every(({ alt }) => alt.length > 0));
+  assert.ok(
+    giantClam.media.gallery.every(
+      ({ title, caption }) => title.length > 0 && (caption?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(
+    mediaRecords.every(
+      ({ focalPoint, credit }) =>
+        credit === 'Fauna Atlas · AI 生成原创图像' &&
+        focalPoint &&
+        focalPoint.x >= 0 &&
+        focalPoint.x <= 1 &&
+        focalPoint.y >= 0 &&
+        focalPoint.y <= 1,
+    ),
+  );
+
+  const sourcePaths = [
+    '01-shallow-reef-adult-portrait-source.png',
+    '02-heavy-shell-rib-profile-source.png',
+    '03-mantle-and-siphonal-openings-macro-source.png',
+    '04-sunlit-open-mantle-source.png',
+    '05-broadcast-spawning-plume-source.png',
+    '06-juvenile-byssal-attachment-source.png',
+  ];
+  assert.deepEqual(
+    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    mediaPaths.map((path) =>
+      path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
+    ),
+  );
+  const runtimeUrls = mediaPaths.map(
+    (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
+  );
+  const sourceUrls = sourcePaths.map(
+    (filename) =>
+      new URL(
+        `../src/assets/source/species/giant-clam/${filename}`,
+        import.meta.url,
+      ),
+  );
+  const imageFiles = [
+    ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
+    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
+  ];
+  await Promise.all(imageFiles.map(({ url }) => access(url)));
+  await Promise.all(
+    imageFiles.map(async ({ format, url }) => {
+      const imagePath = fileURLToPath(url);
+      const { stdout: metadata } = await execFileAsync('magick', [
+        'identify',
+        '-quiet',
+        '-format',
+        '%m|%w|%h|%[colorspace]|%[opaque]',
+        imagePath,
+      ]);
+      const [actualFormat, width, height, colorspace, opaque] = metadata.split('|');
+      assert.deepEqual(
+        { actualFormat, width, height, colorspace, opaque },
+        {
+          actualFormat: format,
+          width: '1536',
+          height: '1024',
+          colorspace: 'sRGB',
+          opaque: 'True',
+        },
+      );
+      await execFileAsync('magick', [imagePath, 'null:']);
+    }),
+  );
+  for (const urls of [runtimeUrls, sourceUrls]) {
+    const hashes = await Promise.all(
+      urls.map(async (url) =>
+        createHash('sha256').update(await readFile(url)).digest('hex'),
+      ),
+    );
+    assert.equal(new Set(hashes).size, 6);
+  }
+
+  assert.equal(giantClam.sources.length, 28);
+  assert.equal(
+    new Set(giantClam.sources.map(({ url }) => url)).size,
+    giantClam.sources.length,
+  );
+  assert.ok(giantClam.sources.every(({ title }) => title.length > 0));
+  assert.ok(giantClam.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(giantClam.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    giantClam.sources.every(({ accessedAt }) => accessedAt === '2026-08-29'),
+  );
+  assert.deepEqual(
+    new Set(giantClam.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'distribution', 'ecology', 'conservation', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=207670',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/207670',
+    'https://doi.org/10.2305/IUCN.UK.2024-2.RLTS.T22137A119167161.en',
+    'https://cites.org/eng/app/appendices.php',
+    'https://www.fisheries.noaa.gov/species/true-giant-clam',
+    'https://doi.org/10.1016/0022-0981(92)90030-E',
+    'https://doi.org/10.2307/1542028',
+    'https://doi.org/10.1016/0044-8486(86)90094-3',
+    'https://doi.org/10.1016/0044-8486(86)90051-7',
+    'https://doi.org/10.1016/S0031-0182(04)00358-X',
+  ]) {
+    assert.ok(
+      giantClam.sources.some(({ url }) => url === requiredUrl),
+      `giant-clam sources should include ${requiredUrl}`,
+    );
+  }
+
+  const editorialText = [
+    giantClam.summary,
+    giantClam.description,
+    giantClam.distribution.range,
+    ...giantClam.habitats.flatMap(({ name, description }) => [name, description]),
+    giantClam.measurements.length?.note ?? '',
+    giantClam.diet.description,
+    ...giantClam.diet.foods,
+    ...(giantClam.activity ?? []),
+    ...giantClam.tags,
+    ...(giantClam.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...giantClam.keyFacts,
+    ...giantClam.threats,
+    ...giantClam.conservationActions,
+    ...giantClam.featuredStats.flatMap(({ label, value, note }) => [
+      label,
+      value,
+      note ?? '',
+    ]),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /4\s*(?:–|—|-|至)\s*6\s*(?:条|道).{0,80}(?:无|没有|不具|缺少).{0,30}叶片状鳞片/,
+  );
+  assert.match(
+    editorialText,
+    /(?:滤食|鳃滤食).{0,100}(?:光合|共生甲藻).{0,80}(?:两条|共同|互补|双重)/,
+  );
+  assert.match(editorialText, /(?:细胞外.{0,30}分支管道|分支管道.{0,30}细胞外)/);
+  assert.match(
+    editorialText,
+    /其他砗磲物种.{0,80}虹彩细胞.{0,100}巨砗磲本种.{0,30}(?:缺少|没有).{0,20}直接实验/,
+  );
+  assert.match(editorialText, /(?:闭壳|收拢双壳).{0,80}防御/);
+  assert.match(
+    editorialText,
+    /(?:食人贝|夹食|夹捕|捕食).{0,100}(?:没有可靠|没有证据|无可靠|不支持|并非|不是)|(?:没有可靠|没有证据|无可靠|不支持|并非|不是).{0,100}(?:食人贝|夹食|夹捕|捕食)/,
+  );
+  assert.match(editorialText, /先雄后雌/);
+  assert.match(editorialText, /先排精.{0,30}(?:再|后)排卵/);
+  assert.match(
+    editorialText,
+    /(?:约\s*)?5\s*亿.{0,150}(?:不等于|不能保证|并不意味着|不能抵消).{0,80}(?:快速恢复|高招募|补充成功|恢复成功|高受精率|幼体存活率|自然招募率|早期死亡|低密度受精失败)/,
+  );
+  assert.match(
+    editorialText,
+    /幼体.{0,100}(?:环境|海水).{0,30}(?:获得|摄取).{0,30}(?:共生甲?藻|藻株)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:IUCN.{0,50})?(?:估计.{0,50})?(?:三个世代.{0,30})?(?:约\s*)?100\s*年.{0,80}84\s*%|84\s*%.{0,80}(?:三个世代|(?:约\s*)?100\s*年).{0,50}估计/,
+  );
+  assert.match(editorialText, /(?:不是|并非).{0,30}全球.{0,20}(?:逐只)?普查/);
+  assert.match(
+    editorialText,
+    /CITES.{0,60}(?:附录\s*II|Appendix\s*II).{0,100}(?:不等于|不是|并非).{0,40}(?:全面禁贸|禁绝|禁止一切贸易)/i,
+  );
+  assert.match(
+    editorialText,
+    /60\s*(?:–|—|-|至)\s*76\s*年.{0,80}最大寿命.{0,30}(?:未知|未定|尚未确定)/,
+  );
+
+  const spawningCaption = giantClam.media.gallery[3].caption ?? '';
+  assert.match(
+    spawningCaption,
+    /(?:不|不能|无法)(?:判定|判断|区分).{0,30}(?:精子|卵|配子类型)|(?:精子|卵).{0,40}(?:不|不能|无法)(?:判定|判断|区分)/,
+  );
+  assert.match(spawningCaption, /不能.{0,30}释放顺序、数量/);
+  const juvenileCaption = giantClam.media.gallery[4].caption ?? '';
+  assert.match(
+    juvenileCaption,
+    /(?:不(?:提供|记录|支持|确定|推断).{0,30}(?:尺寸|年龄)|(?:尺寸|年龄).{0,30}(?:未知|不明|不确定|不(?:提供|记录|确定|推断)))/,
+  );
+  assert.match(
+    juvenileCaption,
+    /足丝.{0,30}(?:底物|礁面).{0,30}(?:接触|连接).{0,30}附着/,
+  );
+  assert.match(juvenileCaption, /(?:不表示|并非|不是).{0,30}永久锚定/);
+  assert.doesNotMatch(
+    juvenileCaption,
+    /\d+(?:\.\d+)?\s*(?:mm|cm|毫米|厘米|日龄|天龄|岁)/i,
+  );
+
+  assert.equal(giantClam.featured, true);
+  assert.equal(giantClam.publishedAt, '2026-08-29');
+  assert.equal(giantClam.updatedAt, '2026-08-29');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 73);
+  assert.equal(species.length, 74);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -12597,7 +12891,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
@@ -12609,6 +12903,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Nudibranchia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Glaucidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Glaucus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Bivalvia')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Cardiida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Cardiidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Tridacna')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
