@@ -14893,10 +14893,234 @@ test('registers the Gila Monster as a complete Heloderma suspectum profile', asy
   assert.equal(profile.updatedAt, '2026-08-30');
 });
 
+test('registers the Ringed Caecilian as a complete Siphonops annulatus profile', async () => {
+  const profile = findSpecies('ringed-caecilian');
+
+  assert.equal(profile.id, 'species-siphonops-annulatus');
+  assert.equal(profile.slug, 'ringed-caecilian');
+  assert.equal(profile.names.zh, '环纹蚓螈');
+  assert.equal(profile.names.en, 'Ringed Caecilian');
+  assert.deepEqual(profile.names.aliases, [
+    'Ringed Caecilia',
+    'Ilulo Anillado',
+    'Cecília-anelada',
+  ]);
+  assert.equal(profile.scientificName, 'Siphonops annulatus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Amphibia', '两栖纲'],
+      ['order', 'Gymnophiona', '蚓螈目'],
+      ['family', 'Siphonopidae', '环管蚓科'],
+      ['genus', 'Siphonops', '环管蚓属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'unknown',
+      assessedYear: 2014,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['南美洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '阿根廷',
+    '玻利维亚',
+    '巴西',
+    '哥伦比亚',
+    '厄瓜多尔',
+    '圭亚那',
+    '秘鲁',
+    '苏里南',
+    '委内瑞拉',
+  ]);
+  assert.deepEqual(profile.distribution.endemicTo, ['南美洲']);
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 0.72, unit: 'm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /单只.{0,20}保存标本.{0,30}极端记录.{0,40}不代表.{0,20}典型/,
+  );
+  assert.equal(profile.measurements.weight, undefined);
+  assert.deepEqual(profile.metrics, {});
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(new Set(profile.storySections?.map(({ key }) => key)).size, 6);
+  assert.ok(profile.keyFacts.length >= 18);
+  assert.ok(profile.conservationActions.length >= 7);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'ringed-caecilian',
+    basenames: [
+      '01-cacao-agroforest-adult-portrait',
+      '02-annuli-and-blunt-head-profile',
+      '03-shallow-smooth-walled-tunnel',
+      '04-root-chamber-egg-attendance',
+      '05-maternal-dermatophagy-hatchlings',
+      '06-cacao-soil-active-search',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 18);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 18);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://amphibiansoftheworld.amnh.org/Amphibia/Gymnophiona/Siphonopidae/Siphonops/Siphonops-annulatus',
+    'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=668505',
+    'https://doi.org/10.11646/zootaxa.2874.1.3',
+    'https://doi.org/10.2305/IUCN.UK.2014-1.RLTS.T59593A43784684.en',
+    'https://doi.org/10.11646/zootaxa.2984.1.1',
+    'https://doi.org/10.1098/rsbl.2008.0217',
+    'https://doi.org/10.1111/azo.12254',
+    'https://doi.org/10.1126/science.adi5379',
+    'https://doi.org/10.1038/s41598-018-22005-5',
+    'https://doi.org/10.1016/j.isci.2020.101234',
+    'https://doi.org/10.21757/0103-3816.2015v27n3p233-238',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `ringed-caecilian sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const galleryCaptions = new Map(
+    profile.media.gallery?.map(({ image, caption }) => [image.split('/').at(-1), caption]) ?? [],
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    profile.media.alt,
+    ...(profile.media.gallery ?? []).flatMap(({ alt, title, caption }) => [
+      alt,
+      title,
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    profile.description,
+    /IUCN.{0,30}2014 年无危.{0,30}全球种群趋势和数量仍未知/,
+  );
+  assert.match(
+    profile.distribution.range,
+    /相隔区域.{0,50}采集空缺.{0,50}未解决的种界.{0,80}法属圭亚那.{0,30}质疑.{0,30}巴拉圭.{0,30}凭证.{0,30}乌拉圭.{0,30}推测/,
+  );
+  assert.match(
+    storyBodies.get('an-amphibian-without-legs') ?? '',
+    /没有四肢.{0,50}属于两栖纲.{0,80}蚓螈目环管蚓科.{0,60}旧资料.{0,30}口径已经改变/,
+  );
+  assert.match(
+    storyBodies.get('lubricated-soil-tunnels') ?? '',
+    /黏液腺.{0,40}含脂质.{0,50}光滑.{0,20}隧道.{0,70}20 厘米.{0,30}不是.{0,30}整个物种/,
+  );
+  assert.match(
+    storyBodies.get('two-ends-two-gland-systems') ?? '',
+    /齿相关腺.{0,50}酶活性.{0,70}尚未证实毒性和有效注入.{0,60}不能.{0,30}毒牙/,
+  );
+  assert.match(
+    storyBodies.get('maternal-skin-feeding') ?? '',
+    /暂时性.{0,20}多尖.{0,20}牙齿.{0,40}外层表皮.{0,80}一次.{0,20}七分钟.{0,80}不能.{0,30}固定日程/,
+  );
+  assert.match(
+    storyBodies.get('oviduct-milk-provisioning') ?? '',
+    /输卵管腺.{0,60}脂质和碳水化合物.{0,60}约两个月.{0,30}泄殖孔.{0,70}没有乳房或乳头.{0,80}触发机制仍待检验/,
+  );
+  assert.match(
+    storyBodies.get('wide-range-hidden-questions') ?? '',
+    /2014 年列为无危.{0,70}全球数量和趋势没有可靠估计.{0,80}采集空缺或未识别谱系/,
+  );
+  assert.match(
+    galleryCaptions.get('02-annuli-and-blunt-head-profile.webp') ?? '',
+    /触突孔.{0,40}(?:未稳定分辨|不能稳定分辨).{0,60}不能.{0,30}环沟计数/,
+  );
+  assert.match(
+    galleryCaptions.get('03-shallow-smooth-walled-tunnel.webp') ?? '',
+    /不能证明.{0,30}挖掘.{0,40}长期占用.{0,40}真实深度.{0,40}完整洞系/,
+  );
+  assert.match(
+    galleryCaptions.get('04-root-chamber-egg-attendance.webp') ?? '',
+    /八枚卵.{0,40}受控构图.{0,50}不能.{0,40}亲缘.{0,50}物种级窝卵数.{0,50}孵化成功率/,
+  );
+  assert.match(
+    galleryCaptions.get('05-maternal-dermatophagy-hatchlings.webp') ?? '',
+    /五只幼体.{0,50}接触姿态.{0,50}不能证明.{0,30}吞咽.{0,70}不表现泄殖腔分泌物/,
+  );
+  assert.match(
+    galleryCaptions.get('06-cacao-soil-active-search.webp') ?? '',
+    /零动物.{0,30}不能证明缺失.{0,70}检测结果.{0,50}丰度.{0,50}无扰动/,
+  );
+
+  assert.doesNotMatch(editorialText, /Siphonops annulatus.{0,30}(?:命名于|描述于).{0,10}1820/);
+  assert.doesNotMatch(editorialText, /现行(?:分类|分类链).{0,30}Caeciliidae|属于蚓螈科/);
+  assert.doesNotMatch(editorialText, /全球种群(?:保持|为|呈).{0,10}稳定/);
+  assert.doesNotMatch(editorialText, /连续(?:遍布|分布于).{0,20}南美洲/);
+  assert.doesNotMatch(editorialText, /(?:一般|通常|成体).{0,15}(?:长|可达).{0,10}72\s*厘米/);
+  assert.doesNotMatch(editorialText, /环纹蚓螈(?:是|属于).{0,8}(?:完全|固定|全年)?夜行/);
+  assert.doesNotMatch(editorialText, /(?:已经|已被)?证实.{0,20}(?:毒牙|注毒|毒液咬合)/);
+  assert.doesNotMatch(editorialText, /每(?:三天|64 小时).{0,30}(?:食皮|吃母皮).{0,20}七分钟/);
+  assert.doesNotMatch(editorialText, /(?:乳房|乳头).{0,20}(?:分泌|喂养|哺乳)/);
+  assert.doesNotMatch(editorialText, /育幼(?:固定|总共|长达).{0,10}(?:3|三|5|五|6|六)个月/);
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-30');
+  assert.equal(profile.updatedAt, '2026-08-30');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 84);
+  assert.equal(species.length, 85);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -14994,12 +15218,15 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 84);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 63);
+  assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 85);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 64);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
