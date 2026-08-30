@@ -14167,10 +14167,182 @@ test('registers the Star-nosed Mole as a complete Condylura cristata profile', a
   assert.equal(profile.updatedAt, '2026-08-30');
 });
 
+test('registers the Kākāpō as a complete Strigops habroptilus profile', async () => {
+  const profile = findSpecies('kakapo');
+
+  assert.equal(profile.id, 'species-strigops-habroptilus');
+  assert.equal(profile.slug, 'kakapo');
+  assert.equal(profile.names.zh, '鸮鹦鹉');
+  assert.equal(profile.names.en, 'Kākāpō');
+  assert.deepEqual(profile.names.aliases, ['Kakapo', 'Owl Parrot']);
+  assert.equal(profile.scientificName, 'Strigops habroptilus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Psittaciformes', '鹦形目'],
+      ['family', 'Strigopidae', '鸮鹦鹉科'],
+      ['genus', 'Strigops', '鸮鹦鹉属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    { code: 'CR', trend: 'increasing', assessedYear: 2018, criteria: 'A2be' },
+  );
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['大洋洲']);
+  assert.deepEqual(profile.distribution.countries, ['新西兰']);
+  assert.deepEqual(profile.distribution.endemicTo, ['新西兰']);
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 58, max: 64, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: 1, max: 4, unit: 'kg' },
+  );
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [58, 64],
+    adultMassKg: [1, 4],
+    estimatedMatureIndividuals: [116, 116],
+  });
+  assert.equal(profile.storySections?.length, 6);
+  assert.ok(profile.keyFacts.length >= 15);
+  assert.equal(profile.featuredStats.length, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'kakapo',
+    basenames: [
+      '01-moss-forest-nocturnal-portrait',
+      '02-full-body-diagnostic-profile',
+      '03-male-track-and-bowl-booming',
+      '04-rimu-fruit-tree-foraging',
+      '05-female-ground-cavity-two-eggs',
+      '06-radio-telemetry-island-monitoring',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 18);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 18);
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'conservation', 'distribution', 'ecology']),
+  );
+  for (const requiredUrl of [
+    'https://www.avilist.org/checklist/v2025b/',
+    'https://www.worldbirdnames.org/new/updates/taxonomy/',
+    'https://www.nzbirdsonline.org.nz/species/kakapo',
+    'https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22685245A129751169.en',
+    'https://nrl.iucnredlist.org/assessment/process',
+    'https://www.doc.govt.nz/kakapo',
+    'https://www.doc.govt.nz/news/media-releases/2026-media-releases/fast-dna-sex-test-game-changer-for-conservation/',
+    'https://www.doc.govt.nz/news/media-releases/2022-media-releases/bumper-breeding-season-boosts-kakapo-population/',
+    'https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-breeding-season-officially-underway/',
+    'https://doi.org/10.1111/acv.12746',
+    'https://doi.org/10.1038/s41559-023-02165-y',
+    'https://doi.org/10.1111/mec.70252',
+    'https://pmc.ncbi.nlm.nih.gov/articles/PMC9668684/',
+  ]) {
+    assert.ok(profile.sources.some(({ url }) => url === requiredUrl));
+  }
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.measurements.weight?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    profile.media.alt,
+    ...(profile.media.gallery ?? []).flatMap(({ alt, title, caption }) => [
+      alt,
+      title,
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    editorialText,
+    /IUCN.{0,100}2018.{0,100}116\s*只成熟个体/i,
+  );
+  assert.match(
+    editorialText,
+    /2026(?: 年|-).{0,100}235\s*只.{0,100}(?:全龄|在世管理台账|在世野外个体)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*IUCN.{0,100}2018)(?=[\s\S]*(?:2026-08-30|截至 2026).{0,100}尚未越过十年(?:过期线|更新期限))/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*150\s*日龄.{0,100}(?:纳入|官方数字))(?=[\s\S]*雏鸟.{0,120}(?:不能|不可).{0,40}直接.{0,40}台账.{0,30}相加)/,
+  );
+  assert.match(
+    editorialText,
+    /1[—-]4\s*枚.{0,50}27[—-]31\s*天.{0,60}70\s*日龄.{0,60}9\s*个月/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*2[—-]4\s*年)(?=[\s\S]*补充饲料.{0,100}(?:没有|未).{0,30}证明.{0,40}(?:单独)?(?:触发|启动)(?:繁殖|筑巢))/,
+  );
+  assert.match(
+    editorialText,
+    /2019 年曲霉病暴发.{0,40}21 只.{0,30}9 只死亡.{0,80}(?:关联|单一)菌株.{0,40}(?:不足以|不能).{0,20}单独(?:解释|造成)/,
+  );
+  assert.match(
+    editorialText,
+    /近交程度升高.{0,50}孵化成功率相关.{0,40}(?:不是|并非)单基因因果/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-30');
+  assert.equal(profile.updatedAt, '2026-08-30');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 80);
+  assert.equal(species.length, 81);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -14268,7 +14440,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 59);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 81);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 60);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
@@ -14297,7 +14470,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'order', 'Psittaciformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Strigopidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Strigops')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Struthioniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Struthionidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Struthio')?.speciesCount, 1);
