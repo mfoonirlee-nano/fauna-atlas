@@ -83,6 +83,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Aardvark image set](./species/aardvark/README.md)
 - [Star-nosed Mole image set](./species/star-nosed-mole/README.md)
 - [Kākāpō image set](./species/kakapo/README.md)
+- [Hoatzin image set](./species/hoatzin/README.md)
 
 ## Image compression workflow
 

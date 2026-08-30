@@ -14339,10 +14339,142 @@ test('registers the Kākāpō as a complete Strigops habroptilus profile', async
   assert.equal(profile.updatedAt, '2026-08-30');
 });
 
+test('registers the Hoatzin as a complete Opisthocomus hoazin profile', async () => {
+  const profile = findSpecies('hoatzin');
+
+  assert.equal(profile.id, 'species-opisthocomus-hoazin');
+  assert.equal(profile.slug, 'hoatzin');
+  assert.equal(profile.names.zh, '麝雉');
+  assert.equal(profile.names.en, 'Hoatzin');
+  assert.deepEqual(profile.names.aliases, [
+    'Opisthocomus hoazin',
+    'Stinkbird',
+    'Canje Pheasant',
+    '臭雉',
+  ]);
+  assert.equal(profile.scientificName, 'Opisthocomus hoazin');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Opisthocomiformes', '麝雉目'],
+      ['family', 'Opisthocomidae', '麝雉科'],
+      ['genus', 'Opisthocomus', '麝雉属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'decreasing',
+      assessedYear: 2024,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(profile.distribution.realms, ['terrestrial', 'freshwater']);
+  assert.deepEqual(profile.distribution.continents, ['南美洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '玻利维亚',
+    '巴西',
+    '哥伦比亚',
+    '厄瓜多尔',
+    '法属圭亚那',
+    '圭亚那',
+    '秘鲁',
+    '苏里南',
+    '委内瑞拉',
+  ]);
+  assert.deepEqual(
+    {
+      typical: profile.measurements.length?.typical,
+      unit: profile.measurements.length?.unit,
+    },
+    { typical: 65, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      typical: profile.measurements.weight?.typical,
+      unit: profile.measurements.weight?.unit,
+    },
+    { typical: 0.72, unit: 'kg' },
+  );
+  assert.deepEqual(profile.metrics, { elevationM: [0, 1050] });
+  assert.equal(profile.storySections?.length, 6);
+  assert.ok(profile.keyFacts.length >= 15);
+  assert.equal(profile.featuredStats.length, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'hoatzin',
+    basenames: [
+      '01-floodplain-riparian-portrait',
+      '02-full-body-diagnostic-profile',
+      '03-young-leaf-foraging',
+      '04-enlarged-crop-foregut-cutaway',
+      '05-nestling-two-wing-claws',
+      '06-chick-surface-swimming',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 18);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 18);
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'conservation', 'distribution', 'ecology']),
+  );
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+
+  assert.match(
+    profile.description,
+    /IUCN 2024 年.{0,30}无危.{0,30}趋势下降.{0,30}成熟个体数未量化/i,
+  );
+  assert.match(
+    storyBodies.get('fermentation-before-stomach') ?? '',
+    /嗉囊.{0,20}后段食管.{0,100}总消化道容量.{0,20}77\s*%.{0,30}不是体重的 77\s*%/,
+  );
+  assert.match(
+    storyBodies.get('fermentation-before-stomach') ?? '',
+    /没有四个胃.{0,30}没有被证实会反刍嚼团/,
+  );
+  assert.match(
+    storyBodies.get('wing-claw-climber') ?? '',
+    /雏鸟每翼有两枚.{0,100}显著翼爪通常随成熟退化或消失/,
+  );
+  assert.match(
+    storyBodies.get('water-edge-nursery') ?? '',
+    /4 只雏鸟的实验.{0,40}水面和水下.{0,20}游泳.{0,30}实验没有测量野外.{0,20}跳水的频率/,
+  );
+  assert.match(
+    storyBodies.get('one-living-lineage') ?? '',
+    /不表示它是“原始鸟”、活化石或其他现代鸟的祖先/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-30');
+  assert.equal(profile.updatedAt, '2026-08-30');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 81);
+  assert.equal(species.length, 82);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -14440,8 +14572,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 81);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 60);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 82);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 61);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
@@ -14470,7 +14602,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'order', 'Opisthocomiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Opisthocomidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Opisthocomus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Psittaciformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Strigopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Strigops')?.speciesCount, 1);
