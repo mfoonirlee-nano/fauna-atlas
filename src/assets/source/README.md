@@ -84,6 +84,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Star-nosed Mole image set](./species/star-nosed-mole/README.md)
 - [Kākāpō image set](./species/kakapo/README.md)
 - [Hoatzin image set](./species/hoatzin/README.md)
+- [Chinese Alligator image set](./species/chinese-alligator/README.md)
 
 ## Image compression workflow
 

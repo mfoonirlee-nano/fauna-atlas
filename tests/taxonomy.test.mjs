@@ -14471,10 +14471,182 @@ test('registers the Hoatzin as a complete Opisthocomus hoazin profile', async ()
   assert.equal(profile.updatedAt, '2026-08-30');
 });
 
+test('registers the Chinese Alligator as a complete Alligator sinensis profile', async () => {
+  const profile = findSpecies('chinese-alligator');
+
+  assert.equal(profile.id, 'species-alligator-sinensis');
+  assert.equal(profile.slug, 'chinese-alligator');
+  assert.equal(profile.names.zh, '扬子鳄');
+  assert.equal(profile.names.en, 'Chinese Alligator');
+  assert.deepEqual(profile.names.aliases, [
+    'Yangtze Alligator',
+    '鼍',
+    '中华鼍',
+    '土龙',
+    '猪婆龙',
+  ]);
+  assert.equal(profile.scientificName, 'Alligator sinensis');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Reptilia', '爬行纲'],
+      ['order', 'Crocodylia', '鳄目'],
+      ['family', 'Alligatoridae', '短吻鳄科'],
+      ['genus', 'Alligator', '短吻鳄属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'CR',
+      trend: 'decreasing',
+      assessedYear: 2017,
+      criteria: 'A1b; B1ab(ii,v)+2ab(ii,v); C1+2a(i)',
+    },
+  );
+  assert.deepEqual(profile.distribution.realms, ['freshwater', 'terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['亚洲']);
+  assert.deepEqual(profile.distribution.countries, ['中国']);
+  assert.deepEqual(profile.distribution.endemicTo, ['中国']);
+  assert.deepEqual(
+    {
+      typical: profile.measurements.length?.typical,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { typical: 1.5, max: 2.16, unit: 'm' },
+  );
+  assert.equal(profile.measurements.weight, undefined);
+  assert.deepEqual(profile.metrics, {});
+  assert.equal(profile.storySections?.length, 6);
+  assert.ok(profile.keyFacts.length >= 27);
+  assert.equal(profile.featuredStats.length, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'chinese-alligator',
+    basenames: [
+      '01-lowland-wetland-adult-portrait',
+      '02-full-body-diagnostic-profile',
+      '03-bank-burrow-entrance',
+      '04-summer-bellowing-posture',
+      '05-vegetation-mound-nest',
+      '06-reintroduction-radio-monitoring',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 18);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 18);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'distribution', 'conservation', 'general', 'ecology']),
+  );
+  for (const requiredUrl of [
+    'https://doi.org/10.2305/IUCN.UK.2018-1.RLTS.T867A3146005.en',
+    'https://www.iucncsg.org/365_docs/attachments/protarea/1726a747dff36b92c73693a8e542b872.pdf',
+    'https://zoores.ac.cn/article/id/1011',
+    'https://doi.org/10.1121/1.2714910',
+    'https://doi.org/10.1016/j.scib.2018.01.004',
+    'https://doi.org/10.1016/j.isci.2020.101202',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `chinese-alligator sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const galleryCaptions = new Map(
+    profile.media.gallery?.map(({ image, caption }) => [image.split('/').at(-1), caption]) ?? [],
+  );
+
+  assert.match(
+    profile.description,
+    /2019 年约 200 只.{0,30}全年龄估计.{0,20}不是成熟个体数/,
+  );
+  assert.match(
+    profile.description,
+    /IUCN 当前仍列极危，2017 年评估趋势为下降/,
+  );
+  assert.match(
+    storyBodies.get('winter-under-the-bank') ?? '',
+    /安徽 40 个洞穴.{0,40}多数洞口.{0,20}水面.{0,20}离水不远/,
+  );
+  assert.match(
+    storyBodies.get('winter-under-the-bank') ?? '',
+    /没有给出每座洞穴的内部结构或每只野生鳄的能量账本/,
+  );
+  assert.match(
+    storyBodies.get('shell-crushing-feeder') ?? '',
+    /早期胃内容物比例.{0,30}缺少.{0,20}样本背景.{0,30}圈养中心.{0,20}人工饲料.{0,30}只给定性食谱/,
+  );
+  assert.match(
+    storyBodies.get('voices-across-the-pond') ?? '',
+    /没有为每种声音建立固定野外词义.{0,30}合唱吸引配偶或聚集群体仍需按实验条件表述/,
+  );
+  assert.match(
+    storyBodies.get('mound-nest-and-temperature') ?? '',
+    /29°C 孵化组全雌、34°C 孵化组全雄.{0,30}不是野外唯一阈值/,
+  );
+  assert.match(
+    storyBodies.get('mound-nest-and-temperature') ?? '',
+    /没有证明每只母鳄都执行相同步骤/,
+  );
+  assert.match(
+    storyBodies.get('recovery-with-provenance') ?? '',
+    /自然残存个体、放归个体、放归后代和圈养库存分开/,
+  );
+  assert.match(
+    storyBodies.get('recovery-with-provenance') ?? '',
+    /2016 年约 28,000 只.{0,80}2023 年约 10,000 只.{0,80}圈养数，不能替换野外种群/,
+  );
+  assert.match(
+    storyBodies.get('recovery-with-provenance') ?? '',
+    /基因组.{0,50}不能替代湿地恢复和长期野外监测/,
+  );
+  assert.match(
+    galleryCaptions.get('03-bank-burrow-entrance.webp') ?? '',
+    /不能证明个体挖掘或使用该洞、正在冬眠、固定出洞日期.{0,30}不揭示内部房间、水池、通气孔或隧道结构/,
+  );
+  assert.match(
+    galleryCaptions.get('04-summer-bellowing-posture.webp') ?? '',
+    /无声静帧.{0,30}不能证明声音发生.{0,50}识别性别.{0,30}指定求偶功能/,
+  );
+  assert.match(
+    galleryCaptions.get('05-vegetation-mound-nest.webp') ?? '',
+    /不能确定性别、亲缘、守巢、巢主、窝卵存在与数量、巢温/,
+  );
+  assert.match(
+    galleryCaptions.get('06-reintroduction-radio-monitoring.webp') ?? '',
+    /不证明个体为圈养繁育或放归来源.{0,30}携带可工作的发射器.{0,30}被接收机检出.{0,30}成功繁殖或长期存活/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-30');
+  assert.equal(profile.updatedAt, '2026-08-30');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 82);
+  assert.equal(species.length, 83);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -14551,8 +14723,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 8);
-  assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Gavialidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Gavialis')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Crocodylidae')?.speciesCount, 1);
@@ -14572,8 +14746,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 82);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 61);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 83);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 62);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
