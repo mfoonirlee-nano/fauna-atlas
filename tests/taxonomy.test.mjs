@@ -13873,10 +13873,143 @@ test('registers the Giant Gippsland Earthworm as a complete endemic profile', as
   assert.equal(profile.updatedAt, '2026-08-29');
 });
 
+test('registers the Aardvark as a complete Orycteropus afer profile', async () => {
+  const profile = findSpecies('aardvark');
+
+  assert.equal(profile.id, 'species-orycteropus-afer');
+  assert.equal(profile.slug, 'aardvark');
+  assert.equal(profile.names.zh, '土豚');
+  assert.equal(profile.names.en, 'Aardvark');
+  assert.equal(profile.scientificName, 'Orycteropus afer');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Tubulidentata'],
+      ['family', 'Orycteropodidae'],
+      ['genus', 'Orycteropus'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    { code: 'LC', trend: 'unknown', assessedYear: 2014, criteria: undefined },
+  );
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.equal(profile.distribution.countries.length, 42);
+  assert.equal(new Set(profile.distribution.countries).size, 42);
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 94, max: 142, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: 40, max: 65, unit: 'kg' },
+  );
+  assert.deepEqual(profile.metrics.adultLengthCm, [94, 142]);
+  assert.deepEqual(profile.metrics.adultMassKg, [40, 65]);
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(profile.featuredStats.length, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'aardvark',
+    basenames: [
+      '01-dusk-burrow-foraging',
+      '02-full-body-diagnostic-profile',
+      '03-termite-mound-excavation',
+      '04-sticky-tongue-termite-feeding',
+      '05-mother-single-juvenile',
+      '06-daytime-burrow-chamber-cutaway',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 15);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 15);
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
+  for (const requiredUrl of [
+    'https://www.mammaldiversity.org/taxon/1000520/',
+    'https://doi.org/10.2305/IUCN.UK.2015-2.RLTS.T41504A21286437.en',
+    'https://doi.org/10.1006/jare.2001.0854',
+    'https://doi.org/10.1017/S0952836903004217',
+    'https://doi.org/10.3389/fphys.2020.00637',
+    'https://doi.org/10.1080/15627020.2011.11407509',
+    'https://doi.org/10.3390/ani12070845',
+  ]) {
+    assert.ok(profile.sources.some(({ url }) => url === requiredUrl));
+  }
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...(profile.media.gallery ?? []).map(({ caption }) => caption ?? ''),
+  ].join(' ');
+
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:MDD|Mammal Diversity Database).{0,100}42)(?=[\s\S]*IUCN.{0,100}40)(?=[\s\S]*(?:旧|2014|历史).{0,120}(?:40|四十).{0,120}(?:不(?:等于|作为)|不能|未用于|有别于).{0,120}(?:42|四十二))/i,
+  );
+  assert.match(
+    editorialText,
+    /2015-2.{0,60}(?:发布|批次|版本).{0,100}(?:不能|不(?:是|作为)).{0,40}(?:评估年|评估年份)/,
+  );
+  assert.match(
+    editorialText,
+    /27.{0,100}(?:3|三)(?:个)?(?:南非)?(?:样地|地点|研究点).{0,160}(?:不能|不可|不代表|并非).{0,100}(?:全球|全分布区|所有洞穴|物种整体)/,
+  );
+  assert.match(
+    editorialText,
+    /20\s*(?:枚|颗).{0,30}(?:成年)?颊齿.{0,80}(?:无|没有|缺少)釉质.{0,80}(?:持续|终生)(?:生长|萌出)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*干旱.{0,160}白昼)(?=[\s\S]*白昼.{0,160}能量不足)(?=[\s\S]*(?:不能|不代表|并非|不是).{0,80}(?:固定)?昼行)/,
+  );
+  assert.equal(profile.publishedAt, '2026-08-30');
+  assert.equal(profile.updatedAt, '2026-08-30');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 78);
+  assert.equal(species.length, 79);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -13974,7 +14107,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 57);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 58);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 27);
+  assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);

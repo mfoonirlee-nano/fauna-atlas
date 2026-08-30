@@ -80,6 +80,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Crown-of-thorns Starfish image set](./species/crown-of-thorns-starfish/README.md)
 - [Japanese Sea Cucumber image set](./species/japanese-sea-cucumber/README.md)
 - [Giant Gippsland Earthworm image set](./species/giant-gippsland-earthworm/README.md)
+- [Aardvark image set](./species/aardvark/README.md)
 
 ## Image compression workflow
 
@@ -98,6 +99,14 @@ npm run convert:webp src/assets/source/species/<slug>/*-source.png
 ```
 
 Compress new sources with `npm run compress` before their first commit; git history keeps every earlier revision of already-committed files.
+
+If TinyPNG returns HTTP 429, compress only the new source files with the local palette fallback, record the fallback in the species README, inspect the result at original resolution, and rerun the WebP conversion:
+
+```bash
+pngquant --quality=80-95 --speed 1 --force --strip --ext .png \
+  src/assets/source/species/<slug>/*-source.png
+npm run convert:webp src/assets/source/species/<slug>/*-source.png
+```
 
 ## Landing-page hero
 
