@@ -14006,10 +14006,171 @@ test('registers the Aardvark as a complete Orycteropus afer profile', async () =
   assert.equal(profile.updatedAt, '2026-08-30');
 });
 
+test('registers the Star-nosed Mole as a complete Condylura cristata profile', async () => {
+  const profile = findSpecies('star-nosed-mole');
+
+  assert.equal(profile.id, 'species-condylura-cristata');
+  assert.equal(profile.slug, 'star-nosed-mole');
+  assert.equal(profile.names.zh, '星鼻鼹');
+  assert.equal(profile.names.en, 'Star-nosed Mole');
+  assert.deepEqual(profile.names.aliases, []);
+  assert.equal(profile.scientificName, 'Condylura cristata');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Eulipotyphla'],
+      ['family', 'Talpidae'],
+      ['genus', 'Condylura'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    { code: 'LC', trend: 'stable', assessedYear: 2016, criteria: undefined },
+  );
+  assert.deepEqual(profile.distribution.realms, ['terrestrial', 'freshwater']);
+  assert.deepEqual(profile.distribution.countries, ['加拿大', '美国']);
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 9.6, max: 12.8, unit: 'cm' },
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: 27, max: 52, unit: 'g' },
+  );
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [9.6, 12.8],
+    adultMassKg: [0.027, 0.052],
+    elevationM: [0, 1676],
+  });
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(profile.featuredStats.length, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'star-nosed-mole',
+    basenames: [
+      '01-wetland-edge-emergence',
+      '02-full-body-diagnostic-profile',
+      '03-nasal-star-sensory-closeup',
+      '04-underwater-bubble-sniffing',
+      '05-rapid-tactile-prey-detection',
+      '06-wetland-bank-burrow-cutaway',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 16);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 16);
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
+  for (const requiredUrl of [
+    'https://www.mammaldiversity.org/taxon/1004300/',
+    'https://www.fws.gov/taxonomic-tree/31607',
+    'https://qrius.si.edu/browse/object/10841938',
+    'https://doi.org/10.2305/IUCN.UK.2016-3.RLTS.T41458A22322697.en',
+    'https://nrl.iucnredlist.org/assessment/process',
+    'https://treatment.plazi.org/GgServer/xhtml/0380B547B657FF869FBCF812FE7BCEE7',
+    'https://doi.org/10.2307/1382980',
+    'https://doi.org/10.1002/cne.903510405',
+    'https://pubmed.ncbi.nlm.nih.gov/9336224/',
+    'https://doi.org/10.1002/cne.23943',
+    'https://doi.org/10.1371/journal.pone.0055001',
+    'https://doi.org/10.1038/nature03250',
+    'https://doi.org/10.1038/4441024a',
+    'https://doi.org/10.1242/jeb.205.1.45',
+    'https://doi.org/10.2307/1376681',
+    'https://georgiabiodiversity.org/portal/profile?es_id=17250&group=all',
+  ]) {
+    assert.ok(profile.sources.some(({ url }) => url === requiredUrl));
+  }
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.measurements.weight?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    profile.media.alt,
+    ...(profile.media.gallery ?? []).flatMap(({ alt, title, caption }) => [
+      alt,
+      title,
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*IUCN.{0,160}2016)(?=[\s\S]*(?:超过|已满).{0,20}(?:10|十)年)(?=[\s\S]*(?:(?:需|需要|待|应).{0,20}(?:更新|重评)|(?:更新|重评).{0,20}(?:期限|需求)))/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*22\s*(?:条|根))(?=[\s\S]*(?:每侧|每个鼻孔(?:周围)?).{0,24}11\s*(?:条|根))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:3|三)\s*只圈养个体.{0,220}(?:最短.{0,20})?120\s*毫秒)(?=[\s\S]*(?:加权)?平均.{0,40}227\s*毫秒)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:18|十八)\s*只圈养个体.{0,120}722\s*次(?:自愿)?潜水)(?=[\s\S]*(?:平均.{0,20})?9\.2\s*(?:±\s*0\.2\s*)?秒)(?=[\s\S]*(?:(?:9\.2\s*秒|圈养|水槽).{0,200}(?:不能|不是|不代表).{0,100}(?:野外|全种|固定)))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:(?:从|由)?(?:两个)?鼻孔.{0,30}(?:呼出|产生|释放).{0,30}气泡|气泡.{0,30}(?:来自|源自).{0,20}(?:两个)?鼻孔))(?=[\s\S]*(?:触条|星鼻).{0,50}(?:负责|提供|用于).{0,30}(?:触觉|接触))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:乔治亚州|Georgia).{0,160}(?:Data Deficient|DD|资料不足|数据缺乏))(?=[\s\S]*(?:(?:乔治亚州|州级|地方).{0,180}(?:不能|不可|不应).{0,100}(?:覆盖|替代|改写).{0,80}(?:全球|IUCN).{0,60}(?:LC|无危)|(?:全球|IUCN).{0,80}(?:LC|无危).{0,160}(?:不能|不可|不应).{0,80}(?:覆盖|替代|删除).{0,100}(?:乔治亚州|南缘|地方)))/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*HMW.{0,240}(?:头体长|9\.6.{0,24}12\.8))(?=[\s\S]*尾长.{0,80}(?:6\.5.{0,24}8\.35|65.{0,24}83\.5))(?=[\s\S]*(?:(?:不能|不可|不应).{0,100}(?:拼接|拼成|相加|合并).{0,100}(?:总长|范围|端点)|(?:端点|头体长|尾长).{0,100}(?:不能|不可|不应).{0,60}(?:拼接|拼成|相加|合并).{0,60}(?:总长|范围)))/,
+  );
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-30');
+  assert.equal(profile.updatedAt, '2026-08-30');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 79);
+  assert.equal(species.length, 80);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -14107,8 +14268,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 58);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 27);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 59);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
+  assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Condylura')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
