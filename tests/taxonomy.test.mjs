@@ -14643,10 +14643,260 @@ test('registers the Chinese Alligator as a complete Alligator sinensis profile',
   assert.equal(profile.updatedAt, '2026-08-30');
 });
 
+test('registers the Gila Monster as a complete Heloderma suspectum profile', async () => {
+  const profile = findSpecies('gila-monster');
+
+  assert.equal(profile.id, 'species-heloderma-suspectum');
+  assert.equal(profile.slug, 'gila-monster');
+  assert.equal(profile.names.zh, '美国毒蜥');
+  assert.equal(profile.names.en, 'Gila Monster');
+  assert.deepEqual(profile.names.aliases, [
+    '希拉毒蜥',
+    '吉拉毒蜥',
+    '钝尾毒蜥',
+    'Monstruo de Gila',
+    'Lagarto de Gila',
+  ]);
+  assert.equal(profile.scientificName, 'Heloderma suspectum');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Reptilia', '爬行纲'],
+      ['order', 'Squamata', '有鳞目'],
+      ['family', 'Helodermatidae', '毒蜥科'],
+      ['genus', 'Heloderma', '毒蜥属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NT',
+      trend: 'decreasing',
+      assessedYear: 2007,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['北美洲']);
+  assert.deepEqual(profile.distribution.countries, ['美国', '墨西哥']);
+  assert.equal(profile.distribution.endemicTo, undefined);
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 0.56, unit: 'm' },
+  );
+  assert.equal(profile.measurements.weight, undefined);
+  assert.deepEqual(profile.metrics, {});
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(profile.keyFacts.length >= 18);
+  assert.ok(profile.conservationActions.length >= 6);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'gila-monster',
+    basenames: [
+      '01-rocky-desert-scrub-adult-portrait',
+      '02-beaded-scales-diagnostic-profile',
+      '03-rock-burrow-entrance',
+      '04-ground-nest-egg-foraging',
+      '05-defensive-mouth-posture',
+      '06-radio-telemetry-habitat-monitoring',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 18);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 18);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=174113',
+    'https://reptile-database.reptarium.cz/Heloderma/suspectum',
+    'https://ssarherps.org/wp-content/uploads/2025/03/9th-Edition-Scientific-and-Standard-English-Names-of-Amphibians-and-Reptiles.pdf',
+    'https://doi.org/10.2305/IUCN.UK.2007.RLTS.T9865A13022716.en',
+    'https://www.dof.gob.mx/nota_detalle.php?codigo=5173091&fecha=30/12/2010',
+    'https://www.nps.gov/sagu/learn/nature/gila-monster.htm',
+    'https://doi.org/10.1098/rspb.2018.0632',
+    'https://doi.org/10.1242/jeb.227348',
+    'https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209210Orig1s000PharmR.pdf',
+    'https://doi.org/10.1177/10806032261447178',
+    'https://doi.org/10.1016/j.biocon.2003.07.002',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `gila-monster sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const galleryCaptions = new Map(
+    profile.media.gallery?.map(({ image, caption }) => [image.split('/').at(-1), caption]) ?? [],
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    profile.media.alt,
+    ...(profile.media.gallery ?? []).flatMap(({ alt, title, caption }) => [
+      alt,
+      title,
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    profile.description,
+    /IUCN 当前仍沿用 2007 年近危、下降评估/,
+  );
+  assert.match(
+    storyBodies.get('beads-pattern-and-tail') ?? '',
+    /横带和网纹.{0,50}没有.{0,60}现行亚种线.{0,40}物种级外形/,
+  );
+  assert.match(
+    storyBodies.get('seasons-belowground') ?? '',
+    /春季.{0,40}早晨或傍晚.{0,50}盛夏.{0,30}夜行.{0,80}冬季.{0,30}偶尔.{0,30}洞口晒太阳.{0,60}全年夜行.{0,30}过于/,
+  );
+  assert.match(
+    storyBodies.get('following-a-nest-scent') ?? '',
+    /卵、雏鸟、幼兔.{0,80}没有证据.{0,40}每只野生个体.{0,30}一年恰好吃三四顿/,
+  );
+  assert.match(
+    storyBodies.get('warning-before-biting') ?? '',
+    /静帧.{0,30}不能证明.{0,30}攻击.{0,30}毒液是否流动.{0,80}下颌腺.{0,50}沟齿.{0,30}低压进入伤口/,
+  );
+  assert.match(
+    storyBodies.get('hatch-before-emergence') ?? '',
+    /114 至 152 天.{0,70}秋季孵出.{0,40}巢内越冬.{0,60}9 至 12 个月.{0,60}全部叫作.{0,20}孵化期.{0,30}混淆/,
+  );
+  assert.match(
+    storyBodies.get('telemetry-through-hidden-seasons') ?? '',
+    /不能证明可见个体携带发射器.{0,50}不能代表全球家域或数量/,
+  );
+  assert.match(
+    editorialText,
+    /超过 95%.{0,50}(?:不是|不代表).{0,40}(?:每只个体|所有个体).{0,40}(?:固定|精确)/,
+  );
+  assert.match(
+    editorialText,
+    /2026 年.{0,40}(?:病例|病例报告).{0,80}“美国毒蜥咬伤从未致死”.{0,30}(?:过时|禁用)/,
+  );
+  assert.match(
+    editorialText,
+    /exenatide.{0,50}合成版本.{0,60}(?:不需要|不是).{0,70}(?:持续从美国毒蜥采毒|动物毒液直接提取)/i,
+  );
+  assert.match(
+    editorialText,
+    /城市冲突.{0,50}(?:受训|主管).{0,30}机构.{0,50}(?:不鼓励|不要|不得).{0,50}(?:抓取|捕捉).{0,30}(?:长距离搬迁|远迁)/,
+  );
+  assert.match(
+    galleryCaptions.get('02-beaded-scales-diagnostic-profile.webp') ?? '',
+    /透视.{0,30}足趾.{0,40}不用于解剖计数.{0,30}花纹.{0,50}(?:不能|不用于).{0,50}诊断.{0,10}亚种/,
+  );
+  assert.match(
+    galleryCaptions.get('03-rock-burrow-entrance.webp') ?? '',
+    /不证明.{0,40}(?:占用|挖掘).{0,50}(?:冬季|季节).{0,50}地下结构/,
+  );
+  assert.match(
+    galleryCaptions.get('04-ground-nest-egg-foraging.webp') ?? '',
+    /三枚完整小型鸟卵.{0,50}(?:不是|不代表).{0,30}完整窝卵数.{0,20}(?:食物|饮食)比例/,
+  );
+  assert.match(
+    galleryCaptions.get('05-defensive-mouth-posture.webp') ?? '',
+    /不能证明.{0,20}攻击意图.{0,20}咬合.{0,20}毒液流动/,
+  );
+  assert.match(
+    galleryCaptions.get('05-defensive-mouth-posture.webp') ?? '',
+    /没有清楚分辨牙列.{0,20}不能据此判断牙齿形态/,
+  );
+  assert.match(
+    galleryCaptions.get('06-radio-telemetry-habitat-monitoring.webp') ?? '',
+    /不证明可见个体携带发射器或正在回传信号/,
+  );
+
+  assert.doesNotMatch(editorialText, /IUCN.{0,20}(?:列为|评为|状态为).{0,10}(?:LC|无危)/i);
+  assert.doesNotMatch(editorialText, /(?:美国|墨西哥)(?:单国)?特有种/);
+  assert.doesNotMatch(editorialText, /海拔.{0,20}(?:0|零).{0,10}(?:至|—|-).{0,10}2,?134/);
+  assert.doesNotMatch(
+    editorialText,
+    /体重(?:范围)?(?:为|：).{0,10}0\.7.{0,10}(?:至|—|-).{0,10}2\.3/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:横带.{0,10}(?:就是|等于|诊断为).{0,10}cinctum|网纹.{0,10}(?:就是|等于|诊断为).{0,10}suspectum)/i,
+  );
+  assert.doesNotMatch(editorialText, /食谱(?:仅|只)(?:有|包括|包含)?.{0,10}(?:鸟)?蛋/);
+  assert.doesNotMatch(
+    editorialText,
+    /美国毒蜥(?:是|属于).{0,8}(?:完全|固定|全年)?夜行/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /美国毒蜥(?:拥有|具有|依靠).{0,15}(?:中空上颌长牙|蛇式毒牙)/,
+  );
+  assert.doesNotMatch(editorialText, /咬伤(?:从不|从未|不会)致死[。；]/);
+  assert.doesNotMatch(
+    editorialText,
+    /孵化期(?:为|约为|长达).{0,10}9.{0,5}(?:至|—|-).{0,5}12\s*个月/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /exenatide.{0,20}(?:直接|持续).{0,10}(?:提取自|采自|取自).{0,10}(?:美国毒蜥|毒液)/i,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-30');
+  assert.equal(profile.updatedAt, '2026-08-30');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 83);
+  assert.equal(species.length, 84);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -14723,7 +14973,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 10);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 1);
@@ -14739,15 +14989,17 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'family', 'Helodermatidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 83);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 62);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 84);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 63);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
