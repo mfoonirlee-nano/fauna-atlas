@@ -17350,10 +17350,297 @@ test('registers the Japanese Planarian as a complete Dugesia japonica profile', 
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers C. elegans as a complete Caenorhabditis elegans profile', async () => {
+  const profile = findSpecies('caenorhabditis-elegans');
+
+  assert.equal(profile.id, 'species-caenorhabditis-elegans');
+  assert.equal(profile.slug, 'caenorhabditis-elegans');
+  assert.equal(profile.names.zh, '秀丽隐杆线虫');
+  assert.equal(profile.names.en, 'C. elegans');
+  assert.deepEqual(profile.names.aliases, ['秀丽线虫', 'Rhabditis elegans']);
+  assert.equal(profile.scientificName, 'Caenorhabditis elegans');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Nematoda', '线虫动物门'],
+      ['class', 'Chromadorea', '色矛纲'],
+      ['order', 'Rhabditida', '小杆目'],
+      ['family', 'Rhabditidae', '小杆科'],
+      ['genus', 'Caenorhabditis', '隐杆线虫属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, [
+    '欧洲',
+    '亚洲',
+    '北美洲',
+    '南美洲',
+    '非洲',
+    '大洋洲',
+  ]);
+  assert.deepEqual(profile.distribution.countries, []);
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.equal(profile.habitats[0]?.isPrimary, true);
+  assert.deepEqual(profile.measurements, {
+    length: {
+      typical: 1,
+      unit: 'mm',
+      note: '成体雌雄同体的典型体长；雄虫和幼虫更短，体长还受年龄、品系、营养和姿势影响。',
+    },
+  });
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['bacterivore']);
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'rotting-plant-microhabitat',
+      'undulation-and-pharyngeal-feeding',
+      'hermaphrodite-and-male',
+      'four-larval-stages-and-dauer',
+      'cell-lineage-and-connectome',
+      'model-strain-versus-wild-species',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => [key, value, unit]),
+    [
+      ['adult-length', '约 1', '毫米'],
+      ['larval-stages', '4', '个'],
+      ['somatic-nuclei', '959', '个'],
+      ['hermaphrodite-neurons', '302', '个'],
+    ],
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'caenorhabditis-elegans',
+    basenames: [
+      '01-rotting-apple-habitat',
+      '02-transparent-hermaphrodite-dic',
+      '03-pharyngeal-bacterial-feeding',
+      '04-midbody-egg-laying',
+      '05-dauer-nictation',
+      '06-agar-plate-observation',
+    ],
+    credit: 'Fauna Atlas · AI 生成原创图像',
+  });
+
+  assert.equal(profile.sources.length, 23);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'ecology', 'distribution', 'conservation']),
+  );
+  assert.ok(
+    profile.sources.every(({ url }) =>
+      /^https:\/\/(?:doi\.org|www\.gbif\.org|www\.itis\.gov|www\.ncbi\.nlm\.nih\.gov|std\.samr\.gov\.cn|www\.wormatlas\.org|caendr\.org|www\.iucnredlist\.org|nrl\.iucnredlist\.org)\//.test(
+        url,
+      ),
+    ),
+    'C. elegans sources should be primary papers or authority records',
+  );
+  for (const requiredUrl of [
+    'https://www.gbif.org/taxon/87THG',
+    'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=63332',
+    'https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6239&lvl=0',
+    'https://std.samr.gov.cn/db/search/stdDBDetailed?id=0BBEE3C38FD9D900E06397BE0A0A632E',
+    'https://www.ncbi.nlm.nih.gov/books/NBK299460/',
+    'https://doi.org/10.1093/genetics/77.1.71',
+    'https://doi.org/10.1186/1741-7007-10-59',
+    'https://caendr.org/data/data-release/c-elegans/latest',
+    'https://doi.org/10.1038/s41467-022-31208-4',
+    'https://doi.org/10.1073/pnas.1607183113',
+    'https://doi.org/10.1038/s41467-017-00386-x',
+    'https://www.iucnredlist.org/search?query=Caenorhabditis%20elegans&searchType=species',
+    'https://nrl.iucnredlist.org/about/faqs',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `C. elegans sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(
+      ({ image, alt, title, caption, credit }) => [
+        image.split('/').at(-1),
+        [alt, title ?? '', caption ?? '', credit ?? ''].join(' '),
+      ],
+    ),
+  );
+  const habitatText = [
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+  ].join(' ');
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    habitatText,
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaTexts.values(),
+  ].join(' ');
+
+  assert.match(
+    habitatText,
+    /(?=[\s\S]*腐烂果实)(?=[\s\S]*茎秆)(?=[\s\S]*堆肥)(?=[\s\S]*微生物)(?=[\s\S]*(?:不等于|并非).{0,30}(?:普通矿质土壤|所有土壤))/,
+  );
+  assert.match(
+    profile.distribution.range,
+    /(?=[\s\S]*(?:多个大陆|全球))(?=[\s\S]*(?:采样强度|采样))(?=[\s\S]*(?:不能|不等于).{0,35}(?:处处常见|连续占域|完整分布))/,
+  );
+
+  const feedingText =
+    storyBodies.get('undulation-and-pharyngeal-feeding') ?? '';
+  assert.match(
+    [profile.diet.description, feedingText, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*(?:以细菌为食|食菌))(?=[\s\S]*(?:肌肉质咽|咽部))(?=[\s\S]*(?:研磨器|末端咽球))(?=[\s\S]*OP50.{0,40}(?:人工饲料|标准化饲料|实验室))(?=[\s\S]*(?:不能|只代表).{0,40}(?:自然食谱|自然食物|人工饲料))/,
+  );
+
+  const reproductionText = storyBodies.get('hermaphrodite-and-male') ?? '';
+  assert.match(
+    [reproductionText, profile.description, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*XX.{0,15}雌雄同体)(?=[\s\S]*XO.{0,12}雄虫)(?=[\s\S]*自体受精)(?=[\s\S]*(?:标准培养|培养中).{0,25}(?:约 )?300)(?=[\s\S]*(?:不能|不把).{0,30}(?:野外固定|固定产仔数|常数))/,
+  );
+
+  const developmentText =
+    storyBodies.get('four-larval-stages-and-dauer') ?? '';
+  assert.match(
+    [developmentText, ...(profile.activity ?? []), ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*L1)(?=[\s\S]*L2)(?=[\s\S]*L3)(?=[\s\S]*L4)(?=[\s\S]*20°C.{0,20}食物充足.{0,35}3\.5 天)(?=[\s\S]*(?:温度|营养).{0,20}(?:改变|依赖).{0,15}(?:时程|发育速度))/,
+  );
+  assert.match(
+    [developmentText, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*dauer.{0,20}(?:替代性|发育路线))(?=[\s\S]*(?:不取食|停止取食))(?=[\s\S]*nictation)(?=[\s\S]*(?:增加|提高).{0,20}(?:接触|载体).{0,20}机会)(?=[\s\S]*(?:静止姿态|静帧|单张).{0,25}(?:不能|无法).{0,20}(?:证明|确认).{0,20}dauer)/i,
+  );
+
+  const lineageText = storyBodies.get('cell-lineage-and-connectome') ?? '';
+  assert.match(
+    [lineageText, profile.description, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*1,090.{0,20}131.{0,25}(?:程序性死亡|死亡))(?=[\s\S]*959.{0,20}(?:体细胞核|细胞核))(?=[\s\S]*302.{0,15}神经元)(?=[\s\S]*(?:性别|雄虫).{0,25}(?:阶段|数字|不同))(?=[\s\S]*(?:不能|不).{0,25}(?:整种|整个物种).{0,15}959.{0,10}细胞)/,
+  );
+
+  const modelBoundaryText =
+    storyBodies.get('model-strain-versus-wild-species') ?? '';
+  assert.match(
+    [modelBoundaryText, profile.description, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*N2)(?=[\s\S]*(?:自然分离株|野外遗传多样性))(?=[\s\S]*(?:不能|依赖).{0,45}(?:整个野外物种|野外遗传多样性|品系与条件|全物种))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:未评估|\bNE\b))(?=[\s\S]*(?:不表示|不代表).{0,25}(?:无危|安全|数量稳定|没有威胁))/i,
+  );
+
+  const coverText = mediaTexts.get('01-rotting-apple-habitat.webp') ?? '';
+  assert.match(
+    coverText,
+    /(?=[\s\S]*(?:腐烂苹果|腐果))(?=[\s\S]*微生物薄膜)(?=[\s\S]*一只完整)(?=[\s\S]*成年)(?=[\s\S]*AI 生成原创图像)/,
+  );
+  assert.doesNotMatch(coverText, /现场实拍|野外凭证照片/);
+
+  const anatomyText =
+    mediaTexts.get('02-transparent-hermaphrodite-dic.webp') ?? '';
+  assert.match(
+    anatomyText,
+    /(?=[\s\S]*(?:DIC|微分干涉))(?=[\s\S]*(?:咽|前咽))(?=[\s\S]*肠道)(?=[\s\S]*生殖腺)(?=[\s\S]*胚胎)(?=[\s\S]*(?:不能|无法).{0,25}(?:替代|代替).{0,35}(?:真实显微记录|比例尺|品系信息|组织标记))/,
+  );
+
+  const feedingMediaText =
+    mediaTexts.get('03-pharyngeal-bacterial-feeding.webp') ?? '';
+  assert.match(
+    feedingMediaText,
+    /(?=[\s\S]*(?:菌苔边缘|细颗粒菌苔))(?=[\s\S]*(?:咽腔|咽部))(?=[\s\S]*(?:末端咽球|咽球))(?=[\s\S]*(?:不能|无法).{0,20}(?:泵动频率|摄入量).{0,40}(?:菌种身份|野外食谱比例))/,
+  );
+
+  const eggLayingText =
+    mediaTexts.get('04-midbody-egg-laying.webp') ?? '';
+  assert.match(
+    eggLayingText,
+    /(?=[\s\S]*(?:腹侧中部|身体中部).{0,15}(?:阴门|排出))(?=[\s\S]*一枚.{0,8}(?:椭圆)?卵)(?=[\s\S]*(?:不能|无法).{0,20}(?:证明|确认).{0,35}(?:自体受精|亲缘关系|产卵速率|总后代数|培养条件))/,
+  );
+
+  const nictationText = mediaTexts.get('05-dauer-nictation.webp') ?? '';
+  assert.match(
+    nictationText,
+    /(?=[\s\S]*dauer)(?=[\s\S]*尾端.{0,15}(?:接触|支撑))(?=[\s\S]*(?:前半身|身体).{0,12}(?:抬起|竖立))(?=[\s\S]*(?:不能|无法).{0,25}(?:确认|证明).{0,45}(?:发育阶段|停止取食|接触载体|发生迁移))/i,
+  );
+
+  const observationText =
+    mediaTexts.get('06-agar-plate-observation.webp') ?? '';
+  assert.match(
+    observationText,
+    /(?=[\s\S]*(?:琼脂培养皿|琼脂))(?=[\s\S]*一只成年)(?=[\s\S]*两只.{0,8}幼虫)(?=[\s\S]*(?:不能|无法).{0,20}(?:确认|证明).{0,45}(?:N2 品系|基因型|处理组|培养温度|实验结果))/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 93);
+  assert.equal(species.length, 94);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -17460,7 +17747,12 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 93);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 94);
+  assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Rhabditidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Caenorhabditis')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Platyhelminthes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Rhabditophora')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Tricladida')?.speciesCount, 1);

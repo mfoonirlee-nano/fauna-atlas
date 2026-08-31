@@ -27,6 +27,7 @@ export type DietType =
   | 'piscivore'
   | 'nectarivore'
   | 'filter-feeder'
+  | 'bacterivore'
   | 'detritivore';
 
 export interface Taxon {
