@@ -17985,10 +17985,159 @@ test('registers the duck\'s-bill lingula as a bounded Lingula anatina profile', 
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the brown bryozoan as a bounded Bugula neritina profile', async () => {
+  const profile = findSpecies('bugula-neritina');
+
+  assert.equal(profile.id, 'species-bugula-neritina');
+  assert.equal(profile.slug, 'bugula-neritina');
+  assert.equal(profile.names.zh, '总合草苔虫');
+  assert.equal(profile.names.en, 'Brown Bryozoan');
+  assert.deepEqual(profile.names.aliases, [
+    '总合苔虫',
+    '多室草苔虫',
+    'Common Bugula',
+    'Ruby Bryozoan',
+    'Sertularia neritina',
+  ]);
+  assert.equal(profile.scientificName, 'Bugula neritina');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Bryozoa', '苔藓动物门'],
+      ['class', 'Gymnolaemata', '裸唇纲'],
+      ['order', 'Cheilostomatida', '唇口目'],
+      ['family', 'Bugulidae', '草苔虫科'],
+      ['genus', 'Bugula', '草苔虫属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, []);
+  assert.deepEqual(profile.distribution.regions, [
+    '全球热带、亚热带与温带名义种记录区',
+    '地中海原始描述材料来源区',
+  ]);
+  assert.deepEqual(profile.distribution.countries, []);
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.equal(profile.habitats[0]?.isPrimary, true);
+  assert.equal(profile.measurements.height?.max, 10);
+  assert.equal(profile.measurements.height?.unit, 'cm');
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['filter-feeder']);
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'one-colony-many-zooids',
+      'biserial-branches-and-lophophores',
+      'brooding-and-coronate-larva',
+      'three-cryptic-species',
+      'endobugula-and-bryostatins',
+      'fouling-and-lineage-aware-monitoring',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length >= 20);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => [key, value, unit]),
+    [
+      ['colony-height', '最高约 10', '厘米'],
+      ['zooid-length', '约 600–800', '微米'],
+      ['zooid-rows', '2', '列'],
+      ['lophophore-tentacles', '约 23–24', '条触手'],
+    ],
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'bugula-neritina',
+    basenames: [
+      '01-marina-piling-colony-cover',
+      '02-biserial-zooid-diagnostic',
+      '03-lophophore-suspension-feeding',
+      '04-ovicells-and-coronate-larva',
+      '05-larval-symbiont-window',
+      '06-settlement-plate-monitoring',
+    ],
+    credit: 'Fauna Atlas · AI 生成原创图像',
+  });
+
+  assert.equal(profile.sources.length, 36);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'distribution', 'ecology', 'conservation']),
+  );
+  assert.ok(
+    profile.sources.every(({ url }) =>
+      /^https:\/\/(?:www\.marinespecies\.org|api\.gbif\.org|www\.ncbi\.nlm\.nih\.gov|rsis\.ramsar\.org|www\.govinfo\.gov|www\.biodiversitylibrary\.org|data\.bishopmuseum\.org|nimpis\.marinepests\.gov\.au|invasions\.si\.edu|www\.int-res\.com|pmc\.ncbi\.nlm\.nih\.gov|doi\.org|pubmed\.ncbi\.nlm\.nih\.gov|www\.cancer\.gov|www\.iucnredlist\.org|nrl\.iucnredlist\.org|eunis\.eea\.europa\.eu|cites\.org|www\.speciesplus\.net)\//.test(
+        url,
+      ),
+    ),
+    'Bugula sources should be authority records, institutional guidance, or primary papers',
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/rest/AphiaRecordByAphiaID/111158',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/111158',
+    'https://rsis.ramsar.org/RISapp/files/6345930/documents/CN2518_taxo230214.pdf',
+    'https://www.biodiversitylibrary.org/part/93305',
+    'https://doi.org/10.1111/zsc.12042',
+    'https://doi.org/10.1128/AEM.67.10.4531-4537.2001',
+    'https://www.iucnredlist.org/search?query=Bugula%20neritina&searchType=species',
+    'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Bugula sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 95);
+  assert.equal(species.length, 96);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -18025,6 +18174,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lingulida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Lingulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Lingula')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Bryozoa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Gymnolaemata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
@@ -18100,7 +18254,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 95);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 96);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
