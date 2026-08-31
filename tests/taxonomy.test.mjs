@@ -16574,10 +16574,228 @@ test('registers the Atlantic Pyrosome as a complete Pyrosoma atlanticum profile'
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test("registers the Venus' Flower Basket as a complete Euplectella aspergillum profile", async () => {
+  const profile = findSpecies('venus-flower-basket');
+
+  assert.equal(profile.id, 'species-euplectella-aspergillum');
+  assert.equal(profile.slug, 'venus-flower-basket');
+  assert.equal(profile.names.zh, '阿氏偕老同穴');
+  assert.equal(profile.names.en, "Venus' Flower Basket");
+  assert.deepEqual(profile.names.aliases, ['维纳斯花篮']);
+  assert.equal(profile.scientificName, 'Euplectella aspergillum');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Porifera'],
+      ['class', 'Hexactinellida'],
+      ['order', 'Lyssacinosida'],
+      ['family', 'Euplectellidae'],
+      ['genus', 'Euplectella'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, ['亚洲', '大洋洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '菲律宾',
+    '印度',
+    '马来西亚',
+    '澳大利亚',
+  ]);
+  assert.deepEqual(profile.measurements, {});
+  assert.deepEqual(profile.metrics, {});
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'living-glass-lattice',
+      'barbed-soft-sediment-anchor',
+      'passive-flow-active-filtering',
+      'reproductive-evidence-gap',
+      'shrimp-association-with-boundaries',
+      'four-subspecies-messy-map',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'revision-supported-depth',
+      'anchor-spicule-length',
+      'skeletal-hierarchy',
+      'recognized-subspecies',
+    ],
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'venus-flower-basket',
+    basenames: [
+      '01-soft-sediment-living-cover',
+      '02-terminal-sieve-lattice-diagnostic',
+      '03-basalia-soft-sediment-anchoring',
+      '04-side-inflow-sieve-outflow-visualization',
+      '05-resident-shrimp-pair-context',
+      '06-rov-noncontact-monitoring',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 20);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=171897',
+    'https://doi.org/10.11646/zootaxa.1866.1.3',
+    'https://doi.org/10.1016/j.jsb.2006.10.027',
+    'https://doi.org/10.1073/pnas.0307843101',
+    'https://doi.org/10.1038/s41586-021-03658-1',
+    'https://doi.org/10.1103/PhysRevLett.132.208402',
+    'https://research.nhm.org/pdfs/31805/31805.pdf',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `venus-flower-basket sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(
+      ({ image, alt, title, caption }) => [
+        image.split('/').at(-1),
+        [alt, title ?? '', caption ?? ''].join(' '),
+      ],
+    ),
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaTexts.values(),
+  ].join(' ');
+
+  assert.match(
+    profile.distribution.range,
+    /(?=[\s\S]*砂拉越)(?=[\s\S]*Indonesian Archipelago)(?=[\s\S]*4°31′N、112°55′E)(?=[\s\S]*85\s*(?:至|—|–|-)\s*741\s*米)(?=[\s\S]*(?:凭证|修订))(?=[\s\S]*(?:不是|不能|不可).{0,30}(?:生理极限|直接并入))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*indonesica.{0,30}190\s*毫米)(?=[\s\S]*australica.{0,35}110.{0,12}150\s*毫米)(?=[\s\S]*260\s*毫米.{0,12}残片)(?=[\s\S]*(?:不能|不可).{0,30}(?:典型|绝对最大).{0,8}体长)/i,
+  );
+
+  const structureText = storyBodies.get('living-glass-lattice') ?? '';
+  assert.match(
+    structureText,
+    /(?=[\s\S]*(?:活体|活组织|软组织))(?=[\s\S]*(?:方格|纵横))(?=[\s\S]*(?:双向斜撑|斜撑))(?=[\s\S]*(?:筛板))(?=[\s\S]*(?:不是|并非).{0,25}(?:敞口|花瓶))/,
+  );
+
+  const flowText = storyBodies.get('passive-flow-active-filtering') ?? '';
+  assert.match(
+    flowText,
+    /(?=[\s\S]*(?:数值模拟|模拟))(?=[\s\S]*(?:不是|并非).{0,40}(?:野外|原位).{0,20}(?:泵水|摄食量|清除率|测量))(?=[\s\S]*(?:不能|不可).{0,45}(?:被动|流况))/,
+  );
+
+  const reproductionText = storyBodies.get('reproductive-evidence-gap') ?? '';
+  assert.match(
+    reproductionText,
+    /(?=[\s\S]*1880\s*年)(?=[\s\S]*(?:其他物种|近缘种))(?=[\s\S]*(?:不足以确定|仍未知|没有补齐).{0,70}(?:性系统|幼体|繁殖季|寿命))/,
+  );
+
+  const shrimpText = storyBodies.get('shrimp-association-with-boundaries') ?? '';
+  assert.match(
+    shrimpText,
+    /(?=[\s\S]*(?:一雄一雌|雄.{0,6}雌))(?=[\s\S]*(?:没有证明|不能证明|不证明).{0,65}(?:每个|终身|互利))(?=[\s\S]*(?:其他玻璃海绵|其他.{0,10}宿主))/,
+  );
+
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:未评估|Not Evaluated|\bNE\b))(?=[\s\S]*(?:不代表|不等于|不能说明).{0,25}(?:安全|无危|种群稳定|没有威胁))/i,
+  );
+
+  assert.match(
+    mediaTexts.get('02-terminal-sieve-lattice-diagnostic.webp') ?? '',
+    /(?:不能|不可|无法).{0,30}(?:代替|替代).{0,30}(?:显微诊断|分类检索|凭证)/,
+  );
+  assert.match(
+    mediaTexts.get('04-side-inflow-sieve-outflow-visualization.webp') ?? '',
+    /(?=[\s\S]*(?:数值模拟|模拟))(?=[\s\S]*(?:不是|并非).{0,30}(?:原位|泵水|流速|滤食效率|测量))/,
+  );
+  assert.match(
+    mediaTexts.get('05-resident-shrimp-pair-context.webp') ?? '',
+    /(?:不能|无法|不证明).{0,55}(?:每个|终身单配|互利)/,
+  );
+  assert.match(
+    mediaTexts.get('06-rov-noncontact-monitoring.webp') ?? '',
+    /(?:不能|无法|不证明).{0,45}(?:亚种|个体数|种群趋势)/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 90);
+  assert.equal(species.length, 91);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -16684,7 +16902,12 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 90);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 91);
+  assert.equal(findTaxon(tree, 'phylum', 'Porifera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Hexactinellida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Lyssacinosida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Euplectellidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Euplectella')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 69);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
