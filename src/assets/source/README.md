@@ -91,6 +91,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Atlantic Hagfish image set](./species/atlantic-hagfish/README.md)
 - [Ocellate Torpedo image set](./species/ocellate-torpedo/README.md)
 - [Australian Lungfish image set](./species/australian-lungfish/README.md)
+- [Atlantic Pyrosome image set](./species/atlantic-pyrosome/README.md)
 
 ## Image compression workflow
 

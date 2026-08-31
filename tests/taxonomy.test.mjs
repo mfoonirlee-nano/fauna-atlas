@@ -16354,10 +16354,230 @@ test('registers the Australian Lungfish as a complete Neoceratodus forsteri prof
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the Atlantic Pyrosome as a complete Pyrosoma atlanticum profile', async () => {
+  const profile = findSpecies('atlantic-pyrosome');
+
+  assert.equal(profile.id, 'species-pyrosoma-atlanticum');
+  assert.equal(profile.slug, 'atlantic-pyrosome');
+  assert.equal(profile.names.zh, '大西洋火体虫');
+  assert.equal(profile.names.en, 'Atlantic Pyrosome');
+  assert.deepEqual(profile.names.aliases, ['大西洋火體蟲']);
+  assert.equal(profile.scientificName, 'Pyrosoma atlanticum');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Thaliacea'],
+      ['order', 'Pyrosomatida'],
+      ['family', 'Pyrosomatidae'],
+      ['genus', 'Pyrosoma'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 0.78, unit: 'm' },
+  );
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'one-colony-many-zooids',
+      'filtering-and-jet-propulsion',
+      'blue-green-light-open-mechanism',
+      'variable-diel-migration',
+      'sexual-and-asexual-life-cycle',
+      'blooms-and-carbon-transport',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value }) => label.length > 0 && value.length > 0,
+    ),
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'atlantic-pyrosome',
+    basenames: [
+      '01-open-ocean-colony-cover',
+      '02-zooid-texture-open-end-diagnostic',
+      '03-blue-green-bioluminescence',
+      '04-night-upper-water-migration-context',
+      '05-filter-feeding-current-visualization',
+      '06-towed-camera-noncontact-monitoring',
+    ],
+  });
+
+  assert.ok(profile.sources.length >= 5);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=137250',
+    'https://doi.org/10.1002/lol2.10350',
+    'https://doi.org/10.3354/meps13465',
+    'https://doi.org/10.1093/plankt/fbac006',
+    'https://www.nmns.edu.tw/collect/catalog/detail/?id=18286',
+    'https://pmc.ncbi.nlm.nih.gov/articles/PMC7576829/',
+    'https://pmc.ncbi.nlm.nih.gov/articles/PMC8084940/',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `atlantic-pyrosome sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(
+      ({ image, alt, title, caption }) => [
+        image.split('/').at(-1),
+        [alt, title ?? '', caption ?? ''].join(' '),
+      ],
+    ),
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaTexts.values(),
+  ].join(' ');
+
+  const colonyText = storyBodies.get('one-colony-many-zooids') ?? '';
+  assert.match(
+    colonyText,
+    /(?=[\s\S]*(?:共同被囊|共同的被囊))(?=[\s\S]*(?:许多|众多|成百上千|成千上万).{0,16}(?:个虫|虫体))(?=[\s\S]*(?:不是|并非|不能视为|不等同于).{0,20}(?:单个|一个|单一).{0,8}(?:个体|单体))/,
+  );
+
+  const filteringText =
+    storyBodies.get('filtering-and-jet-propulsion') ?? '';
+  assert.match(
+    filteringText,
+    /(?=[\s\S]*(?:群体外侧|外侧|外壁).{0,30}(?:吸入|引入|引水|进水))(?=[\s\S]*(?:共同空腔|共用空腔))(?=[\s\S]*(?:共同|群体).{0,12}开口.{0,20}(?:排出|排水|流出))/,
+  );
+
+  const lightText =
+    storyBodies.get('blue-green-light-open-mechanism') ?? '';
+  assert.match(
+    lightText,
+    /(?=[\s\S]*(?:机制|来源).{0,25}(?:未定|未明|没有定论|仍有争议|尚未解决))(?=[\s\S]*(?:宿主.{0,30}(?:荧光素酶|发光酶|luciferase)|(?:荧光素酶|发光酶|luciferase).{0,30}宿主))(?=[\s\S]*(?:发光细菌|细菌共生体|细菌假说))/i,
+  );
+
+  const migrationText = storyBodies.get('variable-diel-migration') ?? '';
+  assert.match(
+    migrationText,
+    /(?=[\s\S]*(?:昼夜垂直迁移|DVM))(?=[\s\S]*利古里亚海)(?=[\s\S]*3\s*毫米.{0,25}90\s*米)(?=[\s\S]*51\s*毫米.{0,25}760\s*米)(?=[\s\S]*(?:不能|不可|不应|并非).{0,45}(?:普遍|全种|全部|所有|固定|通用|外推|一律))/i,
+  );
+
+  const lifeCycleText =
+    storyBodies.get('sexual-and-asexual-life-cycle') ?? '';
+  assert.match(
+    lifeCycleText,
+    /(?=[\s\S]*cyathozooid)(?=[\s\S]*(?:恰好|正好|固定为|先形成|先产生|形成|产生).{0,16}(?:四|4)\s*个.{0,24}(?:初级|初生|最初|原初).{0,16}ascidiozooid)(?=[\s\S]*(?:随后|再|之后|后者|这些).{0,35}(?:出芽|芽殖))(?=[\s\S]*(?:(?:扩群|扩增|扩大|扩展|增长|增加).{0,20}(?:群体|个虫)|(?:群体|个虫).{0,20}(?:扩群|扩增|扩大|扩展|增长|增加)))/i,
+  );
+
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:未评估|Not Evaluated|\bNE\b))(?=[\s\S]*(?:不等于|并不等于|不代表|不能说明|不能视为).{0,25}(?:安全|无风险|没有风险|无威胁))/i,
+  );
+
+  const diagnosticCaption =
+    mediaTexts.get('02-zooid-texture-open-end-diagnostic.webp') ?? '';
+  assert.match(
+    diagnosticCaption,
+    /(?:(?:不能|无法|不可).{0,30}(?:替代|作为).{0,30}(?:鉴定|诊断)|(?:不能|无法).{0,30}(?:鉴定|诊断))/,
+  );
+
+  const migrationCaption =
+    mediaTexts.get('04-night-upper-water-migration-context.webp') ?? '';
+  assert.match(
+    migrationCaption,
+    /(?:单帧|画面|照片|影像).{0,25}(?:不表示|不能|无法|不证明).{0,35}(?:速度|速率)/,
+  );
+
+  const monitoringCaption =
+    mediaTexts.get('06-towed-camera-noncontact-monitoring.webp') ?? '';
+  assert.match(
+    monitoringCaption,
+    /(?:(?:不能|无法|不证明).{0,45}(?:丰度|数量)|(?:仍需|需要).{0,70}(?:丰度|数量).{0,25}(?:结论|估计|判断|证明|支持))/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 89);
+  assert.equal(species.length, 90);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -16464,8 +16684,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 89);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 68);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 90);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 69);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
@@ -16541,6 +16761,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'family', 'Ceratodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Neoceratodus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Neoceratodontidae'), undefined);
+  assert.equal(findTaxon(tree, 'class', 'Thaliacea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Pyrosomatida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Pyrosomatidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Pyrosoma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Tigris'), undefined);
   assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 2);
