@@ -15117,10 +15117,358 @@ test('registers the Ringed Caecilian as a complete Siphonops annulatus profile',
   assert.equal(profile.updatedAt, '2026-08-30');
 });
 
+test('registers the Surinam Toad as a complete Pipa pipa profile', async () => {
+  const profile = findSpecies('surinam-toad');
+
+  assert.equal(profile.id, 'species-pipa-pipa');
+  assert.equal(profile.slug, 'surinam-toad');
+  assert.equal(profile.names.zh, '负子蟾');
+  assert.equal(profile.names.en, 'Surinam Toad');
+  assert.deepEqual(profile.names.aliases, [
+    'Suriname Toad',
+    'Common Surinam Toad',
+    'Star-fingered Frog',
+    'Surinam Water-toad',
+  ]);
+  assert.equal(profile.scientificName, 'Pipa pipa');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Amphibia', '两栖纲'],
+      ['order', 'Anura', '无尾目'],
+      ['family', 'Pipidae', '负子蟾科'],
+      ['genus', 'Pipa', '负子蟾属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2021,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['freshwater']);
+  assert.deepEqual(profile.distribution.continents, ['南美洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '玻利维亚',
+    '巴西',
+    '哥伦比亚',
+    '厄瓜多尔',
+    '法属圭亚那',
+    '圭亚那',
+    '秘鲁',
+    '苏里南',
+    '特立尼达和多巴哥',
+    '委内瑞拉',
+  ]);
+  assert.deepEqual(profile.distribution.endemicTo, ['南美洲']);
+  assert.ok(!profile.distribution.countries.includes('波多黎各'));
+  assert.match(
+    profile.distribution.range,
+    /当前广义.{0,20}Pipa pipa.{0,80}(?:五|5)个.{0,15}(?:OTU|遗传谱系).{0,80}(?:种界|谱系边界|范围边缘).{0,30}(?:未解决|仍需|待修订)/i,
+  );
+  assert.ok(profile.habitats.length >= 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'freshwater'));
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 20, unit: 'cm' },
+  );
+  assert.equal(profile.measurements.length?.min, undefined);
+  assert.equal(profile.measurements.length?.typical, undefined);
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /已发表.{0,20}(?:吻肛长)?.{0,20}极端(?:值|记录).{0,40}(?:不是|不代表).{0,30}(?:典型|常见)/i,
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /(?:7|7\.0).{0,20}(?:厘米|cm).{0,60}(?:不是|不能|不构成).{0,30}(?:全物种|统一).{0,15}下限/i,
+  );
+  assert.equal(profile.measurements.weight, undefined);
+  assert.deepEqual(profile.metrics, {});
+
+  assert.deepEqual(profile.diet.types, ['carnivore']);
+  assert.match(
+    profile.diet.description,
+    /(?:惯性)?吸食.{0,70}前肢.{0,40}(?:协同|围堵|抓取)/,
+  );
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(new Set(profile.storySections?.map(({ key }) => key)).size, 6);
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) => label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length >= 24);
+  assert.ok(profile.threats.length >= 6);
+  assert.ok(profile.conservationActions.length >= 8);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+  const featuredStatText = profile.featuredStats
+    .flatMap(({ label, value, unit, note }) => [label, value, unit ?? '', note ?? ''])
+    .join(' ');
+  assert.doesNotMatch(
+    featuredStatText,
+    /(?:^|\D)(?:96|273)(?:\D|$)|77\s*(?:至|—|–|-)\s*136|20\s*(?:cm|厘米)|7\.7/i,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'surinam-toad',
+    basenames: [
+      '01-leaf-litter-adult-cover',
+      '02-flattened-body-and-fingertips',
+      '03-floodplain-blackwater-habitat',
+      '04-suction-feeding-small-fish',
+      '05-closed-dorsal-brood-chambers',
+      '06-floodplain-water-survey',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 18);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 18);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Pipidae/Pipinae/Pipa/Pipa-pipa',
+    'https://doi.org/10.2305/IUCN.UK.2023-1.RLTS.T58163A85900348.en',
+    'https://api.crossref.org/works/10.2305/IUCN.UK.2023-1.RLTS.T58163A85900348.en',
+    'https://eol.org/pages/332922',
+    'https://bioweb.bio/faunaweb/amphibiaweb/FichaEspecie/Pipa%20pipa',
+    'https://doi.org/10.1016/j.ympev.2022.107442',
+    'https://www.jstor.org/stable/3892485',
+    'https://doi.org/10.11606/1807-0205/2022.62.008',
+    'https://doi.org/10.1007/s00359-026-01838-w',
+    'https://pubmed.ncbi.nlm.nih.gov/10629097/',
+    'https://www.seh-herpetology.org/journals/herpetology-notes/back-issues/volume-7-2014',
+    'https://doi.org/10.1242/jeb.043380',
+    'https://doi.org/10.1643/CH-16-510',
+    'https://doi.org/10.1002/jmor.20707',
+    'https://doi.org/10.2307/1439751',
+    'https://doi.org/10.2307/1439843',
+    'https://herpetologynotes.org/index.php/hn/article/download/107/193/3738',
+    'https://doi.org/10.17161/randa.v30i1.20954',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `surinam-toad sources should include ${requiredUrl}`,
+    );
+  }
+  assert.ok(
+    !profile.sources.some(
+      ({ url }) =>
+        url ===
+        'https://doi.org/10.2305/IUCN.UK.2015-4.RLTS.T58163A61414791.en',
+    ),
+    'the historical 2015-4 DOI should not displace current profile evidence',
+  );
+
+  const storyBodies = new Map(profile.storySections?.map(({ key, body }) => [key, body]) ?? []);
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(({ image, alt, caption }) => [
+      image?.split('/').at(-1) ?? '',
+      [alt, caption ?? ''].join(' '),
+    ]),
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [label, title, body]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    profile.media.alt,
+    ...(profile.media.gallery ?? []).flatMap(({ alt, title, caption }) => [
+      alt,
+      title,
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    storyBodies.get('a-body-built-for-still-water') ?? '',
+    /(?:宽而|身体).{0,30}扁平.{0,50}三角(?:形|状)?.{0,15}头.{0,80}(?:枯叶|落叶)/,
+  );
+  assert.match(editorialText, /高度水栖/);
+  assert.match(
+    editorialText,
+    /(?:枯叶|落叶)(?:般|状|一样).{0,20}(?:轮廓|体形|身体)|(?:轮廓|体形|身体).{0,20}(?:像|如同|近似).{0,10}(?:枯叶|落叶)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:微小|很小|小型).{0,10}(?:无眼睑|没有眼睑).{0,20}(?:背位眼|位于背面|眼位于背面)/,
+  );
+  assert.match(editorialText, /后足.{0,20}(?:全蹼|完全蹼化|宽蹼)/);
+  assert.match(
+    editorialText,
+    /(?:细长|长).{0,10}(?:无蹼|不具蹼).{0,15}前指|前指.{0,20}(?:细长|很长).{0,20}(?:无蹼|不具蹼)/,
+  );
+  assert.match(
+    storyBodies.get('tongueless-suction') ?? '',
+    /没有舌.{0,60}(?:惯性)?吸食.{0,80}前肢.{0,40}(?:协同|围堵|抓取)/,
+  );
+  assert.match(
+    storyBodies.get('turnover-egg-transfer') ?? '',
+    /卵.{0,50}(?:雄体|雄性).{0,20}腹部.{0,60}(?:落到|转移到).{0,30}(?:雌体|雌性).{0,20}背部.{0,80}皮肤.{0,30}(?:随后|之后).{0,30}(?:增生|包围)/,
+  );
+  assert.match(
+    storyBodies.get('turnover-egg-transfer') ?? '',
+    /(?:独立.{0,20}(?:临时|暂时性)|(?:临时|暂时性).{0,20}独立).{0,20}(?:育儿室|育幼室|孵育室)/,
+  );
+  assert.match(
+    storyBodies.get('larval-life-inside-skin') ?? '',
+    /(?:育儿室|育幼室|孵育室).{0,50}内营养性?.{0,20}(?:蝌蚪样)?幼体.{0,60}(?:尾吸收|变态).{0,60}(?:小蛙|幼蛙).{0,30}(?:离开|出幼)/,
+  );
+  assert.match(storyBodies.get('larval-life-inside-skin') ?? '', /没有自由生活、摄食的蝌蚪期/);
+  assert.match(
+    editorialText,
+    /一个.{0,15}圈养.{0,20}批次.{0,30}96 枚.{0,30}76 枚.{0,25}背部.{0,30}20 枚.{0,25}散落/,
+  );
+  assert.match(editorialText, /同一批次.{0,40}(?:第 )?77 至 136 天.{0,50}陆续.{0,20}(?:出幼|离开)/);
+  assert.match(editorialText, /96 枚.{0,80}(?:不是|不代表|不能).{0,40}(?:固定|物种常数|典型)/);
+  assert.match(
+    editorialText,
+    /77 至 136 天.{0,80}(?:不是|不代表|不能).{0,40}(?:固定|物种常数|典型)/,
+  );
+  assert.match(
+    storyBodies.get('one-name-five-lineages') ?? '',
+    /2022 年.{0,60}(?:传统种名|传统 Pipa pipa).{0,60}(?:五|5)个.{0,15}(?:谱系|OTU).{0,80}(?:候选边界|核基因|空间采样)/i,
+  );
+  assert.match(
+    editorialText,
+    /IUCN.{0,40}2021 年.{0,30}(?:现行)?评估.{0,30}无危.{0,30}(?:趋势)?稳定.{0,80}2023-1.{0,30}(?:发布|版本).{0,30}不是.{0,20}评估年份/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /2015-4.{0,40}(?:现行|当前)|(?:现行|当前).{0,40}2015-4/i,
+  );
+
+  const coverText = mediaTexts.get('01-leaf-litter-adult-cover.webp') ?? '';
+  assert.match(coverText, /一只.{0,20}完整.{0,20}成体/);
+  assert.match(coverText, /(?:零只|没有|未见).{0,15}(?:其他)?动物/);
+
+  const morphologyText = mediaTexts.get('02-flattened-body-and-fingertips.webp') ?? '';
+  assert.match(morphologyText, /一只.{0,20}完整.{0,20}成体/);
+  assert.match(morphologyText, /(?:圆形|圆钝|小型圆头).{0,25}(?:末端器官|指端结构|指尖结构)/);
+  assert.match(morphologyText, /(?:像素|画面).{0,30}(?:不能|未能|没有).{0,40}(?:四裂|四叶|四瓣)/);
+  assert.match(morphologyText, /不能排除.{0,20}负子蟾属/);
+  assert.doesNotMatch(
+    morphologyText,
+    /(?:清楚|明确|清晰).{0,20}(?:显示|分辨|可见).{0,20}(?:四裂|四叶|四瓣)/,
+  );
+
+  const habitatText = mediaTexts.get('03-floodplain-blackwater-habitat.webp') ?? '';
+  assert.match(habitatText, /一只.{0,12}完整.{0,12}小型.{0,20}蛙/);
+  assert.match(habitatText, /(?:不能|不证明).{0,50}(?:检出率|丰度|密度|占域|种群数量)/);
+
+  const feedingText = mediaTexts.get('04-suction-feeding-small-fish.webp') ?? '';
+  assert.match(feedingText, /一只.{0,20}完整.{0,20}蛙/);
+  assert.match(feedingText, /一条.{0,20}(?:完整的?)?小鱼.{0,50}(?:口外|嘴外)/);
+  assert.match(feedingText, /(?:不能|不证明).{0,50}(?:捕获|吸入|吸食).{0,20}(?:成功|结果)?/);
+
+  const broodText = mediaTexts.get('05-closed-dorsal-brood-chambers.webp') ?? '';
+  assert.match(broodText, /一只.{0,15}成体/);
+  assert.match(broodText, /背部.{0,25}(?:皮肤)?.{0,20}(?:完整|连续).{0,20}(?:闭合|封闭)/);
+  assert.match(broodText, /(?:零只|没有|未见).{0,15}(?:幼体|幼蛙|小蛙|后代)/);
+  assert.match(
+    broodText,
+    /(?:不能|不证明).{0,60}胚胎(?:数量|数).{0,40}(?:日期|日龄|发育时间).{0,40}(?:存活|活性|活力)/,
+  );
+
+  const surveyText = mediaTexts.get('06-floodplain-water-survey.webp') ?? '';
+  assert.match(surveyText, /两名.{0,15}研究者/);
+  assert.match(surveyText, /(?:一个|一只).{0,12}(?:采水瓶|取样瓶|水样瓶|瓶)/);
+  assert.match(surveyText, /(?:一块|一个).{0,12}(?:记录板|写字板)/);
+  assert.match(surveyText, /一支.{0,12}(?:铅笔|书写工具|笔)/);
+  assert.match(surveyText, /(?:零只|没有|未见).{0,12}动物/);
+  assert.match(surveyText, /(?:不能|不证明).{0,50}(?:检出|缺失).{0,50}(?:种群趋势|趋势|丰度)/);
+
+  assert.doesNotMatch(editorialText, /弹舌|伸舌捕食|射出舌|投射舌|舌头投射/);
+  assert.doesNotMatch(editorialText, /(?:胎生|卵胎生|怀孕|妊娠|子宫)/);
+  assert.doesNotMatch(editorialText, /(?:形成|留下|变成|具有).{0,20}(?:永久|终生).{0,10}(?:洞|孔)/);
+  assert.doesNotMatch(
+    editorialText,
+    /(?:没有|不存在|跳过).{0,12}(?:任何|全部)?(?:幼体|幼生)(?:阶段|期)/,
+  );
+  assert.doesNotMatch(editorialText, /自由游泳.{0,10}(?:蝌蚪|幼体)/);
+  assert.doesNotMatch(editorialText, /(?:幼体|小蛙).{0,12}(?:爆出|撕裂|爆裂)/);
+  assert.doesNotMatch(editorialText, /(?:^|\D)273(?:\D|$)/);
+  assert.doesNotMatch(
+    editorialText,
+    /(?:每窝|每次|通常)(?:可|会|有|产下|为)?.{0,12}96 枚|固定(?:产卵数|窝卵数|数量)?(?:为|是).{0,8}96 枚/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:孵育|发育|出幼)(?:期|时间).{0,20}(?:固定|均为|总是|通常为).{0,25}77.{0,8}136/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:名义种|Pipa pipa).{0,40}(?:五|5)个.{0,20}(?:已经|均已|正式).{0,15}(?:命名|接受).{0,5}种/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:LC|无危).{0,30}(?:证明|表示|意味着).{0,30}(?:五|5).{0,20}(?:稳定|安全)/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /IUCN(?:在|于)?\s*2023 年.{0,10}(?:评估|重评)|2023 年.{0,10}IUCN.{0,10}(?:评估|重评)/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:通常|一般|典型成体).{0,20}(?:长|可达|为).{0,10}20\s*(?:厘米|cm)/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:成体|通常).{0,20}(?:体重|重).{0,15}(?:85|110).{0,10}(?:克|g)/i,
+  );
+  assert.doesNotMatch(editorialText, /严格(?:完全)?水栖|从不离水/);
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-30');
+  assert.equal(profile.updatedAt, '2026-08-30');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 85);
+  assert.equal(species.length, 86);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -15218,15 +15566,17 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 5);
-  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Pipidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Pipa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 85);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 64);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 86);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 65);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
