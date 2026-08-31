@@ -90,6 +90,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Surinam Toad image set](./species/surinam-toad/README.md)
 - [Atlantic Hagfish image set](./species/atlantic-hagfish/README.md)
 - [Ocellate Torpedo image set](./species/ocellate-torpedo/README.md)
+- [Australian Lungfish image set](./species/australian-lungfish/README.md)
 
 ## Image compression workflow
 

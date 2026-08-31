@@ -16130,10 +16130,234 @@ test('registers the Ocellate Torpedo as a complete Torpedo torpedo profile', asy
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the Australian Lungfish as a complete Neoceratodus forsteri profile', async () => {
+  const profile = findSpecies('australian-lungfish');
+
+  assert.equal(profile.id, 'species-neoceratodus-forsteri');
+  assert.equal(profile.slug, 'australian-lungfish');
+  assert.equal(profile.names.zh, '澳洲肺鱼');
+  assert.equal(profile.names.en, 'Australian Lungfish');
+  assert.equal(profile.scientificName, 'Neoceratodus forsteri');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Sarcopterygii'],
+      ['order', 'Ceratodontiformes'],
+      ['family', 'Ceratodontidae'],
+      ['genus', 'Neoceratodus'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'stable',
+      assessedYear: 2019,
+      criteria: 'B2ab(ii,iii)',
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['freshwater']);
+  assert.deepEqual(profile.distribution.continents, ['大洋洲']);
+  assert.deepEqual(profile.distribution.countries, ['澳大利亚']);
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 1.7, unit: 'm' },
+  );
+  assert.deepEqual(
+    {
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { max: 48, unit: 'kg' },
+  );
+  assert.deepEqual(profile.metrics.lifespanYears, [50, 80]);
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'one-lung-mostly-gills',
+      'fleshy-fins-continuous-tail',
+      'permanent-water-no-aestivation',
+      'macrophyte-eggs-without-nest',
+      'long-life-masked-recruitment',
+      'recovery-plan-connectivity',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value }) => label.length > 0 && value.length > 0,
+    ),
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'australian-lungfish',
+    basenames: [
+      '01-permanent-river-pool-adult-cover',
+      '02-leaf-shaped-fins-diagnostic-profile',
+      '03-facultative-surface-air-breath',
+      '04-nocturnal-snail-foraging-encounter',
+      '05-single-adhesive-egg-macrophyte',
+      '06-river-water-edna-monitoring',
+    ],
+  });
+
+  assert.ok(profile.sources.length >= 5);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://doi.org/10.2305/IUCN.UK.2019-3.RLTS.T122899816A123382021.en',
+    'https://www.legislation.gov.au/F2026L00704/asmade/2026-06-09/text/original/pdf',
+    'https://www.museum.qld.gov.au/assets/media/project/qm/qm-website/collections-and-research/memoirs/nature-memoirs/nature-volume-21/mqm-n21-2-7-kemp.pdf',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `australian-lungfish sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const distributionText = [
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+  ].join(' ');
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    distributionText,
+    profile.measurements.length?.note ?? '',
+    profile.measurements.weight?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    profile.media.alt,
+    ...(profile.media.gallery ?? []).flatMap(({ alt, title, caption }) => [
+      alt,
+      title,
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    distributionText,
+    /(?=[\s\S]*(?:伯内特|Burnett))(?=[\s\S]*(?:玛丽|Mary))(?=[\s\S]*(?:原生|天然分布|自然种群))/i,
+  );
+  assert.match(
+    distributionText,
+    /(?=[\s\S]*(?:移殖|移入|引种|人工引入))(?=[\s\S]*(?:布里斯班|Brisbane))(?=[\s\S]*(?:北派恩|North Pine))(?=[\s\S]*(?:库默拉|Coomera))/i,
+  );
+
+  const breathingText = storyBodies.get('one-lung-mostly-gills') ?? '';
+  assert.match(
+    breathingText,
+    /(?=[\s\S]*(?:(?:单个|一个|一枚|不成对).{0,15}肺|肺.{0,12}(?:单个|不成对)))(?=[\s\S]*(?:主要|平时|通常).{0,20}(?:鳃呼吸|依靠鳃|用鳃))(?=[\s\S]*(?:兼性|必要时|低氧).{0,30}(?:空气呼吸|呼吸空气|浮到水面))/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:专性|必须).{0,12}(?:空气呼吸|呼吸空气)|(?:主要|平时).{0,15}(?:依靠|使用|靠)肺呼吸/,
+  );
+
+  const permanentWaterText =
+    storyBodies.get('permanent-water-no-aestivation') ?? '';
+  assert.match(
+    permanentWaterText,
+    /(?=[\s\S]*(?:不|没有|无法).{0,18}(?:夏眠|旱眠|aestivat))(?=[\s\S]*(?:(?:不|没有|无法).{0,25}(?:干泥|泥中).{0,18}(?:结茧|泥茧|黏液茧)|(?:干泥|泥中).{0,25}(?:不|不会|不能).{0,18}(?:结茧|形成.{0,6}茧)))/i,
+  );
+
+  assert.match(
+    [
+      profile.measurements.length?.note ?? '',
+      profile.measurements.weight?.note ?? '',
+    ].join(' '),
+    /(?:罕见|少见).{0,30}(?:极端|极值|上限|如此体型)|(?:极端|极值|上限).{0,30}(?:罕见|少见)/,
+  );
+  assert.match(editorialText, /50\s*(?:—|–|-|至)\s*80\s*年/);
+
+  const reproductionText =
+    storyBodies.get('macrophyte-eggs-without-nest') ?? '';
+  assert.match(
+    reproductionText,
+    /(?=[\s\S]*(?:卵|卵粒).{0,30}(?:逐枚|单枚|一枚一枚|分别).{0,30}(?:黏附|附着))(?=[\s\S]*(?:大型水生植物|水生植物|沉水植物|macrophyte))(?=[\s\S]*(?:不筑巢|没有巢|无巢))(?=[\s\S]*(?:无亲代照护|没有亲代照护|不护卵|无亲代抚育))/i,
+  );
+
+  const recoveryText = storyBodies.get('recovery-plan-connectivity') ?? '';
+  assert.match(
+    editorialText,
+    /IUCN.{0,40}2019 年.{0,35}(?:濒危|EN).{0,35}(?:稳定|stable)/i,
+  );
+  assert.match(
+    recoveryText,
+    /(?=[\s\S]*2026 年.{0,35}(?:国家)?恢复计划)(?=[\s\S]*(?:不是|并非|不能替代|没有更新).{0,35}(?:IUCN|红色名录|全球评估))/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*IUCN.{0,60}Neoceratodontidae)(?=[\s\S]*(?:澳大利亚动物名录|AFD|2026 年.{0,30}恢复计划).{0,80}Ceratodontidae)/i,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 88);
+  assert.equal(species.length, 89);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -16240,8 +16464,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 88);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 67);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 89);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 68);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
@@ -16309,10 +16533,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gruiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Gruidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Grus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Sarcopterygii')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Sarcopterygii')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Coelacanthiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Latimeriidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Latimeria')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Ceratodontiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Ceratodontidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Neoceratodus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Neoceratodontidae'), undefined);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Tigris'), undefined);
   assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 2);
