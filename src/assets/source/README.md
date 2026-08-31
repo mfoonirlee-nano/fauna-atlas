@@ -93,6 +93,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Australian Lungfish image set](./species/australian-lungfish/README.md)
 - [Atlantic Pyrosome image set](./species/atlantic-pyrosome/README.md)
 - [Venus' Flower Basket image set](./species/venus-flower-basket/README.md)
+- [Warty Comb Jelly image set](./species/warty-comb-jelly/README.md)
 
 ## Image compression workflow
 

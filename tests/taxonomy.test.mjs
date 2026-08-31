@@ -16792,10 +16792,278 @@ test("registers the Venus' Flower Basket as a complete Euplectella aspergillum p
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the Warty Comb Jelly as a complete Mnemiopsis leidyi profile', async () => {
+  const profile = findSpecies('warty-comb-jelly');
+
+  assert.equal(profile.id, 'species-mnemiopsis-leidyi');
+  assert.equal(profile.slug, 'warty-comb-jelly');
+  assert.equal(profile.names.zh, '淡海栉水母');
+  assert.equal(profile.names.en, 'Warty Comb Jelly');
+  assert.deepEqual(profile.names.aliases, [
+    '海胡桃',
+    'Sea Walnut',
+    'American Comb Jelly',
+  ]);
+  assert.equal(profile.scientificName, 'Mnemiopsis leidyi');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Ctenophora', '栉水母动物门'],
+      ['class', 'Tentaculata', '触手纲'],
+      ['order', 'Lobata', '兜水母目'],
+      ['family', 'Bolinopsidae', '蛸水母科'],
+      ['genus', 'Mnemiopsis', '长瓣水母属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.deepEqual(profile.measurements.length, {
+    min: 7,
+    max: 12,
+    unit: 'cm',
+    note:
+      'IUCN MedMIS 的近似辨识长度，按含口叶的完整体长理解；不是全球成体上下限。北亚得里亚海 2016 年样本包含多个阶段，实测总长 2.0 至 13.5 厘米。',
+  });
+  assert.deepEqual(profile.metrics, { adultLengthCm: [7, 12] });
+  assert.deepEqual(profile.diet.types, ['carnivore']);
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'comb-jelly-not-jellyfish',
+      'cilia-rainbow-and-blue-light',
+      'stealth-feeding-current',
+      'hermaphrodite-direct-life-cycle',
+      'two-invasion-routes-black-sea',
+      'manage-pathways-not-release-predators',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  assert.equal(profile.featuredStats.length, 4);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => [key, value, unit]),
+    [
+      ['comb-rows', '8', '列'],
+      ['identification-length', '7—12', '厘米'],
+      ['adriatic-daily-eggs', '13,512', '枚'],
+      ['black-sea-first-record', '1982', '年'],
+    ],
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'warty-comb-jelly',
+    basenames: [
+      '01-western-atlantic-estuary-cover',
+      '02-lobes-and-comb-rows-diagnostic',
+      '03-ciliary-rainbow-daylight',
+      '04-blue-green-bioluminescence',
+      '05-stealth-copepod-feeding',
+      '06-optical-plankton-monitoring',
+    ],
+    credit: 'Fauna Atlas · AI 生成原创图像',
+  });
+
+  assert.equal(profile.sources.length, 29);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=106401',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/106401',
+    'https://www.iucnredlist.org/search?query=Mnemiopsis%20leidyi&searchType=species',
+    'https://iucn-medmis.org/en/species/mnemiopsis-leidyi',
+    'https://ocean.si.edu/ocean-life/invertebrates/sea-walnut-mnemiopsis-leidyi',
+    'https://doi.org/10.1016/j.isci.2026.115508',
+    'https://doi.org/10.1186/1741-7007-10-107',
+    'https://doi.org/10.1073/pnas.1003170107',
+    'https://doi.org/10.1038/s42003-020-0940-2',
+    'https://doi.org/10.7717/peerj.1846',
+    'https://doi.org/10.1371/journal.pone.0081067',
+    'https://doi.org/10.1111/j.1365-294X.2010.04701.x',
+    'https://doi.org/10.1073/pnas.2116211118',
+    'https://doi.org/10.1006/ecss.2000.0657',
+    'https://doi.org/10.1073/pnas.0701100104',
+    'https://doi.org/10.1093/plankt/25.5.539',
+    'https://www.imo.org/en/ourwork/environment/pages/bwmconventionandguidelines.aspx',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `warty-comb-jelly sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(
+      ({ image, alt, title, caption, credit }) => [
+        image.split('/').at(-1),
+        [alt, title ?? '', caption ?? '', credit ?? ''].join(' '),
+      ],
+    ),
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.habitats.map(({ description }) => description),
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaTexts.values(),
+  ].join(' ');
+
+  const identityText = storyBodies.get('comb-jelly-not-jellyfish') ?? '';
+  assert.match(
+    identityText,
+    /(?=[\s\S]*栉水母动物门)(?=[\s\S]*(?:不是|并非).{0,20}刺胞动物门)(?=[\s\S]*“淡海”.{0,20}(?:不表示|不是).{0,10}淡水)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:未评估|Not Evaluated|\bNE\b))(?=[\s\S]*(?:不代表|不等于|不能说明).{0,25}(?:无危|安全|数量稳定|没有威胁))/i,
+  );
+
+  const opticsText = storyBodies.get('cilia-rainbow-and-blue-light') ?? '';
+  assert.match(
+    opticsText,
+    /(?=[\s\S]*(?:环境光|日光).{0,20}衍射)(?=[\s\S]*(?:即使|即便).{0,15}(?:没有|未).{0,8}发光)(?=[\s\S]*(?:真正的)?生物发光.{0,30}光细胞)/,
+  );
+
+  const feedingText = storyBodies.get('stealth-feeding-current') ?? '';
+  assert.match(
+    [profile.diet.description, feedingText].join(' '),
+    /(?=[\s\S]*(?:主动巡游|主动).{0,20}(?:捕食者|捕食))(?=[\s\S]*低扰动.{0,15}(?:进食)?水流)(?=[\s\S]*(?:不是|并非).{0,20}(?:被动滤食器|滤食者))/,
+  );
+
+  const reproductionText =
+    storyBodies.get('hermaphrodite-direct-life-cycle') ?? '';
+  assert.match(
+    [reproductionText, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*(?:能|可以|能够)自体受精)(?=[\s\S]*(?:自交只是能力|自交不是.{0,12}首选))(?=[\s\S]*没有水螅体、横裂体(?:和|或)碟状幼体)/,
+  );
+
+  const invasionText =
+    storyBodies.get('two-invasion-routes-black-sea') ?? '';
+  assert.match(
+    [profile.distribution.range, invasionText].join(' '),
+    /(?=[\s\S]*(?:至少两条|南、北欧洲.{0,12}两条).{0,20}(?:跨大西洋)?入侵路径)(?=[\s\S]*美国东北部)(?=[\s\S]*(?:墨西哥湾|黑海))/,
+  );
+
+  const managementText =
+    storyBodies.get('manage-pathways-not-release-predators') ?? '';
+  assert.match(
+    managementText,
+    /(?=[\s\S]*过度捕捞)(?=[\s\S]*富营养化)(?=[\s\S]*食物网)(?=[\s\S]*Beroe ovata)(?=[\s\S]*(?:不是|不能).{0,35}(?:复制|生物防治|单一物种))/,
+  );
+
+  const coverText =
+    mediaTexts.get('01-western-atlantic-estuary-cover.webp') ?? '';
+  assert.match(
+    coverText,
+    /(?=[\s\S]*西大西洋)(?=[\s\S]*半咸水河口)(?=[\s\S]*一只完整)(?=[\s\S]*AI 生成原创图像)/,
+  );
+  assert.doesNotMatch(coverText, /切萨皮克|纳拉甘西特|黑海|现场实拍/);
+
+  const diagnosticText =
+    mediaTexts.get('02-lobes-and-comb-rows-diagnostic.webp') ?? '';
+  assert.match(
+    diagnosticText,
+    /(?=[\s\S]*(?:两片宽口叶|口叶))(?=[\s\S]*(?:四个.{0,8}耳状突起|耳状突起))(?=[\s\S]*(?:不能|不可|无法).{0,20}(?:替代|代替).{0,35}(?:凭证标本|分类检索|分子鉴定))/,
+  );
+
+  const rainbowText =
+    mediaTexts.get('03-ciliary-rainbow-daylight.webp') ?? '';
+  assert.match(
+    rainbowText,
+    /(?=[\s\S]*(?:日光|环境光))(?=[\s\S]*衍射)(?=[\s\S]*(?:不是|并非).{0,10}生物发光)(?=[\s\S]*(?:不能|无法).{0,20}(?:纤毛拍频|游速))/,
+  );
+
+  const bioluminescenceText =
+    mediaTexts.get('04-blue-green-bioluminescence.webp') ?? '';
+  assert.match(
+    bioluminescenceText,
+    /(?=[\s\S]*蓝绿色)(?=[\s\S]*(?:不表示|不是).{0,12}日光衍射)(?=[\s\S]*(?:不能|无法).{0,25}亮度.{0,35}(?:持续时间|刺激阈值|野外频率|功能))/,
+  );
+
+  const feedingMediaText =
+    mediaTexts.get('05-stealth-copepod-feeding.webp') ?? '';
+  assert.match(
+    feedingMediaText,
+    /(?=[\s\S]*六只.{0,12}桡足类)(?=[\s\S]*(?:均未接触|未接触).{0,10}(?:身体|动物))(?=[\s\S]*(?:不能|无法).{0,20}(?:流速|相遇率|捕获效率).{0,35}(?:自然猎物密度|固定食谱))/,
+  );
+
+  const monitoringText =
+    mediaTexts.get('06-optical-plankton-monitoring.webp') ?? '';
+  assert.match(
+    monitoringText,
+    /(?=[\s\S]*(?:无标识|通用).{0,20}(?:光学成像装置|装置))(?=[\s\S]*(?:隔着|保持).{0,15}水隙)(?=[\s\S]*(?:不能|无法).{0,30}(?:黑海|地点).{0,45}(?:物种鉴定|一次检出|丰度|分布|种群趋势))(?=[\s\S]*(?:校准取样体积|保存凭证))/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 91);
+  assert.equal(species.length, 92);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -16902,12 +17170,17 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 91);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 92);
   assert.equal(findTaxon(tree, 'phylum', 'Porifera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Hexactinellida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Lyssacinosida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euplectellidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euplectella')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Ctenophora')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Tentaculata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 69);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
