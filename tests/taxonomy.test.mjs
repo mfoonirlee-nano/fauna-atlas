@@ -15799,10 +15799,341 @@ test('registers the Atlantic Hagfish as a complete Myxine glutinosa profile', as
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the Ocellate Torpedo as a complete Torpedo torpedo profile', async () => {
+  const profile = findSpecies('ocellate-torpedo');
+
+  assert.equal(profile.id, 'species-torpedo-torpedo');
+  assert.equal(profile.slug, 'ocellate-torpedo');
+  assert.equal(profile.names.zh, '眼斑电鳐');
+  assert.equal(profile.names.en, 'Ocellate Torpedo');
+  assert.ok(profile.names.aliases.includes('Common Torpedo'));
+  assert.ok(!profile.names.aliases.includes('Atlantic Torpedo'));
+  assert.equal(profile.scientificName, 'Torpedo torpedo');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Chondrichthyes', '软骨鱼纲'],
+      ['order', 'Torpediniformes', '电鳐目'],
+      ['family', 'Torpedinidae', '电鳐科'],
+      ['genus', 'Torpedo', '电鳐属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2020,
+      criteria: 'A2bd',
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, ['欧洲', '非洲', '亚洲']);
+  assert.match(
+    profile.distribution.range,
+    /地中海.{0,30}马尔马拉海.{0,60}比斯开湾南部.{0,30}安哥拉/,
+  );
+  assert.match(
+    profile.distribution.range,
+    /(?:不包括|排除|不纳入).{0,8}黑海|黑海.{0,12}(?:不在|排除|未纳入)/,
+  );
+  assert.doesNotMatch(
+    profile.distribution.countries.join(' '),
+    /俄罗斯|保加利亚|罗马尼亚|乌克兰|格鲁吉亚/,
+  );
+  assert.ok(profile.distribution.countries.includes('土耳其'));
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 0.6, unit: 'm' },
+  );
+  assert.equal(profile.measurements.length?.min, undefined);
+  assert.equal(profile.measurements.length?.typical, undefined);
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /FAO.{0,20}(?:汇编)?最大总长.{0,30}(?:60 厘米|0\.6 米).{0,30}常见总长.{0,20}30.{0,8}40/i,
+  );
+  assert.equal(profile.measurements.weight, undefined);
+  assert.deepEqual(profile.metrics, {});
+
+  assert.ok(
+    profile.diet.types.includes('carnivore') ||
+      profile.diet.types.includes('piscivore'),
+  );
+  assert.match(
+    profile.diet.description,
+    /鱼类为主.{0,50}(?:兼食|也会取食|同时取食).{0,20}甲壳类/,
+  );
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(new Set(profile.storySections?.map(({ key }) => key)).size, 6);
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(profile.keyFacts.length, 34);
+  assert.equal(profile.threats.length, 5);
+  assert.equal(profile.conservationActions.length, 6);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'ocellate-torpedo',
+    basenames: [
+      '01-mediterranean-soft-bottom-portrait',
+      '02-five-ocelli-diagnostic-dorsal',
+      '03-sand-burial-resting',
+      '04-ventral-electric-organs',
+      '05-small-fish-prey-encounter',
+      '06-noncontact-visual-survey',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 24);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 24);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/rest/AphiaRecordByAphiaID/271691',
+    'https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?tbl=species&genus=Torpedo&species=torpedo',
+    'https://fishdb.sinica.edu.tw/chi/chinesequer2.php?D1=&R1=&T1=&cn=&dere=asc&fm=&gc=&me=&orderby=is_accepted_name&page=49&pz=50&vn=',
+    'https://doi.org/10.2305/IUCN.UK.2021-2.RLTS.T161397A124477382.en',
+    'https://nc.iucnredlist.org/redlist/content/attachment_files/2021-2_RL_Stats_Table_7.pdf',
+    'https://www.fao.org/4/i3178e/i3178e.pdf',
+    'https://www.fao.org/4/i1276b/i1276b12.pdf',
+    'https://www.fao.org/3/ca2740en/ca2740en.pdf',
+    'https://portals.iucn.org/library/sites/library/files/documents/2019-050-En.pdf',
+    'https://www.cambridge.org/core/journals/oryx/article/first-records-of-the-west-african-torpedo-in-cabo-verde-archipelago-eastern-atlantic/2F4DD22111191A25BEBB18CF9168EC97',
+    'https://doi.org/10.3989/scimar.2007.71n2213',
+    'https://doi.org/10.1080/24750263.2019.1696419',
+    'https://doi.org/10.1071/MF9940693',
+    'https://raco.cat/index.php/Mzoologica/article/view/90040',
+    'https://doi.org/10.1134/S0032945213060118',
+    'https://doi.org/10.1111/j.1095-8649.1979.tb03579.x',
+    'https://acta.izor.hr/ojs/index.php/acta/article/view/182',
+    'https://doi.org/10.3390/ani13182899',
+    'https://doi.org/10.1186/2044-5040-1-20',
+    'https://doi.org/10.1016/0012-1606(78)90307-X',
+    'https://doi.org/10.1085/jgp.44.4.757',
+    'https://doi.org/10.1016/S0021-9258(19)69691-2',
+    'https://doi.org/10.3989/scimar.04734.16B',
+    'https://doi.org/10.1016/j.cub.2021.08.062',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `ocellate-torpedo sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(
+      ({ image, alt, caption }) => [
+        image?.split('/').at(-1) ?? '',
+        [alt, caption ?? ''].join(' '),
+      ],
+    ),
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    profile.media.alt,
+    ...(profile.media.gallery ?? []).flatMap(({ alt, title, caption }) => [
+      alt,
+      title,
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    storyBodies.get('five-ocelli-usually') ?? '',
+    /通常.{0,20}(?:五|5)枚.{0,20}眼斑.{0,80}(?:零|0).{0,8}(?:九|9)枚.{0,30}(?:不是|并非).{0,10}固定/,
+  );
+  assert.match(
+    storyBodies.get('electric-organs-under-disc') ?? '',
+    /头部两侧.{0,30}(?:近肾形|肾形)电器官.{0,50}(?:完整皮肤|皮肤下)/,
+  );
+  assert.match(
+    storyBodies.get('voltage-after-birth') ?? '',
+    /圈养新生.{0,30}(?:一天|1 天).{0,20}4 伏.{0,50}(?:四个月|4 个月).{0,20}26 伏.{0,50}(?:不能|无法|不代表).{0,20}(?:成年|成体).{0,10}(?:峰值|输出)/,
+  );
+  assert.match(
+    storyBodies.get('ambush-beneath-sand') ?? '',
+    /(?:沙中|沉积物中).{0,30}(?:小鱼|活鱼).{0,40}(?:鱼类是主要食物|鱼类为主).{0,30}甲壳类.{0,40}(?:不可见|看不见)/,
+  );
+  assert.match(
+    storyBodies.get('regional-reproduction') ?? '',
+    /拉齐奥.{0,30}(?:六|6)个月.{0,30}(?:4|四).{0,8}(?:19|十九).{0,40}塞内加尔.{0,30}(?:六|6).{0,8}(?:八|8)个月.{0,50}(?:地区|区域|地点)/,
+  );
+  assert.match(
+    storyBodies.get('vulnerable-bycatch') ?? '',
+    /IUCN.{0,20}2020 年.{0,30}(?:易危|VU).{0,20}(?:下降|decreasing).{0,20}A2bd.{0,50}(?:底拖网|刺网|三层刺网)/i,
+  );
+
+  const diagnosticText =
+    mediaTexts.get('02-five-ocelli-diagnostic-dorsal.webp') ?? '';
+  assert.match(
+    diagnosticText,
+    /(?:五|5)枚.{0,20}眼斑.{0,40}(?:不是|并非).{0,20}固定.{0,50}(?:不能|无法).{0,30}(?:喷水孔|标本诊断)/,
+  );
+
+  const burialText = mediaTexts.get('03-sand-burial-resting.webp') ?? '';
+  assert.match(
+    burialText,
+    /(?:部分| partly|薄层|沉积物|沙).{0,40}(?:眼斑|斑纹).{0,30}(?:不能|无法).{0,15}(?:计数|数量)/i,
+  );
+  assert.match(
+    burialText,
+    /(?:不能|无法).{0,30}(?:埋沙方式|挖掘方式|掘穴方式|挖掘行为).{0,30}(?:持续时间|时长|昼夜|时间)/,
+  );
+
+  const ventralText =
+    mediaTexts.get('04-ventral-electric-organs.webp') ?? '';
+  assert.match(
+    ventralText,
+    /(?:腹面|腹侧).{0,30}(?:电器官|器官).{0,30}(?:教育|概念|重建).{0,40}(?:不能|无法).{0,30}(?:鳃裂|电细胞|柱数).{0,30}(?:计数|数量|电压)/,
+  );
+
+  const preyText =
+    mediaTexts.get('05-small-fish-prey-encounter.webp') ?? '';
+  assert.match(preyText, /一尾.{0,15}电鳐.{0,30}一尾.{0,20}(?:小鱼|虾虎鱼)/);
+  assert.match(
+    preyText,
+    /(?:不能|无法|不证明).{0,20}(?:猎物|取食).{0,25}(?:放电|捕获|摄食).{0,30}(?:没有|无).{0,10}(?:可见)?(?:电光|闪电|光效)/,
+  );
+
+  const surveyText =
+    mediaTexts.get('06-noncontact-visual-survey.webp') ?? '';
+  assert.match(surveyText, /一名.{0,15}潜水员.{0,30}(?:没有接触|不接触|保持距离)/);
+  assert.match(
+    surveyText,
+    /(?:不能|无法|不证明).{0,30}(?:检出|占域|占据|丰度).{0,30}(?:种群趋势|趋势).{0,30}(?:监测结果|保护成效|调查结果)/,
+  );
+
+  assert.match(
+    editorialText,
+    /眼斑.{0,30}(?:并非|不是).{0,10}(?:真正|实际)?眼睛/,
+  );
+  assert.match(
+    editorialText,
+    /(?:电放电|放电).{0,20}(?:水下)?.{0,12}(?:不可见|看不见).{0,30}(?:闪电|电弧|光弧)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:60 厘米|0\.6 米).{0,30}(?:最大|上限).{0,40}(?:30.{0,8}40).{0,20}(?:常见|通常)/,
+  );
+  assert.match(
+    editorialText,
+    /2020 年.{0,20}(?:评估|易危|VU).{0,60}2021-2.{0,20}(?:发布|公布)/i,
+  );
+  assert.match(
+    editorialText,
+    /(?:地中海|拉齐奥|西西里).{0,50}(?:塞内加尔|西非|比塞大).{0,60}(?:差异|不同|不能.{0,20}(?:外推|通抄|统一))/,
+  );
+  assert.match(
+    editorialText,
+    /鱼类为主.{0,40}(?:也|兼|同时).{0,15}(?:吃|食|取食).{0,15}甲壳类/,
+  );
+  assert.match(
+    editorialText,
+    /(?:妊娠|胎仔|成熟体长).{0,60}(?:地区|区域|地点|样本).{0,20}(?:不同|差异|边界)/,
+  );
+
+  assert.doesNotMatch(
+    editorialText,
+    /(?:始终|固定|每尾都有|一律)(?:为|有|是)?.{0,8}(?:五|5)枚眼斑/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:会|能|可)(?:在水下)?(?:产生|发出|显示).{0,10}(?:闪电|电弧|蓝色光弧)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:成年|成体).{0,20}(?:峰值|输出|电压).{0,15}(?:26|4\s*(?:至|→|-).*26)\s*伏/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:通常|常见|典型成体).{0,20}(?:为|可达|达到).{0,12}(?:60 厘米|0\.6 米)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /IUCN(?:在|于)?\s*2021(?:-2)?\s*年?.{0,15}(?:评估|重评)|2021(?:-2)?\s*年?.{0,15}IUCN.{0,15}(?:评估|重评)/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:整个|全).{0,8}地中海.{0,30}(?:相同|一致|统一|固定)(?:繁殖|成熟|胎仔|物候)?/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /眼斑电鳐(?:只|仅)(?:吃|取食|捕食).{0,15}鱼类|食物(?:全部|仅限于)鱼类/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:全范围|全球|所有地区).{0,30}(?:妊娠|胎仔|成熟体长).{0,20}(?:固定|均为|一律)/,
+  );
+  assert.doesNotMatch(
+    surveyText,
+    /(?:画面|照片|影像)(?:足以|已经)?(?:证明|表明|显示).{0,20}(?:当地|该地|种群).{0,20}(?:检出|占域|丰度|增长|下降|稳定|趋势)/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 87);
+  assert.equal(species.length, 88);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -15909,8 +16240,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 87);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 66);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 88);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 67);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
@@ -15939,6 +16270,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Myxiniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Myxinidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Myxine')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Chondrichthyes')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Torpediniformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Torpedinidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Torpedo')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Leptocardii')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
