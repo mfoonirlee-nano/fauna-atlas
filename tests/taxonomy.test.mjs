@@ -17637,10 +17637,358 @@ test('registers C. elegans as a complete Caenorhabditis elegans profile', async 
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the duck\'s-bill lingula as a bounded Lingula anatina profile', async () => {
+  const profile = findSpecies('lingula-anatina');
+
+  assert.equal(profile.id, 'species-lingula-anatina');
+  assert.equal(profile.slug, 'lingula-anatina');
+  assert.equal(profile.names.zh, '鸭嘴海豆芽');
+  assert.equal(profile.names.en, "Duck's-bill Lingula");
+  assert.deepEqual(profile.names.aliases, [
+    '鴨嘴海豆芽',
+    'Duck Lingula',
+    'Lingula unguis',
+  ]);
+  assert.equal(profile.scientificName, 'Lingula anatina');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Brachiopoda', '腕足动物门'],
+      ['class', 'Lingulata', '舌形贝纲'],
+      ['order', 'Lingulida', '舌形贝目'],
+      ['family', 'Lingulidae', '舌形贝科'],
+      ['genus', 'Lingula', '海豆芽属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, []);
+  assert.deepEqual(profile.distribution.regions, [
+    '印度—西太平洋名义种记录区',
+    '印度尼西亚摩鹿加群岛模式产地',
+  ]);
+  assert.deepEqual(profile.distribution.countries, []);
+  assert.deepEqual(profile.distribution.center, { lat: -3.2, lng: 128.2 });
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.equal(profile.habitats[0]?.isPrimary, true);
+  assert.deepEqual(profile.measurements, {
+    length: {
+      typical: 40,
+      unit: 'mm',
+      note: 'FAO 识别指南给出的常见壳长约 4 厘米，并另列指南最大壳长 6.5 厘米；结构化长度只保留常见值，两个数都沿用名义种口径，不是已厘清所有隐存谱系后的狭义物种常数，也不含高度伸缩的肉茎。',
+    },
+  });
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['filter-feeder']);
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'dorsal-ventral-phosphatic-shell',
+      'vertical-burrow-and-pedicle',
+      'reburrowing-experiment-boundaries',
+      'spirolophe-suspension-feeding',
+      'shelled-planktotrophic-young',
+      'species-complex-and-living-fossil-myth',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length >= 15);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => [key, value, unit]),
+    [
+      ['common-shell-length', '约 4', '厘米'],
+      ['guide-maximum-shell-length', '6.5', '厘米'],
+      ['lophophore-arms', '2', '条'],
+      ['pedicle-extension', '接近 10', '倍壳长'],
+    ],
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'lingula-anatina',
+    basenames: [
+      '01-tidal-flat-burrow-cover',
+      '02-shell-and-pedicle-diagnostic',
+      '03-vertical-burrow-cutaway',
+      '04-spirolophe-suspension-feeding',
+      '05-two-pair-cirri-juvenile',
+      '06-three-opening-photo-survey',
+    ],
+    credit: 'Fauna Atlas · AI 生成原创图像',
+  });
+
+  assert.ok(profile.sources.length >= 25);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'distribution', 'ecology', 'conservation']),
+  );
+  assert.ok(
+    profile.sources.every(({ url }) =>
+      /^https:\/\/(?:doi\.org|www\.marinespecies\.org|www\.gbif\.org|www\.ncbi\.nlm\.nih\.gov|www\.forest\.gov\.tw|www\.tbn\.org\.tw|www\.nmns\.edu\.tw|openknowledge\.fao\.org|carnetsgeol\.net|researchdata\.edu\.au|www\.jstor\.org|www\.afcd\.gov\.hk|www\.iucnredlist\.org|nrl\.iucnredlist\.org|cites\.org)\//.test(
+        url,
+      ),
+    ),
+    'Lingula sources should be authority records, institutional guidance, or primary papers',
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=235362',
+    'https://www.gbif.org/species/5183826',
+    'https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7574&lvl=0',
+    'https://www.tbn.org.tw/taxa/f829da55-c892-48b2-bbac-aa5ff089d9b8',
+    'https://openknowledge.fao.org/server/api/core/bitstreams/f32d004b-6358-44f3-8242-b9d23e5346d0/content',
+    'https://doi.org/10.1016/j.ympev.2022.107460',
+    'https://doi.org/10.1038/ncomms9301',
+    'https://doi.org/10.1371/journal.pone.0123040',
+    'https://doi.org/10.1017/S0094837300006825',
+    'https://doi.org/10.17161/dt.v0i0.5558',
+    'https://doi.org/10.1016/0031-0182(91)90027-O',
+    'https://researchdata.edu.au/salinity-tolerance-burrowing-north-queensland/677904',
+    'https://www.jstor.org/stable/1304816',
+    'https://doi.org/10.3800/pbr.14.45',
+    'https://doi.org/10.1017/pab.2020.51',
+    'https://doi.org/10.11646/zoosymposia.19.1.13',
+    'https://www.iucnredlist.org/search?query=Lingula%20anatina&searchType=species',
+    'https://nrl.iucnredlist.org/about/faqs',
+    'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    'https://cites.org/eng/node/10288',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Lingula sources should include ${requiredUrl}`,
+    );
+  }
+
+  const sourcesByUrl = new Map(
+    profile.sources.map(({ url, title }) => [url, title]),
+  );
+  assert.equal(
+    sourcesByUrl.get('https://doi.org/10.1016/j.ympev.2022.107460'),
+    'Goto et al. 2022 — Stasis and diversity in living fossils: Species delimitation and evolution of lingulid brachiopods',
+  );
+  assert.equal(
+    sourcesByUrl.get('https://doi.org/10.1038/ncomms9301'),
+    'Luo et al. 2015 — The Lingula genome provides insights into brachiopod evolution and the origin of phosphate biomineralization',
+  );
+  assert.equal(
+    sourcesByUrl.get('https://doi.org/10.1017/S0094837300006825'),
+    'Westbroek, Yanagida & Isa 1980 — Functional morphology of brachiopod and coral skeletal structures supporting ciliated epithelia',
+  );
+  assert.equal(
+    sourcesByUrl.get('https://doi.org/10.17161/dt.v0i0.5558'),
+    'Emig 1997 — Part H, Brachiopoda (Revised), vol. 1, ch. 6, p. 473–502',
+  );
+  assert.equal(
+    sourcesByUrl.get(
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    ),
+    'CITES — Appendices I, II and III (effective 5 March 2026)',
+  );
+  assert.equal(
+    sourcesByUrl.get('https://doi.org/10.1111/j.1469-7998.1987.tb03696.x'),
+    'Trueman & Wong 1987 — The role of the coelom as a hydrostatic skeleton in lingulid brachiopods',
+  );
+  assert.equal(
+    sourcesByUrl.get('https://www.jstor.org/stable/1304816'),
+    'Hammond 1983 — Experimental studies of salinity tolerance, burrowing behavior and pedicle regeneration in Lingula anatina',
+  );
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(
+      ({ image, alt, title, caption, credit }) => [
+        image.split('/').at(-1),
+        [alt, title ?? '', caption ?? '', credit ?? ''].join(' '),
+      ],
+    ),
+  );
+  const habitatText = [
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+  ].join(' ');
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    habitatText,
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaTexts.values(),
+  ].join(' ');
+
+  assert.match(
+    profile.distribution.range,
+    /(?=[\s\S]*摩鹿加群岛)(?=[\s\S]*印度—西太平洋)(?=[\s\S]*温带东亚)(?=[\s\S]*热带西—中太平洋)(?=[\s\S]*隐存谱系)(?=[\s\S]*狭义物种.{0,25}仍待修订)(?=[\s\S]*GBIF.{0,30}(?:化石|材料样本))(?=[\s\S]*(?:不能|不可).{0,25}全球连续分布)/,
+  );
+  assert.match(
+    habitatText,
+    /(?=[\s\S]*(?:细砂|粉砂))(?=[\s\S]*(?:泥质|软底))(?=[\s\S]*河口)(?=[\s\S]*红树林)(?=[\s\S]*半咸水)(?=[\s\S]*(?:数据库模型|归入 marine).{0,35}(?:不表示|不等于).{0,20}(?:盐度恒定|淡水))/i,
+  );
+
+  const shellText =
+    storyBodies.get('dorsal-ventral-phosphatic-shell') ?? '';
+  assert.match(
+    [shellText, profile.description, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*背面.{0,15}腹面)(?=[\s\S]*(?:不是|不同于).{0,25}(?:双壳类|蛤|蚌))(?=[\s\S]*磷灰石)(?=[\s\S]*几丁质)(?=[\s\S]*蛋白质)(?=[\s\S]*(?:不等于|不是).{0,15}(?:骨骼|骨头))/,
+  );
+
+  const burrowText = [
+    storyBodies.get('vertical-burrow-and-pedicle') ?? '',
+    storyBodies.get('reburrowing-experiment-boundaries') ?? '',
+    ...(profile.activity ?? []),
+    ...profile.keyFacts,
+  ].join(' ');
+  assert.match(
+    burrowText,
+    /(?=[\s\S]*(?:近垂直|竖直).{0,15}单竖井)(?=[\s\S]*U 形.{0,20}重埋.{0,15}路线)(?=[\s\S]*(?:不是|不只是).{0,25}(?:永久双开口管|钻土|钻头))(?=[\s\S]*肉茎.{0,30}(?:锚定|牵引))(?=[\s\S]*(?:壳瓣|壳体))(?=[\s\S]*刚毛)(?=[\s\S]*(?:静水骨骼|旋转剪切))/,
+  );
+  assert.match(
+    storyBodies.get('reburrowing-experiment-boundaries') ?? '',
+    /(?=[\s\S]*北昆士兰)(?=[\s\S]*5 至 10 厘米)(?=[\s\S]*20 厘米.{0,25}30% 至 50%)(?=[\s\S]*宿务)(?=[\s\S]*超过 50 毫米)(?=[\s\S]*(?:不能|不可).{0,25}(?:绝不再掘|总能回到原洞))/,
+  );
+
+  const feedingText =
+    storyBodies.get('spirolophe-suspension-feeding') ?? '';
+  assert.match(
+    [feedingText, profile.diet.description, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*两条对称.{0,12}(?:螺旋|卷曲).{0,8}臂)(?=[\s\S]*口.{0,12}(?:两臂之间|螺旋臂之间))(?=[\s\S]*纤毛)(?=[\s\S]*(?:食物沟|悬浮颗粒))(?=[\s\S]*(?:不是|不).{0,20}用嘴主动吸水)(?=[\s\S]*(?:不支持|不能).{0,30}(?:单一|只吃).{0,15}浮游生物)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*两个侧方入水口)(?=[\s\S]*一个中央出水口)(?=[\s\S]*刚毛.{0,20}围成)(?=[\s\S]*(?:不是|不是真正).{0,20}(?:肉质水管|水管))/,
+  );
+
+  const developmentText =
+    storyBodies.get('shelled-planktotrophic-young') ?? '';
+  assert.match(
+    [developmentText, profile.description, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*雌雄异体)(?=[\s\S]*(?:配子排入海水|体外受精))(?=[\s\S]*(?:有壳|带壳).{0,20}浮游)(?=[\s\S]*沉降.{0,20}底栖)(?=[\s\S]*奄美)(?=[\s\S]*两对触手)(?=[\s\S]*(?:不能|不可).{0,35}(?:统一|整个物种|狭义物种))/i,
+  );
+  assert.equal(profile.metrics.lifespanYears, undefined);
+
+  const boundaryText =
+    storyBodies.get('species-complex-and-living-fossil-myth') ?? '';
+  assert.match(
+    [boundaryText, profile.description, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*物种复合群)(?=[\s\S]*温带东亚)(?=[\s\S]*热带西—中太平洋)(?=[\s\S]*模式产地.{0,12}摩鹿加群岛)(?=[\s\S]*载名模式)(?=[\s\S]*白垩纪)(?=[\s\S]*(?:不是|不能写成).{0,30}寒武纪)(?=[\s\S]*(?:持续演化|基因组))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:未评估|\bNE\b))(?=[\s\S]*(?:不表示|不代表).{0,25}(?:无危|安全|种群稳定|没有威胁))/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*2026 年 3 月 5 日)(?=[\s\S]*CITES)(?=[\s\S]*(?:未找到|未检出|未列入|没有).{0,30}(?:附录|条目|列名))(?=[\s\S]*(?:不代表|不等于).{0,25}(?:无危|安全|没有威胁))/i,
+  );
+  assert.doesNotMatch(editorialText, /类型产地/);
+  assert.doesNotMatch(editorialText, /名称承载模式/);
+
+  const coverText =
+    mediaTexts.get('01-tidal-flat-burrow-cover.webp') ?? '';
+  assert.match(
+    coverText,
+    /(?=[\s\S]*浅水潮滩)(?=[\s\S]*一个.{0,8}洞口)(?=[\s\S]*(?:顶部一小段|其余身体埋在沉积物中))(?=[\s\S]*AI 生成原创图像)/,
+  );
+
+  const diagnosticText =
+    mediaTexts.get('02-shell-and-pedicle-diagnostic.webp') ?? '';
+  assert.match(
+    diagnosticText,
+    /(?=[\s\S]*(?:舌形壳|狭长.{0,8}壳))(?=[\s\S]*肉茎)(?=[\s\S]*(?:不能|无法).{0,25}(?:确认|证明).{0,45}(?:物种|隐存谱系|活体比例|年龄|采集地点))/,
+  );
+
+  const cutawayText =
+    mediaTexts.get('03-vertical-burrow-cutaway.webp') ?? '';
+  assert.match(
+    cutawayText,
+    /(?=[\s\S]*(?:剖面|洞穴))(?=[\s\S]*(?:近垂直|向下))(?=[\s\S]*锚定)(?=[\s\S]*(?:不能|无法).{0,25}(?:确定|证明).{0,55}(?:背腹壳瓣朝向|洞深|洞径|尺寸比例|沉积层结构))/,
+  );
+
+  const lophophoreText =
+    mediaTexts.get('04-spirolophe-suspension-feeding.webp') ?? '';
+  assert.match(
+    lophophoreText,
+    /(?=[\s\S]*透明观察窗)(?=[\s\S]*两条对称)(?=[\s\S]*螺旋触手冠)(?=[\s\S]*(?:不能|无法).{0,30}(?:水流方向|流速|颗粒选择|摄食成功))/,
+  );
+
+  const juvenileText =
+    mediaTexts.get('05-two-pair-cirri-juvenile.webp') ?? '';
+  assert.match(
+    juvenileText,
+    /(?=[\s\S]*(?:四条|两对).{0,15}(?:简单|不分枝).{0,15}(?:触手|具纤毛))(?=[\s\S]*奄美)(?=[\s\S]*分类身份未定)(?=[\s\S]*(?:不能|无法).{0,35}(?:自然年龄|阶段持续时间|统一发育路线))/,
+  );
+
+  const surveyText =
+    mediaTexts.get('06-three-opening-photo-survey.webp') ?? '';
+  assert.match(
+    surveyText,
+    /(?=[\s\S]*样框)(?=[\s\S]*一组.{0,12}三个.{0,8}(?:圆形小洞|三孔))(?=[\s\S]*(?:不能|无法).{0,25}(?:确认|证明).{0,50}(?:物种|占洞个体|洞穴连通方式|丰度|种群趋势))(?=[\s\S]*(?:凭证|重复调查))/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 94);
+  assert.equal(species.length, 95);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -17672,6 +18020,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Crassiclitellata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Megascolecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Megascolides')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Brachiopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Lingulata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Lingulida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Lingulidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Lingula')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
@@ -17747,7 +18100,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 94);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 95);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
