@@ -15465,10 +15465,344 @@ test('registers the Surinam Toad as a complete Pipa pipa profile', async () => {
   assert.equal(profile.updatedAt, '2026-08-30');
 });
 
+test('registers the Atlantic Hagfish as a complete Myxine glutinosa profile', async () => {
+  const profile = findSpecies('atlantic-hagfish');
+
+  assert.equal(profile.id, 'species-myxine-glutinosa');
+  assert.equal(profile.slug, 'atlantic-hagfish');
+  assert.equal(profile.names.zh, '大西洋盲鳗');
+  assert.equal(profile.names.en, 'Atlantic Hagfish');
+  assert.deepEqual(profile.names.aliases, ['Common Hagfish', 'Common Hag']);
+  assert.equal(profile.scientificName, 'Myxine glutinosa');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Myxini', '盲鳗纲'],
+      ['order', 'Myxiniformes', '盲鳗目'],
+      ['family', 'Myxinidae', '盲鳗科'],
+      ['genus', 'Myxine', '盲鳗属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'unknown',
+      assessedYear: 2009,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, ['欧洲', '非洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '俄罗斯',
+    '挪威',
+    '瑞典',
+    '丹麦',
+    '德国',
+    '荷兰',
+    '比利时',
+    '英国',
+    '爱尔兰',
+    '法国',
+    '西班牙',
+    '葡萄牙',
+    '摩洛哥',
+    '阿尔及利亚',
+    '意大利',
+    '克罗地亚',
+  ]);
+  assert.match(
+    profile.distribution.range,
+    /严格按现行种界.{0,30}(?:东北|东部)大西洋.{0,120}Myxine limosa.{0,30}不纳入本范围/i,
+  );
+  assert.doesNotMatch(profile.distribution.range, /加拿大|美国|墨西哥/);
+  assert.ok(!profile.distribution.countries.includes('加拿大'));
+  assert.ok(!profile.distribution.countries.includes('美国'));
+  assert.equal(profile.habitats.length, 4);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 0.45, unit: 'm' },
+  );
+  assert.equal(profile.measurements.length?.min, undefined);
+  assert.equal(profile.measurements.length?.typical, undefined);
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /严格东大西洋.{0,30}最大总长.{0,30}不代表典型成体.{0,30}79—95 厘米.{0,50}Myxine limosa.{0,20}未纳入/i,
+  );
+  assert.equal(profile.measurements.weight, undefined);
+  assert.deepEqual(profile.metrics, {});
+
+  assert.deepEqual(profile.diet.types, ['carnivore']);
+  assert.match(
+    profile.diet.description,
+    /机会性底栖肉食者和食腐者.{0,80}虾类.{0,50}水母尸体.{0,80}不足以.{0,20}只吃死鱼/,
+  );
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(new Set(profile.storySections?.map(({ key }) => key)).size, 6);
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) => label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(profile.keyFacts.length, 32);
+  assert.equal(profile.threats.length, 6);
+  assert.equal(profile.conservationActions.length, 8);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'atlantic-hagfish',
+    basenames: [
+      '01-muddy-seafloor-adult-cover',
+      '02-blunt-head-and-sensory-tentacles',
+      '03-mud-burrow-benthic-habitat',
+      '04-slime-thread-defense-cloud',
+      '05-single-body-overhand-knot',
+      '06-empty-trap-fishery-monitoring',
+    ],
+  });
+
+  assert.equal(profile.sources.length, 24);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 24);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/rest/AphiaRecordByAphiaID/101170',
+    'https://www.marinespecies.org/rest/AphiaRecordByAphiaID/271309',
+    'https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=6425',
+    'https://doi.org/10.1111/jzs.12035',
+    'https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/1995/933/wisner.pdf',
+    'https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41045324.pdf',
+    'https://pmc.ncbi.nlm.nih.gov/articles/PMC12699212/',
+    'https://helloocean.nmmba.gov.tw/nmmba_front/SpecimenDetail.aspx?id=39639',
+    'https://doi.org/10.2305/IUCN.UK.2011-1.RLTS.T196057A8988080.en',
+    'https://portals.iucn.org/library/efiles/documents/RL-262-001.pdf',
+    'https://www.fao.org/3/i5712e/i5712e.pdf',
+    'https://assets.publishing.service.gov.uk/media/5a7c89e1e5274a0bb7cb7b36/SEA8_TechRep_Fish_of_BI.pdf',
+    'https://doi.org/10.1017/S0025315400024413',
+    'https://doi.org/10.1038/s41598-017-17557-x',
+    'https://doi.org/10.1098/rspb.2014.2210',
+    'https://doi.org/10.1242/jeb.37.3.474',
+    'https://doi.org/10.1007/BF00318754',
+    'https://doi.org/10.1111/j.1463-6395.1981.tb00623.x',
+    'https://doi.org/10.1038/s41598-018-27975-0',
+    'https://doi.org/10.1038/188595a0',
+    'https://doi.org/10.1111/jzo.12752',
+    'https://doi.org/10.1242/jeb.172254',
+    'https://doi.org/10.1016/j.marenvres.2020.105097',
+    'https://www.fishbase.se/summary/Myxine-glutinosa.html',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `atlantic-hagfish sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(
+      ({ image, alt, caption }) => [
+        image?.split('/').at(-1) ?? '',
+        [alt, caption ?? ''].join(' '),
+      ],
+    ),
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.conservation.assessor ?? '',
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    profile.media.alt,
+    ...(profile.media.gallery ?? []).flatMap(({ alt, title, caption }) => [
+      alt,
+      title,
+      caption ?? '',
+    ]),
+  ].join(' ');
+
+  assert.match(
+    storyBodies.get('one-name-two-atlantics') ?? '',
+    /1995 年.{0,30}Myxine limosa.{0,40}2013 年.{0,20}16S 与 COI.{0,80}加拿大渔业.{0,30}95 厘米.{0,50}西大西洋种/i,
+  );
+  assert.match(
+    storyBodies.get('six-pouches-two-exits') ?? '',
+    /单一鼻孔.{0,50}六对.{0,20}鳃.{0,50}每侧六条排水管.{0,50}一个外部鳃孔.{0,50}不是六对外露鳃裂/,
+  );
+  assert.match(
+    storyBodies.get('slime-built-in-seawater') ?? '',
+    /蛋白丝束.{0,30}黏蛋白.{0,60}不到一秒.{0,30}纤维水凝胶.{0,60}受控材料混合.{0,30}不是野外捕食反应计时/,
+  );
+  assert.match(
+    storyBodies.get('knot-without-a-jaw') ?? '',
+    /Oslofjord.{0,40}打结.{0,50}清除黏液.{0,60}美国 Massachusetts.{0,40}Myxine limosa.{0,70}不能照搬北美数据/i,
+  );
+  assert.match(
+    storyBodies.get('least-concern-needs-a-recheck') ?? '',
+    /LC.{0,20}2009 年.{0,70}严格东大西洋.{0,40}趋势没有可靠综合/i,
+  );
+  assert.match(
+    storyBodies.get('least-concern-needs-a-recheck') ?? '',
+    /比从 LC 推导稳定更重要/i,
+  );
+
+  const coverText = mediaTexts.get('01-muddy-seafloor-adult-cover.webp') ?? '';
+  assert.match(coverText, /一只完整.{0,30}大西洋盲鳗/);
+  assert.match(coverText, /(?:没有|未见).{0,10}其他动物/);
+
+  const headText =
+    mediaTexts.get('02-blunt-head-and-sensory-tentacles.webp') ?? '';
+  assert.match(
+    headText,
+    /不是可计数的标本诊断.{0,30}不能核定全部触须.{0,20}内部鳃囊.{0,20}黏液孔数量/,
+  );
+  assert.match(
+    headText,
+    /不能判断性别.{0,10}年龄.{0,10}体长.{0,10}深度.{0,10}地点/,
+  );
+
+  const burrowText = mediaTexts.get('03-mud-burrow-benthic-habitat.webp') ?? '';
+  assert.match(
+    burrowText,
+    /不能证明.{0,30}开挖.{0,20}长期占用.{0,30}不能确定巢穴.{0,20}固定隧道.{0,20}水深.{0,10}盐度.{0,10}温度.{0,10}地点.{0,10}昼夜节律/,
+  );
+
+  const slimeText = mediaTexts.get('04-slime-thread-defense-cloud.webp') ?? '';
+  assert.match(
+    slimeText,
+    /不能确定刺激来源.{0,10}分泌量.{0,10}丝线数量.{0,10}展开速度.{0,10}防御功能.{0,10}结果/,
+  );
+  assert.match(slimeText, /外部鳃孔.{0,15}不是黏液喷嘴/);
+
+  const knotText = mediaTexts.get('05-single-body-overhand-knot.webp') ?? '';
+  assert.match(
+    knotText,
+    /不能判断结的形成方向.{0,10}力量.{0,10}持续时间.{0,10}用途.{0,10}频率/,
+  );
+  assert.match(knotText, /不把美国样本.{0,30}实验数值.{0,20}现行东大西洋种/);
+
+  const monitoringText =
+    mediaTexts.get('06-empty-trap-fishery-monitoring.webp') ?? '';
+  assert.match(monitoringText, /两名工作人员.{0,30}空圆筒陷阱.{0,20}记录板/);
+  assert.match(
+    monitoringText,
+    /零只动物可见不能证明检出.{0,10}缺失.{0,10}丰度.{0,10}趋势.{0,10}渔具合规.{0,10}保护成效/,
+  );
+  assert.match(monitoringText, /不代表特定国家.{0,10}机构.{0,20}标准盲鳗渔具/);
+
+  assert.match(
+    editorialText,
+    /现行分类.{0,30}东大西洋 Myxine glutinosa.{0,20}西大西洋 Myxine limosa.{0,50}北美.{0,50}不能继续混用/i,
+  );
+  assert.match(
+    editorialText,
+    /IUCN.{0,30}2009 年无危评估.{0,60}早于现行.{0,20}拆分.{0,50}东大西洋种群趋势仍未知/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:通常|一般|典型成体).{0,20}(?:为|可达|约为).{0,10}(?:79|95)\s*(?:厘米|cm)/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:最大|最长).{0,12}(?:为|可达|达到).{0,10}(?:79|95)\s*(?:厘米|cm)/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:全球种群|东大西洋种群)(?:保持|呈|为).{0,10}(?:稳定|stable)/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:具有|拥有|可见|解剖有).{0,12}(?:六|6)对?外(?:部|露)鳃(?:孔|裂)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /大西洋盲鳗.{0,10}(?:完全失明|完全没有光感|没有任何光感)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /大西洋盲鳗(?:只|仅)(?:吃|取食).{0,12}(?:死鱼|鱼类腐肉)/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:典型|通常).{0,20}(?:响应|到达)(?:时间)?(?:为|是).{0,15}(?:2|二)\s*分钟/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:野外|捕食者攻击).{0,25}(?:不到|少于|<)\s*(?:1|一)\s*秒/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:大西洋盲鳗|Myxine glutinosa).{0,40}(?:黏液)?.{0,15}(?:堵塞|堵住).{0,12}(?:捕食者)?鳃/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:10|十)次.{0,30}(?:5|五)次.{0,20}(?:反手结|overhand)/i,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:每年|每窝).{0,20}(?:20|二十).{0,8}(?:至|—|-).{0,8}(?:30|三十).{0,10}枚卵|全年繁殖/,
+  );
+  assert.doesNotMatch(profile.threats.join(' '), /加拿大|美国|缅因/);
+  assert.doesNotMatch(
+    editorialText,
+    /(?:空陷阱|零捕获)(?:足以)?(?:证明|表示|意味着)(?:当地|该地)?(?:没有|缺失|下降)/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 86);
+  assert.equal(species.length, 87);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -15575,8 +15909,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 86);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 65);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 87);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 66);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
@@ -15601,6 +15935,10 @@ test('counts descendant species on shared taxon branches', () => {
   );
   assert.equal(findTaxon(tree, 'family', 'Petromyzontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Petromyzon')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Myxini')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Myxiniformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Myxinidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Myxine')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Leptocardii')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);

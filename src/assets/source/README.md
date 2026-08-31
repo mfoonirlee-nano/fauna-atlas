@@ -88,6 +88,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Gila Monster image set](./species/gila-monster/README.md)
 - [Ringed Caecilian image set](./species/ringed-caecilian/README.md)
 - [Surinam Toad image set](./species/surinam-toad/README.md)
+- [Atlantic Hagfish image set](./species/atlantic-hagfish/README.md)
 
 ## Image compression workflow
 
