@@ -94,6 +94,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Atlantic Pyrosome image set](./species/atlantic-pyrosome/README.md)
 - [Venus' Flower Basket image set](./species/venus-flower-basket/README.md)
 - [Warty Comb Jelly image set](./species/warty-comb-jelly/README.md)
+- [Japanese Planarian image set](./species/japanese-planarian/README.md)
 
 ## Image compression workflow
 

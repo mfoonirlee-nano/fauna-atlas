@@ -17060,10 +17060,300 @@ test('registers the Warty Comb Jelly as a complete Mnemiopsis leidyi profile', a
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the Japanese Planarian as a complete Dugesia japonica profile', async () => {
+  const profile = findSpecies('japanese-planarian');
+
+  assert.equal(profile.id, 'species-dugesia-japonica');
+  assert.equal(profile.slug, 'japanese-planarian');
+  assert.equal(profile.names.zh, '日本三角涡虫');
+  assert.equal(profile.names.en, 'Japanese Planarian');
+  assert.deepEqual(profile.names.aliases, [
+    'Japanese Freshwater Planarian',
+    'ナミウズムシ',
+  ]);
+  assert.equal(profile.scientificName, 'Dugesia japonica');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Platyhelminthes', '扁形动物门'],
+      ['class', 'Rhabditophora', '被杆体纲'],
+      ['order', 'Tricladida', '三肠目'],
+      ['family', 'Dugesiidae', '三角涡虫科'],
+      ['genus', 'Dugesia', '三角涡虫属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+  assert.deepEqual(profile.distribution.realms, ['freshwater']);
+  assert.deepEqual(profile.distribution.countries, [
+    '日本',
+    '中国',
+    '朝鲜',
+    '韩国',
+    '俄罗斯',
+  ]);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'freshwater'));
+  assert.deepEqual(profile.measurements, {
+    length: {
+      min: 15,
+      max: 20,
+      unit: 'mm',
+      note: '原始描述中性成熟个体在活动伸展状态下的通常体长，不是全物种硬边界。',
+    },
+  });
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['carnivore']);
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'freshwater-under-stones',
+      'ventral-cilia-gliding',
+      'ventral-pharynx-feeding',
+      'three-stage-transverse-fission',
+      'neoblasts-and-positional-signals',
+      'laboratory-strains-versus-wild-populations',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  assert.equal(profile.featuredStats.length, 4);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => [key, value, unit]),
+    [
+      ['eyespots', '2', '枚'],
+      ['fission-stages', '3', '阶段'],
+      ['fragment-regeneration', '约1', '周'],
+      ['gi-clone-history', '>20', '年'],
+    ],
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'japanese-planarian',
+    basenames: [
+      '01-stream-stone-cover',
+      '02-triangular-head-eyespots',
+      '03-pharynx-feeding',
+      '04-transverse-fission',
+      '05-head-tail-regeneration',
+      '06-stereomicroscope-observation',
+    ],
+    credit: 'Fauna Atlas · AI 生成原创图像',
+  });
+
+  assert.equal(profile.sources.length, 25);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'distribution', 'conservation', 'general', 'ecology']),
+  );
+  assert.ok(
+    profile.sources.every(({ url }) =>
+      /^https:\/\/(?:doi\.org|www\.marinespecies\.org|www\.gbif\.org|www\.ncbi\.nlm\.nih\.gov|www\.mee\.gov\.cn|html\.rhhz\.net|dl\.ndl\.go\.jp|www\.iucnredlist\.org)\//.test(
+        url,
+      ),
+    ),
+    'japanese-planarian sources should be primary papers or authority records',
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=484630',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/484630',
+    'https://www.gbif.org/species/5892108',
+    'https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6161',
+    'https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/shjbh/xgbzh/202203/W020220719504208090518.pdf',
+    'https://dl.ndl.go.jp/view/prepareDownload?itemId=info%3Andljp%2Fpid%2F10854715',
+    'https://doi.org/10.1007/978-94-011-0045-8_10',
+    'https://doi.org/10.1111/jbi.14371',
+    'https://www.iucnredlist.org/search?query=Dugesia%20japonica&searchType=species',
+    'https://doi.org/10.1126/sciadv.aaz0882',
+    'https://doi.org/10.3390/biom15121659',
+    'https://doi.org/10.1073/pnas.1700762114',
+    'https://doi.org/10.1007/s00427-004-0460-y',
+    'https://doi.org/10.1073/pnas.0907464106',
+    'https://doi.org/10.1038/nature12359',
+    'https://doi.org/10.1371/journal.pone.0143525',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `japanese-planarian sources should include ${requiredUrl}`,
+    );
+  }
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const mediaTexts = new Map(
+    [profile.media, ...(profile.media.gallery ?? [])].map(
+      ({ image, alt, title, caption, credit }) => [
+        image.split('/').at(-1),
+        [alt, title ?? '', caption ?? '', credit ?? ''].join(' '),
+      ],
+    ),
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.habitats.map(({ name, description }) => `${name} ${description}`),
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...profile.tags,
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaTexts.values(),
+  ].join(' ');
+
+  assert.match(
+    [profile.distribution.range, ...profile.habitats.map(({ description }) => description)].join(
+      ' ',
+    ),
+    /(?=[\s\S]*(?:溪流|流动水))(?=[\s\S]*(?:静水|池塘))(?=[\s\S]*(?:石块|沉水物))(?=[\s\S]*(?:日本|东亚))(?=[\s\S]*(?:凭证|近似种).{0,40}(?:复核|区分))/,
+  );
+
+  const locomotionText = storyBodies.get('ventral-cilia-gliding') ?? '';
+  assert.match(
+    [locomotionText, ...(profile.activity ?? []), ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*腹面)(?=[\s\S]*纤毛)(?=[\s\S]*黏液)(?=[\s\S]*滑行)(?=[\s\S]*(?:肌肉|scrunching).{0,35}(?:不能|不等于|混为一谈))/,
+  );
+
+  const feedingText = storyBodies.get('ventral-pharynx-feeding') ?? '';
+  assert.match(
+    [profile.diet.description, feedingText, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*腹面.{0,16}中后段)(?=[\s\S]*(?:肌肉质)?咽.{0,15}(?:伸出|探出))(?=[\s\S]*(?:嘴|口).{0,15}(?:不在|不是).{0,15}(?:头|尖端))(?=[\s\S]*离体咽)(?=[\s\S]*(?:不能|不代表).{0,30}(?:长期存活|固定食谱|首选猎物))/,
+  );
+
+  const fissionText = storyBodies.get('three-stage-transverse-fission') ?? '';
+  assert.match(
+    [fissionText, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*腰缩)(?=[\s\S]*脉动)(?=[\s\S]*横向断裂)(?=[\s\S]*22 次)(?=[\s\S]*去头)(?=[\s\S]*约一周)(?=[\s\S]*(?:不是|不能).{0,35}(?:固定|每个野外个体|全种))/,
+  );
+
+  const regenerationText =
+    storyBodies.get('neoblasts-and-positional-signals') ?? '';
+  assert.match(
+    [regenerationText, profile.description, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*neoblast)(?=[\s\S]*(?:位置信息|位置信号))(?=[\s\S]*ERK)(?=[\s\S]*Wnt\/β-catenin)(?=[\s\S]*Hedgehog)(?=[\s\S]*(?:不表示|不等于).{0,35}(?:任意大小|随意长出|每个身体片段))/,
+  );
+
+  const strainBoundaryText =
+    storyBodies.get('laboratory-strains-versus-wild-populations') ?? '';
+  assert.match(
+    [strainBoundaryText, ...profile.keyFacts].join(' '),
+    /(?=[\s\S]*GI 克隆)(?=[\s\S]*1990 年)(?=[\s\S]*入间川)(?=[\s\S]*(?:一只|单一).{0,12}个体)(?=[\s\S]*(?:超过|>)[ ]?20 年)(?=[\s\S]*(?:不能|不代表).{0,35}(?:野外|整个物种|全种))/,
+  );
+
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:未评估|Not Evaluated|\bNE\b))(?=[\s\S]*(?:不代表|不等于|不能说明).{0,25}(?:无危|安全|数量稳定|没有威胁))/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:实验株|实验克隆|无性克隆))(?=[\s\S]*(?:野外种群|自然种群))(?=[\s\S]*(?:不能|不代表).{0,50}(?:全种|整个物种|野外))/,
+  );
+  assert.doesNotMatch(
+    editorialText,
+    /(?:任何|任意)碎片.{0,12}(?:都|均)(?:能|可).{0,12}再生|单个 neoblast.{0,12}(?:就能|可以).{0,12}再生|所有野外个体.{0,12}只.{0,8}无性繁殖/,
+  );
+
+  const coverText = mediaTexts.get('01-stream-stone-cover.webp') ?? '';
+  assert.match(
+    coverText,
+    /(?=[\s\S]*(?:浅溪|溪流))(?=[\s\S]*(?:湿石|石))(?=[\s\S]*一只完整)(?=[\s\S]*三角)(?=[\s\S]*AI 生成原创图像)/,
+  );
+  assert.doesNotMatch(coverText, /现场实拍|精确比例|岐阜县|入间川/);
+
+  const diagnosticText =
+    mediaTexts.get('02-triangular-head-eyespots.webp') ?? '';
+  assert.match(
+    diagnosticText,
+    /(?=[\s\S]*三角头)(?=[\s\S]*两枚.{0,8}耳突)(?=[\s\S]*一对.{0,8}眼点)(?=[\s\S]*(?:不能|不可).{0,20}(?:替代|完成).{0,35}(?:交配器解剖|分类检索|分子鉴定))/,
+  );
+
+  const pharynxMediaText =
+    mediaTexts.get('03-pharynx-feeding.webp') ?? '';
+  assert.match(
+    pharynxMediaText,
+    /(?=[\s\S]*腹面中后段)(?=[\s\S]*(?:管状咽|肌肉质咽))(?=[\s\S]*(?:不能|无法).{0,25}(?:吞咽成功|摄食速率).{0,35}(?:猎物身份|野外食谱))/,
+  );
+
+  const fissionMediaText =
+    mediaTexts.get('04-transverse-fission.webp') ?? '';
+  assert.match(
+    fissionMediaText,
+    /(?=[\s\S]*(?:头段|尾段))(?=[\s\S]*自然横裂.{0,12}人工切段)(?=[\s\S]*静帧)(?=[\s\S]*腰缩)(?=[\s\S]*脉动)(?=[\s\S]*横向断裂)(?=[\s\S]*(?:不能|无法).{0,35}(?:时间顺序|拉力|再生时长))/,
+  );
+
+  const regenerationMediaText =
+    mediaTexts.get('05-head-tail-regeneration.webp') ?? '';
+  assert.match(
+    regenerationMediaText,
+    /(?=[\s\S]*头段)(?=[\s\S]*尾段)(?=[\s\S]*(?:不能|不证明).{0,30}(?:同一横裂事件|neoblast 活性).{0,45}(?:再生完成度|存活结局))/,
+  );
+
+  const observationText =
+    mediaTexts.get('06-stereomicroscope-observation.webp') ?? '';
+  assert.match(
+    observationText,
+    /(?=[\s\S]*体视显微镜)(?=[\s\S]*一个完整个体)(?=[\s\S]*两个片段)(?=[\s\S]*(?:不能|无法).{0,20}(?:确认|证明).{0,40}(?:物种|克隆|时间点|处理组))(?=[\s\S]*(?:比例尺|连续记录|样本信息))/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 92);
+  assert.equal(species.length, 93);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -17170,7 +17460,12 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 92);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 93);
+  assert.equal(findTaxon(tree, 'phylum', 'Platyhelminthes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Rhabditophora')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Tricladida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Dugesiidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Dugesia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Porifera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Hexactinellida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Lyssacinosida')?.speciesCount, 1);
