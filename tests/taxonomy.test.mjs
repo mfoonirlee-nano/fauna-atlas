@@ -19261,10 +19261,292 @@ test('registers the Large Water Flea as a bounded Daphnia magna profile', async 
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Peacock Mantis Shrimp as a bounded Odontodactylus scyllarus profile', async () => {
+  const profile = findSpecies('peacock-mantis-shrimp');
+
+  assert.equal(profile.id, 'species-odontodactylus-scyllarus');
+  assert.equal(profile.slug, 'peacock-mantis-shrimp');
+  assert.equal(profile.names.zh, '雀尾螳螂虾');
+  assert.equal(profile.names.en, 'Peacock Mantis Shrimp');
+  assert.ok(profile.names.aliases?.includes('蝉型齿指虾蛄'));
+  assert.equal(profile.scientificName, 'Odontodactylus scyllarus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Malacostraca', '软甲纲'],
+      ['order', 'Stomatopoda', '口足目'],
+      ['family', 'Odontodactylidae', '齿指虾蛄科'],
+      ['genus', 'Odontodactylus', '齿指虾蛄属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, ['非洲', '亚洲', '大洋洲']);
+  assert.deepEqual(profile.distribution.countries, []);
+  assert.match(profile.distribution.range, /印度[—-]西太平洋/);
+  assert.match(profile.distribution.range, /国家清单并非穷尽/);
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.deepEqual(profile.measurements.length, {
+    max: 171,
+    unit: 'mm',
+    note:
+      'Manning 1967 报告的最大总长，经 2001 与 2025 分类处理引用；不是典型成体范围、平均值、甲长或图片测量。',
+  });
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /(?=[\s\S]*总长)(?=[\s\S]*(?:不是|不代表).{0,40}典型成体)(?=[\s\S]*(?:不是|不代表).{0,80}甲长)/,
+  );
+  assert.deepEqual(profile.metrics, {});
+  for (const excludedMetric of [
+    'adultLengthCm',
+    'lifespanYears',
+    'topSpeedKph',
+    'maxDiveDepthM',
+  ]) {
+    assert.ok(!(excludedMetric in profile.metrics));
+  }
+
+  assert.deepEqual(profile.diet.types, ['carnivore']);
+  assert.deepEqual(profile.diet.foods, ['腹足类', '双壳类', '其他甲壳类']);
+  const activityText = (profile.activity ?? []).join(' ');
+  assert.match(activityText, /白昼/);
+  assert.match(activityText, /夜间/);
+  assert.match(activityText, /缺少物种级昼夜活动时间预算/);
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'stomatopod-body-plan',
+      'rubble-burrow-and-activity',
+      'spring-loaded-raptorial-club',
+      'impact-and-cavitation',
+      'three-part-polarization-eye',
+      'egg-mass-and-data-gaps',
+    ],
+  );
+  assert.equal(new Set(profile.storySections?.map(({ key }) => key)).size, 6);
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      {
+        key: 'published-maximum-total-length',
+        value: '171',
+        unit: '毫米',
+      },
+      {
+        key: 'raptorial-strike-speed',
+        value: '14–23',
+        unit: '米/秒',
+      },
+      {
+        key: 'peak-impact-force',
+        value: '最高 1,501',
+        unit: '牛',
+      },
+      {
+        key: 'colour-channels',
+        value: '最多 12',
+        unit: '通道',
+      },
+    ],
+  );
+  assert.ok(profile.featuredStats.every(({ note }) => (note?.length ?? 0) > 0));
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  const mediaRecords = [profile.media, ...(profile.media.gallery ?? [])];
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*软甲纲.{0,20}口足目)(?=[\s\S]*(?:不是真正的|不属于).{0,20}十足目)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*14[—–-]23\s*米\/秒)(?=[\s\S]*(?:掠肢|棒状指节).{0,80}(?:不是|不能写成).{0,20}(?:整只动物|游速))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*1,501\s*牛)(?=[\s\S]*平面钢传感器.{0,30}最高)(?=[\s\S]*(?:不是|不代表).{0,30}(?:每次|每拳|自然猎物))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:冲击峰|第一个力峰))(?=[\s\S]*空化.{0,30}(?:第二个峰|泡塌陷峰))(?=[\s\S]*390[—–-]480\s*微秒)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:三个暗点|三个暗色假瞳孔))(?=[\s\S]*假瞳孔)(?=[\s\S]*(?:不是|而非).{0,12}(?:三个)?真实瞳孔)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:最多\s*)?12\s*个颜色视觉通道)(?=[\s\S]*(?:不表示|不等于).{0,30}十二倍.{0,10}(?:颜色|色彩))(?=[\s\S]*(?:色觉精度|色差判断))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*紫外)(?=[\s\S]*线性偏振)(?=[\s\S]*(?:圆偏振|左右旋))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*眼内滤光结构)(?=[\s\S]*体表附肢)(?=[\s\S]*外源激发)(?=[\s\S]*(?:不是|不属于)生物发光)(?=[\s\S]*(?:自然)?功能.{0,8}(?:未知|未明))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*雌体.{0,20}(?:持抱|抱住).{0,20}卵团)(?=[\s\S]*(?:不能给出|缺可靠).{0,30}固定卵数)(?=[\s\S]*孵育时长)(?=[\s\S]*幼体阶段)(?=[\s\S]*4[—–-]6\s*年寿命)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*水族(?:展示)?贸易.{0,20}(?:确认存在|已经确认存在))(?=[\s\S]*(?:缺少|未知).{0,30}采集量)(?=[\s\S]*(?:种群效应|种群影响).{0,20}(?:资料|未知|未量化))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*IUCN.{0,30}(?:尚无|尚未).{0,20}(?:全球评估|评估))(?=[\s\S]*NE.{0,30}(?:不等于|不能解释成).{0,20}(?:LC|无危))(?=[\s\S]*CITES.{0,40}(?:缺席|未列).{0,30}(?:不能|不代表).{0,30}(?:安全|可持续))/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'peacock-mantis-shrimp',
+    basenames: [
+      '01-reef-burrow-portrait',
+      '02-external-morphology',
+      '03-raptorial-club-strike',
+      '04-compound-eye-midband',
+      '05-burrow-maintenance',
+      '06-egg-mass-care',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  assert.match(
+    galleryCaptions.get('02-external-morphology.webp') ?? '',
+    /不能确认物种.{0,40}不能核验.{0,40}(?:齿数|刺数|纵脊)/,
+  );
+  assert.match(
+    galleryCaptions.get('03-raptorial-club-strike.webp') ?? '',
+    /不能测量.{0,60}(?:速度|加速度).{0,30}(?:冲击力|空化力).{0,30}(?:两峰间隔|空化)/,
+  );
+  assert.match(
+    galleryCaptions.get('04-compound-eye-midband.webp') ?? '',
+    /不能显示.{0,60}(?:感受器|光谱通道).{0,30}偏振敏感.{0,40}(?:色觉精度|所见颜色)/,
+  );
+  assert.match(
+    galleryCaptions.get('05-burrow-maintenance.webp') ?? '',
+    /不能证明.{0,50}(?:建造者|洞穴建造者).{0,40}(?:长度|形状).{0,50}(?:领地归属|底质偏好)/,
+  );
+  assert.match(
+    galleryCaptions.get('06-egg-mass-care.webp') ?? '',
+    /不能确定.{0,30}卵数.{0,30}(?:孵育时长|胚胎阶段).{0,50}(?:配偶制度|孵化率)/,
+  );
+
+  assert.equal(profile.sources.length, 28);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'ecology', 'distribution', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=220297',
+    'https://doi.org/10.11646/zootaxa.5713.1.1',
+    'https://doi.org/10.1038/428819a',
+    'https://doi.org/10.1242/jeb.01831',
+    'https://doi.org/10.1242/jeb.006486',
+    'https://doi.org/10.1007/s00359-009-0491-y',
+    'https://doi.org/10.1016/j.cub.2008.02.066',
+    'https://doi.org/10.1371/journal.pone.0292476',
+    'https://ocean.si.edu/ocean-life/invertebrates/mantis-shrimp-carries-eggs',
+    'https://www.iucnredlist.org/search?query=Odontodactylus%20scyllarus&searchType=species',
+    'https://checklist.cites.org/',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Peacock Mantis Shrimp sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 101);
+  assert.equal(species.length, 102);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -19306,7 +19588,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 16);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -19319,7 +19601,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Spirostreptida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Spirostreptidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Archispirostreptus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'order', 'Stomatopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Odontodactylidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Odontodactylus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Coenobitidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Birgus')?.speciesCount, 1);
@@ -19398,7 +19683,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 101);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 102);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
