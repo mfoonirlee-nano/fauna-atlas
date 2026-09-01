@@ -143,6 +143,7 @@ const classIconsByScientificName: Readonly<Record<string, ClassIcon>> = {
   Gastropoda: Shell,
   Malacostraca: Shell,
   Polyplacophora: Shell,
+  Scaphopoda: Shell,
   Anthozoa: Waves,
   Hydrozoa: Waves,
   Scyphozoa: Waves,

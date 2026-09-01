@@ -107,6 +107,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Seventeen-year Cicada image set](./species/seventeen-year-cicada/README.md)
 - [Lion image set](./species/lion/README.md)
 - [Gumboot Chiton image set](./species/gumboot-chiton/README.md)
+- [Common Tusk Shell image set](./species/common-tusk-shell/README.md)
 
 ## Image compression workflow
 

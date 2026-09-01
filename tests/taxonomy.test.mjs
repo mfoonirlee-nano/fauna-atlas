@@ -20158,10 +20158,187 @@ test('registers the Gumboot Chiton as a bounded Cryptochiton stelleri profile', 
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Common Tusk Shell as a bounded Antalis vulgaris profile', async () => {
+  const profile = findSpecies('common-tusk-shell');
+
+  assert.equal(profile.id, 'species-antalis-vulgaris');
+  assert.equal(profile.slug, 'common-tusk-shell');
+  assert.equal(profile.names.zh, '普通角贝');
+  assert.equal(profile.names.en, 'Common Tusk Shell');
+  assert.equal(profile.scientificName, 'Antalis vulgaris');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Mollusca', '软体动物门'],
+      ['class', 'Scaphopoda', '掘足纲'],
+      ['order', 'Dentaliida', '角贝目'],
+      ['family', 'Dentaliidae', '角贝科'],
+      ['genus', 'Antalis', '安塔角贝属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+    },
+    { code: 'NE', trend: 'unknown' },
+  );
+  assert.equal(Object.hasOwn(profile.conservation, 'assessedYear'), false);
+  assert.equal(Object.hasOwn(profile.conservation, 'criteria'), false);
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 6, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /最大报道.{0,50}(?:不代表|不是)/,
+  );
+  assert.deepEqual(profile.diet.types, ['carnivore']);
+  assert.deepEqual(profile.metrics, {});
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key) ?? []).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'shell-openings', value: '2', unit: '端' },
+      { key: 'maximum-shell-length', value: '60', unit: '毫米' },
+      { key: 'reported-depth', value: '5–1000', unit: '米' },
+      { key: 'radular-teeth-per-row', value: '5', unit: '枚' },
+    ],
+  );
+  assert.equal(
+    new Set(profile.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'common-tusk-shell',
+    basenames: [
+      '01-in-situ-buried-adult-portrait',
+      '02-double-open-shell-macro',
+      '03-burrowing-foot-and-captacula',
+      '04-captacula-foraminifer-feeding-macro',
+      '05-gillless-mantle-cavity-cutaway',
+      '06-benthic-grab-survey',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-double-open-shell-macro',
+    /(?=[\s\S]*(?:管壳|管状壳))(?=[\s\S]*(?:两端|两个).{0,12}壳口)/,
+    /(?:不能|无法|不代表|不证明).{0,60}(?:纵纹数|壳长|隔板|鉴定|近似种)/,
+  );
+  assertBoundedCaption(
+    '03-burrowing-foot-and-captacula',
+    /(?=[\s\S]*(?:足|肌足))(?=[\s\S]*captacula)(?=[\s\S]*(?:并置|同时))/,
+    /(?:不代表|不能|无法|不证明).{0,70}(?:同时|数量|排列|掘穴速度|软体解剖)/,
+  );
+  assertBoundedCaption(
+    '04-captacula-foraminifer-feeding-macro',
+    /(?=[\s\S]*captacula)(?=[\s\S]*有孔虫)/,
+    /(?:不能|无法|不代表|不证明).{0,70}(?:触丝数量|猎物选择率|选择率|摄食量|摄入量)/,
+  );
+  assertBoundedCaption(
+    '05-gillless-mantle-cavity-cutaway',
+    /(?=[\s\S]*(?:无专门鳃|没有鳃|无鳃))(?=[\s\S]*(?:外套|换水|气体交换))/,
+    /(?:不能|无法|不代表|不证明).{0,70}(?:水流方向|流速|氧耗|换气效率|独有结构|本种独有)/,
+  );
+  assertBoundedCaption(
+    '06-benthic-grab-survey',
+    /(?=[\s\S]*(?:单枚壳|角贝壳))(?=[\s\S]*(?:监测|调查|样品|站位))/,
+    /(?:不能|无法|不代表|不证明).{0,70}(?:活体状态|物种身份|丰度|趋势)/,
+  );
+
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'ecology', 'distribution', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=196380',
+    'https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/z2004n4a1.pdf',
+    'https://ns-mollusca.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?epi=183&id=121491',
+    'https://doris.ffessm.fr/Especes/Antalis-vulgaris-Dentale-commun-375',
+    'https://doi.org/10.1016/S0065-2881(02)42014-7',
+    'https://doi.org/10.1016/S0022-5320(83)90132-6',
+    'https://doi.org/10.1002/jez.1402490114',
+    'https://www.sealifebase.ca/summary/Antalis-vulgaris.html',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Common Tusk Shell sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 105);
+  assert.equal(species.length, 106);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -20226,7 +20403,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'class', 'Scaphopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Dentaliida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Dentaliidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Antalis')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Polyplacophora')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Chitonida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Mopaliidae')?.speciesCount, 1);
@@ -20305,7 +20486,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 105);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 106);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
