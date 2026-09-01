@@ -98,6 +98,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [C. elegans image set](./species/caenorhabditis-elegans/README.md)
 - [Lingula anatina image set](./species/lingula-anatina/README.md)
 - [Bugula neritina image set](./species/bugula-neritina/README.md)
+- [Red-eyed Tree Frog image set](./species/red-eyed-tree-frog/README.md)
 
 ## Image compression workflow
 

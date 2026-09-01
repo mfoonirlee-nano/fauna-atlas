@@ -18134,10 +18134,235 @@ test('registers the brown bryozoan as a bounded Bugula neritina profile', async 
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the Red-eyed Treefrog as a complete Agalychnis callidryas profile', async () => {
+  const profile = findSpecies('red-eyed-tree-frog');
+
+  assert.equal(profile.id, 'species-agalychnis-callidryas');
+  assert.equal(profile.slug, 'red-eyed-tree-frog');
+  assert.equal(profile.names.zh, '红眼树蛙');
+  assert.equal(profile.names.en, 'Red-eyed Treefrog');
+  assert.deepEqual(profile.names.aliases, [
+    'Red-eyed Tree Frog',
+    'Red-eyed Leaf Frog',
+    'Red-eyed Multicolored Treefrog',
+    'Gaudy Leaf Frog',
+  ]);
+  assert.equal(profile.scientificName, 'Agalychnis callidryas');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Amphibia', '两栖纲'],
+      ['order', 'Anura', '无尾目'],
+      ['family', 'Phyllomedusidae', '叶泡蛙科'],
+      ['genus', 'Agalychnis', '红眼雨蛙属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'decreasing',
+      assessedYear: 2016,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.countries, [
+    '洪都拉斯',
+    '尼加拉瓜',
+    '哥斯达黎加',
+    '巴拿马',
+    '哥伦比亚',
+  ]);
+  assert.deepEqual(profile.distribution.realms, ['terrestrial', 'freshwater']);
+  assert.deepEqual(profile.distribution.continents, ['北美洲', '南美洲']);
+  for (const displacedCountry of ['墨西哥', '伯利兹', '危地马拉']) {
+    assert.ok(!profile.distribution.countries.includes(displacedCountry));
+  }
+  assert.match(
+    profile.distribution.range,
+    /(?=[\s\S]*2019)(?=[\s\S]*Agalychnis taylori)(?=[\s\S]*A\. terranova)(?=[\s\S]*1325)/,
+  );
+  assert.equal(profile.habitats.length, 3);
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 1);
+  assert.ok(profile.habitats.some(({ realm }) => realm === 'terrestrial'));
+  assert.ok(profile.habitats.some(({ realm }) => realm === 'freshwater'));
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      typical: profile.measurements.length?.typical,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: undefined, max: 7.1, typical: undefined, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /(?=[\s\S]*雄.{0,15}4\.45[–—-]5\.09)(?=[\s\S]*雌.{0,15}5\.44[–—-]6\.61)(?=[\s\S]*(?:不代表|不能构成).{0,15}全物种.{0,10}(?:下限|硬范围))/,
+  );
+  assert.deepEqual(profile.metrics, {
+    elevationM: [0, 1325],
+  });
+  assert.deepEqual(profile.diet.types, ['carnivore', 'filter-feeder']);
+  assert.match(
+    profile.diet.description,
+    /(?=[\s\S]*成体.{0,30}推测)(?=[\s\S]*野外食谱.{0,20}尚未)(?=[\s\S]*蝌蚪.{0,30}悬浮摄食)(?=[\s\S]*不能.{0,30}固定比例)/,
+  );
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'red-eyes-and-variable-flanks',
+      'life-above-the-pond',
+      'leaf-borne-egg-clutches',
+      'vibration-cued-escape-hatching',
+      'a-costly-head-start',
+      'one-name-changing-map',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length >= 24);
+  assert.ok(profile.threats.length >= 6);
+  assert.ok(profile.conservationActions.length >= 7);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => [key, value, unit]),
+    [
+      ['female-maximum-svl', '7.1', '厘米'],
+      ['recorded-elevation', '0–1325', '米'],
+      ['undisturbed-hatching', '约 6–7', '天'],
+      ['maximum-hatching-advance', '最多约 30', '%'],
+    ],
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'red-eyed-tree-frog',
+    basenames: [
+      '01-rainforest-leaf-adult-cover',
+      '02-red-eye-flank-bars-toe-pads',
+      '03-lowland-wet-forest-pond-habitat',
+      '04-nocturnal-moth-encounter',
+      '05-leaf-egg-clutch-above-pond',
+      '06-snake-attack-escape-hatching',
+    ],
+    credit: 'Fauna Atlas · AI 生成原创图像',
+  });
+
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-31'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  for (const requiredUrl of [
+    'https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T55290A3028059.en',
+    'https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Phyllomedusidae/Agalychnis/Agalychnis-callidryas',
+    'https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Phyllomedusidae/Agalychnis/Agalychnis-taylori',
+    'https://cites.org/eng/taxonomy/term/4867',
+    'https://panamabiota.org/portal/taxa/index.php?clid=16&taxauthid=1&taxon=10678',
+    'https://doi.org/10.1073/pnas.92.8.3507',
+    'https://doi.org/10.1016/j.anbehav.2004.09.019',
+    'https://doi.org/10.1242/jeb.026518',
+    'https://doi.org/10.1016/j.cub.2010.03.069',
+    'https://doi.org/10.1111/btp.12032',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Red-eyed Treefrog sources should include ${requiredUrl}`,
+    );
+  }
+  assert.ok(
+    !profile.sources.some(
+      ({ url }) =>
+        url ===
+        'https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T55290A3028059.en',
+    ),
+    'the incorrect IUCN 2020-3 DOI should not appear',
+  );
+
+  const storyBodies = new Map(
+    profile.storySections?.map(({ key, body }) => [key, body]) ?? [],
+  );
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.storySections ?? []).map(({ body }) => body),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+  ].join(' ');
+  assert.match(
+    storyBodies.get('vibration-cued-escape-hatching') ?? '',
+    /(?=[\s\S]*持续时间)(?=[\s\S]*间隔)(?=[\s\S]*频率)(?=[\s\S]*幅度)(?=[\s\S]*(?:并非|不是).{0,20}每次震动)/,
+  );
+  assert.match(
+    storyBodies.get('a-costly-head-start') ?? '',
+    /(?=[\s\S]*最多提前约三成)(?=[\s\S]*孵化酶)(?=[\s\S]*水生捕食者.{0,20}(?:劣势|风险))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*IUCN)(?=[\s\S]*2016)(?=[\s\S]*早于 2019 年.{0,20}分类拆分)(?=[\s\S]*(?:不能视为|不能当作|不能代表).{0,30}狭义物种)/,
+  );
+  assert.doesNotMatch(editorialText, /(?:听见|看到|闻到)蛇后.{0,20}(?:孵化|跳水)/);
+  assert.doesNotMatch(editorialText, /(?:自然分布|分布范围).{0,30}墨西哥.{0,30}哥伦比亚/);
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  assert.match(
+    galleryCaptions.get('04-nocturnal-moth-encounter.webp') ?? '',
+    /不能确认.{0,50}(?:偏好|食谱比例).{0,80}野外食谱.{0,30}尚未/,
+  );
+  assert.match(
+    galleryCaptions.get('06-snake-attack-escape-hatching.webp') ?? '',
+    /不能从像素证明.{0,40}振动.{0,70}全部胚胎同步孵化.{0,25}存活/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-08-31');
+  assert.equal(profile.updatedAt, '2026-08-31');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 96);
+  assert.equal(species.length, 97);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -18245,16 +18470,18 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 6);
-  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Pipidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Pipa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Phyllomedusidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Agalychnis')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 96);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 97);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -18275,7 +18502,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 69);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 70);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
