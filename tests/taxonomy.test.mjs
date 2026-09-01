@@ -19543,10 +19543,300 @@ test('registers the Peacock Mantis Shrimp as a bounded Odontodactylus scyllarus 
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Seventeen-year Cicada as a bounded Magicicada septendecim profile', async () => {
+  const profile = findSpecies('seventeen-year-cicada');
+
+  assert.equal(profile.id, 'species-magicicada-septendecim');
+  assert.equal(profile.slug, 'seventeen-year-cicada');
+  assert.equal(profile.names.zh, '十七年蝉');
+  assert.equal(profile.names.en, 'Seventeen-year Cicada');
+  assert.ok(profile.names.aliases?.includes('法老蝉'));
+  assert.ok(profile.names.aliases?.includes('Pharaoh cicada'));
+  assert.ok(profile.names.aliases?.includes('17-year locust'));
+  assert.equal(profile.scientificName, 'Magicicada septendecim');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Insecta', '昆虫纲'],
+      ['order', 'Hemiptera', '半翅目'],
+      ['family', 'Cicadidae', '蝉科'],
+      ['genus', 'Magicicada', '周期蝉属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NT',
+      trend: 'unknown',
+      assessedYear: 1996,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['北美洲']);
+  assert.deepEqual(profile.distribution.countries, ['美国']);
+  assert.deepEqual(profile.distribution.endemicTo, ['北美洲东部']);
+  assert.deepEqual(profile.distribution.center, { lat: 39.5, lng: -82.5 });
+  assert.match(profile.distribution.range, /北美洲东部/);
+  assert.match(
+    profile.distribution.range,
+    /1996 年 IUCN.{0,20}加拿大与美国.{0,50}UConn.{0,30}不足以.{0,20}加拿大.{0,60}结构化国家只保留美国/,
+  );
+  assert.match(
+    profile.distribution.range,
+    /点位.{0,30}未画连续边界.{0,30}空白地点不等于缺失.{0,30}不表示当地丰度/,
+  );
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+
+  assert.deepEqual(profile.measurements.length, {
+    min: 27,
+    max: 33,
+    unit: 'mm',
+    note:
+      'Alexander 与 Moore 1962 年物种鉴别表的头至腹端体长，不含超出腹端的翅；这是鉴别资料范围，不是所有成虫的硬下限、硬上限或图片测量。',
+  });
+  assert.deepEqual(profile.metrics, { adultLengthCm: [2.7, 3.3] });
+  for (const excludedMetric of [
+    'lifespanYears',
+    'adultMassKg',
+    'estimatedMatureIndividuals',
+  ]) {
+    assert.ok(!(excludedMetric in profile.metrics));
+  }
+
+  assert.deepEqual(profile.diet.types, ['herbivore']);
+  assert.deepEqual(profile.diet.foods, [
+    '若虫取食的木本植物根部木质部液体',
+    '成虫取食的活木本枝条木质部液体',
+  ]);
+  assert.match(profile.diet.description, /2023 年分子肠内容研究/);
+  assert.match(
+    profile.diet.description,
+    /不能给出.{0,30}宿主清单.{0,30}各树种比例.{0,20}单只摄入量/,
+  );
+  const activityText = (profile.activity ?? []).join(' ');
+  assert.match(activityText, /地下.{0,20}十七年.{0,20}五个龄期/);
+  assert.match(activityText, /离群个体.{0,15}提前或延后/);
+  assert.match(activityText, /日落后/);
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'decim-identification',
+      'seventeen-year-underground-cycle',
+      'synchronized-emergence-boundaries',
+      'chorus-and-wing-flick-duet',
+      'twig-oviposition-and-hatching',
+      'broods-and-stale-assessment',
+    ],
+  );
+  assert.equal(new Set(profile.storySections?.map(({ key }) => key)).size, 6);
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'population-cycle', value: '17', unit: '年' },
+      { key: 'diagnostic-body-length', value: '27–33', unit: '毫米' },
+      { key: 'nymphal-instars', value: '5', unit: '龄' },
+      {
+        key: 'documented-broods',
+        value: 'I–X、XIII–XIV',
+        unit: undefined,
+      },
+    ],
+  );
+  assert.ok(profile.featuredStats.every(({ note }) => (note?.length ?? 0) > 0));
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.equal(profile.keyFacts.length, 15);
+  assert.equal(profile.threats.length, 6);
+  assert.equal(profile.conservationActions.length, 6);
+
+  const mediaRecords = [profile.media, ...(profile.media.gallery ?? [])];
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+    ...mediaRecords.flatMap(({ alt, title, caption }) => [
+      alt,
+      title ?? '',
+      caption ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*Hemiptera)(?=[\s\S]*Cicadidae)(?=[\s\S]*Magicicada)(?=[\s\S]*17-year locust.{0,40}不属于直翅目的蝗虫)/,
+  );
+  assert.match(
+    editorialText,
+    /27[—–-]33\s*毫米.{0,50}(?:不含翅尖|不含超出腹端的翅).{0,60}(?:不是|不构成).{0,40}(?:硬范围|硬下限)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*改变.{0,20}宿主树季节循环.{0,30}诱发提前变态)(?=[\s\S]*(?:完整生理时钟|完整感受与计时机制).{0,10}(?:未知|没有找出))/,
+  );
+  assert.match(
+    editorialText,
+    /straggler.{0,60}(?:不把它写成|不能当作).{0,30}固定寿命/,
+  );
+  assert.match(
+    editorialText,
+    /20\s*厘米.{0,30}17\.8\s*摄氏度.{0,60}(?:不是|不能).{0,30}(?:固定阈值|硬出土阈值)/,
+  );
+  assert.match(
+    editorialText,
+    /康涅狄格 Brood II.{0,40}日落前后.{0,40}这个地点结果.{0,20}不能.{0,20}全种统一/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*第一腹节.{0,30}鼓膜器)(?=[\s\S]*雌虫.{0,50}振翅回应)(?=[\s\S]*CI、CII、CIII)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*每室最多约 20 枚)(?=[\s\S]*雌虫最多约 600 枚)(?=[\s\S]*6[—–-]10 周)(?=[\s\S]*属级.{0,30}(?:不能当(?:作|成)|不是).{0,30}固定)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*brood.{0,40}记账单位)(?=[\s\S]*(?:不是|不等于).{0,30}(?:物种|亚种|单一演化种群))(?=[\s\S]*I[—–-]X、XIII[—–-]XIV)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*IUCN.{0,30}1996)(?=[\s\S]*2\.3.{0,20}LR\/nt)(?=[\s\S]*现行汇总.{0,20}NT)(?=[\s\S]*(?:旧评估|评估年龄).{0,60}(?:不能|阻止).{0,50}(?:趋势|成熟个体数|威胁))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*CITES)(?=[\s\S]*2026)(?=[\s\S]*(?:未列|未列名|未列出))(?=[\s\S]*(?:不代表|不等于).{0,30}(?:无危|没有地方性保护需求|贸易没有影响))/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'seventeen-year-cicada',
+    basenames: [
+      '01-adult-forest-portrait',
+      '02-adult-external-morphology',
+      '03-synchronized-night-emergence',
+      '04-male-chorus-calling',
+      '05-female-twig-oviposition',
+      '06-underground-nymph-root-feeding',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  assert.match(
+    galleryCaptions.get('02-adult-external-morphology.webp') ?? '',
+    /不能独立确认物种.{0,40}不能核验腹带宽度/,
+  );
+  assert.match(
+    galleryCaptions.get('03-synchronized-night-emergence.webp') ?? '',
+    /不能测量.{0,50}周期群身份.{0,30}不能证明所有个体同时出现/,
+  );
+  assert.match(
+    galleryCaptions.get('04-male-chorus-calling.webp') ?? '',
+    /静帧不能传达.{0,70}CI[—–-]CIII.{0,50}不能只凭姿态确认鸣叫和物种/,
+  );
+  assert.match(
+    galleryCaptions.get('05-female-twig-oviposition.webp') ?? '',
+    /不能确认.{0,30}卵数.{0,30}孵化期.{0,40}树种适宜性/,
+  );
+  assert.match(
+    galleryCaptions.get('06-underground-nymph-root-feeding.webp') ?? '',
+    /不能确定真实深度.{0,30}龄期.{0,30}宿主树种.{0,40}季节计数机制/,
+  );
+
+  assert.equal(profile.sources.length, 17);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'ecology', 'distribution', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=847190',
+    'https://cicadas.uconn.edu/species/m_septendecim/',
+    'https://cicadas.uconn.edu/behavior/',
+    'https://cicadas.uconn.edu/broods/',
+    'https://deepblue.lib.umich.edu/items/858cf767-7c61-4baa-bd5a-5e09fcd59950',
+    'https://doi.org/10.1093/aesa/75.1.14',
+    'https://doi.org/10.2307/2423537',
+    'https://doi.org/10.1046/j.1461-0248.2000.00164.x',
+    'https://doi.org/10.1163/156853901753172674',
+    'https://doi.org/10.1093/molbev/msz051',
+    'https://doi.org/10.1093/jisesa/iead082',
+    'https://doi.org/10.2305/IUCN.UK.1996.RLTS.T12691A3373584.en',
+    'https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.112782/Magicicada_septendecim',
+    'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    'https://checklist.cites.org/',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Seventeen-year Cicada sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 102);
+  assert.equal(species.length, 103);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -19588,7 +19878,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 16);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 17);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -19627,7 +19917,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cardiida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cardiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tridacna')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'order', 'Hemiptera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Cicadidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Magicicada')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bombyx')?.speciesCount, 1);
@@ -19683,7 +19976,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 102);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 103);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
