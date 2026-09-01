@@ -18868,10 +18868,198 @@ test('registers the African giant millipede as a bounded Archispirostreptus giga
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Emperor Scorpion as a bounded Pandinus imperator profile', async () => {
+  const profile = findSpecies('emperor-scorpion');
+
+  assert.equal(profile.id, 'species-pandinus-imperator');
+  assert.equal(profile.slug, 'emperor-scorpion');
+  assert.equal(profile.names.zh, '帝王蝎');
+  assert.ok(profile.names.aliases?.includes('将军巨蝎'));
+  assert.equal(profile.scientificName, 'Pandinus imperator');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Arthropoda'],
+      ['class', 'Arachnida'],
+      ['order', 'Scorpiones'],
+      ['family', 'Scorpionidae'],
+      ['genus', 'Pandinus'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(new Set(profile.storySections?.map(({ key }) => key)).size, 6);
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(new Set(profile.featuredStats.map(({ key }) => key)).size, 4);
+
+  const lengthEvidence = [
+    profile.measurements.length?.note ?? '',
+    profile.summary,
+    profile.description,
+    ...profile.keyFacts,
+  ].join(' ');
+  assert.match(lengthEvidence, /20\s*(?:厘米|cm)/i);
+  assert.match(
+    lengthEvidence,
+    /(?:20\s*(?:厘米|cm).{0,160}(?:不是|不代表|不能|不应|缺少|缺乏|欠缺|没有).{0,80}(?:稳定|典型|成体|上限|范围)|(?:不是|不代表|不能|不应|缺少|缺乏|欠缺|没有).{0,160}20\s*(?:厘米|cm))/i,
+  );
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(editorialText, /IUCN.{0,100}(?:NE|未评估|没有.{0,20}评估)/i);
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*CITES)(?=[\s\S]*附录\s*II)(?=[\s\S]*1995)/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:(?:外源|外部).{0,30}(?:紫外|UV).{0,30}(?:激发|照射)|(?:紫外|UV).{0,30}(?:外源|外部).{0,30}(?:激发|照射)))(?=[\s\S]*纳秒)(?=[\s\S]*荧光)(?=[\s\S]*(?:1997|Fasel).{0,160}(?:结论|认为|得出).{0,60}(?:不承担|没有|无).{0,30}生物学作用)/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*1985)(?=[\s\S]*(?:(?:2|两)\s*只.{0,40}(?:圈养.{0,20})?(?:幼体|幼蝎|未成年)|圈养.{0,40}(?:2|两)\s*只.{0,20}(?:幼体|幼蝎|未成年)))(?=[\s\S]*6\s*[–—-]\s*8\s*(?:厘米|cm))(?=[\s\S]*(?:转变|切换|变化|阈值))(?=[\s\S]*(?:(?:成年|成体).{0,80}(?:不能|不可|不应|没有).{0,40}(?:外推|泛化|推断|结论)|(?:不能|不可|不应|没有).{0,80}(?:外推|泛化|推断).{0,40}(?:成年|成体)))/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:1999.{0,80}科特迪瓦|科特迪瓦.{0,80}1999))(?=[\s\S]*(?:森林.{0,100}(?:25|二十五).{0,30}雌|(?:25|二十五).{0,30}雌.{0,100}森林))(?=[\s\S]*(?:(?:稀树草原|savanna).{0,100}(?:25|二十五).{0,30}雌|(?:25|二十五).{0,30}雌.{0,100}(?:稀树草原|savanna)))(?=[\s\S]*(?:森林.{0,140}28\s*[–—-]\s*42|28\s*[–—-]\s*42.{0,140}森林))(?=[\s\S]*(?:(?:稀树草原|savanna).{0,140}7\s*[–—-]\s*21|7\s*[–—-]\s*21.{0,140}(?:稀树草原|savanna)))(?=[\s\S]*胚胎)/i,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*1990)(?=[\s\S]*(?:育幼|母体照护|母蝎照护))(?=[\s\S]*(?:家族|家庭群|母幼群))(?=[\s\S]*(?:实验|圈养))/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'emperor-scorpion',
+    basenames: [
+      '01-forest-refuge-portrait',
+      '02-dorsal-morphology',
+      '03-ultraviolet-fluorescence',
+      '04-pectine-sensory-combs',
+      '05-pedipalp-prey-restraint',
+      '06-maternal-brood-care',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  assert.match(
+    galleryCaptions.get('02-dorsal-morphology.webp') ?? '',
+    /(?:不能|无法|不用于).{0,60}(?:物种身份|种级鉴定|诊断).{0,80}(?:体长|尺寸|测量)|(?:不能|无法|不用于).{0,60}(?:体长|尺寸|测量).{0,80}(?:物种身份|种级鉴定|诊断)/,
+  );
+  assert.match(
+    galleryCaptions.get('03-ultraviolet-fluorescence.webp') ?? '',
+    /(?=[\s\S]*(?:外源|外部).{0,30}(?:紫外|UV)|(?:紫外|UV).{0,30}(?:外源|外部))(?=[\s\S]*纳秒)(?=[\s\S]*荧光)(?=[\s\S]*(?:1997|Fasel).{0,80}(?:论文|研究).{0,50}(?:认为|结论).{0,40}(?:不承担|没有|无).{0,30}生物学作用)/i,
+  );
+  assert.match(
+    galleryCaptions.get('04-pectine-sensory-combs.webp') ?? '',
+    /(?=[\s\S]*(?:不能|无法).{0,50}(?:齿数|齿的数量))(?=[\s\S]*(?:性别|雌雄))(?=[\s\S]*(?:物种|种级|身份))/,
+  );
+  assert.match(
+    galleryCaptions.get('05-pedipalp-prey-restraint.webp') ?? '',
+    /(?=[\s\S]*(?:不能|无法|不代表).{0,60}(?:野外|自然).{0,30}(?:猎物|捕食))(?=[\s\S]*(?:成年|成体).{0,50}(?:从不|不会|不用).{0,20}(?:蜇刺|毒刺|螫刺|尾刺))/,
+  );
+  assert.match(
+    galleryCaptions.get('06-maternal-brood-care.webp') ?? '',
+    /(?=[\s\S]*(?:不能|无法|不代表).{0,50}(?:固定|恒定).{0,30}(?:幼体数|幼仔数|窝仔数|育幼数))(?=[\s\S]*(?:持续|维持).{0,30}(?:时间|时长|多久))/,
+  );
+
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  assert.ok(
+    profile.sources.some(
+      ({ title, url }) => /IUCN/i.test(title) && /iucnredlist\.org/i.test(url),
+    ),
+  );
+  assert.ok(
+    profile.sources.some(({ url }) => {
+      const hostname = new URL(url).hostname;
+      return hostname === 'cites.org' || hostname.endsWith('.cites.org');
+    }),
+  );
+  for (const year of ['1985', '1990', '1999']) {
+    assert.ok(
+      profile.sources.some(({ title }) => title.includes(year)),
+      `Emperor Scorpion sources should include the ${year} study`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 99);
+  assert.equal(species.length, 100);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -18913,7 +19101,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 14);
   assert.equal(findTaxon(tree, 'class', 'Chilopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Scolopendromorpha')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Scolopendridae')?.speciesCount, 1);
@@ -18958,10 +19146,13 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Aeshnidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Anax')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Theraphosidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Theraphosa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Scorpiones')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Scorpionidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Pandinus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Merostomata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
@@ -18998,7 +19189,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 99);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 100);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
