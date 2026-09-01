@@ -19980,10 +19980,188 @@ test('registers the Lion as a bounded Panthera leo profile', async () => {
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Gumboot Chiton as a bounded Cryptochiton stelleri profile', async () => {
+  const profile = findSpecies('gumboot-chiton');
+
+  assert.equal(profile.id, 'species-cryptochiton-stelleri');
+  assert.equal(profile.slug, 'gumboot-chiton');
+  assert.equal(profile.names.zh, '橡胶靴石鳖');
+  assert.equal(profile.names.en, 'Gumboot Chiton');
+  assert.equal(profile.scientificName, 'Cryptochiton stelleri');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Mollusca', '软体动物门'],
+      ['class', 'Polyplacophora', '多板纲'],
+      ['order', 'Chitonida', '石鳖目'],
+      ['family', 'Mopaliidae', '鬃毛石鳖科'],
+      ['genus', 'Cryptochiton', '隐石鳖属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+    },
+    { code: 'NE', trend: 'unknown' },
+  );
+  assert.equal(Object.hasOwn(profile.conservation, 'assessedYear'), false);
+  assert.equal(Object.hasOwn(profile.conservation, 'criteria'), false);
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 36, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /最大报道.{0,20}(?:不代表|不是)/,
+  );
+  assert.deepEqual(profile.diet.types, ['herbivore']);
+  assert.deepEqual(profile.metrics, {});
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key) ?? []).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'plate-count', value: '8', unit: '枚' },
+      { key: 'maximum-length', value: '36', unit: '厘米' },
+      { key: 'maximum-estimated-age', value: '≥40', unit: '年' },
+      { key: 'radula-mineral', value: '磁铁矿', unit: undefined },
+    ],
+  );
+  assert.equal(
+    new Set(profile.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'gumboot-chiton',
+    basenames: [
+      '01-north-pacific-rocky-reef-adult-portrait',
+      '02-juvenile-eight-exposed-valves',
+      '03-adult-concealed-valves-girdle-macro',
+      '04-ventral-foot-and-gill-grooves',
+      '05-radula-tooth-mineralization-macro',
+      '06-newly-hatched-trochophore-microscopy',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-juvenile-eight-exposed-valves',
+    /(?=[\s\S]*幼体)(?=[\s\S]*八枚.{0,12}(?:外露)?背板)/,
+    /(?:不能|无法|不代表|不证明).{0,50}(?:年龄|体长|尺寸|地点|全分布区|普遍)/,
+  );
+  assertBoundedCaption(
+    '03-adult-concealed-valves-girdle-macro',
+    /(?=[\s\S]*成体)(?=[\s\S]*(?:背板|甲片).{0,20}(?:完全)?(?:覆盖|遮住|不可见))(?=[\s\S]*外套带)/,
+    /(?:不能|无法|不代表|不证明).{0,50}(?:骨针|密度|组织|年龄|物种鉴定|鉴定物种)/,
+  );
+  assertBoundedCaption(
+    '04-ventral-foot-and-gill-grooves',
+    /(?=[\s\S]*(?:肌足|腹足))(?=[\s\S]*(?:两侧|两条).{0,20}(?:鳃沟|外套沟))(?=[\s\S]*鳃)/,
+    /(?:不能|无法|不代表|不证明|不是).{0,50}(?:鳃数|吸附力|附着力|自然翻身|常见姿态|行为)/,
+  );
+  assertBoundedCaption(
+    '05-radula-tooth-mineralization-macro',
+    /(?=[\s\S]*磁铁矿)(?=[\s\S]*(?:铁磷酸盐|磷酸铁))(?=[\s\S]*(?:齿舌|齿列|齿尖))/,
+    /(?:不能|无法|不代表|不证明|不是).{0,60}(?:化学成分|矿物成分|磁性|导航|吸铁|放电)/,
+  );
+  assertBoundedCaption(
+    '06-newly-hatched-trochophore-microscopy',
+    /(?=[\s\S]*(?:初孵|担轮幼体))(?=[\s\S]*(?:没有|不具|尚无).{0,20}(?:背板|眼点))(?=[\s\S]*(?:不摄食|卵黄))/,
+    /(?=[\s\S]*(?:12\s*°?C|12\s*℃|46\s*小时))(?=[\s\S]*(?:不能|无法|不代表|不是).{0,50}(?:全分布区|固定时序|普遍|恒定|常数))/,
+  );
+
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'ecology', 'distribution', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=240776',
+    'https://www.nmns.edu.tw/collect/catalog/detail/?id=32208',
+    'https://www.adfg.alaska.gov/static-f/species/speciesinfo/_aknhp/Gumboot_Chiton.pdf',
+    'https://marine.ucsc.edu/target/cryptochiton/',
+    'https://doi.org/10.1093/mollus/eyr004',
+    'https://doi.org/10.4002/040.055.0104',
+    'https://doi.org/10.1038/s41598-018-37839-2',
+    'https://nrl.iucnredlist.org/search',
+    'https://aquarium.org/animals/gumboot-chiton/',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Gumboot Chiton sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 104);
+  assert.equal(species.length, 105);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -20048,7 +20226,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'class', 'Polyplacophora')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Chitonida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Mopaliidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Cryptochiton')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
@@ -20123,7 +20305,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 104);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 105);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);

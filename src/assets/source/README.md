@@ -106,6 +106,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Peacock Mantis Shrimp image set](./species/peacock-mantis-shrimp/README.md)
 - [Seventeen-year Cicada image set](./species/seventeen-year-cicada/README.md)
 - [Lion image set](./species/lion/README.md)
+- [Gumboot Chiton image set](./species/gumboot-chiton/README.md)
 
 ## Image compression workflow
 
