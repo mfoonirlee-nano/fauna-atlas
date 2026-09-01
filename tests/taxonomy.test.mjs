@@ -70,6 +70,7 @@ async function assertGeneratedImageSet({
   slug,
   basenames,
   credit = 'Fauna Atlas · AI 生成科学情景重建',
+  verifyAcceptedHashes = false,
 }) {
   assert.equal(basenames.length, 6);
   assert.equal(profile.media.gallery?.length, 5);
@@ -153,6 +154,23 @@ async function assertGeneratedImageSet({
     ),
   );
   assert.equal(new Set(imageHashes).size, 12);
+
+  if (verifyAcceptedHashes) {
+    const readme = await readFile(
+      new URL(`../src/assets/source/species/${slug}/README.md`, import.meta.url),
+      'utf8',
+    );
+    const acceptedHashRows = [...readme.matchAll(
+      /^\| \d{2} \| `([a-f0-9]{64})` \| `([a-f0-9]{64})` \|$/gm,
+    )].map(([, sourceHash, runtimeHash]) => [sourceHash, runtimeHash]);
+    const runtimeHashes = imageHashes.slice(0, basenames.length);
+    const sourceHashes = imageHashes.slice(basenames.length);
+    assert.deepEqual(
+      acceptedHashRows,
+      basenames.map((_, index) => [sourceHashes[index], runtimeHashes[index]]),
+      `${slug} README accepted hashes should match the current image files`,
+    );
+  }
 }
 
 test('builds one uniquely keyed taxonomy leaf for every catalogue profile', () => {
@@ -18359,10 +18377,287 @@ test('registers the Red-eyed Treefrog as a complete Agalychnis callidryas profil
   assert.equal(profile.updatedAt, '2026-08-31');
 });
 
+test('registers the South American giant centipede as a bounded Scolopendra gigantea profile', async () => {
+  const profile = findSpecies('south-american-giant-centipede');
+
+  assert.equal(profile.id, 'species-scolopendra-gigantea');
+  assert.equal(profile.slug, 'south-american-giant-centipede');
+  assert.equal(profile.names.zh, '南美巨人蜈蚣');
+  assert.ok(
+    !(profile.names.aliases ?? []).some((alias) => /秘鲁|Peruvian/i.test(alias)),
+    'the corrected profile must not retain the misleading Peru name as an alias',
+  );
+  assert.equal(profile.scientificName, 'Scolopendra gigantea');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Chilopoda', '唇足纲'],
+      ['order', 'Scolopendromorpha', '蜈蚣目'],
+      ['family', 'Scolopendridae', '蜈蚣科'],
+      ['genus', 'Scolopendra', '蜈蚣属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.ok(profile.distribution.realms.includes('terrestrial'));
+  assert.deepEqual(profile.distribution.continents, ['北美洲', '南美洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '巴拿马',
+    '哥伦比亚',
+    '委内瑞拉',
+    '圭亚那',
+    '苏里南',
+    '特立尼达和多巴哥',
+    '阿鲁巴',
+    '库拉索',
+  ]);
+  assert.ok(!profile.distribution.countries.includes('秘鲁'));
+  assert.match(
+    profile.distribution.range,
+    /(?=[\s\S]*秘鲁)(?=[\s\S]*S\. galapagoensis)(?=[\s\S]*(?:旧记录|历史记录|过去记录))(?=[\s\S]*(?:排除|不纳入|不属于|不能纳入))/,
+  );
+  assert.ok(profile.habitats.length >= 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+  const habitatText = profile.habitats
+    .flatMap(({ name, description }) => [name, description])
+    .join(' ');
+  assert.match(habitatText, /低山原生雨林/);
+  assert.match(
+    habitatText,
+    /(?=[\s\S]*巴拿马)(?=[\s\S]*850\s*米)(?=[\s\S]*原生雨林)(?=[\s\S]*(?:单点|单一).{0,20}(?:不代表|不能推导))/,
+  );
+  assert.equal(profile.measurements.length?.max, undefined);
+  assert.equal(profile.metrics.adultLengthCm, undefined);
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /(?=[\s\S]*(?:超过|>)\s*300\s*(?:毫米|mm))(?=[\s\S]*274\.6\s*(?:毫米|mm))(?=[\s\S]*(?:报道|记录))(?=[\s\S]*(?:不是|不代表|不能).{0,30}(?:上限|精确最大|硬范围))/i,
+  );
+  assert.ok(profile.diet.types.includes('carnivore'));
+  assert.match(
+    [...profile.diet.foods, profile.diet.description].join(' '),
+    /Blaberus discoidalis/,
+  );
+  assert.doesNotMatch(
+    [...profile.diet.foods, profile.diet.description].join(' '),
+    /蟋蟀|cricket/i,
+  );
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'name-and-range-correction',
+      'twenty-one-pairs',
+      'forest-to-cave',
+      'cockroach-handling',
+      'three-bat-observations',
+      'venom-evidence',
+    ],
+  );
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length >= 20);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'reported-upper-length',
+      'antennal-articles',
+      'walking-leg-pairs',
+      'direct-bat-prey',
+    ],
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ value }) => value),
+    ['>300', '17', '21', '3'],
+  );
+  assert.deepEqual(profile.featuredStats[3], {
+    key: 'direct-bat-prey',
+    label: '直接记录蝙蝠猎物',
+    value: '3',
+    unit: '种',
+    note: '同一洞穴三次独立偶遇观察，不是食谱比例。',
+  });
+
+  const storyBodies = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storyBodies.get('cockroach-handling') ?? '',
+    /(?=[\s\S]*约\s*50\s*分钟)(?=[\s\S]*(?:返回|回到).{0,20}(?:先前|第一只).{0,20}(?:制伏|制服).{0,10}蟑螂)(?=[\s\S]*(?:不能|不足以).{0,30}(?:固定.{0,10}记忆策略|记忆策略))/,
+  );
+  assert.match(
+    storyBodies.get('three-bat-observations') ?? '',
+    /(?=[\s\S]*(?:3|三)次独立)(?=[\s\S]*(?:3|三)种蝙蝠)(?=[\s\S]*没有看到最初捕捉)(?=[\s\S]*空中抓取.{0,10}(?:假说|推测))/,
+  );
+
+  const keyFactText = profile.keyFacts.join(' ');
+  assert.match(
+    keyFactText,
+    /(?=[\s\S]*(?:21|二十一)\s*对步足)(?=[\s\S]*第一躯干附肢.{0,12}颚肢)(?=[\s\S]*颚肢.{0,20}(?:不属于|不计入).{0,8}步足)/,
+  );
+  assert.match(
+    keyFactText,
+    /(?=[\s\S]*(?:3\s*次|三次)独立.{0,20}(?:观察|偶遇))(?=[\s\S]*(?:3\s*种|三种)蝙蝠)(?=[\s\S]*没有看到.{0,12}最初捕捉)/,
+  );
+  assert.match(
+    keyFactText,
+    /(?=[\s\S]*窝卵数)(?=[\s\S]*孵化时长)(?=[\s\S]*繁殖季)(?=[\s\S]*成熟年龄)(?=[\s\S]*护幼时长)(?=[\s\S]*寿命)(?=[\s\S]*(?:缺少|没有).{0,30}物种级)/,
+  );
+  assert.match(
+    keyFactText,
+    /(?=[\s\S]*IUCN)(?=[\s\S]*NE)(?=[\s\S]*(?:未评估|没有返回.{0,10}评估|无物种级评估))/,
+  );
+
+  const safetyText = [
+    ...(profile.storySections ?? []).map(({ body }) => body),
+    ...profile.keyFacts,
+    ...profile.conservationActions,
+  ].join(' ');
+  assert.match(
+    safetyText,
+    /(?=[\s\S]*(?:不要|避免|不).{0,8}徒手接触)(?=[\s\S]*(?:毒蜇|蜇伤).{0,20}(?:专业医疗评估|医疗专业人员))(?=[\s\S]*(?:不给|不提供|不能给).{0,12}(?:药物|急救处方|处方))/,
+  );
+  const conservationText = profile.conservationActions.join(' ');
+  assert.match(conservationText, /(?=[\s\S]*形态诊断)(?=[\s\S]*DNA)(?=[\s\S]*互证)/);
+  assert.match(
+    conservationText,
+    /(?=[\s\S]*蝙蝠洞穴)(?=[\s\S]*低干扰)(?=[\s\S]*非接触监测)/,
+  );
+  assert.match(
+    conservationText,
+    /(?=[\s\S]*Valle del Cauca)(?=[\s\S]*巴西)(?=[\s\S]*(?:离群|待确认).{0,12}记录)(?=[\s\S]*(?:复核|核查))/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'south-american-giant-centipede',
+    basenames: [
+      '01-caribbean-limestone-adult-cover',
+      '02-dorsal-segment-and-leg-profile',
+      '03-head-forcipules-macro',
+      '04-nocturnal-discoid-cockroach-encounter',
+      '05-limestone-thorn-scrub-habitat',
+      '06-cave-ceiling-bat-context',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.equal(profile.sources.length, 20);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  for (const requiredUrl of [
+    'https://myriatrix.myspecies.info/taxonomy/term/9017/descriptions',
+    'https://chilobase.biologia.unipd.it/searches/result_subspecies/696',
+    'https://chilobase.biologia.unipd.it/searches/result_species/94',
+    'https://doi.org/10.1080/03946975.2000.10531129',
+    'https://zenodo.org/records/15604109',
+    'https://doi.org/10.17161/randa.v24i2.14166',
+    'https://servicio.bc.uc.edu.ve/fcs/vol26n2/art02.pdf',
+    'https://www.iucnredlist.org/search?query=Scolopendra%20gigantea&searchType=species',
+    'https://nrl.iucnredlist.org/about/faqs',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `South American giant centipede sources should include ${requiredUrl}`,
+    );
+  }
+  assert.ok(
+    profile.sources.some(
+      ({ title, url }) =>
+        /Molinari et al\. 2005/i.test(title) && URL.canParse(url),
+    ),
+    'South American giant centipede sources should include the Molinari et al. 2005 cave record',
+  );
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.storySections ?? []).map(({ body }) => body),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:17|十七)\s*(?:个)?触角节)(?=[\s\S]*(?:21|二十一)\s*对步足)(?=[\s\S]*(?:分类资料|分类文献|分类修订|原始描述))/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*委内瑞拉)(?=[\s\S]*(?:单一|同一|一个).{0,12}洞穴)(?=[\s\S]*(?:3|三)\s*次.{0,20}(?:记录|捕食))(?=[\s\S]*(?:3|三)\s*种.{0,12}蝙蝠)(?=[\s\S]*(?:不能|不可|不足以).{0,40}(?:泛化|整个物种|普遍|常见|主要猎物))/,
+  );
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  assert.match(
+    galleryCaptions.get('02-dorsal-segment-and-leg-profile.webp') ?? '',
+    /(?=[\s\S]*(?:不能|无法|不用于).{0,30}(?:核验|确认|证明))(?=[\s\S]*(?:17|触角节))(?=[\s\S]*(?:21|步足))/,
+  );
+  assert.match(
+    galleryCaptions.get('04-nocturnal-discoid-cockroach-encounter.webp') ?? '',
+    /(?=[\s\S]*(?:不能|无法|不代表|不构成).{0,40}(?:核验|证明))(?=[\s\S]*(?:身份|捕食|食谱|食性|猎物偏好|常见猎物))/,
+  );
+  assert.match(
+    galleryCaptions.get('06-cave-ceiling-bat-context.webp') ?? '',
+    /(?:不能|无法|不代表|不证明).{0,40}(?:捕食|捕获|袭击)/,
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 97);
+  assert.equal(species.length, 98);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -18404,7 +18699,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'class', 'Chilopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Scolopendromorpha')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Scolopendridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Scolopendra')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Coenobitidae')?.speciesCount, 1);
@@ -18481,7 +18780,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 97);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 98);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);

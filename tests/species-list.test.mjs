@@ -29,7 +29,7 @@ const cardSource = appSource.slice(
   appSource.indexOf('interface SpeciesDetailProps'),
 );
 const classIconSource = appSource.slice(
-  appSource.indexOf('function classIcon'),
+  appSource.indexOf('const classIconsByScientificName'),
   appSource.indexOf('\nfunction formatClassName'),
 );
 const layoutSource = stylesSource.slice(
@@ -53,11 +53,31 @@ test('species list sizing is presentation-driven instead of featured-content-dri
 });
 
 test('malacostracan artwork uses the shell icon instead of the fallback leaf', () => {
-  assert.match(classIconSource, /className\.includes\('软甲'\)[^;\n]*return Shell;/);
+  assert.match(classIconSource, /Malacostraca:\s*Shell/);
 });
 
 test('arachnid artwork uses the bug icon instead of the fallback leaf', () => {
-  assert.match(classIconSource, /className\.includes\('蛛形'\)[^;\n]*return Bug;/);
+  assert.match(classIconSource, /Arachnida:\s*Bug/);
+});
+
+test('centipede artwork uses the bug icon instead of the fallback leaf', () => {
+  assert.match(classIconSource, /Chilopoda:\s*Bug/);
+});
+
+test('scientific-name mapping preserves every class that previously used the fish icon', () => {
+  for (const scientificName of [
+    'Actinopterygii',
+    'Chondrichthyes',
+    'Leptocardii',
+    'Sarcopterygii',
+  ]) {
+    assert.match(classIconSource, new RegExp(`${scientificName}:\\s*Fish`));
+  }
+});
+
+test('artwork icon selection uses scientific class names instead of translated labels', () => {
+  assert.match(appSource, /classIcon\(item\.taxonomy\.class\.scientificName\)/);
+  assert.doesNotMatch(classIconSource, /\.includes\(/);
 });
 
 test('standard desktop species list presents two large cards per row', () => {
