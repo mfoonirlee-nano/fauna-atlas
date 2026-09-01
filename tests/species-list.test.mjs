@@ -64,6 +64,10 @@ test('centipede artwork uses the bug icon instead of the fallback leaf', () => {
   assert.match(classIconSource, /Chilopoda:\s*Bug/);
 });
 
+test('millipede artwork uses the bug icon instead of the fallback leaf', () => {
+  assert.match(classIconSource, /Diplopoda:\s*Bug/);
+});
+
 test('scientific-name mapping preserves every class that previously used the fish icon', () => {
   for (const scientificName of [
     'Actinopterygii',

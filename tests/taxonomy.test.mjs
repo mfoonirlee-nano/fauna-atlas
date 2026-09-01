@@ -14747,10 +14747,6 @@ test('registers the Gila Monster as a complete Heloderma suspectum profile', asy
   assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
   assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
   assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-08-30'));
-  assert.deepEqual(
-    new Set(profile.sources.map(({ kind }) => kind)),
-    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
-  );
   for (const requiredUrl of [
     'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=174113',
     'https://reptile-database.reptarium.cz/Heloderma/suspectum',
@@ -18586,6 +18582,10 @@ test('registers the South American giant centipede as a bounded Scolopendra giga
   assert.ok(
     profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
   );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
   for (const requiredUrl of [
     'https://myriatrix.myspecies.info/taxonomy/term/9017/descriptions',
     'https://chilobase.biologia.unipd.it/searches/result_subspecies/696',
@@ -18654,10 +18654,224 @@ test('registers the South American giant centipede as a bounded Scolopendra giga
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the African giant millipede as a bounded Archispirostreptus gigas profile', async () => {
+  const profile = findSpecies('african-giant-millipede');
+
+  assert.equal(profile.id, 'species-archispirostreptus-gigas');
+  assert.equal(profile.slug, 'african-giant-millipede');
+  assert.equal(profile.names.zh, '非洲巨人马陆');
+  assert.equal(profile.names.en, 'Giant African Millipede');
+  assert.equal(profile.scientificName, 'Archispirostreptus gigas');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Diplopoda', '倍足纲'],
+      ['order', 'Spirostreptida', '异蛩目'],
+      ['family', 'Spirostreptidae', '异蛩科'],
+      ['genus', 'Archispirostreptus', '非洲巨马陆属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'unknown',
+      assessedYear: 2021,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['非洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '肯尼亚',
+    '莫桑比克',
+    '索马里',
+    '南非',
+    '坦桑尼亚',
+  ]);
+  assert.ok(!profile.distribution.countries.includes('Zanzibar'));
+  assert.match(
+    profile.distribution.range,
+    /(?=[\s\S]*Zanzibar)(?=[\s\S]*低精度)(?=[\s\S]*不代表连续占域)(?=[\s\S]*1,000\s*米)(?=[\s\S]*不是完整海拔包络)/,
+  );
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+
+  assert.deepEqual(profile.measurements.length, {
+    min: 178,
+    max: 260,
+    unit: 'mm',
+    note: '178—260 毫米是 2010 年分类修订所检查材料的体长跨度，不是所有成体的典型范围或物种硬上限；综述另汇集过 130—320 毫米的饲养及二手记录。',
+  });
+  assert.deepEqual(profile.metrics, {});
+  assert.ok(profile.diet.types.includes('detritivore'));
+  assert.deepEqual(profile.diet.foods, [
+    '腐烂落叶与其他植物碎屑',
+    '腐木和软化木质',
+    '落果',
+  ]);
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'name-in-parentheses',
+      'rings-and-leg-pairs',
+      'night-and-loose-soil',
+      'detritivore-and-gut',
+      'coil-and-benzoquinones',
+      'mating-molting-life-cycle',
+    ],
+  );
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key)).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length >= 20);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+  assert.equal(profile.featuredStats.length, 4);
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'revision-length',
+      'body-rings',
+      'leg-pairs-per-diplosegment',
+      'observed-mating-pass',
+    ],
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ value }) => value),
+    ['178–260', '62–70', '2', '≈35'],
+  );
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).map(({ body }) => body),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*IUCN)(?=[\s\S]*(?:2021|2021 年))(?=[\s\S]*(?:LC|无危))(?=[\s\S]*趋势.{0,12}未知)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*(?:甲基对苯醌|2-methyl-1,4-benzoquinone))(?=[\s\S]*2-甲氧基-3-甲基-1,4-苯醌)(?=[\s\S]*(?:不支持|不应).{0,20}氰化物)/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*宠物贸易)(?=[\s\S]*(?:规模|野采数量).{0,20}未知)(?=[\s\S]*(?:影响|种群影响).{0,12}未知)/,
+  );
+  assert.match(
+    profile.conservationActions.join(' '),
+    /(?=[\s\S]*成年雄性生殖肢形态)(?=[\s\S]*DNA 条形码)(?=[\s\S]*互证)/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'african-giant-millipede',
+    basenames: [
+      '01-coastal-forest-adult-cover',
+      '02-cylindrical-rings-and-leg-pairs',
+      '03-decaying-leaf-and-wood-feeding',
+      '04-tight-defensive-coil',
+      '05-juvenile-after-molt',
+      '06-night-leaf-litter-survey',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  assert.match(
+    galleryCaptions.get('02-cylindrical-rings-and-leg-pairs.webp') ?? '',
+    /不能核验.{0,30}(?:环|足数).{0,40}物种身份/,
+  );
+  assert.match(
+    galleryCaptions.get('03-decaying-leaf-and-wood-feeding.webp') ?? '',
+    /不能确认.{0,30}真实摄食事件.{0,30}食物比例.{0,30}(?:分解效率|野外处理量)/,
+  );
+  assert.match(
+    galleryCaptions.get('04-tight-defensive-coil.webp') ?? '',
+    /不能证明.{0,30}分泌物释放.{0,30}苯醌/,
+  );
+  assert.match(
+    galleryCaptions.get('06-night-leaf-litter-survey.webp') ?? '',
+    /不代表.{0,30}(?:标准协议|真实地点).{0,50}种群趋势/,
+  );
+
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.equal(profile.sources.length, 18);
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  for (const requiredUrl of [
+    'https://www.millibase.org/aphia.php?p=taxdetails&id=947329',
+    'https://doi.org/10.11646/zootaxa.2567.1.1',
+    'https://doi.org/10.2305/IUCN.UK.2021-2.RLTS.T103866629A103877116.en',
+    'https://www.aszb.cz/77-145/77-145.pdf',
+    'https://doi.org/10.2110/palo.2008.p08-098r',
+    'https://doi.org/10.1016/j.cbpb.2019.110388',
+    'https://doi.org/10.1128/AEM.00614-21',
+    'https://doi.org/10.1093/aesa/67.6.988',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `African giant millipede sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 98);
+  assert.equal(species.length, 99);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -18699,11 +18913,15 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 13);
   assert.equal(findTaxon(tree, 'class', 'Chilopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Scolopendromorpha')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Scolopendridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Scolopendra')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Diplopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Spirostreptida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Spirostreptidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Archispirostreptus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Coenobitidae')?.speciesCount, 1);
@@ -18780,7 +18998,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 98);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 99);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
