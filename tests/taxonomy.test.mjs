@@ -20335,10 +20335,197 @@ test('registers the Common Tusk Shell as a bounded Antalis vulgaris profile', as
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Giant Tube Worm as a bounded Riftia pachyptila profile', async () => {
+  const profile = findSpecies('giant-tube-worm');
+
+  assert.equal(profile.id, 'species-riftia-pachyptila');
+  assert.equal(profile.slug, 'giant-tube-worm');
+  assert.equal(profile.names.zh, '巨型管虫');
+  assert.equal(profile.names.en, 'Giant Tube Worm');
+  assert.equal(profile.scientificName, 'Riftia pachyptila');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Annelida', '环节动物门'],
+      ['class', 'Polychaeta', '多毛纲'],
+      ['order', 'Sabellida', '缨鳃虫目'],
+      ['family', 'Siboglinidae', '西伯加虫科'],
+      ['genus', 'Riftia', '巨型管虫属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+    },
+    { code: 'NE', trend: 'unknown' },
+  );
+  assert.equal(Object.hasOwn(profile.conservation, 'assessedYear'), false);
+  assert.equal(Object.hasOwn(profile.conservation, 'criteria'), false);
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, []);
+  assert.deepEqual(profile.distribution.countries, []);
+  assert.match(profile.distribution.range, /27°N.{0,120}38°S/);
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.deepEqual(
+    {
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { max: 2, unit: 'm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /软体.{0,20}1\.5 米.{0,30}栖管.{0,20}2\.65 米.{0,50}(?:不代表|不能)/,
+  );
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['bacterivore']);
+  assert.match(
+    profile.diet.description,
+    /成体没有口和消化道.{0,100}trophosome.{0,80}硫氧化细菌/,
+  );
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key) ?? []).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'maximum-size', value: '2', unit: '米' },
+      { key: 'reported-depth', value: '1900—3600', unit: '米' },
+      { key: 'maximum-tube-growth', value: '约 85', unit: '厘米/年' },
+      { key: 'modeled-larval-lifespan', value: '38', unit: '天' },
+    ],
+  );
+  assert.equal(
+    new Set(profile.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'giant-tube-worm',
+    basenames: [
+      '01-diffuse-flow-adult-cover',
+      '02-branchial-plume-diagnostic',
+      '03-gutless-trophosome-cutaway',
+      '04-trophosome-bacteriocyte-micrograph',
+      '05-juvenile-skin-symbiont-acquisition',
+      '06-rov-thicket-monitoring',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-branchial-plume-diagnostic',
+    /(?=[\s\S]*鳃羽)(?=[\s\S]*轴向结构)(?=[\s\S]*管口)/,
+    /不能.{0,60}(?:鳃丝数|交换面积|个体尺寸)/,
+  );
+  assertBoundedCaption(
+    '03-gutless-trophosome-cutaway',
+    /(?=[\s\S]*鳃羽)(?=[\s\S]*trophosome)(?=[\s\S]*循环分支)/,
+    /(?:不是真实解剖|不能.{0,60}(?:器官比例|血管排列))/,
+  );
+  assertBoundedCaption(
+    '04-trophosome-bacteriocyte-micrograph',
+    /(?=[\s\S]*胞内位置)(?=[\s\S]*叶内分区)/,
+    /不能.{0,60}(?:菌株|含硫颗粒|细胞阶段|菌数)/,
+  );
+  assertBoundedCaption(
+    '05-juvenile-skin-symbiont-acquisition',
+    /(?=[\s\S]*经皮侵入)(?=[\s\S]*暂时性消化道)(?=[\s\S]*trophosome)/,
+    /不能.{0,60}(?:发育阶段|入侵方向|持续时间|细菌身份)/,
+  );
+  assertBoundedCaption(
+    '06-rov-thicket-monitoring',
+    /(?=[\s\S]*一帧)(?=[\s\S]*调查画面)/,
+    /不能.{0,60}(?:物种身份|丰度|趋势|健康状况)/,
+  );
+
+  assert.equal(profile.sources.length, 29);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'distribution', 'ecology', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=266010',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/266010',
+    'https://www.biodiversitylibrary.org/part/45641',
+    'https://doi.org/10.1111/j.1096-3642.2001.tb02271.x',
+    'https://www.mbari.org/animal/giant-tubeworm/',
+    'https://doi.org/10.1134/S1062359016090132',
+    'https://doi.org/10.1186/1471-2148-11-96',
+    'https://doi.org/10.1126/science.213.4505.340',
+    'https://doi.org/10.1073/pnas.95.15.8997',
+    'https://doi.org/10.1128/mBio.02243-19',
+    'https://doi.org/10.1038/35075063',
+    'https://doi.org/10.1038/nature04793',
+    'https://doi.org/10.1038/371663a0',
+    'https://doi.org/10.1038/s41467-024-52631-9',
+    'https://www.iucnredlist.org/search?query=Riftia%20pachyptila&searchType=species',
+    'https://doi.org/10.1016/j.marpol.2018.01.020',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Giant Tube Worm sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 106);
+  assert.equal(species.length, 107);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -20365,11 +20552,15 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Synallactida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Stichopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Apostichopus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'class', 'Clitellata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Crassiclitellata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Megascolecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Megascolides')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Sabellida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Siboglinidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Riftia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Brachiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Lingulata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Lingulida')?.speciesCount, 1);
@@ -20486,7 +20677,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 106);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 107);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);

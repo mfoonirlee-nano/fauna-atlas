@@ -108,6 +108,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Lion image set](./species/lion/README.md)
 - [Gumboot Chiton image set](./species/gumboot-chiton/README.md)
 - [Common Tusk Shell image set](./species/common-tusk-shell/README.md)
+- [Giant Tube Worm image set](./species/giant-tube-worm/README.md)
 
 ## Image compression workflow
 
