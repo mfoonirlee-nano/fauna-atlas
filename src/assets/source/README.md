@@ -109,6 +109,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Gumboot Chiton image set](./species/gumboot-chiton/README.md)
 - [Common Tusk Shell image set](./species/common-tusk-shell/README.md)
 - [Giant Tube Worm image set](./species/giant-tube-worm/README.md)
+- [Purple Sea Urchin image set](./species/purple-sea-urchin/README.md)
 
 ## Image compression workflow
 

@@ -20522,10 +20522,186 @@ test('registers the Giant Tube Worm as a bounded Riftia pachyptila profile', asy
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Purple Sea Urchin as a bounded Strongylocentrotus purpuratus profile', async () => {
+  const profile = findSpecies('purple-sea-urchin');
+
+  assert.equal(profile.id, 'species-strongylocentrotus-purpuratus');
+  assert.equal(profile.slug, 'purple-sea-urchin');
+  assert.equal(profile.names.zh, '紫海胆');
+  assert.equal(profile.names.en, 'Purple Sea Urchin');
+  assert.equal(profile.scientificName, 'Strongylocentrotus purpuratus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Echinodermata'],
+      ['class', 'Echinoidea'],
+      ['order', 'Camarodonta'],
+      ['family', 'Strongylocentrotidae'],
+      ['genus', 'Strongylocentrotus'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+    },
+    { code: 'NE', trend: 'unknown' },
+  );
+  assert.equal(Object.hasOwn(profile.conservation, 'assessedYear'), false);
+  assert.equal(Object.hasOwn(profile.conservation, 'criteria'), false);
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.deepEqual(profile.diet.types, ['herbivore', 'detritivore']);
+  assert.deepEqual(profile.metrics, {});
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key) ?? []).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'common-test-diameter',
+      'maximum-spine-length',
+      'lantern-teeth',
+      'planktonic-larval-duration',
+    ],
+  );
+  const featuredStats = new Map(
+    profile.featuredStats.map(({ key, value, unit }) => [
+      key,
+      `${value}${unit ?? ''}`,
+    ]),
+  );
+  assert.match(featuredStats.get('common-test-diameter') ?? '', /^约\s*50毫米$/);
+  assert.match(
+    featuredStats.get('maximum-spine-length') ?? '',
+    /^(?:<|＜|少于)\s*25毫米$/,
+  );
+  assert.equal(featuredStats.get('lantern-teeth'), '5枚');
+  assert.match(
+    featuredStats.get('planktonic-larval-duration') ?? '',
+    /^1[—–-]3月$/,
+  );
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'purple-sea-urchin',
+    basenames: [
+      '01-wave-washed-kelp-reef-adult-cover',
+      '02-spines-tube-feet-pedicellariae-macro',
+      '03-aristotles-lantern-grazing-closeup',
+      '04-kelp-forest-barren-boundary',
+      '05-eight-arm-pluteus-larva',
+      '06-rocky-reef-quadrat-monitoring',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-spines-tube-feet-pedicellariae-macro',
+    /(?=[\s\S]*棘)(?=[\s\S]*管足)(?=[\s\S]*(?:叉棘|pedicellariae))/i,
+    /(?:不能|无法|不代表|不证明|不可).{0,70}(?:棘长|管足数量|叉棘数量|物种鉴定|种级鉴定)/,
+  );
+  assertBoundedCaption(
+    '03-aristotles-lantern-grazing-closeup',
+    /(?=[\s\S]*(?:亚里士多德提灯|咀嚼器))(?=[\s\S]*(?:五|5).{0,12}(?:枚)?牙)(?=[\s\S]*(?:藻|刮食|啃食))/,
+    /(?:不能|无法|不代表|不证明|不可).{0,70}(?:摄食率|牙齿磨损|微观结构|咬合力|食物组成)/,
+  );
+  assertBoundedCaption(
+    '04-kelp-forest-barren-boundary',
+    /(?=[\s\S]*(?:海带林|巨藻林))(?=[\s\S]*(?:海胆荒地|海胆荒漠|barren))(?=[\s\S]*(?:边界|交界|对照))/i,
+    /(?:不能|无法|不代表|不证明|不可).{0,80}(?:因果|转变过程|密度|面积|时间趋势|种群趋势)/,
+  );
+  assertBoundedCaption(
+    '05-eight-arm-pluteus-larva',
+    /(?=[\s\S]*(?:八腕|8腕|八条腕|八臂|8臂))(?=[\s\S]*(?:长腕幼体|棱柱幼体|pluteus|浮游幼体))/i,
+    /(?:不能|无法|不代表|不证明|不可).{0,80}(?:月龄|年龄|发育时长|浮游期|1—3个月|水温|发育速度)/,
+  );
+  assertBoundedCaption(
+    '06-rocky-reef-quadrat-monitoring',
+    /(?=[\s\S]*(?:样方|方框))(?=[\s\S]*(?:岩礁|礁区))(?=[\s\S]*(?:计数|监测|记录|调查))/,
+    /(?:不能|无法|不代表|不证明|不可).{0,80}(?:全分布区|总数量|总体丰度|种群趋势|健康状况)/,
+  );
+
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'ecology', 'distribution', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=240747',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/240747',
+    'https://marine.ucsc.edu/target/strongylocentrotus/',
+    'https://nrl.iucnredlist.org/search',
+    'https://doi.org/10.1186/1471-213X-14-22',
+    'https://doi.org/10.7717/peerj.11352',
+    'https://doi.org/10.1098/rspb.2019.0846',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Purple Sea Urchin sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 107);
+  assert.equal(species.length, 108);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -20543,7 +20719,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Echinoidea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Camarodonta')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Strongylocentrotidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Strongylocentrotus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Asteroidea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Valvatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Acanthasteridae')?.speciesCount, 1);
@@ -20677,7 +20857,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 107);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 108);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);

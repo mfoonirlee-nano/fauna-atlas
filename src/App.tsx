@@ -146,6 +146,7 @@ const classIconsByScientificName: Readonly<Record<string, ClassIcon>> = {
   Polyplacophora: Shell,
   Scaphopoda: Shell,
   Anthozoa: Waves,
+  Echinoidea: Waves,
   Hydrozoa: Waves,
   Scyphozoa: Waves,
   Mammalia: PawPrint,
