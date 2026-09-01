@@ -19833,10 +19833,157 @@ test('registers the Seventeen-year Cicada as a bounded Magicicada septendecim pr
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Lion as a bounded Panthera leo profile', async () => {
+  const profile = findSpecies('lion');
+
+  assert.equal(profile.id, 'species-panthera-leo');
+  assert.equal(profile.slug, 'lion');
+  assert.equal(profile.names.zh, '狮');
+  assert.equal(profile.names.en, 'Lion');
+  assert.ok(profile.names.aliases?.includes('狮子'));
+  assert.equal(profile.scientificName, 'Panthera leo');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Carnivora', '食肉目'],
+      ['family', 'Felidae', '猫科'],
+      ['genus', 'Panthera', '豹属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2025,
+      criteria: 'A2c',
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.ok(profile.habitats.length > 0);
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key) ?? []).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.equal(profile.featuredStats.length, 4);
+  assert.equal(
+    new Set(profile.featuredStats.map(({ key }) => key)).size,
+    4,
+  );
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'lion',
+    basenames: [
+      '01-savanna-dawn-male-portrait',
+      '02-adult-lioness-profile',
+      '03-pride-resting-in-acacia-shade',
+      '04-cooperative-wildebeest-approach',
+      '05-communal-cub-care',
+      '06-camera-trap-monitoring',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不足以|不可)/);
+  };
+  assertBoundedCaption(
+    '03-pride-resting-in-acacia-shade',
+    /(?:狮群|群体|成员|组成|亲缘|社会关系|数量|规模)/,
+  );
+  assertBoundedCaption(
+    '04-cooperative-wildebeest-approach',
+    /(?:合作|协作|围猎|捕猎|分工|成功|猎物)/,
+  );
+  assertBoundedCaption(
+    '05-communal-cub-care',
+    /(?:共同照护|幼崽|亲缘|哺乳|照护|存活)/,
+  );
+  assertBoundedCaption(
+    '06-camera-trap-monitoring',
+    /(?:相机|监测|个体|密度|数量|种群|趋势|占域)/,
+  );
+
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'ecology', 'distribution', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T15951A280792135.en',
+    'https://www.mammaldiversity.org/taxon/1006020/',
+    'https://www.catsg.org/living-species-lions',
+    'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Lion sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 103);
+  assert.equal(species.length, 104);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -19976,7 +20123,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 103);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 104);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -19997,8 +20144,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 70);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 28);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 71);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 29);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Condylura')?.speciesCount, 1);
@@ -20077,7 +20224,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Pyrosomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Pyrosomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Pyrosoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Tigris'), undefined);
   assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
