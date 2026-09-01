@@ -161,7 +161,7 @@ async function assertGeneratedImageSet({
       'utf8',
     );
     const acceptedHashRows = [...readme.matchAll(
-      /^\| \d{2} \| `([a-f0-9]{64})` \| `([a-f0-9]{64})` \|$/gm,
+      /^\|\s+\d{2}\s+\|\s+`([a-f0-9]{64})`\s+\|\s+`([a-f0-9]{64})`\s+\|$/gm,
     )].map(([, sourceHash, runtimeHash]) => [sourceHash, runtimeHash]);
     const runtimeHashes = imageHashes.slice(0, basenames.length);
     const sourceHashes = imageHashes.slice(basenames.length);
@@ -19056,10 +19056,215 @@ test('registers the Emperor Scorpion as a bounded Pandinus imperator profile', a
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Large Water Flea as a bounded Daphnia magna profile', async () => {
+  const profile = findSpecies('large-water-flea');
+
+  assert.equal(profile.id, 'species-daphnia-magna');
+  assert.equal(profile.slug, 'large-water-flea');
+  assert.equal(profile.names.zh, '大型溞');
+  assert.equal(profile.names.en, 'Large Water Flea');
+  assert.ok(profile.names.aliases?.includes('大型水蚤'));
+  assert.equal(profile.scientificName, 'Daphnia magna');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Arthropoda', '节肢动物门'],
+      ['class', 'Branchiopoda', '鳃足纲'],
+      ['order', 'Anomopoda', '异足目'],
+      ['family', 'Daphniidae', '溞科'],
+      ['genus', 'Daphnia', '溞属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NE',
+      trend: 'unknown',
+      assessedYear: undefined,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['freshwater']);
+  assert.deepEqual(profile.distribution.countries, []);
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 2.2, max: 6, unit: 'mm' },
+  );
+  assert.deepEqual(profile.metrics.adultLengthCm, [0.22, 0.6]);
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'taxonomy-aperture',
+      'transparent-filter-feeder',
+      'food-web-and-predator-plasticity',
+      'parthenogenetic-brood-chamber',
+      'ephippium-resting-egg-bank',
+      'ecotoxicology-test-organism',
+    ],
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      {
+        key: 'adult-length',
+        value: '约 2.2–6.0',
+        unit: '毫米',
+      },
+      {
+        key: 'maturity-at-20c',
+        value: '6–8',
+        unit: '天',
+      },
+      {
+        key: 'resting-eggs',
+        value: '通常 2',
+        unit: '枚',
+      },
+      {
+        key: 'standard-tests',
+        value: '48 / 21',
+        unit: '小时 / 天',
+      },
+    ],
+  );
+  assert.ok(profile.featuredStats.every(({ note }) => (note?.length ?? 0) > 0));
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.habitats.flatMap(({ name, description }) => [name, description]),
+    profile.measurements.length?.note ?? '',
+    profile.diet.description,
+    ...(profile.activity ?? []),
+    ...(profile.storySections ?? []).flatMap(({ label, title, body }) => [
+      label,
+      title,
+      body,
+    ]),
+    ...profile.keyFacts,
+    ...profile.threats,
+    ...profile.conservationActions,
+    ...profile.featuredStats.flatMap(({ label, value, unit, note }) => [
+      label,
+      value,
+      unit ?? '',
+      note ?? '',
+    ]),
+  ].join(' ');
+  assert.match(
+    editorialText,
+    /活动抑制.{0,40}(?:可以包括|可包括)死亡.{0,30}(?:不等同于|不代表)死亡率/,
+  );
+  assert.match(
+    editorialText,
+    /(?=[\s\S]*休眠卵是胚胎)(?=[\s\S]*卵鞍是(?:背甲特化形成的)?保护结构)(?=[\s\S]*(?:两者|休眠卵与卵鞍).{0,30}(?:不能互换|不是同一个结构))/,
+  );
+  assert.match(
+    editorialText,
+    /(?:单一实验克隆|单克隆标准试验).{0,40}(?:不能|不可).{0,20}(?:代表|外推).{0,30}(?:全种|所有大型溞种群)/,
+  );
+  assert.match(
+    editorialText,
+    /IUCN 尚未(?:发布|完成).{0,20}(?:本种)?全球评估.{0,60}NE.{0,40}(?:不等于|不能代表).{0,30}(?:LC|无危|种群稳定)/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'large-water-flea',
+    basenames: [
+      '01-shallow-pond-portrait',
+      '02-lateral-morphology',
+      '03-filter-feeding-algae',
+      '04-parthenogenetic-brood',
+      '05-dark-ephippium',
+      '06-ecotoxicology-test-vessels',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  assert.match(
+    galleryCaptions.get('05-dark-ephippium.webp') ?? '',
+    /(?:不能|无法).{0,30}(?:每个|固定).{0,30}卵鞍.{0,40}(?:两枚|休眠卵)/,
+  );
+  assert.match(
+    galleryCaptions.get('06-ecotoxicology-test-vessels.webp') ?? '',
+    /(?=[\s\S]*(?:不代表|不能确认).{0,40}(?:OECD|HJ).{0,20}(?:合规)?试验)(?=[\s\S]*(?:不能|无法).{0,80}(?:活动抑制|EC50|繁殖结果))/,
+  );
+
+  assert.equal(profile.sources.length, 33);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'distribution', 'general', 'ecology', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=148372',
+    'https://doi.org/10.11646/zootaxa.3904.1.1',
+    'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=83884',
+    'https://doi.org/10.1007/s10530-023-03164-7',
+    'https://doi.org/10.1787/9789264069947-en',
+    'https://doi.org/10.1787/9789264185203-en',
+    'https://www.iucnredlist.org/search?query=Daphnia%20magna&searchType=species',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Large Water Flea sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 100);
+  assert.equal(species.length, 101);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -19101,7 +19306,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 14);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Daphnia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chilopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Scolopendromorpha')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Scolopendridae')?.speciesCount, 1);
@@ -19189,7 +19398,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 100);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 101);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);

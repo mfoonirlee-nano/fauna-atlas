@@ -102,6 +102,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [South American Giant Centipede image set](./species/south-american-giant-centipede/README.md)
 - [African Giant Millipede image set](./species/african-giant-millipede/README.md)
 - [Emperor Scorpion image set](./species/emperor-scorpion/README.md)
+- [Large Water Flea image set](./species/large-water-flea/README.md)
 
 ## Image compression workflow
 

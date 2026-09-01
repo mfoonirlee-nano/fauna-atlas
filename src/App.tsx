@@ -138,6 +138,7 @@ const classIconsByScientificName: Readonly<Record<string, ClassIcon>> = {
   Arachnida: Bug,
   Chilopoda: Bug,
   Diplopoda: Bug,
+  Branchiopoda: Shell,
   Cephalopoda: Shell,
   Gastropoda: Shell,
   Malacostraca: Shell,
