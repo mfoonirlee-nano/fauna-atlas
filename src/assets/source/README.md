@@ -113,6 +113,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Common Brittlestar image set](./species/common-brittle-star/README.md)
 - [Rosy Feather-star image set](./species/rosy-feather-star/README.md)
 - [Aye-aye image set](./species/aye-aye/README.md)
+- [Southern Three-banded Armadillo image set](./species/southern-three-banded-armadillo/README.md)
 
 ## Image compression workflow
 

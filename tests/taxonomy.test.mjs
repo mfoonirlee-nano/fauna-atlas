@@ -21328,10 +21328,283 @@ test('registers the Aye-aye as a bounded Daubentonia madagascariensis profile', 
   assert.equal(profile.updatedAt, '2026-09-02');
 });
 
+test('registers the Southern Three-banded Armadillo as a bounded Tolypeutes matacus profile', async () => {
+  const profile = findSpecies('southern-three-banded-armadillo');
+
+  assert.equal(profile.id, 'species-tolypeutes-matacus');
+  assert.equal(profile.slug, 'southern-three-banded-armadillo');
+  assert.equal(profile.names.zh, '南方三带犰狳');
+  assert.equal(profile.names.en, 'Southern Three-banded Armadillo');
+  assert.deepEqual(profile.names.aliases, []);
+  assert.equal(profile.scientificName, 'Tolypeutes matacus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Cingulata', '有甲目'],
+      ['family', 'Tolypeutidae', '三带犰狳科'],
+      ['genus', 'Tolypeutes', '三带犰狳属'],
+    ],
+  );
+  assert.equal(
+    getSpeciesTaxonomyPath(profile).some(
+      ({ taxon }) => taxon.scientificName === 'Chlamyphoridae',
+    ),
+    false,
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'NT',
+      trend: 'decreasing',
+      assessedYear: 2024,
+      criteria: 'A2cd',
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['南美洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '阿根廷',
+    '玻利维亚',
+    '巴西',
+    '巴拉圭',
+  ]);
+  assert.deepEqual(profile.distribution.center, { lat: -23, lng: -61 });
+  assert.match(profile.distribution.range, /海平面.{0,20}800米/);
+  assert.match(profile.distribution.range, /Buenos Aires.{0,100}(?:历史|局部消失)/);
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 20, max: 25, unit: 'cm' },
+  );
+  assert.match(profile.measurements.length?.note ?? '', /头体长/);
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: 1, max: 2, unit: 'kg' },
+  );
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [20, 25],
+    adultMassKg: [1, 2],
+    elevationM: [0, 800],
+  });
+  assert.equal(Object.hasOwn(profile.metrics, 'lifespanYears'), false);
+  assert.equal(Object.hasOwn(profile.metrics, 'estimatedMatureIndividuals'), false);
+  assert.deepEqual(profile.diet.types, ['insectivore', 'omnivore']);
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'armor-with-moving-seams',
+      'closing-the-armor-ball',
+      'yes-they-dig',
+      'seasonal-opportunistic-menu',
+      'night-movement-and-rallies',
+      'defense-cannot-stop-land-conversion',
+    ],
+  );
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('armor-with-moving-seams') ?? '',
+    /2至4条活动带[\s\S]*“三带”[\s\S]*(?:不保证|不是固定)/,
+  );
+  assert.match(
+    storySections.get('closing-the-armor-ball') ?? '',
+    /头盾[\s\S]*尾盾[\s\S]*甲球[\s\S]*(?:猎捕|拾取)/,
+  );
+  assert.match(
+    storySections.get('yes-they-dig') ?? '',
+    /自己.{0,20}(?:挖出|挖)[\s\S]*(?:草巢|搬草)[\s\S]*(?:浅凹|修补)/,
+  );
+  assert.match(
+    storySections.get('seasonal-opportunistic-menu') ?? '',
+    /66份胃内容物[\s\S]*(?:蚂蚁|白蚁)[\s\S]*果实[\s\S]*(?:不能|不可).*固定比例/,
+  );
+  assert.match(
+    storySections.get('night-movement-and-rallies') ?? '',
+    /前半夜[\s\S]*(?:4只发情雌性|发情雌性.{0,20}4只)[\s\S]*(?:不代表|不是).*群居/,
+  );
+  assert.match(
+    storySections.get('defense-cannot-stop-land-conversion') ?? '',
+    /农业扩张[\s\S]*猎捕[\s\S]*(?:不超过|至多)12%[\s\S]*(?:没有|缺少).*全球监测/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'iucn-status',
+      'movable-bands',
+      'head-body-length',
+      'pantanal-daily-activity',
+    ],
+  );
+  const featuredStats = new Map(
+    profile.featuredStats.map(({ key, value, unit }) => [
+      key,
+      `${value}${unit ?? ''}`,
+    ]),
+  );
+  assert.equal(featuredStats.get('iucn-status'), 'NT');
+  assert.equal(featuredStats.get('movable-bands'), '2–4条');
+  assert.equal(featuredStats.get('head-body-length'), '20–25厘米');
+  assert.equal(featuredStats.get('pantanal-daily-activity'), '5.5 ± 2.8小时');
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.equal(profile.keyFacts.length, 15);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  const editorialText = [
+    profile.description,
+    ...profile.keyFacts,
+    ...(profile.storySections ?? []).map(({ body }) => body),
+  ].join('\n');
+  assert.match(editorialText, /2024年.{0,50}(?:完成|评估)/);
+  assert.match(
+    editorialText,
+    /(?:2025年.{0,50}(?:发布|公布)|条目在2025年发布)/,
+  );
+  assert.match(
+    editorialText,
+    /12年[\s\S]*(?:低于|不到)30%[\s\S]*(?:不是全球个体普查|不是全球普查)/,
+  );
+  assert.match(editorialText, /2至4条活动带[\s\S]*“?三带”?[\s\S]*(?:不保证|不是固定)/);
+  assert.match(editorialText, /没有可靠的(?:当前)?全球成熟个体数/);
+  assert.match(editorialText, /没有野外寿命数据/);
+  assert.match(editorialText, /MDD v2\.5[\s\S]*三带犰狳科Tolypeutidae/);
+  assert.match(
+    editorialText,
+    /IUCN 2025.{0,80}Chlamyphoridae.{0,80}(?:旧科名|不能沿用)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:CITES.{0,30}(?:未列入|没有列入|未纳入)|(?:未列入|没有列入|未纳入).{0,30}CITES)[\s\S]*(?:仍需|仍然|不等于).{0,80}(?:法规|法律|自由贸易|自由买卖)/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'southern-three-banded-armadillo',
+    basenames: [
+      '01-dry-chaco-foraging-cover',
+      '02-full-body-diagnostic-profile',
+      '03-complete-defensive-ball',
+      '04-head-tail-closure',
+      '05-own-burrow-excavation',
+      '06-straw-nest-gathering',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-full-body-diagnostic-profile',
+    /完整侧影[\s\S]*(?:外部特征|典型外形)/,
+    /不能.{0,120}(?:头体长|体长|体重|年龄|性别|来源)/,
+  );
+  assertBoundedCaption(
+    '03-complete-defensive-ball',
+    /头盾[\s\S]*尾盾[\s\S]*(?:闭合|扣合|甲球)/,
+    /不能.{0,120}(?:闭合力|持续时间|承压|咬合力|捕食|主动滚动)/,
+  );
+  assertBoundedCaption(
+    '04-head-tail-closure',
+    /头盾[\s\S]*尾盾[\s\S]*(?:闭合|收拢|阶段)/,
+    /不能.{0,120}(?:动作顺序|闭合速度|速度|施力|力量|刺激|防御成功|防御结果)/,
+  );
+  assertBoundedCaption(
+    '05-own-burrow-excavation',
+    /(?:前足|前爪)[\s\S]*(?:洞口|挖土|松土)/,
+    /不能.{0,120}(?:从头挖成|洞穴尺寸|深度|完成时间|所有权|使用频率)/,
+  );
+  assertBoundedCaption(
+    '06-straw-nest-gathering',
+    /(?:搬运|口衔)[\s\S]*(?:干草|草巢|草材)/,
+    /不能.{0,120}(?:性别|繁殖|育幼|巢龄|所有权|搭建时间|使用时长)/,
+  );
+
+  assert.equal(profile.sources.length, 15);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, profile.sources.length);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-02'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'ecology']),
+  );
+  for (const requiredUrl of [
+    'https://www.mammaldiversity.org/taxon/1000419/',
+    'https://www.mammaldiversity.org/releases/diff-changes/2.5/',
+    'https://doi.org/10.1111/cla.70048',
+    'https://doi.org/10.2305/IUCN.UK.2025-1.RLTS.T21974A244101608.en',
+    'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    'https://xenarthrans.org/species/armadillos-2/southern-three-banded-armadillo/',
+    'https://doi.org/10.2108/zs140186',
+    'https://doi.org/10.1007/s10914-022-09627-3',
+    'https://doi.org/10.2307/1382612',
+    'https://doi.org/10.1590/S1984-4689zool-20160035',
+    'https://doi.org/10.1016/j.anbehav.2018.04.011',
+    'https://doi.org/10.1093/jmammal/gyaa117',
+    'https://doi.org/10.1016/j.anireprosci.2013.02.004',
+    'https://doi.org/10.1080/01650521.2025.2557854',
+    'https://doi.org/10.1111/acv.70047',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Southern Three-banded Armadillo sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-02');
+  assert.equal(profile.updatedAt, '2026-09-02');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 111);
+  assert.equal(species.length, 112);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -21495,7 +21768,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 111);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 112);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -21516,8 +21789,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 72);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 30);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 73);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 31);
+  assert.equal(findTaxon(tree, 'order', 'Cingulata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Tolypeutidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Tolypeutes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Condylura')?.speciesCount, 1);
