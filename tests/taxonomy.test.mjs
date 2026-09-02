@@ -20698,10 +20698,203 @@ test('registers the Purple Sea Urchin as a bounded Strongylocentrotus purpuratus
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Common Brittlestar as a bounded Ophiothrix fragilis profile', async () => {
+  const profile = findSpecies('common-brittle-star');
+
+  assert.equal(profile.id, 'species-ophiothrix-fragilis');
+  assert.equal(profile.slug, 'common-brittle-star');
+  assert.equal(profile.names.zh, '脆刺蛇尾');
+  assert.equal(profile.names.en, 'Common Brittlestar');
+  assert.equal(profile.scientificName, 'Ophiothrix fragilis');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Echinodermata'],
+      ['class', 'Ophiuroidea'],
+      ['order', 'Amphilepidida'],
+      ['family', 'Ophiotrichidae'],
+      ['genus', 'Ophiothrix'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+    },
+    { code: 'NE', trend: 'unknown' },
+  );
+  assert.equal(Object.hasOwn(profile.conservation, 'assessedYear'), false);
+  assert.equal(Object.hasOwn(profile.conservation, 'criteria'), false);
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, ['欧洲']);
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.deepEqual(profile.measurements, {});
+  assert.deepEqual(profile.diet.types, ['filter-feeder', 'omnivore']);
+  assert.deepEqual(profile.metrics, {});
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key) ?? []).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  const locomotionStory = storySections.get('rowing-with-jointed-arms') ?? '';
+  assert.match(
+    locomotionStory,
+    /蛇尾[\s\S]*(?:腕|腕内)[\s\S]*(?:推撑|推进器官|弯曲)/,
+  );
+  assert.match(locomotionStory, /海星.{0,60}管足/);
+  assert.match(
+    locomotionStory,
+    /(?:不是|并非|不能).{0,80}(?:固定步态|速度)/,
+  );
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'standard-arm-count',
+      'maximum-disc-diameter',
+      'arm-to-disc-ratio',
+      'lateral-spines-per-side',
+    ],
+  );
+  const featuredStats = new Map(
+    profile.featuredStats.map(({ key, value, unit }) => [
+      key,
+      `${value}${unit ?? ''}`,
+    ]),
+  );
+  assert.equal(featuredStats.get('standard-arm-count'), '5条');
+  assert.match(featuredStats.get('maximum-disc-diameter') ?? '', /^约\s*20毫米$/);
+  assert.match(featuredStats.get('arm-to-disc-ratio') ?? '', /^约\s*5倍$/);
+  assert.match(featuredStats.get('lateral-spines-per-side') ?? '', /^约\s*7枚$/);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'common-brittle-star',
+    basenames: [
+      '01-tide-swept-adult-cover',
+      '02-articulated-arm-rowing-locomotion',
+      '03-raised-arm-suspension-feeding',
+      '04-patchy-dense-brittlestar-bed',
+      '05-tapered-regenerating-arm',
+      '06-benthic-video-transect-monitoring',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-articulated-arm-rowing-locomotion',
+    /(?=[\s\S]*(?:五条.{0,4}腕|五腕))(?=[\s\S]*(?:分节|腕节|关节))(?=[\s\S]*(?:推撑|划拨|移动|运动))/,
+    /(?:不能|无法|不代表|不证明|不可).{0,90}(?:移动速度|前进方向|完整步态|运动序列|协调机制)/,
+  );
+  assertBoundedCaption(
+    '03-raised-arm-suspension-feeding',
+    /(?=[\s\S]*(?:腕|腕部))(?=[\s\S]*(?:抬入|抬起|举起|伸入))(?=[\s\S]*水流)(?=[\s\S]*(?:腕棘|棘|管足))(?=[\s\S]*(?:悬浮颗粒|悬浮摄食|滤食))/,
+    /(?:不能|无法|不代表|不证明|不可).{0,90}(?:流速|颗粒组成|粒径|捕获率|摄食率|食物比例)/,
+  );
+  assertBoundedCaption(
+    '04-patchy-dense-brittlestar-bed',
+    /(?=[\s\S]*(?:密集|高密度))(?=[\s\S]*蛇尾床)(?=[\s\S]*(?:海床|粗颗粒))/,
+    /(?:不能|无法|不代表|不证明|不可).{0,100}(?:每平方米密度|覆盖面积|物种组成|总数量|种群趋势)/,
+  );
+  assertBoundedCaption(
+    '05-tapered-regenerating-arm',
+    /(?=[\s\S]*(?:短再生腕|再生腕))(?=[\s\S]*(?:平滑收细|收细))/,
+    /(?:不能|无法|不代表|不证明|不可).{0,100}(?:断腕原因|自割|捕食者|损伤时间|再生速率|个体年龄)/,
+  );
+  assertBoundedCaption(
+    '06-benthic-video-transect-monitoring',
+    /(?=[\s\S]*(?:ROV|遥控潜水器))(?=[\s\S]*(?:样带|影像))(?=[\s\S]*(?:记录|监测|调查))/,
+    /(?:不能|无法|不代表|不证明|不可).{0,100}(?:全分布区|总体丰度|总数量|长期变化|种群趋势|谱系身份)/,
+  );
+
+  assert.equal(profile.sources.length, 32);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-01'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'conservation', 'distribution', 'ecology']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=125131',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/125131',
+    'https://www.marlin.ac.uk/species/detail/1198',
+    'https://www.iucnredlist.org/search?query=Ophiothrix%20fragilis&searchType=species',
+    'https://doi.org/10.1111/j.1463-6409.2012.00573.x',
+    'https://doi.org/10.1038/srep32425',
+    'https://doi.org/10.1017/S0025315400015848',
+    'https://doi.org/10.1038/184285a0',
+    'https://doi.org/10.1016/j.csr.2016.01.003',
+    'https://doi.org/10.1007/s00227-004-1327-5',
+    'https://www.vliz.be/imisdocs/publications/289314.pdf',
+    'https://doi.org/10.1186/s12983-023-00495-y',
+    'https://doi.org/10.1073/pnas.2509681123',
+    'https://www.marlin.ac.uk/habitats/detail/1068',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Common Brittlestar sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-01');
+  assert.equal(profile.updatedAt, '2026-09-01');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 108);
+  assert.equal(species.length, 109);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -20719,11 +20912,15 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'class', 'Echinoidea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Camarodonta')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Strongylocentrotidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Strongylocentrotus')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Ophiuroidea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Amphilepidida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Ophiotrichidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Ophiothrix')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Asteroidea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Valvatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Acanthasteridae')?.speciesCount, 1);
@@ -20857,7 +21054,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 108);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 109);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);

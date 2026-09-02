@@ -76,6 +76,10 @@ test('echinoid artwork uses the waves icon instead of the fallback leaf', () => 
   assert.match(classIconSource, /Echinoidea:\s*Waves/);
 });
 
+test('ophiuroid artwork uses the waves icon instead of the fallback leaf', () => {
+  assert.match(classIconSource, /Ophiuroidea:\s*Waves/);
+});
+
 test('arachnid artwork uses the bug icon instead of the fallback leaf', () => {
   assert.match(classIconSource, /Arachnida:\s*Bug/);
 });
