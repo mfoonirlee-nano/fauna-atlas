@@ -81,6 +81,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Japanese Sea Cucumber image set](./species/japanese-sea-cucumber/README.md)
 - [Giant Gippsland Earthworm image set](./species/giant-gippsland-earthworm/README.md)
 - [Aardvark image set](./species/aardvark/README.md)
+- [Common Naked Mole-rat image set](./species/naked-mole-rat/README.md)
 - [Star-nosed Mole image set](./species/star-nosed-mole/README.md)
 - [Kākāpō image set](./species/kakapo/README.md)
 - [Hoatzin image set](./species/hoatzin/README.md)

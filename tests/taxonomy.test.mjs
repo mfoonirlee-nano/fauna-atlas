@@ -21902,10 +21902,334 @@ test('registers the Sunda Colugo as a bounded Galeopterus variegatus profile', a
   assert.equal(profile.updatedAt, '2026-09-02');
 });
 
+test('registers the Common Naked Mole-rat as a split-bounded Heterocephalus glaber profile', async () => {
+  const profile = findSpecies('naked-mole-rat');
+
+  assert.equal(profile.id, 'species-heterocephalus-glaber');
+  assert.equal(profile.slug, 'naked-mole-rat');
+  assert.equal(profile.names.zh, '裸鼹鼠');
+  assert.equal(profile.names.en, 'Common Naked Mole-rat');
+  assert.deepEqual(profile.names.aliases, [
+    'Naked Mole-rat',
+    'Naked Mole Rat',
+    'Desert Mole Rat',
+    'Sand Puppy',
+  ]);
+  assert.equal(profile.scientificName, 'Heterocephalus glaber');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Rodentia', '啮齿目'],
+      ['family', 'Heterocephalidae', '裸鼹鼠科'],
+      ['genus', 'Heterocephalus', '裸鼹鼠属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2016,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['非洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '吉布提',
+    '埃塞俄比亚',
+    '肯尼亚',
+    '索马里',
+  ]);
+  assert.deepEqual(profile.distribution.center, { lat: 4.5, lng: 42 });
+  assert.match(
+    profile.distribution.range,
+    /MDD v2\.5[\s\S]*狭义种[\s\S]*埃塞俄比亚中部和东部[\s\S]*肯尼亚中部和南部[\s\S]*索马里中部/,
+  );
+  assert.match(
+    profile.distribution.range,
+    /索马里兰南部[\s\S]*Heterocephalus phillipsi[\s\S]*(?:不能|不可).{0,20}整国/,
+  );
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 10.3, max: 13.6, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /42只[\s\S]*头体长[\s\S]*不含[\s\S]*3\.2至4\.7厘米[\s\S]*拆种前/,
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: 9, max: 69, unit: 'g' },
+  );
+  assert.match(
+    profile.measurements.weight?.note ?? '',
+    /651只[\s\S]*33\.9 ± 4\.9克[\s\S]*(?:繁殖状态|年龄|食物)/,
+  );
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [10.3, 13.6],
+    adultMassKg: [0.009, 0.069],
+  });
+  for (const unsupportedMetric of [
+    'lifespanYears',
+    'topSpeedKph',
+    'estimatedMatureIndividuals',
+    'elevationM',
+  ]) {
+    assert.equal(Object.hasOwn(profile.metrics, unsupportedMetric), false);
+  }
+  assert.deepEqual(profile.diet.types, ['herbivore']);
+  for (const food of ['鳞茎', '根', '块根']) {
+    assert.ok(profile.diet.foods.includes(food));
+  }
+  assert.match(
+    profile.diet.description,
+    /旧广义种[\s\S]*局部啃食[\s\S]*回填[\s\S]*不能[\s\S]*(?:固定菜单|每枚块根)/,
+  );
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'one-family-now-two-species',
+      'incisors-before-lips',
+      'one-breeder-reversible-suppression',
+      'rain-opens-a-digging-window',
+      'dialect-huddle-and-no-oxygen',
+      'least-concern-before-the-split',
+    ],
+  );
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('one-family-now-two-species') ?? '',
+    /MDD v2\.5[\s\S]*裸鼹鼠科[\s\S]*2025年[\s\S]*Heterocephalus phillipsi[\s\S]*两个现生种[\s\S]*H\. g\. ansorgei[\s\S]*不能[\s\S]*(?:整个属|H\. phillipsi)/,
+  );
+  assert.match(
+    storySections.get('incisors-before-lips') ?? '',
+    /两对[\s\S]*白色门齿[\s\S]*嘴唇外[\s\S]*口腔褶皱[\s\S]*后方成员[\s\S]*扫送松土[\s\S]*(?:没有|不是).*铲掌/,
+  );
+  assert.match(
+    storySections.get('one-breeder-reversible-suppression') ?? '',
+    /合作育幼[\s\S]*世代重叠[\s\S]*一只雌性[\s\S]*一至三只雄性[\s\S]*社会环境抑制[\s\S]*可恢复[\s\S]*不能.*终生固定阶级/,
+  );
+  assert.match(
+    storySections.get('rain-opens-a-digging-window') ?? '',
+    /雨水软化[\s\S]*小块根[\s\S]*细密分枝[\s\S]*大型地生植物[\s\S]*回填后再访[\s\S]*85至90只[\s\S]*2\.3至2\.9千米[\s\S]*(?:单一地点|不能)/,
+  );
+  assert.match(
+    storySections.get('dialect-huddle-and-no-oxygen') ?? '',
+    /四只[\s\S]*20°C[\s\S]*soft chirp[\s\S]*群落方言[\s\S]*0%氧[\s\S]*18分钟[\s\S]*不同实验[\s\S]*(?:不能|也不能)/,
+  );
+  assert.match(
+    storySections.get('least-concern-before-the-split') ?? '',
+    /2016年[\s\S]*LC[\s\S]*稳定[\s\S]*没有估算全球成熟个体数[\s\S]*IUCN \(2024\)[\s\S]*(?:引用年|不是一次2024年新评估)[\s\S]*H\. phillipsi[\s\S]*NE/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'iucn-status',
+      'head-body-length',
+      'colony-size',
+      'zero-oxygen-experiment',
+    ],
+  );
+  const featuredStats = new Map(
+    profile.featuredStats.map(({ key, value, unit }) => [
+      key,
+      `${value}${unit ?? ''}`,
+    ]),
+  );
+  assert.equal(featuredStats.get('iucn-status'), 'LC');
+  assert.equal(featuredStats.get('head-body-length'), '10.3–13.6厘米');
+  assert.equal(featuredStats.get('colony-size'), '≤10–≥290只');
+  assert.equal(featuredStats.get('zero-oxygen-experiment'), '18分钟');
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'colony-size')?.note ?? '',
+    /拆种前[\s\S]*平均约75至80只[\s\S]*(?:不是|并非).*固定值/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'zero-oxygen-experiment')?.note ?? '',
+    /密闭实验[\s\S]*(?:不是|并非).*野外屏息[\s\S]*(?:安全阈值|无限耐受)/,
+  );
+  for (const tag of ['裸鼹鼠科', '真社会性', '社会性繁殖抑制', '低氧耐受']) {
+    assert.ok(profile.tags.includes(tag));
+  }
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length >= 15);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.keyFacts,
+    ...(profile.storySections ?? []).map(({ body }) => body),
+  ].join('\n');
+  assert.match(
+    editorialText,
+    /MDD v2\.5[\s\S]*Heterocephalidae|MDD v2\.5[\s\S]*裸鼹鼠科/,
+  );
+  assert.match(
+    editorialText,
+    /Bathyergidae[\s\S]*(?:不能|不使用|不能覆盖).{0,50}(?:现行|当前).*分类/,
+  );
+  assert.match(
+    editorialText,
+    /Heterocephalus phillipsi[\s\S]*(?:两个现生种|有两个现生种|本属.{0,10}两个)/,
+  );
+  assert.match(
+    editorialText,
+    /2016年[\s\S]*(?:LC|无危)[\s\S]*稳定[\s\S]*(?:早于|拆种前)[\s\S]*Heterocephalus phillipsi/,
+  );
+  assert.match(
+    editorialText,
+    /IUCN \(2024\)[\s\S]*(?:名称使用)?引用年[\s\S]*(?:不是|不能替代).{0,30}(?:2024年新评估|2016)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:没有给出|没有估算)[\s\S]*全球成熟个体数/,
+  );
+  assert.match(
+    editorialText,
+    /H\. g\. ansorgei[\s\S]*(?:肯尼亚|圈养谱系)[\s\S]*(?:不能|不可).{0,40}(?:H\. phillipsi|整个属)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:CITES.{0,30}(?:未列入|没有列入)|(?:未列入|没有列入).{0,30}CITES)[\s\S]*(?:不免除|许可|跨境规则)/,
+  );
+  assert.match(
+    editorialText,
+    /3,000条[\s\S]*30岁[\s\S]*(?:不等于永生|不能.*永生)/,
+  );
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-full-body-diagnostic-profile',
+    /白色门齿[\s\S]*闭合嘴唇[\s\S]*稀疏触毛/,
+    /不能.{0,160}(?:体长|体重|年龄)[\s\S]*(?:亚种|遗传鉴定)/,
+  );
+  assertBoundedCaption(
+    '03-cooperative-digging-chain',
+    /三只[\s\S]*门齿松土[\s\S]*扫土/,
+    /不能.{0,180}(?:掘进速度|搬土量|洞长|职责稳定性)[\s\S]*(?:恰有三只|固定)/,
+  );
+  assertBoundedCaption(
+    '04-partial-geophyte-feeding',
+    /旧广义种[\s\S]*大型块根[\s\S]*(?:局部取食|再访)/,
+    /不能.{0,180}(?:植物种类|再生|同一个体|固定食谱)/,
+  );
+  assertBoundedCaption(
+    '05-breeding-female-with-pups',
+    /六仔[\s\S]*1至28仔/,
+    /不能.{0,180}(?:成体性别|亲子关系|哺乳|平均窝仔数)/,
+  );
+  assertBoundedCaption(
+    '06-nest-chamber-huddle',
+    /六只成体[\s\S]*聚集/,
+    /无法.{0,180}(?:体温|代谢|热流|氧气|二氧化碳)[\s\S]*(?:固定群组|完整群落)/,
+  );
+
+  assert.equal(profile.sources.length, 16);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, profile.sources.length);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-02'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'ecology']),
+  );
+  assert.deepEqual(
+    profile.sources.map(({ url }) => url),
+    [
+      'https://www.mammaldiversity.org/taxon/1001280/',
+      'https://www.mammaldiversity.org/taxon/1007027/',
+      'https://doi.org/10.1111/zoj.12201',
+      'https://doi.org/10.1038/s42003-025-09338-4',
+      'https://doi.org/10.2305/IUCN.UK.2016-3.RLTS.T9987A22184136.en',
+      'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+      'https://doi.org/10.1644/0.706.1',
+      'https://doi.org/10.1126/science.7209555',
+      'https://doi.org/10.1530/jrf.0.0880559',
+      'https://doi.org/10.2307/1383241',
+      'https://doi.org/10.1038/380619a0',
+      'https://doi.org/10.1016/0300-9629(80)90154-1',
+      'https://doi.org/10.1126/science.abc6588',
+      'https://doi.org/10.1126/science.aab3896',
+      'https://doi.org/10.7554/eLife.31157',
+      'https://doi.org/10.1126/sciadv.ady0481',
+    ],
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-02');
+  assert.equal(profile.updatedAt, '2026-09-02');
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'naked-mole-rat',
+    basenames: [
+      '01-underground-tunnel-portrait',
+      '02-full-body-diagnostic-profile',
+      '03-cooperative-digging-chain',
+      '04-partial-geophyte-feeding',
+      '05-breeding-female-with-pups',
+      '06-nest-chamber-huddle',
+    ],
+    credit: 'Fauna Atlas · AI 生成科学情景重建',
+    verifyAcceptedHashes: true,
+  });
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 113);
+  assert.equal(species.length, 114);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -22069,7 +22393,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 113);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 114);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -22090,8 +22414,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 74);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 32);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 75);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 33);
+  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Heterocephalidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Heterocephalus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dermoptera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cynocephalidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Galeopterus')?.speciesCount, 1);
