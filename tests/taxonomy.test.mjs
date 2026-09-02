@@ -21601,10 +21601,311 @@ test('registers the Southern Three-banded Armadillo as a bounded Tolypeutes mata
   assert.equal(profile.updatedAt, '2026-09-02');
 });
 
+test('registers the Sunda Colugo as a bounded Galeopterus variegatus profile', async () => {
+  const profile = findSpecies('sunda-colugo');
+
+  assert.equal(profile.id, 'species-galeopterus-variegatus');
+  assert.equal(profile.slug, 'sunda-colugo');
+  assert.equal(profile.names.zh, '马来鼯猴');
+  assert.equal(profile.names.en, 'Sunda Colugo');
+  assert.ok(profile.names.aliases.includes('巽他鼯猴'));
+  assert.ok(profile.names.aliases.includes('马来亚鼯猴'));
+  assert.ok(profile.names.aliases.includes('Sunda Flying Lemur'));
+  assert.equal(profile.scientificName, 'Galeopterus variegatus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Dermoptera', '皮翼目'],
+      ['family', 'Cynocephalidae', '鼯猴科'],
+      ['genus', 'Galeopterus', '斑鼯猴属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'decreasing',
+      assessedYear: 2008,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['亚洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '缅甸',
+    '泰国',
+    '老挝',
+    '柬埔寨',
+    '越南',
+    '马来西亚',
+    '新加坡',
+    '文莱',
+    '印度尼西亚',
+  ]);
+  assert.deepEqual(profile.distribution.center, { lat: 3, lng: 108 });
+  assert.match(profile.distribution.range, /中南半岛[\s\S]*马来半岛[\s\S]*婆罗洲/);
+  assert.match(profile.distribution.range, /(?:候选|深分化|尚未正式拆分).*谱系/);
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 34, max: 42, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /头体长[\s\S]*不含.{0,20}尾/,
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: 1.2, max: 1.7, unit: 'kg' },
+  );
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [34, 42],
+    adultMassKg: [1.2, 1.7],
+  });
+  for (const unsupportedMetric of [
+    'lifespanYears',
+    'topSpeedKph',
+    'estimatedMatureIndividuals',
+    'elevationM',
+  ]) {
+    assert.equal(Object.hasOwn(profile.metrics, unsupportedMetric), false);
+  }
+  assert.deepEqual(profile.diet.types, ['herbivore']);
+  assert.ok(profile.diet.foods.includes('嫩叶'));
+  assert.match(profile.diet.description, /嫩叶[\s\S]*(?:蚂蚁|食蚁)[\s\S]*(?:罕见|偶见)/);
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'lineage',
+      'skin-wing',
+      'controlled-glide',
+      'foraging-clock',
+      'night-and-young',
+      'connected-canopy',
+    ],
+  );
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('lineage') ?? '',
+    /皮翼目[\s\S]*灵长目[\s\S]*(?:姊妹群|姐妹群)[\s\S]*至少(?:支持)?(?:六个|6个)[\s\S]*(?:完成.{0,30}正式修订前|尚未.*正式|未完成.*正式|不提前.*(?:拆分|修订|命名))/,
+  );
+  assert.match(
+    storySections.get('skin-wing') ?? '',
+    /颈部[\s\S]*(?:手指|指端)[\s\S]*(?:脚趾|趾端)[\s\S]*尾端[\s\S]*(?:尾巴|尾部).*(?:包|位于).*膜/,
+  );
+  assert.match(
+    storySections.get('controlled-glide') ?? '',
+    /(?:五|5)只[\s\S]*222次[\s\S]*(?:较长|长距离).*滑翔[\s\S]*(?:着陆峰值力|落地冲击).*(?:较低|更低|降低)[\s\S]*3\.99米(?:每秒|\/秒)[\s\S]*(?:小样本|不是每次)/,
+  );
+  assert.match(
+    storySections.get('foraging-clock') ?? '',
+    /31(?:\.0)?[\s\S]*米[\s\S]*(?:模型|跨物种)[\s\S]*1\.5倍[\s\S]*(?:没有|并非|不能).*直接.*(?:耗氧|代谢)/,
+  );
+  assert.match(
+    storySections.get('night-and-young') ?? '',
+    /(?:通常|多为).*一仔[\s\S]*腹面[\s\S]*(?:皮膜|后部.*膜).*褶皱[\s\S]*(?:没有|不是).*(?:育儿袋|袋鼠式袋口)/,
+  );
+  assert.match(
+    storySections.get('connected-canopy') ?? '',
+    /640株[\s\S]*93\.3%[\s\S]*(?:9|九)根[\s\S]*(?:3|三)根[\s\S]*(?:地点|Mandai|工程案例|单一工程)[\s\S]*(?:不能|不足以|不代表)/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'adult-length',
+      'adult-mass',
+      'mean-glide-distance',
+      'long-glide-speed',
+    ],
+  );
+  const featuredStats = new Map(
+    profile.featuredStats.map(({ key, value, unit }) => [
+      key,
+      `${value}${unit ?? ''}`,
+    ]),
+  );
+  assert.equal(featuredStats.get('adult-length'), '34–42厘米');
+  assert.equal(featuredStats.get('adult-mass'), '1.2–1.7千克');
+  assert.equal(featuredStats.get('mean-glide-distance'), '31.0 ± 24.8米');
+  assert.equal(featuredStats.get('long-glide-speed'), '10.1米/秒');
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'mean-glide-distance')?.note ?? '',
+    /4只[\s\S]*258次[\s\S]*(?:估计|估算|推算)[\s\S]*(?:不是|并非).*(?:全物种|最大)/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'long-glide-speed')?.note ?? '',
+    /5只[\s\S]*(?:超过|大于)20米[\s\S]*(?:不是|并非).*最高速度/,
+  );
+  assert.ok(profile.tags.includes('食叶'));
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length >= 6);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  const editorialText = [
+    profile.summary,
+    profile.description,
+    profile.distribution.range,
+    ...profile.keyFacts,
+    ...(profile.storySections ?? []).map(({ body }) => body),
+  ].join('\n');
+  assert.match(
+    editorialText,
+    /MDD[\s\S]*国家字段.{0,30}(?:8国|八国)[\s\S]*(?:漏列|未列).*文莱/,
+  );
+  assert.match(
+    editorialText,
+    /(?:HMW|权威物种综述)[\s\S]*(?:整个)?婆罗洲[\s\S]*(?:包含|包括|涉及).*文莱/,
+  );
+  assert.match(editorialText, /2008年[\s\S]*(?:LC|无危)[\s\S]*(?:下降|decreasing)/);
+  assert.match(
+    editorialText,
+    /(?:没有可靠的(?:当前)?全球(?:成熟)?个体数|可靠的全球(?:成熟)?个体数.{0,10}未知)/,
+  );
+  assert.match(editorialText, /野外寿命.{0,8}(?:未知|没有.*数据)/);
+  assert.match(
+    editorialText,
+    /(?:CITES.{0,30}(?:未列入|没有列入|未纳入)|(?:未列入|没有列入|未纳入).{0,30}CITES)/,
+  );
+  assert.match(
+    editorialText,
+    /(?:范围国.{0,20}(?:法规|法律).{0,20}仍然|不等于.{0,80}自由.{0,20}(?:猎捕|交易|贸易|买卖))/,
+  );
+  assert.match(
+    editorialText,
+    /(?:平均|渐近)[^。]{0,80}10\.1米(?:每秒|\/秒)[\s\S]*(?:不是|并非|不能).*最高速度/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'sunda-colugo',
+    basenames: [
+      '01-lowland-forest-trunk-portrait',
+      '02-full-patagium-glide',
+      '03-controlled-tree-landing',
+      '04-young-leaf-foraging',
+      '05-mother-with-ventral-infant',
+      '06-day-roost-camouflage',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-full-patagium-glide',
+    /(?:四肢|指趾)[\s\S]*(?:尾巴|尾膜)[\s\S]*连续有毛皮膜/,
+    /不能.{0,140}(?:滑翔距离|滑翔速度|最长|纪录|150米)/,
+  );
+  assertBoundedCaption(
+    '03-controlled-tree-landing',
+    /上仰[\s\S]*四足[\s\S]*树皮[\s\S]*(?:落树|抓附)/,
+    /(?:不能|无法).{0,140}(?:具体一次|每次|速度|制动力|着陆力|峰值力|冲击)/,
+  );
+  assertBoundedCaption(
+    '04-young-leaf-foraging',
+    /(?:抓枝|悬垂|取食)[\s\S]*(?:口部|吻部)[\s\S]*(?:嫩叶|芽)/,
+    /不能.{0,140}(?:植物种|固定食谱|食谱比例|门齿功能|营养)/,
+  );
+  assertBoundedCaption(
+    '05-mother-with-ventral-infant',
+    /一只幼体[\s\S]*腹面[\s\S]*(?:皮膜|褶皱)/,
+    /(?:不是|没有|并非|而非).{0,80}育儿袋[\s\S]*(?:不能|无法).{0,140}(?:妊娠|携幼|断奶|育幼时长)/,
+  );
+  assertBoundedCaption(
+    '06-day-roost-camouflage',
+    /日栖[\s\S]*斑驳[\s\S]*(?:树皮|地衣)/,
+    /(?:不代表|不能).{0,140}(?:所有|全部|唯一|休息点|日栖点|活动节律|整日)/,
+  );
+
+  assert.equal(profile.sources.length, 17);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, profile.sources.length);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-02'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'ecology']),
+  );
+  for (const requiredUrl of [
+    'https://www.mammaldiversity.org/taxon/1000535/',
+    'https://doi.org/10.2305/IUCN.UK.2008.RLTS.T41502A10479343.en',
+    'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    'https://doi.org/10.5281/zenodo.6628095',
+    'https://doi.org/10.1016/j.cub.2008.09.005',
+    'https://doi.org/10.1126/sciadv.1600633',
+    'https://doi.org/10.1093/jmammal/gyag052',
+    'https://doi.org/10.1098/rspb.2007.1684',
+    'https://doi.org/10.1242/jeb.052993',
+    'https://doi.org/10.1644/10-MAMM-A-048.1',
+    'https://doi.org/10.1007/s10531-004-6900-1',
+    'https://doi.org/10.3106/041.040.0107',
+    'https://doi.org/10.3106/ms2017-0071',
+    'https://doi.org/10.13057/biodiv/d200218',
+    'https://doi.org/10.1016/j.mambio.2018.06.004',
+    'https://doi.org/10.1111/1365-2664.14372',
+    'https://biodiversitysg.nparks.gov.sg/our-biodiversity/mammals/other-mammals/sunda-colugo/',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Sunda Colugo sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-02');
+  assert.equal(profile.updatedAt, '2026-09-02');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 112);
+  assert.equal(species.length, 113);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -21768,7 +22069,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 112);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 113);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -21789,8 +22090,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 73);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 31);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 74);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 32);
+  assert.equal(findTaxon(tree, 'order', 'Dermoptera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Cynocephalidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Galeopterus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Cingulata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Tolypeutidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tolypeutes')?.speciesCount, 1);
