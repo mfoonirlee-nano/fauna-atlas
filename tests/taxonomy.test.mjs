@@ -20891,10 +20891,226 @@ test('registers the Common Brittlestar as a bounded Ophiothrix fragilis profile'
   assert.equal(profile.updatedAt, '2026-09-01');
 });
 
+test('registers the Rosy Feather-star as a bounded Antedon bifida profile', async () => {
+  const profile = findSpecies('rosy-feather-star');
+
+  assert.equal(profile.id, 'species-antedon-bifida');
+  assert.equal(profile.slug, 'rosy-feather-star');
+  assert.equal(profile.names.zh, '海羊齿');
+  assert.equal(profile.names.en, 'Rosy Feather-star');
+  assert.equal(profile.scientificName, 'Antedon bifida');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+    ]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Echinodermata'],
+      ['class', 'Crinoidea'],
+      ['order', 'Comatulida'],
+      ['family', 'Antedonidae'],
+      ['genus', 'Antedon'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+    },
+    { code: 'NE', trend: 'unknown' },
+  );
+  assert.equal(Object.hasOwn(profile.conservation, 'assessedYear'), false);
+  assert.equal(Object.hasOwn(profile.conservation, 'criteria'), false);
+
+  assert.deepEqual(profile.distribution.realms, ['marine']);
+  assert.deepEqual(profile.distribution.continents, ['欧洲', '非洲']);
+  assert.equal(
+    profile.habitats.filter(({ isPrimary }) => isPrimary).length,
+    1,
+  );
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'marine'));
+  assert.doesNotMatch(profile.distribution.regions.join(' '), /加勒比|委内瑞拉/);
+  assert.doesNotMatch(profile.distribution.countries.join(' '), /委内瑞拉/);
+  assert.match(
+    `${profile.distribution.regions.join(' ')} ${profile.distribution.range}`,
+    /西部至中部地中海/,
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 5, max: 10, unit: 'cm' },
+  );
+  assert.match(profile.measurements.length?.note ?? '', /单只腕/);
+  assert.deepEqual(profile.diet.types, ['filter-feeder', 'omnivore']);
+  assert.deepEqual(profile.metrics, {});
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(
+    new Set(profile.storySections?.map(({ key }) => key) ?? []).size,
+    6,
+  );
+  assert.ok(
+    profile.storySections?.every(
+      ({ label, title, body }) =>
+        label.length > 0 && title.length > 0 && body.length > 0,
+    ),
+  );
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('five-rays-ten-arms') ?? '',
+    /五条.{0,8}辐射[\s\S]*各分成两只腕[\s\S]*十腕/,
+  );
+  assert.match(
+    storySections.get('three-tube-feet') ?? '',
+    /长、中、短[\s\S]*管足[\s\S]*(?:没有发现|没有)独立黏液网/,
+  );
+  assert.match(
+    storySections.get('current-shaped-fan') ?? '',
+    /爱尔兰五处[\s\S]*(?:定向流|往复流|多向流)/,
+  );
+  assert.match(
+    storySections.get('cirri-crawl-swim') ?? '',
+    /卷枝[\s\S]*爬行[\s\S]*(?:交替屈伸|拍水)[\s\S]*短距离/,
+  );
+  assert.match(
+    storySections.get('external-brood-and-pentacrinoid') ?? '',
+    /羽枝外侧[\s\S]*pentacrinoid[\s\S]*脱离柄/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    [
+      'typical-arm-count',
+      'reported-arm-length',
+      'peak-depth-band',
+      'tube-feet-per-unit',
+    ],
+  );
+  const featuredStats = new Map(
+    profile.featuredStats.map(({ key, value, unit }) => [
+      key,
+      `${value}${unit ?? ''}`,
+    ]),
+  );
+  assert.equal(featuredStats.get('typical-arm-count'), '10只');
+  assert.equal(featuredStats.get('reported-arm-length'), '5–10厘米');
+  assert.equal(featuredStats.get('peak-depth-band'), '15–40米');
+  assert.equal(featuredStats.get('tube-feet-per-unit'), '3只');
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'rosy-feather-star',
+    basenames: [
+      '01-current-swept-rocky-reef-adult-cover',
+      '02-ten-pinnate-arms-and-cirri-diagnostic',
+      '03-raised-arm-suspension-feeding',
+      '04-short-distance-arm-swimming',
+      '05-pinnule-brooded-embryos',
+      '06-rocky-reef-video-transect-monitoring',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [
+      image.split('/').at(-1) ?? '',
+      caption ?? '',
+    ]),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-ten-pinnate-arms-and-cirri-diagnostic',
+    /(?=[\s\S]*十只.{0,8}腕)(?=[\s\S]*(?:中央盘|盘))(?=[\s\S]*卷枝)/,
+    /不能.{0,100}(?:卷枝确切数量|羽枝节数|体尺|个体身份|确定鉴别)/,
+  );
+  assertBoundedCaption(
+    '03-raised-arm-suspension-feeding',
+    /(?=[\s\S]*(?:腕|羽枝))(?=[\s\S]*水流)(?=[\s\S]*悬浮颗粒)/,
+    /不能.{0,100}(?:流向|流速|粒径|捕获率|摄食节律|输送路径)/,
+  );
+  assertBoundedCaption(
+    '04-short-distance-arm-swimming',
+    /(?=[\s\S]*海床)(?=[\s\S]*水隙)(?=[\s\S]*十只.{0,8}腕)/,
+    /不能.{0,100}(?:划水序列|速度|距离|持续时间|起游原因)/,
+  );
+  assertBoundedCaption(
+    '05-pinnule-brooded-embryos',
+    /(?=[\s\S]*胚胎)(?=[\s\S]*羽枝外侧)/,
+    /不能.{0,100}(?:窝卵数|发育阶段|受精时间|产卵月份|胚胎尺寸|附着时长)/,
+  );
+  assertBoundedCaption(
+    '06-rocky-reef-video-transect-monitoring',
+    /(?=[\s\S]*ROV)(?=[\s\S]*(?:样带|岩礁))(?=[\s\S]*海羊齿)/,
+    /不能.{0,120}(?:种级身份|密度|占据面积|全范围总量|长期趋势|生境状况)/,
+  );
+
+  assert.equal(profile.sources.length, 20);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-02'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'distribution', 'ecology', 'conservation']),
+  );
+  for (const requiredUrl of [
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=124201',
+    'https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/124201',
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=714189',
+    'https://www.marinespecies.org/aphia.php?p=taxdetails&id=714190',
+    'https://www.marlin.ac.uk/species/detail/1521',
+    'https://doi.org/10.1017/S0025315400056836',
+    'https://doi.org/10.1007/BF00397517',
+    'https://doi.org/10.1242/jcs.s3-101.54.105',
+    'https://doi.org/10.1085/jgp.6.3.281',
+    'https://doi.org/10.1098/rstb.1994.0015',
+    'https://doi.org/10.3354/dao015207',
+    'https://eunis.eea.europa.eu/species/44201',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Rosy Feather-star sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-02');
+  assert.equal(profile.updatedAt, '2026-09-02');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 109);
+  assert.equal(species.length, 110);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -20912,7 +21128,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'class', 'Crinoidea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Comatulida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Antedonidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Antedon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Echinoidea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Camarodonta')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Strongylocentrotidae')?.speciesCount, 1);
@@ -21054,7 +21274,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 109);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 110);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
