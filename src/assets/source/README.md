@@ -112,6 +112,7 @@ Species-specific image sets and their final prompts live under `species/<slug>/`
 - [Purple Sea Urchin image set](./species/purple-sea-urchin/README.md)
 - [Common Brittlestar image set](./species/common-brittle-star/README.md)
 - [Rosy Feather-star image set](./species/rosy-feather-star/README.md)
+- [Aye-aye image set](./species/aye-aye/README.md)
 
 ## Image compression workflow
 

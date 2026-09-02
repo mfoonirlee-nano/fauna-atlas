@@ -21107,10 +21107,231 @@ test('registers the Rosy Feather-star as a bounded Antedon bifida profile', asyn
   assert.equal(profile.updatedAt, '2026-09-02');
 });
 
+test('registers the Aye-aye as a bounded Daubentonia madagascariensis profile', async () => {
+  const profile = findSpecies('aye-aye');
+
+  assert.equal(profile.id, 'species-daubentonia-madagascariensis');
+  assert.equal(profile.slug, 'aye-aye');
+  assert.equal(profile.names.zh, '指猴');
+  assert.equal(profile.names.en, 'Aye-aye');
+  assert.deepEqual(profile.names.aliases, []);
+  assert.equal(profile.scientificName, 'Daubentonia madagascariensis');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [rank, taxon.scientificName]),
+    [
+      ['kingdom', 'Animalia'],
+      ['phylum', 'Chordata'],
+      ['class', 'Mammalia'],
+      ['order', 'Primates'],
+      ['family', 'Daubentoniidae'],
+      ['genus', 'Daubentonia'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'EN',
+      trend: 'decreasing',
+      assessedYear: 2018,
+      criteria: 'A2cd+3cd+4cd',
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['非洲']);
+  assert.deepEqual(profile.distribution.countries, ['马达加斯加']);
+  assert.deepEqual(profile.distribution.endemicTo, ['马达加斯加']);
+  assert.deepEqual(profile.distribution.center, { lat: -18.5, lng: 47 });
+  assert.match(profile.distribution.range, /不连续斑块/);
+  assert.match(profile.distribution.range, /不能把整座岛/);
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 5);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 30, max: 37, unit: 'cm' },
+  );
+  assert.match(profile.measurements.length?.note ?? '', /头体长/);
+  assert.match(profile.measurements.length?.note ?? '', /44至53厘米/);
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: 2.5, max: 2.6, unit: 'kg' },
+  );
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [30, 37],
+    adultMassKg: [2.5, 2.6],
+    elevationM: [10, 1875],
+  });
+  assert.equal(Object.hasOwn(profile.metrics, 'lifespanYears'), false);
+  assert.equal(Object.hasOwn(profile.metrics, 'estimatedMatureIndividuals'), false);
+  assert.deepEqual(profile.diet.types, ['omnivore', 'insectivore']);
+
+  assert.equal(profile.storySections?.length, 6);
+  assert.equal(new Set(profile.storySections?.map(({ key }) => key) ?? []).size, 6);
+  const storySections = new Map((profile.storySections ?? []).map(({ key, body }) => [key, body]));
+  assert.match(
+    storySections.get('sole-living-lineage') ?? '',
+    /指猴科[\s\S]*一个现生种[\s\S]*(?:不是|不能).*(?:啮齿动物|松鼠|兔)/,
+  );
+  assert.match(
+    storySections.get('tap-scan-listen') ?? '',
+    /第三指[\s\S]*敲击[\s\S]*(?:结构界面|声学不连续)[\s\S]*不是蝙蝠/,
+  );
+  assert.match(
+    storySections.get('finger-roles-and-pseudothumb') ?? '',
+    /第三指[\s\S]*第四指[\s\S]*五根主指[\s\S]*不是.*第六指/,
+  );
+  assert.match(
+    storySections.get('diet-beyond-deadwood-larvae') ?? '',
+    /活木[\s\S]*枯木[\s\S]*Canarium[\s\S]*88%[\s\S]*不能外推/,
+  );
+  assert.match(
+    storySections.get('large-connected-night-forest') ?? '',
+    /一只雄性和一只雌性[\s\S]*不能定成全物种标准/,
+  );
+  assert.match(
+    storySections.get('local-attitudes-and-conservation') ?? '',
+    /另一些村庄[\s\S]*(?:中性|正面)[\s\S]*地方差异/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key }) => key),
+    ['iucn-status', 'three-generation-decline', 'head-body-length', 'merlin-intertap-interval'],
+  );
+  const featuredStats = new Map(profile.featuredStats.map(({ key, value, unit }) => [key, `${value}${unit ?? ''}`]));
+  assert.equal(featuredStats.get('iucn-status'), 'EN');
+  assert.equal(featuredStats.get('three-generation-decline'), '≥50%');
+  assert.equal(featuredStats.get('head-body-length'), '30–37厘米');
+  assert.equal(featuredStats.get('merlin-intertap-interval'), '97.7 ± 19.9毫秒');
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) => label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.ok(profile.tags.length > 0);
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length > 0);
+  assert.ok(profile.threats.length > 0);
+  assert.ok(profile.conservationActions.length > 0);
+
+  const editorialText = [
+    profile.description,
+    ...profile.keyFacts,
+    ...(profile.storySections ?? []).map(({ body }) => body),
+  ].join('\n');
+  assert.match(editorialText, /2018年[\s\S]*2020年第2版/);
+  assert.match(editorialText, /至少50%[\s\S]*36年[\s\S]*(?:不是全球普查|不是已数清全球个体)/);
+  assert.match(editorialText, /Merlin[\s\S]*97\.7±19\.9毫秒[\s\S]*6至15千赫[\s\S]*单只个体/);
+  assert.match(editorialText, /伪拇指[\s\S]*(?:不是第六根|不是一根具有指节的第六指)/);
+  assert.match(editorialText, /不同村庄[\s\S]*不能.*统一迷信/);
+  assert.match(editorialText, /没有可靠的全球成熟个体估计/);
+  assert.match(editorialText, /不把圈养寿命写成野外寿命/);
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'aye-aye',
+    basenames: [
+      '01-night-rainforest-canopy-cover',
+      '02-full-body-diagnostic-profile',
+      '03-percussive-tap-scanning',
+      '04-middle-finger-larva-extraction',
+      '05-third-and-fourth-digit-closeup',
+      '06-ramy-nut-gnawing',
+    ],
+    verifyAcceptedHashes: true,
+  });
+
+  const galleryCaptions = new Map(
+    (profile.media.gallery ?? []).map(({ image, caption }) => [image.split('/').at(-1) ?? '', caption ?? '']),
+  );
+  const assertBoundedCaption = (basename, subjectPattern, boundaryPattern) => {
+    const caption = galleryCaptions.get(`${basename}.webp`) ?? '';
+    assert.match(caption, subjectPattern);
+    assert.match(caption, boundaryPattern);
+    assert.match(caption, /(?:不能|无法|不代表|不证明|不可|并非|不是)/);
+  };
+  assertBoundedCaption(
+    '02-full-body-diagnostic-profile',
+    /完整侧影[\s\S]*外部特征/,
+    /不能.{0,100}(?:头体长|尾长|体重|年龄|性别|野外身份)/,
+  );
+  assertBoundedCaption(
+    '03-percussive-tap-scanning',
+    /第三指[\s\S]*木面[\s\S]*(?:大耳|耳廓)/,
+    /不能.{0,120}(?:空腔|猎物|敲击频率|声能|探测距离|动作序列)/,
+  );
+  assertBoundedCaption(
+    '04-middle-finger-larva-extraction',
+    /第三指[\s\S]*小孔[\s\S]*幼虫/,
+    /不能.{0,120}(?:猎物种类|孔道深度|开孔顺序|取出成功率|摄食量)/,
+  );
+  assertBoundedCaption(
+    '05-third-and-fourth-digit-closeup',
+    /五根[\s\S]*第三指[\s\S]*第四指/,
+    /不能.{0,120}(?:关节活动度|施力大小|籽骨|软骨|个体姿势)/,
+  );
+  assertBoundedCaption(
+    '06-ramy-nut-gnawing',
+    /硬壳种子[\s\S]*手指[\s\S]*开口/,
+    /不能.{0,120}(?:植物学种类|种子成熟度|摄食步骤|营养贡献|食谱.*比例)/,
+  );
+
+  assert.equal(profile.sources.length, 16);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, profile.sources.length);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-02'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'ecology']),
+  );
+  for (const requiredUrl of [
+    'https://www.mammaldiversity.org/taxon/1000929/',
+    'https://www.cites.org.cn/citesgy/fl/202604/P020260401624252070602.pdf',
+    'https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T6302A115560793.en',
+    'https://cdn.rewild.org/2019/10/Primates-in-Peril-2018-2020-2.pdf',
+    'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    'https://doi.org/10.1016/S0003-3472(05)80346-X',
+    'https://doi.org/10.1023/A:1020363128240',
+    'https://doi.org/10.1002/ajp.20548',
+    'https://doi.org/10.4161/cib.21509',
+    'https://doi.org/10.1002/ajpa.23936',
+    'https://doi.org/10.1007/s10329-017-0617-8',
+    'https://doi.org/10.1002/ajpa.23963',
+    'https://doi.org/10.1159/000508620',
+    'https://doi.org/10.1002/pan3.10192',
+    'https://doi.org/10.1002/ece3.4341',
+  ]) {
+    assert.ok(
+      profile.sources.some(({ url }) => url === requiredUrl),
+      `Aye-aye sources should include ${requiredUrl}`,
+    );
+  }
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-02');
+  assert.equal(profile.updatedAt, '2026-09-02');
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 110);
+  assert.equal(species.length, 111);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -21274,7 +21495,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 110);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 111);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -21295,8 +21516,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 71);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 29);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 72);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 30);
   assert.equal(findTaxon(tree, 'order', 'Eulipotyphla')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Talpidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Condylura')?.speciesCount, 1);
@@ -21380,7 +21601,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Enhydra')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'family', 'Daubentoniidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Daubentonia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cercopithecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Rhinopithecus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 1);
