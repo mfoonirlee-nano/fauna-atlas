@@ -68,11 +68,16 @@ test('hero carousel exposes controls and disables automatic motion when requeste
   assert.match(appSource, /暂停封面轮播/);
   assert.match(appSource, /继续播放封面轮播/);
   assert.match(appSource, /hero-carousel__mobile-specimen/);
+  assert.equal((appSource.match(/hero__title-line/g) ?? []).length, 2);
   assert.match(appSource, /prefers-reduced-motion: reduce/);
   assert.match(appSource, /visibilitychange/);
   assert.match(appSource, /IntersectionObserver/);
   assert.match(appSource, /window\.clearTimeout\(timer\)/);
   assert.doesNotMatch(appSource, /aria-pressed=\{autoplayPaused/);
   assert.match(stylesSource, /hero-enter-forward/);
+  assert.match(stylesSource, /@keyframes hero-title-line-enter/);
+  assert.match(stylesSource, /-webkit-text-fill-color: rgba\(245, 242, 232, 0\.12\)/);
+  assert.match(stylesSource, /font-size: clamp\(2\.35rem, 12vw, 4rem\)/);
   assert.match(stylesSource, /@media \(prefers-reduced-motion: reduce\)/);
+  assert.match(stylesSource, /\.hero__title-line > span \{\s*animation: none;/);
 });

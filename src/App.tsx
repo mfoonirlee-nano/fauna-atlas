@@ -1105,7 +1105,10 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
       <div className="hero__content">
         <div className="hero__copy">
           <p className="hero__kicker"><span /> A LIVING INDEX OF EARTH</p>
-          <h1 id="hero-title">在万物之间，<br />重新认识世界。</h1>
+          <h1 id="hero-title">
+            <span className="hero__title-line"><span>在万物之间，</span></span>
+            <span className="hero__title-line"><span>重新认识世界。</span></span>
+          </h1>
           <p className="hero__intro">
             一部持续生长的现代生物电子图册。记录名字，也记录每一种生命与地球相连的方式。
           </p>
