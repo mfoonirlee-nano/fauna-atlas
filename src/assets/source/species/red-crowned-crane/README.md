@@ -22,6 +22,8 @@ These six original project images were generated on 2026-08-25 with OpenAI's bui
 | 05 | `05-coastal-winter-foraging-source.png` | `05-coastal-winter-foraging.webp` | Exactly two adults use a winter tidal flat; one probes a shallow pool while the other stands upright; no juvenile, visible prey, feeding hand or grain is present. |
 | 06 | `06-distance-conservation-monitoring-source.png` | `06-distance-conservation-monitoring.webp` | Exactly two small field observers remain on a levee, one using a tripod-mounted scope and one recording; exactly one adult crane stands across a broad wetland buffer with no capture, handling or feeding. |
 
+Image 01 was reframed with the built-in image generation editor on 2026-09-03 for the landing-page carousel. The crane now occupies roughly half the canvas height on the right, with open marsh above its crown and across the left side. A second localized edit restored the small exposed red crown patch without changing the accepted composition.
+
 ## Scientific and editorial boundaries
 
 - Every adult represents the Red-crowned Crane, *Grus japonensis*: tall white body; black lower face, throat and front neck; white rear-neck stripe; long straight gray-olive bill; long dark legs; one small bare red crown patch. The red patch is exposed skin, not a feather crest or full red face.
@@ -36,7 +38,7 @@ These six original project images were generated on 2026-08-25 with OpenAI's bui
 
 ## Final generation prompts
 
-Each accepted source came from one independent built-in imagegen call with no input image or edit chain.
+The initial six sources came from independent built-in imagegen calls. Image 01 later received the documented hero-safe edit chain below.
 
 ### 01 · Red crown marsh portrait
 
@@ -50,6 +52,14 @@ Composition/framing: Eye-level medium-wide horizontal field photograph. Place th
 Lighting/mood: Soft overcast early-morning light, restrained cool-neutral color, real feather texture and subtle wetland haze, calm observational mood, museum-publication realism.
 Species exclusions: This is Grus japonensis, not Siberian Crane, Whooping Crane, White-naped Crane, Black-necked Crane, stork, heron or egret. The red is exposed skin only on the top crown, never a red feather crest or a full red facial mask. No all-white neck, no gray body, no black wing tips visible on folded wings, no S-curved heron neck, no webbed feet.
 Constraints: EXACTLY ONE BIRD TOTAL; one head, one bill, one crown patch, two folded wings, two legs and two feet; anatomically coherent; no cropped anatomy, extra limbs, duplicated feathers, prey, nest, egg, chick, band, tag, feeding station, text, logo, signature, border, collage or watermark. Photorealistic wildlife photography, not CGI, illustration, painting, stock-photo gloss or fantasy.
+```
+
+#### Hero-safe reframe edits · 2026-09-03
+
+```text
+Pass 1: Precisely reframe the same single adult Red-crowned Crane and marsh for a Fauna Atlas landing-page hero. Zoom out until the bird occupies roughly half the canvas height, move it lower and farther right, preserve the complete bill, body, legs and feet, and expand quiet marsh above the head and across the left side. Keep the exact 1536×1024 3:2 canvas, anatomy, lighting and naturalistic editorial style. Add no birds, text, borders or artifacts.
+
+Pass 2: Change only the crown by restoring a small, anatomically accurate patch of bare vivid vermilion-red skin centered on top of the adult crane's head. Preserve the exact pose, bill, plumage, scale, position, framing, lighting and marsh background.
 ```
 
 ### 02 · Hokkaido snow courtship duet
@@ -134,8 +144,9 @@ Constraints: EXACTLY ONE BIRD AND EXACTLY TWO PEOPLE TOTAL; one spotting scope, 
 - All six TinyPNG-compressed source files decode as 1536 × 1024, 8-bit indexed-color PNGs; `sips` reports RGB space and no alpha.
 - All six runtime files decode as 1536 × 1024, opaque VP8 WebP; `file` identifies Web/P data rather than renamed PNG data.
 - Source and runtime basenames form six one-to-one pairs after removing `-source`.
-- TinyPNG reduced the six sources from 15,022.2 KB to 5,058.1 KB, a 66.3% reduction.
-- `cwebp -q 82 -m 6 -mt` produced six runtime files totaling 1,001.6 KB, an 80.2% reduction from the compressed sources.
+- The six current TinyPNG-compressed sources total 5,136.4 KB.
+- `cwebp -q 82 -m 6 -mt` produced six runtime files totaling 999.3 KB, an 80.5% reduction from the compressed sources.
 - Source and WebP files were each inspected with `view_image`; no material conversion artifact or content drift appeared.
+- Cover-crop regression keeps image 01's complete head and bill at least 24 CSS pixels inside `320×760`, `390×760`, `1366×768`, `1920×900`, `2560×900` and `3840×900` hero crops; the two extreme crops were also inspected as rendered pixels.
 - Visual checks covered bird and human counts, bare crown skin, face and neck pattern, folded tertiary drape, open-wing primary/secondary pattern, straight migration posture, chick plumage, nesting-water context, feeding context, distance-monitoring buffer, and the absence of text or branding.
 - No GUI or headless browser was used.

@@ -1746,6 +1746,7 @@
     height: 100%;
     object-fit: cover;
     object-position: var(--focal-x, 50%) var(--focal-y, 50%);
+    transform-origin: center center;
   }
 
   .hero__image--entering-forward,

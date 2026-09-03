@@ -20,6 +20,8 @@ Codex's built-in image generation tool created these six original project images
 
 Image 06 replaced an initial draft in which the distant animal and its tail were too small to read. The accepted regeneration enlarges the monkey without turning the monitoring scene into a close portrait.
 
+Image 01 was reframed with the built-in image generation editor on 2026-09-03 for the landing-page carousel. The revision makes the monkey roughly half the canvas height and places it lower on the right, leaving enough forest above the crown and across the left side for wide `object-fit: cover` crops and page copy.
+
 ## Evidence boundaries
 
 - The broad flat upturned nose, pale blue to muted violet eye skin, pale muzzle, dark crown and upper back, golden-orange coat, dark hands and feet, and long non-prehensile tail anchor the reconstructions to *R. roxellana*. Appearance alone cannot establish a subspecies, locality or wild provenance.
@@ -40,7 +42,7 @@ Depict Rhinopithecus roxellana with a broad flat extremely short upturned nose a
 
 The prompts stay at species level. Mammal Diversity Database treats the named Qinling and Hubei forms as synonyms, while other taxonomic treatments still recognize subspecies; a generated coat cannot resolve that disagreement.
 
-## Final prompts
+## Generation prompts
 
 ### 01 · Snowy forest portrait
 
@@ -56,6 +58,12 @@ Lighting/mood: soft overcast winter daylight, quiet and observational, realistic
 Text: none.
 Constraints: exactly one animal; fully visible adult male; correct species anatomy and coloration; complete non-prehensile long tail; no cropped hands, feet, digits, limbs, or tail; original image; no text, letters, captions, borders, logos, signatures, or watermarks.
 Avoid: any additional animal or reflected animal; macaque red face; baboon-like long muzzle; proboscis-monkey drooping nose; orangutan, gibbon, lemur, lion, or lion-mane traits; prehensile or tightly curled gripping tail; short tail; whole blue face; fluorescent blue; all-gold body without dark crown and upper back; exaggerated mane; bare chest; albinism; zoo, enclosure, fence, cage, people, clothing, collar, feeding platform; malformed, duplicated, fused, missing, or extra limbs, hands, feet, fingers, toes, or tail; cropped anatomy; illustration, painting, composite collage, 3D render, or CGI.
+```
+
+#### Hero-safe reframe edit · 2026-09-03
+
+```text
+Precisely reframe the same single adult male and snowy forest for a Fauna Atlas landing-page hero. Zoom out until the monkey occupies roughly half the canvas height, move it lower and farther right, preserve the complete body and long tail, and expand quiet snowy forest above the head and across the left side. Keep the exact 1536×1024 3:2 canvas, species markings, anatomy, lighting and naturalistic editorial style. Add no animals, text, borders or artifacts.
 ```
 
 ### 02 · Adult-male morphology
@@ -142,6 +150,7 @@ Avoid: tiny unrecognizable animal, hidden or missing tail, tail merging into a b
 - All six runtime files decode as opaque 1536 × 1024 single-frame lossy VP8 WebP files.
 - Source and runtime basenames form six one-to-one pairs.
 - The accepted runtime focal points, in frame order, are `(0.72, 0.53)`, `(0.49, 0.51)`, `(0.72, 0.53)`, `(0.40, 0.49)`, `(0.52, 0.50)` and `(0.77, 0.35)`.
+- Cover-crop regression keeps image 01's complete head at least 24 CSS pixels inside `320×760`, `390×760`, `1366×768`, `1920×900`, `2560×900` and `3840×900` hero crops; the two extreme crops were also inspected as rendered pixels.
 - Original-resolution inspection found one cover male; one side-view male; one habitat-dominant forest; one lichen-feeding monkey; exactly four separated group members; and exactly two observers with one distant monkey.
 - Static inspection found no readable text, logos, watermarks, zoo cues, collars, handling, traps or provisioning.
 - Verification used no GUI or headless browser.
