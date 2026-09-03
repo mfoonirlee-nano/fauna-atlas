@@ -2,6 +2,36 @@
 
 Species-specific image sets and their final prompts live under `species/<slug>/`.
 
+## Species cover rule
+
+Apply this rule whenever you add, generate, replace, or crop a species cover. `Species.media.image` and its matching `01-*-source.png` form the species cover, and the landing-page hero includes that image in its carousel.
+
+### Composition
+
+A cover passes composition review when all of these conditions hold:
+
+- Place the primary animal or primary subject group on the right. Its visually inspected center must sit at or beyond 60% of the source width, while the left 40% remains quiet enough for the hero title, introduction, and call to action.
+- Show the complete subject in the source. The reviewed boundary must include every visible outer feature required by the pose and taxon, including the head, bill or muzzle, horns or antennae, wing or fin tips, feet, tail, and tentacles.
+- Leave real background between that boundary and the crop edge. Do not treat a `focalPoint` value as proof of subject placement; it controls `object-position` and does not describe the pixels occupied by the animal.
+
+### Hero acceptance
+
+The complete reviewed subject boundary must stay inside the landing-page hero with at least 24 CSS pixels of clearance. Check the runtime WebP with its committed `focalPoint` at `320×760`, `390×760`, `1366×768`, `1920×900`, `2560×900`, and `3840×900`. Cover the settled frame plus the initial, forward, and backward enter/leave animation endpoints defined in `src/styles.css`.
+
+Also inspect the composed safe areas: the animal must remain clear of the left-side copy, the right-side carousel panel at each breakpoint, and the viewport edge. Reframe or regenerate the source when a crop fails. If one 3:2 composition cannot keep the subject readable and complete across the supported ratios, add breakpoint-specific hero art direction and its regression coverage before accepting the cover.
+
+### Review record
+
+Record the following evidence in the species image-set README whenever a cover changes:
+
+- Runtime WebP SHA-256, source dimensions, committed `focalPoint`, and the visually measured full-subject boundary in source pixels.
+- Results for every required viewport and animation endpoint, plus original-resolution inspection of both the source PNG and runtime WebP.
+- The final generation or edit prompt and any known visual limitation.
+
+Add or update the matching full-subject case in `tests/hero-carousel.test.mjs`, then run `npm run test:carousel`. A head-only boundary does not satisfy this rule.
+
+This rule is a forward gate from 2026-09-03. Covers added or changed after this rule lands must pass it. Existing covers remain on the legacy baseline until someone audits or changes them; do not describe the full catalogue as compliant before that audit finishes.
+
 - [Giant panda image set](./species/giant-panda/README.md)
 - [Red panda image set](./species/red-panda/README.md)
 - [Eurasian otter image set](./species/eurasian-otter/README.md)

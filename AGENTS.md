@@ -12,6 +12,10 @@ Use the default labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-
 
 This is a single-context repo: use the root `CONTEXT.md` and `docs/adr/`. See `docs/agents/domain.md`.
 
+### Visual assets
+
+When adding, generating, replacing, or cropping a species cover (`media.image` or `01-*-source.png`), read the [species cover rule](src/assets/source/README.md#species-cover-rule) before editing.
+
 ### Verification
 
 Use tests, type checks, builds, and static asset inspection for verification. Do not open or launch GUI or headless browsers for verification.
