@@ -23166,10 +23166,396 @@ test('registers the Great Hornbill as a complete evidence-bounded Buceros bicorn
   });
 });
 
+test('registers the Meerkat as a complete evidence-bounded Suricata suricatta profile', async () => {
+  const profile = findSpecies('meerkat');
+
+  assert.equal(profile.id, 'species-suricata-suricatta');
+  assert.equal(profile.slug, 'meerkat');
+  assert.equal(profile.names.zh, '狐獴');
+  assert.equal(profile.names.en, 'Meerkat');
+  assert.deepEqual(profile.names.aliases, [
+    'Suricate',
+    'Slender-tailed Meerkat',
+    'Gray Meerkat',
+  ]);
+  assert.equal(profile.scientificName, 'Suricata suricatta');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Mammalia', '哺乳纲'],
+      ['order', 'Carnivora', '食肉目'],
+      ['family', 'Herpestidae', '獴科'],
+      ['genus', 'Suricata', '狐獴属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2015,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['非洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '安哥拉',
+    '博茨瓦纳',
+    '纳米比亚',
+    '南非',
+  ]);
+  assert.equal(profile.distribution.countries.length, 4);
+  assert.equal(profile.distribution.countries.includes('莱索托'), false);
+  assert.match(
+    profile.distribution.range,
+    /纳米比亚西部和南部[\s\S]*博茨瓦纳西南部[\s\S]*南非北部和西部[\s\S]*安哥拉极西南缘[\s\S]*国家字段[\s\S]*(?:不表示|而非)全国连续分布[\s\S]*莱索托[\s\S]*没有确认记录/,
+  );
+  assert.deepEqual(profile.distribution.center, { lat: -25.5, lng: 21 });
+  assert.equal(profile.habitats.length, 4);
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 2);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.match(
+    profile.habitats.map(({ description }) => description).join('\n'),
+    /不等同真正无植被沙漠[\s\S]*记录存在不表示质量等同天然生境/,
+  );
+
+  assert.deepEqual(profile.measurements.length, {
+    min: 24.5,
+    max: 29,
+    unit: 'cm',
+    note: '成体头体长，不含另长19至24厘米的尾；旧物种账户引用Smithers 1971。',
+  });
+  assert.deepEqual(profile.measurements.weight, {
+    min: 620,
+    max: 969,
+    unit: 'g',
+    note: '历史样本合并范围；雄性平均731克、626至797克，雌性平均720克、620至969克。',
+  });
+  assert.equal(profile.measurements.wingspan, undefined);
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [24.5, 29],
+    adultMassKg: [0.62, 0.969],
+  });
+  for (const unsupportedMetric of [
+    'lifespanYears',
+    'topSpeedKph',
+    'wingspanCm',
+    'estimatedMatureIndividuals',
+    'elevationM',
+  ]) {
+    assert.equal(Object.hasOwn(profile.metrics, unsupportedMetric), false);
+  }
+
+  assert.deepEqual(profile.diet.types, ['insectivore', 'carnivore']);
+  assert.equal(profile.diet.foods.length, 7);
+  assert.match(
+    profile.diet.description,
+    /昆虫和其他无脊椎动物为主[\s\S]*小型脊椎动物[\s\S]*少量植物材料[\s\S]*随月份[\s\S]*不是全物种固定菜单/,
+  );
+  const activityText = profile.activity.join('\n');
+  assert.match(activityText, /昼行性[\s\S]*夜间返回洞穴系统/);
+  assert.match(activityText, /前爪掘取地下猎物[\s\S]*地面扫描/);
+  assert.match(
+    activityText,
+    /高处警戒[\s\S]*相继参与[\s\S]*没有固定轮班顺序/,
+  );
+  assert.match(
+    activityText,
+    /持续叫声[\s\S]*觅食与警戒分配[\s\S]*季节[\s\S]*降雨[\s\S]*温度[\s\S]*食物条件/,
+  );
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'open-country-not-empty-desert',
+      'prey-below-the-surface',
+      'alternation-without-a-rota',
+      'the-watchmans-call',
+      'helpers-at-burrow-and-prey',
+      'least-concern-with-local-signals',
+    ],
+  );
+  assert.equal(profile.storySections?.length, 6);
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('open-country-not-empty-desert') ?? '',
+    /安哥拉最西南缘[\s\S]*博茨瓦纳西南部[\s\S]*纳米比亚西部和南部[\s\S]*南非北部和西部[\s\S]*并非真正无植被沙漠[\s\S]*不能把四国全境都画成连续栖息地/,
+  );
+  assert.match(
+    storySections.get('prey-below-the-surface') ?? '',
+    /昆虫及其幼体[\s\S]*蝎[\s\S]*蛛[\s\S]*多足类[\s\S]*小型脊椎动物[\s\S]*局地食性比例随月份改变[\s\S]*不能把一项半年研究写成全年固定食谱/,
+  );
+  assert.match(
+    storySections.get('alternation-without-a-rota') ?? '',
+    /另一名成员通常很快补上[\s\S]*没有发现固定接班顺序[\s\S]*饱食[\s\S]*体况[\s\S]*年龄[\s\S]*性别[\s\S]*地位[\s\S]*群体大小[\s\S]*没有终身专职的哨兵/,
+  );
+  assert.match(
+    storySections.get('the-watchmans-call') ?? '',
+    /持续发声[\s\S]*较少自行抬头或同时上岗[\s\S]*没有维持严格轮班[\s\S]*警报声随风险变化[\s\S]*不能逐句翻译成人类语言/,
+  );
+  assert.match(
+    storySections.get('helpers-at-burrow-and-prey') ?? '',
+    /幼崽最初约三周留在地下[\s\S]*留守洞口一整天[\s\S]*递送猎物[\s\S]*实验支持[\s\S]*加快幼崽学习[\s\S]*不是固定阶级的终身工作/,
+  );
+  assert.match(
+    storySections.get('least-concern-with-local-signals') ?? '',
+    /2015年[\s\S]*无危[\s\S]*趋势稳定[\s\S]*没有成熟个体估算[\s\S]*降雨[\s\S]*极热[\s\S]*结核病[\s\S]*局地机制不等于全球下降/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'iucn-status', value: 'LC', unit: '无危' },
+      { key: 'head-body-length', value: '24.5–29.0', unit: '厘米' },
+      { key: 'social-group-size', value: '2–50', unit: '只' },
+      { key: 'raised-guard-bout', value: '267.6 ± 74.9', unit: '秒' },
+    ],
+  );
+  assert.equal(profile.featuredStats.length, 4);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'iucn-status')?.note ?? '',
+    /2015年[\s\S]*趋势稳定[\s\S]*没有全球成熟个体估算/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'head-body-length')?.note ?? '',
+    /不含另长19至24厘米的尾[\s\S]*历史样本/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'social-group-size')?.note ?? '',
+    /区域账户[\s\S]*南喀拉哈里[\s\S]*不是固定或最佳群体大小/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'raised-guard-bout')?.note ?? '',
+    /1999年[\s\S]*六群[\s\S]*均值 ± SE[\s\S]*不是固定班长/,
+  );
+
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.equal(profile.keyFacts.length, 18);
+  const evidenceText = [
+    profile.summary,
+    profile.description,
+    ...profile.keyFacts,
+  ].join('\n');
+  assert.match(
+    evidenceText,
+    /安哥拉[\s\S]*博茨瓦纳[\s\S]*纳米比亚[\s\S]*南非[\s\S]*莱索托没有确认记录/,
+  );
+  assert.match(
+    evidenceText,
+    /相继承担抬高警戒[\s\S]*没有固定接班顺序[\s\S]*等额轮班[\s\S]*专职哨兵/,
+  );
+  assert.match(
+    evidenceText,
+    /抬高警戒[\s\S]*洞口警戒[\s\S]*地面扫描[\s\S]*三种不同观察类别/,
+  );
+  assert.match(
+    evidenceText,
+    /圈养最高纪录为20\.6年[\s\S]*不是典型野外寿命范围/,
+  );
+  assert.match(evidenceText, /CITES在线名录未列本种/);
+
+  assert.equal(profile.threats.length, 6);
+  assert.equal(profile.conservationActions.length, 7);
+  const threatText = profile.threats.join('\n');
+  assert.match(
+    threatText,
+    /2015年全球评估未识别主要威胁[\s\S]*没有全球成熟个体估算/,
+  );
+  assert.match(
+    threatText,
+    /降雨不足[\s\S]*极端高温[\s\S]*尚无全分布区下降比例/,
+  );
+  assert.match(
+    threatText,
+    /Mycobacterium suricattae[\s\S]*全球流行范围[\s\S]*未量化/,
+  );
+  assert.match(
+    threatText,
+    /宠物捕捉和贸易[\s\S]*轶闻记录[\s\S]*规模效应未知/,
+  );
+  assert.match(
+    threatText,
+    /监测密度不均[\s\S]*局地下降[\s\S]*全球LC标签掩盖/,
+  );
+  const actionText = profile.conservationActions.join('\n');
+  assert.match(actionText, /喀拉哈里跨境公园[\s\S]*天然开阔半干旱生境/);
+  assert.match(
+    actionText,
+    /四个范围国[\s\S]*占域[\s\S]*群体数[\s\S]*密度[\s\S]*不把单年波动当长期趋势/,
+  );
+  assert.match(
+    actionText,
+    /Mycobacterium suricattae[\s\S]*群体层影响[\s\S]*与全球威胁评估分开报告/,
+  );
+  assert.match(
+    actionText,
+    /量化宠物捕捉[\s\S]*国内贸易[\s\S]*跨境流通[\s\S]*野生来源个体/,
+  );
+  assert.match(
+    actionText,
+    /更新全球IUCN评估[\s\S]*成熟个体数[\s\S]*趋势置信度[\s\S]*范围国威胁差异/,
+  );
+
+  assert.equal(profile.sources.length, 19);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 19);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-04'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'conservation', 'ecology']),
+  );
+  assert.deepEqual(
+    profile.sources.map(({ url }) => url),
+    [
+      'https://www.mammaldiversity.org/taxon/1006070/',
+      'https://www.hkzbg.gov.hk/tc/animals/mammals/animals_12.html',
+      'https://doi.org/10.2305/IUCN.UK.2015-4.RLTS.T41624A45209377.en',
+      'https://ewt.org/wp-content/uploads/2022/11/38.-Suricate-Suricata-suricatta_LC.pdf',
+      'https://checklist.cites.org/',
+      'https://doi.org/10.2307/3504085',
+      'https://doi.org/10.1111/j.1469-7998.1996.tb05472.x',
+      'https://doi.org/10.1126/science.284.5420.1640',
+      'https://pmc.ncbi.nlm.nih.gov/articles/PMC1689937/',
+      'https://doi.org/10.1111/evo.14383',
+      'https://doi.org/10.1016/j.anbehav.2012.12.029',
+      'https://doi.org/10.1098/rspb.2001.1773',
+      'https://pubmed.ncbi.nlm.nih.gov/16840701/',
+      'https://pmc.ncbi.nlm.nih.gov/articles/PMC1686192/',
+      'https://pubmed.ncbi.nlm.nih.gov/30174185/',
+      'https://genomics.senescence.info/species/entry.php?species=Suricata_suricatta',
+      'https://pmc.ncbi.nlm.nih.gov/articles/PMC8571573/',
+      'https://doi.org/10.1002/ecm.70021',
+      'https://pmc.ncbi.nlm.nih.gov/articles/PMC6374659/',
+    ],
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-04');
+  assert.equal(profile.updatedAt, '2026-09-04');
+  assert.deepEqual(profile.media.focalPoint, { x: 0.77, y: 0.65 });
+  assert.match(
+    profile.media.alt,
+    /一只完整的成年外观狐獴[\s\S]*画面右侧低矮沙丘[\s\S]*鼻端[\s\S]*双耳[\s\S]*前肢[\s\S]*两只后足[\s\S]*完整尾尖[\s\S]*画内[\s\S]*左侧[\s\S]*半干旱灌丛背景/,
+  );
+  assert.doesNotMatch(profile.media.alt, /雄性|雌性|四趾|五趾|轮班|警报/);
+
+  const galleryByBasename = new Map(
+    (profile.media.gallery ?? []).map((item) => [
+      item.image.split('/').at(-1) ?? '',
+      item,
+    ]),
+  );
+  assert.equal(galleryByBasename.size, 5);
+
+  const diagnosticProfile = galleryByBasename.get(
+    '02-full-body-diagnostic-profile.webp',
+  );
+  assert.ok(diagnosticProfile);
+  assert.match(
+    diagnosticProfile.alt,
+    /恰好一只完整的成年外观狐獴[\s\S]*严格侧身四足姿态[\s\S]*尖吻[\s\S]*黑眼斑[\s\S]*后背暗纹[\s\S]*四足[\s\S]*整条细长尾[\s\S]*画内/,
+  );
+  assert.match(
+    diagnosticProfile.caption ?? '',
+    /趾端[\s\S]*互有遮挡[\s\S]*不能据此计数[\s\S]*不能反测体长[\s\S]*体重[\s\S]*年龄[\s\S]*性别[\s\S]*亚种[\s\S]*地点/,
+  );
+  assert.doesNotMatch(
+    `${diagnosticProfile.alt}\n${diagnosticProfile.caption ?? ''}`,
+    /四趾|五趾|前足[^。\n]*[五5]趾|后足[^。\n]*[四4]趾/,
+  );
+
+  const raisedAndForaging = galleryByBasename.get(
+    '03-sentinel-above-foraging-group.webp',
+  );
+  assert.ok(raisedAndForaging);
+  assert.match(
+    raisedAndForaging.alt,
+    /恰好五只完整狐獴[\s\S]*一只[\s\S]*右中低丘上直立[\s\S]*另外四只[\s\S]*较低处[\s\S]*四足姿态[\s\S]*分散觅食/,
+  );
+  assert.match(
+    raisedAndForaging.caption ?? '',
+    /一只高位直立[\s\S]*四只低位觅食[\s\S]*不证明警戒接替[\s\S]*报警[\s\S]*发现捕食者[\s\S]*固定分工[\s\S]*典型群体规模/,
+  );
+
+  const sandDig = galleryByBasename.get('04-sand-foraging-dig.webp');
+  assert.ok(sandDig);
+  assert.match(
+    sandDig.alt,
+    /恰好一只完整狐獴[\s\S]*低头刨土[\s\S]*前爪触及松沙[\s\S]*四足[\s\S]*细长尾尖[\s\S]*未裁切[\s\S]*没有可见猎物/,
+  );
+  assert.match(
+    sandDig.caption ?? '',
+    /不能确认地下猎物[\s\S]*挖掘深度[\s\S]*持续时间[\s\S]*觅食成功[\s\S]*警戒扫描/,
+  );
+
+  const pupProvisioning = galleryByBasename.get('05-pup-provisioning.webp');
+  assert.ok(pupProvisioning);
+  assert.match(
+    pupProvisioning.alt,
+    /恰好一只完整成年外观狐獴[\s\S]*一只完整幼獴[\s\S]*成体[\s\S]*一只小型昆虫[\s\S]*两只个体均完整入画/,
+  );
+  assert.match(
+    pupProvisioning.caption ?? '',
+    /不能确认亲缘[\s\S]*助手身份[\s\S]*猎物状态[\s\S]*递交是否完成[\s\S]*实验定义的教学[\s\S]*不代表固定育幼方式/,
+  );
+
+  const morningBurrowGroup = galleryByBasename.get(
+    '06-morning-burrow-group.webp',
+  );
+  assert.ok(morningBurrowGroup);
+  assert.match(
+    morningBurrowGroup.alt,
+    /恰好四只完整狐獴[\s\S]*两个天然洞口[\s\S]*一只低头梳理身体[\s\S]*一只体型较小[\s\S]*其余个体保持四足姿态/,
+  );
+  assert.match(
+    morningBurrowGroup.caption ?? '',
+    /四只个体[\s\S]*两个洞口[\s\S]*一次理毛姿态[\s\S]*体型差异[\s\S]*不证明亲缘[\s\S]*年龄[\s\S]*守洞职责[\s\S]*典型群体规模[\s\S]*洞系结构/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'meerkat',
+    basenames: [
+      '01-sentinel-mound-cover',
+      '02-full-body-diagnostic-profile',
+      '03-sentinel-above-foraging-group',
+      '04-sand-foraging-dig',
+      '05-pup-provisioning',
+      '06-morning-burrow-group',
+    ],
+    credit: 'Fauna Atlas · AI 生成科学情景重建',
+    verifyAcceptedHashes: true,
+  });
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 117);
+  assert.equal(species.length, 118);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -23333,7 +23719,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 117);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 118);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -23354,8 +23740,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 78);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 33);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 79);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 34);
+  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Suricata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Heterocephalidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Heterocephalus')?.speciesCount, 1);

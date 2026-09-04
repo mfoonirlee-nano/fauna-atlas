@@ -149,6 +149,7 @@ This rule is a forward gate from 2026-09-03. Covers added or changed after this 
 - [Aye-aye image set](./species/aye-aye/README.md)
 - [Southern Three-banded Armadillo image set](./species/southern-three-banded-armadillo/README.md)
 - [Sunda Colugo image set](./species/sunda-colugo/README.md)
+- [Meerkat image set](./species/meerkat/README.md)
 
 ## Image compression workflow
 

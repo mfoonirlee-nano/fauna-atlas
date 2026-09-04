@@ -166,7 +166,7 @@ test('legacy tall covers keep their identity-bearing heads inside responsive her
   }
 });
 
-test('new generated bird covers keep the complete subject inside every hero animation frame', async () => {
+test('new generated covers keep the complete subject inside every hero animation frame', async () => {
   const sourceSize = { sourceWidth: 1536, sourceHeight: 1024 };
   const heroViewports = [
     { viewportWidth: 320, viewportHeight: 760 },
@@ -199,6 +199,11 @@ test('new generated bird covers keep the complete subject inside every hero anim
       slug: 'great-hornbill',
       sha256: '24c14fb5074994fb3ddc816f7dc23b46ccd5cc450928c11bebc52436972acf1c',
       fullBody: { left: 975, top: 297, right: 1120, bottom: 618 },
+    },
+    {
+      slug: 'meerkat',
+      sha256: '5c8c1d8a8e3b1043ca339a2bf3bfe3a8904d3e4616b557ea1df332cf7a77289c',
+      fullBody: { left: 1055, top: 465, right: 1210, bottom: 755 },
     },
   ];
 
