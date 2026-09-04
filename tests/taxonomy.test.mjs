@@ -23931,10 +23931,305 @@ test('registers the Shoebill as a complete evidence-bounded Balaeniceps rex prof
   });
 });
 
+test('registers the Thorny Devil as a complete evidence-bounded Moloch horridus profile', async () => {
+  const profile = findSpecies('thorny-devil');
+
+  assert.equal(profile.id, 'species-moloch-horridus');
+  assert.equal(profile.slug, 'thorny-devil');
+  assert.equal(profile.names.zh, '澳洲棘蜥');
+  assert.equal(profile.names.en, 'Thorny Devil');
+  assert.deepEqual(profile.names.aliases, [
+    'Mountain Devil',
+    '澳洲魔蜥',
+    '澳洲刺蜥',
+  ]);
+  assert.equal(profile.scientificName, 'Moloch horridus');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Reptilia', '爬行纲'],
+      ['order', 'Squamata', '有鳞目'],
+      ['family', 'Agamidae', '鬣蜥科'],
+      ['genus', 'Moloch', '魔蜥属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2017,
+      criteria: undefined,
+    },
+  );
+  assert.match(
+    profile.conservation.assessor,
+    /Doughty[\s\S]*Melville[\s\S]*Craig[\s\S]*Sanderson[\s\S]*2017年评估/,
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['大洋洲']);
+  assert.deepEqual(profile.distribution.countries, ['澳大利亚']);
+  assert.deepEqual(profile.distribution.endemicTo, ['澳大利亚']);
+  assert.deepEqual(profile.distribution.center, { lat: -27, lng: 130 });
+  assert.match(
+    profile.distribution.range,
+    /澳大利亚特有[\s\S]*西澳大利亚州[\s\S]*北领地南部[\s\S]*南澳大利亚州内陆[\s\S]*昆士兰州最西端[\s\S]*是否完全连续[\s\S]*不表示每片沙漠都被占据/,
+  );
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 3);
+  const habitatText = profile.habitats
+    .map(({ name, description }) => [name, description].join('：'))
+    .join('\n');
+  assert.match(
+    habitatText,
+    /沙丘[\s\S]*沙脊[\s\S]*三齿稃草[\s\S]*mallee[\s\S]*金合欢[\s\S]*砂壤质[\s\S]*硬质石地/,
+  );
+
+  assert.deepEqual(profile.measurements.length, {
+    max: 11,
+    unit: 'cm',
+    note: '成年吻肛长上限，不含尾；形态研究概述雌性约80至110毫米，雄性通常不足约96毫米。',
+  });
+  assert.equal(profile.measurements.weight, undefined);
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['insectivore']);
+  assert.equal(profile.diet.foods.length, 2);
+  assert.match(
+    profile.diet.description,
+    /几乎专门取食小型蚂蚁[\s\S]*短而黏的舌[\s\S]*约750只蚂蚁一天[\s\S]*能量平衡推算[\s\S]*不是逐只直接计数[\s\S]*不是每只个体的固定食量/,
+  );
+  assert.match(
+    profile.activity.join('\n'),
+    /白天[\s\S]*蚁道[\s\S]*1995年春季样本[\s\S]*不是全年固定时刻表[\s\S]*颈后带棘隆起[\s\S]*毛细沟槽[\s\S]*颌部动作吞咽/,
+  );
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'sand-country-range',
+      'spines-and-false-head',
+      'water-runs-to-the-mouth',
+      'wet-sand-is-not-enough',
+      'waiting-beside-ant-trails',
+      'nest-burrow-and-local-risks',
+    ],
+  );
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('sand-country-range') ?? '',
+    /澳大利亚[\s\S]*沙丘[\s\S]*三齿稃草地[\s\S]*mallee[\s\S]*记录的连续性[\s\S]*地图中心[\s\S]*不能当成完整边界/,
+  );
+  assert.match(
+    storySections.get('spines-and-false-head') ?? '',
+    /圆锥形鳞棘[\s\S]*没有独立骨性支撑[\s\S]*颈后[\s\S]*“假头”[\s\S]*静帧[\s\S]*不能证明[\s\S]*成功避敌/,
+  );
+  assert.match(
+    storySections.get('water-runs-to-the-mouth') ?? '',
+    /毛细沟槽[\s\S]*7微升[\s\S]*约10秒[\s\S]*超过9\.2毫米[\s\S]*没有[\s\S]*单向结构[\s\S]*口角[\s\S]*颌部动作吞咽[\s\S]*不支持“水穿过皮肤直接进入身体”/,
+  );
+  assert.match(
+    storySections.get('wet-sand-is-not-enough') ?? '',
+    /六只个体[\s\S]*3\.19%[\s\S]*接近饱和的湿沙[\s\S]*59%[\s\S]*没有饮水[\s\S]*皮肤复制品[\s\S]*机制推断[\s\S]*0\.22%[\s\S]*不足以触发饮水/,
+  );
+  assert.match(
+    storySections.get('waiting-beside-ant-trails') ?? '',
+    /几乎专食[\s\S]*Bungalbin样地[\s\S]*虹琉璃蚁属[\s\S]*举腹蚁属[\s\S]*另一项1995年大维多利亚沙漠研究[\s\S]*3只雄性和5只雌性[\s\S]*11至15时[\s\S]*最大单日记录310米[\s\S]*不能定义全物种/,
+  );
+  assert.match(
+    storySections.get('nest-burrow-and-local-risks') ?? '',
+    /三只筑巢雌性[\s\S]*6枚和7枚卵[\s\S]*20至22厘米[\s\S]*123至127天[\s\S]*不能改写成固定[\s\S]*道路死亡[\s\S]*猫和狐[\s\S]*仍未量化/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'iucn-status', value: 'LC', unit: '无危' },
+      {
+        key: 'adult-snout-vent-length',
+        value: '11',
+        unit: '厘米',
+      },
+      {
+        key: 'skin-channel-capacity',
+        value: '3.19',
+        unit: '%体重',
+      },
+      {
+        key: 'wet-sand-channel-fill',
+        value: '59',
+        unit: '%沟槽容量',
+      },
+    ],
+  );
+  assert.equal(profile.featuredStats.length, 4);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(profile.keyFacts.length, 22);
+  const evidenceText = [
+    profile.summary,
+    profile.description,
+    ...profile.keyFacts,
+  ].join('\n');
+  assert.match(
+    evidenceText,
+    /Moloch horridus Gray, 1841[\s\S]*魔蜥属唯一现生种[\s\S]*澳大利亚特有种/,
+  );
+  assert.match(
+    evidenceText,
+    /IUCN 2017年评估[\s\S]*LC[\s\S]*趋势稳定[\s\S]*没有判据代码[\s\S]*全球成熟个体估算/,
+  );
+  assert.match(
+    evidenceText,
+    /毛细沟槽[\s\S]*口角[\s\S]*颌部动作吞咽[\s\S]*皮肤本身大体防水[\s\S]*没有发现水经皮进入身体/,
+  );
+  assert.doesNotMatch(evidenceText, /经皮吸水|皮肤吸收水分|水分穿过皮肤/);
+  assert.match(
+    evidenceText,
+    /约750只蚂蚁一天[\s\S]*能量平衡推算[\s\S]*不是逐只观察所得的固定食量/,
+  );
+
+  assert.deepEqual(profile.threats, []);
+  assert.equal(profile.conservationActions.length, 8);
+  const conservationBoundaryText = [
+    profile.description,
+    ...(profile.storySections ?? []).map(({ body }) => body),
+    ...profile.keyFacts,
+  ].join('\n');
+  assert.match(
+    conservationBoundaryText,
+    /未(?:识别|列)重大威胁[\s\S]*道路死亡[\s\S]*猫和狐[\s\S]*(?:仍未|没有)量化/,
+  );
+  const actionText = profile.conservationActions.join('\n');
+  assert.match(
+    actionText,
+    /连续干旱生境[\s\S]*重复、可比较[\s\S]*碰撞热点[\s\S]*检验[\s\S]*蚂蚁群落[\s\S]*Traditional Owners[\s\S]*更新全球IUCN评估/,
+  );
+
+  assert.equal(profile.sources.length, 16);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 16);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-04'),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'general', 'ecology']),
+  );
+  assert.deepEqual(
+    profile.sources.map(({ url }) => url),
+    [
+      'https://bie.ala.org.au/species/https%3A/biodiversity.org.au/afd/taxa/ae86a559-500b-4cfd-8aa2-f2d8ae9c517e',
+      'https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/W020230522536559098623.pdf',
+      'https://doi.org/10.2305/IUCN.UK.2017-3.RLTS.T83492011A83492039.en',
+      'https://www.nespthreatenedspecies.edu.au/media/rleffeyx/azm_species-profile_thorny-devil_v1.pdf',
+      'https://library.dbca.wa.gov.au/FullTextFiles/056437.pdf',
+      'https://nt.gov.au/_media/docs/parks/parks-resources-for-schools/nature-notes/reptiles/dragons.pdf',
+      'https://uluru.gov.au/discover/nature/animals/reptiles/thorny-devil/',
+      'https://doi.org/10.18195/issn.0312-3162.25(2).2009.201-237',
+      'https://doi.org/10.1242/jeb.148791',
+      'https://doi.org/10.1098/rsos.170591',
+      'https://doi.org/10.2307/1565146',
+      'https://www.rswa.org.au/wp-content/uploads/2023/10/VOL2078.13-11.pdf',
+      'https://www.biodiversitylibrary.org/part/299230',
+      'https://www.biodiversitylibrary.org/part/299168',
+      'https://museum-publications.australian.museum/media/dd/documents/AMS389_28_06_2005_LowRes.1326f7e.pdf',
+      'https://researchers.cdu.edu.au/en/projects/the-devil-is-in-the-detail-the-ecology-of-ngiyari-thorny-devils-m/',
+    ],
+  );
+  const sourceTitlesByUrl = new Map(
+    profile.sources.map(({ title, url }) => [url, title]),
+  );
+  assert.equal(
+    sourceTitlesByUrl.get('https://library.dbca.wa.gov.au/FullTextFiles/056437.pdf'),
+    'CALM 1996: Animals of Shark Bay — Thorny Devil (p. 48)',
+  );
+  assert.equal(
+    sourceTitlesByUrl.get(
+      'https://museum-publications.australian.museum/media/dd/documents/AMS389_28_06_2005_LowRes.1326f7e.pdf',
+    ),
+    'Ian Wallis 2005: Road Kills (Nature Australia)',
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-04');
+  assert.equal(profile.updatedAt, '2026-09-04');
+  assert.deepEqual(profile.media.focalPoint, { x: 0.872, y: 0.301 });
+  assert.match(
+    profile.media.alt,
+    /恰好一只完整成年外观澳洲棘蜥[\s\S]*画面右侧[\s\S]*钝头[\s\S]*眼上棘[\s\S]*颈后带棘隆起[\s\S]*四肢[\s\S]*足部[\s\S]*完整尾尖[\s\S]*左侧[\s\S]*安静/,
+  );
+  assert.doesNotMatch(profile.media.alt, /雄性|雌性|具体地点|个体身份/);
+
+  const galleryByBasename = new Map(
+    (profile.media.gallery ?? []).map((item) => [
+      item.image.split('/').at(-1) ?? '',
+      item,
+    ]),
+  );
+  assert.equal(galleryByBasename.size, 5);
+  assert.match(
+    galleryByBasename.get('02-full-body-diagnostic-profile.webp')?.caption ?? '',
+    /足趾[\s\S]*细小棘刺[\s\S]*互有遮挡[\s\S]*不能据此计数[\s\S]*不能反测吻肛长[\s\S]*体重[\s\S]*性别[\s\S]*年龄[\s\S]*地点/,
+  );
+  assert.match(
+    galleryByBasename.get('03-rain-water-collection.webp')?.caption ?? '',
+    /只表示皮肤接触到水[\s\S]*看不到鳞间微沟槽内部[\s\S]*不能证明水已抵达口角[\s\S]*已经吞咽[\s\S]*穿过皮肤/,
+  );
+  assert.match(
+    galleryByBasename.get('04-ant-trail-feeding.webp')?.caption ?? '',
+    /不能鉴定蚂蚁属种[\s\S]*不能确认捕食成功[\s\S]*当日摄食量[\s\S]*食谱比例[\s\S]*野外地点/,
+  );
+  assert.match(
+    galleryByBasename.get('05-false-head-defense.webp')?.caption ?? '',
+    /“假头”[\s\S]*不能证明个体正受威胁[\s\S]*误认成头[\s\S]*防御效果/,
+  );
+  assert.match(
+    galleryByBasename.get('06-nesting-burrow.webp')?.caption ?? '',
+    /不能确认性别[\s\S]*怀卵[\s\S]*筑巢[\s\S]*不能从画面量出巢道[\s\S]*巢室深度[\s\S]*窝卵数[\s\S]*孵化期/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'thorny-devil',
+    basenames: [
+      '01-red-sand-after-rain-cover',
+      '02-full-body-diagnostic-profile',
+      '03-rain-water-collection',
+      '04-ant-trail-feeding',
+      '05-false-head-defense',
+      '06-nesting-burrow',
+    ],
+    credit: 'Fauna Atlas · AI 生成科学情景重建',
+    verifyAcceptedHashes: true,
+  });
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 119);
+  assert.equal(species.length, 120);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24066,7 +24361,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 1);
@@ -24082,7 +24377,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'family', 'Agamidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Moloch')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Helodermatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
@@ -24098,7 +24395,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 119);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 120);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24119,7 +24416,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 80);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 81);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 34);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 10);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);

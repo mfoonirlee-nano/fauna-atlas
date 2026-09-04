@@ -210,9 +210,43 @@ test('new generated covers keep the complete subject inside every hero animation
       sha256: '384e0758e7b41f817603a6e57e363c2724b51f5cb9fbeb9f2fcd3fdba7246064',
       fullBody: { left: 1055, top: 415, right: 1195, bottom: 625 },
     },
+    {
+      slug: 'thorny-devil',
+      sha256: '3a49e9ca0dd36d2a13a30e5bf4f6306faacdac1d79c9423bce98cd5454de0213',
+      fullBody: { left: 1050, top: 305, right: 1325, bottom: 410 },
+      // These are the occupied component rectangles at each supported layout.
+      // The assertion below adds the 24px safety gap; expanding the rectangles
+      // here as well would count that clearance twice.
+      composedSafeAreas: new Map([
+        ['320x760', [
+          { name: 'mobile carousel panel', left: 32, top: 92, right: 302, bottom: 188 },
+          { name: 'mobile hero copy', left: 0, top: 390, right: 320, bottom: 682 },
+        ]],
+        ['390x760', [
+          { name: 'mobile carousel panel', left: 102, top: 92, right: 372, bottom: 188 },
+          { name: 'mobile hero copy', left: 0, top: 390, right: 390, bottom: 682 },
+        ]],
+        ['1366x768', [
+          { name: 'desktop hero copy', left: 0, top: 0, right: 832, bottom: 768 },
+          { name: 'desktop carousel panel', left: 1038, top: 430, right: 1279, bottom: 663 },
+        ]],
+        ['1920x900', [
+          { name: 'desktop hero copy', left: 0, top: 0, right: 1127, bottom: 900 },
+          { name: 'desktop carousel panel', left: 1386, top: 560, right: 1626, bottom: 795 },
+        ]],
+        ['2560x900', [
+          { name: 'desktop hero copy', left: 0, top: 0, right: 1447, bottom: 900 },
+          { name: 'desktop carousel panel', left: 1706, top: 560, right: 1946, bottom: 795 },
+        ]],
+        ['3840x900', [
+          { name: 'desktop hero copy', left: 0, top: 0, right: 2087, bottom: 900 },
+          { name: 'desktop carousel panel', left: 2346, top: 560, right: 2586, bottom: 795 },
+        ]],
+      ]),
+    },
   ];
 
-  for (const { slug, sha256, fullBody } of cases) {
+  for (const { slug, sha256, fullBody, composedSafeAreas } of cases) {
     const item = species.find((candidate) => candidate.slug === slug);
     const focalPoint = item?.media.focalPoint;
     assert.ok(focalPoint, `${slug} hero focal point`);
@@ -234,6 +268,21 @@ test('new generated covers keep the complete subject inside every hero animation
           assert.ok(
             margin >= 24,
             `${slug} full body needs 24px ${edge} clearance at ${viewport.viewportWidth}x${viewport.viewportHeight} ${endpoint.name}; got ${margin.toFixed(1)}px`,
+          );
+        }
+
+        const viewportKey = `${viewport.viewportWidth}x${viewport.viewportHeight}`;
+        for (const safeArea of composedSafeAreas?.get(viewportKey) ?? []) {
+          const separations = {
+            above: safeArea.top - animatedBody.bottom,
+            right: animatedBody.left - safeArea.right,
+            below: animatedBody.top - safeArea.bottom,
+            left: safeArea.left - animatedBody.right,
+          };
+          const clearance = Math.max(...Object.values(separations));
+          assert.ok(
+            clearance >= 24,
+            `${slug} full body needs 24px clearance from ${safeArea.name} at ${viewportKey} ${endpoint.name}; got ${clearance.toFixed(1)}px`,
           );
         }
       }
