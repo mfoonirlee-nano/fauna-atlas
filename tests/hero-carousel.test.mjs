@@ -166,6 +166,61 @@ test('legacy tall covers keep their identity-bearing heads inside responsive her
   }
 });
 
+test('new generated bird covers keep the complete subject inside every hero animation frame', async () => {
+  const sourceSize = { sourceWidth: 1536, sourceHeight: 1024 };
+  const heroViewports = [
+    { viewportWidth: 320, viewportHeight: 760 },
+    { viewportWidth: 390, viewportHeight: 760 },
+    { viewportWidth: 1366, viewportHeight: 768 },
+    { viewportWidth: 1920, viewportHeight: 900 },
+    { viewportWidth: 2560, viewportHeight: 900 },
+    { viewportWidth: 3840, viewportHeight: 900 },
+  ];
+  const animationEndpoints = [
+    { name: 'settled', scale: 1, translateX: 0 },
+    { name: 'initial-from', scale: 1.04, translateX: 0 },
+    { name: 'enter-forward-from', scale: 1.025, translateX: 0.05 },
+    { name: 'leave-forward-to', scale: 1.015, translateX: -0.04 },
+    { name: 'enter-backward-from', scale: 1.025, translateX: -0.05 },
+    { name: 'leave-backward-to', scale: 1.015, translateX: 0.04 },
+  ];
+  const cases = [
+    {
+      slug: 'superb-lyrebird',
+      sha256: '4e87b6137edd07bee2d95db6ee68eba161bcd179a3102efc7318bea3f0b96ee1',
+      fullBody: { left: 930, top: 395, right: 1100, bottom: 710 },
+    },
+  ];
+
+  for (const { slug, sha256, fullBody } of cases) {
+    const item = species.find((candidate) => candidate.slug === slug);
+    const focalPoint = item?.media.focalPoint;
+    assert.ok(focalPoint, `${slug} hero focal point`);
+    const imageBytes = await readFile(new URL(`../public/${item.media.image.slice(2)}`, import.meta.url));
+    assert.equal(createHash('sha256').update(imageBytes).digest('hex'), sha256, `${slug} reviewed cover hash`);
+
+    for (const viewport of heroViewports) {
+      const crop = coverSourceCrop({ ...sourceSize, ...viewport, focalPoint });
+      const projectedBody = projectSourceBounds(fullBody, crop);
+      for (const endpoint of animationEndpoints) {
+        const animatedBody = transformBounds(projectedBody, viewport, endpoint);
+        const margins = {
+          top: animatedBody.top,
+          right: viewport.viewportWidth - animatedBody.right,
+          bottom: viewport.viewportHeight - animatedBody.bottom,
+          left: animatedBody.left,
+        };
+        for (const [edge, margin] of Object.entries(margins)) {
+          assert.ok(
+            margin >= 24,
+            `${slug} full body needs 24px ${edge} clearance at ${viewport.viewportWidth}x${viewport.viewportHeight} ${endpoint.name}; got ${margin.toFixed(1)}px`,
+          );
+        }
+      }
+    }
+  }
+});
+
 test('hero carousel exposes controls and disables automatic motion when requested', () => {
   assert.match(appSource, /aria-roledescription="轮播图"/);
   assert.match(appSource, /aria-roledescription="幻灯片"/);

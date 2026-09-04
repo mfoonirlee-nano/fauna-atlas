@@ -115,6 +115,7 @@ This rule is a forward gate from 2026-09-03. Covers added or changed after this 
 - [Star-nosed Mole image set](./species/star-nosed-mole/README.md)
 - [Kākāpō image set](./species/kakapo/README.md)
 - [Hoatzin image set](./species/hoatzin/README.md)
+- [Superb Lyrebird image set](./species/superb-lyrebird/README.md)
 - [Chinese Alligator image set](./species/chinese-alligator/README.md)
 - [Gila Monster image set](./species/gila-monster/README.md)
 - [Ringed Caecilian image set](./species/ringed-caecilian/README.md)

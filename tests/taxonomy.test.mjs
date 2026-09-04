@@ -22226,10 +22226,317 @@ test('registers the Common Naked Mole-rat as a split-bounded Heterocephalus glab
   });
 });
 
+test('registers the Superb Lyrebird as a complete range-bounded Menura novaehollandiae profile', async () => {
+  const profile = findSpecies('superb-lyrebird');
+
+  assert.equal(profile.id, 'species-menura-novaehollandiae');
+  assert.equal(profile.slug, 'superb-lyrebird');
+  assert.equal(profile.names.zh, '华丽琴鸟');
+  assert.equal(profile.names.en, 'Superb Lyrebird');
+  assert.deepEqual(profile.names.aliases, []);
+  assert.equal(profile.scientificName, 'Menura novaehollandiae');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Passeriformes', '雀形目'],
+      ['family', 'Menuridae', '琴鸟科'],
+      ['genus', 'Menura', '琴鸟属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'decreasing',
+      assessedYear: 2018,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['大洋洲']);
+  assert.deepEqual(profile.distribution.countries, ['澳大利亚']);
+  assert.deepEqual(profile.distribution.endemicTo, ['澳大利亚']);
+  assert.deepEqual(profile.distribution.regions, [
+    '昆士兰州东南部',
+    '新南威尔士州东部与澳大利亚首都领地',
+    '维多利亚州东部和东南部',
+    '塔斯马尼亚州南部（引入）',
+  ]);
+  assert.match(
+    profile.distribution.range,
+    /原生于澳大利亚东部和东南部大陆[\s\S]*塔斯马尼亚州南部[\s\S]*引入[\s\S]*不属于原生范围/,
+  );
+
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: 76, max: 103, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /两性成体[\s\S]*雌鸟76—80厘米[\s\S]*雄鸟约103厘米[\s\S]*含尾[\s\S]*不是同一性别/,
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: 880, max: 1065, unit: 'g' },
+  );
+  assert.match(
+    profile.measurements.weight?.note ?? '',
+    /代表值[\s\S]*雌鸟880克[\s\S]*雄鸟1065克[\s\S]*不是物种成体极值/,
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.wingspan?.min,
+      max: profile.measurements.wingspan?.max,
+      typical: profile.measurements.wingspan?.typical,
+      unit: profile.measurements.wingspan?.unit,
+    },
+    { min: 68, max: 76, typical: 73, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.wingspan?.note ?? '',
+    /HANZAB[\s\S]*(?:没有|未)[\s\S]*样本量[\s\S]*两性拆分/,
+  );
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [76, 103],
+    wingspanCm: [68, 76],
+  });
+  for (const unsupportedMetric of [
+    'adultMassKg',
+    'lifespanYears',
+    'topSpeedKph',
+    'estimatedMatureIndividuals',
+    'elevationM',
+  ]) {
+    assert.equal(Object.hasOwn(profile.metrics, unsupportedMetric), false);
+  }
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'mainland-and-tasmania',
+      'forest-floor-engineer',
+      'tail-through-moults',
+      'learned-song-and-dance',
+      'single-egg-solo-mother',
+      'fire-refugia',
+    ],
+  );
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('mainland-and-tasmania') ?? '',
+    /大陆[\s\S]*1934—1949年[\s\S]*22只[\s\S]*释放20只[\s\S]*塔斯马尼亚[\s\S]*引入/,
+  );
+  assert.match(
+    storySections.get('forest-floor-engineer') ?? '',
+    /强足|双足/,
+  );
+  assert.match(
+    storySections.get('forest-floor-engineer') ?? '',
+    /研究地[\s\S]*155\.7吨/,
+  );
+  assert.match(
+    storySections.get('forest-floor-engineer') ?? '',
+    /(?:不是|不等于)[\s\S]*一只鸟/,
+  );
+  assert.match(
+    storySections.get('tail-through-moults') ?? '',
+    /一对宽阔琴形羽[\s\S]*一对中央线状羽[\s\S]*六对丝状羽[\s\S]*向前翻[\s\S]*6—8年/,
+  );
+  assert.match(
+    storySections.get('learned-song-and-dance') ?? '',
+    /四类舞蹈歌声[\s\S]*腿步[\s\S]*尾位[\s\S]*翼动[\s\S]*(?:围攻群|一群小鸟围攻)[\s\S]*(?:不是|不等于)[\s\S]*(?:意图|读心)/,
+  );
+  assert.match(
+    storySections.get('single-egg-solo-mother') ?? '',
+    /雌鸟独自[\s\S]*侧入口[\s\S]*一枚卵[\s\S]*50天[\s\S]*8—9个月[\s\S]*雄鸟不参与/,
+  );
+  assert.match(
+    storySections.get('fire-refugia') ?? '',
+    /LC|无危/,
+  );
+  assert.match(
+    storySections.get('fire-refugia') ?? '',
+    /43%[\s\S]*80%[\s\S]*高强度火[\s\S]*雨林[\s\S]*(?:溪谷|陡坡|重返源地)/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      {
+        key: 'male-total-length',
+        value: '约103',
+        unit: '厘米',
+      },
+      {
+        key: 'full-adult-tail',
+        value: '6—8',
+        unit: '年',
+      },
+      {
+        key: 'annual-soil-turnover',
+        value: '155.7',
+        unit: '吨/公顷',
+      },
+      {
+        key: 'incubation-period',
+        value: '50 ± 2',
+        unit: '天',
+      },
+    ],
+  );
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'annual-soil-turnover')?.note ?? '',
+    /维多利亚中央高地[\s\S]*12个月[\s\S]*(?:不是|并非)[\s\S]*(?:每只鸟|全分布区)/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'incubation-period')?.note ?? '',
+    /7枚卵[\s\S]*42—57天/,
+  );
+
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length >= 15);
+  assert.equal(profile.threats.length, 4);
+  assert.equal(profile.conservationActions.length, 5);
+  const threatText = profile.threats.join('\n');
+  assert.match(threatText, /森林[\s\S]*(?:丧失|退化|破碎化)/);
+  assert.match(threatText, /野火[\s\S]*气候变化/);
+  assert.match(threatText, /猫[\s\S]*赤狐[\s\S]*犬/);
+  assert.match(threatText, /杂草[\s\S]*(?:道路|车辆)/);
+  const actionText = profile.conservationActions.join('\n');
+  assert.match(actionText, /保护并恢复[\s\S]*(?:雨林|湿润硬叶林)[\s\S]*火灾避难所/);
+  assert.match(actionText, /相连森林镶嵌[\s\S]*巢址[\s\S]*觅食地表/);
+  assert.match(actionText, /火灾严重度|火强度/);
+  assert.match(actionText, /控制猫[\s\S]*赤狐[\s\S]*犬[\s\S]*(?:入侵杂草|杂草)/);
+  assert.match(actionText, /跨亚种[\s\S]*标准化监测/);
+
+  assert.equal(profile.sources.length, 23);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, profile.sources.length);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-03'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'general', 'ecology']),
+  );
+  assert.deepEqual(
+    profile.sources.map(({ url }) => url),
+    [
+      'https://bie.ala.org.au/species/https%3A/biodiversity.org.au/afd/taxa/944960f7-4a3f-4de8-a1fd-0f037af45a23',
+      'https://www.worldbirdnames.org/new/bow/lyrebirds/',
+      'https://worldbirdnames.org/Multiling%20IOC%2015.2.xlsx',
+      'https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22703605A132071218.en',
+      'https://datazone.birdlife.org/species/factsheet/superb-lyrebird-menura-novaehollandiae',
+      'https://hanzab.birdlife.org.au/wp-json/wp/v2/hanzab_species/3640',
+      'https://hanzab.birdlife.org.au/species/superb-lyrebird/',
+      'https://hanzab.birdlife.org.au/expanded-hanzab-taxonomy-part-3/',
+      'https://australian.museum/learn/animals/birds/superb-lyrebird/',
+      'https://doi.org/10.1071/MU01020',
+      'https://doi.org/10.1016/j.anbehav.2008.05.021',
+      'https://doi.org/10.1016/j.anbehav.2012.03.009',
+      'https://doi.org/10.1016/j.cub.2013.05.018',
+      'https://doi.org/10.3389/fevo.2016.00034',
+      'https://doi.org/10.1016/j.cub.2021.02.003',
+      'https://doi.org/10.1071/MU9960258',
+      'https://doi.org/10.1071/ZO9860351',
+      'https://doi.org/10.1111/aec.12684',
+      'https://doi.org/10.1002/eap.2219',
+      'https://doi.org/10.1111/1365-2656.70009',
+      'https://doi.org/10.1071/WR14052',
+      'https://doi.org/10.1093/ornithapp/duad027',
+      'https://doi.org/10.1016/j.biocon.2023.110356',
+    ],
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-03');
+  assert.equal(profile.updatedAt, '2026-09-03');
+  assert.deepEqual(profile.media.focalPoint, { x: 0.724, y: 0.562 });
+  assert.match(profile.media.alt, /朴尾型/);
+  assert.match(profile.media.alt, /(?:苔藓|覆苔)[\s\S]*(?:倒木|原木)/);
+  assert.match(profile.media.alt, /(?:右侧|右半)/);
+  assert.doesNotMatch(profile.media.alt, /成年雄性|前翻饰尾|求偶展示/);
+
+  const galleryByBasename = new Map(
+    (profile.media.gallery ?? []).map((item) => [
+      item.image.split('/').at(-1) ?? '',
+      item,
+    ]),
+  );
+  const courtshipDisplay = galleryByBasename.get(
+    '03-inverted-tail-courtship-display.webp',
+  );
+  assert.ok(courtshipDisplay);
+  assert.match(courtshipDisplay.alt, /成年雄性/);
+  assert.match(courtshipDisplay.alt, /尾[\s\S]*(?:前翻|向前翻)[\s\S]*(?:头|背)/);
+  assert.match(
+    courtshipDisplay.caption ?? '',
+    /(?:不能|无法)[\s\S]*(?:歌声|舞步|动作顺序|雌鸟|求偶成功)/,
+  );
+  const nestScene = galleryByBasename.get('06-female-domed-nest.webp');
+  assert.ok(nestScene);
+  assert.match(nestScene.alt, /朴尾型成鸟/);
+  assert.match(nestScene.alt, /(?:穹顶巢|穹顶状巢)[\s\S]*侧入口/);
+  assert.match(nestScene.alt, /恰好[\s\S]*一枚[\s\S]*卵/);
+  assert.match(
+    nestScene.caption ?? '',
+    /朴尾[\s\S]*(?:不能|无法)[\s\S]*(?:性别|雌鸟)/,
+  );
+  assert.match(
+    nestScene.caption ?? '',
+    /一枚[\s\S]*(?:不能|无法|不代表)[\s\S]*(?:窝卵数|孵化|亲缘|受精)/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'superb-lyrebird',
+    basenames: [
+      '01-female-rainforest-cover',
+      '02-adult-male-field-marks',
+      '03-inverted-tail-courtship-display',
+      '04-leaf-litter-foraging',
+      '05-mound-song-display',
+      '06-female-domed-nest',
+    ],
+    credit: 'Fauna Atlas · AI 生成科学情景重建',
+    verifyAcceptedHashes: true,
+  });
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 114);
+  assert.equal(species.length, 115);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -22393,7 +22700,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 114);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 115);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -22414,7 +22721,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 75);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 76);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 33);
   assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Heterocephalidae')?.speciesCount, 1);
@@ -22460,7 +22767,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 14);
+  assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Opisthocomiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Opisthocomidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Opisthocomus')?.speciesCount, 1);
