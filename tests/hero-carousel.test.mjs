@@ -190,6 +190,11 @@ test('new generated bird covers keep the complete subject inside every hero anim
       sha256: '4e87b6137edd07bee2d95db6ee68eba161bcd179a3102efc7318bea3f0b96ee1',
       fullBody: { left: 930, top: 395, right: 1100, bottom: 710 },
     },
+    {
+      slug: 'oilbird',
+      sha256: '8dfb97785b0950e8322632d5b5996a28d0a36587d6a7a7df7533298bb470d511',
+      fullBody: { left: 870, top: 374, right: 1010, bottom: 615 },
+    },
   ];
 
   for (const { slug, sha256, fullBody } of cases) {

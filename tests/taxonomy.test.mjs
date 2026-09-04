@@ -22533,10 +22533,328 @@ test('registers the Superb Lyrebird as a complete range-bounded Menura novaeholl
   });
 });
 
+test('registers the Oilbird as a complete evidence-bounded Steatornis caripensis profile', async () => {
+  const profile = findSpecies('oilbird');
+
+  assert.equal(profile.id, 'species-steatornis-caripensis');
+  assert.equal(profile.slug, 'oilbird');
+  assert.equal(profile.names.zh, '油鸱');
+  assert.equal(profile.names.en, 'Oilbird');
+  assert.deepEqual(profile.names.aliases, [
+    'Steatornis caripensis',
+    'Guácharo',
+    'Pájaro aceite',
+  ]);
+  assert.equal(profile.scientificName, 'Steatornis caripensis');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Steatornithiformes', '油鸱目'],
+      ['family', 'Steatornithidae', '油鸱科'],
+      ['genus', 'Steatornis', '油鸱属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2021,
+      criteria: undefined,
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['北美洲', '南美洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '玻利维亚',
+    '巴西',
+    '哥伦比亚',
+    '哥斯达黎加',
+    '厄瓜多尔',
+    '圭亚那',
+    '巴拿马',
+    '秘鲁',
+    '特立尼达和多巴哥',
+    '委内瑞拉',
+  ]);
+  assert.equal(profile.distribution.countries.length, 10);
+  for (const vagrantLocality of ['阿鲁巴', '博奈尔', '圣尤斯特歇斯', '萨巴']) {
+    assert.equal(profile.distribution.countries.includes(vagrantLocality), false);
+  }
+  assert.match(
+    profile.distribution.range,
+    /原生留居[\s\S]*阿鲁巴[\s\S]*荷属加勒比[\s\S]*迷鸟[\s\S]*不计入原生留居国家清单/,
+  );
+  assert.deepEqual(profile.distribution.center, { lat: 3, lng: -72 });
+  assert.equal(profile.habitats.length, 3);
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 2);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+
+  assert.deepEqual(
+    {
+      min: profile.measurements.length?.min,
+      max: profile.measurements.length?.max,
+      typical: profile.measurements.length?.typical,
+      unit: profile.measurements.length?.unit,
+    },
+    { min: undefined, max: undefined, typical: 46, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.length?.note ?? '',
+    /Snow 1961[\s\S]*约18英寸[\s\S]*代表值[\s\S]*不是物种级范围/,
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.weight?.min,
+      max: profile.measurements.weight?.max,
+      typical: profile.measurements.weight?.typical,
+      unit: profile.measurements.weight?.unit,
+    },
+    { min: undefined, max: undefined, typical: 0.42, unit: 'kg' },
+  );
+  assert.match(
+    profile.measurements.weight?.note ?? '',
+    /2007年[\s\S]*委内瑞拉[\s\S]*12只成鸟[\s\S]*平均419\.7 ± 4\.2克[\s\S]*标准误/,
+  );
+  assert.deepEqual(
+    {
+      min: profile.measurements.wingspan?.min,
+      max: profile.measurements.wingspan?.max,
+      typical: profile.measurements.wingspan?.typical,
+      unit: profile.measurements.wingspan?.unit,
+    },
+    { min: 91, max: 107, typical: undefined, unit: 'cm' },
+  );
+  assert.match(
+    profile.measurements.wingspan?.note ?? '',
+    /Snow 1961[\s\S]*3–3\.5英尺[\s\S]*近似描述[\s\S]*不是系统种群抽样范围/,
+  );
+  assert.deepEqual(profile.metrics, {
+    wingspanCm: [91, 107],
+    elevationM: [0, 3400],
+    estimatedMatureIndividuals: [20000, 49999],
+  });
+  assert.equal(Object.hasOwn(profile.metrics, 'adultLengthCm'), false);
+  assert.equal(Object.hasOwn(profile.metrics, 'adultMassKg'), false);
+
+  assert.deepEqual(profile.diet.types, ['herbivore']);
+  assert.match(
+    profile.diet.description,
+    /专门[\s\S]*果实[\s\S]*herbivore[\s\S]*最接近专性食果[\s\S]*不表示[\s\S]*(?:叶|草)/,
+  );
+  assert.ok(profile.activity.includes('点击回声定位'));
+  assert.ok(profile.activity.includes('整果吞食与吐籽传播'));
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'cave-clicks',
+      'fruit-flight',
+      'forest-roosts',
+      'seed-distance',
+      'fat-nestlings',
+      'cave-and-corridor',
+    ],
+  );
+  assert.equal(profile.storySections?.length, 6);
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('cave-clicks') ?? '',
+    /全黑洞穴[\s\S]*2至5个点击[\s\S]*短于10毫秒[\s\S]*月光[\s\S]*(?:视觉|回声定位)/,
+  );
+  assert.match(
+    storySections.get('fruit-flight') ?? '',
+    /整枚果实[\s\S]*月桂科[\s\S]*棕榈科[\s\S]*(?:地点|季节)[\s\S]*不是昆虫/,
+  );
+  assert.match(
+    storySections.get('forest-roosts') ?? '',
+    /7只[\s\S]*洞外日栖[\s\S]*66 ± 8%[\s\S]*短期局地结果/,
+  );
+  assert.match(
+    storySections.get('seed-distance') ?? '',
+    /至少52种[\s\S]*3只鸟[\s\S]*10\.1千米[\s\S]*47\.6千米[\s\S]*(?:不代表|不是)/,
+  );
+  assert.match(
+    storySections.get('fat-nestlings') ?? '',
+    /95至120天[\s\S]*560至650克[\s\S]*成鸟平均体重[\s\S]*历史/,
+  );
+  assert.match(
+    storySections.get('cave-and-corridor') ?? '',
+    /2021年[\s\S]*(?:无危|LC)[\s\S]*趋势稳定[\s\S]*约四成[\s\S]*国家公园外[\s\S]*(?:生态廊道|长期计数)/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'adult-wingspan', value: '约91–107', unit: '厘米' },
+      { key: 'click-burst-duration', value: '<10', unit: '毫秒' },
+      { key: 'tracked-foraging-maximum', value: '73.5', unit: '千米' },
+      { key: 'modelled-seed-dispersal-mean', value: '10.1', unit: '千米' },
+    ],
+  );
+  assert.equal(profile.featuredStats.length, 4);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'adult-wingspan')?.note ?? '',
+    /换算近似值[\s\S]*不是全范围抽样上下限/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'tracked-foraging-maximum')
+      ?.note ?? '',
+    /1只[\s\S]*单次最大值[\s\S]*不是物种能力上限/,
+  );
+  assert.match(
+    profile.featuredStats.find(
+      ({ key }) => key === 'modelled-seed-dispersal-mean',
+    )?.note ?? '',
+    /3只GPS个体[\s\S]*n=654[\s\S]*不是逐粒回收距离/,
+  );
+
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length >= 15);
+  const populationEvidenceText = [profile.description, ...profile.keyFacts].join(
+    '\n',
+  );
+  assert.match(populationEvidenceText, /20,000–49,999只成熟个体/);
+  assert.match(populationEvidenceText, /2019年/);
+  assert.match(populationEvidenceText, /suspected|疑似/);
+  assert.match(populationEvidenceText, /poor(?:-quality)?/);
+  assert.match(populationEvidenceText, /(?:不是|并非)全球同步普查/);
+  assert.match(populationEvidenceText, /2021年[\s\S]*(?:正在重评|提示正在重评)/);
+
+  assert.equal(profile.threats.length, 4);
+  assert.equal(profile.conservationActions.length, 5);
+  assert.ok(
+    profile.threats.every((threat) => /^(?:地点级|保护缺口)：/.test(threat)),
+  );
+  const threatText = profile.threats.join('\n');
+  assert.match(threatText, /繁殖期[\s\S]*(?:白光|黄光)[\s\S]*(?:卵|雏鸟)坠落/);
+  assert.match(threatText, /哥伦比亚[\s\S]*零星捕猎[\s\S]*轻度风险/);
+  assert.match(threatText, /农业扩张[\s\S]*森林连通性[\s\S]*果源林/);
+  assert.match(threatText, /委内瑞拉[\s\S]*约四成[\s\S]*国家公园外/);
+  const actionText = profile.conservationActions.join('\n');
+  assert.match(actionText, /繁殖洞穴[\s\S]*巡护[\s\S]*禁猎/);
+  assert.match(actionText, /哥伦比亚管理计划[\s\S]*红外观察设备/);
+  assert.match(actionText, /果源树群[\s\S]*(?:日栖树|取食地)[\s\S]*繁殖洞穴/);
+  assert.match(actionText, /国家公园[\s\S]*市镇[\s\S]*私人保护区[\s\S]*生态廊道/);
+  assert.match(actionText, /标准化洞穴计数[\s\S]*繁殖成功率[\s\S]*食物植物物候/);
+
+  assert.equal(profile.sources.length, 20);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, profile.sources.length);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-03'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology']),
+  );
+  assert.deepEqual(
+    profile.sources.map(({ url }) => url),
+    [
+      'https://www.avilist.org/checklist/v2025b/',
+      'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555524',
+      'https://www.gbif.org/species/2497150',
+      'https://datazone.birdlife.org/species/factsheet/oilbird-steatornis-caripensis',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/2347/history',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/2347/countries',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/2347/habitats',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/2347/threats',
+      'https://doi.org/10.1371/journal.pone.0008264',
+      'https://doi.org/10.1073/pnas.39.8.884',
+      'https://doi.org/10.1126/science.441731',
+      'https://doi.org/10.1098/rsos.170255',
+      'https://doi.org/10.1007/s00114-003-0495-3',
+      'https://doi.org/10.5962/p.203335',
+      'https://digitalcommons.usf.edu/ornitologia_neotropical/vol6/iss2/3/',
+      'https://doi.org/10.1038/s41598-020-79280-4',
+      'https://www.parquesnacionales.gov.co/wp-content/uploads/2022/09/plan-de-manejo-pnn-cueva-de-los-guacharos_adop-res-142_2022.pdf',
+      'https://www.parquesnacionales.gov.co/nuestros-parques/pnn-cueva-de-los-guacharos/',
+      'https://www.inparques.gob.ve/Monumentos%20Nacionales/cueva-guacharo.html',
+      'https://ttfnc.org/livingworld/index.php/lwj/article/view/a2',
+    ],
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-03');
+  assert.equal(profile.updatedAt, '2026-09-03');
+  assert.deepEqual(profile.media.focalPoint, { x: 0.61, y: 0.48 });
+  assert.match(profile.media.alt, /恰好一只完整[\s\S]*足部轮廓[\s\S]*重叠/);
+
+  const galleryByBasename = new Map(
+    (profile.media.gallery ?? []).map((item) => [
+      item.image.split('/').at(-1) ?? '',
+      item,
+    ]),
+  );
+  const caveFlight = galleryByBasename.get('03-cave-echolocation-flight.webp');
+  assert.ok(caveFlight);
+  assert.match(caveFlight.alt, /恰好一只完整[\s\S]*双翼[\s\S]*长尾[\s\S]*画内/);
+  assert.match(
+    caveFlight.caption ?? '',
+    /静帧[\s\S]*不能证明[\s\S]*(?:正在发声|点击频率)/,
+  );
+  const caveColony = galleryByBasename.get('05-cave-ledge-colony.webp');
+  assert.ok(caveColony);
+  assert.match(caveColony.alt, /恰好六只[\s\S]*分别[\s\S]*头、身体和尾部[\s\S]*可区分/);
+  assert.match(
+    caveColony.caption ?? '',
+    /恰好六只[\s\S]*只用于表达洞穴群栖[\s\S]*不能当作[\s\S]*(?:典型群体规模|种群计数|性别比例|繁殖状态)/,
+  );
+  const featheringChick = galleryByBasename.get(
+    '06-adult-and-feathering-chick.webp',
+  );
+  assert.ok(featheringChick);
+  assert.match(
+    featheringChick.alt,
+    /恰好一只完整成鸟[\s\S]*一只[\s\S]*(?:长出|长羽)[\s\S]*大雏鸟/,
+  );
+  assert.match(
+    featheringChick.caption ?? '',
+    /一只成鸟[\s\S]*一只长羽中的大雏鸟[\s\S]*不能确认[\s\S]*(?:亲缘|精确日龄|体重|性别|离巢日期|存活结局)/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'oilbird',
+    basenames: [
+      '01-cave-entrance-perch-cover',
+      '02-spotted-plumage-profile',
+      '03-cave-echolocation-flight',
+      '04-nocturnal-fruit-foraging',
+      '05-cave-ledge-colony',
+      '06-adult-and-feathering-chick',
+    ],
+    credit: 'Fauna Atlas · AI 生成科学情景重建',
+    verifyAcceptedHashes: true,
+  });
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 115);
+  assert.equal(species.length, 116);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -22700,7 +23018,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 115);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 116);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -22721,7 +23039,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 76);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 77);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 33);
   assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Heterocephalidae')?.speciesCount, 1);
@@ -22767,10 +23085,13 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 14);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 15);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Steatornithiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Steatornithidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Steatornis')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Opisthocomiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Opisthocomidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Opisthocomus')?.speciesCount, 1);
