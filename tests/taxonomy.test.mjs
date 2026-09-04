@@ -23552,10 +23552,389 @@ test('registers the Meerkat as a complete evidence-bounded Suricata suricatta pr
   });
 });
 
+test('registers the Shoebill as a complete evidence-bounded Balaeniceps rex profile', async () => {
+  const profile = findSpecies('shoebill');
+
+  assert.equal(profile.id, 'species-balaeniceps-rex');
+  assert.equal(profile.slug, 'shoebill');
+  assert.equal(profile.names.zh, '鲸头鹳');
+  assert.equal(profile.names.en, 'Shoebill');
+  assert.deepEqual(profile.names.aliases, [
+    'Whale-headed Stork',
+    'Shoebill Stork',
+  ]);
+  assert.equal(profile.scientificName, 'Balaeniceps rex');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Pelecaniformes', '鹈形目'],
+      ['family', 'Balaenicipitidae', '鲸头鹳科'],
+      ['genus', 'Balaeniceps', '鲸头鹳属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2018,
+      criteria: 'C2a(ii)',
+    },
+  );
+  assert.match(
+    profile.conservation.assessor ?? '',
+    /BirdLife International[\s\S]*IUCN Red List[\s\S]*2018年评估/,
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['freshwater']);
+  assert.deepEqual(profile.distribution.continents, ['非洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '中非共和国',
+    '刚果民主共和国',
+    '卢旺达',
+    '南苏丹',
+    '苏丹',
+    '坦桑尼亚',
+    '乌干达',
+    '赞比亚',
+  ]);
+  assert.equal(profile.distribution.countries.length, 8);
+  assert.equal(profile.distribution.countries.includes('埃塞俄比亚'), false);
+  assert.equal(profile.distribution.countries.includes('布隆迪'), false);
+  assert.equal(profile.distribution.countries.includes('肯尼亚'), false);
+  assert.match(
+    profile.distribution.range,
+    /原生、现存、留居[\s\S]*埃塞俄比亚[\s\S]*非繁殖[\s\S]*偶见[\s\S]*2013年AEWA行动计划[\s\S]*当前清单不同[\s\S]*不表示全国连续分布/,
+  );
+  assert.deepEqual(profile.distribution.center, { lat: 2, lng: 29.5 });
+  assert.equal(profile.habitats.length, 4);
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'freshwater'));
+  const habitatText = profile.habitats
+    .map(({ name, description }) => `${name}：${description}`)
+    .join('\n');
+  assert.match(
+    habitatText,
+    /永久性淡水沼泽[\s\S]*季节性洪泛沼泽[\s\S]*永久河流/,
+  );
+  assert.match(habitatText, /纯而密不透行的高大纸莎草丛[\s\S]*不适合觅食/);
+  assert.match(habitatText, /季节淹水农地[\s\S]*不表示其能替代/);
+
+  assert.deepEqual(profile.measurements.height, {
+    min: 110,
+    max: 140,
+    unit: 'cm',
+    note: '圣迭戈动物园公开的站立高度范围；AEWA行动计划概述为约140厘米高。',
+  });
+  assert.deepEqual(profile.measurements.wingspan, {
+    typical: 2.4,
+    unit: 'm',
+    note: '圣迭戈动物园给出的约8英尺换算值，不是样本范围或野外极值。',
+  });
+  assert.equal(profile.measurements.weight, undefined);
+  assert.deepEqual(profile.metrics, {
+    estimatedMatureIndividuals: [3300, 5300],
+  });
+  for (const unsupportedMetric of [
+    'adultLengthCm',
+    'adultMassKg',
+    'lifespanYears',
+    'wingspanCm',
+    'topSpeedKph',
+    'maxDiveDepthM',
+    'elevationM',
+  ]) {
+    assert.equal(Object.hasOwn(profile.metrics, unsupportedMetric), false);
+  }
+
+  assert.deepEqual(profile.diet.types, ['piscivore', 'carnivore']);
+  assert.equal(profile.diet.foods.length, 7);
+  assert.match(
+    profile.diet.description,
+    /鱼类构成食物核心[\s\S]*非洲肺鱼[\s\S]*多鳍鱼[\s\S]*鲶鱼[\s\S]*罗非鱼[\s\S]*随地点与水情改变[\s\S]*低溶氧浅水[\s\S]*不表示鲸头鹳只吃肺鱼/,
+  );
+  const activityText = profile.activity.join('\n');
+  assert.match(activityText, /静立或缓慢潜行[\s\S]*前倾压入水面/);
+  assert.match(activityText, /展开双翼[\s\S]*宽大长趾[\s\S]*支撑/);
+  assert.match(
+    activityText,
+    /成对个体[\s\S]*领地两端分别觅食[\s\S]*鱼类随退水集中[\s\S]*偶见松散聚集/,
+  );
+  assert.match(
+    activityText,
+    /大体留居[\s\S]*洪水[\s\S]*浅水面[\s\S]*繁殖条件[\s\S]*季节性局地移动/,
+  );
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'wetland-mosaic-range',
+      'bill-and-toes',
+      'collapse-strike',
+      'air-breathing-fish',
+      'water-for-the-chick',
+      'guards-and-water-levels',
+    ],
+  );
+  assert.equal(profile.storySections?.length, 6);
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('wetland-mosaic-range') ?? '',
+    /没有铺满[\s\S]*连续分布带[\s\S]*八个留居范围国[\s\S]*埃塞俄比亚[\s\S]*偶见的非繁殖出现[\s\S]*旧行动计划[\s\S]*保留资料年代/,
+  );
+  assert.match(
+    storySections.get('bill-and-toes') ?? '',
+    /鞋形喙[\s\S]*喙端带钩[\s\S]*长趾彼此分开[\s\S]*生成图[\s\S]*不能用来量喙长[\s\S]*体高[\s\S]*翼展[\s\S]*性别[\s\S]*年龄/,
+  );
+  assert.match(
+    storySections.get('collapse-strike') ?? '',
+    /长时间站住[\s\S]*身体越过支点[\s\S]*头和喙压向浅水[\s\S]*collapse[\s\S]*张翼[\s\S]*静帧[\s\S]*不能证明命中[\s\S]*速度/,
+  );
+  assert.match(
+    storySections.get('air-breathing-fish') ?? '',
+    /非洲肺鱼[\s\S]*多鳍鱼[\s\S]*胡子鲶[\s\S]*水面换气[\s\S]*不同湿地[\s\S]*鱼只能代表鱼类猎物[\s\S]*不能凭生成外观确认物种/,
+  );
+  assert.match(
+    storySections.get('water-for-the-chick') ?? '',
+    /接近水面的巢台[\s\S]*班韦乌卢研究[\s\S]*以喙运水[\s\S]*一至两枚卵[\s\S]*偶见三枚[\s\S]*通常只有一只雏鸟存活[\s\S]*单一湿地[\s\S]*少量巢[\s\S]*不能当作全分布区固定繁殖率/,
+  );
+  assert.match(
+    storySections.get('guards-and-water-levels') ?? '',
+    /班韦乌卢[\s\S]*2012至2013年[\s\S]*每巢0\.89只雏鸟[\s\S]*11巢[\s\S]*不能证明守巢能单独逆转全球下降[\s\S]*水文改造[\s\S]*更新旧种群估算/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'mature-population', value: '3,300–5,300', unit: '只' },
+      { key: 'standing-height', value: '110–140', unit: '厘米' },
+      { key: 'generation-length', value: '12.2', unit: '年' },
+      { key: 'short-movement-days', value: '81', unit: '%追踪日' },
+    ],
+  );
+  assert.equal(profile.featuredStats.length, 4);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'mature-population')?.note ?? '',
+    /2003年估算[\s\S]*2018年评估[\s\S]*medium quality[\s\S]*estimated[\s\S]*不是当前同步普查/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'standing-height')?.note ?? '',
+    /圣迭戈动物园[\s\S]*不能从生成图反测/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'generation-length')?.note ?? '',
+    /IUCN评估参数[\s\S]*不是野外寿命/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'short-movement-days')?.note ?? '',
+    /班韦乌卢[\s\S]*2011至2018年[\s\S]*7只独立个体[\s\S]*GPS资料[\s\S]*4只跨年龄阶段[\s\S]*不代表全分布区/,
+  );
+
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.equal(profile.keyFacts.length, 27);
+  const evidenceText = [
+    profile.summary,
+    profile.description,
+    ...profile.keyFacts,
+  ].join('\n');
+  assert.match(
+    evidenceText,
+    /IUCN 2018年评估[\s\S]*VU[\s\S]*趋势下降[\s\S]*C2a\(ii\)/,
+  );
+  assert.match(
+    evidenceText,
+    /3,300至5,300只成熟个体[\s\S]*medium[\s\S]*estimated[\s\S]*2003年种群估算[\s\S]*并非2018年全球同步普查/,
+  );
+  assert.match(
+    evidenceText,
+    /12\.2年的世代长度[\s\S]*不是个体寿命[\s\S]*CITES附录II/,
+  );
+  assert.match(
+    evidenceText,
+    /AEWA[\s\S]*2015年[\s\S]*2025年[\s\S]*有效期延长至2037年/,
+  );
+  assert.match(
+    evidenceText,
+    /GPS追踪6只未成鸟和1只成鸟[\s\S]*4只未成鸟[\s\S]*进入成鸟阶段[\s\S]*81%的日位移不足3千米[\s\S]*单一湿地样本不能代表整个分布区/,
+  );
+  assert.match(
+    evidenceText,
+    /2011年[\s\S]*10巢20%的繁殖成功率[\s\S]*2012至2013年[\s\S]*11巢平均每巢0\.89只雏鸟[\s\S]*局地小样本/,
+  );
+
+  assert.equal(profile.threats.length, 8);
+  assert.equal(profile.conservationActions.length, 8);
+  const threatText = profile.threats.join('\n');
+  assert.match(
+    threatText,
+    /排水[\s\S]*农业扩张[\s\S]*水坝[\s\S]*水文改变[\s\S]*旱季燃烧[\s\S]*牛群踩踏[\s\S]*活体贸易/,
+  );
+  assert.match(
+    threatText,
+    /全球成熟个体区间沿用2003年估算[\s\S]*调查年代与方法不一/,
+  );
+  const actionText = profile.conservationActions.join('\n');
+  assert.match(
+    actionText,
+    /AEWA国际单物种行动计划[\s\S]*关键湿地的自然水文[\s\S]*巢位缓冲区[\s\S]*社区监测员/,
+  );
+  assert.match(
+    actionText,
+    /CITES附录II[\s\S]*跨境活体贸易检查[\s\S]*重复、可比较的航测[\s\S]*不把旧估算当实时计数/,
+  );
+
+  assert.equal(profile.sources.length, 18);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 18);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-04'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  assert.deepEqual(
+    profile.sources.map(({ url }) => url),
+    [
+      'https://doi.org/10.2173/avilist.v2025b',
+      'https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=174891',
+      'https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22697583A133840708.en',
+      'https://datazone.birdlife.org/species/factsheet/shoebill-balaeniceps-rex',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/3808/history',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/3808/countries',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/3808/habitats',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/3808/text',
+      'https://www.birdlife.org/birds/shoebill/',
+      'https://www.unep-aewa.org/publication/international-single-species-action-plan-conservation-shoebill-ts-no-51',
+      'https://www.unep-aewa.org/sites/default/files/publication/ts51_ssap_shoebill_0.pdf',
+      'https://www.unep-aewa.org/sites/default/files/document/aewa_mop9_res_3_species_action_management_plans.pdf',
+      'https://checklist.cites.org/',
+      'https://animals.sandiegozoo.org/animals/shoebill',
+      'https://doi.org/10.1080/00306525.1979.9634120',
+      'https://doi.org/10.2989/00306525.2014.977364',
+      'https://doi.org/10.1675/063.038.0102',
+      'https://doi.org/10.1038/s41598-021-95093-5',
+    ],
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-04');
+  assert.equal(profile.updatedAt, '2026-09-04');
+  assert.deepEqual(profile.media.focalPoint, { x: 0.77, y: 0.51 });
+  assert.match(
+    profile.media.alt,
+    /恰好一只完整成年外观鲸头鹳[\s\S]*画面右侧[\s\S]*鞋形巨喙[\s\S]*冠羽[\s\S]*双腿[\s\S]*分开的长趾[\s\S]*尾部[\s\S]*画内[\s\S]*左侧[\s\S]*安静水面/,
+  );
+  assert.doesNotMatch(profile.media.alt, /雄性|雌性|具体地点|个体身份/);
+
+  const galleryByBasename = new Map(
+    (profile.media.gallery ?? []).map((item) => [
+      item.image.split('/').at(-1) ?? '',
+      item,
+    ]),
+  );
+  assert.equal(galleryByBasename.size, 5);
+
+  const diagnosticProfile = galleryByBasename.get(
+    '02-full-body-diagnostic-profile.webp',
+  );
+  assert.ok(diagnosticProfile);
+  assert.match(
+    diagnosticProfile.alt,
+    /恰好一只完整成年外观鲸头鹳[\s\S]*三分之四侧面[\s\S]*宽厚鞋形钩喙[\s\S]*蓬松冠羽[\s\S]*长腿[\s\S]*彼此分开的长趾[\s\S]*全部可见/,
+  );
+  assert.match(
+    diagnosticProfile.caption ?? '',
+    /不能反测喙长[\s\S]*体高[\s\S]*翼展[\s\S]*体重[\s\S]*不能确认性别[\s\S]*年龄[\s\S]*地点[\s\S]*个体身份/,
+  );
+
+  const collapseStrike = galleryByBasename.get('03-collapse-strike.webp');
+  assert.ok(collapseStrike);
+  assert.match(
+    collapseStrike.alt,
+    /恰好一只完整鲸头鹳[\s\S]*身体前倾[\s\S]*巨喙压向水面[\s\S]*双翼[\s\S]*展开保持平衡[\s\S]*翼尖[\s\S]*支撑腿[\s\S]*足部[\s\S]*可见长趾[\s\S]*未裁切[\s\S]*没有可见猎物/,
+  );
+  assert.match(
+    collapseStrike.caption ?? '',
+    /collapse出击姿态[\s\S]*不能确认是否命中[\s\S]*出击速度[\s\S]*水深[\s\S]*猎物种类[\s\S]*后续处理结果/,
+  );
+
+  const fishPrey = galleryByBasename.get('04-fish-prey.webp');
+  assert.ok(fishPrey);
+  assert.match(
+    fishPrey.alt,
+    /恰好一只完整鲸头鹳[\s\S]*宽厚巨喙[\s\S]*一尾中等大小的细长鱼[\s\S]*折翼[\s\S]*双腿[\s\S]*长趾[\s\S]*尾部[\s\S]*画内[\s\S]*没有血迹/,
+  );
+  assert.match(
+    fishPrey.caption ?? '',
+    /只表现一次鱼类猎物处理[\s\S]*不能鉴定鱼种[\s\S]*不能证明捕获地点[\s\S]*猎物比例[\s\S]*吞咽成功[\s\S]*只以这一类鱼为食/,
+  );
+
+  const nestCooling = galleryByBasename.get('05-nest-cooling.webp');
+  assert.ok(nestCooling);
+  assert.match(
+    nestCooling.alt,
+    /恰好一只完整成年鲸头鹳[\s\S]*巨喙[\s\S]*一只灰色小雏鸟[\s\S]*少量清水[\s\S]*成鸟[\s\S]*雏鸟[\s\S]*巢缘[\s\S]*双腿[\s\S]*长趾[\s\S]*均可见/,
+  );
+  assert.match(
+    nestCooling.caption ?? '',
+    /班韦乌卢研究[\s\S]*运水冷却雏鸟[\s\S]*不能确认亲缘[\s\S]*精确日龄[\s\S]*温度[\s\S]*水量[\s\S]*生理反应[\s\S]*动作的结果/,
+  );
+
+  const distanceMonitoring = galleryByBasename.get(
+    '06-distance-wetland-monitoring.webp',
+  );
+  assert.ok(distanceMonitoring);
+  assert.match(
+    distanceMonitoring.alt,
+    /恰好两名成年观察者[\s\S]*远处干地[\s\S]*双筒望远镜[\s\S]*记录本[\s\S]*水道另一侧[\s\S]*恰好一只完整鲸头鹳[\s\S]*没有接触/,
+  );
+  assert.match(
+    distanceMonitoring.caption ?? '',
+    /两名监测员[\s\S]*一只远处鲸头鹳[\s\S]*保持距离的湿地监测模式[\s\S]*不指向具体项目[\s\S]*地点[\s\S]*人员[\s\S]*巢位[\s\S]*调查方法[\s\S]*保护成效/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'shoebill',
+    basenames: [
+      '01-papyrus-wetland-adult-cover',
+      '02-full-body-diagnostic-profile',
+      '03-collapse-strike',
+      '04-fish-prey',
+      '05-nest-cooling',
+      '06-distance-wetland-monitoring',
+    ],
+    credit: 'Fauna Atlas · AI 生成科学情景重建',
+    verifyAcceptedHashes: true,
+  });
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 118);
+  assert.equal(species.length, 119);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -23719,7 +24098,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 118);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 119);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -23740,7 +24119,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 79);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 80);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 34);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 10);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
@@ -23789,7 +24168,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 16);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 17);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
@@ -23823,7 +24202,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Strigiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Strigidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bubo')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Balaenicipitidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Balaeniceps')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Threskiornithidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nipponia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Gruiformes')?.speciesCount, 1);

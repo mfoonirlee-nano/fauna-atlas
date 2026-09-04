@@ -205,6 +205,11 @@ test('new generated covers keep the complete subject inside every hero animation
       sha256: '5c8c1d8a8e3b1043ca339a2bf3bfe3a8904d3e4616b557ea1df332cf7a77289c',
       fullBody: { left: 1055, top: 465, right: 1210, bottom: 755 },
     },
+    {
+      slug: 'shoebill',
+      sha256: '384e0758e7b41f817603a6e57e363c2724b51f5cb9fbeb9f2fcd3fdba7246064',
+      fullBody: { left: 1055, top: 415, right: 1195, bottom: 625 },
+    },
   ];
 
   for (const { slug, sha256, fullBody } of cases) {
