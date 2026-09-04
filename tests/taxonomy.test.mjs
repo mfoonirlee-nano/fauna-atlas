@@ -22851,10 +22851,325 @@ test('registers the Oilbird as a complete evidence-bounded Steatornis caripensis
   });
 });
 
+test('registers the Great Hornbill as a complete evidence-bounded Buceros bicornis profile', async () => {
+  const profile = findSpecies('great-hornbill');
+
+  assert.equal(profile.id, 'species-buceros-bicornis');
+  assert.equal(profile.slug, 'great-hornbill');
+  assert.equal(profile.names.zh, '双角犀鸟');
+  assert.equal(profile.names.en, 'Great Hornbill');
+  assert.deepEqual(profile.names.aliases, [
+    '大犀鸟',
+    'Great Indian Hornbill',
+    'Great Pied Hornbill',
+  ]);
+  assert.equal(profile.scientificName, 'Buceros bicornis');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Aves', '鸟纲'],
+      ['order', 'Bucerotiformes', '犀鸟目'],
+      ['family', 'Bucerotidae', '犀鸟科'],
+      ['genus', 'Buceros', '犀鸟属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'VU',
+      trend: 'decreasing',
+      assessedYear: 2020,
+      criteria: 'A3cd+4cd',
+    },
+  );
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['亚洲']);
+  assert.deepEqual(profile.distribution.countries, [
+    '孟加拉国',
+    '不丹',
+    '柬埔寨',
+    '中国',
+    '印度',
+    '印度尼西亚',
+    '老挝',
+    '马来西亚',
+    '缅甸',
+    '尼泊尔',
+    '泰国',
+    '越南',
+  ]);
+  assert.equal(profile.distribution.countries.length, 12);
+  assert.match(
+    profile.distribution.range,
+    /原生[\s\S]*现存[\s\S]*留居[\s\S]*12国[\s\S]*国家级[\s\S]*不表示全国连续占域/,
+  );
+  assert.deepEqual(profile.distribution.center, { lat: 19, lng: 96 });
+  assert.equal(profile.habitats.length, 3);
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 2);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+
+  assert.deepEqual(profile.measurements.length, {
+    min: 112,
+    max: 150,
+    unit: 'cm',
+    note: 'IUCN SSC犀鸟专家组范围；雌鸟112至125厘米，雄鸟121至150厘米',
+  });
+  assert.deepEqual(profile.measurements.weight, {
+    min: 2.157,
+    max: 3.9,
+    unit: 'kg',
+    note: 'IUCN SSC犀鸟专家组范围；雌鸟2.157至3.350千克，雄鸟2.610至3.900千克',
+  });
+  assert.deepEqual(profile.measurements.wingspan, {
+    min: 146,
+    max: 160,
+    unit: 'cm',
+    note: '中国林草主管部门公开展示范围；原页面没有样本量或测量方法，不能解释为全球极值',
+  });
+  assert.deepEqual(profile.metrics, {
+    adultLengthCm: [112, 150],
+    adultMassKg: [2.157, 3.9],
+    wingspanCm: [146, 160],
+    elevationM: [0, 2000],
+    estimatedMatureIndividuals: [13000, 27000],
+  });
+
+  assert.deepEqual(profile.diet.types, ['omnivore']);
+  assert.match(
+    profile.diet.description,
+    /树冠果实[\s\S]*无花果[\s\S]*昆虫[\s\S]*小型脊椎动物[\s\S]*地点、季节和结果树物候/,
+  );
+  for (const activity of [
+    '昼行性',
+    '树冠层活动',
+    '天然树洞繁殖',
+    '非迁徙性留居',
+    '吞食果实与种子传播',
+  ]) {
+    assert.ok(profile.activity.includes(activity));
+  }
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'casque-and-sex',
+      'fruit-routes',
+      'sealed-cavity',
+      'flight-pattern',
+      'large-forest',
+      'nest-guardians',
+    ],
+  );
+  assert.equal(profile.storySections?.length, 6);
+  const storySections = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    storySections.get('casque-and-sex') ?? '',
+    /雄鸟[\s\S]*红虹膜[\s\S]*黑眼周[\s\S]*黑边[\s\S]*雌鸟[\s\S]*白至蓝白虹膜[\s\S]*红粉眼周[\s\S]*无黑边盔突/,
+  );
+  assert.match(
+    storySections.get('fruit-routes') ?? '',
+    /无花果[\s\S]*吞下果实[\s\S]*种子[\s\S]*昆虫[\s\S]*一帧取果画面[\s\S]*一步/,
+  );
+  assert.match(
+    storySections.get('sealed-cavity') ?? '',
+    /雌鸟[\s\S]*封窄入口[\s\S]*雄鸟[\s\S]*缝外递入[\s\S]*平均约四个月[\s\S]*没有给出[\s\S]*材料配比/,
+  );
+  assert.match(
+    storySections.get('flight-pattern') ?? '',
+    /宽而圆的双翼[\s\S]*白色带纹[\s\S]*白尾[\s\S]*宽黑带[\s\S]*静帧[\s\S]*无法证明[\s\S]*(?:声响|速度|高度|路线|迁徙)/,
+  );
+  assert.match(
+    storySections.get('large-forest') ?? '',
+    /大型结果树[\s\S]*天然空洞[\s\S]*0\.7至7平方千米[\s\S]*138平方千米[\s\S]*不能相除成固定倍数/,
+  );
+  assert.match(
+    storySections.get('nest-guardians') ?? '',
+    /泰国和印度[\s\S]*社区守护者[\s\S]*反捕猎[\s\S]*持续种群监测[\s\S]*不代表具体项目[\s\S]*繁殖成效/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'mature-population', value: '13,000–27,000', unit: '只' },
+      { key: 'projected-decline', value: '30–49', unit: '%' },
+      { key: 'adult-mass', value: '2.157–3.900', unit: '千克' },
+      { key: 'nesting-period', value: '102–144', unit: '天' },
+    ],
+  );
+  assert.equal(profile.featuredStats.length, 4);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'mature-population')?.note ?? '',
+    /2020年[\s\S]*poor-quality[\s\S]*inferred[\s\S]*不是全球同步普查/,
+  );
+  assert.match(
+    profile.featuredStats.find(({ key }) => key === 'projected-decline')?.note ?? '',
+    /三代约54\.9年[\s\S]*疑似趋势区间[\s\S]*不是精确预测值/,
+  );
+
+  assert.ok(profile.summary.length > 0);
+  assert.ok(profile.description.length > 0);
+  assert.ok(profile.keyFacts.length >= 15);
+  const evidenceText = [
+    profile.description,
+    ...profile.keyFacts,
+    ...profile.featuredStats.map(({ note }) => note ?? ''),
+  ].join('\n');
+  assert.match(evidenceText, /13,000至27,000只成熟个体/);
+  assert.match(evidenceText, /poor(?:-quality)?[\s\S]*inferred/);
+  assert.match(evidenceText, /(?:不是|并非)全球同步普查/);
+  assert.match(evidenceText, /未来三代约54\.9年下降30%至49%/);
+  assert.match(evidenceText, /18\.3年[\s\S]*世代长度[\s\S]*不是平均寿命/);
+
+  assert.equal(profile.threats.length, 5);
+  assert.equal(profile.conservationActions.length, 6);
+  const threatText = profile.threats.join('\n');
+  assert.match(threatText, /农业[\s\S]*道路[\s\S]*清除并破碎/);
+  assert.match(threatText, /选择性砍伐[\s\S]*结果树[\s\S]*巢树/);
+  assert.match(threatText, /捕猎[\s\S]*脂肪[\s\S]*盔突[\s\S]*尾羽/);
+  assert.match(threatText, /宠物贸易[\s\S]*掏取雏鸟[\s\S]*破坏繁殖/);
+  assert.match(threatText, /孤立林块[\s\S]*广域移动[\s\S]*保护地外/);
+  const actionText = profile.conservationActions.join('\n');
+  assert.match(actionText, /保护并连接[\s\S]*结果树[\s\S]*巢树[\s\S]*夜栖树/);
+  assert.match(actionText, /监测成熟个体[\s\S]*巢占用[\s\S]*繁殖结果/);
+  assert.match(actionText, /社区[\s\S]*捕猎[\s\S]*CITES附录I/);
+  assert.match(actionText, /社区巢树守护者[\s\S]*不能用认养数量代替成效数据/);
+  assert.match(actionText, /修复受损天然洞穴[\s\S]*巢箱[\s\S]*出飞结果/);
+  assert.match(actionText, /圈养种群谱系[\s\S]*风险评估[\s\S]*重引入/);
+
+  assert.equal(profile.sources.length, 13);
+  assert.equal(new Set(profile.sources.map(({ url }) => url)).size, 13);
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(profile.sources.every(({ accessedAt }) => accessedAt === '2026-09-03'));
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'conservation', 'distribution', 'ecology', 'general']),
+  );
+  assert.deepEqual(
+    profile.sources.map(({ url }) => url),
+    [
+      'https://doi.org/10.2173/avilist.v2025b',
+      'https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T22682453A184603863.en',
+      'https://datazone.birdlife.org/species/factsheet/great-hornbill-buceros-bicornis',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/952/history',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/952/countries',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/952/habitats',
+      'https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/952/text',
+      'https://iucnhornbills.org/great-hornbill/',
+      'https://lcj.yn.gov.cn/html/2016/zuixindongtai_1116/46621.html',
+      'https://www.forestry.gov.cn/html/main/main_5461/20210205122418860831352/file/20210205151950336764982.pdf',
+      'https://checklist.cites.org/',
+      'https://doi.org/10.2173/bow.grehor1.01',
+      'https://www.forestry.gov.cn/c/www/dw/362497.jhtml',
+    ],
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-03');
+  assert.equal(profile.updatedAt, '2026-09-03');
+  assert.deepEqual(profile.media.focalPoint, { x: 0.751, y: 0.417 });
+  assert.match(
+    profile.media.alt,
+    /恰好一只完整的雄性双角犀鸟[\s\S]*画面右侧[\s\S]*巨大黄黑喙盔[\s\S]*双足[\s\S]*白尾黑带[\s\S]*画内/,
+  );
+
+  const galleryByBasename = new Map(
+    (profile.media.gallery ?? []).map((item) => [
+      item.image.split('/').at(-1) ?? '',
+      item,
+    ]),
+  );
+  const sexComparison = galleryByBasename.get(
+    '02-adult-sex-comparison.webp',
+  );
+  assert.ok(sexComparison);
+  assert.match(
+    sexComparison.alt,
+    /恰好两只完整成年[\s\S]*左侧雄鸟[\s\S]*盔突较大[\s\S]*黑边[\s\S]*右侧雌鸟[\s\S]*虹膜淡蓝白[\s\S]*盔突较小[\s\S]*无黑边/,
+  );
+  assert.match(
+    sexComparison.caption ?? '',
+    /左雄右雌[\s\S]*虹膜[\s\S]*眼周[\s\S]*盔突[\s\S]*不是标本[\s\S]*校准色卡[\s\S]*体尺比较[\s\S]*年龄判定/,
+  );
+
+  const sealedCavity = galleryByBasename.get(
+    '03-sealed-cavity-feeding.webp',
+  );
+  assert.ok(sealedCavity);
+  assert.match(
+    sealedCavity.alt,
+    /恰好一只完整雄性[\s\S]*一枚果实[\s\S]*粗糙灰褐有机封壁[\s\S]*窄缝[\s\S]*雌鸟淡色眼睛/,
+  );
+  assert.match(
+    sealedCavity.caption ?? '',
+    /雌鸟封窄天然树洞入口[\s\S]*雄鸟递食[\s\S]*不指定材料比例[\s\S]*巢位[\s\S]*繁殖阶段[\s\S]*结果/,
+  );
+
+  const fullWingFlight = galleryByBasename.get('05-full-wing-flight.webp');
+  assert.ok(fullWingFlight);
+  assert.match(
+    fullWingFlight.alt,
+    /恰好一只完整成年[\s\S]*两侧宽翼[\s\S]*分开的初级飞羽[\s\S]*白色翼带[\s\S]*双足[\s\S]*白尾黑带[\s\S]*画内/,
+  );
+  assert.match(
+    fullWingFlight.caption ?? '',
+    /静帧[\s\S]*不能呈现振翼声[\s\S]*不测量速度[\s\S]*高度[\s\S]*路线[\s\S]*迁徙/,
+  );
+
+  const nestGuardians = galleryByBasename.get(
+    '06-community-nest-guardians.webp',
+  );
+  assert.ok(nestGuardians);
+  assert.match(
+    nestGuardians.alt,
+    /恰好两名社区监测员[\s\S]*巨型洞穴树[\s\S]*一只完整雄性双角犀鸟[\s\S]*没有接触/,
+  );
+  assert.match(
+    nestGuardians.caption ?? '',
+    /两名监测员[\s\S]*一只雄鸟[\s\S]*一棵成熟洞穴树[\s\S]*只代表社区守巢模式[\s\S]*不指向具体项目[\s\S]*地点[\s\S]*人员[\s\S]*监测距离[\s\S]*巢占用[\s\S]*繁殖成效/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'great-hornbill',
+    basenames: [
+      '01-canopy-perch-cover',
+      '02-adult-sex-comparison',
+      '03-sealed-cavity-feeding',
+      '04-canopy-fig-toss',
+      '05-full-wing-flight',
+      '06-community-nest-guardians',
+    ],
+    credit: 'Fauna Atlas · AI 生成科学情景重建',
+    verifyAcceptedHashes: true,
+  });
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 116);
+  assert.equal(species.length, 117);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -23018,7 +23333,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 116);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 117);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -23039,7 +23354,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 77);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 78);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 33);
   assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Heterocephalidae')?.speciesCount, 1);
@@ -23085,13 +23400,16 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 16);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Steatornithiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Steatornithidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Steatornis')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Bucerotiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Bucerotidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Buceros')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Opisthocomiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Opisthocomidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Opisthocomus')?.speciesCount, 1);

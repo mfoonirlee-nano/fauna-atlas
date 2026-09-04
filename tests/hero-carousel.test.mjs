@@ -195,6 +195,11 @@ test('new generated bird covers keep the complete subject inside every hero anim
       sha256: '8dfb97785b0950e8322632d5b5996a28d0a36587d6a7a7df7533298bb470d511',
       fullBody: { left: 870, top: 374, right: 1010, bottom: 615 },
     },
+    {
+      slug: 'great-hornbill',
+      sha256: '24c14fb5074994fb3ddc816f7dc23b46ccd5cc450928c11bebc52436972acf1c',
+      fullBody: { left: 975, top: 297, right: 1120, bottom: 618 },
+    },
   ];
 
   for (const { slug, sha256, fullBody } of cases) {
