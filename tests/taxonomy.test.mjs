@@ -24226,10 +24226,263 @@ test('registers the Thorny Devil as a complete evidence-bounded Moloch horridus 
   });
 });
 
+test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosoma cornutum profile', async () => {
+  const profile = findSpecies('texas-horned-lizard');
+
+  assert.equal(profile.id, 'species-phrynosoma-cornutum');
+  assert.equal(profile.names.zh, '德州角蜥');
+  assert.equal(profile.names.en, 'Texas Horned Lizard');
+  assert.deepEqual(profile.names.aliases, [
+    '德州角蜥蜴',
+    'Horned Toad',
+    'Horny Toad',
+  ]);
+  assert.equal(profile.scientificName, 'Phrynosoma cornutum');
+  assert.deepEqual(
+    getSpeciesTaxonomyPath(profile).map(({ rank, taxon }) => [
+      rank,
+      taxon.scientificName,
+      taxon.zhName,
+    ]),
+    [
+      ['kingdom', 'Animalia', '动物界'],
+      ['phylum', 'Chordata', '脊索动物门'],
+      ['class', 'Reptilia', '爬行纲'],
+      ['order', 'Squamata', '有鳞目'],
+      ['family', 'Phrynosomatidae', '角蜥科'],
+      ['genus', 'Phrynosoma', '角蜥属'],
+    ],
+  );
+  assert.deepEqual(
+    {
+      code: profile.conservation.code,
+      trend: profile.conservation.trend,
+      assessedYear: profile.conservation.assessedYear,
+      criteria: profile.conservation.criteria,
+    },
+    {
+      code: 'LC',
+      trend: 'stable',
+      assessedYear: 2007,
+      criteria: undefined,
+    },
+  );
+  assert.match(profile.conservation.assessor, /Hammerson[\s\S]*2007年评估/);
+
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.deepEqual(profile.distribution.continents, ['北美洲']);
+  assert.deepEqual(profile.distribution.countries, ['美国', '墨西哥']);
+  assert.deepEqual(profile.distribution.center, { lat: 31.5, lng: -101 });
+  assert.match(
+    profile.distribution.range,
+    /美国南部大平原[\s\S]*墨西哥北部[\s\S]*路易斯安那[\s\S]*可能并非原生[\s\S]*北卡罗来纳[\s\S]*引入[\s\S]*VertNet[\s\S]*iNaturalist[\s\S]*不能把估算速率/,
+  );
+  assert.equal(profile.habitats.length, 3);
+  assert.ok(profile.habitats.every(({ realm }) => realm === 'terrestrial'));
+  assert.equal(profile.habitats.filter(({ isPrimary }) => isPrimary).length, 3);
+  assert.match(
+    profile.habitats.map(({ name, description }) => `${name}：${description}`).join('\n'),
+    /短草草原[\s\S]*裸地[\s\S]*刺灌丛[\s\S]*火与放牧[\s\S]*松散沙土[\s\S]*越冬[\s\S]*纯沙漠/,
+  );
+
+  assert.deepEqual(profile.measurements.length, {
+    max: 11.6,
+    unit: 'cm',
+    note: '跨堪萨斯、德州、新墨西哥与墨西哥样本中，成年雌性最大吻肛长为116.3毫米；11.6厘米是换算后的研究样本最大值，不含尾，也不是物种绝对上限。',
+  });
+  assert.deepEqual(profile.metrics, {});
+  assert.deepEqual(profile.diet.types, ['insectivore']);
+  assert.equal(profile.diet.foods.length, 2);
+  assert.match(
+    profile.diet.description,
+    /蚂蚁为主食[\s\S]*Pogonomyrmex desertorum[\s\S]*P\. rugosus[\s\S]*蚁巢盘[\s\S]*不能改写成全分布区固定食谱/,
+  );
+  assert.match(
+    profile.activity.join('\n'),
+    /白天活动[\s\S]*收获蚁[\s\S]*鼓胀[\s\S]*部分近距离犬科攻击[\s\S]*所有捕食者[\s\S]*浅埋[\s\S]*挖掘深巢/,
+  );
+
+  assert.deepEqual(
+    profile.storySections?.map(({ key }) => key),
+    [
+      'native-range-and-introductions',
+      'horn-crown-and-side-fringes',
+      'harvester-ant-foraging',
+      'canid-triggered-blood-defense',
+      'burial-and-deep-nests',
+      'global-lc-local-declines',
+    ],
+  );
+  const stories = new Map(
+    (profile.storySections ?? []).map(({ key, body }) => [key, body]),
+  );
+  assert.match(
+    stories.get('native-range-and-introductions') ?? '',
+    /原生范围[\s\S]*引入记录[\s\S]*VertNet[\s\S]*1960至2019年[\s\S]*4\.4[\s\S]*1\.5千米\/年[\s\S]*iNaturalist[\s\S]*未在四个方向检出显著下降[\s\S]*不代表边界每年整齐平移/,
+  );
+  assert.match(
+    stories.get('horn-crown-and-side-fringes') ?? '',
+    /一对[\s\S]*长的枕棘[\s\S]*两列完整的缘棘[\s\S]*单张生成图[\s\S]*识别/,
+  );
+  assert.match(
+    stories.get('harvester-ant-foraging') ?? '',
+    /1979年[\s\S]*Pogonomyrmex desertorum[\s\S]*P\. rugosus[\s\S]*不足15分钟[\s\S]*46\.8米[\s\S]*不能定义全物种/,
+  );
+  assert.match(
+    stories.get('canid-triggered-blood-defense') ?? '',
+    /眼眶周围静脉窦[\s\S]*55只[\s\S]*47只[\s\S]*无法直接接触[\s\S]*2005年郊狼实验[\s\S]*2024年生物测定[\s\S]*800至1,600[\s\S]*未鉴定成分[\s\S]*具体化合物和代谢路径仍未确定[\s\S]*不能外推到所有捕食者/,
+  );
+  assert.match(
+    stories.get('burial-and-deep-nests') ?? '',
+    /浅埋[\s\S]*27个巢[\s\S]*43厘米[\s\S]*22枚[\s\S]*45天[\s\S]*不能确认性别/,
+  );
+  assert.match(
+    stories.get('global-lc-local-declines') ?? '',
+    /2007年[\s\S]*无危[\s\S]*德州[\s\S]*受威胁物种[\s\S]*无法给出十年密度趋势[\s\S]*不能单独证明因果[\s\S]*三个主要遗传群[\s\S]*CITES附录II[\s\S]*不等同/,
+  );
+
+  assert.deepEqual(
+    profile.featuredStats.map(({ key, value, unit }) => ({ key, value, unit })),
+    [
+      { key: 'iucn-status', value: 'LC', unit: '无危' },
+      {
+        key: 'maximum-sampled-female-svl',
+        value: '11.6',
+        unit: '厘米',
+      },
+      {
+        key: 'dog-encounter-blood-squirting',
+        value: '47/55',
+        unit: '只',
+      },
+      {
+        key: 'active-plasma-fraction',
+        value: '800–1,600',
+        unit: undefined,
+      },
+    ],
+  );
+  assert.equal(profile.featuredStats.length, 4);
+  assert.ok(
+    profile.featuredStats.every(
+      ({ label, value, note }) =>
+        label.length > 0 && value.length > 0 && (note?.length ?? 0) > 0,
+    ),
+  );
+
+  assert.equal(profile.keyFacts.length, 24);
+  const evidenceText = [
+    profile.summary,
+    profile.description,
+    ...profile.keyFacts,
+  ].join('\n');
+  assert.match(
+    evidenceText,
+    /Phrynosoma cornutum \(Harlan, 1825\)[\s\S]*角蜥科[\s\S]*一对长枕棘[\s\S]*两列完整缘棘/,
+  );
+  assert.match(
+    evidenceText,
+    /IUCN 2007年评估[\s\S]*LC[\s\S]*趋势稳定[\s\S]*德州[\s\S]*受威胁物种/,
+  );
+  assert.match(
+    evidenceText,
+    /Phrynosoma spp\.[\s\S]*CITES附录II[\s\S]*国际贸易受管制[\s\S]*不等同/,
+  );
+  assert.match(
+    evidenceText,
+    /55只里47只喷血[\s\S]*实验条件[\s\S]*无法直接接触[\s\S]*口腔或鼻腔受体[\s\S]*800至1,600[\s\S]*未鉴定成分[\s\S]*具体化合物和代谢路径仍未确定/,
+  );
+  assert.doesNotMatch(
+    evidenceText,
+    /(?<!并非面对)所有捕食者都会|每次遭遇都会|固定成功率|(?<!不是)眼球破裂/,
+  );
+
+  assert.equal(profile.threats.length, 3);
+  assert.match(
+    profile.threats.join('\n'),
+    /集约农业[\s\S]*没有把历史范围收缩按各原因定量归因[\s\S]*非选择性杀虫剂[\s\S]*不能单独证明因果[\s\S]*道路死亡[\s\S]*非法采集[\s\S]*科学采集许可/,
+  );
+  assert.equal(profile.conservationActions.length, 8);
+  assert.match(
+    profile.conservationActions.join('\n'),
+    /连通[\s\S]*原生收获蚁[\s\S]*统一样线[\s\S]*道路[\s\S]*遗传群[\s\S]*更新2007年的全球IUCN评估/,
+  );
+
+  assert.ok(profile.sources.length >= 24);
+  assert.equal(
+    new Set(profile.sources.map(({ url }) => url)).size,
+    profile.sources.length,
+  );
+  assert.ok(profile.sources.every(({ title }) => title.length > 0));
+  assert.ok(profile.sources.every(({ url }) => URL.canParse(url)));
+  assert.ok(profile.sources.every(({ url }) => url.startsWith('https://')));
+  assert.ok(
+    profile.sources.every(
+      ({ accessedAt }) => accessedAt === '2026-09-04',
+    ),
+  );
+  assert.deepEqual(
+    new Set(profile.sources.map(({ kind }) => kind)),
+    new Set(['taxonomy', 'general', 'conservation', 'ecology', 'distribution']),
+  );
+
+  assert.equal(profile.featured, true);
+  assert.equal(profile.publishedAt, '2026-09-04');
+  assert.equal(profile.updatedAt, '2026-09-04');
+  assert.deepEqual(profile.media.focalPoint, { x: 0.92, y: 0.415 });
+  assert.match(
+    profile.media.alt,
+    /恰好一只完整德州角蜥[\s\S]*画面右侧[\s\S]*宽扁身体[\s\S]*头后长棘[\s\S]*四肢[\s\S]*足部[\s\S]*短尾[\s\S]*左侧[\s\S]*安静/,
+  );
+  assert.doesNotMatch(profile.media.alt, /雄性|雌性|具体地点|个体身份/);
+
+  const galleryByBasename = new Map(
+    (profile.media.gallery ?? []).map((item) => [
+      item.image.split('/').at(-1) ?? '',
+      item,
+    ]),
+  );
+  assert.equal(galleryByBasename.size, 5);
+  assert.match(
+    galleryByBasename.get('02-full-body-diagnostic-profile.webp')?.caption ?? '',
+    /识别组合[\s\S]*互有遮挡[\s\S]*不能据此计数[\s\S]*不能反测体长[\s\S]*体重[\s\S]*性别[\s\S]*年龄[\s\S]*地点/,
+  );
+  assert.match(
+    galleryByBasename.get('03-harvester-ant-feeding.webp')?.caption ?? '',
+    /不能鉴定蚂蚁属种[\s\S]*不能确认捕获[\s\S]*吞咽[\s\S]*摄食量[\s\S]*食谱比例[\s\S]*地点/,
+  );
+  assert.match(
+    galleryByBasename.get('04-ocular-sinus-defense.webp')?.caption ?? '',
+    /没有触发者[\s\S]*捕食者种类[\s\S]*接触方式[\s\S]*喷射距离[\s\S]*血量[\s\S]*发生频率[\s\S]*防御结果/,
+  );
+  assert.match(
+    galleryByBasename.get('05-shallow-burial.webp')?.caption ?? '',
+    /浅埋[\s\S]*不能确定温度[\s\S]*持续时间[\s\S]*越冬状态[\s\S]*捕食者存在[\s\S]*隐蔽成效[\s\S]*远侧肢体/,
+  );
+  assert.match(
+    galleryByBasename.get('06-nesting-dig.webp')?.caption ?? '',
+    /不能确认性别[\s\S]*怀卵[\s\S]*产卵[\s\S]*巢穴用途[\s\S]*巢深[\s\S]*窝卵数[\s\S]*孵化时间[\s\S]*远侧前肢/,
+  );
+
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'texas-horned-lizard',
+    basenames: [
+      '01-open-prairie-cover',
+      '02-full-body-diagnostic-profile',
+      '03-harvester-ant-feeding',
+      '04-ocular-sinus-defense',
+      '05-shallow-burial',
+      '06-nesting-dig',
+    ],
+    verifyAcceptedHashes: true,
+  });
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 120);
+  assert.equal(species.length, 121);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24361,7 +24614,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 1);
@@ -24377,9 +24630,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Agamidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Moloch')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Phrynosomatidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Phrynosoma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Helodermatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
@@ -24395,7 +24650,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 120);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 121);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24416,7 +24671,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 81);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 82);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 34);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 10);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);

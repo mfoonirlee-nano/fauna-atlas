@@ -184,6 +184,35 @@ test('new generated covers keep the complete subject inside every hero animation
     { name: 'enter-backward-from', scale: 1.025, translateX: -0.05 },
     { name: 'leave-backward-to', scale: 1.015, translateX: 0.04 },
   ];
+  // These are the occupied component rectangles at each supported layout.
+  // The assertion below adds the 24px safety gap; expanding the rectangles
+  // here as well would count that clearance twice.
+  const composedSafeAreas = new Map([
+    ['320x760', [
+      { name: 'mobile carousel panel', left: 32, top: 92, right: 302, bottom: 188 },
+      { name: 'mobile hero copy', left: 0, top: 390, right: 320, bottom: 682 },
+    ]],
+    ['390x760', [
+      { name: 'mobile carousel panel', left: 102, top: 92, right: 372, bottom: 188 },
+      { name: 'mobile hero copy', left: 0, top: 390, right: 390, bottom: 682 },
+    ]],
+    ['1366x768', [
+      { name: 'desktop hero copy', left: 0, top: 0, right: 832, bottom: 768 },
+      { name: 'desktop carousel panel', left: 1038, top: 430, right: 1279, bottom: 663 },
+    ]],
+    ['1920x900', [
+      { name: 'desktop hero copy', left: 0, top: 0, right: 1127, bottom: 900 },
+      { name: 'desktop carousel panel', left: 1386, top: 560, right: 1626, bottom: 795 },
+    ]],
+    ['2560x900', [
+      { name: 'desktop hero copy', left: 0, top: 0, right: 1447, bottom: 900 },
+      { name: 'desktop carousel panel', left: 1706, top: 560, right: 1946, bottom: 795 },
+    ]],
+    ['3840x900', [
+      { name: 'desktop hero copy', left: 0, top: 0, right: 2087, bottom: 900 },
+      { name: 'desktop carousel panel', left: 2346, top: 560, right: 2586, bottom: 795 },
+    ]],
+  ]);
   const cases = [
     {
       slug: 'superb-lyrebird',
@@ -214,35 +243,13 @@ test('new generated covers keep the complete subject inside every hero animation
       slug: 'thorny-devil',
       sha256: '3a49e9ca0dd36d2a13a30e5bf4f6306faacdac1d79c9423bce98cd5454de0213',
       fullBody: { left: 1050, top: 305, right: 1325, bottom: 410 },
-      // These are the occupied component rectangles at each supported layout.
-      // The assertion below adds the 24px safety gap; expanding the rectangles
-      // here as well would count that clearance twice.
-      composedSafeAreas: new Map([
-        ['320x760', [
-          { name: 'mobile carousel panel', left: 32, top: 92, right: 302, bottom: 188 },
-          { name: 'mobile hero copy', left: 0, top: 390, right: 320, bottom: 682 },
-        ]],
-        ['390x760', [
-          { name: 'mobile carousel panel', left: 102, top: 92, right: 372, bottom: 188 },
-          { name: 'mobile hero copy', left: 0, top: 390, right: 390, bottom: 682 },
-        ]],
-        ['1366x768', [
-          { name: 'desktop hero copy', left: 0, top: 0, right: 832, bottom: 768 },
-          { name: 'desktop carousel panel', left: 1038, top: 430, right: 1279, bottom: 663 },
-        ]],
-        ['1920x900', [
-          { name: 'desktop hero copy', left: 0, top: 0, right: 1127, bottom: 900 },
-          { name: 'desktop carousel panel', left: 1386, top: 560, right: 1626, bottom: 795 },
-        ]],
-        ['2560x900', [
-          { name: 'desktop hero copy', left: 0, top: 0, right: 1447, bottom: 900 },
-          { name: 'desktop carousel panel', left: 1706, top: 560, right: 1946, bottom: 795 },
-        ]],
-        ['3840x900', [
-          { name: 'desktop hero copy', left: 0, top: 0, right: 2087, bottom: 900 },
-          { name: 'desktop carousel panel', left: 2346, top: 560, right: 2586, bottom: 795 },
-        ]],
-      ]),
+      composedSafeAreas,
+    },
+    {
+      slug: 'texas-horned-lizard',
+      sha256: 'be75b3a7fc30544d9064b5fe19f8818f0fbf06fd92cb43626a01dfe9d08997d0',
+      fullBody: { left: 1103, top: 374, right: 1380, bottom: 484 },
+      composedSafeAreas,
     },
   ];
 
