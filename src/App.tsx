@@ -1201,7 +1201,8 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
 function App() {
   const [theme, setTheme] = useState<Theme>(getInitialTheme);
   const [query, setQuery] = useState('');
-  const [activeClass, setActiveClass] = useState('全部');
+  const [activePhylum, setActivePhylum] = useState('ALL');
+  const [activeClass, setActiveClass] = useState('ALL');
   const [activeStatus, setActiveStatus] = useState('ALL');
   const [selected, setSelected] = useState<Species | null>(null);
   const [bookmarks, setBookmarks] = useState<string[]>(getInitialBookmarks);
@@ -1235,15 +1236,37 @@ function App() {
     };
   }, [selected]);
 
-  const classNames = useMemo(
-    () => ['全部', ...Array.from(new Set(species.map((item) => item.taxonomy.class.zhName)))],
-    [],
-  );
+  const phyla = useMemo(() => {
+    const groups = new Map<string, {
+      name: string;
+      count: number;
+      classes: Map<string, { name: string; count: number }>;
+    }>();
+    for (const item of species) {
+      const { phylum, class: taxonClass } = item.taxonomy;
+      let group = groups.get(phylum.scientificName);
+      if (!group) {
+        group = { name: phylum.zhName, count: 0, classes: new Map() };
+        groups.set(phylum.scientificName, group);
+      }
+      group.count += 1;
+      const entry = group.classes.get(taxonClass.scientificName);
+      group.classes.set(taxonClass.scientificName, {
+        name: taxonClass.zhName,
+        count: (entry?.count ?? 0) + 1,
+      });
+    }
+    return groups;
+  }, []);
+  const selectedPhylum = phyla.get(activePhylum);
+  const selectedClass = selectedPhylum?.classes.get(activeClass);
+  const hasFilters = Boolean(query || activePhylum !== 'ALL' || activeStatus !== 'ALL');
 
   const filteredSpecies = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase('zh-CN');
     return species.filter((item) => {
-      const matchesClass = activeClass === '全部' || item.taxonomy.class.zhName === activeClass;
+      const matchesPhylum = activePhylum === 'ALL' || item.taxonomy.phylum.scientificName === activePhylum;
+      const matchesClass = activeClass === 'ALL' || item.taxonomy.class.scientificName === activeClass;
       const matchesStatus = activeStatus === 'ALL' || item.conservation.code === activeStatus;
       const searchable = [
         item.names.zh,
@@ -1257,9 +1280,9 @@ function App() {
       ]
         .join(' ')
         .toLocaleLowerCase('zh-CN');
-      return matchesClass && matchesStatus && (!normalizedQuery || searchable.includes(normalizedQuery));
+      return matchesPhylum && matchesClass && matchesStatus && (!normalizedQuery || searchable.includes(normalizedQuery));
     });
-  }, [activeClass, activeStatus, query]);
+  }, [activePhylum, activeClass, activeStatus, query]);
 
   const regionCount = new Set(species.flatMap((item) => item.distribution.regions)).size;
   const threatenedCount = species.filter((item) => ['CR', 'EN', 'VU'].includes(item.conservation.code)).length;
@@ -1282,7 +1305,8 @@ function App() {
 
   const clearFilters = () => {
     setQuery('');
-    setActiveClass('全部');
+    setActivePhylum('ALL');
+    setActiveClass('ALL');
     setActiveStatus('ALL');
   };
 
@@ -1388,27 +1412,66 @@ function App() {
             </label>
           </div>
 
-          <div className="class-filter" aria-label="按生物分类筛选">
-            {classNames.map((className) => (
+          <div className="atlas-classification">
+            <div className="atlas-classification__heading">
+              <strong>按门浏览</strong>
+              <span>先选一门，再按纲细分 · 数字为收录物种数</span>
+            </div>
+            <div className="phylum-filter" role="group" aria-label="按门筛选">
               <button
                 type="button"
-                key={className}
-                className={activeClass === className ? 'is-active' : ''}
-                onClick={() => setActiveClass(className)}
-                aria-pressed={activeClass === className}
+                className={activePhylum === 'ALL' ? 'is-active' : ''}
+                aria-pressed={activePhylum === 'ALL'}
+                onClick={() => { setActivePhylum('ALL'); setActiveClass('ALL'); }}
               >
-                {formatClassName(className)}
-                {className !== '全部' && (
-                  <span>{species.filter((item) => item.taxonomy.class.zhName === className).length}</span>
-                )}
+                <span className="phylum-filter__title">全部动物 <small>{species.length}</small></span>
+                <span className="phylum-filter__preview">浏览所有收录物种</span>
               </button>
-            ))}
+              {[...phyla].map(([key, group]) => (
+                <button
+                  type="button"
+                  key={key}
+                  className={activePhylum === key ? 'is-active' : ''}
+                  aria-pressed={activePhylum === key}
+                  onClick={() => { setActivePhylum(key); setActiveClass('ALL'); }}
+                >
+                  <span className="phylum-filter__title">{group.name} <small>{group.count}</small></span>
+                  <span className="phylum-filter__preview">
+                    {[...group.classes.values()].slice(0, 3).map((entry) => formatClassName(entry.name)).join(' · ')}
+                    {group.classes.size > 3 ? '等' : ''}
+                  </span>
+                </button>
+              ))}
+            </div>
+            {selectedPhylum && (
+              <div className="atlas-classification__detail">
+                <p>{selectedPhylum.name}<span>按纲细分</span></p>
+                <div className="class-filter" role="group" aria-label={`${selectedPhylum.name}按纲筛选`}>
+                  <button
+                    type="button"
+                    className={activeClass === 'ALL' ? 'is-active' : ''}
+                    aria-pressed={activeClass === 'ALL'}
+                    onClick={() => setActiveClass('ALL')}
+                  >全部<span>{selectedPhylum.count}</span></button>
+                  {[...selectedPhylum.classes].map(([key, entry]) => (
+                    <button
+                      type="button"
+                      key={key}
+                      className={activeClass === key ? 'is-active' : ''}
+                      aria-pressed={activeClass === key}
+                      onClick={() => setActiveClass(key)}
+                    >{entry.name}<span>{entry.count}</span></button>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
-          <div className="result-summary" aria-live="polite">
-            <span>SHOWING {String(filteredSpecies.length).padStart(2, '0')}</span>
+          <div className="result-summary" aria-live="polite" aria-atomic="true">
+            <span>找到 {filteredSpecies.length} 种动物</span>
             <span className="result-summary__line" />
-            <span>{query || activeClass !== '全部' || activeStatus !== 'ALL' ? '筛选结果' : '全部记录'}</span>
+            <span>{[selectedPhylum?.name, selectedClass?.name].filter(Boolean).join(' / ') || (hasFilters ? '筛选结果' : '全部记录')}</span>
+            {hasFilters && <button type="button" className="result-summary__clear" onClick={clearFilters}>清除筛选<X size={13} aria-hidden="true" /></button>}
           </div>
 
           {filteredSpecies.length > 0 ? (
