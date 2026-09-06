@@ -252,6 +252,12 @@ test('new generated covers keep the complete subject inside every hero animation
       composedSafeAreas,
     },
     {
+      slug: 'common-pillbug',
+      sha256: 'a9cb1433aa1b867af6c936dd7934f0557e2b41aee9b4e4c19f9c76c4e3768c8f',
+      fullBody: { left: 1215, top: 339, right: 1380, bottom: 410 },
+      composedSafeAreas,
+    },
+    {
       slug: 'common-raccoon',
       sha256: 'fe4efd53e9041d14197d8af9c5c8e75bbacc177b26b53b1c5ad4bee529424281',
       fullBody: { left: 1060, top: 315, right: 1225, bottom: 414 },

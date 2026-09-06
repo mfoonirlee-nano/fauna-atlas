@@ -24488,7 +24488,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 122);
+  assert.equal(species.length, 123);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24546,7 +24546,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 17);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 18);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24559,7 +24559,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Spirostreptida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Spirostreptidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Archispirostreptus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'order', 'Stomatopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Odontodactylidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Odontodactylus')?.speciesCount, 1);
@@ -24656,7 +24656,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 122);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 123);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25060,4 +25060,23 @@ test('rejects one ranked scientific taxon identity beneath conflicting parents',
       /Ailuropoda/.test(error.message) &&
       /conflicting parents/.test(error.message),
   );
+});
+
+test('registers the common pillbug with terrestrial isopod taxonomy and usable local art', async () => {
+  const profile = findSpecies('common-pillbug');
+  assert.equal(profile.scientificName, 'Armadillidium vulgare');
+  assert.ok(profile.names.aliases.includes('西瓜虫'));
+  assert.equal(profile.taxonomy.class.scientificName, 'Malacostraca');
+  assert.equal(profile.taxonomy.order.scientificName, 'Isopoda');
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.equal(profile.conservation.code, 'NE');
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.equal(profile.metrics.adultLengthCm, undefined, 'a young-adult typical length is not an adult range');
+  assert.ok(profile.storySections.find(({ key }) => key === 'water').body.includes('18±1℃'));
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'common-pillbug',
+    basenames: ['01-leaf-litter-cover', '02-field-marks', '03-conglobation', '04-leaf-litter', '05-shelter', '06-moss-walk'],
+    verifyAcceptedHashes: true,
+  });
 });

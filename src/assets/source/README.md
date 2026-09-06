@@ -155,6 +155,8 @@ This rule is a forward gate from 2026-09-03. Covers added or changed after this 
 - [Meerkat image set](./species/meerkat/README.md)
 - [Common Raccoon image set](./species/common-raccoon/README.md)
 
+- [Common Pillbug image set](./species/common-pillbug/README.md)
+
 ## Image compression workflow
 
 Source PNGs are compressed in place with TinyPNG, then converted to the runtime WebP assets. Both steps need a one-time setup: copy `.env.example` to `.env` and fill in `TINYPNG_API_KEY` (free tier: 500 images/month).
