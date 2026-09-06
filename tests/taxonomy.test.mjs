@@ -214,10 +214,16 @@ test('keeps every catalogue association unique and attached to its named genus',
   }
 });
 
-test('omits assessment years only for not-evaluated profiles', () => {
+test('retains assessment years except for explicitly documented missing evidence', () => {
   for (const profile of species) {
     if (profile.conservation.code === 'NE') {
       assert.equal(profile.conservation.assessedYear, undefined);
+    } else if (profile.slug === 'common-raccoon') {
+      // MDD and Texas Tech confirm LC; the original IUCN assessment was inaccessible.
+      // Do not substitute the 2016 publication year for an unverified assessment date.
+      assert.equal(profile.conservation.code, 'LC');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.ok(profile.keyFacts.some((fact) => fact.includes('评估年份留空')));
     } else {
       assert.ok(
         Number.isInteger(profile.conservation.assessedYear),
@@ -24482,7 +24488,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 121);
+  assert.equal(species.length, 122);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24650,7 +24656,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 121);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 122);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24671,9 +24677,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 82);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 34);
-  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 83);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 35);
+  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Suricata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 2);

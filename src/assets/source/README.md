@@ -153,6 +153,7 @@ This rule is a forward gate from 2026-09-03. Covers added or changed after this 
 - [Southern Three-banded Armadillo image set](./species/southern-three-banded-armadillo/README.md)
 - [Sunda Colugo image set](./species/sunda-colugo/README.md)
 - [Meerkat image set](./species/meerkat/README.md)
+- [Common Raccoon image set](./species/common-raccoon/README.md)
 
 ## Image compression workflow
 

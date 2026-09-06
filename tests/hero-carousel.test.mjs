@@ -251,6 +251,12 @@ test('new generated covers keep the complete subject inside every hero animation
       fullBody: { left: 1103, top: 374, right: 1380, bottom: 484 },
       composedSafeAreas,
     },
+    {
+      slug: 'common-raccoon',
+      sha256: 'fe4efd53e9041d14197d8af9c5c8e75bbacc177b26b53b1c5ad4bee529424281',
+      fullBody: { left: 1060, top: 315, right: 1225, bottom: 414 },
+      composedSafeAreas,
+    },
   ];
 
   for (const { slug, sha256, fullBody, composedSafeAreas } of cases) {
