@@ -218,6 +218,11 @@ test('retains assessment years except for explicitly documented missing evidence
   for (const profile of species) {
     if (profile.conservation.code === 'NE') {
       assert.equal(profile.conservation.assessedYear, undefined);
+    } else if (profile.slug === 'himalayan-marmot') {
+      // MDD/RSPN confirm LC; the inaccessible IUCN source leaves its assessment date unverified.
+      assert.equal(profile.conservation.code, 'LC');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
     } else if (profile.slug === 'common-raccoon') {
       // MDD and Texas Tech confirm LC; the original IUCN assessment was inaccessible.
       // Do not substitute the 2016 publication year for an unverified assessment date.
@@ -24488,7 +24493,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 124);
+  assert.equal(species.length, 125);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24659,7 +24664,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 124);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 125);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24680,14 +24685,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 83);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 35);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 84);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 36);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Suricata')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Heterocephalidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Heterocephalus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dermoptera')?.speciesCount, 1);
@@ -25099,6 +25104,27 @@ test('registers the common pillbug with terrestrial isopod taxonomy and usable l
     profile,
     slug: 'common-pillbug',
     basenames: ['01-leaf-litter-cover', '02-field-marks', '03-conglobation', '04-leaf-litter', '05-shelter', '06-moss-walk'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+
+test('registers Himalayan marmot separately from other animals called groundhogs', async () => {
+  const profile = findSpecies('himalayan-marmot');
+  assert.equal(profile.scientificName, 'Marmota himalayana');
+  assert.ok(profile.names.aliases.includes('土拨鼠'));
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Chordata', 'Mammalia', 'Rodentia', 'Sciuridae', 'Marmota',
+  ]);
+  assert.equal(profile.conservation.code, 'LC');
+  assert.equal(profile.conservation.trend, 'unknown');
+  assert.equal(profile.conservation.assessedYear, undefined, 'a secondary status reference must not invent an assessment year');
+  assert.equal(profile.metrics.lifespanYears, undefined, 'genus-wide longevity must not become a species metric');
+  assert.deepEqual(profile.distribution.countries, ['中国', '印度', '尼泊尔', '巴基斯坦']);
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'himalayan-marmot',
+    basenames: ['01-alpine-meadow-cover', '02-field-marks', '03-upright-vigilance', '04-meadow-foraging', '05-burrow-entrance', '06-social-contact'],
     verifyAcceptedHashes: true,
   });
 });

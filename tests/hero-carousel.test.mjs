@@ -264,6 +264,12 @@ test('new generated covers keep the complete subject inside every hero animation
       composedSafeAreas,
     },
     {
+      slug: 'himalayan-marmot',
+      sha256: 'cd34976979ce00d87703a0c0fa2a560a3b87f2d42e18cd9c52c83bba29de2551',
+      fullBody: { left: 1132, top: 312, right: 1305, bottom: 390 },
+      composedSafeAreas,
+    },
+    {
       slug: 'common-raccoon',
       sha256: 'fe4efd53e9041d14197d8af9c5c8e75bbacc177b26b53b1c5ad4bee529424281',
       fullBody: { left: 1060, top: 315, right: 1225, bottom: 414 },

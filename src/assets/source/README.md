@@ -209,3 +209,5 @@ Materials/textures: realistic fur, weathered stone, fine atmospheric grain
 Constraints: no text, no logos, no watermark, no border, no fantasy elements, no collage, no other animals, no exaggerated colors
 Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 ```
+
+- [Himalayan marmot image set](./species/himalayan-marmot/README.md)
