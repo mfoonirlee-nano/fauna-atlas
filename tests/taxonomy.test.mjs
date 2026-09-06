@@ -24488,7 +24488,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 123);
+  assert.equal(species.length, 124);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24569,7 +24569,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 7);
   assert.equal(findTaxon(tree, 'class', 'Scaphopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dentaliida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dentaliidae')?.speciesCount, 1);
@@ -24585,7 +24585,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Octopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Octopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Octopus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Stylommatophora')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Helicidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Cornu')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Nudibranchia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Glaucidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Glaucus')?.speciesCount, 1);
@@ -24656,7 +24659,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 123);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 124);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25060,6 +25063,25 @@ test('rejects one ranked scientific taxon identity beneath conflicting parents',
       /Ailuropoda/.test(error.message) &&
       /conflicting parents/.test(error.message),
   );
+});
+
+test('registers the garden snail with terrestrial gastropod taxonomy and usable local art', async () => {
+  const profile = findSpecies('garden-snail');
+  assert.equal(profile.scientificName, 'Cornu aspersum');
+  assert.ok(profile.names.aliases.includes('Helix aspersa'));
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Mollusca', 'Gastropoda', 'Stylommatophora', 'Helicidae', 'Cornu',
+  ]);
+  assert.deepEqual(profile.distribution.realms, ['terrestrial']);
+  assert.equal(profile.conservation.code, 'NE', 'French LC must not replace global NE');
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.equal(profile.metrics.adultLengthCm, undefined, 'extended head-foot length is not a normalized fixed adult length');
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'garden-snail',
+    basenames: ['01-garden-stone-cover', '02-field-marks', '03-four-tentacles', '04-leaf-feeding', '05-shell-retreat', '06-mucus-trail'],
+    verifyAcceptedHashes: true,
+  });
 });
 
 test('registers the common pillbug with terrestrial isopod taxonomy and usable local art', async () => {

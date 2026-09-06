@@ -220,6 +220,12 @@ test('new generated covers keep the complete subject inside every hero animation
       fullBody: { left: 930, top: 395, right: 1100, bottom: 710 },
     },
     {
+      slug: 'garden-snail',
+      sha256: '0bb8712030196d2b9413bc36c2872af539d8d9be43d79a48a1eb1cc89551ae24',
+      fullBody: { left: 1145, top: 328, right: 1295, bottom: 405 },
+      composedSafeAreas,
+    },
+    {
       slug: 'oilbird',
       sha256: '8dfb97785b0950e8322632d5b5996a28d0a36587d6a7a7df7533298bb470d511',
       fullBody: { left: 870, top: 374, right: 1010, bottom: 615 },
