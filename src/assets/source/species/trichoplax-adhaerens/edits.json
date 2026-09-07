@@ -1,0 +1,7 @@
+[
+{
+  "image": "06-coastal-habitat",
+  "prompt": "Edit this coastal habitat image: remove EVERY pale translucent oval disk on the rocks, including disks at edges. Replace all those disks with continuous natural rock and fine brown-green biofilm texture matching the adjacent rock. This landscape must show ONLY seawater, stones, fine biofilm and algae. No visible animals at all. Preserve composition, lighting, aspect ratio and underwater setting. No text."
+},
+{"image":"01-biofilm-cover","prompt":"Edit cover composition only. The translucent animal currently occupies approximately x1115..1367,y269..442 in this 1536x1024 image. SHRINK that entire animal to 55 percent of its current width and height, and reposition its center to x1245,y400. Target final complete silhouette x1176..1314,y352..448. Fill its old footprint with matching background biofilm texture. Preserve the whole animal outline, pale translucent granular tissue, background, lighting and landscape dimensions. The subject must be small for website overlay clearance. Left background remains quiet. No text, no new animals."}
+]

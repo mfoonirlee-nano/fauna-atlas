@@ -214,6 +214,7 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'trichoplax-adhaerens', sha256: '1f08c615aedebc60bf4874c2ef629c3cc04d04372d3a475546ba773ac90fda61', fullBody: { left: 1075, top: 337, right: 1208, bottom: 435 }, composedSafeAreas },
     {
       slug: 'ramazzottius-varieornatus',
       sha256: 'a1ff461d20b6e49cbae3431cfd7d96c47289182a570648e5780c148f13d94aa9',

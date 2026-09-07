@@ -1,0 +1,26 @@
+[
+  {
+    "name": "01-biofilm-cover",
+    "prompt": "Use case: scientific-educational. Generate a 1536x1024 landscape scientific microscopy reconstruction for Fauna Atlas cover. One tiny Trichoplax adhaerens, a translucent irregular flattened plate of many fine granular cells, no head, no eyes, no limbs, no tentacles, no mouth, no bilateral symmetry. Top-down view on muted teal grey submerged biofilm, subtle scattered microscopic algae. Whole animal very small and entirely contained inside x=1175..1315 y=365..440 pixels, centered around (1245,402). This exact small right upper placement is needed for hero overlay safe areas. Left 65% calm softly defocused teal water background. Thin gently lobed outline, translucent milky grey tissue, slightly granular interior. Restrained scientific illustration, not a jellyfish or amoeba with long pseudopods. No text, labels, scale bar, border, watermark or other animals."
+  },
+  {
+    "name": "02-body",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas, 1536x1024 landscape image. Top-down close view of one entire translucent irregular flattened Trichoplax adhaerens, gently lobed asymmetric plate of fine cells, granular interior, thin edge. Dark teal neutral microscopy background. Animal centered fills 55% width. Restrained scientifically grounded illustration. Trichoplax has no head eyes limbs tentacles organs or internal gut. No text, labels, scale bars, watermark, border or collage."
+  },
+  {
+    "name": "03-ciliary-gliding",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas, 1536x1024 landscape image. Scientific cutaway oblique close view of thin Trichoplax adhaerens body margin above flat glass substrate: upper thin epithelium, loose sparse interior cellular mesh, thicker lower epithelium with many very fine short cilia touching substrate. Show cilia below body only; emphasize sliding contact. No arrows. Simplified educational reconstruction, not diagnostic ultrastructure. Restrained scientifically grounded illustration. Trichoplax has no head eyes limbs tentacles organs or internal gut. No text, labels, scale bars, watermark, border or collage."
+  },
+  {
+    "name": "04-external-feeding",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas, 1536x1024 landscape image. Oblique scientific cutaway illustration of thin translucent Trichoplax adhaerens plate resting above a small patch of reddish brown microalgae on glass. Show a few algae under ventral surface breaking down locally into small particles, nearby intact algae. Subtle pale secretory granules immediately under lower surface, no colored beams or mouth. Explain external digestion visually. Restrained scientifically grounded illustration. Trichoplax has no head eyes limbs tentacles organs or internal gut. No text, labels, scale bars, watermark, border or collage."
+  },
+  {
+    "name": "05-fission",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas, 1536x1024 landscape image. Top-down microscopy reconstruction of one Trichoplax adhaerens dividing by binary fission: two irregular flat translucent granular lobes joined by a thin bridge of tissue. Complete dividing animal centered, muted teal background. No eggs or larvae, no sequence panels. Restrained scientifically grounded illustration. Trichoplax has no head eyes limbs tentacles organs or internal gut. No text, labels, scale bars, watermark, border or collage."
+  },
+  {
+    "name": "06-coastal-habitat",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas, 1536x1024 landscape image. Natural history educational habitat reconstruction of shallow warm coastal seawater, submerged stones with subtle brown and green biofilm, sunlight gently passing through water. Wide underwater view. Do not show enlarged microscopic animals at landscape scale. No people. Restrained scientifically grounded illustration. Trichoplax has no head eyes limbs tentacles organs or internal gut. No text, labels, scale bars, watermark, border or collage."
+  }
+]

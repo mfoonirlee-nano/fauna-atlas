@@ -24510,7 +24510,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 138);
+  assert.equal(species.length, 139);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24681,7 +24681,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 138);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 139);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25377,6 +25377,25 @@ test('integrates the first tardigrade with conditional anhydrobiosis and reviewe
   await assertGeneratedImageSet({
     profile, slug: 'ramazzottius-varieornatus',
     basenames: ['01-moss-cover', '02-active-body', '03-dry-tun', '04-rehydration', '05-algal-feeding', '06-moss-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates the first placozoan without treating phylum records as a species range', async () => {
+  const profile = findSpecies('trichoplax-adhaerens');
+  const tree = buildTaxonomyTree(species);
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Placozoa', 'Uniplacotomia', 'Trichoplacea', 'Trichoplacidae', 'Trichoplax',
+  ]);
+  assert.equal(findTaxon(tree, 'phylum', 'Placozoa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Trichoplax')?.children[0]?.species.id, profile.id);
+  assert.deepEqual(profile.distribution.countries, []);
+  assert.equal(profile.distribution.center, undefined);
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.equal(profile.conservation.trend, 'unknown');
+  await assertGeneratedImageSet({
+    profile, slug: 'trichoplax-adhaerens',
+    basenames: ['01-biofilm-cover', '02-body', '03-ciliary-gliding', '04-external-feeding', '05-fission', '06-coastal-habitat'],
     verifyAcceptedHashes: true,
   });
 });

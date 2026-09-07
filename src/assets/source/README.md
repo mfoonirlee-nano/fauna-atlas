@@ -237,3 +237,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Totoro Velvet Worm image set](./species/totoro-velvet-worm/README.md)
 
 - [Ramazzottius varieornatus image set](./species/ramazzottius-varieornatus/README.md)
+
+- [Trichoplax adhaerens image set](./species/trichoplax-adhaerens/README.md)
