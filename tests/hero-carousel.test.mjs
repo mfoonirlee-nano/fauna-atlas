@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'banded-archerfish',
+      sha256: '5d5954eb1057b0c9aa59c1661f3291ee090b7765b1d8e7f55c754884cbc400ae',
+      fullBody: { left: 1183, top: 350, right: 1305, bottom: 402 },
+      composedSafeAreas,
+    },
+    {
       slug: 'white-spotted-pufferfish',
       sha256: '3e23beca69d1204b606e3ddcc43a93e54330260f953beb81bdb05b5588557942',
       fullBody: { left: 1212, top: 348, right: 1363, bottom: 413 },

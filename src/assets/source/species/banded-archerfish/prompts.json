@@ -1,0 +1,26 @@
+[
+  {
+    "name": "01-mangrove-cover",
+    "prompt": "Use case: scientific-educational. Generate a 1536x1024 landscape natural-history photorealistic scientific scene reconstruction for Fauna Atlas. Banded archerfish Toxotes jaculatrix: laterally compressed silver fish, pointed upturned mouth, large eye, four or five broad black wedge-shaped dorsal bars, translucent fins, single posterior dorsal fin, complete forked tail. Natural proportions, no text, no labels, no watermark, no collage. Very wide underwater mangrove creek environment, muted jade water and distant submerged roots. Exactly one SMALL fish facing left in clear side view. Entire fish including all fin tips constrained inside rectangle x=1215..1380 y=345..410 on 1536x1024 canvas, center near (1297,377). It occupies only 11% image width and 6% image height. Large empty quiet left 40%, background surrounds fish; no other animals. Fish entirely underwater, no shooting. Precise small upper-right subject placement is essential for responsive hero crop."
+  },
+  {
+    "name": "02-body-profile",
+    "prompt": "Use case: scientific-educational. Generate a 1536x1024 landscape natural-history photorealistic scientific scene reconstruction for Fauna Atlas. Banded archerfish Toxotes jaculatrix: laterally compressed silver fish, pointed upturned mouth, large eye, four or five broad black wedge-shaped dorsal bars, translucent fins, single posterior dorsal fin, complete forked tail. Natural proportions, no text, no labels, no watermark, no collage. Close clear left-facing side profile of one whole banded archerfish swimming in greenish water, fish fills middle 70% frame, all fins and tail complete, silver scales and broad dorsal black wedges clearly visible, subtle blurred mangrove roots far behind."
+  },
+  {
+    "name": "03-aerial-shot",
+    "prompt": "Use case: scientific-educational. Generate a 1536x1024 landscape natural-history photorealistic scientific scene reconstruction for Fauna Atlas. Banded archerfish Toxotes jaculatrix: laterally compressed silver fish, pointed upturned mouth, large eye, four or five broad black wedge-shaped dorsal bars, translucent fins, single posterior dorsal fin, complete forked tail. Natural proportions, no text, no labels, no watermark, no collage. Side-on split-level scientific scene with water surface horizontal at middle height. One whole banded archerfish below water on lower right tilts its upturned mouth exactly to surface. A slender straight water jet runs diagonally from its mouth toward a small insect on an overhanging mangrove leaf upper left. Full fish visible underwater, insect above water. Show plausible thin jet, not a hose, no arrows, no diagram labels."
+  },
+  {
+    "name": "04-jet-impact",
+    "prompt": "Use case: scientific-educational. Generate a 1536x1024 landscape natural-history photorealistic scientific scene reconstruction for Fauna Atlas. Banded archerfish Toxotes jaculatrix: laterally compressed silver fish, pointed upturned mouth, large eye, four or five broad black wedge-shaped dorsal bars, translucent fins, single posterior dorsal fin, complete forked tail. Natural proportions, no text, no labels, no watermark, no collage. Close natural-history high speed style reconstruction of a narrow water jet striking one small brown insect perched on underside of a mangrove leaf above water. Only leaf, insect, slender upward incoming jet and a few splash droplets against soft green foliage. No fish in this closeup. No explosive splash, no oversized insect."
+  },
+  {
+    "name": "05-underwater-foraging",
+    "prompt": "Use case: scientific-educational. Generate a 1536x1024 landscape natural-history photorealistic scientific scene reconstruction for Fauna Atlas. Banded archerfish Toxotes jaculatrix: laterally compressed silver fish, pointed upturned mouth, large eye, four or five broad black wedge-shaped dorsal bars, translucent fins, single posterior dorsal fin, complete forked tail. Natural proportions, no text, no labels, no watermark, no collage. One whole banded archerfish inclined head-down just above fine sand under mangrove water. A short subtle jet from the fish mouth lifts a little pale sediment near one small insect larva on sediment. All fins and tail visible, realistic modest sediment disturbance, no aerial jet."
+  },
+  {
+    "name": "06-mangrove-habitat",
+    "prompt": "Use case: scientific-educational. Generate a 1536x1024 landscape natural-history photorealistic scientific scene reconstruction for Fauna Atlas. Banded archerfish Toxotes jaculatrix: laterally compressed silver fish, pointed upturned mouth, large eye, four or five broad black wedge-shaped dorsal bars, translucent fins, single posterior dorsal fin, complete forked tail. Natural proportions, no text, no labels, no watermark, no collage. Animal-free natural-history landscape of a tropical mangrove estuary: quiet brackish tidal creek, prop roots along banks, low branches over water, green canopy with dappled daylight, muddy bank, restrained colors. No people or buildings, no map or text."
+  }
+]

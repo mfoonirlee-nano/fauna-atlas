@@ -1,0 +1,4 @@
+{
+  "name": "03-aerial-shot",
+  "prompt": "Correct ONLY the air-water boundary in this image: the horizontal waterline is currently around y=560, leaving fish head in air. Raise the entire horizontal surface to y=488, exactly at the upturned lips where the slender jet begins. All of fish including both eyes and gills must be BELOW water. Keep fish position and size unchanged. Adjust underwater color and background above old line to new water level consistently. Jet entirely in air from lips to insect. No second waterline. No other changes."
+}

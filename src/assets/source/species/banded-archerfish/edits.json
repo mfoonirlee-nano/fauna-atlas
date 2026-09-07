@@ -1,0 +1,10 @@
+[
+  {
+    "name": "01-mangrove-cover",
+    "prompt": "Edit this 1536x1024 image. Keep the underwater mangrove environment and realistic fish identity. Shrink the entire fish to 60 percent of its current size and move it slightly right and down. Final entire fish outer boundary, including ALL translucent fins and tail, must be approximately x=1220..1380 and y=345..410. Fish center around (1300,378). Leave background in former position. One small whole fish, no other animals. No text."
+  },
+  {
+    "name": "03-aerial-shot",
+    "prompt": "Edit this scientific reconstruction. Keep the complete fish, mangrove leaf insect and slender straight jet. Correct the shooting geometry: move the entire fish UP until its upturned lips touch the air-water interface at the jet exit point. The mouth must meet the water surface with no length of visible jet underwater. Keep fish body and all fins submerged, complete and not cropped. Keep jet aligned from the mouth to the leaf insect. No text."
+  }
+]

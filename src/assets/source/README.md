@@ -229,3 +229,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Electric Eel image set](./species/electric-eel/README.md)
 
 - [White-spotted Pufferfish image set](./species/white-spotted-pufferfish/README.md)
+
+- [Banded Archerfish image set](./species/banded-archerfish/README.md)

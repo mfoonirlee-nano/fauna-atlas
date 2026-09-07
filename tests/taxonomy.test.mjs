@@ -24510,7 +24510,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 134);
+  assert.equal(species.length, 135);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24681,7 +24681,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 134);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 135);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24702,7 +24702,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 93);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 94);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 36);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24724,7 +24724,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 10);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -25296,6 +25296,27 @@ test('integrates white-spotted pufferfish taxonomy, measurement scope and review
   await assertGeneratedImageSet({
     profile, slug: 'white-spotted-pufferfish',
     basenames: ['01-sand-cover', '02-body-profile', '03-circular-nest', '04-digging-sand', '05-egg-care', '06-coastal-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+
+test('integrates banded archerfish taxonomy, scoped lengths and reviewed media', async () => {
+  const profile = findSpecies('banded-archerfish');
+  const tree = buildTaxonomyTree(species);
+  assert.equal(profile.scientificName, 'Toxotes jaculatrix');
+  assert.equal(findTaxon(tree, 'order', 'Carangiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Toxotidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Toxotes')?.children[0]?.species.id, profile.id);
+  assert.deepEqual(profile.distribution.realms, ['marine', 'freshwater']);
+  assert.equal(profile.conservation.code, 'LC');
+  assert.equal(profile.conservation.assessedYear, 2011);
+  assert.equal(profile.metrics.adultLengthCm, undefined, 'common and maximum lengths are not an adult range');
+  assert.equal(profile.measurements.length.typical, 20);
+  assert.equal(profile.measurements.length.max, 30);
+  await assertGeneratedImageSet({
+    profile, slug: 'banded-archerfish',
+    basenames: ['01-mangrove-cover', '02-body-profile', '03-aerial-shot', '04-jet-impact', '05-underwater-foraging', '06-mangrove-habitat'],
     verifyAcceptedHashes: true,
   });
 });
