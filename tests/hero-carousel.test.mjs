@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'white-spotted-pufferfish',
+      sha256: '3e23beca69d1204b606e3ddcc43a93e54330260f953beb81bdb05b5588557942',
+      fullBody: { left: 1212, top: 348, right: 1363, bottom: 413 },
+      composedSafeAreas,
+    },
+    {
       slug: 'electric-eel',
       sha256: '314edef747eac64bbe6e30b2d7b7cac202aa8f0c44382f8fe3eea99cda12d766',
       fullBody: { left: 1218, top: 323, right: 1412, bottom: 395 },

@@ -1,0 +1,17 @@
+{
+  "cover": "Edit the attached cover with ONE change: move the complete small fish straight DOWN by 45 pixels. The entire fish including translucent dorsal fin must now occupy approximately x1212..1363 y339..396 in this 1536x1024 image. Preserve its current small size, pose, shape, all fins, colors and right-side horizontal position. Fill the old position with seamless blue water. Keep background and left negative space, no other fish or objects. No text or labels.",
+  "gills": [
+    {
+      "name": "02-body-profile",
+      "prompt": "Correct only the gill anatomy of the white-spotted pufferfish in this image. Replace the large circular black hole/ring behind its eye with a SMALL NARROW VERTICAL GILL SLIT immediately in front of the base of a normal translucent pectoral fin. Natural pufferfish anatomy, no circular cavity, no tubes. Preserve fish pose, complete silhouette, white spots, eye, other fins, sand, lighting and 1536x1024 framing exactly. Keep this as a scientific scene reconstruction with no text."
+    },
+    {
+      "name": "04-digging-sand",
+      "prompt": "Correct only the gill anatomy of the white-spotted pufferfish in this image. Replace the large circular black hole/ring behind its eye with a SMALL NARROW VERTICAL GILL SLIT immediately in front of the base of a normal translucent pectoral fin. Natural pufferfish anatomy, no circular cavity, no tubes. Preserve fish pose, complete silhouette, white spots, eye, other fins, sand, lighting and 1536x1024 framing exactly. Keep this as a scientific scene reconstruction with no text."
+    },
+    {
+      "name": "05-egg-care",
+      "prompt": "Correct only the gill anatomy of the white-spotted pufferfish in this image. Replace the large circular black hole/ring behind its eye with a SMALL NARROW VERTICAL GILL SLIT immediately in front of the base of a normal translucent pectoral fin. Natural pufferfish anatomy, no circular cavity, no tubes. Preserve fish pose, complete silhouette, white spots, eye, other fins, sand, lighting and 1536x1024 framing exactly. Keep this as a scientific scene reconstruction with no text."
+    }
+  ]
+}

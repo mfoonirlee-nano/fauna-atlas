@@ -227,3 +227,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Leafy Seadragon image set](./species/leafy-seadragon/README.md)
 
 - [Electric Eel image set](./species/electric-eel/README.md)
+
+- [White-spotted Pufferfish image set](./species/white-spotted-pufferfish/README.md)
