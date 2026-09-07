@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'electric-eel',
+      sha256: '314edef747eac64bbe6e30b2d7b7cac202aa8f0c44382f8fe3eea99cda12d766',
+      fullBody: { left: 1218, top: 323, right: 1412, bottom: 395 },
+      composedSafeAreas,
+    },
+    {
       slug: 'leafy-seadragon',
       sha256: '08cbece33dfc08ed562b1cfd8b3ccd0a20ac23c6b056826265e8120eda01badf',
       fullBody: { left: 1142, top: 324, right: 1253, bottom: 397 },

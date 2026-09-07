@@ -1,0 +1,26 @@
+[
+  {
+    "name": "01-river-cover",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas electric eel species cover, scientific scene reconstruction, landscape 1536x1024. Underwater Guiana Shield freshwater river, subdued olive amber clear water, distant roots and sand. One anatomically plausible Electrophorus electricus, dark gray elongated cylindrical body, blunt head small eyes, muted orange throat, long low anal fin, no dorsal fin or pelvic fins, tapering tail. Entire eel in a gentle compact curved swimming pose, small in frame with full silhouette strictly within x=1120..1280 y=325..400 on a 1536x1024 canvas, center right and high. Left 40% quiet empty water for hero text, generous real water around full animal. Realistic underwater natural history editorial style. No electricity bolts, no glow, no text, logos, watermark, borders, other animals. This is a wide habitat view, not a closeup."
+  },
+  {
+    "name": "02-body-profile",
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, 1536x1024 landscape, editorial natural history realism. One complete adult Electrophorus electricus swimming in side view, fills middle of image, gray cylindrical elongated body, blunt head small eyes orange throat, small pectoral fin, very long ribbonlike anal fin on underside, tapering tail, no dorsal or pelvic fins, no forked tail. Clear river water and softly blurred rocks. No labels text logos watermarks border or collage."
+  },
+  {
+    "name": "03-anal-fin",
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, 1536x1024 landscape, editorial natural history realism. Close side view of the underside and middle body of an electric eel swimming over sand, show long low ribbonlike anal fin with fine rays and shallow undulations, dark smooth skin. Intentionally cropped body detail, no dorsal fin. No labels text logos watermarks border or collage."
+  },
+  {
+    "name": "04-surface-breath",
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, 1536x1024 landscape, editorial natural history realism. One electric eel at freshwater river surface, oblique underwater side view of blunt head and anterior body, mouth at air-water interface, olive water, roots blurred behind, small eyes orange throat. Breathing scene, no bubbles from gills, no lightning. No labels text logos watermarks border or collage."
+  },
+  {
+    "name": "05-foraging",
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, 1536x1024 landscape, editorial natural history realism. One electric eel in side view approaching a small freshwater fish in a clear shallow rocky river, complete eel body and tail visible, natural distance between predator and prey. No lightning no glowing electricity no injury. Dark elongated cylindrical eel, orange throat and long ventral anal fin, no dorsal or pelvic fins. No labels text logos watermarks border or collage."
+  },
+  {
+    "name": "06-river-habitat",
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, 1536x1024 landscape, editorial natural history realism. Animal-free Guiana Shield forest river habitat, water-level view, clear tea-colored freshwater flowing around granite boulders, tropical forest along banks, quiet natural daylight. No people no buildings no animals. No labels text logos watermarks border or collage."
+  }
+]

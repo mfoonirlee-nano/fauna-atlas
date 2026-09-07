@@ -225,3 +225,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Pacific Barreleye image set](./species/barreleye/README.md)
 
 - [Leafy Seadragon image set](./species/leafy-seadragon/README.md)
+
+- [Electric Eel image set](./species/electric-eel/README.md)
