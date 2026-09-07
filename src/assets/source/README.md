@@ -231,3 +231,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [White-spotted Pufferfish image set](./species/white-spotted-pufferfish/README.md)
 
 - [Banded Archerfish image set](./species/banded-archerfish/README.md)
+
+- [Plains Zebra image set](./species/plains-zebra/README.md)

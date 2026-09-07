@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'plains-zebra',
+      sha256: '78a91deecad8048f30422ca6d9ba1a223fabf45376226d48e335ea9a192445b3',
+      fullBody: { left: 1137, top: 329, right: 1233, bottom: 416 },
+      composedSafeAreas,
+    },
+    {
       slug: 'banded-archerfish',
       sha256: '5d5954eb1057b0c9aa59c1661f3291ee090b7765b1d8e7f55c754884cbc400ae',
       fullBody: { left: 1183, top: 350, right: 1305, bottom: 402 },

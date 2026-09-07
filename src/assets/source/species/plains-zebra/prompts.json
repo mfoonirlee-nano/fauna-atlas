@@ -1,0 +1,29 @@
+{
+  "original": [
+    [
+      "01-savanna-cover",
+      "Use case: photorealistic-natural. Asset: Fauna Atlas scientifically grounded AI wildlife reconstruction, landscape 1536x1024, no text, logos, border or watermark. Plains zebra Equus quagga, broad black and ivory stripes, short upright mane, moderate pointed ears, horse-shaped body, no throat dewlap. Natural muted East African grassland colors. Very wide distant environmental portrait. One complete adult zebra stands side-on facing left on a distant low grass rise. CRITICAL composition: the entire zebra including ears, muzzle, all four hooves and dangling tail fits inside x=1190..1320 and y=320..408 pixels of the 1536x1024 canvas; it must look SMALL, only 8 percent of image width. Camera pulled far back. Zebra center at 82 percent width, 36 percent height. Landscape rises behind it, lower two thirds are softly defocused ochre grass. Left 40 percent quiet empty pale grassland. No other animals or foreground obstacles. Actual background around every part of animal."
+    ],
+    [
+      "02-body-profile",
+      "Use case: photorealistic-natural. Asset: Fauna Atlas scientifically grounded AI wildlife reconstruction, landscape 1536x1024, no text, logos, border or watermark. Plains zebra Equus quagga, broad black and ivory stripes, short upright mane, moderate pointed ears, horse-shaped body, no throat dewlap. Natural muted East African grassland colors. One adult full body side profile standing on short savanna grass, head up facing left. Animal large but complete with all four legs, ears and tail within frame and generous margins. Clearly depict broad vertical torso stripes curving on hindquarters. No other animals."
+    ],
+    [
+      "03-grazing",
+      "Use case: photorealistic-natural. Asset: Fauna Atlas scientifically grounded AI wildlife reconstruction, landscape 1536x1024, no text, logos, border or watermark. Plains zebra Equus quagga, broad black and ivory stripes, short upright mane, moderate pointed ears, horse-shaped body, no throat dewlap. Natural muted East African grassland colors. One plains zebra grazing with lowered neck, lips and incisors at short green grass, side three-quarter view, full head and body and all legs visible. Ground-level editorial photograph feel. No other animals."
+    ],
+    [
+      "04-family-group",
+      "Use case: photorealistic-natural. Asset: Fauna Atlas scientifically grounded AI wildlife reconstruction, landscape 1536x1024, no text, logos, border or watermark. Plains zebra Equus quagga, broad black and ivory stripes, short upright mane, moderate pointed ears, horse-shaped body, no throat dewlap. Natural muted East African grassland colors. Small plains zebra family of three adults and one smaller foal calmly standing and walking in open grassland. Four separated readable bodies with plausible limbs, unposed natural arrangement. Wide shot, all animals fully inside frame. Adults have subtly different stripe patterns."
+    ],
+    [
+      "05-mare-and-foal",
+      "Use case: photorealistic-natural. Asset: Fauna Atlas scientifically grounded AI wildlife reconstruction, landscape 1536x1024, no text, logos, border or watermark. Plains zebra Equus quagga, broad black and ivory stripes, short upright mane, moderate pointed ears, horse-shaped body, no throat dewlap. Natural muted East African grassland colors. One plains zebra mare and her small foal standing side-by-side in short grass, foal near mother's flank. Foal has soft brownish dark stripes and short fuzzy mane. Both bodies complete, no overlapping heads or merged legs. Quiet morning light."
+    ],
+    [
+      "06-savanna-habitat",
+      "Use case: photorealistic-natural. Asset: Fauna Atlas scientifically grounded AI wildlife reconstruction, landscape 1536x1024, no text, logos, border or watermark. Plains zebra Equus quagga, broad black and ivory stripes, short upright mane, moderate pointed ears, horse-shaped body, no throat dewlap. Natural muted East African grassland colors. Animal-free landscape of East African open savanna in dry season, low golden grasses, sparse acacia trees in distance and a shallow natural waterhole. No fences or people. Wide environmental establishing image, plausible terrain. No animals."
+    ]
+  ],
+  "coverEdit": "Edit this cover only. Move the entire zebra to the RIGHT and UP: its complete silhouette must be within x=1190..1320, y=320..410 on this 1536x1024 image. Center exactly near (1255,365), not (1060,420). Keep its current small body size, anatomically complete four hooves visible on bare short grass, ears, tail and muzzle. Rebuild natural continuous sloping grass background where zebra used to be. No duplicated zebra. Preserve wide quiet landscape and no text."
+}

@@ -24510,7 +24510,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 135);
+  assert.equal(species.length, 136);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24681,7 +24681,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 135);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 136);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24702,8 +24702,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 94);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 36);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 95);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 37);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
@@ -25317,6 +25317,22 @@ test('integrates banded archerfish taxonomy, scoped lengths and reviewed media',
   await assertGeneratedImageSet({
     profile, slug: 'banded-archerfish',
     basenames: ['01-mangrove-cover', '02-body-profile', '03-aerial-shot', '04-jet-impact', '05-underwater-foraging', '06-mangrove-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates plains zebra in Equidae with dated conservation and reviewed media', async () => {
+  const profile = findSpecies('plains-zebra');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Chordata', 'Mammalia', 'Perissodactyla', 'Equidae', 'Equus',
+  ]);
+  assert.equal(profile.conservation.code, 'NT');
+  assert.equal(profile.conservation.assessedYear, 2016);
+  assert.equal(profile.conservation.trend, 'decreasing');
+  assert.equal(profile.metrics.estimatedMatureIndividuals, undefined, 'historical inferred population is not a current census');
+  await assertGeneratedImageSet({
+    profile, slug: 'plains-zebra',
+    basenames: ['01-savanna-cover', '02-body-profile', '03-grazing', '04-family-group', '05-mare-and-foal', '06-savanna-habitat'],
     verifyAcceptedHashes: true,
   });
 });
