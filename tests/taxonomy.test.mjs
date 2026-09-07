@@ -24493,7 +24493,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 125);
+  assert.equal(species.length, 126);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24664,7 +24664,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 125);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 126);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24685,7 +24685,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 84);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 85);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 36);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24707,7 +24707,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -25125,6 +25125,21 @@ test('registers Himalayan marmot separately from other animals called groundhogs
     profile,
     slug: 'himalayan-marmot',
     basenames: ['01-alpine-meadow-cover', '02-field-marks', '03-upright-vigilance', '04-meadow-foraging', '05-burrow-entrance', '06-social-contact'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+
+test('integrates ocellaris clownfish with source-verified media and taxonomy', async () => {
+  const profile = findSpecies('ocellaris-clownfish');
+  const tree = buildTaxonomyTree(species);
+  assert.equal(findTaxon(tree, 'family', 'Pomacentridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Amphiprion')?.children[0]?.species.scientificName, 'Amphiprion ocellaris');
+  assert.equal(profile.metrics.adultLengthCm, undefined, 'a maximum-only length record must not become an adult range');
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'ocellaris-clownfish',
+    basenames: ['01-reef-cover', '02-field-marks', '03-anemone-shelter', '04-size-hierarchy', '05-egg-care', '06-reef-foraging'],
     verifyAcceptedHashes: true,
   });
 });

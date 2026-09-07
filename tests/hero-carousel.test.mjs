@@ -220,6 +220,12 @@ test('new generated covers keep the complete subject inside every hero animation
       fullBody: { left: 930, top: 395, right: 1100, bottom: 710 },
     },
     {
+      slug: 'ocellaris-clownfish',
+      sha256: '70fd1d363900d1a3b4e0afa314b0007199ed8f4e8fbc75976207530add6ad756',
+      fullBody: { left: 1080, top: 325, right: 1270, bottom: 415 },
+      composedSafeAreas,
+    },
+    {
       slug: 'garden-snail',
       sha256: '0bb8712030196d2b9413bc36c2872af539d8d9be43d79a48a1eb1cc89551ae24',
       fullBody: { left: 1145, top: 328, right: 1295, bottom: 405 },

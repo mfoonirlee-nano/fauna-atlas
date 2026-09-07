@@ -211,3 +211,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 ```
 
 - [Himalayan marmot image set](./species/himalayan-marmot/README.md)
+
+- [Ocellaris Clownfish image set](./species/ocellaris-clownfish/README.md)
