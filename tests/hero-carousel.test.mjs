@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'ramazzottius-varieornatus',
+      sha256: 'a1ff461d20b6e49cbae3431cfd7d96c47289182a570648e5780c148f13d94aa9',
+      fullBody: { left: 1188, top: 408, right: 1328, bottom: 467 },
+      composedSafeAreas,
+    },
+    {
       slug: 'totoro-velvet-worm',
       sha256: '9601f3a4a024a3eb67d6f2b80994426012a50951cf2cc0f32b5a486a000fed25',
       fullBody: { left: 1134, top: 375, right: 1284, bottom: 413 },

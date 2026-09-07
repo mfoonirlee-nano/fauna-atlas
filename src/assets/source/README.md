@@ -235,3 +235,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Plains Zebra image set](./species/plains-zebra/README.md)
 
 - [Totoro Velvet Worm image set](./species/totoro-velvet-worm/README.md)
+
+- [Ramazzottius varieornatus image set](./species/ramazzottius-varieornatus/README.md)

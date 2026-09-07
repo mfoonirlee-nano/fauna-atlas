@@ -24510,7 +24510,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 137);
+  assert.equal(species.length, 138);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24681,7 +24681,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 137);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 138);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25355,6 +25355,28 @@ test('integrates the first onychophoran with scoped evidence and reviewed media'
   await assertGeneratedImageSet({
     profile, slug: 'totoro-velvet-worm',
     basenames: ['01-forest-cover', '02-body-profile', '03-head-papillae', '04-slime-hunting', '05-lobopod-feet', '06-forest-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+
+test('integrates the first tardigrade with conditional anhydrobiosis and reviewed media', async () => {
+  const profile = findSpecies('ramazzottius-varieornatus');
+  const tree = buildTaxonomyTree(species);
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Tardigrada', 'Eutardigrada', 'Parachela', 'Ramazzottiidae', 'Ramazzottius',
+  ]);
+  assert.equal(findTaxon(tree, 'phylum', 'Tardigrada')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Ramazzottius')?.children[0]?.species.id, profile.id);
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.equal(profile.conservation.trend, 'unknown');
+  assert.equal(profile.metrics.lifespanYears, undefined, 'culture lifespan is not a wild longevity range');
+  assert.equal(profile.distribution.endemicTo, undefined, 'culture origin is not endemic range');
+  assert.match(profile.storySections.find(({ key }) => key === 'proteins').body, /人类培养细胞/);
+  assert.match(profile.storySections.find(({ key }) => key === 'anhydrobiosis').body, /并非每个个体都会恢复/);
+  await assertGeneratedImageSet({
+    profile, slug: 'ramazzottius-varieornatus',
+    basenames: ['01-moss-cover', '02-active-body', '03-dry-tun', '04-rehydration', '05-algal-feeding', '06-moss-habitat'],
     verifyAcceptedHashes: true,
   });
 });
