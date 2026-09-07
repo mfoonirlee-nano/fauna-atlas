@@ -218,6 +218,12 @@ test('retains assessment years except for explicitly documented missing evidence
   for (const profile of species) {
     if (profile.conservation.code === 'NE') {
       assert.equal(profile.conservation.assessedYear, undefined);
+    } else if (profile.slug === 'spider-tailed-horned-viper') {
+      // IUCN's 2022 category-change table confirms NT, but does not give the assessment date.
+      assert.equal(profile.conservation.code, 'NT');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.ok(profile.sources.some((source) => source.url.endsWith('2022-2_RL_Stats_Table_7.pdf')));
+      assert.ok(profile.keyFacts.some((fact) => fact.includes('未取得独立评估')));
     } else if (profile.slug === 'himalayan-marmot') {
       // MDD/RSPN confirm LC; the inaccessible IUCN source leaves its assessment date unverified.
       assert.equal(profile.conservation.code, 'LC');
@@ -24493,7 +24499,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 126);
+  assert.equal(species.length, 127);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24628,7 +24634,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 13);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 1);
@@ -24644,7 +24650,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 7);
   assert.equal(findTaxon(tree, 'family', 'Agamidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Moloch')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Phrynosomatidae')?.speciesCount, 1);
@@ -24664,7 +24670,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 126);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 127);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24685,7 +24691,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 85);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 86);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 36);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -25140,6 +25146,22 @@ test('integrates ocellaris clownfish with source-verified media and taxonomy', a
     profile,
     slug: 'ocellaris-clownfish',
     basenames: ['01-reef-cover', '02-field-marks', '03-anemone-shelter', '04-size-hierarchy', '05-egg-care', '06-reef-foraging'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates spider-tailed viper media and the new viper family branch', async () => {
+  const profile = findSpecies('spider-tailed-horned-viper');
+  const tree = buildTaxonomyTree(species);
+  assert.equal(findTaxon(tree, 'family', 'Viperidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Pseudocerastes')?.children[0]?.species.scientificName, 'Pseudocerastes urarachnoides');
+  assert.ok(profile.distribution.countries.includes('伊拉克'), 'newer Iraqi records must not be lost to the older Iran-only account');
+  assert.equal(profile.distribution.endemicTo, undefined);
+  assert.equal(profile.conservation.assessedYear, undefined, 'status-table publication year is not an assessment date');
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'spider-tailed-horned-viper',
+    basenames: ['01-limestone-cover', '02-field-marks', '03-tail-lure', '04-rock-camouflage', '05-lure-posture', '06-zagros-habitat'],
     verifyAcceptedHashes: true,
   });
 });

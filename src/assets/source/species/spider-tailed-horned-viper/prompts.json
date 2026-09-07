@@ -1,0 +1,42 @@
+[
+  {
+    "name": "rejected-original-cover",
+    "prompt": "Use case: photorealistic-natural. Scientific natural history reconstruction, landscape 1536x1024. ONE spider-tailed horned viper Pseudocerastes urarachnoides, gray beige mottled heavily keeled rough scales, squat triangular head, tiny supraocular horns, compact coiled stout snake body, single short tail ending in oval bulb fringed with narrow elongated scales like spider legs, anatomically continuous tail not a separate spider. On weathered pale gypsum rock in western Iran arid Zagros foothills. CRITICAL hero composition: entire small coiled snake including head and tail lure within x=1150..1300 y=330..410 pixels, animal center 80% across and 36% down. Pull camera FAR BACK. Left 65% quiet soft rock texture with distant scrub bokeh. All outer anatomy inside frame with generous real background. Natural muted daylight, no text, no watermark, no collage, no additional animals."
+  },
+  {
+    "name": "rejected-cover-edit",
+    "prompt": "Edit the referenced 1536x1024 image. There must be exactly ONE snake head: remove the right-hand extra head-like lump on the coils, make it a plain continuous coil. Shrink the entire snake to 32 percent of its current linear size and MOVE it so its complete boundary is x=1150..1295 y=328..425. The snake must be very small, centered 80 percent across and 37 percent down. Rebuild the rock naturally where original snake was. Preserve the coiled gray rough-scaled Pseudocerastes urarachnoides, ONE triangular head with small eye horns and ONE attached short spider-fringed bulb tail. Keep landscape and lighting, no other snakes or spiders, no text."
+  },
+  {
+    "name": "rejected-cover-edit-2",
+    "prompt": "Move the small coiled snake 250 pixels to the RIGHT and 30 pixels UP in this exact image. Preserve its current small size. Final snake center x=1235,y=365 on the 1536x1024 canvas. Keep ONE head and ONE attached short fringed tail. Remove ALL stray tail-like objects to left of snake, only one snake. Rebuild background naturally. No other changes."
+  },
+  {
+    "name": "01-limestone-cover",
+    "prompt": "Create a NEW wildlife environmental photo using this snake as anatomical reference only. Landscape 1536x1024. Flat pale limestone ground fills the entire frame, photographed from above at a shallow angle, no horizon. One VERY TINY coiled spider-tailed viper resting ON the rock, with a real contact shadow. Position at 80% from the left and 36% from the top. Snake entire width 8% of image, entire height 7% of image. All of its head, coil and short fringed bulb tail visible within this tiny footprint. Left two thirds empty softly textured limestone. It must NOT float. This is a wide environment shot with a tiny snake. No text, no other animals."
+  },
+  {
+    "name": "02-field-marks",
+    "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction, exact 1536x1024 landscape. Pseudocerastes urarachnoides spider-tailed horned viper on pale weathered gypsum limestone, western Iran. Accurate gray-beige mottled heavily keeled scales, small supraocular horns, ONE broad triangular head, stout body and ONE short anatomically attached tail ending in swollen oval bulb fringed by elongated narrow scales, not a real spider. Natural muted daylight. No text, no watermark, no collage, no extra heads, no extra tails. One entire snake in loose S coil, head facing left, single tail clearly connected and visible to right, centered fills 65 percent width with generous margins, oblique side view showing rough scales and small horns."
+  },
+  {
+    "name": "03-tail-lure",
+    "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction, exact 1536x1024 landscape. Pseudocerastes urarachnoides spider-tailed horned viper on pale weathered gypsum limestone, western Iran. Accurate gray-beige mottled heavily keeled scales, small supraocular horns, ONE broad triangular head, stout body and ONE short anatomically attached tail ending in swollen oval bulb fringed by elongated narrow scales, not a real spider. Natural muted daylight. No text, no watermark, no collage, no extra heads, no extra tails. Macro close-up focused on the snake's single short tail, visibly connected to rear body entering upper left. The tip has a fleshy oval terminal bulb, flanked by long thin flexible pointed scales resembling legs, asymmetric natural fringes. Resting on rock. NO spider eyes or actual jointed arthropod limbs, no separate spider. Head outside this intentional anatomical detail crop."
+  },
+  {
+    "name": "04-rock-camouflage",
+    "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction, exact 1536x1024 landscape. Pseudocerastes urarachnoides spider-tailed horned viper on pale weathered gypsum limestone, western Iran. Accurate gray-beige mottled heavily keeled scales, small supraocular horns, ONE broad triangular head, stout body and ONE short anatomically attached tail ending in swollen oval bulb fringed by elongated narrow scales, not a real spider. Natural muted daylight. No text, no watermark, no collage, no extra heads, no extra tails. One complete loosely coiled snake resting motionless beside a limestone fissure, similar gray and brown tones to rock. Wide habitat portrait, full snake occupies center 45 percent width. No other animals. Natural camouflage but outline remains discernible."
+  },
+  {
+    "name": "05-lure-posture",
+    "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction, exact 1536x1024 landscape. Pseudocerastes urarachnoides spider-tailed horned viper on pale weathered gypsum limestone, western Iran. Accurate gray-beige mottled heavily keeled scales, small supraocular horns, ONE broad triangular head, stout body and ONE short anatomically attached tail ending in swollen oval bulb fringed by elongated narrow scales, not a real spider. Natural muted daylight. No text, no watermark, no collage, no extra heads, no extra tails. One entire snake coiled compactly with ONE head resting at front left of coils, short tail extending forward beside head onto open stone, terminal fringed bulb clearly attached to tail. All anatomy inside frame. Camera low oblique side view, full animal occupies central 60 percent width. No bird, no prey, no blood, no strike. Static posture only."
+  },
+  {
+    "name": "06-zagros-habitat",
+    "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction, exact 1536x1024 landscape. Pseudocerastes urarachnoides spider-tailed horned viper on pale weathered gypsum limestone, western Iran. Accurate gray-beige mottled heavily keeled scales, small supraocular horns, ONE broad triangular head, stout body and ONE short anatomically attached tail ending in swollen oval bulb fringed by elongated narrow scales, not a real spider. Natural muted daylight. No text, no watermark, no collage, no extra heads, no extra tails. Wide landscape of arid western Zagros foothills in Iran, pale eroded limestone outcrops, deep narrow rock cracks and sparse dry scrub. No animals visible, no people, no buildings, no text. Detailed foreground fissure, receding dry rocky hills, natural late afternoon light. Habitat reconstruction not a specific geolocated site."
+  },
+  {
+    "name": "02-field-marks-final-edit",
+    "prompt": "Edit only the tail lure and eye horns of the full-body snake in image 1. Replace its fluffy pompom tail with a much smaller oval bulb bordered by a sparse row of long thin tapering scales along each side, using image 2 as anatomical reference. No hair or brush bristles. Shorten eye horns to low blunt scale clusters. Keep one head, body, tail connection, rock and framing unchanged. 1536x1024."
+  }
+]

@@ -226,6 +226,12 @@ test('new generated covers keep the complete subject inside every hero animation
       composedSafeAreas,
     },
     {
+      slug: 'spider-tailed-horned-viper',
+      sha256: 'ef6fde6b403090d9e6ed5a305f840a88b36a96618043923dd19b9ba51d2be0d1',
+      fullBody: { left: 1035, top: 330, right: 1238, bottom: 445 },
+      composedSafeAreas,
+    },
+    {
       slug: 'garden-snail',
       sha256: '0bb8712030196d2b9413bc36c2872af539d8d9be43d79a48a1eb1cc89551ae24',
       fullBody: { left: 1145, top: 328, right: 1295, bottom: 405 },
