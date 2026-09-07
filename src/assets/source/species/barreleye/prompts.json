@@ -1,0 +1,26 @@
+[
+  {
+    "name": "01-midwater-cover",
+    "prompt": "Use case: scientific-educational. Original natural history realistic reconstruction of Macropinna microstoma, barreleye fish. Landscape 1536x1024. Anatomically accurate short dark brown deep-bodied fish, small mouth, clear fluid-filled dome over head enclosing TWO green upward-looking tubular eyes, small dark olfactory pits above mouth are NOT eyes; broad delicate transparent fins, forked tail. No text, logos, borders, collage or fantasy glow. A very wide dark navy midwater scene. One COMPLETE TINY fish facing left, including ALL transparent fin edges and tail within x=1165..1335 and y=315..395 on the 1536x1024 canvas. Fish center at x1250 y355, only 11% canvas width. Left 70% quiet empty blue-black water. No seabed, surface or bubbles. Soft ROV light on fish, sparse marine snow. This exact small upper-right placement is essential for website hero safety."
+  },
+  {
+    "name": "02-transparent-head",
+    "prompt": "Use case: scientific-educational. Original natural history realistic reconstruction of Macropinna microstoma, barreleye fish. Landscape 1536x1024. Anatomically accurate short dark brown deep-bodied fish, small mouth, clear fluid-filled dome over head enclosing TWO green upward-looking tubular eyes, small dark olfactory pits above mouth are NOT eyes; broad delicate transparent fins, forked tail. No text, logos, borders, collage or fantasy glow. Close three-quarter side view of one fish, complete body centered and large. Clear dome showing the two green lens caps directed upward. Emphasize distinction between dark nostril-like olfactory pits on face and actual green eyes inside head."
+  },
+  {
+    "name": "03-upward-gaze",
+    "prompt": "Use case: scientific-educational. Original natural history realistic reconstruction of Macropinna microstoma, barreleye fish. Landscape 1536x1024. Anatomically accurate short dark brown deep-bodied fish, small mouth, clear fluid-filled dome over head enclosing TWO green upward-looking tubular eyes, small dark olfactory pits above mouth are NOT eyes; broad delicate transparent fins, forked tail. No text, logos, borders, collage or fantasy glow. Detailed side-front portrait of head and front body only, intentionally cropped body. Inside intact transparent dome TWO tubular eyes stand upward with green lens caps. Dark midwater. Scientific visual reconstruction, subtle reflections, not a cutaway."
+  },
+  {
+    "name": "04-broad-fins",
+    "prompt": "Use case: scientific-educational. Original natural history realistic reconstruction of Macropinna microstoma, barreleye fish. Landscape 1536x1024. Anatomically accurate short dark brown deep-bodied fish, small mouth, clear fluid-filled dome over head enclosing TWO green upward-looking tubular eyes, small dark olfactory pits above mouth are NOT eyes; broad delicate transparent fins, forked tail. No text, logos, borders, collage or fantasy glow. Complete fish viewed obliquely from above and side, suspended horizontally in black-blue water with broad paired transparent pectoral fins spread, forked tail intact. All fins comfortably in frame, centered composition. Accurate sober ROV-like illumination."
+  },
+  {
+    "name": "05-midwater-habitat",
+    "prompt": "Use case: scientific-educational. Original natural history realistic reconstruction of Macropinna microstoma, barreleye fish. Landscape 1536x1024. Anatomically accurate short dark brown deep-bodied fish, small mouth, clear fluid-filled dome over head enclosing TWO green upward-looking tubular eyes, small dark olfactory pits above mouth are NOT eyes; broad delicate transparent fins, forked tail. No text, logos, borders, collage or fantasy glow. Animal-free deep North Pacific midwater habitat reconstruction at about 700m: dark blue-black open water, sparse sinking marine snow picked out by gentle off-frame ROV lighting. No fish, no seabed, no visible ocean surface, no sun shafts, no bubbles. Understated natural-history background."
+  },
+  {
+    "name": "06-rov-observation",
+    "prompt": "Use case: scientific-educational. Original natural history realistic reconstruction of Macropinna microstoma, barreleye fish. Landscape 1536x1024. Anatomically accurate short dark brown deep-bodied fish, small mouth, clear fluid-filled dome over head enclosing TWO green upward-looking tubular eyes, small dark olfactory pits above mouth are NOT eyes; broad delicate transparent fins, forked tail. No text, logos, borders, collage or fantasy glow. Scientific scene reconstruction of an unbranded research ROV viewed from a distance in dark open midwater, illuminating a tiny single barreleye fish several meters away with gentle lights. ROV left, fish right, no contact or capture. No diver, seabed, text or fictional equipment."
+  }
+]

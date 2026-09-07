@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'barreleye',
+      sha256: 'b0d49814ffda461cfdf7a61f46de776cfac47644eaaf053de772826c48aac1ed',
+      fullBody: { left: 1130, top: 328, right: 1258, bottom: 393 },
+      composedSafeAreas,
+    },
+    {
       slug: 'darwins-frog',
       sha256: '7447ef467e913e22fc80b712b0bdcb3923ede4b8881dcae7d126611460553123',
       fullBody: { left: 1165, top: 300, right: 1350, bottom: 400 },
