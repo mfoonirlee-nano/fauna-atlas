@@ -1,0 +1,38 @@
+[
+  {
+    "name": "01-monsoon-cover",
+    "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 landscape wildlife atlas cover. Western Ghats India monsoon forest floor with dark damp soil, soft leaf litter, distant green forest blur. One anatomically accurate adult purple frog Nasikabatrachus sahyadrensis, plump rounded dark purplish brown body, tiny eyes, small head with pointed pale piglike snout, short stout limbs and toes, smooth moist skin, NO bright purple color. Complete animal in side view facing left, all visible toes included, positioned in a SMALL rectangle x=1125..1280 y=325..410, center (1202,367). Animal deliberately small in landscape for responsive hero crop. Soil directly under its feet and contact shadow. Left 40% calm dark background for title. Natural history editorial photograph-style scientific reconstruction. No text, watermark, frame, other animals or cutaway."
+  },
+  {
+    "name": "02-body-form",
+    "prompt": "Use case: photorealistic-natural. A 1536x1024 natural-history atlas image of one adult Indian purple frog Nasikabatrachus sahyadrensis in close three-quarter side view on damp reddish forest soil and leaf litter. Accurate very rounded plump dark purplish grey brown body, disproportionately small head, small dark eyes, short narrow pointed pale snout like a tiny pig nose, short stout limbs, smooth moist skin. Full body and all visible toes within frame. Natural soft forest daylight, subtle colors, detailed skin. AI scientific reconstruction, no text, no labels, no watermark, no other animals, no inflated vocal sac or bright purple coloration."
+  },
+  {
+    "name": "03-burrow-entrance",
+    "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape scientific scene reconstruction: Indian purple frog Nasikabatrachus sahyadrensis at a shallow burrow entrance under damp leaf litter in Western Ghats forest. Close low viewpoint, only small pointed pale piglike snout, tiny dark eye, round dark purplish grey head and part of stout forelimb visible under the overhanging loose soil. Body concealed naturally inside soil, no transparent earth, no cutaway. Moist granular soil, small roots, quiet dim natural light. Anatomically plausible small-eyed frog, no mammal ears or fur, no text, no other animal, no watermark."
+  },
+  {
+    "name": "04-seasonal-stream",
+    "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 landscape natural-history habitat reconstruction for the Indian purple frog: a shaded seasonal stream in the Western Ghats during early monsoon. Low viewpoint over dark wet bedrock, small shallow pools connected by rushing clear water, leaf litter and loose earthy banks, dense evergreen forest canopy, diffuse rainy daylight. Habitat only, no animals or people. Museum editorial photography style, natural subdued greens and browns, no text or watermark, no identifiable exact location."
+  },
+  {
+    "name": "05-snout-detail",
+    "prompt": "Use case: photorealistic-natural. Generate 1536x1024 natural history atlas scientific reconstruction showing close-up of the small head and pointed pale snout of an Indian purple frog Nasikabatrachus sahyadrensis. Tiny dark lateral eye, rounded dark purplish grey moist bare skin, no external visible eardrum, small closed mouth under pointed snout. Crop intentionally includes head, shoulder and forefoot on moist soil, round plump body extends out of frame to the left. Side view, restrained soft natural lighting, shallow depth of field, realistic anatomy, no text, no mammal fur, no giant eyes, no extra animals."
+  },
+  {
+    "name": "06-rainy-bank",
+    "prompt": "Use case: photorealistic-natural. Generate 1536x1024 editorial natural-history atlas image, AI scientific reconstruction. One Indian purple frog Nasikabatrachus sahyadrensis with plump round dark purplish brown body, tiny head and small eyes, pointed pale piglike snout and short stout frog limbs. Full animal in side view at right of foreground on damp loose soil beside a shallow seasonal rocky stream during early monsoon rain, glistening leaves, gentle raindrops, low canopy light. Animal sits naturally on land, not swimming, no eggs or tadpoles, no text, no other animals, no extra toes or limbs, no neon purple, no watermark. Medium view distinct from a close-up."
+  },
+  {
+    "name": "coverEdit",
+    "prompt": "Edit this wildlife cover only by resizing and relocating the frog and its contact shadow: make the entire frog about 55 percent of its present size and put its full visible boundary within x=1125..1285, y=325..415 on the existing 1536x1024 canvas. Its feet must rest on a natural patch of damp forest soil at that height, not float. Reconstruct the old frog area as continuous leaf litter and soil. Preserve species morphology, forest lighting, empty left area, and image dimensions. This very small high-right placement is required for website crop clearance. No text, no second animal."
+  },
+  {
+    "name": "coverEdit2",
+    "prompt": "Move the small frog exactly 105 pixels LEFT and 55 pixels UP in this 1536x1024 image, keeping its current small size. Target full frog rectangle x=1135 to1275, y=325 to402. Rebuild damp soil under its new feet so it rests on the ground. Fill old frog location with continuous forest floor. Preserve all other composition and lighting, no extra frogs, no text."
+  },
+  {
+    "name": "coverEdit3",
+    "prompt": "Reposition the frog in this forest photo. Keep its size unchanged. Move it to the RIGHT so its center is at 78 percent of the image width, and slightly UP so its center is at 36 percent of image height. The complete frog must lie within 73 to84 percent horizontal and 31 to40 percent vertical. Ensure natural soil support beneath feet, reconstruct vacated area. Keep landscape and lighting unchanged, one frog only, no text."
+  }
+]

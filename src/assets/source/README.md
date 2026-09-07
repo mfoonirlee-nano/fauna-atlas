@@ -217,3 +217,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Ocellaris Clownfish image set](./species/ocellaris-clownfish/README.md)
 
 - [Hairy Frog image set](./species/hairy-frog/README.md)
+
+- [Purple Frog image set](./species/purple-frog/README.md)

@@ -218,7 +218,7 @@ test('retains assessment years except for explicitly documented missing evidence
   for (const profile of species) {
     if (profile.conservation.code === 'NE') {
       assert.equal(profile.conservation.assessedYear, undefined);
-    } else if (profile.slug === 'spider-tailed-horned-viper') {
+    } else if (['spider-tailed-horned-viper', 'purple-frog'].includes(profile.slug)) {
       // IUCN's 2022 category-change table confirms NT, but does not give the assessment date.
       assert.equal(profile.conservation.code, 'NT');
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24505,7 +24505,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 128);
+  assert.equal(species.length, 129);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24665,8 +24665,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 8);
-  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Pipidae')?.speciesCount, 1);
@@ -24676,7 +24676,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 128);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 129);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24697,7 +24697,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 87);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 88);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 36);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -25185,6 +25185,24 @@ test('integrates hairy frog under its accepted genus while retaining the older s
     profile,
     slug: 'hairy-frog',
     basenames: ['01-stream-cover', '02-male-papillae', '03-female-forest-floor', '04-stream-habitat', '05-papillae-detail', '06-stream-night'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+
+test('integrates purple frog with its own family, updated status and complete image set', async () => {
+  const profile = findSpecies('purple-frog');
+  const tree = buildTaxonomyTree(species);
+  assert.equal(profile.scientificName, 'Nasikabatrachus sahyadrensis');
+  assert.equal(findTaxon(tree, 'family', 'Nasikabatrachidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Nasikabatrachus')?.children[0]?.species.id, profile.id);
+  assert.equal(profile.conservation.code, 'NT');
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.ok(profile.sources.some(({ url }) => url.endsWith('Monsoon_croaks_report.pdf')));
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'purple-frog',
+    basenames: ['01-monsoon-cover', '02-body-form', '03-burrow-entrance', '04-seasonal-stream', '05-snout-detail', '06-rainy-bank'],
     verifyAcceptedHashes: true,
   });
 });

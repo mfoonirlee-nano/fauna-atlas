@@ -226,6 +226,12 @@ test('new generated covers keep the complete subject inside every hero animation
       composedSafeAreas,
     },
     {
+      slug: 'purple-frog',
+      sha256: 'd112b046ee8428674e26db4d1795cac2320202a7906b024c236611989f7674df',
+      fullBody: { left: 1090, top: 348, right: 1270, bottom: 452 },
+      composedSafeAreas,
+    },
+    {
       slug: 'hairy-frog',
       sha256: '7f04b42b9b71f451a01a3a296558230dbc7092b8a381545c6ccb1490389c0dd4',
       fullBody: { left: 1122, top: 322, right: 1284, bottom: 410 },
