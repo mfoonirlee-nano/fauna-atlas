@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'darwins-frog',
+      sha256: '7447ef467e913e22fc80b712b0bdcb3923ede4b8881dcae7d126611460553123',
+      fullBody: { left: 1165, top: 300, right: 1350, bottom: 400 },
+      composedSafeAreas,
+    },
+    {
       slug: 'superb-lyrebird',
       sha256: '4e87b6137edd07bee2d95db6ee68eba161bcd179a3102efc7318bea3f0b96ee1',
       fullBody: { left: 930, top: 395, right: 1100, bottom: 710 },

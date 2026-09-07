@@ -1,0 +1,42 @@
+[
+  {
+    "file": "01-forest-cover",
+    "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 landscape wildlife editorial scientific scene reconstruction for Fauna Atlas. One Southern Darwin's frog Rhinoderma darwinii in a Chilean temperate rainforest on fine moss and brown leaf litter. Anatomically credible small angular leaf-shaped frog, pointed projecting fleshy snout, green dorsum and brown flanks, tiny slender limbs. CRITICAL hero layout: the entire frog including every toe must fit INSIDE rectangle x=1100 to 1260, y=340 to 435 in the 1536x1024 image. Small subject with center around (1180,390). Environment fills the rest. Wide environmental shot, NOT close up. Quiet dark blurred forest in left 40 percent. Natural soft forest daylight, no text, no diagrams, no border, no watermark, no other animals."
+  },
+  {
+    "file": "01-forest-cover-edit",
+    "prompt": "Edit this image for exact website layout. Keep the same forest and frog identity, 1536x1024. MOVE the frog UP and slightly RIGHT: its whole body including all toes must fit within x1100..1260 and y340..435. Current frog is too low at y520..650. Reduce frog size about 25%. Reconstruct the leaf litter at the old position. Entire frog center must be (1180,388), well ABOVE image midline. No added text or other animals."
+  },
+  {
+    "file": "02-leaf-shaped-body",
+    "prompt": "Use case: photorealistic-natural. 1536x1024 wildlife editorial scientific reconstruction. Close full-body view of one Southern Darwin's frog Rhinoderma darwinii crouching on wet brown leaf litter and fine moss in Chilean temperate forest. Green angular leaf-shaped back, brown flanks, triangular head and distinctive fleshy pointed snout, small realistic toes and slender legs. Subject center with all toes visible and generous margins. Soft natural light, realistic skin, no giant toe pads, no text, no watermark."
+  },
+  {
+    "file": "01-forest-cover-edit-2",
+    "prompt": "Move only the frog 70 pixels RIGHT and 80 pixels DOWN in this 1536x1024 image. Keep its current size and anatomy. Current boundary approximately x1035..1215 y265..367. Desired boundary x1105..1285 y345..447. Reconstruct moss at old position. Preserve forest composition. No text."
+  },
+  {
+    "file": "03-forest-eggs",
+    "prompt": "Use case: photorealistic-natural. Generate 1536x1024 scientific wildlife scene reconstruction: a male Southern Darwin's frog Rhinoderma darwinii resting beside a small loose cluster of translucent frog eggs on damp leaf litter in temperate Chilean forest, near-hatching eggs contain tiny dark embryos. Full frog visible with triangular head, pointed fleshy nose, green brown leaf-shaped body. Eggs on moist land, no pond. Intimate natural macro editorial view, biologically plausible small clutch, no transparent body, no text, no labels or watermark. This is an illustrative egg-guarding scene."
+  },
+  {
+    "file": "04-throat-profile",
+    "prompt": "Use case: photorealistic-natural. 1536x1024 landscape scientific scene reconstruction. Close side profile of male Southern Darwin's frog Rhinoderma darwinii on damp Chilean forest moss. Its opaque throat and upper chest are moderately rounded during vocal-sac brooding; entirely normal intact skin, closed mouth, no visible babies or internal organs. Angular green-brown leaf-shaped frog, pointed soft snout, tiny toes, complete body visible. Gentle forest light and blurred background. Restrained realistic anatomy, no huge balloon sac, no text, no watermark."
+  },
+  {
+    "file": "05-froglet",
+    "prompt": "Use case: photorealistic-natural. 1536x1024 wildlife scientific scene reconstruction. One tiny recently metamorphosed Southern Darwin's frog Rhinoderma darwinii froglet standing on moist brown leaf among fine moss, a small pointed snout and brown angular body with delicate limbs. Close macro photograph-like view at froglet eye level, full animal with margins, leaf veins and moss provide scale, no adult, no tail, no water, no text or watermark. Understated natural forest lighting."
+  },
+  {
+    "file": "06-temperate-forest",
+    "prompt": "Use case: photorealistic-natural. 1536x1024 landscape habitat reconstruction for Southern Darwin's frog. Ground-level view of humid Valdivian temperate rainforest in southern Chile: moss-covered fallen wood, dark moist leaf litter, ferns, mature broadleaf tree trunks, soft overcast light through dense canopy. Emphasize damp terrestrial forest floor, no pond, no animals, no people, no tropical palms, no text, no watermark. Understated natural history editorial photography."
+  },
+  {
+    "file": "01-forest-cover-edit-3",
+    "prompt": "Precise layout edit, keep this image 1536x1024: shift the entire frog UP by 65 pixels and LEFT by 20 pixels, and reduce its size by 10 percent. Its final complete outline should occupy x1095..1275, y345..440. Leave forest unchanged except repairing old frog location. Do not move it any farther up. No other changes."
+  },
+  {
+    "file": "01-forest-cover-edit-4",
+    "prompt": "Move the frog to the RIGHT by exactly its own body length (about 165 pixels). Keep its size and vertical height unchanged. Move it horizontally only. Rebuild the moss where it was. The animal should now be near the right edge, centered at 80 percent of the image width. Preserve all remaining forest pixels. No text."
+  }
+]

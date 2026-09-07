@@ -219,3 +219,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Hairy Frog image set](./species/hairy-frog/README.md)
 
 - [Purple Frog image set](./species/purple-frog/README.md)
+
+- [Southern Darwin’s Frog image set](./species/darwins-frog/README.md)
