@@ -224,6 +224,12 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.sources.some((source) => source.url.endsWith('2022-2_RL_Stats_Table_7.pdf')));
       assert.ok(profile.keyFacts.some((fact) => fact.includes('未取得独立评估')));
+    } else if (profile.slug === 'hairy-frog') {
+      // The IUCN regional review lists LC but does not establish the individual assessment date.
+      assert.equal(profile.conservation.code, 'LC');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.ok(profile.sources.some((source) => source.url.endsWith('SSC-OP-054.pdf')));
+      assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('未核实独立评估日期')));
     } else if (profile.slug === 'himalayan-marmot') {
       // MDD/RSPN confirm LC; the inaccessible IUCN source leaves its assessment date unverified.
       assert.equal(profile.conservation.code, 'LC');
@@ -24499,7 +24505,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 127);
+  assert.equal(species.length, 128);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24659,8 +24665,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 7);
-  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Pipidae')?.speciesCount, 1);
@@ -24670,7 +24676,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 127);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 128);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24691,7 +24697,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 86);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 87);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 36);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -25162,6 +25168,23 @@ test('integrates spider-tailed viper media and the new viper family branch', asy
     profile,
     slug: 'spider-tailed-horned-viper',
     basenames: ['01-limestone-cover', '02-field-marks', '03-tail-lure', '04-rock-camouflage', '05-lure-posture', '06-zagros-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+
+test('integrates hairy frog under its accepted genus while retaining the older searchable name', async () => {
+  const profile = findSpecies('hairy-frog');
+  const tree = buildTaxonomyTree(species);
+  assert.equal(profile.scientificName, 'Astylosternus robustus');
+  assert.ok(profile.names.aliases.includes('Trichobatrachus robustus'));
+  assert.equal(findTaxon(tree, 'family', 'Arthroleptidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Astylosternus')?.children[0]?.species.id, profile.id);
+  assert.equal(findTaxon(tree, 'genus', 'Trichobatrachus'), undefined);
+  await assertGeneratedImageSet({
+    profile,
+    slug: 'hairy-frog',
+    basenames: ['01-stream-cover', '02-male-papillae', '03-female-forest-floor', '04-stream-habitat', '05-papillae-detail', '06-stream-night'],
     verifyAcceptedHashes: true,
   });
 });

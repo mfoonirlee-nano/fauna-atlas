@@ -1,0 +1,34 @@
+[
+  {
+    "file": "01-stream-cover",
+    "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover, no text. Central African rainforest stream, quiet dark wet stone and softly blurred forest. One anatomically accurate adult male hairy frog (Astylosternus robustus, synonym Trichobatrachus robustus), brown broad flattened head, robust brown frog body, folded hind legs, fine brown skin papillae ONLY along flanks and thighs, no fur on head or back. Full frog including every toe contained in a SMALL rectangle x=1060..1230 y=330..435 on the 1536x1024 canvas, center around (1145,385). This small distant subject is deliberate for responsive hero crops. Side three-quarter view, facing left, firmly resting on broad wet stone at stream edge with contact shadow. Left 40 percent entirely quiet subdued stone/forest background. No other animals, no exposed claws, no blood, no mammal fur, no text, no borders. Natural history editorial reconstruction."
+  },
+  {
+    "file": "02-male-papillae",
+    "prompt": "Use case: photorealistic-natural. Asset: wildlife atlas educational AI reconstruction, 1536x1024 landscape. Species Astylosternus robustus (synonym Trichobatrachus robustus), hairy frog. A full adult male hairy frog in three-quarter side view on wet stream rock, close enough to see brown hairlike SKIN PAPILLAE in narrow bands on the FLANKS and upper HIND THIGHS only. Broad brown head and mottled brown dorsum remain bare smooth frog skin. Robust body, short forelimbs and folded powerful hindlimbs. Anatomically accurate toes. Entire animal in frame. No exposed claws. Museum editorial wildlife photography style, anatomically plausible frog, subdued natural colors. No text, labels, watermarks, borders, collage, fantasy or exaggerated anatomy."
+  },
+  {
+    "file": "03-female-forest-floor",
+    "prompt": "Use case: photorealistic-natural. Asset: wildlife atlas educational AI reconstruction, 1536x1024 landscape. Species Astylosternus robustus (synonym Trichobatrachus robustus), hairy frog. One adult female hairy frog, robust brown frog with broad head, smooth bare flanks WITHOUT male hairlike papillae, crouched on wet leaf litter beside rainforest stream. Close natural side view with all feet inside frame. No claws exposed, no fur, no male papillae. Museum editorial wildlife photography style, anatomically plausible frog, subdued natural colors. No text, labels, watermarks, borders, collage, fantasy or exaggerated anatomy."
+  },
+  {
+    "file": "04-stream-habitat",
+    "prompt": "Use case: photorealistic-natural. Asset: wildlife atlas educational AI reconstruction, 1536x1024 landscape. Species Astylosternus robustus (synonym Trichobatrachus robustus), hairy frog. A low viewpoint along a shallow fast flowing rocky rainforest stream in Cameroon-like Central African forest, canopy shade, mossy rocks, wet fallen leaves, small cascades, deep lush forest. Habitat-only scene, NO animals or people. Not a named or exact location. Museum editorial wildlife photography style, anatomically plausible frog, subdued natural colors. No text, labels, watermarks, borders, collage, fantasy or exaggerated anatomy."
+  },
+  {
+    "file": "05-papillae-detail",
+    "prompt": "Use case: photorealistic-natural. Asset: wildlife atlas educational AI reconstruction, 1536x1024 landscape. Species Astylosternus robustus (synonym Trichobatrachus robustus), hairy frog. Scientific natural history close-up of the SIDE of a male hairy frog sitting at water edge. Brown hairlike vascular skin projections attached along the flank and thigh, bare brown back and head partially visible. Papillae are soft slender fleshy brown skin filaments, not mammalian fur or feathers. Natural wet skin detail, no blood, no exposed claws. Crop intentionally shows flank anatomy rather than whole animal. Museum editorial wildlife photography style, anatomically plausible frog, subdued natural colors. No text, labels, watermarks, borders, collage, fantasy or exaggerated anatomy."
+  },
+  {
+    "file": "06-stream-night",
+    "prompt": "Use case: photorealistic-natural. Asset: wildlife atlas educational AI reconstruction, 1536x1024 landscape. Species Astylosternus robustus (synonym Trichobatrachus robustus), hairy frog. One brown adult male hairy frog resting on a wet streamside stone at night with dark forest and flowing water behind, soft naturalist field light, brown papillae along sides and thighs, broad bare frog head, all limbs tucked naturally, complete animal, no claws, no other animals or people. Museum editorial wildlife photography style, anatomically plausible frog, subdued natural colors. No text, labels, watermarks, borders, collage, fantasy or exaggerated anatomy."
+  },
+  {
+    "file": "05-papillae-detail-edit",
+    "prompt": "Edit this hairy frog close-up: remove ALL filaments from the foreground FORELEG, leaving normal smooth mottled wet frog skin there. Keep skin papillae only on the flank and hind thigh. Make flank filaments soft finer fleshy threads instead of stiff thorns. Preserve original composition, lighting, background, frog head and other anatomy. No text."
+  },
+  {
+    "file": "01-stream-cover-edit",
+    "prompt": "Edit only the frog's position: move the COMPLETE frog 55 pixels to the RIGHT and 20 pixels UP on this exact 1536x1024 image, keeping identical scale, pose and anatomy, on the same broad wet rock with a natural contact shadow. Desired full frog boundary approximately x=1073..1237, y=345..430. Reconstruct vacated rock. Preserve all forest, stream, light, composition and textures elsewhere. Do not enlarge the frog. No text."
+  }
+]
