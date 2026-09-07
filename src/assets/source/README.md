@@ -223,3 +223,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Southern Darwin’s Frog image set](./species/darwins-frog/README.md)
 
 - [Pacific Barreleye image set](./species/barreleye/README.md)
+
+- [Leafy Seadragon image set](./species/leafy-seadragon/README.md)

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "01-kelp-cover",
+    "prompt": "Use case: scientific-educational. Original realistic natural history reconstruction of leafy seadragon Phycodurus eques. Landscape 1536x1024. Slender bony ringed yellow-olive fish with long tubular snout, arched neck, narrow long gently bent non-grasping tail, elaborate branching leaflike skin appendages on head body and tail, tiny transparent locomotor fins. NOT a seahorse, no coiled grasping tail, no wings, no text watermark border or collage. Temperate southern Australian sea, restrained teal and ochre colors. Very wide quiet teal water scene, faint distant kelp near bottom. One COMPLETE TINY adult facing left at upper right, entire animal INCLUDING all leaf tips snout tail and fins strictly within x=1160..1300 y=310..405. This very small animal occupies only 9% image width, center x1230 y357. Left 70% empty water for website typography. Keep generous empty water around it."
+  },
+  {
+    "name": "02-leafy-profile",
+    "prompt": "Use case: scientific-educational. Original realistic natural history reconstruction of leafy seadragon Phycodurus eques. Landscape 1536x1024. Slender bony ringed yellow-olive fish with long tubular snout, arched neck, narrow long gently bent non-grasping tail, elaborate branching leaflike skin appendages on head body and tail, tiny transparent locomotor fins. NOT a seahorse, no coiled grasping tail, no wings, no text watermark border or collage. Temperate southern Australian sea, restrained teal and ochre colors. Large complete adult side profile centered, all leaf tips and long tail comfortably in frame; blurred kelp background. Sharp natural detail of bony rings and branching leaflike appendages."
+  },
+  {
+    "name": "03-transparent-fins",
+    "prompt": "Use case: scientific-educational. Original realistic natural history reconstruction of leafy seadragon Phycodurus eques. Landscape 1536x1024. Slender bony ringed yellow-olive fish with long tubular snout, arched neck, narrow long gently bent non-grasping tail, elaborate branching leaflike skin appendages on head body and tail, tiny transparent locomotor fins. NOT a seahorse, no coiled grasping tail, no wings, no text watermark border or collage. Temperate southern Australian sea, restrained teal and ochre colors. Close side view of adult trunk and base of tail, deliberately cropped anatomical detail. Show small transparent dorsal fin near tail base distinct from larger opaque yellow-green skin appendages. Underwater macro realism, no arrows or text."
+  },
+  {
+    "name": "04-mysid-feeding",
+    "prompt": "Use case: scientific-educational. Original realistic natural history reconstruction of leafy seadragon Phycodurus eques. Landscape 1536x1024. Slender bony ringed yellow-olive fish with long tubular snout, arched neck, narrow long gently bent non-grasping tail, elaborate branching leaflike skin appendages on head body and tail, tiny transparent locomotor fins. NOT a seahorse, no coiled grasping tail, no wings, no text watermark border or collage. Temperate southern Australian sea, restrained teal and ochre colors. Side view of leafy seadragon head with long tubular snout facing one tiny translucent mysid shrimp just before its mouth in open water. Rest of body visible behind, fine leaf appendages, understated underwater macro scene; no teeth or tongue, no stream of bubbles."
+  },
+  {
+    "name": "05-male-eggs",
+    "prompt": "Use case: scientific-educational. Original realistic natural history reconstruction of leafy seadragon Phycodurus eques. Landscape 1536x1024. Slender bony ringed yellow-olive fish with long tubular snout, arched neck, narrow long gently bent non-grasping tail, elaborate branching leaflike skin appendages on head body and tail, tiny transparent locomotor fins. NOT a seahorse, no coiled grasping tail, no wings, no text watermark border or collage. Temperate southern Australian sea, restrained teal and ochre colors. Side and slightly underside view of male leafy seadragon gently bent tail, with neat rows of small pinkish eggs attached to EXPOSED underside of tail behind the trunk. Eggs embedded partly in skin, no pouch, no sac, no eggs on belly. Head and leafy torso to left, tail extends right, scientific reproductive reconstruction."
+  },
+  {
+    "name": "06-seagrass-habitat",
+    "prompt": "Use case: scientific-educational. Original realistic natural history reconstruction of leafy seadragon Phycodurus eques. Landscape 1536x1024. Slender bony ringed yellow-olive fish with long tubular snout, arched neck, narrow long gently bent non-grasping tail, elaborate branching leaflike skin appendages on head body and tail, tiny transparent locomotor fins. NOT a seahorse, no coiled grasping tail, no wings, no text watermark border or collage. Temperate southern Australian sea, restrained teal and ochre colors. Wide underwater habitat ONLY, no animals. Sheltered southern Australian temperate bay with ribbon-like seagrass, brown kelp on low rocky reef and sandy patches, subdued sunlight through clear green-blue water. No tropical coral, no divers or equipment."
+  }
+]

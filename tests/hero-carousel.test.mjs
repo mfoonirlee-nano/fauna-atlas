@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'leafy-seadragon',
+      sha256: '08cbece33dfc08ed562b1cfd8b3ccd0a20ac23c6b056826265e8120eda01badf',
+      fullBody: { left: 1142, top: 324, right: 1253, bottom: 397 },
+      composedSafeAreas,
+    },
+    {
       slug: 'barreleye',
       sha256: 'b0d49814ffda461cfdf7a61f46de776cfac47644eaaf053de772826c48aac1ed',
       fullBody: { left: 1130, top: 328, right: 1258, bottom: 393 },

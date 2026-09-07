@@ -24510,7 +24510,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 131);
+  assert.equal(species.length, 132);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24681,7 +24681,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 131);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 132);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24702,7 +24702,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 90);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 91);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 36);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24724,7 +24724,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 7);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -25241,6 +25241,23 @@ test('integrates barreleye with its new taxon branches and reviewed media', asyn
   await assertGeneratedImageSet({
     profile, slug: 'barreleye',
     basenames: ['01-midwater-cover', '02-transparent-head', '03-upward-gaze', '04-broad-fins', '05-midwater-habitat', '06-rov-observation'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates leafy seadragon taxonomy and reviewed six-image set', async () => {
+  const profile = findSpecies('leafy-seadragon');
+  const tree = buildTaxonomyTree(species);
+  assert.equal(profile.scientificName, 'Phycodurus eques');
+  assert.equal(findTaxon(tree, 'order', 'Syngnathiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Syngnathidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Phycodurus')?.children[0]?.species.id, profile.id);
+  assert.equal(profile.conservation.code, 'LC');
+  assert.equal(profile.conservation.assessedYear, 2016);
+  assert.deepEqual(profile.distribution.countries, ['澳大利亚']);
+  await assertGeneratedImageSet({
+    profile, slug: 'leafy-seadragon',
+    basenames: ['01-kelp-cover', '02-leafy-profile', '03-transparent-fins', '04-mysid-feeding', '05-male-eggs', '06-seagrass-habitat'],
     verifyAcceptedHashes: true,
   });
 });
