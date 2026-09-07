@@ -24510,7 +24510,7 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 136);
+  assert.equal(species.length, 137);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24681,7 +24681,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 136);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 137);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25333,6 +25333,28 @@ test('integrates plains zebra in Equidae with dated conservation and reviewed me
   await assertGeneratedImageSet({
     profile, slug: 'plains-zebra',
     basenames: ['01-savanna-cover', '02-body-profile', '03-grazing', '04-family-group', '05-mare-and-foal', '06-savanna-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates the first onychophoran with scoped evidence and reviewed media', async () => {
+  const profile = findSpecies('totoro-velvet-worm');
+  const tree = buildTaxonomyTree(species);
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Onychophora', 'Udeonychophora', 'Euonychophora', 'Peripatidae', 'Eoperipatus',
+  ]);
+  assert.equal(findTaxon(tree, 'phylum', 'Onychophora')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'genus', 'Eoperipatus')?.children[0]?.species.id, profile.id);
+  assert.deepEqual(profile.distribution.countries, ['越南']);
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.equal(profile.conservation.trend, 'unknown');
+  assert.equal(profile.metrics.topSpeedKph, undefined, 'other species jet speed is not locomotion speed');
+  const mechanism = profile.storySections.find(({ key }) => key === 'mechanism').body;
+  assert.match(mechanism, /Peripatus solorzanoi/);
+  assert.match(mechanism, /没有直接测量龙猫栉蚕/);
+  await assertGeneratedImageSet({
+    profile, slug: 'totoro-velvet-worm',
+    basenames: ['01-forest-cover', '02-body-profile', '03-head-papillae', '04-slime-hunting', '05-lobopod-feet', '06-forest-habitat'],
     verifyAcceptedHashes: true,
   });
 });

@@ -233,3 +233,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Banded Archerfish image set](./species/banded-archerfish/README.md)
 
 - [Plains Zebra image set](./species/plains-zebra/README.md)
+
+- [Totoro Velvet Worm image set](./species/totoro-velvet-worm/README.md)

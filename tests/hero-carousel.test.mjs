@@ -215,6 +215,12 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     {
+      slug: 'totoro-velvet-worm',
+      sha256: '9601f3a4a024a3eb67d6f2b80994426012a50951cf2cc0f32b5a486a000fed25',
+      fullBody: { left: 1134, top: 375, right: 1284, bottom: 413 },
+      composedSafeAreas,
+    },
+    {
       slug: 'plains-zebra',
       sha256: '78a91deecad8048f30422ca6d9ba1a223fabf45376226d48e335ea9a192445b3',
       fullBody: { left: 1137, top: 329, right: 1233, bottom: 416 },
