@@ -1,0 +1,36 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-818f947d-055b-4975-854e-8e4ecf0d6cf0.png",
+      "prompt": "Use case: photorealistic-natural. 1536x1024 3:2 wildlife atlas cover, wild-type budgerigar Melopsittacus undulatus, green body, yellow head, black scalloped wings, blue cheek patches, complete tapered tail and both feet, Australian dry grassland, perched on fine bare branch. VERY WIDE DISTANT ENVIRONMENTAL VIEW, animal is TINY: full silhouette only 6% of picture height, centered at x=80% y=38%, entire subject between x=75%-84% and y=33%-43%. Every visible appendage included with background margin. Left 60% quiet softly focused habitat for typography. Natural restrained editorial photograph, biologically accurate, no text, no watermark, no additional animals. Do not enlarge animal."
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-a719bd48-f09e-411d-af8d-49dd4a0d8a41.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas detail photograph 1536x1024. wild-type budgerigar Melopsittacus undulatus, green body, yellow head, black scalloped wings, blue cheek patches, complete tapered tail and both feet. Full-body close wildlife portrait, Australian dry grassland, perched on fine bare branch, whole bill or muzzle, feet and tail visible. Subject large enough to see diagnostic anatomy, centered, generous background margin around complete silhouette. Natural light, realistic proportions, no text no watermark no frame."
+    },
+    {
+      "basename": "03-calling",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-7d5ec56c-4943-45f0-832e-dbd58718478a.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Two wild green and yellow budgerigars facing one another on branch, one with beak slightly open calling. Natural black barring and blue cheek patches, no speech bubbles. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "04-feeding",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-74b40839-94b9-4e7b-8431-03dfa05079ec.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Three wild green yellow budgerigars feeding on tiny grass seeds on dry Australian ground, diagnostic black wing barring and long tapered tails. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "05-nest",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-49f4d2e1-b528-4282-98e8-ae27df849053.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Female wild green yellow budgerigar perched at natural hollow in eucalyptus trunk, no nest box, no exposed nest interior, complete body and tail. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-b6bb26ac-8fa9-4558-af5c-8ed38c2f00a6.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Small flock of wild green yellow budgerigars at water edge in Australian inland grassland, distant dry eucalyptus woodland, natural flock spacing. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    }
+  ]
+}

@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 152);
+  assert.equal(species.length, 153);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 152);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 153);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24724,7 +24724,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 100);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 101);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 41);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24775,7 +24775,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 18);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 19);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
@@ -24788,7 +24788,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Opisthocomiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Opisthocomidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Opisthocomus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Psittaciformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Psittaciformes')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Strigopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Strigops')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Struthioniformes')?.speciesCount, 1);
@@ -25577,4 +25577,14 @@ test('integrates greater-flamingo with sourced taxonomy, assessment and reviewed
   assert.equal(profile.storySections.length, 6);
   assert.deepEqual(profile.metrics, {});
   await assertGeneratedImageSet({ profile, slug: 'greater-flamingo', basenames: ["01-cover", "02-body", "03-chick", "04-feeding", "05-flight", "06-habitat"], verifyAcceptedHashes: true });
+});
+
+test('integrates budgerigar with sourced taxonomy, assessment and reviewed images', async () => {
+  const profile = findSpecies('budgerigar');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), ["Animalia", "Chordata", "Aves", "Psittaciformes", "Psittaculidae", "Melopsittacus"]);
+  assert.equal(profile.conservation.code, 'LC');
+  assert.equal(profile.conservation.assessedYear, 2018);
+  assert.equal(profile.storySections.length, 6);
+  assert.deepEqual(profile.metrics, {"adultLengthCm": [17, 18]});
+  await assertGeneratedImageSet({ profile, slug: 'budgerigar', basenames: ["01-cover", "02-body", "03-calling", "04-feeding", "05-nest", "06-habitat"], verifyAcceptedHashes: true });
 });
