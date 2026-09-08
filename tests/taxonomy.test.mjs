@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 146);
+  assert.equal(species.length, 147);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24571,12 +24571,12 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Synallactida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Stichopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Apostichopus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'class', 'Clitellata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Crassiclitellata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Megascolecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Megascolides')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Sabellida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siboglinidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Riftia')?.speciesCount, 1);
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 146);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 147);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25491,6 +25491,25 @@ test('integrates Australian box jellyfish on its own cubozoan branch with review
   await assertGeneratedImageSet({
     profile, slug: 'australian-box-jellyfish',
     basenames: ['01-cover', '02-body', '03-eyes', '04-navigation', '05-feeding', '06-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates bobbit worm on the eunicidan branch with scoped distribution and reviewed media', async () => {
+  const profile = findSpecies('bobbit-worm');
+  const tree = buildTaxonomyTree(species);
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Annelida', 'Polychaeta', 'Eunicida', 'Eunicidae', 'Eunice',
+  ]);
+  assert.equal(findTaxon(tree, 'genus', 'Eunice')?.children[0]?.species.id, profile.id);
+  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 2);
+  assert.equal(profile.distribution.endemicTo, undefined, 'a study locality is not an endemic range');
+  assert.equal(profile.metrics.adultLengthCm, undefined, 'unverified giant worms do not define this species length');
+  assert.equal(profile.conservation.code, 'NE');
+  assert.equal(profile.conservation.assessedYear, undefined);
+  await assertGeneratedImageSet({
+    profile, slug: 'bobbit-worm',
+    basenames: ['01-cover', '02-body', '03-ambush', '04-feeding', '05-bristles', '06-habitat'],
     verifyAcceptedHashes: true,
   });
 });

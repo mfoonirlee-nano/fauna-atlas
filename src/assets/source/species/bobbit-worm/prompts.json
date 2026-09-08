@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-09-08",
+  "tool": "Codex built-in imagegen",
+  "images": [
+    {
+      "name": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 landscape natural history editorial image. One Eunice aphroditois bristle worm on a dim sandy seabed, entire elongated dark bronze iridescent segmented body curled in a compact loose S on the sand, head has five slender sensory appendages and modest paired jaws, fine paired lateral bristles, tapered tail. CRITICAL WIDE ENVIRONMENT COMPOSITION: the ENTIRE worm including all antenna tips and tail occupies only the rectangle x=1160..1300 y=325..425 on a 1536x1024 canvas, tiny subject seen from a distance in upper right, center at 80% width and 37% height. Natural sand background all around, left 60% empty quiet dark water and sand, no foreground objects. Not buried, complete body visible for cover review. No text, watermark, frame, fantasy, or giant monster teeth. Scientifically plausible AI reconstruction, understated colors."
+    },
+    {
+      "name": "02-body",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. An entire elongated bronze iridescent segmented Eunice aphroditois curled loosely across sand. Macro side-top view, five head appendages, fine paired bristle-bearing parapodia, tapered tail. Body fills center 65% of frame, fully visible, no centipede legs. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "03-ambush",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Close underwater view of a bobbit worm Eunice aphroditois partly buried in sand with only short anterior section, five fine head appendages and paired small jaws above a burrow opening. Most body hidden in sediment, calm waiting posture, no monster teeth. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "04-feeding",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Underwater natural-history reconstruction of a bobbit worm Eunice aphroditois emerging slightly from its burrow with its jaws poised beneath one small fish passing above. Fine head appendages. No contact, no injury, no blood. Sand grains and quiet water. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "05-bristles",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Scientific macro reconstruction of a short middle-body portion of Eunice aphroditois, showing repeated bronze dark segments and small paired lateral parapodia bearing tufts of fine chaetae. Clearly a soft-bodied marine annelid with bristles, no arthropod jointed walking legs. No labels. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Wide underwater habitat reconstruction of a warm shallow marine sandy seabed with scattered coral rubble and stones, subtle small worm burrow at right, subdued blue-green water and low angled natural light. No large animal, no text, no cross-section. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    }
+  ],
+  "coverEdits": [],
+  "acceptedCover": "images 01-cover initial generation"
+}
