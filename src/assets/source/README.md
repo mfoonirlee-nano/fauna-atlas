@@ -258,3 +258,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Greater Flamingo image set](./species/greater-flamingo/README.md)
 - [Budgerigar image set](./species/budgerigar/README.md)
 - [Toco Toucan image set](./species/toco-toucan/README.md)
+
+- [Common Kingfisher image set](./species/common-kingfisher/README.md)

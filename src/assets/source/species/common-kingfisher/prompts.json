@@ -1,0 +1,36 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-a8d6d3d9-c4af-495b-b875-a4d01718cca6.png",
+      "prompt": "Use case: photorealistic-natural. Generate a new 1536x1024 wildlife atlas cover photograph of a common kingfisher Alcedo atthis in a quiet stream habitat. VERY WIDE DISTANT ENVIRONMENTAL VIEW: bird is TINY in picture, exactly 6% of picture height, centered x=80% y=38%; whole bird occupies x=77%-84% y=34%-42%. Blue back orange breast long black straight bill, complete tail and tiny feet perched on distant thin branch. Left 60% soft quiet stream background for typography. Keep bird SMALL and distant. Entire bill feet tail and body visible with real background around all sides. Natural restrained wildlife photograph, no text watermark frame collage extra animals."
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-8801a3e3-0b0e-4e82-9403-0b2f36531c3b.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. Full body perched on a branch above water. Species: common kingfisher Alcedo atthis with turquoise blue back, orange breast, long straight black bill, short tail and orange feet. Environment: stream with clay banks and riverside branches. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "03-detail",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-7ca0e521-4465-4afe-a987-2813bcff3321.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. side head closeup with natural eye, long bill and white throat; do not depict invisible eye membranes. Species: common kingfisher Alcedo atthis with turquoise blue back, orange breast, long straight black bill, short tail and orange feet. Environment: stream with clay banks and riverside branches. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "04-behavior",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-ae6da5fb-7eea-4cc3-84f0-0129b310ccdb.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. diving headfirst toward stream, wings folded back, entire bird and bill visible above water. Species: common kingfisher Alcedo atthis with turquoise blue back, orange breast, long straight black bill, short tail and orange feet. Environment: stream with clay banks and riverside branches. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "05-life",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-d3658fc0-8ac0-4da7-a7a8-74202d121263.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. adult perched beside a tunnel opening in a vertical earthen stream bank. Species: common kingfisher Alcedo atthis with turquoise blue back, orange breast, long straight black bill, short tail and orange feet. Environment: stream with clay banks and riverside branches. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-37df3bc1-a85a-42c5-bd2a-77f6a9e42336.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. wide natural riparian stream habitat. Species: common kingfisher Alcedo atthis with turquoise blue back, orange breast, long straight black bill, short tail and orange feet. Environment: stream with clay banks and riverside branches. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    }
+  ]
+}
