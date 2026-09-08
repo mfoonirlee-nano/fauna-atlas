@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "giant-vinegaroon",
+    "name": "01-cover",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species hero cover. Generate a 1536x1024 landscape natural-history photorealistic scientific reconstruction of one Mastigoproctus giganteus vinegaroon on damp brown leaf litter in central Mexico, dark brown elongated segmented abdomen, two robust grasping pedipalps, six walking legs plus two long thin sensory front legs, one thin straight whip-like terminal flagellum with no stinger, entire appendages visible. Critical framing: entire animal including all appendages must be SMALL, contained inside x=1135..1275 and y=350..430 pixels of the 1536x1024 canvas, centered at x=1205 y=390. Environmental wide shot, NOT a close-up. Left 60% quiet softly blurred habitat for typography. Real continuous background on all sides. No text, border, watermark, labels or other animals. Restrained natural colors."
+  },
+  {
+    "slug": "giant-vinegaroon",
+    "name": "02-body",
+    "title": "触肢与鞭状尾丝",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Natural-history dorsal macro of one Mastigoproctus giganteus vinegaroon from Morelos Mexico: dark chestnut body, two stout spiny raptorial pedipalps, three pairs walking legs and one pair long thin antenniform first legs, segmented elongate abdomen and single slender terminal flagellum with no stinger. Entire appendages visible against brown soil. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "giant-vinegaroon",
+    "name": "03-sensory-legs",
+    "title": "用前足探路",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Natural-history macro of one Mastigoproctus giganteus at night on leaf litter, two long thin antenniform first legs extended forward exploring a leaf edge, three pairs sturdy walking legs support body, robust pedipalps held close, single thin tail flagellum. No stinger. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "giant-vinegaroon",
+    "name": "04-defense",
+    "title": "腹末的防御液",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Scientific naturalistic side view of a dark brown vinegaroon, Mastigoproctus giganteus, abdomen turned slightly to one side, subtle small spray droplets emerging from terminal abdominal gland opening at BASE of the thin flagellum, never from tail tip. Full animal visible on soil, no enemy, no fire, no labels. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "giant-vinegaroon",
+    "name": "05-prey",
+    "title": "用触肢抓住猎物",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Natural-history macro of dark brown Mastigoproctus giganteus grasping a small cricket between robust pedipalps on leaf litter at night. Long thin antenniform first legs, six walking legs, single thin terminal flagellum with no stinger. Non-graphic. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "giant-vinegaroon",
+    "name": "06-habitat",
+    "title": "莫雷洛斯的林下",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Natural-history landscape view of seasonally dry tropical forest floor in Morelos central Mexico, leaf litter, stones and shaded soil shelters, sparse understory, subdued morning light. Habitat only, no visible animals or people. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  }
+]

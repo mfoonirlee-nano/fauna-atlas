@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "bootlace-worm",
+    "name": "01-cover",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species hero cover. Generate a 1536x1024 landscape natural-history photorealistic scientific reconstruction of one Lineus longissimus bootlace worm, extremely slender smooth unsegmented dark chocolate brown cord in a compact loose coil, both tips visible, no legs, in a shallow rocky tidepool. Critical framing: entire animal including all appendages must be SMALL, contained inside x=1135..1275 and y=350..430 pixels of the 1536x1024 canvas, centered at x=1205 y=390. Environmental wide shot, NOT a close-up. Left 60% quiet softly blurred habitat for typography. Real continuous background on all sides. No text, border, watermark, labels or other animals. Restrained natural colors."
+  },
+  {
+    "slug": "bootlace-worm",
+    "name": "02-body",
+    "title": "细长而不分节的身体",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Close dorsal macro view of a smooth unsegmented dark brown Lineus longissimus ribbon worm loosely coiled on wet rock, entire worm and tapered tips visible, no segmentation, no eyes enlarged like a vertebrate. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "bootlace-worm",
+    "name": "03-proboscis",
+    "title": "翻出的长吻",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Scientific educational naturalistic close view of the head and anterior body of Lineus longissimus, smooth brown ribbon worm, a single thin pale unbranched proboscis everted from its anterior tip reaching toward a small marine bristle worm. No branching white tree, no stylet, no gore. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "bootlace-worm",
+    "name": "04-rock-shelter",
+    "title": "石块下的缝隙",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Lineus longissimus slender dark brown unsegmented ribbon worm partly visible along a sheltered gap beneath a water-covered shore rock, natural tidepool macro. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "bootlace-worm",
+    "name": "05-mucus",
+    "title": "体表的黏液",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Macro detail of smooth dark brown Lineus longissimus body gliding on wet rock under shallow water, subtle translucent mucus sheen and fine iridescence, unsegmented body, no excessive slime. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "bootlace-worm",
+    "name": "06-habitat",
+    "title": "岩岸潮池",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Wide naturalistic northeastern Atlantic intertidal rocky shore, seaweed, shallow clear tidepools under overcast sky. Habitat only, no visible animals, no people. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  }
+]

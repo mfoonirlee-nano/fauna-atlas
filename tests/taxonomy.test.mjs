@@ -24507,10 +24507,32 @@ test('registers the Texas Horned Lizard as a complete evidence-bounded Phrynosom
   });
 });
 
+test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon with complete image sets', async () => {
+  const tree = buildTaxonomyTree(species);
+  for (const [slug, lineage, basenames] of [
+    ['bootlace-worm', ['Nemertea', 'Pilidiophora', 'Heteronemertea', 'Lineidae', 'Lineus'], ['01-cover', '02-body', '03-proboscis', '04-rock-shelter', '05-mucus', '06-habitat']],
+    ['tongue-eating-louse', ['Arthropoda', 'Malacostraca', 'Isopoda', 'Cymothoidae', 'Cymothoa'], ['01-cover', '02-body', '03-mouth', '04-attachment', '05-pair', '06-habitat']],
+    ['giant-vinegaroon', ['Arthropoda', 'Arachnida', 'Thelyphonida', 'Thelyphonidae', 'Mastigoproctus'], ['01-cover', '02-body', '03-sensory-legs', '04-defense', '05-prey', '06-habitat']],
+  ]) {
+    const profile = findSpecies(slug);
+    assert.deepEqual(['phylum', 'class', 'order', 'family', 'genus'].map((rank) => profile.taxonomy[rank].scientificName), lineage);
+    assert.equal(findTaxon(tree, 'genus', lineage[4])?.speciesCount, 1);
+    assert.equal(profile.conservation.code, 'NE');
+    assert.equal(profile.conservation.assessedYear, undefined);
+    assert.equal(profile.storySections.length, 6);
+    await assertGeneratedImageSet({ profile, slug, basenames, verifyAcceptedHashes: true });
+  }
+  assert.equal(findTaxon(tree, 'phylum', 'Nemertea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Isopoda')?.speciesCount, 2);
+  assert.deepEqual(findSpecies('giant-vinegaroon').distribution.countries, ['墨西哥']);
+  assert.match(findSpecies('giant-vinegaroon').distribution.range, /莫雷洛斯/);
+  assert.match(findSpecies('tongue-eating-louse').storySections.find(({ key }) => key === 'hypothesis').body, /假说/);
+});
+
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 139);
+  assert.equal(species.length, 144);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24568,7 +24590,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 18);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 21);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24581,7 +24603,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Spirostreptida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Spirostreptidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Archispirostreptus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'order', 'Stomatopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Odontodactylidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Odontodactylus')?.speciesCount, 1);
@@ -24591,7 +24613,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'class', 'Scaphopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dentaliida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dentaliidae')?.speciesCount, 1);
@@ -24607,7 +24629,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Octopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Octopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Octopus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Stylommatophora')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Helicidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Cornu')?.speciesCount, 1);
@@ -24634,7 +24656,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Aeshnidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Anax')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Theraphosidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Theraphosa')?.speciesCount, 1);
@@ -24681,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 139);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 144);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25396,6 +25418,44 @@ test('integrates the first placozoan without treating phylum records as a specie
   await assertGeneratedImageSet({
     profile, slug: 'trichoplax-adhaerens',
     basenames: ['01-biofilm-cover', '02-body', '03-ciliary-gliding', '04-external-feeding', '05-fission', '06-coastal-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates Sacculina as a thecostracan parasite with reviewed media', async () => {
+  const profile = findSpecies('sacculina-carcini');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Arthropoda', 'Thecostraca', 'Rhizocephala', 'Sacculinidae', 'Sacculina',
+  ]);
+  assert.equal(findTaxon(buildTaxonomyTree(species), 'class', 'Thecostraca')?.speciesCount, 1);
+  assert.equal(profile.conservation.code, 'NE');
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.equal(profile.conservation.trend, 'unknown');
+  assert.equal(profile.metrics.adultLengthCm, undefined, 'host size and externa width are not parasite body length');
+  assert.equal(profile.storySections.length, 6);
+  await assertGeneratedImageSet({
+    profile, slug: 'sacculina-carcini',
+    basenames: ['01-cover', '02-externa', '03-interna', '04-larva', '05-host', '06-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates scaly-foot snail with dated assessment and updated vent distribution', async () => {
+  const profile = findSpecies('scaly-foot-snail');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Mollusca', 'Gastropoda', 'Neomphalida', 'Peltospiridae', 'Chrysomallon',
+  ]);
+  assert.equal(profile.conservation.code, 'EN');
+  assert.equal(profile.conservation.assessedYear, 2018, '2019 is the publication year');
+  assert.equal(profile.conservation.trend, 'unknown');
+  assert.equal(profile.metrics.maxDiveDepthM, undefined, 'habitat depth is not diving ability');
+  assert.match(profile.distribution.range, /2026.*8/);
+  assert.match(profile.storySections.find(({ key }) => key === 'variation').body, /Solitaire/);
+  assert.ok(profile.sources.some(({ url }) => url.endsWith('/20260212/')));
+  assert.equal(profile.storySections.length, 6);
+  await assertGeneratedImageSet({
+    profile, slug: 'scaly-foot-snail',
+    basenames: ['01-cover', '02-body', '03-scales', '04-symbiosis', '05-white-morph', '06-habitat'],
     verifyAcceptedHashes: true,
   });
 });

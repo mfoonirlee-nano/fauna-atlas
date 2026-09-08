@@ -48845,6 +48845,1414 @@ export const species = [
     ],
     featured: true, publishedAt: '2026-09-07', updatedAt: '2026-09-07',
   },
+  {
+    "id": "species-lineus-longissimus",
+    "slug": "bootlace-worm",
+    "names": {
+      "zh": "巨纵沟纽虫",
+      "en": "Bootlace Worm",
+      "aliases": []
+    },
+    "scientificName": "Lineus longissimus",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Nemertea",
+        "zhName": "纽形动物门"
+      },
+      "class": {
+        "scientificName": "Pilidiophora",
+        "zhName": "Pilidiophora纲"
+      },
+      "order": {
+        "scientificName": "Heteronemertea",
+        "zhName": "异纽目"
+      },
+      "family": {
+        "scientificName": "Lineidae",
+        "zhName": "纵沟纽虫科"
+      },
+      "genus": {
+        "scientificName": "Lineus",
+        "zhName": "纵沟纽虫属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "NE",
+      "label": {
+        "zh": "未评估",
+        "en": "Not Evaluated"
+      },
+      "trend": "unknown",
+      "assessor": "未核实到本种全球IUCN评估；暂记NE，不设评估年份。"
+    },
+    "measurements": {
+      "length": {
+        "min": 5,
+        "max": 15,
+        "unit": "m",
+        "note": "MarLIN描述的常见伸展长度为5—15米；柔软身体可伸缩，不代表固定体长或绝对极限。"
+      }
+    },
+    "metrics": {},
+    "threats": [
+      "本种全球种群趋势与具体威胁程度尚待调查。"
+    ],
+    "conservationActions": [
+      "减少近岸污染，维护海岸栖息地。",
+      "记录采集地点并核对物种身份，积累分布资料。"
+    ],
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "distribution": {
+      "realms": [
+        "marine"
+      ],
+      "continents": [
+        "欧洲"
+      ],
+      "regions": [
+        "东北大西洋",
+        "欧洲北海沿岸",
+        "波罗的海沿岸"
+      ],
+      "countries": [
+        "冰岛",
+        "英国",
+        "爱尔兰"
+      ],
+      "range": "从冰岛延伸至欧洲大西洋、北海和波罗的海沿岸。国家列表只列本页资料能确认的部分地区，地图中心用于区域定位。",
+      "center": {
+        "lat": 56,
+        "lng": -5
+      }
+    },
+    "habitats": [
+      {
+        "name": "岩岸潮池与石下缝隙",
+        "realm": "marine",
+        "description": "常在低潮带石块下、海带固着器间和岩缝中盘曲；潮下带也有泥、沙和贝壳底质记录。",
+        "isPrimary": true
+      }
+    ],
+    "diet": {
+      "types": [
+        "carnivore"
+      ],
+      "foods": [
+        "小型海洋无脊椎动物"
+      ],
+      "description": "用可翻出的吻捕捉猎物，再经口吞食。配图中的蠕虫仅示意猎物位置，不代表已量化的本种食谱。"
+    },
+    "activity": [
+      "底栖活动",
+      "盘曲隐蔽",
+      "翻吻捕猎"
+    ],
+    "tags": [
+      "纽形动物",
+      "长吻",
+      "不分节",
+      "黏液",
+      "岩岸"
+    ],
+    "summary": "巨纵沟纽虫在石块下盘成一团，伸展开来却能长达数米。捕猎时，它从头端翻出长吻接触猎物，再把食物送进口中。",
+    "description": "它的身体像一根深褐色的细绳，表面光滑、不分节。头部两侧有沟裂，暗色体表常遮住细小的眼点。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "认识巨纵沟纽虫",
+        "title": "一根不分节的海底细绳",
+        "body": "巨纵沟纽虫属于纽形动物门。它没有蚯蚓那样连续的外部体节，也没有步足。按WoRMS供给OBIS的分类路径，本页将它归入Pilidiophora纲、异纽目、纵沟纽虫科。纲名保留拉丁名称，避免把暂译名当成通行中文名。"
+      },
+      {
+        "key": "length",
+        "label": "伸缩的身体",
+        "title": "盘起来与伸展开来",
+        "body": "MarLIN记述本种常见伸展长度约5—15米，身体却只有毫米级宽度。肌肉收缩会改变姿态和长度，野外测量还受个体完整性影响。本页不采用流传的超长纪录作为可靠最大值，也不把照片中的盘曲直径当作体长。"
+      },
+      {
+        "key": "proboscis",
+        "label": "翻吻捕猎",
+        "title": "吻与消化道分开",
+        "body": "纽虫的吻平时收在独立的吻腔中，捕猎时可以从前端向外翻出，再收回。它是捕猎器官，食物仍需经过口进入消化道。本种所属的异纽目没有有刺纽虫那样的吻刺，不能把其他纽虫的刺状或树枝状结构画到它身上。"
+      },
+      {
+        "key": "mucus",
+        "label": "体表分泌物",
+        "title": "黏液里有活性肽",
+        "body": "2018年的研究从巨纵沟纽虫表皮黏液中发现α-nemertide肽，并研究其中一种对离子通道和实验动物的作用。这说明黏液含有生物活性物质；实验剂量和注射结果不能直接当作野外接触风险或捕猎全过程的证据。"
+      },
+      {
+        "key": "shelter",
+        "label": "藏身的位置",
+        "title": "石下与海带根部",
+        "body": "在低潮带寻找本种时，调查者会检查潮池、石块下和海带固着器之间的缝隙。它常把细长身体盘曲在有限空间中。观察时保留原有石块和附着生物，避免拉扯脆弱的身体。"
+      },
+      {
+        "key": "conservation",
+        "label": "分布与保护",
+        "title": "先积累物种记录",
+        "body": "本页未核实到巨纵沟纽虫的全球IUCN评估，暂记NE，种群趋势未知。海岸污染和底质扰动值得当地调查，但目前不把这些压力写成本种已经量化的全球威胁。"
+      }
+    ],
+    "keyFacts": [
+      "属于纽形动物门，身体不分节。",
+      "常见伸展长度约5—15米，身体可收缩。",
+      "用独立的可翻出长吻捕猎。",
+      "本种没有吻刺。",
+      "常藏在低潮带石块下与岩缝中。",
+      "表皮黏液含有研究者发现的活性肽。"
+    ],
+    "featuredStats": [
+      {
+        "key": "length",
+        "label": "常见伸展长度",
+        "value": "5—15",
+        "unit": "米",
+        "note": "可伸缩；不代表绝对极限。"
+      },
+      {
+        "key": "phylum",
+        "label": "所属门",
+        "value": "纽形动物门"
+      },
+      {
+        "key": "capture",
+        "label": "捕猎器官",
+        "value": "可翻长吻"
+      },
+      {
+        "key": "status",
+        "label": "保护等级",
+        "value": "NE",
+        "note": "未核实全球评估。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "MarLIN — 外形、长度、栖息地与欧洲分布",
+        "url": "https://www.marlin.ac.uk/species/detail/2075",
+        "kind": "distribution",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "OBIS / WoRMS — 巨纵沟纽虫分类路径",
+        "url": "https://obis.org/taxon/122528",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "Jacobsson等2018 — 表皮黏液中的α-nemertide肽",
+        "url": "https://www.nature.com/articles/s41598-018-22305-w",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "NCBI Taxonomy — Lineus longissimus",
+        "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=88925",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/bootlace-worm/01-cover.webp",
+      "alt": "一条完整的深褐色巨纵沟纽虫盘曲在画面右侧的浅水岩面上。",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.35
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/bootlace-worm/02-body.webp",
+          "alt": "深褐色的细长纽虫在湿岩面上盘曲，身体表面没有体节。",
+          "title": "细长而不分节的身体",
+          "caption": "AI生成外形示意；体色、眼点和头沟不能代替标本鉴定。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/bootlace-worm/03-proboscis.webp",
+          "alt": "纽虫头端伸出一条浅色长吻，朝向旁边的小型海洋蠕虫。",
+          "title": "翻出的长吻",
+          "caption": "AI生成翻吻捕猎示意；吻与猎物比例经过简化，不是实测捕猎记录。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/bootlace-worm/04-rock-shelter.webp",
+          "alt": "深褐色纽虫沿潮池石块下的狭缝伸展。",
+          "title": "石块下的缝隙",
+          "caption": "AI生成隐蔽情景；石下部分身体不可见，不能据此测量全长。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/bootlace-worm/05-mucus.webp",
+          "alt": "纽虫光滑的深色体表带有湿润光泽。",
+          "title": "体表的黏液",
+          "caption": "AI生成体表特写；光泽不能用于识别黏液成分或推断毒性。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/bootlace-worm/06-habitat.webp",
+          "alt": "岩岸潮池与海藻分布在阴天的海边。",
+          "title": "岩岸潮池",
+          "caption": "AI生成栖息地重建，不对应具体调查点。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
+  {
+    "id": "species-cymothoa-exigua",
+    "slug": "tongue-eating-louse",
+    "names": {
+      "zh": "缩头鱼虱",
+      "en": "Tongue-eating Louse",
+      "aliases": []
+    },
+    "scientificName": "Cymothoa exigua",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Arthropoda",
+        "zhName": "节肢动物门"
+      },
+      "class": {
+        "scientificName": "Malacostraca",
+        "zhName": "软甲纲"
+      },
+      "order": {
+        "scientificName": "Isopoda",
+        "zhName": "等足目"
+      },
+      "family": {
+        "scientificName": "Cymothoidae",
+        "zhName": "缩头水虱科"
+      },
+      "genus": {
+        "scientificName": "Cymothoa",
+        "zhName": "缩头水虱属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "NE",
+      "label": {
+        "zh": "未评估",
+        "en": "Not Evaluated"
+      },
+      "trend": "unknown",
+      "assessor": "未核实到本种全球IUCN评估；暂记NE，不设评估年份。"
+    },
+    "measurements": {
+      "length": {
+        "min": 8,
+        "max": 29,
+        "unit": "mm",
+        "note": "1981年专著中的雌体样本范围；雄体样本7.5—15毫米，不是全种的绝对极限。"
+      }
+    },
+    "metrics": {},
+    "threats": [
+      "本种全球种群趋势与具体威胁程度尚待调查。"
+    ],
+    "conservationActions": [
+      "减少近岸污染，维护海岸栖息地。",
+      "记录采集地点并核对物种身份，积累分布资料。"
+    ],
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "distribution": {
+      "realms": [
+        "marine"
+      ],
+      "continents": [
+        "北美洲",
+        "南美洲"
+      ],
+      "regions": [
+        "东太平洋热带近岸",
+        "加利福尼亚湾"
+      ],
+      "countries": [
+        "墨西哥",
+        "巴拿马",
+        "厄瓜多尔"
+      ],
+      "range": "本页采用Brusca的东太平洋专著，记录范围从加利福尼亚湾向南至厄瓜多尔。其他海域的相似寄生等足类需要另行鉴定，不能仅凭鱼嘴里的照片认作本种。",
+      "center": {
+        "lat": 17,
+        "lng": -103
+      }
+    },
+    "habitats": [
+      {
+        "name": "近岸海鱼的口腔与鳃腔",
+        "realm": "marine",
+        "description": "雌体通常附着在宿主口腔，雄体多见于鳃部。专著记录集中在近岸浅水鱼类。",
+        "isPrimary": true
+      }
+    ],
+    "diet": {
+      "types": [
+        "carnivore"
+      ],
+      "foods": [
+        "宿主来源的营养"
+      ],
+      "description": "依赖鱼类宿主生活。吸血常用于解释鱼虱寄生与舌部退化，但1983年论文指出大型口居雌体的营养来源仍有疑问；不能断言它只吃鱼的食物残渣。"
+    },
+    "activity": [
+      "附着寄生",
+      "口腔生活"
+    ],
+    "tags": [
+      "寄生",
+      "等足目",
+      "鱼舌退化",
+      "宿主关系",
+      "甲壳动物"
+    ],
+    "summary": "缩头鱼虱的雌体会附着在鱼嘴里。研究者发现，有些宿主的鱼舌已大部退化，鱼虱占据原位，鱼却仍能进食。",
+    "description": "这是一种海洋寄生等足类，身体呈浅色椭圆形，分节的甲壳下伸出带钩的步足。它与陆上的鼠妇同属等足目。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "认识缩头鱼虱",
+        "title": "带钩步足的等足类",
+        "body": "缩头鱼虱属于软甲纲、等足目、缩头水虱科。成体有七对步足，末端钩状结构帮助它抓住宿主组织。外形相似的口居鱼虱有多个物种，物种鉴定还需检查头部、体节和附肢。"
+      },
+      {
+        "key": "attachment",
+        "label": "附着位置",
+        "title": "雌体在口腔，雄体多在鳃部",
+        "body": "Brusca的东太平洋专著记录，本种雌体常附着在宿主舌部，雄体多位于鳃部。已经长大的雌体与口腔空间贴合，不能把它想成随时进出鱼嘴的访客。"
+      },
+      {
+        "key": "tongue",
+        "label": "鱼舌的变化",
+        "title": "舌部退化后仍能进食",
+        "body": "1983年论文检查了墨西哥加利福尼亚湾的笛鲷Lutjanus guttatus，其中两条寄生鱼的舌部超过九成缺失，鱼虱附着在残基与口腔底部。研究者仍在宿主体内发现食物，说明这些鱼当时能继续进食。"
+      },
+      {
+        "key": "hypothesis",
+        "label": "替代舌假说",
+        "title": "占据位置不等于变成器官",
+        "body": "作者据此提出鱼虱可能机械替代鱼舌的假说，帮助宿主在处理食物时提供支撑。他们没有通过对照实验量化替代后的进食效率。鱼虱仍是独立的寄生动物，不会长成宿主自身的舌组织。"
+      },
+      {
+        "key": "size",
+        "label": "雌雄差异",
+        "title": "雌体往往更大",
+        "body": "1981年专著所测雌体长8—29毫米，雄体长7.5—15毫米。这些是该研究样本的范围，不是物种极限。鱼虱科中有先雄后雌的性别转换现象，但本页不据此编排本种固定的转换年龄或寄生天数。"
+      },
+      {
+        "key": "conservation",
+        "label": "宿主与分布",
+        "title": "跟着宿主记录寄生关系",
+        "body": "本页未核实到本种全球IUCN评估，暂记NE，趋势未知。记录时需要同时鉴定鱼虱和宿主，保存地点与附着位置。不能把不同海域所有“鱼嘴里的虫”都计入本种分布。"
+      }
+    ],
+    "keyFacts": [
+      "属于等足目，是甲壳动物。",
+      "成体有七对带钩步足。",
+      "雌体通常附着在鱼的口腔。",
+      "雄体多见于鳃部。",
+      "研究记录过舌部大部缺失但仍能进食的宿主。",
+      "机械替代鱼舌是原始论文提出的假说。"
+    ],
+    "featuredStats": [
+      {
+        "key": "female",
+        "label": "雌体样本长度",
+        "value": "8—29",
+        "unit": "毫米",
+        "note": "1981年专著样本，非绝对极限。"
+      },
+      {
+        "key": "legs",
+        "label": "成体步足",
+        "value": "7",
+        "unit": "对"
+      },
+      {
+        "key": "site",
+        "label": "雌体附着处",
+        "value": "口腔"
+      },
+      {
+        "key": "status",
+        "label": "保护等级",
+        "value": "NE",
+        "note": "未核实全球评估。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Brusca 1981 — 东太平洋鱼虱科专著，样本尺寸与分布",
+        "url": "https://research.nhm.org/pdfs/2794/2794.pdf",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "Brusca与Gilligan 1983 — 鱼舌替代观察及假说",
+        "url": "https://www.rickbrusca.com/http___www.rickbrusca.com_index.html/Papers_files/Brusca%20%26%20Gilligan%201983%20Tongue%20Replacement.pdf",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "WoRMS — 缩头水虱属接受名",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxlist&tName=Cymothoa",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "得克萨斯大学生物多样性中心 — 鱼虱寄生生活",
+        "url": "https://biodiversity.utexas.edu/news/features/all-things-creepy-parasitism-pt-3-tongue-biters",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/tongue-eating-louse/01-cover.webp",
+      "alt": "一只浅色缩头鱼虱位于画面右侧的湿润灰色表面，展示完整外形。",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.35
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/tongue-eating-louse/02-body.webp",
+          "alt": "浅色缩头鱼虱的椭圆身体分成多个体节，两侧有短步足。",
+          "title": "分节的甲壳动物",
+          "caption": "AI生成外形示意；附肢与体节细节不能代替分类鉴定。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/tongue-eating-louse/03-mouth.webp",
+          "alt": "笛鲷张开的嘴内，一只浅色鱼虱附着在口腔底部。",
+          "title": "鱼嘴里的雌体",
+          "caption": "AI生成寄生情景；鱼与鱼虱比例不代表1983年论文的标本测量。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/tongue-eating-louse/04-attachment.webp",
+          "alt": "鱼嘴的简化侧面剖图中，鱼虱附着在舌部残基上。",
+          "title": "附着在舌部残基",
+          "caption": "AI生成附着关系示意；组织和步足经过简化，不能用于数足、物种鉴定或判断替代效率。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/tongue-eating-louse/05-pair.webp",
+          "alt": "一大一小两只浅色鱼虱并列，示意雌雄体形差别。",
+          "title": "雌雄体形比较",
+          "caption": "AI生成体形比较；大小比例为示意，不能据此判定个体性别或测量范围。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/tongue-eating-louse/06-habitat.webp",
+          "alt": "蓝绿色海水覆盖着东太平洋近岸的岩石底质。",
+          "title": "东太平洋近岸",
+          "caption": "AI生成栖息地重建，不对应确定采集地点。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
+  {
+    "id": "species-mastigoproctus-giganteus",
+    "slug": "giant-vinegaroon",
+    "names": {
+      "zh": "美洲巨鞭蝎",
+      "en": "Giant Vinegaroon",
+      "aliases": []
+    },
+    "scientificName": "Mastigoproctus giganteus",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Arthropoda",
+        "zhName": "节肢动物门"
+      },
+      "class": {
+        "scientificName": "Arachnida",
+        "zhName": "蛛形纲"
+      },
+      "order": {
+        "scientificName": "Thelyphonida",
+        "zhName": "有鞭目"
+      },
+      "family": {
+        "scientificName": "Thelyphonidae",
+        "zhName": "鞭蝎科"
+      },
+      "genus": {
+        "scientificName": "Mastigoproctus",
+        "zhName": "巨鞭蝎属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "NE",
+      "label": {
+        "zh": "未评估",
+        "en": "Not Evaluated"
+      },
+      "trend": "unknown",
+      "assessor": "未核实到本种全球IUCN评估；暂记NE，不设评估年份。"
+    },
+    "measurements": {},
+    "metrics": {},
+    "threats": [
+      "本种全球种群趋势与具体威胁程度尚待调查。"
+    ],
+    "conservationActions": [
+      "保留林下落叶、石块与土壤中的隐蔽空间。",
+      "记录采集地点并核对物种身份，积累分布资料。"
+    ],
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "distribution": {
+      "realms": [
+        "terrestrial"
+      ],
+      "continents": [
+        "北美洲"
+      ],
+      "regions": [
+        "墨西哥中部",
+        "莫雷洛斯州"
+      ],
+      "countries": [
+        "墨西哥"
+      ],
+      "endemicTo": [
+        "墨西哥"
+      ],
+      "range": "按2018年修订及后续物种名录，本种狭义范围位于墨西哥莫雷洛斯州。美国佛罗里达、亚利桑那及得克萨斯等地旧称同名的动物涉及其他种，不能沿用旧版广布地图。",
+      "center": {
+        "lat": 18.9,
+        "lng": -99.2
+      }
+    },
+    "habitats": [
+      {
+        "name": "林下落叶与土壤隐蔽处",
+        "realm": "terrestrial",
+        "description": "以墨西哥中部的地表隐蔽空间作为栖息情景。近亲常躲在石块和落叶下；本页不把全属生境当成本种完整范围。",
+        "isPrimary": true
+      }
+    ],
+    "diet": {
+      "types": [
+        "carnivore",
+        "insectivore"
+      ],
+      "foods": [
+        "昆虫等小型节肢动物"
+      ],
+      "description": "鞭蝎用前端粗壮的触肢控制猎物，再用螯肢处理食物。蟋蟀配图示意这类捕食动作，不代表本种野外食谱比例。"
+    },
+    "activity": [
+      "夜间活动",
+      "前足探测",
+      "触肢捕猎"
+    ],
+    "tags": [
+      "有鞭目",
+      "醋酸防御",
+      "感觉前足",
+      "无毒针",
+      "墨西哥"
+    ],
+    "summary": "美洲巨鞭蝎伸出细长的前足探路，用粗壮触肢抓住猎物。受到威胁时，它能从腹末喷出带醋酸气味的防御液。",
+    "description": "它有深褐色身体和细长的鞭状尾丝，尾端没有蝎子那样的毒针。本页指现行分类中的Mastigoproctus giganteus。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "认识美洲巨鞭蝎",
+        "title": "先分清旧名称里的不同物种",
+        "body": "2018年的修订把过去广义的Mastigoproctus giganteus分为多个物种。本页保留TODO中的中文名称，学名采用狭义M. giganteus，对应墨西哥莫雷洛斯州的种群。美国南部旧称同名的动物不能直接算作本种。"
+      },
+      {
+        "key": "body",
+        "label": "身体外形",
+        "title": "粗触肢与细尾丝",
+        "body": "鞭蝎属于蛛形纲、有鞭目。头胸部前方的粗壮触肢帮助捕食，腹部末端延伸出细长尾丝。尾丝末端没有毒针，喷液出口位于腹末、靠近尾丝基部。"
+      },
+      {
+        "key": "sensing",
+        "label": "前足探路",
+        "title": "第一对足承担感觉工作",
+        "body": "鞭蝎把第一对足伸向前方，像探杆一样接触周围表面，主要依靠其余三对足行走。它没有昆虫的触角；图中细长的探测附肢属于足。这里介绍有鞭目共有的身体机制，不提供未经本种实验核实的探测距离。"
+      },
+      {
+        "key": "feeding",
+        "label": "抓住猎物",
+        "title": "用触肢控制小型节肢动物",
+        "body": "鞭蝎会捕食昆虫等小型节肢动物。靠近猎物后，粗壮的触肢帮助夹持，口前的螯肢进一步处理食物。配图重建了这种捕食姿态，不能据此确定莫雷洛斯种群偏好哪一种猎物。"
+      },
+      {
+        "key": "defense",
+        "label": "喷液防御",
+        "title": "从腹末释放带酸味的液体",
+        "body": "鞭蝎用腹部末端的一对腺体储存并喷出防御分泌物，其中含醋酸。早期以M. giganteus为名的化学研究采用物种拆分前的分类口径，因此本页只介绍鞭蝎的喷液机制，不把旧实验的酸含量百分比、射程或寿命直接写成狭义本种的数值。"
+      },
+      {
+        "key": "conservation",
+        "label": "分布与保护",
+        "title": "用现行物种名重新整理记录",
+        "body": "本页未核实到狭义本种的全球IUCN评估，暂记NE，种群趋势未知。调查时应保留地点和形态证据，区分近亲，才能判断当地数量变化。保护建议包括保留林下隐蔽空间，具体威胁程度仍需当地研究。"
+      }
+    ],
+    "keyFacts": [
+      "现行狭义本种分布在墨西哥莫雷洛斯州。",
+      "属于蛛形纲、有鞭目。",
+      "第一对足主要用于感觉，其余三对用于行走。",
+      "用粗壮触肢控制猎物。",
+      "鞭状尾丝没有毒针。",
+      "防御液从腹末靠近尾丝基部的出口喷出。"
+    ],
+    "featuredStats": [
+      {
+        "key": "range",
+        "label": "现行分布",
+        "value": "莫雷洛斯",
+        "note": "墨西哥；采用拆分后的物种范围。"
+      },
+      {
+        "key": "walking",
+        "label": "行走足",
+        "value": "3",
+        "unit": "对"
+      },
+      {
+        "key": "defense",
+        "label": "防御方式",
+        "value": "喷液"
+      },
+      {
+        "key": "status",
+        "label": "保护等级",
+        "value": "NE",
+        "note": "未核实全球评估。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Barrales-Alcalá等2018 — 巨鞭蝎复合群系统修订",
+        "url": "https://www.biodiversitylibrary.org/bibliography/191467",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "2026年Mastigoproctus新种研究 — 墨西哥物种分布表",
+        "url": "https://www.mdpi.com/2813-3323/4/2/9",
+        "kind": "distribution",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "Eisner等1961 — 广义巨鞭蝎防御液研究",
+        "url": "https://www.sciencedirect.com/science/article/pii/0022191061900543",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "Schmidt等2000 — 广义巨鞭蝎腹末腺体分泌物",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022191099001304",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "佛罗里达大学IFAS — 鞭蝎外形与生活史，旧分类口径",
+        "url": "https://ask.ifas.ufl.edu/publication/IN890",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/giant-vinegaroon/01-cover.webp",
+      "alt": "一只完整的美洲巨鞭蝎位于画面右侧的林下地表，细长尾丝和足伸在身体周围。",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.35
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/giant-vinegaroon/02-body.webp",
+          "alt": "深褐色鞭蝎展开触肢和足，腹末伸出细长尾丝。",
+          "title": "触肢与鞭状尾丝",
+          "caption": "AI生成外形示意；触肢棘与细足细节不能用于区分近似种。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/giant-vinegaroon/03-sensory-legs.webp",
+          "alt": "鞭蝎在落叶上伸出细长的第一对足。",
+          "title": "用前足探路",
+          "caption": "AI生成感觉前足示意；不表示实测探测距离或运动轨迹。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/giant-vinegaroon/04-defense.webp",
+          "alt": "鞭蝎转向腹末，附近可见示意防御液的细小液滴。",
+          "title": "腹末的防御液",
+          "caption": "AI生成防御情景；液滴不表示实测射程、浓度或喷射时序。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/giant-vinegaroon/05-prey.webp",
+          "alt": "鞭蝎用粗壮触肢夹住一只小型蟋蟀。",
+          "title": "用触肢抓住猎物",
+          "caption": "AI生成捕食姿态；蟋蟀不是本种野外偏食的证据。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/giant-vinegaroon/06-habitat.webp",
+          "alt": "墨西哥中部林下铺着落叶，石块之间留有阴暗缝隙。",
+          "title": "莫雷洛斯的林下",
+          "caption": "AI生成栖息地重建，不对应地理定位照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
+  {
+    "id": "species-sacculina-carcini",
+    "slug": "sacculina-carcini",
+    "names": {
+      "zh": "蟹奴",
+      "en": "Crab Hacker Barnacle",
+      "aliases": []
+    },
+    "scientificName": "Sacculina carcini",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Arthropoda",
+        "zhName": "节肢动物门"
+      },
+      "class": {
+        "scientificName": "Thecostraca",
+        "zhName": "鞘甲纲"
+      },
+      "order": {
+        "scientificName": "Rhizocephala",
+        "zhName": "根头目"
+      },
+      "family": {
+        "scientificName": "Sacculinidae",
+        "zhName": "蟹奴科"
+      },
+      "genus": {
+        "scientificName": "Sacculina",
+        "zhName": "蟹奴属"
+      }
+    },
+    "measurements": {},
+    "metrics": {},
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "NE",
+      "label": {
+        "zh": "未评估",
+        "en": "Not Evaluated"
+      },
+      "trend": "unknown",
+      "assessor": "未核实到本种全球 IUCN 评估；暂记 NE，不设评估年份。"
+    },
+    "distribution": {
+      "realms": [
+        "marine"
+      ],
+      "continents": [
+        "欧洲"
+      ],
+      "regions": [
+        "东北大西洋沿岸",
+        "地中海"
+      ],
+      "countries": [
+        "英国",
+        "爱尔兰"
+      ],
+      "range": "原生记录从斯堪的纳维亚沿岸向南延伸至地中海，寄生于浅海蟹类。英国与爱尔兰有多处记录；国家列表仅列本页核实的部分地点，不把欧洲绿蟹的全球入侵范围当作蟹奴范围。"
+    },
+    "habitats": [
+      {
+        "name": "浅海蟹类宿主体内与腹下",
+        "realm": "marine",
+        "description": "幼体在水中生活；进入宿主后，蟹奴在蟹体内扩展吸收组织，并从腹下伸出繁殖囊体。",
+        "isPrimary": true
+      }
+    ],
+    "diet": {
+      "types": [
+        "carnivore"
+      ],
+      "foods": [
+        "从蟹宿主体内吸收的营养物质"
+      ],
+      "description": "成体通过根状内部组织吸收宿主营养，没有用来吞食猎物的口和消化道。食性筛选沿用动物性营养来源的“肉食”，实际取食方式是寄生吸收。"
+    },
+    "activity": [
+      "幼体浮游",
+      "成体内寄生",
+      "腹下囊体繁殖"
+    ],
+    "tags": [
+      "寄生藤壶",
+      "根状组织",
+      "繁殖囊体",
+      "蟹类宿主",
+      "海洋"
+    ],
+    "summary": "蟹奴长大后失去分节外形和附肢，在蟹体内伸展根状组织吸收营养。蟹腹下露出的软囊，承担着它的繁殖工作。",
+    "description": "蟹奴是藤壶的亲属，属于鞘甲纲。幼体仍保留甲壳动物的特征，成体却变成体内的吸收网络与体外的繁殖囊体。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "认识蟹奴",
+        "title": "蟹腹下藏着藤壶的亲属",
+        "body": "蟹奴属于节肢动物门、鞘甲纲。它的成体没有硬壳和步足，很难让人联想到岸边的藤壶；研究者通过幼体形态和分子资料确认它的分类归属。本页根头目采用 Høeg 等系统修订中的目级口径。"
+      },
+      {
+        "key": "interna",
+        "label": "体内生活",
+        "title": "根状组织伸入宿主身体",
+        "body": "进入蟹体内后，蟹奴形成称为 interna 的分枝组织，分布在宿主体腔和组织之间。它通过这套组织取得营养。这里的“根”是动物组织的形状比喻，蟹奴既不是植物，也不是附在蟹壳表面的真菌。"
+      },
+      {
+        "key": "externa",
+        "label": "腹下囊体",
+        "title": "露在外面的部分负责繁殖",
+        "body": "称为 externa 的软囊从宿主腹部下方露出，经穿过体壁的短柄与内部组织相连。囊体包含繁殖结构，外形可呈奶油色至褐色的扁椭圆形。它不是宿主的卵块；同一只蟹也可能出现多个感染形成的囊体。"
+      },
+      {
+        "key": "larvae",
+        "label": "幼体与定居",
+        "title": "从浮游幼体进入寄生生活",
+        "body": "蟹奴会经历无节幼体和金星幼体等阶段。雌性幼体在合适的宿主表面定居，随后把将要发育的寄生组织送入体内。雄性幼体与雌性外部囊体发生联系，参与受精；不能把雌雄两条发育路径合成一条。"
+      },
+      {
+        "key": "host",
+        "label": "宿主变化",
+        "title": "宿主的繁殖与行为受到影响",
+        "body": "蟹奴能够感染雄蟹和雌蟹，抑制宿主繁殖，并影响蜕壳。感染后的雄蟹可出现腹部外形等雌性化特征。研究者还观察到宿主照料囊体的行为；这不等于蟹奴具有意图，或以根状组织直接操纵某个脑区。"
+      },
+      {
+        "key": "conservation",
+        "label": "分布与观察",
+        "title": "记录宿主，也记录寄生者",
+        "body": "本页未核实到蟹奴的全球 IUCN 评估，种群趋势未知。观察时应同时记录宿主身份、地点和腹下囊体特征，并区分近似寄生种。保留浅海生境与物种记录，有助于研究这类寄生关系。"
+      }
+    ],
+    "keyFacts": [
+      "蟹奴是寄生的藤壶亲属。",
+      "成体分为体内吸收组织和体外繁殖囊体。",
+      "腹下软囊不是蟹的卵块。",
+      "雄蟹与雌蟹都可能感染。",
+      "幼体保留可辨认的甲壳动物特征。",
+      "本页不把宿主分布当作寄生者分布。"
+    ],
+    "threats": [
+      "本种全球数量变化和威胁程度缺少已核实资料。"
+    ],
+    "conservationActions": [
+      "调查时同时鉴定宿主与寄生者。",
+      "保留浅海生境，并记录采样位置与感染情况。"
+    ],
+    "featuredStats": [
+      {
+        "key": "body",
+        "label": "成体结构",
+        "value": "内外两部"
+      },
+      {
+        "key": "feeding",
+        "label": "营养方式",
+        "value": "寄生吸收"
+      },
+      {
+        "key": "host",
+        "label": "常见宿主",
+        "value": "欧洲绿蟹"
+      },
+      {
+        "key": "status",
+        "label": "保护等级",
+        "value": "NE"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OBIS — Sacculina carcini 分类归属",
+        "url": "https://obis.org/taxon/134805",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "Høeg 等 — 根头类分子分类修订（根头目口径）",
+        "url": "https://academic.oup.com/zoolinnean/article/190/2/632/5648055",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "2022 — 蟹奴内寄生生活的基因组适应",
+        "url": "https://tbg.senckenberg.de/wp-content/uploads/2022/10/Genome-Biology-and-Evolution.pdf",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "MarLIN — 蟹奴形态、生活史与分布",
+        "url": "https://www.marlin.ac.uk/species/detail/2233",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "2014 — 多个外囊与多重感染",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4222215/",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/sacculina-carcini/01-cover.webp",
+      "alt": "蟹腹下露出黄色蟹奴囊体，完整宿主位于画面右侧。",
+      "focalPoint": {
+        "x": 0.93,
+        "y": 0.35
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/sacculina-carcini/02-externa.webp",
+          "alt": "蟹腹下的浅黄色软囊连接在宿主体壁附近。",
+          "title": "外部繁殖囊体",
+          "caption": "AI 生成外囊近景；腹部细节经过简化，不能用于物种鉴定。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/sacculina-carcini/03-interna.webp",
+          "alt": "蟹体剖面内的分枝组织连接到腹下囊体。",
+          "title": "体内根状组织",
+          "caption": "AI 生成剖面示意；为展示连接关系，外囊与宿主的距离和连接柄长度经过夸张，分枝与器官比例不代表实测解剖位置。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/sacculina-carcini/04-larva.webp",
+          "alt": "透明的浮游幼体伸出带刚毛的附肢。",
+          "title": "浮游幼体",
+          "caption": "AI 生成无节幼体示意；细毛数量和比例不能用于鉴定或测量。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/sacculina-carcini/05-host.webp",
+          "alt": "海底蟹的腹下可见寄生囊体，附肢靠近腹部。",
+          "title": "宿主与囊体",
+          "caption": "AI 生成宿主姿态；静态配图不能证明照料行为的过程。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/sacculina-carcini/06-habitat.webp",
+          "alt": "浅海岩石与海藻之间有一只小蟹。",
+          "title": "浅海宿主生境",
+          "caption": "AI 生成生境重建；不对应采集地点，背面看不到寄生囊体。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
+  {
+    "id": "species-chrysomallon-squamiferum",
+    "slug": "scaly-foot-snail",
+    "names": {
+      "zh": "鳞足螺",
+      "en": "Scaly-foot Snail",
+      "aliases": []
+    },
+    "scientificName": "Chrysomallon squamiferum",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Mollusca",
+        "zhName": "软体动物门"
+      },
+      "class": {
+        "scientificName": "Gastropoda",
+        "zhName": "腹足纲"
+      },
+      "order": {
+        "scientificName": "Neomphalida",
+        "zhName": "新脐目"
+      },
+      "family": {
+        "scientificName": "Peltospiridae",
+        "zhName": "铠螺科"
+      },
+      "genus": {
+        "scientificName": "Chrysomallon",
+        "zhName": "鳞足螺属"
+      }
+    },
+    "measurements": {},
+    "metrics": {},
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "EN",
+      "label": {
+        "zh": "濒危",
+        "en": "Endangered"
+      },
+      "trend": "unknown",
+      "assessedYear": 2018,
+      "criteria": "B2ab(iii)",
+      "assessor": "Sigwart、Chen 与 Thomas；2018-01-31 评估，2019 年发布。日期由 SeaLifeBase 收录的 IUCN 记录核对。"
+    },
+    "distribution": {
+      "realms": [
+        "marine"
+      ],
+      "continents": [],
+      "regions": [
+        "印度洋",
+        "西南印度洋海岭",
+        "中央印度洋海岭",
+        "卡尔斯伯格海岭"
+      ],
+      "countries": [],
+      "endemicTo": [
+        "印度洋深海热液区"
+      ],
+      "range": "印度洋深海热液区特有种。2026 年研究已从三条洋中脊的至少 8 处热液区采集到本种，覆盖西南印度洋海岭、中央印度洋海岭和卡尔斯伯格海岭。2019 年资料中的“三处热液区”是当时的已知范围。"
+    },
+    "habitats": [
+      {
+        "name": "深海热液弥散流区",
+        "realm": "marine",
+        "description": "生活在热液与寒冷海水混合的海底环境，依赖化学物质供应和共生细菌。不能把喷口最热流体的温度当作螺体承受的温度。",
+        "isPrimary": true
+      }
+    ],
+    "diet": {
+      "types": [
+        "bacterivore"
+      ],
+      "foods": [
+        "食道腺内硫氧化共生菌提供的有机营养"
+      ],
+      "description": "营养主要由食道腺细胞内的化能合成细菌提供。细菌利用化学反应获得能量并固定碳；本页沿用“食菌”筛选表示共生菌营养来源，不表示它在海底追逐或刮食细菌。"
+    },
+    "activity": [
+      "底栖爬行",
+      "化能合成共生",
+      "足部鳞片矿化"
+    ],
+    "tags": [
+      "热液区",
+      "足部鳞片",
+      "硫化铁",
+      "共生细菌",
+      "濒危"
+    ],
+    "summary": "鳞足螺的足边覆盖着层层鳞片，部分种群会在鳞片和外壳中沉积硫化铁。它生活在深海热液区，依靠体内的共生细菌获得营养。",
+    "description": "低矮的螺壳下面伸出宽大的足，足部边缘排列着鳞片状硬片。同种鳞足螺在不同热液区可以呈现深黑色或浅色外观。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "认识鳞足螺",
+        "title": "螺壳下面还有一圈鳞片",
+        "body": "鳞足螺属于腹足纲、新脐目、铠螺科。研究者在 2015 年正式描述并命名了这个物种。它的足部带有密集的鳞片状硬片；这些结构与螺壳共同覆盖身体，和穿山甲的鳞片没有同源关系。"
+      },
+      {
+        "key": "scales",
+        "label": "鳞片与矿物",
+        "title": "铁从周围水中进入鳞片",
+        "body": "研究者发现，鳞足螺会把含硫物质排入鳞片，周围水中的铁离子向内扩散，与硫反应形成硫化铁矿物。这些矿物可以分布在鳞片内部和表面。它利用的是含铁化合物，不能把整只螺描述成由纯铁铸成。"
+      },
+      {
+        "key": "variation",
+        "label": "不同种群",
+        "title": "浅色鳞片也属于同一个物种",
+        "body": "Kairei 热液区的黑色个体具有硫化铁矿化的鳞片；Solitaire 的浅色个体缺少这种铁矿化。两种外观都属于鳞足螺。环境中的化学条件会影响矿化，因此足部有鳞片不等于鳞片一定含铁。"
+      },
+      {
+        "key": "symbiosis",
+        "label": "共生营养",
+        "title": "食道腺中的细菌固定碳",
+        "body": "鳞足螺的食道腺内住着硫氧化共生细菌。细菌通过化能合成提供有机营养，宿主则为细菌提供生活空间及所需物质。它有发达的循环系统和鳃，帮助在低氧环境中维持这种关系；这里没有把喷口高温当作螺的耐热极限。"
+      },
+      {
+        "key": "range",
+        "label": "热液区之间",
+        "title": "新调查把已知地点扩展到至少八处",
+        "body": "2026 年发表的研究覆盖三条印度洋洋中脊的 8 处热液区。研究者把基因组分析与海流模拟结合，发现海流与海底大型转换断层会影响种群间的联系。发现更多地点能补充分布知识，但不等于每处种群都容易在受损后得到补充。"
+      },
+      {
+        "key": "conservation",
+        "label": "保护热液生境",
+        "title": "濒危评估关注海底采矿风险",
+        "body": "IUCN 于 2019 年发布鳞足螺的濒危等级，所对应评估日期为 2018 年。评估关注有限热液生境与潜在海底采矿破坏，种群趋势记为未知。2026 年的新分布资料不构成一次新的 IUCN 评估；保护仍需考虑各热液区及其间的联系。"
+      }
+    ],
+    "keyFacts": [
+      "足部有密集的鳞片状硬片。",
+      "部分种群的鳞片和壳含有硫化铁。",
+      "Solitaire 的浅色个体缺少铁矿化。",
+      "食道腺细胞内有化能合成共生菌。",
+      "2026 年研究覆盖至少 8 处热液区。",
+      "濒危记录对应 2018 年评估、2019 年发布。"
+    ],
+    "threats": [
+      "海底采矿可能破坏热液生境及其化学环境。",
+      "不同热液区之间的扩散限制可能影响受损种群的补充。"
+    ],
+    "conservationActions": [
+      "保护活动热液生境，并在评估中考虑种群间联系。",
+      "持续开展海底调查，记录新分布点和环境变化。"
+    ],
+    "featuredStats": [
+      {
+        "key": "habitat",
+        "label": "栖息环境",
+        "value": "深海热液"
+      },
+      {
+        "key": "sites",
+        "label": "研究采集点",
+        "value": "至少 8",
+        "unit": "处",
+        "note": "2026 年研究；不是 2018 年评估的地点数。"
+      },
+      {
+        "key": "feeding",
+        "label": "营养来源",
+        "value": "共生细菌"
+      },
+      {
+        "key": "status",
+        "label": "保护等级",
+        "value": "EN",
+        "note": "2018 年评估，2019 年发布。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OBIS — 鳞足螺分类归属",
+        "url": "https://obis.org/taxon/736932",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "东京大学综合研究博物馆 — 鳞足螺与原始描述",
+        "url": "https://www.um.u-tokyo.ac.jp/japanese/UMUTopenlab/en/library/b_14.html",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "JAMSTEC 2019 — 鳞片硫化铁形成机制",
+        "url": "https://www.jamstec.go.jp/e/about/press_release/20190910/",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "牛津大学 — 鳞足螺分类、解剖与共生研究",
+        "url": "https://ora.ox.ac.uk/objects/uuid:0136047f-a09b-4876-bb65-b74dfd7c997d",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "JAMSTEC 2026 — 八处热液区的种群联系",
+        "url": "https://www.jamstec.go.jp/e/about/press_release/20260212/",
+        "kind": "distribution",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "JAMSTEC 2019 — 鳞足螺列入濒危名录",
+        "url": "https://www.jamstec.go.jp/e/about/press_release/20190723/",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "SeaLifeBase — IUCN 等级与实际评估日期",
+        "url": "https://www.sealifebase.ca/summary/Chrysomallon-squamiferum",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/scaly-foot-snail/01-cover.webp",
+      "alt": "深色鳞足螺位于画面右侧的海底玄武岩上。",
+      "focalPoint": {
+        "x": 0.98,
+        "y": 0.35
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/scaly-foot-snail/02-body.webp",
+          "alt": "低矮螺壳下方伸出带鳞片的宽足。",
+          "title": "螺壳与鳞足",
+          "caption": "AI 生成外形重建；壳纹和鳞片排列不作分类诊断。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/scaly-foot-snail/03-scales.webp",
+          "alt": "足部边缘排列着层叠的深色硬片。",
+          "title": "足边的鳞片",
+          "caption": "AI 生成近景；不能从颜色量取硫化铁含量。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/scaly-foot-snail/04-symbiosis.webp",
+          "alt": "鳞足螺剖面示意图展示前部的共生组织。",
+          "title": "共生菌生活的组织",
+          "caption": "AI 生成食道腺位置示意；器官形状和细菌尺度经过简化，非实测切片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/scaly-foot-snail/05-white-morph.webp",
+          "alt": "浅色鳞足螺的足边覆盖乳白色鳞片。",
+          "title": "没有铁矿化的浅色个体",
+          "caption": "AI 生成 Solitaire 型外观；具体色调不用于判断矿物成分。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/scaly-foot-snail/06-habitat.webp",
+          "alt": "深海矿物烟囱附近的岩面上分布着小型螺类。",
+          "title": "深海热液生境",
+          "caption": "AI 生成生态情景；动物避开直接喷流，图中不表示实测温度或密度。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

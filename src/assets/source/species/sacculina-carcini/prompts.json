@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "sacculina-carcini",
+    "file": "01-cover",
+    "prompt": "Generate one 1536x1024 PNG wildlife atlas cover. Scientific educational photorealistic reconstruction of Sacculina carcini: a small European green shore crab Carcinus maenas viewed from below at slight angle underwater, showing one smooth yellow-orange fleshy oval parasite externa beneath the lifted abdominal flap. Whole host crab with two claws and four pairs of walking legs visibly included. Place the ENTIRE crab and parasite within a small rectangle x=1120..1260 y=325..405 on a 1536x1024 canvas, center near 77% width 36% height. This deliberately distant specimen is for a hero with severe responsive crops. Huge calm subdued blue-green sandy seabed background, left 40% quiet, no other animals, no labels, no text, no watermark. Crab lying on sloping submerged rock so ventral surface visible; natural marine lighting. Do not depict a shelled barnacle or mushrooms; parasite is a single soft sac. Keep all extremities within the stated small bounding rectangle.",
+    "edit": "Edit this 1536x1024 cover. Keep natural underwater sandy backdrop. Shrink entire crab plus parasite to 65% current size and move slightly upward so ENTIRE host including all legs and claws lies within x=1130..1255, y=320..395. Show a single smooth yellow oval Sacculina externa under abdominal flap, not paired balls. Keep anatomically credible green shore crab ventral aspect, all appendages in frame. Preserve left negative space, no text."
+  },
+  {
+    "slug": "sacculina-carcini",
+    "file": "02-externa",
+    "prompt": "1536x1024 scientific educational realistic macro reconstruction: ventral view of European green crab Carcinus maenas with abdominal flap gently raised, a SINGLE fleshy flattened yellow-orange oval Sacculina carcini reproductive sac beneath it. Central close view, crab sternum and attached abdominal flap clear, subtle marine teal background, no gore, no text. Parasite smooth soft sac not eggs, not shell, not two balls. No invented human hands."
+  },
+  {
+    "slug": "sacculina-carcini",
+    "file": "03-interna",
+    "prompt": "1536x1024 educational zoological cutaway illustration, realistic restrained museum style, no text. Side cutaway of European green shore crab Carcinus maenas, transparent cuticle shows Sacculina carcini interna as delicate branching GOLDEN root-like nutrient-absorbing filaments spread through interior tissues, connected by one narrow stalk through ventral abdomen to one smooth yellow oval externa beneath abdominal flap. Root network is PARASITE tissue, not botanical roots outside crab. No human brain, no horror, no gore. Clearly diagrammatic semi-transparent anatomy on quiet blue grey backdrop, whole crab complete."
+  },
+  {
+    "slug": "sacculina-carcini",
+    "file": "04-larva",
+    "prompt": "1536x1024 scientific educational microscope-style reconstruction of ONE Sacculina carcini nauplius larva floating in marine water, tiny translucent oval triangular shield, single median reddish eye, three pairs of fine setose swimming appendages. Centered detailed plankton study on dark teal background, delicate realistic translucent tissues, no adult crab features, no scales, no text or scale bar. Morphology is simplified natural history illustration."
+  },
+  {
+    "slug": "sacculina-carcini",
+    "file": "05-host",
+    "prompt": "1536x1024 natural history scientific reconstruction underwater: one whole European green shore crab Carcinus maenas on rock, low oblique ventral view showing abdomen folded over one smooth yellowish Sacculina carcini externa reproductive sac. Host gently attending abdominal area with a leg, no eggs and no second sac. Complete crab including two claws and four pairs walking legs within frame. Natural muted coastal light, central close-medium composition, no text."
+  },
+  {
+    "slug": "sacculina-carcini",
+    "file": "06-habitat",
+    "prompt": "1536x1024 realistic natural history underwater habitat illustration: European northeast Atlantic shallow rocky shore, patches of sand, submerged rock crevices and restrained brown-green seaweed under blue green coastal water. One small green shore crab on a rock at middle right in dorsal view, no parasite visible from above. Quiet habitat scene not a geographic documentary photograph, natural sunlight, no human infrastructure, no text."
+  }
+]

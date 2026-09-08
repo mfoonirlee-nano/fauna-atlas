@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "scaly-foot-snail",
+    "file": "01-cover",
+    "prompt": "One 1536x1024 PNG wildlife atlas cover, photorealistic scientific reconstruction. A single complete scaly-foot gastropod Chrysomallon squamiferum, black squat coiled shell above broad foot edged with rows of overlapping dark iron-sulfide sclerites, two short cephalic tentacles, on dark Indian Ocean hydrothermal vent basalt underwater. ENTIRE snail fits within x=1130..1250 y=330..410 pixels; deliberately small distant subject centered at 77% width 36% height, huge real quiet dark teal underwater background especially left 40%. Natural ROV illumination, subtle suspended particles, no lava, no flames, no bubbles, no other animals, no text, no collage. Keep complete shell, foot and all tentacles inside this small rectangle. 3:2 landscape.",
+    "edit": "Edit this 1536x1024 cover. Move snail farther right and upward and shrink: full snail including tentacles and sclerite-covered foot MUST fit inside x=1130..1250,y=325..405. Keep entire image canvas same size, replace old position with continuous natural basalt background. Correct head to marine scaly-foot gastropod: short cephalic tentacles WITHOUT land snail eye stalks. Foot edged in clearly overlapping flattened scale-like sclerites, squat dark coiled shell. Preserve deep blue-green underwater light, no text."
+  },
+  {
+    "slug": "scaly-foot-snail",
+    "file": "02-body",
+    "prompt": "1536x1024 scientific natural history photorealistic close side view of complete Chrysomallon squamiferum scaly-foot gastropod on underwater basalt. Low squat dark spiral shell, broad reddish foot encircled by numerous overlapping flattened black scale-like sclerites, marine head with short simple tentacles and NO long eyestalks. Complete specimen centered filling middle 60% with generous margins. Dark deep Indian Ocean ROV illumination, no lava, no text, no watermark."
+  },
+  {
+    "slug": "scaly-foot-snail",
+    "file": "03-scales",
+    "prompt": "1536x1024 realistic scientific macro image of Chrysomallon squamiferum scaly-foot snail: extreme close-up of edge of broad fleshy reddish foot showing MANY overlapping flattened blade-shaped dark mineralized organic sclerites like small roof tiles, attached in rows around foot under rim of dark shell. Deep-sea cool lighting, realistic wet microtexture, no metallic manufactured armor, no spikes, no text, no scale bar."
+  },
+  {
+    "slug": "scaly-foot-snail",
+    "file": "04-symbiosis",
+    "prompt": "1536x1024 scientific educational cutaway reconstruction of scaly-foot snail Chrysomallon squamiferum in side view, dark low coiled shell and broad scale-edged foot. Partial transparent window reveals enlarged lobed oesophageal gland in the anterior body behind head, filled with finely dotted bacterial-bearing tissue. Restrained realistic museum illustration, clearly a diagram not a specimen photo, no labels or text, no brain, no teeth, no fantasy organs. The gland is separate from digestive gut loop. Neutral deep teal backdrop."
+  },
+  {
+    "slug": "scaly-foot-snail",
+    "file": "05-white-morph",
+    "prompt": "1536x1024 scientific natural history realistic close view of Kairei-independent WHITE MORPH scaly-foot gastropod Chrysomallon squamiferum from Solitaire vent field: pale cream squat coiled shell and cream-white overlapping organic flattened sclerites around a pale fleshy broad foot. Two short marine cephalic tentacles, NO long land-snail eyestalks. Entire snail on dark submarine basalt centered with margins, cool ROV illumination, no black metallic scales, no lava, no text."
+  },
+  {
+    "slug": "scaly-foot-snail",
+    "file": "06-habitat",
+    "prompt": "1536x1024 realistic scientific reconstruction of deep Indian Ocean hydrothermal vent habitat, black mineral chimney in distance releases dark cloudy fluid into cold deep blue water, lower foreground dark basalt with small aggregation of scaly-foot snails showing squat shells and scale-edged feet away from direct hot jet. ROV white spotlight against darkness, no sunlight, no molten lava, no fire, no text. Ecological contextual view, not measured geographic map."
+  }
+]

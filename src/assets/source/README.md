@@ -239,3 +239,10 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Ramazzottius varieornatus image set](./species/ramazzottius-varieornatus/README.md)
 
 - [Trichoplax adhaerens image set](./species/trichoplax-adhaerens/README.md)
+
+- [Bootlace Worm image set](./species/bootlace-worm/README.md)
+- [Tongue-eating Louse image set](./species/tongue-eating-louse/README.md)
+- [Giant Vinegaroon image set](./species/giant-vinegaroon/README.md)
+
+- [Sacculina carcini image set](./species/sacculina-carcini/README.md)
+- [Scaly-foot Snail image set](./species/scaly-foot-snail/README.md)

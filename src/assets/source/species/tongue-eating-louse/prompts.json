@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "tongue-eating-louse",
+    "name": "01-cover",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species hero cover. Generate a 1536x1024 landscape natural-history photorealistic scientific reconstruction of one isolated Cymothoa exigua marine parasitic isopod in a scientific specimen-style underwater view on neutral wet gray substrate, ivory oval segmented body, small tucked head with two dark eyes, seven pairs of hooked short legs tucked close along sides, no host fish. Critical framing: entire animal including all appendages must be SMALL, contained inside x=1135..1275 and y=350..430 pixels of the 1536x1024 canvas, centered at x=1205 y=390. Environmental wide shot, NOT a close-up. Left 60% quiet softly blurred habitat for typography. Real continuous background on all sides. No text, border, watermark, labels or other animals. Restrained natural colors."
+  },
+  {
+    "slug": "tongue-eating-louse",
+    "name": "02-body",
+    "title": "分节的甲壳动物",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Scientific dorsal specimen-style close view of Cymothoa exigua, ivory oval dorsoventrally flattened isopod, seven distinct pereon segments with seven pairs of short hooked legs, smaller pleon and broad terminal plate, short tucked head with two small dark eyes. Neutral wet background, no host. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "tongue-eating-louse",
+    "name": "03-mouth",
+    "title": "鱼嘴里的雌体",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Scientific naturalistic educational view into the gently open mouth of an eastern Pacific spotted rose snapper Lutjanus guttatus, with one small cream-colored Cymothoa exigua attached at the floor of the mouth where tongue would be, head facing the mouth opening. Fish head close-up, non-graphic, no blood. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "tongue-eating-louse",
+    "name": "04-attachment",
+    "title": "附着在舌部残基",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Scientific educational simplified lateral cutaway of a fish mouth showing one cream segmented Cymothoa exigua sitting lengthwise atop a small tongue remnant, posterior hooked legs attaching to the remnant. Restrained ivory and pale pink anatomy, no blood, no exaggerated teeth, no arrows, no labels. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "tongue-eating-louse",
+    "name": "05-pair",
+    "title": "雌雄体形比较",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Naturalistic scientific illustration of adult female and smaller adult male Cymothoa exigua side by side on neutral wet gray background, both ivory oval segmented isopods with short hooked legs, female about twice male length. No scales or labels. Comparative anatomy illustration. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  },
+  {
+    "slug": "tongue-eating-louse",
+    "name": "06-habitat",
+    "title": "东太平洋近岸",
+    "prompt": "Use case: scientific-educational. Generate a single 1536x1024 landscape image for a biodiversity atlas. Natural-history wide underwater view of eastern tropical Pacific rocky coastal habitat with open blue-green water and subdued rocks. No visible animals, no corals, no people. Habitat reconstruction. High quality restrained scientific reconstruction, detailed realistic textures. No text, watermark, border or collage."
+  }
+]

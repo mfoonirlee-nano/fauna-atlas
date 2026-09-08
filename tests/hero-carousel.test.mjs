@@ -214,6 +214,11 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'sacculina-carcini', sha256: 'a5abff44770cc6f7e8c614a9a6ecccf48797e2bea3e3dd668f5ed6d2337a85d4', fullBody: { left: 1090, top: 335, right: 1300, bottom: 444 }, composedSafeAreas },
+    { slug: 'scaly-foot-snail', sha256: 'b1c0ca58a5d7edda84846f83f5c635ad3f7c2ea4fc24015876f06166133caafb', fullBody: { left: 1195, top: 308, right: 1325, bottom: 395 }, composedSafeAreas },
+    { slug: 'bootlace-worm', sha256: 'a2db469566eab5849f68940a6f44f0749cd88a73728cc4f2c08c436bcce360f4', fullBody: { left: 1225, top: 402, right: 1302, bottom: 456 }, composedSafeAreas },
+    { slug: 'tongue-eating-louse', sha256: 'a0b4ecb0e3cf356dfa0d8fb2d9ae25617a1f828c3458108346321e0c0253fb83', fullBody: { left: 1108, top: 325, right: 1295, bottom: 410 }, composedSafeAreas },
+    { slug: 'giant-vinegaroon', sha256: 'e7660ea355796dbcce959a3855c1f140c2774b6cbf30cc3f3f9635755505e8c4', fullBody: { left: 1126, top: 321, right: 1220, bottom: 390 }, composedSafeAreas },
     { slug: 'trichoplax-adhaerens', sha256: '1f08c615aedebc60bf4874c2ef629c3cc04d04372d3a475546ba773ac90fda61', fullBody: { left: 1075, top: 337, right: 1208, bottom: 435 }, composedSafeAreas },
     {
       slug: 'ramazzottius-varieornatus',
