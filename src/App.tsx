@@ -151,6 +151,7 @@ const classIconsByScientificName: Readonly<Record<string, ClassIcon>> = {
   Ophiuroidea: Waves,
   Hydrozoa: Waves,
   Scyphozoa: Waves,
+  Cubozoa: Waves,
   Mammalia: PawPrint,
 };
 

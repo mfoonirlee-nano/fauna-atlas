@@ -56,6 +56,10 @@ test('malacostracan artwork uses the shell icon instead of the fallback leaf', (
   assert.match(classIconSource, /Malacostraca:\s*Shell/);
 });
 
+test('cubozoan artwork uses the waves icon', () => {
+  assert.match(classIconSource, /Cubozoa:\s*Waves/);
+});
+
 test('branchiopod artwork uses the shell icon instead of the fallback leaf', () => {
   assert.match(classIconSource, /Branchiopoda:\s*Shell/);
 });

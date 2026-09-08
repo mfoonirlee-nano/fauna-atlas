@@ -1,0 +1,17 @@
+[
+  {
+    "key": "boxCoverRegenerate",
+    "prompt": "Generate a NEW landscape 1536x1024 natural-history scientific reconstruction cover of Australian box jellyfish Chironex fleckeri. Huge expanse of muted blue green coastal ocean water, ONE very small transparent box jellyfish on right. Center of whole jellyfish including tentacles at 80% across from left and 38% down from top. Animal occupies only 10% canvas width and 10% canvas height, whole animal within x1150..1320 and y325..440. Cuboid transparent bell, FOUR corner pedalia each with a BUNDLE of fine tentacles gently contracted and trailing diagonally right, all tentacle ends visible. Small size intentional. Left 70% empty quiet water. No bright glow, no moon-jelly rings, no frilly oral arms, no sea-nettle body, no text or graphics.",
+    "accepted": false
+  },
+  {
+    "key": "boxCoverEdit",
+    "prompt": "Make only the jellyfish in this image 25 percent smaller in both width and height, anchored at its current center. Keep its CENTER in exactly the same place, and keep its anatomy, pose and colors unchanged. All bell and tentacles scale together. Fill the vacated outline with matching seawater. Keep entire canvas and background unchanged. No other edits.",
+    "accepted": true
+  },
+  {
+    "key": "box05Edit",
+    "prompt": "Edit the box jellyfish feeding image: preserve box bell, shrimp, water and composition. CORRECT the tentacles: each of the FOUR basal corners must carry a distinct BUNDLE of 6-8 fine tentacles branching from its pedalium. The current single thick tentacle at each corner is wrong for adult Chironex fleckeri. Replace those single tentacles with bundles of fine tentacles; keep the shrimp attached to one fine tentacle. All other anatomy and scene unchanged, no labels.",
+    "accepted": true
+  }
+]

@@ -215,6 +215,7 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     { slug: 'vampire-squid', sha256: '1bca74b8338918adc7dd20bf95e44b25ae4fb5aa0ab0bc055c682ace44692658', fullBody: { left: 1055, top: 314, right: 1295, bottom: 433 }, composedSafeAreas },
+    { slug: 'australian-box-jellyfish', sha256: '8d51c0fdd087585c2fbff24f4ccd7a274df6c67ee4df3748d47ac7e591a80417', fullBody: { left: 1180, top: 317, right: 1313, bottom: 430 }, composedSafeAreas },
     { slug: 'sacculina-carcini', sha256: 'a5abff44770cc6f7e8c614a9a6ecccf48797e2bea3e3dd668f5ed6d2337a85d4', fullBody: { left: 1090, top: 335, right: 1300, bottom: 444 }, composedSafeAreas },
     { slug: 'scaly-foot-snail', sha256: 'b1c0ca58a5d7edda84846f83f5c635ad3f7c2ea4fc24015876f06166133caafb', fullBody: { left: 1195, top: 308, right: 1325, bottom: 395 }, composedSafeAreas },
     { slug: 'bootlace-worm', sha256: 'a2db469566eab5849f68940a6f44f0749cd88a73728cc4f2c08c436bcce360f4', fullBody: { left: 1225, top: 402, right: 1302, bottom: 456 }, composedSafeAreas },

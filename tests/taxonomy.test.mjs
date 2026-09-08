@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 145);
+  assert.equal(species.length, 146);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24543,7 +24543,7 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'class', 'Anthozoa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Scyphozoa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Hydrozoa')?.speciesCount, 1);
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 145);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 146);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25473,6 +25473,24 @@ test('integrates vampire squid as a detritivorous vampyromorph with reviewed med
   await assertGeneratedImageSet({
     profile, slug: 'vampire-squid',
     basenames: ['01-cover', '02-body', '03-feeding', '04-cloak', '05-light', '06-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates Australian box jellyfish on its own cubozoan branch with reviewed media', async () => {
+  const profile = findSpecies('australian-box-jellyfish');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Cnidaria', 'Cubozoa', 'Chirodropida', 'Chirodropidae', 'Chironex',
+  ]);
+  assert.equal(findTaxon(buildTaxonomyTree(species), 'class', 'Cubozoa')?.speciesCount, 1);
+  assert.equal(profile.conservation.code, 'NE');
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.equal(profile.metrics.adultLengthCm, undefined, 'bell diameter is not total length');
+  assert.equal(profile.storySections.length, 6);
+  assert.ok(profile.sources.some(({ url }) => url.endsWith('10.1071/MF9950985')));
+  await assertGeneratedImageSet({
+    profile, slug: 'australian-box-jellyfish',
+    basenames: ['01-cover', '02-body', '03-eyes', '04-navigation', '05-feeding', '06-habitat'],
     verifyAcceptedHashes: true,
   });
 });

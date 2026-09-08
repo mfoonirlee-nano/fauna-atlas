@@ -248,3 +248,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Scaly-foot Snail image set](./species/scaly-foot-snail/README.md)
 
 - [Vampire Squid image set](./species/vampire-squid/README.md)
+- [Australian Box Jellyfish image set](./species/australian-box-jellyfish/README.md)

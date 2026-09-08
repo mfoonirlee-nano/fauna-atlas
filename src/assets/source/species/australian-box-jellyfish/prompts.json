@@ -1,0 +1,30 @@
+{
+  "mode": "built-in imagegen",
+  "prompts": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas cover scientific reconstruction of Australian box jellyfish Chironex fleckeri. 1536x1024 landscape tropical northern Australian coastal seawater, blue green soft gradients. One small translucent box-shaped bell, four pedalial corners each with a bundle of thin tentacles; tentacles partly contracted and gently curved, ALL fully visible. Entire animal including every tentacle occupies only x=1160..1280 y=310..445 of canvas. Very small animal at upper right intentional for website hero crop. Left 70% quiet empty water. Bell clearly cuboid with four sides, no central oral arm frills, no moon jelly rings, no sea nettle shape, no exaggerated glow. Underwater natural-history photography look. No text, logos, borders or collage."
+    },
+    {
+      "file": "02-body",
+      "prompt": "Scientific natural-history underwater close view of Australian box jellyfish Chironex fleckeri. Single transparent near-cuboid bell shown three-quarter side view, rounded square corners with four muscular pedalia at base; each pedalium branches into a bundle of several fine pale tentacles. Entire bell and long curved tentacles visible against muted teal coastal water, animal fills central 65 percent. No large central frilly oral arms, no moon-jelly rings, no sea-nettle shape, no bright glow. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    },
+    {
+      "file": "03-eyes",
+      "prompt": "Scientific-educational illustration of one Chironex fleckeri rhopalium sensory club suspended by short stalk inside a small niche on the bell side, highly magnified on clean dark teal background. Precisely SIX eyes on one club: a single round upper lens eye above a larger single round lower lens eye on midline, one small pit eye on each side of upper lens eye, one narrow slit eye on each side of lower lens eye. Pale translucent cream club, dark reddish brown pigments, glossy lens surfaces, no human iris. Single integrated anatomical model with subtle bell niche context, no labels, text, arrows or collage. Schematic not microscopy. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    },
+    {
+      "file": "04-navigation",
+      "prompt": "Natural-history scientific reconstruction Australian box jellyfish Chironex fleckeri swimming in shallow northern Australian coastal water near widely separated dark mangrove roots. Whole transparent box-shaped bell at center right with four pedalial corners each carrying several slender tentacles, turning through clear gap beside root, no contact with roots. Pale sandy bottom at distance, subdued green seawater, realistic underwater documentary composition. No people, no text or arrows, no coral reef. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    },
+    {
+      "file": "05-feeding",
+      "prompt": "Scientific reconstruction underwater feeding scene Australian box jellyfish Chironex fleckeri in muted blue-green coastal water. Close view of translucent cubic bell, four corner pedalia with bundles of thin tentacles. A small translucent shrimp is caught against ONE tentacle below the bell, natural scale shrimp much smaller than bell; no blood or injury. Entire bell within frame and tentacles gently trailing. No thick frilly central oral arms, no fish face, no glow. Natural history editorial lighting. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    },
+    {
+      "file": "06-habitat",
+      "prompt": "Photorealistic natural-history coastal habitat image, northern Australian tropical estuary viewed half underwater half above, mangrove shoreline and muddy sandy shallows, soft daylight, calm muted turquoise and brown tones. Underwater foreground has a few roots and fine suspended sediment. No animals or people visible, no beach resort, no boats, no signage or text. Scientific habitat reconstruction, not specific geolocated photograph. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    }
+  ],
+  "edits": []
+}
