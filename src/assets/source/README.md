@@ -261,3 +261,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Common Kingfisher image set](./species/common-kingfisher/README.md)
 - [Mandarin Duck image set](./species/mandarin-duck/README.md)
+- [Barn Swallow image set](./species/barn-swallow/README.md)
