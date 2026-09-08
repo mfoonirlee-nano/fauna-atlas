@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 157);
+  assert.equal(species.length, 158);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24667,7 +24667,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 14);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 1);
@@ -24683,14 +24683,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'family', 'Agamidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Moloch')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Phrynosomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Phrynosoma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Helodermatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 10);
   assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 7);
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 157);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 158);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24724,7 +24724,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 105);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 106);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 41);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -25600,7 +25600,7 @@ test('integrates toco-toucan with sourced taxonomy, assessment and reviewed imag
 });
 
 // Validate the shared taxonomy branches, complete source/runtime image sets and review records.
-for (const slug of ['common-kingfisher', 'mandarin-duck', 'barn-swallow']) {
+for (const slug of ['common-kingfisher', 'mandarin-duck', 'barn-swallow', 'green-iguana']) {
   test(`integrates ${slug} with a complete reviewed image set`, async () => {
     const profile = findSpecies(slug);
     assert.equal(profile.storySections.length, 6);

@@ -1,0 +1,41 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-eb51d152-97ed-4c57-ac0a-61ddbadc517d.png",
+      "prompt": "Edit only the background of this 1536x1024 wildlife image. Remove the thin isolated dark horizontal line floating in foliage at x=1364..1450 y=396..411: it is a leftover tail artifact. Fill that small region with matching natural green foliage. Preserve the small complete iguana at x=1130..1315 y=374..423 and its real tail entirely unchanged, preserve all other composition, lighting and dimensions. No new animals or text.",
+      "promptHistory": [
+        "Use case: photorealistic-natural. New 1536x1024 3:2 wildlife atlas cover. A single green iguana Iguana iguana, natural green scales, dorsal spines, pendulous dewlap, large round subtympanic scale, four clawed feet and very long tapered banded tail, resting on thin distant horizontal branch in South American riverside tropical forest. Ultra wide environmental photograph: entire animal is TINY, full width INCLUDING ITS LONG TAIL ONLY 8% of image width (120 pixels), height 4% (40 pixels), center at x=80% y=38%. Whole body and every tail tip toe and spine between x=76%-84% and y=35%-41%. Do not enlarge. Tail fully visible with background around its tip. Left 60% quiet muted natural environment for typography. Accurate natural anatomy, no text watermark collage border or extra animals.",
+        "Edit this wildlife atlas cover. Keep the same 1536x1024 river forest background and natural photographic style. Change only the iguana and its perch: shrink the entire iguana including the complete tail to HALF its current width and height, and place its full silhouette centered at pixel (1230,390). Entire iguana including snout, toes, dorsal spines and tail tip MUST fit inside rectangle x=1145..1315 y=355..425. The tail must be complete, smaller than now, surrounded by real background. Left half remains quiet. No other animals, text, labels or collage. Preserve anatomically accurate green iguana.",
+        "Edit only the background of this 1536x1024 wildlife image. Remove the thin isolated dark horizontal line floating in foliage at x=1364..1450 y=396..411: it is a leftover tail artifact. Fill that small region with matching natural green foliage. Preserve the small complete iguana at x=1130..1315 y=374..423 and its real tail entirely unchanged, preserve all other composition, lighting and dimensions. No new animals or text."
+      ]
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-8594462a-c891-4357-9760-445a74ac328e.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. full body iguana on branch, entire long tail in frame, four anatomically correct limbs. Species: green iguana Iguana iguana, natural green scales, dorsal spines, pendulous dewlap, large round subtympanic scale, four clawed feet and very long tapered banded tail. Environment: South American riverside tropical forest. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "03-detail",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-ed32fd70-dbee-42bb-a159-f726dbc28c8a.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. close side and slightly elevated portrait showing natural small pale parietal scale on top of head, not an eyeball, and large round cheek scale below ear. Species: green iguana Iguana iguana, natural green scales, dorsal spines, pendulous dewlap, large round subtympanic scale, four clawed feet and very long tapered banded tail. Environment: South American riverside tropical forest. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "04-behavior",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-0c022889-caad-4e1f-b969-594c97a316f9.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. adult iguana feeding on fresh green leaves in tree. Species: green iguana Iguana iguana, natural green scales, dorsal spines, pendulous dewlap, large round subtympanic scale, four clawed feet and very long tapered banded tail. Environment: South American riverside tropical forest. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "05-life",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-2b35ee37-3c3f-4697-959c-d423253287bd.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. adult iguana basking on branch above river, full tail visible. Species: green iguana Iguana iguana, natural green scales, dorsal spines, pendulous dewlap, large round subtympanic scale, four clawed feet and very long tapered banded tail. Environment: South American riverside tropical forest. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-d746ac25-bb54-454f-8866-187671786707.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. wide South American tropical riparian forest. Species: green iguana Iguana iguana, natural green scales, dorsal spines, pendulous dewlap, large round subtympanic scale, four clawed feet and very long tapered banded tail. Environment: South American riverside tropical forest. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    }
+  ]
+}
