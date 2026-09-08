@@ -251,3 +251,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Australian Box Jellyfish image set](./species/australian-box-jellyfish/README.md)
 - [Bobbit Worm image set](./species/bobbit-worm/README.md)
 - [Reticulated Giraffe image set](./species/reticulated-giraffe/README.md)
+- [Common Hippopotamus image set](./species/hippopotamus/README.md)

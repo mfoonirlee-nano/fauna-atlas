@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 148);
+  assert.equal(species.length, 149);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 148);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 149);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24724,8 +24724,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 96);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 38);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 97);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 39);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
@@ -24839,7 +24839,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Daubentonia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cercopithecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Rhinopithecus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Bovidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Pantholops')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Proboscidea')?.speciesCount, 2);
@@ -25527,6 +25527,24 @@ test('integrates reticulated giraffe with its historical assessment and reviewed
   await assertGeneratedImageSet({
     profile, slug: 'reticulated-giraffe',
     basenames: ['01-cover', '02-body', '03-tongue', '04-pattern', '05-browsing', '06-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates common hippopotamus with normalized length and reviewed media', async () => {
+  const profile = findSpecies('hippopotamus');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Chordata', 'Mammalia', 'Artiodactyla', 'Hippopotamidae', 'Hippopotamus',
+  ]);
+  assert.equal(findTaxon(buildTaxonomyTree(species), 'family', 'Hippopotamidae')?.speciesCount, 1);
+  assert.deepEqual(profile.metrics.adultLengthCm, [330, 500]);
+  assert.equal(profile.conservation.code, 'VU');
+  assert.equal(profile.conservation.assessedYear, 2016, '2017 is the publication year');
+  assert.equal(profile.conservation.trend, 'stable');
+  assert.equal(profile.metrics.maxDiveDepthM, undefined, 'breath duration is not dive depth');
+  await assertGeneratedImageSet({
+    profile, slug: 'hippopotamus',
+    basenames: ['01-cover', '02-body', '03-breathing', '04-underwater', '05-grazing', '06-habitat'],
     verifyAcceptedHashes: true,
   });
 });

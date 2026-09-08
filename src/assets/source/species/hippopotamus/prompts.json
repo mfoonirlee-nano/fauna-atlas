@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-09-08",
+  "tool": "Codex built-in imagegen",
+  "images": [
+    {
+      "name": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 landscape natural history editorial wildlife photo reconstruction. One common hippopotamus Hippopotamus amphibius on a distant sandy riverbank, complete barrel-shaped gray pink body, broad muzzle, small ears, four short legs with feet visible and short tail. Side view in soft dawn light, hazy African river and gentle bank, quiet open foreground. CRITICAL very wide environmental shot: ENTIRE animal only inside x=1150..1310 y=335..425 on a 1536x1024 canvas, tiny subject centered 80% across and 37% down. Ground at feet at 42% canvas height. Natural background beyond all body edges; left 60% calm simple landscape. No water hiding feet, no other animals, no text watermark border."
+    },
+    {
+      "name": "02-body",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Full-body side view of adult common hippopotamus Hippopotamus amphibius standing on sandy African riverbank, broad barrel gray-pink body, massive muzzle, small rounded ears, eyes atop head, four short legs with feet and short tail visible, natural proportions, soft light. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "03-breathing",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Close eye-level wildlife view of one common hippopotamus Hippopotamus amphibius resting mostly submerged in calm freshwater, nostrils eyes and ears just above water, broad gray muzzle, subtle ripples. Calm animal, natural anatomy, no open monster mouth. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "04-underwater",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Natural-history underwater reconstruction of one common hippopotamus Hippopotamus amphibius moving along shallow sandy river bottom, hind feet pushing off bottom, forelegs lightly raised, closed mouth and nostrils, full complete body, muted green water with surface above. A bottom-supported step, no fish-like swimming or flippers. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "05-grazing",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. One common hippopotamus Hippopotamus amphibius grazing short grass on an African riverbank at dusk, broad muzzle lowered to grass, entire stocky body and four short legs visible, soft blue and warm evening tones. No other animals, natural pose. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Wide African freshwater river habitat with riverbank grass and a small resting group of common hippopotamuses mostly submerged in the middle distance. Quiet morning haze, water-level eyes ears and nostrils, gently flowing river, broad natural floodplain. No humans, boats or text. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    }
+  ],
+  "coverEdits": [
+    {
+      "revision": 1,
+      "prompt": "Edit this image for a tightly constrained website hero. Preserve the natural riverbank photographic style and single anatomically accurate hippo. Move the ENTIRE hippo to the RIGHT and UP, and shrink it slightly: its full subject bounds must fit x=1160..1320, y=335..425 on this 1536x1024 canvas. Current hippo is too far left and low. Feet must rest on a naturally rebuilt distant sandy bank at y=425. Preserve all four feet, ears, muzzle and short tail, no parts hidden in water. Rebuild surrounding riverbank with realistic perspective and keep quiet left half and generous foreground. No text."
+    },
+    {
+      "revision": 2,
+      "prompt": "Edit the attached wildlife landscape into a 1536x1024 cover. Raise the distant river bank and the ENTIRE hippo substantially UPWARDS, by 130 pixels, to the UPPER RIGHT QUADRANT. The hippo must stand at 37 percent of the image height, NOT halfway down. Its complete small silhouette spans x=1170 to x=1330 and y=335 to y=405. Its feet stand on a distant sandbank at y=405. Bottom 60 percent is quiet river surface and empty pale sand foreground. Upper third has distant trees and soft peach sky. Photorealistic small common hippopotamus walking left on exposed sand, full barrel body, short legs all hooves visible, broad muzzle ears and tail intact. Natural anatomy, no text. Leave left 60 percent entirely quiet landscape. This is a very distant wide landscape view with the animal small and HIGH in the image."
+    },
+    {
+      "revision": 3,
+      "prompt": "Keep this exact 1536x1024 photograph with the same small hippo and its horizontal position. Lower the entire distant sandbank, tree horizon and hippo by 70 pixels in the picture. The top of the hippo's back should now be near y=350 pixels and its feet at y=405 pixels. It is a subtle downward reframing, putting the tiny animal slightly above 40 percent of the image height. Keep the entire muzzle, ears, feet and tail visible. Preserve natural river landscape, pastel light and empty foreground, no text or added objects."
+    },
+    {
+      "revision": 4,
+      "prompt": "Use the attached landscape as the exact composition template. Replace ONLY the tiny giraffe at the upper right with ONE small anatomically realistic common hippopotamus standing in side view facing left. Hippo must occupy the SAME vertical band as the current giraffe, x=1160 to x=1310 and y=367 to y=435, hooves precisely on the current horizon line. Keep horizon at EXACTLY the same vertical position as the reference. Convert the dry foreground into a broad sandy river bank with subtle shallow water in the bottom quarter. Keep soft pale sky above and quiet left 60 percent. Animal complete, broad barrel body, short legs, wide muzzle, short tail ears and all feet visible. Do not move the horizon down or up. 1536x1024 photorealistic African wildlife landscape. No giraffes, no text."
+    }
+  ],
+  "acceptedCover": "coverEdits revision 4"
+}
