@@ -1,0 +1,36 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-97a5db09-94c1-4c35-bec1-1180d477d301.png",
+      "prompt": "Use case: photorealistic-natural. 1536x1024 3:2 wildlife atlas cover, greater flamingo Phoenicopterus roseus, pale pink-white body, pink bill with black tip, complete long neck and two pink legs and feet, shallow pale saline lagoon, standing on dry sandbar. VERY WIDE DISTANT ENVIRONMENTAL VIEW, animal is TINY: full silhouette only 6% of picture height, centered at x=80% y=38%, entire subject between x=75%-84% and y=33%-43%. Every visible appendage included with background margin. Left 60% quiet softly focused habitat for typography. Natural restrained editorial photograph, biologically accurate, no text, no watermark, no additional animals. Do not enlarge animal."
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-beca29a8-d9a5-413a-8043-d9e3ca7ce39a.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas detail photograph 1536x1024. greater flamingo Phoenicopterus roseus, pale pink-white body, pink bill with black tip, complete long neck and two pink legs and feet. Full-body close wildlife portrait, shallow pale saline lagoon, standing on dry sandbar, whole bill or muzzle, feet and tail visible. Subject large enough to see diagnostic anatomy, centered, generous background margin around complete silhouette. Natural light, realistic proportions, no text no watermark no frame."
+    },
+    {
+      "basename": "03-chick",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-b9030267-5d8d-4b71-89bc-205bcecfc68e.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Adult greater flamingo Phoenicopterus roseus, pale pink plumage and pink bill with black tip, standing beside a single tiny gray-white downy chick near low mud mound at shallow lagoon. Whole bodies and feet visible. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "04-feeding",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-9e54ee20-efd9-42a7-bead-f6194781b48c.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Greater flamingo feeding with long neck bent down and head inverted, bill immersed in shallow saline lagoon; entire bird visible, pale pink body and pink legs. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "05-flight",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-571c8967-ee8c-4e67-b001-fe693a332922.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Two greater flamingos in flight over lagoon, necks stretched forward legs trailing straight behind, black primary feathers and pink wing coverts, full wingtips and feet in frame. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-181273af-280b-4af9-8eee-2d62d6053c0e.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Wide Mediterranean saline lagoon and mudflats, small distant flock of pale greater flamingos, calm shallow water and salt marsh. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    }
+  ]
+}

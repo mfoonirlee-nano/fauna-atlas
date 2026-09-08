@@ -255,3 +255,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Cheetah image set](./species/cheetah/README.md)
 - [Ring-tailed Lemur image set](./species/ring-tailed-lemur/README.md)
+- [Greater Flamingo image set](./species/greater-flamingo/README.md)
