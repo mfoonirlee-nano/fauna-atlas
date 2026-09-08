@@ -7,45 +7,8 @@
 
 ## 第二批：奇特行为与身体机制
 
-### 爬行动物
-
-- [x] 蛛尾拟角蝰 *Pseudocerastes urarachnoides* — 摆动蜘蛛状尾尖，引诱食虫鸟进入伏击距离
-
-### 两栖动物
-
-- [x] 壮发蛙 *Astylosternus robustus*（旧名 *Trichobatrachus robustus*）— 末端趾骨脱离与小骨结的连接，刺穿皮肤形成防御骨爪
-- [x] 紫蛙 *Nasikabatrachus sahyadrensis* — 大部分时间在地下活动，只在季风繁殖期短暂现身
-- [x] 达尔文蛙 *Rhinoderma darwinii* — 雄蛙把蝌蚪收入鸣囊，直到幼体变态为小蛙
-
-### 鱼类
-
-- [x] 大鳍后肛鱼 *Macropinna microstoma* — 透明头罩内的管状眼睛能从朝上转向朝前
-- [x] 叶海龙 *Phycodurus eques* — 叶片状附肢模拟漂动海藻，雄鱼在尾部携带受精卵
-- [x] 电鳗 *Electrophorus electricus* — 用弱放电完成电定位，以强放电捕猎和防御
-- [x] 白斑河鲀 *Torquigener albomaculosus* — 雄鱼在海床筑出直径约 2 米的放射状沙圈作为求偶巢
-- [x] 射水鱼 *Toxotes jaculatrix* — 从水下喷射水柱击落枝叶上的昆虫，并补偿水面折射造成的瞄准偏差
-
-### 尚未收录的门
-
-- [x] 龙猫栉蚕 *Eoperipatus totoro* — 有爪动物门首次收录；从口侧乳突交叉喷出黏液束缚猎物
-- [x] 拉氏熊虫 *Ramazzottius varieornatus* — 缓步动物门首次收录；脱水时缩成隐生体，复水后可恢复活动
-- [x] 黏丝盘虫 *Trichoplax adhaerens* — 扁盘动物门首次收录；没有神经元、肌肉和器官，仍能协调运动与取食
-- [x] 巨纵沟纽虫 *Lineus longissimus* — 纽形动物门首次收录；能从头部翻出独立长吻捕猎
-
-### 节肢动物门
-
-- [x] 缩头鱼虱 *Cymothoa exigua* — 附着于鱼舌退化后的原位，研究者提出机械替代舌的假说
-- [x] 美洲巨鞭蝎 *Mastigoproctus giganteus* — 外形似蝎却没有毒针，受威胁时会喷出带醋酸气味的防御液
-- [x] 蟹奴 *Sacculina carcini* — 成体在蟹体内扩展根状组织，外部只留下承担繁殖的囊体
-
-### 软体动物门
-
-- [x] 鳞足螺 *Chrysomallon squamiferum* — 足部覆有鳞片，部分种群把硫化铁沉积进外壳和鳞片
-- [x] 幽灵蛸 *Vampyroteuthis infernalis* — 在低氧深海翻起腕间膜包裹身体，并释放发光黏液防御
-
 ### 其他无脊椎动物
 
-- [x] 澳大利亚箱水母 *Chironex fleckeri* — 拥有 24 只眼，其中 8 只带晶状体，能依靠视觉主动避障
 - [ ] 博比特虫 *Eunice aphroditois* — 身体埋在海床中，以快速张合的颚伏击游近的猎物
 
 ## 第三批：孩子熟悉的常见动物
@@ -53,11 +16,9 @@
 ### 哺乳动物
 
 - [ ] 网纹长颈鹿 *Giraffa reticulata* — 长而灵活的舌头能绕过枝刺，卷下高处的树叶
-- [x] 平原斑马 *Equus quagga* — 每匹斑马都有不同的条纹图案，像自己的身份标记
 - [ ] 河马 *Hippopotamus amphibius* — 潜水时会闭合鼻孔和耳朵，每隔几分钟浮出水面换气
 - [ ] 猎豹 *Acinonyx jubatus* — 奔跑时用长尾控制转向，爪子像跑鞋钉一样帮助抓地
 - [ ] 环尾狐猴 *Lemur catta* — 雄性把气味擦到尾巴上，再朝对手挥尾展开“臭味大战”
-- [x] 普通浣熊 *Procyon lotor* — 灵敏的前爪能在浅水和缝隙中摸索食物
 
 ### 鸟类
 
@@ -80,7 +41,6 @@
 
 ### 鱼类
 
-- [x] 眼斑双锯鱼（小丑鱼） *Amphiprion ocellaris* — 保护性黏液帮助它穿梭在海葵带刺的触手之间
 - [ ] 金鱼 *Carassius auratus* — 没有真正的胃，会用长在咽喉部位的咽齿碾碎食物
 - [ ] 暹罗斗鱼 *Betta splendens* — 鳃上方的迷鳃器让它能到水面吞咽空气
 - [ ] 大白鲨 *Carcharodon carcharias* — 后排牙齿会向前补位，替换捕猎时脱落的牙齿
@@ -92,9 +52,3 @@
 - [ ] 独角仙 *Trypoxylus dichotomus* — 雄虫用分叉长角角力，把争夺树汁的对手掀开
 - [ ] 枯叶蛱蝶 *Kallima inachus* — 合拢翅膀后，翅脉和翅尖组成一片带叶柄的枯叶
 - [ ] 红胸水萤 *Aquatica lateralis* — 成虫在夜里闪光，幼虫生活在水中
-- [x] 寻常球鼠妇（西瓜虫） *Armadillidium vulgare* — 它是陆生甲壳动物，受惊后会把身体卷成圆球
-- [x] 散大蜗牛 *Cornu aspersum* — 四根触角都能缩回头部，眼睛长在较长一对的末端
-
-## 用户追加
-
-- [x] 喜马拉雅旱獭（土拨鼠） *Marmota himalayana* — 高原草甸上的洞居、警戒与冬眠生活
