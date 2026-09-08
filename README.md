@@ -13,11 +13,21 @@ Fauna Atlas 希望用清晰、可信且富有生命力的方式，记录与呈�
 
 ## GitHub Pages 部署
 
-[部署工作流](./.github/workflows/deploy-pages.yml) 在推送 `main` 或手动运行时安装锁定依赖、构建网站并检查子路径资源，然后只上传 `dist` 目录。
+默认在本地构建，再将静态文件发布到 `gh-pages` 分支，无需 GitHub Actions。先安装依赖，再运行：
 
-首次启用时，在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。随后打开 **Actions → Deploy to GitHub Pages → Run workflow**，选择 `main` 运行。若切换设置前的首次部署失败，切换后重新运行即可。
+```bash
+npm ci
+npm run deploy:pages -- --check  # 仅构建和检查，不推送
+npm run deploy:pages            # 构建、检查并推送到 origin/gh-pages
+```
 
-部署成功后访问 [万物生灵图册](https://mfoonirlee-nano.github.io/fauna-atlas/)。在 Actions 中确认 `build` 和 `deploy` 均成功；本地构建通过或 Git 推送成功不代表线上部署完成。
+[发布脚本](./scripts/deploy-pages.js) 会重新构建当前工作区，检查子路径资源，将 `dist` 内容放到发布分支根目录。[public/.nojekyll](./public/.nojekyll) 会随构建复制过去，让 Pages 直接发布静态文件。脚本使用临时仓库，保留发布历史，以普通推送更新远端；远端发生并发更新时会停止报错。源代码分支和暂存区不受发布操作影响，但构建会更新本地 `dist`。发布内容包含当前未提交的源代码修改，请先提交准备上线的改动。
+
+首次发布成功后，在仓库 **Settings → Pages → Build and deployment** 中选择 **Deploy from a branch → gh-pages → /(root)** 并保存。之后更新网站时再次运行 `npm run deploy:pages`；只推送 `main` 不会更新网站。
+
+部署完成后访问 [万物生灵图册](https://mfoonirlee-nano.github.io/fauna-atlas/)。检查 Pages 部署状态和线上资源；本地构建或推送成功不代表线上部署完成。如果账号还受到 Pages 服务限制，需要按 GitHub 返回的错误处理。
+
+原有 [Actions 工作流](./.github/workflows/deploy-pages.yml) 仅保留手动触发。将来恢复使用时，先把 Pages Source 切换为 **GitHub Actions**，再手动运行该工作流。
 
 ## 技术栈
 
