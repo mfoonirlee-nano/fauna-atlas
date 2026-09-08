@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 149);
+  assert.equal(species.length, 150);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 149);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 150);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24724,9 +24724,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 97);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 39);
-  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 98);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 40);
+  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
@@ -25547,4 +25547,14 @@ test('integrates common hippopotamus with normalized length and reviewed media',
     basenames: ['01-cover', '02-body', '03-breathing', '04-underwater', '05-grazing', '06-habitat'],
     verifyAcceptedHashes: true,
   });
+});
+
+test('integrates cheetah with sourced taxonomy, assessment and reviewed images', async () => {
+  const profile = findSpecies('cheetah');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), ["Animalia", "Chordata", "Mammalia", "Carnivora", "Felidae", "Acinonyx"]);
+  assert.equal(profile.conservation.code, 'VU');
+  assert.equal(profile.conservation.assessedYear, 2021);
+  assert.equal(profile.storySections.length, 6);
+  assert.deepEqual(profile.metrics, {"adultLengthCm": [100, 140]});
+  await assertGeneratedImageSet({ profile, slug: 'cheetah', basenames: ["01-cover", "02-body", "03-running", "04-paws", "05-family", "06-habitat"], verifyAcceptedHashes: true });
 });

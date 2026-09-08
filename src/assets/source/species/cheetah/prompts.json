@@ -1,0 +1,40 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-d80155b4-8a99-463c-bbb7-22d1fa6a287d.png",
+      "prompt": "Edit this wildlife cover. Keep 1536x1024 canvas and natural savanna. Reduce entire cheetah to HALF its current width and height, reposition its full silhouette inside x=1150..1285 y=355..435 pixels. Keep anatomically accurate head, four legs, full tail, no occlusion. Reconstruct natural grass background in former location. Do not crop canvas. Quiet left side."
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-d42b0631-9d77-4102-bd79-b76df855ccc1.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas detail photograph 1536x1024. Acinonyx jubatus cheetah. Slim adult with solid black spots and tear stripes, standing side-on in savanna, all four paws and long tail visible. Subject large enough to see diagnostic anatomy, centered, generous background margin around complete silhouette. Natural light, realistic proportions, no text no watermark no frame."
+    },
+    {
+      "basename": "03-running",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-a6145f88-ec79-4fb3-8466-54f268b28848.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. One cheetah sprinting side-on across dry short grass, spine extended, full four limbs in a plausible gallop, long tail bends gently for balance. No prey. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "04-paws",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-2143489e-63ea-4f5d-8b43-a24696bb44ef.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Close view of cheetah forepaws resting naturally on sandy ground, short exposed dark claw tips and spotted fur visible, two normal feline paws, no diagrams. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "05-family",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-1ca95c16-4c0f-4604-9ee2-7731dcf62a61.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Cheetah mother resting with two cubs with silver-gray mantle fur on backs, shaded savanna grass, calm natural family behavior. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-db5c4bcb-2758-4604-bb04-42fc4f48a504.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Wide African savanna with scattered acacia trees, a single cheetah on a distant termite mound, extensive connected grassland. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    }
+  ],
+  "coverRevision": {
+    "originalPrompt": "Use case: photorealistic-natural. Create a 1536x1024 wildlife atlas cover: distant adult cheetah Acinonyx jubatus standing in side profile on short dry savanna grass. Anatomically accurate slim body, small head, black tear marks, solid black spots, four legs and complete long curved tail. CRITICAL website composition: the ENTIRE animal including tail must fit inside x=1140..1280 y=345..435 pixels on this 1536x1024 canvas (small distant subject centered 79% across and 38% down). Vast quiet soft grassland on left 60%, background continues naturally all around animal, no foreground occlusion. Warm restrained dawn photograph, no text, no watermark, no other animals. Full source canvas 3:2.",
+    "editPrompt": "Edit this wildlife cover. Keep 1536x1024 canvas and natural savanna. Reduce entire cheetah to HALF its current width and height, reposition its full silhouette inside x=1150..1285 y=355..435 pixels. Keep anatomically accurate head, four legs, full tail, no occlusion. Reconstruct natural grass background in former location. Do not crop canvas. Quiet left side."
+  }
+}
