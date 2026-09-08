@@ -55799,6 +55799,1315 @@ export const species = [
       ]
     }
   },
+{
+  "id": "eastern-honey-bee",
+  "slug": "eastern-honey-bee",
+  "names": {
+    "zh": "东方蜜蜂",
+    "en": "Eastern Honey Bee",
+    "aliases": []
+  },
+  "scientificName": "Apis cerana",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Hymenoptera",
+      "zhName": "膜翅目"
+    },
+    "family": {
+      "scientificName": "Apidae",
+      "zhName": "蜜蜂科"
+    },
+    "genus": {
+      "scientificName": "Apis",
+      "zhName": "蜜蜂属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "未取得可核实的全球物种评估"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲"
+    ],
+    "regions": [
+      "林缘、花地与农田"
+    ],
+    "countries": [
+      "中国",
+      "日本",
+      "韩国",
+      "泰国"
+    ],
+    "range": "原生于亚洲，分布涵盖东亚、南亚和东南亚。中国各地蜂群存在种下差异；中华蜜蜂通常指其中的一个亚种，并非整个物种的同义名称。",
+    "center": {
+      "lat": 30,
+      "lng": 110
+    }
+  },
+  "habitats": [
+    {
+      "name": "林缘、花地与农田",
+      "realm": "terrestrial",
+      "description": "原生于亚洲，分布涵盖东亚、南亚和东南亚。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "metrics": {},
+  "diet": {
+    "types": [
+      "nectarivore",
+      "herbivore"
+    ],
+    "foods": [
+      "花蜜",
+      "花粉"
+    ],
+    "description": "工蜂从花朵采集花蜜和花粉，带回巢内供蜂群利用；花粉提供蛋白质等营养。"
+  },
+  "activity": [
+    "日行性",
+    "社会性"
+  ],
+  "tags": [
+    "摆尾舞传信",
+    "林缘、花地与农田"
+  ],
+  "summary": "东方蜜蜂的工蜂回巢后会跳摆尾舞，把食物所在的方向和距离传给同伴。跟舞的工蜂还会接触舞者，获取与花源有关的气味。",
+  "description": "东方蜜蜂在树洞等空腔中筑造多片蜡脾，也能住进人工蜂箱。它与西方蜜蜂属于不同物种；本页描述东方蜜蜂，不把某一亚种的外形和习性推广到所有蜂群。",
+  "storySections": [
+    {
+      "key": "identity",
+      "label": "认识蜂群",
+      "title": "一个巢里有不同分工",
+      "body": "蜂王主要产卵，工蜂承担育幼、筑巢、守卫和采集等工作，雄蜂参与繁殖。巢外花上的小蜜蜂多为工蜂；不能只凭腹部颜色判断蜂王或亚种。"
+    },
+    {
+      "key": "dance",
+      "label": "摆尾舞",
+      "title": "用舞蹈指向花源",
+      "body": "工蜂在竖直巢脾上做摆尾跑动并绕回，跑动方向与重力方向的夹角传递相对于太阳的花源方向，摆尾阶段的时长与距离有关。舞者会重复动作，跟舞者也会利用气味寻找目标。"
+    },
+    {
+      "key": "pollen",
+      "label": "后腿花粉篮",
+      "title": "把花粉装在后腿上",
+      "body": "工蜂身上的毛会沾上花粉，它用足梳理并把花粉聚在后腿的花粉篮。花粉团是采集来的食物，并非腿部生出的黄色器官。"
+    },
+    {
+      "key": "nest",
+      "label": "蜡脾育幼",
+      "title": "六角巢房里养育下一代",
+      "body": "工蜂分泌蜂蜡并修筑巢脾，蜂王在巢房中产卵。幼虫由工蜂喂养，之后化蛹，再羽化成为成蜂；开放巢房里的白色幼虫还没有成年蜜蜂的体形。"
+    },
+    {
+      "key": "pollination",
+      "label": "访花传粉",
+      "title": "采食时也传递花粉",
+      "body": "工蜂在花朵之间移动时，身体携带的花粉可能到达另一朵花的柱头。多样且花期相接的植物能为蜂群提供持续食物，单一短花期不能满足整年的采集需要。"
+    },
+    {
+      "key": "conservation",
+      "label": "花源与巢址",
+      "title": "给野生蜂群留下住处",
+      "body": "保留开花植物和适宜巢址，减少花期不必要的杀虫剂使用。本档案未取得可核实的全球 IUCN 物种评估，按未评估收录，不能据此断言野生蜂群没有风险。"
+    }
+  ],
+  "keyFacts": [
+    "蜂王主要产卵，工蜂承担育幼、筑巢、守卫和采集等工作，雄蜂参与繁殖。",
+    "工蜂在竖直巢脾上做摆尾跑动并绕回，跑动方向与重力方向的夹角传递相对于太阳的花源方向，摆尾阶段的时长与距离有关。",
+    "工蜂身上的毛会沾上花粉，它用足梳理并把花粉聚在后腿的花粉篮。",
+    "工蜂分泌蜂蜡并修筑巢脾，蜂王在巢房中产卵。",
+    "工蜂在花朵之间移动时，身体携带的花粉可能到达另一朵花的柱头。"
+  ],
+  "threats": [
+    "花源减少和巢址丧失。",
+    "不当施药与蜂群病原传播。"
+  ],
+  "conservationActions": [
+    "保留连续花期的本地植物。",
+    "观察野生巢穴时保持距离，不挖巢取蜜。"
+  ],
+  "featuredStats": [
+    {
+      "key": "trait",
+      "label": "观察重点",
+      "value": "摆尾舞传信"
+    },
+    {
+      "key": "development",
+      "label": "发育方式",
+      "value": "完全变态"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GBIF — 东方蜜蜂分类",
+      "url": "https://www.gbif.org/species/1341979",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "Apidologie — 东方蜜蜂舞蹈参数",
+      "url": "https://link.springer.com/article/10.1007/s13592-023-00990-5",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "IUCN — 泰国红树林东方蜜蜂与社区保护",
+      "url": "https://iucn.org/news/asia/201612/bees-income-generator-and-mangrove-conservation-tool-community-thailand",
+      "kind": "general",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "DCCEEW — 东方蜜蜂的采集与巢址",
+      "url": "https://www.dcceew.gov.au/environment/invasive-species/insects-and-other-invertebrates/invasive-bees",
+      "kind": "general",
+      "accessedAt": "2026-09-08"
+    }
+  ],
+  "media": {
+    "image": "./images/species/eastern-honey-bee/01-cover.webp",
+    "alt": "东方蜜蜂位于画面右侧，完整主体周围保留环境。",
+    "focalPoint": {
+      "x": 0.84,
+      "y": 0.37
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/eastern-honey-bee/02-body.webp",
+        "title": "工蜂的外形",
+        "alt": "工蜂的外形。工蜂在花上停留，可观察胸部绒毛、触角和翅。",
+        "caption": "工蜂在花上停留，可观察胸部绒毛、触角和翅。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-honey-bee/03-detail.webp",
+        "title": "后腿上的花粉团",
+        "alt": "后腿上的花粉团。工蜂把采来的花粉聚集在后腿花粉篮中。",
+        "caption": "工蜂把采来的花粉聚集在后腿花粉篮中。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-honey-bee/04-behavior.webp",
+        "title": "巢脾上的工蜂",
+        "alt": "巢脾上的工蜂。工蜂在蜡脾上活动；静态重建图不表示一套可解码的舞蹈路线。",
+        "caption": "工蜂在蜡脾上活动；静态重建图不表示一套可解码的舞蹈路线。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-honey-bee/05-life.webp",
+        "title": "巢房中的幼虫",
+        "alt": "巢房中的幼虫。开放巢房中的白色幼虫由工蜂照料。为展示内部而呈现的巢脾视角不表示野生巢脾水平摆放。",
+        "caption": "开放巢房中的白色幼虫由工蜂照料。为展示内部而呈现的巢脾视角不表示野生巢脾水平摆放。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-honey-bee/06-habitat.webp",
+        "title": "林缘与开花植物",
+        "alt": "林缘与开花植物。开花植物和附近林地分别提供采集机会与潜在巢址。",
+        "caption": "开花植物和附近林地分别提供采集机会与潜在巢址。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-08",
+  "updatedAt": "2026-09-08"
+},
+{
+  "id": "two-spotted-cricket",
+  "slug": "two-spotted-cricket",
+  "names": {
+    "zh": "双斑蟋蟀",
+    "en": "Two-spotted Cricket",
+    "aliases": []
+  },
+  "scientificName": "Gryllus bimaculatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Orthoptera",
+      "zhName": "直翅目"
+    },
+    "family": {
+      "scientificName": "Gryllidae",
+      "zhName": "蟋蟀科"
+    },
+    "genus": {
+      "scientificName": "Gryllus",
+      "zhName": "蟋蟀属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危（欧洲）",
+      "en": "Least Concern (Europe)"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN 欧洲区域评估；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲",
+      "非洲",
+      "欧洲"
+    ],
+    "regions": [
+      "温暖草地与地表缝隙"
+    ],
+    "countries": [
+      "中国",
+      "印度",
+      "南非",
+      "西班牙"
+    ],
+    "range": "分布于非洲、亚洲及南欧等温暖地区，常在草地、农田边缘和石块缝隙活动。人工饲养地不直接代表野生分布。",
+    "center": {
+      "lat": 24,
+      "lng": 105
+    }
+  },
+  "habitats": [
+    {
+      "name": "温暖草地与地表缝隙",
+      "realm": "terrestrial",
+      "description": "分布于非洲、亚洲及南欧等温暖地区，常在草地、农田边缘和石块缝隙活动。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "metrics": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "植物碎片",
+      "种子",
+      "小型无脊椎动物",
+      "动物残体"
+    ],
+    "description": "会取食植物性和动物性食物，是地表活动的杂食昆虫。"
+  },
+  "activity": [
+    "夜间活动"
+  ],
+  "tags": [
+    "前腿听声",
+    "温暖草地与地表缝隙"
+  ],
+  "summary": "雄性双斑蟋蟀用前翅相互摩擦发声，接收声音的鼓膜器官却长在前腿胫节上。名字里的“双斑”指前翅基部附近的一对浅色斑。",
+  "description": "双斑蟋蟀有深色身体、细长触角和发达的后腿，常在隐蔽处鸣叫。雄虫的鸣声用于求偶和同类交流；听见声音时，未必能从草丛里找到发声者。",
+  "storySections": [
+    {
+      "key": "identity",
+      "label": "一对浅斑",
+      "title": "先找前翅基部的浅色斑",
+      "body": "双斑蟋蟀的身体多为深色，前翅基部附近有两个浅色斑。它用后腿跳跃，用长触角探索近处环境；鉴定仍需结合体形、翅和其他形态，不能只数斑点。"
+    },
+    {
+      "key": "song",
+      "label": "前翅发声",
+      "title": "鸣叫来自两片前翅",
+      "body": "雄虫抬起前翅并反复开合，让一侧翅上的音锉与另一侧的刮片摩擦。呼唤、求偶和争斗时的鸣声有不同节奏，不是用后腿摩擦翅膀制造同一种声音。"
+    },
+    {
+      "key": "hearing",
+      "label": "鼓膜在前腿",
+      "title": "用腿接收声音",
+      "body": "双斑蟋蟀的听觉鼓膜器官位于前腿胫节，雄雌都能接收声音。雌虫可以沿着雄虫的鸣声寻找配偶；耳朵的位置不在头部，也不是人类外耳那样的结构。"
+    },
+    {
+      "key": "food",
+      "label": "地表觅食",
+      "title": "植物与小动物都能吃",
+      "body": "双斑蟋蟀利用地表的植物碎片和动物性食物。白天可躲入石下或缝隙，夜间外出取食；人工饲养的食物配方不等于野外只吃同一种饲料。"
+    },
+    {
+      "key": "life",
+      "label": "不完全变态",
+      "title": "若虫逐次长出成虫的翅",
+      "body": "卵孵化后出现若虫，它已经有触角和三对足，却没有完整成翅。若虫经历多次蜕皮后成为成虫，中间没有蜜蜂和甲虫那样的蛹期。"
+    },
+    {
+      "key": "conservation",
+      "label": "区域评估",
+      "title": "欧洲的记录有范围",
+      "body": "IUCN 欧洲直翅目红色名录将本种列为无危，该记录限于欧洲区域，不能外推为全球评估。独立评估日期与全球趋势未核实；保留草地与地表隐蔽处有助于维持当地生境。"
+    }
+  ],
+  "keyFacts": [
+    "双斑蟋蟀的身体多为深色，前翅基部附近有两个浅色斑。",
+    "雄虫抬起前翅并反复开合，让一侧翅上的音锉与另一侧的刮片摩擦。",
+    "双斑蟋蟀的听觉鼓膜器官位于前腿胫节，雄雌都能接收声音。",
+    "双斑蟋蟀利用地表的植物碎片和动物性食物。",
+    "卵孵化后出现若虫，它已经有触角和三对足，却没有完整成翅。"
+  ],
+  "threats": [
+    "局部草地清除和杀虫剂使用。"
+  ],
+  "conservationActions": [
+    "保留草地边缘和地表隐蔽物。",
+    "不向野外释放饲养蟋蟀。"
+  ],
+  "featuredStats": [
+    {
+      "key": "trait",
+      "label": "观察重点",
+      "value": "前腿听声"
+    },
+    {
+      "key": "development",
+      "label": "发育方式",
+      "value": "不完全变态"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Orthoptera Species File — 双斑蟋蟀",
+      "url": "https://orthoptera.speciesfile.org/otus/829311",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "Journal of Insect Physiology — 前翅运动与鸣声",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022191021001098",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "双斑蟋蟀鼓膜器官研究",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30828748/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "Nature Communications — 蟋蟀翅的发育",
+      "url": "https://www.nature.com/articles/s41467-022-28624-x",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "IUCN — 欧洲直翅目红色名录",
+      "url": "https://portals.iucn.org/library/sites/library/files/documents/rl-4-021.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-08"
+    }
+  ],
+  "media": {
+    "image": "./images/species/two-spotted-cricket/01-cover.webp",
+    "alt": "双斑蟋蟀位于画面右侧，完整主体周围保留环境。",
+    "focalPoint": {
+      "x": 0.81,
+      "y": 0.23
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/two-spotted-cricket/02-body.webp",
+        "title": "雄虫外形近景",
+        "alt": "雄虫外形近景。近景显示前翅基部浅色斑和后腿；一根触角延伸到画面之外。",
+        "caption": "近景显示前翅基部浅色斑和后腿；一根触角延伸到画面之外。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/two-spotted-cricket/03-detail.webp",
+        "title": "前腿胫节细节",
+        "alt": "前腿胫节细节。听觉器官位于前腿胫节；图像只能展示外部情景，不能代替显微解剖。",
+        "caption": "听觉器官位于前腿胫节；图像只能展示外部情景，不能代替显微解剖。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/two-spotted-cricket/04-behavior.webp",
+        "title": "雄虫抬翅鸣叫",
+        "alt": "雄虫抬翅鸣叫。雄虫抬起前翅，通过两翅摩擦产生鸣声。",
+        "caption": "雄虫抬起前翅，通过两翅摩擦产生鸣声。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/two-spotted-cricket/05-life.webp",
+        "title": "尚未长成翅的若虫",
+        "alt": "尚未长成翅的若虫。成虫与具有短翅芽的若虫并列展示；若虫经蜕皮长大，不经历蛹期，也不表示成虫会照料它。",
+        "caption": "成虫与具有短翅芽的若虫并列展示；若虫经蜕皮长大，不经历蛹期，也不表示成虫会照料它。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/two-spotted-cricket/06-habitat.webp",
+        "title": "草地与地表藏身处",
+        "alt": "草地与地表藏身处。草丛、落叶和地表缝隙为蟋蟀提供藏身处。",
+        "caption": "草丛、落叶和地表缝隙为蟋蟀提供藏身处。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-08",
+  "updatedAt": "2026-09-08"
+},
+{
+  "id": "japanese-rhinoceros-beetle",
+  "slug": "japanese-rhinoceros-beetle",
+  "names": {
+    "zh": "独角仙",
+    "en": "Japanese Rhinoceros Beetle",
+    "aliases": [
+      "双叉犀金龟"
+    ]
+  },
+  "scientificName": "Trypoxylus dichotomus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Coleoptera",
+      "zhName": "鞘翅目"
+    },
+    "family": {
+      "scientificName": "Scarabaeidae",
+      "zhName": "金龟科"
+    },
+    "genus": {
+      "scientificName": "Trypoxylus",
+      "zhName": "叉犀金龟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "未取得可核实的全球物种评估"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲"
+    ],
+    "regions": [
+      "阔叶林与腐殖土"
+    ],
+    "countries": [
+      "中国",
+      "日本",
+      "韩国"
+    ],
+    "range": "分布于东亚及邻近亚洲地区，包括中国、日本和朝鲜半岛等地。不同地理种群的体形和角形存在差异，本页不把日本单一种群作为全物种范围。",
+    "center": {
+      "lat": 32,
+      "lng": 120
+    }
+  },
+  "habitats": [
+    {
+      "name": "阔叶林与腐殖土",
+      "realm": "terrestrial",
+      "description": "分布于东亚及邻近亚洲地区，包括中国、日本和朝鲜半岛等地。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "metrics": {},
+  "diet": {
+    "types": [
+      "herbivore",
+      "detritivore"
+    ],
+    "foods": [
+      "树汁",
+      "腐殖质",
+      "腐解植物物质"
+    ],
+    "description": "成虫取食树干渗出的树汁；幼虫在腐殖土和腐解植物物质中生活取食，两个阶段利用的食物不同。"
+  },
+  "activity": [
+    "傍晚与夜间活动"
+  ],
+  "tags": [
+    "分叉角角力",
+    "阔叶林与腐殖土"
+  ],
+  "summary": "雄性独角仙用分叉的长头角伸到对手身下，再尝试把对手掀离树干。角力常发生在有树汁的地点，雌虫也会到这些位置取食。",
+  "description": "独角仙属于金龟科，雄虫长有夸张的头角和较短的前胸角，雌虫没有这样的长角。幼虫是生活在腐殖质中的蛴螬，与树干上披着硬鞘翅的成虫外形不同。",
+  "storySections": [
+    {
+      "key": "identity",
+      "label": "雌雄差异",
+      "title": "长角主要属于雄虫",
+      "body": "雄虫的头角长而分叉，前胸还有较短的角；雌虫不长同样的夸张长角。雄虫间也有大小差异，不能把小角雄虫或雌虫都当作未成年的个体。"
+    },
+    {
+      "key": "combat",
+      "label": "树干角力",
+      "title": "把头角伸到对手下面",
+      "body": "雄虫争夺有树汁的树干位置时，会用头角挑起对手，尝试让对方失去抓握。头角的形状与承受争斗中的力有关，长角不是用来刺穿猎物的捕食器官。"
+    },
+    {
+      "key": "sap",
+      "label": "成虫食物",
+      "title": "守住一处渗汁的树皮",
+      "body": "成虫到树皮伤口附近吸食渗出的汁液，雌虫也会来取食。雄虫守住这样的地点，可增加与雌虫相遇的机会；食物位置因此也成为争斗位置。"
+    },
+    {
+      "key": "larva",
+      "label": "腐土中的幼虫",
+      "title": "幼虫把身体弯成弧形",
+      "body": "白色幼虫有褐色头壳和三对胸足，常蜷成 C 形，在腐殖质中取食。它没有成虫的长角与鞘翅，不能只凭一张蛴螬图片确认是哪一种金龟。"
+    },
+    {
+      "key": "life",
+      "label": "完全变态",
+      "title": "蛹期之后才穿上鞘翅",
+      "body": "独角仙经历卵、幼虫、蛹和成虫四个阶段。蛹在土中发育，羽化后成为甲虫；成虫的角形与幼虫期生长条件和个体发育有关，不是出土后再换一套更大的壳。"
+    },
+    {
+      "key": "conservation",
+      "label": "保留林地",
+      "title": "树汁与腐土都需要保留",
+      "body": "阔叶树提供成虫取食位置，林下腐解物质为幼虫提供生活空间。保护生境时要兼顾两个阶段。本档案未取得可核实的全球 IUCN 评估，按未评估收录。"
+    }
+  ],
+  "keyFacts": [
+    "雄虫的头角长而分叉，前胸还有较短的角；雌虫不长同样的夸张长角。",
+    "雄虫争夺有树汁的树干位置时，会用头角挑起对手，尝试让对方失去抓握。",
+    "成虫到树皮伤口附近吸食渗出的汁液，雌虫也会来取食。",
+    "白色幼虫有褐色头壳和三对胸足，常蜷成 C 形，在腐殖质中取食。",
+    "独角仙经历卵、幼虫、蛹和成虫四个阶段。"
+  ],
+  "threats": [
+    "阔叶林减少和林下腐殖层清除。",
+    "局部过度采集。"
+  ],
+  "conservationActions": [
+    "保留老树与适量落叶腐殖层。",
+    "不为采集独角仙破坏树皮或挖掘幼虫栖地。"
+  ],
+  "featuredStats": [
+    {
+      "key": "trait",
+      "label": "观察重点",
+      "value": "分叉角角力"
+    },
+    {
+      "key": "development",
+      "label": "发育方式",
+      "value": "完全变态"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NCBI — 独角仙分类",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=273928&mode=Info",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "Scientific Reports — 独角仙基因组与角的形成",
+      "url": "https://www.nature.com/articles/s41598-023-35246-w",
+      "kind": "general",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "雄性独角仙武器尺寸的力学限制",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4046419/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "独角仙不同种群角的性能",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6835817/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    }
+  ],
+  "media": {
+    "image": "./images/species/japanese-rhinoceros-beetle/01-cover.webp",
+    "alt": "独角仙位于画面右侧，完整主体周围保留环境。",
+    "focalPoint": {
+      "x": 0.9,
+      "y": 0.35
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/japanese-rhinoceros-beetle/02-body.webp",
+        "title": "雄虫的完整外形",
+        "alt": "雄虫的完整外形。雄虫用六足抓住树皮，头角和前胸角可见。",
+        "caption": "雄虫用六足抓住树皮，头角和前胸角可见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/japanese-rhinoceros-beetle/03-detail.webp",
+        "title": "分叉头角与前胸角",
+        "alt": "分叉头角与前胸角。头角末端分叉，较短的前胸角与其配合参与争斗。",
+        "caption": "头角末端分叉，较短的前胸角与其配合参与争斗。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/japanese-rhinoceros-beetle/04-behavior.webp",
+        "title": "树汁附近的对手",
+        "alt": "树汁附近的对手。雄虫在树汁取食位置相遇，可能展开角力。",
+        "caption": "雄虫在树汁取食位置相遇，可能展开角力。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/japanese-rhinoceros-beetle/05-life.webp",
+        "title": "腐殖土里的蛴螬",
+        "alt": "腐殖土里的蛴螬。成虫与腐殖土里的幼虫并列展示不同生命阶段，不表示成虫照料幼虫。",
+        "caption": "成虫与腐殖土里的幼虫并列展示不同生命阶段，不表示成虫照料幼虫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/japanese-rhinoceros-beetle/06-habitat.webp",
+        "title": "阔叶林与落叶层",
+        "alt": "阔叶林与落叶层。成虫与幼虫分别利用树干和林下腐殖质。",
+        "caption": "成虫与幼虫分别利用树干和林下腐殖质。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-08",
+  "updatedAt": "2026-09-08"
+},
+{
+  "id": "orange-oakleaf",
+  "slug": "orange-oakleaf",
+  "names": {
+    "zh": "枯叶蛱蝶",
+    "en": "Orange Oakleaf",
+    "aliases": [
+      "枯叶蝶"
+    ]
+  },
+  "scientificName": "Kallima inachus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Lepidoptera",
+      "zhName": "鳞翅目"
+    },
+    "family": {
+      "scientificName": "Nymphalidae",
+      "zhName": "蛱蝶科"
+    },
+    "genus": {
+      "scientificName": "Kallima",
+      "zhName": "枯叶蛱蝶属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "未取得可核实的全球物种评估"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲"
+    ],
+    "regions": [
+      "亚热带森林林下"
+    ],
+    "countries": [
+      "中国",
+      "印度",
+      "不丹",
+      "尼泊尔"
+    ],
+    "range": "分布于亚洲的热带、亚热带森林地区，包括喜马拉雅地区、印度东北部及中国部分地区。枯叶蛱蝶属还有外形相似的其他种，不能把所有枯叶状蝴蝶记录合并为本种。",
+    "center": {
+      "lat": 27,
+      "lng": 103
+    }
+  },
+  "habitats": [
+    {
+      "name": "亚热带森林林下",
+      "realm": "terrestrial",
+      "description": "分布于亚洲的热带、亚热带森林地区，包括喜马拉雅地区、印度东北部及中国部分地区。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "metrics": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "熟果汁液",
+      "寄主植物叶片"
+    ],
+    "description": "成蝶能用喙吸食熟果等汁液；幼虫取食寄主植物叶片，已记录寄主包括马蓝属等植物。"
+  },
+  "activity": [
+    "日行性"
+  ],
+  "tags": [
+    "枯叶伪装",
+    "亚热带森林林下"
+  ],
+  "summary": "枯叶蛱蝶合起翅膀时，褐色斑纹、叶脉状线条和后翅尾突拼成枯叶轮廓。它张开翅膀后，又会露出蓝紫色与橙色的翅面。",
+  "description": "枯叶蛱蝶把翅腹面朝外停栖时，能让捕食者更难把它识别成可吃的昆虫。它仍有触角、身体和足；伪装并不表示真的变成叶片，也不能保证每次都躲过捕食。",
+  "storySections": [
+    {
+      "key": "identity",
+      "label": "翅的两面",
+      "title": "展开后露出橙色斜带",
+      "body": "成蝶翅背面有蓝紫色区域和醒目的橙色斜带，合翅后主要露出褐色翅腹面。一次开合就能改变观察者看到的颜色，不需要在瞬间重新生成花纹。"
+    },
+    {
+      "key": "masquerade",
+      "label": "枯叶伪装",
+      "title": "线条和轮廓一起像叶子",
+      "body": "翅腹面的线条类似枯叶主脉和侧脉，后翅尾突延长叶柄般的轮廓。它静止停在合适背景中时，捕食者可能将其当作无食用价值的枯叶，这属于拟态中的伪装。"
+    },
+    {
+      "key": "variation",
+      "label": "个体花纹",
+      "title": "枯叶也有深浅变化",
+      "body": "个体的翅腹面会有深浅、斑点和纹路差异，使外观接近不同状态的枯叶。生成图片只能重建一种可能外观，不能作为鉴定某个亚种的标准标本。"
+    },
+    {
+      "key": "feeding",
+      "label": "卷曲长喙",
+      "title": "成蝶吸汁，幼虫吃叶",
+      "body": "成蝶用长喙吸食熟果汁液，平时可将喙卷起。幼虫则用咀嚼式口器吃寄主植物叶片，两个阶段的取食方式与可用食物不同。"
+    },
+    {
+      "key": "life",
+      "label": "完整生活史",
+      "title": "从毛虫到有翅成蝶",
+      "body": "枯叶蛱蝶经历卵、幼虫、蛹和成虫阶段。幼虫需要合适的寄主植物，成蝶出现的林地还必须能支持下一代，不能只种供成蝶取食的植物。"
+    },
+    {
+      "key": "conservation",
+      "label": "林下生境",
+      "title": "保护蝴蝶也要保护寄主",
+      "body": "保留林下植被、寄主植物与森林湿润的小环境，避免为了观赏而捕捉成蝶。本档案未取得可核实的全球 IUCN 评估，按未评估收录，不以局部常见代替风险评估。"
+    }
+  ],
+  "keyFacts": [
+    "成蝶翅背面有蓝紫色区域和醒目的橙色斜带，合翅后主要露出褐色翅腹面。",
+    "翅腹面的线条类似枯叶主脉和侧脉，后翅尾突延长叶柄般的轮廓。",
+    "个体的翅腹面会有深浅、斑点和纹路差异，使外观接近不同状态的枯叶。",
+    "成蝶用长喙吸食熟果汁液，平时可将喙卷起。",
+    "枯叶蛱蝶经历卵、幼虫、蛹和成虫阶段。"
+  ],
+  "threats": [
+    "森林破碎化和林下植被清除。",
+    "局部采集压力。"
+  ],
+  "conservationActions": [
+    "保留森林林下植被与寄主植物。",
+    "用照片观察记录，不追捕停栖成蝶。"
+  ],
+  "featuredStats": [
+    {
+      "key": "trait",
+      "label": "观察重点",
+      "value": "枯叶伪装"
+    },
+    {
+      "key": "development",
+      "label": "发育方式",
+      "value": "完全变态"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NCBI — 枯叶蛱蝶分类",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=311037&lin=f&lvl=3&mode=Info",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "Butterflies of India — 枯叶蛱蝶与寄主记录",
+      "url": "https://www.ifoundbutterflies.org/node/3302",
+      "kind": "general",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "枯叶伪装的捕食实验",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39382079/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "枯叶蛱蝶成虫的取食行为实验",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3740915/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    }
+  ],
+  "media": {
+    "image": "./images/species/orange-oakleaf/01-cover.webp",
+    "alt": "枯叶蛱蝶位于画面右侧，完整主体周围保留环境。",
+    "focalPoint": {
+      "x": 0.86,
+      "y": 0.28
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/orange-oakleaf/02-body.webp",
+        "title": "展开翅背面",
+        "alt": "展开翅背面。展开双翅可见蓝紫色区域和橙色斜带。",
+        "caption": "展开双翅可见蓝紫色区域和橙色斜带。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/orange-oakleaf/03-detail.webp",
+        "title": "像叶脉的翅腹面",
+        "alt": "像叶脉的翅腹面。合翅后的褐色线条与后翅尾突共同形成枯叶轮廓。",
+        "caption": "合翅后的褐色线条与后翅尾突共同形成枯叶轮廓。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/orange-oakleaf/04-behavior.webp",
+        "title": "停在枯叶之间",
+        "alt": "停在枯叶之间。停栖位置和静止姿态与翅的外形共同参与伪装。",
+        "caption": "停栖位置和静止姿态与翅的外形共同参与伪装。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/orange-oakleaf/05-life.webp",
+        "title": "用长喙吸取果汁",
+        "alt": "用长喙吸取果汁。成蝶取食熟果汁液；此图展示成蝶取食，不是幼虫。",
+        "caption": "成蝶取食熟果汁液；此图展示成蝶取食，不是幼虫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/orange-oakleaf/06-habitat.webp",
+        "title": "湿润的林下环境",
+        "alt": "湿润的林下环境。林下植被和寄主植物为不同生命阶段提供条件。",
+        "caption": "林下植被和寄主植物为不同生命阶段提供条件。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-08",
+  "updatedAt": "2026-09-08"
+},
+{
+  "id": "heike-firefly",
+  "slug": "heike-firefly",
+  "names": {
+    "zh": "红胸水萤",
+    "en": "Heike Firefly",
+    "aliases": [
+      "平家萤",
+      "Luciola lateralis（旧组合）"
+    ]
+  },
+  "scientificName": "Aquatica lateralis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Coleoptera",
+      "zhName": "鞘翅目"
+    },
+    "family": {
+      "scientificName": "Lampyridae",
+      "zhName": "萤科"
+    },
+    "genus": {
+      "scientificName": "Aquatica",
+      "zhName": "水萤属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "未取得可核实的全球物种评估"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "freshwater"
+    ],
+    "continents": [
+      "亚洲"
+    ],
+    "regions": [
+      "稻田、湿地与缓流水体"
+    ],
+    "countries": [
+      "日本",
+      "韩国",
+      "俄罗斯",
+      "中国"
+    ],
+    "range": "分布记录包括日本、朝鲜半岛、俄罗斯东部及中国东北。2024 年属级修订讨论了中国种群的鉴定问题，仍需幼虫材料验证；不能据此把所有中国水生萤火虫都称为本种。",
+    "center": {
+      "lat": 36,
+      "lng": 138
+    }
+  },
+  "habitats": [
+    {
+      "name": "稻田、湿地与缓流水体",
+      "realm": "freshwater",
+      "description": "分布记录包括日本、朝鲜半岛、俄罗斯东部及中国东北。",
+      "isPrimary": true
+    },
+    {
+      "name": "湿润土岸与水边植被",
+      "realm": "terrestrial",
+      "description": "成熟幼虫上岸化蛹，成虫在水边植被和上方空间活动。"
+    }
+  ],
+  "measurements": {},
+  "metrics": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "淡水螺类"
+    ],
+    "description": "水生幼虫主要捕食淡水螺类；这里的食性描述针对幼虫，不表示成虫也在水底捕螺。"
+  },
+  "activity": [
+    "成虫夜间闪光"
+  ],
+  "tags": [
+    "水中幼虫",
+    "稻田、湿地与缓流水体"
+  ],
+  "summary": "红胸水萤成虫在夜间闪光交流，幼虫却在稻田和湿地的浅水中捕食螺类。它的一生同时依赖水体、岸边土壤和地上的植被。",
+  "description": "红胸水萤成虫有红色至粉红色前胸背板和深色鞘翅，腹部末端具有发光器官。旧文献常称其为 Luciola lateralis，本档案采用 Aquatica lateralis；幼虫水生不表示成虫也生活在水下。",
+  "storySections": [
+    {
+      "key": "identity",
+      "label": "水萤属",
+      "title": "旧名字指向同一档案",
+      "body": "本种过去归入熠萤属 Luciola，后来转入水萤属 Aquatica。红胸背板配合黑色鞘翅是观察外形的线索，但近似种仍需更细的形态比较，不能仅凭发光颜色鉴定。"
+    },
+    {
+      "key": "light",
+      "label": "夜间交流",
+      "title": "闪光有各自的节奏",
+      "body": "成虫通过腹部发光器官发出闪光，雌雄利用光信号参与配偶识别。研究记录了闪光中的快速闪烁结构；一张静态亮点照片无法表示闪光节奏和求偶是否成功。"
+    },
+    {
+      "key": "larva",
+      "label": "水生幼虫",
+      "title": "在水底寻找小螺",
+      "body": "幼虫在稻田、湿地及静水或缓流水体底部活动，主要捕食淡水螺类。它的分节身体具有侧面的鳃状结构，不能用长翅成虫的样子来画水中幼虫。"
+    },
+    {
+      "key": "pupation",
+      "label": "水陆转换",
+      "title": "上岸后完成蛹期",
+      "body": "成熟幼虫离水，在岸边湿润土壤中化蛹，之后羽化为成虫。水泥化的岸线即使仍有水，也可能缺少适宜的上岸和化蛹空间。"
+    },
+    {
+      "key": "habitat",
+      "label": "稻田与湿地",
+      "title": "浅水和岸边植被一起保留",
+      "body": "有缓慢水流或静水的稻田和湿地能提供幼虫环境，成虫则在岸边植被和上方空间活动。保留水体、湿润土岸与植物，可以兼顾多个生活阶段。"
+    },
+    {
+      "key": "conservation",
+      "label": "暗夜与清水",
+      "title": "减少灯光，保护水边",
+      "body": "减少照向湿地的夜间照明，维持水质和岸边植被，避免采集成虫。本档案未取得可核实的全球 IUCN 评估，按未评估收录；地区性下降不能自动换算成全球等级。"
+    }
+  ],
+  "keyFacts": [
+    "本种过去归入熠萤属 Luciola，后来转入水萤属 Aquatica。",
+    "成虫通过腹部发光器官发出闪光，雌雄利用光信号参与配偶识别。",
+    "幼虫在稻田、湿地及静水或缓流水体底部活动，主要捕食淡水螺类。",
+    "成熟幼虫离水，在岸边湿润土壤中化蛹，之后羽化为成虫。",
+    "有缓慢水流或静水的稻田和湿地能提供幼虫环境，成虫则在岸边植被和上方空间活动。"
+  ],
+  "threats": [
+    "湿地排水、水质恶化和岸线硬化。",
+    "夜间人工照明干扰光信号。"
+  ],
+  "conservationActions": [
+    "保护浅水湿地和湿润土岸。",
+    "减少照向水边的灯光，不采集萤火虫。"
+  ],
+  "featuredStats": [
+    {
+      "key": "trait",
+      "label": "观察重点",
+      "value": "水中幼虫"
+    },
+    {
+      "key": "development",
+      "label": "发育方式",
+      "value": "完全变态"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GBIF — 红胸水萤分类",
+      "url": "https://www.gbif.org/species/7360967",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "Insects — 水萤属综述与分类修订",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10817006/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "eLife — 萤火虫基因组与生活史",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6191289/",
+      "kind": "general",
+      "accessedAt": "2026-09-08"
+    },
+    {
+      "title": "红胸水萤的闪光与配偶识别",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9918520/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-08"
+    }
+  ],
+  "media": {
+    "image": "./images/species/heike-firefly/01-cover.webp",
+    "alt": "红胸水萤位于画面右侧，完整主体周围保留环境。",
+    "focalPoint": {
+      "x": 0.77,
+      "y": 0.35
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/heike-firefly/02-body.webp",
+        "title": "红胸与深色鞘翅",
+        "alt": "红胸与深色鞘翅。成虫在草叶上停留，前胸与鞘翅颜色有对比。",
+        "caption": "成虫在草叶上停留，前胸与鞘翅颜色有对比。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/heike-firefly/03-detail.webp",
+        "title": "腹末的发光区域",
+        "alt": "腹末的发光区域。发光来自腹部末端的器官，并非整个身体发亮。",
+        "caption": "发光来自腹部末端的器官，并非整个身体发亮。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/heike-firefly/04-behavior.webp",
+        "title": "草茎上的闪光",
+        "alt": "草茎上的闪光。成虫停在水边草茎上发光；静态情景不记录真实闪光节奏。",
+        "caption": "成虫停在水边草茎上发光；静态情景不记录真实闪光节奏。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/heike-firefly/05-life.webp",
+        "title": "水中的幼虫",
+        "alt": "水中的幼虫。水下幼虫与水上成虫的生活阶段示意，未按比例展示；幼虫主要捕食淡水螺类。",
+        "caption": "水下幼虫与水上成虫的生活阶段示意，未按比例展示；幼虫主要捕食淡水螺类。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/heike-firefly/06-habitat.webp",
+        "title": "稻田和湿润岸边",
+        "alt": "稻田和湿润岸边。水生幼虫与陆上成虫共同依赖水陆相接的生境。",
+        "caption": "水生幼虫与陆上成虫共同依赖水陆相接的生境。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-08",
+  "updatedAt": "2026-09-08"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

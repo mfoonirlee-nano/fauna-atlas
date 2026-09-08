@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 164);
+  assert.equal(species.length, 169);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24331,7 +24331,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 21);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 26);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24381,17 +24381,17 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cardiida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cardiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tridacna')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'order', 'Hemiptera')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cicadidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Magicicada')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bombyx')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Mantidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tenodera')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Coleoptera')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Coleoptera')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Coccinellidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Coccinella')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 1);
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 164);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 169);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25392,4 +25392,35 @@ test('keeps domestic fish imagery distinct from wild range and conservation evid
   assert.match(betta.description, /野生型/);
   assert.match(betta.storySections.find(({ key }) => key === 'breathing').body, /鳃上方.*迷鳃器/);
   assert.match(betta.storySections.find(({ key }) => key === 'conservation').body, /观赏养殖数量不能/);
+});
+
+for (const [slug, scientificName, order, family, genus] of [
+  ['eastern-honey-bee', 'Apis cerana', 'Hymenoptera', 'Apidae', 'Apis'],
+  ['two-spotted-cricket', 'Gryllus bimaculatus', 'Orthoptera', 'Gryllidae', 'Gryllus'],
+  ['japanese-rhinoceros-beetle', 'Trypoxylus dichotomus', 'Coleoptera', 'Scarabaeidae', 'Trypoxylus'],
+  ['orange-oakleaf', 'Kallima inachus', 'Lepidoptera', 'Nymphalidae', 'Kallima'],
+  ['heike-firefly', 'Aquatica lateralis', 'Coleoptera', 'Lampyridae', 'Aquatica'],
+]) {
+  test(`integrates ${slug} with sourced taxonomy and six reviewed images`, async () => {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, scientificName);
+    assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+      'Animalia', 'Arthropoda', 'Insecta', order, family, genus,
+    ]);
+    assert.equal(profile.storySections.length, 6);
+    assert.ok(profile.sources.some(({ kind }) => kind === 'taxonomy'));
+    assert.ok(profile.sources.some(({ kind }) => kind === 'ecology'));
+    assert.equal(profile.conservation.code, slug === 'two-spotted-cricket' ? 'LC' : 'NE');
+    assert.equal(profile.conservation.assessedYear, undefined);
+    await assertGeneratedImageSet({ profile, slug, basenames: ['01-cover', '02-body', '03-detail', '04-behavior', '05-life', '06-habitat'], verifyAcceptedHashes: true });
+  });
+}
+
+test('keeps the cricket regional assessment and firefly life-stage habitats explicit', () => {
+  const cricket = findSpecies('two-spotted-cricket');
+  assert.match(cricket.conservation.label.en, /Europe/);
+  const firefly = findSpecies('heike-firefly');
+  assert.deepEqual(firefly.distribution.realms, ['terrestrial', 'freshwater']);
+  assert.ok(firefly.habitats.some(({ realm }) => realm === 'freshwater'));
+  assert.ok(firefly.habitats.some(({ realm }) => realm === 'terrestrial'));
 });

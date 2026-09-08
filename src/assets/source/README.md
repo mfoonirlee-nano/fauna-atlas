@@ -280,3 +280,13 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Goldfish image set](./species/goldfish/README.md)
 - [Siamese Fighting Fish image set](./species/siamese-fighting-fish/README.md)
 - [Great White Shark image set](./species/great-white-shark/README.md)
+
+- [Eastern Honey Bee image set](./species/eastern-honey-bee/README.md)
+
+- [Two-spotted Cricket image set](./species/two-spotted-cricket/README.md)
+
+- [Japanese Rhinoceros Beetle image set](./species/japanese-rhinoceros-beetle/README.md)
+
+- [Orange Oakleaf image set](./species/orange-oakleaf/README.md)
+
+- [Heike Firefly image set](./species/heike-firefly/README.md)

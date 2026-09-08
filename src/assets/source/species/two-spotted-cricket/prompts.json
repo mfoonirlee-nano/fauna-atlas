@@ -1,0 +1,34 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Create a new 1536x1024 landscape wildlife photograph. Broad scene of a grassy meadow floor with soft green bokeh. ONE VERY TINY black two-spotted field cricket Gryllus bimaculatus in the UPPER RIGHT QUADRANT, not near middle or bottom. Its entire silhouette INCLUDING long threadlike antennae fits inside a small rectangle centered at 78% of picture width and 37% of picture height. Full silhouette occupies 10% of picture width and 7% of picture height. Cricket body itself occupies only 4% of picture width. Side view facing left, two pale yellow patches at forewing bases. Long antennae held gently curving upward and backward over the body. All legs and cerci intact. Ground is continuous beneath animal across whole scene. Left half softly blurred, quiet negative space for website headline. Subject should look surprisingly small and distant. No text, border, diagram, montage, watermark.",
+      "edits": [
+        "Edit this photograph. Keep the cricket at its current horizontal position in the right quarter, but move it DOWN slightly, by about the height of its antennae. Its FEET should end up at 43% of image height, and its highest antenna tip at 31% of image height. Keep entire insect same size and anatomy. Adjust the patch of moss directly below its feet to support its new lower position. Seamlessly remove the old insect. Quiet blurred left half. Same 1536x1024 image. One cricket only.",
+        "Shrink the entire cricket including its two complete antennae, all six legs and cerci to 55% of current size. Keep the CENTER of its complete silhouette at exactly the SAME place. Preserve proportions and species appearance. Adjust tiny patch of ground under feet if needed. Fill old silhouette with same soft green meadow. Do not move it sideways or vertically. One small distant cricket, same 1536x1024 natural photograph, no text."
+      ]
+    },
+    {
+      "basename": "02-body",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: male two-spotted cricket Gryllus bimaculatus, glossy black body, two pale yellow marks at forewing bases, long thin antennae, powerful hind legs, two cerci, no female ovipositor. Scene: whole male cricket in three quarter view including full very long antennae and hind legs. Environment: warm grassy field edge with soil and dry leaves. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "03-detail",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: male two-spotted cricket Gryllus bimaculatus, glossy black body, two pale yellow marks at forewing bases, long thin antennae, powerful hind legs, two cerci, no female ovipositor. Scene: close lateral view of male cricket front leg and tibial tympanal region, no invented visible human ear. Environment: warm grassy field edge with soil and dry leaves. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "04-behavior",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: male two-spotted cricket Gryllus bimaculatus, glossy black body, two pale yellow marks at forewing bases, long thin antennae, powerful hind legs, two cerci, no female ovipositor. Scene: male cricket calling at dusk with forewings slightly raised, natural pose. Environment: warm grassy field edge with soil and dry leaves. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "05-life",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: male two-spotted cricket Gryllus bimaculatus, glossy black body, two pale yellow marks at forewing bases, long thin antennae, powerful hind legs, two cerci, no female ovipositor. Scene: wingless cricket nymph on soil beside a grass stem, short wing buds and long antennae. Environment: warm grassy field edge with soil and dry leaves. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: male two-spotted cricket Gryllus bimaculatus, glossy black body, two pale yellow marks at forewing bases, long thin antennae, powerful hind legs, two cerci, no female ovipositor. Scene: wide warm grassy field edge at dusk with dry leaf litter, no animals needed. Environment: warm grassy field edge with soil and dry leaves. Complete visible animal appendages in full body views with background margins."
+    }
+  ]
+}

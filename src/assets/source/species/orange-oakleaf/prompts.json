@@ -1,0 +1,33 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: orange oakleaf butterfly Kallima inachus, closed wings brown like dead leaf with central vein stripe and hindwing petiole-like tail, slender body and clubbed antennae. Scene: one butterfly with closed leaf-like wings perched on twig. Environment: subtropical Asian forest understory with dry leaves and twigs. Ultra wide environmental cover: entire animal TINY full width INCLUDING ALL antennae horns feet wings 8% of image width, height 7%, center x=78% y=38%. All features inside x=72%-84% y=32%-44%. Left 60% quiet background for typography. Full animal with background margins. Do not enlarge.",
+      "edits": [
+        "Edit the image: shrink the single closed-wing Kallima inachus butterfly to 60 percent of its current size while keeping the CENTER in exactly the SAME position. Shrink its antennae, legs, and full leaf-shaped wings together maintaining proportions and authentic anatomy. Reconnect a small twig to its feet. Seamlessly fill the old larger outline with forest background. Keep 1536x1024 landscape, quiet left side, natural forest photography. Only one butterfly, no text."
+      ]
+    },
+    {
+      "basename": "02-body",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: orange oakleaf butterfly Kallima inachus, closed wings brown like dead leaf with central vein stripe and hindwing petiole-like tail, slender body and clubbed antennae. Scene: whole butterfly with OPEN wings showing blue violet basal areas, orange diagonal forewing bands and dark tips, symmetrical natural anatomy. Environment: subtropical Asian forest understory with dry leaves and twigs. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "03-detail",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: orange oakleaf butterfly Kallima inachus, closed wings brown like dead leaf with central vein stripe and hindwing petiole-like tail, slender body and clubbed antennae. Scene: side view closed wings with leaf-like brown venation, hindwing tail like leaf stalk, visible insect legs. Environment: subtropical Asian forest understory with dry leaves and twigs. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "04-behavior",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: orange oakleaf butterfly Kallima inachus, closed wings brown like dead leaf with central vein stripe and hindwing petiole-like tail, slender body and clubbed antennae. Scene: closed-wing butterfly resting among hanging dry brown leaves, one actual butterfly only. Environment: subtropical Asian forest understory with dry leaves and twigs. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "05-life",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: orange oakleaf butterfly Kallima inachus, closed wings brown like dead leaf with central vein stripe and hindwing petiole-like tail, slender body and clubbed antennae. Scene: a butterfly drinking juices from a split overripe fallen fruit, closed leaf-like wings, no flowers. Environment: subtropical Asian forest understory with dry leaves and twigs. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: orange oakleaf butterfly Kallima inachus, closed wings brown like dead leaf with central vein stripe and hindwing petiole-like tail, slender body and clubbed antennae. Scene: wide humid subtropical woodland understory with dappled light and fallen leaves, no animals needed. Environment: subtropical Asian forest understory with dry leaves and twigs. Complete visible animal appendages in full body views with background margins."
+    }
+  ]
+}

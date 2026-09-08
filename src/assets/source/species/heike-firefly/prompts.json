@@ -1,0 +1,30 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: adult Aquatica lateralis Heike firefly, small elongated black beetle, pink red pronotum with dark central mark, black elytra, six fine legs and antennae. Scene: one firefly perched on fine grass blade at dusk with subtle yellow green glow at abdominal tip. Environment: Japanese wetland rice paddy margin with reeds and still shallow water. Ultra wide environmental cover: entire animal TINY full width INCLUDING ALL antennae horns feet wings 8% of image width, height 7%, center x=78% y=38%. All features inside x=72%-84% y=32%-44%. Left 60% quiet background for typography. Full animal with background margins. Do not enlarge."
+    },
+    {
+      "basename": "02-body",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: adult Aquatica lateralis Heike firefly, small elongated black beetle, pink red pronotum with dark central mark, black elytra, six fine legs and antennae. Scene: whole adult firefly on grass blade in soft daylight, red pronotum and black elytra, complete legs and antennae. Environment: Japanese wetland rice paddy margin with reeds and still shallow water. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "03-detail",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: adult Aquatica lateralis Heike firefly, small elongated black beetle, pink red pronotum with dark central mark, black elytra, six fine legs and antennae. Scene: side macro of adult firefly showing yellow green bioluminescence only at ventral terminal abdomen, no glowing head. Environment: Japanese wetland rice paddy margin with reeds and still shallow water. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "04-behavior",
+      "prompt": "New natural wildlife photograph 1536x1024. At dusk in a Japanese rice paddy margin, three small Aquatica lateralis adult fireflies RESTING with their six feet firmly grasping three separate grass stems. Black closed elytra, red pink pronotum with central dark mark, fine antennae. Subtle yellow green bioluminescent glow underneath the tip of abdomen. All insects are PERCHED with clear contact to grass, none flying, none floating. Wide quiet wetland background. Realistic scale, not giants. No text collage or watermark."
+    },
+    {
+      "basename": "05-life",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: adult Aquatica lateralis Heike firefly, small elongated black beetle, pink red pronotum with dark central mark, black elytra, six fine legs and antennae. Scene: one aquatic Aquatica lateralis larva underwater on muddy pond bottom near a small freshwater snail, flattened dark segmented larva with paired lateral gills, six thoracic legs. Environment: Japanese wetland rice paddy margin with reeds and still shallow water. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: adult Aquatica lateralis Heike firefly, small elongated black beetle, pink red pronotum with dark central mark, black elytra, six fine legs and antennae. Scene: wide Japanese traditional wet rice field with vegetated banks at blue hour, no close insects needed. Environment: Japanese wetland rice paddy margin with reeds and still shallow water. Complete visible animal appendages in full body views with background margins."
+    }
+  ]
+}

@@ -214,6 +214,11 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'eastern-honey-bee', sha256: '9931d6bc10034704870de6664cd257cbf746f3b7541d07293170fc0b5c7e1753', fullBody: {"left": 1123, "top": 359, "right": 1241, "bottom": 437}, composedSafeAreas },
+    { slug: 'two-spotted-cricket', sha256: 'eef1c4bc8ca08e6d4fe7d4cd4cfffd2ce7bc56bf43d2b4d036d11c8d30920de8', fullBody: {"left": 1133, "top": 314, "right": 1246, "bottom": 422}, composedSafeAreas },
+    { slug: 'japanese-rhinoceros-beetle', sha256: '1f0f66b4c55d33bcb072be3a26f5b35eb595df35a93846608968bc153a74d85f', fullBody: {"left": 1160, "top": 316, "right": 1346, "bottom": 480}, composedSafeAreas },
+    { slug: 'orange-oakleaf', sha256: 'aa7325ce319110d80ee24a88fa6ff6bf7b850b97987bb29321aeee7170ac5b92', fullBody: {"left": 1163, "top": 347, "right": 1264, "bottom": 431}, composedSafeAreas },
+    { slug: 'heike-firefly', sha256: '9a503e5d781c1c088313d68b2d7c870e16eafdaf3818d1d0f53583f3679ba174', fullBody: {"left": 1043, "top": 336, "right": 1206, "bottom": 439}, composedSafeAreas },
     { slug: 'veiled-chameleon', sha256: 'd524587cd54d525f4f373bbd0d14603ffcff85dd9c412f202ae70513c3f2c1b2', fullBody: {"left": 1182, "top": 334, "right": 1322, "bottom": 474}, composedSafeAreas },
     { slug: 'oriental-fire-bellied-toad', sha256: '0b679936cd106e12f96a4f1b068f8ebf6e42db7af349102c076febe02ede6255', fullBody: {"left": 1151, "top": 337, "right": 1265, "bottom": 412}, composedSafeAreas },
     { slug: 'goldfish', sha256: 'a5fb00bfdd14c44a00e9f74e5c59e94c158486209eccdf7158d5eba5cb910c64', fullBody: {"left": 1126, "top": 362, "right": 1254, "bottom": 421}, composedSafeAreas },

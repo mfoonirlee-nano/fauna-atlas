@@ -1,0 +1,30 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate a new 1536x1024 3:2 wildlife atlas cover. One eastern honey bee Apis cerana worker, dark brown abdomen with narrow pale bands, hairy thorax, six legs, antennae, translucent folded wings, perched on a small white flower in an Asian meadow. Ultra wide environmental photograph: entire insect TINY, full width including antennae ONLY 8% of image width, height 7%, centered x=78% y=38%. Every visible appendage inside x=73%-83% y=33%-43%. Left 60% quiet soft green meadow background for typography. Complete animal and flower with ample background. Scientifically plausible natural anatomy. No text watermark collage border. Save generated file for project use."
+    },
+    {
+      "basename": "02-body",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: eastern honey bee Apis cerana worker with hairy thorax, dark brown abdomen and narrow pale bands, six legs and translucent wings. Scene: whole worker in side view on a flower showing six legs and two antennae. Environment: flowering meadow and woodland edge in eastern Asia. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "03-detail",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: eastern honey bee Apis cerana worker with hairy thorax, dark brown abdomen and narrow pale bands, six legs and translucent wings. Scene: macro of hind leg pollen basket carrying yellow pollen, plausible honeybee anatomy. Environment: flowering meadow and woodland edge in eastern Asia. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "04-behavior",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: eastern honey bee Apis cerana worker with hairy thorax, dark brown abdomen and narrow pale bands, six legs and translucent wings. Scene: a few workers on vertical wax comb inside a tree cavity, no arrows or implied diagram of a dance. Environment: flowering meadow and woodland edge in eastern Asia. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "05-life",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: eastern honey bee Apis cerana worker with hairy thorax, dark brown abdomen and narrow pale bands, six legs and translucent wings. Scene: white curved honeybee larvae inside open hexagonal wax brood cells, workers nearby. Environment: flowering meadow and woodland edge in eastern Asia. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: eastern honey bee Apis cerana worker with hairy thorax, dark brown abdomen and narrow pale bands, six legs and translucent wings. Scene: wide flowering Asian orchard and woodland edge, no identifiable animals needed. Environment: flowering meadow and woodland edge in eastern Asia. Complete visible animal appendages in full body views with background margins."
+    }
+  ]
+}

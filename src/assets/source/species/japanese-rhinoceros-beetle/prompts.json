@@ -1,0 +1,33 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: Japanese rhinoceros beetle Trypoxylus dichotomus, chestnut black polished elytra, adult male with long head horn forked twice at tip and shorter forked thoracic horn, six clawed legs. Scene: one male beetle resting on tree bark. Environment: East Asian broadleaf oak woodland with rough sap-bearing tree bark. Ultra wide environmental cover: entire animal TINY full width INCLUDING ALL antennae horns feet wings 8% of image width, height 7%, center x=78% y=38%. All features inside x=72%-84% y=32%-44%. Left 60% quiet background for typography. Full animal with background margins. Do not enlarge."
+    },
+    {
+      "basename": "02-body",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: Japanese rhinoceros beetle Trypoxylus dichotomus, chestnut black polished elytra, adult male with long head horn forked twice at tip and shorter forked thoracic horn, six clawed legs. Scene: whole adult male beetle on oak bark, full horns and six legs visible. Environment: East Asian broadleaf oak woodland with rough sap-bearing tree bark. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "03-detail",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: Japanese rhinoceros beetle Trypoxylus dichotomus, chestnut black polished elytra, adult male with long head horn forked twice at tip and shorter forked thoracic horn, six clawed legs. Scene: side view close detail of male head horn forked into four tips and shorter thoracic horn. Environment: East Asian broadleaf oak woodland with rough sap-bearing tree bark. Complete visible animal appendages in full body views with background margins.",
+      "edits": [
+        "Correct only the long HEAD HORN of this male Trypoxylus dichotomus Japanese rhinoceros beetle. The head horn must bifurcate once into TWO main branches, and EACH of those bifurcates once again into TWO tips, giving exactly FOUR terminal tips, not five, not antlers. Remove the extra central spike. Keep the rest of the beetle and oak bark unchanged. Photorealistic 1536x1024."
+      ]
+    },
+    {
+      "basename": "04-behavior",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: Japanese rhinoceros beetle Trypoxylus dichotomus, chestnut black polished elytra, adult male with long head horn forked twice at tip and shorter forked thoracic horn, six clawed legs. Scene: two male rhinoceros beetles confronting each other on sap-bearing oak trunk, realistic horns, no gore. Environment: East Asian broadleaf oak woodland with rough sap-bearing tree bark. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "05-life",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: Japanese rhinoceros beetle Trypoxylus dichotomus, chestnut black polished elytra, adult male with long head horn forked twice at tip and shorter forked thoracic horn, six clawed legs. Scene: white C-shaped scarab beetle larva with brown head and three pairs of short thoracic legs in decomposing leaf humus. Environment: East Asian broadleaf oak woodland with rough sap-bearing tree bark. Complete visible animal appendages in full body views with background margins."
+    },
+    {
+      "basename": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas AI scientific scene reconstruction, 1536x1024 landscape. Natural-history editorial photography, accurate anatomy, realistic colors. No text labels watermark logos collage border or fantasy. Subject: Japanese rhinoceros beetle Trypoxylus dichotomus, chestnut black polished elytra, adult male with long head horn forked twice at tip and shorter forked thoracic horn, six clawed legs. Scene: wide East Asian oak woodland with leaf litter and old trees, no animals needed. Environment: East Asian broadleaf oak woodland with rough sap-bearing tree bark. Complete visible animal appendages in full body views with background margins."
+    }
+  ]
+}
