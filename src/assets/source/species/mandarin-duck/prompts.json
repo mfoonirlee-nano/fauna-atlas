@@ -1,0 +1,36 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-adfadba7-4f59-4489-992f-9bdadc9372c2.png",
+      "prompt": "Use case: photorealistic-natural. 1536x1024 3:2 wildlife atlas cover. One male mandarin duck Aix galericulata in breeding plumage, orange upright sail feathers, red bill, broad white eyebrow, ornate rust cheek feathers, in woodland pond in East Asia, resting on a distant log or branch. VERY WIDE DISTANT ENVIRONMENTAL VIEW, animal TINY: full silhouette only 7% of picture height, center x=80% y=38%, entire animal including tail, feet and bill between x=74%-85% y=33%-43%. Leave real background around every appendage. Left 60% quiet soft habitat for typography. Natural editorial wildlife photograph. No text watermark frame collage or additional animals. Do not enlarge animal."
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-1a1d3f32-504a-4ede-85f0-6362841af20b.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. full body adult male standing on log, both orange webbed feet visible. Species: male mandarin duck Aix galericulata in breeding plumage, orange upright sail feathers, red bill, broad white eyebrow, ornate rust cheek feathers. Environment: woodland pond in East Asia. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "03-detail",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-8fff9143-ca85-47b5-97e5-795c1fd57623.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. female mandarin duck grey head with white eye ring and thin white trailing eye stripe, mottled brown body, grey bill, no male sail feathers. Species: male mandarin duck Aix galericulata in breeding plumage, orange upright sail feathers, red bill, broad white eyebrow, ornate rust cheek feathers. Environment: woodland pond in East Asia. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "04-behavior",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-454261a6-2449-4128-88c7-730ed5a4ee99.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. female mandarin duck at tree cavity entrance, no male breeding plumage. Species: male mandarin duck Aix galericulata in breeding plumage, orange upright sail feathers, red bill, broad white eyebrow, ornate rust cheek feathers. Environment: woodland pond in East Asia. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "05-life",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-f4acafdc-86d4-46d1-bc9a-1f93dd52b290.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. female mandarin duck leading three downy ducklings across forest pond. Species: male mandarin duck Aix galericulata in breeding plumage, orange upright sail feathers, red bill, broad white eyebrow, ornate rust cheek feathers. Environment: woodland pond in East Asia. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-1055c174-a5d0-4b61-b7d6-536aedefb73a.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. wide East Asian wooded pond habitat with trees and natural cavities. Species: male mandarin duck Aix galericulata in breeding plumage, orange upright sail feathers, red bill, broad white eyebrow, ornate rust cheek feathers. Environment: woodland pond in East Asia. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    }
+  ]
+}

@@ -215,6 +215,7 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     { slug: 'common-kingfisher', sha256: 'e606ce34900ade7ba646150e1dcf375ccd2ceb4c93a88466edfc7923e7e47a0a', fullBody: {"left": 1174, "top": 327, "right": 1246, "bottom": 393}, composedSafeAreas },
+    { slug: 'mandarin-duck', sha256: 'a02217a6ba74ac5de2bd0a072ed28263ec8ea80294d6781d3ee148d4002af8f7', fullBody: {"left": 1172, "top": 394, "right": 1266, "bottom": 473}, composedSafeAreas },
     { slug: 'cheetah', sha256: 'baf32e943693378fffcf5f5e1bf10888c1864047141bf74461c6bed5a30a0a98', fullBody: {"left": 1086, "top": 360, "right": 1228, "bottom": 462}, composedSafeAreas },
     { slug: 'ring-tailed-lemur', sha256: '3054aac8204a0fb5d6f286d83df882148566d76f0c3dba86c08e2a0535403c1d', fullBody: {"left": 1178, "top": 344, "right": 1288, "bottom": 451}, composedSafeAreas },
     { slug: 'greater-flamingo', sha256: '4d36e7b70bf05c972fcb54caa51fb602ee21c1ba6a34f11431c2f975858a8c85', fullBody: {"left": 1236, "top": 336, "right": 1292, "bottom": 434}, composedSafeAreas },

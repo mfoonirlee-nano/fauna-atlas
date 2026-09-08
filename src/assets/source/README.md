@@ -260,3 +260,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Toco Toucan image set](./species/toco-toucan/README.md)
 
 - [Common Kingfisher image set](./species/common-kingfisher/README.md)
+- [Mandarin Duck image set](./species/mandarin-duck/README.md)

@@ -53367,6 +53367,277 @@ export const species = [
       ]
     }
   },
+  {
+    "id": "mandarin-duck",
+    "slug": "mandarin-duck",
+    "names": {
+      "zh": "鸳鸯",
+      "en": "Mandarin Duck",
+      "aliases": []
+    },
+    "scientificName": "Aix galericulata",
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Aves",
+        "zhName": "鸟纲"
+      },
+      "order": {
+        "scientificName": "Anseriformes",
+        "zhName": "雁形目"
+      },
+      "family": {
+        "scientificName": "Anatidae",
+        "zhName": "鸭科"
+      },
+      "genus": {
+        "scientificName": "Aix",
+        "zhName": "鸳鸯属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "LC",
+      "label": {
+        "zh": "无危",
+        "en": "Least Concern"
+      },
+      "trend": "decreasing",
+      "assessor": "BirdLife International",
+      "assessedYear": 2018
+    },
+    "distribution": {
+      "realms": [
+        "terrestrial",
+        "freshwater"
+      ],
+      "continents": [
+        "亚洲"
+      ],
+      "regions": [
+        "东亚"
+      ],
+      "countries": [
+        "中国",
+        "日本",
+        "俄罗斯",
+        "朝鲜",
+        "韩国"
+      ],
+      "range": "原生于东亚，在林间水域生活；英国等地另有从圈养个体建立的引入种群。",
+      "center": {
+        "lat": 33,
+        "lng": 118
+      }
+    },
+    "habitats": [
+      {
+        "name": "林间池塘与溪流",
+        "realm": "freshwater",
+        "description": "偏好周围有树林的淡水水域，需要可供繁殖的树洞。",
+        "isPrimary": true
+      }
+    ],
+    "measurements": {
+      "weight": {
+        "min": 428,
+        "max": 693,
+        "unit": "g",
+        "note": "采用 ADW 的成体质量范围。"
+      }
+    },
+    "metrics": {
+      "adultMassKg": [
+        0.428,
+        0.693
+      ]
+    },
+    "diet": {
+      "types": [
+        "omnivore"
+      ],
+      "foods": [
+        "种子",
+        "坚果",
+        "水生植物",
+        "昆虫",
+        "小型水生动物"
+      ],
+      "description": "随季节利用植物种子和水生小动物；常在浅水和岸边觅食。"
+    },
+    "activity": [
+      "日行性"
+    ],
+    "tags": [
+      "林间池塘与溪流",
+      "无危",
+      "树洞育雏"
+    ],
+    "summary": "鸳鸯在树洞里筑巢。雏鸟孵化后会响应母鸟的呼唤，从洞口跳下，再跟随母鸟前往水域。",
+    "description": "繁殖羽雄鸟背上立着橙色帆状羽，雌鸟则以灰褐色为主，眼周有白圈，眼后延伸一条白纹。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "认识鸳鸯",
+        "title": "帆状羽属于繁殖羽雄鸟",
+        "body": "鸳鸯属于鸭科鸳鸯属。雄鸟的橙色帆状羽和红喙很显眼，雌鸟没有这样的帆状羽。"
+      },
+      {
+        "key": "female",
+        "label": "雌鸟的外形",
+        "title": "白色眼圈拖出细纹",
+        "body": "雌鸟灰褐色的羽毛较低调，眼后白纹是辨认线索。图集中并排展示雌雄，便于比较羽色。"
+      },
+      {
+        "key": "nesting",
+        "label": "树洞育雏",
+        "title": "母鸟用绒羽铺巢",
+        "body": "雌鸟选择树洞并铺入绒羽，独自承担孵卵。水边保留带洞的老树，可以为它提供繁殖位置。"
+      },
+      {
+        "key": "ducklings",
+        "label": "雏鸟离巢",
+        "title": "先跳下树，再去水里",
+        "body": "母鸟在地面呼唤，雏鸟爬到洞口后跳下。离巢时它们尚未能飞，却已能跟随母鸟活动；不能把这段行为理解为所有高度都安全。"
+      },
+      {
+        "key": "feeding",
+        "label": "四季食物",
+        "title": "浅水和岸边都能觅食",
+        "body": "鸳鸯会吃种子、坚果与水生小动物，食物随季节改变。它需要的环境同时包括水面、岸边和树林。"
+      },
+      {
+        "key": "conservation",
+        "label": "保留巢树",
+        "title": "水域旁的树林也要保护",
+        "body": "本页采用 2018 年全球无危评估，种群趋势为下降。林地损失会减少巢洞和隐蔽处。保护鸳鸯需要照顾水域及周围树木，繁殖季应避免接近巢洞。"
+      }
+    ],
+    "keyFacts": [
+      "帆状羽属于繁殖羽雄鸟：鸳鸯属于鸭科鸳鸯属。",
+      "白色眼圈拖出细纹：雌鸟灰褐色的羽毛较低调，眼后白纹是辨认线索。",
+      "母鸟用绒羽铺巢：雌鸟选择树洞并铺入绒羽，独自承担孵卵。",
+      "先跳下树，再去水里：母鸟在地面呼唤，雏鸟爬到洞口后跳下。",
+      "浅水和岸边都能觅食：鸳鸯会吃种子、坚果与水生小动物，食物随季节改变。"
+    ],
+    "threats": [
+      "林间湿地及巢树损失。",
+      "繁殖地的人为干扰。"
+    ],
+    "conservationActions": [
+      "保留水边老树及树洞。",
+      "在岸边留出安静的育雏空间。"
+    ],
+    "featuredStats": [
+      {
+        "key": "mass",
+        "label": "成体体重约",
+        "value": "428—693",
+        "unit": "克"
+      },
+      {
+        "key": "trait",
+        "label": "观察重点",
+        "value": "树洞育雏"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Animal Diversity Web — 鸳鸯",
+        "url": "https://animaldiversity.org/accounts/Aix_galericulata/",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "BirdLife DataZone — 全球评估档案",
+        "url": "https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/418",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "BirdLife DataZone — 评估历史",
+        "url": "https://bli-prod-fd-dz-eu-bgf5eqfcf2bmgtdn.a02.azurefd.net/species/418/history",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/mandarin-duck/01-cover.webp",
+      "alt": "鸳鸯位于画面右侧，完整身体及尾部周围保留环境。",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/mandarin-duck/02-body.webp",
+          "title": "繁殖羽雄鸟",
+          "alt": "雄性鸳鸯站在木头上，橙色帆状羽和蹼足可见。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/mandarin-duck/03-detail.webp",
+          "title": "雌雄外形对照",
+          "alt": "左侧雌性鸳鸯游在水中，右侧繁殖羽雄鸟站在石上。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/mandarin-duck/04-behavior.webp",
+          "title": "树洞入口",
+          "alt": "雌性鸳鸯位于树洞入口，雄鸟站在前景。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/mandarin-duck/05-life.webp",
+          "title": "母鸟带着雏鸟",
+          "alt": "雌性鸳鸯带着绒羽雏鸟游过池塘，背景中还有雄鸟。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/mandarin-duck/06-habitat.webp",
+          "title": "林间水域",
+          "alt": "东亚林间池塘周围生长着大树。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
