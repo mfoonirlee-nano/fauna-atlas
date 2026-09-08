@@ -11,6 +11,14 @@ Fauna Atlas 希望用清晰、可信且富有生命力的方式，记录与呈�
 
 当前版本是项目的前端起点，重点建立可浏览、可检索、可持续扩展的图册体验。内容将随着新物种的加入不断生长。
 
+## GitHub Pages 部署
+
+[部署工作流](./.github/workflows/deploy-pages.yml) 在推送 `main` 或手动运行时安装锁定依赖、构建网站并检查子路径资源，然后只上传 `dist` 目录。
+
+首次启用时，在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。随后打开 **Actions → Deploy to GitHub Pages → Run workflow**，选择 `main` 运行。若切换设置前的首次部署失败，切换后重新运行即可。
+
+部署成功后访问 [万物生灵图册](https://mfoonirlee-nano.github.io/fauna-atlas/)。在 Actions 中确认 `build` 和 `deploy` 均成功；本地构建通过或 Git 推送成功不代表线上部署完成。
+
 ## 技术栈
 
 - [React](https://react.dev/)：界面与组件系统
