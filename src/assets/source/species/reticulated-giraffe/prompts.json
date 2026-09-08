@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-09-08",
+  "tool": "Codex built-in imagegen",
+  "images": [
+    {
+      "name": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 landscape natural history editorial wildlife photo reconstruction. One adult reticulated giraffe Giraffa reticulata, warm chestnut polygon patches divided by fine cream net lines, two ossicones, long upright neck, four long legs all hooves visible, full tail. Standing side-on on distant Kenyan savanna, sparse dry grass, distant hazy woodland. CRITICAL environmental wide shot: ENTIRE giraffe including ossicones and hooves and tail only inside x=1180..1260 y=310..430 on a 1536x1024 canvas. Tiny distant animal centered at 79.5% width 36% height; ground at feet at 42% canvas height, expansive softly receding foreground plain below. Quiet muted left 60% for typography; background beyond all body edges. No close-up, text, watermark, other animals or cropped parts."
+    },
+    {
+      "name": "02-body",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Full-body adult reticulated giraffe Giraffa reticulata in Kenyan dry savanna, warm chestnut polygon patches separated by thin cream net lines, two fur-covered ossicones, upright neck, four long legs and complete tail. Medium-wide side view, entire animal visible with margin. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "03-tongue",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Close-up head of a reticulated giraffe Giraffa reticulata, a single natural dark purple prehensile tongue curling around leafy twig among sparse acacia-type thorns. Tongue attached to mouth, accurate muzzle, no invented second tongue, no injury. Natural feeding moment. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "04-pattern",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Natural-history close-up of reticulated giraffe Giraffa reticulata flank and shoulder, large warm chestnut polygon patches divided by narrow cream-white lines forming a clear net. Real short fur, soft daylight. No random star-shaped Masai giraffe pattern. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "05-browsing",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Reticulated giraffe Giraffa reticulata reaching its head toward leaves of an acacia-type tree in open northern Kenyan savanna. Entire neck and body including feet visible, giraffe at center-right and foliage on left, realistic netlike chestnut and cream pattern, daytime. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    },
+    {
+      "name": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. Generate a 1536x1024 landscape image. Wide landscape of northern Kenya dry savanna open thorn woodland, a few distant small reticulated giraffes moving between scattered trees, dry golden grass, hills in pale haze, realistic natural dawn. No city, fences, people, text. Editorial wildlife photographic style, scientifically plausible AI reconstruction, realistic subdued color and texture. No typography, labels, collage, frame, logo or watermark."
+    }
+  ],
+  "coverEdits": [
+    {
+      "revision": 1,
+      "prompt": "Edit this image for a tightly constrained website hero. Preserve the natural savanna photo style and anatomically correct single reticulated giraffe. Make the ENTIRE giraffe exactly HALF its current height and width and place its full body at x=1180..1258, y=310..432 on this 1536x1024 canvas. Its feet must be at y=432, not y=545. Rebuild the landscape perspective naturally: move the distant grass ridge under its feet up to 42% of canvas height; keep ample foreground below and quiet empty left half. All ossicones, ears, muzzle, four feet, and tail must be visible. Do not enlarge the subject for aesthetics; very small distant subject is required. No text."
+    },
+    {
+      "revision": 2,
+      "prompt": "Edit the attached wildlife landscape into a 1536x1024 cover. CRITICAL: raise the distant ground horizon and the entire tiny giraffe substantially upward by about 140 pixels. The giraffe should stand on the ground AT ONE THIRD OF THE IMAGE HEIGHT, in the upper right quadrant, NOT at the vertical center. Make the entire giraffe only 90 pixels tall, from pixel y=315 to y=405, centered around x=1240. Its feet rest on the distant ground horizon at y=405. The bottom 60 percent of the image should be empty savanna foreground with soft dry grass and earth. Top 30 percent sky. Preserve a realistic single reticulated giraffe, visible whole body including ossicones, hooves and tail, natural brown polygon pattern separated by pale lines. No text no collage. Very wide distant landscape photographic composition, left 60 percent quiet empty terrain. The animal must be far away and high in the picture."
+    },
+    {
+      "revision": 3,
+      "prompt": "Keep this exact 1536x1024 wildlife photograph composition, the giraffe size and horizontal position. Move the entire giraffe and its ground horizon DOWN by 40 pixels, with natural background filled in. This is a subtle downward framing adjustment. The giraffe's horn tips should be at y=335 pixels, and its hooves at y=410 pixels. Keep the whole giraffe complete and tiny in the upper right around x=1230, no additional animals. Maintain realistic continuous savanna landscape, empty left half, no text."
+    }
+  ],
+  "acceptedCover": "coverEdits revision 3"
+}

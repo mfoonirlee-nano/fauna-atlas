@@ -250,3 +250,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Vampire Squid image set](./species/vampire-squid/README.md)
 - [Australian Box Jellyfish image set](./species/australian-box-jellyfish/README.md)
 - [Bobbit Worm image set](./species/bobbit-worm/README.md)
+- [Reticulated Giraffe image set](./species/reticulated-giraffe/README.md)
