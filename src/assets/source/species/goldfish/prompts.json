@@ -1,0 +1,30 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. New 1536x1024 3:2 wildlife atlas cover. One common single-tailed domestic goldfish Carassius auratus, orange scales, normal streamlined body, single forked tail, no barbels in a clear planted outdoor freshwater garden pond, a domestic animal not a wild population. Ultra wide environmental photograph: entire animal TINY, full width ONLY 8% of image width, height 6%, center x=80% y=38%. Every fin toe tail and body feature inside x=76%-84% y=35%-41%. Do not enlarge. Left 60% quiet soft environment for typography. Complete animal with background margins, accurate natural anatomy. No text watermark collage border extra animals."
+    },
+    {
+      "basename": "02-body",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. full body single-tailed orange domestic common goldfish swimming underwater, complete fins visible. Species: common single-tailed domestic goldfish Carassius auratus, orange scales, normal streamlined body, single forked tail, no barbels. Environment: a clear planted outdoor freshwater garden pond, a domestic animal not a wild population. Anatomically accurate natural history editorial photograph. Natural lighting and colors. Full animal views must include every visible appendage and tail with background margins. No text labels logo watermark frame collage or fantasy."
+    },
+    {
+      "basename": "03-detail",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. close side portrait of small toothless protrusible mouth and gill cover, do not show imaginary mouth teeth. Species: common single-tailed domestic goldfish Carassius auratus, orange scales, normal streamlined body, single forked tail, no barbels. Environment: a clear planted outdoor freshwater garden pond, a domestic animal not a wild population. Anatomically accurate natural history editorial photograph. Natural lighting and colors. Full animal views must include every visible appendage and tail with background margins. No text labels logo watermark frame collage or fantasy."
+    },
+    {
+      "basename": "04-behavior",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. domestic goldfish taking a small particle of food near aquatic plants underwater. Species: common single-tailed domestic goldfish Carassius auratus, orange scales, normal streamlined body, single forked tail, no barbels. Environment: a clear planted outdoor freshwater garden pond, a domestic animal not a wild population. Anatomically accurate natural history editorial photograph. Natural lighting and colors. Full animal views must include every visible appendage and tail with background margins. No text labels logo watermark frame collage or fantasy."
+    },
+    {
+      "basename": "05-life",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. small bronze juvenile common goldfish with normal single tail in planted nursery pond. Species: common single-tailed domestic goldfish Carassius auratus, orange scales, normal streamlined body, single forked tail, no barbels. Environment: a clear planted outdoor freshwater garden pond, a domestic animal not a wild population. Anatomically accurate natural history editorial photograph. Natural lighting and colors. Full animal views must include every visible appendage and tail with background margins. No text labels logo watermark frame collage or fantasy."
+    },
+    {
+      "basename": "06-habitat",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. wide planted Chinese garden pond used for domestic goldfish, no visible fish required. Species: common single-tailed domestic goldfish Carassius auratus, orange scales, normal streamlined body, single forked tail, no barbels. Environment: a clear planted outdoor freshwater garden pond, a domestic animal not a wild population. Anatomically accurate natural history editorial photograph. Natural lighting and colors. Full animal views must include every visible appendage and tail with background margins. No text labels logo watermark frame collage or fantasy."
+    }
+  ]
+}

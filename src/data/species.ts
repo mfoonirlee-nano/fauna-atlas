@@ -54485,6 +54485,1320 @@ export const species = [
       ]
     }
   },
+  {
+    "id": "veiled-chameleon",
+    "slug": "veiled-chameleon",
+    "names": {
+      "zh": "高冠变色龙",
+      "en": "Veiled Chameleon",
+      "aliases": []
+    },
+    "scientificName": "Chamaeleo calyptratus",
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Reptilia",
+        "zhName": "爬行纲"
+      },
+      "order": {
+        "scientificName": "Squamata",
+        "zhName": "有鳞目"
+      },
+      "family": {
+        "scientificName": "Chamaeleonidae",
+        "zhName": "避役科"
+      },
+      "genus": {
+        "scientificName": "Chamaeleo",
+        "zhName": "避役属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "LC",
+      "label": {
+        "zh": "无危",
+        "en": "Least Concern"
+      },
+      "trend": "unknown",
+      "assessor": "Wilms, T., Sindaco, R. & Shobrak, M."
+    },
+    "distribution": {
+      "realms": [
+        "terrestrial"
+      ],
+      "continents": [
+        "亚洲"
+      ],
+      "regions": [
+        "阿拉伯半岛西南部"
+      ],
+      "countries": [
+        "也门",
+        "沙特阿拉伯"
+      ],
+      "range": "原生于也门及沙特阿拉伯西南部的山地、河谷和灌丛；海外引入种群与宠物饲养地点不计入原生分布。",
+      "center": {
+        "lat": 15,
+        "lng": 44
+      }
+    },
+    "habitats": [
+      {
+        "name": "山地疏林与灌丛",
+        "realm": "terrestrial",
+        "description": "在树枝和灌木间攀爬，借助枝叶隐蔽身体。",
+        "isPrimary": true
+      }
+    ],
+    "measurements": {
+      "length": {
+        "max": 61,
+        "unit": "cm",
+        "note": "成年雄性总长上限约 24 英寸，换算后取整；包含尾巴，不代表雌雄共同成年范围。"
+      }
+    },
+    "metrics": {},
+    "diet": {
+      "types": [
+        "insectivore",
+        "omnivore"
+      ],
+      "foods": [
+        "昆虫",
+        "其他小型无脊椎动物",
+        "少量叶片"
+      ],
+      "description": "主要用舌捕捉昆虫，也有取食植物叶片的记录。"
+    },
+    "tags": [
+      "山地疏林与灌丛",
+      "无危",
+      "分头观察"
+    ],
+    "summary": "高冠变色龙的两只眼睛能分别转动；锁定昆虫后，它会弹出长舌，把猎物带回口中。",
+    "description": "头顶高高的冠突、侧扁的身体和能卷握树枝的尾巴，帮助你认出这种来自阿拉伯半岛的蜥蜴。成年雄性的冠突通常更高。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "头顶的高冠",
+        "title": "冠突随身体一起长大",
+        "body": "幼体的冠突较低，成年雄性通常比雌性更高大。绿、黄与褐色的体表斑带会随状态变化，不能仅靠某一种颜色判定年龄或性别。"
+      },
+      {
+        "key": "vision",
+        "label": "两眼分工",
+        "title": "一只眼看前面，另一只看侧面",
+        "body": "突出的眼睛能分别转动，让它在身体少动时观察不同方向。捕食时，它会调整视线对准猎物，再伸舌；一张照片只能记录某一瞬间的眼位。"
+      },
+      {
+        "key": "tongue",
+        "label": "长舌捕虫",
+        "title": "在树枝上把昆虫拉回来",
+        "body": "发现合适的昆虫后，它会朝目标弹出舌头，黏性的舌端帮助抓住猎物，随后将舌头收回。捕猎依靠瞄准和距离判断，并非看到任何远处昆虫都能捉到。"
+      },
+      {
+        "key": "climbing",
+        "label": "抓牢枝条",
+        "title": "脚趾夹住树枝，尾巴再握一处",
+        "body": "每只脚的趾分成相对的两组，适合夹握枝条。可卷握的尾巴能增加支撑点；慢慢移动时，四肢和尾巴一起维持树栖姿势。"
+      },
+      {
+        "key": "life",
+        "label": "从卵到幼体",
+        "title": "小变色龙也会攀爬",
+        "body": "雌性在土中产卵，幼体孵化后独立活动。它们也有抓握的脚和卷尾，但头部冠突及成年斑纹还会继续发育。"
+      },
+      {
+        "key": "conservation",
+        "label": "保护原生地",
+        "title": "留下树木和灌丛之间的通路",
+        "body": "IUCN 2012 年发布记录将本种列为无危。当地生境改变与野生动物贸易仍需关注；保护原生植被，也不要把圈养个体释放到其他地区。"
+      }
+    ],
+    "keyFacts": [
+      "冠突随身体一起长大：幼体的冠突较低，成年雄性通常比雌性更高大。",
+      "一只眼看前面，另一只看侧面：突出的眼睛能分别转动，让它在身体少动时观察不同方向。",
+      "在树枝上把昆虫拉回来：发现合适的昆虫后，它会朝目标弹出舌头，黏性的舌端帮助抓住猎物，随后将舌头收回。",
+      "脚趾夹住树枝，尾巴再握一处：每只脚的趾分成相对的两组，适合夹握枝条。",
+      "小变色龙也会攀爬：雌性在土中产卵，幼体孵化后独立活动。"
+    ],
+    "threats": [
+      "局部森林和灌丛清除。",
+      "野生个体捕捉与贸易。"
+    ],
+    "conservationActions": [
+      "保留原生树木与灌丛。",
+      "不捕捉野生个体，不将宠物放生。"
+    ],
+    "featuredStats": [
+      {
+        "key": "trait",
+        "label": "观察重点",
+        "value": "分头观察"
+      },
+      {
+        "key": "length",
+        "label": "总长上限约",
+        "value": "61",
+        "unit": "厘米",
+        "note": "包含尾部，非成年平均值"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ADW — 高冠变色龙",
+        "url": "https://animaldiversity.org/accounts/Chamaeleo_calyptratus/",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "高冠变色龙发育与身体特征研究",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30839129/",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "GBIF — 分类及 IUCN 状态",
+        "url": "https://www.gbif.org/taxon/TK53",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "IUCN — 2012 年发布评估",
+        "url": "https://doi.org/10.2305/IUCN.UK.2012.RLTS.T176306A1437838.en",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/veiled-chameleon/01-cover.webp",
+      "alt": "高冠变色龙位于画面右侧，完整主体周围保留环境。",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/veiled-chameleon/02-body.webp",
+          "title": "枝上的完整身体",
+          "alt": "高冠变色龙侧身握住树枝，卷尾和足部可见。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/veiled-chameleon/03-detail.webp",
+          "title": "高冠与眼睛",
+          "alt": "高冠变色龙侧身停在枝上，可见头顶冠突与突出的眼睛。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/veiled-chameleon/04-behavior.webp",
+          "title": "伸舌捕捉昆虫",
+          "alt": "高冠变色龙朝昆虫伸出长舌。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/veiled-chameleon/05-life.webp",
+          "title": "冠突尚低的幼体",
+          "alt": "绿色幼体抓住细枝，头顶冠突尚低。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/veiled-chameleon/06-habitat.webp",
+          "title": "也门山地植被",
+          "alt": "也门山地河谷中生长着树木与灌丛。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
+  {
+    "id": "oriental-fire-bellied-toad",
+    "slug": "oriental-fire-bellied-toad",
+    "names": {
+      "zh": "东方铃蟾",
+      "en": "Oriental Fire-bellied Toad",
+      "aliases": []
+    },
+    "scientificName": "Bombina orientalis",
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Amphibia",
+        "zhName": "两栖纲"
+      },
+      "order": {
+        "scientificName": "Anura",
+        "zhName": "无尾目"
+      },
+      "family": {
+        "scientificName": "Bombinatoridae",
+        "zhName": "铃蟾科"
+      },
+      "genus": {
+        "scientificName": "Bombina",
+        "zhName": "铃蟾属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "LC",
+      "label": {
+        "zh": "无危",
+        "en": "Least Concern"
+      },
+      "trend": "unknown",
+      "assessor": "IUCN Red List（Seneca Park Zoo 引用记录）"
+    },
+    "distribution": {
+      "realms": [
+        "freshwater",
+        "terrestrial"
+      ],
+      "continents": [
+        "亚洲"
+      ],
+      "regions": [
+        "中国东北及邻近地区",
+        "朝鲜半岛",
+        "俄罗斯远东南部"
+      ],
+      "countries": [
+        "中国",
+        "朝鲜",
+        "韩国",
+        "俄罗斯"
+      ],
+      "range": "原生于中国东北及邻近地区、朝鲜半岛和俄罗斯远东南部，主要利用湿地及周边林地。",
+      "center": {
+        "lat": 42,
+        "lng": 128
+      }
+    },
+    "habitats": [
+      {
+        "name": "林地池塘与溪流边缘",
+        "realm": "freshwater",
+        "description": "在浅水、湿润岸边及周围林地间活动，繁殖和蝌蚪发育依赖水体。",
+        "isPrimary": true
+      }
+    ],
+    "measurements": {},
+    "metrics": {},
+    "diet": {
+      "types": [
+        "carnivore",
+        "insectivore"
+      ],
+      "foods": [
+        "昆虫",
+        "蠕虫",
+        "其他小型无脊椎动物"
+      ],
+      "description": "成体捕食小型无脊椎动物；蝌蚪的食物与成体不同。"
+    },
+    "tags": [
+      "林地池塘与溪流边缘",
+      "无危",
+      "露腹警告"
+    ],
+    "summary": "东方铃蟾平时露出带黑斑的背部，受到威胁时会拱身抬起四肢，展示橙红色腹面作为警告。",
+    "description": "这是一种体型小、背部布满疣粒的两栖动物。背色可呈绿色或褐色，腹面则有鲜艳底色和深色斑纹。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "认识铃蟾",
+        "title": "绿色背部下面藏着亮色",
+        "body": "东方铃蟾属于铃蟾科。不同个体的背色从褐色到绿色不等，腹面常见橙红色、黄色与黑色斑纹；背部疣粒不是毛发。"
+      },
+      {
+        "key": "warning",
+        "label": "拱身警告",
+        "title": "把平时朝下的一面露出来",
+        "body": "受到威胁时，它可能拱起身体、抬起前后肢，让腹面和脚底的亮色更明显。这种姿势称为铃蟾反射，警告色与皮肤防御分泌物共同作用。"
+      },
+      {
+        "key": "habitat",
+        "label": "水陆之间",
+        "title": "浅水边也是活动场所",
+        "body": "它常在池塘、溪流和湿润林地边缘活动，能停在浅水中，也会上岸。观察野生个体时留在岸边，避免翻动、抓握或刺激它展示腹部。"
+      },
+      {
+        "key": "feeding",
+        "label": "捉小动物",
+        "title": "成体吃昆虫和其他小猎物",
+        "body": "成体以小型无脊椎动物为食。蝌蚪在水中发育，不能把成体的食物清单直接当作蝌蚪的食性。"
+      },
+      {
+        "key": "life",
+        "label": "蝌蚪长大",
+        "title": "先长腿，再逐渐失去尾巴",
+        "body": "雌性把卵产在浅水植物附近，卵在体外受精。蝌蚪孵化后在水中生活，随着变态发育长出四肢、吸收尾部，再转向水陆交界的生活。"
+      },
+      {
+        "key": "conservation",
+        "label": "留下湿地",
+        "title": "池塘和周边林地一起保护",
+        "body": "本种的全球 IUCN 状态为无危。局部湿地退化、水体污染和捕捉仍会影响种群，保留繁殖水体及相连的湿润岸带有助于它完成生活史。"
+      }
+    ],
+    "keyFacts": [
+      "绿色背部下面藏着亮色：东方铃蟾属于铃蟾科。",
+      "把平时朝下的一面露出来：受到威胁时，它可能拱起身体、抬起前后肢，让腹面和脚底的亮色更明显。",
+      "浅水边也是活动场所：它常在池塘、溪流和湿润林地边缘活动，能停在浅水中，也会上岸。",
+      "成体吃昆虫和其他小猎物：成体以小型无脊椎动物为食。",
+      "先长腿，再逐渐失去尾巴：雌性把卵产在浅水植物附近，卵在体外受精。"
+    ],
+    "threats": [
+      "湿地退化与水体污染。",
+      "野生个体捕捉。"
+    ],
+    "conservationActions": [
+      "保护浅水繁殖地和周边植被。",
+      "减少污染，不抓取野生铃蟾。"
+    ],
+    "featuredStats": [
+      {
+        "key": "trait",
+        "label": "观察重点",
+        "value": "露腹警告"
+      },
+      {
+        "key": "habitat",
+        "label": "主要环境",
+        "value": "林地池塘与溪流边缘"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ADW — 东方铃蟾生活史",
+        "url": "https://animaldiversity.org/accounts/Bombina_orientalis/",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "AMNH — 分类与分布",
+        "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Bombinatoridae/Bombina/Bombina-orientalis",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "Seneca Park Zoo — 东方铃蟾",
+        "url": "https://senecaparkzoo.org/fire-bellied-toad/",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/oriental-fire-bellied-toad/01-cover.webp",
+      "alt": "东方铃蟾位于画面右侧，完整主体周围保留环境。",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/oriental-fire-bellied-toad/02-body.webp",
+          "title": "带黑斑的绿色背部",
+          "alt": "东方铃蟾停在湿苔藓上，背部可见黑斑与疣粒。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/oriental-fire-bellied-toad/03-detail.webp",
+          "title": "腹面的警告色",
+          "alt": "东方铃蟾拱身抬肢，展示亮色腹面。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/oriental-fire-bellied-toad/04-behavior.webp",
+          "title": "停在浅水中",
+          "alt": "东方铃蟾身体浸在浅水中，头部露出水面。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/oriental-fire-bellied-toad/05-life.webp",
+          "title": "水中的蝌蚪",
+          "alt": "东方铃蟾蝌蚪在水草间游动。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/oriental-fire-bellied-toad/06-habitat.webp",
+          "title": "温带林地池塘",
+          "alt": "东亚温带林地内的池塘及湿润岸边。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
+  {
+    "id": "goldfish",
+    "slug": "goldfish",
+    "names": {
+      "zh": "金鱼",
+      "en": "Goldfish",
+      "aliases": []
+    },
+    "scientificName": "Carassius auratus",
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Actinopterygii",
+        "zhName": "辐鳍鱼纲"
+      },
+      "order": {
+        "scientificName": "Cypriniformes",
+        "zhName": "鲤形目"
+      },
+      "family": {
+        "scientificName": "Cyprinidae",
+        "zhName": "鲤科"
+      },
+      "genus": {
+        "scientificName": "Carassius",
+        "zhName": "鲫属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "LC",
+      "label": {
+        "zh": "无危",
+        "en": "Least Concern"
+      },
+      "trend": "unknown",
+      "assessedYear": 2010,
+      "assessor": "IUCN Red List（FishBase 引用记录）"
+    },
+    "distribution": {
+      "realms": [
+        "freshwater"
+      ],
+      "continents": [
+        "亚洲"
+      ],
+      "regions": [
+        "东亚原生范围；观赏品种在全球饲养"
+      ],
+      "countries": [
+        "中国"
+      ],
+      "range": "本种起源于东亚，观赏金鱼在中国经长期选育形成，现于世界多地饲养并有引入种群。地图聚焦选育历史所在的中国，不将宠物饲养地视作原生范围，也不表示本种仅分布于中国。",
+      "center": {
+        "lat": 31,
+        "lng": 115
+      }
+    },
+    "habitats": [
+      {
+        "name": "池塘与缓流水体",
+        "realm": "freshwater",
+        "description": "生活在淡水池塘、湖泊和缓流中；本页橙色金鱼图片表现家养单尾品种。",
+        "isPrimary": true
+      }
+    ],
+    "measurements": {
+      "length": {
+        "max": 45,
+        "unit": "cm",
+        "note": "ADW 的本种总长上限，包含尾鳍；家养品种体形差异较大，不作为共同成年范围。"
+      }
+    },
+    "metrics": {},
+    "diet": {
+      "types": [
+        "omnivore"
+      ],
+      "foods": [
+        "小型甲壳动物",
+        "昆虫幼虫",
+        "藻类",
+        "植物碎屑"
+      ],
+      "description": "用口吸入食物，再由咽部的牙齿处理，能利用动物性和植物性食物。"
+    },
+    "tags": [
+      "池塘与缓流水体",
+      "无危",
+      "咽齿磨食"
+    ],
+    "summary": "金鱼的口中没有用来咬碎食物的颌齿，却在咽部生有咽齿；它没有真正的胃，食物主要在肠道中继续消化。",
+    "description": "常见的橙红色金鱼属于人类选育的观赏品种。单尾、双尾和不同体形不应拆成不同物种档案，野生型外观也不等于鲜艳的家养品系。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "家养金鱼",
+        "title": "一条鱼可以有许多品种",
+        "body": "人们长期选择金鱼的颜色、身体和鳍形，育成多种观赏品系。本页以身体修长的单尾金鱼展示外形；家养品种的差异不等于物种之间的差异。"
+      },
+      {
+        "key": "teeth",
+        "label": "牙齿在咽部",
+        "title": "吸入口中，再送到后面磨",
+        "body": "金鱼没有颌齿，咽部的齿长在特化的鳃弓骨上，与对面的结构配合处理食物。看到它反复张口，不代表口沿长着一排小牙。"
+      },
+      {
+        "key": "digestion",
+        "label": "没有真正的胃",
+        "title": "食物在肠道中继续消化",
+        "body": "金鱼属于无胃鱼类，没有哺乳动物那样分泌胃酸的真胃。食物通过前部消化道进入肠道，消化和吸收也在这里进行；无胃并不等于不能处理食物。"
+      },
+      {
+        "key": "feeding",
+        "label": "杂食觅食",
+        "title": "植物和小动物都能入口",
+        "body": "金鱼会吃藻类、植物物质和小型无脊椎动物，常吸入底部颗粒后再筛选食物。进入不属于它的水域后，这种觅食方式可能扰动底泥并改变当地生态。"
+      },
+      {
+        "key": "life",
+        "label": "幼鱼成长",
+        "title": "幼鱼不一定已经通体橙红",
+        "body": "金鱼产黏性卵，卵可附着在水生植物等表面，并在水中完成受精。幼鱼早期常呈较暗颜色，后续体色取决于品系和发育，不能用固定月份推断每条鱼都会变色。"
+      },
+      {
+        "key": "conservation",
+        "label": "不要放生",
+        "title": "家养数量与野生保护分开看",
+        "body": "IUCN 对 Carassius auratus 的物种评估为无危，不能用它表示所有观赏品种都适合野外生活。弃养或放生可形成外来种群；继续妥善饲养或寻找接收者，避免把金鱼倒入河湖。"
+      }
+    ],
+    "keyFacts": [
+      "一条鱼可以有许多品种：人们长期选择金鱼的颜色、身体和鳍形，育成多种观赏品系。",
+      "吸入口中，再送到后面磨：金鱼没有颌齿，咽部的齿长在特化的鳃弓骨上，与对面的结构配合处理食物。",
+      "食物在肠道中继续消化：金鱼属于无胃鱼类，没有哺乳动物那样分泌胃酸的真胃。",
+      "植物和小动物都能入口：金鱼会吃藻类、植物物质和小型无脊椎动物，常吸入底部颗粒后再筛选食物。",
+      "幼鱼不一定已经通体橙红：金鱼产黏性卵，卵可附着在水生植物等表面，并在水中完成受精。"
+    ],
+    "threats": [
+      "局部淡水生境污染。",
+      "引入种群可能扰动底泥并影响本地水生生物。"
+    ],
+    "conservationActions": [
+      "保护淡水生境，区分原生与引入种群。",
+      "不向自然水域释放观赏金鱼。"
+    ],
+    "featuredStats": [
+      {
+        "key": "trait",
+        "label": "观察重点",
+        "value": "咽齿磨食"
+      },
+      {
+        "key": "length",
+        "label": "总长上限约",
+        "value": "45",
+        "unit": "厘米",
+        "note": "包含尾部，非成年平均值"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ADW — 金鱼生态与生活史",
+        "url": "https://animaldiversity.org/accounts/Carassius_auratus/",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "FishBase — 金鱼及 IUCN 记录",
+        "url": "https://www.fishbase.org/summary/Carassius_auratus.html",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "Eschmeyer’s Catalog of Fishes — 金鱼",
+        "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?genus=Carassius&species=auratus&tbl=species",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "PLOS ONE — 鲤形目咽齿的演化",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0011293",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "金鱼消化道 ghrelin 定位研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624692/",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "金鱼无胃消化道的生理研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6661352/",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/goldfish/01-cover.webp",
+      "alt": "金鱼位于画面右侧，完整主体周围保留环境。",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/goldfish/02-body.webp",
+          "title": "单尾金鱼的外形",
+          "alt": "橙色家养单尾金鱼侧身游动，完整鱼鳍可见。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/goldfish/03-detail.webp",
+          "title": "没有颌齿的口",
+          "alt": "家养金鱼侧身游动，可见无颌齿的口部与鳃盖。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/goldfish/04-behavior.webp",
+          "title": "水草间觅食",
+          "alt": "家养金鱼在水草间吸食小颗粒。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/goldfish/05-life.webp",
+          "title": "已显橙色的幼鱼",
+          "alt": "已显橙色的单尾金鱼幼体在水草边游动。",
+          "caption": "AI 生成科学情景重建，展示已显橙色的幼鱼；不代表全部品系都在同一阶段变色。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/goldfish/06-habitat.webp",
+          "title": "家养金鱼池",
+          "alt": "庭院观赏鱼池中种有水生植物，一条家养金鱼在水下游动。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
+  {
+    "id": "siamese-fighting-fish",
+    "slug": "siamese-fighting-fish",
+    "names": {
+      "zh": "暹罗斗鱼",
+      "en": "Siamese Fighting Fish",
+      "aliases": []
+    },
+    "scientificName": "Betta splendens",
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Actinopterygii",
+        "zhName": "辐鳍鱼纲"
+      },
+      "order": {
+        "scientificName": "Anabantiformes",
+        "zhName": "攀鲈目"
+      },
+      "family": {
+        "scientificName": "Osphronemidae",
+        "zhName": "丝足鲈科"
+      },
+      "genus": {
+        "scientificName": "Betta",
+        "zhName": "斗鱼属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "VU",
+      "label": {
+        "zh": "易危",
+        "en": "Vulnerable"
+      },
+      "trend": "unknown",
+      "assessor": "Vidthayanon, C.",
+      "assessedYear": 2011,
+      "criteria": "A2ace"
+    },
+    "distribution": {
+      "realms": [
+        "freshwater"
+      ],
+      "continents": [
+        "亚洲"
+      ],
+      "regions": [
+        "泰国低地淡水湿地"
+      ],
+      "countries": [
+        "泰国"
+      ],
+      "range": "野生种群原生于泰国低地的浅水湿地。世界各地的观赏饲养及引入记录不表示原生分布；斗鱼近缘种和杂交观赏品系也不能直接并入本种野生范围。",
+      "center": {
+        "lat": 14,
+        "lng": 101
+      }
+    },
+    "habitats": [
+      {
+        "name": "植被茂密的浅水湿地",
+        "realm": "freshwater",
+        "description": "利用低地沼泽、池塘和缓流水域，水草与水面空间都是生活环境的一部分。",
+        "isPrimary": true
+      }
+    ],
+    "measurements": {},
+    "metrics": {},
+    "diet": {
+      "types": [
+        "carnivore",
+        "insectivore"
+      ],
+      "foods": [
+        "昆虫幼虫",
+        "小型甲壳动物",
+        "其他水生小动物"
+      ],
+      "description": "捕食水中及水面的小动物，上翘的口适合在靠近水面的地方取食。"
+    },
+    "tags": [
+      "植被茂密的浅水湿地",
+      "易危",
+      "吞气呼吸"
+    ],
+    "summary": "暹罗斗鱼会游到水面吞咽空气，利用鳃上方的迷鳃器交换气体，帮助它在含氧较低的浅水中生活。",
+    "description": "野生型暹罗斗鱼的鳍较短，褐色身体带有蓝绿光泽及红色鳍部。水族店中飘逸的大尾与鲜艳配色多来自人工选育。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "野生与观赏",
+        "title": "短鳍也是斗鱼的样子",
+        "body": "本档案采用 Betta splendens 的物种范围。野生型一般没有观赏品系那样夸张的长鳍；看到漂亮的家养斗鱼，不能据此判断野生种群的数量或外观。"
+      },
+      {
+        "key": "breathing",
+        "label": "水面吞气",
+        "title": "迷鳃器补充氧气",
+        "body": "鳃上方的迷鳃器具有适合气体交换的表面，让它能利用吞入的空气。它仍然是一种水生鱼类，这种能力不能理解为可以长期离水或不需要合适水质。"
+      },
+      {
+        "key": "territory",
+        "label": "守住位置",
+        "title": "雄鱼会展示和驱赶对手",
+        "body": "雄鱼可能张开鱼鳍、展开鳃盖，向同类雄鱼展示，并驱赶入侵者。领地行为不等于需要人为安排打斗，观察时应避免为了展示而持续刺激动物。"
+      },
+      {
+        "key": "nest",
+        "label": "水面的泡巢",
+        "title": "雄鱼吹泡并照看卵",
+        "body": "繁殖时雄鱼在水面聚集带黏液的气泡，形成泡巢。产卵后，它会把卵送入巢中并守护；一小片泡沫本身并不能证明里面已有受精卵。"
+      },
+      {
+        "key": "feeding",
+        "label": "靠近水面觅食",
+        "title": "用上翘的口捕捉小动物",
+        "body": "它捕食昆虫幼虫和其他小型水生动物。茂密植被能提供遮蔽，也容纳食物，浅水环境的价值不仅在于让它够到水面。"
+      },
+      {
+        "key": "conservation",
+        "label": "保护野生斗鱼",
+        "title": "家养常见，野生仍受威胁",
+        "body": "IUCN 2011 年评估将本种列为易危。湿地改造、污染和野生捕捉影响自然种群，观赏养殖数量不能抵消这些压力；不要把家养斗鱼释放进野生种群的水域。"
+      }
+    ],
+    "keyFacts": [
+      "短鳍也是斗鱼的样子：本档案采用 Betta splendens 的物种范围。",
+      "迷鳃器补充氧气：鳃上方的迷鳃器具有适合气体交换的表面，让它能利用吞入的空气。",
+      "雄鱼会展示和驱赶对手：雄鱼可能张开鱼鳍、展开鳃盖，向同类雄鱼展示，并驱赶入侵者。",
+      "雄鱼吹泡并照看卵：繁殖时雄鱼在水面聚集带黏液的气泡，形成泡巢。",
+      "用上翘的口捕捉小动物：它捕食昆虫幼虫和其他小型水生动物。"
+    ],
+    "threats": [
+      "低地湿地改造与污染。",
+      "野生捕捉及家养个体进入自然水域。"
+    ],
+    "conservationActions": [
+      "保留浅水湿地及水生植被。",
+      "不释放家养斗鱼，不为打斗而刺激动物。"
+    ],
+    "featuredStats": [
+      {
+        "key": "trait",
+        "label": "观察重点",
+        "value": "吞气呼吸"
+      },
+      {
+        "key": "habitat",
+        "label": "主要环境",
+        "value": "植被茂密的浅水湿地"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ADW — 暹罗斗鱼行为与繁殖",
+        "url": "https://animaldiversity.org/accounts/Betta_splendens/",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "FishBase — IUCN 全球评估记录",
+        "url": "https://fishbase.se/country/CountrySpeciesSummary.php?c_code=418&genusname=Betta&speciesname=splendens",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "ETYFish — 攀鲈目分类",
+        "url": "https://etyfish.org/anabantiformes/",
+        "kind": "taxonomy",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "University of Florida IFAS — 迷鳃器与泡巢",
+        "url": "https://ask.ifas.ufl.edu/publication/FA212",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/siamese-fighting-fish/01-cover.webp",
+      "alt": "暹罗斗鱼位于画面右侧，完整主体周围保留环境。",
+      "focalPoint": {
+        "x": 0.9,
+        "y": 0.42
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/siamese-fighting-fish/02-body.webp",
+          "title": "野生型短鳍雄鱼",
+          "alt": "野生型暹罗斗鱼雄鱼侧身游动，鱼鳍较短。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/siamese-fighting-fish/03-detail.webp",
+          "title": "到水面吞气",
+          "alt": "暹罗斗鱼将口贴近水面吞气。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/siamese-fighting-fish/04-behavior.webp",
+          "title": "泡巢下的雄鱼",
+          "alt": "暹罗斗鱼雄鱼停在水面的泡巢下方。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/siamese-fighting-fish/05-life.webp",
+          "title": "雌雄外形对照",
+          "alt": "左侧褐色短鳍雌鱼与右侧色彩较明显的雄鱼在水草间相对。",
+          "caption": "AI 生成科学情景重建，展示雌雄外形差异，不表示长期成对生活。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/siamese-fighting-fish/06-habitat.webp",
+          "title": "泰国低地湿地",
+          "alt": "泰国低地有草本植被的浅水湿地。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
+  {
+    "id": "great-white-shark",
+    "slug": "great-white-shark",
+    "names": {
+      "zh": "大白鲨",
+      "en": "Great White Shark",
+      "aliases": []
+    },
+    "scientificName": "Carcharodon carcharias",
+    "featured": true,
+    "publishedAt": "2026-09-08",
+    "updatedAt": "2026-09-08",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Chondrichthyes",
+        "zhName": "软骨鱼纲"
+      },
+      "order": {
+        "scientificName": "Lamniformes",
+        "zhName": "鼠鲨目"
+      },
+      "family": {
+        "scientificName": "Lamnidae",
+        "zhName": "鼠鲨科"
+      },
+      "genus": {
+        "scientificName": "Carcharodon",
+        "zhName": "噬人鲨属"
+      }
+    },
+    "conservation": {
+      "system": "IUCN Red List",
+      "code": "VU",
+      "label": {
+        "zh": "易危",
+        "en": "Vulnerable"
+      },
+      "trend": "unknown",
+      "assessor": "IUCN Red List（Florida Museum 引用记录）"
+    },
+    "distribution": {
+      "realms": [
+        "marine"
+      ],
+      "continents": [
+        "非洲",
+        "大洋洲",
+        "北美洲",
+        "南美洲",
+        "亚洲",
+        "欧洲"
+      ],
+      "regions": [
+        "全球温带及部分亚热带海域"
+      ],
+      "countries": [
+        "南非",
+        "澳大利亚",
+        "新西兰",
+        "美国",
+        "墨西哥"
+      ],
+      "range": "广布于温带和部分亚热带海域，既利用近岸水域，也进行远洋移动。所列国家仅为代表性分布地点，不能视作完整清单。",
+      "center": {
+        "lat": -34,
+        "lng": 20
+      }
+    },
+    "habitats": [
+      {
+        "name": "温带近海与开放海域",
+        "realm": "marine",
+        "description": "在大陆架、岛屿周边及开放海域活动，幼鲨也利用浅海育幼场。",
+        "isPrimary": true
+      }
+    ],
+    "measurements": {
+      "length": {
+        "max": 6,
+        "unit": "m",
+        "note": "Florida Museum 给出的估计最大总长约 6 米；不采用未经确认的更大传闻，不作为成年范围。"
+      }
+    },
+    "metrics": {},
+    "diet": {
+      "types": [
+        "carnivore",
+        "piscivore"
+      ],
+      "foods": [
+        "鱼类",
+        "鳐类和其他鲨类",
+        "海豹与海狮",
+        "鲸类尸体"
+      ],
+      "description": "幼鲨较多取食鱼类，较大个体也捕食海洋哺乳动物，并会利用大型动物尸体。"
+    },
+    "tags": [
+      "温带近海与开放海域",
+      "易危",
+      "不断换牙"
+    ],
+    "summary": "大白鲨的牙齿会持续更替：前排牙齿脱落后，后面的牙齿向前补位，维持捕食时使用的齿列。",
+    "description": "锥形吻部、三角形背鳍和新月形尾鳍组成大白鲨的轮廓。背部呈灰色，腹部较白；它的身体并不是通体白色。",
+    "storySections": [
+      {
+        "key": "identity",
+        "label": "认识大白鲨",
+        "title": "灰背与白腹之间有分界",
+        "body": "大白鲨属于鼠鲨科，是以软骨构成主要骨架的鱼类。较大的三角形背鳍和新月形尾鳍有助于识别，但在野外不能只凭露出水面的一角鱼鳍认定物种。"
+      },
+      {
+        "key": "teeth",
+        "label": "牙齿补位",
+        "title": "牙齿会接替使用",
+        "body": "它有多排处在不同发育位置的牙齿。功能齿磨损或脱落后，后方牙齿逐步向前补位；成年个体的牙齿多呈带锯齿边缘的三角形，本页不把换牙周期写成固定天数。"
+      },
+      {
+        "key": "feeding",
+        "label": "成长与食物",
+        "title": "小鲨与大鲨的菜单不同",
+        "body": "幼鲨较多捕食鱼类和其他软骨鱼，随着体形增大，海豹、海狮等也可成为猎物。大白鲨还会取食鲸类尸体，各地食谱随食物条件变化。"
+      },
+      {
+        "key": "temperature",
+        "label": "保留热量",
+        "title": "部分身体比周围海水温暖",
+        "body": "大白鲨能通过特殊血管结构回收部分肌肉活动产生的热量，使某些组织高于周围水温。这是区域性内温，不代表身体各处都维持哺乳动物式的恒定温度。"
+      },
+      {
+        "key": "life",
+        "label": "浅海幼鲨",
+        "title": "幼鲨出生时已经会游泳",
+        "body": "胚胎在母体内发育，雌鲨产下能够独立游动的幼鲨。浅海育幼场为幼鲨提供食物和适宜环境；成年个体的远洋活动不能代表全部生命阶段的栖息需求。"
+      },
+      {
+        "key": "conservation",
+        "label": "减少误捕",
+        "title": "长得慢，恢复也需要时间",
+        "body": "本种全球 IUCN 状态为易危。误捕、定向捕捞和较慢的繁殖速度增加保护难度；区域种群恢复并不等于全球都已恢复，持续监测和降低渔业死亡仍有必要。"
+      }
+    ],
+    "keyFacts": [
+      "灰背与白腹之间有分界：大白鲨属于鼠鲨科，是以软骨构成主要骨架的鱼类。",
+      "牙齿会接替使用：它有多排处在不同发育位置的牙齿。",
+      "小鲨与大鲨的菜单不同：幼鲨较多捕食鱼类和其他软骨鱼，随着体形增大，海豹、海狮等也可成为猎物。",
+      "部分身体比周围海水温暖：大白鲨能通过特殊血管结构回收部分肌肉活动产生的热量，使某些组织高于周围水温。",
+      "幼鲨出生时已经会游泳：胚胎在母体内发育，雌鲨产下能够独立游动的幼鲨。"
+    ],
+    "threats": [
+      "渔业误捕与定向捕捞。",
+      "为获取颌骨、牙齿等制品而捕杀。"
+    ],
+    "conservationActions": [
+      "减少渔业误捕并开展种群监测。",
+      "保护育幼水域，不购买野生鲨鱼纪念制品。"
+    ],
+    "featuredStats": [
+      {
+        "key": "trait",
+        "label": "观察重点",
+        "value": "不断换牙"
+      },
+      {
+        "key": "length",
+        "label": "总长上限约",
+        "value": "6",
+        "unit": "米",
+        "note": "包含尾部，非成年平均值"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Florida Museum — 大白鲨",
+        "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/white-shark/",
+        "kind": "general",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "NOAA Fisheries — 大白鲨生态与保护",
+        "url": "https://www.fisheries.noaa.gov/species/white-shark",
+        "kind": "conservation",
+        "accessedAt": "2026-09-08"
+      },
+      {
+        "title": "University of Florida IFAS — 鲨鱼牙齿更替",
+        "url": "https://ask.ifas.ufl.edu/publication/FA179",
+        "kind": "ecology",
+        "accessedAt": "2026-09-08"
+      }
+    ],
+    "media": {
+      "image": "./images/species/great-white-shark/01-cover.webp",
+      "alt": "大白鲨位于画面右侧，完整主体周围保留环境。",
+      "focalPoint": {
+        "x": 0.91,
+        "y": 0.4
+      },
+      "credit": "Fauna Atlas · AI 生成科学情景重建",
+      "gallery": [
+        {
+          "image": "./images/species/great-white-shark/02-body.webp",
+          "title": "完整的游动轮廓",
+          "alt": "大白鲨在海中侧身游动，背鳍、胸鳍和完整尾鳍可见。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/great-white-shark/03-detail.webp",
+          "title": "带锯齿的牙齿",
+          "alt": "大白鲨略微张口，可见三角形牙齿。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/great-white-shark/04-behavior.webp",
+          "title": "鱼群附近游动",
+          "alt": "大白鲨在海中游动，远处有鱼群。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/great-white-shark/05-life.webp",
+          "title": "浅海中的幼鲨",
+          "alt": "幼年大白鲨在浅海沙底上方游动。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        },
+        {
+          "image": "./images/species/great-white-shark/06-habitat.webp",
+          "title": "温带海岸水域",
+          "alt": "温带海岸的海带林边缘与开放水域。",
+          "caption": "AI 生成科学情景重建，不对应定位野外照片。",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "credit": "Fauna Atlas · AI 生成科学情景重建"
+        }
+      ]
+    }
+  },
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

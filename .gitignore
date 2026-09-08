@@ -28,3 +28,7 @@ Thumbs.db
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Rebuildable site and temporary image inputs
+dist/
+src/assets/source/**/*.png

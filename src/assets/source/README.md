@@ -1,10 +1,20 @@
-# Visual source assets
+# Image assets and provenance
 
-Species-specific image sets and their final prompts live under `species/<slug>/`.
+Keep one accepted image per scene: the compressed WebP in `public/images/`. Keep final prompts, credits, generation notes and acceptance records under `species/<slug>/`.
+
+PNG inputs are temporary and ignored by Git. Existing PNG filenames and hashes in species records describe historical generation evidence; those files are no longer retained. Do not recreate them merely to satisfy an old record. The accepted WebP is the retained visual reference.
+
+## Image workflow
+
+1. Generate or edit temporary `*-source.png` files under this directory. Inspect them before conversion.
+2. Run `npm run convert:webp -- <source.png>...` (requires `cwebp` and ImageMagick). It creates the matching path under `public/images/`, validates decoding and dimensions, and replaces the output only on success. TinyPNG via `npm run compress -- <source.png>...` is optional; WebP conversion does not need API credentials.
+3. Inspect the final WebP, record its SHA-256 and cover acceptance evidence, and run the relevant tests. Remove the temporary PNG after acceptance. Never repeatedly recompress an accepted WebP.
+4. `dist/` is ignored build output. Build or deploy from `public/images/`; remove local `dist/` when finished if disk space matters.
+
 
 ## Species cover rule
 
-Apply this rule whenever you add, generate, replace, or crop a species cover. `Species.media.image` and its matching `01-*-source.png` form the species cover, and the landing-page hero includes that image in its carousel.
+Apply this rule whenever you add, generate, replace, or crop a species cover. `Species.media.image` points to the retained WebP species cover, and the landing-page hero includes that image in its carousel.
 
 ### Composition
 
@@ -25,7 +35,7 @@ Also inspect the composed safe areas: the animal must remain clear of the left-s
 Record the following evidence in the species image-set README whenever a cover changes:
 
 - Runtime WebP SHA-256, source dimensions, committed `focalPoint`, and the visually measured full-subject boundary in source pixels.
-- Results for every required viewport and animation endpoint, plus original-resolution inspection of both the source PNG and runtime WebP.
+- Results for every required viewport and animation endpoint, plus original-resolution inspection of the temporary input and runtime WebP before discarding the input.
 - The final generation or edit prompt and any known visual limitation.
 
 Add or update the matching full-subject case in `tests/hero-carousel.test.mjs`, then run `npm run test:carousel`. A head-only boundary does not satisfy this rule.
@@ -264,3 +274,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Barn Swallow image set](./species/barn-swallow/README.md)
 - [Green Iguana image set](./species/green-iguana/README.md)
 - [Central Bearded Dragon image set](./species/central-bearded-dragon/README.md)
+
+- [Veiled Chameleon image set](./species/veiled-chameleon/README.md)
+- [Oriental Fire-bellied Toad image set](./species/oriental-fire-bellied-toad/README.md)
+- [Goldfish image set](./species/goldfish/README.md)
+- [Siamese Fighting Fish image set](./species/siamese-fighting-fish/README.md)
+- [Great White Shark image set](./species/great-white-shark/README.md)

@@ -108,16 +108,8 @@ async function assertGeneratedImageSet({
         import.meta.url,
       ),
   );
-  const sourceUrls = basenames.map(
-    (basename) =>
-      new URL(
-        `../src/assets/source/species/${slug}/${basename}-source.png`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
 
   await Promise.all(imageFiles.map(({ url }) => access(url)));
@@ -153,7 +145,7 @@ async function assertGeneratedImageSet({
       createHash('sha256').update(await readFile(url)).digest('hex'),
     ),
   );
-  assert.equal(new Set(imageHashes).size, 12);
+  assert.equal(new Set(imageHashes).size, 6);
 
   if (verifyAcceptedHashes) {
     const readme = await readFile(
@@ -162,12 +154,11 @@ async function assertGeneratedImageSet({
     );
     const acceptedHashRows = [...readme.matchAll(
       /^\|\s+\d{2}\s+\|\s+`([a-f0-9]{64})`\s+\|\s+`([a-f0-9]{64})`\s+\|$/gm,
-    )].map(([, sourceHash, runtimeHash]) => [sourceHash, runtimeHash]);
+    )].map(([, , runtimeHash]) => runtimeHash);
     const runtimeHashes = imageHashes.slice(0, basenames.length);
-    const sourceHashes = imageHashes.slice(basenames.length);
     assert.deepEqual(
       acceptedHashRows,
-      basenames.map((_, index) => [sourceHashes[index], runtimeHashes[index]]),
+      runtimeHashes,
       `${slug} README accepted hashes should match the current image files`,
     );
   }
@@ -240,6 +231,11 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark'].includes(profile.slug)) {
+      // The linked status citations confirm category, but not an independent assessment date.
+      // Evidence scope is recorded in each species image-set README.
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.ok(profile.sources.some(({ kind }) => kind === 'conservation'));
     } else if (profile.slug === 'central-bearded-dragon') {
       // The 2018 IUCN citation establishes publication year, not the assessment date.
       assert.equal(profile.conservation.code, 'LC');
@@ -6742,25 +6738,10 @@ test("registers Belcher's Lancelet as a complete Branchiostoma belcheri profile"
       access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
     ),
   );
-  const sourcePaths = [
-    '01-sandy-seabed-cover-source.png',
-    '02-translucent-body-field-marks-source.png',
-    '03-coarse-sand-habitat-source.png',
-    '04-buried-filter-feeding-source.png',
-    '05-night-swimming-emergence-source.png',
-    '06-noninvasive-sediment-survey-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
       url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
-    })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(
-        `../src/assets/source/species/belchers-lancelet/${filename}`,
-        import.meta.url,
-      ),
     })),
   ];
   await Promise.all(
@@ -7130,28 +7111,13 @@ test('registers Sea Lamprey as a complete Petromyzon marinus profile', async () 
       access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url)),
     ),
   );
-  const sourcePaths = [
-    '01-open-water-portrait-source.png',
-    '02-oral-disc-and-seven-gill-pores-source.png',
-    '03-gravel-riffle-nest-building-source.png',
-    '04-lake-trout-parasitic-feeding-source.png',
-    '05-buried-ammocoete-filter-feeding-source.png',
-    '06-edna-stream-monitoring-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
       url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
     })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(
-        `../src/assets/source/species/sea-lamprey/${filename}`,
-        import.meta.url,
-      ),
-    })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
       const imagePath = fileURLToPath(url);
@@ -7481,25 +7447,13 @@ test('registers Arapaima as a complete Arapaima gigas profile', async () => {
     mediaPaths.map((path) => access(new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url))),
   );
 
-  const sourcePaths = [
-    '01-floodplain-portrait-source.png',
-    '02-bony-head-and-posterior-fins-source.png',
-    '03-surface-air-breath-source.png',
-    '04-flooded-forest-fish-foraging-source.png',
-    '05-juvenile-school-guarding-source.png',
-    '06-community-surface-count-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
       url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
     })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(`../src/assets/source/species/arapaima/${filename}`, import.meta.url),
-    })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
       const imagePath = fileURLToPath(url);
@@ -7837,28 +7791,13 @@ test('registers Atlantic bluefin tuna as a complete Thunnus thynnus profile', as
     ),
   );
 
-  const sourcePaths = [
-    '01-open-ocean-portrait-source.png',
-    '02-streamlined-body-and-finlets-source.png',
-    '03-pelagic-schooling-cruise-source.png',
-    '04-prey-school-foraging-source.png',
-    '05-spawning-aggregation-source.png',
-    '06-satellite-tag-monitoring-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
       url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
     })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(
-        `../src/assets/source/species/atlantic-bluefin-tuna/${filename}`,
-        import.meta.url,
-      ),
-    })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
       const imagePath = fileURLToPath(url);
@@ -8243,28 +8182,13 @@ test('registers the Great Blue-spotted Mudskipper as a complete Boleophthalmus p
     ),
   );
 
-  const sourcePaths = [
-    '01-mudflat-adult-portrait-source.png',
-    '02-dorsal-fins-and-blue-spots-source.png',
-    '03-mudflat-fiddler-crab-cooccurrence-source.png',
-    '04-diatom-film-grazing-source.png',
-    '05-short-mudflat-skip-source.png',
-    '06-air-filled-egg-chamber-cutaway-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
       url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
     })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(
-        `../src/assets/source/species/great-blue-spotted-mudskipper/${filename}`,
-        import.meta.url,
-      ),
-    })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
       const imagePath = fileURLToPath(url);
@@ -8634,28 +8558,13 @@ test('registers the Chinese Horseshoe Crab as a complete Tachypleus tridentatus 
     ),
   );
 
-  const sourcePaths = [
-    '01-shallow-seabed-adult-portrait-source.png',
-    '02-seabed-foraging-trail-source.png',
-    '03-spawning-pair-at-tide-line-source.png',
-    '04-buried-egg-cluster-cutaway-source.png',
-    '05-juvenile-nursery-mudflat-source.png',
-    '06-blue-hemolymph-and-amebocytes-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
       url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
     })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(
-        `../src/assets/source/species/chinese-horseshoe-crab/${filename}`,
-        import.meta.url,
-      ),
-    })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -8974,28 +8883,13 @@ test('registers the Goliath Birdeater as a complete Theraphosa blondi profile', 
     ),
   );
 
-  const sourcePaths = [
-    '01-burrow-entrance-portrait-source.png',
-    '02-eye-cluster-and-pedipalps-source.png',
-    '03-nocturnal-invertebrate-approach-source.png',
-    '04-defensive-stridulation-posture-source.png',
-    '05-female-guarding-egg-sac-source.png',
-    '06-noninvasive-burrow-survey-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
       url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
     })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(
-        `../src/assets/source/species/goliath-birdeater/${filename}`,
-        import.meta.url,
-      ),
-    })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -9018,7 +8912,7 @@ test('registers the Goliath Birdeater as a complete Theraphosa blondi profile', 
           colorspace: 'sRGB',
         },
       );
-      if (format === 'PNG') assert.equal(opaque, 'True');
+      assert.equal(opaque, 'True');
       assert.equal(channels.trim().split(/\s+/)[0], 'srgb');
       await execFileAsync('magick', [imagePath, 'null:']);
     }),
@@ -9340,28 +9234,13 @@ test('registers the Chinese Mantis as a complete Tenodera sinensis profile', asy
     ),
   );
 
-  const sourcePaths = [
-    '01-adult-female-vegetation-portrait-source.png',
-    '02-adult-male-brown-morph-source.png',
-    '03-prestrike-cricket-tracking-source.png',
-    '04-distant-courtship-approach-source.png',
-    '05-ootheca-on-shrub-branch-source.png',
-    '06-successional-old-field-habitat-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
       url: new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
     })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(
-        `../src/assets/source/species/chinese-mantis/${filename}`,
-        import.meta.url,
-      ),
-    })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -9773,14 +9652,6 @@ test('registers the Seven-spotted Ladybird as a complete Coccinella septempuncta
     ),
   );
 
-  const sourcePaths = [
-    '01-adult-aphid-colony-portrait-source.png',
-    '02-standard-seven-spot-dorsal-source.png',
-    '03-larva-aphid-hunt-source.png',
-    '04-pupa-on-leaf-source.png',
-    '05-reflex-bleeding-defense-source.png',
-    '06-leaf-litter-overwintering-source.png',
-  ];
   const imageFiles = [
     ...mediaPaths.map((path) => ({
       format: 'WEBP',
@@ -9789,16 +9660,8 @@ test('registers the Seven-spotted Ladybird as a complete Coccinella septempuncta
         import.meta.url,
       ),
     })),
-    ...sourcePaths.map((filename) => ({
-      format: 'PNG',
-      url: new URL(
-        '../src/assets/source/species/seven-spotted-ladybird/' +
-          filename,
-        import.meta.url,
-      ),
-    })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -10260,29 +10123,13 @@ test('registers the Emperor Dragonfly as a complete Anax imperator profile', asy
     /(?:没有|无)活体成虫/,
   );
 
-  const sourcePaths = [
-    '01-adult-male-pond-portrait-source.png',
-    '02-female-pondweed-oviposition-source.png',
-    '03-vegetated-pond-patrol-source.png',
-    '04-aerial-prey-interception-source.png',
-    '05-underwater-final-instar-larva-source.png',
-    '06-emergence-exuvia-on-reed-source.png',
-  ];
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/emperor-dragonfly/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -10311,8 +10158,8 @@ test('registers the Emperor Dragonfly as a complete Anax imperator profile', asy
     }),
   );
 
-  const [runtimeHashes, sourceHashes] = await Promise.all(
-    [runtimeUrls, sourceUrls].map((urls) =>
+  const [runtimeHashes] = await Promise.all(
+    [runtimeUrls].map((urls) =>
       Promise.all(
         urls.map(async (url) =>
           createHash('sha256').update(await readFile(url)).digest('hex'),
@@ -10321,7 +10168,6 @@ test('registers the Emperor Dragonfly as a complete Anax imperator profile', asy
     ),
   );
   assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
-  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
 
   assert.ok(emperorDragonfly.sources.length >= 25);
   assert.equal(
@@ -10690,29 +10536,13 @@ test('registers the Domestic Silkworm as a complete Bombyx mori profile', async 
     /(?:种质|品系).{0,24}(?:分开|分隔|独立).{0,12}饲养|(?:分开|分隔|独立).{0,12}饲养.{0,24}(?:种质|品系)/,
   );
 
-  const sourcePaths = [
-    '01-adult-domestic-silkworm-portrait-source.png',
-    '02-mature-larva-mulberry-feeding-source.png',
-    '03-first-instar-hatching-from-eggs-source.png',
-    '04-larva-spinning-silk-scaffold-source.png',
-    '05-pupa-inside-opened-cocoon-source.png',
-    '06-germplasm-line-rearing-source.png',
-  ];
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/domestic-silkworm/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -10741,8 +10571,8 @@ test('registers the Domestic Silkworm as a complete Bombyx mori profile', async 
     }),
   );
 
-  const [runtimeHashes, sourceHashes] = await Promise.all(
-    [runtimeUrls, sourceUrls].map((urls) =>
+  const [runtimeHashes] = await Promise.all(
+    [runtimeUrls].map((urls) =>
       Promise.all(
         urls.map(async (url) =>
           createHash('sha256').update(await readFile(url)).digest('hex'),
@@ -10751,7 +10581,6 @@ test('registers the Domestic Silkworm as a complete Bombyx mori profile', async 
     ),
   );
   assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
-  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
 
   assert.ok(domesticSilkworm.sources.length >= 20);
   assert.equal(
@@ -11087,29 +10916,13 @@ test('registers the Antarctic Krill as a complete Euphausia superba profile', as
     /(?:海区|区域|季节|海冰|群体).{0,50}(?:变化|差异|并非固定|不固定)|(?:变化|差异|并非固定|不固定).{0,50}(?:海区|区域|季节|海冰|群体)/,
   );
 
-  const sourcePaths = [
-    '01-adult-krill-under-sea-ice-source.png',
-    '02-filter-feeding-phytoplankton-source.png',
-    '03-larval-development-under-sea-ice-source.png',
-    '04-diel-vertical-migration-source.png',
-    '05-predator-prey-swarm-source.png',
-    '06-scientific-net-sampling-source.png',
-  ];
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/antarctic-krill/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -11138,8 +10951,8 @@ test('registers the Antarctic Krill as a complete Euphausia superba profile', as
     }),
   );
 
-  const [runtimeHashes, sourceHashes] = await Promise.all(
-    [runtimeUrls, sourceUrls].map((urls) =>
+  const [runtimeHashes] = await Promise.all(
+    [runtimeUrls].map((urls) =>
       Promise.all(
         urls.map(async (url) =>
           createHash('sha256').update(await readFile(url)).digest('hex'),
@@ -11148,7 +10961,6 @@ test('registers the Antarctic Krill as a complete Euphausia superba profile', as
     ),
   );
   assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
-  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
 
   assert.ok(antarcticKrill.sources.length >= 20);
   assert.equal(
@@ -11436,29 +11248,13 @@ test('registers the Coconut Crab as a complete Birgus latro profile', async () =
     ),
   );
 
-  const sourcePaths = [
-    '01-rainforest-adult-portrait-source.png',
-    '02-shell-carrying-early-juvenile-source.png',
-    '03-ovigerous-female-at-surf-source.png',
-    '04-coconut-fiber-feeding-source.png',
-    '05-airborne-odor-foraging-source.png',
-    '06-night-road-monitoring-source.png',
-  ];
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/coconut-crab/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -11487,8 +11283,8 @@ test('registers the Coconut Crab as a complete Birgus latro profile', async () =
     }),
   );
 
-  const [runtimeHashes, sourceHashes] = await Promise.all(
-    [runtimeUrls, sourceUrls].map((urls) =>
+  const [runtimeHashes] = await Promise.all(
+    [runtimeUrls].map((urls) =>
       Promise.all(
         urls.map(async (url) =>
           createHash('sha256').update(await readFile(url)).digest('hex'),
@@ -11497,7 +11293,6 @@ test('registers the Coconut Crab as a complete Birgus latro profile', async () =
     ),
   );
   assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
-  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
 
   assert.ok(coconutCrab.sources.length >= 25);
   assert.equal(
@@ -11862,16 +11657,16 @@ test('registers the Chambered Nautilus as a complete Nautilus pompilius profile'
     ),
   );
 
-  const sourcePaths = [
-    '01-steep-reef-adult-portrait-source.png',
-    '02-pinhole-eye-and-suckerless-cirri-source.png',
-    '03-seafloor-carrion-foraging-source.png',
-    '04-nighttime-vertical-movement-source.png',
-    '05-chambered-shell-cutaway-source.png',
-    '06-captive-egg-development-source.png',
+  const expectedImagePaths = [
+    '01-steep-reef-adult-portrait.webp',
+    '02-pinhole-eye-and-suckerless-cirri.webp',
+    '03-seafloor-carrion-foraging.webp',
+    '04-nighttime-vertical-movement.webp',
+    '05-chambered-shell-cutaway.webp',
+    '06-captive-egg-development.webp',
   ];
   assert.deepEqual(
-    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    expectedImagePaths.map((path) => path.replace(/\.webp$/, '')),
     mediaPaths.map((path) =>
       path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
     ),
@@ -11879,18 +11674,10 @@ test('registers the Chambered Nautilus as a complete Nautilus pompilius profile'
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/chambered-nautilus/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -11919,8 +11706,8 @@ test('registers the Chambered Nautilus as a complete Nautilus pompilius profile'
     }),
   );
 
-  const [runtimeHashes, sourceHashes] = await Promise.all(
-    [runtimeUrls, sourceUrls].map((urls) =>
+  const [runtimeHashes] = await Promise.all(
+    [runtimeUrls].map((urls) =>
       Promise.all(
         urls.map(async (url) =>
           createHash('sha256').update(await readFile(url)).digest('hex'),
@@ -11929,12 +11716,6 @@ test('registers the Chambered Nautilus as a complete Nautilus pompilius profile'
     ),
   );
   assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
-  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
-  assert.equal(
-    new Set([...runtimeHashes, ...sourceHashes]).size,
-    12,
-    'runtime and source image files should all differ',
-  );
 
   assert.ok(chamberedNautilus.sources.length >= 20);
   assert.equal(
@@ -12265,16 +12046,16 @@ test('registers the Common Octopus as a complete Octopus vulgaris sensu stricto 
     ),
   );
 
-  const sourcePaths = [
-    '01-rocky-reef-adult-portrait-source.png',
-    '02-chromatophore-papillae-camouflage-source.png',
-    '03-rock-crevice-den-and-midden-source.png',
-    '04-crab-capture-and-sucker-use-source.png',
-    '05-female-egg-brooding-and-ventilation-source.png',
-    '06-pelagic-paralarva-source.png',
+  const expectedImagePaths = [
+    '01-rocky-reef-adult-portrait.webp',
+    '02-chromatophore-papillae-camouflage.webp',
+    '03-rock-crevice-den-and-midden.webp',
+    '04-crab-capture-and-sucker-use.webp',
+    '05-female-egg-brooding-and-ventilation.webp',
+    '06-pelagic-paralarva.webp',
   ];
   assert.deepEqual(
-    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    expectedImagePaths.map((path) => path.replace(/\.webp$/, '')),
     mediaPaths.map((path) =>
       path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
     ),
@@ -12282,18 +12063,10 @@ test('registers the Common Octopus as a complete Octopus vulgaris sensu stricto 
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/common-octopus/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
-  assert.equal(imageFiles.length, 12);
+  assert.equal(imageFiles.length, 6);
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
     imageFiles.map(async ({ format, url }) => {
@@ -12322,8 +12095,8 @@ test('registers the Common Octopus as a complete Octopus vulgaris sensu stricto 
     }),
   );
 
-  const [runtimeHashes, sourceHashes] = await Promise.all(
-    [runtimeUrls, sourceUrls].map((urls) =>
+  const [runtimeHashes] = await Promise.all(
+    [runtimeUrls].map((urls) =>
       Promise.all(
         urls.map(async (url) =>
           createHash('sha256').update(await readFile(url)).digest('hex'),
@@ -12332,12 +12105,6 @@ test('registers the Common Octopus as a complete Octopus vulgaris sensu stricto 
     ),
   );
   assert.equal(new Set(runtimeHashes).size, 6, 'runtime WebP files should differ');
-  assert.equal(new Set(sourceHashes).size, 6, 'source PNG files should differ');
-  assert.equal(
-    new Set([...runtimeHashes, ...sourceHashes]).size,
-    12,
-    'runtime and source image files should all differ',
-  );
 
   assert.ok(commonOctopus.sources.length >= 20);
   assert.equal(
@@ -12572,16 +12339,16 @@ test('registers the Atlantic blue sea slug as a complete Glaucus atlanticus prof
     ),
   );
 
-  const sourcePaths = [
-    '01-ocean-surface-adult-portrait-source.png',
-    '02-upside-down-countershading-source.png',
-    '03-physalia-feeding-source.png',
-    '04-cerata-cnidosac-closeup-source.png',
-    '05-free-egg-strings-source.png',
-    '06-veliger-larva-source.png',
+  const expectedImagePaths = [
+    '01-ocean-surface-adult-portrait.webp',
+    '02-upside-down-countershading.webp',
+    '03-physalia-feeding.webp',
+    '04-cerata-cnidosac-closeup.webp',
+    '05-free-egg-strings.webp',
+    '06-veliger-larva.webp',
   ];
   assert.deepEqual(
-    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    expectedImagePaths.map((path) => path.replace(/\.webp$/, '')),
     mediaPaths.map((path) =>
       path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
     ),
@@ -12589,16 +12356,8 @@ test('registers the Atlantic blue sea slug as a complete Glaucus atlanticus prof
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/atlantic-blue-sea-slug/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
@@ -12625,7 +12384,7 @@ test('registers the Atlantic blue sea slug as a complete Glaucus atlanticus prof
       await execFileAsync('magick', [imagePath, 'null:']);
     }),
   );
-  for (const urls of [runtimeUrls, sourceUrls]) {
+  for (const urls of [runtimeUrls]) {
     const hashes = await Promise.all(
       urls.map(async (url) =>
         createHash('sha256').update(await readFile(url)).digest('hex'),
@@ -12819,16 +12578,16 @@ test('registers the giant clam as a complete Tridacna gigas profile', async () =
     ),
   );
 
-  const sourcePaths = [
-    '01-shallow-reef-adult-portrait-source.png',
-    '02-heavy-shell-rib-profile-source.png',
-    '03-mantle-and-siphonal-openings-macro-source.png',
-    '04-sunlit-open-mantle-source.png',
-    '05-broadcast-spawning-plume-source.png',
-    '06-juvenile-byssal-attachment-source.png',
+  const expectedImagePaths = [
+    '01-shallow-reef-adult-portrait.webp',
+    '02-heavy-shell-rib-profile.webp',
+    '03-mantle-and-siphonal-openings-macro.webp',
+    '04-sunlit-open-mantle.webp',
+    '05-broadcast-spawning-plume.webp',
+    '06-juvenile-byssal-attachment.webp',
   ];
   assert.deepEqual(
-    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    expectedImagePaths.map((path) => path.replace(/\.webp$/, '')),
     mediaPaths.map((path) =>
       path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
     ),
@@ -12836,16 +12595,8 @@ test('registers the giant clam as a complete Tridacna gigas profile', async () =
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/giant-clam/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
@@ -12872,7 +12623,7 @@ test('registers the giant clam as a complete Tridacna gigas profile', async () =
       await execFileAsync('magick', [imagePath, 'null:']);
     }),
   );
-  for (const urls of [runtimeUrls, sourceUrls]) {
+  for (const urls of [runtimeUrls]) {
     const hashes = await Promise.all(
       urls.map(async (url) =>
         createHash('sha256').update(await readFile(url)).digest('hex'),
@@ -13138,16 +12889,16 @@ test('registers the Portuguese Man-of-War as a complete Physalia physalis profil
     ),
   );
 
-  const sourcePaths = [
-    '01-atlantic-surface-colony-portrait-source.png',
-    '02-specialized-zooids-under-float-source.png',
-    '03-raised-crest-wind-drift-source.png',
-    '04-unequal-tentacles-prey-contact-source.png',
-    '05-attached-developing-gonodendron-source.png',
-    '06-stranded-colony-no-contact-source.png',
+  const expectedImagePaths = [
+    '01-atlantic-surface-colony-portrait.webp',
+    '02-specialized-zooids-under-float.webp',
+    '03-raised-crest-wind-drift.webp',
+    '04-unequal-tentacles-prey-contact.webp',
+    '05-attached-developing-gonodendron.webp',
+    '06-stranded-colony-no-contact.webp',
   ];
   assert.deepEqual(
-    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    expectedImagePaths.map((path) => path.replace(/\.webp$/, '')),
     mediaPaths.map((path) =>
       path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
     ),
@@ -13155,16 +12906,8 @@ test('registers the Portuguese Man-of-War as a complete Physalia physalis profil
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/portuguese-man-of-war/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
@@ -13198,7 +12941,7 @@ test('registers the Portuguese Man-of-War as a complete Physalia physalis profil
       createHash('sha256').update(await readFile(url)).digest('hex'),
     ),
   );
-  assert.equal(new Set(imageHashes).size, 12);
+  assert.equal(new Set(imageHashes).size, 6);
 
   assert.equal(manOfWar.sources.length, 32);
   assert.equal(
@@ -13433,16 +13176,16 @@ test('registers the Crown-of-thorns Starfish as a complete Acanthaster planci pr
     ),
   );
 
-  const sourcePaths = [
-    '01-coral-reef-adult-portrait-source.png',
-    '02-dorsal-disc-arms-and-spines-source.png',
-    '03-everted-stomach-coral-feeding-source.png',
-    '04-reef-high-density-mosaic-source.png',
-    '05-broadcast-spawning-plume-source.png',
-    '06-five-arm-juvenile-coralline-algae-source.png',
+  const expectedImagePaths = [
+    '01-coral-reef-adult-portrait.webp',
+    '02-dorsal-disc-arms-and-spines.webp',
+    '03-everted-stomach-coral-feeding.webp',
+    '04-reef-high-density-mosaic.webp',
+    '05-broadcast-spawning-plume.webp',
+    '06-five-arm-juvenile-coralline-algae.webp',
   ];
   assert.deepEqual(
-    sourcePaths.map((path) => path.replace(/-source\.png$/, '')),
+    expectedImagePaths.map((path) => path.replace(/\.webp$/, '')),
     mediaPaths.map((path) =>
       path.slice(path.lastIndexOf('/') + 1).replace(/\.webp$/, ''),
     ),
@@ -13450,16 +13193,8 @@ test('registers the Crown-of-thorns Starfish as a complete Acanthaster planci pr
   const runtimeUrls = mediaPaths.map(
     (path) => new URL(`../public/${path.replace(/^\.\//, '')}`, import.meta.url),
   );
-  const sourceUrls = sourcePaths.map(
-    (filename) =>
-      new URL(
-        `../src/assets/source/species/crown-of-thorns-starfish/${filename}`,
-        import.meta.url,
-      ),
-  );
   const imageFiles = [
     ...runtimeUrls.map((url) => ({ format: 'WEBP', url })),
-    ...sourceUrls.map((url) => ({ format: 'PNG', url })),
   ];
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
@@ -13493,7 +13228,7 @@ test('registers the Crown-of-thorns Starfish as a complete Acanthaster planci pr
       createHash('sha256').update(await readFile(url)).digest('hex'),
     ),
   );
-  assert.equal(new Set(imageHashes).size, 12);
+  assert.equal(new Set(imageHashes).size, 6);
 
   assert.equal(
     new Set(crownOfThorns.sources.map(({ url }) => url)).size,
@@ -24538,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 159);
+  assert.equal(species.length, 164);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24673,7 +24408,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 16);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 1);
@@ -24689,7 +24424,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 10);
   assert.equal(findTaxon(tree, 'family', 'Agamidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Moloch')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Phrynosomatidae')?.speciesCount, 1);
@@ -24698,8 +24433,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 10);
-  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Pipidae')?.speciesCount, 1);
@@ -24709,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 159);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 164);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24730,7 +24465,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 107);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 112);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 41);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24752,7 +24487,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -24773,7 +24508,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Myxiniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Myxinidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Myxine')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Chondrichthyes')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Chondrichthyes')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Torpediniformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Torpedinidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Torpedo')?.speciesCount, 1);
@@ -25623,4 +25358,38 @@ test('normalizes the common kingfisher ADW mass range from grams to kilograms', 
   assert.equal(profile.measurements.weight.min, 26);
   assert.equal(profile.measurements.weight.max, 39);
   assert.equal(profile.measurements.weight.unit, 'g');
+});
+
+for (const [slug, scientificName, className, order, family, genus, status] of [
+  ['veiled-chameleon', 'Chamaeleo calyptratus', 'Reptilia', 'Squamata', 'Chamaeleonidae', 'Chamaeleo', 'LC'],
+  ['oriental-fire-bellied-toad', 'Bombina orientalis', 'Amphibia', 'Anura', 'Bombinatoridae', 'Bombina', 'LC'],
+  ['goldfish', 'Carassius auratus', 'Actinopterygii', 'Cypriniformes', 'Cyprinidae', 'Carassius', 'LC'],
+  ['siamese-fighting-fish', 'Betta splendens', 'Actinopterygii', 'Anabantiformes', 'Osphronemidae', 'Betta', 'VU'],
+  ['great-white-shark', 'Carcharodon carcharias', 'Chondrichthyes', 'Lamniformes', 'Lamnidae', 'Carcharodon', 'VU'],
+]) {
+  test(`integrates ${slug} with its taxonomy and reviewed image set`, async () => {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, scientificName);
+    assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+      'Animalia', 'Chordata', className, order, family, genus,
+    ]);
+    assert.equal(findTaxon(buildTaxonomyTree(species), 'genus', genus)?.children[0]?.species.id, profile.id);
+    assert.equal(profile.conservation.code, status);
+    assert.equal(profile.storySections.length, 6);
+    assert.equal(profile.metrics.adultLengthCm, undefined, 'maximum-only or unverified lengths must not become adult ranges');
+    await assertGeneratedImageSet({ profile, slug, basenames: ['01-cover', '02-body', '03-detail', '04-behavior', '05-life', '06-habitat'], verifyAcceptedHashes: true });
+  });
+}
+
+test('keeps domestic fish imagery distinct from wild range and conservation evidence', () => {
+  const goldfish = findSpecies('goldfish');
+  const betta = findSpecies('siamese-fighting-fish');
+  assert.match(goldfish.description, /家养|选育/);
+  assert.match(goldfish.distribution.range, /引入/);
+  assert.match(goldfish.storySections.find(({ key }) => key === 'digestion').body, /无胃/);
+  assert.match(goldfish.storySections.find(({ key }) => key === 'teeth').body, /没有颌齿/);
+  assert.equal(betta.conservation.assessedYear, 2011);
+  assert.match(betta.description, /野生型/);
+  assert.match(betta.storySections.find(({ key }) => key === 'breathing').body, /鳃上方.*迷鳃器/);
+  assert.match(betta.storySections.find(({ key }) => key === 'conservation').body, /观赏养殖数量不能/);
 });

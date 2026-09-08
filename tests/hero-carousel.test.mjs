@@ -214,6 +214,11 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'veiled-chameleon', sha256: 'd524587cd54d525f4f373bbd0d14603ffcff85dd9c412f202ae70513c3f2c1b2', fullBody: {"left": 1182, "top": 334, "right": 1322, "bottom": 474}, composedSafeAreas },
+    { slug: 'oriental-fire-bellied-toad', sha256: '0b679936cd106e12f96a4f1b068f8ebf6e42db7af349102c076febe02ede6255', fullBody: {"left": 1151, "top": 337, "right": 1265, "bottom": 412}, composedSafeAreas },
+    { slug: 'goldfish', sha256: 'a5fb00bfdd14c44a00e9f74e5c59e94c158486209eccdf7158d5eba5cb910c64', fullBody: {"left": 1126, "top": 362, "right": 1254, "bottom": 421}, composedSafeAreas },
+    { slug: 'siamese-fighting-fish', sha256: '40132e9164cef77ccb35e30ef08905240c8bbc01a80d1f84e9e3b3c0701c52ce', fullBody: {"left": 1075, "top": 347, "right": 1268, "bottom": 482}, composedSafeAreas },
+    { slug: 'great-white-shark', sha256: 'bb8b893fc12879b4bbf6c2f836095b2d02d239bd4bbf6f0827b2de4e366fca25', fullBody: {"left": 1092, "top": 346, "right": 1305, "bottom": 431}, composedSafeAreas },
     { slug: 'common-kingfisher', sha256: 'e606ce34900ade7ba646150e1dcf375ccd2ceb4c93a88466edfc7923e7e47a0a', fullBody: {"left": 1174, "top": 327, "right": 1246, "bottom": 393}, composedSafeAreas },
     { slug: 'mandarin-duck', sha256: 'a02217a6ba74ac5de2bd0a072ed28263ec8ea80294d6781d3ee148d4002af8f7', fullBody: {"left": 1172, "top": 394, "right": 1266, "bottom": 473}, composedSafeAreas },
     { slug: 'barn-swallow', sha256: 'a93909baf070c9a764c9675255e83a4d2e950b24ed560086d49a9c1de54ce15b', fullBody: {"left": 1172, "top": 358, "right": 1262, "bottom": 420}, composedSafeAreas },
