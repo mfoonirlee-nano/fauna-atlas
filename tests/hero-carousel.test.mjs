@@ -218,6 +218,7 @@ test('new generated covers keep the complete subject inside every hero animation
     { slug: 'ring-tailed-lemur', sha256: '3054aac8204a0fb5d6f286d83df882148566d76f0c3dba86c08e2a0535403c1d', fullBody: {"left": 1178, "top": 344, "right": 1288, "bottom": 451}, composedSafeAreas },
     { slug: 'greater-flamingo', sha256: '4d36e7b70bf05c972fcb54caa51fb602ee21c1ba6a34f11431c2f975858a8c85', fullBody: {"left": 1236, "top": 336, "right": 1292, "bottom": 434}, composedSafeAreas },
     { slug: 'budgerigar', sha256: '60a0c527e5cefb24e0fbab50d5fe12c50f47cccfaff28da1b002f5897ff1677e', fullBody: {"left": 1216, "top": 302, "right": 1297, "bottom": 453}, composedSafeAreas },
+    { slug: 'toco-toucan', sha256: '236c416bead0c08d8ec26aa3b926f391ebfb06d91e14aa6cd813e7e60622f861', fullBody: {"left": 1200, "top": 324, "right": 1276, "bottom": 424}, composedSafeAreas },
     { slug: 'bobbit-worm', sha256: 'b437d90d4330ffcd7905c56212a9820c38f318453ef104be71de2a9c1c6d50b7', fullBody: { left: 1070, top: 326, right: 1267, bottom: 438 }, composedSafeAreas },
     { slug: 'reticulated-giraffe', sha256: '8092bc44613f340c635cb783a8e9b64df001233c390bb95260e6f2f5237fc944', fullBody: { left: 1208, top: 363, right: 1258, bottom: 439 }, composedSafeAreas },
     { slug: 'hippopotamus', sha256: '56e93675c7dc76de596f9820289aac31f1c71fe2d81606438eb7670b3a6c78a7', fullBody: { left: 1140, top: 372, right: 1294, bottom: 440 }, composedSafeAreas },

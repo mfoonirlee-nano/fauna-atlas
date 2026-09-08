@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 153);
+  assert.equal(species.length, 154);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 153);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 154);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24724,7 +24724,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 101);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 102);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 41);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24775,7 +24775,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 19);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 20);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
@@ -25587,4 +25587,14 @@ test('integrates budgerigar with sourced taxonomy, assessment and reviewed image
   assert.equal(profile.storySections.length, 6);
   assert.deepEqual(profile.metrics, {"adultLengthCm": [17, 18]});
   await assertGeneratedImageSet({ profile, slug: 'budgerigar', basenames: ["01-cover", "02-body", "03-calling", "04-feeding", "05-nest", "06-habitat"], verifyAcceptedHashes: true });
+});
+
+test('integrates toco-toucan with sourced taxonomy, assessment and reviewed images', async () => {
+  const profile = findSpecies('toco-toucan');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), ["Animalia", "Chordata", "Aves", "Piciformes", "Ramphastidae", "Ramphastos"]);
+  assert.equal(profile.conservation.code, 'LC');
+  assert.equal(profile.conservation.assessedYear, 2025);
+  assert.equal(profile.storySections.length, 6);
+  assert.deepEqual(profile.metrics, {"adultMassKg": [0.592, 0.76]});
+  await assertGeneratedImageSet({ profile, slug: 'toco-toucan', basenames: ["01-cover", "02-body", "03-bill", "04-feeding", "05-nest", "06-habitat"], verifyAcceptedHashes: true });
 });

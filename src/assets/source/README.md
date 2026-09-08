@@ -257,3 +257,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Ring-tailed Lemur image set](./species/ring-tailed-lemur/README.md)
 - [Greater Flamingo image set](./species/greater-flamingo/README.md)
 - [Budgerigar image set](./species/budgerigar/README.md)
+- [Toco Toucan image set](./species/toco-toucan/README.md)

@@ -1,0 +1,36 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-83a9f643-df22-4dc3-8ceb-cba36429a7e1.png",
+      "prompt": "Use case: photorealistic-natural. 1536x1024 3:2 wildlife atlas cover, toco toucan Ramphastos toco, black body, white throat, orange-yellow large bill with black tip, blue skin around eye, complete tail and feet, Brazilian cerrado woodland, perched on bare branch. VERY WIDE DISTANT ENVIRONMENTAL VIEW, animal is TINY: full silhouette only 6% of picture height, centered at x=80% y=38%, entire subject between x=75%-84% and y=33%-43%. Every visible appendage included with background margin. Left 60% quiet softly focused habitat for typography. Natural restrained editorial photograph, biologically accurate, no text, no watermark, no additional animals. Do not enlarge animal."
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-60c29f96-0596-4dbd-b451-e8ca5489f728.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas detail photograph 1536x1024. toco toucan Ramphastos toco, black body, white throat, orange-yellow large bill with black tip, blue skin around eye, complete tail and feet. Full-body close wildlife portrait, Brazilian cerrado woodland, perched on bare branch, whole bill or muzzle, feet and tail visible. Subject large enough to see diagnostic anatomy, centered, generous background margin around complete silhouette. Natural light, realistic proportions, no text no watermark no frame."
+    },
+    {
+      "basename": "03-bill",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-7aa51c41-7f57-428e-b389-e6bac2ed734c.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Close side portrait toco toucan Ramphastos toco with complete orange yellow bill black terminal patch, blue skin ring around dark eye and orange orbital skin, white throat black body, realistic smooth keratin exterior. No false thermal glow. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "04-feeding",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-26558f73-b935-4bad-8600-37076b3adc62.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Toco toucan perched reaching with long orange yellow black tipped bill for ripe small fruit on twig, black body white throat complete tail and zygodactyl feet, Brazilian cerrado. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "05-nest",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-c963696b-0412-435c-ae65-54440fda3f67.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Toco toucan perched beside cavity entrance in tree trunk in open Brazilian woodland, full giant orange bill white throat black body and tail, no cutaway. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-e8bd3462-ecbc-4c64-aca5-93f141a9cf82.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Brazilian cerrado open woodland and grassland mosaic, a distant toco toucan in fruiting tree, warm muted natural light. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    }
+  ]
+}
