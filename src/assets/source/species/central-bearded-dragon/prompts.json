@@ -1,0 +1,36 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-49687266-6e8a-4c31-a839-ac6e108db314.png",
+      "prompt": "Use case: photorealistic-natural. New 1536x1024 3:2 wildlife atlas cover. A single central bearded dragon Pogona vitticeps, natural sandy brown coloration, broad triangular head, spiny throat scales, stout body and legs, long tapered tail, resting on thin distant horizontal branch in Australian semi arid scrubland with fallen wood and red sandy ground. Ultra wide environmental photograph: entire animal is TINY, full width INCLUDING ITS LONG TAIL ONLY 8% of image width (120 pixels), height 4% (40 pixels), center at x=80% y=38%. Whole body and every tail tip toe and spine between x=76%-84% and y=35%-41%. Do not enlarge. Tail fully visible with background around its tip. Left 60% quiet muted natural environment for typography. Accurate natural anatomy, no text watermark collage border or extra animals."
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-54c70657-6096-4102-b179-b00f6d43b18b.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. full body adult on low weathered log, all feet and complete tail visible. Species: central bearded dragon Pogona vitticeps, natural sandy brown coloration, broad triangular head, spiny throat scales, stout body and legs, long tapered tail. Environment: Australian semi arid scrubland with fallen wood and red sandy ground. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "03-detail",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-32f075e2-51f9-449d-8690-4a9efb0f35a8.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. adult displaying expanded dark black spiny throat beard, realistic skin scales not hair. Species: central bearded dragon Pogona vitticeps, natural sandy brown coloration, broad triangular head, spiny throat scales, stout body and legs, long tapered tail. Environment: Australian semi arid scrubland with fallen wood and red sandy ground. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "04-behavior",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-d03bcaf8-f50d-43ab-99ae-e33d72c74d1b.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. adult raising one forelimb in natural slow arm waving posture, other three legs support body. Species: central bearded dragon Pogona vitticeps, natural sandy brown coloration, broad triangular head, spiny throat scales, stout body and legs, long tapered tail. Environment: Australian semi arid scrubland with fallen wood and red sandy ground. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "05-life",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-fd68435a-468f-4227-8f20-896cfdbc4791.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. adult eating small green leaves among sparse plants on sandy ground. Species: central bearded dragon Pogona vitticeps, natural sandy brown coloration, broad triangular head, spiny throat scales, stout body and legs, long tapered tail. Environment: Australian semi arid scrubland with fallen wood and red sandy ground. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a0804c-61b8-7450-9073-ccaddd54341b/exec-307dea4c-c04a-49ef-a709-699468010075.png",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction. 1536x1024 landscape. wide central Australian dry scrubland with basking log. Species: central bearded dragon Pogona vitticeps, natural sandy brown coloration, broad triangular head, spiny throat scales, stout body and legs, long tapered tail. Environment: Australian semi arid scrubland with fallen wood and red sandy ground. Anatomically accurate wildlife editorial photography, natural muted colors and lighting, realistic texture. For whole animal views keep complete visible appendages with background margins. No text labels logos watermark frame collage fantasy or artificial pet morphs."
+    }
+  ]
+}

@@ -240,6 +240,12 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
+    } else if (profile.slug === 'central-bearded-dragon') {
+      // The 2018 IUCN citation establishes publication year, not the assessment date.
+      assert.equal(profile.conservation.code, 'LC');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.ok(profile.sources.some(({ url }) => url === 'https://doi.org/10.2305/IUCN.UK.2018-1.RLTS.T83494364A83494440.en'));
+      assert.ok(profile.storySections.some(({ body }) => body.includes('评估日期和趋势未核实')));
     } else if (profile.slug === 'common-raccoon') {
       // MDD and Texas Tech confirm LC; the original IUCN assessment was inaccessible.
       // Do not substitute the 2016 publication year for an unverified assessment date.
@@ -24532,7 +24538,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 158);
+  assert.equal(species.length, 159);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24667,7 +24673,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 14);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 15);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 1);
@@ -24683,8 +24689,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 8);
-  assert.equal(findTaxon(tree, 'family', 'Agamidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 9);
+  assert.equal(findTaxon(tree, 'family', 'Agamidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Moloch')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Phrynosomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Phrynosoma')?.speciesCount, 1);
@@ -24703,7 +24709,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 158);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 159);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24724,7 +24730,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 106);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 107);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 41);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -25600,7 +25606,7 @@ test('integrates toco-toucan with sourced taxonomy, assessment and reviewed imag
 });
 
 // Validate the shared taxonomy branches, complete source/runtime image sets and review records.
-for (const slug of ['common-kingfisher', 'mandarin-duck', 'barn-swallow', 'green-iguana']) {
+for (const slug of ['common-kingfisher', 'mandarin-duck', 'barn-swallow', 'green-iguana', 'central-bearded-dragon']) {
   test(`integrates ${slug} with a complete reviewed image set`, async () => {
     const profile = findSpecies(slug);
     assert.equal(profile.storySections.length, 6);

@@ -218,6 +218,7 @@ test('new generated covers keep the complete subject inside every hero animation
     { slug: 'mandarin-duck', sha256: 'a02217a6ba74ac5de2bd0a072ed28263ec8ea80294d6781d3ee148d4002af8f7', fullBody: {"left": 1172, "top": 394, "right": 1266, "bottom": 473}, composedSafeAreas },
     { slug: 'barn-swallow', sha256: 'a93909baf070c9a764c9675255e83a4d2e950b24ed560086d49a9c1de54ce15b', fullBody: {"left": 1172, "top": 358, "right": 1262, "bottom": 420}, composedSafeAreas },
     { slug: 'green-iguana', sha256: '4ee8a4faa247ac685578ea00cae4dde5423543d49b8f48a717a5e0cead374de8', fullBody: {"left": 1130, "top": 372, "right": 1320, "bottom": 424}, composedSafeAreas },
+    { slug: 'central-bearded-dragon', sha256: '96223e670a91020e127a7781e694b82e66d13169747197e4bd2d49497d75ff87', fullBody: {"left": 1138, "top": 360, "right": 1360, "bottom": 435}, composedSafeAreas },
     { slug: 'cheetah', sha256: 'baf32e943693378fffcf5f5e1bf10888c1864047141bf74461c6bed5a30a0a98', fullBody: {"left": 1086, "top": 360, "right": 1228, "bottom": 462}, composedSafeAreas },
     { slug: 'ring-tailed-lemur', sha256: '3054aac8204a0fb5d6f286d83df882148566d76f0c3dba86c08e2a0535403c1d', fullBody: {"left": 1178, "top": 344, "right": 1288, "bottom": 451}, composedSafeAreas },
     { slug: 'greater-flamingo', sha256: '4d36e7b70bf05c972fcb54caa51fb602ee21c1ba6a34f11431c2f975858a8c85', fullBody: {"left": 1236, "top": 336, "right": 1292, "bottom": 434}, composedSafeAreas },
