@@ -246,3 +246,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Sacculina carcini image set](./species/sacculina-carcini/README.md)
 - [Scaly-foot Snail image set](./species/scaly-foot-snail/README.md)
+
+- [Vampire Squid image set](./species/vampire-squid/README.md)

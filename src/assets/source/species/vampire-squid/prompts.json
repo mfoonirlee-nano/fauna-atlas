@@ -1,0 +1,34 @@
+{
+  "mode": "built-in imagegen",
+  "prompts": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas species cover, 1536x1024 landscape. Scientific reconstruction of one adult vampire squid Vampyroteuthis infernalis suspended in dark navy deep midwater with sparse marine snow. Small dark burgundy mantle, two small lateral fins, big blue-reflecting eye, eight arms joined by cloaklike web, gently folded compact pose, feeding filaments retracted. Entire animal INCLUDING all fin and arm tips within rectangle x=1150..1290 y=320..430 in this 1536x1024 canvas; this very small right-side subject is intentional for responsive hero cropping. Left 70% quiet deep water, no seabed. Natural ROV illumination only on animal, subdued realistic anatomy, no text, borders, logos, collage, no glowing red eyes or squid feeding tentacles. Real background around complete animal."
+    },
+    {
+      "file": "02-body",
+      "prompt": "Use case photorealistic-natural, scientific reconstruction. 1536x1024 landscape. Close lateral three-quarter view of adult vampire squid Vampyroteuthis infernalis in dark deep ocean. Entire burgundy body prominently visible, two small mantle fins, one large blue reflective eye, eight tapering arms connected by broad thin dark web cloak with soft cirri on inner surface, arms loosely spread below. Retract two feeding filaments. Accurate delicate gelatinous skin, no octopus rows of giant suckers, no squid clubs, no vampire fangs, no hard spikes. Restrained ROV lighting, background black blue with fine suspended particles. Animal fills center 65% with margin around whole body, no text, borders or collage."
+    },
+    {
+      "file": "03-feeding",
+      "prompt": "Scientific reconstruction natural-history photograph, vampire squid Vampyroteuthis infernalis floating at right center in deep dark blue midwater with marine snow. Burgundy mantle with two fins, large eye, eight webbed arms. ONE hair-thin pale feeding filament extends in a long graceful arc to the left, tiny organic particles adhering. Show entire filament within frame. Second filament retracted. The feeding filament is a slender thread, never a thick octopus arm or squid club. Marine snow is fine detritus, no large prey. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    },
+    {
+      "file": "04-cloak",
+      "prompt": "Scientific reconstruction vampire squid Vampyroteuthis infernalis in defensive pineapple posture, close three-quarter view in black deep water. Its eight webbed arms fold up and back over the head and mantle, enclosing the body in a rounded burgundy cloak. Soft pale fingerlike cirri project outward from inside surface of the turned-back web; blunt flexible fleshy cirri NOT sharp rigid spines. Head mostly concealed within cloak. Natural ROV photograph look, no glowing magic. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    },
+    {
+      "file": "05-light",
+      "prompt": "Scientific reconstruction natural-history underwater image of vampire squid Vampyroteuthis infernalis in dark deep midwater releasing a small drifting cloud of blue bioluminescent mucus near distal tips of its webbed arms. Complete burgundy mantle, small paired fins and large eye on right half, soft webbed arms directed left and faint luminous mucus drifting away to left. Blue emission restrained, tiny points in translucent mucus, no ink jet from mouth, no laser or neon, no predator. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    },
+    {
+      "file": "06-habitat",
+      "prompt": "Natural-history scientific reconstruction of deep ocean midwater marine snow habitat at 800 meters, faint ROV light illuminating sparse sinking flocculent detritus against black blue ocean. One small recognizable burgundy vampire squid Vampyroteuthis infernalis with mantle fins and webbed arms hangs in water at middle distance on right. No seafloor, no sunlight shafts, no surface waves, no corals, no text. Wide sense of open water, realistic marine particles. Output 1536x1024 landscape, no text, labels, watermarks, borders or collage."
+    }
+  ],
+  "edits": [
+    "Edit this vampire squid cover only: preserve the animal anatomy, pose, colors and deep-water background. Make the whole squid 55% of its present linear size, and move it upwards so its complete bounding rectangle is approximately x=1170..1270 y=325..445 on this 1536x1024 canvas (center x=1220,y=385). This small size is mandatory for website cropping. Fill old location with matching dark marine water. Do not add any animals, text or graphics.",
+    "Edit this image only by moving the ENTIRE existing small vampire squid DOWN by 140 pixels and RIGHT by 35 pixels on the 1536x1024 canvas. Preserve exact current animal size, colors, anatomy and pose. Current animal bounds are x1132..1232,y195..320; required new bounds x1167..1267,y335..460. Do not shrink, enlarge, rotate, or move upwards. Background stays the same dark seawater, reconstruct old animal site as water. No text or additions.",
+    "Keep this exact 3:2 dark water image and the small vampire squid unchanged in size and appearance, but move the squid vertically UP by one full animal-height. Its center must be at 80% of image width and 37% of image height measured FROM THE TOP. Keep same horizontal position. One squid only. Restore its old position with matching empty water. No other changes."
+  ]
+}

@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 144);
+  assert.equal(species.length, 145);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24613,7 +24613,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 9);
   assert.equal(findTaxon(tree, 'class', 'Scaphopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dentaliida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dentaliidae')?.speciesCount, 1);
@@ -24622,7 +24622,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Chitonida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Mopaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Cryptochiton')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nautilus')?.speciesCount, 1);
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 144);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 145);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25456,6 +25456,23 @@ test('integrates scaly-foot snail with dated assessment and updated vent distrib
   await assertGeneratedImageSet({
     profile, slug: 'scaly-foot-snail',
     basenames: ['01-cover', '02-body', '03-scales', '04-symbiosis', '05-white-morph', '06-habitat'],
+    verifyAcceptedHashes: true,
+  });
+});
+
+test('integrates vampire squid as a detritivorous vampyromorph with reviewed media', async () => {
+  const profile = findSpecies('vampire-squid');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
+    'Animalia', 'Mollusca', 'Cephalopoda', 'Vampyromorpha', 'Vampyroteuthidae', 'Vampyroteuthis',
+  ]);
+  assert.deepEqual(profile.diet.types, ['detritivore']);
+  assert.equal(profile.metrics.maxDiveDepthM, undefined, 'habitat depth is not a dive record');
+  assert.equal(profile.conservation.code, 'NE');
+  assert.equal(profile.conservation.assessedYear, undefined);
+  assert.equal(profile.storySections.length, 6);
+  await assertGeneratedImageSet({
+    profile, slug: 'vampire-squid',
+    basenames: ['01-cover', '02-body', '03-feeding', '04-cloak', '05-light', '06-habitat'],
     verifyAcceptedHashes: true,
   });
 });
