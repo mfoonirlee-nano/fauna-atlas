@@ -24532,7 +24532,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 150);
+  assert.equal(species.length, 151);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24703,7 +24703,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 150);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 151);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24724,8 +24724,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 98);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 40);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 99);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 41);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
@@ -24834,7 +24834,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Enhydra')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'family', 'Daubentoniidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Daubentonia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cercopithecidae')?.speciesCount, 1);
@@ -25557,4 +25557,14 @@ test('integrates cheetah with sourced taxonomy, assessment and reviewed images',
   assert.equal(profile.storySections.length, 6);
   assert.deepEqual(profile.metrics, {"adultLengthCm": [100, 140]});
   await assertGeneratedImageSet({ profile, slug: 'cheetah', basenames: ["01-cover", "02-body", "03-running", "04-paws", "05-family", "06-habitat"], verifyAcceptedHashes: true });
+});
+
+test('integrates ring-tailed-lemur with sourced taxonomy, assessment and reviewed images', async () => {
+  const profile = findSpecies('ring-tailed-lemur');
+  assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), ["Animalia", "Chordata", "Mammalia", "Primates", "Lemuridae", "Lemur"]);
+  assert.equal(profile.conservation.code, 'EN');
+  assert.equal(profile.conservation.assessedYear, 2018);
+  assert.equal(profile.storySections.length, 6);
+  assert.deepEqual(profile.metrics, {"adultLengthCm": [39, 46]});
+  await assertGeneratedImageSet({ profile, slug: 'ring-tailed-lemur', basenames: ["01-cover", "02-body", "03-scent", "04-troop", "05-feeding", "06-habitat"], verifyAcceptedHashes: true });
 });

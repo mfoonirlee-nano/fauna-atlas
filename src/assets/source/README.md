@@ -254,3 +254,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Common Hippopotamus image set](./species/hippopotamus/README.md)
 
 - [Cheetah image set](./species/cheetah/README.md)
+- [Ring-tailed Lemur image set](./species/ring-tailed-lemur/README.md)

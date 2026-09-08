@@ -1,0 +1,36 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-09-08",
+  "images": [
+    {
+      "basename": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-daf7cdb6-d898-4819-bf12-b3240ed4c813.png",
+      "prompt": "Use case: photorealistic-natural. 1536x1024 3:2 wildlife atlas cover, ring-tailed lemur Lemur catta, gray body, white face with black eye patches, complete long black-and-white ringed tail curled beside body, Madagascar dry woodland, sitting on bare rock. VERY WIDE DISTANT ENVIRONMENTAL VIEW, animal is TINY: full silhouette only 6% of picture height, centered at x=80% y=38%, entire subject between x=75%-84% and y=33%-43%. Every visible appendage included with background margin. Left 60% quiet softly focused habitat for typography. Natural restrained editorial photograph, biologically accurate, no text, no watermark, no additional animals. Do not enlarge animal."
+    },
+    {
+      "basename": "02-body",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-ba9a5ac0-578b-48ab-9ecd-31678c1dd68e.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas detail photograph 1536x1024. ring-tailed lemur Lemur catta, gray body, white face with black eye patches, complete long black-and-white ringed tail curled beside body. Full-body close wildlife portrait, Madagascar dry woodland, sitting on bare rock, whole bill or muzzle, feet and tail visible. Subject large enough to see diagnostic anatomy, centered, generous background margin around complete silhouette. Natural light, realistic proportions, no text no watermark no frame."
+    },
+    {
+      "basename": "03-scent",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-715588ac-7181-4650-948c-ab840f548255.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. One adult male ring-tailed lemur seated, holding its own long black white ringed tail close to its wrists and rubbing it; plausible fingers and anatomy, scent invisible, no colored gas. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "04-troop",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-a5b929ce-6277-4a52-81ae-f55718caa24b.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Three ring-tailed lemurs walking on all fours on a Madagascar dry woodland trail, long ringed tails held upright, all complete bodies. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "05-feeding",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-3c6576e5-8bcc-4fd5-a64e-14659f4db94e.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Ring-tailed lemur sitting in a tree eating small leaves, normal hands hold a leafy twig, full tail in frame. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    },
+    {
+      "basename": "06-habitat",
+      "path": "/Users/chris.li/.codex/generated_images/01a07faa-b03c-7cb3-91a4-d5dcc7ead05a/exec-be30b8a7-81c8-4c3f-b7ef-17535a4b0011.png",
+      "prompt": "Use case: photorealistic-natural. Wildlife atlas scientific scene reconstruction, 1536x1024 landscape image. Madagascar southern dry woodland and spiny scrub with rocky outcrops, two small distant ring-tailed lemurs on ground. High detail natural history editorial photography, biologically plausible, quiet background, restrained colors. No text, logo, watermark, frame, illustration, collage or invented anatomy."
+    }
+  ]
+}
