@@ -322,3 +322,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Fennec Fox image set](./species/fennec-fox/README.md)
 - [Harbor Seal image set](./species/harbor-seal/README.md)
 - [Beluga Whale image set](./species/beluga-whale/README.md)
+- [Killer Whale image set](./species/killer-whale/README.md)

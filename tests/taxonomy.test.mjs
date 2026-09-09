@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 188);
+  assert.equal(species.length, 189);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 188);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 189);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,8 +24465,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 129);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 53);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 130);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 54);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 15);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
@@ -24592,9 +24592,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Ornithorhynchus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Tachyglossidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachyglossus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Cetacea')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'order', 'Cetacea')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'family', 'Balaenopteridae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Delphinidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Delphinidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Phocoenidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Neophocaena')?.speciesCount, 1);
 });
@@ -25525,6 +25525,7 @@ test('five toddler profiles from fennec fox to Atlantic puffin have sourced iden
     ['fennec-fox', 'Vulpes zerda', 'Carnivora', 'Canidae', 'LC'],
     ['harbor-seal', 'Phoca vitulina', 'Carnivora', 'Phocidae', 'LC'],
     ['beluga-whale', 'Delphinapterus leucas', 'Cetacea', 'Monodontidae', 'LC'],
+    ['killer-whale', 'Orcinus orca', 'Cetacea', 'Delphinidae', 'DD'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   for (const [slug, scientificName, order, family, code] of cases) {
@@ -25545,5 +25546,9 @@ test('five toddler profiles from fennec fox to Atlantic puffin have sourced iden
   assert.match(beluga.storySections.find(({ key }) => key === 'back').body, /没有背鳍/);
   assert.match(beluga.storySections.find(({ key }) => key === 'calf').body, /逐渐变白/);
   assert.match(beluga.storySections.at(-1).body, /全球.*无危.*库克湾/);
+  const orca = findSpecies('killer-whale');
+  assert.match(orca.storySections.at(-1).body, /资料缺乏.*不代表没有风险/);
+  assert.match(orca.storySections.find(({ key }) => key === 'food').body, /不能把某一群/);
+  assert.equal(orca.metrics.adultLengthCm, undefined, 'maximum length is not an adult range');
   assert.equal(beluga.metrics.adultLengthCm, undefined, 'maximum length is not an adult range');
 });

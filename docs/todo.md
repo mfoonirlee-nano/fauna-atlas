@@ -39,7 +39,7 @@
 - [x] 耳廓狐 *Vulpes zerda* — “它的耳朵比脸还显眼。”
 - [x] 港海豹 *Phoca vitulina* — “找找鼻子旁边的胡须。”
 - [x] 白鲸 *Delphinapterus leucas* — “看看白鲸圆圆的额头。”
-- [ ] 虎鲸 *Orcinus orca* — “找找它身上的黑色和白色。”
+- [x] 虎鲸 *Orcinus orca* — “找找它身上的黑色和白色。”
 - [ ] 大西洋海鹦 *Fratercula arctica* — “它的嘴巴有哪些颜色？”
 - [ ] 绯红金刚鹦鹉 *Ara macao* — “找找红色、黄色和蓝色的羽毛。”
 - [ ] 孔雀鱼 *Poecilia reticulata* — “它的尾巴像一把展开的小扇子。”

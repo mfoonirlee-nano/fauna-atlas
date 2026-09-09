@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-09",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Preserve this exact 1536x1024 composition and the animal anatomy. Move the whole whale EXACTLY 130 pixels to the RIGHT and 35 pixels DOWN without changing its size. Erase the old whale location with seamless blue water. The animal should be centered around x=1210 and y=380 pixels. Only one whale. No other changes."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Full female orca underwater side view, black back white belly and white eye patch, curved dorsal fin. Species Orcinus orca. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Close orca side head portrait, small real eye anterior to large white eye patch. Species Orcinus orca. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Two female orcas swimming side by side underwater, full bodies and complete flukes. Species Orcinus orca. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Orca surfacing at sea, dorsal fin and back above water, no leaping. Species Orcinus orca. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Full orca swimming near a school of small fish, no blood, complete flukes. Species Orcinus orca. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    }
+  ],
+  "coverHistory": [
+    "Generate a 1536x1024 photorealistic natural-history editorial wildlife cover. Subject: one adult female killer whale Orcinus orca swimming horizontally underwater in blue ocean, accurate black and white pattern, white eye patch behind eye, curved dorsal fin, both pectoral flippers and complete tail flukes. Extreme wide environmental view with the ENTIRE animal confined to x=1080..1260 y=315..435 pixels (76% width, 36% height), deliberately small animal for responsive website hero crop. Complete anatomy and visible outer features with background around it. Keep left 60% quiet background. Natural soft light, realistic textures. No text, no borders, no collage, no watermark.",
+    "Edit this 1536x1024 image. Preserve the animal identity, realistic anatomy, colors and environmental photographic style. Reframe and resize the entire animal so that its FULL outline fits strictly within rectangle left=1090 top=325 right=1260 bottom=440 pixels. The center must be (1175,382). This means moving it UP and making whales MUCH SMALLER. Move the supporting rock/grass with the animal when relevant; reconstruct continuous natural environment. Left 60% quiet background. No duplicate animal, no text, no frame. Keep exact canvas dimensions."
+  ]
+}
