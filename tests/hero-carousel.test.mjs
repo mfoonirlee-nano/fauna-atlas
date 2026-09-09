@@ -214,6 +214,7 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'european-rabbit', sha256: '0396594c0300c5058a20e4e0621ce84057298fe339ab10c659daaeb59d0ee1c2', fullBody: { left: 1040, top: 320, right: 1220, bottom: 488 }, composedSafeAreas },
     { slug: 'eastern-honey-bee', sha256: '9931d6bc10034704870de6664cd257cbf746f3b7541d07293170fc0b5c7e1753', fullBody: {"left": 1123, "top": 359, "right": 1241, "bottom": 437}, composedSafeAreas },
     { slug: 'two-spotted-cricket', sha256: 'eef1c4bc8ca08e6d4fe7d4cd4cfffd2ce7bc56bf43d2b4d036d11c8d30920de8', fullBody: {"left": 1133, "top": 314, "right": 1246, "bottom": 422}, composedSafeAreas },
     { slug: 'japanese-rhinoceros-beetle', sha256: '1f0f66b4c55d33bcb072be3a26f5b35eb595df35a93846608968bc153a74d85f', fullBody: {"left": 1160, "top": 316, "right": 1346, "bottom": 480}, composedSafeAreas },

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "01-cover",
+    "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history wildlife image for Fauna Atlas cover. A single wild European rabbit Oryctolagus cuniculus, grey-brown agouti coat, upright long ears (not hare-length), dark eyes, compact body, short white-underneath tail, sitting in side view facing left on a low sandy patch in an Iberian meadow. Strict composition: entire rabbit including both ear tips, whiskers, nose, all visible paws and tail occupies only x=1130..1280 and y=320..430 of the 1536x1024 canvas. Rabbit small in a broad landscape, center near 78% width and 37% height. Ground plane reaches rabbit feet at y430 and extends through foreground. Left 40% softly blurred quiet muted meadow for text overlay; no nearby foreground plants overlapping rabbit. Realistic anatomy, natural soft morning light, detailed fur. No text, watermark, border, humans, domestic breeds, carrots or other animals. Preserve substantial real background on all sides."
+  },
+  {
+    "name": "02-body",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history educational scene for Fauna Atlas, realistic wild European rabbit Oryctolagus cuniculus, grey-brown agouti fur, compact body, long upright ears with no black hare tips, dark brown eyes, short white-underneath tail. Soft natural light, realistic anatomy. No text, labels, watermark, borders, carrots, domestic breeds or human hands. Full body side view of one rabbit sitting on short meadow grass, large and clear in frame, both ear tips and visible paws and tail included, quiet blurred background. Child can identify the long ears."
+  },
+  {
+    "name": "03-ears",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history educational scene for Fauna Atlas, realistic wild European rabbit Oryctolagus cuniculus, grey-brown agouti fur, compact body, long upright ears with no black hare tips, dark brown eyes, short white-underneath tail. Soft natural light, realistic anatomy. No text, labels, watermark, borders, carrots, domestic breeds or human hands. Close portrait of rabbit head, chest and both entire ears with ample margin above tips, fine whiskers and nose, one ear pointing slightly differently from the other. Natural alert posture, muted meadow background."
+  },
+  {
+    "name": "04-grazing",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history educational scene for Fauna Atlas, realistic wild European rabbit Oryctolagus cuniculus, grey-brown agouti fur, compact body, long upright ears with no black hare tips, dark brown eyes, short white-underneath tail. Soft natural light, realistic anatomy. No text, labels, watermark, borders, carrots, domestic breeds or human hands. One rabbit in full side view on meadow, head lowered to nibble a tuft of grass attached to ground, ears visible, all paws and short tail in frame. Ground-level detailed photograph style."
+  },
+  {
+    "name": "05-burrow",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history educational scene for Fauna Atlas, realistic wild European rabbit Oryctolagus cuniculus, grey-brown agouti fur, compact body, long upright ears with no black hare tips, dark brown eyes, short white-underneath tail. Soft natural light, realistic anatomy. No text, labels, watermark, borders, carrots, domestic breeds or human hands. One entire adult rabbit standing outside an earthy burrow entrance in sandy bank beneath sparse shrubs, front paws resting on loose excavated sand, clear realistic small round dark tunnel entrance beside rabbit. No cutaway or underground view."
+  },
+  {
+    "name": "06-habitat",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history educational scene for Fauna Atlas, realistic wild European rabbit Oryctolagus cuniculus, grey-brown agouti fur, compact body, long upright ears with no black hare tips, dark brown eyes, short white-underneath tail. Soft natural light, realistic anatomy. No text, labels, watermark, borders, carrots, domestic breeds or human hands. Wide Iberian Mediterranean grassland with scattered low scrub and sandy open ground, two wild rabbits grazing well separated in the middle distance, natural morning light, complete animals visible. Emphasize mosaic of short grass for food and shrubs for shelter."
+  }
+]

@@ -290,3 +290,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Orange Oakleaf image set](./species/orange-oakleaf/README.md)
 
 - [Heike Firefly image set](./species/heike-firefly/README.md)
+
+- [European Rabbit image set](./species/european-rabbit/README.md)

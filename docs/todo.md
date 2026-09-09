@@ -20,7 +20,7 @@
 
 先制作这一组。用绘本、动物园或日常见闻引入，再穿插身体形状不同的动物。每次选她感兴趣的少量物种，让她指一指、说一说；不要求记住完整物种名。
 
-- [ ] 穴兔 *Oryctolagus cuniculus* — “找找兔子的长耳朵。”
+- [x] 穴兔 *Oryctolagus cuniculus* — “找找兔子的长耳朵。”
 - [ ] 欧亚红松鼠 *Sciurus vulgaris* — “松鼠的大尾巴在哪里？”
 - [ ] 绿头鸭 *Anas platyrhynchos* — “看看鸭子在水上怎么游。”
 - [ ] 羊驼 *Vicugna pacos* — “它的脖子长长的，身上毛茸茸的。”
