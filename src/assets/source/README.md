@@ -302,3 +302,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Golden Hamster image set](./species/golden-hamster/README.md)
 
 - [Koala image set](./species/koala/README.md)
+
+- [Capybara image set](./species/capybara/README.md)

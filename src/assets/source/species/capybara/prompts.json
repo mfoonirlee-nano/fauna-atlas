@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover",
+    "prompt": "Use case: photorealistic-natural. Asset: Fauna Atlas capybara species cover, landscape 1536x1024. Natural-history editorial photograph of one anatomically accurate Hydrochoerus hydrochaeris standing on a grassy bank in the South American wetlands, blunt broad muzzle, small rounded ears, coarse brown fur, short legs, no visible tail. Extremely wide environmental composition: animal is SMALL, entire body strictly inside pixel rectangle x=1110..1250 y=330..455 on a 1536x1024 canvas. Center near 77% width and 38% height. Full visible feet, muzzle, ears, rump clear of grasses. Ground is a distant raised grassy bank at that height; quiet soft wetland water and vegetation across foreground and left 65%. Natural light. No other animals, text, watermark, borders, collage. Generate one image."
+  },
+  {
+    "file": "02-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hydrochoerus hydrochaeris, capybara. Scene: full body standing on a short grass river bank, broad blunt muzzle small rounded ears short legs coarse brown fur. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, warm restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile. AI scientific reconstruction."
+  },
+  {
+    "file": "03-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hydrochoerus hydrochaeris, capybara. Scene: head close-up showing rounded nose muzzle and tiny ears, no human expression. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, warm restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile. AI scientific reconstruction."
+  },
+  {
+    "file": "04-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hydrochoerus hydrochaeris, capybara. Scene: grazing short grasses with muzzle lowered on South American riverbank. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, warm restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile. AI scientific reconstruction."
+  },
+  {
+    "file": "05-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hydrochoerus hydrochaeris, capybara. Scene: swimming at water surface, nose eyes and ears above water, body naturally submerged. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, warm restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile. AI scientific reconstruction."
+  },
+  {
+    "file": "06-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hydrochoerus hydrochaeris capybara. Scene: adult and one smaller juvenile standing together on wetland grass, no riding. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  }
+]
