@@ -308,3 +308,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Western European Hedgehog image set](./species/european-hedgehog/README.md)
 
 - [Little Blue Penguin image set](./species/little-blue-penguin/README.md)
+
+- [Aldabra Giant Tortoise image set](./species/aldabra-giant-tortoise/README.md)
