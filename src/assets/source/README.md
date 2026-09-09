@@ -323,3 +323,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Harbor Seal image set](./species/harbor-seal/README.md)
 - [Beluga Whale image set](./species/beluga-whale/README.md)
 - [Killer Whale image set](./species/killer-whale/README.md)
+- [Atlantic Puffin image set](./species/atlantic-puffin/README.md)
