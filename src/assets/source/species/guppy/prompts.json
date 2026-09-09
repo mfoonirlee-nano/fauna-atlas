@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-09",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 natural history environmental photograph. One male ornamental guppy Poecilia reticulata with natural slender body and a fan-shaped orange spotted tail, in a planted freshwater aquarium without visible equipment. CRITICAL: extremely distant tiny subject. Entire animal including tail, toes, fins and appendages must fit in a box ONLY 130 pixels wide by 110 pixels high centered at (1175,390). Subject is only 10% of image height. Keep its complete outline within x=1110..1240 y=335..445. Continuous natural habitat occupies remaining canvas, left 60% quiet background for text. No other animals, text, collage, border or watermark. Realistic anatomy."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Poecilia reticulata ornamental male full side profile with expanded orange spotted fan tail, planted aquarium. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Poecilia reticulata close side view of male fan-shaped tail with fine fin rays, include full fish body. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Poecilia reticulata wild-type male with small rounded tail and orange black body spots beside a larger plain grey female, same plane, natural stream. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Poecilia reticulata small loose group of wild-type guppies in shallow vegetated tropical freshwater stream. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Poecilia reticulata several small guppy fry among submerged plant leaves, no adult, realistic tiny slender fish. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    }
+  ],
+  "coverHistory": [
+    "Use case: photorealistic-natural. Generate a 1536x1024 natural history environmental photograph. One male ornamental guppy Poecilia reticulata with natural slender body and a fan-shaped orange spotted tail, in a planted freshwater aquarium without visible equipment. CRITICAL: extremely distant tiny subject. Entire animal including tail, toes, fins and appendages must fit in a box ONLY 130 pixels wide by 110 pixels high centered at (1175,390). Subject is only 10% of image height. Keep its complete outline within x=1110..1240 y=335..445. Continuous natural habitat occupies remaining canvas, left 60% quiet background for text. No other animals, text, collage, border or watermark. Realistic anatomy."
+  ]
+}

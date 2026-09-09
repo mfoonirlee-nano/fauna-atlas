@@ -62757,6 +62757,1280 @@ export const species = [
   "publishedAt": "2026-09-09",
   "updatedAt": "2026-09-09"
 },
+{
+  "id": "species-ara-macao",
+  "slug": "scarlet-macaw",
+  "names": {
+    "zh": "绯红金刚鹦鹉",
+    "en": "Scarlet Macaw",
+    "aliases": [
+      "红金刚鹦鹉"
+    ]
+  },
+  "scientificName": "Ara macao",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Psittaciformes",
+      "zhName": "鹦形目"
+    },
+    "family": {
+      "scientificName": "Psittacidae",
+      "zhName": "鹦鹉科"
+    },
+    "genus": {
+      "scientificName": "Ara",
+      "zhName": "金刚鹦鹉属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "decreasing",
+    "assessor": "IUCN；来源与核实范围见保护章节"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲",
+      "南美洲"
+    ],
+    "regions": [
+      "墨西哥南部、中美洲与南美洲热带地区"
+    ],
+    "countries": [],
+    "range": "原生分布从墨西哥南部经中美洲延伸到南美洲热带地区，栖息于森林及邻近林地。地图中心只定位亚马孙地区，不表示完整分布边界。",
+    "center": {
+      "lat": -3,
+      "lng": -65
+    }
+  },
+  "habitats": [
+    {
+      "name": "热带森林",
+      "realm": "terrestrial",
+      "description": "原生分布从墨西哥南部经中美洲延伸到南美洲热带地区，栖息于森林及邻近林地。地图中心只定位亚马孙地区，不表示完整分布边界。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "typical": 89,
+      "unit": "cm",
+      "note": "ADW 给出的近似体长，包含长尾；不是去尾后的躯干长度。"
+    }
+  },
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "果实",
+      "种子与坚果"
+    ],
+    "description": "食物包括果实、种子与坚果。"
+  },
+  "tags": [
+    "绯红金刚鹦鹉",
+    "红黄蓝羽毛"
+  ],
+  "summary": "找找红色、黄色和蓝色的羽毛，再看看垂在树枝下面的长尾巴。",
+  "description": "绯红金刚鹦鹉的头和身体多为红色，翅膀上还能找到黄色和蓝色。看折起的翅膀，再看飞行图；同一只鸟的不同羽毛会露出不同面积。上喙向下弯，能和下喙配合咬开坚果。它也吃果实和种子。观察时找嘴巴的弧线，不要把手伸向鸟喙。",
+  "storySections": [
+    {
+      "key": "colors",
+      "label": "生活与认识",
+      "title": "在翅膀上找颜色",
+      "body": "绯红金刚鹦鹉的头和身体多为红色，翅膀上还能找到黄色和蓝色。看折起的翅膀，再看飞行图；同一只鸟的不同羽毛会露出不同面积。"
+    },
+    {
+      "key": "bill",
+      "label": "生活与认识",
+      "title": "弯嘴巴能打开坚果",
+      "body": "上喙向下弯，能和下喙配合咬开坚果。它也吃果实和种子。观察时找嘴巴的弧线，不要把手伸向鸟喙。"
+    },
+    {
+      "key": "feet",
+      "label": "生活与认识",
+      "title": "一只脚抓着食物",
+      "body": "鹦鹉能用脚抓住食物，再送到嘴边。图中一只脚抓果实，另一只脚握住树枝；可以沿着脚趾看看它怎样抓握。"
+    },
+    {
+      "key": "flight",
+      "label": "生活与认识",
+      "title": "长尾巴跟着身体飞",
+      "body": "飞起来时，两侧翅膀展开，长尾羽伸在身体后方。它常与伴侣一起活动，也会成群栖息；一张飞行图不能表现完整的振翅过程。"
+    },
+    {
+      "key": "nest",
+      "label": "生活与认识",
+      "title": "大树洞里养幼鸟",
+      "body": "它会在树洞中筑巢，亲鸟照顾幼鸟。保留有洞的大树，才能留下合适的繁殖地点；图集展示洞口外的成鸟。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "给鹦鹉留下森林",
+      "body": "World Parrot Trust 列出的全球 IUCN 等级为无危，但栖息地丧失和捕捉贸易仍威胁部分种群。全球等级不能代替某个地区或亚种的状况；World Parrot Trust 记录其种群呈下降趋势，评估日期本次未核实。"
+    }
+  ],
+  "keyFacts": [
+    "在翅膀上找颜色",
+    "弯嘴巴能打开坚果",
+    "一只脚抓着食物",
+    "长尾巴跟着身体飞",
+    "大树洞里养幼鸟"
+  ],
+  "threats": [
+    "森林砍伐与巢树减少",
+    "为贸易捕捉野鸟"
+  ],
+  "conservationActions": [
+    "保护森林与巢树",
+    "不购买来源不明的野生鹦鹉"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "红黄蓝羽毛"
+    },
+    {
+      "key": "food",
+      "label": "食物",
+      "value": "果实"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带森林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/scarlet-macaw/01-cover.webp",
+    "alt": "绯红金刚鹦鹉与周围生活环境的全身场景",
+    "focalPoint": {
+      "x": 0.78,
+      "y": 0.35
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/scarlet-macaw/02-observation.webp",
+        "alt": "侧身停在树枝上的绯红金刚鹦鹉，红色身体、黄色翼斑、蓝色飞羽和长尾可见",
+        "title": "红黄蓝羽毛",
+        "caption": "AI 生成科学情景重建。侧身停在树枝上的绯红金刚鹦鹉，红色身体、黄色翼斑、蓝色飞羽和长尾可见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/scarlet-macaw/03-observation.webp",
+        "alt": "绯红金刚鹦鹉头部侧面，浅色上喙向下弯，脸部有白色裸皮",
+        "title": "弯弯的鸟喙",
+        "caption": "AI 生成科学情景重建。绯红金刚鹦鹉头部侧面，浅色上喙向下弯，脸部有白色裸皮。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/scarlet-macaw/04-observation.webp",
+        "alt": "绯红金刚鹦鹉一脚握枝，另一脚抓着果实送向嘴边",
+        "title": "用脚抓果实",
+        "caption": "AI 生成科学情景重建。绯红金刚鹦鹉一脚握枝，另一脚抓着果实送向嘴边。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/scarlet-macaw/05-observation.webp",
+        "alt": "绯红金刚鹦鹉在森林上空飞行，双翼和长尾展开",
+        "title": "张开翅膀",
+        "caption": "AI 生成科学情景重建。绯红金刚鹦鹉在森林上空飞行，双翼和长尾展开。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/scarlet-macaw/06-observation.webp",
+        "alt": "两只绯红金刚鹦鹉停在大树洞口附近",
+        "title": "树洞旁的成鸟",
+        "caption": "AI 生成科学情景重建。两只绯红金刚鹦鹉停在大树洞口附近。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Animal Diversity Web — Ara macao 形态与生活",
+      "url": "https://animaldiversity.org/accounts/Ara_macao/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Animal Diversity Web — Ara macao 分类归属",
+      "url": "https://animaldiversity.org/accounts/Ara_macao/#classification",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "World Parrot Trust — 绯红金刚鹦鹉保护",
+      "url": "https://parrots.org/projects/scarlet-macaw-recovery/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
+{
+  "id": "species-poecilia-reticulata",
+  "slug": "guppy",
+  "names": {
+    "zh": "孔雀鱼",
+    "en": "Guppy",
+    "aliases": [
+      "虹鳉"
+    ]
+  },
+  "scientificName": "Poecilia reticulata",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Cyprinodontiformes",
+      "zhName": "鳉形目"
+    },
+    "family": {
+      "scientificName": "Poeciliidae",
+      "zhName": "花鳉科"
+    },
+    "genus": {
+      "scientificName": "Poecilia",
+      "zhName": "花鳉属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN；来源与核实范围见保护章节",
+    "assessedYear": 2020
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [
+      "南美洲",
+      "北美洲"
+    ],
+    "regions": [
+      "南美洲北部与加勒比海部分岛屿"
+    ],
+    "countries": [],
+    "range": "原生范围包括南美洲北部与加勒比海部分岛屿，后来经人为引入扩散到许多地区。它主要生活在淡水，也能进入部分半咸水环境。地图只标示特立尼达附近的代表区域。",
+    "center": {
+      "lat": 10.5,
+      "lng": -61.3
+    }
+  },
+  "habitats": [
+    {
+      "name": "温暖的溪流与水草区",
+      "realm": "freshwater",
+      "description": "原生范围包括南美洲北部与加勒比海部分岛屿，后来经人为引入扩散到许多地区。它主要生活在淡水，也能进入部分半咸水环境。地图只标示特立尼达附近的代表区域。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "max": 6,
+      "unit": "cm",
+      "note": "FishBase 记录的雌鱼最大标准长，不含尾鳍；不能作为成体常见长度范围。"
+    }
+  },
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "浮游动物",
+      "小昆虫",
+      "有机碎屑"
+    ],
+    "description": "食物包括浮游动物、小昆虫、有机碎屑。"
+  },
+  "tags": [
+    "孔雀鱼",
+    "扇形尾鳍"
+  ],
+  "summary": "它的尾巴像一把展开的小扇子。先看观赏雄鱼，再找找野生孔雀鱼的尾巴有什么不同。",
+  "description": "图中的观赏雄鱼有展开的扇形尾鳍，鳍面带着斑点，里面能看到细细的鳍条。不同品系的颜色和尾形不同，不能把这条鱼当作所有孔雀鱼的样子。人们选育出许多观赏品系，放大了颜色和尾形的差别。野生雄鱼通常带有彩斑，尾鳍没有图中观赏品系那样夸张；雌鱼往往更大、颜色较淡。",
+  "storySections": [
+    {
+      "key": "tail",
+      "label": "生活与认识",
+      "title": "小扇子是尾鳍",
+      "body": "图中的观赏雄鱼有展开的扇形尾鳍，鳍面带着斑点，里面能看到细细的鳍条。不同品系的颜色和尾形不同，不能把这条鱼当作所有孔雀鱼的样子。"
+    },
+    {
+      "key": "varieties",
+      "label": "生活与认识",
+      "title": "野生鱼的尾巴小一些",
+      "body": "人们选育出许多观赏品系，放大了颜色和尾形的差别。野生雄鱼通常带有彩斑，尾鳍没有图中观赏品系那样夸张；雌鱼往往更大、颜色较淡。"
+    },
+    {
+      "key": "sexes",
+      "label": "生活与认识",
+      "title": "看看两条鱼的差别",
+      "body": "雄鱼和雌鱼同框时，可以先比较颜色，再看身体轮廓。雄鱼的臀鳍形成交接器；不用要求孩子辨认这个细节，也不凭颜色单独判断所有个体。"
+    },
+    {
+      "key": "stream",
+      "label": "生活与认识",
+      "title": "水草之间找食物",
+      "body": "孔雀鱼会吃浮游动物、小昆虫和有机碎屑。它们能生活在多种温暖水体中，水草为小鱼提供躲藏空间。图集分别展示野生型雌雄外形对照与观赏品系的水族环境。"
+    },
+    {
+      "key": "young",
+      "label": "生活与认识",
+      "title": "出生就是会游的小鱼",
+      "body": "雌鱼产下能游动的幼鱼。幼鱼会在水草间活动，亲鱼不提供持续照料，还可能吃掉幼鱼；图中不把亲鱼画成带队照顾孩子的样子。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "观赏鱼别放进河里",
+      "body": "FishBase 收录的全球 IUCN 等级为无危，评估日期为 2020 年 5 月 18 日。孔雀鱼在原生范围之外可能影响当地水生动物，家养个体不应随意放流；全球种群趋势本次未核实。"
+    }
+  ],
+  "keyFacts": [
+    "小扇子是尾鳍",
+    "野生鱼的尾巴小一些",
+    "看看两条鱼的差别",
+    "水草之间找食物",
+    "出生就是会游的小鱼"
+  ],
+  "threats": [
+    "原生水体的栖地改变"
+  ],
+  "conservationActions": [
+    "保护原生水体",
+    "不把观赏鱼放流到自然水域"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "扇形尾鳍"
+    },
+    {
+      "key": "food",
+      "label": "食物",
+      "value": "浮游动物"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "温暖的溪流与水草区"
+    }
+  ],
+  "media": {
+    "image": "./images/species/guppy/01-cover.webp",
+    "alt": "孔雀鱼与周围生活环境的全身场景",
+    "focalPoint": {
+      "x": 0.78,
+      "y": 0.35
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/guppy/02-observation.webp",
+        "alt": "水草缸中的观赏雄性孔雀鱼，尾鳍展开，带有橙色与深色斑点",
+        "title": "观赏雄鱼的尾巴",
+        "caption": "AI 生成科学情景重建。水草缸中的观赏雄性孔雀鱼，尾鳍展开，带有橙色与深色斑点。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/guppy/03-observation.webp",
+        "alt": "孔雀鱼的扇形尾鳍与鳍条近景，展示观赏品系",
+        "title": "尾鳍里的细线",
+        "caption": "AI 生成科学情景重建。孔雀鱼的扇形尾鳍与鳍条近景，展示观赏品系。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/guppy/04-observation.webp",
+        "alt": "野生型雄性孔雀鱼带彩色斑点，旁边的雌鱼较大且颜色较淡",
+        "title": "野生型雌雄对照",
+        "caption": "AI 生成科学情景重建。野生型雄性孔雀鱼带彩色斑点，旁边的雌鱼较大且颜色较淡。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/guppy/05-observation.webp",
+        "alt": "一小群观赏孔雀鱼在水草间游动",
+        "title": "水草间的鱼群",
+        "caption": "AI 生成科学情景重建。一小群观赏孔雀鱼在水草间游动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/guppy/06-observation.webp",
+        "alt": "孔雀鱼幼鱼在水草叶片间活动",
+        "title": "水草间的小鱼",
+        "caption": "AI 生成科学情景重建。孔雀鱼幼鱼在水草叶片间活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase — 孔雀鱼分类、生活与全球等级",
+      "url": "https://www.fishbase.se/Summary/Poecilia-reticulata",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "FishBase — 孔雀鱼分类归属",
+      "url": "https://www.fishbase.se/Summary/Poecilia-reticulata.html",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
+{
+  "id": "species-paracanthurus-hepatus",
+  "slug": "blue-tang",
+  "names": {
+    "zh": "拟刺尾鲷",
+    "en": "Blue Tang",
+    "aliases": [
+      "蓝倒吊",
+      "蓝吊"
+    ]
+  },
+  "scientificName": "Paracanthurus hepatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Perciformes",
+      "zhName": "鲈形目"
+    },
+    "family": {
+      "scientificName": "Acanthuridae",
+      "zhName": "刺尾鱼科"
+    },
+    "genus": {
+      "scientificName": "Paracanthurus",
+      "zhName": "拟刺尾鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN；来源与核实范围见保护章节",
+    "assessedYear": 2010
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "亚洲",
+      "非洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "印度洋与西太平洋热带礁区"
+    ],
+    "countries": [],
+    "range": "广泛分布于印度洋与西太平洋的热带海域，在珊瑚礁附近活动；澳大利亚大堡礁是其分布区域之一。地图中心用于定位大堡礁，不表示完整分布范围。",
+    "center": {
+      "lat": -16,
+      "lng": 146
+    }
+  },
+  "habitats": [
+    {
+      "name": "热带珊瑚礁",
+      "realm": "marine",
+      "description": "广泛分布于印度洋与西太平洋的热带海域，在珊瑚礁附近活动；澳大利亚大堡礁是其分布区域之一。地图中心用于定位大堡礁，不表示完整分布范围。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "max": 31,
+      "unit": "cm",
+      "note": "澳大利亚博物馆给出的可达长度；不作为成体常见范围。"
+    }
+  },
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "浮游动物",
+      "藻类"
+    ],
+    "description": "食物包括浮游动物、藻类。"
+  },
+  "tags": [
+    "拟刺尾鲷",
+    "蓝身体黄尾巴"
+  ],
+  "summary": "蓝色身体后面，尾巴是什么颜色？沿着黑色花纹，找到黄色尾鳍。",
+  "description": "拟刺尾鲷身体侧面呈蓝色，黑色花纹围出像调色板的轮廓。尾鳍大部分为黄色，上下边缘带黑色。先指认这三种颜色，不必背下名字。尾柄两侧各有棘，位置就在身体与尾鳍相接的地方。它属于刺尾鱼科，棘在远景中不一定看得清；观察图保留自然比例，不把它放大成刀片。",
+  "storySections": [
+    {
+      "key": "colors",
+      "label": "生活与认识",
+      "title": "蓝身体后面有黄尾巴",
+      "body": "拟刺尾鲷身体侧面呈蓝色，黑色花纹围出像调色板的轮廓。尾鳍大部分为黄色，上下边缘带黑色。先指认这三种颜色，不必背下名字。"
+    },
+    {
+      "key": "tail",
+      "label": "生活与认识",
+      "title": "尾巴前面藏着小棘",
+      "body": "尾柄两侧各有棘，位置就在身体与尾鳍相接的地方。它属于刺尾鱼科，棘在远景中不一定看得清；观察图保留自然比例，不把它放大成刀片。"
+    },
+    {
+      "key": "food",
+      "label": "生活与认识",
+      "title": "在礁区找食物",
+      "body": "它主要吃浮游动物，偶尔也啄食藻类。图中贴近岩面的姿势用于观察取食动作，不表示它只吃岩面上的食物。"
+    },
+    {
+      "key": "group",
+      "label": "生活与认识",
+      "title": "和同伴一起游",
+      "body": "拟刺尾鲷可以成群在礁区上方活动。看鱼群图时，找找不同方向的尾鳍；图里几条鱼的数量不能代表野外固定群体大小。"
+    },
+    {
+      "key": "shelter",
+      "label": "生活与认识",
+      "title": "珊瑚枝间能躲藏",
+      "body": "幼鱼会利用珊瑚结构躲藏。身体侧扁，转向时能改变我们看到的宽度；从照片不能推断每条缝隙都能钻进去。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "保留珊瑚礁里的住处",
+      "body": "FishBase 收录的全球 IUCN 等级为无危，评估日期为 2010 年 5 月 7 日。礁区退化与观赏鱼捕捉仍可能影响局部种群；全球等级不能说明每一片珊瑚礁里的种群状况。"
+    }
+  ],
+  "keyFacts": [
+    "蓝身体后面有黄尾巴",
+    "尾巴前面藏着小棘",
+    "在礁区找食物",
+    "和同伴一起游",
+    "珊瑚枝间能躲藏"
+  ],
+  "threats": [
+    "珊瑚礁栖地退化",
+    "观赏鱼捕捉压力"
+  ],
+  "conservationActions": [
+    "保护珊瑚礁与水质",
+    "减少对野生礁鱼的捕捉"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "蓝身体黄尾巴"
+    },
+    {
+      "key": "food",
+      "label": "食物",
+      "value": "浮游动物"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带珊瑚礁"
+    }
+  ],
+  "media": {
+    "image": "./images/species/blue-tang/01-cover.webp",
+    "alt": "拟刺尾鲷与周围生活环境的全身场景",
+    "focalPoint": {
+      "x": 0.78,
+      "y": 0.35
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/blue-tang/02-observation.webp",
+        "alt": "拟刺尾鲷侧身游动，蓝色身体上有黑色花纹，尾鳍呈黄色",
+        "title": "蓝身体黄尾巴",
+        "caption": "AI 生成科学情景重建。拟刺尾鲷侧身游动，蓝色身体上有黑色花纹，尾鳍呈黄色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tang/03-observation.webp",
+        "alt": "拟刺尾鲷身体和黄色尾鳍相接处的近景",
+        "title": "尾柄与尾鳍",
+        "caption": "AI 生成科学情景重建。拟刺尾鲷身体和黄色尾鳍相接处的近景。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tang/04-observation.webp",
+        "alt": "拟刺尾鲷把嘴靠近礁区岩面",
+        "title": "贴近岩面",
+        "caption": "AI 生成科学情景重建。拟刺尾鲷把嘴靠近礁区岩面。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tang/05-observation.webp",
+        "alt": "一小群拟刺尾鲷在珊瑚上方游动",
+        "title": "礁区里的鱼群",
+        "caption": "AI 生成科学情景重建。一小群拟刺尾鲷在珊瑚上方游动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tang/06-observation.webp",
+        "alt": "幼年拟刺尾鲷停在珊瑚枝附近，蓝黑身体和黄色尾巴可见",
+        "title": "珊瑚枝间的幼鱼",
+        "caption": "AI 生成科学情景重建。幼年拟刺尾鲷停在珊瑚枝附近，蓝黑身体和黄色尾巴可见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "澳大利亚博物馆 — 拟刺尾鲷外形与分类",
+      "url": "https://australian.museum/learn/animals/fishes/blue-tang-paracanthurus-hepatus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "FishBase — 拟刺尾鲷全球等级",
+      "url": "https://www.fishbase.se/summary/Paracanthurus-hepatus.html",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Animal Diversity Web — Paracanthurus hepatus 形态与生活",
+      "url": "https://animaldiversity.org/accounts/Paracanthurus_hepatus/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
+{
+  "id": "species-eriocheir-sinensis",
+  "slug": "chinese-mitten-crab",
+  "names": {
+    "zh": "中华绒螯蟹",
+    "en": "Chinese Mitten Crab",
+    "aliases": [
+      "河蟹",
+      "大闸蟹"
+    ]
+  },
+  "scientificName": "Eriocheir sinensis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Malacostraca",
+      "zhName": "软甲纲"
+    },
+    "order": {
+      "scientificName": "Decapoda",
+      "zhName": "十足目"
+    },
+    "family": {
+      "scientificName": "Varunidae",
+      "zhName": "弓蟹科"
+    },
+    "genus": {
+      "scientificName": "Eriocheir",
+      "zhName": "绒螯蟹属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN；来源与核实范围见保护章节"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "marine"
+    ],
+    "continents": [
+      "亚洲"
+    ],
+    "regions": [
+      "东亚河流与河口；欧洲和北美有引入记录"
+    ],
+    "countries": [],
+    "range": "原生于东亚水系，在河流与河口间完成生活史。欧洲和北美的一些水域有外来种群，不能把这些地点都记作原生范围。地图中心仅定位长江口附近。",
+    "center": {
+      "lat": 31.3,
+      "lng": 121.5
+    }
+  },
+  "habitats": [
+    {
+      "name": "河流、岸坡与河口",
+      "realm": "freshwater",
+      "description": "原生于东亚水系，在河流与河口间完成生活史。欧洲和北美的一些水域有外来种群，不能把这些地点都记作原生范围。地图中心仅定位长江口附近。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "水生植物",
+      "小型水生动物",
+      "有机碎屑"
+    ],
+    "description": "食物包括水生植物、小型水生动物、有机碎屑。"
+  },
+  "tags": [
+    "中华绒螯蟹",
+    "绒毛大螯"
+  ],
+  "summary": "找找大螯上的绒毛，像不像戴着一双毛手套？",
+  "description": "成蟹的两只螯上有浓密的刚毛，螯尖颜色较浅。英文名里的“手套”就来自这个外形；毛不是覆盖全身的兽毛。蟹有一对螯足和四对步足，合计五对附肢。看斜上方的图，找找关节弯曲的位置；有的足会被身体或别的足挡住，不要求在每张图里数出十条。",
+  "storySections": [
+    {
+      "key": "claws",
+      "label": "生活与认识",
+      "title": "大螯上长着绒毛",
+      "body": "成蟹的两只螯上有浓密的刚毛，螯尖颜色较浅。英文名里的“手套”就来自这个外形；毛不是覆盖全身的兽毛。"
+    },
+    {
+      "key": "legs",
+      "label": "生活与认识",
+      "title": "两只螯和八条步足",
+      "body": "蟹有一对螯足和四对步足，合计五对附肢。看斜上方的图，找找关节弯曲的位置；有的足会被身体或别的足挡住，不要求在每张图里数出十条。"
+    },
+    {
+      "key": "walk",
+      "label": "生活与认识",
+      "title": "沿着岸边移动",
+      "body": "它既能在水中活动，也会在迁移时经过岸边。观察横向移动的姿势，再找脚尖接触泥地的位置；一张静态图不能说明迈步的先后顺序。"
+    },
+    {
+      "key": "burrow",
+      "label": "生活与认识",
+      "title": "泥岸上有洞口",
+      "body": "中华绒螯蟹会在岸坡掘洞，食物包括水生植物、动物和有机碎屑。它不只吃一种食物，也不会把螯上的毛当作食物口袋。"
+    },
+    {
+      "key": "migration",
+      "label": "生活与认识",
+      "title": "长大后走向河口",
+      "body": "幼蟹向上游迁移，在淡水环境生长；成熟后向下游较咸的河口水域迁移繁殖。刚孵出的幼体与成蟹形状不同，不能把小蟹图片当作所有幼体阶段。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "认识原生地和引入地",
+      "body": "本次没有核实到可用的全球 IUCN 评估，档案暂以 NE 记录，不能解读为无危。它在引入地会因掘洞、捕食和竞争影响当地环境；观察后不要把蟹带到别的水域放流。"
+    }
+  ],
+  "keyFacts": [
+    "大螯上长着绒毛",
+    "两只螯和八条步足",
+    "沿着岸边移动",
+    "泥岸上有洞口",
+    "长大后走向河口"
+  ],
+  "threats": [
+    "原生水系的栖地改变与迁移通道受阻"
+  ],
+  "conservationActions": [
+    "保护河流到河口的连通性",
+    "防止向非原生水域扩散"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "绒毛大螯"
+    },
+    {
+      "key": "food",
+      "label": "食物",
+      "value": "水生植物"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "河流、岸坡与河口"
+    }
+  ],
+  "media": {
+    "image": "./images/species/chinese-mitten-crab/01-cover.webp",
+    "alt": "中华绒螯蟹与周围生活环境的全身场景",
+    "focalPoint": {
+      "x": 0.88,
+      "y": 0.35
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/chinese-mitten-crab/02-observation.webp",
+        "alt": "中华绒螯蟹站在湿泥上，背甲、两只绒毛螯与步足可见",
+        "title": "背甲与绒毛螯",
+        "caption": "AI 生成科学情景重建。中华绒螯蟹站在湿泥上，背甲、两只绒毛螯与步足可见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/chinese-mitten-crab/03-observation.webp",
+        "alt": "中华绒螯蟹两只螯上的褐色刚毛和浅色螯尖",
+        "title": "绒毛螯近景",
+        "caption": "AI 生成科学情景重建。中华绒螯蟹两只螯上的褐色刚毛和浅色螯尖。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/chinese-mitten-crab/04-observation.webp",
+        "alt": "中华绒螯蟹在泥岸上伸出步足移动",
+        "title": "沿泥岸走",
+        "caption": "AI 生成科学情景重建。中华绒螯蟹在泥岸上伸出步足移动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/chinese-mitten-crab/05-observation.webp",
+        "alt": "中华绒螯蟹停在泥岸洞口旁",
+        "title": "岸边的洞口",
+        "caption": "AI 生成科学情景重建。中华绒螯蟹停在泥岸洞口旁。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/chinese-mitten-crab/06-observation.webp",
+        "alt": "中华绒螯蟹站在河口水下的底质上",
+        "title": "河口水下",
+        "caption": "AI 生成科学情景重建。中华绒螯蟹站在河口水下的底质上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Animal Diversity Web — Eriocheir sinensis 形态与生活",
+      "url": "https://animaldiversity.org/accounts/Eriocheir_sinensis/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Animal Diversity Web — Eriocheir sinensis 分类归属",
+      "url": "https://animaldiversity.org/accounts/Eriocheir_sinensis/#classification",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Animal Diversity Web — 中华绒螯蟹保护状态字段说明",
+      "url": "https://animaldiversity.org/accounts/Eriocheir_sinensis/#conservation_status",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
+{
+  "id": "species-sepia-officinalis",
+  "slug": "common-cuttlefish",
+  "names": {
+    "zh": "普通乌贼",
+    "en": "Common Cuttlefish",
+    "aliases": [
+      "欧洲乌贼",
+      "欧洲墨鱼"
+    ]
+  },
+  "scientificName": "Sepia officinalis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Mollusca",
+      "zhName": "软体动物门"
+    },
+    "class": {
+      "scientificName": "Cephalopoda",
+      "zhName": "头足纲"
+    },
+    "order": {
+      "scientificName": "Sepiida",
+      "zhName": "乌贼目"
+    },
+    "family": {
+      "scientificName": "Sepiidae",
+      "zhName": "乌贼科"
+    },
+    "genus": {
+      "scientificName": "Sepia",
+      "zhName": "乌贼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN；来源与核实范围见保护章节"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "欧洲",
+      "非洲"
+    ],
+    "regions": [
+      "东北大西洋与地中海"
+    ],
+    "countries": [],
+    "range": "分布于东北大西洋和地中海等海域，常在沙质或泥质海底活动，随季节进入近岸或较深水域。地图中心只标示英吉利海峡附近，不代表全部分布。",
+    "center": {
+      "lat": 49,
+      "lng": -3
+    }
+  },
+  "habitats": [
+    {
+      "name": "沿岸沙泥海底",
+      "realm": "marine",
+      "description": "分布于东北大西洋和地中海等海域，常在沙质或泥质海底活动，随季节进入近岸或较深水域。地图中心只标示英吉利海峡附近，不代表全部分布。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "甲壳动物",
+      "小鱼",
+      "其他小型海洋动物"
+    ],
+    "description": "食物包括甲壳动物、小鱼、其他小型海洋动物。"
+  },
+  "tags": [
+    "普通乌贼",
+    "嘴边的腕足"
+  ],
+  "summary": "找找嘴边伸出的腕足，再看看身体两侧薄薄的鳍。",
+  "description": "普通乌贼有八条腕，另有两条较长的捕食触手。触手平时可以收起，捕食时伸出；图中的休息姿势不一定能让你数齐。它有大眼睛，瞳孔可呈 W 形。眼睛前方是腕，后方是包着内脏的外套膜；看侧面图，先分清头和身体的位置。",
+  "storySections": [
+    {
+      "key": "arms",
+      "label": "生活与认识",
+      "title": "八条腕和两条触手",
+      "body": "普通乌贼有八条腕，另有两条较长的捕食触手。触手平时可以收起，捕食时伸出；图中的休息姿势不一定能让你数齐。"
+    },
+    {
+      "key": "eye",
+      "label": "生活与认识",
+      "title": "眼睛旁边找花纹",
+      "body": "它有大眼睛，瞳孔可呈 W 形。眼睛前方是腕，后方是包着内脏的外套膜；看侧面图，先分清头和身体的位置。"
+    },
+    {
+      "key": "camouflage",
+      "label": "生活与认识",
+      "title": "在沙地上找乌贼",
+      "body": "它能改变皮肤颜色与纹理，减少自己和周围背景的差别。图集里的斑驳个体与浅色个体是不同情景重建，不是假装拍下同一只乌贼变色的连续过程。"
+    },
+    {
+      "key": "fins",
+      "label": "生活与认识",
+      "title": "身体两侧有薄鳍",
+      "body": "沿着椭圆形外套膜的边缘，可以找到薄薄的鳍。它能用鳍的波动游动，也能喷水推进；静态图只展示鳍的形状。"
+    },
+    {
+      "key": "eggs",
+      "label": "生活与认识",
+      "title": "海草上挂着卵",
+      "body": "雌乌贼把卵附在海草等水下物体上，卵常带深色外被，成簇看起来像小葡萄。它的体内还有支持和调节浮力的乌贼骨，外面看不到硬壳。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "留下产卵的地方",
+      "body": "MarLIN 列出的全球 IUCN 等级为无危。本次未核实独立的评估日期和全球趋势，不把网页年份当作评估年。捕捞和产卵栖地受损仍会影响局部种群，保护近岸水下植被有助于保留产卵地点。"
+    }
+  ],
+  "keyFacts": [
+    "八条腕和两条触手",
+    "眼睛旁边找花纹",
+    "在沙地上找乌贼",
+    "身体两侧有薄鳍",
+    "海草上挂着卵"
+  ],
+  "threats": [
+    "捕捞压力",
+    "产卵栖地受损"
+  ],
+  "conservationActions": [
+    "保护近岸产卵栖地",
+    "减少幼体混获"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "嘴边的腕足"
+    },
+    {
+      "key": "food",
+      "label": "食物",
+      "value": "甲壳动物"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "沿岸沙泥海底"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-cuttlefish/01-cover.webp",
+    "alt": "普通乌贼与周围生活环境的全身场景",
+    "focalPoint": {
+      "x": 0.78,
+      "y": 0.35
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-cuttlefish/02-observation.webp",
+        "alt": "普通乌贼在沙底上方悬停，腕聚在头前，两侧薄鳍可见",
+        "title": "嘴边的腕",
+        "caption": "AI 生成科学情景重建。普通乌贼在沙底上方悬停，腕聚在头前，两侧薄鳍可见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-cuttlefish/03-observation.webp",
+        "alt": "普通乌贼眼睛和头部近景，瞳孔呈 W 形",
+        "title": "W 形瞳孔",
+        "caption": "AI 生成科学情景重建。普通乌贼眼睛和头部近景，瞳孔呈 W 形。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-cuttlefish/04-observation.webp",
+        "alt": "普通乌贼以浅色斑驳外形停在沙底附近",
+        "title": "沙地上的伪装",
+        "caption": "AI 生成科学情景重建。普通乌贼以浅色斑驳外形停在沙底附近。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-cuttlefish/05-observation.webp",
+        "alt": "普通乌贼侧身游动，外套膜边缘的鳍呈波纹状",
+        "title": "薄鳍的波纹",
+        "caption": "AI 生成科学情景重建。普通乌贼侧身游动，外套膜边缘的鳍呈波纹状。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-cuttlefish/06-observation.webp",
+        "alt": "普通乌贼深色的卵成簇附着在海草上",
+        "title": "海草上的卵",
+        "caption": "AI 生成科学情景重建。普通乌贼深色的卵成簇附着在海草上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Animal Diversity Web — Sepia officinalis 形态与生活",
+      "url": "https://animaldiversity.org/accounts/Sepia_officinalis/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Animal Diversity Web — Sepia officinalis 分类归属",
+      "url": "https://animaldiversity.org/accounts/Sepia_officinalis/#classification",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "MarLIN — 普通乌贼生态与全球等级",
+      "url": "https://www.marlin.ac.uk/species/detail/1098",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

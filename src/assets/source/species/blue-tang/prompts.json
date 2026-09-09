@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-09",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 natural history environmental photograph. One adult blue tang Paracanthurus hepatus, blue laterally compressed body, black palette marking and yellow triangular tail, above a tropical coral reef. CRITICAL: extremely distant tiny subject. Entire animal including tail, toes, fins and appendages must fit in a box ONLY 130 pixels wide by 110 pixels high centered at (1175,390). Subject is only 10% of image height. Keep its complete outline within x=1110..1240 y=335..445. Continuous natural habitat occupies remaining canvas, left 60% quiet background for text. No other animals, text, collage, border or watermark. Realistic anatomy."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Paracanthurus hepatus full adult side profile showing blue body black palette pattern yellow tail, tropical reef. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Paracanthurus hepatus close side view of full blue tang with yellow tail and naturally small folded spine at tail base, no exaggerated blade. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Paracanthurus hepatus gently picking algae from rock in a reef, side view. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Paracanthurus hepatus small loose group swimming above branching coral, natural spacing. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Paracanthurus hepatus juvenile partially sheltered among coral branches, blue black yellow coloration. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    }
+  ],
+  "coverHistory": [
+    "Use case: photorealistic-natural. Generate a 1536x1024 natural history environmental photograph. One adult blue tang Paracanthurus hepatus, blue laterally compressed body, black palette marking and yellow triangular tail, above a tropical coral reef. CRITICAL: extremely distant tiny subject. Entire animal including tail, toes, fins and appendages must fit in a box ONLY 130 pixels wide by 110 pixels high centered at (1175,390). Subject is only 10% of image height. Keep its complete outline within x=1110..1240 y=335..445. Continuous natural habitat occupies remaining canvas, left 60% quiet background for text. No other animals, text, collage, border or watermark. Realistic anatomy."
+  ]
+}

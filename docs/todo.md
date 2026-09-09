@@ -41,11 +41,11 @@
 - [x] 白鲸 *Delphinapterus leucas* — “看看白鲸圆圆的额头。”
 - [x] 虎鲸 *Orcinus orca* — “找找它身上的黑色和白色。”
 - [x] 大西洋海鹦 *Fratercula arctica* — “它的嘴巴有哪些颜色？”
-- [ ] 绯红金刚鹦鹉 *Ara macao* — “找找红色、黄色和蓝色的羽毛。”
-- [ ] 孔雀鱼 *Poecilia reticulata* — “它的尾巴像一把展开的小扇子。”
-- [ ] 拟刺尾鲷 *Paracanthurus hepatus* — “蓝色身体后面，尾巴是什么颜色？”
-- [ ] 中华绒螯蟹 *Eriocheir sinensis* — “找找大螯上的绒毛。”
-- [ ] 普通乌贼 *Sepia officinalis* — “找找嘴边伸出的腕足。”
+- [x] 绯红金刚鹦鹉 *Ara macao* — “找找红色、黄色和蓝色的羽毛。”
+- [x] 孔雀鱼 *Poecilia reticulata* — “它的尾巴像一把展开的小扇子。”
+- [x] 拟刺尾鲷 *Paracanthurus hepatus* — “蓝色身体后面，尾巴是什么颜色？”
+- [x] 中华绒螯蟹 *Eriocheir sinensis* — “找找大螯上的绒毛。”
+- [x] 普通乌贼 *Sepia officinalis* — “找找嘴边伸出的腕足。”
 - [ ] 火蝾螈 *Salamandra salamandra* — “找找黑色身体上的黄色花纹。”
 - [ ] 马来貘 *Tapirus indicus* — “看看它身上哪一块是白色的。”
 - [ ] 棕熊 *Ursus arctos* — “找找圆耳朵和大大的熊掌。”

@@ -1,0 +1,35 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-09",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Move the tiny cuttlefish 120 pixels to the RIGHT of its current position. Keep its current small size and current vertical position exactly. Reconstruct the water where it was. The animal center should now be at x=1175, y=355 on the 1536x1024 canvas. Do not change any other aspect. No text."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Sepia officinalis full side view hovering above sand, oval tan mottled mantle thin continuous fin skirt eight short arms grouped naturally in front, two feeding tentacles retracted. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Sepia officinalis close side portrait of eye with W-shaped pupil and short arms, no human expression. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Sepia officinalis full cuttlefish with pale mottled skin matching sand, sitting just above seabed. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Sepia officinalis full cuttlefish swimming sideways, delicate rippled fin skirt clearly visible, short arms gathered naturally in front. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Sepia officinalis cluster of dark grape-shaped cuttlefish eggs attached to submerged seagrass stems, no adult. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    }
+  ],
+  "coverHistory": [
+    "Use case: photorealistic-natural. Generate a 1536x1024 natural history environmental photograph. One common cuttlefish Sepia officinalis hovering above sandy seabed, oval mottled tan mantle surrounded by thin fin skirt, eight short arms loosely gathered in front, two feeding tentacles retracted, natural W-shaped pupils. CRITICAL: extremely distant tiny subject. Entire animal including tail, toes, fins and appendages must fit in a box ONLY 130 pixels wide by 110 pixels high centered at (1175,390). Subject is only 10% of image height. Keep its complete outline within x=1110..1240 y=335..445. Continuous natural habitat occupies remaining canvas, left 60% quiet background for text. No other animals, text, collage, border or watermark. Realistic anatomy.",
+    "Edit this image preserving species identity and photographic style. Keep canvas exactly 1536x1024. Make the ENTIRE animal MUCH SMALLER and move its center to pixel (1175,385). The full silhouette must fit inside x=1105..1245 and y=330..440, including long tail, every visible foot, fin and arm. For the macaw its full head-to-tail height must be no more than 100 pixels. Reconstruct the continuous habitat and move supporting branch with animal when needed. No duplicate animal, text or borders. Left 60% stays quiet.",
+    "Move the tiny cuttlefish 120 pixels to the RIGHT of its current position. Keep its current small size and current vertical position exactly. Reconstruct the water where it was. The animal center should now be at x=1175, y=355 on the 1536x1024 canvas. Do not change any other aspect. No text."
+  ]
+}

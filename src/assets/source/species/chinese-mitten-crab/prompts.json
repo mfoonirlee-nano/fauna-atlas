@@ -1,0 +1,35 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-09",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Move the small crab 120 pixels to the RIGHT of its current position, moving the immediate supporting mud with it. Preserve its current small size and vertical position. Reconstruct the mud where it was. Do not add another crab. Keep 1536x1024 canvas, natural riverbank photographic environment, no text."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Eriocheir sinensis full adult oblique overhead view on wet mud, square brown shell, two hairy claws four pairs walking legs. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Eriocheir sinensis close frontal view of two hairy claws with pale tips, crab body partly in view, fine brown setae. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Eriocheir sinensis full adult walking sideways across muddy riverbank, eight walking legs anatomically attached, two hairy claws. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Eriocheir sinensis adult beside riverbank burrow on wet mud, natural reeds in background. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Eriocheir sinensis full adult underwater on sandy estuary bottom, fine suspended particles, two furry claws. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    }
+  ],
+  "coverHistory": [
+    "Use case: photorealistic-natural. Generate a 1536x1024 natural history environmental photograph. One adult Chinese mitten crab Eriocheir sinensis on a muddy riverbank, square olive brown carapace, two equally sized hairy claws with pale tips, four pairs of walking legs. CRITICAL: extremely distant tiny subject. Entire animal including tail, toes, fins and appendages must fit in a box ONLY 130 pixels wide by 110 pixels high centered at (1175,390). Subject is only 10% of image height. Keep its complete outline within x=1110..1240 y=335..445. Continuous natural habitat occupies remaining canvas, left 60% quiet background for text. No other animals, text, collage, border or watermark. Realistic anatomy.",
+    "Edit this image preserving species identity and photographic style. Keep canvas exactly 1536x1024. Make the ENTIRE animal MUCH SMALLER and move its center to pixel (1175,385). The full silhouette must fit inside x=1105..1245 and y=330..440, including long tail, every visible foot, fin and arm. For the macaw its full head-to-tail height must be no more than 100 pixels. Reconstruct the continuous habitat and move supporting branch with animal when needed. No duplicate animal, text or borders. Left 60% stays quiet.",
+    "Move the small crab 120 pixels to the RIGHT of its current position, moving the immediate supporting mud with it. Preserve its current small size and vertical position. Reconstruct the mud where it was. Do not add another crab. Keep 1536x1024 canvas, natural riverbank photographic environment, no text."
+  ]
+}

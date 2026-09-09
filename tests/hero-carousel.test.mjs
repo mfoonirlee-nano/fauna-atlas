@@ -214,6 +214,11 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'scarlet-macaw', sha256: 'b70d42768f1d0ea51a3a6705c289f16121130765beeb5e72f45b75c8b5a8d4d7', fullBody: {"left": 1116, "top": 342, "right": 1167, "bottom": 461}, composedSafeAreas },
+    { slug: 'guppy', sha256: '2ab8d504454cda1ef1b9555354004153584786d1e7d1e304d5410be0e0acd434', fullBody: {"left": 1059, "top": 373, "right": 1172, "bottom": 434}, composedSafeAreas },
+    { slug: 'blue-tang', sha256: 'e4708dff207a7c4d8a8b3717b9019e554b604b6da62da1ebff570148de2444c0', fullBody: {"left": 1048, "top": 345, "right": 1138, "bottom": 389}, composedSafeAreas },
+    { slug: 'chinese-mitten-crab', sha256: '5aa7c49bb807b626cb8f88f4773048f6a70455780aa2fbb1b2c6d2b8a470a66c', fullBody: {"left": 1183, "top": 398, "right": 1301, "bottom": 473}, composedSafeAreas },
+    { slug: 'common-cuttlefish', sha256: '954e950d3227bef558ddd20db0b4abb1c429db4584d9436260c9ec69787f069a', fullBody: {"left": 1140, "top": 330, "right": 1228, "bottom": 380}, composedSafeAreas },
     { slug: 'fennec-fox', sha256: '889caff2e9c0680a6fa9cac77107a42f6d0b88cff72599c39f4cd0d53f5b3615', fullBody: {"left": 1035, "top": 306, "right": 1230, "bottom": 452}, composedSafeAreas },
     { slug: 'harbor-seal', sha256: '9be4332a8d5482f218652374a83b078ee0ec11a13b127c5d01035d7220b557bb', fullBody: {"left": 1070, "top": 430, "right": 1186, "bottom": 486}, composedSafeAreas },
     { slug: 'beluga-whale', sha256: '42e9220331c328f34a2a12ad7adb1b949b303fd76c8e713295ea7dfd7a1ee367', fullBody: {"left": 1058, "top": 364, "right": 1231, "bottom": 416}, composedSafeAreas },

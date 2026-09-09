@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-09",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Edit this image preserving species identity and photographic style. Keep canvas exactly 1536x1024. Make the ENTIRE animal MUCH SMALLER and move its center to pixel (1175,385). The full silhouette must fit inside x=1105..1245 and y=330..440, including long tail, every visible foot, fin and arm. For the macaw its full head-to-tail height must be no more than 100 pixels. Reconstruct the continuous habitat and move supporting branch with animal when needed. No duplicate animal, text or borders. Left 60% stays quiet."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Ara macao full adult perched sideways, entire long red tail and feet visible; red yellow blue plumage. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Ara macao close side portrait showing pale hooked upper bill dark lower bill and white bare facial patch. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Ara macao full adult grasping a piece of fruit in one foot while supporting itself on a branch with the other. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Ara macao adult flying across tropical forest, two wings spread and entire long tail visible. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Ara macao pair near natural hollow in a large rainforest tree, outside the hollow. Medium close framing, subject large enough to see defining details, accurate anatomy and natural proportions, realistic habitat and lighting. Single coherent scene, no text, labels, diagrams, collage, border, watermark, fantasy or anthropomorphic expression."
+    }
+  ],
+  "coverHistory": [
+    "Use case: photorealistic-natural. Generate a 1536x1024 natural history environmental photograph. One scarlet macaw Ara macao, perched on a branch in misty tropical forest, red body yellow wing band blue flight feathers pale upper bill long red tail. CRITICAL: extremely distant tiny subject. Entire animal including tail, toes, fins and appendages must fit in a box ONLY 130 pixels wide by 110 pixels high centered at (1175,390). Subject is only 10% of image height. Keep its complete outline within x=1110..1240 y=335..445. Continuous natural habitat occupies remaining canvas, left 60% quiet background for text. No other animals, text, collage, border or watermark. Realistic anatomy.",
+    "Edit this image preserving species identity and photographic style. Keep canvas exactly 1536x1024. Make the ENTIRE animal MUCH SMALLER and move its center to pixel (1175,385). The full silhouette must fit inside x=1105..1245 and y=330..440, including long tail, every visible foot, fin and arm. For the macaw its full head-to-tail height must be no more than 100 pixels. Reconstruct the continuous habitat and move supporting branch with animal when needed. No duplicate animal, text or borders. Left 60% stays quiet."
+  ]
+}

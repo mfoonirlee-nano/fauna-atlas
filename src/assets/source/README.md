@@ -324,3 +324,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Beluga Whale image set](./species/beluga-whale/README.md)
 - [Killer Whale image set](./species/killer-whale/README.md)
 - [Atlantic Puffin image set](./species/atlantic-puffin/README.md)
+
+- [Scarlet Macaw image set](./species/scarlet-macaw/README.md)
+- [Guppy image set](./species/guppy/README.md)
+- [Blue Tang image set](./species/blue-tang/README.md)
+- [Chinese Mitten Crab image set](./species/chinese-mitten-crab/README.md)
+- [Common Cuttlefish image set](./species/common-cuttlefish/README.md)
