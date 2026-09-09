@@ -1,0 +1,54 @@
+{
+  "slug": "leafcutter-ant",
+  "tool": "built-in image_gen",
+  "coverHistory": [
+    {
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph, one reddish-brown Atta cephalotes worker leafcutter ant carrying one small green leaf fragment over its back on a rainforest twig, anatomically accurate six legs, two elbowed antennae, spined thorax. Cover composition: ENTIRE animal including all appendages and carried object within small box x=1050..1200 y=320..450 pixels, animal center at 73 percent width and 38 percent height. Wide habitat view, left 40% quiet real background. All subject edges surrounded by generous background. Soft natural light, realistic anatomy and textures. No text, logo, watermark, collage or additional animals.",
+      "generatedFile": "exec-389b2c63-4d28-4d4c-a0d9-0a3cdbf36689.png"
+    },
+    {
+      "prompt": "Edit this species cover for a responsive website hero. Keep the same species, anatomy, pose and photographic style. Zoom OUT dramatically: the COMPLETE animal plus all visible appendages (and carried leaf if ant) must fit entirely inside x=1080..1220, y=320..440 on the 1536x1024 output. Animal center about 75% width and 37% height. Animal should occupy only about 9% image width and 12% image height. Rebuild seamless real habitat around it, no pasted rectangle, no blur patch. For woodpecker retain a continuous tree trunk supporting the feet and tail; for ant retain a continuous twig. For guinea pig use a spacious domestic garden lawn background with distant wooden shelter, not a wild mountain landscape. No other animals, no text, no borders. Make animal MUCH SMALLER than reference. Output 1536x1024.",
+      "generatedFile": "exec-ccbf8173-166a-4570-8bbe-95fe27f3bc8c.png"
+    },
+    {
+      "prompt": "Edit photograph, retain 1536x1024. Move the small ant INCLUDING its carried leaf UP by 115 pixels and RIGHT by 80 pixels. Retain size, new full subject bounds x1110..1225,y330..425. Move supporting twig upward to meet its feet, preserve continuous branch. Erase old animal and reconstruct background seamlessly. Exactly ONE animal. Preserve anatomy and photographic realism. This precise placement is required by website layout. No text or borders.",
+      "generatedFile": "exec-ee3b7193-82af-4746-84f2-074695ba01da.png"
+    },
+    {
+      "prompt": "Edit image 1536x1024: move the tiny ant AND its carried leaf DOWN by 55 pixels. Keep its current horizontal position and tiny size. Lower the supporting twig locally so all feet touch it, preserve continuous twig and natural background. Remove old ant completely, only ONE ant. Everything else remains photographic tropical forest. No text.",
+      "generatedFile": "exec-e2a64980-9bb5-4b68-b471-06a0abec6529.png"
+    }
+  ],
+  "gallery": [
+    {
+      "slug": "leafcutter-ant",
+      "index": 2,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Atta cephalotes reddish brown leafcutter ant workers, accurate six legs and two elbowed antennae each, spined thorax. Scene: Macro one complete worker carrying green leaf fragment on forest twig, antennae and all legs clear. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-50c12d32-e30a-4dd8-9e75-6f9cc0ca56f8.png"
+    },
+    {
+      "slug": "leafcutter-ant",
+      "index": 3,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Atta cephalotes reddish brown leafcutter ant workers, accurate six legs and two elbowed antennae each, spined thorax. Scene: Macro one worker biting edge of green leaf with mandibles, natural curved cut edge. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-95fc7014-82d9-4f1c-aabd-0e17ff2e30cf.png"
+    },
+    {
+      "slug": "leafcutter-ant",
+      "index": 4,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Atta cephalotes reddish brown leafcutter ant workers, accurate six legs and two elbowed antennae each, spined thorax. Scene: Three workers walking in line carrying separate green leaf pieces on bare rainforest soil. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-dcfbdb2e-fcaa-40c7-9a68-a6368dfcd0bb.png"
+    },
+    {
+      "slug": "leafcutter-ant",
+      "index": 5,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Atta cephalotes reddish brown leafcutter ant workers, accurate six legs and two elbowed antennae each, spined thorax. Scene: Scientific natural-history macro inside one exposed chamber of fungus garden, small workers on pale porous fungal substrate mixed with processed plant fragments, no mushrooms, no diagram. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-a6e8efde-fb6e-4202-a02d-bf3917bf412d.png"
+    },
+    {
+      "slug": "leafcutter-ant",
+      "index": 6,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Atta cephalotes reddish brown leafcutter ant workers, accurate six legs and two elbowed antennae each, spined thorax. Scene: Macro large and small worker beside each other on a single leaf fragment, both clearly six-legged, no queen, no wings. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-4620bf20-c1a4-4380-bf53-f9edcdd58f6f.png"
+    }
+  ]
+}

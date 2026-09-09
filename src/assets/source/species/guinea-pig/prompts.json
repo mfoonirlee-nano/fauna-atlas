@@ -1,0 +1,54 @@
+{
+  "slug": "guinea-pig",
+  "tool": "built-in image_gen",
+  "coverHistory": [
+    {
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph, one short-haired brown-and-white domestic guinea pig Cavia porcellus standing on short grass, rounded body, blunt whiskered muzzle, small rounded ears, four short legs, no external tail. Cover composition: ENTIRE animal including all appendages and carried object within small box x=1050..1200 y=320..450 pixels, animal center at 73 percent width and 38 percent height. Wide habitat view, left 40% quiet real background. All subject edges surrounded by generous background. Soft natural light, realistic anatomy and textures. No text, logo, watermark, collage or additional animals.",
+      "generatedFile": "exec-bb3d071f-2e45-400a-9171-eb2cf765ddc6.png"
+    },
+    {
+      "prompt": "Edit this species cover for a responsive website hero. Keep the same species, anatomy, pose and photographic style. Zoom OUT dramatically: the COMPLETE animal plus all visible appendages (and carried leaf if ant) must fit entirely inside x=1080..1220, y=320..440 on the 1536x1024 output. Animal center about 75% width and 37% height. Animal should occupy only about 9% image width and 12% image height. Rebuild seamless real habitat around it, no pasted rectangle, no blur patch. For woodpecker retain a continuous tree trunk supporting the feet and tail; for ant retain a continuous twig. For guinea pig use a spacious domestic garden lawn background with distant wooden shelter, not a wild mountain landscape. No other animals, no text, no borders. Make animal MUCH SMALLER than reference. Output 1536x1024.",
+      "generatedFile": "exec-72714ab1-867d-4eff-a1ea-d24b5bb7c2ef.png"
+    },
+    {
+      "prompt": "Edit photograph, retain 1536x1024. Move the small guinea pig UP by 150 pixels and RIGHT by 185 pixels. Retain size, new full body bounds x1105..1235,y325..420. Rebuild lawn under feet so it remains grounded. Erase old animal and reconstruct background seamlessly. Exactly ONE animal. Preserve anatomy and photographic realism. This precise placement is required by website layout. No text or borders.",
+      "generatedFile": "exec-b0f2b420-2ab8-4f62-a635-c872c08a1fa7.png"
+    },
+    {
+      "prompt": "Edit this wildlife photograph, 1536x1024. The guinea pig is still too low. Move it onto the TOP of a small grassy knoll in the UPPER RIGHT QUADRANT. The top of its head is one third of the way down the image; its feet are 42% down. Its whole body must be ABOVE the horizontal middle line. Move it a little to the right. Preserve its current tiny size. Exactly one animal, erase old location seamlessly. Retain anatomy and photorealistic habitat, no text or border.",
+      "generatedFile": "exec-d84235cb-4824-48b7-bcab-d94fc5a65605.png"
+    }
+  ],
+  "gallery": [
+    {
+      "slug": "guinea-pig",
+      "index": 2,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Cavia porcellus domestic short-haired guinea pig, rounded body, small rounded ears, blunt nose and long whiskers, short legs and no external tail. Scene: Full body brown and white guinea pig standing on short grass, feet visible. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-6680b2eb-8bd9-4805-a62d-02108f5656f6.png"
+    },
+    {
+      "slug": "guinea-pig",
+      "index": 3,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Cavia porcellus domestic short-haired guinea pig, rounded body, small rounded ears, blunt nose and long whiskers, short legs and no external tail. Scene: Face closeup showing whiskers and folded rounded ears, natural eyes. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-f36cbee5-f5a5-40a7-ae5c-5401b9162512.png"
+    },
+    {
+      "slug": "guinea-pig",
+      "index": 4,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Cavia porcellus domestic short-haired guinea pig, rounded body, small rounded ears, blunt nose and long whiskers, short legs and no external tail. Scene: One guinea pig eating long hay on clean ground in a spacious domestic enclosure. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-4e75ec28-b04d-4ea0-9c15-b18b81bdaff4.png"
+    },
+    {
+      "slug": "guinea-pig",
+      "index": 5,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Cavia porcellus domestic short-haired guinea pig, rounded body, small rounded ears, blunt nose and long whiskers, short legs and no external tail. Scene: Two differently colored guinea pigs resting side by side near a simple wooden shelter in spacious domestic enclosure. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-eb572bda-c639-43aa-a03c-cd28b24b4b18.png"
+    },
+    {
+      "slug": "guinea-pig",
+      "index": 6,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Cavia porcellus domestic short-haired guinea pig, rounded body, small rounded ears, blunt nose and long whiskers, short legs and no external tail. Scene: Side view guinea pig walking out of wooden shelter onto hay, show short front and hind legs. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-fbb1cac8-5191-44ee-a233-61302af6f13d.png"
+    }
+  ]
+}

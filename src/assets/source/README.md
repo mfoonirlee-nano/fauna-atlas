@@ -312,3 +312,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Aldabra Giant Tortoise image set](./species/aldabra-giant-tortoise/README.md)
 
 - [Yellow Seahorse image set](./species/yellow-seahorse/README.md)
+
+- [Common Starfish image set](./species/common-starfish/README.md)
+- [Walrus image set](./species/walrus/README.md)
+- [Great Spotted Woodpecker image set](./species/great-spotted-woodpecker/README.md)
+- [Leafcutter Ant image set](./species/leafcutter-ant/README.md)
+- [Guinea Pig image set](./species/guinea-pig/README.md)

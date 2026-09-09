@@ -214,6 +214,11 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'common-starfish', sha256: '9140a9e61a050c6666ea2df7ff25c34b86dbf53c11c79fcf6351d9a381e4ca47', fullBody: {"left": 1042, "top": 329, "right": 1172, "bottom": 424}, composedSafeAreas },
+    { slug: 'walrus', sha256: 'd12ce22d749d2a9bd21e2be743442bb7abc3c95cbdf9388fb086fea39400933a', fullBody: {"left": 1122, "top": 378, "right": 1320, "bottom": 474}, composedSafeAreas },
+    { slug: 'great-spotted-woodpecker', sha256: '3013b1c92fd14d835427ca2f9aa04fdef66ca28a6014e22b4c38a02e743f3971', fullBody: {"left": 1084, "top": 337, "right": 1142, "bottom": 482}, composedSafeAreas },
+    { slug: 'leafcutter-ant', sha256: '221091bed60101441ae2835025e9c0e13502f0ae99e97f368811d58d41313357', fullBody: {"left": 1112, "top": 350, "right": 1247, "bottom": 459}, composedSafeAreas },
+    { slug: 'guinea-pig', sha256: 'e04c81245381d9f073b23f21a2d04c39e3a7d3bf85d92df768edf8c99da38d48', fullBody: {"left": 1083, "top": 319, "right": 1239, "bottom": 425}, composedSafeAreas },
     { slug: 'capybara', sha256: '0e0b56c6fbe9d1d1cc9e5764b2ecbea19714f03bca88186107152067fed8a2ec', fullBody: {"left": 1040, "top": 350, "right": 1192, "bottom": 458}, composedSafeAreas },
     { slug: 'european-hedgehog', sha256: '12f8daa02fe1b36bd9e9fe51c9f65058989c4bd48651a777694b9ad280b40311', fullBody: {"left": 1066, "top": 318, "right": 1221, "bottom": 425}, composedSafeAreas },
     { slug: 'little-blue-penguin', sha256: '2b77ad5ed133011c132f9afddeb3f7c579e06f8247f80b5e38a4f47bd431c354', fullBody: {"left": 1101, "top": 334, "right": 1227, "bottom": 462}, composedSafeAreas },

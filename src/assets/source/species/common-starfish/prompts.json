@@ -1,0 +1,58 @@
+{
+  "slug": "common-starfish",
+  "tool": "built-in image_gen",
+  "coverHistory": [
+    {
+      "prompt": "Common sea star Asterias rubens, five orange arms, submerged pale sand; full body within x1040–1190 y310–450, quiet left 40%, photorealistic 1536x1024; no text or watermark.",
+      "generatedFile": "exec-a8112961-9a60-4994-9af1-9d4d392bcbde.png"
+    },
+    {
+      "prompt": "Edit this species cover for a responsive website hero. Keep the same species, anatomy, pose and photographic style. Zoom OUT dramatically: the COMPLETE animal plus all visible appendages (and carried leaf if ant) must fit entirely inside x=1080..1220, y=320..440 on the 1536x1024 output. Animal center about 75% width and 37% height. Animal should occupy only about 9% image width and 12% image height. Rebuild seamless real habitat around it, no pasted rectangle, no blur patch. For woodpecker retain a continuous tree trunk supporting the feet and tail; for ant retain a continuous twig. For guinea pig use a spacious domestic garden lawn background with distant wooden shelter, not a wild mountain landscape. No other animals, no text, no borders. Make animal MUCH SMALLER than reference. Output 1536x1024.",
+      "generatedFile": "exec-81005971-c7db-4934-a90f-e4d58d837793.png"
+    },
+    {
+      "prompt": "Edit this 1536x1024 photograph. Move the small sea star UP by 125 pixels and RIGHT by 100 pixels. Keep its current tiny size. Its new full body bounds should be x1070..1210, y330..425. Remove the animal from its old location and reconstruct the natural background there. Keep exactly one animal. Continuous real photographic habitat, no visible edit seams, text or border. This exact repositioning is essential for mobile website safe areas.",
+      "generatedFile": "exec-8cecb044-516f-4cd0-868e-f62850c3f3d4.png"
+    },
+    {
+      "prompt": "Edit this wildlife photograph, 1536x1024. Move the starfish DOWN by 70 pixels and RIGHT by 55 pixels, preserving its tiny size. Exactly one animal, erase old location seamlessly. Retain anatomy and photorealistic habitat, no text or border.",
+      "generatedFile": "exec-d601542c-9727-41f1-a5ba-0ae2f0b6865b.png"
+    },
+    {
+      "prompt": "Edit this image. The small orange five-armed sea star is too low. Move it to the UPPER RIGHT QUADRANT, clearly ABOVE the image's horizontal midpoint. Center of starfish should be at 75% of the width and 38% of the height, with its whole body between 32% and 44% of image height. Keep it the same small size, on continuous submerged sand, and remove it from the original location. One sea star only, same natural underwater photographic style, 1536x1024, no text.",
+      "generatedFile": "exec-1d9b9ce8-b3b8-4383-9f30-a15ce1fe2c9e.png"
+    }
+  ],
+  "gallery": [
+    {
+      "slug": "common-starfish",
+      "index": 2,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Asterias rubens common sea star with exactly five orange tapering arms and pale spines. Scene: Top-down full body on submerged rock, all five arms clearly separate and countable. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-2edb6b6e-dd15-4723-a8e9-47d238929db3.png"
+    },
+    {
+      "slug": "common-starfish",
+      "index": 3,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Asterias rubens common sea star with exactly five orange tapering arms and pale spines. Scene: Macro low side view of arm underside with many tiny translucent tube feet touching rock, no cutaway. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-86391b2b-673c-4804-86ac-97d0031cf251.png"
+    },
+    {
+      "slug": "common-starfish",
+      "index": 4,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Asterias rubens common sea star with exactly five orange tapering arms and pale spines. Scene: On mussel bed with arms draped over closed blue mussels, underwater feeding context, no gore. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-8c2b93e3-8419-4481-91f1-9e3feb6a2fb0.png"
+    },
+    {
+      "slug": "common-starfish",
+      "index": 5,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Asterias rubens common sea star with exactly five orange tapering arms and pale spines. Scene: One reddish violet individual full body on pale sand showing natural color variation. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-e510507e-1da5-4dcb-b85f-22823fa873e7.png"
+    },
+    {
+      "slug": "common-starfish",
+      "index": 6,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Asterias rubens common sea star with exactly five orange tapering arms and pale spines. Scene: One individual crawling over a low submerged rocky ledge with one arm slightly curled, no humans. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-8aa7d7eb-8142-4ff0-b86f-83d8a7e65788.png"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "walrus",
+  "tool": "built-in image_gen",
+  "coverHistory": [
+    {
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph, one adult walrus Odobenus rosmarus resting on pale Arctic gravel near cold sea, brown wrinkled bulky body, two downward ivory tusks, broad whiskered muzzle and all flippers visible. Cover composition: ENTIRE animal including all appendages and carried object within small box x=1050..1200 y=320..450 pixels, animal center at 73 percent width and 38 percent height. Wide habitat view, left 40% quiet real background. All subject edges surrounded by generous background. Soft natural light, realistic anatomy and textures. No text, logo, watermark, collage or additional animals.",
+      "generatedFile": "exec-3ad095d2-84f9-45f2-9340-0b85ddda8cec.png"
+    },
+    {
+      "prompt": "Edit this species cover for a responsive website hero. Keep the same species, anatomy, pose and photographic style. Zoom OUT dramatically: the COMPLETE animal plus all visible appendages (and carried leaf if ant) must fit entirely inside x=1080..1220, y=320..440 on the 1536x1024 output. Animal center about 75% width and 37% height. Animal should occupy only about 9% image width and 12% image height. Rebuild seamless real habitat around it, no pasted rectangle, no blur patch. For woodpecker retain a continuous tree trunk supporting the feet and tail; for ant retain a continuous twig. For guinea pig use a spacious domestic garden lawn background with distant wooden shelter, not a wild mountain landscape. No other animals, no text, no borders. Make animal MUCH SMALLER than reference. Output 1536x1024.",
+      "generatedFile": "exec-ca74f731-5b13-4b47-a127-7f97a1af7b1e.png"
+    },
+    {
+      "prompt": "Edit this 1536x1024 photograph. Move the small walrus UP by 255 pixels and RIGHT by 190 pixels; reduce its size by another 30%. New full body bounds x1080..1240,y330..415. Raise the shoreline behind it so it remains grounded on gravel, not floating. Remove the animal from its old location and reconstruct the natural background there. Keep exactly one animal. Continuous real photographic habitat, no visible edit seams, text or border. This exact repositioning is essential for mobile website safe areas.",
+      "generatedFile": "exec-3215541a-490a-4448-80a1-e066831020a5.png"
+    },
+    {
+      "prompt": "Edit this wildlife photograph, 1536x1024. The walrus is still far too low. Raise a rocky gravel mound on the right side of the beach and put the walrus ON TOP OF THAT MOUND in the UPPER RIGHT QUADRANT. The walrus head must be one third down from the top, and its feet only 42% down from the top. Its whole body is well ABOVE the middle horizontal line of the image. Keep its current tiny size; its left flipper is at 72% of image width. Do not leave it on the low shoreline. Exactly one animal, erase old location seamlessly. Retain anatomy and photorealistic habitat, no text or border.",
+      "generatedFile": "exec-b8d1e502-d196-46bd-9e78-2d991684fc91.png"
+    }
+  ],
+  "gallery": [
+    {
+      "slug": "walrus",
+      "index": 2,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Odobenus rosmarus adult walrus with brown wrinkled skin, two ivory upper canine tusks and dense muzzle whiskers. Scene: Full body three-quarter view resting on a pebble Arctic beach, flippers fully in frame. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-d8830471-0402-43bb-9dab-e37ab729531b.png"
+    },
+    {
+      "slug": "walrus",
+      "index": 3,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Odobenus rosmarus adult walrus with brown wrinkled skin, two ivory upper canine tusks and dense muzzle whiskers. Scene: Head closeup showing two downward tusks and dense stiff whiskers. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-88ab5b19-1113-4439-aafa-db19b35b3d6a.png"
+    },
+    {
+      "slug": "walrus",
+      "index": 4,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Odobenus rosmarus adult walrus with brown wrinkled skin, two ivory upper canine tusks and dense muzzle whiskers. Scene: Underwater full-body shallow seafloor foraging, muzzle near clam bed, tusks not digging tools. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-b79188df-26ed-4ef9-a041-2766e73a0ef1.png"
+    },
+    {
+      "slug": "walrus",
+      "index": 5,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Odobenus rosmarus adult walrus with brown wrinkled skin, two ivory upper canine tusks and dense muzzle whiskers. Scene: Full-body swimming side view in clear cold water, hind flippers visible. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-337d5470-3db8-43bb-924c-bed58afcc9c6.png"
+    },
+    {
+      "slug": "walrus",
+      "index": 6,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Odobenus rosmarus adult walrus with brown wrinkled skin, two ivory upper canine tusks and dense muzzle whiskers. Scene: A female with shorter tusks resting beside one small dark calf on a broad ice floe, no crowd. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-ecd3ee87-a5a0-4e64-8704-80262f084623.png"
+    }
+  ]
+}

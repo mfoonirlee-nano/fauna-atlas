@@ -31,11 +31,11 @@
 - [x] 小蓝企鹅 *Eudyptula minor* — “找找企鹅的翅膀和两只脚。”
 - [x] 亚达伯拉象龟 *Aldabrachelys gigantea* — “大龟壳下面，伸出了哪些身体部位？”
 - [x] 黄海马 *Hippocampus kuda* — “找找它卷起来的尾巴。”
-- [ ] 普通海星 *Asterias rubens* — “一起数数它伸出的腕。”
-- [ ] 海象 *Odobenus rosmarus* — “找找嘴边伸出来的两根长牙。”
-- [ ] 大斑啄木鸟 *Dendrocopos major* — “看看它用嘴啄树干的样子。”
-- [ ] 切叶蚁 *Atta cephalotes* — “找找搬着叶子的小蚂蚁。”
-- [ ] 豚鼠 *Cavia porcellus* — “看看它的小短腿和胡须。”
+- [x] 普通海星 *Asterias rubens* — “一起数数它伸出的腕。”
+- [x] 海象 *Odobenus rosmarus* — “找找嘴边伸出来的两根长牙。”
+- [x] 大斑啄木鸟 *Dendrocopos major* — “看看它用嘴啄树干的样子。”
+- [x] 切叶蚁 *Atta cephalotes* — “找找搬着叶子的小蚂蚁。”
+- [x] 豚鼠 *Cavia porcellus* — “看看它的小短腿和胡须。”
 - [ ] 耳廓狐 *Vulpes zerda* — “它的耳朵比脸还显眼。”
 - [ ] 港海豹 *Phoca vitulina* — “找找鼻子旁边的胡须。”
 - [ ] 白鲸 *Delphinapterus leucas* — “看看白鲸圆圆的额头。”

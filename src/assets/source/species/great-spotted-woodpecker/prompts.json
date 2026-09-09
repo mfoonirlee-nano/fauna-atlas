@@ -1,0 +1,46 @@
+{
+  "slug": "great-spotted-woodpecker",
+  "tool": "built-in image_gen",
+  "coverHistory": [
+    {
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph, one adult male great spotted woodpecker Dendrocopos major clinging upright to the left face of a narrow vertical birch trunk at right, black and white plumage, white shoulder patches, red undertail and small red nape, stiff tail touching bark, pointed bill. Cover composition: ENTIRE animal including all appendages and carried object within small box x=1050..1200 y=320..450 pixels, animal center at 73 percent width and 38 percent height. Wide habitat view, left 40% quiet real background. All subject edges surrounded by generous background. Soft natural light, realistic anatomy and textures. No text, logo, watermark, collage or additional animals.",
+      "generatedFile": "exec-7e24434f-a2a4-4b68-9c5f-9da17ca66ec6.png"
+    },
+    {
+      "prompt": "Edit this species cover for a responsive website hero. Keep the same species, anatomy, pose and photographic style. Zoom OUT dramatically: the COMPLETE animal plus all visible appendages (and carried leaf if ant) must fit entirely inside x=1080..1220, y=320..440 on the 1536x1024 output. Animal center about 75% width and 37% height. Animal should occupy only about 9% image width and 12% image height. Rebuild seamless real habitat around it, no pasted rectangle, no blur patch. For woodpecker retain a continuous tree trunk supporting the feet and tail; for ant retain a continuous twig. For guinea pig use a spacious domestic garden lawn background with distant wooden shelter, not a wild mountain landscape. No other animals, no text, no borders. Make animal MUCH SMALLER than reference. Output 1536x1024.",
+      "generatedFile": "exec-5107365e-14d8-4eec-8bc6-bad68a14c937.png"
+    }
+  ],
+  "gallery": [
+    {
+      "slug": "great-spotted-woodpecker",
+      "index": 2,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Dendrocopos major great spotted woodpecker, black and white plumage, big white shoulder patch, red vent, pointed gray bill. Scene: Full-body adult male clinging to tree, small red nape patch, complete tail and feet. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-90d803b4-45f9-4740-97b2-c7d4c8dd4684.png"
+    },
+    {
+      "slug": "great-spotted-woodpecker",
+      "index": 3,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Dendrocopos major great spotted woodpecker, black and white plumage, big white shoulder patch, red vent, pointed gray bill. Scene: Close side view adult male tapping pointed bill against bark, feet gripping and tail bracing. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-57f432ec-da35-4263-85c5-f2ddac30e345.png"
+    },
+    {
+      "slug": "great-spotted-woodpecker",
+      "index": 4,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Dendrocopos major great spotted woodpecker, black and white plumage, big white shoulder patch, red vent, pointed gray bill. Scene: Adult female full body on trunk with black nape, no red crown or nape, red undertail. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-4866cd66-93bf-455f-a078-f392b2598ebb.png"
+    },
+    {
+      "slug": "great-spotted-woodpecker",
+      "index": 5,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Dendrocopos major great spotted woodpecker, black and white plumage, big white shoulder patch, red vent, pointed gray bill. Scene: One adult perched on log with pine cone held in bark crevice, seed feeding context. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-bd43af5e-17a0-41d9-bed6-3a682e3655e5.png"
+    },
+    {
+      "slug": "great-spotted-woodpecker",
+      "index": 6,
+      "prompt": "Use case: photorealistic-natural. Generate ONE 1536x1024 landscape natural-history editorial photo of Dendrocopos major great spotted woodpecker, black and white plumage, big white shoulder patch, red vent, pointed gray bill. Scene: One adult beside round nest entrance in tree trunk, no exposed nest interior. Animal large and clearly readable for a toddler observation page, natural soft light, scientifically credible anatomy and habitat, real textures, calm composition. No lettering, labels, watermark, border, collage, anthropomorphic expression or fantasy.",
+      "generatedFile": "exec-84b70711-0137-4004-a7df-95dcb0335fe3.png"
+    }
+  ]
+}

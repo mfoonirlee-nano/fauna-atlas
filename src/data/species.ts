@@ -60137,6 +60137,1303 @@ export const species = [
   "publishedAt": "2026-09-09",
   "updatedAt": "2026-09-09"
 },
+{
+  "id": "species-asterias-rubens",
+  "slug": "common-starfish",
+  "names": {
+    "zh": "普通海星",
+    "en": "Common Starfish",
+    "aliases": []
+  },
+  "scientificName": "Asterias rubens",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Echinodermata",
+      "zhName": "棘皮动物门"
+    },
+    "class": {
+      "scientificName": "Asteroidea",
+      "zhName": "海星纲"
+    },
+    "order": {
+      "scientificName": "Forcipulatida",
+      "zhName": "钳棘目"
+    },
+    "family": {
+      "scientificName": "Asteriidae",
+      "zhName": "海盘车科"
+    },
+    "genus": {
+      "scientificName": "Asterias",
+      "zhName": "海盘车属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN（NE 见所列动物园或水族馆来源）"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "欧洲",
+      "非洲"
+    ],
+    "countries": [
+      "英国",
+      "爱尔兰",
+      "挪威"
+    ],
+    "regions": [
+      "东北大西洋近岸"
+    ],
+    "range": "东北大西洋沿岸常见，包括英国、爱尔兰及挪威等地；这里列举部分分布地，不把地图中心当作完整范围。",
+    "center": {
+      "lat": 55,
+      "lng": -5
+    }
+  },
+  "habitats": [
+    {
+      "realm": "marine",
+      "name": "岩礁与贝床",
+      "description": "普通海星生活在岩石、砂砾等海底环境，也常见于贝类聚集的地方。它的腕能弯曲，活动时腕尖有时会向上翘。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "min": 10,
+      "max": 30,
+      "unit": "cm",
+      "note": "MarLIN 给出的常见直径范围，包含伸出的腕；不作为头体长。"
+    }
+  },
+  "metrics": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "贻贝",
+      "其他双壳类",
+      "小型海底动物"
+    ],
+    "description": "普通海星吃贻贝等海底动物。它用腕和管足抓住贝壳，还能把胃从口中伸出，在壳缝中消化软体部分。共读时先找找海星下面的贝壳。"
+  },
+  "tags": [
+    "普通海星",
+    "五条伸出的腕"
+  ],
+  "summary": "一起数数普通海星伸出的腕。腕下面有许多小管足，帮助它贴着海底爬行。",
+  "description": "普通海星通常有五条腕，从身体中央向外伸出。沿着图片的外缘指一圈，看看每条腕伸向哪里。受伤或再生中的个体可能有不同的腕数。腕的下面长着许多小管足。海星靠管足附着在岩石等表面，再带动身体移动。近景展示可见管足，不是身体内部的剖面。",
+  "storySections": [
+    {
+      "key": "arms",
+      "label": "生活与认识",
+      "title": "一起数五条腕",
+      "body": "普通海星通常有五条腕，从身体中央向外伸出。沿着图片的外缘指一圈，看看每条腕伸向哪里。受伤或再生中的个体可能有不同的腕数。"
+    },
+    {
+      "key": "feet",
+      "label": "生活与认识",
+      "title": "小管足贴住海底",
+      "body": "腕的下面长着许多小管足。海星靠管足附着在岩石等表面，再带动身体移动。近景展示可见管足，不是身体内部的剖面。"
+    },
+    {
+      "key": "food",
+      "label": "生活与认识",
+      "title": "在贝壳旁边找食物",
+      "body": "普通海星吃贻贝等海底动物。它用腕和管足抓住贝壳，还能把胃从口中伸出，在壳缝中消化软体部分。共读时先找找海星下面的贝壳。"
+    },
+    {
+      "key": "colour",
+      "label": "生活与认识",
+      "title": "也有紫色的海星",
+      "body": "本种可以呈橙色、浅褐色或紫色。图集展示不同颜色的个体，不能把颜色差别理解为同一只海星正在变色。"
+    },
+    {
+      "key": "habitat",
+      "label": "生活与认识",
+      "title": "沿着海底慢慢爬",
+      "body": "普通海星生活在岩石、砂砾等海底环境，也常见于贝类聚集的地方。它的腕能弯曲，活动时腕尖有时会向上翘。"
+    },
+    {
+      "key": "care",
+      "label": "生活与认识",
+      "title": "在水里观察海星",
+      "body": "普通海星的 IUCN 状态为未评估（NE），不等于无危。到海边观察时，让海星留在水里，不掰腕、不带走。"
+    }
+  ],
+  "keyFacts": [
+    "一起数五条腕",
+    "小管足贴住海底",
+    "在贝壳旁边找食物",
+    "也有紫色的海星",
+    "沿着海底慢慢爬"
+  ],
+  "threats": [
+    "近岸污染与海底生境扰动。"
+  ],
+  "conservationActions": [
+    "保留潮间带生境，观察后让动物留在原处。"
+  ],
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "五条伸出的腕"
+    },
+    {
+      "key": "food",
+      "label": "主要食物",
+      "value": "贻贝"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "岩礁与贝床"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ADW — 普通海星分类与生活",
+      "url": "https://animaldiversity.org/accounts/Asterias_rubens/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "MarLIN — 普通海星形态、分布与生态",
+      "url": "https://www.marlin.ac.uk/species/detail/1194",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Macduff Aquarium — 普通海星未评估状态",
+      "url": "https://www.macduff-aquarium.org.uk/explore/fish-finder/common-starfish",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-starfish/01-cover.webp",
+    "alt": "普通海星的完整身体位于画面右侧。",
+    "focalPoint": {
+      "x": 0.74,
+      "y": 0.33
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-starfish/02-observation.webp",
+        "title": "一起数五条腕",
+        "alt": "俯视普通海星，五条橙色腕在岩石上展开。",
+        "caption": "俯视普通海星，五条橙色腕在岩石上展开。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-starfish/03-observation.webp",
+        "title": "小管足贴住海底",
+        "alt": "腕下方可见贴近岩石的小管足。",
+        "caption": "腕下方可见贴近岩石的小管足。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-starfish/04-observation.webp",
+        "title": "在贝壳旁边找食物",
+        "alt": "普通海星伏在贻贝床上。",
+        "caption": "普通海星伏在贻贝床上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-starfish/05-observation.webp",
+        "title": "也有紫色的海星",
+        "alt": "一只偏紫色的普通海星位于浅色海底。",
+        "caption": "一只偏紫色的普通海星位于浅色海底。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-starfish/06-observation.webp",
+        "title": "沿着海底慢慢爬",
+        "alt": "普通海星的腕沿低矮岩石弯曲。",
+        "caption": "普通海星的腕沿低矮岩石弯曲。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
+{
+  "id": "species-odobenus-rosmarus",
+  "slug": "walrus",
+  "names": {
+    "zh": "海象",
+    "en": "Walrus",
+    "aliases": []
+  },
+  "scientificName": "Odobenus rosmarus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Odobenidae",
+      "zhName": "海象科"
+    },
+    "genus": {
+      "scientificName": "Odobenus",
+      "zhName": "海象属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "VU",
+    "label": {
+      "zh": "易危",
+      "en": "Vulnerable"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN（等级与适用范围见正文及来源）"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "亚洲",
+      "欧洲",
+      "北美洲"
+    ],
+    "countries": [
+      "俄罗斯",
+      "美国",
+      "加拿大",
+      "挪威"
+    ],
+    "regions": [
+      "北极及邻近浅海"
+    ],
+    "range": "分布于北极及邻近海域，包括白令海、楚科奇海和北大西洋北部；本档案记录整个物种，不把太平洋或大西洋亚种的地区资料当作全球数量。",
+    "center": {
+      "lat": 72,
+      "lng": -165
+    }
+  },
+  "habitats": [
+    {
+      "realm": "marine",
+      "name": "浅海、海冰与海岸",
+      "description": "海象妈妈用乳汁喂养幼崽，并在育幼期间照顾它。幼崽的长牙还不显眼；图中只展示母幼相伴的场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "metrics": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "蛤类",
+      "其他海底无脊椎动物"
+    ],
+    "description": "海象会潜入浅海，在海底寻找蛤类等无脊椎动物，并吸食贝壳里的软体部分。图中的海底场景不表示它用长牙挖贝壳。"
+  },
+  "tags": [
+    "海象",
+    "嘴边的两根长牙"
+  ],
+  "summary": "找找海象嘴边伸出的两根长牙。长牙旁边还有一圈硬硬的胡须。",
+  "description": "海象的长牙是伸长的上犬齿。雄性和雌性都能长出长牙，雄性的通常更粗长。看图时，沿着牙根找到向下伸出的牙尖。海象用敏感的胡须探查海底，寻找贝类等食物。两根长牙之间，嘴边密密的一圈就是胡须。",
+  "storySections": [
+    {
+      "key": "tusks",
+      "label": "生活与认识",
+      "title": "长牙从上颌伸出",
+      "body": "海象的长牙是伸长的上犬齿。雄性和雌性都能长出长牙，雄性的通常更粗长。看图时，沿着牙根找到向下伸出的牙尖。"
+    },
+    {
+      "key": "whiskers",
+      "label": "生活与认识",
+      "title": "胡须帮助寻找食物",
+      "body": "海象用敏感的胡须探查海底，寻找贝类等食物。两根长牙之间，嘴边密密的一圈就是胡须。"
+    },
+    {
+      "key": "food",
+      "label": "生活与认识",
+      "title": "在浅海寻找贝类",
+      "body": "海象会潜入浅海，在海底寻找蛤类等无脊椎动物，并吸食贝壳里的软体部分。图中的海底场景不表示它用长牙挖贝壳。"
+    },
+    {
+      "key": "swim",
+      "label": "生活与认识",
+      "title": "用鳍状肢游泳",
+      "body": "海象的四肢呈鳍状。游泳时，它用后肢推动身体，前肢帮助转向；上岸后也能借助四肢移动。找找身体前后两组鳍状肢。"
+    },
+    {
+      "key": "young",
+      "label": "生活与认识",
+      "title": "幼崽跟在妈妈身边",
+      "body": "海象妈妈用乳汁喂养幼崽，并在育幼期间照顾它。幼崽的长牙还不显眼；图中只展示母幼相伴的场景。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "留下休息的海冰",
+      "body": "海象全球 IUCN 等级为易危，依据 2016 年发布的评估。海冰减少会改变它们休息和觅食的条件；岸上聚集的海象还可能受到船只和人的惊扰。"
+    }
+  ],
+  "keyFacts": [
+    "长牙从上颌伸出",
+    "胡须帮助寻找食物",
+    "在浅海寻找贝类",
+    "用鳍状肢游泳",
+    "幼崽跟在妈妈身边"
+  ],
+  "threats": [
+    "气候变暖造成海冰减少。",
+    "岸上休息群受人类活动惊扰。"
+  ],
+  "conservationActions": [
+    "减少温室气体排放。",
+    "船只和游客与海象休息地保持距离。"
+  ],
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "嘴边的两根长牙"
+    },
+    {
+      "key": "food",
+      "label": "主要食物",
+      "value": "蛤类"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "浅海、海冰与海岸"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ADW — 海象分类、形态与取食",
+      "url": "https://animaldiversity.org/accounts/Odobenus_rosmarus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "WWF — 海象保护现状及全球 IUCN 2016 等级",
+      "url": "https://www.arcticwwf.org/site/assets/files/1541/walrus-report-2018-screen.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "USFWS — 太平洋海象种群评估（地区资料）",
+      "url": "https://www.fws.gov/sites/default/files/documents/Pacific-Walrus-Stock-Assessment-Report-2023.pdf",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "media": {
+    "image": "./images/species/walrus/01-cover.webp",
+    "alt": "海象的完整身体位于画面右侧。",
+    "focalPoint": {
+      "x": 0.88,
+      "y": 0.34
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/walrus/02-observation.webp",
+        "title": "长牙从上颌伸出",
+        "alt": "海象在碎石海岸休息，长牙和鳍状肢可见。",
+        "caption": "海象在碎石海岸休息，长牙和鳍状肢可见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/walrus/03-observation.webp",
+        "title": "胡须帮助寻找食物",
+        "alt": "近看海象向下伸出的长牙和嘴边胡须。",
+        "caption": "近看海象向下伸出的长牙和嘴边胡须。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/walrus/04-observation.webp",
+        "title": "在浅海寻找贝类",
+        "alt": "海象在浅海底部靠近贝类觅食。",
+        "caption": "海象在浅海底部靠近贝类觅食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/walrus/05-observation.webp",
+        "title": "用鳍状肢游泳",
+        "alt": "海象在冷水中游泳，身体后方可见后肢。",
+        "caption": "海象在冷水中游泳，身体后方可见后肢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/walrus/06-observation.webp",
+        "title": "幼崽跟在妈妈身边",
+        "alt": "成年雌海象与幼崽在海冰上相伴。",
+        "caption": "成年雌海象与幼崽在海冰上相伴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
+{
+  "id": "species-dendrocopos-major",
+  "slug": "great-spotted-woodpecker",
+  "names": {
+    "zh": "大斑啄木鸟",
+    "en": "Great Spotted Woodpecker",
+    "aliases": []
+  },
+  "scientificName": "Dendrocopos major",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Piciformes",
+      "zhName": "鴷形目"
+    },
+    "family": {
+      "scientificName": "Picidae",
+      "zhName": "啄木鸟科"
+    },
+    "genus": {
+      "scientificName": "Dendrocopos",
+      "zhName": "啄木鸟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN（等级与适用范围见正文及来源）"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲",
+      "亚洲",
+      "非洲"
+    ],
+    "countries": [
+      "英国",
+      "法国",
+      "中国",
+      "日本"
+    ],
+    "regions": [
+      "欧亚大陆及北非部分地区"
+    ],
+    "range": "广布于欧亚大陆及北非部分地区，在林地、园林等有树木的环境中活动。所列国家仅为分布示例。",
+    "center": {
+      "lat": 48,
+      "lng": 40
+    }
+  },
+  "habitats": [
+    {
+      "realm": "terrestrial",
+      "name": "林地与有大树的园林",
+      "description": "大斑啄木鸟在树干中挖出巢洞，外面能看到圆形入口。观察时留在远处，给进出巢洞的鸟留出空间。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "metrics": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "昆虫及幼虫",
+      "种子",
+      "坚果"
+    ],
+    "description": "寻找昆虫及幼虫，也吃种子和坚果。"
+  },
+  "tags": [
+    "大斑啄木鸟",
+    "啄树干的嘴"
+  ],
+  "summary": "看看大斑啄木鸟用嘴啄树干的样子。脚抓住树皮，尾巴抵着树干。",
+  "description": "大斑啄木鸟背部有黑白相间的羽毛，肩部有显眼的白斑，尾下有红色。先找找白色肩斑，再看身体下方的红羽毛。它用脚抓住树皮，用坚硬的尾羽抵住树干，再用喙啄木。啄木可以帮助找食物和挖巢；快速敲击形成的鼓声也用于交流。",
+  "storySections": [
+    {
+      "key": "body",
+      "label": "生活与认识",
+      "title": "黑白羽毛里找红色",
+      "body": "大斑啄木鸟背部有黑白相间的羽毛，肩部有显眼的白斑，尾下有红色。先找找白色肩斑，再看身体下方的红羽毛。"
+    },
+    {
+      "key": "peck",
+      "label": "生活与认识",
+      "title": "脚和尾巴撑住身体",
+      "body": "它用脚抓住树皮，用坚硬的尾羽抵住树干，再用喙啄木。啄木可以帮助找食物和挖巢；快速敲击形成的鼓声也用于交流。"
+    },
+    {
+      "key": "sex",
+      "label": "生活与认识",
+      "title": "看看后脑勺的羽毛",
+      "body": "成年雄鸟后脑勺有一小块红斑，成年雌鸟没有这块红斑。幼鸟的头顶也可带红色，所以不能只凭有没有红色就判断性别。"
+    },
+    {
+      "key": "food",
+      "label": "生活与认识",
+      "title": "也吃种子和坚果",
+      "body": "它会寻找树皮中的昆虫，也吃种子和坚果。看到松果旁的啄木鸟，可以找找它用嘴取食的位置。"
+    },
+    {
+      "key": "nest",
+      "label": "生活与认识",
+      "title": "把巢挖在树干里",
+      "body": "大斑啄木鸟在树干中挖出巢洞，外面能看到圆形入口。观察时留在远处，给进出巢洞的鸟留出空间。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "保留能筑巢的树",
+      "body": "本种全球 IUCN 等级为无危。英国的绿名单属于当地保护口径，不代替全球等级。保留合适的老树和枯木，能为啄木鸟提供觅食和筑巢空间。"
+    }
+  ],
+  "keyFacts": [
+    "黑白羽毛里找红色",
+    "脚和尾巴撑住身体",
+    "看看后脑勺的羽毛",
+    "也吃种子和坚果",
+    "把巢挖在树干里"
+  ],
+  "threats": [
+    "移除老树和枯木会减少巢位与觅食处。"
+  ],
+  "conservationActions": [
+    "在安全条件下保留老树和枯木。",
+    "观察巢洞时避免靠近惊扰。"
+  ],
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "啄树干的嘴"
+    },
+    {
+      "key": "food",
+      "label": "主要食物",
+      "value": "昆虫及幼虫"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "林地与有大树的园林"
+    }
+  ],
+  "sources": [
+    {
+      "title": "EUNIS — 大斑啄木鸟分类与全球等级",
+      "url": "https://eunis.eea.europa.eu/species/1008",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "RSPB — 大斑啄木鸟形态与生活",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/great-spotted-woodpecker",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "IUCN 经 GBIF 发布 — 大斑啄木鸟评估记录",
+      "url": "https://www.gbif.org/dataset/19491596-35ae-4a91-9a98-85cf505f1bd3/taxon/22681124",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "media": {
+    "image": "./images/species/great-spotted-woodpecker/01-cover.webp",
+    "alt": "大斑啄木鸟的完整身体位于画面右侧。",
+    "focalPoint": {
+      "x": 0.71,
+      "y": 0.41
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/great-spotted-woodpecker/02-observation.webp",
+        "title": "黑白羽毛里找红色",
+        "alt": "成年雄大斑啄木鸟抓住树干，尾羽抵住树皮。",
+        "caption": "成年雄大斑啄木鸟抓住树干，尾羽抵住树皮。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-spotted-woodpecker/03-observation.webp",
+        "title": "脚和尾巴撑住身体",
+        "alt": "大斑啄木鸟把尖喙伸向树皮。",
+        "caption": "大斑啄木鸟把尖喙伸向树皮。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-spotted-woodpecker/04-observation.webp",
+        "title": "看看后脑勺的羽毛",
+        "alt": "成年雌鸟后脑勺为黑色，尾下带红色。",
+        "caption": "成年雌鸟后脑勺为黑色，尾下带红色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-spotted-woodpecker/05-observation.webp",
+        "title": "也吃种子和坚果",
+        "alt": "大斑啄木鸟在树皮缝中的松果旁取食。",
+        "caption": "大斑啄木鸟在树皮缝中的松果旁取食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-spotted-woodpecker/06-observation.webp",
+        "title": "把巢挖在树干里",
+        "alt": "大斑啄木鸟停在树干的圆形巢洞旁。",
+        "caption": "大斑啄木鸟停在树干的圆形巢洞旁。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
+{
+  "id": "species-atta-cephalotes",
+  "slug": "leafcutter-ant",
+  "names": {
+    "zh": "切叶蚁",
+    "en": "Leafcutter Ant",
+    "aliases": []
+  },
+  "scientificName": "Atta cephalotes",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Hymenoptera",
+      "zhName": "膜翅目"
+    },
+    "family": {
+      "scientificName": "Formicidae",
+      "zhName": "蚁科"
+    },
+    "genus": {
+      "scientificName": "Atta",
+      "zhName": "切叶蚁属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN（NE 见所列动物园或水族馆来源）"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲",
+      "南美洲"
+    ],
+    "countries": [
+      "墨西哥",
+      "哥斯达黎加",
+      "巴西"
+    ],
+    "regions": [
+      "美洲热带地区"
+    ],
+    "range": "见于墨西哥、中美洲及南美洲部分热带地区。本档案的“切叶蚁”专指 Atta cephalotes，不代表所有搬运叶片的蚂蚁。",
+    "center": {
+      "lat": 10,
+      "lng": -84
+    }
+  },
+  "habitats": [
+    {
+      "realm": "terrestrial",
+      "name": "热带森林地面与地下巢穴",
+      "description": "同一蚁群中的工蚁体型不同，可参与切叶、搬运、照料菌圃等工作。并排的大小工蚁不表示固定比例，也不是两种不同的蚂蚁。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "metrics": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "共生真菌",
+      "植物汁液"
+    ],
+    "description": "切叶蚁把植物材料加工后用于培育共生真菌，真菌为蚁群提供食物，幼虫尤其依赖它。地下菌圃图是情景重建，不是完整巢穴剖面。"
+  },
+  "tags": [
+    "切叶蚁",
+    "搬着的绿色叶片"
+  ],
+  "summary": "找找搬着叶子的小蚂蚁。切叶蚁把叶片带回巢里，培育供蚁群取食的真菌。",
+  "description": "工蚁用大颚咬住切下的叶片，搬运回巢。叶片下方还有小小的蚂蚁，找找它的头、触角和脚。工蚁在叶片边缘咬出缺口，逐步切下一块。图集中的单张照片只展示一个动作位置，不能据此判断切叶速度。",
+  "storySections": [
+    {
+      "key": "carry",
+      "label": "生活与认识",
+      "title": "叶片举在身体上方",
+      "body": "工蚁用大颚咬住切下的叶片，搬运回巢。叶片下方还有小小的蚂蚁，找找它的头、触角和脚。"
+    },
+    {
+      "key": "cut",
+      "label": "生活与认识",
+      "title": "用大颚切下叶片",
+      "body": "工蚁在叶片边缘咬出缺口，逐步切下一块。图集中的单张照片只展示一个动作位置，不能据此判断切叶速度。"
+    },
+    {
+      "key": "trail",
+      "label": "生活与认识",
+      "title": "沿着路线回巢",
+      "body": "许多工蚁会沿着觅食路线往返。它们用化学信号帮助同伴找到路；图里能看到搬叶的队伍，看不到这些气味信号。"
+    },
+    {
+      "key": "fungus",
+      "label": "生活与认识",
+      "title": "在巢里培育真菌",
+      "body": "切叶蚁把植物材料加工后用于培育共生真菌，真菌为蚁群提供食物，幼虫尤其依赖它。地下菌圃图是情景重建，不是完整巢穴剖面。"
+    },
+    {
+      "key": "workers",
+      "label": "生活与认识",
+      "title": "工蚁有大有小",
+      "body": "同一蚁群中的工蚁体型不同，可参与切叶、搬运、照料菌圃等工作。并排的大小工蚁不表示固定比例，也不是两种不同的蚂蚁。"
+    },
+    {
+      "key": "care",
+      "label": "生活与认识",
+      "title": "在原来的地方观察",
+      "body": "本种的 IUCN 状态为未评估（NE），不等于无危。它们可能取食农作物；观察时不要挖开蚁巢，也不要把活蚁带到新的地区。"
+    }
+  ],
+  "keyFacts": [
+    "叶片举在身体上方",
+    "用大颚切下叶片",
+    "沿着路线回巢",
+    "在巢里培育真菌",
+    "工蚁有大有小"
+  ],
+  "threats": [
+    "本次未核实物种层面的全球威胁趋势。"
+  ],
+  "conservationActions": [
+    "保留本地生境，不跨地区搬运活蚁。"
+  ],
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "搬着的绿色叶片"
+    },
+    {
+      "key": "food",
+      "label": "主要食物",
+      "value": "共生真菌"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带森林地面与地下巢穴"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ADW — Atta cephalotes 分类",
+      "url": "https://animaldiversity.org/accounts/Atta_cephalotes/classification/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Cincinnati Zoo — 切叶蚁菌圃与分布",
+      "url": "https://cincinnatizoo.org/animals-archive/leaf-cutting-ant/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "PLOS Genetics — Atta cephalotes 共生生活研究",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3037820/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Marwell Zoo — 切叶蚁工蚁分工、路线与未评估状态",
+      "url": "https://www.marwell.org.uk/animals/leaf-cutter-ants/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "media": {
+    "image": "./images/species/leafcutter-ant/01-cover.webp",
+    "alt": "切叶蚁的完整身体位于画面右侧。",
+    "focalPoint": {
+      "x": 0.83,
+      "y": 0.39
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/leafcutter-ant/02-observation.webp",
+        "title": "叶片举在身体上方",
+        "alt": "一只切叶蚁工蚁咬住绿色叶片搬运。",
+        "caption": "一只切叶蚁工蚁咬住绿色叶片搬运。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leafcutter-ant/03-observation.webp",
+        "title": "用大颚切下叶片",
+        "alt": "工蚁在绿叶边缘用大颚切叶。",
+        "caption": "工蚁在绿叶边缘用大颚切叶。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leafcutter-ant/04-observation.webp",
+        "title": "沿着路线回巢",
+        "alt": "数只工蚁沿地面路线搬运叶片。",
+        "caption": "数只工蚁沿地面路线搬运叶片。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leafcutter-ant/05-observation.webp",
+        "title": "在巢里培育真菌",
+        "alt": "情景重建：工蚁在巢内的菌圃表面活动。",
+        "caption": "情景重建：工蚁在巢内的菌圃表面活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leafcutter-ant/06-observation.webp",
+        "title": "工蚁有大有小",
+        "alt": "大小不同的工蚁位于同一片叶上。",
+        "caption": "大小不同的工蚁位于同一片叶上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
+{
+  "id": "species-cavia-porcellus",
+  "slug": "guinea-pig",
+  "names": {
+    "zh": "豚鼠",
+    "en": "Guinea Pig",
+    "aliases": [
+      "天竺鼠"
+    ]
+  },
+  "scientificName": "Cavia porcellus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Rodentia",
+      "zhName": "啮齿目"
+    },
+    "family": {
+      "scientificName": "Caviidae",
+      "zhName": "豚鼠科"
+    },
+    "genus": {
+      "scientificName": "Cavia",
+      "zhName": "豚鼠属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本档案未采用全球评估；适用范围见正文"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "南美洲"
+    ],
+    "countries": [],
+    "regions": [
+      "起源于南美洲的驯养动物"
+    ],
+    "range": "豚鼠是起源于南美洲的驯养动物，现由人类在世界多地饲养。地图中心表示起源地区的示意位置，不表示现存野生种群；不把野生近缘种的分布合并到本种。",
+    "center": {
+      "lat": -15,
+      "lng": -70
+    }
+  },
+  "habitats": [
+    {
+      "realm": "terrestrial",
+      "name": "人类提供的草料与遮蔽环境",
+      "description": "豚鼠会利用遮蔽物休息和躲藏。图里的木屋属于人类提供的饲养环境，不是它自己建造的房子。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "min": 20,
+      "max": 25,
+      "unit": "cm",
+      "note": "Smithsonian 给出的驯养豚鼠一般体长范围；品种和个体存在差别。"
+    },
+    "weight": {
+      "min": 700,
+      "max": 1100,
+      "unit": "g",
+      "note": "驯养个体的一般范围。"
+    }
+  },
+  "metrics": {
+    "adultLengthCm": [
+      20,
+      25
+    ],
+    "adultMassKg": [
+      0.7,
+      1.1
+    ]
+  },
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "草",
+      "干草",
+      "其他植物性食物"
+    ],
+    "description": "豚鼠吃植物性食物。图中它正在吃干草，可以顺着草茎找到嘴的位置。这组图片用于认识动物，不作为完整的饲养食谱。"
+  },
+  "tags": [
+    "豚鼠",
+    "小短腿和胡须"
+  ],
+  "summary": "看看豚鼠的小短腿和胡须。它用短腿走动，用嘴咬住草叶慢慢嚼。",
+  "description": "豚鼠身体圆，腿短，没有外露的尾巴。看侧面图，找找肚子下面的前腿和后腿。它属于啮齿动物，与猪并不是同一类动物。豚鼠有圆钝的鼻子、小耳朵和长胡须。脸部近景能帮助观察这些部位；不要把眼睛或嘴的形状解释为人的表情。",
+  "storySections": [
+    {
+      "key": "body",
+      "label": "生活与认识",
+      "title": "圆身体下面有短腿",
+      "body": "豚鼠身体圆，腿短，没有外露的尾巴。看侧面图，找找肚子下面的前腿和后腿。它属于啮齿动物，与猪并不是同一类动物。"
+    },
+    {
+      "key": "whiskers",
+      "label": "生活与认识",
+      "title": "鼻子旁边长着胡须",
+      "body": "豚鼠有圆钝的鼻子、小耳朵和长胡须。脸部近景能帮助观察这些部位；不要把眼睛或嘴的形状解释为人的表情。"
+    },
+    {
+      "key": "food",
+      "label": "生活与认识",
+      "title": "低头咬住草叶",
+      "body": "豚鼠吃植物性食物。图中它正在吃干草，可以顺着草茎找到嘴的位置。这组图片用于认识动物，不作为完整的饲养食谱。"
+    },
+    {
+      "key": "company",
+      "label": "生活与认识",
+      "title": "和同伴待在一起",
+      "body": "豚鼠是社会性动物，会用声音和身体动作交流。图片展示两只豚鼠相伴，毛色不同并不意味着它们属于不同物种。"
+    },
+    {
+      "key": "shelter",
+      "label": "生活与认识",
+      "title": "在遮蔽物旁活动",
+      "body": "豚鼠会利用遮蔽物休息和躲藏。图里的木屋属于人类提供的饲养环境，不是它自己建造的房子。"
+    },
+    {
+      "key": "domestic",
+      "label": "生活与认识",
+      "title": "这是人类驯养的豚鼠",
+      "body": "Cavia porcellus 是驯养动物，本档案采用 NE，不套用野生近缘种的 IUCN 等级。认识豚鼠时也要区分野生豚鼠近缘种；不要把家养豚鼠放到野外。"
+    }
+  ],
+  "keyFacts": [
+    "圆身体下面有短腿",
+    "鼻子旁边长着胡须",
+    "低头咬住草叶",
+    "和同伴待在一起",
+    "在遮蔽物旁活动"
+  ],
+  "threats": [
+    "遗弃和不合适的饲养条件会伤害个体；这不是野生种群灭绝风险评估。"
+  ],
+  "conservationActions": [
+    "照顾驯养动物，不遗弃、不放生。"
+  ],
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "小短腿和胡须"
+    },
+    {
+      "key": "food",
+      "label": "主要食物",
+      "value": "草"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "人类提供的草料与遮蔽环境"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Smithsonian National Zoo — 豚鼠形态、驯化与生活",
+      "url": "https://nationalzoo.si.edu/animals/guinea-pig",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "NCBI Taxonomy — Cavia porcellus 分类",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10141",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Smithsonian National Zoo — 豚鼠驯养身份与保护说明",
+      "url": "https://nationalzoo.si.edu/animals/guinea-pig#conservation",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "media": {
+    "image": "./images/species/guinea-pig/01-cover.webp",
+    "alt": "豚鼠的完整身体位于画面右侧。",
+    "focalPoint": {
+      "x": 0.81,
+      "y": 0.33
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/guinea-pig/02-observation.webp",
+        "title": "圆身体下面有短腿",
+        "alt": "短毛豚鼠站在草地上，身体下方可见短腿。",
+        "caption": "短毛豚鼠站在草地上，身体下方可见短腿。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/guinea-pig/03-observation.webp",
+        "title": "鼻子旁边长着胡须",
+        "alt": "近看豚鼠的小耳朵、鼻子和长胡须。",
+        "caption": "近看豚鼠的小耳朵、鼻子和长胡须。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/guinea-pig/04-observation.webp",
+        "title": "低头咬住草叶",
+        "alt": "豚鼠在饲养环境中咬住干草。",
+        "caption": "豚鼠在饲养环境中咬住干草。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/guinea-pig/05-observation.webp",
+        "title": "和同伴待在一起",
+        "alt": "两只不同毛色的豚鼠在木制遮蔽物旁休息。",
+        "caption": "两只不同毛色的豚鼠在木制遮蔽物旁休息。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/guinea-pig/06-observation.webp",
+        "title": "在遮蔽物旁活动",
+        "alt": "豚鼠从木制遮蔽物旁走到铺有干草的地面。",
+        "caption": "豚鼠从木制遮蔽物旁走到铺有干草的地面。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
