@@ -1,0 +1,37 @@
+[
+  {
+    "scene": "01-cover",
+    "mode": "built-in imagegen generation followed by edits",
+    "prompts": [
+      "Use case: photorealistic-natural. Asset type: Fauna Atlas species cover. Generate 1536x1024 landscape natural-history photograph. One male mallard Anas platyrhynchos in breeding plumage, green head yellow bill white neck ring brown breast gray body curly black tail feathers and orange webbed feet, standing on a flat bare shore beside a quiet pond. Extreme wide environmental composition. Entire animal including ears nose feet and tail must fit inside SMALL rectangle x1060 to1210 y325 to480 on a 1536x1024 canvas, centered 74% across and 39% down. Deliberately small animal with vast real habitat surrounding it, quiet left 40% for hero text. Subject must be anatomically accurate, sharply rendered, unobstructed with real background margin. Soft natural daylight. No text, logos, other animals, border or collage.",
+      "Edit this mallard species cover. Keep 1536x1024 landscape and natural photographic style. Reposition the WHOLE animal to center x1150 y405, keeping all outer features within x1060..1240 and y330..480. Keep current animal size but move it UP to specified center; rebuild shore or pasture rising behind it so feet contact ground naturally. Seamlessly remove old animal and reconstruct its old location, only one animal. Left 40% quiet background. Never draw boxes or text. Full anatomy and real environmental margins.",
+      "Recompose this photo, do NOT preserve original animal placement. a male green-headed mallard standing with orange feet on a bare pond shore. Move the entire animal substantially UPWARDS and RIGHTWARDS. Put its FEET at 44 percent of image height (above the horizontal center line) and its body center at 77 percent of image width. It must be small: full animal height only 12 percent of frame. Rebuild a raised natural log/shore/ground ledge under the feet at that elevated position so no floating. This raised ledge is essential. Remove old animal from its former location. Same 1536x1024 wide habitat photograph. No text or boxes.",
+      "Move the duck and its grassy ledge UP by one duck body height, leaving the rest of the 1536x1024 landscape unchanged. Duck feet must be above frame halfway line with a large margin, at 44% height; keep its current size. Exactly one duck, seamless natural raised shoreline. No text."
+    ]
+  },
+  {
+    "scene": "02-body",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Full body male mallard Anas platyrhynchos standing side-on on pond shore, breeding green head yellow bill white neck ring chestnut breast gray body and orange webbed feet, complete bill and tail. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "03-female",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. One female mallard Anas platyrhynchos standing beside shallow water, mottled brown plumage orange and dark bill, full body feet and tail visible, no male green head. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "04-swimming",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. One male mallard swimming side-on on calm pond, natural ripples trailing, breeding plumage, feet submerged, no false underwater cutaway. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "05-feeding",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. One female mallard dabbling in shallow water with tail up and head submerged, correct duck anatomy, pond plants. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "06-young",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. One female mallard with three small downy yellow brown ducklings swimming behind her, natural spacing, no green headed female, all birds entirely in frame. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  }
+]

@@ -22,7 +22,7 @@
 
 - [x] 穴兔 *Oryctolagus cuniculus* — “找找兔子的长耳朵。”
 - [x] 欧亚红松鼠 *Sciurus vulgaris* — “松鼠的大尾巴在哪里？”
-- [ ] 绿头鸭 *Anas platyrhynchos* — “看看鸭子在水上怎么游。”
+- [x] 绿头鸭 *Anas platyrhynchos* — “看看鸭子在水上怎么游。”
 - [ ] 羊驼 *Vicugna pacos* — “它的脖子长长的，身上毛茸茸的。”
 - [ ] 金仓鼠 *Mesocricetus auratus* — “看看它鼓起来的脸颊，里面装着食物。”
 - [ ] 考拉 *Phascolarctos cinereus* — “找找抱着树干的考拉。”

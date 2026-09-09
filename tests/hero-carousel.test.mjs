@@ -215,6 +215,7 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     { slug: 'eurasian-red-squirrel', sha256: 'c4e9c01c4ee01220bf1d85a155863b695067397e1c64815b266bb91a3887fd38', fullBody: {"left": 1138, "top": 304, "right": 1320, "bottom": 463}, composedSafeAreas },
+    { slug: 'mallard', sha256: '3301e8e7237f1ac9df9da419123e42ab758068cc88a823a9a391cc88a940d982', fullBody: {"left": 1120, "top": 300, "right": 1265, "bottom": 438}, composedSafeAreas },
     { slug: 'european-rabbit', sha256: '0396594c0300c5058a20e4e0621ce84057298fe339ab10c659daaeb59d0ee1c2', fullBody: { left: 1040, top: 320, right: 1220, bottom: 488 }, composedSafeAreas },
     { slug: 'eastern-honey-bee', sha256: '9931d6bc10034704870de6664cd257cbf746f3b7541d07293170fc0b5c7e1753', fullBody: {"left": 1123, "top": 359, "right": 1241, "bottom": 437}, composedSafeAreas },
     { slug: 'two-spotted-cricket', sha256: 'eef1c4bc8ca08e6d4fe7d4cd4cfffd2ce7bc56bf43d2b4d036d11c8d30920de8', fullBody: {"left": 1133, "top": 314, "right": 1246, "bottom": 422}, composedSafeAreas },
