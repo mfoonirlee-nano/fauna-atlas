@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 177);
+  assert.equal(species.length, 178);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 177);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 178);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,7 +24465,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 120);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 121);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 48);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24516,7 +24516,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 24);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 25);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
@@ -25470,6 +25470,7 @@ test('next five toddler profiles retain sourced taxonomy, status and accepted ob
   const cases = [
     ['capybara', 'Hydrochoerus hydrochaeris', 'Rodentia', 'Caviidae', 'LC'],
     ['european-hedgehog', 'Erinaceus europaeus', 'Eulipotyphla', 'Erinaceidae', 'NT'],
+    ['little-blue-penguin', 'Eudyptula minor', 'Sphenisciformes', 'Spheniscidae', 'LC'],
   ];
   for (const [slug, scientificName, order, family, code] of cases) {
     const profile = findSpecies(slug);
@@ -25485,4 +25486,6 @@ test('next five toddler profiles retain sourced taxonomy, status and accepted ob
       verifyAcceptedHashes: true });
   }
   assert.match(findSpecies('european-hedgehog').storySections.at(-1).body, /2024.*近危/);
+  assert.match(findSpecies('little-blue-penguin').distribution.range, /novaehollandiae/);
+  assert.match(findSpecies('little-blue-penguin').storySections.at(-1).body, /地区评估/);
 });

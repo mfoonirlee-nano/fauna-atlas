@@ -216,6 +216,7 @@ test('new generated covers keep the complete subject inside every hero animation
   const cases = [
     { slug: 'capybara', sha256: '0e0b56c6fbe9d1d1cc9e5764b2ecbea19714f03bca88186107152067fed8a2ec', fullBody: {"left": 1040, "top": 350, "right": 1192, "bottom": 458}, composedSafeAreas },
     { slug: 'european-hedgehog', sha256: '12f8daa02fe1b36bd9e9fe51c9f65058989c4bd48651a777694b9ad280b40311', fullBody: {"left": 1066, "top": 318, "right": 1221, "bottom": 425}, composedSafeAreas },
+    { slug: 'little-blue-penguin', sha256: '2b77ad5ed133011c132f9afddeb3f7c579e06f8247f80b5e38a4f47bd431c354', fullBody: {"left": 1101, "top": 334, "right": 1227, "bottom": 462}, composedSafeAreas },
     { slug: 'eurasian-red-squirrel', sha256: 'c4e9c01c4ee01220bf1d85a155863b695067397e1c64815b266bb91a3887fd38', fullBody: {"left": 1138, "top": 304, "right": 1320, "bottom": 463}, composedSafeAreas },
     { slug: 'mallard', sha256: '3301e8e7237f1ac9df9da419123e42ab758068cc88a823a9a391cc88a940d982', fullBody: {"left": 1120, "top": 300, "right": 1265, "bottom": 438}, composedSafeAreas },
     { slug: 'alpaca', sha256: 'c451ef8684f88001f9e7a8fd1a45d6411d1eb12f7cb0bf551acb48acb910d9eb', fullBody: {"left": 1150, "top": 335, "right": 1255, "bottom": 458}, composedSafeAreas },

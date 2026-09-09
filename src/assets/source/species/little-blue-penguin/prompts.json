@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover",
+    "prompt": "Use case: photorealistic-natural. Asset: Fauna Atlas species cover, landscape 1536x1024. Natural-history editorial photograph of ONE anatomically accurate Eudyptula minor from New Zealand, slate blue upperparts, white belly, short dark bill, both paddle-like wings and pink feet visible standing on a coastal rock ledge, no yellow markings. Extremely wide environmental composition: animal is SMALL, entire visible body strictly inside pixel rectangle x=1120..1250 y=330..450 on a 1536x1024 canvas. Center near 77% width and 38% height. Full outer anatomy, feet/fins/tail all clear. Land subjects stand on a distant raised bank at this height; aquatic subject suspended naturally. Quiet softly detailed habitat across foreground and left 65%. Natural light. No other animals, text, watermark, borders, collage. Generate one image."
+  },
+  {
+    "file": "02-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Eudyptula minor from New Zealand, slate blue back white belly dark bill pink webbed feet. Scene: full body front three-quarter standing, both flipper wings and both feet visible. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "03-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Eudyptula minor from New Zealand, slate blue back white belly dark bill pink webbed feet. Scene: close view of blue back and white breast feathers, dark bill. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "04-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Eudyptula minor from New Zealand, slate blue back white belly dark bill pink webbed feet. Scene: swimming underwater propelled by two flipper wings extended, feet trail naturally. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "05-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Eudyptula minor from New Zealand, slate blue back white belly dark bill pink webbed feet. Scene: walking ashore on wet rocks at blue hour, full body. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "06-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Eudyptula minor from New Zealand, slate blue back white belly dark bill pink webbed feet. Scene: adult at entrance of natural coastal burrow beside one gray downy chick, no snow or ice. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  }
+]
