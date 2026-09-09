@@ -61978,6 +61978,263 @@ export const species = [
   "publishedAt": "2026-09-09",
   "updatedAt": "2026-09-09"
 },
+{
+  "id": "species-delphinapterus-leucas",
+  "slug": "beluga-whale",
+  "names": {
+    "zh": "白鲸",
+    "en": "Beluga Whale"
+  },
+  "scientificName": "Delphinapterus leucas",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Cetacea",
+      "zhName": "鲸目"
+    },
+    "family": {
+      "scientificName": "Monodontidae",
+      "zhName": "一角鲸科"
+    },
+    "genus": {
+      "scientificName": "Delphinapterus",
+      "zhName": "白鲸属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN；等级来源与适用范围见正文"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "北美洲",
+      "欧洲",
+      "亚洲"
+    ],
+    "regions": [
+      "北极与亚北极海域"
+    ],
+    "countries": [],
+    "range": "白鲸生活在北极和亚北极海域，许多种群会随季节在近岸、河口及冰区间移动。不同种群有各自的活动范围，地图中心不代表全部分布。",
+    "center": {
+      "lat": 70,
+      "lng": -100
+    }
+  },
+  "habitats": [
+    {
+      "name": "北极近岸海域与河口",
+      "realm": "marine",
+      "description": "白鲸生活在北极和亚北极海域，许多种群会随季节在近岸、河口及冰区间移动。不同种群有各自的活动范围，地图中心不代表全部分布。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "max": 4.88,
+      "unit": "m",
+      "note": "NOAA 给出的长度上限约 16 英尺，换算为约 4.88 m；并非一般成年个体的固定长度。"
+    }
+  },
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "虾蟹等甲壳动物",
+      "其他海洋无脊椎动物"
+    ],
+    "description": "主要食物包括鱼类、虾蟹等甲壳动物、其他海洋无脊椎动物。"
+  },
+  "tags": [
+    "白鲸",
+    "圆圆的额头"
+  ],
+  "summary": "看看白鲸圆圆的额头。成年白鲸通体发白，小白鲸的身体却是灰色的。",
+  "description": "白鲸额头鼓起的部分叫额隆。它与发声和回声定位有关；照片里能看见外形，不能看见声音如何传播。沿着白鲸的背找一找：它没有背鳍，背部只有低矮的脊。两侧的胸鳍和身体末端的尾叶帮助它在水里活动。",
+  "storySections": [
+    {
+      "key": "melon",
+      "label": "生活与认识",
+      "title": "圆额头里有什么",
+      "body": "白鲸额头鼓起的部分叫额隆。它与发声和回声定位有关；照片里能看见外形，不能看见声音如何传播。"
+    },
+    {
+      "key": "back",
+      "label": "生活与认识",
+      "title": "背上没有高高的鳍",
+      "body": "沿着白鲸的背找一找：它没有背鳍，背部只有低矮的脊。两侧的胸鳍和身体末端的尾叶帮助它在水里活动。"
+    },
+    {
+      "key": "calf",
+      "label": "生活与认识",
+      "title": "小白鲸是灰色的",
+      "body": "幼年白鲸的皮肤较深，长大后逐渐变白。可以在同伴图里比较深浅颜色，不要把所有灰色鲸都当成白鲸幼崽。"
+    },
+    {
+      "key": "air",
+      "label": "生活与认识",
+      "title": "到水面换气",
+      "body": "白鲸用肺呼吸，要到水面通过头顶的呼吸孔换气。它是哺乳动物，幼崽吃奶长大。"
+    },
+    {
+      "key": "group",
+      "label": "生活与认识",
+      "title": "和同伴一起游",
+      "body": "白鲸会结群活动，用多种声音交流。它会在不同水层寻找鱼和其他小动物，群体大小随地点和季节变化。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "全球与地方分开看",
+      "body": "白鲸的全球 IUCN 等级为无危，库克湾种群却面临严重威胁，不能混用两种评估范围。分类图谱沿用仓库的 Cetacea“鲸目”显示；现代分类把鲸类置于偶蹄目内。"
+    }
+  ],
+  "keyFacts": [
+    "圆额头里有什么",
+    "背上没有高高的鳍",
+    "小白鲸是灰色的",
+    "到水面换气",
+    "和同伴一起游"
+  ],
+  "threats": [
+    "海洋噪声与污染",
+    "海冰和栖息环境变化",
+    "猎物供应变化"
+  ],
+  "conservationActions": [
+    "保护河口与近岸栖息地",
+    "减少水下噪声和污染"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "圆圆的额头"
+    },
+    {
+      "key": "food",
+      "label": "食物",
+      "value": "鱼类"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "北极近岸海域与河口"
+    }
+  ],
+  "media": {
+    "image": "./images/species/beluga-whale/01-cover.webp",
+    "alt": "白鲸的完整身体位于画面右侧。",
+    "focalPoint": {
+      "x": 0.81,
+      "y": 0.32
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/beluga-whale/02-observation.webp",
+        "title": "白色的身体",
+        "alt": "成年白鲸在水下侧身游动，圆额头和没有背鳍的背部可见。",
+        "caption": "成年白鲸在水下侧身游动，圆额头和没有背鳍的背部可见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/beluga-whale/03-observation.webp",
+        "title": "靠近看圆额头",
+        "alt": "白鲸头部侧面近景，额头圆鼓，眼睛较小。",
+        "caption": "白鲸头部侧面近景，额头圆鼓，眼睛较小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/beluga-whale/04-observation.webp",
+        "title": "灰色的小白鲸",
+        "alt": "白色成年白鲸和灰色幼鲸在水中相伴游动。",
+        "caption": "白色成年白鲸和灰色幼鲸在水中相伴游动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/beluga-whale/05-observation.webp",
+        "title": "浮到水面",
+        "alt": "白鲸在平静水面露出头背，头顶可见呼吸孔。",
+        "caption": "白鲸在平静水面露出头背，头顶可见呼吸孔。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/beluga-whale/06-observation.webp",
+        "title": "冰旁的白鲸",
+        "alt": "白鲸在冰区水下游动，胸鳍和尾叶可见。",
+        "caption": "白鲸在冰区水下游动，胸鳍和尾叶可见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "NOAA Fisheries — 白鲸形态与生活",
+      "url": "https://www.fisheries.noaa.gov/species/beluga-whale",
+      "kind": "ecology",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "Society for Marine Mammalogy — 2026 年分类名单",
+      "url": "https://marinemammalscience.org/science-and-publications/list-marine-mammal-species-subspecies/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-09"
+    },
+    {
+      "title": "IUCN SSC Cetacean Specialist Group — 全球鲸类红色名录状态",
+      "url": "https://iucn-csg.org/red-list-status-of-cetaceans/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-09",
+  "updatedAt": "2026-09-09"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
