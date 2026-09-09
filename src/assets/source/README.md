@@ -304,3 +304,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Koala image set](./species/koala/README.md)
 
 - [Capybara image set](./species/capybara/README.md)
+
+- [Western European Hedgehog image set](./species/european-hedgehog/README.md)

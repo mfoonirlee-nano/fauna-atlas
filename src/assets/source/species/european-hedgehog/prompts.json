@@ -1,0 +1,36 @@
+[
+  {
+    "file": "01-cover",
+    "prompt": "Use case: photorealistic-natural. Asset: Fauna Atlas species cover, landscape 1536x1024. Natural-history editorial photograph of ONE anatomically accurate Erinaceus europaeus, brown and cream dorsal spines, pointed muzzle, small ears, short visible feet walking on leaf litter in European hedgerow. Extremely wide environmental composition: animal is SMALL, entire visible body strictly inside pixel rectangle x=1120..1250 y=330..450 on a 1536x1024 canvas. Center near 77% width and 38% height. Full outer anatomy, feet/fins/tail all clear. Land subjects stand on a distant raised bank at this height; aquatic subject suspended naturally. Quiet softly detailed habitat across foreground and left 65%. Natural light. No other animals, text, watermark, borders, collage. Generate one image.",
+    "edits": [
+      {
+        "prompt": "Edit this hedgehog cover. Keep 1536x1024 landscape and same natural European hedgerow environment, lighting, anatomical detail and quiet left side. Move the entire hedgehog and its supporting patch of ground UP by about 90 pixels so full animal lies around x1080..1220, y310..410. Raise the little ledge naturally to support its feet. Small distant animal in upper right with complete face spines and feet visible, do not crop animal or enlarge it. No text, no other animals.",
+        "hint": "Generated images are saved to /Users/chris.li/.codex/generated_images/01a0848b-dbe3-7243-8617-8e8aaa33fc66 as /Users/chris.li/.codex/generated_images/01a0848b-dbe3-7243-8617-8e8aaa33fc66/exec-d892f454-ae5e-444e-b8c3-7fb8006063e3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+      },
+      {
+        "prompt": "Adjust only the hedgehog's placement and scale in this 1536x1024 image: move its center DOWN 65 pixels and make the whole animal 75 percent of current size, keeping horizontal center x1160. The desired full animal outline runs from x1100 to1220, y345 to425. Rebuild supporting mossy ledge so feet stand naturally. Preserve natural hedgerow scene, light, quiet left, photo quality and real anatomy. One hedgehog only. No text.",
+        "hint": "Generated images are saved to /Users/chris.li/.codex/generated_images/01a0848b-dbe3-7243-8617-8e8aaa33fc66 as /Users/chris.li/.codex/generated_images/01a0848b-dbe3-7243-8617-8e8aaa33fc66/exec-33ad3033-f85d-43ee-915c-2c6ce1f8746a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+      }
+    ]
+  },
+  {
+    "file": "02-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Erinaceus europaeus western European hedgehog. Scene: full body walking on leaf litter, pointed snout dorsal spines and short feet visible. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "03-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Erinaceus europaeus western European hedgehog. Scene: close-up of dorsal spines, cream and brown bands, face visible at edge. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "04-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Erinaceus europaeus western European hedgehog. Scene: sniffing leaf litter beside a small earthworm, no gore. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "05-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Erinaceus europaeus western European hedgehog. Scene: curled into a tight protective ball on leaf litter, no exposed face or feet, naturally overlapping spines. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "06-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Erinaceus europaeus western European hedgehog. Scene: resting inside a leaf nest under a hedgerow, natural view into nest opening, no diagram. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  }
+]

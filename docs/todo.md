@@ -27,7 +27,7 @@
 - [x] 金仓鼠 *Mesocricetus auratus* — “看看它鼓起来的脸颊，里面装着食物。”
 - [x] 考拉 *Phascolarctos cinereus* — “找找抱着树干的考拉。”
 - [x] 水豚 *Hydrochoerus hydrochaeris* — “看看它圆圆的鼻子和小耳朵。”
-- [ ] 西欧刺猬 *Erinaceus europaeus* — “它的背上长着什么？”
+- [x] 西欧刺猬 *Erinaceus europaeus* — “它的背上长着什么？”
 - [ ] 小蓝企鹅 *Eudyptula minor* — “找找企鹅的翅膀和两只脚。”
 - [ ] 亚达伯拉象龟 *Aldabrachelys gigantea* — “大龟壳下面，伸出了哪些身体部位？”
 - [ ] 黄海马 *Hippocampus kuda* — “找找它卷起来的尾巴。”
