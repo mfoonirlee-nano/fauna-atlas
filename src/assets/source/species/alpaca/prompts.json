@@ -1,0 +1,36 @@
+[
+  {
+    "scene": "01-cover",
+    "mode": "built-in imagegen generation followed by edits",
+    "prompts": [
+      "Use case: photorealistic-natural. Asset type: Fauna Atlas species cover. Generate 1536x1024 landscape natural-history photograph. One cream white domestic alpaca Vicugna pacos, straight short pointed ears, long neck, dense woolly fleece, four legs with cloven padded toes, standing on short Andean pasture. No llama ears. Extreme wide environmental composition. Entire animal including ears nose feet and tail must fit inside SMALL rectangle x1060 to1210 y325 to480 on a 1536x1024 canvas, centered 74% across and 39% down. Deliberately small animal with vast real habitat surrounding it, quiet left 40% for hero text. Subject must be anatomically accurate, sharply rendered, unobstructed with real background margin. Soft natural daylight. No text, logos, other animals, border or collage.",
+      "Edit this alpaca species cover. Keep 1536x1024 landscape and natural photographic style. Reposition the WHOLE animal to center x1150 y405, keeping all outer features within x1060..1240 and y330..480. Keep current animal size but move it UP to specified center; rebuild shore or pasture rising behind it so feet contact ground naturally. Seamlessly remove old animal and reconstruct its old location, only one animal. Left 40% quiet background. Never draw boxes or text. Full anatomy and real environmental margins.",
+      "Recompose this photo, do NOT preserve original animal placement. a cream alpaca standing on short pasture. Move the entire animal substantially UPWARDS and RIGHTWARDS. Put its FEET at 44 percent of image height (above the horizontal center line) and its body center at 77 percent of image width. It must be small: full animal height only 12 percent of frame. Rebuild a raised natural log/shore/ground ledge under the feet at that elevated position so no floating. This raised ledge is essential. Remove old animal from its former location. Same 1536x1024 wide habitat photograph. No text or boxes."
+    ]
+  },
+  {
+    "scene": "02-body",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. One cream huacaya alpaca standing side-on on short grass, full long neck, short straight pointed ears, four legs and two-toed padded feet, full body. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "03-fleece",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Close portrait of cream huacaya alpaca showing woolly fleece long neck and short pointed ears, no exaggerated smile, soft pasture background. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "04-grazing",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Cream alpaca lowering its long neck to graze on short Andean pasture, all four legs and full body visible. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "05-herd",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Three domestic alpacas cream brown and white standing together in an Andean pasture, long necks small pointed ears, all full bodies clear. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "06-young",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Domestic alpaca mother and smaller cria standing side-on together on pasture, natural juvenile proportions, complete bodies, no saddle. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  }
+]

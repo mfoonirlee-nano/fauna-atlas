@@ -296,3 +296,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Eurasian Red Squirrel image set](./species/eurasian-red-squirrel/README.md)
 
 - [Mallard image set](./species/mallard/README.md)
+
+- [Alpaca image set](./species/alpaca/README.md)
