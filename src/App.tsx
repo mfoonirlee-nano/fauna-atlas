@@ -38,7 +38,8 @@ import {
   type RefObject,
 } from 'react';
 import { TaxonomyExplorer } from './components/TaxonomyExplorer';
-import { species } from './data';
+import { species, loadSpecies } from 'virtual:species-catalogue';
+import { createProfileLoader } from './domain/profile-loader';
 import {
   shouldAutoplayCarousel,
   stepCarouselIndex,
@@ -47,7 +48,7 @@ import {
   buildSpeciesImageFrames,
   type SpeciesImageFrame,
 } from './domain/image-viewer';
-import type { IucnStatusCode, Species } from './types';
+import type { IucnStatusCode, Species, SpeciesSummary } from './types';
 
 type Theme = 'light' | 'dark';
 type HeroDirection = -1 | 1;
@@ -214,7 +215,7 @@ function BrandMark({ compact = false }: { compact?: boolean }) {
   );
 }
 
-function TaxonArtwork({ item, index, large = false }: { item: Species; index: number; large?: boolean }) {
+function TaxonArtwork({ item, index, large = false }: { item: SpeciesSummary; index: number; large?: boolean }) {
   const Icon = classIcon(item.taxonomy.class.scientificName);
   const hasPhoto = Boolean(item.media.image);
   const tone = visualTones[index % visualTones.length];
@@ -462,10 +463,10 @@ function SpeciesImageViewer({
 }
 
 interface SpeciesCardProps {
-  item: Species;
+  item: SpeciesSummary;
   index: number;
   saved: boolean;
-  onOpen: (item: Species) => void;
+  onOpen: (item: SpeciesSummary) => void;
   onToggleSaved: (slug: string) => void;
 }
 
@@ -853,9 +854,9 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
 }
 
 interface HeroCarouselProps {
-  readonly items: readonly Species[];
+  readonly items: readonly SpeciesSummary[];
   readonly isObscured: boolean;
-  readonly onOpenSpecies: (item: Species) => void;
+  readonly onOpenSpecies: (item: SpeciesSummary) => void;
 }
 
 function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
@@ -1206,6 +1207,9 @@ function App() {
   const [activeClass, setActiveClass] = useState('ALL');
   const [activeStatus, setActiveStatus] = useState('ALL');
   const [selected, setSelected] = useState<Species | null>(null);
+  const [pendingProfile, setPendingProfile] = useState<SpeciesSummary | null>(null);
+  const [profileError, setProfileError] = useState(false);
+  const [profileLoader] = useState(() => createProfileLoader(loadSpecies));
   const [bookmarks, setBookmarks] = useState<string[]>(getInitialBookmarks);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const searchRef = useRef<HTMLInputElement>(null);
@@ -1288,15 +1292,38 @@ function App() {
   const regionCount = new Set(species.flatMap((item) => item.distribution.regions)).size;
   const threatenedCount = species.filter((item) => ['CR', 'EN', 'VU'].includes(item.conservation.code)).length;
 
-  const openSpecies = useCallback((item: Species) => {
-    lastFocusedElementRef.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
-    setSelected(item);
-  }, []);
+  const openSpecies = useCallback((item: SpeciesSummary) => {
+    if (!document.activeElement?.closest('.profile-load-notice')) {
+      lastFocusedElementRef.current = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    }
+    setSelected(null);
+    setPendingProfile(item);
+    setProfileError(false);
+    void profileLoader.load(item.slug).then((profile) => {
+      if (!profile) return;
+      setSelected(profile);
+      setPendingProfile(null);
+    }).catch(() => {
+      setProfileError(true);
+    });
+  }, [profileLoader]);
 
   const closeSpecies = useCallback(() => {
+    profileLoader.cancel();
     setSelected(null);
+    setPendingProfile(null);
+    setProfileError(false);
     window.requestAnimationFrame(() => lastFocusedElementRef.current?.focus());
-  }, []);
+  }, [profileLoader]);
+
+  useEffect(() => {
+    if (!pendingProfile) return;
+    const cancel = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') closeSpecies();
+    };
+    window.addEventListener('keydown', cancel);
+    return () => window.removeEventListener('keydown', cancel);
+  }, [pendingProfile, closeSpecies]);
 
   const toggleBookmark = (slug: string) => {
     setBookmarks((current) =>
@@ -1357,7 +1384,7 @@ function App() {
       <main>
         <HeroCarousel
           items={species}
-          isObscured={selected !== null || mobileMenuOpen}
+          isObscured={selected !== null || pendingProfile !== null || mobileMenuOpen}
           onOpenSpecies={openSpecies}
         />
 
@@ -1542,6 +1569,13 @@ function App() {
         </div>
       </footer>
 
+      {pendingProfile && (
+        <div className="profile-load-notice" role={profileError ? 'alert' : 'status'}>
+          <span>{profileError ? `未能加载${pendingProfile.names.zh}的档案。` : `正在加载${pendingProfile.names.zh}的档案…`}</span>
+          {profileError && <button type="button" onClick={() => openSpecies(pendingProfile)}>重试</button>}
+          <button type="button" onClick={closeSpecies}>取消</button>
+        </div>
+      )}
       {selected && (
         <SpeciesDetail
           item={selected}

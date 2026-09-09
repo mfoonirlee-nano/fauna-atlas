@@ -17,6 +17,7 @@
   "include": [
     "../src/domain/taxonomy-overview.ts",
     "../src/domain/taxonomy.ts",
+    "../src/domain/profile-loader.ts",
     "../src/data/species.ts",
     "../src/types/species.ts"
   ]

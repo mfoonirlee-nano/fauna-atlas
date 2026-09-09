@@ -190,3 +190,13 @@ export interface Species {
   readonly publishedAt: `${number}-${number}-${number}`;
   readonly updatedAt: `${number}-${number}-${number}`;
 }
+
+/** Data needed to browse, search and open a profile, without its editorial payload. */
+export type SpeciesSummary = Pick<Species,
+  'id' | 'slug' | 'names' | 'scientificName' | 'taxonomy' | 'tags' | 'summary'
+> & {
+  readonly conservation: Pick<ConservationStatus, 'code'>;
+  readonly distribution: Pick<SpeciesDistribution, 'regions' | 'center' | 'realms'>;
+  readonly habitats: readonly Pick<Habitat, 'name'>[];
+  readonly media: Pick<SpeciesMedia, 'image' | 'alt' | 'focalPoint'>;
+};

@@ -3286,3 +3286,22 @@
     }
   }
 }
+
+.profile-load-notice {
+  position: fixed;
+  z-index: 100;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  max-width: calc(100% - 32px);
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: #24392d;
+  color: #fff;
+  box-shadow: 0 8px 30px #0003;
+}
+.profile-load-notice button { color: inherit; text-decoration: underline; flex-shrink: 0; }

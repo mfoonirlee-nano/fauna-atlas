@@ -12,6 +12,7 @@ export type {
   PopulationTrend,
   SourceKind,
   Species,
+  SpeciesSummary,
   SpeciesDiet,
   SpeciesDistribution,
   SpeciesGalleryImage,

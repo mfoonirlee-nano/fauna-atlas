@@ -1,4 +1,4 @@
-import type { Species, Taxon } from '../types/species';
+import type { SpeciesSummary as Species, Taxon } from '../types/species';
 
 /** The classification ranks represented by taxon nodes, from root to leaf. */
 export const TAXONOMY_RANKS = [

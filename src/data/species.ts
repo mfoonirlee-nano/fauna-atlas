@@ -6,7 +6,7 @@ import type {
   SpeciesSource,
   SpeciesTaxonomy,
   Taxon,
-} from '../types/species';
+} from '../types/species.ts';
 
 const CONTENT_DATE = '2026-08-02' as const;
 const PANDA_SOURCE_DATE = '2026-08-12' as const;

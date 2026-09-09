@@ -1,5 +1,5 @@
 import { useEffect, useRef, type CSSProperties } from 'react';
-import type { Species } from '../types';
+import type { SpeciesSummary as Species } from '../types';
 
 export type TaxonomyDiagramLayout = 'overview' | 'path' | 'focus' | 'mobile-path';
 

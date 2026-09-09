@@ -107,3 +107,41 @@ test('built images remain reachable when dist is hosted below a subpath', async 
     );
   }
 });
+
+test('the initial JS stays small and full profiles load independently without data loss', async (context) => {
+  const manifest = JSON.parse(await readFile(join(distDirectory, '.vite/manifest.json'), 'utf8'));
+  const visited = new Set();
+  function collectInitial(key) {
+    if (visited.has(key)) return;
+    visited.add(key);
+    for (const dependency of manifest[key].imports ?? []) collectInitial(dependency);
+  }
+  collectInitial('index.html');
+  let initialBytes = 0;
+  for (const key of visited) {
+    const bytes = (await readFile(join(distDirectory, manifest[key].file))).byteLength;
+    initialBytes += bytes;
+    assert.ok(bytes < 350_000, `${key} exceeds the individual JS budget: ${bytes}`);
+  }
+  assert.ok(initialBytes < 550_000, `initial JS budget exceeded: ${initialBytes}`);
+
+  const sourceCode = await readFile(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url), 'utf8');
+  const { species } = await import(`data:text/javascript;base64,${Buffer.from(sourceCode).toString('base64')}`);
+  const profiles = Object.entries(manifest).filter(([key]) => key.startsWith('virtual:species-profile/'));
+  assert.equal(profiles.length, species.length);
+  const { server, origin } = await startStaticServer();
+  context.after(() => new Promise((done) => { server.close(done); server.closeAllConnections(); }));
+  const { pathToFileURL } = await import('node:url');
+  for (const item of species) {
+    const key = `virtual:species-profile/${item.slug}`;
+    assert.ok(!visited.has(key), `${item.slug} should not be statically imported by the entry`);
+    const chunk = manifest[key];
+    assert.ok(chunk?.isDynamicEntry, `${item.slug} must have a lazy entry`);
+    assert.equal((chunk.imports ?? []).length, 0, 'one profile must not fetch the other profiles');
+    const { default: profile } = await import(pathToFileURL(join(distDirectory, chunk.file)).href);
+    assert.deepEqual(profile, item, `${item.slug} must retain the full editorial source`);
+    const response = await fetch(new URL(chunk.file, `${origin}${deploymentPath}`));
+    assert.equal(response.status, 200, `${item.slug} chunk resolves under a subpath`);
+    await response.body?.cancel();
+  }
+});

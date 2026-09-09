@@ -16,7 +16,7 @@ import {
   toggleOverviewTaxon,
   type TaxonomyOverviewProjection,
 } from '../domain/taxonomy-overview';
-import type { Species } from '../types';
+import type { SpeciesSummary as Species } from '../types';
 import { PrototypeSwitcher, type PrototypeVariant } from './PrototypeSwitcher';
 import {
   TaxonomyDiagram,
