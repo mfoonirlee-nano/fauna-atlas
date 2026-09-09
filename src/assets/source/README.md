@@ -298,3 +298,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Mallard image set](./species/mallard/README.md)
 
 - [Alpaca image set](./species/alpaca/README.md)
+
+- [Golden Hamster image set](./species/golden-hamster/README.md)

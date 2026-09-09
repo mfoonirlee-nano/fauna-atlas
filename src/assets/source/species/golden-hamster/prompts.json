@@ -1,0 +1,37 @@
+[
+  {
+    "scene": "01-cover",
+    "mode": "built-in imagegen generation followed by edits",
+    "prompts": [
+      "Use case: photorealistic-natural. Asset type: Fauna Atlas species cover. Generate 1536x1024 landscape natural-history photograph. One wild-type golden hamster Mesocricetus auratus, golden brown back creamy belly dark cheek markings rounded ears short tail and small paws, sitting on bare soil at a dry field margin in Syria. Extreme wide environmental composition. Entire animal including ears nose feet and tail must fit inside SMALL rectangle x1060 to1210 y325 to480 on a 1536x1024 canvas, centered 74% across and 39% down. Deliberately small animal with vast real habitat surrounding it, quiet left 40% for hero text. Subject must be anatomically accurate, sharply rendered, unobstructed with real background margin. Soft natural daylight. No text, logos, other animals, border or collage.",
+      "Edit this golden-hamster species cover. Keep 1536x1024 landscape and natural photographic style. Reposition the WHOLE animal to center x1150 y405, keeping all outer features within x1060..1240 and y330..480. Shrink animal to 65% current dimensions, move it UP and RIGHT to specified center, reshape soil naturally so feet contact ground. Seamlessly remove old animal and reconstruct its old location, only one animal. Left 40% quiet background. Never draw boxes or text. Full anatomy and real environmental margins.",
+      "Recompose this photo, do NOT preserve original animal placement. a wild-type golden hamster sitting on bare soil. Move the entire animal substantially UPWARDS and RIGHTWARDS. Put its FEET at 44 percent of image height (above the horizontal center line) and its body center at 77 percent of image width. It must be small: full animal height only 12 percent of frame. Rebuild a raised natural log/shore/ground ledge under the feet at that elevated position so no floating. This raised ledge is essential. Remove old animal from its former location. Same 1536x1024 wide habitat photograph. No text or boxes.",
+      "Make the golden-hamster 70% of its current size keeping its feet and supporting ground/tree fork at the SAME position. The top of its head should therefore move DOWN, creating more empty background above its head. Keep same animal horizontal position, natural contact of feet and hands with ground/tree, original 1536x1024 dimensions and photograph style. Seamless natural habitat, no text."
+    ]
+  },
+  {
+    "scene": "02-body",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Wild-type golden hamster Mesocricetus auratus golden brown back cream belly dark cheek markings, full body side view including rounded ears tiny feet and short tail, dry soil. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "03-cheeks",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Close front three-quarter portrait wild-type golden hamster with naturally moderately filled cheek pouches, slightly bulging cheeks behind mouth, holding a grain in paws. Opaque fur, no diagram or transparent skin, no giant balloon cheeks. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "04-feeding",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Wild-type golden hamster sitting holding a seed between forepaws and nibbling it, dry Syrian field margin, detailed realistic paws and whiskers. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "05-burrow",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Wild-type golden hamster paused beside a small burrow entrance in dry soil at a field margin, full body outside hole, no underground cutaway. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "06-habitat",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Single wild-type golden hamster walking at dry grassy edge of a grain field at dusk, full body side view, plausible Syrian agricultural landscape. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  }
+]
