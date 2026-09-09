@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover",
+    "prompt": "Use case: photorealistic-natural. Asset: Fauna Atlas species cover, landscape 1536x1024. Natural-history editorial photograph of ONE anatomically accurate Hippocampus kuda, smooth yellow ochre body with subtle rings, no elaborate spines, tubular snout and small crown, upright underwater with curled prehensile tail around one thin seagrass stem in shallow Indo-Pacific seagrass meadow. Extremely wide environmental composition: animal is SMALL, entire visible body strictly inside pixel rectangle x=1120..1250 y=330..450 on a 1536x1024 canvas. Center near 77% width and 38% height. Full outer anatomy, feet/fins/tail all clear. Land subjects stand on a distant raised bank at this height; aquatic subject suspended naturally. Quiet softly detailed habitat across foreground and left 65%. Natural light. No other animals, text, watermark, borders, collage. Generate one image."
+  },
+  {
+    "file": "02-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hippocampus kuda seahorse, thick tubular snout, low rounded body bumps, no elaborate spines, small crown, no tail fin. Scene: full body side view of yellow individual holding seagrass stem with curled prehensile tail. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "03-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hippocampus kuda seahorse, thick tubular snout, low rounded body bumps, no elaborate spines, small crown, no tail fin. Scene: close view of curled prehensile tail gripping seagrass, ringed trunk visible above. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "04-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hippocampus kuda seahorse, thick tubular snout, low rounded body bumps, no elaborate spines, small crown, no tail fin. Scene: side head close view with thick tubular snout facing tiny shrimp prey, no teeth or gore. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "05-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hippocampus kuda seahorse, thick tubular snout, low rounded body bumps, no elaborate spines, small crown, no tail fin. Scene: one brown color morph in seagrass, smooth low rounded bumps. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  },
+  {
+    "file": "06-observation",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational observation gallery, 1536x1024 landscape. Natural-history photograph of Hippocampus kuda seahorse, thick tubular snout, low rounded body bumps, no elaborate spines, small crown, no tail fin. Scene: one male in side view showing natural rounded brood pouch below trunk above curled tail, no cutaway or birth. Subject large and easy for a three-year-old to observe, careful real anatomy and natural habitat, restrained natural light. One coherent photograph, no collage, text, watermark, labels, human hands, props, fantasy, anthropomorphic smile."
+  }
+]

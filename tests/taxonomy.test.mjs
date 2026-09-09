@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 179);
+  assert.equal(species.length, 180);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 179);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 180);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,7 +24465,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 122);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 123);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 48);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24487,7 +24487,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 13);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -25012,8 +25012,8 @@ test('integrates leafy seadragon taxonomy and reviewed six-image set', async () 
   const profile = findSpecies('leafy-seadragon');
   const tree = buildTaxonomyTree(species);
   assert.equal(profile.scientificName, 'Phycodurus eques');
-  assert.equal(findTaxon(tree, 'order', 'Syngnathiformes')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Syngnathidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Syngnathiformes')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Syngnathidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Phycodurus')?.children[0]?.species.id, profile.id);
   assert.equal(profile.conservation.code, 'LC');
   assert.equal(profile.conservation.assessedYear, 2016);
@@ -25472,6 +25472,7 @@ test('next five toddler profiles retain sourced taxonomy, status and accepted ob
     ['european-hedgehog', 'Erinaceus europaeus', 'Eulipotyphla', 'Erinaceidae', 'NT'],
     ['little-blue-penguin', 'Eudyptula minor', 'Sphenisciformes', 'Spheniscidae', 'LC'],
     ['aldabra-giant-tortoise', 'Aldabrachelys gigantea', 'Testudines', 'Testudinidae', 'VU'],
+    ['yellow-seahorse', 'Hippocampus kuda', 'Syngnathiformes', 'Syngnathidae', 'VU'],
   ];
   for (const [slug, scientificName, order, family, code] of cases) {
     const profile = findSpecies(slug);
@@ -25489,4 +25490,5 @@ test('next five toddler profiles retain sourced taxonomy, status and accepted ob
   assert.match(findSpecies('european-hedgehog').storySections.at(-1).body, /2024.*近危/);
   assert.match(findSpecies('little-blue-penguin').distribution.range, /novaehollandiae/);
   assert.match(findSpecies('little-blue-penguin').storySections.at(-1).body, /地区评估/);
+  assert.equal(findSpecies('yellow-seahorse').conservation.assessedYear, 2012);
 });

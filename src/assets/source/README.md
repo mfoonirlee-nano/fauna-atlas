@@ -310,3 +310,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Little Blue Penguin image set](./species/little-blue-penguin/README.md)
 
 - [Aldabra Giant Tortoise image set](./species/aldabra-giant-tortoise/README.md)
+
+- [Yellow Seahorse image set](./species/yellow-seahorse/README.md)

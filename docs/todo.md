@@ -30,7 +30,7 @@
 - [x] 西欧刺猬 *Erinaceus europaeus* — “它的背上长着什么？”
 - [x] 小蓝企鹅 *Eudyptula minor* — “找找企鹅的翅膀和两只脚。”
 - [x] 亚达伯拉象龟 *Aldabrachelys gigantea* — “大龟壳下面，伸出了哪些身体部位？”
-- [ ] 黄海马 *Hippocampus kuda* — “找找它卷起来的尾巴。”
+- [x] 黄海马 *Hippocampus kuda* — “找找它卷起来的尾巴。”
 - [ ] 普通海星 *Asterias rubens* — “一起数数它伸出的腕。”
 - [ ] 海象 *Odobenus rosmarus* — “找找嘴边伸出来的两根长牙。”
 - [ ] 大斑啄木鸟 *Dendrocopos major* — “看看它用嘴啄树干的样子。”
