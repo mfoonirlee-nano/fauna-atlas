@@ -36,7 +36,7 @@
 - [x] 大斑啄木鸟 *Dendrocopos major* — “看看它用嘴啄树干的样子。”
 - [x] 切叶蚁 *Atta cephalotes* — “找找搬着叶子的小蚂蚁。”
 - [x] 豚鼠 *Cavia porcellus* — “看看它的小短腿和胡须。”
-- [ ] 耳廓狐 *Vulpes zerda* — “它的耳朵比脸还显眼。”
+- [x] 耳廓狐 *Vulpes zerda* — “它的耳朵比脸还显眼。”
 - [ ] 港海豹 *Phoca vitulina* — “找找鼻子旁边的胡须。”
 - [ ] 白鲸 *Delphinapterus leucas* — “看看白鲸圆圆的额头。”
 - [ ] 虎鲸 *Orcinus orca* — “找找它身上的黑色和白色。”

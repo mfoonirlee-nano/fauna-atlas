@@ -318,3 +318,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Great Spotted Woodpecker image set](./species/great-spotted-woodpecker/README.md)
 - [Leafcutter Ant image set](./species/leafcutter-ant/README.md)
 - [Guinea Pig image set](./species/guinea-pig/README.md)
+
+- [Fennec Fox image set](./species/fennec-fox/README.md)

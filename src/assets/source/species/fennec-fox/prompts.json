@@ -1,0 +1,31 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-09",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Generate a 1536x1024 photorealistic wildlife editorial cover for Fauna Atlas. One anatomically accurate fennec fox Vulpes zerda, full body including enormous ears, all feet and black-tipped bushy tail, standing on Sahara sand. Extreme wide environmental view: entire fox confined to x=1070..1260 y=310..440 pixels, centered at 76% width and 36% height; small subject deliberately for responsive hero crop. Quiet pale dune background across left 60%, continuous natural background, no text no collage no border no watermark. Fine realistic fur, soft dawn light. Save generated image."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Full body side view standing on sand, oversized ears black-tipped tail furry paws clearly visible. Species Vulpes zerda. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Close portrait emphasizing two very large ears and small pointed muzzle. Species Vulpes zerda. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Walking at twilight over sand with sparse desert scrub, full body. Species Vulpes zerda. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Resting curled near entrance of a sandy burrow, ears visible. Species Vulpes zerda. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 natural history editorial photograph style scientific scene reconstruction for a children's species atlas. Close low view of furry paws resting on sand, natural intact legs. Species Vulpes zerda. Anatomically accurate, realistic proportions, subject large enough to see details, natural light and habitat. Single coherent scene, no text, no diagrams, no collage, no watermark, no anthropomorphic expression."
+    }
+  ],
+  "coverHistory": []
+}

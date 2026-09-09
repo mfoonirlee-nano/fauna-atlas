@@ -214,6 +214,7 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'fennec-fox', sha256: '889caff2e9c0680a6fa9cac77107a42f6d0b88cff72599c39f4cd0d53f5b3615', fullBody: {"left": 1035, "top": 306, "right": 1230, "bottom": 452}, composedSafeAreas },
     { slug: 'common-starfish', sha256: '9140a9e61a050c6666ea2df7ff25c34b86dbf53c11c79fcf6351d9a381e4ca47', fullBody: {"left": 1042, "top": 329, "right": 1172, "bottom": 424}, composedSafeAreas },
     { slug: 'walrus', sha256: 'd12ce22d749d2a9bd21e2be743442bb7abc3c95cbdf9388fb086fea39400933a', fullBody: {"left": 1122, "top": 378, "right": 1320, "bottom": 474}, composedSafeAreas },
     { slug: 'great-spotted-woodpecker', sha256: '3013b1c92fd14d835427ca2f9aa04fdef66ca28a6014e22b4c38a02e743f3971', fullBody: {"left": 1084, "top": 337, "right": 1142, "bottom": 482}, composedSafeAreas },
