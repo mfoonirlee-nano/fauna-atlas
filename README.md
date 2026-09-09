@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/favicon.svg" width="88" height="88" alt="Fauna Atlas 标志" />
+  <img src="https://fauna-atlas.mfoonirlee.workers.dev/favicon.svg" width="88" height="88" alt="Fauna Atlas 标志" />
   <h1>Fauna Atlas</h1>
   <p><strong>万物生灵图册</strong></p>
   <p>从一张图片出发，认识一种动物，探索它在自然中的位置。</p>
