@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 174);
+  assert.equal(species.length, 175);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 174);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 175);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,8 +24465,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 117);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 45);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 118);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 46);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 12);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
@@ -25437,4 +25437,30 @@ test('integrates European rabbit with wild-population scope and reviewed images'
   assert.match(profile.distribution.range, /原生.*引入/);
   assert.match(profile.storySections.find(({ key }) => key === 'conservation').body, /家兔饲养数量不能/);
   await assertGeneratedImageSet({ profile, slug: profile.slug, basenames: ['01-cover', '02-body', '03-ears', '04-grazing', '05-burrow', '06-habitat'], verifyAcceptedHashes: true });
+});
+
+test('five priority animals retain their taxonomy, editorial chapters and six accepted images', async () => {
+  const cases = [
+    ['eurasian-red-squirrel', 'Sciurus vulgaris', 'Rodentia', 'Sciuridae', 'LC', ['01-cover', '02-body', '03-tail', '04-feeding', '05-climbing', '06-habitat']],
+    ['mallard', 'Anas platyrhynchos', 'Anseriformes', 'Anatidae', 'LC', ['01-cover', '02-body', '03-female', '04-swimming', '05-feeding', '06-young']],
+    ['alpaca', 'Vicugna pacos', 'Artiodactyla', 'Camelidae', 'NE', ['01-cover', '02-body', '03-fleece', '04-grazing', '05-herd', '06-young']],
+    ['golden-hamster', 'Mesocricetus auratus', 'Rodentia', 'Cricetidae', 'EN', ['01-cover', '02-body', '03-cheeks', '04-feeding', '05-burrow', '06-habitat']],
+    ['koala', 'Phascolarctos cinereus', 'Diprotodontia', 'Phascolarctidae', 'VU', ['01-cover', '02-body', '03-grip', '04-feeding', '05-resting', '06-young']],
+  ];
+  for (const [slug, scientificName, order, family, status, basenames] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, scientificName);
+    assert.equal(profile.taxonomy.order.scientificName, order);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.conservation.code, status);
+    assert.equal(profile.storySections.length, 6);
+    assert.ok(profile.sources.some(({ kind }) => kind === 'taxonomy'));
+    await assertGeneratedImageSet({ profile, slug, basenames, verifyAcceptedHashes: true });
+  }
+  const alpaca = findSpecies('alpaca');
+  assert.ok(alpaca.names.aliases.includes('Lama pacos'));
+  assert.match(alpaca.distribution.range, /驯养/);
+  assert.match(findSpecies('mallard').description, /雌鸭/);
+  assert.ok(findSpecies('golden-hamster').sources.some(({ url }) => url.endsWith('2022-1_RL_Stats_Table_7.pdf')));
+  assert.ok(findSpecies('koala').storySections.some(({ body }) => body.includes('全球易危') && body.includes('合并种群')));
 });

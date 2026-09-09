@@ -25,7 +25,7 @@
 - [x] 绿头鸭 *Anas platyrhynchos* — “看看鸭子在水上怎么游。”
 - [x] 羊驼 *Vicugna pacos* — “它的脖子长长的，身上毛茸茸的。”
 - [x] 金仓鼠 *Mesocricetus auratus* — “看看它鼓起来的脸颊，里面装着食物。”
-- [ ] 考拉 *Phascolarctos cinereus* — “找找抱着树干的考拉。”
+- [x] 考拉 *Phascolarctos cinereus* — “找找抱着树干的考拉。”
 - [ ] 水豚 *Hydrochoerus hydrochaeris* — “看看它圆圆的鼻子和小耳朵。”
 - [ ] 西欧刺猬 *Erinaceus europaeus* — “它的背上长着什么？”
 - [ ] 小蓝企鹅 *Eudyptula minor* — “找找企鹅的翅膀和两只脚。”
