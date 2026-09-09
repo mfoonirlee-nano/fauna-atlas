@@ -320,3 +320,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Guinea Pig image set](./species/guinea-pig/README.md)
 
 - [Fennec Fox image set](./species/fennec-fox/README.md)
+- [Harbor Seal image set](./species/harbor-seal/README.md)
