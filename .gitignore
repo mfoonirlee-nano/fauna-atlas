@@ -4,6 +4,7 @@ dist-ssr/
 coverage/
 *.tsbuildinfo
 .vite/
+.wrangler/
 
 # Local environment files
 .env
