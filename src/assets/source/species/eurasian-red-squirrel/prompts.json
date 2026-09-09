@@ -1,0 +1,36 @@
+[
+  {
+    "scene": "01-cover",
+    "mode": "built-in imagegen generation followed by edits",
+    "prompts": [
+      "Use case: photorealistic-natural. Asset type: Fauna Atlas species cover, 1536x1024 landscape. One anatomically accurate Eurasian red squirrel (Sciurus vulgaris), russet coat white belly tufted ears and bushy curved tail, sitting side-on on a bare broad fallen log in a European woodland. Extreme wide environmental photograph. Entire animal including tail, ear tufts and toes must fit in a SMALL bounding box x1040 to1220 y320 to488 in the 1536x1024 frame. Animal center around 73.5% width 40% height. This small subject scale is deliberate for responsive hero safety. Rest is real softly blurred woodland, left 40% quiet negative space. Natural soft daylight, realistic anatomy and fur. No other animals, text, border, watermark or collage.",
+      "Edit this woodland squirrel cover: keep the 1536x1024 scene and photorealistic style. Make the complete squirrel 65% of its current width and height, positioned with its center at x1145 y405. The full squirrel including every tail hair, ear tuft, nose and toe must lie inside x1050..1240 y325..480. Seamlessly regenerate the log and woodland where the old animal was, no pasted look, keep natural contact with log. Quiet left background. No text.",
+      "Recompose this photo, do NOT preserve original animal placement. a red squirrel with bushy tail sitting on a bare fallen log. Move the entire animal substantially UPWARDS and RIGHTWARDS. Put its FEET at 44 percent of image height (above the horizontal center line) and its body center at 77 percent of image width. It must be small: full animal height only 12 percent of frame. Rebuild a raised natural log/shore/ground ledge under the feet at that elevated position so no floating. This raised ledge is essential. Remove old animal from its former location. Same 1536x1024 wide habitat photograph. No text or boxes."
+    ]
+  },
+  {
+    "scene": "02-body",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Side view full body red squirrel on a log, complete enormous bushy tail curled up behind back, tufted ears, white belly, toes visible. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "03-tail",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Close side view of red squirrel with its entire bushy tail, russet individual, tail texture sharply visible, forest backdrop. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "04-feeding",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Red squirrel sitting on haunches holding a pine cone in front paws while nibbling it, accurate paws and incisors, forest ground. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "05-climbing",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Red squirrel gripping the bark of a slanting tree trunk, full body and tail visible, natural climbing pose. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  },
+  {
+    "scene": "06-habitat",
+    "mode": "built-in imagegen",
+    "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas educational species gallery. 1536x1024 landscape. Red squirrel on a broad branch in mixed conifer and deciduous woodland, medium environmental framing, nest NOT depicted. Natural-history editorial photograph, anatomically accurate, natural soft daylight except specified dusk. Subject large and clearly readable for a 3-year-old with calm uncluttered surroundings, margin around subject, no text, labels, logos, border, collage, human hands, clothes or anthropomorphic expressions."
+  }
+]

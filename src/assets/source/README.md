@@ -292,3 +292,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Heike Firefly image set](./species/heike-firefly/README.md)
 
 - [European Rabbit image set](./species/european-rabbit/README.md)
+
+- [Eurasian Red Squirrel image set](./species/eurasian-red-squirrel/README.md)
