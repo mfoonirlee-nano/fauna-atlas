@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-10",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific reconstruction. One adult Eurasian magpie Pica pica in full side profile facing left perched on a thin branch, black head and chest, white belly and shoulder patches, subtle blue-green iridescent folded wings, very long tapering black tail extending right, both feet holding the branch. Subdued European woodland edge. CRITICAL COMPOSITION: extremely distant tiny animal. Its full silhouette including muzzle, ears, paws, claws or bill, feet and entire tail must fit inside x=1110..1240 and y=330..440, centered at (1175,385). Only 8% of the image width and 10% height. Continuous habitat surrounds it with real background clearance. Left 60% is quiet softly focused background for website text. The animal must be fully unobscured. Not a close-up. No other animals, people, text, borders, labels, diagrams, collage, watermark or anthropomorphic expression."
+    },
+    {
+      "basename": "02-observation",
+      "title": "长尾巴和白肚皮",
+      "alt": "喜鹊侧身站在枝上，长尾、白色肩斑和腹部可见",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One Eurasian magpie Pica pica perched sideways on a branch in Europe, full body with long graduated tail fully in frame, black head and breast, white belly and scapular patches, folded dark blue-green iridescent wings, black bill and two feet gripping branch. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "羽毛会泛蓝绿色",
+      "alt": "喜鹊背部与尾羽在侧光下呈现蓝绿色光泽",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One Eurasian magpie Pica pica perched on a branch viewed from rear three-quarter angle, medium close full-body view of folded wings and entire long tail with subtle blue and green iridescence in natural side light, white shoulder patches and black head retained. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "在草地上找食物",
+      "alt": "喜鹊低头在短草间寻找昆虫等食物",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One Eurasian magpie Pica pica foraging on short meadow grass in a European park, head tilted down toward leaf litter, entire long tail and feet visible, black and white body, subtle blue-green folded wings, no litter or human food. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "衔着细树枝",
+      "alt": "喜鹊用嘴衔着一根细枝，准备带去筑巢",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One Eurasian magpie Pica pica perched on a thin branch holding a single dry twig in its black bill, whole body including long tapering tail and feet in frame, white belly and shoulder patches, natural European woodland in early spring. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "展翅时的白羽",
+      "alt": "喜鹊飞过林缘，展开的翅膀露出白色羽区",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One Eurasian magpie Pica pica in level flight above a meadow at woodland edge, both wings spread showing correct large white primary patches with black tips, black head and chest, white belly, long graduated black tail with subtle green-blue sheen. Whole wings, tail, bill and tucked legs entirely in frame, accurate bird anatomy. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    }
+  ]
+}

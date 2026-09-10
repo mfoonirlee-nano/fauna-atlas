@@ -333,3 +333,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Fire Salamander image set](./species/fire-salamander/README.md)
 - [Malayan Tapir image set](./species/malayan-tapir/README.md)
 - [Brown Bear image set](./species/brown-bear/README.md)
+- [Eurasian Magpie image set](./species/eurasian-magpie/README.md)
