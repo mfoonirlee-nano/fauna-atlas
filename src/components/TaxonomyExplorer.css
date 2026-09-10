@@ -88,6 +88,7 @@
 
 .taxonomy-explorer__legend {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 22px;
   margin-top: 23px;
@@ -98,8 +99,10 @@
 
 .taxonomy-explorer__legend span {
   display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
   gap: 8px;
+  white-space: nowrap;
 }
 
 .taxonomy-explorer__legend i {
@@ -691,6 +694,7 @@
   font-family: var(--serif);
   font-size: 1.06rem;
   font-weight: 500;
+  text-wrap: balance;
 }
 
 .taxonomy-path__identity i {
@@ -1174,11 +1178,11 @@
   }
 
   .taxonomy-explorer h2 {
-    font-size: clamp(2.55rem, 11vw, 4rem);
+    font-size: clamp(2.25rem, 9.6vw, 4rem);
+    line-height: 1.16;
   }
 
   .taxonomy-explorer__legend {
-    flex-wrap: wrap;
     margin-top: 17px;
   }
 
@@ -1450,7 +1454,7 @@
 
 @media (max-width: 430px) {
   .taxonomy-explorer h2 {
-    font-size: 2.75rem;
+    font-size: clamp(2.15rem, 9vw, 2.75rem);
   }
 
   .taxonomy-explorer__legend {

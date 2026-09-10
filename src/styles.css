@@ -98,8 +98,21 @@
   body {
     background: var(--paper);
     color: var(--ink);
+    line-break: strict;
+    word-break: normal;
     overflow-x: hidden;
     transition: background-color 220ms ease, color 220ms ease;
+  }
+
+  /* Balance short headings; keep prose full-width while improving its last line. */
+  :where(h1, h2, h3, h4, h5, h6) {
+    overflow-wrap: break-word;
+    text-wrap: balance;
+  }
+
+  :where(p, dd, li, figcaption) {
+    overflow-wrap: break-word;
+    text-wrap: pretty;
   }
 
   a {
@@ -275,11 +288,14 @@
 
   .status-dot {
     display: inline-flex;
+    flex: 0 0 auto;
     align-items: center;
     gap: 7px;
+    white-space: nowrap;
   }
 
   .status-dot::before {
+    flex: 0 0 auto;
     width: 7px;
     height: 7px;
     content: '';
@@ -506,8 +522,10 @@
 
   .species-card__eyebrow {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    gap: 8px 16px;
     margin-bottom: 29px;
     color: var(--ink-faint);
     font-size: 0.62rem;
@@ -553,9 +571,10 @@
 
   .species-card__meta {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    gap: 20px;
+    gap: 8px 20px;
     margin-top: auto;
     padding-top: 18px;
     color: var(--ink-faint);
@@ -563,6 +582,13 @@
     font-size: 0.64rem;
     font-weight: 650;
     letter-spacing: 0.09em;
+  }
+
+  .species-card__eyebrow > span:not(.status-dot),
+  .species-card__meta > span {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    text-wrap: balance;
   }
 
   .species-card__open {
@@ -836,7 +862,7 @@
     font-size: clamp(3.6rem, 7.5vw, 6rem);
     font-weight: 400;
     letter-spacing: 0.04em;
-    line-height: 0.98;
+    line-height: 1.12;
   }
 
   .detail-hero__english {
@@ -873,11 +899,13 @@
   }
 
   .detail-tags span {
+    max-width: 100%;
     padding: 7px 10px;
     color: var(--ink-soft);
     border: 1px solid var(--line);
     border-radius: 999px;
     font-size: 0.68rem;
+    text-wrap: balance;
   }
 
   .detail-stats {
@@ -885,7 +913,7 @@
     margin-top: 58px;
     border-top: 1px solid var(--line-strong);
     border-bottom: 1px solid var(--line-strong);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .detail-stats > div {
@@ -915,14 +943,18 @@
     font-family: var(--serif);
     font-size: 2rem;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    text-wrap: balance;
   }
 
   .detail-stats small {
+    display: inline-block;
     margin-left: 4px;
     font-family: var(--sans);
     font-size: 0.66rem;
     font-weight: 500;
+    white-space: nowrap;
   }
 
   .detail-stats p {
@@ -1294,7 +1326,7 @@
     gap: 16px;
     padding: 15px 0;
     border-bottom: 1px solid rgba(237, 241, 232, 0.11);
-    grid-template-columns: 72px 1fr;
+    grid-template-columns: 72px minmax(0, 1fr);
   }
 
   .image-viewer__facts dt {
@@ -1304,9 +1336,6 @@
   }
 
   .image-viewer__facts dd {
-    display: flex;
-    align-items: center;
-    gap: 8px;
     margin: 0;
     color: rgba(237, 241, 232, 0.78);
     font-size: 0.67rem;
@@ -1314,9 +1343,10 @@
   }
 
   .image-viewer__facts .status-badge {
+    margin-right: 8px;
+    vertical-align: middle;
     width: 30px;
     height: 20px;
-    flex: 0 0 auto;
     font-size: 0.55rem;
   }
 
@@ -1392,7 +1422,7 @@
     display: grid;
     gap: 60px;
     margin-top: 76px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .detail-section h3,
@@ -1430,7 +1460,7 @@
     min-width: 0;
     padding: 28px 24px 30px;
     border-bottom: 1px solid var(--line);
-    grid-template-columns: 28px 1fr;
+    grid-template-columns: 28px minmax(0, 1fr);
   }
 
   .detail-story article:nth-child(odd) {
@@ -1479,7 +1509,7 @@
     gap: 15px;
     padding: 13px 0;
     border-bottom: 1px solid var(--line);
-    grid-template-columns: 72px 1fr;
+    grid-template-columns: 72px minmax(0, 1fr);
   }
 
   .detail-facts dt,
@@ -1590,7 +1620,7 @@
     display: grid;
     gap: 8px;
     margin-top: 28px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .source-list a {
@@ -1603,7 +1633,17 @@
     border: 1px solid var(--line);
     font-size: 0.72rem;
     line-height: 1.45;
+    overflow-wrap: break-word;
+    text-wrap: pretty;
     transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease;
+  }
+
+  .source-list a > span {
+    min-width: 0;
+  }
+
+  .source-list a > svg {
+    flex: 0 0 auto;
   }
 
   .source-list a:hover {
@@ -1929,10 +1969,12 @@
     font-family: var(--serif);
     font-size: 2rem;
     font-weight: 400;
+    text-wrap: balance;
   }
 
   .hero-specimen__meta {
     margin-top: 10px;
+    text-wrap: pretty;
   }
 
   .hero-specimen svg {
@@ -2144,6 +2186,7 @@
     color: var(--ink-faint);
     font-size: 0.62rem;
     letter-spacing: 0.1em;
+    text-wrap: balance;
   }
 
   .atlas-section {
@@ -2156,7 +2199,7 @@
     display: grid;
     align-items: end;
     gap: 80px;
-    grid-template-columns: 1fr minmax(260px, 0.55fr);
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 0.55fr);
   }
 
   .section-heading h2,
@@ -2291,16 +2334,19 @@
 
   .phylum-filter__title {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
-    gap: 8px;
+    gap: 4px 8px;
     font-size: 0.85rem;
     font-weight: 600;
   }
 
   .phylum-filter__title small {
+    flex: 0 0 auto;
     font-size: 0.7rem;
     font-weight: 400;
+    white-space: nowrap;
   }
 
   .phylum-filter__preview {
@@ -2309,7 +2355,8 @@
     color: var(--ink-soft);
     font-size: 0.68rem;
     line-height: 1.6;
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
+    text-wrap: pretty;
   }
 
   .atlas-classification__detail {
@@ -2340,6 +2387,7 @@
     border-radius: 5px;
     color: var(--ink-soft);
     font-size: 0.78rem;
+    white-space: nowrap;
   }
 
   .phylum-filter button:hover,
@@ -2905,7 +2953,8 @@
     .section-heading h2,
     .mission-section h2,
     .newsletter h2 {
-      font-size: clamp(2.7rem, 12vw, 4.2rem);
+      font-size: clamp(2.25rem, 9.6vw, 4.2rem);
+      line-height: 1.16;
     }
 
     .section-heading > p {
@@ -3234,7 +3283,7 @@
     }
 
     .image-viewer__facts > div {
-      grid-template-columns: 65px 1fr;
+      grid-template-columns: 65px minmax(0, 1fr);
     }
 
     .detail-hero {
@@ -3242,7 +3291,7 @@
     }
 
     .detail-hero__title h2 {
-      font-size: 3.45rem;
+      font-size: clamp(2.6rem, 11vw, 3.45rem);
     }
 
     .detail-hero__status {
