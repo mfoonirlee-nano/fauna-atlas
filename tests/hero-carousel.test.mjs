@@ -215,6 +215,7 @@ test('new generated covers keep the complete subject inside every hero animation
   ]);
   const cases = [
     { slug: 'fire-salamander', sha256: 'a02ad3f4e9e1375a91f1ff2ef399a87db5648bfe3356a2cae66079ed634bfb6c', fullBody: {"left": 1038, "top": 320, "right": 1193, "bottom": 411}, composedSafeAreas },
+    { slug: 'malayan-tapir', sha256: 'accaddb648d8479cae8cfe65e62d04d34188e48a03ed0a775d3cd5cc4a8e96a8', fullBody: {"left": 1078, "top": 328, "right": 1248, "bottom": 426}, composedSafeAreas },
     { slug: 'scarlet-macaw', sha256: 'b70d42768f1d0ea51a3a6705c289f16121130765beeb5e72f45b75c8b5a8d4d7', fullBody: {"left": 1116, "top": 342, "right": 1167, "bottom": 461}, composedSafeAreas },
     { slug: 'guppy', sha256: '2ab8d504454cda1ef1b9555354004153584786d1e7d1e304d5410be0e0acd434', fullBody: {"left": 1059, "top": 373, "right": 1172, "bottom": 434}, composedSafeAreas },
     { slug: 'blue-tang', sha256: 'e4708dff207a7c4d8a8b3717b9019e554b604b6da62da1ebff570148de2444c0', fullBody: {"left": 1048, "top": 345, "right": 1138, "bottom": 389}, composedSafeAreas },

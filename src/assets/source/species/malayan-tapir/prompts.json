@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-10",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific reconstruction. One adult Malayan tapir Tapirus indicus, broad white saddle across the middle and rump, black head, shoulders and legs, short flexible proboscis, round white-edged ears, full side profile facing left on a level forest trail in a Malaysian tropical rainforest, subdued foliage. CRITICAL COMPOSITION: extremely distant tiny animal. Its full silhouette including muzzle, ears, paws, claws or bill, feet and entire tail must fit inside x=1110..1240 and y=330..440, centered at (1175,385). Only 8% of the image width and 10% height. Continuous habitat surrounds it with real background clearance. Left 60% is quiet softly focused background for website text. The animal must be fully unobscured. Not a close-up. No other animals, people, text, borders, labels, diagrams, collage, watermark or anthropomorphic expression."
+    },
+    {
+      "basename": "02-observation",
+      "title": "身上的白色鞍斑",
+      "alt": "成年马来貘站在林间，白色鞍斑与黑色头部、四肢形成对照",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One adult Malayan tapir Tapirus indicus in full side profile on a tropical forest path, black forequarters and head, broad white saddle over middle and rump, black legs, short tail, white-edged rounded ears. Clear unobscured whole body. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "会弯的短鼻子",
+      "alt": "马来貘用短鼻和上唇卷住低处的树叶",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: Close three-quarter head view of a Malayan tapir Tapirus indicus browsing a low leafy branch, short fleshy flexible proboscis formed by nose and upper lip curling around fresh leaves, white-edged ears and black neck visible, anatomically accurate not an elephant trunk. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "幼崽的条纹",
+      "alt": "马来貘幼崽身上有浅色条纹和斑点，与身旁成体的鞍斑不同",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: An adult female Malayan tapir Tapirus indicus beside her small young calf on the same ground plane in a tropical forest clearing. Mother black with broad white saddle, calf brown with pale longitudinal stripes and spots, both fully visible, natural scale and proportions. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "水边走一走",
+      "alt": "马来貘在森林溪流的浅水处行走",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One adult Malayan tapir Tapirus indicus wading across a shallow tropical forest stream, black and white saddle pattern clearly visible, water around lower legs only, body and short proboscis above water, realistic small ripples. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "沿着树林找食物",
+      "alt": "马来貘低头在森林边缘取食低矮植物",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One adult Malayan tapir Tapirus indicus browsing low forest understory vegetation at dusk, whole body unobscured including black legs and broad white saddle, short flexible muzzle directed down toward leaves, natural Southeast Asian rainforest. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    }
+  ]
+}
