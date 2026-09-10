@@ -46,7 +46,7 @@
 - [x] 拟刺尾鲷 *Paracanthurus hepatus* — “蓝色身体后面，尾巴是什么颜色？”
 - [x] 中华绒螯蟹 *Eriocheir sinensis* — “找找大螯上的绒毛。”
 - [x] 普通乌贼 *Sepia officinalis* — “找找嘴边伸出的腕足。”
-- [ ] 火蝾螈 *Salamandra salamandra* — “找找黑色身体上的黄色花纹。”
+- [x] 火蝾螈 *Salamandra salamandra* — “找找黑色身体上的黄色花纹。”
 - [ ] 马来貘 *Tapirus indicus* — “看看它身上哪一块是白色的。”
 - [ ] 棕熊 *Ursus arctos* — “找找圆耳朵和大大的熊掌。”
 - [ ] 喜鹊 *Pica pica* — “看看它的长尾巴，找找白色羽毛。”

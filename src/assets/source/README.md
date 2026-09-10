@@ -330,3 +330,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Blue Tang image set](./species/blue-tang/README.md)
 - [Chinese Mitten Crab image set](./species/chinese-mitten-crab/README.md)
 - [Common Cuttlefish image set](./species/common-cuttlefish/README.md)
+- [Fire Salamander image set](./species/fire-salamander/README.md)

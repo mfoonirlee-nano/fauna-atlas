@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-10",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Asset: Fauna Atlas species cover, 1536x1024 landscape. A wide natural-history editorial photograph style reconstruction of a European deciduous woodland floor with soft diffuse light, damp brown leaf litter and subdued green moss. One anatomically accurate fire salamander Salamandra salamandra, glossy black with irregular yellow patches, four short limbs and a long tapering tail, seen from a high oblique angle, resting naturally. CRITICAL COMPOSITION: very distant tiny animal, entire body including every visible toe and the curved tail must fit inside x=1110..1240 y=330..440 on the 1536x1024 canvas, centered near (1175,385). Keep the animal genuinely small, only 8% canvas width. Surround it with continuous real habitat, unobscured silhouette, left 60% quiet soft woodland floor. No additional animals, fire, text, borders, logos, collage or watermark. Not a close-up."
+    },
+    {
+      "basename": "02-observation",
+      "title": "黑底上的黄斑",
+      "alt": "火蝾螈伏在湿叶上，黑色身体和黄色斑块清楚可见",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One adult fire salamander Salamandra salamandra resting on damp brown leaf litter, full-body high oblique view, glossy black skin with irregular yellow patches, four short limbs, long gently curved tapering tail entirely in frame. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "尾巴跟着身体弯",
+      "alt": "火蝾螈走过苔藓，短腿撑起身体，长尾向侧面弯曲",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One adult fire salamander Salamandra salamandra walking slowly over a low mossy stone, full side view, four short limbs, rounded long tapering tail curved naturally, black skin and irregular yellow patches. No lizard scales. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "湿润的躲藏处",
+      "alt": "火蝾螈停在腐木边，周围有湿叶和苔藓",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One adult fire salamander Salamandra salamandra at the mouth of a shady natural crevice beside a fallen log in a damp European deciduous forest, entire black-and-yellow body visible beside the refuge rather than occluded. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "水里的幼体",
+      "alt": "火蝾螈幼体停在清浅溪水中，头后有外鳃",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One fire salamander Salamandra salamandra larva underwater in a clear shallow shaded stream, lateral macro view showing brownish mottled aquatic body, feathery external gills just behind the head, four small developed legs, delicate tail fin. Not an axolotl, no adult yellow-black coloration. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "夜间的林地",
+      "alt": "火蝾螈在潮湿的夜间林地活动，落叶间留有爬行空间",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One full adult fire salamander Salamandra salamandra on damp European forest leaf litter at dusk after rain, black and yellow pattern lit with soft natural-looking documentary fill light, nearby shaded stream out of focus, entire animal and tail visible. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    }
+  ]
+}
