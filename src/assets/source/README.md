@@ -334,3 +334,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Malayan Tapir image set](./species/malayan-tapir/README.md)
 - [Brown Bear image set](./species/brown-bear/README.md)
 - [Eurasian Magpie image set](./species/eurasian-magpie/README.md)
+- [Long-tailed Chinchilla image set](./species/long-tailed-chinchilla/README.md)

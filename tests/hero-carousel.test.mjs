@@ -218,6 +218,7 @@ test('new generated covers keep the complete subject inside every hero animation
     { slug: 'malayan-tapir', sha256: 'accaddb648d8479cae8cfe65e62d04d34188e48a03ed0a775d3cd5cc4a8e96a8', fullBody: {"left": 1078, "top": 328, "right": 1248, "bottom": 426}, composedSafeAreas },
     { slug: 'brown-bear', sha256: 'eab98ad881b46133c738d3611b2bed7e9d02aac3ac06165a6d3d22c767d26528', fullBody: {"left": 1083, "top": 408, "right": 1183, "bottom": 470}, composedSafeAreas },
     { slug: 'eurasian-magpie', sha256: '14bca02afa937eea9095e7d583815f16e6874b3cbd7740b3da6268a8ca22039f', fullBody: {"left": 1038, "top": 307, "right": 1211, "bottom": 415}, composedSafeAreas },
+    { slug: 'long-tailed-chinchilla', sha256: '8fb409e2c7314ba1cfdc084a5a62e496b9b24db0b51158dae53a71c66c0db36a', fullBody: {"left": 1110, "top": 307, "right": 1290, "bottom": 420}, composedSafeAreas },
     { slug: 'scarlet-macaw', sha256: 'b70d42768f1d0ea51a3a6705c289f16121130765beeb5e72f45b75c8b5a8d4d7', fullBody: {"left": 1116, "top": 342, "right": 1167, "bottom": 461}, composedSafeAreas },
     { slug: 'guppy', sha256: '2ab8d504454cda1ef1b9555354004153584786d1e7d1e304d5410be0e0acd434', fullBody: {"left": 1059, "top": 373, "right": 1172, "bottom": 434}, composedSafeAreas },
     { slug: 'blue-tang', sha256: 'e4708dff207a7c4d8a8b3717b9019e554b604b6da62da1ebff570148de2444c0', fullBody: {"left": 1048, "top": 345, "right": 1138, "bottom": 389}, composedSafeAreas },

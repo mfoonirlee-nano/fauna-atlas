@@ -1,0 +1,45 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-10",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific reconstruction. One wild-type long-tailed chinchilla Chinchilla lanigera in side profile facing left, gray dense fur, pale belly, big rounded ears, long whiskers, long bushy tail curving beside its body with all feet visible. Dry rocky scrub hillside in Chile, natural dusty ground and sparse shrubs. CRITICAL COMPOSITION: extremely distant tiny animal. Its full silhouette including muzzle, ears, paws, claws or bill, feet and entire tail must fit inside x=1110..1240 and y=330..440, centered at (1175,385). Only 8% of the image width and 10% height. Continuous habitat surrounds it with real background clearance. Left 60% is quiet softly focused background for website text. The animal must be fully unobscured. Not a close-up. No other animals, people, text, borders, labels, diagrams, collage, watermark or anthropomorphic expression."
+    },
+    {
+      "basename": "02-observation",
+      "title": "大耳朵和毛尾巴",
+      "alt": "毛丝鼠坐在岩石上，圆耳朵、长胡须和蓬松尾巴清楚可见",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One wild-type long-tailed chinchilla Chinchilla lanigera sitting on a dry rock on a Chilean scrub hillside, full three-quarter body view with dense gray fur, paler belly, large rounded ears, long whiskers and a fully visible bushy tail, larger hindfeet and smaller forepaws. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "先把身体侧过来",
+      "alt": "毛丝鼠在细尘中侧躺，开始翻滚清洁皮毛",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One healthy adult gray long-tailed chinchilla Chinchilla lanigera beginning a dust bath in a shallow patch of fine pale natural volcanic dust, body tilted onto its side, ears and bushy tail visible, light dust on dense fur, dry rocky Chilean scrub setting, clearly active rolling posture. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "在细尘里滚一滚",
+      "alt": "毛丝鼠在尘浴中翻滚，细尘扬起，四肢自然弯曲",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One healthy gray long-tailed chinchilla Chinchilla lanigera mid-roll during a dust bath on fine pale dry dust in rocky scrub, curved body resting against ground, small paws bent naturally, round ears and bushy tail visible, a small realistic dust puff, natural movement not a human pose. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "前脚抱着草茎",
+      "alt": "毛丝鼠用前脚扶住植物，低头啃食",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One long-tailed chinchilla Chinchilla lanigera sitting upright on a dry rock holding a thin dry grass stem with its two small forepaws while nibbling, full animal and bushy tail visible, dense gray fur, large rounded ears and long whiskers, Chilean scrub habitat. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "岩缝旁的住处",
+      "alt": "毛丝鼠停在岩缝入口旁，周围是干燥石地和灌木",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One wild-type gray long-tailed chinchilla Chinchilla lanigera at the entrance to a rock crevice on a dry rocky Chilean hillside at dusk, full animal visible in front of crevice, large rounded ears and long bushy tail, sparse dry grasses and shrubs, cool evening light. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    }
+  ],
+  "coverEdits": [
+    {
+      "prompt": "Edit this image only to move the chinchilla 90 pixels to the RIGHT. Keep canvas exactly 1536x1024, the animal's current size and vertical position, natural proportions, gray fur and bushy tail. Move the ENTIRE animal including every fine whisker, ear tip, toe and tail hair as a unit so its full boundary fits inside x=1115..1300 y=323..430. Reconstruct the continuous rocky habitat at its former position and make its paws rest naturally on the hillside at the new position. Do not add any animals, text, frames or graphic elements. Preserve the photographic style, quiet left side, lighting and landscape."
+    }
+  ]
+}
