@@ -48,7 +48,7 @@
 - [x] 普通乌贼 *Sepia officinalis* — “找找嘴边伸出的腕足。”
 - [x] 火蝾螈 *Salamandra salamandra* — “找找黑色身体上的黄色花纹。”
 - [x] 马来貘 *Tapirus indicus* — “看看它身上哪一块是白色的。”
-- [ ] 棕熊 *Ursus arctos* — “找找圆耳朵和大大的熊掌。”
+- [x] 棕熊 *Ursus arctos* — “找找圆耳朵和大大的熊掌。”
 - [ ] 喜鹊 *Pica pica* — “看看它的长尾巴，找找白色羽毛。”
 
 ## 第二优先：看动作，认识动物生活的地方（40 种）

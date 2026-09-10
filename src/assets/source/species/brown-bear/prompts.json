@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-10",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific reconstruction. One adult brown bear Ursus arctos standing on all four feet in full side profile facing left, shaggy brown fur, small round ears, muscular shoulder hump, long muzzle, broad paws and short tail. Meadow at the edge of a temperate forest, distant trees in soft morning mist. CRITICAL COMPOSITION: extremely distant tiny animal. Its full silhouette including muzzle, ears, paws, claws or bill, feet and entire tail must fit inside x=1110..1240 and y=330..440, centered at (1175,385). Only 8% of the image width and 10% height. Continuous habitat surrounds it with real background clearance. Left 60% is quiet softly focused background for website text. The animal must be fully unobscured. Not a close-up. No other animals, people, text, borders, labels, diagrams, collage, watermark or anthropomorphic expression."
+    },
+    {
+      "basename": "02-observation",
+      "title": "圆耳朵和宽熊掌",
+      "alt": "棕熊站在林缘，圆耳朵、肩部隆起和宽大的脚掌可见",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One adult brown bear Ursus arctos standing broadside in a temperate meadow, full body visible, small rounded ears, dish-shaped face, pronounced muscular shoulder hump, shaggy medium brown coat, broad paws with natural long claws. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "前爪挖一挖",
+      "alt": "棕熊用有长爪的前脚拨开松土",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One adult brown bear Ursus arctos digging shallow earth for roots at a forest edge, low three-quarter angle, one broad front paw extended and its long claws touching loosened soil, recognizable round ears and shoulder hump, no prey or gore. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "灌木上的浆果",
+      "alt": "棕熊在灌木边取食浆果",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One brown bear Ursus arctos feeding on ripe berries from a low wild berry shrub in a northern woodland, close three-quarter view of muzzle touching a small cluster of berries, natural brown fur and round ears, no human food. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "浅河里的棕熊",
+      "alt": "棕熊站在浅河中低头寻找食物",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One coastal brown bear Ursus arctos standing in a shallow clear Alaskan river, shoulder hump and round ears visible, looking down into moving water while searching for salmon, full bear body above water with feet in shallow ripples. No caught fish, blood or dramatic action. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "跟着妈妈走",
+      "alt": "一只棕熊幼崽跟随母熊走过草地",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial photograph style scientific scene reconstruction for a young child's species atlas. Scene: One female brown bear Ursus arctos with one small brown bear cub walking behind her across a spring meadow, both on the same ground plane with natural relative size, whole animals including feet visible, mother has small round ears and a shoulder hump, calm natural behavior. Composition: medium close framing so the defining feature is large and easy to see, realistic textures and restrained natural light, anatomically accurate species and pose. Single coherent scene. No text, labels, collage, diagram, frame, watermark, fantasy or anthropomorphic expression."
+    }
+  ]
+}

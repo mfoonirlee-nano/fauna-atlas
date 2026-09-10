@@ -332,3 +332,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Common Cuttlefish image set](./species/common-cuttlefish/README.md)
 - [Fire Salamander image set](./species/fire-salamander/README.md)
 - [Malayan Tapir image set](./species/malayan-tapir/README.md)
+- [Brown Bear image set](./species/brown-bear/README.md)
