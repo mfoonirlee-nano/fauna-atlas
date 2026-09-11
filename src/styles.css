@@ -2528,8 +2528,15 @@
     color: #31543c;
   }
 
+  .mission-section__content {
+    min-width: 0;
+    container-type: inline-size;
+  }
+
   .mission-section h2 {
     color: inherit;
+    font-size: min(clamp(3rem, 5vw, 5.25rem), 14cqi);
+    white-space: nowrap;
   }
 
   .mission-section__content > p:last-child {
@@ -2951,9 +2958,13 @@
     }
 
     .section-heading h2,
-    .mission-section h2,
     .newsletter h2 {
       font-size: clamp(2.25rem, 9.6vw, 4.2rem);
+      line-height: 1.16;
+    }
+
+    .mission-section h2 {
+      font-size: min(clamp(2.25rem, 9.6vw, 4.2rem), 14cqi);
       line-height: 1.16;
     }
 
