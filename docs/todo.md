@@ -60,7 +60,7 @@
 - [x] 短尾矮袋鼠 *Setonix brachyurus* — “找找它的大后脚。”
 - [x] 驯鹿 *Rangifer tarandus* — “找找头上分叉的鹿角。”
 - [x] 赤狐 *Vulpes vulpes* — “看看狐狸扑向地面的姿势。”
-- [ ] 加州海狮 *Zalophus californianus* — “找找它头两侧的小耳朵。”
+- [x] 加州海狮 *Zalophus californianus* — “找找它头两侧的小耳朵。”
 - [ ] 座头鲸 *Megaptera novaeangliae* — “看看它跃出水面时展开的长胸鳍。”
 - [ ] 独角鲸 *Monodon monoceros* — “找找那根长长的、带螺旋纹的牙。”
 - [ ] 霍加狓 *Okapia johnstoni* — “看看它的腿上有哪些条纹。”

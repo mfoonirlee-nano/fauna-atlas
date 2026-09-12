@@ -340,3 +340,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Quokka image set](./species/quokka/README.md)
 - [Reindeer image set](./species/reindeer/README.md)
 - [Red Fox image set](./species/red-fox/README.md)
+- [California Sea Lion image set](./species/california-sea-lion/README.md)

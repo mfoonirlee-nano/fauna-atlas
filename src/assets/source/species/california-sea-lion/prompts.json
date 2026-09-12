@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-12",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. One California sea lion Zalophus californianus, sleek brown fur, small external ear flaps, long foreflippers, whiskered muzzle, no tusks, full body standing naturally in rocky Pacific coast of California. CRITICAL COMPOSITION: extremely distant tiny animal, all visible outer features including antlers ears muzzle whiskers feet flippers and entire tail must fit inside x=1110..1270 and y=335..445, centered at (1190,390). Only about 10 percent canvas width. Quiet habitat across left 60 percent. Unobscured subject on distant ground with background around every edge. No close up. Natural lighting. No text, labels, collage, borders, watermark, people, harness, fantasy or other animals."
+    },
+    {
+      "basename": "02-observation",
+      "title": "头旁的小耳朵",
+      "alt": "加州海狮侧头，小耳廓位于眼睛后方",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: California sea lion Zalophus californianus, sleek brown fur, small external ear flaps, long foreflippers, whiskered muzzle, no tusks. Habitat: rocky Pacific coast of California. Scene: close lateral head and neck portrait, a clearly visible anatomically small external ear flap just behind eye, wet fur and whiskers. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "长长的前鳍",
+      "alt": "加州海狮用长前鳍撑起身体",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: California sea lion Zalophus californianus, sleek brown fur, small external ear flaps, long foreflippers, whiskered muzzle, no tusks. Habitat: rocky Pacific coast of California. Scene: female on flat rock, full body with both long foreflippers visible supporting raised chest, rear flippers under body. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "在岸上走一走",
+      "alt": "加州海狮用前鳍和转向前方的后鳍在岸上移动",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: California sea lion Zalophus californianus, sleek brown fur, small external ear flaps, long foreflippers, whiskered muzzle, no tusks. Habitat: rocky Pacific coast of California. Scene: full side view moving on sandy beach using foreflippers and rear flippers rotated forward under body, anatomically accurate quadrupedal sea lion gait. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "在水里划前鳍",
+      "alt": "加州海狮在水中展开前鳍游动",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: California sea lion Zalophus californianus, sleek brown fur, small external ear flaps, long foreflippers, whiskered muzzle, no tusks. Habitat: rocky Pacific coast of California. Scene: underwater full body swimming with long foreflippers extended, rear flippers trailing, clear blue water, no fish. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "回到岩岸休息",
+      "alt": "几只加州海狮在岩岸上休息",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: California sea lion Zalophus californianus, sleek brown fur, small external ear flaps, long foreflippers, whiskered muzzle, no tusks. Habitat: rocky Pacific coast of California. Scene: three California sea lions resting separately on broad coastal rocks above water, natural spacing, no touching or overlapping bodies. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    }
+  ]
+}
