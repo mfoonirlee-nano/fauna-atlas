@@ -214,6 +214,7 @@ test('new generated covers keep the complete subject inside every hero animation
     ]],
   ]);
   const cases = [
+    { slug: 'common-wombat', sha256: 'b106cfc14f2379d4c91d0263b708580af9935f6ddec16ec37156e4d348a5cb70', fullBody: {"left": 1158, "top": 398, "right": 1275, "bottom": 465}, composedSafeAreas },
     { slug: 'fire-salamander', sha256: 'a02ad3f4e9e1375a91f1ff2ef399a87db5648bfe3356a2cae66079ed634bfb6c', fullBody: {"left": 1038, "top": 320, "right": 1193, "bottom": 411}, composedSafeAreas },
     { slug: 'malayan-tapir', sha256: 'accaddb648d8479cae8cfe65e62d04d34188e48a03ed0a775d3cd5cc4a8e96a8', fullBody: {"left": 1078, "top": 328, "right": 1248, "bottom": 426}, composedSafeAreas },
     { slug: 'brown-bear', sha256: 'eab98ad881b46133c738d3611b2bed7e9d02aac3ac06165a6d3d22c767d26528', fullBody: {"left": 1083, "top": 408, "right": 1183, "bottom": 470}, composedSafeAreas },

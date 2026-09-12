@@ -56,7 +56,7 @@
 在认识外形后，选择她喜欢的动作和场景展开。用图集表现攀爬、游泳、挖洞等动作，并带出树上、水里、草地和沙漠等生活环境。
 
 - [x] 毛丝鼠 *Chinchilla lanigera* — “看看它在沙里打滚的样子。”
-- [ ] 袋熊 *Vombatus ursinus* — “看看它用前爪挖土。”
+- [x] 袋熊 *Vombatus ursinus* — “看看它用前爪挖土。”
 - [ ] 短尾矮袋鼠 *Setonix brachyurus* — “找找它的大后脚。”
 - [ ] 驯鹿 *Rangifer tarandus* — “找找头上分叉的鹿角。”
 - [ ] 赤狐 *Vulpes vulpes* — “看看狐狸扑向地面的姿势。”

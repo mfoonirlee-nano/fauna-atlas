@@ -1,0 +1,45 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-12",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Generate one 1536x1024 natural-history editorial wildlife photograph style scientific reconstruction for Fauna Atlas. One bare-nosed wombat Vombatus ursinus, stocky coarse gray-brown fur, broad bare nose, small rounded ears, short strong legs, walking in southeastern Australian open eucalyptus woodland. CRITICAL composition: extremely distant tiny full animal, entire visible silhouette must fit x=1110..1270 y=335..445 on the 1536x1024 canvas. Full body including nose ears all visible feet and rump, no occluding grass. Animal center around (1190,390). Quiet natural habitat on left 60 percent, continuous landscape with animal on a distant gently sloping clearing. Photorealistic, natural light. No text, labels, collage, people, extra animals, watermark or border."
+    },
+    {
+      "basename": "02-observation",
+      "title": "圆鼻子和短腿",
+      "alt": "袋熊侧身站在草地上，宽鼻子和短腿清楚可见",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: bare-nosed wombat Vombatus ursinus, coarse gray-brown fur, broad bare nose, short rounded ears and powerful short legs. Habitat: southeastern Australian eucalyptus open woodland and grassy clearing. Scene: standing side-on, full body and feet visible. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "前爪拨开泥土",
+      "alt": "袋熊在洞口用前爪刨土，鼻子靠近地面",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: bare-nosed wombat Vombatus ursinus, coarse gray-brown fur, broad bare nose, short rounded ears and powerful short legs. Habitat: southeastern Australian eucalyptus open woodland and grassy clearing. Scene: digging at the entrance of an earthen burrow, one strong forepaw scraping loose soil backwards, claws visible, body outside burrow. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "土往身后去",
+      "alt": "袋熊伏低身体继续挖洞，身后堆着松土",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: bare-nosed wombat Vombatus ursinus, coarse gray-brown fur, broad bare nose, short rounded ears and powerful short legs. Habitat: southeastern Australian eucalyptus open woodland and grassy clearing. Scene: side view digging shallow soil, forelegs bent, loose soil behind forepaws, whole animal visible outside burrow. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "低头吃草",
+      "alt": "袋熊低下头啃食草叶",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: bare-nosed wombat Vombatus ursinus, coarse gray-brown fur, broad bare nose, short rounded ears and powerful short legs. Habitat: southeastern Australian eucalyptus open woodland and grassy clearing. Scene: grazing on short native grasses at dusk, mouth near grass. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "洞口旁的袋熊",
+      "alt": "袋熊停在斜坡上的洞口外",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: bare-nosed wombat Vombatus ursinus, coarse gray-brown fur, broad bare nose, short rounded ears and powerful short legs. Habitat: southeastern Australian eucalyptus open woodland and grassy clearing. Scene: resting fully outside a burrow opening in a soil bank, no cutaway view. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    }
+  ],
+  "coverEdits": [
+    {
+      "prompt": "Edit only the position of the wombat in this 1536x1024 image. Move the entire animal exactly 100 pixels UP, maintaining its current size and x position. Full silhouette should now fit x=1177..1293 y=355..417. Rebuild the natural landscape at its former location; make the feet contact a natural distant ground slope at the new position. Preserve all anatomy, nose, ears and feet, full animal unobscured, realistic editorial photograph. Keep canvas size and left landscape. No other animals, text, collage or border."
+    }
+  ]
+}
