@@ -12,6 +12,12 @@ PNG inputs are temporary and ignored by Git. Existing PNG filenames and hashes i
 4. `dist/` is ignored build output. Build or deploy from `public/images/`; remove local `dist/` when finished if disk space matters.
 
 
+## Species image set rule
+
+Each species has exactly six retained images: one cover and five gallery images. The carousel and species profile use the same cover through `Species.media.image`. Replace an unsuitable cover in place and preserve the five gallery images unless the task also calls for changing them.
+
+Keep desktop and mobile presentation on that single cover. Do not add `hero-desktop`, `hero-mobile`, or other device-specific image variants. Temporary generation candidates stay outside the retained image set and leave the repository after acceptance.
+
 ## Species cover rule
 
 Apply this rule whenever you add, generate, replace, or crop a species cover. `Species.media.image` points to the retained WebP species cover, and the landing-page hero includes that image in its carousel.
@@ -20,6 +26,7 @@ Apply this rule whenever you add, generate, replace, or crop a species cover. `S
 
 A cover passes composition review when all of these conditions hold:
 
+- Make the animal the clear main subject. Maximize its visible size within the full-body clearance constraints below; do not shrink it into a distant speck to pass cropping checks. Compare the old and regenerated cover and record the full-subject size in both source pixels and the evaluated hero frames.
 - Place the primary animal or primary subject group on the right. Its visually inspected center must sit at or beyond 60% of the source width, while the left 40% remains quiet enough for the hero title, introduction, and call to action.
 - Show the complete subject in the source. The reviewed boundary must include every visible outer feature required by the pose and taxon, including the head, bill or muzzle, horns or antennae, wing or fin tips, feet, tail, and tentacles.
 - Leave real background between that boundary and the crop edge. Do not treat a `focalPoint` value as proof of subject placement; it controls `object-position` and does not describe the pixels occupied by the animal.
@@ -28,7 +35,9 @@ A cover passes composition review when all of these conditions hold:
 
 The complete reviewed subject boundary must stay inside the landing-page hero with at least 24 CSS pixels of clearance. Check the runtime WebP with its committed `focalPoint` at `320×760`, `390×760`, `1366×768`, `1920×900`, `2560×900`, and `3840×900`. Cover the settled frame plus the initial, forward, and backward enter/leave animation endpoints defined in `src/styles.css`.
 
-Also inspect the composed safe areas: the animal must remain clear of the left-side copy, the right-side carousel panel at each breakpoint, and the viewport edge. Reframe or regenerate the source when a crop fails. If one 3:2 composition cannot keep the subject readable and complete across the supported ratios, add breakpoint-specific hero art direction and its regression coverage before accepting the cover.
+Also inspect the composed safe areas: the animal must remain clear of the left-side copy, the right-side carousel panel at each breakpoint, and the viewport edge. Regenerate the source when its composition fails. Resolve presentation constraints using the same cover; keep any necessary carousel layout or animation changes within the task scope and verify them against that image. A crop failure does not permit additional device-specific assets.
+
+When the task asks to regenerate covers with small subjects, generate replacement images for the affected species. CSS zoom, `object-position`, or container changes alone do not complete that request. Framing adjustments may support a regenerated cover, but both subject prominence and complete-body visibility must pass review.
 
 ### Review record
 
@@ -39,6 +48,10 @@ Record the following evidence in the species image-set README whenever a cover c
 - The final generation or edit prompt and any known visual limitation.
 
 Add or update the matching full-subject case in `tests/hero-carousel.test.mjs`, then run `npm run test:carousel`. A head-only boundary does not satisfy this rule.
+
+Check that each changed species still has exactly six retained images and that the carousel loads its canonical cover. Type checks, builds, and image-count checks do not establish crop acceptance. After changing the image source, framing, or animation, invalidate the affected prior acceptance and repeat the full-subject checks on the current runtime image.
+
+Track regenerated, visually inspected, and hero-accepted states separately. Report a batch as complete only when every targeted cover passes both composition and hero acceptance. For partial work, list the remaining species and unresolved checks; keep batch counts in the [regeneration progress record](./cover-regeneration-progress.md), not in these rules.
 
 This rule is a forward gate from 2026-09-03. Covers added or changed after this rule lands must pass it. Existing covers remain on the legacy baseline until someone audits or changes them; do not describe the full catalogue as compliant before that audit finishes.
 

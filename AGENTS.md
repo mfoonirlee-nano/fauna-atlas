@@ -14,7 +14,7 @@ This is a single-context repo: use the root `CONTEXT.md` and `docs/adr/`. See `d
 
 ### Visual assets
 
-When adding, generating, replacing, or cropping a species cover (`media.image` or `01-*-source.png`), read the [species cover rule](src/assets/source/README.md#species-cover-rule) before editing.
+When changing a species image set, regenerating a cover, or adjusting carousel image framing, read the [species image and cover rules](src/assets/source/README.md#species-image-set-rule) before editing.
 
 ### Verification
 
