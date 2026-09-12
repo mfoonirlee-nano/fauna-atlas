@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-12",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. One quokka Setonix brachyurus, small brown-gray wallaby, rounded ears, large hindfeet and slim sparsely furred short tail, full body standing naturally in southwestern Australian low dense coastal scrub. CRITICAL COMPOSITION: extremely distant tiny animal, all visible outer features including antlers ears muzzle whiskers feet flippers and entire tail must fit inside x=1110..1270 and y=335..445, centered at (1190,390). Only about 10 percent canvas width. Quiet habitat across left 60 percent. Unobscured subject on distant ground with background around every edge. No close up. Natural lighting. No text, labels, collage, borders, watermark, people, harness, fantasy or other animals."
+    },
+    {
+      "basename": "02-observation",
+      "title": "大后脚和小前爪",
+      "alt": "短尾矮袋鼠坐在地上，大后脚与小前爪可见",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: quokka Setonix brachyurus, small brown-gray wallaby, rounded ears, large hindfeet and slim sparsely furred short tail. Habitat: southwestern Australian low dense coastal scrub. Scene: sitting upright full-body three-quarter view, long hindfeet flat on ground and small forepaws near chest, entire slim tail visible. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "弯下腿准备跳",
+      "alt": "短尾矮袋鼠屈起后腿，身体稍向前倾",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: quokka Setonix brachyurus, small brown-gray wallaby, rounded ears, large hindfeet and slim sparsely furred short tail. Habitat: southwestern Australian low dense coastal scrub. Scene: full side view crouching naturally before a small hop, hindlegs bent and feet on ground, entire tail visible. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "后脚一起离地",
+      "alt": "短尾矮袋鼠向前跳，后脚离开地面",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: quokka Setonix brachyurus, small brown-gray wallaby, rounded ears, large hindfeet and slim sparsely furred short tail. Habitat: southwestern Australian low dense coastal scrub. Scene: side view making a low forward hop, both hindfeet just off ground, forepaws tucked naturally, entire tail visible. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "伸嘴吃叶子",
+      "alt": "短尾矮袋鼠靠近低矮植物，啃食叶片",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: quokka Setonix brachyurus, small brown-gray wallaby, rounded ears, large hindfeet and slim sparsely furred short tail. Habitat: southwestern Australian low dense coastal scrub. Scene: browsing fresh leaves from low shrub, full body visible, no human feeding. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "灌丛旁休息",
+      "alt": "短尾矮袋鼠在灌丛阴影边缘休息",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: quokka Setonix brachyurus, small brown-gray wallaby, rounded ears, large hindfeet and slim sparsely furred short tail. Habitat: southwestern Australian low dense coastal scrub. Scene: resting at shaded edge of thick scrub, rounded ears and slim tail visible. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    }
+  ]
+}

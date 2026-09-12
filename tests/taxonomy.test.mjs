@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 201);
+  assert.equal(species.length, 202);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 201);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 202);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,8 +24465,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 140);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 58);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 141);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 59);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 16);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
@@ -25592,6 +25592,7 @@ test('five toddler profiles from fire salamander to long-tailed chinchilla retai
 test('five toddler profiles from wombat to California sea lion retain identities and accepted image sets', async () => {
   const cases = [
     ['common-wombat', 'Vombatus ursinus', 'Diprotodontia', 'Vombatidae', 'LC'],
+    ['quokka', 'Setonix brachyurus', 'Diprotodontia', 'Macropodidae', 'VU'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   for (const [slug, scientificName, order, family, code] of cases) {
@@ -25609,10 +25610,11 @@ test('five toddler profiles from wombat to California sea lion retain identities
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
   }
-  for (const slug of ['common-wombat']) {
+  for (const slug of ['common-wombat', 'quokka']) {
     assert.equal(findSpecies(slug).metrics.adultLengthCm, undefined, 'head-body length is not total length');
   }
   assert.match(findSpecies('common-wombat').storySections.find(({ key }) => key === 'digging').body, /分别生成.*不是.*连续实拍/);
+  assert.match(findSpecies('quokka').storySections.find(({ key }) => key === 'shelter').body, /不能证明.*开心/);
 });
 
 test('five toddler profiles from fennec fox to Atlantic puffin have sourced identities and accepted image sets', async () => {

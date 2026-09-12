@@ -337,3 +337,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Long-tailed Chinchilla image set](./species/long-tailed-chinchilla/README.md)
 
 - [Bare-nosed Wombat image set](./species/common-wombat/README.md)
+- [Quokka image set](./species/quokka/README.md)
