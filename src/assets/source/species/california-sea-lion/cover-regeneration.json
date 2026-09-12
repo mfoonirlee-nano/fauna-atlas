@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "prompt": "Use case: photorealistic-natural. NEW replacement species cover, landscape 1536x1024, editorial wildlife photograph style. One female California sea lion (Zalophus californianus), sleek brown fur, small external ear flaps, long foreflippers, whiskered muzzle and rear flippers, full body resting alertly with chest raised on a low flat coastal rock on the Pacific coast of California. No tusks. Show entire silhouette including all visible flippers. Make the animal the clear main subject with crisp high-detail anatomy, NOT a distant speck. Complete animal occupies about 35-40% of canvas width (tall species about 55-65% of canvas height), positioned on the right with center around x=1120 y=540. Leave at least 8% real habitat padding around every extremity. Keep left 40% quiet natural softly defocused habitat for website typography. Full visible animal, no clipping, no obscuring vegetation. Restrained natural color and soft natural light, believable scientific anatomy, single coherent scene. No text, watermark, collage, borders, people, artificial props or additional animals.",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-e6a64875-31bf-4480-9e1d-5c37c43cf98b.png",
+      "sourceFile": "01-cover-source.png",
+      "reviewed": {
+        "sha256": "2d666a6d90d50cdd6629094f5aa8c296e4f37459320b7d068ae2f3c2cc1c43cf",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 565,
+          "top": 95,
+          "right": 1500,
+          "bottom": 870
+        }
+      },
+      "sourceSha256": "e92bf670a128bbbdd740ae7c77123c7a33c60d0ea9f7aa21f97f4071e6c320f4"
+    }
+  ],
+  "initialCover": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "status": "candidate; pending responsive hero acceptance",
+    "prompt": "Use case: photorealistic-natural. NEW replacement species cover, landscape 1536x1024, editorial wildlife photograph style. One female California sea lion (Zalophus californianus), sleek brown fur, small external ear flaps, long foreflippers, whiskered muzzle and rear flippers, full body resting alertly with chest raised on a low flat coastal rock on the Pacific coast of California. No tusks. Show entire silhouette including all visible flippers. Make the animal the clear main subject with crisp high-detail anatomy, NOT a distant speck. Complete animal occupies about 35-40% of canvas width (tall species about 55-65% of canvas height), positioned on the right with center around x=1120 y=540. Leave at least 8% real habitat padding around every extremity. Keep left 40% quiet natural softly defocused habitat for website typography. Full visible animal, no clipping, no obscuring vegetation. Restrained natural color and soft natural light, believable scientific anatomy, single coherent scene. No text, watermark, collage, borders, people, artificial props or additional animals.",
+    "sourceFile": "01-cover-regenerated-source.png"
+  },
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}

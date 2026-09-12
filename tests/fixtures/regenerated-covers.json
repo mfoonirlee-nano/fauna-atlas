@@ -1,0 +1,119 @@
+{
+  "common-wombat": {
+    "cover": {
+      "sha256": "2e65a6824c20527a482d960c05d328ce37f0a3e5f19fc2231f60a6d3d3be6733",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 730,
+        "top": 245,
+        "right": 1385,
+        "bottom": 825
+      }
+    }
+  },
+  "quokka": {
+    "cover": {
+      "sha256": "16e397dee01abe7fc9b996e4663d377b0f8bb10493b217476a0572790d37913d",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 830,
+        "top": 115,
+        "right": 1510,
+        "bottom": 925
+      }
+    }
+  },
+  "reindeer": {
+    "cover": {
+      "sha256": "a36c99b08e83ca85092e42caef8a49814e2bba6c0c07991100e016b99232e77c",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 805,
+        "top": 20,
+        "right": 1450,
+        "bottom": 905
+      }
+    }
+  },
+  "red-fox": {
+    "cover": {
+      "sha256": "baf6f86dd24883436af2f396e53f48d72a37d0895149f14aa8c6dfa136812a81",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 192,
+        "right": 1480,
+        "bottom": 745
+      }
+    }
+  },
+  "california-sea-lion": {
+    "cover": {
+      "sha256": "2d666a6d90d50cdd6629094f5aa8c296e4f37459320b7d068ae2f3c2cc1c43cf",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 565,
+        "top": 95,
+        "right": 1500,
+        "bottom": 870
+      }
+    }
+  },
+  "fire-salamander": {
+    "cover": {
+      "sha256": "a574dffe8884386ab5e09ab0c696c01158f119afb25dfeb9377b70ad024c1503",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 600,
+        "top": 295,
+        "right": 1450,
+        "bottom": 775
+      }
+    }
+  },
+  "malayan-tapir": {
+    "cover": {
+      "sha256": "bfc779f1cd4108e7a2928c1a0caefc3cde44fde876858c0a5afe7da17f762cc7",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 500,
+        "top": 238,
+        "right": 1410,
+        "bottom": 802
+      }
+    }
+  },
+  "brown-bear": {
+    "cover": {
+      "sha256": "64d5daf8ed49630ca4bfb1161416363e818206084067116f2f6557e45f86f0bd",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 535,
+        "top": 250,
+        "right": 1460,
+        "bottom": 795
+      }
+    }
+  },
+  "eurasian-magpie": {
+    "cover": {
+      "sha256": "49408adc937603e94cbddf2a37e9e3bbfde5e0f2c83025442fa5e3ebdede3150",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 600,
+        "top": 250,
+        "right": 1455,
+        "bottom": 765
+      }
+    }
+  }
+}

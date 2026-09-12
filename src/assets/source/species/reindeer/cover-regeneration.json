@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "prompt": "Use case: photorealistic-natural. NEW replacement species cover, landscape 1536x1024, editorial wildlife photograph style. One adult reindeer (Rangifer tarandus) with branching antlers, gray-brown shaggy coat, pale neck, broad hooves, standing in open subarctic tundra with low moss and distant hills. Show entire antlers, ears, muzzle, all visible legs and hooves, and short tail. Make the animal the clear main subject with crisp high-detail anatomy, NOT a distant speck. Complete animal occupies about 35-40% of canvas width (tall species about 55-65% of canvas height), positioned on the right with center around x=1120 y=540. Leave at least 8% real habitat padding around every extremity. Keep left 40% quiet natural softly defocused habitat for website typography. Full visible animal, no clipping, no obscuring vegetation. Restrained natural color and soft natural light, believable scientific anatomy, single coherent scene. No text, watermark, collage, borders, people, artificial props or additional animals.",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-3ea111b3-7548-4125-ac8e-d4e82c46bed3.png",
+      "sourceFile": "01-cover-source.png",
+      "reviewed": {
+        "sha256": "a36c99b08e83ca85092e42caef8a49814e2bba6c0c07991100e016b99232e77c",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 805,
+          "top": 20,
+          "right": 1450,
+          "bottom": 905
+        }
+      },
+      "sourceSha256": "6df904b086be79a63580830ccd2b6cc18ee723e92595517a097203130b560e84"
+    }
+  ],
+  "initialCover": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "status": "candidate; pending responsive hero acceptance",
+    "prompt": "Use case: photorealistic-natural. NEW replacement species cover, landscape 1536x1024, editorial wildlife photograph style. One adult reindeer (Rangifer tarandus) with branching antlers, gray-brown shaggy coat, pale neck, broad hooves, standing in open subarctic tundra with low moss and distant hills. Show entire antlers, ears, muzzle, all visible legs and hooves, and short tail. Make the animal the clear main subject with crisp high-detail anatomy, NOT a distant speck. Complete animal occupies about 35-40% of canvas width (tall species about 55-65% of canvas height), positioned on the right with center around x=1120 y=540. Leave at least 8% real habitat padding around every extremity. Keep left 40% quiet natural softly defocused habitat for website typography. Full visible animal, no clipping, no obscuring vegetation. Restrained natural color and soft natural light, believable scientific anatomy, single coherent scene. No text, watermark, collage, borders, people, artificial props or additional animals.",
+    "sourceFile": "01-cover-regenerated-source.png"
+  },
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}

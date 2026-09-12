@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. An adult Malayan tapir (Tapirus indicus), broad white saddle across middle and rump, black head, shoulders and legs, short flexible proboscis, round white-edged ears, full side profile facing left on a level forest trail in Malaysian tropical rainforest. Show complete muzzle, ears, all visible feet and short tail. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-db526355-62a8-4446-bc46-bdadf79daade.png",
+      "sourceFile": "01-cover-source.png",
+      "reviewed": {
+        "sha256": "bfc779f1cd4108e7a2928c1a0caefc3cde44fde876858c0a5afe7da17f762cc7",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 500,
+          "top": 238,
+          "right": 1410,
+          "bottom": 802
+        }
+      },
+      "sourceSha256": "0ca9afc368802cfa08433a0bb5737958e73fdc0ab4bbe0c7790d596d7369caed"
+    }
+  ],
+  "initialCover": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "status": "candidate; pending responsive hero acceptance",
+    "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. An adult Malayan tapir (Tapirus indicus), broad white saddle across middle and rump, black head, shoulders and legs, short flexible proboscis, round white-edged ears, full side profile facing left on a level forest trail in Malaysian tropical rainforest. Show complete muzzle, ears, all visible feet and short tail. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
+    "sourceFile": "01-cover-regenerated-source.png"
+  },
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}

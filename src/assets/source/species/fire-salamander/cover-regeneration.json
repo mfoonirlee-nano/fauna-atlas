@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. A fire salamander (Salamandra salamandra), glossy black with irregular yellow patches, four short limbs and a long tapering tail, high oblique three-quarter view, resting naturally on damp brown leaf litter and subdued green moss in a European deciduous woodland. Show every visible toe and entire tail curled gently beside the body. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-e98ef12d-42e0-47f7-aac0-95806d6d86ad.png",
+      "sourceFile": "01-cover-source.png",
+      "reviewed": {
+        "sha256": "a574dffe8884386ab5e09ab0c696c01158f119afb25dfeb9377b70ad024c1503",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 600,
+          "top": 295,
+          "right": 1450,
+          "bottom": 775
+        }
+      },
+      "sourceSha256": "d58ca6e56d96dcbd549e547d1f7d0ef1ce6e96d7ea064795edf3b505592e08dd"
+    }
+  ],
+  "initialCover": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "status": "candidate; pending responsive hero acceptance",
+    "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. A fire salamander (Salamandra salamandra), glossy black with irregular yellow patches, four short limbs and a long tapering tail, high oblique three-quarter view, resting naturally on damp brown leaf litter and subdued green moss in a European deciduous woodland. Show every visible toe and entire tail curled gently beside the body. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
+    "sourceFile": "01-cover-regenerated-source.png"
+  },
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}

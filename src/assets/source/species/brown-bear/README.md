@@ -54,3 +54,11 @@
 ## 仓库验证
 
 已通过类型检查、`npm test` 全部 221 项测试及其包含的生产构建与子路径资源验证。封面回归覆盖上述全部视口与动画端点，运行图均已静态检查。已移除本批临时 PNG，只保留运行 WebP、提示词和哈希记录。
+
+## 2026-09-12 regenerated cover
+
+Retained the regenerated `01-cover.webp` and the five existing gallery images. The image set contains six WebPs. Final prompt and source hash: [cover-regeneration.json](./cover-regeneration.json).
+
+Runtime SHA-256: `64d5daf8ed49630ca4bfb1161416363e818206084067116f2f6557e45f86f0bd`. Source and runtime dimensions: 1536×1024. Reviewed full-subject bounds (left, top, right, bottom): `[535, 250, 1460, 795]`. Original-resolution source and runtime inspection completed before temporary PNG archival.
+
+The user removed the separate responsive hero images. Their previous six-viewport acceptance is withdrawn. The carousel now uses this same main cover; full-body crop acceptance in the existing carousel remains pending.

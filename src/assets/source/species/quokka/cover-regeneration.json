@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "prompt": "Recompose this close quokka portrait to keep the complete animal, INCLUDING its entire tail, on the RIGHT half. Keep sharp close animal detail and natural habitat. Change to a natural three-quarter pose facing left, with the short slim tail extending behind it toward the RIGHT beside its feet, not across the left of the picture. Keep all ears, toes and tail tip clearly visible. Full silhouette should fit x=760..1420 y=180..880 in 1536x1024. Animal remains a large unmistakable main subject. Left 40% quiet habitat. No other animals, text, collage or clipping.",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-90f8395f-9d52-4f37-93b9-78b7ee087daa.png",
+      "sourceFile": "01-cover-source.png",
+      "reviewed": {
+        "sha256": "16e397dee01abe7fc9b996e4663d377b0f8bb10493b217476a0572790d37913d",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 830,
+          "top": 115,
+          "right": 1510,
+          "bottom": 925
+        }
+      },
+      "sourceSha256": "e9215d32bbd29b5159e954a90078a3b28bbf09a029e43558bf55118e480b5181"
+    }
+  ],
+  "initialCover": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "status": "candidate; pending responsive hero acceptance",
+    "prompt": "Use case: photorealistic-natural. NEW replacement species cover, landscape 1536x1024, editorial wildlife photograph style. One quokka (Setonix brachyurus), small brown-gray wallaby, rounded ears, large hindfeet, small forepaws and slim sparsely furred short tail, standing naturally on sandy earth in southwestern Australian low coastal scrub. Show entire tail and both hindfeet. Make the animal the clear main subject with crisp high-detail anatomy, NOT a distant speck. Complete animal occupies about 35-40% of canvas width (tall species about 55-65% of canvas height), positioned on the right with center around x=1120 y=540. Leave at least 8% real habitat padding around every extremity. Keep left 40% quiet natural softly defocused habitat for website typography. Full visible animal, no clipping, no obscuring vegetation. Restrained natural color and soft natural light, believable scientific anatomy, single coherent scene. No text, watermark, collage, borders, people, artificial props or additional animals.",
+    "sourceFile": "01-cover-regenerated-source.png"
+  },
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}

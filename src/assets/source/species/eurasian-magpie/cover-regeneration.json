@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. An adult Eurasian magpie (Pica pica), full side profile facing left, on a thin branch at a subdued European woodland edge, black head and chest, white belly and shoulder patches, subtle blue-green iridescent folded wings, very long tapering black tail extending right, both feet holding the branch. Entire beak, wings, feet and tail visible. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-0035de40-6d6c-4086-827a-f3a1e3d4c822.png",
+      "sourceFile": "01-cover-source.png",
+      "reviewed": {
+        "sha256": "49408adc937603e94cbddf2a37e9e3bbfde5e0f2c83025442fa5e3ebdede3150",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 600,
+          "top": 250,
+          "right": 1455,
+          "bottom": 765
+        }
+      },
+      "sourceSha256": "de9d6e81036eb530b262eb9d635a9a7033f02e5ffc7fc1a696e0eb9c82125ce5"
+    }
+  ],
+  "initialCover": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "status": "candidate; pending responsive hero acceptance",
+    "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. An adult Eurasian magpie (Pica pica), full side profile facing left, on a thin branch at a subdued European woodland edge, black head and chest, white belly and shoulder patches, subtle blue-green iridescent folded wings, very long tapering black tail extending right, both feet holding the branch. Entire beak, wings, feet and tail visible. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
+    "sourceFile": "01-cover-regenerated-source.png"
+  },
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "sourceFile": "01-cover-source.png",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-7db23b90-772b-4244-b78f-a072eb50f033.png",
+      "prompt": "Use case: photorealistic-natural. Generate a NEW replacement species cover for Fauna Atlas. One landscape 1536x1024 natural-history editorial wildlife photograph of a bare-nosed wombat (Vombatus ursinus) in southeastern Australian eucalyptus woodland. The wombat MUST be the unmistakable main subject, not a tiny distant speck. Render a sharply detailed complete adult, coarse gray-brown fur, broad bare leathery nose, short rounded ears, powerful short legs, natural walking pose on short grass and sandy earth. Show all visible feet, ears, muzzle and rump, no clipping or foreground occlusion. Place entire animal within approximately x=800..1390 and y=320..760, center to the right of 60% canvas width. Make its body occupy about 38% of canvas width. Leave quiet softly defocused natural woodland background in left 40% for website copy, and real habitat padding around the entire subject. Restrained natural color, soft early morning light, eye-level camera, crisp animal detail and believable anatomy. A single coherent photograph, no text, borders, watermark, collage, diagrams, other animals or human objects. This is the main high-detail cover; responsive website framing will be separately validated. Return generated image and its saved file path.",
+      "reviewed": {
+        "sha256": "2e65a6824c20527a482d960c05d328ce37f0a3e5f19fc2231f60a6d3d3be6733",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 730,
+          "top": 245,
+          "right": 1385,
+          "bottom": 825
+        }
+      },
+      "sourceSha256": "c37d492ec3a253d53e22dba1e213a3a37d06de7c6b5a38b64dde0a660150eae1"
+    }
+  ],
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}

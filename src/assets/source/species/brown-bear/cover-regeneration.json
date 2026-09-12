@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. An adult brown bear (Ursus arctos) on all four feet, full side profile facing left, shaggy brown fur, small round ears, muscular shoulder hump, long muzzle, broad paws and short tail, in a meadow at the edge of temperate forest under soft morning mist. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-08d77cc9-47fc-4588-ac96-64ecfd5106c7.png",
+      "sourceFile": "01-cover-source.png",
+      "reviewed": {
+        "sha256": "64d5daf8ed49630ca4bfb1161416363e818206084067116f2f6557e45f86f0bd",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 535,
+          "top": 250,
+          "right": 1460,
+          "bottom": 795
+        }
+      },
+      "sourceSha256": "353341ce6d612b95581020763f3d4b0f2670a793581fbac7f85a822aa80fba9d"
+    }
+  ],
+  "initialCover": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "status": "candidate; pending responsive hero acceptance",
+    "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. An adult brown bear (Ursus arctos) on all four feet, full side profile facing left, shaggy brown fur, small round ears, muscular shoulder hump, long muzzle, broad paws and short tail, in a meadow at the edge of temperate forest under soft morning mist. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
+    "sourceFile": "01-cover-regenerated-source.png"
+  },
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}

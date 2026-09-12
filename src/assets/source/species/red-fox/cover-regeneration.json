@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "status": "main cover retained; single-image hero crop acceptance pending",
+  "images": [
+    {
+      "kind": "cover",
+      "prompt": "Use case: photorealistic-natural. NEW replacement species cover, landscape 1536x1024, editorial wildlife photograph style. One red fox (Vulpes vulpes), rich russet coat, dark lower legs, pointed upright ears, pale throat, long bushy white-tipped tail, walking naturally in a grassy temperate woodland clearing. Show entire tail and all visible feet. Make the animal the clear main subject with crisp high-detail anatomy, NOT a distant speck. Complete animal occupies about 35-40% of canvas width (tall species about 55-65% of canvas height), positioned on the right with center around x=1120 y=540. Leave at least 8% real habitat padding around every extremity. Keep left 40% quiet natural softly defocused habitat for website typography. Full visible animal, no clipping, no obscuring vegetation. Restrained natural color and soft natural light, believable scientific anatomy, single coherent scene. No text, watermark, collage, borders, people, artificial props or additional animals.",
+      "generatedFile": "/Users/chris.li/.codex/generated_images/01a09564-5646-7c92-90cc-53cc5ced21f4/exec-ad57c6f1-af96-490d-bdae-94260a1a9fd1.png",
+      "sourceFile": "01-cover-source.png",
+      "reviewed": {
+        "sha256": "baf6f86dd24883436af2f396e53f48d72a37d0895149f14aa8c6dfa136812a81",
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 790,
+          "top": 192,
+          "right": 1480,
+          "bottom": 745
+        }
+      },
+      "sourceSha256": "de207b314e64669ce504c71aa735b860b67e01b4255d24c9696639868136fdb5"
+    }
+  ],
+  "initialCover": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "status": "candidate; pending responsive hero acceptance",
+    "prompt": "Use case: photorealistic-natural. NEW replacement species cover, landscape 1536x1024, editorial wildlife photograph style. One red fox (Vulpes vulpes), rich russet coat, dark lower legs, pointed upright ears, pale throat, long bushy white-tipped tail, walking naturally in a grassy temperate woodland clearing. Show entire tail and all visible feet. Make the animal the clear main subject with crisp high-detail anatomy, NOT a distant speck. Complete animal occupies about 35-40% of canvas width (tall species about 55-65% of canvas height), positioned on the right with center around x=1120 y=540. Leave at least 8% real habitat padding around every extremity. Keep left 40% quiet natural softly defocused habitat for website typography. Full visible animal, no clipping, no obscuring vegetation. Restrained natural color and soft natural light, believable scientific anatomy, single coherent scene. No text, watermark, collage, borders, people, artificial props or additional animals.",
+    "sourceFile": "01-cover-regenerated-source.png"
+  },
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+}
