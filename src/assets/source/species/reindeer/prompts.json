@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-12",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. One reindeer Rangifer tarandus, gray-brown coat with pale neck, broad cloven hooves, branched reindeer antlers, full body standing naturally in northern Scandinavian open tundra with low shrubs and lichens. CRITICAL COMPOSITION: extremely distant tiny animal, all visible outer features including antlers ears muzzle whiskers feet flippers and entire tail must fit inside x=1110..1270 and y=335..445, centered at (1190,390). Only about 10 percent canvas width. Quiet habitat across left 60 percent. Unobscured subject on distant ground with background around every edge. No close up. Natural lighting. No text, labels, collage, borders, watermark, people, harness, fantasy or other animals."
+    },
+    {
+      "basename": "02-observation",
+      "title": "头上的分叉角",
+      "alt": "驯鹿侧身站立，完整鹿角伸向头顶上方",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: reindeer Rangifer tarandus, gray-brown coat with pale neck, broad cloven hooves, branched reindeer antlers. Habitat: northern Scandinavian open tundra with low shrubs and lichens. Scene: adult male in autumn, full side view including all branched antler tips and four hooves. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "宽宽的蹄子",
+      "alt": "驯鹿迈步时，宽蹄踩在苔原地面上",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: reindeer Rangifer tarandus, gray-brown coat with pale neck, broad cloven hooves, branched reindeer antlers. Habitat: northern Scandinavian open tundra with low shrubs and lichens. Scene: low natural close view of lower legs and broad cloven hooves walking on soft tundra, realistic two main toes, no human scale reference. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "前蹄刨开雪",
+      "alt": "驯鹿用前蹄刨开浅雪，露出地面植被",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: reindeer Rangifer tarandus, gray-brown coat with pale neck, broad cloven hooves, branched reindeer antlers. Habitat: northern Scandinavian open tundra with low shrubs and lichens. Scene: adult reindeer pawing shallow snow with one forehoof while other legs support body, small exposed patch of lichen. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "低头吃植物",
+      "alt": "驯鹿低头取食苔原上的矮生植物",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: reindeer Rangifer tarandus, gray-brown coat with pale neck, broad cloven hooves, branched reindeer antlers. Habitat: northern Scandinavian open tundra with low shrubs and lichens. Scene: adult reindeer grazing low tundra plants in summer, velvet-covered growing antlers, full head and antlers visible. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "一起走过苔原",
+      "alt": "几只驯鹿沿着开阔苔原行走",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: reindeer Rangifer tarandus, gray-brown coat with pale neck, broad cloven hooves, branched reindeer antlers. Habitat: northern Scandinavian open tundra with low shrubs and lichens. Scene: small group of three reindeer walking naturally across tundra, separate complete bodies, no overlapping legs or harnesses. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    }
+  ]
+}
