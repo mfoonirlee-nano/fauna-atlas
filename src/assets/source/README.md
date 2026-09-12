@@ -339,3 +339,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Bare-nosed Wombat image set](./species/common-wombat/README.md)
 - [Quokka image set](./species/quokka/README.md)
 - [Reindeer image set](./species/reindeer/README.md)
+- [Red Fox image set](./species/red-fox/README.md)

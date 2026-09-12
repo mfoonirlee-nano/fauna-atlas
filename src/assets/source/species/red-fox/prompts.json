@@ -1,0 +1,48 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-12",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. One red fox Vulpes vulpes, reddish orange coat, black lower legs and ear backs, pale throat, long bushy white-tipped tail, full body standing naturally in European meadow beside mixed woodland. CRITICAL COMPOSITION: extremely distant tiny animal, all visible outer features including antlers ears muzzle whiskers feet flippers and entire tail must fit inside x=1110..1270 and y=335..445, centered at (1190,390). Only about 10 percent canvas width. Quiet habitat across left 60 percent. Unobscured subject on distant ground with background around every edge. No close up. Natural lighting. No text, labels, collage, borders, watermark, people, harness, fantasy or other animals."
+    },
+    {
+      "basename": "02-observation",
+      "title": "尖耳朵和蓬松尾巴",
+      "alt": "赤狐侧身站立，尖耳朵和白色尾尖可见",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: red fox Vulpes vulpes, reddish orange coat, black lower legs and ear backs, pale throat, long bushy white-tipped tail. Habitat: European meadow beside mixed woodland. Scene: standing alert in full side profile, entire fluffy tail and feet visible. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "03-observation",
+      "title": "停下来听一听",
+      "alt": "赤狐停在草地上，耳朵朝前，头稍低",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: red fox Vulpes vulpes, reddish orange coat, black lower legs and ear backs, pale throat, long bushy white-tipped tail. Habitat: European meadow beside mixed woodland. Scene: listening intently toward short grass, head slightly lowered, erect ears oriented ahead, natural neutral expression. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "04-observation",
+      "title": "跃起扑向地面",
+      "alt": "赤狐跃起，前爪朝下，尾巴向后伸",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: red fox Vulpes vulpes, reddish orange coat, black lower legs and ear backs, pale throat, long bushy white-tipped tail. Habitat: European meadow beside mixed woodland. Scene: side view mousing pounce in midair, arched body head downward front paws reaching down, hindlegs trailing and fluffy tail extended, no visible prey or blood. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "05-observation",
+      "title": "前爪落到草地",
+      "alt": "赤狐前爪落地，鼻尖靠近草丛",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: red fox Vulpes vulpes, reddish orange coat, black lower legs and ear backs, pale throat, long bushy white-tipped tail. Habitat: European meadow beside mixed woodland. Scene: landing from a low hunting pounce, forepaws touching grass, head down, hindquarters slightly raised, correct four-leg anatomy, no prey or blood. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    },
+    {
+      "basename": "06-observation",
+      "title": "林缘的小路",
+      "alt": "赤狐沿着林缘小路行走",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape natural-history editorial wildlife photograph style scientific scene reconstruction for a young child's species atlas. Subject: red fox Vulpes vulpes, reddish orange coat, black lower legs and ear backs, pale throat, long bushy white-tipped tail. Habitat: European meadow beside mixed woodland. Scene: walking along quiet woodland edge at dusk, full body and white tail tip visible. Medium close framing with defining feature clear for a child. Accurate natural anatomy and realistic textures, restrained light and color. Single coherent scene, no text, labels, collage, borders, watermark, human objects, fantasy or anthropomorphic expression."
+    }
+  ],
+  "coverEdits": [
+    {
+      "prompt": "Edit only the position of the fox in this 1536x1024 image. Move the entire fox including every ear tip, paw, whisker and its white-tipped bushy tail exactly 120 pixels UP and 60 pixels RIGHT. Preserve current animal size. Full silhouette should fit x=1150..1266 y=357..428. Rebuild seamless natural grass at its former location and place feet naturally on the hillside at new location. Keep all other composition, no extra animals, text or border."
+    },
+    {
+      "prompt": "Move ONLY the fox much farther RIGHT in this picture. It currently stands near x=1070. Place its body center at x=1210 pixels and y=395 pixels on the 1536x1024 canvas. Entire fox silhouette must fit x=1150..1275, y=350..440, including ears nose paws and complete tail. Keep the animal small, same current size, full realistic anatomy. Remove the fox from its former position and naturally refill the grass. Put its paws on a natural grassy slope at target position. Preserve the landscape, lighting, no text or other animals. The fox should be on the RIGHT side under the tree, at about 79 percent of image width."
+    }
+  ]
+}
