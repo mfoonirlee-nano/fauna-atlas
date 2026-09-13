@@ -440,5 +440,18 @@
       },
       "sha256": "92f297a505f0e1c756964e552b052981bf995e4b43d5da6f4f76a32cbd9ab81e"
     }
+  },
+  "american-bison": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 610,
+        "top": 110,
+        "right": 1472,
+        "bottom": 835
+      },
+      "sha256": "83bb3a36eba6040031a1f9b21fa3d692e7dca9c04fdc837711ebd7ff99a1b123"
+    }
   }
 }

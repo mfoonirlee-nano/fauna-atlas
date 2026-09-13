@@ -2080,5 +2080,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1444,
       "bottom": 954
     }
+  },
+  "american-bison": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 610,
+      "top": 110,
+      "right": 1472,
+      "bottom": 835
+    }
   }
 };

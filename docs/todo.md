@@ -64,7 +64,7 @@
 - [x] 座头鲸 *Megaptera novaeangliae* — “看看它跃出水面时展开的长胸鳍。”
 - [x] 独角鲸 *Monodon monoceros* — “找找那根长长的、带螺旋纹的牙。”
 - [x] 霍加狓 *Okapia johnstoni* — “看看它的腿上有哪些条纹。”
-- [ ] 美洲野牛 *Bison bison* — “找找肩背高高隆起的地方。”
+- [x] 美洲野牛 *Bison bison* — “找找肩背高高隆起的地方。”
 - [ ] 高鼻羚羊 *Saiga tatarica* — “看看它向下鼓出来的大鼻子。”
 - [ ] 黑猩猩 *Pan troglodytes* — “找找它握住东西的手指。”
 - [ ] 婆罗洲猩猩 *Pongo pygmaeus* — “看看它伸长手臂抓住树枝。”

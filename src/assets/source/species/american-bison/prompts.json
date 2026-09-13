@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: American plains bison Bison bison, massive shoulder hump, shaggy dark forequarters, beard, short curved horns, lighter short-haired hindquarters. Habitat: North American prairie. COVER: one complete animal in side three-quarter view, large prominent full body on RIGHT, entire silhouette including tusk horns ears hooves fins tail within x=650..1460 y=120..900. Center beyond 60 percent width, quiet habitat left 40 percent, real background clearance all edges. Whale fully underwater. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: American plains bison Bison bison, massive shoulder hump, shaggy dark forequarters, beard, short curved horns, lighter short-haired hindquarters. Habitat: North American prairie. Scene: full lateral view showing tall shoulder hump. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: American plains bison Bison bison, massive shoulder hump, shaggy dark forequarters, beard, short curved horns, lighter short-haired hindquarters. Habitat: North American prairie. Scene: close head portrait showing beard and short curved horns. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: American plains bison Bison bison, massive shoulder hump, shaggy dark forequarters, beard, short curved horns, lighter short-haired hindquarters. Habitat: North American prairie. Scene: bison grazing grass with lowered head. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: American plains bison Bison bison, massive shoulder hump, shaggy dark forequarters, beard, short curved horns, lighter short-haired hindquarters. Habitat: North American prairie. Scene: bison walking through snow pushing snow aside with its head. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: American plains bison Bison bison, massive shoulder hump, shaggy dark forequarters, beard, short curved horns, lighter short-haired hindquarters. Habitat: North American prairie. Scene: bison cow and small reddish calf standing on prairie. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    }
+  ]
+}
