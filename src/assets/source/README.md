@@ -357,3 +357,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Humpback Whale image set](./species/humpback-whale/README.md)
 - [Narwhal image set](./species/narwhal/README.md)
+- [Okapi image set](./species/okapi/README.md)

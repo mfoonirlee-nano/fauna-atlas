@@ -2070,5 +2070,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1506,
       "bottom": 576
     }
+  },
+  "okapi": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 740,
+      "top": 66,
+      "right": 1444,
+      "bottom": 954
+    }
   }
 };

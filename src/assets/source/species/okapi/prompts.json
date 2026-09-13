@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: okapi Okapia johnstoni, chocolate brown body, white horizontal stripes on upper legs and rump, white lower legs with dark markings, large ears. Habitat: Congo rainforest clearing. COVER: one complete animal in side three-quarter view, large prominent full body on RIGHT, entire silhouette including tusk horns ears hooves fins tail within x=650..1460 y=120..900. Center beyond 60 percent width, quiet habitat left 40 percent, real background clearance all edges. Whale fully underwater. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: okapi Okapia johnstoni, chocolate brown body, white horizontal stripes on upper legs and rump, white lower legs with dark markings, large ears. Habitat: Congo rainforest clearing. Scene: side view rump and legs showing white stripes. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: okapi Okapia johnstoni, chocolate brown body, white horizontal stripes on upper legs and rump, white lower legs with dark markings, large ears. Habitat: Congo rainforest clearing. Scene: head portrait with large rounded ears. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: okapi Okapia johnstoni, chocolate brown body, white horizontal stripes on upper legs and rump, white lower legs with dark markings, large ears. Habitat: Congo rainforest clearing. Scene: okapi extending dark prehensile tongue to browse green leaves. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: okapi Okapia johnstoni, chocolate brown body, white horizontal stripes on upper legs and rump, white lower legs with dark markings, large ears. Habitat: Congo rainforest clearing. Scene: full body walking along forest understory. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: okapi Okapia johnstoni, chocolate brown body, white horizontal stripes on upper legs and rump, white lower legs with dark markings, large ears. Habitat: Congo rainforest clearing. Scene: female okapi and calf standing in rainforest clearing. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    }
+  ]
+}

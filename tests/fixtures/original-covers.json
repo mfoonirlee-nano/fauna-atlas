@@ -427,5 +427,18 @@
       },
       "sha256": "a0da0d281f41b5667e2bb9f5475150040bd86cde9ae6bfa95968d70aae0edfb9"
     }
+  },
+  "okapi": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 66,
+        "right": 1444,
+        "bottom": 954
+      },
+      "sha256": "92f297a505f0e1c756964e552b052981bf995e4b43d5da6f4f76a32cbd9ab81e"
+    }
   }
 }
