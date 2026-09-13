@@ -37,6 +37,7 @@ import {
   type CSSProperties,
   type RefObject,
 } from 'react';
+import { coverSubjects } from './data/cover-subjects';
 import { TaxonomyExplorer } from './components/TaxonomyExplorer';
 import { species, loadSpecies } from 'virtual:species-catalogue';
 import { createProfileLoader } from './domain/profile-loader';
@@ -58,6 +59,18 @@ interface HeroCarouselFrame {
   readonly previousIndex: number | null;
   readonly direction: HeroDirection;
   readonly revision: number;
+}
+
+function heroSubjectStyle(slug: string): CSSProperties | undefined {
+  const subject = coverSubjects[slug];
+  if (!subject) return undefined;
+  const { width, height, bounds } = subject;
+  return {
+    '--subject-width-ratio': width / (bounds.right - bounds.left),
+    '--subject-height-ratio': width / (bounds.bottom - bounds.top),
+    '--subject-center-x': `${(bounds.left + bounds.right) / (2 * width) * 100}%`,
+    '--subject-center-y': `${(bounds.top + bounds.bottom) / (2 * height) * 100}%`,
+  } as CSSProperties;
 }
 
 const HERO_ROTATION_DELAY_MS = 6500;
@@ -1043,7 +1056,7 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
   return (
     <section
       ref={heroRef}
-      className="hero"
+      className={`hero${((heroSpecies && coverSubjects[heroSpecies.slug]) || (previousSpecies && coverSubjects[previousSpecies.slug])) ? ' hero--framed' : ''}`}
       id="top"
       role="region"
       aria-labelledby="hero-carousel-label"
@@ -1068,15 +1081,20 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
         aria-live={autoplayActive ? 'off' : 'polite'}
       >
         {previousSpecies?.media.image && (
-          <img
+          <div
             key={`previous-${frame.revision}-${previousSpecies.slug}`}
-            className={`hero__image hero__image--leaving-${directionClass}`}
-            src={previousSpecies.media.image}
-            alt=""
-            style={focalPointStyle(previousSpecies.media.focalPoint)}
-            decoding="async"
-            aria-hidden="true"
-          />
+            className={coverSubjects[previousSpecies.slug] ? 'hero-subject-frame' : undefined}
+            style={heroSubjectStyle(previousSpecies.slug)}
+          >
+            <img
+              className={`hero__image hero__image--leaving-${directionClass}`}
+              src={previousSpecies.media.image}
+              alt=""
+              style={focalPointStyle(previousSpecies.media.focalPoint)}
+              decoding="async"
+              aria-hidden="true"
+            />
+          </div>
         )}
         {heroSpecies && (
           <div
@@ -1086,21 +1104,23 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
             aria-roledescription="幻灯片"
             aria-label={`第 ${frame.activeIndex + 1} 张，共 ${slideCount} 张：${heroSpecies.names.zh}`}
           >
-            <img
-              className={`hero__image ${
-                frame.revision === 0
-                  ? 'hero__image--initial'
-                  : frame.previousIndex !== null
-                    ? `hero__image--entering-${directionClass}`
-                    : 'hero__image--settled'
-              }`}
-              src={heroSpecies.media.image ?? './images/fauna-hero.webp'}
-              alt={heroSpecies.media.alt}
-              style={focalPointStyle(heroSpecies.media.focalPoint)}
-              decoding="async"
-              loading="eager"
-              fetchPriority={frame.revision === 0 ? 'high' : 'auto'}
-            />
+            <div className={coverSubjects[heroSpecies.slug] ? 'hero-subject-frame' : undefined} style={heroSubjectStyle(heroSpecies.slug)}>
+              <img
+                className={`hero__image ${
+                  frame.revision === 0
+                    ? 'hero__image--initial'
+                    : frame.previousIndex !== null
+                      ? `hero__image--entering-${directionClass}`
+                      : 'hero__image--settled'
+                }`}
+                src={heroSpecies.media.image ?? './images/fauna-hero.webp'}
+                alt={heroSpecies.media.alt}
+                style={focalPointStyle(heroSpecies.media.focalPoint)}
+                decoding="async"
+                loading="eager"
+                fetchPriority={frame.revision === 0 ? 'high' : 'auto'}
+              />
+            </div>
           </div>
         )}
       </div>

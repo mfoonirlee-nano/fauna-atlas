@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": ["ES2022"],
+    "lib": [
+      "ES2022"
+    ],
     "module": "ESNext",
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
@@ -17,6 +19,7 @@
   "include": [
     "../src/domain/carousel.ts",
     "../src/data/species.ts",
-    "../src/types/species.ts"
+    "../src/types/species.ts",
+    "../src/data/cover-subjects.ts"
   ]
 }

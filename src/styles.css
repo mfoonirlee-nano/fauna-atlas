@@ -1816,6 +1816,63 @@
     animation: hero-leave-backward 900ms cubic-bezier(0.22, 0.72, 0.2, 1) both;
   }
 
+  /* The measured silhouette fills the frame with 24px background clearance.
+     Container units keep the initial frame correct before any JavaScript runs. */
+  .hero-subject-frame {
+    position: absolute;
+    top: 220px;
+    right: 48px;
+    bottom: 72px;
+    left: 52%;
+    overflow: hidden;
+    container-type: size;
+    mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent),
+      linear-gradient(to bottom, transparent, black 24px, black calc(100% - 24px), transparent);
+    mask-composite: intersect;
+  }
+
+  .hero-subject-frame .hero__image {
+    top: 50%;
+    left: 50%;
+    width: min(calc((100cqw - 48px) * var(--subject-width-ratio)), calc((100cqh - 48px) * var(--subject-height-ratio)));
+    height: auto;
+    object-fit: contain;
+    transform: translate(calc(-1 * var(--subject-center-x)), calc(-1 * var(--subject-center-y)));
+    animation-name: hero-subject-enter;
+  }
+
+  .hero-subject-frame .hero__image--leaving-forward,
+  .hero-subject-frame .hero__image--leaving-backward {
+    animation-name: hero-subject-leave;
+  }
+
+  .hero--framed .hero__content { grid-template-columns: 1fr 1fr; }
+  .hero.hero--framed h1 { font-size: clamp(3rem, 5vw, 5.5rem); }
+  .hero--framed .hero-specimen { display: none; }
+  .hero--framed .hero-carousel__mobile-specimen { display: grid; height: 50px; }
+  .hero--framed .hero-carousel__controls { margin-top: 0; height: 46px; }
+  .hero--framed .hero-carousel__panel {
+    position: absolute;
+    top: 100px;
+    right: 48px;
+    bottom: auto;
+    width: 270px;
+  }
+
+  @keyframes hero-subject-enter { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes hero-subject-leave { from { opacity: 1; } to { opacity: 0; } }
+
+  @media (max-width: 900px) {
+    .hero-subject-frame { top: 204px; right: 0; bottom: auto; left: 0; height: 224px; }
+    .hero--framed, .hero--framed .hero__content { min-height: 760px; }
+    .hero--framed .hero__copy { position: absolute; top: 452px; right: 22px; left: 22px; width: auto; }
+    .hero.hero--framed h1 { font-size: clamp(2rem, 9vw, 2.35rem); }
+    .hero--framed .hero__kicker { margin-bottom: 16px; }
+    .hero--framed .hero__intro { margin-top: 16px; font-size: 0.8rem; line-height: 1.85; }
+    .hero.hero--framed .primary-cta { margin-top: 20px; }
+    .hero--framed .hero-carousel__panel { top: 92px; right: 18px; width: min(270px, calc(100% - 36px)); }
+  }
+
   .hero__veil {
     z-index: 1;
     background:
