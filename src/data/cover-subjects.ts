@@ -2050,5 +2050,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1490,
       "bottom": 952
     }
+  },
+  "humpback-whale": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 474,
+      "top": 176,
+      "right": 1512,
+      "bottom": 898
+    }
   }
 };

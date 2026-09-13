@@ -354,3 +354,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Reindeer image set](./species/reindeer/README.md)
 - [Red Fox image set](./species/red-fox/README.md)
 - [California Sea Lion image set](./species/california-sea-lion/README.md)
+
+- [Humpback Whale image set](./species/humpback-whale/README.md)

@@ -401,5 +401,18 @@
       },
       "sha256": "0ceb730cbde67f0f7012128f7d6e66f3b88b4d640385aa65c15472aa1e751eb8"
     }
+  },
+  "humpback-whale": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 474,
+        "top": 176,
+        "right": 1512,
+        "bottom": 898
+      },
+      "sha256": "6950f2799de66218f6a24ab57edaa3786a6156fc3ce48dad98f0e25cc6e4c5d7"
+    }
   }
 }

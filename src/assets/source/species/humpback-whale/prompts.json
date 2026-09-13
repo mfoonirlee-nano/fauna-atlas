@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas species cover, wide 1536x1024 wildlife scientific reconstruction. One anatomically accurate humpback whale Megaptera novaeangliae fully underwater in clear blue ocean, side three-quarter view, complete head, long white pectoral fins, body and both tail flukes visible. Animal large and prominent on right, full silhouette inside x=650..1460 y=180..840; center beyond 60% width. Quiet blue water on left 40%. Natural light, no other animals, no text, no frame. Not a distant tiny animal. Save image for project use."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: humpback whale Megaptera novaeangliae, long white pectoral fins and knobbly head, horizontal tail flukes. Habitat: clear ocean. Scene: breaching out of ocean with long pectoral fins spread, splash beneath. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: humpback whale Megaptera novaeangliae, long white pectoral fins and knobbly head, horizontal tail flukes. Habitat: clear ocean. Scene: underwater close view of long pectoral fin attached to body. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: humpback whale Megaptera novaeangliae, long white pectoral fins and knobbly head, horizontal tail flukes. Habitat: clear ocean. Scene: tail flukes lifted above sea surface before dive. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: humpback whale Megaptera novaeangliae, long white pectoral fins and knobbly head, horizontal tail flukes. Habitat: clear ocean. Scene: side view underwater with throat pleats visible, mouth closed. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: humpback whale Megaptera novaeangliae, long white pectoral fins and knobbly head, horizontal tail flukes. Habitat: clear ocean. Scene: mother and smaller calf swimming underwater. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    }
+  ]
+}
