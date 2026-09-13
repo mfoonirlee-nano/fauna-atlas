@@ -253,3 +253,26 @@ The repository script invokes `cwebp -q 82 -m 6 -mt`. Quantization reduced the s
 - Built-in `view_image` original-resolution inspection covered every generator candidate and all six final runtime files. The accepted set retains the red form, exactly twenty oral tentacles, three parallel ventral bands, retracted tentacles during sheltering, a dorsal-anterior particle origin separate from the mouth and one auricularia-style larva.
 - Post-conversion inspection found no new crop, duplicate subject, visible text, logo, watermark, border or material compression artifact.
 - Verification used static file inspection and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-rocky-reef-red-adult-portrait.webp` SHA-256: `7d8355dcfd3d1e7dcf085a3ed30b01ad8d8b853f2da7152974f27a5060d93fc8`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.7, "y": 0.53}`. Conservative full-subject boundary: `{"left": 734, "top": 220, "right": 1416, "bottom": 800}`, 682×580 source pixels (previously 1048×634). Boundary center is 70.0% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes both body ends, all visible blunt papillae and near-side tube feet. Oral tentacles are retracted; the underside and far-side podia are naturally concealed by the body and supporting rock. An edit moved the entire animal right and softened the left copy field. The red-brown form follows the species scope in the existing research record. This view cannot count the ventral bands or diagnose microscopic ossicles. Real rock and water margins surround the complete outline. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 777.8×470.5 → 207.0×176.0 | 56.52 | 48.00 | 40.00 | Pass |
+| 390×760 | 777.8×470.5 → 207.0×176.0 | 91.52 | 48.00 | 40.00 | Pass |
+| 1366×768 | 932.0×563.8 → 503.3×428.0 | 96.00 | 79.53 | 48.00 | Pass |
+| 1920×900 | 1310.0×792.5 → 658.5×560.0 | 96.00 | 145.96 | 48.00 | Pass |
+| 2560×900 | 1746.7×1056.7 → 658.5×560.0 | 96.00 | 312.36 | 48.00 | Pass |
+| 3840×900 | 2620.0×1585.0 → 658.5×560.0 | 96.00 | 645.16 | 48.00 | Pass |
+
+`npm run test:carousel`: all 155 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

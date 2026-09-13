@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One greater flamingo Phoenicopterus roseus standing calmly on dry pale sandbar beside saline lagoon. Prominent WHOLE bird on RIGHT, left-facing side three-quarter view, pale pink-white body pink wing coverts folded wings short tail, long gracefully curved neck, pink bent bill with black tip, two complete long pink legs and both webbed feet visible on bare sand. Full silhouette including crown bill tail toes inside x=800..1390 y=110..900 with real background margins. Natural accurate proportions, natural pale coloration. Left40% quiet softly defocused pale blue lagoon and sand for copy. Soft daylight detailed editorial wildlife photograph. No other birds text logos borders collage water hiding feet or cropped extremities.",
+  "generatedFile": "exec-8969545f-cd29-4ad9-82bb-b9b9a5720025.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 850,
+      "top": 62,
+      "right": 1348,
+      "bottom": 949
+    },
+    "sha256": "4a9a773b93e2e98273c9486738c40d6a9e54da53ffc3a4804f95d11dc637839a"
+  },
+  "sourceSha256": "84fc95fa29e36ef2119de7458aace095b6c071759d71776259d076bf64c0adb5",
+  "supersededCover": {
+    "sha256": "4d36e7b70bf05c972fcb54caa51fb602ee21c1ba6a34f11431c2f975858a8c85",
+    "bounds": {
+      "left": 1236,
+      "top": 336,
+      "right": 1292,
+      "bottom": 434
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete crown, bent bill, long neck, folded wing and tail tips, both legs and webbed feet retained. Toes overlap naturally in side perspective, neither foot submerged. Quiet left lagoon and real source-edge clearance."
+}

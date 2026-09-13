@@ -150,3 +150,23 @@ Frames 01 and 04 were regenerated from the replacement prompts recorded above af
 - Frame 05 keeps the larval body mostly buried, with a toothless hood, no adult eye or disc, and no countable branchial row.
 - Frame 06 contains exactly two researchers, a water bottle and sampling equipment, with no animal, treatment gear, readable notes or result claim.
 - No frame contains text, a logo or a watermark.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-open-water-portrait.webp` SHA-256: `99a25716abd43699ba9d25ff5f40350d65cf8c40b1d11f95051f61b202de62b0`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.72, "y": 0.47}`. Full-subject boundary: `{"left": 852, "top": 154, "right": 1374, "bottom": 980}`, 522×826 source pixels, unchanged. Boundary center: 72.5% of source width.
+
+Original-resolution composition inspection: Complete mouth/head outline, curved body and dorsal/caudal fin edges fit inside quiet water margins. Mouth opening faces away; contour remains visible. Narrow bottom margin is real. Hero remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 387.4×613.0 → 111.2×176.0 | 104.39 | 48.00 | 40.00 | Pass |
+| 390×760 | 387.4×613.0 → 111.2×176.0 | 139.39 | 48.00 | 40.00 | Pass |
+| 1366×768 | 464.2×734.6 → 270.5×428.0 | 96.00 | 195.92 | 48.00 | Pass |
+| 1920×900 | 652.5×1032.5 → 353.9×560.0 | 96.00 | 298.25 | 48.00 | Pass |
+| 2560×900 | 870.0×1376.7 → 353.9×560.0 | 96.00 | 464.65 | 48.00 | Pass |
+| 3840×900 | 1305.0×2065.0 → 353.9×560.0 | 96.00 | 797.45 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

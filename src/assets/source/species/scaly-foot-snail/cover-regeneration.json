@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific natural-history underwater macro photograph, exact1536x1024 landscape. ONE scaly-foot snail Chrysomallon squamiferum, black morph, prominent whole animal on RIGHT occupying x=690..1440 y=260..790. Complete low turbiniform coiled dark brown-black shell with low pointed spire and broad last whorl; shell is smooth with fine growth lines, NO scales on shell. Broad muscular foot projects around shell, exterior foot covered in hundreds of small tightly overlapping flat dark iron-black sclerites, thin scale tips form a soft irregular fringe, NOT spikes or pinecone. Head peeks from aperture facing left with TWO slender tapering cephalic tentacles, no terrestrial snail eye stalks, no conspicuous eyes at tips. Full shell, all foot-scale fringe and both tentacle tips included with real background margins. Three-quarter lateral slightly elevated view, natural contact on dark sulfide rock near deep Indian Ocean hydrothermal vent, subtle blue-black water above. Gentle ROV light makes full silhouette and scale detail legible. Quiet left40% softly blurred dark rock and water, no bright vent plume, no lava or flames, no other animals, text, watermark, collage, border or diagrams.",
+  "editPrompt": "Refine this scaly-foot snail scientific photograph. Move the ENTIRE animal right and slightly reduce size so full outline including BOTH tentacle tips fits x=700..1450 y=210..790 in exact1536x1024 image. Left40% quiet dark softly defocused rock and water only. Preserve dark coiled shell without shell scales, two slender cephalic tentacles without eyes at tips, full foot. Make foot sclerites smaller and less perfectly regular, dense natural overlapping narrow flat scales, not decorative symmetrical armor. Maintain real rock margins everywhere, natural underwater ROV light, no text or additional animals.",
+  "rejectedCandidate": "exec-81cac9cf-9384-414a-b707-8b4c11a3d8c0.png: tentacle intrusion and overly regular scales",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-533110f3-ed4b-457c-bf83-5a990d61f932.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 736,
+      "top": 224,
+      "right": 1458,
+      "bottom": 758
+    },
+    "sha256": "2152f8c459deb1cd9b822815ab2c2963811484859c2551b1956a0b8892bf9fee"
+  },
+  "sourceSha256": "f68891d5714b887e922f9988ba4976b92be4fec19433b0dc490c17c31838ebdd",
+  "supersededCover": {
+    "sha256": "b1c0ca58a5d7edda84846f83f5c635ad3f7c2ea4fc24015876f06166133caafb",
+    "bounds": {
+      "left": 1195,
+      "top": 308,
+      "right": 1325,
+      "bottom": 395
+    }
+  },
+  "inspection": "Original-resolution source and WebP inspected: full shell, two cephalic tentacles, all visible foot sclerite tips, real rock margins. Scales remain illustrative in shape and arrangement. Initial tentacle intrusion corrected; left40% quiet defocused rock."
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical species cover, landscape1536x1024. One adult capybara Hydrochoerus hydrochaeris standing in three-quarter side view facing left on a low short-grass South American wetland bank. Blunt broad muzzle, small rounded ears, coarse brown fur, heavy barrel body, four short legs with visible toes, no external tail. Prominent natural-history editorial wildlife photograph, full animal INCLUDING whiskers within x=710..1440 y=230..840. Animal centered on right72% width, quiet soft wetland water and defocused reeds across left40%. Real background clearance on all sides, no feet hidden by grass, natural ground contact, soft morning light. One animal only, no text watermark collage or human objects.",
+  "editPrompt": "Edit composition of this capybara photograph only. Preserve animal anatomy pose lighting and wetland habitat. Scale complete animal including whiskers to80% current linear size and shift right until leftmost whisker is x=700 and rump no further than x=1470 on1536x1024 canvas. Keep all four feet and their toes visible, real background around complete silhouette, natural ground contact. Left40% must contain only quiet wetland habitat with NO muzzle or whiskers. One animal, no text.",
+  "rejectedCandidate": "Initial candidate extended the muzzle or whiskers into the left copy area.",
+  "generatedFile": "exec-ac9f5a2b-e89b-421f-91a4-b42baa008c84.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 725,
+      "top": 265,
+      "right": 1445,
+      "bottom": 795
+    },
+    "sha256": "c1b3384f64a916870f4625e97ebb2edc66e11ced7c0ebbea8f3235aacfbe077c"
+  },
+  "sourceSha256": "680bb7b16088d76bba31fc18514b1c0482a7b24359229d2fc075d5e30656e6b3",
+  "supersededCover": {
+    "sha256": "0e0b56c6fbe9d1d1cc9e5764b2ecbea19714f03bca88186107152067fed8a2ec",
+    "bounds": {
+      "left": 1040,
+      "top": 350,
+      "right": 1192,
+      "bottom": 458
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full capybara whiskers, ears and feet; hedgehog whiskers, outer spines and visible toes; penguin bill, both flippers, tail and webbed feet. Quiet left habitat and real source-edge clearance. Capybara and hedgehog initial candidates rejected for leftward muzzle/whisker intrusion."
+}

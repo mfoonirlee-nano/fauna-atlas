@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One central bearded dragon Pogona vitticeps resting on sunlit flat rock in Australian semi-arid scrubland. Prominent WHOLE animal on RIGHT, left-facing slightly elevated three-quarter view showing broad triangular head, sandy brown natural scales, spiny beard and flank scales, stout body, four coherent legs with clawed toes and entire long tapered tail. Tail curves gently within right side of image, not cut or knotted. Entire visible silhouette within x=730..1440 y=200..850. Real background margins around snout, spines, all visible toes and tail tip. Feet clear against rock, natural perspective occlusion. Left40% quiet defocused sandy scrubland for copy. Natural editorial wildlife photograph soft morning light, fine realistic texture. No other animals text logos borders collage fantasy colors.",
+  "generatedFile": "exec-eecdf023-bcfa-41cc-ab10-646e28d5e691.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 708,
+      "top": 261,
+      "right": 1507,
+      "bottom": 748
+    },
+    "sha256": "5bc2ec87a695d8b2d9f95e4b94b7243bc19776ebea2eafa6496e9840c7cfe0e9"
+  },
+  "sourceSha256": "a4fe7b47dac41953b1726384c748862af8a9ceaeefcca3ee6bdf9728665adec2",
+  "supersededCover": {
+    "sha256": "96223e670a91020e127a7781e694b82e66d13169747197e4bd2d49497d75ff87",
+    "bounds": {
+      "left": 1138,
+      "top": 360,
+      "right": 1360,
+      "bottom": 435
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full snout, head and flank spines, visible toe tips and entire curved tail retained. Far-side hind limb naturally occluded by body in three-quarter pose. Quiet left scrubland background and real source-edge clearance."
+}

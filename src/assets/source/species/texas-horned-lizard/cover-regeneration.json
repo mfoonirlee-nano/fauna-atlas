@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific wildlife photograph, exact 1536x1024 landscape. ONE Texas horned lizard Phrynosoma cornutum, prominent full animal on RIGHT side, entire outline including head horns, visible claws, lateral fringe and short tapered tail inside x=700..1430 y=290..790. Facing left in three-quarter lateral view on bare sandy shortgrass prairie soil. Accurate very broad flattened oval body, short sturdy four naturally attached legs, pair of long occipital horns at back of head with shorter side horns, two rows of lateral pointed fringe scales, short tail extended right, mottled tan gray and brown coloration, subtle pale dorsal stripe. This is a Texas horned lizard, not a thorny devil: no nuchal false-head hump, no uniformly huge body spikes. Natural low resting posture, all near-side toes and claws on clear bare soil, far-side limbs may overlap naturally. Full head and tail tip with real scene margins, no foreground plants covering animal. Quiet softly defocused tan soil in left 40%, sparse short dry grasses blurred in distant upper background. Soft diffuse daylight, detailed scales, natural proportions and restrained colors. No other animals, no blood, people, text, labels, watermark, frames, diagrams or collage.",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-93e63555-7f07-4d6a-9694-dfee84251615.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 632,
+      "top": 322,
+      "right": 1509,
+      "bottom": 778
+    },
+    "sha256": "ee08bc3ed32f40a2da6021a0566145471d10f2bd0d7a425fedce27ca444571b3"
+  },
+  "sourceSha256": "3d7047f11148d1f34d451e93e305c8859dd896f7e1d19ea63590eb865e015346",
+  "supersededCover": {
+    "sha256": "be75b3a7fc30544d9064b5fe19f8818f0fbf06fd92cb43626a01dfe9d08997d0",
+    "bounds": {
+      "left": 1103,
+      "top": 374,
+      "right": 1380,
+      "bottom": 484
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full head horns, lateral fringe, visible feet and claws, and short tapered tail retained. Far hind limb naturally hidden by flattened body; fine scale and digit counts not asserted. Quiet left sandy soil and blurred grass; real margins around outline."
+}

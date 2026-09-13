@@ -160,3 +160,23 @@ ImageMagick reported all twelve accepted files as opaque, single-frame sRGB imag
 | 04 | `41b0b7f95b50878cef139b65ea4501f251ec1b6755f90faf4eddd7c7e8ba715c` | `a47d7fd2152a9f555606e99caaadd1012b54c4c29861cb27ebd479e0681f5d79` |
 | 05 | `3a94947925824205d15da3da9433ef554e78f38b9c3b2891787ddacc353da23b` | `b889c0451c6ad6730a98c344040796f85a5abde7a85610cd1d86225cd42a30d7` |
 | 06 | `cc977acacf3b592bc1c03e67c6c2505c6a386b19c9f892047b2cbcae9d932962` | `e6b3517eacaeff248e418f55e2f37b75d7eae1852b1e47c3ed231d9de3bccc90` |
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-current-swept-rocky-reef-adult-cover.webp` SHA-256: `0ceb730cbde67f0f7012128f7d6e66f3b88b4d640385aa65c15472aa1e751eb8`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.7, "y": 0.54}`. Full-subject boundary: `{"left": 600, "top": 30, "right": 1490, "bottom": 952}`, 890×922 source pixels, unchanged. Boundary center: 68.0% of source width.
+
+Original-resolution composition inspection: Original-resolution reinspection confirms the complete visible feather-arm and pinnule tips, including the top tip with about 30 pixels of background clearance. Basal attachment structures naturally overlap the central disc/rock in this view. The left water is subdued. Thin leftmost pinnules reach x600, while the full-boundary center remains beyond 60%.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 660.5×684.3 → 169.9×176.0 | 75.05 | 48.00 | 40.00 | Pass |
+| 390×760 | 660.5×684.3 → 169.9×176.0 | 110.05 | 48.00 | 40.00 | Pass |
+| 1366×768 | 791.5×820.0 → 413.1×428.0 | 96.00 | 124.59 | 48.00 | Pass |
+| 1920×900 | 1112.5×1152.5 → 540.6×560.0 | 96.00 | 204.92 | 48.00 | Pass |
+| 2560×900 | 1483.3×1536.7 → 540.6×560.0 | 96.00 | 371.32 | 48.00 | Pass |
+| 3840×900 | 2225.0×2305.0 → 540.6×560.0 | 96.00 | 704.12 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

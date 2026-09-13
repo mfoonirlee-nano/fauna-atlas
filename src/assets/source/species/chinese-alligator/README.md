@@ -159,3 +159,26 @@ Avoid: rescue spectacle, release from crate, person holding alligator, researche
 - Source/runtime basename pairs remain one-to-one after removing `-source`.
 - Source and runtime hashes are checked for uniqueness in the taxonomy test.
 - Inspection used static metadata checks and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-lowland-wetland-adult-portrait.webp` SHA-256: `3e3f86ff85b459f9fcdca1319872970360cb69d7ea134a3c8056130dce7d5b42`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.63}`. Conservative full-subject boundary: `{"left": 642, "top": 312, "right": 1476, "bottom": 814}`, 834×502 source pixels (previously 1110×230). Boundary center is 68.9% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the short broad snout, dorsal scutes, visible near-side toes and complete single curved tail. Far-side feet are naturally concealed by the body. One placement edit moved the snout out of the copy field and softened pond reflections. Near-side feet remain clear of grass; the image does not provide a diagnostic measurement of toe or claw anatomy. Real earth margins surround the visible outline. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 823.8×170.7 → 272.0×163.7 | 24.00 | 54.14 | 46.14 | Pass |
+| 390×760 | 823.8×170.7 → 292.4×176.0 | 48.80 | 48.00 | 40.00 | Pass |
+| 1366×768 | 987.1×204.5 → 559.7×336.9 | 72.00 | 51.32 | 93.56 | Pass |
+| 1920×900 | 1387.5×287.5 → 825.6×496.9 | 72.00 | 62.40 | 79.53 | Pass |
+| 2560×900 | 1850.0×383.3 → 930.4×560.0 | 96.00 | 176.42 | 48.00 | Pass |
+| 3840×900 | 2775.0×575.0 → 930.4×560.0 | 96.00 | 509.22 | 48.00 | Pass |
+
+`npm run test:carousel`: all 157 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

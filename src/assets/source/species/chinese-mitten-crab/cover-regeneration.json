@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas cover, 1536x1024 landscape. One adult Chinese mitten crab Eriocheir sinensis on a moist muddy freshwater riverbank, realistic olive-brown rounded squarish carapace, stalked eyes, two claws covered in conspicuous brown furry mittens, four pairs of walking legs. Three-quarter slightly elevated view so all visible extremities are unobscured. Natural-history editorial macro photography, restrained natural daylight. Place the COMPLETE crab prominently in the RIGHT HALF: all legs, claw tips and eye stalks within x=690..1430 y=230..850. Maximize animal size within this box; not a tiny distant crab. Left 40% only quiet defocused mud and river background, no crab parts. Real background around all outer legs, feet and claws. No extra animals, text, watermark, collage, border, human objects, missing or malformed limbs.",
+  "edits": [
+    {
+      "prompt": "Edit the generated Chinese mitten crab photograph. Keep the same realistic crab, species anatomy, furry claws, complete limbs, muddy riverbank, lighting and 1536x1024 canvas. Reframe the WHOLE crab as one unit: reduce it to 75% of its current size and move it RIGHT so its leftmost walking leg and every hair is to the RIGHT of x=700, rightmost foot before x=1435. Entire visible silhouette should fit x=700..1435 y=290..840. Leave the left 40% completely free of crab parts and real mud around every extremity. Preserve animal proportions and natural ground contact; do not cut off or shorten any appendage. Still a prominent detailed animal, not tiny. No text or extra animals.",
+      "reason": "First candidate intruded into left copy area."
+    }
+  ],
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 350,
+      "right": 1485,
+      "bottom": 835
+    },
+    "sha256": "cce07fff2954654fb47668590fa40ec81976bc63f5a80fb5ea1cec0530c551ea"
+  },
+  "sourceSha256": "1d23875d2cbb490f4ada64c2b1fca37de28cb5b201128ab735c7040a9d1ceaaf",
+  "supersededCover": {
+    "sha256": "5aa7c49bb807b626cb8f88f4773048f6a70455780aa2fbb1b2c6d2b8a470a66c",
+    "bounds": {
+      "left": 1183,
+      "top": 398,
+      "right": 1301,
+      "bottom": 473
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete visible silhouette, quiet left side, genuine source-edge background. Bounds include all visible outer legs, claws and setae for crab; gathered arm tips and fin skirt for cuttlefish; whiskers, ears, paws and entire tail for fox."
+}

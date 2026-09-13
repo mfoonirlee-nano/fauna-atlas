@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover landscape1536x1024. One healthy adult domestic guinea pig Cavia porcellus, short brown and white fur, blunt rounded muzzle with fine whiskers, small rounded ears, four short legs and no external tail. Full body three-quarter side view facing left, calmly standing on very short garden lawn with feet and toes visible, softly blurred garden background, soft daylight, editorial natural pet photography. Prominent animal centered on right: full silhouette INCLUDING whiskers and toes within x=700..1440 y=240..860. Leave real background on all sides of complete animal, do not clip any toes or whisker tips. Left40% quiet softly blurred grass and garden. One animal only, no tall blades obscuring paws, no accessories, no cages, no humans, no text or watermark.",
+  "editPrompt": "Edit this guinea pig cover for source composition only. Preserve the same guinea pig identity, natural pose, fur, three visible paws, realistic garden lighting and landscape1536x1024 format. Reduce the complete guinea pig including whiskers to 85% of current linear size and shift it right so the leftmost whisker is at x=690 and rightmost rump stays at x=1460 or less. Keep full ears, fur tips, whiskers and toe tips with real background clearance on all sides. Left40% only quiet lawn and softly defocused garden. Do not introduce animals or accessories. Keep coherent anatomy and natural contact shadows.",
+  "rejectedCandidate": "First candidate extended muzzle and whiskers into the left copy area.",
+  "generatedFile": "exec-226657fb-b2a4-48c3-b6a5-72d315f7fa40.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 255,
+      "right": 1370,
+      "bottom": 710
+    },
+    "sha256": "673253e33fd26ef7a3638a7b1c6b04789e24fba80d50d9a5530b541c5c14469d"
+  },
+  "sourceSha256": "81444c61c6c2fd73ed9421e596a5a8fb43cbc06e41ae1423138a1978c7d54c8e",
+  "supersededCover": {
+    "sha256": "e04c81245381d9f073b23f21a2d04c39e3a7d3bf85d92df768edf8c99da38d48",
+    "bounds": {
+      "left": 1083,
+      "top": 319,
+      "right": 1239,
+      "bottom": 425
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full woodpecker bill, visible claws and tail; ant antennae, visible leg tips and carried leaf; guinea pig whiskers, ears, fur tips and visible toes. Natural overlap of far-side feet is retained. Quiet left habitat and background clearance around the complete outer silhouette."
+}

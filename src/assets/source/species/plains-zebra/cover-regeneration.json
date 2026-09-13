@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One adult plains zebra Equus quagga standing calmly left-facing side three-quarter view on bare earth amid short East African savanna grass. Prominent WHOLE animal on RIGHT, broad black and ivory stripes, short upright mane, moderate pointed ears, natural horse-shaped body without dewlap. Four coherent legs all hooves visible, complete hanging tail with black tuft distinct from hind legs. Entire silhouette ears mane muzzle hairs hooves tail within x=730..1440 y=180..860 with real background margins. Natural proportions fine coat texture soft daylight editorial wildlife photography. Left40% quiet defocused muted golden grassland for copy. No other animals text logos borders collage grass obscuring hooves or cropped extremities.",
+  "generatedFile": "exec-e972f3a5-d64e-4bc8-b927-7716a38856cf.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 699,
+      "top": 92,
+      "right": 1483,
+      "bottom": 914
+    },
+    "sha256": "6f7565fd98b7276869e6f245204f90d94ee27c299437a9449219d467431869be"
+  },
+  "sourceSha256": "b50d306956cb89dd5c0a893e5c56ddc3c13c920c36b2d2ed8642289a7e31482a",
+  "supersededCover": {
+    "sha256": "78a91deecad8048f30422ca6d9ba1a223fabf45376226d48e335ea9a192445b3",
+    "bounds": {
+      "left": 1137,
+      "top": 329,
+      "right": 1233,
+      "bottom": 416
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete ears, mane, muzzle hairs, four hooves and full tail tuft retained. Limb roots naturally overlap, hooves clear on earth. Quiet left savanna and real source-edge clearance."
+}

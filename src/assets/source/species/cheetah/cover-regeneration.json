@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One adult cheetah Acinonyx jubatus standing calmly on short dry grass and bare earth in African savanna, left-facing side three-quarter view. Prominent WHOLE animal on RIGHT. Slender athletic body long legs small rounded head, solid black spots on tawny coat, black tear marks, rounded ears fine whiskers, four distinct legs and paws on clear earth, long complete tail curves gently behind with dark rings near tip. Complete silhouette including whiskers ears all paws and tail tip within x=710..1450 y=210..840. Natural proportions no leopard rosettes. Real background around every extremity, no grass covering paws. Left40% quiet softly defocused golden savanna for copy. Natural editorial wildlife photography soft morning daylight fine fur detail. No other animals text logos borders collage.",
+  "generatedFile": "exec-a0fe5150-d2fa-458e-8bbb-21359b5afc48.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 676,
+      "top": 100,
+      "right": 1507,
+      "bottom": 884
+    },
+    "sha256": "a4c29feddcc3936df38833f863298758948b59c50894c49a36b9745192f58743"
+  },
+  "sourceSha256": "5e001af868b37e242f9fab3af2a2c8d6022410346d5467ac63d651ecd6e6e4c4",
+  "supersededCover": {
+    "sha256": "baf32e943693378fffcf5f5e1bf10888c1864047141bf74461c6bed5a30a0a98",
+    "bounds": {
+      "left": 1086,
+      "top": 360,
+      "right": 1228,
+      "bottom": 462
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full ears, whiskers, four legs and paws, and entire curved tail retained. Four paws clear of grass. Natural perspective overlap at limb roots. Quiet left savanna background and real source-edge clearance."
+}

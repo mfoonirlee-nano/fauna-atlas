@@ -44,3 +44,26 @@
 ## 仓库验证
 
 `npm run typecheck`、`npm test`（含生产构建与子路径资源验证）及 `git diff --check` 通过。验收后删除本批临时源 PNG，保留运行 WebP、提示和源文件哈希。
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cover.webp` SHA-256: `1b567947bb5ceed150229b8416f452575d4570e5f31da626652d88f5911bbd9e`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.78, "y": 0.35}`. Conservative full-subject boundary: `{"left": 610, "top": 210, "right": 1495, "bottom": 745}`, 885×535 source pixels (previously 113×61). Boundary center is 68.5% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The visible full silhouette includes bill, claws, wing edges and complete long tail for the macaw; head and all outer fin rays for the fish. Background remains between these features and the source edges. The animal is prominent on the right; the left 40% remains quiet habitat. The conservative measurement may include a few background pixels. The guppy depicts an ornamental male, not wild-type coloration.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 83.9×45.3 → 272.0×164.4 | 24.00 | 53.79 | 45.79 | Pass |
+| 390×760 | 83.9×45.3 → 291.1×176.0 | 49.43 | 48.00 | 40.00 | Pass |
+| 1366×768 | 100.5×54.2 → 559.7×338.3 | 72.00 | 51.32 | 92.83 | Pass |
+| 1920×900 | 141.2×76.2 → 825.6×499.1 | 72.00 | 62.40 | 78.45 | Pass |
+| 2560×900 | 188.3×101.7 → 926.4×560.0 | 96.00 | 178.42 | 48.00 | Pass |
+| 3840×900 | 282.5×152.5 → 926.4×560.0 | 96.00 | 511.22 | 48.00 | Pass |
+
+`npm run test:carousel`: all 21 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

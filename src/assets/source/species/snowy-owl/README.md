@@ -143,3 +143,23 @@ Constraints: EXACTLY ONE BIRD AND EXACTLY TWO PEOPLE TOTAL; exactly one spotting
 - Original-resolution inspection confirmed the accepted observations in the asset table. Checks covered owl, prey, egg and person counts; rounded heads, yellow eyes, feathered feet and broad wings; complete anatomy; cover-copy space; tundra context; hunt separation; the bare scrape; monitoring distance; and the absence of text or branding.
 - Runtime inspection after conversion found no new cropping, extra animals, visible text, logos, watermarks, borders, malformed species substitutions or material compression defects.
 - Verification used static file inspection and the built-in image viewer. No GUI or headless browser was used.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-arctic-tundra-portrait.webp` SHA-256: `15e0fb98c1b9cf4fb1b9d472bda6c7602124ed3dbae97c4fa2bfc0f28cfccc52`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.7, "y": 0.52}`. Full-subject boundary: `{"left": 744, "top": 154, "right": 1388, "bottom": 934}`, 644×780 source pixels, unchanged. Boundary center: 69.4% of source width.
+
+Original-resolution composition inspection: Full head, folded wing and tail tips, feathered feet and visible talons remain inside margins. Some toes naturally concealed by foot plumage. Left upper field is quiet sky and distant tundra; hero acceptance remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 478.0×578.9 → 145.3×176.0 | 87.34 | 48.00 | 40.00 | Pass |
+| 390×760 | 478.0×578.9 → 145.3×176.0 | 122.34 | 48.00 | 40.00 | Pass |
+| 1366×768 | 572.7×693.7 → 353.4×428.0 | 96.00 | 154.47 | 48.00 | Pass |
+| 1920×900 | 805.0×975.0 → 462.4×560.0 | 96.00 | 244.02 | 48.00 | Pass |
+| 2560×900 | 1073.3×1300.0 → 462.4×560.0 | 96.00 | 410.42 | 48.00 | Pass |
+| 3840×900 | 1610.0×1950.0 → 462.4×560.0 | 96.00 | 743.22 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

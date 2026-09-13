@@ -113,3 +113,23 @@ Lighting/mood: Soft neutral late-spring Antarctic daylight, realistic exposure a
 Constraints: Exactly one adult and one well-grown chick; adult tail is a short stiff compact wedge no more than 8% of torso length and not extended sideways; exactly two adult feet visibly distinct; no third penguin or other animal; chick has silver-gray down, black crown and white face; pair remains separate and anatomically coherent; no nest, food, people, structures, text, caption, logo, border or watermark.
 Avoid: any long tail, broad fan tail, fluffy trailing tail, tail longer than the feet, tail dragging sideways on ice, cape-like black feathers, third limb, brown shaggy King Penguin chick, miniature newborn, adult-colored chick, yellow chick markings, downy chick swimming, chick carried in flippers, wing-hugging, touching bills, cuddling, exposed food, feeding pose, identical-size pair, third bird, extra limbs, fused bodies, zoo cues, dramatic sunset, fantasy, illustration, painting, CGI, exaggerated cuteness or plush-toy eyes.
 ```
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-fast-ice-portrait.webp` SHA-256: `ddf31194a8abbc909b9d9a104bc8cf16a2c24982b6548f001ad4f996e68c1f82`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.68, "y": 0.49}`. Full-subject boundary: `{"left": 916, "top": 238, "right": 1264, "bottom": 854}`, 348×616 source pixels, unchanged. Boundary center: 71.0% of source width.
+
+Original-resolution composition inspection: Complete bill, near flipper, feet and tail with real ice margins; far flipper naturally hidden by body in profile. Subdued left ice/sky.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 258.3×457.2 → 99.4×176.0 | 110.29 | 48.00 | 40.00 | Pass |
+| 390×760 | 258.3×457.2 → 99.4×176.0 | 145.29 | 48.00 | 40.00 | Pass |
+| 1366×768 | 309.5×547.8 → 241.8×428.0 | 96.00 | 210.26 | 48.00 | Pass |
+| 1920×900 | 435.0×770.0 → 316.4×560.0 | 96.00 | 317.02 | 48.00 | Pass |
+| 2560×900 | 580.0×1026.7 → 316.4×560.0 | 96.00 | 483.42 | 48.00 | Pass |
+| 3840×900 | 870.0×1540.0 → 316.4×560.0 | 96.00 | 816.22 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

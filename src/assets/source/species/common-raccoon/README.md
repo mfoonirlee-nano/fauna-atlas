@@ -102,3 +102,26 @@ All six sources were compressed with TinyPNG before their first commit, then con
 Gallery review: 02 shows a complete walking animal with overlapping toe ends; 03 shows forepaws at shallow water with no identifiable prey; 04 shows a fruit near the mouth, without identifying the fruit species; 05 has the far hind foot hidden by body/trunk; 06 shows one adult and two juveniles, with the adult tail and several feet occluded. The family prompt requested three visible tails, but this was not achieved. The accepted caption does not claim visible tail counts or actual parentage. These gallery occlusions do not affect the full-subject cover gate. No text, logos or watermarks were visible.
 
 Verification: taxonomy and interaction suites passed; cover regression passed all 36 states; the final build and subpath asset test passed after all six runtime files were present.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-woodland-stream-cover.webp` SHA-256: `356105963a4cc833804dd9aa43afe0d639f46462affecf8cb2f76af0a59fc1fb`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.85, "y": 0.34}`. Conservative full-subject boundary: `{"left": 692, "top": 310, "right": 1414, "bottom": 754}`, 722×444 source pixels (previously 165×99). Boundary center is 68.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes long whiskers, ear hairs, four visible paws and the entire bushy ringed tail. Far-side limbs naturally overlap in the three-quarter view; fine digit counts are not asserted. The initial candidate placed whiskers in the left field; the accepted edit corrects that intrusion. Real scene margins remain around every visible extremity. The left 40% contains quiet creek and softly blurred woodland. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 122.5×73.5 → 272.0×167.3 | 24.00 | 52.37 | 44.37 | Pass |
+| 390×760 | 122.5×73.5 → 286.2×176.0 | 51.90 | 48.00 | 40.00 | Pass |
+| 1366×768 | 146.7×88.0 → 559.7×344.2 | 72.00 | 51.32 | 89.91 | Pass |
+| 1920×900 | 206.2×123.8 → 825.6×507.7 | 72.00 | 62.40 | 74.15 | Pass |
+| 2560×900 | 275.0×165.0 → 910.6×560.0 | 96.00 | 186.28 | 48.00 | Pass |
+| 3840×900 | 412.5×247.5 → 910.6×560.0 | 96.00 | 519.08 | 48.00 | Pass |
+
+`npm run test:carousel`: all 74 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

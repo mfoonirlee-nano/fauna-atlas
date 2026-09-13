@@ -341,3 +341,26 @@ Static inspection confirmed these properties:
 - Built-in `view_image` inspection at original resolution covered every accepted PNG and every runtime WebP.
 - WebP inspection found no new subject, crop, body break, false text, logo, watermark, border or material compression defect.
 - Verification used static file inspection and the built-in image viewer. It used no GUI or headless browser.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-moist-clay-burrow-adult.webp` SHA-256: `1a4b7fa956aa9f83f83558efb3b2b2e09cb1b7af5228a18da8deb7f2e171112b`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.35, "y": 0.55}`. Conservative full-subject boundary: `{"left": 664, "top": 152, "right": 1470, "bottom": 882}`, 806×730 source pixels (previously 1476×488). Boundary center is 69.5% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. Complete continuous body, blunt purple anterior and tapering pale posterior remain inside real clay margins. Fine transverse skin texture does not establish segment count, body length or species identity. This opened-burrow reconstruction is not normal aboveground behavior. Left 40% contains defocused clay. No visible extremity is clipped. The old source occupied the left copy field; the new image restores right-side composition.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 1095.5×362.2 → 194.3×176.0 | 62.84 | 48.00 | 40.00 | Pass |
+| 390×760 | 1095.5×362.2 → 194.3×176.0 | 97.84 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1312.6×434.0 → 472.6×428.0 | 96.00 | 94.88 | 48.00 | Pass |
+| 1920×900 | 1845.0×610.0 → 618.3×560.0 | 96.00 | 166.05 | 48.00 | Pass |
+| 2560×900 | 2460.0×813.3 → 618.3×560.0 | 96.00 | 332.45 | 48.00 | Pass |
+| 3840×900 | 3690.0×1220.0 → 618.3×560.0 | 96.00 | 665.25 | 48.00 | Pass |
+
+`npm run test:carousel`: all 97 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

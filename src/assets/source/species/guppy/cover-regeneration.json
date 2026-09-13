@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas species cover, landscape 1536x1024. One male ornamental guppy Poecilia reticulata, slender realistic body, fan-shaped orange spotted tail and delicate translucent fins, swimming in side profile facing left in a planted freshwater aquarium with no visible equipment. Editorial natural-history macro photography, natural restrained lighting, detailed scales, realistic anatomy and fin rays. Entire fish prominently in RIGHT HALF: complete head, all fin rays, dorsal and ventral fins, entire fan tail inside approximately x=700..1420 y=270..790. Leave real water around every extremity. Left 40% quiet softly defocused green aquatic habitat with absolutely no part of fish. Fish nearly half canvas width, not a tiny speck. One fish, complete silhouette, no cropping, no extra fish, no text, watermark, border, collage or props.",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 610,
+      "top": 210,
+      "right": 1495,
+      "bottom": 745
+    },
+    "sha256": "1b567947bb5ceed150229b8416f452575d4570e5f31da626652d88f5911bbd9e"
+  },
+  "sourceSha256": "8165dd92632275a2fc4e600d1749328a5a63dc22b3642a4d0a2f1d36408ee46b",
+  "supersededCover": {
+    "sha256": "2ab8d504454cda1ef1b9555354004153584786d1e7d1e304d5410be0e0acd434",
+    "bounds": {
+      "left": 1059,
+      "top": 373,
+      "right": 1172,
+      "bottom": 434
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete visible silhouette, quiet left side, genuine source-edge background. Bounds include long tail/toes/bill for macaw; all fin-ray margins for fish."
+}

@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover, landscape 1536x1024. One adult FEMALE superb lyrebird Menura novaehollandiae in an Australian temperate rainforest, full body standing side-on looking left on a low bare fallen log. Female has plain brown grey plumage, small head, slender dark bill, dark eye, strong long grey legs and long plain brown tail held down/back; NO ornate male lyre display. Both feet and visible long toes grip exposed wood, no moss concealing toes. Large prominent bird on RIGHT: entire bill, head, folded wings, tail and toes within x=690..1430 y=100..920, about 780px tall including tail. Complete silhouette with real background margin all around. Left40% softly defocused dark olive forest atmosphere, no sharp fern fronds, tree trunks or bright patches. Soft natural diffuse light, detailed realistic feathers and anatomy. One animal only, no text or watermark or border.",
+  "generatedImage": "exec-c2b8d06b-08da-423b-84bc-6625849a2675.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 132,
+      "right": 1500,
+      "bottom": 898
+    },
+    "sha256": "d4a074c8b2ea98da1f3402393abb660c0926f779ada575c609f04682c9abaa20"
+  },
+  "sourceSha256": "13acf5bc36bdf0024adc312f7059d9707a01c607d088db7c8a3b32c46e7c7e4c",
+  "supersededCover": {
+    "sha256": "4e87b6137edd07bee2d95db6ee68eba161bcd179a3102efc7318bea3f0b96ee1",
+    "bounds": {
+      "left": 938,
+      "top": 404,
+      "right": 1092,
+      "bottom": 706
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete female bill, head, folded wings, long plain tail and exposed feet with toes. Far-side wing naturally overlaps body; gripping toe portions contact wood. Tail feather tips approach log with visible outline. Quiet defocused left forest."
+}

@@ -1,0 +1,4303 @@
+{
+  "date": "2026-09-12",
+  "scope": "All canonical species covers; gallery re-audit pending. Thumbnail screening never establishes compliance.",
+  "species": [
+    {
+      "slug": "giant-panda",
+      "image": "./images/species/giant-panda/01-forest-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.49
+      },
+      "sha256": "c5e1dc2d98d60f51e20b1090ad647009f853340a7be5e9aadc856464a122b09b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 636,
+        "top": 240,
+        "right": 1472,
+        "bottom": 860
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "red-panda",
+      "image": "./images/species/red-panda/01-forest-canopy-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.48
+      },
+      "sha256": "6dd2d4f4b28e51f6d5350edeabac52d8d29a07f40b16fdd4adf95c27e411c81e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 860,
+        "top": 306,
+        "right": 1430,
+        "bottom": 540
+      },
+      "inspectionNote": "Complete visible ears, whiskers, paws and tail within real forest margin. Natural far-side limb overlap; quiet misty left field. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "eurasian-otter",
+      "image": "./images/species/eurasian-otter/01-riverbank-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.53
+      },
+      "sha256": "c78bd86368b97cc61a3f313b9231df88799c7bc16dc22f51fcfd8e5828b92dc5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 672,
+        "top": 196,
+        "right": 1478,
+        "bottom": 794
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "snow-leopard",
+      "image": "./images/species/snow-leopard/01-alpine-ridge-portrait.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.5
+      },
+      "sha256": "ea4508d50d10ac32fc8d860e2a723da7371d83d204dc834886c6b478d36a51c1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "chinese-mountain-cat",
+      "image": "./images/species/chinese-mountain-cat/01-alpine-meadow-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.58
+      },
+      "sha256": "f270817a7a13b25cba9196be7f04f53031cad3360a8a6f4a9ae629bc0e20d806",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 688,
+        "top": 344,
+        "right": 1452,
+        "bottom": 772
+      },
+      "inspectionNote": "Complete visible ears, whiskers, paws and tail in right field, with real meadow margins; natural foot-ground contact. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "blue-whale",
+      "image": "./images/species/blue-whale/01-open-ocean-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.52
+      },
+      "sha256": "535fa3b1257c0adca3fbfaf4fbeb9557a3f32e7830425eab49071800789aca25",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 624,
+        "top": 326,
+        "right": 1502,
+        "bottom": 650
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "african-savanna-elephant",
+      "image": "./images/species/african-savanna-elephant/01-savanna-family-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.68
+      },
+      "sha256": "d283b579a6d4d3800906ca93e81f122f592d2fd6cb96e412a79841b7b01ffad0",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 688,
+        "top": 142,
+        "right": 1484,
+        "bottom": 800
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "platypus",
+      "image": "./images/species/platypus/01-creek-bank-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.62
+      },
+      "sha256": "2c0afd3b9f8b6ee4db8093e8841e3bf376b393487a8d6013e9d1539199667888",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 604,
+        "top": 506,
+        "right": 1506,
+        "bottom": 812
+      },
+      "inspectionNote": "Complete visible bill, feet and flattened tail within source; only tiny bill tip touches40% boundary, left water quiet. Natural far-side limb overlap. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "western-gorilla",
+      "image": "./images/species/western-gorilla/01-lowland-rainforest-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.54
+      },
+      "sha256": "3f881860cee1e950ed6024fbde2f55eae94fe6caf708a93b73c79b7b81c7d29f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 654,
+        "top": 80,
+        "right": 1440,
+        "bottom": 940
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "polar-bear",
+      "image": "./images/species/polar-bear/01-sea-ice-edge-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.57
+      },
+      "sha256": "f290c324accb56e4e72e7b8aaca1dee51d54d207f9e372e79a8937a3aa2cee9c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 716,
+        "top": 438,
+        "right": 1438,
+        "bottom": 838
+      },
+      "inspectionNote": "Complete muzzle, ears and four visible paws, with natural ground contact and far-side tail occlusion; quiet ice and sky to the left. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "red-kangaroo",
+      "image": "./images/species/red-kangaroo/01-inland-plain-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.58
+      },
+      "sha256": "b874f5f67809e81091289eca3bb95e817e60127e8fc91db91f1a29ccc5b5a871",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 696,
+        "top": 214,
+        "right": 1434,
+        "bottom": 932
+      },
+      "inspectionNote": "Complete ears, forepaws, long hind feet and entire tail tip with real grassland margins; left field has subdued grassland texture. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "common-bottlenose-dolphin",
+      "image": "./images/species/common-bottlenose-dolphin/01-open-water-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.52
+      },
+      "sha256": "e00faf2f6182d7805aedf9a99c0b8bf81e557693ba69714dd5cdc6a9d76c63bc",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 628,
+        "top": 358,
+        "right": 1458,
+        "bottom": 670
+      },
+      "inspectionNote": "Complete rostrum, dorsal fin, both visible pectoral fins and tail flukes within open-water margins; quiet left water. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "wandering-albatross",
+      "image": "./images/species/wandering-albatross/01-southern-ocean-glide.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.47
+      },
+      "sha256": "9e8ece66b896dfa1d0177ee3e94bb3ea0a5df52077b93de1b24bc8cca9fe0279",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 658,
+        "top": 88,
+        "right": 1450,
+        "bottom": 992
+      },
+      "inspectionNote": "Both full wing tips, bill and tail have real ocean/sky margins; lower wing tip has about 32 source pixels clearance. Feet naturally tucked out of view in flight. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "ruby-throated-hummingbird",
+      "image": "./images/species/ruby-throated-hummingbird/01-iridescent-gorget-woodland-edge.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.48
+      },
+      "sha256": "2cfe100c26c77d7d924ee3900620aa20925a5f98cd44819d6215ce048e0c701f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 652,
+        "top": 224,
+        "right": 1408,
+        "bottom": 898
+      },
+      "inspectionNote": "Complete bill, folded wings, tail feather tips and visible gripping toes; branch is supporting environment, not subject boundary. Quiet blurred green left field. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "emperor-penguin",
+      "image": "./images/species/emperor-penguin/01-fast-ice-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.49
+      },
+      "sha256": "ddf31194a8abbc909b9d9a104bc8cf16a2c24982b6548f001ad4f996e68c1f82",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 916,
+        "top": 238,
+        "right": 1264,
+        "bottom": 854
+      },
+      "inspectionNote": "Complete bill, near flipper, feet and tail with real ice margins; far flipper naturally hidden by body in profile. Subdued left ice/sky. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "whale-shark",
+      "image": "./images/species/whale-shark/01-open-ocean-portrait.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.5
+      },
+      "sha256": "8bb515dacb4d7bcfe8bf5395aa1fa6fe08b366a3d13b071f01f84d69de54eded",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 662,
+        "top": 328,
+        "right": 1476,
+        "bottom": 664
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "komodo-dragon",
+      "image": "./images/species/komodo-dragon/01-dry-savanna-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.62
+      },
+      "sha256": "5a453f7808c1a8955ffedcbbc9682d86e1d886e95825e9b77ba81477f122546d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 644,
+        "top": 308,
+        "right": 1500,
+        "bottom": 778
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "reticulated-python",
+      "image": "./images/species/reticulated-python/01-rainforest-riverbank-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.62
+      },
+      "sha256": "8ae65e3aaf4b6b5067ef4092011956b6e700dacd5f01ee5df43b20c8963783aa",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 696,
+        "top": 410,
+        "right": 1482,
+        "bottom": 950
+      },
+      "inspectionNote": "Head, continuous visible body coils and narrowing tail tip are within real riverbank margins; natural self-overlap. Left water is comparatively quiet. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "gharial",
+      "image": "./images/species/gharial/01-sandbank-river-portrait.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.58
+      },
+      "sha256": "569a883b81773f5ecc361b765fe721255f4bd4d4d3f5376efaef89c26573f8f8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "green-sea-turtle",
+      "image": "./images/species/green-sea-turtle/01-seagrass-meadow-grazing.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.58
+      },
+      "sha256": "015f675cc53a51cc060952017fbdb475e8a5222d2e022fd95de2bdf8af07a97d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 630,
+        "top": 178,
+        "right": 1482,
+        "bottom": 790
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "axolotl",
+      "image": "./images/species/axolotl/01-wild-type-canal-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.56
+      },
+      "sha256": "fd0e8d34ed39fd40de89df6b4e81510db332b3b0e08077edaf5be7ca43c4e0fe",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 694,
+        "top": 468,
+        "right": 1508,
+        "bottom": 832
+      },
+      "inspectionNote": "Original-resolution reinspection confirms gill filaments, near-side toes, visible far forefoot and transparent tail edge inside the frame. Far hind limb overlaps the body naturally. The left upper water field is dark and subdued; lower substrate texture does not conceal the subject. Right tail margin is narrow but real. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "chinese-giant-salamander",
+      "image": "./images/species/chinese-giant-salamander/01-rocky-stream-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.63
+      },
+      "sha256": "e6d79677dea525ae91e2b5d471cd22708f6438b9dc53a372bec821399ab1c7d2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 644,
+        "top": 240,
+        "right": 1522,
+        "bottom": 780
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "golden-poison-frog",
+      "image": "./images/species/golden-poison-frog/01-leaf-litter-portrait.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.57
+      },
+      "sha256": "ce02e1efa97013122a238d43bd36d5bf36fa25707b790b6ad1174e209be9d5e8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 724,
+        "top": 192,
+        "right": 1486,
+        "bottom": 862
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "rusty-patched-bumble-bee",
+      "image": "./images/species/rusty-patched-bumble-bee/01-wild-bergamot-worker-portrait.webp",
+      "focalPoint": {
+        "x": 0.64,
+        "y": 0.53
+      },
+      "sha256": "bc637692d40eb97856509a6aa294090647cd8c3414395e6ba93d5ed12c4c8da0",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 668,
+        "top": 148,
+        "right": 1388,
+        "bottom": 780
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "monarch-butterfly",
+      "image": "./images/species/monarch-butterfly/01-female-milkweed-portrait.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.53
+      },
+      "sha256": "3b068f46050c601a47720415e8ca725f3ce581644608d9a430d8eaccd83e2451",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 622,
+        "top": 210,
+        "right": 1388,
+        "bottom": 784
+      },
+      "inspectionNote": "Complete four-wing outline, abdomen and both antenna tips with real meadow margins; gripping legs overlap flower. Left field has blurred meadow texture. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "staghorn-coral",
+      "image": "./images/species/staghorn-coral/01-shallow-reef-colony-cover.webp",
+      "focalPoint": {
+        "x": 0.62,
+        "y": 0.56
+      },
+      "sha256": "356a08e2bd7ea7f116564cb25656b28857dd0a2ec42ef12acfad9f0b4f522f4f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 720,
+        "top": 180,
+        "right": 1482,
+        "bottom": 820
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "moon-jelly",
+      "image": "./images/species/moon-jelly/01-coastal-water-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.53
+      },
+      "sha256": "5223d571cdb0d2a15f502b1d2070daba725845c68852596b2d110f4f615c61e8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 654,
+        "top": 132,
+        "right": 1458,
+        "bottom": 824
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "bowed-fiddler-crab",
+      "image": "./images/species/bowed-fiddler-crab/01-mudflat-burrow-portrait.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.55
+      },
+      "sha256": "65b8eae4bc8f6d8a09c0728c462d1d57f28bc25009871bff9bb041a5b0029889",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 590,
+        "top": 292,
+        "right": 1338,
+        "bottom": 800
+      },
+      "inspectionNote": "Original-resolution reinspection confirms both eyestalks, major claw tips and visible walking-leg tips inside the frame. Hidden far legs overlap the major claw/body naturally. A thin left leg extends to x590, with the full boundary center still beyond 60%; the left field is subdued grey mud. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "chinese-pangolin",
+      "image": "./images/species/chinese-pangolin/01-forest-floor-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.61
+      },
+      "sha256": "bbd5371aeb869779a6ce6cb983f7b4058f8673d5225fb8cf4fb7f3a830aaef95",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 628,
+        "top": 370,
+        "right": 1466,
+        "bottom": 786
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "dugong",
+      "image": "./images/species/dugong/01-seagrass-meadow-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.53
+      },
+      "sha256": "8a0238d23875aec9b76a4e0d512dd96db22b31ee7d66f87c9417754f376c5630",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 620,
+        "top": 294,
+        "right": 1490,
+        "bottom": 684
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "white-rhinoceros",
+      "image": "./images/species/white-rhinoceros/01-square-lipped-savanna-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.52
+      },
+      "sha256": "7b1a29b4111f9c58a2b0c48d4ff23b9b71620b5ca879cba02db8f6e58f9ff97e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 668,
+        "top": 216,
+        "right": 1486,
+        "bottom": 824
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "brown-throated-sloth",
+      "image": "./images/species/brown-throated-sloth/01-canopy-portrait.webp",
+      "focalPoint": {
+        "x": 0.58,
+        "y": 0.5
+      },
+      "sha256": "9de5aadf54074e5276de5269c79e53ef77dd45848ed5e33197434bd1f9f87935",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 640,
+        "top": 16,
+        "right": 1470,
+        "bottom": 882
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "eurasian-beaver",
+      "image": "./images/species/eurasian-beaver/01-riparian-portrait.webp",
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.57
+      },
+      "sha256": "52f5a05b4409cae42e6c2c8959fd107c7d81dc9edad11ef5739a53bc9828417e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 636,
+        "top": 324,
+        "right": 1474,
+        "bottom": 790
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "plateau-pika",
+      "image": "./images/species/plateau-pika/01-alpine-meadow-portrait.webp",
+      "focalPoint": {
+        "x": 0.61,
+        "y": 0.55
+      },
+      "sha256": "378c2ed65b67d118f76f819dbac103ce9cba514964a3e219641c264f7931766a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 718,
+        "top": 362,
+        "right": 1230,
+        "bottom": 788
+      },
+      "inspectionNote": "Original-resolution reinspection confirms ears, whiskers and visible paws inside the frame. Short ground plants meet the paws without hiding their external silhouette; the far hind foot naturally overlaps the seated body. Left meadow and distant hills are soft and subdued. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "chinese-rufous-horseshoe-bat",
+      "image": "./images/species/chinese-rufous-horseshoe-bat/01-cave-mouth-roost-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.53
+      },
+      "sha256": "d162f2a17b0c8b34a91b44f15c2672ea53a09e3ae236c93acb549afda23d99e7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 954,
+        "top": 172,
+        "right": 1242,
+        "bottom": 782
+      },
+      "inspectionNote": "Original-resolution reinspection confirms the hanging toes at the rock contact, folded wing tips, ears and muzzle inside the frame. The folded resting pose naturally encloses other limbs. The 610-pixel subject height is prominent; the left distant forest is defocused. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "chinese-sturgeon",
+      "image": "./images/species/chinese-sturgeon/01-yangtze-migration-portrait.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.57
+      },
+      "sha256": "beb5c04e85108b5013d42cd544cab4f81fdcaac401ee58a35455f2969cc4ff20",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 618,
+        "top": 412,
+        "right": 1482,
+        "bottom": 648
+      },
+      "inspectionNote": "Full snout, visible barbels, fins and heterocercal tail retain real water margins. Quiet left water; far-side fins naturally overlap body. Hero framing and prominence remain unverified. Final acceptance pending. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "coelacanth",
+      "image": "./images/species/coelacanth/01-deep-slope-portrait.webp",
+      "focalPoint": {
+        "x": 0.62,
+        "y": 0.52
+      },
+      "sha256": "372954a3c74c88225d1750d7cbf5f9bcf264fade02c0b97c328b5333799d83ee",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 618,
+        "top": 288,
+        "right": 1468,
+        "bottom": 660
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "tiger",
+      "image": "./images/species/tiger/01-forest-edge-portrait.webp",
+      "focalPoint": {
+        "x": 0.65,
+        "y": 0.56
+      },
+      "sha256": "eb29439de7b91347d965ef0702fb92f6a748364bd87bd39c5736231f4077fe78",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 704,
+        "top": 110,
+        "right": 1478,
+        "bottom": 882
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "sea-otter",
+      "image": "./images/species/sea-otter/01-kelp-surface-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.51
+      },
+      "sha256": "70099db8f2993ab55554d794076235222c0788b154beebba300b90d3da428b4c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 622,
+        "top": 134,
+        "right": 1398,
+        "bottom": 920
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "golden-snub-nosed-monkey",
+      "image": "./images/species/golden-snub-nosed-monkey/01-snowy-forest-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.53
+      },
+      "sha256": "fdb74b7e79674ae80b5c8cac30cf8060bedc823d73cab46632e99060ed37d70f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 716,
+        "top": 48,
+        "right": 1508,
+        "bottom": 964
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "tibetan-antelope",
+      "image": "./images/species/tibetan-antelope/01-high-plateau-male-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.57
+      },
+      "sha256": "254b2382a2196b3899526e2803936b6d226e5eede916bbc423bb4e010dc1b57d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 836,
+        "top": 160,
+        "right": 1328,
+        "bottom": 944
+      },
+      "inspectionNote": "Original-resolution reinspection confirms horn tips, muzzle, visible legs and hoof contact points within the frame. Low grass meets the soles; the tail and far limbs naturally overlap the body in this side view. Left distant mountains form a subdued field. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "asian-elephant",
+      "image": "./images/species/asian-elephant/01-rainforest-female-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.58
+      },
+      "sha256": "ba438478b1b4a9fce255a6cc1d3873a1070420ddab08290f1f014725f0ba8d91",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 638,
+        "top": 116,
+        "right": 1484,
+        "bottom": 900
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "short-beaked-echidna",
+      "image": "./images/species/short-beaked-echidna/01-eucalyptus-woodland-portrait.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.62
+      },
+      "sha256": "bc6da35b8d9cfc57d64afdf12a349552c375758e9e2b46bcaeb471cced87c09a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 636,
+        "top": 216,
+        "right": 1486,
+        "bottom": 810
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "yangtze-finless-porpoise",
+      "image": "./images/species/yangtze-finless-porpoise/01-yangtze-channel-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.54
+      },
+      "sha256": "40f3aabe60ff7303c093e12717bcc304fcdc039771891b4ae55292c6aad5bdc8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 626,
+        "top": 196,
+        "right": 1428,
+        "bottom": 920
+      },
+      "inspectionNote": "Complete rounded head, visible near pectoral flipper and both tail lobes fit inside real water margins. Far-side flipper naturally hidden by body in elevated view. Left40% quiet water; hero acceptance remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "crested-ibis",
+      "image": "./images/species/crested-ibis/01-rice-paddy-flight.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.48
+      },
+      "sha256": "515b45ec92728a3e1442dd32693a98bf410eebc58cbbca7c403ecffec7ba4589",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 648,
+        "top": 80,
+        "right": 1462,
+        "bottom": 774
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "red-crowned-crane",
+      "image": "./images/species/red-crowned-crane/01-red-crown-marsh-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.5
+      },
+      "sha256": "0eff45b0d7533a8d56c413f083f14291e85eceaae47415a0ec4d60c38ee0aa88",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 706,
+        "top": 44,
+        "right": 1370,
+        "bottom": 950
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "golden-eagle",
+      "image": "./images/species/golden-eagle/01-alpine-ridge-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.52
+      },
+      "sha256": "034dade4469470ffd8b3cabe7c219d2ca43e282e4c61b13f9d285c184e0ba688",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 802,
+        "top": 156,
+        "right": 1424,
+        "bottom": 930
+      },
+      "inspectionNote": "Complete bill, crown, folded feather tips, tail and visible talons fit inside real margins. Rear gripping toes naturally occluded by rock/feet. Left field contains soft distant sky and mountains. Hero acceptance remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "peregrine-falcon",
+      "image": "./images/species/peregrine-falcon/01-cliff-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.5
+      },
+      "sha256": "595a563116737a92341a8e442450aaeb6174df2dac22246020df612d31e1268b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 618,
+        "top": 78,
+        "right": 1338,
+        "bottom": 898
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "snowy-owl",
+      "image": "./images/species/snowy-owl/01-arctic-tundra-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.52
+      },
+      "sha256": "15e0fb98c1b9cf4fb1b9d472bda6c7602124ed3dbae97c4fa2bfc0f28cfccc52",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 744,
+        "top": 154,
+        "right": 1388,
+        "bottom": 934
+      },
+      "inspectionNote": "Full head, folded wing and tail tips, feathered feet and visible talons remain inside margins. Some toes naturally concealed by foot plumage. Left upper field is quiet sky and distant tundra; hero acceptance remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "green-peafowl",
+      "image": "./images/species/green-peafowl/01-yunnan-river-valley-male-portrait.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.52
+      },
+      "sha256": "5000bc50fd2669f65f452b79e42a35accbca3818de0ae5b5f19d40e6f687cfa0",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 720,
+        "top": 64,
+        "right": 1448,
+        "bottom": 920
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "arctic-tern",
+      "image": "./images/species/arctic-tern/01-arctic-coast-breeding-adult.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.55
+      },
+      "sha256": "a420b9f6dfb2bbb5dfab7629ca6eada595aca04fdf18b5f7a6df61149beb2e0f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 684,
+        "top": 258,
+        "right": 1494,
+        "bottom": 670
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "african-ostrich",
+      "image": "./images/species/african-ostrich/01-open-savanna-adult-male-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.52
+      },
+      "sha256": "a108960b6f351d6b26867813228286fc9977366db0ac28d866afcd45ef296f7d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 750,
+        "top": 22,
+        "right": 1432,
+        "bottom": 976
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "tuatara",
+      "image": "./images/species/tuatara/01-coastal-forest-adult-male-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.58
+      },
+      "sha256": "335f6cb1adf5f4f4af8cfe07908fc5daaa29bbae4b9ed1ad9ed3431c34de21d4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 630,
+        "top": 260,
+        "right": 1498,
+        "bottom": 866
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "nile-crocodile",
+      "image": "./images/species/nile-crocodile/01-river-sandbank-adult.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.64
+      },
+      "sha256": "5ea40f39dd28d91747023885e6038add5724186445c3c2d7b4dd73c37a3e627e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 626,
+        "top": 284,
+        "right": 1500,
+        "bottom": 852
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "leatherback-turtle",
+      "image": "./images/species/leatherback-turtle/01-open-ocean-ridged-swim.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.56
+      },
+      "sha256": "6516d9fb1ebcb2f0b90d739c695ddf9ec9987f0dce82eeb9817c6cf0bbb7c2e7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 608,
+        "top": 274,
+        "right": 1448,
+        "bottom": 880
+      },
+      "inspectionNote": "Full head, ridged shell and visible flipper tips have real water margins. Snout tip only slightly meets40% boundary; left field otherwise quiet water. Rear appendages overlap naturally in elevated swim view. Hero remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "marine-iguana",
+      "image": "./images/species/marine-iguana/01-black-lava-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.58
+      },
+      "sha256": "7254be42e49b741f43b52ba169a839db9b74f0b035fbc40d3a9bca4979289021",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 634,
+        "top": 152,
+        "right": 1504,
+        "bottom": 926
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "goliath-frog",
+      "image": "./images/species/goliath-frog/01-rapid-river-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.56
+      },
+      "sha256": "536fa87327eebd6913d1af95f0a8e013092543b7070b35b02ed5dc72b84ccd03",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 640,
+        "top": 216,
+        "right": 1498,
+        "bottom": 878
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "belchers-lancelet",
+      "image": "./images/species/belchers-lancelet/01-sandy-seabed-cover.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.61
+      },
+      "sha256": "557ca0989c277f10ded7eea51e893606ecd4f5e7f3ff35e39ed2c8bb6c781d44",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13",
+      "reviewedBounds": {
+        "left": 644,
+        "top": 122,
+        "right": 1496,
+        "bottom": 834
+      }
+    },
+    {
+      "slug": "sea-lamprey",
+      "image": "./images/species/sea-lamprey/01-open-water-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.47
+      },
+      "sha256": "99a25716abd43699ba9d25ff5f40350d65cf8c40b1d11f95051f61b202de62b0",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 852,
+        "top": 154,
+        "right": 1374,
+        "bottom": 980
+      },
+      "inspectionNote": "Complete mouth/head outline, curved body and dorsal/caudal fin edges fit inside quiet water margins. Mouth opening faces away; contour remains visible. Narrow bottom margin is real. Hero remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "arapaima",
+      "image": "./images/species/arapaima/01-floodplain-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.51
+      },
+      "sha256": "b15ad2d71f4d480e7f6d3dc63669bd7e0d1df82680f64ccbccb33bbdb26fec97",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 618,
+        "top": 370,
+        "right": 1468,
+        "bottom": 588
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "atlantic-bluefin-tuna",
+      "image": "./images/species/atlantic-bluefin-tuna/01-open-ocean-portrait.webp",
+      "focalPoint": {
+        "x": 0.65,
+        "y": 0.5
+      },
+      "sha256": "90c4e3491fc80d6a08d9b541c8dad3771a0d531e8616fdc38e211ebeb5d55acf",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 616,
+        "top": 314,
+        "right": 1462,
+        "bottom": 660
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "great-blue-spotted-mudskipper",
+      "image": "./images/species/great-blue-spotted-mudskipper/01-mudflat-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.64,
+        "y": 0.53
+      },
+      "sha256": "40c7453029982cdca6472b5a88d1cc0628e536ddfebfa161fbc79d4324989e8d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 620,
+        "top": 288,
+        "right": 1490,
+        "bottom": 654
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "chinese-horseshoe-crab",
+      "image": "./images/species/chinese-horseshoe-crab/01-shallow-seabed-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.63,
+        "y": 0.53
+      },
+      "sha256": "bd6f8348ecb565eb417a561b0905746caafe08e037756c747d2248ddcf6f270c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 748,
+        "top": 164,
+        "right": 1448,
+        "bottom": 850
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "goliath-birdeater",
+      "image": "./images/species/goliath-birdeater/01-burrow-entrance-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.58
+      },
+      "sha256": "3e97016ae94ddbc133f35e8af347723c57a96d1929d753af77214fd2ce26e7fe",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 698,
+        "top": 126,
+        "right": 1458,
+        "bottom": 834
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "chinese-mantis",
+      "image": "./images/species/chinese-mantis/01-adult-female-vegetation-portrait.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.53
+      },
+      "sha256": "d3bc1745a3cca51273bf72039945685d735d81abf5b6e4bb0b1468bb4c59c981",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 848,
+        "top": 44,
+        "right": 1176,
+        "bottom": 968
+      },
+      "inspectionNote": "Original-resolution reinspection confirms antenna tips, folded forelegs, visible gripping tarsi and wing/abdomen tip within the frame. Stem contact and far-leg overlap are natural to the perched pose. The left vegetation is defocused; full-subject height is 924 pixels with real top and bottom margins. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "seven-spotted-ladybird",
+      "image": "./images/species/seven-spotted-ladybird/01-adult-aphid-colony-portrait.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.53
+      },
+      "sha256": "1490177da744c0a92cd37d88bc59b69dbd59be1b907a9274b2e5edf4efb7ad9f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 628,
+        "top": 154,
+        "right": 1472,
+        "bottom": 850
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "emperor-dragonfly",
+      "image": "./images/species/emperor-dragonfly/01-adult-male-pond-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.52
+      },
+      "sha256": "cde1cc0c48d74c1e2748c8774ba482bd5af939ee36fe168d91cba97b5ac8733d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 616,
+        "top": 84,
+        "right": 1488,
+        "bottom": 954
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "domestic-silkworm",
+      "image": "./images/species/domestic-silkworm/01-adult-domestic-silkworm-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.56
+      },
+      "sha256": "00a640961f81c056a6b271c932fb5ef2b2cb5022600bd7bb0340fa6bf15e1024",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 654,
+        "top": 88,
+        "right": 1494,
+        "bottom": 878
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "antarctic-krill",
+      "image": "./images/species/antarctic-krill/01-adult-krill-under-sea-ice.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.52
+      },
+      "sha256": "ce7403ae1f17719ce1a5db12a54e7898635b8dce1daf0e6c510d31edb090c98f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 666,
+        "top": 156,
+        "right": 1510,
+        "bottom": 884
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "coconut-crab",
+      "image": "./images/species/coconut-crab/01-rainforest-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.55
+      },
+      "sha256": "e3b60a1048a5c12c28649d67d94836bd86cb30a52cc557c647b3bf8f43307c0c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 716,
+        "top": 180,
+        "right": 1448,
+        "bottom": 844
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "chambered-nautilus",
+      "image": "./images/species/chambered-nautilus/01-steep-reef-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.5
+      },
+      "sha256": "2a021f796140d7ec91586981cbefb8c32f36ffc99c2b1b18b7b8f9b5276eeee7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 684,
+        "top": 184,
+        "right": 1466,
+        "bottom": 780
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "common-octopus",
+      "image": "./images/species/common-octopus/01-rocky-reef-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.56
+      },
+      "sha256": "570747e718c12e31a618c9e93cf3f4d6df2e90d01035214a34673da6f910e658",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 714,
+        "top": 174,
+        "right": 1464,
+        "bottom": 808
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "atlantic-blue-sea-slug",
+      "image": "./images/species/atlantic-blue-sea-slug/01-ocean-surface-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.49
+      },
+      "sha256": "89c094d57d577e652a122f39abab7c6066b74b54210d32a364bcbb20f222dc19",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 666,
+        "top": 158,
+        "right": 1274,
+        "bottom": 822
+      },
+      "inspectionNote": "Full head appendages, all visible cerata clusters and tail tip fit with real water margins. Left field is quiet blue water; bright highlights sit above right field. Hero acceptance remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "giant-clam",
+      "image": "./images/species/giant-clam/01-shallow-reef-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.55
+      },
+      "sha256": "7f0e199548fd678389d21b955bfe008edbc14cea47d30a36e924d0834eb1ec47",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 652,
+        "top": 194,
+        "right": 1472,
+        "bottom": 844
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "portuguese-man-of-war",
+      "image": "./images/species/portuguese-man-of-war/01-atlantic-surface-colony-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.55
+      },
+      "sha256": "1dbdffa7f7dc37ccd7ffabd27e8bab80a69ad52c0f2716667819981d30823c62",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 804,
+        "top": 42,
+        "right": 1450,
+        "bottom": 952
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "crown-of-thorns-starfish",
+      "image": "./images/species/crown-of-thorns-starfish/01-coral-reef-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.5
+      },
+      "sha256": "64fdfeb7d71a1f35d5f115314c725e4b7af1e991fac4d159d9458ad486dae32e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 602,
+        "top": 142,
+        "right": 1458,
+        "bottom": 920
+      },
+      "inspectionNote": "Full visible arm tips and spines fit inside real reef margins. A few outer spine tips slightly meet40% boundary; left field is predominantly quiet blue water. Underside tube feet naturally hidden against reef. Hero remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "japanese-sea-cucumber",
+      "image": "./images/species/japanese-sea-cucumber/01-rocky-reef-red-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.53
+      },
+      "sha256": "7d8355dcfd3d1e7dcf085a3ed30b01ad8d8b853f2da7152974f27a5060d93fc8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 734,
+        "top": 220,
+        "right": 1416,
+        "bottom": 800
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "giant-gippsland-earthworm",
+      "image": "./images/species/giant-gippsland-earthworm/01-moist-clay-burrow-adult.webp",
+      "focalPoint": {
+        "x": 0.35,
+        "y": 0.55
+      },
+      "sha256": "1a4b7fa956aa9f83f83558efb3b2b2e09cb1b7af5228a18da8deb7f2e171112b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "aardvark",
+      "image": "./images/species/aardvark/01-dusk-burrow-foraging.webp",
+      "focalPoint": {
+        "x": 0.61,
+        "y": 0.56
+      },
+      "sha256": "3d25253675e1b223384fd672fc71644e0538c814fc2985f9d42242af166ce964",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 682,
+        "top": 232,
+        "right": 1492,
+        "bottom": 806
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "star-nosed-mole",
+      "image": "./images/species/star-nosed-mole/01-wetland-edge-emergence.webp",
+      "focalPoint": {
+        "x": 0.58,
+        "y": 0.53
+      },
+      "sha256": "1586237f4e178ea77a8304692f8ae3b4a0ba7dae46766d7a7332863f896008bc",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 608,
+        "top": 270,
+        "right": 1480,
+        "bottom": 786
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "kakapo",
+      "image": "./images/species/kakapo/01-moss-forest-nocturnal-portrait.webp",
+      "focalPoint": {
+        "x": 0.62,
+        "y": 0.57
+      },
+      "sha256": "375ddaebf681df89b003ac71f500fd7ca8841b49fd0e58cc2f5011cbd33ce374",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 670,
+        "top": 114,
+        "right": 1510,
+        "bottom": 864
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "hoatzin",
+      "image": "./images/species/hoatzin/01-floodplain-riparian-portrait.webp",
+      "focalPoint": {
+        "x": 0.65,
+        "y": 0.51
+      },
+      "sha256": "4b6b7e53dc2adbf98e174e0e7e5bd2a03c681d63d65200dca8fd5c139050ef94",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 720,
+        "top": 26,
+        "right": 1420,
+        "bottom": 972
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "chinese-alligator",
+      "image": "./images/species/chinese-alligator/01-lowland-wetland-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.63
+      },
+      "sha256": "3e3f86ff85b459f9fcdca1319872970360cb69d7ea134a3c8056130dce7d5b42",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 642,
+        "top": 312,
+        "right": 1476,
+        "bottom": 814
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "gila-monster",
+      "image": "./images/species/gila-monster/01-rocky-desert-scrub-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.58
+      },
+      "sha256": "00f0aba1775056a76903c2a682be15795bf1bc7e436256b596e632c275dd7f6d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 694,
+        "top": 412,
+        "right": 1488,
+        "bottom": 788
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "ringed-caecilian",
+      "image": "./images/species/ringed-caecilian/01-cacao-agroforest-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.58,
+        "y": 0.58
+      },
+      "sha256": "3d73735e346fba77d5e26092edb123b72ea951af40fe4cf0ad669a27a3178262",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 638,
+        "top": 202,
+        "right": 1474,
+        "bottom": 834
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "surinam-toad",
+      "image": "./images/species/surinam-toad/01-leaf-litter-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.62,
+        "y": 0.58
+      },
+      "sha256": "05534aec75accd064bb768bfd8b584544fe08d98c320fe52f2e185f1aa1c99ec",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 614,
+        "top": 132,
+        "right": 1500,
+        "bottom": 840
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "atlantic-hagfish",
+      "image": "./images/species/atlantic-hagfish/01-muddy-seafloor-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.64,
+        "y": 0.58
+      },
+      "sha256": "66ab8150c5cd4919aa68a72d118a4dcded11210ecaf7ec341a51eab92232563a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 656,
+        "top": 168,
+        "right": 1496,
+        "bottom": 850
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "ocellate-torpedo",
+      "image": "./images/species/ocellate-torpedo/01-mediterranean-soft-bottom-portrait.webp",
+      "focalPoint": {
+        "x": 0.56,
+        "y": 0.58
+      },
+      "sha256": "ccb3c68612ff1b9364fb47c3485013223573ee3e194d40be1392cddb11fcc58c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 680,
+        "top": 140,
+        "right": 1464,
+        "bottom": 820
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "australian-lungfish",
+      "image": "./images/species/australian-lungfish/01-permanent-river-pool-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.58,
+        "y": 0.58
+      },
+      "sha256": "0ebd0073cc3cd01078445056f6252b46c80b5317f7a8ad6517c605d49fb0ad81",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 628,
+        "top": 366,
+        "right": 1486,
+        "bottom": 694
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "atlantic-pyrosome",
+      "image": "./images/species/atlantic-pyrosome/01-open-ocean-colony-cover.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.52
+      },
+      "sha256": "0b4a52b98011d718b1ec06e81bacdf531fafe34c99357ab61953c4e43ae7bcd2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 642,
+        "top": 152,
+        "right": 1454,
+        "bottom": 856
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "venus-flower-basket",
+      "image": "./images/species/venus-flower-basket/01-soft-sediment-living-cover.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.51
+      },
+      "sha256": "15da84fb57c5599f376463c5f3c5897e15aba61e32a785589f05db16f36344e1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 806,
+        "top": 64,
+        "right": 1230,
+        "bottom": 950
+      },
+      "inspectionNote": "Full upper lattice rim, tubular body and visible basal anchor-spicule fringe have real source margins. Buried anchor ends naturally disappear into sediment. Left field quiet dark water and low-contrast sediment. Hero remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "warty-comb-jelly",
+      "image": "./images/species/warty-comb-jelly/01-western-atlantic-estuary-cover.webp",
+      "focalPoint": {
+        "x": 0.71,
+        "y": 0.55
+      },
+      "sha256": "ba1a675e4bccd6b8e2066d759387f26b4170e1eb01f07d3bbcf29ade0baabd89",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 688,
+        "top": 132,
+        "right": 1408,
+        "bottom": 892
+      },
+      "inspectionNote": "Complete transparent oral lobes, body and visible outer auricle edges have real water margins. Conservative bounds include faint translucent edges. Left40% quiet green water. Hero remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "japanese-planarian",
+      "image": "./images/species/japanese-planarian/01-stream-stone-cover.webp",
+      "focalPoint": {
+        "x": 0.65,
+        "y": 0.5
+      },
+      "sha256": "662a9875e8b655502945b8a16a0a805d8255b1a59946cf69c3f75e7191c2279a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 734,
+        "top": 264,
+        "right": 1386,
+        "bottom": 664
+      },
+      "inspectionNote": "Full auriculate head and tapered tail remain on right with real stone margin. Left background softly defocused, subject outline readable. Hero remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "caenorhabditis-elegans",
+      "image": "./images/species/caenorhabditis-elegans/01-rotting-apple-habitat.webp",
+      "focalPoint": {
+        "x": 0.58,
+        "y": 0.52
+      },
+      "sha256": "d19acd8bf52292f4ed7450a5554f6d85c1d037029f43bb815348da87329cc2ee",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 762,
+        "top": 126,
+        "right": 1418,
+        "bottom": 896
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "lingula-anatina",
+      "image": "./images/species/lingula-anatina/01-tidal-flat-burrow-cover.webp",
+      "focalPoint": {
+        "x": 0.52,
+        "y": 0.55
+      },
+      "sha256": "7952e1b4996cf435b0ea5ce1d3ecdf770489be4d4abf7bfe883e39e82a264bb5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 718,
+        "top": 84,
+        "right": 1458,
+        "bottom": 898
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "bugula-neritina",
+      "image": "./images/species/bugula-neritina/01-marina-piling-colony-cover.webp",
+      "focalPoint": {
+        "x": 0.64,
+        "y": 0.53
+      },
+      "sha256": "5eb3de58f816d9eaf03ba75b5f9d24347e253d26f97195dfa3aa4d3f9dd59d0c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 644,
+        "top": 106,
+        "right": 1440,
+        "bottom": 928
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "red-eyed-tree-frog",
+      "image": "./images/species/red-eyed-tree-frog/01-rainforest-leaf-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.58,
+        "y": 0.54
+      },
+      "sha256": "6efecb8edd33438fdcb588c71b407ddd38e91ed350c1d843a7a49f261886dbae",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 622,
+        "top": 202,
+        "right": 1448,
+        "bottom": 818
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "south-american-giant-centipede",
+      "image": "./images/species/south-american-giant-centipede/01-caribbean-limestone-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.57
+      },
+      "sha256": "67dc63955a4c0cb68a5f2ad3ee856a87d1800f2395ed91686a346fb5897f1d93",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13",
+      "reviewedBounds": {
+        "left": 602,
+        "top": 36,
+        "right": 1498,
+        "bottom": 956
+      }
+    },
+    {
+      "slug": "african-giant-millipede",
+      "image": "./images/species/african-giant-millipede/01-coastal-forest-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.56
+      },
+      "sha256": "a78c4fdc4d623bf1e44d03e9d6db17ec099dca488ee558aa4630299c41709f41",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 650,
+        "top": 76,
+        "right": 1486,
+        "bottom": 872
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "emperor-scorpion",
+      "image": "./images/species/emperor-scorpion/01-forest-refuge-portrait.webp",
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.58
+      },
+      "sha256": "aac99bb868a4a58be9ed81c6e8551b9e1980c3302384e7ad8674c8b37ffd076e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 664,
+        "top": 96,
+        "right": 1476,
+        "bottom": 874
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "large-water-flea",
+      "image": "./images/species/large-water-flea/01-shallow-pond-portrait.webp",
+      "focalPoint": {
+        "x": 0.66,
+        "y": 0.52
+      },
+      "sha256": "50ea8cb31cf4559632669339f87b719a3d081aeffacdb25c110b989c7d02091c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 712,
+        "top": 24,
+        "right": 1442,
+        "bottom": 906
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "peacock-mantis-shrimp",
+      "image": "./images/species/peacock-mantis-shrimp/01-reef-burrow-portrait.webp",
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.56
+      },
+      "sha256": "4e023cf44b6cd10c171c107be71eb6cb639c0bd3fb55f0db25b8e02b60657d8b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 626,
+        "top": 138,
+        "right": 1504,
+        "bottom": 808
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "seventeen-year-cicada",
+      "image": "./images/species/seventeen-year-cicada/01-adult-forest-portrait.webp",
+      "focalPoint": {
+        "x": 0.62,
+        "y": 0.48
+      },
+      "sha256": "306f5a02a85f8d3129f139a0bb8ad842ffdc9c59cdf3dbe909843a39e2f6a01e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 624,
+        "top": 362,
+        "right": 1462,
+        "bottom": 834
+      },
+      "inspectionNote": "Complete visible antenna tips, wing membranes and near-side gripping feet inspected; far-side legs naturally overlap body/branch. Center is right of 60%; defocused forest occupies left field. Source passes; hero framing remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "lion",
+      "image": "./images/species/lion/01-savanna-dawn-male-portrait.webp",
+      "focalPoint": {
+        "x": 0.67,
+        "y": 0.55
+      },
+      "sha256": "c86e1a2190da22a4b71872f4933cbfffe2a71c7deddaf7afa7aa3b98de757256",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 658,
+        "top": 20,
+        "right": 1516,
+        "bottom": 936
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "gumboot-chiton",
+      "image": "./images/species/gumboot-chiton/01-north-pacific-rocky-reef-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.55
+      },
+      "sha256": "4c635f1db72f0ce1c302e5649780365760a91916141dcd7cdb3283f0edfe5e89",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 618,
+        "top": 150,
+        "right": 1434,
+        "bottom": 900
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "common-tusk-shell",
+      "image": "./images/species/common-tusk-shell/01-in-situ-buried-adult-portrait.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.56
+      },
+      "sha256": "4418ba164f2ca9b36755917d102792f4137a4762d0d2dd321244296eebe0f3e2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 802,
+        "top": 124,
+        "right": 1456,
+        "bottom": 850
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "giant-tube-worm",
+      "image": "./images/species/giant-tube-worm/01-diffuse-flow-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.53
+      },
+      "sha256": "697ed2b2f1d204b04fbe28270918ad0f7225c01ad425381578488f3d3164d486",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 924,
+        "top": 64,
+        "right": 1206,
+        "bottom": 938
+      },
+      "inspectionNote": "Full visible red plume filaments, tube rim and tube down to natural rock attachment inspected. Left field is dark open water; right-field center and real margins pass. Internal body naturally stays inside its tube. Hero acceptance remains unverified. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "purple-sea-urchin",
+      "image": "./images/species/purple-sea-urchin/01-wave-washed-kelp-reef-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.53
+      },
+      "sha256": "e643833f2a2768a95e826e986b79017efaecbe774d1ce39935d93721453b69ff",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 656,
+        "top": 184,
+        "right": 1492,
+        "bottom": 814
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "common-brittle-star",
+      "image": "./images/species/common-brittle-star/01-tide-swept-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.72,
+        "y": 0.56
+      },
+      "sha256": "76186dec80a676c5ff713f4760c44df64d6e33d352bc4d8b6cd88ea59cbcf5c2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 640,
+        "top": 108,
+        "right": 1446,
+        "bottom": 898
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "rosy-feather-star",
+      "image": "./images/species/rosy-feather-star/01-current-swept-rocky-reef-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.54
+      },
+      "sha256": "0ceb730cbde67f0f7012128f7d6e66f3b88b4d640385aa65c15472aa1e751eb8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "Original-resolution reinspection confirms the complete visible feather-arm and pinnule tips, including the top tip with about 30 pixels of background clearance. Basal attachment structures naturally overlap the central disc/rock in this view. The left water is subdued. Thin leftmost pinnules reach x600, while the full-boundary center remains beyond 60%. Retained original WebP; six-view static hero projections and all opacity-only endpoints accepted, with evidence in species README.",
+      "reviewDate": "2026-09-13",
+      "reviewedBounds": {
+        "left": 600,
+        "top": 30,
+        "right": 1490,
+        "bottom": 952
+      }
+    },
+    {
+      "slug": "aye-aye",
+      "image": "./images/species/aye-aye/01-night-rainforest-canopy-cover.webp",
+      "focalPoint": {
+        "x": 0.62,
+        "y": 0.51
+      },
+      "sha256": "e7f164c822af624d29fdfa570f1704244bd1330648c63807c48c23237fc27f59",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 700,
+        "top": 90,
+        "right": 1428,
+        "bottom": 982
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "southern-three-banded-armadillo",
+      "image": "./images/species/southern-three-banded-armadillo/01-dry-chaco-foraging-cover.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.56
+      },
+      "sha256": "ff79b20a4f301ff6c68fc6c5bc4c46a50474aef84176a6d31720b03e2c5a1537",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 640,
+        "top": 302,
+        "right": 1500,
+        "bottom": 800
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "sunda-colugo",
+      "image": "./images/species/sunda-colugo/01-lowland-forest-trunk-portrait.webp",
+      "focalPoint": {
+        "x": 0.64,
+        "y": 0.52
+      },
+      "sha256": "17bcde511aec68e2c4899da884a6fe728b5c57ba40eb353a044f8eaf1ead480c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 840,
+        "top": 122,
+        "right": 1226,
+        "bottom": 906
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "naked-mole-rat",
+      "image": "./images/species/naked-mole-rat/01-underground-tunnel-portrait.webp",
+      "focalPoint": {
+        "x": 0.69,
+        "y": 0.55
+      },
+      "sha256": "7febffde6cd3bbaf08c3378ff6daf0360abd77ae0159fcbf72094ba938c170e9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 602,
+        "top": 286,
+        "right": 1488,
+        "bottom": 744
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "superb-lyrebird",
+      "image": "./images/species/superb-lyrebird/01-female-rainforest-cover.webp",
+      "focalPoint": {
+        "x": 0.724,
+        "y": 0.562
+      },
+      "sha256": "d4a074c8b2ea98da1f3402393abb660c0926f779ada575c609f04682c9abaa20",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 628,
+        "top": 132,
+        "right": 1500,
+        "bottom": 898
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "oilbird",
+      "image": "./images/species/oilbird/01-cave-entrance-perch-cover.webp",
+      "focalPoint": {
+        "x": 0.61,
+        "y": 0.48
+      },
+      "sha256": "9fa14140cdafc47915d42f33bc0c86a468681caee585dc237e0b49e8f0a65951",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 596,
+        "top": 76,
+        "right": 1492,
+        "bottom": 980
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "great-hornbill",
+      "image": "./images/species/great-hornbill/01-canopy-perch-cover.webp",
+      "focalPoint": {
+        "x": 0.751,
+        "y": 0.417
+      },
+      "sha256": "bf037d16cc5994aa697227b2c23b15f0c3d60c908d48e076f0bbc919da81eb68",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 822,
+        "top": 102,
+        "right": 1412,
+        "bottom": 958
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "meerkat",
+      "image": "./images/species/meerkat/01-sentinel-mound-cover.webp",
+      "focalPoint": {
+        "x": 0.77,
+        "y": 0.65
+      },
+      "sha256": "4fb8539235fea7044427d9102245f4fdf60fbb536e4b1f1dd1dc031a3cb119ca",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 790,
+        "top": 14,
+        "right": 1460,
+        "bottom": 956
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "shoebill",
+      "image": "./images/species/shoebill/01-papyrus-wetland-adult-cover.webp",
+      "focalPoint": {
+        "x": 0.77,
+        "y": 0.51
+      },
+      "sha256": "91248c2963136332e7bea9dc20c3b7ac560df1ea406406448490f9929029ded0",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "reviewedBounds": {
+        "left": 784,
+        "top": 22,
+        "right": 1366,
+        "bottom": 978
+      },
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README.",
+      "reviewDate": "2026-09-13"
+    },
+    {
+      "slug": "thorny-devil",
+      "image": "./images/species/thorny-devil/01-red-sand-after-rain-cover.webp",
+      "focalPoint": {
+        "x": 0.872,
+        "y": 0.301
+      },
+      "sha256": "0b5914ce0ec26a59f121596230199eabf7908757f088990360f4cccc64357f18",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "texas-horned-lizard",
+      "image": "./images/species/texas-horned-lizard/01-open-prairie-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.415
+      },
+      "sha256": "ee08bc3ed32f40a2da6021a0566145471d10f2bd0d7a425fedce27ca444571b3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "common-raccoon",
+      "image": "./images/species/common-raccoon/01-woodland-stream-cover.webp",
+      "focalPoint": {
+        "x": 0.85,
+        "y": 0.34
+      },
+      "sha256": "356105963a4cc833804dd9aa43afe0d639f46462affecf8cb2f76af0a59fc1fb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "common-pillbug",
+      "image": "./images/species/common-pillbug/01-leaf-litter-cover.webp",
+      "focalPoint": {
+        "x": 0.96,
+        "y": 0.34
+      },
+      "sha256": "21ee6bf011e151b74ea2632e1b247d9c52c59ec5bce1637e1c3e4babaae747e5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "garden-snail",
+      "image": "./images/species/garden-snail/01-garden-stone-cover.webp",
+      "focalPoint": {
+        "x": 0.88,
+        "y": 0.34
+      },
+      "sha256": "4d48d10fcdba93fa165dd86a1e51185c78b05a59d4bad8668c8e42375705012c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "himalayan-marmot",
+      "image": "./images/species/himalayan-marmot/01-alpine-meadow-cover.webp",
+      "focalPoint": {
+        "x": 0.85,
+        "y": 0.34
+      },
+      "sha256": "2971b363294d512af591cb59a07e542feeecdbeeb71422906b263b3370c90199",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "ocellaris-clownfish",
+      "image": "./images/species/ocellaris-clownfish/01-reef-cover.webp",
+      "focalPoint": {
+        "x": 0.84,
+        "y": 0.34
+      },
+      "sha256": "cc8ab3130ad5b3d811eafa12191e71b66a8c0ecaed87565a6bf5dd338382428a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "spider-tailed-horned-viper",
+      "image": "./images/species/spider-tailed-horned-viper/01-limestone-cover.webp",
+      "focalPoint": {
+        "x": 0.8,
+        "y": 0.38
+      },
+      "sha256": "7922cb6e63ed023e9ebcd378f269a0f8ee958fdbfd7319f4c4ae288e2ca1d1d5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "hairy-frog",
+      "image": "./images/species/hairy-frog/01-stream-cover.webp",
+      "focalPoint": {
+        "x": 0.86,
+        "y": 0.34
+      },
+      "sha256": "1bd0bd74647b1d02ff74671d733fbfcd7d394e75518714f72d75a25f402fa8db",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "purple-frog",
+      "image": "./images/species/purple-frog/01-monsoon-cover.webp",
+      "focalPoint": {
+        "x": 0.85,
+        "y": 0.38
+      },
+      "sha256": "b1fee2afbd854b856dee9c5697d7e6f2722d6d1e7982700926614e3b59b5bf06",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "darwins-frog",
+      "image": "./images/species/darwins-frog/01-forest-cover.webp",
+      "focalPoint": {
+        "x": 0.9,
+        "y": 0.38
+      },
+      "sha256": "3c7f57f7a04e816f2f813e19b186559069fd490e7ced0a07f134e1c1c9423051",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "barreleye",
+      "image": "./images/species/barreleye/01-midwater-cover.webp",
+      "focalPoint": {
+        "x": 0.86,
+        "y": 0.38
+      },
+      "sha256": "37ec95640b26cb0d36c436e67e79275ea7ebfac76a94586efa3412b97bbb09a7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "leafy-seadragon",
+      "image": "./images/species/leafy-seadragon/01-kelp-cover.webp",
+      "focalPoint": {
+        "x": 0.86,
+        "y": 0.38
+      },
+      "sha256": "6c5056c49f7fc5e04e43e3ba7624c8d366e62ab5c52724ce101e9bae0d67eeb7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "electric-eel",
+      "image": "./images/species/electric-eel/01-river-cover.webp",
+      "focalPoint": {
+        "x": 0.97,
+        "y": 0.38
+      },
+      "sha256": "c8140f6a389f90de4409bd6df017ea2adcc147e5867f71a6b62c75461801fc78",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "white-spotted-pufferfish",
+      "image": "./images/species/white-spotted-pufferfish/01-sand-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.32
+      },
+      "sha256": "0f83288ea5ea7ced799051186900513736f90c28ca5d951e2cded013b39d988c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "banded-archerfish",
+      "image": "./images/species/banded-archerfish/01-mangrove-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.32
+      },
+      "sha256": "530a50317e71925945c372fa48498a1a83ace7959a70d0860eb36cfa97f65d18",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "plains-zebra",
+      "image": "./images/species/plains-zebra/01-savanna-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.32
+      },
+      "sha256": "6f7565fd98b7276869e6f245204f90d94ee27c299437a9449219d467431869be",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "totoro-velvet-worm",
+      "image": "./images/species/totoro-velvet-worm/01-forest-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.32
+      },
+      "sha256": "7f9abe29d73d61a4e828244deca1114e7be3c09cb89eeab1763d28b4a7cd8905",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "ramazzottius-varieornatus",
+      "image": "./images/species/ramazzottius-varieornatus/01-moss-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.32
+      },
+      "sha256": "6a1ee9750adbe210847873295e0d59619dfc95898dd49612b99675e0ba3c67db",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "trichoplax-adhaerens",
+      "image": "./images/species/trichoplax-adhaerens/01-biofilm-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.35
+      },
+      "sha256": "2d5500185833e09ffdfb8025b81c3df2d8d28a40d860708f07ed691841d09328",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "bootlace-worm",
+      "image": "./images/species/bootlace-worm/01-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.35
+      },
+      "sha256": "87caa67cb41576ac1f313fd5245825dedbb0024b9ff8984bd1124f4254081771",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "tongue-eating-louse",
+      "image": "./images/species/tongue-eating-louse/01-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.35
+      },
+      "sha256": "25225ef6c6a12f87a83a41024a93f69978fbb90f3c5582eb14da15ed2838c568",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "giant-vinegaroon",
+      "image": "./images/species/giant-vinegaroon/01-cover.webp",
+      "focalPoint": {
+        "x": 0.92,
+        "y": 0.35
+      },
+      "sha256": "d65894543f74c87dd620903def830d88b8b6c67d3c960eecd4190872fb9864a3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "sacculina-carcini",
+      "image": "./images/species/sacculina-carcini/01-cover.webp",
+      "focalPoint": {
+        "x": 0.93,
+        "y": 0.35
+      },
+      "sha256": "47f51ef39ac6e018cbbb45c3a688b1b66615fdcbd26aca1e28fa6e4a09afc3de",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "scaly-foot-snail",
+      "image": "./images/species/scaly-foot-snail/01-cover.webp",
+      "focalPoint": {
+        "x": 0.98,
+        "y": 0.35
+      },
+      "sha256": "2152f8c459deb1cd9b822815ab2c2963811484859c2551b1956a0b8892bf9fee",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "vampire-squid",
+      "image": "./images/species/vampire-squid/01-cover.webp",
+      "focalPoint": {
+        "x": 0.88,
+        "y": 0.35
+      },
+      "sha256": "00c07d072577680b8bc9dd4d8b43d289953abdf6f1ead40c695d3e249ed59edb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "australian-box-jellyfish",
+      "image": "./images/species/australian-box-jellyfish/01-cover.webp",
+      "focalPoint": {
+        "x": 0.98,
+        "y": 0.35
+      },
+      "sha256": "579a88c6188f868b644d534212cd730091b4cb9e42c6374dd91145828928a9be",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "bobbit-worm",
+      "image": "./images/species/bobbit-worm/01-cover.webp",
+      "focalPoint": {
+        "x": 0.88,
+        "y": 0.35
+      },
+      "sha256": "1635e0e70ee98a1c8a963f86e404c7283654edfd19ad512b824cb994b9644579",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "reticulated-giraffe",
+      "image": "./images/species/reticulated-giraffe/01-cover.webp",
+      "focalPoint": {
+        "x": 0.98,
+        "y": 0.35
+      },
+      "sha256": "4395b2c76d14d13866d856485123aa9e8093233fab588b142fd025cb03786c1c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "hippopotamus",
+      "image": "./images/species/hippopotamus/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.35
+      },
+      "sha256": "c3ddf31ff00e5b724febbef498c89dc7b8dc46aadf4db23c66b0a98605184da4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "cheetah",
+      "image": "./images/species/cheetah/01-cover.webp",
+      "focalPoint": {
+        "x": 0.9,
+        "y": 0.4
+      },
+      "sha256": "a4c29feddcc3936df38833f863298758948b59c50894c49a36b9745192f58743",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "ring-tailed-lemur",
+      "image": "./images/species/ring-tailed-lemur/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "aa706dd178c0d9a2f09bc96e40a8f7304677f1e0a260134331ea05e92dce0ca7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "greater-flamingo",
+      "image": "./images/species/greater-flamingo/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "4a9a773b93e2e98273c9486738c40d6a9e54da53ffc3a4804f95d11dc637839a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "budgerigar",
+      "image": "./images/species/budgerigar/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "a0c437222f0070ea2acb68fee02367c141b040fb6f185df687791176fc6fc1d9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "toco-toucan",
+      "image": "./images/species/toco-toucan/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "6e5462b4235dacfe27ffb598fe19d2433ec7645d517992fcc5c329d6c4481313",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "common-kingfisher",
+      "image": "./images/species/common-kingfisher/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "2e600e7a134ae0b95a5566bd32b32013eb32326f9a2ff0bcce36c524962d6e21",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "mandarin-duck",
+      "image": "./images/species/mandarin-duck/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "8a41ccf0765cedb1266b64439ccde3f7238e70d21a6b5cb5735e41d7e67f16e8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "barn-swallow",
+      "image": "./images/species/barn-swallow/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "f77e00cee1d6f74bc63909dac09fb5e1fe6a658137f3157e97c8541015f420ed",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "green-iguana",
+      "image": "./images/species/green-iguana/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "5e2f9454fedb8affac4c3fa48ddcfaed18346f53bae7def915da1e7f91777f0f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "central-bearded-dragon",
+      "image": "./images/species/central-bearded-dragon/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "5bc2ec87a695d8b2d9f95e4b94b7243bc19776ebea2eafa6496e9840c7cfe0e9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "veiled-chameleon",
+      "image": "./images/species/veiled-chameleon/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "dc64f06740b6c609847a4cd77c755808bd3d2114722b225c74937a7cef692837",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "oriental-fire-bellied-toad",
+      "image": "./images/species/oriental-fire-bellied-toad/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "2ba253aafe8cea2b0fe2bd28f753cb33d9b3241de4feaef6247cd0016076b30c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "goldfish",
+      "image": "./images/species/goldfish/01-cover.webp",
+      "focalPoint": {
+        "x": 0.95,
+        "y": 0.4
+      },
+      "sha256": "8ee668c9204f29843257b00990e4a92e421e352dc33e14104d7cc1b0aa368bc5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "siamese-fighting-fish",
+      "image": "./images/species/siamese-fighting-fish/01-cover.webp",
+      "focalPoint": {
+        "x": 0.9,
+        "y": 0.42
+      },
+      "sha256": "c6382e8c5a79d02d51fabbc9af9731f96178121c77e67f7049497fbb04cb8e1f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "great-white-shark",
+      "image": "./images/species/great-white-shark/01-cover.webp",
+      "focalPoint": {
+        "x": 0.91,
+        "y": 0.4
+      },
+      "sha256": "022c73e33ec7595fb9681c0781794e6fa2da92a3a367e749c49b4d6263176480",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "eastern-honey-bee",
+      "image": "./images/species/eastern-honey-bee/01-cover.webp",
+      "focalPoint": {
+        "x": 0.84,
+        "y": 0.37
+      },
+      "sha256": "4f49f05e2e92ca5e8bab20987ee40b1197763312156515718df7f350a9db4761",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "two-spotted-cricket",
+      "image": "./images/species/two-spotted-cricket/01-cover.webp",
+      "focalPoint": {
+        "x": 0.81,
+        "y": 0.23
+      },
+      "sha256": "db7e5fbff3282b8f174bfbddbc034c05abd9da3c86536fa048ad3b30c2c41e88",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "japanese-rhinoceros-beetle",
+      "image": "./images/species/japanese-rhinoceros-beetle/01-cover.webp",
+      "focalPoint": {
+        "x": 0.9,
+        "y": 0.35
+      },
+      "sha256": "3f8fd127c593e9cdb8facb6bbe339f040844d197451c8b08dd85c20fa8f18bc2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "orange-oakleaf",
+      "image": "./images/species/orange-oakleaf/01-cover.webp",
+      "focalPoint": {
+        "x": 0.86,
+        "y": 0.28
+      },
+      "sha256": "81abe9790a6dfdb36e50b19e79625e576ab797071cd0f63b516cdb4a9d7f370c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "heike-firefly",
+      "image": "./images/species/heike-firefly/01-cover.webp",
+      "focalPoint": {
+        "x": 0.77,
+        "y": 0.35
+      },
+      "sha256": "2cbb99c747c015172d8f4a24f07fc5f6c5a475e006e826eb13fae07bdf34f800",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "european-rabbit",
+      "image": "./images/species/european-rabbit/01-cover.webp",
+      "focalPoint": {
+        "x": 0.78,
+        "y": 0.43
+      },
+      "sha256": "17abf556060d7d47ea5f0ef89176763fc0978467392ff85a928cd2fa8b2356a7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "eurasian-red-squirrel",
+      "image": "./images/species/eurasian-red-squirrel/01-cover.webp",
+      "focalPoint": {
+        "x": 0.87,
+        "y": 0.31
+      },
+      "sha256": "f467c86795ea85e5a626b55f23715b48442e6a114ca175448813d234a73e23db",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "mallard",
+      "image": "./images/species/mallard/01-cover.webp",
+      "focalPoint": {
+        "x": 0.82,
+        "y": 0.25
+      },
+      "sha256": "b4ee5b2ac01788f282780868014a6869717dbe32d11bdea8de83848e0181e79a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "alpaca",
+      "image": "./images/species/alpaca/01-cover.webp",
+      "focalPoint": {
+        "x": 0.83,
+        "y": 0.32
+      },
+      "sha256": "f2e0ae77ae0c89f03297682c650dff119052f1fee14b8999b25350411617bb49",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "golden-hamster",
+      "image": "./images/species/golden-hamster/01-cover.webp",
+      "focalPoint": {
+        "x": 0.78,
+        "y": 0.35
+      },
+      "sha256": "bee5f2d1b47e377e7737caa753ecb36eb030fb0865c5125b30d3c63588a44a2b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "koala",
+      "image": "./images/species/koala/01-cover.webp",
+      "focalPoint": {
+        "x": 0.75,
+        "y": 0.39
+      },
+      "sha256": "5ae79111d2dcd89b57ebde8e699cc3b80b913593a4a6e5c0c02670922b75a611",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "capybara",
+      "image": "./images/species/capybara/01-cover.webp",
+      "focalPoint": {
+        "x": 0.75,
+        "y": 0.39
+      },
+      "sha256": "c1b3384f64a916870f4625e97ebb2edc66e11ced7c0ebbea8f3235aacfbe077c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "european-hedgehog",
+      "image": "./images/species/european-hedgehog/01-cover.webp",
+      "focalPoint": {
+        "x": 0.79,
+        "y": 0.39
+      },
+      "sha256": "11dc42acc7d069bd4686343781cb5564c6956b13770ccf283facf1595d522cb3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "little-blue-penguin",
+      "image": "./images/species/little-blue-penguin/01-cover.webp",
+      "focalPoint": {
+        "x": 0.79,
+        "y": 0.39
+      },
+      "sha256": "63bebad70a637bd583c54541bc75b23d5a8e5a8bd6b5718fd183f12ad28fbfd9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "aldabra-giant-tortoise",
+      "image": "./images/species/aldabra-giant-tortoise/01-cover.webp",
+      "focalPoint": {
+        "x": 0.75,
+        "y": 0.39
+      },
+      "sha256": "dd49b0b4294729d4a817dbbfe5e9753ce61588280c8b5c4a879a1973fe11d29a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "yellow-seahorse",
+      "image": "./images/species/yellow-seahorse/01-cover.webp",
+      "focalPoint": {
+        "x": 0.75,
+        "y": 0.39
+      },
+      "sha256": "a7f438dc309bd016dbe7c441004c1074de6498725999fe4891693d46ab1dd128",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "common-starfish",
+      "image": "./images/species/common-starfish/01-cover.webp",
+      "focalPoint": {
+        "x": 0.74,
+        "y": 0.33
+      },
+      "sha256": "784cba7092dba7a02ec803660c6c39d31ea027de5e99017d5a1556b87f3aee47",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "walrus",
+      "image": "./images/species/walrus/01-cover.webp",
+      "focalPoint": {
+        "x": 0.88,
+        "y": 0.34
+      },
+      "sha256": "6080f9603651ca38cd61565e73deaba454d3c032ac2c485f652929ffd818d903",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "great-spotted-woodpecker",
+      "image": "./images/species/great-spotted-woodpecker/01-cover.webp",
+      "focalPoint": {
+        "x": 0.71,
+        "y": 0.41
+      },
+      "sha256": "2666b90c1efbd6b680de5938ed4a9561f4e13ffc231e04ded963906a3e2dc6c6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "leafcutter-ant",
+      "image": "./images/species/leafcutter-ant/01-cover.webp",
+      "focalPoint": {
+        "x": 0.83,
+        "y": 0.39
+      },
+      "sha256": "679ef5016380f6103bcf7c1ddd2be2d818fd30a7d75eb75ffdb86f208f7ce2a5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "guinea-pig",
+      "image": "./images/species/guinea-pig/01-cover.webp",
+      "focalPoint": {
+        "x": 0.81,
+        "y": 0.33
+      },
+      "sha256": "673253e33fd26ef7a3638a7b1c6b04789e24fba80d50d9a5530b541c5c14469d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "fennec-fox",
+      "image": "./images/species/fennec-fox/01-cover.webp",
+      "focalPoint": {
+        "x": 0.78,
+        "y": 0.37
+      },
+      "sha256": "7f693f82266d517d6c689e5c3b75de219b6afb5213a9816716ceadb9cf3bd64b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "harbor-seal",
+      "image": "./images/species/harbor-seal/01-cover.webp",
+      "focalPoint": {
+        "x": 0.75,
+        "y": 0.42
+      },
+      "sha256": "9f9f93b16f14a97bca43ec6c5ea5f7d7e277943f9a1a9285e6dffc74e0a56825",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "beluga-whale",
+      "image": "./images/species/beluga-whale/01-cover.webp",
+      "focalPoint": {
+        "x": 0.81,
+        "y": 0.32
+      },
+      "sha256": "6e05291e216fb3421489058cd615f6b12902b5acd892edfcb5ab76b3cc26a098",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "killer-whale",
+      "image": "./images/species/killer-whale/01-cover.webp",
+      "focalPoint": {
+        "x": 0.89,
+        "y": 0.36
+      },
+      "sha256": "dcdcdfb6e1b38c69270e8a0c32db6c5a8fd1d0d3b593c8d5ed3fbeb8b4bff3cb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "atlantic-puffin",
+      "image": "./images/species/atlantic-puffin/01-cover.webp",
+      "focalPoint": {
+        "x": 0.78,
+        "y": 0.35
+      },
+      "sha256": "3152482111b3ac28f716d5bb5b949c4a98d007f581920ca5fef972446b1f731c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "scarlet-macaw",
+      "image": "./images/species/scarlet-macaw/01-cover.webp",
+      "focalPoint": {
+        "x": 0.78,
+        "y": 0.35
+      },
+      "sha256": "c6427226cdede9be00efeebf7e3bc24559db389befcad023461b3c34f2b178a8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "guppy",
+      "image": "./images/species/guppy/01-cover.webp",
+      "focalPoint": {
+        "x": 0.78,
+        "y": 0.35
+      },
+      "sha256": "1b567947bb5ceed150229b8416f452575d4570e5f31da626652d88f5911bbd9e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "blue-tang",
+      "image": "./images/species/blue-tang/01-cover.webp",
+      "focalPoint": {
+        "x": 0.78,
+        "y": 0.35
+      },
+      "sha256": "3f44c74f775e22c95ba8918c4f04eefd8c6242e3a49239a79b9f47da12439020",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "chinese-mitten-crab",
+      "image": "./images/species/chinese-mitten-crab/01-cover.webp",
+      "focalPoint": {
+        "x": 0.88,
+        "y": 0.35
+      },
+      "sha256": "cce07fff2954654fb47668590fa40ec81976bc63f5a80fb5ea1cec0530c551ea",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "common-cuttlefish",
+      "image": "./images/species/common-cuttlefish/01-cover.webp",
+      "focalPoint": {
+        "x": 0.78,
+        "y": 0.35
+      },
+      "sha256": "f11d44be7c1dc9b6e58604bfc1afca6c81cb67cd7c5bcd08dc68800c6f0be8d5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "New prominent source generated and accepted; current full bounds, prompt and six-view geometry in species README."
+    },
+    {
+      "slug": "fire-salamander",
+      "image": "./images/species/fire-salamander/01-cover.webp",
+      "focalPoint": {
+        "x": 0.75,
+        "y": 0.31
+      },
+      "sha256": "a574dffe8884386ab5e09ab0c696c01158f119afb25dfeb9377b70ad024c1503",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "See current single-cover framing verification in species README; earlier crop failures superseded."
+    },
+    {
+      "slug": "malayan-tapir",
+      "image": "./images/species/malayan-tapir/01-cover.webp",
+      "focalPoint": {
+        "x": 0.83,
+        "y": 0.34
+      },
+      "sha256": "1d5d145c178fc0748f95d37447b8a1d0fbb99f7b8e18b72efc53b3e0a3c9995f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "Replaced rejected left-intruding source. See corrected source composition section in species README."
+    },
+    {
+      "slug": "brown-bear",
+      "image": "./images/species/brown-bear/01-cover.webp",
+      "focalPoint": {
+        "x": 0.76,
+        "y": 0.4
+      },
+      "sha256": "1fac6487af2676c48b75862434130eae56cda8f75e8cb0039b929c029573f650",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "Replaced rejected left-intruding source. See corrected source composition section in species README."
+    },
+    {
+      "slug": "eurasian-magpie",
+      "image": "./images/species/eurasian-magpie/01-cover.webp",
+      "focalPoint": {
+        "x": 0.77,
+        "y": 0.31
+      },
+      "sha256": "49408adc937603e94cbddf2a37e9e3bbfde5e0f2c83025442fa5e3ebdede3150",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "See current single-cover framing verification in species README; earlier crop failures superseded."
+    },
+    {
+      "slug": "long-tailed-chinchilla",
+      "image": "./images/species/long-tailed-chinchilla/01-cover.webp",
+      "focalPoint": {
+        "x": 0.84,
+        "y": 0.34
+      },
+      "sha256": "84f3010fdd40d6e23038546238670fc1ab73871ac5275b7774b12a982555b4d8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "See current single-cover framing verification in species README; earlier crop failures superseded."
+    },
+    {
+      "slug": "common-wombat",
+      "image": "./images/species/common-wombat/01-cover.webp",
+      "focalPoint": {
+        "x": 0.85,
+        "y": 0.33
+      },
+      "sha256": "2e65a6824c20527a482d960c05d328ce37f0a3e5f19fc2231f60a6d3d3be6733",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "See current single-cover framing verification in species README; earlier crop failures superseded."
+    },
+    {
+      "slug": "quokka",
+      "image": "./images/species/quokka/01-cover.webp",
+      "focalPoint": {
+        "x": 0.83,
+        "y": 0.37
+      },
+      "sha256": "16e397dee01abe7fc9b996e4663d377b0f8bb10493b217476a0572790d37913d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "See current single-cover framing verification in species README; earlier crop failures superseded."
+    },
+    {
+      "slug": "reindeer",
+      "image": "./images/species/reindeer/01-cover.webp",
+      "focalPoint": {
+        "x": 0.83,
+        "y": 0.34
+      },
+      "sha256": "a36c99b08e83ca85092e42caef8a49814e2bba6c0c07991100e016b99232e77c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "See current single-cover framing verification in species README; earlier crop failures superseded."
+    },
+    {
+      "slug": "red-fox",
+      "image": "./images/species/red-fox/01-cover.webp",
+      "focalPoint": {
+        "x": 0.82,
+        "y": 0.35
+      },
+      "sha256": "baf6f86dd24883436af2f396e53f48d72a37d0895149f14aa8c6dfa136812a81",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "See current single-cover framing verification in species README; earlier crop failures superseded."
+    },
+    {
+      "slug": "california-sea-lion",
+      "image": "./images/species/california-sea-lion/01-cover.webp",
+      "focalPoint": {
+        "x": 0.79,
+        "y": 0.36
+      },
+      "sha256": "2d666a6d90d50cdd6629094f5aa8c296e4f37459320b7d068ae2f3c2cc1c43cf",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-single-cover-subject-framing",
+      "inspectionNote": "See current single-cover framing verification in species README; earlier crop failures superseded."
+    }
+  ]
+}

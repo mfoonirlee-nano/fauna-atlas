@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas cover1536x1024 landscape. One eastern honey bee Apis cerana worker, dark brown abdomen narrow pale bands, hairy thorax, six legs and two elbowed antennae, translucent folded overlapping wings, perched side-on facing left on a small white flower in Asian meadow. Editorial macro wildlife photograph, coherent insect anatomy. Prominent bee on RIGHT, full antennae leg tips wings and abdomen within x=760..1410 y=230..790. Include whole supporting flower head with real background margin. Left40% quiet soft green meadow, no insect parts or competing flowers. Natural soft daylight fine wing veins visible. No other animals text watermark collage border.",
+  "generatedFile": "exec-7182594e-dcd6-4a58-bc11-fe96fd04b1be.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 765,
+      "top": 190,
+      "right": 1405,
+      "bottom": 620
+    },
+    "sha256": "4f49f05e2e92ca5e8bab20987ee40b1197763312156515718df7f350a9db4761"
+  },
+  "sourceSha256": "e55b9bb4b449e62612603013063ab62b1407310a2c8151ee0e8e16c3551c073c",
+  "supersededCover": {
+    "sha256": "9931d6bc10034704870de6664cd257cbf746f3b7541d07293170fc0b5c7e1753",
+    "bounds": {
+      "left": 1123,
+      "top": 359,
+      "right": 1241,
+      "bottom": 437
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Koala ear fur, complete outer body and visible claws; rabbit ears, whiskers, paws and tail; honey bee antennae, translucent wings, abdomen and visible leg tips. Far-side limbs overlap naturally; bee legs partly meet flower center. Koala initial foreground trunk obscuration was removed. Quiet left habitat and real source-edge clearance."
+}

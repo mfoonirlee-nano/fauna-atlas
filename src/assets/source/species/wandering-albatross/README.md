@@ -97,3 +97,23 @@ Frame 06 — breeding-count monitoring. Show exactly one occupied Snowy Albatros
 - Source and runtime basenames form six one-to-one pairs.
 - Visual inspection checks subject counts, complete wing and tail anatomy, adult and chick plumage, bill shape, cover negative space, low-disturbance field practice and the absence of fishery or tourism cues.
 - Frame 03 uses the dimension-correcting edit described above; the original generated outputs remain outside the project asset tree.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-southern-ocean-glide.webp` SHA-256: `9e8ece66b896dfa1d0177ee3e94bb3ea0a5df52077b93de1b24bc8cca9fe0279`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.69, "y": 0.47}`. Full-subject boundary: `{"left": 658, "top": 88, "right": 1450, "bottom": 992}`, 792×904 source pixels, unchanged. Boundary center: 68.6% of source width.
+
+Original-resolution composition inspection: Both full wing tips, bill and tail have real ocean/sky margins; lower wing tip has about 32 source pixels clearance. Feet naturally tucked out of view in flight.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 587.8×670.9 → 154.2×176.0 | 82.90 | 48.00 | 40.00 | Pass |
+| 390×760 | 587.8×670.9 → 154.2×176.0 | 117.90 | 48.00 | 40.00 | Pass |
+| 1366×768 | 704.3×803.9 → 375.0×428.0 | 96.00 | 143.67 | 48.00 | Pass |
+| 1920×900 | 990.0×1130.0 → 490.6×560.0 | 96.00 | 229.89 | 48.00 | Pass |
+| 2560×900 | 1320.0×1506.7 → 490.6×560.0 | 96.00 | 396.29 | 48.00 | Pass |
+| 3840×900 | 1980.0×2260.0 → 490.6×560.0 | 96.00 | 729.09 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

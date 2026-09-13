@@ -153,3 +153,26 @@ Avoid: eggs attached beneath the abdomen like a decapod shrimp, fish eggs scatte
 | 04  | `183605788552335eb7674e9607db8cbcaa4b2980aae48dc2607f05bf8bc2eec7` | `0ba7d72761a651842dee15e178afdcf542e12978a031b348fad4adf69ed24370` |
 | 05  | `62bc30dc38ce6b64b45c1e554549a8628300ce8b60c582606e5467acbeb1784d` | `f01924fbe49fa362e242fbada27300a7b3231ffbf11b9eb945f10b1d478945c9` |
 | 06  | `8706ca8ac9df8602e94751c493c6eb33932fae79f9ac393ddbfcb0c55bc00bbe` | `32bc44d5faa1cd58e45a1d6959261bfb3e6a89d516a9727868ec190024ffebda` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-reef-burrow-portrait.webp` SHA-256: `4e023cf44b6cd10c171c107be71eb6cb639c0bd3fb55f0db25b8e02b60657d8b`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.67, "y": 0.56}`. Conservative full-subject boundary: `{"left": 626, "top": 138, "right": 1504, "bottom": 808}`, 878×670 source pixels (previously 1098×472). Boundary center is 69.3% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes antenna tips, both eye stalks, broad antennal scales, all visible walking appendages and the complete tail fringe. Three edits corrected placement, subdued left sand and added granular compound-eye texture. Folded front appendages and far-side legs naturally overlap; exact appendage counts and eye microstructure are not established by this reconstruction. The tail fringe retains a conservative 32-source-pixel right margin. Left water and sand remain defocused. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 814.9×350.3 → 230.6×176.0 | 44.68 | 48.00 | 40.00 | Pass |
+| 390×760 | 814.9×350.3 → 230.6×176.0 | 79.68 | 48.00 | 40.00 | Pass |
+| 1366×768 | 976.5×419.8 → 559.7×427.1 | 72.00 | 51.32 | 48.45 | Pass |
+| 1920×900 | 1372.5×590.0 → 733.9×560.0 | 96.00 | 108.27 | 48.00 | Pass |
+| 2560×900 | 1830.0×786.7 → 733.9×560.0 | 96.00 | 274.67 | 48.00 | Pass |
+| 3840×900 | 2745.0×1180.0 → 733.9×560.0 | 96.00 | 607.47 | 48.00 | Pass |
+
+`npm run test:carousel`: all 166 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

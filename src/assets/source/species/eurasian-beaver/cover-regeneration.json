@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate landscape1536x1024 wildlife atlas cover: one Eurasian beaver Castor fiber on a clear muddy riverbank in soft evening light, full body three-quarter view facing slightly left. Dense dark brown wet fur, broad blunt muzzle with complete fine whiskers, small rounded ears, compact robust body, small dexterous forepaws and larger webbed hind feet naturally placed, complete broad flat dark scaly paddle tail lying to right with rounded end visible. Entire animal including whiskers, visible toes and full tail fits RIGHT region x=680..1480 y=260..840, prominent and large inside this region, real mud/water margins around every extremity. Left40% quiet blurred river water and distant riparian woodland for text. Natural photographic anatomy, enough soft fill light to separate dark fur and feet from mud. No foreground sticks hiding toes or tail, no extra animals, no otter tail, no nutria tail, no giant teeth, text, border, watermark or vertical seam.",
+  "editPrompt": "Edit only composition: uniformly reduce whole beaver about15% and shift right so the LEFTMOST WHISKER begins at x660 and rightmost tail edge ends at x1490. Keep complete full body, all visible toes, broad paddle tail, whisker lengths, anatomy and natural light. Every extremity surrounded by real mud/water. Left40% river and woodland only. Seamlessly reconstruct vacated background, no seam, border or text.1536x1024.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-a1717583-e48c-4d5c-bba2-a576011f4d26.png",
+  "rejectedCandidate": "exec-078a48cc-feee-4dae-8b2c-033e6324b7bb.png: whiskers intruded into left40%",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 636,
+      "top": 324,
+      "right": 1474,
+      "bottom": 790
+    },
+    "sha256": "52f5a05b4409cae42e6c2c8959fd107c7d81dc9edad11ef5739a53bc9828417e"
+  },
+  "sourceSha256": "a9a9b7ade47dedb83a1408d804af9657a59e53df61f9956c0fd6c79c3353506c",
+  "supersededCover": {
+    "sha256": "d96034e73b04d17b9c68a59519065d92290fb69830743bc8ab2c139d9c8ab136",
+    "bounds": {
+      "left": 566,
+      "top": 322,
+      "right": 1394,
+      "bottom": 848
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full fine whiskers, ears, outer fur, visible paws and hind toes, complete broad paddle tail. Natural limb/body overlap. No edge clipping; quiet left40%."
+}

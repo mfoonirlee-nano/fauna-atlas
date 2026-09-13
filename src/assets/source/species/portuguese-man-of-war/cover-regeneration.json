@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic-natural scientific reconstruction Fauna Atlas Physalia physalis Atlantic Portuguese man o war canonical cover, opaque1536x1024 landscape. Exactly one entire colony at air-sea interface in calm Atlantic water. Side split-level view shows elongated translucent blue-violet gas float with wrinkled pink sailing crest above water, and attached reddish-purple zooids with multiple unequal slender tentacles below. NOT a bell-shaped jellyfish. Float occupies right field around x=950..1360,y=170..330; waterline near y300. All tentacles hang in relaxed naturally contracted curved loops and trailing arcs, unequal lengths, with every fine terminal tip visibly ending inside x=690..1470,y=380..900. Longest tentacles curve within this region without knots, not straight cropped strings, no ends beyond frame, no shortening by crop. Complete colony including transparent float edge, crest, zooids and full tentacle tips surrounded by real background, prominent in right half. Left40% quiet defocused dark blue water with muted blue-gray sky above waterline, no bright wave foam or clouds. Underwater visibility clearly separates fine purple tentacles from deep blue background. Natural soft daylight, no neon glow, no animals, prey, people, labels, text, watermark or border. This reconstructs a contracted tentacle configuration, not a measurement of maximum extension.",
+  "generatedImage": "exec-4f4a773b-cf69-4317-94a9-be17452c0dad.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 804,
+      "top": 42,
+      "right": 1450,
+      "bottom": 952
+    },
+    "sha256": "1dbdffa7f7dc37ccd7ffabd27e8bab80a69ad52c0f2716667819981d30823c62"
+  },
+  "sourceSha256": "747c2782272e03176249467ff7c95f316689754e2c7ea9615a8b209631f31c01",
+  "supersededCover": {
+    "sha256": "644a7b2cbaa6569ea3ec39f64bd73a20300c005748f989ee9dfc55fa7593d312",
+    "bounds": {
+      "left": 704,
+      "top": 70,
+      "right": 1456,
+      "bottom": 1024
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete transparent float crest, visible zooids and every visible tentacle terminal tip. Contracted curved tentacles naturally overlap; neither maximum extension nor exact zooid counts are established."
+}

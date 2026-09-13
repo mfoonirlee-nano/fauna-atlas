@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas cover, 1536x1024 landscape. One adult scarlet macaw Ara macao perched on a natural branch in a tropical rainforest. Accurate red head and body, pale bare facial skin, pale upper bill and dark lower bill, yellow wing band and blue flight feathers, very long complete red-and-blue tail, visible feet gripping branch. Natural-history editorial photography style, soft natural daylight. FULL BODY in the RIGHT HALF of the canvas: complete bill-to-tail silhouette within approximately x=800..1370 y=130..890. The long tail must be entirely visible with real forest background below its tip. Prominent detailed bird, not distant. Left 40% contains only quiet softly defocused forest, no part of the bird. Full bill, head, wing edges, toes, entire tail inside canvas with background clearance. One coherent scene, no extra animals, text, watermarks, collage, frames or artificial objects.",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 45,
+      "right": 1335,
+      "bottom": 995
+    },
+    "sha256": "c6427226cdede9be00efeebf7e3bc24559db389befcad023461b3c34f2b178a8"
+  },
+  "sourceSha256": "2bb829d5e0313e6f54e4e9294ffb9d964e84bc99f99c0b650a378955632cf57f",
+  "supersededCover": {
+    "sha256": "b70d42768f1d0ea51a3a6705c289f16121130765beeb5e72f45b75c8b5a8d4d7",
+    "bounds": {
+      "left": 1116,
+      "top": 342,
+      "right": 1167,
+      "bottom": 461
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete visible silhouette, quiet left side, genuine source-edge background. Bounds include long tail/toes/bill for macaw; all fin-ray margins for fish."
+}

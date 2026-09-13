@@ -177,3 +177,26 @@ Avoid: camera still facing the viewer, second camera, disconnected or floating c
 - Pixel means and entropies are non-zero for all 12 files, ruling out blank or single-color output.
 - Static visual inspection checks one complete cover animal with left-side negative space; readable pinna, scales and enlarged central claws; habitat-dominant scale and corrected short tail in image 03; one feeding animal with a narrow tongue; exactly one short-tailed mother plus one pup in image 05; and exactly two researchers, one clipboard and one camera facing the candidate burrow in image 06.
 - No GUI or headless browser was used for verification.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-forest-floor-portrait.webp` SHA-256: `bbd5371aeb869779a6ce6cb983f7b4058f8673d5225fb8cf4fb7f3a830aaef95`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.61}`. Conservative full-subject boundary: `{"left": 628, "top": 370, "right": 1466, "bottom": 786}`, 838×416 source pixels (previously 906×436). Boundary center is 68.2% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the complete snout, visible ears, feet and claw tips, outer tail curve and tapering tail tip. Far-side limbs overlap naturally and feet contact the ground without foreground obstruction. Real forest-floor margins surround the silhouette; left 40% contains subdued defocused forest. A built-in edit corrected the initial draft’s left intrusion. Fine scale patterns are illustrative. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 672.4×323.6 → 272.0×135.0 | 24.00 | 68.49 | 60.49 | Pass |
+| 390×760 | 672.4×323.6 → 342.0×169.8 | 24.00 | 51.11 | 43.11 | Pass |
+| 1366×768 | 805.7×387.7 → 559.7×277.8 | 72.00 | 51.32 | 123.08 | Pass |
+| 1920×900 | 1132.5×545.0 → 825.6×409.8 | 72.00 | 62.40 | 123.08 | Pass |
+| 2560×900 | 1510.0×726.7 → 1128.1×560.0 | 74.36 | 77.56 | 48.00 | Pass |
+| 3840×900 | 2265.0×1090.0 → 1128.1×560.0 | 96.00 | 410.36 | 48.00 | Pass |
+
+`npm run test:carousel`: all 106 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

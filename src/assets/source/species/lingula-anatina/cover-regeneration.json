@@ -1,0 +1,30 @@
+{
+  "prompt": "Scientific-educational natural-history macro reconstruction for Fauna Atlas canonical Lingula anatina cover. Opaque1536x1024 landscape. Exactly one complete exposed brachiopod shown resting on surface of smooth submerged fine silty sand as an illustrative shell-and-pedicle presentation, not its usual buried posture. One thin elongated tongue-shaped olive-green shell with dorsal and ventral valves together, subtle concentric growth lines, gently rounded almost straight anterior edge, fine pale marginal setae at anterior/lateral margins. One long pale beige flexible fleshy unsegmented pedicle emerges from the narrow posterior end and curves gently beside shell, complete terminal end exposed. No clam-style open paired valves. Arrange complete subject wholly in right field: shell diagonally from broad anterior near x=830,y=250 to narrow posterior near x=1160,y=560, continuous pedicle curves toward x=1410,y=650 then down and left to full tip x=1010,y=860. Total full contour including setae and pedicle inside x=680..1470,y=130..910. Prominent shell and pedicle, real sand margin around entire outline. Quiet dark defocused olive-gray water/substrate fills left40%; no detailed grains there. Soft underwater lighting, realistic glossy green shell and pale moist pedicle, distinct animal contour against subdued sediment. This is an exposed morphology reconstruction, no dissection, no transparent sediment. No extra animals, burrow, labels, text, ruler, equipment, watermark, borders, eyes, siphons, molluscan foot, segmented worm, plant shoot or fossil.",
+  "edits": [
+    "Correct only shell shape to Lingula's thin flattened tongue-shaped brachiopod form. Preserve its olive-green color, subtle concentric growth lines, fine anterior/lateral setae, position and connection to the single pale complete curved pedicle. Reduce the inflated mussel-like dome and sharp central ridge; make a low gently convex elongated shell with more nearly parallel lateral edges, broad gently rounded anterior margin and a modest rounded taper at posterior connection, not a strongly pointed mussel beak. Dorsal and ventral valves stay together, no gape or hinge teeth. Preserve pedicle, all margins, quiet left background and1536x1024 framing. No text or additional subjects."
+  ],
+  "generatedImage": "exec-9a583ff2-4dd8-4b8e-a6de-c898d1685e59.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 84,
+      "right": 1458,
+      "bottom": 898
+    },
+    "sha256": "7952e1b4996cf435b0ea5ce1d3ecdf770489be4d4abf7bfe883e39e82a264bb5"
+  },
+  "sourceSha256": "b80fce5d0b6daf192e128442ea73cbdb452c2eacbaa1188a2a7dc77f5f2db7c0",
+  "supersededCover": {
+    "sha256": "f655e4108c5b887c11271a3edff8564a7a94c519213b8ddce49f064b4dae2d3f",
+    "bounds": {
+      "left": 786,
+      "top": 280,
+      "right": 1090,
+      "bottom": 368
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete shell including marginal setae and entire exposed pedicle. Lower valve naturally concealed. Exposed morphology reconstruction, not normal buried posture; shell proportions and pedicle extension are not specimen measurements."
+}

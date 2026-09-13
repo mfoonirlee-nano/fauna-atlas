@@ -18,7 +18,7 @@
       "width": 1536,
       "height": 1024,
       "bounds": {
-        "left": 830,
+        "left": 790,
         "top": 115,
         "right": 1510,
         "bottom": 925
@@ -59,7 +59,7 @@
       "bounds": {
         "left": 565,
         "top": 95,
-        "right": 1500,
+        "right": 1512,
         "bottom": 870
       }
     }
@@ -79,27 +79,27 @@
   },
   "malayan-tapir": {
     "cover": {
-      "sha256": "bfc779f1cd4108e7a2928c1a0caefc3cde44fde876858c0a5afe7da17f762cc7",
+      "sha256": "1d5d145c178fc0748f95d37447b8a1d0fbb99f7b8e18b72efc53b3e0a3c9995f",
       "width": 1536,
       "height": 1024,
       "bounds": {
-        "left": 500,
-        "top": 238,
-        "right": 1410,
-        "bottom": 802
+        "left": 675,
+        "top": 220,
+        "right": 1430,
+        "bottom": 875
       }
     }
   },
   "brown-bear": {
     "cover": {
-      "sha256": "64d5daf8ed49630ca4bfb1161416363e818206084067116f2f6557e45f86f0bd",
+      "sha256": "1fac6487af2676c48b75862434130eae56cda8f75e8cb0039b929c029573f650",
       "width": 1536,
       "height": 1024,
       "bounds": {
-        "left": 535,
-        "top": 250,
-        "right": 1460,
-        "bottom": 795
+        "left": 675,
+        "top": 210,
+        "right": 1420,
+        "bottom": 810
       }
     }
   },
@@ -114,6 +114,2151 @@
         "right": 1455,
         "bottom": 765
       }
+    }
+  },
+  "long-tailed-chinchilla": {
+    "cover": {
+      "sha256": "84f3010fdd40d6e23038546238670fc1ab73871ac5275b7774b12a982555b4d8",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 275,
+        "right": 1455,
+        "bottom": 770
+      }
+    }
+  },
+  "scarlet-macaw": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 45,
+        "right": 1335,
+        "bottom": 995
+      },
+      "sha256": "c6427226cdede9be00efeebf7e3bc24559db389befcad023461b3c34f2b178a8"
+    }
+  },
+  "guppy": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 610,
+        "top": 210,
+        "right": 1495,
+        "bottom": 745
+      },
+      "sha256": "1b567947bb5ceed150229b8416f452575d4570e5f31da626652d88f5911bbd9e"
+    }
+  },
+  "blue-tang": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 605,
+        "top": 225,
+        "right": 1475,
+        "bottom": 710
+      },
+      "sha256": "3f44c74f775e22c95ba8918c4f04eefd8c6242e3a49239a79b9f47da12439020"
+    }
+  },
+  "chinese-mitten-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 350,
+        "right": 1485,
+        "bottom": 835
+      },
+      "sha256": "cce07fff2954654fb47668590fa40ec81976bc63f5a80fb5ea1cec0530c551ea"
+    }
+  },
+  "common-cuttlefish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 315,
+        "right": 1385,
+        "bottom": 675
+      },
+      "sha256": "f11d44be7c1dc9b6e58604bfc1afca6c81cb67cd7c5bcd08dc68800c6f0be8d5"
+    }
+  },
+  "fennec-fox": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 760,
+        "top": 65,
+        "right": 1510,
+        "bottom": 890
+      },
+      "sha256": "7f693f82266d517d6c689e5c3b75de219b6afb5213a9816716ceadb9cf3bd64b"
+    }
+  },
+  "harbor-seal": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 310,
+        "right": 1495,
+        "bottom": 760
+      },
+      "sha256": "9f9f93b16f14a97bca43ec6c5ea5f7d7e277943f9a1a9285e6dffc74e0a56825"
+    }
+  },
+  "beluga-whale": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 330,
+        "right": 1495,
+        "bottom": 665
+      },
+      "sha256": "6e05291e216fb3421489058cd615f6b12902b5acd892edfcb5ab76b3cc26a098"
+    }
+  },
+  "killer-whale": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 720,
+        "top": 265,
+        "right": 1475,
+        "bottom": 665
+      },
+      "sha256": "dcdcdfb6e1b38c69270e8a0c32db6c5a8fd1d0d3b593c8d5ed3fbeb8b4bff3cb"
+    }
+  },
+  "atlantic-puffin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 755,
+        "top": 100,
+        "right": 1395,
+        "bottom": 880
+      },
+      "sha256": "3152482111b3ac28f716d5bb5b949c4a98d007f581920ca5fef972446b1f731c"
+    }
+  },
+  "common-starfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 590,
+        "top": 40,
+        "right": 1480,
+        "bottom": 890
+      },
+      "sha256": "784cba7092dba7a02ec803660c6c39d31ea027de5e99017d5a1556b87f3aee47"
+    }
+  },
+  "walrus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 585,
+        "top": 185,
+        "right": 1485,
+        "bottom": 850
+      },
+      "sha256": "6080f9603651ca38cd61565e73deaba454d3c032ac2c485f652929ffd818d903"
+    }
+  },
+  "great-spotted-woodpecker": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 115,
+        "right": 1220,
+        "bottom": 900
+      },
+      "sha256": "2666b90c1efbd6b680de5938ed4a9561f4e13ffc231e04ded963906a3e2dc6c6"
+    }
+  },
+  "leafcutter-ant": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 605,
+        "top": 95,
+        "right": 1450,
+        "bottom": 795
+      },
+      "sha256": "679ef5016380f6103bcf7c1ddd2be2d818fd30a7d75eb75ffdb86f208f7ce2a5"
+    }
+  },
+  "guinea-pig": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 255,
+        "right": 1370,
+        "bottom": 710
+      },
+      "sha256": "673253e33fd26ef7a3638a7b1c6b04789e24fba80d50d9a5530b541c5c14469d"
+    }
+  },
+  "capybara": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 725,
+        "top": 265,
+        "right": 1445,
+        "bottom": 795
+      },
+      "sha256": "c1b3384f64a916870f4625e97ebb2edc66e11ced7c0ebbea8f3235aacfbe077c"
+    }
+  },
+  "european-hedgehog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 365,
+        "right": 1400,
+        "bottom": 820
+      },
+      "sha256": "11dc42acc7d069bd4686343781cb5564c6956b13770ccf283facf1595d522cb3"
+    }
+  },
+  "little-blue-penguin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 110,
+        "right": 1340,
+        "bottom": 885
+      },
+      "sha256": "63bebad70a637bd583c54541bc75b23d5a8e5a8bd6b5718fd183f12ad28fbfd9"
+    }
+  },
+  "aldabra-giant-tortoise": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 780,
+        "top": 355,
+        "right": 1455,
+        "bottom": 730
+      },
+      "sha256": "dd49b0b4294729d4a817dbbfe5e9753ce61588280c8b5c4a879a1973fe11d29a"
+    }
+  },
+  "yellow-seahorse": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 775,
+        "top": 45,
+        "right": 1315,
+        "bottom": 920
+      },
+      "sha256": "a7f438dc309bd016dbe7c441004c1074de6498725999fe4891693d46ab1dd128"
+    }
+  },
+  "eurasian-red-squirrel": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 45,
+        "right": 1505,
+        "bottom": 865
+      },
+      "sha256": "f467c86795ea85e5a626b55f23715b48442e6a114ca175448813d234a73e23db"
+    }
+  },
+  "mallard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 110,
+        "right": 1490,
+        "bottom": 890
+      },
+      "sha256": "b4ee5b2ac01788f282780868014a6869717dbe32d11bdea8de83848e0181e79a"
+    }
+  },
+  "alpaca": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 805,
+        "top": 40,
+        "right": 1440,
+        "bottom": 950
+      },
+      "sha256": "f2e0ae77ae0c89f03297682c650dff119052f1fee14b8999b25350411617bb49"
+    }
+  },
+  "golden-hamster": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 175,
+        "right": 1420,
+        "bottom": 800
+      },
+      "sha256": "bee5f2d1b47e377e7737caa753ecb36eb030fb0865c5125b30d3c63588a44a2b"
+    }
+  },
+  "koala": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 800,
+        "top": 50,
+        "right": 1475,
+        "bottom": 850
+      },
+      "sha256": "5ae79111d2dcd89b57ebde8e699cc3b80b913593a4a6e5c0c02670922b75a611"
+    }
+  },
+  "european-rabbit": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 90,
+        "right": 1415,
+        "bottom": 890
+      },
+      "sha256": "17abf556060d7d47ea5f0ef89176763fc0978467392ff85a928cd2fa8b2356a7"
+    }
+  },
+  "eastern-honey-bee": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 765,
+        "top": 190,
+        "right": 1405,
+        "bottom": 620
+      },
+      "sha256": "4f49f05e2e92ca5e8bab20987ee40b1197763312156515718df7f350a9db4761"
+    }
+  },
+  "two-spotted-cricket": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 635,
+        "top": 80,
+        "right": 1490,
+        "bottom": 860
+      },
+      "sha256": "db7e5fbff3282b8f174bfbddbc034c05abd9da3c86536fa048ad3b30c2c41e88"
+    }
+  },
+  "japanese-rhinoceros-beetle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 610,
+        "top": 125,
+        "right": 1470,
+        "bottom": 805
+      },
+      "sha256": "3f8fd127c593e9cdb8facb6bbe339f040844d197451c8b08dd85c20fa8f18bc2"
+    }
+  },
+  "orange-oakleaf": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 45,
+        "right": 1435,
+        "bottom": 835
+      },
+      "sha256": "81abe9790a6dfdb36e50b19e79625e576ab797071cd0f63b516cdb4a9d7f370c"
+    }
+  },
+  "heike-firefly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 730,
+        "top": 120,
+        "right": 1345,
+        "bottom": 750
+      },
+      "sha256": "2cbb99c747c015172d8f4a24f07fc5f6c5a475e006e826eb13fae07bdf34f800"
+    }
+  },
+  "veiled-chameleon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 90,
+        "right": 1480,
+        "bottom": 900
+      },
+      "sha256": "dc64f06740b6c609847a4cd77c755808bd3d2114722b225c74937a7cef692837"
+    }
+  },
+  "oriental-fire-bellied-toad": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 205,
+        "right": 1430,
+        "bottom": 790
+      },
+      "sha256": "2ba253aafe8cea2b0fe2bd28f753cb33d9b3241de4feaef6247cd0016076b30c"
+    }
+  },
+  "goldfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 595,
+        "top": 230,
+        "right": 1500,
+        "bottom": 725
+      },
+      "sha256": "8ee668c9204f29843257b00990e4a92e421e352dc33e14104d7cc1b0aa368bc5"
+    }
+  },
+  "siamese-fighting-fish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 595,
+        "top": 170,
+        "right": 1475,
+        "bottom": 755
+      },
+      "sha256": "c6382e8c5a79d02d51fabbc9af9731f96178121c77e67f7049497fbb04cb8e1f"
+    }
+  },
+  "great-white-shark": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 690,
+        "top": 285,
+        "right": 1460,
+        "bottom": 685
+      },
+      "sha256": "022c73e33ec7595fb9681c0781794e6fa2da92a3a367e749c49b4d6263176480"
+    }
+  },
+  "common-kingfisher": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 690,
+        "top": 163,
+        "right": 1340,
+        "bottom": 806
+      },
+      "sha256": "2e600e7a134ae0b95a5566bd32b32013eb32326f9a2ff0bcce36c524962d6e21"
+    }
+  },
+  "mandarin-duck": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 120,
+        "right": 1507,
+        "bottom": 868
+      },
+      "sha256": "8a41ccf0765cedb1266b64439ccde3f7238e70d21a6b5cb5735e41d7e67f16e8"
+    }
+  },
+  "barn-swallow": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 830,
+        "top": 126,
+        "right": 1486,
+        "bottom": 896
+      },
+      "sha256": "f77e00cee1d6f74bc63909dac09fb5e1fe6a658137f3157e97c8541015f420ed"
+    }
+  },
+  "green-iguana": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 638,
+        "top": 134,
+        "right": 1505,
+        "bottom": 855
+      },
+      "sha256": "5e2f9454fedb8affac4c3fa48ddcfaed18346f53bae7def915da1e7f91777f0f"
+    }
+  },
+  "central-bearded-dragon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 708,
+        "top": 261,
+        "right": 1507,
+        "bottom": 748
+      },
+      "sha256": "5bc2ec87a695d8b2d9f95e4b94b7243bc19776ebea2eafa6496e9840c7cfe0e9"
+    }
+  },
+  "cheetah": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 676,
+        "top": 100,
+        "right": 1507,
+        "bottom": 884
+      },
+      "sha256": "a4c29feddcc3936df38833f863298758948b59c50894c49a36b9745192f58743"
+    }
+  },
+  "ring-tailed-lemur": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 842,
+        "top": 96,
+        "right": 1507,
+        "bottom": 949
+      },
+      "sha256": "aa706dd178c0d9a2f09bc96e40a8f7304677f1e0a260134331ea05e92dce0ca7"
+    }
+  },
+  "greater-flamingo": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 850,
+        "top": 62,
+        "right": 1348,
+        "bottom": 949
+      },
+      "sha256": "4a9a773b93e2e98273c9486738c40d6a9e54da53ffc3a4804f95d11dc637839a"
+    }
+  },
+  "budgerigar": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 90,
+        "right": 1402,
+        "bottom": 960
+      },
+      "sha256": "a0c437222f0070ea2acb68fee02367c141b040fb6f185df687791176fc6fc1d9"
+    }
+  },
+  "toco-toucan": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 641,
+        "top": 105,
+        "right": 1347,
+        "bottom": 924
+      },
+      "sha256": "6e5462b4235dacfe27ffb598fe19d2433ec7645d517992fcc5c329d6c4481313"
+    }
+  },
+  "reticulated-giraffe": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 27,
+        "right": 1387,
+        "bottom": 964
+      },
+      "sha256": "4395b2c76d14d13866d856485123aa9e8093233fab588b142fd025cb03786c1c"
+    }
+  },
+  "hippopotamus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 733,
+        "top": 305,
+        "right": 1490,
+        "bottom": 778
+      },
+      "sha256": "c3ddf31ff00e5b724febbef498c89dc7b8dc46aadf4db23c66b0a98605184da4"
+    }
+  },
+  "plains-zebra": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 699,
+        "top": 92,
+        "right": 1483,
+        "bottom": 914
+      },
+      "sha256": "6f7565fd98b7276869e6f245204f90d94ee27c299437a9449219d467431869be"
+    }
+  },
+  "banded-archerfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 300,
+        "right": 1378,
+        "bottom": 616
+      },
+      "sha256": "530a50317e71925945c372fa48498a1a83ace7959a70d0860eb36cfa97f65d18"
+    }
+  },
+  "white-spotted-pufferfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 610,
+        "top": 333,
+        "right": 1481,
+        "bottom": 687
+      },
+      "sha256": "0f83288ea5ea7ced799051186900513736f90c28ca5d951e2cded013b39d988c"
+    }
+  },
+  "electric-eel": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 668,
+        "top": 329,
+        "right": 1397,
+        "bottom": 761
+      },
+      "sha256": "c8140f6a389f90de4409bd6df017ea2adcc147e5867f71a6b62c75461801fc78"
+    }
+  },
+  "leafy-seadragon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 734,
+        "top": 188,
+        "right": 1420,
+        "bottom": 830
+      },
+      "sha256": "6c5056c49f7fc5e04e43e3ba7624c8d366e62ab5c52724ce101e9bae0d67eeb7"
+    }
+  },
+  "ocellaris-clownfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 637,
+        "top": 232,
+        "right": 1492,
+        "bottom": 704
+      },
+      "sha256": "cc8ab3130ad5b3d811eafa12191e71b66a8c0ecaed87565a6bf5dd338382428a"
+    }
+  },
+  "himalayan-marmot": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 264,
+        "right": 1500,
+        "bottom": 794
+      },
+      "sha256": "2971b363294d512af591cb59a07e542feeecdbeeb71422906b263b3370c90199"
+    }
+  },
+  "common-raccoon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 692,
+        "top": 310,
+        "right": 1414,
+        "bottom": 754
+      },
+      "sha256": "356105963a4cc833804dd9aa43afe0d639f46462affecf8cb2f76af0a59fc1fb"
+    }
+  },
+  "garden-snail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 614,
+        "top": 274,
+        "right": 1464,
+        "bottom": 706
+      },
+      "sha256": "4d48d10fcdba93fa165dd86a1e51185c78b05a59d4bad8668c8e42375705012c"
+    }
+  },
+  "thorny-devil": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 662,
+        "top": 378,
+        "right": 1488,
+        "bottom": 732
+      },
+      "sha256": "0b5914ce0ec26a59f121596230199eabf7908757f088990360f4cccc64357f18"
+    }
+  },
+  "texas-horned-lizard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 632,
+        "top": 322,
+        "right": 1509,
+        "bottom": 778
+      },
+      "sha256": "ee08bc3ed32f40a2da6021a0566145471d10f2bd0d7a425fedce27ca444571b3"
+    }
+  },
+  "common-pillbug": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 652,
+        "top": 348,
+        "right": 1424,
+        "bottom": 664
+      },
+      "sha256": "21ee6bf011e151b74ea2632e1b247d9c52c59ec5bce1637e1c3e4babaae747e5"
+    }
+  },
+  "purple-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 656,
+        "top": 274,
+        "right": 1482,
+        "bottom": 812
+      },
+      "sha256": "b1fee2afbd854b856dee9c5697d7e6f2722d6d1e7982700926614e3b59b5bf06"
+    }
+  },
+  "darwins-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 692,
+        "top": 264,
+        "right": 1432,
+        "bottom": 826
+      },
+      "sha256": "3c7f57f7a04e816f2f813e19b186559069fd490e7ced0a07f134e1c1c9423051"
+    }
+  },
+  "hairy-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 300,
+        "right": 1474,
+        "bottom": 762
+      },
+      "sha256": "1bd0bd74647b1d02ff74671d733fbfcd7d394e75518714f72d75a25f402fa8db"
+    }
+  },
+  "giant-vinegaroon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 684,
+        "top": 218,
+        "right": 1488,
+        "bottom": 952
+      },
+      "sha256": "d65894543f74c87dd620903def830d88b8b6c67d3c960eecd4190872fb9864a3"
+    }
+  },
+  "trichoplax-adhaerens": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 648,
+        "top": 120,
+        "right": 1432,
+        "bottom": 908
+      },
+      "sha256": "2d5500185833e09ffdfb8025b81c3df2d8d28a40d860708f07ed691841d09328"
+    }
+  },
+  "ramazzottius-varieornatus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 738,
+        "top": 296,
+        "right": 1486,
+        "bottom": 724
+      },
+      "sha256": "6a1ee9750adbe210847873295e0d59619dfc95898dd49612b99675e0ba3c67db"
+    }
+  },
+  "totoro-velvet-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 644,
+        "top": 248,
+        "right": 1458,
+        "bottom": 728
+      },
+      "sha256": "7f9abe29d73d61a4e828244deca1114e7be3c09cb89eeab1763d28b4a7cd8905"
+    }
+  },
+  "barreleye": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 718,
+        "top": 256,
+        "right": 1496,
+        "bottom": 730
+      },
+      "sha256": "37ec95640b26cb0d36c436e67e79275ea7ebfac76a94586efa3412b97bbb09a7"
+    }
+  },
+  "spider-tailed-horned-viper": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 656,
+        "top": 214,
+        "right": 1468,
+        "bottom": 714
+      },
+      "sha256": "7922cb6e63ed023e9ebcd378f269a0f8ee958fdbfd7319f4c4ae288e2ca1d1d5"
+    }
+  },
+  "vampire-squid": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 742,
+        "top": 174,
+        "right": 1412,
+        "bottom": 840
+      },
+      "sha256": "00c07d072577680b8bc9dd4d8b43d289953abdf6f1ead40c695d3e249ed59edb"
+    }
+  },
+  "scaly-foot-snail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 736,
+        "top": 224,
+        "right": 1458,
+        "bottom": 758
+      },
+      "sha256": "2152f8c459deb1cd9b822815ab2c2963811484859c2551b1956a0b8892bf9fee"
+    }
+  },
+  "bootlace-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 738,
+        "top": 150,
+        "right": 1472,
+        "bottom": 866
+      },
+      "sha256": "87caa67cb41576ac1f313fd5245825dedbb0024b9ff8984bd1124f4254081771"
+    }
+  },
+  "tongue-eating-louse": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 644,
+        "top": 256,
+        "right": 1500,
+        "bottom": 684
+      },
+      "sha256": "25225ef6c6a12f87a83a41024a93f69978fbb90f3c5582eb14da15ed2838c568"
+    }
+  },
+  "australian-box-jellyfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 732,
+        "top": 116,
+        "right": 1498,
+        "bottom": 946
+      },
+      "sha256": "579a88c6188f868b644d534212cd730091b4cb9e42c6374dd91145828928a9be"
+    }
+  },
+  "bobbit-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 674,
+        "top": 144,
+        "right": 1442,
+        "bottom": 896
+      },
+      "sha256": "1635e0e70ee98a1c8a963f86e404c7283654edfd19ad512b824cb994b9644579"
+    }
+  },
+  "sacculina-carcini": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 654,
+        "top": 194,
+        "right": 1506,
+        "bottom": 790
+      },
+      "sha256": "47f51ef39ac6e018cbbb45c3a688b1b66615fdcbd26aca1e28fa6e4a09afc3de"
+    }
+  },
+  "snow-leopard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 696,
+        "top": 150,
+        "right": 1500,
+        "bottom": 758
+      },
+      "sha256": "ea4508d50d10ac32fc8d860e2a723da7371d83d204dc834886c6b478d36a51c1"
+    }
+  },
+  "gharial": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 332,
+        "right": 1504,
+        "bottom": 738
+      },
+      "sha256": "569a883b81773f5ecc361b765fe721255f4bd4d4d3f5376efaef89c26573f8f8"
+    }
+  },
+  "giant-gippsland-earthworm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 664,
+        "top": 152,
+        "right": 1470,
+        "bottom": 882
+      },
+      "sha256": "1a4b7fa956aa9f83f83558efb3b2b2e09cb1b7af5228a18da8deb7f2e171112b"
+    }
+  },
+  "blue-whale": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 624,
+        "top": 326,
+        "right": 1502,
+        "bottom": 650
+      },
+      "sha256": "535fa3b1257c0adca3fbfaf4fbeb9557a3f32e7830425eab49071800789aca25"
+    }
+  },
+  "african-savanna-elephant": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 688,
+        "top": 142,
+        "right": 1484,
+        "bottom": 800
+      },
+      "sha256": "d283b579a6d4d3800906ca93e81f122f592d2fd6cb96e412a79841b7b01ffad0"
+    }
+  },
+  "whale-shark": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 662,
+        "top": 328,
+        "right": 1476,
+        "bottom": 664
+      },
+      "sha256": "8bb515dacb4d7bcfe8bf5395aa1fa6fe08b366a3d13b071f01f84d69de54eded"
+    }
+  },
+  "komodo-dragon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 644,
+        "top": 308,
+        "right": 1500,
+        "bottom": 778
+      },
+      "sha256": "5a453f7808c1a8955ffedcbbc9682d86e1d886e95825e9b77ba81477f122546d"
+    }
+  },
+  "chinese-giant-salamander": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 644,
+        "top": 240,
+        "right": 1522,
+        "bottom": 780
+      },
+      "sha256": "e6d79677dea525ae91e2b5d471cd22708f6438b9dc53a372bec821399ab1c7d2"
+    }
+  },
+  "rusty-patched-bumble-bee": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 668,
+        "top": 148,
+        "right": 1388,
+        "bottom": 780
+      },
+      "sha256": "bc637692d40eb97856509a6aa294090647cd8c3414395e6ba93d5ed12c4c8da0"
+    }
+  },
+  "staghorn-coral": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 720,
+        "top": 180,
+        "right": 1482,
+        "bottom": 820
+      },
+      "sha256": "356a08e2bd7ea7f116564cb25656b28857dd0a2ec42ef12acfad9f0b4f522f4f"
+    }
+  },
+  "moon-jelly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 654,
+        "top": 132,
+        "right": 1458,
+        "bottom": 824
+      },
+      "sha256": "5223d571cdb0d2a15f502b1d2070daba725845c68852596b2d110f4f615c61e8"
+    }
+  },
+  "chinese-pangolin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 370,
+        "right": 1466,
+        "bottom": 786
+      },
+      "sha256": "bbd5371aeb869779a6ce6cb983f7b4058f8673d5225fb8cf4fb7f3a830aaef95"
+    }
+  },
+  "dugong": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 294,
+        "right": 1490,
+        "bottom": 684
+      },
+      "sha256": "8a0238d23875aec9b76a4e0d512dd96db22b31ee7d66f87c9417754f376c5630"
+    }
+  },
+  "white-rhinoceros": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 668,
+        "top": 216,
+        "right": 1486,
+        "bottom": 824
+      },
+      "sha256": "7b1a29b4111f9c58a2b0c48d4ff23b9b71620b5ca879cba02db8f6e58f9ff97e"
+    }
+  },
+  "brown-throated-sloth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 16,
+        "right": 1470,
+        "bottom": 882
+      },
+      "sha256": "9de5aadf54074e5276de5269c79e53ef77dd45848ed5e33197434bd1f9f87935"
+    }
+  },
+  "eurasian-beaver": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 636,
+        "top": 324,
+        "right": 1474,
+        "bottom": 790
+      },
+      "sha256": "52f5a05b4409cae42e6c2c8959fd107c7d81dc9edad11ef5739a53bc9828417e"
+    }
+  },
+  "coelacanth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 618,
+        "top": 288,
+        "right": 1468,
+        "bottom": 660
+      },
+      "sha256": "372954a3c74c88225d1750d7cbf5f9bcf264fade02c0b97c328b5333799d83ee"
+    }
+  },
+  "tiger": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 704,
+        "top": 110,
+        "right": 1478,
+        "bottom": 882
+      },
+      "sha256": "eb29439de7b91347d965ef0702fb92f6a748364bd87bd39c5736231f4077fe78"
+    }
+  },
+  "sea-otter": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 622,
+        "top": 134,
+        "right": 1398,
+        "bottom": 920
+      },
+      "sha256": "70099db8f2993ab55554d794076235222c0788b154beebba300b90d3da428b4c"
+    }
+  },
+  "golden-snub-nosed-monkey": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 716,
+        "top": 48,
+        "right": 1508,
+        "bottom": 964
+      },
+      "sha256": "fdb74b7e79674ae80b5c8cac30cf8060bedc823d73cab46632e99060ed37d70f"
+    }
+  },
+  "peregrine-falcon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 618,
+        "top": 78,
+        "right": 1338,
+        "bottom": 898
+      },
+      "sha256": "595a563116737a92341a8e442450aaeb6174df2dac22246020df612d31e1268b"
+    }
+  },
+  "crested-ibis": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 648,
+        "top": 80,
+        "right": 1462,
+        "bottom": 774
+      },
+      "sha256": "515b45ec92728a3e1442dd32693a98bf410eebc58cbbca7c403ecffec7ba4589"
+    }
+  },
+  "arctic-tern": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 684,
+        "top": 258,
+        "right": 1494,
+        "bottom": 670
+      },
+      "sha256": "a420b9f6dfb2bbb5dfab7629ca6eada595aca04fdf18b5f7a6df61149beb2e0f"
+    }
+  },
+  "meerkat": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 14,
+        "right": 1460,
+        "bottom": 956
+      },
+      "sha256": "4fb8539235fea7044427d9102245f4fdf60fbb536e4b1f1dd1dc031a3cb119ca"
+    }
+  },
+  "shoebill": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 784,
+        "top": 22,
+        "right": 1366,
+        "bottom": 978
+      },
+      "sha256": "91248c2963136332e7bea9dc20c3b7ac560df1ea406406448490f9929029ded0"
+    }
+  },
+  "oilbird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 596,
+        "top": 76,
+        "right": 1492,
+        "bottom": 980
+      },
+      "sha256": "9fa14140cdafc47915d42f33bc0c86a468681caee585dc237e0b49e8f0a65951"
+    }
+  },
+  "great-hornbill": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 822,
+        "top": 102,
+        "right": 1412,
+        "bottom": 958
+      },
+      "sha256": "bf037d16cc5994aa697227b2c23b15f0c3d60c908d48e076f0bbc919da81eb68"
+    }
+  },
+  "superb-lyrebird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 132,
+        "right": 1500,
+        "bottom": 898
+      },
+      "sha256": "d4a074c8b2ea98da1f3402393abb660c0926f779ada575c609f04682c9abaa20"
+    }
+  },
+  "lion": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 658,
+        "top": 20,
+        "right": 1516,
+        "bottom": 936
+      },
+      "sha256": "c86e1a2190da22a4b71872f4933cbfffe2a71c7deddaf7afa7aa3b98de757256"
+    }
+  },
+  "aardvark": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 232,
+        "right": 1492,
+        "bottom": 806
+      },
+      "sha256": "3d25253675e1b223384fd672fc71644e0538c814fc2985f9d42242af166ce964"
+    }
+  },
+  "naked-mole-rat": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 602,
+        "top": 286,
+        "right": 1488,
+        "bottom": 744
+      },
+      "sha256": "7febffde6cd3bbaf08c3378ff6daf0360abd77ae0159fcbf72094ba938c170e9"
+    }
+  },
+  "southern-three-banded-armadillo": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 302,
+        "right": 1500,
+        "bottom": 800
+      },
+      "sha256": "ff79b20a4f301ff6c68fc6c5bc4c46a50474aef84176a6d31720b03e2c5a1537"
+    }
+  },
+  "short-beaked-echidna": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 636,
+        "top": 216,
+        "right": 1486,
+        "bottom": 810
+      },
+      "sha256": "bc6da35b8d9cfc57d64afdf12a349552c375758e9e2b46bcaeb471cced87c09a"
+    }
+  },
+  "red-crowned-crane": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 706,
+        "top": 44,
+        "right": 1370,
+        "bottom": 950
+      },
+      "sha256": "0eff45b0d7533a8d56c413f083f14291e85eceaae47415a0ec4d60c38ee0aa88"
+    }
+  },
+  "kakapo": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 670,
+        "top": 114,
+        "right": 1510,
+        "bottom": 864
+      },
+      "sha256": "375ddaebf681df89b003ac71f500fd7ca8841b49fd0e58cc2f5011cbd33ce374"
+    }
+  },
+  "hoatzin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 720,
+        "top": 26,
+        "right": 1420,
+        "bottom": 972
+      },
+      "sha256": "4b6b7e53dc2adbf98e174e0e7e5bd2a03c681d63d65200dca8fd5c139050ef94"
+    }
+  },
+  "african-ostrich": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 750,
+        "top": 22,
+        "right": 1432,
+        "bottom": 976
+      },
+      "sha256": "a108960b6f351d6b26867813228286fc9977366db0ac28d866afcd45ef296f7d"
+    }
+  },
+  "tuatara": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 260,
+        "right": 1498,
+        "bottom": 866
+      },
+      "sha256": "335f6cb1adf5f4f4af8cfe07908fc5daaa29bbae4b9ed1ad9ed3431c34de21d4"
+    }
+  },
+  "gila-monster": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 694,
+        "top": 412,
+        "right": 1488,
+        "bottom": 788
+      },
+      "sha256": "00f0aba1775056a76903c2a682be15795bf1bc7e436256b596e632c275dd7f6d"
+    }
+  },
+  "ringed-caecilian": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 638,
+        "top": 202,
+        "right": 1474,
+        "bottom": 834
+      },
+      "sha256": "3d73735e346fba77d5e26092edb123b72ea951af40fe4cf0ad669a27a3178262"
+    }
+  },
+  "red-eyed-tree-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 622,
+        "top": 202,
+        "right": 1448,
+        "bottom": 818
+      },
+      "sha256": "6efecb8edd33438fdcb588c71b407ddd38e91ed350c1d843a7a49f261886dbae"
+    }
+  },
+  "goliath-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 216,
+        "right": 1498,
+        "bottom": 878
+      },
+      "sha256": "536fa87327eebd6913d1af95f0a8e013092543b7070b35b02ed5dc72b84ccd03"
+    }
+  },
+  "arapaima": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 618,
+        "top": 370,
+        "right": 1468,
+        "bottom": 588
+      },
+      "sha256": "b15ad2d71f4d480e7f6d3dc63669bd7e0d1df82680f64ccbccb33bbdb26fec97"
+    }
+  },
+  "atlantic-bluefin-tuna": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 616,
+        "top": 314,
+        "right": 1462,
+        "bottom": 660
+      },
+      "sha256": "90c4e3491fc80d6a08d9b541c8dad3771a0d531e8616fdc38e211ebeb5d55acf"
+    }
+  },
+  "great-blue-spotted-mudskipper": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 288,
+        "right": 1490,
+        "bottom": 654
+      },
+      "sha256": "40c7453029982cdca6472b5a88d1cc0628e536ddfebfa161fbc79d4324989e8d"
+    }
+  },
+  "chinese-horseshoe-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 748,
+        "top": 164,
+        "right": 1448,
+        "bottom": 850
+      },
+      "sha256": "bd6f8348ecb565eb417a561b0905746caafe08e037756c747d2248ddcf6f270c"
+    }
+  },
+  "purple-sea-urchin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 656,
+        "top": 184,
+        "right": 1492,
+        "bottom": 814
+      },
+      "sha256": "e643833f2a2768a95e826e986b79017efaecbe774d1ce39935d93721453b69ff"
+    }
+  },
+  "chambered-nautilus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 684,
+        "top": 184,
+        "right": 1466,
+        "bottom": 780
+      },
+      "sha256": "2a021f796140d7ec91586981cbefb8c32f36ffc99c2b1b18b7b8f9b5276eeee7"
+    }
+  },
+  "seven-spotted-ladybird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 154,
+        "right": 1472,
+        "bottom": 850
+      },
+      "sha256": "1490177da744c0a92cd37d88bc59b69dbd59be1b907a9274b2e5edf4efb7ad9f"
+    }
+  },
+  "emperor-dragonfly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 616,
+        "top": 84,
+        "right": 1488,
+        "bottom": 954
+      },
+      "sha256": "cde1cc0c48d74c1e2748c8774ba482bd5af939ee36fe168d91cba97b5ac8733d"
+    }
+  },
+  "african-giant-millipede": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 76,
+        "right": 1486,
+        "bottom": 872
+      },
+      "sha256": "a78c4fdc4d623bf1e44d03e9d6db17ec099dca488ee558aa4630299c41709f41"
+    }
+  },
+  "emperor-scorpion": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 664,
+        "top": 96,
+        "right": 1476,
+        "bottom": 874
+      },
+      "sha256": "aac99bb868a4a58be9ed81c6e8551b9e1980c3302384e7ad8674c8b37ffd076e"
+    }
+  },
+  "goliath-birdeater": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 698,
+        "top": 126,
+        "right": 1458,
+        "bottom": 834
+      },
+      "sha256": "3e97016ae94ddbc133f35e8af347723c57a96d1929d753af77214fd2ce26e7fe"
+    }
+  },
+  "coconut-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 716,
+        "top": 180,
+        "right": 1448,
+        "bottom": 844
+      },
+      "sha256": "e3b60a1048a5c12c28649d67d94836bd86cb30a52cc557c647b3bf8f43307c0c"
+    }
+  },
+  "giant-clam": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 652,
+        "top": 194,
+        "right": 1472,
+        "bottom": 844
+      },
+      "sha256": "7f0e199548fd678389d21b955bfe008edbc14cea47d30a36e924d0834eb1ec47"
+    }
+  },
+  "australian-lungfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 366,
+        "right": 1486,
+        "bottom": 694
+      },
+      "sha256": "0ebd0073cc3cd01078445056f6252b46c80b5317f7a8ad6517c605d49fb0ad81"
+    }
+  },
+  "atlantic-pyrosome": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 642,
+        "top": 152,
+        "right": 1454,
+        "bottom": 856
+      },
+      "sha256": "0b4a52b98011d718b1ec06e81bacdf531fafe34c99357ab61953c4e43ae7bcd2"
+    }
+  },
+  "marine-iguana": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 634,
+        "top": 152,
+        "right": 1504,
+        "bottom": 926
+      },
+      "sha256": "7254be42e49b741f43b52ba169a839db9b74f0b035fbc40d3a9bca4979289021"
+    }
+  },
+  "nile-crocodile": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 626,
+        "top": 284,
+        "right": 1500,
+        "bottom": 852
+      },
+      "sha256": "5ea40f39dd28d91747023885e6038add5724186445c3c2d7b4dd73c37a3e627e"
+    }
+  },
+  "surinam-toad": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 614,
+        "top": 132,
+        "right": 1500,
+        "bottom": 840
+      },
+      "sha256": "05534aec75accd064bb768bfd8b584544fe08d98c320fe52f2e185f1aa1c99ec"
+    }
+  },
+  "star-nosed-mole": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 608,
+        "top": 270,
+        "right": 1480,
+        "bottom": 786
+      },
+      "sha256": "1586237f4e178ea77a8304692f8ae3b4a0ba7dae46766d7a7332863f896008bc"
+    }
+  },
+  "common-tusk-shell": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 802,
+        "top": 124,
+        "right": 1456,
+        "bottom": 850
+      },
+      "sha256": "4418ba164f2ca9b36755917d102792f4137a4762d0d2dd321244296eebe0f3e2"
+    }
+  },
+  "japanese-sea-cucumber": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 734,
+        "top": 220,
+        "right": 1416,
+        "bottom": 800
+      },
+      "sha256": "7d8355dcfd3d1e7dcf085a3ed30b01ad8d8b853f2da7152974f27a5060d93fc8"
+    }
+  },
+  "atlantic-hagfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 656,
+        "top": 168,
+        "right": 1496,
+        "bottom": 850
+      },
+      "sha256": "66ab8150c5cd4919aa68a72d118a4dcded11210ecaf7ec341a51eab92232563a"
+    }
+  },
+  "chinese-alligator": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 642,
+        "top": 312,
+        "right": 1476,
+        "bottom": 814
+      },
+      "sha256": "3e3f86ff85b459f9fcdca1319872970360cb69d7ea134a3c8056130dce7d5b42"
+    }
+  },
+  "ocellate-torpedo": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 140,
+        "right": 1464,
+        "bottom": 820
+      },
+      "sha256": "ccb3c68612ff1b9364fb47c3485013223573ee3e194d40be1392cddb11fcc58c"
+    }
+  },
+  "caenorhabditis-elegans": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 762,
+        "top": 126,
+        "right": 1418,
+        "bottom": 896
+      },
+      "sha256": "d19acd8bf52292f4ed7450a5554f6d85c1d037029f43bb815348da87329cc2ee"
+    }
+  },
+  "common-brittle-star": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 108,
+        "right": 1446,
+        "bottom": 898
+      },
+      "sha256": "76186dec80a676c5ff713f4760c44df64d6e33d352bc4d8b6cd88ea59cbcf5c2"
+    }
+  },
+  "aye-aye": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 90,
+        "right": 1428,
+        "bottom": 982
+      },
+      "sha256": "e7f164c822af624d29fdfa570f1704244bd1330648c63807c48c23237fc27f59"
+    }
+  },
+  "bugula-neritina": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 644,
+        "top": 106,
+        "right": 1440,
+        "bottom": 928
+      },
+      "sha256": "5eb3de58f816d9eaf03ba75b5f9d24347e253d26f97195dfa3aa4d3f9dd59d0c"
+    }
+  },
+  "lingula-anatina": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 718,
+        "top": 84,
+        "right": 1458,
+        "bottom": 898
+      },
+      "sha256": "7952e1b4996cf435b0ea5ce1d3ecdf770489be4d4abf7bfe883e39e82a264bb5"
+    }
+  },
+  "large-water-flea": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 712,
+        "top": 24,
+        "right": 1442,
+        "bottom": 906
+      },
+      "sha256": "50ea8cb31cf4559632669339f87b719a3d081aeffacdb25c110b989c7d02091c"
+    }
+  },
+  "antarctic-krill": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 666,
+        "top": 156,
+        "right": 1510,
+        "bottom": 884
+      },
+      "sha256": "ce7403ae1f17719ce1a5db12a54e7898635b8dce1daf0e6c510d31edb090c98f"
+    }
+  },
+  "peacock-mantis-shrimp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 626,
+        "top": 138,
+        "right": 1504,
+        "bottom": 808
+      },
+      "sha256": "4e023cf44b6cd10c171c107be71eb6cb639c0bd3fb55f0db25b8e02b60657d8b"
+    }
+  },
+  "common-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 714,
+        "top": 174,
+        "right": 1464,
+        "bottom": 808
+      },
+      "sha256": "570747e718c12e31a618c9e93cf3f4d6df2e90d01035214a34673da6f910e658"
+    }
+  },
+  "portuguese-man-of-war": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 804,
+        "top": 42,
+        "right": 1450,
+        "bottom": 952
+      },
+      "sha256": "1dbdffa7f7dc37ccd7ffabd27e8bab80a69ad52c0f2716667819981d30823c62"
+    }
+  },
+  "giant-panda": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 636,
+        "top": 240,
+        "right": 1472,
+        "bottom": 860
+      },
+      "sha256": "c5e1dc2d98d60f51e20b1090ad647009f853340a7be5e9aadc856464a122b09b"
+    }
+  },
+  "eurasian-otter": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 672,
+        "top": 196,
+        "right": 1478,
+        "bottom": 794
+      },
+      "sha256": "c78bd86368b97cc61a3f313b9231df88799c7bc16dc22f51fcfd8e5828b92dc5"
+    }
+  },
+  "western-gorilla": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 654,
+        "top": 80,
+        "right": 1440,
+        "bottom": 940
+      },
+      "sha256": "3f881860cee1e950ed6024fbde2f55eae94fe6caf708a93b73c79b7b81c7d29f"
+    }
+  },
+  "golden-poison-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 724,
+        "top": 192,
+        "right": 1486,
+        "bottom": 862
+      },
+      "sha256": "ce02e1efa97013122a238d43bd36d5bf36fa25707b790b6ad1174e209be9d5e8"
+    }
+  },
+  "asian-elephant": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 638,
+        "top": 116,
+        "right": 1484,
+        "bottom": 900
+      },
+      "sha256": "ba438478b1b4a9fce255a6cc1d3873a1070420ddab08290f1f014725f0ba8d91"
+    }
+  },
+  "gumboot-chiton": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 618,
+        "top": 150,
+        "right": 1434,
+        "bottom": 900
+      },
+      "sha256": "4c635f1db72f0ce1c302e5649780365760a91916141dcd7cdb3283f0edfe5e89"
+    }
+  },
+  "green-sea-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 178,
+        "right": 1482,
+        "bottom": 790
+      },
+      "sha256": "015f675cc53a51cc060952017fbdb475e8a5222d2e022fd95de2bdf8af07a97d"
+    }
+  },
+  "green-peafowl": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 720,
+        "top": 64,
+        "right": 1448,
+        "bottom": 920
+      },
+      "sha256": "5000bc50fd2669f65f452b79e42a35accbca3818de0ae5b5f19d40e6f687cfa0"
+    }
+  },
+  "domestic-silkworm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 654,
+        "top": 88,
+        "right": 1494,
+        "bottom": 878
+      },
+      "sha256": "00a640961f81c056a6b271c932fb5ef2b2cb5022600bd7bb0340fa6bf15e1024"
+    }
+  },
+  "sunda-colugo": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 840,
+        "top": 122,
+        "right": 1226,
+        "bottom": 906
+      },
+      "sha256": "17bcde511aec68e2c4899da884a6fe728b5c57ba40eb353a044f8eaf1ead480c"
+    }
+  },
+  "belchers-lancelet": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 644,
+        "top": 122,
+        "right": 1496,
+        "bottom": 834
+      },
+      "sha256": "557ca0989c277f10ded7eea51e893606ecd4f5e7f3ff35e39ed2c8bb6c781d44"
+    }
+  },
+  "south-american-giant-centipede": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 602,
+        "top": 36,
+        "right": 1498,
+        "bottom": 956
+      },
+      "sha256": "67dc63955a4c0cb68a5f2ad3ee856a87d1800f2395ed91686a346fb5897f1d93"
     }
   }
 }

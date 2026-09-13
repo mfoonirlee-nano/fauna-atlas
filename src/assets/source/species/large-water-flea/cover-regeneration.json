@@ -1,0 +1,27 @@
+{
+  "prompt": "Scientific-educational photorealistic microscopy-style Fauna Atlas Daphnia magna cover, opaque1536x1024 landscape. Exactly one complete translucent adult large water flea swimming in quiet green-brown pond water, lateral view, oval body enclosed by thin transparent uncalcified carapace. One prominent dark compound eye in pointed head, paired branched second swimming antennae with delicate long setae, leaf-like thoracic limbs visible inside carapace, subtle curved gut and dorsal brood chamber, tucked postabdomen and one single posterior tail spine. Entire animal including faint antenna setae, transparent carapace rim and tail spine within right field x=680..1460,y=120..910. Body centered x=1120,y=540, head toward upper-left but above x=950, swimming antenna branches curl/spread upward and right and all tips remain beyond x=680, tail spine extends lower-right. Make animal prominent and detail readable without exaggerating appendages. Left40% quiet dark defocused olive-green water, few faint suspended particles, no vegetation or other animals. Soft transmitted-light style illumination gives readable delicate refractive edges and natural transparent tissues. No outer insect walking legs, extra eyes, duplicate tail spine, copepod body, larvae, cartoon eyes, labels, text, scale bar, watermark or border. This is a scientific reconstruction not an actual micrograph.",
+  "generatedImage": "exec-fd35a00f-8a5f-4101-a461-de4e02adb1c1.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 712,
+      "top": 24,
+      "right": 1442,
+      "bottom": 906
+    },
+    "sha256": "50ea8cb31cf4559632669339f87b719a3d081aeffacdb25c110b989c7d02091c"
+  },
+  "sourceSha256": "19c000115de9d5e3427a530c955365f2a00049697718892fc56ddccc141daaeb",
+  "supersededCover": {
+    "sha256": "65d7e75ceb8a1b357ce191f9eeaced69ddd8fb20a654aa4c4a84bcf2a0530ce6",
+    "bounds": {
+      "left": 474,
+      "top": 162,
+      "right": 1402,
+      "bottom": 834
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete transparent carapace, branched antenna setae and single tail spine. Near and far appendages overlap in lateral view; exact setal, limb and brood counts are not established by this reconstruction."
+}

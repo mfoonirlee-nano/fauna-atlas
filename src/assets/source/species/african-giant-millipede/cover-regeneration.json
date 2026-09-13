@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic macro wildlife atlas cover landscape 1536x1024. One African giant millipede Archispirostreptus gigas crawling in a broad open C-shaped curve on smooth damp brown forest soil, elevated three-quarter view. Accurate long cylindrical glossy dark brown-black body with many ring segments, dense rows of short reddish brown legs beneath, two short segmented antennae on rounded head. Full body traceable from head to rounded terminal segment, no self crossing and no extra heads. Complete animal LARGE on RIGHT with all antennae and visible leg tips inside x=670..1460 y=170..870, head at lower left of right field and tail curled toward upper right. Natural hidden far-side legs allowed. Real soil margin around silhouette. Left40% very softly defocused muted dark green-brown forest floor with no sharp leaves sticks or other animals. Diffuse natural daylight, realistic anatomy, no text border watermark.",
+  "edits": [
+    "Preserve exact millipede anatomy and open curved pose. Slightly reduce whole animal to 94 percent and position it so both antennae begin beyond x=650, rightmost leg tips stay before x=1480 and tail stays below y=100. Keep full body, both antennae and visible legs with real soil around all edges. Soften entire left40% into uniform defocused dark brown-green forest floor, no sharp soil granules or distinct leaves. No other changes."
+  ],
+  "generatedImage": "exec-1ad55417-c314-4dea-980a-3af66c8dc7d8.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 76,
+      "right": 1486,
+      "bottom": 872
+    },
+    "sha256": "a78c4fdc4d623bf1e44d03e9d6db17ec099dca488ee558aa4630299c41709f41"
+  },
+  "sourceSha256": "9276cc0bc29ad4b91b37dbddf3f73a9da74408ca744858c8c0560f6e88cb1f61",
+  "supersededCover": {
+    "sha256": "a6d502bfa6cb4b280a7da8900aa587db61cafc57069c6a15d3609c6d16ca362e",
+    "bounds": {
+      "left": 76,
+      "top": 430,
+      "right": 1386,
+      "bottom": 784
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete curved body, both antennae, rounded terminal segment and visible leg tips. Far-side legs naturally overlap body. Real soil margins; defocused left forest floor."
+}

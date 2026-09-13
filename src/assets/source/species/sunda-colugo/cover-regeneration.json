@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult Sunda colugo Galeopterus variegatus clinging upright to the front-left face of a plain vertical rainforest trunk confined to the right side of frame. Complete animal, large round dark eyes, small rounded ears, mottled grey-brown fur, natural furred gliding membrane connecting neck, limbs and enclosed tail. Resting folded membrane, NOT bat wings, no free long tail. Three-quarter view showing head turned gently toward camera and clearly visible near-side gripping hands and feet with curved claws on unobstructed bark. Far-side limbs may naturally overlap trunk/body. Full head, membrane outline, tail membrane terminal edge and all visible claws inside x=680..1420 and y=120..910 with real margins. Make animal large and prominent. LEFT 40 percent quiet dark soft olive rainforest haze, no distinct trunks, vines, leaves or bright sky gaps. No leaf covering animal or claws. Soft diffuse forest light, realistic documentary photography, no text extra animals logos or collage.",
+  "edits": [
+    "Keep this Sunda colugo and right tree trunk, but reduce the animal uniformly about 12 percent and center it vertically at the same right-side position. Entire animal including top ear, gripping claws and bottom tail-membrane fringe must fit between y=100 and y=920 on the 1536x1024 canvas, with real bark/background above and below. Preserve natural anatomy, visible near-side claws, complete folded membrane and quiet left forest. Do not add leaves or text."
+  ],
+  "generatedImage": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-0980ca47-7548-45b0-8358-fe092dfb3b37.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 840,
+      "top": 122,
+      "right": 1226,
+      "bottom": 906
+    },
+    "sha256": "17bcde511aec68e2c4899da884a6fe728b5c57ba40eb353a044f8eaf1ead480c"
+  },
+  "sourceSha256": "11b40d0f3d174a2c67abbaa9ee1759bd1e1a0565a7ee79217e82611260b2e200",
+  "supersededCover": {
+    "sha256": "3244e696cb6480935eeea9f07bbd71113dc761bd5f1d982440fdcae4a2489029",
+    "bounds": {
+      "left": 746,
+      "top": 116,
+      "right": 1120,
+      "bottom": 934
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete ears, head, furred membrane, enclosed tail edge and visible near-side claws. Far limbs naturally concealed by body and trunk; exact digit counts are not established."
+}

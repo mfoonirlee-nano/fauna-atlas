@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New 1536x1024 landscape Fauna Atlas cover. One adult walrus Odobenus rosmarus resting on a flat Arctic gravel shore, massive brown wrinkled body, broad whiskered muzzle, two complete long ivory tusks, foreflippers and hindflippers visible. Three-quarter side view facing left, realistic anatomy and natural-history editorial photographic style, cool diffuse daylight. The WHOLE animal prominently in RIGHT HALF: muzzle/whiskers/tusk tips after x=720 and rear flippers before x=1410, full silhouette approximately x=700..1430 y=230..840. Left 40% quiet defocused sea and gravel, no animal parts. Full tusks and every visible flipper tip unobscured, genuine habitat beyond all edges. Nearly half canvas width, not tiny or distant. One walrus only, no text, watermark, border, collage, people or objects.",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 585,
+      "top": 185,
+      "right": 1485,
+      "bottom": 850
+    },
+    "sha256": "6080f9603651ca38cd61565e73deaba454d3c032ac2c485f652929ffd818d903"
+  },
+  "sourceSha256": "c53303d19d14d15b518db1df0ecb4c45fc13ea0c20798efb76af9d5be53d6ad8",
+  "supersededCover": {
+    "sha256": "d12ce22d749d2a9bd21e2be743442bb7abc3c95cbdf9388fb086fea39400933a",
+    "bounds": {
+      "left": 1122,
+      "top": 378,
+      "right": 1320,
+      "bottom": 474
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete puffin bill, webbed feet and tail; all five sea-star arm tips and outer spines; walrus whiskers, tusks and visible flippers. Quiet left habitat and real background clearance. Starfish left arm tip and walrus foreflipper tip reach about 39% source width, but do not materially occupy the left copy field."
+}

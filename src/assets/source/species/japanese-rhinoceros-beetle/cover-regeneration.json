@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One male Japanese rhinoceros beetle Trypoxylus dichotomus resting on broad horizontal oak log, three-quarter side view facing left. Chestnut black polished elytra, long head horn forked twice at tip into four prongs, shorter forked thoracic horn, six clawed legs and small clubbed antennae. Natural macro editorial wildlife photograph in East Asian broadleaf woodland. Prominent full beetle on RIGHT, complete horns antennae and every visible claw inside x=740..1430 y=210..850. Real background clearance around entire silhouette; bark below supports all feet naturally. Left40% quiet defocused woodland. No additional animals, text watermark collage borders or human objects.",
+  "editPrompt": "Correct only the long head horn anatomy of this male Trypoxylus dichotomus. The tip must fork twice into EXACTLY FOUR terminal prongs arranged as two pairs, not five. Remove the extra tiny far-left prong, retaining four clear natural tips and the long horn shaft. Preserve the shorter two-pronged thoracic horn, beetle identity, legs antennae body pose bark background lighting and1536x1024 composition. No other changes, no text.",
+  "rejectedCandidate": "Initial head horn had five terminal prongs; edited to four.",
+  "generatedFile": "exec-81fd6928-43b3-4dda-997f-a9ba1e6b4818.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 610,
+      "top": 125,
+      "right": 1470,
+      "bottom": 805
+    },
+    "sha256": "3f8fd127c593e9cdb8facb6bbe339f040844d197451c8b08dd85c20fa8f18bc2"
+  },
+  "sourceSha256": "e5d16374d7c5a6d2663aedb44d38151288ff05d88c262ec2e14da4a98af2ce43",
+  "supersededCover": {
+    "sha256": "1f0f66b4c55d33bcb072be3a26f5b35eb595df35a93846608968bc153a74d85f",
+    "bounds": {
+      "left": 1160,
+      "top": 316,
+      "right": 1346,
+      "bottom": 480
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Four terminal head-horn prongs, shorter forked thoracic horn, clubbed antennae, elytra and all visible leg claws retained. Far-side legs overlap naturally. First candidate rejected for extra head-horn prong. Quiet left habitat and real source-edge clearance."
+}

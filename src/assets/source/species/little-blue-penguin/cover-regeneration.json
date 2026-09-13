@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas cover landscape1536x1024. One New Zealand little blue penguin Eudyptula minor standing in front three-quarter view on a low flat coastal rock, head turned slightly left, both flipper wings held slightly away from body and both pink webbed feet visible, full small tail. Slate blue head back and flippers, white belly, short dark bill, no yellow markings. Natural-history editorial wildlife photograph with soft coastal daylight. Prominent full bird on right with all bill, flipper tips, tail and toes inside x=820..1370 y=150..880. Quiet defocused ocean left40%, real background between complete animal and source edges. Low rock does not obscure toes. No other animals, text watermark collage or human objects.",
+  "generatedFile": "exec-096cbe09-2614-4a00-bd97-9749eed0e690.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 110,
+      "right": 1340,
+      "bottom": 885
+    },
+    "sha256": "63bebad70a637bd583c54541bc75b23d5a8e5a8bd6b5718fd183f12ad28fbfd9"
+  },
+  "sourceSha256": "90a25036f3c1cb0589b3e6675b09d85be639fd1c362ae9180d2eec6366759a35",
+  "supersededCover": {
+    "sha256": "2b77ad5ed133011c132f9afddeb3f7c579e06f8247f80b5e38a4f47bd431c354",
+    "bounds": {
+      "left": 1101,
+      "top": 334,
+      "right": 1227,
+      "bottom": 462
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full capybara whiskers, ears and feet; hedgehog whiskers, outer spines and visible toes; penguin bill, both flippers, tail and webbed feet. Quiet left habitat and real source-edge clearance. Capybara and hedgehog initial candidates rejected for leftward muzzle/whisker intrusion."
+}

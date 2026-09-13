@@ -134,3 +134,26 @@ Color palette: Deep marine blue, slate equipment, blue-gray whale and restrained
 Constraints: Exactly one mooring and exactly one blue whale; complete whale; no entanglement; no text, labels, sound-wave graphic, sonar beam, logo, signature, border or watermark; no boat, diver or other wildlife.
 Avoid: cable touching or wrapping the whale, fishing net, hook, trap, giant industrial array, military sonar, glowing sound rings, waveform overlay, sci-fi beacon, implied direct communication, multiple whales, shark silhouette, cropped flukes, dramatic rescue, CGI, illustration, painting or oversaturation.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-open-ocean-portrait.webp` SHA-256: `535fa3b1257c0adca3fbfaf4fbeb9557a3f32e7830425eab49071800789aca25`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.52}`. Conservative full-subject boundary: `{"left": 624, "top": 326, "right": 1502, "bottom": 650}`, 878×324 source pixels (previously 922×168). Boundary center is 69.2% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. Full rostrum, visible pectoral flipper, small dorsal fin and both fluke tips remain within real water margins. The far-side pectoral flipper is naturally occluded. Initial head intrusion was corrected; left 40% contains quiet blue water. Mottling, throat grooves and foreshortened body proportions are illustrative, not measurements. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 684.3×124.7 → 272.0×100.4 | 24.00 | 85.81 | 77.81 | Pass |
+| 390×760 | 684.3×124.7 → 342.0×126.2 | 24.00 | 72.90 | 64.90 | Pass |
+| 1366×768 | 820.0×149.4 → 559.7×206.5 | 72.00 | 51.32 | 158.73 | Pass |
+| 1920×900 | 1152.5×210.0 → 825.6×304.7 | 72.00 | 62.40 | 175.67 | Pass |
+| 2560×900 | 1536.7×280.0 → 1132.8×418.0 | 72.00 | 75.20 | 118.99 | Pass |
+| 3840×900 | 2305.0×420.0 → 1517.5×560.0 | 96.00 | 215.63 | 48.00 | Pass |
+
+`npm run test:carousel`: all 98 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

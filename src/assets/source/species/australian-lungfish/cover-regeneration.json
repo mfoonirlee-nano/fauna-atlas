@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic freshwater wildlife atlas cover landscape1536x1024. One Australian lungfish Neoceratodus forsteri swimming in a quiet Queensland river pool, full side three-quarter profile facing left. Accurate elongated thick olive-brown body with large overlapping scales, broad blunt flattened head, small eyes, fleshy paddle-shaped pectoral and pelvic fins (not threadlike), long continuous dorsal caudal anal fin around tapered rounded tail. Complete fish LARGE on RIGHT, all snout and visible fleshy fins and tail edges within x=670..1460 y=290..780. Real water margin beyond all fin edges. Far-side fins naturally overlap body. Left40% quiet softly defocused dark green river water, no logs plants gravel or other animals. Soft diffuse underwater light, realistic anatomy and colors, no text border watermark.",
+  "edits": [
+    "Preserve exact Australian lungfish anatomy, visible paddle fins and continuous tail fin. Uniformly reduce whole fish to 75 percent current size and shift right so snout begins x=670 and tail ends x=1470 on1536x1024. Vertically center fish. All of left40% must be water only. Keep real water beyond all fin tips, no other changes."
+  ],
+  "generatedImage": "exec-1d1541ed-1662-4448-a51d-a294afa6c93a.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 366,
+      "right": 1486,
+      "bottom": 694
+    },
+    "sha256": "0ebd0073cc3cd01078445056f6252b46c80b5317f7a8ad6517c605d49fb0ad81"
+  },
+  "sourceSha256": "af458a4fbbd272b6d516aa0b3e4bf84860c38f0f7e618a0efecca5397a2718b7",
+  "supersededCover": {
+    "sha256": "da2be64b29ac128c72457355911928eebdb244597e0b218a777273779901b50c",
+    "bounds": {
+      "left": 418,
+      "top": 408,
+      "right": 1518,
+      "bottom": 832
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete snout, body, visible paddle-shaped paired fins and continuous dorsal/caudal/anal margin. Far-side fins naturally overlap body. Real water margins; quiet left river water."
+}

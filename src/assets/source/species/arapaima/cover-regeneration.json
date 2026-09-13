@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic natural history atlas cover, 1536x1024 landscape. One adult arapaima Arapaima gigas swimming left in clean Amazon floodplain water, full side profile. Accurate elongated thick cylindrical body, broad flattened bony head, upturned mouth, large overlapping metallic olive scales with reddish scale margins toward tail, dorsal and anal fins located far back near rounded caudal fin. All visible fins complete. Large single fish entirely in RIGHT field, snout x=650 tail x=1470, entire silhouette y=320..740 with generous surrounding water. Left 40 percent empty softly defocused muted green underwater background, no roots logs plants or other animals. Natural diffuse underwater light, realistic fine scale detail, no stylization, no text logo border.",
+  "edits": [
+    "Keep this exact realistic arapaima anatomy and water scene. Correct placement: shrink the complete fish uniformly to 76 percent current size and move it right so its snout is at x=650 and tail ends at x=1470 within the 1536x1024 canvas. Preserve the complete visible fins. Keep fish vertically centered. All of left 40 percent must be water only; retain real water margin beyond tail. Do not enlarge head or crop."
+  ],
+  "generatedImage": "exec-22008e09-4afb-4474-9e39-af1e9cca5efd.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 618,
+      "top": 370,
+      "right": 1468,
+      "bottom": 588
+    },
+    "sha256": "b15ad2d71f4d480e7f6d3dc63669bd7e0d1df82680f64ccbccb33bbdb26fec97"
+  },
+  "sourceSha256": "3ee0dfd1c510c28731e8e1aafa191f1ae40ccf3bcc47cf49e65d0385745372ec",
+  "supersededCover": {
+    "sha256": "e94a97f875b554f2b52d90182ac1c2cee43a123027a3215afa19003fc0cb545a",
+    "bounds": {
+      "left": 382,
+      "top": 336,
+      "right": 1518,
+      "bottom": 724
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete snout, body, visible paired fins, posterior dorsal/anal fins and rounded tail. Far-side paired fins naturally overlap the body. Real water margins and quiet left water."
+}

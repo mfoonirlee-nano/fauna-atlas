@@ -110,3 +110,23 @@ The bat-focused prompts used this reconstruction boundary:
 - Original-resolution inspection found one right-aligned cover bat with left-side space; one close morphology view; one distant cave-exit bat; exactly six separated roosting bats; exactly one flying bat and one separated moth; and exactly two observers with no visible bat.
 - Static inspection found no readable text, logo, watermark, capture gear, animal handling, blood, visible sound waves or virus symbol.
 - Verification used no GUI or browser.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-cave-mouth-roost-portrait.webp` SHA-256: `d162f2a17b0c8b34a91b44f15c2672ea53a09e3ae236c93acb549afda23d99e7`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.7, "y": 0.53}`. Full-subject boundary: `{"left": 954, "top": 172, "right": 1242, "bottom": 782}`, 288×610 source pixels, unchanged. Boundary center: 71.5% of source width.
+
+Original-resolution composition inspection: Original-resolution reinspection confirms the hanging toes at the rock contact, folded wing tips, ears and muzzle inside the frame. The folded resting pose naturally encloses other limbs. The 610-pixel subject height is prominent; the left distant forest is defocused.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 213.8×452.7 → 83.1×176.0 | 118.45 | 48.00 | 40.00 | Pass |
+| 390×760 | 213.8×452.7 → 83.1×176.0 | 153.45 | 48.00 | 40.00 | Pass |
+| 1366×768 | 256.1×542.5 → 202.1×428.0 | 96.00 | 230.12 | 48.00 | Pass |
+| 1920×900 | 360.0×762.5 → 264.4×560.0 | 96.00 | 343.00 | 48.00 | Pass |
+| 2560×900 | 480.0×1016.7 → 264.4×560.0 | 96.00 | 509.40 | 48.00 | Pass |
+| 3840×900 | 720.0×1525.0 → 264.4×560.0 | 96.00 | 842.20 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One green iguana Iguana iguana resting on broad sunlit fallen log in South American riverside tropical forest. Prominent WHOLE animal on RIGHT, left-facing slightly elevated three-quarter view, full snout dorsal spines dewlap four clawed feet and entire long banded tapering tail visible. Natural green scales, large round subtympanic scale. Tail curves naturally downward then back toward body in a broad relaxed curve entirely in right half, never knotted or cut. Full silhouette within x=710..1440 y=180..850 with real background margins. Natural anatomy, coherent legs, five slender toes per foot with natural perspective occlusion. Left40% quiet defocused green river forest for copy. Detailed natural editorial wildlife photograph soft daylight. No extra animals text watermark border collage.",
+  "generatedFile": "exec-5c40147c-435c-4ccb-91f8-e9eba44b0b67.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 638,
+      "top": 134,
+      "right": 1505,
+      "bottom": 855
+    },
+    "sha256": "5e2f9454fedb8affac4c3fa48ddcfaed18346f53bae7def915da1e7f91777f0f"
+  },
+  "sourceSha256": "f6e3cdd3da1426de7645464e6de8d74896ecbdfdc5ef3d6ce2f9316b0e16a36c",
+  "supersededCover": {
+    "sha256": "4ee8a4faa247ac685578ea00cae4dde5423543d49b8f48a717a5e0cead374de8",
+    "bounds": {
+      "left": 1130,
+      "top": 372,
+      "right": 1320,
+      "bottom": 424
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full snout, dorsal spines, dewlap, visible claw tips and entire curved tapering tail retained. Far-side hind limb is naturally occluded by body in this pose; front feet partially overlap. Quiet left river background and real source-edge clearance."
+}

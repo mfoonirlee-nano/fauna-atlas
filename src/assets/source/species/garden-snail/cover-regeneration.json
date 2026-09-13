@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Create an original photorealistic natural-history macro photograph, exact 1536x1024 landscape. ONE Cornu aspersum garden snail prominent and complete on RIGHT side, all animal parts inside x=690..1430 y=250..800. Crawling left on flat damp brown garden stone. Low three-quarter side view showing globose low-spired ochre brown shell mottled with interrupted dark spiral bands, gray-brown pebbled soft body, exactly TWO long upper eyestalks with tiny dark eyes at tips and TWO much shorter lower feelers near mouth, one broad muscular foot extending to tapered tail on right. Position the four tentacles distinctly so tips remain separated and visible against smooth background, no extra feelers or duplicate shell. Complete shell edge and entire tapered tail with generous real stone and background margins. Detailed natural shell and skin texture, diffuse morning light, restrained olive and earth colors. Quiet softly defocused stone and distant garden foliage in left 40%, no animal there. No leaves covering foot or tail, no foreground occlusion. No other animals, people, text, logos, border, watermark, collage, diagram or cartoon.",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-915899ec-f2ab-495c-aadf-ce7855ce1e64.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 614,
+      "top": 274,
+      "right": 1464,
+      "bottom": 706
+    },
+    "sha256": "4d48d10fcdba93fa165dd86a1e51185c78b05a59d4bad8668c8e42375705012c"
+  },
+  "sourceSha256": "828457e4914cadcbfb3836d7de1759e5d9a2065f629fccb901842404637dd66e",
+  "supersededCover": {
+    "sha256": "0bb8712030196d2b9413bc36c2872af539d8d9be43d79a48a1eb1cc89551ae24",
+    "bounds": {
+      "left": 1145,
+      "top": 328,
+      "right": 1295,
+      "bottom": 405
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Two upper eyestalks and two short lower feelers distinct and complete; entire shell edge, muscular foot and tapered rear tip retained. Leftmost eyestalk tip at approximately 40 percent width. Left field has stone and blurred plants, no other animal. Real source-edge margins."
+}

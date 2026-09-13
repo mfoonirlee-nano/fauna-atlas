@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Wildlife atlas cover, landscape 1536x1024. One Chinese giant salamander, Andrias davidianus, underwater on a smooth stony bed of a clear shallow mountain stream. Natural brown-gray mottled wrinkled moist skin, broad very flat rounded head with small eyes and wide mouth, heavy elongated body with lateral skin folds, four short splayed limbs (four digits forefeet, five hindfeet), long laterally flattened paddle-like tapering tail. Show a complete prominent animal in three-quarter slightly elevated view, head toward lower left, tail curves gently to right behind body so full tapering tip stays visible. All visible toes and tail edges unobstructed by rocks or plants; no overhanging rock. The complete silhouette fits RIGHT region x=650..1490 y=240..850 with real clear stream background margins on every side. Left 40% only quiet softly lit blue-green water over subdued stones for text. Fill available right region with animal; do not make it distant. Natural underwater photographic lighting, continuous background across canvas, no seam, text, labels, border, extra animals, external gills, reptile scales or claws.",
+  "editPrompt": "Edit this Chinese giant salamander cover. Correct the near FRONT foot to exactly four short rounded digits, without claws; rear feet have five digits where visible. Correct composition: uniformly reduce animal about 15% and shift it right so all visible silhouette is within x=650..1490, with real water/stone background around head, all toes, and tail. Keep full tail, broad flat head, tiny eyes, mottled wrinkled skin and natural pose. Simplify the left 40% to softly defocused subdued stones under blue-green water with low contrast caustics, for readable text. Seamless natural underwater photograph throughout, no vertical boundary, no text or new subjects. Preserve landscape1536x1024.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-4ca85e2c-77eb-41c3-a64a-da24f7b176e8.png",
+  "rejectedCandidate": "exec-368d0e09-5346-45d3-bb08-fb43d0cb625b.png: left intrusion and five-digit near forefoot",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 644,
+      "top": 240,
+      "right": 1522,
+      "bottom": 780
+    },
+    "sha256": "e6d79677dea525ae91e2b5d471cd22708f6438b9dc53a372bec821399ab1c7d2"
+  },
+  "sourceSha256": "16c6e6126d4c71d0fe4f64daec9572158ee516948387ccb1e376eaa1cd3d5b87",
+  "supersededCover": {
+    "sha256": "2f667344c2f82b93aac11e78edc708f132f9d615958995d37b29dfd0b17bc492",
+    "bounds": {
+      "left": 472,
+      "top": 404,
+      "right": 1458,
+      "bottom": 718
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full broad head, visible toes and complete flattened tail edge. Far-side limbs partly occluded by body; no overhanging rock. No edge clipping; quiet left40%."
+}

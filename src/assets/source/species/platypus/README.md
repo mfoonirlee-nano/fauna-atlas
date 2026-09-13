@@ -147,3 +147,23 @@ Avoid: scientist touching or holding a platypus, trapping net, fyke net, cage, t
 - Frame 04 shows one modest spur attached to the inner hind ankle and no venom delivery or human interaction.
 - Frame 05 shows one spur-free female transporting a small vegetation bundle with her tail toward a concealed above-water entrance; no eggs, young, pouch or nipples are shown.
 - Frame 06 shows exactly two workers and one unhandled platypus, with water monitoring, small-scale riparian planting and clear physical separation between people and wildlife.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-creek-bank-portrait.webp` SHA-256: `2c0afd3b9f8b6ee4db8093e8841e3bf376b393487a8d6013e9d1539199667888`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.72, "y": 0.62}`. Full-subject boundary: `{"left": 604, "top": 506, "right": 1506, "bottom": 812}`, 902×306 source pixels, unchanged. Boundary center: 68.7% of source width.
+
+Original-resolution composition inspection: Complete visible bill, feet and flattened tail within source; only tiny bill tip touches40% boundary, left water quiet. Natural far-side limb overlap.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 669.5×227.1 → 272.0×92.3 | 24.00 | 89.86 | 81.86 | Pass |
+| 390×760 | 669.5×227.1 → 342.0×116.0 | 24.00 | 77.99 | 69.99 | Pass |
+| 1366×768 | 802.2×272.1 → 559.7×189.9 | 72.00 | 51.32 | 167.07 | Pass |
+| 1920×900 | 1127.5×382.5 → 825.6×280.1 | 72.00 | 62.40 | 187.96 | Pass |
+| 2560×900 | 1503.3×510.0 → 1132.8×384.3 | 72.00 | 75.20 | 135.85 | Pass |
+| 3840×900 | 2255.0×765.0 → 1650.7×560.0 | 96.00 | 149.04 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

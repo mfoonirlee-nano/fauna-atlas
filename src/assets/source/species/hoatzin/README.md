@@ -147,3 +147,26 @@ Avoid: duck, grebe, rail, chicken, webbed feet displayed, orange bill, fully adu
 - The six source files have distinct hashes, as do the six runtime files; no frame is a duplicate of another.
 - Original-resolution review accepted frames 01, 02, 03 and 06, accepted frame 04 only as a bounded concept, and accepted replacement frame 05 after checking claw placement and limb count.
 - Verification used static inspection and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-floodplain-riparian-portrait.webp` SHA-256: `4b6b7e53dc2adbf98e174e0e7e5bd2a03c681d63d65200dca8fd5c139050ef94`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.65, "y": 0.51}`. Conservative full-subject boundary: `{"left": 720, "top": 26, "right": 1420, "bottom": 972}`, 700×946 source pixels (previously 498×928). Boundary center is 69.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes fine crest tips, bill, folded wings, all long tail feather tips and both gripping feet with claws. Far-side wing and rear toes naturally overlap body or branch. Real floodplain background surrounds the silhouette, with narrow but visible space above the crest. Left 40% contains defocused water and woodland; supporting branches remain to the right. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 369.6×688.8 → 130.2×176.0 | 94.88 | 48.00 | 40.00 | Pass |
+| 390×760 | 369.6×688.8 → 130.2×176.0 | 129.88 | 48.00 | 40.00 | Pass |
+| 1366×768 | 442.9×825.3 → 316.7×428.0 | 96.00 | 172.81 | 48.00 | Pass |
+| 1920×900 | 622.5×1160.0 → 414.4×560.0 | 96.00 | 268.01 | 48.00 | Pass |
+| 2560×900 | 830.0×1546.7 → 414.4×560.0 | 96.00 | 434.41 | 48.00 | Pass |
+| 3840×900 | 1245.0×2320.0 → 414.4×560.0 | 96.00 | 767.21 | 48.00 | Pass |
+
+`npm run test:carousel`: all 128 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

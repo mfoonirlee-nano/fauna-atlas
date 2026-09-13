@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Landscape1536x1024 wildlife atlas cover of one West Indian Ocean coelacanth Latimeria chalumnae swimming beside a dim deep rocky slope. Full prominent fish side view facing left. Robust deep blue body with irregular pale speckling, large overlapping scales, broad head, small mouth, two dorsal fins (front spiny, rear fleshy lobed), paired fleshy lobed pectoral and pelvic fins, lobed anal fin and distinctive complete three-lobed tail with small central supplementary lobe. Correct natural fish anatomy, visible fins clearly separated where pose allows, far-side fins may naturally overlap. Entire silhouette including all fin tips and central tail tip inside RIGHT region x=670..1490 y=240..820. Left40% quiet dark navy water for title; genuine water margins around full animal. Natural underwater photographic texture with restrained soft illumination making blue fish legible, no neon, no extra fins, cropped tail, diver, text, labels, border or seam.",
+  "editPrompts": [
+    "Edit composition: reduce whole coelacanth about18% and shift right so leftmost mouth x660 and rightmost tail x1490, complete fins with water margins. Also clarify the near-side pelvic fin as a separate fleshy lobed fin on lower middle body between pectoral and anal fins, rather than hidden entirely behind pectoral. Preserve two dorsal fins, full three-lobed tail, natural anatomy and photographic deep blue speckled skin. Left40% quiet navy water. Seamless background, no text, border or extra fins.1536x1024.",
+    "Framing correction only: the mouth is currently x555. Scale complete fish to89% around its rightmost tail point x1485, yielding leftmost mouth near x657. Keep right tail near1485, all fins intact, no anatomical changes. Left40% water only. Preserve natural continuous background. No seam, text or border.1536x1024."
+  ],
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-63ab8ec3-40a5-475e-9165-d5f103145135.png",
+  "rejectionNotes": "Two earlier candidates intruded into left40%; first edit also separated near pelvic fin from pectoral overlap.",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 618,
+      "top": 288,
+      "right": 1468,
+      "bottom": 660
+    },
+    "sha256": "372954a3c74c88225d1750d7cbf5f9bcf264fade02c0b97c328b5333799d83ee"
+  },
+  "sourceSha256": "c0834431ca44a97f6237e31939f986573574fa6f0e6ae60229139c5e511b2faf",
+  "supersededCover": {
+    "sha256": "bb44680c03bc1e97d88a36461966ed3a818bd2e3dd4553216a40ad76b5b7680b",
+    "bounds": {
+      "left": 428,
+      "top": 258,
+      "right": 1404,
+      "bottom": 686
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full mouth, both dorsal fins, visible lobed pectoral/pelvic/anal fins and complete three-lobed tail. Far-side paired fins naturally occluded by body. No edge clipping; quiet left40%."
+}

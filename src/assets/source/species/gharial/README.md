@@ -147,3 +147,26 @@ Color palette: River olive, pale sand, muted khaki, grass green and moist woodla
 Constraints: Exactly three people and exactly one distant gharial; pre-nesting habitat work only; no active nest, eggs, hatchlings or animal handling; no text, signboard, banner, logo, brand, signature, border or watermark.
 Avoid: dramatic animal rescue, gharial tangled in net, workers wrestling or carrying a gharial, transport crate, hatchery release, exposed eggs, digging into an active nest, tourist photo-op, military weapons, uniforms with invented insignia, heavy bulldozer, dump truck, vast engineered beach, concrete embankment, dam as a success symbol, crowd, trash-strewn river, broad-snouted crocodile, ghara on the female, CGI, illustration, painting, oversaturation or NGO-advertising gloss.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-sandbank-river-portrait.webp` SHA-256: `569a883b81773f5ecc361b765fe721255f4bd4d4d3f5376efaef89c26573f8f8`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.66, "y": 0.58}`. Conservative full-subject boundary: `{"left": 620, "top": 332, "right": 1504, "bottom": 738}`, 884×406 source pixels (previously 1432×208). Boundary center is 69.1% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. Entire long snout, terminal ghara, visible toes, dorsal crests and tapering tail tip remain within real sand margins. The far-side hind limb is naturally occluded by the low body; this view does not show every limb separately. Initial snout intrusion was corrected. Fine teeth and scale counts remain illustrative. Left 40% contains sand and river. No visible extremity is clipped. The old source spanned the left copy field; the new source restores right-side composition.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 1062.8×154.4 → 272.0×124.9 | 24.00 | 73.54 | 65.54 | Pass |
+| 390×760 | 1062.8×154.4 → 342.0×157.1 | 24.00 | 57.46 | 49.46 | Pass |
+| 1366×768 | 1273.5×185.0 → 559.7×257.0 | 72.00 | 51.32 | 133.48 | Pass |
+| 1920×900 | 1790.0×260.0 → 825.6×379.2 | 72.00 | 62.40 | 138.41 | Pass |
+| 2560×900 | 2386.7×346.7 → 1132.8×520.3 | 72.00 | 75.20 | 67.87 | Pass |
+| 3840×900 | 3580.0×520.0 → 1219.3×560.0 | 96.00 | 364.74 | 48.00 | Pass |
+
+`npm run test:carousel`: all 96 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

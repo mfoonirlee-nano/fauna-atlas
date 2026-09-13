@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate landscape1536x1024 wildlife atlas cover of one complete healthy staghorn coral colony, Acropora cervicornis, attached naturally to a small reef rock in clear shallow Caribbean blue water. Slender cylindrical irregular branching antler-like golden tan coral branches with pale cream growth tips and fine natural corallite texture. Full colony prominent in RIGHT region, including every branch tip and visible attachment base, silhouette entirely x=660..1480 y=160..880; colony center around70% width. Left40% empty quiet blue water with very subdued distant sandy bottom, no foreground branches. Colony large, detailed, not distant. Real blue water and reef background margins beyond top and side branch tips, visible reef below base, natural branching overlap. Soft underwater sunbeams and photographic realism, continuous ocean background, no seam, fish, divers, labels, text, border, bleached-white colony, chunky elk-horn plates or identical repetitive branches.",
+  "editPrompt": "Correct framing of this coral image: pull back enough to show the COMPLETE colony including ALL rightmost branch tips which currently hit edge. Reduce colony about22% and position it wholly in x=660..1480 y=150..880, attachment base visible on reef. Left40% quiet water with subdued seabed. Preserve natural slender antler branches and tan living coral with pale tips, realistic underwater light. Reconstruct seamless real reef/water around colony, no added border, no vertical seam, no cropped tips. 1536x1024 landscape.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-7d2d093d-c802-472e-aea9-bb019f3a7afa.png",
+  "rejectedCandidate": "exec-52f62384-8407-41c1-ac4d-db6c9aacae5b.png: left intrusion and clipped right branches",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 720,
+      "top": 180,
+      "right": 1482,
+      "bottom": 820
+    },
+    "sha256": "356a08e2bd7ea7f116564cb25656b28857dd0a2ec42ef12acfad9f0b4f522f4f"
+  },
+  "sourceSha256": "f923a9755027437555540e33e0cf31cbe49b87d913dff20d2f58d4f19f299f2e",
+  "supersededCover": {
+    "sha256": "2bdc1774d2dd0b5496ebf7f28566ab75439b02d0e1f5cf430dfeec64f9d02403",
+    "bounds": {
+      "left": 432,
+      "top": 218,
+      "right": 1448,
+      "bottom": 902
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full colony includes all visible branch tips and attachment base; branches overlap naturally. Reef rock is environment. No edge clipping; quiet left40%."
+}

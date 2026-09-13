@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult hoatzin Opisthocomus hoazin perched on a modest branch over Amazon floodplain water, full body three quarter side view facing left. Accurate spiky rusty crest, bare blue facial skin and red eye, short stout dark bill, buff neck and breast, dark brown wings streaked pale buff, rusty underparts and complete long dark tail with buff tips. Both grey feet visibly gripping branch, all visible toes/claws readable with natural rear-toe occlusion. Large prominent full animal on RIGHT, entire crest tips, bill, folded wings, tail and toes within x=700..1430 y=90..930. Real background around all tips. Left40% softly defocused muted olive green floodplain and dark water, no crisp branches leaves or bright highlights. Soft natural tropical shade light, detailed realistic feathers and credible anatomy, no text watermark border or other bird.",
+  "generatedImage": "exec-6d38f095-43e7-4636-8595-a8e8993ac3a3.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 720,
+      "top": 26,
+      "right": 1420,
+      "bottom": 972
+    },
+    "sha256": "4b6b7e53dc2adbf98e174e0e7e5bd2a03c681d63d65200dca8fd5c139050ef94"
+  },
+  "sourceSha256": "24ca82d208b6b8cf52e9a98dc45fb73e5cdae485ee7896ac51f1858275e0ebda",
+  "supersededCover": {
+    "sha256": "8c17eb53c9a036a0038879eeb991c6e8a24af20be6e095b1a6fc674e650bf8d2",
+    "bounds": {
+      "left": 736,
+      "top": 48,
+      "right": 1234,
+      "bottom": 976
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full crest tips, bill, folded wings, long tail feather tips and both gripping feet/claws. Far-side wing and rear toes naturally overlap body/branch. Real source margins and quiet defocused left water/woodland."
+}

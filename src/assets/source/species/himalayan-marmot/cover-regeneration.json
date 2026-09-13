@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Create an original photorealistic wildlife photograph, exactly 1536x1024 landscape. ONE Himalayan marmot Marmota himalayana, prominent complete animal on RIGHT side, full outline including fine whiskers, short rounded ears, visible digging claws and entire short furry tail inside x=690..1430 y=260..820. Stout low body, coarse yellowish tawny brown fur, dark brown forehead and blunt muzzle, four short sturdy naturally attached legs. Standing on all fours facing left in near-lateral view, near fore and hind paws fully readable, far legs naturally overlap without extra limbs. Short tail extends clearly to right, no squirrel-like long tail. Full toes on low sparse alpine turf with bare fine soil under feet, no grass obscuring toes. Quiet softly blurred meadow in left 40%, distant Tibetan Plateau mountain slopes softly blurred high in background. Low natural eye-level camera, soft muted daylight, detailed realistic fur, calm closed mouth. Surround complete animal with genuine scene margins, no crop. No other animals, people, buildings, food, text, labels, watermark, collage, illustration or cartoon.",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-6f2a2965-02dc-4a00-a295-b9c5bd4de26d.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 264,
+      "right": 1500,
+      "bottom": 794
+    },
+    "sha256": "2971b363294d512af591cb59a07e542feeecdbeeb71422906b263b3370c90199"
+  },
+  "sourceSha256": "2e4d18caf59180f2e1269ef29d3a364cd1c4d5a973dbe2801dd907c736d49175",
+  "supersededCover": {
+    "sha256": "cd34976979ce00d87703a0c0fa2a560a3b87f2d42e18cd9c52c83bba29de2551",
+    "bounds": {
+      "left": 1132,
+      "top": 312,
+      "right": 1305,
+      "bottom": 390
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete whiskers, rounded ears, fur edge, four visible paws with claws and short furry tail retained. Far-side limbs overlap naturally. Left field contains meadow and distant mountains without another subject; foreground retains natural low plants and stones. Real source margins around animal."
+}

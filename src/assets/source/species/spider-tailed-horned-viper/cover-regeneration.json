@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific natural-history photograph exact1536x1024 landscape. ONE spider-tailed horned viper Pseudocerastes urarachnoides, prominent complete compact coil on RIGHT side, full outline including snout tiny supraocular horns and all terminal tail fringe tips inside x=710..1430 y=250..810. Gray beige mottled heavily keeled rough scales, squat triangular head facing left, tiny eye horns, stout naturally continuous coiled snake body, ONE head only. ONE short tail visibly connected to rear body extends onto bare rock to right of coil and ends in a small oval terminal bulb fringed with narrow elongated scales resembling spider legs. This is an attached anatomical tail lure, not a separate spider, no insect eyes or jointed legs. Tail attachment traceable, complete bulb and scale tips unobscured. Natural contact shadow on pale weathered limestone, western Iran arid rocky habitat, subdued diffuse daylight, fine natural scale detail. Left40% quiet softly defocused pale rock, no foreground obstructions. Real background margin around whole animal. No other animals, text, watermark, collage, diagram, borders or fantasy anatomy.",
+  "editPrompt": "Correct the attached tail lure anatomy of this Pseudocerastes urarachnoides photo. Replace the thick fingerlike starburst at tail end with a SMALL OVAL SWOLLEN TERMINAL BULB, surface covered with fine scales, and a sparse fringe of MUCH THINNER narrow elongated flattened pointed scales around the adjacent tail section, irregular natural spider-leg-like outline. These projections are scales, not fleshy fingers, not jointed spider legs. Bulb distinct at very end, attached continuously to the one snake tail. Reduce the two head horns to short modest supraocular projections. Keep single head, same complete natural coil, realistic rough gray-beige scales, full tail including every fringe tip in frame, same right-side composition and quiet left rock. Exact1536x1024, no extra animal or text.",
+  "rejectedCandidate": "exec-2c06afd9-ccbf-4ee7-a223-6a6e329c31b9.png: thick fingerlike tail fringe and indistinct terminal bulb",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-98776dd9-cdfb-4887-97ee-5d0c52de9f8d.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 656,
+      "top": 214,
+      "right": 1468,
+      "bottom": 714
+    },
+    "sha256": "7922cb6e63ed023e9ebcd378f269a0f8ee958fdbfd7319f4c4ae288e2ca1d1d5"
+  },
+  "sourceSha256": "5b22fb23b76369b1984a1a6616656302eef6aacbcddcdd5f4127d15c75637a2c",
+  "supersededCover": {
+    "sha256": "ef6fde6b403090d9e6ed5a305f840a88b36a96618043923dd19b9ba51d2be0d1",
+    "bounds": {
+      "left": 1035,
+      "top": 330,
+      "right": 1238,
+      "bottom": 445
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Single head, short horns, full coil outline and attached terminal bulb with elongated scale fringe retained. First candidate had fingerlike fringe without clear bulb; accepted edit corrects broad form. Fine fringe shapes and scale counts illustrative. Real rock margins."
+}

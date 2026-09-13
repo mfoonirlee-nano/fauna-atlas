@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate landscape1536x1024 wildlife atlas cover: one adult dugong Dugong dugon gliding above a tropical seagrass meadow in clear blue-green water. Full prominent animal in mostly lateral slight three-quarter view, head facing left. Heavy smooth gray-brown fusiform body, rounded head with distinctive downturned broad fleshy muzzle and sparse short bristles, small eyes, two short paddle foreflippers, no dorsal fin, horizontal whale-like notched tail flukes, no hind limbs. Entire silhouette including muzzle, visible flipper tips and both tail lobes fits RIGHT region x=660..1490 y=260..810, surrounded by real water. Make animal fill right region, not distant. Left40% quiet blue-green water with subdued distant seagrass below, no part of animal intrudes left. Natural underwater photographic light, realistic skin texture, calm pose clear of grass, complete tail with water margin. No manatee round paddle tail, dolphin snout, dorsal fin, diver, other animals, text, border, watermark or vertical seam.",
+  "editPrompt": "Edit framing only: reduce complete dugong about12% and shift right so leftmost muzzle bristles begin x=656, rightmost tail tip ends x=1490. Preserve complete two flippers, notched tail flukes, body anatomy, downturned muzzle and natural photo light. Entire animal including bristles must fit right58%, all extremities surrounded by real water. Left40% quiet blue-green water and subdued seabed. Reconstruct background seamlessly, no border or vertical seam. Keep1536x1024.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-0577058c-337b-43da-bc9e-77c66a728a47.png",
+  "rejectedCandidate": "exec-0d367d23-06fd-4e11-9177-573087940262.png: head intruded into left40%",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 294,
+      "right": 1490,
+      "bottom": 684
+    },
+    "sha256": "8a0238d23875aec9b76a4e0d512dd96db22b31ee7d66f87c9417754f376c5630"
+  },
+  "sourceSha256": "1276feafb8b013f2a217aa816d47b9d4a18abf14341592ae6342af7f9190a138",
+  "supersededCover": {
+    "sha256": "b73eb8efbf9c6fe631e9bfdfd5cad707f587e4ae6b0edaab52ec82018336957e",
+    "bounds": {
+      "left": 500,
+      "top": 268,
+      "right": 1528,
+      "bottom": 688
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full downturned muzzle including fine bristles, both visible flippers and complete tail flukes. Natural far-side flipper overlap at its base. No edge clipping; quiet left40%."
+}

@@ -1,0 +1,27 @@
+{
+  "prompt": "Scientific-educational photorealistic microscopy-style reconstruction, Fauna Atlas cover opaque1536x1024 landscape. Exactly one entire Caenorhabditis elegans adult nematode on a thin wet microbial film over decomposing apple tissue. Extreme microscopic view, not a giant worm. Slender transparent unsegmented cylindrical body with smooth cuticle, gently rounded tapered head, much finer pointed tail, subtle anterior pharyngeal bulb and continuous intestine inside translucent body, no exaggerated organs. Whole animal in a broad flowing open S curve in right half, with no body crossings: head near x=800,y=240, upper bend near x=1320,y=300, central bend near x=830,y=550, lower curve near x=1300,y=750, fine tail ending near x=1080,y=880. Entire transparent outline within x=680..1450,y=140..920 with genuine surrounding substrate margin. Body slender but prominent with clear refractive contour, long enough to occupy right field; natural microscopic depth, restrained transmitted-light appearance. Background muted olive-gold decomposing plant tissue and thin wet film; left40 percent quiet dark defocused olive-gray, no detailed cells or competing organisms. No visible apple fruit at normal scale, no ruler, text, labels, logo, watermark, border, eyes, legs, antennae, segmentation, annelid rings, thick earthworm shape, mouth jaws or extra worms.",
+  "generatedImage": "exec-a0b8d418-a662-402c-bf6e-3fcab95c327c.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 762,
+      "top": 126,
+      "right": 1418,
+      "bottom": 896
+    },
+    "sha256": "d19acd8bf52292f4ed7450a5554f6d85c1d037029f43bb815348da87329cc2ee"
+  },
+  "sourceSha256": "444e866b0df78ce2c0cc13ccbd3e4f372b22674165774162bcd83aa16ef9f197",
+  "supersededCover": {
+    "sha256": "4e4a5fb77710f58230ad729ded2532c2154ada240a34a4b9426677f5f561a5ca",
+    "bounds": {
+      "left": 182,
+      "top": 322,
+      "right": 1446,
+      "bottom": 756
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full refractive cuticle edge, rounded head and fine pointed tail remain visible. Continuous unsegmented body has no crossings. Microscopy-style reconstruction cannot establish scale, strain or diagnostic internal anatomy."
+}

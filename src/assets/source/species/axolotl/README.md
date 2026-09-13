@@ -128,3 +128,23 @@ Color palette: Earth brown, willow gray-green, muted reed green, cool olive wate
 Constraints: Exactly one animal total; unmistakable dark wild phenotype; fixed chinampa landform, not floating; the barrier remains permeable and ecologically modest, not a concrete dam; no claim of population recovery; no exact location marker; no text, label, sign, logo, signature, border or watermark.
 Avoid: pink/white/leucistic/golden pet axolotl, multiple axolotls, carp, tilapia or other visible animals, scientist holding animal, release ceremony, aquarium, tank, pool liner, fish farm, concrete swimming pool, giant engineered dam, industrial filter, plastic bottles, trash-disaster imagery, floating garden island, tourist trajinera, colorful boats, Mexico City skyline, map pin, dramatic before-after split, collage, infographic, illustration, CGI, fantasy, oversaturation or glossy eco-advertising.
 ```
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-wild-type-canal-portrait.webp` SHA-256: `fd0e8d34ed39fd40de89df6b4e81510db332b3b0e08077edaf5be7ca43c4e0fe`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.68, "y": 0.56}`. Full-subject boundary: `{"left": 694, "top": 468, "right": 1508, "bottom": 832}`, 814×364 source pixels, unchanged. Boundary center: 71.7% of source width.
+
+Original-resolution composition inspection: Original-resolution reinspection confirms gill filaments, near-side toes, visible far forefoot and transparent tail edge inside the frame. Far hind limb overlaps the body naturally. The left upper water field is dark and subdued; lower substrate texture does not conceal the subject. Right tail margin is narrow but real.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 604.1×270.2 → 272.0×121.6 | 24.00 | 75.18 | 67.18 | Pass |
+| 390×760 | 604.1×270.2 → 342.0×152.9 | 24.00 | 59.53 | 51.53 | Pass |
+| 1366×768 | 723.9×323.7 → 559.7×250.3 | 72.00 | 51.32 | 136.86 | Pass |
+| 1920×900 | 1017.5×455.0 → 825.6×369.2 | 72.00 | 62.40 | 143.41 | Pass |
+| 2560×900 | 1356.7×606.7 → 1132.8×506.6 | 72.00 | 75.20 | 74.72 | Pass |
+| 3840×900 | 2035.0×910.0 → 1252.3×560.0 | 96.00 | 348.25 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

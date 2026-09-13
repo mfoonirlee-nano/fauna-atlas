@@ -1,0 +1,28 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult great hornbill Buceros bicornis perched on a modest branch in Indian tropical forest, full body three-quarter side view facing left. Accurate huge curved yellow bill and distinctive broad yellow black-topped casque, black face and body, warm pale yellow neck, white wing band, long white tail crossed by broad black band. Both grey feet visibly gripping branch, all visible claws readable. Full animal LARGE on RIGHT, silhouette entirely within x=690..1440 and y=90..930 including bill tip, casque, wing feathers, long tail and toes. Nearly 800px high; no tiny distant bird. Real background margins around every outer feature. Left 40% softly defocused dark green forest with low contrast, no crisp leaves, branches or bright streaks. Natural soft canopy light on detailed feathers and bill, credible anatomy and perch. Single animal, no text, watermark, frame or graphics.",
+  "editPrompt": "Edit this great hornbill photo: retain bird anatomy, full bill and casque, plumage pattern, two gripping feet and entire long tail. Slightly reduce whole bird and reposition right, so bill tip is at x=680 or farther right, casque top around y=85 and lowest tail feather above y=945 on 1536x1024 canvas. Keep animal tall and prominent, with natural background around every feather. Preserve quiet softly blurred left forest and natural supporting branch. Do not remove or shorten tail or bill.",
+  "generatedImage": "exec-8769032e-d61b-4274-8b25-d2f19e036716.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 822,
+      "top": 102,
+      "right": 1412,
+      "bottom": 958
+    },
+    "sha256": "bf037d16cc5994aa697227b2c23b15f0c3d60c908d48e076f0bbc919da81eb68"
+  },
+  "sourceSha256": "d0874d36a20a7a3b748b3f1f2c9123d5fd7d195f32cf281dd30912be1c7920f7",
+  "supersededCover": {
+    "sha256": "24c14fb5074994fb3ddc816f7dc23b46ccd5cc450928c11bebc52436972acf1c",
+    "bounds": {
+      "left": 984,
+      "top": 302,
+      "right": 1108,
+      "bottom": 614
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full bill, casque, folded wings, long tail and both gripping feet. Far-side wing and branch-contact toes naturally overlap. Real margins and quiet left forest."
+}

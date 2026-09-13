@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. Common kingfisher Alcedo atthis perched in left-facing side view on a slim natural branch above a woodland stream. Prominent complete bird on RIGHT: long straight black bill, turquoise blue crown and back, orange breast, white throat and neck patch, folded wings, short complete tail, two tiny orange feet with toes naturally gripping branch. Entire bird silhouette within x=740..1380 y=190..840 with real background margin around bill crown tail toes. Bird large and sharply detailed, natural proportions and soft daylight, restrained editorial wildlife photography. Left40% quiet defocused green stream background for copy. Branch confined mostly to right below bird. No text logos frames collage prey or extra birds.",
+  "generatedFile": "exec-024bb2ff-e392-4970-a8bd-3163c406a6d5.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 690,
+      "top": 163,
+      "right": 1340,
+      "bottom": 806
+    },
+    "sha256": "2e600e7a134ae0b95a5566bd32b32013eb32326f9a2ff0bcce36c524962d6e21"
+  },
+  "sourceSha256": "c1aaa62755b634b34e96c4abcafb7df633ca346d5c80724cd5dd1fa548c9a9d1",
+  "supersededCover": {
+    "sha256": "e606ce34900ade7ba646150e1dcf375ccd2ceb4c93a88466edfc7923e7e47a0a",
+    "bounds": {
+      "left": 1174,
+      "top": 327,
+      "right": 1246,
+      "bottom": 393
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete bill, crown, folded wings, short tail and visible toes included. Some toes naturally wrap behind the perch and far-side wing overlaps the body. Quiet left stream background and real source-edge clearance."
+}

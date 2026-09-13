@@ -201,3 +201,26 @@ Avoid: hundreds of beetles, dense swarm, indoor wall or window, harlequin ladybi
 - Frame 06 contains exactly three intact adults resting beneath curled outdoor leaf litter. The scene contains no building material, snow burial, feeding, mating, or injury.
 - No frame contains readable text, a label, arrow, scale bar, logo, signature, border, or watermark.
 - Codex used original-resolution static inspection and ImageMagick for verification. No browser or browser automation participated.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-adult-aphid-colony-portrait.webp` SHA-256: `1490177da744c0a92cd37d88bc59b69dbd59be1b907a9274b2e5edf4efb7ad9f`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.69, "y": 0.53}`. Conservative full-subject boundary: `{"left": 628, "top": 154, "right": 1472, "bottom": 850}`, 844×696 source pixels (previously 466×468). Boundary center is 68.4% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the shell, head, both antennae and visible six-leg outline through the tarsal claws. Far-side leg roots and outer elytral markings naturally disappear around the shell curvature. Leaf surrounds the appendages; left 40% contains defocused green background with a small leaf-edge intrusion near the bottom, without the old aphid-covered stem. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 345.9×347.3 → 213.4×176.0 | 53.29 | 48.00 | 40.00 | Pass |
+| 390×760 | 345.9×347.3 → 213.4×176.0 | 88.29 | 48.00 | 40.00 | Pass |
+| 1366×768 | 414.4×416.2 → 519.0×428.0 | 92.33 | 71.65 | 48.00 | Pass |
+| 1920×900 | 582.5×585.0 → 679.1×560.0 | 96.00 | 135.66 | 48.00 | Pass |
+| 2560×900 | 776.7×780.0 → 679.1×560.0 | 96.00 | 302.06 | 48.00 | Pass |
+| 3840×900 | 1165.0×1170.0 → 679.1×560.0 | 96.00 | 634.86 | 48.00 | Pass |
+
+`npm run test:carousel`: all 141 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

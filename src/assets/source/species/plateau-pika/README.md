@@ -139,3 +139,23 @@ Avoid: poisoning, fumigation, shooting, capture, restraint, veterinary scene, wi
 - Original-resolution visual inspection found one cover pika with left-side meadow space; one close morphology view; one small pika in a habitat-dominant burrow meadow; one pika contacting green vegetation; exactly one larger and three smaller pikas; and exactly two observers with one quadrat and one distant pika.
 - Static inspection found no readable text, logo, watermark, zoo cue, animal handling, capture gear, poison bait or carcass.
 - Verification used no GUI or headless browser.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-alpine-meadow-portrait.webp` SHA-256: `378c2ed65b67d118f76f819dbac103ce9cba514964a3e219641c264f7931766a`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.61, "y": 0.55}`. Full-subject boundary: `{"left": 718, "top": 362, "right": 1230, "bottom": 788}`, 512×426 source pixels, unchanged. Boundary center: 63.4% of source width.
+
+Original-resolution composition inspection: Original-resolution reinspection confirms ears, whiskers and visible paws inside the frame. Short ground plants meet the paws without hiding their external silhouette; the far hind foot naturally overlaps the seated body. Left meadow and distant hills are soft and subdued.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 380.0×316.2 → 211.5×176.0 | 54.23 | 48.00 | 40.00 | Pass |
+| 390×760 | 380.0×316.2 → 211.5×176.0 | 89.23 | 48.00 | 40.00 | Pass |
+| 1366×768 | 455.3×378.9 → 514.4×428.0 | 94.64 | 73.96 | 48.00 | Pass |
+| 1920×900 | 640.0×532.5 → 673.1×560.0 | 96.00 | 138.67 | 48.00 | Pass |
+| 2560×900 | 853.3×710.0 → 673.1×560.0 | 96.00 | 305.07 | 48.00 | Pass |
+| 3840×900 | 1280.0×1065.0 → 673.1×560.0 | 96.00 | 637.87 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

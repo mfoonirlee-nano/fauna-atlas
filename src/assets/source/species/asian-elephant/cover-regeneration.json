@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover, landscape 1536x1024. One adult female Asian elephant Elephas maximus, no prominent tusks, small rounded ears, twin-domed forehead, gently convex back, wrinkled grey skin. Complete full body in three-quarter side view facing left on a flat bare-earth forest clearing. Trunk hangs naturally with tip gently curved inward and fully visible above ground; four feet visible with clear soles and toenails; entire thin tail and dark tuft visible alongside the right rump. Large prominent subject entirely on RIGHT within x=660..1450 and y=160..910 including trunk, ears, toes, tail hairs. Genuine background clearance around all extremities. LEFT 40 percent quiet soft dark sage-green out-of-focus tropical forest, no sharp trunks grasses leaves or bright gaps. No vegetation covering feet. Soft overcast light, natural anatomy, documentary photograph quality, detailed skin. No extra animals, text, logos, borders or collage.",
+  "generatedImage": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-ca22e957-4c9e-4844-80d7-c39d79f5a0d2.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 638,
+      "top": 116,
+      "right": 1484,
+      "bottom": 900
+    },
+    "sha256": "ba438478b1b4a9fce255a6cc1d3873a1070420ddab08290f1f014725f0ba8d91"
+  },
+  "sourceSha256": "4a6fb2df3ebed20784696d04101f4834b42cd833e10c5213fd91ba4da5caaa0d",
+  "supersededCover": {
+    "sha256": "41d1f384b21a2b352cca5bf65af9b2d266e35f7dbd9d076c29060cc18dd02c23",
+    "bounds": {
+      "left": 660,
+      "top": 198,
+      "right": 1378,
+      "bottom": 888
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete crown hairs, trunk tip, visible ear, four feet and tail tuft. Far ear and proximal limbs overlap naturally. Toenail counts are not established."
+}

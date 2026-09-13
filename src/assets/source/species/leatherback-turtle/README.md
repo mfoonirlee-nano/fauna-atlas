@@ -180,3 +180,23 @@ Avoid: two or four hatchlings, dozens of hatchlings, overlapping bodies, hard pl
 - Source files: six one-to-one `*-source.png` files, all 1536 × 1024, 8-bit sRGB indexed PNG and `opaque=True`.
 - Runtime files: generated from these exact sources with `npm run convert:webp -- <six paths>` after PNG compression.
 - Pairing rule: remove `-source.png` from the source basename and append `.webp` in `public/images/species/leatherback-turtle/`.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-open-ocean-ridged-swim.webp` SHA-256: `6516d9fb1ebcb2f0b90d739c695ddf9ec9987f0dce82eeb9817c6cf0bbb7c2e7`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.72, "y": 0.56}`. Full-subject boundary: `{"left": 608, "top": 274, "right": 1448, "bottom": 880}`, 840×606 source pixels, unchanged. Boundary center: 66.9% of source width.
+
+Original-resolution composition inspection: Full head, ridged shell and visible flipper tips have real water margins. Snout tip only slightly meets40% boundary; left field otherwise quiet water. Rear appendages overlap naturally in elevated swim view. Hero remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 623.4×449.8 → 244.0×176.0 | 38.02 | 48.00 | 40.00 | Pass |
+| 390×760 | 623.4×449.8 → 244.0×176.0 | 73.02 | 48.00 | 40.00 | Pass |
+| 1366×768 | 747.0×538.9 → 559.7×403.8 | 72.00 | 51.32 | 60.12 | Pass |
+| 1920×900 | 1050.0×757.5 → 776.2×560.0 | 96.00 | 87.08 | 48.00 | Pass |
+| 2560×900 | 1400.0×1010.0 → 776.2×560.0 | 96.00 | 253.48 | 48.00 | Pass |
+| 3840×900 | 2100.0×1515.0 → 776.2×560.0 | 96.00 | 586.28 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

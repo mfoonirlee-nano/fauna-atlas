@@ -1,0 +1,31 @@
+{
+  "prompt": "Photorealistic marine wildlife atlas cover 1536x1024 landscape. One chambered nautilus Nautilus pompilius swimming in dark blue water beside a distant softly defocused reef. Full side three-quarter view facing left. Accurate opaque cream coiled external shell with irregular reddish-brown radial flame bands, leathery patterned hood, visible pinhole eye and numerous slender pale tentacles WITHOUT suckers emerging from opening. Shell not transparent or cutaway. Complete animal LARGE on RIGHT with every tentacle tip inside x=670..1460 y=160..890, shell at right and tentacle crown left. Real water margin beyond entire silhouette. Left40% quiet dark blue open water without objects, light beams or other animals. Soft natural underwater light, realistic textures and anatomy, no text border watermark.",
+  "edits": [
+    "Preserve this nautilus anatomy, shell hood eye and all tentacles. Correct composition: shrink whole animal uniformly to 82 percent current size and shift right so leftmost tentacle tip begins at x=660 and rightmost shell edge ends at x=1460 on 1536x1024 canvas. Vertically center complete animal. Left40% must contain only quiet dark water, no tentacles. Keep real water margin around all edges. No other changes.",
+    "Move this entire nautilus exactly 75 pixels to the right without changing its size, anatomy or pose. Keep complete tentacles and shell. Leftmost tentacle should start beyond x=670, right shell end around x=1460. Fill old location naturally with dark blue water. Keep original canvas 1536x1024."
+  ],
+  "generatedImage": "exec-bde1616a-e484-4cfd-b907-a6fbc5adbc44.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 684,
+      "top": 184,
+      "right": 1466,
+      "bottom": 780
+    },
+    "sha256": "2a021f796140d7ec91586981cbefb8c32f36ffc99c2b1b18b7b8f9b5276eeee7"
+  },
+  "sourceSha256": "b75ecc9825e7c72af07ca08d79c78d8df8a6b7285308ebe36066320d08e8f662",
+  "supersededCover": {
+    "sha256": "04455fb9a6bdd86af9b47869521a3d5a96c84d1ffcc99f99ce8cc21711e71bf9",
+    "bounds": {
+      "left": 556,
+      "top": 198,
+      "right": 1356,
+      "bottom": 818
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete shell, hood and visible tentacle crown including lowest slender tips. Interior tentacles naturally overlap. Real water margins surround silhouette; quiet left water."
+}

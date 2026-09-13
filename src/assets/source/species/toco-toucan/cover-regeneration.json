@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One toco toucan Ramphastos toco perched calmly left-facing side three-quarter view on a bare natural branch in Brazilian cerrado woodland. Prominent WHOLE bird on RIGHT. Black body white throat, large orange-yellow bill with black tip, blue skin around eye, natural folded wings, two feet naturally gripping perch and complete black tail. Entire silhouette including huge bill tip crown wing tips toes tail inside x=730..1420 y=150..870. Real background margins around all extremities. Natural proportions soft daylight fine feather texture editorial wildlife photography. Left40% quiet defocused muted green woodland for copy. No other birds text logos borders collage cropped bill or tail.",
+  "generatedFile": "exec-5b5bd9f1-a87a-4c96-af1f-d40337d22bc3.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 641,
+      "top": 105,
+      "right": 1347,
+      "bottom": 924
+    },
+    "sha256": "6e5462b4235dacfe27ffb598fe19d2433ec7645d517992fcc5c329d6c4481313"
+  },
+  "sourceSha256": "e03f1e94d28cfc7ec97c9588e9210a74c8bd7316961b604657b438aa69d0d205",
+  "supersededCover": {
+    "sha256": "236c416bead0c08d8ec26aa3b926f391ebfb06d91e14aa6cd813e7e60622f861",
+    "bounds": {
+      "left": 1200,
+      "top": 324,
+      "right": 1276,
+      "bottom": 424
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Entire large bill, crown, folded wing tips, both feet with visible claws and full tail retained. Toes curl behind perch naturally; branch crosses tail root while full tail tips remain visible. Quiet left woodland and real source-edge clearance."
+}

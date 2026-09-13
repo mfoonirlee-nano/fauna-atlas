@@ -1,0 +1,28 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One adult male tuatara Sphenodon punctatus, full body three quarter side view facing left on a simple low flat rock in New Zealand coastal woodland. Accurate robust grey olive reptile with blunt beaked head, granular scales, pale triangular dorsal crest spines along neck and back, sturdy sprawling limbs with visible clawed toes, entire thick tapering tail curving to right. Four limbs anatomically plausible with natural far-side overlap, no extra toes or limbs. Large prominent animal on RIGHT: all snout, crest tips, feet and entire tail within x=690..1450 y=240..850. Real background margins around extremities. Left40% quiet softly defocused muted grey green coastal woodland with low contrast, no sharp fern leaves, rocks or burrow entrance. Soft natural cool daylight, realistic detail and anatomy, one animal, no text border watermark.",
+  "editPrompt": "Edit this tuatara photo preserving complete animal anatomy, snout, dorsal crest, three visible feet and full curved tail; far hindfoot may remain naturally hidden. Replace entire left40% with softly defocused low-contrast muted grey-green woodland haze: no recognizable trunks, sharp leaves, branches or mottled rock in that field. Make supporting rock a simple subdued plain stone under animal on right, without high-contrast lichen pattern. Slightly reposition to give at least60px real background beyond rightmost tail curve while keeping snout beyond x=660. Keep animal large, realistic photographic detail and natural light. No clipping.",
+  "generatedImage": "exec-4acf1eed-681b-4880-ba75-cc832c173835.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 260,
+      "right": 1498,
+      "bottom": 866
+    },
+    "sha256": "335f6cb1adf5f4f4af8cfe07908fc5daaa29bbae4b9ed1ad9ed3431c34de21d4"
+  },
+  "sourceSha256": "b9051717840240d1c77f4db2a187e7127ec3e411de82a670cc3c79c488aeffa8",
+  "supersededCover": {
+    "sha256": "8e36879922983fee31632dcf1bd24321dca7b0c325f4b3bb8bcfbfc7d0569eef",
+    "bounds": {
+      "left": 670,
+      "top": 292,
+      "right": 1518,
+      "bottom": 926
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full snout, dorsal crest tips, three visible feet/claws and entire curved tail. Far hindfoot naturally hidden by torso. Real background margins and quiet defocused left woodland above lower rock."
+}

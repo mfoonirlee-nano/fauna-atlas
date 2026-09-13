@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic marine wildlife atlas cover landscape1536x1024. One Atlantic pyrosome Pyrosoma atlanticum colony floating in deep blue open seawater. Accurate translucent pale pink gelatinous hollow cylindrical colony with one rounded closed end and one wide open circular end, densely packed tiny zooids forming granular slightly spiny surface. Oblique side view with open rim facing lower-right and rounded closed end upper-left, full colony shown. No jellyfish tentacles or fins. Entire colony LARGE on RIGHT with all outer zooid projections within x=670..1460 y=210..820. Real water margin around entire silhouette. Left40% quiet softly defocused deep blue water without other animals bubbles or light beams. Soft natural underwater illumination reveals translucent wall and dark hollow interior, no exaggerated glow, no text border watermark.",
+  "edits": [
+    "Preserve this exact pyrosome colony anatomy, all small outer zooid projections and open rim. Uniformly scale whole colony to 85 percent and shift right so leftmost closed-end projection starts beyond x=665, rightmost open rim ends x=1460 on1536x1024. Vertically center it. Keep full translucent contour with real water margins, and left40% water only. No other changes."
+  ],
+  "generatedImage": "exec-3f1e6f80-73c5-4079-aad1-0100bcbcd167.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 642,
+      "top": 152,
+      "right": 1454,
+      "bottom": 856
+    },
+    "sha256": "0b4a52b98011d718b1ec06e81bacdf531fafe34c99357ab61953c4e43ae7bcd2"
+  },
+  "sourceSha256": "148ab76bbba5a6ceb90350c12d5bb85dec5c477a39929e2d3ee1b4868037df9e",
+  "supersededCover": {
+    "sha256": "7418c769081bf90c4c2b4c1fa674404ce5470e1e3a510bae14e8476fba466637",
+    "bounds": {
+      "left": 184,
+      "top": 268,
+      "right": 1366,
+      "bottom": 710
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete colony from rounded closed end to open rim, including translucent outer zooid projections. Rear surface naturally occluded by colony wall. Real water margins; quiet left open water."
+}

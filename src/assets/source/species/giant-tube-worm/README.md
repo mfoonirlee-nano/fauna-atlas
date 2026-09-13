@@ -191,3 +191,23 @@ npm run convert:webp -- src/assets/source/species/giant-tube-worm/*-source.png
 - Original-resolution review accepted the external plume in frame 02, the gutless multi-lobule anatomy in frame 03, intracellular cellular organization in frame 04, the localized juvenile infection route in frame 05 and the non-contact mixed thicket in frame 06.
 - Static inspection found no visible text, labels, arrows, scale bars, logos, signatures, borders, watermarks or conversion defects.
 - Verification used static asset inspection and the built-in image viewer. No GUI or headless browser was used.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-diffuse-flow-adult-cover.webp` SHA-256: `697ed2b2f1d204b04fbe28270918ad0f7225c01ad425381578488f3d3164d486`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.7, "y": 0.53}`. Full-subject boundary: `{"left": 924, "top": 64, "right": 1206, "bottom": 938}`, 282×874 source pixels, unchanged. Boundary center: 69.3% of source width.
+
+Original-resolution composition inspection: Full visible red plume filaments, tube rim and tube down to natural rock attachment inspected. Left field is dark open water; right-field center and real margins pass. Internal body naturally stays inside its tube. Hero acceptance remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 209.3×648.7 → 56.8×176.0 | 131.61 | 48.00 | 40.00 | Pass |
+| 390×760 | 209.3×648.7 → 56.8×176.0 | 166.61 | 48.00 | 40.00 | Pass |
+| 1366×768 | 250.8×777.3 → 138.1×428.0 | 96.00 | 262.11 | 48.00 | Pass |
+| 1920×900 | 352.5×1092.5 → 180.7×560.0 | 96.00 | 384.86 | 48.00 | Pass |
+| 2560×900 | 470.0×1456.7 → 180.7×560.0 | 96.00 | 551.26 | 48.00 | Pass |
+| 3840×900 | 705.0×2185.0 → 180.7×560.0 | 96.00 | 884.06 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

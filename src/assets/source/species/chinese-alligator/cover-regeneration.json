@@ -1,0 +1,30 @@
+{
+  "prompt": "Use case photorealistic-natural. Fauna Atlas canonical Chinese alligator Alligator sinensis cover. Opaque 1536x1024 landscape. Exactly one complete compact dark gray-brown Chinese alligator resting on bare smooth damp earth beside a quiet lowland freshwater pond. Short broad blunt slightly upturned snout, closed jaws, bony eyelids, strongly armored compact body and low limbs, one long continuous tapering tail gently curved around its right side. Three-quarter slightly overhead portrait: head points toward lower-left but remains near x=800,y=560, torso near x=1130,y=430, tail curves right around x=1390,y=520 and forward to its complete tip near x=1110,y=840. Four naturally arranged limbs; visible near-side feet and toes unobscured by plants or sediment. Five forefoot digits, four hindfoot digits with three inner claws, natural far-side occlusion allowed. Every visible toe, snout, scute and full tail within x=650..1470,y=160..900, real background margins on all sides. Animal prominent in right field. Left40 percent quiet defocused green pond with soft subdued bank, no sharp grasses, branches or competing subjects. Soft natural morning light, detailed scaly skin with clear silhouette against earth, restrained documentary color. No grass crossing the animal, no second tail, no long narrow crocodile snout, no exposed teeth, no open mouth, no prey, no people, no text, watermark or borders.",
+  "edits": [
+    "Edit only placement and left background. Preserve this one Chinese alligator's short broad snout, compact armored body, closed jaws, existing four-limb pose and single complete curled tapering tail. Uniformly scale the entire animal to 89% current size and translate right so every feature is within x=655..1470,y=240..870. Do not crop the right tail curve or hide toes. Preserve real mud margins and uninterrupted anatomy. Defocus reflections across left40% into soft quiet green pond with no sharp vertical highlights or sharp shoreline fragments there. Keep the animal sharp and naturally grounded on the same bank. Do not add, remove or duplicate limbs or tails. Output opaque1536x1024 with no text."
+  ],
+  "generatedImage": "exec-bc0d2537-3888-4b63-9acf-32e6601227b1.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 642,
+      "top": 312,
+      "right": 1476,
+      "bottom": 814
+    },
+    "sha256": "3e3f86ff85b459f9fcdca1319872970360cb69d7ea134a3c8056130dce7d5b42"
+  },
+  "sourceSha256": "54874abaf2d4f99eb7ee33338a79dbdbceb1621196787fa0a51a2ffdb6d79055",
+  "supersededCover": {
+    "sha256": "a564fa931b5655077b57a15cdc1501e61c132679283aa24c5c6f45bf53dce5a6",
+    "bounds": {
+      "left": 166,
+      "top": 576,
+      "right": 1276,
+      "bottom": 806
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete snout, dorsal scutes, visible near-side toes and single continuous tail. Far-side feet naturally concealed by the body; toe and claw anatomy is not a diagnostic measurement. Quiet defocused pond on left."
+}

@@ -312,3 +312,26 @@ Hashes were computed with `shasum -a 256` after source compression and runtime c
 | 04 | `736687a74dd2758c240ca55886e83c613a700c4138220bd49a60b2a15fb84fb5` | `4d4bfe1e40cf23b3661247b30336061f1210fee604db56396c65f585bcc1a7c3` |
 | 05 | `7f1cc54dbf9b98b157324e17824b6217dcfde3ccb3dc8af82e9a54c42390af16` | `1f761529cb6c1cd1a72023be95fcd230c9e04143f70d82c566de6a06c9a0639a` |
 | 06 | `ce484ab66b3319f79fe80aede81feb9483938a79e0c8090aaa407cad3a77bd69` | `a88f75fed86b62c7b12c7510d94447a3f6f54986ccfaa780da157f7092a287be` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-female-rainforest-cover.webp` SHA-256: `d4a074c8b2ea98da1f3402393abb660c0926f779ada575c609f04682c9abaa20`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.724, "y": 0.562}`. Conservative full-subject boundary: `{"left": 628, "top": 132, "right": 1500, "bottom": 898}`, 872×766 source pixels (previously 154×302). Boundary center is 69.3% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes female bill, head, folded wings, complete plain tail and both exposed feet with long toes. Far-side wing and wood-contact toe portions naturally overlap. Tail feather tips approach the log but retain visible outer edges. Real forest background surrounds the source silhouette, with a narrow right margin beyond tail. Left 40% contains defocused forest; the supporting log occupies the lower foreground. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 114.3×224.1 → 200.4×176.0 | 59.82 | 48.00 | 40.00 | Pass |
+| 390×760 | 114.3×224.1 → 200.4×176.0 | 94.82 | 48.00 | 40.00 | Pass |
+| 1366×768 | 137.0×268.6 → 487.2×428.0 | 96.00 | 87.55 | 48.00 | Pass |
+| 1920×900 | 192.5×377.5 → 637.5×560.0 | 96.00 | 156.45 | 48.00 | Pass |
+| 2560×900 | 256.7×503.3 → 637.5×560.0 | 96.00 | 322.85 | 48.00 | Pass |
+| 3840×900 | 385.0×755.0 → 637.5×560.0 | 96.00 | 655.65 | 48.00 | Pass |
+
+`npm run test:carousel`: all 121 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

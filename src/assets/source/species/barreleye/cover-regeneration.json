@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original natural-history realistic scientific reconstruction of Macropinna microstoma Pacific barreleye fish, exact1536x1024 landscape. ONE prominent complete fish on RIGHT side, all transparent fin edges and forked tail inside x=710..1430 y=270..780. Left-facing three-quarter lateral view. Accurate short dark brown deep-bodied fish, small mouth, clear fluid-filled dome over head enclosing TWO green upward-looking tubular eyes. Small dark olfactory pits above mouth are NOT eyes. Green eyes inside dome, not on outside of face. Broad delicate transparent paired fins, natural dorsal and anal fins, forked tail. Soft restrained ROV-style illumination reveals transparent head outline and all fin tips against dark navy water. Genuine water margins around complete silhouette. Left40% quiet empty blue-black water, sparse tiny marine snow only. No seabed, surface, bubbles, other animals, fantasy glow, text, logos, borders, collage or diagram.",
+  "editPrompt": "Edit this barreleye scientific photo. Scale complete fish to 82% current linear size and move RIGHT so full silhouette including transparent dome, all fin tips and forked tail fits x=720..1450 y=260..780. Preserve two green upward-looking tubular eyes INSIDE clear head dome and small olfactory pits above mouth. Keep all visible fin edges and tail complete with actual water margin. Left40% quiet dark navy water with no fish parts. Exact1536x1024, one fish, no text or fantasy glow.",
+  "rejectedCandidate": "exec-0aae0f17-1c1d-400a-a1ad-3ced501d5173.png: head intrusion and tail near edge",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-62def594-1e85-4ae4-8652-f210f9fa1e97.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 256,
+      "right": 1496,
+      "bottom": 730
+    },
+    "sha256": "37ec95640b26cb0d36c436e67e79275ea7ebfac76a94586efa3412b97bbb09a7"
+  },
+  "sourceSha256": "2eb1ff82187d75a87d080b577ade88eada868a88269d6ce85f499aa2db7bef63",
+  "supersededCover": {
+    "sha256": "b0d49814ffda461cfdf7a61f46de776cfac47644eaaf053de772826c48aac1ed",
+    "bounds": {
+      "left": 1130,
+      "top": 328,
+      "right": 1258,
+      "bottom": 393
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete transparent head dome, mouth, all visible fin edges and forked tail retained. Two upward green eye caps inside dome, olfactory pits separate. Fin rays and tissue optics illustrative. Initial head intrusion corrected, quiet left water and real margins."
+}

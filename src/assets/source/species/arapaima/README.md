@@ -128,3 +128,26 @@ Avoid: motor, nets, hooks, harpoons, caught fish, dead fish, weapons, uniforms, 
 - Frame 05 contains one sex-indeterminate adult and juveniles, with no eggs, nest or mouthbrooding claim.
 - Frame 06 contains exactly two monitors, one canoe and one distant surfacing event, with no fishing gear or readable tally.
 - No frame contains text, a logo or a watermark.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-floodplain-portrait.webp` SHA-256: `b15ad2d71f4d480e7f6d3dc63669bd7e0d1df82680f64ccbccb33bbdb26fec97`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.51}`. Conservative full-subject boundary: `{"left": 618, "top": 370, "right": 1468, "bottom": 588}`, 850×218 source pixels (previously 1136×388). Boundary center is 67.9% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes snout, body, visible paired fins, posterior dorsal and anal fins and rounded tail. Far-side paired fins naturally overlap the body. Water surrounds the silhouette. Left 40% contains quiet defocused green water. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 843.1×288.0 → 272.0×69.8 | 24.00 | 101.12 | 93.12 | Pass |
+| 390×760 | 843.1×288.0 → 342.0×87.7 | 24.00 | 92.14 | 84.14 | Pass |
+| 1366×768 | 1010.3×345.1 → 559.7×143.5 | 72.00 | 51.32 | 190.23 | Pass |
+| 1920×900 | 1420.0×485.0 → 825.6×211.7 | 72.00 | 62.40 | 222.13 | Pass |
+| 2560×900 | 1893.3×646.7 → 1132.8×290.5 | 72.00 | 75.20 | 182.74 | Pass |
+| 3840×900 | 2840.0×970.0 → 1747.2×448.1 | 72.00 | 100.80 | 103.95 | Pass |
+
+`npm run test:carousel`: all 135 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

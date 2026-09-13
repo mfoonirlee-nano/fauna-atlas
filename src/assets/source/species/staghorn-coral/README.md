@@ -136,3 +136,26 @@ Materials/textures: porous limestone hardbottom, small rough marine epoxy pads, 
 Constraints: exact 1536x1024 output; only one diver; exactly five small staghorn coral outplants in the main array including the one being attached; fragments are fixed on hard rock and remain visibly above the substrate; subtle blank tags only; no readable text, no labels, no logos, no watermark
 Avoid: Acropora palmata or elkhorn coral; broad flattened fan branches; neon blue, purple, green, or pink Indo-Pacific Acropora colors; giant flower-like polyps; long spikes; fused coral lattice; perfect bilateral or Christmas-tree symmetry; burying fragments in sand; plant roots; gardening pose; pouring concrete; huge epoxy blobs; drilling through living coral; breaking a wild colony; touching coral with bare hands; many tools; crowded team; aquarium; branded clothing; readable tag numbers; branching fragments lying loose; fragments touching each other; bleaching across whole branches; diseased lesions; extra coral species dominating
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-shallow-reef-colony-cover.webp` SHA-256: `356a08e2bd7ea7f116564cb25656b28857dd0a2ec42ef12acfad9f0b4f522f4f`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.62, "y": 0.56}`. Conservative full-subject boundary: `{"left": 720, "top": 180, "right": 1482, "bottom": 820}`, 762×640 source pixels (previously 1016×684). Boundary center is 71.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full colony boundary includes all visible outer branch tips and its attachment base. Internal branches overlap naturally; the supporting reef rock is environment rather than colony tissue. Real water and reef margins surround the colony. Left 40% contains open blue water and subdued seabed. A built-in edit corrected the initial draft’s left intrusion and clipped right branches. Fine corallite patterns and branching geometry are illustrative. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 754.1×507.7 → 209.6×176.0 | 55.22 | 48.00 | 40.00 | Pass |
+| 390×760 | 754.1×507.7 → 209.6×176.0 | 90.22 | 48.00 | 40.00 | Pass |
+| 1366×768 | 903.6×608.3 → 509.6×428.0 | 96.00 | 76.37 | 48.00 | Pass |
+| 1920×900 | 1270.0×855.0 → 666.8×560.0 | 96.00 | 141.83 | 48.00 | Pass |
+| 2560×900 | 1693.3×1140.0 → 666.8×560.0 | 96.00 | 308.22 | 48.00 | Pass |
+| 3840×900 | 2540.0×1710.0 → 666.8×560.0 | 96.00 | 641.03 | 48.00 | Pass |
+
+`npm run test:carousel`: all 104 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

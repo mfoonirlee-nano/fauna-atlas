@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. One new 1536x1024 landscape wildlife atlas cover photograph. Adult barn swallow Hirundo rustica perched left-facing on a slim natural bare branch beside farmland pond. Prominent whole bird on RIGHT, complete silhouette including bill head folded pointed wings two feet and BOTH long outer tail streamers within x=750..1420 y=160..870. Glossy blue-black upperparts, rusty forehead and throat, pale underside, naturally proportioned small bill and deeply forked tail with two separate long outer feathers visible against background. Feet naturally grip perch. Real background margin around all extremities. Left40% quiet defocused green countryside and pond. Natural editorial wildlife photography, soft daylight fine feather texture. No other birds text logos borders collage cropped tail or enlarged head.",
+  "generatedFile": "exec-f8457723-59f0-420a-a2c7-23dd19414b30.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 830,
+      "top": 126,
+      "right": 1486,
+      "bottom": 896
+    },
+    "sha256": "f77e00cee1d6f74bc63909dac09fb5e1fe6a658137f3157e97c8541015f420ed"
+  },
+  "sourceSha256": "3fde8f194979d0e2be4f86d8fc426ddab474d241310e4f32ca6857597d38f635",
+  "supersededCover": {
+    "sha256": "a93909baf070c9a764c9675255e83a4d2e950b24ed560086d49a9c1de54ce15b",
+    "bounds": {
+      "left": 1172,
+      "top": 358,
+      "right": 1262,
+      "bottom": 420
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full bill, crown, folded wing tips, both feet and both long outer tail streamers retained. Toes naturally curl around perch and far-side wing overlaps body. Quiet left farmland pond background and real source-edge clearance."
+}

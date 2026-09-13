@@ -141,3 +141,26 @@ The first result made the animals too large relative to the dish. Two imagegen e
 #### Scale-correction edit, accepted pass
 
     Make one precise scientific-scale correction to this supplied image while preserving the dish, objective, bench, lighting, framing, and exactly three-worm arrangement. Shrink each of the three visible nematodes to 20 percent of its current full body length and thickness. Keep the adult in the central location and the two larvae in their existing separated upper-left and lower-right locations. After shrinking, the central adult must span only about 25–35 pixels in this 1536-pixel-wide image, with the larvae about 15 pixels and 10 pixels long. They may be tiny, faint curved translucent marks, because credible physical scale matters more than close anatomical detail. Do not add, duplicate, remove, relabel, outline, circle, magnify, or otherwise highlight any worm. Retouch the vacated agar naturally so no old large worm traces remain. Exactly one adult plus exactly two larvae, no other animals. No text, numbers, scale bars, arrows, overlays, labels, logos, signatures, borders, or watermarks. Keep exact 1536×1024 dimensions, opaque sRGB, one static frame.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-rotting-apple-habitat.webp` SHA-256: `d19acd8bf52292f4ed7450a5554f6d85c1d037029f43bb815348da87329cc2ee`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.58, "y": 0.52}`. Conservative full-subject boundary: `{"left": 762, "top": 126, "right": 1418, "bottom": 896}`, 656×770 source pixels (previously 1264×434). Boundary center is 71.0% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the refractive cuticle edge, rounded head and fine pointed tail of one continuous unsegmented body. The open curve has no crossings or concealed ends. This microscopy-style reconstruction retains a wet decomposing-plant substrate and a quiet defocused olive-gray left field. Internal shapes are illustrative and cannot establish diagnostic anatomy, strain, calibrated length or developmental age. Real substrate margins surround the transparent silhouette. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 938.1×322.1 → 149.9×176.0 | 85.03 | 48.00 | 40.00 | Pass |
+| 390×760 | 938.1×322.1 → 149.9×176.0 | 120.03 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1124.1×386.0 → 364.6×428.0 | 96.00 | 148.84 | 48.00 | Pass |
+| 1920×900 | 1580.0×542.5 → 477.1×560.0 | 96.00 | 236.65 | 48.00 | Pass |
+| 2560×900 | 2106.7×723.3 → 477.1×560.0 | 96.00 | 403.05 | 48.00 | Pass |
+| 3840×900 | 3160.0×1085.0 → 477.1×560.0 | 96.00 | 735.85 | 48.00 | Pass |
+
+`npm run test:carousel`: all 159 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

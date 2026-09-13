@@ -196,3 +196,26 @@ Avoid: visible caecilian, snake, worm, insects, birds, mammals, any wildlife, an
 | 04  | `321ab59594c969c450c1f8aa1bfb097cd0d2e5fe9d8bed3d1b321b6cb4f01ad0` | `ac990ef83fc2f7fa7f8f6b8ba3963372ece012f9b642db04df38691a6a2e57cf` |
 | 05  | `5b8d693216d30e3a5969f70a3fec16aac3ca3f5441cb2f5e9dd0a886bfa194e5` | `131d4e75b25a8fb70713d000818e08a7e09e27c62d08456015a327a63f31829c` |
 | 06  | `9728d883c823d5433b70a790ce52871019d6a3d4d8fc534e07530d700b345e57` | `f0e867781035f3d66307ed097762260aed63e103c023a2d66d61c85e9d7e5555` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cacao-agroforest-adult-portrait.webp` SHA-256: `3d73735e346fba77d5e26092edb123b72ea951af40fe4cf0ad669a27a3178262`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.58, "y": 0.58}`. Conservative full-subject boundary: `{"left": 638, "top": 202, "right": 1474, "bottom": 834}`, 836×632 source pixels (previously 1344×440). Boundary center is 68.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the complete continuous limbless body, blunt head and posterior end. The open S pose avoids self-overlap and shows both ends. Real soil surrounds the full outline. Left 40% contains defocused agroforest above the lower soil foreground, with the animal entirely beyond that field. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 997.5×326.6 → 232.8×176.0 | 43.59 | 48.00 | 40.00 | Pass |
+| 390×760 | 997.5×326.6 → 232.8×176.0 | 78.59 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1195.2×391.3 → 559.7×423.1 | 72.00 | 51.32 | 50.45 | Pass |
+| 1920×900 | 1680.0×550.0 → 740.8×560.0 | 96.00 | 104.82 | 48.00 | Pass |
+| 2560×900 | 2240.0×733.3 → 740.8×560.0 | 96.00 | 271.22 | 48.00 | Pass |
+| 3840×900 | 3360.0×1100.0 → 740.8×560.0 | 96.00 | 604.02 | 48.00 | Pass |
+
+`npm run test:carousel`: all 132 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

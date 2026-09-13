@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic macro wildlife atlas cover landscape 1536x1024. One seven-spotted ladybird Coccinella septempunctata resting on a simple smooth green leaf, elevated three-quarter dorsal view head facing lower-left. Accurate domed red elytra with exactly seven black spots (three on each elytron plus one shared basal spot near pronotum), black pronotum with white front corner patches, small black head, two short clubbed antennae, six jointed black legs with tiny complete tarsi naturally spread on leaf. Entire beetle including antennae and visible feet LARGE on RIGHT within x=670..1460 y=200..850. Shell may naturally conceal far leg roots, no extra limbs. Real leaf margin around every appendage, no clipping. Left40% quiet softly defocused muted green meadow background without stems aphids or other insects. Soft natural diffuse light, realistic anatomy and texture, no text border watermark.",
+  "generatedImage": "exec-d7f12eeb-d279-4bf4-a944-be5f08817354.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 154,
+      "right": 1472,
+      "bottom": 850
+    },
+    "sha256": "1490177da744c0a92cd37d88bc59b69dbd59be1b907a9274b2e5edf4efb7ad9f"
+  },
+  "sourceSha256": "0a8c654f767af229d92db90b1ed3dd0d25bf170096191d97b96870b9da61247e",
+  "supersededCover": {
+    "sha256": "5cbb75b9d95947e7cc5f4c7092a09be847f09a7e9e5f15d34880b9d5b3915c57",
+    "bounds": {
+      "left": 812,
+      "top": 376,
+      "right": 1278,
+      "bottom": 844
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete shell, head, both antennae and visible six-leg/tarsal outline. Far-side leg roots and outer elytral markings naturally occluded by shell curvature. Leaf surrounds appendages; quiet left green background."
+}

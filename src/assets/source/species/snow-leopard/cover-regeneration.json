@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic natural-history wildlife photograph exact1536x1024 landscape. ONE complete adult snow leopard Panthera uncia standing on pale Himalayan granite ledge, prominent RIGHT-side animal fully inside x=690..1440 y=220..800. Side three-quarter view facing left, compact muscular body, smoky gray dense fur with natural dark rosettes, small rounded ears, broad muzzle, complete whiskers, four correctly attached broad paws visible in slightly staggered stance. Exceptionally long thick tail curves naturally down behind rump then gently forward along rock, ENTIRE rounded tail tip clearly visible with ample real rock background beyond it, not behind body or cut by edge. Full animal and all extremities, no foreground obstruction. Quiet left40% misty layered blue-gray mountains and softly blurred granite. Soft cool morning light, restrained natural colors, fine realistic fur detail, no dramatic spotlight. No other animal, people, text, watermark, border, collar or enclosure.",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-015aaf28-893a-44eb-86c1-4d966d8f48a1.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 696,
+      "top": 150,
+      "right": 1500,
+      "bottom": 758
+    },
+    "sha256": "ea4508d50d10ac32fc8d860e2a723da7371d83d204dc834886c6b478d36a51c1"
+  },
+  "sourceSha256": "896dd2e71a88ed9dd7f90b762a41143ce89d31764e53785f6c9134138b920610",
+  "supersededCover": {
+    "sha256": "2688dc81d0d403bcbc3b15c5adc4e856cc4072111d8c5ce752980e7304948776",
+    "bounds": {
+      "left": 694,
+      "top": 218,
+      "right": 1536,
+      "bottom": 840
+    }
+  },
+  "inspection": "Original-resolution PNG and WebP inspected. Full ears, whiskers, four paws and entire rounded tail tip retained with real rock margins. Old bounds describe visible pixels only because old tail touched source edge. New source fixes clearance failure."
+}

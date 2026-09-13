@@ -48,3 +48,26 @@
 ## 验证结果
 
 207 项测试通过。`npm test` 中的图片、分类、交互检查通过，TypeScript 与生产构建通过；末尾子路径测试因沙箱禁止监听本地端口而失败，随后在授权环境单独执行 `node --test tests/dist-subpath.test.mjs` 并通过。构建仍提示主代码块超过 500 kB。
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cover.webp` SHA-256: `17abf556060d7d47ea5f0ef89176763fc0978467392ff85a928cd2fa8b2356a7`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.78, "y": 0.43}`. Conservative full-subject boundary: `{"left": 625, "top": 90, "right": 1415, "bottom": 890}`, 790×800 source pixels (previously 180×168). Boundary center is 66.4% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes koala ear fur, body outline and visible claws, rabbit ear tips, whiskers, paws and tail, and bee antennae, transparent wings, abdomen and visible leg tips. Background remains between these features and source edges. The animal is prominent on the right; the left 40% remains quiet habitat. Conservative measurements include a few background pixels around fine fur and translucent wings. Far-side limbs overlap naturally; bee feet meet the flower center. The supporting flower is habitat, not a carried object, and its petals are outside the measured animal boundary. Replaced the koala first candidate diagonal foreground trunk with a supporting horizontal branch to expose the body outline. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 133.6×124.7 → 173.8×176.0 | 73.10 | 48.00 | 40.00 | Pass |
+| 390×760 | 133.6×124.7 → 173.8×176.0 | 108.10 | 48.00 | 40.00 | Pass |
+| 1366×768 | 160.1×149.4 → 422.7×428.0 | 96.00 | 119.84 | 48.00 | Pass |
+| 1920×900 | 225.0×210.0 → 553.0×560.0 | 96.00 | 198.70 | 48.00 | Pass |
+| 2560×900 | 300.0×280.0 → 553.0×560.0 | 96.00 | 365.10 | 48.00 | Pass |
+| 3840×900 | 450.0×420.0 → 553.0×560.0 | 96.00 | 697.90 | 48.00 | Pass |
+
+`npm run test:carousel`: all 45 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

@@ -154,3 +154,23 @@ Avoid: scientist holding a sturgeon, captive fish, aquarium, fish tank, blood dr
 - Original-resolution static inspection found one cover fish with left-side open water; one close morphology view; one distant fish in a habitat-dominant river; one juvenile near benthic prey cues; exactly two separated adults over coarse substrate; and exactly two researchers collecting water with no fish visible.
 - Static inspection found no readable text, logo, watermark, aquarium cue, fish handling, exposed eggs, fishing gear or exact-location marker.
 - Verification used no GUI or headless browser.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-yangtze-migration-portrait.webp` SHA-256: `beb5c04e85108b5013d42cd544cab4f81fdcaac401ee58a35455f2969cc4ff20`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.69, "y": 0.57}`. Full-subject boundary: `{"left": 618, "top": 412, "right": 1482, "bottom": 648}`, 864×236 source pixels, unchanged. Boundary center: 68.4% of source width.
+
+Original-resolution composition inspection: Full snout, visible barbels, fins and heterocercal tail retain real water margins. Quiet left water; far-side fins naturally overlap body. Hero framing and prominence remain unverified. Final acceptance pending.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 641.2×175.2 → 272.0×74.3 | 24.00 | 98.85 | 90.85 | Pass |
+| 390×760 | 641.2×175.2 → 342.0×93.4 | 24.00 | 89.29 | 81.29 | Pass |
+| 1366×768 | 768.4×209.9 → 559.7×152.9 | 72.00 | 51.32 | 185.56 | Pass |
+| 1920×900 | 1080.0×295.0 → 825.6×225.5 | 72.00 | 62.40 | 215.24 | Pass |
+| 2560×900 | 1440.0×393.3 → 1132.8×309.4 | 72.00 | 75.20 | 173.29 | Pass |
+| 3840×900 | 2160.0×590.0 → 1747.2×477.2 | 72.00 | 100.80 | 89.38 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

@@ -1,0 +1,27 @@
+{
+  "prompt": "Generate a photorealistic wildlife atlas cover, landscape 1536x1024. One adult meerkat standing upright as a sentinel on a low bare sandy rise in the Kalahari. Full body in a three-quarter side view looking left: complete ears, muzzle whiskers, both small forepaws held at chest, both hindfeet with visible toes on sand, and entire long tapering tail curving right on the ground. Anatomically credible proportions and fine tawny banded fur, dark eye patches. Animal is LARGE and prominent on RIGHT, silhouette including whiskers and tail entirely within x=700..1450 y=90..930, center around x=1080. Enlarge upright body to nearly 800 pixels tall; do not make a tiny distant sentinel. Leave real background around every tip. Left 40 percent x=0..614 is uninterrupted gently defocused warm beige desert and pale blue sky, no sharp bushes, branches, rocks or other animals. Soft natural morning light, realistic photographic texture. No text, graphics, border or watermark. Clear separation of feet from bare ground. Single continuous natural scene.",
+  "generatedImage": "exec-c47013c3-82a1-44ca-92ab-062330f2d9e0.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 14,
+      "right": 1460,
+      "bottom": 956
+    },
+    "sha256": "4fb8539235fea7044427d9102245f4fdf60fbb536e4b1f1dd1dc031a3cb119ca"
+  },
+  "sourceSha256": "5939691b607f0ec242ab015dc424962ede9cb3ddc24a7dda81a477840268db35",
+  "supersededCover": {
+    "sha256": "5c8c1d8a8e3b1043ca339a2bf3bfe3a8904d3e4616b557ea1df332cf7a77289c",
+    "bounds": {
+      "left": 1060,
+      "top": 472,
+      "right": 1188,
+      "bottom": 736
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full ears, muzzle whiskers including fine upper hairs, both forepaws, hindfeet with toes and long tail fringe. Natural body fur overlaps limb roots. No edge clipping; quiet left40%."
+}

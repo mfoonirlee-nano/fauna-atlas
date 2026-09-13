@@ -166,3 +166,26 @@ Change only the foreground marine iguana's resting leg pose so the shoulder and 
 - Frame 05 contains one female, one narrow burrow and no visible egg, hatchling, person or second animal.
 - Frame 06 contains one iguana and one distant observer without contact, attached equipment, readable insignia or implied count result.
 - No frame contains text, a logo, a watermark, an extra tail, a fish fin, a green-iguana dewlap or a bright yellow land-iguana body.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-black-lava-adult-cover.webp` SHA-256: `7254be42e49b741f43b52ba169a839db9b74f0b035fbc40d3a9bca4979289021`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.7, "y": 0.58}`. Conservative full-subject boundary: `{"left": 634, "top": 152, "right": 1504, "bottom": 926}`, 870×774 source pixels (previously 1380×546). Boundary center is 69.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the snout, dorsal crest, visible claws and complete curved tail. The far hindlimb is naturally concealed by the body. Real rock margins surround the outline, including the narrow right margin beyond the tail. Left 40% contains defocused blue-grey sea with supporting rock in the lower foreground. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 1024.2×405.2 → 197.8×176.0 | 61.09 | 48.00 | 40.00 | Pass |
+| 390×760 | 1024.2×405.2 → 197.8×176.0 | 96.09 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1227.3×485.6 → 481.1×428.0 | 96.00 | 90.62 | 48.00 | Pass |
+| 1920×900 | 1725.0×682.5 → 629.5×560.0 | 96.00 | 160.47 | 48.00 | Pass |
+| 2560×900 | 2300.0×910.0 → 629.5×560.0 | 96.00 | 326.87 | 48.00 | Pass |
+| 3840×900 | 3450.0×1365.0 → 629.5×560.0 | 96.00 | 659.67 | 48.00 | Pass |
+
+`npm run test:carousel`: all 150 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

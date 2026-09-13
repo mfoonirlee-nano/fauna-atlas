@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic wildlife photograph exact1536x1024 landscape. THREE African savanna elephants Loxodonta africana, two adult females and one calf, complete compact family group entirely on RIGHT within x=700..1450 y=220..810. Adults walking slightly toward camera in staggered depth, calf in open space beside them, distinct separate bodies. Large African ears, gently concave backs, gray wrinkled skin, natural curved tusks on adults, calf without conspicuous tusks. Complete trunks including tips, all visible feet, ears and tail tufts inside image, unobstructed by grass. Natural far-side body overlap only; no fused limbs. Use depth to fit group compactly without miniaturizing or stacking them. Pale short-grass savanna with clear bare-earth foot contacts, softly receding distant acacias, restrained warm morning light. Left40% quiet empty savanna and sky, no elephant or other wildlife there. Real background margins around full group. No people, vehicles, collars, text, watermark, border or collage.",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-5fab671d-bb43-4f7d-83af-13135b8ad43a.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 688,
+      "top": 142,
+      "right": 1484,
+      "bottom": 800
+    },
+    "sha256": "d283b579a6d4d3800906ca93e81f122f592d2fd6cb96e412a79841b7b01ffad0"
+  },
+  "sourceSha256": "72b2bce13b84ee75507f2232666afee206b9fc5d37d9fd27c47a5720cde1ae99",
+  "supersededCover": {
+    "sha256": "34e71548757a1814cb855c75ff2a8ede1e304b29b3b57162f20be7db5794993a",
+    "bounds": {
+      "left": 448,
+      "top": 316,
+      "right": 1358,
+      "bottom": 878
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full three-animal group boundary includes ears, tusks, all visible feet, trunks and right adult tail tuft. Far-side limbs and some tails naturally occluded by bodies in frontal depth. No edge clipping; quiet left40%."
+}

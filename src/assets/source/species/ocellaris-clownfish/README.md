@@ -94,3 +94,26 @@ The 2025 BMC Biology study supports a role for reduced mucus sialic acids in sti
 ## Verification
 
 `npm run typecheck` and all 160 tests in `npm test` passed, including image format/dimension/hash validation, taxonomy integration, full-subject carousel geometry and the built-site subpath resource test. The production build passed and refreshed the tracked `dist/` output. Vite reports the existing large JavaScript chunk warning. All six new `dist` WebPs match their `public` counterparts byte for byte.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-reef-cover.webp` SHA-256: `cc8ab3130ad5b3d811eafa12191e71b66a8c0ecaed87565a6bf5dd338382428a`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.84, "y": 0.34}`. Conservative full-subject boundary: `{"left": 637, "top": 232, "right": 1492, "bottom": 704}`, 855×472 source pixels (previously 190×90). Boundary center is 69.3% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes the snout, dorsal rays, visible pectoral and pelvic fins, anal fin and rounded tail. Three white bars remain visible with narrow dark outlines. Far-side paired fins naturally overlap in lateral view. Real water remains around every visible extremity. The left 40% remains quiet blue-green water. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 141.0×66.8 → 272.0×150.2 | 24.00 | 60.92 | 52.92 | Pass |
+| 390×760 | 141.0×66.8 → 318.8×176.0 | 35.59 | 48.00 | 40.00 | Pass |
+| 1366×768 | 169.0×80.0 → 559.7×309.0 | 72.00 | 51.32 | 107.52 | Pass |
+| 1920×900 | 237.5×112.5 → 825.6×455.8 | 72.00 | 62.40 | 100.12 | Pass |
+| 2560×900 | 316.7×150.0 → 1014.4×560.0 | 96.00 | 134.40 | 48.00 | Pass |
+| 3840×900 | 475.0×225.0 → 1014.4×560.0 | 96.00 | 467.20 | 48.00 | Pass |
+
+`npm run test:carousel`: all 72 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

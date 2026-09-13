@@ -132,3 +132,26 @@ The adult prompts consistently specified one complete slender leaf frog with a s
 | 04 | `90a345d5119511e6496d04d018ceced453f3f8b6476de79f8777fa6e199d0174` | `78b3ae3748c3a590ab7a269e4d424194d0716625a87dc2768aa7f50a5660c71b` |
 | 05 | `4b906251e86c32dc688f72f6608864f3592b4b1569e77856d23fca1440dc1110` | `c46a337a2b8ad2005ab03c7fa79444d32be5a42d2d72d6fa68c4514ac976f235` |
 | 06 | `4f0c5194b143527afbd94e33abf63776b473a890a336f84b755c1298fbc84e1b` | `29448824fbb1a362ccfcab8efe460ecadc6d9041c315c1c22338a1e34937d972` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-rainforest-leaf-adult-cover.webp` SHA-256: `6efecb8edd33438fdcb588c71b407ddd38e91ed350c1d843a7a49f261886dbae`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.58, "y": 0.54}`. Conservative full-subject boundary: `{"left": 622, "top": 202, "right": 1448, "bottom": 818}`, 826×616 source pixels (previously 918×602). Boundary center is 67.4% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes snout, eye domes, body, both forelimbs and visible folded hindlimb with all visible outer orange toe pads. Far hindlimb and inner digits naturally overlap torso or other toes. Real leaf and rainforest background surround the silhouette. Left 40% contains defocused green rainforest above the lower supporting leaf. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 681.3×446.8 → 236.0×176.0 | 42.00 | 48.00 | 40.00 | Pass |
+| 390×760 | 681.3×446.8 → 236.0×176.0 | 77.00 | 48.00 | 40.00 | Pass |
+| 1366×768 | 816.4×535.4 → 559.7×417.4 | 72.00 | 51.32 | 53.31 | Pass |
+| 1920×900 | 1147.5×752.5 → 750.9×560.0 | 96.00 | 99.75 | 48.00 | Pass |
+| 2560×900 | 1530.0×1003.3 → 750.9×560.0 | 96.00 | 266.15 | 48.00 | Pass |
+| 3840×900 | 2295.0×1505.0 → 750.9×560.0 | 96.00 | 598.95 | 48.00 | Pass |
+
+`npm run test:carousel`: all 133 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic natural history atlas cover 1536x1024 landscape. One adult ringed caecilian Siphonops annulatus, a limbless amphibian, full entire animal on moist plain dark soil in Brazilian cacao agroforest. Accurate smooth glossy blue-grey cylindrical body with many fine pale annular grooves, blunt rounded head with tiny eyes, short blunt posterior end, no legs, no snake scales, no forked tongue. Arrange continuous body in a compact open S curve entirely on RIGHT, both ends separate and clearly visible, no self-overlap hiding body. Whole silhouette within x=680..1450 y=250..830, substantial prominent macro subject. Real soil margins all around. Left40% very softly defocused muted brown forest soil and green background, no sharp litter, roots or stones. Soft natural diffuse light, realistic moist skin and anatomy. Single animal, no text border watermark.",
+  "generatedImage": "exec-6f1d50a4-79d7-48f7-9be5-240f53414e8f.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 638,
+      "top": 202,
+      "right": 1474,
+      "bottom": 834
+    },
+    "sha256": "3d73735e346fba77d5e26092edb123b72ea951af40fe4cf0ad669a27a3178262"
+  },
+  "sourceSha256": "bb12b9a6ed6ef1a07e7e89c9b708bb8cfbc6777d870f7e92db1cfc2fdccd0f0f",
+  "supersededCover": {
+    "sha256": "5f292353194257a8cb5aa5ffa2266559e654b549c0c45ae7fdf2cf682eebb528",
+    "bounds": {
+      "left": 170,
+      "top": 390,
+      "right": 1514,
+      "bottom": 830
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Entire continuous limbless body, blunt head and posterior end visible without self-overlap. Full annulated outline has real soil margins; left field defocused above lower soil foreground."
+}

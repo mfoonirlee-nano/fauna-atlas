@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One adult Heike firefly Aquatica lateralis perched on a narrow gently diagonal grass blade at dusk in Japanese wetland rice paddy margin. Elongated black beetle, pink red pronotum with dark central mark, black closed elytra, six fine legs and two complete antennae, subtle yellow green glow at exposed abdominal tip. Natural macro editorial wildlife photograph, body visibly detailed despite dusk, subdued light not fantasy neon. Prominent complete insect on RIGHT, all antenna tips foot tips and abdomen within x=780..1410 y=220..820. Quiet softly blurred blue-green reeds and shallow water left40%. Real background around full outer silhouette, grass supports feet without hiding body. One animal only no text watermark collage borders or humans.",
+  "generatedFile": "exec-64ab210e-b568-4474-b23f-46008ff69cf6.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 730,
+      "top": 120,
+      "right": 1345,
+      "bottom": 750
+    },
+    "sha256": "2cbb99c747c015172d8f4a24f07fc5f6c5a475e006e826eb13fae07bdf34f800"
+  },
+  "sourceSha256": "aa483ce9ac1b4d70b4e613942fe4d211fae5c0b62e801b8ba6f23430b1f7d5a6",
+  "supersededCover": {
+    "sha256": "9a503e5d781c1c088313d68b2d7c870e16eafdaf3818d1d0f53583f3679ba174",
+    "bounds": {
+      "left": 1043,
+      "top": 336,
+      "right": 1206,
+      "bottom": 439
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete antennae, elytra, exposed glowing abdominal tip and visible foot tips. Natural far-side leg overlap against supporting grass. Dusk body detail remains readable; quiet left wetland and real source-edge clearance."
+}

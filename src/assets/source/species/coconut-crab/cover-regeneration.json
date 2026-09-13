@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape1536x1024. One adult coconut crab Birgus latro standing on smooth pale damp tropical forest soil, elevated three-quarter frontal view facing slightly left. Accurate robust blue-violet and reddish brown terrestrial hermit crab, heavily textured carapace, asymmetrical massive pincers with larger left claw, long jointed walking legs, stalked eyes, slender antennae held gently upward and forward. Rear reduced legs naturally concealed beneath body. Complete animal LARGE on RIGHT, every antenna tip, claw and visible walking-leg tip within x=680..1460 y=140..880. Real soil background margin around all extremities. Left40% softly defocused muted dark green-brown forest floor without leaves logs coconuts or other animals. Soft natural diffuse light separates leg tips from ground. Realistic anatomy and colors, no text border watermark.",
+  "edits": [
+    "Preserve exact coconut crab anatomy and pose. Uniformly scale the entire animal including both long antennae to 83 percent and move it right so the leftmost antenna or leg starts beyond x=665, rightmost leg before x=1470, all tips y=140..890 within1536x1024. Keep real soil margins beyond feet and claws. Make left40% uniformly softly defocused green-brown background without sharp soil texture. No other changes."
+  ],
+  "generatedImage": "exec-f507cda8-64d2-4036-920b-e65426487d57.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 716,
+      "top": 180,
+      "right": 1448,
+      "bottom": 844
+    },
+    "sha256": "e3b60a1048a5c12c28649d67d94836bd86cb30a52cc557c647b3bf8f43307c0c"
+  },
+  "sourceSha256": "5529342d77a4dd1b5a9549a51bc7553ccd5b360495a3849eb9b2e634990cec15",
+  "supersededCover": {
+    "sha256": "f1ea60fe98dfb71c0ff499bf413655e94fe31a71f74dca91ebd08c8a96c6fbb5",
+    "bounds": {
+      "left": 522,
+      "top": 228,
+      "right": 1500,
+      "bottom": 838
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete carapace, stalked eyes, antennae, both claws and visible walking-leg tips. Reduced rear appendages naturally concealed beneath body. Real soil margins; quiet defocused left forest floor."
+}

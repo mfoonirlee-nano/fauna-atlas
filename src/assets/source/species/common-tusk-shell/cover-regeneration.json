@@ -1,0 +1,30 @@
+{
+  "prompt": "Use case: photorealistic-natural scientific reconstruction. Asset: Fauna Atlas canonical species cover, opaque 1536x1024 landscape. One complete common tusk shell Antalis vulgaris, an exposed shell with animal retracted, resting loosely on the surface of fine underwater sand in a controlled natural-history presentation. This is a shell habitus presentation, not the normal buried life posture. Matte ivory-white tapering hollow tube, gently curved rather than hooked, fine longitudinal ribs, slender posterior end tinted warm brown-orange. Show the entire long shell including the broad anterior aperture at lower right and tiny narrow posterior aperture near upper middle-right. No soft tissue protrudes. Three-quarter slightly overhead view allows the broad opening and full outer contour to read clearly. Shell diagonal from x=780 y=170 narrow end to x=1370 y=850 broad end; full shell within x=670..1470,y=100..910, with real sand margins on all sides. Make shell prominent within the right half. Left 40 percent is quiet dark defocused blue-green water fading into soft sand, no detailed shell fragments, rocks, plants or competing subject. Subdued natural underwater lighting with readable pale shell against darker sand, macro photographic material detail, soft depth of field on background with whole shell in focus. One shell only, no text, labels, scale bars, borders, watermark, aquarium equipment, hands, exposed internal organs, extra apertures, nautilus chambers, sharp hook, hidden or cropped shell tips.",
+  "edits": [
+    "Edit this image, preserving single shell placement, length, curve, color, ribs, broad aperture and overall underwater lighting. Correct only two details: the narrow brown-orange posterior tip must terminate in a tiny anatomically open tubular aperture with visible small dark lumen and thin pale rim, not a sealed pointed cone. Preserve its taper. Also soften the entire left 40% background to quiet defocused blue-green water/sand, removing sharp individual sand grains there with a natural gradual depth-of-field transition toward the sharp sand immediately beneath the shell. Keep the full shell in focus and within its current complete margins. No added shells, text or objects. Output opaque 1536x1024."
+  ],
+  "generatedImage": "exec-46e131d0-89bd-4f4f-9835-745a6a4c70bb.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 802,
+      "top": 124,
+      "right": 1456,
+      "bottom": 850
+    },
+    "sha256": "4418ba164f2ca9b36755917d102792f4137a4762d0d2dd321244296eebe0f3e2"
+  },
+  "sourceSha256": "1ca5285d2747319d9b5aa90f31c58330a27f90c00b43176055618a44e7618913",
+  "supersededCover": {
+    "sha256": "d1d43fa653937730472b0dfe7f2b58ea5415346b39ebbfa1ba16d9b3e10119fb",
+    "bounds": {
+      "left": 1054,
+      "top": 458,
+      "right": 1220,
+      "bottom": 640
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete exposed shell contour includes broad and narrow aperture rims. Soft animal is retracted and unseen; this is an exposed-shell presentation, not normal buried posture. Left background is defocused."
+}

@@ -1,7 +1,7 @@
 {
   "date": "2026-09-12",
   "tool": "built-in image_gen",
-  "status": "main cover retained; single-image hero crop acceptance pending",
+  "status": "corrected source composition and single-cover hero geometry accepted",
   "images": [
     {
       "kind": "cover",
@@ -29,5 +29,34 @@
     "prompt": "Use case: photorealistic-natural. NEW replacement Fauna Atlas cover, landscape 1536x1024, natural-history editorial wildlife photograph style. An adult brown bear (Ursus arctos) on all four feet, full side profile facing left, shaggy brown fur, small round ears, muscular shoulder hump, long muzzle, broad paws and short tail, in a meadow at the edge of temperate forest under soft morning mist. One animal, sharp detailed natural anatomy, recognizable main subject rather than distant scenery. CRITICAL: the COMPLETE silhouette including tail/antennae/feet should fit INSIDE x=750..1400 y=180..860; respect at least 100px of real habitat outside all extremities. Animal fills most of that box, center right of 60% canvas width. Left 40% is quiet softly defocused natural habitat for typography. Do not crop or obscure any animal part. Soft natural light and restrained colors. No other animals, text, watermarks, borders, collage, people, artificial props or fantasy.",
     "sourceFile": "01-cover-regenerated-source.png"
   },
-  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies."
+  "note": "User requires six images per species. Removed both additional hero compositions and their runtime routing. Previous responsive hero acceptance no longer applies.",
+  "latestReplacement": {
+    "date": "2026-09-12",
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. New Fauna Atlas cover, 1536x1024 landscape. One realistic adult brown bear (Ursus arctos), shaggy brown fur, rounded ears and characteristic shoulder hump, standing in three-quarter view facing left in a quiet northern forest meadow beside a lake. All visible paws, muzzle, ears, rump and short tail silhouette visible. Natural-history editorial photographic style, soft overcast daylight. The ENTIRE animal must be in the RIGHT HALF: nose around x=740, rump/tail around x=1410, ear tips around y=280, paws around y=810. Whole silhouette inside x=690..1430 y=230..850, including fine fur and claws, with at least 100 pixels genuine habitat right of animal. Left 40% contains only soft quiet meadow and lake background, absolutely no animal parts. Animal is a prominent main subject occupying nearly half the image width, never distant or tiny. Full-body pose, feet on short ground cover with no concealment. No extra animals, humans, text, watermark, collage, frames or props.",
+    "reviewed": {
+      "sha256": "1fac6487af2676c48b75862434130eae56cda8f75e8cb0039b929c029573f650",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 210,
+        "right": 1420,
+        "bottom": 810
+      }
+    },
+    "supersededCover": {
+      "sha256": "64d5daf8ed49630ca4bfb1161416363e818206084067116f2f6557e45f86f0bd",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 535,
+        "top": 250,
+        "right": 1460,
+        "bottom": 795
+      }
+    },
+    "sourceSha256": "cb61363830321aff58ee6e817ce7a8c8bffb4fd5f84d22366cc270d4956512a3",
+    "sourceInspection": "PNG and runtime WebP inspected at original resolution; visible silhouette wholly right of left 40%; tail partly hidden naturally behind rump by three-quarter pose, no source crop."
+  }
 }

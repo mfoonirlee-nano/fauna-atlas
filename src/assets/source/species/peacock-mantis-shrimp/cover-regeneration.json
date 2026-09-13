@@ -1,0 +1,32 @@
+{
+  "prompt": "Photorealistic-natural scientific reconstruction Fauna Atlas peacock mantis shrimp Odontodactylus scyllarus canonical cover. Opaque1536x1024 landscape. Exactly one complete green-blue colorful smasher stomatopod standing fully exposed on smooth pale reef sand. Three-quarter side slightly overhead view. Two complete independently stalked compound eyes with subtle equatorial midbands, fine antennae and broad orange-red antennal scales, folded paired raptorial club appendages close beneath head, coherent small walking legs, elongated segmented green abdomen with blue accents and complete broad red-edged tail fan. Head at x=950,y=400; abdomen arcs right to x=1350,y=560 and tail near x=1310,y=820. Antennae curve upward and inward but all tips remain beyond x=660. Full silhouette including eyes, antenna filaments, scales, visible feet and tail fringe within x=680..1470,y=150..910, real water/sand margins. Body prominent in right field, no rock hides any visible extremity. Left40% quiet dark defocused teal water fading into smooth low-detail sand, no sharp reef rubble or other animals. Natural underwater light, realistic restrained iridescent shell detail, no neon glow, no exaggerated claws, no insect praying-mantis anatomy, no duplicate limbs, no text, labels, scale bar, watermark or border.",
+  "edits": [
+    "Refine this single peacock mantis shrimp. Uniformly scale complete animal including antenna tips and tail fringe to78% and place full outline within x=670..1465,y=160..870. Preserve coherent body, folded clubs, visible walking legs and tail fan. Make the two compound eyes look organically textured with very fine facets and a subtle equatorial midband, removing the artificial black panel-seam appearance and tiny dot highlights that resemble screws. Preserve eye stalk positions. Defocus left40% bright sand into quiet darker teal-gray water/substrate, soft transition, sharp animal. Reduce overly metallic plastic gloss while retaining natural green-blue-red color. No extra limbs, no crop, no labels or text. Opaque1536x1024.",
+    "Make three concrete corrections to this image. 1 Move the whole mantis shrimp right100 pixels, first scaling uniformly to93% around its center so the whole antenna-to-tail outline fits x=665..1490. Keep all appendages. 2 REPAINT both eyeball surfaces as natural finely granular compound eyes, mottled olive gray with one subtle lighter midband; remove ALL dark geometric line seams and black pinpoint dots from both eyeballs. Preserve their oval shape and stalks. 3 Strongly defocus the sand in left40% x0..614 including bottom-left, blending into smooth dark teal-gray background. This is essential quiet copy space. Keep sand sharp directly under animal on right. No other changes,1536x1024 opaque.",
+    "Edit ONLY both oval compound eye surfaces near x900,y285 and x940,y305. Replace the current smooth olive balls with natural peacock mantis shrimp eyes: densely packed microscopic hexagonal facets, irregular mottled olive-brown surface, broad subtle midband blending into facets. Absolutely remove the existing thin dark straight/crossing seam lines and black dot marks from both eye surfaces. They must look like living granular compound eyes, not mechanical panels. Keep eye shapes, stalks, all body pixels, antennae, tail, background and composition unchanged. Opaque1536x1024."
+  ],
+  "generatedImage": "exec-35bf89ea-8b4e-4fd9-9e19-fb4be21b30ba.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 626,
+      "top": 138,
+      "right": 1504,
+      "bottom": 808
+    },
+    "sha256": "4e023cf44b6cd10c171c107be71eb6cb639c0bd3fb55f0db25b8e02b60657d8b"
+  },
+  "sourceSha256": "0be84415a88d167bf5da5328554e90d4e35eaf3fe981e9b53ca1f38d1d796fe8",
+  "supersededCover": {
+    "sha256": "f3c0c6ae2af24b0c069b27d50e10ea62b669911ba0a72535c2531b2de4bdf034",
+    "bounds": {
+      "left": 326,
+      "top": 318,
+      "right": 1424,
+      "bottom": 790
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete antenna tips, eye stalks, visible appendages and tail fringe. Folded front and far-side appendages naturally overlap. Eye facets and midbands are illustrative, not diagnostic measurements."
+}

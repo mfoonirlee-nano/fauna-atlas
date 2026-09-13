@@ -49,3 +49,26 @@ Accessed 2026-09-07. [Fishes of Australia](https://fishesofaustralia.net.au/home
 ## Verification
 
 `npm test` passed all 166 tests, including the six-image integration and hash checks, full-subject hero geometry and HTTP asset checks under a deployment subpath. `npm run typecheck` and the production build passed. The build refreshed tracked `dist/` output and retained the existing JavaScript chunk-size warning. `git diff --check` passed.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-kelp-cover.webp` SHA-256: `6c5056c49f7fc5e04e43e3ba7624c8d366e62ab5c52724ce101e9bae0d67eeb7`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.86, "y": 0.38}`. Conservative full-subject boundary: `{"left": 734, "top": 188, "right": 1420, "bottom": 830}`, 686×642 source pixels (previously 111×73). Boundary center is 70.1% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes the tubular snout, all visible branching leaf tips, transparent fin edges and entire non-coiled tail. Leaf appendages naturally overlap in side view. The first candidate intruded into the left field; the accepted edit shifts the complete animal right. Real water remains around every visible extremity. The left 40% remains quiet teal water. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 82.4×54.2 → 188.1×176.0 | 65.97 | 48.00 | 40.00 | Pass |
+| 390×760 | 82.4×54.2 → 188.1×176.0 | 100.97 | 48.00 | 40.00 | Pass |
+| 1366×768 | 98.7×64.9 → 457.3×428.0 | 96.00 | 102.49 | 48.00 | Pass |
+| 1920×900 | 138.8×91.2 → 598.4×560.0 | 96.00 | 176.01 | 48.00 | Pass |
+| 2560×900 | 185.0×121.7 → 598.4×560.0 | 96.00 | 342.41 | 48.00 | Pass |
+| 3840×900 | 277.5×182.5 → 598.4×560.0 | 96.00 | 675.21 | 48.00 | Pass |
+
+`npm run test:carousel`: all 71 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

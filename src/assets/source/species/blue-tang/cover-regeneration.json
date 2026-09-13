@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas cover, 1536x1024 landscape. One adult blue tang Paracanthurus hepatus swimming in side profile facing left above a tropical coral reef, cobalt blue laterally compressed body, black palette-shaped marking, yellow triangular tail, anatomically accurate fins and small mouth. Natural-history underwater editorial photography, realistic sunlight through clear water. Prominent complete fish in RIGHT HALF, entire silhouette including transparent fin margins and tail tips within approximately x=700..1430 y=280..790. Maximize fish size within this box. Left 40% only quiet blue-green water, with absolutely no fish parts. Real water around every extremity and visible background to right of tail. One fish, not a distant speck, no extra animals, no text, watermark, border, collage, aquarium equipment or fantasy anatomy.",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 605,
+      "top": 225,
+      "right": 1475,
+      "bottom": 710
+    },
+    "sha256": "3f44c74f775e22c95ba8918c4f04eefd8c6242e3a49239a79b9f47da12439020"
+  },
+  "sourceSha256": "4c98a3f9b4d8cf4651f4dbb39cf8c58b77a52cd51de5f5e77a49a2c29d5f4482",
+  "supersededCover": {
+    "sha256": "e4708dff207a7c4d8a8b3717b9019e554b604b6da62da1ebff570148de2444c0",
+    "bounds": {
+      "left": 1048,
+      "top": 345,
+      "right": 1138,
+      "bottom": 389
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete visible silhouette, quiet left side, genuine source-edge background. Bounds include long tail/toes/bill for macaw; all fin-ray margins for fish."
+}

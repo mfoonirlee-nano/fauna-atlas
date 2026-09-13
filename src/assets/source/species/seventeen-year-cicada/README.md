@@ -167,3 +167,23 @@ Codex inspected the six generated images individually and as a contact sheet bef
 | 04 | `e3fc5374897b38745542b4f0a161ed792c7588ff535f49b2c61cda816086e34f` | `d8c55b9bf4b92c850f7697937667def29895a43a7ca5a1b758f01a50566c2970` |
 | 05 | `8e9a5b73151c8d34d816ae4bce00bc75ec502d28894c521e63e121657dc19dca` | `8de2d501876732b9313615a4047b1669666b386176097d7ed4a8a0f0baeddfb3` |
 | 06 | `72458525cdaffd4b9e586caa1057885178a96dc26375f5fdbac9445847847319` | `3f959f97663eafbd58f244e696979a359bfe6da0cbed940195a3684f50935632` |
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-adult-forest-portrait.webp` SHA-256: `306f5a02a85f8d3129f139a0bb8ad842ffdc9c59cdf3dbe909843a39e2f6a01e`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.62, "y": 0.48}`. Full-subject boundary: `{"left": 624, "top": 362, "right": 1462, "bottom": 834}`, 838×472 source pixels, unchanged. Boundary center: 67.9% of source width.
+
+Original-resolution composition inspection: Complete visible antenna tips, wing membranes and near-side gripping feet inspected; far-side legs naturally overlap body/branch. Center is right of 60%; defocused forest occupies left field. Source passes; hero framing remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 622.0×350.3 → 272.0×153.2 | 24.00 | 59.40 | 51.40 | Pass |
+| 390×760 | 622.0×350.3 → 312.5×176.0 | 38.76 | 48.00 | 40.00 | Pass |
+| 1366×768 | 745.3×419.8 → 559.7×315.2 | 72.00 | 51.32 | 104.38 | Pass |
+| 1920×900 | 1047.5×590.0 → 825.6×465.0 | 72.00 | 62.40 | 95.49 | Pass |
+| 2560×900 | 1396.7×786.7 → 994.2×560.0 | 96.00 | 144.48 | 48.00 | Pass |
+| 3840×900 | 2095.0×1180.0 → 994.2×560.0 | 96.00 | 477.28 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

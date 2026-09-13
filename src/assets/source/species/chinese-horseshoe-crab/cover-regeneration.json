@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic natural history atlas underwater photograph, 1536x1024 landscape. One Chinese horseshoe crab Tachypleus tridentatus seen in elevated dorsal three-quarter view on smooth shallow sandy seabed. Accurate broad domed horseshoe-shaped olive-brown prosoma, smaller posterior opisthosoma with marginal spines, long straight pointed triangular-section telson, no scorpion curl. Legs naturally hidden underneath dorsal shell. Entire complete animal including tail tip on RIGHT: shell front leftmost x=660, tail extends diagonally down-right ending x=1460 y=820, shell upper edge y=230. Maximize subject within this right-side area while leaving sand around every shell edge, spine and tail tip. Left40% quiet softly defocused pale green-grey underwater sand, no rocks shells plants other animals or strong caustics. Soft natural underwater illumination, realistic shell texture. No text border watermark.",
+  "edits": [
+    "Preserve exact horseshoe crab anatomy and pose. Move the entire crab 55 pixels right and shrink it uniformly 5 percent so the leftmost shell edge is beyond x=650, tail tip stays within x=1480 y=950, on this 1536x1024 canvas. Keep full shell, every visible marginal spine and complete telson with surrounding sand. Make left40% softer and uniformly defocused without sharp sand detail. No other changes."
+  ],
+  "generatedImage": "exec-a91a8170-8b95-4f8c-8a06-d7f0e3118d69.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 748,
+      "top": 164,
+      "right": 1448,
+      "bottom": 850
+    },
+    "sha256": "bd6f8348ecb565eb417a561b0905746caafe08e037756c747d2248ddcf6f270c"
+  },
+  "sourceSha256": "31dec51594def4ea2c287cadcde1db1f6c1c4f8b158ce428fd89c2dd12bdf7d0",
+  "supersededCover": {
+    "sha256": "93db137e3dbda05f5ba74ba0e150809e50530a4d485a65475369e424ce25bae3",
+    "bounds": {
+      "left": 546,
+      "top": 264,
+      "right": 1490,
+      "bottom": 826
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete dorsal shell, marginal spines and pointed telson. Ventral legs naturally concealed under shell. Sand surrounds the silhouette; quiet defocused left seabed."
+}

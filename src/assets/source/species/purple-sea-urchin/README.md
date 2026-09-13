@@ -161,3 +161,26 @@ ImageMagick reported all twelve accepted files as opaque, single-frame sRGB imag
 | 04 | `4f836651f351648056d6a7b5842ff3c77bd16d4eb2bd97f666fe49a48a76e3b7` | `845a7cbf563ad9d508d56f2b99c667b1fab3c7f5f3cebffdf540c9a6cde08ff9` |
 | 05 | `0a33167355c1e3765d47b6cf3907ec1a126a742891dda7df5020ade152980912` | `75f89c185b6fb2d7f92744a2959d3a0d73d948d3796c52e00b5a55c9152c8fa7` |
 | 06 | `3566781be06c2b2df3f48ca71ff99e81e648f14393136ae06db874e1d639c5c4` | `a9f53cf26d4cab326ae34cac6b6afbeb51bb5be745f6d32a2375ff91a54e9679` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-wave-washed-kelp-reef-adult-cover.webp` SHA-256: `e643833f2a2768a95e826e986b79017efaecbe774d1ce39935d93721453b69ff`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.53}`. Conservative full-subject boundary: `{"left": 656, "top": 184, "right": 1492, "bottom": 814}`, 836×630 source pixels (previously 410×414). Boundary center is 69.9% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes every visible outer spine and tube-foot tip, including the lower tips against rock. The underside naturally contacts substrate. Real water or rock margins surround the outline; left 40% contains defocused teal water and a softened lower rock edge. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 304.3×307.3 → 233.5×176.0 | 43.23 | 48.00 | 40.00 | Pass |
+| 390×760 | 304.3×307.3 → 233.5×176.0 | 78.23 | 48.00 | 40.00 | Pass |
+| 1366×768 | 364.6×368.2 → 559.7×421.8 | 72.00 | 51.32 | 51.12 | Pass |
+| 1920×900 | 512.5×517.5 → 743.1×560.0 | 96.00 | 103.64 | 48.00 | Pass |
+| 2560×900 | 683.3×690.0 → 743.1×560.0 | 96.00 | 270.04 | 48.00 | Pass |
+| 3840×900 | 1025.0×1035.0 → 743.1×560.0 | 96.00 | 602.84 | 48.00 | Pass |
+
+`npm run test:carousel`: all 139 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

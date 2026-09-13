@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Landscape1536x1024 wildlife atlas cover of one moon jellyfish Aurelia aurita in dark teal coastal seawater. Full translucent round saucer-like bell seen slightly obliquely from above/front so four pale lilac horseshoe-shaped gonads and fine radial canals are visible, with four short frilly oral arms underneath and a delicate continuous fringe of short fine marginal tentacles. Natural underwater macro photography, faint pearly lilac translucent tissue, realistic subtle light scattering, no artificial neon glow. Entire jellyfish including faintest tentacle tips prominent inside RIGHT region x=680..1470 y=140..870, center around72% image width. Left40% only quiet dark teal water for text. Real water margins beyond all fringes and oral arm tips. Make animal large within this right region, not distant. No cut edges, long trailing lion-mane tentacles, extra jellyfish, bubbles, labels, text, border, vertical seam or diagrams.",
+  "editPrompt": "Edit framing only. Reduce entire moon jellyfish uniformly about18% and shift right so leftmost fine marginal tentacle is x=666 and rightmost tip x=1480. Preserve all translucent fringe, complete oral arms, four horseshoe gonads, anatomy, natural light and detail. Entire subject must be surrounded by actual water; left40% is quiet dark teal water only. Seamlessly fill vacated water, no vertical boundary, no border. Keep landscape1536x1024.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-47d83651-6810-4056-a1cd-d7618409db35.png",
+  "rejectedCandidate": "exec-67a35fd3-86ba-4d49-8ac1-972bea7b9960.png: bell and fringe intruded into left40%",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 654,
+      "top": 132,
+      "right": 1458,
+      "bottom": 824
+    },
+    "sha256": "5223d571cdb0d2a15f502b1d2070daba725845c68852596b2d110f4f615c61e8"
+  },
+  "sourceSha256": "d900667ca3313ca1ebc268c3114da594863d3266a408ddd5cb556b322a7ac46a",
+  "supersededCover": {
+    "sha256": "8fc234b7c85ac0a59284eda99b57c1cad98e0e36c4cda4aeaad9ce93c025f810",
+    "bounds": {
+      "left": 554,
+      "top": 120,
+      "right": 1434,
+      "bottom": 848
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full translucent bell, finest marginal tentacle tips and complete oral arms. Natural transparent overlap of internal tissues. No edge clipping; quiet left40%."
+}

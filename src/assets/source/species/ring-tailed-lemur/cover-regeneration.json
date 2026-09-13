@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One ring-tailed lemur Lemur catta seated calmly on bare rock in Madagascar dry woodland. Prominent WHOLE animal on RIGHT, three-quarter view facing slightly left. Gray body white face black eye patches black muzzle white pointed ears, natural amber eyes, complete hands and feet with natural fingers and toes resting on rock. One long black-and-white ringed tail visibly continuous from rump and curving loosely beside body, entire tail and tip clearly visible. Full silhouette ears whiskers hands feet and tail within x=730..1440 y=170..850 with real background margins. Left40% quiet defocused muted dry woodland for copy. Natural proportions soft daylight fine fur texture editorial wildlife photography. No extra animals text logos border collage or duplicate tails.",
+  "generatedFile": "exec-ae105011-d46d-47b9-bbfe-bd82121bbe19.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 842,
+      "top": 96,
+      "right": 1507,
+      "bottom": 949
+    },
+    "sha256": "aa706dd178c0d9a2f09bc96e40a8f7304677f1e0a260134331ea05e92dce0ca7"
+  },
+  "sourceSha256": "a4e5108ed4d49f2646a11ccc5ae9b719856bc2f0177116dedad624ef96ce3ffb",
+  "supersededCover": {
+    "sha256": "3054aac8204a0fb5d6f286d83df882148566d76f0c3dba86c08e2a0535403c1d",
+    "bounds": {
+      "left": 1178,
+      "top": 344,
+      "right": 1288,
+      "bottom": 451
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full ears, whiskers, visible hands and feet, and complete ringed tail retained. Far-side toes overlap forearm naturally in seated pose; tail root partly behind rump. Quiet left dry woodland and real source-edge clearance."
+}

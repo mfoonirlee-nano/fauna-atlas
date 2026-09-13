@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas underwater cover landscape1536x1024. One adult Surinam toad Pipa pipa resting on smooth brown silty bottom in shallow Amazon water, elevated dorsal three-quarter view head facing lower-left. Accurate extremely flattened broad angular brown body, triangular flat head with tiny eyes, rough mottled skin, slender forelimbs with four long unwebbed fingers ending in delicate star-like sensory tips, powerful folded hindlimbs and broad fully webbed hind feet. Nonbreeding adult with ordinary intact back skin. Complete animal LARGE on RIGHT, all head, visible fingertips and webbed toes within x=670..1460 y=180..880. Natural far-side limb overlap allowed. Real silt margin around extremities; fingers readable against lighter silt. Left40% quiet softly defocused dark olive-brown water with no sharp submerged leaves or sticks. Natural diffuse underwater light, realistic anatomy, no text border watermark.",
+  "edits": [
+    "Preserve exact Pipa pipa anatomy with four fingers on each front hand and full webbed hind feet. Uniformly shrink entire toad to77 percent and shift right so leftmost fingertip begins x=670 and rightmost hindfoot ends x=1470 within1536x1024. Vertically center animal with all toes and fingertips inside y=160..900. Keep complete body and natural limb connections. Soften left40% to quiet defocused olive-brown water/silt, no sharp texture. Real silt margins around all extremities."
+  ],
+  "generatedImage": "exec-4e7a1a6e-3c39-4a26-b613-48a11ae3da6b.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 614,
+      "top": 132,
+      "right": 1500,
+      "bottom": 840
+    },
+    "sha256": "05534aec75accd064bb768bfd8b584544fe08d98c320fe52f2e185f1aa1c99ec"
+  },
+  "sourceSha256": "1c05ea5e1ad95c581958c1fce028d47af939c3d4838c4b7a97dba365a5cea895",
+  "supersededCover": {
+    "sha256": "a000eea1657b19658ebd581e1536fe0677b254a6aae39978fd2d71f9c2d4e799",
+    "bounds": {
+      "left": 616,
+      "top": 266,
+      "right": 1498,
+      "bottom": 984
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete flattened head and body, both forehands with sensory fingertips and both visible webbed hind feet. Limb roots naturally overlap body. Real silt margins; quiet defocused left water."
+}

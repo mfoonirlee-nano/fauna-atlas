@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic-natural scientific reconstruction, Fauna Atlas canonical cover, opaque1536x1024 landscape. Exactly one whole ocellate torpedo electric ray Torpedo torpedo fully exposed on smooth sandy-silt seabed. Three-quarter dorsal slightly overhead view. Thick rounded almost circular tan-brown disc with exactly five flat blue-centered dark-ringed ocelli all on disc, two small real dorsal eyes with spiracles just behind, stout short tail bearing two distinct dorsal fins and one broad complete caudal fin. No stingray whip, no electricity effects. Orient ray diagonally: rounded front of disc toward lower-left at x=700,y=620, disc centered x=1000,y=520, stout tail extends upper-right ending x=1420,y=250. Whole outer boundary including disc, pelvic lobes, both dorsal fins and caudal fin within x=650..1480,y=150..860. Prominent complete animal entirely in right field with visible sand around every fin edge. Left40% quiet dark defocused blue-green water and soft sand, no rippled foreground or sharp rocks. Entire ray sharp, subdued natural underwater illumination, readable silhouette against gray-beige sediment. No burial or sand covering any outer margin. No additional animals, text, labels, arrows, scale bars, borders, watermark, diver or equipment.",
+  "edits": [
+    "Preserve this single torpedo ray, exactly five flat blue ocelli, rounded disc, two eyes and their spiracles, two distinct dorsal fins and complete broad caudal fin. Change only framing and background: uniformly scale whole ray to88% current size and place full silhouette within x=665..1475,y=150..875. Retain clear real sand margin around entire disc and all fin tips. Soften left40% to quiet defocused blue-green water/sediment, especially lower-left sharp sand grains. No anatomy changes, no added markings or subjects, no crop, no text. Opaque1536x1024 landscape."
+  ],
+  "generatedImage": "exec-3ce8df64-ce91-4aac-852e-77fe51167c4d.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 140,
+      "right": 1464,
+      "bottom": 820
+    },
+    "sha256": "ccb3c68612ff1b9364fb47c3485013223573ee3e194d40be1392cddb11fcc58c"
+  },
+  "sourceSha256": "a14e1a6893b092ed34248957fab928ed7f15a4cd6c410f5ac58669e6e5ea2f33",
+  "supersededCover": {
+    "sha256": "bff14e0330a8dfa7dce8e255a4bfd8cec1c3cfbeeceacfec809cb5cab3ba64d4",
+    "bounds": {
+      "left": 400,
+      "top": 242,
+      "right": 1460,
+      "bottom": 814
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete disc edge, visible pelvic margin, two dorsal fins and broad caudal fin. Five flat ocelli on disc. Underside and far pelvic margin naturally concealed; spiracle papillae are not individually resolved."
+}

@@ -208,3 +208,26 @@ EXCLUDE
 - Original-resolution inspection confirmed the accepted observations in the asset table. Checks covered bird, egg and observer counts; Green Peafowl crests, necks, facial skin and sex differences; complete anatomy; cover-copy space; open river-valley context; the upper-tail-covert display; the minimally lined scrape; monitoring distance; and the absence of text or branding.
 - Runtime inspection after conversion found no new cropping, extra animals, visible text, logos, watermarks, borders, species substitutions or material compression defects.
 - Verification used static file inspection and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-yunnan-river-valley-male-portrait.webp` SHA-256: `5000bc50fd2669f65f452b79e42a35accbca3818de0ae5b5f19d40e6f687cfa0`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.69, "y": 0.52}`. Conservative full-subject boundary: `{"left": 720, "top": 64, "right": 1448, "bottom": 920}`, 728×856 source pixels (previously 676×742). Boundary center is 70.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the crest, beak, visible toe tips and delicate closed-train filaments. Folded wings and far-side toes overlap naturally; exact feather counts are not established. One edit moved the head right, brought the terminal train inside the source and softened left forest detail. Bare ground separates the toes and train from the crop edge. The source box is 728 by 856 pixels, compared with the previous 676 by 742 box. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 501.7×550.7 → 149.7×176.0 | 85.16 | 48.00 | 40.00 | Pass |
+| 390×760 | 501.7×550.7 → 149.7×176.0 | 120.16 | 48.00 | 40.00 | Pass |
+| 1366×768 | 601.2×659.9 → 364.0×428.0 | 96.00 | 149.16 | 48.00 | Pass |
+| 1920×900 | 845.0×927.5 → 476.3×560.0 | 96.00 | 237.07 | 48.00 | Pass |
+| 2560×900 | 1126.7×1236.7 → 476.3×560.0 | 96.00 | 403.47 | 48.00 | Pass |
+| 3840×900 | 1690.0×1855.0 → 476.3×560.0 | 96.00 | 736.27 | 48.00 | Pass |
+
+`npm run test:carousel`: all 176 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

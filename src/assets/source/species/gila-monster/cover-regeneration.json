@@ -1,0 +1,28 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One adult Gila monster Heloderma suspectum, full body three-quarter side view facing left on unobstructed plain sandy Sonoran Desert ground. Accurate broad blunt head, black and salmon-orange beadlike scales in irregular bands and patches, stout low body, short sprawling legs with visible clawed toes, full thick blunt tapering banded tail curving to right. Entire animal LARGE on RIGHT, compact three-quarter pose with all snout, feet and tail within x=690..1450 y=290..840. Four plausible limbs with natural far-side overlap, no extra limbs, no exposed tongue. Real background margins around all tips. Left40% quiet very softly defocused warm tan desert and muted distant terrain, no sharp cacti, rocks or scrub. Soft natural daylight, detailed scales, realistic proportions, single animal no text border watermark.",
+  "editPrompt": "Edit this Gila monster photograph. Move complete lizard RIGHT and slightly reduce so snout begins at x=670 or beyond, and all curved tail and claws fit before x=1460 on 1536x1024. Keep prominent full animal and natural proportions, three visible feet and naturally hidden far hindfoot. Make left40% ground very softly defocused without sharp gravel; preserve low-contrast distant desert. Keep complete thick tail, no clipping, natural beaded scales.",
+  "generatedImage": "exec-67588488-51a4-4c39-9f9b-c028e9595b89.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 694,
+      "top": 412,
+      "right": 1488,
+      "bottom": 788
+    },
+    "sha256": "00f0aba1775056a76903c2a682be15795bf1bc7e436256b596e632c275dd7f6d"
+  },
+  "sourceSha256": "698d1fe63ea7a04275c7a7b50a23723a6b154ac9e5b0f4131999d1cd913f36ec",
+  "supersededCover": {
+    "sha256": "cd07f856b521e1e3efa37706cd67e040a465b1dd0fdb791fead48bddeede2e17",
+    "bounds": {
+      "left": 562,
+      "top": 406,
+      "right": 1468,
+      "bottom": 734
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full snout, beaded body outline, three visible feet/claws and complete thick curved tail. Far hindfoot naturally hidden by torso. Real margins and quiet defocused left desert."
+}

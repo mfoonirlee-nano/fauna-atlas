@@ -145,3 +145,26 @@ Avoid: exposed nest chamber, baby at entrance, pouch opening, nursing, marsupial
 - Frame 04 shows one early dig-down posture with a modest soil fan and no predator or injury.
 - Frame 05 contains exactly four separated adults moving in one direction; the image itself does not diagnose sex or breeding outcome.
 - Frame 06 contains one adult and one partly obscured entrance, with no egg, young, pouch, milk anatomy or cutaway.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-eucalyptus-woodland-portrait.webp` SHA-256: `bc6da35b8d9cfc57d64afdf12a349552c375758e9e2b46bcaeb471cced87c09a`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.69, "y": 0.62}`. Conservative full-subject boundary: `{"left": 636, "top": 216, "right": 1486, "bottom": 810}`, 850×594 source pixels (previously 558×460). Boundary center is 69.1% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes tubular snout, every visible outer spine and fur tip, front digging feet and backward-oriented hindfeet with claws. Short tail naturally remains under the rear spine fringe; limb roots overlap body fur. Two edits corrected placement/background and hindfoot orientation. Real soil and woodland surround the silhouette; left 40% contains softly defocused low-contrast background. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 414.1×341.4 → 251.9×176.0 | 34.07 | 48.00 | 40.00 | Pass |
+| 390×760 | 414.1×341.4 → 251.9×176.0 | 69.07 | 48.00 | 40.00 | Pass |
+| 1366×768 | 496.2×409.1 → 559.7×391.1 | 72.00 | 51.32 | 66.44 | Pass |
+| 1920×900 | 697.5×575.0 → 801.3×560.0 | 84.13 | 74.53 | 48.00 | Pass |
+| 2560×900 | 930.0×766.7 → 801.3×560.0 | 96.00 | 240.93 | 48.00 | Pass |
+| 3840×900 | 1395.0×1150.0 → 801.3×560.0 | 96.00 | 573.73 | 48.00 | Pass |
+
+`npm run test:carousel`: all 126 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

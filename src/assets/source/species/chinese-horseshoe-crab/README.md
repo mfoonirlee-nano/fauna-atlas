@@ -150,3 +150,26 @@ Avoid: red blood cells, red liquid, fluorescent electric blue, glowing magic flu
 - Frame 05 contains one complete juvenile in a broad shallow-water mudflat scene.
 - Frame 06 contains two unbranded vials and one microscopy field. It shows no animal, needle, wound, extraction or readable label.
 - No frame contains readable text, a logo or a watermark.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-shallow-seabed-adult-portrait.webp` SHA-256: `bd6f8348ecb565eb417a561b0905746caafe08e037756c747d2248ddcf6f270c`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.63, "y": 0.53}`. Conservative full-subject boundary: `{"left": 748, "top": 164, "right": 1448, "bottom": 850}`, 700×686 source pixels (previously 944×562). Boundary center is 71.5% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the dorsal shell, all visible marginal spines and complete pointed telson. Ventral legs are naturally concealed under the shell in this dorsal view. Real sand margins surround the outline; left 40% contains defocused seabed. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 700.6×417.1 → 179.6×176.0 | 70.20 | 48.00 | 40.00 | Pass |
+| 390×760 | 700.6×417.1 → 179.6×176.0 | 105.20 | 48.00 | 40.00 | Pass |
+| 1366×768 | 839.5×499.8 → 436.7×428.0 | 96.00 | 112.79 | 48.00 | Pass |
+| 1920×900 | 1180.0×702.5 → 571.4×560.0 | 96.00 | 189.49 | 48.00 | Pass |
+| 2560×900 | 1573.3×936.7 → 571.4×560.0 | 96.00 | 355.89 | 48.00 | Pass |
+| 3840×900 | 2360.0×1405.0 → 571.4×560.0 | 96.00 | 688.69 | 48.00 | Pass |
+
+`npm run test:carousel`: all 138 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

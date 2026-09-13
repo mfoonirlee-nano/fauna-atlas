@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult male African lion with natural tawny coat and full mane, standing in three-quarter view facing left on open short bare sandy savanna. Entire animal prominent on RIGHT: complete muzzle whiskers, ears, mane, torso, FOUR anatomically distinct legs with visible paws, entire long tail curving back to the right with full dark tuft. Compose compact three-quarter depth pose so silhouette fits x=680..1450 y=140..900. Large animal, not distant. Real background margin around all fur, paws and tail. Left40% quiet softly defocused pale warm grassland and muted morning sky, no sharp shrubs or vegetation. Paws on unobstructed earth. Soft natural morning light, detailed realistic fur, credible anatomy, no extra limbs, no second lion, no text, borders or watermark.",
+  "generatedImage": "exec-8c084b7e-b487-4a57-aaa1-5d305ab4f244.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 658,
+      "top": 20,
+      "right": 1516,
+      "bottom": 936
+    },
+    "sha256": "c86e1a2190da22a4b71872f4933cbfffe2a71c7deddaf7afa7aa3b98de757256"
+  },
+  "sourceSha256": "7b0149eac902f7568c1fdf646858b7e82ad47a8c4d272cc3f5b15ecebf930cf1",
+  "supersededCover": {
+    "sha256": "e92548950df5276b2b43b05dea7788cf0c6c337a7c4e2104a839a96186cc55b2",
+    "bounds": {
+      "left": 542,
+      "top": 270,
+      "right": 1512,
+      "bottom": 846
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete mane fringe, ears, muzzle whiskers, four distinct legs and paws, and full tail tuft. Narrow real top and right margins included. Left sky and distant savanna quiet; bare ground replaces sharp foreground shrubs."
+}

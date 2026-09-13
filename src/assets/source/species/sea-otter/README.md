@@ -144,3 +144,26 @@ Scientific evidence boundary: this image reconstructs a shore-based observation 
 Constraints: exactly two people, exactly one spotting scope, exactly one tripod, exactly one clipboard and one pencil; no visible sea otter or other animal; no binoculars, camera, drone, boat or second optical device; no readable text, map, coordinates, device screen, brand, logo, patch, signature, border or watermark.
 Avoid: wildlife close-up, researcher touching or feeding an animal, capture, tagging, collar, net, trap, tranquilizer, drone, kayak, motorboat, crowd, tourist pose, fashion campaign, bright branded clothing, military optics, rifle-like equipment, telescope pointed at the sky, missing tripod leg, fused hands, extra fingers, extra person, readable notes, flag, sign, landmark, CGI, illustration, painting, dramatic cinematic beam, oversaturation or stock-photo gloss.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-kelp-surface-portrait.webp` SHA-256: `70099db8f2993ab55554d794076235222c0788b154beebba300b90d3da428b4c`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.51}`. Conservative full-subject boundary: `{"left": 622, "top": 134, "right": 1398, "bottom": 920}`, 776×786 source pixels (previously 1320×460). Boundary center is 65.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the head, ears and whiskers, two separate forepaws, two broad webbed hind feet and complete furry tail. The underside is naturally submerged in this floating pose; the visible outline and appendages remain readable. Real water margins surround the silhouette; left 40% contains quiet teal water. The elevated diagonal view places the complete animal in the right field. Wet fur detail depicts an illustrative individual. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 979.7×341.4 → 173.8×176.0 | 73.12 | 48.00 | 40.00 | Pass |
+| 390×760 | 979.7×341.4 → 173.8×176.0 | 108.12 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1173.9×409.1 → 422.6×428.0 | 96.00 | 119.88 | 48.00 | Pass |
+| 1920×900 | 1650.0×575.0 → 552.9×560.0 | 96.00 | 198.76 | 48.00 | Pass |
+| 2560×900 | 2200.0×766.7 → 552.9×560.0 | 96.00 | 365.16 | 48.00 | Pass |
+| 3840×900 | 3300.0×1150.0 → 552.9×560.0 | 96.00 | 697.96 | 48.00 | Pass |
+
+`npm run test:carousel`: all 113 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

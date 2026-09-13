@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One adult common hippopotamus Hippopotamus amphibius standing calmly left-facing side three-quarter view on bare sandy African riverbank. Prominent WHOLE animal on RIGHT: broad barrel gray-pink body massive closed muzzle small rounded ears eyes atop head, four short coherent legs with distinct feet on sand and entire short tail visible behind rump. Full silhouette including muzzle ears toe tips tail within x=710..1440 y=240..810, real background margins around all extremities. Natural accurate proportions soft dawn daylight realistic skin texture editorial wildlife photograph. Left40% quiet defocused river and bank for copy. No water or grass hiding feet, no other animals text logos borders collage cropped parts or open mouth.",
+  "editPrompt": "Adjust composition only. Preserve this hippopotamus anatomy pose identity lighting and 1536x1024 canvas. Scale whole animal to85% current linear size and shift right until leftmost muzzle hairs x=720 and tail rightmost no further than x=1490. Keep all four feet, ears, muzzle hairs and entire short tail intact with natural background margin. Reconstruct riverbank background in previous position. Left40% quiet river no animal parts. No extra animals text or other changes.",
+  "rejectedCandidate": "Initial muzzle intruded into left copy field.",
+  "generatedFile": "exec-5c9f1ce1-85fa-4baa-aca6-ad25728243a3.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 733,
+      "top": 305,
+      "right": 1490,
+      "bottom": 778
+    },
+    "sha256": "c3ddf31ff00e5b724febbef498c89dc7b8dc46aadf4db23c66b0a98605184da4"
+  },
+  "sourceSha256": "2cfa0edb1502e3e45fd50ffec9c3b90e2a86310124b09f6e4ea026823f21b948",
+  "supersededCover": {
+    "sha256": "56e93675c7dc76de596f9820289aac31f1c71fe2d81606438eb7670b3a6c78a7",
+    "bounds": {
+      "left": 1140,
+      "top": 372,
+      "right": 1294,
+      "bottom": 440
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete muzzle hairs, both ears, four feet and entire short tail retained. Initial muzzle intruded left field; accepted edit shifts full animal right. Natural limb-root overlap, clear feet on sand, quiet left river and real source-edge clearance."
+}

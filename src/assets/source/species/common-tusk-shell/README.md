@@ -203,3 +203,26 @@ The repository script invokes `cwebp -q 82 -m 6 -mt`. It reported 5485.2KB befor
 - Original-resolution inspection confirmed the accepted burial depth in frame 01, both shell openings in frame 02, the pointed foot and separate captacula in frame 03, contact-only feeding context in frame 04, the gillless lateral cutaway in frame 05 and the corrected lightly curved shell in frame 06.
 - Source and runtime inspection found no visible text, labels, arrows, scale bars, logos, signatures, borders or watermarks, and no material crop or conversion defect.
 - Verification used static file inspection and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-in-situ-buried-adult-portrait.webp` SHA-256: `4418ba164f2ca9b36755917d102792f4137a4762d0d2dd321244296eebe0f3e2`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.7, "y": 0.56}`. Conservative full-subject boundary: `{"left": 802, "top": 124, "right": 1456, "bottom": 850}`, 654×726 source pixels (previously 166×182). Boundary center is 73.5% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the entire gently curved shell and both aperture rims. An edit opened the initially sealed narrow posterior tip and softened the left background. Soft tissues are retracted and unseen; this controlled exposed-shell presentation does not depict the usual buried posture or establish a live specimen. The canonical filename is retained for compatibility and no longer describes the scene. The complete shell rests above the sediment with real margins around its outline. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 123.2×135.1 → 158.5×176.0 | 80.73 | 48.00 | 40.00 | Pass |
+| 390×760 | 123.2×135.1 → 158.5×176.0 | 115.73 | 48.00 | 40.00 | Pass |
+| 1366×768 | 147.6×161.9 → 385.6×428.0 | 96.00 | 138.38 | 48.00 | Pass |
+| 1920×900 | 207.5×227.5 → 504.5×560.0 | 96.00 | 222.97 | 48.00 | Pass |
+| 2560×900 | 276.7×303.3 → 504.5×560.0 | 96.00 | 389.37 | 48.00 | Pass |
+| 3840×900 | 415.0×455.0 → 504.5×560.0 | 96.00 | 722.17 | 48.00 | Pass |
+
+`npm run test:carousel`: all 154 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

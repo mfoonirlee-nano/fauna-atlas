@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "prompt": "Generate a photorealistic wildlife editorial photograph of one adult peregrine falcon standing on a bare coastal cliff rock, landscape1536x1024. Full body three-quarter side view facing left. Accurate slate-gray folded wings, dark helmet and broad mustache, pale barred breast, yellow eye ring and cere, hooked bill, two distinct yellow feet and dark curved talons gripping rock. Entire crown, bill, folded wing tips and full long tail clearly inside frame. Tail angles down to right with terminal feathers silhouetted against distant softly blurred coast, not hidden behind rock. STRICT full bird bounds x680..1460,y120..880, maximize prominence within these bounds. Leave real background margin around all feather tips, especially right tail tip. Left40% smooth subdued blue-gray distant sea and sky, no sharp rocks or busy objects. Soft overcast daylight, precise realistic plumage, no extra limbs, no equipment, no text, no border, no collage.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-2e929d0b-af62-415c-95e1-624e2fdfe476.png",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 618,
+      "top": 78,
+      "right": 1338,
+      "bottom": 898
+    },
+    "sha256": "595a563116737a92341a8e442450aaeb6174df2dac22246020df612d31e1268b"
+  },
+  "sourceSha256": "0f429e8305d89dbe13ea7adef86b2d7863d5159a461804e4aaa3d1d080afa018",
+  "supersededCover": {
+    "sha256": "8803b9cdddd21c5218d3e967300a099dd04a9016b8bef0440f3b814ce4c3c8f6",
+    "bounds": {
+      "left": 820,
+      "top": 102,
+      "right": 1536,
+      "bottom": 966
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full bill, crown, folded wing tips, complete tail and both feet with visible talons. Rear gripping toes naturally overlap rock/feet. No edge clipping; quiet left40%.",
+  "status": "source composition and single-cover hero accepted"
+}

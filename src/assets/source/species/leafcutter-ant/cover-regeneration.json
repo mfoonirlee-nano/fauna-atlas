@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover, landscape 1536x1024. One reddish brown Atta cephalotes leafcutter ant worker walking leftward along a thin horizontal rainforest twig, carrying one small green leaf fragment in its mandibles above its back. Editorial macro wildlife photograph, anatomically coherent six legs attached to thorax, two elbowed antennae, spined thorax, narrow waist and rounded abdomen. All visible leg tips, antenna tips, abdomen and carried leaf fully within x=700..1420 y=140..870, real soft rainforest background around their entire outer silhouette. Show animal prominently on right half, combined silhouette center around72% source width. Left40% quiet defocused rainforest, no other ants, no foreground leaves hiding limbs. Natural soft green light, realistic detail, no text or watermark.",
+  "generatedFile": "exec-c512a4ec-54c1-4ce3-8dfd-caca0a3e0144.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 605,
+      "top": 95,
+      "right": 1450,
+      "bottom": 795
+    },
+    "sha256": "679ef5016380f6103bcf7c1ddd2be2d818fd30a7d75eb75ffdb86f208f7ce2a5"
+  },
+  "sourceSha256": "7a1909cd35b5b27d38b96db82150e453b85164c2678e3647a8930d4fd3ac76e9",
+  "supersededCover": {
+    "sha256": "221091bed60101441ae2835025e9c0e13502f0ae99e97f368811d58d41313357",
+    "bounds": {
+      "left": 1112,
+      "top": 350,
+      "right": 1247,
+      "bottom": 459
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full woodpecker bill, visible claws and tail; ant antennae, visible leg tips and carried leaf; guinea pig whiskers, ears, fur tips and visible toes. Natural overlap of far-side feet is retained. Quiet left habitat and background clearance around the complete outer silhouette."
+}

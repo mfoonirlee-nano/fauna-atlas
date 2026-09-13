@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One adult red-crowned crane Grus japonensis, full body standing three-quarter side view looking left on an exposed bare damp mud bank in East Asian marsh. Accurate white body, black neck and trailing black secondary feathers, white face stripe and red bare crown, long straight grey bill, long dark legs and both feet with visible long toes on mud. Entire bird prominent on RIGHT, full bill, crown, folded wing tips, tail feathers and toes within x=700..1430 y=90..930. Nearly 820px tall, never distant small bird. Real background margins around all extremities. Left40% quiet softly defocused pale marsh water and muted distant reeds, no crisp stems or other birds. Gentle overcast daylight, detailed natural feathers, credible anatomy and proportions, no text border watermark.",
+  "generatedImage": "exec-9b53d730-06f6-4280-ac5c-347bad0563f5.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 706,
+      "top": 44,
+      "right": 1370,
+      "bottom": 950
+    },
+    "sha256": "0eff45b0d7533a8d56c413f083f14291e85eceaae47415a0ec4d60c38ee0aa88"
+  },
+  "sourceSha256": "ecde35f20f0ed083cba85ff73704002886f152dd79f146f0f148f75346344bc4",
+  "supersededCover": {
+    "sha256": "21e458d0fbd383df212e4e2bffe1cbbccdbb849a67f199103af93cade7fd470e",
+    "bounds": {
+      "left": 904,
+      "top": 356,
+      "right": 1260,
+      "bottom": 902
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full bill, red crown, folded wings and trailing feather tips, both legs and exposed toes. Far-side wing naturally overlaps body. Real source margins and quiet left wetland."
+}

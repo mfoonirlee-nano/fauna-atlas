@@ -129,3 +129,26 @@ Avoid: dozens of hatchlings, hands near turtles, red floodlighting, artificial g
 - Source and runtime basenames form six one-to-one pairs.
 - Re-encoding every source with `cwebp -q 82 -m 6 -mt` reproduces the runtime WebP byte for byte.
 - Visual inspection checks subject counts; adult, juvenile and hatchling anatomy; shell colour and scutes; beak and head proportions; cover negative space; closed nest presentation; dark-beach orientation; observer distance; and the absence of text, watermarks and identifiable nesting locations.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-seagrass-meadow-grazing.webp` SHA-256: `015f675cc53a51cc060952017fbdb475e8a5222d2e022fd95de2bdf8af07a97d`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.58}`. Conservative full-subject boundary: `{"left": 630, "top": 178, "right": 1482, "bottom": 790}`, 852×612 source pixels (previously 830×472). Boundary center is 68.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the head, shell, visible flipper tips and small posterior projection. Far rear appendages naturally overlap the shell in this swimming pose; scute counts and concealed tail anatomy are not established by the reconstruction. One edit moved the head right. Water surrounds the visible silhouette, with subdued seagrass far below. The legacy grazing filename is retained for canonical routing; the new scene shows swimming. The source box is 852 by 612 pixels, compared with the previous 830 by 472 box. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 616.0×350.3 → 245.0×176.0 | 37.49 | 48.00 | 40.00 | Pass |
+| 390×760 | 616.0×350.3 → 245.0×176.0 | 72.49 | 48.00 | 40.00 | Pass |
+| 1366×768 | 738.1×419.8 → 559.7×402.0 | 72.00 | 51.32 | 60.99 | Pass |
+| 1920×900 | 1037.5×590.0 → 779.6×560.0 | 95.00 | 85.40 | 48.00 | Pass |
+| 2560×900 | 1383.3×786.7 → 779.6×560.0 | 96.00 | 251.80 | 48.00 | Pass |
+| 3840×900 | 2075.0×1180.0 → 779.6×560.0 | 96.00 | 584.60 | 48.00 | Pass |
+
+`npm run test:carousel`: all 175 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

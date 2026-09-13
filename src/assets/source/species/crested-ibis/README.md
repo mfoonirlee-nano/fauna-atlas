@@ -180,3 +180,26 @@ Constraints: exact 1536 × 1024 horizontal image; exactly one bird, one closed b
 - Original-resolution inspection confirmed the accepted observations in the asset table. Frames 04 and 06 use the targeted closed-bill corrections described above; rejected base outputs remain outside the project asset tree.
 - Runtime inspection after conversion found no new cropping, visible text, logos, watermarks, borders, extra animals, malformed species substitutions or material compression defects.
 - Verification used static file inspection and the built-in image viewer only. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-rice-paddy-flight.webp` SHA-256: `515b45ec92728a3e1442dd32693a98bf410eebc58cbbca7c403ecffec7ba4589`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.48}`. Conservative full-subject boundary: `{"left": 648, "top": 80, "right": 1462, "bottom": 774}`, 814×694 source pixels (previously 738×500). Boundary center is 68.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes curved bill, fine crest wisps, both visible wing outlines, tail and trailing toes. Far wing root and paired legs naturally overlap in this flight view. One edit moved the bill tip clear of the left field and increased upper feather margin. Real paddy background surrounds all extremities; left 40% contains softly defocused water and vegetation. Feather coloration depicts an illustrative individual. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 547.7×371.1 → 206.4×176.0 | 56.78 | 48.00 | 40.00 | Pass |
+| 390×760 | 547.7×371.1 → 206.4×176.0 | 91.78 | 48.00 | 40.00 | Pass |
+| 1366×768 | 656.3×444.7 → 502.0×428.0 | 96.00 | 80.16 | 48.00 | Pass |
+| 1920×900 | 922.5×625.0 → 656.8×560.0 | 96.00 | 146.79 | 48.00 | Pass |
+| 2560×900 | 1230.0×833.3 → 656.8×560.0 | 96.00 | 313.19 | 48.00 | Pass |
+| 3840×900 | 1845.0×1250.0 → 656.8×560.0 | 96.00 | 645.99 | 48.00 | Pass |
+
+`npm run test:carousel`: all 116 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

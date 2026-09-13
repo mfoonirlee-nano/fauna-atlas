@@ -109,3 +109,23 @@ Female has no red throat; show exactly two coherent shoulder-attached wing arcs,
 - Source and runtime basenames form six one-to-one pairs.
 - Re-encoding every source with `cwebp -q 82 -m 6 -mt` reproduces the runtime WebP byte for byte.
 - Visual inspection checks bird, chick, insect and observer counts; male and female plumage; bill, tail, foot and wing anatomy; cover negative space; nest support; migration wording; and low-disturbance observation.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-iridescent-gorget-woodland-edge.webp` SHA-256: `2cfe100c26c77d7d924ee3900620aa20925a5f98cd44819d6215ce048e0c701f`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.72, "y": 0.48}`. Full-subject boundary: `{"left": 652, "top": 224, "right": 1408, "bottom": 898}`, 756×674 source pixels, unchanged. Boundary center: 67.1% of source width.
+
+Original-resolution composition inspection: Complete bill, folded wings, tail feather tips and visible gripping toes; branch is supporting environment, not subject boundary. Quiet blurred green left field.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 561.1×500.2 → 197.4×176.0 | 61.29 | 48.00 | 40.00 | Pass |
+| 390×760 | 561.1×500.2 → 197.4×176.0 | 96.29 | 48.00 | 40.00 | Pass |
+| 1366×768 | 672.3×599.4 → 480.1×428.0 | 96.00 | 91.12 | 48.00 | Pass |
+| 1920×900 | 945.0×842.5 → 628.1×560.0 | 96.00 | 161.13 | 48.00 | Pass |
+| 2560×900 | 1260.0×1123.3 → 628.1×560.0 | 96.00 | 327.53 | 48.00 | Pass |
+| 3840×900 | 1890.0×1685.0 → 628.1×560.0 | 96.00 | 660.33 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific specimen photograph exact1536x1024 landscape. ONE entire green shore crab Carcinus maenas hosting Sacculina carcini, carefully posed ventral side toward camera on wet neutral dark gray specimen surface, external anatomy observation, not natural walking posture. Prominent complete host and parasite on RIGHT inside x=700..1450 y=230..800. Entire crab including both claws and four pairs of walking legs, naturally bent compactly with all tips visible and no detached limbs. Olive-brown and cream jointed exoskeleton. Abdominal flap gently lifted to reveal ONE smooth yellow-ochre oval slightly flattened Sacculina externa attached beneath abdomen, small relative to crab width, no grape cluster or eggs, no exposed internal roots, no blood or cutaway. Parasite sac clearly legible as subject of scientific image. Near-frontal ventral slightly oblique view, natural soft light and real surface margin around all host tips. Left40% quiet defocused gray surface. No hands, tools, labels, text, watermark, scale bar, collage or border.",
+  "editPrompt": "Correct this scientific ventral crab specimen image. Show complete green shore crab host with TWO claws and FOUR PAIRS of walking legs (eight walking legs total), compactly bent but separately traceable, no missing legs. Preserve single small yellow ochre Sacculina sac under gently lifted abdomen, smooth slightly flattened oval rather than spherical ball. Recompose entire host farther RIGHT slightly smaller so every claw, antenna and walking leg tip fits x=690..1460 y=190..850 on exact1536x1024. Left40% quiet defocused gray specimen surface. Real margin around entire host. Natural olive and cream shell, no text or extra animal, no seams.",
+  "finalEditPrompt": "Anatomical correction: this crab currently shows only THREE walking legs per side. Add the missing FOURTH rear walking leg on EACH side: from the existing small rearmost basal joint beside abdomen, extend a slim complete articulated leg down and outward, with a pointed terminal dactyl. Make each added leg distinct below existing three legs. Final animal has eight walking legs plus two claws. Preserve one yellow Sacculina sac, lifted abdomen and ventral view. Shift overall group slightly right and reduce if necessary so all ten appendage tips and antennae stay x=650..1480 y=170..920, left40% empty gray surface. Exact1536x1024. No extra limbs beyond eight walking legs and two claws.",
+  "rejectedCandidates": [
+    "exec-25d5ef21-3589-42ab-9558-a241e1157727.png: missing walking legs and left intrusion",
+    "exec-7419a369-0573-4196-b535-35369fc96d97.png: only three clearly visible walking legs per side"
+  ],
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-bfce4242-8857-431b-8927-c34f307b8913.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 654,
+      "top": 194,
+      "right": 1506,
+      "bottom": 790
+    },
+    "sha256": "47f51ef39ac6e018cbbb45c3a688b1b66615fdcbd26aca1e28fa6e4a09afc3de"
+  },
+  "sourceSha256": "909c31be880e865fc9f844687097e322c61113e1cd2608272fab770588b86546",
+  "supersededCover": {
+    "sha256": "a5abff44770cc6f7e8c614a9a6ecccf48797e2bea3e3dd668f5ed6d2337a85d4",
+    "bounds": {
+      "left": 1090,
+      "top": 335,
+      "right": 1300,
+      "bottom": 444
+    }
+  },
+  "inspection": "Original-resolution source and WebP inspected. Complete host with two claws, four walking legs per side, antennae and single externa included. Missing rear legs corrected in final edit. Posed ventral specimen display, not walking behavior. Fine parasite attachment and abdominal proportions illustrative."
+}

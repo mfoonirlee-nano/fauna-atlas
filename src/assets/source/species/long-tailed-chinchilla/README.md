@@ -57,3 +57,47 @@
 ## 仓库验证
 
 已通过类型检查、`npm test` 全部 221 项测试及其包含的生产构建与子路径资源验证。封面回归覆盖上述全部视口与动画端点，运行图均已静态检查。已移除本批临时 PNG，只保留运行 WebP、提示词和哈希记录。
+
+## 2026-09-12 regenerated cover
+
+Replaced `01-cover.webp` using built-in image_gen, then converted with `npm run convert:webp -- src/assets/source/species/long-tailed-chinchilla/01-cover-source.png` (cwebp q82/m6). The five gallery images remain unchanged. The first generated candidate had insufficient tail clearance and was rejected; the second includes the entire tail with background to its right. Final generation and edit prompts, source hash and limitations are in [cover-regeneration.json](./cover-regeneration.json).
+
+Inspected the generated PNG and decoded runtime WebP at original resolution, 1536×1024. Conservative full-subject boundary: `[625, 275, 1455, 770]`, including whiskers, ear tips, forepaws, hindfeet and outer tail hairs. Center: 67.7% of source width. Left 40% contains habitat, with the whiskers beginning to its right. Source full-subject size increased from the previously reviewed 180×113px to 830×495px. The old bounds are historical evidence from the superseded test case, not a new original-resolution measurement.
+
+Runtime SHA-256: `84f3010fdd40d6e23038546238670fc1ab73871ac5275b7774b12a982555b4d8`. Committed focalPoint: `{"x": 0.84, "y": 0.34}`. Full-body source composition passes this inspection; hero acceptance **fails**. Existing source-image acceptance above is superseded by this section. Keep the temporary source PNG until hero acceptance finishes.
+
+The following calculations use current object-fit cover, committed focalPoint and CSS animation endpoints. Sizes are projected full-subject sizes before viewport clipping; they are not claims that the whole animal is visible. Clearance is the minimum signed distance to the four viewport edges in CSS pixels. A negative value means clipping. Every endpoint requires at least 24px. Copy and carousel-panel clearance still requires review after fixing the viewport failures. No browser was launched.
+
+| Viewport | Old → new subject size (CSS px, settled) | Settled | Initial | Forward enter | Forward leave | Backward enter | Backward leave |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 320×760 | 133.6×83.9 → 616.0×367.4 | Fail -224.93 | Fail -240.33 | Fail -218.56 | Fail -243.51 | Fail -250.56 | Fail -217.91 |
+| 390×760 | 133.6×83.9 → 616.0×367.4 | Fail -166.13 | Fail -180.58 | Fail -155.66 | Fail -187.15 | Fail -194.66 | Fail -155.95 |
+| 1366×768 | 160.1×100.5 → 738.1×440.2 | Pass 72.04 | Pass 47.60 | Fail -11.54 | Pass 117.51 | Pass 125.06 | Fail 8.23 |
+| 1920×900 | 225.0×141.2 → 1037.5×618.8 | Pass 66.70 | Pass 51.37 | Fail -16.22 | Pass 60.95 | Pass 57.12 | Fail 11.57 |
+| 2560×900 | 300.0×188.3 → 1383.3×825.0 | Fail -109.07 | Fail -131.43 | Fail -123.04 | Fail -117.45 | Fail -123.04 | Fail -117.45 |
+| 3840×900 | 450.0×282.5 → 2075.0×1237.5 | Fail -460.60 | Fail -497.02 | Fail -483.36 | Fail -474.26 | Fail -483.36 | Fail -474.26 |
+
+Validation: `npm run typecheck` passed. `npm run test:carousel` reported 7 passing checks and 10 failing full-subject cases (the ten regenerated covers). The canonical-cover/hash/six-image check passed. These failures are outstanding task work, not accepted exceptions.
+
+## 2026-09-12 single-cover framing verification
+
+This section supersedes earlier carousel failure tables after the subject-frame layout change. Runtime hash: `84f3010fdd40d6e23038546238670fc1ab73871ac5275b7774b12a982555b4d8`. Source/runtime dimensions: 1536×1024. Current visually reviewed full boundary: `{"left": 625, "top": 275, "right": 1455, "bottom": 770}` (830×495 source pixels). Committed focalPoint: `{"x": 0.84, "y": 0.34}`. Includes the visible muzzle/bill, ears or antlers, feet/flippers/claws and complete tail where present; no head-only proxy.
+
+Re-inspected the runtime WebP at original resolution. Earlier source inspection and generation prompts remain in the regeneration record; no historical PNG was recreated. Quokka whisker and California sea-lion flipper boundaries were expanded during this pass. The source center is 67.7% of the source width. Source composition passes visual inspection: the full subject is prominent on the right with background around its visible extremities and a quiet left copy area.
+
+The carousel loads the same canonical WebP as the species profile. For reviewed covers it fits the complete measured silhouette to a dedicated region, using CSS container units and 24px inner clearance. It centers the reviewed silhouette; the committed focalPoint remains for ordinary cover/profile presentation but does not override full-subject fitting. The frame masks only background at its edges. No extra image variants or duplicate background animal are loaded. The framed layout remains active while either the entering or leaving slide needs it, including transitions to legacy covers.
+
+Static geometry overlays for all six required viewports were visually checked against the current runtime images. These are mathematical image composites with copy/panel rectangles, not browser screenshots or font rasterization. Desktop copy stays within the left half, compact controls occupy y=100..196; mobile controls occupy y=92..188 and copy starts at y=452. The footer is below the frame. The tests bind CSS frame dimensions and opacity-only keyframes, runtime boundaries and image hashes. Settled, initial, forward-enter, forward-leave, backward-enter and backward-leave share the geometry below because animation changes only opacity. Every listed value passes the 24 CSS pixel gate.
+
+| Viewport | Old source subject → current source subject | Old hero subject size → current hero subject size (CSS px) | Viewport minimum | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- | --- |
+| 320×760 | 180×113 → 830×495 | 133.6×83.9 → 272.0×162.2 | 24.00 | 54.89 | 46.89 | Pass |
+| 390×760 | 180×113 → 830×495 | 133.6×83.9 → 295.1×176.0 | 47.44 | 48.00 | 40.00 | Pass |
+| 1366×768 | 180×113 → 830×495 | 160.1×100.5 → 559.7×333.8 | 72.00 | 51.32 | 95.11 | Pass |
+| 1920×900 | 180×113 → 830×495 | 225.0×141.2 → 825.6×492.4 | 72.00 | 62.40 | 81.81 | Pass |
+| 2560×900 | 180×113 → 830×495 | 300.0×188.3 → 939.0×560.0 | 96.00 | 172.11 | 48.00 | Pass |
+| 3840×900 | 180×113 → 830×495 | 450.0×282.5 → 939.0×560.0 | 96.00 | 504.91 | 48.00 | Pass |
+
+Old sizes use historical reviewed bounds and the superseded full-viewport cover fit. New sizes use the current full-subject region. Historical source pixels are evidence, not regenerated input files. `npm run test:carousel` passes all 18 checks; production build/type checking passes. Each species still retains exactly six WebPs.
+
+After this acceptance, moved the temporary PNG out of the repository to `/private/tmp/long-tailed-chinchilla-accepted-source.png`. Only the canonical WebP and five gallery WebPs remain as retained images.

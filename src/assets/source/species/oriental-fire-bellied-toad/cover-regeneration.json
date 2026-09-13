@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One Oriental fire-bellied toad Bombina orientalis resting in low dorsal three-quarter view facing left on flat damp fine moss and bare mud at temperate East Asian forest pond bank. Green warty back with black spots, squat body, four limbs, four front digits and five hind digits, natural folded hindlegs and visible toe tips, no tail. Prominent complete animal on RIGHT with all toes and body silhouette within x=750..1430 y=280..820. Left40% quiet soft defocused pond and moss. Real background clearance around entire outline, no moss blades hiding feet. Natural diffuse daylight editorial macro wildlife photograph, coherent anatomy. No extra animals text watermark collage border or human objects.",
+  "generatedFile": "exec-619bd7d0-92bd-44c5-ac3d-a37a4230bb6f.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 205,
+      "right": 1430,
+      "bottom": 790
+    },
+    "sha256": "2ba253aafe8cea2b0fe2bd28f753cb33d9b3241de4feaef6247cd0016076b30c"
+  },
+  "sourceSha256": "df3a9029bcfc4c9b21d7f905d1bc05944e8a97c7e79d3a9021e33384206ea5f2",
+  "supersededCover": {
+    "sha256": "0b679936cd106e12f96a4f1b068f8ebf6e42db7af349102c076febe02ede6255",
+    "bounds": {
+      "left": 1151,
+      "top": 337,
+      "right": 1265,
+      "bottom": 412
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete head, back, folded hindlimb outline and all visible digit tips retained. Far-side hindfoot overlaps the body in this pose; no visible outer feature is cut. Quiet left pond habitat and real source-edge clearance."
+}

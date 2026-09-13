@@ -172,3 +172,26 @@ TinyPNG reported a 64.9% total size reduction for the initial six source PNGs. C
 | 04    | `693b47aedacaed0ab42eba3e50fc8d14b3f01b34dc69a7248ac9cd24931bbd6c` | `d328684451819370105bdae770ac92bb1341b7904ecee8cb259fe16dcb5e9f40` |
 | 05    | `b82883313bfe76484a240a119ac8d7c77b13584d0fe9968d70cbefe42e09c78a` | `4cf52fb46f91d0dd72321a0bfef4c704b3ced815955fa3696b17c44983028ece` |
 | 06    | `25283fcbc0ca5bc700e437d844e6ca04d972c041060a41ad267e1c7fe6cd64dc` | `e535631b229e82712116554295fdd2fe638e400de680cc022f5315de727fbd28` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-lowland-forest-trunk-portrait.webp` SHA-256: `17bcde511aec68e2c4899da884a6fe728b5c57ba40eb353a044f8eaf1ead480c`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.64, "y": 0.52}`. Conservative full-subject boundary: `{"left": 840, "top": 122, "right": 1226, "bottom": 906}`, 386×784 source pixels (previously 374×818). Boundary center is 67.3% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes both ears, head, furred membrane, enclosed tail edge and visible near-side gripping claws. Far limbs naturally overlap the body and trunk; exact digit counts are not established. One edit increased top and bottom margins. No leaf obscures the near-side grip, and left forest is defocused. The source box is 386 by 784 pixels, compared with the previous 374 by 818 box: similar source prominence, with unobstructed claws and complete margins. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 277.6×607.1 → 86.7×176.0 | 116.67 | 48.00 | 40.00 | Pass |
+| 390×760 | 277.6×607.1 → 86.7×176.0 | 151.67 | 48.00 | 40.00 | Pass |
+| 1366×768 | 332.6×727.5 → 210.7×428.0 | 96.00 | 225.80 | 48.00 | Pass |
+| 1920×900 | 467.5×1022.5 → 275.7×560.0 | 96.00 | 337.34 | 48.00 | Pass |
+| 2560×900 | 623.3×1363.3 → 275.7×560.0 | 96.00 | 503.74 | 48.00 | Pass |
+| 3840×900 | 935.0×2045.0 → 275.7×560.0 | 96.00 | 836.54 | 48.00 | Pass |
+
+`npm run test:carousel`: all 178 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

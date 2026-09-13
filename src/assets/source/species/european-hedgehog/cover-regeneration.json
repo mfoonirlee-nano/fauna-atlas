@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas canonical cover landscape1536x1024. One European hedgehog Erinaceus europaeus walking slowly leftwards in a natural low three-quarter side view on flat fine leaf litter at a European hedgerow. Brown cream dorsal spines, furry face with pointed muzzle and fine whiskers, small rounded ears, four short legs with visible toe tips. Prominent full animal on RIGHT, silhouette INCLUDING whiskers and all outer spine tips within x=740..1440 y=290..820; center72%width. Left40% softly defocused quiet woodland floor. Real background around entire outline. Low leaf litter must not hide paws. Natural diffuse morning light, editorial wildlife photograph, one animal only, no props text watermark collage or borders.",
+  "editPrompt": "Adjust only this hedgehog photograph composition. Keep exact species, coherent anatomy, walking pose, woodland lighting and1536x1024 landscape. Scale complete hedgehog and all whiskers/spines to80% current size and move right, full silhouette from x=720 to1440 with real background clearance. Keep all visible toe tips uncovered by leaf litter and retain natural ground contact. Left40% quiet defocused woodland with no animal parts. No extra animals, no text.",
+  "rejectedCandidate": "Initial candidate extended the muzzle or whiskers into the left copy area.",
+  "generatedFile": "exec-06dbb45e-4ed1-40d8-8e07-c76915dd17d9.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 740,
+      "top": 365,
+      "right": 1400,
+      "bottom": 820
+    },
+    "sha256": "11dc42acc7d069bd4686343781cb5564c6956b13770ccf283facf1595d522cb3"
+  },
+  "sourceSha256": "9856bc47383ee35c6fc164736d0ec19e8ebabb75c62b3d3fdc60021829ab4d93",
+  "supersededCover": {
+    "sha256": "12f8daa02fe1b36bd9e9fe51c9f65058989c4bd48651a777694b9ad280b40311",
+    "bounds": {
+      "left": 1066,
+      "top": 318,
+      "right": 1221,
+      "bottom": 425
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full capybara whiskers, ears and feet; hedgehog whiskers, outer spines and visible toes; penguin bill, both flippers, tail and webbed feet. Quiet left habitat and real source-edge clearance. Capybara and hedgehog initial candidates rejected for leftward muzzle/whisker intrusion."
+}

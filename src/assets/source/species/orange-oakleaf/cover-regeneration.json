@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One orange oakleaf butterfly Kallima inachus perched side-on on a thin twig, wings closed vertically showing brown dead-leaf camouflage with central vein stripe and short petiole-like hindwing tail, slender body and two clubbed antennae, visible fine legs gripping twig. Natural macro editorial wildlife photograph in subtropical Asian forest understory. Prominent complete butterfly on RIGHT, all pointed forewing tips hindwing tail antennae and visible feet within x=800..1390 y=160..850. Left40% quiet softly defocused muted forest, no competing leaf resembling second butterfly. Real background clearance around complete animal. Natural diffuse light, coherent anatomy, no text watermark borders collage or other animals.",
+  "generatedFile": "exec-051c9e8d-db6d-4ca6-9a72-c68c8a21de78.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 45,
+      "right": 1435,
+      "bottom": 835
+    },
+    "sha256": "81abe9790a6dfdb36e50b19e79625e576ab797071cd0f63b516cdb4a9d7f370c"
+  },
+  "sourceSha256": "76f29ce23c2f234f5258f313ab02df14ddb6c4feaa7830c24b67ea9ecc022ea6",
+  "supersededCover": {
+    "sha256": "aa7325ce319110d80ee24a88fa6ff6bf7b850b97987bb29321aeee7170ac5b92",
+    "bounds": {
+      "left": 1163,
+      "top": 347,
+      "right": 1264,
+      "bottom": 431
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete closed wing outline including pointed forewing and petiole-like hindwing tail, both clubbed antennae, body and visible feet. Far-side wings and legs overlap naturally. Quiet left forest and real background clearance around all outer features."
+}

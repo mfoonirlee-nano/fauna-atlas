@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One adult male common ostrich Struthio camelus, full body standing three-quarter side view looking left on bare sandy savanna. Accurate black body plumage with white wing and tail feathers, very long pale grey pink bare neck, small head and bill, two long powerful bare legs, each foot with exactly TWO toes (one large inner claw-bearing toe and one smaller outer toe), both feet clearly exposed on ground. Large prominent whole bird on RIGHT, complete head, neck, body feathers, tail and feet within x=710..1430 y=80..940. Tall bird nearly850px high, not distant. Real background margins around every feather and toe. Left40% softly defocused muted beige savanna and pale morning sky, no crisp shrubs, tree silhouettes or sharp ground litter. Soft natural daylight, credible anatomy, feather detail, no other animal, text border or watermark.",
+  "generatedImage": "exec-8cbcaaa1-6b8d-41c8-b625-518561ec81ee.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 750,
+      "top": 22,
+      "right": 1432,
+      "bottom": 976
+    },
+    "sha256": "a108960b6f351d6b26867813228286fc9977366db0ac28d866afcd45ef296f7d"
+  },
+  "sourceSha256": "645ba563b407631511a1a8b3da4999cb081c5a50f23c025b06b757aed5ed543d",
+  "supersededCover": {
+    "sha256": "e8d61fd6f42e146de4fc4acadcc8f5c48bb35d178577ac8f31c6f78358257c04",
+    "bounds": {
+      "left": 860,
+      "top": 254,
+      "right": 1228,
+      "bottom": 808
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full head down, bill, neck, wing and tail feather fringes, both legs and two-toed feet. Far-side small toe naturally overlaps in profile. Real margins and quiet defocused left savanna."
+}

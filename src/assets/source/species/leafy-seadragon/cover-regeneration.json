@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one1536x1024 landscape wildlife atlas cover. One leafy seadragon Phycodurus eques floating left-facing side view in temperate southern Australian sea. Prominent WHOLE animal on RIGHT: slender bony ringed yellow-olive fish long tubular snout arched neck, narrow long gently bent NON-GRASPING tail, elaborate branching leaflike skin appendages on head body tail, tiny transparent locomotor fins. Not a seahorse, no coiled grasping tail, no wings. Entire silhouette including ALL leaf tips snout fins and tail within x=740..1430 y=150..850 with real teal water margin around every branch. Natural proportions restrained teal ochre colors detailed editorial marine wildlife photograph soft underwater light. Left40% quiet teal water for copy, faint distant kelp below. No other animals text logos border collage or cropped appendages.",
+  "editPrompt": "Composition edit only. Preserve this leafy seadragon identity anatomy and1536x1024 canvas. Scale entire animal including ALL branching leaflike appendages, snout, tiny transparent fins and tail to82% current linear size, move right so leftmost snout x=730 and rightmost leaf no further than x=1480. Keep real water margins around all leaf tips. Reconstruct teal water in former position. Left40% quiet empty water. No added animals text or additional appendages.",
+  "rejectedCandidate": "Initial snout intruded into left copy field.",
+  "generatedFile": "exec-77492dd8-4cbc-4d47-88ed-b9d7e71f746b.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 734,
+      "top": 188,
+      "right": 1420,
+      "bottom": 830
+    },
+    "sha256": "6c5056c49f7fc5e04e43e3ba7624c8d366e62ab5c52724ce101e9bae0d67eeb7"
+  },
+  "sourceSha256": "edbca42fec61afad481fc8fa7f3169a8dbbc07426ce5948390dfab4f985db8ea",
+  "supersededCover": {
+    "sha256": "08cbece33dfc08ed562b1cfd8b3ccd0a20ac23c6b056826265e8120eda01badf",
+    "bounds": {
+      "left": 1142,
+      "top": 324,
+      "right": 1253,
+      "bottom": 397
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full tubular snout, all visible branching leaf tips, transparent fin edges and entire non-coiled tail retained. Leaf appendages naturally overlap in side view. Initial snout intruded left field; accepted edit shifts whole animal right. Quiet left teal water and real source-edge clearance."
+}

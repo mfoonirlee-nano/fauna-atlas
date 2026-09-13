@@ -164,3 +164,26 @@ Use case: precise-object-edit. Edit the provided Fauna Atlas Nile crocodile prot
 ```text
 Use case: precise-object-edit. Preserve the provided image pixel-close except for the crocodile and the water immediately around it. The current crocodile is still too close to the protected platform. Remove it completely and reconstruct calm water at its current location. Place exactly one much smaller, complete Nile crocodile far out in open water near x=0.82, y=0.56, swimming parallel to shore. Its full body length should occupy about 9 to 11 percent of the 1536-pixel canvas width, while the nearest edge of the protective barrier ends near x=0.50, leaving at least three crocodile body lengths of uninterrupted visible water between barrier and crocodile. Keep the crocodile anatomically coherent and recognizable with a broad sturdy V-shaped snout and one tapering tail, but appropriately subtle at distance. Preserve exact 1536x1024 framing, mountains, shoreline, platform, mesh, containers, lighting, colors, and exactly three adult people inside the barrier. Exactly one crocodile total. Add nothing else. No text, logo, sign, watermark, boat, animal, attack, bait, fish, blood, weapon, CGI, or illustration.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-river-sandbank-adult.webp` SHA-256: `5ea40f39dd28d91747023885e6038add5724186445c3c2d7b4dd73c37a3e627e`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.69, "y": 0.64}`. Conservative full-subject boundary: `{"left": 626, "top": 284, "right": 1500, "bottom": 852}`, 874×568 source pixels (previously 1444×202). Boundary center is 69.2% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the snout, dorsal scutes, visible toes and single complete curved tail. The far hindfoot is naturally concealed by the body. Real sand margins surround the outline, including the narrow right margin beyond the tail. Left 40% contains defocused river water with the sandbank edge in the lower foreground. The extra tail-like structure in the first candidate was removed before acceptance. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 1071.7×149.9 → 270.8×176.0 | 24.59 | 48.00 | 40.00 | Pass |
+| 390×760 | 1071.7×149.9 → 270.8×176.0 | 59.59 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1284.2×179.6 → 559.7×363.7 | 72.00 | 51.32 | 80.14 | Pass |
+| 1920×900 | 1805.0×252.5 → 825.6×536.5 | 72.00 | 62.40 | 59.73 | Pass |
+| 2560×900 | 2406.7×336.7 → 861.7×560.0 | 96.00 | 210.75 | 48.00 | Pass |
+| 3840×900 | 3610.0×505.0 → 861.7×560.0 | 96.00 | 543.55 | 48.00 | Pass |
+
+`npm run test:carousel`: all 151 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

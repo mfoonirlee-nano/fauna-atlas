@@ -162,3 +162,26 @@ Materials/textures: layered damp soil, roots, dry grasses and leaves in nest, wa
 Constraints: exactly one mole; nest chamber above the waterline; only the tunnel entrance is submerged; plausible continuous tunnel geometry; compact 22-ray nasal star; no transparent animal, no text, arrows, measurements, labels, logos, borders, or watermark
 Avoid: flooded nest, aquarium glass, ant-farm maze, giant cavern, multiple entrances presented as a universal plan, extra animals, exposed pipes, fantasy underground lighting, flower nose, octopus anatomy
 ~~~
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-wetland-edge-emergence.webp` SHA-256: `1586237f4e178ea77a8304692f8ae3b4a0ba7dae46766d7a7332863f896008bc`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.58, "y": 0.53}`. Conservative full-subject boundary: `{"left": 608, "top": 270, "right": 1480, "bottom": 786}`, 872×516 source pixels (previously 904×378). Boundary center is 68.0% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the nose-ray and whisker outline, fur, visible claws, hindfoot and complete tail. The far hindfoot is naturally concealed. Fine left whisker extends to39.6% of source width; the nose and body remain right of the copy field. Nose rays overlap and their exact count is not individually resolved in this view. Real soil margins surround the outline; left background is defocused green-brown wetland. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 670.9×280.5 → 272.0×161.0 | 24.00 | 55.52 | 47.52 | Pass |
+| 390×760 | 670.9×280.5 → 297.4×176.0 | 46.29 | 48.00 | 40.00 | Pass |
+| 1366×768 | 803.9×336.2 → 559.7×331.2 | 72.00 | 51.32 | 96.41 | Pass |
+| 1920×900 | 1130.0×472.5 → 825.6×488.5 | 72.00 | 62.40 | 83.73 | Pass |
+| 2560×900 | 1506.7×630.0 → 946.4×560.0 | 96.00 | 168.42 | 48.00 | Pass |
+| 3840×900 | 2260.0×945.0 → 946.4×560.0 | 96.00 | 501.22 | 48.00 | Pass |
+
+`npm run test:carousel`: all 153 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New 1536x1024 landscape Fauna Atlas cover. One Atlantic puffin Fratercula arctica standing on short grass atop a North Atlantic coastal cliff. Accurate black back and crown, white face and belly, broad triangular orange-red and gray bill, orange webbed feet. Full-body three-quarter view facing left, complete bill, head, folded wing, tail and both visible webbed feet with every toe tip unobscured. Natural-history editorial photography, soft coastal daylight. Entire bird prominent in RIGHT HALF, full silhouette within x=760..1370 y=160..860. Left 40% only quiet defocused sea and distant cliff, no bird parts. Genuine background beyond all extremities, not tiny or distant, no cropped feet. One animal only, no text, watermark, border, collage or human objects.",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 755,
+      "top": 100,
+      "right": 1395,
+      "bottom": 880
+    },
+    "sha256": "3152482111b3ac28f716d5bb5b949c4a98d007f581920ca5fef972446b1f731c"
+  },
+  "sourceSha256": "c53dbe49d0a0a32dc38c8effdbf1942ef4d7d7631b921554da610d0ba106f438",
+  "supersededCover": {
+    "sha256": "aba1f154adc1637968bb7d44eca1dcd4f15eb1139120aaf32ac98764d8d80dac",
+    "bounds": {
+      "left": 1132,
+      "top": 400,
+      "right": 1220,
+      "bottom": 478
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete puffin bill, webbed feet and tail; all five sea-star arm tips and outer spines; walrus whiskers, tusks and visible flippers. Quiet left habitat and real background clearance. Starfish left arm tip and walrus foreflipper tip reach about 39% source width, but do not materially occupy the left copy field."
+}

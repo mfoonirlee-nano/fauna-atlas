@@ -128,3 +128,23 @@ Avoid: orange leaves mistaken for butterflies, all wings open in cold roost, a s
 - Source and runtime basenames form six one-to-one pairs.
 - Runtime files were encoded with `cwebp -q 82 -m 6 -mt`.
 - Visual inspection checks adult wing count, antennae and sex marks; absence of a Viceroy hindwing band; larval banding and two filament pairs; naked-pupa attachment; natural migration spacing; closed-wing roosting; full framing; and the absence of text and watermarks.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-female-milkweed-portrait.webp` SHA-256: `3b068f46050c601a47720415e8ca725f3ce581644608d9a430d8eaccd83e2451`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.66, "y": 0.53}`. Full-subject boundary: `{"left": 622, "top": 210, "right": 1388, "bottom": 784}`, 766×574 source pixels, unchanged. Boundary center: 65.4% of source width.
+
+Original-resolution composition inspection: Complete four-wing outline, abdomen and both antenna tips with real meadow margins; gripping legs overlap flower. Left field has blurred meadow texture.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 568.5×426.0 → 234.9×176.0 | 42.56 | 48.00 | 40.00 | Pass |
+| 390×760 | 568.5×426.0 → 234.9×176.0 | 77.56 | 48.00 | 40.00 | Pass |
+| 1366×768 | 681.2×510.5 → 559.7×419.4 | 72.00 | 51.32 | 52.30 | Pass |
+| 1920×900 | 957.5×717.5 → 747.3×560.0 | 96.00 | 101.54 | 48.00 | Pass |
+| 2560×900 | 1276.7×956.7 → 747.3×560.0 | 96.00 | 267.94 | 48.00 | Pass |
+| 3840×900 | 1915.0×1435.0 → 747.3×560.0 | 96.00 | 600.74 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

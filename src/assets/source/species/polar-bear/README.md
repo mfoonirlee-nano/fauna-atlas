@@ -127,3 +127,23 @@ Avoid: baiting, food reward, wire snare, cage, collar, ear tag, dart, handling, 
 - Visual inspection confirmed the requested subject counts, cover safe area, Arctic settings, absence of text and watermarks, and absence of zoo or handling cues.
 - Frames 01–03, 05 and 06 were checked for coherent visible limbs and broad paws. Frame 04 intentionally hides most of the body below the natural waterline and is not used as an anatomical diagram.
 - The set contains no visible seal, blood, people, bait, capture equipment, exact location markers, penguins or Antarctic scenery.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-sea-ice-edge-portrait.webp` SHA-256: `f290c324accb56e4e72e7b8aaca1dee51d54d207f9e372e79a8937a3aa2cee9c`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.72, "y": 0.57}`. Full-subject boundary: `{"left": 716, "top": 438, "right": 1438, "bottom": 838}`, 722×400 source pixels, unchanged. Boundary center: 70.1% of source width.
+
+Original-resolution composition inspection: Complete muzzle, ears and four visible paws, with natural ground contact and far-side tail occlusion; quiet ice and sky to the left.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 535.9×296.9 → 272.0×150.7 | 24.00 | 60.65 | 52.65 | Pass |
+| 390×760 | 535.9×296.9 → 317.7×176.0 | 36.16 | 48.00 | 40.00 | Pass |
+| 1366×768 | 642.1×355.7 → 559.7×310.1 | 72.00 | 51.32 | 106.96 | Pass |
+| 1920×900 | 902.5×500.0 → 825.6×457.4 | 72.00 | 62.40 | 99.30 | Pass |
+| 2560×900 | 1203.3×666.7 → 1010.8×560.0 | 96.00 | 136.20 | 48.00 | Pass |
+| 3840×900 | 1805.0×1000.0 → 1010.8×560.0 | 96.00 | 469.00 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

@@ -147,3 +147,23 @@ Accepted edit prompt:
     Style/medium: Photorealistic underwater field-research photography with realistic low-intensity light-sheet optics and restrained museum-publication processing.
     Constraints: change only the emitted illumination shape; exactly one light sheet; no new object or animal; no cable, tether, frame, net, sampler, trap, arm, diver, ROV, display, text, number, map, coordinate, label, arrow, border, logo, signature, or watermark; opaque sRGB final image.
     Avoid: conical beam, flashlight, spotlight, volumetric cone, searchlight, solid light wall, sharp graphic rectangle, laser pair, grid, scan overlay, science-fiction glow, animal contact, capture, entanglement, duplicate camera, separate lamp, second animal, CGI, illustration.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-western-atlantic-estuary-cover.webp` SHA-256: `ba1a675e4bccd6b8e2066d759387f26b4170e1eb01f07d3bbcf29ade0baabd89`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.71, "y": 0.55}`. Full-subject boundary: `{"left": 688, "top": 132, "right": 1408, "bottom": 892}`, 720×760 source pixels, unchanged. Boundary center: 68.2% of source width.
+
+Original-resolution composition inspection: Complete transparent oral lobes, body and visible outer auricle edges have real water margins. Conservative bounds include faint translucent edges. Left40% quiet green water. Hero remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 534.4×564.1 → 166.7×176.0 | 76.63 | 48.00 | 40.00 | Pass |
+| 390×760 | 534.4×564.1 → 166.7×176.0 | 111.63 | 48.00 | 40.00 | Pass |
+| 1366×768 | 640.3×675.9 → 405.5×428.0 | 96.00 | 128.42 | 48.00 | Pass |
+| 1920×900 | 900.0×950.0 → 530.5×560.0 | 96.00 | 209.94 | 48.00 | Pass |
+| 2560×900 | 1200.0×1266.7 → 530.5×560.0 | 96.00 | 376.34 | 48.00 | Pass |
+| 3840×900 | 1800.0×1900.0 → 530.5×560.0 | 96.00 | 709.14 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

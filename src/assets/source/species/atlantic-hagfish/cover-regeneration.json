@@ -1,0 +1,30 @@
+{
+  "prompt": "Use case photorealistic-natural scientific reconstruction. Fauna Atlas canonical cover, opaque 1536x1024 landscape. Exactly one complete Atlantic hagfish Myxine glutinosa rests fully exposed on smooth fine gray muddy seafloor. Entire smooth scaleless pinkish slate body in a gentle open C curve wholly in right half, no crossings: blunt head near x=810,y=700, body curves upward and right around x=1340,y=290, then narrows to complete tail tip near x=1370,y=770. Anatomical features: one small terminal median nostril, six fine fleshy sensory barbels near nasal and oral regions with natural far-side overlap, closed mouth, eyes concealed under uninterrupted skin with no visible eyeball or iris. One subtle small near-side branchial aperture farther behind head; row of minute lower-flank slime pores, low continuous caudal finfold at tail, no paired fins or separate dorsal fin. Include every visible barbel and translucent tail margin in full silhouette within x=650..1470,y=160..870 with real background margins. Prominent broad animal curve uses the right field. The left 40 percent is quiet defocused dark blue-gray water merging into soft low-detail sediment. Natural restrained cool underwater illumination makes entire skin contour distinct against sediment. Sharp animal, subdued background. No slime discharge, prey, knots, burrowing, other animals, teeth, suction disc, scales, extra head or tail, plants, rocks, text, labels, border or watermark.",
+  "edits": [
+    "Correct this hagfish's posterior anatomy while preserving its single head at lower left, sensory barbels, smooth eyeless face, pink-gray skin and one continuous curved body. The current upper-left blunt termination is the TAIL, so replace the posterior third of the body starting at the upper-right arc with a gradually narrowing laterally compressed taper ending in a slender tail tip near x=965,y=350. Give only this tapering posterior tail a low continuous caudal finfold. Remove the erroneous isolated paddle-like fin currently protruding at lower right near x=1320,y=790, leaving smooth continuous skin there. Hagfish have no paired fins. Keep the head and anterior body unchanged. Soften left40% sediment to low-detail defocused blue-gray background. Entire animal stays in current right-field position with complete barbels and tail inside real margins. 1536x1024 opaque, no text or extra subjects."
+  ],
+  "generatedImage": "exec-3faaadb1-7f99-4f04-86a6-65f9aa81080e.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 656,
+      "top": 168,
+      "right": 1496,
+      "bottom": 850
+    },
+    "sha256": "66ab8150c5cd4919aa68a72d118a4dcded11210ecaf7ec341a51eab92232563a"
+  },
+  "sourceSha256": "672d95ba7eb84608b9d74af88628cf0640b19281f5ef5dbf307bc267452dda45",
+  "supersededCover": {
+    "sha256": "83bb4348aca14955681e2254e1997fa28f798f864c7cf67f95e723a6f9fe1ea6",
+    "bounds": {
+      "left": 532,
+      "top": 198,
+      "right": 1476,
+      "bottom": 780
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full outline includes all visible sensory barbels, continuous curved body and tapering caudal finfold. No visible eye or paired fin. Far-side barbel bases overlap naturally; this view does not establish a diagnostic count."
+}

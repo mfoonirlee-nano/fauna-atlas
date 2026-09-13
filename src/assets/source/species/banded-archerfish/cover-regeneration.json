@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One banded archerfish Toxotes jaculatrix swimming calmly left-facing side view entirely underwater in a mangrove creek. Prominent WHOLE fish on RIGHT. Laterally compressed silver body, pointed upturned mouth large eye, four or five broad black wedge-shaped dorsal bars, translucent fins, single posterior dorsal fin, complete forked tail. Natural proportions and coherent fin anatomy. Entire silhouette snout dorsal anal pectoral pelvic fin tips and both tail lobes inside x=730..1430 y=240..800 with real clear water margins. Left40% quiet muted jade water, distant blurred submerged roots on right, soft underwater sunlight detailed editorial wildlife photograph. No shooting water prey extra fish text logos borders collage or cropped fins.",
+  "editPrompt": "Composition edit only. Preserve this banded archerfish anatomy pose markings light and1536x1024 canvas. Scale whole fish including all translucent fins to82% current linear size and move right so leftmost mouth x=740 and rightmost tail x<=1470. Reconstruct jade water background in former position. Keep complete dorsal anal pectoral pelvic fins and both tail lobes with real water margin. Left40% quiet water no fish parts. No extra animals or text.",
+  "rejectedCandidate": "Initial mouth intruded into left copy field.",
+  "generatedFile": "exec-78ade67c-5151-4a8c-a568-cc977ed49e6f.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 675,
+      "top": 300,
+      "right": 1378,
+      "bottom": 616
+    },
+    "sha256": "530a50317e71925945c372fa48498a1a83ace7959a70d0860eb36cfa97f65d18"
+  },
+  "sourceSha256": "97c12c7023f412860fbe92d665bd5674adbf02084aa47d6293a5fbf4a616be64",
+  "supersededCover": {
+    "sha256": "5d5954eb1057b0c9aa59c1661f3291ee090b7765b1d8e7f55c754884cbc400ae",
+    "bounds": {
+      "left": 1183,
+      "top": 350,
+      "right": 1305,
+      "bottom": 402
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full mouth, dorsal anal pectoral and visible pelvic fin tips, and both tail lobes retained. Far-side fins naturally overlap body. Initial mouth intruded left field; accepted edit shifts full fish right. Quiet left jade water and real source-edge clearance."
+}

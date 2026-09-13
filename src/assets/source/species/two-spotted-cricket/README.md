@@ -49,3 +49,26 @@
 ## 验证结果
 
 `npm test` 的 206 项测试全部通过，包含分类归属、运行图片尺寸和哈希、封面裁切、交互逻辑及构建后子路径资源检查。TypeScript 检查与生产构建通过。Vite 提示主代码块超过 500 kB；本次未修改打包结构。
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cover.webp` SHA-256: `db7e5fbff3282b8f174bfbddbc034c05abd9da3c86536fa048ad3b30c2c41e88`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.81, "y": 0.23}`. Conservative full-subject boundary: `{"left": 635, "top": 80, "right": 1490, "bottom": 860}`, 855×780 source pixels (previously 113×108). Boundary center is 69.2% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes both long antennae, all visible leg tips including the folded hindlegs, wing edges and both cerci. Background remains between these features and source edges. The animal is prominent on the right; the left 40% remains quiet habitat. Conservative measurements include a few background pixels around thin antennae. Far-side legs overlap naturally. Antennae occupy substantial vertical space; the hero fit preserves their full length while maximizing the complete silhouette. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 83.9×80.2 → 192.9×176.0 | 63.54 | 48.00 | 40.00 | Pass |
+| 390×760 | 83.9×80.2 → 192.9×176.0 | 98.54 | 48.00 | 40.00 | Pass |
+| 1366×768 | 100.5×96.0 → 469.2×428.0 | 96.00 | 96.58 | 48.00 | Pass |
+| 1920×900 | 141.2×135.0 → 613.8×560.0 | 96.00 | 168.28 | 48.00 | Pass |
+| 2560×900 | 188.3×180.0 → 613.8×560.0 | 96.00 | 334.68 | 48.00 | Pass |
+| 3840×900 | 282.5×270.0 → 613.8×560.0 | 96.00 | 667.48 | 48.00 | Pass |
+
+`npm run test:carousel`: all 46 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

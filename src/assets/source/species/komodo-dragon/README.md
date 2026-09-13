@@ -116,3 +116,26 @@ Color palette: Clay brown, dry leaf umber, muted straw, restrained olive shade.
 Constraints: Exactly one Komodo dragon total; adult female beside one natural mound nest; all eggs fully buried and invisible; anatomically coherent Varanus komodoensis; no text, labels, arrows, logo, signature, border or watermark; no chicks, hatchlings, megapode bird, humans, tools, cameras, fences or other animals.
 Avoid: bird cup nest, exposed eggs, chicken eggs on the surface, transparent underground cross-section, dragon coiled around eggs, brooding like a bird, feeding or caring for hatchlings, multiple adults, giant fantasy dragon, crocodile scutes, dinosaur horns or spines, extra limbs, forked tail, zoo enclosure, CGI, illustration, painting, oversaturation or sentimental staging.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-dry-savanna-portrait.webp` SHA-256: `5a453f7808c1a8955ffedcbbc9682d86e1d886e95825e9b77ba81477f122546d`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.62}`. Conservative full-subject boundary: `{"left": 644, "top": 308, "right": 1500, "bottom": 778}`, 856×470 source pixels (previously 1262×208). Boundary center is 69.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the broad head, visible feet and claws, outer tail curve and complete tapering tail tip. The far-side hind leg is partly occluded by the body; its foot remains visible beneath the torso. Real savanna margins surround the silhouette. Left 40% contains subdued ground and distant hills. One draft placed claws too far left and the tail too close to the right edge; a built-in edit corrected both margins. Fine scale patterns are illustrative. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 936.6×154.4 → 272.0×149.3 | 24.00 | 61.33 | 53.33 | Pass |
+| 390×760 | 936.6×154.4 → 320.5×176.0 | 34.73 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1122.3×185.0 → 559.7×307.3 | 72.00 | 51.32 | 108.35 | Pass |
+| 1920×900 | 1577.5×260.0 → 825.6×453.3 | 72.00 | 62.40 | 101.35 | Pass |
+| 2560×900 | 2103.3×346.7 → 1019.9×560.0 | 96.00 | 131.64 | 48.00 | Pass |
+| 3840×900 | 3155.0×520.0 → 1019.9×560.0 | 96.00 | 464.44 | 48.00 | Pass |
+
+`npm run test:carousel`: all 101 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

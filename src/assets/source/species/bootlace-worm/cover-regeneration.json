@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original natural-history macro photograph exact1536x1024 landscape. ONE entire bootlace worm Lineus longissimus on wet pale-gray intertidal stone, prominent compact loose tangle entirely on RIGHT within x=680..1440 y=260..790. Extremely long thin smooth unsegmented blackish-brown ribbonlike cord, subtle purple iridescent wet sheen, many loose irregular natural loops with a few physically clear over-under crossings. ONE continuous body, no branching or disconnected sections. Body narrow like a bootlace, not thick snake or earthworm, no annulations, scales, legs or bristles. Both ends visible outside tangle: small slightly rectangular head with pale snout tip at lower-left of the group, narrow gradually tapering tail at lower-right. No large eyes or proboscis. Entire outside silhouette and both ends surrounded by real stone margin. Slightly elevated view with most coils in focus and no obstructing rocks; shallow clear film of water, diffuse overcast coastal light. Left40% quiet softly blurred wet gray stone, no other animals, text, watermark, border, collage or diagram.",
+  "editPrompt": "Keep this bootlace worm photograph but recompose the entire worm slightly smaller and rightward, with ALL coils and both end tips inside x=710..1450 y=170..850 on exact1536x1024 canvas. Left40% soft defocused quiet stone only. Preserve one continuous smooth unsegmented dark brown ribbon worm, pale rectangular head tip and narrow tail. Clarify overlapping strands with natural occlusion and shadows; no branching or fused junctions. Maintain thin bootlace proportions and irregular loose loops, not a thick snake. Real stone margin surrounding the entire worm. No text or extra animals.",
+  "finalEditPrompt": "Remove the artificial straight vertical seam in the stone background at x approximately727, extending from top through bottom. Seamlessly regenerate that background as continuous natural wet stone with gradual depth of field, no straight boundaries or mask lines. Preserve the existing entire worm exactly, including pale head tip near x750 and tail at right, all coils and their location. Exact1536x1024. No new objects, text or border.",
+  "rejectedCandidates": [
+    "exec-b79647ee-9a58-40b1-b3e4-96d00bcd789b.png: head intrusion",
+    "exec-45f95473-75d5-49af-905c-fbec7dc2df93.png: vertical background seam"
+  ],
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-099c4eb6-051a-4568-8583-8927ea15c076.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 738,
+      "top": 150,
+      "right": 1472,
+      "bottom": 866
+    },
+    "sha256": "87caa67cb41576ac1f313fd5245825dedbb0024b9ff8984bd1124f4254081771"
+  },
+  "sourceSha256": "25aeabfdc3c8b6ceeebef92db452bfc387848b894acf0165f84912a0529c107d",
+  "supersededCover": {
+    "sha256": "a2db469566eab5849f68940a6f44f0749cd88a73728cc4f2c08c436bcce360f4",
+    "bounds": {
+      "left": 1225,
+      "top": 402,
+      "right": 1302,
+      "bottom": 456
+    }
+  },
+  "inspection": "Original-resolution PNG and WebP inspected. Full outer coil silhouette, pale head tip and tapering tail visible, natural overlap at crossings. Smooth unsegmented body. Initial head intrusion and subsequent background seam corrected. Coiling and body width are illustrative, not length evidence."
+}

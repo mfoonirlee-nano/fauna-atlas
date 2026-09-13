@@ -141,3 +141,26 @@ Scientific boundary: The cutaway explains burrow form and daytime shelter qualit
 Constraints: exactly one aardvark; one connected tunnel and one chamber; complete body and tail; opaque landscape; no text, labels, arrows, ruler, scale bar, logo, signature, border or watermark.
 Avoid: underground palace, enormous cavern, multiple tunnels, exposed skeleton, transparent animal, nesting material, food cache, eggs, pups, other burrow users, human, shovel, pipes, cables, treasure, fantasy glow, CGI, cartoon, flat vector diagram, painting.
 ~~~
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-dusk-burrow-foraging.webp` SHA-256: `3d25253675e1b223384fd672fc71644e0538c814fc2985f9d42242af166ce964`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.61, "y": 0.56}`. Conservative full-subject boundary: `{"left": 682, "top": 232, "right": 1492, "bottom": 806}`, 810×574 source pixels (previously 1152×594). Boundary center is 70.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes long ears, muzzle, four visible feet with digging claws, arched back and complete tapering tail. Far-side limb roots naturally overlap the torso. One edit moved the muzzle clear of the left field and subdued the bright sun and background. Real savanna surrounds the silhouette; left 40% contains softly defocused dusk sky and plain. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 855.0×440.9 → 248.4×176.0 | 35.82 | 48.00 | 40.00 | Pass |
+| 390×760 | 855.0×440.9 → 248.4×176.0 | 70.82 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1024.5×528.3 → 559.7×396.6 | 72.00 | 51.32 | 63.69 | Pass |
+| 1920×900 | 1440.0×742.5 → 790.2×560.0 | 89.68 | 80.08 | 48.00 | Pass |
+| 2560×900 | 1920.0×990.0 → 790.2×560.0 | 96.00 | 246.48 | 48.00 | Pass |
+| 3840×900 | 2880.0×1485.0 → 790.2×560.0 | 96.00 | 579.28 | 48.00 | Pass |
+
+`npm run test:carousel`: all 123 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

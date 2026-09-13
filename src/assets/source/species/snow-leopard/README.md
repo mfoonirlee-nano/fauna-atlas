@@ -122,3 +122,26 @@ Color palette: mineral gray, muted slate blue, pale granite, restrained straw oc
 Constraints: exactly one adult female and exactly one half-grown cub, no third snow leopard and no other animal; clear realistic size and age difference; both entirely visible and separate; eight anatomically plausible limbs and paws total; exactly two separate complete tails; authentic wild high-mountain habitat; no people, zoo, enclosure, fence, collar, camera trap, feeder, platform, props, text, logo, caption, border, or watermark.
 Avoid: anthropomorphic emotion, cuddling, staged eye contact, matching poses, exaggerated cuteness, plush-toy appearance, identical-size pair, miniature newborn, adult-looking cub, extra limbs, merged paws, fused bodies, duplicate or joined tails, malformed faces, cropped feet or tails, oversaturation, teal-orange grading, illustration, painting, CGI, cinematic spectacle.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-alpine-ridge-portrait.webp` SHA-256: `ea4508d50d10ac32fc8d860e2a723da7371d83d204dc834886c6b478d36a51c1`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.66, "y": 0.5}`. Conservative full-subject boundary: `{"left": 696, "top": 150, "right": 1500, "bottom": 758}`, 804×608 source pixels (previously 842×622). Boundary center is 71.5% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. Full ears, whiskers, four paws and the complete rounded tail tip remain within real background margins. The new source corrects the old tail touching the source edge. Left 40% contains misty mountains. Fur and rosette details are illustrative. No visible extremity is clipped. Old bounds measure only the visible silhouette: the old tail lacked background clearance, so its full outline cannot be established from that image. Old source and hero sizes below are visible-extent comparisons, not full-body acceptance.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 624.9×461.6 → 232.7×176.0 | 43.63 | 48.00 | 40.00 | Pass |
+| 390×760 | 624.9×461.6 → 232.7×176.0 | 78.63 | 48.00 | 40.00 | Pass |
+| 1366×768 | 748.8×553.2 → 559.7×423.2 | 72.00 | 51.32 | 50.38 | Pass |
+| 1920×900 | 1052.5×777.5 → 740.5×560.0 | 96.00 | 104.94 | 48.00 | Pass |
+| 2560×900 | 1403.3×1036.7 → 740.5×560.0 | 96.00 | 271.34 | 48.00 | Pass |
+| 3840×900 | 2105.0×1555.0 → 740.5×560.0 | 96.00 | 604.14 | 48.00 | Pass |
+
+`npm run test:carousel`: all 95 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

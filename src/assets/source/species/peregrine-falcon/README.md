@@ -139,3 +139,26 @@ Constraints: EXACTLY ONE BIRD AND EXACTLY TWO PEOPLE TOTAL; exactly one spotting
 - `cwebp -q 82 -m 6 -mt` produced six runtime files totaling 824.6 KB, an 81.1 percent reduction from the compressed sources.
 - Source and runtime files received visual inspection at original resolution. Checks covered bird, egg and person counts, adult field marks, complete anatomy, cover crop space, stoop posture, hunt separation, gravel scrape contents, movement context, monitoring distance, and the absence of text or branding.
 - Verification used no GUI or headless browser.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cliff-portrait.webp` SHA-256: `595a563116737a92341a8e442450aaeb6174df2dac22246020df612d31e1268b`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.5}`. Conservative full-subject boundary: `{"left": 618, "top": 78, "right": 1338, "bottom": 898}`, 720×820 source pixels (previously 716×864). Boundary center is 63.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes hooked bill, crown, folded wing tips, complete tail and both feet with visible talons. Rear gripping toes naturally overlap rock or feet. The tail feathers end against distant coast with real background margin instead of meeting the source edge. Left 40% contains softly defocused sea and sky. The prominent perched bird retains its full visible outline. Plumage pattern depicts an illustrative individual. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 531.4×641.2 → 154.5×176.0 | 82.73 | 48.00 | 40.00 | Pass |
+| 390×760 | 531.4×641.2 → 154.5×176.0 | 117.73 | 48.00 | 40.00 | Pass |
+| 1366×768 | 636.8×768.4 → 375.8×428.0 | 96.00 | 143.26 | 48.00 | Pass |
+| 1920×900 | 895.0×1080.0 → 491.7×560.0 | 96.00 | 229.35 | 48.00 | Pass |
+| 2560×900 | 1193.3×1440.0 → 491.7×560.0 | 96.00 | 395.75 | 48.00 | Pass |
+| 3840×900 | 1790.0×2160.0 → 491.7×560.0 | 96.00 | 728.55 | 48.00 | Pass |
+
+`npm run test:carousel`: all 115 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

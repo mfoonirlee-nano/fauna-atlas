@@ -19893,7 +19893,7 @@ export const species = [
         },
         {
           image: './images/species/gharial/06-sandbank-restoration-monitoring.webp',
-          alt: '三名保护人员在空置沙岸上清理木本植被、平整沙面并记录岸高，一只雌性恒河鳄在河对面保持距离',
+          alt: '三名保护人员在沙岸上清理木本植被、平整沙面并记录岸高，一只恒河鳄在画面右侧的河水中露出头部和背部',
           title: '先让沙洲重新适合筑巢',
           caption:
             '清除侵入木本植被、局部补沙和测量巢岸，都是地点性的修复手段；真正的生机，仍系于自然流量与河道连通。',

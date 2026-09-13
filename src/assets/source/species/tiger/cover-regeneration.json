@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "prompt": "Generate a photorealistic wildlife editorial photograph, 1536x1024 landscape, for a tiger species cover. A single adult orange-and-black tiger standing on a bare earth clearing at a forest edge. Full body three-quarter side view facing left, head slightly toward camera, anatomically credible muscular build, round ears, white cheek ruff, natural black stripes, long fine intact whiskers. Show all four legs and paws separated enough to read, no grass across paws. Complete long ringed tail curves down and back beside rear leg with its tip clearly visible against ground, entirely inside frame. COMPOSITION STRICT: place the entire tiger INCLUDING whisker tips, ears, paws and tail inside x=650..1470 and y=200..850 on a 1536x1024 canvas. Make it as large and prominent as possible within that rectangle. Left 40 percent is softly defocused dark olive forest and simple ground with no subject or busy foliage, no bright light spots. Real forest background margin around entire tiger including tail, no clipping anywhere. Natural soft daylight, precise fur detail, realistic paws, peaceful alert expression, no text, no border, no UI, no collage.",
+  "editPrompts": [
+    "Edit this tiger photograph. Keep its realistic anatomy, four distinct intact paws, complete tail, fur, pose and soft forest background. Correct placement: the leftmost whisker tips are currently around x550. Move the head and whiskers and entire animal composition right, compressing its horizontal composition modestly if needed by a slightly more three-quarter pose, so ALL tiger pixels INCLUDING whisker tips start at x640 or farther right, and tail stays left of x1480. Whole animal bounds target x640..1480, y150..875 on 1536x1024. Keep tiger maximally large and prominent in that right-side rectangle. Leave left40% entirely quiet blurred forest/ground without any tiger. No clipping or hidden paws, no new objects, no text."
+  ],
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-cbba88ae-ec48-4846-b4a1-4bbf16ea89c3.png",
+  "rejectedCandidates": [
+    {
+      "file": "exec-73e6665f-01af-45b7-9d38-d90b1b35359e.png",
+      "reason": "Whisker tips intrude into left40%."
+    }
+  ],
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 704,
+      "top": 110,
+      "right": 1478,
+      "bottom": 882
+    },
+    "sha256": "eb29439de7b91347d965ef0702fb92f6a748364bd87bd39c5736231f4077fe78"
+  },
+  "sourceSha256": "727ece6bc29113471add3872760c2f8027200982986fb28b1c8149c78ab65666",
+  "supersededCover": {
+    "sha256": "ef04892be5de70ed26fb220873a64f7f02050352e360182db195d8431173a83f",
+    "bounds": {
+      "left": 510,
+      "top": 294,
+      "right": 1498,
+      "bottom": 920
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full ears, whisker tips, four legs and paws, and complete ringed tail. No edge clipping; quiet left40%.",
+  "status": "source composition and single-cover hero accepted"
+}

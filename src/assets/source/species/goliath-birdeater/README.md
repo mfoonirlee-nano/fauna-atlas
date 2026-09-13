@@ -139,3 +139,26 @@ Avoid: hand holding spider, spider on person, researcher inside burrow area, fla
 - Frame 05 contains one female and one sealed egg sac, with no exposed eggs or spiderlings.
 - Frame 06 contains two researchers and one spider at a burrow, with no handling, trap, excavation, bait, or flash.
 - No frame contains readable text, a logo, border, signature, or watermark.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-burrow-entrance-portrait.webp` SHA-256: `3e97016ae94ddbc133f35e8af347723c57a96d1929d753af77214fd2ce26e7fe`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.58}`. Conservative full-subject boundary: `{"left": 698, "top": 126, "right": 1458, "bottom": 834}`, 760×708 source pixels (previously 808×718). Boundary center is 70.2% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the body, eight walking legs, two shorter pedipalps and fine setal fringe. Limb roots naturally overlap the carapace. Real soil margins surround the outline. Left 40% contains quiet defocused forest floor without the old sharp leaves and logs. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 599.7×532.9 → 188.9×176.0 | 65.54 | 48.00 | 40.00 | Pass |
+| 390×760 | 599.7×532.9 → 188.9×176.0 | 100.54 | 48.00 | 40.00 | Pass |
+| 1366×768 | 718.6×638.5 → 459.4×428.0 | 96.00 | 101.44 | 48.00 | Pass |
+| 1920×900 | 1010.0×897.5 → 601.1×560.0 | 96.00 | 174.64 | 48.00 | Pass |
+| 2560×900 | 1346.7×1196.7 → 601.1×560.0 | 96.00 | 341.04 | 48.00 | Pass |
+| 3840×900 | 2020.0×1795.0 → 601.1×560.0 | 96.00 | 673.84 | 48.00 | Pass |
+
+`npm run test:carousel`: all 145 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

@@ -154,3 +154,26 @@ Avoid: tiny unrecognizable animal, hidden or missing tail, tail merging into a b
 - Original-resolution inspection found one cover male; one side-view male; one habitat-dominant forest; one lichen-feeding monkey; exactly four separated group members; and exactly two observers with one distant monkey.
 - Static inspection found no readable text, logos, watermarks, zoo cues, collars, handling, traps or provisioning.
 - Verification used no GUI or headless browser.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-snowy-forest-portrait.webp` SHA-256: `fdb74b7e79674ae80b5c8cac30cf8060bedc823d73cab46632e99060ed37d70f`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.53}`. Conservative full-subject boundary: `{"left": 716, "top": 48, "right": 1508, "bottom": 964}`, 792×916 source pixels (previously 316×512). Boundary center is 72.4% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes crown and outer fur, both hands, both feet and the complete long tail. Fingers naturally overlap in the relaxed partly curled hands; both hand outlines remain visible. Real forest and snowy ground margins surround the silhouette, including a narrow margin beyond the tail tip. Left 40% contains softly defocused winter forest. The new upright animal fills more of the right field than the superseded distant cover. Fur coloration depicts an illustrative individual. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 234.5×380.0 → 152.2×176.0 | 83.91 | 48.00 | 40.00 | Pass |
+| 390×760 | 234.5×380.0 → 152.2×176.0 | 118.91 | 48.00 | 40.00 | Pass |
+| 1366×768 | 281.0×455.3 → 370.1×428.0 | 96.00 | 146.13 | 48.00 | Pass |
+| 1920×900 | 395.0×640.0 → 484.2×560.0 | 96.00 | 233.10 | 48.00 | Pass |
+| 2560×900 | 526.7×853.3 → 484.2×560.0 | 96.00 | 399.50 | 48.00 | Pass |
+| 3840×900 | 790.0×1280.0 → 484.2×560.0 | 96.00 | 732.30 | 48.00 | Pass |
+
+`npm run test:carousel`: all 114 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

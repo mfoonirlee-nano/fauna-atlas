@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas cover1536x1024 landscape. One wild-type male Siamese fighting fish Betta splendens swimming left-facing side profile underwater in shallow vegetated Thai freshwater marsh. Brown body subtle blue-green iridescent scales, short rounded fins with red coloration, two slender pelvic fins, no extravagant domestic fancy fins. Prominent complete fish on RIGHT with snout all dorsal anal pectoral pelvic fin tips and full rounded tail inside x=740..1420 y=240..810. Real water clearance around full silhouette, plants softly behind not hiding fins. Left40% quiet muted water, natural filtered daylight editorial underwater photograph coherent anatomy. No other animals, text watermark collage borders or human objects.",
+  "generatedFile": "exec-e0870def-b7b8-4045-8529-9dab00cc2a3c.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 595,
+      "top": 170,
+      "right": 1475,
+      "bottom": 755
+    },
+    "sha256": "c6382e8c5a79d02d51fabbc9af9731f96178121c77e67f7049497fbb04cb8e1f"
+  },
+  "sourceSha256": "af6aac1bb5f99d22435cca61b5b97730437c49b75d3c3bbf91acddd3edf62992",
+  "supersededCover": {
+    "sha256": "40132e9164cef77ccb35e30ef08905240c8bbc01a80d1f84e9e3b3c0701c52ce",
+    "bounds": {
+      "left": 1075,
+      "top": 347,
+      "right": 1268,
+      "bottom": 482
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete snout, dorsal and anal fins, rounded tail, visible pectoral fin and both slender pelvic-fin tips retained. Snout tip reaches about39% source width while broad left field remains quiet. Real water clearance around all outer features."
+}

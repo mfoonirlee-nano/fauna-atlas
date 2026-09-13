@@ -171,3 +171,26 @@ The repository script invokes `cwebp -q 82 -m 6 -mt`. The six runtime WebPs tota
 - Original-resolution inspection confirmed that frames 01 and 03 expose no adult valves, frame 02 has exactly eight valves, frame 04 separates the central foot from both gill grooves, frame 05 retains the tooth-maturation gradient, and frame 06 has no plate, plate precursor, shell, foot or eyespot.
 - Source and runtime inspection found no visible text, labels, scale bars, logos, signatures, borders or watermarks, and no material crop or conversion defect.
 - Verification used static file inspection and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-north-pacific-rocky-reef-adult-portrait.webp` SHA-256: `4c635f1db72f0ce1c302e5649780365760a91916141dcd7cdb3283f0edfe5e89`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.55}`. Conservative full-subject boundary: `{"left": 618, "top": 150, "right": 1434, "bottom": 900}`, 816×750 source pixels (previously 722×710). Boundary center is 66.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the uninterrupted oval mantle and girdle perimeter. Ventral foot and shell plates are naturally concealed by attachment and mantle. One background edit softened the left water and distant seabed. The lower-left support rock retains some texture, while most of the left field is quiet water without kelp or colored encrusting patches. Real rock surrounds the complete outline. The source box is 816 by 750 pixels, compared with the previous 722 by 710 box. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 535.9×527.0 → 191.5×176.0 | 64.26 | 48.00 | 40.00 | Pass |
+| 390×760 | 535.9×527.0 → 191.5×176.0 | 99.26 | 48.00 | 40.00 | Pass |
+| 1366×768 | 642.1×631.4 → 465.7×428.0 | 96.00 | 98.33 | 48.00 | Pass |
+| 1920×900 | 902.5×887.5 → 609.3×560.0 | 96.00 | 170.56 | 48.00 | Pass |
+| 2560×900 | 1203.3×1183.3 → 609.3×560.0 | 96.00 | 336.96 | 48.00 | Pass |
+| 3840×900 | 1805.0×1775.0 → 609.3×560.0 | 96.00 | 669.76 | 48.00 | Pass |
+
+`npm run test:carousel`: all 174 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

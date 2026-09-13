@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Create a 1536x1024 landscape wildlife cover for a species atlas: one adult whale shark, Rhincodon typus, swimming left in clear deep tropical blue ocean, full body shown in a mostly lateral slight three-quarter view. Natural underwater photographic detail, broad flattened head and wide terminal mouth, small lateral eyes, visible gill slits, characteristic white spots and pale stripes on dark blue-gray skin, pale underside, appropriate dorsal and pectoral/pelvic fins and asymmetrical crescent tail. The animal is prominent, as large as possible wholly inside the RIGHT 58% of the canvas: leftmost nose no farther left than x=650; tail tip no farther right than x=1490; all fin tips and tail remain visibly surrounded by real water. Aim full-subject box x=650..1490 y=260..820. The entire LEFT 40% contains only quiet deep-blue water for text. Continuous natural ocean background across the entire image, soft surface light at top, no vertical seam, no diver, fish school, text, labels, border, watermark, collaged cutout, cropped appendages or extra fins. Keep the complete full-body silhouette prominent and legible with all visible extremities safely inside the image.",
+  "editPrompt": "Edit this whale shark image only to correct composition: reduce the complete shark uniformly about 12% and move it to the right so its leftmost nose begins at x=646 (42% of canvas width), its rightmost tail ends at x=1498, and its full fin silhouette remains within real water margins. Preserve the shark's anatomy, natural photo style, spot pattern, all visible fins and complete tail. Fill the vacated region with seamless natural blue ocean; leftmost 40% must contain water only. Keep landscape 1536x1024, continuous underwater background, soft surface light. Do not introduce vertical seams, extra subjects, text or borders.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-ae63747d-d8ee-41ce-b702-167869bed38f.png",
+  "rejectedCandidate": "exec-8b47925f-b902-4961-909d-1d2e8e2e2313.png: head intruded into left 40%",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 662,
+      "top": 328,
+      "right": 1476,
+      "bottom": 664
+    },
+    "sha256": "8bb515dacb4d7bcfe8bf5395aa1fa6fe08b366a3d13b071f01f84d69de54eded"
+  },
+  "sourceSha256": "382a6d6ef8f605bca24e3a83bef52ca2772c3e77034b8b1eb7cc5a2cc802d250",
+  "supersededCover": {
+    "sha256": "cf73af931e7a9b49650a0ccce4dbbf728a560f86b213915b19c5f8c13056fc69",
+    "bounds": {
+      "left": 428,
+      "top": 322,
+      "right": 1470,
+      "bottom": 734
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full whale shark boundary includes broad snout, visible dorsal/pectoral/ventral fins and both tail lobes. Far-side paired fins naturally overlap the body in this view. No edge clipping; quiet left40%."
+}

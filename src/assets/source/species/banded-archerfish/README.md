@@ -51,3 +51,26 @@ Final source total: 4480.1 KB. Runtime total: 1016.9 KB.
 ## Verification
 
 `npm test` passed all 169 tests, including taxonomy/media integration, accepted source/runtime hashes and dimensions, the full-body hero case and HTTP image delivery below a deployment subpath. `npm run typecheck` passed. After clarifying the species scope of the underwater study, `npm run test:dist-subpath` rebuilt the final content and passed again. The production build refreshed tracked `dist/` assets and reported the existing large JavaScript chunk warning. `git diff --check` passed.
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-mangrove-cover.webp` SHA-256: `530a50317e71925945c372fa48498a1a83ace7959a70d0860eb36cfa97f65d18`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.92, "y": 0.32}`. Conservative full-subject boundary: `{"left": 675, "top": 300, "right": 1378, "bottom": 616}`, 703×316 source pixels (previously 122×52). Boundary center is 66.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes the mouth, dorsal, anal, pectoral and visible pelvic fin tips, and both tail lobes. Far-side fins overlap the body naturally. The first candidate intruded into the left field; the accepted edit shifts the complete fish right. Real water remains around every visible extremity. The left 40% remains quiet jade water. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 90.5×38.6 → 272.0×122.3 | 24.00 | 74.87 | 66.87 | Pass |
+| 390×760 | 90.5×38.6 → 342.0×153.7 | 24.00 | 59.14 | 51.14 | Pass |
+| 1366×768 | 108.5×46.2 → 559.7×251.6 | 72.00 | 51.32 | 136.21 | Pass |
+| 1920×900 | 152.5×65.0 → 825.6×371.1 | 72.00 | 62.40 | 142.45 | Pass |
+| 2560×900 | 203.3×86.7 → 1132.8×509.2 | 72.00 | 75.20 | 73.40 | Pass |
+| 3840×900 | 305.0×130.0 → 1245.8×560.0 | 96.00 | 351.49 | 48.00 | Pass |
+
+`npm run test:carousel`: all 68 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

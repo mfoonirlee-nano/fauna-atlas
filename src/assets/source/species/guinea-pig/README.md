@@ -49,3 +49,26 @@
 ## 项目验证
 
 `npm run typecheck`、`npm run test:carousel` 与 `npm test` 通过。完整测试含 172 项分类测试及本批六图哈希、尺寸和解码验证，并覆盖首页轮播、目录、图片查看器及构建后的子路径资产访问。生产构建通过，仍提示主 JavaScript chunk 大于 500 kB。
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cover.webp` SHA-256: `673253e33fd26ef7a3638a7b1c6b04789e24fba80d50d9a5530b541c5c14469d`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.81, "y": 0.33}`. Conservative full-subject boundary: `{"left": 640, "top": 255, "right": 1370, "bottom": 710}`, 730×455 source pixels (previously 156×106). Boundary center is 65.4% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes the woodpecker bill, visible claws and tail, ant antennae, leg tips and carried leaf, and guinea pig whiskers, ears, fur and visible toes. Background remains between these features and the source edges. The animal is prominent on the right; the left 40% remains quiet habitat. The conservative measurement may include a few background pixels. Far-side feet overlap naturally in these poses. The ant antenna tip reaches about 40% of source width; the leaf remains fully on the right. The guinea pig first candidate was rejected for leftward whisker intrusion; the accepted edit moves the whole silhouette right. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 115.8×78.7 → 272.0×169.5 | 24.00 | 51.23 | 43.23 | Pass |
+| 390×760 | 115.8×78.7 → 282.4×176.0 | 53.81 | 48.00 | 40.00 | Pass |
+| 1366×768 | 138.7×94.3 → 559.7×348.8 | 72.00 | 51.32 | 87.58 | Pass |
+| 1920×900 | 195.0×132.5 → 825.6×514.6 | 72.00 | 62.40 | 70.71 | Pass |
+| 2560×900 | 260.0×176.7 → 898.5×560.0 | 96.00 | 192.37 | 48.00 | Pass |
+| 3840×900 | 390.0×265.0 → 898.5×560.0 | 96.00 | 525.17 | 48.00 | Pass |
+
+`npm run test:carousel`: all 33 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific natural-history ROV photograph, exact 1536x1024 landscape. ONE adult vampire squid Vampyroteuthis infernalis floating prominently on the RIGHT in dark midnight-blue deep midwater. Complete silhouette inside x=680..1440 y=220..800, occupying most of that region, all real water margins. Three-quarter lateral view, rounded gelatinous dark reddish-brown mantle at upper right, two small rounded ear-like fins, large blue-gray reflective visible eye, eight short arms connected by a broad soft dark burgundy web loosely opening toward lower left like a small cloak. Natural far-side arm overlap. Soft slender cirri on inner arm faces, no rigid spines. Complete tapering arm tips visible, no squid feeding tentacles; feeding filaments naturally retracted. Subtle ROV illumination renders skin and translucent thin fin edges, not glowing neon. Quiet left40% only deep blue water, sparse very faint marine snow, no seafloor or plants. Realistic proportions, one animal, no labels, text, watermark, collage, borders, blood or fantasy monster.",
+  "editPrompt": "Keep this realistic vampire squid appearance and naturally overlapping webbed arms. Recompose the whole animal slightly smaller and farther right so EVERY fin and curled arm tip lies entirely within x=680..1460 and y=150..875 on exact1536x1024 canvas. Left40% water only. Keep real water margins on all sides, make mantle rounded and gelatinous rather than sharply pointed. Preserve two rounded fins, eye, natural burgundy web and soft cirri, retracted filaments. No clipping, text, extra animals or new appendages.",
+  "rejectedCandidate": "exec-b94a8afc-c5cc-4e82-b887-9c1ca9baf0aa.png: left arm tip intrudes into quiet field",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-b8c25b77-09d7-4e59-bf1b-9d5391772edd.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 742,
+      "top": 174,
+      "right": 1412,
+      "bottom": 840
+    },
+    "sha256": "00c07d072577680b8bc9dd4d8b43d289953abdf6f1ead40c695d3e249ed59edb"
+  },
+  "sourceSha256": "d709ba571b6e27e528d19337e0f35e41c165f1125f47146a5eea62874d224e06",
+  "supersededCover": {
+    "sha256": "1bca74b8338918adc7dd20bf95e44b25ae4fb5aa0ab0bc055c682ace44692658",
+    "bounds": {
+      "left": 1055,
+      "top": 314,
+      "right": 1295,
+      "bottom": 433
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full mantle, both fins, all visible curled arm tips and cirri retained. Natural far-side arm overlap; feeding filaments retracted. Arm count and fine cirri are illustrative. Real water margins and quiet left field."
+}

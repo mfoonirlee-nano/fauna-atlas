@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult red-eyed tree frog Agalychnis callidryas crouched in three-quarter side view facing left on a broad simple green leaf in Costa Rican rainforest. Accurate vivid red eyes with vertical pupils, bright green back, blue and yellow barred flanks, pale belly, orange toes with rounded adhesive pads. Complete head and crouched body, all visible forelimbs and folded hindlimbs, all visible orange toe pads inside frame; natural far-side limb overlap allowed, no extra limbs. Large prominent frog on RIGHT, full silhouette within x=690..1440 y=230..850. Real leaf or background margin around all pads. Left40% very softly defocused dark green rainforest, no distinct branches leaves or highlights. Supporting leaf mainly under frog at right, soft natural diffuse light and realistic skin detail, no text border watermark or other animals.",
+  "generatedImage": "exec-965f7a4d-c0cd-41d2-a630-842474054535.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 622,
+      "top": 202,
+      "right": 1448,
+      "bottom": 818
+    },
+    "sha256": "6efecb8edd33438fdcb588c71b407ddd38e91ed350c1d843a7a49f261886dbae"
+  },
+  "sourceSha256": "a3a54464630541bf3a6541eef0b789411055c1afe53d886521b2a46a811b1502",
+  "supersededCover": {
+    "sha256": "0e80caf619f59c3bd3fb77c313a560193d111c57ac262d728392894034f6820c",
+    "bounds": {
+      "left": 236,
+      "top": 284,
+      "right": 1154,
+      "bottom": 886
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full snout, eye domes, body, both forelimbs and visible folded hindlimb with outer orange toe pads. Far hindlimb and inner digits naturally overlap torso/other toes. Real margins and quiet defocused left rainforest above lower leaf."
+}

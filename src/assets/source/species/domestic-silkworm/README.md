@@ -160,3 +160,26 @@ The converter uses `cwebp -q 82 -m 6 -mt` and removes `-source` from each runtim
 - `06` shows one worker tending separate trays without touching an animal. The room contains no readable labels, identifiable facility or claimed protocol.
 
 ImageMagick decoded every source and runtime image at 1536 × 1024 as opaque 8-bit sRGB. The source PNGs use an indexed palette after TinyPNG compression; each runtime WebP contains one lossy VP8 frame without alpha or animation.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-adult-domestic-silkworm-portrait.webp` SHA-256: `00a640961f81c056a6b271c932fb5ef2b2cb5022600bd7bb0340fa6bf15e1024`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.56}`. Conservative full-subject boundary: `{"left": 654, "top": 88, "right": 1494, "bottom": 878}`, 840×790 source pixels (previously 584×514). Boundary center is 69.9% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes feathery antenna branches, wing fringes, abdomen and visible external tarsi. Far legs and hindwings naturally overlap the body or near appendages; concealed appendage counts are not established. One edit moved the full moth right. The flat support exposes external feet without basket-rim obstruction, and the left background stays subdued. The source box is 840 by 790 pixels, compared with the previous 584 by 514 box. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 433.4×381.5 → 187.1×176.0 | 66.43 | 48.00 | 40.00 | Pass |
+| 390×760 | 433.4×381.5 → 187.1×176.0 | 101.43 | 48.00 | 40.00 | Pass |
+| 1366×768 | 519.4×457.1 → 455.1×428.0 | 96.00 | 103.62 | 48.00 | Pass |
+| 1920×900 | 730.0×642.5 → 595.4×560.0 | 96.00 | 177.48 | 48.00 | Pass |
+| 2560×900 | 973.3×856.7 → 595.4×560.0 | 96.00 | 343.88 | 48.00 | Pass |
+| 3840×900 | 1460.0×1285.0 → 595.4×560.0 | 96.00 | 676.68 | 48.00 | Pass |
+
+`npm run test:carousel`: all 177 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

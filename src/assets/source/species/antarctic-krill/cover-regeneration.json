@@ -1,0 +1,31 @@
+{
+  "prompt": "Photorealistic-natural scientific reconstruction Fauna Atlas Antarctic krill Euphausia superba canonical cover, opaque1536x1024 landscape. Exactly one complete adult krill suspended below distant seasonal sea ice in cold blue Southern Ocean water. Lateral three-quarter view, mostly transparent slender shrimp-like body with scattered red pigment, large black compound eyes, short rostrum, long fine sensory flagella, fine setose thoracic feeding basket and exposed feathery gills, segmented abdomen, five paired pleopods naturally overlapping below abdomen, complete terminal tail fan formed by uropods and telson. No heavy claws, no opaque orange cooked prawn shell, no long toothed rostrum. Head near x=1000,y=420, curved abdomen extends right then down to tail fan near x=1360,y=780. Long antennae curve up and left but tips remain within x=680..1450,y=120..900. Full animal including all transparent fins, setae and antenna endpoints wholly in right field, prominent body and appendages with real water margin. Left40% quiet dark defocused blue water; only faint distant ice glow at very top, no strong texture, other krill or bubbles. Restrained natural underwater side light makes fine transparent edges readable. No glowing photophores, text, labels, ruler, watermark or borders.",
+  "edits": [
+    "Keep this exact single transparent krill, body anatomy, appendages, red pigment, eyes and full tail fan. Correct framing by uniformly scaling the complete animal including ALL long antennae to80% current size, translating right so all visible antenna endpoints and setae are inside x=660..1470,y=140..900. Preserve the natural antenna curves and every fine fringe; do not shorten them or crop. Keep body prominent in remaining right field. Subdue bright overhead ice texture to faint defocused distant glow, with left40% quiet dark blue water. No added animals, labels, text or anatomy changes. Opaque1536x1024.",
+    "Translate the ENTIRE krill including both long antennae, all fine appendages and tail fan exactly60 pixels to the right without scaling, rotating or changing anatomy. Current leftmost antenna tip at approximatelyx590 must end nearx650; rightmost tail fringe currentlyx1430 must end nearx1490 with water margin. Reconstruct background where moved. Preserve1536x1024 canvas, current light and water, no crop and no other changes."
+  ],
+  "generatedImage": "exec-161490fa-0723-465d-933c-6a48180cb877.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 666,
+      "top": 156,
+      "right": 1510,
+      "bottom": 884
+    },
+    "sha256": "ce7403ae1f17719ce1a5db12a54e7898635b8dce1daf0e6c510d31edb090c98f"
+  },
+  "sourceSha256": "de76602e65ce24f428d38d6060e7a9c166e1da7bab20beea80861700b4ca99d8",
+  "supersededCover": {
+    "sha256": "a795dc5ba2ed32b5546b5fd67b092f98229344c5f5475646664df32ec114bfea",
+    "bounds": {
+      "left": 480,
+      "top": 442,
+      "right": 1446,
+      "bottom": 682
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete long antennae, fine feeding appendages and setae, transparent abdomen and full tail fan. Paired appendages naturally overlap; this view does not establish exact anatomical counts."
+}

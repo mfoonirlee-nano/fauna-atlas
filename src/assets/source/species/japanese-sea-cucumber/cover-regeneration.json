@@ -1,0 +1,30 @@
+{
+  "prompt": "Use case: photorealistic-natural scientific reconstruction. Fauna Atlas canonical animal cover, opaque 1536x1024 landscape. Exactly one complete adult Japanese sea cucumber Apostichopus japonicus, red to dark reddish brown form consistent with the repository's strict species scope. Elongated thick leathery body gently curved diagonally, broad blunt conical dorsal papillae, small short ventral tube feet naturally touching a low smooth rock shelf. Oral tentacles retracted, no feeding crown exposed. No eyes or face. Three-quarter side and slightly overhead view, showing both body ends and the entire outside silhouette including all visible papillae and near-side podia. Place prominent animal wholly in right field with full silhouette within x=650..1470,y=160..840; anterior end near lower left of this region, rear end upper right. Real background margins around every feature, no extremity cut off or hidden behind foreground rock. Underwater temperate coastal habitat, muted green-blue water and smooth subdued gray-brown rock; left 40 percent is quiet dark defocused water/soft substrate with no sharp stones or plants. Animal detailed and in focus, textured red leathery skin distinguished from the quiet background. Natural underwater light, restrained color, documentary macro photograph appearance. No extra animals, text, labels, arrows, scale bar, watermarks, borders, corals, dramatic spikes, insect legs or octopus suckers.",
+  "edits": [
+    "Adjust only composition of this image. Preserve the exact single red-brown sea cucumber anatomy, blunt papillae, retracted oral tentacles, skin texture, complete outline and lighting. Scale the animal uniformly to 90% of current size and place its full outline within x=655..1480,y=175..855 on the same smooth rock. Keep the complete animal and all visible tube feet surrounded by real background. Soften the left 40 percent of the image into defocused underwater green-blue background and low-detail rock, including lower-left; avoid a hard boundary. Keep the animal and its supporting rock immediately beneath it sharp. No added subjects, text, frames or altered appendages. Maintain opaque 1536x1024 landscape."
+  ],
+  "generatedImage": "exec-ce11c99b-8ff0-4a38-8349-2bd666423c62.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 734,
+      "top": 220,
+      "right": 1416,
+      "bottom": 800
+    },
+    "sha256": "7d8355dcfd3d1e7dcf085a3ed30b01ad8d8b853f2da7152974f27a5060d93fc8"
+  },
+  "sourceSha256": "cc184e53c2163efbafb8db004a60ddcc962b807fc07fca65b1d97a36a2bb7861",
+  "supersededCover": {
+    "sha256": "266406f9cadae31a69815e5018c071543e09467f3cd165ed71aba33a4e34165e",
+    "bounds": {
+      "left": 440,
+      "top": 214,
+      "right": 1488,
+      "bottom": 848
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete red-brown body includes both ends, all visible papillae and near-side tube feet. Oral tentacles retracted; underside and far-side podia naturally concealed. Left background defocused."
+}

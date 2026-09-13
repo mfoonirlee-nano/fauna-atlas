@@ -63,3 +63,24 @@ Retained the regenerated `01-cover.webp` and the five existing gallery images. T
 Runtime SHA-256: `49408adc937603e94cbddf2a37e9e3bbfde5e0f2c83025442fa5e3ebdede3150`. Source and runtime dimensions: 1536×1024. Reviewed full-subject bounds (left, top, right, bottom): `[600, 250, 1455, 765]`. Original-resolution source and runtime inspection completed before temporary PNG archival.
 
 The user removed the separate responsive hero images. Their previous six-viewport acceptance is withdrawn. The carousel now uses this same main cover; full-body crop acceptance in the existing carousel remains pending.
+
+## 2026-09-12 single-cover framing verification
+
+This section supersedes earlier carousel failure tables after the subject-frame layout change. Runtime hash: `49408adc937603e94cbddf2a37e9e3bbfde5e0f2c83025442fa5e3ebdede3150`. Source/runtime dimensions: 1536×1024. Current visually reviewed full boundary: `{"left": 600, "top": 250, "right": 1455, "bottom": 765}` (855×515 source pixels). Committed focalPoint: `{"x": 0.77, "y": 0.31}`. Includes the visible muzzle/bill, ears or antlers, feet/flippers/claws and complete tail where present; no head-only proxy.
+
+Re-inspected the runtime WebP at original resolution. Earlier source inspection and generation prompts remain in the regeneration record; no historical PNG was recreated. Quokka whisker and California sea-lion flipper boundaries were expanded during this pass. The source center is 66.9% of the source width. Source composition passes visual inspection: the full subject is prominent on the right with background around its visible extremities and a quiet left copy area.
+
+The carousel loads the same canonical WebP as the species profile. For reviewed covers it fits the complete measured silhouette to a dedicated region, using CSS container units and 24px inner clearance. It centers the reviewed silhouette; the committed focalPoint remains for ordinary cover/profile presentation but does not override full-subject fitting. The frame masks only background at its edges. No extra image variants or duplicate background animal are loaded. The framed layout remains active while either the entering or leaving slide needs it, including transitions to legacy covers.
+
+Static geometry overlays for all six required viewports were visually checked against the current runtime images. These are mathematical image composites with copy/panel rectangles, not browser screenshots or font rasterization. Desktop copy stays within the left half, compact controls occupy y=100..196; mobile controls occupy y=92..188 and copy starts at y=452. The footer is below the frame. The tests bind CSS frame dimensions and opacity-only keyframes, runtime boundaries and image hashes. Settled, initial, forward-enter, forward-leave, backward-enter and backward-leave share the geometry below because animation changes only opacity. Every listed value passes the 24 CSS pixel gate.
+
+| Viewport | Old source subject → current source subject | Old hero subject size → current hero subject size (CSS px) | Viewport minimum | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- | --- |
+| 320×760 | 173×108 → 855×515 | 128.4×80.2 → 272.0×163.8 | 24.00 | 54.08 | 46.08 | Pass |
+| 390×760 | 173×108 → 855×515 | 128.4×80.2 → 292.2×176.0 | 48.90 | 48.00 | 40.00 | Pass |
+| 1366×768 | 173×108 → 855×515 | 153.9×96.0 → 559.7×337.1 | 72.00 | 51.32 | 93.44 | Pass |
+| 1920×900 | 173×108 → 855×515 | 216.2×135.0 → 825.6×497.3 | 72.00 | 62.40 | 79.35 | Pass |
+| 2560×900 | 173×108 → 855×515 | 288.3×180.0 → 929.7×560.0 | 96.00 | 176.75 | 48.00 | Pass |
+| 3840×900 | 173×108 → 855×515 | 432.5×270.0 → 929.7×560.0 | 96.00 | 509.55 | 48.00 | Pass |
+
+Old sizes use historical reviewed bounds and the superseded full-viewport cover fit. New sizes use the current full-subject region. Historical source pixels are evidence, not regenerated input files. `npm run test:carousel` passes all 18 checks; production build/type checking passes. Each species still retains exactly six WebPs.

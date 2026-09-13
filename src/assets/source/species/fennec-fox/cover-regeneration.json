@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas cover, landscape 1536x1024. One fennec fox Vulpes zerda standing in three-quarter view facing left on open Saharan sand, huge upright ears, delicate pale sandy fur, slender muzzle, all visible paws and bushy black-tipped tail curved alongside its body visible. Natural-history wildlife editorial photograph, restrained dawn light, realistic anatomy. Put the COMPLETE animal in RIGHT HALF: all ears, whiskers, paws and tail within x=720..1430 y=150..870. Left 40% only quiet defocused pale dunes with no part of fox. Prominent animal occupying nearly half canvas width, not a distant speck. Leave real sand/sky background on every side of full body, especially ears and tail tip. No foreground obstructions, extra animals, people, text, watermark, collage, frames, fantasy or anthropomorphic expressions.",
+  "edits": [],
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 760,
+      "top": 65,
+      "right": 1510,
+      "bottom": 890
+    },
+    "sha256": "7f693f82266d517d6c689e5c3b75de219b6afb5213a9816716ceadb9cf3bd64b"
+  },
+  "sourceSha256": "ba8ad0fdbd6d6b38ee893b3fd090ecd3ac5fcc8548c5a5dd85944b15f97bee42",
+  "supersededCover": {
+    "sha256": "889caff2e9c0680a6fa9cac77107a42f6d0b88cff72599c39f4cd0d53f5b3615",
+    "bounds": {
+      "left": 1035,
+      "top": 306,
+      "right": 1230,
+      "bottom": 452
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete visible silhouette, quiet left side, genuine source-edge background. Bounds include all visible outer legs, claws and setae for crab; gathered arm tips and fin skirt for cuttlefish; whiskers, ears, paws and entire tail for fox."
+}

@@ -141,3 +141,26 @@ Each correction targeted only the anterior end: make the rostral-fin endpoint sh
 - Frame 05 contains one complete undulating animal above the sediment and no gametes, eggs or aggregation.
 - Frame 06 contains one animal, one distant observer, one quadrat and no contact or capture gear.
 - No frame contains a fish eye, jaw, scale, paired fin, operculum, annelid rings, text, logo or watermark.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-sandy-seabed-cover.webp` SHA-256: `557ca0989c277f10ded7eea51e893606ecd4f5e7f3ff35e39ed2c8bb6c781d44`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.61}`. Conservative full-subject boundary: `{"left": 644, "top": 122, "right": 1496, "bottom": 834}`, 852×712 source pixels (previously 1218×316). Boundary center is 69.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes oral cirri, oral hood and the transparent fin-fold and tail perimeter. Internal segments are illustrative; exact cirrus and myomere counts are not established. This exposed morphology view does not depict a buried resting animal. One edit moved the oral end right and subdued left sand texture. The source box is 852 by 712 pixels, compared with the previous 1218 by 316 box; the diagonal pose keeps a prominent complete body within the right field. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 904.0×234.5 → 210.6×176.0 | 54.70 | 48.00 | 40.00 | Pass |
+| 390×760 | 904.0×234.5 → 210.6×176.0 | 89.70 | 48.00 | 40.00 | Pass |
+| 1366×768 | 1083.2×281.0 → 512.2×428.0 | 95.76 | 75.08 | 48.00 | Pass |
+| 1920×900 | 1522.5×395.0 → 670.1×560.0 | 96.00 | 140.14 | 48.00 | Pass |
+| 2560×900 | 2030.0×526.7 → 670.1×560.0 | 96.00 | 306.54 | 48.00 | Pass |
+| 3840×900 | 3045.0×790.0 → 670.1×560.0 | 96.00 | 639.34 | 48.00 | Pass |
+
+`npm run test:carousel`: all 179 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

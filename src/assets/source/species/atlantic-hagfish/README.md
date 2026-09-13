@@ -114,3 +114,26 @@ Use case: photorealistic-natural conservation fieldwork. Create an original Faun
 | `04-slime-thread-defense-cloud.webp` | `5d13cc7012d9c4324311bedafed8c6788ee6ee8a4ec41eda0c3a8de89c3bbbbd` |
 | `05-single-body-overhand-knot.webp` | `b2f61997fd9abec93274024ba9f97d9ec34d92067fb059aa3ca87e06baee199b` |
 | `06-empty-trap-fishery-monitoring.webp` | `7367a97c4622ab313de3ebfd5f657745a1a6bf5e1bef754f6ab3b6d099b47d2b` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-muddy-seafloor-adult-cover.webp` SHA-256: `66ab8150c5cd4919aa68a72d118a4dcded11210ecaf7ec341a51eab92232563a`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.64, "y": 0.58}`. Conservative full-subject boundary: `{"left": 656, "top": 168, "right": 1496, "bottom": 850}`, 840×682 source pixels (previously 944×582). Boundary center is 70.1% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes all visible sensory barbels, the continuous curved body and the thin tapering caudal finfold. One anatomical edit corrected the blunt posterior termination and removed an erroneous isolated lateral fin from the first generation. Eyes remain concealed under skin. Far-side barbel bases overlap naturally; this view does not establish a diagnostic count or exact pore arrangement. The entire outline has real sediment margins, with quiet defocused blue-gray background on the left. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 700.6×432.0 → 216.8×176.0 | 51.61 | 48.00 | 40.00 | Pass |
+| 390×760 | 700.6×432.0 → 216.8×176.0 | 86.61 | 48.00 | 40.00 | Pass |
+| 1366×768 | 839.5×517.6 → 527.2×428.0 | 88.26 | 67.58 | 48.00 | Pass |
+| 1920×900 | 1180.0×727.5 → 689.7×560.0 | 96.00 | 130.33 | 48.00 | Pass |
+| 2560×900 | 1573.3×970.0 → 689.7×560.0 | 96.00 | 296.73 | 48.00 | Pass |
+| 3840×900 | 2360.0×1455.0 → 689.7×560.0 | 96.00 | 629.53 | 48.00 | Pass |
+
+`npm run test:carousel`: all 156 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

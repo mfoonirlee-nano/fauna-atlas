@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas single canonical species cover. Generate a 1536x1024 landscape natural-history editorial photograph style scientific reconstruction of one wild-type long-tailed chinchilla, Chinchilla lanigera, sitting on dry rock in Chilean rocky scrub. Dense gray fur, pale belly, large rounded ears, fine long whiskers, small forepaws, larger hindfeet and a long bushy tail curved alongside its body, all visible. Full animal in three-quarter side view facing left, prominent and sharply detailed, its complete silhouette including whiskers, ears, feet and entire tail occupies approximately x=700..1410 y=190..845. Keep its visual center beyond 60% of image width. The left 40% is quiet softly focused habitat. Leave real natural background around every extremity. Natural restrained daylight and realistic anatomy. No text, watermarks, borders, collage, extra animals or anthropomorphic expression. Do not make the animal tiny.",
+  "edits": [
+    {
+      "prompt": "Edit the attached chinchilla cover. Keep the same animal anatomy, pose, fur, photographic realism, lighting, rocky Chilean habitat and 1536x1024 canvas. Reframe the ENTIRE animal as a single unit: reduce it to about 75% of its current size and shift it right, so ALL whiskers, ear tips, feet and the entire bushy tail have genuine clear background on all sides. The entire silhouette should fit within x=670..1420 y=240..830, with at least 100 pixels of visible habitat to the right of the final tail hairs. Center the animal around x=1050, leave the left 40% as quiet habitat. Do not cut or shorten the tail. Animal remains prominent. No text or borders."
+    }
+  ],
+  "status": "source composition and single-cover hero geometry verified",
+  "sourceFile": "01-cover-source.png",
+  "sourceInspection": "Original-resolution PNG and runtime WebP inspected. Bounds include all visible whiskers, ears, paws and tail hairs. First candidate rejected for insufficient tail clearance.",
+  "knownLimitations": [
+    "Existing object-fit cover hero crops the full animal; presentation acceptance remains incomplete."
+  ],
+  "sourceSha256": "6d2d1da4a01921d97e5e5885bc628037a275a96b84e540c1ed84c3ad0870e1bd",
+  "runtimeSha256": "84f3010fdd40d6e23038546238670fc1ab73871ac5275b7774b12a982555b4d8"
+}

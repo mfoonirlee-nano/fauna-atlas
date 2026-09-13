@@ -147,3 +147,26 @@ Avoid: centipede touching bat, bat in centipede's forcipules, feeding, struggle,
 | 04 | `b23da5ac0b0088c7d4e45674b50577673027db01427c8ff7f69da596a9182ca3` | `832c2896c03762ed906535d1a6b6cf59918e9c432e8450ef7b7eb14caedc562b` |
 | 05 | `6f80a1d5cee775f44583eeadb9270f0d6ba6d8600188e6e18dfeaf994d8beda1` | `309d8c5b67ac1f1d0f7943e577c4b44d5e37b3fb10b1dab6ea994f0b53092b9d` |
 | 06 | `78384b8719447697430aaaf4534a8ede96bffa92d5bfe5d1e233de6970e4486a` | `a124b70327b0df7d2adca26387d6261e6e8f328180245ddd14de80eb331f8dd2` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-caribbean-limestone-adult-cover.webp` SHA-256: `67dc63955a4c0cb68a5f2ad3ee856a87d1800f2395ed91686a346fb5897f1d93`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.66, "y": 0.57}`. Conservative full-subject boundary: `{"left": 602, "top": 36, "right": 1498, "bottom": 956}`, 896×920 source pixels (previously 1034×350). Boundary center is 68.4% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes both antennae, visible walking-leg tips and the terminal leg pair. Proximal joints naturally overlap; exact segment and leg counts are not established by this reconstruction. One edit moved the anterior end right and softened left substrate. A fine antenna tip reaches x602, just inside the 40% boundary, while the primary body remains to the right and the left background is subdued. Real background margins include 36 pixels above the terminal tip. The source box is 896 by 920 pixels, compared with the previous 1034 by 350 box; a diagonal curve preserves prominent full-body presentation. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 767.4×259.8 → 171.4×176.0 | 74.30 | 48.00 | 40.00 | Pass |
+| 390×760 | 767.4×259.8 → 171.4×176.0 | 109.30 | 48.00 | 40.00 | Pass |
+| 1366×768 | 919.6×311.3 → 416.8×428.0 | 96.00 | 122.74 | 48.00 | Pass |
+| 1920×900 | 1292.5×437.5 → 545.4×560.0 | 96.00 | 202.50 | 48.00 | Pass |
+| 2560×900 | 1723.3×583.3 → 545.4×560.0 | 96.00 | 368.90 | 48.00 | Pass |
+| 3840×900 | 2585.0×875.0 → 545.4×560.0 | 96.00 | 701.70 | 48.00 | Pass |
+
+`npm run test:carousel`: all 180 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

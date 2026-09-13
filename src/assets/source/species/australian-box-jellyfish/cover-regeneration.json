@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic underwater scientific natural-history photograph exact1536x1024 landscape. ONE Australian box jellyfish Chironex fleckeri prominently on RIGHT, complete translucent silhouette including every tentacle end within x=700..1450 y=180..840. Transparent faint pale blue box-shaped bell with four rounded vertical corners, not a hemispherical moon jelly. Four fleshy pedalia at lower corners, each carrying a group of multiple fine translucent tentacles. Side three-quarter view swimming slightly diagonally; bell at upper-left of subject area, gently curved partially contracted tentacle groups trailing down-right. Natural overlapping tentacle groups, every visible strand terminates within picture, no clipped or indefinitely fading tips. Real water margin around bell and all tentacles. Soft side sunlight reveals delicate glass-clear edges without neon glow, realistic subtropical coastal blue-green water, no seafloor. Left40% quiet softly graded water. No other animals, text, labels, watermark, diagram, borders or exaggerated internal organs.",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-7bebc705-13ae-43a6-aa91-c6c8d63d0229.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 732,
+      "top": 116,
+      "right": 1498,
+      "bottom": 946
+    },
+    "sha256": "579a88c6188f868b644d534212cd730091b4cb9e42c6374dd91145828928a9be"
+  },
+  "sourceSha256": "c587f94a0e5619527228a2bb6f0997d0d7911d3ca136f4d32ad3ff9b74dc1aa2",
+  "supersededCover": {
+    "sha256": "8d51c0fdd087585c2fbff24f4ccd7a274df6c67ee4df3748d47ac7e591a80417",
+    "bounds": {
+      "left": 1180,
+      "top": 317,
+      "right": 1313,
+      "bottom": 430
+    }
+  },
+  "inspection": "Original-resolution source and WebP inspected. Full transparent bell edge, pedalia and every visible tentacle end included; thin lower and rightmost strands included conservatively. Natural strand overlap; exact tentacle counts and internal optics illustrative. Real water margins, quiet left40%."
+}

@@ -1,0 +1,31 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult short-beaked echidna Tachyglossus aculeatus in Australian eucalyptus woodland, full body low three-quarter side view facing left on bare sandy soil. Accurate compact dome with cream tipped dark spines interspersed with brown fur, slender long tubular snout and tiny dark eyes, short stout digging limbs with readable exposed claws. All visible spine tips and muzzle and feet inside frame, short tail naturally under rear spine fringe. Animal LARGE prominent on RIGHT: entire silhouette within x=680..1450 y=230..850. Four limbs anatomically credible with natural far-side overlap, hindfeet oriented naturally backward, no extra limbs. Real background margins. Left40% softly defocused warm grey tan soil and distant muted eucalyptus woodland, no crisp bark litter, sharp leaves or bright patches. Soft natural daylight revealing spine texture and claws, unobstructed feet on plain ground. No text, border, watermark or other animal.",
+  "editPrompts": [
+    "Edit this echidna photograph: move entire animal right and reduce slightly so snout tip starts after x=660 and all rear spine tips end before x=1450, on 1536x1024. Keep prominent full animal and complete visible claws. Correct hind feet to natural echidna backward-facing hindfoot orientation, preserve plausible four limbs. Soften left40% into low-contrast defocused tan soil and muted woodland; remove strong distinct tree trunks and ground twigs there. Preserve complete spine silhouette with background around all tips, realistic anatomy and fur.",
+    "Correct only hind feet of this echidna. The two REAR feet under rump at image right must be rotated backward: toes and long grooming claw point toward the rear/right, away from snout. Currently far-side rear foot points left, which is wrong. Show near rear ankle with toes extending right on sand; far rear toes also extend right with natural partial overlap. Leave the two front digging feet under chest pointing left unchanged. Preserve all other pixels/composition, complete spines, snout, quiet background and dimensions."
+  ],
+  "generatedImage": "exec-f463c2d0-4b54-43e0-8e6d-eee872393239.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 636,
+      "top": 216,
+      "right": 1486,
+      "bottom": 810
+    },
+    "sha256": "bc6da35b8d9cfc57d64afdf12a349552c375758e9e2b46bcaeb471cced87c09a"
+  },
+  "sourceSha256": "6dec72e548848177041cc989f9901b800baa62f74971992b59d20398ba4746bc",
+  "supersededCover": {
+    "sha256": "9e5954f9211084df3abba8fd45f121598ba36999aa0a7e75ddb1814deae0a063",
+    "bounds": {
+      "left": 778,
+      "top": 368,
+      "right": 1336,
+      "bottom": 828
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full snout, spine and fur fringe, two front digging feet and backward-oriented hindfeet with visible claws. Short tail naturally under rear spine fringe. Real margins and quiet left soil/woodland."
+}

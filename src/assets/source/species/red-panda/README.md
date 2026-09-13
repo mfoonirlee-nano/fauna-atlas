@@ -105,3 +105,23 @@ The first generated version hid one forepaw behind the trunk. The prompt below p
     Color palette: Realistic forest greens, mossy gray-brown wood, earthy leaf litter, restrained rust-red fur; natural white balance, no teal-orange grading or oversaturation.
     Constraints: exactly one adult female and exactly one half-grown cub, no third red panda and no other animal; both entirely visible and separate; clear realistic size and age difference; anatomically accurate; authentic wild eastern Himalayan habitat; no people, zoo, enclosure, fence, feeder, collar, nesting box, food dish, props, text, logo, caption, border, or watermark.
     Avoid: anthropomorphic emotion or gesture; exaggerated cuteness; cuddling; staged eye contact; matching poses; plush-toy appearance; oversized heads or eyes; identical-size pair; miniature newborn; adult-looking cub; cinematic spectacle; heavy retouching; extra limbs, merged paws, fused bodies, duplicate tails, malformed faces, or hidden/cropped feet and tails.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-forest-canopy-portrait.webp` SHA-256: `6dd2d4f4b28e51f6d5350edeabac52d8d29a07f40b16fdd4adf95c27e411c81e`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.68, "y": 0.48}`. Full-subject boundary: `{"left": 860, "top": 306, "right": 1430, "bottom": 540}`, 570×234 source pixels, unchanged. Boundary center: 74.5% of source width.
+
+Original-resolution composition inspection: Complete visible ears, whiskers, paws and tail within real forest margin. Natural far-side limb overlap; quiet misty left field.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 423.0×173.7 → 272.0×111.7 | 24.00 | 80.17 | 72.17 | Pass |
+| 390×760 | 423.0×173.7 → 342.0×140.4 | 24.00 | 65.80 | 57.80 | Pass |
+| 1366×768 | 506.9×208.1 → 559.7×229.8 | 72.00 | 51.32 | 147.12 | Pass |
+| 1920×900 | 712.5×292.5 → 825.6×338.9 | 72.00 | 62.40 | 158.53 | Pass |
+| 2560×900 | 950.0×390.0 → 1132.8×465.0 | 72.00 | 75.20 | 95.48 | Pass |
+| 3840×900 | 1425.0×585.0 → 1364.1×560.0 | 96.00 | 292.35 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

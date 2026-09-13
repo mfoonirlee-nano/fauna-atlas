@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One yellow seahorse Hippocampus kuda, smooth ochre yellow ringed body without elaborate spines, tubular snout pointing left, small crown, translucent dorsal and pectoral fins, upright underwater with complete curled prehensile tail around one thin seagrass blade. Natural underwater editorial macro photograph in shallow Indo-Pacific seagrass meadow. Full prominent animal on RIGHT within x=850..1320 y=140..865, all snout fin edges and entire tail curl visible with real water around outer silhouette. Left40% quiet softly blurred blue-green water. Clear natural detail, restrained sunlight, no other animals no text no watermark no collage.",
+  "generatedFile": "exec-93713491-1d29-4aa1-b1e0-64dfb34b43e0.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 775,
+      "top": 45,
+      "right": 1315,
+      "bottom": 920
+    },
+    "sha256": "a7f438dc309bd016dbe7c441004c1074de6498725999fe4891693d46ab1dd128"
+  },
+  "sourceSha256": "c13712a40eac1b04147f6e24becf16f11f0491c0671501053a5439ccbcabb9f6",
+  "supersededCover": {
+    "sha256": "53cb6d767c939949a11b63cab3a87b2dd9140975dcc8ae9583596e03e7d26d5a",
+    "bounds": {
+      "left": 1058,
+      "top": 301,
+      "right": 1172,
+      "bottom": 451
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete tortoise head, shell, neck, four visible feet and tail; seahorse snout, crown, translucent fins and complete curled tail; squirrel whiskers, ear tufts, toes and all visible tail hairs. Quiet left habitat and real source clearance. Initial tortoise composition rejected for leftward head intrusion."
+}

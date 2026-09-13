@@ -132,3 +132,23 @@ The prompts repeated these constraints:
     Materials/textures: soft hydrated flatworm tissue, clean glass or clear lab polymer dish, matte metal objective; never rubbery animals or science-fiction machinery.
     Constraints: exactly one complete planarian plus exactly two fragments in exactly one dish; six total eye spots, two on the complete animal, two on the anterior fragment, none on the posterior fragment; one microscope objective that remains separate from the water; no human, tool contact, injury, blood, loose organs, visible cells, text, numbers, labels, screens, charts, brand, logo, ruler, arrows, border, signature, or watermark; fully opaque sRGB PNG. This is a generalized research reconstruction, not evidence for a named experiment, gene, result, time point, or medical application.
     Avoid: microscope lens touching water, surgical scene, forceps, pipette in dish, blade, scissors, gloved hand, injection, fluorescent neon, cell icons, DNA helix, human organs, two-headed animal, uncontrolled fragment swarm, specimen jar, petri-dish labels, data overlay, monitor text, duplicate microscope, fantasy regeneration, CGI, illustration.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-stream-stone-cover.webp` SHA-256: `662a9875e8b655502945b8a16a0a805d8255b1a59946cf69c3f75e7191c2279a`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.65, "y": 0.5}`. Full-subject boundary: `{"left": 734, "top": 264, "right": 1386, "bottom": 664}`, 652×400 source pixels, unchanged. Boundary center: 69.0% of source width.
+
+Original-resolution composition inspection: Full auriculate head and tapered tail remain on right with real stone margin. Left background softly defocused, subject outline readable. Hero remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 483.9×296.9 → 272.0×166.9 | 24.00 | 52.56 | 44.56 | Pass |
+| 390×760 | 483.9×296.9 → 286.9×176.0 | 51.56 | 48.00 | 40.00 | Pass |
+| 1366×768 | 579.8×355.7 → 559.7×343.4 | 72.00 | 51.32 | 90.32 | Pass |
+| 1920×900 | 815.0×500.0 → 825.6×506.5 | 72.00 | 62.40 | 74.75 | Pass |
+| 2560×900 | 1086.7×666.7 → 912.8×560.0 | 96.00 | 185.20 | 48.00 | Pass |
+| 3840×900 | 1630.0×1000.0 → 912.8×560.0 | 96.00 | 518.00 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

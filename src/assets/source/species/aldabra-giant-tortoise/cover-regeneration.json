@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover landscape1536x1024. One Aldabra giant tortoise Aldabrachelys gigantea walking leftwards on very short island grass with sandy patches. High domed gray brown shell, long outstretched wrinkled neck, small head, four thick scaly elephantine legs, visible claws and short tail. Natural history editorial photograph soft tropical daylight. Full prominent animal on RIGHT: nose at x=740, rear at x=1420, shell top y=270, toes y=810. All outer anatomy complete with real habitat around every extremity. Left40% only quiet blurred island grass and distant shrubs. Keep full feet visible and no foreground grass hiding claws. One animal only, no text watermark collage borders or human objects.",
+  "editPrompt": "Edit composition only: keep this Aldabra tortoise anatomy and walking pose, natural light and1536x1024 photograph. Scale the complete tortoise to75% current linear size and move right, nose x=730 and farthest rear foot or tail no further than x=1450. Full shell neck four feet claws and tail remain visible with background clearance. Left40% quiet defocused island habitat without tortoise parts. Natural ground contact, no extra animals or text.",
+  "rejectedCandidate": "Initial candidate head intruded into left copy field.",
+  "generatedFile": "exec-e2128fdb-5cf0-46d5-b863-f12996e55275.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 780,
+      "top": 355,
+      "right": 1455,
+      "bottom": 730
+    },
+    "sha256": "dd49b0b4294729d4a817dbbfe5e9753ce61588280c8b5c4a879a1973fe11d29a"
+  },
+  "sourceSha256": "36ab4f61c131a9eda9620431b1ff0c4aea107ebe082ad7df41d1e87325718252",
+  "supersededCover": {
+    "sha256": "e82280c9d445aa9aa491e67e8fb5c4bffa246f28ce37286435be149148d7c337",
+    "bounds": {
+      "left": 1083,
+      "top": 328,
+      "right": 1187,
+      "bottom": 378
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete tortoise head, shell, neck, four visible feet and tail; seahorse snout, crown, translucent fins and complete curled tail; squirrel whiskers, ear tufts, toes and all visible tail hairs. Quiet left habitat and real source clearance. Initial tortoise composition rejected for leftward head intrusion."
+}

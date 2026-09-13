@@ -166,3 +166,23 @@ The accepted image uses a fully coiled transparent shell and two large velum lob
 ## Static verification
 
 Static inspection confirms that all 12 files decode as 1536 × 1024 opaque sRGB images. The six source PNGs contain 243–253 palette colors, and all 12 source and runtime files have distinct SHA-256 hashes. Final frame 05 hashes to `622f3ec7d9a95c39d4890afb3dc179400a1d4f7b637bbd86a984b8ef24067bed` for the source PNG and `1fe2421bf4d8a26e2a7bc253baee5826a19ce454e35b4b89308b9c01b342b7a2` for the runtime WebP. TinyPNG did not compress the sources: its API returned HTTP 429 for the exhausted monthly quota on 2026-08-29. ImageMagick palette-quantized the source PNGs to at most 256 colors with Riemersma dithering, and the repository conversion settings `cwebp -q 82 -m 6 -mt` produced the runtime WebPs without changing orientation, dimensions or crop.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-ocean-surface-adult-portrait.webp` SHA-256: `89c094d57d577e652a122f39abab7c6066b74b54210d32a364bcbb20f222dc19`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.67, "y": 0.49}`. Full-subject boundary: `{"left": 666, "top": 158, "right": 1274, "bottom": 822}`, 608×664 source pixels, unchanged. Boundary center: 63.2% of source width.
+
+Original-resolution composition inspection: Full head appendages, all visible cerata clusters and tail tip fit with real water margins. Left field is quiet blue water; bright highlights sit above right field. Hero acceptance remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 451.2×492.8 → 161.2×176.0 | 79.42 | 48.00 | 40.00 | Pass |
+| 390×760 | 451.2×492.8 → 161.2×176.0 | 114.42 | 48.00 | 40.00 | Pass |
+| 1366×768 | 540.7×590.5 → 391.9×428.0 | 96.00 | 135.21 | 48.00 | Pass |
+| 1920×900 | 760.0×830.0 → 512.8×560.0 | 96.00 | 218.81 | 48.00 | Pass |
+| 2560×900 | 1013.3×1106.7 → 512.8×560.0 | 96.00 | 385.21 | 48.00 | Pass |
+| 3840×900 | 1520.0×1660.0 → 512.8×560.0 | 96.00 | 718.01 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

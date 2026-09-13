@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Landscape1536x1024 wildlife atlas cover of one adult white rhinoceros Ceratotherium simum on open African savanna, warm soft morning light. Full body three-quarter lateral view facing left, broad square grazing muzzle, two horns with longer front horn, small eyes, two ears, large shoulder hump, massive gray wrinkled body, four stout three-toed feet, tail with dark tuft. Entire animal prominent in RIGHT region x=670..1490 y=220..830, including front horn tip, ears, visible toes and tail tuft, surrounded by genuine background margins. Left40% quiet softly blurred pale savanna grass and sky for text. Feet on clear short-grass soil, no tall grass hiding toes, no extra animals. Natural photographic skin detail and anatomy, no armor plates, black-rhino pointed lip, cut horns, cropped tail, text, border, watermark or vertical seam.",
+  "editPrompts": [
+    "Edit composition only: uniformly reduce entire rhinoceros about15% and shift right so leftmost front horn tip starts x=660 and rightmost tail tuft ends x=1490. Keep all ears, horns, feet and complete tail tuft visible with real savanna margins. Preserve realistic white-rhino anatomy, broad square muzzle, pose and natural light. Seamless reconstruction of background; left40% only quiet savanna and sky. No seam, border, new animals or text.1536x1024.",
+    "Move the whole rhinoceros farther RIGHT and reduce it slightly. Its leftmost horn is currently x590, still too far left. Required actual leftmost horn tip x660 or greater; rightmost tail hairs x1495 or less. Uniform scale about94% then translate right. Keep horn length, all feet, anatomy, pose, tail tuft, photographic light. Left40% contains only landscape; seamless real background, no vertical seam or border.1536x1024.",
+    "The last edit made rhino too small. Enlarge entire rhino about35%, anchoring rightmost tail near x1490, so left horn lies near x700, top near y200 and feet near y800. Fill the available right half with prominent full animal. Do not cross x630 with any horn or other part. Preserve anatomy, pose, complete feet and tail hairs, natural savanna background. No seam, border or text.1536x1024.",
+    "Precise composition correction. In this image move horn tip from current x515 to x660 while keeping rightmost tail at x1490: uniformly scale the entire rhino to85% of current size about its right edge. This means rhino occupies x660..1490, not a tiny subject and not larger than current. Keep full feet, both ears, horns and tail tuft. REMOVE thin vertical colored artifact line extending above front horn into background. Preserve natural photo style, anatomy and smooth continuous savanna. All left40% landscape only.1536x1024.",
+    "Translate the entire rhinoceros exactly50pixels to the right without changing its scale or pose. Current left horn x595 must become x645. Current right tail x1470 becomes x1520, still inside canvas. Preserve full tail hairs and all extremities with real background margin. Remove any faint vertical line above horn. Reconstruct only vacated savanna background naturally. Do not zoom or resize animal.1536x1024.",
+    "Change ONLY the rhinoceros tail: curl it gently inward along the right hindquarter so entire black tail tuft is visible inside image, rightmost hair no farther right than x1490. Currently tail tuft is clipped by right edge. Preserve every other pixel as closely as possible: rhino size, head horn position, feet, body, lighting and background. Reconstruct water-free savanna behind vacated tail. Full natural tail connecting at rump; no cut stump. No text, no seam.1536x1024."
+  ],
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-0cc6470d-ba1f-40ff-8796-dc7db89707ef.png",
+  "rejectionNotes": "Earlier drafts failed left horn placement, reduced subject too far, introduced a fine line above horn, or clipped tail tuft. Final edit curls complete tail along hindquarter.",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 668,
+      "top": 216,
+      "right": 1486,
+      "bottom": 824
+    },
+    "sha256": "7b1a29b4111f9c58a2b0c48d4ff23b9b71620b5ca879cba02db8f6e58f9ff97e"
+  },
+  "sourceSha256": "3e024d68378a57cc9240676ecdd1a28bd9925461d0e77c7f200fa943bf52ccdf",
+  "supersededCover": {
+    "sha256": "ac18a59b62ddc51c63f76241ff757de738b57a500bad52512c847bb7fef956bf",
+    "bounds": {
+      "left": 576,
+      "top": 360,
+      "right": 1462,
+      "bottom": 806
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full horns, ear hairs, muzzle, visible feet and complete tail tuft resting along hindquarter. Natural far-side limb overlap. No edge clipping; quiet left40%."
+}

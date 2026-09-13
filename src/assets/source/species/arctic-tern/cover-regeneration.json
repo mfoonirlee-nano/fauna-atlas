@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "prompt": "Create a photorealistic wildlife editorial photograph of exactly one breeding adult Arctic tern on a broad bare smooth Arctic coastal rock. Landscape1536x1024. Full side view facing left, black cap, slender red bill without a black tip, pale gray body, white cheeks, long narrow folded wings, very short red legs, two distinct red webbed feet with visible toes resting on exposed smooth rock. Complete deeply forked long tail with both fine streamers separated and visible against blurred water, not hidden behind rock. All bill, cap, wing tips, feet and tail streamers entirely inside x660..1470,y230..820. Make bird as prominent as possible inside this right-side rectangle; not distant. Left40% quiet softly defocused blue-gray sea and low Arctic coast, no sharp vegetation or pebbles. Real background margins around entire bird. Natural soft polar daylight, accurate realistic bird anatomy, feather detail, no text, equipment, borders, collage.",
+  "editPrompts": [
+    "Edit this Arctic tern photograph. Move the entire bird right and slightly compact its side-view composition so ALL anatomy including bill starts at x650, with complete long tail streamers ending before x1480 on1536x1024. Keep prominent body, accurate short legs and two exposed red feet. Distinguish exactly two long white outer tail streamers from the gray folded wing tips, do not add extra tail streamers. Keep complete outlines and real margins. Left40% quiet blurred sea and sky without bird. No text."
+  ],
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-3bf7fd42-3dac-4d8b-91e6-c0c70c077892.png",
+  "rejectedCandidates": [
+    {
+      "file": "exec-c6c30d22-f9e3-4d39-94a8-253ba1f55395.png",
+      "reason": "Bill intrudes into left40%."
+    }
+  ],
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 684,
+      "top": 258,
+      "right": 1494,
+      "bottom": 670
+    },
+    "sha256": "a420b9f6dfb2bbb5dfab7629ca6eada595aca04fdf18b5f7a6df61149beb2e0f"
+  },
+  "sourceSha256": "e0b0e9169c478885e0c8b7cd838209acac0b8c97c313bf49172e3c5b05823920",
+  "supersededCover": {
+    "sha256": "c426b5f44955ab27891da846841049629db78b8bdcce50610fb516e266f20c3f",
+    "bounds": {
+      "left": 776,
+      "top": 500,
+      "right": 1486,
+      "bottom": 778
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full bill, cap, folded wing tips, both long tail streamers and two feet with visible toes. Far-side wing naturally overlaps body. No edge clipping; quiet left40%.",
+  "status": "source composition and single-cover hero accepted"
+}

@@ -154,3 +154,26 @@ Avoid: net, trawl, bucket of jellyfish, hook, cage, trap, suction hose, robotic 
 - Source and runtime basenames form six one-to-one pairs.
 - Runtime files were encoded with `cwebp -q 82 -m 6 -mt`.
 - Visual inspection checks adult bell shape, four gonads, short tentacle fringe, dispersed habitat spacing, prey scale, corrected strobila orientation, one eight-rayed ephyra, non-contact monitoring, full framing, and absence of text or watermarks.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-coastal-water-portrait.webp` SHA-256: `5223d571cdb0d2a15f502b1d2070daba725845c68852596b2d110f4f615c61e8`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.7, "y": 0.53}`. Conservative full-subject boundary: `{"left": 654, "top": 132, "right": 1458, "bottom": 824}`, 804×692 source pixels (previously 880×728). Boundary center is 68.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the translucent bell, finest marginal tentacle tips and complete oral arms. Transparent tissues overlap naturally; the boundary is not restricted to the opaque bell rim. Real water margins surround every visible fringe. Left 40% contains quiet dark teal water. A built-in edit corrected the initial draft’s left intrusion. Fine canal branching and tentacle spacing are illustrative. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 653.1×540.3 → 204.5×176.0 | 57.76 | 48.00 | 40.00 | Pass |
+| 390×760 | 653.1×540.3 → 204.5×176.0 | 92.76 | 48.00 | 40.00 | Pass |
+| 1366×768 | 782.6×647.4 → 497.3×428.0 | 96.00 | 82.52 | 48.00 | Pass |
+| 1920×900 | 1100.0×910.0 → 650.6×560.0 | 96.00 | 149.88 | 48.00 | Pass |
+| 2560×900 | 1466.7×1213.3 → 650.6×560.0 | 96.00 | 316.28 | 48.00 | Pass |
+| 3840×900 | 2200.0×1820.0 → 650.6×560.0 | 96.00 | 649.08 | 48.00 | Pass |
+
+`npm run test:carousel`: all 105 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

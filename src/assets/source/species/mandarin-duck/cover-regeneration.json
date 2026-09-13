@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate a 1536x1024 landscape wildlife atlas cover, one adult male mandarin duck Aix galericulata in breeding plumage standing on a natural broad log beside East Asian woodland pond. Left-facing three-quarter side view. Prominent whole duck occupies RIGHT of frame within x=720..1410 y=190..840, full red bill, ornate swept crown and rust cheek feathers, broad white eyebrow, purple breast, orange upright sail feathers, folded wings, full tail and two orange webbed feet all visible with real background margin. Anatomically coherent natural proportions and soft daylight, detailed restrained wildlife editorial photograph. Left40% quiet softly defocused green pond and woodland for copy. Log below duck, no foliage hiding feet. No other animals text logos borders collage or artificial colors.",
+  "generatedFile": "exec-fa41516c-857b-45ae-bd06-d383215f6c91.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 120,
+      "right": 1507,
+      "bottom": 868
+    },
+    "sha256": "8a41ccf0765cedb1266b64439ccde3f7238e70d21a6b5cb5735e41d7e67f16e8"
+  },
+  "sourceSha256": "d24c23e184b064efd97f4ccfce38b04b1e767cc863d390b33de8042d2ad53870",
+  "supersededCover": {
+    "sha256": "a02217a6ba74ac5de2bd0a072ed28263ec8ea80294d6781d3ee148d4002af8f7",
+    "bounds": {
+      "left": 1172,
+      "top": 394,
+      "right": 1266,
+      "bottom": 473
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full bill, swept crown and cheek feathers, orange sail feathers, folded wings, tail tips and two webbed feet retained. Far-side feathers overlap naturally in this pose. Quiet left pond background and real background around all source extremities."
+}

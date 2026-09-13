@@ -45,3 +45,26 @@
 ## 仓库验证
 
 `npm run typecheck`、`npm test`（含生产构建与子路径资源验证）及 `git diff --check` 通过。验收后删除本批临时源 PNG，保留运行 WebP、提示和源文件哈希。
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cover.webp` SHA-256: `cce07fff2954654fb47668590fa40ec81976bc63f5a80fb5ea1cec0530c551ea`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.88, "y": 0.35}`. Conservative full-subject boundary: `{"left": 685, "top": 350, "right": 1485, "bottom": 835}`, 800×485 source pixels (previously 118×75). Boundary center is 70.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes outer walking legs, setae, eye stalks and claw tips for the crab; gathered arm tips and fin skirt for the cuttlefish; ears, whiskers, paws and entire tail for the fennec fox. Background remains between these features and the source edges. The animal is prominent on the right; the left 40% remains quiet habitat. The conservative measurement may include a few background pixels. Cuttlefish feeding tentacles remain retracted and some arms overlap naturally; the image does not prove exact arm counts. Crab leg bases partly overlap in this three-quarter pose; visible extremities are included. The first crab and cuttlefish candidates intruded into the left copy area and were rejected; final edit prompts are retained.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 87.6×55.7 → 272.0×164.9 | 24.00 | 53.55 | 45.55 | Pass |
+| 390×760 | 87.6×55.7 → 290.3×176.0 | 49.85 | 48.00 | 40.00 | Pass |
+| 1366×768 | 104.9×66.7 → 559.7×339.3 | 72.00 | 51.32 | 92.35 | Pass |
+| 1920×900 | 147.5×93.8 → 825.6×500.5 | 72.00 | 62.40 | 77.74 | Pass |
+| 2560×900 | 196.7×125.0 → 923.7×560.0 | 96.00 | 179.74 | 48.00 | Pass |
+| 3840×900 | 295.0×187.5 → 923.7×560.0 | 96.00 | 512.54 | 48.00 | Pass |
+
+`npm run test:carousel`: all 24 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

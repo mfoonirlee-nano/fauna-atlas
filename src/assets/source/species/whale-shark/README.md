@@ -116,3 +116,26 @@ Color palette: Sunlit cyan, layered ocean blue, blue-gray skin and soft off-whit
 Constraints: Exactly three whale sharks total and no fourth silhouette; three separate complete bodies and three separate tails; consistent Rhincodon typus anatomy with non-identical spot patterns; loose seasonal aggregation rather than coordinated schooling; no text, caption, logo, signature, border or watermark; no people, divers, snorkelers, boats, cages, feeding apparatus, remoras, fish or other wildlife.
 Avoid: one, two, four or more sharks, hidden background animal, overlapping or fused bodies, cloned scale or identical spot maps, regimented formation, social touching, collision, feeding frenzy, predation, blood, giant teeth, whale anatomy, malformed fins, cropped tails, aquarium scene, tourism spectacle, CGI, illustration, painting, oversaturation or glossy advertising style.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-open-ocean-portrait.webp` SHA-256: `8bb515dacb4d7bcfe8bf5395aa1fa6fe08b366a3d13b071f01f84d69de54eded`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.66, "y": 0.5}`. Conservative full-subject boundary: `{"left": 662, "top": 328, "right": 1476, "bottom": 664}`, 814×336 source pixels (previously 1042×412). Boundary center is 69.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full whale shark boundary includes the broad snout, visible dorsal, pectoral and ventral fins, and both complete tail lobes. Far-side paired fins naturally overlap the body in this view. Real ocean margins surround the silhouette, and left 40% contains quiet water. One generated draft still intruded into the left field; a built-in edit corrected placement before conversion. Fine spot patterns are illustrative. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 773.4×305.8 → 272.0×112.3 | 24.00 | 79.86 | 71.86 | Pass |
+| 390×760 | 773.4×305.8 → 342.0×141.2 | 24.00 | 65.42 | 57.42 | Pass |
+| 1366×768 | 926.7×366.4 → 559.7×231.0 | 72.00 | 51.32 | 146.49 | Pass |
+| 1920×900 | 1302.5×515.0 → 825.6×340.8 | 72.00 | 62.40 | 157.61 | Pass |
+| 2560×900 | 1736.7×686.7 → 1132.8×467.6 | 72.00 | 75.20 | 94.20 | Pass |
+| 3840×900 | 2605.0×1030.0 → 1356.7×560.0 | 96.00 | 296.07 | 48.00 | Pass |
+
+`npm run test:carousel`: all 100 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

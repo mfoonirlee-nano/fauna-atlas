@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate landscape1536x1024 wildlife atlas cover of one adult Chinese pangolin Manis pentadactyla on a clear patch of subtropical forest floor in soft dusk light. Full body three-quarter view facing left, small conical head with elongated narrow muzzle, visible small external ear, dark eye, overlapping brown keratin scales, stout curved body, four short limbs, powerful curved foreclaws naturally folded slightly inward, long thick tapering scaled tail gently curving to right. Complete animal prominent inside RIGHT region x=670..1490 y=230..830 including muzzle, every visible claw tip and full tail tip, with real forest-ground background margins. Left40% only quiet softly defocused dark green-brown forest for title. Use enough natural soft fill light to distinguish all visible edges from ground; no vegetation or rocks obscure extremities. Realistic anatomy, non-repetitive scales, natural photo texture. No armored fantasy creature, huge ears, extra legs, tongue, text, labels, seam, border or watermark.",
+  "editPrompt": "Edit only placement and size: reduce complete pangolin uniformly about10% and shift right so leftmost snout begins at x=660, outer tail curve ends at x=1490, all visible feet and tapering tail tip fully surrounded by real ground. Preserve anatomy, pose, scales, lighting and full claw tips. Reconstruct vacated background seamlessly. Left40% quiet blurred forest and ground only. No seam, text, border, extra limbs or changed tail shape. Keep1536x1024.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-348e0501-df6a-4a19-983f-19faf91ca70d.png",
+  "rejectedCandidate": "exec-ba9d44d6-9d17-4ed4-a583-024444f1a7ca.png: snout intruded into left40%",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 370,
+      "right": 1466,
+      "bottom": 786
+    },
+    "sha256": "bbd5371aeb869779a6ce6cb983f7b4058f8673d5225fb8cf4fb7f3a830aaef95"
+  },
+  "sourceSha256": "ce96432d1497365fd528496b07f324cd1bc0d357df840426795fb47a41040740",
+  "supersededCover": {
+    "sha256": "92e4af70c582cf6baf8e409c4225f3f4fda312108bf1298e361f8887f3df88f3",
+    "bounds": {
+      "left": 564,
+      "top": 410,
+      "right": 1470,
+      "bottom": 846
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full snout, visible ears, claws, feet and complete curved tail tip. Natural far-side limb overlap and ground contact. No edge clipping; quiet left40%."
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate 1536x1024 landscape macro wildlife atlas cover, one rusty-patched bumble bee worker Bombus affinis on the outer edge of a purple wild bergamot flower, three-quarter dorsolateral view. Dense yellow thoracic hairs with central dark patch, black head, yellow anterior abdomen with distinctive small rusty orange patch centered in second abdominal band surrounded by yellow hairs, posterior abdomen black. Realistic insect anatomy: two elbowed antennae, six jointed legs, two pairs of translucent veined wings naturally overlapped over back, modest pollen loads on hind legs. Show complete prominent bee including both antenna tips, all visible tarsi and translucent wing edges; flower must not hide the bee's outer contour. Place complete bee in right field x=700..1450 y=200..830, center around74% width. Purple flower supports feet below/right and does not occupy left 40%. Left 40% quiet creamy defocused meadow green for text. Real background margins around entire bee. Natural soft daylight, documentary macro detail, continuous background, no seam, labels, text, border, extra insects, gigantic pollen balls or invented limbs.",
+  "editPrompt": "Edit the bee's abdominal color pattern and placement only. The rusty orange patch should be a SMALL central oval patch on the second abdominal segment, visibly surrounded on both sides and above/below by yellow hairs; do not make the entire band orange. Shift the complete bee and supporting flower about60pixels right, so the leftmost translucent wing tip is x=670 and the full antennae and feet stay inside frame. Preserve bee size, realistic anatomy and pose, full visible wing edges and tarsi, meadow bokeh and natural macro light. Left40% only quiet green. No seam or text. Keep1536x1024.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-ca5cfa96-ccdb-4c63-9b50-6403d21365d6.png",
+  "rejectedCandidate": "exec-9574bf09-2181-4066-b26a-59cf26a648af.png: wing tip at left boundary, orange abdominal band too broad",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 668,
+      "top": 148,
+      "right": 1388,
+      "bottom": 780
+    },
+    "sha256": "bc637692d40eb97856509a6aa294090647cd8c3414395e6ba93d5ed12c4c8da0"
+  },
+  "sourceSha256": "df8f8937eba1d82983ab821bf0de62d2baec5c26deb78032ef3bf4e2db57a4f5",
+  "supersededCover": {
+    "sha256": "62ca4e15e2f5418ababca050dfda672cf078119bf1ba603424680976a1ab9cfc",
+    "bounds": {
+      "left": 594,
+      "top": 342,
+      "right": 1170,
+      "bottom": 834
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full antennae, translucent wing edges, body hairs and visible tarsi. Far-side limbs naturally overlap body and flower. No edge clipping; quiet left40%."
+}

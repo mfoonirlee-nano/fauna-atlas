@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One great white shark Carcharodon carcharias swimming calmly left-facing side three-quarter view underwater in temperate blue coastal open ocean. Gray dorsal surface white belly, conical snout, five gill slits, triangular dorsal fin, paired pectoral fins and complete crescent tail including both lobes, smaller rear fins anatomically coherent. Prominent whole shark on RIGHT with full snout all fin tips and entire tail within x=710..1430 y=210..830. Real blue water clearance around entire silhouette. Left40% quiet blue open water, natural soft underwater sunlight editorial wildlife photograph. Closed relaxed mouth, no prey divers cages other animals text watermark collage or borders.",
+  "editPrompt": "Adjust composition only. Preserve this great white shark anatomy identity pose underwater light and1536x1024 photograph. Scale complete shark including ALL fin tips and tail to80% current linear size, move right until snout x=720 and farthest tail tip no further than x=1480. Left40% quiet empty blue water with no shark parts. Keep full dorsal paired pectoral smaller fins and both tail lobes intact with real water clearance. No added animals or text.",
+  "rejectedCandidate": "Initial shark head intruded into left copy field.",
+  "generatedFile": "exec-bafc7ced-d26c-4317-ab55-6ebb55d34c8d.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 690,
+      "top": 285,
+      "right": 1460,
+      "bottom": 685
+    },
+    "sha256": "022c73e33ec7595fb9681c0781794e6fa2da92a3a367e749c49b4d6263176480"
+  },
+  "sourceSha256": "43f59457e0a159605754a1d0c22baf079f8719b929857c34cb6bb40bb9546831",
+  "supersededCover": {
+    "sha256": "bb8b893fc12879b4bbf6c2f836095b2d02d239bd4bbf6f0827b2de4e366fca25",
+    "bounds": {
+      "left": 1092,
+      "top": 346,
+      "right": 1305,
+      "bottom": 431
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full snout, dorsal fin, paired pectoral fins, visible smaller fins and both tail lobes retained. Natural far-side fin overlap. First candidate head intruded into left field; accepted edit shifts full shark right. Quiet left water and real source-edge clearance."
+}

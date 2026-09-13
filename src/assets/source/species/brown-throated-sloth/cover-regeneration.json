@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Landscape1536x1024 wildlife atlas cover of one brown-throated three-toed sloth Bradypus variegatus hanging naturally beneath a rainforest branch. Full animal in RIGHT region x=680..1480 y=170..850 including head, shaggy body, all visible limbs and curved claw tips. Small round head looking slightly toward viewer and left, pale face with dark eye mask, brown throat, coarse gray-brown fur with subtle green tinge, long forelimbs and shorter hindlimbs, three curved claws on each visible foot. Four limbs connected anatomically to one body; feet naturally wrap branch, no invented limbs. Supporting branch runs across upper right; left40% quiet defocused green rainforest bokeh for text. Complete visible silhouette and claws surrounded by real background margins, no leaves covering animal, natural branch occlusion only at grip. Make animal prominent filling right region, natural soft canopy light and photographic detail. No cartoon smile, extra toes, cropped claws, text, border, watermark or vertical seam.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-03675e31-8315-4566-a6d5-c5201e716c08.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 16,
+      "right": 1470,
+      "bottom": 882
+    },
+    "sha256": "9de5aadf54074e5276de5269c79e53ef77dd45848ed5e33197434bd1f9f87935"
+  },
+  "sourceSha256": "104171c595cd04e90cb7b36f2cba7806e7ada8dd6fbed5ac5cbc6e6931e3a24a",
+  "supersededCover": {
+    "sha256": "286273e6079c3dfe3eea4e6da385a1039201d6e39f0d7c81965d08595bd7fd11",
+    "bounds": {
+      "left": 516,
+      "top": 34,
+      "right": 1368,
+      "bottom": 764
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full head, outer fur, all visible limb and gripping claw tips including uppermost claws. Branch naturally overlaps grip; supporting branch is environment. No edge clipping; quiet left40%."
+}

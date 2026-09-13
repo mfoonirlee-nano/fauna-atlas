@@ -212,3 +212,26 @@ TinyPNG reported a 64.8% total size reduction for the first six accepted source 
 | 04    | `2643b66b1e4d0b536272fb93d903ac401f7a37ad42638692faef8df3e4c4f2ee` | `00ecbcdc6724e2dd9f1290c40fdf08e2dbe526aa4fe44bd09b657d4e9d555b53` |
 | 05    | `c82758cbf0b2fb55e26ccd0e4341bd628290dc7a6e8efb26cefc31f83bfd949a` | `f4b314df7bed851b16d201550e3e8921f343a88787ee2c66a7142c0a128e2c3d` |
 | 06    | `1dd81ea580fbdae00604aeee016d52a047481f7c18ee9369bfe0235d0b0e79cf` | `e3e6e9d2cc34d1143af83c17dee34a1a794163ed4c860b036a3dd149d371319d` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-dry-chaco-foraging-cover.webp` SHA-256: `ff79b20a4f301ff6c68fc6c5bc4c46a50474aef84176a6d31720b03e2c5a1537`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.7, "y": 0.56}`. Conservative full-subject boundary: `{"left": 640, "top": 302, "right": 1500, "bottom": 800}`, 860×498 source pixels (previously 1012×552). Boundary center is 69.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes ears, muzzle, armored shell and sparse hair fringe, four visible feet with claws and complete tapering tail. Far-side limb roots naturally overlap the body. One edit moved the head right and reduced bright sun and background contrast. Real ground and woodland surround the silhouette, with a narrow right margin beyond tail. Left 40% contains defocused woodland and sky above the foreground ground. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 751.1×409.7 → 272.0×157.5 | 24.00 | 57.25 | 49.25 | Pass |
+| 390×760 | 751.1×409.7 → 303.9×176.0 | 43.03 | 48.00 | 40.00 | Pass |
+| 1366×768 | 900.0×490.9 → 559.7×324.1 | 72.00 | 51.32 | 99.95 | Pass |
+| 1920×900 | 1265.0×690.0 → 825.6×478.1 | 72.00 | 62.40 | 88.96 | Pass |
+| 2560×900 | 1686.7×920.0 → 967.1×560.0 | 96.00 | 158.07 | 48.00 | Pass |
+| 3840×900 | 2530.0×1380.0 → 967.1×560.0 | 96.00 | 490.87 | 48.00 | Pass |
+
+`npm run test:carousel`: all 125 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

@@ -166,3 +166,26 @@ The converter uses `cwebp -q 82 -m 6 -mt` and removes `-source` from each runtim
 - `06` shows one polar fieldworker and one rectangular scientific midwater-net assembly at the waterline. No catch, commercial-processing scene, readable vessel name or claimed equipment model appears.
 
 ImageMagick decoded every source and runtime image at 1536 × 1024 as opaque sRGB. The source PNGs use an indexed palette after TinyPNG compression. Each runtime WebP decodes as TrueColor and contains one lossy VP8 frame without alpha or animation. SHA-256 inspection found no duplicate file within the twelve-file set.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-adult-krill-under-sea-ice.webp` SHA-256: `ce7403ae1f17719ce1a5db12a54e7898635b8dce1daf0e6c510d31edb090c98f`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.52}`. Conservative full-subject boundary: `{"left": 666, "top": 156, "right": 1510, "bottom": 884}`, 844×728 source pixels (previously 966×240). Boundary center is 70.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes both long antennae, fine feeding appendages and setae, the transparent abdomen and full tail fan fringe. Two framing edits moved the complete antenna tips out of the copy field while preserving their length. Paired appendages naturally overlap; the reconstruction does not establish exact anatomical counts. The conservative right boundary leaves 26 source pixels of real water beyond the tail fringe. Quiet dark blue water fills the left field with only subdued overhead ice light. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 717.0×178.1 → 204.0×176.0 | 57.98 | 48.00 | 40.00 | Pass |
+| 390×760 | 717.0×178.1 → 204.0×176.0 | 92.98 | 48.00 | 40.00 | Pass |
+| 1366×768 | 859.1×213.4 → 496.2×428.0 | 96.00 | 83.06 | 48.00 | Pass |
+| 1920×900 | 1207.5×300.0 → 649.2×560.0 | 96.00 | 150.58 | 48.00 | Pass |
+| 2560×900 | 1610.0×400.0 → 649.2×560.0 | 96.00 | 316.98 | 48.00 | Pass |
+| 3840×900 | 2415.0×600.0 → 649.2×560.0 | 96.00 | 649.78 | 48.00 | Pass |
+
+`npm run test:carousel`: all 165 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

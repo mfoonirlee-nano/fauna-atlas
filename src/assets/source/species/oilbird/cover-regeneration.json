@@ -1,0 +1,28 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One adult oilbird Steatornis caripensis perched at a tropical cave entrance. Full body three quarter side view looking left. Accurate chestnut brown plumage with scattered small white spots, large dark eyes, small hooked bill with visible fine rictal bristles, long folded wings, full long tail, two short legs and visible gripping toes on a small unobtrusive rock ledge. Bird prominent on RIGHT, full silhouette including bristles and tail within x=700..1420 y=100..920; enlarge animal to roughly 780px tall. No clipping. Real background around every feather and toe. Left 40% is softly defocused dark warm cave interior, low detail with subtle tonal variation; tiny distant blue dusk forest glimpse only at far right. Soft reflected natural light reveals bird feather detail, plausible dim cave setting, not flash glare. No other birds, text, diagram, watermark or frame. Bird distinct from rock; feet visible rather than hidden.",
+  "editPrompt": "Edit this oilbird wildlife photograph. Preserve species anatomy, plumage, two visible gripping feet, complete tail and natural pose. Reposition and slightly scale the whole bird so ALL bristles including leftmost fine hair begin beyond x=660, with silhouette ending before x=1450, top after y=70 and bottom before y=950 in 1536x1024. Keep bird large, around 850px tall. Replace leftmost 40% background with very softly defocused dark brown cave shadow: remove conspicuous sharp stalactites and patterned rocks there, leaving a quiet low-contrast field. Keep small rock perch only under bird at right, dusk opening far right. Do not crop any feather, hair or claw.",
+  "generatedImage": "exec-1fbce40d-e738-4785-9f4b-182eb73bfee7.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 596,
+      "top": 76,
+      "right": 1492,
+      "bottom": 980
+    },
+    "sha256": "9fa14140cdafc47915d42f33bc0c86a468681caee585dc237e0b49e8f0a65951"
+  },
+  "sourceSha256": "2ec086db6d9b935ef91d93b1f049b6bf73d081da721651783561ac8670131bc4",
+  "supersededCover": {
+    "sha256": "8dfb97785b0950e8322632d5b5996a28d0a36587d6a7a7df7533298bb470d511",
+    "bounds": {
+      "left": 868,
+      "top": 386,
+      "right": 1010,
+      "bottom": 610
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full bill bristles, folded wings, long tail and both gripping feet. Far-side wing and perch-contact toe portions naturally overlap. A few fine bristle tips extend to 38.8 percent; bill and body clear the left40 and left background remains quiet. No edge clipping; quiet left40%."
+}

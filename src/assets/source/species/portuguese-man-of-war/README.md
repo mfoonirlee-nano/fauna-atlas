@@ -205,3 +205,26 @@ No people, hands, feet, children, swimmers, dogs, tools, sticks, gloves, footpri
 - The six palette-quantized PNG sources total 3,325,568 bytes or 3,247.6 KB. WebP conversion reduced the combined runtime payload by 82.8%.
 - Runtime inspection found no new crop, subject, visible text, logo, watermark, border or material compression defect.
 - Verification used static file inspection and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-atlantic-surface-colony-portrait.webp` SHA-256: `1dbdffa7f7dc37ccd7ffabd27e8bab80a69ad52c0f2716667819981d30823c62`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.55}`. Conservative full-subject boundary: `{"left": 804, "top": 42, "right": 1450, "bottom": 952}`, 646×910 source pixels (previously 752×954). Boundary center is 73.4% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the transparent float and sailing crest, attached visible zooids and every visible tentacle terminal tip. This reconstruction uses unequal contracted curved tentacles; their natural overlap does not establish a count, maximum extension or measured colony proportions. The split waterline naturally refracts part of the float base. Real sky and water surround the outline, with the lowest tip above the source bottom. Left ocean and sky remain subdued. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 558.1×708.0 → 124.9×176.0 | 97.53 | 48.00 | 40.00 | Pass |
+| 390×760 | 558.1×708.0 → 124.9×176.0 | 132.53 | 48.00 | 40.00 | Pass |
+| 1366×768 | 668.8×848.4 → 303.8×428.0 | 96.00 | 179.24 | 48.00 | Pass |
+| 1920×900 | 940.0×1192.5 → 397.5×560.0 | 96.00 | 276.43 | 48.00 | Pass |
+| 2560×900 | 1253.3×1590.0 → 397.5×560.0 | 96.00 | 442.83 | 48.00 | Pass |
+| 3840×900 | 1880.0×2385.0 → 397.5×560.0 | 96.00 | 775.63 | 48.00 | Pass |
+
+`npm run test:carousel`: all 168 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

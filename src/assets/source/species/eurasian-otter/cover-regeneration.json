@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover, landscape 1536x1024. One adult Eurasian otter Lutra lutra on a flat unobstructed damp sandy riverbank. Complete animal in a natural three-quarter side standing pose facing left, head slightly turned toward camera, elongated low body, short legs, brown wet fur and pale throat, small rounded ears, fine long whiskers, thick muscular tapering tail gently curved beside the body on the RIGHT with its pointed terminal tip completely visible. Show all four paws naturally placed on bare ground, no rocks reeds or vegetation hiding paws or tail. Large prominent animal entirely on right: full silhouette including whiskers, tail and toes confined to x=650..1460, y=230..870. Real background margins around every extremity. Left 40 percent is quiet soft grey-green defocused river water with no sharp ripples, rocks, branches or bright highlights. Gentle overcast light, accurate natural anatomy, eye-level documentary photograph, detailed animal against subdued habitat. No extra animals, text, watermark, border, panels.",
+  "edits": [
+    "Adjust this otter cover composition only: shift the head, chest and forepaws slightly right and make the whole animal about 8 percent narrower, keeping natural otter anatomy, four visible paws, detailed whiskers and the complete curved pointed tail. Entire animal INCLUDING the leftmost whisker and fur must be within x=650..1470 on the 1536x1024 canvas. Keep its current height and prominent size. Keep real margin to right of tail. Preserve quiet soft river on left and unobstructed sand below. Do not add any objects or text."
+  ],
+  "generatedImage": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-189586d5-00f4-43b3-83ac-228279f3238b.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 672,
+      "top": 196,
+      "right": 1478,
+      "bottom": 794
+    },
+    "sha256": "c78bd86368b97cc61a3f313b9231df88799c7bc16dc22f51fcfd8e5828b92dc5"
+  },
+  "sourceSha256": "bd2315bb9a87ac6bb902bd04700cb74082d129b2560be73aebaf9a70143c5e30",
+  "supersededCover": {
+    "sha256": "456ce82f1a9c69aa7ff2409cebfba96eb497b202fee81bd8c04f6dac85345a62",
+    "bounds": {
+      "left": 674,
+      "top": 362,
+      "right": 1480,
+      "bottom": 780
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete ears, fine whiskers, all four visible paws and the full tapering curved tail. Proximal legs naturally overlap."
+}

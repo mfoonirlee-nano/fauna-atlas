@@ -114,3 +114,26 @@ Use case: photorealistic-natural. Create an original conservation-monitoring sti
 | `04-ventral-electric-organs.webp` | `9e8161bbf3e441df98f84cf1624e516bf34f15a593ec6f153b405e60f4e6e409` |
 | `05-small-fish-prey-encounter.webp` | `fb8450e96da918387eb867072fd21eb18da0686a8611921007639ba0c3769d69` |
 | `06-noncontact-visual-survey.webp` | `7c865f6ad6305e47a390605fc4dbd4faaa2c1e2fae956b1b8d57b66450bfcfc8` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-mediterranean-soft-bottom-portrait.webp` SHA-256: `ccb3c68612ff1b9364fb47c3485013223573ee3e194d40be1392cddb11fcc58c`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.56, "y": 0.58}`. Conservative full-subject boundary: `{"left": 680, "top": 140, "right": 1464, "bottom": 820}`, 784×680 source pixels (previously 1060×572). Boundary center is 69.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the rounded disc edge, visible pelvic margin, two distinct dorsal fins and complete broad caudal fin. Five flat blue-centered ocelli remain on the disc. The underside and far pelvic margin are naturally concealed in this dorsal view; spiracle papillae are not individually resolved. One framing edit moved the disc clear of the left copy field and softened background sediment. Real sand surrounds the complete outer contour. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 786.7×424.5 → 202.9×176.0 | 58.54 | 48.00 | 40.00 | Pass |
+| 390×760 | 786.7×424.5 → 202.9×176.0 | 93.54 | 48.00 | 40.00 | Pass |
+| 1366×768 | 942.7×508.7 → 493.5×428.0 | 96.00 | 84.43 | 48.00 | Pass |
+| 1920×900 | 1325.0×715.0 → 645.6×560.0 | 96.00 | 152.38 | 48.00 | Pass |
+| 2560×900 | 1766.7×953.3 → 645.6×560.0 | 96.00 | 318.78 | 48.00 | Pass |
+| 3840×900 | 2650.0×1430.0 → 645.6×560.0 | 96.00 | 651.58 | 48.00 | Pass |
+
+`npm run test:carousel`: all 158 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

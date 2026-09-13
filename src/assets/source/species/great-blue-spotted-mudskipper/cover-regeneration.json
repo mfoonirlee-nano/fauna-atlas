@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas photograph landscape 1536x1024. One great blue spotted mudskipper Boleophthalmus pectinirostris resting on wet smooth intertidal mud, facing left full side three-quarter view. Accurate elongated grey-brown goby body with bright small blue speckles, two elevated eyes atop head, raised first dorsal fin and long lower second dorsal fin, fleshy pectoral fins supporting forebody, full tapered tail with visible caudal fin. Entire animal LARGE on right, snout x=670 tail tip x=1460, all dorsal tips and pectoral fin rays within y=280..780. Leave real mud background beyond all fin edges and tail. Visible pectoral fin must be clearly readable against lighter smooth mud, not buried. Far-side fins naturally occluded. Left 40 percent softly defocused uniform muted grey-green mudflat, no sharp shells twigs plants or other animals. Soft overcast daylight, natural anatomy and colors, no text border watermark.",
+  "edits": [
+    "Preserve this exact mudskipper, pose and fin anatomy. Correct placement: scale whole fish uniformly to 82 percent current size and move it right so nose begins at x=670 and tail ends at x=1470 in the 1536x1024 image. Keep all fin rays and tail visible, with smooth mud surrounding silhouette. Left 40 percent must be softly defocused mud with no fish. No other changes."
+  ],
+  "generatedImage": "exec-7ba53b2b-59a0-4a12-9092-ce275e65f8d8.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 288,
+      "right": 1490,
+      "bottom": 654
+    },
+    "sha256": "40c7453029982cdca6472b5a88d1cc0628e536ddfebfa161fbc79d4324989e8d"
+  },
+  "sourceSha256": "1a217eae0160cbb688a44d22efb57f2b1e86f88581b9ce4815dc924dbf4617ee",
+  "supersededCover": {
+    "sha256": "738650aa7095910e5bf93259b9b7d3f50eecf4e144bdfb5962ccf2cacedce017",
+    "bounds": {
+      "left": 558,
+      "top": 280,
+      "right": 1476,
+      "bottom": 666
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete snout, raised eyes, body, both dorsal fins, visible pectoral fin rays and tail. Far-side and ventral fins naturally overlap body or contact mud. Near pectoral edge readable against mud. Quiet left mudflat."
+}

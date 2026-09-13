@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic-natural Fauna Atlas canonical aye-aye Daubentonia madagascariensis cover, opaque1536x1024 landscape. One complete adult perched on a simple broad gently diagonal branch in Madagascar forest at night. Large bare rounded ears, pale narrow face with amber eyes, dark shaggy fur with pale guard hairs, slender limbs, long bushy tail fully visible curving down beside body. Three-quarter side portrait facing left, body sitting upright in right half, head near x=930,y=330, torso x=1160,y=540, tail arcs right then down to complete fluffy tip near x=1130,y=880. Near hand rests on top of branch with five natural slender primary fingers, digitIII especially thin and digitIV longer/thicker; no reaching into left field. Visible near foot grasps branch with toes readable, far hand and foot naturally overlap branch/body. Entire silhouette including whiskers, ear rims, fingers, visible toes and all tail fringe within x=670..1470,y=110..920. Prominent animal fills right field with real dark background margins. Left40% quiet softly defocused dark green-black forest, no sharp branches or leaves, simple support branch only lower-right. Soft restrained nocturnal documentary illumination reveals full fur contour without flash glare, no glowing eyes. No second animal, extra fingers, broken limbs, cropped tail, text, watermark, labels or border.",
+  "edits": [
+    "Refine this same aye-aye cover. Keep face, ears, shaggy coat, posture, single bushy tail and branch. Scale entire animal uniformly to88% and place complete fur/whisker/tail outline within x=700..1470,y=110..925, leaving dark real background around head hairs and tail tip. Correct the visible near hand on the left side of branch: five connected primary digits; digitIII extremely thin and wiry, digitIV longest and thicker, other digits shorter with natural claws; let thumb wrap partly around wood, no extra projecting digit. Keep far-side limbs naturally occluded. Defocus and darken branch where it enters left40% so that field stays quiet, preserve sharp support beneath animal. No other changes, no text, opaque1536x1024."
+  ],
+  "generatedImage": "exec-517d7c9d-a1eb-482d-8b18-b2b2945c77c7.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 90,
+      "right": 1428,
+      "bottom": 982
+    },
+    "sha256": "e7f164c822af624d29fdfa570f1704244bd1330648c63807c48c23237fc27f59"
+  },
+  "sourceSha256": "5473c4aa72e53121bc2fd97eff3f6ef323c111a5487770a16dd63cbcdea66eef",
+  "supersededCover": {
+    "sha256": "a8292c523632be1ead40a34abc4a693929aad125a299b7660d48453493532665",
+    "bounds": {
+      "left": 420,
+      "top": 310,
+      "right": 1440,
+      "bottom": 742
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full ears, whiskers, guard hairs, visible fingers and toes, and complete bushy tail fringe. Thumb and far-side limbs naturally overlap wood or body; individual digit anatomy is not fully exposed."
+}

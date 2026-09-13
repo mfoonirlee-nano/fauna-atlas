@@ -1,0 +1,31 @@
+{
+  "prompt": "Photorealistic-natural scientific reconstruction Fauna Atlas common octopus Octopus vulgaris sensu stricto cover, opaque1536x1024 landscape. One complete adult on low smooth Mediterranean rocky seabed. Three-quarter overhead view, broad muscular mottled reddish-brown mantle, two eyes with horizontal slit pupils, shell-free finless body, exactly EIGHT arms attached coherently to one head with modest basal web. Eight distinct tapered arms spread around body in separated gently curved paths with all eight terminal tips visible; two natural rows of suckers visible where undersides turn upward. No tangled knots or branching arms, hidden beak. Keep all eight arms compactly arranged wholly in right half within x=680..1470,y=140..910, mantle centered x=1110,y=340, arms occupy x=700..1430,y=420..850, real rock margin around every tip. Make body prominent within full-arm bounds. Left40% quiet dark defocused blue-green water and soft low-detail rock; no sharp rubble, plants or other animals. Natural subdued underwater light, fine skin papillae, realistic soft flesh and suckers, readable silhouette. No squid tentacles, fins, extra arms, missing tips, bright blue rings, text, labels, watermark or border.",
+  "edits": [
+    "Correct the octopus arm count and composition. Current image has only SIX visible arms; it needs exactly EIGHT. Rebuild the arm crown with eight separate anatomically connected arms and eight distinct tapered curled terminal tips, reducing the excessively broad web between arms. Add one arm in the left gap between the two existing left arms and one in the right gap between the two existing right arms, each with a readable separate path and full tip, no branching or detached arms. Preserve the head, mantle, eyes and skin. Scale/reposition the complete eight-arm animal inside x=660..1475,y=130..900 so leftmost tips remain right of x=660. Soft-focus left40% rock to quiet dark teal background. Full body and every arm tip with real margins, no text, opaque1536x1024.",
+    "Preserve exactly these EIGHT separate octopus arms and eight curled tips, head, mantle, eyes, skin and sucker rows. Change framing only: uniformly scale entire animal to90% and shift right so full outer contour fits x=660..1470,y=170..860. Do not change arm count, shape, web connections or tip paths. Make left40% rock softer and darker, blending into quiet teal water. Keep real rock margins around every tip, no crop, no text. Opaque1536x1024."
+  ],
+  "generatedImage": "exec-f6627737-1e3b-4ab8-ae47-b4d98f5420b4.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 714,
+      "top": 174,
+      "right": 1464,
+      "bottom": 808
+    },
+    "sha256": "570747e718c12e31a618c9e93cf3f4d6df2e90d01035214a34673da6f910e658"
+  },
+  "sourceSha256": "29fcf5884f084ac63639fd8f81ad878cacad2405f794f6a13f5f57da95737908",
+  "supersededCover": {
+    "sha256": "67aeef803d9a83c5803aa9f046b9685dced4dcef0946a8df7528bc3b4dbadc47",
+    "bounds": {
+      "left": 460,
+      "top": 180,
+      "right": 1450,
+      "bottom": 918
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete mantle, head and eight distinct arms with eight traceable curled tips. Basal web and underside naturally conceal proximal sucker surfaces; exact sucker counts not established."
+}

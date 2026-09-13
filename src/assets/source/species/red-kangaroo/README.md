@@ -137,3 +137,23 @@ Avoid: touching, feeding, capture, handling, tagging, tranquilizing, shooting, f
 - Visual inspection confirmed the requested subject counts, cover negative space, generic inland settings, absence of text and watermarks, and absence of zoo, feeding, capture or hunting cues.
 - Frames 01, 02, 04 and 05 were checked for coherent visible limbs, elongated hind feet and one connected tapering tail. Frame 03 intentionally keeps the animal small; frame 06 keeps the animal distant from both workers and equipment.
 - Frame 02 intentionally leaves sex unasserted because blue-gray fur is not diagnostic. Frame 04 keeps both hind feet and the tail airborne; the paired lower hind legs and feet are separately readable even though the upper thighs overlap in side view. Frame 05 uses a regenerated base plus one targeted pouch-rim refinement; only the final accepted variants are project assets.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-inland-plain-portrait.webp` SHA-256: `b874f5f67809e81091289eca3bb95e817e60127e8fc91db91f1a29ccc5b5a871`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.72, "y": 0.58}`. Full-subject boundary: `{"left": 696, "top": 214, "right": 1434, "bottom": 932}`, 738×718 source pixels, unchanged. Boundary center: 69.3% of source width.
+
+Original-resolution composition inspection: Complete ears, forepaws, long hind feet and entire tail tip with real grassland margins; left field has subdued grassland texture.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 547.7×532.9 → 180.9×176.0 | 69.55 | 48.00 | 40.00 | Pass |
+| 390×760 | 547.7×532.9 → 180.9×176.0 | 104.55 | 48.00 | 40.00 | Pass |
+| 1366×768 | 656.3×638.5 → 439.9×428.0 | 96.00 | 111.20 | 48.00 | Pass |
+| 1920×900 | 922.5×897.5 → 575.6×560.0 | 96.00 | 187.40 | 48.00 | Pass |
+| 2560×900 | 1230.0×1196.7 → 575.6×560.0 | 96.00 | 353.80 | 48.00 | Pass |
+| 3840×900 | 1845.0×1795.0 → 575.6×560.0 | 96.00 | 686.60 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

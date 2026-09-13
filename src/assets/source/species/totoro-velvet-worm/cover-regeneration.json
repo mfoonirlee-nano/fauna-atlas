@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original natural-history photorealistic macro reconstruction, exact1536x1024 landscape. ONE Eoperipatus totoro velvet worm from Vietnam, prominent entire animal on RIGHT side, full outline including both antenna tips, every visible foot and rear end inside x=700..1430 y=280..800. Long slender soft cylindrical dark brown finely papillated velvety body, darker dorsal midline, twenty-four pairs of short fleshy unjointed lobopod legs with tiny paired claws (far legs may overlap), two soft ringed antennae and two shorter oral papillae below them. Natural gently curved body in low dorsal three-quarter lateral view facing left on damp brown bark, all visible foot tips unobscured. No armor, long jointed legs, caterpillar prolegs, hairs, cartoon face or centipede appearance. Real margins around complete animal. Soft diffuse tropical forest light, enough contrast to distinguish brown animal from bark. Left40% quiet defocused dark brown leaf litter. No other animals, slime discharge, prey, text, labels, watermark, borders or collage.",
+  "editPrompt": "Edit this velvet worm macro photograph. Scale ALL animal parts to 78% current linear size and move right to fit complete antenna-to-rear outline strictly inside x=710..1450 y=270..800. Preserve two ringed antennae, shorter oral papillae, many short fleshy unjointed paired-claw feet, natural dark brown papillated soft body. Reconstruct damp bark under animal, no cropped claw or antenna tips. Left40% quiet defocused dark brown leaf litter with no animal part. Exact1536x1024, one animal, no text.",
+  "rejectedCandidate": "exec-b77f7d8c-b9a1-4e50-8563-e0e25d11a36e.png: antenna intrusion and rear near edge",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-afe01f23-72a9-4a49-b132-24f840305abe.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 644,
+      "top": 248,
+      "right": 1458,
+      "bottom": 728
+    },
+    "sha256": "7f9abe29d73d61a4e828244deca1114e7be3c09cb89eeab1763d28b4a7cd8905"
+  },
+  "sourceSha256": "98020ca768b0c42e6e913f46cc7f0ba7386ef0023d51eb5a54f560de4d6ffff4",
+  "supersededCover": {
+    "sha256": "9601f3a4a024a3eb67d6f2b80994426012a50951cf2cc0f32b5a486a000fed25",
+    "bounds": {
+      "left": 1134,
+      "top": 375,
+      "right": 1284,
+      "bottom": 413
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Both ringed antennae, oral papillae, complete body edge and visible paired-claw feet retained. Far-side feet partly overlap; exact bilateral leg count not established from image. Initial left intrusion corrected, real bark margins and quiet left leaf litter."
+}

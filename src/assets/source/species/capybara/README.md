@@ -49,3 +49,26 @@
 ## 项目验证
 
 `npm run typecheck` 与 `npm test` 通过。完整测试覆盖分类图谱、目录数量、六图哈希与格式、首页封面安全区域、图片查看器、物种列表，以及生产构建后的子路径图片访问。生产构建通过；仍有 JavaScript chunk 超过 500 kB 的提示。
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cover.webp` SHA-256: `c1b3384f64a916870f4625e97ebb2edc66e11ced7c0ebbea8f3235aacfbe077c`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.75, "y": 0.39}`. Conservative full-subject boundary: `{"left": 725, "top": 265, "right": 1445, "bottom": 795}`, 720×530 source pixels (previously 152×108). Boundary center is 70.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes capybara whiskers, ears and all four feet, hedgehog whiskers, outer spine tips and visible toes, and penguin bill, both flippers, tail and webbed feet. Background remains between these features and the source edges. The animal is prominent on the right; the left 40% remains quiet habitat. The conservative measurement may include a few background pixels. Foot placement and far-side overlap follow the pictured poses. The first capybara and hedgehog candidates were rejected for leftward muzzle or whisker intrusion; accepted edits move the complete silhouettes right. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 112.8×80.2 → 239.1×176.0 | 40.45 | 48.00 | 40.00 | Pass |
+| 390×760 | 112.8×80.2 → 239.1×176.0 | 75.45 | 48.00 | 40.00 | Pass |
+| 1366×768 | 135.2×96.0 → 559.7×412.0 | 72.00 | 51.32 | 56.01 | Pass |
+| 1920×900 | 190.0×135.0 → 760.8×560.0 | 96.00 | 94.82 | 48.00 | Pass |
+| 2560×900 | 253.3×180.0 → 760.8×560.0 | 96.00 | 261.22 | 48.00 | Pass |
+| 3840×900 | 380.0×270.0 → 760.8×560.0 | 96.00 | 594.02 | 48.00 | Pass |
+
+`npm run test:carousel`: all 36 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

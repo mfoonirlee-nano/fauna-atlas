@@ -154,3 +154,26 @@ Avoid: person beside the animal, antenna touching the lizard, gun-like pose, sat
 - Original-resolution review confirmed one complete animal in frames 01 through 05; one black forked tongue and three intact eggs in frame 04; an open mouth without contact, injury or visible venom in frame 05; and two field workers, one directional antenna and one complete undisturbed animal in frame 06.
 - Review excluded the anatomical concept from both source and runtime directories. The accepted frame 05 came from a separate brand-new generation.
 - Verification used static metadata checks and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-rocky-desert-scrub-adult-portrait.webp` SHA-256: `00f0aba1775056a76903c2a682be15795bf1bc7e436256b596e632c275dd7f6d`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.67, "y": 0.58}`. Conservative full-subject boundary: `{"left": 694, "top": 412, "right": 1488, "bottom": 788}`, 794×376 source pixels (previously 906×328). Boundary center is 71.0% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes snout, beaded body outline, three visible feet with claws and complete thick curved tail. Far hindfoot naturally hides behind the torso. One edit moved the snout right and defocused left gravel. Real desert ground surrounds the silhouette; left 40% contains softly defocused sand and distant terrain. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 672.4×243.4 → 272.0×128.8 | 24.00 | 71.60 | 63.60 | Pass |
+| 390×760 | 672.4×243.4 → 342.0×162.0 | 24.00 | 55.02 | 47.02 | Pass |
+| 1366×768 | 805.7×291.7 → 559.7×265.0 | 72.00 | 51.32 | 129.48 | Pass |
+| 1920×900 | 1132.5×410.0 → 825.6×391.0 | 72.00 | 62.40 | 132.52 | Pass |
+| 2560×900 | 1510.0×546.7 → 1132.8×536.4 | 72.00 | 75.20 | 59.78 | Pass |
+| 3840×900 | 2265.0×820.0 → 1182.6×560.0 | 96.00 | 383.12 | 48.00 | Pass |
+
+`npm run test:carousel`: all 131 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

@@ -1,0 +1,31 @@
+{
+  "prompt": "Photorealistic marine wildlife atlas cover landscape1536x1024. One giant clam Tridacna gigas resting on a simple pale sandy reef ledge, elevated three-quarter view. Accurate massive thick cream bivalve shell with broad deep radial folds and scalloped margins, open shell exposing fleshy golden-brown mantle with iridescent blue-green spots, natural inhalant and exhalant openings. No pearl. Complete visible shell and mantle contour LARGE on RIGHT within x=670..1460 y=180..870. Real surrounding sand or water beyond shell edges; underside naturally contacts seabed, shell not buried. Left40% quiet softly defocused deep turquoise water, no bright corals rocks or other animals. Soft natural underwater light, realistic colors and detail, no text border watermark.",
+  "edits": [
+    "Preserve this giant clam shell and mantle anatomy. Uniformly reduce complete clam to 82 percent and shift right so leftmost shell/mantle begins x=670 and rightmost shell ends x=1470. All contour within y=180..880 on1536x1024. Replace the left40% bright textured sandy seabed with quiet softly defocused dark turquoise water; supporting sandy ledge remains under clam on right. Keep real surrounding background margins and natural seabed contact.",
+    "Change background only. Keep this exact giant clam and its position and size. Entire left40 percent must become smooth softly defocused dark turquoise open water with absolutely no visible sandy seabed or bright caustic ripples. Remove bright ripples across background. Preserve a simple sandy ledge only beneath and behind clam on right, naturally fading into deep water left. Preserve all shell and mantle edges."
+  ],
+  "generatedImage": "exec-6a2a1393-8c7e-4a85-90f5-92cc4d342a85.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 652,
+      "top": 194,
+      "right": 1472,
+      "bottom": 844
+    },
+    "sha256": "7f0e199548fd678389d21b955bfe008edbc14cea47d30a36e924d0834eb1ec47"
+  },
+  "sourceSha256": "f2848743ce90c378c267ae33fd1b3cb7876ab4fd9a5020bbddb09d87119a094b",
+  "supersededCover": {
+    "sha256": "e3c38d03523100bc48acfaa339fd1e2098167fc4937c5e40210f6c647be73994",
+    "bounds": {
+      "left": 418,
+      "top": 172,
+      "right": 1478,
+      "bottom": 892
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete visible shell and mantle contour. Underside naturally contacts seabed. Real sand and water margins; quiet left water without bright caustics."
+}

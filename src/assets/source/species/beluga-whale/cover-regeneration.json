@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New 1536x1024 landscape Fauna Atlas cover. One adult beluga whale Delphinapterus leucas swimming in clear cold Arctic coastal water. Accurate white rounded body, rounded melon forehead, short broad pectoral flippers, low dorsal ridge with NO dorsal fin, full horizontal tail flukes. Slight three-quarter side view facing left, all visible outer features unobscured. Natural-history underwater editorial photograph, cool natural light. The WHOLE whale must lie in the RIGHT HALF, nose after x=720, tail tips before x=1420, complete body and fins within x=700..1440 y=300..760. Animal prominent nearly half canvas width, not distant. Left 40% only quiet blue water with no body parts. Generous real water around every flipper and tail tip, no clipping. One whale only, no text, watermark, border, collage, equipment or cartoon expression.",
+  "edits": [],
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 330,
+      "right": 1495,
+      "bottom": 665
+    },
+    "sha256": "6e05291e216fb3421489058cd615f6b12902b5acd892edfcb5ab76b3cc26a098"
+  },
+  "sourceSha256": "cb67d96d06c750c2651868b6775531c8930b5268dc62935efc47160be4614a42",
+  "supersededCover": {
+    "sha256": "42e9220331c328f34a2a12ad7adb1b949b303fd76c8e713295ea7dfd7a1ee367",
+    "bounds": {
+      "left": 1058,
+      "top": 364,
+      "right": 1231,
+      "bottom": 416
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Whole visible silhouette, quiet left 40%, real source-edge background. Includes seal whiskers and all visible flippers; whale head, pectoral flippers and both tail flukes; full orca dorsal fin."
+}

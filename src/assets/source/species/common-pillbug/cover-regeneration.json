@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific natural-history macro photograph, exact 1536x1024 landscape. ONE common pillbug Armadillidium vulgare walking left on a flat damp brown decaying leaf. Prominent full animal on RIGHT side, entire outline including BOTH bent antenna tips and ALL visible short walking legs inside x=700..1420 y=290..760. Accurate oval strongly convex slate-gray segmented armor: seven broad thoracic tergites behind small head, compact smaller rear plates, rounded compact rear without projecting tail spikes. Seven pairs of SHORT pale walking legs tucked beneath the body, far-side legs naturally partly occluded in low dorsal three-quarter side view. Two natural jointed antennae projecting left from head, both tips distinct and entirely visible against quiet leaf. Realistic tiny dark lateral eyes and fine exoskeleton texture, restrained gray and brown colors, diffuse woodland light. Genuine scene margin around every extremity, no leaf fold or moss covering animal. Left 40 percent quiet softly blurred dark brown leaf litter, distant muted moss upper background only. No other animals, insect wings, centipede body, huge legs, extra antennae, text, watermark, collage, labels or diagram.",
+  "editPrompt": "Edit this macro photograph. Scale complete pillbug to 80 percent current linear size and move its center RIGHT so the entire animal including both antenna tips and every visible leg fits x=710..1450 y=320..730. Preserve realistic Armadillidium vulgare anatomy, seven broad thoracic segments, compact rear plates without long spikes, two antennae and short walking legs. Reconstruct damp leaf under feet naturally. Left 40% only quiet softly blurred brown leaf litter with no animal parts. Full real background margin around outline. Exact 1536x1024, one animal, no text.",
+  "rejectedCandidate": "exec-480bb214-306f-4624-a3ee-d99f6f3570aa.png: antennae intrude left field",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-c8b6396d-39a3-4908-9c1a-69c7fc91c430.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 652,
+      "top": 348,
+      "right": 1424,
+      "bottom": 664
+    },
+    "sha256": "21ee6bf011e151b74ea2632e1b247d9c52c59ec5bce1637e1c3e4babaae747e5"
+  },
+  "sourceSha256": "c523b888f60f2e7902a4e3840761265fe46b22a0b14cf48f7164a1b8efd37822",
+  "supersededCover": {
+    "sha256": "a9cb1433aa1b867af6c936dd7934f0557e2b41aee9b4e4c19f9c76c4e3768c8f",
+    "bounds": {
+      "left": 1215,
+      "top": 339,
+      "right": 1380,
+      "bottom": 410
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Both antenna tips, complete convex plated outline and all visible short leg tips retained. Far-side legs naturally occluded; full bilateral leg count not established by side view. Initial antenna intrusion corrected by edit. Quiet left leaf litter and real margins."
+}

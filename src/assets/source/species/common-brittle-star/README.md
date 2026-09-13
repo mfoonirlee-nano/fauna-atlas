@@ -180,3 +180,26 @@ ImageMagick reported all twelve accepted files as opaque, single-frame sRGB imag
 | 04 | `b4f65d0773f53457d710405fc66a7df935fd423189ee194c5c3cb072f92dcb67` | `13a81cb2db6598a1d30be3154454874cb62e4990af1251337283d66fd7e5090b` |
 | 05 | `25070aaea55bb7fe733b45a796998eb8c78a860a208053db51d34e644ac33a23` | `49a6943108512b236464c20629240c6cd79de846cc37b9dc813e05912f2d0266` |
 | 06 | `233ab77dbc558704881ada6e34e099a30a2d235b2fef2e87f58b6569a13b83d9` | `d1ff2e90485cab2aefd5ff70722d1aa659a2394b428a6b72b2da0ed68735521f` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-tide-swept-adult-cover.webp` SHA-256: `76186dec80a676c5ff713f4760c44df64d6e33d352bc4d8b6cd88ea59cbcf5c2`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.56}`. Conservative full-subject boundary: `{"left": 640, "top": 108, "right": 1446, "bottom": 898}`, 806×790 source pixels (previously 1024×766). Boundary center is 67.9% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the central disc, five separate complete arms and their fine marginal spine fringes. Each arm can be traced from disc to tip without crossing another arm. The underside is naturally concealed; exact spine counts and diagnostic plates are not resolved. One framing edit moved the lower-left arm clear of the copy field and increased tip margins. The left background is defocused teal-gray seabed, with real gravel surrounding all five tips. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 760.0×568.5 → 179.6×176.0 | 70.22 | 48.00 | 40.00 | Pass |
+| 390×760 | 760.0×568.5 → 179.6×176.0 | 105.22 | 48.00 | 40.00 | Pass |
+| 1366×768 | 910.7×681.2 → 436.7×428.0 | 96.00 | 112.83 | 48.00 | Pass |
+| 1920×900 | 1280.0×957.5 → 571.3×560.0 | 96.00 | 189.53 | 48.00 | Pass |
+| 2560×900 | 1706.7×1276.7 → 571.3×560.0 | 96.00 | 355.93 | 48.00 | Pass |
+| 3840×900 | 2560.0×1915.0 → 571.3×560.0 | 96.00 | 688.73 | 48.00 | Pass |
+
+`npm run test:carousel`: all 160 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

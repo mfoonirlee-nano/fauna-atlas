@@ -179,3 +179,26 @@ Edit only the hair tufts at the ends of the two adult females' tails. The left a
 
 Keep the calf's existing small tail natural and unchanged. Do not add, remove, move, crop, or alter any elephant, limb, trunk, tusk, ear, or environmental element. No text, logo, watermark, people, vehicles, structures, or other animals.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-savanna-family-portrait.webp` SHA-256: `d283b579a6d4d3800906ca93e81f122f592d2fd6cb96e412a79841b7b01ffad0`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.68}`. Conservative full-subject boundary: `{"left": 688, "top": 142, "right": 1484, "bottom": 800}`, 796×658 source pixels (previously 910×562). Boundary center is 70.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full three-animal group boundary includes ears, tusks, all visible feet, complete visible trunks and the right adult tail tuft. Frontal depth causes natural occlusion of far-side limbs and other tails by bodies; this is not a twelve-foot anatomical counting view. The rear adult trunk remains visible beside the calf. Real savanna margins surround the group, and left 40% contains quiet grassland and sky. Fine skin and trunk-tip details are illustrative. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 675.4×417.1 → 212.9×176.0 | 53.54 | 48.00 | 40.00 | Pass |
+| 390×760 | 675.4×417.1 → 212.9×176.0 | 88.54 | 48.00 | 40.00 | Pass |
+| 1366×768 | 809.3×499.8 → 517.8×428.0 | 92.96 | 72.28 | 48.00 | Pass |
+| 1920×900 | 1137.5×702.5 → 677.4×560.0 | 96.00 | 136.48 | 48.00 | Pass |
+| 2560×900 | 1516.7×936.7 → 677.4×560.0 | 96.00 | 302.88 | 48.00 | Pass |
+| 3840×900 | 2275.0×1405.0 → 677.4×560.0 | 96.00 | 635.68 | 48.00 | Pass |
+
+`npm run test:carousel`: all 99 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

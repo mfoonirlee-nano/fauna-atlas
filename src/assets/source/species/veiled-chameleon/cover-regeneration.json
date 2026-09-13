@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One veiled chameleon Chamaeleo calyptratus on a thin horizontal branch in Yemen highland woodland, side three-quarter view facing left. Tall casque, green body yellow bands, turret eyes, four grasping feet with opposed toe groups, full curled prehensile tail visible behind body. Natural editorial wildlife photograph, soft daylight, coherent anatomy. Prominent full animal on RIGHT, all casque tips muzzle back spines toe claws and entire tail curl inside x=740..1430 y=180..870. Real habitat clearance around entire silhouette, branch supports feet without hiding tail. Left40% quiet defocused woodland with no animal parts. One animal only, no text watermark collage borders or human objects.",
+  "generatedFile": "exec-44a4ae9d-f741-4aaf-8fb0-fa749a1e331f.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 90,
+      "right": 1480,
+      "bottom": 900
+    },
+    "sha256": "dc64f06740b6c609847a4cd77c755808bd3d2114722b225c74937a7cef692837"
+  },
+  "sourceSha256": "ddf2128e907b4394c4dfc25cbac01ff2064c08ea53c177d98af36f393b1fa11e",
+  "supersededCover": {
+    "sha256": "d524587cd54d525f4f373bbd0d14603ffcff85dd9c412f202ae70513c3f2c1b2",
+    "bounds": {
+      "left": 1182,
+      "top": 334,
+      "right": 1322,
+      "bottom": 474
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete casque, muzzle, dorsal and throat spines, visible grasping toes and full outer tail curl retained. Far-side foot overlaps the body and branch; branch crosses tail base naturally. Quiet left habitat and real source-edge clearance."
+}

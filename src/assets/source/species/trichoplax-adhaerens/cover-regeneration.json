@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Scientific microscopy-style natural-history reconstruction, exact 1536x1024 landscape. ONE Trichoplax adhaerens prominent and complete on RIGHT side. Top-down view of a thin translucent milky-gray irregular flattened multicellular plate with gently lobed asymmetric outline and fine granular cellular texture. Entire animal inside x=730..1400 y=230..810, centered about x=1080. No head, eyes, limbs, tentacles, mouth, internal gut, bilateral symmetry or long pseudopods. Not a jellyfish, not an amoeba with a nucleus. Subtle natural transmitted-light contrast makes the complete thin outer margin readable, including delicate translucent lobes. Muted teal-gray submerged biofilm backdrop with sparse tiny indistinct algal specks, quiet softly defocused left 40%. Genuine background all around complete edge. Restrained scientific reconstruction, no invented visible organs or large colored nuclei. No other animals, text, scale bar, labels, watermark, frame, diagram or collage.",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-bfff53df-01f9-4ee6-813e-8da1528a1990.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 648,
+      "top": 120,
+      "right": 1432,
+      "bottom": 908
+    },
+    "sha256": "2d5500185833e09ffdfb8025b81c3df2d8d28a40d860708f07ed691841d09328"
+  },
+  "sourceSha256": "13747457233534cd54517a0d1c92408f2ff4f8510daf62f4fcc6f7ad73b938e0",
+  "supersededCover": {
+    "sha256": "1f08c615aedebc60bf4874c2ef629c3cc04d04372d3a475546ba773ac90fda61",
+    "bounds": {
+      "left": 1075,
+      "top": 337,
+      "right": 1208,
+      "bottom": 435
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete translucent gently lobed outer margin retained, no head limbs or invented organs. Fine granularity and border contrast are illustrative microscopy reconstruction, not diagnostic cell measurements. Quiet left teal field, real margins."
+}

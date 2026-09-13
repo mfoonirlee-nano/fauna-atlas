@@ -135,3 +135,26 @@ Avoid: ant-farm maze, multiple disconnected burrows, nursery room, mammal den, f
 - Frame 05 contains one low airborne fish with a complete tail and no tetrapod limb anatomy.
 - Frame 06 contains two surface openings, one connected cutaway burrow, one air pocket, one attached egg patch and one adult. The frame contains no label, arrow or numeric claim.
 - No frame contains readable text, a logo or a watermark.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-mudflat-adult-portrait.webp` SHA-256: `40c7453029982cdca6472b5a88d1cc0628e536ddfebfa161fbc79d4324989e8d`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.64, "y": 0.53}`. Conservative full-subject boundary: `{"left": 620, "top": 288, "right": 1490, "bottom": 654}`, 870×366 source pixels (previously 918×386). Boundary center is 68.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes snout, raised eyes, body, both dorsal fins, visible pectoral fin rays and tail. Far-side and ventral fins naturally overlap the body or contact mud. The near pectoral edge is readable against the mud. Real mud margins surround the outline; left 40% contains defocused mudflat. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 681.3×286.5 → 272.0×114.4 | 24.00 | 78.79 | 70.79 | Pass |
+| 390×760 | 681.3×286.5 → 342.0×143.9 | 24.00 | 64.06 | 56.06 | Pass |
+| 1366×768 | 816.4×343.3 → 559.7×235.5 | 72.00 | 51.32 | 144.27 | Pass |
+| 1920×900 | 1147.5×482.5 → 825.6×347.3 | 72.00 | 62.40 | 154.34 | Pass |
+| 2560×900 | 1530.0×643.3 → 1132.8×476.6 | 72.00 | 75.20 | 89.72 | Pass |
+| 3840×900 | 2295.0×965.0 → 1331.1×560.0 | 96.00 | 308.83 | 48.00 | Pass |
+
+`npm run test:carousel`: all 137 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

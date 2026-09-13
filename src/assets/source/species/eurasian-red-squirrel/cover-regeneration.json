@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas cover1536x1024 landscape. One Eurasian red squirrel Sciurus vulgaris sitting on broad bare fallen log in soft European woodland light, side three-quarter view facing left, russet coat white belly, tufted ears, full bushy tail curved upward behind body, two forepaws held together, both hindfeet resting on log. Editorial wildlife photograph. Complete animal INCLUDING whisker tips, ear tufts, toe claws and tail hairs within x=780..1420 y=160..860, prominent on RIGHT centered72%width. Left40% quiet defocused woodland, no animal parts. Real background around entire outline, tail not cut off or hidden, natural anatomy and contact shadows. One animal only, no text watermark collage human objects or border.",
+  "generatedFile": "exec-d5679241-8107-44fa-8d2f-27fac2b6d4e5.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 45,
+      "right": 1505,
+      "bottom": 865
+    },
+    "sha256": "f467c86795ea85e5a626b55f23715b48442e6a114ca175448813d234a73e23db"
+  },
+  "sourceSha256": "d124b63b63f507a04b856e3d28fdc83fdcfea12ef371f75d23a9d560d623783f",
+  "supersededCover": {
+    "sha256": "c4e9c01c4ee01220bf1d85a155863b695067397e1c64815b266bb91a3887fd38",
+    "bounds": {
+      "left": 1138,
+      "top": 304,
+      "right": 1320,
+      "bottom": 463
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete tortoise head, shell, neck, four visible feet and tail; seahorse snout, crown, translucent fins and complete curled tail; squirrel whiskers, ear tufts, toes and all visible tail hairs. Quiet left habitat and real source clearance. Initial tortoise composition rejected for leftward head intrusion."
+}

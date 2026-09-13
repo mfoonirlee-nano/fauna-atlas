@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New Fauna Atlas cover, 1536x1024 landscape. One killer whale Orcinus orca swimming fully submerged in cold clear coastal water. Accurate black body, white oval eye patch and white underside, gray saddle patch behind a upright dorsal fin, broad rounded pectoral flippers and complete horizontal tail flukes. Three-quarter side view facing left so full silhouette is visible. Natural-history underwater editorial photography, realistic anatomy and restrained natural blue light. Entire animal prominently within RIGHT HALF: nose beyond x=730, full tail before x=1410, dorsal tip and all flippers within x=700..1440 y=190..820. Left 40% only quiet blue water, no body parts. Full dorsal fin, both visible flippers and all tail tips with real water beyond each extremity. Not distant or tiny. One whale only, no text, watermark, border, collage, equipment or exaggerated expression.",
+  "edits": [
+    {
+      "prompt": "Edit this orca photograph. Preserve exact animal anatomy, natural black-white markings, dorsal fin, pectoral flippers, whole tail flukes, lighting and blue water, 1536x1024 canvas. Reduce the entire animal to 80% of its present size and shift RIGHT so its nose starts after x=720 and tail ends before x=1420. Full silhouette approximately x=720..1420 y=250..760. Reconstruct continuous water around it. Left 40% must be completely free of whale parts. Do not shorten or crop any fin or tail, keep the animal prominent, no duplicate animal, text or borders.",
+      "reason": "First candidate intruded into left copy area."
+    }
+  ],
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 720,
+      "top": 265,
+      "right": 1475,
+      "bottom": 665
+    },
+    "sha256": "dcdcdfb6e1b38c69270e8a0c32db6c5a8fd1d0d3b593c8d5ed3fbeb8b4bff3cb"
+  },
+  "sourceSha256": "327a2315f7631b8b0c0bb96a736e64c6d658610770365600b19f12631e4a3efe",
+  "supersededCover": {
+    "sha256": "cc1ff46817282efa704ac6ade67dcbf7d40a7eea482814131eceaf7cca6aad5a",
+    "bounds": {
+      "left": 1078,
+      "top": 334,
+      "right": 1315,
+      "bottom": 436
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Whole visible silhouette, quiet left 40%, real source-edge background. Includes seal whiskers and all visible flippers; whale head, pectoral flippers and both tail flukes; full orca dorsal fin."
+}

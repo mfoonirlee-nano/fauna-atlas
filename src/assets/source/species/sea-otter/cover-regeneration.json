@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "prompt": "Create a photorealistic wildlife editorial photograph of exactly one adult sea otter Enhydra lutris floating on its back in clear calm North Pacific nearshore water. Landscape1536x1024. Elevated three-quarter view showing its entire coherent visible silhouette, head at upper right and hind feet and tail toward lower left of the animal. Robust brown furry marine mustelid, broad grizzled brown-gray head, small rounded ears, blunt muzzle, fine pale whiskers, two small forepaws separately resting over chest, two distinct broad webbed hind feet attached at pelvis, one short stout tapering furry tail clearly separate from feet, no beaver paddle, no seal anatomy, no human hands. Water gently surrounds sides and underside naturally remains under water, but no wave or kelp hides visible extremities. Exact composition: all animal pixels INCLUDING whiskers, toes and tail within x650..1470,y180..840. Fill this right-side rectangle prominently; animal diagonal to give ample body detail. Left40% entirely quiet dark teal water with very subtle ripples, no bright reflections or objects. Background real water margins all sides, no clipping, only a few softly blurred kelp fronds well behind animal at far upper right. Natural soft overcast light, detailed wet fur, relaxed authentic pose. No text, UI, border, watermark.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-9b929bf5-118d-4f6c-aa84-25e31f809197.png",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 622,
+      "top": 134,
+      "right": 1398,
+      "bottom": 920
+    },
+    "sha256": "70099db8f2993ab55554d794076235222c0788b154beebba300b90d3da428b4c"
+  },
+  "sourceSha256": "3385e8b96a8d7d894c061072ffcbd6150158f62eddab2a1ba36d0bbb0d3e9953",
+  "supersededCover": {
+    "sha256": "880c52c692eccecb433511c2c3a2d0d4a06688672270efa35efeef625829d899",
+    "bounds": {
+      "left": 60,
+      "top": 344,
+      "right": 1380,
+      "bottom": 804
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full head and whiskers, two forepaws, two broad hind feet and complete furry tail. Underside naturally submerged. No edge clipping; quiet left40%.",
+  "status": "source composition and single-cover hero accepted"
+}

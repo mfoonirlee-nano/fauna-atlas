@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one1536x1024 landscape wildlife atlas cover. One Electrophorus electricus electric eel swimming calmly underwater in Guiana Shield freshwater river. Prominent WHOLE animal on RIGHT, blunt head facing left, very elongated dark gray cylindrical body with muted orange throat, small eyes small pectoral fin, very long low ribbonlike anal fin along underside and tapering tail. No dorsal fin pelvic fins or forked tail. Body in broad relaxed U curve with tail gently turning back below body, no knot or self-crossing, full silhouette and anal fin readable. Entire animal within x=730..1450 y=220..810 with real water margin. Left40% quiet olive amber water for copy, distant soft roots and sand. Natural underwater light detailed scientific editorial realism. No electricity glow bolts other animals text logos borders collage or cropped tail.",
+  "editPrompt": "Composition edit only. Preserve this electric eel identity anatomy pose markings and1536x1024 canvas. Scale entire eel including full continuous anal fin and curved tail to82% current linear size and move right until leftmost snout x=740 and rightmost body curve no further than x=1480. Reconstruct olive water in former position. Keep full fin edges and tail intact with real water margin. Left40% quiet empty water. No other animals text or added fins.",
+  "rejectedCandidate": "Initial head intruded into left copy field.",
+  "generatedFile": "exec-d55720cb-b447-4b97-a736-3cad0c39229d.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 668,
+      "top": 329,
+      "right": 1397,
+      "bottom": 761
+    },
+    "sha256": "c8140f6a389f90de4409bd6df017ea2adcc147e5867f71a6b62c75461801fc78"
+  },
+  "sourceSha256": "c2be1f9aec2d2643e401861f4f5bba6ce3774b5e6803f4ddb5fafd19fab5f459",
+  "supersededCover": {
+    "sha256": "314edef747eac64bbe6e30b2d7b7cac202aa8f0c44382f8fe3eea99cda12d766",
+    "bounds": {
+      "left": 1218,
+      "top": 323,
+      "right": 1412,
+      "bottom": 395
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full blunt snout, visible pectoral fin, continuous long anal fin and complete curved tapering tail retained. Far-side pectoral naturally occluded. Initial head intruded left field; accepted edit shifts whole eel right. Quiet left olive water and real source-edge clearance."
+}

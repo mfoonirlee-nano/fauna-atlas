@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife macro atlas cover 1536x1024 landscape. One complete adult South American giant centipede Scolopendra gigantea on flat smooth muted brown limestone. Natural elongated flattened reddish-brown segmented body with one pair of yellow-orange jointed legs per trunk segment, two fine long antennae at head and one elongated terminal leg pair. Elevated dorsal three-quarter view, body gently curved diagonally from lower-left head to upper-right rear, without crossing itself. Make entire animal prominent on RIGHT: ALL antenna tips, walking leg tips and terminal legs confined to x=660..1460 and y=160..890, with clear substrate margin around each. Anatomically natural centipede, not millipede, no extra heads or branched limbs. LEFT 40 percent quiet softly defocused dark earthy brown habitat, no leaves, sticks, ridges, contrasting flecks or extra animals. Soft diffuse light and sharp animal detail, no text logos borders or collage.",
+  "edits": [
+    "Edit this centipede cover for framing. Fit the COMPLETE animal, including both long antenna tips and terminal leg tips, inside x=660..1460 and y=110..900 on 1536x1024. Move head and antennae right, bring rear tips down and slightly left, using a gentle natural body curve with no crossings or added segments. Preserve slender proportions and visible separate walking legs. Make the LEFT 40 percent substrate softly defocused dark low-contrast brown, removing sharp rock texture there. Keep real background margin around every appendage, natural anatomy, no text."
+  ],
+  "generatedImage": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-37504199-ad8f-436b-bbc9-37d3c6979f3e.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 602,
+      "top": 36,
+      "right": 1498,
+      "bottom": 956
+    },
+    "sha256": "67dc63955a4c0cb68a5f2ad3ee856a87d1800f2395ed91686a346fb5897f1d93"
+  },
+  "sourceSha256": "b043d1e2270286976ecacbc9d8a1519052181c1918a72a2c9e5e7b5f2019f680",
+  "supersededCover": {
+    "sha256": "88c7e621e047f244cf325a5a1279d16d5ade1188e4efe9e92645dc275fd422f3",
+    "bounds": {
+      "left": 466,
+      "top": 430,
+      "right": 1500,
+      "bottom": 780
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete antennae, visible walking-leg tips and terminal leg pair. Proximal joints naturally overlap; exact segment and leg counts are not established."
+}

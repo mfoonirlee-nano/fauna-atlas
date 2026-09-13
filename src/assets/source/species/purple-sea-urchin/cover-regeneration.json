@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic marine wildlife atlas cover, landscape 1536x1024. One purple sea urchin Strongylocentrotus purpuratus on a smooth pale rock underwater in a California kelp forest, close natural elevated side view. Accurate low domed rounded body densely covered in short strong tapered purple spines with a few subtle slender tube feet between them. Entire complete visible spine silhouette LARGE on RIGHT, all tips contained x=670..1460 y=180..880. Real surrounding background and rock margin beyond every spine. Underside naturally contacts rock; no cutaway. Left40% quiet softly defocused dark teal seawater, no kelp blades or high contrast objects. Soft natural underwater light reveals individual spines, realistic muted violet purple color, no neon, no other animals, no text border watermark.",
+  "edits": [
+    "Preserve this exact purple sea urchin, all spines, tube feet and natural rock contact. Slightly reduce whole animal to 92 percent and position right so leftmost spine is at x=650 and rightmost at x=1480, same 1536x1024 canvas. Keep all tips visible with real surrounding rock or water. Soften left40% underwater background and lower-left rock texture. Do not change anatomy or color."
+  ],
+  "generatedImage": "exec-3d6db235-e9a3-4653-a262-fef445e08f01.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 656,
+      "top": 184,
+      "right": 1492,
+      "bottom": 814
+    },
+    "sha256": "e643833f2a2768a95e826e986b79017efaecbe774d1ce39935d93721453b69ff"
+  },
+  "sourceSha256": "c2f4404b9fb897e09a60763e623e8712fa2fc6cd8eebcb70e50bf961c6a64a0f",
+  "supersededCover": {
+    "sha256": "41206bdf4c5ff23e8d5eb7c5436b3b12acf0f6e64231baaf410b447101516099",
+    "bounds": {
+      "left": 884,
+      "top": 324,
+      "right": 1294,
+      "bottom": 738
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete visible spine and tube-foot outline, including lower tips against rock. Underside naturally contacts substrate. Real margins surround silhouette; quiet left water."
+}

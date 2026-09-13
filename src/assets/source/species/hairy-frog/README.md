@@ -49,3 +49,26 @@ The profile follows AMNH Amphibian Species of the World for `Astylosternus robus
 ## Verification
 
 `npm test` passed all 162 tests, including the new accepted-genus/alias/media integration case and all hero states. The test command also completed TypeScript checking, a production build and HTTP image checks below a deployment subpath. The build refreshed tracked `dist/` assets. Vite reported the existing JavaScript chunk-size warning. Static inspection confirmed six 1536 × 1024 source PNGs and matching runtime WebPs. `git diff --check` passed.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-stream-cover.webp` SHA-256: `1bd0bd74647b1d02ff74671d733fbfcd7d394e75518714f72d75a25f402fa8db`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.86, "y": 0.34}`. Conservative full-subject boundary: `{"left": 790, "top": 300, "right": 1474, "bottom": 762}`, 684×462 source pixels (previously 162×88). Boundary center is 73.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes the snout, body edge, flank and thigh papilla tips and visible toes. Hairlike skin projections remain confined to flanks and upper hind thighs, with bare head, back and forelimbs. Far limbs overlap naturally; fine toe and papilla counts are not asserted. The initial snout intrusion is corrected by the accepted edit. Real rock background surrounds all visible extremities. The left 40% contains softly blurred stream and stone. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 120.2×65.3 → 260.6×176.0 | 29.71 | 48.00 | 40.00 | Pass |
+| 390×760 | 120.2×65.3 → 260.6×176.0 | 64.71 | 48.00 | 40.00 | Pass |
+| 1366×768 | 144.1×78.3 → 559.7×378.0 | 72.00 | 51.32 | 72.99 | Pass |
+| 1920×900 | 202.5×110.0 → 825.6×557.6 | 72.00 | 62.40 | 49.18 | Pass |
+| 2560×900 | 270.0×146.7 → 829.1×560.0 | 96.00 | 227.05 | 48.00 | Pass |
+| 3840×900 | 405.0×220.0 → 829.1×560.0 | 96.00 | 559.85 | 48.00 | Pass |
+
+`npm run test:carousel`: all 81 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

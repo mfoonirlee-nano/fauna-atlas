@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New 1536x1024 landscape Fauna Atlas cover. One common sea star Asterias rubens with five orange arms and finely textured spiny upper surface, fully submerged on pale sandy seafloor in clear temperate shallow coastal water. Slightly angled overhead natural-history macro photograph, natural dappled underwater light, realistic anatomy. The ENTIRE animal prominent in RIGHT HALF, central disc and every arm tip within x=710..1430 y=230..850. Left 40% only quiet softly defocused sand and water, no arm tips. Maximize animal size within that box, not a distant tiny star. All five arms complete and unobscured with real sand around the silhouette. One sea star only, no other animals, text, watermark, border, collage or artificial objects.",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 590,
+      "top": 40,
+      "right": 1480,
+      "bottom": 890
+    },
+    "sha256": "784cba7092dba7a02ec803660c6c39d31ea027de5e99017d5a1556b87f3aee47"
+  },
+  "sourceSha256": "d5b770a6b43185c62dd42265367920eeae65c733033acf37e94af319b083fa0f",
+  "supersededCover": {
+    "sha256": "9140a9e61a050c6666ea2df7ff25c34b86dbf53c11c79fcf6351d9a381e4ca47",
+    "bounds": {
+      "left": 1042,
+      "top": 329,
+      "right": 1172,
+      "bottom": 424
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete puffin bill, webbed feet and tail; all five sea-star arm tips and outer spines; walrus whiskers, tusks and visible flippers. Quiet left habitat and real background clearance. Starfish left arm tip and walrus foreflipper tip reach about 39% source width, but do not materially occupy the left copy field."
+}

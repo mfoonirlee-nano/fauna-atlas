@@ -133,3 +133,26 @@ Lighting/mood: soft diffuse dawn light under canopy, quiet non-invasive observat
 Constraints: exactly one tiger and exactly one camera trap; no people or other animals; no contact, capture or named survey claim; no readable text, logo, signature, border, watermark, map or coordinates; generic reconstruction.
 Avoid: second camera, multiple lenses or housings, security CCTV, trail sign, collar, ear tag, snare, cage, bait, food, flash burst, laser dots, camera touching tiger, tiger looking into lens, open roaring mouth, attack, blood, cub, extra tiger, duplicated limbs, cropped tail, zoo, fence, vehicle, researcher, village, CGI, illustration, painting, fantasy glow or oversaturation.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-forest-edge-portrait.webp` SHA-256: `eb29439de7b91347d965ef0702fb92f6a748364bd87bd39c5736231f4077fe78`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.65, "y": 0.56}`. Conservative full-subject boundary: `{"left": 704, "top": 110, "right": 1478, "bottom": 882}`, 774×772 source pixels (previously 988×626). Boundary center is 71.0% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes both ears, long whisker tips, all four legs and paws, and the complete ringed tail. Bare ground exposes each paw outline. Real forest and ground margins surround the silhouette; left 40% contains softly defocused forest and ground. One built-in edit corrected whisker intrusion by shifting the animal right into a three-quarter pose. Stripe patterns depict an illustrative individual. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 733.3×464.6 → 176.5×176.0 | 71.77 | 48.00 | 40.00 | Pass |
+| 390×760 | 733.3×464.6 → 176.5×176.0 | 106.77 | 48.00 | 40.00 | Pass |
+| 1366×768 | 878.7×556.7 → 429.1×428.0 | 96.00 | 116.61 | 48.00 | Pass |
+| 1920×900 | 1235.0×782.5 → 561.5×560.0 | 96.00 | 194.47 | 48.00 | Pass |
+| 2560×900 | 1646.7×1043.3 → 561.5×560.0 | 96.00 | 360.87 | 48.00 | Pass |
+| 3840×900 | 2470.0×1565.0 → 561.5×560.0 | 96.00 | 693.67 | 48.00 | Pass |
+
+`npm run test:carousel`: all 112 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

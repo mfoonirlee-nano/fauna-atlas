@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic natural-history wildlife photo, exact 1536x1024 landscape. One adult common raccoon Procyon lotor prominent on RIGHT side, standing on all fours facing left with head slightly towards camera. Full animal including fine whiskers, rounded ears, all visible long toes and complete bushy ringed tail fits inside x=700..1430 y=240..820 with real background margin. Stocky gray-brown body, black eye mask edged pale, small rounded ears, naturally attached four legs, five slender digits per paw, dark-ringed bushy tail clearly extends right and slightly downward without hiding behind body. Natural proportions and realistic detailed fur. Near paws and claws unobscured on bare sandy woodland creek bank; far-side limbs may overlap naturally. Quiet softly defocused olive woodland and calm creek in left 40 percent, no foreground branches or bright distracting rocks. Eye-level natural soft morning light, restrained color, calm closed mouth. Whole body visibly prominent, not tiny environmental subject. No extra animals, people, food bowls, collars, text, labels, logos, watermark, collage, cartoon or raccoon dog.",
+  "editPrompt": "Edit this raccoon photo while preserving realistic raccoon anatomy, fur, facial mask, four paws and entire ringed tail. Scale whole raccoon to 85% current linear size and place its complete outline including longest left whiskers inside x=710..1460 y=280..790. Move animal center right. Keep all four paws naturally grounded on reconstructed sandy bank. Preserve full whiskers, ear hairs, all visible toes, complete tail tip with real margins. Left 40% should be quiet softly blurred creek and woodland, free of any animal part. Exact 1536x1024. One raccoon only, natural photography, no text.",
+  "rejectedCandidate": "exec-56db1a87-0e43-43d9-b161-8385c376064f.png: whiskers intrude left 40% field",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-3b7e066d-87d7-4033-9d6e-dad8e55ec64a.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 692,
+      "top": 310,
+      "right": 1414,
+      "bottom": 754
+    },
+    "sha256": "356105963a4cc833804dd9aa43afe0d639f46462affecf8cb2f76af0a59fc1fb"
+  },
+  "sourceSha256": "9e66e39335e733348999c9e44f40152970438ce14c61962bc8e7e9188d117ed4",
+  "supersededCover": {
+    "sha256": "fe4efd53e9041d14197d8af9c5c8e75bbacc177b26b53b1c5ad4bee529424281",
+    "bounds": {
+      "left": 1060,
+      "top": 315,
+      "right": 1225,
+      "bottom": 414
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Long whiskers, ear hairs, four visible paws and entire ringed tail retained. Far-side limbs naturally overlap; fine digit count not asserted. Initial whisker intrusion corrected by composition edit. Quiet left creek and blurred woodland, real margins around whole animal."
+}

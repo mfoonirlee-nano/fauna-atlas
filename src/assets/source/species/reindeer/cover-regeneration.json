@@ -1,7 +1,7 @@
 {
   "date": "2026-09-12",
   "tool": "built-in image_gen",
-  "status": "main cover retained; single-image hero crop acceptance pending",
+  "status": "source composition and single-cover hero geometry verified",
   "images": [
     {
       "kind": "cover",

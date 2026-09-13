@@ -53,3 +53,26 @@ TinyPNG compressed all six accepted sources successfully. Runtime conversion use
 ## Verification
 
 `npm test` passed all 173 tests, including taxonomy integration, six-image dimensions and accepted hashes, hero geometry and deployment-subpath image delivery. TypeScript checking and production build passed. `git diff --check` passed. The build refreshed tracked `dist/` assets; Vite retains its existing large-chunk warning.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-biofilm-cover.webp` SHA-256: `2d5500185833e09ffdfb8025b81c3df2d8d28a40d860708f07ed691841d09328`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.92, "y": 0.35}`. Conservative full-subject boundary: `{"left": 648, "top": 120, "right": 1432, "bottom": 908}`, 784×788 source pixels (previously 133×98). Boundary center is 67.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes the entire translucent gently lobed outer margin. No head, limbs or invented internal organs appear. Granularity and edge contrast are illustrative microscopy reconstruction, not diagnostic cell counts or measurements. Real background surrounds all lobes. The left 40% contains softly defocused teal biofilm background. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 98.7×72.7 → 175.1×176.0 | 72.45 | 48.00 | 40.00 | Pass |
+| 390×760 | 98.7×72.7 → 175.1×176.0 | 107.45 | 48.00 | 40.00 | Pass |
+| 1366×768 | 118.3×87.2 → 425.8×428.0 | 96.00 | 118.25 | 48.00 | Pass |
+| 1920×900 | 166.2×122.5 → 557.2×560.0 | 96.00 | 196.62 | 48.00 | Pass |
+| 2560×900 | 221.7×163.3 → 557.2×560.0 | 96.00 | 363.02 | 48.00 | Pass |
+| 3840×900 | 332.5×245.0 → 557.2×560.0 | 96.00 | 695.82 | 48.00 | Pass |
+
+`npm run test:carousel`: all 83 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

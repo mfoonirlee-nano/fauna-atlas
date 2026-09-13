@@ -1,0 +1,28 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One southern three-banded armadillo Tolypeutes matacus standing in three-quarter view looking left on bare sandy dry Chaco ground. Accurate compact domed tan armor with exactly three broad movable bands between shoulder and rump shields, small pointed armored head, ears, short limbs with visible digging claws, full short armored tapering tail. Whole animal large on RIGHT, entire silhouette including snout, ears, claws and tail fits x=680..1450 y=220..850. Four feet naturally posed and readable; no extra limbs. Real background margin around every extremity. Left40% softly defocused muted dry woodland and warm dusk sky, no sharp branches or leaf litter. Low natural eye-level photograph, detailed armor scales, anatomically credible compact body, single animal, no text border watermark.",
+  "editPrompt": "Edit this armadillo photo. Move whole animal right and slightly reduce so entire muzzle starts beyond x=665 and tail tip ends before x=1460 on 1536x1024 canvas. Keep all ears, four feet/claws, three bands and entire tail. Animal remains prominent. Replace left40% with very softly defocused subdued tan woodland and dusk sky; remove distinct sun disk, strong tree silhouettes and sharp ground patterns there. Natural bare ground below animal, realistic anatomy and textures. Real background all around.",
+  "generatedImage": "exec-2e3e3646-742f-4ec2-ac91-9f03c3280855.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 302,
+      "right": 1500,
+      "bottom": 800
+    },
+    "sha256": "ff79b20a4f301ff6c68fc6c5bc4c46a50474aef84176a6d31720b03e2c5a1537"
+  },
+  "sourceSha256": "f59b36c3c224f244b48ac190d35f1e2fc9e58843d56d9a9811b7a4b588dba6c5",
+  "supersededCover": {
+    "sha256": "1c0ac9f73ccd3d2ee057aebf3c5ba281b0f9f43f83330850dfca404878ec93a6",
+    "bounds": {
+      "left": 328,
+      "top": 270,
+      "right": 1340,
+      "bottom": 822
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full ears, snout, armored shell and sparse hair fringe, four visible feet with claws and complete tail. Far-side limb roots naturally overlap shell/body. Real margins and defocused left woodland."
+}

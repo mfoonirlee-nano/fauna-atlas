@@ -125,3 +125,23 @@ Color palette: dry straw ochre, muted fresh sage, compacted earth brown, mineral
 Constraints: exactly three animals total—one adult female and two half-grown kittens; clear realistic age and size difference; three separate non-overlapping bodies and exactly three separate complete tails; authentic wild plateau habitat; no text, caption, logo, signature, border or watermark; no people, roads, buildings, fences, collars, traps, camera traps, tools, bowls, bedding, prey, carcass, livestock, birds, marmots, badgers or other wildlife.
 Avoid: fourth cat, hidden extra kitten, identical-size trio, newborn kittens, domestic tabby appearance, Pallas's cat face, exaggerated cuteness, cuddling pile, nursing, carrying kitten by neck, staged direct eye contact, matching poses, fused bodies, extra or missing limbs, joined or duplicated tails, cropped paws or tail tips, zoo den, artificial tunnel, desert dunes, CGI, illustration, painting, oversaturation, commercial stock-photo gloss.
 ```
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-alpine-meadow-portrait.webp` SHA-256: `f270817a7a13b25cba9196be7f04f53031cad3360a8a6f4a9ae629bc0e20d806`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.68, "y": 0.58}`. Full-subject boundary: `{"left": 688, "top": 344, "right": 1452, "bottom": 772}`, 764×428 source pixels, unchanged. Boundary center: 69.7% of source width.
+
+Original-resolution composition inspection: Complete visible ears, whiskers, paws and tail in right field, with real meadow margins; natural foot-ground contact.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 567.0×317.7 → 272.0×152.4 | 24.00 | 59.81 | 51.81 | Pass |
+| 390×760 | 567.0×317.7 → 314.2×176.0 | 37.92 | 48.00 | 40.00 | Pass |
+| 1366×768 | 679.4×380.6 → 559.7×313.5 | 72.00 | 51.32 | 105.23 | Pass |
+| 1920×900 | 955.0×535.0 → 825.6×462.5 | 72.00 | 62.40 | 96.75 | Pass |
+| 2560×900 | 1273.3×713.3 → 999.6×560.0 | 96.00 | 141.79 | 48.00 | Pass |
+| 3840×900 | 1910.0×1070.0 → 999.6×560.0 | 96.00 | 474.59 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

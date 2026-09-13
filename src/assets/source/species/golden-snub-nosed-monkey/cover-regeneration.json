@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "prompt": "Photorealistic wildlife editorial photograph, 1536x1024 landscape. Exactly one adult male golden snub-nosed monkey Rhinopithecus roxellana standing naturally upright on exposed snow-dusted ground in a Chinese montane forest. Full body three-quarter view, broad flat upturned nose, subtle pale blue eye area, pale broad muzzle, dark brown crown and back, golden orange shoulder mantle and flanks, dark outer arms, pale yellowish underside, realistic long fur. Both arms hanging separately with hands and digits visible beside body, both feet and toes visible on ground, no plants hiding appendages. Entire long non-prehensile tail traceable from rump sweeping gently down and along ground to right, equal to head-body length, no gripping curl, no short tail. STRICT COMPOSITION entire animal bounds including hair, hands, toes and tail inside x650..1475,y100..900. Make animal prominent and large within this right-side region, head near y130 and feet near y850. Left40% quiet softly defocused dark gray-green winter forest, muted continuous background without busy branches, bright snow spots or foreground objects. Real background margin around complete silhouette. Soft overcast daylight, natural anatomy, no clothes, no text, no border or collage.",
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-47222fe7-9018-4ef9-b663-fc74ebec32fa.png",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 716,
+      "top": 48,
+      "right": 1508,
+      "bottom": 964
+    },
+    "sha256": "fdb74b7e79674ae80b5c8cac30cf8060bedc823d73cab46632e99060ed37d70f"
+  },
+  "sourceSha256": "c3b4c3506c6f4b101245c1d290bfb98a70b56a848a384658c4585f52e6ad4591",
+  "supersededCover": {
+    "sha256": "4d76b2c5973e9367d977eeb3852b42dcf66535ae245d66764accf38571b356aa",
+    "bounds": {
+      "left": 1004,
+      "top": 400,
+      "right": 1320,
+      "bottom": 912
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full crown and outer fur, both hands, both feet and entire long tail. Curled fingers naturally overlap in relaxed hands. No edge clipping; quiet left40%.",
+  "status": "source composition and single-cover hero accepted"
+}

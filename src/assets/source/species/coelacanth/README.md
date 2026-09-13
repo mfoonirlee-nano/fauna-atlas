@@ -146,3 +146,26 @@ Lighting/mood: soft ROV lamps with natural blue-black falloff, careful non-invas
 Constraints: exactly one coelacanth and exactly one ROV; no people or other animals; no contact, capture, tagging or specimen claim; no readable screen, text, logo, signature, border or watermark.
 Avoid: submarine with people, scuba diver, second robot, extra fish, manipulator touching fish, net, hook, bait, trap, harpoon, tag, bright laser scale dots, overexposed spotlight, collision, distressed animal, ordinary grouper, shark, eel, malformed or cropped fish, missing central tail lobe, cable wrapped around fish, aquarium, CGI, illustration, fantasy machinery or oversaturation.
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-deep-slope-portrait.webp` SHA-256: `372954a3c74c88225d1750d7cbf5f9bcf264fade02c0b97c328b5333799d83ee`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.62, "y": 0.52}`. Conservative full-subject boundary: `{"left": 618, "top": 288, "right": 1468, "bottom": 660}`, 850×372 source pixels (previously 976×428). Boundary center is 67.9% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the mouth, both dorsal fins, visible lobed pectoral, pelvic and anal fins, and complete three-lobed tail. Far-side paired fins are naturally hidden by the body in this lateral pose. Real water margins surround the silhouette; left 40% contains quiet navy water. Two built-in edits corrected left intrusion and made the near pelvic fin distinct from pectoral overlap. Fine scales and fin-ray details are illustrative. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 724.4×317.7 → 272.0×119.0 | 24.00 | 76.48 | 68.48 | Pass |
+| 390×760 | 724.4×317.7 → 342.0×149.7 | 24.00 | 61.16 | 53.16 | Pass |
+| 1366×768 | 868.0×380.6 → 559.7×244.9 | 72.00 | 51.32 | 139.53 | Pass |
+| 1920×900 | 1220.0×535.0 → 825.6×361.3 | 72.00 | 62.40 | 147.34 | Pass |
+| 2560×900 | 1626.7×713.3 → 1132.8×495.8 | 72.00 | 75.20 | 80.12 | Pass |
+| 3840×900 | 2440.0×1070.0 → 1279.6×560.0 | 96.00 | 334.62 | 48.00 | Pass |
+
+`npm run test:carousel`: all 111 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

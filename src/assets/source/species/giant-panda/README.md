@@ -120,3 +120,26 @@ Materials/textures: coarse winter fur, powdery thin snow, bent bamboo leaves, da
 Constraints: exactly one panda; light realistic snowfall; no text, no logos, no watermark, no border
 Avoid: road, fence, building, researcher, camera trap, signage, zoo structures, deep arctic snow, blizzard, fantasy, extra animals
 ```
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-forest-portrait.webp` SHA-256: `c5e1dc2d98d60f51e20b1090ad647009f853340a7be5e9aadc856464a122b09b`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.72, "y": 0.49}`. Conservative full-subject boundary: `{"left": 636, "top": 240, "right": 1472, "bottom": 860}`, 836×620 source pixels (previously 418×354). Boundary center is 68.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes both ears, muzzle, fine outer fur, all four paws and the visible small tail at the rump. The proximal legs naturally overlap in this standing pose. Clear ground surrounds the paw tips; the left distant forest is softly defocused. The animal now occupies 836 by 620 source pixels instead of the old visible 418 by 354 box. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 310.2×262.7 → 237.3×176.0 | 41.34 | 48.00 | 40.00 | Pass |
+| 390×760 | 310.2×262.7 → 237.3×176.0 | 76.34 | 48.00 | 40.00 | Pass |
+| 1366×768 | 371.7×314.8 → 559.7×415.1 | 72.00 | 51.32 | 54.46 | Pass |
+| 1920×900 | 522.5×442.5 → 755.1×560.0 | 96.00 | 97.65 | 48.00 | Pass |
+| 2560×900 | 696.7×590.0 → 755.1×560.0 | 96.00 | 264.05 | 48.00 | Pass |
+| 3840×900 | 1045.0×885.0 → 755.1×560.0 | 96.00 | 596.85 | 48.00 | Pass |
+
+`npm run test:carousel`: all 169 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic macro wildlife atlas cover landscape 1536x1024. One emperor scorpion Pandinus imperator resting on smooth damp brown forest soil, elevated three-quarter view facing lower-left. Accurate glossy black robust body, large broad granulated pincers, exactly eight walking legs plus two claw-bearing pedipalps, segmented tail arching upward over rear body ending in reddish telson and sharp sting. Full visible animal LARGE on RIGHT with both complete pincers, visible leg tips and full tail/stinger within x=680..1460 y=120..890. Natural far-side leg overlap allowed but no extra limbs. Real soil margin beyond all extremities. Left40% quiet softly defocused dark green-brown forest background, no leaves logs or sharp litter. Soft natural light reveals dark limbs against lighter soil, realistic anatomy, no text border watermark.",
+  "edits": [
+    "Preserve exact scorpion anatomy pose and appendages. Correct placement and margins: uniformly reduce whole scorpion to 83 percent current size and shift right so leftmost claw begins x=670, rightmost leg ends x=1470, uppermost tail hair y=100 and lowest claw y=890. Keep full eight walking legs with natural overlap, both pincers and complete sting. Soften entire left40% into uniform defocused brown-green forest floor including lower-left soil. Canvas1536x1024, no other changes."
+  ],
+  "generatedImage": "exec-e47fe7c0-9268-4324-b6af-12fd6391e32d.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 664,
+      "top": 96,
+      "right": 1476,
+      "bottom": 874
+    },
+    "sha256": "aac99bb868a4a58be9ed81c6e8551b9e1980c3302384e7ad8674c8b37ffd076e"
+  },
+  "sourceSha256": "16da0e1892cc88c69cba2fedb50379b809adb98f39dff8a148b64d30adb2d93a",
+  "supersededCover": {
+    "sha256": "73a6942f0b56435d458c10dd61dd99898f24e8bce8a19b865d9b58276f44d373",
+    "bounds": {
+      "left": 424,
+      "top": 170,
+      "right": 1268,
+      "bottom": 936
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete body, both pincers, visible walking-leg tips and full arched tail with sting and fine hairs. Far-side legs naturally overlap body and pedipalps. Real soil margins; defocused left forest floor."
+}

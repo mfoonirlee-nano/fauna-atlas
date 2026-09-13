@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One adult goliath frog Conraua goliath resting in three-quarter side view facing left on a simple smooth wet river rock in Cameroon rainforest. Accurate large robust olive-brown frog with granular skin, broad head, golden brown eyes, powerful folded hindlegs, strong forelimbs, visible fingers and long webbed hind toes. No treefrog adhesive discs. Complete crouched animal LARGE on RIGHT, all snout, body, folded knees, visible fingers and webbed toes within x=690..1450 y=220..860. Natural far hindfoot overlap allowed, no extra limbs. Real surrounding rock/background margin. Left40% very softly defocused muted dark green river water and woodland, no bright white rapids or high contrast reflections. Soft natural diffuse light, realistic detail and anatomy, single animal no text border watermark.",
+  "generatedImage": "exec-ccb01e6b-b5ae-4e26-9517-e3caca3c23b1.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 216,
+      "right": 1498,
+      "bottom": 878
+    },
+    "sha256": "536fa87327eebd6913d1af95f0a8e013092543b7070b35b02ed5dc72b84ccd03"
+  },
+  "sourceSha256": "7171db35cd6608d6cabc25248e8c1ab3df0e5c593cb89096162b0150533cdef0",
+  "supersededCover": {
+    "sha256": "58298e56b1cdb463d7d63ad1a441e697aab9349c7f150a2c0a9b7a4032afe15d",
+    "bounds": {
+      "left": 644,
+      "top": 292,
+      "right": 1408,
+      "bottom": 926
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full snout, eyes, torso, forelimbs/fingers and visible folded hindlimb with long webbed toes. Far hindfoot naturally overlaps body. Real margins and quiet left river water without bright rapids."
+}

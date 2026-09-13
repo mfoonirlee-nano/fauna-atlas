@@ -149,3 +149,26 @@ The accepted correction instruction was scene-specific but kept one anatomical t
 - Frame 05 contains one frog, one shallow cleared gravel pool and no visible egg, tadpole, person or second animal.
 - Frame 06 contains one frog and one distant observer without contact, capture gear, attached equipment, readable notes or implied count result.
 - No frame contains a vocal sac, parotoid gland, horn, tail, text, logo, watermark or second frog.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-rapid-river-adult-cover.webp` SHA-256: `536fa87327eebd6913d1af95f0a8e013092543b7070b35b02ed5dc72b84ccd03`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.67, "y": 0.56}`. Conservative full-subject boundary: `{"left": 640, "top": 216, "right": 1498, "bottom": 878}`, 858×662 source pixels (previously 764×634). Boundary center is 69.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes snout, eyes, torso, both forelimbs and fingers, and the visible folded hindlimb with long webbed toes. Far hindfoot naturally overlaps the body. Real rock and river surround the silhouette. Left 40% contains defocused river water without the old bright rapids; supporting rock occupies the lower foreground. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 567.0×470.5 → 228.1×176.0 | 45.95 | 48.00 | 40.00 | Pass |
+| 390×760 | 567.0×470.5 → 228.1×176.0 | 80.95 | 48.00 | 40.00 | Pass |
+| 1366×768 | 679.4×563.8 → 554.7×428.0 | 74.48 | 53.80 | 48.00 | Pass |
+| 1920×900 | 955.0×792.5 → 725.8×560.0 | 96.00 | 112.30 | 48.00 | Pass |
+| 2560×900 | 1273.3×1056.7 → 725.8×560.0 | 96.00 | 278.70 | 48.00 | Pass |
+| 3840×900 | 1910.0×1585.0 → 725.8×560.0 | 96.00 | 611.50 | 48.00 | Pass |
+
+`npm run test:carousel`: all 134 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

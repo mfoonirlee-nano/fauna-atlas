@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one1536x1024 landscape wildlife atlas cover. One white-spotted pufferfish Torquigener albomaculosus swimming calmly left-facing side three-quarter view above pale sandy seabed in clear blue-green Japanese coastal water. Prominent WHOLE fish on RIGHT. Natural elongated UNINFLATED tan body with tiny whitish spots on back, white belly, large high-set eyes, small mouth, small translucent pectoral dorsal anal fins and complete tail. No pelvic fins or porcupine spikes. Entire silhouette mouth and every translucent fin tip inside x=750..1430 y=280..760 with real water margin. Natural proportions soft diffuse underwater light fine skin texture scientific editorial realism. Left40% quiet pale sand and blue-green water for copy. No nest other animals text logos borders collage or cropped fins.",
+  "generatedFile": "exec-b6a13519-61f3-41e2-834e-c7c7d70c8c86.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 610,
+      "top": 333,
+      "right": 1481,
+      "bottom": 687
+    },
+    "sha256": "0f83288ea5ea7ced799051186900513736f90c28ca5d951e2cded013b39d988c"
+  },
+  "sourceSha256": "e8e0d576285931e9c1ab50ae69c6817dc9eb58e4ded5b6c5c8674aae86e9409c",
+  "supersededCover": {
+    "sha256": "3e23beca69d1204b606e3ddcc43a93e54330260f953beb81bdb05b5588557942",
+    "bounds": {
+      "left": 1212,
+      "top": 348,
+      "right": 1363,
+      "bottom": 413
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full mouth, dorsal anal visible pectoral fin tips and complete tail retained. Far-side pectoral fin naturally occluded. Uninflated body without porcupine spines. Quiet left sand and water, real source-edge clearance."
+}

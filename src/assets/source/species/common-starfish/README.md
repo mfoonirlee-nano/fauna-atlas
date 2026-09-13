@@ -49,3 +49,26 @@
 ## 项目验证
 
 `npm run typecheck`、`npm run test:carousel` 与 `npm test` 通过。完整测试含 172 项分类测试及本批六图哈希、尺寸和解码验证，并覆盖首页轮播、目录、图片查看器及构建后的子路径资产访问。生产构建通过，仍提示主 JavaScript chunk 大于 500 kB。
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cover.webp` SHA-256: `784cba7092dba7a02ec803660c6c39d31ea027de5e99017d5a1556b87f3aee47`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.74, "y": 0.33}`. Conservative full-subject boundary: `{"left": 590, "top": 40, "right": 1480, "bottom": 890}`, 890×850 source pixels (previously 130×95). Boundary center is 67.4% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes puffin bill, tail and webbed toe tips, all five sea-star arm tips and outer spines, and walrus whiskers, tusks and visible flippers. Background remains between these features and the source edges. The animal is prominent on the right; the left 40% remains quiet habitat. The conservative measurement may include a few background pixels. Walrus hindflippers overlap naturally; their visible outer tips are included. The left sea-star arm tip and walrus foreflipper tip reach roughly 39% source width. They remain small edge features beside a quiet left copy field, rather than a broad body intrusion. No source extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 96.5×70.5 → 184.3×176.0 | 67.86 | 48.00 | 40.00 | Pass |
+| 390×760 | 96.5×70.5 → 184.3×176.0 | 102.86 | 48.00 | 40.00 | Pass |
+| 1366×768 | 115.6×84.5 → 448.1×428.0 | 96.00 | 107.09 | 48.00 | Pass |
+| 1920×900 | 162.5×118.8 → 586.4×560.0 | 96.00 | 182.02 | 48.00 | Pass |
+| 2560×900 | 216.7×158.3 → 586.4×560.0 | 96.00 | 348.42 | 48.00 | Pass |
+| 3840×900 | 325.0×237.5 → 586.4×560.0 | 96.00 | 681.22 | 48.00 | Pass |
+
+`npm run test:carousel`: all 30 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

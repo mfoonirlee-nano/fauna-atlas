@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult male green peafowl Pavo muticus standing on flat bare sandy soil in a Yunnan river valley forest clearing. Full body in three-quarter side view facing left. Tall upright narrow green crest, green gold scaled neck, yellow and blue facial skin, iridescent green wings, long closed train with eye spots trailing diagonally down to the RIGHT. Train not fanned. Both legs and complete visible splayed toes clearly separated on smooth ground without litter or grass. Entire prominent bird including crest, beak, toe tips and final delicate train filaments confined to x=680..1450 and y=100..920. Real background margin around all extremities. LEFT 40 percent quiet softly defocused muted olive forest and low-contrast earth, no sharp stones, plants, branches or bright highlights. Soft diffuse daylight, authentic natural proportions and detailed plumage, no text logos frame collage or extra animals.",
+  "edits": [
+    "Edit this green peafowl cover. Bring the COMPLETE train tip inward so every last fine feather filament ends before x=1460, leaving visible sand margin to the right edge. Shift head and torso slightly right so the beak begins beyond x=680, preserving tall height, natural proportions and visible toes. Keep whole bird on right with genuine margins, no clipped feather tips. Strongly soften the left 40 percent forest background into dark muted olive blur without distinct trunks, leaf clusters or bright river stones. Preserve detailed green peafowl plumage, closed train and smooth bare ground. 1536x1024, no text."
+  ],
+  "generatedImage": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-c007002e-8701-47cc-8fcc-8f1f4d423a2c.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 720,
+      "top": 64,
+      "right": 1448,
+      "bottom": 920
+    },
+    "sha256": "5000bc50fd2669f65f452b79e42a35accbca3818de0ae5b5f19d40e6f687cfa0"
+  },
+  "sourceSha256": "456035fc739a83f9077181c2c71a24e3debe1469c55fc0c1ca9fd2d709b35cb4",
+  "supersededCover": {
+    "sha256": "9dcb2e46f137be363f58eb59ca06f9395462cc13c2d2a360794378a2e460a9f1",
+    "bounds": {
+      "left": 772,
+      "top": 148,
+      "right": 1448,
+      "bottom": 890
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete crest, beak, visible toe tips and fine closed-train filaments. Folded wings and far-side toes overlap naturally; exact feather counts are not established."
+}

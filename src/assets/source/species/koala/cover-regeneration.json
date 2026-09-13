@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas cover1536x1024 landscape. One gray koala Phascolarctos cinereus seated in a eucalyptus tree fork, three-quarter view facing slightly left. Fluffy round ears, large black leathery nose, pale chest, limbs gripping branches naturally with visible paws and claws, full outer contour clear. Australian eucalyptus woodland soft natural daylight editorial wildlife photograph. Prominent complete koala on RIGHT with all ear fur and outer paws within x=800..1380 y=170..870. Left40% quiet defocused eucalyptus woodland without animal parts. Real background around entire animal, branches support feet without hiding outer toes, coherent anatomy. No other animals, text watermark collage or human objects.",
+  "editPrompt": "Edit this koala photo: preserve identity natural anatomy light and1536x1024 landscape. Replace the diagonal trunk IN FRONT of its left body with unobstructed woodland background and seat the koala on a broad horizontal branch under its rump and feet. Keep the upright right-hand branch it grips. Show complete outer body contour including left shoulder flank rump and all visible paws without foreground trunk obscuration. Full animal remains on right, no part touches source edge, left40% quiet woodland. No extra limbs or animals, natural coherent seated posture.",
+  "rejectedCandidate": "Foreground diagonal trunk obscured the koala body outline.",
+  "generatedFile": "exec-10ec4db6-3a54-4f59-b9a1-4cdc928537b2.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 800,
+      "top": 50,
+      "right": 1475,
+      "bottom": 850
+    },
+    "sha256": "5ae79111d2dcd89b57ebde8e699cc3b80b913593a4a6e5c0c02670922b75a611"
+  },
+  "sourceSha256": "dfca8567146341597dd81676faa65c271b98d036ba6b1c170d7fe22f32968234",
+  "supersededCover": {
+    "sha256": "5eebef4dda81ec2f7ddeafcf0760aa92937e1499b94229a99a5c4ee676e2a4a9",
+    "bounds": {
+      "left": 1050,
+      "top": 319,
+      "right": 1180,
+      "bottom": 464
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Koala ear fur, complete outer body and visible claws; rabbit ears, whiskers, paws and tail; honey bee antennae, translucent wings, abdomen and visible leg tips. Far-side limbs overlap naturally; bee legs partly meet flower center. Koala initial foreground trunk obscuration was removed. Quiet left habitat and real source-edge clearance."
+}

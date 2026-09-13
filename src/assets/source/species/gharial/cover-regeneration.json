@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic wildlife photograph exact1536x1024 landscape. ONE complete adult male gharial Gavialis gangeticus basking on South Asian river sandbar, prominent animal entirely RIGHT inside x=700..1450 y=240..810. Three-quarter slightly elevated view, head points diagonally toward lower left, extremely long narrow parallel-sided jaws with fine near-uniform teeth and ONE modest rounded ghara at snout tip. Long low dark olive gray body, four short splayed limbs with complete feet visible. Full long laterally compressed tail curves naturally around behind body to right, entire tapering tail tip visible on sand, no clipped extremities or hidden tail. Compact curved composition preserves slender proportions, not broad-snouted crocodile. Real pale sand margin around whole animal including ghara, toes and tail crests. Quiet left40% softly defocused sand and calm blue river, distant muted riverbank, soft natural morning light. No other animals, people, text, watermark, border, collage or enclosure.",
+  "editPrompt": "Recompose this gharial photograph. Move the ENTIRE animal substantially right and reduce it just enough so full snout tip ghara, toes and tail all lie within x=690..1460 y=280..790 on exact1536x1024. Left40% quiet sand and water only. Preserve narrow long jaws, one ghara, continuous curved tail and natural body. Reveal the far-side rear foot beyond rear body without extra limbs: four limbs total with natural perspective. Keep full tail tip and all extremities with real sand margins. No seams or text.",
+  "rejectedCandidate": "exec-ca0d7404-f341-4006-83e0-6dd00c390e18.png: snout intrudes into left field",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-6deec98c-7bd4-46fc-896b-2e25155e1fd8.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 332,
+      "right": 1504,
+      "bottom": 738
+    },
+    "sha256": "569a883b81773f5ecc361b765fe721255f4bd4d4d3f5376efaef89c26573f8f8"
+  },
+  "sourceSha256": "093043f6ea1578e0240cfb021512045e6df4202535713ea4367c9564886d0ffc",
+  "supersededCover": {
+    "sha256": "659d1d04b86d58408574b8431df8d73b2e22536e4304902b4458880e9550d852",
+    "bounds": {
+      "left": 32,
+      "top": 510,
+      "right": 1464,
+      "bottom": 718
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Entire long snout, ghara, visible toes, dorsal crests and tail tip retained. Far-side hind limb occluded naturally by body. Initial snout intrusion corrected; real sand margins and quiet left40%."
+}

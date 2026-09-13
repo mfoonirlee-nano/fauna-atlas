@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas cover1536x1024 landscape. One wild-type golden hamster Mesocricetus auratus, golden brown back creamy belly dark cheek markings, rounded ears, tiny short tail and small paws, sitting in three-quarter side view facing left on bare fine soil at dry Syrian field margin. Prominent animal on RIGHT, all whiskers ear fur paws and tail inside x=760..1400 y=230..850. Left40% quiet softly defocused dry field background with no animal parts. Real background clearance around entire outer silhouette, low sparse vegetation not obscuring paws, soft early evening light, editorial wildlife photograph. Coherent anatomy, no other animals, human objects, text watermark collage or borders.",
+  "generatedFile": "exec-c9958f7a-a7ba-4e36-a82a-a12be5abb309.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 175,
+      "right": 1420,
+      "bottom": 800
+    },
+    "sha256": "bee5f2d1b47e377e7737caa753ecb36eb030fb0865c5125b30d3c63588a44a2b"
+  },
+  "sourceSha256": "5ec271fe33ef835f49f0af273d21a867ad639572c914068fa5079a138bc8fcca",
+  "supersededCover": {
+    "sha256": "f2f4afef38772b59813b368ff03a560d62db77bdee424695d15876ce01db44e0",
+    "bounds": {
+      "left": 1098,
+      "top": 318,
+      "right": 1207,
+      "bottom": 435
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete mallard bill, tail feathers and both webbed feet; alpaca ears, fleece edges, visible tail and four feet; hamster whiskers, ears, paws and short tail. Quiet left habitat and real source-edge clearance. Some far-side anatomy overlaps naturally in the pictured poses."
+}

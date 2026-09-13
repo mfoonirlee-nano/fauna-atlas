@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "prompt": "Create a photorealistic wildlife editorial photograph of exactly one crested ibis Nipponia nippon flying leftward above a rice paddy. Landscape1536x1024. White bird with delicate salmon-pink underside of feathers, red bare face, long slender downcurved dark bill with reddish tip, wispy white crest, red legs and trailing toes. Three-quarter side flight view in upstroke, both wings anatomically attached and distinct, near wing raised diagonally and far wing visible behind without duplicate wings. Full bill tip, crown wisps, every primary feather tip, tail and trailing toes clearly included. STRICT composition entire visible bird silhouette inside x660..1470,y150..830. Maximize bird prominence in that right-side rectangle; keep left40% entirely quiet softly blurred olive-gray paddy water/background, no bird parts, high-contrast stalks or busy trees. Real background margin all sides. Natural soft daylight, detailed plausible feathers and wing joints, flight pose not a collage, no text or border.",
+  "editPrompts": [
+    "Edit this image keeping the single crested ibis, anatomy, wing pose, feet and feather detail. Move the entire bird a little right and scale down only slightly so its complete silhouette including bill tip is inside x640..1480 and y90..820 on1536x1024. Current bill tip at x605 must move beyond x640, and top feather tips need more water/blurred background margin. Keep bird prominent, two wings, two legs and full toes, complete crest and tail. Left40% quiet blurred paddy, no text or clipping."
+  ],
+  "generatedSource": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-6b2a8d36-7e12-4ea1-953e-1bcfdd96a696.png",
+  "rejectedCandidates": [
+    {
+      "file": "exec-bf0d10f9-2492-4969-bdd4-b9c4afde89b8.png",
+      "reason": "Bill tip slightly enters left40%; increased top margin in edit."
+    }
+  ],
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 648,
+      "top": 80,
+      "right": 1462,
+      "bottom": 774
+    },
+    "sha256": "515b45ec92728a3e1442dd32693a98bf410eebc58cbbca7c403ecffec7ba4589"
+  },
+  "sourceSha256": "747d84dcf38dd69ce8097943e3ec7c9401d38ff6e491f9edbc1b1ba7afe566de",
+  "supersededCover": {
+    "sha256": "2dcd7ab3357a2f17dbd9688c4e92c9e15a935580ea15816736c0f5aabcd69ed7",
+    "bounds": {
+      "left": 574,
+      "top": 180,
+      "right": 1312,
+      "bottom": 680
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full curved bill, crest wisps, both visible wing outlines, tail and trailing toes. Far wing root and paired legs naturally overlap in flight view. No edge clipping; quiet left40%.",
+  "status": "source composition and single-cover hero accepted"
+}

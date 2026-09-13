@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas cover1536x1024 landscape. One wild European rabbit Oryctolagus cuniculus, grey-brown agouti coat, upright ears of rabbit proportions not hare-length, dark eyes, compact body, short white-underneath tail, sitting left-facing three-quarter side view on low bare sandy patch in Iberian meadow. Prominent complete rabbit on RIGHT with all whiskers, ear tips, visible paws and tail within x=780..1400 y=160..865. Left40% quiet softly blurred muted meadow, real background around all outer features. No plants overlapping rabbit, natural soft morning light detailed fur and coherent anatomy. No other animals domestic breeds carrots text watermark collage or borders.",
+  "generatedFile": "exec-30331030-c36b-460b-b96b-e791c78f5774.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 90,
+      "right": 1415,
+      "bottom": 890
+    },
+    "sha256": "17abf556060d7d47ea5f0ef89176763fc0978467392ff85a928cd2fa8b2356a7"
+  },
+  "sourceSha256": "fe6369db628ba21fb31908a1d3e679a9aeb780c05dfa36be458744fbaa1cdecb",
+  "supersededCover": {
+    "sha256": "0396594c0300c5058a20e4e0621ce84057298fe339ab10c659daaeb59d0ee1c2",
+    "bounds": {
+      "left": 1040,
+      "top": 320,
+      "right": 1220,
+      "bottom": 488
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Koala ear fur, complete outer body and visible claws; rabbit ears, whiskers, paws and tail; honey bee antennae, translucent wings, abdomen and visible leg tips. Far-side limbs overlap naturally; bee legs partly meet flower center. Koala initial foreground trunk obscuration was removed. Quiet left habitat and real source-edge clearance."
+}

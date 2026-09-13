@@ -85,3 +85,26 @@ All six sources passed TinyPNG after retrying with network permission, then conv
 | 06 | `1a87203416807436d21bfbeabd818da9010ff2d0f52e0d2d71d1af71a3a0f05f` | `70cb334494b83e679621495cbcd58b796d43837a2fada16d220e7fc504761b4b` |
 
 Verification: all 158 repository tests passed, including the subpath HTTP test rerun with local-listener permission after sandbox `listen EPERM`. Type checking and the production build passed. Vite still reports the existing large JavaScript chunk warning. The tracked `dist/` output includes this species and its six runtime assets.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-garden-stone-cover.webp` SHA-256: `4d48d10fcdba93fa165dd86a1e51185c78b05a59d4bad8668c8e42375705012c`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.88, "y": 0.34}`. Conservative full-subject boundary: `{"left": 614, "top": 274, "right": 1464, "bottom": 706}`, 850×432 source pixels (previously 150×77). Boundary center is 67.6% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes both upper eyestalk tips, both short lower feelers, the entire shell edge, muscular foot and tapered rear tip. All four tentacles are distinct. The leftmost eyestalk tip sits at approximately 40% of source width; left field contains stone and softly blurred garden plants without another animal. Real background margins surround all visible extremities. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 111.3×57.1 → 272.0×138.2 | 24.00 | 66.88 | 58.88 | Pass |
+| 390×760 | 111.3×57.1 → 342.0×173.8 | 24.00 | 49.09 | 41.09 | Pass |
+| 1366×768 | 133.4×68.5 → 559.7×284.4 | 72.00 | 51.32 | 119.78 | Pass |
+| 1920×900 | 187.5×96.2 → 825.6×419.6 | 72.00 | 62.40 | 118.20 | Pass |
+| 2560×900 | 250.0×128.3 → 1101.9×560.0 | 87.47 | 90.67 | 48.00 | Pass |
+| 3840×900 | 375.0×192.5 → 1101.9×560.0 | 96.00 | 423.47 | 48.00 | Pass |
+
+`npm run test:carousel`: all 75 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

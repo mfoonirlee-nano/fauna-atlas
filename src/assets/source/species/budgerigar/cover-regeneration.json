@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One wild-type budgerigar Melopsittacus undulatus perched calmly left-facing three-quarter view on slim bare branch in Australian dry grassland. Prominent WHOLE bird on RIGHT, natural green body yellow head black scalloped wing markings blue cheek patches, small curved bill blue cere, both feet naturally gripping branch, folded wings and full long tapered blue-green tail visible. Entire silhouette crown bill toes wing tips and tail within x=760..1390 y=140..880 with real background margins. Natural proportions fine feather texture soft daylight editorial wildlife photography. Left40% quiet defocused muted dry grassland for copy. No other birds text logos borders collage cages artificial color morphs or cropped feathers.",
+  "generatedFile": "exec-bc3ede23-810c-4e2e-9552-c5761b79a4d0.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 90,
+      "right": 1402,
+      "bottom": 960
+    },
+    "sha256": "a0c437222f0070ea2acb68fee02367c141b040fb6f185df687791176fc6fc1d9"
+  },
+  "sourceSha256": "34d168011023b48878dd99798c07b7495582b8bf1de74398ebdd705f96073718",
+  "supersededCover": {
+    "sha256": "60a0c527e5cefb24e0fbab50d5fe12c50f47cccfaff28da1b002f5897ff1677e",
+    "bounds": {
+      "left": 1216,
+      "top": 302,
+      "right": 1297,
+      "bottom": 453
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full crown, bill, folded wing tips, both feet with visible claw tips and entire tapered tail retained. Toes curl behind perch naturally; far-side wing overlaps body. Quiet left grassland and real source-edge clearance."
+}

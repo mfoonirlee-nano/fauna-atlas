@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific natural-history reconstruction exact1536x1024 landscape. ONE complete Giant Gippsland Earthworm Megascolides australis visible in an opened moist blue-gray clay burrow pocket, prominent whole body on RIGHT entirely within x=700..1450 y=230..800. Long slender continuous cylindrical earthworm arranged in two gentle loose S bends, no crossings, both blunt featureless anterior and tapering posterior clearly visible. Deep purple anterior third transitioning gradually to pale pink-gray posterior, near-smooth moist skin with very fine dense faint transverse segment microtexture, NOT a small number of thick ribs. No eyes, legs, antennae, snake head, jaws or suckers. Full worm outline separated from crop by real damp clay, no part entering hidden tunnel. Scientific opened-burrow reconstruction, not normal aboveground behavior. Soft diffuse naturalistic light makes both dark and pale ends readable, subtle thin moisture film. Left40% quiet defocused dark clay, no other animal, text, watermark, scale bar, collage, diagram or border.",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-b914a400-65a1-4034-94f3-f22444e35489.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 664,
+      "top": 152,
+      "right": 1470,
+      "bottom": 882
+    },
+    "sha256": "1a4b7fa956aa9f83f83558efb3b2b2e09cb1b7af5228a18da8deb7f2e171112b"
+  },
+  "sourceSha256": "65f616a48b2fcfdb58c01ae967a29472c22103a99e53a5f246dbf256c1b94675",
+  "supersededCover": {
+    "sha256": "244ea00a0c8ef3f244c526db0522cceb558b5c9050c4a8730a4dafbc7c88ef96",
+    "bounds": {
+      "left": 52,
+      "top": 278,
+      "right": 1528,
+      "bottom": 766
+    }
+  },
+  "inspection": "Original-resolution PNG and WebP inspected. Complete continuous body and both featureless ends visible, fine transverse skin texture; purple anterior and pale posterior. Opened burrow reconstruction, not normal aboveground behavior. Full outline within real clay margins, quiet left40%."
+}

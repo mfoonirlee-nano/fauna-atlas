@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas cover1536x1024 landscape. One male mallard Anas platyrhynchos standing left-facing three-quarter side view on flat bare shore beside quiet pond. Breeding plumage green head yellow bill white neck ring brown breast gray body curly black tail feathers, both orange webbed feet visible. Prominent full bird placed on RIGHT, complete bill tail and toe tips within x=760..1410 y=210..845. Left40% quiet defocused pond. Real habitat between all animal extremities and source edges. Soft natural daylight editorial wildlife photograph, coherent anatomy, no other animals, no text watermark collage or borders.",
+  "generatedFile": "exec-eb856210-c805-435d-9897-8d250bfb2345.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 110,
+      "right": 1490,
+      "bottom": 890
+    },
+    "sha256": "b4ee5b2ac01788f282780868014a6869717dbe32d11bdea8de83848e0181e79a"
+  },
+  "sourceSha256": "bdeebcb311ff1abcf46c5b32656d2c3a1dd7d1037be7cb62c84ccf6d51d81567",
+  "supersededCover": {
+    "sha256": "3301e8e7237f1ac9df9da419123e42ab758068cc88a823a9a391cc88a940d982",
+    "bounds": {
+      "left": 1120,
+      "top": 300,
+      "right": 1265,
+      "bottom": 438
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete mallard bill, tail feathers and both webbed feet; alpaca ears, fleece edges, visible tail and four feet; hamster whiskers, ears, paws and short tail. Quiet left habitat and real source-edge clearance. Some far-side anatomy overlaps naturally in the pictured poses."
+}

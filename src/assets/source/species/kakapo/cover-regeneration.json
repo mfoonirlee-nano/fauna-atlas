@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One adult kakapo Strigops habroptilus standing in three-quarter view facing left on a small bare patch of New Zealand forest floor at dusk. Accurate stocky flightless green parrot, mottled moss-green and yellow brown plumage, distinctive owl-like facial disc with fine whiskery feathers, pale curved bill, dark eyes, folded short wings, complete long green tail and both sturdy grey feet with visible zygodactyl toes on unobstructed ground. Large prominent complete animal on RIGHT: all facial feather tips, bill, wings, tail and toes strictly within x=690..1450 y=170..870. Real background margin around every tip. Left40% quiet very softly defocused dark green woodland with low contrast, no crisp fern leaves or trunks. Soft natural twilight illumination showing detailed feathers, realistic anatomy, one bird only, no text watermark or frame.",
+  "generatedImage": "exec-6e883178-7bd7-4e5a-b3ed-2998498c7a04.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 670,
+      "top": 114,
+      "right": 1510,
+      "bottom": 864
+    },
+    "sha256": "375ddaebf681df89b003ac71f500fd7ca8841b49fd0e58cc2f5011cbd33ce374"
+  },
+  "sourceSha256": "3163ac6c24a172b48b7f9bfa5172128d53eb8f7ef68b96d2d068fa3e725286d0",
+  "supersededCover": {
+    "sha256": "1c9f498e382997e2fc1823bd71e2a26ec20b0939d7cb239d30f7a068b3fa5d2b",
+    "bounds": {
+      "left": 548,
+      "top": 338,
+      "right": 1318,
+      "bottom": 866
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full facial feather fringe, bill, folded wings, long tail and both visible feet/toes. Far-side wing naturally overlaps body; toe contact naturally overlaps ground. Real margins and quiet defocused left woodland above foreground litter."
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific natural-history macro photograph exact 1536x1024 landscape. One Mastigoproctus giganteus vinegaroon on smooth damp brown leaf litter, full prominent animal on RIGHT side. Entire silhouette including both sensory front legs and entire whip tail inside x=700..1440 y=180..850. Slightly elevated dorsal three-quarter view, head towards lower left, abdomen towards upper right. Accurate dark brown elongated segmented oval abdomen, two robust spined grasping pedipalps near mouth, THREE PAIRS of walking legs plus ONE PAIR long thin antenniform sensory front legs, one thin flexible terminal flagellum without stinger trailing towards upper right. Separate readable appendage tips, no cropped or hidden tips. Real surrounding background margin for full antenna-like legs and tail. Anatomically plausible vinegaroon, not scorpion or tailless whip spider. Left 40% quiet softly blurred brown soil and leaf litter; subtle distant green background. Natural diffuse light reveals detailed dark exoskeleton, restrained colors, full animal in focus. No other animals, text, watermark, diagram, borders or collage.",
+  "editPrompts": [
+    "Edit this vinegaroon photo. Scale the ENTIRE animal including both very long sensory front legs and complete terminal whip to 65 percent current linear size, move complete silhouette to RIGHT, fitting all extremities inside x=710..1460 y=190..840. Do not omit any thin appendage or cut any tip. Preserve two grasping spined pedipalps, three pairs walking legs and one pair antenniform front legs, segmented abdomen and single nonstinging whip. Reconstruct continuous leaf litter around and under animal. Keep left 40% quiet softly blurred brown soil, no animal parts. Exact1536x1024 natural macro photo, one animal, no text.",
+    "Composition correction only: the leftmost thin sensory leg tip is currently at x550 and violates quiet left field. Scale ALL animal parts together to 75% current linear size then translate to place leftmost tip at x740 and rightmost whip tip at x1450, vertical center y530. Preserve complete second sensory leg down-right with full tip. Reconstruct leaf litter at former position. Do not change anatomy, do not add appendages. Exact1536x1024. The entire animal including every long thin appendage must stay right of x700, with margins on all sides."
+  ],
+  "rejectedCandidates": [
+    "exec-bb78a508-8b7b-44f5-a90b-c8b0cc6269d4.png: left intrusion, tail near edge",
+    "exec-60f94ac4-c1f8-4c40-aa7a-e7067a193696.png: sensory leg still intrudes left field"
+  ],
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-4d3e2d61-e7a6-4368-9d3a-50b82f40e0c0.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 684,
+      "top": 218,
+      "right": 1488,
+      "bottom": 952
+    },
+    "sha256": "d65894543f74c87dd620903def830d88b8b6c67d3c960eecd4190872fb9864a3"
+  },
+  "sourceSha256": "fe3be972efbd2699057ca0245f8894c94a436f50a4e99a7896cbd0e58211f452",
+  "supersededCover": {
+    "sha256": "e7660ea355796dbcce959a3855c1f140c2774b6cbf30cc3f3f9635755505e8c4",
+    "bounds": {
+      "left": 1126,
+      "top": 321,
+      "right": 1220,
+      "bottom": 390
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Both long sensory front legs, grasping pedipalps, visible walking legs and entire terminal whip retained. Fine joint and spine counts not diagnostic. Two edits corrected left intrusion. Full bounds include long down-right sensory leg, quiet left leaf litter and real margins."
+}

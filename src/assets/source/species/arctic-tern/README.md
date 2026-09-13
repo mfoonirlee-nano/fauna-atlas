@@ -163,3 +163,26 @@ Avoid: third person, binoculars, camera, telephoto lens, second scope, drone, bo
 - Frame 03 inspection confirmed one distant bird over pack ice but could not verify the requested nonbreeding white forehead. No caption or profile claim should infer that detail from this asset.
 - Runtime inspection after conversion found no new cropping, extra subjects, visible text, logos, watermarks, borders or material compression defects.
 - Verification used static file inspection and the built-in image viewer. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-arctic-coast-breeding-adult.webp` SHA-256: `a420b9f6dfb2bbb5dfab7629ca6eada595aca04fdf18b5f7a6df61149beb2e0f`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.55}`. Conservative full-subject boundary: `{"left": 684, "top": 258, "right": 1494, "bottom": 670}`, 810×412 source pixels (previously 710×278). Boundary center is 70.9% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes red bill, cap, folded wing tips, both long white tail streamers and two exposed feet with visible toes. Far-side folded wing naturally overlaps the body. One edit moved the bill clear of the left field. Real coastal background surrounds the silhouette, with narrow but visible space beyond the longest feather. Left 40% contains softly defocused sea and sky. Fine feather pattern depicts an illustrative individual. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 527.0×206.3 → 272.0×138.4 | 24.00 | 66.82 | 58.82 | Pass |
+| 390×760 | 527.0×206.3 → 342.0×174.0 | 24.00 | 49.02 | 41.02 | Pass |
+| 1366×768 | 631.4×247.2 → 559.7×284.7 | 72.00 | 51.32 | 119.66 | Pass |
+| 1920×900 | 887.5×347.5 → 825.6×419.9 | 72.00 | 62.40 | 118.03 | Pass |
+| 2560×900 | 1183.3×463.3 → 1101.0×560.0 | 87.91 | 91.11 | 48.00 | Pass |
+| 3840×900 | 1775.0×695.0 → 1101.0×560.0 | 96.00 | 423.91 | 48.00 | Pass |
+
+`npm run test:carousel`: all 117 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

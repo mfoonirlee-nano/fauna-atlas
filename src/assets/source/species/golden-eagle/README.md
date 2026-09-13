@@ -157,3 +157,23 @@ Constraints: EXACTLY ONE BIRD AND EXACTLY TWO PEOPLE TOTAL; one spotting scope, 
 - `cwebp -q 82 -m 6 -mt` produced six runtime files totaling 927.6 KB, an 80.2 percent reduction from the compressed sources.
 - Source and runtime files received visual inspection at original resolution. Checks covered animal and person counts, gold nape, adult-white exclusion, feathered tarsi, complete wing tips and tails, cover crop space, hunt separation, nest contents, monitoring distance, and the absence of text or branding.
 - Verification used no GUI or headless browser.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-alpine-ridge-portrait.webp` SHA-256: `034dade4469470ffd8b3cabe7c219d2ca43e282e4c61b13f9d285c184e0ba688`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.7, "y": 0.52}`. Full-subject boundary: `{"left": 802, "top": 156, "right": 1424, "bottom": 930}`, 622×774 source pixels, unchanged. Boundary center: 72.5% of source width.
+
+Original-resolution composition inspection: Complete bill, crown, folded feather tips, tail and visible talons fit inside real margins. Rear gripping toes naturally occluded by rock/feet. Left field contains soft distant sky and mountains. Hero acceptance remains unverified.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 461.6×574.5 → 141.4×176.0 | 89.28 | 48.00 | 40.00 | Pass |
+| 390×760 | 461.6×574.5 → 141.4×176.0 | 124.28 | 48.00 | 40.00 | Pass |
+| 1366×768 | 553.2×688.3 → 343.9×428.0 | 96.00 | 159.19 | 48.00 | Pass |
+| 1920×900 | 777.5×967.5 → 450.0×560.0 | 96.00 | 250.19 | 48.00 | Pass |
+| 2560×900 | 1036.7×1290.0 → 450.0×560.0 | 96.00 | 416.59 | 48.00 | Pass |
+| 3840×900 | 1555.0×1935.0 → 450.0×560.0 | 96.00 | 749.39 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

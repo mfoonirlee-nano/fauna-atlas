@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape1536x1024. One adult Nile crocodile Crocodylus niloticus resting on a smooth pale river sandbank, elevated three-quarter view with snout facing lower-left and body toward upper-right. Accurate long broad crocodile snout, olive grey armored scales and dorsal scutes, sturdy splayed limbs with visible toes, long muscular tail bending naturally in a broad curve down the right side toward lower foreground, complete tapered tail tip visible without self crossing. Entire animal LARGE on RIGHT, all snout, visible toes and tail within x=670..1460 y=170..890. Natural far-side limb overlap allowed. Real sand margin beyond every extremity. Left40% quiet softly defocused muted green river water without reeds rocks or other animals. Soft natural daylight, realistic anatomy, no text border watermark.",
+  "edits": [
+    "Correct anatomy and composition. The crocodile must have ONLY ONE tail: retain the large curved tail along its right side ending at lower-right, remove the erroneous extra tapered spiny tail protruding horizontally behind it at top-left and replace that with sand. Keep single continuous body-to-right-tail connection. Uniformly shrink whole crocodile to78 percent and shift right so snout begins x=670 and rightmost tail edge x=1470 with real sand margins. Soften left40% into defocused muted green river water, no detailed bank. Preserve visible feet and scutes. Canvas1536x1024."
+  ],
+  "generatedImage": "exec-119ddcb9-65d7-4e9c-800f-8ffb429dbd57.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 626,
+      "top": 284,
+      "right": 1500,
+      "bottom": 852
+    },
+    "sha256": "5ea40f39dd28d91747023885e6038add5724186445c3c2d7b4dd73c37a3e627e"
+  },
+  "sourceSha256": "4e835046e4dfd1dd86d23b1266bf4eccc90d3a3c24be3bbe952fe5c2479c6488",
+  "supersededCover": {
+    "sha256": "59c6cdebca986a4f8fa7f4df3a9d49c7c790e0f270d1e60a2c8156ff3b5996db",
+    "bounds": {
+      "left": 28,
+      "top": 572,
+      "right": 1472,
+      "bottom": 774
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete snout, dorsal scutes, visible toes and single full curved tail. Far hindfoot naturally concealed by body. Real sand margins; quiet defocused left river."
+}

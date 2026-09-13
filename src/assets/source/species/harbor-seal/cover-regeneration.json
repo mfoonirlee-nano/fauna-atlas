@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate a new 1536x1024 landscape Fauna Atlas cover. One harbor seal Phoca vitulina resting on a flat coastal rock, realistic mottled gray coat, round head without external ear flaps, fine whiskers, short foreflippers and paired hindflippers. Three-quarter full-body view facing left with all visible flippers and hind end clearly within the photograph. Natural-history editorial photography, soft coastal daylight. Put the ENTIRE animal in the RIGHT HALF, its nose and whiskers to the right of x=720 and hindflippers before x=1410, complete silhouette approximately x=700..1430 y=300..800. The seal is prominent and fills nearly half the image width. Left 40% contains only quiet defocused coast and water. Real rock/background around all visible extremities, no clipping or foreground occlusion. One seal only, no text, watermark, frame, collage, human objects or fantasy.",
+  "edits": [],
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 310,
+      "right": 1495,
+      "bottom": 760
+    },
+    "sha256": "9f9f93b16f14a97bca43ec6c5ea5f7d7e277943f9a1a9285e6dffc74e0a56825"
+  },
+  "sourceSha256": "8c5587cf48963c6f35bb65b844eda541a83fbbf0da6b47fd8ab031460adbcfea",
+  "supersededCover": {
+    "sha256": "9be4332a8d5482f218652374a83b078ee0ec11a13b127c5d01035d7220b557bb",
+    "bounds": {
+      "left": 1070,
+      "top": 430,
+      "right": 1186,
+      "bottom": 486
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Whole visible silhouette, quiet left 40%, real source-edge background. Includes seal whiskers and all visible flippers; whale head, pectoral flippers and both tail flukes; full orca dorsal fin."
+}

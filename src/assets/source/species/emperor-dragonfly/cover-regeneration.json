@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic macro wildlife atlas cover landscape 1536x1024. One adult male emperor dragonfly Anax imperator perched vertically on a slender simple reed on RIGHT, head up and abdomen down. Accurate green thorax, blue segmented abdomen with black dorsal stripe, large green-blue compound eyes, exactly four transparent veined wings spread laterally, six slender black legs gripping reed with natural overlap. Entire animal LARGE right-side composition, all four complete wing tips and abdominal terminal appendages within x=670..1470 y=110..910. Real background margin around every transparent wing edge. Left40 percent quiet softly defocused muted green pond background without bright reflections reeds or other insects. Natural diffuse daylight reveals fine wing veins, realistic proportions and color, no text border watermark.",
+  "generatedImage": "exec-638e4b48-fe5a-452c-9fb9-1e7e726eb981.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 616,
+      "top": 84,
+      "right": 1488,
+      "bottom": 954
+    },
+    "sha256": "cde1cc0c48d74c1e2748c8774ba482bd5af939ee36fe168d91cba97b5ac8733d"
+  },
+  "sourceSha256": "dc5e6e3f0b875a19b0ed3d17a04594f825c2167c3c9525862d25f814f0f09296",
+  "supersededCover": {
+    "sha256": "bdb376da01489621a4de8a970b56d6088157a4ff285e01d2ac348a29ebbad551",
+    "bounds": {
+      "left": 542,
+      "top": 184,
+      "right": 1380,
+      "bottom": 952
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete four-wing transparent outline, head, visible gripping legs and terminal abdominal appendages. Lower legs naturally overlap thorax, wings and reed in dorsal view. Real background margins; defocused left pond."
+}

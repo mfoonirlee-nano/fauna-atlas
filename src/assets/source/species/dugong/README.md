@@ -140,3 +140,26 @@ Avoid: handling a Dugong, animal silhouette, blood or tissue sampling, trawl, ca
 - Static visual inspection checks one cover adult with left-side negative space; one feeding adult at the meadow floor; a habitat-dominant frame with one distant animal; one coherent split-level surface breath without a blow; exactly one adult and one calf; and exactly two researchers, one bottle, one clipboard and zero animals in the monitoring frame.
 - Several animal frames show the horizontal fluke near edge-on. The captions and alt text do not treat those views as standalone diagnostic proof of tail shape.
 - No GUI or headless browser was used for verification.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-seagrass-meadow-portrait.webp` SHA-256: `8a0238d23875aec9b76a4e0d512dd96db22b31ee7d66f87c9417754f376c5630`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.68, "y": 0.53}`. Conservative full-subject boundary: `{"left": 620, "top": 294, "right": 1490, "bottom": 684}`, 870×390 source pixels (previously 1028×420). Boundary center is 68.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes the downturned muzzle and fine bristles, both visible flippers and complete notched tail flukes. The far-side flipper base overlaps the body naturally. Real water margins surround the silhouette, and left 40% contains quiet water with subdued seagrass below. A built-in edit corrected the initial draft’s left intrusion. Fine skin texture and bristles are illustrative. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 763.0×311.7 → 272.0×121.9 | 24.00 | 75.03 | 67.03 | Pass |
+| 390×760 | 763.0×311.7 → 342.0×153.3 | 24.00 | 59.34 | 51.34 | Pass |
+| 1366×768 | 914.2×373.5 → 559.7×250.9 | 72.00 | 51.32 | 136.55 | Pass |
+| 1920×900 | 1285.0×525.0 → 825.6×370.1 | 72.00 | 62.40 | 142.95 | Pass |
+| 2560×900 | 1713.3×700.0 → 1132.8×507.8 | 72.00 | 75.20 | 74.10 | Pass |
+| 3840×900 | 2570.0×1050.0 → 1249.2×560.0 | 96.00 | 349.78 | 48.00 | Pass |
+
+`npm run test:carousel`: all 107 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

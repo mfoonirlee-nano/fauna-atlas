@@ -155,3 +155,26 @@ The converter uses `cwebp -q 82 -m 6 -mt` and removes `-source` from each runtim
 - `06` shows one dry, hollow exuvia attached above water. The dorsal split, wing pads and gripping legs remain visible; no live adult appears.
 
 ImageMagick decoded every source and runtime image at 1536 × 1024 as opaque 8-bit sRGB. The source PNGs use an indexed palette after TinyPNG compression; the runtime WebPs decode as TrueColor. `webpinfo` reports one lossy VP8 frame per runtime file, without alpha or animation.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-adult-male-pond-portrait.webp` SHA-256: `cde1cc0c48d74c1e2748c8774ba482bd5af939ee36fe168d91cba97b5ac8733d`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.7, "y": 0.52}`. Conservative full-subject boundary: `{"left": 616, "top": 84, "right": 1488, "bottom": 954}`, 872×870 source pixels (previously 838×768). Boundary center is 68.5% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes all four transparent wing edges, head, visible gripping legs and terminal abdominal appendages. Lower legs naturally overlap the thorax, wings and reed in this dorsal view. Real background margins surround the outline. Left 40% contains a defocused pond with soft reflections; the supporting reed stays in the right field. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 622.0×570.0 → 176.4×176.0 | 71.80 | 48.00 | 40.00 | Pass |
+| 390×760 | 622.0×570.0 → 176.4×176.0 | 106.80 | 48.00 | 40.00 | Pass |
+| 1366×768 | 745.3×683.0 → 429.0×428.0 | 96.00 | 116.67 | 48.00 | Pass |
+| 1920×900 | 1047.5×960.0 → 561.3×560.0 | 96.00 | 194.56 | 48.00 | Pass |
+| 2560×900 | 1396.7×1280.0 → 561.3×560.0 | 96.00 | 360.96 | 48.00 | Pass |
+| 3840×900 | 2095.0×1920.0 → 561.3×560.0 | 96.00 | 693.76 | 48.00 | Pass |
+
+`npm run test:carousel`: all 142 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

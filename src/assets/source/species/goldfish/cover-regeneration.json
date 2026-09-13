@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One common single-tailed domestic goldfish Carassius auratus swimming left-facing side view in clear planted outdoor freshwater garden pond. Orange scales normal streamlined body, single forked tail, dorsal pectoral pelvic and anal fins anatomically coherent, no barbels, not a fancy double-tail breed. Prominent full fish on RIGHT with entire transparent fin edges and both tail lobes inside x=740..1430 y=220..810. Real clear water around full silhouette. Left40% quiet softly blurred blue-green pond water, plants behind fish not hiding fins. Natural sunlight and editorial underwater photography, one fish only no text watermark collage borders or humans.",
+  "generatedFile": "exec-aa7d1f79-a63d-45d1-a9f3-714ccaab2a2d.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 595,
+      "top": 230,
+      "right": 1500,
+      "bottom": 725
+    },
+    "sha256": "8ee668c9204f29843257b00990e4a92e421e352dc33e14104d7cc1b0aa368bc5"
+  },
+  "sourceSha256": "989864de7f089594de95de6e7e2962698e1eef3df3c22b6bc7406a3d12bdf986",
+  "supersededCover": {
+    "sha256": "a5fb00bfdd14c44a00e9f74e5c59e94c158486209eccdf7158d5eba5cb910c64",
+    "bounds": {
+      "left": 1126,
+      "top": 362,
+      "right": 1254,
+      "bottom": 421
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete snout, dorsal fin, paired visible fins, anal fin and both single-tail lobes including translucent edges. Snout tip reaches about39% source width while broad left field remains quiet. Real water clearance around all outer features."
+}

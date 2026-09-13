@@ -194,3 +194,26 @@ ImageMagick reported all twelve accepted files as opaque, single-frame sRGB imag
 | 04    | `5dcf1b44b3eb3618e4b8151d1a3826818ee347dbc2c1a69524c00c8e2484c34d` | `b08e603cdee9f83e87a2066a9a95452a2ee5138db062b12f328b3444ce7cfc17` |
 | 05    | `ae626e8bc1c03b3426c7a6c56371c87df0f97b14d633bcdccd085e3c5c374011` | `8c893098d5b4309845603c0624d6ec822c91ee7a5213d58c7c8811d1b436a051` |
 | 06    | `8f2beb9e859114b71058d532598ff5b73070e449f32345f9c91b7656008041ef` | `b7d3a2dc4898e3ed09a659fb8d43a5e01102de1a4b46d7fb2c105aecce5fa548` |
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-night-rainforest-canopy-cover.webp` SHA-256: `e7f164c822af624d29fdfa570f1704244bd1330648c63807c48c23237fc27f59`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.62, "y": 0.51}`. Conservative full-subject boundary: `{"left": 700, "top": 90, "right": 1428, "bottom": 982}`, 728×892 source pixels (previously 1020×432). Boundary center is 69.3% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The full boundary includes ears, whiskers, pale guard hairs, visible fingers and toes, and the complete bushy tail fringe. One edit increased head and tail margins, refined the thin near-hand finger and subdued the branch in the left field. The thumb wraps partly around wood and far-side limbs naturally overlap branch or body; this pose does not expose a complete diagnostic digit count. Dark forest background remains around the full fur silhouette, including a conservative 42-pixel margin below the tail fringe. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical visible-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 757.0×320.6 → 143.6×176.0 | 88.18 | 48.00 | 40.00 | Pass |
+| 390×760 | 757.0×320.6 → 143.6×176.0 | 123.18 | 48.00 | 40.00 | Pass |
+| 1366×768 | 907.1×384.2 → 349.3×428.0 | 96.00 | 156.51 | 48.00 | Pass |
+| 1920×900 | 1275.0×540.0 → 457.0×560.0 | 96.00 | 246.68 | 48.00 | Pass |
+| 2560×900 | 1700.0×720.0 → 457.0×560.0 | 96.00 | 413.08 | 48.00 | Pass |
+| 3840×900 | 2550.0×1080.0 → 457.0×560.0 | 96.00 | 745.88 | 48.00 | Pass |
+
+`npm run test:carousel`: all 161 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

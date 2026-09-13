@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas underwater photograph, landscape 1536x1024. One Atlantic bluefin tuna Thunnus thynnus full side profile facing left, accurate powerful torpedo-shaped thick blue metallic body and silvery belly, short pectoral fin (not albacore), two dorsal fins, small yellow rear finlets, narrow caudal peduncle and fully visible crescent shaped tail. Entire animal on RIGHT only: nose at x=650, tail tips x=1460, all dorsal pelvic anal and tail tips within y=240..790. Leave real blue water beyond all tips. Maximize fish inside that right-side area without cropping. Left 40 percent quiet open deep blue water, soft natural light from above, no other fish, seabed, bubbles, text, border or watermark. Natural realistic proportions, detailed fin rays and skin.",
+  "edits": [
+    "Preserve this exact bluefin tuna anatomy, pose, all finlets and complete tail. Correct composition by uniformly scaling the entire fish down to 80 percent its current size and shifting right, so its nose starts at x=660 and furthest tail tip ends at x=1460 on the 1536x1024 canvas. Vertically center the fish. Left 40 percent must be empty blue water with no part of the fish. Keep real water beyond both tail tips. No other changes."
+  ],
+  "generatedImage": "exec-35fd725d-05ea-442d-ac4c-f1b81c70fabe.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 616,
+      "top": 314,
+      "right": 1462,
+      "bottom": 660
+    },
+    "sha256": "90c4e3491fc80d6a08d9b541c8dad3771a0d531e8616fdc38e211ebeb5d55acf"
+  },
+  "sourceSha256": "a12033dbe2284d66686b4588d044394131af8789beaef0dd79fad5ed6f15f3e8",
+  "supersededCover": {
+    "sha256": "83ecdb6a8f482a703dbc838081e001b296bfbae15965689b93c214e7180f4270",
+    "bounds": {
+      "left": 362,
+      "top": 210,
+      "right": 1480,
+      "bottom": 724
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete snout, body, two dorsal fins, visible paired fins, anal fin, finlets and both crescent tail tips. Far-side paired fins naturally overlap the body. Real water margins and quiet left water."
+}

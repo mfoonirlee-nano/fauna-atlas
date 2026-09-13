@@ -145,3 +145,23 @@ Avoid: probe remaining in dry mud, two probes, disconnected cable, cable crossin
 - Source and runtime basenames form six one-to-one pairs.
 - Runtime files were encoded with `cwebp -q 82 -m 6 -mt`.
 - Visual inspection checks one-major-chela male anatomy, two-small-chela female anatomy, complete eyestalks and visible walking legs, realistic body scale, separated habitat subjects, low-tide sediment feeding, vertical waving, non-contact monitoring, full framing, and absence of text and watermarks.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-mudflat-burrow-portrait.webp` SHA-256: `65b8eae4bc8f6d8a09c0728c462d1d57f28bc25009871bff9bb041a5b0029889`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.66, "y": 0.55}`. Full-subject boundary: `{"left": 590, "top": 292, "right": 1338, "bottom": 800}`, 748×508 source pixels, unchanged. Boundary center: 62.8% of source width.
+
+Original-resolution composition inspection: Original-resolution reinspection confirms both eyestalks, major claw tips and visible walking-leg tips inside the frame. Hidden far legs overlap the major claw/body naturally. A thin left leg extends to x590, with the full boundary center still beyond 60%; the left field is subdued grey mud.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 555.2×377.0 → 259.1×176.0 | 30.43 | 48.00 | 40.00 | Pass |
+| 390×760 | 555.2×377.0 → 259.1×176.0 | 65.43 | 48.00 | 40.00 | Pass |
+| 1366×768 | 665.2×451.8 → 559.7×380.1 | 72.00 | 51.32 | 71.95 | Pass |
+| 1920×900 | 935.0×635.0 → 824.6×560.0 | 72.52 | 62.92 | 48.00 | Pass |
+| 2560×900 | 1246.7×846.7 → 824.6×560.0 | 96.00 | 229.32 | 48.00 | Pass |
+| 3840×900 | 1870.0×1270.0 → 824.6×560.0 | 96.00 | 562.12 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

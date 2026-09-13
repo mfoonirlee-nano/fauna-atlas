@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape1536x1024. One marine iguana Amblyrhynchus cristatus resting on a smooth weathered grey volcanic rock beside Galapagos sea, elevated three-quarter view facing left. Accurate dark charcoal scaly body, blunt short snout, salt dust on head, spiny dorsal crest, sturdy limbs with long curved claws, long laterally flattened tail naturally curving around behind body and toward lower right, entire tail tip visible with no self crossing. Complete animal LARGE on RIGHT with snout, all visible claw tips, crest and whole curved tail inside x=670..1460 y=180..880. Natural far-side limb occlusion allowed. Real rock and sea margin beyond silhouette, claws readable against lighter grey rock. Left40% quiet softly defocused blue-grey sea, no sharp lava or bright waves. Natural diffuse coastal light, realistic anatomy, no text border watermark.",
+  "edits": [
+    "Preserve this exact marine iguana anatomy and curved tail pose. Slightly shrink whole animal to94 percent and shift right so snout begins x=655 and rightmost tail edge stays x=1480, preserve all claws and tail tip. Replace entire left40% background with softly defocused uniform blue-grey sea, no rocks white waves or sharp horizon. Keep smooth supporting grey rock beneath iguana on right. Full original1536x1024 canvas."
+  ],
+  "generatedImage": "exec-f6016e23-12ad-4272-9ba3-70a6147db86b.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 634,
+      "top": 152,
+      "right": 1504,
+      "bottom": 926
+    },
+    "sha256": "7254be42e49b741f43b52ba169a839db9b74f0b035fbc40d3a9bca4979289021"
+  },
+  "sourceSha256": "3ec4a1bf3c874c0a9a26474cacaea8f7955264863c8cadd172525f33a02ffe77",
+  "supersededCover": {
+    "sha256": "c41fc735c7dad531f4bb7916d646782e3e721ebff5cab44f751368997a7c67e8",
+    "bounds": {
+      "left": 34,
+      "top": 328,
+      "right": 1414,
+      "bottom": 874
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete snout, dorsal crest, visible claws and full curved tail. Far hindlimb naturally concealed by body. Real rock margins; quiet defocused left sea."
+}

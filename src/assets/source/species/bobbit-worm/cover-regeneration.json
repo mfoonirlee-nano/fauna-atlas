@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific natural-history underwater photograph exact1536x1024 landscape. ONE whole bobbit worm Eunice aphroditois fully exposed on fine gray-brown seabed for an external-form reconstruction. Complete animal prominently on RIGHT inside x=700..1440 y=220..800, arranged in two loose S curves, one traceable continuous long segmented body, complete tapering tail. Head at lower-left of subject area, five slender sensory appendages on head fully visible, closed mouth with no exaggerated fantasy jaws. Bronze-brown annelid body with subtle blue-purple iridescence, many fine repeated segments, short lateral parapodia and delicate bristle tufts, not jointed centipede legs or snake scales. Whole outer fringe including bristles, head appendages and tail tips surrounded by real sand margins. Slightly elevated three-quarter view, realistic subdued underwater daylight, enough illumination to read full silhouette. Left40% quiet softly defocused sand and muted blue-gray water above, no obstructions or burrow hiding body. No other animals, text, watermark, collage, diagram or border.",
+  "editPrompt": "Correct and recompose this bobbit worm scientific reconstruction. Move entire animal right and slightly smaller so ALL antenna and bristle tips, full S body and tail fit x=690..1450 y=180..850 on exact1536x1024 canvas. Left40% quiet defocused sand. Head should have FIVE long slender prostomial sensory appendages, not six long spoke-like projections; remove the extra downward central long projection and retain five naturally arranged appendages. Keep mouth closed, subtle tiny eyes, natural annelid segments with short parapodia and fine bristles, no jointed walking legs. Preserve complete continuous S body, real sand margin everywhere, no seams or text.",
+  "rejectedCandidate": "exec-4e4ee8b1-30b4-4a31-929f-59545a0a8b7b.png: left intrusion and extra long head projection",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-d439e7d6-6e90-40e2-a78d-e0c61ecfceac.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 674,
+      "top": 144,
+      "right": 1442,
+      "bottom": 896
+    },
+    "sha256": "1635e0e70ee98a1c8a963f86e404c7283654edfd19ad512b824cb994b9644579"
+  },
+  "sourceSha256": "ec0d657a40d18533c99d55ae4db7e896af030af2d07f463a775fc82fcb528d63",
+  "supersededCover": {
+    "sha256": "b437d90d4330ffcd7905c56212a9820c38f318453ef104be71de2a9c1c6d50b7",
+    "bounds": {
+      "left": 1070,
+      "top": 326,
+      "right": 1267,
+      "bottom": 438
+    }
+  },
+  "inspection": "Original-resolution PNG and WebP inspected. Five visible long head appendages, full lateral bristle fringe and tapering tail retained. First candidate extra projection and left intrusion corrected. Full exposure is external-form reconstruction, not ambush posture; segments and fine bristles illustrative."
+}

@@ -315,3 +315,26 @@ The taxonomy regression reads these rows and rejects changed source or runtime p
 | 06 | `4ee5ff7e846d80e55d810a1478e49b69a26f925abd42ed5adec7740b09711b7f` | `75d55bcc67ca93918dbee4540803ce465d143fdebf972afdf3a248b407a1d385` |
 
 Static inspection used the original-resolution compressed source PNGs and decoded runtime WebPs. No GUI or headless browser was used.
+
+## 2026-09-13 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-open-prairie-cover.webp` SHA-256: `ee08bc3ed32f40a2da6021a0566145471d10f2bd0d7a425fedce27ca444571b3`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.92, "y": 0.415}`. Conservative full-subject boundary: `{"left": 632, "top": 322, "right": 1509, "bottom": 778}`, 877×456 source pixels (previously 277×110). Boundary center is 69.7% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes head horns, lateral fringe, visible feet and claws, and the entire short tapered tail. The far hind limb is naturally hidden by the broad flattened body; fine scale and digit counts are not asserted. Real sandy background remains around all visible extremities, including the tail tip near the right edge. The left 40% contains subdued sandy soil and blurred dry grass. No visible extremity is clipped.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 205.6×81.6 → 272.0×141.4 | 24.00 | 65.29 | 57.29 | Pass |
+| 390×760 | 205.6×81.6 → 338.5×176.0 | 25.75 | 48.00 | 40.00 | Pass |
+| 1366×768 | 246.3×97.8 → 559.7×291.0 | 72.00 | 51.32 | 116.50 | Pass |
+| 1920×900 | 346.2×137.5 → 825.6×429.3 | 72.00 | 62.40 | 113.36 | Pass |
+| 2560×900 | 461.7×183.3 → 1077.0×560.0 | 96.00 | 103.09 | 48.00 | Pass |
+| 3840×900 | 692.5×275.0 → 1077.0×560.0 | 96.00 | 435.89 | 48.00 | Pass |
+
+`npm run test:carousel`: all 77 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

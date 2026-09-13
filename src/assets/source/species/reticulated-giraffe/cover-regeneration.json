@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife atlas cover. One adult reticulated giraffe Giraffa reticulata standing calmly left-facing side three-quarter view on bare earth with short dry grass in Kenyan savanna. Prominent WHOLE animal on RIGHT. Warm chestnut polygon patches separated by fine cream net lines, two complete ossicones and both ears, long upright neck, four coherent long legs with all hooves visible, entire tail and black tail tuft separate against background. Full silhouette including ossicones ears muzzle hooves tail tuft within x=800..1400 y=85..935, real background margins around every extremity. Natural accurate proportions soft daylight fine coat texture editorial wildlife photography. Left40% quiet defocused pale savanna for copy. No other animals text logos borders collage cropped head or legs grass hiding hooves.",
+  "generatedFile": "exec-4cf6f2ef-1cbe-49c6-ae03-9c3baa429e69.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 27,
+      "right": 1387,
+      "bottom": 964
+    },
+    "sha256": "4395b2c76d14d13866d856485123aa9e8093233fab588b142fd025cb03786c1c"
+  },
+  "sourceSha256": "1f82b847ef2b4c330a7f979508d05bfc455b5e7035b2e84d70419866eeea98ae",
+  "supersededCover": {
+    "sha256": "8092bc44613f340c635cb783a8e9b64df001233c390bb95260e6f2f5237fc944",
+    "bounds": {
+      "left": 1208,
+      "top": 363,
+      "right": 1258,
+      "bottom": 439
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Both ossicones, ears, muzzle hairs, full neck, four hooves and entire tail tuft retained. Hind legs overlap naturally above distinct hooves. Quiet left savanna and real source-edge clearance."
+}

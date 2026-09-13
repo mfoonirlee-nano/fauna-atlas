@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult shoebill Balaeniceps rex, a large slate grey African wetland bird with huge characteristic shoe-shaped hooked bill, yellow eyes and subtle rear crest. Full body standing in three-quarter view facing left on a small bare damp mud bank above shallow water: complete bill and crest, folded wings, short tail, both long dark legs and all visible long widely spread toes, no vegetation hiding feet. Prominent tall animal fills RIGHT side, whole silhouette strictly within x=720..1420 and y=90..930; use nearly 800px body height, never a distant small bird. Quiet left 40% contains softly defocused pale wetland water and muted distant reeds, no crisp stems or second animal. Real background margins surround all feathers, bill and toes. Natural soft overcast morning light, detailed feathers, realistic adult proportions. Do not add text, labels, border or watermark.",
+  "generatedImage": "exec-9e2846ce-b273-4bbf-ad7b-2f04c3571aea.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 784,
+      "top": 22,
+      "right": 1366,
+      "bottom": 978
+    },
+    "sha256": "91248c2963136332e7bea9dc20c3b7ac560df1ea406406448490f9929029ded0"
+  },
+  "sourceSha256": "496ec8af67470014282ccfd496bf31833ebed398c7e50c3722544eac718c7dce",
+  "supersededCover": {
+    "sha256": "384e0758e7b41f817603a6e57e363c2724b51f5cb9fbeb9f2fcd3fdba7246064",
+    "bounds": {
+      "left": 1062,
+      "top": 426,
+      "right": 1184,
+      "bottom": 692
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full bill, crest feather tips, folded wings and tail, both legs and exposed toes. Far-side wing naturally overlaps body. No edge clipping; quiet left40%."
+}

@@ -187,3 +187,23 @@ Preservation: Keep the existing subject count, identities, anatomy outside the t
 - All visible animals retain coherent bodies, four attached legs and cloven hooves. Distant scale limits fine hoof inspection in frames 03 and 06, so those images do not serve as morphology plates.
 - Static inspection found no readable text, logo, watermark, collar, tag, handling, capture gear, weapon, vehicle, fence, tourist staging or sensitive location marker.
 - Verification used original-resolution static inspection, `file`, ImageMagick `identify` and source/WebP comparison. It used no GUI or headless browser.
+
+
+## 2026-09-13 retained original cover hero acceptance
+
+Retained the existing canonical WebP without regeneration or recompression. Existing prompt and provenance above remain applicable. Runtime `01-high-plateau-male-portrait.webp` SHA-256: `254b2382a2196b3899526e2803936b6d226e5eede916bbc423bb4e010dc1b57d`. Dimensions: 1536×1024; committed focalPoint: `{"x": 0.68, "y": 0.57}`. Full-subject boundary: `{"left": 836, "top": 160, "right": 1328, "bottom": 944}`, 492×784 source pixels, unchanged. Boundary center: 70.4% of source width.
+
+Original-resolution composition inspection: Original-resolution reinspection confirms horn tips, muzzle, visible legs and hoof contact points within the frame. Low grass meets the soles; the tail and far limbs naturally overlap the body in this side view. Left distant mountains form a subdued field.
+
+Added the measured boundary to the shared subject frame. The same canonical cover serves the profile and carousel; five gallery images remain. No new source PNG was generated. Static mathematical composites of the current runtime WebP were visually inspected at all six viewports; these are not browser screenshots. Framing clears copy, panel and viewport edges. Natural camouflage and fine appendages may be less legible at small display sizes. Initial, settled, forward-enter/leave and backward-enter/leave use identical geometry with opacity-only animation.
+
+| Viewport | Previous cover-fit → subject-frame size (CSS px) | Viewport clearance | Copy gap | Panel gap | Six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 365.2×581.9 → 110.4×176.0 | 104.78 | 48.00 | 40.00 | Pass |
+| 390×760 | 365.2×581.9 → 110.4×176.0 | 139.78 | 48.00 | 40.00 | Pass |
+| 1366×768 | 437.5×697.2 → 268.6×428.0 | 96.00 | 196.86 | 48.00 | Pass |
+| 1920×900 | 615.0×980.0 → 351.4×560.0 | 96.00 | 299.49 | 48.00 | Pass |
+| 2560×900 | 820.0×1306.7 → 351.4×560.0 | 96.00 | 465.89 | 48.00 | Pass |
+| 3840×900 | 1230.0×1960.0 → 351.4×560.0 | 96.00 | 798.69 | 48.00 | Pass |
+
+All 211 carousel checks passed, covering 205 current canonical covers, runtime hashes, six-image counts and full-subject geometry. No browser launched. Original cover source composition and hero framing accepted; gallery audit is separate.

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific natural-history macro wildlife photograph, exact 1536x1024 landscape. ONE Southern Darwin's frog Rhinoderma darwinii prominent and complete on RIGHT side, all visible extremities inside x=710..1430 y=290..800. Low three-quarter lateral view facing left on a flat wet brown leaf in Chilean temperate rainforest. Accurate small angular leaf-shaped frog with triangular green back, brown flanks, triangular head and distinctive short fleshy pointed projecting snout, slender forelimbs and naturally folded hind limbs. Natural realistic eyes and fine skin texture, small toes without giant adhesive pads. Entire pointed snout, body outline, visible legs and all visible toe tips unobscured, genuine background margins. Far limbs may overlap naturally. Soft diffuse woodland daylight with clear outline, restrained green and earth colors. Left 40 percent quiet softly defocused dark brown leaf litter, distant fine moss and forest blur only upper background. No foreground moss hiding feet, no inflated throat, eggs, other animals, text, watermark, labels, collage, frames or diagram.",
+  "editPrompt": "Correct species anatomy in this photograph: this must be Southern Darwin's frog Rhinoderma darwinii, NOT an Asian horned leaf frog. Remove the tall hornlike triangular projection above the far eye and any raised pointed eyebrow projections. Head crown should be low smoothly sloping, with normal rounded eyes and only ONE short fleshy pointed projection at the tip of the snout. Shorten current overly long pointed snout by about one third. Keep angular green leaf-shaped dorsum and brown flanks, slender limbs, naturally folded hind legs, full visible toe tips. Preserve full animal on right, quiet left field, exact 1536x1024, natural photographic skin and light. Do not add horns, crest or additional animals.",
+  "rejectedCandidate": "exec-3e275048-e4f3-46ca-8c73-132f30eada80.png: incorrect hornlike projection above eye",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-aa442e19-3b8b-4989-81a2-3a7626f2a2fd.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 692,
+      "top": 264,
+      "right": 1432,
+      "bottom": 826
+    },
+    "sha256": "3c7f57f7a04e816f2f813e19b186559069fd490e7ced0a07f134e1c1c9423051"
+  },
+  "sourceSha256": "8856441b3d0f2eabe0df63d3e36c33ae654b9e12581037f651697b75c18da7e1",
+  "supersededCover": {
+    "sha256": "7447ef467e913e22fc80b712b0bdcb3923ede4b8881dcae7d126611460553123",
+    "bounds": {
+      "left": 1165,
+      "top": 300,
+      "right": 1350,
+      "bottom": 400
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. First candidate rejected for hornlike eye projection, corrected in accepted edit. Complete pointed snout, body edge, visible limbs and toe tips retained. Far limbs naturally overlap; fine toe counts not asserted. Quiet left leaf litter and real source margins."
+}

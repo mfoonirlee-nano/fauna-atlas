@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic-natural scientific reconstruction, Fauna Atlas canonical Bugula neritina sensu lato cover. Opaque1536x1024 landscape. Exactly one complete erect bushy bryozoan colony, deep reddish-purple/brown, many fine repeatedly Y-forked flexible narrow ribbon branches, delicate cellular texture from two staggered zooid rows, not thick coral, not flat sea fan, not seaweed. Lophophores retracted. Colony attached at one small visible basal tuft on the right side of a submerged weathered marina piling, only small supporting wood surface at bottom-right. All branch ends, fine outer fronds and entire attachment base visible with real water margin. Colony prominent wholly in right field inside x=670..1470,y=120..900, base near x=1120,y=855, spreading rounded crown upward x=700..1420,y=160..700. Natural overlapping interior branchlets but clearly separated outer endpoints. Macro underwater documentary view with restrained soft lighting revealing red-purple branching against dark teal water. Left40% quiet defocused dark teal open water, no piling across left, no sharp particles, plants or animals. No extra colonies, coral polyps, broad leaves, flower forms, text, labels, scale, watermark or borders.",
+  "edits": [
+    "Preserve this single reddish-purple branching Bugula colony and its visible attachment tuft, all branch anatomy and natural internal overlaps. Change only framing: uniformly scale whole colony to83% current size and position all its branch endpoints and attachment boundary within x=680..1460,y=130..900. Keep attachment on the same right-hand piling, with visible wood beneath base and clear water around all outer branches. Move piling farther toward right edge as needed so no frond is cropped. Left40% stays the existing quiet teal water. Do not add branches or colonies; opaque1536x1024, no text."
+  ],
+  "generatedImage": "exec-8c73d7dc-eb20-45b1-bdb1-bc94127bc99d.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 644,
+      "top": 106,
+      "right": 1440,
+      "bottom": 928
+    },
+    "sha256": "5eb3de58f816d9eaf03ba75b5f9d24347e253d26f97195dfa3aa4d3f9dd59d0c"
+  },
+  "sourceSha256": "b4473ebdc6f3d6a71ff542713454f7d4f356bccb883e91c022a140a40e07f9a9",
+  "supersededCover": {
+    "sha256": "e39b561144c5aaf0811b6656bf33b0207908cb9b2425cf6d5f52c48c44313c6f",
+    "bounds": {
+      "left": 488,
+      "top": 58,
+      "right": 1314,
+      "bottom": 900
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full colony outer branch endpoints and attachment tuft included. Interior branches naturally overlap; exact zooid counts and microscopic diagnostic anatomy not resolved. Quiet open water on left."
+}

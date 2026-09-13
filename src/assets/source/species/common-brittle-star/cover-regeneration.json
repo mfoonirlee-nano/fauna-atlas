@@ -1,0 +1,30 @@
+{
+  "prompt": "Fauna Atlas photorealistic-natural scientific reconstruction cover, opaque1536x1024 landscape. Exactly one complete common brittlestar Ophiothrix fragilis on subdued fine-gravel seabed. Overhead view. Small distinct central disc mottled reddish brown and cream with fine spiny texture; exactly FIVE long slender articulated tapering arms emerging separately, each with conspicuous fine translucent bilateral rows of marginal spines. Arms gently curve in separate readable paths, no crossings or hidden bases, no branching. Whole animal including every fine spine and all five arm tips occupies right field within x=660..1470,y=110..920, disc centered x=1070,y=510. Five tips point roughly upper-left, upper-right, right-lower, bottom and lower-left but ALL stay inside that right-field boundary. Maximize spread within those margins, real seabed around every tip. Left40% quiet defocused dark teal-gray water and soft subdued substrate, no sharp gravel there. Natural cool underwater light, crisp animal and readable spine fringes against muted darker sediment, subtle warm arm bands. No thick starfish arms, no sixth arm, no severed limbs, no other animals, no raised feeding arms, no text, labels, ruler, watermark or borders.",
+  "edits": [
+    "Keep exactly this one five-armed brittlestar, its central disc, five separate uninterrupted arms, their curves and all fine bilateral spine fringes. Change only framing: scale entire animal uniformly to88% and position full fringe outline inside x=660..1465,y=120..910. Keep every arm tip and spine with real seabed margin; do not reshape or add arms. Soften entire left40% background to quiet defocused dark teal-gray, especially sharp gravel near lower-left. Preserve natural gradual focus transition and sharp animal. Opaque1536x1024, no text."
+  ],
+  "generatedImage": "exec-60227b67-aec8-4fdf-80e7-7e83ce374314.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 108,
+      "right": 1446,
+      "bottom": 898
+    },
+    "sha256": "76186dec80a676c5ff713f4760c44df64d6e33d352bc4d8b6cd88ea59cbcf5c2"
+  },
+  "sourceSha256": "2c0697c945c3385b41559f7d4712a57b8f4ee1c64281f1ef87f927707de1f42d",
+  "supersededCover": {
+    "sha256": "f9243e5afa96737b43f4adc454c1f74e19879d1e40dc0b6fdaeea6fd5823e7d7",
+    "bounds": {
+      "left": 508,
+      "top": 158,
+      "right": 1532,
+      "bottom": 924
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full central disc, five separate arms and all visible marginal spine fringes. Each arm traced from disc to tip without crossings. Underside naturally concealed; exact spine counts and diagnostic plates not resolved."
+}

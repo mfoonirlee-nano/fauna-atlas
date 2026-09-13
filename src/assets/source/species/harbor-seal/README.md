@@ -45,3 +45,26 @@
 ## 项目验证
 
 已按原始分辨率静态检查源封面与最终 WebP 封面，并检查其余五张观察图。`npm test` 全部通过，包含图片、分类档案、轮播及生产构建和子路径资源检查；TypeScript 检查通过。验收后删除本目录临时 PNG，保留运行 WebP、提示词和验收记录。
+
+## 2026-09-12 regenerated cover acceptance
+
+Generated a new prominent cover with built-in image_gen. Final prompt, source hash and superseded runtime hash/bounds: [cover-regeneration.json](./cover-regeneration.json). This section supersedes all earlier cover acceptance. Runtime `01-cover.webp` SHA-256: `9f9f93b16f14a97bca43ec6c5ea5f7d7e277943f9a1a9285e6dffc74e0a56825`. Source and runtime dimensions: 1536×1024. Committed focalPoint: `{"x": 0.75, "y": 0.42}`. Conservative full-subject boundary: `{"left": 680, "top": 310, "right": 1495, "bottom": 760}`, 815×450 source pixels (previously 116×56). Boundary center is 70.8% of source width.
+
+Inspected the PNG and runtime WebP at original resolution. The complete visible silhouette includes seal whiskers and fore/hind flippers, whale muzzle, pectoral flippers and both tail flukes, plus the full orca dorsal fin. Background remains between these features and the source edges. The animal is prominent on the right; the left 40% remains quiet habitat. The conservative measurement may include a few background pixels. The seal hindflippers overlap naturally; their outer tips remain visible. The first orca candidate intruded into the left copy area and was rejected. Final reframing retained all fins and tail anatomy.
+
+Converted with `npm run convert:webp -- <source>` (cwebp q82/m6). Preserved five existing gallery WebPs. The same canonical cover serves profile and carousel; no device-specific images were added. Temporary PNG moved outside the repository after acceptance.
+
+The subject-frame carousel centers the full silhouette within a region inset by 24 CSS pixels, independently of ordinary focalPoint cropping. Desktop copy occupies the left half; its compact panel occupies y=100..196. Mobile panel occupies y=92..188, copy starts at y=452, and the image region is y=204..428. Static projections of all six viewports were visually inspected with these safe-area rectangles. These are mathematical image composites, not browser screenshots. Initial, settled, forward-enter, forward-leave, backward-enter and backward-leave retain the same geometry because the framed image animates opacity only.
+
+Old hero sizes below use the superseded full-viewport cover fit and historical full-subject bounds; new sizes use the current subject frame. The image fills the maximum space available within the full-body clearance constraints.
+
+| Viewport | Old hero → new hero subject (CSS px) | Viewport clearance | Copy gap | Panel gap | All six endpoints |
+| --- | --- | --- | --- | --- | --- |
+| 320×760 | 86.1×41.6 → 272.0×150.2 | 24.00 | 60.91 | 52.91 | Pass |
+| 390×760 | 86.1×41.6 → 318.8×176.0 | 35.62 | 48.00 | 40.00 | Pass |
+| 1366×768 | 103.2×49.8 → 559.7×309.0 | 72.00 | 51.32 | 107.49 | Pass |
+| 1920×900 | 145.0×70.0 → 825.6×455.9 | 72.00 | 62.40 | 100.07 | Pass |
+| 2560×900 | 193.3×93.3 → 1014.2×560.0 | 96.00 | 134.49 | 48.00 | Pass |
+| 3840×900 | 290.0×140.0 → 1014.2×560.0 | 96.00 | 467.29 | 48.00 | Pass |
+
+`npm run test:carousel`: all 27 checks passed, including canonical image wiring, exact image counts, runtime hashes, measured data and full-subject viewport/copy/panel clearance. Source composition and hero acceptance pass. No browser was launched.

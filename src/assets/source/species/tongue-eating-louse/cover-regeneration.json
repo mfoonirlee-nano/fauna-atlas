@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Original photorealistic scientific specimen macro photograph exact1536x1024 landscape. ONE tongue-eating louse Cymothoa exigua adult female isolated for scientific observation on a wet neutral gray specimen surface, NOT depicting natural free-living adult behavior. Prominent complete animal on RIGHT, ALL outline inside x=700..1440 y=270..780. Three-quarter dorsal-lateral view, head facing left, pale ivory elongated oval dorsoventrally flattened segmented isopod body, small head inset into first broad thoracic segment, small dark lateral eyes, short paired antennae. Seven pairs of short stout grasping pereopods with curved terminal hooks tucked along body sides, naturally partially overlapping far-side legs. Broad overlapping thoracic plates, narrower short segmented abdomen and rounded terminal pleotelson with short uropods, no long tail. Entire antenna tips, hooked foot tips and posterior margin visible. Detailed subtle translucent cuticle, soft diffuse lighting and wet contact shadow, real surface margin around full animal. Quiet left40% softly blurred gray background. No fish, blood, wounds, text, watermark, scale bar, collage or fantasy features.",
+  "editPrompt": "Recompose this isolated Cymothoa exigua specimen entirely on the right. Reduce whole animal slightly and move right so every antenna, foot hook and uropod lies within x=690..1450 and y=270..780 on exact1536x1024 canvas. Left40% quiet out-of-focus neutral gray wet specimen surface only. Preserve the one ivory segmented isopod, seven visible near-side grasping legs, short antennae, small lateral eyes, short posterior uropods and rounded terminal segment. Keep full silhouette, real background margin and natural contact shadow. No new animal, text, border or seams.",
+  "rejectedCandidate": "exec-6e182cc9-16ee-4e45-a52d-1a5791419bd3.png: antenna intrusion into left field",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-a6f56c67-a35c-46e0-a2e7-d4b25e6a78d4.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 644,
+      "top": 256,
+      "right": 1500,
+      "bottom": 684
+    },
+    "sha256": "25225ef6c6a12f87a83a41024a93f69978fbb90f3c5582eb14da15ed2838c568"
+  },
+  "sourceSha256": "02da18bef9552215644fe430d968619f3271cbe5b95cbab14f161f92bdc505fe",
+  "supersededCover": {
+    "sha256": "a0b4ecb0e3cf356dfa0d8fb2d9ae25617a1f828c3458108346321e0c0253fb83",
+    "bounds": {
+      "left": 1108,
+      "top": 325,
+      "right": 1295,
+      "bottom": 410
+    }
+  },
+  "inspection": "Original-resolution PNG and WebP inspected. Full antennae, visible foot hooks and posterior uropods included. Far-side limbs naturally overlap. Isolated specimen display, not free-living adult behavior. Fine segment and hook geometry illustrative. Initial antenna intrusion corrected."
+}

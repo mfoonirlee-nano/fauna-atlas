@@ -1,0 +1,27 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover 1536x1024 landscape. One adult male western lowland gorilla, full body, natural knuckle-supported standing pose in three-quarter side view facing left, head slightly turned to camera. Powerful long arms, natural broad chest, dark face, subtle brown crown and silver saddle, realistic gorilla proportions and detailed fur. Both hands with knuckles and both feet with toes visible on flat bare earth, no vegetation obscuring extremities. Entire large animal on RIGHT within x=670..1450 and y=150..920, with genuine background margin around scalp, hands, feet and rump. No tail. LEFT 40 percent quiet dark softly defocused green rainforest haze, no sharp leaves trunks vines or bright spots. A few softly blurred forest leaves confined far right background. Soft overcast light, restrained documentary photography style, no text logo collage border or extra animals.",
+  "generatedImage": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-b3313273-92d7-47f1-81d9-5f9deb374268.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 654,
+      "top": 80,
+      "right": 1440,
+      "bottom": 940
+    },
+    "sha256": "3f881860cee1e950ed6024fbde2f55eae94fe6caf708a93b73c79b7b81c7d29f"
+  },
+  "sourceSha256": "93b849e74b8e311905a3a33e9d47de576aa34701eea1c0c028a543e4840d6368",
+  "supersededCover": {
+    "sha256": "501f1a3cc4bc98cdf4f393a8af70dc7905255119494ce630e6ea16cfa0626664",
+    "bounds": {
+      "left": 704,
+      "top": 244,
+      "right": 1336,
+      "bottom": 930
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete crown fur, face, both visible hands and feet. Far ear and proximal limbs overlap naturally; exact digit counts are not established by the image."
+}

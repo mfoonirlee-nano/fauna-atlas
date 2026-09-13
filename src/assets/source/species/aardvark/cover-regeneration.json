@@ -1,0 +1,28 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape 1536x1024. One adult aardvark Orycteropus afer, complete animal in three quarter side view facing left, standing on unobstructed sandy African savanna ground at dusk. Accurate long upright rabbitlike ears, long tubular piglike muzzle, arched bulky back, sparse grey pink brown bristly skin, stout digging legs with distinct long claws, entire muscular tapering tail curving to right. All four feet visible with natural perspective, no extra limbs. Animal large and prominent on RIGHT, whole silhouette including ears, snout and tail within x=670..1450 y=160..890. Use compact three quarter pose to fit full body; no truncation of appendages. Real background around every tip. Left40% quiet softly blurred warm dusk sky and distant savanna, no sharp shrubs or burrow debris. Natural soft light, detailed skin, scientifically credible anatomy. No text, border or watermark.",
+  "editPrompt": "Edit this aardvark photograph: move full animal right and slightly reduce to fit ALL ears, muzzle, four feet and full tail within x=670..1460 y=130..870 on 1536x1024 canvas. Muzzle must not extend into left40%. Preserve anatomy and natural proportions. Remove bright sun disk and dramatic cloud contrast on left; make left40% softly defocused subdued warm dusk sky and distant plain with no distinct shrubs. Keep realistic texture on animal, unobstructed claws, real surrounding background, and full tapering tail.",
+  "generatedImage": "exec-c3ad3d7d-188b-4f4c-9bd7-2ca78274673c.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 232,
+      "right": 1492,
+      "bottom": 806
+    },
+    "sha256": "3d25253675e1b223384fd672fc71644e0538c814fc2985f9d42242af166ce964"
+  },
+  "sourceSha256": "50e16c0410168b5369d731b9041564b1347eaf60bc2c90b4909e4d7e8605cd44",
+  "supersededCover": {
+    "sha256": "f4b20d0d668b8e09a06c913b0722fbd8193bb37dcbc3c40a892f7372421ccd06",
+    "bounds": {
+      "left": 64,
+      "top": 252,
+      "right": 1216,
+      "bottom": 846
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Full long ears, muzzle, four visible feet and digging claws, arched back and tapering tail. Natural far-side limb-root overlap. Real source margins and quiet left dusk background."
+}

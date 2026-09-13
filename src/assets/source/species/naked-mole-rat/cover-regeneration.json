@@ -1,0 +1,28 @@
+{
+  "prompt": "Photorealistic natural history atlas cover landscape 1536x1024. One adult naked mole-rat Heterocephalus glaber standing in a spacious earthen tunnel, whole animal in three quarter side view looking left. Accurate wrinkled nearly hairless pink grey skin with sparse sensory hairs, tiny eyes, no protruding ear pinnae, prominent paired incisors, short legs with visible clawed feet, complete thin tapering tail curving to right. All four feet readable with natural perspective, no extra limbs. Large prominent animal entirely on RIGHT: whole silhouette including faint whiskers and tail within x=680..1450 y=240..840. Low eye-level macro photograph, soft reflected tunnel light revealing skin folds. Real earth background around every appendage. Left40% softly defocused dark warm brown tunnel shadow, very low detail, no sharp earth texture or roots. Right ground beneath animal mildly detailed, toes unobstructed. Single animal, no text, watermark or border.",
+  "editPrompt": "Edit this naked mole-rat photograph. Move the complete animal right and scale slightly smaller so leftmost whisker tips are beyond x=650 and entire tail ends before x=1470 on 1536x1024 canvas. Preserve large prominent full body and four visible feet. Correct the incisors: short stout rodent chisel-shaped paired incisors protruding just beyond lips, with short lower pair visible, NOT long curved tusks. Preserve wrinkled almost hairless skin, tiny eyes, sparse whiskers and thin tail. Quiet dark defocused left tunnel background; no crop of whiskers, feet or tail.",
+  "generatedImage": "exec-2445d337-aed5-473f-aa75-f4734a96a7c1.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 602,
+      "top": 286,
+      "right": 1488,
+      "bottom": 744
+    },
+    "sha256": "7febffde6cd3bbaf08c3378ff6daf0360abd77ae0159fcbf72094ba938c170e9"
+  },
+  "sourceSha256": "1f5ddac50c5cb74bc23c8380fff9ee508aee8ede480817cf91f2d47f3c0d9f01",
+  "supersededCover": {
+    "sha256": "b89ef316d41fdf6544491785e1f1a0a3d8cabfb2cc1f44b39ccee3183e6cec37",
+    "bounds": {
+      "left": 774,
+      "top": 244,
+      "right": 1418,
+      "bottom": 810
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete sparse whiskers, incisors, four visible feet with claws and full tail. Far-side limb roots naturally overlap torso. Fine whisker tip reaches39.2 percent; head and body clear left40 and dark left background stays quiet."
+}

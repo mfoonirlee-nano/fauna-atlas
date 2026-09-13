@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "tool": "built-in image_gen",
+  "prompt": "Naturalistic scientific microscopy reconstruction, exact 1536x1024 landscape. ONE hydrated Ramazzottius varieornatus tardigrade prominent and complete on RIGHT side, full animal INCLUDING all claw tips inside x=710..1430 y=270..790. Oblique ventrolateral view facing left, show FOUR PAIRS of short unjointed lobopod legs, eight total, first three pairs beneath body and fourth posterior pair pointing backward. Near-side four legs distinct, far-side counterparts partly visible naturally. Plump elongated softly segmented translucent pale amber body, tiny anterior mouth, small branched claws at each foot, restrained realistic cuticle, no fur, antennae, cartoon face, mammal snout, insect legs or armor. Entire body and visible claws clearly separated from background with genuine margins. Quiet softly defocused dark olive microscopic water film and moss fragments, left40% no animal. Subtle transmitted-light texture, no invented elaborate organs, no bubble enclosing animal, no text, scale bars, labels, watermark, collage or diagram.",
+  "editPrompt": "Edit this scientific tardigrade reconstruction. Scale entire animal including all claws to 85 percent current size and move RIGHT so full outline fits x=720..1450 y=300..780. Preserve exactly four leg pairs and posterior backward legs, natural translucent pale amber cuticle and microscopic appearance. Keep all visible claw tips complete with actual background margin. Left 40% quiet dark olive microscopic background with no animal part. Exact1536x1024, one animal, no text or additional organs.",
+  "rejectedCandidate": "exec-1d8c07fa-7959-450b-a7f3-ca952e66ce1c.png: anterior intrudes left field",
+  "generatedFile": "/Users/chris.li/.codex/generated_images/01a095b4-c193-7f20-81eb-2d0ddf93cafc/exec-7f6792b6-cf26-45c1-a498-7e0071a099ac.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 738,
+      "top": 296,
+      "right": 1486,
+      "bottom": 724
+    },
+    "sha256": "6a1ee9750adbe210847873295e0d59619dfc95898dd49612b99675e0ba3c67db"
+  },
+  "sourceSha256": "8d6cd6c6b9a45be480086b6d6841d2c78f587695c5cedfe2a7b347dae01280af",
+  "supersededCover": {
+    "sha256": "a1ff461d20b6e49cbae3431cfd7d96c47289182a570648e5780c148f13d94aa9",
+    "bounds": {
+      "left": 1188,
+      "top": 408,
+      "right": 1328,
+      "bottom": 467
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full anterior mouth, body edge, four near-side legs and posterior claw tips retained; far-side counterparts partly overlap. Claw branching and internal granularity are illustrative not species diagnosis. Initial anterior intrusion corrected, quiet left olive background and real margins."
+}

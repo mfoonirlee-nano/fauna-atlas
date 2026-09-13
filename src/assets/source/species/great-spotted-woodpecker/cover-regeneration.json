@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. New 1536x1024 landscape Fauna Atlas cover. One adult male great spotted woodpecker Dendrocopos major clinging upright to the LEFT side of a narrow vertical birch trunk on the RIGHT of the photograph, bill facing left. Accurate black-white plumage, white shoulder patches, red undertail, small red nape, stiff complete tail bracing bark, visible feet with claws gripping bark. Natural-history editorial wildlife photograph, quiet softly lit woodland. Make bird prominent: complete bill, head, wings, visible claws and tail within x=760..1370 y=140..860. Trunk behind bird must be natural and continuous. Left 40% only quiet defocused woodland, no animal parts. Show full body with real background around all outer extremities, no obscuring foreground. One bird only, no text, watermark, collage, frame or human objects.",
+  "generatedFile": "exec-1686a71c-9794-48b3-b760-f2d3e38a7e81.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 740,
+      "top": 115,
+      "right": 1220,
+      "bottom": 900
+    },
+    "sha256": "2666b90c1efbd6b680de5938ed4a9561f4e13ffc231e04ded963906a3e2dc6c6"
+  },
+  "sourceSha256": "b30db971b66f4fb79f97c4cb5bd291cdcad8f662edace5a012fead82de648f68",
+  "supersededCover": {
+    "sha256": "3013b1c92fd14d835427ca2f9aa04fdef66ca28a6014e22b4c38a02e743f3971",
+    "bounds": {
+      "left": 1084,
+      "top": 337,
+      "right": 1142,
+      "bottom": 482
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Full woodpecker bill, visible claws and tail; ant antennae, visible leg tips and carried leaf; guinea pig whiskers, ears, fur tips and visible toes. Natural overlap of far-side feet is retained. Quiet left habitat and background clearance around the complete outer silhouette."
+}

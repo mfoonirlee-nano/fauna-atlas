@@ -1,0 +1,31 @@
+{
+  "prompt": "Photorealistic wildlife atlas cover landscape1536x1024. One star-nosed mole Condylura cristata on smooth damp pale brown wetland soil, elevated three-quarter side view facing left. Accurate small compact dark charcoal furred mammal with pink star nose of 22 delicate fleshy rays around nostrils, tiny eyes concealed in fur, broad pink outward-turned digging forefeet with five strong claws, smaller hind feet and long slender scaly pink-brown tail curving around rear to right. Complete animal LARGE on RIGHT, all nose rays, whiskers, visible claws, fur fringe and full tail tip within x=670..1460 y=230..830. Natural far-side limb overlap allowed. Real soil margin beyond extremities; hind feet readable against ground, not buried. Left40% quiet softly defocused dark green-brown wetland background without sharp plants or water glare. Soft natural light, realistic anatomy, no text border watermark.",
+  "edits": [
+    "Correct star-nosed mole details and placement. Each broad digging forepaw must have five distinct digits with strong claws, naturally splayed outward. Nose has 22 slender fleshy rays, eleven each side of the nostrils, with natural overlap. Preserve full furred body, visible hindfoot and curved tail. Uniformly shrink whole animal including whiskers to78 percent and shift right so leftmost whisker begins x=665 and tail edge x=1470, all body within y=220..850 on1536x1024. Soften left40% into uniform defocused green-brown background, no sharp soil.",
+    "Move entire mole including its longest whiskers into right field. Uniformly shrink entire mole 10 percent, shift right so furthest left whisker is x=650, furthest right tail x=1480. Keep canvas1536x1024, complete nose rays feet and tail. Do not crop any whisker or claw. Preserve anatomy and quiet background."
+  ],
+  "generatedImage": "exec-e08243da-f4fc-4e69-9862-8306ee307984.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 608,
+      "top": 270,
+      "right": 1480,
+      "bottom": 786
+    },
+    "sha256": "1586237f4e178ea77a8304692f8ae3b4a0ba7dae46766d7a7332863f896008bc"
+  },
+  "sourceSha256": "a1fe87853e85bed1fa991ab1a4ccf4843420292ac52475598fdc830cd0656bf3",
+  "supersededCover": {
+    "sha256": "a49d2a78a73d910959a3ab38bdda4731c8030ab2482536e87229dc6855d99f9c",
+    "bounds": {
+      "left": 224,
+      "top": 334,
+      "right": 1128,
+      "bottom": 712
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete nose-ray and whisker outline, fur, visible claws, hindfoot and tail. Far hindfoot naturally concealed. Fine left whisker extends slightly before40 percent; main body remains right. Nose rays overlap; exact ray count not individually resolved."
+}

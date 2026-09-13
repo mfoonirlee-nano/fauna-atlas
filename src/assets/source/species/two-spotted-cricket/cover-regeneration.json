@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-12",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Fauna Atlas canonical cover1536x1024 landscape. One adult male two-spotted field cricket Gryllus bimaculatus, glossy black body with two pale yellow patches at forewing bases, six legs including powerful folded hindlegs, two complete long threadlike antennae and two slender cerci. Side three-quarter view facing left on flat fine soil in grassy meadow. Long antennae curve upward and backward over body so full silhouette fits RIGHT half x=720..1440 y=120..860; body itself prominent x=860..1320 y=480..760. Complete visible leg tips, antenna tips and cerci must have real background margin on all sides, no foreground blades hiding legs. Left40% quiet defocused meadow. Natural macro wildlife photograph soft daylight, coherent insect anatomy, one animal only no text watermark border collage.",
+  "generatedFile": "exec-66ef5f08-271c-43b5-89cd-8a5c0462d073.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 635,
+      "top": 80,
+      "right": 1490,
+      "bottom": 860
+    },
+    "sha256": "db7e5fbff3282b8f174bfbddbc034c05abd9da3c86536fa048ad3b30c2c41e88"
+  },
+  "sourceSha256": "850a1468c55c6dcd55bdc53b50f34e650fd155c2839d07b243603cc70c5b0f76",
+  "supersededCover": {
+    "sha256": "eef1c4bc8ca08e6d4fe7d4cd4cfffd2ce7bc56bf43d2b4d036d11c8d30920de8",
+    "bounds": {
+      "left": 1133,
+      "top": 314,
+      "right": 1246,
+      "bottom": 422
+    }
+  },
+  "inspection": "Original-resolution PNG and runtime WebP inspected. Complete two long antennae, visible leg tips including folded hindlegs, wing edges and both cerci. Natural far-side leg overlap. Quiet left habitat and real source-edge clearance around all outer features."
+}

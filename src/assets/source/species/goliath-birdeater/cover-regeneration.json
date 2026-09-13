@@ -1,0 +1,30 @@
+{
+  "prompt": "Photorealistic macro wildlife atlas cover landscape 1536x1024. One goliath birdeater tarantula Theraphosa blondi on smooth damp brown rainforest soil, elevated dorsal three-quarter view head toward lower-left. Accurate robust brown hairy tarantula with oval abdomen, broad carapace, exactly eight thick jointed walking legs (four on each side) and two shorter pedipalps beside mouth. Natural spread resting pose, all legs traceable with limited overlap, no extra limbs. Entire animal including fine hair fringe LARGE on RIGHT within x=670..1460 y=150..900. Real soil margin beyond every toe and hair. Left40% quiet softly defocused muted dark brown-green forest floor without sharp leaves logs prey or other animals. Soft diffuse daylight separates brown hairs from lighter soil; realistic anatomy and texture, no text border watermark.",
+  "edits": [
+    "Preserve this exact tarantula anatomy and pose, eight walking legs and two shorter pedipalps. Uniformly shrink the complete spider to 80 percent and move it right: leftmost hairy leg begins x=670 and rightmost ends x=1470, all hair tips within y=120..920 on1536x1024. Include full fine setal fringe. Make entire left40% uniform softly defocused brown-green soil with no visible twigs moss patches or leaves. Maintain real soil margin around all spider extremities."
+  ],
+  "generatedImage": "exec-34dd00f2-a84e-4abf-a8fc-3f48f0c04151.png",
+  "status": "source composition and single-cover hero accepted",
+  "reviewed": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 698,
+      "top": 126,
+      "right": 1458,
+      "bottom": 834
+    },
+    "sha256": "3e97016ae94ddbc133f35e8af347723c57a96d1929d753af77214fd2ce26e7fe"
+  },
+  "sourceSha256": "0a68aeef61d9e193767ed3212a0a0ce9f983c777c971a05c75604d9c123221de",
+  "supersededCover": {
+    "sha256": "d0e9d37f0fff62e50da1d76a34f11f83b9fd869f0a29825776149d1bd37c9bb9",
+    "bounds": {
+      "left": 568,
+      "top": 234,
+      "right": 1376,
+      "bottom": 952
+    }
+  },
+  "inspection": "Source and WebP inspected at original resolution. Complete body, eight walking legs, two shorter pedipalps and fine setal fringe. Limb roots naturally overlap carapace. Real soil margins; quiet defocused left forest floor."
+}
