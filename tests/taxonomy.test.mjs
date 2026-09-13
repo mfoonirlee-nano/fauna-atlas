@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 209);
+  assert.equal(species.length, 210);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 209);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 210);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,8 +24465,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 148);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 66);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 149);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 67);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 18);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
@@ -24580,8 +24580,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Daubentonia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cercopithecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Rhinopithecus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 7);
-  assert.equal(findTaxon(tree, 'family', 'Bovidae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'family', 'Bovidae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Pantholops')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Proboscidea')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Elephantidae')?.speciesCount, 2);
@@ -25589,12 +25589,13 @@ test('five toddler profiles from fire salamander to long-tailed chinchilla retai
   assert.equal(chinchilla.metrics.adultLengthCm, undefined, 'body length excluding the tail is not a total-length range');
 });
 
-test('new toddler profiles from the current todo batch retain identities and accepted image sets', async () => {
+test('five toddler profiles from humpback whale to saiga retain identities and accepted image sets', async () => {
   const cases = [
     ['humpback-whale', 'Megaptera novaeangliae', 'Cetacea', 'Balaenopteridae', 'LC'],
     ['narwhal', 'Monodon monoceros', 'Cetacea', 'Monodontidae', 'LC'],
     ['okapi', 'Okapia johnstoni', 'Artiodactyla', 'Giraffidae', 'EN'],
     ['american-bison', 'Bison bison', 'Artiodactyla', 'Bovidae', 'NT'],
+    ['saiga', 'Saiga tatarica', 'Artiodactyla', 'Bovidae', 'NT'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   for (const [slug, scientificName, order, family, code] of cases) {
@@ -25616,6 +25617,7 @@ test('new toddler profiles from the current todo batch retain identities and acc
   assert.match(findSpecies('narwhal').storySections.find(({ key }) => key === 'female').body, /少数雌鲸/);
   assert.deepEqual(findSpecies('okapi').distribution.countries, ['刚果民主共和国']);
   assert.ok(findSpecies('american-bison').names.aliases.includes('Bos bison'));
+  assert.match(findSpecies('saiga').storySections.at(-1).body, /从极危调整为近危/);
 });
 
 test('five toddler profiles from wombat to California sea lion retain identities and accepted image sets', async () => {

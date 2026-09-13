@@ -2090,5 +2090,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1472,
       "bottom": 835
     }
+  },
+  "saiga": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 662,
+      "top": 40,
+      "right": 1492,
+      "bottom": 934
+    }
   }
 };

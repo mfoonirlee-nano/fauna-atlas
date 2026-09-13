@@ -453,5 +453,18 @@
       },
       "sha256": "83bb3a36eba6040031a1f9b21fa3d692e7dca9c04fdc837711ebd7ff99a1b123"
     }
+  },
+  "saiga": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 662,
+        "top": 40,
+        "right": 1492,
+        "bottom": 934
+      },
+      "sha256": "87be55c5fa5027f3d8d590375aef4d2d75272ff1e8f4a401e019a80d5acf8fd4"
+    }
   }
 }

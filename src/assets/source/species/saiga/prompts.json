@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male saiga antelope Saiga tatarica, bulbous drooping inflated nose, sandy coat white underside, two pale translucent ridged upright horns. Habitat: Kazakhstan open dry steppe. COVER: one complete animal in side three-quarter view, large prominent full body on RIGHT, entire silhouette including tusk horns ears hooves fins tail within x=650..1460 y=120..900. Center beyond 60 percent width, quiet habitat left 40 percent, real background clearance all edges. Whale fully underwater. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male saiga antelope Saiga tatarica, bulbous drooping inflated nose, sandy coat white underside, two pale translucent ridged upright horns. Habitat: Kazakhstan open dry steppe. Scene: close lateral head portrait emphasizing large drooping nose and nostrils. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male saiga antelope Saiga tatarica, bulbous drooping inflated nose, sandy coat white underside, two pale translucent ridged upright horns. Habitat: Kazakhstan open dry steppe. Scene: female saiga without horns standing full body on steppe. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male saiga antelope Saiga tatarica, bulbous drooping inflated nose, sandy coat white underside, two pale translucent ridged upright horns. Habitat: Kazakhstan open dry steppe. Scene: male saiga grazing short steppe plants. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male saiga antelope Saiga tatarica, bulbous drooping inflated nose, sandy coat white underside, two pale translucent ridged upright horns. Habitat: Kazakhstan open dry steppe. Scene: small herd of saiga walking across open steppe. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male saiga antelope Saiga tatarica, bulbous drooping inflated nose, sandy coat white underside, two pale translucent ridged upright horns. Habitat: Kazakhstan open dry steppe. Scene: female saiga and tiny calf on spring steppe. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    }
+  ]
+}

@@ -984,3 +984,9 @@ Reviewed the five retained gallery images each for blue whale, African savanna e
 ### Gallery audit: 100 / 1,025 reviewed
 
 Reviewed 50 additional gallery images for red kangaroo, common bottlenose dolphin, wandering albatross, ruby-throated hummingbird, emperor penguin, whale shark, Komodo dragon, reticulated python, gharial and green sea turtle. No composition replacement identified. Inspected the gharial sandbank-restoration image at its original 1536x1024 resolution: the animal is visible in the right-hand river water, not on the opposite bank. Corrected its alt text and removed visually unverified sex. Gallery audit now records 99 unchanged-image reviews and one alt correction; 925 images remain pending.
+
+## 2026-09-13 todo：新增五物种
+
+座头鲸、独角鲸、霍加狓、美洲野牛、高鼻羚羊：生成 5/5 套、目视检查 5/5 套、封面验收 5/5；每套保留 1 张封面和 5 张观察图，共 30 张 WebP。独角鲸首张封面因主体中心偏左而淘汰，重新生成后通过。各自 README 记录提示词、哈希、完整主体边界与六视口/六动画端点；新增物种不计入此前 205 张封面的重生成批次。
+
+本批档案与图片测试、216 项轮播检查、类型检查和生产构建通过。全量 taxonomy 的 74 项失败均来自 HEAD 已有的历史图片哈希记录，与本批新增物种无关。
