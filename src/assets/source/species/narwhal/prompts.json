@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-13",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape scientific wildlife reconstruction of one male narwhal Monodon monoceros underwater in clear Arctic sea. FULL BODY PROFILE POINTING RIGHT, tail at x=680, head at x=1100, long straight spiral tooth extends from upper lip to x=1460, not forehead. Entire animal including complete tail flukes, short pectoral fins and tusk inside x=650..1480 and y=240..800. Large prominent subject located entirely in RIGHT 60 percent, measured full-silhouette center beyond 60 percent image width. LEFT 40 percent quiet open blue water without animal parts. Mottled gray skin, smooth low dorsal ridge, NO dorsal fin. Real ocean water margins around all extremities. No text, no labels, no collage, no border."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male narwhal Monodon monoceros, mottled gray skin, single straight spiral tusk projecting from upper LEFT lip, no dorsal fin, horizontal tail flukes. Habitat: Arctic water under sea ice. Scene: close lateral head portrait showing spiral tusk emerging from upper lip, not forehead. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male narwhal Monodon monoceros, mottled gray skin, single straight spiral tusk projecting from upper LEFT lip, no dorsal fin, horizontal tail flukes. Habitat: Arctic water under sea ice. Scene: female narwhal without tusk swimming in clear Arctic water. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male narwhal Monodon monoceros, mottled gray skin, single straight spiral tusk projecting from upper LEFT lip, no dorsal fin, horizontal tail flukes. Habitat: Arctic water under sea ice. Scene: full side view showing low dorsal ridge without dorsal fin. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male narwhal Monodon monoceros, mottled gray skin, single straight spiral tusk projecting from upper LEFT lip, no dorsal fin, horizontal tail flukes. Habitat: Arctic water under sea ice. Scene: two narwhals swimming beneath patchy sea ice. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male narwhal Monodon monoceros, mottled gray skin, single straight spiral tusk projecting from upper LEFT lip, no dorsal fin, horizontal tail flukes. Habitat: Arctic water under sea ice. Scene: narwhal surfacing to breathe in open lead between sea ice. Medium close framing, feature clear for young child. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+    }
+  ],
+  "rejectedCover": {
+    "reason": "完整主体边界中心小于源宽度的 60%，重新生成朝右的构图。",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history scientific scene reconstruction. Subject: male narwhal Monodon monoceros, mottled gray skin, single straight spiral tusk projecting from upper LEFT lip, no dorsal fin, horizontal tail flukes. Habitat: Arctic water under sea ice. COVER: one complete animal in side three-quarter view, large prominent full body on RIGHT, entire silhouette including tusk horns ears hooves fins tail within x=650..1460 y=120..900. Center beyond 60 percent width, quiet habitat left 40 percent, real background clearance all edges. Whale fully underwater. Anatomically correct, natural light and textures. No text, no collage, no borders, no watermarks, no human objects, no fantasy."
+  }
+}

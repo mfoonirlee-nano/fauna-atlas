@@ -414,5 +414,18 @@
       },
       "sha256": "6950f2799de66218f6a24ab57edaa3786a6156fc3ce48dad98f0e25cc6e4c5d7"
     }
+  },
+  "narwhal": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 518,
+        "top": 296,
+        "right": 1506,
+        "bottom": 576
+      },
+      "sha256": "a0da0d281f41b5667e2bb9f5475150040bd86cde9ae6bfa95968d70aae0edfb9"
+    }
   }
 }

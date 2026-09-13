@@ -2060,5 +2060,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1512,
       "bottom": 898
     }
+  },
+  "narwhal": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 518,
+      "top": 296,
+      "right": 1506,
+      "bottom": 576
+    }
   }
 };

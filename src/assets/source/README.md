@@ -356,3 +356,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [California Sea Lion image set](./species/california-sea-lion/README.md)
 
 - [Humpback Whale image set](./species/humpback-whale/README.md)
+- [Narwhal image set](./species/narwhal/README.md)
