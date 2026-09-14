@@ -80,7 +80,7 @@
 - [x] 豹纹守宫 *Eublepharis macularius* — “找找它粗粗的尾巴。”
 - [x] 伞蜥 *Chlamydosaurus kingii* — “看看脖子周围的皮肤展开后像什么。”
 - [x] 玉米蛇 *Pantherophis guttatus* — “没有脚的蛇，身体怎样弯着向前爬？”
-- [ ] 白氏树蛙 *Litoria caerulea* — “找找贴在树枝上的脚趾。”
+- [x] 白氏树蛙 *Pelodryas caerulea*（旧名 *Litoria caerulea*）— “找找贴在树枝上的脚趾。”
 - [ ] 东方蝾螈 *Cynops orientalis* — “看看它的肚子和背部各是什么颜色。”
 - [ ] 翻车鱼 *Mola mola* — “看看它圆圆的身体和上下伸出的鱼鳍。”
 - [ ] 锯鲛 *Pristis pristis* — “找找长吻两边像锯齿的小尖齿。”

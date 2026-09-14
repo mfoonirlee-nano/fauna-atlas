@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One adult White's tree frog Pelodryas caerulea also known as Litoria caerulea, plump natural green body, pale belly, horizontal pupil, broad rounded adhesive toe discs, perched on eucalyptus branch with all visible toes and full body clear, Australian woodland. Complete animal only on right, bounding box x=650..1450 y=80..950, quiet left 40 percent, no cropped extremities, maximize subject in this box. Natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 2,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. Detailed natural close view of White's tree frog Pelodryas caerulea forefeet gripping a branch, four fingers each with rounded adhesive disc, natural green frog partly visible, realistic anatomy. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 3,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One White's tree frog Pelodryas caerulea resting inside a tree hollow in daytime, green back pale belly golden eyes horizontal pupils, relaxed tucked limbs. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 4,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One White's tree frog Pelodryas caerulea at night on a low branch looking at a small moth perched nearby, gentle natural illumination, no flash glare, no contact no gore. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 5,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One adult male White's tree frog Pelodryas caerulea on vegetation beside a temporary pool after rain, one modestly inflated throat vocal sac beneath jaw while calling, full body. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 6,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One White's tree frog Pelodryas caerulea on a branch after rain, olive brown natural color variant and large rounded toe pads, full body, eucalyptus leaves softly blurred behind. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    }
+  ]
+}

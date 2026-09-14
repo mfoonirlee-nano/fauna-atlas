@@ -376,3 +376,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Common Leopard Gecko image set](./species/leopard-gecko/README.md)
 - [Frilled Lizard image set](./species/frilled-lizard/README.md)
 - [Corn Snake image set](./species/corn-snake/README.md)
+- [White's Tree Frog image set](./species/whites-tree-frog/README.md)

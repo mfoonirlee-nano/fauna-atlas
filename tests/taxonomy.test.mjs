@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 224);
+  assert.equal(species.length, 225);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24433,8 +24433,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 12);
-  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 9);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Pipidae')?.speciesCount, 1);
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 224);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 225);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,7 +24465,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 163);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 164);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 69);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 18);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -25587,6 +25587,42 @@ test('five toddler profiles from fire salamander to long-tailed chinchilla retai
   assert.deepEqual(chinchilla.distribution.countries, ['智利']);
   assert.match(chinchilla.storySections.find(({ key }) => key === 'dust-bath').body, /分别生成.*不是.*连续实拍/);
   assert.equal(chinchilla.metrics.adultLengthCm, undefined, 'body length excluding the tail is not a total-length range');
+});
+
+test('five herp profiles from pond slider to Whites tree frog retain species boundaries and accepted images', async () => {
+  const cases = [
+    ['pond-slider', 'Trachemys scripta', 'Testudines', 'Emydidae'],
+    ['leopard-gecko', 'Eublepharis macularius', 'Squamata', 'Eublepharidae'],
+    ['frilled-lizard', 'Chlamydosaurus kingii', 'Squamata', 'Agamidae'],
+    ['corn-snake', 'Pantherophis guttatus', 'Squamata', 'Colubridae'],
+    ['whites-tree-frog', 'Pelodryas caerulea', 'Anura', 'Pelodryadidae'],
+  ];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  for (const [slug, name, order, family] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.order.scientificName, order);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.taxonomy.genus.scientificName, name.split(' ')[0]);
+    assert.equal(profile.conservation.code, 'LC');
+    assert.equal(profile.conservation.assessedYear, undefined);
+    assert.equal(profile.conservation.trend, 'unknown');
+    assert.equal(profile.storySections.length, 6);
+    for (const kind of ['taxonomy', 'ecology', 'conservation']) {
+      assert.ok(profile.sources.some((source) => source.kind === kind), `${slug}: ${kind}`);
+    }
+    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+  }
+  assert.match(findSpecies('pond-slider').description, /图集展示红耳亚种/);
+  assert.match(findSpecies('leopard-gecko').storySections.find(({ key }) => key === 'feet').body, /没有黏附趾垫/);
+  assert.match(findSpecies('frilled-lizard').storySections.find(({ key }) => key === 'rest').body, /分别生成/);
+  assert.deepEqual(findSpecies('corn-snake').distribution.countries, ['美国']);
+  assert.match(findSpecies('corn-snake').distribution.range, /独立成种的 Pantherophis emoryi/);
+  assert.ok(findSpecies('whites-tree-frog').names.aliases.includes('Litoria caerulea'));
+  assert.ok(findSpecies('whites-tree-frog').names.aliases.includes('Ranoidea caerulea'));
 });
 
 test('five bird profiles from sulphur-crested cockatoo to white stork retain identities and accepted image sets', async () => {

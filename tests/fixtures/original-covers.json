@@ -648,5 +648,18 @@
       },
       "sha256": "c1617fb686e57d81408a3459c37f60d7311c10fe402eb5043555d438bb3f8f78"
     }
+  },
+  "whites-tree-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 154,
+        "right": 1424,
+        "bottom": 840
+      },
+      "sha256": "073227354a300a3b5c49e55fa2bdaa32c0c039956d131e610e03042825951303"
+    }
   }
 }

@@ -2240,5 +2240,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 999
     }
+  },
+  "whites-tree-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 154,
+      "right": 1424,
+      "bottom": 840
+    }
   }
 };
