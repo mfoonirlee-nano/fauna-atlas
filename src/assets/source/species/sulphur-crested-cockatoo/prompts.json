@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Create one photorealistic wildlife educational image, landscape 1536x1024. A sulphur-crested cockatoo (Cacatua galerita), white plumage, bright yellow erect curved crest, dark grey hooked bill, grey feet, perched side-on on a eucalyptus branch in Australian open woodland. Show one entire bird including all crest tips, beak, toes and long tail, with real background clearance. Bird large in right half, complete silhouette within x=850..1430 y=100..920; center at 74% image width. Left 40% quiet softly defocused woodland for website title. Natural daylight, biologically accurate proportions, feather details, no orange cheek patch. No text, watermark, collage or border.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-e198283b-8bdc-4420-8106-d824c1f44031.png"
+    },
+    {
+      "number": 2,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Cacatua galerita sulphur-crested cockatoo, white body, yellow crest, blackish bill and grey feet, no orange cheek patches. Scene: Close lateral head and upper body portrait showing the entire erect sulphur yellow crest and curved bill, eucalyptus foliage behind. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-8cb714f1-0607-4b22-8875-451231684b48.png"
+    },
+    {
+      "number": 3,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Cacatua galerita sulphur-crested cockatoo, white body, yellow crest, blackish bill and grey feet, no orange cheek patches. Scene: Full bird in side view, yellow crest folded smoothly backwards, gripping a eucalyptus branch with zygodactyl toes, tail fully visible. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-e175a1a6-8a11-4422-8b6d-f573c107b1a6.png"
+    },
+    {
+      "number": 4,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Cacatua galerita sulphur-crested cockatoo, white body, yellow crest, blackish bill and grey feet, no orange cheek patches. Scene: Three birds foraging for fallen seeds in short grass under eucalyptus trees, heads lowered, all entire bodies visible. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-12a8d4cc-df8b-4f39-842d-cc6a4a9c379a.png"
+    },
+    {
+      "number": 5,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Cacatua galerita sulphur-crested cockatoo, white body, yellow crest, blackish bill and grey feet, no orange cheek patches. Scene: One bird in flight, underside of both outstretched wings pale yellow, all wing tips tail head and feet within frame against pale blue sky. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-b5d0b9a4-9f90-4454-b13f-1fb6a1a03fce.png"
+    },
+    {
+      "number": 6,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Cacatua galerita sulphur-crested cockatoo, white body, yellow crest, blackish bill and grey feet, no orange cheek patches. Scene: Two adult birds by a natural hollow entrance in a thick eucalyptus trunk, perched outside, no exposed eggs or human nest boxes. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-21549807-96d7-48c8-98e2-1c1dfd264f0d.png"
+    }
+  ]
+}

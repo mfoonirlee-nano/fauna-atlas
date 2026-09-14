@@ -151,8 +151,8 @@ test('subject framing uses bounded container geometry and opacity-only animation
   assert.deepEqual(Object.keys(coverSubjects).sort(), Object.keys(reviewedCovers).sort());
 });
 
-test('next five animal covers retain a complete right-side source silhouette', () => {
-  for (const slug of ['chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl']) {
+test('new animal covers retain a complete right-side source silhouette', () => {
+  for (const slug of ['chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo']) {
     const { width, height, bounds } = reviewedCovers[slug].cover;
     assert.ok(bounds.left >= width * .4, `${slug}: quiet left side`);
     assert.ok((bounds.left + bounds.right) / 2 >= width * .6, `${slug}: right-side center`);

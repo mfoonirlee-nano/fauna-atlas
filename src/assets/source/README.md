@@ -365,3 +365,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Cockatiel image set](./species/cockatiel/README.md)
 - [Mute Swan image set](./species/mute-swan/README.md)
 - [Indian Peafowl image set](./species/indian-peafowl/README.md)
+
+- [Sulphur-crested Cockatoo image set](./species/sulphur-crested-cockatoo/README.md)

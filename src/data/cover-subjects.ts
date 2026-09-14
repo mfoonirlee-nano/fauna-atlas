@@ -2150,5 +2150,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1465,
       "bottom": 815
     }
+  },
+  "sulphur-crested-cockatoo": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 793,
+      "top": 20,
+      "right": 1318,
+      "bottom": 952
+    }
   }
 };
