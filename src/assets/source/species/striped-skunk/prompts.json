@@ -1,0 +1,32 @@
+[
+  {
+    "image": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural history editorial wildlife photograph, atlas cover. Subject: Mephitis mephitis striped skunk walking in North American woodland edge, black fur and two broad white dorsal stripes, bushy tail lifted, four short legs, small head with narrow white forehead stripe. Full subject prominent on right half centered at 70 percent width, entire silhouette including tail, ear tufts, wing tips, antennae and toes within x=640..1480 y=70..950 with actual background clearance. Left 40 percent quiet habitat for title. Realistic anatomy and natural lighting. No words, watermark, border, collage, extra animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Mephitis mephitis striped skunk standing in leaf litter seen from slightly elevated rear three quarter angle. Clearly show the two broad white dorsal stripes splitting from white nape, black fur between them and bushy tail. Full animal. Natural light, realistic anatomy, no labels, no text, no borders or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural history observation photograph. Mephitis mephitis striped skunk digging a small shallow hole in soft woodland soil with long front claws, nose lowered, full body and bushy tail in frame, black coat with two white dorsal stripes. Natural evening light. Realistic anatomy, natural lighting, no text, no border, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation image. Mephitis mephitis striped skunk warning posture: full body on ground, bushy black and white tail raised high, one front paw lifted for stamping, looking toward viewer. Natural forest edge, no visible spray or colored gas, keep tail and toes inside. Natural lighting, realistic anatomy, no text, borders or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Mephitis mephitis striped skunk resting just inside a natural earthen den entrance beneath tree roots, its head and white-striped shoulders visible in shade, leaf litter outside in daylight, black fur white forehead stripe, small rounded ears. Natural lighting, realistic anatomy, no text, no borders, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural-history wildlife photograph. Mephitis mephitis striped skunk at dusk walking along grassy woodland edge nose lowered to sniff leaf litter, black fur with two white dorsal stripes, bushy tail extended behind with full tip visible, four short legs, realistic soft twilight. Scientifically plausible anatomy, no words, labels, borders, watermark or collage.",
+    "tool": "built-in image_gen"
+  }
+]

@@ -752,5 +752,18 @@
       },
       "sha256": "52077da3b7d127bf01a55b97ebcbd02139307e6c49f3c3170331d5abc017ab52"
     }
+  },
+  "striped-skunk": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 715,
+        "top": 32,
+        "right": 1500,
+        "bottom": 905
+      },
+      "sha256": "e3fa58ca92e598a09b0587c794f2bac1d1c58f68ff8e35a7e05d7b94eb815fe0"
+    }
   }
 }

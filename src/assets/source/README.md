@@ -386,3 +386,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [American Lobster image set](./species/american-lobster/README.md)
 - [Giant Peacock Moth image set](./species/giant-peacock-moth/README.md)
+- [Striped Skunk image set](./species/striped-skunk/README.md)

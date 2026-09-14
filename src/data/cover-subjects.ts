@@ -2320,5 +2320,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1522,
       "bottom": 692
     }
+  },
+  "striped-skunk": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 715,
+      "top": 32,
+      "right": 1500,
+      "bottom": 905
+    }
   }
 };
