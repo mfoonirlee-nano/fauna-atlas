@@ -2180,5 +2180,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1414,
       "bottom": 980
     }
+  },
+  "eurasian-eagle-owl": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 850,
+      "top": 60,
+      "right": 1400,
+      "bottom": 885
+    }
   }
 };

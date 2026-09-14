@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case photorealistic-natural, scientific educational wildlife reconstruction. Single landscape image 1536x1024. An adult Eurasian eagle-owl Bubo bubo, large mottled buff-brown owl, prominent paired feather ear tufts, orange eyes, feathered feet, perched upright on a low broad rock at woodland edge in dusk light. Show one entire bird from highest feather or casque to all feet/toes and tail with background clearance. The large full animal occupies the RIGHT half within x=790..1450 y=90..925, center near 74% width. Left 40% quiet defocused habitat for website copy. Anatomically accurate, natural texture and lighting. No text, borders, watermark, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-654747cf-794c-41e5-89cf-b0de8b938b92.png"
+    },
+    {
+      "number": 2,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Bubo bubo Eurasian eagle-owl, mottled buff brown plumage, ORANGE irises, prominent feather ear tufts, large broad wings and feathered feet. Scene: Frontal head and chest portrait, both entire ear tufts clearly visible above orange eyes, natural dusk woodland background. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-d7fe2ddb-1b04-4509-8677-b24c5a98830b.png"
+    },
+    {
+      "number": 3,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Bubo bubo Eurasian eagle-owl, mottled buff brown plumage, ORANGE irises, prominent feather ear tufts, large broad wings and feathered feet. Scene: Full adult resting upright in sheltered rocky niche in daylight, eyes partly closed, both ear tufts and feet visible. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-37b73deb-c895-4afe-9a80-e9c857791574.png"
+    },
+    {
+      "number": 4,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Bubo bubo Eurasian eagle-owl, mottled buff brown plumage, ORANGE irises, prominent feather ear tufts, large broad wings and feathered feet. Scene: Full owl flying low sideways over open grassland at twilight, both entire broad wings and tail in frame, no prey or blood. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-478c2b5e-8b2b-46ca-b83e-05c62d0f8f22.png"
+    },
+    {
+      "number": 5,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Bubo bubo Eurasian eagle-owl, mottled buff brown plumage, ORANGE irises, prominent feather ear tufts, large broad wings and feathered feet. Scene: Full owl standing on a rock looking down toward rough grass at dusk, feathered toes and curved talons visible, alert natural posture. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-be7eafbe-1c0c-4a65-80c9-db832695351b.png"
+    },
+    {
+      "number": 6,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Bubo bubo Eurasian eagle-owl, mottled buff brown plumage, ORANGE irises, prominent feather ear tufts, large broad wings and feathered feet. Scene: Adult beside two downy grey buff owlets on a broad sheltered rocky ledge, young have small developing tufts, no constructed twig nest. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-a6abc5c5-1eb5-457c-9540-b8a4230ae2e7.png"
+    }
+  ]
+}

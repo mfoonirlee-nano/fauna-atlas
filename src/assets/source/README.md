@@ -369,3 +369,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Sulphur-crested Cockatoo image set](./species/sulphur-crested-cockatoo/README.md)
 - [Eurasian Hoopoe image set](./species/eurasian-hoopoe/README.md)
 - [Southern Cassowary image set](./species/southern-cassowary/README.md)
+- [Eurasian Eagle-Owl image set](./species/eurasian-eagle-owl/README.md)

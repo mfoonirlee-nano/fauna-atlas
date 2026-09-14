@@ -570,5 +570,18 @@
       },
       "sha256": "daf1f569c1b850bfb93cb1643be8c2d29af4aaa8365715a01e0ca0d8c7092563"
     }
+  },
+  "eurasian-eagle-owl": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 850,
+        "top": 60,
+        "right": 1400,
+        "bottom": 885
+      },
+      "sha256": "ebb530521ed6c6d8dd24e16a2fae6a1b311101ea3ddad1489a40ec6302ea9fe3"
+    }
   }
 }
