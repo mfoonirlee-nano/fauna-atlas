@@ -184,7 +184,7 @@ The accepted output presents shallow closed polygonal skin-toned lids as one int
 
 | No. | Source PNG SHA-256                                                 | Runtime WebP SHA-256                                               |
 | --- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| 01  | `d9f66e16a7e030c0d0488b0f34c4fd59ea908079e820d870b23172de68c7fbbd` | `a000eea1657b19658ebd581e1536fe0677b254a6aae39978fd2d71f9c2d4e799` |
+| 01 | `1c05ea5e1ad95c581958c1fce028d47af939c3d4838c4b7a97dba365a5cea895` | `05534aec75accd064bb768bfd8b584544fe08d98c320fe52f2e185f1aa1c99ec` |
 | 02  | `701e687e43c72ba455eb51f4b6075d9758f42520649c190222e6c7c05e817158` | `b713055213adfce0206831777c625d0f7afb9becb19ab0a410335a6f49761a08` |
 | 03  | `73c7754c4ab360c71f93cde1080630e7db97539c49761bbbb4d66cc17ba998e7` | `5a6425e1e339c4a8c7788538ae37d3f6fab9866210866fd67e701448e759a5f1` |
 | 04  | `f1ede733b74b6c043979e71c7d6aff5cf377cbb5832233c7a2d7f38e0da3fc1c` | `d388fc97123cf7daf5372265cdf74114b23068d546e192419f1da422ecab562d` |
