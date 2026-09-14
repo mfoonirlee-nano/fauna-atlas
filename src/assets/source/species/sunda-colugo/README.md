@@ -166,7 +166,7 @@ TinyPNG reported a 64.9% total size reduction for the initial six source PNGs. C
 
 | Frame | Source PNG SHA-256                                                 | Runtime WebP SHA-256                                               |
 | ----- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| 01    | `9115614deb52bacc585e9598800e13e69f4cdf353ed8c62e737ee4f776bf557b` | `3244e696cb6480935eeea9f07bbd71113dc761bd5f1d982440fdcae4a2489029` |
+| 01 | `11b40d0f3d174a2c67abbaa9ee1759bd1e1a0565a7ee79217e82611260b2e200` | `17bcde511aec68e2c4899da884a6fe728b5c57ba40eb353a044f8eaf1ead480c` |
 | 02    | `247fc2b37f399c815054001dcb2bd4e5ed0ef673cf18096dcf200067b24d8c5f` | `86810e300c6ac4626670baf221fe6e7dddc3dfba273122d524f82527a73c467f` |
 | 03    | `992bdeea71478b82f2774acb23f27ed5b6432db44471dd979e785a700063a112` | `8552ac44df62d8b3b6a7ebfd509f709f5e304a29284a04bbe59539afd915a05f` |
 | 04    | `693b47aedacaed0ab42eba3e50fc8d14b3f01b34dc69a7248ac9cd24931bbd6c` | `d328684451819370105bdae770ac92bb1341b7904ecee8cb259fe16dcb5e9f40` |
