@@ -635,5 +635,18 @@
       },
       "sha256": "1ee65f22bef845f38ca98989ad30031c607caa04794e2ba4b4b1aa377e5fd4ea"
     }
+  },
+  "corn-snake": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 696,
+        "top": 114,
+        "right": 1480,
+        "bottom": 999
+      },
+      "sha256": "c1617fb686e57d81408a3459c37f60d7311c10fe402eb5043555d438bb3f8f78"
+    }
   }
 }

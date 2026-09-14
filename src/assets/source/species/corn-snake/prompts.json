@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One wild-type corn snake Pantherophis guttatus, orange tan ground color and dark-bordered reddish dorsal saddles, resting in loose curves on dry leaves in southeastern US woodland, entire single continuous snake from snout to tapered tail visible. Complete animal only on right, bounding box x=650..1450 y=80..950, quiet left 40 percent, no cropped tail, maximize subject in this box. Natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories.",
+      "editPrompt": "Edit only the composition and background of this corn snake cover. Preserve one realistic wild-type Pantherophis guttatus, its pattern and a single anatomically continuous body. Keep the whole snake on the right, including tail tip with real leaf-litter background at least 70 pixels below it; slightly tighten the lowest curve to lift the tail tip into the frame. Make the left 40 percent softly defocused quiet leaf-litter and woodland tones, remove sharply focused foreground twigs/leaves/trunk on that left area so website text will be readable. Do not blur the animal. Natural editorial wildlife photo, landscape 1536x1024, no text border or collage."
+    },
+    {
+      "number": 2,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One wild-type corn snake Pantherophis guttatus moving in broad S curves across leaf litter, full unbroken body from head to tail, overhead view, natural orange red saddle markings. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 3,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. Close natural portrait of corn snake Pantherophis guttatus showing round pupil, orange red head scales and forked tongue briefly extended, brown leaf litter background. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 4,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One wild-type corn snake Pantherophis guttatus climbing a low fallen branch in open woodland, belly gripping rough bark, entire anatomically continuous body and tail visible. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 5,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One wild-type corn snake Pantherophis guttatus partly sheltered under a loose slab of bark, head and patterned coils visible in shade, undisturbed habitat. Clear informative animal observation. Natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 6,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One juvenile normal wild-type corn snake Pantherophis guttatus resting beside an empty shed snakeskin on leaf litter, complete small snake, muted brown reddish saddles, no eggs no extra animals. Clear informative animal observation. Natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    }
+  ]
+}

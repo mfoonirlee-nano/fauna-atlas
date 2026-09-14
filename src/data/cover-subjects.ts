@@ -2230,5 +2230,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1455,
       "bottom": 939
     }
+  },
+  "corn-snake": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 696,
+      "top": 114,
+      "right": 1480,
+      "bottom": 999
+    }
   }
 };
