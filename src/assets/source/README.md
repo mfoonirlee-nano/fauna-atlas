@@ -388,3 +388,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Giant Peacock Moth image set](./species/giant-peacock-moth/README.md)
 - [Striped Skunk image set](./species/striped-skunk/README.md)
 - [Caracal image set](./species/caracal/README.md)
+- [Leopard image set](./species/leopard/README.md)

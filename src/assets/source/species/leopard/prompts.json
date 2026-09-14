@@ -1,0 +1,32 @@
+[
+  {
+    "image": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural history editorial wildlife photograph, atlas cover. Subject: Panthera pardus adult leopard lying lengthwise on a broad tree branch in African woodland, head raised, golden fur with dark rosettes without central dots, full dangling long tail and all visible paws. Full subject prominent on right half centered at 70 percent width, entire silhouette including tail, ear tufts, wing tips, antennae and toes within x=640..1480 y=70..950 with actual background clearance. Left 40 percent quiet habitat for title. Realistic anatomy and natural lighting. No words, watermark, border, collage, extra animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Panthera pardus adult leopard close side view of shoulder and flank showing black rosettes with golden centers without central dots. Head visible at left, natural woodland background. Photographic anatomy, not jaguar, not cheetah. Natural light, realistic anatomy, no labels, no text, no borders or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural history observation photograph. Panthera pardus adult leopard climbing a sloping rough tree trunk, natural paws gripping bark, full body, all visible limbs and entire long curved tail in frame. Golden fur black rosettes, African woodland, no prey. Realistic anatomy, natural lighting, no text, no border, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create a 1536x1024 wildlife atlas observation photograph. One adult Panthera pardus asleep on a wide horizontal tree branch, head resting on forepaws, hindquarters supported by branch, long tail dangling down with complete tail tip visible. Full animal inside frame, realistic golden fur with black rosettes, calm woodland background. Correct anatomy, natural light, no words, no borders, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Panthera pardus adult leopard stalking slowly through low grass, body crouched, shoulder low, eyes focused ahead, golden rosettes, long tail trailing behind, full body and visible feet inside frame, natural African woodland edge, no prey or blood. Natural lighting, realistic anatomy, no text, no borders, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural-history observation photograph. Panthera pardus adult leopard standing on bank of a natural woodland waterhole drinking, head lowered to water, forelegs supporting body, full rosetted body and long curved tail inside frame, subtle reflection, early morning light, no other animals. Realistic anatomy, no text, labels, border or collage.",
+    "tool": "built-in image_gen"
+  }
+]

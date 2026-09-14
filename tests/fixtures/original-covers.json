@@ -778,5 +778,18 @@
       },
       "sha256": "54cc04e0229c3a19841b9721c44e2f055e1439649e3ff849fb4ddd6f2487db28"
     }
+  },
+  "leopard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 716,
+        "top": 60,
+        "right": 1480,
+        "bottom": 965
+      },
+      "sha256": "a3dba820a6d424e6b3d43c92ad477db025514cd40afab1945dd5215293370bff"
+    }
   }
 }
