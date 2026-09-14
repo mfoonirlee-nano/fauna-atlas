@@ -2290,5 +2290,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1508,
       "bottom": 842
     }
+  },
+  "european-stag-beetle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 659,
+      "top": 68,
+      "right": 1484,
+      "bottom": 954
+    }
   }
 };

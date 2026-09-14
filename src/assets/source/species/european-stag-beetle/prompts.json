@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas cover. Landscape 3:2 1536x1024 natural history photographic reconstruction. Subject: male Lucanus cervus European stag beetle standing on old oak bark, black head and thorax, chestnut brown elytra and large antler-shaped mandibles, six legs, two elbowed clubbed antennae. Three quarter overhead view. Entire beetle including mandibles, all legs and antennae. Composition: whole animal large on RIGHT, full silhouette within x=660..1450 y=100..920, center at 70% source width, left 40% quiet blurred habitat for text. Real background clearance on all edges, all extremities intact. Soft natural light, realistic details and restrained colors. No text no watermark no border no collage."
+    },
+    {
+      "number": 2,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One male Lucanus cervus European stag beetle on oak bark, macro three-quarter view emphasizing large reddish brown antlerlike paired mandibles on black head, elbowed clubbed antennae, full mandibles within frame, no rhinoceros horn. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 3,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One female Lucanus cervus European stag beetle on decaying oak log, black head and thorax dark brown elytra, SMALL short normal mandibles unlike male, six legs and two elbowed clubbed antennae, complete body. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 4,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Lucanus cervus larva nestled in soft decaying wood, large cream-colored C-shaped beetle grub, orange brown head and three pairs of tiny thoracic legs, rotting wood fibers, scientific macro natural history reconstruction. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 5,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: Two male Lucanus cervus stag beetles on old oak bark in natural nonviolent wrestling pose, paired antlerlike mandibles touching as they push, black heads dark reddish brown elytra, distinguishable six legs per animal, no injury. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 6,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One male Lucanus cervus European stag beetle walking on oak woodland floor at dusk, full body, large antlerlike reddish mandibles, black head thorax brown elytra, six articulated legs, antennae clear, soft warm evening light. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    }
+  ]
+}

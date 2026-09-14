@@ -85,7 +85,7 @@
 - [x] 翻车鱼 *Mola mola* — “看看它圆圆的身体和上下伸出的鱼鳍。”
 - [x] 锯鲛 *Pristis pristis* — “找找长吻两边像锯齿的小尖齿。”
 - [x] 大蓝闪蝶 *Morpho menelaus* — “看看翅膀打开和合上时的不同花纹。”
-- [ ] 欧洲锹甲 *Lucanus cervus* — “找找头前像鹿角一样的大颚。”
+- [x] 欧洲锹甲 *Lucanus cervus* — “找找头前像鹿角一样的大颚。”
 - [ ] 美洲螯龙虾 *Homarus americanus* — “看看它的大螯和长触角。”
 - [ ] 大孔雀蛾 *Saturnia pyri* — “找找翅膀上像眼睛的圆形花纹。”
 - [ ] 臭鼬 *Mephitis mephitis* — “看看它竖起大尾巴的样子。”

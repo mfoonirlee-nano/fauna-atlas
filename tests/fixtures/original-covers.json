@@ -713,5 +713,18 @@
       },
       "sha256": "4bc5f1f8ee81ff615c96e08474aaec975a1c290b5aacc8c7b7f9ab4d14d7d656"
     }
+  },
+  "european-stag-beetle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 659,
+        "top": 68,
+        "right": 1484,
+        "bottom": 954
+      },
+      "sha256": "0c6364e279f0ad6d0cf34f3c15599cc122088e838c971b50547007605bf75450"
+    }
   }
 }

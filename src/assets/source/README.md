@@ -382,3 +382,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Ocean Sunfish image set](./species/ocean-sunfish/README.md)
 - [Largetooth Sawfish image set](./species/largetooth-sawfish/README.md)
 - [Menelaus Blue Morpho image set](./species/menelaus-blue-morpho/README.md)
+- [European Stag Beetle image set](./species/european-stag-beetle/README.md)
