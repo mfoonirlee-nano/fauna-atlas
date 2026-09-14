@@ -140,7 +140,7 @@ Avoid: petri dish with giant animal, fish, insects, shrimp, blood, dead organism
 
 | No. | Source PNG SHA-256                                                 | Runtime WebP SHA-256                                               |
 | --- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| 01  | `661a1152fe63e81add5d1757c2adb4ab7f0375c9ceb6fbf9d34e227cd7b53033` | `65d7e75ceb8a1b357ce191f9eeaced69ddd8fb20a654aa4c4a84bcf2a0530ce6` |
+| 01 | `19c000115de9d5e3427a530c955365f2a00049697718892fc56ddccc141daaeb` | `50ea8cb31cf4559632669339f87b719a3d081aeffacdb25c110b989c7d02091c` |
 | 02  | `6ad8d21b8c1445dae60bd9cac6fb39b7a9ecf578006c526d9b1d408d84373308` | `8f1943e9ace270a4da387602f1449c98d0b1cddfbf66f8594f88911478531bac` |
 | 03  | `3220cda64c5eafc44c9c1f8a80c1e6f109c2b6bae9a29a4c205866530d955485` | `9ea998e28ecf10f500f3d20a9df2525c5d2da8f957cfa972e601cad85f23c871` |
 | 04  | `7fe20f64c1e8631d5d2b15f9d78f39cbbf675ac4cea127a296e660adf199554c` | `4ef5bd6b5b3064fdb167fef51f4b60f75b4f8cb574c335c8d4467405ec392e9a` |
