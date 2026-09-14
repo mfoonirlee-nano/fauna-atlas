@@ -190,7 +190,7 @@ Avoid: visible caecilian, snake, worm, insects, birds, mammals, any wildlife, an
 
 | No. | Source PNG SHA-256                                                 | Runtime WebP SHA-256                                               |
 | --- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| 01  | `e2804727e24b9ddeb1a84b75b394ddafc73986888ec088d8952c4143b65f9640` | `5f292353194257a8cb5aa5ffa2266559e654b549c0c45ae7fdf2cf682eebb528` |
+| 01 | `bb12b9a6ed6ef1a07e7e89c9b708bb8cfbc6777d870f7e92db1cfc2fdccd0f0f` | `3d73735e346fba77d5e26092edb123b72ea951af40fe4cf0ad669a27a3178262` |
 | 02  | `836f0a198f82b6d7d8de2cf7587b190976c4605eac4845701ce6bfe4ba171aa7` | `6c6329181038c367373838e6caf6502f592d93ab28003b5c7eb8fe88ac8971af` |
 | 03  | `299942637bdc1739de5f06b45cb3f963a33b8e9c811ccd801e1bd2cceb16ca68` | `7e0fd57f050c93ac643c928b6fc160782a27b2f8578a6f1b3b2da0bfe3539877` |
 | 04  | `321ab59594c969c450c1f8aa1bfb097cd0d2e5fe9d8bed3d1b321b6cb4f01ad0` | `ac990ef83fc2f7fa7f8f6b8ba3963372ece012f9b642db04df38691a6a2e57cf` |
