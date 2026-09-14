@@ -518,5 +518,18 @@
       },
       "sha256": "fbcc2cc4605a291175ef1114b6efde2bd4aed4ef4903ad5e390969ab0457976b"
     }
+  },
+  "indian-peafowl": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 805,
+        "top": 342,
+        "right": 1465,
+        "bottom": 815
+      },
+      "sha256": "6e16552a903b195f3e86f22947a74941cf6bdc4a081711f1bacb1936c7cd91d7"
+    }
   }
 }

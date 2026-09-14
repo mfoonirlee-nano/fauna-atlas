@@ -152,7 +152,7 @@ test('subject framing uses bounded container geometry and opacity-only animation
 });
 
 test('next five animal covers retain a complete right-side source silhouette', () => {
-  for (const slug of ['chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan']) {
+  for (const slug of ['chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl']) {
     const { width, height, bounds } = reviewedCovers[slug].cover;
     assert.ok(bounds.left >= width * .4, `${slug}: quiet left side`);
     assert.ok((bounds.left + bounds.right) / 2 >= width * .6, `${slug}: right-side center`);

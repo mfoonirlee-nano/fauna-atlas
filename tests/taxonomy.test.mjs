@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24273,7 +24273,7 @@ test('integrates the bootlace worm, tongue-eating louse and revised vinegaroon w
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 214);
+  assert.equal(species.length, 215);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 214);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 215);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,7 +24465,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 153);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 154);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 69);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 18);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
@@ -24516,7 +24516,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 31);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 32);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
@@ -24538,9 +24538,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Charadriiformes')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Laridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sterna')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Galliformes')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Phasianidae')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'genus', 'Pavo')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Galliformes')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Phasianidae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'genus', 'Pavo')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Aquila')?.speciesCount, 1);
@@ -25595,6 +25595,7 @@ test('five toddler profiles from chimpanzee to Indian peafowl retain identities 
     ['bornean-orangutan', 'Pongo pygmaeus', 'Primates', 'Hominidae', 'CR'],
     ['cockatiel', 'Nymphicus hollandicus', 'Psittaciformes', 'Cacatuidae', 'LC'],
     ['mute-swan', 'Cygnus olor', 'Anseriformes', 'Anatidae', 'LC'],
+    ['indian-peafowl', 'Pavo cristatus', 'Galliformes', 'Phasianidae', 'LC'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   for (const [slug, scientificName, order, family, code] of cases) {
@@ -25618,6 +25619,7 @@ test('five toddler profiles from chimpanzee to Indian peafowl retain identities 
   assert.deepEqual(findSpecies('cockatiel').metrics.adultMassKg, [0.08, 0.1]);
   assert.equal(findSpecies('mute-swan').conservation.trend, 'unknown', 'UK trends are not global trends');
   assert.match(findSpecies('mute-swan').distribution.range, /引入种群/);
+  assert.match(findSpecies('indian-peafowl').storySections.find(({ key }) => key === 'train').body, /尾上覆羽/);
 });
 
 test('five toddler profiles from humpback whale to saiga retain identities and accepted image sets', async () => {

@@ -70,7 +70,7 @@
 - [x] 婆罗洲猩猩 *Pongo pygmaeus* — “看看它伸长手臂抓住树枝。”
 - [x] 鸡尾鹦鹉 *Nymphicus hollandicus* — “找找头顶竖起来的羽毛。”
 - [x] 疣鼻天鹅 *Cygnus olor* — “看看长脖子怎样弯起来。”
-- [ ] 蓝孔雀 *Pavo cristatus* — “在开屏的尾羽上找找像眼睛的花纹。”
+- [x] 蓝孔雀 *Pavo cristatus* — “在开屏的尾羽上找找像眼睛的花纹。”
 - [ ] 葵花凤头鹦鹉 *Cacatua galerita* — “看看头顶的黄色羽毛怎样展开。”
 - [ ] 戴胜 *Upupa epops* — “找找头上像小扇子的羽毛。”
 - [ ] 双垂鹤鸵 *Casuarius casuarius* — “看看它头顶像头盔的突起。”

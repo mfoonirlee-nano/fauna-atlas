@@ -1,0 +1,41 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-14",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history editorial cover. One adult male Indian peafowl Pavo cristatus with brilliant blue neck, small fine fan-tipped crest, intricately patterned wings and a long green eye-spotted folded train. Entire peacock restricted to the RIGHT HALF of frame: head near x=890 y=210, body near x=1080 y=520, feet near x=1080 y=870. Bird faces LEFT, folded train extends BACKWARDS TO THE RIGHT and recedes diagonally into scene with its very last feather tip at x=1440 y=790. Natural three-quarter FRONT perspective foreshortens the long train, which remains long anatomically. Every visible crest tip, bill, toe and train feather within x=730..1450 y=110..900. Left 40% entirely quiet blurred Indian woodland without any part of peacock or feathers. Complete animal, real background around all outline. Natural colors daylight, correct anatomy, not displaying. No text border collage watermark or extra birds.",
+      "editPrompt": "Zoom out this natural-history photograph substantially, extending real woodland background on all four sides, especially the right. Show the ENTIRE male peacock including the final tip of its folded long train with generous empty background beyond it. Keep the animal entirely within x=730..1420 y=180..850 of the final 1536x1024 landscape image. Left 40 percent must be quiet empty woodland. Preserve realistic anatomy and natural colors. Complete feet, crest and every train tip. No border, text or other animals."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Indian peafowl Pavo cristatus adult male, brilliant blue neck and breast, small upright fan crest, green-bronze elongated upper tail coverts with eye spots, gray legs. Habitat: Indian dry woodland and grassy clearing. Observation scene: one adult male Indian peafowl displaying its fully spread broad fan of eye-spotted upper tail coverts, whole fan and feet included, head unobstructed. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Indian peafowl Pavo cristatus adult male, brilliant blue neck and breast, small upright fan crest, green-bronze elongated upper tail coverts with eye spots, gray legs. Habitat: Indian dry woodland and grassy clearing. Observation scene: close head portrait of blue male Indian peafowl showing narrow stems ending in small fan crest tips, blue neck and white facial patches. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Indian peafowl Pavo cristatus adult male, brilliant blue neck and breast, small upright fan crest, green-bronze elongated upper tail coverts with eye spots, gray legs. Habitat: Indian dry woodland and grassy clearing. Observation scene: one female Indian peafowl, brown-gray body, greenish neck and small crest, short tail, foraging on woodland ground. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Indian peafowl Pavo cristatus adult male, brilliant blue neck and breast, small upright fan crest, green-bronze elongated upper tail coverts with eye spots, gray legs. Habitat: Indian dry woodland and grassy clearing. Observation scene: one adult male Indian peafowl pecking seeds on open grass with long folded train trailing behind, whole body. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Indian peafowl Pavo cristatus adult male, brilliant blue neck and breast, small upright fan crest, green-bronze elongated upper tail coverts with eye spots, gray legs. Habitat: Indian dry woodland and grassy clearing. Observation scene: one brown-gray Indian peahen with three small chicks walking through short grass, clear natural size contrast. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    }
+  ],
+  "rejectedAttempts": [
+    {
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Indian peafowl Pavo cristatus adult male, brilliant blue neck and breast, small upright fan crest, green-bronze elongated upper tail coverts with eye spots, gray legs. Habitat: Indian dry woodland and grassy clearing. COVER: one adult male in side three-quarter view with long folded train, whole crest body legs feet and train tip visible. Prominent complete primary animal entirely on RIGHT, silhouette within x=650..1460 y=110..925. Center beyond 60% width. Left 40% quiet natural background for page text. Real background margins beyond every visible outer feature. Maximize subject size within these bounds. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy.",
+      "reason": "长饰羽伸入左侧文字区域。"
+    },
+    {
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history editorial cover. One adult male Indian peafowl Pavo cristatus with brilliant blue neck, small fine fan-tipped crest, intricately patterned wings and a long green eye-spotted folded train. Entire peacock restricted to the RIGHT HALF of frame: head near x=890 y=210, body near x=1080 y=520, feet near x=1080 y=870. Bird faces LEFT, folded train extends BACKWARDS TO THE RIGHT and recedes diagonally into scene with its very last feather tip at x=1440 y=790. Natural three-quarter FRONT perspective foreshortens the long train, which remains long anatomically. Every visible crest tip, bill, toe and train feather within x=730..1450 y=110..900. Left 40% entirely quiet blurred Indian woodland without any part of peacock or feathers. Complete animal, real background around all outline. Natural colors daylight, correct anatomy, not displaying. No text border collage watermark or extra birds.",
+      "reason": "最右侧羽梢遭到裁切。"
+    }
+  ]
+}

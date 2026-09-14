@@ -2140,5 +2140,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1500,
       "bottom": 970
     }
+  },
+  "indian-peafowl": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 805,
+      "top": 342,
+      "right": 1465,
+      "bottom": 815
+    }
   }
 };
