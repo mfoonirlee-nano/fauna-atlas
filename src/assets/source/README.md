@@ -391,3 +391,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Leopard image set](./species/leopard/README.md)
 
 - [Chinese Tree Frog image set](./species/chinese-tree-frog/README.md)
+- [American Bullfrog image set](./species/american-bullfrog/README.md)

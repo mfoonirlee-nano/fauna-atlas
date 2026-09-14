@@ -2360,5 +2360,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1445,
       "bottom": 822
     }
+  },
+  "american-bullfrog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 638,
+      "top": 158,
+      "right": 1428,
+      "bottom": 846
+    }
   }
 };

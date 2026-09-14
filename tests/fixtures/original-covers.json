@@ -804,5 +804,18 @@
       },
       "sha256": "4761ac19ae787f747b7e93e31eae59f5d322d7ebf90287f40884e2fa616c5bde"
     }
+  },
+  "american-bullfrog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 638,
+        "top": 158,
+        "right": 1428,
+        "bottom": 846
+      },
+      "sha256": "0f7beef03bf468ee5f46fe399213438466c21ed167e3609fc926678aa20c9989"
+    }
   }
 }

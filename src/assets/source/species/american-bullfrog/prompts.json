@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-09-14",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Species cover. American bullfrog Lithobates catesbeianus, robust olive green brown mottled frog, visible round tympanum behind eye, no dorsolateral ridges. Sitting on muddy pond bank showing full folded legs and toes. Maximize full subject in right 55% of image, center at x=74%. Left 40% quiet defocused habitat only. Real background margin around all outer body features. Never crop animal."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. American bullfrog Lithobates catesbeianus, robust olive green brown mottled frog, visible round tympanum behind eye, no dorsolateral ridges. Observation gallery: side close view of the circular tympanum behind the eye. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. American bullfrog Lithobates catesbeianus, robust olive green brown mottled frog, visible round tympanum behind eye, no dorsolateral ridges. Observation gallery: full frog sitting at pond edge with powerful hind legs folded. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. American bullfrog Lithobates catesbeianus, robust olive green brown mottled frog, visible round tympanum behind eye, no dorsolateral ridges. Observation gallery: full frog swimming underwater with webbed rear feet extended naturally. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. American bullfrog Lithobates catesbeianus, robust olive green brown mottled frog, visible round tympanum behind eye, no dorsolateral ridges. Observation gallery: large bullfrog tadpole underwater with long finned tail and no legs, pond bottom. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. American bullfrog Lithobates catesbeianus, robust olive green brown mottled frog, visible round tympanum behind eye, no dorsolateral ridges. Observation gallery: adult resting half submerged at pond surface, eyes and nostrils above water. Subject clear and large with comfortable margins."
+    }
+  ],
+  "coverEdits": []
+}
