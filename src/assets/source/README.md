@@ -377,3 +377,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Frilled Lizard image set](./species/frilled-lizard/README.md)
 - [Corn Snake image set](./species/corn-snake/README.md)
 - [White's Tree Frog image set](./species/whites-tree-frog/README.md)
+
+- [Oriental Fire-bellied Newt image set](./species/oriental-fire-bellied-newt/README.md)

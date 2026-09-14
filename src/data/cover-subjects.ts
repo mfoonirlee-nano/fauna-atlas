@@ -2250,5 +2250,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1424,
       "bottom": 840
     }
+  },
+  "oriental-fire-bellied-newt": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 675,
+      "top": 365,
+      "right": 1510,
+      "bottom": 730
+    }
   }
 };

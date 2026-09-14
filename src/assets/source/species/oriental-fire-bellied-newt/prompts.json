@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas species cover, landscape 3:2 natural history photograph reconstruction. One anatomically accurate Chinese fire-bellied newt Hypselotriton orientalis (Cynops orientalis), small smooth dark charcoal black newt, slender tail, four short legs, tiny eyes, subtle orange underside glimpse, resting on wet moss at edge of shallow freshwater pond in eastern China. Complete animal on right side, full body including all visible toes and entire tail within right 58 percent of image, body center at 70 percent image width. Animal large, bounding box approximately x=660..1450 y=230..820 on 1536x1024 image. Left 40 percent quiet blurred pond for title. Soft overcast light, scientifically plausible anatomy, no text no watermark no collage no border."
+    },
+    {
+      "number": 2,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Hypselotriton orientalis Chinese fire-bellied newt swimming naturally above camera in clear shallow pond, ventral view showing orange red belly with irregular black blotches, four short limbs and laterally flattened tail, entire animal. Do not flip dead animal onto its back. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 3,
+      "prompt": "Edit this natural-history image of Hypselotriton orientalis. Correct ONLY the adult newt pigmentation to the diagnostic Chinese fire-bellied newt: dorsal head, entire back, flanks and upper tail uniformly deep charcoal black with fine natural grain, NO pale marbling or cream mottling on back or sides. The visible underside from throat to belly and underside tail edge must be vivid orange-red with distinct irregular black spots. Keep same underwater pose, anatomy, four legs, full tail and background; front hands four fingers, hind feet five toes. No text or labels. Preserve landscape 1536x1024.",
+      "previousPrompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Hypselotriton orientalis small adult newt resting among submerged pond plants, charcoal black back with no colored dorsal spots, tiny limbs, lateral tail, side view. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene.",
+      "editReason": "Correct pale or mottled adult pigmentation to dark back and orange-red belly with black spots."
+    },
+    {
+      "number": 4,
+      "prompt": "Edit this natural-history image of Hypselotriton orientalis. Correct ONLY the adult newt pigmentation to the diagnostic Chinese fire-bellied newt: dorsal head, entire back, flanks and upper tail uniformly deep charcoal black with fine natural grain, NO pale marbling or cream mottling on back or sides. The visible underside from throat to belly and underside tail edge must be vivid orange-red with distinct irregular black spots. Keep same underwater pose, anatomy, four legs, full tail and background; front hands four fingers, hind feet five toes. No text or labels. Preserve landscape 1536x1024.",
+      "previousPrompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Hypselotriton orientalis swimming upward with nose at pond surface to breathe, small dark adult newt, four limbs and long gently bending flattened tail, waterline visible. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene.",
+      "editReason": "Correct pale or mottled adult pigmentation to dark back and orange-red belly with black spots."
+    },
+    {
+      "number": 5,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: Scientific macro observation of a single tiny oval gelatinous newt egg attached between leaves of aquatic plant in pond, Hypselotriton orientalis egg, brownish pale center, no frog spawn masses, no fantasy embryo. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 6,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Hypselotriton orientalis larval newt underwater among pond plants, small slender tan brown larva with THREE pairs of finely feathered external gills just behind head, delicate limbs, transparent fin along tail, natural side view. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    }
+  ]
+}

@@ -661,5 +661,18 @@
       },
       "sha256": "073227354a300a3b5c49e55fa2bdaa32c0c039956d131e610e03042825951303"
     }
+  },
+  "oriental-fire-bellied-newt": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 365,
+        "right": 1510,
+        "bottom": 730
+      },
+      "sha256": "7cb209bbc06922432e5a163f27e3d3896b297d6fbd306f2c866b7bc7663d593f"
+    }
   }
 }
