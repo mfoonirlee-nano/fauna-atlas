@@ -51,7 +51,7 @@ Add or update the matching full-subject case in `tests/hero-carousel.test.mjs`, 
 
 Check that each changed species still has exactly six retained images and that the carousel loads its canonical cover. Type checks, builds, and image-count checks do not establish crop acceptance. After changing the image source, framing, or animation, invalidate the affected prior acceptance and repeat the full-subject checks on the current runtime image.
 
-Track regenerated, visually inspected, and hero-accepted states separately. Report a batch as complete only when every targeted cover passes both composition and hero acceptance. For partial work, list the remaining species and unresolved checks; keep batch counts in the [regeneration progress record](./cover-regeneration-progress.md), not in these rules.
+Track regenerated, visually inspected, and hero-accepted states separately. Report a batch as complete only when every targeted cover passes both composition and hero acceptance. For partial work, list the remaining species and unresolved checks.
 
 This rule is a forward gate from 2026-09-03. Covers added or changed after this rule lands must pass it. Existing covers remain on the legacy baseline until someone audits or changes them; do not describe the full catalogue as compliant before that audit finishes.
 
