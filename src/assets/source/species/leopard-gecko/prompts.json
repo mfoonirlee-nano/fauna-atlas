@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. One wild-type adult leopard gecko Eublepharis macularius walking on dry rocky ground at dusk, pale yellow body black spots, thick segmented fat tail entirely visible, clawed toes no adhesive pads. Cover composition: maximize complete animal on right, center at 70% width, left 40% quiet habitat for website text, background clearance on all sides, no cropped extremities. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories.",
+      "editPrompt": "Edit this leopard gecko species cover. Preserve realistic wild-type leopard gecko anatomy and natural rocky dusk habitat. Recompose the entire gecko slightly smaller and leftward within right side so its complete tapering tail tip is visible with at least 80 pixels of real background between tail and right edge. Full subject including snout claws and tail must fit x=650..1450 of 1536 width. Keep left 40% quiet. No text collage or border."
+    },
+    {
+      "number": 2,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. Wild-type leopard gecko Eublepharis macularius seen from above on flat rock, complete thick fat tail curved gently beside body, yellow and dark spotted adult coloration. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    },
+    {
+      "number": 3,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. Wild-type adult leopard gecko Eublepharis macularius peering out of a dry rocky crevice in daylight, visible eyelids, sheltered body and forefeet. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    },
+    {
+      "number": 4,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. Wild-type adult leopard gecko Eublepharis macularius at dusk on rocky ground looking toward one small cricket a short distance away, natural hunting posture no contact no gore. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    },
+    {
+      "number": 5,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. Detailed natural closeup of leopard gecko Eublepharis macularius forefoot resting on coarse rock, five slender clawed toes without adhesive toe pads, body partly visible. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    },
+    {
+      "number": 6,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. One juvenile leopard gecko Eublepharis macularius with normal wild-type broad dark transverse bands and pale yellow bands, full intact thick tail, on sheltered rocky ground. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    }
+  ]
+}

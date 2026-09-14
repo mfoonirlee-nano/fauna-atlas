@@ -2210,5 +2210,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1405,
       "bottom": 700
     }
+  },
+  "leopard-gecko": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 490,
+      "right": 1480,
+      "bottom": 700
+    }
   }
 };

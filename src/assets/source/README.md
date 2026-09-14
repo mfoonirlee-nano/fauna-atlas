@@ -373,3 +373,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [White Stork image set](./species/white-stork/README.md)
 
 - [Pond Slider image set](./species/pond-slider/README.md)
+- [Common Leopard Gecko image set](./species/leopard-gecko/README.md)

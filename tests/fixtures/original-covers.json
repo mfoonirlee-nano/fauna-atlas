@@ -609,5 +609,18 @@
       },
       "sha256": "43dcd52aa088cf0c4bd914faa460aae131d7756f4024218608d80e833b9cdb86"
     }
+  },
+  "leopard-gecko": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 490,
+        "right": 1480,
+        "bottom": 700
+      },
+      "sha256": "418baa359b7ce29765f31a4cdf29ba35b8f3f4aea72ed8895ec80d84448fbc2e"
+    }
   }
 }
