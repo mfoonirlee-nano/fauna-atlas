@@ -2280,5 +2280,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1498,
       "bottom": 905
     }
+  },
+  "menelaus-blue-morpho": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 616,
+      "top": 170,
+      "right": 1508,
+      "bottom": 842
+    }
   }
 };

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas cover. Landscape 3:2 1536x1024 natural history photographic reconstruction. Subject: male Morpho menelaus butterfly at rest on rainforest leaf, wings fully spread with bright iridescent blue upper surface and narrow black margins, two antennae complete, four wings anatomically plausible, no tails on hindwings. Full dorsal view in South American rainforest. Composition: whole animal large on RIGHT, full silhouette within x=660..1450 y=100..920, center at 70% source width, left 40% quiet blurred habitat for text. Real background clearance on all edges, all extremities intact. Soft natural light, realistic details and restrained colors. No text no watermark no border no collage."
+    },
+    {
+      "number": 2,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One male Morpho menelaus butterfly fully spread wings on broad tropical rainforest leaf, overhead full view, brilliant structural blue upper forewings and hindwings with narrow black edges, symmetrical natural wings, complete antennae. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 3,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Morpho menelaus butterfly at rest with wings CLOSED vertically, side view, brown underside with several ringed eye spots, scalloped wing outline, NO blue on the visible closed underside, rainforest branch, full antennae. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 4,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Morpho menelaus butterfly perched with wings closed on naturally fallen split ripe fruit in South American rainforest leaf litter, long thin proboscis feeding on fruit juice, brown underside with ringed eyespots, no blue dorsal surfaces visible. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 5,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: Macro photograph of a living male Morpho menelaus partially open wing, blue iridescent dorsal surface and narrow black edge, delicate real scales visible as subtle fine texture, natural sunlight at oblique angle, not a microscopic diagram. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 6,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One male Morpho menelaus butterfly in flight through sunlit tropical rainforest gap, wings spread blue upper surfaces with narrow black margins, entire insect visible including wing tips and antennae, background forest softly blurred, natural action photograph. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    }
+  ]
+}

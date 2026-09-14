@@ -700,5 +700,18 @@
       },
       "sha256": "470a43dbfb359945f37874c6e2a2007b17de8db96f5e35edf1df338d949dd298"
     }
+  },
+  "menelaus-blue-morpho": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 616,
+        "top": 170,
+        "right": 1508,
+        "bottom": 842
+      },
+      "sha256": "4bc5f1f8ee81ff615c96e08474aaec975a1c290b5aacc8c7b7f9ab4d14d7d656"
+    }
   }
 }
