@@ -75,7 +75,7 @@
 - [x] 戴胜 *Upupa epops* — “找找头上像小扇子的羽毛。”
 - [x] 双垂鹤鸵 *Casuarius casuarius* — “看看它头顶像头盔的突起。”
 - [x] 雕鸮 *Bubo bubo* — “找找眼睛上方竖起来的羽毛。”
-- [ ] 白鹳 *Ciconia ciconia* — “看看长腿怎样站在浅水里。”
+- [x] 白鹳 *Ciconia ciconia* — “看看长腿怎样站在浅水里。”
 - [ ] 滑龟 *Trachemys scripta* — “看看它爬出水面晒背的姿势。”
 - [ ] 豹纹守宫 *Eublepharis macularius* — “找找它粗粗的尾巴。”
 - [ ] 伞蜥 *Chlamydosaurus kingii* — “看看脖子周围的皮肤展开后像什么。”

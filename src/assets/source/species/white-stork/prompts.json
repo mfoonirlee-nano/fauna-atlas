@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case photorealistic-natural, scientific educational wildlife reconstruction. Single landscape image 1536x1024. An adult white stork Ciconia ciconia, white body with black folded flight feathers, red long straight pointed bill, two long red legs, standing in very shallow European wet meadow water with all toes visible. Show one entire bird from highest feather or casque to all feet/toes and tail with background clearance. The large full animal occupies the RIGHT half within x=790..1450 y=90..925, center near 74% width. Left 40% quiet defocused habitat for website copy. Anatomically accurate, natural texture and lighting. No text, borders, watermark, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-17b97e88-7d60-418b-b11a-101b363c5911.png"
+    },
+    {
+      "number": 2,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Ciconia ciconia adult white stork, white head neck body, black flight feathers, long straight RED bill, very long RED legs, no black bill. Scene: Full adult stepping in ankle-deep wet meadow water, long red legs and toes visible beneath clear water, neck extended. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-a1fbea71-4a5e-4a06-ae41-e59a9cc4d1c3.png"
+    },
+    {
+      "number": 3,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Ciconia ciconia adult white stork, white head neck body, black flight feathers, long straight RED bill, very long RED legs, no black bill. Scene: Full adult lowering straight red bill toward grass while searching for insects in a meadow, entire legs visible. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-8d5ab0ee-aada-40a9-b0c1-36ee6f31cccc.png"
+    },
+    {
+      "number": 4,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Ciconia ciconia adult white stork, white head neck body, black flight feathers, long straight RED bill, very long RED legs, no black bill. Scene: One adult gliding across blue sky in lateral view, neck extended straight forward, red legs stretched backward, black flight feathers, both entire wing tips in frame. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-8037f708-4200-4092-a15c-c3f0f1a03318.png"
+    },
+    {
+      "number": 5,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Ciconia ciconia adult white stork, white head neck body, black flight feathers, long straight RED bill, very long RED legs, no black bill. Scene: Two adult white storks standing on a large stick nest atop an old roof in rural Europe, full birds visible, one tilts head back clattering bill. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-48bbd01d-1937-4a48-a632-af28243709b4.png"
+    },
+    {
+      "number": 6,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Ciconia ciconia adult white stork, white head neck body, black flight feathers, long straight RED bill, very long RED legs, no black bill. Scene: Adult white stork with two white downy chicks with dark immature bills in a large stick nest on old tree crown, gentle feeding visit without gore. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-54ef85e4-f8e5-4c9a-9646-b36acd68f6cc.png"
+    }
+  ]
+}

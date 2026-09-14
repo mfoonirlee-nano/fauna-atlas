@@ -583,5 +583,18 @@
       },
       "sha256": "ebb530521ed6c6d8dd24e16a2fae6a1b311101ea3ddad1489a40ec6302ea9fe3"
     }
+  },
+  "white-stork": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 785,
+        "top": 55,
+        "right": 1372,
+        "bottom": 910
+      },
+      "sha256": "e6a1962df38611e3f3507405687c56a711343550b51889611c49dd6d47888cef"
+    }
   }
 }

@@ -2190,5 +2190,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1400,
       "bottom": 885
     }
+  },
+  "white-stork": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 785,
+      "top": 55,
+      "right": 1372,
+      "bottom": 910
+    }
   }
 };
