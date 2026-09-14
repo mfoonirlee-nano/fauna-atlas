@@ -2270,5 +2270,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1434,
       "bottom": 984
     }
+  },
+  "largetooth-sawfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 705,
+      "top": 23,
+      "right": 1498,
+      "bottom": 905
+    }
   }
 };

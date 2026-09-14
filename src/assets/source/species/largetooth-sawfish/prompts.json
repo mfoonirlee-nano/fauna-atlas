@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas cover. Landscape 3:2 1536x1024 natural history photographic reconstruction. Subject: Pristis pristis largetooth sawfish, a ray with flattened broad head and broad pectoral fins, olive brown elongated body, long broad flat saw-like rostrum bearing about 18 evenly spaced teeth on EACH lateral edge, no barbels, two dorsal fins first beginning ahead of pelvic fins, distinct lower tail lobe. Viewed obliquely from above swimming over sandy estuary floor, body gently curved so FULL saw tip to tail fits the right half. Composition: whole animal large on RIGHT, full silhouette within x=660..1450 y=100..920, center at 70% source width, left 40% quiet blurred habitat for text. Real background clearance on all edges, all extremities intact. Soft natural light, realistic details and restrained colors. No text no watermark no border no collage."
+    },
+    {
+      "number": 2,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: Pristis pristis largetooth sawfish head and COMPLETE broad flat rostrum in detailed underwater top view, 18 broadly spaced similar-size teeth on each side of rostrum, no barbels, eyes on top of flattened broad head, sandy estuary, natural scientific photograph. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 3,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One complete juvenile Pristis pristis largetooth sawfish swimming over sand near submerged mangrove roots in shallow brackish water, broad saw bearing evenly spaced teeth on both edges, broad flattened head pectoral fins, two dorsal fins and tail intact. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 4,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Pristis pristis largetooth sawfish in freshwater tropical river, above-camera underside oblique view showing mouth and gill slits on underside behind saw, belly pale, rostral teeth at both sides, anatomically accurate ray not sawshark. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 5,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Pristis pristis largetooth sawfish approaching a small school of silvery fish, underwater side three-quarter view, clear complete flat toothed saw ahead, no graphic predation, broad pectoral fins, two dorsal fins and asymmetric tail, tropical shallow estuary. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 6,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Pristis pristis largetooth sawfish viewed from above resting on clean sandy bottom in shallow bay, full body including long broad saw and tail, first dorsal fin originates ahead of pelvic fins, lower tail lobe distinct, no barbels. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    }
+  ]
+}

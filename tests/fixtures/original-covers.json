@@ -687,5 +687,18 @@
       },
       "sha256": "69d9fd6960c9492e583c676e986d543c94f72f8757930cfac641a8084f8754a2"
     }
+  },
+  "largetooth-sawfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 705,
+        "top": 23,
+        "right": 1498,
+        "bottom": 905
+      },
+      "sha256": "470a43dbfb359945f37874c6e2a2007b17de8db96f5e35edf1df338d949dd298"
+    }
   }
 }
