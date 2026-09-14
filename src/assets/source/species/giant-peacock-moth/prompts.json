@@ -1,0 +1,32 @@
+[
+  {
+    "image": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural-history wildlife photograph. An orchard composition with EMPTY SOFT GREEN BACKGROUND filling the entire LEFT HALF. A tree trunk occupies the RIGHT HALF only. On that right-hand trunk rests ONE complete giant peacock moth Saturnia pyri, its wing span occupying about 48 percent of total canvas width, center at 73 percent width. All four wings spread, exactly four dark eyespots on gray brown wings, cream scalloped edging, featherlike antennae. Full insect silhouette confined to right half with clear space at all frame edges. Landscape 1536x1024 atlas cover, prominent detailed insect. Scientifically plausible anatomy, no words, labels, borders, watermark or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Saturnia pyri giant peacock moth resting flat on bark, dorsal macro view showing all four gray brown wings, exactly one dark concentric eyespot per wing, four eyespots total, cream wavy wing edges. Include antennae and whole wing outline. Natural light, realistic anatomy, no labels, no text, no borders or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural history observation photograph. Saturnia pyri mature caterpillar on pear twig eating green leaf. Thick apple green segmented body, rows of small turquoise blue tubercles bearing sparse black bristles, tan brown head, realistic six thoracic legs and abdominal prolegs. Side macro, natural orchard. Realistic anatomy, natural lighting, no text, no border, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation image. Single Saturnia pyri moth cocoon, brown pear-shaped dense coarse silk cocoon securely attached between rough tree bark and a small twig near the tree base. Macro natural history photograph in an old European orchard, no adult or caterpillar, not a butterfly exposed chrysalis. Natural lighting, realistic anatomy, no text, borders or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Macro front portrait of male Saturnia pyri moth on bark, furry head and thorax, two broad brown featherlike bipectinate antennae complete with clearance above, dark compound eyes on head sides, portions of gray brown patterned wings behind. No feeding proboscis. Natural lighting, realistic anatomy, no text, no borders, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural-history wildlife photograph. Adult giant peacock moth Saturnia pyri on orchard tree bark at night. Complete gray-brown wings spread naturally with four dark concentric eyespots, cream wing edges, antennae intact, dim blue nocturnal background and soft neutral natural-history photographic illumination on moth. Whole moth visible, no lamps in frame. Scientifically plausible anatomy, no words, labels, borders, watermark or collage.",
+    "tool": "built-in image_gen"
+  }
+]

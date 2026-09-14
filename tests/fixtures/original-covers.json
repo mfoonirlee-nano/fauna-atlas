@@ -739,5 +739,18 @@
       },
       "sha256": "60f4e516432e1aa57fc9e873a904bd40a58d3959502ea43d5b54b5cf449fa57c"
     }
+  },
+  "giant-peacock-moth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 169,
+        "right": 1522,
+        "bottom": 692
+      },
+      "sha256": "52077da3b7d127bf01a55b97ebcbd02139307e6c49f3c3170331d5abc017ab52"
+    }
   }
 }

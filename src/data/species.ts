@@ -73529,6 +73529,251 @@ export const species = [
   "publishedAt": "2026-09-14",
   "updatedAt": "2026-09-14"
 },
+{
+  "id": "giant-peacock-moth",
+  "slug": "giant-peacock-moth",
+  "names": {
+    "zh": "大孔雀蛾",
+    "en": "Giant Peacock Moth",
+    "aliases": [
+      "大夜孔雀蛾"
+    ]
+  },
+  "scientificName": "Saturnia pyri",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Lepidoptera",
+      "zhName": "鳞翅目"
+    },
+    "family": {
+      "scientificName": "Saturniidae",
+      "zhName": "天蚕蛾科"
+    },
+    "genus": {
+      "scientificName": "Saturnia",
+      "zhName": "孔雀蛾属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "依据来源所载全球等级；未单独核实评估日期，地方等级另见保护章节"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲",
+      "亚洲",
+      "非洲"
+    ],
+    "regions": [
+      "欧洲南部及邻近西亚、北非地区"
+    ],
+    "countries": [],
+    "range": "分布于欧洲南部及邻近西亚、北非地区；不同地区的种群状况有差异。"
+  },
+  "habitats": [
+    {
+      "name": "有阔叶树的林缘、果园与园地",
+      "realm": "terrestrial",
+      "description": "分布于欧洲南部及邻近西亚、北非地区；不同地区的种群状况有差异。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "幼虫取食梨树叶",
+      "苹果树叶",
+      "核桃树叶"
+    ],
+    "description": "幼虫吃多种阔叶树的叶片；成虫口器退化，依靠幼虫阶段积累的能量活动和繁殖。"
+  },
+  "tags": [
+    "大孔雀蛾",
+    "翅膀上的四枚眼状斑"
+  ],
+  "summary": "找找大孔雀蛾翅膀上像眼睛的圆形花纹。",
+  "description": "大孔雀蛾展开灰褐色翅膀时，前翅和后翅各有一对眼状斑。圆斑属于翅膀花纹，真正的眼睛长在头部。它的幼虫长大后呈绿色，身上有蓝色小突起。",
+  "storySections": [
+    {
+      "key": "eyespots",
+      "label": "生活与认识",
+      "title": "数一数翅膀上的圆斑",
+      "body": "两片前翅、两片后翅上各有一枚眼状斑。沿着翅膀找圆圈，就能看见四枚。"
+    },
+    {
+      "key": "larva",
+      "label": "生活与认识",
+      "title": "毛毛虫吃树叶",
+      "body": "成熟幼虫的绿色身体上有蓝色小突起，突起上长着细毛。它沿树枝爬行，取食叶片。"
+    },
+    {
+      "key": "cocoon",
+      "label": "生活与认识",
+      "title": "在茧里变成蛹",
+      "body": "幼虫吐丝结成褐色茧，在里面化蛹。经过蛹期，成虫才会离开茧。"
+    },
+    {
+      "key": "antennae",
+      "label": "生活与认识",
+      "title": "头上有一对触角",
+      "body": "雄蛾的触角像小羽毛，能感知雌蛾释放的气味信号。图中头部的触角和翅膀上的圆斑可以分别找出来。"
+    },
+    {
+      "key": "night",
+      "label": "生活与认识",
+      "title": "夜里活动的大蛾",
+      "body": "成虫在夜间活动，白天常停在树干等处。它不靠吃树叶生活，吃叶子的是幼虫。"
+    },
+    {
+      "key": "conservation",
+      "label": "生活与认识",
+      "title": "留下树木和暗一些的夜晚",
+      "body": "EUNIS 记录尚未接受 IUCN 评估，本档案记为未评估。欧洲部分地区已有下降与地方保护记录；保留寄主树、减少农药和夜间灯光干扰有助于保护它。"
+    }
+  ],
+  "keyFacts": [
+    "两片前翅、两片后翅上各有一枚眼状斑。沿着翅膀找圆圈，就能看见四枚。",
+    "成熟幼虫的绿色身体上有蓝色小突起，突起上长着细毛。它沿树枝爬行，取食叶片。",
+    "幼虫吐丝结成褐色茧，在里面化蛹。经过蛹期，成虫才会离开茧。",
+    "雄蛾的触角像小羽毛，能感知雌蛾释放的气味信号。图中头部的触角和翅膀上的圆斑可以分别找出来。",
+    "成虫在夜间活动，白天常停在树干等处。它不靠吃树叶生活，吃叶子的是幼虫。"
+  ],
+  "threats": [
+    "寄主树减少",
+    "农药使用",
+    "人工光干扰"
+  ],
+  "conservationActions": [
+    "保留寄主树与结茧空间",
+    "减少不必要的夜间照明"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "翅膀上的四枚眼状斑"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "有阔叶树的林缘、果园与园地"
+    }
+  ],
+  "media": {
+    "image": "./images/species/giant-peacock-moth/01-cover.webp",
+    "alt": "大孔雀蛾的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/giant-peacock-moth/02-observation.webp",
+        "title": "四枚眼状斑",
+        "alt": "大孔雀蛾展开四片带眼状斑的翅膀",
+        "caption": "AI 生成科学情景重建。大孔雀蛾展开四片带眼状斑的翅膀。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-peacock-moth/03-observation.webp",
+        "title": "吃梨树叶的幼虫",
+        "alt": "绿色大孔雀蛾幼虫在树枝上吃叶子，体表有蓝色突起",
+        "caption": "AI 生成科学情景重建。绿色大孔雀蛾幼虫在树枝上吃叶子，体表有蓝色突起。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-peacock-moth/04-observation.webp",
+        "title": "树枝旁的褐色茧",
+        "alt": "大孔雀蛾褐色丝茧附着在树枝与树皮附近",
+        "caption": "AI 生成科学情景重建。大孔雀蛾褐色丝茧附着在树枝与树皮附近。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-peacock-moth/05-observation.webp",
+        "title": "雄蛾的羽毛状触角",
+        "alt": "雄性大孔雀蛾头部一对羽毛状触角",
+        "caption": "AI 生成科学情景重建。雄性大孔雀蛾头部一对羽毛状触角。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-peacock-moth/06-observation.webp",
+        "title": "夜里的大孔雀蛾",
+        "alt": "夜间的大孔雀蛾停在树干上",
+        "caption": "AI 生成科学情景重建。夜间的大孔雀蛾停在树干上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "European Environment Agency EUNIS：Saturnia pyri",
+      "url": "https://eunis.eea.europa.eu/species/306787",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-14"
+    },
+    {
+      "title": "Associazione Lepidotterologica Italiana：Saturnia pyri 生命周期",
+      "url": "https://www.lepidoptera.life/2025/08/01/rubrica-metamorfosi-62-saturnia-pyri/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-14"
+    },
+    {
+      "title": "Naturschutzbund Steiermark：地方保护与威胁",
+      "url": "https://www.naturschutzbundsteiermark.at/wiener-nachtpfauenauge-saturnia-pyri/articles/wiener-nachtpfauenauge-saturnia-pyri.html",
+      "kind": "conservation",
+      "accessedAt": "2026-09-14"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-14",
+  "updatedAt": "2026-09-14"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

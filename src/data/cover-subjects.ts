@@ -2310,5 +2310,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1495,
       "bottom": 949
     }
+  },
+  "giant-peacock-moth": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 169,
+      "right": 1522,
+      "bottom": 692
+    }
   }
 };
