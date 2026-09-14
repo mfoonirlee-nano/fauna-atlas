@@ -1,25 +1,17 @@
-## Agent skills
+# Project guidance
 
-### Issue tracker
+## Task context
 
-Issues and specs are tracked in GitHub Issues for `mfoonirlee-nano/fauna-atlas`. See `docs/agents/issue-tracker.md`.
+- **Issues and specs:** When working from or managing a GitHub issue in `mfoonirlee-nano/fauna-atlas`, read [issue-tracker.md](docs/agents/issue-tracker.md). For triage or label changes, use the label mapping in [triage-labels.md](docs/agents/triage-labels.md).
+- **Domain and architecture:** For domain terminology, behavior, or architectural changes, read the root [CONTEXT.md](CONTEXT.md) and relevant ADRs under `docs/adr/`. When maintaining these documents, follow the single-context conventions in [domain.md](docs/agents/domain.md).
+- **Visual assets:** Before changing a species image set, regenerating a cover, or adjusting carousel image framing, read the [species image and cover rules](src/assets/source/README.md#species-image-set-rule).
 
-### Triage labels
+## Verification and completion
 
-Use the default labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, and `wontfix`. See `docs/agents/triage-labels.md`.
+Choose tests, type checks, builds, or static asset inspection to match the change; use `package.json` for available commands. Do not open or launch GUI or headless browsers for verification.
 
-### Domain docs
-
-This is a single-context repo: use the root `CONTEXT.md` and `docs/adr/`. See `docs/agents/domain.md`.
-
-### Visual assets
-
-When changing a species image set, regenerating a cover, or adjusting carousel image framing, read the [species image and cover rules](src/assets/source/README.md#species-image-set-rule) before editing.
-
-### Verification
-
-Use tests, type checks, builds, and static asset inspection for verification. Do not open or launch GUI or headless browsers for verification.
+Complete the requested change and relevant verification, fixing failures caused by the change before handing it back. Report what changed, what you checked, and any unresolved blocker.
 
 ## Response style
 
-Apply the stop-slop skill when composing any reply to the user: read `.agents/skills/stop-slop/SKILL.md` first, then follow its rules in the reply itself. Cut filler phrases and throat-clearing openers, use active voice, avoid formulaic structures, be specific, vary sentence rhythm. This applies to conversational answers, explanations, and summaries, not just to prose documents.
+Read the [stop-slop skill](.agents/skills/stop-slop/SKILL.md) before your first reply and apply it to all user-facing replies, including progress updates and summaries.
