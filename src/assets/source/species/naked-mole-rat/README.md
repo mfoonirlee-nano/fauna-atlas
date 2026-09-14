@@ -181,7 +181,7 @@ Every compressed PNG and decoded WebP received an original-detail visual review.
 
 | Frame | Source PNG SHA-256 | Runtime WebP SHA-256 |
 | --- | --- | --- |
-| 01 | `1554e1e4d88ef726940799ec30a435ddecb33aae5647d6ef0f971e5bed649d43` | `b89ef316d41fdf6544491785e1f1a0a3d8cabfb2cc1f44b39ccee3183e6cec37` |
+| 01 | `1f5ddac50c5cb74bc23c8380fff9ee508aee8ede480817cf91f2d47f3c0d9f01` | `7febffde6cd3bbaf08c3378ff6daf0360abd77ae0159fcbf72094ba938c170e9` |
 | 02 | `035b5c725c827c697c24904d5821d3fcf9321e3a9b19a73b2966cd3303b23f53` | `bc104cd5ed2c89ac128a70aaea1ae2795a34888ede0f3554deda6a978f106d1f` |
 | 03 | `a9dddb2e5b51f2de7426cf2f275bab8dd86c25863768a40e055103b0ae9a17b8` | `37d2cc01b6fde7a020069d458da80b285cbbf2ea00ad07f875f5c84e7d5c443e` |
 | 04 | `8fb5572cc770a3cc1012c2ce042ca14cd3dd8517927018fa746e908107213c0f` | `dbaa9d5779241140d9b7b7e654759fa8eaef3c0bb70c1532b1c29d39f98db48e` |
