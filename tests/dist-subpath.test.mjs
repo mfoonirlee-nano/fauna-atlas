@@ -145,3 +145,35 @@ test('the initial JS stays small and full profiles load independently without da
     await response.body?.cancel();
   }
 });
+
+test('the compact catalogue preserves every browsing field and taxonomy rank', async () => {
+  const { createServer: createViteServer } = await import('vite');
+  const server = await createViteServer({
+    server: { middlewareMode: true, watch: null, hmr: false },
+    appType: 'custom',
+  });
+  try {
+    const { species: summaries } = await server.ssrLoadModule('virtual:species-catalogue');
+    const sourceCode = await readFile(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url), 'utf8');
+    const { species } = await import(`data:text/javascript;base64,${Buffer.from(sourceCode).toString('base64')}`);
+    assert.equal(summaries.length, species.length);
+    for (const [index, summary] of summaries.entries()) {
+      const original = species[index];
+      for (const key of ['id', 'slug', 'names', 'scientificName', 'taxonomy', 'tags', 'summary']) {
+        assert.deepEqual(summary[key], original[key], `${original.slug}: ${key}`);
+      }
+      assert.deepEqual(summary.conservation, { code: original.conservation.code });
+      assert.deepEqual(summary.distribution, JSON.parse(JSON.stringify({
+        regions: original.distribution.regions,
+        realms: original.distribution.realms,
+        center: original.distribution.center,
+      })));
+      assert.deepEqual(summary.habitats, original.habitats.map(({ name }) => ({ name })));
+      assert.deepEqual(summary.media, JSON.parse(JSON.stringify({
+        image: original.media.image, alt: original.media.alt, focalPoint: original.media.focalPoint,
+      })));
+    }
+  } finally {
+    await server.close();
+  }
+});

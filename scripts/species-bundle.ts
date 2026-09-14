@@ -6,6 +6,7 @@ const species: readonly Species[] = profiles;
 
 const catalogueId = 'virtual:species-catalogue';
 const profilePrefix = 'virtual:species-profile/';
+const taxonomyRanks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus'] as const;
 
 /** Keep editorial data as the single source; ship only one full profile per request. */
 export function speciesBundle(): Plugin {
@@ -34,14 +35,16 @@ export function speciesBundle(): Plugin {
           Object.values(taxonomy).map((taxon) => [JSON.stringify(taxon), taxon] as const),
         )).values()];
         const indexes = new Map(taxa.map((taxon, index) => [JSON.stringify(taxon), index]));
-        const catalogue = summaries.map((item) => ({ ...item, taxonomy: Object.fromEntries(
-          Object.entries(item.taxonomy).map(([rank, taxon]) => [rank, indexes.get(JSON.stringify(taxon))]),
-        ) }));
+        // Ship the six rank names once; retain their order when restoring each lineage.
+        const catalogue = summaries.map((item) => ({ ...item, taxonomy:
+          taxonomyRanks.map((rank) => indexes.get(JSON.stringify(item.taxonomy[rank]))),
+        }));
         const loaders = species.map(({ slug }) =>
           `${JSON.stringify(slug)}:()=>import(${JSON.stringify(profilePrefix + slug)})`,
         ).join(',');
         return `const taxa=${JSON.stringify(taxa)};
-          export const species=${JSON.stringify(catalogue)}.map(item=>({...item,taxonomy:Object.fromEntries(Object.entries(item.taxonomy).map(([rank,index])=>[rank,taxa[index]]))}));
+          const ranks=${JSON.stringify(taxonomyRanks)};
+          export const species=${JSON.stringify(catalogue)}.map(item=>({...item,taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[item.taxonomy[index]]]))}));
           const loaders={${loaders}};
           export async function loadSpecies(slug){
             if(!Object.hasOwn(loaders,slug)) throw new Error('Unknown species');
