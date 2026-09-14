@@ -75473,6 +75473,250 @@ export const species = [
   "publishedAt": "2026-09-14",
   "updatedAt": "2026-09-14"
 },
+{
+  "id": "arctic-fox",
+  "slug": "arctic-fox",
+  "names": {
+    "zh": "北极狐",
+    "en": "Arctic Fox"
+  },
+  "scientificName": "Vulpes lagopus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Canidae",
+      "zhName": "犬科"
+    },
+    "genus": {
+      "scientificName": "Vulpes",
+      "zhName": "狐属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "stable",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲",
+      "欧洲",
+      "北美洲"
+    ],
+    "regions": [
+      "北极苔原与沿海地区"
+    ],
+    "countries": [],
+    "range": "分布于欧亚大陆、北美洲及格陵兰、冰岛等北极和亚北极地区。"
+  },
+  "habitats": [
+    {
+      "name": "苔原、雪地与寒冷海岸",
+      "realm": "terrestrial",
+      "description": "分布于欧亚大陆、北美洲及格陵兰、冰岛等北极和亚北极地区。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "旅鼠等小型哺乳动物",
+      "鸟和鸟卵",
+      "腐肉",
+      "浆果"
+    ],
+    "description": "会捕食小动物，也吃腐肉和浆果，食物随地区与季节变化。"
+  },
+  "tags": [
+    "北极狐",
+    "冬夏不同的毛色"
+  ],
+  "summary": "看看北极狐冬天和夏天的毛色有什么不同。",
+  "description": "北极狐耳朵短圆，尾巴蓬松。白色型冬毛多为白色，夏季背部转为灰褐色；另有常年较深色的蓝色型。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "短圆耳朵藏在厚毛里",
+      "body": "找找头顶的小耳朵，再看看脸周围的厚毛。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "夏天换上灰褐色毛",
+      "body": "图集展示白色型的夏毛，与封面的冬毛比较颜色；不是同一个体的连续记录。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "把尾巴绕到身旁",
+      "body": "休息时，北极狐能把身体蜷起，让蓬松尾巴围在身旁。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "沿着海岸寻找食物",
+      "body": "北极狐也会在海岸活动，取食机会随当地环境变化。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "洞口的小狐狸",
+      "body": "北极狐在洞穴中育幼。图中幼狐站在洞口，洞道延伸到地下。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为无危，部分地区种群仍面临压力。气候变化及与赤狐的竞争需要关注；保护苔原与繁殖洞穴时要考虑当地情况。"
+    }
+  ],
+  "keyFacts": [
+    "找找头顶的小耳朵，再看看脸周围的厚毛。",
+    "图集展示白色型的夏毛，与封面的冬毛比较颜色；不是同一个体的连续记录。",
+    "休息时，北极狐能把身体蜷起，让蓬松尾巴围在身旁。",
+    "北极狐也会在海岸活动，取食机会随当地环境变化。",
+    "北极狐在洞穴中育幼。图中幼狐站在洞口，洞道延伸到地下。"
+  ],
+  "threats": [
+    "气候变化",
+    "与赤狐竞争",
+    "部分地区的捕猎压力"
+  ],
+  "conservationActions": [
+    "保护苔原生境",
+    "减少繁殖洞穴干扰",
+    "监测地方种群"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "冬夏不同的毛色"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "苔原、雪地与寒冷海岸"
+    }
+  ],
+  "media": {
+    "image": "./images/species/arctic-fox/01-cover.webp",
+    "alt": "北极狐的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/arctic-fox/02-observation.webp",
+        "title": "冬毛里的短圆耳朵",
+        "alt": "北极狐：冬毛里的短圆耳朵",
+        "caption": "AI 生成科学情景重建。找找头顶的小耳朵，再看看脸周围的厚毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/arctic-fox/03-observation.webp",
+        "title": "白色型的灰褐色夏毛",
+        "alt": "北极狐：白色型的灰褐色夏毛",
+        "caption": "AI 生成科学情景重建。图集展示白色型的夏毛，与封面的冬毛比较颜色；不是同一个体的连续记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/arctic-fox/04-observation.webp",
+        "title": "蜷起身体与尾巴",
+        "alt": "北极狐：蜷起身体与尾巴",
+        "caption": "AI 生成科学情景重建。休息时，北极狐能把身体蜷起，让蓬松尾巴围在身旁。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/arctic-fox/05-observation.webp",
+        "title": "海岸上的北极狐",
+        "alt": "北极狐：海岸上的北极狐",
+        "caption": "AI 生成科学情景重建。北极狐也会在海岸活动，取食机会随当地环境变化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/arctic-fox/06-observation.webp",
+        "title": "洞口的幼狐",
+        "alt": "北极狐：洞口的幼狐",
+        "caption": "AI 生成科学情景重建。北极狐在洞穴中育幼。图中幼狐站在洞口，洞道延伸到地下。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Animal Diversity Web：北极狐分类",
+      "url": "https://animaldiversity.org/accounts/Vulpes_lagopus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-14"
+    },
+    {
+      "title": "挪威极地研究所：北极狐毛色与生境",
+      "url": "https://npolar.no/en/species/arctic-fox/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-14"
+    },
+    {
+      "title": "Animal Diversity Web：北极狐全球等级",
+      "url": "https://animaldiversity.org/accounts/Vulpes_lagopus/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-14"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-14",
+  "updatedAt": "2026-09-14"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

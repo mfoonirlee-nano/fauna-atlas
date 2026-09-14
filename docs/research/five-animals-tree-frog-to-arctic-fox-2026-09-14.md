@@ -36,3 +36,12 @@
 - [Reptile Database：绿树蟒分类与物种界定](https://reptile-database.reptarium.cz/Morelia/viridis)
 - [Animal Diversity Web：绿树蟒行为](https://animaldiversity.org/accounts/Morelia_viridis/)
 - [CITES：绿树蟒贸易与保护案例](https://cites.org/sites/default/files/vc-files/files/assessment_impact_pet_trade_case_study_Morelia_viridis.pdf)
+
+## 北极狐 · Vulpes lagopus
+
+采用 Vulpes lagopus，犬科、狐属。冬夏比较专指白色型；蓝色型常年较深。图集中季节对照不是同一个体连续拍摄。全球 LC 与地方压力分开说明，未将地方等级写入全球字段。
+
+- [Animal Diversity Web：北极狐分类](https://animaldiversity.org/accounts/Vulpes_lagopus/)
+- [Animal Diversity Web：北极狐自然史与毛色](https://animaldiversity.org/accounts/Vulpes_lagopus/)
+- [Animal Diversity Web：北极狐全球等级](https://animaldiversity.org/accounts/Vulpes_lagopus/)
+- [挪威极地研究所：白色型与蓝色型](https://npolar.no/en/species/arctic-fox/)（检索摘要可读，正文抓取超时；毛色与 ADW 交叉核对。）

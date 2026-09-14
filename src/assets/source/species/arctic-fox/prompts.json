@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-14",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Species cover. Arctic fox Vulpes lagopus, compact fox with short rounded ears and fluffy tail. White winter adult standing in three-quarter view on snow with entire feet ears and bushy tail visible. Maximize full subject in right 55% of image, center at x=74%. Left 40% quiet defocused habitat only. Real background margin around all outer body features. Never crop animal."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Arctic fox Vulpes lagopus, compact fox with short rounded ears and fluffy tail. Observation gallery: white morph adult in winter, close view of short round ears and thick white fur. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Arctic fox Vulpes lagopus, compact fox with short rounded ears and fluffy tail. Observation gallery: same species white morph in summer with brown grey back and pale underside, full body on tundra. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Arctic fox Vulpes lagopus, compact fox with short rounded ears and fluffy tail. Observation gallery: white winter adult curled asleep with tail wrapped around body on snow. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Arctic fox Vulpes lagopus, compact fox with short rounded ears and fluffy tail. Observation gallery: summer-coated adult walking on rocky coastal tundra near the sea. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Arctic fox Vulpes lagopus, compact fox with short rounded ears and fluffy tail. Observation gallery: summer-coated cub standing at earthen tundra den entrance. Subject clear and large with comfortable margins."
+    }
+  ],
+  "coverEdits": [
+    {
+      "prompt": "Edit this Arctic fox Vulpes lagopus winter cover. Preserve species, white winter coat, short round ears, snowy landscape and photographic style. Keep 1536x1024. Move complete fox slightly right and reduce its width enough that ALL fur silhouette including tail is between x=660 and x=1470. Entire animal including all feet, ears and tail visible with actual snow or sky margins; left 40% of canvas only snowy environment, no fur. Maximize animal size within those boundaries. No text, labels, border, extra legs, or additional animals."
+    }
+  ]
+}

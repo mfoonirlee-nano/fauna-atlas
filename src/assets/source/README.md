@@ -394,3 +394,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [American Bullfrog image set](./species/american-bullfrog/README.md)
 - [Atlantic Salmon image set](./species/atlantic-salmon/README.md)
 - [Green Tree Python image set](./species/green-tree-python/README.md)
+- [Arctic Fox image set](./species/arctic-fox/README.md)

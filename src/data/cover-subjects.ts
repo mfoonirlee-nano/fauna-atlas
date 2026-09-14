@@ -2390,5 +2390,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1458,
       "bottom": 775
     }
+  },
+  "arctic-fox": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 105,
+      "right": 1470,
+      "bottom": 912
+    }
   }
 };

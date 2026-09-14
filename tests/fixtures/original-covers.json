@@ -843,5 +843,18 @@
       },
       "sha256": "2cc460a3802ed2c251cfea9e15ee63decaf911886792f8d5f6d5a01c0a44c712"
     }
+  },
+  "arctic-fox": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 105,
+        "right": 1470,
+        "bottom": 912
+      },
+      "sha256": "64bf13ed9ee42b9372db57f47982bf4078a8d787d060f6a5b8ae6616fc3f40da"
+    }
   }
 }
