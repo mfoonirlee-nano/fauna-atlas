@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-14",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: mute swan Cygnus olor, white plumage, long curved neck, orange bill with black base and black knob, black legs and webbed feet. Habitat: temperate European freshwater lake and reed-lined shore. COVER: one adult standing on a lake shore, long neck curved gently, complete bill body wings black webbed feet visible. Prominent complete primary animal entirely on RIGHT, silhouette within x=650..1460 y=110..925. Center beyond 60% width. Left 40% quiet natural background for page text. Real background margins beyond every visible outer feature. Maximize subject size within these bounds. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: mute swan Cygnus olor, white plumage, long curved neck, orange bill with black base and black knob, black legs and webbed feet. Habitat: temperate European freshwater lake and reed-lined shore. Observation scene: one mute swan swimming in profile, long neck curved gently into S shape, orange and black bill clear, complete visible silhouette. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: mute swan Cygnus olor, white plumage, long curved neck, orange bill with black base and black knob, black legs and webbed feet. Habitat: temperate European freshwater lake and reed-lined shore. Observation scene: one mute swan head and neck close portrait, orange bill with black basal knob, white feathers, dark eye. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: mute swan Cygnus olor, white plumage, long curved neck, orange bill with black base and black knob, black legs and webbed feet. Habitat: temperate European freshwater lake and reed-lined shore. Observation scene: one mute swan bending its long neck to feed on submerged water plants in clear shallow water, head just below surface, no anatomical distortion. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: mute swan Cygnus olor, white plumage, long curved neck, orange bill with black base and black knob, black legs and webbed feet. Habitat: temperate European freshwater lake and reed-lined shore. Observation scene: one mute swan standing at shallow shoreline with one visible black webbed foot on wet sand, body and neck fully visible. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: mute swan Cygnus olor, white plumage, long curved neck, orange bill with black base and black knob, black legs and webbed feet. Habitat: temperate European freshwater lake and reed-lined shore. Observation scene: white adult mute swan swimming with three small gray cygnets, gentle natural lake scene. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    }
+  ]
+}

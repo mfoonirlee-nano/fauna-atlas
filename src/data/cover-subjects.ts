@@ -2130,5 +2130,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1420,
       "bottom": 925
     }
+  },
+  "mute-swan": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 770,
+      "top": 40,
+      "right": 1500,
+      "bottom": 970
+    }
   }
 };

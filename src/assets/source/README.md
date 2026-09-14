@@ -363,3 +363,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Chimpanzee image set](./species/chimpanzee/README.md)
 - [Bornean Orangutan image set](./species/bornean-orangutan/README.md)
 - [Cockatiel image set](./species/cockatiel/README.md)
+- [Mute Swan image set](./species/mute-swan/README.md)

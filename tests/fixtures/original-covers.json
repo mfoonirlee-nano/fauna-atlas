@@ -505,5 +505,18 @@
       },
       "sha256": "4ac328f11ebf2d23513642c31098f97de68e9ccce8a665155f3a4d21c5327894"
     }
+  },
+  "mute-swan": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 770,
+        "top": 40,
+        "right": 1500,
+        "bottom": 970
+      },
+      "sha256": "fbcc2cc4605a291175ef1114b6efde2bd4aed4ef4903ad5e390969ab0457976b"
+    }
   }
 }
