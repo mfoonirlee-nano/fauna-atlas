@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-14",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Species cover. Green tree python Morelia viridis, green adult python with pale small dorsal marks, triangular head, heat pits along lips, nonprehensile limbs absent. Entire snake coiled over a branch, head on coils and complete tail tip visible, rainforest. Maximize full subject in right 55% of image, center at x=74%. Left 40% quiet defocused habitat only. Real background margin around all outer body features. Never crop animal."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Green tree python Morelia viridis, green adult python with pale small dorsal marks, triangular head, heat pits along lips, nonprehensile limbs absent. Observation gallery: close view of triangular head resting on coils showing lip heat pits. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Green tree python Morelia viridis, green adult python with pale small dorsal marks, triangular head, heat pits along lips, nonprehensile limbs absent. Observation gallery: whole adult draped in symmetrical loops over horizontal rainforest branch, tail visible. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Green tree python Morelia viridis, green adult python with pale small dorsal marks, triangular head, heat pits along lips, nonprehensile limbs absent. Observation gallery: yellow juvenile green tree python with sparse brown markings on a twig, no adult in scene. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Green tree python Morelia viridis, green adult python with pale small dorsal marks, triangular head, heat pits along lips, nonprehensile limbs absent. Observation gallery: adult moving between neighboring rainforest branches, entire body and gripping tail visible. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Green tree python Morelia viridis, green adult python with pale small dorsal marks, triangular head, heat pits along lips, nonprehensile limbs absent. Observation gallery: adult coiled on branch at night with head facing downward in ambush posture, no prey. Subject clear and large with comfortable margins."
+    }
+  ],
+  "coverEdits": [
+    {
+      "prompt": "Edit this green tree python Morelia viridis cover photograph, preserve the species, green scales, head on coils, visible tail tip and rainforest style. Keep 1536x1024. Move the entire snake silhouette 45 pixels right and reduce width very slightly if needed: target all snake outer boundaries between x=650 and x=1470. Left 40% must show rainforest background only. Keep full animal including tail tip and breathing space to all image edges. Keep natural continuous coils, do not add loops or a second snake. No text, labels or border."
+    }
+  ]
+}

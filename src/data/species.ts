@@ -75232,6 +75232,247 @@ export const species = [
   "publishedAt": "2026-09-14",
   "updatedAt": "2026-09-14"
 },
+{
+  "id": "green-tree-python",
+  "slug": "green-tree-python",
+  "names": {
+    "zh": "绿树蟒",
+    "en": "Green Tree Python"
+  },
+  "scientificName": "Morelia viridis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Squamata",
+      "zhName": "有鳞目"
+    },
+    "family": {
+      "scientificName": "Pythonidae",
+      "zhName": "蟒科"
+    },
+    "genus": {
+      "scientificName": "Morelia",
+      "zhName": "树蟒属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "大洋洲",
+      "亚洲"
+    ],
+    "regions": [
+      "新几内亚南部及邻近岛屿",
+      "澳大利亚约克角半岛"
+    ],
+    "countries": [],
+    "range": "采用区分 Morelia azurea 后的分类口径，主要包括新几内亚南部、阿鲁群岛及澳大利亚约克角等地；不把北部近似种全部并入。"
+  },
+  "habitats": [
+    {
+      "name": "热带雨林的树枝间",
+      "realm": "terrestrial",
+      "description": "采用区分 Morelia azurea 后的分类口径，主要包括新几内亚南部、阿鲁群岛及澳大利亚约克角等地；不把北部近似种全部并入。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "小型哺乳动物",
+      "蜥蜴",
+      "鸟类"
+    ],
+    "description": "它伏击小动物，幼体和成体的食物大小不同。"
+  },
+  "tags": [
+    "绿树蟒",
+    "盘在树枝上的身体"
+  ],
+  "summary": "看看绿树蟒怎样盘在树枝上。",
+  "description": "绿树蟒常把身体盘成垂在枝条两侧的线圈，头放在身体上。成体多呈绿色，幼体呈黄色。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "头放在线圈上",
+      "body": "休息时，它可以把头搁在盘起的身体上。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "身体绕过树枝",
+      "body": "沿着一圈圈身体找找枝条的位置，看看蛇怎样支撑自己。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "小时候是黄色",
+      "body": "本档案采用的绿树蟒物种口径中，幼体为黄色，长大后逐渐转绿。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "尾巴也能抓握",
+      "body": "它用可抓握的尾巴辅助攀爬，身体能从一根枝条伸向另一根。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "树枝上的等待",
+      "body": "成体常在夜间伏击，身体后部固定在枝上，前部准备伸出。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "所核验的保护资料列为全球无危。部分资料沿用拆分前的广义口径；本档案不据此推断各地方种群数量。保护雨林并减少非法野外采集。"
+    }
+  ],
+  "keyFacts": [
+    "休息时，它可以把头搁在盘起的身体上。",
+    "沿着一圈圈身体找找枝条的位置，看看蛇怎样支撑自己。",
+    "本档案采用的绿树蟒物种口径中，幼体为黄色，长大后逐渐转绿。",
+    "它用可抓握的尾巴辅助攀爬，身体能从一根枝条伸向另一根。",
+    "成体常在夜间伏击，身体后部固定在枝上，前部准备伸出。"
+  ],
+  "threats": [
+    "雨林生境丧失",
+    "野外采集与非法贸易"
+  ],
+  "conservationActions": [
+    "保护雨林",
+    "减少非法野外采集"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "盘在树枝上的身体"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带雨林的树枝间"
+    }
+  ],
+  "media": {
+    "image": "./images/species/green-tree-python/01-cover.webp",
+    "alt": "绿树蟒的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/green-tree-python/02-observation.webp",
+        "title": "搁在身体上的头",
+        "alt": "绿树蟒：搁在身体上的头",
+        "caption": "AI 生成科学情景重建。休息时，它可以把头搁在盘起的身体上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/green-tree-python/03-observation.webp",
+        "title": "树枝两侧的线圈",
+        "alt": "绿树蟒：树枝两侧的线圈",
+        "caption": "AI 生成科学情景重建。沿着一圈圈身体找找枝条的位置，看看蛇怎样支撑自己。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/green-tree-python/04-observation.webp",
+        "title": "黄色的幼蟒",
+        "alt": "绿树蟒：黄色的幼蟒",
+        "caption": "AI 生成科学情景重建。本档案采用的绿树蟒物种口径中，幼体为黄色，长大后逐渐转绿。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/green-tree-python/05-observation.webp",
+        "title": "跨过枝条的身体",
+        "alt": "绿树蟒：跨过枝条的身体",
+        "caption": "AI 生成科学情景重建。它用可抓握的尾巴辅助攀爬，身体能从一根枝条伸向另一根。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/green-tree-python/06-observation.webp",
+        "title": "夜间的伏击姿势",
+        "alt": "绿树蟒：夜间的伏击姿势",
+        "caption": "AI 生成科学情景重建。成体常在夜间伏击，身体后部固定在枝上，前部准备伸出。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Reptile Database：绿树蟒分类与物种界定",
+      "url": "https://reptile-database.reptarium.cz/Morelia/viridis",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-14"
+    },
+    {
+      "title": "Animal Diversity Web：绿树蟒行为",
+      "url": "https://animaldiversity.org/accounts/Morelia_viridis/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-14"
+    },
+    {
+      "title": "CITES：绿树蟒贸易与保护案例",
+      "url": "https://cites.org/sites/default/files/vc-files/files/assessment_impact_pet_trade_case_study_Morelia_viridis.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-14"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-14",
+  "updatedAt": "2026-09-14"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

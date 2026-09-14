@@ -2380,5 +2380,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1502,
       "bottom": 585
     }
+  },
+  "green-tree-python": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 106,
+      "right": 1458,
+      "bottom": 775
+    }
   }
 };

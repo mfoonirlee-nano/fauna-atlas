@@ -28,3 +28,11 @@
 - [NOAA：大西洋鲑自然史与地区保护](https://www.fisheries.noaa.gov/species/atlantic-salmon)
 - [NOAA：Salmo salar](https://www.fisheries.noaa.gov/species/atlantic-salmon)
 - [IUCN：2023 年全球近危调整](https://iucn.org/press-release/202312/freshwater-fish-highlight-escalating-climate-impacts-species-iucn-red-list)
+
+## 绿树蟒 · Morelia viridis
+
+采用 Reptile Database 的 Pythonidae、Morelia 及与 M. azurea 区分后的 M. viridis。旧 ADW 页面将科写作 Boidae，且自然史描述使用拆分前的广义范围，未照搬其分类、全新几内亚分布或红色幼体。幼体图使用黄色。CITES 案例列 LC，但涉及旧评估口径，因此档案保留范围说明，不推断拆分后地方种群数量。
+
+- [Reptile Database：绿树蟒分类与物种界定](https://reptile-database.reptarium.cz/Morelia/viridis)
+- [Animal Diversity Web：绿树蟒行为](https://animaldiversity.org/accounts/Morelia_viridis/)
+- [CITES：绿树蟒贸易与保护案例](https://cites.org/sites/default/files/vc-files/files/assessment_impact_pet_trade_case_study_Morelia_viridis.pdf)

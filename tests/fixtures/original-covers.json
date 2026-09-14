@@ -830,5 +830,18 @@
       },
       "sha256": "bbd43b1e507eb706d93d29a2f4378497015eb339fcb55a990942d2e60ef38370"
     }
+  },
+  "green-tree-python": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 106,
+        "right": 1458,
+        "bottom": 775
+      },
+      "sha256": "2cc460a3802ed2c251cfea9e15ee63decaf911886792f8d5f6d5a01c0a44c712"
+    }
   }
 }
