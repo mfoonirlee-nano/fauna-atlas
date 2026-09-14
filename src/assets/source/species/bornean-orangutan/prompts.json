@@ -1,0 +1,37 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-14",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas COVER. One 1536x1024 landscape realistic wildlife scene: single adult FEMALE Bornean orangutan Pongo pygmaeus with shaggy red-brown hair and long arms, sitting securely on a low diagonal branch in Borneo rainforest. BOTH arms lowered, hands resting on the branch near her hips and feet. No arm or hand reaching overhead. Entire animal including every visible finger, toe and hair outline fits inside rectangle x=660..1430 y=150..880, with at least 140px real background above its highest feature and 140px below its lowest feature. Main subject large and on right, left 40 percent quiet blurred green forest. Complete head and all visible hands and feet. Natural anatomy, no tail, no cheek flanges, no extra fingers, no text, no border, no collage, no watermark."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Bornean orangutan Pongo pygmaeus, shaggy reddish brown hair, very long arms, dark bare face, no tail. Habitat: Borneo lowland rainforest. Observation scene: female orangutan gripping a thick overhead branch with one hand, long arm clearly visible, torso and face in view. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Bornean orangutan Pongo pygmaeus, shaggy reddish brown hair, very long arms, dark bare face, no tail. Habitat: Borneo lowland rainforest. Observation scene: one adult flanged male Bornean orangutan head and upper torso, broad cheek pads, reddish hair, dark face. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Bornean orangutan Pongo pygmaeus, shaggy reddish brown hair, very long arms, dark bare face, no tail. Habitat: Borneo lowland rainforest. Observation scene: female orangutan seated securely in a tree eating a wild fig, hands and fruit visible. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Bornean orangutan Pongo pygmaeus, shaggy reddish brown hair, very long arms, dark bare face, no tail. Habitat: Borneo lowland rainforest. Observation scene: female orangutan arranging leafy branches into a resting nest high in a tree, plausible limbs and gripping hands. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Bornean orangutan Pongo pygmaeus, shaggy reddish brown hair, very long arms, dark bare face, no tail. Habitat: Borneo lowland rainforest. Observation scene: female orangutan sitting on a sturdy forest branch with one infant clinging close to her body. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    }
+  ],
+  "rejectedAttempts": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: Bornean orangutan Pongo pygmaeus, shaggy reddish brown hair, very long arms, dark bare face, no tail. Habitat: Borneo lowland rainforest. COVER: one adult female sitting securely on a low branch, one long arm raised gripping a branch, all visible fingers and feet included. Prominent complete primary animal entirely on RIGHT, silhouette within x=650..1460 y=110..925. Center beyond 60% width. Left 40% quiet natural background for page text. Real background margins beyond every visible outer feature. Maximize subject size within these bounds. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy.",
+      "reason": "Raised hand touched the source top edge; regenerated with both arms lowered."
+    }
+  ]
+}

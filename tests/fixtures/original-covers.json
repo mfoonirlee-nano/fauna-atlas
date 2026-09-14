@@ -479,5 +479,18 @@
       },
       "sha256": "ddd0981e5820ac8fc0434238213a47506d3750afe014fd85e54440af3caf9fd3"
     }
+  },
+  "bornean-orangutan": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 90,
+        "right": 1415,
+        "bottom": 880
+      },
+      "sha256": "298838d561fee812039d02f772b27912b09d0142ecb9dde676ad3dfaa8f3c15c"
+    }
   }
 }

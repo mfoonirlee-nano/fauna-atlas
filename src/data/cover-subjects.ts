@@ -2110,5 +2110,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1430,
       "bottom": 925
     }
+  },
+  "bornean-orangutan": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 90,
+      "right": 1415,
+      "bottom": 880
+    }
   }
 };
