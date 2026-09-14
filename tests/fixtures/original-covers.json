@@ -817,5 +817,18 @@
       },
       "sha256": "0f7beef03bf468ee5f46fe399213438466c21ed167e3609fc926678aa20c9989"
     }
+  },
+  "atlantic-salmon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 294,
+        "right": 1502,
+        "bottom": 585
+      },
+      "sha256": "bbd43b1e507eb706d93d29a2f4378497015eb339fcb55a990942d2e60ef38370"
+    }
   }
 }

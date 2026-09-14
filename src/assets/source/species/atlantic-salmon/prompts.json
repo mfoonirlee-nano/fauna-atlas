@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-14",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Species cover. Atlantic salmon Salmo salar, streamlined silvery salmon with sparse dark spots mainly above lateral line, adipose fin and lightly forked tail. Entire fish underwater over river gravel, side profile facing left, all fins and tail visible. Maximize full subject in right 55% of image, center at x=74%. Left 40% quiet defocused habitat only. Real background margin around all outer body features. Never crop animal."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Atlantic salmon Salmo salar, streamlined silvery salmon with sparse dark spots mainly above lateral line, adipose fin and lightly forked tail. Observation gallery: side close view of silvery scales and sparse dark upper flank spots underwater. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Atlantic salmon Salmo salar, streamlined silvery salmon with sparse dark spots mainly above lateral line, adipose fin and lightly forked tail. Observation gallery: full adult swimming upstream above gravel in a clear river, head facing current. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Atlantic salmon Salmo salar, streamlined silvery salmon with sparse dark spots mainly above lateral line, adipose fin and lightly forked tail. Observation gallery: juvenile parr with dark vertical flank bars in shallow freshwater above gravel. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Atlantic salmon Salmo salar, streamlined silvery salmon with sparse dark spots mainly above lateral line, adipose fin and lightly forked tail. Observation gallery: full silvery adult swimming in cool blue North Atlantic seawater. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Atlantic salmon Salmo salar, streamlined silvery salmon with sparse dark spots mainly above lateral line, adipose fin and lightly forked tail. Observation gallery: female adult above a clean gravel spawning bed in a shallow autumn river, natural subdued spawning colors. Subject clear and large with comfortable margins."
+    }
+  ],
+  "coverEdits": [
+    {
+      "prompt": "Edit this Fauna Atlas Atlantic salmon (Salmo salar) cover. Keep 1536x1024 landscape, clear underwater river habitat and same natural photographic style. Shift entire fish right slightly and reduce its width only enough that its complete silhouette runs from x=650 to x=1490 with all fins intact. Left 40% must be empty habitat. Correct species markings: Atlantic salmon has sparse dark spots concentrated ABOVE lateral line, a mainly unspotted lower flank and relatively plain lightly forked tail. Reduce the dense trout-like black spotting on tail fin to very few small subtle marks. Keep adipose fin, realistic scales, full tail and all fin tips. No text or border."
+    }
+  ]
+}

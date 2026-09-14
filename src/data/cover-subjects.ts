@@ -2370,5 +2370,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1428,
       "bottom": 846
     }
+  },
+  "atlantic-salmon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 294,
+      "right": 1502,
+      "bottom": 585
+    }
   }
 };

@@ -392,3 +392,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Chinese Tree Frog image set](./species/chinese-tree-frog/README.md)
 - [American Bullfrog image set](./species/american-bullfrog/README.md)
+- [Atlantic Salmon image set](./species/atlantic-salmon/README.md)

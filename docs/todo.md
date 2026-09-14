@@ -93,7 +93,7 @@
 - [x] 豹 *Panthera pardus* — “看看它趴在树枝上的姿势。”
 - [x] 中国雨蛙 *Hyla chinensis* — “在绿色叶子上找找绿色的雨蛙。”
 - [x] 美洲牛蛙 *Lithobates catesbeianus* — “找找折起来的大后腿。”
-- [ ] 大西洋鲑 *Salmo salar* — “看看它向河流上游游动的场景。”
+- [x] 大西洋鲑 *Salmo salar* — “看看它向河流上游游动的场景。”
 - [ ] 绿树蟒 *Morelia viridis* — “看看它怎样盘在树枝上。”
 
 ## 第三优先：跟着兴趣拓展，再比较相似动物（61 种）

@@ -20,3 +20,11 @@
 - [Animal Diversity Web：美洲牛蛙自然史](https://animaldiversity.org/accounts/Lithobates_catesbeianus/)
 - [Animal Diversity Web：美洲牛蛙全球等级](https://animaldiversity.org/accounts/Lithobates_catesbeianus/)
 - [AMNH：牛蛙的引入影响](https://www.amnh.org/exhibitions/frogs-a-chorus-of-colors/featured-frog-species/green-invaders)
+
+## 大西洋鲑 · Salmo salar
+
+采用 Salmo salar，鲑科、鲑属。NOAA 说明淡水与海洋洄游阶段及缅因湾地区保护；IUCN 2023 公告将全球等级改为 NT。银色成鱼、带竖纹幼鱼与产卵场景分开表达，不把海洋体色当作所有阶段。
+
+- [NOAA：大西洋鲑自然史与地区保护](https://www.fisheries.noaa.gov/species/atlantic-salmon)
+- [NOAA：Salmo salar](https://www.fisheries.noaa.gov/species/atlantic-salmon)
+- [IUCN：2023 年全球近危调整](https://iucn.org/press-release/202312/freshwater-fish-highlight-escalating-climate-impacts-species-iucn-red-list)
