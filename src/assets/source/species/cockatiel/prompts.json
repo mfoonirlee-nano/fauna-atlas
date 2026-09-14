@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-14",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Single landscape 1536x1024 natural history photograph style cover. One wild gray male cockatiel Nymphicus hollandicus on a nearly horizontal branch in Australian open woodland. Accurate small cockatoo: slender swept-back moderately raised crest, yellow face orange cheek patch, gray body white wing panel, slender pointed long tail. Full animal in gentle diagonal side view, head at x=980 y=330, tallest crest tip below y=200, tail extends down-right ending before x=1410 y=850, feet visible gripping branch. Whole bird occupies approximately x=850..1410 y=200..850, with large real background margins all around it. Must show the ENTIRE crest and tail tip without any clipping. Left 40 percent calm soft-focus woodland. Natural light, accurate two-forward two-back toes. No text, no border, no watermark, no collage, no pet color mutation."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: wild-type male cockatiel Nymphicus hollandicus, gray body, yellow face and slender yellow-gray pointed crest, orange cheek patch, white wing panel, long gray tail. Habitat: Australian open eucalyptus woodland. Observation scene: close side portrait of wild-type male cockatiel with clearly raised slender crest and orange cheek patch, entire head included. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: wild-type male cockatiel Nymphicus hollandicus, gray body, yellow face and slender yellow-gray pointed crest, orange cheek patch, white wing panel, long gray tail. Habitat: Australian open eucalyptus woodland. Observation scene: one wild cockatiel feeding on grass seeds on the ground, small curved bill near seedheads. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: wild-type male cockatiel Nymphicus hollandicus, gray body, yellow face and slender yellow-gray pointed crest, orange cheek patch, white wing panel, long gray tail. Habitat: Australian open eucalyptus woodland. Observation scene: one wild cockatiel perched on a branch, full body side view showing long pointed tail and white wing panel. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: wild-type male cockatiel Nymphicus hollandicus, gray body, yellow face and slender yellow-gray pointed crest, orange cheek patch, white wing panel, long gray tail. Habitat: Australian open eucalyptus woodland. Observation scene: small flock of wild gray cockatiels drinking at a shallow natural waterhole, Australian dry grassland background. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: wild-type male cockatiel Nymphicus hollandicus, gray body, yellow face and slender yellow-gray pointed crest, orange cheek patch, white wing panel, long gray tail. Habitat: Australian open eucalyptus woodland. Observation scene: two wild-type cockatiels perched near a natural eucalyptus tree hollow, one male yellow face and one gray-faced female. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy.",
+      "editPrompt": "Edit only the right-hand female cockatiel's facial coloration: add a muted dull-orange circular ear patch on the visible cheek behind and below the eye, and a subtle wash of pale yellow around the lower face, while keeping the head predominantly gray. She must be a natural wild-type gray FEMALE cockatiel, not the captive whiteface mutation. Preserve the left male bird, both birds' exact anatomy and positions, gray body white wing patches, tree hollow, bark, branches, framing, lighting, 1536x1024 dimensions and everything else. No text or watermark."
+    }
+  ],
+  "rejectedAttempts": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: wild-type male cockatiel Nymphicus hollandicus, gray body, yellow face and slender yellow-gray pointed crest, orange cheek patch, white wing panel, long gray tail. Habitat: Australian open eucalyptus woodland. COVER: one male perched in side three-quarter view on a low branch, full crest wings feet and long tail visible. Prominent complete primary animal entirely on RIGHT, silhouette within x=650..1460 y=110..925. Center beyond 60% width. Left 40% quiet natural background for page text. Real background margins beyond every visible outer feature. Maximize subject size within these bounds. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy.",
+      "reason": "Crest tips crossed the top edge; regenerated with explicit crest and tail margins."
+    }
+  ]
+}

@@ -362,3 +362,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Saiga image set](./species/saiga/README.md)
 - [Chimpanzee image set](./species/chimpanzee/README.md)
 - [Bornean Orangutan image set](./species/bornean-orangutan/README.md)
+- [Cockatiel image set](./species/cockatiel/README.md)

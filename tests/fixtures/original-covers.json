@@ -492,5 +492,18 @@
       },
       "sha256": "298838d561fee812039d02f772b27912b09d0142ecb9dde676ad3dfaa8f3c15c"
     }
+  },
+  "cockatiel": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 875,
+        "top": 130,
+        "right": 1420,
+        "bottom": 925
+      },
+      "sha256": "4ac328f11ebf2d23513642c31098f97de68e9ccce8a665155f3a4d21c5327894"
+    }
   }
 }
