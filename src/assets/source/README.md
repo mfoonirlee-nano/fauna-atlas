@@ -389,3 +389,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Striped Skunk image set](./species/striped-skunk/README.md)
 - [Caracal image set](./species/caracal/README.md)
 - [Leopard image set](./species/leopard/README.md)
+
+- [Chinese Tree Frog image set](./species/chinese-tree-frog/README.md)

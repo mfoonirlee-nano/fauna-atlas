@@ -2350,5 +2350,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 965
     }
+  },
+  "chinese-tree-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 207,
+      "right": 1445,
+      "bottom": 822
+    }
   }
 };

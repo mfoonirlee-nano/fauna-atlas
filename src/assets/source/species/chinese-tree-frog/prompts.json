@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-09-14",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case photorealistic-natural. Create one 1536x1024 landscape wildlife editorial photograph for Fauna Atlas species cover: Chinese tree frog Hyla chinensis, small smooth green frog, pale underside, horizontal pupil, round toe pads, folded hind legs, perched on a green leaf in humid subtropical China. Full animal including every visible toe inside frame. Entire frog large within right 55% of canvas, centered x=74%, with real background clearance from all edges. Left 40% softly blurred green wetland foliage only, quiet negative space. Scientifically plausible anatomy and natural colors. No text, border, watermark or collage."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Chinese tree frog Hyla chinensis, small green smooth frog with pale underside, horizontal pupils and round toe pads. Observation gallery: close view of round toe pads gripping a green leaf, natural attached limbs. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Chinese tree frog Hyla chinensis, small green smooth frog with pale underside, horizontal pupils and round toe pads. Observation gallery: side view showing folded hind legs on a leaf. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Chinese tree frog Hyla chinensis, small green smooth frog with pale underside, horizontal pupils and round toe pads. Observation gallery: climbing a slender reed with toe pads holding the stem. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Chinese tree frog Hyla chinensis, small green smooth frog with pale underside, horizontal pupils and round toe pads. Observation gallery: adult resting among green wetland leaves near a pond at dusk. Subject clear and large with comfortable margins."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Scientifically plausible anatomy, natural light and colors, no text, border, logo, watermark, collage or extra limbs. Chinese tree frog Hyla chinensis, small green smooth frog with pale underside, horizontal pupils and round toe pads. Observation gallery: adult sitting at shallow vegetated pond edge, side view. Subject clear and large with comfortable margins."
+    }
+  ],
+  "coverEdits": []
+}

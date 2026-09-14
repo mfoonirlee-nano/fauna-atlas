@@ -791,5 +791,18 @@
       },
       "sha256": "a3dba820a6d424e6b3d43c92ad477db025514cd40afab1945dd5215293370bff"
     }
+  },
+  "chinese-tree-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 207,
+        "right": 1445,
+        "bottom": 822
+      },
+      "sha256": "4761ac19ae787f747b7e93e31eae59f5d322d7ebf90287f40884e2fa616c5bde"
+    }
   }
 }
