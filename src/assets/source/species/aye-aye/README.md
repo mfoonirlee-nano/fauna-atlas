@@ -188,7 +188,7 @@ ImageMagick reported all twelve accepted files as opaque, single-frame sRGB imag
 
 | Frame | Source PNG SHA-256                                                 | Runtime WebP SHA-256                                               |
 | ----- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| 01    | `91a52b271150f2f63052c35a2b2fc1dbb094dc5a70e359eb858b65dad85d8c02` | `a8292c523632be1ead40a34abc4a693929aad125a299b7660d48453493532665` |
+| 01 | `5473c4aa72e53121bc2fd97eff3f6ef323c111a5487770a16dd63cbcdea66eef` | `e7f164c822af624d29fdfa570f1704244bd1330648c63807c48c23237fc27f59` |
 | 02    | `0560fc6c5dcc7477139e4c5a3cc3f1f261cc6f6cb01477ef0ba584a608c07beb` | `d516730ab85408b199cbae6e1d8e7c05a4e39860ce27d757f0b98de1c8f4f396` |
 | 03    | `d8b279d37c3a320f960a3ebdaea22f9cd1d7787d6cc1ad9d8c5bc8136b460e94` | `459e7377c2ccfa5d03b0f8ef03e30473cad943693a1cd4e376fa85ea5eef0664` |
 | 04    | `5dcf1b44b3eb3618e4b8151d1a3826818ee347dbc2c1a69524c00c8e2484c34d` | `b08e603cdee9f83e87a2066a9a95452a2ee5138db062b12f328b3444ce7cfc17` |
