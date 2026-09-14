@@ -147,7 +147,7 @@ Avoid: eggs attached beneath the abdomen like a decapod shrimp, fish eggs scatte
 
 | No. | Source PNG SHA-256                                                 | Runtime WebP SHA-256                                               |
 | --- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| 01  | `73d24745544ab1c7431f7047b88d841e102cff200b16d7b1a18e49bf6bbd99cf` | `f3c0c6ae2af24b0c069b27d50e10ea62b669911ba0a72535c2531b2de4bdf034` |
+| 01 | `0be84415a88d167bf5da5328554e90d4e35eaf3fe981e9b53ca1f38d1d796fe8` | `4e023cf44b6cd10c171c107be71eb6cb639c0bd3fb55f0db25b8e02b60657d8b` |
 | 02  | `03960aaffdda9d0a2bd6d1d97f065bd96318e59c379d87735877c4896e26d69b` | `eaeff9c32282baeba69462063ad9dfa4aa06f47c12341804ef9fa3158340e45d` |
 | 03  | `7195bdbf96ebd577be96a2cb62b10868af5069fda4bcac59d0ae855f328576a2` | `3fbce051bafa6b66fb6301708f35e3ebc39be9b7c75799ec0068b6ca8a536492` |
 | 04  | `183605788552335eb7674e9607db8cbcaa4b2980aae48dc2607f05bf8bc2eec7` | `0ba7d72761a651842dee15e178afdcf542e12978a031b348fad4adf69ed24370` |
