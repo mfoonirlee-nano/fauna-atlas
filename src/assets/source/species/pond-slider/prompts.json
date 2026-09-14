@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Generate one photorealistic natural-history editorial wildlife photograph, landscape 3:2. One complete adult pond slider Trachemys scripta elegans basking on a fallen log above a quiet freshwater pond, accurate red patch behind eye, yellow striped neck, olive shell, all feet and tail visible. Full animal on right with center at 70 percent width, animal fills roughly 45 percent image width and 48 percent height with generous natural background clearance. Left 40 percent quiet water for website text. Soft morning sunshine, realistic anatomy and colors, no text watermark borders or collage. Project species cover."
+    },
+    {
+      "number": 2,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. One adult red-eared pond slider Trachemys scripta elegans climbing from pond water onto a gently sloping log, forefeet gripping bark, rear body by water, full body. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    },
+    {
+      "number": 3,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. One red-eared slider Trachemys scripta elegans swimming underwater in clear shallow freshwater, webbed hind toes spread, whole shell feet neck and tail visible, aquatic plants. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    },
+    {
+      "number": 4,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. Close portrait of red-eared slider Trachemys scripta elegans resting on log, red patch BEHIND the eye, fine yellow neck stripes and shell edge clearly visible. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    },
+    {
+      "number": 5,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. One adult pond slider Trachemys scripta elegans grazing submerged aquatic leaves in clear shallow pond, natural full body three quarter view. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    },
+    {
+      "number": 6,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. Small juvenile red-eared slider Trachemys scripta elegans resting on a damp bank with clover and pebbles, detailed green shell markings, complete body. Gallery composition: clear informative animal observation, natural setting and colors. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories."
+    }
+  ]
+}

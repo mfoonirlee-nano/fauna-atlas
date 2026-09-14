@@ -371,3 +371,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Southern Cassowary image set](./species/southern-cassowary/README.md)
 - [Eurasian Eagle-Owl image set](./species/eurasian-eagle-owl/README.md)
 - [White Stork image set](./species/white-stork/README.md)
+
+- [Pond Slider image set](./species/pond-slider/README.md)

@@ -596,5 +596,18 @@
       },
       "sha256": "e6a1962df38611e3f3507405687c56a711343550b51889611c49dd6d47888cef"
     }
+  },
+  "pond-slider": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 645,
+        "top": 218,
+        "right": 1405,
+        "bottom": 700
+      },
+      "sha256": "43dcd52aa088cf0c4bd914faa460aae131d7756f4024218608d80e833b9cdb86"
+    }
   }
 }

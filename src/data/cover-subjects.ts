@@ -2200,5 +2200,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1372,
       "bottom": 910
     }
+  },
+  "pond-slider": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 645,
+      "top": 218,
+      "right": 1405,
+      "bottom": 700
+    }
   }
 };
