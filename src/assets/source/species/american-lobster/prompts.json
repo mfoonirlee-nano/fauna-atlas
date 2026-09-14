@@ -1,0 +1,33 @@
+[
+  {
+    "image": "01-cover.webp",
+    "prompt": "Keep the realistic American lobster and underwater habitat. Recompose to move the entire lobster silhouette into x=650..1480, y=60..940 on this 1536x1024 canvas. The leftward antenna tip MUST be right of x650; curve the antenna naturally upward and right instead of crossing into the left 40 percent. Preserve full claws, legs and tail with clear margin. Large prominent lobster on right and quiet left background. No cropping of animal, no text.",
+    "tool": "built-in image_gen",
+    "initialPrompt": "Use case: photorealistic-natural. Create one 1536x1024 wildlife atlas cover photograph of a living American lobster Homarus americanus on a rocky North Atlantic seabed. Natural mottled olive brown shell, one robust crusher claw and one slimmer cutter claw, long thin antennae, anatomically correct legs and segmented tail. Entire animal including both antenna tips, claws and tail clearly inside frame with background clearance. Animal prominent on right, all subject within x=640..1480 and y=80..950, quiet subdued seabed in left 40 percent. No text, labels, borders, collage or watermark. Natural underwater lighting. This is a project asset; return saved file path."
+  },
+  {
+    "image": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Homarus americanus American lobster underwater on rocky seabed. Close view of its two front claws side by side: one broad crusher with blunt teeth and one slender cutter with sharper teeth. Natural olive brown shell, anatomically correct joints. Include head behind claws. Natural light, realistic anatomy, no labels, no text, no borders or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural history observation photograph. Living Homarus americanus American lobster, full body walking across coarse sand between stones on North Atlantic seabed, oblique overhead view, natural olive-brown shell, two unequal claws and long intact antennae, articulated abdomen and tail fan. Keep whole silhouette inside. Realistic anatomy, natural lighting, no text, no border, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation image. Homarus americanus American lobster sheltering inside a rocky underwater crevice, its head and two asymmetric claws emerging, antennae extending over sand. Natural olive brown living shell, enough of dark body visible to recognize lobster. Natural lighting, realistic anatomy, no text, borders or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Underwater close rear three-quarter view of living Homarus americanus American lobster, emphasis on six articulated olive brown abdominal segments leading to broad tail fan with uropods. Tail lies naturally extended on gravel, head farther away, scientific accurate shell anatomy. Natural lighting, realistic anatomy, no text, no borders, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural-history wildlife photograph. Underwater side and slightly low angle macro of female Homarus americanus American lobster naturally standing on rocks with abdomen slightly raised, small dense dark green-brown eggs attached to swimmerets UNDER abdominal segments, protected beneath tail. Olive brown shell above, clear egg cluster below, no human hands, no eggs sitting on back, no red cooked shell. Scientifically plausible anatomy, no words, labels, borders, watermark or collage.",
+    "tool": "built-in image_gen"
+  }
+]

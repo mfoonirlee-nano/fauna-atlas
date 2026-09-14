@@ -726,5 +726,18 @@
       },
       "sha256": "0c6364e279f0ad6d0cf34f3c15599cc122088e838c971b50547007605bf75450"
     }
+  },
+  "american-lobster": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 17,
+        "right": 1495,
+        "bottom": 949
+      },
+      "sha256": "60f4e516432e1aa57fc9e873a904bd40a58d3959502ea43d5b54b5cf449fa57c"
+    }
   }
 }

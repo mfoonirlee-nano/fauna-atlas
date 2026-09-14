@@ -2300,5 +2300,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1484,
       "bottom": 954
     }
+  },
+  "american-lobster": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 17,
+      "right": 1495,
+      "bottom": 949
+    }
   }
 };
