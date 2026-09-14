@@ -1,0 +1,32 @@
+[
+  {
+    "image": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural history editorial wildlife photograph, atlas cover. Subject: Caracal caracal adult standing in dry African grassland, plain tawny reddish short fur, long legs, pointed ears with long black tufts, pale muzzle and belly, complete tail. Full subject prominent on right half centered at 70 percent width, entire silhouette including tail, ear tufts, wing tips, antennae and toes within x=640..1480 y=70..950 with actual background clearance. Left 40 percent quiet habitat for title. Realistic anatomy and natural lighting. No words, watermark, border, collage, extra animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Caracal caracal head and shoulder portrait, both tall pointed ears and complete long black ear tufts with clearance above, reddish tawny coat, pale chin, natural focused gaze, dry scrub background. Natural light, realistic anatomy, no labels, no text, no borders or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural history observation photograph. Caracal caracal walking in side profile through sparse dry grass and acacia scrub, strong long hind legs stepping forward, plain tawny coat, black ear tufts, complete tail and feet, whole animal inside frame. Realistic anatomy, natural lighting, no text, no border, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create a 1536x1024 wildlife atlas observation photograph. One adult Caracal caracal leaping upward above dry grass, seen in side view, complete four-legged cat suspended in air with two front paws reaching forward and upward, hind legs tucked below belly, one short tail, pointed ears with black tufts. Natural tawny fur, no prey, all paws inside frame. Correct anatomy, natural light, no words, no borders, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 wildlife atlas observation photograph. Caracal caracal adult lying comfortably in cool shade beside a rock in dry scrubland, forepaws together, black-tufted ears upright and intact, tawny short fur, full curled body and short tail visible, contrasting sunlit dry ground beyond. Natural lighting, realistic anatomy, no text, no borders, no collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "image": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 natural-history observation photograph. Caracal caracal adult crouching low as it walks through dry grasses, four legs bent naturally, eyes looking ahead, black ear tufts intact, tawny body and short tail fully in frame, dappled African scrub light. Realistic anatomy, no text, labels, border or collage.",
+    "tool": "built-in image_gen"
+  }
+]

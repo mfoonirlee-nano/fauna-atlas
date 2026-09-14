@@ -765,5 +765,18 @@
       },
       "sha256": "e3fa58ca92e598a09b0587c794f2bac1d1c58f68ff8e35a7e05d7b94eb815fe0"
     }
+  },
+  "caracal": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 705,
+        "top": 32,
+        "right": 1490,
+        "bottom": 933
+      },
+      "sha256": "54cc04e0229c3a19841b9721c44e2f055e1439649e3ff849fb4ddd6f2487db28"
+    }
   }
 }

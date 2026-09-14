@@ -89,7 +89,7 @@
 - [x] 美洲螯龙虾 *Homarus americanus* — “看看它的大螯和长触角。”
 - [x] 大孔雀蛾 *Saturnia pyri* — “找找翅膀上像眼睛的圆形花纹。”
 - [x] 臭鼬 *Mephitis mephitis* — “看看它竖起大尾巴的样子。”
-- [ ] 狞猫 *Caracal caracal* — “找找耳朵尖上的黑色长毛。”
+- [x] 狞猫 *Caracal caracal* — “找找耳朵尖上的黑色长毛。”
 - [ ] 豹 *Panthera pardus* — “看看它趴在树枝上的姿势。”
 - [ ] 中国雨蛙 *Hyla chinensis* — “在绿色叶子上找找绿色的雨蛙。”
 - [ ] 美洲牛蛙 *Lithobates catesbeianus* — “找找折起来的大后腿。”
