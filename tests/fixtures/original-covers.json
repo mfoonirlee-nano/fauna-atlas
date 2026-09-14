@@ -674,5 +674,18 @@
       },
       "sha256": "7cb209bbc06922432e5a163f27e3d3896b297d6fbd306f2c866b7bc7663d593f"
     }
+  },
+  "ocean-sunfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 668,
+        "top": 33,
+        "right": 1434,
+        "bottom": 984
+      },
+      "sha256": "69d9fd6960c9492e583c676e986d543c94f72f8757930cfac641a8084f8754a2"
+    }
   }
 }

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case: photorealistic-natural. Asset type: Fauna Atlas cover. Landscape 3:2 1536x1024 natural history photographic reconstruction. Subject: Mola mola ocean sunfish, round laterally compressed silvery grey body, tall dorsal and anal fins, short rounded scalloped clavus instead of a normal tail, small mouth and eye. Side profile underwater in clear blue open ocean. Entire fish fin-tip to fin-tip. Composition: whole animal large on RIGHT, full silhouette within x=660..1450 y=100..920, center at 70% source width, left 40% quiet blurred habitat for text. Real background clearance on all edges, all extremities intact. Soft natural light, realistic details and restrained colors. No text no watermark no border no collage."
+    },
+    {
+      "number": 2,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Mola mola ocean sunfish in complete lateral profile in blue open ocean, flattened oval silvery grey body, tall dorsal fin above and anal fin below, short scalloped clavus at rear no normal tail, full fin tips visible. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 3,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: Close natural observation of rear half of Mola mola ocean sunfish underwater, short broad scalloped clavus at back of flattened body, portions of dorsal and anal fins visible, show unusual rear edge clearly, no typical fish forked tail. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 4,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Mola mola ocean sunfish lying naturally on its side just below sunlit open sea surface, full silhouette, calm ocean, overhead oblique camera, silver-grey rounded flattened body with tall dorsal and anal fins and no normal tail. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 5,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Mola mola ocean sunfish underwater near small translucent jelly, feeding context with fish approaching prey, restrained realistic lighting, whole grey round fish with tall dorsal and anal fins and scalloped clavus visible. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    },
+    {
+      "number": 6,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas observation gallery. Landscape 3:2 1536x1024. Scientifically plausible natural history photographic reconstruction: One Mola mola sunfish hovering above rocky reef while a few tiny cleaner fish approach its skin, full side view in blue natural seawater, unmistakable flattened silver-grey oval body, very tall upper dorsal and lower anal fins, broad truncated scalloped rear edge. Clear subject, realistic anatomy, natural colors and environment. No text, logos, watermarks, borders, collage, people or handling. This is one scene."
+    }
+  ]
+}

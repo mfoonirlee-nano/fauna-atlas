@@ -2260,5 +2260,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1510,
       "bottom": 730
     }
+  },
+  "ocean-sunfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 668,
+      "top": 33,
+      "right": 1434,
+      "bottom": 984
+    }
   }
 };

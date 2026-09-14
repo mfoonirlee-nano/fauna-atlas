@@ -379,3 +379,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [White's Tree Frog image set](./species/whites-tree-frog/README.md)
 
 - [Oriental Fire-bellied Newt image set](./species/oriental-fire-bellied-newt/README.md)
+- [Ocean Sunfish image set](./species/ocean-sunfish/README.md)

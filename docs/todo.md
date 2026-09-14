@@ -82,7 +82,7 @@
 - [x] 玉米蛇 *Pantherophis guttatus* — “没有脚的蛇，身体怎样弯着向前爬？”
 - [x] 白氏树蛙 *Pelodryas caerulea*（旧名 *Litoria caerulea*）— “找找贴在树枝上的脚趾。”
 - [x] 东方蝾螈 *Hypselotriton orientalis*（旧名 *Cynops orientalis*） — “看看它的肚子和背部各是什么颜色。”
-- [ ] 翻车鱼 *Mola mola* — “看看它圆圆的身体和上下伸出的鱼鳍。”
+- [x] 翻车鱼 *Mola mola* — “看看它圆圆的身体和上下伸出的鱼鳍。”
 - [ ] 锯鲛 *Pristis pristis* — “找找长吻两边像锯齿的小尖齿。”
 - [ ] 大蓝闪蝶 *Morpho menelaus* — “看看翅膀打开和合上时的不同花纹。”
 - [ ] 欧洲锹甲 *Lucanus cervus* — “找找头前像鹿角一样的大颚。”
