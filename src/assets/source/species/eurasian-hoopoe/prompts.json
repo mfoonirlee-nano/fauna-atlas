@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case photorealistic-natural, scientific educational wildlife reconstruction. Single landscape image 1536x1024. A Eurasian hoopoe Upupa epops, warm buff pinkish orange head and breast, long thin gently downcurved dark bill, erect fan-shaped crest with black feather tips, black and white barred folded wings and tail, on short grass in a Mediterranean orchard. Show one entire bird from highest feather or casque to all feet/toes and tail with background clearance. The large full animal occupies the RIGHT half within x=790..1450 y=90..925, center near 74% width. Left 40% quiet defocused habitat for website copy. Anatomically accurate, natural texture and lighting. No text, borders, watermark, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-8d8c7bbe-9194-4a63-bad3-28df8835b69e.png"
+    },
+    {
+      "number": 2,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Upupa epops Eurasian hoopoe, pinkish buff head and breast, long narrow downcurved black bill, fan crest tipped black, black white barred wings. Scene: Side head and chest portrait with entire raised fan-shaped crest and long bill clearly visible against orchard foliage. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-a942f8d0-4a69-44c7-8206-87db9f1798f8.png"
+    },
+    {
+      "number": 3,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Upupa epops Eurasian hoopoe, pinkish buff head and breast, long narrow downcurved black bill, fan crest tipped black, black white barred wings. Scene: Full bird probing loose orchard soil with long slender bill, crest folded backwards, feet and tail visible. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-51c7a277-d46b-4dc7-ac51-ec25b413d50f.png"
+    },
+    {
+      "number": 4,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Upupa epops Eurasian hoopoe, pinkish buff head and breast, long narrow downcurved black bill, fan crest tipped black, black white barred wings. Scene: Single bird flying sideways above meadow, black and white banded wings spread, entire wing tips and long bill within frame. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-695bbf36-6e03-4515-99ed-1857597f44ac.png"
+    },
+    {
+      "number": 5,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Upupa epops Eurasian hoopoe, pinkish buff head and breast, long narrow downcurved black bill, fan crest tipped black, black white barred wings. Scene: Single adult gripping rough bark beside a tree cavity, crest folded, whole bird visible; an insect larva in its bill. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-15d81044-ce7c-45a0-a6fe-32457733a59f.png"
+    },
+    {
+      "number": 6,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Upupa epops Eurasian hoopoe, pinkish buff head and breast, long narrow downcurved black bill, fan crest tipped black, black white barred wings. Scene: Two birds walking on sparse short grass in an olive orchard, one crest raised and one folded, full bodies, no collage. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-3083801b-c35d-4fe1-bd0c-f80a9922367a.png"
+    }
+  ]
+}

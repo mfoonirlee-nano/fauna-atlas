@@ -544,5 +544,18 @@
       },
       "sha256": "360a7c9b9c48a81e465203cdad5d75fdb9cc41817bd513e2b484328dc3846109"
     }
+  },
+  "eurasian-hoopoe": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 653,
+        "top": 55,
+        "right": 1444,
+        "bottom": 936
+      },
+      "sha256": "4e3fab6a8c30c78e35d9097fe7adb91f21716d6237afbe1ebeadbd72b9138fb4"
+    }
   }
 }

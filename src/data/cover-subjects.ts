@@ -2160,5 +2160,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1318,
       "bottom": 952
     }
+  },
+  "eurasian-hoopoe": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 653,
+      "top": 55,
+      "right": 1444,
+      "bottom": 936
+    }
   }
 };

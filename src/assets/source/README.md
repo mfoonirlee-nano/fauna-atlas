@@ -367,3 +367,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Indian Peafowl image set](./species/indian-peafowl/README.md)
 
 - [Sulphur-crested Cockatoo image set](./species/sulphur-crested-cockatoo/README.md)
+- [Eurasian Hoopoe image set](./species/eurasian-hoopoe/README.md)
