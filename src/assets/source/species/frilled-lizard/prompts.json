@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific scene reconstruction, natural history editorial photography. One landscape 3:2 image. One adult frilled lizard Chlamydosaurus kingii perched sideways on a sloping eucalyptus trunk, neck frill folded at rest, long thin complete tail curling naturally within frame, all feet visible, dry northern Australian woodland. Cover composition: maximize complete animal on right, center at 70% width, left 40% quiet habitat for website text, background clearance on all sides, no cropped extremities. Realistic anatomy. No text, logos, watermark, collage, border, humans or pet accessories.",
+      "editPrompt": "Edit the cover composition. Keep one anatomically realistic frilled lizard Chlamydosaurus kingii resting with folded neck frill on eucalyptus bark. Its COMPLETE body including long slender tail, snout and claws must occupy ONLY right half, bounding box approximately x=680..1450 y=80..960 on a 1536x1024 canvas. Repose the tail so it curves down and up along the right-hand trunk; do not stretch it into the left half. Maximize full subject within that box. Left 40 percent should be softly blurred quiet distant woodland without large foreground trunks. Natural wildlife photo, no text."
+    },
+    {
+      "number": 2,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One adult frilled lizard Chlamydosaurus kingii standing on dry ground in defensive display, circular pleated neck frill spread, mouth open, whole body and long tail in frame, no predator visible. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 3,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One adult frilled lizard Chlamydosaurus kingii resting along eucalyptus bark with frill folded loosely beside neck, full body, realistic gray brown mottled scales. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 4,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One adult frilled lizard Chlamydosaurus kingii climbing upright tree bark, claws gripping bark, folded frill, long tail extends down trunk fully in frame. Clear informative animal observation, natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 5,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One frilled lizard Chlamydosaurus kingii moving quickly across dry woodland ground on hind legs, forelegs lifted, neck frill folded, full long tail balances behind, natural anatomical running pose. Clear informative animal observation. Natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    },
+    {
+      "number": 6,
+      "prompt": "Photorealistic natural-history editorial photography, scientific scene reconstruction. Landscape 1536x1024. One frilled lizard Chlamydosaurus kingii watching a grasshopper on dry leaf litter near a eucalyptus trunk, folded frill, full body, no contact or gore. Clear informative animal observation. Natural setting and colors, realistic anatomy. No text, logos, watermark, collage, borders, humans or pet accessories."
+    }
+  ]
+}

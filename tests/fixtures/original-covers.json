@@ -622,5 +622,18 @@
       },
       "sha256": "418baa359b7ce29765f31a4cdf29ba35b8f3f4aea72ed8895ec80d84448fbc2e"
     }
+  },
+  "frilled-lizard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 902,
+        "top": 80,
+        "right": 1455,
+        "bottom": 939
+      },
+      "sha256": "1ee65f22bef845f38ca98989ad30031c607caa04794e2ba4b4b1aa377e5fd4ea"
+    }
   }
 }

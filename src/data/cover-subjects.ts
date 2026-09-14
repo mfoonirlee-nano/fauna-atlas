@@ -2220,5 +2220,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 700
     }
+  },
+  "frilled-lizard": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 902,
+      "top": 80,
+      "right": 1455,
+      "bottom": 939
+    }
   }
 };

@@ -374,3 +374,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Pond Slider image set](./species/pond-slider/README.md)
 - [Common Leopard Gecko image set](./species/leopard-gecko/README.md)
+- [Frilled Lizard image set](./species/frilled-lizard/README.md)
