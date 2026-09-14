@@ -557,5 +557,18 @@
       },
       "sha256": "4e3fab6a8c30c78e35d9097fe7adb91f21716d6237afbe1ebeadbd72b9138fb4"
     }
+  },
+  "southern-cassowary": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 755,
+        "top": 18,
+        "right": 1414,
+        "bottom": 980
+      },
+      "sha256": "daf1f569c1b850bfb93cb1643be8c2d29af4aaa8365715a01e0ca0d8c7092563"
+    }
   }
 }

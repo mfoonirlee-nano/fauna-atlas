@@ -2170,5 +2170,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1444,
       "bottom": 936
     }
+  },
+  "southern-cassowary": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 755,
+      "top": 18,
+      "right": 1414,
+      "bottom": 980
+    }
   }
 };

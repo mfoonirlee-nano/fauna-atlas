@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-14",
+  "tool": "image_gen (built-in)",
+  "images": [
+    {
+      "number": 1,
+      "prompt": "Use case photorealistic-natural, scientific educational wildlife reconstruction. Single landscape image 1536x1024. An adult southern cassowary Casuarius casuarius, bulky black hairlike body feathers, bare blue neck and head, two red pendulous neck wattles, brown tall casque, two strong grey legs with three forward toes each, walking on rainforest floor. Show one entire bird from highest feather or casque to all feet/toes and tail with background clearance. The large full animal occupies the RIGHT half within x=790..1450 y=90..925, center near 74% width. Left 40% quiet defocused habitat for website copy. Anatomically accurate, natural texture and lighting. No text, borders, watermark, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-c37ee807-90e6-461c-bb09-030454f21779.png"
+    },
+    {
+      "number": 2,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Casuarius casuarius southern cassowary, black shaggy body, blue bare head neck, brown tall casque, TWO red throat wattles, heavy grey three-toed legs. Scene: Close three-quarter head and upper neck portrait, entire casque and both separate red wattles visible, rainforest background. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-6038f7c4-e01c-485d-b178-016641ffce17.png"
+    },
+    {
+      "number": 3,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Casuarius casuarius southern cassowary, black shaggy body, blue bare head neck, brown tall casque, TWO red throat wattles, heavy grey three-toed legs. Scene: Full adult lowers head to pick up a small fallen rainforest fruit on leaf litter, both strong legs and three forward toes visible. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-63f8b5bf-2d86-4e76-ae63-9ebcf126f6db.png"
+    },
+    {
+      "number": 4,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Casuarius casuarius southern cassowary, black shaggy body, blue bare head neck, brown tall casque, TWO red throat wattles, heavy grey three-toed legs. Scene: Full adult walking through rainforest ferns in side view, black hairlike feathers and folded vestigial wings, no flying or ostrich tail. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-b48c54b4-f609-4ecd-814c-4ca01decfe9c.png"
+    },
+    {
+      "number": 5,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Casuarius casuarius southern cassowary, black shaggy body, blue bare head neck, brown tall casque, TWO red throat wattles, heavy grey three-toed legs. Scene: Adult MALE with two tiny cream and dark brown longitudinally striped chicks on rainforest floor, adult black and blue with two wattles, all complete. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-ea1bc947-da0b-411b-96f6-660a30ad0ce0.png"
+    },
+    {
+      "number": 6,
+      "prompt": "Use case photorealistic-natural scientific educational wildlife reconstruction. One landscape 1536x1024 image. Casuarius casuarius southern cassowary, black shaggy body, blue bare head neck, brown tall casque, TWO red throat wattles, heavy grey three-toed legs. Scene: Adult MALE sitting low on natural leaf-lined ground nest among rainforest roots, protective incubation posture, no other adults. Natural detailed textures, realistic anatomy and habitat, clear observation of focal behavior for a child's animal atlas. All featured body parts fully inside frame with generous margins. No text, watermark, border, illustration, or collage.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-5d7a0890-34d8-4b8c-a58c-28b4d11754ca.png"
+    }
+  ],
+  "edits": [
+    {
+      "image": 6,
+      "prompt": "Edit only the exposed eggs beneath this incubating male southern cassowary. Recolor the three visible eggs to the natural vivid emerald/leaf green eggshell color of Casuarius casuarius, retaining realistic textured matte shells and the existing shade under his breast. They must be clearly green, not pale yellow or beige. Preserve the cassowary, entire casque, two red wattles, head, body, legs, feet, pose, forest, composition and dimensions exactly. No text or other change.",
+      "generatedPath": "/Users/chris.li/.codex/generated_images/01a09e00-b267-76d1-ad90-839f51fe45f1/exec-53ca4983-8a78-4222-921a-74670aaca340.png",
+      "reason": "Correct pale eggs to natural green"
+    }
+  ]
+}
