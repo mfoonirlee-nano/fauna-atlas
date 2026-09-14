@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-14",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Asset: Fauna Atlas chimpanzee COVER. Generate a single 1536x1024 landscape natural-history photograph style scientific reconstruction of one adult common chimpanzee Pan troglodytes, black hair, bare dark face, large ears, long arms and opposable thumbs, no tail, knuckle-walking on a forest clearing in tropical Africa. Prominent COMPLETE animal on the RIGHT: all visible head, hands, fingers, feet within x=670..1460 y=130..920, full silhouette with real background margins, center beyond 60% image width. Left 40% quiet forest background for text. Natural proportions, detailed hair, soft daylight. No text, watermark, border, collage, humans, clothing, extra limbs or invented anatomy."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: common chimpanzee Pan troglodytes, black hair, bare dark face, prominent ears, long arms, no tail. Habitat: African tropical forest. Observation scene: close view of a chimpanzee naturally wrapping its fingers and opposable thumb around a sturdy branch; hand and part of arm and face visible, accurate five-digit anatomy. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: common chimpanzee Pan troglodytes, black hair, bare dark face, prominent ears, long arms, no tail. Habitat: African tropical forest. Observation scene: one chimpanzee walking on bent finger knuckles on the forest floor, entire body and supporting hands visible. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: common chimpanzee Pan troglodytes, black hair, bare dark face, prominent ears, long arms, no tail. Habitat: African tropical forest. Observation scene: one chimpanzee sitting and holding a small ripe wild fig near its mouth, clearly visible fingers. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: common chimpanzee Pan troglodytes, black hair, bare dark face, prominent ears, long arms, no tail. Habitat: African tropical forest. Observation scene: two chimpanzees resting together, one gently grooming the other's shoulder hair. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. Single 1536x1024 landscape natural-history photograph style scientific reconstruction. Subject: common chimpanzee Pan troglodytes, black hair, bare dark face, prominent ears, long arms, no tail. Habitat: African tropical forest. Observation scene: mother chimpanzee sitting on forest ground with one small infant clinging to her belly, natural posture. Clear educational framing for a young child, natural medium close view, accurate distinguishing features. Natural daylight and realistic textures. No text, labels, watermark, collage, border, humans, cages, extra limbs or fantasy."
+    }
+  ]
+}

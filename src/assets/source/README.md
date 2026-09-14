@@ -360,3 +360,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Okapi image set](./species/okapi/README.md)
 - [American Bison image set](./species/american-bison/README.md)
 - [Saiga image set](./species/saiga/README.md)
+- [Chimpanzee image set](./species/chimpanzee/README.md)

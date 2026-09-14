@@ -2100,5 +2100,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1492,
       "bottom": 934
     }
+  },
+  "chimpanzee": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 765,
+      "top": 100,
+      "right": 1430,
+      "bottom": 925
+    }
   }
 };

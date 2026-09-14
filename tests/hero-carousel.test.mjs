@@ -151,6 +151,15 @@ test('subject framing uses bounded container geometry and opacity-only animation
   assert.deepEqual(Object.keys(coverSubjects).sort(), Object.keys(reviewedCovers).sort());
 });
 
+test('next five animal covers retain a complete right-side source silhouette', () => {
+  for (const slug of ['chimpanzee']) {
+    const { width, height, bounds } = reviewedCovers[slug].cover;
+    assert.ok(bounds.left >= width * .4, `${slug}: quiet left side`);
+    assert.ok((bounds.left + bounds.right) / 2 >= width * .6, `${slug}: right-side center`);
+    assert.ok(bounds.top > 0 && bounds.bottom < height && bounds.right < width, `${slug}: real source margin`);
+  }
+});
+
 for (const [slug, { cover }] of Object.entries(reviewedCovers)) {
   test(`${slug}: reviewed full subject clears viewport, copy and panel at every endpoint`, () => {
     assert.deepEqual(coverSubjects[slug], { width: cover.width, height: cover.height, bounds: cover.bounds });

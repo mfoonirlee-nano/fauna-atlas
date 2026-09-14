@@ -466,5 +466,18 @@
       },
       "sha256": "87be55c5fa5027f3d8d590375aef4d2d75272ff1e8f4a401e019a80d5acf8fd4"
     }
+  },
+  "chimpanzee": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 765,
+        "top": 100,
+        "right": 1430,
+        "bottom": 925
+      },
+      "sha256": "ddd0981e5820ac8fc0434238213a47506d3750afe014fd85e54440af3caf9fd3"
+    }
   }
 }

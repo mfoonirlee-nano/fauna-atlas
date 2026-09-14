@@ -66,7 +66,7 @@
 - [x] 霍加狓 *Okapia johnstoni* — “看看它的腿上有哪些条纹。”
 - [x] 美洲野牛 *Bison bison* — “找找肩背高高隆起的地方。”
 - [x] 高鼻羚羊 *Saiga tatarica* — “看看它向下鼓出来的大鼻子。”
-- [ ] 黑猩猩 *Pan troglodytes* — “找找它握住东西的手指。”
+- [x] 黑猩猩 *Pan troglodytes* — “找找它握住东西的手指。”
 - [ ] 婆罗洲猩猩 *Pongo pygmaeus* — “看看它伸长手臂抓住树枝。”
 - [ ] 鸡尾鹦鹉 *Nymphicus hollandicus* — “找找头顶竖起来的羽毛。”
 - [ ] 疣鼻天鹅 *Cygnus olor* — “看看长脖子怎样弯起来。”
