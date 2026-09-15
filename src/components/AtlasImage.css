@@ -1,0 +1,20 @@
+.atlas-image {
+  display: contents;
+}
+
+/* Keep the real image in layout and preserve native lazy loading while pending. */
+.atlas-image[data-status='loading'] > .atlas-image__photo,
+.atlas-image[data-status='error'] > .atlas-image__photo {
+  opacity: 0 !important;
+}
+
+.atlas-image > .atlas-image__placeholder {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  transform: none !important;
+  pointer-events: none;
+}

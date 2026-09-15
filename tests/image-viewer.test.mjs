@@ -95,7 +95,7 @@ test('the topmost dialog owns keyboard input and returns focus one layer at a ti
 
 test('viewer fills the viewport, preserves the whole photo and adapts on narrow screens', () => {
   assert.match(stylesSource, /\.image-viewer\s*{[^}]*position:\s*fixed[^}]*z-index:\s*200[^}]*inset:\s*0/s);
-  assert.match(stylesSource, /\.image-viewer__stage > img\s*{[^}]*object-fit:\s*contain/s);
+  assert.match(stylesSource, /\.image-viewer__stage > \.atlas-image > img\s*{[^}]*object-fit:\s*contain/s);
   assert.match(stylesSource, /\.detail-backdrop\s*{[^}]*z-index:\s*100/s);
   assert.match(stylesSource, /\.image-viewer--single\s*{[^}]*grid-template-rows:\s*70px minmax\(0, 1fr\)/s);
   assert.match(stylesSource, /\.image-viewer__main\s*{[^}]*grid-template-columns:\s*minmax\(0, 1fr\) clamp\(320px, 27vw, 420px\)/s);

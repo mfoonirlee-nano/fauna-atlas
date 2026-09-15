@@ -38,6 +38,7 @@ import {
   type RefObject,
 } from 'react';
 import { coverSubjects } from './data/cover-subjects';
+import { AtlasImage } from './components/AtlasImage';
 import { TaxonomyExplorer } from './components/TaxonomyExplorer';
 import { species, loadSpecies } from 'virtual:species-catalogue';
 import { createProfileLoader } from './domain/profile-loader';
@@ -241,7 +242,7 @@ function TaxonArtwork({ item, index, large = false }: { item: SpeciesSummary; in
       style={focalPointStyle(item.media.focalPoint)}
     >
       {item.media.image ? (
-        <img src={item.media.image} alt={item.media.alt} />
+        <AtlasImage src={item.media.image} alt={item.media.alt} />
       ) : (
         <>
           <span className="taxon-art__coordinates" aria-hidden="true">
@@ -306,7 +307,7 @@ function SpeciesGallery({ item, onOpenImage }: SpeciesGalleryProps) {
               onClick={(event) => onOpenImage(imageIndex + galleryFrameOffset, event.currentTarget)}
               aria-label={`全屏查看${item.names.zh}影像：${image.title}`}
             >
-              <img src={image.image} alt={image.alt} loading="lazy" decoding="async" />
+              <AtlasImage src={image.image} alt={image.alt} loading="lazy" decoding="async" />
               <span className="detail-gallery__zoom" aria-hidden="true">
                 <Maximize2 size={16} />
                 全屏查看
@@ -390,7 +391,7 @@ function SpeciesImageViewer({
           <span className="image-viewer__coordinates" aria-hidden="true">
             {formatCoordinates(item.distribution.center)}
           </span>
-          <img
+          <AtlasImage
             key={frame.id}
             src={frame.image}
             alt={frame.alt}
@@ -466,7 +467,7 @@ function SpeciesImageViewer({
               aria-current={index === activeIndex ? 'true' : undefined}
             >
               <span>{String(index + 1).padStart(2, '0')}</span>
-              <img src={candidate.image} alt="" style={focalPointStyle(candidate.focalPoint)} loading="lazy" decoding="async" />
+              <AtlasImage src={candidate.image} alt="" style={focalPointStyle(candidate.focalPoint)} loading="lazy" decoding="async" />
             </button>
           ))}
         </nav>
@@ -1086,7 +1087,7 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
             className={coverSubjects[previousSpecies.slug] ? 'hero-subject-frame' : undefined}
             style={heroSubjectStyle(previousSpecies.slug)}
           >
-            <img
+            <AtlasImage
               className={`hero__image hero__image--leaving-${directionClass}`}
               src={previousSpecies.media.image}
               alt=""
@@ -1105,7 +1106,7 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
             aria-label={`第 ${frame.activeIndex + 1} 张，共 ${slideCount} 张：${heroSpecies.names.zh}`}
           >
             <div className={coverSubjects[heroSpecies.slug] ? 'hero-subject-frame' : undefined} style={heroSubjectStyle(heroSpecies.slug)}>
-              <img
+              <AtlasImage
                 className={`hero__image ${
                   frame.revision === 0
                     ? 'hero__image--initial'
