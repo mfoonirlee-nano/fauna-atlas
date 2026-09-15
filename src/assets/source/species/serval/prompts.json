@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-15",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Serval Leptailurus serval, slender African wild cat with very long legs, small head, exceptionally large oval ears, golden coat with separate black spots and neck stripes, short ringed tail, no ear tufts. Scene: full adult standing alert in short African wet grassland, all long legs paws ears tail clearly visible. Species cover: maximize complete animal within x=660..1470 y=70..945. Full body including ear tips all feet and entire tail must fit in right 55%; center about 73% source width. Left 40% quiet defocused habitat only. Leave real background margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Serval Leptailurus serval, slender African wild cat with very long legs, small head, exceptionally large oval ears, golden coat with separate black spots and neck stripes, short ringed tail, no ear tufts. Scene: close view of large oval ears listening among grasses. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Serval Leptailurus serval, slender African wild cat with very long legs, small head, exceptionally large oval ears, golden coat with separate black spots and neck stripes, short ringed tail, no ear tufts. Scene: full body walking through short grass showing long legs. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Serval Leptailurus serval, slender African wild cat with very long legs, small head, exceptionally large oval ears, golden coat with separate black spots and neck stripes, short ringed tail, no ear tufts. Scene: adult making a small vertical pounce above low grass, all four limbs anatomically correct, no prey visible. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Serval Leptailurus serval, slender African wild cat with very long legs, small head, exceptionally large oval ears, golden coat with separate black spots and neck stripes, short ringed tail, no ear tufts. Scene: adult beside papyrus wetland at dusk full body. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Serval Leptailurus serval, slender African wild cat with very long legs, small head, exceptionally large oval ears, golden coat with separate black spots and neck stripes, short ringed tail, no ear tufts. Scene: spotted kitten sitting in sheltered grass cover. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    }
+  ]
+}

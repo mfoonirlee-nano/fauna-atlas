@@ -400,3 +400,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Sun Bear image set](./species/sun-bear/README.md)
 - [Jaguar image set](./species/jaguar/README.md)
 - [Puma image set](./species/puma/README.md)
+- [Serval image set](./species/serval/README.md)

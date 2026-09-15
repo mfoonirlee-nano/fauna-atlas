@@ -908,5 +908,18 @@
       },
       "sha256": "fbc50d48eca54f5b99575d82aaec30379cb9f8bf2f0658adebf2fa011c30a439"
     }
+  },
+  "serval": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 37,
+        "right": 1408,
+        "bottom": 922
+      },
+      "sha256": "8612f683b3afd71ee73c36d3a681732b4274da289d1e21981057288a9428fea3"
+    }
   }
 }
