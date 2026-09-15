@@ -37,8 +37,8 @@ export function speciesBundle(): Plugin {
         const indexes = new Map(taxa.map((taxon, index) => [JSON.stringify(taxon), index]));
         // Ship the six rank names once; retain their order when restoring each lineage.
         // Restore redundant ids and compact text field names on the client.
-        const catalogue = summaries.map(({ id, scientificName, summary, conservation, distribution, taxonomy, ...item }) => ({ ...item,
-          n: scientificName, s: summary, c: conservation.code, d: distribution,
+        const catalogue = summaries.map(({ id, scientificName, summary, conservation, distribution, taxonomy, media, habitats, tags, ...item }) => ({ ...item,
+          n: scientificName, s: summary, c: conservation.code, d: distribution, m: media, h: habitats, g: tags,
           ...(id === item.slug ? {} : { id }),
           t: taxonomyRanks.map((rank) => indexes.get(JSON.stringify(taxonomy[rank]))),
         }));
@@ -47,8 +47,8 @@ export function speciesBundle(): Plugin {
         ).join(',');
         return `const taxa=${JSON.stringify(taxa)};
           const ranks=${JSON.stringify(taxonomyRanks)};
-          export const species=${JSON.stringify(catalogue)}.map(({n,s,c,d,t,...item})=>({...item,id:item.id??item.slug,scientificName:n,summary:s,
-            conservation:{code:c},distribution:d,
+          export const species=${JSON.stringify(catalogue)}.map(({n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,scientificName:n,summary:s,
+            conservation:{code:c},distribution:d,media:m,habitats:h,tags:g,
             taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[t[index]]]))}));
           const loaders={${loaders}};
           export async function loadSpecies(slug){
