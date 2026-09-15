@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-15",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Sun bear Helarctos malayanus, small compact black bear with short sleek fur, light tan muzzle, small round ears, pale orange crescent chest patch. Scene: adult sitting upright beside a fallen tropical tree, chest patch visible and all paws shown. Species cover: maximize complete animal within x=660..1470 y=70..945. Full body including ear tips all feet and entire tail must fit in right 55%; center about 73% source width. Left 40% quiet defocused habitat only. Leave real background margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Sun bear Helarctos malayanus, small compact black bear with short sleek fur, light tan muzzle, small round ears, pale orange crescent chest patch. Scene: front three-quarter view of pale orange crescent chest patch. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Sun bear Helarctos malayanus, small compact black bear with short sleek fur, light tan muzzle, small round ears, pale orange crescent chest patch. Scene: adult climbing a tropical tree trunk all paws anatomically plausible. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Sun bear Helarctos malayanus, small compact black bear with short sleek fur, light tan muzzle, small round ears, pale orange crescent chest patch. Scene: adult licking ants from decayed wood with long narrow tongue, natural behavior. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Sun bear Helarctos malayanus, small compact black bear with short sleek fur, light tan muzzle, small round ears, pale orange crescent chest patch. Scene: adult eating a fig among fallen fruit. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Sun bear Helarctos malayanus, small compact black bear with short sleek fur, light tan muzzle, small round ears, pale orange crescent chest patch. Scene: adult resting on a broad tree branch, full body visible. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    }
+  ]
+}

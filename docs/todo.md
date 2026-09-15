@@ -102,7 +102,7 @@
 
 - [x] 北极狐 *Vulpes lagopus* — “看看冬天和夏天的毛色有什么不同。”
 - [x] 美洲黑熊 *Ursus americanus* — “看看黑熊怎样抱住树干往上爬。”
-- [ ] 马来熊 *Helarctos malayanus* — “找找胸前浅色的花纹。”
+- [x] 马来熊 *Helarctos malayanus* — “找找胸前浅色的花纹。”
 - [ ] 美洲豹 *Panthera onca* — “在大斑纹里面找找小黑点。”
 - [ ] 美洲狮 *Puma concolor* — “看看它长长的尾巴。”
 - [ ] 薮猫 *Leptailurus serval* — “找找长腿和大耳朵。”

@@ -397,3 +397,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Arctic Fox image set](./species/arctic-fox/README.md)
 
 - [American Black Bear image set](./species/american-black-bear/README.md)
+- [Sun Bear image set](./species/sun-bear/README.md)

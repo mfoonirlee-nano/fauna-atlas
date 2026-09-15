@@ -869,5 +869,18 @@
       },
       "sha256": "489f8de175c9d4ed0c1794d564bd61b3a80a690d78c6b705f07195d74787f903"
     }
+  },
+  "sun-bear": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 690,
+        "top": 48,
+        "right": 1295,
+        "bottom": 979
+      },
+      "sha256": "8f1a492f1269b09ab837a9f394c378a2728d1fbc02a69ec4a2d3b126fc74b068"
+    }
   }
 }

@@ -2410,5 +2410,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1430,
       "bottom": 924
     }
+  },
+  "sun-bear": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 690,
+      "top": 48,
+      "right": 1295,
+      "bottom": 979
+    }
   }
 };
