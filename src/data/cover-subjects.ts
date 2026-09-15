@@ -2470,5 +2470,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1470,
       "bottom": 870
     }
+  },
+  "african-wild-dog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 695,
+      "top": 98,
+      "right": 1425,
+      "bottom": 950
+    }
   }
 };

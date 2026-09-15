@@ -108,7 +108,7 @@
 - [x] 薮猫 *Leptailurus serval* — “找找长腿和大耳朵。”
 - [x] 欧亚猞猁 *Lynx lynx* — “看看它的尾巴有多短。”
 - [x] 灰狼 *Canis lupus* — “看看它抬头嚎叫的姿势。”
-- [ ] 非洲野犬 *Lycaon pictus* — “看看身上的深色和浅色斑块。”
+- [x] 非洲野犬 *Lycaon pictus* — “看看身上的深色和浅色斑块。”
 - [ ] 斑鬣狗 *Crocuta crocuta* — “看看它前高后低的身体。”
 - [ ] 蜜獾 *Mellivora capensis* — “看看背部和肚子的毛色。”
 - [ ] 狼獾 *Gulo gulo* — “找找宽宽的脚掌。”

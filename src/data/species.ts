@@ -77416,6 +77416,242 @@ export const species = [
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15"
 },
+{
+  "id": "african-wild-dog",
+  "slug": "african-wild-dog",
+  "names": {
+    "zh": "非洲野犬",
+    "en": "African Wild Dog"
+  },
+  "scientificName": "Lycaon pictus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Canidae",
+      "zhName": "犬科"
+    },
+    "genus": {
+      "scientificName": "Lycaon",
+      "zhName": "非洲野犬属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "decreasing",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "非洲南部",
+      "非洲东部"
+    ],
+    "countries": [],
+    "range": "现存种群主要集中在非洲南部和东部，分布破碎，需要大面积、彼此连通的活动空间。"
+  },
+  "habitats": [
+    {
+      "name": "稀树草原与疏林",
+      "realm": "terrestrial",
+      "description": "现存种群主要集中在非洲南部和东部，分布破碎，需要大面积、彼此连通的活动空间。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "羚羊",
+      "其他中型有蹄类",
+      "野兔"
+    ],
+    "description": "以肉食为主，群体合作追逐猎物，也捕食野兔等小动物。"
+  },
+  "tags": [
+    "非洲野犬",
+    "深浅相间的斑块"
+  ],
+  "summary": "看看非洲野犬身上的深色和浅色斑块。",
+  "description": "非洲野犬有长腿、大圆耳和深浅相间的毛色。每只的斑块排列不同，蓬松的尾巴末端通常呈白色。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "找找身上的斑块",
+      "body": "沿着身体找找黑色、黄褐色和白色，每只野犬的花纹都不一样。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "两只大圆耳朵",
+      "body": "看看头顶两只宽宽的圆耳朵。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "一起走过草原",
+      "body": "非洲野犬成群活动，会合作寻找和追逐猎物。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "洞口的幼崽",
+      "body": "幼崽在洞穴中长大，群体成员会帮助照顾和喂养它们。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "树荫下休息",
+      "body": "在草原上找找树荫和卧着休息的野犬。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为濒危。保护连通的活动空间、减少捕套和家犬疾病传播，能帮助分散的野犬种群延续。"
+    }
+  ],
+  "keyFacts": [
+    "沿着身体找找黑色、黄褐色和白色，每只野犬的花纹都不一样。",
+    "看看头顶两只宽宽的圆耳朵。",
+    "非洲野犬成群活动，会合作寻找和追逐猎物。",
+    "幼崽在洞穴中长大，群体成员会帮助照顾和喂养它们。",
+    "在草原上找找树荫和卧着休息的野犬。"
+  ],
+  "threats": [
+    "栖息地破碎化",
+    "家养动物传播的疾病",
+    "人兽冲突与意外捕套"
+  ],
+  "conservationActions": [
+    "保护生境廊道",
+    "减少捕套和冲突",
+    "防控家犬传染病"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "深浅相间的斑块"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "稀树草原与疏林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/african-wild-dog/01-cover.webp",
+    "alt": "非洲野犬的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/african-wild-dog/02-observation.webp",
+        "title": "找找身上的斑块",
+        "alt": "非洲野犬：找找身上的斑块",
+        "caption": "AI 生成科学情景重建。沿着身体找找黑色、黄褐色和白色，每只野犬的花纹都不一样。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/african-wild-dog/03-observation.webp",
+        "title": "两只大圆耳朵",
+        "alt": "非洲野犬：两只大圆耳朵",
+        "caption": "AI 生成科学情景重建。看看头顶两只宽宽的圆耳朵。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/african-wild-dog/04-observation.webp",
+        "title": "一起走过草原",
+        "alt": "非洲野犬：一起走过草原",
+        "caption": "AI 生成科学情景重建。非洲野犬成群活动，会合作寻找和追逐猎物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/african-wild-dog/05-observation.webp",
+        "title": "洞口的幼崽",
+        "alt": "非洲野犬：洞口的幼崽",
+        "caption": "AI 生成科学情景重建。幼崽在洞穴中长大，群体成员会帮助照顾和喂养它们。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/african-wild-dog/06-observation.webp",
+        "title": "树荫下休息",
+        "alt": "非洲野犬：树荫下休息",
+        "caption": "AI 生成科学情景重建。在草原上找找树荫和卧着休息的野犬。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Animal Diversity Web：非洲野犬分类与生态",
+      "url": "https://animaldiversity.org/accounts/Lycaon_pictus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-15"
+    },
+    {
+      "title": "IUCN 犬科专家组：非洲野犬",
+      "url": "https://www.canids.org/species/view/African-wild-dog",
+      "kind": "conservation",
+      "accessedAt": "2026-09-15"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-15"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

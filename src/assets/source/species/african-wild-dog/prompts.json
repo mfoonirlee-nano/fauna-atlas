@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape editorial wildlife photograph style image for species cover. One anatomically accurate African wild dog Lycaon pictus in savanna grassland, irregular black tan white patches, huge round ears, white tail tip, standing. Full body with all visible feet ears nose and entire tail inside image. Large subject wholly within x=640..1460 y=90..930, center at 70% width. Left 40% quiet natural habitat for text. Natural light, realistic anatomy. No text, logos, collars, watermark, violence or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of African wild dog Lycaon pictus. Side view full body showing irregular tan black and white patches and white tail tip. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of African wild dog Lycaon pictus. Head portrait showing two large round ears, mottled face. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of African wild dog Lycaon pictus. Three adults walking together across open savanna. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of African wild dog Lycaon pictus. Two young pups outside a natural earth den with an adult nearby. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of African wild dog Lycaon pictus. Adult resting under sparse savanna tree shade, all body visible. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  }
+]
