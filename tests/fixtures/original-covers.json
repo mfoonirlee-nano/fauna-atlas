@@ -973,5 +973,18 @@
       },
       "sha256": "eef3fc004d0fe8c251e9b4b64dade6d1f12583da0686a6b175c06200ab972306"
     }
+  },
+  "honey-badger": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 230,
+        "right": 1480,
+        "bottom": 735
+      },
+      "sha256": "73f26100fa4e2cc3b4976b4df7843d8de6601644175df6a8be88226ea9ed4481"
+    }
   }
 }

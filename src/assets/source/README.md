@@ -406,3 +406,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Gray Wolf image set](./species/gray-wolf/README.md)
 - [African Wild Dog image set](./species/african-wild-dog/README.md)
 - [Spotted Hyena image set](./species/spotted-hyena/README.md)
+- [Honey Badger image set](./species/honey-badger/README.md)

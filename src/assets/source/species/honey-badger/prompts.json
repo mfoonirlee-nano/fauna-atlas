@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. New 1536x1024 editorial wildlife image for honey badger Mellivora capensis cover. Full body adult standing in profile in dry scrub. Silver gray broad mantle from crown over back, black face belly and short strong legs, long front claws. Place animal entirely within x=710..1430 and y=180..850, nose no farther left than 710, entire tail no farther right than 1430, all feet visible. Large clear subject centered 70 percent across image. Left 45 percent empty quiet natural sandy scrub ground. Realistic anatomy, soft daylight. No text, logo, watermark or other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of honey badger Mellivora capensis. Side view full body showing silver gray dorsal mantle contrasting with black belly. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of honey badger Mellivora capensis. Full body digging in loose sandy soil with long front claws, no prey visible. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of honey badger Mellivora capensis. Close head portrait of small ears and dark muzzle beneath pale crown. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of honey badger Mellivora capensis. Adult sniffing around roots in dry scrubland, full body. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of honey badger Mellivora capensis. Small juvenile following an adult through scrub, gray mantle black underside. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  }
+]

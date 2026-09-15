@@ -2490,5 +2490,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1455,
       "bottom": 856
     }
+  },
+  "honey-badger": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 230,
+      "right": 1480,
+      "bottom": 735
+    }
   }
 };

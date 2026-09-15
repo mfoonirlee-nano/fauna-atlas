@@ -110,7 +110,7 @@
 - [x] 灰狼 *Canis lupus* — “看看它抬头嚎叫的姿势。”
 - [x] 非洲野犬 *Lycaon pictus* — “看看身上的深色和浅色斑块。”
 - [x] 斑鬣狗 *Crocuta crocuta* — “看看它前高后低的身体。”
-- [ ] 蜜獾 *Mellivora capensis* — “看看背部和肚子的毛色。”
+- [x] 蜜獾 *Mellivora capensis* — “看看背部和肚子的毛色。”
 - [ ] 狼獾 *Gulo gulo* — “找找宽宽的脚掌。”
 - [ ] 欧洲狗獾 *Meles meles* — “找找脸上的黑白条纹。”
 - [ ] 南美浣熊 *Nasua nasua* — “看看它低下长鼻子寻找食物。”
