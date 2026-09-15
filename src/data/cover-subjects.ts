@@ -2430,5 +2430,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1484,
       "bottom": 850
     }
+  },
+  "puma": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 664,
+      "top": 111,
+      "right": 1480,
+      "bottom": 839
+    }
   }
 };

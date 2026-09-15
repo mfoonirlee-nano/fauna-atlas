@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-15",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Puma concolor cougar, adult tawny unspotted coat, small round ears, pale chin and muzzle, long thick dark-tipped tail. Scene: full adult standing three-quarter view on rocky woodland ledge, long tail curving alongside body all visible. Species cover: maximize complete animal within x=660..1470 y=70..945. Full body including ear tips all feet and entire tail must fit in right 55%; center about 73% source width. Left 40% quiet defocused habitat only. Leave real background margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Puma concolor cougar, adult tawny unspotted coat, small round ears, pale chin and muzzle, long thick dark-tipped tail. Scene: full body side view walking with long tail visible. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Puma concolor cougar, adult tawny unspotted coat, small round ears, pale chin and muzzle, long thick dark-tipped tail. Scene: adult stepping onto a low rock with powerful hind legs visible. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Puma concolor cougar, adult tawny unspotted coat, small round ears, pale chin and muzzle, long thick dark-tipped tail. Scene: adult resting under shrubs with forepaws extended. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Puma concolor cougar, adult tawny unspotted coat, small round ears, pale chin and muzzle, long thick dark-tipped tail. Scene: close portrait of rounded ears and pale chin. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Puma concolor cougar, adult tawny unspotted coat, small round ears, pale chin and muzzle, long thick dark-tipped tail. Scene: young spotted cougar cub resting beside unspotted mother. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    }
+  ]
+}

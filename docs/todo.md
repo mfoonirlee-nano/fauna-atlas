@@ -104,7 +104,7 @@
 - [x] 美洲黑熊 *Ursus americanus* — “看看黑熊怎样抱住树干往上爬。”
 - [x] 马来熊 *Helarctos malayanus* — “找找胸前浅色的花纹。”
 - [x] 美洲豹 *Panthera onca* — “在大斑纹里面找找小黑点。”
-- [ ] 美洲狮 *Puma concolor* — “看看它长长的尾巴。”
+- [x] 美洲狮 *Puma concolor* — “看看它长长的尾巴。”
 - [ ] 薮猫 *Leptailurus serval* — “找找长腿和大耳朵。”
 - [ ] 欧亚猞猁 *Lynx lynx* — “看看它的尾巴有多短。”
 - [ ] 灰狼 *Canis lupus* — “看看它抬头嚎叫的姿势。”

@@ -895,5 +895,18 @@
       },
       "sha256": "d861b077c86eef402d26437e8e3732db5538668ea49a2fdcb8430675b0a9c091"
     }
+  },
+  "puma": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 664,
+        "top": 111,
+        "right": 1480,
+        "bottom": 839
+      },
+      "sha256": "fbc50d48eca54f5b99575d82aaec30379cb9f8bf2f0658adebf2fa011c30a439"
+    }
   }
 }
