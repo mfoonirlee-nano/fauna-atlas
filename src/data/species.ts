@@ -77171,6 +77171,251 @@ export const species = [
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15"
 },
+{
+  "id": "gray-wolf",
+  "slug": "gray-wolf",
+  "names": {
+    "zh": "灰狼",
+    "en": "Gray Wolf"
+  },
+  "scientificName": "Canis lupus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Canidae",
+      "zhName": "犬科"
+    },
+    "genus": {
+      "scientificName": "Canis",
+      "zhName": "犬属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "stable",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲",
+      "亚洲",
+      "北美洲"
+    ],
+    "regions": [
+      "欧亚大陆",
+      "北美洲"
+    ],
+    "countries": [],
+    "range": "分布于欧亚大陆和北美洲的适宜生境，部分历史分布区已经失去狼群。"
+  },
+  "habitats": [
+    {
+      "name": "森林、草原与苔原",
+      "realm": "terrestrial",
+      "description": "分布于欧亚大陆和北美洲的适宜生境，部分历史分布区已经失去狼群。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鹿",
+      "马鹿",
+      "野兔",
+      "其他哺乳动物"
+    ],
+    "description": "主要吃肉，常捕食有蹄类，也取食小型哺乳动物和腐肉。"
+  },
+  "tags": [
+    "灰狼",
+    "抬头嚎叫"
+  ],
+  "summary": "看看灰狼抬头嚎叫的姿势。",
+  "description": "灰狼有长腿、较长的口鼻和蓬松的尾巴。毛色可混有灰、褐、黑、白色，也有接近全白或全黑的个体。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "抬头嚎叫",
+      "body": "狼会用嚎叫与同伴联络。白天也会嚎叫，不需要等到月亮出现。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "洞口的一家",
+      "body": "狼群常由亲代和后代组成，群体成员会照顾幼狼。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "走过林间小路",
+      "body": "找找迈开的长腿和垂在后面的蓬松尾巴。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "耳朵和长嘴巴",
+      "body": "看看竖起的耳朵，再找找向前伸出的口鼻。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "低头闻一闻",
+      "body": "狼会用嗅觉寻找食物，也通过气味了解同伴的活动。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为无危，全球趋势稳定，各地种群处境有差异。保护生境和野生猎物、减少与牧业的冲突，有助于狼群生存。"
+    }
+  ],
+  "keyFacts": [
+    "狼会用嚎叫与同伴联络。白天也会嚎叫，不需要等到月亮出现。",
+    "狼群常由亲代和后代组成，群体成员会照顾幼狼。",
+    "找找迈开的长腿和垂在后面的蓬松尾巴。",
+    "看看竖起的耳朵，再找找向前伸出的口鼻。",
+    "狼会用嗅觉寻找食物，也通过气味了解同伴的活动。"
+  ],
+  "threats": [
+    "人兽冲突造成的捕杀",
+    "栖息地破碎化",
+    "猎物减少"
+  ],
+  "conservationActions": [
+    "保护连通的栖息地",
+    "改善家畜防护",
+    "监测地方种群"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "抬头嚎叫"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "森林、草原与苔原"
+    }
+  ],
+  "media": {
+    "image": "./images/species/gray-wolf/01-cover.webp",
+    "alt": "灰狼的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/gray-wolf/02-observation.webp",
+        "title": "抬头嚎叫",
+        "alt": "灰狼：抬头嚎叫",
+        "caption": "AI 生成科学情景重建。狼会用嚎叫与同伴联络。白天也会嚎叫，不需要等到月亮出现。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/gray-wolf/03-observation.webp",
+        "title": "洞口的一家",
+        "alt": "灰狼：洞口的一家",
+        "caption": "AI 生成科学情景重建。狼群常由亲代和后代组成，群体成员会照顾幼狼。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/gray-wolf/04-observation.webp",
+        "title": "走过林间小路",
+        "alt": "灰狼：走过林间小路",
+        "caption": "AI 生成科学情景重建。找找迈开的长腿和垂在后面的蓬松尾巴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/gray-wolf/05-observation.webp",
+        "title": "耳朵和长嘴巴",
+        "alt": "灰狼：耳朵和长嘴巴",
+        "caption": "AI 生成科学情景重建。看看竖起的耳朵，再找找向前伸出的口鼻。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/gray-wolf/06-observation.webp",
+        "title": "低头闻一闻",
+        "alt": "灰狼：低头闻一闻",
+        "caption": "AI 生成科学情景重建。狼会用嗅觉寻找食物，也通过气味了解同伴的活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Animal Diversity Web：灰狼分类与生态",
+      "url": "https://animaldiversity.org/accounts/Canis_lupus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-15"
+    },
+    {
+      "title": "IUCN 犬科专家组：灰狼全球等级",
+      "url": "https://www.canids.org/species/view/PREKLD895731",
+      "kind": "conservation",
+      "accessedAt": "2026-09-15"
+    },
+    {
+      "title": "美国国家公园管理局：灰狼",
+      "url": "https://www.nps.gov/articles/life-of-a-wolf.htm",
+      "kind": "ecology",
+      "accessedAt": "2026-09-15"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-15"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

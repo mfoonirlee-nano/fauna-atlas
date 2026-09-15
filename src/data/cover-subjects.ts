@@ -2460,5 +2460,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1455,
       "bottom": 818
     }
+  },
+  "gray-wolf": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 738,
+      "top": 130,
+      "right": 1470,
+      "bottom": 870
+    }
   }
 };

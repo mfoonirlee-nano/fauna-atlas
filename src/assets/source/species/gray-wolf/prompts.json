@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape editorial wildlife photograph style image for species cover. One anatomically accurate gray wolf Canis lupus in a pine forest clearing, gray mixed fur, standing in profile, bushy tail lowered. Full body with all visible feet ears nose and entire tail inside image. Large subject wholly within x=640..1460 y=90..930, center at 70% width. Left 40% quiet natural habitat for text. Natural light, realistic anatomy. No text, logos, collars, watermark, violence or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of gray wolf Canis lupus. Full body adult standing raising its muzzle to howl in daylight, forest clearing. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of gray wolf Canis lupus. Two adult wolves and two pups resting beside a natural den, calm interaction. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of gray wolf Canis lupus. Side view walking along a forest trail, long legs and lowered bushy tail. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of gray wolf Canis lupus. Face portrait with erect ears and long muzzle, calm closed mouth. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of gray wolf Canis lupus. Adult sniffing the ground near a woodland stream. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  }
+]

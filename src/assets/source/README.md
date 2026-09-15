@@ -403,3 +403,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Serval image set](./species/serval/README.md)
 
 - [Eurasian Lynx image set](./species/eurasian-lynx/README.md)
+- [Gray Wolf image set](./species/gray-wolf/README.md)

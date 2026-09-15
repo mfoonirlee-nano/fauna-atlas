@@ -934,5 +934,18 @@
       },
       "sha256": "5c88f54a042b06810ad72c06fb70f30827bd48bde539eeefe67930b7b4c8e763"
     }
+  },
+  "gray-wolf": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 738,
+        "top": 130,
+        "right": 1470,
+        "bottom": 870
+      },
+      "sha256": "8c3c1216f1183a7f534e246ccac28da3e3ed19febf057adfa1260a66d6bbc9ec"
+    }
   }
 }
