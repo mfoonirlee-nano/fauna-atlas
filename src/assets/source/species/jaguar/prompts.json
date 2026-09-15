@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-15",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Jaguar Panthera onca, robust muscular body, broad head, golden coat with large dark rosettes containing central black dots, not leopard. Scene: full adult standing in three-quarter view on a Pantanal riverbank with tail curved beside body entirely visible. Species cover: maximize complete animal within x=660..1470 y=70..945. Full body including ear tips all feet and entire tail must fit in right 55%; center about 73% source width. Left 40% quiet defocused habitat only. Leave real background margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Jaguar Panthera onca, robust muscular body, broad head, golden coat with large dark rosettes containing central black dots, not leopard. Scene: close lateral view of large flank rosettes containing small central black dots. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Jaguar Panthera onca, robust muscular body, broad head, golden coat with large dark rosettes containing central black dots, not leopard. Scene: adult wading in shallow river water, no prey. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Jaguar Panthera onca, robust muscular body, broad head, golden coat with large dark rosettes containing central black dots, not leopard. Scene: adult walking on forest trail, full tail visible. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Jaguar Panthera onca, robust muscular body, broad head, golden coat with large dark rosettes containing central black dots, not leopard. Scene: adult resting on a sandy riverbank in shade. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: Jaguar Panthera onca, robust muscular body, broad head, golden coat with large dark rosettes containing central black dots, not leopard. Scene: spotted cub beside mother in sheltered forest clearing. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    }
+  ]
+}

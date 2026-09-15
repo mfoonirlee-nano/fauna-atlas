@@ -398,3 +398,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [American Black Bear image set](./species/american-black-bear/README.md)
 - [Sun Bear image set](./species/sun-bear/README.md)
+- [Jaguar image set](./species/jaguar/README.md)

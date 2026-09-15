@@ -882,5 +882,18 @@
       },
       "sha256": "8f1a492f1269b09ab837a9f394c378a2728d1fbc02a69ec4a2d3b126fc74b068"
     }
+  },
+  "jaguar": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 617,
+        "top": 145,
+        "right": 1484,
+        "bottom": 850
+      },
+      "sha256": "d861b077c86eef402d26437e8e3732db5538668ea49a2fdcb8430675b0a9c091"
+    }
   }
 }

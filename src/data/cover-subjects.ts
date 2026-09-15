@@ -2420,5 +2420,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1295,
       "bottom": 979
     }
+  },
+  "jaguar": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 617,
+      "top": 145,
+      "right": 1484,
+      "bottom": 850
+    }
   }
 };
