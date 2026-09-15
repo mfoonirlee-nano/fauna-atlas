@@ -2400,5 +2400,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1470,
       "bottom": 912
     }
+  },
+  "american-black-bear": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 108,
+      "right": 1430,
+      "bottom": 924
+    }
   }
 };

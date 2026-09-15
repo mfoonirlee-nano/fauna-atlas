@@ -856,5 +856,18 @@
       },
       "sha256": "64bf13ed9ee42b9372db57f47982bf4078a8d787d060f6a5b8ae6616fc3f40da"
     }
+  },
+  "american-black-bear": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 108,
+        "right": 1430,
+        "bottom": 924
+      },
+      "sha256": "489f8de175c9d4ed0c1794d564bd61b3a80a690d78c6b705f07195d74787f903"
+    }
   }
 }

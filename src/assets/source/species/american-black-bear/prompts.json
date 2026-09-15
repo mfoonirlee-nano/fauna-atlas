@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-15",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "basename": "01-cover",
+      "prompt": "Use case: photorealistic-natural. Species cover for Fauna Atlas. One 1536x1024 landscape natural-history editorial photograph of an American black bear Ursus americanus standing by a tree in a North American temperate forest. Anatomically accurate black coat, brown muzzle, round ears, no shoulder hump. Entire bear including paws and ears fully visible, large in right 55% of frame, all animal silhouette within x=660..1470 y=90..940. Left 40% quiet forest habitat only. Natural light and colors, realistic anatomy. No text, border, watermark, collage or additional animals."
+    },
+    {
+      "basename": "02-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: American black bear Ursus americanus, black fur, brown muzzle, rounded ears, no shoulder hump. Scene: young bear climbing a thick tree trunk, full body and all paws visible. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "03-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: American black bear Ursus americanus, black fur, brown muzzle, rounded ears, no shoulder hump. Scene: close portrait of rounded ears and brown muzzle. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "04-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: American black bear Ursus americanus, black fur, brown muzzle, rounded ears, no shoulder hump. Scene: adult feeding on berries from a low shrub. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "05-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: American black bear Ursus americanus, black fur, brown muzzle, rounded ears, no shoulder hump. Scene: adult walking beside a shallow forest stream full body. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    },
+    {
+      "basename": "06-observation",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape natural-history editorial photograph. Species: American black bear Ursus americanus, black fur, brown muzzle, rounded ears, no shoulder hump. Scene: two small cubs with mother on forest floor. Gallery observation: large clear subject with comfortable margins. Scientifically plausible anatomy, natural colors and light, no text, logo, border, collage, extra limbs or watermark."
+    }
+  ]
+}
