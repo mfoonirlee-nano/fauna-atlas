@@ -106,7 +106,7 @@
 - [x] 美洲豹 *Panthera onca* — “在大斑纹里面找找小黑点。”
 - [x] 美洲狮 *Puma concolor* — “看看它长长的尾巴。”
 - [x] 薮猫 *Leptailurus serval* — “找找长腿和大耳朵。”
-- [ ] 欧亚猞猁 *Lynx lynx* — “看看它的尾巴有多短。”
+- [x] 欧亚猞猁 *Lynx lynx* — “看看它的尾巴有多短。”
 - [ ] 灰狼 *Canis lupus* — “看看它抬头嚎叫的姿势。”
 - [ ] 非洲野犬 *Lycaon pictus* — “看看身上的深色和浅色斑块。”
 - [ ] 斑鬣狗 *Crocuta crocuta* — “看看它前高后低的身体。”

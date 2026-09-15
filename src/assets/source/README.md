@@ -401,3 +401,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Jaguar image set](./species/jaguar/README.md)
 - [Puma image set](./species/puma/README.md)
 - [Serval image set](./species/serval/README.md)
+
+- [Eurasian Lynx image set](./species/eurasian-lynx/README.md)

@@ -2450,5 +2450,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1408,
       "bottom": 922
     }
+  },
+  "eurasian-lynx": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 705,
+      "top": 70,
+      "right": 1455,
+      "bottom": 818
+    }
   }
 };

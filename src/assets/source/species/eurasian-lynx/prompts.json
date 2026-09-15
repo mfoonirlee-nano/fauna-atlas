@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Generate one 1536x1024 landscape wildlife editorial image for a species cover. One anatomically accurate Eurasian lynx (Lynx lynx) standing on a mossy forest rock, full body including black ear tufts, four paws and short black-tipped tail visible. Animal large, on right, its whole silhouette within x=650..1450 and y=90..920, center around 70% width; left 40% quiet misty forest for typography. Natural light, realistic spotted tawny fur, no collar, no text or watermark, no collage. Save generated image.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of Eurasian lynx Lynx lynx. Side-rear full body view walking on forest floor, short black-tipped bobtail clearly outlined. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of Eurasian lynx Lynx lynx. Head and shoulders portrait, two black ear tufts and cheek ruff in focus. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of Eurasian lynx Lynx lynx. Full body walking through shallow snow in conifer forest, broad furry paws visible. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of Eurasian lynx Lynx lynx. Crouched alert on forest floor looking into grass, no prey. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of Eurasian lynx Lynx lynx. One lynx kitten sitting near mother in a sheltered forest clearing. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  }
+]
