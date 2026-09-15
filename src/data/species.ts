@@ -77652,6 +77652,248 @@ export const species = [
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15"
 },
+{
+  "id": "spotted-hyena",
+  "slug": "spotted-hyena",
+  "names": {
+    "zh": "斑鬣狗",
+    "en": "Spotted Hyena"
+  },
+  "scientificName": "Crocuta crocuta",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Hyaenidae",
+      "zhName": "鬣狗科"
+    },
+    "genus": {
+      "scientificName": "Crocuta",
+      "zhName": "斑鬣狗属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "撒哈拉以南非洲"
+    ],
+    "countries": [],
+    "range": "分布于撒哈拉以南非洲的多种开阔生境，局部地区已消失或数量减少。"
+  },
+  "habitats": [
+    {
+      "name": "稀树草原与开阔灌丛",
+      "realm": "terrestrial",
+      "description": "分布于撒哈拉以南非洲的多种开阔生境，局部地区已消失或数量减少。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "角马",
+      "羚羊",
+      "其他动物",
+      "腐肉"
+    ],
+    "description": "会主动捕猎，也取食其他动物留下的肉和骨骼。"
+  },
+  "tags": [
+    "斑鬣狗",
+    "前高后低的身体"
+  ],
+  "summary": "看看斑鬣狗前高后低的身体。",
+  "description": "斑鬣狗的肩部高、臀部低，背部向后倾斜。它有圆耳朵、粗壮的颈部和深色斑点，属于鬣狗科。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "倾斜的背部",
+      "body": "从肩膀向尾巴看，背部的轮廓逐渐降低。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "圆耳朵和宽嘴巴",
+      "body": "找找头顶的圆耳朵和宽宽的口鼻。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "群体中的同伴",
+      "body": "斑鬣狗组成社会群体，成员之间会用声音、气味和姿势交流。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "深色的小宝宝",
+      "body": "年幼的斑鬣狗毛色较深，长大后身上的斑点更容易看清。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "黄昏的草地",
+      "body": "斑鬣狗常在夜间活动，白天也能见到它们。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为无危，部分地区仍有下降和局部消失。保护野生猎物、改善家畜防护，可减少人兽冲突。"
+    }
+  ],
+  "keyFacts": [
+    "从肩膀向尾巴看，背部的轮廓逐渐降低。",
+    "找找头顶的圆耳朵和宽宽的口鼻。",
+    "斑鬣狗组成社会群体，成员之间会用声音、气味和姿势交流。",
+    "年幼的斑鬣狗毛色较深，长大后身上的斑点更容易看清。",
+    "斑鬣狗常在夜间活动，白天也能见到它们。"
+  ],
+  "threats": [
+    "栖息地减少",
+    "与畜牧业冲突造成的捕杀",
+    "猎物减少"
+  ],
+  "conservationActions": [
+    "保护栖息地和猎物",
+    "改进家畜防护",
+    "减少报复性捕杀"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "前高后低的身体"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "稀树草原与开阔灌丛"
+    }
+  ],
+  "media": {
+    "image": "./images/species/spotted-hyena/01-cover.webp",
+    "alt": "斑鬣狗的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/spotted-hyena/02-observation.webp",
+        "title": "倾斜的背部",
+        "alt": "斑鬣狗：倾斜的背部",
+        "caption": "AI 生成科学情景重建。从肩膀向尾巴看，背部的轮廓逐渐降低。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-hyena/03-observation.webp",
+        "title": "圆耳朵和宽嘴巴",
+        "alt": "斑鬣狗：圆耳朵和宽嘴巴",
+        "caption": "AI 生成科学情景重建。找找头顶的圆耳朵和宽宽的口鼻。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-hyena/04-observation.webp",
+        "title": "群体中的同伴",
+        "alt": "斑鬣狗：群体中的同伴",
+        "caption": "AI 生成科学情景重建。斑鬣狗组成社会群体，成员之间会用声音、气味和姿势交流。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-hyena/05-observation.webp",
+        "title": "深色的小宝宝",
+        "alt": "斑鬣狗：深色的小宝宝",
+        "caption": "AI 生成科学情景重建。年幼的斑鬣狗毛色较深，长大后身上的斑点更容易看清。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-hyena/06-observation.webp",
+        "title": "黄昏的草地",
+        "alt": "斑鬣狗：黄昏的草地",
+        "caption": "AI 生成科学情景重建。斑鬣狗常在夜间活动，白天也能见到它们。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Animal Diversity Web：斑鬣狗分类与等级",
+      "url": "https://animaldiversity.org/accounts/Crocuta_crocuta/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-15"
+    },
+    {
+      "title": "Animal Diversity Web：斑鬣狗全球等级",
+      "url": "https://animaldiversity.org/accounts/Crocuta_crocuta/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-15"
+    },
+    {
+      "title": "圣迭戈动物园：斑鬣狗",
+      "url": "https://animals.sandiegozoo.org/animals/spotted-hyena",
+      "kind": "ecology",
+      "accessedAt": "2026-09-15"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-09-15"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

@@ -960,5 +960,18 @@
       },
       "sha256": "6a068b271e8e9869abfe4147a91b6d1b95d3d9c0aaeb62fe3e327fdf49932295"
     }
+  },
+  "spotted-hyena": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 643,
+        "top": 150,
+        "right": 1455,
+        "bottom": 856
+      },
+      "sha256": "eef3fc004d0fe8c251e9b4b64dade6d1f12583da0686a6b175c06200ab972306"
+    }
   }
 }

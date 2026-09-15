@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape editorial wildlife photograph style image for species cover. One anatomically accurate spotted hyena Crocuta crocuta in savanna, round ears, sandy spotted coat, sloping back and robust forequarters, standing in profile. Full body with all visible feet ears nose and entire tail inside image. Large subject wholly within x=640..1460 y=90..930, center at 70% width. Left 40% quiet natural habitat for text. Natural light, realistic anatomy. No text, logos, collars, watermark, violence or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of spotted hyena Crocuta crocuta. Side profile walking across grassland, high shoulders and lower hips, sloping back. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of spotted hyena Crocuta crocuta. Head portrait showing rounded ears and broad muzzle. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of spotted hyena Crocuta crocuta. Three adults resting loosely together near a savanna den. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of spotted hyena Crocuta crocuta. Dark brown young cub sitting beside spotted mother near earth den. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 1536x1024 wildlife editorial photograph style scientific reconstruction of spotted hyena Crocuta crocuta. Adult walking at twilight across dry grassland, realistic spotted coat. Natural anatomy and habitat, clear main subject large in frame with breathing room, realistic light and texture. No text, watermark, collar, human objects, blood, collage or diagrams.",
+    "tool": "built-in image_gen"
+  }
+]

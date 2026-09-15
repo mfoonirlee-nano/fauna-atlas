@@ -2480,5 +2480,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1425,
       "bottom": 950
     }
+  },
+  "spotted-hyena": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 643,
+      "top": 150,
+      "right": 1455,
+      "bottom": 856
+    }
   }
 };
