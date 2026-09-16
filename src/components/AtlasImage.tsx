@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type ImgHTMLAttributes } from 'react';
-import placeholder from '../assets/image-placeholder.webp?inline';
+import placeholder from '../assets/image-placeholder.webp';
 import './AtlasImage.css';
 
 type AtlasImageProps = ImgHTMLAttributes<HTMLImageElement> & { alt: string };

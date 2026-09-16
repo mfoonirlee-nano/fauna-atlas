@@ -8,5 +8,5 @@
   "sourceHeight": 1024,
   "conversion": "cwebp -resize 768 512 -q 75 -m 6",
   "revisionNote": "Re-exported from the original generated PNG, verified by reproducing the previous 144x96 WebP byte-for-byte; no upscaling or regeneration.",
-  "usage": "Inlined by Vite; shared by covers, gallery, hero and image viewer."
+  "usage": "Emitted by Vite as a shared cacheable asset for covers, gallery, hero and image viewer; kept outside the initial JavaScript bundle."
 }

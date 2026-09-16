@@ -77,7 +77,11 @@ test('built images remain reachable when dist is hosted below a subpath', async 
     const referenceBase = ['.css', '.webmanifest'].includes(extname(file)) ? sourceUrl : documentUrl;
 
     for (const match of source.matchAll(imageReferencePattern)) {
-      references.push({ sourcePath, value: match[2], resolved: new URL(match[2], referenceBase) });
+      // Vite resolves imported assets against the JS module, not the document.
+      const moduleRelative = extname(file) === '.js'
+        && /new\s+URL\(\s*$/.test(source.slice(0, match.index))
+        && /^\s*,\s*import\.meta\.url\s*\)/.test(source.slice(match.index + match[0].length));
+      references.push({ sourcePath, value: match[2], resolved: new URL(match[2], moduleRelative ? sourceUrl : referenceBase) });
     }
   }
 
