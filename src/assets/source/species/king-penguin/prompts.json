@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: one adult king penguin Aptenodytes patagonicus, tall slender body, black head, saturated orange ear patches tapering to yellow upper breast, silver grey back, long dark bill with orange lower mandible. Scene: a sub-Antarctic South Georgia pebble beach with distant sea. Full-body cover, animal in the right third, facing slightly left, entire bill/head/flippers/feet/tail visible. Tall penguin spans approximately x950..1330 y150..880, maximum prominent size with margins. Left 40 percent quiet empty natural background. No other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult king penguin Aptenodytes patagonicus, tall slender body, black head, saturated orange ear patches tapering to yellow upper breast, silver grey back, long dark bill with orange lower mandible. Scene: a sub-Antarctic South Georgia pebble beach with distant sea. Close side portrait showing orange ear patch, black head and long bill with orange lower mandible, head complete in frame.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult king penguin Aptenodytes patagonicus, tall slender body, black head, saturated orange ear patches tapering to yellow upper breast, silver grey back, long dark bill with orange lower mandible. Scene: a sub-Antarctic South Georgia pebble beach with distant sea. Full adult standing upright with one pale egg resting on top of its feet, brood fold raised just enough to glimpse the egg; natural incubation posture on gravel, not a stone nest.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult king penguin Aptenodytes patagonicus, tall slender body, black head, saturated orange ear patches tapering to yellow upper breast, silver grey back, long dark bill with orange lower mandible. Scene: a sub-Antarctic South Georgia pebble beach with distant sea. One adult beside one large fluffy brown downy chick, both fully visible on gravel, no orange marks on chick.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult king penguin Aptenodytes patagonicus, tall slender body, black head, saturated orange ear patches tapering to yellow upper breast, silver grey back, long dark bill with orange lower mandible. Scene: a sub-Antarctic South Georgia pebble beach with distant sea. Underwater view of one complete adult using flippers to swim toward a few small silvery fish in clear blue water.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult king penguin Aptenodytes patagonicus, tall slender body, black head, saturated orange ear patches tapering to yellow upper breast, silver grey back, long dark bill with orange lower mandible. Scene: a sub-Antarctic South Georgia pebble beach with distant sea. Small group of four complete adult king penguins walking from gentle surf onto a pebble beach, natural spacing.",
+    "tool": "built-in image_gen"
+  }
+]

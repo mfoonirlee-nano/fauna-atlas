@@ -2560,5 +2560,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1487,
       "bottom": 835
     }
+  },
+  "king-penguin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 854,
+      "top": 98,
+      "right": 1318,
+      "bottom": 960
+    }
   }
 };

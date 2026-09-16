@@ -79618,6 +79618,252 @@ export const species = [
   "publishedAt": "2026-09-16",
   "updatedAt": "2026-09-16"
 },
+{
+  "id": "king-penguin",
+  "slug": "king-penguin",
+  "names": {
+    "zh": "王企鹅",
+    "en": "King Penguin"
+  },
+  "scientificName": "Aptenodytes patagonicus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Sphenisciformes",
+      "zhName": "企鹅目"
+    },
+    "family": {
+      "scientificName": "Spheniscidae",
+      "zhName": "企鹅科"
+    },
+    "genus": {
+      "scientificName": "Aptenodytes",
+      "zhName": "王企鹅属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "marine",
+      "terrestrial"
+    ],
+    "continents": [
+      "南极洲"
+    ],
+    "regions": [
+      "亚南极岛屿"
+    ],
+    "countries": [],
+    "range": "在南乔治亚岛、克罗泽群岛、凯尔盖朗群岛、麦夸里岛等亚南极岛屿繁殖，在周边海域觅食。"
+  },
+  "habitats": [
+    {
+      "name": "亚南极海岸与海洋",
+      "realm": "marine",
+      "description": "在南乔治亚岛、克罗泽群岛、凯尔盖朗群岛、麦夸里岛等亚南极岛屿繁殖，在周边海域觅食。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "height": {
+      "min": 85,
+      "max": 95,
+      "unit": "cm",
+      "note": "成鸟站立高度，不是头尾长度。"
+    }
+  },
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "灯笼鱼等小鱼",
+      "鱿鱼"
+    ],
+    "description": "取食灯笼鱼等小鱼、鱿鱼。"
+  },
+  "tags": [
+    "王企鹅",
+    "颈侧橙黄色羽毛"
+  ],
+  "summary": "找找王企鹅脖子旁边的橙黄色羽毛。",
+  "description": "王企鹅是体形仅次于帝企鹅的企鹅，颈侧有鲜亮的橙黄色斑块。它在无冰的海岸繁殖，到海里捕食。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "颈侧的橙黄色",
+      "body": "从黑色头部旁边，找找延伸到上胸的橙黄色羽毛。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "把蛋放在脚上",
+      "body": "王企鹅不筑巢，把一枚蛋放在脚背上，用腹部的皮褶盖住孵化。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "棕色的绒毛幼鸟",
+      "body": "幼鸟披着棕色绒羽，长大换羽后才有成鸟的黑白与橙黄色羽毛。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "用鳍状翅游泳",
+      "body": "王企鹅用鳍状翅划水，在海里寻找鱼和鱿鱼。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "从海里回到岸上",
+      "body": "成年王企鹅往返于海洋和繁殖地，幼鸟在岸上等候喂食。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为无危，部分繁殖群仍有下降。保护人员需要持续观察繁殖地和周边海洋环境。"
+    }
+  ],
+  "keyFacts": [
+    "从黑色头部旁边，找找延伸到上胸的橙黄色羽毛。",
+    "王企鹅不筑巢，把一枚蛋放在脚背上，用腹部的皮褶盖住孵化。",
+    "幼鸟披着棕色绒羽，长大换羽后才有成鸟的黑白与橙黄色羽毛。",
+    "王企鹅用鳍状翅划水，在海里寻找鱼和鱿鱼。",
+    "成年王企鹅往返于海洋和繁殖地，幼鸟在岸上等候喂食。"
+  ],
+  "threats": [
+    "海洋环境变化",
+    "繁殖地的人为干扰"
+  ],
+  "conservationActions": [
+    "保护繁殖地",
+    "监测海洋食物与繁殖状况"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "颈侧橙黄色羽毛"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "亚南极海岸与海洋"
+    }
+  ],
+  "media": {
+    "image": "./images/species/king-penguin/01-cover.webp",
+    "alt": "王企鹅的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/king-penguin/02-observation.webp",
+        "title": "颈侧的橙黄色",
+        "alt": "王企鹅：颈侧的橙黄色",
+        "caption": "AI 生成科学情景重建。从黑色头部旁边，找找延伸到上胸的橙黄色羽毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/king-penguin/03-observation.webp",
+        "title": "把蛋放在脚上",
+        "alt": "王企鹅：把蛋放在脚上",
+        "caption": "AI 生成科学情景重建。王企鹅不筑巢，把一枚蛋放在脚背上，用腹部的皮褶盖住孵化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/king-penguin/04-observation.webp",
+        "title": "棕色的绒毛幼鸟",
+        "alt": "王企鹅：棕色的绒毛幼鸟",
+        "caption": "AI 生成科学情景重建。幼鸟披着棕色绒羽，长大换羽后才有成鸟的黑白与橙黄色羽毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/king-penguin/05-observation.webp",
+        "title": "用鳍状翅游泳",
+        "alt": "王企鹅：用鳍状翅游泳",
+        "caption": "AI 生成科学情景重建。王企鹅用鳍状翅划水，在海里寻找鱼和鱿鱼。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/king-penguin/06-observation.webp",
+        "title": "从海里回到岸上",
+        "alt": "王企鹅：从海里回到岸上",
+        "caption": "AI 生成科学情景重建。成年王企鹅往返于海洋和繁殖地，幼鸟在岸上等候喂食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Australian Antarctic Program：王企鹅",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/king-penguin/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "Australian Antarctic Program：王企鹅全球保护等级",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/king-penguin/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "King Penguin：学名与分类",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/king-penguin/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

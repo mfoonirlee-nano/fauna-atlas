@@ -415,3 +415,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Pygmy Hippopotamus image set](./species/pygmy-hippopotamus/README.md)
 
 - [Black Rhinoceros image set](./species/black-rhinoceros/README.md)
+- [King Penguin image set](./species/king-penguin/README.md)

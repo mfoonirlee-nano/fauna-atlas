@@ -1064,5 +1064,18 @@
       },
       "sha256": "d4a3c3a30820b1dd57ae975f47bf1a7cfd3faa554dbe8760eecdd8169af5c0b1"
     }
+  },
+  "king-penguin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 854,
+        "top": 98,
+        "right": 1318,
+        "bottom": 960
+      },
+      "sha256": "b519f4772f76533a7e9477ea5c6838cf4fcd7db26c9d4ae1567664bebf8afce3"
+    }
   }
 }
