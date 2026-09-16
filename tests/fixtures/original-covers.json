@@ -1129,5 +1129,18 @@
       },
       "sha256": "1b78591dc7bb63bdc0fa069ac2377ed7c098e4e6f51bc3b8d215e76f05d408bb"
     }
+  },
+  "greater-rhea": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 54,
+        "right": 1368,
+        "bottom": 982
+      },
+      "sha256": "6101189fafb3c76e8f762816076fb87d2fe13d9dc03699334ea352559d238280"
+    }
   }
 }

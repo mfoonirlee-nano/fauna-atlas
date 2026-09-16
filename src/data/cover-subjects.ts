@@ -2610,5 +2610,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 958
     }
+  },
+  "greater-rhea": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 54,
+      "right": 1368,
+      "bottom": 982
+    }
   }
 };

@@ -421,3 +421,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [African Penguin image set](./species/african-penguin/README.md)
 
 - [Emu image set](./species/emu/README.md)
+- [Greater Rhea image set](./species/greater-rhea/README.md)

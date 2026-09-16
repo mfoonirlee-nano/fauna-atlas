@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: one adult greater rhea Rhea americana, gray-brown feathers, feathered slender neck and head, long gray legs, three toes, no ostrich white wing plumes. Habitat: South American grassy pampas. Cover: full body standing or perched on RIGHT side, whole animal including beak, feet and tail fits x=820..1390 y=95..930. Maximize body size inside those bounds. Left 40 percent quiet empty habitat for title. All extremities have background clearance. No other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult greater rhea Rhea americana, gray-brown feathers, feathered slender neck and head, long gray legs, three toes, no ostrich white wing plumes. Habitat: South American grassy pampas. Scene: Running full-body with broad feathered wings partially spread for balance, all wing tips in frame.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult greater rhea Rhea americana, gray-brown feathers, feathered slender neck and head, long gray legs, three toes, no ostrich white wing plumes. Habitat: South American grassy pampas. Scene: Close view of feathered head and neck, small bill, natural grassland background.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult greater rhea Rhea americana, gray-brown feathers, feathered slender neck and head, long gray legs, three toes, no ostrich white wing plumes. Habitat: South American grassy pampas. Scene: Male walking beside three striped chicks, full bodies visible.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult greater rhea Rhea americana, gray-brown feathers, feathered slender neck and head, long gray legs, three toes, no ostrich white wing plumes. Habitat: South American grassy pampas. Scene: Full-body grazing low broad-leaved plants in grassland.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult greater rhea Rhea americana, gray-brown feathers, feathered slender neck and head, long gray legs, three toes, no ostrich white wing plumes. Habitat: South American grassy pampas. Scene: Two adults standing at a natural grassland wetland edge, no flying.",
+    "tool": "built-in image_gen"
+  }
+]
