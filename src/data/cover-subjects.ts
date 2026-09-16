@@ -2580,5 +2580,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1355,
       "bottom": 925
     }
+  },
+  "gentoo-penguin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 823,
+      "top": 94,
+      "right": 1385,
+      "bottom": 910
+    }
   }
 };

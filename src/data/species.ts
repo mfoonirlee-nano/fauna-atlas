@@ -80116,6 +80116,260 @@ export const species = [
   "publishedAt": "2026-09-16",
   "updatedAt": "2026-09-16"
 },
+{
+  "id": "gentoo-penguin",
+  "slug": "gentoo-penguin",
+  "names": {
+    "zh": "巴布亚企鹅",
+    "en": "Gentoo Penguin"
+  },
+  "scientificName": "Pygoscelis papua",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Sphenisciformes",
+      "zhName": "企鹅目"
+    },
+    "family": {
+      "scientificName": "Spheniscidae",
+      "zhName": "企鹅科"
+    },
+    "genus": {
+      "scientificName": "Pygoscelis",
+      "zhName": "阿德利企鹅属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "marine",
+      "terrestrial"
+    ],
+    "continents": [
+      "南极洲"
+    ],
+    "regions": [
+      "亚南极岛屿与南极半岛"
+    ],
+    "countries": [],
+    "range": "在多个亚南极岛屿和南极半岛繁殖，常在繁殖地附近海域觅食。"
+  },
+  "habitats": [
+    {
+      "name": "石滩、草丛与近海",
+      "realm": "marine",
+      "description": "在多个亚南极岛屿和南极半岛繁殖，常在繁殖地附近海域觅食。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "weight": {
+      "min": 5,
+      "max": 8,
+      "unit": "kg",
+      "note": "Australian Antarctic Program 所列成鸟范围。"
+    }
+  },
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "甲壳类",
+      "小鱼",
+      "鱿鱼"
+    ],
+    "description": "取食甲壳类、小鱼、鱿鱼。"
+  },
+  "tags": [
+    "巴布亚企鹅",
+    "头顶连起来的白斑"
+  ],
+  "summary": "巴布亚企鹅头上的白斑像一道宽带。",
+  "description": "巴布亚企鹅有橙红色的嘴、橙色的脚和跨过头顶的白色花纹。它属于阿德利企鹅属；本档案采用资料来源中的广义 Pygoscelis papua 范围。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "头顶的白色花纹",
+      "body": "看看两眼上方的白斑怎样从头顶连起来。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "橙色的蹼足",
+      "body": "走上石滩时，找找橙色脚趾之间连着的蹼。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "在岸上筑巢",
+      "body": "巴布亚企鹅在石滩或草丛间筑巢，亲鸟轮流孵蛋。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "鳍状翅划水",
+      "body": "在水里，它用鳍状翅推动身体，捕捉鱼和甲壳类。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "亲鸟和幼鸟",
+      "body": "绒羽幼鸟留在岸上，由亲鸟喂食；长出适合游泳的羽毛后再下海。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为无危。不同地区的种群变化不同，保护工作需要结合当地繁殖地与海域情况。"
+    }
+  ],
+  "keyFacts": [
+    "看看两眼上方的白斑怎样从头顶连起来。",
+    "走上石滩时，找找橙色脚趾之间连着的蹼。",
+    "巴布亚企鹅在石滩或草丛间筑巢，亲鸟轮流孵蛋。",
+    "在水里，它用鳍状翅推动身体，捕捉鱼和甲壳类。",
+    "绒羽幼鸟留在岸上，由亲鸟喂食；长出适合游泳的羽毛后再下海。"
+  ],
+  "threats": [
+    "繁殖地干扰",
+    "海洋环境变化",
+    "部分地点的外来动物"
+  ],
+  "conservationActions": [
+    "保护繁殖地",
+    "减少人为干扰",
+    "持续监测各地种群"
+  ],
+  "metrics": {
+    "adultMassKg": [
+      5,
+      8
+    ]
+  },
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "头顶连起来的白斑"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "石滩、草丛与近海"
+    }
+  ],
+  "media": {
+    "image": "./images/species/gentoo-penguin/01-cover.webp",
+    "alt": "巴布亚企鹅的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/gentoo-penguin/02-observation.webp",
+        "title": "头顶的白色花纹",
+        "alt": "巴布亚企鹅：头顶的白色花纹",
+        "caption": "AI 生成科学情景重建。看看两眼上方的白斑怎样从头顶连起来。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/gentoo-penguin/03-observation.webp",
+        "title": "橙色的蹼足",
+        "alt": "巴布亚企鹅：橙色的蹼足",
+        "caption": "AI 生成科学情景重建。走上石滩时，找找橙色脚趾之间连着的蹼。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/gentoo-penguin/04-observation.webp",
+        "title": "在岸上筑巢",
+        "alt": "巴布亚企鹅：在岸上筑巢",
+        "caption": "AI 生成科学情景重建。巴布亚企鹅在石滩或草丛间筑巢，亲鸟轮流孵蛋。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/gentoo-penguin/05-observation.webp",
+        "title": "鳍状翅划水",
+        "alt": "巴布亚企鹅：鳍状翅划水",
+        "caption": "AI 生成科学情景重建。在水里，它用鳍状翅推动身体，捕捉鱼和甲壳类。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/gentoo-penguin/06-observation.webp",
+        "title": "亲鸟和幼鸟",
+        "alt": "巴布亚企鹅：亲鸟和幼鸟",
+        "caption": "AI 生成科学情景重建。绒羽幼鸟留在岸上，由亲鸟喂食；长出适合游泳的羽毛后再下海。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Australian Antarctic Program：巴布亚企鹅",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/gentoo-penguin/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "BirdLife South Africa：巴布亚企鹅全球等级与分类范围",
+      "url": "https://www.birdlife.org.za/red-data-book/red-list/gentoo-penguin/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "Gentoo Penguin：学名与分类",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/gentoo-penguin/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

@@ -1090,5 +1090,18 @@
       },
       "sha256": "95b7965ff46961f66572e36105fbeb9776069240d71f73a7a71d4f74cb98faf9"
     }
+  },
+  "gentoo-penguin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 823,
+        "top": 94,
+        "right": 1385,
+        "bottom": 910
+      },
+      "sha256": "508f57c7b2c87488d17317c5f0f63988c3f5456673a4b6b95dd2c005d0258d75"
+    }
   }
 }

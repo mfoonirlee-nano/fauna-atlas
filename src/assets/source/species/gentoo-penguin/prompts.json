@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: one adult gentoo penguin Pygoscelis papua, broad white bonnet stripe joining white patches above eyes across crown, red-orange bill, orange webbed feet, black back and white belly, long stiff brush tail. Scene: sub-Antarctic rocky shore and low tussock grass. Full-body cover, animal in the right third, facing slightly left, entire bill/head/flippers/feet/tail visible. Tall penguin spans approximately x950..1330 y150..880, maximum prominent size with margins. Left 40 percent quiet empty natural background. No other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult gentoo penguin Pygoscelis papua, broad white bonnet stripe joining white patches above eyes across crown, red-orange bill, orange webbed feet, black back and white belly, long stiff brush tail. Scene: sub-Antarctic rocky shore and low tussock grass. Head close-up in three-quarter view clearly showing broad white stripe across crown above both eyes and orange bill. Entire head visible.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult gentoo penguin Pygoscelis papua, broad white bonnet stripe joining white patches above eyes across crown, red-orange bill, orange webbed feet, black back and white belly, long stiff brush tail. Scene: sub-Antarctic rocky shore and low tussock grass. One full adult stepping from low wave onto pebbles, orange webbed feet clear, tail and flippers intact.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult gentoo penguin Pygoscelis papua, broad white bonnet stripe joining white patches above eyes across crown, red-orange bill, orange webbed feet, black back and white belly, long stiff brush tail. Scene: sub-Antarctic rocky shore and low tussock grass. One full adult bending at low pebble nest with one small smooth stone in bill, open stony shore.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult gentoo penguin Pygoscelis papua, broad white bonnet stripe joining white patches above eyes across crown, red-orange bill, orange webbed feet, black back and white belly, long stiff brush tail. Scene: sub-Antarctic rocky shore and low tussock grass. Underwater full adult swimming horizontally with two flippers extended, realistic feathers and a few small fish.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult gentoo penguin Pygoscelis papua, broad white bonnet stripe joining white patches above eyes across crown, red-orange bill, orange webbed feet, black back and white belly, long stiff brush tail. Scene: sub-Antarctic rocky shore and low tussock grass. One adult standing next to a grey-and-white downy chick on a rocky beach, complete bodies, chick has dark bill and lacks adult bright coloration.",
+    "tool": "built-in image_gen"
+  }
+]

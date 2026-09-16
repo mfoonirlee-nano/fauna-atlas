@@ -417,3 +417,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Black Rhinoceros image set](./species/black-rhinoceros/README.md)
 - [King Penguin image set](./species/king-penguin/README.md)
 - [Adélie Penguin image set](./species/adelie-penguin/README.md)
+- [Gentoo Penguin image set](./species/gentoo-penguin/README.md)
