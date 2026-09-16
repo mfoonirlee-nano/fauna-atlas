@@ -1155,5 +1155,18 @@
       },
       "sha256": "550d9f9c46dc9485ed853f44eb8726fc227fc214ab44231b7f3e556a320a7e3d"
     }
+  },
+  "blue-and-yellow-macaw": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 810,
+        "top": 48,
+        "right": 1306,
+        "bottom": 1010
+      },
+      "sha256": "336c276a9b24d99a644fd02c8267b41f009b898146ac3b4c04d5262c24b3b200"
+    }
   }
 }

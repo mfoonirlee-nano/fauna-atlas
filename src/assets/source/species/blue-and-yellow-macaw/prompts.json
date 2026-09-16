@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: one adult blue-and-yellow macaw Ara ararauna, cobalt blue back and wings, golden-yellow chest and abdomen, green forehead, black throat bib, white face with narrow black feather lines, black curved bill, long blue tail. Habitat: South American tropical riverside forest. Cover: full body standing or perched on RIGHT side, whole animal including beak, feet and tail fits x=820..1390 y=95..930. Maximize body size inside those bounds. Left 40 percent quiet empty habitat for title. All extremities have background clearance. No other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult blue-and-yellow macaw Ara ararauna, cobalt blue back and wings, golden-yellow chest and abdomen, green forehead, black throat bib, white face with narrow black feather lines, black curved bill, long blue tail. Habitat: South American tropical riverside forest. Scene: Full-body three-quarter perched view clearly comparing blue folded wing and yellow chest, complete long tail.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult blue-and-yellow macaw Ara ararauna, cobalt blue back and wings, golden-yellow chest and abdomen, green forehead, black throat bib, white face with narrow black feather lines, black curved bill, long blue tail. Habitat: South American tropical riverside forest. Scene: Close head portrait with green forehead, white cheek crossed by narrow black feather lines, black hooked bill.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult blue-and-yellow macaw Ara ararauna, cobalt blue back and wings, golden-yellow chest and abdomen, green forehead, black throat bib, white face with narrow black feather lines, black curved bill, long blue tail. Habitat: South American tropical riverside forest. Scene: Single bird flying over tropical river canopy, complete spread blue wings and long tail visible, yellow chest.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult blue-and-yellow macaw Ara ararauna, cobalt blue back and wings, golden-yellow chest and abdomen, green forehead, black throat bib, white face with narrow black feather lines, black curved bill, long blue tail. Habitat: South American tropical riverside forest. Scene: Adult using one foot to hold a nut at beak while the other foot grips a branch.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult blue-and-yellow macaw Ara ararauna, cobalt blue back and wings, golden-yellow chest and abdomen, green forehead, black throat bib, white face with narrow black feather lines, black curved bill, long blue tail. Habitat: South American tropical riverside forest. Scene: Two adults perched at a natural palm trunk cavity, long tails entirely visible.",
+    "tool": "built-in image_gen"
+  }
+]

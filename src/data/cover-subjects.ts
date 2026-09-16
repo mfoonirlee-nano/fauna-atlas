@@ -2630,5 +2630,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1435,
       "bottom": 894
     }
+  },
+  "blue-and-yellow-macaw": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 810,
+      "top": 48,
+      "right": 1306,
+      "bottom": 1010
+    }
   }
 };

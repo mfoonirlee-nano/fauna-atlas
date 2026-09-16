@@ -423,3 +423,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Emu image set](./species/emu/README.md)
 - [Greater Rhea image set](./species/greater-rhea/README.md)
 - [African Grey Parrot image set](./species/african-grey-parrot/README.md)
+- [Blue-and-yellow Macaw image set](./species/blue-and-yellow-macaw/README.md)
