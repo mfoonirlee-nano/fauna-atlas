@@ -413,3 +413,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [South American Coati image set](./species/south-american-coati/README.md)
 - [Sperm Whale image set](./species/sperm-whale/README.md)
 - [Pygmy Hippopotamus image set](./species/pygmy-hippopotamus/README.md)
+
+- [Black Rhinoceros image set](./species/black-rhinoceros/README.md)

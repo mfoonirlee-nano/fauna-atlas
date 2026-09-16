@@ -2550,5 +2550,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1490,
       "bottom": 785
     }
+  },
+  "black-rhinoceros": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 632,
+      "top": 239,
+      "right": 1487,
+      "bottom": 835
+    }
   }
 };

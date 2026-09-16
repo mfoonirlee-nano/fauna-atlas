@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas species cover. Generate one 1536x1024 landscape natural history photograph of one adult black rhinoceros Diceros bicornis standing in East African dry bushland, three-quarter side view facing left. Accurate hooked pointed prehensile upper lip, two horns, grey folded skin, rounded ears, all four legs and short tail visible. Full animal large and on right, bounding rectangle approximately x640..1440 y260..800, center beyond 60% canvas width. Left 40% quiet blurred savanna for text. Real background clearance around complete horns, ears, muzzle, feet and tail. Natural soft morning light. No text, no border, no watermark, no other animal. Save generated asset for integration into local project.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: black rhinoceros Diceros bicornis, grey folded skin, two horns and pointed hooked prehensile upper lip. Scene: East African dry bushland. Close side view of head reaching toward a leafy twig, hooked upper lip gripping leaves; clearly visible lip and both horns with breathing space.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: black rhinoceros Diceros bicornis, grey folded skin, two horns and pointed hooked prehensile upper lip. Scene: East African dry bushland. Full animal side view walking on bare sandy earth, four sturdy legs, three toes on visible near foot, complete tail and horns.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: black rhinoceros Diceros bicornis, grey folded skin, two horns and pointed hooked prehensile upper lip. Scene: East African dry bushland. One rhino wallowing in a shallow muddy pool, body partly wet and muddy, calm natural behavior.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: black rhinoceros Diceros bicornis, grey folded skin, two horns and pointed hooked prehensile upper lip. Scene: East African dry bushland. Head and shoulders portrait showing two funnel-shaped rounded ears, two horns and hooked lip, calm eye.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: black rhinoceros Diceros bicornis, grey folded skin, two horns and pointed hooked prehensile upper lip. Scene: East African dry bushland. An adult female followed by a smaller calf walking through open scrub, both complete bodies visible; no predation or aggression.",
+    "tool": "built-in image_gen"
+  }
+]
