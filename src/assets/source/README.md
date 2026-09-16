@@ -33,6 +33,8 @@ A cover passes composition review when all of these conditions hold:
 
 ### Hero acceptance
 
+**Current presentation (2026-09-16):** At the user's request, the landing-page hero now fills its entire area with the canonical cover using `object-fit: cover` and the committed focal point. Desktop and mobile use the same image. Edge cropping is intentional; the prior bounded-frame full-subject clearance results no longer establish runtime hero acceptance. Existing image hashes and source-composition records remain valid. The carousel tests now check full-area coverage at the six viewport sizes below, including animation coverage, rather than claiming complete-body visibility. The full-subject rules below describe the earlier presentation and remain reference criteria for future cover work when compatible with the requested layout.
+
 The complete reviewed subject boundary must stay inside the landing-page hero with at least 24 CSS pixels of clearance. Check the runtime WebP with its committed `focalPoint` at `320×760`, `390×760`, `1366×768`, `1920×900`, `2560×900`, and `3840×900`. Cover the settled frame plus the initial, forward, and backward enter/leave animation endpoints defined in `src/styles.css`.
 
 Also inspect the composed safe areas: the animal must remain clear of the left-side copy, the right-side carousel panel at each breakpoint, and the viewport edge. Regenerate the source when its composition fails. Resolve presentation constraints using the same cover; keep any necessary carousel layout or animation changes within the task scope and verify them against that image. A crop failure does not permit additional device-specific assets.

@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.carousel.json",
+  "compilerOptions": {
+    "outDir": "../node_modules/.tmp/species-list-test"
+  },
+  "include": ["../src/domain/species-pagination.ts"]
+}

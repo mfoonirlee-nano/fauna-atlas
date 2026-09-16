@@ -21,7 +21,7 @@
     "test:carousel": "tsc -p tests/tsconfig.carousel.json --pretty false && node --test tests/hero-carousel.test.mjs",
     "test:image-viewer": "tsc -p tests/tsconfig.image-viewer.json --pretty false && node --test tests/image-viewer.test.mjs",
     "test:brand-mark": "node --test tests/brand-mark.test.mjs",
-    "test:species-list": "node --test tests/species-list.test.mjs",
+    "test:species-list": "tsc -p tests/tsconfig.species-list.json --pretty false && node --test tests/species-list.test.mjs",
     "test:dist-subpath": "npm run build && tsc -p tests/tsconfig.taxonomy.json --pretty false && node --test tests/dist-subpath.test.mjs",
     "typecheck": "tsc -b --pretty false",
     "compress": "node scripts/compress-assets.js",

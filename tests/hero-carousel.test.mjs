@@ -20,7 +20,7 @@ const [carouselModule, speciesModule, appSource, stylesSource] = await Promise.a
 const { shouldAutoplayCarousel, stepCarouselIndex, wrapCarouselIndex } = carouselModule;
 const { species } = speciesModule;
 
-// The same canonical image is fitted by its visually reviewed full silhouette.
+// Source review records remain valid; the full-bleed hero intentionally crops these covers.
 const regeneratedCovers = JSON.parse(await readFile(new URL('./fixtures/regenerated-covers.json', import.meta.url), 'utf8'));
 const originalCovers = JSON.parse(await readFile(new URL('./fixtures/original-covers.json', import.meta.url), 'utf8'));
 const reviewedCovers = { ...regeneratedCovers, ...originalCovers };
@@ -37,26 +37,6 @@ function coverSourceCrop({ sourceWidth, sourceHeight, viewportWidth, viewportHei
     top: (sourceHeight - visibleHeight) * focalPoint.y,
     right: sourceWidth - (sourceWidth - visibleWidth) * (1 - focalPoint.x),
     bottom: sourceHeight - (sourceHeight - visibleHeight) * (1 - focalPoint.y),
-  };
-}
-
-function projectSourceBounds(bounds, crop) {
-  return {
-    left: (bounds.left - crop.left) * crop.scale,
-    top: (bounds.top - crop.top) * crop.scale,
-    right: (bounds.right - crop.left) * crop.scale,
-    bottom: (bounds.bottom - crop.top) * crop.scale,
-  };
-}
-
-function transformBounds(bounds, { viewportWidth, viewportHeight }, { scale, translateX }) {
-  const centerX = viewportWidth / 2;
-  const centerY = viewportHeight / 2;
-  return {
-    left: centerX + (bounds.left - centerX) * scale + viewportWidth * translateX,
-    top: centerY + (bounds.top - centerY) * scale,
-    right: centerX + (bounds.right - centerX) * scale + viewportWidth * translateX,
-    bottom: centerY + (bounds.bottom - centerY) * scale,
   };
 }
 
@@ -139,15 +119,19 @@ test('reviewed covers retain exactly six images per species and use the canonica
   assert.doesNotMatch(appSource, /heroArt|hero-desktop|hero-mobile/);
 });
 
-test('subject framing uses bounded container geometry and opacity-only animation', () => {
-  assert.match(stylesSource, /\.hero-subject-frame \{[^}]*top: 220px;[^}]*right: 48px;[^}]*bottom: 72px;[^}]*left: 52%;[^}]*container-type: size;/);
-  assert.match(stylesSource, /width: min\(calc\(\(100cqw - 48px\) \* var\(--subject-width-ratio\)\), calc\(\(100cqh - 48px\) \* var\(--subject-height-ratio\)\)\);/);
-  assert.match(stylesSource, /\.hero-subject-frame \{ top: 204px; right: 0; bottom: auto; left: 0; height: 224px; \}/);
-  for (const name of ['enter', 'leave']) {
-    assert.match(stylesSource, new RegExp(`@keyframes hero-subject-${name} \\{ from \\{ opacity: [01]; \\} to \\{ opacity: [01]; \\} \\}`));
+test('hero covers fill the entire canvas without bounded subject frames', () => {
+  assert.match(stylesSource, /\.hero__image \{[^}]*inset: 0;[^}]*width: 100%;[^}]*height: 100%;[^}]*object-fit: cover;/);
+  assert.doesNotMatch(appSource + stylesSource, /hero-subject-frame|hero--framed|heroSubjectStyle/);
+  assert.match(appSource, /focalPointStyle\(previousSpecies.media.focalPoint\)/);
+  assert.match(appSource, /focalPointStyle\(heroSpecies.media.focalPoint\)/);
+  // Scaling from the center preserves coverage during each transition.
+  for (const name of ['hero-enter', 'hero-enter-forward', 'hero-leave-forward', 'hero-enter-backward', 'hero-leave-backward']) {
+    const animation = stylesSource.slice(stylesSource.indexOf(`@keyframes ${name} {`)).split('\n  }')[0];
+    assert.doesNotMatch(animation, /translate/);
+    const scales = [...animation.matchAll(/scale\(([\d.]+)\)/g)].map((match) => Number(match[1]));
+    assert.equal(scales.length, 2);
+    assert.ok(scales.every((scale) => scale >= 1));
   }
-  assert.match(appSource, /heroSubjectStyle\(previousSpecies.slug\)/);
-  assert.match(appSource, /heroSubjectStyle\(heroSpecies.slug\)/);
   assert.deepEqual(Object.keys(coverSubjects).sort(), Object.keys(reviewedCovers).sort());
 });
 
@@ -161,25 +145,19 @@ test('new animal covers retain a complete right-side source silhouette', () => {
 });
 
 for (const [slug, { cover }] of Object.entries(reviewedCovers)) {
-  test(`${slug}: reviewed full subject clears viewport, copy and panel at every endpoint`, () => {
+  test(`${slug}: canonical cover fills desktop and mobile hero viewports`, () => {
     assert.deepEqual(coverSubjects[slug], { width: cover.width, height: cover.height, bounds: cover.bounds });
-    for (const [w, h] of [[320, 760], [390, 760], [1366, 768], [1920, 900], [2560, 900], [3840, 900]]) {
-      const mobile = w <= 900;
-      const frame = mobile ? { left: 0, top: 204, width: w, height: 224 } : { left: w * .52, top: 220, width: w * .48 - 48, height: h - 292 };
-      const bw = cover.bounds.right - cover.bounds.left;
-      const bh = cover.bounds.bottom - cover.bounds.top;
-      const scale = Math.min((frame.width - 48) / bw, (frame.height - 48) / bh);
-      const body = { left: frame.left + (frame.width - bw * scale) / 2, top: frame.top + (frame.height - bh * scale) / 2 };
-      const right = body.left + bw * scale;
-      const bottom = body.top + bh * scale;
-      // All six endpoints have the same geometry; opacity is the only animated property.
-      for (const endpoint of ['settled', 'initial', 'forward-enter', 'forward-leave', 'backward-enter', 'backward-leave']) {
-        const clearance = Math.min(body.left, body.top, w - right, h - bottom);
-        assert.ok(clearance >= 24 - 1e-6, `${slug} ${w}x${h} ${endpoint} viewport`);
-        assert.ok(body.top - (mobile ? 188 : 196) >= 24 - 1e-6, `${slug} panel clearance`);
-        assert.ok(mobile ? 452 - bottom >= 24 - 1e-6 : body.left - w / 2 >= 24 - 1e-6, `${slug} copy clearance`);
-        assert.ok(Math.abs(bw * scale - (frame.width - 48)) < 1e-6 || Math.abs(bh * scale - (frame.height - 48)) < 1e-6, `${slug} maximizes subject within safe region`);
-      }
+    const item = species.find((item) => item.slug === slug);
+    for (const [viewportWidth, viewportHeight] of [[320, 760], [390, 760], [1366, 768], [1920, 900], [2560, 900], [3840, 900]]) {
+      const crop = coverSourceCrop({
+        sourceWidth: cover.width, sourceHeight: cover.height,
+        viewportWidth, viewportHeight,
+        focalPoint: item.media.focalPoint ?? { x: 0.5, y: 0.5 },
+      });
+      assert.ok(crop.left >= -1e-6 && crop.top >= -1e-6);
+      assert.ok(crop.right <= cover.width + 1e-6 && crop.bottom <= cover.height + 1e-6);
+      assert.ok(Math.abs((crop.right - crop.left) * crop.scale - viewportWidth) < 1e-6);
+      assert.ok(Math.abs((crop.bottom - crop.top) * crop.scale - viewportHeight) < 1e-6);
     }
   });
 }

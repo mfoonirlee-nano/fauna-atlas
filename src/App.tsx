@@ -37,7 +37,7 @@ import {
   type CSSProperties,
   type RefObject,
 } from 'react';
-import { coverSubjects } from './data/cover-subjects';
+import { paginateSpecies } from './domain/species-pagination';
 import { AtlasImage } from './components/AtlasImage';
 import { TaxonomyExplorer } from './components/TaxonomyExplorer';
 import { species, loadSpecies } from 'virtual:species-catalogue';
@@ -60,18 +60,6 @@ interface HeroCarouselFrame {
   readonly previousIndex: number | null;
   readonly direction: HeroDirection;
   readonly revision: number;
-}
-
-function heroSubjectStyle(slug: string): CSSProperties | undefined {
-  const subject = coverSubjects[slug];
-  if (!subject) return undefined;
-  const { width, height, bounds } = subject;
-  return {
-    '--subject-width-ratio': width / (bounds.right - bounds.left),
-    '--subject-height-ratio': width / (bounds.bottom - bounds.top),
-    '--subject-center-x': `${(bounds.left + bounds.right) / (2 * width) * 100}%`,
-    '--subject-center-y': `${(bounds.top + bounds.bottom) / (2 * height) * 100}%`,
-  } as CSSProperties;
 }
 
 const HERO_ROTATION_DELAY_MS = 6500;
@@ -1057,7 +1045,7 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
   return (
     <section
       ref={heroRef}
-      className={`hero${((heroSpecies && coverSubjects[heroSpecies.slug]) || (previousSpecies && coverSubjects[previousSpecies.slug])) ? ' hero--framed' : ''}`}
+      className="hero"
       id="top"
       role="region"
       aria-labelledby="hero-carousel-label"
@@ -1084,8 +1072,6 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
         {previousSpecies?.media.image && (
           <div
             key={`previous-${frame.revision}-${previousSpecies.slug}`}
-            className={coverSubjects[previousSpecies.slug] ? 'hero-subject-frame' : undefined}
-            style={heroSubjectStyle(previousSpecies.slug)}
           >
             <AtlasImage
               className={`hero__image hero__image--leaving-${directionClass}`}
@@ -1105,7 +1091,7 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
             aria-roledescription="幻灯片"
             aria-label={`第 ${frame.activeIndex + 1} 张，共 ${slideCount} 张：${heroSpecies.names.zh}`}
           >
-            <div className={coverSubjects[heroSpecies.slug] ? 'hero-subject-frame' : undefined} style={heroSubjectStyle(heroSpecies.slug)}>
+            <div>
               <AtlasImage
                 className={`hero__image ${
                   frame.revision === 0
@@ -1224,6 +1210,8 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
 function App() {
   const [theme, setTheme] = useState<Theme>(getInitialTheme);
   const [query, setQuery] = useState('');
+  const [page, setPage] = useState(1);
+  const resultsRef = useRef<HTMLDivElement>(null);
   const [activePhylum, setActivePhylum] = useState('ALL');
   const [activeClass, setActiveClass] = useState('ALL');
   const [activeStatus, setActiveStatus] = useState('ALL');
@@ -1310,6 +1298,14 @@ function App() {
     });
   }, [activePhylum, activeClass, activeStatus, query]);
 
+  const pagination = paginateSpecies(filteredSpecies, page);
+
+  const changePage = (nextPage: number) => {
+    setPage(nextPage);
+    resultsRef.current?.focus({ preventScroll: true });
+    resultsRef.current?.scrollIntoView({ behavior: 'instant', block: 'start' });
+  };
+
   const regionCount = new Set(species.flatMap((item) => item.distribution.regions)).size;
   const threatenedCount = species.filter((item) => ['CR', 'EN', 'VU'].includes(item.conservation.code)).length;
 
@@ -1353,6 +1349,7 @@ function App() {
   };
 
   const clearFilters = () => {
+    setPage(1);
     setQuery('');
     setActivePhylum('ALL');
     setActiveClass('ALL');
@@ -1440,14 +1437,14 @@ function App() {
                 id="species-search"
                 type="search"
                 value={query}
-                onChange={(event) => setQuery(event.target.value)}
+                onChange={(event) => { setQuery(event.target.value); setPage(1); }}
                 placeholder="搜索物种、分类或栖息地…"
               />
               <kbd>⌘ K</kbd>
             </label>
             <label className="status-select">
               <span className="sr-only">按保护状态筛选</span>
-              <select value={activeStatus} onChange={(event) => setActiveStatus(event.target.value)}>
+              <select value={activeStatus} onChange={(event) => { setActiveStatus(event.target.value); setPage(1); }}>
                 <option value="ALL">全部保护状态</option>
                 <option value="CR">CR · 极危</option>
                 <option value="EN">EN · 濒危</option>
@@ -1471,7 +1468,7 @@ function App() {
                 type="button"
                 className={activePhylum === 'ALL' ? 'is-active' : ''}
                 aria-pressed={activePhylum === 'ALL'}
-                onClick={() => { setActivePhylum('ALL'); setActiveClass('ALL'); }}
+                onClick={() => { setActivePhylum('ALL'); setActiveClass('ALL'); setPage(1); }}
               >
                 <span className="phylum-filter__title">全部动物 <small>{species.length}</small></span>
                 <span className="phylum-filter__preview">浏览所有收录物种</span>
@@ -1482,7 +1479,7 @@ function App() {
                   key={key}
                   className={activePhylum === key ? 'is-active' : ''}
                   aria-pressed={activePhylum === key}
-                  onClick={() => { setActivePhylum(key); setActiveClass('ALL'); }}
+                  onClick={() => { setActivePhylum(key); setActiveClass('ALL'); setPage(1); }}
                 >
                   <span className="phylum-filter__title">{group.name} <small>{group.count}</small></span>
                   <span className="phylum-filter__preview">
@@ -1500,7 +1497,7 @@ function App() {
                     type="button"
                     className={activeClass === 'ALL' ? 'is-active' : ''}
                     aria-pressed={activeClass === 'ALL'}
-                    onClick={() => setActiveClass('ALL')}
+                    onClick={() => { setActiveClass('ALL'); setPage(1); }}
                   >全部<span>{selectedPhylum.count}</span></button>
                   {[...selectedPhylum.classes].map(([key, entry]) => (
                     <button
@@ -1508,7 +1505,7 @@ function App() {
                       key={key}
                       className={activeClass === key ? 'is-active' : ''}
                       aria-pressed={activeClass === key}
-                      onClick={() => setActiveClass(key)}
+                      onClick={() => { setActiveClass(key); setPage(1); }}
                     >{entry.name}<span>{entry.count}</span></button>
                   ))}
                 </div>
@@ -1516,8 +1513,8 @@ function App() {
             )}
           </div>
 
-          <div className="result-summary" aria-live="polite" aria-atomic="true">
-            <span>找到 {filteredSpecies.length} 种动物</span>
+          <div ref={resultsRef} tabIndex={-1} className="result-summary" aria-live="polite" aria-atomic="true">
+            <span>找到 {filteredSpecies.length} 种动物{filteredSpecies.length > 0 && ` · 显示 ${pagination.start + 1}–${pagination.end} 种`}</span>
             <span className="result-summary__line" />
             <span>{[selectedPhylum?.name, selectedClass?.name].filter(Boolean).join(' / ') || (hasFilters ? '筛选结果' : '全部记录')}</span>
             {hasFilters && <button type="button" className="result-summary__clear" onClick={clearFilters}>清除筛选<X size={13} aria-hidden="true" /></button>}
@@ -1525,7 +1522,7 @@ function App() {
 
           {filteredSpecies.length > 0 ? (
             <div className="species-grid">
-              {filteredSpecies.map((item) => {
+              {pagination.items.map((item) => {
                 const itemIndex = species.findIndex((candidate) => candidate.slug === item.slug);
                 return (
                   <div className="species-grid__item" key={item.slug}>
@@ -1547,6 +1544,28 @@ function App() {
               <p>换一个名字或筛选条件，也许会遇见另一种生命。</p>
               <button type="button" onClick={clearFilters}>清除筛选</button>
             </div>
+          )}
+          {pagination.totalPages > 1 && (
+            <nav className="species-pagination" aria-label="动物列表分页">
+              <span className="species-pagination__summary">第 {pagination.page} / {pagination.totalPages} 页 · 每页 12 种</span>
+              <div className="species-pagination__controls">
+                <button type="button" aria-label="上一页" disabled={pagination.page === 1} onClick={() => changePage(pagination.page - 1)}>
+                  <ChevronLeft size={18} aria-hidden="true" />
+                </button>
+                {pagination.pages.map((pageNumber) => (
+                  <button
+                    type="button"
+                    key={pageNumber}
+                    aria-label={`第 ${pageNumber} 页`}
+                    aria-current={pageNumber === pagination.page ? 'page' : undefined}
+                    onClick={() => changePage(pageNumber)}
+                  >{pageNumber}</button>
+                ))}
+                <button type="button" aria-label="下一页" disabled={pagination.page === pagination.totalPages} onClick={() => changePage(pagination.page + 1)}>
+                  <ChevronRight size={18} aria-hidden="true" />
+                </button>
+              </div>
+            </nav>
           )}
         </section>
 

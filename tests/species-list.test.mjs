@@ -169,3 +169,33 @@ test('species status filter exposes not-evaluated profiles', () => {
   assert.match(appSource, /<option value="NE">NE · 未评估<\/option>/);
   assert.match(appSource, /IUCN 尚未评估/);
 });
+
+const paginationCode = await readFile(new URL('../node_modules/.tmp/species-list-test/domain/species-pagination.js', import.meta.url), 'utf8');
+const { paginateSpecies } = await import(`data:text/javascript;base64,${Buffer.from(paginationCode).toString('base64')}`);
+
+test('pagination visits every filtered result once, preserving order and the short last page', () => {
+  const catalogue = Array.from({ length: 137 }, (_, index) => index);
+  const visited = [];
+  for (let page = 1; page <= 12; page += 1) {
+    const result = paginateSpecies(catalogue, page);
+    assert.equal(result.totalPages, 12);
+    assert.equal(result.items.length, page === 12 ? 5 : 12);
+    assert.equal(result.start, (page - 1) * 12);
+    assert.equal(result.end, Math.min(page * 12, catalogue.length));
+    assert.ok(result.pages.includes(page));
+    assert.equal(result.pages.length, 5);
+    assert.ok(result.pages.every((number) => number >= 1 && number <= 12));
+    visited.push(...result.items);
+  }
+  assert.deepEqual(visited, catalogue);
+});
+
+test('pagination handles empty results, exact page boundaries, and out-of-range pages', () => {
+  assert.deepEqual(paginateSpecies([], 9), { page: 1, totalPages: 0, start: 0, end: 0, items: [], pages: [] });
+  const catalogue = Array.from({ length: 24 }, (_, index) => index);
+  assert.equal(paginateSpecies(catalogue, 0).page, 1);
+  assert.equal(paginateSpecies(catalogue, 99).page, 2);
+  assert.deepEqual(paginateSpecies(catalogue, 2).pages, [1, 2]);
+  assert.equal(paginateSpecies(catalogue.slice(0, 3), 2).page, 1);
+  assert.deepEqual(paginateSpecies(catalogue, 2).items, catalogue.slice(12));
+});
