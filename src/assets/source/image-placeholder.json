@@ -2,8 +2,11 @@
   "tool": "Built-in image_gen",
   "prompt": "Use case: stylized-concept. Asset type: built-in image-loading placeholder for Fauna Atlas, a refined natural history atlas website with forest green and warm ivory colors. Create a quiet abstract misty woodland illustration, muted sage and deep moss-green gradients, very soft silhouettes of distant botanical foliage near edges, soft paper grain. Landscape 3:2 composition, diffuse central glow, minimal detail, low contrast, seamless-feeling calm backdrop that crops gracefully to square, portrait and panoramic images. No animals, no text, no letters, no logos, no borders, no UI, no watermark. It must read as a neutral loading backdrop rather than a species photograph.",
   "asset": "src/assets/image-placeholder.webp",
-  "width": 144,
-  "height": 96,
-  "conversion": "cwebp -resize 144 96 -q 40",
+  "width": 768,
+  "height": 512,
+  "sourceWidth": 1536,
+  "sourceHeight": 1024,
+  "conversion": "cwebp -resize 768 512 -q 75 -m 6",
+  "revisionNote": "Re-exported from the original generated PNG, verified by reproducing the previous 144x96 WebP byte-for-byte; no upscaling or regeneration.",
   "usage": "Inlined by Vite; shared by covers, gallery, hero and image viewer."
 }
