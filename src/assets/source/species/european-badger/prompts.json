@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case photorealistic-natural. Generate one landscape 1536x1024 natural history editorial photograph for Fauna Atlas. One European badger Meles meles, white elongated face with two broad black stripes through the eyes, grey grizzled stocky body, black short legs, small white-tipped ears, short tail, in temperate European woodland edge. Complete animal from nose to tail including all visible feet or fins inside x=650..1450 y=180..830. Clear large subject on RIGHT, center at 69% source width; left 40% quiet natural background for title. Real margin all around entire subject. No text, no collage, no borders, no watermark. Scientifically accurate, calm natural scene.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: European badger Meles meles, two black eye stripes on white face, grizzled grey body, black legs, short pale tail. Scene: Close three-quarter head portrait showing two black eye stripes against white face, natural woodland. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: European badger Meles meles, two black eye stripes on white face, grizzled grey body, black legs, short pale tail. Scene: Full body digging into soft woodland soil with front claws, no cutaway or underground view. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: European badger Meles meles, two black eye stripes on white face, grizzled grey body, black legs, short pale tail. Scene: Full body sniffing damp leaf litter while looking for earthworms, no gore. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: European badger Meles meles, two black eye stripes on white face, grizzled grey body, black legs, short pale tail. Scene: Full animal standing outside a wide earthen sett entrance at twilight. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: European badger Meles meles, two black eye stripes on white face, grizzled grey body, black legs, short pale tail. Scene: Full side view in meadow at woodland edge showing grey back, black legs and short pale tail. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  }
+]

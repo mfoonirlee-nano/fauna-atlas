@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Generate one photorealistic natural-history editorial wildlife photograph, landscape 1536x1024, for Fauna Atlas cover. One anatomically accurate adult wolverine Gulo gulo with dark brown shaggy fur, pale flank stripe, rounded small ears, broad paws, bushy tail, walking on snow at a boreal forest edge. Entire animal including all visible paws, muzzle, ears and tail contained within x=650..1450 y=240..780. Large clear subject on right, center around 69% image width. Left 40 percent quiet snow and softly blurred forest for title. Real background clearance around animal. Natural daylight. No text, borders, collage, watermark or extra animals. Save generated image and return its local path.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: wolverine Gulo gulo, dark shaggy fur, pale flank stripes, broad paws, small round ears and bushy tail. Scene: Close ground-level view of broad furry paws stepping on soft snow; enough body visible to identify animal, no invented extra toes. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: wolverine Gulo gulo, dark shaggy fur, pale flank stripes, broad paws, small round ears and bushy tail. Scene: Full side view walking across snow showing pale curved flank stripe and bushy tail. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: wolverine Gulo gulo, dark shaggy fur, pale flank stripes, broad paws, small round ears and bushy tail. Scene: Head portrait with both rounded ears, dark muzzle, natural whiskers, forest background. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: wolverine Gulo gulo, dark shaggy fur, pale flank stripes, broad paws, small round ears and bushy tail. Scene: Full body sniffing beside mossy roots on boreal forest floor in summer. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: wolverine Gulo gulo, dark shaggy fur, pale flank stripes, broad paws, small round ears and bushy tail. Scene: Single adult climbing onto a low fallen tree, entire body and tail visible. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Natural-history editorial photograph style, landscape 1536x1024. One adult pygmy hippopotamus Choeropsis liberiensis standing in full side profile on West African rainforest riverbank. Compact dark moist brown body, small rounded ears, eyes lateral, muzzle closed, all visible feet and short tail included. Cover composition: entire subject on right, occupying bounding rectangle x=660 to1440 y=260 to800; maximize body within this rectangle, visible background margin at all edges. Left 40% softly detailed empty natural habitat for title. Scientific anatomy, natural colors, peaceful. No text, borders, watermark, other animals or collage.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Remove ONLY the separate scale bar and its '1 m' text at the bottom left, filling that area with the same warm ivory background. Keep everything else EXACTLY unchanged: both animals at current relative size with feet aligned, title 成年体形示意, Chinese labels 倭河马 · 1.5 m and 河马 · 3.0 m. The two animals themselves and their labeled lengths are the comparison reference. No additional objects or text. Do not resize or repaint the animals.",
+    "tool": "built-in image_gen",
+    "initialPrompt": "Use case scientific-educational. Create a clean museum natural-history size-comparison illustration, landscape 1536x1024, warm ivory background. Two anatomically accurate adult animals in strict orthographic side view facing left, BOTH with feet on exact same baseline y=730, no perspective, no scenery. LEFT adult pygmy hippopotamus Choeropsis liberiensis: head-body length (nose to rump, excluding tail) exactly 360 pixels from x=130 to x=490, shoulder height 180 pixels, compact dark brown body, eyes lateral, small ears. RIGHT adult common hippopotamus Hippopotamus amphibius: head-body length exactly 720 pixels from x=650 to x=1370, shoulder height 330 pixels, large grey body and massive head with raised eyes and nostrils. Include full short tails and all visible feet with generous page margins. These are example adults at the same scale: pygmy 1.5 m and common 3.0 m, NOT parent and baby. Draw a simple horizontal 240-pixel scale bar from x=150 to390 at y=870 with exact label '1 m'. Clear elegant typography under each animal: '倭河马 · 1.5 m' and '河马 · 3.0 m'. Small top title: '成年体形示意'. Realistic painted skin texture, restrained soft ground shadows, beautiful educational editorial plate. No other labels, no watermark.",
+    "edits": [
+      "Edit this educational illustration only to correct proportional scaling. Keep Chinese labels, beautiful painting, both species identities and ivory backdrop. Current smaller left animal nose-to-rump length is about 510 px; reduce the ENTIRE left pygmy hippo uniformly to head-body length 450 px, keeping its feet aligned with the right animal's feet. Keep right common hippo unchanged at nose-to-rump length about 900 px. Replace current bottom 1 m scale bar with exactly 300 px long bar. Thus left 1.5 m animal head-body is exactly half the right 3.0 m animal, and one metre bar is 2/3 of left head-body. Maintain title 成年体形示意, labels 倭河马 · 1.5 m and 河马 · 3.0 m. Do not redraw species as baby and parent; both adult anatomies. No other changes.",
+      "Remove ONLY the separate scale bar and its '1 m' text at the bottom left, filling that area with the same warm ivory background. Keep everything else EXACTLY unchanged: both animals at current relative size with feet aligned, title 成年体形示意, Chinese labels 倭河马 · 1.5 m and 河马 · 3.0 m. The two animals themselves and their labeled lengths are the comparison reference. No additional objects or text. Do not resize or repaint the animals."
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: pygmy hippopotamus Choeropsis liberiensis, compact adult, dark wet skin, small round ears, eyes at sides of head, short legs and tail. Scene: One adult pygmy hippo browsing low green leaves on West African rainforest floor, mouth naturally touching foliage. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: pygmy hippopotamus Choeropsis liberiensis, compact adult, dark wet skin, small round ears, eyes at sides of head, short legs and tail. Scene: One pygmy hippo resting in shallow shaded forest stream, whole head and upper back visible. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: pygmy hippopotamus Choeropsis liberiensis, compact adult, dark wet skin, small round ears, eyes at sides of head, short legs and tail. Scene: Close head portrait showing small rounded ears and nostrils, dark moist skin; no anthropomorphic smiling. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: pygmy hippopotamus Choeropsis liberiensis, compact adult, dark wet skin, small round ears, eyes at sides of head, short legs and tail. Scene: One adult pygmy hippo walking along narrow leaf litter path through dense rainforest, full body and short tail visible. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  }
+]

@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog', 'oriental-fire-bellied-newt', 'ocean-sunfish', 'largetooth-sawfish', 'american-lobster', 'striped-skunk', 'caracal', 'leopard', 'chinese-tree-frog', 'american-bullfrog', 'atlantic-salmon', 'green-tree-python', 'arctic-fox', 'american-black-bear', 'sun-bear', 'jaguar', 'puma', 'serval', 'eurasian-lynx', 'gray-wolf', 'african-wild-dog', 'spotted-hyena', 'honey-badger'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog', 'oriental-fire-bellied-newt', 'ocean-sunfish', 'largetooth-sawfish', 'american-lobster', 'striped-skunk', 'caracal', 'leopard', 'chinese-tree-frog', 'american-bullfrog', 'atlantic-salmon', 'green-tree-python', 'arctic-fox', 'american-black-bear', 'sun-bear', 'jaguar', 'puma', 'serval', 'eurasian-lynx', 'gray-wolf', 'african-wild-dog', 'spotted-hyena', 'honey-badger', 'wolverine', 'european-badger', 'south-american-coati', 'sperm-whale', 'pygmy-hippopotamus'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24288,7 +24288,7 @@ test('five new toddler profiles keep sourced identities and separate regional co
     assert.equal(profile.conservation.assessedYear, undefined);
     assert.equal(profile.storySections.length, 6);
     assert.ok(profile.sources.some(({ kind }) => kind === 'taxonomy'));
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${scientificName}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${scientificName}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -24302,7 +24302,7 @@ test('five new toddler profiles keep sourced identities and separate regional co
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 250);
+  assert.equal(species.length, 255);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24473,7 +24473,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 250);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 255);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24494,10 +24494,10 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 185);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 83);
-  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 32);
-  assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 190);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 88);
+  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 35);
+  assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Suricata')?.speciesCount, 1);
@@ -24601,7 +24601,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Pyrosoma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Panthera')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'genus', 'Tigris'), undefined);
-  assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'family', 'Mustelidae')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'genus', 'Lutra')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Enhydra')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Primates')?.speciesCount, 6);
@@ -24609,7 +24609,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Daubentonia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cercopithecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Rhinopithecus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 9);
   assert.equal(findTaxon(tree, 'family', 'Bovidae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Pantholops')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Proboscidea')?.speciesCount, 2);
@@ -24621,7 +24621,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Ornithorhynchus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Tachyglossidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tachyglossus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Cetacea')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'order', 'Cetacea')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'family', 'Balaenopteridae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Delphinidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Phocoenidae')?.speciesCount, 1);
@@ -25306,7 +25306,7 @@ test('integrates common hippopotamus with normalized length and reviewed media',
   assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
     'Animalia', 'Chordata', 'Mammalia', 'Artiodactyla', 'Hippopotamidae', 'Hippopotamus',
   ]);
-  assert.equal(findTaxon(buildTaxonomyTree(species), 'family', 'Hippopotamidae')?.speciesCount, 1);
+  assert.equal(findTaxon(buildTaxonomyTree(species), 'family', 'Hippopotamidae')?.speciesCount, 2);
   assert.deepEqual(profile.metrics.adultLengthCm, [330, 500]);
   assert.equal(profile.conservation.code, 'VU');
   assert.equal(profile.conservation.assessedYear, 2016, '2017 is the publication year');
@@ -25567,7 +25567,7 @@ test('five toddler profiles from scarlet macaw to common cuttlefish have sourced
     assert.equal(profile.storySections.length, 6);
     assert.ok(profile.sources.some(({ kind }) => kind === 'taxonomy'));
     assert.ok(profile.sources.some(({ kind }) => kind === 'conservation'));
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${scientificName}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${scientificName}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25600,7 +25600,7 @@ test('five toddler profiles from fire salamander to long-tailed chinchilla retai
     for (const kind of ['taxonomy', 'ecology', 'conservation']) {
       assert.ok(profile.sources.some((source) => source.kind === kind), `${slug} ${kind} source`);
     }
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${scientificName}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${scientificName}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25640,7 +25640,7 @@ test('five herp profiles from pond slider to Whites tree frog retain species bou
     for (const kind of ['taxonomy', 'ecology', 'conservation']) {
       assert.ok(profile.sources.some((source) => source.kind === kind), `${slug}: ${kind}`);
     }
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${name}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25702,7 +25702,7 @@ test('five toddler profiles from chimpanzee to Indian peafowl retain identities 
     for (const kind of ['taxonomy', 'ecology', 'conservation']) {
       assert.ok(profile.sources.some((source) => source.kind === kind), `${slug} ${kind} source`);
     }
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${scientificName}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${scientificName}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25735,7 +25735,7 @@ test('five toddler profiles from humpback whale to saiga retain identities and a
     for (const kind of ['taxonomy', 'ecology', 'conservation']) {
       assert.ok(profile.sources.some((source) => source.kind === kind), `${slug} ${kind} source`);
     }
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${scientificName}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${scientificName}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25765,7 +25765,7 @@ test('five toddler profiles from wombat to California sea lion retain identities
     for (const kind of ['taxonomy', 'ecology', 'conservation']) {
       assert.ok(profile.sources.some((source) => source.kind === kind), `${slug} ${kind} source`);
     }
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${scientificName}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${scientificName}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25800,7 +25800,7 @@ test('five toddler profiles from fennec fox to Atlantic puffin have sourced iden
     assert.equal(profile.storySections.length, 6);
     assert.ok(profile.sources.some(({ kind }) => kind === 'taxonomy'));
     assert.ok(profile.sources.some(({ kind }) => kind === 'conservation'));
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${scientificName}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${scientificName}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25836,7 +25836,7 @@ test('lobster-to-leopard profiles retain exact species identities and six accept
     assert.equal(profile.conservation.code, code);
     assert.equal(profile.conservation.assessedYear, undefined);
     assert.equal(profile.storySections.length, 6);
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${name}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25861,7 +25861,7 @@ test('black-bear-to-serval profiles preserve species scope and six accepted imag
     assert.ok(findTaxon(tree, 'genus', genus).children.some(({ species: leaf }) => leaf.id === profile.id));
     assert.equal(profile.conservation.code, code);
     assert.equal(profile.conservation.assessedYear, undefined);
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${name}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25891,7 +25891,7 @@ test('tree-frog-to-arctic-fox profiles preserve species scope and six accepted i
     assert.ok(findTaxon(tree, 'genus', genus).children.some(({ species: leaf }) => leaf.id === profile.id));
     assert.equal(profile.conservation.code, code);
     assert.equal(profile.conservation.assessedYear, undefined);
-    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    assert.ok(!todo.includes(`- [ ] ${profile.names.zh} *${name}*`), 'published species must not remain pending');
     await assertGeneratedImageSet({ profile, slug,
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
@@ -25901,4 +25901,36 @@ test('tree-frog-to-arctic-fox profiles preserve species scope and six accepted i
   assert.match(findSpecies('green-tree-python').distribution.range, /Morelia azurea/);
   assert.match(findSpecies('green-tree-python').storySections[2].body, /幼体为黄色/);
   assert.match(findSpecies('arctic-fox').description, /白色型.*蓝色型/);
+});
+
+test('wolverine-to-pygmy-hippo profiles retain species scope and six accepted images', async () => {
+  const cases = [
+    ['wolverine', 'Gulo gulo', 'Carnivora', 'Mustelidae', 'Gulo', 'LC'],
+    ['european-badger', 'Meles meles', 'Carnivora', 'Mustelidae', 'Meles', 'LC'],
+    ['south-american-coati', 'Nasua nasua', 'Carnivora', 'Procyonidae', 'Nasua', 'LC'],
+    ['sperm-whale', 'Physeter macrocephalus', 'Cetacea', 'Physeteridae', 'Physeter', 'VU'],
+    ['pygmy-hippopotamus', 'Choeropsis liberiensis', 'Artiodactyla', 'Hippopotamidae', 'Choeropsis', 'EN'],
+  ];
+  const tree = buildTaxonomyTree(species);
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  for (const [slug, name, order, family, genus, code] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.order.scientificName, order);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.taxonomy.genus.scientificName, genus);
+    assert.ok(findTaxon(tree, 'genus', genus).children.some(({ species: leaf }) => leaf.id === profile.id));
+    assert.equal(profile.conservation.code, code);
+    assert.equal(profile.conservation.assessedYear, undefined);
+    assert.equal(profile.storySections.length, 6);
+    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+  }
+  assert.match(findSpecies('european-badger').distribution.range, /不把亚洲狗獾和日本狗獾并入/);
+  assert.match(findSpecies('south-american-coati').description, /尾巴.*不能.*抓住树枝/);
+  assert.match(findSpecies('sperm-whale').storySections.at(-1).body, /全球.*易危.*美国.*另一制度/);
+  assert.match(findSpecies('pygmy-hippopotamus').description, /不是普通河马的幼崽/);
+  assert.deepEqual(findSpecies('pygmy-hippopotamus').metrics.adultLengthCm, [150, 175]);
 });

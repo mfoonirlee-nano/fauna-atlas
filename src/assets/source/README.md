@@ -407,3 +407,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [African Wild Dog image set](./species/african-wild-dog/README.md)
 - [Spotted Hyena image set](./species/spotted-hyena/README.md)
 - [Honey Badger image set](./species/honey-badger/README.md)
+
+- [Wolverine image set](./species/wolverine/README.md)
+- [European Badger image set](./species/european-badger/README.md)
+- [South American Coati image set](./species/south-american-coati/README.md)
+- [Sperm Whale image set](./species/sperm-whale/README.md)
+- [Pygmy Hippopotamus image set](./species/pygmy-hippopotamus/README.md)

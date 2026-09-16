@@ -2500,5 +2500,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 735
     }
+  },
+  "wolverine": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 255,
+      "right": 1460,
+      "bottom": 775
+    }
+  },
+  "european-badger": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 655,
+      "top": 245,
+      "right": 1430,
+      "bottom": 785
+    }
+  },
+  "south-american-coati": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 765,
+      "top": 42,
+      "right": 1450,
+      "bottom": 885
+    }
+  },
+  "sperm-whale": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 695,
+      "top": 370,
+      "right": 1490,
+      "bottom": 575
+    }
+  },
+  "pygmy-hippopotamus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 285,
+      "right": 1490,
+      "bottom": 785
+    }
   }
 };

@@ -7,7 +7,8 @@ import { fileURLToPath } from 'node:url';
 
 const distDirectory = resolve(fileURLToPath(new URL('../dist/', import.meta.url)));
 const deploymentPath = '/__fauna_atlas__/';
-const imageReferencePattern = /(["'`])((?!https?:\/\/|data:)[^"'`\s<>]*?\.(?:avif|gif|ico|jpe?g|png|svg|webp)(?:[?#][^"'`\s<>]*)?)\1/gi;
+// A standalone extension used to restore compact filenames is not an asset URL.
+const imageReferencePattern = /(["'`])((?!https?:\/\/|data:)[^"'`\s<>]+?\.(?:avif|gif|ico|jpe?g|png|svg|webp)(?:[?#][^"'`\s<>]*)?)\1/gi;
 
 async function listBuildFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -39,7 +40,8 @@ async function startStaticServer() {
     }
 
     try {
-      response.writeHead(200).end(await readFile(filePath));
+      const bytes = await readFile(filePath);
+      response.writeHead(200).end(bytes);
     } catch {
       response.writeHead(404).end();
     }

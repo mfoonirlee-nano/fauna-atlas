@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Change ONLY whale placement and size. The whale currently extends too far left (nose x=558) and right (tail x=1512). Shrink the entire whale uniformly to 85 percent of current size and position its nose at x=670, tail tip at x=1480, vertical center y=490. Fill vacated area with matching blue water. Keep the whale's existing anatomy, texture and horizontal flukes unchanged. Left 40 percent of the 1536x1024 image MUST contain only open water. Preserve background lighting, no new animals or text. Whole animal with real margins.",
+    "tool": "built-in image_gen",
+    "initialPrompt": "Natural-history editorial photograph style, landscape 1536x1024. One entire sperm whale Physeter macrocephalus swimming horizontally underwater, facing left, complete large rectangular head, narrow lower jaw closed, small paddle fins, low dorsal hump, tapering tailstock and both tail flukes. Dark gray wrinkled skin. Clear blue ocean. Cover composition: entire subject on right, occupying bounding rectangle x=660 to1440 y=260 to800; maximize body within this rectangle, visible background margin at all edges. Left 40% softly detailed empty natural habitat for title. Scientific anatomy, natural colors, peaceful. No text, borders, watermark, other animals or collage.",
+    "edits": [
+      "Correct this sperm whale cover illustration. Keep landscape 1536x1024 blue ocean and photorealistic style. Place the COMPLETE whale inside x=650..1460 and y=330..680, nose at x650 or farther right, preserve a quiet left 40%. MOST IMPORTANT: whale tail flukes must be HORIZONTAL like all cetaceans, not a fish's vertical tail. Use a slightly elevated three-quarter SIDE viewing angle so the broad triangular left and right flukes spread into and out of the image plane, with visible top surface and a central notch. No lobe points straight upward or downward. Preserve rectangular blunt large head, slim underslung lower jaw, small rounded paddle pectoral fins, dark wrinkled gray body, low rounded dorsal hump. Entire animal including tail tips remains inside bounds. No text, no other creatures.",
+      "Change ONLY whale placement and size. The whale currently extends too far left (nose x=558) and right (tail x=1512). Shrink the entire whale uniformly to 85 percent of current size and position its nose at x=670, tail tip at x=1480, vertical center y=490. Fill vacated area with matching blue water. Keep the whale's existing anatomy, texture and horizontal flukes unchanged. Left 40 percent of the 1536x1024 image MUST contain only open water. Preserve background lighting, no new animals or text. Whole animal with real margins."
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: sperm whale Physeter macrocephalus, enormous rectangular head, narrow underslung lower jaw, wrinkled grey skin, small paddle fins, low dorsal hump and horizontal tail flukes. Scene: Underwater side portrait of complete whale emphasizing huge rectangular head and narrow lower jaw, grey wrinkled skin. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: sperm whale Physeter macrocephalus, enormous rectangular head, narrow underslung lower jaw, wrinkled grey skin, small paddle fins, low dorsal hump and horizontal tail flukes. Scene: Single whale at ocean surface breathing: small realistic mist angled forward left from single blowhole on left front of head; no water fountain from mouth. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: sperm whale Physeter macrocephalus, enormous rectangular head, narrow underslung lower jaw, wrinkled grey skin, small paddle fins, low dorsal hump and horizontal tail flukes. Scene: One entire whale in a gentle downward dive in deep blue ocean, full horizontal tail flukes and fins visible. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: sperm whale Physeter macrocephalus, enormous rectangular head, narrow underslung lower jaw, wrinkled grey skin, small paddle fins, low dorsal hump and horizontal tail flukes. Scene: Close side view of mid body including small paddle pectoral fin and naturally wrinkled grey skin, enough head to identify sperm whale. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: sperm whale Physeter macrocephalus, enormous rectangular head, narrow underslung lower jaw, wrinkled grey skin, small paddle fins, low dorsal hump and horizontal tail flukes. Scene: Adult female with one smaller calf swimming together near surface, full bodies and tails, calm blue water. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  }
+]

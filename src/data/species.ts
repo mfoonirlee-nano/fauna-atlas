@@ -78139,6 +78139,1240 @@ export const species = [
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15"
 },
+{
+  "id": "wolverine",
+  "slug": "wolverine",
+  "names": {
+    "zh": "狼獾",
+    "en": "Wolverine"
+  },
+  "scientificName": "Gulo gulo",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Mustelidae",
+      "zhName": "鼬科"
+    },
+    "genus": {
+      "scientificName": "Gulo",
+      "zhName": "狼獾属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲",
+      "欧洲",
+      "亚洲"
+    ],
+    "regions": [
+      "北美洲北部",
+      "欧洲北部",
+      "亚洲北部"
+    ],
+    "countries": [],
+    "range": "生活在北美洲和欧亚大陆北部的寒冷地区，也出现在高山环境。需要面积较大、干扰较少的栖息地。"
+  },
+  "habitats": [
+    {
+      "name": "寒带森林与苔原",
+      "realm": "terrestrial",
+      "description": "生活在北美洲和欧亚大陆北部的寒冷地区，也出现在高山环境。需要面积较大、干扰较少的栖息地。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "哺乳动物",
+      "鸟类和卵",
+      "动物尸体"
+    ],
+    "description": "会捕食，也会寻找其他动物留下的尸体，并储藏食物。"
+  },
+  "tags": [
+    "狼獾",
+    "宽宽的脚掌"
+  ],
+  "summary": "找找宽宽的脚掌。它能分散身体重量，帮助狼獾在雪上行走。",
+  "description": "狼獾属于鼬科，身体结实，腿短而有力。深褐色的毛间常有浅色侧带，脚掌宽，尾巴蓬松。宽脚掌帮助它在积雪上移动。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "宽脚掌踩在雪上",
+      "body": "找找宽宽的脚掌。它能分散身体重量，帮助狼獾在雪上行走。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "身体侧面的浅色带",
+      "body": "沿着身体侧面，找找从肩部延向尾部的浅色毛。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "圆圆的小耳朵",
+      "body": "看看头顶两侧的小圆耳朵，再找找深色的鼻子。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "低下头闻一闻",
+      "body": "狼獾用嗅觉寻找食物，会在地面和树根附近嗅闻。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "爬上倒下的树",
+      "body": "狼獾大多在地面活动，也能攀爬。看看它怎样用四肢支撑身体。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "所列资料记载全球等级为无危。部分地区的种群仍受栖息地变化和捕猎影响，全球等级不代表各地都安全。"
+    }
+  ],
+  "keyFacts": [
+    "找找宽宽的脚掌。它能分散身体重量，帮助狼獾在雪上行走。",
+    "沿着身体侧面，找找从肩部延向尾部的浅色毛。",
+    "看看头顶两侧的小圆耳朵，再找找深色的鼻子。",
+    "狼獾用嗅觉寻找食物，会在地面和树根附近嗅闻。",
+    "狼獾大多在地面活动，也能攀爬。看看它怎样用四肢支撑身体。"
+  ],
+  "threats": [
+    "栖息地破碎化",
+    "捕猎和陷阱",
+    "积雪环境变化"
+  ],
+  "conservationActions": [
+    "保护连续栖息地",
+    "减少陷阱伤害",
+    "监测积雪与种群变化"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "宽宽的脚掌"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "寒带森林与苔原"
+    }
+  ],
+  "media": {
+    "image": "./images/species/wolverine/01-cover.webp",
+    "alt": "狼獾的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/wolverine/02-observation.webp",
+        "title": "宽脚掌踩在雪上",
+        "alt": "狼獾：宽脚掌踩在雪上",
+        "caption": "AI 生成科学情景重建。找找宽宽的脚掌。它能分散身体重量，帮助狼獾在雪上行走。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/wolverine/03-observation.webp",
+        "title": "身体侧面的浅色带",
+        "alt": "狼獾：身体侧面的浅色带",
+        "caption": "AI 生成科学情景重建。沿着身体侧面，找找从肩部延向尾部的浅色毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/wolverine/04-observation.webp",
+        "title": "圆圆的小耳朵",
+        "alt": "狼獾：圆圆的小耳朵",
+        "caption": "AI 生成科学情景重建。看看头顶两侧的小圆耳朵，再找找深色的鼻子。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/wolverine/05-observation.webp",
+        "title": "低下头闻一闻",
+        "alt": "狼獾：低下头闻一闻",
+        "caption": "AI 生成科学情景重建。狼獾用嗅觉寻找食物，会在地面和树根附近嗅闻。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/wolverine/06-observation.webp",
+        "title": "爬上倒下的树",
+        "alt": "狼獾：爬上倒下的树",
+        "caption": "AI 生成科学情景重建。狼獾大多在地面活动，也能攀爬。看看它怎样用四肢支撑身体。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wolverine：分类与生态资料",
+      "url": "https://animaldiversity.org/accounts/Gulo_gulo/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "Wolverine：保护状况",
+      "url": "https://animaldiversity.org/accounts/Gulo_gulo/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "狼獾：形态与生活习性",
+      "url": "https://animaldiversity.org/accounts/Gulo_gulo/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-16"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16"
+},{
+  "id": "european-badger",
+  "slug": "european-badger",
+  "names": {
+    "zh": "欧洲狗獾",
+    "en": "European Badger"
+  },
+  "scientificName": "Meles meles",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Mustelidae",
+      "zhName": "鼬科"
+    },
+    "genus": {
+      "scientificName": "Meles",
+      "zhName": "狗獾属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲"
+    ],
+    "countries": [],
+    "range": "主要生活在欧洲的林地、草地和农田交错地带。本档案采用欧洲狗獾的物种范围，不把亚洲狗獾和日本狗獾并入。"
+  },
+  "habitats": [
+    {
+      "name": "林地与草地交错地带",
+      "realm": "terrestrial",
+      "description": "主要生活在欧洲的林地、草地和农田交错地带。本档案采用欧洲狗獾的物种范围，不把亚洲狗獾和日本狗獾并入。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "蚯蚓",
+      "昆虫",
+      "果实",
+      "小型脊椎动物"
+    ],
+    "description": "食性随地区和季节变化；会寻找蚯蚓、昆虫，也吃果实等植物性食物。"
+  },
+  "tags": [
+    "欧洲狗獾",
+    "脸上的黑白条纹"
+  ],
+  "summary": "从鼻子向耳朵看，找找经过眼睛的黑色条纹。",
+  "description": "欧洲狗獾脸上有两条经过眼睛的黑色纵纹，背部灰白，腿和腹部较黑。它用有力的前爪掘土，住在地下洞穴中，常在夜间出来寻找食物。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "脸上的黑白条纹",
+      "body": "从鼻子向耳朵看，找找经过眼睛的黑色条纹。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "前爪掘土",
+      "body": "狗獾用前爪挖开泥土，修整洞穴或寻找食物。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "落叶下面找食物",
+      "body": "它低头嗅闻地面，寻找蚯蚓和其他食物。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "洞口在哪里",
+      "body": "狗獾的洞穴可以有多个入口。看看土坡上的洞口。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "短腿和短尾巴",
+      "body": "看看灰色背部下面的黑色短腿，再找找身体后面的短尾巴。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为无危。保留林地、绿篱与洞穴周边环境，并减少道路造成的伤害，有助于保护当地种群。"
+    }
+  ],
+  "keyFacts": [
+    "从鼻子向耳朵看，找找经过眼睛的黑色条纹。",
+    "狗獾用前爪挖开泥土，修整洞穴或寻找食物。",
+    "它低头嗅闻地面，寻找蚯蚓和其他食物。",
+    "狗獾的洞穴可以有多个入口。看看土坡上的洞口。",
+    "看看灰色背部下面的黑色短腿，再找找身体后面的短尾巴。"
+  ],
+  "threats": [
+    "道路交通",
+    "栖息地破碎化",
+    "捕杀"
+  ],
+  "conservationActions": [
+    "保留林地与绿篱",
+    "保护洞穴",
+    "减少道路伤害"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "脸上的黑白条纹"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "林地与草地交错地带"
+    }
+  ],
+  "media": {
+    "image": "./images/species/european-badger/01-cover.webp",
+    "alt": "欧洲狗獾的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/european-badger/02-observation.webp",
+        "title": "脸上的黑白条纹",
+        "alt": "欧洲狗獾：脸上的黑白条纹",
+        "caption": "AI 生成科学情景重建。从鼻子向耳朵看，找找经过眼睛的黑色条纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-badger/03-observation.webp",
+        "title": "前爪掘土",
+        "alt": "欧洲狗獾：前爪掘土",
+        "caption": "AI 生成科学情景重建。狗獾用前爪挖开泥土，修整洞穴或寻找食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-badger/04-observation.webp",
+        "title": "落叶下面找食物",
+        "alt": "欧洲狗獾：落叶下面找食物",
+        "caption": "AI 生成科学情景重建。它低头嗅闻地面，寻找蚯蚓和其他食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-badger/05-observation.webp",
+        "title": "洞口在哪里",
+        "alt": "欧洲狗獾：洞口在哪里",
+        "caption": "AI 生成科学情景重建。狗獾的洞穴可以有多个入口。看看土坡上的洞口。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-badger/06-observation.webp",
+        "title": "短腿和短尾巴",
+        "alt": "欧洲狗獾：短腿和短尾巴",
+        "caption": "AI 生成科学情景重建。看看灰色背部下面的黑色短腿，再找找身体后面的短尾巴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mammal Diversity Database：欧洲狗獾分类与分布",
+      "url": "https://www.mammaldiversity.org/taxon/1005859/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "European Badger：保护状况",
+      "url": "https://animaldiversity.org/accounts/Meles_meles/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "欧洲狗獾：形态与生活习性",
+      "url": "https://animaldiversity.org/accounts/Meles_meles/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-16"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16"
+},{
+  "id": "south-american-coati",
+  "slug": "south-american-coati",
+  "names": {
+    "zh": "南美浣熊",
+    "en": "South American Coati",
+    "aliases": [
+      "南美长鼻浣熊"
+    ]
+  },
+  "scientificName": "Nasua nasua",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Procyonidae",
+      "zhName": "浣熊科"
+    },
+    "genus": {
+      "scientificName": "Nasua",
+      "zhName": "长鼻浣熊属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "南美洲"
+    ],
+    "regions": [
+      "南美洲"
+    ],
+    "countries": [],
+    "range": "原生于南美洲，从哥伦比亚和委内瑞拉一带向南到乌拉圭及阿根廷北部等地，生活在多种森林环境。"
+  },
+  "habitats": [
+    {
+      "name": "南美洲森林",
+      "realm": "terrestrial",
+      "description": "原生于南美洲，从哥伦比亚和委内瑞拉一带向南到乌拉圭及阿根廷北部等地，生活在多种森林环境。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "果实",
+      "昆虫及其他无脊椎动物",
+      "小型脊椎动物"
+    ],
+    "description": "用灵活的长鼻子在落叶和土壤间寻找小动物，也吃果实。"
+  },
+  "tags": [
+    "南美浣熊",
+    "低下长鼻子找食物"
+  ],
+  "summary": "看看它低下长鼻子，在落叶间闻一闻、找一找。",
+  "description": "南美浣熊也叫南美长鼻浣熊，属于浣熊科。它的吻部长而灵活，尾巴长，常带有环纹。它会在地面寻找食物，也能爬树；尾巴帮助平衡，不能像手那样抓住树枝。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "长鼻子贴近落叶",
+      "body": "看看它低下长鼻子，在落叶间闻一闻、找一找。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "走路时竖起尾巴",
+      "body": "找找身体后面长长的尾巴，再看看上面的环纹。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "爪子抓住树干",
+      "body": "它用爪子抓住树干攀爬，尾巴帮助保持平衡。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "吃一口果实",
+      "body": "南美浣熊既吃小动物，也会吃森林中的果实。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "同伴一起找食物",
+      "body": "雌性和幼兽常结群活动；成年雄性通常独自活动。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "所列资料记载全球等级为无危。森林砍伐和捕猎仍会影响当地种群。观察野生个体时不要投喂。"
+    }
+  ],
+  "keyFacts": [
+    "看看它低下长鼻子，在落叶间闻一闻、找一找。",
+    "找找身体后面长长的尾巴，再看看上面的环纹。",
+    "它用爪子抓住树干攀爬，尾巴帮助保持平衡。",
+    "南美浣熊既吃小动物，也会吃森林中的果实。",
+    "雌性和幼兽常结群活动；成年雄性通常独自活动。"
+  ],
+  "threats": [
+    "森林砍伐",
+    "捕猎",
+    "栖息地破碎化"
+  ],
+  "conservationActions": [
+    "保护森林",
+    "减少捕猎",
+    "保持栖息地连通"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "低下长鼻子找食物"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "南美洲森林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/south-american-coati/01-cover.webp",
+    "alt": "南美浣熊的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/south-american-coati/02-observation.webp",
+        "title": "长鼻子贴近落叶",
+        "alt": "南美浣熊：长鼻子贴近落叶",
+        "caption": "AI 生成科学情景重建。看看它低下长鼻子，在落叶间闻一闻、找一找。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/south-american-coati/03-observation.webp",
+        "title": "走路时竖起尾巴",
+        "alt": "南美浣熊：走路时竖起尾巴",
+        "caption": "AI 生成科学情景重建。找找身体后面长长的尾巴，再看看上面的环纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/south-american-coati/04-observation.webp",
+        "title": "爪子抓住树干",
+        "alt": "南美浣熊：爪子抓住树干",
+        "caption": "AI 生成科学情景重建。它用爪子抓住树干攀爬，尾巴帮助保持平衡。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/south-american-coati/05-observation.webp",
+        "title": "吃一口果实",
+        "alt": "南美浣熊：吃一口果实",
+        "caption": "AI 生成科学情景重建。南美浣熊既吃小动物，也会吃森林中的果实。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/south-american-coati/06-observation.webp",
+        "title": "同伴一起找食物",
+        "alt": "南美浣熊：同伴一起找食物",
+        "caption": "AI 生成科学情景重建。雌性和幼兽常结群活动；成年雄性通常独自活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "South American Coati：分类与生态资料",
+      "url": "https://animaldiversity.org/accounts/Nasua_nasua/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "South American Coati：保护状况",
+      "url": "https://animaldiversity.org/accounts/Nasua_nasua/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "南美浣熊：形态与生活习性",
+      "url": "https://animaldiversity.org/accounts/Nasua_nasua/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-16"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16"
+},{
+  "id": "sperm-whale",
+  "slug": "sperm-whale",
+  "names": {
+    "zh": "抹香鲸",
+    "en": "Sperm Whale"
+  },
+  "scientificName": "Physeter macrocephalus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Cetacea",
+      "zhName": "鲸目"
+    },
+    "family": {
+      "scientificName": "Physeteridae",
+      "zhName": "抹香鲸科"
+    },
+    "genus": {
+      "scientificName": "Physeter",
+      "zhName": "抹香鲸属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "VU",
+    "label": {
+      "zh": "易危",
+      "en": "Vulnerable"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "大西洋",
+      "太平洋",
+      "印度洋"
+    ],
+    "countries": [],
+    "range": "分布于世界各大洋的适宜深水海域。雌性与幼鲸多在温暖水域活动，成年雄性也会到较冷的高纬度海域。"
+  },
+  "habitats": [
+    {
+      "name": "海洋深水区",
+      "realm": "marine",
+      "description": "分布于世界各大洋的适宜深水海域。雌性与幼鲸多在温暖水域活动，成年雄性也会到较冷的高纬度海域。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱿鱼",
+      "鱼类"
+    ],
+    "description": "潜入深水寻找鱿鱼和鱼类，利用声音感知水下环境和猎物。"
+  },
+  "tags": [
+    "抹香鲸",
+    "大大的头和渐细的尾部"
+  ],
+  "summary": "看看它大大的头，再找找头部下面窄窄的下颌。",
+  "description": "抹香鲸是齿鲸，头部很大，下颌窄，身体向尾部逐渐变细。灰色皮肤常有褶皱，胸鳍较小。它用肺呼吸，需要回到海面换气。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "大头与窄下颌",
+      "body": "看看它大大的头，再找找头部下面窄窄的下颌。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "回到海面呼吸",
+      "body": "呼吸孔位于头部前端偏左处。海面上的喷气雾向前侧倾斜，不是从嘴里喷水。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "向深处潜下去",
+      "body": "抹香鲸潜入深水寻找食物，之后还要回到海面呼吸。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "小胸鳍与褶皱皮肤",
+      "body": "在大身体旁找找较小的胸鳍，再看看灰色皮肤上的褶皱。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "幼鲸跟在身边",
+      "body": "雌鲸与幼鲸生活在社会群体中，幼鲸从母亲那里吃奶。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "IUCN 全球等级为易危；美国《濒危物种法》的濒危认定属于另一制度。历史捕鲸使种群大幅减少，如今还面临缠绕、碰撞和噪声等影响。"
+    }
+  ],
+  "keyFacts": [
+    "看看它大大的头，再找找头部下面窄窄的下颌。",
+    "呼吸孔位于头部前端偏左处。海面上的喷气雾向前侧倾斜，不是从嘴里喷水。",
+    "抹香鲸潜入深水寻找食物，之后还要回到海面呼吸。",
+    "在大身体旁找找较小的胸鳍，再看看灰色皮肤上的褶皱。",
+    "雌鲸与幼鲸生活在社会群体中，幼鲸从母亲那里吃奶。"
+  ],
+  "threats": [
+    "渔具缠绕",
+    "船舶碰撞",
+    "海洋噪声",
+    "历史捕鲸影响"
+  ],
+  "conservationActions": [
+    "减少渔具缠绕",
+    "降低船舶碰撞风险",
+    "减少海洋噪声"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "大大的头和渐细的尾部"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "海洋深水区"
+    }
+  ],
+  "media": {
+    "image": "./images/species/sperm-whale/01-cover.webp",
+    "alt": "抹香鲸的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/sperm-whale/02-observation.webp",
+        "title": "大头与窄下颌",
+        "alt": "抹香鲸：大头与窄下颌",
+        "caption": "AI 生成科学情景重建。看看它大大的头，再找找头部下面窄窄的下颌。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sperm-whale/03-observation.webp",
+        "title": "回到海面呼吸",
+        "alt": "抹香鲸：回到海面呼吸",
+        "caption": "AI 生成科学情景重建。呼吸孔位于头部前端偏左处。海面上的喷气雾向前侧倾斜，不是从嘴里喷水。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sperm-whale/04-observation.webp",
+        "title": "向深处潜下去",
+        "alt": "抹香鲸：向深处潜下去",
+        "caption": "AI 生成科学情景重建。抹香鲸潜入深水寻找食物，之后还要回到海面呼吸。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sperm-whale/05-observation.webp",
+        "title": "小胸鳍与褶皱皮肤",
+        "alt": "抹香鲸：小胸鳍与褶皱皮肤",
+        "caption": "AI 生成科学情景重建。在大身体旁找找较小的胸鳍，再看看灰色皮肤上的褶皱。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sperm-whale/06-observation.webp",
+        "title": "幼鲸跟在身边",
+        "alt": "抹香鲸：幼鲸跟在身边",
+        "caption": "AI 生成科学情景重建。雌鲸与幼鲸生活在社会群体中，幼鲸从母亲那里吃奶。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Sperm Whale：分类与生态资料",
+      "url": "https://www.fisheries.noaa.gov/species/sperm-whale",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "Sperm Whale：保护状况",
+      "url": "https://iucn-csg.org/red-list-updates-published-for-sperm-whales-and-lahilles-bottlenose-dolphins/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "抹香鲸：形态与生活习性",
+      "url": "https://www.fisheries.noaa.gov/species/sperm-whale",
+      "kind": "ecology",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "ADW：抹香鲸分类（页面使用异名 Physeter catodon）",
+      "url": "https://animaldiversity.org/accounts/Physeter_catodon/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16"
+},{
+  "id": "pygmy-hippopotamus",
+  "slug": "pygmy-hippopotamus",
+  "names": {
+    "zh": "倭河马",
+    "en": "Pygmy Hippopotamus"
+  },
+  "scientificName": "Choeropsis liberiensis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Artiodactyla",
+      "zhName": "偶蹄目"
+    },
+    "family": {
+      "scientificName": "Hippopotamidae",
+      "zhName": "河马科"
+    },
+    "genus": {
+      "scientificName": "Choeropsis",
+      "zhName": "倭河马属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料中的全球等级；未单独核实评估日期"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "西非"
+    ],
+    "countries": [],
+    "range": "现存种群分布在利比里亚、塞拉利昂、几内亚和科特迪瓦的森林地区，常靠近溪流与沼泽。"
+  },
+  "habitats": [
+    {
+      "name": "西非森林与溪流",
+      "realm": "terrestrial",
+      "description": "现存种群分布在利比里亚、塞拉利昂、几内亚和科特迪瓦的森林地区，常靠近溪流与沼泽。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "min": 150,
+      "max": 175,
+      "unit": "cm",
+      "note": "成体头体长，不含约 20 cm 的尾巴；河马专家组资料。"
+    }
+  },
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "叶片",
+      "草本植物",
+      "落果",
+      "蕨类"
+    ],
+    "description": "在森林中取食叶片、草本植物和落果等，更多时间在陆地活动。"
+  },
+  "tags": [
+    "倭河马",
+    "森林里的小体形河马"
+  ],
+  "summary": "和成年河马比一比，倭河马的身体更小。",
+  "description": "倭河马是独立的河马科物种，不是普通河马的幼崽。它体形较小，眼睛不像普通河马那样突出于头顶，常独自或成对活动在森林和水边。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "和成年河马比一比",
+      "body": "左边是倭河马，右边是普通河马。图中用约 1.5 米与 3.0 米的成年头体长示意，比例约为一比二；实际个体大小会不同。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "厚嘴唇取下叶子",
+      "body": "倭河马用厚嘴唇取食植物，看看嘴边的叶片。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "溪流里歇一歇",
+      "body": "白天常在水边或水中隐蔽处休息，周围的森林为它提供遮蔽。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "小耳朵和鼻孔",
+      "body": "找找小圆耳朵与鼻孔。潜入水中时，它能关闭耳孔和鼻孔。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "沿着林间小路走",
+      "body": "倭河马会沿林间通道活动，通常在夜间更活跃，也会在白天活动。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为濒危。森林丧失和破碎化使种群分隔，捕猎也带来威胁。保护森林与溪流周边环境是保护工作的重点。"
+    }
+  ],
+  "keyFacts": [
+    "左边是倭河马，右边是普通河马。图中用约 1.5 米与 3.0 米的成年头体长示意，比例约为一比二；实际个体大小会不同。",
+    "倭河马用厚嘴唇取食植物，看看嘴边的叶片。",
+    "白天常在水边或水中隐蔽处休息，周围的森林为它提供遮蔽。",
+    "找找小圆耳朵与鼻孔。潜入水中时，它能关闭耳孔和鼻孔。",
+    "倭河马会沿林间通道活动，通常在夜间更活跃，也会在白天活动。"
+  ],
+  "threats": [
+    "森林砍伐",
+    "农业与居民点扩张",
+    "捕猎"
+  ],
+  "conservationActions": [
+    "保护西非森林",
+    "维持溪流周边生境",
+    "减少捕猎并监测种群"
+  ],
+  "metrics": {
+    "adultLengthCm": [
+      150,
+      175
+    ]
+  },
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "森林里的小体形河马"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "西非森林与溪流"
+    }
+  ],
+  "media": {
+    "image": "./images/species/pygmy-hippopotamus/01-cover.webp",
+    "alt": "倭河马的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/pygmy-hippopotamus/02-observation.webp",
+        "title": "和成年河马比一比",
+        "alt": "成年倭河马与普通河马的体形比例示意",
+        "caption": "AI 生成比例示意。左边是倭河马，右边是普通河马。图中用约 1.5 米与 3.0 米的成年头体长示意，比例约为一比二；实际个体大小会不同。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pygmy-hippopotamus/03-observation.webp",
+        "title": "厚嘴唇取下叶子",
+        "alt": "倭河马：厚嘴唇取下叶子",
+        "caption": "AI 生成科学情景重建。倭河马用厚嘴唇取食植物，看看嘴边的叶片。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pygmy-hippopotamus/04-observation.webp",
+        "title": "溪流里歇一歇",
+        "alt": "倭河马：溪流里歇一歇",
+        "caption": "AI 生成科学情景重建。白天常在水边或水中隐蔽处休息，周围的森林为它提供遮蔽。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pygmy-hippopotamus/05-observation.webp",
+        "title": "小耳朵和鼻孔",
+        "alt": "倭河马：小耳朵和鼻孔",
+        "caption": "AI 生成科学情景重建。找找小圆耳朵与鼻孔。潜入水中时，它能关闭耳孔和鼻孔。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pygmy-hippopotamus/06-observation.webp",
+        "title": "沿着林间小路走",
+        "alt": "倭河马：沿着林间小路走",
+        "caption": "AI 生成科学情景重建。倭河马会沿林间通道活动，通常在夜间更活跃，也会在白天活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Pygmy Hippopotamus：分类与生态资料",
+      "url": "https://www.hipposg.org/pygmy-hippopotamus",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "Pygmy Hippopotamus：保护状况",
+      "url": "https://www.hipposg.org/pygmy-hippopotamus",
+      "kind": "conservation",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "倭河马：形态与生活习性",
+      "url": "https://www.hipposg.org/pygmy-hippopotamus",
+      "kind": "ecology",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "河马专家组：普通河马成年头体长（比较图依据）",
+      "url": "https://www.hipposg.org/common-hippopotamus",
+      "kind": "general",
+      "accessedAt": "2026-09-16"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case photorealistic-natural. Generate one landscape 1536x1024 natural history editorial photograph for Fauna Atlas. One South American coati Nasua nasua, elongated flexible brown snout, small ears, reddish brown fur and long faintly ringed tail held in a curved upright position, in South American forest floor. Complete animal from nose to tail including all visible feet or fins inside x=650..1450 y=180..830. Clear large subject on RIGHT, center at 69% source width; left 40% quiet natural background for title. Real margin all around entire subject. No text, no collage, no borders, no watermark. Scientifically accurate, calm natural scene.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: South American coati Nasua nasua, elongated brown flexible snout, reddish brown coat, long ringed tail. Scene: Close head and forebody, flexible elongated nose lowered sniffing leaf litter. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: South American coati Nasua nasua, elongated brown flexible snout, reddish brown coat, long ringed tail. Scene: Full animal walking with long ringed tail held upright, tropical forest floor. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: South American coati Nasua nasua, elongated brown flexible snout, reddish brown coat, long ringed tail. Scene: Full animal climbing a sloping tree trunk gripping with claws; tail used for balance, NOT prehensile. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: South American coati Nasua nasua, elongated brown flexible snout, reddish brown coat, long ringed tail. Scene: One coati eating fallen ripe fruit on forest floor. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph for an educational animal atlas. Species: South American coati Nasua nasua, elongated brown flexible snout, reddish brown coat, long ringed tail. Scene: Small group of three females and juveniles foraging together on forest floor, no human expression. Clear scientifically accurate anatomy, natural lighting, realistic colors. Keep required body parts comfortably in frame. No text, watermark, borders, collage, fantasy or captive equipment.",
+    "tool": "built-in image_gen"
+  }
+]
