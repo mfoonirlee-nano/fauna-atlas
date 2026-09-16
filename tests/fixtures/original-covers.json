@@ -1116,5 +1116,18 @@
       },
       "sha256": "6b50bf47d3fc26b1eed2de50c0976282fbc05e2d5692b4771e1bb8577e604511"
     }
+  },
+  "emu": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 778,
+        "top": 28,
+        "right": 1475,
+        "bottom": 958
+      },
+      "sha256": "1b78591dc7bb63bdc0fa069ac2377ed7c098e4e6f51bc3b8d215e76f05d408bb"
+    }
   }
 }

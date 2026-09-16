@@ -419,3 +419,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Adélie Penguin image set](./species/adelie-penguin/README.md)
 - [Gentoo Penguin image set](./species/gentoo-penguin/README.md)
 - [African Penguin image set](./species/african-penguin/README.md)
+
+- [Emu image set](./species/emu/README.md)

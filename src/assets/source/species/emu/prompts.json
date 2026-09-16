@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create a photorealistic natural history editorial wildlife photograph, landscape 1536x1024. One adult emu Dromaius novaehollandiae in Australian dry grass woodland, full body standing with both long legs and three-toed feet visible, shaggy brown feathers, small dark head and blue-black bare neck. Cover for fauna atlas. Animal fills the RIGHT side, full subject boundary approximately x=830..1390 y=95..930, center at 72% width. Left 40 percent quiet open habitat for text. Keep all head, bill, feet, tail visible with background margins. Natural morning light, accurate anatomy, no text, watermark, frame, or other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult emu Dromaius novaehollandiae, shaggy brown plumage, small head, blue-black neck, three toes per foot, tiny concealed wings. Habitat: Australian open eucalyptus woodland. Scene: Full-body running sideways across open ground with both long legs visible and tiny wings tucked.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult emu Dromaius novaehollandiae, shaggy brown plumage, small head, blue-black neck, three toes per foot, tiny concealed wings. Habitat: Australian open eucalyptus woodland. Scene: Close view of scaly feet planted on bare soil, each with exactly three forward toes.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult emu Dromaius novaehollandiae, shaggy brown plumage, small head, blue-black neck, three toes per foot, tiny concealed wings. Habitat: Australian open eucalyptus woodland. Scene: Adult male walking with three small brown-and-cream longitudinally striped chicks.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult emu Dromaius novaehollandiae, shaggy brown plumage, small head, blue-black neck, three toes per foot, tiny concealed wings. Habitat: Australian open eucalyptus woodland. Scene: Adult lowering neck to pick green shoots from sparse ground vegetation.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult emu Dromaius novaehollandiae, shaggy brown plumage, small head, blue-black neck, three toes per foot, tiny concealed wings. Habitat: Australian open eucalyptus woodland. Scene: Close view of shaggy double-shafted brown plumage on back and slender blue-black neck.",
+    "tool": "built-in image_gen"
+  }
+]

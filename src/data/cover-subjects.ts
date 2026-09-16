@@ -2600,5 +2600,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1365,
       "bottom": 925
     }
+  },
+  "emu": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 778,
+      "top": 28,
+      "right": 1475,
+      "bottom": 958
+    }
   }
 };
