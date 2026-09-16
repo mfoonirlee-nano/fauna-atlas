@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: one adult Adelie penguin Pygoscelis adeliae, black head with narrow white eye ring, short mostly dark bill, black back, white belly, no yellow orange or white head cap. Scene: Antarctic rocky coast beside sea ice. Full-body cover, animal in the right third, facing slightly left, entire bill/head/flippers/feet/tail visible. Tall penguin spans approximately x950..1330 y150..880, maximum prominent size with margins. Left 40 percent quiet empty natural background. No other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult Adelie penguin Pygoscelis adeliae, black head with narrow white eye ring, short mostly dark bill, black back, white belly, no yellow orange or white head cap. Scene: Antarctic rocky coast beside sea ice. Close side head portrait clearly showing the thin white ring around dark eye and short dark bill. Entire head in frame.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult Adelie penguin Pygoscelis adeliae, black head with narrow white eye ring, short mostly dark bill, black back, white belly, no yellow orange or white head cap. Scene: Antarctic rocky coast beside sea ice. Full penguin carrying one small pebble in its bill toward a low pebble nest on bare rock.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult Adelie penguin Pygoscelis adeliae, black head with narrow white eye ring, short mostly dark bill, black back, white belly, no yellow orange or white head cap. Scene: Antarctic rocky coast beside sea ice. One full penguin belly-sliding over clean snow, flippers out slightly, feet trailing, not flying.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult Adelie penguin Pygoscelis adeliae, black head with narrow white eye ring, short mostly dark bill, black back, white belly, no yellow orange or white head cap. Scene: Antarctic rocky coast beside sea ice. One full penguin swimming underwater below pale sea ice, flippers extended, small krill visible in water.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Generate a single 1536x1024 landscape natural-history editorial image for Fauna Atlas. Accurate anatomy and species markings, real feather or skin textures, natural light and habitat. No text, labels, frame, watermark, collage or human objects. Subject: adult Adelie penguin Pygoscelis adeliae, black head with narrow white eye ring, short mostly dark bill, black back, white belly, no yellow orange or white head cap. Scene: Antarctic rocky coast beside sea ice. One adult with two small grey downy chicks at a low stone nest on exposed ground, full bodies, no yellow or orange plumage.",
+    "tool": "built-in image_gen"
+  }
+]

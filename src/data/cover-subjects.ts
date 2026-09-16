@@ -2570,5 +2570,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1318,
       "bottom": 960
     }
+  },
+  "adelie-penguin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 845,
+      "top": 118,
+      "right": 1355,
+      "bottom": 925
+    }
   }
 };

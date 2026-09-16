@@ -1077,5 +1077,18 @@
       },
       "sha256": "b519f4772f76533a7e9477ea5c6838cf4fcd7db26c9d4ae1567664bebf8afce3"
     }
+  },
+  "adelie-penguin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 845,
+        "top": 118,
+        "right": 1355,
+        "bottom": 925
+      },
+      "sha256": "95b7965ff46961f66572e36105fbeb9776069240d71f73a7a71d4f74cb98faf9"
+    }
   }
 }
