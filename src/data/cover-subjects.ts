@@ -2590,5 +2590,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1385,
       "bottom": 910
     }
+  },
+  "african-penguin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 854,
+      "top": 74,
+      "right": 1365,
+      "bottom": 925
+    }
   }
 };

@@ -1103,5 +1103,18 @@
       },
       "sha256": "508f57c7b2c87488d17317c5f0f63988c3f5456673a4b6b95dd2c005d0258d75"
     }
+  },
+  "african-penguin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 854,
+        "top": 74,
+        "right": 1365,
+        "bottom": 925
+      },
+      "sha256": "6b50bf47d3fc26b1eed2de50c0976282fbc05e2d5692b4771e1bb8577e604511"
+    }
   }
 }
