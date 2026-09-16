@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: one wild-type rosy-faced lovebird Agapornis roseicollis, small stocky green parrot, peach-pink face and throat, redder forehead, ivory horn-colored bill, blue rump, short green tail, NO bold white eye-ring. Habitat: southwestern African dry thorn scrub. Cover: full body standing or perched on RIGHT side, whole animal including beak, feet and tail fits x=820..1390 y=95..930. Maximize body size inside those bounds. Left 40 percent quiet empty habitat for title. All extremities have background clearance. No other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: wild-type rosy-faced lovebird Agapornis roseicollis, small stocky green parrot, peach-pink face and throat, redder forehead, ivory horn-colored bill, blue rump, short green tail, NO bold white eye-ring. Habitat: southwestern African dry thorn scrub. Scene: Close head and chest portrait showing peach-pink face, ivory beak, green chest, no white eye-ring.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: wild-type rosy-faced lovebird Agapornis roseicollis, small stocky green parrot, peach-pink face and throat, redder forehead, ivory horn-colored bill, blue rump, short green tail, NO bold white eye-ring. Habitat: southwestern African dry thorn scrub. Scene: Rear three-quarter full-body perched view showing blue rump and short tail among green feathers.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: wild-type rosy-faced lovebird Agapornis roseicollis, small stocky green parrot, peach-pink face and throat, redder forehead, ivory horn-colored bill, blue rump, short green tail, NO bold white eye-ring. Habitat: southwestern African dry thorn scrub. Scene: Small green lovebird on ground picking dry grass seeds.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: wild-type rosy-faced lovebird Agapornis roseicollis, small stocky green parrot, peach-pink face and throat, redder forehead, ivory horn-colored bill, blue rump, short green tail, NO bold white eye-ring. Habitat: southwestern African dry thorn scrub. Scene: Female with thin strips of plant material tucked among rump feathers, perched side-on, not carrying a giant nest.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: wild-type rosy-faced lovebird Agapornis roseicollis, small stocky green parrot, peach-pink face and throat, redder forehead, ivory horn-colored bill, blue rump, short green tail, NO bold white eye-ring. Habitat: southwestern African dry thorn scrub. Scene: Two wild-type lovebirds perched side by side in thorn scrub, both natural green bodies and peach faces.",
+    "tool": "built-in image_gen"
+  }
+]

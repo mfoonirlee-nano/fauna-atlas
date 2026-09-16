@@ -2640,5 +2640,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1306,
       "bottom": 1010
     }
+  },
+  "rosy-faced-lovebird": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 785,
+      "top": 138,
+      "right": 1338,
+      "bottom": 820
+    }
   }
 };
