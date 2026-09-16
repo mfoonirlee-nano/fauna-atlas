@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: one adult African grey parrot Psittacus erithacus, scalloped light gray feathers, black curved bill, bare whitish eye surround, pale yellow iris, brilliant red short tail (not maroon). Habitat: Central African tropical forest. Cover: full body standing or perched on RIGHT side, whole animal including beak, feet and tail fits x=820..1390 y=95..930. Maximize body size inside those bounds. Left 40 percent quiet empty habitat for title. All extremities have background clearance. No other animals.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult African grey parrot Psittacus erithacus, scalloped light gray feathers, black curved bill, bare whitish eye surround, pale yellow iris, brilliant red short tail (not maroon). Habitat: Central African tropical forest. Scene: Rear three-quarter full bird view showing bright RED tail against gray back.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult African grey parrot Psittacus erithacus, scalloped light gray feathers, black curved bill, bare whitish eye surround, pale yellow iris, brilliant red short tail (not maroon). Habitat: Central African tropical forest. Scene: Bird holding a small palm fruit in one foot and eating with curved black beak, other foot gripping branch.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult African grey parrot Psittacus erithacus, scalloped light gray feathers, black curved bill, bare whitish eye surround, pale yellow iris, brilliant red short tail (not maroon). Habitat: Central African tropical forest. Scene: Adult perched at entrance of a natural large tree cavity, no artificial nest box.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult African grey parrot Psittacus erithacus, scalloped light gray feathers, black curved bill, bare whitish eye surround, pale yellow iris, brilliant red short tail (not maroon). Habitat: Central African tropical forest. Scene: Two gray parrots perched together on separate adjacent branches, red tails visible.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas, realistic accurate anatomy and natural light. No text, watermark, labels, border, collage, cages or human objects. Subject: adult African grey parrot Psittacus erithacus, scalloped light gray feathers, black curved bill, bare whitish eye surround, pale yellow iris, brilliant red short tail (not maroon). Habitat: Central African tropical forest. Scene: Close head and upper chest portrait showing white face and fine scalloped gray feathers.",
+    "tool": "built-in image_gen"
+  }
+]

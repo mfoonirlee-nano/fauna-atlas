@@ -2620,5 +2620,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1368,
       "bottom": 982
     }
+  },
+  "african-grey-parrot": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 752,
+      "top": 86,
+      "right": 1435,
+      "bottom": 894
+    }
   }
 };

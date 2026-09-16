@@ -81131,6 +81131,244 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-09-16",
   "updatedAt": "2026-09-16"
+},{
+  "id": "african-grey-parrot",
+  "slug": "african-grey-parrot",
+  "names": {
+    "zh": "非洲灰鹦鹉",
+    "en": "African Grey Parrot"
+  },
+  "scientificName": "Psittacus erithacus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Psittaciformes",
+      "zhName": "鹦形目"
+    },
+    "family": {
+      "scientificName": "Psittacidae",
+      "zhName": "鹦鹉科"
+    },
+    "genus": {
+      "scientificName": "Psittacus",
+      "zhName": "非洲灰鹦鹉属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "非洲中西部"
+    ],
+    "countries": [],
+    "range": "主要生活在非洲中西部的热带森林，分布向东延伸至东非部分地区；本档案不包含独立种 Psittacus timneh。"
+  },
+  "habitats": [
+    {
+      "name": "热带森林",
+      "realm": "terrestrial",
+      "description": "主要生活在非洲中西部的热带森林，分布向东延伸至东非部分地区；本档案不包含独立种 Psittacus timneh。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "果实",
+      "种子",
+      "棕榈果"
+    ],
+    "description": "取食果实、种子、棕榈果。"
+  },
+  "tags": [
+    "非洲灰鹦鹉",
+    "灰羽毛里的红尾巴"
+  ],
+  "summary": "在非洲灰鹦鹉的灰色羽毛中找找红色尾巴。",
+  "description": "非洲灰鹦鹉的身体以灰色为主，短尾巴鲜红，弯曲的嘴呈黑色。眼睛周围有一片浅色裸皮。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "灰羽毛里的红尾巴",
+      "body": "沿着灰色背部向下看，尾端有一片鲜红色。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "用嘴打开食物",
+      "body": "灰鹦鹉会用弯曲的嘴处理果实和种子。看看它怎样把食物送到嘴边。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "住进树洞",
+      "body": "灰鹦鹉利用树上已有的洞穴筑巢，大树能提供适合的巢址。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "和同伴待在一起",
+      "body": "野外灰鹦鹉会结群飞行，也会聚集在树上休息。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "细看灰色羽毛",
+      "body": "头颈和胸部的羽毛边缘形成一层层浅色纹路，眼睛周围则较白。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "了解它的生存环境",
+      "body": "全球等级为濒危。捕捉贸易和森林损失威胁野生灰鹦鹉；欣赏它们的颜色和行为时，也要为它们保留野外的家。"
+    }
+  ],
+  "keyFacts": [
+    "沿着灰色背部向下看，尾端有一片鲜红色。",
+    "灰鹦鹉会用弯曲的嘴处理果实和种子。看看它怎样把食物送到嘴边。",
+    "灰鹦鹉利用树上已有的洞穴筑巢，大树能提供适合的巢址。",
+    "野外灰鹦鹉会结群飞行，也会聚集在树上休息。",
+    "头颈和胸部的羽毛边缘形成一层层浅色纹路，眼睛周围则较白。"
+  ],
+  "threats": [
+    "为宠物贸易捕捉野鸟",
+    "森林砍伐与大树减少"
+  ],
+  "conservationActions": [
+    "拒绝购买野外捕捉的鹦鹉",
+    "保护森林及巢树"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "灰羽毛里的红尾巴"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带森林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/african-grey-parrot/01-cover.webp",
+    "alt": "非洲灰鹦鹉的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/african-grey-parrot/02-observation.webp",
+        "title": "灰羽毛里的红尾巴",
+        "alt": "非洲灰鹦鹉：灰羽毛里的红尾巴",
+        "caption": "AI 生成科学情景重建。沿着灰色背部向下看，尾端有一片鲜红色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/african-grey-parrot/03-observation.webp",
+        "title": "用嘴打开食物",
+        "alt": "非洲灰鹦鹉：用嘴打开食物",
+        "caption": "AI 生成科学情景重建。灰鹦鹉会用弯曲的嘴处理果实和种子。看看它怎样把食物送到嘴边。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/african-grey-parrot/04-observation.webp",
+        "title": "住进树洞",
+        "alt": "非洲灰鹦鹉：住进树洞",
+        "caption": "AI 生成科学情景重建。灰鹦鹉利用树上已有的洞穴筑巢，大树能提供适合的巢址。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/african-grey-parrot/05-observation.webp",
+        "title": "和同伴待在一起",
+        "alt": "非洲灰鹦鹉：和同伴待在一起",
+        "caption": "AI 生成科学情景重建。野外灰鹦鹉会结群飞行，也会聚集在树上休息。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/african-grey-parrot/06-observation.webp",
+        "title": "细看灰色羽毛",
+        "alt": "非洲灰鹦鹉：细看灰色羽毛",
+        "caption": "AI 生成科学情景重建。头颈和胸部的羽毛边缘形成一层层浅色纹路，眼睛周围则较白。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "World Land Trust：灰鹦鹉分类、生态与濒危等级",
+      "url": "https://www.worldlandtrust.org/species/grey-parrot/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "World Land Trust：灰鹦鹉食性与巢址",
+      "url": "https://www.worldlandtrust.org/species/grey-parrot/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-16"
+    },
+    {
+      "title": "World Land Trust：灰鹦鹉分类",
+      "url": "https://www.worldlandtrust.org/species/grey-parrot/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-16"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-09-16"
 },
 ] as const satisfies readonly Species[];
 

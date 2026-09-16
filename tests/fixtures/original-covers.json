@@ -1142,5 +1142,18 @@
       },
       "sha256": "6101189fafb3c76e8f762816076fb87d2fe13d9dc03699334ea352559d238280"
     }
+  },
+  "african-grey-parrot": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 752,
+        "top": 86,
+        "right": 1435,
+        "bottom": 894
+      },
+      "sha256": "550d9f9c46dc9485ed853f44eb8726fc227fc214ab44231b7f3e556a320a7e3d"
+    }
   }
 }
