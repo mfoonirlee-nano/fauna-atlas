@@ -82128,6 +82128,244 @@ export const species = [
   "publishedAt": "2026-09-17",
   "updatedAt": "2026-09-17"
 },
+{
+  "id": "european-bee-eater",
+  "slug": "european-bee-eater",
+  "names": {
+    "zh": "欧洲蜂虎",
+    "en": "European Bee-eater"
+  },
+  "scientificName": "Merops apiaster",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Coraciiformes",
+      "zhName": "佛法僧目"
+    },
+    "family": {
+      "scientificName": "Meropidae",
+      "zhName": "蜂虎科"
+    },
+    "genus": {
+      "scientificName": "Merops",
+      "zhName": "蜂虎属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲南部与非洲"
+    ],
+    "countries": [],
+    "range": "欧洲南部和北非等地有繁殖种群，许多种群迁往撒哈拉以南非洲越冬。"
+  },
+  "habitats": [
+    {
+      "name": "开阔草地与沙质岸坡",
+      "realm": "terrestrial",
+      "description": "欧洲南部和北非等地有繁殖种群，许多种群迁往撒哈拉以南非洲越冬。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "weight": {
+      "typical": 60.5,
+      "unit": "g",
+      "note": "BTO 所列代表体重，不作为上下限。"
+    }
+  },
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "蜂类",
+      "蜻蜓",
+      "其他飞虫"
+    ],
+    "description": "取食蜂类、蜻蜓、其他飞虫。"
+  },
+  "tags": [
+    "欧洲蜂虎",
+    "黄色喉部和长嘴"
+  ],
+  "summary": "看看欧洲蜂虎飞起来捕虫的样子。",
+  "description": "欧洲蜂虎的喉部黄色、胸腹蓝绿色，眼旁有黑色条纹。它用细长的嘴在飞行中捕捉昆虫。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "黄色喉部和长嘴",
+      "body": "沿着黑色的嘴向后看，找找黄色喉部和经过眼睛的黑色条纹。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "飞起来捉虫",
+      "body": "它从栖枝飞出去，在空中追逐并捕捉飞虫。图中可以找找嘴前的小虫。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "把食物带回枝头",
+      "body": "捕到蜂后，它会在枝上处理猎物，再吞下。单张图片没有展示整个处理过程。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "沙坡上的洞口",
+      "body": "欧洲蜂虎能在沙岸或采砂地的土壁挖掘巢洞。观察时应与洞口保持距离。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "和同伴停一停",
+      "body": "它们常结群活动，也会在相近位置筑巢。看看两只鸟怎样抓住枝条。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料支持全球无危等级。独立评估日期和全球趋势未核实；观察时不要干扰鸟巢。"
+    }
+  ],
+  "keyFacts": [
+    "沿着黑色的嘴向后看，找找黄色喉部和经过眼睛的黑色条纹。",
+    "它从栖枝飞出去，在空中追逐并捕捉飞虫。图中可以找找嘴前的小虫。",
+    "捕到蜂后，它会在枝上处理猎物，再吞下。单张图片没有展示整个处理过程。",
+    "欧洲蜂虎能在沙岸或采砂地的土壁挖掘巢洞。观察时应与洞口保持距离。",
+    "它们常结群活动，也会在相近位置筑巢。看看两只鸟怎样抓住枝条。"
+  ],
+  "threats": [
+    "局地栖息环境改变与巢址干扰"
+  ],
+  "conservationActions": [
+    "保留原生植被和巢址",
+    "野外观察保持距离"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "黄色喉部和长嘴"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "开阔草地与沙质岸坡"
+    }
+  ],
+  "media": {
+    "image": "./images/species/european-bee-eater/01-cover.webp",
+    "alt": "欧洲蜂虎的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/european-bee-eater/02-observation.webp",
+        "title": "黄色喉部和长嘴",
+        "alt": "欧洲蜂虎：黄色喉部和长嘴",
+        "caption": "AI 生成科学情景重建。沿着黑色的嘴向后看，找找黄色喉部和经过眼睛的黑色条纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-bee-eater/03-observation.webp",
+        "title": "飞起来捉虫",
+        "alt": "欧洲蜂虎：飞起来捉虫",
+        "caption": "AI 生成科学情景重建。它从栖枝飞出去，在空中追逐并捕捉飞虫。图中可以找找嘴前的小虫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-bee-eater/04-observation.webp",
+        "title": "把食物带回枝头",
+        "alt": "欧洲蜂虎：把食物带回枝头",
+        "caption": "AI 生成科学情景重建。捕到蜂后，它会在枝上处理猎物，再吞下。单张图片没有展示整个处理过程。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-bee-eater/05-observation.webp",
+        "title": "沙坡上的洞口",
+        "alt": "欧洲蜂虎：沙坡上的洞口",
+        "caption": "AI 生成科学情景重建。欧洲蜂虎能在沙岸或采砂地的土壁挖掘巢洞。观察时应与洞口保持距离。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-bee-eater/06-observation.webp",
+        "title": "和同伴停一停",
+        "alt": "欧洲蜂虎：和同伴停一停",
+        "caption": "AI 生成科学情景重建。它们常结群活动，也会在相近位置筑巢。看看两只鸟怎样抓住枝条。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "RSPB：欧洲蜂虎捕虫、迁徙与巢穴",
+      "url": "https://www.rspb.org.uk/whats-happening/news/buzz-as-rare-rainbow-birds-set-up-summer-home-in-norfolk",
+      "kind": "ecology",
+      "accessedAt": "2026-09-17"
+    },
+    {
+      "title": "BTO：欧洲蜂虎分类与全球等级",
+      "url": "https://www.bto.org/learn/about-birds/birdfacts/bee-eater",
+      "kind": "conservation",
+      "accessedAt": "2026-09-17"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-17",
+  "updatedAt": "2026-09-17"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

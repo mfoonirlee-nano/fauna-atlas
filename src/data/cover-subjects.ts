@@ -2660,8 +2660,17 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1312,
       "bottom": 968
     }
+  },
+  "european-bee-eater": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 815,
+      "top": 62,
+      "right": 1330,
+      "bottom": 979
+    }
   }
-
 
 
 

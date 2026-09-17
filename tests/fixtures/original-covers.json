@@ -1194,5 +1194,18 @@
       },
       "sha256": "da5a30f03b1392b46f3fd15cb25476a4bc607dbc67fdb51a27b86ad757c4c8c6"
     }
+  },
+  "european-bee-eater": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 815,
+        "top": 62,
+        "right": 1330,
+        "bottom": 979
+      },
+      "sha256": "d258f527fc1e3e79fb7cebde6a0f997f7f435254f68562a7d05dff120f67d324"
+    }
   }
 }
