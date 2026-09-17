@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural-history editorial wildlife photograph for Fauna Atlas. One anatomically accurate laughing kookaburra Dacelo novaeguineae perched on eucalyptus branch in eastern Australian woodland. Stout long bill, creamy white head and underparts, dark brown eye stripe, brown wings with subtle blue patches, barred brown tail. Full body on RIGHT, all bill, feet and tail inside x=800..1400 y=100..920; maximize size within bounds. Left 40% quiet blurred woodland. Natural light, no text, watermark, border, collage or other birds."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: laughing kookaburra Dacelo novaeguineae, stout long bill, creamy head and belly, dark eye stripe, brown wings with small blue patches, barred brown tail, eastern Australian eucalyptus woodland. Scene: Close side portrait showing stout bill and dark eye stripe. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: laughing kookaburra Dacelo novaeguineae, stout long bill, creamy head and belly, dark eye stripe, brown wings with small blue patches, barred brown tail, eastern Australian eucalyptus woodland. Scene: Full bird watching the ground from an elevated branch. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: laughing kookaburra Dacelo novaeguineae, stout long bill, creamy head and belly, dark eye stripe, brown wings with small blue patches, barred brown tail, eastern Australian eucalyptus woodland. Scene: Bird on leaf litter holding a small beetle in bill. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: laughing kookaburra Dacelo novaeguineae, stout long bill, creamy head and belly, dark eye stripe, brown wings with small blue patches, barred brown tail, eastern Australian eucalyptus woodland. Scene: Bird perched beside a natural hollow in a eucalyptus trunk, no cutaway. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: laughing kookaburra Dacelo novaeguineae, stout long bill, creamy head and belly, dark eye stripe, brown wings with small blue patches, barred brown tail, eastern Australian eucalyptus woodland. Scene: Two birds perched on a branch, one calling with open bill. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  }
+]

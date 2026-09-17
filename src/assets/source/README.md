@@ -427,3 +427,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [African Grey Parrot image set](./species/african-grey-parrot/README.md)
 - [Blue-and-yellow Macaw image set](./species/blue-and-yellow-macaw/README.md)
 - [Rosy-faced Lovebird image set](./species/rosy-faced-lovebird/README.md)
+
+- [Laughing Kookaburra image set](./species/laughing-kookaburra/README.md)

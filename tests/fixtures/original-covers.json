@@ -1181,5 +1181,18 @@
       },
       "sha256": "4801577788c5ede1321853dbe3a5fd17178c88e17648246787cd1eb14c0f6ed1"
     }
+  },
+  "laughing-kookaburra": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 55,
+        "right": 1312,
+        "bottom": 968
+      },
+      "sha256": "da5a30f03b1392b46f3fd15cb25476a4bc607dbc67fdb51a27b86ad757c4c8c6"
+    }
   }
 }

@@ -2650,5 +2650,19 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1338,
       "bottom": 820
     }
+  },
+  "laughing-kookaburra": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 675,
+      "top": 55,
+      "right": 1312,
+      "bottom": 968
+    }
   }
+
+
+
+
 };
