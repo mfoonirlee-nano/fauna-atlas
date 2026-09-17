@@ -2710,5 +2710,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1378,
       "bottom": 706
     }
+  },
+  "zebra-finch": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 824,
+      "top": 80,
+      "right": 1438,
+      "bottom": 834
+    }
   }
 };

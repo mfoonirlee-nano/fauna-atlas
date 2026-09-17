@@ -1259,5 +1259,18 @@
       },
       "sha256": "e933eb7dacb5e2c9ab3cdd0ef76b70e6a2170686ae58d47fe23d320e90ac3557"
     }
+  },
+  "zebra-finch": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 824,
+        "top": 80,
+        "right": 1438,
+        "bottom": 834
+      },
+      "sha256": "48e62b1c1c4553fc157e6782feee14c02d3bc99db0673927c420d6b896406709"
+    }
   }
 }

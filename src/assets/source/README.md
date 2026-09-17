@@ -435,3 +435,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [European Robin image set](./species/european-robin/README.md)
 
 - [Eurasian Blue Tit image set](./species/blue-tit/README.md)
+- [Australian Zebra Finch image set](./species/zebra-finch/README.md)
