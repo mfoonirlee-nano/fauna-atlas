@@ -2730,5 +2730,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1428,
       "bottom": 829
     }
+  },
+  "black-swan": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 816,
+      "top": 57,
+      "right": 1475,
+      "bottom": 964
+    }
   }
 };

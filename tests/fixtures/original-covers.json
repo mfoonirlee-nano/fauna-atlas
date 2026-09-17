@@ -1285,5 +1285,18 @@
       },
       "sha256": "85f607b3df1a58f834913d1aba8efe48dd45c8e10f6e1624be0f30196be617ef"
     }
+  },
+  "black-swan": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 816,
+        "top": 57,
+        "right": 1475,
+        "bottom": 964
+      },
+      "sha256": "00e777b0b558ae10fc848a04e77c19850678bb06d04791a4db00b392e3d3c5fd"
+    }
   }
 }
