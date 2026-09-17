@@ -84049,6 +84049,240 @@ export const species = [
   "publishedAt": "2026-09-17",
   "updatedAt": "2026-09-17"
 },
+{
+  "id": "american-alligator",
+  "slug": "american-alligator",
+  "names": {
+    "zh": "美洲短吻鳄",
+    "en": "American Alligator"
+  },
+  "scientificName": "Alligator mississippiensis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Crocodylia",
+      "zhName": "鳄目"
+    },
+    "family": {
+      "scientificName": "Alligatoridae",
+      "zhName": "短吻鳄科"
+    },
+    "genus": {
+      "scientificName": "Alligator",
+      "zhName": "短吻鳄属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "美国东南部"
+    ],
+    "countries": [],
+    "range": "原生于美国东南部，主要生活在淡水湿地和缓流河道，不能长期生活在海水中。"
+  },
+  "habitats": [
+    {
+      "name": "淡水沼泽、湖泊与缓流河道",
+      "realm": "freshwater",
+      "description": "原生于美国东南部，主要生活在淡水湿地和缓流河道，不能长期生活在海水中。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "龟类",
+      "鸟类",
+      "小型哺乳动物"
+    ],
+    "description": "取食鱼类、龟类、鸟类、小型哺乳动物。"
+  },
+  "tags": [
+    "美洲短吻鳄",
+    "眼睛和鼻孔露出来"
+  ],
+  "summary": "找找美洲短吻鳄露出水面的眼睛和鼻孔。",
+  "description": "美洲短吻鳄有宽圆的吻部、短腿和粗壮的尾巴。鼻孔朝上，身体大部分浸在水里时也能呼吸。它是野生捕食者，观察时要留在安全的观景位置。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "眼睛和鼻孔露出来",
+      "body": "身体藏在水里，头顶的眼睛和吻端的鼻孔还露在水面上。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "到岸边晒太阳",
+      "body": "它会在岸边晒太阳，也会回到水里。它借助周围环境调节体温。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "长尾巴划水",
+      "body": "粗壮的尾巴帮助它在水里推进。静态图只能看见姿势，不能展示完整摆动过程。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "背上的鳞甲",
+      "body": "看看背上一排排凸起。皮肤里嵌着骨板，为身体提供保护。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "幼鳄身上的黄条纹",
+      "body": "幼鳄身上有黄色横带，尾部尤其清楚。长大后的体色更深。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料支持全球无危等级。保护它生活的环境，观察时保持距离，不干扰野生动物。"
+    }
+  ],
+  "keyFacts": [
+    "身体藏在水里，头顶的眼睛和吻端的鼻孔还露在水面上。",
+    "它会在岸边晒太阳，也会回到水里。它借助周围环境调节体温。",
+    "粗壮的尾巴帮助它在水里推进。静态图只能看见姿势，不能展示完整摆动过程。",
+    "看看背上一排排凸起。皮肤里嵌着骨板，为身体提供保护。",
+    "幼鳄身上有黄色横带，尾部尤其清楚。长大后的体色更深。"
+  ],
+  "threats": [
+    "局地栖息环境改变与人为干扰"
+  ],
+  "conservationActions": [
+    "保护湿地与岸边植被",
+    "远距离观察，不投喂"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "眼睛和鼻孔露出来"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "淡水沼泽、湖泊与缓流河道"
+    }
+  ],
+  "media": {
+    "image": "./images/species/american-alligator/01-cover.webp",
+    "alt": "美洲短吻鳄的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/american-alligator/02-observation.webp",
+        "title": "眼睛和鼻孔露出来",
+        "alt": "美洲短吻鳄：眼睛和鼻孔露出来",
+        "caption": "AI 生成科学情景重建。身体藏在水里，头顶的眼睛和吻端的鼻孔还露在水面上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/american-alligator/03-observation.webp",
+        "title": "到岸边晒太阳",
+        "alt": "美洲短吻鳄：到岸边晒太阳",
+        "caption": "AI 生成科学情景重建。它会在岸边晒太阳，也会回到水里。它借助周围环境调节体温。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/american-alligator/04-observation.webp",
+        "title": "长尾巴划水",
+        "alt": "美洲短吻鳄：长尾巴划水",
+        "caption": "AI 生成科学情景重建。粗壮的尾巴帮助它在水里推进。静态图只能看见姿势，不能展示完整摆动过程。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/american-alligator/05-observation.webp",
+        "title": "背上的鳞甲",
+        "alt": "美洲短吻鳄：背上的鳞甲",
+        "caption": "AI 生成科学情景重建。看看背上一排排凸起。皮肤里嵌着骨板，为身体提供保护。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/american-alligator/06-observation.webp",
+        "title": "幼鳄身上的黄条纹",
+        "alt": "美洲短吻鳄：幼鳄身上的黄条纹",
+        "caption": "AI 生成科学情景重建。幼鳄身上有黄色横带，尾部尤其清楚。长大后的体色更深。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Smithsonian 国家动物园：美洲短吻鳄",
+      "url": "https://nationalzoo.si.edu/animals/american-alligator",
+      "kind": "ecology",
+      "accessedAt": "2026-09-17"
+    },
+    {
+      "title": "Animal Diversity Web：美洲短吻鳄",
+      "url": "https://animaldiversity.org/accounts/Alligator_mississippiensis/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-17"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-17",
+  "updatedAt": "2026-09-17"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

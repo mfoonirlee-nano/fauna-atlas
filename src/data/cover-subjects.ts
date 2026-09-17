@@ -2740,5 +2740,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 964
     }
+  },
+  "american-alligator": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 639,
+      "top": 152,
+      "right": 1470,
+      "bottom": 795
+    }
   }
 };

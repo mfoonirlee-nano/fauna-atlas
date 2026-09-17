@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "american-alligator",
+    "file": "01-cover",
+    "prompt": "Photorealistic wildlife atlas cover, 1536x1024 landscape. American alligator Alligator mississippiensis on Florida grassy freshwater bank. COMPOSITION CRITICAL: entire animal must fit inside rectangle x=650..1450 y=150..900 in the 1536x1024 image. Snout at x=730, body diagonal towards upper right, tail curves around behind toward x=1300. No animal pixels left of x=650. Primary animal large within that rectangle. Left 40 percent exclusively quiet lake water. Full rounded broad U-shaped snout, head, armored torso, naturally visible short legs and complete tapering tail; all outer features surrounded by background margin. Elevated three quarter camera view, mouth fully closed with lower jaw fourth tooth hidden. Accurate crocodilian anatomy, realistic skin not exaggerated spines, no text, watermark or border. Scientific educational natural daylight photograph."
+  },
+  {
+    "slug": "american-alligator",
+    "file": "02-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. American alligator Alligator mississippiensis, broad rounded U shaped snout, dark armored body, muscular tail. Scene: water level closeup showing eyes and nostrils above surface, mouth closed. Main subject clearly visible, central gallery composition."
+  },
+  {
+    "slug": "american-alligator",
+    "file": "03-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. American alligator Alligator mississippiensis, broad rounded U shaped snout, dark armored body, muscular tail. Scene: full body basking on muddy bank beside marsh. Main subject clearly visible, central gallery composition."
+  },
+  {
+    "slug": "american-alligator",
+    "file": "04-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. American alligator Alligator mississippiensis, broad rounded U shaped snout, dark armored body, muscular tail. Scene: swimming with muscular tail visible through shallow clear water from above. Main subject clearly visible, central gallery composition."
+  },
+  {
+    "slug": "american-alligator",
+    "file": "05-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. American alligator Alligator mississippiensis, broad rounded U shaped snout, dark armored body, muscular tail. Scene: close view of dorsal rows of armored scutes. Main subject clearly visible, central gallery composition."
+  },
+  {
+    "slug": "american-alligator",
+    "file": "06-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. American alligator Alligator mississippiensis, broad rounded U shaped snout, dark armored body, muscular tail. Scene: small juvenile with yellow crossbands on wet bank, full body and tail visible. Main subject clearly visible, central gallery composition."
+  }
+]
