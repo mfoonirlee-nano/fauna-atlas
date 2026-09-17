@@ -1233,5 +1233,18 @@
       },
       "sha256": "69fd429bfac8357fcf67c1f3f7333cbfdbfce35368d249331b844670ef0837d9"
     }
+  },
+  "european-robin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 785,
+        "top": 135,
+        "right": 1385,
+        "bottom": 843
+      },
+      "sha256": "52fdb059ca1130577f4a8e902da0673d1f8dd8c6da1a3e4ef305b5d25eeedd6c"
+    }
   }
 }

@@ -432,3 +432,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [European Bee-eater image set](./species/european-bee-eater/README.md)
 - [Toucan Barbet image set](./species/toucan-barbet/README.md)
 - [Common Raven image set](./species/common-raven/README.md)
+- [European Robin image set](./species/european-robin/README.md)

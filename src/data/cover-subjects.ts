@@ -2690,6 +2690,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1440,
       "bottom": 910
     }
+  },
+  "european-robin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 785,
+      "top": 135,
+      "right": 1385,
+      "bottom": 843
+    }
   }
-
 };
