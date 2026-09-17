@@ -83098,6 +83098,238 @@ export const species = [
   "publishedAt": "2026-09-17",
   "updatedAt": "2026-09-17"
 },
+{
+  "id": "blue-tit",
+  "slug": "blue-tit",
+  "names": {
+    "zh": "蓝山雀",
+    "en": "Eurasian Blue Tit"
+  },
+  "scientificName": "Cyanistes caeruleus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Passeriformes",
+      "zhName": "雀形目"
+    },
+    "family": {
+      "scientificName": "Paridae",
+      "zhName": "山雀科"
+    },
+    "genus": {
+      "scientificName": "Cyanistes",
+      "zhName": "蓝山雀属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲及邻近西亚"
+    ],
+    "countries": [],
+    "range": "分布于欧洲及邻近西亚，常在阔叶树枝叶间活动。"
+  },
+  "habitats": [
+    {
+      "name": "阔叶林、花园与灌丛",
+      "realm": "terrestrial",
+      "description": "分布于欧洲及邻近西亚，常在阔叶树枝叶间活动。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "蜘蛛",
+      "种子"
+    ],
+    "description": "取食昆虫、蜘蛛、种子。"
+  },
+  "tags": [
+    "蓝山雀",
+    "倒挂着找食物"
+  ],
+  "summary": "看看蓝山雀倒挂着寻找食物的姿势。",
+  "description": "蓝山雀有蓝色头顶和翅膀、白色脸颊、深色眼纹与黄色腹部。它用脚抓紧细枝，能探到叶片下面寻找食物。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "倒挂着找食物",
+      "body": "小脚抓住上方的枝条，身体倒挂下来，嘴巴伸向叶片下面。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "蓝帽子和白脸颊",
+      "body": "找找头顶的蓝色，再沿着眼睛看看深色的细纹。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "嘴边的小虫",
+      "body": "它会捕食昆虫和蜘蛛；育雏时，毛毛虫是重要的食物。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "树洞旁的小鸟",
+      "body": "蓝山雀在洞穴中筑巢，也会使用合适的巢箱。远远看，不伸手探洞。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "浅水里的小水花",
+      "body": "这张图展示浅水沐浴的姿态。找找羽毛旁边溅起的水滴。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料支持全球无危等级。保护它生活的环境，观察时保持距离，不干扰野生动物。"
+    }
+  ],
+  "keyFacts": [
+    "小脚抓住上方的枝条，身体倒挂下来，嘴巴伸向叶片下面。",
+    "找找头顶的蓝色，再沿着眼睛看看深色的细纹。",
+    "它会捕食昆虫和蜘蛛；育雏时，毛毛虫是重要的食物。",
+    "蓝山雀在洞穴中筑巢，也会使用合适的巢箱。远远看，不伸手探洞。",
+    "这张图展示浅水沐浴的姿态。找找羽毛旁边溅起的水滴。"
+  ],
+  "threats": [
+    "局地栖息环境改变与人为干扰"
+  ],
+  "conservationActions": [
+    "保留原生植被和巢址",
+    "野外观察保持距离"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "倒挂着找食物"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "阔叶林、花园与灌丛"
+    }
+  ],
+  "media": {
+    "image": "./images/species/blue-tit/01-cover.webp",
+    "alt": "蓝山雀的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/blue-tit/02-observation.webp",
+        "title": "倒挂着找食物",
+        "alt": "蓝山雀：倒挂着找食物",
+        "caption": "AI 生成科学情景重建。小脚抓住上方的枝条，身体倒挂下来，嘴巴伸向叶片下面。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tit/03-observation.webp",
+        "title": "蓝帽子和白脸颊",
+        "alt": "蓝山雀：蓝帽子和白脸颊",
+        "caption": "AI 生成科学情景重建。找找头顶的蓝色，再沿着眼睛看看深色的细纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tit/04-observation.webp",
+        "title": "嘴边的小虫",
+        "alt": "蓝山雀：嘴边的小虫",
+        "caption": "AI 生成科学情景重建。它会捕食昆虫和蜘蛛；育雏时，毛毛虫是重要的食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tit/05-observation.webp",
+        "title": "树洞旁的小鸟",
+        "alt": "蓝山雀：树洞旁的小鸟",
+        "caption": "AI 生成科学情景重建。蓝山雀在洞穴中筑巢，也会使用合适的巢箱。远远看，不伸手探洞。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tit/06-observation.webp",
+        "title": "浅水里的小水花",
+        "alt": "蓝山雀：浅水里的小水花",
+        "caption": "AI 生成科学情景重建。这张图展示浅水沐浴的姿态。找找羽毛旁边溅起的水滴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "BTO：蓝山雀分类与全球等级",
+      "url": "https://www.bto.org/learn/about-birds/birdfacts/blue-tit",
+      "kind": "conservation",
+      "accessedAt": "2026-09-17"
+    },
+    {
+      "title": "RSPB：蓝山雀识别与生态",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/blue-tit/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-17"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-17",
+  "updatedAt": "2026-09-17"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

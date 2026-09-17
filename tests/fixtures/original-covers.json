@@ -1246,5 +1246,18 @@
       },
       "sha256": "52fdb059ca1130577f4a8e902da0673d1f8dd8c6da1a3e4ef305b5d25eeedd6c"
     }
+  },
+  "blue-tit": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 808,
+        "top": 136,
+        "right": 1378,
+        "bottom": 706
+      },
+      "sha256": "e933eb7dacb5e2c9ab3cdd0ef76b70e6a2170686ae58d47fe23d320e90ac3557"
+    }
   }
 }

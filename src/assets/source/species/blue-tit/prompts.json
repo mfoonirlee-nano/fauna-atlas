@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "blue-tit",
+    "file": "01-cover",
+    "prompt": "Create a photorealistic wildlife photograph for a species atlas cover, landscape 1536x1024. One adult Eurasian blue tit Cyanistes caeruleus perched on a slender oak twig in a European woodland. Accurate blue cap and blue wings, white cheeks crossed by dark eye stripe, yellow belly. Full body including tiny feet and entire tail visible with generous background clearance. Bird large and clearly readable, center at 70% width, occupies right half; left 40% quiet softly blurred green woodland for title overlay. Natural daylight, detailed feathers, no text, no border, no watermark. Save generated asset for project use."
+  },
+  {
+    "slug": "blue-tit",
+    "file": "02-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. Eurasian blue tit Cyanistes caeruleus, blue crown and wings, white cheeks with dark eye stripe and yellow belly. Scene: hanging upside down from oak twig, feet clasp twig above body, reaching toward leaf undersides. Main subject clearly visible, central gallery composition."
+  },
+  {
+    "slug": "blue-tit",
+    "file": "03-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. Eurasian blue tit Cyanistes caeruleus, blue crown and wings, white cheeks with dark eye stripe and yellow belly. Scene: portrait showing blue crown and white cheeks, perched. Main subject clearly visible, central gallery composition."
+  },
+  {
+    "slug": "blue-tit",
+    "file": "04-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. Eurasian blue tit Cyanistes caeruleus, blue crown and wings, white cheeks with dark eye stripe and yellow belly. Scene: on oak foliage with one small green caterpillar held in bill. Main subject clearly visible, central gallery composition."
+  },
+  {
+    "slug": "blue-tit",
+    "file": "05-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. Eurasian blue tit Cyanistes caeruleus, blue crown and wings, white cheeks with dark eye stripe and yellow belly. Scene: at entrance of natural tree cavity, perched on bark outside, wings folded. Main subject clearly visible, central gallery composition."
+  },
+  {
+    "slug": "blue-tit",
+    "file": "06-observation",
+    "prompt": "Use case: scientific-educational. Photorealistic wildlife photograph, landscape 1536x1024, natural light, anatomically accurate, child-friendly, no text, collage or watermark. Eurasian blue tit Cyanistes caeruleus, blue crown and wings, white cheeks with dark eye stripe and yellow belly. Scene: bathing in shallow woodland puddle. Main subject clearly visible, central gallery composition."
+  }
+]
