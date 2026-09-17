@@ -2680,7 +2680,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1310,
       "bottom": 968
     }
+  },
+  "common-raven": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 60,
+      "right": 1440,
+      "bottom": 910
+    }
   }
-
 
 };

@@ -1220,5 +1220,18 @@
       },
       "sha256": "674e397c6d7c7cbe03b9d5bd5cd129f611f181d3892ecf6e08f968d915d12601"
     }
+  },
+  "common-raven": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 60,
+        "right": 1440,
+        "bottom": 910
+      },
+      "sha256": "69fd429bfac8357fcf67c1f3f7333cbfdbfce35368d249331b844670ef0837d9"
+    }
   }
 }

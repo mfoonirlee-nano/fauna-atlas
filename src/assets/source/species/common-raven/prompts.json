@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: common raven Corvus corax, entirely black plumage, large robust black bill, shaggy throat feathers, dark eyes, wedge shaped tail, rocky northern hemisphere landscape. Scene: Cover: full bird perched on RIGHT, complete bill, feet and tail inside x=790..1400 y=90..930; maximize bird size within bounds, left 40 percent quiet blurred habitat, background clearance on every side, no other birds. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: common raven Corvus corax, entirely black plumage, large robust black bill, shaggy throat feathers, dark eyes, wedge shaped tail, rocky northern hemisphere landscape. Scene: Close portrait showing heavy bill and shaggy throat feathers. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: common raven Corvus corax, entirely black plumage, large robust black bill, shaggy throat feathers, dark eyes, wedge shaped tail, rocky northern hemisphere landscape. Scene: Full bird flying with spread wings and distinctly wedge shaped tail viewed from below. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: common raven Corvus corax, entirely black plumage, large robust black bill, shaggy throat feathers, dark eyes, wedge shaped tail, rocky northern hemisphere landscape. Scene: Bird walking on grass with a small beetle near its bill. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: common raven Corvus corax, entirely black plumage, large robust black bill, shaggy throat feathers, dark eyes, wedge shaped tail, rocky northern hemisphere landscape. Scene: Bird perched beside a large stick nest on rocky cliff ledge, no eggs visible. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: common raven Corvus corax, entirely black plumage, large robust black bill, shaggy throat feathers, dark eyes, wedge shaped tail, rocky northern hemisphere landscape. Scene: Two ravens standing on rocks in natural daylight. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  }
+]

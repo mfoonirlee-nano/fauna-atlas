@@ -82597,6 +82597,245 @@ export const species = [
   "publishedAt": "2026-09-17",
   "updatedAt": "2026-09-17"
 },
+{
+  "id": "common-raven",
+  "slug": "common-raven",
+  "names": {
+    "zh": "渡鸦",
+    "en": "Common Raven"
+  },
+  "scientificName": "Corvus corax",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Passeriformes",
+      "zhName": "雀形目"
+    },
+    "family": {
+      "scientificName": "Corvidae",
+      "zhName": "鸦科"
+    },
+    "genus": {
+      "scientificName": "Corvus",
+      "zhName": "鸦属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "北半球"
+    ],
+    "countries": [],
+    "range": "广布于北半球，能利用森林、山地、荒漠和苔原等多种环境。"
+  },
+  "habitats": [
+    {
+      "name": "山地岩壁、森林与开阔地",
+      "realm": "terrestrial",
+      "description": "广布于北半球，能利用森林、山地、荒漠和苔原等多种环境。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "果实和谷物",
+      "小型动物",
+      "腐肉"
+    ],
+    "description": "取食昆虫、果实和谷物、小型动物、腐肉。"
+  },
+  "tags": [
+    "渡鸦",
+    "黑色嘴巴和喉羽"
+  ],
+  "summary": "看看渡鸦黑色的羽毛和粗嘴巴。",
+  "description": "渡鸦全身黑色，嘴粗壮，喉部羽毛较蓬松。飞行时尾端呈楔形；它与许多其他黑色鸦类并不是同一个物种。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "黑色嘴巴和喉羽",
+      "body": "看看粗壮的嘴，再找找下方蓬松的喉部羽毛。黑羽在光下会有光泽。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "张开翅膀看尾巴",
+      "body": "渡鸦飞行时，尾巴中央较长，外轮廓呈楔形。图中展示展翅的姿态。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "在地上寻找食物",
+      "body": "渡鸦会在地面觅食，昆虫只是食物的一部分；它也吃果实、小动物和腐肉。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "岩壁上的枝条巢",
+      "body": "渡鸦会在岩壁平台或高树上筑巢，巢中有许多枝条。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "两只渡鸦",
+      "body": "两只渡鸦停在岩石上。先找它们的嘴和脚，再看看黑羽在不同光线下的样子。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料支持全球无危等级。独立评估日期和全球趋势未核实；观察时不要干扰鸟巢。"
+    }
+  ],
+  "keyFacts": [
+    "看看粗壮的嘴，再找找下方蓬松的喉部羽毛。黑羽在光下会有光泽。",
+    "渡鸦飞行时，尾巴中央较长，外轮廓呈楔形。图中展示展翅的姿态。",
+    "渡鸦会在地面觅食，昆虫只是食物的一部分；它也吃果实、小动物和腐肉。",
+    "渡鸦会在岩壁平台或高树上筑巢，巢中有许多枝条。",
+    "两只渡鸦停在岩石上。先找它们的嘴和脚，再看看黑羽在不同光线下的样子。"
+  ],
+  "threats": [
+    "局地栖息环境改变与巢址干扰"
+  ],
+  "conservationActions": [
+    "保留原生植被和巢址",
+    "野外观察保持距离"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "黑色嘴巴和喉羽"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "山地岩壁、森林与开阔地"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-raven/01-cover.webp",
+    "alt": "渡鸦的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-raven/02-observation.webp",
+        "title": "黑色嘴巴和喉羽",
+        "alt": "渡鸦：黑色嘴巴和喉羽",
+        "caption": "AI 生成科学情景重建。看看粗壮的嘴，再找找下方蓬松的喉部羽毛。黑羽在光下会有光泽。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-raven/03-observation.webp",
+        "title": "张开翅膀看尾巴",
+        "alt": "渡鸦：张开翅膀看尾巴",
+        "caption": "AI 生成科学情景重建。渡鸦飞行时，尾巴中央较长，外轮廓呈楔形。图中展示展翅的姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-raven/04-observation.webp",
+        "title": "在地上寻找食物",
+        "alt": "渡鸦：在地上寻找食物",
+        "caption": "AI 生成科学情景重建。渡鸦会在地面觅食，昆虫只是食物的一部分；它也吃果实、小动物和腐肉。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-raven/05-observation.webp",
+        "title": "岩壁上的枝条巢",
+        "alt": "渡鸦：岩壁上的枝条巢",
+        "caption": "AI 生成科学情景重建。渡鸦会在岩壁平台或高树上筑巢，巢中有许多枝条。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-raven/06-observation.webp",
+        "title": "两只渡鸦",
+        "alt": "渡鸦：两只渡鸦",
+        "caption": "AI 生成科学情景重建。两只渡鸦停在岩石上。先找它们的嘴和脚，再看看黑羽在不同光线下的样子。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Cornell Lab：渡鸦食性与栖息地",
+      "url": "https://www.allaboutbirds.org/guide/common_raven/lifehistory",
+      "kind": "ecology",
+      "accessedAt": "2026-09-17"
+    },
+    {
+      "title": "美国国家公园管理局：渡鸦识别",
+      "url": "https://www.nps.gov/articles/000/common-raven.htm",
+      "kind": "general",
+      "accessedAt": "2026-09-17"
+    },
+    {
+      "title": "BTO：渡鸦分类与全球等级",
+      "url": "https://www.bto.org/learn/about-birds/birdfacts/raven",
+      "kind": "conservation",
+      "accessedAt": "2026-09-17"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-17",
+  "updatedAt": "2026-09-17"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
