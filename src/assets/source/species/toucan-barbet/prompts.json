@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: toucan barbet Semnornis ramphastinus, stout pale yellowish horn bill with black tip, black crown, white stripe behind eye, gray throat, red breast, yellow belly, gray wings, Andean cloud forest in Ecuador. Scene: Cover: full bird perched on RIGHT, complete bill, feet and tail inside x=790..1400 y=90..930; maximize bird size within bounds, left 40 percent quiet blurred habitat, background clearance on every side, no other birds. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: toucan barbet Semnornis ramphastinus, stout pale yellowish horn bill with black tip, black crown, white stripe behind eye, gray throat, red breast, yellow belly, gray wings, Andean cloud forest in Ecuador. Scene: Close portrait of thick bill and white facial stripe under black crown. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: toucan barbet Semnornis ramphastinus, stout pale yellowish horn bill with black tip, black crown, white stripe behind eye, gray throat, red breast, yellow belly, gray wings, Andean cloud forest in Ecuador. Scene: Bird picking a small wild fruit from a leafy branch. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: toucan barbet Semnornis ramphastinus, stout pale yellowish horn bill with black tip, black crown, white stripe behind eye, gray throat, red breast, yellow belly, gray wings, Andean cloud forest in Ecuador. Scene: Full bird gripping mossy branch, clear feet. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: toucan barbet Semnornis ramphastinus, stout pale yellowish horn bill with black tip, black crown, white stripe behind eye, gray throat, red breast, yellow belly, gray wings, Andean cloud forest in Ecuador. Scene: Bird at entrance of natural tree cavity in cloud forest. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Use case: photorealistic-natural. Create ONE landscape 1536x1024 natural-history editorial wildlife photograph for Fauna Atlas. Subject: toucan barbet Semnornis ramphastinus, stout pale yellowish horn bill with black tip, black crown, white stripe behind eye, gray throat, red breast, yellow belly, gray wings, Andean cloud forest in Ecuador. Scene: Two toucan barbets perched in misty forest, natural poses. Realistic anatomy, natural light and feather texture. No text, labels, watermark, border, collage or cages."
+  }
+]

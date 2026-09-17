@@ -1207,5 +1207,18 @@
       },
       "sha256": "d258f527fc1e3e79fb7cebde6a0f997f7f435254f68562a7d05dff120f67d324"
     }
+  },
+  "toucan-barbet": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 687,
+        "top": 62,
+        "right": 1310,
+        "bottom": 968
+      },
+      "sha256": "674e397c6d7c7cbe03b9d5bd5cd129f611f181d3892ecf6e08f968d915d12601"
+    }
   }
 }

@@ -2670,8 +2670,17 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1330,
       "bottom": 979
     }
+  },
+  "toucan-barbet": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 687,
+      "top": 62,
+      "right": 1310,
+      "bottom": 968
+    }
   }
-
 
 
 };

@@ -430,3 +430,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Laughing Kookaburra image set](./species/laughing-kookaburra/README.md)
 - [European Bee-eater image set](./species/european-bee-eater/README.md)
+- [Toucan Barbet image set](./species/toucan-barbet/README.md)

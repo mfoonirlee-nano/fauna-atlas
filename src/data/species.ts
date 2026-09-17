@@ -82366,6 +82366,237 @@ export const species = [
   "publishedAt": "2026-09-17",
   "updatedAt": "2026-09-17"
 },
+{
+  "id": "toucan-barbet",
+  "slug": "toucan-barbet",
+  "names": {
+    "zh": "巨嘴拟鴷",
+    "en": "Toucan Barbet"
+  },
+  "scientificName": "Semnornis ramphastinus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Piciformes",
+      "zhName": "鴷形目"
+    },
+    "family": {
+      "scientificName": "Semnornithidae",
+      "zhName": "巨嘴拟鴷科"
+    },
+    "genus": {
+      "scientificName": "Semnornis",
+      "zhName": "巨嘴拟鴷属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NT",
+    "label": {
+      "zh": "近危",
+      "en": "Near Threatened"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "南美洲"
+    ],
+    "regions": [
+      "哥伦比亚西部与厄瓜多尔西北部"
+    ],
+    "countries": [],
+    "range": "生活在哥伦比亚西部与厄瓜多尔西北部的湿润山地森林。"
+  },
+  "habitats": [
+    {
+      "name": "安第斯山云雾林",
+      "realm": "terrestrial",
+      "description": "生活在哥伦比亚西部与厄瓜多尔西北部的湿润山地森林。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "果实",
+      "大型昆虫"
+    ],
+    "description": "取食果实、大型昆虫。"
+  },
+  "tags": [
+    "巨嘴拟鴷",
+    "粗嘴和白条纹"
+  ],
+  "summary": "找找巨嘴拟鴷的粗嘴巴和脸上的条纹。",
+  "description": "巨嘴拟鴷有黑色头顶、灰色喉部和眼后的白色条纹，粗嘴的尖端黑色。它在云雾林树冠取食，常成对出现。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "粗嘴和白条纹",
+      "body": "从浅色粗嘴旁边找起，眼睛后面有一条白色羽毛带。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "枝头有果子",
+      "body": "巨嘴拟鴷吃果实，也会捕食大型昆虫。看看嘴尖与果实的位置。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "抓住长苔藓的枝条",
+      "body": "它用脚趾抓住枝条。山地森林里的树枝上常能看到苔藓等附生植物。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "树干上的洞",
+      "body": "鸟停在树洞口，周围是湿润的森林。找找洞口和树皮的边缘，别靠近野外鸟巢。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "森林里的同伴",
+      "body": "巨嘴拟鴷常成对活动。成对的鸟能发出交错的鸣声，但静态图片不能呈现声音。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "全球等级为近危，保护云雾林及其连续性对它很重要。独立评估日期和全球趋势未核实；观察时不要干扰鸟巢。"
+    }
+  ],
+  "keyFacts": [
+    "从浅色粗嘴旁边找起，眼睛后面有一条白色羽毛带。",
+    "巨嘴拟鴷吃果实，也会捕食大型昆虫。看看嘴尖与果实的位置。",
+    "它用脚趾抓住枝条。山地森林里的树枝上常能看到苔藓等附生植物。",
+    "鸟停在树洞口，周围是湿润的森林。找找洞口和树皮的边缘，别靠近野外鸟巢。",
+    "巨嘴拟鴷常成对活动。成对的鸟能发出交错的鸣声，但静态图片不能呈现声音。"
+  ],
+  "threats": [
+    "栖息地丧失与破碎化"
+  ],
+  "conservationActions": [
+    "保留原生植被和巢址",
+    "野外观察保持距离"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "粗嘴和白条纹"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "安第斯山云雾林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/toucan-barbet/01-cover.webp",
+    "alt": "巨嘴拟鴷的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/toucan-barbet/02-observation.webp",
+        "title": "粗嘴和白条纹",
+        "alt": "巨嘴拟鴷：粗嘴和白条纹",
+        "caption": "AI 生成科学情景重建。从浅色粗嘴旁边找起，眼睛后面有一条白色羽毛带。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/toucan-barbet/03-observation.webp",
+        "title": "枝头有果子",
+        "alt": "巨嘴拟鴷：枝头有果子",
+        "caption": "AI 生成科学情景重建。巨嘴拟鴷吃果实，也会捕食大型昆虫。看看嘴尖与果实的位置。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/toucan-barbet/04-observation.webp",
+        "title": "抓住长苔藓的枝条",
+        "alt": "巨嘴拟鴷：抓住长苔藓的枝条",
+        "caption": "AI 生成科学情景重建。它用脚趾抓住枝条。山地森林里的树枝上常能看到苔藓等附生植物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/toucan-barbet/05-observation.webp",
+        "title": "树干上的洞",
+        "alt": "巨嘴拟鴷：树干上的洞",
+        "caption": "AI 生成科学情景重建。鸟停在树洞口，周围是湿润的森林。找找洞口和树皮的边缘，别靠近野外鸟巢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/toucan-barbet/06-observation.webp",
+        "title": "森林里的同伴",
+        "alt": "巨嘴拟鴷：森林里的同伴",
+        "caption": "AI 生成科学情景重建。巨嘴拟鴷常成对活动。成对的鸟能发出交错的鸣声，但静态图片不能呈现声音。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Cornell eBird：巨嘴拟鴷分类与生态",
+      "url": "https://ebird.org/species/toubar1",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-17"
+    },
+    {
+      "title": "BirdLife：Chocó–Andean 地区保护投资策略与等级表",
+      "url": "https://www.birdlife.org/wp-content/uploads/2023/06/Conservation-Investment-Strategy-for-Resident-and-Migratory-Birds-of-the-Choco-Andean-Region-in-Northwest-Ecuador.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-17"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-17",
+  "updatedAt": "2026-09-17"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
