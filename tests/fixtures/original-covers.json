@@ -1272,5 +1272,18 @@
       },
       "sha256": "48e62b1c1c4553fc157e6782feee14c02d3bc99db0673927c420d6b896406709"
     }
+  },
+  "bald-eagle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 904,
+        "top": 61,
+        "right": 1428,
+        "bottom": 829
+      },
+      "sha256": "85f607b3df1a58f834913d1aba8efe48dd45c8e10f6e1624be0f30196be617ef"
+    }
   }
 }

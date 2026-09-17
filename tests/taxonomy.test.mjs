@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog', 'oriental-fire-bellied-newt', 'ocean-sunfish', 'largetooth-sawfish', 'american-lobster', 'striped-skunk', 'caracal', 'leopard', 'chinese-tree-frog', 'american-bullfrog', 'atlantic-salmon', 'green-tree-python', 'arctic-fox', 'american-black-bear', 'sun-bear', 'jaguar', 'puma', 'serval', 'eurasian-lynx', 'gray-wolf', 'african-wild-dog', 'spotted-hyena', 'honey-badger', 'wolverine', 'european-badger', 'south-american-coati', 'sperm-whale', 'pygmy-hippopotamus', 'black-rhinoceros', 'king-penguin', 'adelie-penguin', 'gentoo-penguin', 'african-penguin', 'emu', 'greater-rhea', 'african-grey-parrot', 'blue-and-yellow-macaw', 'rosy-faced-lovebird', 'laughing-kookaburra', 'european-bee-eater', 'toucan-barbet', 'common-raven', 'european-robin', 'blue-tit', 'zebra-finch'].includes(profile.slug)) {
+    } else if (['veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog', 'oriental-fire-bellied-newt', 'ocean-sunfish', 'largetooth-sawfish', 'american-lobster', 'striped-skunk', 'caracal', 'leopard', 'chinese-tree-frog', 'american-bullfrog', 'atlantic-salmon', 'green-tree-python', 'arctic-fox', 'american-black-bear', 'sun-bear', 'jaguar', 'puma', 'serval', 'eurasian-lynx', 'gray-wolf', 'african-wild-dog', 'spotted-hyena', 'honey-badger', 'wolverine', 'european-badger', 'south-american-coati', 'sperm-whale', 'pygmy-hippopotamus', 'black-rhinoceros', 'king-penguin', 'adelie-penguin', 'gentoo-penguin', 'african-penguin', 'emu', 'greater-rhea', 'african-grey-parrot', 'blue-and-yellow-macaw', 'rosy-faced-lovebird', 'laughing-kookaburra', 'european-bee-eater', 'toucan-barbet', 'common-raven', 'european-robin', 'blue-tit', 'zebra-finch', 'bald-eagle'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24302,7 +24302,7 @@ test('five new toddler profiles keep sourced identities and separate regional co
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 272);
+  assert.equal(species.length, 273);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24473,7 +24473,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 272);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 273);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24494,7 +24494,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 207);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 208);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 89);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 35);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 2);
@@ -24545,7 +24545,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 53);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 54);
   assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 7);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
@@ -24570,8 +24570,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Galliformes')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Phasianidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Pavo')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Aquila')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Falconiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Falconidae')?.speciesCount, 1);
@@ -26019,7 +26019,7 @@ test('kookaburra-to-robin profiles retain taxonomy, evidence and six accepted im
 });
 
 test('blue-tit-to-alligator profiles retain sourced identities and accepted images', async () => {
-  const cases = [["blue-tit", "Cyanistes caeruleus", "Passeriformes", "Paridae", "Cyanistes"], ["zebra-finch", "Taeniopygia castanotis", "Passeriformes", "Estrildidae", "Taeniopygia"]];
+  const cases = [["blue-tit", "Cyanistes caeruleus", "Passeriformes", "Paridae", "Cyanistes"], ["zebra-finch", "Taeniopygia castanotis", "Passeriformes", "Estrildidae", "Taeniopygia"], ["bald-eagle", "Haliaeetus leucocephalus", "Accipitriformes", "Accipitridae", "Haliaeetus"]];
   const tree = buildTaxonomyTree(species);
   for (const [slug, name, order, family, genus] of cases) {
     const profile = findSpecies(slug);
@@ -26033,4 +26033,5 @@ test('blue-tit-to-alligator profiles retain sourced identities and accepted imag
       verifyAcceptedHashes: true });
   }
   assert.match(findSpecies('zebra-finch').description, /Taeniopygia castanotis.*T. guttata/);
+  assert.match(findSpecies('bald-eagle').description, /幼鸟.*褐色/);
 });

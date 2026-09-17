@@ -2720,5 +2720,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1438,
       "bottom": 834
     }
+  },
+  "bald-eagle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 904,
+      "top": 61,
+      "right": 1428,
+      "bottom": 829
+    }
   }
 };

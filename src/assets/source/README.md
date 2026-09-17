@@ -436,3 +436,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Eurasian Blue Tit image set](./species/blue-tit/README.md)
 - [Australian Zebra Finch image set](./species/zebra-finch/README.md)
+- [Bald Eagle image set](./species/bald-eagle/README.md)
