@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-18",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "One photorealistic educational wildlife cover, landscape 1536x1024. Saltwater crocodile Crocodylus porosus resting calmly with mouth closed on a tropical muddy riverbank. Entire body with complete tail curling beside body, short natural legs, realistic scales and broad heavy snout. STRICT framing: animal entirely in RIGHT HALF of image within x=770 to 1460, y=250 to 850. Head on left of that box, tail coiled on right. Left half consists solely of softly detailed quiet river water. Natural daylight, no text, no collage, no border. Animal large within right half and realistic proportions.",
+      "editPrompt": "Edit this wildlife cover composition. Preserve species, anatomy, pose, lighting and habitat. Reframe the scene so the COMPLETE animal occupies only the RIGHT HALF of the canvas, from x=770 to x=1460 in a 1536x1024 landscape. Move its head to x=780 minimum. Leave the entire LEFT HALF with just quiet natural background. Keep complete tail and visible feet safely inside edges. Scale animal down only enough to fit that right-half box; maximize size there. No text. Natural realistic animal, no other animals."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate saltwater crocodile Crocodylus porosus. Scene: Overhead oblique view swimming in clear shallow tropical river, whole powerful flattened tail curves gently to one side, natural swimming posture. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate saltwater crocodile Crocodylus porosus. Scene: Side portrait at waterline showing eyes and nostrils above water. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate saltwater crocodile Crocodylus porosus. Scene: Resting full body on muddy mangrove bank, daylight. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate saltwater crocodile Crocodylus porosus. Scene: Close detail of back showing irregular bony armored scales. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate saltwater crocodile Crocodylus porosus. Scene: Juvenile on bank with yellow tan body and dark bands, entire tail visible. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    }
+  ]
+}

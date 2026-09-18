@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-18",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Create one photorealistic wildlife educational cover image, landscape 1536x1024. A single anatomically accurate Common snapping turtle Chelydra serpentina, low brown rounded shell with modest keels, large head and long neck, very long sawtooth-ridged tail clearly visible, muddy North American pond bank. Not an alligator snapping turtle, no towering shell spikes. Entire animal including all visible feet head and tail inside frame with generous real background clearance. Animal fills right side with full silhouette within x=620 to 1470 and y=160 to 880; center at 68% width. Left 40% quiet natural habitat for website copy. Natural light, realistic anatomy and colors, no text no borders no collage. CRITICAL COMPOSITION: the animal's LEFTMOST point must be to the RIGHT of x=640 (42% of width), RIGHTMOST point x=1460 with a visible gap before edge. Position animal SIDE-ON facing LEFT, curl long tail beside the body toward camera on the RIGHT, NEVER extend tail into left half. Entire silhouette must fit within RIGHT 55% of frame, center x=1050. Camera slightly farther back to fit. Mouth CLOSED, calm natural pose. Left 40% exclusively empty habitat. No towering legs or dinosaur exaggeration.",
+      "editPrompt": "Edit this wildlife cover composition. Preserve species, anatomy, pose, lighting and habitat. Reframe the scene so the COMPLETE animal occupies only the RIGHT HALF of the canvas, from x=770 to x=1460 in a 1536x1024 landscape. Move its head to x=780 minimum. Leave the entire LEFT HALF with just quiet natural background. Keep complete tail and visible feet safely inside edges. Scale animal down only enough to fit that right-half box; maximize size there. No text. Natural realistic animal, no other animals."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate common snapping turtle Chelydra serpentina, NOT Macrochelys, low rounded shell modest ridges not giant spikes. Scene: Full side view walking in shallow pond margin with long sawtooth-ridged tail extended behind shell clearly visible. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate common snapping turtle Chelydra serpentina, NOT Macrochelys, low rounded shell modest ridges not giant spikes. Scene: Underwater walking on muddy pond bottom, neck extended, no oversized spikes. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate common snapping turtle Chelydra serpentina, NOT Macrochelys, low rounded shell modest ridges not giant spikes. Scene: At water surface raising nostrils to breathe, calm pond. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate common snapping turtle Chelydra serpentina, NOT Macrochelys, low rounded shell modest ridges not giant spikes. Scene: Close dorsal oblique view of broad brown shell with modest low keels. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate common snapping turtle Chelydra serpentina, NOT Macrochelys, low rounded shell modest ridges not giant spikes. Scene: Full body moving from water onto sandy nesting shore, natural daylight. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    }
+  ]
+}

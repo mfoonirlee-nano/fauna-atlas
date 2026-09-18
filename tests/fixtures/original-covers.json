@@ -1311,5 +1311,70 @@
       },
       "sha256": "f6dffe6523576d3de3e9f98421804f07df7210a759c92a902caf5e826f1051d9"
     }
+  },
+  "saltwater-crocodile": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 686,
+        "top": 404,
+        "right": 1519,
+        "bottom": 693
+      },
+      "sha256": "c957f380eef2440f124482dc0b37d0701aecfb99c4c8b6de32522bf80489ba7c"
+    }
+  },
+  "spectacled-caiman": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 746,
+        "top": 390,
+        "right": 1510,
+        "bottom": 717
+      },
+      "sha256": "cdbeb2a519641833ae00f1cb3b9067aec6480d273edb4cab69d9356eb7a255e4"
+    }
+  },
+  "common-snapping-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 771,
+        "top": 380,
+        "right": 1513,
+        "bottom": 768
+      },
+      "sha256": "6194ad915331641db06927b9eb0d40cf58eab60e076cc6451045b8756a2e9e82"
+    }
+  },
+  "alligator-snapping-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 745,
+        "top": 306,
+        "right": 1517,
+        "bottom": 715
+      },
+      "sha256": "7f3d6360c9bfec7413a28722d2d00750713e11428a0a05b8201b7b4e39c59273"
+    }
+  },
+  "leopard-tortoise": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 637,
+        "top": 268,
+        "right": 1479,
+        "bottom": 866
+      },
+      "sha256": "31b20c875644f703b21af08ea49288813aa68900be0f4ef10b75c59f0bbf4fcc"
+    }
   }
 }

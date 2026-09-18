@@ -439,3 +439,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Bald Eagle image set](./species/bald-eagle/README.md)
 - [Black Swan image set](./species/black-swan/README.md)
 - [American Alligator image set](./species/american-alligator/README.md)
+
+- [Saltwater Crocodile image set](./species/saltwater-crocodile/README.md)
+- [Spectacled Caiman image set](./species/spectacled-caiman/README.md)
+- [Common Snapping Turtle image set](./species/common-snapping-turtle/README.md)
+- [Alligator Snapping Turtle image set](./species/alligator-snapping-turtle/README.md)
+- [Leopard Tortoise image set](./species/leopard-tortoise/README.md)

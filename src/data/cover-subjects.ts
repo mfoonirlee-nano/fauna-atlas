@@ -2750,5 +2750,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1470,
       "bottom": 795
     }
+  },
+  "saltwater-crocodile": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 686,
+      "top": 404,
+      "right": 1519,
+      "bottom": 693
+    }
+  },
+  "spectacled-caiman": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 746,
+      "top": 390,
+      "right": 1510,
+      "bottom": 717
+    }
+  },
+  "common-snapping-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 771,
+      "top": 380,
+      "right": 1513,
+      "bottom": 768
+    }
+  },
+  "alligator-snapping-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 745,
+      "top": 306,
+      "right": 1517,
+      "bottom": 715
+    }
+  },
+  "leopard-tortoise": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 637,
+      "top": 268,
+      "right": 1479,
+      "bottom": 866
+    }
   }
 };

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-18",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Create one photorealistic wildlife educational cover image, landscape 1536x1024. A single anatomically accurate Spectacled caiman Caiman crocodilus, olive brown, bony spectacle ridge between eyes, armored back, long tail gently curled beside body, tropical South American wetland bank. Entire animal including all visible feet head and tail inside frame with generous real background clearance. Animal fills right side with full silhouette within x=620 to 1470 and y=160 to 880; center at 68% width. Left 40% quiet natural habitat for website copy. Natural light, realistic anatomy and colors, no text no borders no collage. CRITICAL COMPOSITION: the animal's LEFTMOST point must be to the RIGHT of x=640 (42% of width), RIGHTMOST point x=1460 with a visible gap before edge. Position animal SIDE-ON facing LEFT, curl long tail beside the body toward camera on the RIGHT, NEVER extend tail into left half. Entire silhouette must fit within RIGHT 55% of frame, center x=1050. Camera slightly farther back to fit. Mouth CLOSED, calm natural pose. Left 40% exclusively empty habitat. No towering legs or dinosaur exaggeration.",
+      "editPrompt": "Edit this wildlife cover composition. Preserve species, anatomy, pose, lighting and habitat. Reframe the scene so the COMPLETE animal occupies only the RIGHT HALF of the canvas, from x=770 to x=1460 in a 1536x1024 landscape. Move its head to x=780 minimum. Leave the entire LEFT HALF with just quiet natural background. Keep complete tail and visible feet safely inside edges. Scale animal down only enough to fit that right-half box; maximize size there. No text. Natural realistic animal, no other animals."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate spectacled caiman Caiman crocodilus. Scene: Dorsal oblique close view showing rows of raised armored back scutes. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate spectacled caiman Caiman crocodilus. Scene: Head portrait with clearly visible bony ridge between eyes like a spectacle bridge. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate spectacled caiman Caiman crocodilus. Scene: Full body resting on tropical South American freshwater muddy bank. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate spectacled caiman Caiman crocodilus. Scene: Swimming calmly, eyes and nostrils above surface, side view. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024, realistic natural colors and anatomically accurate spectacled caiman Caiman crocodilus. Scene: Juvenile yellowish olive caiman with dark crossbands on tail at vegetated wetland edge. Clear subject, habitat appropriate to species. No text, no diagram, no collage, no watermark, no human, no dramatic aggression. Scientific reconstruction for a child-friendly species atlas."
+    }
+  ]
+}

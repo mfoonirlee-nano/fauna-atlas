@@ -84283,6 +84283,1206 @@ export const species = [
   "publishedAt": "2026-09-17",
   "updatedAt": "2026-09-17"
 },
+{
+  "id": "saltwater-crocodile",
+  "slug": "saltwater-crocodile",
+  "names": {
+    "zh": "湾鳄",
+    "en": "Saltwater Crocodile"
+  },
+  "scientificName": "Crocodylus porosus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Crocodylia",
+      "zhName": "鳄目"
+    },
+    "family": {
+      "scientificName": "Crocodylidae",
+      "zhName": "鳄科"
+    },
+    "genus": {
+      "scientificName": "Crocodylus",
+      "zhName": "鳄属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "marine",
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "南亚与东南亚沿岸",
+      "新几内亚",
+      "澳大利亚北部"
+    ],
+    "countries": [],
+    "range": "原生分布从南亚、东南亚沿岸延伸到新几内亚与澳大利亚北部；既能生活在咸水河口，也会进入淡水河流。"
+  },
+  "habitats": [
+    {
+      "name": "河口、红树林与河流",
+      "realm": "freshwater",
+      "description": "原生分布从南亚、东南亚沿岸延伸到新几内亚与澳大利亚北部；既能生活在咸水河口，也会进入淡水河流。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "甲壳类",
+      "鸟类",
+      "哺乳动物"
+    ],
+    "description": "取食鱼类、甲壳类、鸟类、哺乳动物。"
+  },
+  "tags": [
+    "湾鳄",
+    "大尾巴帮助游泳"
+  ],
+  "summary": "看看湾鳄游泳时摆动的大尾巴。",
+  "description": "湾鳄有粗壮的身体、短腿和长尾巴。眼睛与鼻孔位于头部上方，游泳时可以露出水面。它会在河流与沿海水域之间移动。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "大尾巴帮助游泳",
+      "body": "湾鳄左右摆动粗壮的尾巴，在水中向前游。看看尾巴弯向哪一边。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "眼睛露在水面上",
+      "body": "找找头顶的眼睛，再看看吻端的鼻孔。身体大部分可以藏在水下。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "在岸边休息",
+      "body": "湾鳄会在岸边晒太阳，也会进入水里，借助周围环境调节体温。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "背上的鳞甲",
+      "body": "沿着背部看，一块块鳞甲排列在厚皮肤上，皮肤里还有骨板。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "幼鳄的深色条纹",
+      "body": "幼鳄的身体偏浅黄，身上和尾巴上有深色条纹与斑点；成年后颜色通常更深。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料记录的全球等级为无危。保护河口与湿地、遵守鳄鱼栖息区观察规定，不投喂。"
+    }
+  ],
+  "keyFacts": [
+    "湾鳄左右摆动粗壮的尾巴，在水中向前游。看看尾巴弯向哪一边。",
+    "找找头顶的眼睛，再看看吻端的鼻孔。身体大部分可以藏在水下。",
+    "湾鳄会在岸边晒太阳，也会进入水里，借助周围环境调节体温。",
+    "沿着背部看，一块块鳞甲排列在厚皮肤上，皮肤里还有骨板。",
+    "幼鳄的身体偏浅黄，身上和尾巴上有深色条纹与斑点；成年后颜色通常更深。"
+  ],
+  "threats": [
+    "沿岸栖息地丧失",
+    "局地非法捕猎"
+  ],
+  "conservationActions": [
+    "保护河口与湿地",
+    "遵守鳄鱼栖息区观察规定，不投喂"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "大尾巴帮助游泳"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "河口、红树林与河流"
+    }
+  ],
+  "media": {
+    "image": "./images/species/saltwater-crocodile/01-cover.webp",
+    "alt": "湾鳄的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/saltwater-crocodile/02-observation.webp",
+        "title": "大尾巴帮助游泳",
+        "alt": "湾鳄：大尾巴帮助游泳",
+        "caption": "AI 生成科学情景重建。湾鳄左右摆动粗壮的尾巴，在水中向前游。看看尾巴弯向哪一边。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/saltwater-crocodile/03-observation.webp",
+        "title": "眼睛露在水面上",
+        "alt": "湾鳄：眼睛露在水面上",
+        "caption": "AI 生成科学情景重建。找找头顶的眼睛，再看看吻端的鼻孔。身体大部分可以藏在水下。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/saltwater-crocodile/04-observation.webp",
+        "title": "在岸边休息",
+        "alt": "湾鳄：在岸边休息",
+        "caption": "AI 生成科学情景重建。湾鳄会在岸边晒太阳，也会进入水里，借助周围环境调节体温。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/saltwater-crocodile/05-observation.webp",
+        "title": "背上的鳞甲",
+        "alt": "湾鳄：背上的鳞甲",
+        "caption": "AI 生成科学情景重建。沿着背部看，一块块鳞甲排列在厚皮肤上，皮肤里还有骨板。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/saltwater-crocodile/06-observation.webp",
+        "title": "幼鳄的深色条纹",
+        "alt": "湾鳄：幼鳄的深色条纹",
+        "caption": "AI 生成科学情景重建。幼鳄的身体偏浅黄，身上和尾巴上有深色条纹与斑点；成年后颜色通常更深。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "澳大利亚博物馆：湾鳄",
+      "url": "https://australian.museum/learn/animals/reptiles/estuarine-crocodile/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "title": "Animal Diversity Web：湾鳄",
+      "url": "https://animaldiversity.org/accounts/Crocodylus_porosus/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-18"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-18",
+  "updatedAt": "2026-09-18"
+},
+{
+  "id": "spectacled-caiman",
+  "slug": "spectacled-caiman",
+  "names": {
+    "zh": "眼镜凯门鳄",
+    "en": "Spectacled Caiman"
+  },
+  "scientificName": "Caiman crocodilus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Crocodylia",
+      "zhName": "鳄目"
+    },
+    "family": {
+      "scientificName": "Alligatoridae",
+      "zhName": "短吻鳄科"
+    },
+    "genus": {
+      "scientificName": "Caiman",
+      "zhName": "凯门鳄属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲",
+      "南美洲"
+    ],
+    "regions": [
+      "中美洲",
+      "南美洲北部与中部"
+    ],
+    "countries": [],
+    "range": "原生于中美洲和南美洲的热带地区，生活在河流、湖泊和沼泽中。部分原生范围以外的种群来自人为引入。"
+  },
+  "habitats": [
+    {
+      "name": "热带河流、湖泊与沼泽",
+      "realm": "freshwater",
+      "description": "原生于中美洲和南美洲的热带地区，生活在河流、湖泊和沼泽中。部分原生范围以外的种群来自人为引入。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "昆虫",
+      "甲壳类",
+      "软体动物"
+    ],
+    "description": "取食鱼类、昆虫、甲壳类、软体动物。"
+  },
+  "tags": [
+    "眼镜凯门鳄",
+    "背上的一排排凸起"
+  ],
+  "summary": "找找眼镜凯门鳄背上一排排凸起的鳞甲。",
+  "description": "眼镜凯门鳄背上有凸起的鳞甲，眼睛之间有一道骨质横脊，看起来像眼镜的鼻梁。它属于短吻鳄科，和湾鳄分属不同的科。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "背上的一排排凸起",
+      "body": "看看背上鳞甲的排列，再沿着背部找到长尾巴。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "眼睛之间的横脊",
+      "body": "两只眼睛之间有一道骨质横脊，“眼镜”这个名字就与它有关。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "在水边晒太阳",
+      "body": "它会到岸边晒太阳，也会留在水中，利用环境调节体温。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "只露出头顶",
+      "body": "游在水面附近时，头顶的眼睛和吻端的鼻孔可以露在水面上。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "幼鳄的横带",
+      "body": "幼鳄颜色偏黄，身上有深色斑纹和横带。长大后体色通常更暗。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料记录的全球等级为无危。保护热带湿地、不购买来源不明的野生动物制品。"
+    }
+  ],
+  "keyFacts": [
+    "看看背上鳞甲的排列，再沿着背部找到长尾巴。",
+    "两只眼睛之间有一道骨质横脊，“眼镜”这个名字就与它有关。",
+    "它会到岸边晒太阳，也会留在水中，利用环境调节体温。",
+    "游在水面附近时，头顶的眼睛和吻端的鼻孔可以露在水面上。",
+    "幼鳄颜色偏黄，身上有深色斑纹和横带。长大后体色通常更暗。"
+  ],
+  "threats": [
+    "皮革贸易带来的捕猎压力",
+    "局地湿地丧失"
+  ],
+  "conservationActions": [
+    "保护热带湿地",
+    "不购买来源不明的野生动物制品"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "背上的一排排凸起"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带河流、湖泊与沼泽"
+    }
+  ],
+  "media": {
+    "image": "./images/species/spectacled-caiman/01-cover.webp",
+    "alt": "眼镜凯门鳄的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/spectacled-caiman/02-observation.webp",
+        "title": "背上的一排排凸起",
+        "alt": "眼镜凯门鳄：背上的一排排凸起",
+        "caption": "AI 生成科学情景重建。看看背上鳞甲的排列，再沿着背部找到长尾巴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spectacled-caiman/03-observation.webp",
+        "title": "眼睛之间的横脊",
+        "alt": "眼镜凯门鳄：眼睛之间的横脊",
+        "caption": "AI 生成科学情景重建。两只眼睛之间有一道骨质横脊，“眼镜”这个名字就与它有关。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spectacled-caiman/04-observation.webp",
+        "title": "在水边晒太阳",
+        "alt": "眼镜凯门鳄：在水边晒太阳",
+        "caption": "AI 生成科学情景重建。它会到岸边晒太阳，也会留在水中，利用环境调节体温。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spectacled-caiman/05-observation.webp",
+        "title": "只露出头顶",
+        "alt": "眼镜凯门鳄：只露出头顶",
+        "caption": "AI 生成科学情景重建。游在水面附近时，头顶的眼睛和吻端的鼻孔可以露在水面上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spectacled-caiman/06-observation.webp",
+        "title": "幼鳄的横带",
+        "alt": "眼镜凯门鳄：幼鳄的横带",
+        "caption": "AI 生成科学情景重建。幼鳄颜色偏黄，身上有深色斑纹和横带。长大后体色通常更暗。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Animal Diversity Web：眼镜凯门鳄",
+      "url": "https://animaldiversity.org/accounts/Caiman_crocodilus/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "title": "The Reptile Database：眼镜凯门鳄",
+      "url": "https://reptile-database.reptarium.cz/Caiman/crocodilus",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-18"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-18",
+  "updatedAt": "2026-09-18"
+},
+{
+  "id": "common-snapping-turtle",
+  "slug": "common-snapping-turtle",
+  "names": {
+    "zh": "鳄龟",
+    "en": "Common Snapping Turtle"
+  },
+  "scientificName": "Chelydra serpentina",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Testudines",
+      "zhName": "龟鳖目"
+    },
+    "family": {
+      "scientificName": "Chelydridae",
+      "zhName": "鳄龟科"
+    },
+    "genus": {
+      "scientificName": "Chelydra",
+      "zhName": "鳄龟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "加拿大南部",
+      "美国"
+    ],
+    "countries": [],
+    "range": "原生于加拿大南部和美国，常见于软泥底的淡水水域。墨西哥等地有引入记录；这里不包括已分为其他物种的中美洲鳄龟。"
+  },
+  "habitats": [
+    {
+      "name": "池塘、湖泊与缓流河道",
+      "realm": "freshwater",
+      "description": "原生于加拿大南部和美国，常见于软泥底的淡水水域。墨西哥等地有引入记录；这里不包括已分为其他物种的中美洲鳄龟。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "水生植物",
+      "鱼类",
+      "昆虫",
+      "甲壳类"
+    ],
+    "description": "取食水生植物、鱼类、昆虫、甲壳类。"
+  },
+  "tags": [
+    "鳄龟",
+    "龟壳后面的长尾巴"
+  ],
+  "summary": "看看鳄龟的龟壳后面伸出的长尾巴。",
+  "description": "鳄龟有长脖子和长尾巴，尾巴上方排列着锯齿状的突起。它的腹甲较小，头和四肢不能像许多龟那样完全缩进壳里。成年鳄龟的背甲不像大鳄龟那样有三道高耸的棱。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "龟壳后面的长尾巴",
+      "body": "从龟壳后缘向后找，长尾巴上方有一排锯齿状突起。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "沿着水底走",
+      "body": "鳄龟常在浅水的软泥底活动，伸长脖子寻找食物。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "把鼻孔伸出水面",
+      "body": "鳄龟用肺呼吸，需要把鼻孔伸到水面上换气。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "宽宽的背甲",
+      "body": "看看宽阔的褐色背甲。幼龟背甲的棱更明显，成年后通常变得平缓。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "到陆地上产卵",
+      "body": "雌龟会离开水域，到陆地上寻找产卵的地方。观察时给它留出通路。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料记录的全球等级为无危。保留湿地与陆地之间的通路、不放生外来龟类。"
+    }
+  ],
+  "keyFacts": [
+    "从龟壳后缘向后找，长尾巴上方有一排锯齿状突起。",
+    "鳄龟常在浅水的软泥底活动，伸长脖子寻找食物。",
+    "鳄龟用肺呼吸，需要把鼻孔伸到水面上换气。",
+    "看看宽阔的褐色背甲。幼龟背甲的棱更明显，成年后通常变得平缓。",
+    "雌龟会离开水域，到陆地上寻找产卵的地方。观察时给它留出通路。"
+  ],
+  "threats": [
+    "湿地丧失",
+    "上岸活动时遭遇道路交通",
+    "捕捉"
+  ],
+  "conservationActions": [
+    "保留湿地与陆地之间的通路",
+    "不放生外来龟类"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "龟壳后面的长尾巴"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "池塘、湖泊与缓流河道"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-snapping-turtle/01-cover.webp",
+    "alt": "鳄龟的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-snapping-turtle/02-observation.webp",
+        "title": "龟壳后面的长尾巴",
+        "alt": "鳄龟：龟壳后面的长尾巴",
+        "caption": "AI 生成科学情景重建。从龟壳后缘向后找，长尾巴上方有一排锯齿状突起。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-snapping-turtle/03-observation.webp",
+        "title": "沿着水底走",
+        "alt": "鳄龟：沿着水底走",
+        "caption": "AI 生成科学情景重建。鳄龟常在浅水的软泥底活动，伸长脖子寻找食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-snapping-turtle/04-observation.webp",
+        "title": "把鼻孔伸出水面",
+        "alt": "鳄龟：把鼻孔伸出水面",
+        "caption": "AI 生成科学情景重建。鳄龟用肺呼吸，需要把鼻孔伸到水面上换气。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-snapping-turtle/05-observation.webp",
+        "title": "宽宽的背甲",
+        "alt": "鳄龟：宽宽的背甲",
+        "caption": "AI 生成科学情景重建。看看宽阔的褐色背甲。幼龟背甲的棱更明显，成年后通常变得平缓。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-snapping-turtle/06-observation.webp",
+        "title": "到陆地上产卵",
+        "alt": "鳄龟：到陆地上产卵",
+        "caption": "AI 生成科学情景重建。雌龟会离开水域，到陆地上寻找产卵的地方。观察时给它留出通路。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The Reptile Database：鳄龟",
+      "url": "https://reptile-database.reptarium.cz/Chelydra/serpentina",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "title": "Animal Diversity Web：鳄龟",
+      "url": "https://animaldiversity.org/accounts/Chelydra_serpentina/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "title": "IUCN 龟类专家组：2025 世界龟类名录",
+      "url": "https://iucn-tftsg.org/wp-content/uploads/crm.10.checklist.atlas_.v10.2025.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-18"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-18",
+  "updatedAt": "2026-09-18"
+},
+{
+  "id": "alligator-snapping-turtle",
+  "slug": "alligator-snapping-turtle",
+  "names": {
+    "zh": "大鳄龟",
+    "en": "Alligator Snapping Turtle"
+  },
+  "scientificName": "Macrochelys temminckii",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Testudines",
+      "zhName": "龟鳖目"
+    },
+    "family": {
+      "scientificName": "Chelydridae",
+      "zhName": "鳄龟科"
+    },
+    "genus": {
+      "scientificName": "Macrochelys",
+      "zhName": "大鳄龟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "美国中部与东南部河流系统"
+    ],
+    "countries": [],
+    "range": "原生于美国中部至东南部的河流系统，多在淡水水底活动。这里采用与苏旺尼大鳄龟分开的物种口径，不把苏旺尼河种群并入。"
+  },
+  "habitats": [
+    {
+      "name": "河流、湖泊与沼泽",
+      "realm": "freshwater",
+      "description": "原生于美国中部至东南部的河流系统，多在淡水水底活动。这里采用与苏旺尼大鳄龟分开的物种口径，不把苏旺尼河种群并入。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "螯虾",
+      "软体动物",
+      "少量植物"
+    ],
+    "description": "取食鱼类、螯虾、软体动物、少量植物。"
+  },
+  "tags": [
+    "大鳄龟",
+    "龟壳上的三道棱"
+  ],
+  "summary": "找找大鳄龟龟壳上凸起的三道棱。",
+  "description": "大鳄龟的头很大，上喙弯曲，背甲上有三道纵向隆起。它与鳄龟同属鳄龟科，但分属不同的属。它常待在水底，口内有一小段像虫子的舌部突起。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "龟壳上的三道棱",
+      "body": "从头部朝尾巴方向看，背甲上排列着三道凸起的棱。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "嘴里的小诱饵",
+      "body": "它在水底张开嘴，摆动像小虫的舌部突起，吸引鱼靠近。那是身体的一部分。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "在沉木旁等待",
+      "body": "深色身体与水底环境接近。它常留在沉木或树根附近。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "弯弯的上喙",
+      "body": "看看弯曲的上喙和头部周围的皮肤突起。它的嘴没有牙齿。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "幼龟也有棱",
+      "body": "小大鳄龟的背甲上也有凸起，身后拖着长尾巴。它会在有遮蔽的浅水处活动。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料记录的全球等级为濒危。保护河流与岸边植被、减少废弃钓线与渔具。"
+    }
+  ],
+  "keyFacts": [
+    "从头部朝尾巴方向看，背甲上排列着三道凸起的棱。",
+    "它在水底张开嘴，摆动像小虫的舌部突起，吸引鱼靠近。那是身体的一部分。",
+    "深色身体与水底环境接近。它常留在沉木或树根附近。",
+    "看看弯曲的上喙和头部周围的皮肤突起。它的嘴没有牙齿。",
+    "小大鳄龟的背甲上也有凸起，身后拖着长尾巴。它会在有遮蔽的浅水处活动。"
+  ],
+  "threats": [
+    "非法捕捉",
+    "渔具误捕",
+    "栖息地退化"
+  ],
+  "conservationActions": [
+    "保护河流与岸边植被",
+    "减少废弃钓线与渔具"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "龟壳上的三道棱"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "河流、湖泊与沼泽"
+    }
+  ],
+  "media": {
+    "image": "./images/species/alligator-snapping-turtle/01-cover.webp",
+    "alt": "大鳄龟的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/alligator-snapping-turtle/02-observation.webp",
+        "title": "龟壳上的三道棱",
+        "alt": "大鳄龟：龟壳上的三道棱",
+        "caption": "AI 生成科学情景重建。从头部朝尾巴方向看，背甲上排列着三道凸起的棱。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/alligator-snapping-turtle/03-observation.webp",
+        "title": "嘴里的小诱饵",
+        "alt": "大鳄龟：嘴里的小诱饵",
+        "caption": "AI 生成科学情景重建。它在水底张开嘴，摆动像小虫的舌部突起，吸引鱼靠近。那是身体的一部分。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/alligator-snapping-turtle/04-observation.webp",
+        "title": "在沉木旁等待",
+        "alt": "大鳄龟：在沉木旁等待",
+        "caption": "AI 生成科学情景重建。深色身体与水底环境接近。它常留在沉木或树根附近。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/alligator-snapping-turtle/05-observation.webp",
+        "title": "弯弯的上喙",
+        "alt": "大鳄龟：弯弯的上喙",
+        "caption": "AI 生成科学情景重建。看看弯曲的上喙和头部周围的皮肤突起。它的嘴没有牙齿。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/alligator-snapping-turtle/06-observation.webp",
+        "title": "幼龟也有棱",
+        "alt": "大鳄龟：幼龟也有棱",
+        "caption": "AI 生成科学情景重建。小大鳄龟的背甲上也有凸起，身后拖着长尾巴。它会在有遮蔽的浅水处活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "美国鱼类与野生动物管理局：大鳄龟",
+      "url": "https://www.fws.gov/species/alligator-snapping-turtle-macrochelys-temminckii",
+      "kind": "ecology",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "title": "The Reptile Database：大鳄龟",
+      "url": "https://reptile-database.reptarium.cz/Macrochelys/temminckii",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "title": "IUCN 龟类专家组：2025 世界龟类名录",
+      "url": "https://iucn-tftsg.org/wp-content/uploads/crm.10.checklist.atlas_.v10.2025.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-18"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-18",
+  "updatedAt": "2026-09-18"
+},
+{
+  "id": "leopard-tortoise",
+  "slug": "leopard-tortoise",
+  "names": {
+    "zh": "豹纹陆龟",
+    "en": "Leopard Tortoise"
+  },
+  "scientificName": "Stigmochelys pardalis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Testudines",
+      "zhName": "龟鳖目"
+    },
+    "family": {
+      "scientificName": "Testudinidae",
+      "zhName": "陆龟科"
+    },
+    "genus": {
+      "scientificName": "Stigmochelys",
+      "zhName": "豹纹陆龟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列资料的全球等级；独立评估日期未核实"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "非洲东部与南部"
+    ],
+    "countries": [],
+    "range": "原生于非洲东部和南部的草原、稀树草原与灌丛地带。人为释放的个体可能出现在历史分布以外。"
+  },
+  "habitats": [
+    {
+      "name": "草原、稀树草原与灌丛",
+      "realm": "terrestrial",
+      "description": "原生于非洲东部和南部的草原、稀树草原与灌丛地带。人为释放的个体可能出现在历史分布以外。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "草",
+      "多肉植物",
+      "其他草本植物"
+    ],
+    "description": "取食草、多肉植物、其他草本植物。"
+  },
+  "tags": [
+    "豹纹陆龟",
+    "浅色壳上的深色斑纹"
+  ],
+  "summary": "找找豹纹陆龟龟壳上的深色斑纹。",
+  "description": "豹纹陆龟有高高隆起的背甲，浅色底上散布深色斑纹。它主要在陆地上生活，用粗壮的腿支撑身体，低下头取食植物。不同个体和年龄的花纹会有差别。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "浅色壳上的深色斑纹",
+      "body": "找找背甲上的深色斑点与斑块。它们的形状和分布并不完全相同。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "低头吃草",
+      "body": "它用角质的喙咬取草和其他植物，嘴里没有牙齿。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "粗粗的腿向前迈",
+      "body": "看看覆盖鳞片的粗腿。它用四条腿支撑身体，在陆地上行走。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "到阴凉处休息",
+      "body": "天气炎热时，它会躲到植被的阴影下，避开强烈日晒。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "小龟的花纹",
+      "body": "幼龟也有浅色和深色相间的背甲。随着生长，花纹会发生变化。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留住它的生活环境",
+      "body": "所列资料记录的全球等级为无危。保护原生草地与灌丛、不随意搬运或释放陆龟。"
+    }
+  ],
+  "keyFacts": [
+    "找找背甲上的深色斑点与斑块。它们的形状和分布并不完全相同。",
+    "它用角质的喙咬取草和其他植物，嘴里没有牙齿。",
+    "看看覆盖鳞片的粗腿。它用四条腿支撑身体，在陆地上行走。",
+    "天气炎热时，它会躲到植被的阴影下，避开强烈日晒。",
+    "幼龟也有浅色和深色相间的背甲。随着生长，花纹会发生变化。"
+  ],
+  "threats": [
+    "局地栖息地改变",
+    "道路交通与人为收集"
+  ],
+  "conservationActions": [
+    "保护原生草地与灌丛",
+    "不随意搬运或释放陆龟"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "浅色壳上的深色斑纹"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "草原、稀树草原与灌丛"
+    }
+  ],
+  "media": {
+    "image": "./images/species/leopard-tortoise/01-cover.webp",
+    "alt": "豹纹陆龟的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/leopard-tortoise/02-observation.webp",
+        "title": "浅色壳上的深色斑纹",
+        "alt": "豹纹陆龟：浅色壳上的深色斑纹",
+        "caption": "AI 生成科学情景重建。找找背甲上的深色斑点与斑块。它们的形状和分布并不完全相同。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leopard-tortoise/03-observation.webp",
+        "title": "低头吃草",
+        "alt": "豹纹陆龟：低头吃草",
+        "caption": "AI 生成科学情景重建。它用角质的喙咬取草和其他植物，嘴里没有牙齿。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leopard-tortoise/04-observation.webp",
+        "title": "粗粗的腿向前迈",
+        "alt": "豹纹陆龟：粗粗的腿向前迈",
+        "caption": "AI 生成科学情景重建。看看覆盖鳞片的粗腿。它用四条腿支撑身体，在陆地上行走。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leopard-tortoise/05-observation.webp",
+        "title": "到阴凉处休息",
+        "alt": "豹纹陆龟：到阴凉处休息",
+        "caption": "AI 生成科学情景重建。天气炎热时，它会躲到植被的阴影下，避开强烈日晒。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leopard-tortoise/06-observation.webp",
+        "title": "小龟的花纹",
+        "alt": "豹纹陆龟：小龟的花纹",
+        "caption": "AI 生成科学情景重建。幼龟也有浅色和深色相间的背甲。随着生长，花纹会发生变化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "南非国家生物多样性研究所：豹纹陆龟",
+      "url": "https://www.sanbi.org/animal-of-the-week/leopard-tortoise/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "title": "The Reptile Database：豹纹陆龟",
+      "url": "https://reptile-database.reptarium.cz/Stigmochelys/pardalis",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "title": "IUCN 龟类专家组：2025 世界龟类名录",
+      "url": "https://iucn-tftsg.org/wp-content/uploads/crm.10.checklist.atlas_.v10.2025.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-18"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-18",
+  "updatedAt": "2026-09-18"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
