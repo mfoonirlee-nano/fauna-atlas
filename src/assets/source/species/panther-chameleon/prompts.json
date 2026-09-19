@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-19",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: photorealistic-natural. Create one 1536x1024 landscape natural history wildlife photograph for Fauna Atlas cover: an anatomically accurate adult male panther chameleon Furcifer pardalis, turquoise green with red vertical bars, turret eyes, low casque with NO horns, opposed gripping toe bundles clasping a horizontal branch, and entire curled prehensile tail visible. Northern Madagascar sunlit woodland background. Whole animal large on RIGHT, all extremities within x=650..1490 y=200..850; visually centered around 70% width; quiet blurred foliage on left 40% for title. Real background margin around all body parts. Natural restrained colors, detailed scales. No text, no labels, no border, no collage, no watermark. One image only."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: adult male panther chameleon Furcifer pardalis, turquoise green with red vertical bars, turret eyes, low casque NO horns, opposed gripping toe bundles and curled prehensile tail. Habitat: northern Madagascar woodland. Scene: Close detail of two opposed toe bundles firmly gripping a thin twig, with head in background. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: adult male panther chameleon Furcifer pardalis, turquoise green with red vertical bars, turret eyes, low casque NO horns, opposed gripping toe bundles and curled prehensile tail. Habitat: northern Madagascar woodland. Scene: Whole animal stepping carefully from one branch to another with tail gripping rear branch. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: adult male panther chameleon Furcifer pardalis, turquoise green with red vertical bars, turret eyes, low casque NO horns, opposed gripping toe bundles and curled prehensile tail. Habitat: northern Madagascar woodland. Scene: Side portrait showing turret eye and fine granular scales, mouth closed. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: adult male panther chameleon Furcifer pardalis, turquoise green with red vertical bars, turret eyes, low casque NO horns, opposed gripping toe bundles and curled prehensile tail. Habitat: northern Madagascar woodland. Scene: Whole animal basking on a sunlit shrub branch. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: adult male panther chameleon Furcifer pardalis, turquoise green with red vertical bars, turret eyes, low casque NO horns, opposed gripping toe bundles and curled prehensile tail. Habitat: northern Madagascar woodland. Scene: Whole animal resting beneath leaves on a shaded branch. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    }
+  ]
+}

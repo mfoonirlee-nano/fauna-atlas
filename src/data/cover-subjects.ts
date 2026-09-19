@@ -2850,5 +2850,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1503,
       "bottom": 779
     }
+  },
+  "panther-chameleon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 617,
+      "top": 166,
+      "right": 1483,
+      "bottom": 875
+    }
   }
 };

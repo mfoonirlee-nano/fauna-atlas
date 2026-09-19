@@ -455,3 +455,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Loggerhead Turtle image set](./species/loggerhead-turtle/README.md)
 
 - [Ball Python image set](./species/ball-python/README.md)
+
+- [Panther Chameleon image set](./species/panther-chameleon/README.md)

@@ -1441,5 +1441,18 @@
       },
       "sha256": "a59123267a8a3484d65459348f110a79584f5594d56c19b020c6d0b1c74c16b1"
     }
+  },
+  "panther-chameleon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 617,
+        "top": 166,
+        "right": 1483,
+        "bottom": 875
+      },
+      "sha256": "09909456d6f5881e3d6cd87113061c54b6c7853e17a1b990c50d28c2989e6a3d"
+    }
   }
 }
