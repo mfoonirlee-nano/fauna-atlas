@@ -1376,5 +1376,18 @@
       },
       "sha256": "31b20c875644f703b21af08ea49288813aa68900be0f4ef10b75c59f0bbf4fcc"
     }
+  },
+  "sulcata-tortoise": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 632,
+        "top": 248,
+        "right": 1482,
+        "bottom": 835
+      },
+      "sha256": "ba12fc6beedc087fc98a07d732e488ea3df296c3ac6f2c0ad0e12e30fa559303"
+    }
   }
 }

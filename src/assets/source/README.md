@@ -445,3 +445,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Common Snapping Turtle image set](./species/common-snapping-turtle/README.md)
 - [Alligator Snapping Turtle image set](./species/alligator-snapping-turtle/README.md)
 - [Leopard Tortoise image set](./species/leopard-tortoise/README.md)
+
+- [African Spurred Tortoise image set](./species/sulcata-tortoise/README.md)

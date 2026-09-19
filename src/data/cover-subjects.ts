@@ -2800,5 +2800,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1479,
       "bottom": 866
     }
+  },
+  "sulcata-tortoise": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 632,
+      "top": 248,
+      "right": 1482,
+      "bottom": 835
+    }
   }
 };
