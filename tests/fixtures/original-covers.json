@@ -1389,5 +1389,18 @@
       },
       "sha256": "ba12fc6beedc087fc98a07d732e488ea3df296c3ac6f2c0ad0e12e30fa559303"
     }
+  },
+  "hermanns-tortoise": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 683,
+        "top": 288,
+        "right": 1502,
+        "bottom": 804
+      },
+      "sha256": "8ed0d6379575e7df621472552061e448912561f447b2bfe2e4ebcaf11c2e71f2"
+    }
   }
 }

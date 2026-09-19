@@ -4322,6 +4322,30 @@
       },
       "inspectionNote": "Source and runtime cover inspected. Six viewports and six animation states use full-area coverage; intentional edge cropping follows the 2026-09-16 presentation. See species README.",
       "reviewDate": "2026-09-19"
+    },
+    {
+      "slug": "hermanns-tortoise",
+      "image": "./images/species/hermanns-tortoise/01-cover.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.5
+      },
+      "sha256": "8ed0d6379575e7df621472552061e448912561f447b2bfe2e4ebcaf11c2e71f2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-full-bleed-coverage",
+      "reviewedBounds": {
+        "left": 683,
+        "top": 288,
+        "right": 1502,
+        "bottom": 804
+      },
+      "inspectionNote": "Source and runtime cover inspected. Six viewports and six animation states use full-area coverage; intentional edge cropping follows the 2026-09-16 presentation. See species README.",
+      "reviewDate": "2026-09-19"
     }
   ]
 }

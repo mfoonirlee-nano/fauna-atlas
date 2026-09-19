@@ -447,3 +447,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Leopard Tortoise image set](./species/leopard-tortoise/README.md)
 
 - [African Spurred Tortoise image set](./species/sulcata-tortoise/README.md)
+
+- [Hermann's Tortoise image set](./species/hermanns-tortoise/README.md)

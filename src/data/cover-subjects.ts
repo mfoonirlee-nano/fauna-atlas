@@ -2810,5 +2810,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1482,
       "bottom": 835
     }
+  },
+  "hermanns-tortoise": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 683,
+      "top": 288,
+      "right": 1502,
+      "bottom": 804
+    }
   }
 };
