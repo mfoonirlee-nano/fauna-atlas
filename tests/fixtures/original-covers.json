@@ -1428,5 +1428,18 @@
       },
       "sha256": "21d80c1b26b84f5809b93b027ff5f22efab35501a9867b1016ae83848d127f17"
     }
+  },
+  "ball-python": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 317,
+        "right": 1503,
+        "bottom": 779
+      },
+      "sha256": "a59123267a8a3484d65459348f110a79584f5594d56c19b020c6d0b1c74c16b1"
+    }
   }
 }

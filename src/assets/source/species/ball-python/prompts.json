@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-19",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Create one photorealistic wildlife educational cover image, landscape 1536x1024. Single anatomically accurate Wild-type ball python Python regius, stout brown and black body with tan blotches, short tail, West African savanna floor. Entire animal including all visible extremities head and tail inside frame with real background clearance. Animal fills right side with full silhouette within x=640 to 1460 and y=240 to 870; center at 69% width. Left 40% quiet habitat for website copy. Natural light realistic anatomy, no text no borders no collage."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Wild-type ball python Python regius, stout brown and black body with tan blotches, short tail, West African savanna floor. Scene: Curled into defensive ball with head tucked inside coils, one continuous anatomically correct snake. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Wild-type ball python Python regius, stout brown and black body with tan blotches, short tail, West African savanna floor. Scene: Moving along leaf litter with head visible and whole tapering tail. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Wild-type ball python Python regius, stout brown and black body with tan blotches, short tail, West African savanna floor. Scene: Close side portrait of head showing small heat-sensing lip pits. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Wild-type ball python Python regius, stout brown and black body with tan blotches, short tail, West African savanna floor. Scene: Sheltering in a shaded earthen burrow entrance. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Wild-type ball python Python regius, stout brown and black body with tan blotches, short tail, West African savanna floor. Scene: Loosely coiled on dry grass at dusk. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    }
+  ]
+}

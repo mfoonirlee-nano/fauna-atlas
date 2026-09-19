@@ -453,3 +453,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Hawksbill Turtle image set](./species/hawksbill-turtle/README.md)
 
 - [Loggerhead Turtle image set](./species/loggerhead-turtle/README.md)
+
+- [Ball Python image set](./species/ball-python/README.md)

@@ -2840,5 +2840,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1511,
       "bottom": 837
     }
+  },
+  "ball-python": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 317,
+      "right": 1503,
+      "bottom": 779
+    }
   }
 };
