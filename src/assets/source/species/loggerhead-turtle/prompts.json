@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-19",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Create one photorealistic wildlife educational cover image, landscape 1536x1024. Single anatomically accurate Loggerhead sea turtle Caretta caretta, massive broad head, reddish brown shell with five lateral scutes per side, coastal ocean. Entire animal including all visible extremities head and tail inside frame with real background clearance. Animal fills right side with full silhouette within x=640 to 1460 and y=240 to 870; center at 69% width. Left 40% quiet habitat for website copy. Natural light realistic anatomy, no text no borders no collage. Strict composition: ALL of turtle including foremost beak must be to RIGHT of x=690; subject boundary x=690..1470, y=240..840. Do not extend head toward center of image. Keep realistic shell shape with only moderate rear-edge serrations. Broad open quiet blue water occupies left 44%."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Loggerhead sea turtle Caretta caretta, massive broad head, reddish brown shell with five lateral scutes per side, coastal ocean. Scene: Swimming with broad front flippers extended, full body visible. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Loggerhead sea turtle Caretta caretta, massive broad head, reddish brown shell with five lateral scutes per side, coastal ocean. Scene: Close-up of broad head and strong beak. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Loggerhead sea turtle Caretta caretta, massive broad head, reddish brown shell with five lateral scutes per side, coastal ocean. Scene: Searching sandy seabed for shelled prey. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Loggerhead sea turtle Caretta caretta, massive broad head, reddish brown shell with five lateral scutes per side, coastal ocean. Scene: Dorsal oblique full-body view of reddish brown shell. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "One photorealistic educational wildlife image, landscape 1536x1024. Anatomically accurate Loggerhead sea turtle Caretta caretta, massive broad head, reddish brown shell with five lateral scutes per side, coastal ocean. Scene: At ocean surface taking a breath. Clear subject, natural colors and light, species-appropriate habitat. No text no borders no collage no watermark no humans. Scientific reconstruction for child-friendly atlas."
+    }
+  ]
+}

@@ -4370,6 +4370,30 @@
       },
       "inspectionNote": "Source and runtime cover inspected. Six viewports and six animation states use full-area coverage; intentional edge cropping follows the 2026-09-16 presentation. See species README.",
       "reviewDate": "2026-09-19"
+    },
+    {
+      "slug": "loggerhead-turtle",
+      "image": "./images/species/loggerhead-turtle/01-cover.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.5
+      },
+      "sha256": "21d80c1b26b84f5809b93b027ff5f22efab35501a9867b1016ae83848d127f17",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-full-bleed-coverage",
+      "reviewedBounds": {
+        "left": 652,
+        "top": 259,
+        "right": 1511,
+        "bottom": 837
+      },
+      "inspectionNote": "Source and runtime cover inspected. Six viewports and six animation states use full-area coverage; intentional edge cropping follows the 2026-09-16 presentation. See species README.",
+      "reviewDate": "2026-09-19"
     }
   ]
 }

@@ -1415,5 +1415,18 @@
       },
       "sha256": "0c18531aa955c3aa50bb50376006f73278c0432d40933eb8aa4fb39100563863"
     }
+  },
+  "loggerhead-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 652,
+        "top": 259,
+        "right": 1511,
+        "bottom": 837
+      },
+      "sha256": "21d80c1b26b84f5809b93b027ff5f22efab35501a9867b1016ae83848d127f17"
+    }
   }
 }

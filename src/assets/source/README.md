@@ -451,3 +451,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Hermann's Tortoise image set](./species/hermanns-tortoise/README.md)
 
 - [Hawksbill Turtle image set](./species/hawksbill-turtle/README.md)
+
+- [Loggerhead Turtle image set](./species/loggerhead-turtle/README.md)
