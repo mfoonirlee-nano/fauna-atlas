@@ -2880,5 +2880,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1380,
       "bottom": 840
     }
+  },
+  "strawberry-poison-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 705,
+      "top": 192,
+      "right": 1419,
+      "bottom": 778
+    }
   }
 };

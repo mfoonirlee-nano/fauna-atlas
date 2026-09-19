@@ -1480,5 +1480,18 @@
       },
       "sha256": "75e576db5ae049df1e78a2a65b96d07009fc31d5cc0bcfc63a170be0cdd79916"
     }
+  },
+  "strawberry-poison-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 705,
+        "top": 192,
+        "right": 1419,
+        "bottom": 778
+      },
+      "sha256": "03db4f156a676052e87d47304cf3c6fa8eeb43223076d7f60464f755d5e263fa"
+    }
   }
 }

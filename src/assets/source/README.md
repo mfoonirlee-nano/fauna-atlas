@@ -459,3 +459,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Panther Chameleon image set](./species/panther-chameleon/README.md)
 - [Common Frog image set](./species/common-frog/README.md)
 - [European Tree Frog image set](./species/european-tree-frog/README.md)
+- [Strawberry Poison Frog image set](./species/strawberry-poison-frog/README.md)

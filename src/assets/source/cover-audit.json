@@ -4490,6 +4490,30 @@
       },
       "inspectionNote": "Source and runtime cover inspected at original resolution; galleries inspected via contact sheets. Six viewports and six animation states cover the full hero under the 2026-09-16 layout; edges may be cropped. See species README.",
       "reviewDate": "2026-09-19"
+    },
+    {
+      "slug": "strawberry-poison-frog",
+      "image": "./images/species/strawberry-poison-frog/01-cover.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.5
+      },
+      "sha256": "03db4f156a676052e87d47304cf3c6fa8eeb43223076d7f60464f755d5e263fa",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-full-bleed-coverage",
+      "reviewedBounds": {
+        "left": 705,
+        "top": 192,
+        "right": 1419,
+        "bottom": 778
+      },
+      "inspectionNote": "Source and runtime cover inspected at original resolution; galleries inspected via contact sheets. Six viewports and six animation states cover the full hero under the 2026-09-16 layout; edges may be cropped. See species README.",
+      "reviewDate": "2026-09-19"
     }
   ]
 }
