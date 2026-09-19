@@ -4346,6 +4346,30 @@
       },
       "inspectionNote": "Source and runtime cover inspected. Six viewports and six animation states use full-area coverage; intentional edge cropping follows the 2026-09-16 presentation. See species README.",
       "reviewDate": "2026-09-19"
+    },
+    {
+      "slug": "hawksbill-turtle",
+      "image": "./images/species/hawksbill-turtle/01-cover.webp",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.5
+      },
+      "sha256": "0c18531aa955c3aa50bb50376006f73278c0432d40933eb8aa4fb39100563863",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "screening": "original-resolution-inspected",
+      "composition": "passes-source-composition",
+      "heroAcceptance": "passes-full-bleed-coverage",
+      "reviewedBounds": {
+        "left": 651,
+        "top": 254,
+        "right": 1490,
+        "bottom": 769
+      },
+      "inspectionNote": "Source and runtime cover inspected. Six viewports and six animation states use full-area coverage; intentional edge cropping follows the 2026-09-16 presentation. See species README.",
+      "reviewDate": "2026-09-19"
     }
   ]
 }

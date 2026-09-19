@@ -2820,5 +2820,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1502,
       "bottom": 804
     }
+  },
+  "hawksbill-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 651,
+      "top": 254,
+      "right": 1490,
+      "bottom": 769
+    }
   }
 };

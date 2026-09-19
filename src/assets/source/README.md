@@ -449,3 +449,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [African Spurred Tortoise image set](./species/sulcata-tortoise/README.md)
 
 - [Hermann's Tortoise image set](./species/hermanns-tortoise/README.md)
+
+- [Hawksbill Turtle image set](./species/hawksbill-turtle/README.md)

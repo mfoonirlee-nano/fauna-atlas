@@ -1402,5 +1402,18 @@
       },
       "sha256": "8ed0d6379575e7df621472552061e448912561f447b2bfe2e4ebcaf11c2e71f2"
     }
+  },
+  "hawksbill-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 651,
+        "top": 254,
+        "right": 1490,
+        "bottom": 769
+      },
+      "sha256": "0c18531aa955c3aa50bb50376006f73278c0432d40933eb8aa4fb39100563863"
+    }
   }
 }
