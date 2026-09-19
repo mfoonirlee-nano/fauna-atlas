@@ -1493,5 +1493,18 @@
       },
       "sha256": "03db4f156a676052e87d47304cf3c6fa8eeb43223076d7f60464f755d5e263fa"
     }
+  },
+  "dyeing-poison-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 188,
+        "right": 1443,
+        "bottom": 853
+      },
+      "sha256": "b98c62eaeec3d909cd93a987184f100fe1ef9dd89f3ff721fa1dd1efc092679c"
+    }
   }
 }

@@ -2890,5 +2890,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1419,
       "bottom": 778
     }
+  },
+  "dyeing-poison-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 188,
+      "right": 1443,
+      "bottom": 853
+    }
   }
 };
