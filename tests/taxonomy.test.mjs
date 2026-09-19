@@ -24302,7 +24302,7 @@ test('five new toddler profiles keep sourced identities and separate regional co
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 287);
+  assert.equal(species.length, 288);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24462,8 +24462,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Heloderma')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Iguanidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Amblyrhynchus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 17);
-  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'class', 'Amphibia')?.speciesCount, 18);
+  assert.equal(findTaxon(tree, 'order', 'Anura')?.speciesCount, 13);
   assert.equal(findTaxon(tree, 'family', 'Conrauidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Conraua')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Pipidae')?.speciesCount, 1);
@@ -24473,7 +24473,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 287);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 288);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24494,7 +24494,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 222);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 223);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 89);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 35);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 2);
@@ -26065,6 +26065,7 @@ test('chameleon-to-poison-frog profiles retain taxonomy, distinct life histories
   const cases = [
     ['panther-chameleon', 'Furcifer pardalis', 'Squamata', 'Chamaeleonidae', 'Furcifer'],
     ['common-frog', 'Rana temporaria', 'Anura', 'Ranidae', 'Rana'],
+    ['european-tree-frog', 'Hyla arborea', 'Anura', 'Hylidae', 'Hyla'],
   ];
   const tree = buildTaxonomyTree(species);
   for (const [slug, name, order, family, genus] of cases) {
@@ -26079,6 +26080,8 @@ test('chameleon-to-poison-frog profiles retain taxonomy, distinct life histories
       basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
       verifyAcceptedHashes: true });
   }
+  assert.equal(findSpecies('european-tree-frog').conservation.assessedYear, 2023);
+  assert.equal(findSpecies('european-tree-frog').conservation.trend, 'decreasing');
   assert.ok(findSpecies('common-frog').media.gallery.some(({ title }) => title.includes('卵团')));
 });
 

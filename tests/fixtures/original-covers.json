@@ -1467,5 +1467,18 @@
       },
       "sha256": "d49864f72025f370b3f7092d50b1d2463b78a025fb7d8110c92d245a8f527b43"
     }
+  },
+  "european-tree-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 658,
+        "top": 246,
+        "right": 1380,
+        "bottom": 840
+      },
+      "sha256": "75e576db5ae049df1e78a2a65b96d07009fc31d5cc0bcfc63a170be0cdd79916"
+    }
   }
 }

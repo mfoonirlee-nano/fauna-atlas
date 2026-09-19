@@ -2870,5 +2870,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1458,
       "bottom": 861
     }
+  },
+  "european-tree-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 658,
+      "top": 246,
+      "right": 1380,
+      "bottom": 840
+    }
   }
 };
