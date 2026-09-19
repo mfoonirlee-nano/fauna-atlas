@@ -457,3 +457,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Ball Python image set](./species/ball-python/README.md)
 
 - [Panther Chameleon image set](./species/panther-chameleon/README.md)
+- [Common Frog image set](./species/common-frog/README.md)

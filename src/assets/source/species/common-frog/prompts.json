@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-19",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: photorealistic-natural. One 1536x1024 landscape scientific wildlife cover. Anatomically accurate European common frog Rana temporaria, brown mottled skin, dark triangular patch behind eye covering tympanum, blunt snout, two dorsolateral ridges, no toe pads. Setting: central European damp woodland by a pond. Complete single animal in side three-quarter view large on RIGHT, all visible feet and snout fully within x=650..1480 and y=230..860. Subject center around 70% width. Left 40% quiet blurred habitat for website title. Real background margin around entire animal, no clipped toes. Detailed natural textures, restrained light. No text, no watermark, no collage, no humans."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: European common frog Rana temporaria, brown mottled skin, dark triangular patch behind eye covering tympanum, blunt snout, two dorsolateral ridges, no toe pads. Habitat: central European damp woodland by a pond. Scene: Close side portrait showing the dark triangular patch behind the eye and tympanum. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: European common frog Rana temporaria, brown mottled skin, dark triangular patch behind eye covering tympanum, blunt snout, two dorsolateral ridges, no toe pads. Habitat: central European damp woodland by a pond. Scene: Whole frog crouching on damp leaf litter with folded muscular hind legs. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: European common frog Rana temporaria, brown mottled skin, dark triangular patch behind eye covering tympanum, blunt snout, two dorsolateral ridges, no toe pads. Habitat: central European damp woodland by a pond. Scene: A compact mass of common frog spawn, jelly eggs with black centers floating in shallow pond water, no adult needed. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: European common frog Rana temporaria, brown mottled skin, dark triangular patch behind eye covering tympanum, blunt snout, two dorsolateral ridges, no toe pads. Habitat: central European damp woodland by a pond. Scene: Several common frog tadpoles swimming in shallow pond water, realistic small dark larvae with tails, no adult needed. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife image. Species: European common frog Rana temporaria, brown mottled skin, dark triangular patch behind eye covering tympanum, blunt snout, two dorsolateral ridges, no toe pads. Habitat: central European damp woodland by a pond. Scene: Whole adult frog sheltering beside moss and fallen leaves away from pond. Anatomically accurate natural wildlife, clear subject and realistic scale and textures. Four limbs only for any adult; natural occlusion allowed. No text, no labels, no collage, no borders, no watermark, no humans. AI scientific scene reconstruction for a children's atlas."
+    }
+  ]
+}

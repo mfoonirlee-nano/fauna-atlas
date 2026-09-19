@@ -2860,5 +2860,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1483,
       "bottom": 875
     }
+  },
+  "common-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 667,
+      "top": 304,
+      "right": 1458,
+      "bottom": 861
+    }
   }
 };

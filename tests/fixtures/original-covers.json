@@ -1454,5 +1454,18 @@
       },
       "sha256": "09909456d6f5881e3d6cd87113061c54b6c7853e17a1b990c50d28c2989e6a3d"
     }
+  },
+  "common-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 667,
+        "top": 304,
+        "right": 1458,
+        "bottom": 861
+      },
+      "sha256": "d49864f72025f370b3f7092d50b1d2463b78a025fb7d8110c92d245a8f527b43"
+    }
   }
 }
