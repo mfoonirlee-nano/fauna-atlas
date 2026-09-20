@@ -2960,5 +2960,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1501,
       "bottom": 571
     }
+  },
+  "neon-tetra": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 285,
+      "right": 1401,
+      "bottom": 622
+    }
   }
 };

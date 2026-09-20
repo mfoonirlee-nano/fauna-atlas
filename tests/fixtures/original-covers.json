@@ -1584,5 +1584,18 @@
       },
       "sha256": "388d4b3addbbbe2de8714adca881624abbf5a68c8a47ae6215073dbd1f08de51"
     }
+  },
+  "neon-tetra": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 285,
+        "right": 1401,
+        "bottom": 622
+      },
+      "sha256": "1b5682bb248e358e686eb28b62ef61dac04e1a17f5248c4f151d9834ed50de54"
+    }
   }
 }

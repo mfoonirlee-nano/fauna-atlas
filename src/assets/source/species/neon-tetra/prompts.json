@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history editorial photograph for Fauna Atlas cover. Subject: neon tetra Paracheirodon innesi, small fish with blue iridescent horizontal stripe, silver-white anterior belly and red ONLY on posterior half below stripe, transparent short fins, NOT cardinal tetra. Environment: shaded Amazon forest stream with tea-tinted clear water and submerged leaf litter. One complete adult, full body side or three-quarter view, all appendages visible with background margin. Place entire animal within x=650..1450, y=160..880, largest possible size within this box. Center right at 70% width, left 40% quiet background for text. No text, watermark, frame, collage, aquarium glass, oversaturation or extra animals."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: neon tetra Paracheirodon innesi, small fish with blue iridescent horizontal stripe, silver-white anterior belly and red ONLY on posterior half below stripe, transparent short fins, NOT cardinal tetra. Environment: shaded Amazon forest stream with tea-tinted clear water and submerged leaf litter. Scene: side view showing blue stripe and red posterior half. Scientific realistic anatomy, clear subject, natural light, no text, logos, border or collage."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: neon tetra Paracheirodon innesi, small fish with blue iridescent horizontal stripe, silver-white anterior belly and red ONLY on posterior half below stripe, transparent short fins, NOT cardinal tetra. Environment: shaded Amazon forest stream with tea-tinted clear water and submerged leaf litter. Requested scene OVERRIDES sex and life stage of reference: small loose shoal in forest stream. Accurate natural anatomy, clear subject, natural light, no text, logos, border or collage."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: neon tetra Paracheirodon innesi, small fish with blue iridescent horizontal stripe, silver-white anterior belly and red ONLY on posterior half below stripe, transparent short fins, NOT cardinal tetra. Environment: shaded Amazon forest stream with tea-tinted clear water and submerged leaf litter. Requested scene OVERRIDES sex and life stage of reference: close view of reflective blue stripe, natural reflected light not bioluminescence. Accurate natural anatomy, clear subject, natural light, no text, logos, border or collage."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: neon tetra Paracheirodon innesi, small fish with blue iridescent horizontal stripe, silver-white anterior belly and red ONLY on posterior half below stripe, transparent short fins, NOT cardinal tetra. Environment: shaded Amazon forest stream with tea-tinted clear water and submerged leaf litter. Requested scene OVERRIDES sex and life stage of reference: one fish swimming past submerged leaves and a root. Accurate natural anatomy, clear subject, natural light, no text, logos, border or collage."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: neon tetra Paracheirodon innesi, small fish with blue iridescent horizontal stripe, silver-white anterior belly and red ONLY on posterior half below stripe, transparent short fins, NOT cardinal tetra. Environment: shaded Amazon forest stream with tea-tinted clear water and submerged leaf litter. Requested scene OVERRIDES sex and life stage of reference: one fish feeding on tiny planktonic crustacean. Accurate natural anatomy, clear subject, natural light, no text, logos, border or collage."
+    }
+  ],
+  "rejectedCover": null
+}

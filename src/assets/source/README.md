@@ -469,3 +469,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Rainbow Trout image set](./species/rainbow-trout/README.md)
 
 - [zebrafish image set](./species/zebrafish/README.md)
+- [neon-tetra image set](./species/neon-tetra/README.md)
