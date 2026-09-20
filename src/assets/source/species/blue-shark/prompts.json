@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-20",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Prionace glauca, blue shark, slender streamlined blue back white underside, pointed long snout, exceptionally long narrow pointed pectoral fins, natural asymmetric shark tail. Scene: One entire shark gliding diagonally through open deep blue ocean, complete fin tips and tail visible. Cover composition: animal entirely in right half, center at 70% width. Maximize size within x=630..1460 y=180..880 including EVERY fin foot and tail tip. Left 40% quiet habitat for title. Background clearance on all four sides. STRICT REVISED COVER FRAMING: reserve a full empty 45% of image width on the LEFT. Every animal extremity must stay within x=700..1470, y=140..900 in the 1536x1024 image. Move complete animal farther RIGHT. No snout, foot or fin can cross x=700. All toe and fin and tail tips must have real background margin. Still make animal as prominent as possible within this rectangle. Single animal only."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Prionace glauca, blue shark, slender streamlined blue back white underside, pointed long snout, exceptionally long narrow pointed pectoral fins, natural asymmetric shark tail. Scene: Three-quarter view emphasizing both long slender pectoral fins, correct natural anatomy. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Prionace glauca, blue shark, slender streamlined blue back white underside, pointed long snout, exceptionally long narrow pointed pectoral fins, natural asymmetric shark tail. Scene: Side profile of entire blue shark, deep blue back grading to pale belly. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Prionace glauca, blue shark, slender streamlined blue back white underside, pointed long snout, exceptionally long narrow pointed pectoral fins, natural asymmetric shark tail. Scene: Close oblique head portrait with pointed snout and round dark eye, natural closed mouth. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Prionace glauca, blue shark, slender streamlined blue back white underside, pointed long snout, exceptionally long narrow pointed pectoral fins, natural asymmetric shark tail. Scene: Entire shark swimming beneath sunlit ocean surface viewed slightly from below. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Prionace glauca, blue shark, slender streamlined blue back white underside, pointed long snout, exceptionally long narrow pointed pectoral fins, natural asymmetric shark tail. Scene: Entire shark banking naturally in pelagic blue water, graceful curved body and intact tail. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    }
+  ]
+}

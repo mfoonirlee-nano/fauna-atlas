@@ -2930,5 +2930,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1504,
       "bottom": 795
     }
+  },
+  "blue-shark": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 689,
+      "top": 205,
+      "right": 1502,
+      "bottom": 721
+    }
   }
 };

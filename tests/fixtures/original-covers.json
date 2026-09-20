@@ -1545,5 +1545,18 @@
       },
       "sha256": "b81b4d951c49f0c7fd4a0cb6d9b874bc00de7f618001aaca689afb30af00eb7b"
     }
+  },
+  "blue-shark": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 689,
+        "top": 205,
+        "right": 1502,
+        "bottom": 721
+      },
+      "sha256": "2e08143d651a781dd8d13884a7d9ac010fdecf5c18b7acbb7f9128ce25f96dc0"
+    }
   }
 }
