@@ -2920,5 +2920,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1506,
       "bottom": 757
     }
+  },
+  "zebra-shark": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 84,
+      "right": 1504,
+      "bottom": 795
+    }
   }
 };

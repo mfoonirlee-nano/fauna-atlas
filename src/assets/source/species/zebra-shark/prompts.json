@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-20",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Stegostoma tigrinum, zebra shark, adult tan yellowish body with small dark spots, longitudinal ridges, broad blunt head, very long tapering upper tail lobe about half total length, bottom dwelling carpet shark. Scene: One entire adult resting diagonally on tropical sandy seabed, entire long tail and all fins visible. Cover composition: animal entirely in right half, center at 70% width. Maximize size within x=630..1460 y=180..880 including EVERY fin foot and tail tip. Left 40% quiet habitat for title. Background clearance on all four sides."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Stegostoma tigrinum, zebra shark, adult tan yellowish body with small dark spots, longitudinal ridges, broad blunt head, very long tapering upper tail lobe about half total length, bottom dwelling carpet shark. Scene: One juvenile zebra shark, dark brown body with strong cream transverse bands, NOT adult spots, complete elongated tail visible, alone on sand. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Stegostoma tigrinum, zebra shark, adult tan yellowish body with small dark spots, longitudinal ridges, broad blunt head, very long tapering upper tail lobe about half total length, bottom dwelling carpet shark. Scene: One adult side profile with dark round spots on pale tan skin, entire tail inside frame. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Stegostoma tigrinum, zebra shark, adult tan yellowish body with small dark spots, longitudinal ridges, broad blunt head, very long tapering upper tail lobe about half total length, bottom dwelling carpet shark. Scene: Close view of broad adult head with small mouth and nasal barbels resting on sand. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Stegostoma tigrinum, zebra shark, adult tan yellowish body with small dark spots, longitudinal ridges, broad blunt head, very long tapering upper tail lobe about half total length, bottom dwelling carpet shark. Scene: Whole adult slowly swimming above reef-adjacent sandy bottom with long tail curving naturally. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural. Create ONE 1536x1024 landscape natural history editorial photograph-style scientific reconstruction for Fauna Atlas. Anatomically accurate animal, believable natural habitat, gentle natural underwater light, realistic textures and restrained colors. No text, labels, borders, collage, watermark or people. Stegostoma tigrinum, zebra shark, adult tan yellowish body with small dark spots, longitudinal ridges, broad blunt head, very long tapering upper tail lobe about half total length, bottom dwelling carpet shark. Scene: Close lateral view of adult dorsal longitudinal ridges and spotted skin, coherent anatomy. Gallery composition: clear main subject filling frame comfortably, natural background. "
+    }
+  ]
+}

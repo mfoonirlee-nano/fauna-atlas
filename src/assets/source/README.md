@@ -464,3 +464,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [African Clawed Frog image set](./species/african-clawed-frog/README.md)
 - [Basking Shark image set](./species/basking-shark/README.md)
+- [Zebra Shark image set](./species/zebra-shark/README.md)

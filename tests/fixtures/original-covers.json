@@ -1532,5 +1532,18 @@
       },
       "sha256": "4e1c37c8d157e3ff8776aa06a52a3ded51f74d9fc87927374bdb4c777a0e3ebf"
     }
+  },
+  "zebra-shark": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 84,
+        "right": 1504,
+        "bottom": 795
+      },
+      "sha256": "b81b4d951c49f0c7fd4a0cb6d9b874bc00de7f618001aaca689afb30af00eb7b"
+    }
   }
 }
