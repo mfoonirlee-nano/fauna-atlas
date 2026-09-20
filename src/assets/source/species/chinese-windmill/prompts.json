@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: photorealistic-natural. NEW landscape 1536x1024 editorial wildlife cover. male Chinese windmill butterfly Byasa alcinous, black elongated forewings and hindwings with long narrow tails and red marginal hindwing spots, red sides to abdomen, accurate six legs two clubbed antennae. Setting: East Asian woodland edge with flowers and soft green foliage. Show a single complete animal on far RIGHT. STRICT: left HALF of image x=0..767 must contain ONLY blurred quiet habitat, absolutely no animal part. Entire animal silhouette from leftmost nose/horn/wingtip to rightmost tail/foot must fit x=780..1460, y=160..850. Fill that rectangle as much as anatomy permits. All fins legs antennae horns wing-tails intact with real margins. Compose right side subject, not centered. Natural light, no text, no borders, no collage."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: male Chinese windmill butterfly Byasa alcinous, black elongated forewings and hindwings with long narrow tails and red marginal hindwing spots, red sides to abdomen, accurate six legs two clubbed antennae. Environment: East Asian woodland edge with flowers and soft green foliage. Scene: full butterfly open wings showing long hindwing tails. Scientific realistic anatomy, clear subject, natural light, no text, logos, border or collage."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: male Chinese windmill butterfly Byasa alcinous, black elongated forewings and hindwings with long narrow tails and red marginal hindwing spots, red sides to abdomen, accurate six legs two clubbed antennae. Environment: East Asian woodland edge with flowers and soft green foliage. Requested scene OVERRIDES sex and life stage of reference: butterfly side view taking nectar with extended proboscis on flower. Accurate natural anatomy, clear subject, natural light, no text, logos, border or collage."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: male Chinese windmill butterfly Byasa alcinous, black elongated forewings and hindwings with long narrow tails and red marginal hindwing spots, red sides to abdomen, accurate six legs two clubbed antennae. Environment: East Asian woodland edge with flowers and soft green foliage. Requested scene OVERRIDES sex and life stage of reference: black spiny fleshy caterpillar with orange-red tubercles on Aristolochia leaf, no adult butterfly. Accurate natural anatomy, clear subject, natural light, no text, logos, border or collage."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: male Chinese windmill butterfly Byasa alcinous, black elongated forewings and hindwings with long narrow tails and red marginal hindwing spots, red sides to abdomen, accurate six legs two clubbed antennae. Environment: East Asian woodland edge with flowers and soft green foliage. Requested scene OVERRIDES sex and life stage of reference: female butterfly perched on leaf, brownish dark wings red hindwing spots and long tails. Accurate natural anatomy, clear subject, natural light, no text, logos, border or collage."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history photograph. Species reference: male Chinese windmill butterfly Byasa alcinous, black elongated forewings and hindwings with long narrow tails and red marginal hindwing spots, red sides to abdomen, accurate six legs two clubbed antennae. Environment: East Asian woodland edge with flowers and soft green foliage. Requested scene OVERRIDES sex and life stage of reference: adult butterfly resting on woodland leaf, full body side view. Accurate natural anatomy, clear subject, natural light, no text, logos, border or collage."
+    }
+  ],
+  "rejectedCover": {
+    "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 natural-history editorial photograph for Fauna Atlas cover. Subject: male Chinese windmill butterfly Byasa alcinous, black elongated forewings and hindwings with long narrow tails and red marginal hindwing spots, red sides to abdomen, accurate six legs two clubbed antennae. Environment: East Asian woodland edge with flowers and soft green foliage. One complete adult, full body side or three-quarter view, all appendages visible with background margin. Place entire animal within x=650..1450, y=160..880, largest possible size within this box. Center right at 70% width, left 40% quiet background for text. No text, watermark, frame, collage, aquarium glass, oversaturation or extra animals.",
+    "reason": "完整主体侵入左侧 40% 文字区"
+  }
+}

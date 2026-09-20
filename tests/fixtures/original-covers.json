@@ -1610,5 +1610,18 @@
       },
       "sha256": "759818f6f9219a4e1d3fb0a53a7de20a6c46943b6327b8b4a6ed94b5055104c1"
     }
+  },
+  "chinese-windmill": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 744,
+        "top": 45,
+        "right": 1449,
+        "bottom": 924
+      },
+      "sha256": "c202eb3b49bf61e484b2959fbc4475d6a9e4166522c3dbb79cebb2838138bdad"
+    }
   }
 }

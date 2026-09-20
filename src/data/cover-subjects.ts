@@ -2980,5 +2980,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1517,
       "bottom": 629
     }
+  },
+  "chinese-windmill": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 744,
+      "top": 45,
+      "right": 1449,
+      "bottom": 924
+    }
   }
 };
