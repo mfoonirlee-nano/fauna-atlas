@@ -1558,5 +1558,18 @@
       },
       "sha256": "2e08143d651a781dd8d13884a7d9ac010fdecf5c18b7acbb7f9128ce25f96dc0"
     }
+  },
+  "rainbow-trout": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 330,
+        "right": 1477,
+        "bottom": 646
+      },
+      "sha256": "a6dffae688e4ce19c52c38d80c4d360e235b485eec12ab42cb1ff8063d7a281e"
+    }
   }
 }

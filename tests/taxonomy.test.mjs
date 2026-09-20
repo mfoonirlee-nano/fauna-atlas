@@ -24302,7 +24302,7 @@ test('five new toddler profiles keep sourced identities and separate regional co
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 294);
+  assert.equal(species.length, 295);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24473,7 +24473,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 294);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 295);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24494,7 +24494,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 229);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 230);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 89);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 35);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 2);
@@ -24516,7 +24516,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 17);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 18);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -26116,6 +26116,7 @@ test('clawed-frog-to-trout profiles retain taxonomy, life stages and six accepte
     ['basking-shark', 'Cetorhinus maximus', 'Lamniformes', 'Cetorhinidae', 'Cetorhinus', 'EN'],
     ['zebra-shark', 'Stegostoma tigrinum', 'Orectolobiformes', 'Stegostomatidae', 'Stegostoma', 'EN'],
     ['blue-shark', 'Prionace glauca', 'Carcharhiniformes', 'Carcharhinidae', 'Prionace', 'NT'],
+    ['rainbow-trout', 'Oncorhynchus mykiss', 'Salmoniformes', 'Salmonidae', 'Oncorhynchus', 'LC'],
   ];
   const tree = buildTaxonomyTree(species);
   for (const [slug, name, order, family, genus, status] of cases) {
@@ -26135,4 +26136,8 @@ test('clawed-frog-to-trout profiles retain taxonomy, life stages and six accepte
   const zebraGallery = findSpecies('zebra-shark').media.gallery;
   assert.match(zebraGallery[0].title, /幼体.*条纹/);
   assert.match(zebraGallery[1].title, /成体.*斑点/);
+  const trout = findSpecies('rainbow-trout');
+  assert.match(trout.description, /钢头鳟/);
+  assert.deepEqual(trout.distribution.realms, ['freshwater', 'marine']);
+  assert.equal(trout.conservation.assessedYear, 2020);
 });

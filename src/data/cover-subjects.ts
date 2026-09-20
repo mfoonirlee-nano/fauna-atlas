@@ -2940,5 +2940,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1502,
       "bottom": 721
     }
+  },
+  "rainbow-trout": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 330,
+      "right": 1477,
+      "bottom": 646
+    }
   }
 };
