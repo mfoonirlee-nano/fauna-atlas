@@ -2900,5 +2900,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1443,
       "bottom": 853
     }
+  },
+  "african-clawed-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 686,
+      "top": 243,
+      "right": 1507,
+      "bottom": 831
+    }
   }
 };

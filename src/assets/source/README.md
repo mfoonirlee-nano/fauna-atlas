@@ -461,3 +461,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [European Tree Frog image set](./species/european-tree-frog/README.md)
 - [Strawberry Poison Frog image set](./species/strawberry-poison-frog/README.md)
 - [Dyeing Poison Frog image set](./species/dyeing-poison-frog/README.md)
+
+- [African Clawed Frog image set](./species/african-clawed-frog/README.md)

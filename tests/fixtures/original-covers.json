@@ -1506,5 +1506,18 @@
       },
       "sha256": "b98c62eaeec3d909cd93a987184f100fe1ef9dd89f3ff721fa1dd1efc092679c"
     }
+  },
+  "african-clawed-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 686,
+        "top": 243,
+        "right": 1507,
+        "bottom": 831
+      },
+      "sha256": "bab49cbd57245ccbd61b7a3781a654380f3d82c84a2a1b46c3d7740c16e86217"
+    }
   }
 }
