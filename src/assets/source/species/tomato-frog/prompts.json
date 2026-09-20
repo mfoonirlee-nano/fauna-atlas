@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-20",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife atlas cover. Single female tomato frog (Dyscophus antongilii) in Madagascar moist leaf litter. Diagnostic anatomy: red orange rounded body, cream underside, no prominent black lateral stripe, short limbs. Complete visible silhouette within x=650..1460 y=130..900, as large as fits this rectangle, center right at 70 percent width; all visible appendages intact with background clearance. Left 40 percent quiet background for title. Natural detailed wildlife photographic style. No text, logos, collage, extra animals, anatomical invention. For burrowing eel, show complete above-sand portion with natural buried rear body, do not expose tail."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species female tomato frog (Dyscophus antongilii); habitat Madagascar moist leaf litter; diagnostic features red orange rounded body, cream underside, no prominent black lateral stripe, short limbs. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Front three-quarter view of round red-orange adult female resting on damp Madagascar leaf litter. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species female tomato frog (Dyscophus antongilii); habitat Madagascar moist leaf litter; diagnostic features red orange rounded body, cream underside, no prominent black lateral stripe, short limbs. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Orange-yellow adult male tomato frog alone beside leaf on forest floor, smaller-bodied male, no comparison ruler. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species female tomato frog (Dyscophus antongilii); habitat Madagascar moist leaf litter; diagnostic features red orange rounded body, cream underside, no prominent black lateral stripe, short limbs. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Red adult female partially buried in loose damp soil, eyes and upper back visible. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species female tomato frog (Dyscophus antongilii); habitat Madagascar moist leaf litter; diagnostic features red orange rounded body, cream underside, no prominent black lateral stripe, short limbs. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Red adult female sitting motionless at night with small insect nearby, no protruding tongue. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species female tomato frog (Dyscophus antongilii); habitat Madagascar moist leaf litter; diagnostic features red orange rounded body, cream underside, no prominent black lateral stripe, short limbs. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Natural breeding rain puddle with a small group of dark frog tadpoles underwater, no legs, educational close view. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    }
+  ]
+}

@@ -1636,5 +1636,135 @@
       },
       "sha256": "9dbcad35b55c1bb7410944dce1035fb723d75314e6efef670060937fdf9b5d35"
     }
+  },
+  "giant-anteater": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 345,
+        "right": 1510,
+        "bottom": 745
+      },
+      "sha256": "b5eb11b2bd99c16d59a962892ae9c9d5aa6ceea59bc9afdd59f17c5c85d6d4f8"
+    }
+  },
+  "maned-wolf": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 30,
+        "right": 1420,
+        "bottom": 950
+      },
+      "sha256": "7141cd3c6b7027ed0853286c0e539c7565b7738d3b54d42d5a67ea47eddde28c"
+    }
+  },
+  "secretary-bird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 868,
+        "top": 78,
+        "right": 1490,
+        "bottom": 920
+      },
+      "sha256": "574e6ddb994774a97a796b1d12a4e3604e0dc40fe8706aa501722aa0aecad5fb"
+    }
+  },
+  "eurasian-spoonbill": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 758,
+        "top": 74,
+        "right": 1408,
+        "bottom": 900
+      },
+      "sha256": "8d1d3ecccf49d644b4d996d9d95ad25ac0b2a9f48581fd417aa58c4a7ab5dff6"
+    }
+  },
+  "pig-nosed-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 720,
+        "top": 330,
+        "right": 1456,
+        "bottom": 648
+      },
+      "sha256": "f217365d0a43a305dfe97e2fce0f3c0f442b5923a5c94d7156d7b2887e0ece6a"
+    }
+  },
+  "tomato-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 220,
+        "right": 1495,
+        "bottom": 865
+      },
+      "sha256": "ed79a55d8272d75c46a7b4d077d45a8ee4daa701aeff9734b1c3bf674b0a533b"
+    }
+  },
+  "spotted-garden-eel": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 810,
+        "top": 98,
+        "right": 1205,
+        "bottom": 825
+      },
+      "sha256": "2b66b72ca7a9da58b47585b58bf1292f117ce0b5578ff2c6820cf316e8c07571"
+    }
+  },
+  "indian-stick-insect": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 930,
+        "top": 35,
+        "right": 1380,
+        "bottom": 875
+      },
+      "sha256": "8058f376892f530ee4dc746a2bec7ea0026e35a2c7877fadba49c0aeb41b9f85"
+    }
+  },
+  "california-sea-hare": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 240,
+        "right": 1490,
+        "bottom": 705
+      },
+      "sha256": "47dd04d8f47ccfe369c7f191f5ed78e92214623f24376fa9dc75210345d606a8"
+    }
+  },
+  "great-scallop": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 265,
+        "right": 1425,
+        "bottom": 690
+      },
+      "sha256": "ac76a99d41b576269f74fc91362621a00e593638825a0585dcfb44615de0e0b0"
+    }
   }
 }

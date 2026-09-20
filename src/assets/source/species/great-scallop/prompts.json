@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-20",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Photorealistic scientifically accurate wildlife atlas cover, landscape 1536x1024. one living great scallop Pecten maximus resting naturally on sandy gravel seabed. Upper left valve reddish brown and mostly FLAT, lower right valve cream strongly convex, slightly open rim with tiny blue eyes and SHORT delicate mantle tentacles, equal hinge ears, broad radial ribs. Whole shell and all tentacles within x=780..1420 y=270..830. Quiet blue underwater sand fills left half. Not a high domed upper shell, not a vertical standing shell. Complete animal plus real background margin on all sides. No text, rulers, borders, collage, logos. Subject in right half only."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species great scallop (Pecten maximus); habitat northeast Atlantic sandy gravel seabed underwater; diagnostic features living fan shaped bivalve, reddish brown flat upper valve with broad radial ribs, convex pale lower valve, equal hinge ears, mantle small blue eyes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Live scallop partly open on gravel; flat reddish upper valve above pale convex lower valve, fan shaped radial ribs. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species great scallop (Pecten maximus); habitat northeast Atlantic sandy gravel seabed underwater; diagnostic features living fan shaped bivalve, reddish brown flat upper valve with broad radial ribs, convex pale lower valve, equal hinge ears, mantle small blue eyes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Macro edge of live scallop mantle with row of tiny blue eyes and fine tentacles between valves. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species great scallop (Pecten maximus); habitat northeast Atlantic sandy gravel seabed underwater; diagnostic features living fan shaped bivalve, reddish brown flat upper valve with broad radial ribs, convex pale lower valve, equal hinge ears, mantle small blue eyes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Live scallop partly recessed in shallow sandy depression, reddish flat upper valve exposed. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species great scallop (Pecten maximus); habitat northeast Atlantic sandy gravel seabed underwater; diagnostic features living fan shaped bivalve, reddish brown flat upper valve with broad radial ribs, convex pale lower valve, equal hinge ears, mantle small blue eyes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Single scallop swimming just above sandy seabed, valves partly open, subtle sand disturbance, no cartoon jet. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species great scallop (Pecten maximus); habitat northeast Atlantic sandy gravel seabed underwater; diagnostic features living fan shaped bivalve, reddish brown flat upper valve with broad radial ribs, convex pale lower valve, equal hinge ears, mantle small blue eyes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Top view fan shaped reddish upper shell, broad radiating ribs and equal hinge ears, a few small natural pebbles for context. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    }
+  ]
+}

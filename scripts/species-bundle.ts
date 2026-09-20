@@ -49,7 +49,8 @@ export function speciesBundle(): Plugin {
         const loaders = species.map(({ slug }) =>
           `${JSON.stringify(slug)}:()=>import(${JSON.stringify(profilePrefix + slug)})`,
         ).join(',');
-        return `const taxa=${JSON.stringify(taxa)};
+        // Encode shared taxa as pairs so field names are emitted only once.
+        return `const taxa=${JSON.stringify(taxa.map(({ scientificName, zhName }) => [scientificName, zhName]))}.map(([scientificName,zhName])=>({scientificName,zhName}));
           const ranks=${JSON.stringify(taxonomyRanks)};
           export const species=${JSON.stringify(catalogue)}.map(({n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,scientificName:n,summary:s,
             conservation:{code:c},distribution:d,media:{...m,image:m.image&&!m.image.includes('/')?'./images/species/'+item.slug+'/'+m.image+'.webp':m.image},habitats:h.map(name=>({name})),tags:g,

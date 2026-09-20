@@ -3000,5 +3000,105 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1505,
       "bottom": 805
     }
+  },
+  "giant-anteater": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 345,
+      "right": 1510,
+      "bottom": 745
+    }
+  },
+  "maned-wolf": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 30,
+      "right": 1420,
+      "bottom": 950
+    }
+  },
+  "secretary-bird": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 868,
+      "top": 78,
+      "right": 1490,
+      "bottom": 920
+    }
+  },
+  "eurasian-spoonbill": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 758,
+      "top": 74,
+      "right": 1408,
+      "bottom": 900
+    }
+  },
+  "pig-nosed-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 720,
+      "top": 330,
+      "right": 1456,
+      "bottom": 648
+    }
+  },
+  "tomato-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 220,
+      "right": 1495,
+      "bottom": 865
+    }
+  },
+  "spotted-garden-eel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 810,
+      "top": 98,
+      "right": 1205,
+      "bottom": 825
+    }
+  },
+  "indian-stick-insect": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 930,
+      "top": 35,
+      "right": 1380,
+      "bottom": 875
+    }
+  },
+  "california-sea-hare": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 240,
+      "right": 1490,
+      "bottom": 705
+    }
+  },
+  "great-scallop": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 265,
+      "right": 1425,
+      "bottom": 690
+    }
   }
 };

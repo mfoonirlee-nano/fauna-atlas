@@ -90418,6 +90418,2393 @@ export const species = [
   "publishedAt": "2026-09-20",
   "updatedAt": "2026-09-20"
 },
+{
+  "id": "giant-anteater",
+  "slug": "giant-anteater",
+  "names": {
+    "zh": "大食蚁兽",
+    "en": "Giant Anteater"
+  },
+  "scientificName": "Myrmecophaga tridactyla",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Pilosa",
+      "zhName": "披毛目"
+    },
+    "family": {
+      "scientificName": "Myrmecophagidae",
+      "zhName": "食蚁兽科"
+    },
+    "genus": {
+      "scientificName": "Myrmecophaga",
+      "zhName": "大食蚁兽属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "VU",
+    "label": {
+      "zh": "易危",
+      "en": "Vulnerable"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲",
+      "南美洲"
+    ],
+    "regions": [
+      "中美洲与南美洲的草原、湿地和热带森林"
+    ],
+    "countries": [
+      "巴西",
+      "玻利维亚",
+      "巴拉圭"
+    ],
+    "range": "中美洲与南美洲的草原、湿地和热带森林。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "中美洲与南美洲的草原、湿地和热带森林",
+      "realm": "terrestrial",
+      "description": "中美洲与南美洲的草原、湿地和热带森林。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "蚂蚁",
+      "白蚁"
+    ],
+    "description": "主要取食蚂蚁、白蚁。"
+  },
+  "tags": [
+    "大食蚁兽",
+    "长嘴里的细舌头"
+  ],
+  "summary": "看看它从长嘴里伸出的细舌头。",
+  "description": "大食蚁兽没有牙齿，会把带黏液的长舌头伸进蚁巢，粘住蚂蚁和白蚁。它生活在中美洲与南美洲的草原、湿地和热带森林。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "长嘴里的细舌头",
+      "body": "大食蚁兽没有牙齿，会把带黏液的长舌头伸进蚁巢，粘住蚂蚁和白蚁。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "收起前爪走路",
+      "body": "它把锋利的前爪收向掌心，用前足的指关节着地行走。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "毛茸茸的大尾巴",
+      "body": "休息时，它可以把蓬松的尾巴盖在身上。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "妈妈背着幼兽",
+      "body": "幼兽出生后会爬上妈妈的背，跟着妈妈一起移动。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "低头闻一闻",
+      "body": "它的嗅觉灵敏，会低头寻找蚁巢。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留草原与森林之间的通道，减少道路碰撞和人为火灾。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "大食蚁兽没有牙齿，会把带黏液的长舌头伸进蚁巢，粘住蚂蚁和白蚁。",
+    "它把锋利的前爪收向掌心，用前足的指关节着地行走。",
+    "休息时，它可以把蓬松的尾巴盖在身上。",
+    "幼兽出生后会爬上妈妈的背，跟着妈妈一起移动。",
+    "它的嗅觉灵敏，会低头寻找蚁巢。"
+  ],
+  "threats": [
+    "栖息地减少",
+    "道路碰撞",
+    "野火"
+  ],
+  "conservationActions": [
+    "保留草原与森林之间的通道，减少道路碰撞和人为火灾。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "长嘴里的细舌头"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "中美洲与南美洲的草原、湿地和热带森林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/giant-anteater/01-cover.webp",
+    "alt": "大食蚁兽在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/giant-anteater/02-observation.webp",
+        "title": "长嘴里的细舌头",
+        "alt": "大食蚁兽：长嘴里的细舌头",
+        "caption": "AI 生成科学情景重建。大食蚁兽没有牙齿，会把带黏液的长舌头伸进蚁巢，粘住蚂蚁和白蚁。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-anteater/03-observation.webp",
+        "title": "收起前爪走路",
+        "alt": "大食蚁兽：收起前爪走路",
+        "caption": "AI 生成科学情景重建。它把锋利的前爪收向掌心，用前足的指关节着地行走。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-anteater/04-observation.webp",
+        "title": "毛茸茸的大尾巴",
+        "alt": "大食蚁兽：毛茸茸的大尾巴",
+        "caption": "AI 生成科学情景重建。休息时，它可以把蓬松的尾巴盖在身上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-anteater/05-observation.webp",
+        "title": "妈妈背着幼兽",
+        "alt": "大食蚁兽：妈妈背着幼兽",
+        "caption": "AI 生成科学情景重建。幼兽出生后会爬上妈妈的背，跟着妈妈一起移动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-anteater/06-observation.webp",
+        "title": "低头闻一闻",
+        "alt": "大食蚁兽：低头闻一闻",
+        "caption": "AI 生成科学情景重建。它的嗅觉灵敏，会低头寻找蚁巢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "史密森国家动物园：自然史",
+      "url": "https://nationalzoo.si.edu/animals/giant-anteater",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "IUCN 食蚁兽专家组：易危状态",
+      "url": "https://xenarthrans.org/species/anteaters/anteaters-giant-anteater/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "MDD：接受学名与分类",
+      "url": "https://www.mammaldiversity.org/taxon/1000442/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "maned-wolf",
+  "slug": "maned-wolf",
+  "names": {
+    "zh": "鬃狼",
+    "en": "Maned Wolf"
+  },
+  "scientificName": "Chrysocyon brachyurus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Canidae",
+      "zhName": "犬科"
+    },
+    "genus": {
+      "scientificName": "Chrysocyon",
+      "zhName": "鬃狼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NT",
+    "label": {
+      "zh": "近危",
+      "en": "Near Threatened"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "南美洲"
+    ],
+    "regions": [
+      "南美洲中东部的塞拉多草原与灌丛"
+    ],
+    "countries": [
+      "巴西",
+      "玻利维亚",
+      "巴拉圭",
+      "阿根廷"
+    ],
+    "range": "南美洲中东部的塞拉多草原与灌丛。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "南美洲中东部的塞拉多草原与灌丛",
+      "realm": "terrestrial",
+      "description": "南美洲中东部的塞拉多草原与灌丛。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "果实",
+      "小型哺乳动物",
+      "昆虫"
+    ],
+    "description": "主要取食果实、小型哺乳动物、昆虫。"
+  },
+  "tags": [
+    "鬃狼",
+    "高草里的长腿"
+  ],
+  "summary": "找找草丛上方的身体和下面的长腿。",
+  "description": "鬃狼用长腿穿过高草，也能把头抬到草丛上方观察周围。它生活在南美洲中东部的塞拉多草原与灌丛。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "高草里的长腿",
+      "body": "鬃狼用长腿穿过高草，也能把头抬到草丛上方观察周围。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "转动大耳朵",
+      "body": "它会转动竖起的大耳朵，听草丛里小动物的动静。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "也会吃果子",
+      "body": "鬃狼吃小动物，也吃果实，包括当地称为狼果的植物果实。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "黄昏出来走走",
+      "body": "它常在黄昏和夜间活动，通常独自寻找食物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "脖子后的黑鬃毛",
+      "body": "红褐色身体上有一片深色鬃毛，喉部和尾端则有白毛。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护塞拉多原生植被，让道路为野生动物保留通行空间。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "鬃狼用长腿穿过高草，也能把头抬到草丛上方观察周围。",
+    "它会转动竖起的大耳朵，听草丛里小动物的动静。",
+    "鬃狼吃小动物，也吃果实，包括当地称为狼果的植物果实。",
+    "它常在黄昏和夜间活动，通常独自寻找食物。",
+    "红褐色身体上有一片深色鬃毛，喉部和尾端则有白毛。"
+  ],
+  "threats": [
+    "草原转为农地",
+    "道路碰撞",
+    "家犬传播疾病"
+  ],
+  "conservationActions": [
+    "保护塞拉多原生植被，让道路为野生动物保留通行空间。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "高草里的长腿"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "南美洲中东部的塞拉多草原与灌丛"
+    }
+  ],
+  "media": {
+    "image": "./images/species/maned-wolf/01-cover.webp",
+    "alt": "鬃狼在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/maned-wolf/02-observation.webp",
+        "title": "高草里的长腿",
+        "alt": "鬃狼：高草里的长腿",
+        "caption": "AI 生成科学情景重建。鬃狼用长腿穿过高草，也能把头抬到草丛上方观察周围。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/maned-wolf/03-observation.webp",
+        "title": "转动大耳朵",
+        "alt": "鬃狼：转动大耳朵",
+        "caption": "AI 生成科学情景重建。它会转动竖起的大耳朵，听草丛里小动物的动静。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/maned-wolf/04-observation.webp",
+        "title": "也会吃果子",
+        "alt": "鬃狼：也会吃果子",
+        "caption": "AI 生成科学情景重建。鬃狼吃小动物，也吃果实，包括当地称为狼果的植物果实。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/maned-wolf/05-observation.webp",
+        "title": "黄昏出来走走",
+        "alt": "鬃狼：黄昏出来走走",
+        "caption": "AI 生成科学情景重建。它常在黄昏和夜间活动，通常独自寻找食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/maned-wolf/06-observation.webp",
+        "title": "脖子后的黑鬃毛",
+        "alt": "鬃狼：脖子后的黑鬃毛",
+        "caption": "AI 生成科学情景重建。红褐色身体上有一片深色鬃毛，喉部和尾端则有白毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "史密森国家动物园：自然史与近危状态",
+      "url": "https://nationalzoo.si.edu/animals/maned-wolf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "secretary-bird",
+  "slug": "secretary-bird",
+  "names": {
+    "zh": "蛇鹫",
+    "en": "Secretarybird"
+  },
+  "scientificName": "Sagittarius serpentarius",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Accipitriformes",
+      "zhName": "鹰形目"
+    },
+    "family": {
+      "scientificName": "Sagittariidae",
+      "zhName": "蛇鹫科"
+    },
+    "genus": {
+      "scientificName": "Sagittarius",
+      "zhName": "蛇鹫属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "撒哈拉以南非洲的开阔草原"
+    ],
+    "countries": [
+      "肯尼亚",
+      "坦桑尼亚",
+      "南非"
+    ],
+    "range": "撒哈拉以南非洲的开阔草原。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "撒哈拉以南非洲的开阔草原",
+      "realm": "terrestrial",
+      "description": "撒哈拉以南非洲的开阔草原。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "小型哺乳动物",
+      "爬行动物"
+    ],
+    "description": "主要取食昆虫、小型哺乳动物、爬行动物。"
+  },
+  "tags": [
+    "蛇鹫",
+    "迈开长腿"
+  ],
+  "summary": "看看这只鸟怎样迈着长腿走过草地。",
+  "description": "蛇鹫常在地面步行寻找食物，长腿把身体抬得很高。它生活在撒哈拉以南非洲的开阔草原。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "迈开长腿",
+      "body": "蛇鹫常在地面步行寻找食物，长腿把身体抬得很高。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "头后的黑羽毛",
+      "body": "它的后脑长着一簇细长的黑色羽毛，脸部有橙色裸露皮肤。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "长腿也能飞",
+      "body": "蛇鹫能够飞翔，飞行时长腿向后伸。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "树上的枝条巢",
+      "body": "一对蛇鹫会在树上用枝条筑巢，也会在树上过夜。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "低头找食物",
+      "body": "它沿草地寻找昆虫和小型脊椎动物，食物并不限于蛇。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留开阔草原和筑巢树木，远离正在育雏的鸟巢。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "蛇鹫常在地面步行寻找食物，长腿把身体抬得很高。",
+    "它的后脑长着一簇细长的黑色羽毛，脸部有橙色裸露皮肤。",
+    "蛇鹫能够飞翔，飞行时长腿向后伸。",
+    "一对蛇鹫会在树上用枝条筑巢，也会在树上过夜。",
+    "它沿草地寻找昆虫和小型脊椎动物，食物并不限于蛇。"
+  ],
+  "threats": [
+    "草原栖息地退化",
+    "人为干扰"
+  ],
+  "conservationActions": [
+    "保留开阔草原和筑巢树木，远离正在育雏的鸟巢。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "迈开长腿"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "撒哈拉以南非洲的开阔草原"
+    }
+  ],
+  "media": {
+    "image": "./images/species/secretary-bird/01-cover.webp",
+    "alt": "蛇鹫在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/secretary-bird/02-observation.webp",
+        "title": "迈开长腿",
+        "alt": "蛇鹫：迈开长腿",
+        "caption": "AI 生成科学情景重建。蛇鹫常在地面步行寻找食物，长腿把身体抬得很高。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/secretary-bird/03-observation.webp",
+        "title": "头后的黑羽毛",
+        "alt": "蛇鹫：头后的黑羽毛",
+        "caption": "AI 生成科学情景重建。它的后脑长着一簇细长的黑色羽毛，脸部有橙色裸露皮肤。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/secretary-bird/04-observation.webp",
+        "title": "长腿也能飞",
+        "alt": "蛇鹫：长腿也能飞",
+        "caption": "AI 生成科学情景重建。蛇鹫能够飞翔，飞行时长腿向后伸。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/secretary-bird/05-observation.webp",
+        "title": "树上的枝条巢",
+        "alt": "蛇鹫：树上的枝条巢",
+        "caption": "AI 生成科学情景重建。一对蛇鹫会在树上用枝条筑巢，也会在树上过夜。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/secretary-bird/06-observation.webp",
+        "title": "低头找食物",
+        "alt": "蛇鹫：低头找食物",
+        "caption": "AI 生成科学情景重建。它沿草地寻找昆虫和小型脊椎动物，食物并不限于蛇。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "圣迭戈动物园：蛇鹫生活史",
+      "url": "https://animals.sandiegozoo.org/animals/secretary-bird",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "BirdLife 南非：全球濒危状态",
+      "url": "https://www.birdlife.org.za/red-data-book/red-list/secretarybird/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "eurasian-spoonbill",
+  "slug": "eurasian-spoonbill",
+  "names": {
+    "zh": "白琵鹭",
+    "en": "Eurasian Spoonbill"
+  },
+  "scientificName": "Platalea leucorodia",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Pelecaniformes",
+      "zhName": "鹈形目"
+    },
+    "family": {
+      "scientificName": "Threskiornithidae",
+      "zhName": "鹮科"
+    },
+    "genus": {
+      "scientificName": "Platalea",
+      "zhName": "琵鹭属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "freshwater",
+      "marine"
+    ],
+    "continents": [
+      "欧洲",
+      "亚洲",
+      "非洲"
+    ],
+    "regions": [
+      "欧亚大陆和非洲的浅水湿地与沿海滩涂"
+    ],
+    "countries": [
+      "中国",
+      "荷兰",
+      "西班牙"
+    ],
+    "range": "欧亚大陆和非洲的浅水湿地与沿海滩涂。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "欧亚大陆和非洲的浅水湿地与沿海滩涂",
+      "realm": "freshwater",
+      "description": "欧亚大陆和非洲的浅水湿地与沿海滩涂。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "小鱼",
+      "甲壳动物",
+      "水生昆虫"
+    ],
+    "description": "主要取食小鱼、甲壳动物、水生昆虫。"
+  },
+  "tags": [
+    "白琵鹭",
+    "嘴尖像小勺"
+  ],
+  "summary": "找找嘴巴末端像小勺一样变宽的地方。",
+  "description": "成年白琵鹭的长嘴大部分是黑色，宽阔的末端常带黄色。它生活在欧亚大陆和非洲的浅水湿地与沿海滩涂。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "嘴尖像小勺",
+      "body": "成年白琵鹭的长嘴大部分是黑色，宽阔的末端常带黄色。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "左右扫着找食物",
+      "body": "它把嘴放进浅水，左右摆动，寻找小鱼和水生无脊椎动物。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "伸着脖子飞",
+      "body": "飞行时，它把脖子向前伸直，长脚向后伸出。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "湿地里一起休息",
+      "body": "白琵鹭会聚在湿地休息，也会成群繁殖。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "繁殖期的冠羽",
+      "body": "繁殖期成鸟头后有较长的白色冠羽，胸前可见淡黄色羽毛。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留浅水湿地与迁徙停歇地，从远处观察休息和筑巢的鸟。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "成年白琵鹭的长嘴大部分是黑色，宽阔的末端常带黄色。",
+    "它把嘴放进浅水，左右摆动，寻找小鱼和水生无脊椎动物。",
+    "飞行时，它把脖子向前伸直，长脚向后伸出。",
+    "白琵鹭会聚在湿地休息，也会成群繁殖。",
+    "繁殖期成鸟头后有较长的白色冠羽，胸前可见淡黄色羽毛。"
+  ],
+  "threats": [
+    "湿地流失",
+    "水体污染",
+    "繁殖地干扰"
+  ],
+  "conservationActions": [
+    "保留浅水湿地与迁徙停歇地，从远处观察休息和筑巢的鸟。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "嘴尖像小勺"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "欧亚大陆和非洲的浅水湿地与沿海滩涂"
+    }
+  ],
+  "media": {
+    "image": "./images/species/eurasian-spoonbill/01-cover.webp",
+    "alt": "白琵鹭在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/eurasian-spoonbill/02-observation.webp",
+        "title": "嘴尖像小勺",
+        "alt": "白琵鹭：嘴尖像小勺",
+        "caption": "AI 生成科学情景重建。成年白琵鹭的长嘴大部分是黑色，宽阔的末端常带黄色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eurasian-spoonbill/03-observation.webp",
+        "title": "左右扫着找食物",
+        "alt": "白琵鹭：左右扫着找食物",
+        "caption": "AI 生成科学情景重建。它把嘴放进浅水，左右摆动，寻找小鱼和水生无脊椎动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eurasian-spoonbill/04-observation.webp",
+        "title": "伸着脖子飞",
+        "alt": "白琵鹭：伸着脖子飞",
+        "caption": "AI 生成科学情景重建。飞行时，它把脖子向前伸直，长脚向后伸出。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eurasian-spoonbill/05-observation.webp",
+        "title": "湿地里一起休息",
+        "alt": "白琵鹭：湿地里一起休息",
+        "caption": "AI 生成科学情景重建。白琵鹭会聚在湿地休息，也会成群繁殖。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eurasian-spoonbill/06-observation.webp",
+        "title": "繁殖期的冠羽",
+        "alt": "白琵鹭：繁殖期的冠羽",
+        "caption": "AI 生成科学情景重建。繁殖期成鸟头后有较长的白色冠羽，胸前可见淡黄色羽毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "英国鸟类学信托：白琵鹭",
+      "url": "https://www.bto.org/learn/about-birds/birdfacts/spoonbill",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "白琵鹭基因组论文：分类与全球无危状态",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12529062/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "pig-nosed-turtle",
+  "slug": "pig-nosed-turtle",
+  "names": {
+    "zh": "猪鼻龟",
+    "en": "Pig-nosed Turtle"
+  },
+  "scientificName": "Carettochelys insculpta",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Testudines",
+      "zhName": "龟鳖目"
+    },
+    "family": {
+      "scientificName": "Carettochelyidae",
+      "zhName": "两爪鳖科"
+    },
+    "genus": {
+      "scientificName": "Carettochelys",
+      "zhName": "两爪鳖属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [
+      "大洋洲"
+    ],
+    "regions": [
+      "新几内亚南部与澳大利亚北部的河流和湖泊"
+    ],
+    "countries": [
+      "印度尼西亚",
+      "巴布亚新几内亚",
+      "澳大利亚"
+    ],
+    "range": "新几内亚南部与澳大利亚北部的河流和湖泊。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "新几内亚南部与澳大利亚北部的河流和湖泊",
+      "realm": "freshwater",
+      "description": "新几内亚南部与澳大利亚北部的河流和湖泊。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "落果",
+      "水生植物",
+      "软体动物",
+      "甲壳动物"
+    ],
+    "description": "主要取食落果、水生植物、软体动物、甲壳动物。"
+  },
+  "tags": [
+    "猪鼻龟",
+    "前肢像小桨"
+  ],
+  "summary": "看看它用像小桨一样的前肢划水。",
+  "description": "猪鼻龟用宽扁的前肢在水中游动，四肢外形与许多淡水龟不同。它生活在新几内亚南部与澳大利亚北部的河流和湖泊。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "前肢像小桨",
+      "body": "猪鼻龟用宽扁的前肢在水中游动，四肢外形与许多淡水龟不同。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "鼻孔探出水面",
+      "body": "它把突出的鼻部伸向水面呼吸，身体可以留在水里。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "背上没有大块角质盾片",
+      "body": "背甲表面覆盖皮肤，呈革质外观，不像海龟那样有明显的大块角质盾片。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "河里的落果",
+      "body": "它会吃落入河中的果实，也取食水生植物和小动物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "雌龟到岸上产卵",
+      "body": "雌龟会离开水面，在沙质河岸挖穴产卵。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护产卵沙岸，减少采卵和对野生个体的捕捉。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "猪鼻龟用宽扁的前肢在水中游动，四肢外形与许多淡水龟不同。",
+    "它把突出的鼻部伸向水面呼吸，身体可以留在水里。",
+    "背甲表面覆盖皮肤，呈革质外观，不像海龟那样有明显的大块角质盾片。",
+    "它会吃落入河中的果实，也取食水生植物和小动物。",
+    "雌龟会离开水面，在沙质河岸挖穴产卵。"
+  ],
+  "threats": [
+    "捕捉与采卵",
+    "河岸栖息地破坏"
+  ],
+  "conservationActions": [
+    "保护产卵沙岸，减少采卵和对野生个体的捕捉。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "前肢像小桨"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "新几内亚南部与澳大利亚北部的河流和湖泊"
+    }
+  ],
+  "media": {
+    "image": "./images/species/pig-nosed-turtle/01-cover.webp",
+    "alt": "猪鼻龟在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/pig-nosed-turtle/02-observation.webp",
+        "title": "前肢像小桨",
+        "alt": "猪鼻龟：前肢像小桨",
+        "caption": "AI 生成科学情景重建。猪鼻龟用宽扁的前肢在水中游动，四肢外形与许多淡水龟不同。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pig-nosed-turtle/03-observation.webp",
+        "title": "鼻孔探出水面",
+        "alt": "猪鼻龟：鼻孔探出水面",
+        "caption": "AI 生成科学情景重建。它把突出的鼻部伸向水面呼吸，身体可以留在水里。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pig-nosed-turtle/04-observation.webp",
+        "title": "背上没有大块角质盾片",
+        "alt": "猪鼻龟：背上没有大块角质盾片",
+        "caption": "AI 生成科学情景重建。背甲表面覆盖皮肤，呈革质外观，不像海龟那样有明显的大块角质盾片。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pig-nosed-turtle/05-observation.webp",
+        "title": "河里的落果",
+        "alt": "猪鼻龟：河里的落果",
+        "caption": "AI 生成科学情景重建。它会吃落入河中的果实，也取食水生植物和小动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pig-nosed-turtle/06-observation.webp",
+        "title": "雌龟到岸上产卵",
+        "alt": "猪鼻龟：雌龟到岸上产卵",
+        "caption": "AI 生成科学情景重建。雌龟会离开水面，在沙质河岸挖穴产卵。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ADW：猪鼻龟分布与生活史",
+      "url": "https://animaldiversity.org/accounts/Carettochelys_insculpta/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "IUCN 龟类专家组 2025 清单：分类与濒危状态",
+      "url": "https://iucn-tftsg.org/wp-content/uploads/crm.10.checklist.atlas_.v10.2025.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "tomato-frog",
+  "slug": "tomato-frog",
+  "names": {
+    "zh": "番茄蛙",
+    "en": "Tomato Frog"
+  },
+  "scientificName": "Dyscophus antongilii",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Amphibia",
+      "zhName": "两栖纲"
+    },
+    "order": {
+      "scientificName": "Anura",
+      "zhName": "无尾目"
+    },
+    "family": {
+      "scientificName": "Microhylidae",
+      "zhName": "姬蛙科"
+    },
+    "genus": {
+      "scientificName": "Dyscophus",
+      "zhName": "番茄蛙属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "freshwater"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "马达加斯加东北部的湿润低地"
+    ],
+    "countries": [
+      "马达加斯加"
+    ],
+    "range": "马达加斯加东北部的湿润低地。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "马达加斯加东北部的湿润低地",
+      "realm": "terrestrial",
+      "description": "马达加斯加东北部的湿润低地。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "昆虫",
+      "其他小型无脊椎动物"
+    ],
+    "description": "主要取食昆虫、其他小型无脊椎动物。"
+  },
+  "tags": [
+    "番茄蛙",
+    "圆圆的红身体"
+  ],
+  "summary": "看看成年雌蛙红红的背和圆圆的身体。",
+  "description": "成年雌蛙通常比雄蛙大，背部呈鲜艳的橙红色到红色。它生活在马达加斯加东北部的湿润低地。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "圆圆的红身体",
+      "body": "成年雌蛙通常比雄蛙大，背部呈鲜艳的橙红色到红色。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "雄蛙颜色不同",
+      "body": "雄蛙通常偏黄橙色。雌雄两张图不是等比例大小比较。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "藏进松软的土里",
+      "body": "番茄蛙会钻入松软的土壤，在潮湿的隐蔽处休息。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "等小虫走近",
+      "body": "它常在夜间活动，等待小型无脊椎动物进入捕食范围。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "水里的蝌蚪",
+      "body": "繁殖离不开水，卵孵化后，蝌蚪先在水中生长，再变态为幼蛙。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留潮湿地面和繁殖水体，观察时不抓握或刺激青蛙。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "成年雌蛙通常比雄蛙大，背部呈鲜艳的橙红色到红色。",
+    "雄蛙通常偏黄橙色。雌雄两张图不是等比例大小比较。",
+    "番茄蛙会钻入松软的土壤，在潮湿的隐蔽处休息。",
+    "它常在夜间活动，等待小型无脊椎动物进入捕食范围。",
+    "繁殖离不开水，卵孵化后，蝌蚪先在水中生长，再变态为幼蛙。"
+  ],
+  "threats": [
+    "湿地和低地栖息地退化",
+    "水体污染"
+  ],
+  "conservationActions": [
+    "保留潮湿地面和繁殖水体，观察时不抓握或刺激青蛙。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "圆圆的红身体"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "马达加斯加东北部的湿润低地"
+    }
+  ],
+  "media": {
+    "image": "./images/species/tomato-frog/01-cover.webp",
+    "alt": "番茄蛙在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/tomato-frog/02-observation.webp",
+        "title": "圆圆的红身体",
+        "alt": "番茄蛙：圆圆的红身体",
+        "caption": "AI 生成科学情景重建。成年雌蛙通常比雄蛙大，背部呈鲜艳的橙红色到红色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/tomato-frog/03-observation.webp",
+        "title": "雄蛙颜色不同",
+        "alt": "番茄蛙：雄蛙颜色不同",
+        "caption": "AI 生成科学情景重建。雄蛙通常偏黄橙色。雌雄两张图不是等比例大小比较。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/tomato-frog/04-observation.webp",
+        "title": "藏进松软的土里",
+        "alt": "番茄蛙：藏进松软的土里",
+        "caption": "AI 生成科学情景重建。番茄蛙会钻入松软的土壤，在潮湿的隐蔽处休息。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/tomato-frog/05-observation.webp",
+        "title": "等小虫走近",
+        "alt": "番茄蛙：等小虫走近",
+        "caption": "AI 生成科学情景重建。它常在夜间活动，等待小型无脊椎动物进入捕食范围。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/tomato-frog/06-observation.webp",
+        "title": "水里的蝌蚪",
+        "alt": "番茄蛙：水里的蝌蚪",
+        "caption": "AI 生成科学情景重建。繁殖离不开水，卵孵化后，蝌蚪先在水中生长，再变态为幼蛙。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ADW：番茄蛙形态与繁殖",
+      "url": "https://animaldiversity.org/accounts/Dyscophus_antongilii/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "AMNH：接受学名与分类",
+      "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Microhylidae/Dyscophinae/Dyscophus/Dyscophus-antongilii",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "Amphibian Ark：全球无危状态",
+      "url": "https://www.conservationneeds.org/Assessment/AssessmentResults?assessmentId=599&countryId=7&speciesId=6503",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "spotted-garden-eel",
+  "slug": "spotted-garden-eel",
+  "names": {
+    "zh": "哈氏异康吉鳗",
+    "en": "Spotted Garden Eel"
+  },
+  "scientificName": "Heteroconger hassi",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Anguilliformes",
+      "zhName": "鳗鲡目"
+    },
+    "family": {
+      "scientificName": "Congridae",
+      "zhName": "康吉鳗科"
+    },
+    "genus": {
+      "scientificName": "Heteroconger",
+      "zhName": "异康吉鳗属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "FishBase 记录评估日期为 2016-11-28；种群趋势未核实。",
+    "assessedYear": 2016
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "亚洲",
+      "非洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "印度洋至西太平洋的热带沙质海底"
+    ],
+    "countries": [
+      "日本",
+      "澳大利亚",
+      "印度尼西亚"
+    ],
+    "range": "印度洋至西太平洋的热带沙质海底。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "印度洋至西太平洋的热带沙质海底",
+      "realm": "marine",
+      "description": "印度洋至西太平洋的热带沙质海底。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "浮游动物"
+    ],
+    "description": "主要取食浮游动物。"
+  },
+  "tags": [
+    "哈氏异康吉鳗",
+    "一条鱼一个沙洞"
+  ],
+  "summary": "在沙地上找找一条条探出身子的小鱼。",
+  "description": "许多花园鳗聚在同一片沙地，但每条鱼都有自己的洞穴。它生活在印度洋至西太平洋的热带沙质海底。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "一条鱼一个沙洞",
+      "body": "许多花园鳗聚在同一片沙地，但每条鱼都有自己的洞穴。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "身上的斑点",
+      "body": "浅色身体上布满小黑点，体侧还有较大的黑斑。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "迎着水流吃东西",
+      "body": "它把前半身伸出沙洞，捕捉水流带来的浮游动物。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "缩回洞里",
+      "body": "受到惊扰时，它会退回沙洞。图中只露出头部，身体仍在沙内。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "珊瑚礁旁的沙地",
+      "body": "它们常在礁区附近的沙质海底群居，露出的身体随水流弯曲。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "观察时保持距离，避免踩踏或搅动花园鳗生活的沙地。FishBase 记录评估日期为 2016-11-28；种群趋势未核实。"
+    }
+  ],
+  "keyFacts": [
+    "许多花园鳗聚在同一片沙地，但每条鱼都有自己的洞穴。",
+    "浅色身体上布满小黑点，体侧还有较大的黑斑。",
+    "它把前半身伸出沙洞，捕捉水流带来的浮游动物。",
+    "受到惊扰时，它会退回沙洞。图中只露出头部，身体仍在沙内。",
+    "它们常在礁区附近的沙质海底群居，露出的身体随水流弯曲。"
+  ],
+  "threats": [
+    "局部海底栖息地扰动"
+  ],
+  "conservationActions": [
+    "观察时保持距离，避免踩踏或搅动花园鳗生活的沙地。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "一条鱼一个沙洞"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "印度洋至西太平洋的热带沙质海底"
+    }
+  ],
+  "media": {
+    "image": "./images/species/spotted-garden-eel/01-cover.webp",
+    "alt": "哈氏异康吉鳗在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/spotted-garden-eel/02-observation.webp",
+        "title": "一条鱼一个沙洞",
+        "alt": "哈氏异康吉鳗：一条鱼一个沙洞",
+        "caption": "AI 生成科学情景重建。许多花园鳗聚在同一片沙地，但每条鱼都有自己的洞穴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-garden-eel/03-observation.webp",
+        "title": "身上的斑点",
+        "alt": "哈氏异康吉鳗：身上的斑点",
+        "caption": "AI 生成科学情景重建。浅色身体上布满小黑点，体侧还有较大的黑斑。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-garden-eel/04-observation.webp",
+        "title": "迎着水流吃东西",
+        "alt": "哈氏异康吉鳗：迎着水流吃东西",
+        "caption": "AI 生成科学情景重建。它把前半身伸出沙洞，捕捉水流带来的浮游动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-garden-eel/05-observation.webp",
+        "title": "缩回洞里",
+        "alt": "哈氏异康吉鳗：缩回洞里",
+        "caption": "AI 生成科学情景重建。受到惊扰时，它会退回沙洞。图中只露出头部，身体仍在沙内。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-garden-eel/06-observation.webp",
+        "title": "珊瑚礁旁的沙地",
+        "alt": "哈氏异康吉鳗：珊瑚礁旁的沙地",
+        "caption": "AI 生成科学情景重建。它们常在礁区附近的沙质海底群居，露出的身体随水流弯曲。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "澳大利亚博物馆：形态与分布",
+      "url": "https://australian.museum/learn/animals/fishes/spotted-garden-eel-heteroconger-hassi-klausewitz-eibl-eibesfeldt-1959/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "Nausicaá：花园鳗的洞穴生活",
+      "url": "https://www.nausicaa.fr/en/my-visit/animals/spotted-garden-eel",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "FishBase：2016 年评估日期与无危状态",
+      "url": "https://www.fishbase.se/summary/12619",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "indian-stick-insect",
+  "slug": "indian-stick-insect",
+  "names": {
+    "zh": "印度竹节虫",
+    "en": "Indian Stick Insect"
+  },
+  "scientificName": "Carausius morosus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Phasmatodea",
+      "zhName": "竹节虫目"
+    },
+    "family": {
+      "scientificName": "Lonchodidae",
+      "zhName": "长角竹节虫科"
+    },
+    "genus": {
+      "scientificName": "Carausius",
+      "zhName": "杆竹节虫属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料列为未评估；不据此推断种群安全。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲"
+    ],
+    "regions": [
+      "南印度及斯里兰卡的草地与林地；其他地区有引入种群"
+    ],
+    "countries": [
+      "印度",
+      "斯里兰卡"
+    ],
+    "range": "南印度及斯里兰卡的草地与林地；其他地区有引入种群。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "南印度及斯里兰卡的草地与林地；其他地区有引入种群",
+      "realm": "terrestrial",
+      "description": "南印度及斯里兰卡的草地与林地；其他地区有引入种群。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "植物叶片"
+    ],
+    "description": "主要取食植物叶片。"
+  },
+  "tags": [
+    "印度竹节虫",
+    "像一段细树枝"
+  ],
+  "summary": "在细树枝之间找找虫子的长腿。",
+  "description": "细长的身体和腿帮助它藏在枝条之间。成虫没有翅膀。它生活在南印度及斯里兰卡的草地与林地；其他地区有引入种群。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "像一段细树枝",
+      "body": "细长的身体和腿帮助它藏在枝条之间。成虫没有翅膀。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "头上的两根触角",
+      "body": "先找头部，再找两根细长触角；腿则长在胸部。图为放大观察，叶片仅作环境参照。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "沿着叶边吃",
+      "body": "它以植物叶片为食，会从叶缘取食。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "小小的卵",
+      "body": "雌虫能不经交配产下可发育的卵。这种繁殖方式叫孤雌生殖。卵的微距图不表示实际大小。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "小虫慢慢长大",
+      "body": "幼虫外形已经像细枝，长大时要经历蜕皮。叶片提供环境参照，各图非等比例。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "在原生环境保留植被；饲养个体不得随意放生，以免引入外地。所引资料列为未评估；不据此推断种群安全。"
+    }
+  ],
+  "keyFacts": [
+    "细长的身体和腿帮助它藏在枝条之间。成虫没有翅膀。",
+    "先找头部，再找两根细长触角；腿则长在胸部。图为放大观察，叶片仅作环境参照。",
+    "它以植物叶片为食，会从叶缘取食。",
+    "雌虫能不经交配产下可发育的卵。这种繁殖方式叫孤雌生殖。卵的微距图不表示实际大小。",
+    "幼虫外形已经像细枝，长大时要经历蜕皮。叶片提供环境参照，各图非等比例。"
+  ],
+  "threats": [
+    "原生植被减少"
+  ],
+  "conservationActions": [
+    "在原生环境保留植被；饲养个体不得随意放生，以免引入外地。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "像一段细树枝"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "南印度及斯里兰卡的草地与林地；其他地区有引入种群"
+    }
+  ],
+  "media": {
+    "image": "./images/species/indian-stick-insect/01-cover.webp",
+    "alt": "印度竹节虫在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/indian-stick-insect/02-observation.webp",
+        "title": "像一段细树枝",
+        "alt": "印度竹节虫：像一段细树枝",
+        "caption": "AI 生成科学情景重建。细长的身体和腿帮助它藏在枝条之间。成虫没有翅膀。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/indian-stick-insect/03-observation.webp",
+        "title": "头上的两根触角",
+        "alt": "印度竹节虫：头上的两根触角",
+        "caption": "AI 生成科学情景重建。先找头部，再找两根细长触角；腿则长在胸部。图为放大观察，叶片仅作环境参照。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/indian-stick-insect/04-observation.webp",
+        "title": "沿着叶边吃",
+        "alt": "印度竹节虫：沿着叶边吃",
+        "caption": "AI 生成科学情景重建。它以植物叶片为食，会从叶缘取食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/indian-stick-insect/05-observation.webp",
+        "title": "小小的卵",
+        "alt": "印度竹节虫：小小的卵",
+        "caption": "AI 生成科学情景重建。雌虫能不经交配产下可发育的卵。这种繁殖方式叫孤雌生殖。卵的微距图不表示实际大小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/indian-stick-insect/06-observation.webp",
+        "title": "小虫慢慢长大",
+        "alt": "印度竹节虫：小虫慢慢长大",
+        "caption": "AI 生成科学情景重建。幼虫外形已经像细枝，长大时要经历蜕皮。叶片提供环境参照，各图非等比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "都柏林动物园：形态、食性与分布",
+      "url": "https://www.dublinzoo.ie/animals/indian-green-stick-insect/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "埃因霍温动物园：未评估与孤雌生殖",
+      "url": "https://www.eindhovenzoo.nl/en/animals/indian-stick-insect",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "印度动物调查局 2025 竹节虫清单：Lonchodidae",
+      "url": "https://zsi.gov.in/uploads/documents/checklist/hindi/093_Insecta_PHASMIDA_V2_2025_PR21.pdf",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "california-sea-hare",
+  "slug": "california-sea-hare",
+  "names": {
+    "zh": "加州海兔",
+    "en": "California Sea Hare"
+  },
+  "scientificName": "Aplysia californica",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Mollusca",
+      "zhName": "软体动物门"
+    },
+    "class": {
+      "scientificName": "Gastropoda",
+      "zhName": "腹足纲"
+    },
+    "order": {
+      "scientificName": "Aplysiida",
+      "zhName": "海兔目"
+    },
+    "family": {
+      "scientificName": "Aplysiidae",
+      "zhName": "海兔科"
+    },
+    "genus": {
+      "scientificName": "Aplysia",
+      "zhName": "海兔属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料列为未评估；不据此推断种群安全。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "加利福尼亚北部至加利福尼亚湾的沿岸浅海"
+    ],
+    "countries": [
+      "美国",
+      "墨西哥"
+    ],
+    "range": "加利福尼亚北部至加利福尼亚湾的沿岸浅海。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "加利福尼亚北部至加利福尼亚湾的沿岸浅海",
+      "realm": "marine",
+      "description": "加利福尼亚北部至加利福尼亚湾的沿岸浅海。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "红藻",
+      "海莴苣",
+      "鳗草"
+    ],
+    "description": "主要取食红藻、海莴苣、鳗草。"
+  },
+  "tags": [
+    "加州海兔",
+    "耳朵般的嗅角"
+  ],
+  "summary": "找找头上像兔耳朵一样的两根触角。",
+  "description": "头上的一对嗅角能够感受水中的化学信号，帮助它寻找同伴。它生活在加利福尼亚北部至加利福尼亚湾的沿岸浅海。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "耳朵般的嗅角",
+      "body": "头上的一对嗅角能够感受水中的化学信号，帮助它寻找同伴。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "在石头上吃藻",
+      "body": "加州海兔吃藻类等植物，常在长有海藻的浅水岩岸活动。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "软身体向前爬",
+      "body": "它用身体下方的腹足爬行，背部两侧有能折叠的侧足。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "绕成一团的卵带",
+      "body": "它把卵产在胶质卵带中，许多细长的卵带缠绕成团。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "壳藏在里面",
+      "body": "它仍有一片退化的内壳，从外面看不到蜗牛那样的螺旋壳。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护岩岸水质，观察时让海兔留在水中，不刺激它释放墨汁。所引资料列为未评估；不据此推断种群安全。"
+    }
+  ],
+  "keyFacts": [
+    "头上的一对嗅角能够感受水中的化学信号，帮助它寻找同伴。",
+    "加州海兔吃藻类等植物，常在长有海藻的浅水岩岸活动。",
+    "它用身体下方的腹足爬行，背部两侧有能折叠的侧足。",
+    "它把卵产在胶质卵带中，许多细长的卵带缠绕成团。",
+    "它仍有一片退化的内壳，从外面看不到蜗牛那样的螺旋壳。"
+  ],
+  "threats": [
+    "沿岸开发",
+    "水体污染"
+  ],
+  "conservationActions": [
+    "保护岩岸水质，观察时让海兔留在水中，不刺激它释放墨汁。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "耳朵般的嗅角"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "加利福尼亚北部至加利福尼亚湾的沿岸浅海"
+    }
+  ],
+  "media": {
+    "image": "./images/species/california-sea-hare/01-cover.webp",
+    "alt": "加州海兔在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/california-sea-hare/02-observation.webp",
+        "title": "耳朵般的嗅角",
+        "alt": "加州海兔：耳朵般的嗅角",
+        "caption": "AI 生成科学情景重建。头上的一对嗅角能够感受水中的化学信号，帮助它寻找同伴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/california-sea-hare/03-observation.webp",
+        "title": "在石头上吃藻",
+        "alt": "加州海兔：在石头上吃藻",
+        "caption": "AI 生成科学情景重建。加州海兔吃藻类等植物，常在长有海藻的浅水岩岸活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/california-sea-hare/04-observation.webp",
+        "title": "软身体向前爬",
+        "alt": "加州海兔：软身体向前爬",
+        "caption": "AI 生成科学情景重建。它用身体下方的腹足爬行，背部两侧有能折叠的侧足。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/california-sea-hare/05-observation.webp",
+        "title": "绕成一团的卵带",
+        "alt": "加州海兔：绕成一团的卵带",
+        "caption": "AI 生成科学情景重建。它把卵产在胶质卵带中，许多细长的卵带缠绕成团。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/california-sea-hare/06-observation.webp",
+        "title": "壳藏在里面",
+        "alt": "加州海兔：壳藏在里面",
+        "caption": "AI 生成科学情景重建。它仍有一片退化的内壳，从外面看不到蜗牛那样的螺旋壳。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "蒙特雷湾水族馆：加州海兔",
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sea-hare",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "ADW：加州海兔未评估状态",
+      "url": "https://animaldiversity.org/accounts/Aplysia_californica/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "NCBI：海兔目分类",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6500",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
+{
+  "id": "great-scallop",
+  "slug": "great-scallop",
+  "names": {
+    "zh": "大扇贝",
+    "en": "Great Scallop"
+  },
+  "scientificName": "Pecten maximus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Mollusca",
+      "zhName": "软体动物门"
+    },
+    "class": {
+      "scientificName": "Bivalvia",
+      "zhName": "双壳纲"
+    },
+    "order": {
+      "scientificName": "Pectinida",
+      "zhName": "海扇蛤目"
+    },
+    "family": {
+      "scientificName": "Pectinidae",
+      "zhName": "海扇蛤科"
+    },
+    "genus": {
+      "scientificName": "Pecten",
+      "zhName": "海扇蛤属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料列为未评估；不据此推断种群安全。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "欧洲",
+      "非洲"
+    ],
+    "regions": [
+      "东北大西洋欧洲沿岸及邻近岛屿的沙砾海底"
+    ],
+    "countries": [
+      "挪威",
+      "英国",
+      "法国",
+      "西班牙"
+    ],
+    "range": "东北大西洋欧洲沿岸及邻近岛屿的沙砾海底。列出的国家为代表性分布地，不是完整名录。"
+  },
+  "habitats": [
+    {
+      "name": "东北大西洋欧洲沿岸及邻近岛屿的沙砾海底",
+      "realm": "marine",
+      "description": "东北大西洋欧洲沿岸及邻近岛屿的沙砾海底。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "filter-feeder"
+    ],
+    "foods": [
+      "浮游植物",
+      "悬浮有机颗粒"
+    ],
+    "description": "主要取食浮游植物、悬浮有机颗粒。"
+  },
+  "tags": [
+    "大扇贝",
+    "两片壳合在一起"
+  ],
+  "summary": "看看两片扇形壳怎样张开和合上。",
+  "description": "大扇贝有两片扇形壳，上方左壳较平，下方右壳较鼓。它生活在东北大西洋欧洲沿岸及邻近岛屿的沙砾海底。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "两片壳合在一起",
+      "body": "大扇贝有两片扇形壳，上方左壳较平，下方右壳较鼓。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "壳边的小眼睛",
+      "body": "张开的壳边有外套膜和许多小眼睛，旁边还能看到细触手。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "沙地里的浅窝",
+      "body": "成体常卧在沙砾海底的浅凹处，较平的壳朝上。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "合壳也能移动",
+      "body": "它快速合拢双壳、排出水，可以短距离游动来躲避威胁。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "从壳顶散开的纹路",
+      "body": "壳面有向外放射的粗肋，铰合处两侧各有耳状突起。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "减少对扇贝栖息海底的破坏，按当地渔业管理要求开展捕捞。所引资料列为未评估；不据此推断种群安全。"
+    }
+  ],
+  "keyFacts": [
+    "大扇贝有两片扇形壳，上方左壳较平，下方右壳较鼓。",
+    "张开的壳边有外套膜和许多小眼睛，旁边还能看到细触手。",
+    "成体常卧在沙砾海底的浅凹处，较平的壳朝上。",
+    "它快速合拢双壳、排出水，可以短距离游动来躲避威胁。",
+    "壳面有向外放射的粗肋，铰合处两侧各有耳状突起。"
+  ],
+  "threats": [
+    "过度捕捞",
+    "拖捞对海底的扰动"
+  ],
+  "conservationActions": [
+    "减少对扇贝栖息海底的破坏，按当地渔业管理要求开展捕捞。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "两片壳合在一起"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "东北大西洋欧洲沿岸及邻近岛屿的沙砾海底"
+    }
+  ],
+  "media": {
+    "image": "./images/species/great-scallop/01-cover.webp",
+    "alt": "大扇贝在自然栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/great-scallop/02-observation.webp",
+        "title": "两片壳合在一起",
+        "alt": "大扇贝：两片壳合在一起",
+        "caption": "AI 生成科学情景重建。大扇贝有两片扇形壳，上方左壳较平，下方右壳较鼓。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-scallop/03-observation.webp",
+        "title": "壳边的小眼睛",
+        "alt": "大扇贝：壳边的小眼睛",
+        "caption": "AI 生成科学情景重建。张开的壳边有外套膜和许多小眼睛，旁边还能看到细触手。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-scallop/04-observation.webp",
+        "title": "沙地里的浅窝",
+        "alt": "大扇贝：沙地里的浅窝",
+        "caption": "AI 生成科学情景重建。成体常卧在沙砾海底的浅凹处，较平的壳朝上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-scallop/05-observation.webp",
+        "title": "合壳也能移动",
+        "alt": "大扇贝：合壳也能移动",
+        "caption": "AI 生成科学情景重建。它快速合拢双壳、排出水，可以短距离游动来躲避威胁。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-scallop/06-observation.webp",
+        "title": "从壳顶散开的纹路",
+        "alt": "大扇贝：从壳顶散开的纹路",
+        "caption": "AI 生成科学情景重建。壳面有向外放射的粗肋，铰合处两侧各有耳状突起。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "英国海洋生物协会 MarLIN：分类与生态",
+      "url": "https://www.marlin.ac.uk/species/detail/1398",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "Macduff 水族馆：未评估状态",
+      "url": "https://www.macduff-aquarium.org.uk/explore/fish-finder/king-scallop",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

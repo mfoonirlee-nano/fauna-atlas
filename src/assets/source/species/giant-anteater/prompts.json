@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-20",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Photorealistic natural history landscape image, 1536x1024. A single giant anteater (Myrmecophaga tridactyla) in Brazilian cerrado grassland. elongated snout, gray and black white-edged shoulder stripe, bushy tail. CRITICAL COMPOSITION: completely empty calm habitat across LEFT HALF of image. The ENTIRE animal including every antenna, toe, fin, muzzle and tail is inside the RIGHT HALF, leaving a substantial 100 pixel background margin at RIGHT edge. Full subject occupies roughly x=800 to 1410, y=250 to 800. Camera pulled back enough to fit complete animal, no cut-off body, no head-only frame. Subject remains detailed and dominant. For insect show whole abdomen tip, both antenna tips and all SIX legs within frame, short twig under its feet; no continuation beyond right edge. For sea hare body low against rock with small folded parapodia, not huge sail. Single shot, no text, no graphics, no borders."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species giant anteater (Myrmecophaga tridactyla); habitat Brazilian cerrado grassland; diagnostic features elongated snout, gray and black white-edged shoulder stripe, bushy tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Side view of long narrow head with a thin sticky tongue extended into a small termite mound opening, no exaggerated tongue. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species giant anteater (Myrmecophaga tridactyla); habitat Brazilian cerrado grassland; diagnostic features elongated snout, gray and black white-edged shoulder stripe, bushy tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Walking side view showing curled front claws resting on knuckles, hind feet flat; natural dirt path. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species giant anteater (Myrmecophaga tridactyla); habitat Brazilian cerrado grassland; diagnostic features elongated snout, gray and black white-edged shoulder stripe, bushy tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Resting on ground with huge bushy tail curled over body as a cover. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species giant anteater (Myrmecophaga tridactyla); habitat Brazilian cerrado grassland; diagnostic features elongated snout, gray and black white-edged shoulder stripe, bushy tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Mother walking with single small baby riding securely on her back, matching shoulder stripes. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species giant anteater (Myrmecophaga tridactyla); habitat Brazilian cerrado grassland; diagnostic features elongated snout, gray and black white-edged shoulder stripe, bushy tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Single adult sniffing ground at grassland forest edge, wide view. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    }
+  ]
+}

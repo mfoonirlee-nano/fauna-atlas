@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-20",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Photorealistic natural history landscape image, 1536x1024. A single pig-nosed turtle (Carettochelys insculpta) in clear New Guinea freshwater river underwater. gray smooth leathery oval shell without scutes, piglike nostrils, paddle-shaped foreflippers, no sea turtle scutes. CRITICAL COMPOSITION: completely empty calm habitat across LEFT HALF of image. The ENTIRE animal including every antenna, toe, fin, muzzle and tail is inside the RIGHT HALF, leaving a substantial 100 pixel background margin at RIGHT edge. Full subject occupies roughly x=800 to 1410, y=250 to 800. Camera pulled back enough to fit complete animal, no cut-off body, no head-only frame. Subject remains detailed and dominant. For insect show whole abdomen tip, both antenna tips and all SIX legs within frame, short twig under its feet; no continuation beyond right edge. For sea hare body low against rock with small folded parapodia, not huge sail. Single shot, no text, no graphics, no borders."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species pig-nosed turtle (Carettochelys insculpta); habitat clear New Guinea freshwater river underwater; diagnostic features gray smooth leathery oval shell without scutes, piglike nostrils, paddle-shaped foreflippers, no sea turtle scutes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Swimming underwater side view with both paddle foreflippers visible, smooth leathery gray shell. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species pig-nosed turtle (Carettochelys insculpta); habitat clear New Guinea freshwater river underwater; diagnostic features gray smooth leathery oval shell without scutes, piglike nostrils, paddle-shaped foreflippers, no sea turtle scutes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Close-up piglike snout just touching river water surface to breathe, rest of body submerged. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species pig-nosed turtle (Carettochelys insculpta); habitat clear New Guinea freshwater river underwater; diagnostic features gray smooth leathery oval shell without scutes, piglike nostrils, paddle-shaped foreflippers, no sea turtle scutes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Underwater top view smooth gray leathery oval carapace, no hard scute pattern. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species pig-nosed turtle (Carettochelys insculpta); habitat clear New Guinea freshwater river underwater; diagnostic features gray smooth leathery oval shell without scutes, piglike nostrils, paddle-shaped foreflippers, no sea turtle scutes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Underwater adult nibbling fallen fig fruit near riverbank roots. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species pig-nosed turtle (Carettochelys insculpta); habitat clear New Guinea freshwater river underwater; diagnostic features gray smooth leathery oval shell without scutes, piglike nostrils, paddle-shaped foreflippers, no sea turtle scutes. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Adult female on sandy freshwater river nesting bank at night, full body, natural moonlight, no eggs exposed. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-20",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Photorealistic natural history landscape image, 1536x1024. A single California sea hare (Aplysia californica) in California shallow rocky shore underwater. mottled reddish brown soft body, paired rolled rhinophores and oral tentacles, folded parapodia, no exposed spiral shell. CRITICAL COMPOSITION: completely empty calm habitat across LEFT HALF of image. The ENTIRE animal including every antenna, toe, fin, muzzle and tail is inside the RIGHT HALF, leaving a substantial 100 pixel background margin at RIGHT edge. Full subject occupies roughly x=800 to 1410, y=250 to 800. Camera pulled back enough to fit complete animal, no cut-off body, no head-only frame. Subject remains detailed and dominant. For insect show whole abdomen tip, both antenna tips and all SIX legs within frame, short twig under its feet; no continuation beyond right edge. For sea hare body low against rock with small folded parapodia, not huge sail. Single shot, no text, no graphics, no borders."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species California sea hare (Aplysia californica); habitat California shallow rocky shore underwater; diagnostic features mottled reddish brown soft body, paired rolled rhinophores and oral tentacles, folded parapodia, no exposed spiral shell. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Close view paired rolled rhinophores and broader oral tentacles on mottled brown head underwater. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species California sea hare (Aplysia californica); habitat California shallow rocky shore underwater; diagnostic features mottled reddish brown soft body, paired rolled rhinophores and oral tentacles, folded parapodia, no exposed spiral shell. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Sea hare grazing red algae on rock, mouth contacting algae. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species California sea hare (Aplysia californica); habitat California shallow rocky shore underwater; diagnostic features mottled reddish brown soft body, paired rolled rhinophores and oral tentacles, folded parapodia, no exposed spiral shell. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Side view crawling with broad muscular foot against rock, parapodia folded. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species California sea hare (Aplysia californica); habitat California shallow rocky shore underwater; diagnostic features mottled reddish brown soft body, paired rolled rhinophores and oral tentacles, folded parapodia, no exposed spiral shell. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Mass of thin pale yellow-orange tangled spaghetti-like egg strings attached to algae underwater, no adult required. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species California sea hare (Aplysia californica); habitat California shallow rocky shore underwater; diagnostic features mottled reddish brown soft body, paired rolled rhinophores and oral tentacles, folded parapodia, no exposed spiral shell. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Overhead view mottled reddish brown sea hare folded parapodia and rhinophores among sea lettuce, no exposed spiral shell. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-20",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: photorealistic-natural. One landscape 1536x1024 educational wildlife atlas cover. Single secretary bird (Sagittarius serpentarius) in African savanna. Diagnostic anatomy: long pinkish legs, gray plumage, black thigh feathers, black crest, orange bare face, folded wings and full long tail. Complete visible silhouette within x=650..1460 y=130..900, as large as fits this rectangle, center right at 70 percent width; all visible appendages intact with background clearance. Left 40 percent quiet background for title. Natural detailed wildlife photographic style. No text, logos, collage, extra animals, anatomical invention. For burrowing eel, show complete above-sand portion with natural buried rear body, do not expose tail."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species secretary bird (Sagittarius serpentarius); habitat African savanna; diagnostic features long pinkish legs, gray plumage, black thigh feathers, black crest, orange bare face, folded wings and full long tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Full body taking a long step on savanna dirt, feet completely visible. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species secretary bird (Sagittarius serpentarius); habitat African savanna; diagnostic features long pinkish legs, gray plumage, black thigh feathers, black crest, orange bare face, folded wings and full long tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Portrait showing black elongated crest feathers behind head and orange bare facial skin. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species secretary bird (Sagittarius serpentarius); habitat African savanna; diagnostic features long pinkish legs, gray plumage, black thigh feathers, black crest, orange bare face, folded wings and full long tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Full body flying with wings spread, long legs trailing behind and long central tail feathers. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species secretary bird (Sagittarius serpentarius); habitat African savanna; diagnostic features long pinkish legs, gray plumage, black thigh feathers, black crest, orange bare face, folded wings and full long tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Adult standing on broad stick nest on flat acacia treetop, no eggs visible. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: photorealistic-natural, scientifically grounded educational wildlife image. One landscape 1536x1024 single scene, not collage. Species secretary bird (Sagittarius serpentarius); habitat African savanna; diagnostic features long pinkish legs, gray plumage, black thigh feathers, black crest, orange bare face, folded wings and full long tail. Requested scene overrides adult/color where sex, juvenile or eggs are specified: Adult searching short grass for insects, head angled down, no violence. Subject large and clear, natural light, plausible anatomy and behavior. No labels, text, watermarks, humans or stylization. Natural objects give visual context, do not invent numerical scale. Not continuous motion photography."
+    }
+  ]
+}
