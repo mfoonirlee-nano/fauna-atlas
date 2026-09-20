@@ -463,3 +463,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Dyeing Poison Frog image set](./species/dyeing-poison-frog/README.md)
 
 - [African Clawed Frog image set](./species/african-clawed-frog/README.md)
+- [Basking Shark image set](./species/basking-shark/README.md)

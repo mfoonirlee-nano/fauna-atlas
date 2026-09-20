@@ -2910,5 +2910,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1507,
       "bottom": 831
     }
+  },
+  "basking-shark": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 663,
+      "top": 156,
+      "right": 1506,
+      "bottom": 757
+    }
   }
 };

@@ -1519,5 +1519,18 @@
       },
       "sha256": "bab49cbd57245ccbd61b7a3781a654380f3d82c84a2a1b46c3d7740c16e86217"
     }
+  },
+  "basking-shark": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 663,
+        "top": 156,
+        "right": 1506,
+        "bottom": 757
+      },
+      "sha256": "4e1c37c8d157e3ff8776aa06a52a3ded51f74d9fc87927374bdb4c777a0e3ebf"
+    }
   }
 }
