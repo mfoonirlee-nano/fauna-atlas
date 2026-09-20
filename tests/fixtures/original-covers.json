@@ -1623,5 +1623,18 @@
       },
       "sha256": "c202eb3b49bf61e484b2959fbc4475d6a9e4166522c3dbb79cebb2838138bdad"
     }
+  },
+  "hercules-beetle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 637,
+        "top": 168,
+        "right": 1505,
+        "bottom": 805
+      },
+      "sha256": "9dbcad35b55c1bb7410944dce1035fb723d75314e6efef670060937fdf9b5d35"
+    }
   }
 }

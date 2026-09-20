@@ -472,3 +472,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [neon-tetra image set](./species/neon-tetra/README.md)
 - [blue-green-chromis image set](./species/blue-green-chromis/README.md)
 - [chinese-windmill image set](./species/chinese-windmill/README.md)
+- [hercules-beetle image set](./species/hercules-beetle/README.md)

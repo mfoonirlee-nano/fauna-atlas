@@ -90178,6 +90178,246 @@ export const species = [
   "publishedAt": "2026-09-20",
   "updatedAt": "2026-09-20"
 },
+{
+  "id": "species-dynastes-hercules",
+  "slug": "hercules-beetle",
+  "names": {
+    "zh": "赫克力士长戟大兜虫",
+    "en": "Hercules Beetle"
+  },
+  "scientificName": "Dynastes hercules",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Coleoptera",
+      "zhName": "鞘翅目"
+    },
+    "family": {
+      "scientificName": "Scarabaeidae",
+      "zhName": "金龟科"
+    },
+    "genus": {
+      "scientificName": "Dynastes",
+      "zhName": "长戟大兜虫属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "ADW 列为未评估；不据此推断种群安全。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "小安的列斯群岛的热带森林"
+    ],
+    "countries": [
+      "多米尼克",
+      "法国（瓜德罗普）"
+    ],
+    "range": "图库以小安的列斯群岛的指名类群为背景。旧资料常将中南美洲多个近缘类群合并记载，本档案不将其全部分布和最大尺寸混用。"
+  },
+  "habitats": [
+    {
+      "name": "小安的列斯群岛的热带森林",
+      "realm": "terrestrial",
+      "description": "图库以小安的列斯群岛的指名类群为背景。旧资料常将中南美洲多个近缘类群合并记载，本档案不将其全部分布和最大尺寸混用。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "detritivore"
+    ],
+    "foods": [
+      "成虫取食熟烂水果",
+      "幼虫取食腐朽木材"
+    ],
+    "description": "成虫取食熟烂水果；幼虫取食腐朽木材。"
+  },
+  "tags": [
+    "赫克力士长戟大兜虫",
+    "一上一下的长角"
+  ],
+  "summary": "看看雄虫头前的长角怎样相对。",
+  "description": "图库以小安的列斯群岛的指名类群为背景。旧资料常将中南美洲多个近缘类群合并记载，本档案不将其全部分布和最大尺寸混用。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "一上一下的长角",
+      "body": "雄虫的一支角长在胸部，另一支长在头部。两角相对，可在雄虫争斗时夹举对手。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "雌虫没有长角",
+      "body": "雌虫颜色较暗，没有雄虫那样的长角。两张图不是等比例的大小对照。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "朽木里的幼虫",
+      "body": "幼虫身体弯成 C 形，在腐朽木材里取食和生长。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "成虫吃水果",
+      "body": "成虫会取食落在地上的熟烂水果，幼虫则主要取食朽木。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "沿着树干爬行",
+      "body": "成虫用带爪的足抓住粗糙树皮，沿着树干移动。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留森林中的腐木和栖息空间。未评估不代表没有受到威胁。"
+    }
+  ],
+  "keyFacts": [
+    "雄虫的一支角长在胸部，另一支长在头部。两角相对，可在雄虫争斗时夹举对手。",
+    "雌虫颜色较暗，没有雄虫那样的长角。两张图不是等比例的大小对照。",
+    "幼虫身体弯成 C 形，在腐朽木材里取食和生长。",
+    "成虫会取食落在地上的熟烂水果，幼虫则主要取食朽木。",
+    "成虫用带爪的足抓住粗糙树皮，沿着树干移动。"
+  ],
+  "threats": [
+    "栖息地退化"
+  ],
+  "conservationActions": [
+    "保护原生栖息地",
+    "减少对野生动物的捕捉和干扰"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "一上一下的长角"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "小安的列斯群岛的热带森林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/hercules-beetle/01-cover.webp",
+    "alt": "赫克力士长戟大兜虫的完整身体与生活环境",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/hercules-beetle/02-observation.webp",
+        "title": "一上一下的长角",
+        "alt": "赫克力士长戟大兜虫：一上一下的长角",
+        "caption": "AI 生成科学情景重建。雄虫的一支角长在胸部，另一支长在头部。两角相对，可在雄虫争斗时夹举对手。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hercules-beetle/03-observation.webp",
+        "title": "雌虫没有长角",
+        "alt": "赫克力士长戟大兜虫：雌虫没有长角",
+        "caption": "AI 生成科学情景重建。雌虫颜色较暗，没有雄虫那样的长角。两张图不是等比例的大小对照。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hercules-beetle/04-observation.webp",
+        "title": "朽木里的幼虫",
+        "alt": "赫克力士长戟大兜虫：朽木里的幼虫",
+        "caption": "AI 生成科学情景重建。幼虫身体弯成 C 形，在腐朽木材里取食和生长。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hercules-beetle/05-observation.webp",
+        "title": "成虫吃水果",
+        "alt": "赫克力士长戟大兜虫：成虫吃水果",
+        "caption": "AI 生成科学情景重建。成虫会取食落在地上的熟烂水果，幼虫则主要取食朽木。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hercules-beetle/06-observation.webp",
+        "title": "沿着树干爬行",
+        "alt": "赫克力士长戟大兜虫：沿着树干爬行",
+        "caption": "AI 生成科学情景重建。成虫用带爪的足抓住粗糙树皮，沿着树干移动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "佛罗里达大学：形态、食性与分类争议",
+      "url": "https://ask.ifas.ufl.edu/publication/IN1142",
+      "kind": "general",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "ADW：保护状态",
+      "url": "https://animaldiversity.org/accounts/Dynastes_hercules/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-20"
+    },
+    {
+      "title": "内布拉斯加大学州立博物馆：自然史",
+      "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Dynastes/D-hercules/Dhercules.html",
+      "kind": "ecology",
+      "accessedAt": "2026-09-20"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-20"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

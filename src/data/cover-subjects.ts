@@ -2990,5 +2990,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1449,
       "bottom": 924
     }
+  },
+  "hercules-beetle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 637,
+      "top": 168,
+      "right": 1505,
+      "bottom": 805
+    }
   }
 };
