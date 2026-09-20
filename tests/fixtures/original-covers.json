@@ -1597,5 +1597,18 @@
       },
       "sha256": "1b5682bb248e358e686eb28b62ef61dac04e1a17f5248c4f151d9834ed50de54"
     }
+  },
+  "blue-green-chromis": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 794,
+        "top": 269,
+        "right": 1517,
+        "bottom": 629
+      },
+      "sha256": "759818f6f9219a4e1d3fb0a53a7de20a6c46943b6327b8b4a6ed94b5055104c1"
+    }
   }
 }

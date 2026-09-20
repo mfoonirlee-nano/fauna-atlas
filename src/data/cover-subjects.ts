@@ -2970,5 +2970,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1401,
       "bottom": 622
     }
+  },
+  "blue-green-chromis": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 794,
+      "top": 269,
+      "right": 1517,
+      "bottom": 629
+    }
   }
 };

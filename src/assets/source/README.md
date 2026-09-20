@@ -470,3 +470,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [zebrafish image set](./species/zebrafish/README.md)
 - [neon-tetra image set](./species/neon-tetra/README.md)
+- [blue-green-chromis image set](./species/blue-green-chromis/README.md)
