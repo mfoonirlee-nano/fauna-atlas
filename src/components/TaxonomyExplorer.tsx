@@ -322,7 +322,7 @@ function DiagramDisclaimer({ interactive = false }: { readonly interactive?: boo
   return (
     <p className="taxonomy-disclaimer">
       {interactive ? '带加减号的分类单元可以逐级收起或展开；' : ''}
-      所有枝线只表示当前图册收录口径下的分类归属，长度与位置不表示演化时间、祖先关系或亲缘远近。
+      图中的连线表示本图册所采用分类口径下的归属关系。线条的长短和位置不表示演化时间、祖先关系或亲缘远近。
     </p>
   );
 }
@@ -482,11 +482,11 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
       <header className="taxonomy-explorer__heading">
         <div>
           <p className="taxonomy-explorer__kicker">TAXONOMY MAP · 分类图谱</p>
-          <h2 id="taxonomy-title">从动物界到物种档案，一眼看清归属路径。</h2>
+          <h2 id="taxonomy-title">看看每种动物的分类归属</h2>
         </div>
         <div className="taxonomy-explorer__introduction">
           <p id="taxonomy-description">
-            点击带加减号的分类单元，可独立收起或展开其下分支；悬停物种可预览路径，点击可固定选择并读取完整归属。
+            点击加减号可收起或展开分支。将鼠标移到物种名称上可预览分类路径，点击后可保留选择，查看完整归属。
           </p>
           <div className="taxonomy-explorer__legend" aria-label="图例">
             <span><i aria-hidden="true" />分类单元</span>
@@ -570,10 +570,10 @@ function VariantB({ items, tree, theme, onOpenSpecies }: VariantProps) {
       <header className="taxonomy-lineage__heading">
         <div>
           <p className="taxonomy-explorer__kicker">TAXONOMY MAP · 分类图谱</p>
-          <h2 id="taxonomy-title">一次，只看清一条完整路径。</h2>
+          <h2 id="taxonomy-title">查看一种动物的完整分类路径</h2>
         </div>
         <p id="taxonomy-description">
-          先选择一个物种档案，再沿七个等距阶元阅读它的完整分类归属。
+          选择一种动物，查看它从界、门、纲、目、科、属到种的分类归属。
         </p>
       </header>
 
@@ -692,10 +692,10 @@ function VariantC({ items, tree, theme, onOpenSpecies }: VariantProps) {
       <div className="taxonomy-focus__heading">
         <div>
           <p className="taxonomy-explorer__kicker">TAXONOMY LENS · 分类镜头</p>
-          <h2 id="taxonomy-title">先按纲定位，再沿枝干认识物种。</h2>
+          <h2 id="taxonomy-title">按纲浏览动物的分类归属</h2>
         </div>
         <p id="taxonomy-description">
-          每次聚焦一组物种档案，完整呈现从界、门、纲、目、科、属到物种档案的分类归属。
+          选择一个纲，查看已收录物种从界到种的完整分类路径。
         </p>
       </div>
 

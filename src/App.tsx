@@ -430,7 +430,7 @@ function SpeciesImageViewer({
               <dd>{item.distribution.regions.slice(0, 2).join('、')}</dd>
             </div>
             <div>
-              <dt>核心生境</dt>
+              <dt>主要栖息地</dt>
               <dd>{item.habitats[0]?.name ?? '尚待记录'}</dd>
             </div>
             {frame.credit && (
@@ -736,7 +736,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
                   <dd>{item.distribution.regions.join('、')}</dd>
                 </div>
                 <div>
-                  <dt>核心生境</dt>
+                  <dt>主要栖息地</dt>
                   <dd>{item.habitats.map((habitat) => habitat.name).join('、')}</dd>
                 </div>
               </dl>
@@ -744,7 +744,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
 
             <section className="detail-section">
               <p className="section-kicker">02 / 行为与食性</p>
-              <h3>吃什么，怎么活</h3>
+              <h3>吃什么，怎样活动</h3>
               <p>{item.diet.description}</p>
               <dl className="detail-facts">
                 <div>
@@ -753,7 +753,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
                 </div>
                 {item.activity && item.activity.length > 0 && (
                   <div>
-                    <dt>活动节律</dt>
+                    <dt>活动习性</dt>
                     <dd>{item.activity.join('、')}</dd>
                   </div>
                 )}
@@ -765,7 +765,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
             <section className="detail-story" aria-labelledby="detail-story-title">
               <div className="detail-story__heading">
                 <p className="section-kicker">03 / 生命史</p>
-                <h3 id="detail-story-title">从身体，到下一代</h3>
+                <h3 id="detail-story-title">身体特征与生活习性</h3>
               </div>
               <div className="detail-story__grid">
                 {item.storySections.map((section, sectionIndex) => (
@@ -784,7 +784,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
 
           <section className="detail-section detail-section--facts">
             <p className="section-kicker">{item.storySections?.length ? '04' : '03'} / 自然观察</p>
-            <h3>值得记住的事实</h3>
+            <h3>认识它的几个细节</h3>
             <ol className="fact-list">
               {item.keyFacts.map((fact, factIndex) => (
                 <li key={fact}>
@@ -797,12 +797,12 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
 
           <section className="conservation-callout">
             <div>
-              <p className="section-kicker">CONSERVATION · 共同守护</p>
-              <h3>看见威胁，也看见出路</h3>
+              <p className="section-kicker">CONSERVATION · 物种保护</p>
+              <h3>生存威胁与保护措施</h3>
               <p>
                 {item.threats.length > 0
-                  ? `当前主要威胁包括${item.threats.join('、')}。`
-                  : '持续观察种群与栖息地变化，是理解它们处境的第一步。'}
+                  ? `威胁与调查记录：${item.threats.join('、')}。`
+                  : '这份档案尚未列出具体威胁，仍需关注种群数量和栖息地的变化。'}
               </p>
             </div>
             <ul>
@@ -818,7 +818,7 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
           <section className="source-section">
             <div>
               <p className="section-kicker">SOURCES · 资料来源</p>
-              <h3>让每条记录有迹可循</h3>
+              <h3>查阅原始资料</h3>
             </div>
             <div className="source-list">
               {item.sources.map((source) => (
@@ -1117,11 +1117,11 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
         <div className="hero__copy">
           <p className="hero__kicker"><span /> A LIVING INDEX OF EARTH</p>
           <h1 id="hero-title">
-            <span className="hero__title-line"><span>在万物之间，</span></span>
-            <span className="hero__title-line"><span>重新认识世界。</span></span>
+            <span className="hero__title-line"><span>认识动物，</span></span>
+            <span className="hero__title-line"><span>从这里开始。</span></span>
           </h1>
           <p className="hero__intro">
-            一部持续生长的现代生物电子图册。记录名字，也记录每一种生命与地球相连的方式。
+            了解动物的外形、习性和栖息地，查阅它们的分类归属与保护状况。
           </p>
           <button type="button" className="primary-cta" onClick={scrollToAtlas}>
             <span>开始探索</span>
@@ -1409,10 +1409,10 @@ function App() {
         <section className="atlas-intro" aria-label="图册概览">
           <div className="atlas-intro__statement">
             <Globe2 size={24} strokeWidth={1.4} />
-            <p>从高山到深海，<br />每一次相遇都有坐标。</p>
+            <p>从高山到深海，<br />看看动物怎样生活。</p>
           </div>
           <div className="atlas-intro__stats">
-            <div><strong>{String(species.length).padStart(2, '0')}</strong><span>首批物种档案</span></div>
+            <div><strong>{String(species.length).padStart(2, '0')}</strong><span>已收录物种</span></div>
             <div><strong>{String(regionCount).padStart(2, '0')}</strong><span>覆盖地理分区</span></div>
             <div><strong>{String(threatenedCount).padStart(2, '0')}</strong><span>受威胁物种</span></div>
           </div>
@@ -1426,7 +1426,7 @@ function App() {
               <p className="section-kicker">EXPLORE THE ATLAS · 探索图鉴</p>
               <h2 id="atlas-title">今天，想认识谁？</h2>
             </div>
-            <p>按名字、学名、分类、栖息地或保护等级，找到一条通往自然的路径。</p>
+            <p>搜索动物的中文名、学名或栖息地，也可以按分类和保护状态筛选。</p>
           </div>
 
           <div className="atlas-tools">
@@ -1540,8 +1540,8 @@ function App() {
           ) : (
             <div className="empty-state">
               <span>∅</span>
-              <h3>这片区域还没有记录</h3>
-              <p>换一个名字或筛选条件，也许会遇见另一种生命。</p>
+              <h3>没有找到符合条件的动物</h3>
+              <p>试试其他名称，或清除筛选条件后重新查找。</p>
               <button type="button" onClick={clearFilters}>清除筛选</button>
             </div>
           )}
@@ -1573,28 +1573,28 @@ function App() {
           <div className="mission-section__index" aria-hidden="true">01</div>
           <div className="mission-section__content">
             <p className="section-kicker">WHY WE RECORD · 为何记录</p>
-            <h2 id="mission-title">先看见，<br />才有可能在意。</h2>
+            <h2 id="mission-title">了解它们，<br />从具体的生活开始。</h2>
             <p>
-              生物多样性不是抽象的数字。它是夜里振翅的声音、潮池里微小的呼吸，也是我们尚未学会称呼的邻居。Fauna Atlas 用可信、清晰、温柔的方式，让每一条记录成为理解的开始。
+              动物生活在哪里，吃什么，怎样养育后代？Fauna Atlas 把这些知识整理成物种档案，也记录它们面临的威胁。你可以从感兴趣的动物读起，沿着资料来源继续了解。
             </p>
           </div>
           <div className="mission-principles">
-            <div><span>01</span><strong>科学可信</strong><p>保留学名、评估年份与资料出处。</p></div>
-            <div><span>02</span><strong>持续生长</strong><p>档案共用一副骨架，增删修订都轻便。</p></div>
-            <div><span>03</span><strong>尊重生命</strong><p>不暴露敏感坐标，不消费濒危处境。</p></div>
+            <div><span>01</span><strong>附有来源</strong><p>保留学名、评估年份与资料出处。</p></div>
+            <div><span>02</span><strong>持续更新</strong><p>逐步补充物种档案，修订已有介绍。</p></div>
+            <div><span>03</span><strong>尊重生命</strong><p>隐去敏感地点，谨慎描述濒危物种的处境。</p></div>
           </div>
         </section>
 
         <section className="newsletter" id="about" aria-labelledby="newsletter-title">
           <div className="newsletter__orb" aria-hidden="true"><Feather size={82} strokeWidth={0.7} /></div>
           <div>
-            <p className="section-kicker">THE ATLAS IS GROWING · 图册仍在生长</p>
-            <h2 id="newsletter-title">把自然，放回日常视野。</h2>
+            <p className="section-kicker">ABOUT THE ATLAS · 关于图册</p>
+            <h2 id="newsletter-title">从一种动物开始了解。</h2>
           </div>
           <div className="newsletter__aside">
-            <p>Fauna Atlas 正在从第一批物种开始。未来将加入地点、观察记录与更完整的分类关系。</p>
+            <p>Fauna Atlas 持续整理动物资料，计划补充地点、观察记录与更完整的分类关系。</p>
             <button type="button" onClick={scrollToAtlas}>
-              浏览首批档案 <ArrowRight size={17} />
+              浏览物种档案 <ArrowRight size={17} />
             </button>
           </div>
         </section>
@@ -1602,7 +1602,7 @@ function App() {
 
       <footer className="site-footer">
         <div className="site-footer__brand"><BrandMark /><span>FAUNA ATLAS</span></div>
-        <p>一部持续生长的现代生物电子图册。</p>
+        <p>认识动物的外形、习性与生存环境。</p>
         <div className="site-footer__meta">
           <span>MADE FOR THE LIVING WORLD</span>
           <span>© 2026 FAUNA ATLAS</span>
