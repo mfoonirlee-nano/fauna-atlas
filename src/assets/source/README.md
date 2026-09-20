@@ -467,3 +467,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Zebra Shark image set](./species/zebra-shark/README.md)
 - [Blue Shark image set](./species/blue-shark/README.md)
 - [Rainbow Trout image set](./species/rainbow-trout/README.md)
+
+- [zebrafish image set](./species/zebrafish/README.md)

@@ -2950,5 +2950,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1477,
       "bottom": 646
     }
+  },
+  "zebrafish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 762,
+      "top": 332,
+      "right": 1501,
+      "bottom": 571
+    }
   }
 };

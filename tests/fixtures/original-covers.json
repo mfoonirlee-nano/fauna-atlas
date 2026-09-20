@@ -1571,5 +1571,18 @@
       },
       "sha256": "a6dffae688e4ce19c52c38d80c4d360e235b485eec12ab42cb1ff8063d7a281e"
     }
+  },
+  "zebrafish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 762,
+        "top": 332,
+        "right": 1501,
+        "bottom": 571
+      },
+      "sha256": "388d4b3addbbbe2de8714adca881624abbf5a68c8a47ae6215073dbd1f08de51"
+    }
   }
 }
