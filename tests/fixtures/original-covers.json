@@ -2000,5 +2000,18 @@
       },
       "sha256": "3c26ac3e77eb1816fe008b005606cee21971a30c65ad9fbc7c83d771dc95c332"
     }
+  },
+  "leopard-slug": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 780,
+        "top": 205,
+        "right": 1445,
+        "bottom": 765
+      },
+      "sha256": "67f0c6b37682e12712d3e5943441499971a1d3abd6cb764b61d7bd5616d5f642"
+    }
   }
 }

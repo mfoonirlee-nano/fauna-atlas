@@ -3280,5 +3280,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1405,
       "bottom": 775
     }
+  },
+  "leopard-slug": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 780,
+      "top": 205,
+      "right": 1445,
+      "bottom": 765
+    }
   }
 };

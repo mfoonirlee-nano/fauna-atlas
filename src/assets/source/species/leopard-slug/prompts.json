@@ -1,0 +1,43 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Composition edit only. Preserve anatomically accurate Limax maximus leopard slug, spotted front mantle, striped posterior, four tentacles (two long upper eyestalks and two short lower sensory tentacles), wet log and forest litter. Make whole animal about 20 percent smaller and move it to the RIGHT. Entire animal including every tentacle tip and tail tip must be INSIDE RIGHT HALF x=790..1450 y=130..910 of landscape 1536x1024 canvas. Left half contains only quiet defocused damp forest floor. Tail tip must have at least 70px background to right edge. Preserve diagonal natural pose, no shell, no text.",
+      "reference": "/Users/chris.li/.codex/generated_images/01a0c191-1abb-7fa2-9b66-313a452fdf73/exec-5de3120c-8652-4fe2-9836-5ec3cecad4ee.png",
+      "sourceSha256": "1b14043a24cb0b4c68d9196534a7b3e2800301e90a5584f2094ab0102df5fbb5",
+      "webpSha256": "67f0c6b37682e12712d3e5943441499971a1d3abd6cb764b61d7bd5616d5f642"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: leopard slug Limax maximus, shell-less elongated moist grey tan body with dark spots on front mantle and lengthwise dark stripes towards tail, two long eyestalks and two short lower tentacles. Habitat: damp European garden leaf litter and rotting wood. Scene: Whole slug side view crawling on wet leaf, no external shell, leaf provides environment reference only. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "14e5cdf2ecd1d3c46bbcad713a16a3f0479592f1f19ef4cee45164cd006e93d8",
+      "webpSha256": "a42e2c82615cbe93c5d1337b2a15a94aa436a8af13403db02c4d7a9f4c6c621e"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: leopard slug Limax maximus, shell-less elongated moist grey tan body with dark spots on front mantle and lengthwise dark stripes towards tail, two long eyestalks and two short lower tentacles. Habitat: damp European garden leaf litter and rotting wood. Scene: Head close-up showing two long upper eyestalks and two shorter lower sensory tentacles. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "bebb748ab6cccbbc8b73afbbfee4bf152a3ed523bbb0f35beb5a2bca820bb1f5",
+      "webpSha256": "fe1cfd7842920972e377ee4cb09e7a0ee48d550aece9d866527bcc52c91b7130"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: leopard slug Limax maximus, shell-less elongated moist grey tan body with dark spots on front mantle and lengthwise dark stripes towards tail, two long eyestalks and two short lower tentacles. Habitat: damp European garden leaf litter and rotting wood. Scene: Whole slug slightly from above showing dark spotted mantle shield behind head and striped posterior. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "4ff4ee6b5fb09c503d5875afbea2b33aacace8655c44e656abc2953dbc85cbfd",
+      "webpSha256": "62d262e8dd31caa821eb966bc1251a0d1146ff839f26b9e9182ac95cfbae2485"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: leopard slug Limax maximus, shell-less elongated moist grey tan body with dark spots on front mantle and lengthwise dark stripes towards tail, two long eyestalks and two short lower tentacles. Habitat: damp European garden leaf litter and rotting wood. Scene: Whole slug crawling over decaying log at dusk, subtle moist mucus trail behind. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "ea27c6dea6563ff5e48ae5758ca1502361309678e2c4b6b24c6a0695f3555ce5",
+      "webpSha256": "0e10c342b6fa6989026b166daaee8afd34e6af1e93c02a5d43b1fd2cbe931abf"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: leopard slug Limax maximus, shell-less elongated moist grey tan body with dark spots on front mantle and lengthwise dark stripes towards tail, two long eyestalks and two short lower tentacles. Habitat: damp European garden leaf litter and rotting wood. Scene: Whole slug beside a mushroom in damp litter, head close to fungus, no other animals. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "fbadeb3e4972a8183fa0da623ab1ace159f90033cd42e77859dc7084517e1203",
+      "webpSha256": "36ede723f2bba7d2d09b5d596af3bb7c2c98c1768db600f933ea5e7a4f682d43"
+    }
+  ]
+}

@@ -97113,6 +97113,248 @@ export const species = [
   "publishedAt": "2026-09-21",
   "updatedAt": "2026-09-21"
 },
+{
+  "id": "leopard-slug",
+  "slug": "leopard-slug",
+  "names": {
+    "zh": "豹纹蛞蝓",
+    "en": "Leopard Slug"
+  },
+  "scientificName": "Limax maximus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Mollusca",
+      "zhName": "软体动物门"
+    },
+    "class": {
+      "scientificName": "Gastropoda",
+      "zhName": "腹足纲"
+    },
+    "order": {
+      "scientificName": "Stylommatophora",
+      "zhName": "柄眼目"
+    },
+    "family": {
+      "scientificName": "Limacidae",
+      "zhName": "蛞蝓科"
+    },
+    "genus": {
+      "scientificName": "Limax",
+      "zhName": "蛞蝓属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "全球 LC 依据二级资料所引 Rowson 2017 评估；IUCN 原页本次未能读取，独立评估日期与趋势未核实，年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "原生于欧洲，常见于潮湿林地和花园；已引入其他地区"
+    ],
+    "countries": [
+      "英国",
+      "法国",
+      "德国"
+    ],
+    "range": "原生于欧洲，常见于潮湿林地和花园；已引入其他地区。国家列表仅列代表性分布地。"
+  },
+  "habitats": [
+    {
+      "name": "原生于欧洲，常见于潮湿林地和花园；已引入其他地区",
+      "realm": "terrestrial",
+      "description": "原生于欧洲，常见于潮湿林地和花园；已引入其他地区。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore",
+      "detritivore"
+    ],
+    "foods": [
+      "真菌",
+      "腐烂植物",
+      "其他有机物"
+    ],
+    "description": "食物包括真菌、腐烂植物、其他有机物。"
+  },
+  "tags": [
+    "豹纹蛞蝓",
+    "软身体慢慢爬"
+  ],
+  "summary": "和蜗牛一起看，找找它没有外露螺壳的背。",
+  "description": "豹纹蛞蝓用腹面的足爬行，外面没有蜗牛那样的螺壳，外套膜里面仍有小型壳片。 原生于欧洲，常见于潮湿林地和花园；已引入其他地区是它的生活区域。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "软身体慢慢爬",
+      "body": "豹纹蛞蝓用腹面的足爬行，外面没有蜗牛那样的螺壳，外套膜里面仍有小型壳片。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "长短两对触角",
+      "body": "头上有两对触角，较长的一对顶端有眼睛，较短的一对靠近口部。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "前面斑点后面条纹",
+      "body": "外套膜上常有暗色斑点，后半身常出现纵向条纹。花纹会随个体而变化。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "湿湿的爬行痕迹",
+      "body": "它常在夜间和潮湿时活动，爬过的地方可能留下透明黏液。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "落叶与真菌",
+      "body": "它会吃真菌和腐烂的植物材料。落叶、木头和蘑菇提供环境参照，不是比例尺。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留适量枯木落叶供本地小动物藏身，不把蛞蝓带到新的地区。全球 LC 依据二级资料所引 Rowson 2017 评估；IUCN 原页本次未能读取，独立评估日期与趋势未核实，年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "豹纹蛞蝓用腹面的足爬行，外面没有蜗牛那样的螺壳，外套膜里面仍有小型壳片。",
+    "头上有两对触角，较长的一对顶端有眼睛，较短的一对靠近口部。",
+    "外套膜上常有暗色斑点，后半身常出现纵向条纹。花纹会随个体而变化。",
+    "它常在夜间和潮湿时活动，爬过的地方可能留下透明黏液。",
+    "它会吃真菌和腐烂的植物材料。落叶、木头和蘑菇提供环境参照，不是比例尺。"
+  ],
+  "threats": [
+    "局地微生境干燥与清除"
+  ],
+  "conservationActions": [
+    "保留适量枯木落叶供本地小动物藏身，不把蛞蝓带到新的地区。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "软身体慢慢爬"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "原生于欧洲，常见于潮湿林地和花园；已引入其他地区"
+    }
+  ],
+  "media": {
+    "image": "./images/species/leopard-slug/01-cover.webp",
+    "alt": "豹纹蛞蝓在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/leopard-slug/02-observation.webp",
+        "title": "软身体慢慢爬",
+        "alt": "豹纹蛞蝓：软身体慢慢爬",
+        "caption": "AI 生成科学情景重建。豹纹蛞蝓用腹面的足爬行，外面没有蜗牛那样的螺壳，外套膜里面仍有小型壳片。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leopard-slug/03-observation.webp",
+        "title": "长短两对触角",
+        "alt": "豹纹蛞蝓：长短两对触角",
+        "caption": "AI 生成科学情景重建。头上有两对触角，较长的一对顶端有眼睛，较短的一对靠近口部。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leopard-slug/04-observation.webp",
+        "title": "前面斑点后面条纹",
+        "alt": "豹纹蛞蝓：前面斑点后面条纹",
+        "caption": "AI 生成科学情景重建。外套膜上常有暗色斑点，后半身常出现纵向条纹。花纹会随个体而变化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leopard-slug/05-observation.webp",
+        "title": "湿湿的爬行痕迹",
+        "alt": "豹纹蛞蝓：湿湿的爬行痕迹",
+        "caption": "AI 生成科学情景重建。它常在夜间和潮湿时活动，爬过的地方可能留下透明黏液。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/leopard-slug/06-observation.webp",
+        "title": "落叶与真菌",
+        "alt": "豹纹蛞蝓：落叶与真菌",
+        "caption": "AI 生成科学情景重建。它会吃真菌和腐烂的植物材料。落叶、木头和蘑菇提供环境参照，不是比例尺。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "美国农业部协作鉴定工具：豹纹蛞蝓形态与分布",
+      "url": "https://idtools.org/mollusk/index.cfm?entityID=8229&packageID=1178",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "皇家园艺学会：豹纹蛞蝓外形识别",
+      "url": "https://www.rhs.org.uk/science/pdf/slug-id-guide.pdf",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "维基百科所引 Rowson 2017 全球 LC 评估（原页读取受限）",
+      "url": "https://en.wikipedia.org/wiki/Limax_maximus",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

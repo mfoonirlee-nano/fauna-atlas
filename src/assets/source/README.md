@@ -504,3 +504,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Alpine Newt image set](./species/alpine-newt/README.md)
 - [Long-spined Porcupinefish image set](./species/long-spined-porcupinefish/README.md)
 - [Glasswing Butterfly image set](./species/glasswing-butterfly/README.md)
+- [Leopard Slug image set](./species/leopard-slug/README.md)
