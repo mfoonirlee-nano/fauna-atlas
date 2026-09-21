@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction, landscape 1536x1024. Cover for animal atlas for young children. Subject: one juvenile yellow boxfish Ostracion cubicus, cubical bright yellow body with small black round spots, small mouth, two eyes, tiny translucent fins, short caudal peduncle and fanned tail, no horns. Environment: clear tropical coral reef water above coral rubble. COMPOSITION STRICT: entire animal including every visible antenna, toe, bill, tail or tentacle must fit in the RIGHT HALF, within x=660..1470 and y=70..950 of a 1536x1024 frame. Maximize subject within that area. Left 40 percent ONLY quiet natural background, no animal or other creatures. Real background margin around complete silhouette. Eye level or slight three-quarter angle, clear anatomy, realistic textures, gentle natural light. No text, no border, no montage, no ruler, no artificial objects. Do not cut off extremities."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one juvenile yellow boxfish Ostracion cubicus, cubical bright yellow body with small black round spots, small mouth, two eyes, tiny translucent fins, short caudal peduncle and fanned tail, no horns. Natural environment: clear tropical coral reef water above coral rubble. Specific scene overrides default sex, age and pose: Front three-quarter whole JUVENILE yellow boxfish, bright yellow with black spots, rounded cubic body and small mouth, all fins in frame.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one juvenile yellow boxfish Ostracion cubicus, cubical bright yellow body with small black round spots, small mouth, two eyes, tiny translucent fins, short caudal peduncle and fanned tail, no horns. Natural environment: clear tropical coral reef water above coral rubble. Specific scene overrides default sex, age and pose: Side view of juvenile hovering by a sheltered coral crevice, tiny translucent pectoral, dorsal and anal fins visible, complete tail.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one juvenile yellow boxfish Ostracion cubicus, cubical bright yellow body with small black round spots, small mouth, two eyes, tiny translucent fins, short caudal peduncle and fanned tail, no horns. Natural environment: clear tropical coral reef water above coral rubble. Specific scene overrides default sex, age and pose: Whole ADULT Ostracion cubicus instead of juvenile: elongated boxlike pale olive-yellow body with many small blue-white spots edged darker, muted adult coloring, flexible tail peduncle, no horns. Do NOT use bright yellow large black-spotted juvenile pattern.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one juvenile yellow boxfish Ostracion cubicus, cubical bright yellow body with small black round spots, small mouth, two eyes, tiny translucent fins, short caudal peduncle and fanned tail, no horns. Natural environment: clear tropical coral reef water above coral rubble. Specific scene overrides default sex, age and pose: Whole juvenile looking toward a small algae-covered reef rock, tiny mouth near surface, relaxed feeding scene.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one juvenile yellow boxfish Ostracion cubicus, cubical bright yellow body with small black round spots, small mouth, two eyes, tiny translucent fins, short caudal peduncle and fanned tail, no horns. Natural environment: clear tropical coral reef water above coral rubble. Specific scene overrides default sex, age and pose: Whole juvenile seen from rear three-quarter angle, cubical body, flexible narrow tail base and rounded tail fin visible, clear water background.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    }
+  ]
+}

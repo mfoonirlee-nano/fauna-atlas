@@ -24302,7 +24302,7 @@ test('five new toddler profiles keep sourced identities and separate regional co
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 316);
+  assert.equal(species.length, 317);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24473,7 +24473,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 316);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 317);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24494,7 +24494,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 246);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 247);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 93);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 38);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 2);
@@ -24516,7 +24516,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 22);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 23);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -25076,7 +25076,7 @@ test('integrates white-spotted pufferfish taxonomy, measurement scope and review
   const profile = findSpecies('white-spotted-pufferfish');
   const tree = buildTaxonomyTree(species);
   assert.equal(profile.scientificName, 'Torquigener albomaculosus');
-  assert.equal(findTaxon(tree, 'order', 'Tetraodontiformes')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Tetraodontiformes')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Tetraodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Torquigener')?.children[0]?.species.id, profile.id);
   assert.deepEqual(profile.distribution.realms, ['marine']);

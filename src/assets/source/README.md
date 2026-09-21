@@ -491,3 +491,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Pied Avocet image set](./species/pied-avocet/README.md)
 - [Pancake Tortoise image set](./species/pancake-tortoise/README.md)
 - [Common Midwife Toad image set](./species/common-midwife-toad/README.md)
+- [Yellow Boxfish image set](./species/yellow-boxfish/README.md)

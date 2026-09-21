@@ -3160,5 +3160,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1425,
       "bottom": 818
     }
+  },
+  "yellow-boxfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 642,
+      "top": 180,
+      "right": 1480,
+      "bottom": 762
+    }
   }
 };
