@@ -503,3 +503,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Tokay Gecko image set](./species/tokay-gecko/README.md)
 - [Alpine Newt image set](./species/alpine-newt/README.md)
 - [Long-spined Porcupinefish image set](./species/long-spined-porcupinefish/README.md)
+- [Glasswing Butterfly image set](./species/glasswing-butterfly/README.md)

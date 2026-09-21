@@ -96871,6 +96871,248 @@ export const species = [
   "publishedAt": "2026-09-21",
   "updatedAt": "2026-09-21"
 },
+{
+  "id": "glasswing-butterfly",
+  "slug": "glasswing-butterfly",
+  "names": {
+    "zh": "透翅蝶",
+    "en": "Glasswing Butterfly"
+  },
+  "scientificName": "Greta oto",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Lepidoptera",
+      "zhName": "鳞翅目"
+    },
+    "family": {
+      "scientificName": "Nymphalidae",
+      "zhName": "蛱蝶科"
+    },
+    "genus": {
+      "scientificName": "Greta",
+      "zhName": "透翅蝶属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "沿用 BAMONA 与 MBL 使用的 Greta oto 种级名称。所引资料未提供正式全球 IUCN 评估，暂记 NE；不将空白保护字段解释成无危。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "墨西哥至巴拿马的林缘、林间空地与次生林"
+    ],
+    "countries": [
+      "墨西哥",
+      "危地马拉",
+      "哥斯达黎加",
+      "巴拿马"
+    ],
+    "range": "墨西哥至巴拿马的林缘、林间空地与次生林。国家列表仅列代表性分布地。"
+  },
+  "habitats": [
+    {
+      "name": "墨西哥至巴拿马的林缘、林间空地与次生林",
+      "realm": "terrestrial",
+      "description": "墨西哥至巴拿马的林缘、林间空地与次生林。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "nectarivore",
+      "herbivore"
+    ],
+    "foods": [
+      "成虫取食花蜜",
+      "幼虫取食夜香树属植物叶片"
+    ],
+    "description": "食物包括成虫取食花蜜、幼虫取食夜香树属植物叶片。"
+  },
+  "tags": [
+    "透翅蝶",
+    "透过翅膀看叶子"
+  ],
+  "summary": "透过翅膀中间，看看后面的叶子。",
+  "description": "透翅蝶的翅膀有大片透明区域，可以透出后方的颜色。叶片只作环境参照，图像不表示实际大小。 墨西哥至巴拿马的林缘、林间空地与次生林是它的生活区域。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "透过翅膀看叶子",
+      "body": "透翅蝶的翅膀有大片透明区域，可以透出后方的颜色。叶片只作环境参照，图像不表示实际大小。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "伸出长喙吸蜜",
+      "body": "成虫能伸出细长的喙吸花蜜；幼虫吃寄主植物的叶片，食物与成虫不同。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "头上的两根触角",
+      "body": "透翅蝶头上有一对细长触角。近景把小动物放大，便于观察。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "翅膀还有深色边",
+      "body": "透明部分周围保留深色边缘，前翅还有白色条带。翅膀没有完全消失。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "林间的小蝴蝶",
+      "body": "透翅蝶在中美洲林缘和林间空地活动。透明区域的鳞片较稀疏，表面微结构还能减少反光。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留林缘植物与花源，观察时不触碰蝴蝶翅膀。沿用 BAMONA 与 MBL 使用的 Greta oto 种级名称。所引资料未提供正式全球 IUCN 评估，暂记 NE；不将空白保护字段解释成无危。"
+    }
+  ],
+  "keyFacts": [
+    "透翅蝶的翅膀有大片透明区域，可以透出后方的颜色。叶片只作环境参照，图像不表示实际大小。",
+    "成虫能伸出细长的喙吸花蜜；幼虫吃寄主植物的叶片，食物与成虫不同。",
+    "透翅蝶头上有一对细长触角。近景把小动物放大，便于观察。",
+    "透明部分周围保留深色边缘，前翅还有白色条带。翅膀没有完全消失。",
+    "透翅蝶在中美洲林缘和林间空地活动。透明区域的鳞片较稀疏，表面微结构还能减少反光。"
+  ],
+  "threats": [
+    "林地与寄主植物减少"
+  ],
+  "conservationActions": [
+    "保留林缘植物与花源，观察时不触碰蝴蝶翅膀。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "透过翅膀看叶子"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "墨西哥至巴拿马的林缘、林间空地与次生林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/glasswing-butterfly/01-cover.webp",
+    "alt": "透翅蝶在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/glasswing-butterfly/02-observation.webp",
+        "title": "透过翅膀看叶子",
+        "alt": "透翅蝶：透过翅膀看叶子",
+        "caption": "AI 生成科学情景重建。透翅蝶的翅膀有大片透明区域，可以透出后方的颜色。叶片只作环境参照，图像不表示实际大小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/glasswing-butterfly/03-observation.webp",
+        "title": "伸出长喙吸蜜",
+        "alt": "透翅蝶：伸出长喙吸蜜",
+        "caption": "AI 生成科学情景重建。成虫能伸出细长的喙吸花蜜；幼虫吃寄主植物的叶片，食物与成虫不同。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/glasswing-butterfly/04-observation.webp",
+        "title": "头上的两根触角",
+        "alt": "透翅蝶：头上的两根触角",
+        "caption": "AI 生成科学情景重建。透翅蝶头上有一对细长触角。近景把小动物放大，便于观察。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/glasswing-butterfly/05-observation.webp",
+        "title": "翅膀还有深色边",
+        "alt": "透翅蝶：翅膀还有深色边",
+        "caption": "AI 生成科学情景重建。透明部分周围保留深色边缘，前翅还有白色条带。翅膀没有完全消失。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/glasswing-butterfly/06-observation.webp",
+        "title": "林间的小蝴蝶",
+        "alt": "透翅蝶：林间的小蝴蝶",
+        "caption": "AI 生成科学情景重建。透翅蝶在中美洲林缘和林间空地活动。透明区域的鳞片较稀疏，表面微结构还能减少反光。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "BAMONA：透翅蝶种级名称与科级归属",
+      "url": "https://www.butterfliesandmoths.org/species/greta-oto",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "弗朗西斯科·马罗金大学：形态、食性与中美洲分布",
+      "url": "https://arboretum.ufm.edu/animales/greta-oto/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "海洋生物实验室 MBL：透明翅膀的发育研究",
+      "url": "https://www.mbl.edu/news/seeing-invisible-how-butterflies-make-transparent-wings",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

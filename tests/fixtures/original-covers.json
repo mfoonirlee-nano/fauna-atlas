@@ -1987,5 +1987,18 @@
       },
       "sha256": "5e42f79a838ee6801975cf5e37ff06d9c0f16c765fc1222a75375910707b08cf"
     }
+  },
+  "glasswing-butterfly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 855,
+        "top": 215,
+        "right": 1405,
+        "bottom": 775
+      },
+      "sha256": "3c26ac3e77eb1816fe008b005606cee21971a30c65ad9fbc7c83d771dc95c332"
+    }
   }
 }

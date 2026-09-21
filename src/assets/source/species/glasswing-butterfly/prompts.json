@@ -1,0 +1,43 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Edit composition only. Preserve this Greta oto glasswing butterfly with transparent membranes, dark brown edges, white forewing band, two antennae, folded wings and green leaf. Shift the ENTIRE butterfly to the right about 130 pixels and slightly reduce its size so its entire silhouette INCLUDING leftmost antenna tip fits x=730..1450 y=120..860 of this 1536x1024 image. Left 44% must contain only quiet forest background. No antenna on the left side. Retain real background margins, realistic anatomy and leaf perch. No text, no borders.",
+      "reference": "/Users/chris.li/.codex/generated_images/01a0c191-1abb-7fa2-9b66-313a452fdf73/exec-9836ae03-22c9-4189-8fd8-6ec6ba6d8b45.png",
+      "sourceSha256": "4326a8c4827bd1666004e9b15af53d4692696835a8752ea48cebea1bf8040030",
+      "webpSha256": "3c26ac3e77eb1816fe008b005606cee21971a30c65ad9fbc7c83d771dc95c332"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: glasswing butterfly Greta oto, transparent wing membranes framed in dark brown, white band across forewing apex, slender dark body and two antennae. Habitat: Central American tropical forest understory. Scene: Butterfly perched on green leaf with wings raised, green leaf visibly seen through clear wing membranes; macro, leaf as context not scale. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "72b5ed9c6fd27ccf0effa86983f6b05bb4f02eebd686aa979085a662576abd50",
+      "webpSha256": "3decb6562e865112da722ba454ea0f5ff61a7efc10b15cb1f861cce030d2dfc8"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: glasswing butterfly Greta oto, transparent wing membranes framed in dark brown, white band across forewing apex, slender dark body and two antennae. Habitat: Central American tropical forest understory. Scene: Butterfly side view feeding on a small flower with extended slender proboscis. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "ebbc136c6c520160ea3e3a8d273a4dc23412a4c8a94e1013861a02d8eeefdc03",
+      "webpSha256": "a98d7045026b74bcd5ebc5058402c9faf706fb1ae235c538ccd8fc0409eab583"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: glasswing butterfly Greta oto, transparent wing membranes framed in dark brown, white band across forewing apex, slender dark body and two antennae. Habitat: Central American tropical forest understory. Scene: Front oblique portrait with both slender antennae visible, transparent wings behind. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "715af35dbbec5fe2e8ffefc7d8ec6c0b4e2747132e3f117079c1d62dbe88034d",
+      "webpSha256": "8162a2f46c285b75adaadf23e99ea7a451e6f89f700fa9ad31930009f32d4aa6"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: glasswing butterfly Greta oto, transparent wing membranes framed in dark brown, white band across forewing apex, slender dark body and two antennae. Habitat: Central American tropical forest understory. Scene: Whole butterfly resting with wings spread enough to show brown margins and white forewing bands. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "a15cacdbd602b990a2573230301e89c6d58af6b6cf468fed6712942f0623344d",
+      "webpSha256": "eb44349ff91d0f051f179ad7dee76453bc4199d6da15ad29c5ae762cf1847e2f"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: glasswing butterfly Greta oto, transparent wing membranes framed in dark brown, white band across forewing apex, slender dark body and two antennae. Habitat: Central American tropical forest understory. Scene: Whole butterfly on a thin twig with diffuse green forest background and soft rain droplets on nearby leaves. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "3300a825435e927b9b7472c2de6830508de192588fc40d07b51a409e9782906a",
+      "webpSha256": "dd6d7b3690225eaa06ca163a0ad78064f3c6a4c18664794d7e1c52aae5facb20"
+    }
+  ]
+}

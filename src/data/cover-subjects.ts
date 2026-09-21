@@ -3270,5 +3270,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 607
     }
+  },
+  "glasswing-butterfly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 855,
+      "top": 215,
+      "right": 1405,
+      "bottom": 775
+    }
   }
 };
