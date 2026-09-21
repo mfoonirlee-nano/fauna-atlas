@@ -488,3 +488,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Binturong image set](./species/binturong/README.md)
 - [Fossa image set](./species/fossa/README.md)
 - [Black-winged Stilt image set](./species/black-winged-stilt/README.md)
+- [Pied Avocet image set](./species/pied-avocet/README.md)

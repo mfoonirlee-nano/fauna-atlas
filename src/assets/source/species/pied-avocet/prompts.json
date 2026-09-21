@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction, landscape 1536x1024. Cover for animal atlas for young children. Subject: one adult pied avocet Recurvirostra avosetta, black cap and nape, white body with black folded wing markings, thin black bill clearly upcurved towards tip, long blue-grey legs. Environment: a shallow salt lagoon mud bank, feet on damp mud. COMPOSITION STRICT: entire animal including every visible antenna, toe, bill, tail or tentacle must fit in the RIGHT HALF, within x=660..1470 and y=70..950 of a 1536x1024 frame. Maximize subject within that area. Left 40 percent ONLY quiet natural background, no animal or other creatures. Real background margin around complete silhouette. Eye level or slight three-quarter angle, clear anatomy, realistic textures, gentle natural light. No text, no border, no montage, no ruler, no artificial objects. Do not cut off extremities."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult pied avocet Recurvirostra avosetta, black cap and nape, white body with black folded wing markings, thin black bill clearly upcurved towards tip, long blue-grey legs. Natural environment: a shallow salt lagoon mud bank, feet on damp mud. Specific scene overrides default sex, age and pose: Full bird in side view, very clear fine UP-curved bill, black cap, white body and bluish grey legs.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult pied avocet Recurvirostra avosetta, black cap and nape, white body with black folded wing markings, thin black bill clearly upcurved towards tip, long blue-grey legs. Natural environment: a shallow salt lagoon mud bank, feet on damp mud. Specific scene overrides default sex, age and pose: Full bird feeding with head lowered, thin upcurved bill in shallow water sweeping sideways, natural small ripples, no drawn arrows.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult pied avocet Recurvirostra avosetta, black cap and nape, white body with black folded wing markings, thin black bill clearly upcurved towards tip, long blue-grey legs. Natural environment: a shallow salt lagoon mud bank, feet on damp mud. Specific scene overrides default sex, age and pose: Full bird standing still on muddy margin, long blue grey legs and partially webbed toes visible.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult pied avocet Recurvirostra avosetta, black cap and nape, white body with black folded wing markings, thin black bill clearly upcurved towards tip, long blue-grey legs. Natural environment: a shallow salt lagoon mud bank, feet on damp mud. Specific scene overrides default sex, age and pose: Single avocet in flight over lagoon, contrasting black and white wings extended, complete bill and legs in frame.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult pied avocet Recurvirostra avosetta, black cap and nape, white body with black folded wing markings, thin black bill clearly upcurved towards tip, long blue-grey legs. Natural environment: a shallow salt lagoon mud bank, feet on damp mud. Specific scene overrides default sex, age and pose: Two adult avocets resting on a salt lagoon edge in soft light, one with head tucked into shoulder plumage.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    }
+  ]
+}

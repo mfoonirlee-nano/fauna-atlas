@@ -3130,5 +3130,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1478,
       "bottom": 945
     }
+  },
+  "pied-avocet": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 78,
+      "right": 1415,
+      "bottom": 900
+    }
   }
 };

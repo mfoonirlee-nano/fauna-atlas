@@ -1805,5 +1805,18 @@
       },
       "sha256": "cd1ee69aace823652e5caeec5fd1af4340f58c9f17b01fbec7107c50c7f29d0b"
     }
+  },
+  "pied-avocet": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 78,
+        "right": 1415,
+        "bottom": 900
+      },
+      "sha256": "93bff5acb9dec3f75120d7df899dd9c4b6b1d47fa3ac764725376d4fd54e8c91"
+    }
   }
 }
