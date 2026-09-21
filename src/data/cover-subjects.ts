@@ -3230,5 +3230,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1468,
       "bottom": 952
     }
+  },
+  "blue-footed-booby": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 80,
+      "right": 1500,
+      "bottom": 885
+    }
   }
 };

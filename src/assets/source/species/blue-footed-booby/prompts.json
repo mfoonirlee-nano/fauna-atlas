@@ -1,0 +1,42 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult blue-footed booby Sula nebouxii, bright blue webbed feet, brown wings, streaked pale brown head, white belly, long grey pointed bill. Habitat: rocky Galapagos coast above Pacific Ocean. Scene: Full subject resting naturally. Cover composition: place the whole animal or whole exposed colony on the right, bounding box approximately x=640..1460 y=90..940 of 1536x1024; visually centered around 70% of width, maximize subject size within those bounds. Left 40% quiet defocused habitat for text. Complete visible outer outline including tail, wing tips, feet and antennae, with real background margins. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "b989850dd13a7113e8f03e5c6ec80f1a113c91ffcb6f4daf642152df2118e020",
+      "webpSha256": "f384cc0431dddaaddd0edf8b8d1826c362aa362c322ef3d1d379cf8269d2db49"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult blue-footed booby Sula nebouxii, bright blue webbed feet, brown wings, streaked pale brown head, white belly, long grey pointed bill. Habitat: rocky Galapagos coast above Pacific Ocean. Scene: Low view of whole bird emphasizing blue webbed toes on volcanic rock. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "c6cec58e83c187730d899aacc6bddb1ed1fbc163f715ac0b3b30f9850277e0a6",
+      "webpSha256": "4d4dc264df6c056b5ff5ffa82cd4ddca192caf736bc26be27d07da195a0d932c"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult blue-footed booby Sula nebouxii, bright blue webbed feet, brown wings, streaked pale brown head, white belly, long grey pointed bill. Habitat: rocky Galapagos coast above Pacific Ocean. Scene: Full adult male performing courtship high-step with one blue foot lifted, wings folded. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "3a14f3123f4225c7d57d517ff86613f1ba9d4c1b9b055f86e87b7dd02957e30f",
+      "webpSha256": "9c94df6367a9d6b7680b3cabb22cff009b68c69505d49eddb3767cd3a5988444"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult blue-footed booby Sula nebouxii, bright blue webbed feet, brown wings, streaked pale brown head, white belly, long grey pointed bill. Habitat: rocky Galapagos coast above Pacific Ocean. Scene: Whole adult in flight above ocean with both brown wings fully visible. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "49131e7ebcd8b1efb82ecac89701dcfb6180fbfff3d3c5bca7c4d72529b84ebe",
+      "webpSha256": "9ee62482af52317b330564abda7e9479ca5f71705c16d1c19f3624dde223f9a5"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult blue-footed booby Sula nebouxii, bright blue webbed feet, brown wings, streaked pale brown head, white belly, long grey pointed bill. Habitat: rocky Galapagos coast above Pacific Ocean. Scene: Adult settled over nest scrape on ground, white downy chick nearby, no tree nest. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "7f8433da79bee65f3153ea9548e07f080585c3118afa644d9374dcd5d68b7c8b",
+      "webpSha256": "747f5e9708f7f0e70435a1bf653c2b1e91a0ed146ca07f8e9b154b0d8c666dc1"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult blue-footed booby Sula nebouxii, bright blue webbed feet, brown wings, streaked pale brown head, white belly, long grey pointed bill. Habitat: rocky Galapagos coast above Pacific Ocean. Scene: Full adult standing facing sea on rock, natural soft coastal light. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "7ba0b162b59ff1ab6281ca3162bf4accbf5ef0091c0e1c4b6bc274af6347a596",
+      "webpSha256": "fdd929cb4b66a296b282209b777d0dbf16e06588a825b137309ff2b9bb77a229"
+    }
+  ]
+}

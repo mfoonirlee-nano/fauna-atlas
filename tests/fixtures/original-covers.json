@@ -1935,5 +1935,18 @@
       },
       "sha256": "84067a23bab20f1705cd8a689613f6a1382597d8e57c452bd485d97e4d56c5aa"
     }
+  },
+  "blue-footed-booby": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 80,
+        "right": 1500,
+        "bottom": 885
+      },
+      "sha256": "f384cc0431dddaaddd0edf8b8d1826c362aa362c322ef3d1d379cf8269d2db49"
+    }
   }
 }

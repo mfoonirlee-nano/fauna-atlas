@@ -499,3 +499,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Proboscis Monkey image set](./species/proboscis-monkey/README.md)
 - [Mandrill image set](./species/mandrill/README.md)
 - [Great White Pelican image set](./species/great-white-pelican/README.md)
+- [Blue-footed Booby image set](./species/blue-footed-booby/README.md)
