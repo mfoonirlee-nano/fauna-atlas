@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "sandfish-skink",
+    "index": 1,
+    "prompt": "Generate ONE 1536x1024 photorealistic wildlife editorial image for Fauna Atlas scientific scene reconstruction. No text, labels, watermark, borders, collage or people. Cover composition: entire subject on right, all extremities within x=760..1460 y=100..930, left 40% quiet natural habitat background for headline. Large subject, visible background gap around all extremities. One Scincus scincus sandfish skink walking diagonally on fine Sahara sand, shiny golden cream scales with dark transverse bands, shovel wedge snout, four short legs with toes, complete tapered tail. Slightly elevated three-quarter view, full body on right. Natural warm morning light.",
+    "sourceFile": "01-cover-source.png",
+    "runtimeFile": "01-cover.webp"
+  },
+  {
+    "slug": "sandfish-skink",
+    "index": 2,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Scincus scincus sandfish skink, golden shiny smooth scales, dark crossbands, wedge shovel snout, small eyes, four short legs and tapered tail. Scene: Close side view of the wedge shaped snout and head, forelimbs on fine sand, scales crisp, natural North African dune light. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "02-observation-source.png",
+    "runtimeFile": "02-observation.webp"
+  },
+  {
+    "slug": "sandfish-skink",
+    "index": 3,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Scincus scincus sandfish skink, golden shiny smooth scales, dark crossbands, wedge shovel snout, small eyes, four short legs and tapered tail. Scene: Entire animal walking over pale rippled sand, four legs in plausible walking posture, complete toes and tail visible, low ground level camera. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "03-observation-source.png",
+    "runtimeFile": "03-observation.webp"
+  },
+  {
+    "slug": "sandfish-skink",
+    "index": 4,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Scincus scincus sandfish skink, golden shiny smooth scales, dark crossbands, wedge shovel snout, small eyes, four short legs and tapered tail. Scene: Animal diving head first into loose sand, head hidden and front part submerged, rear body and full tail still above sand, single natural action moment. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "04-observation-source.png",
+    "runtimeFile": "04-observation.webp"
+  },
+  {
+    "slug": "sandfish-skink",
+    "index": 5,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Scincus scincus sandfish skink, golden shiny smooth scales, dark crossbands, wedge shovel snout, small eyes, four short legs and tapered tail. Scene: Only the head and upper neck emerging from sand, rest of body concealed under opaque sand, no cutaway, morning light. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "05-observation-source.png",
+    "runtimeFile": "05-observation.webp"
+  },
+  {
+    "slug": "sandfish-skink",
+    "index": 6,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Scincus scincus sandfish skink, golden shiny smooth scales, dark crossbands, wedge shovel snout, small eyes, four short legs and tapered tail. Scene: Entire skink on sand facing a small dark beetle one head-length ahead, alert searching posture, no gore. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "06-observation-source.png",
+    "runtimeFile": "06-observation.webp"
+  }
+]

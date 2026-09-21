@@ -3300,5 +3300,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1275,
       "bottom": 955
     }
+  },
+  "lar-gibbon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 785,
+      "top": 85,
+      "right": 1430,
+      "bottom": 960
+    }
+  },
+  "magnificent-frigatebird": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 623,
+      "top": 54,
+      "right": 1395,
+      "bottom": 985
+    }
+  },
+  "sandfish-skink": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 723,
+      "top": 232,
+      "right": 1439,
+      "bottom": 792
+    }
+  },
+  "great-hammerhead": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 643,
+      "top": 138,
+      "right": 1489,
+      "bottom": 666
+    }
+  },
+  "atlas-moth": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 788,
+      "top": 293,
+      "right": 1477,
+      "bottom": 735
+    }
   }
 };

@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "lar-gibbon",
+    "index": 1,
+    "prompt": "Create one 1536x1024 photorealistic natural-history editorial wildlife photograph style illustration for Fauna Atlas. One anatomically accurate white-handed lar gibbon (Hylobates lar), dark brown fur with pale face ring and white hands and feet, no tail, sitting upright on a rainforest branch with long arms resting and complete fingers and feet visible. Cover composition: whole animal entirely within right half, subject boundary approximately x=850..1430 y=130..940, center at 74% width. Large clear subject, real background clearance around all body extremities. Left 40% quiet softly blurred green Thai rainforest for title overlay. Natural diffuse daylight. No words, no watermark, no border, no collage. Scientific scene reconstruction.",
+    "sourceFile": "01-cover-source.png",
+    "runtimeFile": "01-cover.webp"
+  },
+  {
+    "slug": "lar-gibbon",
+    "index": 2,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Hylobates lar white-handed gibbon, long arms, white hand and foot fur, pale face ring, no tail. Scene: Full body suspended below a horizontal forest branch by both long arms, hands gripping separate points, legs bent naturally. Show complete hands and feet, no duplicated limbs. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "02-observation-source.png",
+    "runtimeFile": "02-observation.webp"
+  },
+  {
+    "slug": "lar-gibbon",
+    "index": 3,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Hylobates lar white-handed gibbon, long arms, white hand and foot fur, pale face ring, no tail. Scene: Close view of a dark furred adult sitting on a branch holding a small wild fig, examining the fruit. Show white hand hair and face ring. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "03-observation-source.png",
+    "runtimeFile": "03-observation.webp"
+  },
+  {
+    "slug": "lar-gibbon",
+    "index": 4,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Hylobates lar white-handed gibbon, long arms, white hand and foot fur, pale face ring, no tail. Scene: One cream-furred adult resting on a rainforest branch, full body. Cream is a natural color morph in either sex, retain dark hairless face and white face ring. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "04-observation-source.png",
+    "runtimeFile": "04-observation.webp"
+  },
+  {
+    "slug": "lar-gibbon",
+    "index": 5,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Hylobates lar white-handed gibbon, long arms, white hand and foot fur, pale face ring, no tail. Scene: A mother gibbon on a thick branch with one small infant clinging to her belly fur, unobstructed natural anatomy. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "05-observation-source.png",
+    "runtimeFile": "05-observation.webp"
+  },
+  {
+    "slug": "lar-gibbon",
+    "index": 6,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Hylobates lar white-handed gibbon, long arms, white hand and foot fur, pale face ring, no tail. Scene: Two adult gibbons on separate neighboring branches, one mouth open calling at dawn, rainforest canopy setting, white hands and no tails. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "06-observation-source.png",
+    "runtimeFile": "06-observation.webp"
+  }
+]

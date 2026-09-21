@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "atlas-moth",
+    "index": 1,
+    "prompt": "Generate ONE 1536x1024 photorealistic wildlife editorial image for Fauna Atlas scientific scene reconstruction. No text, labels, watermark, borders, collage or people. Cover composition: entire subject on right, all extremities within x=760..1460 y=100..930, left 40% quiet natural habitat background for headline. Large subject, visible background gap around all extremities. One adult Attacus atlas atlas moth resting with all four broad rusty orange brown patterned wings spread flat on tree bark in Southeast Asian forest. Translucent triangular windows in wings, cream pink dark brown bands, curved apical tips, two feathery antennae. Entire moth large in right half, full wings unobscured with gap to image edges, softly blurred leaves left. No ruler.",
+    "sourceFile": "01-cover-source.png",
+    "runtimeFile": "01-cover.webp",
+    "editPrompt": "Edit this wildlife atlas cover. Preserve the realistic Attacus atlas identity and wing pattern, complete spread wings and antennae, vertical bark and forest habitat. Recompose moth to be smaller and further right: entire moth bounding box MUST lie within x=760 to 1450, y=230 to 810 in a 1536x1024 image. Left 40% (x=0..614) must contain only softly blurred forest, no moth. Keep natural background gap on all sides, moth remains clear principal subject, no text, labels, watermark or border. Scientific scene reconstruction."
+  },
+  {
+    "slug": "atlas-moth",
+    "index": 2,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Attacus atlas atlas moth, rusty orange brown huge broad wings with cream pink dark bands and translucent triangular wing windows, curved forewing tips. Scene: Adult male resting wings open on tree bark, medium close view shows paired feathery antennae and furry thorax, natural forest light. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "02-observation-source.png",
+    "runtimeFile": "02-observation.webp"
+  },
+  {
+    "slug": "atlas-moth",
+    "index": 3,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Attacus atlas atlas moth, rusty orange brown huge broad wings with cream pink dark bands and translucent triangular wing windows, curved forewing tips. Scene: Close-up of one intact wing's translucent triangular window, softly visible green leaf colors behind the membrane, realistic wing scales around it. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "03-observation-source.png",
+    "runtimeFile": "03-observation.webp"
+  },
+  {
+    "slug": "atlas-moth",
+    "index": 4,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Attacus atlas atlas moth, rusty orange brown huge broad wings with cream pink dark bands and translucent triangular wing windows, curved forewing tips. Scene: Large pale green waxy caterpillar of Attacus atlas with white powdery bloom, fleshy pale dorsal protrusions and reddish markings near rear, crawling and eating a privet leaf. Leaf for environmental reference, no ruler, no adult wings. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "04-observation-source.png",
+    "runtimeFile": "04-observation.webp"
+  },
+  {
+    "slug": "atlas-moth",
+    "index": 5,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Attacus atlas atlas moth, rusty orange brown huge broad wings with cream pink dark bands and translucent triangular wing windows, curved forewing tips. Scene: A single brown silken Attacus atlas cocoon attached among dried and green leaves on a twig, no adult or larva outside, realistic natural silk. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "05-observation-source.png",
+    "runtimeFile": "05-observation.webp"
+  },
+  {
+    "slug": "atlas-moth",
+    "index": 6,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Attacus atlas atlas moth, rusty orange brown huge broad wings with cream pink dark bands and translucent triangular wing windows, curved forewing tips. Scene: One adult atlas moth with complete spread wings resting on a woody twig amid broad green leaves. Natural daylight, entire wings and antennae visible, no flowers or feeding proboscis. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "06-observation-source.png",
+    "runtimeFile": "06-observation.webp"
+  }
+]

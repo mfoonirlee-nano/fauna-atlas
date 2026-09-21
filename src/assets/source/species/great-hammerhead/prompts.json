@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "great-hammerhead",
+    "index": 1,
+    "prompt": "Generate ONE 1536x1024 photorealistic wildlife editorial image for Fauna Atlas scientific scene reconstruction. No text, labels, watermark, borders, collage or people. Cover composition: entire subject on right, all extremities within x=760..1460 y=100..930, left 40% quiet natural habitat background for headline. Large subject, visible background gap around all extremities. One adult Sphyrna mokarran great hammerhead shark cruising diagonally through clear Bahamian blue water above sand. Slightly elevated three-quarter view shows entire hammer-shaped head with nearly straight leading edge and central notch, eyes at far ends, tall sickle-shaped first dorsal fin, all paired fins, entire unequal-lobed tail. No other animals.",
+    "sourceFile": "01-cover-source.png",
+    "runtimeFile": "01-cover.webp"
+  },
+  {
+    "slug": "great-hammerhead",
+    "index": 2,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: adult Sphyrna mokarran great hammerhead shark, nearly straight broad cephalofoil leading edge with central notch, tall sickle dorsal fin, gray back and pale belly. Scene: Close oblique front overhead view of wide hammer head showing eyes at opposite lateral ends, calm clear blue water, enough body behind head to identify shark. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "02-observation-source.png",
+    "runtimeFile": "02-observation.webp"
+  },
+  {
+    "slug": "great-hammerhead",
+    "index": 3,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: adult Sphyrna mokarran great hammerhead shark, nearly straight broad cephalofoil leading edge with central notch, tall sickle dorsal fin, gray back and pale belly. Scene: Full side three-quarter view cruising above pale sandy bottom, exceptionally tall curved first dorsal fin and long upper tail lobe, all extremities visible. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "03-observation-source.png",
+    "runtimeFile": "03-observation.webp"
+  },
+  {
+    "slug": "great-hammerhead",
+    "index": 4,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: adult Sphyrna mokarran great hammerhead shark, nearly straight broad cephalofoil leading edge with central notch, tall sickle dorsal fin, gray back and pale belly. Scene: Top-down oblique view of entire shark turning slowly over sand, broad nearly straight front head margin and central indentation visible, no other species. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "04-observation-source.png",
+    "runtimeFile": "04-observation.webp"
+  },
+  {
+    "slug": "great-hammerhead",
+    "index": 5,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: adult Sphyrna mokarran great hammerhead shark, nearly straight broad cephalofoil leading edge with central notch, tall sickle dorsal fin, gray back and pale belly. Scene: Low three-quarter view of shark cruising over a patchy seagrass edge and sand in Bahamian water, complete body visible, mouth closed. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "05-observation-source.png",
+    "runtimeFile": "05-observation.webp"
+  },
+  {
+    "slug": "great-hammerhead",
+    "index": 6,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: adult Sphyrna mokarran great hammerhead shark, nearly straight broad cephalofoil leading edge with central notch, tall sickle dorsal fin, gray back and pale belly. Scene: Wide natural view of a single complete adult cruising near outer tropical reef slope into open blue sea, accurate cephalofoil, no divers or boats. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "06-observation-source.png",
+    "runtimeFile": "06-observation.webp"
+  }
+]

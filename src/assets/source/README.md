@@ -506,3 +506,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Glasswing Butterfly image set](./species/glasswing-butterfly/README.md)
 - [Leopard Slug image set](./species/leopard-slug/README.md)
 - [Orange Sea Pen image set](./species/orange-sea-pen/README.md)
+
+- [Lar Gibbon image set](./species/lar-gibbon/README.md)
+- [Magnificent Frigatebird image set](./species/magnificent-frigatebird/README.md)
+- [Sandfish Skink image set](./species/sandfish-skink/README.md)
+- [Great Hammerhead image set](./species/great-hammerhead/README.md)
+- [Atlas Moth image set](./species/atlas-moth/README.md)

@@ -97600,6 +97600,1260 @@ export const species = [
   "publishedAt": "2026-09-21",
   "updatedAt": "2026-09-21"
 },
+{
+  "id": "lar-gibbon",
+  "slug": "lar-gibbon",
+  "names": {
+    "zh": "白掌长臂猿",
+    "en": "Lar Gibbon",
+    "aliases": [
+      "白手长臂猿"
+    ]
+  },
+  "scientificName": "Hylobates lar",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Primates",
+      "zhName": "灵长目"
+    },
+    "family": {
+      "scientificName": "Hylobatidae",
+      "zhName": "长臂猿科"
+    },
+    "genus": {
+      "scientificName": "Hylobates",
+      "zhName": "长臂猿属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲"
+    ],
+    "regions": [
+      "东南亚的热带森林"
+    ],
+    "countries": [
+      "泰国",
+      "缅甸",
+      "马来西亚",
+      "印度尼西亚"
+    ],
+    "range": "东南亚的热带森林。国家列表仅列代表性分布地。"
+  },
+  "habitats": [
+    {
+      "name": "东南亚的热带森林",
+      "realm": "terrestrial",
+      "description": "东南亚的热带森林。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "果实",
+      "树叶",
+      "花",
+      "昆虫"
+    ],
+    "description": "食物包括果实、树叶、花、昆虫。"
+  },
+  "tags": [
+    "白掌长臂猿",
+    "长胳膊吊住身体"
+  ],
+  "summary": "看看白色的手怎样抓住树枝，长胳膊怎样吊住身体。",
+  "description": "白掌长臂猿的手脚覆着白毛，黑色的脸周围有一圈浅色毛。它没有尾巴，常在树冠里用长臂悬挂和摆荡。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "长胳膊吊住身体",
+      "body": "白掌长臂猿用手抓住树枝，把身体吊在下面。它能交替换手在树间摆荡；这张图展示的是双手悬挂的一个姿态。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "手里拿着果实",
+      "body": "找找果实旁边的白色手毛。它主要吃果实，也吃树叶、花和昆虫。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "也有浅色的毛",
+      "body": "这只白掌长臂猿长着浅色毛。雌雄都可能是深色或浅色，不能只靠毛色分辨性别。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "小猿抓住妈妈",
+      "body": "小猿用手脚抓住妈妈的毛，跟着她在树上活动。长大后，它才慢慢练习自己悬挂和移动。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "树林里的叫声",
+      "body": "同伴会用叫声联系，也会一起鸣叫，向附近的长臂猿表示这里已有家庭生活。图中的张嘴姿态用于说明鸣叫。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护相连的树冠和森林，减少捕猎与野生动物交易。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "白掌长臂猿用手抓住树枝，把身体吊在下面。它能交替换手在树间摆荡；这张图展示的是双手悬挂的一个姿态。",
+    "找找果实旁边的白色手毛。它主要吃果实，也吃树叶、花和昆虫。",
+    "这只白掌长臂猿长着浅色毛。雌雄都可能是深色或浅色，不能只靠毛色分辨性别。",
+    "小猿用手脚抓住妈妈的毛，跟着她在树上活动。长大后，它才慢慢练习自己悬挂和移动。",
+    "同伴会用叫声联系，也会一起鸣叫，向附近的长臂猿表示这里已有家庭生活。图中的张嘴姿态用于说明鸣叫。"
+  ],
+  "threats": [
+    "森林砍伐与破碎化",
+    "捕猎和宠物交易"
+  ],
+  "conservationActions": [
+    "保护相连的树冠和森林，减少捕猎与野生动物交易。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "长胳膊吊住身体"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "东南亚的热带森林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/lar-gibbon/01-cover.webp",
+    "alt": "白掌长臂猿在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/lar-gibbon/02-observation.webp",
+        "title": "长胳膊吊住身体",
+        "alt": "白掌长臂猿：长胳膊吊住身体",
+        "caption": "AI 生成科学情景重建。白掌长臂猿用手抓住树枝，把身体吊在下面。它能交替换手在树间摆荡；这张图展示的是双手悬挂的一个姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lar-gibbon/03-observation.webp",
+        "title": "手里拿着果实",
+        "alt": "白掌长臂猿：手里拿着果实",
+        "caption": "AI 生成科学情景重建。找找果实旁边的白色手毛。它主要吃果实，也吃树叶、花和昆虫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lar-gibbon/04-observation.webp",
+        "title": "也有浅色的毛",
+        "alt": "白掌长臂猿：也有浅色的毛",
+        "caption": "AI 生成科学情景重建。这只白掌长臂猿长着浅色毛。雌雄都可能是深色或浅色，不能只靠毛色分辨性别。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lar-gibbon/05-observation.webp",
+        "title": "小猿抓住妈妈",
+        "alt": "白掌长臂猿：小猿抓住妈妈",
+        "caption": "AI 生成科学情景重建。小猿用手脚抓住妈妈的毛，跟着她在树上活动。长大后，它才慢慢练习自己悬挂和移动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lar-gibbon/06-observation.webp",
+        "title": "树林里的叫声",
+        "alt": "白掌长臂猿：树林里的叫声",
+        "caption": "AI 生成科学情景重建。同伴会用叫声联系，也会一起鸣叫，向附近的长臂猿表示这里已有家庭生活。图中的张嘴姿态用于说明鸣叫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "台北市立动物园：白手长臂猿分类与形态",
+      "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=8A35FDA6483C8C40&s=F2D19E6E4879477A&sms=7BD336E90DA476DA",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "哥本哈根动物园：毛色、生活与濒危状态",
+      "url": "https://www.zoo.dk/en/animal-encyclopedia/white-handed-gibbon",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "拉帕尔米尔动物园：幼猿与家庭生活",
+      "url": "https://www.zoo-palmyre.fr/en/birth-lar-gibbon",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
+{
+  "id": "magnificent-frigatebird",
+  "slug": "magnificent-frigatebird",
+  "names": {
+    "zh": "丽色军舰鸟",
+    "en": "Magnificent Frigatebird"
+  },
+  "scientificName": "Fregata magnificens",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Suliformes",
+      "zhName": "鲣鸟目"
+    },
+    "family": {
+      "scientificName": "Fregatidae",
+      "zhName": "军舰鸟科"
+    },
+    "genus": {
+      "scientificName": "Fregata",
+      "zhName": "军舰鸟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "北美洲",
+      "南美洲"
+    ],
+    "regions": [
+      "热带美洲海岸与海岛"
+    ],
+    "countries": [
+      "美国",
+      "墨西哥",
+      "巴西",
+      "厄瓜多尔"
+    ],
+    "range": "热带美洲海岸与海岛。国家列表仅列代表性分布地。"
+  },
+  "habitats": [
+    {
+      "name": "热带美洲海岸与海岛",
+      "realm": "marine",
+      "description": "热带美洲海岸与海岛。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "piscivore"
+    ],
+    "foods": [
+      "鱼",
+      "鱿鱼",
+      "甲壳动物"
+    ],
+    "description": "食物包括鱼、鱿鱼、甲壳动物。"
+  },
+  "tags": [
+    "丽色军舰鸟",
+    "雄鸟的红喉囊"
+  ],
+  "summary": "看看雄鸟鼓起来的红色喉囊，像不像一个气球。",
+  "description": "成年雄丽色军舰鸟有黑色羽毛，求偶时会鼓起红色喉囊。它有细长的钩嘴、长翅膀和分叉的尾巴，常在热带海岸上空滑翔。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "雄鸟的红喉囊",
+      "body": "求偶时，雄鸟在枝头鼓起喉囊，向飞过的雌鸟展示。红色喉囊连在喉部，会随着展示状态改变大小。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "雌鸟的白胸口",
+      "body": "成年雌鸟的胸口有白色羽毛，头部仍是黑色。它没有雄鸟求偶时那样鼓起的红喉囊。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "长翅膀和叉尾巴",
+      "body": "它伸开细长的翅膀，借助海上的气流滑翔。跟着身体往后看，可以找到分叉的尾巴。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "从水面叼起鱼",
+      "body": "丽色军舰鸟会在飞行中从水面取食，也会追赶别的海鸟夺取食物。它通常不潜入水中捕鱼。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "树上的小鸟",
+      "body": "雌鸟在树枝搭成的平台巢上照顾幼鸟。幼鸟离巢后还需要一段时间由雌鸟喂养。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留海岛和红树林的繁殖地，在巢区保持距离。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "求偶时，雄鸟在枝头鼓起喉囊，向飞过的雌鸟展示。红色喉囊连在喉部，会随着展示状态改变大小。",
+    "成年雌鸟的胸口有白色羽毛，头部仍是黑色。它没有雄鸟求偶时那样鼓起的红喉囊。",
+    "它伸开细长的翅膀，借助海上的气流滑翔。跟着身体往后看，可以找到分叉的尾巴。",
+    "丽色军舰鸟会在飞行中从水面取食，也会追赶别的海鸟夺取食物。它通常不潜入水中捕鱼。",
+    "雌鸟在树枝搭成的平台巢上照顾幼鸟。幼鸟离巢后还需要一段时间由雌鸟喂养。"
+  ],
+  "threats": [
+    "海岸开发侵占繁殖地",
+    "繁殖岛屿受到干扰和外来捕食者影响"
+  ],
+  "conservationActions": [
+    "保留海岛和红树林的繁殖地，在巢区保持距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "雄鸟的红喉囊"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带美洲海岸与海岛"
+    }
+  ],
+  "media": {
+    "image": "./images/species/magnificent-frigatebird/01-cover.webp",
+    "alt": "丽色军舰鸟在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/magnificent-frigatebird/02-observation.webp",
+        "title": "雄鸟的红喉囊",
+        "alt": "丽色军舰鸟：雄鸟的红喉囊",
+        "caption": "AI 生成科学情景重建。求偶时，雄鸟在枝头鼓起喉囊，向飞过的雌鸟展示。红色喉囊连在喉部，会随着展示状态改变大小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/magnificent-frigatebird/03-observation.webp",
+        "title": "雌鸟的白胸口",
+        "alt": "丽色军舰鸟：雌鸟的白胸口",
+        "caption": "AI 生成科学情景重建。成年雌鸟的胸口有白色羽毛，头部仍是黑色。它没有雄鸟求偶时那样鼓起的红喉囊。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/magnificent-frigatebird/04-observation.webp",
+        "title": "长翅膀和叉尾巴",
+        "alt": "丽色军舰鸟：长翅膀和叉尾巴",
+        "caption": "AI 生成科学情景重建。它伸开细长的翅膀，借助海上的气流滑翔。跟着身体往后看，可以找到分叉的尾巴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/magnificent-frigatebird/05-observation.webp",
+        "title": "从水面叼起鱼",
+        "alt": "丽色军舰鸟：从水面叼起鱼",
+        "caption": "AI 生成科学情景重建。丽色军舰鸟会在飞行中从水面取食，也会追赶别的海鸟夺取食物。它通常不潜入水中捕鱼。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/magnificent-frigatebird/06-observation.webp",
+        "title": "树上的小鸟",
+        "alt": "丽色军舰鸟：树上的小鸟",
+        "caption": "AI 生成科学情景重建。雌鸟在树枝搭成的平台巢上照顾幼鸟。幼鸟离巢后还需要一段时间由雌鸟喂养。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "康奈尔鸟类实验室：丽色军舰鸟分类与识别",
+      "url": "https://www.allaboutbirds.org/guide/Magnificent_Frigatebird",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "康奈尔鸟类实验室：取食、求偶与育幼",
+      "url": "https://www.allaboutbirds.org/guide/Magnificent_Frigatebird/lifehistory",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "密歇根大学 ADW：丽色军舰鸟全球状态",
+      "url": "https://animaldiversity.org/accounts/Fregata_magnificens/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
+{
+  "id": "sandfish-skink",
+  "slug": "sandfish-skink",
+  "names": {
+    "zh": "药用石龙子",
+    "en": "Sandfish Skink",
+    "aliases": [
+      "沙鱼蜥"
+    ]
+  },
+  "scientificName": "Scincus scincus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Squamata",
+      "zhName": "有鳞目"
+    },
+    "family": {
+      "scientificName": "Scincidae",
+      "zhName": "石龙子科"
+    },
+    "genus": {
+      "scientificName": "Scincus",
+      "zhName": "沙鱼蜥属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲",
+      "亚洲"
+    ],
+    "regions": [
+      "北非及西亚的沙地"
+    ],
+    "countries": [
+      "埃及",
+      "突尼斯",
+      "阿尔及利亚",
+      "沙特阿拉伯"
+    ],
+    "range": "北非及西亚的沙地。国家列表仅列代表性分布地。采用现行物种范围，不合并已拆出的 Scincus albifasciatus、S. conirostris 等种。"
+  },
+  "habitats": [
+    {
+      "name": "北非及西亚的沙地",
+      "realm": "terrestrial",
+      "description": "北非及西亚的沙地。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "甲虫",
+      "其他小型节肢动物"
+    ],
+    "description": "食物包括甲虫、其他小型节肢动物。"
+  },
+  "tags": [
+    "药用石龙子",
+    "像小铲子的嘴"
+  ],
+  "summary": "看看它把尖尖的嘴钻进沙子，身体也跟着藏进去。",
+  "description": "药用石龙子也叫沙鱼蜥，是一种在沙地生活的蜥蜴。它有光滑的鳞片和短腿，能钻进沙子，靠身体与尾巴的摆动向前移动。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "像小铲子的嘴",
+      "body": "从侧面看，它的吻部向前伸出，像一把小铲子。这样的头部轮廓适合钻进松软的沙粒间。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "沙面上的短腿",
+      "body": "在沙面行走时，它会用四条腿交替迈步。图中远侧肢体可能被身体遮住，可以先找近侧的脚。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "身体钻进沙里",
+      "body": "它先把头钻进沙子，身体随后进入。完全埋入沙中后，它主要摆动躯干和尾巴前进；单张地表图看不到地下动作。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "探出一个小脑袋",
+      "body": "身体藏在沙里时，地面上可能只露出头部。这里的沙子遮住了身体，画面没有透视地下部分。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "寻找小虫子",
+      "body": "药用石龙子吃甲虫等小型节肢动物。看看它面前的小甲虫，再找找贴近沙面的嘴。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留沙地栖息环境，观察时不挖掘或捕捉野生个体。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "从侧面看，它的吻部向前伸出，像一把小铲子。这样的头部轮廓适合钻进松软的沙粒间。",
+    "在沙面行走时，它会用四条腿交替迈步。图中远侧肢体可能被身体遮住，可以先找近侧的脚。",
+    "它先把头钻进沙子，身体随后进入。完全埋入沙中后，它主要摆动躯干和尾巴前进；单张地表图看不到地下动作。",
+    "身体藏在沙里时，地面上可能只露出头部。这里的沙子遮住了身体，画面没有透视地下部分。",
+    "药用石龙子吃甲虫等小型节肢动物。看看它面前的小甲虫，再找找贴近沙面的嘴。"
+  ],
+  "threats": [
+    "野外采集和交易压力",
+    "局地沙地栖息环境受扰动"
+  ],
+  "conservationActions": [
+    "保留沙地栖息环境，观察时不挖掘或捕捉野生个体。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "像小铲子的嘴"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "北非及西亚的沙地"
+    }
+  ],
+  "media": {
+    "image": "./images/species/sandfish-skink/01-cover.webp",
+    "alt": "药用石龙子在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/sandfish-skink/02-observation.webp",
+        "title": "像小铲子的嘴",
+        "alt": "药用石龙子：像小铲子的嘴",
+        "caption": "AI 生成科学情景重建。从侧面看，它的吻部向前伸出，像一把小铲子。这样的头部轮廓适合钻进松软的沙粒间。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sandfish-skink/03-observation.webp",
+        "title": "沙面上的短腿",
+        "alt": "药用石龙子：沙面上的短腿",
+        "caption": "AI 生成科学情景重建。在沙面行走时，它会用四条腿交替迈步。图中远侧肢体可能被身体遮住，可以先找近侧的脚。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sandfish-skink/04-observation.webp",
+        "title": "身体钻进沙里",
+        "alt": "药用石龙子：身体钻进沙里",
+        "caption": "AI 生成科学情景重建。它先把头钻进沙子，身体随后进入。完全埋入沙中后，它主要摆动躯干和尾巴前进；单张地表图看不到地下动作。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sandfish-skink/05-observation.webp",
+        "title": "探出一个小脑袋",
+        "alt": "药用石龙子：探出一个小脑袋",
+        "caption": "AI 生成科学情景重建。身体藏在沙里时，地面上可能只露出头部。这里的沙子遮住了身体，画面没有透视地下部分。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sandfish-skink/06-observation.webp",
+        "title": "寻找小虫子",
+        "alt": "药用石龙子：寻找小虫子",
+        "caption": "AI 生成科学情景重建。药用石龙子吃甲虫等小型节肢动物。看看它面前的小甲虫，再找找贴近沙面的嘴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "爬行动物数据库：药用石龙子接受名与物种拆分",
+      "url": "https://reptile-database.reptarium.cz/Scincus/scincus",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "Maladen 等：沙鱼蜥沙下运动的 X 射线研究",
+      "url": "https://arxiv.org/abs/0910.3248",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "密歇根大学 ADW：形态、食性与沙地生活",
+      "url": "https://animaldiversity.org/accounts/Scincus_scincus/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "卡塔尔环境部生物多样性系统：IUCN 全球 LC",
+      "url": "https://biodiversity.mecc.gov.qa/en/taxon/1993453",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "IUCN 2021 药用石龙子评估引用",
+      "url": "https://doi.org/10.2305/IUCN.UK.2021-1.RLTS.T164624A1062266.en",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
+{
+  "id": "great-hammerhead",
+  "slug": "great-hammerhead",
+  "names": {
+    "zh": "无沟双髻鲨",
+    "en": "Great Hammerhead"
+  },
+  "scientificName": "Sphyrna mokarran",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Chondrichthyes",
+      "zhName": "软骨鱼纲"
+    },
+    "order": {
+      "scientificName": "Carcharhiniformes",
+      "zhName": "真鲨目"
+    },
+    "family": {
+      "scientificName": "Sphyrnidae",
+      "zhName": "双髻鲨科"
+    },
+    "genus": {
+      "scientificName": "Sphyrna",
+      "zhName": "双髻鲨属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "CR",
+    "label": {
+      "zh": "极危",
+      "en": "Critically Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "亚洲",
+      "非洲",
+      "北美洲",
+      "南美洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "全球热带与暖温带近海"
+    ],
+    "countries": [
+      "巴哈马",
+      "美国",
+      "澳大利亚",
+      "南非"
+    ],
+    "range": "全球热带与暖温带近海。国家列表仅列代表性分布地。"
+  },
+  "habitats": [
+    {
+      "name": "全球热带与暖温带近海",
+      "realm": "marine",
+      "description": "全球热带与暖温带近海。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "硬骨鱼",
+      "鳐类",
+      "其他鲨鱼",
+      "无脊椎动物"
+    ],
+    "description": "食物包括硬骨鱼、鳐类、其他鲨鱼、无脊椎动物。"
+  },
+  "tags": [
+    "无沟双髻鲨",
+    "头两端的眼睛"
+  ],
+  "summary": "找找宽宽的头，再看看头两端的眼睛。",
+  "description": "无沟双髻鲨的头向两侧展开，成年个体的头部前缘接近平直，中间有一个浅缺口。背上高高的第一背鳍弯向后方。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "头两端的眼睛",
+      "body": "宽头的左右两端各有一只眼睛。斜着看的时候，远侧眼睛可能不明显；可以先沿着头的前缘找两端。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "高高的背鳍",
+      "body": "它背上第一片背鳍很高，边缘向后弯。身体两旁还有胸鳍，后面有长短不同的尾鳍叶。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "从上方看宽头",
+      "body": "成年无沟双髻鲨的头部前缘接近平直，中间有浅缺口。其他双髻鲨的头形不同，不能把所有锤形头都认成这个物种。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "贴近海底找食物",
+      "body": "它会在海底附近寻找鱼和鳐类。头部的感受器能够察觉猎物产生的微弱电信号，这些信号在照片中看不见。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "游向开阔海水",
+      "body": "无沟双髻鲨生活在热带与暖温带海域，能在岸边水域和较外侧的陆架活动。图中展示珊瑚礁边缘的一处环境。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "减少定向捕捞与兼捕，保护重要栖息海域并记录捕获种类。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    }
+  ],
+  "keyFacts": [
+    "宽头的左右两端各有一只眼睛。斜着看的时候，远侧眼睛可能不明显；可以先沿着头的前缘找两端。",
+    "它背上第一片背鳍很高，边缘向后弯。身体两旁还有胸鳍，后面有长短不同的尾鳍叶。",
+    "成年无沟双髻鲨的头部前缘接近平直，中间有浅缺口。其他双髻鲨的头形不同，不能把所有锤形头都认成这个物种。",
+    "它会在海底附近寻找鱼和鳐类。头部的感受器能够察觉猎物产生的微弱电信号，这些信号在照片中看不见。",
+    "无沟双髻鲨生活在热带与暖温带海域，能在岸边水域和较外侧的陆架活动。图中展示珊瑚礁边缘的一处环境。"
+  ],
+  "threats": [
+    "定向捕捞与兼捕",
+    "鱼鳍贸易带来的捕捞压力"
+  ],
+  "conservationActions": [
+    "减少定向捕捞与兼捕，保护重要栖息海域并记录捕获种类。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "头两端的眼睛"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "全球热带与暖温带近海"
+    }
+  ],
+  "media": {
+    "image": "./images/species/great-hammerhead/01-cover.webp",
+    "alt": "无沟双髻鲨在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/great-hammerhead/02-observation.webp",
+        "title": "头两端的眼睛",
+        "alt": "无沟双髻鲨：头两端的眼睛",
+        "caption": "AI 生成科学情景重建。宽头的左右两端各有一只眼睛。斜着看的时候，远侧眼睛可能不明显；可以先沿着头的前缘找两端。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-hammerhead/03-observation.webp",
+        "title": "高高的背鳍",
+        "alt": "无沟双髻鲨：高高的背鳍",
+        "caption": "AI 生成科学情景重建。它背上第一片背鳍很高，边缘向后弯。身体两旁还有胸鳍，后面有长短不同的尾鳍叶。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-hammerhead/04-observation.webp",
+        "title": "从上方看宽头",
+        "alt": "无沟双髻鲨：从上方看宽头",
+        "caption": "AI 生成科学情景重建。成年无沟双髻鲨的头部前缘接近平直，中间有浅缺口。其他双髻鲨的头形不同，不能把所有锤形头都认成这个物种。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-hammerhead/05-observation.webp",
+        "title": "贴近海底找食物",
+        "alt": "无沟双髻鲨：贴近海底找食物",
+        "caption": "AI 生成科学情景重建。它会在海底附近寻找鱼和鳐类。头部的感受器能够察觉猎物产生的微弱电信号，这些信号在照片中看不见。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-hammerhead/06-observation.webp",
+        "title": "游向开阔海水",
+        "alt": "无沟双髻鲨：游向开阔海水",
+        "caption": "AI 生成科学情景重建。无沟双髻鲨生活在热带与暖温带海域，能在岸边水域和较外侧的陆架活动。图中展示珊瑚礁边缘的一处环境。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "佛罗里达自然历史博物馆：形态鉴别与分类",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/great-hammerhead/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "IUCN 2024 全球鲨鳐报告：双髻鲨科与全球极危状态",
+      "url": "https://portals.iucn.org/library/sites/library/files/documents/2024-024-En_part_10.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "Oceana：无沟双髻鲨食性与保护",
+      "url": "https://oceana.org/marine-life/great-hammerhead-shark/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
+{
+  "id": "atlas-moth",
+  "slug": "atlas-moth",
+  "names": {
+    "zh": "乌桕大蚕蛾",
+    "en": "Atlas Moth",
+    "aliases": [
+      "皇蛾"
+    ]
+  },
+  "scientificName": "Attacus atlas",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Lepidoptera",
+      "zhName": "鳞翅目"
+    },
+    "family": {
+      "scientificName": "Saturniidae",
+      "zhName": "天蚕蛾科"
+    },
+    "genus": {
+      "scientificName": "Attacus",
+      "zhName": "皇蛾属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "所引 MyBIS 与 ADW 资料未提供全球物种级 IUCN 评估，按 NE 记录；未评估不表示没有风险。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲"
+    ],
+    "regions": [
+      "亚洲热带与亚热带森林"
+    ],
+    "countries": [
+      "中国",
+      "印度",
+      "马来西亚",
+      "印度尼西亚"
+    ],
+    "range": "亚洲热带与亚热带森林。国家列表仅列代表性分布地。"
+  },
+  "habitats": [
+    {
+      "name": "亚洲热带与亚热带森林",
+      "realm": "terrestrial",
+      "description": "亚洲热带与亚热带森林。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "wingspan": {
+      "max": 27,
+      "unit": "cm",
+      "note": "伦敦自然历史博物馆给出的展翅宽度上限，并非每只成蛾的大小。图片未按实物等比例显示。"
+    }
+  },
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "幼虫取食的植物叶片"
+    ],
+    "description": "幼虫吃植物叶片；成蛾口器退化，不再进食。"
+  },
+  "tags": [
+    "乌桕大蚕蛾",
+    "像梳子的触角"
+  ],
+  "summary": "看看展开的大翅膀，再找找上面几块透亮的小窗。",
+  "description": "乌桕大蚕蛾展开褐红色的大翅膀时，可以看到浅色纹带和半透明的三角形斑。成蛾的身体比翅膀小得多；绿色幼虫的外形又是另一副模样。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "像梳子的触角",
+      "body": "雄蛾头上有一对宽宽的羽状触角。它会用触角感受雌蛾释放的气味，寻找同伴。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "翅膀上的小窗",
+      "body": "前翅和后翅上都有半透明的斑块。看看深色边缘围着的三角形小窗，再看看周围的彩色鳞片。这是放大的细节图，背景叶片只作环境参照。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "吃叶子的幼虫",
+      "body": "幼虫是浅绿色的毛毛虫，背上有突起和白色蜡质覆盖。它吃植物叶片，图中叶子提供环境参照，不是精确尺标。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "叶间的茧",
+      "body": "幼虫长大后吐丝做茧，在里面化蛹。茧附着在枝叶间，外面能看到褐色的丝。图中成蛾与茧展示不同阶段，不表示同一个体正在羽化。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "成蛾停在枝叶旁",
+      "body": "成蛾的口器退化，不能像许多蝴蝶那样吸食花蜜。它靠幼虫时期积累的能量生活，白天常停着休息。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留幼虫可取食的植物和林地，欣赏时不采集成蛾或茧。所引 MyBIS 与 ADW 资料未提供全球物种级 IUCN 评估，按 NE 记录；未评估不表示没有风险。"
+    }
+  ],
+  "keyFacts": [
+    "雄蛾头上有一对宽宽的羽状触角。它会用触角感受雌蛾释放的气味，寻找同伴。",
+    "前翅和后翅上都有半透明的斑块。看看深色边缘围着的三角形小窗，再看看周围的彩色鳞片。这是放大的细节图，背景叶片只作环境参照。",
+    "幼虫是浅绿色的毛毛虫，背上有突起和白色蜡质覆盖。它吃植物叶片，图中叶子提供环境参照，不是精确尺标。",
+    "幼虫长大后吐丝做茧，在里面化蛹。茧附着在枝叶间，外面能看到褐色的丝。图中成蛾与茧展示不同阶段，不表示同一个体正在羽化。",
+    "成蛾的口器退化，不能像许多蝴蝶那样吸食花蜜。它靠幼虫时期积累的能量生活，白天常停着休息。"
+  ],
+  "threats": [
+    "栖息地改变",
+    "野外采集压力"
+  ],
+  "conservationActions": [
+    "保留幼虫可取食的植物和林地，欣赏时不采集成蛾或茧。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "像梳子的触角"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "亚洲热带与亚热带森林"
+    },
+    {
+      "key": "wingspan",
+      "label": "展翅可达",
+      "value": "27",
+      "unit": "厘米",
+      "note": "来源上限；图片非等比例。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/atlas-moth/01-cover.webp",
+    "alt": "乌桕大蚕蛾在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/atlas-moth/02-observation.webp",
+        "title": "像梳子的触角",
+        "alt": "乌桕大蚕蛾：像梳子的触角",
+        "caption": "AI 生成科学情景重建。雄蛾头上有一对宽宽的羽状触角。它会用触角感受雌蛾释放的气味，寻找同伴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/atlas-moth/03-observation.webp",
+        "title": "翅膀上的小窗",
+        "alt": "乌桕大蚕蛾：翅膀上的小窗",
+        "caption": "AI 生成科学情景重建。前翅和后翅上都有半透明的斑块。看看深色边缘围着的三角形小窗，再看看周围的彩色鳞片。这是放大的细节图，背景叶片只作环境参照。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/atlas-moth/04-observation.webp",
+        "title": "吃叶子的幼虫",
+        "alt": "乌桕大蚕蛾：吃叶子的幼虫",
+        "caption": "AI 生成科学情景重建。幼虫是浅绿色的毛毛虫，背上有突起和白色蜡质覆盖。它吃植物叶片，图中叶子提供环境参照，不是精确尺标。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/atlas-moth/05-observation.webp",
+        "title": "叶间的茧",
+        "alt": "乌桕大蚕蛾：叶间的茧",
+        "caption": "AI 生成科学情景重建。幼虫长大后吐丝做茧，在里面化蛹。茧附着在枝叶间，外面能看到褐色的丝。图中成蛾与茧展示不同阶段，不表示同一个体正在羽化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/atlas-moth/06-observation.webp",
+        "title": "成蛾停在枝叶旁",
+        "alt": "乌桕大蚕蛾：成蛾停在枝叶旁",
+        "caption": "AI 生成科学情景重建。成蛾的口器退化，不能像许多蝴蝶那样吸食花蜜。它靠幼虫时期积累的能量生活，白天常停着休息。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "马来西亚 MyBIS：乌桕大蚕蛾分类、形态与未评估状态",
+      "url": "https://www.mybis.gov.my/art/281",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "伦敦自然历史博物馆：大蚕蛾生活史与口器",
+      "url": "https://www.nhm.ac.uk/discover/spotlight-the-atlas-moth.html",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "密歇根大学 ADW：乌桕大蚕蛾分类与幼虫形态",
+      "url": "https://animaldiversity.org/accounts/Attacus_atlas/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

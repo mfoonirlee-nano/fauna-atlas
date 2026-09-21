@@ -2026,5 +2026,70 @@
       },
       "sha256": "467373ef658b582047b5e07dc5217868cf9d9fc23f6ecd28982a6b51d163e867"
     }
+  },
+  "lar-gibbon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 785,
+        "top": 85,
+        "right": 1430,
+        "bottom": 960
+      },
+      "sha256": "d2646c9fbfe5da6c996b44e4aedd97c9a9a20602c6ba76d562206b205f601cb2"
+    }
+  },
+  "magnificent-frigatebird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 623,
+        "top": 54,
+        "right": 1395,
+        "bottom": 985
+      },
+      "sha256": "4e0b363f415c891104282c40d2987f4e80eb959b614ffb1042a7290c7246fa00"
+    }
+  },
+  "sandfish-skink": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 723,
+        "top": 232,
+        "right": 1439,
+        "bottom": 792
+      },
+      "sha256": "06a54526b94023b03dfa7a3bd7a036b9384515a0314737bfe4b99084c2d360ec"
+    }
+  },
+  "great-hammerhead": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 643,
+        "top": 138,
+        "right": 1489,
+        "bottom": 666
+      },
+      "sha256": "9bd2c3cade8fb54f70eba24924143cfe24cf72c5250ce364ffa1dfe1e9805551"
+    }
+  },
+  "atlas-moth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 788,
+        "top": 293,
+        "right": 1477,
+        "bottom": 735
+      },
+      "sha256": "a90deab47dc9b8fa67a6af2809e19d923385bfb94a6b8a062ac92ea9942c0cf0"
+    }
   }
 }

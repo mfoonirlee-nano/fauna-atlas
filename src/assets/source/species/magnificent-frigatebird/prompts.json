@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "magnificent-frigatebird",
+    "index": 1,
+    "prompt": "Generate ONE 1536x1024 photorealistic wildlife editorial image for Fauna Atlas scientific scene reconstruction. No text, labels, watermark, borders, collage or people. Cover composition: entire subject on right, all extremities within x=760..1460 y=100..930, left 40% quiet natural habitat background for headline. Large subject, visible background gap around all extremities. A single adult male magnificent frigatebird Fregata magnificens perched upright on a mangrove branch on a Caribbean island, wings folded, black plumage, very long slender hooked gray bill and fully inflated brilliant red throat pouch, complete forked tail and feet in frame. Blue sea soft green foliage background.",
+    "sourceFile": "01-cover-source.png",
+    "runtimeFile": "01-cover.webp"
+  },
+  {
+    "slug": "magnificent-frigatebird",
+    "index": 2,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Fregata magnificens magnificent frigatebird, black long angular wings, deeply forked long tail and slender hooked bill. Scene: An adult male perched on mangrove branch, medium close view of brilliant inflated red gular pouch. Both folded wings anatomically correct. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "02-observation-source.png",
+    "runtimeFile": "02-observation.webp"
+  },
+  {
+    "slug": "magnificent-frigatebird",
+    "index": 3,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Fregata magnificens magnificent frigatebird, black long angular wings, deeply forked long tail and slender hooked bill. Scene: An adult female perched on mangrove branch with black head and white breast, no inflated red throat pouch, full body visible. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "03-observation-source.png",
+    "runtimeFile": "03-observation.webp"
+  },
+  {
+    "slug": "magnificent-frigatebird",
+    "index": 4,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Fregata magnificens magnificent frigatebird, black long angular wings, deeply forked long tail and slender hooked bill. Scene: Single adult male soaring in blue sky above distant turquoise Caribbean coast, wings stretched fully, entire long forked tail and wingtips inside frame. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "04-observation-source.png",
+    "runtimeFile": "04-observation.webp"
+  },
+  {
+    "slug": "magnificent-frigatebird",
+    "index": 5,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Fregata magnificens magnificent frigatebird, black long angular wings, deeply forked long tail and slender hooked bill. Scene: Single adult magnificent frigatebird flying low, hooked bill just taking a tiny fish from sea surface, wings well above water, no diving or swimming. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "05-observation-source.png",
+    "runtimeFile": "05-observation.webp"
+  },
+  {
+    "slug": "magnificent-frigatebird",
+    "index": 6,
+    "prompt": "Generate ONE 1536x1024 landscape photorealistic natural-history editorial image for a toddler wildlife atlas, scientific scene reconstruction. Subject: Fregata magnificens magnificent frigatebird, black long angular wings, deeply forked long tail and slender hooked bill. Scene: A female adult with white chest beside one white downy chick on a flimsy stick platform nest in mangrove canopy, calm daylight. Clear main subject, natural habitat, accurate anatomy, restrained colors. No text, numbers, labels, watermark, frame, collage, people or tools. This is a gallery image; use a large centrally composed subject.",
+    "sourceFile": "06-observation-source.png",
+    "runtimeFile": "06-observation.webp"
+  }
+]
