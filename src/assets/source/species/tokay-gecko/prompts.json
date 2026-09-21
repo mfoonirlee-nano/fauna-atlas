@@ -1,0 +1,42 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational photorealistic wildlife reconstruction, landscape 1536x1024. One whole tokay gecko Gekko gecko clinging diagonally to tropical tree bark, grey blue with orange spots, four legs with broad toe pads and intact tapering tail. CRITICAL all toes completely inside frame with at least 100 pixels background above highest toe. Full subject bounding box x=690..1430 y=130..900. Tail in gentle compact curve, toes do not touch any canvas edge. Left 42 percent is quiet defocused Southeast Asian forest background. Subject centered on right near 70% width. Complete visible outer silhouette with real margins, anatomically accurate natural gecko; five toes per foot, no extra limbs. Soft light, no text collage borders watermark.",
+      "sourceSha256": "ec0a4e257c75622deea2a2aabfd4736342f13c286ddef072d0bf8d40a1436487",
+      "webpSha256": "0f84647c3519edd1e1e55fe0c4a8c0103aafc7d96ae0c86a37db950abf8f7fe2"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: tokay gecko Gekko gecko, robust blue grey body with vivid orange red spots, broad head and wide adhesive toe pads, intact tapering tail. Habitat: Southeast Asian tropical tree trunk. Scene: Close detail of one naturally attached front foot showing broad flattened adhesive toes on bark, correct five toes, rest of animal partly visible. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "8e5cf0d81ba584c45bc816f0706ecb40e1d9c3bd6866764825f9ca4ea09b5360",
+      "webpSha256": "c26e9b6fec54de1ea24fe1938a0cc415aef478fea38537cc4ce590d4cdc531b1"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: tokay gecko Gekko gecko, robust blue grey body with vivid orange red spots, broad head and wide adhesive toe pads, intact tapering tail. Habitat: Southeast Asian tropical tree trunk. Scene: Whole animal climbing vertical tree bark, four legs, entire tail in frame. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "f0c9ae0ef5cace51bb10271e2301eeca58b49d8766a8602b3068d38dda3b5514",
+      "webpSha256": "61fd730cb4c524874eb556aeb03f25052b0ccb55a86fc0654d89f52dde56aa72"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: tokay gecko Gekko gecko, robust blue grey body with vivid orange red spots, broad head and wide adhesive toe pads, intact tapering tail. Habitat: Southeast Asian tropical tree trunk. Scene: Head portrait highlighting large eyes with vertical pupils and orange spots, mouth closed. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "0d90b996233e731c7210b359045ca02fe11a1b2597712f73996db26294ce4e38",
+      "webpSha256": "765e2757eb97f80916b902b9f97dc88242c532bcecfe42129d887ffcf799c17d"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: tokay gecko Gekko gecko, robust blue grey body with vivid orange red spots, broad head and wide adhesive toe pads, intact tapering tail. Habitat: Southeast Asian tropical tree trunk. Scene: Whole gecko waiting near a small moth on tree bark at dusk, no capture gore. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "93360e7d10c1f0ce5d82899e92be327b67418beb2ccfea6da15539d86406e7b8",
+      "webpSha256": "8170422e7c5dba6ea7e40ece78b488737d58cf26cbea14e87ab07caf3e6f5a99"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: tokay gecko Gekko gecko, robust blue grey body with vivid orange red spots, broad head and wide adhesive toe pads, intact tapering tail. Habitat: Southeast Asian tropical tree trunk. Scene: Whole animal resting in shallow tree crevice with head and spotted back visible, natural occlusion. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "a96c42611683ca305766aa59ba2f6a3fe361a71547c097f8c74272141c105092",
+      "webpSha256": "c2fddad2787412a67f7ba7b7c20bc258ded4936f8ae4da11742cb1b6ddfc9483"
+    }
+  ]
+}

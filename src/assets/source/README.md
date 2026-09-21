@@ -500,3 +500,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Mandrill image set](./species/mandrill/README.md)
 - [Great White Pelican image set](./species/great-white-pelican/README.md)
 - [Blue-footed Booby image set](./species/blue-footed-booby/README.md)
+- [Tokay Gecko image set](./species/tokay-gecko/README.md)

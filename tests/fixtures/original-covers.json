@@ -1948,5 +1948,18 @@
       },
       "sha256": "f384cc0431dddaaddd0edf8b8d1826c362aa362c322ef3d1d379cf8269d2db49"
     }
+  },
+  "tokay-gecko": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 742,
+        "top": 88,
+        "right": 1410,
+        "bottom": 945
+      },
+      "sha256": "0f84647c3519edd1e1e55fe0c4a8c0103aafc7d96ae0c86a37db950abf8f7fe2"
+    }
   }
 }
