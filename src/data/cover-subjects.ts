@@ -3150,5 +3150,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1520,
       "bottom": 680
     }
+  },
+  "common-midwife-toad": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 274,
+      "right": 1425,
+      "bottom": 818
+    }
   }
 };

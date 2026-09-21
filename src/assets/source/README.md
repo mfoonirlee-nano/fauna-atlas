@@ -490,3 +490,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Black-winged Stilt image set](./species/black-winged-stilt/README.md)
 - [Pied Avocet image set](./species/pied-avocet/README.md)
 - [Pancake Tortoise image set](./species/pancake-tortoise/README.md)
+- [Common Midwife Toad image set](./species/common-midwife-toad/README.md)

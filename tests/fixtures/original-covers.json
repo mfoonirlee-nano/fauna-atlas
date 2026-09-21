@@ -1831,5 +1831,18 @@
       },
       "sha256": "d72a7c1bfce934f72e215d512855aae397a649f7c62d3be4089866e81b515846"
     }
+  },
+  "common-midwife-toad": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 274,
+        "right": 1425,
+        "bottom": 818
+      },
+      "sha256": "55c6d6bd2c5de42d37f9d9f67118dc34170aae44d7e38ae2a5078818db61e4d8"
+    }
   }
 }

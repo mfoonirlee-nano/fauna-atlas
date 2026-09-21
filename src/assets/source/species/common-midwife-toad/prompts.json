@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction, landscape 1536x1024. Cover for animal atlas for young children. Subject: a male common midwife toad Alytes obstetricans, small squat grey brown warty body, golden iris with vertical pupil, short limbs, a small strand of pale translucent eggs wrapped naturally around both hind ankles. Environment: damp mossy ground beside stones near a European pond. COMPOSITION STRICT: entire animal including every visible antenna, toe, bill, tail or tentacle must fit in the RIGHT HALF, within x=660..1470 and y=70..950 of a 1536x1024 frame. Maximize subject within that area. Left 40 percent ONLY quiet natural background, no animal or other creatures. Real background margin around complete silhouette. Eye level or slight three-quarter angle, clear anatomy, realistic textures, gentle natural light. No text, no border, no montage, no ruler, no artificial objects. Do not cut off extremities."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a male common midwife toad Alytes obstetricans, small squat grey brown warty body, golden iris with vertical pupil, short limbs, a small strand of pale translucent eggs wrapped naturally around both hind ankles. Natural environment: damp mossy ground beside stones near a European pond. Specific scene overrides default sex, age and pose: Adult MALE toad on damp ground, side rear three-quarter view clearly showing a modest string of eggs naturally wrapped around hind ankles, not attached to back.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a male common midwife toad Alytes obstetricans, small squat grey brown warty body, golden iris with vertical pupil, short limbs, a small strand of pale translucent eggs wrapped naturally around both hind ankles. Natural environment: damp mossy ground beside stones near a European pond. Specific scene overrides default sex, age and pose: Adult toad WITHOUT eggs crouching beside a small stone crevice, warty grey skin and golden iris with vertical pupil visible.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a male common midwife toad Alytes obstetricans, small squat grey brown warty body, golden iris with vertical pupil, short limbs, a small strand of pale translucent eggs wrapped naturally around both hind ankles. Natural environment: damp mossy ground beside stones near a European pond. Specific scene overrides default sex, age and pose: Adult MALE carrying egg strings around hind legs at pond margin, hind feet in shallow water moistening eggs, head above water.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a male common midwife toad Alytes obstetricans, small squat grey brown warty body, golden iris with vertical pupil, short limbs, a small strand of pale translucent eggs wrapped naturally around both hind ankles. Natural environment: damp mossy ground beside stones near a European pond. Specific scene overrides default sex, age and pose: ONLY three midwife toad tadpoles swimming in clear pond water above sediment, brown rounded bodies and long translucent tails, no adult, no eggs.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a male common midwife toad Alytes obstetricans, small squat grey brown warty body, golden iris with vertical pupil, short limbs, a small strand of pale translucent eggs wrapped naturally around both hind ankles. Natural environment: damp mossy ground beside stones near a European pond. Specific scene overrides default sex, age and pose: Adult toad WITHOUT eggs active at twilight among sparse grass and stones, a small insect on the ground nearby, no capture or gore.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    }
+  ]
+}
