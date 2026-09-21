@@ -1922,5 +1922,18 @@
       },
       "sha256": "cfde2e3105ca1eba39d11c8093e8044726b060aa19812dd553bfad18a56da260"
     }
+  },
+  "great-white-pelican": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 715,
+        "top": 50,
+        "right": 1468,
+        "bottom": 952
+      },
+      "sha256": "84067a23bab20f1705cd8a689613f6a1382597d8e57c452bd485d97e4d56c5aa"
+    }
   }
 }

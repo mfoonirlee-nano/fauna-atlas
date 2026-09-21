@@ -3220,5 +3220,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1435,
       "bottom": 950
     }
+  },
+  "great-white-pelican": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 715,
+      "top": 50,
+      "right": 1468,
+      "bottom": 952
+    }
   }
 };
