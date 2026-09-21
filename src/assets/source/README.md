@@ -502,3 +502,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Blue-footed Booby image set](./species/blue-footed-booby/README.md)
 - [Tokay Gecko image set](./species/tokay-gecko/README.md)
 - [Alpine Newt image set](./species/alpine-newt/README.md)
+- [Long-spined Porcupinefish image set](./species/long-spined-porcupinefish/README.md)

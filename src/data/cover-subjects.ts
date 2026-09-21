@@ -3260,5 +3260,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 868
     }
+  },
+  "long-spined-porcupinefish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 688,
+      "top": 286,
+      "right": 1475,
+      "bottom": 607
+    }
   }
 };

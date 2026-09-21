@@ -1,0 +1,44 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Composition edit ONLY for this Diodon holocanthus photo. Preserve fish anatomy, clear UNSPOTTED fins, flat laid-back spines and body blotches. Make fish approximately 15 percent narrower on canvas and shift toward RIGHT so the NOSE starts near 760 pixels, tail ends around 1460 pixels. Quiet water across the entire LEFT HALF, no part of fish entering left half. Entire fish silhouette centered at 72% of image width with visible background margins. Keep landscape 1536x1024, natural reef setting, no text.",
+      "reference": "/Users/chris.li/.codex/generated_images/01a0c191-1abb-7fa2-9b66-313a452fdf73/exec-025df507-a2c9-437c-8c82-c966b095acf0.png",
+      "sourceSha256": "02e1f6ef0fd931592931aec080d934e14e08d3d1c647ba5999ca302cf4ce286d",
+      "webpSha256": "5e42f79a838ee6801975cf5e37ff06d9c0f16c765fc1222a75375910707b08cf"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific correction of this inflated Diodon holocanthus reconstruction. Keep the inflated round fish, long erect spines, body blotches, face and coral scene unchanged. Correct BOTH pectoral fins and any other visible fins: transparent pale membranes with subtle fin rays and absolutely NO BLACK SPOTS. This species has unspotted fins. Do not erase body skin markings. No text.",
+      "reference": "/Users/chris.li/.codex/generated_images/01a0c191-1abb-7fa2-9b66-313a452fdf73/exec-2b07fa8c-6a43-4cba-950d-581014262446.png",
+      "sourceSha256": "cc16edcbc9ca7f84cbc19d9498d4863e29a00702cc5762a70b511a52eaea45f8",
+      "webpSha256": "fd6b882816dcc7fd15b9b9ebff42c049a446d81c1d2b4dfc6d0d23851d91369b"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: long-spined porcupinefish Diodon holocanthus, pale tan body with small dark spots and large dusky blotches, long movable spines normally lying flat, large eyes and small beak-like mouth. Habitat: clear tropical coastal coral reef. Scene: Normal uninflated fish in clear side view, long spines laid back, no spherical body. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale. Essential species identification: Diodon holocanthus has CLEAR UNSpotted translucent fins, no black spots on any fin; dark spots only on skin. NORMAL UNINFLATED elongated fish with all long spines lying FLAT backward along skin.",
+      "sourceSha256": "30dc7a07c3db29d8cd932924e138ff647979e87558ff249da23df779483163c8",
+      "webpSha256": "0df8477624fbdcc4b7ec305d190c54de3294bf5419ac3215dd0c83e24deea98d"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: long-spined porcupinefish Diodon holocanthus, pale tan body with small dark spots and large dusky blotches, long movable spines normally lying flat, large eyes and small beak-like mouth. Habitat: clear tropical coastal coral reef. Scene: Close head portrait with large eye and small beaklike mouth, closed mouth. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale. Essential species identification: Diodon holocanthus has CLEAR UNSpotted translucent fins, no black spots on any fin; dark spots only on skin. NORMAL UNINFLATED elongated fish with all long spines lying FLAT backward along skin.",
+      "sourceSha256": "b1315f9735a4bb5f383bbcc3bd41ab0b9d71d99e1b85295cbdda0ec23652a5cd",
+      "webpSha256": "1e01660b0f7ea27a6361a7ea3313749b8a48fef87814a326cd84da8810efed8f"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: long-spined porcupinefish Diodon holocanthus, pale tan body with small dark spots and large dusky blotches, long movable spines normally lying flat, large eyes and small beak-like mouth. Habitat: clear tropical coastal coral reef. Scene: Whole uninflated fish swimming above reef, translucent pectoral fins visible. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale. Essential species identification: Diodon holocanthus has CLEAR UNSpotted translucent fins, no black spots on any fin; dark spots only on skin. NORMAL UNINFLATED elongated fish with all long spines lying FLAT backward along skin.",
+      "sourceSha256": "9e831066252d66f1cada617038f424d169b32b762d650d2d032d2361517c0c80",
+      "webpSha256": "65f2b3ffa0e32f71db0e0926bb33f5f3ddbe8ea87f07b0cfff346ec2bc1f4a62"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: long-spined porcupinefish Diodon holocanthus, pale tan body with small dark spots and large dusky blotches, long movable spines normally lying flat, large eyes and small beak-like mouth. Habitat: clear tropical coastal coral reef. Scene: Whole uninflated fish sheltering beside coral rock at dusk, fins and tail visible. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale. Essential species identification: Diodon holocanthus has CLEAR UNSpotted translucent fins, no black spots on any fin; dark spots only on skin. NORMAL UNINFLATED elongated fish with all long spines lying FLAT backward along skin.",
+      "sourceSha256": "a7fdc4ac1c0441cd211d91406d301e8dcedc5c7145a5b62574683c093e16d6c5",
+      "webpSha256": "d2ee30b91240550894fe183192de46ca8c84f1a8325e594ff334ddf597d1dd56"
+    }
+  ]
+}
