@@ -2013,5 +2013,18 @@
       },
       "sha256": "67f0c6b37682e12712d3e5943441499971a1d3abd6cb764b61d7bd5616d5f642"
     }
+  },
+  "orange-sea-pen": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 840,
+        "top": 38,
+        "right": 1275,
+        "bottom": 955
+      },
+      "sha256": "467373ef658b582047b5e07dc5217868cf9d9fc23f6ecd28982a6b51d163e867"
+    }
   }
 }

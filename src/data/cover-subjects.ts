@@ -3290,5 +3290,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1445,
       "bottom": 765
     }
+  },
+  "orange-sea-pen": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 840,
+      "top": 38,
+      "right": 1275,
+      "bottom": 955
+    }
   }
 };

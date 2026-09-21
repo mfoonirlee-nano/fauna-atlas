@@ -505,3 +505,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Long-spined Porcupinefish image set](./species/long-spined-porcupinefish/README.md)
 - [Glasswing Butterfly image set](./species/glasswing-butterfly/README.md)
 - [Leopard Slug image set](./species/leopard-slug/README.md)
+- [Orange Sea Pen image set](./species/orange-sea-pen/README.md)
