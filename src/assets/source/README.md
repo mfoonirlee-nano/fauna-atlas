@@ -501,3 +501,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Great White Pelican image set](./species/great-white-pelican/README.md)
 - [Blue-footed Booby image set](./species/blue-footed-booby/README.md)
 - [Tokay Gecko image set](./species/tokay-gecko/README.md)
+- [Alpine Newt image set](./species/alpine-newt/README.md)

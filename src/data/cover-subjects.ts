@@ -3250,5 +3250,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1410,
       "bottom": 945
     }
+  },
+  "alpine-newt": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 715,
+      "top": 150,
+      "right": 1475,
+      "bottom": 868
+    }
   }
 };

@@ -1961,5 +1961,18 @@
       },
       "sha256": "0f84647c3519edd1e1e55fe0c4a8c0103aafc7d96ae0c86a37db950abf8f7fe2"
     }
+  },
+  "alpine-newt": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 715,
+        "top": 150,
+        "right": 1475,
+        "bottom": 868
+      },
+      "sha256": "b379e361630fe8d08d2b88d7e6be3fd4c2da1df77d58fcca0e850c498860aa4a"
+    }
   }
 }

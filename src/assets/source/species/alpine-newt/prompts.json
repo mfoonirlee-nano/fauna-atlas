@@ -1,0 +1,44 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024 scientific natural history photo reconstruction of ONE adult male alpine newt Ichthyosaura alpestris underwater on dark pond leaf. Blue grey back, pale spotted flanks, plain orange underside, low smooth straight dorsal crest, four delicate limbs (4 front toes, 5 hind toes). TOP DOWN OBLIQUE VIEW: body forms gentle C CURVE on RIGHT of frame, tail curling back toward body so total silhouette is compact and tall. Entire animal bounds x=760..1420 y=180..870, no animal on left half. Left half exclusively quiet diffuse murky green water. Whole head, four limbs and entire curved flattened tail with wide real margins. Realistic small newt anatomy, NOT a large lizard, no tall spiky crest. Soft underwater daylight. No labels text collage or border.",
+      "sourceSha256": "0520026bd3c0470d174646b1871b7d614b2a2d0f67314fe4307c8031f6f3aff0",
+      "webpSha256": "b379e361630fe8d08d2b88d7e6be3fd4c2da1df77d58fcca0e850c498860aa4a"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: precise-object-edit. Edit the supplied alpine newt scientific reconstruction, 1536x1024. Preserve the exact swimming pose, entire tail, limbs, framing, underwater woodland pond, lighting, blue-grey back, orange belly and spotted flanks. Change ONLY the dorsal crest: remove every scallop, tooth and wave from its silhouette. Adult male Ichthyosaura alpestris has a very LOW thin SMOOTH unbroken straight-edged yellowish dorsal ridge with black markings. Its top edge follows the gentle body curve with no serrations or bumps. Smooth the upper tail fin edge too. Keep natural photographic texture. No text or borders.",
+      "sourceSha256": "07aa29c948694dcacabcaebf8c233dcf7f863600962e3a22c9d8ee8657bf999a",
+      "webpSha256": "ce1a9ea99cba2be6d64702b4a6ff7a6b34c653d934e18fafa91efcbaaa6b841d",
+      "editNote": "2026-09-21：基于原图库图编辑，修正背嵴为低而平滑的黄色黑斑薄脊，保留姿态、构图与环境。"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: alpine newt Ichthyosaura alpestris, adult breeding male with blue grey back, small low straight dorsal crest, black spotted pale flanks and orange belly, four small legs and flattened tail. Habitat: clear European woodland pond with submerged leaves. Scene: Low side view adult male walking over submerged leaf, revealing plain bright orange underside and spotted flanks. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "9de0cd2537c4a0bfb1131e5042283f643085dc7766604ddb6d589591a69ff37d",
+      "webpSha256": "74c35cbef139d0b225e149677a4ed90faa95a64ac98f7ba6fbc6873ce11d8841"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: alpine newt Ichthyosaura alpestris, adult breeding male with blue grey back, small low straight dorsal crest, black spotted pale flanks and orange belly, four small legs and flattened tail. Habitat: clear European woodland pond with submerged leaves. Scene: Adult female alpine newt with mottled brown grey back and no crest, whole body on submerged twig. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "5c9198e892959c2e24abb58f690bdc87e9ce6e2c983f070cec3b4c5106da6865",
+      "webpSha256": "54961d51bd5d49ba0cc635892baba9312ceaa0a9665b6be72fe27fa3cd50dbf2"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: alpine newt Ichthyosaura alpestris, adult breeding male with blue grey back, small low straight dorsal crest, black spotted pale flanks and orange belly, four small legs and flattened tail. Habitat: clear European woodland pond with submerged leaves. Scene: Terrestrial adult alpine newt with darker back and no tall crest walking on damp moss beside pond. Center the observation with natural margins. Preserve full subject unless close-up requested. Scene-specific sex and age OVERRIDE the default species description. Accurate anatomy. No text, labels, collage, borders, watermark or people. Macro environmental references are not exact scale.",
+      "sourceSha256": "5028dec55bf01f350cbcf88021cf5c1d22f9bae38eab66142179cba0b13974b0",
+      "webpSha256": "a67bd461ac861dccddb292d7f19f4449d6b4bdf1700d42fc8aa2cfac87cee0c6"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: precise-object-edit. Edit the supplied alpine newt scientific reconstruction, 1536x1024. Preserve the exact resting pose among submerged plants, entire tail, limbs, framing, underwater woodland pond, lighting, blue-grey back, orange belly and spotted flanks. Change ONLY the dorsal crest: remove every scallop, tooth and wave from its silhouette. Adult male Ichthyosaura alpestris has a very LOW thin SMOOTH unbroken straight-edged yellowish dorsal ridge with black markings. Its top edge follows the gentle body curve with no serrations or bumps. Smooth the upper tail fin edge too. Keep natural photographic texture. No text or borders.",
+      "sourceSha256": "85004a8a9696608d21c4765cd2072239e112898df5c003acb90da3a7d8ca41bc",
+      "webpSha256": "cd9bf724d76bae5816953a7273a1848c6135c38d78281bd9b2714894db09add3",
+      "editNote": "2026-09-21：基于原图库图编辑，修正背嵴为低而平滑的黄色黑斑薄脊，保留姿态、构图与环境。"
+    }
+  ]
+}
