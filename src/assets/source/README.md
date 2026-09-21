@@ -486,3 +486,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Great Scallop image set](./species/great-scallop/README.md)
 
 - [Binturong image set](./species/binturong/README.md)
+- [Fossa image set](./species/fossa/README.md)

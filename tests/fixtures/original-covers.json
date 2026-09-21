@@ -1779,5 +1779,18 @@
       },
       "sha256": "c4d9441f70ec1060fe83e0c8a976e0f9c1a77b22e28112e8142a8d2201f6fc47"
     }
+  },
+  "fossa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 670,
+        "top": 128,
+        "right": 1488,
+        "bottom": 958
+      },
+      "sha256": "50f4e380b16d24fa97063d9475421bacb0618865559f09e95717ffe1ce72e140"
+    }
   }
 }

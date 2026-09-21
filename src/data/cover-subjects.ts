@@ -3110,5 +3110,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1510,
       "bottom": 995
     }
+  },
+  "fossa": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 670,
+      "top": 128,
+      "right": 1488,
+      "bottom": 958
+    }
   }
 };
