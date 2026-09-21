@@ -1870,5 +1870,18 @@
       },
       "sha256": "f513af16ad14ed6e5b6b7f55e7312089602c4fead66b47045724fbc5a2a17d36"
     }
+  },
+  "blue-mussel": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 122,
+        "right": 1375,
+        "bottom": 875
+      },
+      "sha256": "a00b7eee4285db3e30dbad4f1ea956ee3849b8eb2ec20d9d291588c329de1c00"
+    }
   }
 }

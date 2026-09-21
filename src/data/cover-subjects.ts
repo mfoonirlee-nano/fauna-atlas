@@ -3180,5 +3180,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1490,
       "bottom": 920
     }
+  },
+  "blue-mussel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 122,
+      "right": 1375,
+      "bottom": 875
+    }
   }
 };
