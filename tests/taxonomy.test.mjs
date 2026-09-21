@@ -26229,3 +26229,27 @@ test('first ten cross-group todo animals have complete profiles and accepted ima
   assert.match(findSpecies('tomato-frog').media.gallery[1].caption, /雄蛙.*等比例/);
   assert.match(findSpecies('california-sea-hare').keyFacts.at(-1), /内壳/);
 });
+
+
+test('second ten todo animals have complete profiles and accepted image sets', async () => {
+  const cases = [["binturong", "Arctictis binturong", "VU"], ["fossa", "Cryptoprocta ferox", "VU"], ["black-winged-stilt", "Himantopus himantopus", "LC"], ["pied-avocet", "Recurvirostra avosetta", "LC"], ["pancake-tortoise", "Malacochersus tornieri", "CR"], ["common-midwife-toad", "Alytes obstetricans", "LC"], ["yellow-boxfish", "Ostracion cubicum", "LC"], ["orchid-mantis", "Hymenopus coronatus", "NE"], ["blue-mussel", "Mytilus edulis", "NE"], ["beadlet-anemone", "Actinia equina", "NE"]];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const imagePaths = new Set();
+  for (const [slug, name, code] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.conservation.code, code);
+    assert.equal(profile.storySections.length, 6);
+    assert.ok(profile.sources.some(({ kind }) => kind === 'conservation'));
+    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+    for (const image of [profile.media, ...profile.media.gallery]) imagePaths.add(image.image);
+  }
+  assert.equal(imagePaths.size, 60);
+  assert.equal(findSpecies('yellow-boxfish').conservation.assessedYear, 2023);
+  for (const slug of ['orchid-mantis', 'blue-mussel', 'beadlet-anemone']) {
+    assert.equal(findSpecies(slug).conservation.assessedYear, undefined);
+  }
+});
