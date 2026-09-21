@@ -3210,5 +3210,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1365,
       "bottom": 975
     }
+  },
+  "mandrill": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 865,
+      "top": 15,
+      "right": 1435,
+      "bottom": 950
+    }
   }
 };

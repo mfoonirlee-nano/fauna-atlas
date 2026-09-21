@@ -497,3 +497,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Beadlet Anemone image set](./species/beadlet-anemone/README.md)
 
 - [Proboscis Monkey image set](./species/proboscis-monkey/README.md)
+- [Mandrill image set](./species/mandrill/README.md)

@@ -1909,5 +1909,18 @@
       },
       "sha256": "daee140fc57fced6cb4149c6e56e8dda354b9c4962bd36ba04375f8e9ec232de"
     }
+  },
+  "mandrill": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 865,
+        "top": 15,
+        "right": 1435,
+        "bottom": 950
+      },
+      "sha256": "cfde2e3105ca1eba39d11c8093e8044726b060aa19812dd553bfad18a56da260"
+    }
   }
 }

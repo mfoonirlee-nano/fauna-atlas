@@ -1,0 +1,42 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational wildlife photograph reconstruction. Landscape 1536x1024. A SINGLE adult male mandrill Mandrillus sphinx seated upright on forest floor, hands and feet tucked close to body, not reclining sideways. Blue ridged cheeks, central red nose, golden beard, olive brown fur, short tail. Entire mandrill including visible fingers toes short tail and crest confined to RIGHT HALF: leftmost animal pixel beyond x=680, rightmost before x=1450, top y=90 bottom y=930. Large tall upright compact pose. Left 44 percent absolutely only soft defocused Central African rainforest background and leaf litter, NO body limb or tail extending into it. Complete natural silhouette, real margins. Natural light and accurate anatomy, no text collage borders watermark or people.",
+      "sourceSha256": "4b48c9e248d2477703422e7301dd2fd79894923a438f543bf713e78ebbe0bb90",
+      "webpSha256": "cfde2e3105ca1eba39d11c8093e8044726b060aa19812dd553bfad18a56da260"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male mandrill Mandrillus sphinx, olive brown fur, short stubby tail, blue ridged cheeks either side of red nose, golden beard. Habitat: Central African rainforest floor. Scene: Head and shoulders portrait showing blue ridged cheeks, red central nose and golden beard, mouth closed. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "6f92ac68bfda389c073634559e0a2027bfa123fac8e074ade5085f2662cefbee",
+      "webpSha256": "e19d4c0f0794dfeb76d9f9d473524a6ef35d5f001ea84f01b6cd7803402df6d9"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male mandrill Mandrillus sphinx, olive brown fur, short stubby tail, blue ridged cheeks either side of red nose, golden beard. Habitat: Central African rainforest floor. Scene: Adult female with muted facial colors and smaller build, full body standing. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "bc9ac1c201e33fbb4e486f7ac9c9a9c3b27be9cfc402c12200377a989c59e251",
+      "webpSha256": "5cb67037da8d752767e56ccc5bfd6ac15d4843af7e087504a76278c46adf29b9"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male mandrill Mandrillus sphinx, olive brown fur, short stubby tail, blue ridged cheeks either side of red nose, golden beard. Habitat: Central African rainforest floor. Scene: Adult male walking on four limbs on forest floor, short tail visible. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "c16ba1a5143729a9d9857304318eac4c8710aadef26bd27fe97b2aa56a57d87d",
+      "webpSha256": "c902a45878f23dc93069696cc01419fd8ceb06ae4ca267042a3c960caba76de4"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male mandrill Mandrillus sphinx, olive brown fur, short stubby tail, blue ridged cheeks either side of red nose, golden beard. Habitat: Central African rainforest floor. Scene: Adult using one hand to pick up a fallen wild fruit in leaf litter. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "ebc94c78a20da1816dbd5625e24b51e53f1ece8b794111bc1f15dcdf0a2b23e4",
+      "webpSha256": "251ff3e7a8f9d557ed8d0e5a4c1c4ddb6aaf449d85181dc99fa7bfd94797f60d"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male mandrill Mandrillus sphinx, olive brown fur, short stubby tail, blue ridged cheeks either side of red nose, golden beard. Habitat: Central African rainforest floor. Scene: Adult resting on a strong low tree fork, all visible limbs inside frame. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "b103e797cf2a21a2f59038af98a0520e484b4d7e8c084e0a7854641dda2dab01",
+      "webpSha256": "e7c18ef2ec062d2090c08504d001c1c3639ba3b19e8fcb645e3fabd204e3d243"
+    }
+  ]
+}
