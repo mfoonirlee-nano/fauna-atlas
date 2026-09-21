@@ -3120,5 +3120,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1488,
       "bottom": 958
     }
+  },
+  "black-winged-stilt": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 775,
+      "top": 45,
+      "right": 1478,
+      "bottom": 945
+    }
   }
 };
