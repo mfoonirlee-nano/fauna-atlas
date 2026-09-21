@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific natural-history photo reconstruction. Landscape 1536x1024. one small red beadlet anemone Actinia equina, SHORT stout smooth red column attached to rock, dense crown of many slender short red tentacles. Low SIDE VIEW, oral disc obscured by tentacles. Blue acrorhagi are hidden under tentacles, do not show blue spots on oral disc.. On a clear shallow northeast Atlantic tidal rock pool. Complete animal(s) entirely within x=730..1430 y=110..910. Left 45% ONLY subdued natural habitat background. Show complete silhouette with visible margin at every edge. LARGE recognizable subject, not distant.   Accurate anatomy, gentle light, no text, no diagram, no border."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one red beadlet anemone Actinia equina, smooth dark-red stout cylindrical column attached to rock, compact ring of numerous short red tapering tentacles surrounding the oral disc, tiny bright blue beads under the tentacle rim. Natural environment: a clear shallow northeast Atlantic tidal rock pool. Specific scene overrides default sex, age and pose: Single red anemone UNDERWATER with compact crown of short tapered red tentacles fully extended above its attached red column.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one red beadlet anemone Actinia equina, smooth dark-red stout cylindrical column attached to rock, compact ring of numerous short red tapering tentacles surrounding the oral disc, tiny bright blue beads under the tentacle rim. Natural environment: a clear shallow northeast Atlantic tidal rock pool. Specific scene overrides default sex, age and pose: Single contracted beadlet anemone OUT OF WATER at low tide, smooth dark red rounded jelly-like dome on wet rock, all tentacles retracted inside, absolutely no extended tentacles.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one red beadlet anemone Actinia equina, smooth dark-red stout cylindrical column attached to rock, compact ring of numerous short red tapering tentacles surrounding the oral disc, tiny bright blue beads under the tentacle rim. Natural environment: a clear shallow northeast Atlantic tidal rock pool. Specific scene overrides default sex, age and pose: Close side view underwater of one red anemone, show small bright blue bead-like acrorhagi just below tentacle crown at upper column rim, not huge blue eyes.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific natural history underwater photo reconstruction, landscape1536x1024. One red beadlet anemone Actinia equina in a clear northeast Atlantic rock pool. Low side view showing the broad red pedal disc attached to rough rock. Short smooth red column and dense crown of numerous thin red tentacles above. The oral disc is plain uniform red, NO blue marks or dots on oral disc. Blue acrorhagi hidden under outer tentacle rim and not visible in this view. Broad base wider than column height, naturally dense tentacle crown, not a tall red tube. Realistic natural light, no text, no other anemones, no ruler. Entire animal in frame."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific natural history underwater photo reconstruction, landscape1536x1024. One red beadlet anemone Actinia equina in a clear northeast Atlantic rock pool. Wide habitat view, one open red anemone in the lower right, surrounding pool water, rocks and seaweed visible. The oral disc is plain uniform red, NO blue marks or dots on oral disc. Blue acrorhagi hidden under outer tentacle rim and not visible in this view. Broad base wider than column height, naturally dense tentacle crown, not a tall red tube. Realistic natural light, no text, no other anemones, no ruler. Entire animal in frame."
+    }
+  ]
+}

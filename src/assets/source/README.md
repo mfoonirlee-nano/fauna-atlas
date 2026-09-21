@@ -494,3 +494,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Yellow Boxfish image set](./species/yellow-boxfish/README.md)
 - [Orchid Mantis image set](./species/orchid-mantis/README.md)
 - [Blue Mussel image set](./species/blue-mussel/README.md)
+- [Beadlet Anemone image set](./species/beadlet-anemone/README.md)

@@ -3190,5 +3190,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1375,
       "bottom": 875
     }
+  },
+  "beadlet-anemone": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 618,
+      "top": 174,
+      "right": 1415,
+      "bottom": 820
+    }
   }
 };

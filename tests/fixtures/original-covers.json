@@ -1883,5 +1883,18 @@
       },
       "sha256": "a00b7eee4285db3e30dbad4f1ea956ee3849b8eb2ec20d9d291588c329de1c00"
     }
+  },
+  "beadlet-anemone": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 618,
+        "top": 174,
+        "right": 1415,
+        "bottom": 820
+      },
+      "sha256": "a13bdf6be8298e6e34c5b7d448cdc18a745a8dc6ec0201751f02eceb301852bc"
+    }
   }
 }

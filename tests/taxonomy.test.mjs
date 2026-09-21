@@ -24302,7 +24302,7 @@ test('five new toddler profiles keep sourced identities and separate regional co
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 319);
+  assert.equal(species.length, 320);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24313,8 +24313,8 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 4);
-  assert.equal(findTaxon(tree, 'class', 'Anthozoa')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'class', 'Anthozoa')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'class', 'Scyphozoa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Hydrozoa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 1);
@@ -24473,7 +24473,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 319);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 320);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
