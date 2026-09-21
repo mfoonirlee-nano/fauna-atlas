@@ -3200,5 +3200,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1415,
       "bottom": 820
     }
+  },
+  "proboscis-monkey": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 865,
+      "top": 40,
+      "right": 1365,
+      "bottom": 975
+    }
   }
 };

@@ -495,3 +495,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Orchid Mantis image set](./species/orchid-mantis/README.md)
 - [Blue Mussel image set](./species/blue-mussel/README.md)
 - [Beadlet Anemone image set](./species/beadlet-anemone/README.md)
+
+- [Proboscis Monkey image set](./species/proboscis-monkey/README.md)

@@ -1896,5 +1896,18 @@
       },
       "sha256": "a13bdf6be8298e6e34c5b7d448cdc18a745a8dc6ec0201751f02eceb301852bc"
     }
+  },
+  "proboscis-monkey": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 865,
+        "top": 40,
+        "right": 1365,
+        "bottom": 975
+      },
+      "sha256": "daee140fc57fced6cb4149c6e56e8dda354b9c4962bd36ba04375f8e9ec232de"
+    }
   }
 }

@@ -1,0 +1,42 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational photorealistic wildlife reconstruction, landscape 1536x1024, one full adult male proboscis monkey Nasalis larvatus sitting on a branch in Borneo riverside forest. Pendulous large fleshy nose, reddish brown upper fur, pale belly, long pale nonprehensile tail hanging in a loose curve entirely visible, natural anatomy. Cover for animal atlas: whole subject on right, bounding box approximately x=650..1450 y=100..940, center near 70% width; maximize size within these bounds. Left 40 percent quiet defocused green forest for text overlay. Real background margins around all visible body, toes and tail. Soft daylight. No text, collage, borders, watermark or people.",
+      "sourceSha256": "8d4e1b52e8b95ff9a8dc2476a4f19bf2e8472f9a3695eb26ea447f1217d9af4b",
+      "webpSha256": "daee140fc57fced6cb4149c6e56e8dda354b9c4962bd36ba04375f8e9ec232de"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male proboscis monkey Nasalis larvatus, pendulous fleshy nose, reddish brown back, pale pot belly, long pale nonprehensile tail. Habitat: Borneo riverside tropical forest. Scene: Close side portrait of an adult male showing large hanging nose and small eyes. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "1800eecc33fc47dd9a159ba737fea45457da5488c1eb66f079dbf2aa18fcd422",
+      "webpSha256": "058e01ceea317be12e70c22710641368a30c97433d7593dcb96c15e231b50d79"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male proboscis monkey Nasalis larvatus, pendulous fleshy nose, reddish brown back, pale pot belly, long pale nonprehensile tail. Habitat: Borneo riverside tropical forest. Scene: Adult female with a much smaller pointed nose, whole body seated on branch, long tail fully visible. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "2dc2c4705f4fab4ce3e838d5e8bbafb81fe37476ff42117e2f65ddae326c8273",
+      "webpSha256": "43f9000b2a8def22e9f87b429c1b74e0c6b5df42f0d6e50530857b3b2b0d47df"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male proboscis monkey Nasalis larvatus, pendulous fleshy nose, reddish brown back, pale pot belly, long pale nonprehensile tail. Habitat: Borneo riverside tropical forest. Scene: Whole adult male eating young green leaves while seated on a broad tree branch. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "defca4fe102ccd68ecc356e6ef7c035d505f153136f4fa4675962f4688fe08f0",
+      "webpSha256": "224a03783959bc2f25e8b02591f64d9e34da7342966ae28b7ad9f514bcdf55c5"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male proboscis monkey Nasalis larvatus, pendulous fleshy nose, reddish brown back, pale pot belly, long pale nonprehensile tail. Habitat: Borneo riverside tropical forest. Scene: Adult walking on all four limbs along a branch, entire long tail visible, no tail gripping. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "47281e8a4627369abf0377b25d15ae29ba0b6941db80bb3726731ebba4580c92",
+      "webpSha256": "e7fd2f035b4b3cf8f8781bff1bf9a7a36ea1b98c9d1e62cf9e31fc61f202cb9e"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic natural history reconstruction for a child's animal atlas, landscape 1536x1024. Species: adult male proboscis monkey Nasalis larvatus, pendulous fleshy nose, reddish brown back, pale pot belly, long pale nonprehensile tail. Habitat: Borneo riverside tropical forest. Scene: Adult resting seated in tree over a calm river at late afternoon, whole body and tail visible. Center the observation with natural margins. Preserve full subject unless close-up requested. Natural anatomy, understated daylight or specified lighting. No text, labels, collage, montage, borders, watermark or people. No fantasy. Macro scenes use natural leaves or bark as context, no invented scale markings.",
+      "sourceSha256": "5d88a081735a398e36e766567a85596f0e4711db0b51b1c9943ea20aed588ef6",
+      "webpSha256": "d4ff9fa7a3c2ecff7949a06f3c915fa531699ff27b4875ab5c7d44573aae1450"
+    }
+  ]
+}
