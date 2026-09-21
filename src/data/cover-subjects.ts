@@ -3140,5 +3140,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1415,
       "bottom": 900
     }
+  },
+  "pancake-tortoise": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 709,
+      "top": 474,
+      "right": 1520,
+      "bottom": 680
+    }
   }
 };

@@ -1818,5 +1818,18 @@
       },
       "sha256": "93bff5acb9dec3f75120d7df899dd9c4b6b1d47fa3ac764725376d4fd54e8c91"
     }
+  },
+  "pancake-tortoise": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 709,
+        "top": 474,
+        "right": 1520,
+        "bottom": 680
+      },
+      "sha256": "d72a7c1bfce934f72e215d512855aae397a649f7c62d3be4089866e81b515846"
+    }
   }
 }

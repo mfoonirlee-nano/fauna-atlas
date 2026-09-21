@@ -489,3 +489,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Fossa image set](./species/fossa/README.md)
 - [Black-winged Stilt image set](./species/black-winged-stilt/README.md)
 - [Pied Avocet image set](./species/pied-avocet/README.md)
+- [Pancake Tortoise image set](./species/pancake-tortoise/README.md)

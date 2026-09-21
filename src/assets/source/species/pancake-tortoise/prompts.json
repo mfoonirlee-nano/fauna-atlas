@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Natural history scientific photograph, landscape 1536x1024. One pancake tortoise Malacochersus tornieri on the FAR RIGHT of a broad East African granite ledge. Very flat low shell with tan and dark brown radial markings. STRICT COMPOSITION: head at x=820, tail at x=1440, whole tortoise width620 pixels, all feet and tail within frame. Animal occupies rightmost 45 percent; left half completely empty granite and distant savanna. Low side view facing LEFT, slender flat shell, four naturally placed legs, tail and toes complete. Realistic textures. Do not center the animal. No text. Background fills whole image."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a pancake tortoise Malacochersus tornieri, very low flattened oval tan shell with dark radiating lines, small brown head, four sturdy scaled legs and short tail. Natural environment: a warm East African granite rock ledge beside a narrow crevice with sparse dry grass. Specific scene overrides default sex, age and pose: Strict low side view of whole tortoise on flat granite, emphasize unusually flattened shell rather than domed shell.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a pancake tortoise Malacochersus tornieri, very low flattened oval tan shell with dark radiating lines, small brown head, four sturdy scaled legs and short tail. Natural environment: a warm East African granite rock ledge beside a narrow crevice with sparse dry grass. Specific scene overrides default sex, age and pose: Whole tortoise immediately beside entrance of a narrow natural horizontal rock crevice, low shell fits gap; do not wedge animal or obscure it.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a pancake tortoise Malacochersus tornieri, very low flattened oval tan shell with dark radiating lines, small brown head, four sturdy scaled legs and short tail. Natural environment: a warm East African granite rock ledge beside a narrow crevice with sparse dry grass. Specific scene overrides default sex, age and pose: Whole tortoise taking a small bite of dry grass among scattered green leaves on rocky savanna ground.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a pancake tortoise Malacochersus tornieri, very low flattened oval tan shell with dark radiating lines, small brown head, four sturdy scaled legs and short tail. Natural environment: a warm East African granite rock ledge beside a narrow crevice with sparse dry grass. Specific scene overrides default sex, age and pose: Slightly elevated close view of whole tortoise, brown shell with radiating dark lines, limbs visible around edge.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: a pancake tortoise Malacochersus tornieri, very low flattened oval tan shell with dark radiating lines, small brown head, four sturdy scaled legs and short tail. Natural environment: a warm East African granite rock ledge beside a narrow crevice with sparse dry grass. Specific scene overrides default sex, age and pose: Whole tortoise climbing up a gently sloping granite slab, feet naturally grip textured surface, full shell and head visible.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    }
+  ]
+}
