@@ -38,7 +38,9 @@ export function speciesBundle(): Plugin {
         // Ship the six rank names once; retain their order when restoring each lineage.
         // Restore redundant ids and compact text field names on the client.
         const catalogue = summaries.map(({ id, scientificName, summary, conservation, distribution, taxonomy, media, habitats, tags, ...item }) => ({ ...item,
-          n: scientificName, s: summary, c: conservation.code, d: distribution,
+          n: scientificName, s: summary, c: conservation.code,
+          // Distribution keys repeat for every species; encode optional center last.
+          d: [distribution.regions, distribution.realms, ...(distribution.center === undefined ? [] : [distribution.center])],
           m: [media.image?.startsWith(`./images/species/${item.slug}/`)
             && !media.image.slice(`./images/species/${item.slug}/`.length).includes('/')
             ? media.image.slice(`./images/species/${item.slug}/`.length, -'.webp'.length) : media.image,
@@ -54,7 +56,7 @@ export function speciesBundle(): Plugin {
         return `const taxa=${JSON.stringify(taxa.map(({ scientificName, zhName }) => [scientificName, zhName]))}.map(([scientificName,zhName])=>({scientificName,zhName}));
           const ranks=${JSON.stringify(taxonomyRanks)};
           export const species=${JSON.stringify(catalogue)}.map(({n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,scientificName:n,summary:s,
-            conservation:{code:c},distribution:d,media:{image:m[0]&&!m[0].includes('/')?'./images/species/'+item.slug+'/'+m[0]+'.webp':m[0]??undefined,alt:m[1],focalPoint:m[2]??undefined},habitats:h.map(name=>({name})),tags:g,
+            conservation:{code:c},distribution:{regions:d[0],realms:d[1],...(d.length>2?{center:d[2]}:{})},media:{image:m[0]&&!m[0].includes('/')?'./images/species/'+item.slug+'/'+m[0]+'.webp':m[0]??undefined,alt:m[1],focalPoint:m[2]??undefined},habitats:h.map(name=>({name})),tags:g,
             taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[t[index]]]))}));
           const loaders={${loaders}};
           export async function loadSpecies(slug){
