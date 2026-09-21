@@ -1766,5 +1766,18 @@
       },
       "sha256": "ac76a99d41b576269f74fc91362621a00e593638825a0585dcfb44615de0e0b0"
     }
+  },
+  "binturong": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 78,
+        "right": 1510,
+        "bottom": 995
+      },
+      "sha256": "c4d9441f70ec1060fe83e0c8a976e0f9c1a77b22e28112e8142a8d2201f6fc47"
+    }
   }
 }

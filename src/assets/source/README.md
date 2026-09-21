@@ -484,3 +484,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Indian Stick Insect image set](./species/indian-stick-insect/README.md)
 - [California Sea Hare image set](./species/california-sea-hare/README.md)
 - [Great Scallop image set](./species/great-scallop/README.md)
+
+- [Binturong image set](./species/binturong/README.md)

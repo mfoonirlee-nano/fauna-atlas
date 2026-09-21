@@ -3100,5 +3100,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1425,
       "bottom": 690
     }
+  },
+  "binturong": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 78,
+      "right": 1510,
+      "bottom": 995
+    }
   }
 };
