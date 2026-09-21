@@ -3350,5 +3350,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1477,
       "bottom": 735
     }
+  },
+  "mantled-guereza": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 37,
+      "right": 1267,
+      "bottom": 1000
+    }
+  },
+  "wattled-jacana": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 742,
+      "top": 42,
+      "right": 1440,
+      "bottom": 888
+    }
+  },
+  "fleischmanns-glass-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 672,
+      "top": 176,
+      "right": 1450,
+      "bottom": 808
+    }
+  },
+  "spiny-leaf-insect": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 707,
+      "top": 17,
+      "right": 1498,
+      "bottom": 972
+    }
+  },
+  "willans-chromodoris": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 40,
+      "right": 1488,
+      "bottom": 924
+    }
   }
 };

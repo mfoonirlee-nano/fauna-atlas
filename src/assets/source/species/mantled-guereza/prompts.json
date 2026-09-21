@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Generate one 1536x1024 landscape photorealistic wildlife image for Fauna Atlas species cover: Colobus guereza, mantled guereza, seated on a tree branch in an East African green forest. Black body, long white side mantle, black face framed in white, long hanging tail ending in white tuft. Complete animal including tail and all visible feet entirely within frame, large subject on RIGHT, bounding box approximately x=700..1430 y=100..930. Left 40% quiet soft forest bokeh for title overlay. Natural soft daylight, accurate anatomy, no text, no logos, no collage. Save generated image."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife educational gallery image. Species Colobus guereza, mantled guereza of East African forest. Full body seated side view showing long white mantle falling from both shoulders and flanks, black limbs, white facial fringe and long white tufted tail. Accurate anatomy, natural light and realistic vegetation, clear observation point, no text, no logos, no collage."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife educational gallery image. Species Colobus guereza, mantled guereza of East African forest. Medium close view of adult eating a fresh green leaf held in its black hand, no human thumbs, in forest canopy. Accurate anatomy, natural light and realistic vegetation, clear observation point, no text, no logos, no collage."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife educational gallery image. Species Colobus guereza, mantled guereza of East African forest. Full body adult walking on a horizontal bough, all four limbs naturally supported, long tail extended to balance, white terminal tuft, no prehensile tail. Accurate anatomy, natural light and realistic vegetation, clear observation point, no text, no logos, no collage."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife educational gallery image. Species Colobus guereza, mantled guereza of East African forest. Mother seated on a broad branch gently holding a small WHITE FURRED newborn infant against chest. Infant face pinkish, mother black body with white side mantle. Accurate anatomy, natural light and realistic vegetation, clear observation point, no text, no logos, no collage."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife educational gallery image. Species Colobus guereza, mantled guereza of East African forest. Two adult monkeys sitting near each other in a leafy tree crown, relaxed natural social resting, black bodies and long white side mantles, tails visible. Accurate anatomy, natural light and realistic vegetation, clear observation point, no text, no logos, no collage."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Jacana jacana, wattled jacana, adult with black head neck and breast, rich chestnut wings and body, yellow bill and red frontal wattle, long grey legs, extremely long slender unwebbed toes. South American freshwater wetland. Cover: one complete adult standing on water lily leaves. All toes and claws and bill entirely visible. Large subject on RIGHT within x=700..1450 y=120..900, left 40% calm water and blurred green plants for text overlay. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Jacana jacana, wattled jacana, adult with black head neck and breast, rich chestnut wings and body, yellow bill and red frontal wattle, long grey legs, extremely long slender unwebbed toes. South American freshwater wetland. Close low view of the adult feet on a large floating leaf, clearly show long slender toes spreading over leaf surface, four toes per foot, no webbing. Include lower body and real leaf texture. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Jacana jacana, wattled jacana, adult with black head neck and breast, rich chestnut wings and body, yellow bill and red frontal wattle, long grey legs, extremely long slender unwebbed toes. South American freshwater wetland. Adult side view bending its bill toward a small insect on floating vegetation, natural foraging scene. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Jacana jacana, wattled jacana, adult with black head neck and breast, rich chestnut wings and body, yellow bill and red frontal wattle, long grey legs, extremely long slender unwebbed toes. South American freshwater wetland. Adult standing on floating vegetation with both wings raised, revealing yellow-green flight feathers. Full wings fit inside frame. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Jacana jacana, wattled jacana, adult with black head neck and breast, rich chestnut wings and body, yellow bill and red frontal wattle, long grey legs, extremely long slender unwebbed toes. South American freshwater wetland. A male adult beside a simple low floating plant nest with mottled eggs among marsh vegetation. Natural nesting, no anthropomorphic behavior. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Jacana jacana, wattled jacana, adult with black head neck and breast, rich chestnut wings and body, yellow bill and red frontal wattle, long grey legs, extremely long slender unwebbed toes. South American freshwater wetland. Two small downy striped chicks with pale undersides walking on floating vegetation near an adult. Chicks have long delicate toes, no red adult facial wattles. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    }
+  ]
+}

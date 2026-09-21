@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Edit this Extatosoma tiaratum female cover. Keep realistic anatomy and forest style, 1536x1024. Recompose animal onto RIGHT: entire silhouette INCLUDING BOTH ANTENNA TIPS AND ALL SIX FEET must be inside x=670..1470 and y=90..950. Shorten antenna projection by naturally pointing them upward-right, not left. Left 40% x=0..614 must have only softly blurred background. Complete full animal with real margins, prominent body. No text.",
+      "initialPrompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Extatosoma tiaratum, Australian spiny leaf insect in eucalyptus foliage, scientifically accurate macro wildlife photography. Six legs and two antennae, no scorpion stinger. Cover: one complete adult female, stout brown leaf-like body with thorny projections, broad leaf-like lobes on legs, curved abdomen, short reduced wings. On a slender branch. Full antennae and all six feet inside frame. Large subject on RIGHT x=680..1460 y=130..920; left 40% quiet soft green bokeh. Nearby eucalyptus leaf provides scale context. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Extatosoma tiaratum, Australian spiny leaf insect in eucalyptus foliage, scientifically accurate macro wildlife photography. Six legs and two antennae, no scorpion stinger. Close view of adult female leg lobes and thorny brown body against dry leaves, six legs total, demonstrate leaf mimicry with surrounding real leaves. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Extatosoma tiaratum, Australian spiny leaf insect in eucalyptus foliage, scientifically accurate macro wildlife photography. Six legs and two antennae, no scorpion stinger. Adult brown female chewing the edge of a fresh eucalyptus leaf on a twig, profile view clearly showing head near leaf edge. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Extatosoma tiaratum, Australian spiny leaf insect in eucalyptus foliage, scientifically accurate macro wildlife photography. Six legs and two antennae, no scorpion stinger. Adult male on a twig: slender brown body, long folded wings along abdomen, minimal body spines, long antennae, all six legs naturally arranged. Do not depict broad female abdomen. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Extatosoma tiaratum, Australian spiny leaf insect in eucalyptus foliage, scientifically accurate macro wildlife photography. Six legs and two antennae, no scorpion stinger. Several seed-like oval brown eggs with pale capitulum caps on forest litter beside a eucalyptus leaf, macro image, no text, no adult insects. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case scientific-educational. Generate one NEW independent 1536x1024 wildlife macro photograph of ONLY ONE NEWLY HATCHED FIRST INSTAR Extatosoma tiaratum nymph. Tiny approximately 2cm long, narrow SLENDER dark brown-black body, reddish orange head, 6 very thin legs, 2 slender antennae, elongate abdomen tilted upward. It resembles a red-headed ant but has an elongated stick-insect body. NO ADULT insect, NO broad leaf-shaped lobes, NO large brown adult, NO actual ant anywhere. Subject alone on a slender twig next to one eucalyptus leaf providing natural context. Sharp detail, natural forest bokeh, no text no labels.",
+      "initialPrompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Extatosoma tiaratum, Australian spiny leaf insect in eucalyptus foliage, scientifically accurate macro wildlife photography. Six legs and two antennae, no scorpion stinger. One newly hatched ant-mimicking nymph on a twig, tiny dark slim body, reddish head, six slim legs and long antennae, beside eucalyptus leaves, no real ants. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    }
+  ]
+}

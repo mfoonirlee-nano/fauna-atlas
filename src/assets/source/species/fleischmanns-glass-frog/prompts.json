@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Hyalinobatrachium fleischmanni sensu stricto, Fleischmann's glass frog from Costa Rica. Small pale green frog with tiny yellow dots, golden eyes with horizontal pupils, delicate translucent limbs and round toe pads. Realistic macro rainforest photography. Cover: complete frog perched in three-quarter side view on a leaf, legs naturally folded and all toes within frame. Large subject on RIGHT x=720..1450 y=220..820. Left 40% soft quiet forest bokeh. Leaf contextual scale, no ruler. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Hyalinobatrachium fleischmanni sensu stricto, Fleischmann's glass frog from Costa Rica. Small pale green frog with tiny yellow dots, golden eyes with horizontal pupils, delicate translucent limbs and round toe pads. Realistic macro rainforest photography. Low angle view from underneath a frog naturally clinging to underside of a thin leaf edge, show semi-transparent belly with opaque white organ covering and faint lower gut outline. No exposed organs, no visible red heart, no x-ray, no glass body, no handling. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Hyalinobatrachium fleischmanni sensu stricto, Fleischmann's glass frog from Costa Rica. Small pale green frog with tiny yellow dots, golden eyes with horizontal pupils, delicate translucent limbs and round toe pads. Realistic macro rainforest photography. Close dorsal view of frog resting on green leaf, tiny pale yellow dots on green back visible, four naturally folded limbs, leaf veins provide context. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Hyalinobatrachium fleischmanni sensu stricto, Fleischmann's glass frog from Costa Rica. Small pale green frog with tiny yellow dots, golden eyes with horizontal pupils, delicate translucent limbs and round toe pads. Realistic macro rainforest photography. Macro side view of one forefoot gripping a leaf edge, clearly visible rounded toe pads and thin limbs, include frog face in softer focus. Anatomically correct four fingers. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Hyalinobatrachium fleischmanni sensu stricto, Fleischmann's glass frog from Costa Rica. Small pale green frog with tiny yellow dots, golden eyes with horizontal pupils, delicate translucent limbs and round toe pads. Realistic macro rainforest photography. Male frog naturally resting beside a small clear jelly egg clutch on underside of leaf above a softly blurred stream, non-graphic eggs, natural tiny scale. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Hyalinobatrachium fleischmanni sensu stricto, Fleischmann's glass frog from Costa Rica. Small pale green frog with tiny yellow dots, golden eyes with horizontal pupils, delicate translucent limbs and round toe pads. Realistic macro rainforest photography. Wider habitat scene: small green frog perched on a leaf beside a shaded Costa Rican forest stream at dusk, wet leaves and gently moving water in background. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    }
+  ]
+}

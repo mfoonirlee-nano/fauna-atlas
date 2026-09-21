@@ -2091,5 +2091,70 @@
       },
       "sha256": "a90deab47dc9b8fa67a6af2809e19d923385bfb94a6b8a062ac92ea9942c0cf0"
     }
+  },
+  "mantled-guereza": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 37,
+        "right": 1267,
+        "bottom": 1000
+      },
+      "sha256": "2fdedf2c6fcb8870dc97a6e24d8066ca374602fea7bab4e1ef5f5308e9dd8feb"
+    }
+  },
+  "wattled-jacana": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 742,
+        "top": 42,
+        "right": 1440,
+        "bottom": 888
+      },
+      "sha256": "c3db2817b2f323bdbf83dc4a72572a57415f1e38975e10a0a360332a3b8a166b"
+    }
+  },
+  "fleischmanns-glass-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 672,
+        "top": 176,
+        "right": 1450,
+        "bottom": 808
+      },
+      "sha256": "21f61109202f1dbfdfb2f766c3305349f7a4ae32ba0417154514e2cb724b088f"
+    }
+  },
+  "spiny-leaf-insect": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 707,
+        "top": 17,
+        "right": 1498,
+        "bottom": 972
+      },
+      "sha256": "5dc15d9c546c0762339bb7ec8ffedc5c82aa28a46f4edb0d9db7210c797b86c3"
+    }
+  },
+  "willans-chromodoris": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 40,
+        "right": 1488,
+        "bottom": 924
+      },
+      "sha256": "c6acd6baa04c83e610cf684e56bf141bbf72abf53193d3f82d4a00feebb435f9"
+    }
   }
 }

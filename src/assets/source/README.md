@@ -512,3 +512,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Sandfish Skink image set](./species/sandfish-skink/README.md)
 - [Great Hammerhead image set](./species/great-hammerhead/README.md)
 - [Atlas Moth image set](./species/atlas-moth/README.md)
+
+- [Mantled Guereza image set](./species/mantled-guereza/README.md)
+- [Wattled Jacana image set](./species/wattled-jacana/README.md)
+- [Fleischmann’s Glass Frog image set](./species/fleischmanns-glass-frog/README.md)
+- [Spiny Leaf Insect image set](./species/spiny-leaf-insect/README.md)
+- [Willan’s Chromodoris image set](./species/willans-chromodoris/README.md)

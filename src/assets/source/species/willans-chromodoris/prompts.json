@@ -1,0 +1,31 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Edit cover composition. Keep Chromodoris willani nudibranch species anatomy, pale blue-white mantle black stripes and white-speckled rhinophores and gills. 1536x1024 landscape. Rotate animal to a more steep diagonal (head lower-left, tail upper-right), and move it into RIGHT half. Whole body including gills, rhinophores, foot and tail must fit x=670..1470 and y=110..910. Left 40% x=0..614 must contain only quiet out-of-focus dark teal water, absolutely no animal. Maximize subject within these boundaries. Maintain photographic underwater appearance, reef rock under animal. No text.",
+      "initialPrompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Chromodoris willani, Willan's chromodoris nudibranch. Pale blue-white mantle with dark navy longitudinal stripes and white margin, no orange margin. Two anterior lamellate rhinophores and posterior feathery gill rosette with DISTINCT OPAQUE WHITE SPECKLES on translucent blue grey surfaces. Underwater western Pacific reef macro photography. Cover: one entire animal in side three-quarter view crawling on low reef rock. Large subject on RIGHT x=670..1460 y=260..810, full head foot tail rhinophore tips and gill tips within frame. Left 40% quiet soft dark teal reef background. Natural underwater light, small sponge patch gives substrate context. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Chromodoris willani, Willan's chromodoris nudibranch. Pale blue-white mantle with dark navy longitudinal stripes and white margin, no orange margin. Two anterior lamellate rhinophores and posterior feathery gill rosette with DISTINCT OPAQUE WHITE SPECKLES on translucent blue grey surfaces. Underwater western Pacific reef macro photography. Close posterior view of feathery gill rosette with white speckles, animal body partly visible on rock. Gill rosette clearly distinct from two head rhinophores. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Chromodoris willani, Willan's chromodoris nudibranch. Pale blue-white mantle with dark navy longitudinal stripes and white margin, no orange margin. Two anterior lamellate rhinophores and posterior feathery gill rosette with DISTINCT OPAQUE WHITE SPECKLES on translucent blue grey surfaces. Underwater western Pacific reef macro photography. Close frontal three-quarter view highlighting two lamellate rhinophores with white speckles, gill tuft far behind in softer focus, no cartoon eyes. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Chromodoris willani, Willan's chromodoris nudibranch. Pale blue-white mantle with dark navy longitudinal stripes and white margin, no orange margin. Two anterior lamellate rhinophores and posterior feathery gill rosette with DISTINCT OPAQUE WHITE SPECKLES on translucent blue grey surfaces. Underwater western Pacific reef macro photography. Top view showing whole soft body with lengthwise dark stripes on pale blue mantle and white edges, two rhinophores anterior, feathery gill circle posterior. All body inside frame. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Chromodoris willani, Willan's chromodoris nudibranch. Pale blue-white mantle with dark navy longitudinal stripes and white margin, no orange margin. Two anterior lamellate rhinophores and posterior feathery gill rosette with DISTINCT OPAQUE WHITE SPECKLES on translucent blue grey surfaces. Underwater western Pacific reef macro photography. Side view of animal crawling across a rough reef rock, broad muscular foot beneath mantle contacting substrate, no legs and no external shell. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image, no collage. Chromodoris willani, Willan's chromodoris nudibranch. Pale blue-white mantle with dark navy longitudinal stripes and white margin, no orange margin. Two anterior lamellate rhinophores and posterior feathery gill rosette with DISTINCT OPAQUE WHITE SPECKLES on translucent blue grey surfaces. Underwater western Pacific reef macro photography. Whole animal with head touching a small encrusting pale sponge on a shaded reef rock, observed feeding context, accurate gills and speckled rhinophores. Accurate anatomy, no text, no labels, no watermark, no human hands."
+    }
+  ]
+}

@@ -98854,6 +98854,1202 @@ export const species = [
   "publishedAt": "2026-09-21",
   "updatedAt": "2026-09-21"
 },
+{
+  "id": "mantled-guereza",
+  "slug": "mantled-guereza",
+  "names": {
+    "zh": "东非黑白疣猴",
+    "en": "Mantled Guereza"
+  },
+  "scientificName": "Colobus guereza",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Primates",
+      "zhName": "灵长目"
+    },
+    "family": {
+      "scientificName": "Cercopithecidae",
+      "zhName": "猴科"
+    },
+    "genus": {
+      "scientificName": "Colobus",
+      "zhName": "疣猴属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "非洲赤道地区的森林"
+    ],
+    "countries": [
+      "肯尼亚",
+      "乌干达",
+      "埃塞俄比亚"
+    ],
+    "range": "分布于非洲赤道地区的多种森林；国家列表仅列代表性分布地，中文名中的东非不表示只分布在东非。"
+  },
+  "habitats": [
+    {
+      "name": "非洲赤道地区的森林",
+      "realm": "terrestrial",
+      "description": "非洲赤道地区的森林。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "树叶",
+      "果实",
+      "花"
+    ],
+    "description": "食物包括树叶、果实、花。"
+  },
+  "tags": [
+    "东非黑白疣猴",
+    "两侧的白色长毛"
+  ],
+  "summary": "找找黑色身体两侧垂下来的白色长毛。",
+  "description": "东非黑白疣猴有黑色的身体、白色脸环和两侧的白色长毛。它常在树上活动，长尾巴末端有一团白毛。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "两侧的白色长毛",
+      "body": "从肩旁向下看，白色长毛沿着身体两侧垂下来。黑色手脚与白毛放在一起，很容易分清轮廓。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "拿着叶子吃",
+      "body": "它以树叶为主食，也会吃果实和花。看看嘴边的叶片和抓住叶子的手。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "走过树枝",
+      "body": "手脚抓住树枝，长尾巴伸在身后。尾巴能帮助身体保持平衡，不能像熊狸的尾巴那样缠住树枝抓握。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "白毛的小宝宝",
+      "body": "刚出生的小疣猴有白色的毛。随着长大，它才逐渐出现成年疣猴的黑白毛色。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "和同伴一起休息",
+      "body": "疣猴成群生活，白天在树林里取食和活动，也会停下来休息。图中两只同伴坐在树枝上。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护森林与树冠之间的连接，减少捕猎。"
+    }
+  ],
+  "keyFacts": [
+    "从肩旁向下看，白色长毛沿着身体两侧垂下来。黑色手脚与白毛放在一起，很容易分清轮廓。",
+    "它以树叶为主食，也会吃果实和花。看看嘴边的叶片和抓住叶子的手。",
+    "手脚抓住树枝，长尾巴伸在身后。尾巴能帮助身体保持平衡，不能像熊狸的尾巴那样缠住树枝抓握。",
+    "刚出生的小疣猴有白色的毛。随着长大，它才逐渐出现成年疣猴的黑白毛色。",
+    "疣猴成群生活，白天在树林里取食和活动，也会停下来休息。图中两只同伴坐在树枝上。"
+  ],
+  "threats": [
+    "森林减少和破碎化",
+    "捕猎"
+  ],
+  "conservationActions": [
+    "保护森林与树冠之间的连接，减少捕猎。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "两侧的白色长毛"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "非洲赤道地区的森林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/mantled-guereza/01-cover.webp",
+    "alt": "东非黑白疣猴在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/mantled-guereza/02-observation.webp",
+        "title": "两侧的白色长毛",
+        "alt": "东非黑白疣猴：两侧的白色长毛",
+        "caption": "AI 生成科学情景重建。从肩旁向下看，白色长毛沿着身体两侧垂下来。黑色手脚与白毛放在一起，很容易分清轮廓。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/mantled-guereza/03-observation.webp",
+        "title": "拿着叶子吃",
+        "alt": "东非黑白疣猴：拿着叶子吃",
+        "caption": "AI 生成科学情景重建。它以树叶为主食，也会吃果实和花。看看嘴边的叶片和抓住叶子的手。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/mantled-guereza/04-observation.webp",
+        "title": "走过树枝",
+        "alt": "东非黑白疣猴：走过树枝",
+        "caption": "AI 生成科学情景重建。手脚抓住树枝，长尾巴伸在身后。尾巴能帮助身体保持平衡，不能像熊狸的尾巴那样缠住树枝抓握。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/mantled-guereza/05-observation.webp",
+        "title": "白毛的小宝宝",
+        "alt": "东非黑白疣猴：白毛的小宝宝",
+        "caption": "AI 生成科学情景重建。刚出生的小疣猴有白色的毛。随着长大，它才逐渐出现成年疣猴的黑白毛色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/mantled-guereza/06-observation.webp",
+        "title": "和同伴一起休息",
+        "alt": "东非黑白疣猴：和同伴一起休息",
+        "caption": "AI 生成科学情景重建。疣猴成群生活，白天在树林里取食和活动，也会停下来休息。图中两只同伴坐在树枝上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "密歇根大学 ADW：东非黑白疣猴的形态、生活与全球 LC",
+      "url": "https://animaldiversity.org/accounts/Colobus_guereza/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "圣迭戈动物园：旧世界猴的尾巴与树栖生活",
+      "url": "https://animals.sandiegozoo.org/animals/monkey",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
+{
+  "id": "wattled-jacana",
+  "slug": "wattled-jacana",
+  "names": {
+    "zh": "美洲水雉",
+    "en": "Wattled Jacana"
+  },
+  "scientificName": "Jacana jacana",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Charadriiformes",
+      "zhName": "鸻形目"
+    },
+    "family": {
+      "scientificName": "Jacanidae",
+      "zhName": "水雉科"
+    },
+    "genus": {
+      "scientificName": "Jacana",
+      "zhName": "美洲水雉属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [
+      "北美洲",
+      "南美洲"
+    ],
+    "regions": [
+      "长有浮水植物的淡水湿地"
+    ],
+    "countries": [
+      "巴拿马",
+      "巴西",
+      "特立尼达和多巴哥"
+    ],
+    "range": "从巴拿马、特立尼达向南，分布于南美洲安第斯山脉以东的大片地区。国家列表仅列代表性分布地。"
+  },
+  "habitats": [
+    {
+      "name": "长有浮水植物的淡水湿地",
+      "realm": "freshwater",
+      "description": "长有浮水植物的淡水湿地。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "其他小型无脊椎动物",
+      "种子"
+    ],
+    "description": "食物包括昆虫、其他小型无脊椎动物、种子。"
+  },
+  "tags": [
+    "美洲水雉",
+    "把脚趾铺开"
+  ],
+  "summary": "看看细长的脚趾怎样铺在水面叶子上。",
+  "description": "美洲水雉有栗色翅膀、黑色头颈和黄色嘴，嘴根附近有红色肉垂。长长的脚趾让它能够在浮水植物上行走。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "把脚趾铺开",
+      "body": "细长的脚趾和爪子分散身体的重量。它踩着浮叶前进，脚趾之间没有鸭子那样的蹼。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "在叶面找食物",
+      "body": "它会在浮水植物上寻找昆虫等小动物，也吃一些种子。看看低下去的嘴指向哪里。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "展开翅膀的颜色",
+      "body": "翅膀收起时能看到栗色羽毛，展开后露出黄绿色飞羽。这里展示一个展翅姿态。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "浮水植物上的巢",
+      "body": "水雉在浮水植物上搭巢。雄鸟承担孵卵和照顾雏鸟的工作；观察时要离巢远一些。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "小鸟也有长脚趾",
+      "body": "小水雉长着绒羽，身体下方颜色较浅。它们也用长脚趾踩着水边植物走动。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留湿地和浮水植物，观察时不要靠近巢和雏鸟。"
+    }
+  ],
+  "keyFacts": [
+    "细长的脚趾和爪子分散身体的重量。它踩着浮叶前进，脚趾之间没有鸭子那样的蹼。",
+    "它会在浮水植物上寻找昆虫等小动物，也吃一些种子。看看低下去的嘴指向哪里。",
+    "翅膀收起时能看到栗色羽毛，展开后露出黄绿色飞羽。这里展示一个展翅姿态。",
+    "水雉在浮水植物上搭巢。雄鸟承担孵卵和照顾雏鸟的工作；观察时要离巢远一些。",
+    "小水雉长着绒羽，身体下方颜色较浅。它们也用长脚趾踩着水边植物走动。"
+  ],
+  "threats": [
+    "湿地丧失",
+    "水体污染"
+  ],
+  "conservationActions": [
+    "保留湿地和浮水植物，观察时不要靠近巢和雏鸟。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "把脚趾铺开"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "长有浮水植物的淡水湿地"
+    }
+  ],
+  "media": {
+    "image": "./images/species/wattled-jacana/01-cover.webp",
+    "alt": "美洲水雉在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/wattled-jacana/02-observation.webp",
+        "title": "把脚趾铺开",
+        "alt": "美洲水雉：把脚趾铺开",
+        "caption": "AI 生成科学情景重建。细长的脚趾和爪子分散身体的重量。它踩着浮叶前进，脚趾之间没有鸭子那样的蹼。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/wattled-jacana/03-observation.webp",
+        "title": "在叶面找食物",
+        "alt": "美洲水雉：在叶面找食物",
+        "caption": "AI 生成科学情景重建。它会在浮水植物上寻找昆虫等小动物，也吃一些种子。看看低下去的嘴指向哪里。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/wattled-jacana/04-observation.webp",
+        "title": "展开翅膀的颜色",
+        "alt": "美洲水雉：展开翅膀的颜色",
+        "caption": "AI 生成科学情景重建。翅膀收起时能看到栗色羽毛，展开后露出黄绿色飞羽。这里展示一个展翅姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/wattled-jacana/05-observation.webp",
+        "title": "浮水植物上的巢",
+        "alt": "美洲水雉：浮水植物上的巢",
+        "caption": "AI 生成科学情景重建。水雉在浮水植物上搭巢。雄鸟承担孵卵和照顾雏鸟的工作；观察时要离巢远一些。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/wattled-jacana/06-observation.webp",
+        "title": "小鸟也有长脚趾",
+        "alt": "美洲水雉：小鸟也有长脚趾",
+        "caption": "AI 生成科学情景重建。小水雉长着绒羽，身体下方颜色较浅。它们也用长脚趾踩着水边植物走动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "佐治亚水族馆：美洲水雉形态、分布与 IUCN LC",
+      "url": "https://www.georgiaaquarium.org/animal/wattled-jacana/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "圣迭戈动物园：水雉长趾与雄鸟育幼",
+      "url": "https://animals.sandiegozoo.org/animals/jacana",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
+{
+  "id": "fleischmanns-glass-frog",
+  "slug": "fleischmanns-glass-frog",
+  "names": {
+    "zh": "弗氏玻璃蛙",
+    "en": "Fleischmann’s Glass Frog"
+  },
+  "scientificName": "Hyalinobatrachium fleischmanni",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Amphibia",
+      "zhName": "两栖纲"
+    },
+    "order": {
+      "scientificName": "Anura",
+      "zhName": "无尾目"
+    },
+    "family": {
+      "scientificName": "Centrolenidae",
+      "zhName": "瞻星蛙科"
+    },
+    "genus": {
+      "scientificName": "Hyalinobatrachium",
+      "zhName": "玻璃蛙属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "freshwater"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "中美洲林间溪流旁的植被"
+    ],
+    "countries": [
+      "洪都拉斯",
+      "尼加拉瓜",
+      "哥斯达黎加"
+    ],
+    "range": "按 2020 年修订后的物种范围，从洪都拉斯东部和尼加拉瓜的莫斯基蒂亚地区，向南至哥斯达黎加的蒂拉兰山地与中央谷地。"
+  },
+  "habitats": [
+    {
+      "name": "中美洲林间溪流旁的植被",
+      "realm": "terrestrial",
+      "description": "中美洲林间溪流旁的植被。",
+      "isPrimary": true
+    },
+    {
+      "name": "林间溪流",
+      "realm": "freshwater",
+      "description": "幼体在溪流中生活。"
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "小型昆虫"
+    ],
+    "description": "食物包括小型昆虫。"
+  },
+  "tags": [
+    "弗氏玻璃蛙",
+    "半透明的肚皮"
+  ],
+  "summary": "从下方看看半透明的肚皮，再找找细细的四条腿。",
+  "description": "弗氏玻璃蛙背部浅绿，带有浅色小点，腹面皮肤半透明。内脏外面还有白色覆盖，并不是整个身体都透明。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "半透明的肚皮",
+      "body": "从腹面能透过部分皮肤看到内部轮廓。白色覆盖仍会遮住一些器官；图像只说明外观，不用于辨认内部结构。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "叶子上的绿背",
+      "body": "浅绿背部带着小小的浅色斑点。图像放大了小蛙，叶脉提供环境参照，不是尺标。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "指尖的小圆垫",
+      "body": "沿着前腿找到指尖，末端有圆圆的小垫。它用四肢贴住叶面，也能抓住叶边。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "叶片下面的卵",
+      "body": "卵团附在溪流上方的叶片下面，卵粒排成一层。图中成蛙与卵团展示繁殖环境，不能仅凭这张图判断照护行为。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "溪边的叶丛",
+      "body": "成蛙在溪流旁的植被上生活，夜间可以听见雄蛙的叫声。溪流和两边的植物都是它生活环境的一部分。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护溪边植被和水质，观察时不要翻动有卵团的叶片。"
+    }
+  ],
+  "keyFacts": [
+    "从腹面能透过部分皮肤看到内部轮廓。白色覆盖仍会遮住一些器官；图像只说明外观，不用于辨认内部结构。",
+    "浅绿背部带着小小的浅色斑点。图像放大了小蛙，叶脉提供环境参照，不是尺标。",
+    "沿着前腿找到指尖，末端有圆圆的小垫。它用四肢贴住叶面，也能抓住叶边。",
+    "卵团附在溪流上方的叶片下面，卵粒排成一层。图中成蛙与卵团展示繁殖环境，不能仅凭这张图判断照护行为。",
+    "成蛙在溪流旁的植被上生活，夜间可以听见雄蛙的叫声。溪流和两边的植物都是它生活环境的一部分。"
+  ],
+  "threats": [
+    "溪边森林减少",
+    "溪流水质受损"
+  ],
+  "conservationActions": [
+    "保护溪边植被和水质，观察时不要翻动有卵团的叶片。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "半透明的肚皮"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "中美洲林间溪流旁的植被"
+    }
+  ],
+  "media": {
+    "image": "./images/species/fleischmanns-glass-frog/01-cover.webp",
+    "alt": "弗氏玻璃蛙在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/fleischmanns-glass-frog/02-observation.webp",
+        "title": "半透明的肚皮",
+        "alt": "弗氏玻璃蛙：半透明的肚皮",
+        "caption": "AI 生成科学情景重建。从腹面能透过部分皮肤看到内部轮廓。白色覆盖仍会遮住一些器官；图像只说明外观，不用于辨认内部结构。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/fleischmanns-glass-frog/03-observation.webp",
+        "title": "叶子上的绿背",
+        "alt": "弗氏玻璃蛙：叶子上的绿背",
+        "caption": "AI 生成科学情景重建。浅绿背部带着小小的浅色斑点。图像放大了小蛙，叶脉提供环境参照，不是尺标。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/fleischmanns-glass-frog/04-observation.webp",
+        "title": "指尖的小圆垫",
+        "alt": "弗氏玻璃蛙：指尖的小圆垫",
+        "caption": "AI 生成科学情景重建。沿着前腿找到指尖，末端有圆圆的小垫。它用四肢贴住叶面，也能抓住叶边。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/fleischmanns-glass-frog/05-observation.webp",
+        "title": "叶片下面的卵",
+        "alt": "弗氏玻璃蛙：叶片下面的卵",
+        "caption": "AI 生成科学情景重建。卵团附在溪流上方的叶片下面，卵粒排成一层。图中成蛙与卵团展示繁殖环境，不能仅凭这张图判断照护行为。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/fleischmanns-glass-frog/06-observation.webp",
+        "title": "溪边的叶丛",
+        "alt": "弗氏玻璃蛙：溪边的叶丛",
+        "caption": "AI 生成科学情景重建。成蛙在溪流旁的植被上生活，夜间可以听见雄蛙的叫声。溪流和两边的植物都是它生活环境的一部分。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "美国自然历史博物馆 ASW：接受学名和拆分后的分布",
+      "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Centrolenidae/Hyalinobatrachinae/Hyalinobatrachium/Hyalinobatrachium-fleischmanni",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "Mendoza-Henao 等 2020：物种复合群修订与自然史",
+      "url": "https://www.joetownsendlab.org/uploads/2/0/1/8/20180767/2020_mendozaetal_fleischmanni-revision_final.pdf",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "IUCN/TRAFFIC：CITES CoP19 玻璃蛙评估分析中的 LC 引用",
+      "url": "https://cites.org/sites/default/files/documents/E-CoP19-Inf-03.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
+{
+  "id": "spiny-leaf-insect",
+  "slug": "spiny-leaf-insect",
+  "names": {
+    "zh": "澳大利亚刺竹节虫",
+    "en": "Spiny Leaf Insect"
+  },
+  "scientificName": "Extatosoma tiaratum",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Phasmatodea",
+      "zhName": "竹节虫目"
+    },
+    "family": {
+      "scientificName": "Phasmatidae",
+      "zhName": "竹节虫科"
+    },
+    "genus": {
+      "scientificName": "Extatosoma",
+      "zhName": "刺竹节虫属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "大洋洲"
+    ],
+    "regions": [
+      "澳大利亚东部的树木与灌丛"
+    ],
+    "countries": [
+      "澳大利亚"
+    ],
+    "range": "原生分布主要包括澳大利亚昆士兰州和新南威尔士州的树木与灌丛。"
+  },
+  "habitats": [
+    {
+      "name": "澳大利亚东部的树木与灌丛",
+      "realm": "terrestrial",
+      "description": "澳大利亚东部的树木与灌丛。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "桉树等植物的叶片"
+    ],
+    "description": "食物包括桉树等植物的叶片。"
+  },
+  "tags": [
+    "澳大利亚刺竹节虫",
+    "像枯叶的身体"
+  ],
+  "summary": "在枯叶旁找找它的身体和像叶片一样的腿。",
+  "description": "雌性澳大利亚刺竹节虫身体粗壮，腿上有叶片般的突起。雄虫更细瘦，长着较长的翅。它们都是吃叶子的昆虫。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "像枯叶的身体",
+      "body": "雌虫身体和腿上有突起，颜色常呈褐色或绿色。放在枝叶之间看，轮廓与周围叶片很接近。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "咬一口叶子",
+      "body": "它用口器咬食叶片。图中的桉树叶提供环境参照；放大的图像不表示虫子有屏幕上那么大。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "雄虫的长翅",
+      "body": "雄虫身体较细，长翅沿着腹部折起。雌虫的翅较短，不能把雄虫和雌虫的外形混为一谈。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "像种子一样的卵",
+      "body": "褐色卵外形像小种子，顶端有小突起。蚂蚁会把卵搬进巢里，吃掉突起，留下卵。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "刚孵出的若虫",
+      "body": "初孵若虫身体细小，外形和动作像蚂蚁。它会爬向树上的叶子，随着生长逐渐变成叶片般的模样。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留本地树木与灌丛，观察昆虫时避免损伤它们和周围枝叶。"
+    }
+  ],
+  "keyFacts": [
+    "雌虫身体和腿上有突起，颜色常呈褐色或绿色。放在枝叶之间看，轮廓与周围叶片很接近。",
+    "它用口器咬食叶片。图中的桉树叶提供环境参照；放大的图像不表示虫子有屏幕上那么大。",
+    "雄虫身体较细，长翅沿着腹部折起。雌虫的翅较短，不能把雄虫和雌虫的外形混为一谈。",
+    "褐色卵外形像小种子，顶端有小突起。蚂蚁会把卵搬进巢里，吃掉突起，留下卵。",
+    "初孵若虫身体细小，外形和动作像蚂蚁。它会爬向树上的叶子，随着生长逐渐变成叶片般的模样。"
+  ],
+  "threats": [
+    "局部树木和灌丛栖息地改变"
+  ],
+  "conservationActions": [
+    "保留本地树木与灌丛，观察昆虫时避免损伤它们和周围枝叶。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "像枯叶的身体"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "澳大利亚东部的树木与灌丛"
+    }
+  ],
+  "media": {
+    "image": "./images/species/spiny-leaf-insect/01-cover.webp",
+    "alt": "澳大利亚刺竹节虫在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/spiny-leaf-insect/02-observation.webp",
+        "title": "像枯叶的身体",
+        "alt": "澳大利亚刺竹节虫：像枯叶的身体",
+        "caption": "AI 生成科学情景重建。雌虫身体和腿上有突起，颜色常呈褐色或绿色。放在枝叶之间看，轮廓与周围叶片很接近。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spiny-leaf-insect/03-observation.webp",
+        "title": "咬一口叶子",
+        "alt": "澳大利亚刺竹节虫：咬一口叶子",
+        "caption": "AI 生成科学情景重建。它用口器咬食叶片。图中的桉树叶提供环境参照；放大的图像不表示虫子有屏幕上那么大。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spiny-leaf-insect/04-observation.webp",
+        "title": "雄虫的长翅",
+        "alt": "澳大利亚刺竹节虫：雄虫的长翅",
+        "caption": "AI 生成科学情景重建。雄虫身体较细，长翅沿着腹部折起。雌虫的翅较短，不能把雄虫和雌虫的外形混为一谈。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spiny-leaf-insect/05-observation.webp",
+        "title": "像种子一样的卵",
+        "alt": "澳大利亚刺竹节虫：像种子一样的卵",
+        "caption": "AI 生成科学情景重建。褐色卵外形像小种子，顶端有小突起。蚂蚁会把卵搬进巢里，吃掉突起，留下卵。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spiny-leaf-insect/06-observation.webp",
+        "title": "刚孵出的若虫",
+        "alt": "澳大利亚刺竹节虫：刚孵出的若虫",
+        "caption": "AI 生成科学情景重建。初孵若虫身体细小，外形和动作像蚂蚁。它会爬向树上的叶子，随着生长逐渐变成叶片般的模样。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "珀斯动物园：刺竹节虫雌雄差异、分布与无危状态",
+      "url": "https://perthzoo.wa.gov.au/animal/spiny-leaf-insect",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "澳大利亚博物馆：刺竹节虫的卵与若虫",
+      "url": "https://australian.museum/learn/animals/insects/care-of-stick-insects/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "Phasmida Species File：Extatosoma tiaratum 分类",
+      "url": "https://phasmida.speciesfile.org/otus/853528",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "Lassaline 等 2023：确认本种 IUCN LC",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/aen.12662",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
+{
+  "id": "willans-chromodoris",
+  "slug": "willans-chromodoris",
+  "names": {
+    "zh": "威氏多彩海蛞蝓",
+    "en": "Willan’s Chromodoris"
+  },
+  "scientificName": "Chromodoris willani",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Mollusca",
+      "zhName": "软体动物门"
+    },
+    "class": {
+      "scientificName": "Gastropoda",
+      "zhName": "腹足纲"
+    },
+    "order": {
+      "scientificName": "Nudibranchia",
+      "zhName": "裸鳃目"
+    },
+    "family": {
+      "scientificName": "Chromodorididae",
+      "zhName": "多彩海蛞蝓科"
+    },
+    "genus": {
+      "scientificName": "Chromodoris",
+      "zhName": "多彩海蛞蝓属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "来源记录为未评估；不填写评估年份，未评估不等于无危。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "亚洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "西太平洋热带礁区"
+    ],
+    "countries": [
+      "菲律宾",
+      "印度尼西亚",
+      "瓦努阿图"
+    ],
+    "range": "分布于西太平洋热带海域；国家列表仅列博物馆资料中的代表性观察地区。"
+  },
+  "habitats": [
+    {
+      "name": "西太平洋热带礁区",
+      "realm": "marine",
+      "description": "西太平洋热带礁区。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "海绵"
+    ],
+    "description": "食物包括海绵。"
+  },
+  "tags": [
+    "威氏多彩海蛞蝓",
+    "背后的一圈鳃"
+  ],
+  "summary": "找找背后像小花一样展开的鳃，还有头前的一对触角。",
+  "description": "威氏多彩海蛞蝓有蓝白色身体和深色纵纹，背后长着外露的羽状鳃。鳃和头部嗅角上的白色小点，是认识它的重要外形线索。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "背后的一圈鳃",
+      "body": "身体后部竖着羽毛般的鳃，帮助它从水里取得氧气。近看可以找到鳃上的白色小点。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "头前的一对嗅角",
+      "body": "头前竖起两根带褶片的嗅角，用于感知水中的化学信号。嗅角也有白色小点，位置与背后的鳃不同。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "沿着纵纹找身体",
+      "body": "蓝白色背面上有深色纵纹。相似花纹也见于其他海蛞蝓，不能只凭条纹给它定名。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "用腹面慢慢爬",
+      "body": "身体下面的腹足贴着礁石移动。成体没有外露螺壳，也没有昆虫那样分节的腿。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "在海绵旁取食",
+      "body": "海绵也是动物。研究者记录过它在海绵上取食；图中海绵只示意食物与环境，不确定到具体种。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护礁区水质，观察时不触碰或带走海蛞蝓。未评估不表示没有风险。"
+    }
+  ],
+  "keyFacts": [
+    "身体后部竖着羽毛般的鳃，帮助它从水里取得氧气。近看可以找到鳃上的白色小点。",
+    "头前竖起两根带褶片的嗅角，用于感知水中的化学信号。嗅角也有白色小点，位置与背后的鳃不同。",
+    "蓝白色背面上有深色纵纹。相似花纹也见于其他海蛞蝓，不能只凭条纹给它定名。",
+    "身体下面的腹足贴着礁石移动。成体没有外露螺壳，也没有昆虫那样分节的腿。",
+    "海绵也是动物。研究者记录过它在海绵上取食；图中海绵只示意食物与环境，不确定到具体种。"
+  ],
+  "threats": [
+    "礁区生境受损与污染压力，未量化本种影响"
+  ],
+  "conservationActions": [
+    "保护礁区水质，观察时不触碰或带走海蛞蝓。未评估不表示没有风险。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "背后的一圈鳃"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "西太平洋热带礁区"
+    }
+  ],
+  "media": {
+    "image": "./images/species/willans-chromodoris/01-cover.webp",
+    "alt": "威氏多彩海蛞蝓在栖息环境中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/willans-chromodoris/02-observation.webp",
+        "title": "背后的一圈鳃",
+        "alt": "威氏多彩海蛞蝓：背后的一圈鳃",
+        "caption": "AI 生成科学情景重建。身体后部竖着羽毛般的鳃，帮助它从水里取得氧气。近看可以找到鳃上的白色小点。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/willans-chromodoris/03-observation.webp",
+        "title": "头前的一对嗅角",
+        "alt": "威氏多彩海蛞蝓：头前的一对嗅角",
+        "caption": "AI 生成科学情景重建。头前竖起两根带褶片的嗅角，用于感知水中的化学信号。嗅角也有白色小点，位置与背后的鳃不同。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/willans-chromodoris/04-observation.webp",
+        "title": "沿着纵纹找身体",
+        "alt": "威氏多彩海蛞蝓：沿着纵纹找身体",
+        "caption": "AI 生成科学情景重建。蓝白色背面上有深色纵纹。相似花纹也见于其他海蛞蝓，不能只凭条纹给它定名。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/willans-chromodoris/05-observation.webp",
+        "title": "用腹面慢慢爬",
+        "alt": "威氏多彩海蛞蝓：用腹面慢慢爬",
+        "caption": "AI 生成科学情景重建。身体下面的腹足贴着礁石移动。成体没有外露螺壳，也没有昆虫那样分节的腿。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/willans-chromodoris/06-observation.webp",
+        "title": "在海绵旁取食",
+        "alt": "威氏多彩海蛞蝓：在海绵旁取食",
+        "caption": "AI 生成科学情景重建。海绵也是动物。研究者记录过它在海绵上取食；图中海绵只示意食物与环境，不确定到具体种。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "澳大利亚博物馆 Sea Slug Forum：形态、分布与取食观察",
+      "url": "https://www.seaslugforum.net/showall/chrowill",
+      "kind": "ecology",
+      "accessedAt": "2026-09-21"
+    },
+    {
+      "title": "SeaLifeBase：接受学名、分类与未评估状态",
+      "url": "https://www.sealifebase.ca/summary/Chromodoris-willani",
+      "kind": "conservation",
+      "accessedAt": "2026-09-21"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-21",
+  "updatedAt": "2026-09-21"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
