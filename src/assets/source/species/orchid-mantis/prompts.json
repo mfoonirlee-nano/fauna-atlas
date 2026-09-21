@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-21",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction, landscape 1536x1024. Cover for animal atlas for young children. Subject: one adult female orchid mantis Hymenopus coronatus, white with subtle pink, triangular head, two fine antennae, two folded raptorial forelegs, four walking legs with petal-like lobes, folded pale wings. Environment: a green leaf and thin stem in a Malaysian tropical forest, tiny leaf veins as scale context. COMPOSITION STRICT: entire animal including every visible antenna, toe, bill, tail or tentacle must fit in the RIGHT HALF, within x=660..1470 and y=70..950 of a 1536x1024 frame. Maximize subject within that area. Left 40 percent ONLY quiet natural background, no animal or other creatures. Real background margin around complete silhouette. Eye level or slight three-quarter angle, clear anatomy, realistic textures, gentle natural light. No text, no border, no montage, no ruler, no artificial objects. Do not cut off extremities."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult female orchid mantis Hymenopus coronatus, white with subtle pink, triangular head, two fine antennae, two folded raptorial forelegs, four walking legs with petal-like lobes, folded pale wings. Natural environment: a green leaf and thin stem in a Malaysian tropical forest, tiny leaf veins as scale context. Specific scene overrides default sex, age and pose: Adult FEMALE on green leaf, petal-shaped expanded four walking legs clearly visible, two raptorial forelegs folded, whole body and both antennae.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult female orchid mantis Hymenopus coronatus, white with subtle pink, triangular head, two fine antennae, two folded raptorial forelegs, four walking legs with petal-like lobes, folded pale wings. Natural environment: a green leaf and thin stem in a Malaysian tropical forest, tiny leaf veins as scale context. Specific scene overrides default sex, age and pose: Close portrait of FEMALE head and folded front legs, triangular head, two eyes, two fine antennae, tiny spines on forelegs, no prey.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult female orchid mantis Hymenopus coronatus, white with subtle pink, triangular head, two fine antennae, two folded raptorial forelegs, four walking legs with petal-like lobes, folded pale wings. Natural environment: a green leaf and thin stem in a Malaysian tropical forest, tiny leaf veins as scale context. Specific scene overrides default sex, age and pose: Whole adult FEMALE resting on a plain green twig without any flower, pale pink-white form stands out naturally, exactly six legs.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult female orchid mantis Hymenopus coronatus, white with subtle pink, triangular head, two fine antennae, two folded raptorial forelegs, four walking legs with petal-like lobes, folded pale wings. Natural environment: a green leaf and thin stem in a Malaysian tropical forest, tiny leaf veins as scale context. Specific scene overrides default sex, age and pose: Whole adult MALE instead of female, much more slender small body, long wings, brownish pink and cream, narrower leg lobes, on a green leaf. Not a side-by-side scale comparison.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational natural-history photograph reconstruction for a young child's animal atlas. Landscape 1536x1024, single scene, no text, no labels, no diagram, no collage. Species reference: one adult female orchid mantis Hymenopus coronatus, white with subtle pink, triangular head, two fine antennae, two folded raptorial forelegs, four walking legs with petal-like lobes, folded pale wings. Natural environment: a green leaf and thin stem in a Malaysian tropical forest, tiny leaf veins as scale context. Specific scene overrides default sex, age and pose: Whole white-pink FEMALE on leafy stem near a small flying insect, waiting motionless, no contact, gore or extra mantis legs.. Center the observation clearly with natural background margins, realistic anatomy and textures, soft natural light, no theatrical effects, no humans. Preserve whole subject unless scene explicitly requests a portrait."
+    }
+  ]
+}

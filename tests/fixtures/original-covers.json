@@ -1857,5 +1857,18 @@
       },
       "sha256": "2dfe6ff0a503371827d3ea33baf82963f3f7d822e9876489336e2a3c8204a41c"
     }
+  },
+  "orchid-mantis": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 705,
+        "top": 20,
+        "right": 1490,
+        "bottom": 920
+      },
+      "sha256": "f513af16ad14ed6e5b6b7f55e7312089602c4fead66b47045724fbc5a2a17d36"
+    }
   }
 }

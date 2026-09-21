@@ -3170,5 +3170,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 762
     }
+  },
+  "orchid-mantis": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 705,
+      "top": 20,
+      "right": 1490,
+      "bottom": 920
+    }
   }
 };
