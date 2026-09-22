@@ -2156,5 +2156,135 @@
       },
       "sha256": "c6acd6baa04c83e610cf684e56bf141bbf72abf53193d3f82d4a00feebb435f9"
     }
+  },
+  "golden-lion-tamarin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 920,
+        "top": 30,
+        "right": 1375,
+        "bottom": 995
+      },
+      "sha256": "1c09c5340ab8313489098f9bc8d3a84bcc933e60ccfcd18d7945d89fd89ad5d1"
+    }
+  },
+  "tasmanian-devil": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 778,
+        "top": 130,
+        "right": 1518,
+        "bottom": 892
+      },
+      "sha256": "7992c096db026e9ac976519f2a430d48720c84ab8837bb7b78ca6a3654d95cd1"
+    }
+  },
+  "village-weaver": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 815,
+        "top": 89,
+        "right": 1410,
+        "bottom": 911
+      },
+      "sha256": "df526b2a733e0c8e320059a5ca282e95febab32b9488216bc17f7af9a3fd2020"
+    }
+  },
+  "satin-bowerbird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 777,
+        "top": 165,
+        "right": 1495,
+        "bottom": 905
+      },
+      "sha256": "16ab44d6432d1f092462544c83b755e2e7c166ddb958c4d04b17da7d6adb562e"
+    }
+  },
+  "amazon-mata-mata": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 616,
+        "top": 140,
+        "right": 1505,
+        "bottom": 764
+      },
+      "sha256": "7765768f26fcbfd248fea416fdeb5ee75afed6a21fa359e7dbb452d06d6a0d3e"
+    }
+  },
+  "three-toed-amphiuma": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 635,
+        "top": 96,
+        "right": 1500,
+        "bottom": 824
+      },
+      "sha256": "c8f215b22c1f3e23854846278b23c9c376871eaddd5717b43df13baa920e4a76"
+    }
+  },
+  "giant-manta-ray": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 760,
+        "top": 133,
+        "right": 1500,
+        "bottom": 823
+      },
+      "sha256": "09f69069a6f5fab9d10f0986aaf39a877f18abb90e4fa27bfb2b31d1b7c15749"
+    }
+  },
+  "hummingbird-hawk-moth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 695,
+        "top": 73,
+        "right": 1430,
+        "bottom": 666
+      },
+      "sha256": "427a486b65be9e776a7363922c5c7af77802be72976f54f0604f90a1c1842e8b"
+    }
+  },
+  "bigfin-reef-squid": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 718,
+        "top": 94,
+        "right": 1490,
+        "bottom": 874
+      },
+      "sha256": "77131be940d3ebfdaffab6f67c5394c621534ec9ea5ad484aaec434266764bf1"
+    }
+  },
+  "greater-argonaut": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 697,
+        "top": 49,
+        "right": 1487,
+        "bottom": 949
+      },
+      "sha256": "ae75ae1dc0164e6e7ce15c59dd5566d9ec7ac6b5fb9eeb4edd62ec4f79e842da"
+    }
   }
 }

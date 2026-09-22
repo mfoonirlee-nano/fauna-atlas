@@ -3400,5 +3400,105 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1488,
       "bottom": 924
     }
+  },
+  "golden-lion-tamarin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 920,
+      "top": 30,
+      "right": 1375,
+      "bottom": 995
+    }
+  },
+  "tasmanian-devil": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 778,
+      "top": 130,
+      "right": 1518,
+      "bottom": 892
+    }
+  },
+  "village-weaver": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 815,
+      "top": 89,
+      "right": 1410,
+      "bottom": 911
+    }
+  },
+  "satin-bowerbird": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 777,
+      "top": 165,
+      "right": 1495,
+      "bottom": 905
+    }
+  },
+  "amazon-mata-mata": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 616,
+      "top": 140,
+      "right": 1505,
+      "bottom": 764
+    }
+  },
+  "three-toed-amphiuma": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 635,
+      "top": 96,
+      "right": 1500,
+      "bottom": 824
+    }
+  },
+  "giant-manta-ray": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 760,
+      "top": 133,
+      "right": 1500,
+      "bottom": 823
+    }
+  },
+  "hummingbird-hawk-moth": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 695,
+      "top": 73,
+      "right": 1430,
+      "bottom": 666
+    }
+  },
+  "bigfin-reef-squid": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 94,
+      "right": 1490,
+      "bottom": 874
+    }
+  },
+  "greater-argonaut": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 697,
+      "top": 49,
+      "right": 1487,
+      "bottom": 949
+    }
   }
 };
