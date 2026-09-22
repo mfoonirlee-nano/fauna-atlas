@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "great-diving-beetle",
+    "n": 1,
+    "prompt": "Edit this cover only by recomposing the same animal smaller and farther right on naturally extended same habitat. Landscape 1536x1024. All its extremities including antennae must fit between x=720 and x=1460, y=120 and y=900. Entire left 45% must be empty of any part of animal including antennae. Preserve species, pose and anatomy; include visible background space at all four sides. No text.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-70bb6cf2-db76-4838-89df-ca95923bfa36.png",
+    "reference": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-3e3669b1-a269-409c-99dc-95ca48227be2.png"
+  },
+  {
+    "slug": "great-diving-beetle",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Dytiscus marginalis: adult male great diving beetle dark olive smooth oval elytra yellow border, six legs, flattened fringed swimming hind legs, two antennae. Habitat: freshwater pond with submerged plants. Scene: swimming with two fringed hind legs extended. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-a2aa5d05-e811-416f-b5ea-dd7de03dc0d0.png"
+  },
+  {
+    "slug": "great-diving-beetle",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Dytiscus marginalis: adult male great diving beetle dark olive smooth oval elytra yellow border, six legs, flattened fringed swimming hind legs, two antennae. Habitat: freshwater pond with submerged plants. Scene: side view at water surface with abdomen tip touching air. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-2a93d55c-b530-4403-9514-000c690cea14.png"
+  },
+  {
+    "slug": "great-diving-beetle",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Dytiscus marginalis: adult male great diving beetle dark olive smooth oval elytra yellow border, six legs, flattened fringed swimming hind legs, two antennae. Habitat: freshwater pond with submerged plants. Scene: resting on submerged stem. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-6d442343-4da1-4f6e-88ef-20594e534e66.png"
+  },
+  {
+    "slug": "great-diving-beetle",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Dytiscus marginalis: adult male great diving beetle dark olive smooth oval elytra yellow border, six legs, flattened fringed swimming hind legs, two antennae. Habitat: freshwater pond with submerged plants. Scene: top view smooth oval wing cases with yellow border. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-b3859be7-70ca-43bf-9c40-34d0cb40a540.png"
+  },
+  {
+    "slug": "great-diving-beetle",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Dytiscus marginalis: adult male great diving beetle dark olive smooth oval elytra yellow border, six legs, flattened fringed swimming hind legs, two antennae. Habitat: freshwater pond with submerged plants. Scene: walking on pondside damp soil. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-9da31963-3c31-43a7-8ac0-3ea4e67ee0bc.png"
+  }
+]

@@ -3811,4 +3811,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 700
     }
   },
+  "great-diving-beetle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 824,
+      "top": 245,
+      "right": 1423,
+      "bottom": 709
+    }
+  },
 };

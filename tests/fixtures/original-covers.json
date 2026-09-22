@@ -2689,5 +2689,18 @@
       },
       "sha256": "a84f7ade52685133b759016540f6509fe0f77b56a22ed6dc1df48d1e3433d5dc"
     }
+  },
+  "great-diving-beetle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 824,
+        "top": 245,
+        "right": 1423,
+        "bottom": 709
+      },
+      "sha256": "20177e057f5f593325517f52b39f88af159b211d93e412e42c5e8a899a00591a"
+    }
   }
 }
