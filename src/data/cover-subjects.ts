@@ -3801,4 +3801,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 886
     }
   },
+  "mandarinfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 642,
+      "top": 176,
+      "right": 1475,
+      "bottom": 700
+    }
+  },
 };

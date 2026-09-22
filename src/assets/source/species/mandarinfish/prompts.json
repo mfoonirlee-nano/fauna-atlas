@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "mandarinfish",
+    "n": 1,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific photographic reconstruction, landscape 1536x1024. Synchiropus splendidus, mandarinfish with blue orange green winding stripes, broad head, small mouth, fan pectoral fins, no concentric target spots, in western Pacific coral rubble lagoon. Scene: entire fish side view above rubble. COVER: entire animal ALL visible extremities including antennae, tail and toes contained in right 55% of frame, large clear subject centered at 73% width, quiet left 40% for title overlay, background clearance on every edge. Accurate anatomy, natural lighting, no text, no border or watermark.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-920edf3d-7f45-4aa7-890b-445567bbaf29.png"
+  },
+  {
+    "slug": "mandarinfish",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Synchiropus splendidus: mandarinfish with blue orange green winding stripes, broad head, small mouth, fan pectoral fins, no concentric target spots. Habitat: western Pacific coral rubble lagoon. Scene: side view colorful winding stripes. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-2730519c-396e-425c-b84f-04e47fcba331.png"
+  },
+  {
+    "slug": "mandarinfish",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Synchiropus splendidus: mandarinfish with blue orange green winding stripes, broad head, small mouth, fan pectoral fins, no concentric target spots. Habitat: western Pacific coral rubble lagoon. Scene: searching for tiny crustaceans on rubble. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-67ff3d0e-6d0d-4abf-9747-865b9c7ef4ed.png"
+  },
+  {
+    "slug": "mandarinfish",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Synchiropus splendidus: mandarinfish with blue orange green winding stripes, broad head, small mouth, fan pectoral fins, no concentric target spots. Habitat: western Pacific coral rubble lagoon. Scene: front three-quarter broad head and small mouth. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-2cedda46-8c0a-423e-97d1-096846e9e0f5.png"
+  },
+  {
+    "slug": "mandarinfish",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Synchiropus splendidus: mandarinfish with blue orange green winding stripes, broad head, small mouth, fan pectoral fins, no concentric target spots. Habitat: western Pacific coral rubble lagoon. Scene: full body fins extended hovering just above substrate. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-5f1276a0-4902-4106-9dcc-092e10fb2cd6.png"
+  },
+  {
+    "slug": "mandarinfish",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Synchiropus splendidus: mandarinfish with blue orange green winding stripes, broad head, small mouth, fan pectoral fins, no concentric target spots. Habitat: western Pacific coral rubble lagoon. Scene: resting beside sheltered coral fragments. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-b218d742-2d60-4ce4-a7dc-009f8376eb84.png"
+  }
+]

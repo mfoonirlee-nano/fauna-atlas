@@ -2676,5 +2676,18 @@
       },
       "sha256": "debb3d68314cd97f873b49d1a2e16beb83857d27b7a0da4ee481bb342ab399e2"
     }
+  },
+  "mandarinfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 642,
+        "top": 176,
+        "right": 1475,
+        "bottom": 700
+      },
+      "sha256": "a84f7ade52685133b759016540f6509fe0f77b56a22ed6dc1df48d1e3433d5dc"
+    }
   }
 }
