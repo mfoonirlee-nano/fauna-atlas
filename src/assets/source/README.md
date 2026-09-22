@@ -559,3 +559,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Bath Sponge image set](./species/bath-sponge/README.md)
 
 - [South African Springhare image set](./species/south-african-springhare/README.md)
+- [Gerenuk image set](./species/gerenuk/README.md)

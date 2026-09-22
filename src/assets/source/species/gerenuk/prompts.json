@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "gerenuk",
+    "n": 1,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific photographic reconstruction, landscape 1536x1024. Litocranius walleri, adult male gerenuk antelope, very long slender neck, small head, large ears, lyre-shaped horns, russet back pale belly, in East African dry thorn scrub. Scene: standing full body profile. COVER: entire animal ALL visible extremities including antennae, tail and toes contained in right 55% of frame, large clear subject centered at 73% width, quiet left 40% for title overlay, background clearance on every edge. Accurate anatomy, natural lighting, no text, no border or watermark.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-f8a7e724-b83e-47bc-8e30-ff8ede8336db.png"
+  },
+  {
+    "slug": "gerenuk",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Litocranius walleri: adult male gerenuk antelope, very long slender neck, small head, large ears, lyre-shaped horns, russet back pale belly. Habitat: East African dry thorn scrub. Scene: standing upright on hind legs browsing shrub, full body. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-eaca53ed-80c0-4c06-9542-7b3a61fc82c5.png"
+  },
+  {
+    "slug": "gerenuk",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Litocranius walleri: adult male gerenuk antelope, very long slender neck, small head, large ears, lyre-shaped horns, russet back pale belly. Habitat: East African dry thorn scrub. Scene: head and long neck portrait. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-56c993b3-c8e3-4230-8d01-7731454d3b36.png"
+  },
+  {
+    "slug": "gerenuk",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Litocranius walleri: adult male gerenuk antelope, very long slender neck, small head, large ears, lyre-shaped horns, russet back pale belly. Habitat: East African dry thorn scrub. Scene: walking among sparse shrubs. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-edf6c624-e09f-4b89-be40-653ad9fa34c3.png"
+  },
+  {
+    "slug": "gerenuk",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Litocranius walleri: adult male gerenuk antelope, very long slender neck, small head, large ears, lyre-shaped horns, russet back pale belly. Habitat: East African dry thorn scrub. Scene: browsing leaves on low branch. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-bb2dfd7d-77e1-43f4-9965-9047a790cefb.png"
+  },
+  {
+    "slug": "gerenuk",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Litocranius walleri: adult male gerenuk antelope, very long slender neck, small head, large ears, lyre-shaped horns, russet back pale belly. Habitat: East African dry thorn scrub. Scene: resting with legs folded. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-688804e3-781b-4992-8af2-b3f720ed5681.png"
+  }
+]

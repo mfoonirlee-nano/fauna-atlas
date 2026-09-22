@@ -2624,5 +2624,18 @@
       },
       "sha256": "ab28697aece2c4a1fd2d4fbb78309cdeec726b3b903c5864423278d40c7540d3"
     }
+  },
+  "gerenuk": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 835,
+        "top": 30,
+        "right": 1425,
+        "bottom": 969
+      },
+      "sha256": "a0db802ffcd8c7c40434602ed686b7eed27e2cb15139f53641be92ff07e7531e"
+    }
   }
 }

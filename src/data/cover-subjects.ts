@@ -3761,4 +3761,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 864
     }
   },
+  "gerenuk": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 835,
+      "top": 30,
+      "right": 1425,
+      "bottom": 969
+    }
+  },
 };
