@@ -1,0 +1,49 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Macroglossum stellatarum, Hummingbird Hawk-moth. Anatomy: hummingbird hawk-moth insect, furry grey-brown thorax, grey forewings and orange hindwings, black and white tail tufts, antennae and very long thin proboscis, NOT a bird. Setting: sunlit flower garden. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas.",
+      "edits": [
+        "Edit ONLY the adult moth eyes in this scientific wildlife image of Macroglossum stellatarum. Replace the bird-like eyeball with anatomically correct INSECT COMPOUND EYE: uniform very dark brown-black rounded surface with fine tiny ommatidia facets and a small natural light reflection. NO iris ring, NO central pupil, NO white sclera, NO human or bird eye. Preserve all anatomy, wings, antennae, proboscis, scene and composition and 1536x1024 dimensions. If caterpillar present leave it intact. No text."
+      ]
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Macroglossum stellatarum, Hummingbird Hawk-moth. Anatomy: hummingbird hawk-moth insect, furry grey-brown thorax, grey forewings and orange hindwings, black and white tail tufts, antennae and very long thin proboscis, NOT a bird. Setting: sunlit flower garden. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: adult moth hovering at tubular flower with extended thin proboscis, flower as natural size reference. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit ONLY the adult moth eyes in this scientific wildlife image of Macroglossum stellatarum. Replace the bird-like eyeball with anatomically correct INSECT COMPOUND EYE: uniform very dark brown-black rounded surface with fine tiny ommatidia facets and a small natural light reflection. NO iris ring, NO central pupil, NO white sclera, NO human or bird eye. Preserve all anatomy, wings, antennae, proboscis, scene and composition and 1536x1024 dimensions. If caterpillar present leave it intact. No text."
+      ]
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Macroglossum stellatarum, Hummingbird Hawk-moth. Anatomy: hummingbird hawk-moth insect, furry grey-brown thorax, grey forewings and orange hindwings, black and white tail tufts, antennae and very long thin proboscis, NOT a bird. Setting: sunlit flower garden. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: resting moth side macro showing coiled proboscis beneath head, antennae visible, leaf as size reference. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit ONLY the adult moth eyes in this scientific wildlife image of Macroglossum stellatarum. Replace the bird-like eyeball with anatomically correct INSECT COMPOUND EYE: uniform very dark brown-black rounded surface with fine tiny ommatidia facets and a small natural light reflection. NO iris ring, NO central pupil, NO white sclera, NO human or bird eye. Preserve all anatomy, wings, antennae, proboscis, scene and composition and 1536x1024 dimensions. If caterpillar present leave it intact. No text."
+      ]
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Macroglossum stellatarum, Hummingbird Hawk-moth. Anatomy: hummingbird hawk-moth insect, furry grey-brown thorax, grey forewings and orange hindwings, black and white tail tufts, antennae and very long thin proboscis, NOT a bird. Setting: sunlit flower garden. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: flying moth dorsal oblique view showing grey forewings and orange hindwings near flowers. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit ONLY the adult moth eyes in this scientific wildlife image of Macroglossum stellatarum. Replace the bird-like eyeball with anatomically correct INSECT COMPOUND EYE: uniform very dark brown-black rounded surface with fine tiny ommatidia facets and a small natural light reflection. NO iris ring, NO central pupil, NO white sclera, NO human or bird eye. Preserve all anatomy, wings, antennae, proboscis, scene and composition and 1536x1024 dimensions. If caterpillar present leave it intact. No text."
+      ]
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Macroglossum stellatarum, Hummingbird Hawk-moth. Anatomy: hummingbird hawk-moth insect, furry grey-brown thorax, grey forewings and orange hindwings, black and white tail tufts, antennae and very long thin proboscis, NOT a bird. Setting: sunlit flower garden. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: one green Macroglossum stellatarum caterpillar with pale longitudinal stripes and blue tail horn on Galium bedstraw leaves. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit ONLY the adult moth eyes in this scientific wildlife image of Macroglossum stellatarum. Replace the bird-like eyeball with anatomically correct INSECT COMPOUND EYE: uniform very dark brown-black rounded surface with fine tiny ommatidia facets and a small natural light reflection. NO iris ring, NO central pupil, NO white sclera, NO human or bird eye. Preserve all anatomy, wings, antennae, proboscis, scene and composition and 1536x1024 dimensions. If caterpillar present leave it intact. No text.",
+        "Edit this image: REMOVE the entire flying adult moth from the right half, replace its area seamlessly with blurred garden background. Keep the green Macroglossum stellatarum caterpillar on Galium bedstraw in the left foreground, its blue tail horn, pale lateral stripe, leaves, flowers. The caterpillar is the ONLY animal in this landscape 1536x1024 image. No adult moth, no butterfly, no text. Preserve scientific naturalistic photograph style."
+      ]
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Macroglossum stellatarum, Hummingbird Hawk-moth. Anatomy: hummingbird hawk-moth insect, furry grey-brown thorax, grey forewings and orange hindwings, black and white tail tufts, antennae and very long thin proboscis, NOT a bird. Setting: sunlit flower garden. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: side view adult moving between two tubular flowers in sunny garden. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit ONLY the adult moth eyes in this scientific wildlife image of Macroglossum stellatarum. Replace the bird-like eyeball with anatomically correct INSECT COMPOUND EYE: uniform very dark brown-black rounded surface with fine tiny ommatidia facets and a small natural light reflection. NO iris ring, NO central pupil, NO white sclera, NO human or bird eye. Preserve all anatomy, wings, antennae, proboscis, scene and composition and 1536x1024 dimensions. If caterpillar present leave it intact. No text."
+      ]
+    }
+  ]
+}
