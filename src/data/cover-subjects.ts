@@ -3850,5 +3850,5 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1470,
       "bottom": 949
     }
-  },
+  }
 };

@@ -1,6 +1,6 @@
 # 动物制作清单：面向 3 岁孩子的 100 种新选题
 
-2026-09-22 更新：已对照 `src/data/species.ts` 中的 300 份物种档案，移除原清单中已实现的 50 种动物。本轮清单共 100 种，现已完成 75 种，剩余 25 种；站内共 375 份物种档案。首批核验记录见 [todo-first-ten-2026-09-20.md](research/todo-first-ten-2026-09-20.md)。第二批核验记录见 [todo-second-ten-2026-09-21.md](research/todo-second-ten-2026-09-21.md)。第三批核验记录见 [todo-third-ten-2026-09-21.md](research/todo-third-ten-2026-09-21.md)。上一批 5 种核验记录见 [todo-five-2026-09-21.md](research/todo-five-2026-09-21.md)。本批 5 种核验记录见 [todo-next-five-2026-09-21.md](research/todo-next-five-2026-09-21.md)。新增十种核验记录见 [todo-ten-2026-09-22.md](research/todo-ten-2026-09-22.md)。本次跨组五种核验记录见 [todo-cross-group-five-2026-09-22.md](research/todo-cross-group-five-2026-09-22.md)。本次跨组十种核验记录见 [todo-cross-group-ten-2026-09-22.md](research/todo-cross-group-ten-2026-09-22.md)。本次新增十种核验记录见 [todo-fourth-cross-group-ten-2026-09-22.md](research/todo-fourth-cross-group-ten-2026-09-22.md)。历史制作资料保留在 `docs/research/`。
+2026-09-23 更新：已对照 `src/data/species.ts` 中的 300 份物种档案，移除原清单中已实现的 50 种动物。本轮清单共 100 种，现已完成 85 种，剩余 15 种；站内共 385 份物种档案。首批核验记录见 [todo-first-ten-2026-09-20.md](research/todo-first-ten-2026-09-20.md)。第二批核验记录见 [todo-second-ten-2026-09-21.md](research/todo-second-ten-2026-09-21.md)。第三批核验记录见 [todo-third-ten-2026-09-21.md](research/todo-third-ten-2026-09-21.md)。上一批 5 种核验记录见 [todo-five-2026-09-21.md](research/todo-five-2026-09-21.md)。本批 5 种核验记录见 [todo-next-five-2026-09-21.md](research/todo-next-five-2026-09-21.md)。新增十种核验记录见 [todo-ten-2026-09-22.md](research/todo-ten-2026-09-22.md)。本次跨组五种核验记录见 [todo-cross-group-five-2026-09-22.md](research/todo-cross-group-five-2026-09-22.md)。本次跨组十种核验记录见 [todo-cross-group-ten-2026-09-22.md](research/todo-cross-group-ten-2026-09-22.md)。本次新增十种核验记录见 [todo-fourth-cross-group-ten-2026-09-22.md](research/todo-fourth-cross-group-ten-2026-09-22.md)。本次第五批跨组十种核验记录见 [todo-fifth-cross-group-ten-2026-09-22.md](research/todo-fifth-cross-group-ten-2026-09-22.md)。历史制作资料保留在 `docs/research/`。
 
 ## 选题与共读方式
 
@@ -15,14 +15,14 @@
 
 | 选题组 | 待制作数量 | 主要观察差异 |
 | --- | ---: | --- |
-| 哺乳动物 | 5 | 身体比例、攀爬与滑翔、不同环境中的生活 |
+| 哺乳动物 | 3 | 身体比例、攀爬与滑翔、不同环境中的生活 |
 | 鸟类 | 0 | 嘴和脚的形状、取食、筑巢与育幼 |
-| 爬行动物 | 2 | 壳、鳞片、伪装、陆地与水中移动 |
+| 爬行动物 | 0 | 壳、鳞片、伪装、陆地与水中移动 |
 | 两栖动物 | 0 | 身体形状、卵与成体、水陆环境 |
-| 鱼类 | 6 | 扁、长、圆等体形，以及不同的鳍 |
-| 昆虫与其他节肢动物 | 9 | 足、触角、外壳、筑巢与藏身 |
-| 其他水边与海中动物 | 3 | 软体、双壳、触手、群体与附着生活 |
-| 合计 | 25 | |
+| 鱼类 | 4 | 扁、长、圆等体形，以及不同的鳍 |
+| 昆虫与其他节肢动物 | 6 | 足、触角、外壳、筑巢与藏身 |
+| 其他水边与海中动物 | 2 | 软体、双壳、触手、群体与附着生活 |
+| 合计 | 15 | |
 
 ## 哺乳动物（20 种）
 
@@ -43,11 +43,11 @@
 - [ ] 蜜袋鼯 *Petaurus breviceps*：滑翔的皮膜。“看看它张开四肢时，身体两侧展开的皮膜。”
 - [ ] 印度狐蝠 *Pteropus medius*：哺乳动物的翅膀。“看看它倒挂休息时怎样把翅膀收起来。”
 - [x] 南非豪猪 *Hystrix africaeaustralis*：长刺。“找找背上和尾部粗细不同的刺。”
-- [ ] 跳兔 *Pedetes capensis*：前后腿的差异。“看看短短的前腿和用来跳跃的长后腿。”
+- [x] 跳兔 *Pedetes capensis*：前后腿的差异。“看看短短的前腿和用来跳跃的长后腿。”
 - [x] 麝牛 *Ovibos moschatus*：寒冷地区的长毛。“看看长毛怎样垂到腿旁边。”
 - [ ] 驼鹿 *Alces alces*：雄性的掌状角。“找找成年雄鹿头上像大手掌一样展开的角。”
 - [x] 单峰驼 *Camelus dromedarius*：沙地上的脚。“看看宽宽的脚怎样踩在沙地上。”
-- [ ] 长颈羚 *Litocranius walleri*：站立取食。“看看它用后腿站起来，伸长脖子吃叶子。”
+- [x] 长颈羚 *Litocranius walleri*：站立取食。“看看它用后腿站起来，伸长脖子吃叶子。”
 
 ## 鸟类（15 种）
 
@@ -77,11 +77,11 @@
 - [x] 猪鼻龟 *Carettochelys insculpta*：水中划动的四肢。“看看它用像小桨一样的前肢划水。”
 - [x] 饼干龟 *Malacochersus tornieri*：扁平的龟壳。“从侧面看看它扁扁的壳，再看看岩石缝。”
 - [x] 飞蜥 *Draco volans*：滑翔膜。“看看身体两侧展开的皮膜。”
-- [ ] 双冠蜥 *Basiliscus basiliscus*：水面奔跑。“在连续图里看看后脚怎样踩过水面。”
+- [x] 双冠蜥 *Basiliscus basiliscus*：水面奔跑。“在连续图里看看后脚怎样踩过水面。”
 - [x] 蛤蚧 *Gekko gecko*：攀附的脚趾。“看看它贴在树干上的宽脚趾。”
 - [x] 药用石龙子 *Scincus scincus*：沙中移动。“看看它钻进沙子后留下的痕迹。”
 - [x] 叶尾守宫 *Uroplatus phantasticus*：叶片状尾巴。“把它的尾巴和旁边的枯叶放在一起看。”
-- [ ] 钩盲蛇 *Indotyphlops braminus*：细小的地下蛇。“在放大图里找找小蛇身上一片片鳞片。”
+- [x] 钩盲蛇 *Indotyphlops braminus*：细小的地下蛇。“在放大图里找找小蛇身上一片片鳞片。”
 - [x] 黄唇青斑海蛇 *Laticauda colubrina*：划水的扁尾。“看看身体后面扁扁的尾巴。”
 
 ## 两栖动物（5 种）
@@ -107,8 +107,8 @@
 - [x] 六斑刺鲀 *Diodon holocanthus*：身体上的刺。“看看身体鼓起时竖起来的刺。”
 - [x] 粒突箱鲀 *Ostracion cubicum*：方盒般的身体。“看看小鱼方方的身体和小小的鳍。”
 - [x] 中华管口鱼 *Aulostomus chinensis*：细长的管状嘴。“找找长身体前面像管子一样的嘴。”
-- [ ] 康氏躄鱼 *Antennarius commerson*：海底支撑。“看看它怎样用胸鳍撑在海底。”
-- [ ] 花斑连鳍䲗 *Synchiropus splendidus*：贴近礁底的小鱼。“在珊瑚碎块间找找身上有彩色弯纹的小鱼。”
+- [x] 康氏躄鱼 *Antennarius commerson*：海底支撑。“看看它怎样用胸鳍撑在海底。”
+- [x] 花斑连鳍䲗 *Synchiropus splendidus*：贴近礁底的小鱼。“在珊瑚碎块间找找身上有彩色弯纹的小鱼。”
 - [ ] 印头鱼 *Echeneis naucrates*：头顶吸盘。“看看它头顶椭圆形的吸盘。”
 - [x] 翱翔蓑鲉 *Pterois volitans*：长鳍条。“找找像扇子一样展开的鳍和一根根鳍条。”
 - [ ] 尖海龙 *Syngnathus acus*：细长而直的身体。“和已有的海马一起看，找找它长长直直的身体。”
@@ -128,14 +128,14 @@
 - [x] 紫木蜂 *Xylocopa violacea*：木头中的巢。“在木头表面找找它进出的圆洞。”
 - [x] 神圣蜣螂 *Scarabaeus sacer*：滚动食物。“看看它怎样用后腿推动粪球。”
 - [ ] 豉甲 *Gyrinus natator*：水面转圈。“看看水面上游来游去的小甲虫。”
-- [ ] 黄缘龙虱 *Dytiscus marginalis*：划水的后足。“看看它怎样用两条后腿划水。”
+- [x] 黄缘龙虱 *Dytiscus marginalis*：划水的后足。“看看它怎样用两条后腿划水。”
 - [x] 水黾 *Gerris lacustris*：水面行走。“找找长腿碰到水面的地方。”
-- [ ] 欧洲蠼螋 *Forficula auricularia*：尾部的夹子。“看看身体后面一对弯弯的尾钳。”
+- [x] 欧洲蠼螋 *Forficula auricularia*：尾部的夹子。“看看身体后面一对弯弯的尾钳。”
 - [ ] 人面金蛛 *Nephila pilipes*：结网。“沿着蛛丝找找网中央的蜘蛛。”
 - [ ] 孔雀蜘蛛 *Maratus volans*：雄性的展示。“看看雄蛛抬起的彩色腹部和长腿。”
 - [ ] 甘氏巨螯蟹 *Macrocheira kaempferi*：长腿与小身体。“找找长腿围着的身体，再看比例参照。”
 - [x] 普通寄居蟹 *Pagurus bernhardus*：借壳藏身。“看看它走动时背着的螺壳。”
-- [ ] 安波双鞭虾 *Lysmata amboinensis*：清洁行为。“看看小虾站在鱼身旁，用细脚忙些什么。”
+- [x] 安波双鞭虾 *Lysmata amboinensis*：清洁行为。“看看小虾站在鱼身旁，用细脚忙些什么。”
 - [ ] 鹅颈藤壶 *Lepas anatifera*：附着生活。“找找它固定在漂浮木头上的柄。”
 - [ ] 丰年鲎虫 *Triops cancriformis*：临时水塘中的生活。“看看大背甲后伸出的细尾丝和腹面摆动的足。”
 
@@ -150,7 +150,7 @@
 - [x] 蓝贻贝 *Mytilus edulis*：附着的双壳动物。“看看一簇贝壳怎样贴在岩石上。”
 - [x] 莱氏拟乌贼 *Sepioteuthis lessoniana*：身体两侧的鳍。“看看身体两边一圈薄薄的鳍怎样摆动。”
 - [x] 船蛸 *Argonauta argo*：雌性的卵壳。“看看雌船蛸抱着的薄薄白壳和伸出的腕。”
-- [ ] 沙蚕 *Alitta virens*：分节与爬行。“沿着长身体找找一节节身体两旁的小突起。”
+- [x] 沙蚕 *Alitta virens*：分节与爬行。“沿着长身体找找一节节身体两旁的小突起。”
 - [x] 大旋鳃虫 *Spirobranchus giganteus*：伸展的鳃冠。“找找珊瑚表面像两棵小树一样展开的鳃冠。”
 - [x] 红海葵 *Actinia equina*：伸展与收拢。“看看触手展开和收起来时，身体有什么不同。”
 - [x] 橙色海笔 *Ptilosarcus gurneyi*：羽毛般的群体。“看看海底这根像羽毛一样的海笔。”
