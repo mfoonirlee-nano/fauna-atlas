@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Mobula birostris, Giant Manta Ray. Anatomy: giant oceanic manta ray with broad diamond disc and winglike pectoral fins, black upper body with white angular shoulder patches, white belly with dark spots, two cephalic fins by broad terminal mouth, long slender tail. Setting: tropical blue open ocean. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas.",
+      "edits": [
+        "Edit this giant manta ray cover. Preserve accurate anatomy and blue ocean photographic appearance. Reframe ALL of the complete manta including the thin tail to be entirely RIGHT of x650 in the 1536x1024 canvas, no fin tip or tail tip cut. Left 42% empty blue ocean for overlay. Animal should occupy right side with x bounds approximately 670 to 1480, all real background margins. Tail may trail diagonally down-right behind animal. Keep animal prominent. No text."
+      ]
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Mobula birostris, Giant Manta Ray. Anatomy: giant oceanic manta ray with broad diamond disc and winglike pectoral fins, black upper body with white angular shoulder patches, white belly with dark spots, two cephalic fins by broad terminal mouth, long slender tail. Setting: tropical blue open ocean. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: whole manta oblique dorsal view with both broad pectoral fins extended, full tail. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Mobula birostris, Giant Manta Ray. Anatomy: giant oceanic manta ray with broad diamond disc and winglike pectoral fins, black upper body with white angular shoulder patches, white belly with dark spots, two cephalic fins by broad terminal mouth, long slender tail. Setting: tropical blue open ocean. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: front three-quarter close view with two cephalic fins unfurled toward open terminal mouth. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Mobula birostris, Giant Manta Ray. Anatomy: giant oceanic manta ray with broad diamond disc and winglike pectoral fins, black upper body with white angular shoulder patches, white belly with dark spots, two cephalic fins by broad terminal mouth, long slender tail. Setting: tropical blue open ocean. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: underside view of manta with natural dark abdominal spots and paired gill slit rows. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Mobula birostris, Giant Manta Ray. Anatomy: giant oceanic manta ray with broad diamond disc and winglike pectoral fins, black upper body with white angular shoulder patches, white belly with dark spots, two cephalic fins by broad terminal mouth, long slender tail. Setting: tropical blue open ocean. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: manta swimming with mouth open among subtle plankton specks, no giant prey. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Mobula birostris, Giant Manta Ray. Anatomy: giant oceanic manta ray with broad diamond disc and winglike pectoral fins, black upper body with white angular shoulder patches, white belly with dark spots, two cephalic fins by broad terminal mouth, long slender tail. Setting: tropical blue open ocean. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: manta hovering above reef with a few small cleaner wrasses near skin, full body. Clear readable educational scene. Anatomically correct and uncluttered."
+    }
+  ]
+}
