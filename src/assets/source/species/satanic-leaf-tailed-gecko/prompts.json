@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-22",
+  "images": [
+    {
+      "slug": "satanic-leaf-tailed-gecko",
+      "n": 1,
+      "scene": "Cover composition: entire animal large on the RIGHT, visible full subject boundary approximately x=700..1470 y=140..900. Center beyond 60% source width. LEFT 40% quiet background for website text. Leave real background margin beyond all outer features, antennae, toes, fins or tail.",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: Uroplatus phantasticus satanic leaf-tailed gecko, small brown gecko with angular head, small pointed projections above eyes, slender four limbs and flat dry-leaf-shaped tail with irregular notches and subtle leaf vein pattern. Environment: humid Madagascar rainforest understory on a thin twig among dry brown leaves. Scene: Cover composition: entire animal large on the RIGHT, visible full subject boundary approximately x=700..1470 y=140..900. Center beyond 60% source width. LEFT 40% quiet background for website text. Leave real background margin beyond all outer features, antennae, toes, fins or tail.. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "satanic-leaf-tailed-gecko",
+      "n": 2,
+      "scene": "Side view of complete gecko on twig beside a dry leaf for comparing leaf shaped tail, tail is attached naturally at pelvis",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: Uroplatus phantasticus satanic leaf-tailed gecko, small brown gecko with angular head, small pointed projections above eyes, slender four limbs and flat dry-leaf-shaped tail with irregular notches and subtle leaf vein pattern. Environment: humid Madagascar rainforest understory on a thin twig among dry brown leaves. Scene: Side view of complete gecko on twig beside a dry leaf for comparing leaf shaped tail, tail is attached naturally at pelvis. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "satanic-leaf-tailed-gecko",
+      "n": 3,
+      "scene": "Close view of angular head and large lidless eye with vertical pupil, brown cryptic skin",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: Uroplatus phantasticus satanic leaf-tailed gecko, small brown gecko with angular head, small pointed projections above eyes, slender four limbs and flat dry-leaf-shaped tail with irregular notches and subtle leaf vein pattern. Environment: humid Madagascar rainforest understory on a thin twig among dry brown leaves. Scene: Close view of angular head and large lidless eye with vertical pupil, brown cryptic skin. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "satanic-leaf-tailed-gecko",
+      "n": 4,
+      "scene": "Entire gecko moving carefully along a slender branch, toe pads grasping twig, full leaf shaped tail",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: Uroplatus phantasticus satanic leaf-tailed gecko, small brown gecko with angular head, small pointed projections above eyes, slender four limbs and flat dry-leaf-shaped tail with irregular notches and subtle leaf vein pattern. Environment: humid Madagascar rainforest understory on a thin twig among dry brown leaves. Scene: Entire gecko moving carefully along a slender branch, toe pads grasping twig, full leaf shaped tail. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "satanic-leaf-tailed-gecko",
+      "n": 5,
+      "scene": "Entire gecko resting among attached brown leaves, visible but well camouflaged, natural soft daylight",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: Uroplatus phantasticus satanic leaf-tailed gecko, small brown gecko with angular head, small pointed projections above eyes, slender four limbs and flat dry-leaf-shaped tail with irregular notches and subtle leaf vein pattern. Environment: humid Madagascar rainforest understory on a thin twig among dry brown leaves. Scene: Entire gecko resting among attached brown leaves, visible but well camouflaged, natural soft daylight. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "satanic-leaf-tailed-gecko",
+      "n": 6,
+      "scene": "Entire gecko on a twig in dim rainforest night, soft reflected illumination, no glowing eyes",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: Uroplatus phantasticus satanic leaf-tailed gecko, small brown gecko with angular head, small pointed projections above eyes, slender four limbs and flat dry-leaf-shaped tail with irregular notches and subtle leaf vein pattern. Environment: humid Madagascar rainforest understory on a thin twig among dry brown leaves. Scene: Entire gecko on a twig in dim rainforest night, soft reflected illumination, no glowing eyes. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    }
+  ]
+}

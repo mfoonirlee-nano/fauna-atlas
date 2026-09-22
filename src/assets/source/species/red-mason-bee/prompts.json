@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-22",
+  "images": [
+    {
+      "slug": "red-mason-bee",
+      "n": 1,
+      "scene": "Cover composition: entire animal large on the RIGHT, visible full subject boundary approximately x=700..1470 y=140..900. Center beyond 60% source width. LEFT 40% quiet background for website text. Leave real background margin beyond all outer features, antennae, toes, fins or tail.",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: female red mason bee Osmia bicornis, small solitary bee with black head, two short facial horns, tawny thorax hairs, rusty orange abdominal hairs, six legs, two antennae, folded translucent wings, no yellow wasp stripes. Environment: European spring garden near a weathered hollow reed stem with roughly 7 mm bore serving as approximate size reference. Scene: Cover composition: entire animal large on the RIGHT, visible full subject boundary approximately x=700..1470 y=140..900. Center beyond 60% source width. LEFT 40% quiet background for website text. Leave real background margin beyond all outer features, antennae, toes, fins or tail.. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "red-mason-bee",
+      "n": 2,
+      "scene": "Female using a small lump of wet mud to seal the entrance of a hollow reed nesting tube, side view, wings folded, tube bore about 7 mm for approximate scale",
+      "prompt": "One 1536x1024 landscape macro natural-history photograph of female Osmia bicornis red mason bee sealing its nest entrance with damp mud. Bee STANDING firmly on a broad horizontal wooden surface immediately next to a horizontal hollow reed, with its front feet braced on lower rim of the tube and middle and hind feet resting visibly on the supporting wood. All six legs attached correctly, no hovering, no flight. Wings folded resting on back. Bee bends head against a small patch of mud on the entrance rim. Female black face with two short clypeal horns, tawny-haired thorax, rusty red abdomen, two antennae. Mouth contacts mud, no humanlike hands. Spring garden background. Full insect visible; reed bore slightly narrower than bee body length, approximate natural size reference. No text, no labels, no watermark, no collage."
+    },
+    {
+      "slug": "red-mason-bee",
+      "n": 3,
+      "scene": "Female visiting an open apple blossom, rusty abdomen and underside pollen hairs visible, full insect, flower provides size reference",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: female red mason bee Osmia bicornis, small solitary bee with black head, two short facial horns, tawny thorax hairs, rusty orange abdominal hairs, six legs, two antennae, folded translucent wings, no yellow wasp stripes. Environment: European spring garden near a weathered hollow reed stem with roughly 7 mm bore serving as approximate size reference. Scene: Female visiting an open apple blossom, rusty abdomen and underside pollen hairs visible, full insect, flower provides size reference. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "red-mason-bee",
+      "n": 4,
+      "scene": "Female collecting a small mud pellet at damp soil, all six legs anatomically attached, macro with tiny leaf for scale",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: female red mason bee Osmia bicornis, small solitary bee with black head, two short facial horns, tawny thorax hairs, rusty orange abdominal hairs, six legs, two antennae, folded translucent wings, no yellow wasp stripes. Environment: European spring garden near a weathered hollow reed stem with roughly 7 mm bore serving as approximate size reference. Scene: Female collecting a small mud pellet at damp soil, all six legs anatomically attached, macro with tiny leaf for scale. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "red-mason-bee",
+      "n": 5,
+      "scene": "Female at entrance of an existing narrow hollow reed stem, no exposed larvae, no honeycomb, bore roughly 7 mm reference",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: female red mason bee Osmia bicornis, small solitary bee with black head, two short facial horns, tawny thorax hairs, rusty orange abdominal hairs, six legs, two antennae, folded translucent wings, no yellow wasp stripes. Environment: European spring garden near a weathered hollow reed stem with roughly 7 mm bore serving as approximate size reference. Scene: Female at entrance of an existing narrow hollow reed stem, no exposed larvae, no honeycomb, bore roughly 7 mm reference. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "red-mason-bee",
+      "n": 6,
+      "scene": "Female resting side-on on a twig beside apple flower buds, clear rusty hairy abdomen and folded wings, entire bee visible",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: female red mason bee Osmia bicornis, small solitary bee with black head, two short facial horns, tawny thorax hairs, rusty orange abdominal hairs, six legs, two antennae, folded translucent wings, no yellow wasp stripes. Environment: European spring garden near a weathered hollow reed stem with roughly 7 mm bore serving as approximate size reference. Scene: Female resting side-on on a twig beside apple flower buds, clear rusty hairy abdomen and folded wings, entire bee visible. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    }
+  ]
+}

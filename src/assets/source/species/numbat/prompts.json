@@ -1,0 +1,41 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-22",
+  "images": [
+    {
+      "slug": "numbat",
+      "n": 1,
+      "prompt": "Natural history wildlife photograph 1536x1024 wide landscape. One numbat Myrmecobius fasciatus in eucalyptus woodland, facing left. ENTIRE animal occupies a compact rectangle x=760..1390 y=240..800, with at least 140 pixels empty woodland to its RIGHT and 200 above and below. Long bushy tail rests curved on ground behind animal WITH TIP POINTING BACK INWARD TOWARDS BODY. No tail near image edges. Left 45 percent is quiet blurred empty forest. Anatomically accurate numbat, pointed narrow muzzle, black eye stripe, rusty shoulders, dark rump with white transverse stripes, upright small ears, four short legs. Full body, large clear subject on right. No text, no watermark. Don't crop any part."
+    },
+    {
+      "slug": "numbat",
+      "n": 2,
+      "scene": "Full animal lowering its narrow snout to a small termite foraging gallery in woodland soil, delicate thin tongue near opening, no giant termite mound",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult numbat Myrmecobius fasciatus, rusty brown shoulders, white transverse stripes across dark rump, black eye stripe, narrow pointed snout, upright ears and long bushy tail. Environment: Australian eucalyptus woodland. Scene: Full animal lowering its narrow snout to a small termite foraging gallery in woodland soil, delicate thin tongue near opening, no giant termite mound. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "numbat",
+      "n": 3,
+      "scene": "Side view on fallen log showing the white transverse stripes across rump and bushy tail",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult numbat Myrmecobius fasciatus, rusty brown shoulders, white transverse stripes across dark rump, black eye stripe, narrow pointed snout, upright ears and long bushy tail. Environment: Australian eucalyptus woodland. Scene: Side view on fallen log showing the white transverse stripes across rump and bushy tail. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "numbat",
+      "n": 4,
+      "scene": "Walking on woodland floor, all four short legs anatomically clear, full tail",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult numbat Myrmecobius fasciatus, rusty brown shoulders, white transverse stripes across dark rump, black eye stripe, narrow pointed snout, upright ears and long bushy tail. Environment: Australian eucalyptus woodland. Scene: Walking on woodland floor, all four short legs anatomically clear, full tail. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "numbat",
+      "n": 5,
+      "scene": "Resting at the opening of a hollow fallen log with whole animal visible",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult numbat Myrmecobius fasciatus, rusty brown shoulders, white transverse stripes across dark rump, black eye stripe, narrow pointed snout, upright ears and long bushy tail. Environment: Australian eucalyptus woodland. Scene: Resting at the opening of a hollow fallen log with whole animal visible. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "numbat",
+      "n": 6,
+      "scene": "Full animal standing in daylight among dry eucalyptus leaves in open woodland",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult numbat Myrmecobius fasciatus, rusty brown shoulders, white transverse stripes across dark rump, black eye stripe, narrow pointed snout, upright ears and long bushy tail. Environment: Australian eucalyptus woodland. Scene: Full animal standing in daylight among dry eucalyptus leaves in open woodland. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    }
+  ]
+}

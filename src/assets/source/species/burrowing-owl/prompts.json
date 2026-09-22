@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-22",
+  "images": [
+    {
+      "slug": "burrowing-owl",
+      "n": 1,
+      "scene": "Cover composition: entire animal large on the RIGHT, visible full subject boundary approximately x=700..1470 y=140..900. Center beyond 60% source width. LEFT 40% quiet background for website text. Leave real background margin beyond all outer features, antennae, toes, fins or tail.",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult burrowing owl Athene cunicularia, small brown and white spotted owl with yellow eyes, rounded head without ear tufts, long slender pale legs. Environment: open short dry grassland beside a natural earthen burrow. Scene: Cover composition: entire animal large on the RIGHT, visible full subject boundary approximately x=700..1470 y=140..900. Center beyond 60% source width. LEFT 40% quiet background for website text. Leave real background margin beyond all outer features, antennae, toes, fins or tail.. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "burrowing-owl",
+      "n": 2,
+      "scene": "Standing directly beside an empty dark earthen burrow entrance, entire owl including long legs and toes",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult burrowing owl Athene cunicularia, small brown and white spotted owl with yellow eyes, rounded head without ear tufts, long slender pale legs. Environment: open short dry grassland beside a natural earthen burrow. Scene: Standing directly beside an empty dark earthen burrow entrance, entire owl including long legs and toes. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "burrowing-owl",
+      "n": 3,
+      "scene": "Side view walking on short grass, long legs and spotted brown plumage clear",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult burrowing owl Athene cunicularia, small brown and white spotted owl with yellow eyes, rounded head without ear tufts, long slender pale legs. Environment: open short dry grassland beside a natural earthen burrow. Scene: Side view walking on short grass, long legs and spotted brown plumage clear. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "burrowing-owl",
+      "n": 4,
+      "scene": "Front portrait of adult with yellow eyes, white brows and round head, include chest",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult burrowing owl Athene cunicularia, small brown and white spotted owl with yellow eyes, rounded head without ear tufts, long slender pale legs. Environment: open short dry grassland beside a natural earthen burrow. Scene: Front portrait of adult with yellow eyes, white brows and round head, include chest. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "burrowing-owl",
+      "n": 5,
+      "scene": "Adult quietly perched on a low dirt mound in open grassland at golden hour",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult burrowing owl Athene cunicularia, small brown and white spotted owl with yellow eyes, rounded head without ear tufts, long slender pale legs. Environment: open short dry grassland beside a natural earthen burrow. Scene: Adult quietly perched on a low dirt mound in open grassland at golden hour. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    },
+    {
+      "slug": "burrowing-owl",
+      "n": 6,
+      "scene": "Two adult burrowing owls side by side near a burrow, complete bodies, no other species",
+      "prompt": "One 1536x1024 landscape photorealistic natural history photograph, educational scientific reconstruction. Subject: adult burrowing owl Athene cunicularia, small brown and white spotted owl with yellow eyes, rounded head without ear tufts, long slender pale legs. Environment: open short dry grassland beside a natural earthen burrow. Scene: Two adult burrowing owls side by side near a burrow, complete bodies, no other species. Anatomically correct, natural colors, clear subject. No text, labels, logos, watermark, collage, humans or artificial fantasy elements."
+    }
+  ]
+}

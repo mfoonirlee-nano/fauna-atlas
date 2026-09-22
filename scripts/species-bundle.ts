@@ -39,7 +39,10 @@ export function speciesBundle(): Plugin {
         // Restore redundant ids and compact text field names on the client.
         const catalogue = summaries.map(({ id, names, scientificName, summary, conservation, distribution, taxonomy, media, habitats, tags, ...item }) => ({ ...item,
           l: [names.zh, names.en, ...(names.aliases === undefined ? [] : [names.aliases])],
-          n: scientificName, s: summary, c: conservation.code,
+          // The genus already exists in the shared taxonomy; retain unusual names verbatim.
+          n: scientificName.startsWith(`${taxonomy.genus.scientificName} `)
+            ? scientificName.slice(taxonomy.genus.scientificName.length + 1) : [scientificName],
+          s: summary, c: conservation.code,
           // Distribution keys repeat for every species; encode optional center last.
           d: [distribution.regions, distribution.realms, ...(distribution.center === undefined ? [] : [distribution.center])],
           m: [media.image?.startsWith(`./images/species/${item.slug}/`)
@@ -56,7 +59,7 @@ export function speciesBundle(): Plugin {
         // Encode shared taxa as pairs so field names are emitted only once.
         return `const taxa=${JSON.stringify(taxa.map(({ scientificName, zhName }) => [scientificName, zhName]))}.map(([scientificName,zhName])=>({scientificName,zhName}));
           const ranks=${JSON.stringify(taxonomyRanks)};
-          export const species=${JSON.stringify(catalogue)}.map(({l,n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,names:{zh:l[0],en:l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:n,summary:s,
+          export const species=${JSON.stringify(catalogue)}.map(({l,n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,names:{zh:l[0],en:l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[5]].scientificName+' '+n,summary:s,
             conservation:{code:c},distribution:{regions:d[0],realms:d[1],...(d.length>2?{center:d[2]}:{})},media:{image:m[0]&&!m[0].includes('/')?'./images/species/'+item.slug+'/'+m[0]+'.webp':m[0]??undefined,alt:m[1],focalPoint:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:h.map(name=>({name})),tags:g,
             taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[t[index]]]))}));
           const loaders={${loaders}};

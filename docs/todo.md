@@ -1,6 +1,6 @@
 # 动物制作清单：面向 3 岁孩子的 100 种新选题
 
-2026-09-22 更新：已对照 `src/data/species.ts` 中的 300 份物种档案，移除原清单中已实现的 50 种动物。本轮清单共 100 种，现已完成 50 种，剩余 50 种；站内共 350 份物种档案。首批核验记录见 [todo-first-ten-2026-09-20.md](research/todo-first-ten-2026-09-20.md)。第二批核验记录见 [todo-second-ten-2026-09-21.md](research/todo-second-ten-2026-09-21.md)。第三批核验记录见 [todo-third-ten-2026-09-21.md](research/todo-third-ten-2026-09-21.md)。上一批 5 种核验记录见 [todo-five-2026-09-21.md](research/todo-five-2026-09-21.md)。本批 5 种核验记录见 [todo-next-five-2026-09-21.md](research/todo-next-five-2026-09-21.md)。新增十种核验记录见 [todo-ten-2026-09-22.md](research/todo-ten-2026-09-22.md)。历史制作资料保留在 `docs/research/`。
+2026-09-22 更新：已对照 `src/data/species.ts` 中的 300 份物种档案，移除原清单中已实现的 50 种动物。本轮清单共 100 种，现已完成 55 种，剩余 45 种；站内共 355 份物种档案。首批核验记录见 [todo-first-ten-2026-09-20.md](research/todo-first-ten-2026-09-20.md)。第二批核验记录见 [todo-second-ten-2026-09-21.md](research/todo-second-ten-2026-09-21.md)。第三批核验记录见 [todo-third-ten-2026-09-21.md](research/todo-third-ten-2026-09-21.md)。上一批 5 种核验记录见 [todo-five-2026-09-21.md](research/todo-five-2026-09-21.md)。本批 5 种核验记录见 [todo-next-five-2026-09-21.md](research/todo-next-five-2026-09-21.md)。新增十种核验记录见 [todo-ten-2026-09-22.md](research/todo-ten-2026-09-22.md)。本次跨组五种核验记录见 [todo-cross-group-five-2026-09-22.md](research/todo-cross-group-five-2026-09-22.md)。历史制作资料保留在 `docs/research/`。
 
 ## 选题与共读方式
 
@@ -15,14 +15,14 @@
 
 | 选题组 | 待制作数量 | 主要观察差异 |
 | --- | ---: | --- |
-| 哺乳动物 | 10 | 身体比例、攀爬与滑翔、不同环境中的生活 |
-| 鸟类 | 5 | 嘴和脚的形状、取食、筑巢与育幼 |
-| 爬行动物 | 5 | 壳、鳞片、伪装、陆地与水中移动 |
+| 哺乳动物 | 9 | 身体比例、攀爬与滑翔、不同环境中的生活 |
+| 鸟类 | 4 | 嘴和脚的形状、取食、筑巢与育幼 |
+| 爬行动物 | 4 | 壳、鳞片、伪装、陆地与水中移动 |
 | 两栖动物 | 0 | 身体形状、卵与成体、水陆环境 |
-| 鱼类 | 10 | 扁、长、圆等体形，以及不同的鳍 |
-| 昆虫与其他节肢动物 | 14 | 足、触角、外壳、筑巢与藏身 |
+| 鱼类 | 9 | 扁、长、圆等体形，以及不同的鳍 |
+| 昆虫与其他节肢动物 | 13 | 足、触角、外壳、筑巢与藏身 |
 | 其他水边与海中动物 | 6 | 软体、双壳、触手、群体与附着生活 |
-| 合计 | 50 | |
+| 合计 | 45 | |
 
 ## 哺乳动物（20 种）
 
@@ -38,7 +38,7 @@
 - [x] 东非黑白疣猴 *Colobus guereza*：长毛与身体轮廓。“找找身体两侧垂下的白色长毛。”
 - [x] 金狮狨 *Leontopithecus rosalia*：小型树栖动物。“看看它脸旁一圈金色的毛。”
 - [x] 袋獾 *Sarcophilus harrisii*：低矮体形。“找找黑色身体、短腿和胸前的白色花纹。”
-- [ ] 袋食蚁兽 *Myrmecobius fasciatus*：林地取食。“看看它把尖嘴伸向地面寻找白蚁。”
+- [x] 袋食蚁兽 *Myrmecobius fasciatus*：林地取食。“看看它把尖嘴伸向地面寻找白蚁。”
 - [ ] 马氏树袋鼠 *Dendrolagus matschiei*：树上的袋鼠。“看看它怎样抱住树干往上爬。”
 - [ ] 蜜袋鼯 *Petaurus breviceps*：滑翔的皮膜。“看看它张开四肢时，身体两侧展开的皮膜。”
 - [ ] 印度狐蝠 *Pteropus medius*：哺乳动物的翅膀。“看看它倒挂休息时怎样把翅膀收起来。”
@@ -65,7 +65,7 @@
 - [x] 缎蓝园丁鸟 *Ptilonorhynchus violaceus*：求偶场地。“找找雄鸟搭的草茎通道和旁边的蓝色物件。”
 - [ ] 华丽极乐鸟 *Cicinnurus magnificus*：雄性的尾羽。“看看雄鸟尾后两根弯弯的长羽毛。”
 - [ ] 大走鹃 *Geococcyx californianus*：奔跑的鸟。“看看它在地上跑时伸出的长尾巴。”
-- [ ] 穴小鸮 *Athene cunicularia*：地洞旁的生活。“在地面洞口旁找找站着的小鸮。”
+- [x] 穴小鸮 *Athene cunicularia*：地洞旁的生活。“在地面洞口旁找找站着的小鸮。”
 - [ ] 北岛褐几维 *Apteryx mantelli*：长嘴与地面取食。“看看它把长嘴伸进松软的土里。”
 - [ ] 日鳽 *Eurypyga helias*：展开与收拢的翅膀。“看看翅膀展开后露出的两块大花纹。”
 
@@ -80,7 +80,7 @@
 - [ ] 双冠蜥 *Basiliscus basiliscus*：水面奔跑。“在连续图里看看后脚怎样踩过水面。”
 - [x] 蛤蚧 *Gekko gecko*：攀附的脚趾。“看看它贴在树干上的宽脚趾。”
 - [x] 药用石龙子 *Scincus scincus*：沙中移动。“看看它钻进沙子后留下的痕迹。”
-- [ ] 叶尾守宫 *Uroplatus phantasticus*：叶片状尾巴。“把它的尾巴和旁边的枯叶放在一起看。”
+- [x] 叶尾守宫 *Uroplatus phantasticus*：叶片状尾巴。“把它的尾巴和旁边的枯叶放在一起看。”
 - [ ] 钩盲蛇 *Indotyphlops braminus*：细小的地下蛇。“在放大图里找找小蛇身上一片片鳞片。”
 - [ ] 黄唇青斑海蛇 *Laticauda colubrina*：划水的扁尾。“看看身体后面扁扁的尾巴。”
 
@@ -110,7 +110,7 @@
 - [ ] 康氏躄鱼 *Antennarius commerson*：海底支撑。“看看它怎样用胸鳍撑在海底。”
 - [ ] 花斑连鳍䲗 *Synchiropus splendidus*：贴近礁底的小鱼。“在珊瑚碎块间找找身上有彩色弯纹的小鱼。”
 - [ ] 印头鱼 *Echeneis naucrates*：头顶吸盘。“看看它头顶椭圆形的吸盘。”
-- [ ] 翱翔蓑鲉 *Pterois volitans*：长鳍条。“找找像扇子一样展开的鳍和一根根鳍条。”
+- [x] 翱翔蓑鲉 *Pterois volitans*：长鳍条。“找找像扇子一样展开的鳍和一根根鳍条。”
 - [ ] 尖海龙 *Syngnathus acus*：细长而直的身体。“和已有的海马一起看，找找它长长直直的身体。”
 - [ ] 欧洲鲽 *Pleuronectes platessa*：侧扁体形。“看看贴着海底的成鱼，两只眼睛长在哪一面。”
 
@@ -124,7 +124,7 @@
 - [x] 乌桕大蚕蛾 *Attacus atlas*：大翅膀。“在有比例参照的图里，看看展开的翅膀有多大。”
 - [x] 小豆长喙天蛾 *Macroglossum stellatarum*：悬停吸蜜。“看看它飞在花前时伸出的长喙。”
 - [x] 透翅蝶 *Greta oto*：透明翅膀。“透过翅膀中间，看看后面的叶子。”
-- [ ] 红壁蜂 *Osmia bicornis*：洞穴里的巢。“看看它怎样用泥把小洞口封起来。”
+- [x] 红壁蜂 *Osmia bicornis*：洞穴里的巢。“看看它怎样用泥把小洞口封起来。”
 - [ ] 紫木蜂 *Xylocopa violacea*：木头中的巢。“在木头表面找找它进出的圆洞。”
 - [ ] 神圣蜣螂 *Scarabaeus sacer*：滚动食物。“看看它怎样用后腿推动粪球。”
 - [ ] 豉甲 *Gyrinus natator*：水面转圈。“看看水面上游来游去的小甲虫。”

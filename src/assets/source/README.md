@@ -529,3 +529,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Hummingbird Hawk-moth image set](./species/hummingbird-hawk-moth/README.md)
 - [Bigfin Reef Squid image set](./species/bigfin-reef-squid/README.md)
 - [Greater Argonaut image set](./species/greater-argonaut/README.md)
+
+- [Numbat image set](./species/numbat/README.md)
+- [Burrowing Owl image set](./species/burrowing-owl/README.md)
+- [Satanic Leaf-tailed Gecko image set](./species/satanic-leaf-tailed-gecko/README.md)
+- [Red Lionfish image set](./species/red-lionfish/README.md)
+- [Red Mason Bee image set](./species/red-mason-bee/README.md)

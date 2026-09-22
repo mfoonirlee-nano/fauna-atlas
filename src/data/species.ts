@@ -102400,6 +102400,1209 @@ export const species = [
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22"
 },
+{
+  "id": "numbat",
+  "slug": "numbat",
+  "names": {
+    "zh": "袋食蚁兽",
+    "en": "Numbat"
+  },
+  "scientificName": "Myrmecobius fasciatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Dasyuromorphia",
+      "zhName": "袋鼬目"
+    },
+    "family": {
+      "scientificName": "Myrmecobiidae",
+      "zhName": "袋食蚁兽科"
+    },
+    "genus": {
+      "scientificName": "Myrmecobius",
+      "zhName": "袋食蚁兽属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "所列来源支持全球类别；未核实独立评估日期，年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "大洋洲"
+    ],
+    "regions": [
+      "澳大利亚西南部"
+    ],
+    "countries": [
+      "澳大利亚"
+    ],
+    "range": "自然残存种群位于澳大利亚西南部；保护机构也在历史分布范围内开展再引入。"
+  },
+  "habitats": [
+    {
+      "name": "桉树林与疏林",
+      "realm": "terrestrial",
+      "description": "自然残存种群位于澳大利亚西南部；保护机构也在历史分布范围内开展再引入。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "白蚁"
+    ],
+    "description": "食物包括白蚁。"
+  },
+  "tags": [
+    "袋食蚁兽",
+    "尖嘴找白蚁"
+  ],
+  "summary": "看看它把尖嘴伸向地面寻找白蚁。",
+  "description": "袋食蚁兽是白天活动的有袋哺乳动物。它有尖尖的嘴、蓬松的长尾巴，身体后半部横着几道白纹，主要在林地地面寻找白蚁。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "尖嘴找白蚁",
+      "body": "袋食蚁兽在地表附近寻找白蚁通道，用细长的舌头取食。它不能像大食蚁兽那样破开坚硬的大蚁丘。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "背上的白条纹",
+      "body": "从侧面看看身体后半部的白色横纹，再找找眼旁的深色条纹。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "短腿向前走",
+      "body": "四条短腿支撑身体在林地走动，长尾巴跟在身后。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "空心木头里的住处",
+      "body": "炎热时段它会躲进空心倒木或洞穴，等天气凉一些再出来觅食。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "白天出来活动",
+      "body": "袋食蚁兽在白天活动，觅食时段会随白蚁在土里的活动深度和季节变化。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护林地和空心倒木，支持外来捕食者控制与保护繁育。"
+    }
+  ],
+  "keyFacts": [
+    "袋食蚁兽在地表附近寻找白蚁通道，用细长的舌头取食。它不能像大食蚁兽那样破开坚硬的大蚁丘。",
+    "从侧面看看身体后半部的白色横纹，再找找眼旁的深色条纹。",
+    "四条短腿支撑身体在林地走动，长尾巴跟在身后。",
+    "炎热时段它会躲进空心倒木或洞穴，等天气凉一些再出来觅食。",
+    "袋食蚁兽在白天活动，觅食时段会随白蚁在土里的活动深度和季节变化。"
+  ],
+  "threats": [
+    "林地清理",
+    "火灾",
+    "外来狐狸和猫捕食"
+  ],
+  "conservationActions": [
+    "保护林地和空心倒木，支持外来捕食者控制与保护繁育。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "尖嘴找白蚁"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "桉树林与疏林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/numbat/01-cover.webp",
+    "alt": "袋食蚁兽在桉树林与疏林中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/numbat/02-observation.webp",
+        "title": "尖嘴找白蚁",
+        "alt": "袋食蚁兽：尖嘴找白蚁",
+        "caption": "AI 生成科学情景重建。袋食蚁兽在地表附近寻找白蚁通道，用细长的舌头取食。它不能像大食蚁兽那样破开坚硬的大蚁丘。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/numbat/03-observation.webp",
+        "title": "背上的白条纹",
+        "alt": "袋食蚁兽：背上的白条纹",
+        "caption": "AI 生成科学情景重建。从侧面看看身体后半部的白色横纹，再找找眼旁的深色条纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/numbat/04-observation.webp",
+        "title": "短腿向前走",
+        "alt": "袋食蚁兽：短腿向前走",
+        "caption": "AI 生成科学情景重建。四条短腿支撑身体在林地走动，长尾巴跟在身后。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/numbat/05-observation.webp",
+        "title": "空心木头里的住处",
+        "alt": "袋食蚁兽：空心木头里的住处",
+        "caption": "AI 生成科学情景重建。炎热时段它会躲进空心倒木或洞穴，等天气凉一些再出来觅食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/numbat/06-observation.webp",
+        "title": "白天出来活动",
+        "alt": "袋食蚁兽：白天出来活动",
+        "caption": "AI 生成科学情景重建。袋食蚁兽在白天活动，觅食时段会随白蚁在土里的活动深度和季节变化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "珀斯动物园：袋食蚁兽自然史",
+      "url": "https://perthzoo.wa.gov.au/animal/numbat",
+      "kind": "ecology",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "美国哺乳动物学会 MDD：分类与全球 EN",
+      "url": "https://www.mammaldiversity.org/taxon/1000219/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "ADW：自然残存范围与再引入",
+      "url": "https://animaldiversity.org/accounts/Myrmecobius_fasciatus/",
+      "kind": "distribution",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "burrowing-owl",
+  "slug": "burrowing-owl",
+  "names": {
+    "zh": "穴小鸮",
+    "en": "Burrowing Owl"
+  },
+  "scientificName": "Athene cunicularia",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Strigiformes",
+      "zhName": "鸮形目"
+    },
+    "family": {
+      "scientificName": "Strigidae",
+      "zhName": "鸱鸮科"
+    },
+    "genus": {
+      "scientificName": "Athene",
+      "zhName": "小鸮属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所列来源支持全球类别；未核实独立评估日期，年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲",
+      "南美洲"
+    ],
+    "regions": [
+      "美洲开阔草地"
+    ],
+    "countries": [],
+    "range": "分布于美洲开阔地区，包括北美西部、中美洲和南美洲的草地与干燥地带；部分北方种群迁徙。"
+  },
+  "habitats": [
+    {
+      "name": "短草地与地洞周围",
+      "realm": "terrestrial",
+      "description": "分布于美洲开阔地区，包括北美西部、中美洲和南美洲的草地与干燥地带；部分北方种群迁徙。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "小型啮齿动物",
+      "其他小型脊椎动物"
+    ],
+    "description": "食物包括昆虫、小型啮齿动物、其他小型脊椎动物。"
+  },
+  "tags": [
+    "穴小鸮",
+    "洞口旁的小鸮"
+  ],
+  "summary": "在地面洞口旁，找找长腿站着的小鸮。",
+  "description": "穴小鸮有黄色眼睛、圆圆的头和细长的腿，褐色羽毛上散着白斑。它常在地面活动，并在地下洞穴里筑巢。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "洞口旁的小鸮",
+      "body": "穴小鸮常借用其他动物挖出的地洞，也有自己挖洞的种群。看看洞口与站在旁边的小鸮。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "用长腿走路",
+      "body": "长腿把身体撑离地面。它能在草地上走动，也能飞行。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "黄色的眼睛",
+      "body": "找找圆头上的黄眼睛、浅色眉纹和短嘴。它没有耳羽簇。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "开阔地方找食物",
+      "body": "它在地面或低处观察周围，捕食昆虫和小型动物；白天和夜间都可能觅食。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "一起待在洞旁",
+      "body": "繁殖期的成对穴小鸮会在洞穴附近活动，亲鸟也会照顾幼鸟。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留开阔草地和洞穴，观察时远离巢洞，不堵洞或追赶幼鸟。"
+    }
+  ],
+  "keyFacts": [
+    "穴小鸮常借用其他动物挖出的地洞，也有自己挖洞的种群。看看洞口与站在旁边的小鸮。",
+    "长腿把身体撑离地面。它能在草地上走动，也能飞行。",
+    "找找圆头上的黄眼睛、浅色眉纹和短嘴。它没有耳羽簇。",
+    "它在地面或低处观察周围，捕食昆虫和小型动物；白天和夜间都可能觅食。",
+    "繁殖期的成对穴小鸮会在洞穴附近活动，亲鸟也会照顾幼鸟。"
+  ],
+  "threats": [
+    "草地栖息地丧失",
+    "筑巢洞穴破坏"
+  ],
+  "conservationActions": [
+    "保留开阔草地和洞穴，观察时远离巢洞，不堵洞或追赶幼鸟。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "洞口旁的小鸮"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "短草地与地洞周围"
+    }
+  ],
+  "media": {
+    "image": "./images/species/burrowing-owl/01-cover.webp",
+    "alt": "穴小鸮在短草地与地洞周围中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/burrowing-owl/02-observation.webp",
+        "title": "洞口旁的小鸮",
+        "alt": "穴小鸮：洞口旁的小鸮",
+        "caption": "AI 生成科学情景重建。穴小鸮常借用其他动物挖出的地洞，也有自己挖洞的种群。看看洞口与站在旁边的小鸮。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/burrowing-owl/03-observation.webp",
+        "title": "用长腿走路",
+        "alt": "穴小鸮：用长腿走路",
+        "caption": "AI 生成科学情景重建。长腿把身体撑离地面。它能在草地上走动，也能飞行。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/burrowing-owl/04-observation.webp",
+        "title": "黄色的眼睛",
+        "alt": "穴小鸮：黄色的眼睛",
+        "caption": "AI 生成科学情景重建。找找圆头上的黄眼睛、浅色眉纹和短嘴。它没有耳羽簇。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/burrowing-owl/05-observation.webp",
+        "title": "开阔地方找食物",
+        "alt": "穴小鸮：开阔地方找食物",
+        "caption": "AI 生成科学情景重建。它在地面或低处观察周围，捕食昆虫和小型动物；白天和夜间都可能觅食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/burrowing-owl/06-observation.webp",
+        "title": "一起待在洞旁",
+        "alt": "穴小鸮：一起待在洞旁",
+        "caption": "AI 生成科学情景重建。繁殖期的成对穴小鸮会在洞穴附近活动，亲鸟也会照顾幼鸟。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "史密森尼国家动物园：穴小鸮",
+      "url": "https://nationalzoo.si.edu/animals/burrowing-owl",
+      "kind": "ecology",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "康奈尔鸟类实验室：穴小鸮生活史",
+      "url": "https://www.allaboutbirds.org/guide/Burrowing_Owl/lifehistory",
+      "kind": "ecology",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "ADW：穴小鸮分类与 IUCN LC",
+      "url": "https://animaldiversity.org/accounts/Athene_cunicularia/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "satanic-leaf-tailed-gecko",
+  "slug": "satanic-leaf-tailed-gecko",
+  "names": {
+    "zh": "叶尾守宫",
+    "en": "Satanic Leaf-tailed Gecko"
+  },
+  "scientificName": "Uroplatus phantasticus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Squamata",
+      "zhName": "有鳞目"
+    },
+    "family": {
+      "scientificName": "Gekkonidae",
+      "zhName": "壁虎科"
+    },
+    "genus": {
+      "scientificName": "Uroplatus",
+      "zhName": "叶尾守宫属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "所列来源支持全球类别；未核实独立评估日期，年份留空。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "马达加斯加湿润森林"
+    ],
+    "countries": [
+      "马达加斯加"
+    ],
+    "range": "马达加斯加特有，生活在岛屿东部等地的湿润森林低层枝叶间。此档案只指 Uroplatus phantasticus，不泛指全部叶尾守宫。"
+  },
+  "habitats": [
+    {
+      "name": "雨林低层枝叶",
+      "realm": "terrestrial",
+      "description": "马达加斯加特有，生活在岛屿东部等地的湿润森林低层枝叶间。此档案只指 Uroplatus phantasticus，不泛指全部叶尾守宫。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "小型无脊椎动物"
+    ],
+    "description": "野外食谱研究有限，人工照护下吃蟋蟀、蛾等小型无脊椎动物。"
+  },
+  "tags": [
+    "叶尾守宫",
+    "像枯叶的尾巴"
+  ],
+  "summary": "把它扁扁的尾巴和旁边的枯叶放在一起看。",
+  "description": "叶尾守宫的身体呈褐色、灰色或锈色，扁平的尾巴带着不规则边缘，看起来像一片枯叶。它在马达加斯加雨林的树枝和灌木间生活。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "像枯叶的尾巴",
+      "body": "尾巴扁平，边缘像枯叶的缺口。沿着尾巴看看形状，再与旁边的叶子比较。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "大眼睛与小尖鳞",
+      "body": "它有大眼睛和竖直瞳孔，眼睛上方的尖鳞像小小的角。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "抓住细树枝",
+      "body": "看看四条腿上的脚趾怎样抓住枝条。它常在离地不高的枝叶间活动。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "藏在枯叶之间",
+      "body": "褐色斑纹和不规则轮廓让身体融进枝叶背景。先找眼睛，再顺着身体找到尾巴。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "夜间活动",
+      "body": "它主要在夜里活动，白天休息。野外食谱研究有限；人工照护下会吃蟋蟀和蛾等小型无脊椎动物。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护马达加斯加雨林，不捕捉野生守宫，也不购买来历不明的野生动物。"
+    }
+  ],
+  "keyFacts": [
+    "尾巴扁平，边缘像枯叶的缺口。沿着尾巴看看形状，再与旁边的叶子比较。",
+    "它有大眼睛和竖直瞳孔，眼睛上方的尖鳞像小小的角。",
+    "看看四条腿上的脚趾怎样抓住枝条。它常在离地不高的枝叶间活动。",
+    "褐色斑纹和不规则轮廓让身体融进枝叶背景。先找眼睛，再顺着身体找到尾巴。",
+    "它主要在夜里活动，白天休息。野外食谱研究有限；人工照护下会吃蟋蟀和蛾等小型无脊椎动物。"
+  ],
+  "threats": [
+    "雨林栖息地破坏",
+    "野外采集压力"
+  ],
+  "conservationActions": [
+    "保护马达加斯加雨林，不捕捉野生守宫，也不购买来历不明的野生动物。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "像枯叶的尾巴"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "雨林低层枝叶"
+    }
+  ],
+  "media": {
+    "image": "./images/species/satanic-leaf-tailed-gecko/01-cover.webp",
+    "alt": "叶尾守宫在雨林低层枝叶中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/satanic-leaf-tailed-gecko/02-observation.webp",
+        "title": "像枯叶的尾巴",
+        "alt": "叶尾守宫：像枯叶的尾巴",
+        "caption": "AI 生成科学情景重建。尾巴扁平，边缘像枯叶的缺口。沿着尾巴看看形状，再与旁边的叶子比较。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/satanic-leaf-tailed-gecko/03-observation.webp",
+        "title": "大眼睛与小尖鳞",
+        "alt": "叶尾守宫：大眼睛与小尖鳞",
+        "caption": "AI 生成科学情景重建。它有大眼睛和竖直瞳孔，眼睛上方的尖鳞像小小的角。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/satanic-leaf-tailed-gecko/04-observation.webp",
+        "title": "抓住细树枝",
+        "alt": "叶尾守宫：抓住细树枝",
+        "caption": "AI 生成科学情景重建。看看四条腿上的脚趾怎样抓住枝条。它常在离地不高的枝叶间活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/satanic-leaf-tailed-gecko/05-observation.webp",
+        "title": "藏在枯叶之间",
+        "alt": "叶尾守宫：藏在枯叶之间",
+        "caption": "AI 生成科学情景重建。褐色斑纹和不规则轮廓让身体融进枝叶背景。先找眼睛，再顺着身体找到尾巴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/satanic-leaf-tailed-gecko/06-observation.webp",
+        "title": "夜间活动",
+        "alt": "叶尾守宫：夜间活动",
+        "caption": "AI 生成科学情景重建。它主要在夜里活动，白天休息。野外食谱研究有限；人工照护下会吃蟋蟀和蛾等小型无脊椎动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "史密森尼国家动物园：形态与生活史",
+      "url": "https://nationalzoo.si.edu/animals/phantastic-leaf-tailed-gecko",
+      "kind": "ecology",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "爬行动物数据库：接受名与分类",
+      "url": "https://reptile-database.reptarium.cz/Uroplatus/phantasticus",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "Ratsoavina 等：叶尾守宫多样性与 IUCN 状态表",
+      "url": "https://www.salamandra-journal.com/index.php/contents/2013-vol-49/333-ratsoavina-f-m-n-r-raminosoa-e-e-louis-jr-a-p-raselimanana-f-glaw-m-vences/file",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "red-lionfish",
+  "slug": "red-lionfish",
+  "names": {
+    "zh": "翱翔蓑鲉",
+    "en": "Red Lionfish"
+  },
+  "scientificName": "Pterois volitans",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Scorpaeniformes",
+      "zhName": "鲉形目"
+    },
+    "family": {
+      "scientificName": "Scorpaenidae",
+      "zhName": "鲉科"
+    },
+    "genus": {
+      "scientificName": "Pterois",
+      "zhName": "蓑鲉属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2015,
+    "assessor": "FishBase 引用全球 LC，评估日期 2015-03-03；直接页面访问失败，日期由检索索引核对。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "印度洋东部与太平洋珊瑚礁"
+    ],
+    "countries": [],
+    "range": "原生范围在印度洋东部至西太平洋及中太平洋部分海域；西大西洋、加勒比海等地的种群属于引入范围。"
+  },
+  "habitats": [
+    {
+      "name": "珊瑚礁与岩礁",
+      "realm": "marine",
+      "description": "原生范围在印度洋东部至西太平洋及中太平洋部分海域；西大西洋、加勒比海等地的种群属于引入范围。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "小鱼",
+      "甲壳动物"
+    ],
+    "description": "食物包括小鱼、甲壳动物。"
+  },
+  "tags": [
+    "翱翔蓑鲉",
+    "展开的胸鳍"
+  ],
+  "summary": "找找像扇子一样展开的鳍和一根根长鳍条。",
+  "description": "翱翔蓑鲉身上有红褐色与浅色相间的条带，胸鳍展开时像两把扇子，背上竖着长鳍棘。它在礁区游动，捕食小鱼和甲壳动物。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "展开的胸鳍",
+      "body": "身体两侧的胸鳍展开，形成宽宽的扇面。沿着扇面找找一根根鳍条。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "相间的条带",
+      "body": "从头部到身体，看看深浅相间的条带；尾鳍和部分软鳍上还有小斑点。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "背上的长鳍棘",
+      "body": "背鳍的长棘向上伸出，其中有能注入毒液的棘。观看时保持距离，不用手碰。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "岩石下方休息",
+      "body": "翱翔蓑鲉会在岩檐或缝隙旁停留，利用礁体提供的遮蔽。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "在礁区游动",
+      "body": "它在海水中游动和悬停。名字里的“翱翔”不表示它能像鸟一样在空中飞。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保护原生礁区，不把水族箱里的鱼放入野外；本种在西大西洋的扩散会影响当地生态。"
+    }
+  ],
+  "keyFacts": [
+    "身体两侧的胸鳍展开，形成宽宽的扇面。沿着扇面找找一根根鳍条。",
+    "从头部到身体，看看深浅相间的条带；尾鳍和部分软鳍上还有小斑点。",
+    "背鳍的长棘向上伸出，其中有能注入毒液的棘。观看时保持距离，不用手碰。",
+    "翱翔蓑鲉会在岩檐或缝隙旁停留，利用礁体提供的遮蔽。",
+    "它在海水中游动和悬停。名字里的“翱翔”不表示它能像鸟一样在空中飞。"
+  ],
+  "threats": [
+    "原生礁区栖息地退化等潜在压力，未量化本种全球影响"
+  ],
+  "conservationActions": [
+    "保护原生礁区，不把水族箱里的鱼放入野外；本种在西大西洋的扩散会影响当地生态。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "展开的胸鳍"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "珊瑚礁与岩礁"
+    }
+  ],
+  "media": {
+    "image": "./images/species/red-lionfish/01-cover.webp",
+    "alt": "翱翔蓑鲉在珊瑚礁与岩礁中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/red-lionfish/02-observation.webp",
+        "title": "展开的胸鳍",
+        "alt": "翱翔蓑鲉：展开的胸鳍",
+        "caption": "AI 生成科学情景重建。身体两侧的胸鳍展开，形成宽宽的扇面。沿着扇面找找一根根鳍条。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-lionfish/03-observation.webp",
+        "title": "相间的条带",
+        "alt": "翱翔蓑鲉：相间的条带",
+        "caption": "AI 生成科学情景重建。从头部到身体，看看深浅相间的条带；尾鳍和部分软鳍上还有小斑点。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-lionfish/04-observation.webp",
+        "title": "背上的长鳍棘",
+        "alt": "翱翔蓑鲉：背上的长鳍棘",
+        "caption": "AI 生成科学情景重建。背鳍的长棘向上伸出，其中有能注入毒液的棘。观看时保持距离，不用手碰。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-lionfish/05-observation.webp",
+        "title": "岩石下方休息",
+        "alt": "翱翔蓑鲉：岩石下方休息",
+        "caption": "AI 生成科学情景重建。翱翔蓑鲉会在岩檐或缝隙旁停留，利用礁体提供的遮蔽。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-lionfish/06-observation.webp",
+        "title": "在礁区游动",
+        "alt": "翱翔蓑鲉：在礁区游动",
+        "caption": "AI 生成科学情景重建。它在海水中游动和悬停。名字里的“翱翔”不表示它能像鸟一样在空中飞。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "佛罗里达自然历史博物馆：翱翔蓑鲉分类与自然史",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/red-lionfish/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "史密森尼热带研究所：Pterois volitans",
+      "url": "https://biogeodb.stri.si.edu/caribbean/en/thefishes/species/4640",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "FishBase：全球 LC 与 2015-03-03 评估日期",
+      "url": "https://www.fishbase.org/Summary/SpeciesSummary.cfm?genusname=Pterois&speciesname=volitans",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "佛罗里达博物馆：西大西洋引入影响",
+      "url": "https://www.floridamuseum.ufl.edu/100-years/object/pacific-red-lionfish/",
+      "kind": "distribution",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "red-mason-bee",
+  "slug": "red-mason-bee",
+  "names": {
+    "zh": "红壁蜂",
+    "en": "Red Mason Bee"
+  },
+  "scientificName": "Osmia bicornis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Hymenoptera",
+      "zhName": "膜翅目"
+    },
+    "family": {
+      "scientificName": "Megachilidae",
+      "zhName": "切叶蜂科"
+    },
+    "genus": {
+      "scientificName": "Osmia",
+      "zhName": "壁蜂属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "仅核实欧洲区域 LC，未取得全球评估证据；全球字段暂保留 NE，不把区域等级当作全球等级。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲",
+      "亚洲",
+      "非洲"
+    ],
+    "regions": [
+      "欧洲花园与林缘"
+    ],
+    "countries": [],
+    "range": "分布于古北界多个地区，欧洲的花园、公园和林缘常有记录；这里展示欧洲春季活动场景，不把英国资料视为完整全球范围。"
+  },
+  "habitats": [
+    {
+      "name": "有花与孔洞的花园、林缘",
+      "realm": "terrestrial",
+      "description": "分布于古北界多个地区，欧洲的花园、公园和林缘常有记录；这里展示欧洲春季活动场景，不把英国资料视为完整全球范围。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "nectarivore",
+      "herbivore"
+    ],
+    "foods": [
+      "花蜜",
+      "花粉"
+    ],
+    "description": "食物包括花蜜、花粉。"
+  },
+  "tags": [
+    "红壁蜂",
+    "用泥封住洞口"
+  ],
+  "summary": "看看雌蜂怎样用泥把小洞口封起来。",
+  "description": "红壁蜂身上长着姜黄色至锈红色的毛。每只雌蜂各自筑巢，利用空心植物茎或其他孔洞，用泥把巢分成小室，为幼虫准备花粉和花蜜。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "用泥封住洞口",
+      "body": "雌蜂把泥团带回巢，用来筑隔墙和封口。图中的空心茎可作大小参照，放大画面不代表真实体长。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "到花上找食物",
+      "body": "红壁蜂会拜访苹果等植物的花，取食花蜜并收集花粉。看花朵与蜂的大小关系。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "带回一小团泥",
+      "body": "雌蜂用口器搬运泥团，脸上的一对突起能帮助整理泥墙。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "借用现成的小孔",
+      "body": "雌蜂会利用空心茎和木头里的孔洞，每个巢室里放一枚卵和供幼虫吃的食物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "身上的红褐色毛",
+      "body": "看看腹部的红褐色毛和背上折起的翅膀。雄蜂通常更小，脸上有浅色毛；本组画的是雌蜂。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "保留生活的地方",
+      "body": "保留花源和可供筑巢的枯茎，观察蜂巢时不拆开泥封。"
+    }
+  ],
+  "keyFacts": [
+    "雌蜂把泥团带回巢，用来筑隔墙和封口。图中的空心茎可作大小参照，放大画面不代表真实体长。",
+    "红壁蜂会拜访苹果等植物的花，取食花蜜并收集花粉。看花朵与蜂的大小关系。",
+    "雌蜂用口器搬运泥团，脸上的一对突起能帮助整理泥墙。",
+    "雌蜂会利用空心茎和木头里的孔洞，每个巢室里放一枚卵和供幼虫吃的食物。",
+    "看看腹部的红褐色毛和背上折起的翅膀。雄蜂通常更小，脸上有浅色毛；本组画的是雌蜂。"
+  ],
+  "threats": [
+    "花源与筑巢孔洞减少",
+    "农药暴露等潜在压力"
+  ],
+  "conservationActions": [
+    "保留花源和可供筑巢的枯茎，观察蜂巢时不拆开泥封。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "用泥封住洞口"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "有花与孔洞的花园、林缘"
+    }
+  ],
+  "media": {
+    "image": "./images/species/red-mason-bee/01-cover.webp",
+    "alt": "红壁蜂在有花与孔洞的花园、林缘中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/red-mason-bee/02-observation.webp",
+        "title": "用泥封住洞口",
+        "alt": "红壁蜂：用泥封住洞口",
+        "caption": "AI 生成科学情景重建。雌蜂把泥团带回巢，用来筑隔墙和封口。图中的空心茎可作大小参照，放大画面不代表真实体长。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-mason-bee/03-observation.webp",
+        "title": "到花上找食物",
+        "alt": "红壁蜂：到花上找食物",
+        "caption": "AI 生成科学情景重建。红壁蜂会拜访苹果等植物的花，取食花蜜并收集花粉。看花朵与蜂的大小关系。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-mason-bee/04-observation.webp",
+        "title": "带回一小团泥",
+        "alt": "红壁蜂：带回一小团泥",
+        "caption": "AI 生成科学情景重建。雌蜂用口器搬运泥团，脸上的一对突起能帮助整理泥墙。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-mason-bee/05-observation.webp",
+        "title": "借用现成的小孔",
+        "alt": "红壁蜂：借用现成的小孔",
+        "caption": "AI 生成科学情景重建。雌蜂会利用空心茎和木头里的孔洞，每个巢室里放一枚卵和供幼虫吃的食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-mason-bee/06-observation.webp",
+        "title": "身上的红褐色毛",
+        "alt": "红壁蜂：身上的红褐色毛",
+        "caption": "AI 生成科学情景重建。看看腹部的红褐色毛和背上折起的翅膀。雄蜂通常更小，脸上有浅色毛；本组画的是雌蜂。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "BWARS：红壁蜂分类、分布与筑巢",
+      "url": "https://bwars.com/bee/megachilidae/osmia-bicornis",
+      "kind": "ecology",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "ITIS：Osmia bicornis 接受名",
+      "url": "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=767827",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "IUCN 欧洲蜂类红色名录：欧洲区域 LC",
+      "url": "https://portals.iucn.org/library/sites/library/files/documents/RL-4-019.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "IUCN UK：红壁蜂生活史与识别",
+      "url": "https://www.iucn-uk-peatlandprogramme.org/wildlife-explorer/bees-and-wasps/red-mason-bee",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

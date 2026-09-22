@@ -3500,5 +3500,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1487,
       "bottom": 949
     }
+  },
+  "numbat": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 257,
+      "right": 1463,
+      "bottom": 725
+    }
+  },
+  "burrowing-owl": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 824,
+      "top": 85,
+      "right": 1275,
+      "bottom": 918
+    }
+  },
+  "satanic-leaf-tailed-gecko": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 757,
+      "top": 94,
+      "right": 1441,
+      "bottom": 960
+    }
+  },
+  "red-lionfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 720,
+      "top": 44,
+      "right": 1525,
+      "bottom": 895
+    }
+  },
+  "red-mason-bee": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 283,
+      "right": 1395,
+      "bottom": 824
+    }
   }
 };
