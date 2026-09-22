@@ -2728,5 +2728,18 @@
       },
       "sha256": "7eb043f8b1ef91386566a85691d0af94b7f52c774599faf2ef25c61941a3b271"
     }
+  },
+  "king-ragworm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 692,
+        "top": 91,
+        "right": 1470,
+        "bottom": 949
+      },
+      "sha256": "80c431f9a537b489af27fd89966085156716ce4657984abab91536603172072b"
+    }
   }
 }

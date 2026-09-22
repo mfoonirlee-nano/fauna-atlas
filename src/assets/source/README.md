@@ -567,3 +567,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Great Diving Beetle image set](./species/great-diving-beetle/README.md)
 - [European Earwig image set](./species/european-earwig/README.md)
 - [Pacific Cleaner Shrimp image set](./species/scarlet-cleaner-shrimp/README.md)
+- [King Ragworm image set](./species/king-ragworm/README.md)

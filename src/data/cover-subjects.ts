@@ -3841,4 +3841,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 824
     }
   },
+  "king-ragworm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 692,
+      "top": 91,
+      "right": 1470,
+      "bottom": 949
+    }
+  },
 };
