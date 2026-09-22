@@ -1,0 +1,31 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ploceus cucullatus, Village Weaver. Anatomy: breeding male village weaver, yellow body, black head and throat, red iris, strong black conical beak, yellow black patterned back. Setting: sub-Saharan African tree branches. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ploceus cucullatus, Village Weaver. Anatomy: breeding male village weaver, yellow body, black head and throat, red iris, strong black conical beak, yellow black patterned back. Setting: sub-Saharan African tree branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: male weaving a green grass strip into an incomplete hanging woven nest. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ploceus cucullatus, Village Weaver. Anatomy: breeding male village weaver, yellow body, black head and throat, red iris, strong black conical beak, yellow black patterned back. Setting: sub-Saharan African tree branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: one completed woven grass nest hanging from thin branch with downward entrance, male nearby. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ploceus cucullatus, Village Weaver. Anatomy: breeding male village weaver, yellow body, black head and throat, red iris, strong black conical beak, yellow black patterned back. Setting: sub-Saharan African tree branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: wide tree canopy scene with a modest colony of hanging grass nests and several weavers. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ploceus cucullatus, Village Weaver. Anatomy: breeding male village weaver, yellow body, black head and throat, red iris, strong black conical beak, yellow black patterned back. Setting: sub-Saharan African tree branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: male picking small natural grass seeds from seed head. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Create NEW landscape 1536x1024 naturalistic scientific wildlife photograph reconstruction. ONE ADULT FEMALE village weaver Ploceus cucullatus alone perched on branch. Olive yellow head with pale yellow eyebrow, yellowish pale breast, streaked dark brown back and wings, pale horn conical bill. BOTH EYES have clear reddish-orange irises around dark pupil, NOT brown black eyes. No black male head. No male bird. African woodland background. No text.",
+      "previousPrompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ploceus cucullatus, Village Weaver. Anatomy: breeding male village weaver, yellow body, black head and throat, red iris, strong black conical beak, yellow black patterned back. Setting: sub-Saharan African tree branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: adult female village weaver olive yellow plumage streaked brown back pale bill, no male black head. Clear readable educational scene. Anatomically correct and uncluttered."
+    }
+  ]
+}
