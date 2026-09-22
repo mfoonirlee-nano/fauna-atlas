@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "sacred-scarab",
+    "n": 1,
+    "prompt": "Edit this Fauna Atlas wildlife cover. Preserve species identity and photographic realism. Recompose animal entirely in RIGHT HALF: every visible extremity, beak, antenna, foot, long tail tip, or sponge lobe must lie between x=700 and x=1470 on 1536-wide landscape canvas. Leftmost 45% is empty quiet habitat background. Subject center around x=1100. Keep animal large within that box, no cropping of any visible extremity, 50 px minimum edge margin. ",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-d14f43d1-2b5f-4b48-a286-aa6163023bdb.png",
+    "temporarySource": "src/assets/source/species/sacred-scarab/01-cover-source.png"
+  },
+  {
+    "slug": "sacred-scarab",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Scarabaeus sacer. Accurate identification: black sacred scarab beetle on sandy ground, six legs, toothed fore tibiae and head margin, no horn, natural sand grain scale context. Requested scene: pushing a dung ball backwards using hind legs, head down forelegs on ground. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-0a706d3d-31a3-42f1-a291-f92b7e153d80.png",
+    "temporarySource": "src/assets/source/species/sacred-scarab/02-observation-source.png"
+  },
+  {
+    "slug": "sacred-scarab",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Scarabaeus sacer. Accurate identification: black sacred scarab beetle on sandy ground, six legs, toothed fore tibiae and head margin, no horn, natural sand grain scale context. Requested scene: close head and digging fore tibiae, no horns. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-cad764c4-3f55-4a97-94fc-49bc696744a3.png",
+    "temporarySource": "src/assets/source/species/sacred-scarab/03-observation-source.png"
+  },
+  {
+    "slug": "sacred-scarab",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Scarabaeus sacer. Accurate identification: black sacred scarab beetle on sandy ground, six legs, toothed fore tibiae and head margin, no horn, natural sand grain scale context. Requested scene: walking on sandy soil beside dry grass blade. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-f27143e3-0d0b-4988-b2bf-4a514d93cc7f.png",
+    "temporarySource": "src/assets/source/species/sacred-scarab/04-observation-source.png"
+  },
+  {
+    "slug": "sacred-scarab",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Scarabaeus sacer. Accurate identification: black sacred scarab beetle on sandy ground, six legs, toothed fore tibiae and head margin, no horn, natural sand grain scale context. Requested scene: partly burying dung ball in shallow sandy hole. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-6a9f3553-72c4-44c7-b466-f1428e482570.png",
+    "temporarySource": "src/assets/source/species/sacred-scarab/05-observation-source.png"
+  },
+  {
+    "slug": "sacred-scarab",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Scarabaeus sacer. Accurate identification: black sacred scarab beetle on sandy ground, six legs, toothed fore tibiae and head margin, no horn, natural sand grain scale context. Requested scene: dorsal view showing black wing cases and six legs. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-ed845833-7e0f-41b3-8d59-22d84d62fed5.png",
+    "temporarySource": "src/assets/source/species/sacred-scarab/06-observation-source.png"
+  }
+]

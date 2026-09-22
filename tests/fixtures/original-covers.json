@@ -2481,5 +2481,135 @@
       },
       "sha256": "7b6e0e8d4074aef6eb39439555ce648bf59292edb82b65215aad9463d0635f0b"
     }
+  },
+  "muskox": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 694,
+        "top": 77,
+        "right": 1470,
+        "bottom": 890
+      },
+      "sha256": "56a9f3169d64643574f0775be3f54595a1c272a0a253908ef09de49810cba4f5"
+    }
+  },
+  "dromedary": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 754,
+        "top": 108,
+        "right": 1477,
+        "bottom": 942
+      },
+      "sha256": "de4cf0dfb2d0477af47ebc9efbc24b4074757957d5fad308d903c62dcee7e59a"
+    }
+  },
+  "magnificent-bird-of-paradise": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 706,
+        "top": 157,
+        "right": 1455,
+        "bottom": 929
+      },
+      "sha256": "0bc82abd162e7e51849090df8ba364813e14209b76c12e31a631847df296ddae"
+    }
+  },
+  "north-island-brown-kiwi": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 68,
+        "right": 1491,
+        "bottom": 805
+      },
+      "sha256": "5dfd7a80dbb809ae5a4b90a48819fdec77bfac6f97c7923dc3631fec7d63f515"
+    }
+  },
+  "common-flying-dragon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 67,
+        "right": 1259,
+        "bottom": 1006
+      },
+      "sha256": "27143c080821b7dd1df1135671f5ac25807fd558537ab429172a5f511b5a7d04"
+    }
+  },
+  "common-thresher-shark": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 618,
+        "top": 115,
+        "right": 1508,
+        "bottom": 773
+      },
+      "sha256": "463d1aef15d0de1df67c58ab4b53e1c93ab8fbc9e1c7d632ea4ab3eb063608a1"
+    }
+  },
+  "sacred-scarab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 684,
+        "top": 232,
+        "right": 1516,
+        "bottom": 823
+      },
+      "sha256": "1b6548000e9bcd6bf48ee4c7105cbc0013fb767a183574e5a45c07c6fc123f23"
+    }
+  },
+  "common-pond-skater": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 648,
+        "top": 136,
+        "right": 1468,
+        "bottom": 886
+      },
+      "sha256": "393cf53e1cc59ccc2336854fd2ac18ef1d3bf737442ac34f1af33f8e1bd8e64f"
+    }
+  },
+  "christmas-tree-worm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 618,
+        "top": 125,
+        "right": 1509,
+        "bottom": 757
+      },
+      "sha256": "d67dd202dc46cb987f9e76cbf795949acf88a980f5cfd558741d0296caec38b6"
+    }
+  },
+  "bath-sponge": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 651,
+        "top": 65,
+        "right": 1516,
+        "bottom": 934
+      },
+      "sha256": "ffb3199a3984be55b00c4096130edf651899bc6fd6fb412df311cab814e9a385"
+    }
   }
 }

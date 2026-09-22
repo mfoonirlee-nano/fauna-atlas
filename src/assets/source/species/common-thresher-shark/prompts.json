@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "common-thresher-shark",
+    "n": 1,
+    "prompt": "Edit this Fauna Atlas wildlife cover. Preserve species identity and photographic realism. Recompose animal entirely in RIGHT HALF: every visible extremity, beak, antenna, foot, long tail tip, or sponge lobe must lie between x=700 and x=1470 on 1536-wide landscape canvas. Leftmost 45% is empty quiet habitat background. Subject center around x=1100. Keep animal large within that box, no cropping of any visible extremity, 50 px minimum edge margin. ",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-59bbc872-4977-404b-974b-af0ce2800df0.png",
+    "temporarySource": "src/assets/source/species/common-thresher-shark/01-cover-source.png"
+  },
+  {
+    "slug": "common-thresher-shark",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Alopias vulpinus. Accurate identification: common thresher shark in blue ocean, pointed snout, modest eyes, grey back white belly, upper tail lobe as long as body, correct fins. Requested scene: side profile showing entire exceptionally long upper tail lobe. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-ae9f9200-bbca-4d60-8371-ece1af32c32c.png",
+    "temporarySource": "src/assets/source/species/common-thresher-shark/02-observation-source.png"
+  },
+  {
+    "slug": "common-thresher-shark",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Alopias vulpinus. Accurate identification: common thresher shark in blue ocean, pointed snout, modest eyes, grey back white belly, upper tail lobe as long as body, correct fins. Requested scene: three-quarter front view showing pointed snout and modest eyes. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-f7563bfe-b0b7-41a2-b369-901addae7a7c.png",
+    "temporarySource": "src/assets/source/species/common-thresher-shark/03-observation-source.png"
+  },
+  {
+    "slug": "common-thresher-shark",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Alopias vulpinus. Accurate identification: common thresher shark in blue ocean, pointed snout, modest eyes, grey back white belly, upper tail lobe as long as body, correct fins. Requested scene: swimming with a loose school of small fish nearby, no attack. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-c24bd327-8dcb-4c5a-a3e4-7679cacc8164.png",
+    "temporarySource": "src/assets/source/species/common-thresher-shark/04-observation-source.png"
+  },
+  {
+    "slug": "common-thresher-shark",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Alopias vulpinus. Accurate identification: common thresher shark in blue ocean, pointed snout, modest eyes, grey back white belly, upper tail lobe as long as body, correct fins. Requested scene: low-angle view of white belly and pectoral fins. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-4d46c17a-e35f-4cfd-8e0d-553613312f25.png",
+    "temporarySource": "src/assets/source/species/common-thresher-shark/05-observation-source.png"
+  },
+  {
+    "slug": "common-thresher-shark",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Alopias vulpinus. Accurate identification: common thresher shark in blue ocean, pointed snout, modest eyes, grey back white belly, upper tail lobe as long as body, correct fins. Requested scene: distant full body in open blue water, entire long tail visible. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-c23b6a05-6445-4895-b255-a50a4e3ee4d2.png",
+    "temporarySource": "src/assets/source/species/common-thresher-shark/06-observation-source.png"
+  }
+]

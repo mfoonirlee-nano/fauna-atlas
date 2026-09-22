@@ -3650,5 +3650,105 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1468,
       "bottom": 978
     }
-  }
+  },
+  "muskox": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 694,
+      "top": 77,
+      "right": 1470,
+      "bottom": 890
+    }
+  },
+  "dromedary": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 754,
+      "top": 108,
+      "right": 1477,
+      "bottom": 942
+    }
+  },
+  "magnificent-bird-of-paradise": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 706,
+      "top": 157,
+      "right": 1455,
+      "bottom": 929
+    }
+  },
+  "north-island-brown-kiwi": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 68,
+      "right": 1491,
+      "bottom": 805
+    }
+  },
+  "common-flying-dragon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 67,
+      "right": 1259,
+      "bottom": 1006
+    }
+  },
+  "common-thresher-shark": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 618,
+      "top": 115,
+      "right": 1508,
+      "bottom": 773
+    }
+  },
+  "sacred-scarab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 684,
+      "top": 232,
+      "right": 1516,
+      "bottom": 823
+    }
+  },
+  "common-pond-skater": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 648,
+      "top": 136,
+      "right": 1468,
+      "bottom": 886
+    }
+  },
+  "christmas-tree-worm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 618,
+      "top": 125,
+      "right": 1509,
+      "bottom": 757
+    }
+  },
+  "bath-sponge": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 651,
+      "top": 65,
+      "right": 1516,
+      "bottom": 934
+    }
+  },
 };

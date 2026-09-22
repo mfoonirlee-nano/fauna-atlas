@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "common-pond-skater",
+    "n": 1,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas cover 1536x1024 landscape. Gerris lacustris: one common pond skater insect on calm freshwater pond surface, slender dark brown body, exactly six legs: short pair of forelegs near head and four very long spread middle/hind legs making shallow surface dimples; two thin antennae, macro with duckweed for context. Scientific natural-history reconstruction. Full primary animal or visible sessile crown entirely inside frame with real background margin, large subject on right with silhouette restricted to x=650..1470 and y=60..960, center about 72% width. Quiet left 40% for title. All feet, bill, tail tips and antennae within frame. No text, no watermark, no montage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-d46c0e47-241d-4813-aa5a-74c91010e4aa.png",
+    "temporarySource": "src/assets/source/species/common-pond-skater/01-cover-source.png"
+  },
+  {
+    "slug": "common-pond-skater",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Gerris lacustris. Accurate identification: slender brown-black pond skater on water, six legs: two short forelegs, four very long middle and hindlegs, two antennae, surface dimples, duckweed scale context. Requested scene: top view six legs arranged on water, four long supporting legs and two short front legs. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-e386ad13-487a-460c-92f7-ab63e8363610.png",
+    "temporarySource": "src/assets/source/species/common-pond-skater/02-observation-source.png"
+  },
+  {
+    "slug": "common-pond-skater",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Gerris lacustris. Accurate identification: slender brown-black pond skater on water, six legs: two short forelegs, four very long middle and hindlegs, two antennae, surface dimples, duckweed scale context. Requested scene: low side view surface tension dimples under long legs. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-8ce7b118-e379-4b6d-8962-0b1dba1b967a.png",
+    "temporarySource": "src/assets/source/species/common-pond-skater/03-observation-source.png"
+  },
+  {
+    "slug": "common-pond-skater",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Gerris lacustris. Accurate identification: slender brown-black pond skater on water, six legs: two short forelegs, four very long middle and hindlegs, two antennae, surface dimples, duckweed scale context. Requested scene: resting on water beside a duckweed leaf, scale context. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-1b939804-5ebd-4726-84dd-7a3ce0d4f562.png",
+    "temporarySource": "src/assets/source/species/common-pond-skater/04-observation-source.png"
+  },
+  {
+    "slug": "common-pond-skater",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Gerris lacustris. Accurate identification: slender brown-black pond skater on water, six legs: two short forelegs, four very long middle and hindlegs, two antennae, surface dimples, duckweed scale context. Requested scene: holding tiny fallen fly with short front legs on water, no gore. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-cc0e78ce-0136-47d1-8a12-63220ff9ef36.png",
+    "temporarySource": "src/assets/source/species/common-pond-skater/05-observation-source.png"
+  },
+  {
+    "slug": "common-pond-skater",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Gerris lacustris. Accurate identification: slender brown-black pond skater on water, six legs: two short forelegs, four very long middle and hindlegs, two antennae, surface dimples, duckweed scale context. Requested scene: wide pond-edge view one pond skater with reeds reflected. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-3c62f676-f34e-4cf7-80c5-252d2a02cdd8.png",
+    "temporarySource": "src/assets/source/species/common-pond-skater/06-observation-source.png"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "north-island-brown-kiwi",
+    "n": 1,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas cover 1536x1024 landscape. Apteryx mantelli: one North Island brown kiwi walking on New Zealand forest floor, shaggy brown feathers, very long slender pale bill, stout legs, no visible wings or tail. Scientific natural-history reconstruction. Full primary animal or visible sessile crown entirely inside frame with real background margin, large subject on right with silhouette restricted to x=650..1470 and y=60..960, center about 72% width. Quiet left 40% for title. All feet, bill, tail tips and antennae within frame. No text, no watermark, no montage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-c5802ade-3a87-4067-b60d-5b3e6638d6b3.png",
+    "temporarySource": "src/assets/source/species/north-island-brown-kiwi/01-cover-source.png"
+  },
+  {
+    "slug": "north-island-brown-kiwi",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Apteryx mantelli. Accurate identification: North Island brown kiwi on forest floor, shaggy brown feathers, long slender pale bill, stout legs, no visible wings or tail. Requested scene: side profile full bill in view. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-a212170f-5a15-4cb1-b8b1-031eea9611b8.png",
+    "temporarySource": "src/assets/source/species/north-island-brown-kiwi/02-observation-source.png"
+  },
+  {
+    "slug": "north-island-brown-kiwi",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Apteryx mantelli. Accurate identification: North Island brown kiwi on forest floor, shaggy brown feathers, long slender pale bill, stout legs, no visible wings or tail. Requested scene: probing moist leaf litter with bill tip. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-458eeb1b-09c4-4ed5-8692-267cdfdd5425.png",
+    "temporarySource": "src/assets/source/species/north-island-brown-kiwi/03-observation-source.png"
+  },
+  {
+    "slug": "north-island-brown-kiwi",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Apteryx mantelli. Accurate identification: North Island brown kiwi on forest floor, shaggy brown feathers, long slender pale bill, stout legs, no visible wings or tail. Requested scene: close head portrait with nostrils near bill tip. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-09222514-0648-4754-a873-92544c672af0.png",
+    "temporarySource": "src/assets/source/species/north-island-brown-kiwi/04-observation-source.png"
+  },
+  {
+    "slug": "north-island-brown-kiwi",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Apteryx mantelli. Accurate identification: North Island brown kiwi on forest floor, shaggy brown feathers, long slender pale bill, stout legs, no visible wings or tail. Requested scene: walking among fern roots, full stout legs visible. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-531e07db-38d6-40cd-8219-77dc5e27dfe7.png",
+    "temporarySource": "src/assets/source/species/north-island-brown-kiwi/05-observation-source.png"
+  },
+  {
+    "slug": "north-island-brown-kiwi",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Apteryx mantelli. Accurate identification: North Island brown kiwi on forest floor, shaggy brown feathers, long slender pale bill, stout legs, no visible wings or tail. Requested scene: resting at entrance of sheltered burrow in forest floor. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-819ddebb-4df7-44ae-a133-b91ccf9fe579.png",
+    "temporarySource": "src/assets/source/species/north-island-brown-kiwi/06-observation-source.png"
+  }
+]

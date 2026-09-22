@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "bath-sponge",
+    "n": 1,
+    "prompt": "Edit this Fauna Atlas wildlife cover. Preserve species identity and photographic realism. Recompose animal entirely in RIGHT HALF: every visible extremity, beak, antenna, foot, long tail tip, or sponge lobe must lie between x=700 and x=1470 on 1536-wide landscape canvas. Leftmost 45% is empty quiet habitat background. Subject center around x=1100. Keep animal large within that box, no cropping of any visible extremity, 50 px minimum edge margin. Living Spongia officinalis surface has very fine tiny pores and low conules, not large honeycomb cavities. Large oscula have pale rims.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-b2c958cf-7ca4-48c1-bde2-ae52e1dd6c8c.png",
+    "temporarySource": "src/assets/source/species/bath-sponge/01-cover-source.png"
+  },
+  {
+    "slug": "bath-sponge",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spongia officinalis. Accurate identification: living Mediterranean bath sponge attached to rock, dark grey-brown lobed mass with fine pores and several round oscula with pale rims, no eyes, not a kitchen sponge. Requested scene: close porous dark living surface and one large osculum. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-b0dee390-561f-4909-a10f-03dbdcb915a9.png",
+    "temporarySource": "src/assets/source/species/bath-sponge/02-observation-source.png"
+  },
+  {
+    "slug": "bath-sponge",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spongia officinalis. Accurate identification: living Mediterranean bath sponge attached to rock, dark grey-brown lobed mass with fine pores and several round oscula with pale rims, no eyes, not a kitchen sponge. Requested scene: side view sponge attached at base to rock. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-de1c7fc3-8e20-4d9e-97fd-712c894a28be.png",
+    "temporarySource": "src/assets/source/species/bath-sponge/03-observation-source.png"
+  },
+  {
+    "slug": "bath-sponge",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spongia officinalis. Accurate identification: living Mediterranean bath sponge attached to rock, dark grey-brown lobed mass with fine pores and several round oscula with pale rims, no eyes, not a kitchen sponge. Requested scene: top view irregular lobes and large oscula. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-047215ea-4910-4806-a8f2-bc90bad28534.png",
+    "temporarySource": "src/assets/source/species/bath-sponge/04-observation-source.png"
+  },
+  {
+    "slug": "bath-sponge",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spongia officinalis. Accurate identification: living Mediterranean bath sponge attached to rock, dark grey-brown lobed mass with fine pores and several round oscula with pale rims, no eyes, not a kitchen sponge. Requested scene: wider Mediterranean rocky seabed with one dark sponge. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-cf728d23-cf62-4466-a8db-1e198db1d43b.png",
+    "temporarySource": "src/assets/source/species/bath-sponge/05-observation-source.png"
+  },
+  {
+    "slug": "bath-sponge",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spongia officinalis. Accurate identification: living Mediterranean bath sponge attached to rock, dark grey-brown lobed mass with fine pores and several round oscula with pale rims, no eyes, not a kitchen sponge. Requested scene: oblique close view fine surface pores, no cutaway or invented internal anatomy. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-0f7511d5-dde7-4460-870e-5ab1102f3def.png",
+    "temporarySource": "src/assets/source/species/bath-sponge/06-observation-source.png"
+  }
+]

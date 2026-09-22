@@ -105925,6 +105925,2274 @@ export const species = [
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22"
 },
+{
+  "id": "muskox",
+  "slug": "muskox",
+  "names": {
+    "zh": "麝牛",
+    "en": "Muskox"
+  },
+  "scientificName": "Ovibos moschatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Artiodactyla",
+      "zhName": "偶蹄目"
+    },
+    "family": {
+      "scientificName": "Bovidae",
+      "zhName": "牛科"
+    },
+    "genus": {
+      "scientificName": "Ovibos",
+      "zhName": "麝牛属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列来源的全球等级；未填未经核验的评估年份。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "加拿大、格陵兰及阿拉斯加等再引入地区"
+    ],
+    "countries": [],
+    "range": "加拿大、格陵兰及阿拉斯加等再引入地区。"
+  },
+  "habitats": [
+    {
+      "name": "北极苔原",
+      "realm": "terrestrial",
+      "description": "北极苔原中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "莎草",
+      "草",
+      "灌木枝叶"
+    ],
+    "description": "食物包括莎草、草、灌木枝叶。"
+  },
+  "tags": [
+    "麝牛",
+    "垂到腿旁的长毛"
+  ],
+  "summary": "看看长毛怎样垂到腿旁边。",
+  "description": "麝牛生活在北极苔原。看看长毛怎样垂到腿旁边。外层长毛遮挡风雪，内层绒毛帮助保暖。短腿支撑着厚实的身体。冬天，麝牛会寻找积雪较浅处的植物。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "垂到腿旁的长毛",
+      "body": "看看长毛怎样垂到腿旁边。外层长毛遮挡风雪，内层绒毛帮助保暖。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "弯弯的角",
+      "body": "角从头顶向两侧弯下，再朝上翘起。雌雄都有角，成年雄性的角基更厚。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "低头吃草",
+      "body": "夏季，麝牛在苔原低头吃草和莎草，也吃灌木枝叶。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "跟着妈妈",
+      "body": "小麝牛出生后不久就能站立，随后跟着妈妈，吃奶并获得保护。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "雪地里的短腿",
+      "body": "短腿支撑着厚实的身体。冬天，麝牛会寻找积雪较浅处的植物。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "远距离观察麝牛，让带幼仔的兽群保持安静。"
+    }
+  ],
+  "keyFacts": [
+    "看看长毛怎样垂到腿旁边。外层长毛遮挡风雪，内层绒毛帮助保暖。",
+    "角从头顶向两侧弯下，再朝上翘起。雌雄都有角，成年雄性的角基更厚。",
+    "夏季，麝牛在苔原低头吃草和莎草，也吃灌木枝叶。",
+    "小麝牛出生后不久就能站立，随后跟着妈妈，吃奶并获得保护。",
+    "短腿支撑着厚实的身体。冬天，麝牛会寻找积雪较浅处的植物。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "远距离观察麝牛，让带幼仔的兽群保持安静。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "垂到腿旁的长毛"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "北极苔原"
+    }
+  ],
+  "media": {
+    "image": "./images/species/muskox/01-cover.webp",
+    "alt": "麝牛在北极苔原中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/muskox/02-observation.webp",
+        "title": "垂到腿旁的长毛",
+        "alt": "麝牛：垂到腿旁的长毛",
+        "caption": "AI 生成科学情景重建。看看长毛怎样垂到腿旁边。外层长毛遮挡风雪，内层绒毛帮助保暖。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/muskox/03-observation.webp",
+        "title": "弯弯的角",
+        "alt": "麝牛：弯弯的角",
+        "caption": "AI 生成科学情景重建。角从头顶向两侧弯下，再朝上翘起。雌雄都有角，成年雄性的角基更厚。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/muskox/04-observation.webp",
+        "title": "低头吃草",
+        "alt": "麝牛：低头吃草",
+        "caption": "AI 生成科学情景重建。夏季，麝牛在苔原低头吃草和莎草，也吃灌木枝叶。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/muskox/05-observation.webp",
+        "title": "跟着妈妈",
+        "alt": "麝牛：跟着妈妈",
+        "caption": "AI 生成科学情景重建。小麝牛出生后不久就能站立，随后跟着妈妈，吃奶并获得保护。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/muskox/06-observation.webp",
+        "title": "雪地里的短腿",
+        "alt": "麝牛：雪地里的短腿",
+        "caption": "AI 生成科学情景重建。短腿支撑着厚实的身体。冬天，麝牛会寻找积雪较浅处的植物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "animaldiversity.org：Ovibos moschatus",
+      "url": "https://animaldiversity.org/accounts/Ovibos_moschatus/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "dromedary",
+  "slug": "dromedary",
+  "names": {
+    "zh": "单峰驼",
+    "en": "Dromedary"
+  },
+  "scientificName": "Camelus dromedarius",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Artiodactyla",
+      "zhName": "偶蹄目"
+    },
+    "family": {
+      "scientificName": "Camelidae",
+      "zhName": "骆驼科"
+    },
+    "genus": {
+      "scientificName": "Camelus",
+      "zhName": "骆驼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "家养种；不将家养或野化数量解释为野生物种全球等级。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "北非、西亚等地广泛饲养；澳大利亚有引入后形成的野化种群"
+    ],
+    "countries": [],
+    "range": "北非、西亚等地广泛饲养；澳大利亚有引入后形成的野化种群。"
+  },
+  "habitats": [
+    {
+      "name": "干旱草地与沙漠",
+      "realm": "terrestrial",
+      "description": "干旱草地与沙漠中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "草",
+      "灌木叶",
+      "嫩枝"
+    ],
+    "description": "食物包括草、灌木叶、嫩枝。"
+  },
+  "tags": [
+    "单峰驼",
+    "一个驼峰"
+  ],
+  "summary": "数一数背上的驼峰。",
+  "description": "单峰驼生活在干旱草地与沙漠。数一数背上的驼峰。单峰驼只有一个驼峰，里面主要储存脂肪。幼驼吃奶长大，也会跟着母驼行走。今天看到的单峰驼主要是家养动物或野化后代。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "一个驼峰",
+      "body": "数一数背上的驼峰。单峰驼只有一个驼峰，里面主要储存脂肪。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "宽宽的脚",
+      "body": "脚底有宽大的肉垫，两根脚趾在负重时展开，帮助它走过松软的沙地。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "吃灌木",
+      "body": "单峰驼会吃草和灌木，用活动灵活的嘴唇摘取植物。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "跪下休息",
+      "body": "休息时，它把长腿折在身体下面。胸部和腿部的胼胝垫与地面接触。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "跟着大骆驼",
+      "body": "幼驼吃奶长大，也会跟着母驼行走。今天看到的单峰驼主要是家养动物或野化后代。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "观察家养单峰驼时听从饲养员安排，不追赶幼驼。"
+    }
+  ],
+  "keyFacts": [
+    "数一数背上的驼峰。单峰驼只有一个驼峰，里面主要储存脂肪。",
+    "脚底有宽大的肉垫，两根脚趾在负重时展开，帮助它走过松软的沙地。",
+    "单峰驼会吃草和灌木，用活动灵活的嘴唇摘取植物。",
+    "休息时，它把长腿折在身体下面。胸部和腿部的胼胝垫与地面接触。",
+    "幼驼吃奶长大，也会跟着母驼行走。今天看到的单峰驼主要是家养动物或野化后代。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "观察家养单峰驼时听从饲养员安排，不追赶幼驼。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "一个驼峰"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "干旱草地与沙漠"
+    }
+  ],
+  "media": {
+    "image": "./images/species/dromedary/01-cover.webp",
+    "alt": "单峰驼在干旱草地与沙漠中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/dromedary/02-observation.webp",
+        "title": "一个驼峰",
+        "alt": "单峰驼：一个驼峰",
+        "caption": "AI 生成科学情景重建。数一数背上的驼峰。单峰驼只有一个驼峰，里面主要储存脂肪。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/dromedary/03-observation.webp",
+        "title": "宽宽的脚",
+        "alt": "单峰驼：宽宽的脚",
+        "caption": "AI 生成科学情景重建。脚底有宽大的肉垫，两根脚趾在负重时展开，帮助它走过松软的沙地。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/dromedary/04-observation.webp",
+        "title": "吃灌木",
+        "alt": "单峰驼：吃灌木",
+        "caption": "AI 生成科学情景重建。单峰驼会吃草和灌木，用活动灵活的嘴唇摘取植物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/dromedary/05-observation.webp",
+        "title": "跪下休息",
+        "alt": "单峰驼：跪下休息",
+        "caption": "AI 生成科学情景重建。休息时，它把长腿折在身体下面。胸部和腿部的胼胝垫与地面接触。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/dromedary/06-observation.webp",
+        "title": "跟着大骆驼",
+        "alt": "单峰驼：跟着大骆驼",
+        "caption": "AI 生成科学情景重建。幼驼吃奶长大，也会跟着母驼行走。今天看到的单峰驼主要是家养动物或野化后代。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "animaldiversity.org：Camelus dromedarius",
+      "url": "https://animaldiversity.org/accounts/Camelus_dromedarius/",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "www.mammaldiversity.org：Camelus dromedarius",
+      "url": "https://www.mammaldiversity.org/taxon/1006383/",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "magnificent-bird-of-paradise",
+  "slug": "magnificent-bird-of-paradise",
+  "names": {
+    "zh": "华丽极乐鸟",
+    "en": "Magnificent Bird-of-Paradise",
+    "aliases": [
+      "Cicinnurus magnificus"
+    ]
+  },
+  "scientificName": "Diphyllodes magnificus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Passeriformes",
+      "zhName": "雀形目"
+    },
+    "family": {
+      "scientificName": "Paradisaeidae",
+      "zhName": "极乐鸟科"
+    },
+    "genus": {
+      "scientificName": "Diphyllodes",
+      "zhName": "华丽极乐鸟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列来源的全球等级；未填未经核验的评估年份。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "新几内亚及附近岛屿"
+    ],
+    "countries": [],
+    "range": "新几内亚及附近岛屿。"
+  },
+  "habitats": [
+    {
+      "name": "山麓与低山森林",
+      "realm": "terrestrial",
+      "description": "山麓与低山森林中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "果实",
+      "小型动物"
+    ],
+    "description": "食物包括果实、小型动物。"
+  },
+  "tags": [
+    "华丽极乐鸟",
+    "两根弯尾羽"
+  ],
+  "summary": "看看成年雄鸟尾后两根弯弯的长羽毛，光线照到时会反射蓝绿色。",
+  "description": "华丽极乐鸟生活在山麓与低山森林。看看成年雄鸟尾后两根弯弯的长羽毛，光线照到时会反射蓝绿色。华丽极乐鸟吃果实，也会取食小型动物。照片场景中的果实只作取食示意。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "两根弯尾羽",
+      "body": "看看成年雄鸟尾后两根弯弯的长羽毛，光线照到时会反射蓝绿色。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "绿色的胸前",
+      "body": "成年雄鸟胸前有一片绿色羽毛，求偶展示时会竖起。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "黄色披肩",
+      "body": "从侧面找找雄鸟颈后黄色的羽毛和褐色翅膀。雌鸟没有这套鲜艳装饰。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "林地展示场",
+      "body": "雄鸟在林地展示场求偶。这里是展示的地方，不是育雏的巢。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "枝头的食物",
+      "body": "华丽极乐鸟吃果实，也会取食小型动物。照片场景中的果实只作取食示意。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "保护森林，在远处观察求偶场，不采集羽毛或惊扰鸟类。"
+    }
+  ],
+  "keyFacts": [
+    "看看成年雄鸟尾后两根弯弯的长羽毛，光线照到时会反射蓝绿色。",
+    "成年雄鸟胸前有一片绿色羽毛，求偶展示时会竖起。",
+    "从侧面找找雄鸟颈后黄色的羽毛和褐色翅膀。雌鸟没有这套鲜艳装饰。",
+    "雄鸟在林地展示场求偶。这里是展示的地方，不是育雏的巢。",
+    "华丽极乐鸟吃果实，也会取食小型动物。照片场景中的果实只作取食示意。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保护森林，在远处观察求偶场，不采集羽毛或惊扰鸟类。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "两根弯尾羽"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "山麓与低山森林"
+    }
+  ],
+  "media": {
+    "image": "./images/species/magnificent-bird-of-paradise/01-cover.webp",
+    "alt": "华丽极乐鸟在山麓与低山森林中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/magnificent-bird-of-paradise/02-observation.webp",
+        "title": "两根弯尾羽",
+        "alt": "华丽极乐鸟：两根弯尾羽",
+        "caption": "AI 生成科学情景重建。看看成年雄鸟尾后两根弯弯的长羽毛，光线照到时会反射蓝绿色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/magnificent-bird-of-paradise/03-observation.webp",
+        "title": "绿色的胸前",
+        "alt": "华丽极乐鸟：绿色的胸前",
+        "caption": "AI 生成科学情景重建。成年雄鸟胸前有一片绿色羽毛，求偶展示时会竖起。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/magnificent-bird-of-paradise/04-observation.webp",
+        "title": "黄色披肩",
+        "alt": "华丽极乐鸟：黄色披肩",
+        "caption": "AI 生成科学情景重建。从侧面找找雄鸟颈后黄色的羽毛和褐色翅膀。雌鸟没有这套鲜艳装饰。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/magnificent-bird-of-paradise/05-observation.webp",
+        "title": "林地展示场",
+        "alt": "华丽极乐鸟：林地展示场",
+        "caption": "AI 生成科学情景重建。雄鸟在林地展示场求偶。这里是展示的地方，不是育雏的巢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/magnificent-bird-of-paradise/06-observation.webp",
+        "title": "枝头的食物",
+        "alt": "华丽极乐鸟：枝头的食物",
+        "caption": "AI 生成科学情景重建。华丽极乐鸟吃果实，也会取食小型动物。照片场景中的果实只作取食示意。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ebird.org：Diphyllodes magnificus",
+      "url": "https://ebird.org/species/mbopar2",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "animaldiversity.org：Diphyllodes magnificus",
+      "url": "https://animaldiversity.org/accounts/Diphyllodes_magnificus/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "north-island-brown-kiwi",
+  "slug": "north-island-brown-kiwi",
+  "names": {
+    "zh": "北岛褐几维",
+    "en": "North Island Brown Kiwi"
+  },
+  "scientificName": "Apteryx mantelli",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Apterygiformes",
+      "zhName": "无翼鸟目"
+    },
+    "family": {
+      "scientificName": "Apterygidae",
+      "zhName": "无翼鸟科"
+    },
+    "genus": {
+      "scientificName": "Apteryx",
+      "zhName": "无翼鸟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "VU",
+    "label": {
+      "zh": "易危",
+      "en": "Vulnerable"
+    },
+    "trend": "unknown",
+    "assessor": "IUCN 2017 类别变更表支持全球 VU；独立评估日期未核实，不以出版年代替。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "新西兰北岛"
+    ],
+    "countries": [],
+    "range": "新西兰北岛。"
+  },
+  "habitats": [
+    {
+      "name": "森林与灌丛地面",
+      "realm": "terrestrial",
+      "description": "森林与灌丛地面中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "蚯蚓",
+      "昆虫",
+      "其他土壤无脊椎动物"
+    ],
+    "description": "食物包括蚯蚓、昆虫、其他土壤无脊椎动物。"
+  },
+  "tags": [
+    "北岛褐几维",
+    "长长的嘴"
+  ],
+  "summary": "看看它长长的嘴和蓬松的褐色羽毛。",
+  "description": "北岛褐几维生活在森林与灌丛地面。看看它长长的嘴和蓬松的褐色羽毛。几维不会飞，主要在地面活动。它通常夜间外出，白天藏在洞穴、树根或茂密植物下。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "长长的嘴",
+      "body": "看看它长长的嘴和蓬松的褐色羽毛。几维不会飞，主要在地面活动。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "落叶下面",
+      "body": "它把长嘴伸进湿润的土和落叶，寻找蚯蚓等小动物。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "鼻孔靠近嘴尖",
+      "body": "几维的鼻孔靠近嘴尖，嗅觉帮助它寻找食物。近景只用于认识外形。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "用脚走路",
+      "body": "找找羽毛下面粗壮的腿和脚。几维在森林地面行走觅食。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "白天的藏身处",
+      "body": "它通常夜间外出，白天藏在洞穴、树根或茂密植物下。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "在几维分布区管好犬只，并支持当地捕食者控制和栖息地保护。"
+    }
+  ],
+  "keyFacts": [
+    "看看它长长的嘴和蓬松的褐色羽毛。几维不会飞，主要在地面活动。",
+    "它把长嘴伸进湿润的土和落叶，寻找蚯蚓等小动物。",
+    "几维的鼻孔靠近嘴尖，嗅觉帮助它寻找食物。近景只用于认识外形。",
+    "找找羽毛下面粗壮的腿和脚。几维在森林地面行走觅食。",
+    "它通常夜间外出，白天藏在洞穴、树根或茂密植物下。"
+  ],
+  "threats": [
+    "犬只及引入哺乳动物捕食",
+    "栖息地改变"
+  ],
+  "conservationActions": [
+    "在几维分布区管好犬只，并支持当地捕食者控制和栖息地保护。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "长长的嘴"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "森林与灌丛地面"
+    }
+  ],
+  "media": {
+    "image": "./images/species/north-island-brown-kiwi/01-cover.webp",
+    "alt": "北岛褐几维在森林与灌丛地面中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/north-island-brown-kiwi/02-observation.webp",
+        "title": "长长的嘴",
+        "alt": "北岛褐几维：长长的嘴",
+        "caption": "AI 生成科学情景重建。看看它长长的嘴和蓬松的褐色羽毛。几维不会飞，主要在地面活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-island-brown-kiwi/03-observation.webp",
+        "title": "落叶下面",
+        "alt": "北岛褐几维：落叶下面",
+        "caption": "AI 生成科学情景重建。它把长嘴伸进湿润的土和落叶，寻找蚯蚓等小动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-island-brown-kiwi/04-observation.webp",
+        "title": "鼻孔靠近嘴尖",
+        "alt": "北岛褐几维：鼻孔靠近嘴尖",
+        "caption": "AI 生成科学情景重建。几维的鼻孔靠近嘴尖，嗅觉帮助它寻找食物。近景只用于认识外形。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-island-brown-kiwi/05-observation.webp",
+        "title": "用脚走路",
+        "alt": "北岛褐几维：用脚走路",
+        "caption": "AI 生成科学情景重建。找找羽毛下面粗壮的腿和脚。几维在森林地面行走觅食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-island-brown-kiwi/06-observation.webp",
+        "title": "白天的藏身处",
+        "alt": "北岛褐几维：白天的藏身处",
+        "caption": "AI 生成科学情景重建。它通常夜间外出，白天藏在洞穴、树根或茂密植物下。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "www.doc.govt.nz：Apteryx mantelli",
+      "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kiwi/brown-kiwi",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "www.doc.govt.nz：Apteryx mantelli",
+      "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kiwi/facts",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "IUCN 2017 全球类别变更表",
+      "url": "https://nc.iucnredlist.org/redlist/content/attachment_files/2017_3_RL_Stats_Table_7.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "common-flying-dragon",
+  "slug": "common-flying-dragon",
+  "names": {
+    "zh": "飞蜥",
+    "en": "Common Flying Dragon"
+  },
+  "scientificName": "Draco volans",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Squamata",
+      "zhName": "有鳞目"
+    },
+    "family": {
+      "scientificName": "Agamidae",
+      "zhName": "鬣蜥科"
+    },
+    "genus": {
+      "scientificName": "Draco",
+      "zhName": "飞蜥属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本轮未取得全球 IUCN 评估证据，暂保留 NE；不将地区等级当作全球评估。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "印度尼西亚爪哇、巴厘等地；本档案不沿用旧文献的广义分布"
+    ],
+    "countries": [],
+    "range": "印度尼西亚爪哇、巴厘等地；本档案不沿用旧文献的广义分布。"
+  },
+  "habitats": [
+    {
+      "name": "热带林地树干与树冠",
+      "realm": "terrestrial",
+      "description": "热带林地树干与树冠中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "蚂蚁",
+      "其他小型昆虫"
+    ],
+    "description": "食物包括蚂蚁、其他小型昆虫。"
+  },
+  "tags": [
+    "飞蜥",
+    "展开皮膜"
+  ],
+  "summary": "看看身体两侧展开的皮膜。",
+  "description": "飞蜥生活在热带林地树干与树冠。看看身体两侧展开的皮膜。细长肋骨支撑皮膜，帮助飞蜥从高处滑翔。飞蜥会在树干附近捕食小型昆虫，蚂蚁是其中一类食物。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "展开皮膜",
+      "body": "看看身体两侧展开的皮膜。细长肋骨支撑皮膜，帮助飞蜥从高处滑翔。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "收起皮膜",
+      "body": "停在树干上时，飞蜥把皮膜收在身体两旁。它仍然用四条腿爬树。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "喉下的小扇子",
+      "body": "雄性会展开喉部皮褶作展示。喉部皮褶与身体两侧的滑翔膜是不同结构。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "抓住树皮",
+      "body": "找找脚趾上的小爪，它们帮助飞蜥攀住树皮。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "树干上的小食物",
+      "body": "飞蜥会在树干附近捕食小型昆虫，蚂蚁是其中一类食物。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "保留相连的林木，用远观或影像认识滑翔，不抓取动物演示。"
+    }
+  ],
+  "keyFacts": [
+    "看看身体两侧展开的皮膜。细长肋骨支撑皮膜，帮助飞蜥从高处滑翔。",
+    "停在树干上时，飞蜥把皮膜收在身体两旁。它仍然用四条腿爬树。",
+    "雄性会展开喉部皮褶作展示。喉部皮褶与身体两侧的滑翔膜是不同结构。",
+    "找找脚趾上的小爪，它们帮助飞蜥攀住树皮。",
+    "飞蜥会在树干附近捕食小型昆虫，蚂蚁是其中一类食物。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保留相连的林木，用远观或影像认识滑翔，不抓取动物演示。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "展开皮膜"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带林地树干与树冠"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-flying-dragon/01-cover.webp",
+    "alt": "飞蜥在热带林地树干与树冠中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-flying-dragon/02-observation.webp",
+        "title": "展开皮膜",
+        "alt": "飞蜥：展开皮膜",
+        "caption": "AI 生成科学情景重建。看看身体两侧展开的皮膜。细长肋骨支撑皮膜，帮助飞蜥从高处滑翔。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-flying-dragon/03-observation.webp",
+        "title": "收起皮膜",
+        "alt": "飞蜥：收起皮膜",
+        "caption": "AI 生成科学情景重建。停在树干上时，飞蜥把皮膜收在身体两旁。它仍然用四条腿爬树。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-flying-dragon/04-observation.webp",
+        "title": "喉下的小扇子",
+        "alt": "飞蜥：喉下的小扇子",
+        "caption": "AI 生成科学情景重建。雄性会展开喉部皮褶作展示。喉部皮褶与身体两侧的滑翔膜是不同结构。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-flying-dragon/05-observation.webp",
+        "title": "抓住树皮",
+        "alt": "飞蜥：抓住树皮",
+        "caption": "AI 生成科学情景重建。找找脚趾上的小爪，它们帮助飞蜥攀住树皮。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-flying-dragon/06-observation.webp",
+        "title": "树干上的小食物",
+        "alt": "飞蜥：树干上的小食物",
+        "caption": "AI 生成科学情景重建。飞蜥会在树干附近捕食小型昆虫，蚂蚁是其中一类食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "reptile-database.reptarium.cz：Draco volans",
+      "url": "https://reptile-database.reptarium.cz/Draco/volans",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "animaldiversity.org：Draco volans",
+      "url": "https://animaldiversity.org/accounts/Draco_volans/",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "common-thresher-shark",
+  "slug": "common-thresher-shark",
+  "names": {
+    "zh": "狐形长尾鲨",
+    "en": "Common Thresher Shark"
+  },
+  "scientificName": "Alopias vulpinus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Chondrichthyes",
+      "zhName": "软骨鱼纲"
+    },
+    "order": {
+      "scientificName": "Lamniformes",
+      "zhName": "鼠鲨目"
+    },
+    "family": {
+      "scientificName": "Alopiidae",
+      "zhName": "长尾鲨科"
+    },
+    "genus": {
+      "scientificName": "Alopias",
+      "zhName": "长尾鲨属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "VU",
+    "label": {
+      "zh": "易危",
+      "en": "Vulnerable"
+    },
+    "trend": "unknown",
+    "assessor": "依据所列来源的全球等级；未填未经核验的评估年份。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "全球多处温带及热带海域，以温带海域较常见"
+    ],
+    "countries": [],
+    "range": "全球多处温带及热带海域，以温带海域较常见。"
+  },
+  "habitats": [
+    {
+      "name": "近海与开放海域",
+      "realm": "marine",
+      "description": "近海与开放海域中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "piscivore"
+    ],
+    "foods": [
+      "群游小鱼",
+      "头足类"
+    ],
+    "description": "食物包括群游小鱼、头足类。"
+  },
+  "tags": [
+    "狐形长尾鲨",
+    "长长的上尾叶"
+  ],
+  "summary": "沿着尾巴往上看，上半边伸得很长，长度可接近头和身体的总长。",
+  "description": "狐形长尾鲨生活在近海与开放海域。沿着尾巴往上看，上半边伸得很长，长度可接近头和身体的总长。把整条鲨鱼看一遍，从吻端经过背鳍，一直找到长尾尖。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "长长的上尾叶",
+      "body": "沿着尾巴往上看，上半边伸得很长，长度可接近头和身体的总长。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "小嘴和尖吻",
+      "body": "从前侧看，找找尖吻、小嘴和眼睛。不要把它与眼睛更大的近似种混淆。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "小鱼群旁",
+      "body": "狐形长尾鲨捕食群游小鱼，能用长尾击打猎物。这里展示靠近鱼群的情景。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "浅色的肚皮",
+      "body": "从下方看看浅色腹部和身体两侧的胸鳍。胸鳍帮助它在水中调整姿态。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "海水中的轮廓",
+      "body": "把整条鲨鱼看一遍，从吻端经过背鳍，一直找到长尾尖。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "支持减少渔业误捕与科学监测，观察海洋动物时不追逐。"
+    }
+  ],
+  "keyFacts": [
+    "沿着尾巴往上看，上半边伸得很长，长度可接近头和身体的总长。",
+    "从前侧看，找找尖吻、小嘴和眼睛。不要把它与眼睛更大的近似种混淆。",
+    "狐形长尾鲨捕食群游小鱼，能用长尾击打猎物。这里展示靠近鱼群的情景。",
+    "从下方看看浅色腹部和身体两侧的胸鳍。胸鳍帮助它在水中调整姿态。",
+    "把整条鲨鱼看一遍，从吻端经过背鳍，一直找到长尾尖。"
+  ],
+  "threats": [
+    "定向捕捞",
+    "渔业误捕"
+  ],
+  "conservationActions": [
+    "支持减少渔业误捕与科学监测，观察海洋动物时不追逐。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "长长的上尾叶"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "近海与开放海域"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-thresher-shark/01-cover.webp",
+    "alt": "狐形长尾鲨在近海与开放海域中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-thresher-shark/02-observation.webp",
+        "title": "长长的上尾叶",
+        "alt": "狐形长尾鲨：长长的上尾叶",
+        "caption": "AI 生成科学情景重建。沿着尾巴往上看，上半边伸得很长，长度可接近头和身体的总长。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-thresher-shark/03-observation.webp",
+        "title": "小嘴和尖吻",
+        "alt": "狐形长尾鲨：小嘴和尖吻",
+        "caption": "AI 生成科学情景重建。从前侧看，找找尖吻、小嘴和眼睛。不要把它与眼睛更大的近似种混淆。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-thresher-shark/04-observation.webp",
+        "title": "小鱼群旁",
+        "alt": "狐形长尾鲨：小鱼群旁",
+        "caption": "AI 生成科学情景重建。狐形长尾鲨捕食群游小鱼，能用长尾击打猎物。这里展示靠近鱼群的情景。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-thresher-shark/05-observation.webp",
+        "title": "浅色的肚皮",
+        "alt": "狐形长尾鲨：浅色的肚皮",
+        "caption": "AI 生成科学情景重建。从下方看看浅色腹部和身体两侧的胸鳍。胸鳍帮助它在水中调整姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-thresher-shark/06-observation.webp",
+        "title": "海水中的轮廓",
+        "alt": "狐形长尾鲨：海水中的轮廓",
+        "caption": "AI 生成科学情景重建。把整条鲨鱼看一遍，从吻端经过背鳍，一直找到长尾尖。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "www.floridamuseum.ufl.edu：Alopias vulpinus",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/thresher-shark/",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "fishesofaustralia.net.au：Alopias vulpinus",
+      "url": "https://fishesofaustralia.net.au/home/species/1850",
+      "kind": "conservation",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "sacred-scarab",
+  "slug": "sacred-scarab",
+  "names": {
+    "zh": "神圣蜣螂",
+    "en": "Sacred Scarab"
+  },
+  "scientificName": "Scarabaeus sacer",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Coleoptera",
+      "zhName": "鞘翅目"
+    },
+    "family": {
+      "scientificName": "Scarabaeidae",
+      "zhName": "金龟科"
+    },
+    "genus": {
+      "scientificName": "Scarabaeus",
+      "zhName": "蜣螂属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本轮未取得全球 IUCN 评估证据，暂保留 NE；不将地区等级当作全球评估。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "地中海周边，包括南欧与北非"
+    ],
+    "countries": [],
+    "range": "地中海周边，包括南欧与北非。"
+  },
+  "habitats": [
+    {
+      "name": "温暖地区的沙土地表",
+      "realm": "terrestrial",
+      "description": "温暖地区的沙土地表中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "detritivore"
+    ],
+    "foods": [
+      "动物粪便"
+    ],
+    "description": "食物包括动物粪便。"
+  },
+  "tags": [
+    "神圣蜣螂",
+    "用后腿推球"
+  ],
+  "summary": "看看它低着头，用后腿推动粪球。",
+  "description": "神圣蜣螂生活在温暖地区的沙土地表。看看它低着头，用后腿推动粪球。粪便是这类蜣螂的食物。从上面看，找找黑色的身体和盖住背部的鞘翅。它的头上没有犀牛甲虫那样的长角。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "用后腿推球",
+      "body": "看看它低着头，用后腿推动粪球。粪便是这类蜣螂的食物。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "带齿的前足",
+      "body": "前足外缘有齿状突起，能帮助蜣螂挖土。头部前缘也有小齿。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "六条腿",
+      "body": "在沙粒和草叶旁找找它的六条腿。微距图放大了身体，草叶只作环境参照。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "把球埋起来",
+      "body": "神圣蜣螂会把粪球带走并埋入土中，这也帮助有机物回到土壤。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "黑色的背",
+      "body": "从上面看，找找黑色的身体和盖住背部的鞘翅。它的头上没有犀牛甲虫那样的长角。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "保留土壤和草地中的小动物，不抓取蜣螂或破坏它埋藏的食物。"
+    }
+  ],
+  "keyFacts": [
+    "看看它低着头，用后腿推动粪球。粪便是这类蜣螂的食物。",
+    "前足外缘有齿状突起，能帮助蜣螂挖土。头部前缘也有小齿。",
+    "在沙粒和草叶旁找找它的六条腿。微距图放大了身体，草叶只作环境参照。",
+    "神圣蜣螂会把粪球带走并埋入土中，这也帮助有机物回到土壤。",
+    "从上面看，找找黑色的身体和盖住背部的鞘翅。它的头上没有犀牛甲虫那样的长角。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保留土壤和草地中的小动物，不抓取蜣螂或破坏它埋藏的食物。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "用后腿推球"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "温暖地区的沙土地表"
+    }
+  ],
+  "media": {
+    "image": "./images/species/sacred-scarab/01-cover.webp",
+    "alt": "神圣蜣螂在温暖地区的沙土地表中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/sacred-scarab/02-observation.webp",
+        "title": "用后腿推球",
+        "alt": "神圣蜣螂：用后腿推球",
+        "caption": "AI 生成科学情景重建。看看它低着头，用后腿推动粪球。粪便是这类蜣螂的食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sacred-scarab/03-observation.webp",
+        "title": "带齿的前足",
+        "alt": "神圣蜣螂：带齿的前足",
+        "caption": "AI 生成科学情景重建。前足外缘有齿状突起，能帮助蜣螂挖土。头部前缘也有小齿。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sacred-scarab/04-observation.webp",
+        "title": "六条腿",
+        "alt": "神圣蜣螂：六条腿",
+        "caption": "AI 生成科学情景重建。在沙粒和草叶旁找找它的六条腿。微距图放大了身体，草叶只作环境参照。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sacred-scarab/05-observation.webp",
+        "title": "把球埋起来",
+        "alt": "神圣蜣螂：把球埋起来",
+        "caption": "AI 生成科学情景重建。神圣蜣螂会把粪球带走并埋入土中，这也帮助有机物回到土壤。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sacred-scarab/06-observation.webp",
+        "title": "黑色的背",
+        "alt": "神圣蜣螂：黑色的背",
+        "caption": "AI 生成科学情景重建。从上面看，找找黑色的身体和盖住背部的鞘翅。它的头上没有犀牛甲虫那样的长角。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "www.nhm.ac.uk：Scarabaeus sacer",
+      "url": "https://www.nhm.ac.uk/discover/how-dung-beetles-keep-the-world-clean.html",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "www.ncbi.nlm.nih.gov：Scarabaeus sacer",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=166335&mode=Info",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "common-pond-skater",
+  "slug": "common-pond-skater",
+  "names": {
+    "zh": "水黾",
+    "en": "Common Pond Skater"
+  },
+  "scientificName": "Gerris lacustris",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Hemiptera",
+      "zhName": "半翅目"
+    },
+    "family": {
+      "scientificName": "Gerridae",
+      "zhName": "水黾科"
+    },
+    "genus": {
+      "scientificName": "Gerris",
+      "zhName": "水黾属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本轮未取得全球 IUCN 评估证据，暂保留 NE；不将地区等级当作全球评估。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "欧洲等地；英国有广泛记录"
+    ],
+    "countries": [],
+    "range": "欧洲等地；英国有广泛记录。"
+  },
+  "habitats": [
+    {
+      "name": "池塘与缓流的水面",
+      "realm": "freshwater",
+      "description": "池塘与缓流的水面中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "落水小昆虫"
+    ],
+    "description": "食物包括落水小昆虫。"
+  },
+  "tags": [
+    "水黾",
+    "长腿碰到水面"
+  ],
+  "summary": "找找长腿碰到水面的地方。",
+  "description": "水黾生活在池塘与缓流的水面。找找长腿碰到水面的地方。足上的疏水毛和水面张力帮助它停在水面。池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "长腿碰到水面",
+      "body": "找找长腿碰到水面的地方。足上的疏水毛和水面张力帮助它停在水面。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "小小的凹痕",
+      "body": "从侧面看看足端下的水面凹痕。水黾用中后足支持身体并移动。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "浮萍旁的小虫",
+      "body": "把水黾和旁边的浮萍一起看。微距图放大了细节，浮萍不是精确比例尺。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "前腿抓食物",
+      "body": "较短的前足能抓住食物。水黾会感知水面振动，寻找落水的小昆虫。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "池塘边",
+      "body": "池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "保持池塘清洁，保留岸边植物，陪孩子在安全岸边观察。"
+    }
+  ],
+  "keyFacts": [
+    "找找长腿碰到水面的地方。足上的疏水毛和水面张力帮助它停在水面。",
+    "从侧面看看足端下的水面凹痕。水黾用中后足支持身体并移动。",
+    "把水黾和旁边的浮萍一起看。微距图放大了细节，浮萍不是精确比例尺。",
+    "较短的前足能抓住食物。水黾会感知水面振动，寻找落水的小昆虫。",
+    "池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保持池塘清洁，保留岸边植物，陪孩子在安全岸边观察。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "长腿碰到水面"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "池塘与缓流的水面"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-pond-skater/01-cover.webp",
+    "alt": "水黾在池塘与缓流的水面中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-pond-skater/02-observation.webp",
+        "title": "长腿碰到水面",
+        "alt": "水黾：长腿碰到水面",
+        "caption": "AI 生成科学情景重建。找找长腿碰到水面的地方。足上的疏水毛和水面张力帮助它停在水面。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-pond-skater/03-observation.webp",
+        "title": "小小的凹痕",
+        "alt": "水黾：小小的凹痕",
+        "caption": "AI 生成科学情景重建。从侧面看看足端下的水面凹痕。水黾用中后足支持身体并移动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-pond-skater/04-observation.webp",
+        "title": "浮萍旁的小虫",
+        "alt": "水黾：浮萍旁的小虫",
+        "caption": "AI 生成科学情景重建。把水黾和旁边的浮萍一起看。微距图放大了细节，浮萍不是精确比例尺。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-pond-skater/05-observation.webp",
+        "title": "前腿抓食物",
+        "alt": "水黾：前腿抓食物",
+        "caption": "AI 生成科学情景重建。较短的前足能抓住食物。水黾会感知水面振动，寻找落水的小昆虫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-pond-skater/06-observation.webp",
+        "title": "池塘边",
+        "alt": "水黾：池塘边",
+        "caption": "AI 生成科学情景重建。池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "www.wildlifetrusts.org：Gerris lacustris",
+      "url": "https://www.wildlifetrusts.org/wildlife-explorer/invertebrates/bugs/common-pond-skater",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "NCBI：水黾分类",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=108914&mode=Info",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "christmas-tree-worm",
+  "slug": "christmas-tree-worm",
+  "names": {
+    "zh": "大旋鳃虫",
+    "en": "Christmas Tree Worm"
+  },
+  "scientificName": "Spirobranchus giganteus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Annelida",
+      "zhName": "环节动物门"
+    },
+    "class": {
+      "scientificName": "Polychaeta",
+      "zhName": "多毛纲"
+    },
+    "order": {
+      "scientificName": "Sabellida",
+      "zhName": "缨鳃虫目"
+    },
+    "family": {
+      "scientificName": "Serpulidae",
+      "zhName": "龙介虫科"
+    },
+    "genus": {
+      "scientificName": "Spirobranchus",
+      "zhName": "旋鳃虫属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本轮未取得全球 IUCN 评估证据，暂保留 NE；不将地区等级当作全球评估。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "加勒比海与邻近西大西洋珊瑚礁；不合并印太近似种"
+    ],
+    "countries": [],
+    "range": "加勒比海与邻近西大西洋珊瑚礁；不合并印太近似种。"
+  },
+  "habitats": [
+    {
+      "name": "热带珊瑚礁",
+      "realm": "marine",
+      "description": "热带珊瑚礁中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "filter-feeder"
+    ],
+    "foods": [
+      "浮游植物",
+      "水中微小颗粒"
+    ],
+    "description": "食物包括浮游植物、水中微小颗粒。"
+  },
+  "tags": [
+    "大旋鳃虫",
+    "两棵小树"
+  ],
+  "summary": "找找珊瑚表面两簇像小树一样的鳃冠。",
+  "description": "大旋鳃虫生活在热带珊瑚礁。找找珊瑚表面两簇像小树一样的鳃冠。它们属于同一条虫，用于呼吸和摄食。身体大部分藏在管里，外面通常只露出鳃冠。周围珊瑚虫只作自然参照。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "两棵小树",
+      "body": "找找珊瑚表面两簇像小树一样的鳃冠。它们属于同一条虫，用于呼吸和摄食。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "缩进管里",
+      "body": "受到惊扰时，大旋鳃虫能把鳃冠缩进管中。图为独立情景重建，不是连续实拍。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "螺旋形的鳃冠",
+      "body": "从上方看看绕成螺旋的鳃冠。不同个体颜色不同，本组主要展示橙色个体。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "细细的分枝",
+      "body": "鳃冠上的细小分枝从水中截取食物，包括微小的浮游植物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "珊瑚上的家",
+      "body": "身体大部分藏在管里，外面通常只露出鳃冠。周围珊瑚虫只作自然参照。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "潜水时不触碰珊瑚和管栖动物，不为拍照刺激它缩回。"
+    }
+  ],
+  "keyFacts": [
+    "找找珊瑚表面两簇像小树一样的鳃冠。它们属于同一条虫，用于呼吸和摄食。",
+    "受到惊扰时，大旋鳃虫能把鳃冠缩进管中。图为独立情景重建，不是连续实拍。",
+    "从上方看看绕成螺旋的鳃冠。不同个体颜色不同，本组主要展示橙色个体。",
+    "鳃冠上的细小分枝从水中截取食物，包括微小的浮游植物。",
+    "身体大部分藏在管里，外面通常只露出鳃冠。周围珊瑚虫只作自然参照。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "潜水时不触碰珊瑚和管栖动物，不为拍照刺激它缩回。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "两棵小树"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带珊瑚礁"
+    }
+  ],
+  "media": {
+    "image": "./images/species/christmas-tree-worm/01-cover.webp",
+    "alt": "大旋鳃虫在热带珊瑚礁中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/christmas-tree-worm/02-observation.webp",
+        "title": "两棵小树",
+        "alt": "大旋鳃虫：两棵小树",
+        "caption": "AI 生成科学情景重建。找找珊瑚表面两簇像小树一样的鳃冠。它们属于同一条虫，用于呼吸和摄食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/christmas-tree-worm/03-observation.webp",
+        "title": "缩进管里",
+        "alt": "大旋鳃虫：缩进管里",
+        "caption": "AI 生成科学情景重建。受到惊扰时，大旋鳃虫能把鳃冠缩进管中。图为独立情景重建，不是连续实拍。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/christmas-tree-worm/04-observation.webp",
+        "title": "螺旋形的鳃冠",
+        "alt": "大旋鳃虫：螺旋形的鳃冠",
+        "caption": "AI 生成科学情景重建。从上方看看绕成螺旋的鳃冠。不同个体颜色不同，本组主要展示橙色个体。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/christmas-tree-worm/05-observation.webp",
+        "title": "细细的分枝",
+        "alt": "大旋鳃虫：细细的分枝",
+        "caption": "AI 生成科学情景重建。鳃冠上的细小分枝从水中截取食物，包括微小的浮游植物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/christmas-tree-worm/06-observation.webp",
+        "title": "珊瑚上的家",
+        "alt": "大旋鳃虫：珊瑚上的家",
+        "caption": "AI 生成科学情景重建。身体大部分藏在管里，外面通常只露出鳃冠。周围珊瑚虫只作自然参照。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "oceanservice.noaa.gov：Spirobranchus giganteus",
+      "url": "https://oceanservice.noaa.gov/facts/xmas-tree.html",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    },
+    {
+      "title": "australian.museum：Spirobranchus giganteus",
+      "url": "https://australian.museum/blog-archive/amri-news/amri-exploring-the-diversity-of-christmas-tree-worms/",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
+{
+  "id": "bath-sponge",
+  "slug": "bath-sponge",
+  "names": {
+    "zh": "浴海绵",
+    "en": "Bath Sponge"
+  },
+  "scientificName": "Spongia officinalis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Porifera",
+      "zhName": "多孔动物门"
+    },
+    "class": {
+      "scientificName": "Demospongiae",
+      "zhName": "寻常海绵纲"
+    },
+    "order": {
+      "scientificName": "Dictyoceratida",
+      "zhName": "网角海绵目"
+    },
+    "family": {
+      "scientificName": "Spongiidae",
+      "zhName": "浴海绵科"
+    },
+    "genus": {
+      "scientificName": "Spongia",
+      "zhName": "浴海绵属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本轮未取得全球 IUCN 评估证据，暂保留 NE；不将地区等级当作全球评估。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "地中海及邻近大西洋海域"
+    ],
+    "countries": [],
+    "range": "地中海及邻近大西洋海域。"
+  },
+  "habitats": [
+    {
+      "name": "浅海岩石等硬质基底",
+      "realm": "marine",
+      "description": "浅海岩石等硬质基底中的生活场景。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "filter-feeder"
+    ],
+    "foods": [
+      "细菌",
+      "微藻",
+      "有机碎屑"
+    ],
+    "description": "食物包括细菌、微藻、有机碎屑。"
+  },
+  "tags": [
+    "浴海绵",
+    "表面的孔"
+  ],
+  "summary": "找找海绵表面大小不同的孔。",
+  "description": "浴海绵生活在浅海岩石等硬质基底。找找海绵表面大小不同的孔。水从微小入水孔进入，再从较大的出水孔排出。活浴海绵常呈灰色到近黑色。加工后淡黄色的海绵骨架与活体外观不同。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "表面的孔",
+      "body": "找找海绵表面大小不同的孔。水从微小入水孔进入，再从较大的出水孔排出。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "固定在岩石上",
+      "body": "成年浴海绵附着在岩石等表面生活。它是动物，没有脚也没有叶子。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "不规则的轮廓",
+      "body": "从上面看看圆块状或分叶状的身体。不同个体的外形和颜色会有差异。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "海底的生活",
+      "body": "海水流经身体时，海绵取得其中的细菌和微小有机颗粒作为食物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "活海绵的表面",
+      "body": "活浴海绵常呈灰色到近黑色。加工后淡黄色的海绵骨架与活体外观不同。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起观察与保护",
+      "body": "观察活海绵时不触摸或掰取，保护海底附着生物和水质。"
+    }
+  ],
+  "keyFacts": [
+    "找找海绵表面大小不同的孔。水从微小入水孔进入，再从较大的出水孔排出。",
+    "成年浴海绵附着在岩石等表面生活。它是动物，没有脚也没有叶子。",
+    "从上面看看圆块状或分叶状的身体。不同个体的外形和颜色会有差异。",
+    "海水流经身体时，海绵取得其中的细菌和微小有机颗粒作为食物。",
+    "活浴海绵常呈灰色到近黑色。加工后淡黄色的海绵骨架与活体外观不同。"
+  ],
+  "threats": [
+    "采集压力",
+    "海水污染"
+  ],
+  "conservationActions": [
+    "观察活海绵时不触摸或掰取，保护海底附着生物和水质。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "表面的孔"
+    },
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "浅海岩石等硬质基底"
+    }
+  ],
+  "media": {
+    "image": "./images/species/bath-sponge/01-cover.webp",
+    "alt": "浴海绵在浅海岩石等硬质基底中的外形",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/bath-sponge/02-observation.webp",
+        "title": "表面的孔",
+        "alt": "浴海绵：表面的孔",
+        "caption": "AI 生成科学情景重建。找找海绵表面大小不同的孔。水从微小入水孔进入，再从较大的出水孔排出。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bath-sponge/03-observation.webp",
+        "title": "固定在岩石上",
+        "alt": "浴海绵：固定在岩石上",
+        "caption": "AI 生成科学情景重建。成年浴海绵附着在岩石等表面生活。它是动物，没有脚也没有叶子。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bath-sponge/04-observation.webp",
+        "title": "不规则的轮廓",
+        "alt": "浴海绵：不规则的轮廓",
+        "caption": "AI 生成科学情景重建。从上面看看圆块状或分叶状的身体。不同个体的外形和颜色会有差异。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bath-sponge/05-observation.webp",
+        "title": "海底的生活",
+        "alt": "浴海绵：海底的生活",
+        "caption": "AI 生成科学情景重建。海水流经身体时，海绵取得其中的细菌和微小有机颗粒作为食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bath-sponge/06-observation.webp",
+        "title": "活海绵的表面",
+        "alt": "浴海绵：活海绵的表面",
+        "caption": "AI 生成科学情景重建。活浴海绵常呈灰色到近黑色。加工后淡黄色的海绵骨架与活体外观不同。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "doris.ffessm.fr：Spongia officinalis",
+      "url": "https://doris.ffessm.fr/Especes/Spongia-Spongia-officinalis-Eponge-de-toilette-1929",
+      "kind": "general",
+      "accessedAt": "2026-09-22"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-09-22"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

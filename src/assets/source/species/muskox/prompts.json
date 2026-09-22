@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "muskox",
+    "n": 1,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas species cover, landscape 1536x1024. One anatomically accurate muskox Ovibos moschatus standing on arctic tundra in soft daylight. Full shaggy body, short legs, curved horns and all visible extremities entirely inside frame, large subject occupying right side with center at 72% width, quiet tundra left 40% for title. Real background margin around complete animal. Natural history editorial photographic reconstruction, no text, no logo, no border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-eec7bdd5-2d11-4262-9cd3-d57898940d54.png",
+    "temporarySource": "src/assets/source/species/muskox/01-cover-source.png"
+  },
+  {
+    "slug": "muskox",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Ovibos moschatus. Accurate identification: shaggy muskox on arctic tundra, horns curving down then up, short pale legs. Requested scene: side profile showing long skirt of guard hair. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-b5243b69-ab7b-4a78-a317-bf01c7c0ec03.png",
+    "temporarySource": "src/assets/source/species/muskox/02-observation-source.png"
+  },
+  {
+    "slug": "muskox",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Ovibos moschatus. Accurate identification: shaggy muskox on arctic tundra, horns curving down then up, short pale legs. Requested scene: close portrait showing downward then upward curved horns. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-97c0fa8e-1680-4c90-b723-2dc6fbab627f.png",
+    "temporarySource": "src/assets/source/species/muskox/03-observation-source.png"
+  },
+  {
+    "slug": "muskox",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Ovibos moschatus. Accurate identification: shaggy muskox on arctic tundra, horns curving down then up, short pale legs. Requested scene: grazing low sedges on tundra. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-155f298f-857f-4f74-8817-150110093ce7.png",
+    "temporarySource": "src/assets/source/species/muskox/04-observation-source.png"
+  },
+  {
+    "slug": "muskox",
+    "n": 5,
+    "prompt": "Photorealistic natural-history reconstruction 1536x1024. Female muskox Ovibos moschatus with young calf beside her on arctic tundra. Female has slender horns curved down then up, clearly separated slender horn bases with fur between them on forehead, NO massive male horn boss. Shaggy long skirt coat, short legs. Calf small with short brown coat and horn buds. Full bodies, clear daylight, no text.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-24b6287c-6cb5-41d2-95eb-2c4190f1ecdd.png",
+    "temporarySource": "src/assets/source/species/muskox/05-observation-source.png"
+  },
+  {
+    "slug": "muskox",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Ovibos moschatus. Accurate identification: shaggy muskox on arctic tundra, horns curving down then up, short pale legs. Requested scene: walking across snowy tundra, full body. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-38103e03-3c15-4666-8e24-6397a988f338.png",
+    "temporarySource": "src/assets/source/species/muskox/06-observation-source.png"
+  }
+]

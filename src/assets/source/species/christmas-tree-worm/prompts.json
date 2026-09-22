@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "christmas-tree-worm",
+    "n": 1,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas cover 1536x1024 landscape. Spirobranchus giganteus: one Caribbean Christmas tree worm rooted in a living massive coral, exactly two orange spiraling conical feathery branchial crowns fully visible above coral, worm body naturally hidden inside calcareous tube, underwater macro with coral polyps for context. Scientific natural-history reconstruction. Full primary animal or visible sessile crown entirely inside frame with real background margin, large subject on right with silhouette restricted to x=650..1470 and y=60..960, center about 72% width. Quiet left 40% for title. All feet, bill, tail tips and antennae within frame. No text, no watermark, no montage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-6f1c3ff8-4644-4b6d-ae38-f733781097e1.png",
+    "temporarySource": "src/assets/source/species/christmas-tree-worm/01-cover-source.png"
+  },
+  {
+    "slug": "christmas-tree-worm",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spirobranchus giganteus. Accurate identification: Caribbean Christmas tree worm with two orange spiral feathery crowns above living massive coral, body hidden in calcareous tube, coral polyps scale context. Requested scene: close paired orange spiral crowns above Caribbean massive coral. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-13dd124a-82e5-4d70-868b-ab63981c0076.png",
+    "temporarySource": "src/assets/source/species/christmas-tree-worm/02-observation-source.png"
+  },
+  {
+    "slug": "christmas-tree-worm",
+    "n": 3,
+    "prompt": "Photorealistic underwater macro natural-history reconstruction 1536x1024. Caribbean Christmas tree worm Spirobranchus giganteus fully withdrawn into its SINGLE small calcareous tube embedded in living massive coral. Crown is entirely hidden; small round operculum caps the ONE tube opening, coral polyps around it. No exposed orange tree crowns, no separate tubes, no text. Close observation of closed tube after retreat, not a sequence.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-f1c3273e-1626-455b-830e-1c6650b484a7.png",
+    "temporarySource": "src/assets/source/species/christmas-tree-worm/03-observation-source.png"
+  },
+  {
+    "slug": "christmas-tree-worm",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spirobranchus giganteus. Accurate identification: Caribbean Christmas tree worm with two orange spiral feathery crowns above living massive coral, body hidden in calcareous tube, coral polyps scale context. Requested scene: top view of two spiraling orange branchial crowns. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-aa7be47c-c158-427f-8c0b-68bab0546f26.png",
+    "temporarySource": "src/assets/source/species/christmas-tree-worm/04-observation-source.png"
+  },
+  {
+    "slug": "christmas-tree-worm",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spirobranchus giganteus. Accurate identification: Caribbean Christmas tree worm with two orange spiral feathery crowns above living massive coral, body hidden in calcareous tube, coral polyps scale context. Requested scene: side view fine radioles of orange paired crowns. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-75f8d813-4588-4918-b4f3-300696526a3c.png",
+    "temporarySource": "src/assets/source/species/christmas-tree-worm/05-observation-source.png"
+  },
+  {
+    "slug": "christmas-tree-worm",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Spirobranchus giganteus. Accurate identification: Caribbean Christmas tree worm with two orange spiral feathery crowns above living massive coral, body hidden in calcareous tube, coral polyps scale context. Requested scene: wider scene one pair orange crowns surrounded by living coral polyps. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-1cf67e7e-7d76-4e03-891f-0e73ab7a253b.png",
+    "temporarySource": "src/assets/source/species/christmas-tree-worm/06-observation-source.png"
+  }
+]

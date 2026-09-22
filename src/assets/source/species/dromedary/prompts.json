@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "dromedary",
+    "n": 1,
+    "prompt": "Edit this Fauna Atlas wildlife cover. Preserve species identity and photographic realism. Recompose animal entirely in RIGHT HALF: every visible extremity, beak, antenna, foot, long tail tip, or sponge lobe must lie between x=700 and x=1470 on 1536-wide landscape canvas. Leftmost 45% is empty quiet habitat background. Subject center around x=1100. Keep animal large within that box, no cropping of any visible extremity, 50 px minimum edge margin. ",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-43507629-6c89-4743-9b46-84f3b940f3d0.png",
+    "temporarySource": "src/assets/source/species/dromedary/01-cover-source.png"
+  },
+  {
+    "slug": "dromedary",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Camelus dromedarius. Accurate identification: domestic dromedary camel, exactly one hump, broad padded feet, sandy desert. Requested scene: side profile clearly showing one hump. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-d1619144-366c-484b-9230-547f277ee042.png",
+    "temporarySource": "src/assets/source/species/dromedary/02-observation-source.png"
+  },
+  {
+    "slug": "dromedary",
+    "n": 3,
+    "prompt": "Photorealistic natural history close view of two front FEET of a domestic dromedary camel Camelus dromedarius standing on sand. Broad flattened leathery flexible padded feet each with two toes tipped by SMALL nails. Feet are NOT enclosed in large hard cloven cattle hooves. Tan hair on long lower legs, broad soft cushion pads spreading against sand, small toenails only at front tips. Oblique side view at ground level, natural texture, 1536x1024, no text no diagram.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-760a16ef-ddc3-4269-8b32-7cd61b99c7c0.png",
+    "temporarySource": "src/assets/source/species/dromedary/03-observation-source.png"
+  },
+  {
+    "slug": "dromedary",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Camelus dromedarius. Accurate identification: domestic dromedary camel, exactly one hump, broad padded feet, sandy desert. Requested scene: browsing leaves on a sparse desert shrub. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-a7d8f975-b26d-46ef-b33b-ccefd0701525.png",
+    "temporarySource": "src/assets/source/species/dromedary/04-observation-source.png"
+  },
+  {
+    "slug": "dromedary",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Camelus dromedarius. Accurate identification: domestic dromedary camel, exactly one hump, broad padded feet, sandy desert. Requested scene: resting with legs folded beneath body. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-3f4c8bac-9146-4d32-a018-eb7fd23c6853.png",
+    "temporarySource": "src/assets/source/species/dromedary/05-observation-source.png"
+  },
+  {
+    "slug": "dromedary",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Camelus dromedarius. Accurate identification: domestic dromedary camel, exactly one hump, broad padded feet, sandy desert. Requested scene: mother and calf walking together on sandy ground. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-2d2f7ae5-3103-44a2-a1ad-354e8522bda0.png",
+    "temporarySource": "src/assets/source/species/dromedary/06-observation-source.png"
+  }
+]

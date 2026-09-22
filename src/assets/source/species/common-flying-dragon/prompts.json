@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "common-flying-dragon",
+    "n": 1,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas cover 1536x1024 landscape. Draco volans: one small common flying dragon lizard resting on a slim tree trunk in Java forest, brown mottled scales, folded rib-supported gliding membranes along body, four legs, very long thin tail. Scientific natural-history reconstruction. Full primary animal or visible sessile crown entirely inside frame with real background margin, large subject on right with silhouette restricted to x=650..1470 and y=60..960, center about 72% width. Quiet left 40% for title. All feet, bill, tail tips and antennae within frame. No text, no watermark, no montage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-2da1ec74-be0f-4e00-9a16-381d3eab6085.png",
+    "temporarySource": "src/assets/source/species/common-flying-dragon/01-cover-source.png"
+  },
+  {
+    "slug": "common-flying-dragon",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Draco volans. Accurate identification: small brown mottled common flying dragon lizard in Java forest, rib-supported lateral gliding membranes, four legs and long thin tail. Requested scene: gliding between tree trunks, rib-supported yellow-orange dark-speckled lateral membranes open, four legs and long tail visible, no extra wings. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-f1350ddc-f0f5-4046-aba5-40e562bfefe6.png",
+    "temporarySource": "src/assets/source/species/common-flying-dragon/02-observation-source.png"
+  },
+  {
+    "slug": "common-flying-dragon",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Draco volans. Accurate identification: small brown mottled common flying dragon lizard in Java forest, rib-supported lateral gliding membranes, four legs and long thin tail. Requested scene: resting on bark with gliding membranes folded. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-6fc2df52-573f-40b6-a811-7f0428de6c5e.png",
+    "temporarySource": "src/assets/source/species/common-flying-dragon/03-observation-source.png"
+  },
+  {
+    "slug": "common-flying-dragon",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Draco volans. Accurate identification: small brown mottled common flying dragon lizard in Java forest, rib-supported lateral gliding membranes, four legs and long thin tail. Requested scene: close side profile male extending yellow throat fan. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-61a336ab-0e7d-46f3-b181-8d30741b7319.png",
+    "temporarySource": "src/assets/source/species/common-flying-dragon/04-observation-source.png"
+  },
+  {
+    "slug": "common-flying-dragon",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Draco volans. Accurate identification: small brown mottled common flying dragon lizard in Java forest, rib-supported lateral gliding membranes, four legs and long thin tail. Requested scene: climbing vertical bark, four clawed feet. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-d0c85b09-fe2f-42a4-8cae-2ac7a937cba6.png",
+    "temporarySource": "src/assets/source/species/common-flying-dragon/05-observation-source.png"
+  },
+  {
+    "slug": "common-flying-dragon",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas scientific natural-history reconstruction, landscape 1536x1024. Species Draco volans. Accurate identification: small brown mottled common flying dragon lizard in Java forest, rib-supported lateral gliding membranes, four legs and long thin tail. Requested scene: perched near small ants on tree bark. Clear subject, realistic anatomy and habitat, natural colors and lighting, child-friendly observation. Macro images include natural substrate context, no ruler or claims of exact scale. No text, logos, montage, extra limbs, or fantasy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c927-0f58-7c71-be36-c4536b699bcd/exec-fadba8bb-4a9f-4727-9927-2a88f8da27a7.png",
+    "temporarySource": "src/assets/source/species/common-flying-dragon/06-observation-source.png"
+  }
+]
