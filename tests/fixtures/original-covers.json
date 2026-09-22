@@ -2637,5 +2637,18 @@
       },
       "sha256": "a0db802ffcd8c7c40434602ed686b7eed27e2cb15139f53641be92ff07e7531e"
     }
+  },
+  "common-basilisk": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 112,
+        "right": 1473,
+        "bottom": 947
+      },
+      "sha256": "ecf0ff420295ff1ec714803ebc78550f29b4a672262183fe391330fdae87193c"
+    }
   }
 }

@@ -3771,4 +3771,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 969
     }
   },
+  "common-basilisk": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 112,
+      "right": 1473,
+      "bottom": 947
+    }
+  },
 };
