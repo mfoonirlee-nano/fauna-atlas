@@ -1,0 +1,40 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-22",
+  "images": [
+    {
+      "slug": "flying-gurnard",
+      "n": 1,
+      "prompt": "Edit this flying gurnard cover: preserve species anatomy and natural sandy seabed. Recompose the ENTIRE fish, including both fan pectoral fins and tail, into the right side. Its LEFTMOST FIN TIP must be at x=700 pixels or further right on a 1536x1024 canvas. Move fish to right and reduce its width about 12 percent if necessary; keep rightmost tail and fin tips before x=1460. Maintain full subject with real surrounding background. Left 44 percent purely quiet sand with no animal. No text or watermark."
+    },
+    {
+      "slug": "flying-gurnard",
+      "n": 2,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Flying Gurnard, Dactylopterus volitans. Scene: Top oblique view with both fan pectoral fins fully spread on sandy seabed. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "flying-gurnard",
+      "n": 3,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Flying Gurnard, Dactylopterus volitans. Scene: Side view with large pectoral fins folded against body. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph.",
+      "editPrompt": "Correct the anatomy of this Dactylopterus volitans flying gurnard scientific reconstruction. REMOVE ALL the separate fingerlike thin walking rays dangling below its head/chest: this is not a sea robin. Keep normal small pelvic fins but NO free fingers or whiskers or spider-like legs below head. Preserve existing pose, setting, full fish proportions, blue spotted large pectoral fans, bony blunt head and scene action. Keep 1536x1024 landscape. No text or watermark."
+    },
+    {
+      "slug": "flying-gurnard",
+      "n": 4,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Flying Gurnard, Dactylopterus volitans. Scene: Close three quarter view of bony armored head and eyes underwater. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph.",
+      "editPrompt": "Correct the anatomy of this Dactylopterus volitans flying gurnard scientific reconstruction. REMOVE ALL the separate fingerlike thin walking rays dangling below its head/chest: this is not a sea robin. Keep normal small pelvic fins but NO free fingers or whiskers or spider-like legs below head. Preserve existing pose, setting, full fish proportions, blue spotted large pectoral fans, bony blunt head and scene action. Keep 1536x1024 landscape. No text or watermark."
+    },
+    {
+      "slug": "flying-gurnard",
+      "n": 5,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Flying Gurnard, Dactylopterus volitans. Scene: Full fish moving low over sandy seafloor, no airborne motion. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph.",
+      "editPrompt": "Correct the anatomy of this Dactylopterus volitans flying gurnard scientific reconstruction. REMOVE ALL the separate fingerlike thin walking rays dangling below its head/chest: this is not a sea robin. Keep normal small pelvic fins but NO free fingers or whiskers or spider-like legs below head. Preserve existing pose, setting, full fish proportions, blue spotted large pectoral fans, bony blunt head and scene action. Keep 1536x1024 landscape. No text or watermark."
+    },
+    {
+      "slug": "flying-gurnard",
+      "n": 6,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Flying Gurnard, Dactylopterus volitans. Scene: Fish facing a small shrimp on sandy bottom, no gore. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph.",
+      "editPrompt": "Correct the anatomy of this Dactylopterus volitans flying gurnard scientific reconstruction. REMOVE ALL the separate fingerlike thin walking rays dangling below its head/chest: this is not a sea robin. Keep normal small pelvic fins but NO free fingers or whiskers or spider-like legs below head. Preserve existing pose, setting, full fish proportions, blue spotted large pectoral fans, bony blunt head and scene action. Keep 1536x1024 landscape. No text or watermark."
+    }
+  ]
+}
