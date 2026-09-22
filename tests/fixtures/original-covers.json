@@ -2663,5 +2663,18 @@
       },
       "sha256": "3d9b0cb46b13f0c3bbfb03e2dcd513bc3009f9a4080789401e7dbbf94e0db8a9"
     }
+  },
+  "giant-frogfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 642,
+        "top": 120,
+        "right": 1480,
+        "bottom": 886
+      },
+      "sha256": "debb3d68314cd97f873b49d1a2e16beb83857d27b7a0da4ee481bb342ab399e2"
+    }
   }
 }

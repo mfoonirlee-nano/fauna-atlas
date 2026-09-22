@@ -3791,4 +3791,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 806
     }
   },
+  "giant-frogfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 642,
+      "top": 120,
+      "right": 1480,
+      "bottom": 886
+    }
+  },
 };

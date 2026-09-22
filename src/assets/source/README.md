@@ -562,3 +562,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Gerenuk image set](./species/gerenuk/README.md)
 - [Common Basilisk image set](./species/common-basilisk/README.md)
 - [Brahminy Blindsnake image set](./species/brahminy-blind-snake/README.md)
+- [Giant Frogfish image set](./species/giant-frogfish/README.md)
