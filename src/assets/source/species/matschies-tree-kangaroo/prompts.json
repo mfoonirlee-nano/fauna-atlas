@@ -1,0 +1,36 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-22",
+  "images": [
+    {
+      "slug": "matschies-tree-kangaroo",
+      "n": 1,
+      "prompt": "Generate one landscape 1536x1024 photorealistic scientific natural history reconstruction of a Matschie's tree kangaroo Dendrolagus matschiei resting on a thick branch in a Papua New Guinea montane rainforest. Rust red brown body, golden limbs and belly, long golden tail curled inward fully visible, rounded ears. Full animal on right side centered at 72% width, entire body and tail within x=760..1440 y=180..870. Left 40% quiet defocused forest for website title. Clear large subject with real background around every extremity. No text, watermark, collage. Save generated image."
+    },
+    {
+      "slug": "matschies-tree-kangaroo",
+      "n": 2,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Matschie’s Tree Kangaroo, Dendrolagus matschiei. Scene: Climbing a slanted tree trunk, four limbs gripping bark, whole body and tail visible. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "matschies-tree-kangaroo",
+      "n": 3,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Matschie’s Tree Kangaroo, Dendrolagus matschiei. Scene: Sitting on branch holding a leafy twig near mouth. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "matschies-tree-kangaroo",
+      "n": 4,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Matschie’s Tree Kangaroo, Dendrolagus matschiei. Scene: Side view walking on a thick horizontal branch, long tail hanging freely with tip visible. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "matschies-tree-kangaroo",
+      "n": 5,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Matschie’s Tree Kangaroo, Dendrolagus matschiei. Scene: Whole animal resting low on a branch with hind feet clearly visible gripping bark. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "matschies-tree-kangaroo",
+      "n": 6,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Matschie’s Tree Kangaroo, Dendrolagus matschiei. Scene: Animal sitting among leafy branches in misty montane rainforest. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    }
+  ]
+}
