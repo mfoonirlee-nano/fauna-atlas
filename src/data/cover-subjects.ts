@@ -3751,4 +3751,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 934
     }
   },
+  "south-african-springhare": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 745,
+      "top": 120,
+      "right": 1475,
+      "bottom": 864
+    }
+  },
 };

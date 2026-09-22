@@ -2611,5 +2611,18 @@
       },
       "sha256": "ffb3199a3984be55b00c4096130edf651899bc6fd6fb412df311cab814e9a385"
     }
+  },
+  "south-african-springhare": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 745,
+        "top": 120,
+        "right": 1475,
+        "bottom": 864
+      },
+      "sha256": "ab28697aece2c4a1fd2d4fbb78309cdeec726b3b903c5864423278d40c7540d3"
+    }
   }
 }

@@ -557,3 +557,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Common Pond Skater image set](./species/common-pond-skater/README.md)
 - [Christmas Tree Worm image set](./species/christmas-tree-worm/README.md)
 - [Bath Sponge image set](./species/bath-sponge/README.md)
+
+- [South African Springhare image set](./species/south-african-springhare/README.md)

@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "south-african-springhare",
+    "n": 1,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas natural history photographic reconstruction, landscape 1536x1024. Pedetes capensis, tawny South African springhare, large hind legs, tiny forelegs, long black-tipped furry tail, long upright ears, in sandy southern African grassland. Scene: sitting full body side view. Cover: complete animal including tail and ears entirely inside right 55% of frame, large subject center at 73% width, quiet left 40% for text overlay, real background margin on all edges. Natural realistic anatomy. No text, border or watermark.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-9bd1bff1-b195-4bb7-82ae-c5f07bedb107.png"
+  },
+  {
+    "slug": "south-african-springhare",
+    "n": 2,
+    "prompt": "Photorealistic natural-history reconstruction 1536x1024. Pedetes capensis, tawny South African springhare, large hind legs, tiny forelegs, long black-tipped furry tail, long upright ears, in sandy southern African grassland. Side profile comparing very large hind legs and short forelegs, entire animal in view, long dark tipped tail. No text.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-546da6dd-8e42-4412-9e9c-1990669d5f0d.png"
+  },
+  {
+    "slug": "south-african-springhare",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Pedetes capensis: tawny South African springhare, large hind legs, tiny forelegs, long black-tipped furry tail, long upright ears. Habitat: sandy southern African grassland. Scene: feeding on grass at dusk. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-bed6c4ac-1cb8-400d-acbd-48d9dd209f39.png"
+  },
+  {
+    "slug": "south-african-springhare",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Pedetes capensis: tawny South African springhare, large hind legs, tiny forelegs, long black-tipped furry tail, long upright ears. Habitat: sandy southern African grassland. Scene: at sandy burrow entrance. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-304d4295-e3f9-4821-baa8-94b3e0e8f09b.png"
+  },
+  {
+    "slug": "south-african-springhare",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Pedetes capensis: tawny South African springhare, large hind legs, tiny forelegs, long black-tipped furry tail, long upright ears. Habitat: sandy southern African grassland. Scene: hopping low above ground full body. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-df61ddb5-4e76-480b-b31b-17ef9c617452.png"
+  },
+  {
+    "slug": "south-african-springhare",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Pedetes capensis: tawny South African springhare, large hind legs, tiny forelegs, long black-tipped furry tail, long upright ears. Habitat: sandy southern African grassland. Scene: resting beside sparse grass. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-dc70b24d-b0e8-4b1d-a73b-e7d6f9d4e65f.png"
+  }
+]
