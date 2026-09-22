@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Argonauta argo, Greater Argonaut. Anatomy: female greater argonaut pelagic octopus, small reddish silver body and large eyes, eight arms, two expanded dorsal arm membranes wrapping a delicate WHITE thin laterally compressed coiled eggcase with fine ribs and paired keel tubercles, not a chambered nautilus, no striped shell. Setting: blue ocean surface waters. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Argonauta argo, Greater Argonaut. Anatomy: female greater argonaut pelagic octopus, small reddish silver body and large eyes, eight arms, two expanded dorsal arm membranes wrapping a delicate WHITE thin laterally compressed coiled eggcase with fine ribs and paired keel tubercles, not a chambered nautilus, no striped shell. Setting: blue ocean surface waters. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: female argonaut holding thin white ribbed eggcase, close lateral view. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Argonauta argo, Greater Argonaut. Anatomy: female greater argonaut pelagic octopus, small reddish silver body and large eyes, eight arms, two expanded dorsal arm membranes wrapping a delicate WHITE thin laterally compressed coiled eggcase with fine ribs and paired keel tubercles, not a chambered nautilus, no striped shell. Setting: blue ocean surface waters. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: macro outer surface of a whole delicate white Argonauta argo eggcase held by female, fine dense ribs, no cutaway. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Argonauta argo, Greater Argonaut. Anatomy: female greater argonaut pelagic octopus, small reddish silver body and large eyes, eight arms, two expanded dorsal arm membranes wrapping a delicate WHITE thin laterally compressed coiled eggcase with fine ribs and paired keel tubercles, not a chambered nautilus, no striped shell. Setting: blue ocean surface waters. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: female head and several clearly separated sucker-bearing arms extending naturally from eggcase opening, not excessive arms. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Argonauta argo, Greater Argonaut. Anatomy: female greater argonaut pelagic octopus, small reddish silver body and large eyes, eight arms, two expanded dorsal arm membranes wrapping a delicate WHITE thin laterally compressed coiled eggcase with fine ribs and paired keel tubercles, not a chambered nautilus, no striped shell. Setting: blue ocean surface waters. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: complete small female argonaut with white eggcase suspended in sunlit blue pelagic water, no seabed. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Landscape 1536x1024 photorealistic scientific reconstruction of ONE MALE Argonauta argo pelagic octopus. Tiny silvery reddish body, large eyes, eight delicate natural arms, NO eggcase, NO shell, NO expanded female arm membranes. Alone in blue upper ocean water, macro enlargement without misleading size comparison. No text labels borders."
+    }
+  ]
+}
