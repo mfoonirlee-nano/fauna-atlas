@@ -1,0 +1,31 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Generate a landscape 1536x1024 wildlife scientific reconstruction of an Amazon mata mata turtle Chelus fimbriata underwater on leaf litter. LEFT 45 percent exclusively empty softly lit water and bottom; turtle ALL on RIGHT, including snout strictly right of x700. Full turtle inside x700..1460 and y180..890. Accurate wide flat triangular head, small eyes, slim tubular snout, fringed neck, rough oval three-keeled shell, four webbed clawed feet and short tail. Front three-quarter view, attractive natural warm light, large clear complete subject with background clearance on every edge. No text.",
+      "previousPrompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Chelus fimbriata, Amazon Mata Mata. Anatomy: Amazon mata mata turtle, broad triangular flat head, tiny eyes, tubular snorkel snout, fringed skin flaps along long neck, rough brown oval shell with three knobby keels, four webbed feet. Setting: shallow Amazon freshwater leaf litter bottom. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Chelus fimbriata, Amazon Mata Mata. Anatomy: Amazon mata mata turtle, broad triangular flat head, tiny eyes, tubular snorkel snout, fringed skin flaps along long neck, rough brown oval shell with three knobby keels, four webbed feet. Setting: shallow Amazon freshwater leaf litter bottom. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: full head and fringed long neck beside brown submerged leaves, natural underwater close-up. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Chelus fimbriata, Amazon Mata Mata. Anatomy: Amazon mata mata turtle, broad triangular flat head, tiny eyes, tubular snorkel snout, fringed skin flaps along long neck, rough brown oval shell with three knobby keels, four webbed feet. Setting: shallow Amazon freshwater leaf litter bottom. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: side view in shallow freshwater with only tubular snout tip just reaching surface. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Chelus fimbriata, Amazon Mata Mata. Anatomy: Amazon mata mata turtle, broad triangular flat head, tiny eyes, tubular snorkel snout, fringed skin flaps along long neck, rough brown oval shell with three knobby keels, four webbed feet. Setting: shallow Amazon freshwater leaf litter bottom. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: three-quarter dorsal view of complete rough brown shell showing three keels. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Chelus fimbriata, Amazon Mata Mata. Anatomy: Amazon mata mata turtle, broad triangular flat head, tiny eyes, tubular snorkel snout, fringed skin flaps along long neck, rough brown oval shell with three knobby keels, four webbed feet. Setting: shallow Amazon freshwater leaf litter bottom. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: closed-mouth turtle waiting near a small fish, no invented action trail and no gore. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Chelus fimbriata, Amazon Mata Mata. Anatomy: Amazon mata mata turtle, broad triangular flat head, tiny eyes, tubular snorkel snout, fringed skin flaps along long neck, rough brown oval shell with three knobby keels, four webbed feet. Setting: shallow Amazon freshwater leaf litter bottom. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: complete turtle walking on silty shallow bottom with webbed feet visible. Clear readable educational scene. Anatomically correct and uncluttered."
+    }
+  ]
+}
