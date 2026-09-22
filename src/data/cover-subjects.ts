@@ -3821,4 +3821,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 709
     }
   },
+  "european-earwig": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 789,
+      "top": 193,
+      "right": 1403,
+      "bottom": 814
+    }
+  },
 };

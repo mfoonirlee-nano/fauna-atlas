@@ -565,3 +565,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Giant Frogfish image set](./species/giant-frogfish/README.md)
 - [Mandarinfish image set](./species/mandarinfish/README.md)
 - [Great Diving Beetle image set](./species/great-diving-beetle/README.md)
+- [European Earwig image set](./species/european-earwig/README.md)

@@ -2702,5 +2702,18 @@
       },
       "sha256": "20177e057f5f593325517f52b39f88af159b211d93e412e42c5e8a899a00591a"
     }
+  },
+  "european-earwig": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 789,
+        "top": 193,
+        "right": 1403,
+        "bottom": 814
+      },
+      "sha256": "b6dc38bae0679c86974fcc101065fa874b9e970ea5ff204b2ecb0f807bbf3db9"
+    }
   }
 }

@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "european-earwig",
+    "n": 1,
+    "prompt": "Edit this cover only by recomposing the same animal smaller and farther right on naturally extended same habitat. Landscape 1536x1024. All its extremities including antennae must fit between x=720 and x=1460, y=120 and y=900. Entire left 45% must be empty of any part of animal including antennae. Preserve species, pose and anatomy; include visible background space at all four sides. No text.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-abcf458d-cea2-408d-ab57-45f7b14eab23.png",
+    "reference": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-ded71583-a316-4e9b-b3bb-73edbb836a9a.png"
+  },
+  {
+    "slug": "european-earwig",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Forficula auricularia: adult male European earwig, slender brown segmented body, short leathery forewings, six legs, two antennae, single pair curved abdominal forceps. Habitat: temperate garden leaf litter. Scene: abdomen close view single pair curved forceps. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-239ee0c9-df7d-406d-83a1-753a3d41c33f.png"
+  },
+  {
+    "slug": "european-earwig",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Forficula auricularia: adult male European earwig, slender brown segmented body, short leathery forewings, six legs, two antennae, single pair curved abdominal forceps. Habitat: temperate garden leaf litter. Scene: walking over fallen leaf. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-d1633092-59a6-4e15-bb41-aa311ed7f8eb.png"
+  },
+  {
+    "slug": "european-earwig",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Forficula auricularia: adult male European earwig, slender brown segmented body, short leathery forewings, six legs, two antennae, single pair curved abdominal forceps. Habitat: temperate garden leaf litter. Scene: sheltering beneath loose bark. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-966e1782-0a7a-4cde-bd73-f4dfe59bdfa6.png"
+  },
+  {
+    "slug": "european-earwig",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Forficula auricularia: adult male European earwig, slender brown segmented body, short leathery forewings, six legs, two antennae, single pair curved abdominal forceps. Habitat: temperate garden leaf litter. Scene: side view feeding on plant fragment. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-9fe4aed4-8b65-405c-8548-9fc878e9bde2.png"
+  },
+  {
+    "slug": "european-earwig",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Forficula auricularia: adult male European earwig, slender brown segmented body, short leathery forewings, six legs, two antennae, single pair curved abdominal forceps. Habitat: temperate garden leaf litter. Scene: full body beside soil grains. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-a1b4c175-4731-4bd0-a426-f8c13a64d4ab.png"
+  }
+]
