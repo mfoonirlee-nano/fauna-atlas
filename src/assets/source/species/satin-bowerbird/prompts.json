@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ptilonorhynchus violaceus, Satin Bowerbird. Anatomy: adult male satin bowerbird with glossy blue-black plumage, violet blue iris and pale bluish ivory bill. Setting: eastern Australian wet forest floor. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ptilonorhynchus violaceus, Satin Bowerbird. Anatomy: adult male satin bowerbird with glossy blue-black plumage, violet blue iris and pale bluish ivory bill. Setting: eastern Australian wet forest floor. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: male beside two parallel vertical twig walls forming an avenue bower, open top. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ptilonorhynchus violaceus, Satin Bowerbird. Anatomy: adult male satin bowerbird with glossy blue-black plumage, violet blue iris and pale bluish ivory bill. Setting: eastern Australian wet forest floor. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: male arranging a blue flower beside bower with a few naturally shed blue feathers, no plastic. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Create NEW landscape 1536x1024 naturalistic wildlife photograph reconstruction: ONE FEMALE satin bowerbird Ptilonorhynchus violaceus perched alone on a leafy branch. Olive-green back and head, brown wings, off-white breast with dark scalloped pattern. Iris distinctly violet blue. Brownish horn-colored bill. NO blue-black male bird anywhere. No bower, no text. Clear close-up of whole female bird.",
+      "previousPrompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ptilonorhynchus violaceus, Satin Bowerbird. Anatomy: adult male satin bowerbird with glossy blue-black plumage, violet blue iris and pale bluish ivory bill. Setting: eastern Australian wet forest floor. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: adult female olive-green back pale scalloped breast violet iris perched on branch. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Create NEW landscape 1536x1024 naturalistic wildlife scientific reconstruction of ONE FEMALE satin bowerbird Ptilonorhynchus violaceus sitting at her simple twig cup nest high in leafy forest branches. Olive-green head and back, brown wings, pale belly with dark scalloping, distinctly violet blue iris and brownish bill. NO MALE BIRD anywhere, NO blue-black plumage, NO bower structure. Female alone with nest. No lettering.",
+      "previousPrompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ptilonorhynchus violaceus, Satin Bowerbird. Anatomy: adult male satin bowerbird with glossy blue-black plumage, violet blue iris and pale bluish ivory bill. Setting: eastern Australian wet forest floor. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: female beside a simple cup of twigs in leafy tree branches, no bower on ground in this scene. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Ptilonorhynchus violaceus, Satin Bowerbird. Anatomy: adult male satin bowerbird with glossy blue-black plumage, violet blue iris and pale bluish ivory bill. Setting: eastern Australian wet forest floor. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: adult male eating a small native rainforest berry on branch. Clear readable educational scene. Anatomically correct and uncluttered."
+    }
+  ]
+}
