@@ -1,0 +1,704 @@
+{
+  "cover": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 778,
+      "top": 130,
+      "right": 1518,
+      "bottom": 892
+    },
+    "sha256": "7992c096db026e9ac976519f2a430d48720c84ab8837bb7b78ca6a3654d95cd1"
+  },
+  "focalPoint": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "presentation": "full-bleed object-fit: cover; intentional edge cropping",
+  "checks": [
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "state": "settled",
+      "zoom": 1,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        549.22,
+        565.55
+      ],
+      "sourceCrop": [
+        773.3894736842105,
+        0.0,
+        1204.5473684210526,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "state": "initial",
+      "zoom": 1.04,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        571.19,
+        588.17
+      ],
+      "sourceCrop": [
+        773.3894736842105,
+        0.0,
+        1204.5473684210526,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "state": "forward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        562.95,
+        579.69
+      ],
+      "sourceCrop": [
+        773.3894736842105,
+        0.0,
+        1204.5473684210526,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "state": "forward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        557.46,
+        574.03
+      ],
+      "sourceCrop": [
+        773.3894736842105,
+        0.0,
+        1204.5473684210526,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "state": "backward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        562.95,
+        579.69
+      ],
+      "sourceCrop": [
+        773.3894736842105,
+        0.0,
+        1204.5473684210526,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "state": "backward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        557.46,
+        574.03
+      ],
+      "sourceCrop": [
+        773.3894736842105,
+        0.0,
+        1204.5473684210526,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "state": "settled",
+      "zoom": 1,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        549.22,
+        565.55
+      ],
+      "sourceCrop": [
+        707.3684210526316,
+        0.0,
+        1232.842105263158,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "state": "initial",
+      "zoom": 1.04,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        571.19,
+        588.17
+      ],
+      "sourceCrop": [
+        707.3684210526316,
+        0.0,
+        1232.842105263158,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "state": "forward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        562.95,
+        579.69
+      ],
+      "sourceCrop": [
+        707.3684210526316,
+        0.0,
+        1232.842105263158,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "state": "forward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        557.46,
+        574.03
+      ],
+      "sourceCrop": [
+        707.3684210526316,
+        0.0,
+        1232.842105263158,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "state": "backward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        562.95,
+        579.69
+      ],
+      "sourceCrop": [
+        707.3684210526316,
+        0.0,
+        1232.842105263158,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "state": "backward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        557.46,
+        574.03
+      ],
+      "sourceCrop": [
+        707.3684210526316,
+        0.0,
+        1232.842105263158,
+        1024.0
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "state": "settled",
+      "zoom": 1,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        658.1,
+        677.66
+      ],
+      "sourceCrop": [
+        0.0,
+        80.21083455344069,
+        1536.0,
+        943.7891654465593
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "state": "initial",
+      "zoom": 1.04,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        684.42,
+        704.77
+      ],
+      "sourceCrop": [
+        0.0,
+        80.21083455344069,
+        1536.0,
+        943.7891654465593
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "state": "forward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        674.55,
+        694.61
+      ],
+      "sourceCrop": [
+        0.0,
+        80.21083455344069,
+        1536.0,
+        943.7891654465593
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "state": "forward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        667.97,
+        687.83
+      ],
+      "sourceCrop": [
+        0.0,
+        80.21083455344069,
+        1536.0,
+        943.7891654465593
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "state": "backward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        674.55,
+        694.61
+      ],
+      "sourceCrop": [
+        0.0,
+        80.21083455344069,
+        1536.0,
+        943.7891654465593
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "state": "backward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        667.97,
+        687.83
+      ],
+      "sourceCrop": [
+        0.0,
+        80.21083455344069,
+        1536.0,
+        943.7891654465593
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "state": "settled",
+      "zoom": 1,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        925.0,
+        952.5
+      ],
+      "sourceCrop": [
+        0.0,
+        152.0,
+        1536.0,
+        872.0
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "state": "initial",
+      "zoom": 1.04,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        962.0,
+        990.6
+      ],
+      "sourceCrop": [
+        0.0,
+        152.0,
+        1536.0,
+        872.0
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "state": "forward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        948.12,
+        976.31
+      ],
+      "sourceCrop": [
+        0.0,
+        152.0,
+        1536.0,
+        872.0
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "state": "forward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        938.87,
+        966.79
+      ],
+      "sourceCrop": [
+        0.0,
+        152.0,
+        1536.0,
+        872.0
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "state": "backward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        948.12,
+        976.31
+      ],
+      "sourceCrop": [
+        0.0,
+        152.0,
+        1536.0,
+        872.0
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "state": "backward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        938.87,
+        966.79
+      ],
+      "sourceCrop": [
+        0.0,
+        152.0,
+        1536.0,
+        872.0
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "state": "settled",
+      "zoom": 1,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1233.33,
+        1270.0
+      ],
+      "sourceCrop": [
+        0.0,
+        242.0,
+        1536.0,
+        782.0
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "state": "initial",
+      "zoom": 1.04,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1282.67,
+        1320.8
+      ],
+      "sourceCrop": [
+        0.0,
+        242.0,
+        1536.0,
+        782.0
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "state": "forward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1264.17,
+        1301.75
+      ],
+      "sourceCrop": [
+        0.0,
+        242.0,
+        1536.0,
+        782.0
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "state": "forward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1251.83,
+        1289.05
+      ],
+      "sourceCrop": [
+        0.0,
+        242.0,
+        1536.0,
+        782.0
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "state": "backward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1264.17,
+        1301.75
+      ],
+      "sourceCrop": [
+        0.0,
+        242.0,
+        1536.0,
+        782.0
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "state": "backward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1251.83,
+        1289.05
+      ],
+      "sourceCrop": [
+        0.0,
+        242.0,
+        1536.0,
+        782.0
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "state": "settled",
+      "zoom": 1,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1850.0,
+        1905.0
+      ],
+      "sourceCrop": [
+        0.0,
+        332.0,
+        1536.0,
+        692.0
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "state": "initial",
+      "zoom": 1.04,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1924.0,
+        1981.2
+      ],
+      "sourceCrop": [
+        0.0,
+        332.0,
+        1536.0,
+        692.0
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "state": "forward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1896.25,
+        1952.62
+      ],
+      "sourceCrop": [
+        0.0,
+        332.0,
+        1536.0,
+        692.0
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "state": "forward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1877.75,
+        1933.57
+      ],
+      "sourceCrop": [
+        0.0,
+        332.0,
+        1536.0,
+        692.0
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "state": "backward-enter",
+      "zoom": 1.025,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1896.25,
+        1952.62
+      ],
+      "sourceCrop": [
+        0.0,
+        332.0,
+        1536.0,
+        692.0
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "state": "backward-leave",
+      "zoom": 1.015,
+      "canvasCovered": true,
+      "subjectProjectedSize": [
+        1877.75,
+        1933.57
+      ],
+      "sourceCrop": [
+        0.0,
+        332.0,
+        1536.0,
+        692.0
+      ]
+    }
+  ]
+}
