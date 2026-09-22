@@ -1,0 +1,33 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Leontopithecus rosalia, Golden Lion Tamarin. Anatomy: reddish golden fur, a lion-like golden mane surrounding a small dark bare face, slender fingers and long non-prehensile golden tail. Setting: Brazilian Atlantic rainforest branches. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas.",
+      "edits": [
+        "Edit this golden lion tamarin cover, retain photographic style and accurate animal. Critical layout fix: the entire animal including its long tail must lie RIGHT of x=650 in this 1536 pixel image. Keep head, hands, feet complete. Repose tail to descend almost vertically below body with tip curling gently RIGHT, NOT sweeping left. Keep subject large, no body part cropped, at least 45 pixels background on all edges. Left 42% quiet forest with no animal. Preserve landscape 1536x1024. No text."
+      ]
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Leontopithecus rosalia, Golden Lion Tamarin. Anatomy: reddish golden fur, a lion-like golden mane surrounding a small dark bare face, slender fingers and long non-prehensile golden tail. Setting: Brazilian Atlantic rainforest branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: portrait showing golden mane and small dark bare face. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Leontopithecus rosalia, Golden Lion Tamarin. Anatomy: reddish golden fur, a lion-like golden mane surrounding a small dark bare face, slender fingers and long non-prehensile golden tail. Setting: Brazilian Atlantic rainforest branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: one hand probing a bark crevice, all fingers anatomically coherent. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Leontopithecus rosalia, Golden Lion Tamarin. Anatomy: reddish golden fur, a lion-like golden mane surrounding a small dark bare face, slender fingers and long non-prehensile golden tail. Setting: Brazilian Atlantic rainforest branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: holding and eating a small native forest fruit. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Leontopithecus rosalia, Golden Lion Tamarin. Anatomy: reddish golden fur, a lion-like golden mane surrounding a small dark bare face, slender fingers and long non-prehensile golden tail. Setting: Brazilian Atlantic rainforest branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: two tamarins resting at a tree hollow entrance at dusk. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Leontopithecus rosalia, Golden Lion Tamarin. Anatomy: reddish golden fur, a lion-like golden mane surrounding a small dark bare face, slender fingers and long non-prehensile golden tail. Setting: Brazilian Atlantic rainforest branches. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: one adult carrying a tiny fully furred infant clinging to its back. Clear readable educational scene. Anatomically correct and uncluttered."
+    }
+  ]
+}
