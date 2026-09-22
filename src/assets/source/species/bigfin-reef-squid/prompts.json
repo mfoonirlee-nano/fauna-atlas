@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Sepioteuthis lessoniana, Bigfin Reef Squid. Anatomy: bigfin reef squid with elongated translucent brown-speckled mantle surrounded by broad oval lateral fins along nearly full mantle length, large eyes, eight short arms and two retractile feeding tentacles naturally held together, no external shell. Setting: Indo-West Pacific shallow coral reef water. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Sepioteuthis lessoniana, Bigfin Reef Squid. Anatomy: bigfin reef squid with elongated translucent brown-speckled mantle surrounded by broad oval lateral fins along nearly full mantle length, large eyes, eight short arms and two retractile feeding tentacles naturally held together, no external shell. Setting: Indo-West Pacific shallow coral reef water. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: whole squid dorsal oblique view clearly showing broad oval lateral fins. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Sepioteuthis lessoniana, Bigfin Reef Squid. Anatomy: bigfin reef squid with elongated translucent brown-speckled mantle surrounded by broad oval lateral fins along nearly full mantle length, large eyes, eight short arms and two retractile feeding tentacles naturally held together, no external shell. Setting: Indo-West Pacific shallow coral reef water. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: close view of head and naturally separated short arms with coherent rows of suckers. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Sepioteuthis lessoniana, Bigfin Reef Squid. Anatomy: bigfin reef squid with elongated translucent brown-speckled mantle surrounded by broad oval lateral fins along nearly full mantle length, large eyes, eight short arms and two retractile feeding tentacles naturally held together, no external shell. Setting: Indo-West Pacific shallow coral reef water. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: side mantle close view showing brown chromatophore dots on translucent skin, natural colors. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Sepioteuthis lessoniana, Bigfin Reef Squid. Anatomy: bigfin reef squid with elongated translucent brown-speckled mantle surrounded by broad oval lateral fins along nearly full mantle length, large eyes, eight short arms and two retractile feeding tentacles naturally held together, no external shell. Setting: Indo-West Pacific shallow coral reef water. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: whole squid facing one small shrimp at reef edge before capture, no gore. Clear readable educational scene. Anatomically correct and uncluttered."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Sepioteuthis lessoniana, Bigfin Reef Squid. Anatomy: bigfin reef squid with elongated translucent brown-speckled mantle surrounded by broad oval lateral fins along nearly full mantle length, large eyes, eight short arms and two retractile feeding tentacles naturally held together, no external shell. Setting: Indo-West Pacific shallow coral reef water. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: realistic cluster of elongated translucent whitish squid egg capsules attached to submerged branching twig at reef edge, no adult guarding. Clear readable educational scene. Anatomically correct and uncluttered."
+    }
+  ]
+}
