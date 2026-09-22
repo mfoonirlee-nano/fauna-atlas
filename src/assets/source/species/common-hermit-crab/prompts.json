@@ -1,0 +1,36 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-22",
+  "images": [
+    {
+      "slug": "common-hermit-crab",
+      "n": 1,
+      "prompt": "Keep this hermit crab exactly anatomically the same: large claw on viewer LEFT, small claw on viewer RIGHT. Recompose the complete crab AND its shell AND antennae to fit x=700..1430 and y=100..900 on 1536x1024 canvas, reduce subject size slightly and move right. No appendage may extend into left 43 percent of image. Keep pebbles natural and quiet to left. Full antenna tips and full shell with generous real background beyond tips. No text, no watermark."
+    },
+    {
+      "slug": "common-hermit-crab",
+      "n": 2,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Common Hermit Crab, Pagurus bernhardus. Scene: Hermit crab walking with empty whelk shell over small underwater pebbles. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "common-hermit-crab",
+      "n": 3,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Common Hermit Crab, Pagurus bernhardus. Scene: Front view crab at shell opening, anatomical right claw visibly larger. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "common-hermit-crab",
+      "n": 4,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Common Hermit Crab, Pagurus bernhardus. Scene: Close front view of stalked eyes antennae and claws emerging from shell. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "common-hermit-crab",
+      "n": 5,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Common Hermit Crab, Pagurus bernhardus. Scene: Crab still safely inside its current shell examining a larger empty whelk shell nearby. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "common-hermit-crab",
+      "n": 6,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Common Hermit Crab, Pagurus bernhardus. Scene: Whole hermit crab among small pebbles on sandy northeast Atlantic seabed. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    }
+  ]
+}
