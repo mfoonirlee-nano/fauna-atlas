@@ -561,3 +561,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [South African Springhare image set](./species/south-african-springhare/README.md)
 - [Gerenuk image set](./species/gerenuk/README.md)
 - [Common Basilisk image set](./species/common-basilisk/README.md)
+- [Brahminy Blindsnake image set](./species/brahminy-blind-snake/README.md)

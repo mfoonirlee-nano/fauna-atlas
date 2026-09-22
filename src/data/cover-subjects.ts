@@ -3781,4 +3781,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 947
     }
   },
+  "brahminy-blind-snake": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 646,
+      "top": 105,
+      "right": 1472,
+      "bottom": 806
+    }
+  },
 };
