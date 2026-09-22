@@ -2715,5 +2715,18 @@
       },
       "sha256": "b6dc38bae0679c86974fcc101065fa874b9e970ea5ff204b2ecb0f807bbf3db9"
     }
+  },
+  "scarlet-cleaner-shrimp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 758,
+        "top": 222,
+        "right": 1456,
+        "bottom": 824
+      },
+      "sha256": "7eb043f8b1ef91386566a85691d0af94b7f52c774599faf2ef25c61941a3b271"
+    }
   }
 }

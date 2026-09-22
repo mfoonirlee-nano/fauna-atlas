@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "scarlet-cleaner-shrimp",
+    "n": 1,
+    "prompt": "Edit this cover only by recomposing the same animal smaller and farther right on naturally extended same habitat. Landscape 1536x1024. All its extremities including antennae must fit between x=720 and x=1460, y=120 and y=900. Entire left 45% must be empty of any part of animal including antennae. Preserve species, pose and anatomy; include visible background space at all four sides. No text.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-a77874fe-3b49-45d7-a256-9f1e5288f373.png",
+    "reference": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-796b186e-e36c-4141-b9e0-00b116d0a2db.png"
+  },
+  {
+    "slug": "scarlet-cleaner-shrimp",
+    "n": 2,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Lysmata amboinensis: scarlet cleaner shrimp, translucent yellow sides, two red dorsal bands framing continuous central white stripe, very long white antennae, slender legs, white tail spots. Habitat: Indo-Pacific coral reef crevice. Scene: dorsal view white stripe between red bands. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-56aa78ec-e7a0-479b-b8eb-5d33c2eb2e42.png"
+  },
+  {
+    "slug": "scarlet-cleaner-shrimp",
+    "n": 3,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Lysmata amboinensis: scarlet cleaner shrimp, translucent yellow sides, two red dorsal bands framing continuous central white stripe, very long white antennae, slender legs, white tail spots. Habitat: Indo-Pacific coral reef crevice. Scene: one shrimp beside resting reef fish cleaning flank without wounds. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-8a5f8722-73ce-47a1-9269-752a1a4fef01.png"
+  },
+  {
+    "slug": "scarlet-cleaner-shrimp",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Lysmata amboinensis: scarlet cleaner shrimp, translucent yellow sides, two red dorsal bands framing continuous central white stripe, very long white antennae, slender legs, white tail spots. Habitat: Indo-Pacific coral reef crevice. Scene: side view delicate legs on rock. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-b755aa83-3c72-4d06-8ec4-6441a82d44d1.png"
+  },
+  {
+    "slug": "scarlet-cleaner-shrimp",
+    "n": 5,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Lysmata amboinensis: scarlet cleaner shrimp, translucent yellow sides, two red dorsal bands framing continuous central white stripe, very long white antennae, slender legs, white tail spots. Habitat: Indo-Pacific coral reef crevice. Scene: sheltering beneath rocky overhang. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-289dedb0-442f-40a9-8549-1aef98fe193e.png"
+  },
+  {
+    "slug": "scarlet-cleaner-shrimp",
+    "n": 6,
+    "prompt": "Use case: photorealistic-natural. Fauna Atlas photographic scientific reconstruction landscape 1536x1024. Lysmata amboinensis: scarlet cleaner shrimp, translucent yellow sides, two red dorsal bands framing continuous central white stripe, very long white antennae, slender legs, white tail spots. Habitat: Indo-Pacific coral reef crevice. Scene: front oblique view showing long white antennae. Accurate anatomy, natural lighting, clear subject. Macro uses natural substrate context not exact scale. No text or border.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0c99e-87c6-7070-8d29-188e662b8dfe/exec-e750b2df-eb71-4c21-abcc-761fb4fc2927.png"
+  }
+]

@@ -3831,4 +3831,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 814
     }
   },
+  "scarlet-cleaner-shrimp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 758,
+      "top": 222,
+      "right": 1456,
+      "bottom": 824
+    }
+  },
 };

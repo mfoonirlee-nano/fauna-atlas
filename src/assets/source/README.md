@@ -566,3 +566,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Mandarinfish image set](./species/mandarinfish/README.md)
 - [Great Diving Beetle image set](./species/great-diving-beetle/README.md)
 - [European Earwig image set](./species/european-earwig/README.md)
+- [Pacific Cleaner Shrimp image set](./species/scarlet-cleaner-shrimp/README.md)
