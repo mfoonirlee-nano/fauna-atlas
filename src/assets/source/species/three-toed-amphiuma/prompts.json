@@ -1,0 +1,48 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "scientific-educational",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Amphiuma tridactylum, Three-toed Amphiuma. Anatomy: very elongated dark brown cylindrical salamander with small eyes, smooth wet skin, FOUR extremely tiny legs each with THREE tiny toes, flattened tail, NO external feathery gills, not an eel. Setting: south-central United States freshwater swamp. No text, labels, logos, frames, split panels or anthropomorphism. COVER: asymmetric composition. The LEFT 42% of the entire image is EMPTY quiet habitat background. Place ONE COMPLETE animal entirely in the RIGHT HALF, centered at 73% image width. Include ALL tail, feet, antennae, fin or arm tips with generous background clearance. Animal occupies about 48% of image width and 70% height, large but fully contained. Side or three-quarter natural resting or swimming pose. Do not center the animal on the canvas.",
+      "edits": [
+        "Edit this scientific illustration of Amphiuma tridactylum. Critical anatomy correction: EVERY visible foot has EXACTLY THREE tiny slender digits: one left toe, one central toe, one right toe. Remove any fourth or fifth toe, including thumb-like protrusions. The legs are extremely small vestigial limbs, reduce their thickness. Keep the same scene, framing, elongated body, head and tail, and photographic style. Skin dark brown and smooth, no external gills. Landscape 1536x1024. No text."
+      ]
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Amphiuma tridactylum, Three-toed Amphiuma. Anatomy: very elongated dark brown cylindrical salamander with small eyes, smooth wet skin, FOUR extremely tiny legs each with THREE tiny toes, flattened tail, NO external feathery gills, not an eel. Setting: south-central United States freshwater swamp. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: side close view showing near-side tiny front and rear legs, three tiny toes on each visible foot. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit this scientific illustration of Amphiuma tridactylum. Critical anatomy correction: EVERY visible foot has EXACTLY THREE tiny slender digits: one left toe, one central toe, one right toe. Remove any fourth or fifth toe, including thumb-like protrusions. The legs are extremely small vestigial limbs, reduce their thickness. Keep the same scene, framing, elongated body, head and tail, and photographic style. Skin dark brown and smooth, no external gills. Landscape 1536x1024. No text."
+      ]
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Amphiuma tridactylum, Three-toed Amphiuma. Anatomy: very elongated dark brown cylindrical salamander with small eyes, smooth wet skin, FOUR extremely tiny legs each with THREE tiny toes, flattened tail, NO external feathery gills, not an eel. Setting: south-central United States freshwater swamp. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: whole animal swimming in gentle S shape, all tail in frame. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit this scientific illustration of Amphiuma tridactylum. Critical anatomy correction: EVERY visible foot has EXACTLY THREE tiny slender digits: one left toe, one central toe, one right toe. Remove any fourth or fifth toe, including thumb-like protrusions. The legs are extremely small vestigial limbs, reduce their thickness. Keep the same scene, framing, elongated body, head and tail, and photographic style. Skin dark brown and smooth, no external gills. Landscape 1536x1024. No text."
+      ]
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Amphiuma tridactylum, Three-toed Amphiuma. Anatomy: very elongated dark brown cylindrical salamander with small eyes, smooth wet skin, FOUR extremely tiny legs each with THREE tiny toes, flattened tail, NO external feathery gills, not an eel. Setting: south-central United States freshwater swamp. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: head and tiny forelegs emerging from muddy submerged crayfish burrow. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit this scientific illustration of Amphiuma tridactylum. Critical anatomy correction: EVERY visible foot has EXACTLY THREE tiny slender digits: one left toe, one central toe, one right toe. Remove any fourth or fifth toe, including thumb-like protrusions. The legs are extremely small vestigial limbs, reduce their thickness. Keep the same scene, framing, elongated body, head and tail, and photographic style. Skin dark brown and smooth, no external gills. Landscape 1536x1024. No text."
+      ]
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Amphiuma tridactylum, Three-toed Amphiuma. Anatomy: very elongated dark brown cylindrical salamander with small eyes, smooth wet skin, FOUR extremely tiny legs each with THREE tiny toes, flattened tail, NO external feathery gills, not an eel. Setting: south-central United States freshwater swamp. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: amphiuma near a crayfish on swamp bottom without contact or gore. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit this scientific illustration of Amphiuma tridactylum. Critical anatomy correction: EVERY visible foot has EXACTLY THREE tiny slender digits: one left toe, one central toe, one right toe. Remove any fourth or fifth toe, including thumb-like protrusions. The legs are extremely small vestigial limbs, reduce their thickness. Keep the same scene, framing, elongated body, head and tail, and photographic style. Skin dark brown and smooth, no external gills. Landscape 1536x1024. No text."
+      ]
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Landscape 1536x1024. Photorealistic naturalistic scientific reconstruction for a children fauna atlas. Species: Amphiuma tridactylum, Three-toed Amphiuma. Anatomy: very elongated dark brown cylindrical salamander with small eyes, smooth wet skin, FOUR extremely tiny legs each with THREE tiny toes, flattened tail, NO external feathery gills, not an eel. Setting: south-central United States freshwater swamp. No text, labels, logos, frames, split panels or anthropomorphism. GALLERY: head touching calm surface to breathe, body underwater, no external gills. Clear readable educational scene. Anatomically correct and uncluttered.",
+      "edits": [
+        "Edit this scientific illustration of Amphiuma tridactylum. Critical anatomy correction: EVERY visible foot has EXACTLY THREE tiny slender digits: one left toe, one central toe, one right toe. Remove any fourth or fifth toe, including thumb-like protrusions. The legs are extremely small vestigial limbs, reduce their thickness. Keep the same scene, framing, elongated body, head and tail, and photographic style. Skin dark brown and smooth, no external gills. Landscape 1536x1024. No text."
+      ]
+    }
+  ]
+}
