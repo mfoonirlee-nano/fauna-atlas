@@ -53,10 +53,16 @@ export function speciesBundle(): Plugin {
           s: summary, c: conservation.code,
           // Distribution keys repeat for every species; encode optional center last.
           d: [encodeLabels(distribution.regions), encodeLabels(distribution.realms), ...(distribution.center === undefined ? [] : [distribution.center])],
+          // The standard cover filename and focal point use compact sentinels.
           m: [media.image?.startsWith(`./images/species/${item.slug}/`)
             && !media.image.slice(`./images/species/${item.slug}/`.length).includes('/')
-            ? media.image.slice(`./images/species/${item.slug}/`.length, -'.webp'.length) : media.image,
-            media.alt, media.focalPoint ? [media.focalPoint.x, media.focalPoint.y] : undefined],
+            ? media.image.endsWith('/01-cover.webp')
+              ? 1 : media.image.slice(`./images/species/${item.slug}/`.length, -'.webp'.length)
+            : media.image,
+            media.alt, media.focalPoint
+              ? media.focalPoint.x === 0.7 && media.focalPoint.y === 0.5
+                ? 1 : [media.focalPoint.x, media.focalPoint.y]
+              : undefined],
           h: encodeLabels(habitats.map(({ name }) => name)), g: encodeLabels(tags),
           ...(id === item.slug ? {} : { id }),
           t: taxonomyRanks.map((rank) => indexes.get(JSON.stringify(taxonomy[rank]))),
@@ -70,7 +76,7 @@ export function speciesBundle(): Plugin {
           const labels=${JSON.stringify(labels)};
           const restoreLabels=values=>values.map(value=>typeof value==='number'?labels[value]:value);
           export const species=${JSON.stringify(catalogue)}.map(({l,n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,names:{zh:l[0],en:l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[5]].scientificName+' '+n,summary:s,
-            conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]&&!m[0].includes('/')?'./images/species/'+item.slug+'/'+m[0]+'.webp':m[0]??undefined,alt:m[1],focalPoint:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
+            conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+item.slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
             taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[t[index]]]))}));
           const loaders={${loaders}};
           export async function loadSpecies(slug){
