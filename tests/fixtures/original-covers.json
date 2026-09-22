@@ -2351,5 +2351,135 @@
       },
       "sha256": "8d5c48ca075c988472b2cea37fbb362f6ee45409090b6506fd6c8dfcaea033d0"
     }
+  },
+  "matschies-tree-kangaroo": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 817,
+        "top": 89,
+        "right": 1396,
+        "bottom": 934
+      },
+      "sha256": "cfa8e0aae8c962c29c8db6e9550a9c188a9abb7d420b4865ff52d7e9de934710"
+    }
+  },
+  "cape-porcupine": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 699,
+        "top": 218,
+        "right": 1491,
+        "bottom": 833
+      },
+      "sha256": "b6ca6c38bf366d7fc806c2f3a6ed250737c0b427217580c83c8d13e8d28fa8a7"
+    }
+  },
+  "greater-roadrunner": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 754,
+        "top": 98,
+        "right": 1487,
+        "bottom": 911
+      },
+      "sha256": "76afda1a3befd07c6089c6f40290bde5c04286731a527ea5da7cb50b5ef645b6"
+    }
+  },
+  "sunbittern": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 703,
+        "top": 125,
+        "right": 1444,
+        "bottom": 876
+      },
+      "sha256": "f821ff9aa8843f6ddd166b6a1ae6a86b730636ab1403367ae4a427c505ca068d"
+    }
+  },
+  "yellow-lipped-sea-krait": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 737,
+        "top": 158,
+        "right": 1485,
+        "bottom": 922
+      },
+      "sha256": "80b3cda41a1ebd76c29dfa8d1fb42204129e10f638d7a8f4ccda822dc9e3f877"
+    }
+  },
+  "flying-gurnard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 741,
+        "top": 210,
+        "right": 1482,
+        "bottom": 801
+      },
+      "sha256": "7818ae5a19a068298a2c6b64e75e6361d200b34bf1566025707c31dc1407d2a6"
+    }
+  },
+  "chinese-trumpetfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 619,
+        "top": 130,
+        "right": 1481,
+        "bottom": 840
+      },
+      "sha256": "b02ba1feb79d46a37aa004741b59a35029e3a6db5d37005dd9c7279c14689d16"
+    }
+  },
+  "violet-carpenter-bee": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 237,
+        "right": 1435,
+        "bottom": 766
+      },
+      "sha256": "ac1e3bf696466b96220b322fe7e6525786618c00f6d972ec73ea6fefba34b3b9"
+    }
+  },
+  "common-hermit-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 698,
+        "top": 165,
+        "right": 1448,
+        "bottom": 845
+      },
+      "sha256": "644a4be9b8c2b7ee48f767187c5b663dea7a56c4e6722a002ebe9d1434c4b0f3"
+    }
+  },
+  "pacific-sea-nettle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 723,
+        "top": 37,
+        "right": 1468,
+        "bottom": 978
+      },
+      "sha256": "7b6e0e8d4074aef6eb39439555ce648bf59292edb82b65215aad9463d0635f0b"
+    }
   }
 }

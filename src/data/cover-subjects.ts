@@ -3550,5 +3550,105 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1395,
       "bottom": 824
     }
+  },
+  "matschies-tree-kangaroo": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 817,
+      "top": 89,
+      "right": 1396,
+      "bottom": 934
+    }
+  },
+  "cape-porcupine": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 699,
+      "top": 218,
+      "right": 1491,
+      "bottom": 833
+    }
+  },
+  "greater-roadrunner": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 754,
+      "top": 98,
+      "right": 1487,
+      "bottom": 911
+    }
+  },
+  "sunbittern": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 703,
+      "top": 125,
+      "right": 1444,
+      "bottom": 876
+    }
+  },
+  "yellow-lipped-sea-krait": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 737,
+      "top": 158,
+      "right": 1485,
+      "bottom": 922
+    }
+  },
+  "flying-gurnard": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 741,
+      "top": 210,
+      "right": 1482,
+      "bottom": 801
+    }
+  },
+  "chinese-trumpetfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 619,
+      "top": 130,
+      "right": 1481,
+      "bottom": 840
+    }
+  },
+  "violet-carpenter-bee": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 237,
+      "right": 1435,
+      "bottom": 766
+    }
+  },
+  "common-hermit-crab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 698,
+      "top": 165,
+      "right": 1448,
+      "bottom": 845
+    }
+  },
+  "pacific-sea-nettle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 723,
+      "top": 37,
+      "right": 1468,
+      "bottom": 978
+    }
   }
 };
