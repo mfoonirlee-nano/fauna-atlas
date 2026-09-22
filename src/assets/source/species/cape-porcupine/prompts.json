@@ -1,0 +1,36 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-22",
+  "images": [
+    {
+      "slug": "cape-porcupine",
+      "n": 1,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction. Subject: Cape porcupine Hystrix africaeaustralis, black brown stocky body, long black white banded quills folded backwards, four short legs, small head, no launched quills. Environment: southern African scrubland at dusk. Canonical website cover: large clear ENTIRE subject fully contained in right half, center x=72%, boundary ideally x=730..1430 y=120..910. Keep all fins, quills, legs, tail, tentacles inside frame with visible background clearance. Left 40% quiet defocused environment for copy. Anatomically accurate. No text, logo, collage, frame, humans."
+    },
+    {
+      "slug": "cape-porcupine",
+      "n": 2,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Cape Porcupine, Hystrix africaeaustralis. Scene: Side view of relaxed porcupine showing long banded quills lying backwards. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "cape-porcupine",
+      "n": 3,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Cape Porcupine, Hystrix africaeaustralis. Scene: Digging gently at earth beside exposed plant roots at dusk. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "cape-porcupine",
+      "n": 4,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Cape Porcupine, Hystrix africaeaustralis. Scene: Whole porcupine walking on open sandy woodland path. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "cape-porcupine",
+      "n": 5,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Cape Porcupine, Hystrix africaeaustralis. Scene: Resting just outside shaded rocky burrow entrance, full quills visible. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    },
+    {
+      "slug": "cape-porcupine",
+      "n": 6,
+      "prompt": "One 1536x1024 landscape photorealistic scientific natural history reconstruction for a child-friendly animal atlas. Species precisely Cape Porcupine, Hystrix africaeaustralis. Scene: Rear three quarter full body view with short tail quills and long back quills visible. Scientifically accurate anatomy and natural colors, species appropriate habitat. Show a clear animal, correctly count limbs, avoid cropped extremities except deliberate close detail portraits. No text, scales, labels, logos, watermark, collage, people. For tree kangaroo use rust-brown body and golden tail and limbs. For carpenter bee use female black body and violet wings. Hermit crab has larger anatomical RIGHT claw. Yellow-lipped sea krait has yellow muzzle, black rings and flattened paddle tail. All trumpetfish images yellow morph."
+    }
+  ]
+}
