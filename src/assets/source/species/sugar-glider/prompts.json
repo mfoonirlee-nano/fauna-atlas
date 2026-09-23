@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "sugar-glider",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. Generate one 1536x1024 landscape photorealistic natural history reconstruction for Fauna Atlas cover. Subject: a wild sugar glider Petaurus breviceps perched sideways on a eucalyptus branch in eastern coastal Australia, grey fur, black dorsal stripe, large eyes, long furry tail curled gently behind, membrane folded between wrists and ankles. Full animal including all visible feet and tail occupies right half, bounding area roughly x=800..1450 y=180..870, center at 72% width. Left 40% quiet blurred eucalyptus forest at twilight. Clear natural anatomy, no clothing, no text, no watermark, no collage. Complete subject with background clearance on all sides.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-435f79d1-8e78-4c59-8273-290ec091f7c2.png"
+  },
+  {
+    "slug": "sugar-glider",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: Petaurus breviceps sugar glider gliding between eucalyptus trees at dusk, four limbs extended, skin membrane from fifth finger to ankle, long furry tail trailing, grey fur black dorsal stripe; entire animal. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-57a5f979-0dc0-4908-8f4a-7cca58978ff7.png"
+  },
+  {
+    "slug": "sugar-glider",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: Petaurus breviceps climbing vertically on eucalyptus bark at night, claws gripping, folded side membrane. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-5499a2c2-4550-42f5-8f0f-d0acc91eb9ac.png"
+  },
+  {
+    "slug": "sugar-glider",
+    "n": 4,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 4. One 1536x1024 landscape photorealistic natural history reconstruction: Petaurus breviceps resting inside a natural tree hollow lined with dry leaves in daylight, visible head and front body. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-c7220925-a480-4d0d-ac12-18fd0ef7c9c0.png"
+  },
+  {
+    "slug": "sugar-glider",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: Petaurus breviceps licking sap from a small natural bark wound on acacia branch at night, no human food. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-268c58e9-01e4-46f6-9cb1-7173b0cff415.png"
+  },
+  {
+    "slug": "sugar-glider",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: Petaurus breviceps perched lengthwise on a branch, long furry tail fully visible for balance, coastal Australian woodland. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-00e9d41f-3e14-4485-b225-b3cbd8402313.png"
+  }
+]

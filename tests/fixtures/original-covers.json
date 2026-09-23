@@ -2741,5 +2741,18 @@
       },
       "sha256": "80c431f9a537b489af27fd89966085156716ce4657984abab91536603172072b"
     }
+  },
+  "sugar-glider": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 670,
+        "top": 200,
+        "right": 1475,
+        "bottom": 920
+      },
+      "sha256": "1f812a537874630454dd32e361a893c8dda5d5f7150e3e7ae1636a54eab0eb24"
+    }
   }
 }

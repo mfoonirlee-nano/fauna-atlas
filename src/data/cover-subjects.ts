@@ -3850,5 +3850,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1470,
       "bottom": 949
     }
+  },
+  "sugar-glider": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 670,
+      "top": 200,
+      "right": 1475,
+      "bottom": 920
+    }
   }
 };
