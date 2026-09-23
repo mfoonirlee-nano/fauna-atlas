@@ -24326,7 +24326,7 @@ test('the second five-species todo batch keeps five distinct species and the rev
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 392);
+  assert.equal(species.length, 393);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24384,7 +24384,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 49);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 50);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24397,11 +24397,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Spirostreptida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Spirostreptidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Archispirostreptus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'class', 'Malacostraca')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'order', 'Stomatopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Odontodactylidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Odontodactylus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Decapoda')?.speciesCount, 7);
   assert.equal(findTaxon(tree, 'family', 'Coenobitidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Birgus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
@@ -24497,7 +24497,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 392);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 393);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);

@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "japanese-spider-crab",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. One 1536x1024 natural history photo reconstruction, Macrocheira kaempferi Japanese spider crab on sandy deep Japanese seabed, orange mottled small pear-shaped carapace and extremely long slender jointed legs, exactly ten appendages total: eight walking legs and two front chelipeds. Entire body and every leg tip visible, natural bent legs gathered enough for right-side composition.. STRICT COMPOSITION: whole animal confined to rightmost 52% of image, its leftmost point x=750 or greater, rightmost x=1460 or less, top >70 bottom <960. Animal prominent. LEFT HALF entirely softly blurred empty habitat. All outer features included.  No text, no watermark, no collage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-b850b27d-dd69-4a82-8a4d-3a2bcc21f067.png"
+  },
+  {
+    "slug": "japanese-spider-crab",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: Macrocheira kaempferi Japanese spider crab entire body from above on sandy seabed, ten appendages: eight very long jointed walking legs and two chelipeds, orange white mottling. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-6b89687a-2bd2-4382-85f2-db406e2b2920.png"
+  },
+  {
+    "slug": "japanese-spider-crab",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: close view Macrocheira kaempferi carapace and stalked eyes from front, orange cream rough spiny shell, natural dim seabed. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-34d5caa2-340f-42b0-8394-a6f8907bda4e.png"
+  },
+  {
+    "slug": "japanese-spider-crab",
+    "n": 4,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 4. One 1536x1024 landscape photorealistic natural history reconstruction: Macrocheira kaempferi using front slender claws to pick small food fragment from seabed, eight walking legs plus two claws, full crab. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-7a146a19-d0b9-47c0-9f90-efb49f465292.png"
+  },
+  {
+    "slug": "japanese-spider-crab",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: Macrocheira kaempferi walking sideways on seabed, long jointed legs spread naturally, orange and white mottled carapace. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-08ce6c3a-e6f2-4a18-8a7f-5ae856f06321.png"
+  },
+  {
+    "slug": "japanese-spider-crab",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: two Macrocheira kaempferi on Japanese sandy rocky seabed, separated whole bodies at different distances, ten appendages each, no diver. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-b5c7e413-2c72-476b-90d0-6f60e1bde473.png"
+  }
+]

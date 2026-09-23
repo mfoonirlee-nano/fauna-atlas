@@ -2832,5 +2832,18 @@
       },
       "sha256": "9852f07b9920e1e4eeb5d0c7a910c93829cb533422cf2c6434de533d35851f0c"
     }
+  },
+  "japanese-spider-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 707,
+        "top": 132,
+        "right": 1485,
+        "bottom": 925
+      },
+      "sha256": "283948dd04c48693fbc75e76cdea3ed13855cd139c9dc9e9502def8a8613737e"
+    }
   }
 }

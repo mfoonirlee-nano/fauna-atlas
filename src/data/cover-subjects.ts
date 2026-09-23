@@ -3920,5 +3920,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1415,
       "bottom": 981
     }
+  },
+  "japanese-spider-crab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 707,
+      "top": 132,
+      "right": 1485,
+      "bottom": 925
+    }
   }
 };
