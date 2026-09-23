@@ -59,7 +59,7 @@ export function speciesBundle(): Plugin {
             ? media.image.endsWith('/01-cover.webp')
               ? 1 : media.image.slice(`./images/species/${item.slug}/`.length, -'.webp'.length)
             : media.image,
-            media.alt, media.focalPoint
+            media.alt === `${names.zh}及其栖息环境，AI 生成科学情景重建` ? 1 : media.alt, media.focalPoint
               ? media.focalPoint.x === 0.7 && media.focalPoint.y === 0.5
                 ? 1 : [media.focalPoint.x, media.focalPoint.y]
               : undefined],
@@ -77,7 +77,7 @@ export function speciesBundle(): Plugin {
           const labels=${JSON.stringify(labels)};
           const restoreLabels=values=>values.map(value=>typeof value==='number'?labels[value]:value);
           export const species=${JSON.stringify(catalogue)}.map(({l,n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,names:{zh:l[0],en:l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[5]].scientificName+' '+n,summary:s,
-            conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+item.slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
+            conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+item.slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:m[1]===1?l[0]+'及其栖息环境，AI 生成科学情景重建':m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
             taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[t[index]]]))}));
           const imports=[${loaders}];
           const loaders=new Map(species.map((item,index)=>[item.slug,imports[index]]));
