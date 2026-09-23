@@ -67,8 +67,9 @@ export function speciesBundle(): Plugin {
           ...(id === item.slug ? {} : { id }),
           t: taxonomyRanks.map((rank) => indexes.get(JSON.stringify(taxonomy[rank]))),
         }));
+        // Match catalogue order so the loader table does not repeat every slug.
         const loaders = species.map(({ slug }) =>
-          `${JSON.stringify(slug)}:()=>import(${JSON.stringify(profilePrefix + slug)})`,
+          `()=>import(${JSON.stringify(profilePrefix + slug)})`,
         ).join(',');
         // Encode shared taxa as pairs so field names are emitted only once.
         return `const taxa=${JSON.stringify(taxa.map(({ scientificName, zhName }) => [scientificName, zhName]))}.map(([scientificName,zhName])=>({scientificName,zhName}));
@@ -78,10 +79,12 @@ export function speciesBundle(): Plugin {
           export const species=${JSON.stringify(catalogue)}.map(({l,n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,names:{zh:l[0],en:l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[5]].scientificName+' '+n,summary:s,
             conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+item.slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
             taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[t[index]]]))}));
-          const loaders={${loaders}};
+          const imports=[${loaders}];
+          const loaders=new Map(species.map((item,index)=>[item.slug,imports[index]]));
           export async function loadSpecies(slug){
-            if(!Object.hasOwn(loaders,slug)) throw new Error('Unknown species');
-            return (await loaders[slug]()).default;
+            const load=loaders.get(slug);
+            if(!load) throw new Error('Unknown species');
+            return (await load()).default;
           }`;
       }
       if (id.startsWith(`\0${profilePrefix}`)) {
