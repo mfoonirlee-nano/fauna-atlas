@@ -2910,5 +2910,18 @@
       },
       "sha256": "4fc22e1b35d5b9ff9f53ddf803503a6ade70bb4a5fc42f236c3c9a6e31d48dab"
     }
+  },
+  "goose-barnacle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 745,
+        "top": 75,
+        "right": 1470,
+        "bottom": 820
+      },
+      "sha256": "e95689dbd26ac63a2b7194c6f2e7c3964fabc70a94f4606ca89bc4c292def0a0"
+    }
   }
 }

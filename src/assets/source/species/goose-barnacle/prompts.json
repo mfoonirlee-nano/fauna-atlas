@@ -1,0 +1,40 @@
+[
+  {
+    "image": "01-cover.webp",
+    "subject": "Lepas anatifera",
+    "mode": "built-in image_gen",
+    "prompt": "Use case precise-object-edit. Edit this landscape species cover. Keep two barnacles attached to log underwater. Recompose group 90 pixels to right and reduce group size 12 percent around center so ALL feeding cirri and stalks fit between x670 and1450, y90 and930. Left 40% must contain only quiet water; no cirrus extending into left area. Preserve accurate barnacle anatomy, natural lighting and style. No text or watermark.",
+    "editReferenceSha256": "1512c9214ef37fff68a289dcd459e44434ee0ae9d56dbf39ae6eb38f2123ebbe",
+    "editReferenceNote": "同一物种本轮生成的临时构图候选；最终仅保留本图 WebP。"
+  },
+  {
+    "image": "02-observation.webp",
+    "subject": "Lepas anatifera",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Lepas anatifera goose barnacle. One complete animal side-on attached by long curved dark flexible peduncle to underwater driftwood, full attachment and white plated capitulum visible. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "03-observation.webp",
+    "subject": "Lepas anatifera",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Lepas anatifera goose barnacle. Macro close side view of smooth white calcareous plates with dark brown seams, correct five principal plates in total around three-dimensional capitulum, do not force five plates onto one side. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "04-observation.webp",
+    "subject": "Lepas anatifera",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Lepas anatifera goose barnacle. Underwater close view of one animal with delicate curved feather-like cirri extended from opening between smooth white plates, attached stalk visible, natural feeding pose. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "05-observation.webp",
+    "subject": "Lepas anatifera",
+    "mode": "built-in image_gen",
+    "prompt": "Use case scientific-educational. Landscape 1536x1024 photorealistic underwater macro scientific reconstruction of a cluster of five Lepas anatifera goose barnacles attached to UNDERSIDE of a floating driftwood log. Entire scene SUBMERGED in blue-green sea water, log across top, dark flexible stalks hanging DOWN and bending with current, smooth white five-plated capitula at lower ends, a few delicate cirri. Natural asymmetric cluster. No upright stiff stems, no sky, no beach, no terrestrial scene, no text, no watermark."
+  },
+  {
+    "image": "06-observation.webp",
+    "subject": "Lepas anatifera",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Lepas anatifera goose barnacle. Wider underwater near-surface view driftwood with small attached cluster of white-plated dark-stalked barnacles, natural blue Atlantic ocean context. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  }
+]

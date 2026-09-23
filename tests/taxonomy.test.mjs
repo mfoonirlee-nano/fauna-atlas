@@ -24326,7 +24326,7 @@ test('the second five-species todo batch keeps five distinct species and the rev
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 398);
+  assert.equal(species.length, 399);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24384,7 +24384,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 52);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 53);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24497,7 +24497,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 398);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 399);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -25221,7 +25221,7 @@ test('integrates Sacculina as a thecostracan parasite with reviewed media', asyn
   assert.deepEqual(getSpeciesTaxonomyPath(profile).map(({ taxon }) => taxon.scientificName), [
     'Animalia', 'Arthropoda', 'Thecostraca', 'Rhizocephala', 'Sacculinidae', 'Sacculina',
   ]);
-  assert.equal(findTaxon(buildTaxonomyTree(species), 'class', 'Thecostraca')?.speciesCount, 1);
+  assert.equal(findTaxon(buildTaxonomyTree(species), 'class', 'Thecostraca')?.speciesCount, 2);
   assert.equal(profile.conservation.code, 'NE');
   assert.equal(profile.conservation.assessedYear, undefined);
   assert.equal(profile.conservation.trend, 'unknown');

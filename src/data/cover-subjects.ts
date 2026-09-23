@@ -3980,5 +3980,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1515,
       "bottom": 890
     }
+  },
+  "goose-barnacle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 745,
+      "top": 75,
+      "right": 1470,
+      "bottom": 820
+    }
   }
 };
