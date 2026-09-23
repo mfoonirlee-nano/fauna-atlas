@@ -579,3 +579,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Japanese Spider Crab image set](./species/japanese-spider-crab/README.md)
 - [Rosy Sea Biscuit image set](./species/rosy-sea-biscuit/README.md)
 - [Snake Sea Cucumber image set](./species/snake-sea-cucumber/README.md)
+
+- [European Plaice image set](./species/european-plaice/README.md)

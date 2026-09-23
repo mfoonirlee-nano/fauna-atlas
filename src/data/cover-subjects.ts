@@ -3950,5 +3950,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1458,
       "bottom": 955
     }
+  },
+  "european-plaice": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 778,
+      "top": 300,
+      "right": 1468,
+      "bottom": 648
+    }
   }
 };

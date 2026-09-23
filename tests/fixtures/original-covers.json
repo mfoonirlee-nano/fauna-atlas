@@ -2871,5 +2871,18 @@
       },
       "sha256": "e07e78d50f2a72b245f06a076a810d7dc4f678163f24fdcafc4acf61eec2edb5"
     }
+  },
+  "european-plaice": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 778,
+        "top": 300,
+        "right": 1468,
+        "bottom": 648
+      },
+      "sha256": "97c4f4fd62cc36d0feaf1a7ee2df3ff017e225a0a5aaa0606213b5f9984790bd"
+    }
   }
 }

@@ -1,0 +1,40 @@
+[
+  {
+    "image": "01-cover.webp",
+    "subject": "Pleuronectes platessa",
+    "mode": "built-in image_gen",
+    "prompt": "Use case precise-object-edit. Edit this landscape species cover. Move the whole fish 70 pixels right while reducing its size by 12 percent around its center. Keep the full fish horizontal, natural flatfish posture, all anatomy and sand unchanged. Entire fish including lips and tail must be between x680 and1470. Preserve left 40% as quiet empty sand. No text or watermark.",
+    "editReferenceSha256": "c7f9ef0efb361bb25351d09a82a946c458e9c6bf45e483bc70125ff789454109",
+    "editReferenceNote": "同一物种本轮生成的临时构图候选；最终仅保留本图 WebP。"
+  },
+  {
+    "image": "02-observation.webp",
+    "subject": "Pleuronectes platessa",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Landscape 1536x1024 realistic natural history reconstruction of European plaice Pleuronectes platessa. Close-up three-quarter top view of head showing both eyes on upper pigmented right side, orange spotted skin and small mouth, underwater sand. Anatomically correct right-eyed flatfish; no human hands, no text, no watermarks, single scene. Distinct gallery photograph composition."
+  },
+  {
+    "image": "03-observation.webp",
+    "subject": "Pleuronectes platessa",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Landscape 1536x1024 realistic natural history reconstruction of European plaice Pleuronectes platessa. Full fish oblique top view resting just above sandy seabed, thin oval flattened body clearly visible, all fins visible. Anatomically correct right-eyed flatfish; no human hands, no text, no watermarks, single scene. Distinct gallery photograph composition."
+  },
+  {
+    "image": "04-observation.webp",
+    "subject": "Pleuronectes platessa",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Landscape 1536x1024 realistic natural history reconstruction of European plaice Pleuronectes platessa. Detailed overhead view of orange spots on brown upper side, natural irregular spots and fin rays, no artificial pattern. Anatomically correct right-eyed flatfish; no human hands, no text, no watermarks, single scene. Distinct gallery photograph composition."
+  },
+  {
+    "image": "05-observation.webp",
+    "subject": "Pleuronectes platessa",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Landscape 1536x1024 realistic natural history reconstruction of European plaice Pleuronectes platessa. One fish partly buried in natural sand, both upper eyes and spotted back visible, undisturbed resting animal. Anatomically correct right-eyed flatfish; no human hands, no text, no watermarks, single scene. Distinct gallery photograph composition."
+  },
+  {
+    "image": "06-observation.webp",
+    "subject": "Pleuronectes platessa",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Landscape 1536x1024 realistic natural history reconstruction of European plaice Pleuronectes platessa. Wide underwater scene with a juvenile plaice in shallow sandy tidal pool near small shell fragments, complete fish visible. Anatomically correct right-eyed flatfish; no human hands, no text, no watermarks, single scene. Distinct gallery photograph composition."
+  }
+]
