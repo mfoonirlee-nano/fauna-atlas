@@ -2754,5 +2754,18 @@
       },
       "sha256": "1f812a537874630454dd32e361a893c8dda5d5f7150e3e7ae1636a54eab0eb24"
     }
+  },
+  "indian-flying-fox": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 913,
+        "top": 12,
+        "right": 1282,
+        "bottom": 884
+      },
+      "sha256": "240b72f1311c2182ea4957ea83f57d1a49c081b0ea00b054ebc08c3a81628825"
+    }
   }
 }

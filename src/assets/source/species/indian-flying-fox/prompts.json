@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "indian-flying-fox",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas cover. One landscape 1536x1024 photorealistic natural history reconstruction. Pteropus medius Indian flying fox, one adult hanging upside down by hind feet from a leafy branch, wings folded around torso, rusty orange mantle, dark body, foxlike face, ears visible; South Asian tree roost. Whole subject on right, complete silhouette inside x=700..1450 y=100..925, center near 72% image width, as large as possible within that area. Quiet natural habitat background on left 40% for text. All limbs, fins, tail, horns fully contained with margin. No text, watermark, diagram, collage or fantasy anatomy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-1c20f890-90bb-4bba-babd-8055145c0290.png"
+  },
+  {
+    "slug": "indian-flying-fox",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: Pteropus medius Indian flying fox adult in flight at dusk, broad leathery dark wings supported by elongated fingers, rusty neck, whole body and both wing tips visible. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-80638dc4-2150-444b-8243-3a9463194e04.png"
+  },
+  {
+    "slug": "indian-flying-fox",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: Pteropus medius hanging from a fig branch and feeding on a ripe fig, folded leathery wings, rusty neck foxlike face. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-18885f58-520c-4d2c-b76b-027920cf75fa.png"
+  },
+  {
+    "slug": "indian-flying-fox",
+    "n": 4,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 4. One 1536x1024 landscape photorealistic natural history reconstruction: small group of Pteropus medius Indian flying foxes hanging separately upside down from leafy day-roost tree branches, distinguishable natural bodies. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-28a8b397-614c-4380-b65f-9b03fb137173.png"
+  },
+  {
+    "slug": "indian-flying-fox",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: close view of Pteropus medius head while hanging, foxlike muzzle pointed ears large dark eyes and golden brown neck fur. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-bf70bf94-790e-4a51-8d21-9222b612e19b.png"
+  },
+  {
+    "slug": "indian-flying-fox",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: Pteropus medius hanging from a branch with one wing partially opened showing fingers under thin leathery membrane, anatomically coherent. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-85fd4269-114b-4b57-97f4-a5b5c2f26aba.png"
+  }
+]

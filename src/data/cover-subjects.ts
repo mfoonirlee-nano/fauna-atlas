@@ -3860,5 +3860,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 920
     }
+  },
+  "indian-flying-fox": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 913,
+      "top": 12,
+      "right": 1282,
+      "bottom": 884
+    }
   }
 };

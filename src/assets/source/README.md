@@ -570,3 +570,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [King Ragworm image set](./species/king-ragworm/README.md)
 
 - [Sugar Glider image set](./species/sugar-glider/README.md)
+- [Indian Flying Fox image set](./species/indian-flying-fox/README.md)
