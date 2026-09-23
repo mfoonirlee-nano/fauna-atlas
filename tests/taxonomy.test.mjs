@@ -24326,7 +24326,7 @@ test('the second five-species todo batch keeps five distinct species and the rev
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 391);
+  assert.equal(species.length, 392);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24384,7 +24384,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 48);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 49);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24450,8 +24450,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Aeshnidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Anax')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 3);
-  assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Theraphosidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Theraphosa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Scorpiones')?.speciesCount, 1);
@@ -24497,7 +24497,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 391);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 392);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);

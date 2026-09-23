@@ -3910,5 +3910,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1505,
       "bottom": 580
     }
+  },
+  "giant-golden-orb-weaver": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 719,
+      "top": 45,
+      "right": 1415,
+      "bottom": 981
+    }
   }
 };

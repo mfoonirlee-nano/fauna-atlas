@@ -575,3 +575,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Tropical Two-wing Flyingfish image set](./species/tropical-two-wing-flyingfish/README.md)
 - [Live Sharksucker image set](./species/sharksucker/README.md)
 - [Greater Pipefish image set](./species/greater-pipefish/README.md)
+- [Giant Golden Orb Weaver image set](./species/giant-golden-orb-weaver/README.md)

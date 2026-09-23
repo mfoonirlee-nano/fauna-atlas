@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "giant-golden-orb-weaver",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas cover. One 1536x1024 landscape photorealistic natural history reconstruction. Nephila pilipes adult female giant golden orb weaver on orb web between rainforest twigs. Elongated black abdomen with yellow markings, silvery cephalothorax, exactly eight very long dark jointed legs with yellow joints, four each side; natural dorsal view, complete legs. Leaf as environmental reference. Full subject completely within x=660..1460 y=90..930, subject center near 72% width, maximize size within this area. Left 40% quiet blurred natural habitat. Background clearance around ALL outer features. No text, watermark, collage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-946bdc3f-18e6-4f9d-a253-5f375c5acc86.png"
+  },
+  {
+    "slug": "giant-golden-orb-weaver",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: Nephila pilipes adult female black yellow elongated abdomen silver cephalothorax exactly eight long legs on orb web, entire web against green leaves showing radial and spiral silk, no text. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-352d1e89-e3f3-4dd3-927b-f0d54f8416bf.png"
+  },
+  {
+    "slug": "giant-golden-orb-weaver",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: close dorsal view Nephila pilipes female body on silk, black elongated abdomen yellow marks, silvery cephalothorax, four legs each side naturally cropped at macro frame. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-713071c8-6229-4f7c-a2f0-2756b20630c8.png"
+  },
+  {
+    "slug": "giant-golden-orb-weaver",
+    "n": 4,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 4. One 1536x1024 landscape photorealistic natural history reconstruction: Nephila pilipes adult female on web with a much smaller reddish brown male on separate silk near edge, accurate marked sexual size difference, no mating contact. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-fc3cda77-3d0c-412f-8c22-a36411bc6039.png"
+  },
+  {
+    "slug": "giant-golden-orb-weaver",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: Nephila pilipes female using legs to handle silk at orb web edge between twigs, eight legs, leafy rainforest, no extra limbs. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-71ab1ef8-b2c3-4800-8011-1e84dbe1f213.png"
+  },
+  {
+    "slug": "giant-golden-orb-weaver",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: Nephila pilipes adult female hanging in web with tiny water droplets after rain, warm backlight reveals silk, long black yellow jointed legs, whole animal. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-e94882ec-9b8a-4542-ac68-468fa52e6431.png"
+  }
+]

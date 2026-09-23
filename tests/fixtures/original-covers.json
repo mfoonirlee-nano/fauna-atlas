@@ -2819,5 +2819,18 @@
       },
       "sha256": "01a4a89c5f90e0519f6d1085c8c935ccc444cc8ab6695a2c71c9c33bb551bc74"
     }
+  },
+  "giant-golden-orb-weaver": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 719,
+        "top": 45,
+        "right": 1415,
+        "bottom": 981
+      },
+      "sha256": "9852f07b9920e1e4eeb5d0c7a910c93829cb533422cf2c6434de533d35851f0c"
+    }
   }
 }
