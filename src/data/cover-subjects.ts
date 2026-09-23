@@ -3890,5 +3890,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1440,
       "bottom": 754
     }
+  },
+  "sharksucker": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 712,
+      "top": 224,
+      "right": 1492,
+      "bottom": 666
+    }
   }
 };

@@ -2793,5 +2793,18 @@
       },
       "sha256": "53cf28046fce2e868ffe70fd9fa5ac5f6bf9b7921b9a0ce2310b0eef445ec76d"
     }
+  },
+  "sharksucker": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 712,
+        "top": 224,
+        "right": 1492,
+        "bottom": 666
+      },
+      "sha256": "dc8d6b52502508b9d3c9db4401d193b1e6032662ce6778996549fcf54d9cc381"
+    }
   }
 }

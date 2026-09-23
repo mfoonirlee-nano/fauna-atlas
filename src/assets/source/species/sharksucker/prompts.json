@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "sharksucker",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. One 1536x1024 natural history photo reconstruction, Echeneis naucrates live sharksucker swimming alone above tropical pale sand, elongated grey fish with dark lateral stripe, oval flattened suction disc visible ON TOP of head in three-quarter dorsal view, normal fins, full tail. STRICT COMPOSITION: whole animal confined to rightmost 52% of image, its leftmost point x=750 or greater, rightmost x=1460 or less, top >70 bottom <960. Animal prominent. LEFT HALF entirely softly blurred empty habitat. All outer features included. Anatomy: first dorsal fin is transformed into head disc, ONLY ONE remaining long low soft dorsal fin on posterior back opposite the long anal fin; NO sharklike triangular dorsal fins. Tail truncate slightly concave not deeply forked. No text, no watermark, no collage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-789dba0a-62f2-401f-a687-f9f3a6173ff9.png"
+  },
+  {
+    "slug": "sharksucker",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: close oblique dorsal view Echeneis naucrates head and forebody showing flattened oval suction disc and paired transverse lamellae ON TOP of head, dark lateral stripe. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-59a14eb7-ec89-4508-a7eb-008a1d17ab05.png"
+  },
+  {
+    "slug": "sharksucker",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: Echeneis naucrates attached by TOP of head to underside of sea turtle, dorsal disc contacts turtle plastron, fish body parallel to turtle, underwater natural reconstruction. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-bfd2ee0e-adff-4a7b-890e-6ed03c4c63ae.png"
+  },
+  {
+    "slug": "sharksucker",
+    "n": 4,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 4. One 1536x1024 landscape photorealistic natural history reconstruction: Echeneis naucrates free swimming side view over sand, long slender striped body, one low long soft dorsal fin on posterior back opposite anal fin, no triangular sharklike dorsal fins, tail slightly concave. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-5a8b1e1d-5fc4-4061-838e-ba15c28f7cf9.png"
+  },
+  {
+    "slug": "sharksucker",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: Echeneis naucrates close side portrait showing projecting lower jaw and dark stripe through eye, marine blue water, single individual. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-c36f285d-3d09-49fa-bd9e-ae1d5f610c7c.png"
+  },
+  {
+    "slug": "sharksucker",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: two Echeneis naucrates independently swimming above tropical reef sand, separate elongated striped bodies, suction discs dorsal, low posterior dorsal fins. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-84dc2752-5ca5-4a51-9f90-b4f69e68dcb3.png"
+  }
+]

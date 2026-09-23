@@ -573,3 +573,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Indian Flying Fox image set](./species/indian-flying-fox/README.md)
 - [Moose image set](./species/moose/README.md)
 - [Tropical Two-wing Flyingfish image set](./species/tropical-two-wing-flyingfish/README.md)
+- [Live Sharksucker image set](./species/sharksucker/README.md)
