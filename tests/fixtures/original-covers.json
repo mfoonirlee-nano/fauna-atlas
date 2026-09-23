@@ -2884,5 +2884,18 @@
       },
       "sha256": "97c4f4fd62cc36d0feaf1a7ee2df3ff017e225a0a5aaa0606213b5f9984790bd"
     }
+  },
+  "whirligig-beetle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 195,
+        "right": 1370,
+        "bottom": 820
+      },
+      "sha256": "01da44006208ebfd0a0205ef4829a428b78e480bb786765083de11c47d31f62e"
+    }
   }
 }

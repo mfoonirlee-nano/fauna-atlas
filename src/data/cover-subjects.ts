@@ -3960,5 +3960,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1468,
       "bottom": 648
     }
+  },
+  "whirligig-beetle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 195,
+      "right": 1370,
+      "bottom": 820
+    }
   }
 };

@@ -1,0 +1,38 @@
+[
+  {
+    "image": "01-cover.webp",
+    "subject": "Gyrinus natator",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Landscape 1536x1024 photorealistic scientific reconstruction. Gyrinus natator whirligig beetle, tiny glossy black oval beetle on calm freshwater surface beside an alder leaf for approximate size context, six anatomically correct legs: long front pair and short paddle-like middle and rear pairs, short antennae, divided eyes, natural pond margin. Cover image: complete animal or group including all appendages fills right half, center x70%, boundary within x630..1480 y100..930; left 40% quiet natural background for text. Animal prominent, realistic natural light, no text, no watermarks, no collage."
+  },
+  {
+    "image": "02-observation.webp",
+    "subject": "Gyrinus natator",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction of Gyrinus natator whirligig beetle. Top oblique close view of one glossy black oval adult swimming on calm water, curved ripple wake, small floating alder leaf as scale context. Anatomically plausible, realistic tiny arthropod, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "03-observation.webp",
+    "subject": "Gyrinus natator",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction of Gyrinus natator whirligig beetle. Side macro at water level showing naturally divided compound eyes above and below water, no cutaway, only natural visible anatomy, leaf edge nearby. Anatomically plausible, realistic tiny arthropod, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "04-observation.webp",
+    "subject": "Gyrinus natator",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction of Gyrinus natator whirligig beetle. Oblique underside through clear water showing six legs: slender front pair and short flattened paddle middle and hind pairs, a small submerged leaf nearby. Anatomically plausible, realistic tiny arthropod, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "05-observation.webp",
+    "subject": "Gyrinus natator",
+    "mode": "built-in image_gen",
+    "prompt": "Use case scientific-educational. Landscape 1536x1024 macro natural history reconstruction of Gyrinus natator. Entire upper surfaces UNIFORMLY glossy jet black, absolutely NO yellow, cream, white bands or patterned margins on pronotum or elytra. Tiny oval whirligig beetles with very short clubbed antennae, long front legs and short broad middle/hind swimming legs. Three separate small beetles on calm dark water beside alder roots and a small floating leaf. Natural reflection highlights only. Not Dytiscus, not a yellow-margined diving beetle. No text or watermark."
+  },
+  {
+    "image": "06-observation.webp",
+    "subject": "Gyrinus natator",
+    "mode": "built-in image_gen",
+    "prompt": "Use case scientific-educational. Landscape 1536x1024 macro natural history reconstruction of Gyrinus natator. Entire upper surfaces UNIFORMLY glossy jet black, absolutely NO yellow, cream, white bands or patterned margins on pronotum or elytra. Tiny oval whirligig beetles with very short clubbed antennae, long front legs and short broad middle/hind swimming legs. One beetle holding a tiny fallen gnat near its mouth on water, leaf nearby for approximate size context. Natural reflection highlights only. Not Dytiscus, not a yellow-margined diving beetle. No text or watermark."
+  }
+]

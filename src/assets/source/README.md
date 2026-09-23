@@ -581,3 +581,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Snake Sea Cucumber image set](./species/snake-sea-cucumber/README.md)
 
 - [European Plaice image set](./species/european-plaice/README.md)
+- [Whirligig Beetle image set](./species/whirligig-beetle/README.md)

@@ -1,6 +1,6 @@
 # 动物制作清单：面向 3 岁孩子的 100 种新选题
 
-2026-09-23 更新：已对照 `src/data/species.ts` 中的 300 份物种档案，移除原清单中已实现的 50 种动物。本轮清单共 100 种，现已完成 96 种，剩余 4 种；站内共 396 份物种档案。首批核验记录见 [todo-first-ten-2026-09-20.md](research/todo-first-ten-2026-09-20.md)。第二批核验记录见 [todo-second-ten-2026-09-21.md](research/todo-second-ten-2026-09-21.md)。第三批核验记录见 [todo-third-ten-2026-09-21.md](research/todo-third-ten-2026-09-21.md)。上一批 5 种核验记录见 [todo-five-2026-09-21.md](research/todo-five-2026-09-21.md)。本批 5 种核验记录见 [todo-next-five-2026-09-21.md](research/todo-next-five-2026-09-21.md)。新增十种核验记录见 [todo-ten-2026-09-22.md](research/todo-ten-2026-09-22.md)。本次跨组五种核验记录见 [todo-cross-group-five-2026-09-22.md](research/todo-cross-group-five-2026-09-22.md)。本次跨组十种核验记录见 [todo-cross-group-ten-2026-09-22.md](research/todo-cross-group-ten-2026-09-22.md)。本次新增十种核验记录见 [todo-fourth-cross-group-ten-2026-09-22.md](research/todo-fourth-cross-group-ten-2026-09-22.md)。本次第五批跨组十种核验记录见 [todo-fifth-cross-group-ten-2026-09-22.md](research/todo-fifth-cross-group-ten-2026-09-22.md)。本次十种核验记录见 [todo-cross-group-ten-2026-09-23.md](research/todo-cross-group-ten-2026-09-23.md)。历史制作资料保留在 `docs/research/`。
+2026-09-23 更新：已对照 `src/data/species.ts` 中的 300 份物种档案，移除原清单中已实现的 50 种动物。本轮清单共 100 种，现已完成 97 种，剩余 3 种；站内共 397 份物种档案。首批核验记录见 [todo-first-ten-2026-09-20.md](research/todo-first-ten-2026-09-20.md)。第二批核验记录见 [todo-second-ten-2026-09-21.md](research/todo-second-ten-2026-09-21.md)。第三批核验记录见 [todo-third-ten-2026-09-21.md](research/todo-third-ten-2026-09-21.md)。上一批 5 种核验记录见 [todo-five-2026-09-21.md](research/todo-five-2026-09-21.md)。本批 5 种核验记录见 [todo-next-five-2026-09-21.md](research/todo-next-five-2026-09-21.md)。新增十种核验记录见 [todo-ten-2026-09-22.md](research/todo-ten-2026-09-22.md)。本次跨组五种核验记录见 [todo-cross-group-five-2026-09-22.md](research/todo-cross-group-five-2026-09-22.md)。本次跨组十种核验记录见 [todo-cross-group-ten-2026-09-22.md](research/todo-cross-group-ten-2026-09-22.md)。本次新增十种核验记录见 [todo-fourth-cross-group-ten-2026-09-22.md](research/todo-fourth-cross-group-ten-2026-09-22.md)。本次第五批跨组十种核验记录见 [todo-fifth-cross-group-ten-2026-09-22.md](research/todo-fifth-cross-group-ten-2026-09-22.md)。本次十种核验记录见 [todo-cross-group-ten-2026-09-23.md](research/todo-cross-group-ten-2026-09-23.md)。历史制作资料保留在 `docs/research/`。
 
 ## 选题与共读方式
 
@@ -20,9 +20,9 @@
 | 爬行动物 | 0 | 壳、鳞片、伪装、陆地与水中移动 |
 | 两栖动物 | 0 | 身体形状、卵与成体、水陆环境 |
 | 鱼类 | 0 | 扁、长、圆等体形，以及不同的鳍 |
-| 昆虫与其他节肢动物 | 4 | 足、触角、外壳、筑巢与藏身 |
+| 昆虫与其他节肢动物 | 3 | 足、触角、外壳、筑巢与藏身 |
 | 其他水边与海中动物 | 0 | 软体、双壳、触手、群体与附着生活 |
-| 合计 | 4 | |
+| 合计 | 3 | |
 
 ## 哺乳动物（20 种）
 
@@ -127,7 +127,7 @@
 - [x] 红壁蜂 *Osmia bicornis*：洞穴里的巢。“看看它怎样用泥把小洞口封起来。”
 - [x] 紫木蜂 *Xylocopa violacea*：木头中的巢。“在木头表面找找它进出的圆洞。”
 - [x] 神圣蜣螂 *Scarabaeus sacer*：滚动食物。“看看它怎样用后腿推动粪球。”
-- [ ] 豉甲 *Gyrinus natator*：水面转圈。“看看水面上游来游去的小甲虫。”
+- [x] 豉甲 *Gyrinus natator*：水面转圈。“看看水面上游来游去的小甲虫。”
 - [x] 黄缘龙虱 *Dytiscus marginalis*：划水的后足。“看看它怎样用两条后腿划水。”
 - [x] 水黾 *Gerris lacustris*：水面行走。“找找长腿碰到水面的地方。”
 - [x] 欧洲蠼螋 *Forficula auricularia*：尾部的夹子。“看看身体后面一对弯弯的尾钳。”
