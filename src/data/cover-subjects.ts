@@ -3870,5 +3870,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1282,
       "bottom": 884
     }
+  },
+  "moose": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 49,
+      "right": 1435,
+      "bottom": 931
+    }
   }
 };

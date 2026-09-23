@@ -2767,5 +2767,18 @@
       },
       "sha256": "240b72f1311c2182ea4957ea83f57d1a49c081b0ea00b054ebc08c3a81628825"
     }
+  },
+  "moose": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 49,
+        "right": 1435,
+        "bottom": 931
+      },
+      "sha256": "c62892f172eb78f86c2dfc978a848720d8634f1b23ea3fa719087b5639998767"
+    }
   }
 }

@@ -571,3 +571,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Sugar Glider image set](./species/sugar-glider/README.md)
 - [Indian Flying Fox image set](./species/indian-flying-fox/README.md)
+- [Moose image set](./species/moose/README.md)

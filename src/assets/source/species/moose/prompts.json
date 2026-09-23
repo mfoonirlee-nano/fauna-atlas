@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "moose",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas cover. One landscape 1536x1024 photorealistic natural history reconstruction. Alces alces adult male moose standing at a Scandinavian forest wetland edge, large broad palmate antlers, long muzzle, shoulder hump, long legs, brown fur, all antler tips and hooves visible. Whole subject on right, complete silhouette inside x=700..1450 y=100..925, center near 72% image width, as large as possible within that area. Quiet natural habitat background on left 40% for text. All limbs, fins, tail, horns fully contained with margin. No text, watermark, diagram, collage or fantasy anatomy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-8000a2ca-14db-4401-a3ed-4f0765db541f.png"
+  },
+  {
+    "slug": "moose",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: Alces alces adult male moose in Scandinavian forest, close upper body showing broad palmate antlers both fully visible, long muzzle. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-cbad244c-ead5-4e44-bf00-976e56f09f9e.png"
+  },
+  {
+    "slug": "moose",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: Alces alces adult FEMALE moose, no antlers, feeding on willow leaves at wetland edge. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-8b9faa91-6dc0-4418-a1be-cec7076c2eac.png"
+  },
+  {
+    "slug": "moose",
+    "n": 4,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 4. One 1536x1024 landscape photorealistic natural history reconstruction: Alces alces adult female moose wading through shallow lake, long legs under clear water, no antlers. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-2604a496-083e-4d30-868d-95af0264de5a.png"
+  },
+  {
+    "slug": "moose",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: Alces alces female moose and one small calf walking together at boreal forest edge, both whole animals, no antlers. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-81ae0771-ad72-4c5a-b4f7-cbf8475c56cd.png"
+  },
+  {
+    "slug": "moose",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: Alces alces adult male moose in winter forest, standing on snow with dark thick fur and broad palmate antlers, entire body. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-804ae5ee-57f4-408e-9e95-b10ffa393da5.png"
+  }
+]
