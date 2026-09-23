@@ -2858,5 +2858,18 @@
       },
       "sha256": "ae908bb64c5fabf10cb5bc09ccbdd7e206aea091d43a52e6c3d58a7909daad64"
     }
+  },
+  "snake-sea-cucumber": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 67,
+        "right": 1458,
+        "bottom": 955
+      },
+      "sha256": "e07e78d50f2a72b245f06a076a810d7dc4f678163f24fdcafc4acf61eec2edb5"
+    }
   }
 }

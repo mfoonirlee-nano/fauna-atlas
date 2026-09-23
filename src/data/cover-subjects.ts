@@ -3940,5 +3940,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1490,
       "bottom": 917
     }
+  },
+  "snake-sea-cucumber": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 67,
+      "right": 1458,
+      "bottom": 955
+    }
   }
 };
