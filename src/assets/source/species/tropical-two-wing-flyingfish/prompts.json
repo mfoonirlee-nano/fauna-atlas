@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "tropical-two-wing-flyingfish",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas cover. One landscape 1536x1024 photorealistic natural history reconstruction. Exocoetus volitans tropical TWO-wing flyingfish gliding just above calm tropical blue ocean surface, silvery slender body, dark blue back, TWO long translucent pectoral fins spread, pelvic fins SMALL, deeply forked tail with longer lower lobe. Whole subject on right, complete silhouette inside x=700..1450 y=100..925, center near 72% image width, as large as possible within that area. Quiet natural habitat background on left 40% for text. All limbs, fins, tail, horns fully contained with margin. No text, watermark, diagram, collage or fantasy anatomy.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-110d0105-aca6-4a21-bae0-eec92437d2d1.png"
+  },
+  {
+    "slug": "tropical-two-wing-flyingfish",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: Exocoetus volitans tropical two-wing flyingfish swimming underwater near surface, long pectoral fins folded along body, pelvic fins small, forked tail lower lobe longer. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-74ddb31b-bc60-43ff-8354-0c4625e5cbee.png"
+  },
+  {
+    "slug": "tropical-two-wing-flyingfish",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: Exocoetus volitans just leaving ocean surface, tail lower lobe touches water, two long pectoral fins spreading, small pelvic fins. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-c9612030-5cf1-4f74-bde5-a117c867413d.png"
+  },
+  {
+    "slug": "tropical-two-wing-flyingfish",
+    "n": 4,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 4. One 1536x1024 landscape photorealistic natural history reconstruction: Exocoetus volitans gliding horizontally above blue ocean seen obliquely from above, two large lateral pectoral fins and SMALL pelvic fins, no bird wings. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-2ac5781d-7937-4c03-b0c7-7fcd96458340.png"
+  },
+  {
+    "slug": "tropical-two-wing-flyingfish",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: close side view Exocoetus volitans head and front body underwater, large eye, small mouth, blue back silver belly, no chin barbel. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-2cc6c473-f61e-497c-bf64-cb14d854b900.png"
+  },
+  {
+    "slug": "tropical-two-wing-flyingfish",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: small school of Exocoetus volitans swimming in blue surface water, separate silver slender bodies, pectoral fins folded, no other species. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-d1305249-546e-4b3f-888a-8d7741d6cbc4.png"
+  }
+]

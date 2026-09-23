@@ -2780,5 +2780,18 @@
       },
       "sha256": "c62892f172eb78f86c2dfc978a848720d8634f1b23ea3fa719087b5639998767"
     }
+  },
+  "tropical-two-wing-flyingfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 122,
+        "right": 1440,
+        "bottom": 754
+      },
+      "sha256": "53cf28046fce2e868ffe70fd9fa5ac5f6bf9b7921b9a0ce2310b0eef445ec76d"
+    }
   }
 }
