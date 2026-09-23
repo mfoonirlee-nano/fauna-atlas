@@ -113414,6 +113414,237 @@ export const species = [
   "publishedAt": "2026-09-23",
   "updatedAt": "2026-09-23"
 },
+{
+  "id": "peacock-spider",
+  "slug": "peacock-spider",
+  "names": {
+    "zh": "孔雀蜘蛛",
+    "en": "Peacock Spider"
+  },
+  "scientificName": "Maratus volans",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Arachnida",
+      "zhName": "蛛形纲"
+    },
+    "order": {
+      "scientificName": "Araneae",
+      "zhName": "蜘蛛目"
+    },
+    "family": {
+      "scientificName": "Salticidae",
+      "zhName": "跳蛛科"
+    },
+    "genus": {
+      "scientificName": "Maratus",
+      "zhName": "孔雀蛛属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "孔雀蜘蛛是多个 Maratus 物种的通称，本档案限定 Maratus volans。展示姿势来自本种求偶研究，取食说明采用跳蛛科资料。本轮未核实全球 IUCN 等级，NE 不代表无危。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "澳大利亚东部"
+    ],
+    "countries": [],
+    "range": "澳大利亚东部；主要见于林地落叶与低矮植被。"
+  },
+  "habitats": [
+    {
+      "name": "林地落叶与低矮植被",
+      "realm": "terrestrial",
+      "description": "雄性孔雀蜘蛛会举起彩色腹部，抬起一对长腿向雌蛛展示。它很小，藏在落叶间。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "小型节肢动物"
+    ],
+    "description": "食物包括小型节肢动物。"
+  },
+  "tags": [
+    "孔雀蜘蛛",
+    "林地落叶与低矮植被"
+  ],
+  "summary": "雄性孔雀蜘蛛会举起彩色腹部，抬起一对长腿向雌蛛展示。它很小，藏在落叶间。",
+  "description": "雄性孔雀蜘蛛会举起彩色腹部，抬起一对长腿向雌蛛展示。它很小，藏在落叶间。求偶时，雄蛛展开腹部两侧的皮瓣，举起第三对足。红蓝色腹部边缘围着白色细毛。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "雄蛛展开彩色腹部",
+      "body": "求偶时，雄蛛展开腹部两侧的皮瓣，举起第三对足。红蓝色腹部边缘围着白色细毛。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "收起的小扇面",
+      "body": "没有展示时，雄蛛可以把腹部两侧的皮瓣收拢。这些皮瓣参与展示，不是飞行用的翅膀。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "雌蛛的颜色不同",
+      "body": "雌蛛通常呈灰褐色，没有雄蛛那样鲜艳的腹部扇面。认识动物时也要看看不同性别的样子。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "前面的大眼睛",
+      "body": "孔雀蜘蛛属于跳蛛。正前方的大眼睛帮助它观察周围，跳蛛会追踪小型猎物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "落叶间的小身体",
+      "body": "叶脉和种子只用来提示环境与大致大小，不是精确量尺。孔雀蜘蛛有八条足，属于蜘蛛而非昆虫。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "孔雀蜘蛛是多个 Maratus 物种的通称，本档案限定 Maratus volans。展示姿势来自本种求偶研究，取食说明采用跳蛛科资料。本轮未核实全球 IUCN 等级，NE 不代表无危。"
+    }
+  ],
+  "keyFacts": [
+    "求偶时，雄蛛展开腹部两侧的皮瓣，举起第三对足。红蓝色腹部边缘围着白色细毛。",
+    "没有展示时，雄蛛可以把腹部两侧的皮瓣收拢。这些皮瓣参与展示，不是飞行用的翅膀。",
+    "雌蛛通常呈灰褐色，没有雄蛛那样鲜艳的腹部扇面。认识动物时也要看看不同性别的样子。",
+    "孔雀蜘蛛属于跳蛛。正前方的大眼睛帮助它观察周围，跳蛛会追踪小型猎物。",
+    "叶脉和种子只用来提示环境与大致大小，不是精确量尺。孔雀蜘蛛有八条足，属于蜘蛛而非昆虫。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保留林地落叶与低矮植被，观察时不捕捉、不破坏栖息地。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "林地落叶与低矮植被"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "雄蛛展开彩色腹部"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "未评估",
+      "note": "孔雀蜘蛛是多个 Maratus 物种的通称，本档案限定 Maratus volans。展示姿势来自本种求偶研究，取食说明采用跳蛛科资料。本轮未核实全球 IUCN 等级，NE 不代表无危。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/peacock-spider/01-cover.webp",
+    "alt": "孔雀蜘蛛及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/peacock-spider/02-observation.webp",
+        "alt": "孔雀蜘蛛：雄蛛展开彩色腹部",
+        "title": "雄蛛展开彩色腹部",
+        "caption": "AI 生成科学情景重建。求偶时，雄蛛展开腹部两侧的皮瓣，举起第三对足。红蓝色腹部边缘围着白色细毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/peacock-spider/03-observation.webp",
+        "alt": "孔雀蜘蛛：收起的小扇面",
+        "title": "收起的小扇面",
+        "caption": "AI 生成科学情景重建。没有展示时，雄蛛可以把腹部两侧的皮瓣收拢。这些皮瓣参与展示，不是飞行用的翅膀。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/peacock-spider/04-observation.webp",
+        "alt": "孔雀蜘蛛：雌蛛的颜色不同",
+        "title": "雌蛛的颜色不同",
+        "caption": "AI 生成科学情景重建。雌蛛通常呈灰褐色，没有雄蛛那样鲜艳的腹部扇面。认识动物时也要看看不同性别的样子。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/peacock-spider/05-observation.webp",
+        "alt": "孔雀蜘蛛：前面的大眼睛",
+        "title": "前面的大眼睛",
+        "caption": "AI 生成科学情景重建。孔雀蜘蛛属于跳蛛。正前方的大眼睛帮助它观察周围，跳蛛会追踪小型猎物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/peacock-spider/06-observation.webp",
+        "alt": "孔雀蜘蛛：落叶间的小身体",
+        "title": "落叶间的小身体",
+        "caption": "AI 生成科学情景重建。叶脉和种子只用来提示环境与大致大小，不是精确量尺。孔雀蜘蛛有八条足，属于蜘蛛而非昆虫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Australian Museum：Jumping spiders",
+      "url": "https://australian.museum/learn/animals/spiders/jumping-spiders/",
+      "kind": "general",
+      "accessedAt": "2026-09-23"
+    },
+    {
+      "title": "Maratus volans 多模态求偶研究",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025390",
+      "kind": "ecology",
+      "accessedAt": "2026-09-23"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-23",
+  "updatedAt": "2026-09-23"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

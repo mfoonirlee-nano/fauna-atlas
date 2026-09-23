@@ -582,3 +582,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [European Plaice image set](./species/european-plaice/README.md)
 - [Whirligig Beetle image set](./species/whirligig-beetle/README.md)
+- [Peacock Spider image set](./species/peacock-spider/README.md)

@@ -3970,5 +3970,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1370,
       "bottom": 820
     }
+  },
+  "peacock-spider": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 65,
+      "right": 1515,
+      "bottom": 890
+    }
   }
 };

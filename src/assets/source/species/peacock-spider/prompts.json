@@ -1,0 +1,38 @@
+[
+  {
+    "image": "01-cover.webp",
+    "subject": "Maratus volans",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. Landscape 1536x1024 photorealistic scientific reconstruction. male Maratus volans peacock jumping spider on dry eucalyptus leaf for approximate size context, abdomen raised into a circular red and iridescent blue fan with white hairy fringe, third pair of legs raised, eight legs total, large front eyes, accurate small spider proportions, Australian woodland leaf litter. Cover image: complete animal or group including all appendages fills right half, center x70%, boundary within x630..1480 y100..930; left 40% quiet natural background for text. Animal prominent, realistic natural light, no text, no watermarks, no collage."
+  },
+  {
+    "image": "02-observation.webp",
+    "subject": "Maratus volans",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction of Maratus volans peacock jumping spider. Front view adult male displaying raised circular red and blue abdominal fan with white fringe on dry eucalyptus leaf; third leg pair raised and other six legs supporting. Anatomically plausible, realistic tiny arthropod, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "03-observation.webp",
+    "subject": "Maratus volans",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction of Maratus volans peacock jumping spider. Top side view adult male at rest with abdominal lateral flaps folded, no spread fan, all eight legs, eucalyptus leaf veins visible. Anatomically plausible, realistic tiny arthropod, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "04-observation.webp",
+    "subject": "Maratus volans",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction of Maratus volans peacock jumping spider. One adult female, mottled tan brown abdomen without colorful male fan, large jumping spider front eyes, eight legs, on a leaf beside seed. Anatomically plausible, realistic tiny arthropod, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "05-observation.webp",
+    "subject": "Maratus volans",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction of Maratus volans peacock jumping spider. Close front portrait of male jumping spider showing two large anterior median eyes and smaller lateral eyes, furry pedipalps and natural mouth area, leaf surface texture. Anatomically plausible, realistic tiny arthropod, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "06-observation.webp",
+    "subject": "Maratus volans",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction of Maratus volans peacock jumping spider. Wide low oblique view male in Australian woodland leaf litter, several dry eucalyptus leaves provide approximate size context; fan lowered, natural daylight. Anatomically plausible, realistic tiny arthropod, no words or labels, no watermark, no collage. Gallery scene."
+  }
+]

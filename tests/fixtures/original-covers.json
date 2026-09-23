@@ -2897,5 +2897,18 @@
       },
       "sha256": "01da44006208ebfd0a0205ef4829a428b78e480bb786765083de11c47d31f62e"
     }
+  },
+  "peacock-spider": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 65,
+        "right": 1515,
+        "bottom": 890
+      },
+      "sha256": "4fc22e1b35d5b9ff9f53ddf803503a6ade70bb4a5fc42f236c3c9a6e31d48dab"
+    }
   }
 }
