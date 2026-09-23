@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "greater-pipefish",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. One 1536x1024 natural history photo reconstruction, Syngnathus acus greater pipefish, a long straight slender brown mottled pipefish swimming horizontally among sparse eelgrass, tubular snout, bony body rings, small fanlike tail fin, tiny dorsal fin; NOT a seahorse, tail not curled. STRICT COMPOSITION: whole animal confined to rightmost 52% of image, its leftmost point x=750 or greater, rightmost x=1460 or less, top >70 bottom <960. Animal prominent. LEFT HALF entirely softly blurred empty habitat. All outer features included.  No text, no watermark, no collage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-57d49d67-302a-4ba5-8edb-2147b2edfbe6.png"
+  },
+  {
+    "slug": "greater-pipefish",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: Syngnathus acus greater pipefish head closeup among eelgrass, long straight tubular snout with tiny terminal mouth, raised crown behind eyes, mottled brown. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-5446c8a8-4bd4-427d-93b1-1bbe8622a150.png"
+  },
+  {
+    "slug": "greater-pipefish",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: Syngnathus acus long slender straight fish side view with clearly visible bony body rings, eelgrass background, no curled tail. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-41ec1945-7c25-40b2-bde9-94912ff40bc6.png"
+  },
+  {
+    "slug": "greater-pipefish",
+    "n": 4,
+    "prompt": "Use case: photorealistic-natural. Scientific wildlife reconstruction, landscape 1536x1024. One male greater pipefish Syngnathus acus horizontal side view in European seagrass. Long straight thin armored body, very long tubular snout, subtle crown behind eyes, mottled tan brown. Critical anatomy: head at left 15% width, trunk to anus at center 50% width, tail extends right to 90% width. Small translucent DORSAL FIN is near center above trunk-tail junction. CLOSED elongated shallow brood pouch is on the VENTRAL UNDERSIDE OF THE TAIL, STARTING BEHIND the anus and dorsal fin, at 55%-75% image width. Keep anterior trunk SLENDER: no belly bulge, no abdominal sac, no mammal pregnancy belly. Subtle slightly thickened tail underside only, intact opaque natural skin, no visible eggs, no cutaway. Small round tail fin at right tip; no coiled seahorse tail. Natural underwater photograph-like lighting, no text labels or arrows.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-393a617b-13d1-44bf-bea8-47b11089f932.png"
+  },
+  {
+    "slug": "greater-pipefish",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: Syngnathus acus swimming horizontally through eelgrass, tiny transparent dorsal fin on back, small fan shaped tail fin, full fish. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-80f4898b-9cc8-413f-9790-9819e1cdca08.png"
+  },
+  {
+    "slug": "greater-pipefish",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: Syngnathus acus resting nearly vertical among brown green eelgrass blades, elongated straight body camouflaged, no prehensile tail. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-24deb788-e859-4edc-8592-37dab32b1a35.png"
+  }
+]

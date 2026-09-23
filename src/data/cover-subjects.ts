@@ -3900,5 +3900,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1492,
       "bottom": 666
     }
+  },
+  "greater-pipefish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 635,
+      "top": 345,
+      "right": 1505,
+      "bottom": 580
+    }
   }
 };

@@ -2806,5 +2806,18 @@
       },
       "sha256": "dc8d6b52502508b9d3c9db4401d193b1e6032662ce6778996549fcf54d9cc381"
     }
+  },
+  "greater-pipefish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 635,
+        "top": 345,
+        "right": 1505,
+        "bottom": 580
+      },
+      "sha256": "01a4a89c5f90e0519f6d1085c8c935ccc444cc8ab6695a2c71c9c33bb551bc74"
+    }
   }
 }
