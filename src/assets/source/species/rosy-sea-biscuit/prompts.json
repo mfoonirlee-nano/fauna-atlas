@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "rosy-sea-biscuit",
+    "n": 1,
+    "prompt": "Use case: scientific-educational. One 1536x1024 natural history photo reconstruction, Clypeaster rosaceus LIVING sea biscuit on pale Caribbean sand beside sparse turtle grass. Thick domed oval rounded pentagonal brown echinoid, five inflated petaloid ambulacra visible under dense fine short brown spines. Not a white dead sand dollar, no holes, no long spines, oblique upper view.. STRICT COMPOSITION: whole animal confined to rightmost 52% of image, its leftmost point x=750 or greater, rightmost x=1460 or less, top >70 bottom <960. Animal prominent. LEFT HALF entirely softly blurred empty habitat. All outer features included.  No text, no watermark, no collage.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-6530ff1c-19b4-44f0-a133-eda036e54ee1.png"
+  },
+  {
+    "slug": "rosy-sea-biscuit",
+    "n": 2,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 02. Generate a single 1536x1024 landscape natural history photorealistic reconstruction: Clypeaster rosaceus live brown thick domed sea biscuit top view on sand, five petaloid ambulacra under short fine spines, no holes no white skeleton. Clear natural anatomy and environment, subject prominent, natural colors, environmental substrate as context not precise scale. No text, watermark, collage or human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-952d14cc-b665-40fa-b23e-93b1fd5396b6.png"
+  },
+  {
+    "slug": "rosy-sea-biscuit",
+    "n": 3,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 3. One 1536x1024 landscape photorealistic natural history reconstruction: Clypeaster rosaceus live sea biscuit LOW SIDE view showing thick inflated dome and rounded edge with fine short spines on Caribbean sand. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-e0f9b453-7fbe-4bfe-b212-a9b0b8b33c6c.png"
+  },
+  {
+    "slug": "rosy-sea-biscuit",
+    "n": 4,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 4. One 1536x1024 landscape photorealistic natural history reconstruction: macro oblique view Clypeaster rosaceus living brown surface with tiny dense short spines and petal-shaped ambulacral zone, not long needle urchin spines. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-d9e89128-781e-44f5-a21e-b5d2310ef957.png"
+  },
+  {
+    "slug": "rosy-sea-biscuit",
+    "n": 5,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 5. One 1536x1024 landscape photorealistic natural history reconstruction: Clypeaster rosaceus living brown sea biscuit partially dusted with sand among turtle grass, body dome still visible. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-de0e8c3a-4180-4acf-8422-7a08afa41d0b.png"
+  },
+  {
+    "slug": "rosy-sea-biscuit",
+    "n": 6,
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas gallery 6. One 1536x1024 landscape photorealistic natural history reconstruction: two Clypeaster rosaceus living brown sea biscuits separately on Caribbean seagrass sandy bottom, domed bodies with five petal pattern. Anatomically accurate natural wildlife, coherent limbs, natural lighting, clear subject. Habitat elements are environmental context, not a precise scale. No text, no watermark, no collage, no human handling.",
+    "generatedSource": "/Users/chris.li/.codex/generated_images/01a0cd4a-f484-7920-ae68-796a3ec86535/exec-8cef4ff0-2a3f-4377-a835-5a029478e15f.png"
+  }
+]

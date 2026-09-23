@@ -577,3 +577,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Greater Pipefish image set](./species/greater-pipefish/README.md)
 - [Giant Golden Orb Weaver image set](./species/giant-golden-orb-weaver/README.md)
 - [Japanese Spider Crab image set](./species/japanese-spider-crab/README.md)
+- [Rosy Sea Biscuit image set](./species/rosy-sea-biscuit/README.md)
