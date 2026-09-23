@@ -2923,5 +2923,18 @@
       },
       "sha256": "e95689dbd26ac63a2b7194c6f2e7c3964fabc70a94f4606ca89bc4c292def0a0"
     }
+  },
+  "tadpole-shrimp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 730,
+        "top": 170,
+        "right": 1460,
+        "bottom": 810
+      },
+      "sha256": "9956f35833e7f0d58ccf4eef766a3bc74fc7195136b564c8805f1fabd7b82524"
+    }
   }
 }

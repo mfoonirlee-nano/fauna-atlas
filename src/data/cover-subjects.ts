@@ -3990,5 +3990,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1470,
       "bottom": 820
     }
+  },
+  "tadpole-shrimp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 730,
+      "top": 170,
+      "right": 1460,
+      "bottom": 810
+    }
   }
 };

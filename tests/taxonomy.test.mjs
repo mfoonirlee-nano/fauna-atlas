@@ -24326,7 +24326,7 @@ test('the second five-species todo batch keeps five distinct species and the rev
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 399);
+  assert.equal(species.length, 400);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24384,8 +24384,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 53);
-  assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 54);
+  assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Daphnia')?.speciesCount, 1);
@@ -24497,7 +24497,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 399);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 400);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -26410,4 +26410,36 @@ test('Fifth cross-group ten keep complete profiles and sixty distinct accepted i
   assert.equal(findSpecies('king-ragworm').taxonomy.order.scientificName, 'Phyllodocida');
   assert.equal(findSpecies('scarlet-cleaner-shrimp').taxonomy.family.scientificName, 'Lysmatidae');
   assert.ok(findSpecies('mandarinfish').names.aliases.includes('Pterosynchiropus splendidus'));
+});
+
+test('the final todo batch completes all selections with distinct six-image profiles', async () => {
+  const cases = [
+    ['european-plaice', 'Pleuronectes platessa', 'Pleuronectidae'],
+    ['whirligig-beetle', 'Gyrinus natator', 'Gyrinidae'],
+    ['peacock-spider', 'Maratus volans', 'Salticidae'],
+    ['goose-barnacle', 'Lepas anatifera', 'Lepadidae'],
+    ['tadpole-shrimp', 'Triops cancriformis', 'Triopsidae'],
+  ];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  assert.doesNotMatch(todo, /- \[ \]/);
+  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 100);
+  const hashes = new Set();
+  for (const [slug, name, family] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.storySections.length, 6);
+    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+    for (const { image } of [profile.media, ...profile.media.gallery]) {
+      const bytes = await readFile(new URL(`../public/${image.slice(2)}`, import.meta.url));
+      hashes.add(createHash('sha256').update(bytes).digest('hex'));
+    }
+  }
+  assert.equal(hashes.size, 30);
+  assert.match(findSpecies('peacock-spider').storySections[0].body, /雄蛛.*第三对足/);
+  assert.match(findSpecies('tadpole-shrimp').storySections[4].body, /卵.*休眠/);
+  assert.match(findSpecies('whirligig-beetle').conservation.assessor, /近似种/);
 });

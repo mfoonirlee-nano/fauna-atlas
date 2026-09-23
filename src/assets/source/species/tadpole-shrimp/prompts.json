@@ -1,0 +1,40 @@
+[
+  {
+    "image": "01-cover.webp",
+    "subject": "Triops cancriformis",
+    "mode": "built-in image_gen",
+    "prompt": "Use case precise-object-edit. Translate the ENTIRE Triops animal, INCLUDING both tail filaments and every antenna/leg, exactly 200 pixels to the RIGHT in this 1536x1024 image. Preserve its current size and orientation. Do NOT scale or center it. Current leftmost tail tip around x530 must end at x730; current rightmost antenna tip around x1240 must end at x1440. Fill former position with matching mud. All animal parts must be within right-hand 60% of image. Keep background natural and unchanged elsewhere, no text. This is a strict horizontal position correction.",
+    "editReferenceSha256": "cb00314e285eb05e50ec8bd511ab8a85c4b46458f32215fda23718dd5bda72d1",
+    "editReferenceNote": "同一物种本轮生成的临时构图候选；最终仅保留本图 WebP。"
+  },
+  {
+    "image": "02-observation.webp",
+    "subject": "Triops cancriformis",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Triops cancriformis tadpole shrimp. Overhead view complete animal olive-brown broad shield carapace, visible dorsal eyes, long exposed segmented abdomen and exactly two long terminal tail filaments; muddy freshwater bottom with tiny leaf. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "03-observation.webp",
+    "subject": "Triops cancriformis",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Triops cancriformis tadpole shrimp. Natural oblique ventral underwater view of swimming animal, many leaflike limbs beneath broad shield, two long terminal tail filaments, no horseshoe crab spike, no hands, water plants behind. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "04-observation.webp",
+    "subject": "Triops cancriformis",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Triops cancriformis tadpole shrimp. Side oblique view foraging on muddy pond floor, shield and abdomen visible, two long terminal tail filaments, small aquatic plant fragments, natural nonviolent feeding. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "05-observation.webp",
+    "subject": "Triops cancriformis",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Triops cancriformis tadpole shrimp. Wide shallow seasonal freshwater pond underwater scene, one clearly visible small animal on muddy bottom beside grass stems and submerged leaf; shield, segmented abdomen and two tail filaments. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  },
+  {
+    "image": "06-observation.webp",
+    "subject": "Triops cancriformis",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural history reconstruction for Triops cancriformis tadpole shrimp. Natural habitat photograph reconstruction of dried shallow seasonal pond mud with cracked patches, damp edge and grass, NO adult animals on dry land, NO visible enlarged eggs; landscape showing habitat where microscopic dormant eggs could remain. Correct anatomy, no words or labels, no watermark, no collage. Gallery scene."
+  }
+]
