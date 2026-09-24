@@ -2936,5 +2936,18 @@
       },
       "sha256": "9956f35833e7f0d58ccf4eef766a3bc74fc7195136b564c8805f1fabd7b82524"
     }
+  },
+  "kinkajou": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 690,
+        "top": 130,
+        "right": 1520,
+        "bottom": 740
+      },
+      "sha256": "84e70c52fbcbb4cec48052d9b7f68312c1426925a4b38b41f2f126ea480e911d"
+    }
   }
 }

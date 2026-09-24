@@ -585,3 +585,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Peacock Spider image set](./species/peacock-spider/README.md)
 - [Common Goose Barnacle image set](./species/goose-barnacle/README.md)
 - [European Tadpole Shrimp image set](./species/tadpole-shrimp/README.md)
+
+- [Kinkajou image set](./species/kinkajou/README.md)

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Potos flavus, kinkajou. Golden brown woolly fur, small round ears, big brown eyes, short muzzle, long fully furred prehensile tail, five-toed paws; not a monkey or bear. Scene: Full body on branch in tropical American forest at dusk, tail coiled compactly beside body on the right. All tail fur must remain RIGHT of x=720; subject fits x=760..1450 y=150..880. COVER: left 42% must be quiet blurred background with NO ANIMAL. The ENTIRE subject including tail, toes, antennae, horns, fins or tentacles must fit strictly between x=730 and x=1440, y=100 and y=915 in a 1536x1024 landscape. Subject center about x=1100. Large prominent subject WITHIN these bounds, not tiny. Keep all extremities wholly to the RIGHT of x=730. Real background clearance. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "Use case: scientific-educational. Generate one landscape 1536x1024 photorealistic wildlife reconstruction for a children's fauna atlas. Species Potos flavus, kinkajou: golden-brown woolly fur, rounded small ears, big brown eyes, short muzzle, long fully furred prehensile tail, anatomically correct paws. A single entire kinkajou walks along a branch in humid Neotropical forest at dusk, tail curling around the branch. Cover composition: animal on RIGHT, entire animal including every paw and tail inside rectangle x=710..1440 y=130..890, as large as possible within that area; left 40% quiet soft dark foliage for overlaid title. Real background clearance around every extremity. Full tail loop visible, no additional animals, no text, no inset, no frame, no collage. Natural documentary lighting, fine realistic fur and bark. Do not create bear or monkey anatomy."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Potos flavus, kinkajou. Golden brown woolly fur, small round ears, big brown eyes, short muzzle, long fully furred prehensile tail, five-toed paws; not a monkey or bear. Scene: Close view of rounded furry ears and large eyes in soft evening light. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Potos flavus, kinkajou. Golden brown woolly fur, small round ears, big brown eyes, short muzzle, long fully furred prehensile tail, five-toed paws; not a monkey or bear. Scene: Animal holding a ripe wild fruit with front paws while sitting on a branch, realistic small bite no human foods. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Potos flavus, kinkajou. Golden brown woolly fur, small round ears, big brown eyes, short muzzle, long fully furred prehensile tail, five-toed paws; not a monkey or bear. Scene: Full body climbing diagonally on rough forest trunk, paws gripping bark, tail curves safely within image. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Potos flavus, kinkajou. Golden brown woolly fur, small round ears, big brown eyes, short muzzle, long fully furred prehensile tail, five-toed paws; not a monkey or bear. Scene: Animal curled asleep inside a natural tree hollow, face and curled furry tail visible, daylight outside. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  }
+]

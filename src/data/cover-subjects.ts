@@ -4000,5 +4000,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1460,
       "bottom": 810
     }
+  },
+  "kinkajou": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 690,
+    "top": 130,
+    "right": 1520,
+    "bottom": 740
   }
+},
 };
