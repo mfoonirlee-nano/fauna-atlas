@@ -593,3 +593,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Crested Gecko image set](./species/crested-gecko/README.md)
 - [Vietnamese Mossy Frog image set](./species/vietnamese-mossy-frog/README.md)
 - [Longhorn Cowfish image set](./species/longhorn-cowfish/README.md)
+- [Old World Swallowtail image set](./species/old-world-swallowtail/README.md)

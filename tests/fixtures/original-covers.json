@@ -3027,5 +3027,18 @@
       },
       "sha256": "fd78b15f1520680344c6129c2075b3a3864c66e56a194cdda73ac3fa4510b134"
     }
+  },
+  "old-world-swallowtail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 765,
+        "top": 145,
+        "right": 1495,
+        "bottom": 715
+      },
+      "sha256": "a4199971d75f251088e3866e4c06062334a697867658ed883493402172edf63b"
+    }
   }
 }

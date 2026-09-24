@@ -4071,4 +4071,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 655
   }
 },
+  "old-world-swallowtail": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 765,
+    "top": 145,
+    "right": 1495,
+    "bottom": 715
+  }
+},
 };
