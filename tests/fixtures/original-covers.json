@@ -2988,5 +2988,18 @@
       },
       "sha256": "59ae703155b4d4acd87b2065a62397dff48037a825ad619ba698d855020fa24d"
     }
+  },
+  "crested-gecko": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 170,
+        "right": 1495,
+        "bottom": 795
+      },
+      "sha256": "8c70d692b349327582da6ab8493c47ac7bd55e8580e1044e0b7880e4518aa700"
+    }
   }
 }

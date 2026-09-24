@@ -4041,4 +4041,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 900
   }
 },
+  "crested-gecko": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 710,
+    "top": 170,
+    "right": 1495,
+    "bottom": 795
+  }
+},
 };

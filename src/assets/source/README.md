@@ -590,3 +590,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Bat-eared Fox image set](./species/bat-eared-fox/README.md)
 - [Eurasian Tree Sparrow image set](./species/eurasian-tree-sparrow/README.md)
 - [Light-vented Bulbul image set](./species/light-vented-bulbul/README.md)
+- [Crested Gecko image set](./species/crested-gecko/README.md)
