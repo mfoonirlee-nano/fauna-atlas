@@ -2962,5 +2962,18 @@
       },
       "sha256": "4eac77b13183b200f0a12089a2fe635bf8ca923090d1d89fcdd0bdaf6a402dbb"
     }
+  },
+  "eurasian-tree-sparrow": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 120,
+        "right": 1480,
+        "bottom": 855
+      },
+      "sha256": "2c712ffc8d9a6ce0553df59626383b9926bf8a3fb0a95a67a911b392abc3464f"
+    }
   }
 }

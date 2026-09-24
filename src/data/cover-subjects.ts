@@ -4021,4 +4021,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 940
   }
 },
+  "eurasian-tree-sparrow": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 710,
+    "top": 120,
+    "right": 1480,
+    "bottom": 855
+  }
+},
 };

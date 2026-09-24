@@ -114594,6 +114594,245 @@ export const species = [
   "publishedAt": "2026-09-24",
   "updatedAt": "2026-09-24"
 },
+{
+  "id": "eurasian-tree-sparrow",
+  "slug": "eurasian-tree-sparrow",
+  "names": {
+    "zh": "麻雀",
+    "en": "Eurasian Tree Sparrow"
+  },
+  "scientificName": "Passer montanus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Passeriformes",
+      "zhName": "雀形目"
+    },
+    "family": {
+      "scientificName": "Passeridae",
+      "zhName": "雀科"
+    },
+    "genus": {
+      "scientificName": "Passer",
+      "zhName": "麻雀属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "本档案中的麻雀限定 Passer montanus，不泛指所有雀科鸟。EUNIS 明列全球 IUCN 无危；独立评估年份未核实，欧洲和英国区域状态不替代全球等级。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "欧洲和亚洲；部分地区另有引入种群"
+    ],
+    "countries": [],
+    "range": "欧洲和亚洲；部分地区另有引入种群；主要见于村落、公园、农田和林缘。"
+  },
+  "habitats": [
+    {
+      "name": "村落、公园、农田和林缘",
+      "realm": "terrestrial",
+      "description": "麻雀有栗褐色的头顶，白脸上各有一块黑斑。它会在地面找食物，也会停在细枝上。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "草籽",
+      "谷物",
+      "昆虫"
+    ],
+    "description": "食物包括草籽、谷物、昆虫。"
+  },
+  "tags": [
+    "麻雀",
+    "村落、公园、农田和林缘"
+  ],
+  "summary": "麻雀有栗褐色的头顶，白脸上各有一块黑斑。它会在地面找食物，也会停在细枝上。",
+  "description": "麻雀有栗褐色的头顶，白脸上各有一块黑斑。它会在地面找食物，也会停在细枝上。看看白色脸颊中间的黑斑，再找找栗褐色头顶。成年雌鸟和雄鸟的外形相似。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "白脸上的黑点",
+      "body": "看看白色脸颊中间的黑斑，再找找栗褐色头顶。成年雌鸟和雄鸟的外形相似。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "地上的小种子",
+      "body": "麻雀用短而结实的嘴取食种子，也吃昆虫。育雏时，昆虫是重要食物。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "抓住细枝的脚",
+      "body": "细细的脚趾弯在树枝周围。共读时沿着脚趾看看，它怎样停在枝上。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "一起停在灌木上",
+      "body": "麻雀会结群觅食和休息。远远看一会儿，找找枝条间还有几只。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "洞里的巢",
+      "body": "麻雀会在树洞或建筑缝隙等地方筑巢，用草茎和羽毛等材料铺垫。不要伸手探洞或靠近正在育雏的巢。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "本档案中的麻雀限定 Passer montanus，不泛指所有雀科鸟。EUNIS 明列全球 IUCN 无危；独立评估年份未核实，欧洲和英国区域状态不替代全球等级。"
+    }
+  ],
+  "keyFacts": [
+    "看看白色脸颊中间的黑斑，再找找栗褐色头顶。成年雌鸟和雄鸟的外形相似。",
+    "麻雀用短而结实的嘴取食种子，也吃昆虫。育雏时，昆虫是重要食物。",
+    "细细的脚趾弯在树枝周围。共读时沿着脚趾看看，它怎样停在枝上。",
+    "麻雀会结群觅食和休息。远远看一会儿，找找枝条间还有几只。",
+    "麻雀会在树洞或建筑缝隙等地方筑巢，用草茎和羽毛等材料铺垫。不要伸手探洞或靠近正在育雏的巢。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "观察时不捕捉、不投喂，保留它生活的环境。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "村落、公园、农田和林缘"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "白脸上的黑点"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "本档案中的麻雀限定 Passer montanus，不泛指所有雀科鸟。EUNIS 明列全球 IUCN 无危；独立评估年份未核实，欧洲和英国区域状态不替代全球等级。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/eurasian-tree-sparrow/01-cover.webp",
+    "alt": "麻雀及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/eurasian-tree-sparrow/02-observation.webp",
+        "alt": "麻雀：白脸上的黑点",
+        "title": "白脸上的黑点",
+        "caption": "AI 生成科学情景重建。看看白色脸颊中间的黑斑，再找找栗褐色头顶。成年雌鸟和雄鸟的外形相似。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eurasian-tree-sparrow/03-observation.webp",
+        "alt": "麻雀：地上的小种子",
+        "title": "地上的小种子",
+        "caption": "AI 生成科学情景重建。麻雀用短而结实的嘴取食种子，也吃昆虫。育雏时，昆虫是重要食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eurasian-tree-sparrow/04-observation.webp",
+        "alt": "麻雀：抓住细枝的脚",
+        "title": "抓住细枝的脚",
+        "caption": "AI 生成科学情景重建。细细的脚趾弯在树枝周围。共读时沿着脚趾看看，它怎样停在枝上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eurasian-tree-sparrow/05-observation.webp",
+        "alt": "麻雀：一起停在灌木上",
+        "title": "一起停在灌木上",
+        "caption": "AI 生成科学情景重建。麻雀会结群觅食和休息。远远看一会儿，找找枝条间还有几只。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eurasian-tree-sparrow/06-observation.webp",
+        "alt": "麻雀：洞里的巢",
+        "title": "洞里的巢",
+        "caption": "AI 生成科学情景重建。麻雀会在树洞或建筑缝隙等地方筑巢，用草茎和羽毛等材料铺垫。不要伸手探洞或靠近正在育雏的巢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Cornell Lab：Eurasian Tree Sparrow life history",
+      "url": "https://www.allaboutbirds.org/guide/Eurasian_Tree_Sparrow/lifehistory",
+      "kind": "ecology",
+      "accessedAt": "2026-09-24"
+    },
+    {
+      "title": "eBird：Eurasian Tree Sparrow",
+      "url": "https://ebird.org/species/eutspa?siteLanguage=en_AU",
+      "kind": "general",
+      "accessedAt": "2026-09-24"
+    },
+    {
+      "title": "EUNIS：Passer montanus",
+      "url": "https://eunis.eea.europa.eu/species/Passer%20montanus",
+      "kind": "conservation",
+      "accessedAt": "2026-09-24"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

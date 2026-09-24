@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Passer montanus Eurasian tree sparrow, rich chestnut brown entire crown and nape, round black spot on each white cheek, small black bib, stout conical grey bill, streaked brown back, pale buff belly. Not house sparrow. Scene: Single full adult perched on a thin twig in quiet Chinese park, whole beak tail and toes visible. COVER: left 42% must be quiet blurred background with NO ANIMAL. The ENTIRE subject including tail, toes, antennae, horns, fins or tentacles must fit strictly between x=730 and x=1440, y=100 and y=915 in a 1536x1024 landscape. Subject center about x=1100. Large prominent subject WITHIN these bounds, not tiny. Keep all extremities wholly to the RIGHT of x=730. Real background clearance. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Passer montanus Eurasian tree sparrow, rich chestnut brown entire crown and nape, round black spot on each white cheek, small black bib, stout conical grey bill, streaked brown back, pale buff belly. Not house sparrow. Scene: Close side portrait clearly showing black cheek spot on white cheek and chestnut crown. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Passer montanus Eurasian tree sparrow, rich chestnut brown entire crown and nape, round black spot on each white cheek, small black bib, stout conical grey bill, streaked brown back, pale buff belly. Not house sparrow. Scene: Adult foraging naturally on grassy ground for small wild grass seeds, not bread or human food. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Passer montanus Eurasian tree sparrow, rich chestnut brown entire crown and nape, round black spot on each white cheek, small black bib, stout conical grey bill, streaked brown back, pale buff belly. Not house sparrow. Scene: Full bird on twig with feet and curved toes gripping twig in clear view. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Passer montanus Eurasian tree sparrow, rich chestnut brown entire crown and nape, round black spot on each white cheek, small black bib, stout conical grey bill, streaked brown back, pale buff belly. Not house sparrow. Scene: Three tree sparrows on sparse bush branches, each with brown crown and black cheek patch, no bird cut by frame. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Passer montanus Eurasian tree sparrow, rich chestnut brown entire crown and nape, round black spot on each white cheek, small black bib, stout conical grey bill, streaked brown back, pale buff belly. Not house sparrow. Scene: Adult near entrance of natural tree cavity holding a small dry grass stem, nest interior hidden, no human intervention. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  }
+]

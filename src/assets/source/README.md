@@ -588,3 +588,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Kinkajou image set](./species/kinkajou/README.md)
 - [Bat-eared Fox image set](./species/bat-eared-fox/README.md)
+- [Eurasian Tree Sparrow image set](./species/eurasian-tree-sparrow/README.md)
