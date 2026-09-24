@@ -3040,5 +3040,18 @@
       },
       "sha256": "a4199971d75f251088e3866e4c06062334a697867658ed883493402172edf63b"
     }
+  },
+  "giant-pacific-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 635,
+        "top": 125,
+        "right": 1480,
+        "bottom": 865
+      },
+      "sha256": "6eea629f58dc2ee305fb046434b6ad8ba8a5051e9ee1a1a9db8647e62531ac56"
+    }
   }
 }

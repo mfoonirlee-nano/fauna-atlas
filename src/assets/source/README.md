@@ -594,3 +594,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Vietnamese Mossy Frog image set](./species/vietnamese-mossy-frog/README.md)
 - [Longhorn Cowfish image set](./species/longhorn-cowfish/README.md)
 - [Old World Swallowtail image set](./species/old-world-swallowtail/README.md)
+- [Giant Pacific Octopus image set](./species/giant-pacific-octopus/README.md)

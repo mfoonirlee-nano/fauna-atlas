@@ -4081,4 +4081,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 715
   }
 },
+  "giant-pacific-octopus": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 635,
+    "top": 125,
+    "right": 1480,
+    "bottom": 865
+  }
+},
 };
