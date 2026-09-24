@@ -592,3 +592,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Light-vented Bulbul image set](./species/light-vented-bulbul/README.md)
 - [Crested Gecko image set](./species/crested-gecko/README.md)
 - [Vietnamese Mossy Frog image set](./species/vietnamese-mossy-frog/README.md)
+- [Longhorn Cowfish image set](./species/longhorn-cowfish/README.md)

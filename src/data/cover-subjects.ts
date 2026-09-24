@@ -4061,4 +4061,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 885
   }
 },
+  "longhorn-cowfish": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 645,
+    "top": 140,
+    "right": 1470,
+    "bottom": 655
+  }
+},
 };

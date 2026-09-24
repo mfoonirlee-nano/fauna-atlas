@@ -3014,5 +3014,18 @@
       },
       "sha256": "33e63de4dbdd7e4a5190bdb87b08f280ff1508c4b97807b52fa13760b4d1d276"
     }
+  },
+  "longhorn-cowfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 645,
+        "top": 140,
+        "right": 1470,
+        "bottom": 655
+      },
+      "sha256": "fd78b15f1520680344c6129c2075b3a3864c66e56a194cdda73ac3fa4510b134"
+    }
   }
 }
