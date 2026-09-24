@@ -4031,4 +4031,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 855
   }
 },
+  "light-vented-bulbul": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 775,
+    "top": 120,
+    "right": 1445,
+    "bottom": 900
+  }
+},
 };

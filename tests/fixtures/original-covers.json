@@ -2975,5 +2975,18 @@
       },
       "sha256": "2c712ffc8d9a6ce0553df59626383b9926bf8a3fb0a95a67a911b392abc3464f"
     }
+  },
+  "light-vented-bulbul": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 775,
+        "top": 120,
+        "right": 1445,
+        "bottom": 900
+      },
+      "sha256": "59ae703155b4d4acd87b2065a62397dff48037a825ad619ba698d855020fa24d"
+    }
   }
 }
