@@ -4011,4 +4011,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 740
   }
 },
+  "bat-eared-fox": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 680,
+    "top": 45,
+    "right": 1490,
+    "bottom": 940
+  }
+},
 };

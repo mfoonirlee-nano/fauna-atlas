@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Otocyon megalotis, bat-eared fox. Sandy grizzled grey fur, enormous broad upright ears pale inside and black on backs, dark face mask, black lower legs, bushy dark-tipped tail. Not fennec fox. Scene: Full body standing on short African savanna grass, turned slightly left, complete ears paws and tail. COVER: left 42% must be quiet blurred background with NO ANIMAL. The ENTIRE subject including tail, toes, antennae, horns, fins or tentacles must fit strictly between x=730 and x=1440, y=100 and y=915 in a 1536x1024 landscape. Subject center about x=1100. Large prominent subject WITHIN these bounds, not tiny. Keep all extremities wholly to the RIGHT of x=730. Real background clearance. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Otocyon megalotis, bat-eared fox. Sandy grizzled grey fur, enormous broad upright ears pale inside and black on backs, dark face mask, black lower legs, bushy dark-tipped tail. Not fennec fox. Scene: Close side portrait showing enormous broad ears and small muzzle, no clipped ear tips. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Otocyon megalotis, bat-eared fox. Sandy grizzled grey fur, enormous broad upright ears pale inside and black on backs, dark face mask, black lower legs, bushy dark-tipped tail. Not fennec fox. Scene: Fox standing with nose close to soil searching for termites, a few tiny termites near disturbed soil, no giant insects. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Otocyon megalotis, bat-eared fox. Sandy grizzled grey fur, enormous broad upright ears pale inside and black on backs, dark face mask, black lower legs, bushy dark-tipped tail. Not fennec fox. Scene: Full fox walking on short dry grass, black lower legs clearly visible. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Otocyon megalotis, bat-eared fox. Sandy grizzled grey fur, enormous broad upright ears pale inside and black on backs, dark face mask, black lower legs, bushy dark-tipped tail. Not fennec fox. Scene: Two foxes resting near natural earth den entrance at early morning, undisturbed. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "Use case: scientific-educational. One realistic documentary-style reconstruction image for a children's fauna atlas. Species identity: Otocyon megalotis, bat-eared fox. Sandy grizzled grey fur, enormous broad upright ears pale inside and black on backs, dark face mask, black lower legs, bushy dark-tipped tail. Not fennec fox. Scene: Adult fox and one smaller kit near grassland burrow, calm daylight documentary scene. GALLERY: landscape 1536x1024, natural close-up or whole-body framing as described. Different scene from other images. No frames, diagrams, insets or collage. Natural colors and anatomically accurate structures. No text, labels, logos, watermarks, people, pets, anthropomorphic expressions, extra limbs or fantasy features."
+  }
+]

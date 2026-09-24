@@ -2949,5 +2949,18 @@
       },
       "sha256": "84e70c52fbcbb4cec48052d9b7f68312c1426925a4b38b41f2f126ea480e911d"
     }
+  },
+  "bat-eared-fox": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 45,
+        "right": 1490,
+        "bottom": 940
+      },
+      "sha256": "4eac77b13183b200f0a12089a2fe635bf8ca923090d1d89fcdd0bdaf6a402dbb"
+    }
   }
 }
