@@ -4091,4 +4091,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 865
   }
 },
+  "brown-hydra": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 840,
+    "top": 35,
+    "right": 1485,
+    "bottom": 845
+  }
+},
 };

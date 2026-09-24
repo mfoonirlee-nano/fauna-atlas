@@ -595,3 +595,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Longhorn Cowfish image set](./species/longhorn-cowfish/README.md)
 - [Old World Swallowtail image set](./species/old-world-swallowtail/README.md)
 - [Giant Pacific Octopus image set](./species/giant-pacific-octopus/README.md)
+- [Brown Hydra image set](./species/brown-hydra/README.md)

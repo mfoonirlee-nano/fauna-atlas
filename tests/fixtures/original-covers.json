@@ -3053,5 +3053,18 @@
       },
       "sha256": "6eea629f58dc2ee305fb046434b6ad8ba8a5051e9ee1a1a9db8647e62531ac56"
     }
+  },
+  "brown-hydra": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 840,
+        "top": 35,
+        "right": 1485,
+        "bottom": 845
+      },
+      "sha256": "68a6ef9557358dd737b43d77cf8c743d06905e0b6a76e89aa116ba3997ad9516"
+    }
   }
 }
