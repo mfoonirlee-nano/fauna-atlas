@@ -115308,6 +115308,241 @@ export const species = [
   "publishedAt": "2026-09-24",
   "updatedAt": "2026-09-24"
 },
+{
+  "id": "vietnamese-mossy-frog",
+  "slug": "vietnamese-mossy-frog",
+  "names": {
+    "zh": "越南苔藓蛙",
+    "en": "Vietnamese Mossy Frog",
+    "aliases": [
+      "北部湾棱皮树蛙"
+    ]
+  },
+  "scientificName": "Theloderma corticale",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Amphibia",
+      "zhName": "两栖纲"
+    },
+    "order": {
+      "scientificName": "Anura",
+      "zhName": "无尾目"
+    },
+    "family": {
+      "scientificName": "Rhacophoridae",
+      "zhName": "树蛙科"
+    },
+    "genus": {
+      "scientificName": "Theloderma",
+      "zhName": "棱皮树蛙属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "采用 AMNH Amphibian Species of the World 的 Theloderma corticale 范围，包含旧名 T. kwangsiense；不能写成越南特有。未取得明确全球评估记录，NE 为仓库缺省，表示本档案等级待核实，不代表无危。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "中国南部、越南和老挝部分地区"
+    ],
+    "countries": [],
+    "range": "中国南部、越南和老挝部分地区；主要见于山地森林中的水池、岩隙和溪流岸边。"
+  },
+  "habitats": [
+    {
+      "name": "山地森林中的水池、岩隙和溪流岸边",
+      "realm": "freshwater",
+      "description": "越南苔藓蛙的皮肤凹凸不平，绿黑相间。它停在湿石头旁时，轮廓很像一团苔藓。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "昆虫",
+      "其他小型无脊椎动物"
+    ],
+    "description": "食物包括昆虫、其他小型无脊椎动物。"
+  },
+  "tags": [
+    "越南苔藓蛙",
+    "山地森林中的水池、岩隙和溪流岸边"
+  ],
+  "summary": "越南苔藓蛙的皮肤凹凸不平，绿黑相间。它停在湿石头旁时，轮廓很像一团苔藓。",
+  "description": "越南苔藓蛙的皮肤凹凸不平，绿黑相间。它停在湿石头旁时，轮廓很像一团苔藓。绿色、黑色斑纹和皮肤上的小突起共同形成苔藓般的外观。背上并没有长出真正的苔藓叶片。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "凹凸的皮肤",
+      "body": "绿色、黑色斑纹和皮肤上的小突起共同形成苔藓般的外观。背上并没有长出真正的苔藓叶片。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "石头旁找一找",
+      "body": "在湿润的石头和苔藓之间，先找眼睛，再顺着身体找四条腿。伪装帮助它在环境中隐蔽。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "圆圆的趾端",
+      "body": "趾端的附着结构帮助它攀在岩石等表面。看看脚趾末端较宽的部分。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "水面上的眼睛",
+      "body": "它会藏在浅水和岩隙中，有时只露出眼睛等部位。水中的身体会受到遮挡和折射影响。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "水面上方的卵",
+      "body": "繁殖时，卵可附着在水面上方的岩壁等湿润表面。孵出的蝌蚪落入下面的水中继续生长。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "采用 AMNH Amphibian Species of the World 的 Theloderma corticale 范围，包含旧名 T. kwangsiense；不能写成越南特有。未取得明确全球评估记录，NE 为仓库缺省，表示本档案等级待核实，不代表无危。"
+    }
+  ],
+  "keyFacts": [
+    "绿色、黑色斑纹和皮肤上的小突起共同形成苔藓般的外观。背上并没有长出真正的苔藓叶片。",
+    "在湿润的石头和苔藓之间，先找眼睛，再顺着身体找四条腿。伪装帮助它在环境中隐蔽。",
+    "趾端的附着结构帮助它攀在岩石等表面。看看脚趾末端较宽的部分。",
+    "它会藏在浅水和岩隙中，有时只露出眼睛等部位。水中的身体会受到遮挡和折射影响。",
+    "繁殖时，卵可附着在水面上方的岩壁等湿润表面。孵出的蝌蚪落入下面的水中继续生长。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "观察时不捕捉、不投喂，保留它生活的环境。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "山地森林中的水池、岩隙和溪流岸边"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "凹凸的皮肤"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "未评估",
+      "note": "采用 AMNH Amphibian Species of the World 的 Theloderma corticale 范围，包含旧名 T. kwangsiense；不能写成越南特有。未取得明确全球评估记录，NE 为仓库缺省，表示本档案等级待核实，不代表无危。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/vietnamese-mossy-frog/01-cover.webp",
+    "alt": "越南苔藓蛙及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/vietnamese-mossy-frog/02-observation.webp",
+        "alt": "越南苔藓蛙：凹凸的皮肤",
+        "title": "凹凸的皮肤",
+        "caption": "AI 生成科学情景重建。绿色、黑色斑纹和皮肤上的小突起共同形成苔藓般的外观。背上并没有长出真正的苔藓叶片。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/vietnamese-mossy-frog/03-observation.webp",
+        "alt": "越南苔藓蛙：石头旁找一找",
+        "title": "石头旁找一找",
+        "caption": "AI 生成科学情景重建。在湿润的石头和苔藓之间，先找眼睛，再顺着身体找四条腿。伪装帮助它在环境中隐蔽。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/vietnamese-mossy-frog/04-observation.webp",
+        "alt": "越南苔藓蛙：圆圆的趾端",
+        "title": "圆圆的趾端",
+        "caption": "AI 生成科学情景重建。趾端的附着结构帮助它攀在岩石等表面。看看脚趾末端较宽的部分。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/vietnamese-mossy-frog/05-observation.webp",
+        "alt": "越南苔藓蛙：水面上的眼睛",
+        "title": "水面上的眼睛",
+        "caption": "AI 生成科学情景重建。它会藏在浅水和岩隙中，有时只露出眼睛等部位。水中的身体会受到遮挡和折射影响。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/vietnamese-mossy-frog/06-observation.webp",
+        "alt": "越南苔藓蛙：水面上方的卵",
+        "title": "水面上方的卵",
+        "caption": "AI 生成科学情景重建。繁殖时，卵可附着在水面上方的岩壁等湿润表面。孵出的蝌蚪落入下面的水中继续生长。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "AMNH：Theloderma corticale",
+      "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Rhacophoridae/Rhacophorinae/Theloderma/Theloderma-corticale",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-24"
+    },
+    {
+      "title": "Smithsonian National Zoo：Vietnamese mossy frog",
+      "url": "https://www.nationalzoo.si.edu/animals/vietnamese-mossy-frog",
+      "kind": "ecology",
+      "accessedAt": "2026-09-24"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-09-24"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

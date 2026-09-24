@@ -4051,4 +4051,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 795
   }
 },
+  "vietnamese-mossy-frog": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 625,
+    "top": 165,
+    "right": 1510,
+    "bottom": 885
+  }
+},
 };

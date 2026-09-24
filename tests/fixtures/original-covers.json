@@ -3001,5 +3001,18 @@
       },
       "sha256": "8c70d692b349327582da6ab8493c47ac7bd55e8580e1044e0b7880e4518aa700"
     }
+  },
+  "vietnamese-mossy-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 165,
+        "right": 1510,
+        "bottom": 885
+      },
+      "sha256": "33e63de4dbdd7e4a5190bdb87b08f280ff1508c4b97807b52fa13760b4d1d276"
+    }
   }
 }
