@@ -1,171 +1,175 @@
-# 动物制作清单：面向 3 岁孩子的 100 种新选题
+# 制作清单：100 种新动物与 10 个微生物选题
 
-2026-09-23 更新：已对照 `src/data/species.ts` 中的 300 份物种档案，移除原清单中已实现的 50 种动物。本轮清单共 100 种，现已完成 100 种，剩余 0 种；站内共 400 份物种档案。首批核验记录见 [todo-first-ten-2026-09-20.md](research/todo-first-ten-2026-09-20.md)。第二批核验记录见 [todo-second-ten-2026-09-21.md](research/todo-second-ten-2026-09-21.md)。第三批核验记录见 [todo-third-ten-2026-09-21.md](research/todo-third-ten-2026-09-21.md)。上一批 5 种核验记录见 [todo-five-2026-09-21.md](research/todo-five-2026-09-21.md)。本批 5 种核验记录见 [todo-next-five-2026-09-21.md](research/todo-next-five-2026-09-21.md)。新增十种核验记录见 [todo-ten-2026-09-22.md](research/todo-ten-2026-09-22.md)。本次跨组五种核验记录见 [todo-cross-group-five-2026-09-22.md](research/todo-cross-group-five-2026-09-22.md)。本次跨组十种核验记录见 [todo-cross-group-ten-2026-09-22.md](research/todo-cross-group-ten-2026-09-22.md)。本次新增十种核验记录见 [todo-fourth-cross-group-ten-2026-09-22.md](research/todo-fourth-cross-group-ten-2026-09-22.md)。本次第五批跨组十种核验记录见 [todo-fifth-cross-group-ten-2026-09-22.md](research/todo-fifth-cross-group-ten-2026-09-22.md)。本次十种核验记录见 [todo-cross-group-ten-2026-09-23.md](research/todo-cross-group-ten-2026-09-23.md)。最后五种核验记录见 [todo-final-five-2026-09-23.md](research/todo-final-five-2026-09-23.md)。历史制作资料保留在 `docs/research/`。
+2026-09-24 更新：已对照 `src/data/species.ts` 中的 400 份物种档案，移除上一轮已完成的 100 种动物。新增 100 种未收录动物，另列 10 个微生物选题，共 110 项待制作。历史研究与核验记录保留在 `docs/research/`。
 
 ## 选题与共读方式
 
-目标是帮助孩子认识地球上动物的多样性：有的长毛，有的有壳；有的在树上荡，有的在沙里钻，还有的固定在海底生活。选题同时考虑身体结构、行动方式、生活环境和生长变化，避免只靠相似动物的细小花纹扩充数量。
+面向 3 岁左右孩子，每次看一两种，先找一个能看见的特点：长鼻子、会卷的尾巴、透明的翅膀，或显微镜下游动的小生命。兼顾身边常见动物、不同栖息环境和身体结构，不只用近似花纹扩充数量。
 
-- 每份物种档案先讲一个能看见的特点，用主体清楚的图片和一句短话表达。下列引号内是亲子观察提示，家长可以跟着孩子的兴趣展开。
-- 共读时可以先叫“鸟”“小鱼”“虫子”，再介绍具体名字；学名供制作时定位物种，不要求孩子记忆、认字或完成问答。
-- 动作选题使用连续图或前后对照图；大小比较统一比例，微距照片标明参照物。只在雄性、雌性或某个生长阶段出现的特点，要在图片与说明中写清。
-- 每次挑一两种，也可以配已有动物一起看，例如用大食蚁兽与土豚比较长嘴，用蛞蝓与蜗牛比较外壳。制作时交替选择不同组，避免连续堆叠近似物种。
-- 分组供家长选内容，分类图谱仍按仓库分类口径维护。“其他水边与海中动物”包含多个动物门，不作为一个分类单元。
-- 下列名称与观察点用于选题。制作物种档案时，逐项核实中文名、接受学名、分布、行为和图像，尤其注意蜜袋鼯、枯叶龟等涉及物种拆分的范围。
+- 每项列出具体物种与观察提示；中文名、接受学名、分布和行为须在制作档案时逐项核实。这是选题清单，尚未完成逐种研究。
+- 学名供制作时定位，孩子可以先叫“小鸟”“小鱼”。动作选题用连续图；性别、年龄和季节限定要随图说明。
+- 微距与显微图标出尺度；示意图、人工着色和 AI 重建均须注明，不能让孩子以为肉眼能在手上看见细菌。
+- 用自然行为影像，不为拍照惊吓、翻动或刺激动物；身边动物以观察为主，不把野外捕捉作为共读活动。
+- 微生物专题同时介绍发酵、环境中的生活和疾病传播，避免把微生物都画成坏蛋，或把生病归因于孩子“不乖”“不爱干净”。
+- 当前物种档案与分类图谱面向动物。下方非动物微生物先作为独立专题待办；正式接入时另行确定内容模型和分类口径，不挂到动物界下。
 
-| 选题组 | 待制作数量 | 主要观察差异 |
+| 选题组 | 待制作数量 | 观察方向 |
 | --- | ---: | --- |
-| 哺乳动物 | 0 | 身体比例、攀爬与滑翔、不同环境中的生活 |
-| 鸟类 | 0 | 嘴和脚的形状、取食、筑巢与育幼 |
-| 爬行动物 | 0 | 壳、鳞片、伪装、陆地与水中移动 |
-| 两栖动物 | 0 | 身体形状、卵与成体、水陆环境 |
-| 鱼类 | 0 | 扁、长、圆等体形，以及不同的鳍 |
-| 昆虫与其他节肢动物 | 0 | 足、触角、外壳、筑巢与藏身 |
-| 其他水边与海中动物 | 0 | 软体、双壳、触手、群体与附着生活 |
-| 合计 | 0 | |
+| 哺乳动物 | 20 | 尾巴、耳朵、角与移动方式 |
+| 鸟类 | 20 | 鸟嘴、羽冠、巢和身边的鸟 |
+| 爬行动物 | 10 | 鳞片、壳、脚趾与尾巴 |
+| 两栖动物 | 8 | 隐蔽外形、育幼与水中生活 |
+| 鱼类 | 15 | 嘴形、鳍、群游与共生 |
+| 昆虫与其他节肢动物 | 17 | 变态、巢、触角与步足 |
+| 其他无脊椎动物 | 10 | 腕、触手、群体与微小身体 |
+| 动物小计 | 100 | |
+| 微生物专题（另计） | 10 | 显微观察、发酵与卫生习惯 |
+| 合计 | 110 | |
 
 ## 哺乳动物（20 种）
 
-从草地、森林、沙漠到寒冷地区，看看长毛的动物怎样用不同的身体部位生活。
+- [ ] 蜜熊 *Potos flavus*：抓握的尾巴。“找找绕在树枝上的尾巴。”
+- [ ] 斑林狸 *Prionodon pardicolor*：细长身体。“看看它沿树枝走时，长尾巴放在哪里。”
+- [ ] 斑灵猫 *Spilogale putorius*：黑白花纹。“沿着背上的白纹，找找尾巴。”
+- [ ] 大耳狐 *Otocyon megalotis*：大耳朵。“比一比耳朵和脸的大小。”
+- [ ] 兔狲 *Otocolobus manul*：低低的圆耳。“在蓬松的毛里找找两只耳朵。”
+- [ ] 沙猫 *Felis margarita*：沙地生活。“看看浅色的毛和周围的沙子。”
+- [ ] 霍氏树懒 *Choloepus hoffmanni*：倒挂生活。“找找它勾住树枝的前爪。”
+- [ ] 领食蚁兽 *Tamandua tetradactyla*：树上攀爬。“看看前爪怎样抱住树干。”
+- [ ] 大犰狳 *Priodontes maximus*：甲片与挖掘。“看看前脚弯弯的大爪子。”
+- [ ] 侏食蚁兽 *Cyclopes didactylus*：小小的树栖身体。“在有比例参照的图里找找它。”
+- [ ] 低地斑纹马岛猬 *Hemicentetes semispinosus*：刺与条纹。“找找黑色背上的浅色条纹。”
+- [ ] 短耳象鼩 *Macroscelides proboscideus*：长鼻尖。“看看鼻尖伸到嘴前多远。”
+- [ ] 长耳跳鼠 *Euchoreutes naso*：长耳和长后腿。“比一比前腿与后腿。”
+- [ ] 榛睡鼠 *Muscardinus avellanarius*：攀枝的小脚。“看看它怎样抓着细枝。”
+- [ ] 北美豪猪 *Erethizon dorsatum*：树上的刺毛动物。“看看它爬树时脚放在哪里。”
+- [ ] 黑尾草原犬鼠 *Cynomys ludovicianus*：洞口生活。“找找洞口旁站起来张望的小动物。”
+- [ ] 冠毛豪猪 *Hystrix cristata*：头颈的长鬃。“找找头后向上竖起的毛。”
+- [ ] 非洲岩蹄兔 *Procavia capensis*：岩石上的短腿动物。“看看它怎样站在岩石边。”
+- [ ] 捻角山羊 *Capra falconeri*：雄性的螺旋角。“沿着角看看它怎样一圈圈扭转。”
+- [ ] 冠海豹 *Cystophora cristata*：成年雄性的鼻囊。“用自然展示影像看看鼻子上方鼓起的囊。”
 
-- [x] 大食蚁兽 *Myrmecophaga tridactyla*：长嘴与取食。“看看它从长嘴里伸出的细舌头。”
-- [x] 鬃狼 *Chrysocyon brachyurus*：高草中的长腿。“找找草丛上方的身体和下面的长腿。”
-- [x] 熊狸 *Arctictis binturong*：能抓握的尾巴。“看看它怎样把尾巴绕在树枝上。”
-- [x] 马岛獴 *Cryptoprocta ferox*：树间平衡。“看看它沿树枝走时，长尾巴放在哪里。”
-- [x] 长鼻猴 *Nasalis larvatus*：雄性的鼻子。“找找成年雄猴垂下来的大鼻子。”
-- [x] 山魈 *Mandrillus sphinx*：脸部外形。“看看成年雄猴鼻子两边的蓝色和中间的红色。”
-- [x] 白掌长臂猿 *Hylobates lar*：悬挂与摆荡。“看看它怎样用长胳膊从一根树枝荡到另一根。”
-- [x] 东非黑白疣猴 *Colobus guereza*：长毛与身体轮廓。“找找身体两侧垂下的白色长毛。”
-- [x] 金狮狨 *Leontopithecus rosalia*：小型树栖动物。“看看它脸旁一圈金色的毛。”
-- [x] 袋獾 *Sarcophilus harrisii*：低矮体形。“找找黑色身体、短腿和胸前的白色花纹。”
-- [x] 袋食蚁兽 *Myrmecobius fasciatus*：林地取食。“看看它把尖嘴伸向地面寻找白蚁。”
-- [x] 马氏树袋鼠 *Dendrolagus matschiei*：树上的袋鼠。“看看它怎样抱住树干往上爬。”
-- [x] 蜜袋鼯 *Petaurus breviceps*：滑翔的皮膜。“看看它张开四肢时，身体两侧展开的皮膜。”
-- [x] 印度狐蝠 *Pteropus medius*：哺乳动物的翅膀。“看看它倒挂休息时怎样把翅膀收起来。”
-- [x] 南非豪猪 *Hystrix africaeaustralis*：长刺。“找找背上和尾部粗细不同的刺。”
-- [x] 跳兔 *Pedetes capensis*：前后腿的差异。“看看短短的前腿和用来跳跃的长后腿。”
-- [x] 麝牛 *Ovibos moschatus*：寒冷地区的长毛。“看看长毛怎样垂到腿旁边。”
-- [x] 驼鹿 *Alces alces*：雄性的掌状角。“找找成年雄鹿头上像大手掌一样展开的角。”
-- [x] 单峰驼 *Camelus dromedarius*：沙地上的脚。“看看宽宽的脚怎样踩在沙地上。”
-- [x] 长颈羚 *Litocranius walleri*：站立取食。“看看它用后腿站起来，伸长脖子吃叶子。”
+## 鸟类（20 种）
 
-## 鸟类（15 种）
-
-用嘴、脚和巢的差异认识鸟，兼顾水边、草原、森林和海上的生活。
-
-- [x] 蛇鹫 *Sagittarius serpentarius*：地面行走。“看看这只鸟怎样迈着长腿走过草地。”
-- [x] 白琵鹭 *Platalea leucorodia*：匙形嘴。“找找嘴巴末端像小勺一样变宽的地方。”
-- [x] 黑翅长脚鹬 *Himantopus himantopus*：浅水长腿。“看看它站在浅水里时，身体离水面有多高。”
-- [x] 反嘴鹬 *Recurvirostra avosetta*：向上弯的嘴。“沿着细嘴巴，看看尖端朝哪边弯。”
-- [x] 白鹈鹕 *Pelecanus onocrotalus*：嘴下的喉囊。“看看它捕鱼时嘴巴下面张开的袋子。”
-- [x] 蓝脚鲣鸟 *Sula nebouxii*：有蹼的脚。“看看蓝色脚趾之间连着的蹼。”
-- [x] 丽色军舰鸟 *Fregata magnificens*：雄性的喉囊。“看看雄鸟鼓起来的红色喉囊。”
-- [x] 美洲水雉 *Jacana jacana*：浮叶上的长趾。“找找踩在水面叶子上的细长脚趾。”
-- [x] 黑头织布鸟 *Ploceus cucullatus*：编织鸟巢。“看看它用嘴叼着草条，把巢编在树枝上。”
-- [x] 缎蓝园丁鸟 *Ptilonorhynchus violaceus*：求偶场地。“找找雄鸟搭的草茎通道和旁边的蓝色物件。”
-- [x] 华丽极乐鸟 *Diphyllodes magnificus*：雄性的尾羽。“看看雄鸟尾后两根弯弯的长羽毛。”
-- [x] 大走鹃 *Geococcyx californianus*：奔跑的鸟。“看看它在地上跑时伸出的长尾巴。”
-- [x] 穴小鸮 *Athene cunicularia*：地洞旁的生活。“在地面洞口旁找找站着的小鸮。”
-- [x] 北岛褐几维 *Apteryx mantelli*：长嘴与地面取食。“看看它把长嘴伸进松软的土里。”
-- [x] 日鳽 *Eurypyga helias*：展开与收拢的翅膀。“看看翅膀展开后露出的两块大花纹。”
+- [ ] 麻雀 *Passer montanus*：身边的鸟。“找找白脸上的黑色小斑块。”
+- [ ] 白头鹎 *Pycnonotus sinensis*：头部花纹。“找找眼睛后方的白色。”
+- [ ] 乌鸫 *Turdus merula*：草地觅食。“看看它停下来，再向前跳几步。”
+- [ ] 珠颈斑鸠 *Spilopelia chinensis*：颈侧斑点。“找找脖子旁一粒粒浅色点。”
+- [ ] 大山雀 *Parus major*：腹部纵纹。“从下巴沿着黑纹看到肚子。”
+- [ ] 银喉长尾山雀 *Aegithalos caudatus*：长尾巴。“比一比尾巴和身体的长度。”
+- [ ] 普通䴓 *Sitta europaea*：沿树干移动。“看看它怎样头朝下走。”
+- [ ] 凤头麦鸡 *Vanellus vanellus*：细长羽冠。“找找头顶向后弯的羽毛。”
+- [ ] 蛎鹬 *Haematopus ostralegus*：红色长嘴。“看看长嘴和黑白羽毛。”
+- [ ] 黑剪嘴鸥 *Rynchops niger*：上下嘴差异。“从侧面看看哪半边嘴更长。”
+- [ ] 凤头䴙䴘 *Podiceps cristatus*：背上的幼鸟。“找找成年鸟背上带条纹的小脑袋。”
+- [ ] 凤冠鸠 *Goura victoria*：扇形羽冠。“看看头顶展开的细羽毛。”
+- [ ] 紫胸佛法僧 *Coracias caudatus*：展开的翅膀。“看看飞起来时露出的蓝色。”
+- [ ] 丽色黄喉蜂虎 *Merops nubicus*：红色身体。“找找红羽毛之间的蓝绿色头顶。”
+- [ ] 长尾巧织雀 *Euplectes progne*：繁殖期雄鸟的长尾。“看看尾羽在飞行时拖在哪里。”
+- [ ] 安第斯动冠伞鸟 *Rupicola peruvianus*：雄性的圆羽冠。“从侧面找找圆圆的头顶轮廓。”
+- [ ] 缨尾蜂鸟 *Trochilus polytmus*：雄性的长尾羽。“找找身后两根细长的羽毛。”
+- [ ] 吸蜜鹦鹉 *Trichoglossus moluccanus*：彩色羽毛。“从蓝头、绿翅膀找到橙色胸口。”
+- [ ] 啄羊鹦鹉 *Nestor notabilis*：探索物体。“看看它怎样用嘴和脚摆弄树枝。”
+- [ ] 普通缝叶莺 *Orthotomus sutorius*：叶片中的巢。“沿着叶片边缘找找固定叶子的纤维。”
 
 ## 爬行动物（10 种）
 
-比较扁壳、软壳、鳞片和不同的脚，也看看动物怎样藏在树叶或沙地中。
+- [ ] 两栖突眼蜥 *Tribolonotus gracilis*：眼周颜色。“找找眼睛外面的一圈橙色。”
+- [ ] 睫角守宫 *Correlophus ciliatus*：眼上突起。“看看眼睛上方像睫毛一样的边缘。”
+- [ ] 绿安乐蜥 *Anolis carolinensis*：雄性喉扇。“看看下巴下面展开的小扇子。”
+- [ ] 蓝舌石龙子 *Tiliqua scincoides*：蓝色舌头。“在自然活动影像中看看伸出的舌头。”
+- [ ] 松果蜥 *Tiliqua rugosa*：粗糙鳞片与短尾。“看看尾巴是不是也圆钝钝的。”
+- [ ] 犰狳环尾蜥 *Ouroborus cataphractus*：带刺鳞片。“沿着尾巴找找一圈圈鳞片。”
+- [ ] 翡翠树蚺 *Corallus caninus*：盘在枝上的身体。“看看绿色身体怎样搭在树枝上。”
+- [ ] 触须蛇 *Erpeton tentaculatum*：吻端突起。“在放大图里找找嘴前的两根小触须。”
+- [ ] 菱斑龟 *Malaclemys terrapin*：壳上纹路。“找找每块盾片里一圈圈的线。”
+- [ ] 长颈龟 *Chelodina longicollis*：侧向收颈。“看看长脖子怎样弯到壳边。”
 
-- [x] 枯叶龟 *Chelus fimbriata*：枯叶般的轮廓。“在水底落叶旁找找它的头和脖子。”
-- [x] 猪鼻龟 *Carettochelys insculpta*：水中划动的四肢。“看看它用像小桨一样的前肢划水。”
-- [x] 饼干龟 *Malacochersus tornieri*：扁平的龟壳。“从侧面看看它扁扁的壳，再看看岩石缝。”
-- [x] 飞蜥 *Draco volans*：滑翔膜。“看看身体两侧展开的皮膜。”
-- [x] 双冠蜥 *Basiliscus basiliscus*：水面奔跑。“在连续图里看看后脚怎样踩过水面。”
-- [x] 蛤蚧 *Gekko gecko*：攀附的脚趾。“看看它贴在树干上的宽脚趾。”
-- [x] 药用石龙子 *Scincus scincus*：沙中移动。“看看它钻进沙子后留下的痕迹。”
-- [x] 叶尾守宫 *Uroplatus phantasticus*：叶片状尾巴。“把它的尾巴和旁边的枯叶放在一起看。”
-- [x] 钩盲蛇 *Indotyphlops braminus*：细小的地下蛇。“在放大图里找找小蛇身上一片片鳞片。”
-- [x] 黄唇青斑海蛇 *Laticauda colubrina*：划水的扁尾。“看看身体后面扁扁的尾巴。”
+## 两栖动物（8 种）
 
-## 两栖动物（5 种）
-
-从已有的蛙和蝾螈继续拓展，观察透明腹部、携卵方式和细长身体。
-
-- [x] 弗氏玻璃蛙 *Hyalinobatrachium fleischmanni*：半透明腹部。“从下方看看肚皮里透出的身体轮廓。”
-- [x] 番茄蛙 *Dyscophus antongilii*：圆鼓的体形。“看看成年雌蛙红红的背和圆圆的身体。”
-- [x] 产婆蟾 *Alytes obstetricans*：雄性携卵。“找找雄蟾后腿上绕着的一串卵。”
-- [x] 高山蝾螈 *Ichthyosaura alpestris*：尾巴与游泳。“看看它在水里怎样摆动长尾巴。”
-- [x] 三趾两栖鲵 *Amphiuma tridactylum*：细长身体上的小腿。“沿着长身体找找四条小腿。”
+- [ ] 华莱士飞蛙 *Rhacophorus nigropalmatus*：大脚蹼。“看看脚趾张开后连成的薄膜。”
+- [ ] 越南苔藓蛙 *Theloderma corticale*：凹凸的皮肤。“在苔藓旁找找它的身体轮廓。”
+- [ ] 苏里南角蛙 *Ceratophrys cornuta*：眼上尖角。“找找眼睛上方尖尖的突起。”
+- [ ] 沙漠雨蛙 *Breviceps macrops*：圆身体和短腿。“找找圆肚子下面的小脚。”
+- [ ] 非洲牛箱头蛙 *Pyxicephalus adspersus*：宽大的嘴。“比一比头和身体的宽度。”
+- [ ] 囊蛙 *Gastrotheca riobambae*：雌性的育儿袋。“用示意图看看背上育儿袋的位置。”
+- [ ] 洞螈 *Proteus anguinus*：洞穴中的水生生活。“在放大图里找找头两侧的外鳃。”
+- [ ] 斑点钝口螈 *Ambystoma maculatum*：背部斑点。“沿着黑色背部找找黄色点点。”
 
 ## 鱼类（15 种）
 
-把长条、扁片、盒子般的体形放在一起看，再观察鱼怎样用鳍游动或停留。
+- [ ] 皇冠海马 *Hippocampus bargibanti*：珊瑚间的伪装。“在海扇枝条上找找卷起的尾巴。”
+- [ ] 条纹躄鱼 *Antennarius striatus*：皮肤突起。“看看身体上细细的分枝。”
+- [ ] 角箱鲀 *Lactoria cornuta*：头上的角。“从正面找找眼睛前方的两个尖角。”
+- [ ] 东方豹鲂鮄 *Dactyloptena orientalis*：大胸鳍。“比较胸鳍收起和展开时的样子。”
+- [ ] 条纹虾鱼 *Aeoliscus strigatus*：头朝下游泳。“找找一群小鱼的嘴都朝着哪里。”
+- [ ] 矛尾翻车鲀 *Masturus lanceolatus*：尾部轮廓。“找找身体后方伸出的小尖尾。”
+- [ ] 大斑躄鱼 *Antennarius maculatus*：海底的短胖鱼。“看看它怎样用鳍支撑身体。”
+- [ ] 波纹唇鱼 *Cheilinus undulatus*：成年大鱼的额头。“看看头顶鼓起的轮廓。”
+- [ ] 蓝头方头鱼 *Opistognathus aurifrons*：雄鱼口中护卵。“在自然影像里找找嘴里的卵团。”
+- [ ] 双带双锯鱼 *Amphiprion clarkii*：海葵间的生活。“找找触手之间露出的小鱼。”
+- [ ] 裂唇鱼 *Labroides dimidiatus*：清洁站。“看看小鱼怎样靠近大鱼的身体。”
+- [ ] 霓虹虾虎鱼 *Elacatinus oceanops*：细长蓝纹。“沿着身体侧面的蓝线找到尾巴。”
+- [ ] 红腹食人鱼 *Pygocentrus nattereri*：嘴和牙齿。“用放大图看看牙齿的形状，不渲染攻击场面。”
+- [ ] 玻璃鲶 *Kryptopterus vitreolus*：半透明身体。“透过身体找找脊柱的轮廓。”
+- [ ] 三刺鱼 *Gasterosteus aculeatus*：雄鱼筑巢。“看看它怎样把植物碎片带到巢边。”
 
-- [x] 双吻前口蝠鲼 *Mobula birostris*：宽大的胸鳍。“看看身体两边的大鳍怎样上下摆动。”
-- [x] 无沟双髻鲨 *Sphyrna mokarran*：横向展开的头。“找找宽宽的头两端的眼睛。”
-- [x] 狐形长尾鲨 *Alopias vulpinus*：长长的尾鳍。“看看尾巴上半边伸出去有多长。”
-- [x] 哈氏异康吉鳗 *Heteroconger hassi*：沙洞中的群居生活。“在沙地上找找一条条探出身子的小鱼。”
-- [x] 飞角鱼 *Dactylopterus volitans*：展开的胸鳍。“看看它在海底展开的两把大扇子。”
-- [x] 翱翔飞鱼 *Exocoetus volitans*：离水滑翔。“看看它离开水面后展开的胸鳍。”
-- [x] 六斑刺鲀 *Diodon holocanthus*：身体上的刺。“看看身体鼓起时竖起来的刺。”
-- [x] 粒突箱鲀 *Ostracion cubicum*：方盒般的身体。“看看小鱼方方的身体和小小的鳍。”
-- [x] 中华管口鱼 *Aulostomus chinensis*：细长的管状嘴。“找找长身体前面像管子一样的嘴。”
-- [x] 康氏躄鱼 *Antennarius commerson*：海底支撑。“看看它怎样用胸鳍撑在海底。”
-- [x] 花斑连鳍䲗 *Synchiropus splendidus*：贴近礁底的小鱼。“在珊瑚碎块间找找身上有彩色弯纹的小鱼。”
-- [x] 印头鱼 *Echeneis naucrates*：头顶吸盘。“看看它头顶椭圆形的吸盘。”
-- [x] 翱翔蓑鲉 *Pterois volitans*：长鳍条。“找找像扇子一样展开的鳍和一根根鳍条。”
-- [x] 尖海龙 *Syngnathus acus*：细长而直的身体。“和已有的海马一起看，找找它长长直直的身体。”
-- [x] 欧洲鲽 *Pleuronectes platessa*：侧扁体形。“看看贴着海底的成鱼，两只眼睛长在哪一面。”
+## 昆虫与其他节肢动物（17 种）
 
-## 昆虫与其他节肢动物（20 种）
+- [ ] 凤蝶 *Papilio machaon*：翅膀尾突。“找找后翅伸出的两个小尾巴。”
+- [ ] 月蛾 *Actias luna*：长尾状后翅。“看看绿色翅膀后拖着的细长部分。”
+- [ ] 大透翅天蛾 *Cephonodes hylas*：透明翅膀。“在停歇近照里看看翅膀中间。”
+- [ ] 大白粉蝶 *Pieris brassicae*：卵、幼虫与成蝶。“把三个生长阶段放在一起找不同。”
+- [ ] 玫瑰枫蛾 *Dryocampa rubicunda*：粉黄配色。“找找翅膀上的粉色和黄色。”
+- [ ] 大丽花螳螂 *Pseudocreobotra wahlbergii*：翅膀上的眼斑。“用已有展示影像找找大圆纹。”
+- [ ] 长颈卷叶象 *Trachelophorus giraffa*：雄性的长颈。“看看小脑袋和身体之间的长脖子。”
+- [ ] 金龟甲 *Charidotella sexpunctata*：盾形轮廓。“沿着身体找找宽宽的外缘。”
+- [ ] 大花金龟 *Goliathus goliatus*：大型甲虫。“借助比例尺，看看它的身体有多宽。”
+- [ ] 澳洲织叶蚁 *Oecophylla smaragdina*：树叶巢。“看看工蚁怎样拉住叶片边缘。”
+- [ ] 草蛉 *Chrysoperla carnea*：带细柄的卵。“找找叶片上细丝顶端的小卵。”
+- [ ] 蚁蛉 *Myrmeleon formicarius*：幼虫的沙坑。“看看沙地上的漏斗形小坑。”
+- [ ] 美洲剑尾鲎 *Limulus polyphemus*：海岸上的背甲。“从侧面看看拱起的甲壳。”
+- [ ] 拳击蟹 *Lybia tessellata*：螯中的海葵。“找找两只螯前的小海葵。”
+- [ ] 箭蟹 *Stenorhynchus seticornis*：长腿与尖额。“找找细长腿中间的小身体。”
+- [ ] 跳蛛 *Phidippus regius*：朝前的大眼睛。“在微距图里找找前面两只大眼睛。”
+- [ ] 盐水丰年虫 *Artemia salina*：水中划动的附肢。“用放大影像看看身体两旁摆动的小足。”
 
-从花叶、水面、泥地到海岸，认识不同的足、触角和外壳。小动物照片需要比例参照。
+## 其他无脊椎动物（10 种）
 
-- [x] 印度竹节虫 *Carausius morosus*：枝条般的身体。“在细树枝之间找找虫子的长腿。”
-- [x] 澳大利亚刺竹节虫 *Extatosoma tiaratum*：枯叶般的轮廓。“找找身体和腿上像叶片一样伸出的部分。”
-- [x] 兰花螳螂 *Hymenopus coronatus*：花瓣般的腿。“看看白色腿上宽宽的部分，像不像花瓣。”
-- [x] 乌桕大蚕蛾 *Attacus atlas*：大翅膀。“在有比例参照的图里，看看展开的翅膀有多大。”
-- [x] 小豆长喙天蛾 *Macroglossum stellatarum*：悬停吸蜜。“看看它飞在花前时伸出的长喙。”
-- [x] 透翅蝶 *Greta oto*：透明翅膀。“透过翅膀中间，看看后面的叶子。”
-- [x] 红壁蜂 *Osmia bicornis*：洞穴里的巢。“看看它怎样用泥把小洞口封起来。”
-- [x] 紫木蜂 *Xylocopa violacea*：木头中的巢。“在木头表面找找它进出的圆洞。”
-- [x] 神圣蜣螂 *Scarabaeus sacer*：滚动食物。“看看它怎样用后腿推动粪球。”
-- [x] 豉甲 *Gyrinus natator*：水面转圈。“看看水面上游来游去的小甲虫。”
-- [x] 黄缘龙虱 *Dytiscus marginalis*：划水的后足。“看看它怎样用两条后腿划水。”
-- [x] 水黾 *Gerris lacustris*：水面行走。“找找长腿碰到水面的地方。”
-- [x] 欧洲蠼螋 *Forficula auricularia*：尾部的夹子。“看看身体后面一对弯弯的尾钳。”
-- [x] 人面金蛛 *Nephila pilipes*：结网。“沿着蛛丝找找网中央的蜘蛛。”
-- [x] 孔雀蜘蛛 *Maratus volans*：雄性的展示。“看看雄蛛抬起的彩色腹部和长腿。”
-- [x] 甘氏巨螯蟹 *Macrocheira kaempferi*：长腿与小身体。“找找长腿围着的身体，再看比例参照。”
-- [x] 普通寄居蟹 *Pagurus bernhardus*：借壳藏身。“看看它走动时背着的螺壳。”
-- [x] 安波双鞭虾 *Lysmata amboinensis*：清洁行为。“看看小虾站在鱼身旁，用细脚忙些什么。”
-- [x] 鹅颈藤壶 *Lepas anatifera*：附着生活。“找找它固定在漂浮木头上的柄。”
-- [x] 丰年鲎虫 *Triops cancriformis*：临时水塘中的生活。“看看大背甲后伸出的细尾丝和腹面摆动的足。”
+- [ ] 北太平洋巨型章鱼 *Enteroctopus dofleini*：腕和吸盘。“沿着一条腕找找一排排吸盘。”
+- [ ] 草莓鱿鱼 *Histioteuthis heteropsis*：大小不同的眼睛。“分别看看身体两侧的眼睛。”
+- [ ] 裸海蝶 *Clione limacina*：翼状附肢。“看看身体两侧的小翅膀怎样摆动。”
+- [ ] 叶羊海天牛 *Costasiella kuroshimae*：背部突起。“在比例尺旁看看背上一簇簇小突起。”
+- [ ] 心形鸟蛤 *Corculum cardissa*：贝壳形状。“从合适角度看看两片壳合起来的轮廓。”
+- [ ] 紫螺 *Janthina janthina*：泡沫筏。“找找螺壳旁托着它的泡泡。”
+- [ ] 仙后水母 *Cassiopea xamachana*：倒置生活。“看看伞部贴着海底时，口腕朝哪边。”
+- [ ] 血腹栉水母 *Lampocteis cruentiventer*：梳状纤毛。“在灯光影像里看看身体侧面的彩色光带。”
+- [ ] 褐水螅 *Hydra vulgaris*：微小淡水动物。“用放大图找找身体顶端伸开的触手。”
+- [ ] 萼花臂尾轮虫 *Brachionus calyciflorus*：显微镜下的动物。“看看头端纤毛怎样摆动。”
 
-## 其他水边与海中动物（15 种）
+## 微生物专题（10 个，另计）
 
-继续认识软体动物、环节动物、刺胞动物、棘皮动物和海绵。先观察身体，再由家长介绍它们也是动物。
+“微生物”是观察尺度与生活方式上的统称，不是一个分类阶元。本组包含细菌、真菌和单细胞真核生物；轮虫、水螅等微小动物已计入上方动物清单。优先选用可靠显微照片和简明示意图，不安排孩子培养手印、厕所污物或发霉食物。
 
-- [x] 加州海兔 *Aplysia californica*：软软的身体。“找找头上像兔耳朵一样的两根触角。”
-- [x] 威氏多彩海蛞蝓 *Chromodoris willani*：外露的鳃。“看看背后像小花一样的一圈鳃。”
-- [x] 豹纹蛞蝓 *Limax maximus*：陆地爬行。“和已有的蜗牛一起看，找找它光滑的背。”
-- [x] 大扇贝 *Pecten maximus*：开合的双壳。“看看两片扇形壳怎样张开和合上。”
-- [x] 蓝贻贝 *Mytilus edulis*：附着的双壳动物。“看看一簇贝壳怎样贴在岩石上。”
-- [x] 莱氏拟乌贼 *Sepioteuthis lessoniana*：身体两侧的鳍。“看看身体两边一圈薄薄的鳍怎样摆动。”
-- [x] 船蛸 *Argonauta argo*：雌性的卵壳。“看看雌船蛸抱着的薄薄白壳和伸出的腕。”
-- [x] 沙蚕 *Alitta virens*：分节与爬行。“沿着长身体找找一节节身体两旁的小突起。”
-- [x] 大旋鳃虫 *Spirobranchus giganteus*：伸展的鳃冠。“找找珊瑚表面像两棵小树一样展开的鳃冠。”
-- [x] 红海葵 *Actinia equina*：伸展与收拢。“看看触手展开和收起来时，身体有什么不同。”
-- [x] 橙色海笔 *Ptilosarcus gurneyi*：羽毛般的群体。“看看海底这根像羽毛一样的海笔。”
-- [x] 太平洋海荨麻 *Chrysaora fuscescens*：伞部与长触手。“看看圆伞下面垂下来的长触手。”
-- [x] 玫瑰海饼 *Clypeaster rosaceus*：扁平的棘皮动物。“看看背面像五片花瓣一样的纹路。”
-- [x] 斑锚参 *Synapta maculata*：细长的海参。“看看它像长绳子一样伸展的身体。”
-- [x] 浴海绵 *Spongia officinalis*：多孔与附着生活。“找找海绵表面大大小小的孔。”
+- [ ] 酿酒酵母 *Saccharomyces cerevisiae*：真菌；比较单个细胞与面团里的气泡。“小小的酵母怎样让面团鼓起来？”由成人演示食品级酵母，联系做食物前洗手，不尝生面团。
+- [ ] 嗜热链球菌 *Streptococcus thermophilus*：细菌；看看链状排列的细胞，认识酸奶发酵参与者。联系食品按包装要求冷藏，不把所有细菌说成有害。
+- [ ] 德氏乳杆菌 *Lactobacillus delbrueckii*：细菌；以保加利亚亚种讲酸奶发酵。“看看一个个细胞像什么形状。”制作时明确亚种，不与上一项合并成同一种菌。
+- [ ] 双歧双歧杆菌 *Bifidobacterium bifidum*：细菌；认识肠道微生物及分枝形态。提示“身体里也住着微小生命”，不延伸成购买益生菌或治疗效果建议。
+- [ ] 大肠杆菌 *Escherichia coli*：细菌；用杆状细胞图讲菌株差异。多数无害，部分可致病；联系便后、吃东西前洗手，不凭图片判断菌株是否致病。[资料：CDC](https://www.cdc.gov/ecoli/about/index.html)
+- [ ] 肠道沙门菌 *Salmonella enterica*：细菌；用“动物生活区域、手、食物”的示意图讲传播机会。联系接触动物及其用品后洗手；本专题面向幼儿，爬宠和两栖动物用图片观察，5 岁以下不直接接触。[资料：CDC](https://www.cdc.gov/healthy-pets/about/reptiles-and-amphibians.html)
+- [ ] 变异链球菌 *Streptococcus mutans*：细菌；用牙菌斑示意图讲口腔细菌利用糖产酸。联系成人帮助早晚刷牙；说明龋齿涉及多种细菌、饮食和时间，不画成一只虫在啃牙。[资料：NIDCR 口腔微生物](https://www.nidcr.nih.gov/news-events/nidcr-news/2024/exploring-mouths-microbial-wonders)、[CDC 龋齿介绍](https://www.cdc.gov/oral-health/about/cavities-tooth-decay.html)
+- [ ] 蓝氏贾第鞭毛虫 *Giardia duodenalis*：单细胞真核寄生生物；比较显微照片与结构示意。联系不吞泳池水、不喝未经处理的溪水、便后洗手；制作时注明 *G. lamblia*、*G. intestinalis* 等同物异名。[资料：CDC](https://www.cdc.gov/giardia/prevention/index.html)
+- [ ] 大草履虫 *Paramecium caudatum*：单细胞真核生物；用显微视频观察纤毛和游动。“找找它怎样转弯。”作为水中生命选题，不把它当作致病菌代表，也不由水里有生物推断水能饮用。
+- [ ] 眼虫 *Euglena gracilis*：单细胞真核生物；用显微图看看绿色细胞和鞭毛。联系“清澈的水里也可能有肉眼看不见的东西”，饮水安全须看水源与处理方式，不靠肉眼判断。
 
-## 制作提示与资料入口
+## 卫生习惯与制作资料
 
-观察点应使用自然行为画面。例如刺鲀鼓起身体用已有影像说明，制作时不为取景刺激动物；园丁鸟的求偶场地与育雏巢要分开介绍；船蛸的白壳要说明是雌性形成的卵壳。
+共读时把卫生习惯落到孩子能做的动作：吃东西前、上厕所后、接触动物及其用品后，在成人帮助下用肥皂和流动水洗手；搓洗手心、手背、指缝和指甲周围至少 20 秒，再冲净、擦干。用洗手顺序图配合动作，不以恐吓或“把微生物全部消灭”为目标。[依据：CDC 洗手说明](https://www.cdc.gov/clean-hands/faq/index.html)
 
-本轮按已有档案去重，并查阅部分机构资料辅助选题；以下资料不代表已完成 100 种动物的逐种事实核验。正式制作时沿用仓库的物种研究与图像核验流程。
+先用酵母和酸奶介绍生活中的微生物，再选大肠杆菌或贾第鞭毛虫讲一个卫生场景。图片里微生物的大小、颜色和“表情”都不能用于判断其危害。孩子生病时不责怪孩子，也不把本专题写成诊断或用药指南。
 
-- 长颈羚站立取食的观察点参考[圣迭戈动物园：羚羊](https://animals.sandiegozoo.org/animals/antelope)。
-- 袋食蚁兽选题参考[珀斯动物园：Numbat](https://perthzoo.wa.gov.au/animal/numbat)。
-- 刺竹节虫的叶片状外形参考[珀斯动物园：Spiny Leaf Insect](https://perthzoo.wa.gov.au/animal/spiny-leaf-insect)。
-- 海笔群体与附着生活的观察方向参考[蒙特雷湾水族馆：Sea pen](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sea-pen)。
+以下资料支持部分选题方向，不代表 110 项已完成事实核验。正式制作仍需核实物种身份、图像对应关系、行为限定及分类口径。
+
+- [圣迭戈动物园：蜜熊](https://animals.sandiegozoo.org/animals/kinkajou)，供树栖与尾巴观察选题参考。
+- [蒙特雷湾水族馆：深海展物种](https://www.montereybayaquarium.org/about-us/about-the-aquarium/newsroom/media-kits/into-the-deep-featured-species)，供草莓鱿鱼、血腹栉水母等选题参考。
+- [Microbiology Society：面向小学生的微生物活动](https://microbiologysociety.org/resource/outreach-team-microbes-bringing-microbiology-into-primary-schools.html)，供同时介绍有益微生物与卫生习惯的组织方式参考；其中活动需按幼儿年龄重新筛选。
