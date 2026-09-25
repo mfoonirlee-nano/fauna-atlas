@@ -598,3 +598,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Brown Hydra image set](./species/brown-hydra/README.md)
 
 - [Spotted Linsang image set](./species/spotted-linsang/README.md)
+
+- [Alleghanian Spotted Skunk image set](./species/eastern-spotted-skunk/README.md)

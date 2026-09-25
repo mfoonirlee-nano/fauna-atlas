@@ -3079,5 +3079,18 @@
       },
       "sha256": "841945e4d8fc85ed6b9398b2f58b06f49b90ff817975613c23ef466420c4e696"
     }
+  },
+  "eastern-spotted-skunk": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 690,
+        "top": 30,
+        "right": 1515,
+        "bottom": 825
+      },
+      "sha256": "a29fc7346b01adde75a586c7f0535f78d463fa035168856b7a6fd5760e7e6e50"
+    }
   }
 }

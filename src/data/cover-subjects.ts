@@ -4111,4 +4111,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 780
   }
 },
+  "eastern-spotted-skunk": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 690,
+    "top": 30,
+    "right": 1515,
+    "bottom": 825
+  }
+},
 };

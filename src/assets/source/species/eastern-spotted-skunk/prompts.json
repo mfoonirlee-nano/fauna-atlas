@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Alleghanian eastern spotted skunk Spilogale putorius, small elongated black body, short legs, broken white stripes and patches rather than two uninterrupted stripes, white forehead patch, fluffy long tail with white tip, Appalachian woodland. Scene: Complete animal walking at right on leaf litter, fluffy tail curved upward and contained at right. STRICT HERO COMPOSITION: reserve the entire LEFT 42 percent as empty softly blurred habitat. Place ALL animal parts including entire tail only inside the RIGHT region x=670..1450 y=100..920. Subject center at 70 percent of width. Maximize animal size within this RIGHT region. No part of animal on left. Real background margin around complete silhouette. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Alleghanian eastern spotted skunk Spilogale putorius, small elongated black body, short legs, broken white stripes and patches rather than two uninterrupted stripes, white forehead patch, fluffy long tail with white tip, Appalachian woodland. Scene: Three-quarter slightly overhead view showing broken white stripes and spots on back, animal calm on leaf litter. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Alleghanian eastern spotted skunk Spilogale putorius, small elongated black body, short legs, broken white stripes and patches rather than two uninterrupted stripes, white forehead patch, fluffy long tail with white tip, Appalachian woodland. Scene: Close face portrait showing triangular white forehead patch and small rounded ears. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Alleghanian eastern spotted skunk Spilogale putorius, small elongated black body, short legs, broken white stripes and patches rather than two uninterrupted stripes, white forehead patch, fluffy long tail with white tip, Appalachian woodland. Scene: Side view highlighting long bushy tail with white tip, standing relaxed beside a log. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Alleghanian eastern spotted skunk Spilogale putorius, small elongated black body, short legs, broken white stripes and patches rather than two uninterrupted stripes, white forehead patch, fluffy long tail with white tip, Appalachian woodland. Scene: Small animal sniffing leaf litter beside a fallen log at dusk, no prey or gore. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Alleghanian eastern spotted skunk Spilogale putorius, small elongated black body, short legs, broken white stripes and patches rather than two uninterrupted stripes, white forehead patch, fluffy long tail with white tip, Appalachian woodland. Scene: Animal peering from natural den opening among roots at daylight, quiet woodland. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  }
+]
