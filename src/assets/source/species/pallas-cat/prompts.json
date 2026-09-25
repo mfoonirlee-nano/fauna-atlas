@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Pallas's cat Otocolobus manul, stocky short-legged wild cat, dense grey buff fur, flat broad face, small round ears set low at sides, round pupils, thick ringed black-tipped tail, rocky central Asian steppe. Scene: Complete animal standing at right on rock, thick tail curled beside legs, full silhouette. STRICT HERO COMPOSITION: reserve the entire LEFT 42 percent as empty softly blurred habitat. Place ALL animal parts including entire tail only inside the RIGHT region x=670..1450 y=100..920. Subject center at 70 percent of width. Maximize animal size within this RIGHT region. No part of animal on left. Real background margin around complete silhouette. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Pallas's cat Otocolobus manul, stocky short-legged wild cat, dense grey buff fur, flat broad face, small round ears set low at sides, round pupils, thick ringed black-tipped tail, rocky central Asian steppe. Scene: Close frontal face portrait with both small low round ears clearly visible, natural face not anthropomorphic. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Pallas's cat Otocolobus manul, stocky short-legged wild cat, dense grey buff fur, flat broad face, small round ears set low at sides, round pupils, thick ringed black-tipped tail, rocky central Asian steppe. Scene: Full body side view crouching on a rock showing thick fur and short legs. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Pallas's cat Otocolobus manul, stocky short-legged wild cat, dense grey buff fur, flat broad face, small round ears set low at sides, round pupils, thick ringed black-tipped tail, rocky central Asian steppe. Scene: Side rear three-quarter view showing thick ringed tail lying along rock, head also visible. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Pallas's cat Otocolobus manul, stocky short-legged wild cat, dense grey buff fur, flat broad face, small round ears set low at sides, round pupils, thick ringed black-tipped tail, rocky central Asian steppe. Scene: Cat walking slowly between steppe tussocks and rocks in soft dawn light, no prey. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one Pallas's cat Otocolobus manul, stocky short-legged wild cat, dense grey buff fur, flat broad face, small round ears set low at sides, round pupils, thick ringed black-tipped tail, rocky central Asian steppe. Scene: Cat resting at sheltered rock crevice entrance, relaxed alert eyes, no deep snow. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  }
+]

@@ -600,3 +600,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Spotted Linsang image set](./species/spotted-linsang/README.md)
 
 - [Alleghanian Spotted Skunk image set](./species/eastern-spotted-skunk/README.md)
+
+- [Pallas's Cat image set](./species/pallas-cat/README.md)

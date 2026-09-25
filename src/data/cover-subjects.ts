@@ -4121,4 +4121,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 825
   }
 },
+  "pallas-cat": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 675,
+    "top": 75,
+    "right": 1505,
+    "bottom": 825
+  }
+},
 };
