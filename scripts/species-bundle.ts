@@ -67,6 +67,10 @@ export function speciesBundle(): Plugin {
           ...(id === item.slug ? {} : { id }),
           t: taxonomyRanks.map((rank) => indexes.get(JSON.stringify(taxonomy[rank]))),
         }));
+        // Positional rows avoid repeating field keys for every species.
+        const rows = catalogue.map(({ slug, l, n, s, c, d, t, m, h, g, id }) =>
+          [slug, l, n, s, c, d, t, m, h, g, ...(id === undefined ? [] : [id])],
+        );
         // Match catalogue order so the loader table does not repeat every slug.
         const loaders = species.map(({ slug }) =>
           `()=>import(${JSON.stringify(profilePrefix + slug)})`,
@@ -76,8 +80,8 @@ export function speciesBundle(): Plugin {
           const ranks=${JSON.stringify(taxonomyRanks)};
           const labels=${JSON.stringify(labels)};
           const restoreLabels=values=>values.map(value=>typeof value==='number'?labels[value]:value);
-          export const species=${JSON.stringify(catalogue)}.map(({l,n,s,c,d,t,m,h,g,...item})=>({...item,id:item.id??item.slug,names:{zh:l[0],en:l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[5]].scientificName+' '+n,summary:s,
-            conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+item.slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:m[1]===1?l[0]+'及其栖息环境，AI 生成科学情景重建':m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
+          export const species=${JSON.stringify(rows)}.map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id??slug,names:{zh:l[0],en:l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[5]].scientificName+' '+n,summary:s,
+            conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:m[1]===1?l[0]+'及其栖息环境，AI 生成科学情景重建':m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
             taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[t[index]]]))}));
           const imports=[${loaders}];
           const loaders=new Map(species.map((item,index)=>[item.slug,imports[index]]));
