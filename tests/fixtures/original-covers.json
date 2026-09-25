@@ -3118,5 +3118,18 @@
       },
       "sha256": "9ea32c4c11585e621f71d6dbcdd3c12c883890aa8950ac4c22ae44722f94f7fc"
     }
+  },
+  "hoffmanns-two-toed-sloth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 15,
+        "right": 1515,
+        "bottom": 895
+      },
+      "sha256": "b18ebb47383f7e877468602bc49b8dbad4661ba21a42e9156f447cdf0cb6ac38"
+    }
   }
 }

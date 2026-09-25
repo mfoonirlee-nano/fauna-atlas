@@ -4141,4 +4141,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 855
   }
 },
+  "hoffmanns-two-toed-sloth": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 685,
+    "top": 15,
+    "right": 1515,
+    "bottom": 895
+  }
+},
 };

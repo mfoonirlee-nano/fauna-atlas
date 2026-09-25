@@ -604,3 +604,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Pallas's Cat image set](./species/pallas-cat/README.md)
 
 - [Sand Cat image set](./species/sand-cat/README.md)
+
+- [Hoffmann's Two-toed Sloth image set](./species/hoffmanns-two-toed-sloth/README.md)
