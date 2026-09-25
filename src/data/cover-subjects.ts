@@ -4101,4 +4101,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 845
   }
 },
+  "spotted-linsang": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 710,
+    "top": 120,
+    "right": 1510,
+    "bottom": 780
+  }
+},
 };

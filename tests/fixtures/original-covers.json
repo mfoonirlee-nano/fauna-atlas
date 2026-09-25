@@ -3066,5 +3066,18 @@
       },
       "sha256": "68a6ef9557358dd737b43d77cf8c743d06905e0b6a76e89aa116ba3997ad9516"
     }
+  },
+  "spotted-linsang": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 120,
+        "right": 1510,
+        "bottom": 780
+      },
+      "sha256": "841945e4d8fc85ed6b9398b2f58b06f49b90ff817975613c23ef466420c4e696"
+    }
   }
 }

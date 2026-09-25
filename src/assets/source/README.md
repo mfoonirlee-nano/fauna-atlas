@@ -596,3 +596,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Old World Swallowtail image set](./species/old-world-swallowtail/README.md)
 - [Giant Pacific Octopus image set](./species/giant-pacific-octopus/README.md)
 - [Brown Hydra image set](./species/brown-hydra/README.md)
+
+- [Spotted Linsang image set](./species/spotted-linsang/README.md)

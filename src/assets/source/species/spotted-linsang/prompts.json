@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one spotted linsang Prionodon pardicolor, very slender elongated body, short legs, pointed muzzle, tan coat with separate black spots in longitudinal rows, long thin black-ringed tail, Asian forest. Scene: Complete animal standing obliquely on a branch, long tail bent into a gentle U entirely at right. STRICT HERO COMPOSITION: reserve the entire LEFT 42 percent as empty softly blurred habitat. Place ALL animal parts including entire tail only inside the RIGHT region x=670..1450 y=100..920. Subject center at 70 percent of width. Maximize animal size within this RIGHT region. No part of animal on left. Real background margin around complete silhouette. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one spotted linsang Prionodon pardicolor, very slender elongated body, short legs, pointed muzzle, tan coat with separate black spots in longitudinal rows, long thin black-ringed tail, Asian forest. Scene: Side view highlighting the long ringed tail extended behind as the animal balances on a branch. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one spotted linsang Prionodon pardicolor, very slender elongated body, short legs, pointed muzzle, tan coat with separate black spots in longitudinal rows, long thin black-ringed tail, Asian forest. Scene: Close portrait of head, alert dark eyes and pointed muzzle, natural calm expression. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one spotted linsang Prionodon pardicolor, very slender elongated body, short legs, pointed muzzle, tan coat with separate black spots in longitudinal rows, long thin black-ringed tail, Asian forest. Scene: Close lateral view of separate dark spots arranged along the tan flank, include shoulder and hip for context. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one spotted linsang Prionodon pardicolor, very slender elongated body, short legs, pointed muzzle, tan coat with separate black spots in longitudinal rows, long thin black-ringed tail, Asian forest. Scene: Animal climbing an inclined trunk, short legs and feet gripping bark, full body visible. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "Use case: scientific-educational. Single landscape 1536x1024 photorealistic wildlife reconstruction for a species encyclopedia. Subject: one spotted linsang Prionodon pardicolor, very slender elongated body, short legs, pointed muzzle, tan coat with separate black spots in longitudinal rows, long thin black-ringed tail, Asian forest. Scene: Animal resting curled on a sheltered branch among foliage in daylight, long ringed tail resting alongside body. Educational observation image, animal fills frame with clear anatomical focal point, natural environmental context. Muted natural light, accurate anatomy, detailed fur. Opaque full background. No text, labels, borders, collage, watermark, humans, extra animals or exaggerated expression."
+  }
+]
