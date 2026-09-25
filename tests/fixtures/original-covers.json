@@ -3105,5 +3105,18 @@
       },
       "sha256": "58846b44879c38f789a44bf5112a1c473fda52931ea22423c16f4137bf8fe891"
     }
+  },
+  "sand-cat": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 125,
+        "right": 1500,
+        "bottom": 855
+      },
+      "sha256": "9ea32c4c11585e621f71d6dbcdd3c12c883890aa8950ac4c22ae44722f94f7fc"
+    }
   }
 }
