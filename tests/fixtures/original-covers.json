@@ -3196,5 +3196,18 @@
       },
       "sha256": "ed2b251bf6c92fbd69e09470aad7e8f0b621ab8610f84bdddf475611656e7138"
     }
+  },
+  "long-eared-jerboa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 250,
+        "right": 1500,
+        "bottom": 870
+      },
+      "sha256": "f8d8a2d543cd5013802d5490d3055ad77b255d42d328dc7a719f9b7796543ef5"
+    }
   }
 }

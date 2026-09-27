@@ -118871,6 +118871,249 @@ export const species = [
   "updatedAt": "2026-09-26"
 },
 
+{
+  "id": "long-eared-jerboa",
+  "slug": "long-eared-jerboa",
+  "names": {
+    "zh": "长耳跳鼠",
+    "en": "Long-eared Jerboa"
+  },
+  "scientificName": "Euchoreutes naso",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Rodentia",
+      "zhName": "啮齿目"
+    },
+    "family": {
+      "scientificName": "Dipodidae",
+      "zhName": "跳鼠科"
+    },
+    "genus": {
+      "scientificName": "Euchoreutes",
+      "zhName": "长耳跳鼠属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "不将近缘跳鼠的繁殖、寿命和洞穴类型推测写成本种已证实的事实。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "中国西北部与蒙古南部"
+    ],
+    "countries": [
+      "中国",
+      "蒙古"
+    ],
+    "range": "中国西北部与蒙古南部；主要栖息于荒漠与半荒漠。"
+  },
+  "habitats": [
+    {
+      "name": "荒漠与半荒漠",
+      "realm": "terrestrial",
+      "description": "长耳跳鼠有长长的耳朵、短前腿和细长的后腿。它在荒漠中活动，主要以昆虫为食。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫"
+    ],
+    "description": "食物包括昆虫。"
+  },
+  "tags": [
+    "长耳跳鼠",
+    "荒漠与半荒漠"
+  ],
+  "summary": "长耳跳鼠有长长的耳朵、短前腿和细长的后腿。它在荒漠中活动，主要以昆虫为食。",
+  "description": "长耳跳鼠有长长的耳朵、短前腿和细长的后腿。它在荒漠中活动，主要以昆虫为食。从头顶找到两只长耳朵，再比一比耳朵和头的长度。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "比头还长的耳朵",
+      "body": "从头顶找到两只长耳朵，再比一比耳朵和头的长度。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "短前腿和长后腿",
+      "body": "从侧面找找胸前的小前脚，再沿着后腿看到长长的后脚。它主要依靠后肢跳跃移动。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "尾巴末端的小毛簇",
+      "body": "沿着细长的尾巴看到末端，那里有黑白相间的毛簇。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "夜里寻找昆虫",
+      "body": "长耳跳鼠主要在夜间活动，以昆虫为食。图中展示它接近一只小虫的情景。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "灌丛间的沙地",
+      "body": "看看它周围的沙土、石粒和低矮灌丛。这里是荒漠中的生活环境。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留荒漠中的灌丛和地表环境，观察时不追赶动物，也不挖开洞穴。"
+    }
+  ],
+  "keyFacts": [
+    "从头顶找到两只长耳朵，再比一比耳朵和头的长度。",
+    "从侧面找找胸前的小前脚，再沿着后腿看到长长的后脚。它主要依靠后肢跳跃移动。",
+    "沿着细长的尾巴看到末端，那里有黑白相间的毛簇。",
+    "长耳跳鼠主要在夜间活动，以昆虫为食。图中展示它接近一只小虫的情景。",
+    "看看它周围的沙土、石粒和低矮灌丛。这里是荒漠中的生活环境。"
+  ],
+  "threats": [
+    "栖息地扰动"
+  ],
+  "conservationActions": [
+    "保留荒漠中的灌丛和地表环境，观察时不追赶动物，也不挖开洞穴。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "荒漠与半荒漠"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "比头还长的耳朵"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "不将近缘跳鼠的繁殖、寿命和洞穴类型推测写成本种已证实的事实。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/long-eared-jerboa/01-cover.webp",
+    "alt": "长耳跳鼠及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/long-eared-jerboa/02-observation.webp",
+        "alt": "长耳跳鼠：比头还长的耳朵",
+        "title": "比头还长的耳朵",
+        "caption": "AI 生成科学情景重建。从头顶找到两只长耳朵，再比一比耳朵和头的长度。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/long-eared-jerboa/03-observation.webp",
+        "alt": "长耳跳鼠：短前腿和长后腿",
+        "title": "短前腿和长后腿",
+        "caption": "AI 生成科学情景重建。从侧面找找胸前的小前脚，再沿着后腿看到长长的后脚。它主要依靠后肢跳跃移动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/long-eared-jerboa/04-observation.webp",
+        "alt": "长耳跳鼠：尾巴末端的小毛簇",
+        "title": "尾巴末端的小毛簇",
+        "caption": "AI 生成科学情景重建。沿着细长的尾巴看到末端，那里有黑白相间的毛簇。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/long-eared-jerboa/05-observation.webp",
+        "alt": "长耳跳鼠：夜里寻找昆虫",
+        "title": "夜里寻找昆虫",
+        "caption": "AI 生成科学情景重建。长耳跳鼠主要在夜间活动，以昆虫为食。图中展示它接近一只小虫的情景。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/long-eared-jerboa/06-observation.webp",
+        "alt": "长耳跳鼠：灌丛间的沙地",
+        "title": "灌丛间的沙地",
+        "caption": "AI 生成科学情景重建。看看它周围的沙土、石粒和低矮灌丛。这里是荒漠中的生活环境。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mammal Diversity Database：Euchoreutes naso",
+      "url": "https://www.mammaldiversity.org/taxon/1001996/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-27"
+    },
+    {
+      "title": "MDD 官方数据：分类、分布与所列 IUCN 等级",
+      "url": "https://raw.githubusercontent.com/mammaldiversity/mammaldiversity.github.io/master/assets/data/mdd.csv",
+      "kind": "conservation",
+      "accessedAt": "2026-09-27"
+    },
+    {
+      "title": "Animal Diversity Web：Euchoreutes naso",
+      "url": "https://animaldiversity.org/accounts/Euchoreutes_naso/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-27"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

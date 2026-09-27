@@ -612,3 +612,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Common Silky Anteater image set](./species/silky-anteater/README.md)
 - [Lowland Streaked Tenrec image set](./species/lowland-streaked-tenrec/README.md)
 - [Karoo Round-eared Sengi image set](./species/short-eared-sengi/README.md)
+
+- [长耳跳鼠 image set](./species/long-eared-jerboa/README.md)
