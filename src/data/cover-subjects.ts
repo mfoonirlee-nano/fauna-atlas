@@ -4211,4 +4211,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 870
   }
 },
+  "hazel-dormouse": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 755,
+    "top": 90,
+    "right": 1320,
+    "bottom": 966
+  }
+},
 };

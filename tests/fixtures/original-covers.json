@@ -3209,5 +3209,18 @@
       },
       "sha256": "f8d8a2d543cd5013802d5490d3055ad77b255d42d328dc7a719f9b7796543ef5"
     }
+  },
+  "hazel-dormouse": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 755,
+        "top": 90,
+        "right": 1320,
+        "bottom": 966
+      },
+      "sha256": "5c184fa264a3c75396da348102552041062e0044fdf18254bd1546e27c4a90d3"
+    }
   }
 }

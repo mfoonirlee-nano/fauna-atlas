@@ -1,0 +1,26 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "prompt": "Use case scientific-educational. One photorealistic 1536x1024 wildlife cover: hazel dormouse Muscardinus avellanarius. Tiny golden orange-brown dormouse, pale cream underside, large black eyes, small rounded ears, fully furry long tail (not naked mouse tail). Full animal perched naturally holding thin hazel branch in leafy European woodland, all paws and entire gently curved furry tail visible. Main animal at right, full boundary x=780..1430 y=180..860, center near 70% width, left 40% quiet blurred woodland green background for title. Maximize subject within boundaries and leave background beyond all extremities. Accurate anatomy, natural light, no text, borders or watermark. Scientific reconstruction."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "Use case scientific-educational. Generate one independent landscape 1536x1024 photorealistic wildlife reconstruction. Subject: Muscardinus avellanarius hazel dormouse: tiny golden-brown body, creamy underside, large black eyes, small round ears, furry long tail, European deciduous woodland. Scene: Close view of animal grasping slender twig with fore and hind paws, paws connected naturally. Accurate species anatomy and natural behavior, soft realistic habitat lighting, clear educational observation. Not a sequence. No text, labels, border, collage, watermark, hands, human intervention or artificial accessories."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "Use case scientific-educational. Generate one independent landscape 1536x1024 photorealistic wildlife reconstruction. Subject: Muscardinus avellanarius hazel dormouse: tiny golden-brown body, creamy underside, large black eyes, small round ears, furry long tail, European deciduous woodland. Scene: Whole animal moving along a horizontal branch, entire furry tail visible. Accurate species anatomy and natural behavior, soft realistic habitat lighting, clear educational observation. Not a sequence. No text, labels, border, collage, watermark, hands, human intervention or artificial accessories."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "Use case scientific-educational. Generate one independent landscape 1536x1024 photorealistic wildlife reconstruction. Subject: Muscardinus avellanarius hazel dormouse: tiny golden-brown body, creamy underside, large black eyes, small round ears, furry long tail, European deciduous woodland. Scene: Close front three-quarter face showing black eyes, small rounded ears and whiskers. Accurate species anatomy and natural behavior, soft realistic habitat lighting, clear educational observation. Not a sequence. No text, labels, border, collage, watermark, hands, human intervention or artificial accessories."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "Use case scientific-educational. Generate one independent landscape 1536x1024 photorealistic wildlife reconstruction. Subject: Muscardinus avellanarius hazel dormouse: tiny golden-brown body, creamy underside, large black eyes, small round ears, furry long tail, European deciduous woodland. Scene: Animal holding and nibbling a hazelnut while seated on branch in woodland. Accurate species anatomy and natural behavior, soft realistic habitat lighting, clear educational observation. Not a sequence. No text, labels, border, collage, watermark, hands, human intervention or artificial accessories."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "Use case scientific-educational. Generate one independent landscape 1536x1024 photorealistic wildlife reconstruction. Subject: Muscardinus avellanarius hazel dormouse: tiny golden-brown body, creamy underside, large black eyes, small round ears, furry long tail, European deciduous woodland. Scene: Dormouse curled asleep in a naturally partly visible woven grass and leaf nest among brambles, no cutaway, no humans. Accurate species anatomy and natural behavior, soft realistic habitat lighting, clear educational observation. Not a sequence. No text, labels, border, collage, watermark, hands, human intervention or artificial accessories."
+  }
+]
