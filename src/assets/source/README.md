@@ -616,3 +616,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [长耳跳鼠 image set](./species/long-eared-jerboa/README.md)
 - [榛睡鼠 image set](./species/hazel-dormouse/README.md)
 - [北美豪猪 image set](./species/north-american-porcupine/README.md)
+- [黑尾草原犬鼠 image set](./species/black-tailed-prairie-dog/README.md)

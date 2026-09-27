@@ -3235,5 +3235,18 @@
       },
       "sha256": "cd93b490812560b60062074f03f1575d1b8357d821014ddebefa9721639717c1"
     }
+  },
+  "black-tailed-prairie-dog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 890,
+        "top": 70,
+        "right": 1350,
+        "bottom": 930
+      },
+      "sha256": "60c32aac86871841dd55605638598a9f6edf220651f5cb40b12bef2c2ab38995"
+    }
   }
 }

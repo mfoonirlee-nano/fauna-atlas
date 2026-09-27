@@ -4231,4 +4231,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 735
   }
 },
+  "black-tailed-prairie-dog": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 890,
+    "top": 70,
+    "right": 1350,
+    "bottom": 930
+  }
+},
 };
