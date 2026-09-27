@@ -3248,5 +3248,18 @@
       },
       "sha256": "60c32aac86871841dd55605638598a9f6edf220651f5cb40b12bef2c2ab38995"
     }
+  },
+  "crested-porcupine": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 750,
+        "top": 278,
+        "right": 1510,
+        "bottom": 785
+      },
+      "sha256": "07b2702910ae8bba9ceef3024dc209ef3805a57ffb62eb357626773d7d57512a"
+    }
   }
 }

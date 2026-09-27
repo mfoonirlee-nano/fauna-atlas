@@ -231,7 +231,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['long-eared-jerboa', 'hazel-dormouse', 'north-american-porcupine', 'black-tailed-prairie-dog', 'southern-tamandua', 'giant-armadillo', 'silky-anteater', 'lowland-streaked-tenrec', 'short-eared-sengi', 'spotted-linsang', 'eastern-spotted-skunk', 'sand-cat', 'hoffmanns-two-toed-sloth', 'kinkajou', 'bat-eared-fox', 'eurasian-tree-sparrow', 'light-vented-bulbul', 'sugar-glider', 'indian-flying-fox', 'moose', 'tropical-two-wing-flyingfish', 'south-african-springhare', 'gerenuk', 'common-basilisk', 'giant-frogfish', 'muskox', 'magnificent-bird-of-paradise', 'north-island-brown-kiwi', 'common-thresher-shark', 'matschies-tree-kangaroo', 'cape-porcupine', 'greater-roadrunner', 'sunbittern', 'yellow-lipped-sea-krait', 'flying-gurnard', 'chinese-trumpetfish', 'numbat', 'burrowing-owl', 'satanic-leaf-tailed-gecko', 'golden-lion-tamarin', 'tasmanian-devil', 'village-weaver', 'satin-bowerbird', 'amazon-mata-mata', 'three-toed-amphiuma', 'mantled-guereza', 'wattled-jacana', 'fleischmanns-glass-frog', 'spiny-leaf-insect', 'lar-gibbon', 'magnificent-frigatebird', 'sandfish-skink', 'great-hammerhead', 'proboscis-monkey', 'mandrill', 'great-white-pelican', 'blue-footed-booby', 'tokay-gecko', 'alpine-newt', 'leopard-slug', 'binturong', 'fossa', 'black-winged-stilt', 'pied-avocet', 'pancake-tortoise', 'common-midwife-toad', 'giant-anteater', 'maned-wolf', 'secretary-bird', 'eurasian-spoonbill', 'pig-nosed-turtle', 'tomato-frog', 'chinese-windmill', 'african-clawed-frog', 'basking-shark', 'zebra-shark', 'blue-shark', 'panther-chameleon', 'common-frog', 'strawberry-poison-frog', 'dyeing-poison-frog', 'sulcata-tortoise', 'hermanns-tortoise', 'hawksbill-turtle', 'loggerhead-turtle', 'ball-python', 'veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog', 'oriental-fire-bellied-newt', 'ocean-sunfish', 'largetooth-sawfish', 'american-lobster', 'striped-skunk', 'caracal', 'leopard', 'chinese-tree-frog', 'american-bullfrog', 'atlantic-salmon', 'green-tree-python', 'arctic-fox', 'american-black-bear', 'sun-bear', 'jaguar', 'puma', 'serval', 'eurasian-lynx', 'gray-wolf', 'african-wild-dog', 'spotted-hyena', 'honey-badger', 'wolverine', 'european-badger', 'south-american-coati', 'sperm-whale', 'pygmy-hippopotamus', 'black-rhinoceros', 'king-penguin', 'adelie-penguin', 'gentoo-penguin', 'african-penguin', 'emu', 'greater-rhea', 'african-grey-parrot', 'blue-and-yellow-macaw', 'rosy-faced-lovebird', 'laughing-kookaburra', 'european-bee-eater', 'toucan-barbet', 'common-raven', 'european-robin', 'blue-tit', 'zebra-finch', 'bald-eagle', 'black-swan', 'american-alligator', 'saltwater-crocodile', 'spectacled-caiman', 'common-snapping-turtle', 'alligator-snapping-turtle', 'leopard-tortoise'].includes(profile.slug)) {
+    } else if (['long-eared-jerboa', 'hazel-dormouse', 'north-american-porcupine', 'black-tailed-prairie-dog', 'crested-porcupine', 'southern-tamandua', 'giant-armadillo', 'silky-anteater', 'lowland-streaked-tenrec', 'short-eared-sengi', 'spotted-linsang', 'eastern-spotted-skunk', 'sand-cat', 'hoffmanns-two-toed-sloth', 'kinkajou', 'bat-eared-fox', 'eurasian-tree-sparrow', 'light-vented-bulbul', 'sugar-glider', 'indian-flying-fox', 'moose', 'tropical-two-wing-flyingfish', 'south-african-springhare', 'gerenuk', 'common-basilisk', 'giant-frogfish', 'muskox', 'magnificent-bird-of-paradise', 'north-island-brown-kiwi', 'common-thresher-shark', 'matschies-tree-kangaroo', 'cape-porcupine', 'greater-roadrunner', 'sunbittern', 'yellow-lipped-sea-krait', 'flying-gurnard', 'chinese-trumpetfish', 'numbat', 'burrowing-owl', 'satanic-leaf-tailed-gecko', 'golden-lion-tamarin', 'tasmanian-devil', 'village-weaver', 'satin-bowerbird', 'amazon-mata-mata', 'three-toed-amphiuma', 'mantled-guereza', 'wattled-jacana', 'fleischmanns-glass-frog', 'spiny-leaf-insect', 'lar-gibbon', 'magnificent-frigatebird', 'sandfish-skink', 'great-hammerhead', 'proboscis-monkey', 'mandrill', 'great-white-pelican', 'blue-footed-booby', 'tokay-gecko', 'alpine-newt', 'leopard-slug', 'binturong', 'fossa', 'black-winged-stilt', 'pied-avocet', 'pancake-tortoise', 'common-midwife-toad', 'giant-anteater', 'maned-wolf', 'secretary-bird', 'eurasian-spoonbill', 'pig-nosed-turtle', 'tomato-frog', 'chinese-windmill', 'african-clawed-frog', 'basking-shark', 'zebra-shark', 'blue-shark', 'panther-chameleon', 'common-frog', 'strawberry-poison-frog', 'dyeing-poison-frog', 'sulcata-tortoise', 'hermanns-tortoise', 'hawksbill-turtle', 'loggerhead-turtle', 'ball-python', 'veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog', 'oriental-fire-bellied-newt', 'ocean-sunfish', 'largetooth-sawfish', 'american-lobster', 'striped-skunk', 'caracal', 'leopard', 'chinese-tree-frog', 'american-bullfrog', 'atlantic-salmon', 'green-tree-python', 'arctic-fox', 'american-black-bear', 'sun-bear', 'jaguar', 'puma', 'serval', 'eurasian-lynx', 'gray-wolf', 'african-wild-dog', 'spotted-hyena', 'honey-badger', 'wolverine', 'european-badger', 'south-american-coati', 'sperm-whale', 'pygmy-hippopotamus', 'black-rhinoceros', 'king-penguin', 'adelie-penguin', 'gentoo-penguin', 'african-penguin', 'emu', 'greater-rhea', 'african-grey-parrot', 'blue-and-yellow-macaw', 'rosy-faced-lovebird', 'laughing-kookaburra', 'european-bee-eater', 'toucan-barbet', 'common-raven', 'european-robin', 'blue-tit', 'zebra-finch', 'bald-eagle', 'black-swan', 'american-alligator', 'saltwater-crocodile', 'spectacled-caiman', 'common-snapping-turtle', 'alligator-snapping-turtle', 'leopard-tortoise'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24326,7 +24326,7 @@ test('the second five-species todo batch keeps five distinct species and the rev
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 424);
+  assert.equal(species.length, 425);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24497,7 +24497,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 424);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 425);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24518,14 +24518,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 319);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 125);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 320);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 126);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 44);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Suricata')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 14);
+  assert.equal(findTaxon(tree, 'order', 'Rodentia')?.speciesCount, 15);
   assert.equal(findTaxon(tree, 'family', 'Heterocephalidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Heterocephalus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dermoptera')?.speciesCount, 1);
@@ -26448,8 +26448,8 @@ test('the final todo batch completes all selections with distinct six-image prof
 test('September 24 ten todo animals have complete profiles and sixty distinct accepted images', async () => {
   const cases = [["kinkajou", "Potos flavus", "Procyonidae"], ["bat-eared-fox", "Otocyon megalotis", "Canidae"], ["eurasian-tree-sparrow", "Passer montanus", "Passeridae"], ["light-vented-bulbul", "Pycnonotus sinensis", "Pycnonotidae"], ["crested-gecko", "Correlophus ciliatus", "Diplodactylidae"], ["vietnamese-mossy-frog", "Theloderma corticale", "Rhacophoridae"], ["longhorn-cowfish", "Lactoria cornuta", "Ostraciidae"], ["old-world-swallowtail", "Papilio machaon", "Papilionidae"], ["giant-pacific-octopus", "Enteroctopus dofleini", "Enteroctopodidae"], ["brown-hydra", "Hydra vulgaris", "Hydridae"]];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
-  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 24);
-  assert.equal([...todo.matchAll(/- \[ \]/g)].length, 86);
+  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 25);
+  assert.equal([...todo.matchAll(/- \[ \]/g)].length, 85);
   const hashes = new Set();
   for (const [slug, name, family] of cases) {
     const profile = findSpecies(slug);
@@ -26534,4 +26534,37 @@ test('September 26 mammals retain current taxon scope and thirty distinct accept
   assert.equal(hashes.size, 30);
   assert.match(findSpecies('silky-anteater').conservation.assessor, /拆分后/);
   assert.match(findSpecies('short-eared-sengi').conservation.assessor, /排除 Macroscelides flavicaudatus/);
+});
+
+test('September 27 rodents retain distinct families and thirty accepted images', async () => {
+  const cases = [
+    ['long-eared-jerboa', 'Euchoreutes naso', 'Dipodidae'],
+    ['hazel-dormouse', 'Muscardinus avellanarius', 'Gliridae'],
+    ['north-american-porcupine', 'Erethizon dorsatum', 'Erethizontidae'],
+    ['black-tailed-prairie-dog', 'Cynomys ludovicianus', 'Sciuridae'],
+    ['crested-porcupine', 'Hystrix cristata', 'Hystricidae'],
+  ];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const hashes = new Set();
+  for (const [slug, name, family] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.order.scientificName, 'Rodentia');
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.conservation.code, 'LC');
+    assert.equal(profile.conservation.assessedYear, undefined);
+    assert.equal(profile.conservation.trend, 'unknown');
+    assert.equal(profile.storySections.length, 6);
+    assert.ok(todo.includes(`- [x] ${profile.names.zh} *${name}*`));
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+    for (const { image } of [profile.media, ...profile.media.gallery]) {
+      const bytes = await readFile(new URL(`../public/${image.slice(2)}`, import.meta.url));
+      hashes.add(createHash('sha256').update(bytes).digest('hex'));
+    }
+  }
+  assert.equal(hashes.size, 30);
+  assert.deepEqual(findSpecies('long-eared-jerboa').distribution.countries, ['中国', '蒙古']);
+  assert.match(findSpecies('hazel-dormouse').media.gallery.at(-1).caption, /不能.*判断.*冬眠/);
 });

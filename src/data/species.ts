@@ -119855,6 +119855,251 @@ export const species = [
   "updatedAt": "2026-09-27"
 },
 
+{
+  "id": "crested-porcupine",
+  "slug": "crested-porcupine",
+  "names": {
+    "zh": "冠毛豪猪",
+    "en": "Crested Porcupine"
+  },
+  "scientificName": "Hystrix cristata",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Rodentia",
+      "zhName": "啮齿目"
+    },
+    "family": {
+      "scientificName": "Hystricidae",
+      "zhName": "豪猪科"
+    },
+    "genus": {
+      "scientificName": "Hystrix",
+      "zhName": "豪猪属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "不将南非豪猪 Hystrix africaeaustralis 或印度豪猪 Hystrix indica 的分布与形态细节混入本档案；意大利种群的来源不作定论。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "非洲北部、西部及撒哈拉以南部分地区，也见于意大利"
+    ],
+    "countries": [],
+    "range": "非洲北部、西部及撒哈拉以南部分地区，也见于意大利；主要栖息于灌丛、林地与岩石地带。"
+  },
+  "habitats": [
+    {
+      "name": "灌丛、林地与岩石地带",
+      "realm": "terrestrial",
+      "description": "冠毛豪猪的头颈长着长鬃，背部和臀部长着黑白相间的硬刺。它主要在地面活动，夜间寻找根、块茎和落果。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "根",
+      "块茎",
+      "树皮",
+      "落果"
+    ],
+    "description": "食物包括根、块茎、树皮、落果。"
+  },
+  "tags": [
+    "冠毛豪猪",
+    "灌丛、林地与岩石地带"
+  ],
+  "summary": "冠毛豪猪的头颈长着长鬃，背部和臀部长着黑白相间的硬刺。它主要在地面活动，夜间寻找根、块茎和落果。",
+  "description": "冠毛豪猪的头颈长着长鬃，背部和臀部长着黑白相间的硬刺。它主要在地面活动，夜间寻找根、块茎和落果。从额头向后看，细长的鬃毛一直延伸到颈背。图中展示自然状态下的毛冠。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "头后长长的鬃毛",
+      "body": "从额头向后看，细长的鬃毛一直延伸到颈背。图中展示自然状态下的毛冠。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "黑白相间的硬刺",
+      "body": "沿着背部的长刺找找深色和浅色的环带。刺毛可以用于防御，不能主动射出去。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "短腿走过石头",
+      "body": "在身体下方找找短而结实的腿。冠毛豪猪主要在地面行走和觅食。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "嘴边的落果",
+      "body": "找找嘴边的果实。它主要吃植物，也会挖取地下的根和块茎。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "岩缝旁的藏身处",
+      "body": "看看岩石间的暗处。它会利用岩洞、岩隙或地洞躲藏，常在夜间外出活动。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留灌丛和洞穴周围的环境，观察时保持距离，不刺激它竖刺，也不采集或触碰刺毛。"
+    }
+  ],
+  "keyFacts": [
+    "从额头向后看，细长的鬃毛一直延伸到颈背。图中展示自然状态下的毛冠。",
+    "沿着背部的长刺找找深色和浅色的环带。刺毛可以用于防御，不能主动射出去。",
+    "在身体下方找找短而结实的腿。冠毛豪猪主要在地面行走和觅食。",
+    "找找嘴边的果实。它主要吃植物，也会挖取地下的根和块茎。",
+    "看看岩石间的暗处。它会利用岩洞、岩隙或地洞躲藏，常在夜间外出活动。"
+  ],
+  "threats": [
+    "捕猎",
+    "与农业活动的冲突",
+    "栖息地改变"
+  ],
+  "conservationActions": [
+    "保留灌丛和洞穴周围的环境，观察时保持距离，不刺激它竖刺，也不采集或触碰刺毛。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "灌丛、林地与岩石地带"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "头后长长的鬃毛"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "不将南非豪猪 Hystrix africaeaustralis 或印度豪猪 Hystrix indica 的分布与形态细节混入本档案；意大利种群的来源不作定论。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/crested-porcupine/01-cover.webp",
+    "alt": "冠毛豪猪及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/crested-porcupine/02-observation.webp",
+        "alt": "冠毛豪猪：头后长长的鬃毛",
+        "title": "头后长长的鬃毛",
+        "caption": "AI 生成科学情景重建。从额头向后看，细长的鬃毛一直延伸到颈背。图中展示自然状态下的毛冠。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/crested-porcupine/03-observation.webp",
+        "alt": "冠毛豪猪：黑白相间的硬刺",
+        "title": "黑白相间的硬刺",
+        "caption": "AI 生成科学情景重建。沿着背部的长刺找找深色和浅色的环带。刺毛可以用于防御，不能主动射出去。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/crested-porcupine/04-observation.webp",
+        "alt": "冠毛豪猪：短腿走过石头",
+        "title": "短腿走过石头",
+        "caption": "AI 生成科学情景重建。在身体下方找找短而结实的腿。冠毛豪猪主要在地面行走和觅食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/crested-porcupine/05-observation.webp",
+        "alt": "冠毛豪猪：嘴边的落果",
+        "title": "嘴边的落果",
+        "caption": "AI 生成科学情景重建。找找嘴边的果实。它主要吃植物，也会挖取地下的根和块茎。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/crested-porcupine/06-observation.webp",
+        "alt": "冠毛豪猪：岩缝旁的藏身处",
+        "title": "岩缝旁的藏身处",
+        "caption": "AI 生成科学情景重建。看看岩石间的暗处。它会利用岩洞、岩隙或地洞躲藏，常在夜间外出活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mammal Diversity Database：Hystrix cristata",
+      "url": "https://www.mammaldiversity.org/taxon/1001286/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-27"
+    },
+    {
+      "title": "MDD 官方数据：分类、分布与所列 IUCN 等级",
+      "url": "https://raw.githubusercontent.com/mammaldiversity/mammaldiversity.github.io/master/assets/data/mdd.csv",
+      "kind": "conservation",
+      "accessedAt": "2026-09-27"
+    },
+    {
+      "title": "Animal Diversity Web：Hystrix cristata",
+      "url": "https://animaldiversity.org/accounts/Hystrix_cristata/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-27"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

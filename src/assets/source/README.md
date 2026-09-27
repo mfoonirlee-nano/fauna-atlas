@@ -617,3 +617,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [榛睡鼠 image set](./species/hazel-dormouse/README.md)
 - [北美豪猪 image set](./species/north-american-porcupine/README.md)
 - [黑尾草原犬鼠 image set](./species/black-tailed-prairie-dog/README.md)
+- [冠毛豪猪 image set](./species/crested-porcupine/README.md)
