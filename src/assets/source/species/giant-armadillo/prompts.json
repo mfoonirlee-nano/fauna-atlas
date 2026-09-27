@@ -1,0 +1,27 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "editPrompt": "Edit this giant armadillo wildlife reconstruction for a website hero. Keep the anatomy, species, colors and habitat. Recompose the COMPLETE animal INCLUDING ENTIRE TAIL within RIGHT HALF x=680..1460 y=260..850 on a 1536x1024 landscape canvas. Angle body slightly toward viewer so tail goes back in depth toward upper right rather than extending into left area. Entire LEFT 42 percent must be quiet blurred vegetation with ZERO ANIMAL PARTS. Animal as large as possible within right region. All feet, ears and tail tip in frame with background clearance. No text.",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: giant armadillo Priodontes maximus, massive dark grey brown domed armor with many transverse mobile bands, pale lower rim, long tapering scaled tail, small ears, long narrow muzzle, enormous curved central foreclaw, South American forest savanna edge. Scene: Complete animal in side view walking on soil, full long tail and all feet inside frame. HERO: whole animal entirely in right region x=700..1450 y=100..920. Maximize full subject within this region. Left 42 percent quiet blurred habitat. Real background margin around every extremity. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: giant armadillo Priodontes maximus, massive dark grey brown domed armor with many transverse mobile bands, pale lower rim, long tapering scaled tail, small ears, long narrow muzzle, enormous curved central foreclaw, South American forest savanna edge. Scene: Close side view of forefoot with one very large curved central claw digging soil, attached limb visible. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: giant armadillo Priodontes maximus, massive dark grey brown domed armor with many transverse mobile bands, pale lower rim, long tapering scaled tail, small ears, long narrow muzzle, enormous curved central foreclaw, South American forest savanna edge. Scene: Oblique close view of segmented armor across back, many narrow transverse mobile bands. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: giant armadillo Priodontes maximus, massive dark grey brown domed armor with many transverse mobile bands, pale lower rim, long tapering scaled tail, small ears, long narrow muzzle, enormous curved central foreclaw, South American forest savanna edge. Scene: Animal lowering long muzzle toward earth near termite mound, no gore. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: giant armadillo Priodontes maximus, massive dark grey brown domed armor with many transverse mobile bands, pale lower rim, long tapering scaled tail, small ears, long narrow muzzle, enormous curved central foreclaw, South American forest savanna edge. Scene: Rear three quarter view including full long tapering armored tail. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: giant armadillo Priodontes maximus, massive dark grey brown domed armor with many transverse mobile bands, pale lower rim, long tapering scaled tail, small ears, long narrow muzzle, enormous curved central foreclaw, South American forest savanna edge. Scene: Whole animal beside large burrow entrance and loose earth. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  }
+]

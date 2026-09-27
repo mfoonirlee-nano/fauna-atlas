@@ -3132,6 +3132,19 @@
       "sha256": "b18ebb47383f7e877468602bc49b8dbad4661ba21a42e9156f447cdf0cb6ac38"
     }
   },
+  "giant-armadillo": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 205,
+        "right": 1515,
+        "bottom": 840
+      },
+      "sha256": "18c9ec58009d95b4f6e60837f6c92e2cb49d5ccdc0ba8dbd51246ab863888eda"
+    }
+  },
   "southern-tamandua": {
     "cover": {
       "width": 1536,

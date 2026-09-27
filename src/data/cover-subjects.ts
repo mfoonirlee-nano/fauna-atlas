@@ -4151,6 +4151,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 895
   }
 },
+  "giant-armadillo": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 640,
+    "top": 205,
+    "right": 1515,
+    "bottom": 840
+  }
+},
   "southern-tamandua": {
   "width": 1536,
   "height": 1024,

@@ -608,3 +608,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Hoffmann's Two-toed Sloth image set](./species/hoffmanns-two-toed-sloth/README.md)
 
 - [Southern Tamandua image set](./species/southern-tamandua/README.md)
+- [Giant Armadillo image set](./species/giant-armadillo/README.md)
