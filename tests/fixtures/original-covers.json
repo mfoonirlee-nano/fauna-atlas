@@ -3222,5 +3222,18 @@
       },
       "sha256": "5c184fa264a3c75396da348102552041062e0044fdf18254bd1546e27c4a90d3"
     }
+  },
+  "north-american-porcupine": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 755,
+        "top": 310,
+        "right": 1510,
+        "bottom": 735
+      },
+      "sha256": "cd93b490812560b60062074f03f1575d1b8357d821014ddebefa9721639717c1"
+    }
   }
 }

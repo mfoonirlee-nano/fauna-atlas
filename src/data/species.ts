@@ -119358,6 +119358,254 @@ export const species = [
   "updatedAt": "2026-09-27"
 },
 
+{
+  "id": "north-american-porcupine",
+  "slug": "north-american-porcupine",
+  "names": {
+    "zh": "北美豪猪",
+    "en": "North American Porcupine"
+  },
+  "scientificName": "Erethizon dorsatum",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Rodentia",
+      "zhName": "啮齿目"
+    },
+    "family": {
+      "scientificName": "Erethizontidae",
+      "zhName": "美洲豪猪科"
+    },
+    "genus": {
+      "scientificName": "Erethizon",
+      "zhName": "北美豪猪属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "北美豪猪属于美洲豪猪科，与豪猪科的冠毛豪猪分开收录；不将刺毛描述为能主动射出的武器。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "北美洲，从加拿大和美国阿拉斯加到墨西哥北部"
+    ],
+    "countries": [
+      "加拿大",
+      "美国",
+      "墨西哥"
+    ],
+    "range": "北美洲，从加拿大和美国阿拉斯加到墨西哥北部；主要栖息于森林、灌丛与岩地。"
+  },
+  "habitats": [
+    {
+      "name": "森林、灌丛与岩地",
+      "realm": "terrestrial",
+      "description": "北美豪猪的粗毛之间长着硬刺。它会用弯爪抓住树皮，在树上取食叶和嫩枝，也会到地面活动。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "叶",
+      "树皮",
+      "嫩枝",
+      "芽"
+    ],
+    "description": "食物包括叶、树皮、嫩枝、芽。"
+  },
+  "tags": [
+    "北美豪猪",
+    "森林、灌丛与岩地"
+  ],
+  "summary": "北美豪猪的粗毛之间长着硬刺。它会用弯爪抓住树皮，在树上取食叶和嫩枝，也会到地面活动。",
+  "description": "北美豪猪的粗毛之间长着硬刺。它会用弯爪抓住树皮，在树上取食叶和嫩枝，也会到地面活动。沿着树干找找前脚和后脚。弯曲的爪帮助它抓住粗糙的树皮。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "弯爪抓住树皮",
+      "body": "沿着树干找找前脚和后脚。弯曲的爪帮助它抓住粗糙的树皮。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "毛里藏着硬刺",
+      "body": "看看深色毛之间浅色的刺尖。硬刺是它的防御结构，不能主动射出去。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "粗粗的尾巴",
+      "body": "从背部向后找到粗壮的尾巴。爬树时，它也会用尾部抵住树干帮助支撑。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "树上吃叶子",
+      "body": "找找嘴边的绿叶。北美豪猪取食植物，季节不同，吃的植物部位也会变化。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "树杈上的休息处",
+      "body": "看看身体怎样靠在宽树杈上。它会在树上休息，也会利用岩洞等遮蔽处。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留树木与藏身的岩隙，观察时保持距离，不触碰刺毛或把动物赶下树。"
+    }
+  ],
+  "keyFacts": [
+    "沿着树干找找前脚和后脚。弯曲的爪帮助它抓住粗糙的树皮。",
+    "看看深色毛之间浅色的刺尖。硬刺是它的防御结构，不能主动射出去。",
+    "从背部向后找到粗壮的尾巴。爬树时，它也会用尾部抵住树干帮助支撑。",
+    "找找嘴边的绿叶。北美豪猪取食植物，季节不同，吃的植物部位也会变化。",
+    "看看身体怎样靠在宽树杈上。它会在树上休息，也会利用岩洞等遮蔽处。"
+  ],
+  "threats": [
+    "林木采伐",
+    "栖息地改变"
+  ],
+  "conservationActions": [
+    "保留树木与藏身的岩隙，观察时保持距离，不触碰刺毛或把动物赶下树。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "森林、灌丛与岩地"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "弯爪抓住树皮"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "北美豪猪属于美洲豪猪科，与豪猪科的冠毛豪猪分开收录；不将刺毛描述为能主动射出的武器。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/north-american-porcupine/01-cover.webp",
+    "alt": "北美豪猪及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/north-american-porcupine/02-observation.webp",
+        "alt": "北美豪猪：弯爪抓住树皮",
+        "title": "弯爪抓住树皮",
+        "caption": "AI 生成科学情景重建。沿着树干找找前脚和后脚。弯曲的爪帮助它抓住粗糙的树皮。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-american-porcupine/03-observation.webp",
+        "alt": "北美豪猪：毛里藏着硬刺",
+        "title": "毛里藏着硬刺",
+        "caption": "AI 生成科学情景重建。看看深色毛之间浅色的刺尖。硬刺是它的防御结构，不能主动射出去。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-american-porcupine/04-observation.webp",
+        "alt": "北美豪猪：粗粗的尾巴",
+        "title": "粗粗的尾巴",
+        "caption": "AI 生成科学情景重建。从背部向后找到粗壮的尾巴。爬树时，它也会用尾部抵住树干帮助支撑。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-american-porcupine/05-observation.webp",
+        "alt": "北美豪猪：树上吃叶子",
+        "title": "树上吃叶子",
+        "caption": "AI 生成科学情景重建。找找嘴边的绿叶。北美豪猪取食植物，季节不同，吃的植物部位也会变化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-american-porcupine/06-observation.webp",
+        "alt": "北美豪猪：树杈上的休息处",
+        "title": "树杈上的休息处",
+        "caption": "AI 生成科学情景重建。看看身体怎样靠在宽树杈上。它会在树上休息，也会利用岩洞等遮蔽处。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mammal Diversity Database：Erethizon dorsatum",
+      "url": "https://www.mammaldiversity.org/taxon/1001254/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-27"
+    },
+    {
+      "title": "MDD 官方数据：分类、分布与所列 IUCN 等级",
+      "url": "https://raw.githubusercontent.com/mammaldiversity/mammaldiversity.github.io/master/assets/data/mdd.csv",
+      "kind": "conservation",
+      "accessedAt": "2026-09-27"
+    },
+    {
+      "title": "Animal Diversity Web：Erethizon dorsatum",
+      "url": "https://animaldiversity.org/accounts/Erethizon_dorsatum/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-27"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
