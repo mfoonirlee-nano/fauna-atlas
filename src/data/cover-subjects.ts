@@ -4191,4 +4191,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 925
   }
 },
+  "short-eared-sengi": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 665,
+    "top": 350,
+    "right": 1480,
+    "bottom": 730
+  }
+},
 };

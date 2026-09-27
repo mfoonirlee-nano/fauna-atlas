@@ -3183,5 +3183,18 @@
       },
       "sha256": "145e6cdc4db85b36061eb184bead66d5fa04012c13a23ab8a5ca74d19101e787"
     }
+  },
+  "short-eared-sengi": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 350,
+        "right": 1480,
+        "bottom": 730
+      },
+      "sha256": "ed2b251bf6c92fbd69e09470aad7e8f0b621ab8610f84bdddf475611656e7138"
+    }
   }
 }
