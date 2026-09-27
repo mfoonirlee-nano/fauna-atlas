@@ -3145,6 +3145,19 @@
       "sha256": "18c9ec58009d95b4f6e60837f6c92e2cb49d5ccdc0ba8dbd51246ab863888eda"
     }
   },
+  "lowland-streaked-tenrec": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 635,
+        "top": 230,
+        "right": 1465,
+        "bottom": 800
+      },
+      "sha256": "1a8a7de5cf4b57aef6b58336f4e74bc3f3bb8cfa957ddb0f44ba15fecefb39a0"
+    }
+  },
   "southern-tamandua": {
     "cover": {
       "width": 1536,

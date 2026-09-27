@@ -1,0 +1,27 @@
+[
+  {
+    "file": "01-cover-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: lowland streaked tenrec Hemicentetes semispinosus, black body with yellow longitudinal stripes and yellow midline on head, crown of long yellow quills behind ears, elongated pointed pinkish dark muzzle, small eyes, short legs, no visible external tail, humid Madagascar leaf litter. Scene: Complete animal in side three quarter view on wet leaf litter, all feet nose and quills clear. HERO: whole animal entirely in right region x=700..1450 y=100..920. Maximize full subject within this region. Left 42 percent quiet blurred habitat. Real background margin around every extremity. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals.",
+    "editPrompt": "Edit this landscape wildlife reconstruction. Preserve the same lowland streaked tenrec, anatomy, colors, habitat and realistic style. Adjust framing so entire animal including muzzle whiskers and all quills fits between x=700 and x=1450 of the 1536x1024 image, y=140..850. Animal horizontal center at 72 percent. Left 42 percent must be ONLY soft blurred leaf litter background with absolutely NO animal parts. Keep complete animal large in right region with visible background margin. No text. Output 1536x1024."
+  },
+  {
+    "file": "02-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: lowland streaked tenrec Hemicentetes semispinosus, black body with yellow longitudinal stripes and yellow midline on head, crown of long yellow quills behind ears, elongated pointed pinkish dark muzzle, small eyes, short legs, no visible external tail, humid Madagascar leaf litter. Scene: Dorsal oblique view clearly showing yellow longitudinal stripes on black back. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "03-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: lowland streaked tenrec Hemicentetes semispinosus, black body with yellow longitudinal stripes and yellow midline on head, crown of long yellow quills behind ears, elongated pointed pinkish dark muzzle, small eyes, short legs, no visible external tail, humid Madagascar leaf litter. Scene: Close side head and neck showing long yellow quill crown naturally resting. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "04-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: lowland streaked tenrec Hemicentetes semispinosus, black body with yellow longitudinal stripes and yellow midline on head, crown of long yellow quills behind ears, elongated pointed pinkish dark muzzle, small eyes, short legs, no visible external tail, humid Madagascar leaf litter. Scene: Side portrait long pointed muzzle lowered near moist leaf litter. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "05-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: lowland streaked tenrec Hemicentetes semispinosus, black body with yellow longitudinal stripes and yellow midline on head, crown of long yellow quills behind ears, elongated pointed pinkish dark muzzle, small eyes, short legs, no visible external tail, humid Madagascar leaf litter. Scene: Low ground view showing short legs and feet supporting full animal. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  },
+  {
+    "file": "06-observation-source.png",
+    "prompt": "One landscape 1536x1024 photorealistic scientific wildlife reconstruction. Subject: lowland streaked tenrec Hemicentetes semispinosus, black body with yellow longitudinal stripes and yellow midline on head, crown of long yellow quills behind ears, elongated pointed pinkish dark muzzle, small eyes, short legs, no visible external tail, humid Madagascar leaf litter. Scene: Animal foraging beside damp earth and fallen leaves, small earthworm in soil no gore. Educational observation, clear anatomical focal point with natural habitat context. Accurate natural anatomy and soft natural light. No text, labels, border, collage, watermark, humans or extra animals."
+  }
+]

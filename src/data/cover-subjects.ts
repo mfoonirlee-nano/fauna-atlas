@@ -4161,6 +4161,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 840
   }
 },
+  "lowland-streaked-tenrec": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 635,
+    "top": 230,
+    "right": 1465,
+    "bottom": 800
+  }
+},
   "southern-tamandua": {
   "width": 1536,
   "height": 1024,
