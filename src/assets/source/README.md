@@ -606,3 +606,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Sand Cat image set](./species/sand-cat/README.md)
 
 - [Hoffmann's Two-toed Sloth image set](./species/hoffmanns-two-toed-sloth/README.md)
+
+- [Southern Tamandua image set](./species/southern-tamandua/README.md)

@@ -4151,4 +4151,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 895
   }
 },
+  "southern-tamandua": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 785,
+    "top": 45,
+    "right": 1405,
+    "bottom": 955
+  }
+},
 };

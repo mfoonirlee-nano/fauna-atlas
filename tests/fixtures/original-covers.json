@@ -3131,5 +3131,18 @@
       },
       "sha256": "b18ebb47383f7e877468602bc49b8dbad4661ba21a42e9156f447cdf0cb6ac38"
     }
+  },
+  "southern-tamandua": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 785,
+        "top": 45,
+        "right": 1405,
+        "bottom": 955
+      },
+      "sha256": "fe133080f7612c9343a36357fb74838937c8491cad019fb4621fbea40eb5de3d"
+    }
   }
 }
