@@ -4171,4 +4171,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 955
   }
 },
+  "silky-anteater": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 830,
+    "top": 90,
+    "right": 1380,
+    "bottom": 925
+  }
+},
 };

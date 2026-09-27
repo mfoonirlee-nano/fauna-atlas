@@ -609,3 +609,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [Southern Tamandua image set](./species/southern-tamandua/README.md)
 - [Giant Armadillo image set](./species/giant-armadillo/README.md)
+- [Common Silky Anteater image set](./species/silky-anteater/README.md)

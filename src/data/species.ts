@@ -118168,6 +118168,239 @@ export const species = [
   "publishedAt": "2026-09-26",
   "updatedAt": "2026-09-26"
 },
+{
+  "id": "silky-anteater",
+  "slug": "silky-anteater",
+  "names": {
+    "zh": "侏食蚁兽",
+    "en": "Common Silky Anteater"
+  },
+  "scientificName": "Cyclopes didactylus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Pilosa",
+      "zhName": "披毛目"
+    },
+    "family": {
+      "scientificName": "Cyclopedidae",
+      "zhName": "侏食蚁兽科"
+    },
+    "genus": {
+      "scientificName": "Cyclopes",
+      "zhName": "侏食蚁兽属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用 MDD 拆分后的 Cyclopes didactylus；旧文献的中美洲分布不用于本档案。近似种不能只凭生成图鉴定；图片不提供测量尺度。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "南美洲北部、巴西北部与东北部及特立尼达岛的部分地区"
+    ],
+    "countries": [],
+    "range": "南美洲北部、巴西北部与东北部及特立尼达岛的部分地区；主要栖息于热带森林的树冠。"
+  },
+  "habitats": [
+    {
+      "name": "热带森林的树冠",
+      "realm": "terrestrial",
+      "description": "侏食蚁兽的身体小巧，长着柔软的毛。它在树枝间活动，用弯爪和能抓握的尾巴稳住身体。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "蚂蚁"
+    ],
+    "description": "食物包括蚂蚁。"
+  },
+  "tags": [
+    "侏食蚁兽",
+    "热带森林的树冠"
+  ],
+  "summary": "侏食蚁兽的身体小巧，长着柔软的毛。它在树枝间活动，用弯爪和能抓握的尾巴稳住身体。",
+  "description": "侏食蚁兽的身体小巧，长着柔软的毛。它在树枝间活动，用弯爪和能抓握的尾巴稳住身体。找找细枝间弓起的身体。侏食蚁兽属于体型很小的食蚁兽，图片经过放大，不代表实物大小。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "树枝间的小身体",
+      "body": "找找细枝间弓起的身体。侏食蚁兽属于体型很小的食蚁兽，图片经过放大，不代表实物大小。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "弯爪抓住枝条",
+      "body": "从前肢向下找弯曲的爪。它用爪抓住树枝，也用爪打开蚂蚁藏身的地方。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "尾巴帮忙抓握",
+      "body": "看看尾巴怎样绕在枝上。它的尾巴能抓握，在树上移动时提供支撑。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "毛里的小脸",
+      "body": "柔软的毛围着小脸，嘴比领食蚁兽的短。找找鼻尖与小眼睛。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "蜷在枝上睡觉",
+      "body": "白天，它常蜷在树枝间休息，主要在夜间活动。图中展示休息姿势，不是连续动作记录。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留它生活的热带森林的树冠，观察时保持距离，不移动动物或破坏藏身处。"
+    }
+  ],
+  "keyFacts": [
+    "找找细枝间弓起的身体。侏食蚁兽属于体型很小的食蚁兽，图片经过放大，不代表实物大小。",
+    "从前肢向下找弯曲的爪。它用爪抓住树枝，也用爪打开蚂蚁藏身的地方。",
+    "看看尾巴怎样绕在枝上。它的尾巴能抓握，在树上移动时提供支撑。",
+    "柔软的毛围着小脸，嘴比领食蚁兽的短。找找鼻尖与小眼睛。",
+    "白天，它常蜷在树枝间休息，主要在夜间活动。图中展示休息姿势，不是连续动作记录。"
+  ],
+  "threats": [
+    "栖息地改变"
+  ],
+  "conservationActions": [
+    "保留它生活的热带森林的树冠，观察时保持距离，不移动动物或破坏藏身处。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带森林的树冠"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "树枝间的小身体"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用 MDD 拆分后的 Cyclopes didactylus；旧文献的中美洲分布不用于本档案。近似种不能只凭生成图鉴定；图片不提供测量尺度。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/silky-anteater/01-cover.webp",
+    "alt": "侏食蚁兽及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/silky-anteater/02-observation.webp",
+        "alt": "侏食蚁兽：树枝间的小身体",
+        "title": "树枝间的小身体",
+        "caption": "AI 生成科学情景重建。找找细枝间弓起的身体。侏食蚁兽属于体型很小的食蚁兽，图片经过放大，不代表实物大小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/silky-anteater/03-observation.webp",
+        "alt": "侏食蚁兽：弯爪抓住枝条",
+        "title": "弯爪抓住枝条",
+        "caption": "AI 生成科学情景重建。从前肢向下找弯曲的爪。它用爪抓住树枝，也用爪打开蚂蚁藏身的地方。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/silky-anteater/04-observation.webp",
+        "alt": "侏食蚁兽：尾巴帮忙抓握",
+        "title": "尾巴帮忙抓握",
+        "caption": "AI 生成科学情景重建。看看尾巴怎样绕在枝上。它的尾巴能抓握，在树上移动时提供支撑。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/silky-anteater/05-observation.webp",
+        "alt": "侏食蚁兽：毛里的小脸",
+        "title": "毛里的小脸",
+        "caption": "AI 生成科学情景重建。柔软的毛围着小脸，嘴比领食蚁兽的短。找找鼻尖与小眼睛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/silky-anteater/06-observation.webp",
+        "alt": "侏食蚁兽：蜷在枝上睡觉",
+        "title": "蜷在枝上睡觉",
+        "caption": "AI 生成科学情景重建。白天，它常蜷在树枝间休息，主要在夜间活动。图中展示休息姿势，不是连续动作记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Mammal Diversity Database：Cyclopes didactylus",
+      "url": "https://www.mammaldiversity.org/taxon/1000436/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-26"
+    },
+    {
+      "title": "Animal Diversity Web：Cyclopes didactylus",
+      "url": "https://animaldiversity.org/accounts/Cyclopes_didactylus/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-26"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-26",
+  "updatedAt": "2026-09-26"
+},
 
 ] as const satisfies readonly Species[];
 
