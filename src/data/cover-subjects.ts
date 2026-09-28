@@ -4341,4 +4341,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 915
   }
 },
+  "eurasian-oystercatcher": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 666,
+    "top": 135,
+    "right": 1492,
+    "bottom": 853
+  }
+},
 };

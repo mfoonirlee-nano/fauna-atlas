@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Oystercatcher Haematopus ostralegus breeding adult, black head back and breast, white belly, long straight orange-red bill, red eyes and eye rings, pink legs. Scene: European tidal shore. Cover: one adult perched or standing naturally, complete full body including bill crest wings feet and tail inside image with real background margins. Large subject placed right, bounds approximately x=760..1460 y=110..900, center at 72% width. Left 40% quiet blurred natural background for title. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "4dae217be8d20f5accff8dc4e397c936edc1006dcc4b27d9281e6cd5ad951018",
+      "webpSha256": "4489b345aa52adf0aa708c1b294913f8b569583eb5213492198909801fa911a5"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Oystercatcher Haematopus ostralegus breeding adult, black head back and breast, white belly, long straight orange-red bill, red eyes and eye rings, pink legs. Scene: European tidal shore. Side portrait showing long straight orange-red bill and red eye. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "2d3d6e63d3889c78496fb648d6efb8e4632414a07ffa8272a8405df86b913433",
+      "webpSha256": "f0f5ac8791eaf1c34d54e2d2e64643337e46f366397d8e2a74e0e27853415559"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Oystercatcher Haematopus ostralegus breeding adult, black head back and breast, white belly, long straight orange-red bill, red eyes and eye rings, pink legs. Scene: European tidal shore. Full bird standing beside closed mussel shells on intertidal rocks. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "41d86b2dcfbb28d21c03fe62ad20006a4f09bd43e9bcaa1fea71693528d7476e",
+      "webpSha256": "be6084ceaaed5e6452f50c0f674ee10747934bdd5db88fe7efd1c11258b93c29"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Oystercatcher Haematopus ostralegus breeding adult, black head back and breast, white belly, long straight orange-red bill, red eyes and eye rings, pink legs. Scene: European tidal shore. Bird probing wet sand with bill angled down, complete body and feet. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "5c58bab57b914af4c94fcd28291053f2612057c234583c3d837bc45f86c161aa",
+      "webpSha256": "98b6f7d3dc1b95b71974d2a81c2dd9e4eaae86b92cabf93c5c679f3c0d536cb6"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Oystercatcher Haematopus ostralegus breeding adult, black head back and breast, white belly, long straight orange-red bill, red eyes and eye rings, pink legs. Scene: European tidal shore. One adult flying with both broad wings extended showing strong white wing stripes against black upper wings. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "d5777e0062c4063234fb3aa8d567f6c8bf5d0de05db705de68fcc368c3d7dec9",
+      "webpSha256": "53e54784bff6860bad468785c62a9232bbc18007329e3a8874a6ff000766127f"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Oystercatcher Haematopus ostralegus breeding adult, black head back and breast, white belly, long straight orange-red bill, red eyes and eye rings, pink legs. Scene: European tidal shore. Three adults resting spaced apart at a coastal high tide roost on shingle. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "d73e696404722ee209dd69de900fb92ef50643a7359c192b37f0c4142c77640a",
+      "webpSha256": "aec65713715f569b8cec50f81ae6e1a44f978e2cb44544879294505980417c39"
+    }
+  ]
+}

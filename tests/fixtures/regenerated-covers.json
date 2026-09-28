@@ -2312,5 +2312,18 @@
       },
       "sha256": "18c3d49589abd0ffd3e5cf8af30e719ac785006d3f5e0d84eef14c48b076ca26"
     }
+  },
+  "eurasian-oystercatcher": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 666,
+        "top": 135,
+        "right": 1492,
+        "bottom": 853
+      },
+      "sha256": "4489b345aa52adf0aa708c1b294913f8b569583eb5213492198909801fa911a5"
+    }
   }
 }

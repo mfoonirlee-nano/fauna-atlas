@@ -629,3 +629,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [银喉长尾山雀 image set](./species/long-tailed-tit/README.md)
 - [普通䴓 image set](./species/eurasian-nuthatch/README.md)
 - [凤头麦鸡 image set](./species/northern-lapwing/README.md)
+- [蛎鹬 image set](./species/eurasian-oystercatcher/README.md)
