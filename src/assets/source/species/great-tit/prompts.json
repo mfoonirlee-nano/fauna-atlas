@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife atlas cover, landscape 1536x1024. One adult Great Tit Parus major perched on a thin branch in European deciduous woodland. Black head and throat, large white cheeks, olive green back, yellow belly with black central stripe, blue gray wings with pale wing bar. Full body including bill, feet and tail completely inside frame. Large bird placed on right, subject bounds approximately x=780..1450 y=140..880. Left 40% quiet blurred woodland for text. Natural light, anatomically realistic, no text watermark or collage.",
+      "sourceSha256": "2b22051c18576bce8b09f8b492da0e63e64d064db8363839e2a68f05cf13f2c8",
+      "webpSha256": "2e6a790ae12f4b66d8dcd75167035a90acfc6c59304e921a1b758d8d86e3650a"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Great Tit Parus major, black head and throat, white cheek patches, olive green back, yellow belly with central black stripe, blue gray wings. Scene: European woodland. Front view perched on twig clearly showing continuous black stripe down yellow breast and belly. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "bc760a25a2e98ff8c636a6b81028f9a7edca6ddd6ebe0c2bc499a85e4858dc1f",
+      "webpSha256": "12942c9854199acca0e9011707fee75c1f12014c52635d26662dcdd6e31f2f76"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Great Tit Parus major, black head and throat, white cheek patches, olive green back, yellow belly with central black stripe, blue gray wings. Scene: European woodland. Side portrait showing white cheek against black head and throat. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "05ae1e4d76c0a36548e930afd843f2d6f4268955d06cbc3426b0d2a582a3b51e",
+      "webpSha256": "2659ef91850af3852173828899bdf001ebc5f9ef0211904959282ff04a405da7"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Great Tit Parus major, black head and throat, white cheek patches, olive green back, yellow belly with central black stripe, blue gray wings. Scene: European woodland. Foraging among fresh oak leaves, small caterpillar held at bill tip, no gore. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "f2bc0326d3ff4a362129194e7d4ad8c64e619f89a58247a5ef72e9338800741e",
+      "webpSha256": "2d2ff55daf844e59b620282a1ee12c503df29bc290e7e0a37f6a735dbda573c5"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Great Tit Parus major, black head and throat, white cheek patches, olive green back, yellow belly with central black stripe, blue gray wings. Scene: European woodland. Autumn bird holding a seed under its feet on a branch. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "c91ba479b1f6b50de2d1639509ac383a34a700eda565be12bac55ed9822ac62d",
+      "webpSha256": "970ad89676d12d9cb59d4c22b2a4efaa435d8df1e9b15fc643bd86389cf25e41"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Great Tit Parus major, black head and throat, white cheek patches, olive green back, yellow belly with central black stripe, blue gray wings. Scene: European woodland. Adult perched beside a natural tree cavity entrance, no nest interior visible. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "096851bdabd26bae2c3584a910a65068318008e94b2e78e008a4d9cd660c21fc",
+      "webpSha256": "372e62e746055d895389dfef65d1614f49f035a0c436daea9ed10c31ea46fbeb"
+    }
+  ]
+}

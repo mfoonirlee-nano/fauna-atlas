@@ -624,3 +624,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [冠海豹 image set](./species/hooded-seal/README.md)
 - [乌鸫 image set](./species/common-blackbird/README.md)
 - [珠颈斑鸠 image set](./species/spotted-dove/README.md)
+
+- [大山雀 image set](./species/great-tit/README.md)
