@@ -1,0 +1,64 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-27 / 2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Edit this educational fauna cover. Preserve the female hooded seal's anatomy, pose, gray blotched coat, normal female face, all flippers, lighting and pack ice setting. Adjust composition only: shift the entire seal about 100 pixels RIGHT and reduce its scale by about 10 percent around its center so its complete silhouette fits between x=760 and x=1460 on the 1536x1024 canvas. Leave a clear real background margin on the right. Left 45% must be uninterrupted ice/ocean background without any part of seal, including flipper claws. Keep the seal prominent. No text, no watermark.",
+      "sourceSha256": "0c10c4a78dc7f318319795ee3bddf0ea360f9f5d7135bee4dab5d6d66c3275dd",
+      "webpSha256": "cad2060b3e2c5df63dcfecdbf40ed0bf0023d4d36008acd2d02115d41983abca"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Hooded seal Cystophora cristata in North Atlantic pack ice habitat. True seal without external ears, gray coat with irregular dark blotches. Adult male head profile naturally displaying the inflated DARK nasal hood on TOP of muzzle. ONLY dark hood, do not show red everted membrane balloon. Accurate nostril hood anatomy, calm animal, no humans. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "e727802a6c1b182d7876975cf523c91bcc303690b22a5256b2da23aad86aa971",
+      "webpSha256": "f75cf034cd6067f2a7e23d3daa558454c5bf0e5a5bfc117c3267b4f35d1e5afe"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Photorealistic educational wildlife photograph, landscape 1536x1024. One adult FEMALE hooded seal Cystophora cristata resting flat on North Atlantic ice. Silver gray coat with irregular dark blotches, normal short seal muzzle with small nostrils and whiskers. NO inflatable male hood, NO proboscis, NO trunk, NO balloon. Show short foreflippers beside body and rear flippers extending behind. Full body. Natural documentary light. No text no watermark no collage, no people.",
+      "sourceSha256": "c92c382e71b967f81d71d375e63815be8208b9bb85b9c597504706343cd50112",
+      "webpSha256": "aa08b4ea9f916ab5c4bc3e7549035141767d0d7ad5f395533e984228f9d21f8c"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Photorealistic wildlife educational photograph, landscape 1536x1024. A NEWBORN hooded seal pup Cystophora cristata (blueback) resting on clean Arctic pack ice. Accurate neonatal coat: smooth UNIFORMLY blue-slate-gray back and upper sides, creamy white belly and lower sides, dark face, small true-seal flippers, NO irregular black adult spots anywhere, no inflated hood, no external ears. Full tiny body with head and all visible flipper tips within frame. Natural overcast polar light. No people, no text, no watermark.",
+      "sourceSha256": "880e4407dc5452ebdb8b49c97d9c56049dc9e016e9d4ae5e4c04256bda56de10",
+      "webpSha256": "503954315c1bce4be97690f4006e36eb207d178d4db42a739b15fc0a61d3e720"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Photorealistic educational wildlife photograph, landscape 1536x1024. One adult FEMALE hooded seal Cystophora cristata swimming underwater beside submerged sea ice. Silver gray coat with irregular dark blotches. Normal short rounded female seal muzzle, nostrils closed, whiskers. NO hood, NO trunk, NO balloon, NO appendage on nose. Anatomically correct streamlined true seal with short foreflippers and rear hindflippers. Natural documentary light. No text no watermark no collage, no people.",
+      "sourceSha256": "97f4f7675abe05b48f29154e6fb5141156fc548012d41e010db67cca1bb1b082",
+      "webpSha256": "b7031dde3eea07b17f7a56dbac637d26f0f79d44abd251a5c83f8d8fc3311a09"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Hooded seal Cystophora cristata in North Atlantic pack ice habitat. True seal without external ears, gray coat with irregular dark blotches. Adult female with normal small nose resting beside one blueback pup on ice, separate natural bodies. Pup has uniform blue-gray back fur and creamy underside, NO adult spots. Female has normal small nose, no hood or trunk. Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "3c1f01c7f657f8403a488bb0e73a2cc763f609b097c64a6b24daea4a2aabbefa",
+      "webpSha256": "36aeda39d6e1c7d97d4a80d406788a37816e96364bf6963c63cca74b5c6db530"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "prompt": "Photorealistic wildlife educational atlas cover, landscape 1536x1024. One adult male hooded seal Cystophora cristata resting on North Atlantic pack ice, silver gray with irregular dark blotches, dark face, small foreflippers and rear flippers, no external ear pinnae. Nasal hood relaxed, NOT inflated. No red balloon. Complete full animal with all outer features and feet/tail/horn tips inside frame. Large subject entirely in right half approximately x=760..1450 and y=120..900, center x=72%. Left 40% quiet natural background for text. Real background margin all around subject. Natural light and realistic anatomy. No text, no watermark, no collage.",
+      "sourceSha256": "122e28422d6aa2f18663155dce94636a99964f21955da371fbe737d263ce4850"
+    },
+    {
+      "prompt": "Photorealistic wildlife atlas cover, landscape 1536x1024. One ADULT FEMALE hooded seal Cystophora cristata resting flat on North Atlantic sea ice, body angled nearly toward camera so full silhouette occupies x=800 to 1450, y=300 to 870, centered on RIGHT at 73% of image width. Silver gray body with irregular dark blotches, dark rounded head, normal small short seal muzzle with nostrils and whiskers. FEMALE: no inflated hood, no balloon, NO hanging trunk or nasal appendage. No external ear pinnae. Natural true-seal foreflippers, rear flippers behind body; no upright sea lion stance. Entire body and all flipper tips within frame with real ice margin. Left 45% empty quiet distant pack ice and cold ocean for text overlay. Large clear animal on right. Scientifically accurate anatomy. No text no collage no watermark.",
+      "sourceSha256": "862e95065549fb2818f904860bd4875b0e9cfffc9f82158331c1a66e8e654f59"
+    },
+    {
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Hooded seal Cystophora cristata in North Atlantic pack ice habitat. True seal without external ears, gray coat with irregular dark blotches. Young blueback pup alone resting on ice, blue-gray back and pale cream belly, no white fluffy coat. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "4b83be24e3dd3d229b5f90353d1eaac921366c793f2f05f5bbf48c0416cb9978"
+    },
+    {
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Hooded seal Cystophora cristata in North Atlantic pack ice habitat. True seal without external ears, gray coat with irregular dark blotches. Full adult resting on ice, visible short foreflipper, hind flippers trail behind body. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "6dbe71ab6fd8dfba6e32481359f25002ef0fd6e638295aca9ff6f0907937580e"
+    },
+    {
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Hooded seal Cystophora cristata in North Atlantic pack ice habitat. True seal without external ears, gray coat with irregular dark blotches. Adult swimming underwater beside submerged sea ice, streamlined body, realistic flippers. Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "e73c378e17e0ba59dfb4d8798ee26a43862075156b98c32fb87d8f23df901426"
+    }
+  ]
+}

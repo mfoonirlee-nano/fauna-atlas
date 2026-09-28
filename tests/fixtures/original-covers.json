@@ -3287,5 +3287,18 @@
       },
       "sha256": "d15d2027c91856b57ed97025d4cd77b34438b157b563a6ff2a9e0c3a858648a5"
     }
+  },
+  "hooded-seal": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 755,
+        "top": 332,
+        "right": 1465,
+        "bottom": 675
+      },
+      "sha256": "cad2060b3e2c5df63dcfecdbf40ed0bf0023d4d36008acd2d02115d41983abca"
+    }
   }
 }

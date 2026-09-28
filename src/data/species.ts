@@ -120575,6 +120575,243 @@ export const species = [
   "updatedAt": "2026-09-27"
 },
 
+{
+  "id": "hooded-seal",
+  "slug": "hooded-seal",
+  "names": {
+    "zh": "冠海豹",
+    "en": "Hooded Seal"
+  },
+  "scientificName": "Cystophora cristata",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Carnivora",
+      "zhName": "食肉目"
+    },
+    "family": {
+      "scientificName": "Phocidae",
+      "zhName": "海豹科"
+    },
+    "genus": {
+      "scientificName": "Cystophora",
+      "zhName": "冠海豹属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "EN",
+    "label": {
+      "zh": "濒危",
+      "en": "Endangered"
+    },
+    "trend": "unknown",
+    "assessor": "采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "北大西洋与邻近北冰洋海域"
+    ],
+    "countries": [],
+    "range": "北大西洋与邻近北冰洋海域。"
+  },
+  "habitats": [
+    {
+      "name": "寒冷海域与浮冰",
+      "realm": "marine",
+      "description": "冠海豹在北大西洋的冷水中游泳，在浮冰上休息和育幼。成年雄性的鼻部有能鼓起的囊，幼崽背上长着蓝灰色毛。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "鱿鱼"
+    ],
+    "description": "食物包括鱼类、鱿鱼。"
+  },
+  "tags": [
+    "冠海豹",
+    "寒冷海域与浮冰"
+  ],
+  "summary": "冠海豹在北大西洋的冷水中游泳，在浮冰上休息和育幼。成年雄性的鼻部有能鼓起的囊，幼崽背上长着蓝灰色毛。",
+  "description": "冠海豹在北大西洋的冷水中游泳，在浮冰上休息和育幼。成年雄性的鼻部有能鼓起的囊，幼崽背上长着蓝灰色毛。MDD 当前所列全球等级为濒危（EN）。成年雄性头顶的深色鼻囊与可外翻的红色鼻膜是不同结构；观察图只展示深色鼻囊。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "雄性鼓起的鼻囊",
+      "body": "图中是成年雄性的深色鼻囊。它还可外翻红色鼻膜，两者不能混作同一个结构；这张重建图未展示红色鼻膜。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "身体旁的小鳍肢",
+      "body": "在身体两侧找找短短的前鳍肢。冠海豹在冰上休息，进入水中后用鳍肢帮助游动。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "蓝灰色背毛的幼崽",
+      "body": "看看幼崽的背部与腹部：背毛呈蓝灰色，腹部颜色较浅。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "冰下游动",
+      "body": "沿着水中的身体找到后鳍肢。冠海豹会潜水寻找鱼类和鱿鱼。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "浮冰上的母子",
+      "body": "这张图展示雌性和幼崽。雌性没有成年雄性那样显眼的膨大鼻囊，幼崽在冰上度过早期生活。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护海冰栖息环境，减少渔具缠绕；观察海豹时保持距离，让它们安静休息。"
+    }
+  ],
+  "keyFacts": [
+    "图中是成年雄性的深色鼻囊。它还可外翻红色鼻膜，两者不能混作同一个结构；这张重建图未展示红色鼻膜。",
+    "在身体两侧找找短短的前鳍肢。冠海豹在冰上休息，进入水中后用鳍肢帮助游动。",
+    "看看幼崽的背部与腹部：背毛呈蓝灰色，腹部颜色较浅。",
+    "沿着水中的身体找到后鳍肢。冠海豹会潜水寻找鱼类和鱿鱼。",
+    "这张图展示雌性和幼崽。雌性没有成年雄性那样显眼的膨大鼻囊，幼崽在冰上度过早期生活。"
+  ],
+  "threats": [
+    "气候变化与海冰减少",
+    "捕猎",
+    "渔具缠绕"
+  ],
+  "conservationActions": [
+    "保护海冰栖息环境，减少渔具缠绕；观察海豹时保持距离，让它们安静休息。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "寒冷海域与浮冰"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "雄性鼓起的鼻囊"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "濒危",
+      "note": "采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/hooded-seal/01-cover.webp",
+    "alt": "冠海豹及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/hooded-seal/02-observation.webp",
+        "alt": "冠海豹：雄性鼓起的鼻囊",
+        "title": "雄性鼓起的鼻囊",
+        "caption": "AI 生成科学情景重建。图中是成年雄性的深色鼻囊。它还可外翻红色鼻膜，两者不能混作同一个结构；这张重建图未展示红色鼻膜。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hooded-seal/03-observation.webp",
+        "alt": "冠海豹：身体旁的小鳍肢",
+        "title": "身体旁的小鳍肢",
+        "caption": "AI 生成科学情景重建。在身体两侧找找短短的前鳍肢。冠海豹在冰上休息，进入水中后用鳍肢帮助游动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hooded-seal/04-observation.webp",
+        "alt": "冠海豹：蓝灰色背毛的幼崽",
+        "title": "蓝灰色背毛的幼崽",
+        "caption": "AI 生成科学情景重建。看看幼崽的背部与腹部：背毛呈蓝灰色，腹部颜色较浅。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hooded-seal/05-observation.webp",
+        "alt": "冠海豹：冰下游动",
+        "title": "冰下游动",
+        "caption": "AI 生成科学情景重建。沿着水中的身体找到后鳍肢。冠海豹会潜水寻找鱼类和鱿鱼。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hooded-seal/06-observation.webp",
+        "alt": "冠海豹：浮冰上的母子",
+        "title": "浮冰上的母子",
+        "caption": "AI 生成科学情景重建。这张图展示雌性和幼崽。雌性没有成年雄性那样显眼的膨大鼻囊，幼崽在冰上度过早期生活。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "MDD：分类、分布与保护等级",
+      "url": "https://www.mammaldiversity.org/taxon/1005911/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-27"
+    },
+    {
+      "title": "NOAA Fisheries：冠海豹",
+      "url": "https://www.fisheries.noaa.gov/species/hooded-seal",
+      "kind": "ecology",
+      "accessedAt": "2026-09-27"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-27",
+  "updatedAt": "2026-09-27"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

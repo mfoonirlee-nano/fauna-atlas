@@ -1,6 +1,6 @@
 # TODO 动物核验（2026-09-27 起）
 
-已收录：非洲岩蹄兔、捻角山羊。资料访问日期为 2026-09-27。
+已收录：非洲岩蹄兔、捻角山羊、冠海豹。资料访问日期为 2026-09-27。
 
 ## 非洲岩蹄兔 Procavia capensis
 
@@ -19,3 +19,12 @@
 
 - [MDD：分类、分布与保护等级](https://www.mammaldiversity.org/taxon/1006183/)
 - [ADW：外形与生态](https://animaldiversity.org/accounts/Capra_falconeri/)
+
+## 冠海豹 Cystophora cristata
+
+分类：食肉目 Carnivora → 海豹科 Phocidae → 冠海豹属 Cystophora。生活于北大西洋与邻近北冰洋。MDD 当前所列全球等级为 EN，不沿用旧资料中的 VU。
+
+成年雄性深色膨大鼻囊与红色外翻鼻膜分别描述。封面展示雌性；鼻囊观察图展示成年雄性的深色鼻囊，不模拟红色鼻膜。幼崽采用蓝灰色背毛和浅色腹部，不能画成白色绒毛海豹。图片为情景重建，不作为自然行为录像或解剖测量证据。
+
+- [MDD：分类、分布与保护等级](https://www.mammaldiversity.org/taxon/1005911/)
+- [NOAA Fisheries：鼻囊、幼毛、食性与海冰生活](https://www.fisheries.noaa.gov/species/hooded-seal)

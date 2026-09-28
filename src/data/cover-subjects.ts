@@ -4271,4 +4271,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 930
   }
 },
+  "hooded-seal": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 755,
+    "top": 332,
+    "right": 1465,
+    "bottom": 675
+  }
+},
 };
