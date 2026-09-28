@@ -1,6 +1,6 @@
-# TODO 动物核验（2026-09-27 起）
+# TODO 五种动物核验（2026-09-27，第二批）
 
-已收录：非洲岩蹄兔、捻角山羊、冠海豹、乌鸫。资料访问日期为 2026-09-27。
+本批按清单顺序制作非洲岩蹄兔、捻角山羊、冠海豹、乌鸫与珠颈斑鸠。访问日期均为 2026-09-27。
 
 ## 非洲岩蹄兔 Procavia capensis
 
@@ -39,3 +39,32 @@
 - [RSPB：雌雄外形与觅食、鸣唱](https://www.rspb.org.uk/birds-and-wildlife/blackbird)
 - [ADW：分布与生态](https://animaldiversity.org/accounts/Turdus_merula/)
 - [ITIS：Turdus mandarinus 与旧名 Turdus merula mandarinus](https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1277028)
+
+## 珠颈斑鸠 Spilopelia chinensis
+
+分类：鸽形目 Columbiformes → 鸠鸽科 Columbidae → 珠颈斑鸠属 Spilopelia。采用 BirdLife Australia 所列全球 LC。台湾来源用于指名亚种与名称核对，其地区红皮书等级不代替全球等级。
+
+观察颈侧黑底白点、长尾、拾食种子、枝头休息和小群体觅食。成年雌雄羽色相似，不能从颈斑判断性别。澳大利亚为引入种群，其繁殖月份不套用到亚洲场景。
+
+- [BirdLife Australia：形态、行为与全球保护等级](https://birdlife.org.au/bird-profiles/spotted-dove/)
+- [台湾生物多样性网络：珠颈斑鸠指名亚种](https://www.tbn.org.tw/taxa/480cdaf0-aa28-44f4-b906-780e9aa7a52d)
+
+## 数据与图像边界
+
+本批未独立核实全球数量趋势和评估年份，趋势统一标为 unknown，年份留空。未补入未经核对的体长、体重和寿命数字。全球等级不能代表各地种群状态。
+
+每种保留一张封面与五张独立观察图，使用内置 image_gen 生成，标注“AI 生成科学情景重建”。各图不表示同一个体的连续动作，局部形态不用于数趾、精确测量或近似种鉴定。封面沿用满幅 cover 布局，允许移动端边缘裁切。提示词与验收记录保存在各物种图片目录。未启动浏览器。
+
+## 验收结果（2026-09-28）
+
+物种档案由 425 增至 430；本轮 todo 已完成 30 种，还剩 70 种动物与 10 个微生物专题。30 张 WebP 均为 1536×1024，哈希互不重复，总计 6.07 MiB。
+
+类型检查与构建、分类及档案测试（209 项）、轮播测试（437 项）、物种列表测试（22 项）通过，`git diff --check` 通过。源图与 WebP 已目视复核；每个封面按原分辨率检查并登记全主体边界。封面六视口静止帧和动画覆盖测试通过；未启动浏览器。
+
+| 物种 | 运行图片 | 提示词与验收 |
+| --- | --- | --- |
+| 非洲岩蹄兔 | [六张 WebP](../../public/images/species/rock-hyrax/) | [提示词](../../src/assets/source/species/rock-hyrax/prompts.json) · [验收](../../src/assets/source/species/rock-hyrax/README.md) |
+| 捻角山羊 | [六张 WebP](../../public/images/species/markhor/) | [提示词](../../src/assets/source/species/markhor/prompts.json) · [验收](../../src/assets/source/species/markhor/README.md) |
+| 冠海豹 | [六张 WebP](../../public/images/species/hooded-seal/) | [提示词](../../src/assets/source/species/hooded-seal/prompts.json) · [验收](../../src/assets/source/species/hooded-seal/README.md) |
+| 乌鸫 | [六张 WebP](../../public/images/species/common-blackbird/) | [提示词](../../src/assets/source/species/common-blackbird/prompts.json) · [验收](../../src/assets/source/species/common-blackbird/README.md) |
+| 珠颈斑鸠 | [六张 WebP](../../public/images/species/spotted-dove/) | [提示词](../../src/assets/source/species/spotted-dove/prompts.json) · [验收](../../src/assets/source/species/spotted-dove/README.md) |

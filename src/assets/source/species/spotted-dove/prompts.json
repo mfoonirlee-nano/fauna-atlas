@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-27 / 2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Photorealistic wildlife educational atlas cover, landscape 1536x1024. One adult Spotted Dove Spilopelia chinensis standing on an East Asian woodland path. Small gray head, pinkish buff breast, brown wings with subtle pale scale edges, distinctive black patch with discrete white spots on side/back of neck, long tail, reddish legs. No zebra stripes. Complete full animal with all outer features and feet/tail/horn tips inside frame. Large subject entirely in right half approximately x=760..1450 and y=120..900, center x=72%. Left 40% quiet natural background for text. Real background margin all around subject. Natural light and realistic anatomy. No text, no watermark, no collage.",
+      "sourceSha256": "bdd8a4cd4a207cec1ff78d05ed595b7c538ab199732cf1db21a3995115a6a1da",
+      "webpSha256": "e1f1ae9d93bcb92d608b1130293407a750b7d6919f793760308aa1cd5f1fa320"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Spotted Dove Spilopelia chinensis in East Asian woodland edge, gray head, pinkish-buff breast, brown subtly scaled wings, long tail, black side/back neck patch with discrete white spots, red feet; no barred zebra plumage. Close side portrait clearly showing white spots on black neck patch. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "0aebdcff1be515851da51e4927a9bbf8b82ee4dd7d305911a6c1e4651200d1d8",
+      "webpSha256": "3b8c56b977a7952a97c37065b888280daa5cebabaabe2dfa49f7328333f11b16"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Spotted Dove Spilopelia chinensis in East Asian woodland edge, gray head, pinkish-buff breast, brown subtly scaled wings, long tail, black side/back neck patch with discrete white spots, red feet; no barred zebra plumage. Full bird walking on a natural path, long graduated tail completely visible. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "b6bc5748bd5f88776050f0126ebe3ad84b347285ceebd4c69feeb8ad35f3d5c4",
+      "webpSha256": "3a3e5930d817d1dc06519034a1acc506a08f9c54ec688847064109eece63c426"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Photorealistic wildlife observation photograph, 1536x1024. One Spotted Dove Spilopelia chinensis picking tiny wild grass seeds from bare soil at an East Asian woodland edge. Gray head lowered to seeds, pink buff breast, brown wings, long tail, black neck patch with individual white spots, red legs. Anatomically accurate natural bird, no people, no text, no collage.",
+      "sourceSha256": "dfd83b0dc6c33624a5b1f7b7628581c99faa972125bf39647f99b2a42009517e",
+      "webpSha256": "262df13312f67ba37c37806faa08f026ad90460e01aae36bc29ec9be7abfa2fe"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Spotted Dove Spilopelia chinensis in East Asian woodland edge, gray head, pinkish-buff breast, brown subtly scaled wings, long tail, black side/back neck patch with discrete white spots, red feet; no barred zebra plumage. Bird resting on a tree branch, side view showing brown wing feathers. Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "13c5722c76549517051a62cb5b33225ec7596f79a27c75b69835d1ce779ea047",
+      "webpSha256": "9d449b04a157a018c78327404f4d0d9693b7f7e88d9a380f52fbf31164b5460b"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Spotted Dove Spilopelia chinensis in East Asian woodland edge, gray head, pinkish-buff breast, brown subtly scaled wings, long tail, black side/back neck patch with discrete white spots, red feet; no barred zebra plumage. Two adult spotted doves standing spaced apart on grass near shrubs, correct independent anatomy.  Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "d6ec050a657c25e4f7ad1dde44d7407e3d3766d4b01349a199fe318856fea46d",
+      "webpSha256": "9ae901f664e2301144072ce7a0338bfefce9868de63114292810512e676c9a23"
+    }
+  ]
+}

@@ -3313,5 +3313,18 @@
       },
       "sha256": "7c489354cd7760a3c00dce6ab90a841f6db3cf5513cfe4753a96c36c8d421cd6"
     }
+  },
+  "spotted-dove": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 715,
+        "top": 200,
+        "right": 1490,
+        "bottom": 805
+      },
+      "sha256": "e1f1ae9d93bcb92d608b1130293407a750b7d6919f793760308aa1cd5f1fa320"
+    }
   }
 }
