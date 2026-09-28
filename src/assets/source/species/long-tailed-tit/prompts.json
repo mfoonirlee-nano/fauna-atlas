@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Long-tailed Tit Aegithalos caudatus caudatus, tiny rounded body, white head without dark eyebrow, pinkish flanks, black and pink back, very long black tail with white outer feathers, tiny short black bill. Scene: northern European woodland. Cover: one adult perched or standing naturally, complete full body including bill crest wings feet and tail inside image with real background margins. Large subject placed right, bounds approximately x=760..1460 y=110..900, center at 72% width. Left 40% quiet blurred natural background for title. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "22e6467f224b12dd875af6fb092edc31cb29c87b4a9346f06d37ed26aae3b001",
+      "webpSha256": "655a6bc18aaa33b9333258fee2b95d34f6b1e440dc16d81a08605c27100433ec"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Long-tailed Tit Aegithalos caudatus caudatus, tiny rounded body, white head without dark eyebrow, pinkish flanks, black and pink back, very long black tail with white outer feathers, tiny short black bill. Scene: northern European woodland. Full side view perched on a slender twig with entire long tail visible. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "1e650e2a80ee49bc5e738229dc19c8ddd5705709ed049535a0fc22f151492e98",
+      "webpSha256": "aa9c1d12a6ebb831dd15ad564cc3c2da178eab86762aec9313bf61fbec16ddf3"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Long-tailed Tit Aegithalos caudatus caudatus, tiny rounded body, white head without dark eyebrow, pinkish flanks, black and pink back, very long black tail with white outer feathers, tiny short black bill. Scene: northern European woodland. Close portrait of white-headed nominate subspecies, tiny black bill. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "eef1fdfd4ff73169c8eddce286bb8aa494ac5efb6f3f0eb8d0d9ec9f9956bb1f",
+      "webpSha256": "975e170c346b521b4ba8d71fe5a1093762b36bad88ebcea44cb19b447a3ffed3"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Long-tailed Tit Aegithalos caudatus caudatus, tiny rounded body, white head without dark eyebrow, pinkish flanks, black and pink back, very long black tail with white outer feathers, tiny short black bill. Scene: northern European woodland. Bird hanging beneath a fine branch foraging among buds, correct natural anatomy. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "03d4e86cb29058981ec2d9016ffd87739a2c5b416790389253486fbe4fc317c5",
+      "webpSha256": "cb4f5c543a9898c7a63b8489b4fb35797d537eaf0851f36983928cb77ba6216a"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Long-tailed Tit Aegithalos caudatus caudatus, tiny rounded body, white head without dark eyebrow, pinkish flanks, black and pink back, very long black tail with white outer feathers, tiny short black bill. Scene: northern European woodland. Three adult birds perched close together on a winter branch, independent bodies and tails. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "9ad9f4a0e103db204980fcb716f07bd9f1f753032cd8e368e080a55eb9fecb89",
+      "webpSha256": "6589fc2ef08c7f1a32c2313ccff55806b139201e17a111384d2e59b4fa2b2762"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Long-tailed Tit Aegithalos caudatus caudatus, tiny rounded body, white head without dark eyebrow, pinkish flanks, black and pink back, very long black tail with white outer feathers, tiny short black bill. Scene: northern European woodland. Adult on a branch beside its oval moss and lichen nest with a small side entrance, no eggs visible. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "2d9d0b617cab1d654b43f2e19091d3ee94556daf3902d7a756550c65c502df1d",
+      "webpSha256": "05406a1a808fe24fc96e9324d1ec9a24ba8714a647a2198aaf25558ecdfa6260"
+    }
+  ]
+}

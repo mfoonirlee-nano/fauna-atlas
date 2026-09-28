@@ -121564,6 +121564,269 @@ export const species = [
   "updatedAt": "2026-09-28"
 },
 
+{
+  "id": "long-tailed-tit",
+  "slug": "long-tailed-tit",
+  "names": {
+    "zh": "银喉长尾山雀",
+    "en": "Long-tailed Tit"
+  },
+  "scientificName": "Aegithalos caudatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Passeriformes",
+      "zhName": "雀形目"
+    },
+    "family": {
+      "scientificName": "Aegithalidae",
+      "zhName": "长尾山雀科"
+    },
+    "genus": {
+      "scientificName": "Aegithalos",
+      "zhName": "长尾山雀属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "广布于欧洲和亚洲的适宜林地，向东到中国、日本"
+    ],
+    "countries": [],
+    "range": "广布于欧洲和亚洲的适宜林地，向东到中国、日本；图中采用北欧白头指名亚种的外形。"
+  },
+  "habitats": [
+    {
+      "name": "阔叶林、灌丛与树篱",
+      "realm": "terrestrial",
+      "description": "银喉长尾山雀有圆圆的小身体和细长尾巴。它常与同伴穿行枝间，寻找小昆虫。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "小昆虫",
+      "蚜虫",
+      "小蜘蛛"
+    ],
+    "description": "食物包括小昆虫、蚜虫、小蜘蛛。"
+  },
+  "activity": [
+    "日间活动"
+  ],
+  "tags": [
+    "银喉长尾山雀",
+    "阔叶林、灌丛与树篱"
+  ],
+  "summary": "银喉长尾山雀有圆圆的小身体和细长尾巴。它常与同伴穿行枝间，寻找小昆虫。",
+  "description": "银喉长尾山雀有圆圆的小身体和细长尾巴。它常与同伴穿行枝间，寻找小昆虫。本组图展示白头的指名亚种 Aegithalos caudatus caudatus。其他亚种可有深色头纹，不能把白头当作整个物种共有的特征；雌雄外形相似。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "比身体还长的尾巴",
+      "body": "从圆身体后方找到尾巴尖，再比一比两段的长度。长尾巴是银喉长尾山雀的显眼特征。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "白头上的小嘴",
+      "body": "在白色头部找找短小的黑嘴。本图展示白头指名亚种，其他亚种的头上可以有深色条纹。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "细枝下面找虫子",
+      "body": "看看脚抓住哪根枝条。银喉长尾山雀会在细枝间变换姿势，啄食小昆虫和蜘蛛。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "和同伴靠在一起",
+      "body": "在枝条上找找几只小鸟。它们常结群活动，寒冷时会靠拢休息，减少散热。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "有顶的小鸟巢",
+      "body": "找找苔藓与地衣包裹的巢，再看看侧面的小入口。亲鸟用苔藓、蛛丝等材料搭起有顶的巢。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留灌丛和树篱，给小鸟留出觅食与藏身处。共读时找尾巴，不追着鸟群跑。"
+    }
+  ],
+  "keyFacts": [
+    "从圆身体后方找到尾巴尖，再比一比两段的长度。长尾巴是银喉长尾山雀的显眼特征。",
+    "在白色头部找找短小的黑嘴。本图展示白头指名亚种，其他亚种的头上可以有深色条纹。",
+    "看看脚抓住哪根枝条。银喉长尾山雀会在细枝间变换姿势，啄食小昆虫和蜘蛛。",
+    "在枝条上找找几只小鸟。它们常结群活动，寒冷时会靠拢休息，减少散热。",
+    "找找苔藓与地衣包裹的巢，再看看侧面的小入口。亲鸟用苔藓、蛛丝等材料搭起有顶的巢。"
+  ],
+  "threats": [
+    "严寒导致局部数量波动",
+    "林缘灌丛与树篱减少"
+  ],
+  "conservationActions": [
+    "保留灌丛和树篱，给小鸟留出觅食与藏身处。共读时找尾巴，不追着鸟群跑。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "阔叶林、灌丛与树篱"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "比身体还长的尾巴"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用所列来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/long-tailed-tit/01-cover.webp",
+    "alt": "银喉长尾山雀及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/long-tailed-tit/02-observation.webp",
+        "alt": "银喉长尾山雀：比身体还长的尾巴",
+        "title": "比身体还长的尾巴",
+        "caption": "AI 生成科学情景重建。从圆身体后方找到尾巴尖，再比一比两段的长度。长尾巴是银喉长尾山雀的显眼特征。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/long-tailed-tit/03-observation.webp",
+        "alt": "银喉长尾山雀：白头上的小嘴",
+        "title": "白头上的小嘴",
+        "caption": "AI 生成科学情景重建。在白色头部找找短小的黑嘴。本图展示白头指名亚种，其他亚种的头上可以有深色条纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/long-tailed-tit/04-observation.webp",
+        "alt": "银喉长尾山雀：细枝下面找虫子",
+        "title": "细枝下面找虫子",
+        "caption": "AI 生成科学情景重建。看看脚抓住哪根枝条。银喉长尾山雀会在细枝间变换姿势，啄食小昆虫和蜘蛛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/long-tailed-tit/05-observation.webp",
+        "alt": "银喉长尾山雀：和同伴靠在一起",
+        "title": "和同伴靠在一起",
+        "caption": "AI 生成科学情景重建。在枝条上找找几只小鸟。它们常结群活动，寒冷时会靠拢休息，减少散热。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/long-tailed-tit/06-observation.webp",
+        "alt": "银喉长尾山雀：有顶的小鸟巢",
+        "title": "有顶的小鸟巢",
+        "caption": "AI 生成科学情景重建。找找苔藓与地衣包裹的巢，再看看侧面的小入口。亲鸟用苔藓、蛛丝等材料搭起有顶的巢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "EUNIS：分类与全球保护等级",
+      "url": "https://eunis.eea.europa.eu/species/Aegithalos%20caudatus",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "RSPB：银喉长尾山雀外形与生态",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/long-tailed-tit",
+      "kind": "ecology",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "EUNIS：IUCN World 等级",
+      "url": "https://eunis.eea.europa.eu/species/Aegithalos%20caudatus",
+      "kind": "conservation",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "ADW：银喉长尾山雀的分布与生态",
+      "url": "https://animaldiversity.org/accounts/Aegithalos_caudatus/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "eBird：银喉长尾山雀外形差异",
+      "url": "https://ebird.org/species/lottit1",
+      "kind": "general",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "BTO：银喉长尾山雀繁殖与栖息地",
+      "url": "https://www.bto.org/learn/about-birds/birdfacts/long-tailed-tit",
+      "kind": "ecology",
+      "accessedAt": "2026-09-28"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-28",
+  "updatedAt": "2026-09-28"
+},
 
 
 

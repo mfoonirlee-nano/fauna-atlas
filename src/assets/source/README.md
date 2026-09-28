@@ -626,3 +626,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [珠颈斑鸠 image set](./species/spotted-dove/README.md)
 
 - [大山雀 image set](./species/great-tit/README.md)
+- [银喉长尾山雀 image set](./species/long-tailed-tit/README.md)

@@ -4311,4 +4311,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 878
   }
 },
+  "long-tailed-tit": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 760,
+    "top": 210,
+    "right": 1495,
+    "bottom": 830
+  }
+},
 };

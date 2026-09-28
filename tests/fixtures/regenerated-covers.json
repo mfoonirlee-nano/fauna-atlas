@@ -2273,5 +2273,18 @@
       },
       "sha256": "2e6a790ae12f4b66d8dcd75167035a90acfc6c59304e921a1b758d8d86e3650a"
     }
+  },
+  "long-tailed-tit": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 760,
+        "top": 210,
+        "right": 1495,
+        "bottom": 830
+      },
+      "sha256": "655a6bc18aaa33b9333258fee2b95d34f6b1e440dc16d81a08605c27100433ec"
+    }
   }
 }
