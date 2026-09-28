@@ -2286,5 +2286,18 @@
       },
       "sha256": "655a6bc18aaa33b9333258fee2b95d34f6b1e440dc16d81a08605c27100433ec"
     }
+  },
+  "eurasian-nuthatch": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 718,
+        "top": 178,
+        "right": 1490,
+        "bottom": 805
+      },
+      "sha256": "fbd54b8c28ed38845605683223b4469fbec02ef1f644619524b6c1bdf57a5d8b"
+    }
   }
 }

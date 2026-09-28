@@ -4321,4 +4321,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 830
   }
 },
+  "eurasian-nuthatch": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 718,
+    "top": 178,
+    "right": 1490,
+    "bottom": 805
+  }
+},
 };

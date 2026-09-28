@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Nuthatch Sitta europaea, blue gray upperparts, black stripe through eye, long pointed gray bill, short tail, warm buff underparts of western European form. Scene: European broadleaf woodland. Cover: one adult perched or standing naturally, complete full body including bill crest wings feet and tail inside image with real background margins. Large subject placed right, bounds approximately x=760..1460 y=110..900, center at 72% width. Left 40% quiet blurred natural background for title. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "85742b6a27c3dd4aeaa617ec794c324cb18ef46ec0f84e76e6a4e1b785354387",
+      "webpSha256": "fbd54b8c28ed38845605683223b4469fbec02ef1f644619524b6c1bdf57a5d8b"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Nuthatch Sitta europaea, blue gray upperparts, black stripe through eye, long pointed gray bill, short tail, warm buff underparts of western European form. Scene: European broadleaf woodland. Full bird climbing head-first DOWN a vertical oak trunk gripping bark with both feet, back above head. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "92ddb0567b7fd37b99457c2927a41a567e54eb1bd88d587b25b9ed2572b09df8",
+      "webpSha256": "916ee68c6574ca1746e005d66e9d8f5275cab821785a1f03f0e8faba7531bd31"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Nuthatch Sitta europaea, blue gray upperparts, black stripe through eye, long pointed gray bill, short tail, warm buff underparts of western European form. Scene: European broadleaf woodland. Side portrait showing black eye stripe and pointed bill. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "3e64f969f80b6730b9f241fa36ad6484d7ad25773f63a8fbc1d130e159e1330c",
+      "webpSha256": "fc9d50f51e0fcdcadf674b13b7031b47745255072de6cc863f1595ac6154df54"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Nuthatch Sitta europaea, blue gray upperparts, black stripe through eye, long pointed gray bill, short tail, warm buff underparts of western European form. Scene: European broadleaf woodland. Bird with a seed held in a natural bark crevice, bill beside seed. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "3a1610e75e85699476ecd31b9f660c9a074aea49499d1eaf36e745e1bcbbc5c5",
+      "webpSha256": "ec2ca99a76edb638f92cb23e58a9825b7f8dc270e8d896b02f4eff94857d1dd4"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Nuthatch Sitta europaea, blue gray upperparts, black stripe through eye, long pointed gray bill, short tail, warm buff underparts of western European form. Scene: European broadleaf woodland. Bird perched next to a tree cavity whose entrance edge has dried mud, natural nest entrance. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "db406dbe2310db0daee38a269699a17388c762cdf3f2fb1e8a9b044191009a7f",
+      "webpSha256": "bdacfdfcc5b6926dd5b1b2acc86b62b48cf773f1d5951c9622b5035b6e985d1e"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Eurasian Nuthatch Sitta europaea, blue gray upperparts, black stripe through eye, long pointed gray bill, short tail, warm buff underparts of western European form. Scene: European broadleaf woodland. Full bird in side profile on a branch showing blue gray back, buff underside and very short tail. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "a0d89df478c8e3b94213221fcddc3c741582aead64750bf5d0821e302eea0e20",
+      "webpSha256": "957eba4eec2c9e73a78bf2ec7a5f8c81b7615ce5bcad338da9170c382089c948"
+    }
+  ]
+}
