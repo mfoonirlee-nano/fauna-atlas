@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-27 / 2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Photorealistic rock hyrax Procavia capensis on a sunlit African rocky outcrop; complete compact brown-gray animal with rounded ears, short legs and no visible long tail. Large right-side subject centered at 72%; left 40% quiet rocky background. Landscape 1536x1024, natural anatomy, full-body margins, no text or watermark.",
+      "sourceSha256": "7156e6dbf8091353f34087a88785f112815c86b125ae34addba3629639571f06",
+      "webpSha256": "c9aee52f05ee7da611e7837158b897a4760ca1eb7a1d212064bffa0eae8d74a1"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Rock hyrax Procavia capensis, compact brown-gray furry mammal, rounded short ears and no visible tail, on African rocks. Close side view of head showing rounded ears and long whiskers. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "78603e41d0e3a8d88f75eddf5e21eaa7970ef83818f862d6edff0f2646ca7e1c",
+      "webpSha256": "cbe7e8d1016297f873cbd0f23792699e2d88f96735eb8627f87207e34232c287"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Rock hyrax Procavia capensis, compact brown-gray furry mammal, rounded short ears and no visible tail, on African rocks. Full body stepping naturally over rough rock, short legs and feet contacting stone. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "21472d3996c6f2ba44b90cd154b0267f2c55ad4b4f415fd36d45f351402504dc",
+      "webpSha256": "9ba20d17da6bfa446ed1fe25d7a4a77bf78d96959a0bcbfc41d6dd8da2f60970"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Rock hyrax Procavia capensis, compact brown-gray furry mammal, rounded short ears and no visible tail, on African rocks. Eating green leaves beside a rocky outcrop. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "c8e106c4777a965505bf3a4e7d8533060c7b55efa48b52c8d084f83c9a74444a",
+      "webpSha256": "df404a95deb7875396367599644365b038f6b3ded72be343bd310bdd4ffb8bea"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Natural wildlife photo, landscape 1536x1024: three rock hyraxes Procavia capensis basking together on an African sunlit boulder. Compact brown furry bodies, small rounded ears, short legs, no external tail. Separate readable anatomically accurate bodies at differing distances, natural resting poses, warm sun, no text or watermark.",
+      "sourceSha256": "039fa8ec603fd3d8f99b29a8417ca51db4a6bad0e8f1ec0c7f8d0028036645ad",
+      "webpSha256": "66a3737ad4af5cd9f288ef9eebe8b18eb1b7f8d793aaa92195f215ac8c34ab92"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Rock hyrax Procavia capensis, compact brown-gray furry mammal, rounded short ears and no visible tail, on African rocks. One hyrax resting beside a dark rock crevice used as shelter.  Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "b0f0990ba36fe083f911da95e8d0951e7782ecd347cab6c781b13c6054a9ed71",
+      "webpSha256": "865dc7f7af867ba6eaeebe132657191647bbb20fb679a077baa44503a1d6c84a"
+    }
+  ]
+}

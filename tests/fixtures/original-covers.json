@@ -3261,5 +3261,18 @@
       },
       "sha256": "07b2702910ae8bba9ceef3024dc209ef3805a57ffb62eb357626773d7d57512a"
     }
+  },
+  "rock-hyrax": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 745,
+        "top": 130,
+        "right": 1425,
+        "bottom": 842
+      },
+      "sha256": "c9aee52f05ee7da611e7837158b897a4760ca1eb7a1d212064bffa0eae8d74a1"
+    }
   }
 }

@@ -4251,4 +4251,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 785
   }
 },
+  "rock-hyrax": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 745,
+    "top": 130,
+    "right": 1425,
+    "bottom": 842
+  }
+},
 };
