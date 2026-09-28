@@ -2299,5 +2299,18 @@
       },
       "sha256": "fbd54b8c28ed38845605683223b4469fbec02ef1f644619524b6c1bdf57a5d8b"
     }
+  },
+  "northern-lapwing": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 795,
+        "top": 20,
+        "right": 1440,
+        "bottom": 915
+      },
+      "sha256": "18c3d49589abd0ffd3e5cf8af30e719ac785006d3f5e0d84eef14c48b076ca26"
+    }
   }
 }

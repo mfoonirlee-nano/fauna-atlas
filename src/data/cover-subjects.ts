@@ -4331,4 +4331,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 805
   }
 },
+  "northern-lapwing": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 795,
+    "top": 20,
+    "right": 1440,
+    "bottom": 915
+  }
+},
 };

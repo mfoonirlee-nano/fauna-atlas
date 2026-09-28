@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Northern Lapwing Vanellus vanellus breeding adult, long thin backward-curved black crest, black and white face and breast, white belly, iridescent dark green back, pink legs. Scene: European wet meadow. Cover: one adult perched or standing naturally, complete full body including bill crest wings feet and tail inside image with real background margins. Large subject placed right, bounds approximately x=760..1460 y=110..900, center at 72% width. Left 40% quiet blurred natural background for title. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "afe4c10c76da10e885c0b25b3cbd7caf3e9b6672d02e91b6cea9fee53e14582b",
+      "webpSha256": "18c3d49589abd0ffd3e5cf8af30e719ac785006d3f5e0d84eef14c48b076ca26"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Northern Lapwing Vanellus vanellus breeding adult, long thin backward-curved black crest, black and white face and breast, white belly, iridescent dark green back, pink legs. Scene: European wet meadow. Side portrait showing entire thin recurved black crest. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "82cc3896953bc81e0cac83286ff89f283567ae31d8ca3c5a783602ad8fd536d7",
+      "webpSha256": "29ad51e2a791c819a1bbba0bbfef5df76c9f4d867f464af7234be1b2b4b3fd5a"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Northern Lapwing Vanellus vanellus breeding adult, long thin backward-curved black crest, black and white face and breast, white belly, iridescent dark green back, pink legs. Scene: European wet meadow. Full bird walking slowly across short damp grass. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "4980955e478bab472c17b3d295f4eae36969b821e958ca3f8fc8444bfc2696a9",
+      "webpSha256": "04dc8752d0d650d5060f744e8919d0d8660f2e2913e2f4b74ec6ca13e7e64a15"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Northern Lapwing Vanellus vanellus breeding adult, long thin backward-curved black crest, black and white face and breast, white belly, iridescent dark green back, pink legs. Scene: European wet meadow. One bird in flight showing broad rounded wings and contrasting black and white underwings, both wings and feet anatomically correct. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "998653ea2c2409ce7e3a3723c5a43d440d2d555473fbbd246a4e94cb85a40c61",
+      "webpSha256": "14897b5ff8802c33e3358558c91f6e6da6c50622a36505d88340344d6df01106"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Northern Lapwing Vanellus vanellus breeding adult, long thin backward-curved black crest, black and white face and breast, white belly, iridescent dark green back, pink legs. Scene: European wet meadow. Adult foraging bill towards wet soil with tiny earthworm visible, no gore. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "ef5391f163c2fca3c57f8b02629e88abf0dc7ce589280a19f19b3917a64a6432",
+      "webpSha256": "808d538f16d4ef772af649c749bce44c97f8809ffa1a086ff15a2e440d5348ee"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Photorealistic wildlife educational atlas image, landscape 1536x1024. Northern Lapwing Vanellus vanellus breeding adult, long thin backward-curved black crest, black and white face and breast, white belly, iridescent dark green back, pink legs. Scene: European wet meadow. Three adults standing spaced apart at a shallow muddy wetland edge. Natural daylight, realistic anatomy. Single scene, no collage, no text, no watermark, no people.",
+      "sourceSha256": "2e34351b7ca26b5b7eaabf4025831b2d4f9fae795a038891c71c2b30d6ecf7cd",
+      "webpSha256": "5b4513cf741959caf8ecc0ded6ac274417182cacf3217877c8eea2f2a1756503"
+    }
+  ]
+}
