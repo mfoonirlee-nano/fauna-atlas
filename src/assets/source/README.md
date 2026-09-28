@@ -620,3 +620,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [冠毛豪猪 image set](./species/crested-porcupine/README.md)
 
 - [非洲岩蹄兔 image set](./species/rock-hyrax/README.md)
+- [捻角山羊 image set](./species/markhor/README.md)

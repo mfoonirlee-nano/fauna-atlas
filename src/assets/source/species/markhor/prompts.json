@@ -1,0 +1,48 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-27 / 2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Photorealistic wildlife educational atlas cover, landscape 1536x1024. One adult male markhor Capra falconeri on a rocky Himalayan scrub slope. Two anatomically natural long corkscrew horns spiraling upward, shaggy beard and chest mane, tan gray body, four cloven hooves. Complete full animal with all outer features and feet/tail/horn tips inside frame. Large subject entirely in right half approximately x=760..1450 and y=120..900, center x=72%. Left 40% quiet natural background for text. Real background margin all around subject. Natural light and realistic anatomy. No text, no watermark, no collage.",
+      "sourceSha256": "8c9fc8249efd188045dd9567235e6c4bfde984e3cb07891160b8c55ced4fa9f9",
+      "webpSha256": "d15d2027c91856b57ed97025d4cd77b34438b157b563a6ff2a9e0c3a858648a5"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Markhor Capra falconeri in Himalayan rocky scrub habitat, tan-gray wild goat with natural corkscrew horns. Head and upper body of adult male showing TWO paired spiraling horns fully within frame and shaggy beard. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "71b810101d7dd2d8d7949b8c2aa8cda67f3e4a1c977ddcbc865acef553e735b1",
+      "webpSha256": "6e974b526024a0d8621a65813e419b70e8081132999ca580f3c99ab45035a109"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Markhor Capra falconeri in Himalayan rocky scrub habitat, tan-gray wild goat with natural corkscrew horns. Full adult male carefully walking on a rocky slope, four cloven hooves attached correctly. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "ebed3841ca0c01bd6e17998134a7d05e46700122e8e469fd37279623c891eb2b",
+      "webpSha256": "fc19b886d74099cfdce69c7f73a86645bb2d1f92994c12bfb3d6640f6fed6da9"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Markhor Capra falconeri in Himalayan rocky scrub habitat, tan-gray wild goat with natural corkscrew horns. Adult female with shorter slimmer spiraling horns, side view. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "6ebdaac4e4a818bf5f77a2283609c673b1fcc2f4720d8a413aedbbf5bae57fe0",
+      "webpSha256": "fda60b30eb66250c9628cb5992a1017150be7271bcec49416e68a803d564ba61"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Markhor Capra falconeri in Himalayan rocky scrub habitat, tan-gray wild goat with natural corkscrew horns. Adult male browsing leaves from a low wild shrub, no feeding by humans. Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "2d41f0f4797eaaa50e16d96056c9f58b60328f11ca4e7528027101cc89e5f751",
+      "webpSha256": "b0674a6d20d5b88e656af99d76c62973ac95079ee6410d7944d0f6e7f6192a80"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Photorealistic educational wildlife photograph, landscape 1536x1024. Two ADULT FEMALE markhor Capra falconeri and one small kid on a Himalayan rocky scrub slope. Both adult females MUST have a clearly visible pair of short slender spiraling HORNS on their heads, roughly 20 cm long, not hornless. Tan-gray coat, small beards, four natural cloven hooves on each animal. Kid smaller with tiny horn buds. Separate distinct bodies. Natural documentary light. No text no watermark no collage, no people.",
+      "sourceSha256": "4c4afa0adc689e471cf91131b1e3eef22788081fcf8ddc669c8659e2e6706d4e",
+      "webpSha256": "94cc4f529b66b7ce05ca0e5d07ec96e6d95241367ed8fbc442e4e9468b381c2d"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Markhor Capra falconeri in Himalayan rocky scrub habitat, tan-gray wild goat with natural corkscrew horns. Small group of two females and one young on a rocky scrub slope, distinct separate bodies.  Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "35d11c62ee1b772df42fbdc18296f24ee9b63df9b5a1adbad48fc7128ba4d4e0"
+    }
+  ]
+}

@@ -3274,5 +3274,18 @@
       },
       "sha256": "c9aee52f05ee7da611e7837158b897a4760ca1eb7a1d212064bffa0eae8d74a1"
     }
+  },
+  "markhor": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 850,
+        "top": 20,
+        "right": 1490,
+        "bottom": 930
+      },
+      "sha256": "d15d2027c91856b57ed97025d4cd77b34438b157b563a6ff2a9e0c3a858648a5"
+    }
   }
 }
