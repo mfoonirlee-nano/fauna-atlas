@@ -622,3 +622,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [非洲岩蹄兔 image set](./species/rock-hyrax/README.md)
 - [捻角山羊 image set](./species/markhor/README.md)
 - [冠海豹 image set](./species/hooded-seal/README.md)
+- [乌鸫 image set](./species/common-blackbird/README.md)

@@ -4281,4 +4281,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 675
   }
 },
+  "common-blackbird": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 700,
+    "top": 195,
+    "right": 1495,
+    "bottom": 845
+  }
+},
 };

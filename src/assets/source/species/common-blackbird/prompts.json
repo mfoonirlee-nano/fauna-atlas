@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-27 / 2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Photorealistic wildlife educational atlas cover, landscape 1536x1024. One adult male Common Blackbird Turdus merula on short grass at a European woodland edge. Black plumage, yellow-orange bill, narrow yellow eye ring, long tail, two legs. Complete full animal with all outer features and feet/tail/horn tips inside frame. Large subject entirely in right half approximately x=760..1450 and y=120..900, center x=72%. Left 40% quiet natural background for text. Real background margin all around subject. Natural light and realistic anatomy. No text, no watermark, no collage.",
+      "sourceSha256": "36294863c960624396437b7aa4e479ac1c30ca6b2d03f3eb61bcb3137b25cb17",
+      "webpSha256": "7c489354cd7760a3c00dce6ab90a841f6db3cf5513cfe4753a96c36c8d421cd6"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Common Blackbird Turdus merula, European woodland garden habitat, anatomically accurate songbird. Close adult male portrait, black feathers, orange-yellow bill and narrow yellow orbital ring. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "af90c4f0fe0bf62e08e0590aa76a9a2058177cfd9a3288c04c4e62b25f842765",
+      "webpSha256": "ed472923bd12b3e23d33a85b2285064fc29c333a61cb129d85d89532fc079e80"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Common Blackbird Turdus merula, European woodland garden habitat, anatomically accurate songbird. Full male on short grass taking a natural step while foraging, two correctly attached feet. Natural documentary lighting and anatomically accurate proportions. Single scene no collage, no text, no watermark, no people.",
+      "sourceSha256": "c5016a2c98c1faf67ed616f0557a560e68ea60bbaee9cc739dcc463e64afc80e",
+      "webpSha256": "ca1c9b6a5c1c80fe598cfc82f06884f71c29da96111ce4252b7d2429078ef8db"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Photorealistic educational wildlife image 1536x1024. Adult FEMALE common blackbird Turdus merula perched on a low branch in a European garden. Brown plumage, muted mottled brown breast, brownish bill, NO black male plumage, no bright yellow male bill. Complete bird, feet grasp branch, long tail. Natural light, no text no watermark.",
+      "sourceSha256": "d59864546ef44c5f28160acfa4b662cd2f291d3cf011969f3279173fd9c6d537",
+      "webpSha256": "e793014a987f323df6685db3155b8c5f2eb6ad65dca970e32193c8dad272dbd2"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Common Blackbird Turdus merula, European woodland garden habitat, anatomically accurate songbird. Adult male turning fallen leaves with bill searching for invertebrates. Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "58ac601b87f3329b5291d1a33cfb8c66aa2c8ffc37e204ba1485ced5f3c0c272",
+      "webpSha256": "9ed591aae411576fcd531be85b3e01859d099833c8e2a87ced2ee937594b4797"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Photorealistic wildlife educational observation image, landscape 1536x1024. Common Blackbird Turdus merula, European woodland garden habitat, anatomically accurate songbird. Adult male singing on a branch, bill slightly open, full tail and feet visible.  Natural documentary lighting, correct anatomy. Single scene no collage no text no watermark.",
+      "sourceSha256": "9a7c6cae6b01dea7a9dadc9711daa2d36a442d02c753d51f5952d3039435750e",
+      "webpSha256": "2fd5f086efc866a0f2381312df2d92d18d445cb6a9512bada830280ab7bcf7e2"
+    }
+  ]
+}

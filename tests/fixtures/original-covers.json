@@ -3300,5 +3300,18 @@
       },
       "sha256": "cad2060b3e2c5df63dcfecdbf40ed0bf0023d4d36008acd2d02115d41983abca"
     }
+  },
+  "common-blackbird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 195,
+        "right": 1495,
+        "bottom": 845
+      },
+      "sha256": "7c489354cd7760a3c00dce6ab90a841f6db3cf5513cfe4753a96c36c8d421cd6"
+    }
   }
 }

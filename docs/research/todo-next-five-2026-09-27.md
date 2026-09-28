@@ -1,6 +1,6 @@
 # TODO 动物核验（2026-09-27 起）
 
-已收录：非洲岩蹄兔、捻角山羊、冠海豹。资料访问日期为 2026-09-27。
+已收录：非洲岩蹄兔、捻角山羊、冠海豹、乌鸫。资料访问日期为 2026-09-27。
 
 ## 非洲岩蹄兔 Procavia capensis
 
@@ -28,3 +28,14 @@
 
 - [MDD：分类、分布与保护等级](https://www.mammaldiversity.org/taxon/1005911/)
 - [NOAA Fisheries：鼻囊、幼毛、食性与海冰生活](https://www.fisheries.noaa.gov/species/hooded-seal)
+
+## 乌鸫 Turdus merula
+
+分类：雀形目 Passeriformes → 鸫科 Turdidae → 鸫属 Turdus。保留 todo 指定的学名；中国常见的 Turdus mandarinus 在当前分类中另列为一种，不能把其分布并入本档案。使用欧洲林地与花园场景，分开标注成年雄性和雌性。
+
+全球 LC 依据丹麦自然历史博物馆所列 IUCN 记录，其引用为 BirdLife International 2024。RSPB 的英国 Green 名录不等同全球 IUCN 等级。博物馆给出评估发布版本，但未核实独立评估日期，档案不填 assessedYear。
+
+- [丹麦自然历史博物馆：分类与 IUCN 记录](https://collections.snm.ku.dk/en/object/NHMD138396)
+- [RSPB：雌雄外形与觅食、鸣唱](https://www.rspb.org.uk/birds-and-wildlife/blackbird)
+- [ADW：分布与生态](https://animaldiversity.org/accounts/Turdus_merula/)
+- [ITIS：Turdus mandarinus 与旧名 Turdus merula mandarinus](https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1277028)
