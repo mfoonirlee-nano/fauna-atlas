@@ -1778,6 +1778,10 @@
     inset: 0;
   }
 
+  .hero-carousel__slide--leaving {
+    z-index: 0;
+  }
+
   .hero__image {
     position: absolute;
     inset: 0;
@@ -2113,23 +2117,23 @@
   }
 
   @keyframes hero-enter-forward {
-    from { transform: scale(1.025); opacity: 0.16; }
+    from { transform: scale(1.025); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
   }
 
   @keyframes hero-leave-forward {
     from { transform: scale(1); opacity: 1; }
-    to { transform: scale(1.015); opacity: 0; }
+    to { transform: scale(1.015); opacity: 1; }
   }
 
   @keyframes hero-enter-backward {
-    from { transform: scale(1.025); opacity: 0.16; }
+    from { transform: scale(1.025); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
   }
 
   @keyframes hero-leave-backward {
     from { transform: scale(1); opacity: 1; }
-    to { transform: scale(1.015); opacity: 0; }
+    to { transform: scale(1.015); opacity: 1; }
   }
 
   .atlas-intro {

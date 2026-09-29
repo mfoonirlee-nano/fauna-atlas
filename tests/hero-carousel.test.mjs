@@ -115,15 +115,14 @@ test('reviewed covers retain exactly six images per species and use the canonica
     const bytes = await readFile(new URL(`../public/${item.media.image.slice(2)}`, import.meta.url));
     assert.equal(createHash('sha256').update(bytes).digest('hex'), cover.sha256);
   }
-  assert.match(appSource, /src=\{heroSpecies.media.image/);
+  assert.match(appSource, /src=\{item.media.image/);
   assert.doesNotMatch(appSource, /heroArt|hero-desktop|hero-mobile/);
 });
 
 test('hero covers fill the entire canvas without bounded subject frames', () => {
   assert.match(stylesSource, /\.hero__image \{[^}]*inset: 0;[^}]*width: 100%;[^}]*height: 100%;[^}]*object-fit: cover;/);
   assert.doesNotMatch(appSource + stylesSource, /hero-subject-frame|hero--framed|heroSubjectStyle/);
-  assert.match(appSource, /focalPointStyle\(previousSpecies.media.focalPoint\)/);
-  assert.match(appSource, /focalPointStyle\(heroSpecies.media.focalPoint\)/);
+  assert.match(appSource, /focalPointStyle\(item.media.focalPoint\)/);
   // Scaling from the center preserves coverage during each transition.
   for (const name of ['hero-enter', 'hero-enter-forward', 'hero-leave-forward', 'hero-enter-backward', 'hero-leave-backward']) {
     const animation = stylesSource.slice(stylesSource.indexOf(`@keyframes ${name} {`)).split('\n  }')[0];

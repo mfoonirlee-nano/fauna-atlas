@@ -861,7 +861,7 @@ interface HeroCarouselProps {
   readonly onOpenSpecies: (item: SpeciesSummary) => void;
 }
 
-function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
+export function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
   const heroSlides = useMemo(() => items.filter((item) => Boolean(item.media.image)), [items]);
   const [frame, setFrame] = useState<HeroCarouselFrame>({
     activeIndex: 0,
@@ -1069,47 +1069,36 @@ function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselProps) {
         className="hero-carousel__visual"
         aria-live={autoplayActive ? 'off' : 'polite'}
       >
-        {previousSpecies?.media.image && (
+        {[previousSpecies, heroSpecies].map((item) => item && (
           <div
-            key={`previous-${frame.revision}-${previousSpecies.slug}`}
-          >
-            <AtlasImage
-              className={`hero__image hero__image--leaving-${directionClass}`}
-              src={previousSpecies.media.image}
-              alt=""
-              style={focalPointStyle(previousSpecies.media.focalPoint)}
-              decoding="async"
-              aria-hidden="true"
-            />
-          </div>
-        )}
-        {heroSpecies && (
-          <div
-            key={`slide-${frame.revision}-${heroSpecies.slug}`}
-            className="hero-carousel__slide"
+            key={item.slug}
+            className={`hero-carousel__slide${item === previousSpecies ? ' hero-carousel__slide--leaving' : ''}`}
             role="group"
+            aria-hidden={item === previousSpecies ? true : undefined}
             aria-roledescription="幻灯片"
-            aria-label={`第 ${frame.activeIndex + 1} 张，共 ${slideCount} 张：${heroSpecies.names.zh}`}
+            aria-label={item === previousSpecies ? undefined : `第 ${frame.activeIndex + 1} 张，共 ${slideCount} 张：${item.names.zh}`}
           >
-            <div>
-              <AtlasImage
-                className={`hero__image ${
-                  frame.revision === 0
+            {/* Keep the painted node when it becomes the outgoing layer. The next
+                cover has already decoded, so no loading placeholder is needed. */}
+            <img
+              className={`hero__image ${
+                item === previousSpecies
+                  ? `hero__image--leaving-${directionClass}`
+                  : frame.revision === 0
                     ? 'hero__image--initial'
                     : frame.previousIndex !== null
                       ? `hero__image--entering-${directionClass}`
                       : 'hero__image--settled'
-                }`}
-                src={heroSpecies.media.image ?? './images/fauna-hero.webp'}
-                alt={heroSpecies.media.alt}
-                style={focalPointStyle(heroSpecies.media.focalPoint)}
-                decoding="async"
-                loading="eager"
-                fetchPriority={frame.revision === 0 ? 'high' : 'auto'}
-              />
-            </div>
+              }`}
+              src={item.media.image ?? './images/fauna-hero.webp'}
+              alt={item === previousSpecies ? '' : item.media.alt}
+              style={focalPointStyle(item.media.focalPoint)}
+              decoding="async"
+              loading="eager"
+              fetchPriority={frame.revision === 0 ? 'high' : 'auto'}
+            />
           </div>
-        )}
+        ))}
       </div>
       <div className="hero__veil" />
       <div className="hero__grid" aria-hidden="true" />
