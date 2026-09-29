@@ -8,7 +8,7 @@ import { createRoot } from 'react-dom/client';
 
 const styles = await readFile(new URL('../src/styles.css', import.meta.url), 'utf8');
 
-async function mountCarousel(context, { reducedMotion = false, decode = () => Promise.resolve() } = {}) {
+async function mountCarousel(context, { reducedMotion = false, decode = () => Promise.resolve(), slugs = ['first', 'second', 'third'] } = {}) {
   const dom = new JSDOM('<div id="root"></div>', { url: 'https://atlas.test/', pretendToBeVisual: true });
   const globals = ['window', 'document', 'IS_REACT_ACT_ENVIRONMENT'];
   const saved = globals.map((key) => Object.getOwnPropertyDescriptor(globalThis, key));
@@ -26,6 +26,12 @@ async function mountCarousel(context, { reducedMotion = false, decode = () => Pr
     addEventListener() {}
     decode = decode;
   };
+  const observers = [];
+  dom.window.ResizeObserver = class {
+    constructor(callback) { this.callback = callback; observers.push(this); }
+    observe(target) { this.target = target; }
+    disconnect() { this.disconnected = true; }
+  };
   const server = await createServer({ server: { middlewareMode: true, watch: null, hmr: false }, appType: 'custom' });
   const root = createRoot(document.getElementById('root'));
   context.after(async () => {
@@ -35,12 +41,14 @@ async function mountCarousel(context, { reducedMotion = false, decode = () => Pr
     globals.forEach((key, index) => saved[index] ? Object.defineProperty(globalThis, key, saved[index]) : delete globalThis[key]);
   });
   const { HeroCarousel } = await server.ssrLoadModule('/src/App.tsx');
-  const items = ['first', 'second', 'third'].map((slug) => ({
+  const items = slugs.map((slug) => ({
     slug, names: { zh: slug }, scientificName: slug, conservation: { code: "LC" },
     distribution: { regions: [], center: { lat: 0, lng: 0 } },
     media: { image: `./images/${slug}.webp`, alt: slug },
   }));
   await act(() => root.render(createElement(HeroCarousel, { items, isObscured: false, onOpenSpecies() {} })));
+  // Flush the same lazy metadata module requested by the mounted cover.
+  await act(async () => { await server.ssrLoadModule('/src/data/cover-subjects.ts'); });
   const cover = () => document.querySelector('.hero-carousel__slide:not([aria-hidden="true"]) .hero__image');
   const click = (direction) => act(async () => document.querySelector(`[aria-label^="${direction === 1 ? '下一种' : '上一种'}动物"]`).click());
   const runTimer = (delay) => act(async () => {
@@ -49,7 +57,7 @@ async function mountCarousel(context, { reducedMotion = false, decode = () => Pr
     timers.delete(entry[0]);
     entry[1].callback();
   });
-  return { cover, click, runTimer, timers, dom };
+  return { cover, click, runTimer, timers, dom, observers };
 }
 
 for (const mode of ['forward', 'backward', 'autoplay', 'reduced-motion']) {
@@ -114,4 +122,29 @@ test('crossfade keeps an opaque cover underneath the entering image', () => {
       assert.equal(incoming + outgoing * (1 - incoming), 1, `${direction}: background leaks through at ${progress}`);
     }
   }
+});
+
+
+test('reviewed covers resize in place and release observers when slides leave', async (context) => {
+  const { cover, observers, click, runTimer } = await mountCarousel(context, { slugs: ['giant-panda', 'red-crowned-crane'] });
+  const image = cover();
+  const observer = observers[0];
+  await act(() => observer.callback([{ contentRect: { width: 700, height: 500 } }]));
+  assert.ok(image.classList.contains('hero__image--fitted'));
+  const firstWidth = parseFloat(image.style.getPropertyValue('--hero-image-width'));
+  assert.ok(firstWidth > 0);
+  await act(() => observer.callback([{ contentRect: { width: 350, height: 500 } }]));
+  assert.equal(cover(), image);
+  assert.ok(parseFloat(image.style.getPropertyValue('--hero-image-width')) < firstWidth);
+  assert.equal(image.closest('.hero-carousel__slide').querySelector('.hero__backdrop').style.backgroundImage, 'url("./images/giant-panda.webp")');
+  await click(1);
+  assert.equal(observer.disconnected, undefined);
+  await runTimer(900);
+  assert.equal(observer.disconnected, true);
+});
+
+test('unreviewed covers retain contain fallback after resize', async (context) => {
+  const { cover, observers } = await mountCarousel(context);
+  await act(() => observers[0].callback([{ contentRect: { width: 700, height: 500 } }]));
+  assert.equal(cover().classList.contains('hero__image--fitted'), false);
 });

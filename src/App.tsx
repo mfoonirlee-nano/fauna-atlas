@@ -43,6 +43,8 @@ import { TaxonomyExplorer } from './components/TaxonomyExplorer';
 import { species, loadSpecies } from 'virtual:species-catalogue';
 import { createProfileLoader } from './domain/profile-loader';
 import {
+  fitHeroSubject,
+  type CoverSubject,
   shouldAutoplayCarousel,
   stepCarouselIndex,
 } from './domain/carousel';
@@ -855,6 +857,58 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
   );
 }
 
+function HeroCover({ item, leaving, initial }: { item: SpeciesSummary; leaving: boolean; initial: boolean }) {
+  const stageRef = useRef<HTMLDivElement>(null);
+  const [size, setSize] = useState<{ width: number; height: number }>();
+  const [subject, setSubject] = useState<CoverSubject>();
+
+  useEffect(() => {
+    let cancelled = false;
+    void import('./data/cover-subjects').then(({ coverSubjects }) => {
+      if (!cancelled) setSubject(coverSubjects[item.slug]);
+    }).catch(() => {
+      // Keep the full-image contain fallback if the metadata chunk cannot load.
+    });
+    return () => { cancelled = true; };
+  }, [item.slug]);
+
+  useEffect(() => {
+    const stage = stageRef.current;
+    if (!stage || !window.ResizeObserver) return;
+    const observer = new window.ResizeObserver(([entry]) => {
+      if (entry) setSize({ width: entry.contentRect.width, height: entry.contentRect.height });
+    });
+    observer.observe(stage);
+    return () => observer.disconnect();
+  }, []);
+
+  const layout = subject && size && size.width > 48 && size.height > 48
+    ? fitHeroSubject(subject, size.width, size.height)
+    : undefined;
+
+  return (
+    <>
+      <div className="hero__backdrop" aria-hidden="true" style={{ backgroundImage: `url("${item.media.image}")` }} />
+      <div ref={stageRef} className="hero__stage">
+        <img
+          className={`hero__image${layout ? ' hero__image--fitted' : ''}`}
+          src={item.media.image}
+          alt={leaving ? '' : item.media.alt}
+          style={layout ? {
+            '--hero-image-width': `${layout.width}px`,
+            '--hero-image-height': `${layout.height}px`,
+            '--hero-image-left': `${layout.left}px`,
+            '--hero-image-top': `${layout.top}px`,
+          } as CSSProperties : undefined}
+          decoding="async"
+          loading="eager"
+          fetchPriority={initial ? 'high' : 'auto'}
+        />
+      </div>
+    </>
+  );
+}
+
 interface HeroCarouselProps {
   readonly items: readonly SpeciesSummary[];
   readonly isObscured: boolean;
@@ -1072,36 +1126,24 @@ export function HeroCarousel({ items, isObscured, onOpenSpecies }: HeroCarouselP
         {[previousSpecies, heroSpecies].map((item) => item && (
           <div
             key={item.slug}
-            className={`hero-carousel__slide${item === previousSpecies ? ' hero-carousel__slide--leaving' : ''}`}
+            className={`hero-carousel__slide${item === previousSpecies ? ' hero-carousel__slide--leaving' : ''} ${
+              item === previousSpecies
+                ? `hero-carousel__slide--leaving-${directionClass}`
+                : frame.revision === 0
+                  ? 'hero-carousel__slide--initial'
+                  : frame.previousIndex !== null
+                    ? `hero-carousel__slide--entering-${directionClass}`
+                    : 'hero-carousel__slide--settled'
+            }`}
             role="group"
             aria-hidden={item === previousSpecies ? true : undefined}
             aria-roledescription="幻灯片"
             aria-label={item === previousSpecies ? undefined : `第 ${frame.activeIndex + 1} 张，共 ${slideCount} 张：${item.names.zh}`}
           >
-            {/* Keep the painted node when it becomes the outgoing layer. The next
-                cover has already decoded, so no loading placeholder is needed. */}
-            <img
-              className={`hero__image ${
-                item === previousSpecies
-                  ? `hero__image--leaving-${directionClass}`
-                  : frame.revision === 0
-                    ? 'hero__image--initial'
-                    : frame.previousIndex !== null
-                      ? `hero__image--entering-${directionClass}`
-                      : 'hero__image--settled'
-              }`}
-              src={item.media.image ?? './images/fauna-hero.webp'}
-              alt={item === previousSpecies ? '' : item.media.alt}
-              style={focalPointStyle(item.media.focalPoint)}
-              decoding="async"
-              loading="eager"
-              fetchPriority={frame.revision === 0 ? 'high' : 'auto'}
-            />
+            <HeroCover item={item} leaving={item === previousSpecies} initial={frame.revision === 0} />
           </div>
         ))}
       </div>
-      <div className="hero__veil" />
-      <div className="hero__grid" aria-hidden="true" />
       <div className="hero__content">
         <div className="hero__copy">
           <p className="hero__kicker"><span /> A LIVING INDEX OF EARTH</p>

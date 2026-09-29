@@ -28,3 +28,24 @@ export function shouldAutoplayCarousel({
 }: CarouselAutoplayState): boolean {
   return slideCount > 1 && !paused && !reducedMotion && !interacting && pageVisible && inViewport && !obscured;
 }
+
+export interface CoverSubject {
+  readonly width: number;
+  readonly height: number;
+  readonly bounds: { readonly left: number; readonly top: number; readonly right: number; readonly bottom: number };
+}
+
+/** Fit the reviewed silhouette into its own panel, keeping a real 24px margin. */
+export function fitHeroSubject(subject: CoverSubject, width: number, height: number) {
+  const { bounds } = subject;
+  const scale = Math.min(
+    Math.max(0, width - 48) / (bounds.right - bounds.left),
+    Math.max(0, height - 48) / (bounds.bottom - bounds.top),
+  );
+  return {
+    width: subject.width * scale,
+    height: subject.height * scale,
+    left: (width - (bounds.left + bounds.right) * scale) / 2,
+    top: (height - (bounds.top + bounds.bottom) * scale) / 2,
+  };
+}

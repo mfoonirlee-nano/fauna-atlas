@@ -1072,7 +1072,7 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     }
   },
   "crested-ibis": {
-    "width": 1536,
+    "width": 1535,
     "height": 1024,
     "bounds": {
       "left": 648,

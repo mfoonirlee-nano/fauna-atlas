@@ -1,4 +1,6 @@
 import assert from 'node:assert/strict';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
@@ -17,28 +19,14 @@ const [carouselModule, speciesModule, appSource, stylesSource] = await Promise.a
   readFile(new URL('../src/styles.css', import.meta.url), 'utf8'),
 ]);
 
-const { shouldAutoplayCarousel, stepCarouselIndex, wrapCarouselIndex } = carouselModule;
+const { fitHeroSubject, shouldAutoplayCarousel, stepCarouselIndex, wrapCarouselIndex } = carouselModule;
 const { species } = speciesModule;
 
-// Source review records remain valid; the full-bleed hero intentionally crops these covers.
+// Match the runtime covers to their reviewed full-subject bounds.
 const regeneratedCovers = JSON.parse(await readFile(new URL('./fixtures/regenerated-covers.json', import.meta.url), 'utf8'));
 const originalCovers = JSON.parse(await readFile(new URL('./fixtures/original-covers.json', import.meta.url), 'utf8'));
 const reviewedCovers = { ...regeneratedCovers, ...originalCovers };
 const { coverSubjects } = await importCompiledModule('../node_modules/.tmp/carousel-test/data/cover-subjects.js');
-
-function coverSourceCrop({ sourceWidth, sourceHeight, viewportWidth, viewportHeight, focalPoint }) {
-  const scale = Math.max(viewportWidth / sourceWidth, viewportHeight / sourceHeight);
-  const visibleWidth = viewportWidth / scale;
-  const visibleHeight = viewportHeight / scale;
-
-  return {
-    scale,
-    left: (sourceWidth - visibleWidth) * focalPoint.x,
-    top: (sourceHeight - visibleHeight) * focalPoint.y,
-    right: sourceWidth - (sourceWidth - visibleWidth) * (1 - focalPoint.x),
-    bottom: sourceHeight - (sourceHeight - visibleHeight) * (1 - focalPoint.y),
-  };
-}
 
 test('carousel indexes wrap in both directions and tolerate an empty list', () => {
   assert.equal(wrapCarouselIndex(-1, 14), 13);
@@ -119,18 +107,21 @@ test('reviewed covers retain exactly six images per species and use the canonica
   assert.doesNotMatch(appSource, /heroArt|hero-desktop|hero-mobile/);
 });
 
-test('hero covers fill the entire canvas without bounded subject frames', () => {
-  assert.match(stylesSource, /\.hero__image \{[^}]*inset: 0;[^}]*width: 100%;[^}]*height: 100%;[^}]*object-fit: cover;/);
-  assert.doesNotMatch(appSource + stylesSource, /hero-subject-frame|hero--framed|heroSubjectStyle/);
-  assert.match(appSource, /focalPointStyle\(item.media.focalPoint\)/);
-  // Scaling from the center preserves coverage during each transition.
+test('hero separates foreground from backdrop and never scales during crossfade', () => {
+  assert.match(stylesSource, /\.hero__image \{[^}]*object-fit: contain;/);
+  assert.match(stylesSource, /\.hero__backdrop \{[^}]*background-size: cover;[^}]*filter: blur/);
+  assert.match(appSource, /fitHeroSubject\(subject, size.width, size.height\)/);
+  assert.match(appSource, /backgroundImage: `url\("\$\{item.media.image\}"\)`/);
   for (const name of ['hero-enter', 'hero-enter-forward', 'hero-leave-forward', 'hero-enter-backward', 'hero-leave-backward']) {
     const animation = stylesSource.slice(stylesSource.indexOf(`@keyframes ${name} {`)).split('\n  }')[0];
-    assert.doesNotMatch(animation, /translate/);
-    const scales = [...animation.matchAll(/scale\(([\d.]+)\)/g)].map((match) => Number(match[1]));
-    assert.equal(scales.length, 2);
-    assert.ok(scales.every((scale) => scale >= 1));
+    assert.doesNotMatch(animation, /transform|translate|scale/);
+    assert.match(animation, /opacity:/);
   }
+  const mobile = stylesSource.slice(stylesSource.indexOf('@media (max-width: 760px)'));
+  assert.match(mobile, /\.hero-carousel__visual \{[^}]*grid-row: 1;/);
+  assert.match(mobile, /\.hero__content \{[^}]*grid-row: 2;/);
+  assert.match(mobile, /\.hero__image--fitted \{[^}]*inset: 24px;[^}]*object-fit: contain;/);
+  assert.deepEqual(Object.keys(coverSubjects).sort(), species.map((item) => item.slug).sort());
   assert.deepEqual(Object.keys(coverSubjects).sort(), Object.keys(reviewedCovers).sort());
 });
 
@@ -144,19 +135,37 @@ test('new animal covers retain a complete right-side source silhouette', () => {
 });
 
 for (const [slug, { cover }] of Object.entries(reviewedCovers)) {
-  test(`${slug}: canonical cover fills desktop and mobile hero viewports`, () => {
+  test(`${slug}: entire subject stays inside desktop and mobile panels with 24px clearance`, () => {
     assert.deepEqual(coverSubjects[slug], { width: cover.width, height: cover.height, bounds: cover.bounds });
-    const item = species.find((item) => item.slug === slug);
-    for (const [viewportWidth, viewportHeight] of [[320, 760], [390, 760], [1366, 768], [1920, 900], [2560, 900], [3840, 900]]) {
-      const crop = coverSourceCrop({
-        sourceWidth: cover.width, sourceHeight: cover.height,
-        viewportWidth, viewportHeight,
-        focalPoint: item.media.focalPoint ?? { x: 0.5, y: 0.5 },
-      });
-      assert.ok(crop.left >= -1e-6 && crop.top >= -1e-6);
-      assert.ok(crop.right <= cover.width + 1e-6 && crop.bottom <= cover.height + 1e-6);
-      assert.ok(Math.abs((crop.right - crop.left) * crop.scale - viewportWidth) < 1e-6);
-      assert.ok(Math.abs((crop.bottom - crop.top) * crop.scale - viewportHeight) < 1e-6);
+    for (const [viewportWidth, viewportHeight] of [[320, 760], [390, 760], [761, 760], [900, 760], [1100, 768], [1366, 768], [1920, 900], [2560, 900], [3840, 900]]) {
+      // Panel dimensions follow the grid, padding, gap and minimum height in styles.css.
+      const mobile = viewportWidth <= 760;
+      const width = mobile ? viewportWidth : (viewportWidth - 2 * Math.max(24, (viewportWidth - 1600) / 2) - Math.min(80, Math.max(24, viewportWidth * .04))) * 1.15 / 2;
+      const height = mobile ? Math.min(500, Math.max(260, viewportWidth * .75)) : Math.min(680, Math.max(440, viewportHeight * .65));
+      const fit = fitHeroSubject(coverSubjects[slug], width, height);
+      const scale = mobile ? Math.min((width - 48) / cover.width, (height - 48) / cover.height) : fit.width / cover.width;
+      const left = mobile ? (width - cover.width * scale) / 2 : fit.left;
+      const top = mobile ? (height - cover.height * scale) / 2 : fit.top;
+      const { bounds } = cover;
+      const edges = { left: left + bounds.left * scale, right: left + bounds.right * scale, top: top + bounds.top * scale, bottom: top + bounds.bottom * scale };
+      assert.ok(edges.left >= 24 - 1e-6, `${slug} left at ${viewportWidth}`);
+      assert.ok(edges.top >= 24 - 1e-6, `${slug} top at ${viewportWidth}`);
+      assert.ok(edges.right <= width - 24 + 1e-6, `${slug} right at ${viewportWidth}`);
+      assert.ok(edges.bottom <= height - 24 + 1e-6, `${slug} bottom at ${viewportWidth}`);
+      if (!mobile) {
+        assert.ok(Math.abs((bounds.right - bounds.left) * scale - (width - 48)) < 1e-6 || Math.abs((bounds.bottom - bounds.top) * scale - (height - 48)) < 1e-6, 'maximize subject within the available panel');
+      }
     }
   });
 }
+
+
+test('subject dimensions match actual runtime WebP dimensions', () => {
+  const paths = species.map((item) => fileURLToPath(new URL(`../public/${item.media.image.slice(2)}`, import.meta.url)));
+  const dimensions = execFileSync('magick', ['identify', '-ping', '-format', '%w %h\n', ...paths], { encoding: 'utf8' }).trim().split('\n');
+  assert.equal(dimensions.length, species.length);
+  species.forEach((item, index) => {
+    const subject = coverSubjects[item.slug];
+    assert.equal(dimensions[index], `${subject.width} ${subject.height}`, `${item.slug}: decoded dimensions must match the fit metadata`);
+  });
+});

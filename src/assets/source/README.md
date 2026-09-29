@@ -31,29 +31,49 @@ A cover passes composition review when all of these conditions hold:
 - Show the complete subject in the source. The reviewed boundary must include every visible outer feature required by the pose and taxon, including the head, bill or muzzle, horns or antennae, wing or fin tips, feet, tail, and tentacles.
 - Leave real background between that boundary and the crop edge. Do not treat a `focalPoint` value as proof of subject placement; it controls `object-position` and does not describe the pixels occupied by the animal.
 
+When the task asks to regenerate covers with small subjects, generate replacement images for the affected species. CSS zoom, `object-position`, or container changes alone do not complete that request. Framing adjustments may support a regenerated cover, but both subject prominence and complete-body visibility must pass review.
+
 ### Hero acceptance
 
-**Current presentation (2026-09-16):** At the user's request, the landing-page hero now fills its entire area with the canonical cover using `object-fit: cover` and the committed focal point. Desktop and mobile use the same image. Edge cropping is intentional; the prior bounded-frame full-subject clearance results no longer establish runtime hero acceptance. Existing image hashes and source-composition records remain valid. The carousel tests now check full-area coverage at the six viewport sizes below, including animation coverage, rather than claiming complete-body visibility. The full-subject rules below describe the earlier presentation and remain reference criteria for future cover work when compatible with the requested layout.
+Use the following presentation for the canonical cover:
 
-The complete reviewed subject boundary must stay inside the landing-page hero with at least 24 CSS pixels of clearance. Check the runtime WebP with its committed `focalPoint` at `320×760`, `390×760`, `1366×768`, `1920×900`, `2560×900`, and `3840×900`. Cover the settled frame plus the initial, forward, and backward enter/leave animation endpoints defined in `src/styles.css`.
+- **Desktop:** Fit the complete reviewed subject inside its own image panel with at least 24 CSS pixels of clearance. Maximize the animal within that constraint. Keep copy and controls in a separate grid column. Measure the panel when its size changes; viewport dimensions alone do not capture content-driven height changes.
+- **Mobile (up to 760px):** Show the complete source image with `object-fit: contain` inside the panel's 24px inset. Put copy and controls below the image. Override desktop fit dimensions when crossing the breakpoint.
+- **Background and motion:** Fill unused panel space with a blurred, darkened copy of the same cover. Crossfade complete slides over an opaque outgoing slide; preserve the painted image node and keep all animation endpoints free of scaling or translation.
+- **Fallback:** Use full-image `contain` while subject metadata loads, when it fails to load, or when bounds or size observation are unavailable. This fallback protects display while loading; it does not replace the required metadata for a new animal.
 
-Also inspect the composed safe areas: the animal must remain clear of the left-side copy, the right-side carousel panel at each breakpoint, and the viewport edge. Regenerate the source when its composition fails. Resolve presentation constraints using the same cover; keep any necessary carousel layout or animation changes within the task scope and verify them against that image. A crop failure does not permit additional device-specific assets.
+Verify the complete subject at `320×760`, `390×760`, `1366×768`, `1920×900`, `2560×900`, and `3840×900`, plus `761×760`, `900×760`, and `1100×768`. Check both sides of any breakpoint changed by the task. Cover the settled frame and the initial, forward and backward enter/leave animation endpoints in `src/styles.css`. Inspect the animal's separation from copy, controls and panel edges as well as numerical clearance.
 
-When the task asks to regenerate covers with small subjects, generate replacement images for the affected species. CSS zoom, `object-position`, or container changes alone do not complete that request. Framing adjustments may support a regenerated cover, but both subject prominence and complete-body visibility must pass review.
+The former full-bleed `object-fit: cover` foreground and coverage-only tests do not establish full-subject visibility. Keep source-composition evidence separate from runtime framing acceptance. Use [the 2026-09-29 verification record](../../../docs/hero-framing-verification.md) as historical evidence, not as acceptance for future images or layouts.
+
+### Cover metadata and loading
+
+For each added or replaced cover:
+
+1. Inspect the retained WebP and read its **actual decoded dimensions** and SHA-256. For dimensions, use `magick identify -ping -format '%w %h\n' public/images/species/<slug>/<cover>.webp`. A generation prompt, PNG size or previous README is not evidence of the runtime dimensions; even a 1px error affects the fit.
+2. Measure the complete subject boundary in that WebP's pixel coordinates. Include the outer features listed under Composition. Keep bounds inside the decoded source dimensions; a focal point or head-only box cannot stand in for a full silhouette.
+3. Add or update the slug in `src/data/cover-subjects.ts` and its matching record in exactly one of `tests/fixtures/original-covers.json` or `tests/fixtures/regenerated-covers.json`. Keep dimensions and bounds identical, bind the fixture to the current WebP hash, and record the evidence in the species README. Correct metadata when it is wrong; preserve image bytes when the task only concerns metadata or framing.
+
+Every catalogue animal must have a reviewed subject record and a matching fixture. The carousel tests compare the slug sets and decoded dimensions; keep those checks exhaustive as the catalogue grows.
+
+Load the subject table separately from the initial application bundle and retain the `contain` fallback during loading or failure. Keep full species profiles independently loaded as well. Adding catalogue entries can exceed the initial JavaScript budget even when type checks and the production build pass. Use the budgets enforced by `tests/dist-subpath.test.mjs`; resolve a regression through data representation or loading rather than increasing the limits to make an addition pass.
 
 ### Review record
 
 Record the following evidence in the species image-set README whenever a cover changes:
 
-- Runtime WebP SHA-256, source dimensions, committed `focalPoint`, and the visually measured full-subject boundary in source pixels.
+- Runtime WebP SHA-256, actual decoded runtime dimensions, committed `focalPoint`, and the visually measured full-subject boundary in runtime pixels. Record temporary source dimensions separately when they differ.
 - Results for every required viewport and animation endpoint, plus original-resolution inspection of the temporary input and runtime WebP before discarding the input.
 - The final generation or edit prompt and any known visual limitation.
 
-Add or update the matching full-subject case in `tests/hero-carousel.test.mjs`, then run `npm run test:carousel`. A head-only boundary does not satisfy this rule.
+### Completion checks
 
-Check that each changed species still has exactly six retained images and that the carousel loads its canonical cover. Type checks, builds, and image-count checks do not establish crop acceptance. After changing the image source, framing, or animation, invalidate the affected prior acceptance and repeat the full-subject checks on the current runtime image.
+- Run `npm run test:carousel` after adding an animal or changing a cover, bounds, framing, animation or metadata loading. It must cover all catalogue animals, verify six retained images and canonical-cover hashes, compare recorded dimensions with the actual WebP, and check full-subject clearance and carousel interactions. Include a regression test for a newly discovered failure.
+- Run `npm run test:dist-subpath` after these changes to verify the production build, image paths and JavaScript budgets. A successful build alone does not check the budgets. For a new species, run `npm test` to include profile, catalogue and taxonomy checks as well.
+- Inspect representative image-panel simulations using the retained WebP and current fitting rules, including the affected animal and long tails, wings or tall silhouettes when framing changes. Follow the repository's no-browser verification rule. State that static geometry and simulations do not verify browser typography or the complete rendered page.
+- Refresh acceptance after any source, bounds, framing or animation change. Report source inspection, geometry checks and visual inspection separately. Claim completion only after the relevant checks pass; identify unresolved failures and unverified visual aspects explicitly.
 
-Track regenerated, visually inspected, and hero-accepted states separately. Report a batch as complete only when every targeted cover passes both composition and hero acceptance. For partial work, list the remaining species and unresolved checks.
+For a layout-only change, record shared verification in a layout report instead of rewriting every species' historical source review. For changed covers or corrected metadata, update the affected species record. Geometry checks against old bounds are not a new pixel-level audit of every animal.
 
 This rule is a forward gate from 2026-09-03. Covers added or changed after this rule lands must pass it. Existing covers remain on the legacy baseline until someone audits or changes them; do not describe the full catalogue as compliant before that audit finishes.
 
