@@ -648,3 +648,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [啄羊鹦鹉 image set](./species/kea/README.md)
 
 - [普通缝叶莺 image set](./species/common-tailorbird/README.md)
+- [两栖突眼蜥 image set](./species/red-eyed-crocodile-skink/README.md)

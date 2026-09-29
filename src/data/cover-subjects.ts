@@ -4461,4 +4461,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 880
   }
 },
+  "red-eyed-crocodile-skink": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 650,
+    "top": 245,
+    "right": 1495,
+    "bottom": 885
+  }
+},
 };

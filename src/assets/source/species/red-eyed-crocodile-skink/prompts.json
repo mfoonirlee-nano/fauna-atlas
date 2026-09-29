@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Adult red-eyed crocodile skink Tribolonotus gracilis, small dark charcoal-brown lizard, vivid orange ring around eye, triangular head, four longitudinal rows of strongly keeled dorsal scales, four short legs and tapering keeled tail, not a real crocodile. Habitat: New Guinea humid lowland forest leaf litter with moss and fallen wood. Scene: whole animal in three-quarter side view on damp fallen log, full tail gently curved within right half. Website cover: complete animal large on RIGHT, entire subject boundary within x=680..1450 y=100..920, center beyond 65% width. Left 40% quiet background for text. Include entire head, all visible feet and complete tail with real background margin.",
+      "sourceSha256": "b51e6069c691c042123266cef6a0cfe23f9285acaea9df75b9b859b11132d7f2",
+      "runtimeSha256": "8c900c38cb5d48da3136db15ed4a575e59d01e33bf2937eba6fc32c2e9286df7"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Adult red-eyed crocodile skink Tribolonotus gracilis, small dark charcoal-brown lizard, vivid orange ring around eye, triangular head, four longitudinal rows of strongly keeled dorsal scales, four short legs and tapering keeled tail, not a real crocodile. Habitat: New Guinea humid lowland forest leaf litter with moss and fallen wood. Scene: close side view of head and orange ring surrounding dark eye. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "3397a6bf15a7442e5771e5c3df8e8d2ef13ee9f5d85aac8b448781845f901896",
+      "runtimeSha256": "8241d4f30d78820d17f1c82fe0d9e7f2bd1fd5b533095a1577390934c1f2b722"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Adult red-eyed crocodile skink Tribolonotus gracilis, small dark charcoal-brown lizard, vivid orange ring around eye, triangular head, four longitudinal rows of strongly keeled dorsal scales, four short legs and tapering keeled tail, not a real crocodile. Habitat: New Guinea humid lowland forest leaf litter with moss and fallen wood. Scene: slightly elevated view of whole lizard showing dorsal ridges and tapering tail. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "2faefd4524e7f60d9a49a4467b9af73e17e1940025d3063b5d53e8992fcf484b",
+      "runtimeSha256": "4e6b2e46568030d5ffa8694acce7182cab7534401f3fe5d4917fe0dc69a0425b"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Adult red-eyed crocodile skink Tribolonotus gracilis, small dark charcoal-brown lizard, vivid orange ring around eye, triangular head, four longitudinal rows of strongly keeled dorsal scales, four short legs and tapering keeled tail, not a real crocodile. Habitat: New Guinea humid lowland forest leaf litter with moss and fallen wood. Scene: whole lizard walking over damp leaf litter with small legs visible. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "90bb4259d6d39e3986420e0696d71e5f28ffd0523f116e0b53453055fb0c7abe",
+      "runtimeSha256": "b00e4d7a42634632c5af98d8daebeea6c7cc7f2a15345470ecdb634a7cef1315"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Adult red-eyed crocodile skink Tribolonotus gracilis, small dark charcoal-brown lizard, vivid orange ring around eye, triangular head, four longitudinal rows of strongly keeled dorsal scales, four short legs and tapering keeled tail, not a real crocodile. Habitat: New Guinea humid lowland forest leaf litter with moss and fallen wood. Scene: whole lizard pausing at entrance of shelter beneath fallen wood, no handling. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "6bd890f17c53ed5a0405731f89355bf243bd855492a72d76a44a39ba8584adcb",
+      "runtimeSha256": "4db2397458523a3e3286979a58a98126e7132c45a3283d54dfd855630a79d686"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Adult red-eyed crocodile skink Tribolonotus gracilis, small dark charcoal-brown lizard, vivid orange ring around eye, triangular head, four longitudinal rows of strongly keeled dorsal scales, four short legs and tapering keeled tail, not a real crocodile. Habitat: New Guinea humid lowland forest leaf litter with moss and fallen wood. Scene: whole lizard amongst damp roots and moss in lowland rainforest, no open water swimming. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "c50dff6262ba7ec9f972b51f814ed58117f2ccfee1bfd221675a73331ab9fb85",
+      "runtimeSha256": "ecc2572d015db25ec8a18a5be0745a3c0d2abe92e9af2f83c5e0f6f8af7c4bf7"
+    }
+  ]
+}

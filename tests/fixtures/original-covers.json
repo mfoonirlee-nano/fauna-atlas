@@ -3469,5 +3469,18 @@
       },
       "sha256": "b25b67722ff74939da0417f7fe0b90cf45a2613cc4d73dccd4a3c130caa9f67b"
     }
+  },
+  "red-eyed-crocodile-skink": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 245,
+        "right": 1495,
+        "bottom": 885
+      },
+      "sha256": "8c900c38cb5d48da3136db15ed4a575e59d01e33bf2937eba6fc32c2e9286df7"
+    }
   }
 }

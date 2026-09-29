@@ -125273,6 +125273,255 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-09-29",
   "updatedAt": "2026-09-29"
+},{
+  "id": "red-eyed-crocodile-skink",
+  "slug": "red-eyed-crocodile-skink",
+  "names": {
+    "zh": "两栖突眼蜥",
+    "en": "Red-eyed Crocodile Skink",
+    "aliases": [
+      "红眼鳄蜥",
+      "细三棱蜥"
+    ]
+  },
+  "scientificName": "Tribolonotus gracilis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Squamata",
+      "zhName": "有鳞目"
+    },
+    "family": {
+      "scientificName": "Scincidae",
+      "zhName": "石龙子科"
+    },
+    "genus": {
+      "scientificName": "Tribolonotus",
+      "zhName": "三棱蜥属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列机构来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "新几内亚岛的低地湿润地区"
+    ],
+    "countries": [],
+    "range": "新几内亚岛的低地湿润地区。"
+  },
+  "habitats": [
+    {
+      "name": "低地雨林地面的落叶与倒木",
+      "realm": "terrestrial",
+      "description": "两栖突眼蜥的眼睛外面有一圈橙色，深色背部有突起的鳞片。它贴近林地生活，常在落叶和倒木附近藏身。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "昆虫",
+      "其他小型无脊椎动物"
+    ],
+    "description": "食物包括昆虫、其他小型无脊椎动物。"
+  },
+  "tags": [
+    "两栖突眼蜥",
+    "低地雨林地面的落叶与倒木"
+  ],
+  "summary": "两栖突眼蜥的眼睛外面有一圈橙色，深色背部有突起的鳞片。它贴近林地生活，常在落叶和倒木附近藏身。",
+  "description": "两栖突眼蜥的眼睛外面有一圈橙色，深色背部有突起的鳞片。它贴近林地生活，常在落叶和倒木附近藏身。中文展示名沿用清单，学名固定为 Tribolonotus gracilis。名字中的“两栖”不表示它属于两栖纲；它是石龙子科的爬行动物。图片展示成年外形，不与其他三棱蜥混用。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "眼睛外的橙色圈",
+      "body": "先找到黑色眼睛，再沿着外面的橙色圈看一看。橙色主要在眼周皮肤上。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "背上凸起的鳞片",
+      "body": "从头后往尾巴看，找找一行行突起。生成图用于观察鳞片外形，不用于数鳞片。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "落叶上的短腿",
+      "body": "在身体下面找找小腿。它能在潮湿的林地表面爬行。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "倒木旁的藏身处",
+      "body": "看看它身旁的木头和缝隙。观察野生动物时不翻动倒木，也不把它从藏身处拉出来。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "湿润的林地",
+      "body": "找找动物周围的苔藓、树根和落叶。这里重建的是雨林地面，不是水中生活场景。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护林地及落叶层，不捕捉野生个体；用图片观察，不抓握或刺激它。"
+    }
+  ],
+  "keyFacts": [
+    "先找到黑色眼睛，再沿着外面的橙色圈看一看。橙色主要在眼周皮肤上。",
+    "从头后往尾巴看，找找一行行突起。生成图用于观察鳞片外形，不用于数鳞片。",
+    "在身体下面找找小腿。它能在潮湿的林地表面爬行。",
+    "看看它身旁的木头和缝隙。观察野生动物时不翻动倒木，也不把它从藏身处拉出来。",
+    "找找动物周围的苔藓、树根和落叶。这里重建的是雨林地面，不是水中生活场景。"
+  ],
+  "threats": [
+    "野生个体贸易带来的捕捉压力"
+  ],
+  "conservationActions": [
+    "保护林地及落叶层，不捕捉野生个体；用图片观察，不抓握或刺激它。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "低地雨林地面的落叶与倒木"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "眼睛外的橙色圈"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用所列机构来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/red-eyed-crocodile-skink/01-cover.webp",
+    "alt": "两栖突眼蜥及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/red-eyed-crocodile-skink/02-observation.webp",
+        "alt": "两栖突眼蜥：眼睛外的橙色圈",
+        "title": "眼睛外的橙色圈",
+        "caption": "AI 生成科学情景重建。先找到黑色眼睛，再沿着外面的橙色圈看一看。橙色主要在眼周皮肤上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-eyed-crocodile-skink/03-observation.webp",
+        "alt": "两栖突眼蜥：背上凸起的鳞片",
+        "title": "背上凸起的鳞片",
+        "caption": "AI 生成科学情景重建。从头后往尾巴看，找找一行行突起。生成图用于观察鳞片外形，不用于数鳞片。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-eyed-crocodile-skink/04-observation.webp",
+        "alt": "两栖突眼蜥：落叶上的短腿",
+        "title": "落叶上的短腿",
+        "caption": "AI 生成科学情景重建。在身体下面找找小腿。它能在潮湿的林地表面爬行。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-eyed-crocodile-skink/05-observation.webp",
+        "alt": "两栖突眼蜥：倒木旁的藏身处",
+        "title": "倒木旁的藏身处",
+        "caption": "AI 生成科学情景重建。看看它身旁的木头和缝隙。观察野生动物时不翻动倒木，也不把它从藏身处拉出来。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-eyed-crocodile-skink/06-observation.webp",
+        "alt": "两栖突眼蜥：湿润的林地",
+        "title": "湿润的林地",
+        "caption": "AI 生成科学情景重建。找找动物周围的苔藓、树根和落叶。这里重建的是雨林地面，不是水中生活场景。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The Reptile Database：接受学名与石龙子科",
+      "url": "https://reptile-database.reptarium.cz/Tribolonotus/gracilis",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "WWF：全球 LC、岛屿分布与贸易记录",
+      "url": "https://www.wwf.or.jp/activities/data/WWF_report-tracking-the-trade-eng.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "British Herpetological Society：新几内亚实地观察",
+      "url": "https://www.thebhs.org/publications/the-herpetological-bulletin/issue-number-37-autumn-1991/2419-hb037-01/file",
+      "kind": "ecology",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "Maryland Zoo：外形、食性与低地雨林生活",
+      "url": "https://www.marylandzoo.org/wp-content/uploads/2025/03/Crocodile-Skink-Species-Profile_June-2024.pdf",
+      "kind": "ecology",
+      "accessedAt": "2026-09-29"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-29",
+  "updatedAt": "2026-09-29"
 },
 
 ] as const satisfies readonly Species[];
