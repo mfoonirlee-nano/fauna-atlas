@@ -651,3 +651,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [两栖突眼蜥 image set](./species/red-eyed-crocodile-skink/README.md)
 - [绿安乐蜥 image set](./species/green-anole/README.md)
 - [蓝舌石龙子 image set](./species/eastern-blue-tongued-skink/README.md)
+- [松果蜥 image set](./species/shingleback/README.md)

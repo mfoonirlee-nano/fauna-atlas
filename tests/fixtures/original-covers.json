@@ -3508,5 +3508,18 @@
       },
       "sha256": "b6db72725a491d98bd975bb6005e2400fd2db147f693432664d936496edb1121"
     }
+  },
+  "shingleback": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 415,
+        "right": 1505,
+        "bottom": 750
+      },
+      "sha256": "23a7dd79759acd108bc2639d3319b08e809c1fe78bc7adbeabb445d8f2a4987b"
+    }
   }
 }

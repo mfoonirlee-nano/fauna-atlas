@@ -1,6 +1,6 @@
 # Todo 一种鸟类与四种蜥蜴核验记录
 
-2026-09-29：按清单顺序完成普通缝叶莺、两栖突眼蜥、绿安乐蜥、蓝舌石龙子。物种档案从 445 增至 449，清单剩余 51 种动物和 10 个微生物专题。
+2026-09-29：按清单顺序完成普通缝叶莺、两栖突眼蜥、绿安乐蜥、蓝舌石龙子和松果蜥。物种档案从 445 增至 450，清单剩余 50 种动物和 10 个微生物专题。
 
 ## 分类与保护等级
 
@@ -10,6 +10,7 @@
 | 两栖突眼蜥 | Tribolonotus gracilis | Squamata → Scincidae → Tribolonotus | LC |
 | 绿安乐蜥 | Anolis carolinensis | Squamata → Anolidae → Anolis | LC |
 | 蓝舌石龙子 | Tiliqua scincoides | Squamata → Scincidae → Tiliqua | LC |
+| 松果蜥 | Tiliqua rugosa | Squamata → Scincidae → Tiliqua | LC |
 
 全球等级采用下列机构资料；未独立核实评估年份，年份留空，趋势保留 unknown。地方等级、网页更新年份和参考文献年份不替代全球评估日期。
 
@@ -52,3 +53,29 @@
 档案在种级建立，图片限定东部指名亚种 T. s. scincoides。slug 沿用图片范围命名，英文展示名 Common Blue-tongued Skink 对应完整物种。伸舌图用于观察颜色，不把姿态解释为真实行为证据，也不安排惊吓动物的共读活动。
 
 [图片与提示词](../../src/assets/source/species/eastern-blue-tongued-skink/README.md)
+
+## 松果蜥
+
+- [Australian Museum 物种页](https://australian.museum/learn/animals/reptiles/shingleback-lizard/)：支持分类、粗糙鳞片、短圆尾巴、澳大利亚分布、植物与无脊椎动物食物。
+- [Virginia Zoo](https://virginiazoo.org/animal/shingleback-skink/)：支持全球 LC。
+- [Australian Museum 贸易研究](https://australian.museum/blog/amri-news/catching-lizards-to-stop-lizard-catchers/)：支持非法贸易压力。
+
+图片采用深褐色成年外形，不涵盖全部亚种花纹。短尾上不添加眼睛或嘴；观察提示把头与尾区分开。
+
+[图片与提示词](../../src/assets/source/species/shingleback/README.md)
+
+## 视觉与验证
+
+使用内置 image_gen 逐张生成，最终保留 30 张 1536×1024 WebP，哈希互不重复，总计 7.26 MiB。每种恰好一张封面和五张观察图；提示词、源 PNG 哈希、WebP 哈希及封面边界分别记入图片目录。已删除工作区临时 PNG。
+
+已按原分辨率检查全部源图，运行 WebP 用六图联系表复核，五张封面另按原分辨率检查。重做了绿安乐蜥觅食图的喉扇展示、脚部图的拼图及夸张趾垫、松果蜥花朵图的错误舌色。最终图片与图注对应。
+
+两栖突眼蜥的 02、03、06 近景、绿安乐蜥的 04 褐色近景、蓝舌石龙子的 02、04 近景未保留完整尾端，用于局部观察，不用于全长比较。巢图是叶缘连接的示意性重建，不提供真实针脚或孔口计数。生成图不用于数鳞片、数足趾或量取身体比例。
+
+五张封面通过靠右构图与完整源图轮廓检查。Hero 沿用满幅 cover，六视口与动画端点检查满幅覆盖，不声称手机端全身可见或 24 px 间距。未启动浏览器。
+
+- 类型检查与生产构建通过。
+- 轮播 457 项通过，包含新封面、六视口及动画覆盖。
+- 物种列表 22 项通过。
+- 分类与档案 213 项通过，包含新增物种、图片尺寸、哈希和 todo 勾选。初次检查发现历史测试中的 todo 总数仍为 45/65，更新为 50/60 后复验通过。
+- `git diff --check` 通过。

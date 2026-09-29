@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Shingleback lizard Tiliqua rugosa, very stocky dark brown Australian skink with large rough overlapping pinecone-like scales, broad blunt head, four short stout legs, extremely short thick blunt rounded tail, tail much shorter than torso, closed mouth. Habitat: semi-arid southern Australian scrub and dry grass. Scene: whole animal three-quarter side view on sandy ground, head and short rounded tail both clear on right half. Website cover: complete animal large on RIGHT, entire subject boundary within x=680..1450 y=100..920, center beyond 65% width. Left 40% quiet background for text. Include entire head, all visible feet and complete tail with real background margin.",
+      "sourceSha256": "211543ad70d035ab1c8f130496d01cbdc0611d858f66de5b3fd9cede10003a6a",
+      "runtimeSha256": "23a7dd79759acd108bc2639d3319b08e809c1fe78bc7adbeabb445d8f2a4987b"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Shingleback lizard Tiliqua rugosa, very stocky dark brown Australian skink with large rough overlapping pinecone-like scales, broad blunt head, four short stout legs, extremely short thick blunt rounded tail, tail much shorter than torso, closed mouth. Habitat: semi-arid southern Australian scrub and dry grass. Scene: slightly elevated whole lizard view showing clear blunt rounded short tail behind thick body, no second head. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "81fb01c43fe1f2c696192a7f74d8417e22f48f122dfb3623d7d1ec9cf4ddb9a2",
+      "runtimeSha256": "7f492d9d79298e155421856720f129f35c051eb76efea3cf73271f4af61cb94f"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Shingleback lizard Tiliqua rugosa, very stocky dark brown Australian skink with large rough overlapping pinecone-like scales, broad blunt head, four short stout legs, extremely short thick blunt rounded tail, tail much shorter than torso, closed mouth. Habitat: semi-arid southern Australian scrub and dry grass. Scene: close detail of rough pinecone-like scales on shoulder and back. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "34519d3d7ef8989c06e1b7d541a3a7b7f41f2d1bfef84d9ea40d90313d42674c",
+      "runtimeSha256": "baf19b1829027844d296b9b19145164301450ee9f43d5b16c0dc245f5b97c474"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Shingleback lizard Tiliqua rugosa, very stocky dark brown Australian skink with large rough overlapping pinecone-like scales, broad blunt head, four short stout legs, extremely short thick blunt rounded tail, tail much shorter than torso, closed mouth. Habitat: semi-arid southern Australian scrub and dry grass. Scene: whole shingleback walking across sandy soil, short legs supporting bulky body. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "f5ed8ed24d785bf04cc690fb0b1d8e3a32ccf359e70035256a51be35a636ee82",
+      "runtimeSha256": "4d9aca384d27b648486810f1aefcf059a49b2bf0b5c6c9de12124d633ea129db"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Shingleback lizard Tiliqua rugosa, very stocky dark brown Australian skink with large rough overlapping pinecone-like scales, broad blunt head, four short stout legs, extremely short thick blunt rounded tail, tail much shorter than torso, closed mouth. Habitat: semi-arid southern Australian scrub and dry grass. Scene: whole shingleback feeding on low native flowers, no human food. Clear educational observation, subject fills frame; whole-body views must include full tail with margin. Strictly closed mouth, lips touching, NO tongue visible. The lizard is pausing beside flowers with its nose near petals, not licking them. Tail and limbs fully inside frame.",
+      "sourceSha256": "42e84bcd08ba04e16bdfb1d3a8883938b397ca2aaf532c54645cbad7f736cb40",
+      "runtimeSha256": "6515b8726c65e7478d9132ba6b215b691e5d7a4da4680f53dd8cbb32d70863ae"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Shingleback lizard Tiliqua rugosa, very stocky dark brown Australian skink with large rough overlapping pinecone-like scales, broad blunt head, four short stout legs, extremely short thick blunt rounded tail, tail much shorter than torso, closed mouth. Habitat: semi-arid southern Australian scrub and dry grass. Scene: whole shingleback beside low shrub providing shade in semi-arid habitat. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "0ea22d466d91f7f67d5ff48ae1361b1860ca5b587740b44f5555cada9d4b0638",
+      "runtimeSha256": "7d6c5eec7eb5617241ace3e54350ad672701ab59267bf930b020490cbdf8683e"
+    }
+  ]
+}

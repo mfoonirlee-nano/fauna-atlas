@@ -4491,4 +4491,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 800
   }
 },
+  "shingleback": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 628,
+    "top": 415,
+    "right": 1505,
+    "bottom": 750
+  }
+},
 };
