@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Green anole Anolis carolinensis adult male, slender bright green lizard with pointed elongated head, pink-red throat dewlap, long very slender tail and adhesive toe pads, accurate small lizard anatomy. Habitat: southeastern United States leafy woodland edge. Scene: whole male on diagonal twig with dewlap folded, long complete tail curving down and back into right half. Website cover: complete animal large on RIGHT, entire subject boundary within x=680..1450 y=100..920, center beyond 65% width. Left 40% quiet background for text. Include entire head, all visible feet and complete tail with real background margin.",
+      "sourceSha256": "ecd0a44a88d481b57eb9164c4cdb3c4052cd3bf8fb2ae249f511f4d522131af4",
+      "runtimeSha256": "8ee609b854904516165c3b30e116c0919bf10d45a75190c6661fac32e227f60d"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Green anole Anolis carolinensis adult male, slender bright green lizard with pointed elongated head, pink-red throat dewlap, long very slender tail and adhesive toe pads, accurate small lizard anatomy. Habitat: southeastern United States leafy woodland edge. Scene: whole male in side view naturally extending pink-red dewlap while perched on twig, no threat or handling. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "9b9b9a120ba1b2b2afd39f6a34a283aab5ec36b71b0d205b1950f6c00d0cceb4",
+      "runtimeSha256": "993a86482017ba344129ad8f4a9adee831dc30282faf259b0f3c78060c444233"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Scientific educational wildlife reconstruction. Single landscape 1536x1024 close photograph-style view of a green anole Anolis carolinensis forelimb and foot naturally grasping a slender rough twig. Show side and top surfaces of the foot, slender clawed digits gently wrapped around bark, subtle widened middle portions of the digits, realistic small Anolis foot, NOT broad round gecko discs. Forelimb connected visibly to part of the green body at upper left. Foot occupies central third of picture. Soft green woodland background. One continuous macro scene ONLY, no inset, no frames, no diagram, no separate magnification, no labels, no text. Do not show head, throat fan, or whole lizard; focus on a natural gripping foot.",
+      "sourceSha256": "055c396ce8de2d40214f15d3a9f3d5cbca003456d30bf5a2c2d755fd4da3e140",
+      "runtimeSha256": "87b767710bfd09868dcab398c7d83aad319b40ac5566567a197d7e58111eb8ef"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Green anole Anolis carolinensis adult male, slender bright green lizard with pointed elongated head, pink-red throat dewlap, long very slender tail and adhesive toe pads, accurate small lizard anatomy. Habitat: southeastern United States leafy woodland edge. Scene: a brown-phase green anole of SAME species perched on bark, no green animal in frame, head shape consistent, dewlap folded. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "97535ec52fbf3489b9328feee09422bb25fb84878d734decdee0e5b8e0643e35",
+      "runtimeSha256": "1a19e5fb6d584683e74b769301e3fcc73f121b2906c07e4fe1ae30e980ddb2dd"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Green anole Anolis carolinensis adult male, slender bright green lizard with pointed elongated head, pink-red throat dewlap, long very slender tail and adhesive toe pads, accurate small lizard anatomy. Habitat: southeastern United States leafy woodland edge. Scene: whole green adult watching a small insect on leaf, no gore. Clear educational observation, subject fills frame; whole-body views must include full tail with margin. The throat dewlap is completely folded and invisible; plain pale throat. This is quiet foraging or climbing, not social display. No pink throat fan.",
+      "sourceSha256": "db3170d691f9ca2b1573bd957d5201da1c9cb78bc69a21cc315658d0a542b602",
+      "runtimeSha256": "4824d7219b82f5a1ca4b44ccebbf6830dfa010301d125123efc44990ede98db5"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Green anole Anolis carolinensis adult male, slender bright green lizard with pointed elongated head, pink-red throat dewlap, long very slender tail and adhesive toe pads, accurate small lizard anatomy. Habitat: southeastern United States leafy woodland edge. Scene: whole green male climbing thin branch amidst leaves, full long tail included. Clear educational observation, subject fills frame; whole-body views must include full tail with margin. The throat dewlap is completely folded and invisible; plain pale throat. This is quiet foraging or climbing, not social display. No pink throat fan.",
+      "sourceSha256": "3a7be07993d2548ed9d5ef0ecb80514a2a278e4ff93f2c1108dfd1d5906d8d63",
+      "runtimeSha256": "05129e90bea17c9294da1d36191e86146565040eea23e8a25df8376b320bebc4"
+    }
+  ]
+}

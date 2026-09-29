@@ -3482,5 +3482,18 @@
       },
       "sha256": "8c900c38cb5d48da3136db15ed4a575e59d01e33bf2937eba6fc32c2e9286df7"
     }
+  },
+  "green-anole": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 115,
+        "right": 1410,
+        "bottom": 950
+      },
+      "sha256": "8ee609b854904516165c3b30e116c0919bf10d45a75190c6661fac32e227f60d"
+    }
   }
 }

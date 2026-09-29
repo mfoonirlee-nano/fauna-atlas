@@ -1,6 +1,6 @@
 # Todo 一种鸟类与四种蜥蜴核验记录
 
-2026-09-29：按清单顺序完成普通缝叶莺、两栖突眼蜥。物种档案从 445 增至 447，清单剩余 53 种动物和 10 个微生物专题。
+2026-09-29：按清单顺序完成普通缝叶莺、两栖突眼蜥、绿安乐蜥。物种档案从 445 增至 448，清单剩余 52 种动物和 10 个微生物专题。
 
 ## 分类与保护等级
 
@@ -8,6 +8,7 @@
 | --- | --- | --- | --- |
 | 普通缝叶莺 | Orthotomus sutorius | Passeriformes → Cisticolidae → Orthotomus | LC |
 | 两栖突眼蜥 | Tribolonotus gracilis | Squamata → Scincidae → Tribolonotus | LC |
+| 绿安乐蜥 | Anolis carolinensis | Squamata → Anolidae → Anolis | LC |
 
 全球等级采用下列机构资料；未独立核实评估年份，年份留空，趋势保留 unknown。地方等级、网页更新年份和参考文献年份不替代全球评估日期。
 
@@ -31,3 +32,12 @@
 保留清单中文名，说明其属于爬行纲。“两栖”不作为分类或必须生活在水中的依据。Maryland Zoo 把 Papua New Guinea 和 Indonesia 混写在分布栏，本档案不采用这段国家归属；分布按岛屿表述。BHS 的历史材料仅用于形态与观察记录，不照搬属内物种数及历史生殖解释。
 
 [图片与提示词](../../src/assets/source/species/red-eyed-crocodile-skink/README.md)
+
+## 绿安乐蜥
+
+- [The Reptile Database](https://reptile-database.reptarium.cz/Anolis/carolinensis)：采用 Anolidae，页内解释该科名与 Dactyloidae 的命名关系。
+- [ADW](https://animaldiversity.org/accounts/Anolis_carolinensis/)：支持美国东南部原生范围、部分引入范围、雄性喉扇、体色变化、趾垫、食性和全球 LC。其旧科名 Polychrotidae 不用于分类图谱。
+
+喉扇图限定为雄性常见粉红色展示，不说所有个体都如此。褐色个体属于同一物种；几张独立重建图不能当作同一只动物变色的连续记录。无抓握或人为激惹场景。
+
+[图片与提示词](../../src/assets/source/species/green-anole/README.md)

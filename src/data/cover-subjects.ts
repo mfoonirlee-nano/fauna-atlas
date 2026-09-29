@@ -4471,4 +4471,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 885
   }
 },
+  "green-anole": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 735,
+    "top": 115,
+    "right": 1410,
+    "bottom": 950
+  }
+},
 };
