@@ -4481,4 +4481,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 950
   }
 },
+  "eastern-blue-tongued-skink": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 615,
+    "top": 400,
+    "right": 1498,
+    "bottom": 800
+  }
+},
 };

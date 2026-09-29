@@ -1,6 +1,6 @@
 # Todo 一种鸟类与四种蜥蜴核验记录
 
-2026-09-29：按清单顺序完成普通缝叶莺、两栖突眼蜥、绿安乐蜥。物种档案从 445 增至 448，清单剩余 52 种动物和 10 个微生物专题。
+2026-09-29：按清单顺序完成普通缝叶莺、两栖突眼蜥、绿安乐蜥、蓝舌石龙子。物种档案从 445 增至 449，清单剩余 51 种动物和 10 个微生物专题。
 
 ## 分类与保护等级
 
@@ -9,6 +9,7 @@
 | 普通缝叶莺 | Orthotomus sutorius | Passeriformes → Cisticolidae → Orthotomus | LC |
 | 两栖突眼蜥 | Tribolonotus gracilis | Squamata → Scincidae → Tribolonotus | LC |
 | 绿安乐蜥 | Anolis carolinensis | Squamata → Anolidae → Anolis | LC |
+| 蓝舌石龙子 | Tiliqua scincoides | Squamata → Scincidae → Tiliqua | LC |
 
 全球等级采用下列机构资料；未独立核实评估年份，年份留空，趋势保留 unknown。地方等级、网页更新年份和参考文献年份不替代全球评估日期。
 
@@ -41,3 +42,13 @@
 喉扇图限定为雄性常见粉红色展示，不说所有个体都如此。褐色个体属于同一物种；几张独立重建图不能当作同一只动物变色的连续记录。无抓握或人为激惹场景。
 
 [图片与提示词](../../src/assets/source/species/green-anole/README.md)
+
+## 蓝舌石龙子
+
+- [The Reptile Database](https://reptile-database.reptarium.cz/Tiliqua/scincoides)：支持接受学名、亚种范围与澳大利亚及印度尼西亚部分岛屿分布。
+- [Australian Museum](https://australian.museum/learn/animals/reptiles/eastern-blue-tongue-lizard/)：支持东部外形、地面生活、杂食、晒太阳与局部威胁。
+- [Smithsonian National Zoo](https://nationalzoo.si.edu/animals/northern-blue-tongued-skink)：保护段落明确给出整个 Tiliqua scincoides 的全球 LC；不把北部亚种说明当作独立评估。
+
+档案在种级建立，图片限定东部指名亚种 T. s. scincoides。slug 沿用图片范围命名，英文展示名 Common Blue-tongued Skink 对应完整物种。伸舌图用于观察颜色，不把姿态解释为真实行为证据，也不安排惊吓动物的共读活动。
+
+[图片与提示词](../../src/assets/source/species/eastern-blue-tongued-skink/README.md)

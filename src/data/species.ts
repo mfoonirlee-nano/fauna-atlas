@@ -125765,6 +125765,252 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-09-29",
   "updatedAt": "2026-09-29"
+},{
+  "id": "eastern-blue-tongued-skink",
+  "slug": "eastern-blue-tongued-skink",
+  "names": {
+    "zh": "蓝舌石龙子",
+    "en": "Common Blue-tongued Skink",
+    "aliases": [
+      "东部蓝舌蜥"
+    ]
+  },
+  "scientificName": "Tiliqua scincoides",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Squamata",
+      "zhName": "有鳞目"
+    },
+    "family": {
+      "scientificName": "Scincidae",
+      "zhName": "石龙子科"
+    },
+    "genus": {
+      "scientificName": "Tiliqua",
+      "zhName": "蓝舌石龙子属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列机构来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "澳大利亚东部和北部等地，以及印度尼西亚的塔宁巴尔、巴巴尔群岛；图片限定澳大利亚东部指名亚种"
+    ],
+    "countries": [],
+    "range": "澳大利亚东部和北部等地，以及印度尼西亚的塔宁巴尔、巴巴尔群岛；图片限定澳大利亚东部指名亚种。"
+  },
+  "habitats": [
+    {
+      "name": "开阔林地、草丛与庭园地面",
+      "realm": "terrestrial",
+      "description": "蓝舌石龙子有粗壮的身体、短短的腿和蓝色舌头。图中的东部个体背上带深色横纹，常在地面寻找食物。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "果实",
+      "花叶",
+      "昆虫",
+      "蜗牛"
+    ],
+    "description": "食物包括果实、花叶、昆虫、蜗牛。"
+  },
+  "tags": [
+    "蓝舌石龙子",
+    "开阔林地、草丛与庭园地面"
+  ],
+  "summary": "蓝舌石龙子有粗壮的身体、短短的腿和蓝色舌头。图中的东部个体背上带深色横纹，常在地面寻找食物。",
+  "description": "蓝舌石龙子有粗壮的身体、短短的腿和蓝色舌头。图中的东部个体背上带深色横纹，常在地面寻找食物。档案对应整个 Tiliqua scincoides 物种，图片限定 T. s. scincoides。不要把 Tiliqua gigas 或其他蓝舌类群的外形混入。伸舌图为自然探索姿态的重建，不表示持续吐舌，也不鼓励通过惊吓观察防御展示。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "蓝色的舌头",
+      "body": "看看嘴边露出的蓝色舌头。只用图片观察，不用碰触或惊吓的方式让它张嘴。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "大身体和短腿",
+      "body": "在粗壮身体下面找找小腿，再看看尾巴伸向哪里。它会沿着地面移动。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "背上的深色横纹",
+      "body": "沿着背部找找深浅相间的横纹。这里展示东部指名亚种，其他亚种的花纹会有差异。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "地面上的食物",
+      "body": "找找它面前的落果。蓝舌石龙子既吃植物食物，也吃昆虫和蜗牛等小动物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "阳光与落叶",
+      "body": "看看它晒太阳的地方和旁边的落叶。它借助环境的热量提高体温，也需要藏身处。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留地面藏身处；园艺作业前查看草丛，避免会使野生动物中毒的毒饵。"
+    }
+  ],
+  "keyFacts": [
+    "看看嘴边露出的蓝色舌头。只用图片观察，不用碰触或惊吓的方式让它张嘴。",
+    "在粗壮身体下面找找小腿，再看看尾巴伸向哪里。它会沿着地面移动。",
+    "沿着背部找找深浅相间的横纹。这里展示东部指名亚种，其他亚种的花纹会有差异。",
+    "找找它面前的落果。蓝舌石龙子既吃植物食物，也吃昆虫和蜗牛等小动物。",
+    "看看它晒太阳的地方和旁边的落叶。它借助环境的热量提高体温，也需要藏身处。"
+  ],
+  "threats": [
+    "道路交通",
+    "蜗牛毒饵及其他化学药剂",
+    "外来猫狗等捕食者"
+  ],
+  "conservationActions": [
+    "保留地面藏身处；园艺作业前查看草丛，避免会使野生动物中毒的毒饵。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "开阔林地、草丛与庭园地面"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "蓝色的舌头"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用所列机构来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/eastern-blue-tongued-skink/01-cover.webp",
+    "alt": "蓝舌石龙子及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/eastern-blue-tongued-skink/02-observation.webp",
+        "alt": "蓝舌石龙子：蓝色的舌头",
+        "title": "蓝色的舌头",
+        "caption": "AI 生成科学情景重建。看看嘴边露出的蓝色舌头。只用图片观察，不用碰触或惊吓的方式让它张嘴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-blue-tongued-skink/03-observation.webp",
+        "alt": "蓝舌石龙子：大身体和短腿",
+        "title": "大身体和短腿",
+        "caption": "AI 生成科学情景重建。在粗壮身体下面找找小腿，再看看尾巴伸向哪里。它会沿着地面移动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-blue-tongued-skink/04-observation.webp",
+        "alt": "蓝舌石龙子：背上的深色横纹",
+        "title": "背上的深色横纹",
+        "caption": "AI 生成科学情景重建。沿着背部找找深浅相间的横纹。这里展示东部指名亚种，其他亚种的花纹会有差异。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-blue-tongued-skink/05-observation.webp",
+        "alt": "蓝舌石龙子：地面上的食物",
+        "title": "地面上的食物",
+        "caption": "AI 生成科学情景重建。找找它面前的落果。蓝舌石龙子既吃植物食物，也吃昆虫和蜗牛等小动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-blue-tongued-skink/06-observation.webp",
+        "alt": "蓝舌石龙子：阳光与落叶",
+        "title": "阳光与落叶",
+        "caption": "AI 生成科学情景重建。看看它晒太阳的地方和旁边的落叶。它借助环境的热量提高体温，也需要藏身处。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The Reptile Database：物种、亚种及分布",
+      "url": "https://reptile-database.reptarium.cz/Tiliqua/scincoides",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "Australian Museum：东部外形、食物与栖息环境",
+      "url": "https://australian.museum/learn/animals/reptiles/eastern-blue-tongue-lizard/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "Smithsonian National Zoo：Tiliqua scincoides 物种级全球 LC",
+      "url": "https://nationalzoo.si.edu/animals/northern-blue-tongued-skink",
+      "kind": "conservation",
+      "accessedAt": "2026-09-29"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-29",
+  "updatedAt": "2026-09-29"
 },
 
 ] as const satisfies readonly Species[];

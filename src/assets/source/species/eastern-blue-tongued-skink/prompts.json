@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Eastern blue-tongued skink Tiliqua scincoides scincoides, stout smooth-scaled lizard, broad triangular head, pale gray-tan body with dark transverse bands, four very short legs, thick tapering tail, blue tongue visible only when requested. Habitat: eastern Australian open woodland leaf litter. Scene: whole lizard with mouth closed in three-quarter side view, tail curved gently inside right half. Website cover: complete animal large on RIGHT, entire subject boundary within x=680..1450 y=100..920, center beyond 65% width. Left 40% quiet background for text. Include entire head, all visible feet and complete tail with real background margin.",
+      "sourceSha256": "72783d12a5da2a59dc3a8d9fcd67008eea57e71fcb8254a9ae54a8dde0d47b21",
+      "runtimeSha256": "b6db72725a491d98bd975bb6005e2400fd2db147f693432664d936496edb1121"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Eastern blue-tongued skink Tiliqua scincoides scincoides, stout smooth-scaled lizard, broad triangular head, pale gray-tan body with dark transverse bands, four very short legs, thick tapering tail, blue tongue visible only when requested. Habitat: eastern Australian open woodland leaf litter. Scene: close side portrait with mouth only slightly open and broad blue tongue gently flicking out during natural exploration, no defensive gaping or threat. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "8e7570789abb394c5cb0ef42d9f4fbf057522a42a5f38327da705870a7a3fc01",
+      "runtimeSha256": "c971f9e9e0e41ef56f0a11507ecb881e5c6eebf7c9355982a03c7c7da971ca38"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Eastern blue-tongued skink Tiliqua scincoides scincoides, stout smooth-scaled lizard, broad triangular head, pale gray-tan body with dark transverse bands, four very short legs, thick tapering tail, blue tongue visible only when requested. Habitat: eastern Australian open woodland leaf litter. Scene: whole lizard walking on leaf litter, show stout banded body and small legs. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "f017d657b11cf55daf3d48d90fd8e9d5572d71d64ae4a3ac7d824723ee50da48",
+      "runtimeSha256": "baa8fd66b0847517a0f6f3287efb5b7422724c50bc1f33ed9b117395a1dafbd3"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Eastern blue-tongued skink Tiliqua scincoides scincoides, stout smooth-scaled lizard, broad triangular head, pale gray-tan body with dark transverse bands, four very short legs, thick tapering tail, blue tongue visible only when requested. Habitat: eastern Australian open woodland leaf litter. Scene: detail view of smooth overlapping scales and dark body bands on flank, natural anatomy. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "bf916b85108a05b2f352aeede7ac27ccadbd5af86e2467440f97f058082b7510",
+      "runtimeSha256": "c6cf2b484c958b6fd6f848e9b7890b842ce1755c53725e2e8c2a572c1b293939"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Eastern blue-tongued skink Tiliqua scincoides scincoides, stout smooth-scaled lizard, broad triangular head, pale gray-tan body with dark transverse bands, four very short legs, thick tapering tail, blue tongue visible only when requested. Habitat: eastern Australian open woodland leaf litter. Scene: whole lizard near natural fallen fruit on woodland ground, no human food or feeding. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "cb079390fb86b31636378ab239f4e8b3624814a2776ab56e8d86bab62b82ede6",
+      "runtimeSha256": "45a2443171d159f827b3301a0fe4e6f0ee3ef1e4f9fc647c29ef13b326fccf9a"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Eastern blue-tongued skink Tiliqua scincoides scincoides, stout smooth-scaled lizard, broad triangular head, pale gray-tan body with dark transverse bands, four very short legs, thick tapering tail, blue tongue visible only when requested. Habitat: eastern Australian open woodland leaf litter. Scene: whole lizard basking at edge of dry leaf litter and low grass in open woodland. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "3b09fee99aace50b398d15d350ad08fc6f27f3cf984ae48fcdc9a8e89295fabb",
+      "runtimeSha256": "9d318d0975abde3a114a46bc57190386664a93f15b5f5af291459918da2443b7"
+    }
+  ]
+}

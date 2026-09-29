@@ -3495,5 +3495,18 @@
       },
       "sha256": "8ee609b854904516165c3b30e116c0919bf10d45a75190c6661fac32e227f60d"
     }
+  },
+  "eastern-blue-tongued-skink": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 400,
+        "right": 1498,
+        "bottom": 800
+      },
+      "sha256": "b6db72725a491d98bd975bb6005e2400fd2db147f693432664d936496edb1121"
+    }
   }
 }
