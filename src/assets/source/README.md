@@ -642,3 +642,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [安第斯动冠伞鸟 image set](./species/andean-cock-of-the-rock/README.md)
 
 - [缨尾蜂鸟 image set](./species/red-billed-streamertail/README.md)
+
+- [吸蜜鹦鹉 image set](./species/rainbow-lorikeet/README.md)

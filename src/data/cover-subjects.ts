@@ -4431,4 +4431,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 975
   }
 },
+  "rainbow-lorikeet": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 910,
+    "top": 88,
+    "right": 1440,
+    "bottom": 1016
+  }
+},
 };

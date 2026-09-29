@@ -3430,5 +3430,18 @@
       },
       "sha256": "19d895df4703608df734177ef7b78f6ab55c14b4eb0fde8d7b5538e249957fc8"
     }
+  },
+  "rainbow-lorikeet": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 910,
+        "top": 88,
+        "right": 1440,
+        "bottom": 1016
+      },
+      "sha256": "3abc163812ba7052bbb6e9913c9e68750703e96aace558f030f0eab5838384d4"
+    }
   }
 }

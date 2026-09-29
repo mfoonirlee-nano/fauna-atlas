@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic wildlife reconstruction, landscape 1536x1024. Subject: Rainbow lorikeet Trichoglossus moluccanus adult, blue head, red-orange curved beak, orange yellow chest, blue belly, green wings back and long tapered green tail. Scene: whole adult perched on eucalypt branch in eastern Australian eucalypt woodland. Website cover composition: entire subject on right with center at 72% width, clear large main subject, use right 55% of image, all head bill feet wings and entire tail fully inside with real background margin. Left 40% quiet soft natural background for text. Natural daylight, detailed feathers. No text, frames, collage, people, feeders or props.",
+      "sourceSha256": "adfe210ae640feaa15b5fbe7322ae732885984a4da0fd28714d07d983d537f3e",
+      "runtimeSha256": "3abc163812ba7052bbb6e9913c9e68750703e96aace558f030f0eab5838384d4"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Rainbow lorikeet Trichoglossus moluccanus adult, blue head, red-orange curved beak, orange yellow chest, blue belly, green wings back and long tapered green tail. Scene: close view of head chest and folded wing showing blue head orange yellow chest green wing, red-orange beak. Habitat: eastern Australian eucalypt woodland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "f2ec23029c51afcaa137ed91aaa07b57d6ae06053f86a6e0c6b925f2067b443c",
+      "runtimeSha256": "db889fc40d696e5f793f57528b668f228e6dc685a353d7f837b4a58613587f7b"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Rainbow lorikeet Trichoglossus moluccanus adult, blue head, red-orange curved beak, orange yellow chest, blue belly, green wings back and long tapered green tail. Scene: whole lorikeet feeding naturally on flowering eucalyptus, bill among cream flowers, no feeders. Habitat: eastern Australian eucalypt woodland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "f88f6e738939004a0c668aaaf2bbabaf461b571cfe17d4dd7c0868bea61401a5",
+      "runtimeSha256": "e502ad0cb79b38df86b3f9de0d64434f522ec0d532db146e59f364ba80702165"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Rainbow lorikeet Trichoglossus moluccanus adult, blue head, red-orange curved beak, orange yellow chest, blue belly, green wings back and long tapered green tail. Scene: two adults perched side by side on eucalyptus branch, matching plumage, no sex distinction. Habitat: eastern Australian eucalypt woodland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "2bc27e1de76e5ec14bdcc7b8789f1be630df98a868fd8f0a27926270ca3e4825",
+      "runtimeSha256": "835816533e432859a1b0835bfb0948fc967dbfbd0ac1844459dcbbb7f842d85c"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Rainbow lorikeet Trichoglossus moluccanus adult, blue head, red-orange curved beak, orange yellow chest, blue belly, green wings back and long tapered green tail. Scene: one adult gripping a sloping eucalyptus branch and climbing, realistic parrot foot grasp, whole bird. Habitat: eastern Australian eucalypt woodland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "aba88a299b95ab8dce50c8a1f6a2894f4c5b7a982714da8c188a0911a48a9d0c",
+      "runtimeSha256": "19546470edb9c00a9e02a8fe9c4d3ae01eb14e73101d29b9167527dfa803fb75"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Rainbow lorikeet Trichoglossus moluccanus adult, blue head, red-orange curved beak, orange yellow chest, blue belly, green wings back and long tapered green tail. Scene: one adult beside natural hollow in eucalyptus trunk, outside entrance, whole bird visible, no eggs or cutaway. Habitat: eastern Australian eucalypt woodland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "5e38040013baa39ea60ef39c7f8e3ea11408101f800b7bc95365be51ceaffe71",
+      "runtimeSha256": "a8c34e7a1cfe18acf22966705fc83d28e3d166d0e8e04f6f9a62f4184443ae5e"
+    }
+  ]
+}
