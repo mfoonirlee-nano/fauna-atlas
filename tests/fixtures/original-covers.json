@@ -3378,5 +3378,18 @@
       },
       "sha256": "29810cfc78cf5520efe3a9bebde874f1287d7ce20ebfd2fb1b5376913fb713a8"
     }
+  },
+  "northern-carmine-bee-eater": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 742,
+        "top": 64,
+        "right": 1508,
+        "bottom": 995
+      },
+      "sha256": "02c0b947e0a313b4cedcbd500a5102fb446f2a99711a5e5d13869ecd54f6d07d"
+    }
   }
 }

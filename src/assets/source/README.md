@@ -635,3 +635,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [凤头䴙䴘 image set](./species/great-crested-grebe/README.md)
 - [凤冠鸠 image set](./species/victoria-crowned-pigeon/README.md)
 - [紫胸佛法僧 image set](./species/lilac-breasted-roller/README.md)
+- [丽色黄喉蜂虎 image set](./species/northern-carmine-bee-eater/README.md)

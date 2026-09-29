@@ -4391,4 +4391,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 965
   }
 },
+  "northern-carmine-bee-eater": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 742,
+    "top": 64,
+    "right": 1508,
+    "bottom": 995
+  }
+},
 };

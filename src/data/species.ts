@@ -123563,7 +123563,251 @@ export const species = [
   "updatedAt": "2026-09-28"
 },
 
-
+{
+  "id": "northern-carmine-bee-eater",
+  "slug": "northern-carmine-bee-eater",
+  "names": {
+    "zh": "丽色黄喉蜂虎",
+    "en": "Northern Carmine Bee-eater",
+    "aliases": [
+      "北方胭脂蜂虎"
+    ]
+  },
+  "scientificName": "Merops nubicus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Coraciiformes",
+      "zhName": "佛法僧目"
+    },
+    "family": {
+      "scientificName": "Meropidae",
+      "zhName": "蜂虎科"
+    },
+    "genus": {
+      "scientificName": "Merops",
+      "zhName": "蜂虎属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "撒哈拉以南非洲，从西非到东非的草原和河流沿岸，随季节移动"
+    ],
+    "countries": [],
+    "range": "撒哈拉以南非洲，从西非到东非的草原和河流沿岸，随季节移动。"
+  },
+  "habitats": [
+    {
+      "name": "草原、开阔林地与河岸",
+      "realm": "terrestrial",
+      "description": "丽色黄喉蜂虎身上大片羽毛呈胭脂红色，头顶和喉部带蓝绿色。它在空中捕虫，常和同伴在河岸附近活动。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "蜂类",
+      "蜻蜓",
+      "蝗虫"
+    ],
+    "description": "食物包括蜂类、蜻蜓、蝗虫。"
+  },
+  "tags": [
+    "丽色黄喉蜂虎",
+    "草原、开阔林地与河岸"
+  ],
+  "summary": "丽色黄喉蜂虎身上大片羽毛呈胭脂红色，头顶和喉部带蓝绿色。它在空中捕虫，常和同伴在河岸附近活动。",
+  "description": "丽色黄喉蜂虎身上大片羽毛呈胭脂红色，头顶和喉部带蓝绿色。它在空中捕虫，常和同伴在河岸附近活动。保留清单展示名，按学名 Merops nubicus 建档。该种喉部为蓝绿色；南方胭脂蜂虎 Merops nubicoides 的红色喉部不能混入本组图。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "红羽毛之间的蓝绿",
+      "body": "找到头顶和嘴下方的蓝绿色，再沿着眼睛找黑色眼纹。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "飞起来的红翅膀",
+      "body": "看看翅膀展开后的红色，找找尾巴中间延长的羽毛。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "枝头的同伴",
+      "body": "数数一根枝上停了几只鸟。它们可以成群活动。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "河岸上的洞口",
+      "body": "在陡直的土岸上找找洞口。它们会挖掘洞道，在里面繁殖。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "嘴边的蜻蜓",
+      "body": "看看昆虫在哪里。蜂虎在空中捕捉昆虫，食物包括蜻蜓和蜂类。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "观察河岸鸟群时避开巢洞，不挖洞或堵住入口。"
+    }
+  ],
+  "keyFacts": [
+    "找到头顶和嘴下方的蓝绿色，再沿着眼睛找黑色眼纹。",
+    "看看翅膀展开后的红色，找找尾巴中间延长的羽毛。",
+    "数数一根枝上停了几只鸟。它们可以成群活动。",
+    "在陡直的土岸上找找洞口。它们会挖掘洞道，在里面繁殖。",
+    "看看昆虫在哪里。蜂虎在空中捕捉昆虫，食物包括蜻蜓和蜂类。"
+  ],
+  "threats": [
+    "繁殖河岸受扰",
+    "局地猎捕"
+  ],
+  "conservationActions": [
+    "观察河岸鸟群时避开巢洞，不挖洞或堵住入口。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "草原、开阔林地与河岸"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "红羽毛之间的蓝绿"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用所列来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/northern-carmine-bee-eater/01-cover.webp",
+    "alt": "丽色黄喉蜂虎及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/northern-carmine-bee-eater/02-observation.webp",
+        "alt": "丽色黄喉蜂虎：红羽毛之间的蓝绿",
+        "title": "红羽毛之间的蓝绿",
+        "caption": "AI 生成科学情景重建。找到头顶和嘴下方的蓝绿色，再沿着眼睛找黑色眼纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/northern-carmine-bee-eater/03-observation.webp",
+        "alt": "丽色黄喉蜂虎：飞起来的红翅膀",
+        "title": "飞起来的红翅膀",
+        "caption": "AI 生成科学情景重建。看看翅膀展开后的红色，找找尾巴中间延长的羽毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/northern-carmine-bee-eater/04-observation.webp",
+        "alt": "丽色黄喉蜂虎：枝头的同伴",
+        "title": "枝头的同伴",
+        "caption": "AI 生成科学情景重建。数数一根枝上停了几只鸟。它们可以成群活动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/northern-carmine-bee-eater/05-observation.webp",
+        "alt": "丽色黄喉蜂虎：河岸上的洞口",
+        "title": "河岸上的洞口",
+        "caption": "AI 生成科学情景重建。在陡直的土岸上找找洞口。它们会挖掘洞道，在里面繁殖。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/northern-carmine-bee-eater/06-observation.webp",
+        "alt": "丽色黄喉蜂虎：嘴边的蜻蜓",
+        "title": "嘴边的蜻蜓",
+        "caption": "AI 生成科学情景重建。看看昆虫在哪里。蜂虎在空中捕捉昆虫，食物包括蜻蜓和蜂类。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ADW：分类、分布、食物与全球 LC",
+      "url": "https://animaldiversity.org/accounts/Merops_nubicus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "National Aviary：IUCN 无危名录",
+      "url": "https://www.aviary.org/iucn/least-concern/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "ADW：河岸洞巢与群居行为",
+      "url": "https://animaldiversity.org/accounts/Merops_nubicus/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-28"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-28",
+  "updatedAt": "2026-09-28"
+},
 
 
 

@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Northern Carmine Bee-eater Merops nubicus, carmine-red body and wings, turquoise blue-green crown AND THROAT, black eye mask, slender decurved black bill, elongated central tail feathers. NOT southern Merops nubicoides which has red throat. Scene: Perched side-on on thin branch above African riverbank. Cover: large complete subject on right within x=770..1450 y=130..900, every bill tip crest foot tail inside frame, quiet blurred habitat left 40 percent for title. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "74eb1d547a4dd62c2f255a1d93f1eb2dfdee101dc0ca54f8160d50cb7d0370ef",
+      "webpSha256": "02c0b947e0a313b4cedcbd500a5102fb446f2a99711a5e5d13869ecd54f6d07d"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Northern Carmine Bee-eater Merops nubicus, carmine-red body and wings, turquoise blue-green crown AND THROAT, black eye mask, slender decurved black bill, elongated central tail feathers. NOT southern Merops nubicoides which has red throat. Scene: Close head portrait showing turquoise crown AND throat and black eye mask. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "a5fede10f4f7730a69e935f064e5851369721f26aa6567b41b405252415d47d2",
+      "webpSha256": "b48f2bec3c156bc7134f250f9ecb3856687a5f0d36ead3f5f9fa53e4b53395b3"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Northern Carmine Bee-eater Merops nubicus, carmine-red body and wings, turquoise blue-green crown AND THROAT, black eye mask, slender decurved black bill, elongated central tail feathers. NOT southern Merops nubicoides which has red throat. Scene: Flying with red wings spread above savanna, elongated central tail feathers, whole body within frame. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "42d6a2f1287ebd471fe5f4bc6c658d6f7c80daa8ab5a4ef8fc9162334ef029a9",
+      "webpSha256": "d5be4a0622fd8abfc6c4e0c4873b5609ef7d485cbda275ae25be4efec2b2ebaa"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Northern Carmine Bee-eater Merops nubicus, carmine-red body and wings, turquoise blue-green crown AND THROAT, black eye mask, slender decurved black bill, elongated central tail feathers. NOT southern Merops nubicoides which has red throat. Scene: Three adults perched along bare branch near river. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "60a3db2b30591d0aca3f33b05d0c9efd5f5ef0b8d52ef704ddb557d77d35ee75",
+      "webpSha256": "3a4929b9d1b5d33d997ebd5d7b339943e343f9f5c27481fc18713b8ffcbe0542"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Northern Carmine Bee-eater Merops nubicus, carmine-red body and wings, turquoise blue-green crown AND THROAT, black eye mask, slender decurved black bill, elongated central tail feathers. NOT southern Merops nubicoides which has red throat. Scene: Adult perched at entrance of burrow in vertical sandy riverbank, other natural holes in background. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "10be476aa453d1ee3ecb81d910f5bebfba318a3046317f729138d828308ac766",
+      "webpSha256": "1a080b0569ffc6f78177a2e3982d2f67c74ad1874f9097dd5393f2055cd5fe03"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Northern Carmine Bee-eater Merops nubicus, carmine-red body and wings, turquoise blue-green crown AND THROAT, black eye mask, slender decurved black bill, elongated central tail feathers. NOT southern Merops nubicoides which has red throat. Scene: Adult holding a small dragonfly in bill on twig, no gore. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "e3deb1131573b72735937630476cd640cfa1e521a883921887e6e3722f46857e",
+      "webpSha256": "5ec4739bc5daa139e918202f740c22aec26862c7f216bf5eb5d2ddd997e26716"
+    }
+  ]
+}
