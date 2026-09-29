@@ -640,3 +640,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [长尾巧织雀 image set](./species/long-tailed-widowbird/README.md)
 
 - [安第斯动冠伞鸟 image set](./species/andean-cock-of-the-rock/README.md)
+
+- [缨尾蜂鸟 image set](./species/red-billed-streamertail/README.md)

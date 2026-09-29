@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic wildlife reconstruction, landscape 1536x1024. Subject: Red-billed streamertail Trochilus polytmus adult male hummingbird endemic to Jamaica, iridescent emerald-green body, black crown, straight slender RED bill with BLACK tip, two very long slender black tail streamers. Scene: whole male perched on slender twig, complete long twin tail streamers fully visible in lush Jamaican forest edge. Website cover composition: entire subject on right with center at 72% width, clear large main subject, use right 55% of image, all head bill feet wings and entire tail fully inside with real background margin. Left 40% quiet soft natural background for text. Natural daylight, detailed feathers. No text, frames, collage, people, feeders or props.",
+      "sourceSha256": "4e66b830318db6f56547dd643e592170cd96e1c4c8eabad1d4be8bb7167c8a14",
+      "runtimeSha256": "19d895df4703608df734177ef7b78f6ab55c14b4eb0fde8d7b5538e249957fc8"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Red-billed streamertail Trochilus polytmus adult male hummingbird endemic to Jamaica, iridescent emerald-green body, black crown, straight slender RED bill with BLACK tip, two very long slender black tail streamers. Scene: side view male hovering at tubular red flower, red bill black tip aligned into corolla, full tail streamers in frame. Habitat: lush Jamaican forest edge. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "176b83a70234fc9b765a5adc120bf25d5ab585392b4c4646e62694e4b85e7f24",
+      "runtimeSha256": "bd44011a1e996b5e8cd41de08fcd9ce9196b90efcb9aec8d50d0e7160c945ef6"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Red-billed streamertail Trochilus polytmus adult male hummingbird endemic to Jamaica, iridescent emerald-green body, black crown, straight slender RED bill with BLACK tip, two very long slender black tail streamers. Scene: close portrait showing green iridescent throat, black crown, red bill black tip, soft foliage backdrop. Habitat: lush Jamaican forest edge. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "8bda159627f9149eb888d0a39dfcf6eca768d4806da0a02a27f5ac784de26f80",
+      "runtimeSha256": "1ac20aa736fcd1be49d5aa7a921b448377e699e35fc3cb4fda7cba37a9f92e53"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. female Trochilus polytmus perched on twig, green back, white underparts, short dark tail with white tips, dark slender bill, NO long streamers. Habitat: lush Jamaican forest edge. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "7522317a307426bae13fe937b57e1a8aacd5a1a7fae4ab7ae0db79092676dc6a",
+      "runtimeSha256": "26a8728318f3c0c8439978a56219bdfce2de41db2fb134be25916fd8186b1e25"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Red-billed streamertail Trochilus polytmus adult male hummingbird endemic to Jamaica, iridescent emerald-green body, black crown, straight slender RED bill with BLACK tip, two very long slender black tail streamers. Scene: whole adult male in flight against soft green forest, two long black tail streamers distinct and fully visible. Habitat: lush Jamaican forest edge. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "36baf3e72577f2ab03da0d8517ced07b3b875a16c500acd20ff0b0cad9a3fe8a",
+      "runtimeSha256": "c885d63fdbec7de6647036845f07a2eeae58a81a6a3ef5b617e32e44a1b86521"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Red-billed streamertail Trochilus polytmus adult male hummingbird endemic to Jamaica, iridescent emerald-green body, black crown, straight slender RED bill with BLACK tip, two very long slender black tail streamers. Scene: whole male resting on fine mossy branch among tropical foliage, sunlight reveals green breast, long streamers hanging below. Habitat: lush Jamaican forest edge. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "c72e7b02bab8811787981eec7499a28aa28ee777fd5be147246178826baef2ac",
+      "runtimeSha256": "321b93d42f007dc93e29e7bb8140fcf056493fe8fa3857dfb218d86554bd1359"
+    }
+  ]
+}

@@ -3417,5 +3417,18 @@
       },
       "sha256": "146d25ff01409dc20f6dbb4be4744c8e2e1ff7876ee150847c7c342f6f7fce7b"
     }
+  },
+  "red-billed-streamertail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 762,
+        "top": 70,
+        "right": 1370,
+        "bottom": 975
+      },
+      "sha256": "19d895df4703608df734177ef7b78f6ab55c14b4eb0fde8d7b5538e249957fc8"
+    }
   }
 }

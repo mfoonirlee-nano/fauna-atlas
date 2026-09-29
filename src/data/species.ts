@@ -124298,7 +124298,249 @@ export const species = [
   "updatedAt": "2026-09-29"
 },
 
-
+{
+  "id": "red-billed-streamertail",
+  "slug": "red-billed-streamertail",
+  "names": {
+    "zh": "缨尾蜂鸟",
+    "en": "Red-billed Streamertail",
+    "aliases": []
+  },
+  "scientificName": "Trochilus polytmus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Apodiformes",
+      "zhName": "雨燕目"
+    },
+    "family": {
+      "scientificName": "Trochilidae",
+      "zhName": "蜂鸟科"
+    },
+    "genus": {
+      "scientificName": "Trochilus",
+      "zhName": "缨尾蜂鸟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列机构来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "牙买加大部分地区；东北端主要由黑嘴缨尾蜂鸟占据"
+    ],
+    "countries": [],
+    "range": "牙买加大部分地区；东北端主要由黑嘴缨尾蜂鸟占据。"
+  },
+  "habitats": [
+    {
+      "name": "热带森林、林缘与花园",
+      "realm": "terrestrial",
+      "description": "雄性缨尾蜂鸟的绿色羽毛带有光泽，身后拖着两根细长的黑色尾羽。它会悬停在花前，用细长的嘴取食花蜜。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "nectarivore"
+    ],
+    "foods": [
+      "花蜜",
+      "小昆虫",
+      "小蜘蛛"
+    ],
+    "description": "食物包括花蜜、小昆虫、小蜘蛛。"
+  },
+  "tags": [
+    "缨尾蜂鸟",
+    "热带森林、林缘与花园"
+  ],
+  "summary": "雄性缨尾蜂鸟的绿色羽毛带有光泽，身后拖着两根细长的黑色尾羽。它会悬停在花前，用细长的嘴取食花蜜。",
+  "description": "雄性缨尾蜂鸟的绿色羽毛带有光泽，身后拖着两根细长的黑色尾羽。它会悬停在花前，用细长的嘴取食花蜜。本档案按红嘴缨尾蜂鸟 Trochilus polytmus 建立，雄鸟的嘴为红色、尖端黑色。雌鸟没有长缨状尾羽，不混入黑嘴缨尾蜂鸟 Trochilus scitulus。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "停在花前的翅膀",
+      "body": "找找花口与鸟嘴。它能在花前悬停取蜜，图中用静止画面重建飞行姿态。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "红嘴与绿羽毛",
+      "body": "看看细长的红嘴和黑色嘴尖，再找到胸前带光泽的绿色羽毛。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "雌鸟的短尾巴",
+      "body": "这张图展示雌鸟。它的腹面偏白，尾巴较短，没有雄鸟那两根长尾羽。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "身后的两根长羽",
+      "body": "沿着雄鸟身后找找两根长黑羽。它们是延长的尾羽，不是腿。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "树枝上的小脚",
+      "body": "看看它怎样用小脚抓住细枝。缨尾蜂鸟会在飞行取食之间停下来休息。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留开花植物与林缘植被，观察时不触碰鸟巢。"
+    }
+  ],
+  "keyFacts": [
+    "找找花口与鸟嘴。它能在花前悬停取蜜，图中用静止画面重建飞行姿态。",
+    "看看细长的红嘴和黑色嘴尖，再找到胸前带光泽的绿色羽毛。",
+    "这张图展示雌鸟。它的腹面偏白，尾巴较短，没有雄鸟那两根长尾羽。",
+    "沿着雄鸟身后找找两根长黑羽。它们是延长的尾羽，不是腿。",
+    "看看它怎样用小脚抓住细枝。缨尾蜂鸟会在飞行取食之间停下来休息。"
+  ],
+  "threats": [
+    "局地森林破坏",
+    "巢址受扰"
+  ],
+  "conservationActions": [
+    "保留开花植物与林缘植被，观察时不触碰鸟巢。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带森林、林缘与花园"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "停在花前的翅膀"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用所列机构来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/red-billed-streamertail/01-cover.webp",
+    "alt": "缨尾蜂鸟及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/red-billed-streamertail/02-observation.webp",
+        "alt": "缨尾蜂鸟：停在花前的翅膀",
+        "title": "停在花前的翅膀",
+        "caption": "AI 生成科学情景重建。找找花口与鸟嘴。它能在花前悬停取蜜，图中用静止画面重建飞行姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-billed-streamertail/03-observation.webp",
+        "alt": "缨尾蜂鸟：红嘴与绿羽毛",
+        "title": "红嘴与绿羽毛",
+        "caption": "AI 生成科学情景重建。看看细长的红嘴和黑色嘴尖，再找到胸前带光泽的绿色羽毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-billed-streamertail/04-observation.webp",
+        "alt": "缨尾蜂鸟：雌鸟的短尾巴",
+        "title": "雌鸟的短尾巴",
+        "caption": "AI 生成科学情景重建。这张图展示雌鸟。它的腹面偏白，尾巴较短，没有雄鸟那两根长尾羽。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-billed-streamertail/05-observation.webp",
+        "alt": "缨尾蜂鸟：身后的两根长羽",
+        "title": "身后的两根长羽",
+        "caption": "AI 生成科学情景重建。沿着雄鸟身后找找两根长黑羽。它们是延长的尾羽，不是腿。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-billed-streamertail/06-observation.webp",
+        "alt": "缨尾蜂鸟：树枝上的小脚",
+        "title": "树枝上的小脚",
+        "caption": "AI 生成科学情景重建。看看它怎样用小脚抓住细枝。缨尾蜂鸟会在飞行取食之间停下来休息。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ADW：分类、分布、雌雄差异与食物",
+      "url": "https://animaldiversity.org/accounts/Trochilus_polytmus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "ADW：IUCN 全球 LC",
+      "url": "https://animaldiversity.org/accounts/Trochilus_polytmus/",
+      "kind": "conservation",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "Jamaica Information Service：牙买加国鸟与雄鸟尾羽",
+      "url": "https://jis.gov.jm/symbols/jamaican-national-bird-the-doctor-bird/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-29"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-29",
+  "updatedAt": "2026-09-29"
+},
 
 
 
