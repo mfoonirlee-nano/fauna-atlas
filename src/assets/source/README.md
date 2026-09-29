@@ -646,3 +646,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [吸蜜鹦鹉 image set](./species/rainbow-lorikeet/README.md)
 
 - [啄羊鹦鹉 image set](./species/kea/README.md)
+
+- [普通缝叶莺 image set](./species/common-tailorbird/README.md)

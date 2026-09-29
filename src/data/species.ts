@@ -125031,6 +125031,250 @@ export const species = [
   "updatedAt": "2026-09-29"
 },
 
+{
+  "id": "common-tailorbird",
+  "slug": "common-tailorbird",
+  "names": {
+    "zh": "普通缝叶莺",
+    "en": "Common Tailorbird",
+    "aliases": [
+      "长尾缝叶莺"
+    ]
+  },
+  "scientificName": "Orthotomus sutorius",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Passeriformes",
+      "zhName": "雀形目"
+    },
+    "family": {
+      "scientificName": "Cisticolidae",
+      "zhName": "扇尾莺科"
+    },
+    "genus": {
+      "scientificName": "Orthotomus",
+      "zhName": "缝叶莺属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列机构来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "从巴基斯坦经南亚、东南亚到中国南部，爪哇另有分布"
+    ],
+    "countries": [],
+    "range": "从巴基斯坦经南亚、东南亚到中国南部，爪哇另有分布。"
+  },
+  "habitats": [
+    {
+      "name": "低矮灌丛、林缘与花园",
+      "realm": "terrestrial",
+      "description": "普通缝叶莺会把叶片边缘拉拢，用纤维固定，再在里面筑巢。它有棕红色头顶和细长的嘴，常在低矮灌丛里找小虫。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "昆虫",
+      "小型无脊椎动物及其幼虫"
+    ],
+    "description": "食物包括昆虫、小型无脊椎动物及其幼虫。"
+  },
+  "tags": [
+    "普通缝叶莺",
+    "低矮灌丛、林缘与花园"
+  ],
+  "summary": "普通缝叶莺会把叶片边缘拉拢，用纤维固定，再在里面筑巢。它有棕红色头顶和细长的嘴，常在低矮灌丛里找小虫。",
+  "description": "普通缝叶莺会把叶片边缘拉拢，用纤维固定，再在里面筑巢。它有棕红色头顶和细长的嘴，常在低矮灌丛里找小虫。保留清单名普通缝叶莺，亦称长尾缝叶莺。巢图展示叶缘固定与内衬的重建，不表示每个巢都使用两片叶子，也不能把纤维连接理解为人类缝纫的针脚。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "藏在叶片里的巢",
+      "body": "沿着叶片边缘找找浅色纤维。鸟会固定叶缘，在围成的空间里加入柔软巢材；请在远处观察，不拨开真实鸟巢。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "棕红色的小帽子",
+      "body": "从头顶的棕红色看到细长的嘴。它会用嘴收集巢材，也会寻找小虫。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "细枝上的小脚",
+      "body": "看看小脚抓住了哪里，再找找向上翘的尾巴。不同季节和性别的尾长会有差异。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "叶子上的食物",
+      "body": "在鸟嘴前找找小虫。普通缝叶莺常在茂密植物间寻找无脊椎动物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "灌丛里的小鸟",
+      "body": "在绿色叶子之间找找它。花园里保留低矮灌丛，能为这些小鸟留下藏身处。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留灌丛；观察鸟巢时拉开距离，不移动叶片或巢材。"
+    }
+  ],
+  "keyFacts": [
+    "沿着叶片边缘找找浅色纤维。鸟会固定叶缘，在围成的空间里加入柔软巢材；请在远处观察，不拨开真实鸟巢。",
+    "从头顶的棕红色看到细长的嘴。它会用嘴收集巢材，也会寻找小虫。",
+    "看看小脚抓住了哪里，再找找向上翘的尾巴。不同季节和性别的尾长会有差异。",
+    "在鸟嘴前找找小虫。普通缝叶莺常在茂密植物间寻找无脊椎动物。",
+    "在绿色叶子之间找找它。花园里保留低矮灌丛，能为这些小鸟留下藏身处。"
+  ],
+  "threats": [
+    "局部灌丛和林缘植被丧失"
+  ],
+  "conservationActions": [
+    "保留灌丛；观察鸟巢时拉开距离，不移动叶片或巢材。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "低矮灌丛、林缘与花园"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "藏在叶片里的巢"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用所列机构来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-tailorbird/01-cover.webp",
+    "alt": "普通缝叶莺及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-tailorbird/02-observation.webp",
+        "alt": "普通缝叶莺：藏在叶片里的巢",
+        "title": "藏在叶片里的巢",
+        "caption": "AI 生成科学情景重建。沿着叶片边缘找找浅色纤维。鸟会固定叶缘，在围成的空间里加入柔软巢材；请在远处观察，不拨开真实鸟巢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-tailorbird/03-observation.webp",
+        "alt": "普通缝叶莺：棕红色的小帽子",
+        "title": "棕红色的小帽子",
+        "caption": "AI 生成科学情景重建。从头顶的棕红色看到细长的嘴。它会用嘴收集巢材，也会寻找小虫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-tailorbird/04-observation.webp",
+        "alt": "普通缝叶莺：细枝上的小脚",
+        "title": "细枝上的小脚",
+        "caption": "AI 生成科学情景重建。看看小脚抓住了哪里，再找找向上翘的尾巴。不同季节和性别的尾长会有差异。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-tailorbird/05-observation.webp",
+        "alt": "普通缝叶莺：叶子上的食物",
+        "title": "叶子上的食物",
+        "caption": "AI 生成科学情景重建。在鸟嘴前找找小虫。普通缝叶莺常在茂密植物间寻找无脊椎动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-tailorbird/06-observation.webp",
+        "alt": "普通缝叶莺：灌丛里的小鸟",
+        "title": "灌丛里的小鸟",
+        "caption": "AI 生成科学情景重建。在绿色叶子之间找找它。花园里保留低矮灌丛，能为这些小鸟留下藏身处。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "NParks：现行鸟类名录与扇尾莺科归属",
+      "url": "https://www.nparks.gov.sg/nature/species-list/birds",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "香港观鸟会：分布、筑巢与全球 LC",
+      "url": "https://avifauna.hkbws.org.hk/species/0350/042800",
+      "kind": "conservation",
+      "accessedAt": "2026-09-29"
+    },
+    {
+      "title": "NParks：低灌丛觅食与叶片巢",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/fauna/7/7/773",
+      "kind": "ecology",
+      "accessedAt": "2026-09-29"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-29",
+  "updatedAt": "2026-09-29"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

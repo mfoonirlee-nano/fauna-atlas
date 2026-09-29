@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Create one photorealistic scientific educational wildlife image for Fauna Atlas, landscape 1536x1024. Common tailorbird Orthotomus sutorius, adult, olive green back, rufous crown, pale whitish underparts, slender slightly curved bill, long uplifted tail, on a thin branch in tropical Asian shrubbery. Single complete bird with bill feet and tail fully in frame, large on RIGHT, bounding box approximately x=780..1420 y=170..860; left 40% quiet soft green foliage for website text. Natural anatomy and lighting, no text or labels, no collage. AI scientific reconstruction, not a documentary claim.",
+      "sourceSha256": "e2912ffe4461641add3a7488df8eb36dd077a0439ec6a67e5d3c18f7ee3eed3b",
+      "runtimeSha256": "b25b67722ff74939da0417f7fe0b90cf45a2613cc4d73dccd4a3c130caa9f67b"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Common tailorbird Orthotomus sutorius, olive-green back, rufous crown, whitish belly, slender slightly decurved bill, long upright tail. Habitat: tropical Asian garden shrubbery. Scene: Close observation of a natural nest: two living green leaves drawn together with sparse silk and plant fiber stitches at their edges, loose grass cup inside, an adult tailorbird perched beside it. No human sewing thread or needle. Clear leaf-edge attachment, not a perfect manufactured seam.. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "b8a66b186dde4d0cb5361c6b8e8b2a2726a5d2195e41069489a67b55c7907848",
+      "runtimeSha256": "aba40d8462e406ac2e5eff5a02fdca447b349b4a3d6a62ec31f509b9a3810a65"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Common tailorbird Orthotomus sutorius, olive-green back, rufous crown, whitish belly, slender slightly decurved bill, long upright tail. Habitat: tropical Asian garden shrubbery. Scene: side portrait showing slender pointed bill and rufous crown. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "2399a451455012871739575eef6091a7d2f5a444b360eac9204c88538109038c",
+      "runtimeSha256": "671fab9535782a6b0fc50bafef6562f597797ab8758b9f059c5bf5249dfa1067"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Common tailorbird Orthotomus sutorius, olive-green back, rufous crown, whitish belly, slender slightly decurved bill, long upright tail. Habitat: tropical Asian garden shrubbery. Scene: whole bird stepping along thin twig, both feet gripping bark and tail cocked upward. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "4a49b81f7b8655e886aba09144cb4be730cf5b4aac4d43c167a6f17b8ece3d02",
+      "runtimeSha256": "5956ff092a3d57ec093edb185b85febbea1070af37240592ccaa834d6a4c2a43"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Common tailorbird Orthotomus sutorius, olive-green back, rufous crown, whitish belly, slender slightly decurved bill, long upright tail. Habitat: tropical Asian garden shrubbery. Scene: whole bird inspecting a small caterpillar on green leaf, no gore. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "091aacc89cac6085c928890262e4ea100880f067411d9f817c070d9c69e79d89",
+      "runtimeSha256": "0c8c993d1e85814be570739df75dcf61a4987b9ee098381156743002b7a50c70"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Natural light, realistic anatomy. No text, labels, collage, border, people, props or handling. Subject: Common tailorbird Orthotomus sutorius, olive-green back, rufous crown, whitish belly, slender slightly decurved bill, long upright tail. Habitat: tropical Asian garden shrubbery. Scene: whole bird amongst dense low bushes in garden habitat, no buildings or humans. Clear educational observation, subject fills frame; whole-body views must include full tail with margin.",
+      "sourceSha256": "c0525b38dba28efe5b804d658c34257d5bed5758dfe1d474788dac4131ec20f9",
+      "runtimeSha256": "342a6f30011ba1f6b520f2ef5c8909a0e115cf34d372744fdda72de9ecc32472"
+    }
+  ]
+}

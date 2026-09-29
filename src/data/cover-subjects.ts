@@ -4451,4 +4451,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 799
   }
 },
+  "common-tailorbird": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 715,
+    "top": 40,
+    "right": 1440,
+    "bottom": 880
+  }
+},
 };
