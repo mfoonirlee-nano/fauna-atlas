@@ -123319,7 +123319,249 @@ export const species = [
   "updatedAt": "2026-09-28"
 },
 
-
+{
+  "id": "lilac-breasted-roller",
+  "slug": "lilac-breasted-roller",
+  "names": {
+    "zh": "紫胸佛法僧",
+    "en": "Lilac-breasted Roller",
+    "aliases": []
+  },
+  "scientificName": "Coracias caudatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Coraciiformes",
+      "zhName": "佛法僧目"
+    },
+    "family": {
+      "scientificName": "Coraciidae",
+      "zhName": "佛法僧科"
+    },
+    "genus": {
+      "scientificName": "Coracias",
+      "zhName": "佛法僧属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "非洲东部至南部的疏林和稀树草原"
+    ],
+    "countries": [],
+    "range": "非洲东部至南部的疏林和稀树草原。"
+  },
+  "habitats": [
+    {
+      "name": "稀树草原与干燥疏林",
+      "realm": "terrestrial",
+      "description": "紫胸佛法僧常停在开阔地的枝头观察猎物。它胸前有紫色羽毛，展开翅膀时能看见浅蓝和深蓝的羽区。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "蝗虫",
+      "甲虫",
+      "小蜥蜴",
+      "蛙"
+    ],
+    "description": "食物包括蝗虫、甲虫、小蜥蜴、蛙。"
+  },
+  "tags": [
+    "紫胸佛法僧",
+    "稀树草原与干燥疏林"
+  ],
+  "summary": "紫胸佛法僧常停在开阔地的枝头观察猎物。它胸前有紫色羽毛，展开翅膀时能看见浅蓝和深蓝的羽区。",
+  "description": "紫胸佛法僧常停在开阔地的枝头观察猎物。它胸前有紫色羽毛，展开翅膀时能看见浅蓝和深蓝的羽区。图像采用指名亚种 Coracias caudatus caudatus 的紫色喉胸外观；两根延长的外侧尾羽在成年鸟身后拖出。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "展开的蓝色翅膀",
+      "body": "从浅蓝色看到翅膀外侧的深蓝色，再找找长尾羽。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "从胸口找到肚子",
+      "body": "找到紫色胸部和蓝绿色腹部，看看两种颜色在哪里相接。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "高枝上向下看",
+      "body": "顺着鸟嘴的方向看看地面。它常从高处等待猎物出现。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "嘴里的小虫",
+      "body": "找找嘴边的昆虫。它会捕食蝗虫等动物。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "树干上的洞口",
+      "body": "在鸟旁边找一个树洞。紫胸佛法僧会利用树洞繁殖。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留稀树草原中的树木和天然树洞，从远处观察停枝的鸟。"
+    }
+  ],
+  "keyFacts": [
+    "从浅蓝色看到翅膀外侧的深蓝色，再找找长尾羽。",
+    "找到紫色胸部和蓝绿色腹部，看看两种颜色在哪里相接。",
+    "顺着鸟嘴的方向看看地面。它常从高处等待猎物出现。",
+    "找找嘴边的昆虫。它会捕食蝗虫等动物。",
+    "在鸟旁边找一个树洞。紫胸佛法僧会利用树洞繁殖。"
+  ],
+  "threats": [
+    "局地疏林栖息地改变"
+  ],
+  "conservationActions": [
+    "保留稀树草原中的树木和天然树洞，从远处观察停枝的鸟。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "稀树草原与干燥疏林"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "展开的蓝色翅膀"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用所列来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/lilac-breasted-roller/01-cover.webp",
+    "alt": "紫胸佛法僧及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/lilac-breasted-roller/02-observation.webp",
+        "alt": "紫胸佛法僧：展开的蓝色翅膀",
+        "title": "展开的蓝色翅膀",
+        "caption": "AI 生成科学情景重建。从浅蓝色看到翅膀外侧的深蓝色，再找找长尾羽。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lilac-breasted-roller/03-observation.webp",
+        "alt": "紫胸佛法僧：从胸口找到肚子",
+        "title": "从胸口找到肚子",
+        "caption": "AI 生成科学情景重建。找到紫色胸部和蓝绿色腹部，看看两种颜色在哪里相接。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lilac-breasted-roller/04-observation.webp",
+        "alt": "紫胸佛法僧：高枝上向下看",
+        "title": "高枝上向下看",
+        "caption": "AI 生成科学情景重建。顺着鸟嘴的方向看看地面。它常从高处等待猎物出现。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lilac-breasted-roller/05-observation.webp",
+        "alt": "紫胸佛法僧：嘴里的小虫",
+        "title": "嘴里的小虫",
+        "caption": "AI 生成科学情景重建。找找嘴边的昆虫。它会捕食蝗虫等动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lilac-breasted-roller/06-observation.webp",
+        "alt": "紫胸佛法僧：树干上的洞口",
+        "title": "树干上的洞口",
+        "caption": "AI 生成科学情景重建。在鸟旁边找一个树洞。紫胸佛法僧会利用树洞繁殖。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ADW：分类",
+      "url": "https://animaldiversity.org/accounts/Coracias_caudatus/classification/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "London Zoo：全球 LC 与捕食行为",
+      "url": "https://www.londonzoo.org/whats-here/animals/lilac-breasted-roller",
+      "kind": "conservation",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "Biodiversity Explorer：分布、食物与巢洞",
+      "url": "https://www.biodiversityexplorer.info/birds/coraciidae/coracias_caudatus.htm",
+      "kind": "ecology",
+      "accessedAt": "2026-09-28"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-28",
+  "updatedAt": "2026-09-28"
+},
 
 
 

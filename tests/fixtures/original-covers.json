@@ -3365,5 +3365,18 @@
       },
       "sha256": "15c7ff5b2c46d8e7436af3e86c5262ff9a5b7f1fce6b1e7e26274b2382aee56e"
     }
+  },
+  "lilac-breasted-roller": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 758,
+        "top": 26,
+        "right": 1488,
+        "bottom": 965
+      },
+      "sha256": "29810cfc78cf5520efe3a9bebde874f1287d7ce20ebfd2fb1b5376913fb713a8"
+    }
   }
 }

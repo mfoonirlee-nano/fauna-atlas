@@ -4381,4 +4381,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 945
   }
 },
+  "lilac-breasted-roller": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 758,
+    "top": 26,
+    "right": 1488,
+    "bottom": 965
+  }
+},
 };

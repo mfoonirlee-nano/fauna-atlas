@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Lilac-breasted Roller Coracias caudatus caudatus, lilac throat and breast, turquoise belly, greenish crown, brown back, stout black bill, long narrow outer tail streamers. Scene: Perched side-on on acacia branch in East African savanna. Cover: large complete subject on right within x=770..1450 y=130..900, every bill tip crest foot tail inside frame, quiet blurred habitat left 40 percent for title. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "b1817c628264b1037ca883f3f1faa47b03aa85fc5903e7fe5040d5dbcb5b18d5",
+      "webpSha256": "29810cfc78cf5520efe3a9bebde874f1287d7ce20ebfd2fb1b5376913fb713a8"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Lilac-breasted Roller Coracias caudatus caudatus, lilac throat and breast, turquoise belly, greenish crown, brown back, stout black bill, long narrow outer tail streamers. Scene: In flight wings fully spread showing turquoise and deep royal blue flight feathers and tail streamers, entire wings in frame. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "2b39ddb934cbd0f76f6c844db30607a617f49cd412adcd57f81975f89383610f",
+      "webpSha256": "5a707aee7b1b75264c85063e0374628707cbc71290d22608a933f4210edab0e2"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Lilac-breasted Roller Coracias caudatus caudatus, lilac throat and breast, turquoise belly, greenish crown, brown back, stout black bill, long narrow outer tail streamers. Scene: Perched front three-quarter view showing lilac breast and turquoise belly. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "6712bc856dfb489adb0a98ad85b8b419a5331c7d38b35183c60bd3b8e6cb77ee",
+      "webpSha256": "f233aa65d5fdc9832256196b685f5285d69161bfa9495539de6df3f02abb8f41"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Lilac-breasted Roller Coracias caudatus caudatus, lilac throat and breast, turquoise belly, greenish crown, brown back, stout black bill, long narrow outer tail streamers. Scene: Perched on bare high branch looking down toward savanna grass. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "a6a11e9d33bee834fb7b4f2fea6decb1757548833305b4c945575f32ab7ebf98",
+      "webpSha256": "549a66318ccd9e7e8782c33498d628d7613efc841bc5e25921f965e874b7bb21"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Lilac-breasted Roller Coracias caudatus caudatus, lilac throat and breast, turquoise belly, greenish crown, brown back, stout black bill, long narrow outer tail streamers. Scene: Adult holding small grasshopper crosswise in bill on twig, no gore. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "08ca4515dd65f01b1961db18987a53e064ab3ad8cc1e18293512e5bd5c0e742c",
+      "webpSha256": "61a60faf9045869da65a572e06e874eff92350a0d7b49c6a38dc23770bf072de"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Lilac-breasted Roller Coracias caudatus caudatus, lilac throat and breast, turquoise belly, greenish crown, brown back, stout black bill, long narrow outer tail streamers. Scene: Adult perched beside natural tree cavity in savanna woodland, no nest interior. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "a2da6d3a5c6292a638f50fed36ef734c0200dd028e7757f33305ed66f8aebc06",
+      "webpSha256": "d96a3b8a4c3f3e8ef0bef8137628b43dca56417f1b9b5837191369d522cec0e2"
+    }
+  ]
+}
