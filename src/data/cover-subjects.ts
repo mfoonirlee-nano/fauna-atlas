@@ -4371,4 +4371,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 745
   }
 },
+  "victoria-crowned-pigeon": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 760,
+    "top": 18,
+    "right": 1485,
+    "bottom": 945
+  }
+},
 };

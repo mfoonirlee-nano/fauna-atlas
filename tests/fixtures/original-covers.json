@@ -3352,5 +3352,18 @@
       },
       "sha256": "145df929e94bf96dfadae1e42591edae7c3d5346644c77b062bd224603c626d4"
     }
+  },
+  "victoria-crowned-pigeon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 760,
+        "top": 18,
+        "right": 1485,
+        "bottom": 945
+      },
+      "sha256": "15c7ff5b2c46d8e7436af3e86c5262ff9a5b7f1fce6b1e7e26274b2382aee56e"
+    }
   }
 }

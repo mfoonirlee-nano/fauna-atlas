@@ -633,3 +633,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [黑剪嘴鸥 image set](./species/black-skimmer/README.md)
 - [凤头䴙䴘 image set](./species/great-crested-grebe/README.md)
+- [凤冠鸠 image set](./species/victoria-crowned-pigeon/README.md)

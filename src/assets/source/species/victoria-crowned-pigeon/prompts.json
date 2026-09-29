@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Victoria Crowned Pigeon Goura victoria, blue-gray body, maroon breast, red iris, large lacy fan crest with white-tipped spatulate feather ends, pale wing patch. Scene: Standing full body on New Guinea rainforest leaf litter. Cover: large complete subject on right within x=770..1450 y=130..900, every bill tip crest foot tail inside frame, quiet blurred habitat left 40 percent for title. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "c95b74f0bffb5dcdcce3e23b7cf32b77153c6651851932a6b1e55cc20c48b2f5",
+      "webpSha256": "15c7ff5b2c46d8e7436af3e86c5262ff9a5b7f1fce6b1e7e26274b2382aee56e"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Victoria Crowned Pigeon Goura victoria, blue-gray body, maroon breast, red iris, large lacy fan crest with white-tipped spatulate feather ends, pale wing patch. Scene: Close head portrait showing fan-shaped delicate crest with white tips and red iris. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "877f0cc567065eab38c121fe71b5b42659a7237e2f12842bb44bd2242c10d969",
+      "webpSha256": "cffd0eff12807881d6c4f78d5fae611efb2cf728e3525f9428704d51b65533d0"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Victoria Crowned Pigeon Goura victoria, blue-gray body, maroon breast, red iris, large lacy fan crest with white-tipped spatulate feather ends, pale wing patch. Scene: Walking side-on across rainforest leaf litter with both legs anatomically correct. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "ef0552df22ff7bf07c718c03b9687510add97ffb24278f74eca2f92065a75fb2",
+      "webpSha256": "29233bd98cbbe254b1148cbb41e26f7d8b7bd243a1d946e36a23a5e4203d807a"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Victoria Crowned Pigeon Goura victoria, blue-gray body, maroon breast, red iris, large lacy fan crest with white-tipped spatulate feather ends, pale wing patch. Scene: Foraging beside fallen small forest fruits on rainforest floor. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "9356bcca529c680fbbc811e080e031eacef660cd372bbb5995f86050a18825c5",
+      "webpSha256": "f655344b37222d8aafabbf19f8f2d59d093c3f3465c82cde04b1d4d8b5fd2aab"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Victoria Crowned Pigeon Goura victoria, blue-gray body, maroon breast, red iris, large lacy fan crest with white-tipped spatulate feather ends, pale wing patch. Scene: Two adults standing together on forest floor. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "0fc94d6c0241713363680d4a498c62293488dc2760b327ffc4dfbce8c7c6cd96",
+      "webpSha256": "4208bdda1b21b9e45c1414034857794cc59520eb0cb0ade08b358d68726b1e73"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Victoria Crowned Pigeon Goura victoria, blue-gray body, maroon breast, red iris, large lacy fan crest with white-tipped spatulate feather ends, pale wing patch. Scene: Adult perched on low thick rainforest branch, complete body and feet visible. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "fd7f61ded978ced1a244ee9d13bcbf1c3d79db5a9acfb3d54db1fabafb3a19ed",
+      "webpSha256": "946ba90634b61fe03f49cc749f6f2cfc3b2fda0fa6b3ea8e6113776de38cc022"
+    }
+  ]
+}
