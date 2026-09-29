@@ -636,3 +636,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [凤冠鸠 image set](./species/victoria-crowned-pigeon/README.md)
 - [紫胸佛法僧 image set](./species/lilac-breasted-roller/README.md)
 - [丽色黄喉蜂虎 image set](./species/northern-carmine-bee-eater/README.md)
+
+- [长尾巧织雀 image set](./species/long-tailed-widowbird/README.md)

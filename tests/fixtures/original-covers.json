@@ -3391,5 +3391,18 @@
       },
       "sha256": "02c0b947e0a313b4cedcbd500a5102fb446f2a99711a5e5d13869ecd54f6d07d"
     }
+  },
+  "long-tailed-widowbird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 825,
+        "top": 30,
+        "right": 1468,
+        "bottom": 990
+      },
+      "sha256": "50461fa156ef072e29007a0d10d86869880490e3211a3a5ec5e781132b33b617"
+    }
   }
 }

@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. Create one photorealistic wildlife reconstruction cover, landscape 1536x1024. Adult male long-tailed widowbird Euplectes progne in breeding plumage, black body, red-orange shoulder epaulet with pale white lower border, short pale conical bill, very long broad black tail feathers. Perched on sturdy upright grass stem in South African moist grassland, wings folded, entire head feet body and entire trailing long tail visible. Bird occupies right 55 percent, full subject centered x=72%, from y=8% to 92%, all edges have background clearance. Left 40 percent quiet softly blurred golden green grass for website text. Natural soft morning light, crisp real feather texture. No text, no collage, no frame, no humans. Preserve extraordinarily long tail without truncation.",
+      "sourceSha256": "8f533b381798df6c5b2cf3c1cf1126ce87bb41ad8fea4086c32e7dc119b926a8",
+      "runtimeSha256": "50461fa156ef072e29007a0d10d86869880490e3211a3a5ec5e781132b33b617"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Long-tailed widowbird Euplectes progne, adult breeding male, black body, short pale conical bill, red-orange shoulder epaulet with white lower border, extremely long broad black tail. Scene: close portrait of head and red orange and white shoulder epaulet, natural grass background. Habitat: South African moist grassland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "d73db03a82ebf67fdccae5da6bb3b4c94ec214a1c3dc98a8a54360225eac4e15",
+      "runtimeSha256": "03cce8b7f06336fa43041ec31f7fa72b807dc3595496add4f43923681aec4b8c"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Long-tailed widowbird Euplectes progne, adult breeding male, black body, short pale conical bill, red-orange shoulder epaulet with white lower border, extremely long broad black tail. Scene: complete bird in low display flight over grass, wings raised, entire long black tail trailing below, all feather tips within frame. Habitat: South African moist grassland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "6cafde76e57aa595110527d5b14f2e5ff751866dcc9723db4f7fa3efe78370e6",
+      "runtimeSha256": "b2ee5a9d9f393731db827bceadb2a9168b554666a2deac3246ea2b4523c9e10a"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. female Euplectes progne, brown heavily streaked sparrowlike plumage, short tail, pale eyebrow and conical bill, perched among grass stems. No black breeding male in scene. Habitat: South African moist grassland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "63af8bd9dc16040d4a6353494bf3ddb698c9f05e99b6f94981c959addd1f2840",
+      "runtimeSha256": "82eceb6ad9506ae74de7ee9b2c4c1aa5c81874d8dfbb54e8f8d91538e5c86e0e"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Long-tailed widowbird Euplectes progne, adult breeding male, black body, short pale conical bill, red-orange shoulder epaulet with white lower border, extremely long broad black tail. Scene: breeding male on the ground eating grass seeds, full long tail visible resting on grass. Habitat: South African moist grassland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "cd9ca6bbcef2b50c146b8bf7c9438282591fd4f56708f0f02e93911336cac34e",
+      "runtimeSha256": "db0ed7440e9ff8be601cf4d95af34d0f8ababfc9ced3d7544b072a78a25ce368"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Long-tailed widowbird Euplectes progne, adult breeding male, black body, short pale conical bill, red-orange shoulder epaulet with white lower border, extremely long broad black tail. Scene: two breeding males perched apart on grass stems in open wet grassland, full long tails visible. Habitat: South African moist grassland. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "332196cd9b89820f7de5ae9f158c894ffe0f85637765decef15d95c7b6ae6835",
+      "runtimeSha256": "dae108ef015a5a726905815ec1f2fcc766f28c55ca509dcfe63944546bda0dd4"
+    }
+  ]
+}

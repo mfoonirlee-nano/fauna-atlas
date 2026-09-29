@@ -4401,4 +4401,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 995
   }
 },
+  "long-tailed-widowbird": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 825,
+    "top": 30,
+    "right": 1468,
+    "bottom": 990
+  }
+},
 };
