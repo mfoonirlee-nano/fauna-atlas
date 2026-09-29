@@ -1,0 +1,46 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Edit this wildlife cover. Preserve species, beach, lighting and landscape 1536x1024. Reduce the bird to 78 percent of its current size and move it toward the right, so the entire bill-to-tail silhouette lies between x=720 and x=1450, y=260 to y=790. Keep complete feet and bill in frame. Black Skimmer, black upperparts white belly red legs. Lower mandible clearly longer than upper, entirely BLACK bill tip (remove orange tip). Left 45 percent empty blurred ocean and sand.",
+      "sourceSha256": "229cec68f0f1f6ca3a25c77ebd2e57238cdf4a5b0135360444e87c3525436b72",
+      "webpSha256": "2d9bc7c0a85809ccf3c58b32acbcca15d4bee1b08fa5975a1d137e1fbb026e9e",
+      "generationPrompt": "Scientific educational wildlife atlas cover. Photorealistic adult Black Skimmer Rynchops niger standing side-on on a coastal sandy beach, black cap and upperparts, white belly, red legs, red base black tip bill with LOWER MANDIBLE CLEARLY LONGER than upper. Landscape 1536x1024. Entire bird bill feet tail visible, large subject on right within x=760..1460 y=190..870, quiet blurred sea and sand left 40 percent for title. Natural anatomy, no text watermark collage."
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Black Skimmer Rynchops niger, black cap back wings, white underparts, red legs, red bill base black tip, lower mandible distinctly longer than upper. Scene: Close side profile of slightly open bill showing lower mandible projects well past upper. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "3313d1274d8df6e292da6f9fcb8cfe8f50f1632ae1a3351553fb64e7adbaec45",
+      "webpSha256": "070f4202416ce975861c120040aa7cf1bffbd594474a5b77e84049cd9e8db4e1"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Edit only the bill anatomy of this Black Skimmer. The upper bill stays exactly as is, ending at current point. Extend ONLY the bottom mandible forward by 75 pixels past upper bill tip, continuing straight along the bottom edge with black keratin, narrow blade ending bluntly. Black Skimmers have a dramatically longer bottom jaw. Preserve rest of bird wings water and framing.",
+      "sourceSha256": "76642aea6a3e21764a3163d213e5f9eabab91b082053bdb5a7d13abb9f6393ef",
+      "webpSha256": "9dfba7201e7cfd9f1ac138d78c312a4a4023b5b17743288a30727eebf6e02bcf",
+      "generationPrompt": "Scientific wildlife photograph reconstruction, landscape 1536x1024. Adult Black Skimmer Rynchops niger flying horizontally above a calm coastal lagoon, entire wings and tail in frame. Beak CLOSED, black-tipped red bill, lower jaw visibly projects far beyond shorter upper jaw. Bird completely ABOVE water by 30cm, NOT touching water. Side view, white underside black cap and wings, realistic flight anatomy, no text."
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Black Skimmer Rynchops niger, black cap back wings, white underparts, red legs, red bill base black tip, lower mandible distinctly longer than upper. Scene: Resting lying flat on sandy beach with head and long bill resting on sand. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "7718e7ccd4420f3f9c1e3198b858e9746813eeed763dae3264a4a8ce884c08e0",
+      "webpSha256": "e8a2324567f7271cba57907143d5512da4b2b804fece4957daf9155546648f63"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Edit the bill anatomy only. Every Black Skimmer Rynchops niger pictured must have its LOWER mandible 40 percent longer than its upper mandible. Keep the upper mandible ending at its existing tip, but extend the narrow blade of the lower mandible farther forward and downward along its original direction. Black keratin at extended tip. Make the unequal jaw lengths clearly visible, even with closed bills. Preserve every bird body, pose, background, framing and 1536x1024 size.",
+      "sourceSha256": "f9532356de15213a9ba9fee7a4bd820b98cd86396e57e62de57c19bc7a0479bf",
+      "webpSha256": "4a6276723fbbf5ebabc2d029f17cf29dedf79ae618adc92b9c8780451c1eb24c",
+      "generationPrompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Black Skimmer Rynchops niger, black cap back wings, white underparts, red legs, red bill base black tip, lower mandible distinctly longer than upper. Scene: Three adults standing together on a coastal sandbar. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people."
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Edit the bill anatomy only. Every Black Skimmer Rynchops niger pictured must have its LOWER mandible 40 percent longer than its upper mandible. Keep the upper mandible ending at its existing tip, but extend the narrow blade of the lower mandible farther forward and downward along its original direction. Black keratin at extended tip. Make the unequal jaw lengths clearly visible, even with closed bills. Preserve every bird body, pose, background, framing and 1536x1024 size.",
+      "sourceSha256": "ebff36bf9872a9150870ca6da0bd45150e89eedef89265f832d000a2ff320c54",
+      "webpSha256": "1da9b214a6a8a1794aa8d21ec9ebffc0997f0d01f35ce16290a79b9f2b4d4f56",
+      "generationPrompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult Black Skimmer Rynchops niger, black cap back wings, white underparts, red legs, red bill base black tip, lower mandible distinctly longer than upper. Scene: Adult standing beside shallow empty sand scrape nest on open beach. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people."
+    }
+  ]
+}

@@ -630,3 +630,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [普通䴓 image set](./species/eurasian-nuthatch/README.md)
 - [凤头麦鸡 image set](./species/northern-lapwing/README.md)
 - [蛎鹬 image set](./species/eurasian-oystercatcher/README.md)
+
+- [黑剪嘴鸥 image set](./species/black-skimmer/README.md)

@@ -4351,4 +4351,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 853
   }
 },
+  "black-skimmer": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 710,
+    "top": 358,
+    "right": 1457,
+    "bottom": 745
+  }
+},
 };
