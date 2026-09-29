@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic wildlife reconstruction, landscape 1536x1024. Subject: Andean cock-of-the-rock Rupicola peruvianus adult male, bright orange-red head neck breast, large round disk-shaped crest over short partly concealed bill, black wings and tail, conspicuous silvery-gray folded tertial feathers. Scene: whole male perched in side profile on mossy branch in Andean cloud forest with mossy branches. Website cover composition: entire subject on right with center at 72% width, clear large main subject, use right 55% of image, all head bill feet wings and entire tail fully inside with real background margin. Left 40% quiet soft natural background for text. Natural daylight, detailed feathers. No text, frames, collage, people, feeders or props.",
+      "sourceSha256": "6e61aacb787d7d01714f155b21ebffb51b0380dd8e9127da866627fcdb3e7263",
+      "runtimeSha256": "146d25ff01409dc20f6dbb4be4744c8e2e1ff7876ee150847c7c342f6f7fce7b"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Andean cock-of-the-rock Rupicola peruvianus adult male, bright orange-red head neck breast, large round disk-shaped crest over short partly concealed bill, black wings and tail, conspicuous silvery-gray folded tertial feathers. Scene: side close portrait highlighting round orange-red crest and eye, beak partially hidden beneath crest. Habitat: Andean cloud forest with mossy branches. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "76a2c2b7dd7753624dd2e2f36b9617f793ee7bcbd49b0c6aa9abc3fef1fe2f82",
+      "runtimeSha256": "9440983e502f35d874ac479be70a2dd0874cfb48121a1c85cd39355e516f64be"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Andean cock-of-the-rock Rupicola peruvianus adult male, bright orange-red head neck breast, large round disk-shaped crest over short partly concealed bill, black wings and tail, conspicuous silvery-gray folded tertial feathers. Scene: male picking a small ripe wild berry from branch, green foliage. Habitat: Andean cloud forest with mossy branches. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "65057819cc3889912fbb918e73da6f51e7a003bc317b37650c75d156ae2e2997",
+      "runtimeSha256": "18cbc15c0ae094b8525a46ec2366585fe0d76aca1c052aee674b7c759f930090"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. female Rupicola peruvianus, entirely dark rusty brown with small rounded crest, perched on mossy branch, no bright male plumage. Habitat: Andean cloud forest with mossy branches. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "c7de4d3ca65f53678bc3ee8e3b6b26f0931646fe5206ce4e27fbc37893f4a19a",
+      "runtimeSha256": "ee02dba3d0c4296498e6d5af49f30d245a4c5236419facc75bf1050b90b632b4"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Andean cock-of-the-rock Rupicola peruvianus adult male, bright orange-red head neck breast, large round disk-shaped crest over short partly concealed bill, black wings and tail, conspicuous silvery-gray folded tertial feathers. Scene: two adult males displaying on separate branches in shaded cloud forest lek, orange-red head and body, black wings, silver-gray tertials. Habitat: Andean cloud forest with mossy branches. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "15ac24822e8152e32f149eb9c2f12c39aa870213317dc7e34897aabf4d110fb4",
+      "runtimeSha256": "3bee1e9283dbe73d274bf1dfe53c91f391ecd502c5a8d295a31af2d85ec669b2"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Andean cock-of-the-rock Rupicola peruvianus adult male, bright orange-red head neck breast, large round disk-shaped crest over short partly concealed bill, black wings and tail, conspicuous silvery-gray folded tertial feathers. Scene: whole male seen from behind at three-quarter angle on branch, emphasize black wings and silvery folded tertials. Habitat: Andean cloud forest with mossy branches. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "69b89d20d543ee4015788109857bb2594342a0414b2ed62a37e1069daa694b15",
+      "runtimeSha256": "afd5b132fa07a9c140cc7f04bf4cfad7a7d1bb1d200a15bc1beef9f6c102e049"
+    }
+  ]
+}

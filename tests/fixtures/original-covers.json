@@ -3404,5 +3404,18 @@
       },
       "sha256": "50461fa156ef072e29007a0d10d86869880490e3211a3a5ec5e781132b33b617"
     }
+  },
+  "andean-cock-of-the-rock": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 814,
+        "top": 54,
+        "right": 1395,
+        "bottom": 925
+      },
+      "sha256": "146d25ff01409dc20f6dbb4be4744c8e2e1ff7876ee150847c7c342f6f7fce7b"
+    }
   }
 }

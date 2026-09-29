@@ -4411,4 +4411,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 990
   }
 },
+  "andean-cock-of-the-rock": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 814,
+    "top": 54,
+    "right": 1395,
+    "bottom": 925
+  }
+},
 };

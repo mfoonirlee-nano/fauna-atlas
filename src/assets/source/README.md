@@ -638,3 +638,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [丽色黄喉蜂虎 image set](./species/northern-carmine-bee-eater/README.md)
 
 - [长尾巧织雀 image set](./species/long-tailed-widowbird/README.md)
+
+- [安第斯动冠伞鸟 image set](./species/andean-cock-of-the-rock/README.md)
