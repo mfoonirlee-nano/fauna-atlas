@@ -632,3 +632,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [蛎鹬 image set](./species/eurasian-oystercatcher/README.md)
 
 - [黑剪嘴鸥 image set](./species/black-skimmer/README.md)
+- [凤头䴙䴘 image set](./species/great-crested-grebe/README.md)

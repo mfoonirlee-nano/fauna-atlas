@@ -122836,7 +122836,248 @@ export const species = [
   "updatedAt": "2026-09-28"
 },
 
-
+{
+  "id": "great-crested-grebe",
+  "slug": "great-crested-grebe",
+  "names": {
+    "zh": "凤头䴙䴘",
+    "en": "Great Crested Grebe",
+    "aliases": []
+  },
+  "scientificName": "Podiceps cristatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Podicipediformes",
+      "zhName": "䴙䴘目"
+    },
+    "family": {
+      "scientificName": "Podicipedidae",
+      "zhName": "䴙䴘科"
+    },
+    "genus": {
+      "scientificName": "Podiceps",
+      "zhName": "䴙䴘属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "欧洲、亚洲、非洲部分地区及澳大利亚、新西兰；部分种群冬季到沿海水域活动"
+    ],
+    "countries": [],
+    "range": "欧洲、亚洲、非洲部分地区及澳大利亚、新西兰；部分种群冬季到沿海水域活动。"
+  },
+  "habitats": [
+    {
+      "name": "有水生植物的湖泊与缓流河段",
+      "realm": "freshwater",
+      "description": "凤头䴙䴘有细长脖子，繁殖期头侧长出栗色与黑色饰羽。幼鸟会钻到亲鸟背上，露出带黑白条纹的小脑袋。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "piscivore"
+    ],
+    "foods": [
+      "鱼",
+      "水生无脊椎动物"
+    ],
+    "description": "食物包括鱼、水生无脊椎动物。"
+  },
+  "tags": [
+    "凤头䴙䴘",
+    "有水生植物的湖泊与缓流河段"
+  ],
+  "summary": "凤头䴙䴘有细长脖子，繁殖期头侧长出栗色与黑色饰羽。幼鸟会钻到亲鸟背上，露出带黑白条纹的小脑袋。",
+  "description": "凤头䴙䴘有细长脖子，繁殖期头侧长出栗色与黑色饰羽。幼鸟会钻到亲鸟背上，露出带黑白条纹的小脑袋。本组成年鸟采用繁殖羽。雄鸟和雌鸟都参与照顾幼鸟，不能只凭背负幼鸟的画面把亲鸟叫作妈妈。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "背上的小脑袋",
+      "body": "在成年鸟背上找找条纹。年幼的凤头䴙䴘会乘在亲鸟背上休息。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "头两侧的饰羽",
+      "body": "从黑色羽冠看到栗色的脸侧羽毛。繁殖期的头部饰羽更醒目。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "面对面的两只鸟",
+      "body": "看看两只鸟竖起的脖子。求偶时它们会面对面摇头，图中只展示其中一个姿态。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "水草边的巢",
+      "body": "沿着水面找找堆起的植物。它们用水生植物筑巢，依靠附近植被固定。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "嘴边的小鱼",
+      "body": "找找嘴里叼着的小鱼。凤头䴙䴘会潜到水下寻找食物。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护湖岸植被，观察时远离水边的巢和带幼鸟的亲鸟。"
+    }
+  ],
+  "keyFacts": [
+    "在成年鸟背上找找条纹。年幼的凤头䴙䴘会乘在亲鸟背上休息。",
+    "从黑色羽冠看到栗色的脸侧羽毛。繁殖期的头部饰羽更醒目。",
+    "看看两只鸟竖起的脖子。求偶时它们会面对面摇头，图中只展示其中一个姿态。",
+    "沿着水面找找堆起的植物。它们用水生植物筑巢，依靠附近植被固定。",
+    "找找嘴里叼着的小鱼。凤头䴙䴘会潜到水下寻找食物。"
+  ],
+  "threats": [
+    "水域污染",
+    "巢区受扰"
+  ],
+  "conservationActions": [
+    "保护湖岸植被，观察时远离水边的巢和带幼鸟的亲鸟。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "有水生植物的湖泊与缓流河段"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "背上的小脑袋"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "采用所列来源的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/great-crested-grebe/01-cover.webp",
+    "alt": "凤头䴙䴘及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/great-crested-grebe/02-observation.webp",
+        "alt": "凤头䴙䴘：背上的小脑袋",
+        "title": "背上的小脑袋",
+        "caption": "AI 生成科学情景重建。在成年鸟背上找找条纹。年幼的凤头䴙䴘会乘在亲鸟背上休息。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-crested-grebe/03-observation.webp",
+        "alt": "凤头䴙䴘：头两侧的饰羽",
+        "title": "头两侧的饰羽",
+        "caption": "AI 生成科学情景重建。从黑色羽冠看到栗色的脸侧羽毛。繁殖期的头部饰羽更醒目。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-crested-grebe/04-observation.webp",
+        "alt": "凤头䴙䴘：面对面的两只鸟",
+        "title": "面对面的两只鸟",
+        "caption": "AI 生成科学情景重建。看看两只鸟竖起的脖子。求偶时它们会面对面摇头，图中只展示其中一个姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-crested-grebe/05-observation.webp",
+        "alt": "凤头䴙䴘：水草边的巢",
+        "title": "水草边的巢",
+        "caption": "AI 生成科学情景重建。沿着水面找找堆起的植物。它们用水生植物筑巢，依靠附近植被固定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-crested-grebe/06-observation.webp",
+        "alt": "凤头䴙䴘：嘴边的小鱼",
+        "title": "嘴边的小鱼",
+        "caption": "AI 生成科学情景重建。找找嘴里叼着的小鱼。凤头䴙䴘会潜到水下寻找食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ADW：分类、分布与繁殖",
+      "url": "https://animaldiversity.org/accounts/Podiceps_cristatus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "RSPB：外形与背负幼鸟",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/great-crested-grebe",
+      "kind": "ecology",
+      "accessedAt": "2026-09-28"
+    },
+    {
+      "title": "BTO：全球 LC 与生活史",
+      "url": "https://www.bto.org/learn/about-birds/birdfacts/great-crested-grebe",
+      "kind": "conservation",
+      "accessedAt": "2026-09-28"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-28",
+  "updatedAt": "2026-09-28"
+},
 
 
 

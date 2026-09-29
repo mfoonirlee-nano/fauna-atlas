@@ -3339,5 +3339,18 @@
       },
       "sha256": "2d9bc7c0a85809ccf3c58b32acbcca15d4bee1b08fa5975a1d137e1fbb026e9e"
     }
+  },
+  "great-crested-grebe": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 120,
+        "right": 1468,
+        "bottom": 745
+      },
+      "sha256": "145df929e94bf96dfadae1e42591edae7c3d5346644c77b062bd224603c626d4"
+    }
   }
 }

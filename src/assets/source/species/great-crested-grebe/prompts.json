@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-09-28",
+  "accepted": [
+    {
+      "file": "01-cover.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult breeding-plumage Great Crested Grebe Podiceps cristatus, long white neck, slender pinkish pointed bill, black double crest and chestnut-black cheek ruff, brown back white face. Scene: Swimming side-on in reed-fringed European freshwater lake. Cover: large complete subject on right within x=770..1450 y=130..900, every bill tip crest foot tail inside frame, quiet blurred habitat left 40 percent for title. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "936b8bb771eb85dc541548755a0b574be7456cbc81575d51a6cd4388ba2c5772",
+      "webpSha256": "145df929e94bf96dfadae1e42591edae7c3d5346644c77b062bd224603c626d4"
+    },
+    {
+      "file": "02-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult breeding-plumage Great Crested Grebe Podiceps cristatus, long white neck, slender pinkish pointed bill, black double crest and chestnut-black cheek ruff, brown back white face. Scene: Adult swimming with one small black-and-white striped chick nestled on back between wings. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "c9fc61a7c36252136f2598d9960f86d60ceb48d0a2a35122fa1782b1251157f2",
+      "webpSha256": "3952316c21316f87ef08b5f378cf4878eced06810cbcbe0fecee28256a316ea4"
+    },
+    {
+      "file": "03-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult breeding-plumage Great Crested Grebe Podiceps cristatus, long white neck, slender pinkish pointed bill, black double crest and chestnut-black cheek ruff, brown back white face. Scene: Close side head portrait showing black double crest and chestnut cheek ruff. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "2ed72332487c040e528c0cfef66055d440177d4e556ed53439e7550472c1e37f",
+      "webpSha256": "9621843412cae02157d138534a323d222c6ea2ff134a75dcfb5280211d39cf3f"
+    },
+    {
+      "file": "04-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult breeding-plumage Great Crested Grebe Podiceps cristatus, long white neck, slender pinkish pointed bill, black double crest and chestnut-black cheek ruff, brown back white face. Scene: Two breeding adults facing one another with necks upright on calm water, courtship head display. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "774851e542d542b1bb6e5fe10478f8f236624a4aa0772fee3d3e1349b65244ba",
+      "webpSha256": "7d65d98a4d7f6acbd8377e3341ea5a1c4155af6fafffc72bfab5af5365c44bae"
+    },
+    {
+      "file": "05-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult breeding-plumage Great Crested Grebe Podiceps cristatus, long white neck, slender pinkish pointed bill, black double crest and chestnut-black cheek ruff, brown back white face. Scene: Adult floating beside low floating mound nest of wet aquatic vegetation beside reeds. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "dd175ec1f553161b3bdc706dce1ce6d79dd0b36309f64de7ec0eb870e6c6e05b",
+      "webpSha256": "59767bcaf3e82300b2124924eebbecf5a97752359657510f9bb592046bc527c9"
+    },
+    {
+      "file": "06-observation.webp",
+      "prompt": "Scientific educational wildlife atlas. Photorealistic, landscape 1536x1024. Adult breeding-plumage Great Crested Grebe Podiceps cristatus, long white neck, slender pinkish pointed bill, black double crest and chestnut-black cheek ruff, brown back white face. Scene: Adult swimming with small fish held crosswise at bill tip, no gore. Natural observational scene with clear visible distinguishing anatomy. Natural daylight realistic anatomy, no text no watermark no collage no people.",
+      "sourceSha256": "a502d69f30fa78b5877de332d920b71b0f451b4403b200de3adf56df4d721e80",
+      "webpSha256": "0ac9d2e3accb467ebf23a3605f6d394220e7874b740966b933aa854827a69e19"
+    }
+  ]
+}
