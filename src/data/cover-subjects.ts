@@ -4441,4 +4441,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 1016
   }
 },
+  "kea": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 744,
+    "top": 84,
+    "right": 1455,
+    "bottom": 799
+  }
+},
 };

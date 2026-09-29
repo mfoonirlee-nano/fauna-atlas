@@ -1,0 +1,42 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-29",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic wildlife reconstruction, landscape 1536x1024. Subject: Kea Nestor notabilis adult New Zealand alpine parrot, olive-green brown scalloped feathers, long narrow curved charcoal upper bill, dark eyes and gray feet, olive tail. Scene: whole adult standing sideways on a mossy alpine rock in New Zealand South Island alpine tussock and rocky landscape. Website cover composition: entire subject on right with center at 72% width, clear large main subject, use right 55% of image, all head bill feet wings and entire tail fully inside with real background margin. Left 40% quiet soft natural background for text. Natural daylight, detailed feathers. No text, frames, collage, people, feeders or props.",
+      "sourceSha256": "543524e5aa0d668b56e0cff47e3f8144af595ae649976cffa6f0976d7c5666a7",
+      "runtimeSha256": "2d0a5c3a9081de4cee83b72e89b7e923834f58e1bd2e54299cb3ddf9693767db"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Kea Nestor notabilis adult New Zealand alpine parrot, olive-green brown scalloped feathers, long narrow curved charcoal upper bill, dark eyes and gray feet, olive tail. Scene: whole kea using bill to investigate a small natural twig held against rock with one foot, realistic anatomy, no human objects. Habitat: New Zealand South Island alpine tussock and rocky landscape. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "d08bf48b715c23a5051b21734c47ad85f6e900cb705c9f4587b0bd8589a185b8",
+      "runtimeSha256": "c47886cdde5e15d7f34513ceb712ab4853256b955ba52192a8888ae85c443f71"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Kea Nestor notabilis adult New Zealand alpine parrot, olive-green brown scalloped feathers, long narrow curved charcoal upper bill, dark eyes and gray feet, olive tail. Scene: one flying kea seen from below at an angle, wings spread revealing burnt orange-red underwing coverts and dark flight feathers, entire wings and tail within frame. Habitat: New Zealand South Island alpine tussock and rocky landscape. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "a4e696615c064daff10926a1043b5c952a6ad40f0625b24fba21594f93846efc",
+      "runtimeSha256": "a8efb7b46b8c4dc4dfeaf0363195df2e9ddf86fd6e58d14df2dc9cf49eb135c9"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Kea Nestor notabilis adult New Zealand alpine parrot, olive-green brown scalloped feathers, long narrow curved charcoal upper bill, dark eyes and gray feet, olive tail. Scene: close side portrait of adult kea showing long curved dark bill and olive scalloped feathers. Habitat: New Zealand South Island alpine tussock and rocky landscape. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "ff2ef1ebd07ebbd6c024e800e1dd0643e49d6d65b8f6fee1e433f2b5d53befb6",
+      "runtimeSha256": "07da85b574e38b4a5bb3fb981d11d5dc785a794778917f63413ab39a243a675f"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Kea Nestor notabilis adult New Zealand alpine parrot, olive-green brown scalloped feathers, long narrow curved charcoal upper bill, dark eyes and gray feet, olive tail. Scene: whole kea foraging among native alpine low plants and berries, no human food. Habitat: New Zealand South Island alpine tussock and rocky landscape. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "500b7ac96482f03558a7e16d398e419ca5d7de3da257a782482a6147d5c1eeff",
+      "runtimeSha256": "80e562e3ca9f18c23c182f003c88affc6ffa68bf06746bbdc063af2f79189da0"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction. Kea Nestor notabilis adult New Zealand alpine parrot, olive-green brown scalloped feathers, long narrow curved charcoal upper bill, dark eyes and gray feet, olive tail. Scene: two adult kea standing apart on rocks at edge of native beech forest with distant mountains, full bodies. Habitat: New Zealand South Island alpine tussock and rocky landscape. Compose a clear educational observation of this behavior or trait, natural daylight and lifelike feather detail, realistic anatomy. For whole bird views include complete wings, bill, feet and all tail feathers with margin. No text, collage, frame, humans, artificial feeding or human props.",
+      "sourceSha256": "fc0c6b9891b5a0ad4d4b7b1b39c2803509d0996552074e77a97f45f9803dcc2c",
+      "runtimeSha256": "f7104849361cff1fa87a18e8735bf744f3b274399a2171ca7c0a919831e9a2bb"
+    }
+  ]
+}

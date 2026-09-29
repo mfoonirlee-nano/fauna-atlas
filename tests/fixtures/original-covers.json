@@ -3443,5 +3443,18 @@
       },
       "sha256": "3abc163812ba7052bbb6e9913c9e68750703e96aace558f030f0eab5838384d4"
     }
+  },
+  "kea": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 744,
+        "top": 84,
+        "right": 1455,
+        "bottom": 799
+      },
+      "sha256": "2d0a5c3a9081de4cee83b72e89b7e923834f58e1bd2e54299cb3ddf9693767db"
+    }
   }
 }

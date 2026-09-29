@@ -644,3 +644,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [缨尾蜂鸟 image set](./species/red-billed-streamertail/README.md)
 
 - [吸蜜鹦鹉 image set](./species/rainbow-lorikeet/README.md)
+
+- [啄羊鹦鹉 image set](./species/kea/README.md)
