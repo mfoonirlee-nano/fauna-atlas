@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-30",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Scientific-educational wildlife reconstruction, natural photorealism, landscape 1536x1024. Eastern snake-necked turtle Chelodina longicollis on wet bank in southeastern Australian freshwater wetland. Small flattened oval dark brown shell, long slender neck, narrow small head, four webbed feet, short tail. Three-quarter FRONTAL view, neck extended diagonally toward viewer rather than across image, so turtle fits a compact silhouette. Website cover: entire turtle ON RIGHT HALF ONLY, all body parts inside x=740..1450 y=240..850. Left 45% EMPTY soft pond background. Turtle as large as possible within those limits, full head neck shell all visible feet and tail with generous margin. No text collage people. Do not crop or extend neck across left half.",
+      "sourceSha256": "f59111cca7260977c6501b1c4639869f36a5433aae9c46cf441379e9da99f950",
+      "runtimeSha256": "b73e6f607627a00fedf8504b58ee62b21348794511741d01d9b6852634bbe89f"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Eastern snake-necked turtle Chelodina longicollis, small flattened oval dark brown carapace, long SLENDER grey neck roughly half shell length, narrow small head, four webbed feet, short pointed tail. Freshwater wetland in southeastern Australia. Not thick-necked Chelodina rugosa, no giant serpentine neck. Scene: Close side profile of small head and slender extended neck attached to shell, no exaggerated neck length. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "e795e9a0f3d64f2593abb5bc0ade7dbe5d5a07e48ea42b9322d5389e9f19beaf",
+      "runtimeSha256": "6a1012011739d8eb0b6a7b7e6ce7b746801810ecc24bb361f2e66691ceae66ac"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Eastern snake-necked turtle Chelodina longicollis, small flattened oval dark brown carapace, long SLENDER grey neck roughly half shell length, narrow small head, four webbed feet, short pointed tail. Freshwater wetland in southeastern Australia. Not thick-necked Chelodina rugosa, no giant serpentine neck. Scene: Elevated three-quarter view of whole resting turtle with neck folded horizontally SIDEWAYS along front shell margin, head at side near foreleg, correct side-necked posture. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "178e4e89339f55677fb2f20d846264f83a271c178489867ff7853c278b35c7e6",
+      "runtimeSha256": "23f5b035424d718ba6b8b0bfb0ad018ef6c31acb901e0e881c7209664709255e"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Eastern snake-necked turtle Chelodina longicollis, small flattened oval dark brown carapace, long SLENDER grey neck roughly half shell length, narrow small head, four webbed feet, short pointed tail. Freshwater wetland in southeastern Australia. Not thick-necked Chelodina rugosa, no giant serpentine neck. Scene: Whole turtle swimming underwater in shallow freshwater among sparse aquatic plants, webbed feet clear. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "43f08f045e19078039ad05c158e084e7d72b4fe5bf4f983e788646ca567fa120",
+      "runtimeSha256": "7452062234bb4d9c801ab99f8402987f12386ef537a55bf9b7c7ae43c3eb3941"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Eastern snake-necked turtle Chelodina longicollis, small flattened oval dark brown carapace, long SLENDER grey neck roughly half shell length, narrow small head, four webbed feet, short pointed tail. Freshwater wetland in southeastern Australia. Not thick-necked Chelodina rugosa, no giant serpentine neck. Scene: Whole turtle walking on damp ground between freshwater pools, head neck shell limbs and tail complete. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "66124f9b3494996963c5ad773d0069030b76ff0398d1a7af09d8bac2f572a8b5",
+      "runtimeSha256": "8fe006aa4d1b6ec6cc21a7c0ed6916aacacc16a10a49fee093bb687b92cb4061"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Eastern snake-necked turtle Chelodina longicollis, small flattened oval dark brown carapace, long SLENDER grey neck roughly half shell length, narrow small head, four webbed feet, short pointed tail. Freshwater wetland in southeastern Australia. Not thick-necked Chelodina rugosa, no giant serpentine neck. Scene: Whole turtle resting in shallow water beside reeds, neck gently bent and nose above surface. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "c04373204bb2c628c24fa50c6ebad15aa83197a63b222279e4d20b71fabeef43",
+      "runtimeSha256": "ee81870f0cdfd0bd4c14ba3425b6c7840e074ef1212f8c4fb2e66115beb1fa8e"
+    }
+  ]
+}

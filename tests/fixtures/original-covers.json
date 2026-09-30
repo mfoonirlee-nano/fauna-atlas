@@ -3573,5 +3573,18 @@
       },
       "sha256": "c50debac902ac56291aa71463cab8c66e285bb5d3b41365d8cfca6020bf15edc"
     }
+  },
+  "eastern-long-necked-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 670,
+        "top": 352,
+        "right": 1528,
+        "bottom": 818
+      },
+      "sha256": "b73e6f607627a00fedf8504b58ee62b21348794511741d01d9b6852634bbe89f"
+    }
   }
 }

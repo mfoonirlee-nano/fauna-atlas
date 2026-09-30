@@ -4540,5 +4540,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1492,
       "bottom": 785
     }
+  },
+  "eastern-long-necked-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 670,
+      "top": 352,
+      "right": 1528,
+      "bottom": 818
+    }
   }
 };

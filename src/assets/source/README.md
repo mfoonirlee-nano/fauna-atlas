@@ -677,3 +677,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [翡翠树蚺 image set](./species/emerald-tree-boa/README.md)
 - [触须蛇 image set](./species/tentacled-snake/README.md)
 - [菱斑龟 image set](./species/diamondback-terrapin/README.md)
+- [长颈龟 image set](./species/eastern-long-necked-turtle/README.md)
