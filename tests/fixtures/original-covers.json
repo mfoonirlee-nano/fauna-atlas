@@ -3547,5 +3547,18 @@
       },
       "sha256": "da9b05e5089fcab4f23fb4d35b1af684b4792492ad948c9db34d01ece8a75182"
     }
+  },
+  "tentacled-snake": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 642,
+        "top": 40,
+        "right": 1468,
+        "bottom": 805
+      },
+      "sha256": "9987f6579c9a7d4356254c801b9664e08553f6c57dc599e8a53c0dfa1bf9721b"
+    }
   }
 }

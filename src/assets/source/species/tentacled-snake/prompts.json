@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-30",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Scientific-educational photorealistic wildlife reconstruction, 1536x1024 landscape. One tentacled snake Erpeton tentaculatum underwater among sparse wetland plants. Slender flattened mottled grey-brown body, one head with two short scaly snout tentacles. Complete animal arranged in loose broad J curve on RIGHT of frame, full bounds x=680..1450 y=180..860. Head at x=900 y=650, body curves rightward and tail extends back up ending in an unmistakably very thin tapered pointed tip. Exactly ONE head. Tail tip thin as a twig with no eyes, mouth or tentacles. Entire snake with real background margin. Left 40% quiet water. No branches obscuring snake, no text, collage, people or prey. Natural anatomy, no extra heads.",
+      "sourceSha256": "592c6d2fd1ff11629fa8aa82bcd2441efb89885a9b4ca6ba5d00843fd1582fae",
+      "runtimeSha256": "9987f6579c9a7d4356254c801b9664e08553f6c57dc599e8a53c0dfa1bf9721b"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Tentacled snake Erpeton tentaculatum underwater in slow Southeast Asian freshwater wetland, slender flattened grey-brown mottled body, flattened head with exactly two SHORT scaly fleshy tentacles projecting diagonally from the front sides of snout, no horns on forehead, no limbs. Realistic small appendages, no long whiskers. Scene: Macro three-quarter face view underwater, exactly two short scaly appendages at snout sides, closed mouth. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "3c80f0ab390c1a153056dd6c219ab0345345f970a0917cd9879a4cea28a54dec",
+      "runtimeSha256": "b1ae04cf289e53356ffe902cae3239e13fd982e39c569b7c0d5733a952065228"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Tentacled snake Erpeton tentaculatum underwater in slow Southeast Asian freshwater wetland, slender flattened grey-brown mottled body, flattened head with exactly two SHORT scaly fleshy tentacles projecting diagonally from the front sides of snout, no horns on forehead, no limbs. Realistic small appendages, no long whiskers. Scene: Whole snake holding a J-shaped ambush posture among submerged aquatic stems, no prey or strike. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "3f2e3633e620efaf843cd1576c8347216fbacd7160f9558b2b6e698d922a8d63",
+      "runtimeSha256": "05820a6e74a1597ee664e321b517d42025eae2fc502e72f2a8e34316e3028c93"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Tentacled snake Erpeton tentaculatum underwater in slow Southeast Asian freshwater wetland, slender flattened grey-brown mottled body, flattened head with exactly two SHORT scaly fleshy tentacles projecting diagonally from the front sides of snout, no horns on forehead, no limbs. Realistic small appendages, no long whiskers. Scene: Close view of complete tapering tail coiled around submerged twig, natural scales. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "ed795b92b37d749f81b74203f76fc18c540abf13f26116393e7001fb79355ebc",
+      "runtimeSha256": "c8401e41f84802cf2b61cdd18de3a28dc874c1d73e58beb0c40ce662727a6135"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Tentacled snake Erpeton tentaculatum underwater in slow Southeast Asian freshwater wetland, slender flattened grey-brown mottled body, flattened head with exactly two SHORT scaly fleshy tentacles projecting diagonally from the front sides of snout, no horns on forehead, no limbs. Realistic small appendages, no long whiskers. Scene: Whole snake camouflaged beside a waterlogged branch, contrasting gently with background plants. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "dfd64b8fb34a4a002bc457283f19adf2952894ebae9b3db56ab4aa51547e6d7b",
+      "runtimeSha256": "72b2f09f6775b757358836d0de5ce0eace803a387ae6d7433b8da6780f44d609"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Tentacled snake Erpeton tentaculatum underwater in slow Southeast Asian freshwater wetland, slender flattened grey-brown mottled body, flattened head with exactly two SHORT scaly fleshy tentacles projecting diagonally from the front sides of snout, no horns on forehead, no limbs. Realistic small appendages, no long whiskers. Scene: Snake in shallow water with nose just touching surface for air, body visible under water, no people. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "93cfb5c23c30e7126171b83e7c27eeebe7c4ad3f4bd67d5a3c04cec0aacb0c94",
+      "runtimeSha256": "b860b7b3380cfae626447e3c110eee02b0b84e435292adda825f4aba870fc93d"
+    }
+  ]
+}
