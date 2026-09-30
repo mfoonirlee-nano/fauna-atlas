@@ -4530,5 +4530,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1468,
       "bottom": 805
     }
+  },
+  "diamondback-terrapin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 699,
+      "top": 398,
+      "right": 1492,
+      "bottom": 785
+    }
   }
 };

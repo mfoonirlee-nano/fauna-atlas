@@ -126998,6 +126998,261 @@ export const species = [
   "updatedAt": "2026-09-30"
 },
 
+{
+  "id": "diamondback-terrapin",
+  "slug": "diamondback-terrapin",
+  "names": {
+    "zh": "菱斑龟",
+    "en": "Diamondback Terrapin",
+    "aliases": []
+  },
+  "scientificName": "Malaclemys terrapin",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Testudines",
+      "zhName": "龟鳖目"
+    },
+    "family": {
+      "scientificName": "Emydidae",
+      "zhName": "泽龟科"
+    },
+    "genus": {
+      "scientificName": "Malaclemys",
+      "zhName": "菱斑龟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "VU",
+    "label": {
+      "zh": "易危",
+      "en": "Vulnerable"
+    },
+    "trend": "unknown",
+    "assessor": "采用所列机构资料的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "北美海岸河口与盐沼"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "range": "美国大西洋和墨西哥湾沿岸，从马萨诸塞州至佛罗里达，再向西至得克萨斯州的河口、潮汐水道与盐沼；分布并非沿岸连续。"
+  },
+  "habitats": [
+    {
+      "name": "北美海岸河口与盐沼",
+      "realm": "marine",
+      "description": "美国大西洋和墨西哥湾沿岸，从马萨诸塞州至佛罗里达，再向西至得克萨斯州的河口、潮汐水道与盐沼；分布并非沿岸连续。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "螺类",
+      "小型蟹类",
+      "其他水生无脊椎动物"
+    ],
+    "description": "食物包括螺类、小型蟹类、其他水生无脊椎动物。"
+  },
+  "tags": [
+    "菱斑龟",
+    "北美海岸河口与盐沼"
+  ],
+  "summary": "菱斑龟的背甲上有一圈圈纹路，浅色的头和脚上常有黑斑。它生活在海水与淡水相混的河口和盐沼，用带蹼的脚在浅水里游动。",
+  "description": "菱斑龟的背甲上有一圈圈纹路，浅色的头和脚上常有黑斑。它生活在海水与淡水相混的河口和盐沼，用带蹼的脚在浅水里游动。采用完整物种 Malaclemys terrapin，不把亚种分成独立档案。图片展示灰色斑点皮肤与褐色背甲的一种外观，不代表全部亚种配色。生态筛选归入海岸水域，正文明确它生活于微咸水。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "背甲上的圈圈",
+      "body": "找找每块盾片中一圈圈的线。这里观察纹路，不根据生成图的圈数判断年龄。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "浅色皮肤与黑斑",
+      "body": "从眼睛旁看到脖子，找找浅色皮肤上的黑色小斑。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "带蹼的脚",
+      "body": "看看游泳时张开的脚，趾间连着薄薄的蹼。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "泥岸上走一走",
+      "body": "找找身体下面撑住泥地的脚。菱斑龟能在水中游，也会来到岸上。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "水边的龟壳",
+      "body": "从侧面看看背甲拱起的轮廓，再找找旁边的浅水与盐沼植物。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护盐沼与产卵岸地，支持减少蟹笼误捕的措施，不带走野外的龟。"
+    }
+  ],
+  "keyFacts": [
+    "找找每块盾片中一圈圈的线。这里观察纹路，不根据生成图的圈数判断年龄。",
+    "从眼睛旁看到脖子，找找浅色皮肤上的黑色小斑。",
+    "看看游泳时张开的脚，趾间连着薄薄的蹼。",
+    "找找身体下面撑住泥地的脚。菱斑龟能在水中游，也会来到岸上。",
+    "从侧面看看背甲拱起的轮廓，再找找旁边的浅水与盐沼植物。"
+  ],
+  "threats": [
+    "蟹笼误捕后溺亡",
+    "海岸栖息地丧失",
+    "道路死亡与宠物贸易捕捉"
+  ],
+  "conservationActions": [
+    "保护盐沼与产卵岸地，支持减少蟹笼误捕的措施，不带走野外的龟。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "北美海岸河口与盐沼"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "背甲上的圈圈"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "易危",
+      "note": "采用所列机构资料的 IUCN 全球等级；独立评估年份未核实，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/diamondback-terrapin/01-cover.webp",
+    "alt": "菱斑龟及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/diamondback-terrapin/02-observation.webp",
+        "alt": "菱斑龟：背甲上的圈圈",
+        "title": "背甲上的圈圈",
+        "caption": "AI 生成科学情景重建。找找每块盾片中一圈圈的线。这里观察纹路，不根据生成图的圈数判断年龄。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/diamondback-terrapin/03-observation.webp",
+        "alt": "菱斑龟：浅色皮肤与黑斑",
+        "title": "浅色皮肤与黑斑",
+        "caption": "AI 生成科学情景重建。从眼睛旁看到脖子，找找浅色皮肤上的黑色小斑。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/diamondback-terrapin/04-observation.webp",
+        "alt": "菱斑龟：带蹼的脚",
+        "title": "带蹼的脚",
+        "caption": "AI 生成科学情景重建。看看游泳时张开的脚，趾间连着薄薄的蹼。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/diamondback-terrapin/05-observation.webp",
+        "alt": "菱斑龟：泥岸上走一走",
+        "title": "泥岸上走一走",
+        "caption": "AI 生成科学情景重建。找找身体下面撑住泥地的脚。菱斑龟能在水中游，也会来到岸上。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/diamondback-terrapin/06-observation.webp",
+        "alt": "菱斑龟：水边的龟壳",
+        "title": "水边的龟壳",
+        "caption": "AI 生成科学情景重建。从侧面看看背甲拱起的轮廓，再找找旁边的浅水与盐沼植物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The Reptile Database：接受学名与分类",
+      "url": "https://reptile-database.reptarium.cz/Malaclemys/terrapin",
+      "kind": "taxonomy",
+      "accessedAt": "2026-09-30"
+    },
+    {
+      "title": "USGS：河口生态、分布、威胁与 IUCN VU",
+      "url": "https://www.usgs.gov/centers/wetland-and-aquatic-research-center/science/ecology-diamondback-terrapin-demographics",
+      "kind": "conservation",
+      "accessedAt": "2026-09-30"
+    },
+    {
+      "title": "Florida FWC：菱斑龟生态与亚种",
+      "url": "https://myfwc.com/research/wildlife/amphibians-reptiles/turtles/diamondback-terrapins/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-30"
+    },
+    {
+      "title": "Texas Parks and Wildlife：形态和食性",
+      "url": "https://tpwd.texas.gov/huntwild/wild/species/terrapin/",
+      "kind": "ecology",
+      "accessedAt": "2026-09-30"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-09-30",
+  "updatedAt": "2026-09-30"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-30",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Diamondback terrapin Malaclemys terrapin, brown grey moderately domed shell with concentric diamond-like scute growth markings, pale grey skin with small black spots, broad head, four webbed clawed feet and short tail. US Atlantic coastal brackish salt marsh. Scene: Whole turtle on muddy marsh bank three-quarter side view, shell, head, all visible feet and short tail fully visible. Website cover: complete animal large on RIGHT, silhouette within x=630..1460 y=130..900, visual center beyond 65% source width. Left 40% quiet environment. Include entire head, feet, shell, all coils and complete tail as applicable, generous real background margin. Revision: animal must fit strictly inside x=690..1460. Reduce entire turtle 15 percent and shift right so the NOSE and LEFTMOST TOE are beyond x=690. Keep complete head, feet, shell and tiny tail. No other animal. Quiet left background.",
+      "sourceSha256": "eaa42f62032804f2509f66f2158c36a9ade9f45d82ec755e06277f9f80a552a9",
+      "runtimeSha256": "c50debac902ac56291aa71463cab8c66e285bb5d3b41365d8cfca6020bf15edc"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Diamondback terrapin Malaclemys terrapin, brown grey moderately domed shell with concentric diamond-like scute growth markings, pale grey skin with small black spots, broad head, four webbed clawed feet and short tail. US Atlantic coastal brackish salt marsh. Scene: Elevated close view of carapace concentric scute patterns; natural irregular rings, no perfect geometrical engraving. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "258eab55d39b73f2748ce9b5d19dabb252d0af367ea76164a253feeae47dbd3e",
+      "runtimeSha256": "9fb2b2e6de00b7732592a60dff26271a5b450fdd15a2f9caf5dd9da55feb625b"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Diamondback terrapin Malaclemys terrapin, brown grey moderately domed shell with concentric diamond-like scute growth markings, pale grey skin with small black spots, broad head, four webbed clawed feet and short tail. US Atlantic coastal brackish salt marsh. Scene: Close portrait of pale grey head with small dark spots, eye and closed beak. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "48a35f9dc02b178e312ca6fe3fb6e7b670d884bbabe225e35173fbf4fe31b361",
+      "runtimeSha256": "d8e5cb555810a1e200eb1da0f72bc24c1f0a9161bda6c68fe0b0e4965c922442"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Diamondback terrapin Malaclemys terrapin, brown grey moderately domed shell with concentric diamond-like scute growth markings, pale grey skin with small black spots, broad head, four webbed clawed feet and short tail. US Atlantic coastal brackish salt marsh. Scene: Entire turtle swimming in clear shallow brackish creek, webbed feet visible, natural aquatic light. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "68489d85ab5b7260c2641301d663e4bf32d525e247e647708a93d245c0d70d88",
+      "runtimeSha256": "13dc8920c6612d61d11c9790ffc2a2c83f62931460bf64f72bcc90739721d8af"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Diamondback terrapin Malaclemys terrapin, brown grey moderately domed shell with concentric diamond-like scute growth markings, pale grey skin with small black spots, broad head, four webbed clawed feet and short tail. US Atlantic coastal brackish salt marsh. Scene: Whole turtle walking along muddy shore beside saltmarsh cordgrass, complete limbs in frame. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "48a2b9d5d9f977268d9f583469813c6ca956662fc3bdec52ab0b04ecedb30398",
+      "runtimeSha256": "28e3bd155eddc0399adbfa579675b89848580bb9f015ba2cdb23d141e0c35e99"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Diamondback terrapin Malaclemys terrapin, brown grey moderately domed shell with concentric diamond-like scute growth markings, pale grey skin with small black spots, broad head, four webbed clawed feet and short tail. US Atlantic coastal brackish salt marsh. Scene: Low side view of entire turtle resting at shallow creek edge, shell and spotted legs clear. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "45f94db894d24f41ae782d03d9aa8cefcaa0fda45e03cbf700f9e8a7455b5b7c",
+      "runtimeSha256": "fcf03367b5e44417ffb7757927a6a7819a2e274b94b1ff0d211ae7c2a6f29ef1"
+    }
+  ]
+}
