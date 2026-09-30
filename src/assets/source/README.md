@@ -672,3 +672,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [绿安乐蜥 image set](./species/green-anole/README.md)
 - [蓝舌石龙子 image set](./species/eastern-blue-tongued-skink/README.md)
 - [松果蜥 image set](./species/shingleback/README.md)
+
+- [犰狳环尾蜥 image set](./species/armadillo-girdled-lizard/README.md)

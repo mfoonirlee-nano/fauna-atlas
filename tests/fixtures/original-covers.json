@@ -3521,5 +3521,18 @@
       },
       "sha256": "23a7dd79759acd108bc2639d3319b08e809c1fe78bc7adbeabb445d8f2a4987b"
     }
+  },
+  "armadillo-girdled-lizard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 286,
+        "right": 1475,
+        "bottom": 790
+      },
+      "sha256": "40a0ca637d53dc82184949b94d286c1bc79b99fa97ec26d8f509d99cdf3398e6"
+    }
   }
 }

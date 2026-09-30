@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-30",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Single photorealistic wildlife reconstruction, landscape 1536x1024, no text, no collage, no people, natural light. Adult armadillo girdled lizard Ouroborus cataphractus on a warm rock in arid western South African shrubland. Golden brown squat lizard, strongly spiny armored scales especially ringed tail, broad head, four short sturdy legs. Relaxed walking pose with tail gently curving beside body, NOT rolled into a ball. Website cover: animal large on RIGHT, full silhouette including nose, visible toes and complete tail inside x=640..1460 y=200..850, center around x=1080. Left 40 percent quiet blurred rocky background. Generous real background margin around whole animal. Accurate natural anatomy.",
+      "sourceSha256": "4f69294184086e5a601a1eadf01d77342d4258e49a45e42815df9914a8dd3541",
+      "runtimeSha256": "40a0ca637d53dc82184949b94d286c1bc79b99fa97ec26d8f509d99cdf3398e6"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Adult armadillo girdled lizard Ouroborus cataphractus, golden brown squat body with heavily keeled spiny armored scales, broad triangular head, four short sturdy legs, tapering ringed spiny tail. Western South African dry rocky shrubland. Scene: Elevated view of entire relaxed lizard, long spiny tail gently curving beside the body, all extremities inside frame. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "f1be33399c5b9862728a32c95d1c3fefc3ac1aef860db17d874c92e663d4e8fb",
+      "runtimeSha256": "0bd53ad22d85dfdfca2f881e83ed6c6e2fe83e25abece8c53be454717446ca6b"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Adult armadillo girdled lizard Ouroborus cataphractus, golden brown squat body with heavily keeled spiny armored scales, broad triangular head, four short sturdy legs, tapering ringed spiny tail. Western South African dry rocky shrubland. Scene: Close anatomical detail of tail with transverse rings of pointed scales; not biting tail. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "8a23e21a1ad98a33eba33f8759a55fc4976661b566538cb1ca0ce5b1bb66e6ae",
+      "runtimeSha256": "aa3610f867f9c6ef47a86ec9d0e68ec288d0699dd7776dc849308748e6f08e05"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Adult armadillo girdled lizard Ouroborus cataphractus, golden brown squat body with heavily keeled spiny armored scales, broad triangular head, four short sturdy legs, tapering ringed spiny tail. Western South African dry rocky shrubland. Scene: Side portrait of broad head and neck scales with natural proportions, mouth closed. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "2c75f36c64eea0cedf4cbede943880413daa8642a17a358220aff7a419c1c32a",
+      "runtimeSha256": "0241bda697d857d96fa255934e92d0fb672c3d939ef9293e686a7195de48afd7"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Adult armadillo girdled lizard Ouroborus cataphractus, golden brown squat body with heavily keeled spiny armored scales, broad triangular head, four short sturdy legs, tapering ringed spiny tail. Western South African dry rocky shrubland. Scene: Entire lizard sunning on a flat rock at the entrance of a dark narrow rock crevice. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "bbc5be3484b5bf2dbf38161a88c4c33e37e6b1d353b118ceba471ac9f886ccc0",
+      "runtimeSha256": "7c7f0779e40dcc0e6c258a7e6c1287e9a698422e304997edbae793d2ffee06fa"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Adult armadillo girdled lizard Ouroborus cataphractus, golden brown squat body with heavily keeled spiny armored scales, broad triangular head, four short sturdy legs, tapering ringed spiny tail. Western South African dry rocky shrubland. Scene: Entire lizard walking between sparse dry shrubs and stones, all feet and full tail in frame. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "bd255e388672eb0ac6df7bbd315031296a0b40e4a143414b052fe8b78a105dd1",
+      "runtimeSha256": "ecfa13733e6d342d0a21c4900292fb0d3adb1e44c284049dae42021ecfa95902"
+    }
+  ]
+}

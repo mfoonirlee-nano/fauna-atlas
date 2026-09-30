@@ -4501,4 +4501,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 750
   }
 },
+  "armadillo-girdled-lizard": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 286,
+      "right": 1475,
+      "bottom": 790
+    }
+  }
 };
