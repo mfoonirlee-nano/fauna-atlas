@@ -79,9 +79,14 @@ export function speciesBundle(): Plugin {
           ...(id === item.slug ? {} : { id }),
           t: taxonomyRanks.map((rank) => indexes.get(JSON.stringify(taxonomy[rank]))),
         }));
+        // Many species share kingdom through order; serialize those four ranks once.
+        const lineages = [...new Map(catalogue.map(({ t }) =>
+          [JSON.stringify(t.slice(0, 4)), t.slice(0, 4)] as const,
+        )).values()];
+        const lineageIndexes = new Map(lineages.map((lineage, index) => [JSON.stringify(lineage), index]));
         // Positional rows avoid repeating field keys for every species.
         const rows = catalogue.map(({ slug, l, n, s, c, d, t, m, h, g, id }) =>
-          [slug, l, n, s, c, d, t, m, h, g, ...(id === undefined ? [] : [id])],
+          [slug, l, n, s, c, d, [lineageIndexes.get(JSON.stringify(t.slice(0, 4))), ...t.slice(4)], m, h, g, ...(id === undefined ? [] : [id])],
         );
         // Match catalogue order so the loader table does not repeat every slug.
         const loaders = species.map(({ slug }) =>
@@ -90,12 +95,13 @@ export function speciesBundle(): Plugin {
         // Encode shared taxa as pairs so field names are emitted only once.
         return `const taxa=${JSON.stringify(taxa.map(({ scientificName, zhName }) => [scientificName, zhName]))}.map(([scientificName,zhName])=>({scientificName,zhName}));
           const ranks=${JSON.stringify(taxonomyRanks)};
+          const lineages=${JSON.stringify(lineages)};
           const labels=${JSON.stringify(labels)};
           const altSuffixes=${JSON.stringify(altSuffixes)};
           const restoreLabels=values=>values.map(value=>typeof value==='number'?labels[value]:value);
-          export const species=${JSON.stringify(rows)}.map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[5]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
+          export const species=${JSON.stringify(rows)}.map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
             conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
-            taxonomy:Object.fromEntries(ranks.map((rank,index)=>[rank,taxa[t[index]]]))}));
+            taxonomy:Object.fromEntries([...lineages[t[0]],...t.slice(1)].map((taxon,index)=>[ranks[index],taxa[taxon]]))}));
           const imports=[${loaders}];
           const loaders=new Map(species.map((item,index)=>[item.slug,imports[index]]));
           export async function loadSpecies(slug){
