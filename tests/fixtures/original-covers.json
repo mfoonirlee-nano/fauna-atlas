@@ -3534,5 +3534,18 @@
       },
       "sha256": "40a0ca637d53dc82184949b94d286c1bc79b99fa97ec26d8f509d99cdf3398e6"
     }
+  },
+  "emerald-tree-boa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 693,
+        "top": 276,
+        "right": 1476,
+        "bottom": 782
+      },
+      "sha256": "da9b05e5089fcab4f23fb4d35b1af684b4792492ad948c9db34d01ece8a75182"
+    }
   }
 }

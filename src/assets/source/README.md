@@ -674,3 +674,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [松果蜥 image set](./species/shingleback/README.md)
 
 - [犰狳环尾蜥 image set](./species/armadillo-girdled-lizard/README.md)
+- [翡翠树蚺 image set](./species/emerald-tree-boa/README.md)

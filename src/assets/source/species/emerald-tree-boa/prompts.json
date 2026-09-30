@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-30",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Northern emerald tree boa Corallus caninus, Guiana Shield form, emerald green stout snake, irregular separated white dorsal cross markings NOT continuous white dorsal stripe, angular broad head with prominent lip pits, yellowish belly, no limbs. Humid Guiana rainforest. Scene: Whole snake loosely draped in saddle coils on horizontal branch, head resting on coils and complete tapering tail visibly wrapped around branch. Website cover: complete animal large on RIGHT, silhouette within x=630..1460 y=130..900, visual center beyond 65% source width. Left 40% quiet environment. Include entire head, feet, shell, all coils and complete tail as applicable, generous real background margin. Revision: shift the WHOLE snake 85 pixels to the right and reduce its total width slightly so full bounds are x=680..1470. Keep full animal anatomy, white markings and tail. Simplify background to softly blurred lowland rainforest, no prominent mountains. Left 40% contains no part of snake.",
+      "sourceSha256": "3368a9d4a497347f662d481d4b1c3f45112d06f714cafc171fb51d8495435415",
+      "runtimeSha256": "da9b05e5089fcab4f23fb4d35b1af684b4792492ad948c9db34d01ece8a75182"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Northern emerald tree boa Corallus caninus, Guiana Shield form, emerald green stout snake, irregular separated white dorsal cross markings NOT continuous white dorsal stripe, angular broad head with prominent lip pits, yellowish belly, no limbs. Humid Guiana rainforest. Scene: Close side view of angular green head, closed mouth, natural small heat-sensing lip pits, vertical pupil. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "4db803d4f25cff920b2d237c26487a07895d01f1fb857eb19c3ff672648e7ca4",
+      "runtimeSha256": "bda084f93d916763cf95d6546deabc5ad8164f7310c3938d4911b55c15f646eb"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Northern emerald tree boa Corallus caninus, Guiana Shield form, emerald green stout snake, irregular separated white dorsal cross markings NOT continuous white dorsal stripe, angular broad head with prominent lip pits, yellowish belly, no limbs. Humid Guiana rainforest. Scene: Entire snake draped over a branch, elevated angle makes the separated white dorsal markings visible. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "7831ac521ee694a8625449ea42caf16fb59b62bdecdcd85994b8a8f73dcc42bb",
+      "runtimeSha256": "950e19da44d4df9f27396346d6bdf500c68f333221ffc1fff14e1cfa590f8c16"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Northern emerald tree boa Corallus caninus, Guiana Shield form, emerald green stout snake, irregular separated white dorsal cross markings NOT continuous white dorsal stripe, angular broad head with prominent lip pits, yellowish belly, no limbs. Humid Guiana rainforest. Scene: Close view of tapering prehensile tail wrapping around bark, coherent continuous snake anatomy. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "2a166dfe81ab7407ca72ee543ee5a2d064af4030437943c3378a95745d3096cd",
+      "runtimeSha256": "d1d049185c790113cefcc448945d6d11080b959b53a3ee22d3542d4e0073fc63"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Northern emerald tree boa Corallus caninus, Guiana Shield form, emerald green stout snake, irregular separated white dorsal cross markings NOT continuous white dorsal stripe, angular broad head with prominent lip pits, yellowish belly, no limbs. Humid Guiana rainforest. Scene: Whole snake resting among broad rainforest leaves, clearly discernible head and branch coils. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "e2abc2dd8a6df26c1a55742249e4ae64eaabeea08c2fe5dd484b046dad3f430b",
+      "runtimeSha256": "9827b59e780f39e8e42e3650b5ea2da67ca102a05491683753dfc3cf63984e0b"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific-educational. One photorealistic natural wildlife reconstruction, landscape 1536x1024. Realistic anatomy and natural light. No text, labels, collage, border, people, handling or props. Subject: Northern emerald tree boa Corallus caninus, Guiana Shield form, emerald green stout snake, irregular separated white dorsal cross markings NOT continuous white dorsal stripe, angular broad head with prominent lip pits, yellowish belly, no limbs. Humid Guiana rainforest. Scene: Whole snake on branch at dusk, soft dim ambient light, head slightly lifted, mouth closed, no prey. Clear educational observation. Close details can crop body; whole-body views must include entire tail and extremities with margin.",
+      "sourceSha256": "17d04ebc5239b785991e77c2026672f2d75b75fd0890229a57455cff56e4ed16",
+      "runtimeSha256": "9438e9aa03c3dfe359fb72bf87021b020c55b8af3acd359ce4c39ddcf98b38d6"
+    }
+  ]
+}

@@ -4510,5 +4510,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 790
     }
+  },
+  "emerald-tree-boa": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 693,
+      "top": 276,
+      "right": 1476,
+      "bottom": 782
+    }
   }
 };
