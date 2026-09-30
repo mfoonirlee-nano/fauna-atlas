@@ -26447,9 +26447,9 @@ test('the final todo batch completes all selections with distinct six-image prof
 
 test('September 24 ten todo animals have complete profiles and sixty distinct accepted images', async () => {
   const cases = [["kinkajou", "Potos flavus", "Procyonidae"], ["bat-eared-fox", "Otocyon megalotis", "Canidae"], ["eurasian-tree-sparrow", "Passer montanus", "Passeridae"], ["light-vented-bulbul", "Pycnonotus sinensis", "Pycnonotidae"], ["crested-gecko", "Correlophus ciliatus", "Diplodactylidae"], ["vietnamese-mossy-frog", "Theloderma corticale", "Rhacophoridae"], ["longhorn-cowfish", "Lactoria cornuta", "Ostraciidae"], ["old-world-swallowtail", "Papilio machaon", "Papilionidae"], ["giant-pacific-octopus", "Enteroctopus dofleini", "Enteroctopodidae"], ["brown-hydra", "Hydra vulgaris", "Hydridae"]];
-  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
-  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 50);
-  assert.equal([...todo.matchAll(/- \[ \]/g)].length, 60);
+  const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
+  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 55);
+  assert.equal([...todo.matchAll(/- \[ \]/g)].length, 0);
   const hashes = new Set();
   for (const [slug, name, family] of cases) {
     const profile = findSpecies(slug);
@@ -26481,7 +26481,7 @@ test('September 25 mammals keep revised taxonomy and thirty accepted images', as
     ['sand-cat', 'Felis margarita', 'Felidae'],
     ['hoffmanns-two-toed-sloth', 'Choloepus hoffmanni', 'Choloepodidae'],
   ];
-  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
   const hashes = new Set();
   for (const [slug, name, family] of cases) {
     const profile = findSpecies(slug);
@@ -26513,7 +26513,7 @@ test('September 26 mammals retain current taxon scope and thirty distinct accept
     ['lowland-streaked-tenrec', 'Hemicentetes semispinosus', 'Afrosoricida', 'Tenrecidae', 'LC'],
     ['short-eared-sengi', 'Macroscelides proboscideus', 'Macroscelidea', 'Macroscelididae', 'LC'],
   ];
-  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
   const hashes = new Set();
   for (const [slug, name, order, family, status] of cases) {
     const profile = findSpecies(slug);
@@ -26544,7 +26544,7 @@ test('September 27 rodents retain distinct families and thirty accepted images',
     ['black-tailed-prairie-dog', 'Cynomys ludovicianus', 'Sciuridae'],
     ['crested-porcupine', 'Hystrix cristata', 'Hystricidae'],
   ];
-  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
   const hashes = new Set();
   for (const [slug, name, family] of cases) {
     const profile = findSpecies(slug);
@@ -26578,7 +26578,7 @@ test('September 28 bird batch preserves identities, source scope and six accepte
     ['northern-lapwing', 'Vanellus vanellus', 'Charadriidae', 'NT'],
     ['eurasian-oystercatcher', 'Haematopus ostralegus', 'Haematopodidae', 'NT'],
   ];
-  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
   for (const [slug, scientificName, family, status] of cases) {
     const profile = findSpecies(slug);
     assert.equal(profile.scientificName, scientificName);
@@ -26608,7 +26608,7 @@ test('September 29 birds preserve identities, sex-specific captions and thirty a
     ['rainbow-lorikeet', 'Trichoglossus moluccanus', 'Psittaculidae', 'LC'],
     ['kea', 'Nestor notabilis', 'Strigopidae', 'EN'],
   ];
-  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
   const hashes = new Set();
   for (const [slug, name, family, status] of cases) {
     const profile = findSpecies(slug);
@@ -26632,7 +26632,7 @@ test('September 29 birds preserve identities, sex-specific captions and thirty a
 
 test('next five birds preserve taxonomic identities, six-image sets and todo completion', async () => {
   const cases = [["black-skimmer", "Rynchops niger", "Laridae", "LC"], ["great-crested-grebe", "Podiceps cristatus", "Podicipedidae", "LC"], ["victoria-crowned-pigeon", "Goura victoria", "Columbidae", "NT"], ["lilac-breasted-roller", "Coracias caudatus", "Coraciidae", "LC"], ["northern-carmine-bee-eater", "Merops nubicus", "Meropidae", "LC"]];
-  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
   const hashes = new Set();
   for (const [slug, name, family, status] of cases) {
     const profile = findSpecies(slug);
@@ -26658,7 +26658,7 @@ test('next five birds preserve taxonomic identities, six-image sets and todo com
 
 test('September 29 next five preserve species scope, accepted images and todo completion', async () => {
   const cases = [["common-tailorbird", "Orthotomus sutorius", "Cisticolidae"], ["red-eyed-crocodile-skink", "Tribolonotus gracilis", "Scincidae"], ["green-anole", "Anolis carolinensis", "Anolidae"], ["eastern-blue-tongued-skink", "Tiliqua scincoides", "Scincidae"], ["shingleback", "Tiliqua rugosa", "Scincidae"]];
-  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
   const hashes = new Set();
   for (const [slug, name, family] of cases) {
     const profile = findSpecies(slug);
@@ -26681,4 +26681,40 @@ test('September 29 next five preserve species scope, accepted images and todo co
   assert.match(findSpecies('green-anole').media.gallery[2].caption, /不能证明同一只动物正在变色/);
   assert.match(findSpecies('eastern-blue-tongued-skink').description, /T\. s\. scincoides/);
   assert.equal(findSpecies('shingleback').taxonomy.genus.scientificName, 'Tiliqua');
+});
+
+test('September 30 reptiles retain species boundaries, reviewed images and a pending-only todo', async () => {
+  const cases = [
+    ['armadillo-girdled-lizard', 'Ouroborus cataphractus', 'Cordylidae', 'LC'],
+    ['emerald-tree-boa', 'Corallus caninus', 'Boidae', 'LC'],
+    ['tentacled-snake', 'Erpeton tentaculatum', 'Homalopsidae', 'LC'],
+    ['diamondback-terrapin', 'Malaclemys terrapin', 'Emydidae', 'VU'],
+    ['eastern-long-necked-turtle', 'Chelodina longicollis', 'Chelidae', 'LC'],
+  ];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  assert.doesNotMatch(todo, /- \[x\]/);
+  const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
+  assert.equal(pendingNames.length, 55);
+  for (const profile of species) {
+    assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
+  }
+  const hashes = new Set();
+  for (const [slug, name, family, code] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.conservation.code, code);
+    assert.equal(profile.storySections.length, 6);
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+    for (const { image } of [profile.media, ...profile.media.gallery]) {
+      hashes.add(createHash('sha256').update(await readFile(new URL(`../public/${image.slice(2)}`, import.meta.url))).digest('hex'));
+    }
+  }
+  assert.equal(hashes.size, 30);
+  assert.match(findSpecies('emerald-tree-boa').description, /Corallus batesii/);
+  assert.equal(findSpecies('eastern-long-necked-turtle').conservation.assessedYear, 1996);
+  assert.match(findSpecies('eastern-long-necked-turtle').conservation.assessor, /历史/);
+  assert.match(findSpecies('diamondback-terrapin').description, /微咸水/);
 });
