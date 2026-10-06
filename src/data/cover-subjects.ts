@@ -4681,6 +4681,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1490,
       "bottom": 813
     }
+  },
+  "humphead-wrasse": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 688,
+      "top": 194,
+      "right": 1502,
+      "bottom": 658
+    }
   }
 
 };

@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. Landscape 1536x1024 natural-history photorealistic reconstruction. Cheilinus undulatus adult blue-green humphead wrasse with bulbous forehead, thick lips, two lines behind eye and round tail, over a reef. STRICT COVER PLACEMENT: The fish is entirely within RIGHTMOST HALF of image, from x=780 to x=1450, y=180 to y=880. All fins, lure and tail inside that box. Main animal center x=1120. LEFT HALF completely empty blue water and blurred reef. Environmental portrait with a large clear subject in right half. No closeup crop. No letters, watermark or collage.",
+      "sourceSha256": "42b8e1c010c7e0960ec4327fce7a55eecc5b17043820906d53e968e3695592f7",
+      "runtimeSha256": "fb0d20018dd7c4d9f87cdacbe43c8be172b5ec3dfd65bb4d47e7fb5754932de9"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Cheilinus undulatus adult humphead wrasse, large blue-green robust fish with prominent bulbous forehead hump, thick lips, wavy facial lines and two dark lines behind eye, fan shaped round tail. Entire adult side view above coral reef. Specific scene overrides generic pose: Close side profile of adult head with large forehead hump and thick lips, two dark lines behind eye, natural reef. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "e2b9bb6698ae6dd9d9adbc2bb0949f4b55610cfa311b7ce2d8437c48748d8989",
+      "runtimeSha256": "b8738f1bb83d249b779952d4781fc4dcb3dbdf066027124f6865636f97302d14"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Cheilinus undulatus adult humphead wrasse, large blue-green robust fish with prominent bulbous forehead hump, thick lips, wavy facial lines and two dark lines behind eye, fan shaped round tail. Entire adult side view above coral reef. Specific scene overrides generic pose: Full juvenile Cheilinus undulatus, pale grey-green body, elongate dark marks on scales, two dark lines behind eye, thin yellow tail margin. No large hump. Not adult coloration. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "aa03a31395f920b2ac8a771c35c66be6b4a7fde1965e3fbd38f7642585b507b6",
+      "runtimeSha256": "3b8bc87b893fbe8d6d9b06507183a0eeb1f77cadecc38c5937f74e9836bffaba"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Cheilinus undulatus adult humphead wrasse, large blue-green robust fish with prominent bulbous forehead hump, thick lips, wavy facial lines and two dark lines behind eye, fan shaped round tail. Entire adult side view above coral reef. Specific scene overrides generic pose: Close side view adult facial wavy blue-green lines and scales, eye and thick lips visible. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "8c45bcc4676bfb4a1bc0e4aa8f168fa0f395eb116fe6146e9ae95cab5fcad455",
+      "runtimeSha256": "eb8cc8d344096d4108c427cfeae6543386fec51c36f82001bc4440e9d0c9de7c"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Cheilinus undulatus adult humphead wrasse, large blue-green robust fish with prominent bulbous forehead hump, thick lips, wavy facial lines and two dark lines behind eye, fan shaped round tail. Entire adult side view above coral reef. Specific scene overrides generic pose: Whole adult swimming naturally over offshore reef slope, all fins visible, strong forehead hump. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "002a3be9663a1df8df71a9103225b9221d76ae1cd6bdec83f580bb02204de5af",
+      "runtimeSha256": "bb33df402d388860f51bf23e7235f97a1c569311929c8b3d8e9698edb4febf00"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Cheilinus undulatus adult humphead wrasse, large blue-green robust fish with prominent bulbous forehead hump, thick lips, wavy facial lines and two dark lines behind eye, fan shaped round tail. Entire adult side view above coral reef. Specific scene overrides generic pose: Wide coral reef habitat with one adult in clear blue water, rocky shelter in background, no people or feeding. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "2a3472b572c0a52ee445d63a0f9bfd9797da82a47303eea1eb3ed623c4785502",
+      "runtimeSha256": "c2abf1c4f01b212c290d8d1636d36ff6b46ba5d6a73bb77f1ad113ad6b8912dd"
+    }
+  ],
+  "reviewedAt": "2026-10-07"
+}

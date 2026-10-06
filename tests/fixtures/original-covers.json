@@ -3755,5 +3755,18 @@
       },
       "sha256": "b2c17fbcbdc042036ae137aa5754a5ca5f9b347dffc212c6d881849071713c30"
     }
+  },
+  "humphead-wrasse": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 688,
+        "top": 194,
+        "right": 1502,
+        "bottom": 658
+      },
+      "sha256": "fb0d20018dd7c4d9f87cdacbe43c8be172b5ec3dfd65bb4d47e7fb5754932de9"
+    }
   }
 }
