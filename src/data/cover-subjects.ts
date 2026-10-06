@@ -4650,5 +4650,17 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1524,
       "bottom": 877
     }
+  },
+
+  "jointed-razorfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 1006,
+      "top": 15,
+      "right": 1128,
+      "bottom": 916
+    }
   }
+
 };

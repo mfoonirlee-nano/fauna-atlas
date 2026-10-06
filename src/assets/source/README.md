@@ -690,3 +690,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [皇冠海马 image set](./species/bargibants-pygmy-seahorse/README.md)
 - [条纹躄鱼 image set](./species/striated-frogfish/README.md)
 - [东方豹鲂鮄 image set](./species/oriental-flying-gurnard/README.md)
+
+- [条纹虾鱼 image set](./species/jointed-razorfish/README.md)

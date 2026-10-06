@@ -3716,5 +3716,18 @@
       },
       "sha256": "2d5e1829bc46e378b21162500180979eda054f42aa0870a2ec529f319f3b6f99"
     }
+  },
+  "jointed-razorfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 1006,
+        "top": 15,
+        "right": 1128,
+        "bottom": 916
+      },
+      "sha256": "0f6d6b773b945e4275a1d9be596de7062053730ecc08a4d15f3bc0ca05ce152d"
+    }
   }
 }

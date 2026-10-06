@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate one landscape 1536x1024 photorealistic underwater natural-history reconstruction for a species cover. Aeoliscus strigatus jointed razorfish, ONE complete fish swimming vertically head down, extremely thin flattened silvery rigid body, one dark longitudinal stripe from long tubular snout to upper rear body, hinged dorsal spine at upper end, tiny transparent fins. Natural seagrass lagoon with blue-green water. Entire fish including snout, spine and fins must be in RIGHT HALF x=850..1400 y=130..900, large and clear with real background clearance. Left 40 percent quiet blurred water for text. No text, logo, border, collage, people, aquarium or anthropomorphism.",
+      "sourceSha256": "43f627bee4b6b330d2829ceb927262dae7fb2dce67a0e1409d57fe66f4c5cfca",
+      "runtimeSha256": "0f6d6b773b945e4275a1d9be596de7062053730ecc08a4d15f3bc0ca05ce152d"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Aeoliscus strigatus jointed razorfish, extremely thin flattened silvery armored body, dark longitudinal stripe, long tubular snout, hinged dorsal spine, swims head down Specific scene overrides generic pose: Small school of five complete fish swimming parallel vertically HEAD DOWN over seagrass. Broad side view fish, thin leaf-shaped silvery body tapering to very long tubular snout, no long dorsal fin running down body. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "7fbacde278711c78848ca7f5eb6c5a8ceb5d2fe4f87113ee8bc33129c047ec6c",
+      "runtimeSha256": "30da03e0698447c3b8c789e64d95b7f13a6026100227d36959cd1f02b6a266ae"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Aeoliscus strigatus jointed razorfish, extremely thin flattened silvery armored body, dark longitudinal stripe, long tubular snout, hinged dorsal spine, swims head down Specific scene overrides generic pose: Macro profile of head pointing DOWN showing the eye and long tubular mouth, blurred lagoon. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "f58cc588e7ff32e1fd70c3d5ed998792ec6d2e059b4a8e0af4ddc097d8963112",
+      "runtimeSha256": "4c116a96cf337820d3c246005458203f2cbf42036af7f22b68e34698e4ad955c"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Aeoliscus strigatus jointed razorfish, extremely thin flattened silvery armored body, dark longitudinal stripe, long tubular snout, hinged dorsal spine, swims head down Specific scene overrides generic pose: One whole fish broadside head down beside dark long sea urchin spines, not touching or impaled. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "d54e2eff89a0975850028087b282815feb0b67028becede385e9da7ee7541abf",
+      "runtimeSha256": "0c24d02fbc2c562e25ef3dbd80f93c8babf8788f46d93a605a7a39f3ff137a5b"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Aeoliscus strigatus jointed razorfish, extremely thin flattened silvery armored body, dark longitudinal stripe, long tubular snout, hinged dorsal spine, swims head down Specific scene overrides generic pose: One whole greenish-silver fish head down amongst vertical seagrass leaves, natural camouflage. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "14197b8d772cf7e0a25d0aa02071318f515dd55947e18918654d138db1304f13",
+      "runtimeSha256": "23d09e129321c6fb082335bfca2e603f025593f8deb63dc9b41b5c4321eb56a5"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Aeoliscus strigatus jointed razorfish, extremely thin flattened silvery armored body, dark longitudinal stripe, long tubular snout, hinged dorsal spine, swims head down Specific scene overrides generic pose: Whole single head-down fish side view showing narrow transparent armor plates and small fins near upper end, calm sandy lagoon. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "717febc42909118212909878d7e3c55e8babaaf34390e191ad73e24a0621a030",
+      "runtimeSha256": "7a5b58e92cbbb6400f4fa95400bcac41b0815a76dea8a7cb42a30468b6532e1a"
+    }
+  ],
+  "reviewedAt": "2026-10-07"
+}
