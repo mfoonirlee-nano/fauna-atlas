@@ -24356,7 +24356,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 465);
+  assert.equal(species.length, 470);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24527,7 +24527,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 465);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 470);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24548,7 +24548,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 360);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 365);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 129);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 45);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
@@ -24570,7 +24570,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 37);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 42);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -25095,7 +25095,7 @@ test('integrates leafy seadragon taxonomy and reviewed six-image set', async () 
   const profile = findSpecies('leafy-seadragon');
   const tree = buildTaxonomyTree(species);
   assert.equal(profile.scientificName, 'Phycodurus eques');
-  assert.equal(findTaxon(tree, 'order', 'Syngnathiformes')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'order', 'Syngnathiformes')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'family', 'Syngnathidae')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'genus', 'Phycodurus')?.children[0]?.species.id, profile.id);
   assert.equal(profile.conservation.code, 'LC');
@@ -25130,7 +25130,7 @@ test('integrates white-spotted pufferfish taxonomy, measurement scope and review
   const profile = findSpecies('white-spotted-pufferfish');
   const tree = buildTaxonomyTree(species);
   assert.equal(profile.scientificName, 'Torquigener albomaculosus');
-  assert.equal(findTaxon(tree, 'order', 'Tetraodontiformes')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'order', 'Tetraodontiformes')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Tetraodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Torquigener')?.children[0]?.species.id, profile.id);
   assert.deepEqual(profile.distribution.realms, ['marine']);
@@ -26478,7 +26478,7 @@ test('the final todo batch completes all selections with distinct six-image prof
 test('September 24 ten todo animals have complete profiles and sixty distinct accepted images', async () => {
   const cases = [["kinkajou", "Potos flavus", "Procyonidae"], ["bat-eared-fox", "Otocyon megalotis", "Canidae"], ["eurasian-tree-sparrow", "Passer montanus", "Passeridae"], ["light-vented-bulbul", "Pycnonotus sinensis", "Pycnonotidae"], ["crested-gecko", "Correlophus ciliatus", "Diplodactylidae"], ["vietnamese-mossy-frog", "Theloderma corticale", "Rhacophoridae"], ["longhorn-cowfish", "Lactoria cornuta", "Ostraciidae"], ["old-world-swallowtail", "Papilio machaon", "Papilionidae"], ["giant-pacific-octopus", "Enteroctopus dofleini", "Enteroctopodidae"], ["brown-hydra", "Hydra vulgaris", "Hydridae"]];
   const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
-  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 65);
+  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 70);
   assert.equal([...todo.matchAll(/- \[ \]/g)].length, 0);
   const hashes = new Set();
   for (const [slug, name, family] of cases) {
@@ -26724,7 +26724,7 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   assert.doesNotMatch(todo, /- \[x\]/);
   const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
-  assert.equal(pendingNames.length, 45);
+  assert.equal(pendingNames.length, 40);
   for (const profile of species) {
     assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
   }
