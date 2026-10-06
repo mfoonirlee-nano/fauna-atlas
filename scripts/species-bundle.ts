@@ -39,7 +39,7 @@ export function speciesBundle(): Plugin {
         // A tag equal to the Chinese name reuses that name through the -1 sentinel.
         const labelCounts = new Map<string, number>();
         for (const label of summaries.flatMap(({ names, distribution, habitats, tags }) => [
-          ...distribution.regions, ...distribution.realms, ...habitats.map(({ name }) => name), ...tags.filter((tag) => tag !== names.zh),
+          ...distribution.regions, ...habitats.map(({ name }) => name), ...tags.filter((tag) => tag !== names.zh),
         ])) labelCounts.set(label, (labelCounts.get(label) ?? 0) + 1);
         const labels = [...labelCounts].filter(([, count]) => count > 1).map(([label]) => label);
         const labelIndexes = new Map(labels.map((label, index) => [label, index]));
@@ -55,6 +55,11 @@ export function speciesBundle(): Plugin {
         const altSuffixes = [...altCounts].filter(([, count]) => count > 1).map(([suffix]) => suffix);
         const altIndexes = new Map(altSuffixes.map((suffix, index) => [suffix, index]));
         const conservationCodes = [...new Set(summaries.map(({ conservation }) => conservation.code))];
+        // Marine, freshwater and terrestrial combinations repeat across the catalogue.
+        const realmSets = [...new Map(summaries.map(({ distribution }) =>
+          [JSON.stringify(distribution.realms), distribution.realms] as const,
+        )).values()];
+        const realmIndexes = new Map(realmSets.map((realms, index) => [JSON.stringify(realms), index]));
         // Ship the six rank names once; retain their order when restoring each lineage.
         // Restore redundant ids and compact text field names on the client.
         const catalogue = summaries.map(({ id, names, scientificName, summary, conservation, distribution, taxonomy, media, habitats, tags, ...item }) => ({ ...item,
@@ -65,7 +70,7 @@ export function speciesBundle(): Plugin {
             ? scientificName.slice(taxonomy.genus.scientificName.length + 1) : [scientificName],
           s: summary.startsWith(names.zh) ? [summary.slice(names.zh.length)] : summary, c: conservationCodes.indexOf(conservation.code),
           // Distribution keys repeat for every species; encode optional center last.
-          d: [encodeLabels(distribution.regions), encodeLabels(distribution.realms), ...(distribution.center === undefined ? [] : [distribution.center])],
+          d: [encodeLabels(distribution.regions), realmIndexes.get(JSON.stringify(distribution.realms)), ...(distribution.center === undefined ? [] : [distribution.center])],
           // The standard cover filename and focal point use compact sentinels.
           m: [media.image?.startsWith(`./images/species/${item.slug}/`)
             && !media.image.slice(`./images/species/${item.slug}/`.length).includes('/')
@@ -86,9 +91,11 @@ export function speciesBundle(): Plugin {
           [JSON.stringify(t.slice(0, 4)), t.slice(0, 4)] as const,
         )).values()];
         const lineageIndexes = new Map(lineages.map((lineage, index) => [JSON.stringify(lineage), index]));
-        // Positional rows avoid repeating field keys for every species.
+        // Positional rows avoid repeating keys. The common name + primary habitat
+        // tag pair can be restored from fields already present in the same row.
         const rows = catalogue.map(({ slug, l, n, s, c, d, t, m, h, g, id }) =>
-          [slug, l, n, s, c, d, [lineageIndexes.get(JSON.stringify(t.slice(0, 4))), ...t.slice(4)], m, h, g, ...(id === undefined ? [] : [id])],
+          [slug, l, n, s, c, d, [lineageIndexes.get(JSON.stringify(t.slice(0, 4))), ...t.slice(4)], m, h,
+            g.length === 2 && g[0] === -1 && g[1] === h[0] ? 1 : g, ...(id === undefined ? [] : [id])],
         );
         // Match catalogue order so the loader table does not repeat every slug.
         const loaders = species.map(({ slug }) =>
@@ -101,9 +108,10 @@ export function speciesBundle(): Plugin {
           const labels=${JSON.stringify(labels)};
           const altSuffixes=${JSON.stringify(altSuffixes)};
           const conservationCodes=${JSON.stringify(conservationCodes)};
+          const realmSets=${JSON.stringify(realmSets)};
           const restoreLabels=(values,name)=>values.map(value=>value===-1?name:typeof value==='number'?labels[value]:value);
           export const species=${JSON.stringify(rows)}.map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
-            conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g,l[0]),
+            conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:realmSets[d[1]],...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:g===1?[l[0],restoreLabels(h)[0]]:restoreLabels(g,l[0]),
             taxonomy:Object.fromEntries([...lineages[t[0]],...t.slice(1)].map((taxon,index)=>[ranks[index],taxa[taxon]]))}));
           const imports=[${loaders}];
           const loaders=new Map(species.map((item,index)=>[item.slug,imports[index]]));
