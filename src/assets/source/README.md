@@ -680,3 +680,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [长颈龟 image set](./species/eastern-long-necked-turtle/README.md)
 - [华莱士飞蛙 image set](./species/wallaces-flying-frog/README.md)
 - [苏里南角蛙 image set](./species/surinam-horned-frog/README.md)
+- [沙漠雨蛙 image set](./species/desert-rain-frog/README.md)

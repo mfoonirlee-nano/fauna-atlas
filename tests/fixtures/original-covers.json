@@ -3612,5 +3612,18 @@
       },
       "sha256": "1a1b5afcef0acd00c5c22f3d4222797f9188256082a1aa6ed915ccd8e25c035c"
     }
+  },
+  "desert-rain-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 737,
+        "top": 270,
+        "right": 1490,
+        "bottom": 866
+      },
+      "sha256": "ff34d9af646c516b189f2009d8b87765edf898ff65a1c5b618b2d946043bf471"
+    }
   }
 }

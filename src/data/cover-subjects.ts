@@ -4570,5 +4570,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1500,
       "bottom": 845
     }
+  },
+  "desert-rain-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 737,
+      "top": 270,
+      "right": 1490,
+      "bottom": 866
+    }
   }
 };

@@ -128032,6 +128032,264 @@ export const species = [
   "updatedAt": "2026-10-01"
 },
 
+{
+  "id": "desert-rain-frog",
+  "slug": "desert-rain-frog",
+  "names": {
+    "zh": "沙漠雨蛙",
+    "en": "Desert Rain Frog"
+  },
+  "scientificName": "Breviceps macrops",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Amphibia",
+      "zhName": "两栖纲"
+    },
+    "order": {
+      "scientificName": "Anura",
+      "zhName": "无尾目"
+    },
+    "family": {
+      "scientificName": "Brevicipitidae",
+      "zhName": "短头蛙科"
+    },
+    "genus": {
+      "scientificName": "Breviceps",
+      "zhName": "短头蛙属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "VU",
+    "label": {
+      "zh": "易危",
+      "en": "Vulnerable"
+    },
+    "trend": "unknown",
+    "assessor": "全球 VU：IUCN 物种说明与 2026 年名录引用一致，SANBI 最新综述也记录 NT 升为 VU。旧版 NT 资料仍在线；未取得新评估全文，不填评估年份或趋势。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "非洲西南部海岸"
+    ],
+    "countries": [
+      "纳米比亚",
+      "南非"
+    ],
+    "range": "纳米比亚西南部吕德里茨至南非小纳马夸兰海岸的狭窄沙地带。"
+  },
+  "habitats": [
+    {
+      "name": "海岸雾带沙丘",
+      "realm": "terrestrial",
+      "description": "在长有低矮植被的松软沙丘中穴居，沿海雾气为环境带来水分。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "小型昆虫"
+    ],
+    "description": "食物包括小型昆虫。"
+  },
+  "tags": [
+    "沙漠雨蛙",
+    "海岸雾带沙丘"
+  ],
+  "summary": "沙漠雨蛙有圆圆的身体和短腿，生活在非洲西南部有雾的海岸沙丘。",
+  "description": "沙漠雨蛙有圆圆的身体和短腿，生活在非洲西南部有雾的海岸沙丘。白天它多躲在沙中，夜间到地表活动。它依赖海岸雾带和沙下较湿润的环境；“沙漠”这个名字不表示它可以脱离水分生活。本组展示自然体形，不通过惊吓让它鼓胀或发声。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "圆肚子下面的小脚",
+      "body": "沿着身体下缘找找短短的脚。这里展示放松时的身体轮廓。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "大眼睛和短吻",
+      "body": "看看头部两侧的大眼睛，再找找前面短短的吻部。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "在沙地上走",
+      "body": "它用短腿在沙地上行走。单张重建图只表示行走姿态，脚印不用于研究步态。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "沙里的藏身处",
+      "body": "白天它常钻入沙中。看看低矮植物旁的沙地，想一想地表和沙下的湿度差别。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "海边的雾",
+      "body": "它生活的海岸会起雾，雾气为干旱地区带来水分。看看远处植物怎样隐入雾中。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护海岸沙丘和原生植被，保持观察距离，不挖出雨蛙或刺激它发声。"
+    }
+  ],
+  "keyFacts": [
+    "沿着身体下缘找找短短的脚。这里展示放松时的身体轮廓。",
+    "看看头部两侧的大眼睛，再找找前面短短的吻部。",
+    "它用短腿在沙地上行走。单张重建图只表示行走姿态，脚印不用于研究步态。",
+    "白天它常钻入沙中。看看低矮植物旁的沙地，想一想地表和沙下的湿度差别。",
+    "它生活的海岸会起雾，雾气为干旱地区带来水分。看看远处植物怎样隐入雾中。"
+  ],
+  "threats": [
+    "海岸采矿造成栖息地损失",
+    "道路与居民区扩展"
+  ],
+  "conservationActions": [
+    "保护海岸沙丘和原生植被，保持观察距离，不挖出雨蛙或刺激它发声。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "海岸雾带沙丘"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "圆肚子下面的小脚"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "易危",
+      "note": "全球 VU：IUCN 物种说明与 2026 年名录引用一致，SANBI 最新综述也记录 NT 升为 VU。旧版 NT 资料仍在线；未取得新评估全文，不填评估年份或趋势。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/desert-rain-frog/01-cover.webp",
+    "alt": "沙漠雨蛙及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/desert-rain-frog/02-observation.webp",
+        "alt": "沙漠雨蛙：圆肚子下面的小脚",
+        "title": "圆肚子下面的小脚",
+        "caption": "AI 生成科学情景重建。沿着身体下缘找找短短的脚。这里展示放松时的身体轮廓。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/desert-rain-frog/03-observation.webp",
+        "alt": "沙漠雨蛙：大眼睛和短吻",
+        "title": "大眼睛和短吻",
+        "caption": "AI 生成科学情景重建。看看头部两侧的大眼睛，再找找前面短短的吻部。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/desert-rain-frog/04-observation.webp",
+        "alt": "沙漠雨蛙：在沙地上走",
+        "title": "在沙地上走",
+        "caption": "AI 生成科学情景重建。它用短腿在沙地上行走。单张重建图只表示行走姿态，脚印不用于研究步态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/desert-rain-frog/05-observation.webp",
+        "alt": "沙漠雨蛙：沙里的藏身处",
+        "title": "沙里的藏身处",
+        "caption": "AI 生成科学情景重建。白天它常钻入沙中。看看低矮植物旁的沙地，想一想地表和沙下的湿度差别。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/desert-rain-frog/06-observation.webp",
+        "alt": "沙漠雨蛙：海边的雾",
+        "title": "海边的雾",
+        "caption": "AI 生成科学情景重建。它生活的海岸会起雾，雾气为干旱地区带来水分。看看远处植物怎样隐入雾中。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "AMNH Amphibian Species of the World：接受学名、分类与分布",
+      "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Brevicipitidae/Breviceps/Breviceps-macrops",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "title": "IUCN：沙漠雨蛙物种说明",
+      "url": "https://nc.iucnredlist.org/redlist/amazing-species/breviceps-macrops/pdfs/original/breviceps-macrops.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "title": "SANBI 国家生物多样性评估：威胁等级变化",
+      "url": "https://nba.sanbi.org.za/content/species/sp_amphibians.html",
+      "kind": "conservation",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "title": "Channing 与 Wahlberg：分布与自然史研究",
+      "url": "https://doi.org/10.1080/21564574.2011.608383",
+      "kind": "ecology",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "title": "IUCN 2026 名录引用（全文未取得）",
+      "url": "https://www.iucnredlist.org/species/3070/248906550",
+      "kind": "conservation",
+      "accessedAt": "2026-10-01"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-01",
+  "updatedAt": "2026-10-01"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
