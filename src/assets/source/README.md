@@ -681,3 +681,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [华莱士飞蛙 image set](./species/wallaces-flying-frog/README.md)
 - [苏里南角蛙 image set](./species/surinam-horned-frog/README.md)
 - [沙漠雨蛙 image set](./species/desert-rain-frog/README.md)
+- [非洲牛箱头蛙 image set](./species/african-bullfrog/README.md)

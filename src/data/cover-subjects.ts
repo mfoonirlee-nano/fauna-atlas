@@ -4580,5 +4580,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1490,
       "bottom": 866
     }
+  },
+  "african-bullfrog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 733,
+      "top": 232,
+      "right": 1506,
+      "bottom": 850
+    }
   }
 };

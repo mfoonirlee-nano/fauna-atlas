@@ -3625,5 +3625,18 @@
       },
       "sha256": "ff34d9af646c516b189f2009d8b87765edf898ff65a1c5b618b2d946043bf471"
     }
+  },
+  "african-bullfrog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 733,
+        "top": 232,
+        "right": 1506,
+        "bottom": 850
+      },
+      "sha256": "231e8a5c696f892c39f09fb282b750d0940f2ebe35732d2d329c85e2d2985626"
+    }
   }
 }

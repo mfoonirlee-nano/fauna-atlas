@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-01",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult male African bullfrog Pyxicephalus adspersus, bulky olive-green body, very broad blunt head and CLOSED wide mouth, golden-brown eyes, prominent longitudinal skin ridges on back, creamy yellow throat and robust limbs. Not American bullfrog. Whole frog relaxed on damp savanna soil beside shallow temporary pool after rain. COVER COMPOSITION: full animal strictly in right half, ALL toes and body within x=700..1450 y=180..870, large prominent body, center at 72% width. Left 40% quiet blurred habitat only. Real empty background around entire silhouette. ",
+      "sourceSha256": "3783d79d3bf91bb9557c1b9985ffc179527d2bdeced6beff3dbe1eb24d6ffdb3",
+      "runtimeSha256": "231e8a5c696f892c39f09fb282b750d0940f2ebe35732d2d329c85e2d2985626"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult male African bullfrog Pyxicephalus adspersus, bulky olive-green body, very broad blunt head and CLOSED wide mouth, golden-brown eyes, prominent longitudinal skin ridges on back, creamy yellow throat and robust limbs. Not American bullfrog. Front view of whole calm frog highlighting very broad closed mouth and head width, forefeet visible on damp ground. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "783e8670278e020a6f22ef50b1b3771d2444ce3731396841f50e0b44336aef5b",
+      "runtimeSha256": "fed354248d6b69f7c33f71b45e639cb66f1c95d728ab50592df978d5bfb4ad72"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult male African bullfrog Pyxicephalus adspersus, bulky olive-green body, very broad blunt head and CLOSED wide mouth, golden-brown eyes, prominent longitudinal skin ridges on back, creamy yellow throat and robust limbs. Not American bullfrog. Elevated side view of whole frog showing ridged olive-green back and thick folded hind legs on wet grassland soil. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "403281328c3560264dce3440373279e7bb7196e27fc7291904500a4514952b2d",
+      "runtimeSha256": "4ef04d4cea7d33f03dcf8c98f2498a943ea836cded796cefc8d9215b36bc2a22"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult male African bullfrog Pyxicephalus adspersus, bulky olive-green body, very broad blunt head and CLOSED wide mouth, golden-brown eyes, prominent longitudinal skin ridges on back, creamy yellow throat and robust limbs. Not American bullfrog. Whole frog sitting in shallow rain pool in southern African grassy savanna, eyes above water and body visible through clear water. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "9eb5a989a21337655e62d61302c00a48af2a6856853262faace8546058aed642",
+      "runtimeSha256": "a77d63060c4130142419b60661df435a72ee5d58cd90ea448794a4fd1bc240a7"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult male African bullfrog Pyxicephalus adspersus, bulky olive-green body, very broad blunt head and CLOSED wide mouth, golden-brown eyes, prominent longitudinal skin ridges on back, creamy yellow throat and robust limbs. Not American bullfrog. Adult male beside a group of tiny dark tadpoles swimming in a shallow temporary pool; calm guarding scene, no attack, show the whole frog. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "d7df8c9a2720ae93eea36014e986bd3d1adb3f0ac847fea28a6019d8d015b1a7",
+      "runtimeSha256": "d06d0d90c060991fc3f02de3df7c70c99aa1e64bf851abaf8b51c7b8b7b03a25"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult male African bullfrog Pyxicephalus adspersus, bulky olive-green body, very broad blunt head and CLOSED wide mouth, golden-brown eyes, prominent longitudinal skin ridges on back, creamy yellow throat and robust limbs. Not American bullfrog. Whole frog at entrance of earthen burrow under dry grass at edge of savanna, resting, no exposed cutaway, no human disturbance. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "dfe31babc2315690022e007be891e3e5c5e18e5878d4f07d4824b0d1ccf6ec05",
+      "runtimeSha256": "4aa2318fc283073d244e66eb2a30fdb7d84443c365553bb0f28767c334d28e3c"
+    }
+  ]
+}
