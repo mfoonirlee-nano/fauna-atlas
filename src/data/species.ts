@@ -127775,6 +127775,263 @@ export const species = [
   "updatedAt": "2026-10-01"
 },
 
+{
+  "id": "surinam-horned-frog",
+  "slug": "surinam-horned-frog",
+  "names": {
+    "zh": "苏里南角蛙",
+    "en": "Surinam Horned Frog"
+  },
+  "scientificName": "Ceratophrys cornuta",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Amphibia",
+      "zhName": "两栖纲"
+    },
+    "order": {
+      "scientificName": "Anura",
+      "zhName": "无尾目"
+    },
+    "family": {
+      "scientificName": "Ceratophryidae",
+      "zhName": "角花蟾科"
+    },
+    "genus": {
+      "scientificName": "Ceratophrys",
+      "zhName": "角花蟾属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "AArk / ASG 物种记录与 Animal Diversity Web 列全球 LC；未确认原始评估年份，全球趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "freshwater"
+    ],
+    "continents": [
+      "南美洲"
+    ],
+    "regions": [
+      "亚马孙流域",
+      "圭亚那地区"
+    ],
+    "countries": [
+      "巴西",
+      "玻利维亚",
+      "哥伦比亚",
+      "厄瓜多尔",
+      "秘鲁",
+      "委内瑞拉",
+      "圭亚那",
+      "苏里南",
+      "法属圭亚那"
+    ],
+    "range": "分布在亚马孙流域及圭亚那地区，并不限于苏里南。"
+  },
+  "habitats": [
+    {
+      "name": "热带雨林地表",
+      "realm": "terrestrial",
+      "description": "成蛙藏在森林落叶与土壤之间，繁殖利用水塘。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "其他蛙类",
+      "小型脊椎动物"
+    ],
+    "description": "食物包括昆虫、其他蛙类、小型脊椎动物。"
+  },
+  "tags": [
+    "苏里南角蛙",
+    "热带雨林地表"
+  ],
+  "summary": "苏里南角蛙的眼睛上方有尖尖的皮肤突起，宽嘴和圆身体常藏在落叶之间。",
+  "description": "苏里南角蛙的眼睛上方有尖尖的皮肤突起，宽嘴和圆身体常藏在落叶之间。眼上突起由皮肤形成。它常在地面等待猎物靠近，再用宽嘴捕食。身体可呈绿、褐等色调；本组选择绿褐相间的一种外观，区别于其他角蛙和人工杂交个体。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "眼睛上方的小尖角",
+      "body": "找找两只眼睛上方尖尖的皮肤突起。观察自然放松的姿态。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "落叶色的斑纹",
+      "body": "在俯视图里找找绿色、褐色和浅色斑块，再沿着身体找轮廓。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "短腿藏在哪里",
+      "body": "从侧面看看折在身旁的后腿和前方的小脚。它常贴近地面停留。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "落叶里的等待",
+      "body": "它会伏在落叶间等待食物靠近。图片展示隐蔽姿态，不安排捕食场面。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "雨后的水塘",
+      "body": "看看湿落叶旁的浅水。成蛙多在陆地活动，繁殖和蝌蚪生长与水有关。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保留林地与落叶层，观察时不翻动落叶寻找或抓取角蛙。"
+    }
+  ],
+  "keyFacts": [
+    "找找两只眼睛上方尖尖的皮肤突起。观察自然放松的姿态。",
+    "在俯视图里找找绿色、褐色和浅色斑块，再沿着身体找轮廓。",
+    "从侧面看看折在身旁的后腿和前方的小脚。它常贴近地面停留。",
+    "它会伏在落叶间等待食物靠近。图片展示隐蔽姿态，不安排捕食场面。",
+    "看看湿落叶旁的浅水。成蛙多在陆地活动，繁殖和蝌蚪生长与水有关。"
+  ],
+  "threats": [
+    "野外采集与宠物贸易",
+    "局地森林环境改变"
+  ],
+  "conservationActions": [
+    "保留林地与落叶层，观察时不翻动落叶寻找或抓取角蛙。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带雨林地表"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "眼睛上方的小尖角"
+    },
+    {
+      "key": "conservation",
+      "label": "保护等级",
+      "value": "无危",
+      "note": "AArk / ASG 物种记录与 Animal Diversity Web 列全球 LC；未确认原始评估年份，全球趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/surinam-horned-frog/01-cover.webp",
+    "alt": "苏里南角蛙及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/surinam-horned-frog/02-observation.webp",
+        "alt": "苏里南角蛙：眼睛上方的小尖角",
+        "title": "眼睛上方的小尖角",
+        "caption": "AI 生成科学情景重建。找找两只眼睛上方尖尖的皮肤突起。观察自然放松的姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/surinam-horned-frog/03-observation.webp",
+        "alt": "苏里南角蛙：落叶色的斑纹",
+        "title": "落叶色的斑纹",
+        "caption": "AI 生成科学情景重建。在俯视图里找找绿色、褐色和浅色斑块，再沿着身体找轮廓。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/surinam-horned-frog/04-observation.webp",
+        "alt": "苏里南角蛙：短腿藏在哪里",
+        "title": "短腿藏在哪里",
+        "caption": "AI 生成科学情景重建。从侧面看看折在身旁的后腿和前方的小脚。它常贴近地面停留。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/surinam-horned-frog/05-observation.webp",
+        "alt": "苏里南角蛙：落叶里的等待",
+        "title": "落叶里的等待",
+        "caption": "AI 生成科学情景重建。它会伏在落叶间等待食物靠近。图片展示隐蔽姿态，不安排捕食场面。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/surinam-horned-frog/06-observation.webp",
+        "alt": "苏里南角蛙：雨后的水塘",
+        "title": "雨后的水塘",
+        "caption": "AI 生成科学情景重建。看看湿落叶旁的浅水。成蛙多在陆地活动，繁殖和蝌蚪生长与水有关。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "AMNH Amphibian Species of the World：接受学名、分类与分布",
+      "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Ceratophryidae/Ceratophrys/Ceratophrys-cornuta",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "title": "Animal Diversity Web：外形、食性和繁殖",
+      "url": "https://animaldiversity.org/accounts/Ceratophrys_cornuta/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-01"
+    },
+    {
+      "title": "AArk / ASG：物种保护需求与全球 LC",
+      "url": "https://www.conservationneeds.org/summaryreport/3549?AspxAutoDetectCookieSupport=1",
+      "kind": "conservation",
+      "accessedAt": "2026-10-01"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-01",
+  "updatedAt": "2026-10-01"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

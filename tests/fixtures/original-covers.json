@@ -3599,5 +3599,18 @@
       },
       "sha256": "5a8fd2bffa5415c85159942250f3d71d83dc13e76b39c7e79cbe54129a1c0a85"
     }
+  },
+  "surinam-horned-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 187,
+        "right": 1500,
+        "bottom": 845
+      },
+      "sha256": "1a1b5afcef0acd00c5c22f3d4222797f9188256082a1aa6ed915ccd8e25c035c"
+    }
   }
 }

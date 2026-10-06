@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-01",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Surinam horned frog Ceratophrys cornuta, extremely broad rounded body, broad mouth CLOSED, pointed triangular SKIN extensions above both eyelids, brown tan and leaf-green camouflage mottling, stout short limbs, no hard horns. Whole relaxed frog on Amazonian leaf litter, front three-quarter view. COVER COMPOSITION: full animal strictly in right half, ALL toes and body within x=700..1450 y=180..870, large prominent body, center at 72% width. Left 40% quiet blurred habitat only. Real empty background around entire silhouette. ",
+      "sourceSha256": "ad03f8889d905c20f8a83fb10f5edfa9ed51fba8cbd3d89992b8a7b5f1f2c0a3",
+      "runtimeSha256": "1a1b5afcef0acd00c5c22f3d4222797f9188256082a1aa6ed915ccd8e25c035c"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Surinam horned frog Ceratophrys cornuta, extremely broad rounded body, broad mouth CLOSED, pointed triangular SKIN extensions above both eyelids, brown tan and leaf-green camouflage mottling, stout short limbs, no hard horns. Close front three-quarter view highlighting the two pointed upper eyelid skin extensions and closed wide mouth, natural leaf litter. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "e2c0b79be151af8b98d88ade7156abc6530c8b8fe4654ce490c907fb8f823425",
+      "runtimeSha256": "ef5a2acfdbbae9877aed67f9feb69c2214405b6e98ad3c5fa1cb1ff1eb054c50"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Surinam horned frog Ceratophrys cornuta, extremely broad rounded body, broad mouth CLOSED, pointed triangular SKIN extensions above both eyelids, brown tan and leaf-green camouflage mottling, stout short limbs, no hard horns. Whole frog overhead view showing leaf-brown and green irregular camouflage and broad outline among fallen leaves. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "5f492f60fbae1bbf88c10f3f52dbc0176e4ef11268dc7e60d6fccb9254862e45",
+      "runtimeSha256": "359a0bfe68d5681dce20be39698697dde89f1c69b3c3bd542dc3a4f401e7d879"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Surinam horned frog Ceratophrys cornuta, extremely broad rounded body, broad mouth CLOSED, pointed triangular SKIN extensions above both eyelids, brown tan and leaf-green camouflage mottling, stout short limbs, no hard horns. Side view of frog sitting low with folded short hind legs, on moist forest soil, whole body and toes visible. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "8d94caa568fb589a48d769fbaf237477dee221d9dd6b81714be8f647c1218fb3",
+      "runtimeSha256": "2dfdca9a08cc0c9ed151f8e650ecac2f04d1383183b62dd6cacc615af8280458"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Surinam horned frog Ceratophrys cornuta, extremely broad rounded body, broad mouth CLOSED, pointed triangular SKIN extensions above both eyelids, brown tan and leaf-green camouflage mottling, stout short limbs, no hard horns. Whole frog waiting motionless partly nestled amongst loose leaves, head and both eyelid points unobstructed; no prey or attack. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "e06eeef69b600fd8a8605c239aa2948a02700ed962e7f0baf52cfcafd0edde2e",
+      "runtimeSha256": "368152d1471c9d6ec7b7220070e0d3b21450236cb4c44a7ae5cb66aca51446dc"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Surinam horned frog Ceratophrys cornuta, extremely broad rounded body, broad mouth CLOSED, pointed triangular SKIN extensions above both eyelids, brown tan and leaf-green camouflage mottling, stout short limbs, no hard horns. Whole frog at edge of shallow temporary rainforest pool after rain, wet leaf litter and reflections, no other animals. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "5ec99357b152c68b89646f0e635bd2672fe7dc280b530785b9fa0fc0ecb6931e",
+      "runtimeSha256": "60061486b31241a8f01f9b8439c1c373f57ffbb59a2adeaab3e63c74c32dcee2"
+    }
+  ]
+}

@@ -679,3 +679,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [菱斑龟 image set](./species/diamondback-terrapin/README.md)
 - [长颈龟 image set](./species/eastern-long-necked-turtle/README.md)
 - [华莱士飞蛙 image set](./species/wallaces-flying-frog/README.md)
+- [苏里南角蛙 image set](./species/surinam-horned-frog/README.md)

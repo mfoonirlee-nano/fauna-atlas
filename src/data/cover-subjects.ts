@@ -4560,5 +4560,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1462,
       "bottom": 772
     }
+  },
+  "surinam-horned-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 187,
+      "right": 1500,
+      "bottom": 845
+    }
   }
 };
