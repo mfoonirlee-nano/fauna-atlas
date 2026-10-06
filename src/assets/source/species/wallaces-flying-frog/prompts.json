@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-01",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Wallace's flying frog Rhacophorus nigropalmatus, emerald green back, golden eyes, yellow flanks, black webbing with yellow rays and broad rounded toe pads. Website COVER: side view facing LEFT, resting calmly on a branch in Borneo rainforest. Place full frog including every fingertip strictly in RIGHT half, between 47% and 94% image width, between 18% and 86% height. Entire LEFT 43% is only quiet dark blurred foliage. Keep frog large in right half with no extremity extending leftwards into the blank area. All feet fit in image with background margin. Closed wings do not exist, four limbs only.",
+      "sourceSha256": "2e09d255b5baa3d6d0d27c29222b64cf358944488f20e86643a0be87e1b2baf0",
+      "runtimeSha256": "5a8fd2bffa5415c85159942250f3d71d83dc13e76b39c7e79cbe54129a1c0a85"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Wallace's flying frog Rhacophorus nigropalmatus, emerald green back, golden eyes, yellow flanks, black webbing with yellow rays and broad rounded toe pads. Full frog on a broad wet leaf, slightly elevated three-quarter view; one hind foot spread naturally so the black interdigital membrane and yellow toes show clearly. Center composition, entire body visible.",
+      "sourceSha256": "2e9a78801e99466de282bbac54e81145a836856af62132aeef65da1614ac774e",
+      "runtimeSha256": "3c53de46e7a90e1797eb78b1aa4c6913a279fe51626da2c5fecc8d193d9e10fa"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Wallace's flying frog Rhacophorus nigropalmatus, emerald green back, golden eyes, yellow flanks, black webbing with yellow rays and broad rounded toe pads. Side close view of the frog gripping a rainforest twig, highlighting the rounded adhesive toe pads touching the bark. Calm perched posture.",
+      "sourceSha256": "44be65c70f15eab6525fe2eb0b49513f9fe2d9d3222059013cf3fab124e2b324",
+      "runtimeSha256": "da6135bf75fc2d859df88ab855850c9e44ce8b143fee2583e0dda0b4b8f6306a"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Wallace's flying frog Rhacophorus nigropalmatus, emerald green back, golden eyes, yellow flanks, black webbing with yellow rays and broad rounded toe pads. Whole frog in a single natural descending glide between rainforest branches, limbs outspread and extensive black and yellow foot membranes open, green back visible from above and side. All feet in frame. No wings, no motion arrows.",
+      "sourceSha256": "a8b1bf1e73d66f13a6438006df5b6b9890755a481b5e297b50de99c4159a944a",
+      "runtimeSha256": "8416b185dbf18326d8b1758d35bdf4a5eaaf19a9a1a2eed59562b9e5554b09c0"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Wallace's flying frog Rhacophorus nigropalmatus, emerald green back, golden eyes, yellow flanks, black webbing with yellow rays and broad rounded toe pads. Green frog resting among overlapping green leaves in lowland Bornean rainforest, natural camouflage, recognizable complete frog in center, dappled light.",
+      "sourceSha256": "8c890dd1c164cdae88929f58a256572266360a8aabcb2c8122f7194a98924733",
+      "runtimeSha256": "7fb8f1caef517d91fd78108b95fa2d845a294c0191665c8c74d5c424139ad53d"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Wallace's flying frog Rhacophorus nigropalmatus, emerald green back, golden eyes, yellow flanks, black webbing with yellow rays and broad rounded toe pads. Whole frog beside a small still rainforest pool at night, on a low branch above the water; dark forest environment with soft naturalistic illumination, no eggs or prey.",
+      "sourceSha256": "2a721fd520fbd5e631b13e8bd7306ebde421e0de8673a34a6c8f4d5597922e61",
+      "runtimeSha256": "440c2c3586b04ccecc3b52219c607cbddb010f7d25fd5965032df2575742dce3"
+    }
+  ]
+}

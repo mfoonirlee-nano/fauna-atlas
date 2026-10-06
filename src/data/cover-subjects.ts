@@ -4550,5 +4550,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1528,
       "bottom": 818
     }
+  },
+  "wallaces-flying-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 664,
+      "top": 136,
+      "right": 1462,
+      "bottom": 772
+    }
   }
 };

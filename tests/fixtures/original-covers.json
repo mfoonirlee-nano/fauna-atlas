@@ -3586,5 +3586,18 @@
       },
       "sha256": "b73e6f607627a00fedf8504b58ee62b21348794511741d01d9b6852634bbe89f"
     }
+  },
+  "wallaces-flying-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 664,
+        "top": 136,
+        "right": 1462,
+        "bottom": 772
+      },
+      "sha256": "5a8fd2bffa5415c85159942250f3d71d83dc13e76b39c7e79cbe54129a1c0a85"
+    }
   }
 }

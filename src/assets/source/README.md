@@ -678,3 +678,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [触须蛇 image set](./species/tentacled-snake/README.md)
 - [菱斑龟 image set](./species/diamondback-terrapin/README.md)
 - [长颈龟 image set](./species/eastern-long-necked-turtle/README.md)
+- [华莱士飞蛙 image set](./species/wallaces-flying-frog/README.md)
