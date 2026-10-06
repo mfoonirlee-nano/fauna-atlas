@@ -4610,5 +4610,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1487,
       "bottom": 751
     }
+  },
+  "spotted-salamander": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 624,
+      "top": 240,
+      "right": 1509,
+      "bottom": 840
+    }
   }
 };

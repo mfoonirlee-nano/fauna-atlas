@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-06",
+  "reviewedAt": "2026-10-06",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Adult Ambystoma maculatum spotted salamander, moist black stout body, TWO irregular rows of distinct rounded yellow spots, blunt head, short legs, long rounded tail. No external gills in adult. Whole adult on damp brown forest leaf litter, tail curved beside body. COVER: full animal on RIGHT half, all outer features within x=650..1450 y=130..900, large subject center 70% width. Left 40% quiet blurred habitat. Background clearance around complete silhouette.",
+      "sourceSha256": "1fde2ea4e06b8966a99f1d9cf3aa4fd24474f81f909c32b2f7415d305889c5fb",
+      "runtimeSha256": "e2f45f877710183d6b87e7f9d2f16781c1eb72ae5d8f572cc5cebee2380fff00"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Adult Ambystoma maculatum spotted salamander, moist black stout body, TWO irregular rows of distinct rounded yellow spots, blunt head, short legs, long rounded tail. No external gills in adult. Dorsal view entire adult highlighting two irregular rows of yellow spots.",
+      "sourceSha256": "3fd3a941657c5f3083eb9c591cbd97e2a84156db21a154fb3d2729e0a805fabc",
+      "runtimeSha256": "717082b1f1eaf04093532f4856b5ded6df2a28858a92211dab6413787cf94c3f"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Adult Ambystoma maculatum spotted salamander, moist black stout body, TWO irregular rows of distinct rounded yellow spots, blunt head, short legs, long rounded tail. No external gills in adult. Low side view adult walking at night on damp leaf litter.",
+      "sourceSha256": "d5c9f6fc2357bb485506c0934ff9418ea3720e0039b5d6b15c572445df02fe02",
+      "runtimeSha256": "35064140ec4b0d3af7fc19757703ef4fd9e2eef2bb330be3451a5448a21a3a7c"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Adult Ambystoma maculatum spotted salamander, moist black stout body, TWO irregular rows of distinct rounded yellow spots, blunt head, short legs, long rounded tail. No external gills in adult. Whole adult beside a woodland seasonal pond with bare early spring trees.",
+      "sourceSha256": "cf528ce5d60d08798fc973c8413dae434c38b3aab9bd43093bb97ef92ef29f0f",
+      "runtimeSha256": "00bede62f9c256f317a6dc7a95e3394dbf5bb0cd501126bcd49d91bf3d7920ce"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Adult Ambystoma maculatum spotted salamander, moist black stout body, TWO irregular rows of distinct rounded yellow spots, blunt head, short legs, long rounded tail. No external gills in adult. Underwater gelatinous egg mass attached to twig in woodland pond, tiny dark embryos, no adult present. Scientific life-stage reconstruction.",
+      "sourceSha256": "5882a6539bf6f43ed542971af684907f91f9e4d1a0e061a5f9fcdd3064c979bd",
+      "runtimeSha256": "d0f9140a12e4e5487bda36ca73d54b3950670051fae3573583ca48788f5a06b6"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Adult Ambystoma maculatum spotted salamander, moist black stout body, TWO irregular rows of distinct rounded yellow spots, blunt head, short legs, long rounded tail. No external gills in adult. Aquatic larval Ambystoma maculatum with external gills and slender tail, muted olive-brown color, no adult yellow spots. Whole single larva underwater.",
+      "sourceSha256": "0add71aebebdbef3fbb94d1d9a8c0b7621d28803bdb102b0e417998649aec2ef",
+      "runtimeSha256": "ee27075f4572b4a02f049c0919523bb961ea4fcfeb4d62e31fbe076eb52a6143"
+    }
+  ]
+}

@@ -3664,5 +3664,18 @@
       },
       "sha256": "ebbb99e671ee6642cf53f4b93a5375dcd921cadca14ea45e99e26cf221d8a3f4"
     }
+  },
+  "spotted-salamander": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 624,
+        "top": 240,
+        "right": 1509,
+        "bottom": 840
+      },
+      "sha256": "e2f45f877710183d6b87e7f9d2f16781c1eb72ae5d8f572cc5cebee2380fff00"
+    }
   }
 }
