@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-01",
+  "reviewedAt": "2026-10-01",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Andean marsupial frog Gastrotheca riobambae from Ecuador, green and tan mottled dorsal skin, dark stripe through eye, gold-bronze eyes with horizontal pupil, expanded round toe discs, moderately stocky treefrog body. No eggs attached externally to back. Whole frog sitting on mossy stone beside low Andean vegetation, side three-quarter view. COVER COMPOSITION: full animal strictly in right half, ALL toes and body within x=700..1450 y=180..870, large prominent body, center at 72% width. Left 40% quiet blurred habitat only. Real empty background around entire silhouette. ",
+      "sourceSha256": "f06fc269c5fa468b10a14c1367c050b10fb597bbfa576c14472c0bd8be4f01a0",
+      "runtimeSha256": "6aef910b7804ac1ce579a8535bd095a5d2bbb48636165d74e9b552419abd936c"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Andean marsupial frog Gastrotheca riobambae from Ecuador, green and tan mottled dorsal skin, dark stripe through eye, gold-bronze eyes with horizontal pupil, expanded round toe discs, moderately stocky treefrog body. No eggs attached externally to back. Whole female frog viewed slightly from above showing intact natural skin of back, green and brown mottling, no externally attached eggs, in Ecuadorian vegetation. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "465376f0aed714dbeb69c5cf73adc1ac683ea57e54f361639eda67a0baebffdb",
+      "runtimeSha256": "42e3922e8ca7aad7d533a2890185cf424fb94993d5d2b15687427b17be5d748d"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Andean marsupial frog Gastrotheca riobambae from Ecuador, green and tan mottled dorsal skin, dark stripe through eye, gold-bronze eyes with horizontal pupil, expanded round toe discs, moderately stocky treefrog body. No eggs attached externally to back. SCIENTIFIC DIAGRAM instead of photo: elegant simple natural-history educational illustration on cream background. One side-view female Gastrotheca riobambae silhouette facing left, natural green-brown mottling, small translucent schematic window only over upper BACK showing a few round embryos INSIDE a dorsal skin pouch. Pouch is on back not belly. Keep limbs and body intact. No gore, no exposed wound, no protruding eggs, no labels or text. Diagram is positional not anatomical section. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "0f2165d334b99897344705c1b4b576104ec01cb682b7742e9ceb1ea0bfb3b7ae",
+      "runtimeSha256": "3cd8274f11a484f6b6e7c77ca13d2121b4a0c32fbedc557ce330379ec3c35519"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Andean marsupial frog Gastrotheca riobambae from Ecuador, green and tan mottled dorsal skin, dark stripe through eye, gold-bronze eyes with horizontal pupil, expanded round toe discs, moderately stocky treefrog body. No eggs attached externally to back. Natural-history photorealistic observation of small dark tadpoles swimming in a clear shallow Andean pond amongst aquatic stems, no adult frog needed; entire tadpoles with tails visible, not froglets. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "3499c2f3f003776d672e9860301c12a8880b32b0b9391712ca7b94214a476efd",
+      "runtimeSha256": "0e4b7d04bdce4c74d888069eed365c795f64c6ce05eff6db4271fe51cfa9dc3f"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Andean marsupial frog Gastrotheca riobambae from Ecuador, green and tan mottled dorsal skin, dark stripe through eye, gold-bronze eyes with horizontal pupil, expanded round toe discs, moderately stocky treefrog body. No eggs attached externally to back. Whole adult frog perched low on broad leaf in cool Ecuadorian Andean garden-like shrub vegetation, toe discs visible gripping leaf edge. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "eb5704a6edc3cf469fd33b91a4072937be7d6874652db51ca7f278202790dad6",
+      "runtimeSha256": "c32fdf1b92e8a69000d53a4098391663e2f7cf11c9fa2a7273b044330007b349"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. Natural anatomy, no human handling, no text, no logos, no watermarks, no collage. Adult Andean marsupial frog Gastrotheca riobambae from Ecuador, green and tan mottled dorsal skin, dark stripe through eye, gold-bronze eyes with horizontal pupil, expanded round toe discs, moderately stocky treefrog body. No eggs attached externally to back. Whole frog beside a clean small pond in Andean grassy shrubland, twilight, mountain slopes blurred in distance, not Amazon rainforest. Center composition, full subject unless scene requests a detail.",
+      "sourceSha256": "053ba135aecaead5372474d1ef1ffd9e731051d606d433e9fc1a4a640262a228",
+      "runtimeSha256": "e2af7abf80e33037ab5f63b675ebf79a1e1b6de7e809aca9ee2d3d4bcaea8a9d"
+    }
+  ]
+}

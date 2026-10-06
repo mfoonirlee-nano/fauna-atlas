@@ -3638,5 +3638,18 @@
       },
       "sha256": "231e8a5c696f892c39f09fb282b750d0940f2ebe35732d2d329c85e2d2985626"
     }
+  },
+  "riobamba-marsupial-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 180,
+        "right": 1440,
+        "bottom": 825
+      },
+      "sha256": "6aef910b7804ac1ce579a8535bd095a5d2bbb48636165d74e9b552419abd936c"
+    }
   }
 }

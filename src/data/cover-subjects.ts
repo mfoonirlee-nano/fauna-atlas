@@ -4590,5 +4590,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1506,
       "bottom": 850
     }
+  },
+  "riobamba-marsupial-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 180,
+      "right": 1440,
+      "bottom": 825
+    }
   }
 };
