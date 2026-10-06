@@ -129805,6 +129805,240 @@ export const species = [
   "updatedAt": "2026-10-06"
 },
 
+{
+  "id": "oriental-flying-gurnard",
+  "slug": "oriental-flying-gurnard",
+  "names": {
+    "zh": "东方豹鲂鮄",
+    "en": "Oriental Flying Gurnard"
+  },
+  "scientificName": "Dactyloptena orientalis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Syngnathiformes",
+      "zhName": "海龙目"
+    },
+    "family": {
+      "scientificName": "Dactylopteridae",
+      "zhName": "飞角鱼科"
+    },
+    "genus": {
+      "scientificName": "Dactyloptena",
+      "zhName": "豹鲂鮄属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessor": "Fishes of Australia 列全球 LC；未核实独立评估日期与全球趋势，2016 年文献引用不等于评估日期。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "红海与印度—西中太平洋"
+    ],
+    "countries": [],
+    "range": "从红海、波斯湾和非洲东岸，向东延伸至夏威夷与皮特凯恩群岛，澳大利亚北部、东西岸部分海域也有记录。"
+  },
+  "habitats": [
+    {
+      "name": "近岸沙质海底",
+      "realm": "marine",
+      "description": "多在沙底活动，展开的胸鳍仍在水中，不是在空气中飞行。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "甲壳动物",
+      "双壳贝类",
+      "小鱼"
+    ],
+    "description": "在底部寻找甲壳动物、双壳贝类和小鱼等食物。"
+  },
+  "tags": [
+    "东方豹鲂鮄",
+    "近岸沙质海底"
+  ],
+  "summary": "东方豹鲂鮄把大胸鳍展开成两把花纹扇子，沿着沙质海底活动。",
+  "description": "身体带硬质鳞甲，头部宽大，两侧胸鳍收起时贴近躯干，展开时可见蓝色曲线和棕橙色斑点。本种与大西洋的飞角鱼 Dactylopterus volitans 不同；“飞”形容大鳍的外观，不表示它能飞出水面。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "先看收起的胸鳍",
+      "body": "沿着头后方找到贴在身体两边的鳍。收起时，鱼显得细长，仍能看到鳍缘与身体花纹。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "展开两把花纹扇",
+      "body": "看看展开后的胸鳍边缘和蓝色线纹。两张图用于比较不同姿态，不表示同一个体连续展开的过程。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "宽头上的眼睛",
+      "body": "从前侧看看宽大的头和向上突出的眼睛。头和身体的硬质结构与柔软胸鳍形成不同的轮廓。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "贴着海底慢慢移动",
+      "body": "它可借助腹鳍和胸鳍鳍条在沙底移动。外形像翅膀的大鳍属于鱼鳍，图中的动物始终在水中。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "沙地上的小食物",
+      "body": "它会吃底部的甲壳动物、双壳贝类和小鱼。重建图只展示寻找食物的环境，不描绘攻击，也不代表某次实地观测。"
+    },
+    {
+      "key": "observation-6",
+      "label": "保护与分类",
+      "title": "从生活的海域分清它",
+      "body": "东方豹鲂鮄生活在红海和印度—西中太平洋。已有档案中的飞角鱼来自大西洋，两者同科不同属；识别时不能只看是否有大胸鳍。"
+    }
+  ],
+  "keyFacts": [
+    "东方豹鲂鮄把大胸鳍展开成两把花纹扇子，沿着沙质海底活动。",
+    "Fishes of Australia 列全球 LC；未核实独立评估日期与全球趋势，2016 年文献引用不等于评估日期。"
+  ],
+  "threats": [
+    "局部近岸沙底生境受扰"
+  ],
+  "conservationActions": [
+    "保护近岸海底环境",
+    "避免追赶或触碰以诱发展鳍"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "近岸沙质海底"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "先看收起的胸鳍"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "无危",
+      "note": "Fishes of Australia 列全球 LC；未核实独立评估日期与全球趋势，2016 年文献引用不等于评估日期。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/oriental-flying-gurnard/01-cover.webp",
+    "alt": "东方豹鲂鮄及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/oriental-flying-gurnard/02-observation.webp",
+        "alt": "东方豹鲂鮄：先看收起的胸鳍",
+        "title": "先看收起的胸鳍",
+        "caption": "AI 生成科学情景重建。沿着头后方找到贴在身体两边的鳍。收起时，鱼显得细长，仍能看到鳍缘与身体花纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/oriental-flying-gurnard/03-observation.webp",
+        "alt": "东方豹鲂鮄：展开两把花纹扇",
+        "title": "展开两把花纹扇",
+        "caption": "AI 生成科学情景重建。看看展开后的胸鳍边缘和蓝色线纹。两张图用于比较不同姿态，不表示同一个体连续展开的过程。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/oriental-flying-gurnard/04-observation.webp",
+        "alt": "东方豹鲂鮄：宽头上的眼睛",
+        "title": "宽头上的眼睛",
+        "caption": "AI 生成科学情景重建。从前侧看看宽大的头和向上突出的眼睛。头和身体的硬质结构与柔软胸鳍形成不同的轮廓。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/oriental-flying-gurnard/05-observation.webp",
+        "alt": "东方豹鲂鮄：贴着海底慢慢移动",
+        "title": "贴着海底慢慢移动",
+        "caption": "AI 生成科学情景重建。它可借助腹鳍和胸鳍鳍条在沙底移动。外形像翅膀的大鳍属于鱼鳍，图中的动物始终在水中。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/oriental-flying-gurnard/06-observation.webp",
+        "alt": "东方豹鲂鮄：沙地上的小食物",
+        "title": "沙地上的小食物",
+        "caption": "AI 生成科学情景重建。它会吃底部的甲壳动物、双壳贝类和小鱼。重建图只展示寻找食物的环境，不描绘攻击，也不代表某次实地观测。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Fishes of Australia：接受学名、分布与 LC",
+      "url": "https://fishesofaustralia.net.au/home/species/4640",
+      "kind": "conservation",
+      "accessedAt": "2026-10-06"
+    },
+    {
+      "title": "FAO 西中太平洋鱼类指南：飞角鱼科辨识",
+      "url": "https://www.fao.org/4/x2400e/x2400e19.pdf",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-06"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-06",
+  "updatedAt": "2026-10-06"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

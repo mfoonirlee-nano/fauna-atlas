@@ -687,3 +687,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [斑点钝口螈 image set](./species/spotted-salamander/README.md)
 - [皇冠海马 image set](./species/bargibants-pygmy-seahorse/README.md)
 - [条纹躄鱼 image set](./species/striated-frogfish/README.md)
+- [东方豹鲂鮄 image set](./species/oriental-flying-gurnard/README.md)

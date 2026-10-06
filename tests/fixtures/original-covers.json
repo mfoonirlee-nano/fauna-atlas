@@ -3703,5 +3703,18 @@
       },
       "sha256": "8d77932df2892e482b57121c9c4c763e3c5449024d3e48e4a841886bf3db90e3"
     }
+  },
+  "oriental-flying-gurnard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 98,
+        "right": 1524,
+        "bottom": 877
+      },
+      "sha256": "2d5e1829bc46e378b21162500180979eda054f42aa0870a2ec529f319f3b6f99"
+    }
   }
 }

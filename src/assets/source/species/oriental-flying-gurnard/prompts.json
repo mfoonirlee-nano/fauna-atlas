@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-06",
+  "reviewedAt": "2026-10-06",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Dactyloptena orientalis oriental flying gurnard underwater on sand. Armored gray-brown elongated body, broad bony head, huge fan-like pectoral fins patterned with blue wavy lines and brown-orange spots, long tail. Fish, not bird; no flying above water. Whole fish viewed obliquely from above with both huge pectoral fins spread, ALL fin tips and tail visible. COVER: full animal on RIGHT half, all outer features within x=650..1450 y=130..900, large subject center 70% width. Left 40% quiet blurred habitat. Background clearance around complete silhouette. STRICT COMPOSITION revision: The entire animal must fit in the RIGHTMOST 55 percent of canvas. Animal bounding rectangle x=680 to 1450 and y=160 to 880. Keep every fin tip, lure tip, head, tail and filament to the right of x=680. This is a wide environmental portrait with empty LEFT HALF. Do not crop any appendage. Shift subject toward right and compact pose if needed.",
+      "sourceSha256": "b97f0f98805481cfd78a112b1cd088e0696a61776e898ee5f2481ac9674ad800",
+      "runtimeSha256": "2d5e1829bc46e378b21162500180979eda054f42aa0870a2ec529f319f3b6f99"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Scientific educational natural history photorealistic reconstruction landscape 1536x1024. One Dactyloptena orientalis oriental flying gurnard RESTING with BOTH pectoral fins completely FOLDED tight lengthwise along the body, NOT spread fans. Strict side view full animal from armored broad head to complete forked tail, all inside canvas with 10 percent margin. Gray brown body with dark blotches, blue patterns of folded pectoral fin subtly visible along side. Sandy marine seabed. No text, no collage, no logos.",
+      "sourceSha256": "69ed6b8fbf9cd4c39ae43ccedbb74e6ea914a371d91e0942d004b1285cb95c69",
+      "runtimeSha256": "075b3fd1ae11dc8717657a6a9fb10ee5ed5a4f4e077a9c094db75ca6ccb4ac91"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Dactyloptena orientalis oriental flying gurnard underwater on sand. Armored gray-brown elongated body, broad bony head, huge fan-like pectoral fins patterned with blue wavy lines and brown-orange spots, long tail. Fish, not bird; no flying above water. Whole fish viewed above with both patterned fan pectoral fins spread symmetrically, ample clearance.",
+      "sourceSha256": "b683f7f03a0c429d7060462494c7c28ffeb5ce8c9159514aa1b01b06184cfe8e",
+      "runtimeSha256": "78e87d81f6f8aa9c22c89b676bf3bc30bba78471ea49f8026cf3239468db5b53"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Dactyloptena orientalis oriental flying gurnard underwater on sand. Armored gray-brown elongated body, broad bony head, huge fan-like pectoral fins patterned with blue wavy lines and brown-orange spots, long tail. Fish, not bird; no flying above water. Close head and front body view showing armored head and eyes.",
+      "sourceSha256": "82684b1b901ff6d5cd58bc3116cad77a9d84cdfb8d153031100530f33f311980",
+      "runtimeSha256": "e6df0008536d4e3bf253ad717afb7d4ca2eff5ca4df083e47476532c6074f6e3"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Dactyloptena orientalis oriental flying gurnard underwater on sand. Armored gray-brown elongated body, broad bony head, huge fan-like pectoral fins patterned with blue wavy lines and brown-orange spots, long tail. Fish, not bird; no flying above water. Whole fish moving along sand on lower fin rays, side view, pectoral fins partly open.",
+      "sourceSha256": "831e5ab5d295c57830656e83d86845b5dfe867b07da18df22c4448b4112069cf",
+      "runtimeSha256": "d75f7556be8081bc7b0a8f48c98c3d6044cd8d14bbf0ce26cc40ac655e40b4c4"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Dactyloptena orientalis oriental flying gurnard underwater on sand. Armored gray-brown elongated body, broad bony head, huge fan-like pectoral fins patterned with blue wavy lines and brown-orange spots, long tail. Fish, not bird; no flying above water. Whole fish on sand near tiny crustacean, calm foraging scene, no contact or injury.",
+      "sourceSha256": "6d6fe5d1b1a1bfe1ac3533d922a2794cff3c62ba9446c87f4b4406d177241cc2",
+      "runtimeSha256": "cbcbd80146b3c43947a013e1707e6a8c8025e9b218baa1386e634c4ee4dc27f2"
+    }
+  ]
+}
