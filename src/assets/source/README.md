@@ -695,3 +695,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [矛尾翻车鲀 image set](./species/sharptail-sunfish/README.md)
 - [大斑躄鱼 image set](./species/warty-frogfish/README.md)
 - [波纹唇鱼 image set](./species/humphead-wrasse/README.md)
+- [黄头后颌鰧 image set](./species/yellowhead-jawfish/README.md)

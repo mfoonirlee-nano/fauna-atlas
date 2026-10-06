@@ -3768,5 +3768,18 @@
       },
       "sha256": "fb0d20018dd7c4d9f87cdacbe43c8be172b5ec3dfd65bb4d47e7fb5754932de9"
     }
+  },
+  "yellowhead-jawfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 713,
+        "top": 92,
+        "right": 1446,
+        "bottom": 838
+      },
+      "sha256": "6e78c2f0c18f6671a9f43d79e4547a7851c159d9c5d59ea23f6cf412e89b6573"
+    }
   }
 }

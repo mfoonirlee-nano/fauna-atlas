@@ -4691,6 +4691,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1502,
       "bottom": 658
     }
+  },
+  "yellowhead-jawfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 713,
+      "top": 92,
+      "right": 1446,
+      "bottom": 838
+    }
   }
 
 };

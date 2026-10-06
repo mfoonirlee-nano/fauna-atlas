@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Opistognathus aurifrons yellowhead jawfish, pale lemon-yellow head and nape, large dark eyes, wide mouth, elongated pearly pale blue body, continuous dorsal fin and rounded tail. ONE whole fish hovering diagonally just above a small sand-and-coral-rubble burrow in Caribbean shallow reef. Every part of body OUTSIDE burrow, tail clearly visible. No blue spots on dark body. COVER COMPOSITION: Complete single animal on RIGHT side, all outer features between x=670 and 1460, y=100 and 930. Fill this area with the animal, keep background clearance around all fins and tail. Left 40 percent quiet blurred habitat. No text, watermark, collage, people or aquarium. Natural anatomy.",
+      "sourceSha256": "069e049f044a6ad989b75812fa3816a417687a82bbbd01c13cdcd4fcd89e2837",
+      "runtimeSha256": "6e78c2f0c18f6671a9f43d79e4547a7851c159d9c5d59ea23f6cf412e89b6573"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Opistognathus aurifrons yellowhead jawfish, pale lemon-yellow head and nape, large dark eyes, wide mouth, elongated pearly pale blue body, continuous dorsal fin and rounded tail. ONE whole fish hovering diagonally just above a small sand-and-coral-rubble burrow in Caribbean shallow reef. Every part of body OUTSIDE burrow, tail clearly visible. No blue spots on dark body. Specific scene overrides generic pose: Male Opistognathus aurifrons at sandy burrow entrance, head close-up, mouth slightly open showing a small compact clutch of translucent eggs INSIDE mouth. Eggs not outside, no bubbles, no human expression. Yellow head, pale pearly blue body. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "79732abd4b67caed81abe901dede2a314a73297cf5d15d46e02c05a2da1f2fd8",
+      "runtimeSha256": "0ffcc86ed6fc4a3daaa31a7daf7384eb33327490c4aaa021443dac04205dff45"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Opistognathus aurifrons yellowhead jawfish, pale lemon-yellow head and nape, large dark eyes, wide mouth, elongated pearly pale blue body, continuous dorsal fin and rounded tail. ONE whole fish hovering diagonally just above a small sand-and-coral-rubble burrow in Caribbean shallow reef. Every part of body OUTSIDE burrow, tail clearly visible. No blue spots on dark body. Specific scene overrides generic pose: One fish yellow head peeking naturally from burrow lined with coral rubble, body mostly hidden underground. No eggs. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "9dc50eb417e535fd36dc741cc056e8cfce7470965300fbe0d718c635af6834b0",
+      "runtimeSha256": "5b0b5731633e4f75df8d360d34b2dcedb98bc5d75857d93a9092509c34eac2d9"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Opistognathus aurifrons yellowhead jawfish, pale lemon-yellow head and nape, large dark eyes, wide mouth, elongated pearly pale blue body, continuous dorsal fin and rounded tail. ONE whole fish hovering diagonally just above a small sand-and-coral-rubble burrow in Caribbean shallow reef. Every part of body OUTSIDE burrow, tail clearly visible. No blue spots on dark body. Specific scene overrides generic pose: Whole fish hovering vertically head UP just above own burrow, pale blue elongated body and yellow head, all fins and tail visible. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "96576eff5e6633a41962fa2aa3568942bebcf228b271bf6416b23f531c5ac3b0",
+      "runtimeSha256": "a7debfe9ca7398e8a9df9579f92a1e6222553ae56b1d88941c6335aa945f34ba"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Opistognathus aurifrons yellowhead jawfish, pale lemon-yellow head and nape, large dark eyes, wide mouth, elongated pearly pale blue body, continuous dorsal fin and rounded tail. ONE whole fish hovering diagonally just above a small sand-and-coral-rubble burrow in Caribbean shallow reef. Every part of body OUTSIDE burrow, tail clearly visible. No blue spots on dark body. Specific scene overrides generic pose: Side close-up fish at burrow opening carrying a small pebble in mouth, no eggs, natural rubble and sand. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "25e45a7e7236e6b0cd36b238f46b29239a50fedf8666e3a5e2cd2615c8369a8f",
+      "runtimeSha256": "7ad4f04ffc6b8ec925f9ac28ef7741865b4c154fd5cfd6ec0ed55de885548f05"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Opistognathus aurifrons yellowhead jawfish, pale lemon-yellow head and nape, large dark eyes, wide mouth, elongated pearly pale blue body, continuous dorsal fin and rounded tail. ONE whole fish hovering diagonally just above a small sand-and-coral-rubble burrow in Caribbean shallow reef. Every part of body OUTSIDE burrow, tail clearly visible. No blue spots on dark body. Specific scene overrides generic pose: Wide Caribbean sand-and-rubble habitat with two yellow-headed pearly-blue fish near separate burrows several body lengths apart, natural daylight. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "364b03209a52cc36b63dcd1c6baeeab8791e619fd758d0b0c52848bc13c7fabc",
+      "runtimeSha256": "38ade993a959c026da13cf2d58b63ea7f86bd50db21a50b5c4e5e2081f5991f8"
+    }
+  ],
+  "reviewedAt": "2026-10-07"
+}
