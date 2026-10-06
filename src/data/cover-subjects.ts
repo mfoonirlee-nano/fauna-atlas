@@ -4630,5 +4630,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1338,
       "bottom": 916
     }
+  },
+  "striated-frogfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 741,
+      "top": 65,
+      "right": 1524,
+      "bottom": 878
+    }
   }
 };

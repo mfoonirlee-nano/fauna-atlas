@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-06",
+  "reviewedAt": "2026-10-06",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Antennarius striatus striated frogfish, squat tan body with dark zebra-like streaks and fine branched skin filaments, upward mouth, bent limb-like pectoral fins, short tail, fishing rod on head ending in several worm-like lure appendages. Whole single frogfish resting on sandy bottom beside sponge, closed mouth. COVER: full animal on RIGHT half, all outer features within x=650..1450 y=130..900, large subject center 70% width. Left 40% quiet blurred habitat. Background clearance around complete silhouette. STRICT COMPOSITION revision: The entire animal must fit in the RIGHTMOST 55 percent of canvas. Animal bounding rectangle x=680 to 1450 and y=160 to 880. Keep every fin tip, lure tip, head, tail and filament to the right of x=680. This is a wide environmental portrait with empty LEFT HALF. Do not crop any appendage. Shift subject toward right and compact pose if needed.",
+      "sourceSha256": "735bebaa94b0149f13aa0199d1c6e7534942b19491d996de313f42771aff0598",
+      "runtimeSha256": "8d77932df2892e482b57121c9c4c763e3c5449024d3e48e4a841886bf3db90e3"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Antennarius striatus striated frogfish, squat tan body with dark zebra-like streaks and fine branched skin filaments, upward mouth, bent limb-like pectoral fins, short tail, fishing rod on head ending in several worm-like lure appendages. Macro side view fine branched skin filaments and striped body.",
+      "sourceSha256": "25979c81dda640bc97e6c333ea7603a2b87fe02ef50f64f5067eedbc2c56935d",
+      "runtimeSha256": "9655836aa67b624db7ae6ba728db19032ce286b819c34e3a6861b09f0ea2a5e1"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Antennarius striatus striated frogfish, squat tan body with dark zebra-like streaks and fine branched skin filaments, upward mouth, bent limb-like pectoral fins, short tail, fishing rod on head ending in several worm-like lure appendages. Whole fish with fishing rod curved ahead of face, worm-shaped lure clearly visible, no prey attack.",
+      "sourceSha256": "a2e3518d30f9fb295a044f2d3de592ae09c173a261f79cb224337b929b6026c8",
+      "runtimeSha256": "c974ecc3a9da0f6d6c120367a034023d8e9418d7a90687ec8de346b75bc6c609"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Antennarius striatus striated frogfish, squat tan body with dark zebra-like streaks and fine branched skin filaments, upward mouth, bent limb-like pectoral fins, short tail, fishing rod on head ending in several worm-like lure appendages. Whole fish walking over sandy bottom using bent pectoral fins, side view.",
+      "sourceSha256": "5e4ea2b652cb02e010ec083dea9dc5b7f79781252fc38731d41756bbc4e75a15",
+      "runtimeSha256": "6b8eb3aa76489dbc6431d692102b50dfb0a1a7ce3fc165cc427e39eced1d131d"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Antennarius striatus striated frogfish, squat tan body with dark zebra-like streaks and fine branched skin filaments, upward mouth, bent limb-like pectoral fins, short tail, fishing rod on head ending in several worm-like lure appendages. Whole dark brown color morph resting beside a sponge on seabed.",
+      "sourceSha256": "3d43730c31aa57039b458cc2f4da62547d505b8275d7ef06b01534eb75be1de1",
+      "runtimeSha256": "adf633017391d870926925486452fb6764446317d4449f65225803933c327b55"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Antennarius striatus striated frogfish, squat tan body with dark zebra-like streaks and fine branched skin filaments, upward mouth, bent limb-like pectoral fins, short tail, fishing rod on head ending in several worm-like lure appendages. Whole tan striped fish beside small reef rocks and sponges, camouflage habitat scene.",
+      "sourceSha256": "bde734c6a20489f7a8b8130690c30afb8b08adbf5f7d9ef9f6bf3713fd2072b8",
+      "runtimeSha256": "c1b1f16b2a22154e219b7a932cd93b66f46a54a32fdf53729a5a6347a7f51f68"
+    }
+  ]
+}

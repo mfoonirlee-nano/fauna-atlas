@@ -3690,5 +3690,18 @@
       },
       "sha256": "d82329e76e2d4f023f631dbb7813d380b1d68fbd436f8f294dc5f402f9ff8398"
     }
+  },
+  "striated-frogfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 741,
+        "top": 65,
+        "right": 1524,
+        "bottom": 878
+      },
+      "sha256": "8d77932df2892e482b57121c9c4c763e3c5449024d3e48e4a841886bf3db90e3"
+    }
   }
 }
