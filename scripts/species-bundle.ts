@@ -36,9 +36,10 @@ export function speciesBundle(): Plugin {
         )).values()];
         const indexes = new Map(taxa.map((taxon, index) => [JSON.stringify(taxon), index]));
         // Intern repeated labels; unique text costs less when kept inline.
+        // A tag equal to the Chinese name reuses that name through the -1 sentinel.
         const labelCounts = new Map<string, number>();
-        for (const label of summaries.flatMap(({ distribution, habitats, tags }) => [
-          ...distribution.regions, ...distribution.realms, ...habitats.map(({ name }) => name), ...tags,
+        for (const label of summaries.flatMap(({ names, distribution, habitats, tags }) => [
+          ...distribution.regions, ...distribution.realms, ...habitats.map(({ name }) => name), ...tags.filter((tag) => tag !== names.zh),
         ])) labelCounts.set(label, (labelCounts.get(label) ?? 0) + 1);
         const labels = [...labelCounts].filter(([, count]) => count > 1).map(([label]) => label);
         const labelIndexes = new Map(labels.map((label, index) => [label, index]));
@@ -53,6 +54,7 @@ export function speciesBundle(): Plugin {
         }
         const altSuffixes = [...altCounts].filter(([, count]) => count > 1).map(([suffix]) => suffix);
         const altIndexes = new Map(altSuffixes.map((suffix, index) => [suffix, index]));
+        const conservationCodes = [...new Set(summaries.map(({ conservation }) => conservation.code))];
         // Ship the six rank names once; retain their order when restoring each lineage.
         // Restore redundant ids and compact text field names on the client.
         const catalogue = summaries.map(({ id, names, scientificName, summary, conservation, distribution, taxonomy, media, habitats, tags, ...item }) => ({ ...item,
@@ -61,7 +63,7 @@ export function speciesBundle(): Plugin {
           // The genus already exists in the shared taxonomy; retain unusual names verbatim.
           n: scientificName.startsWith(`${taxonomy.genus.scientificName} `)
             ? scientificName.slice(taxonomy.genus.scientificName.length + 1) : [scientificName],
-          s: summary.startsWith(names.zh) ? [summary.slice(names.zh.length)] : summary, c: conservation.code,
+          s: summary.startsWith(names.zh) ? [summary.slice(names.zh.length)] : summary, c: conservationCodes.indexOf(conservation.code),
           // Distribution keys repeat for every species; encode optional center last.
           d: [encodeLabels(distribution.regions), encodeLabels(distribution.realms), ...(distribution.center === undefined ? [] : [distribution.center])],
           // The standard cover filename and focal point use compact sentinels.
@@ -75,7 +77,7 @@ export function speciesBundle(): Plugin {
               ? media.focalPoint.x === 0.7 && media.focalPoint.y === 0.5
                 ? 1 : [media.focalPoint.x, media.focalPoint.y]
               : undefined],
-          h: encodeLabels(habitats.map(({ name }) => name)), g: encodeLabels(tags),
+          h: encodeLabels(habitats.map(({ name }) => name)), g: tags.map((tag) => tag === names.zh ? -1 : labelIndexes.get(tag) ?? tag),
           ...(id === item.slug ? {} : { id }),
           t: taxonomyRanks.map((rank) => indexes.get(JSON.stringify(taxonomy[rank]))),
         }));
@@ -98,9 +100,10 @@ export function speciesBundle(): Plugin {
           const lineages=${JSON.stringify(lineages)};
           const labels=${JSON.stringify(labels)};
           const altSuffixes=${JSON.stringify(altSuffixes)};
-          const restoreLabels=values=>values.map(value=>typeof value==='number'?labels[value]:value);
+          const conservationCodes=${JSON.stringify(conservationCodes)};
+          const restoreLabels=(values,name)=>values.map(value=>value===-1?name:typeof value==='number'?labels[value]:value);
           export const species=${JSON.stringify(rows)}.map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
-            conservation:{code:c},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g),
+            conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:restoreLabels(d[1]),...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:restoreLabels(g,l[0]),
             taxonomy:Object.fromEntries([...lineages[t[0]],...t.slice(1)].map((taxon,index)=>[ranks[index],taxa[taxon]]))}));
           const imports=[${loaders}];
           const loaders=new Map(species.map((item,index)=>[item.slug,imports[index]]));
