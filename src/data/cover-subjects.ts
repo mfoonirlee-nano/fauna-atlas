@@ -4620,5 +4620,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1509,
       "bottom": 840
     }
+  },
+  "bargibants-pygmy-seahorse": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 744,
+      "top": 55,
+      "right": 1338,
+      "bottom": 916
+    }
   }
 };

@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-06",
+  "reviewedAt": "2026-10-06",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Hippocampus bargibanti pygmy seahorse, tiny rounded pale pink-gray body with rounded red tubercles, very short snout, small coronet, prehensile curled tail among matching pink Muricella gorgonian branches. Macro scale. Whole single seahorse curled tail gripping branch, clear head body tail. COVER: full animal on RIGHT half, all outer features within x=650..1450 y=130..900, large subject center 70% width. Left 40% quiet blurred habitat. Background clearance around complete silhouette.",
+      "sourceSha256": "8abf5bfdffec41fe4d89b9d82daec6d9e9c544a2c0b05d28a7a422ce9c72881f",
+      "runtimeSha256": "d82329e76e2d4f023f631dbb7813d380b1d68fbd436f8f294dc5f402f9ff8398"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Hippocampus bargibanti pygmy seahorse, tiny rounded pale pink-gray body with rounded red tubercles, very short snout, small coronet, prehensile curled tail among matching pink Muricella gorgonian branches. Macro scale. Side macro view short snout and rounded red tubercles, full head and trunk.",
+      "sourceSha256": "6f47ffa841c8bf5d68e737cb8f00d99cc27fe1a4d863208d4d572751986104ed",
+      "runtimeSha256": "8b076c2ed6460a36747d26214e9e9b815bd2af1283cba17afa16cde7ddd0162d"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Hippocampus bargibanti pygmy seahorse, tiny rounded pale pink-gray body with rounded red tubercles, very short snout, small coronet, prehensile curled tail among matching pink Muricella gorgonian branches. Macro scale. Whole seahorse showing tail tightly curled around a gorgonian branch.",
+      "sourceSha256": "1404717d57f75887fe217a192ca3d85d7f695f2788ec48bcbc590cfffc191798",
+      "runtimeSha256": "f04b65072bc290f0ed4585026a051257dc037c0f148a1f2c98cfcdc029077bcf"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Hippocampus bargibanti pygmy seahorse, tiny rounded pale pink-gray body with rounded red tubercles, very short snout, small coronet, prehensile curled tail among matching pink Muricella gorgonian branches. Macro scale. Wider macro of sea fan with one tiny camouflaged seahorse, educational find-the-animal composition.",
+      "sourceSha256": "8160154ea6da114ceee05465a491c6f3c4fe26cb62835b8dcda7027509b0a455",
+      "runtimeSha256": "4bd264c3f594d469baecf75f72dccb63839bdd5a6de69630a7b746ce4c0b6fb4"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Hippocampus bargibanti pygmy seahorse, tiny rounded pale pink-gray body with rounded red tubercles, very short snout, small coronet, prehensile curled tail among matching pink Muricella gorgonian branches. Macro scale. Yellow color morph with orange tubercles holding yellow Muricella branch, whole single animal.",
+      "sourceSha256": "727149dc0cd434862eef5bdc436e426188456ce02c816ed63b026f8c69845f32",
+      "runtimeSha256": "8900b7d2e72352be1f54b79ccc393aeab9d2d71a72530893fb956e35cfb1f42c"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Hippocampus bargibanti pygmy seahorse, tiny rounded pale pink-gray body with rounded red tubercles, very short snout, small coronet, prehensile curled tail among matching pink Muricella gorgonian branches. Macro scale. Whole pygmy seahorse with tiny dorsal fin visible from rear oblique angle, pink sea fan background.",
+      "sourceSha256": "8024b8eb70685ffd0e036223a506016f0c4f07c1182d1db9753cbb182d1f3eb1",
+      "runtimeSha256": "28cb5809170b29dd37cbff18ff55e527b444d66b5643b922d19713b5b13a8707"
+    }
+  ]
+}

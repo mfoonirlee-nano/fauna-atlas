@@ -685,3 +685,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [囊蛙 image set](./species/riobamba-marsupial-frog/README.md)
 - [洞螈 image set](./species/olm/README.md)
 - [斑点钝口螈 image set](./species/spotted-salamander/README.md)
+- [皇冠海马 image set](./species/bargibants-pygmy-seahorse/README.md)

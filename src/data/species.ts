@@ -129323,6 +129323,255 @@ export const species = [
   "updatedAt": "2026-10-06"
 },
 
+{
+  "id": "bargibants-pygmy-seahorse",
+  "slug": "bargibants-pygmy-seahorse",
+  "names": {
+    "zh": "皇冠海马",
+    "en": "Bargibant’s Pygmy Seahorse",
+    "aliases": [
+      "巴氏豆丁海马"
+    ]
+  },
+  "scientificName": "Hippocampus bargibanti",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Syngnathiformes",
+      "zhName": "海龙目"
+    },
+    "family": {
+      "scientificName": "Syngnathidae",
+      "zhName": "海龙科"
+    },
+    "genus": {
+      "scientificName": "Hippocampus",
+      "zhName": "海马属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "DD",
+    "label": {
+      "zh": "数据缺乏",
+      "en": "Data Deficient"
+    },
+    "trend": "unknown",
+    "assessor": "Fishes of Australia 列为 IUCN DD；未核实独立评估日期与全球趋势。资料缺乏不等于种群安全。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "热带西太平洋"
+    ],
+    "countries": [
+      "印度尼西亚",
+      "菲律宾",
+      "日本",
+      "巴布亚新几内亚",
+      "所罗门群岛",
+      "澳大利亚"
+    ],
+    "range": "热带西太平洋，包括日本、菲律宾、印度尼西亚至巴布亚新几内亚、所罗门群岛、新喀里多尼亚和澳大利亚大堡礁；依附海扇的礁坡是典型环境。"
+  },
+  "habitats": [
+    {
+      "name": "海扇珊瑚礁坡",
+      "realm": "marine",
+      "description": "常依附 Muricella 属海扇；全身只有厘米量级，本组图片为放大展示。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "height": {
+      "max": 24,
+      "unit": "mm",
+      "note": "文献最大高度，不是本组放大图的比例尺。"
+    }
+  },
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "微小甲壳动物等浮游食物"
+    ],
+    "description": "资料推测它摄取微小甲壳动物等食物；具体食谱证据有限，不把可能取食珊瑚组织写成确定行为。"
+  },
+  "tags": [
+    "皇冠海马",
+    "海扇珊瑚礁坡"
+  ],
+  "summary": "皇冠海马用卷尾抓住海扇，短吻和圆突起藏在珊瑚枝条之间。",
+  "description": "本档案的皇冠海马专指 Hippocampus bargibanti，也称巴氏豆丁海马。成年个体最大高度约 24 毫米，图中的放大效果不表示它和手掌一样大。体表圆突起与宿主海扇的形态、颜色相近，海马仍是鱼。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "短嘴和圆突起",
+      "body": "在放大图里找找短短的吻部，再看身上的圆突起。海扇上的小突起属于珊瑚，海马身上的则是它自身的体表结构。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "卷尾抓住枝条",
+      "body": "沿着身体向下找卷起的尾巴。尾巴能抓握海扇枝条，帮助小海马停在水流中的栖身处。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "海扇里找小鱼",
+      "body": "先看整片海扇，再找颜色相近的小海马。本种最大高度约 24 毫米；图片没有实物比例尺，只能用于找外形，不能据此测量。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "黄色的另一种体色",
+      "body": "有的个体呈灰粉色并带红色突起，有的呈黄色并带橙黄色突起，与不同宿主海扇相配。两张图不表示同一个体正在变色。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "小鳍帮助移动",
+      "body": "从侧后方找小小的背鳍。雄性还会在育儿袋中孕育后代，但这张外观图不能单凭腹部轮廓判断性别或是否怀孕。"
+    },
+    {
+      "key": "observation-6",
+      "label": "保护与分类",
+      "title": "保护它抓住的海扇",
+      "body": "资料缺乏表示评估所需信息不足。观察时不掰动海扇、不赶出海马，保留完整宿主和礁坡环境，才有机会持续记录它。"
+    }
+  ],
+  "keyFacts": [
+    "皇冠海马用卷尾抓住海扇，短吻和圆突起藏在珊瑚枝条之间。",
+    "Fishes of Australia 列为 IUCN DD；未核实独立评估日期与全球趋势。资料缺乏不等于种群安全。"
+  ],
+  "threats": [
+    "宿主海扇与珊瑚礁生境受损",
+    "观察和摄影时接触造成的局部干扰"
+  ],
+  "conservationActions": [
+    "保护宿主海扇和礁坡环境",
+    "采用不触碰的水下观察方式"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "海扇珊瑚礁坡"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "短嘴和圆突起"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "数据缺乏",
+      "note": "Fishes of Australia 列为 IUCN DD；未核实独立评估日期与全球趋势。资料缺乏不等于种群安全。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/bargibants-pygmy-seahorse/01-cover.webp",
+    "alt": "皇冠海马及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/bargibants-pygmy-seahorse/02-observation.webp",
+        "alt": "皇冠海马：短嘴和圆突起",
+        "title": "短嘴和圆突起",
+        "caption": "AI 生成科学情景重建。放大展示，无实物比例尺。在放大图里找找短短的吻部，再看身上的圆突起。海扇上的小突起属于珊瑚，海马身上的则是它自身的体表结构。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bargibants-pygmy-seahorse/03-observation.webp",
+        "alt": "皇冠海马：卷尾抓住枝条",
+        "title": "卷尾抓住枝条",
+        "caption": "AI 生成科学情景重建。放大展示，无实物比例尺。沿着身体向下找卷起的尾巴。尾巴能抓握海扇枝条，帮助小海马停在水流中的栖身处。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bargibants-pygmy-seahorse/04-observation.webp",
+        "alt": "皇冠海马：海扇里找小鱼",
+        "title": "海扇里找小鱼",
+        "caption": "AI 生成科学情景重建。放大展示，无实物比例尺。先看整片海扇，再找颜色相近的小海马。本种最大高度约 24 毫米；图片没有实物比例尺，只能用于找外形，不能据此测量。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bargibants-pygmy-seahorse/05-observation.webp",
+        "alt": "皇冠海马：黄色的另一种体色",
+        "title": "黄色的另一种体色",
+        "caption": "AI 生成科学情景重建。放大展示，无实物比例尺。有的个体呈灰粉色并带红色突起，有的呈黄色并带橙黄色突起，与不同宿主海扇相配。两张图不表示同一个体正在变色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bargibants-pygmy-seahorse/06-observation.webp",
+        "alt": "皇冠海马：小鳍帮助移动",
+        "title": "小鳍帮助移动",
+        "caption": "AI 生成科学情景重建。放大展示，无实物比例尺。从侧后方找小小的背鳍。雄性还会在育儿袋中孕育后代，但这张外观图不能单凭腹部轮廓判断性别或是否怀孕。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "澳大利亚博物馆：物种辨识与体型",
+      "url": "https://australian.museum/learn/animals/fishes/pygmy-seahorse-hippocampus-bargibanti-whitley-1970/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-06"
+    },
+    {
+      "title": "Fishes of Australia：分布、自然史与 DD",
+      "url": "https://fishesofaustralia.net.au/home/species/1540",
+      "kind": "conservation",
+      "accessedAt": "2026-10-06"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-06",
+  "updatedAt": "2026-10-06"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

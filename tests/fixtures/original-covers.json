@@ -3677,5 +3677,18 @@
       },
       "sha256": "e2f45f877710183d6b87e7f9d2f16781c1eb72ae5d8f572cc5cebee2380fff00"
     }
+  },
+  "bargibants-pygmy-seahorse": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 744,
+        "top": 55,
+        "right": 1338,
+        "bottom": 916
+      },
+      "sha256": "d82329e76e2d4f023f631dbb7813d380b1d68fbd436f8f294dc5f402f9ff8398"
+    }
   }
 }
