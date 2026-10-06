@@ -3651,5 +3651,18 @@
       },
       "sha256": "6aef910b7804ac1ce579a8535bd095a5d2bbb48636165d74e9b552419abd936c"
     }
+  },
+  "olm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 716,
+        "top": 186,
+        "right": 1487,
+        "bottom": 751
+      },
+      "sha256": "ebbb99e671ee6642cf53f4b93a5375dcd921cadca14ea45e99e26cf221d8a3f4"
+    }
   }
 }

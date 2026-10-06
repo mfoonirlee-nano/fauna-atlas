@@ -683,3 +683,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [沙漠雨蛙 image set](./species/desert-rain-frog/README.md)
 - [非洲牛箱头蛙 image set](./species/african-bullfrog/README.md)
 - [囊蛙 image set](./species/riobamba-marsupial-frog/README.md)
+- [洞螈 image set](./species/olm/README.md)

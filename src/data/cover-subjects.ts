@@ -4600,5 +4600,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1440,
       "bottom": 825
     }
+  },
+  "olm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 716,
+      "top": 186,
+      "right": 1487,
+      "bottom": 751
+    }
   }
 };

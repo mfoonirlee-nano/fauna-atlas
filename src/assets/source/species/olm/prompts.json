@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-06",
+  "reviewedAt": "2026-10-06",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Proteus anguinus, pale pink-white slender cave olm underwater in limestone stream, reduced tiny eyes, red feathery external gills, four very short limbs, three forefoot toes two hindfoot toes, long flattened tail. Whole animal gently curved in C shape. COVER: full animal on RIGHT half, all outer features within x=650..1450 y=130..900, large subject center 70% width. Left 40% quiet blurred habitat. Background clearance around complete silhouette. STRICT COMPOSITION revision: The entire animal must fit in the RIGHTMOST 55 percent of canvas. Animal bounding rectangle x=680 to 1450 and y=160 to 880. Keep every fin tip, lure tip, head, tail and filament to the right of x=680. This is a wide environmental portrait with empty LEFT HALF. Do not crop any appendage. Shift subject toward right and compact pose if needed.",
+      "sourceSha256": "27c28c22b515a26798a3c6ad164bda2c547e7f76f74b44509441c799e49b183a",
+      "runtimeSha256": "ebbb99e671ee6642cf53f4b93a5375dcd921cadca14ea45e99e26cf221d8a3f4"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Proteus anguinus, pale pink-white slender cave olm underwater in limestone stream, reduced tiny eyes, red feathery external gills, four very short limbs, three forefoot toes two hindfoot toes, long flattened tail. Close side view head and external gills, no exaggerated eyes.",
+      "sourceSha256": "0d373c649ab1e1388d25e7d0af2d4b612fc87a79822beed18afb274245d66828",
+      "runtimeSha256": "0e6bd68fcfc01119b09b8e75dcba60315217bfec0499b21e6642fac40a936ce6"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Proteus anguinus, pale pink-white slender cave olm underwater in limestone stream, reduced tiny eyes, red feathery external gills, four very short limbs, three forefoot toes two hindfoot toes, long flattened tail. Whole animal swimming with sinuous tail above pale stones.",
+      "sourceSha256": "132997f5217bc69c88a6056f7f62171a3226188729aeb4ac21210d21a7eed507",
+      "runtimeSha256": "9686afbb17d66f9dfaaed9dad361a1d5ae00bdc18db028625c8f575d5bed3b26"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Proteus anguinus, pale pink-white slender cave olm underwater in limestone stream, reduced tiny eyes, red feathery external gills, four very short limbs, three forefoot toes two hindfoot toes, long flattened tail. Whole animal resting beside a limestone crevice, four tiny limbs visible.",
+      "sourceSha256": "fa902a10c0c83486053fb544dc512108ee799c5b30553584a2d588ba0a23c288",
+      "runtimeSha256": "079499c579d61ed98ae3252420f8cc023fa1f0add977229988a70b656fac593c"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 natural-history photorealistic reconstruction. No text, watermark, logos, collage, human handling, gore or anthropomorphism. Proteus anguinus, pale pink-white slender cave olm underwater in limestone stream, reduced tiny eyes, red feathery external gills, four very short limbs, three forefoot toes two hindfoot toes, long flattened tail. Whole animal near a tiny aquatic crustacean on stream bed, no feeding contact.",
+      "sourceSha256": "043e3b2516afa23e40b554f8b3b65fa6d326a913e2fc367e96ea2ca2a9d10593",
+      "runtimeSha256": "6e4d817b1e48f52235dd7a13f931e62acba5fae5c0364be6d190a93870d38162"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Scientific educational landscape 1536x1024 realistic underwater scene in a dark limestone cave. One pale pink Proteus anguinus cave olm resting on gravel. Strict side view with ONLY TWO visible tiny limbs on near side, one forelimb behind red external gills and one hindlimb near tail base. Far side limbs occluded. Slender elongated body and long laterally flattened tail complete inside image. No extra legs along belly. Forefoot exactly three digits and hindfoot exactly two digits. Show extensive quiet cave water and limestone around animal, documentary illumination, not sunlight. No text, no logos.",
+      "sourceSha256": "bb29f302546ccc95aa2dc3cf5bc2ab006b0d1faab9224c10bfd095402bf28b6e",
+      "runtimeSha256": "6ce2f58d69f1d7ed2ed1601aa2dd38ee7f43e47fb471403a72d384b2c0a338ba"
+    }
+  ]
+}
