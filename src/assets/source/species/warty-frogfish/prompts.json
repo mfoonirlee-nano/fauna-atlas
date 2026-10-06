@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific-educational. Landscape 1536x1024 natural-history photorealistic reconstruction. Antennarius maculatus, cream warty body red-orange patches, short compact frogfish resting on pectoral fins on reef rubble. Thin short fishing rod with small fleshy fish-shaped lure, just a dark pigment spot, NO literal fish with mouth or gills attached. STRICT COVER PLACEMENT: The fish is entirely within RIGHTMOST HALF of image, from x=780 to x=1450, y=180 to y=880. All fins, lure and tail inside that box. Main animal center x=1120. LEFT HALF completely empty blue water and blurred reef. Environmental portrait with a large clear subject in right half. No closeup crop. No letters, watermark or collage.",
+      "sourceSha256": "6413e2a5f188ad06f7bc9c5543ef9a645bab16f0ce6674b591a63ca41fc5da76",
+      "runtimeSha256": "b2c17fbcbdc042036ae137aa5754a5ca5f9b347dffc212c6d881849071713c30"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Antennarius maculatus warty frogfish. Specific scene overrides generic pose: Close side view of red-orange patches and wartlike bumps on cream skin. NO long hairs. Do not show lure. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "757a776d1ab8a3e3c1aa425ddf51a34fcb1841748406f20ccfcdc11df912d8da",
+      "runtimeSha256": "575cc8c1affcf45d182ac093c7ac296b10cc09550b34fd8fe4bcc139f3a1a327"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Antennarius maculatus warty frogfish. Specific scene overrides generic pose: Whole squat fish resting on bent paired pectoral fins, side view on rubble. Small natural lure tucked near forehead, NO eye or mouth on lure, no literal tiny fish attached. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "0568b080fe7cd0b91e65b02ee974a7a3c0c26812f666560b7b3563bf434c96c3",
+      "runtimeSha256": "c2d7c18d6296b739891b6e0cc1973c11b7598cd02b52751fae4a0123f2847cd1"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Antennarius maculatus warty frogfish. Specific scene overrides generic pose: Close view forehead and thin illicium rod with a SMALL simple fleshy pale lure tip, no eyes or fish face on lure. Natural small eyes and upturned mouth. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "cff7362aaefb1a1e0a090e169ba187246e84f68e68a07f3b213459ae08b88f28",
+      "runtimeSha256": "c8e563867df10bb177389a352b869e6a173d196f7af9e442d5420d75ca91428a"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Antennarius maculatus warty frogfish. Specific scene overrides generic pose: Whole yellow and brown color morph among sponges, compact warty skin, complete body, natural camouflage. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "a4e769b84c726d94c6866f995abcbe88f0ece4c79aa9f0dc12e48c68b168139c",
+      "runtimeSha256": "7c31cf5250e3f15d76c7c8e07509c85e4b91a41254bb5235234a232866484d81"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Antennarius maculatus warty frogfish. Specific scene overrides generic pose: Wide habitat composition one small whole cream-and-red frogfish resting among coral rubble and sponges, no prey or attack. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "846386f8c84f8050a40486032d4958a95c77bc905a461b791bfb1f6d5d715c65",
+      "runtimeSha256": "4aa94945afb3cbcc0b4b3bd8e26fd298c1a85f639d3ffe4b1e36852c0eba9dd0"
+    }
+  ],
+  "reviewedAt": "2026-10-07"
+}

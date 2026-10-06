@@ -130533,6 +130533,246 @@ export const species = [
   "updatedAt": "2026-10-07"
 },
 
+{
+  "id": "warty-frogfish",
+  "slug": "warty-frogfish",
+  "names": {
+    "zh": "大斑躄鱼",
+    "en": "Warty Frogfish"
+  },
+  "scientificName": "Antennarius maculatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Lophiiformes",
+      "zhName": "鮟鱇目"
+    },
+    "family": {
+      "scientificName": "Antennariidae",
+      "zhName": "躄鱼科"
+    },
+    "genus": {
+      "scientificName": "Antennarius",
+      "zhName": "躄鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2021,
+    "assessor": "FishBase 转录 IUCN 全球 LC，评估日期为 2021-09-06；全球种群趋势未核实。 Fishes of Australia 仍列 NE，本档案采用较新的 LC 评估。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "印度洋与西太平洋"
+    ],
+    "countries": [],
+    "range": "分布于印度洋与西太平洋的热带礁区，包括马尔代夫、毛里求斯至东南亚和西太平洋岛屿的海域。常在海绵、藻类和珊瑚附近独自停留。"
+  },
+  "habitats": [
+    {
+      "name": "近岸岩礁与海绵生境",
+      "realm": "marine",
+      "description": "分布于印度洋与西太平洋的热带礁区，包括马尔代夫、毛里求斯至东南亚和西太平洋岛屿的海域。常在海绵、藻类和珊瑚附近独自停留。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类"
+    ],
+    "description": "少动伏击，用头部诱饵吸引鱼类靠近，再张口吞入。"
+  },
+  "tags": [
+    "大斑躄鱼",
+    "近岸岩礁与海绵生境"
+  ],
+  "summary": "大斑躄鱼身上有疣状突起，会用弯曲的胸鳍撑住短胖身体。",
+  "description": "本种体色和斑块变化很大，可见奶油色、黄色、褐色或近黑色个体。皮肤上的凸起和头顶诱饵是观察重点。它与条纹躄鱼同属，但不以满身长丝状突起为特征。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "凹凸的皮肤",
+      "body": "从浅色皮肤上找红褐色斑块，再找一颗颗凸起。斑块不保证左右对称，也不是每只鱼都有同样的颜色。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "弯曲的鳍撑住身体",
+      "body": "找找身体下方弯折、贴着礁石的胸鳍。它能用鳍在底部挪动；图中只展示支撑姿态，不把静态图当成完整步态。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "头上的诱饵",
+      "body": "第一背鳍棘形成小鱼竿，末端带有诱饵。诱饵可以像小鱼，并有眼状色斑，但它仍是躄鱼自身的组织。AI 图不用于辨认细微形态。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "另一种颜色的同种鱼",
+      "body": "黄色、褐色和奶油色个体都可能属于本种。图组比较不同个体，不表示一只鱼在几秒内完成变色。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "藏在礁石和海绵旁",
+      "body": "先看礁石的轮廓，再找其中短胖的鱼。它会伏击路过的小鱼，观察时不搬动动物，也不为了拍摄把它赶出藏身处。"
+    },
+    {
+      "key": "observation-6",
+      "label": "保护与分类",
+      "title": "核对较新的保护资料",
+      "body": "FishBase 所列全球评估为 2021 年无危。Fishes of Australia 的物种页仍写未评估；本档案采用较新的 LC 记录，不据此推断各地种群都没有压力。"
+    }
+  ],
+  "keyFacts": [
+    "大斑躄鱼身上有疣状突起，会用弯曲的胸鳍撑住短胖身体。",
+    "FishBase 转录 IUCN 全球 LC，评估日期为 2021-09-06；全球种群趋势未核实。 Fishes of Australia 仍列 NE，本档案采用较新的 LC 评估。"
+  ],
+  "threats": [
+    "水族采集",
+    "局部礁区生境退化"
+  ],
+  "conservationActions": [
+    "保护近岸礁区",
+    "不接触或搬动野生躄鱼"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "近岸岩礁与海绵生境"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "凹凸的皮肤"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "无危",
+      "note": "FishBase 转录 IUCN 全球 LC，评估日期为 2021-09-06；全球种群趋势未核实。 Fishes of Australia 仍列 NE，本档案采用较新的 LC 评估。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/warty-frogfish/01-cover.webp",
+    "alt": "大斑躄鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/warty-frogfish/02-observation.webp",
+        "alt": "大斑躄鱼：凹凸的皮肤",
+        "title": "凹凸的皮肤",
+        "caption": "AI 生成科学情景重建。从浅色皮肤上找红褐色斑块，再找一颗颗凸起。斑块不保证左右对称，也不是每只鱼都有同样的颜色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/warty-frogfish/03-observation.webp",
+        "alt": "大斑躄鱼：弯曲的鳍撑住身体",
+        "title": "弯曲的鳍撑住身体",
+        "caption": "AI 生成科学情景重建。找找身体下方弯折、贴着礁石的胸鳍。它能用鳍在底部挪动；图中只展示支撑姿态，不把静态图当成完整步态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/warty-frogfish/04-observation.webp",
+        "alt": "大斑躄鱼：头上的诱饵",
+        "title": "头上的诱饵",
+        "caption": "AI 生成科学情景重建。第一背鳍棘形成小鱼竿，末端带有诱饵。诱饵可以像小鱼，并有眼状色斑，但它仍是躄鱼自身的组织。AI 图不用于辨认细微形态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/warty-frogfish/05-observation.webp",
+        "alt": "大斑躄鱼：另一种颜色的同种鱼",
+        "title": "另一种颜色的同种鱼",
+        "caption": "AI 生成科学情景重建。黄色、褐色和奶油色个体都可能属于本种。图组比较不同个体，不表示一只鱼在几秒内完成变色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/warty-frogfish/06-observation.webp",
+        "alt": "大斑躄鱼：藏在礁石和海绵旁",
+        "title": "藏在礁石和海绵旁",
+        "caption": "AI 生成科学情景重建。先看礁石的轮廓，再找其中短胖的鱼。它会伏击路过的小鱼，观察时不搬动动物，也不为了拍摄把它赶出藏身处。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Fishes of Australia：自然史与旧版保护记录",
+      "url": "https://fishesofaustralia.net.au/home/species/3833",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "FishBase：形态、分布及 2021 年 LC 评估",
+      "url": "https://www.fishbase.se/summary/Antennarius-maculatus.html",
+      "kind": "conservation",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "台湾鱼类资料库：大斑躄鱼中文名",
+      "url": "https://fishdb.sinica.edu.tw/taxon/383246-fishdb",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-07"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

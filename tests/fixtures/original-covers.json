@@ -3742,5 +3742,18 @@
       },
       "sha256": "33f6c6e8156f850b8e5953b5cea4dc95aa03c3e8edcaefec9a66b639aa0c8ba1"
     }
+  },
+  "warty-frogfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 772,
+        "top": 198,
+        "right": 1490,
+        "bottom": 813
+      },
+      "sha256": "b2c17fbcbdc042036ae137aa5754a5ca5f9b347dffc212c6d881849071713c30"
+    }
   }
 }

@@ -4671,6 +4671,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1432,
       "bottom": 950
     }
+  },
+  "warty-frogfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 772,
+      "top": 198,
+      "right": 1490,
+      "bottom": 813
+    }
   }
 
 };

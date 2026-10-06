@@ -693,3 +693,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [条纹虾鱼 image set](./species/jointed-razorfish/README.md)
 - [矛尾翻车鲀 image set](./species/sharptail-sunfish/README.md)
+- [大斑躄鱼 image set](./species/warty-frogfish/README.md)
