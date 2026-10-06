@@ -130287,6 +130287,252 @@ export const species = [
   "updatedAt": "2026-10-07"
 },
 
+{
+  "id": "sharptail-sunfish",
+  "slug": "sharptail-sunfish",
+  "names": {
+    "zh": "矛尾翻车鲀",
+    "en": "Sharptail Sunfish"
+  },
+  "scientificName": "Masturus lanceolatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Tetraodontiformes",
+      "zhName": "鲀形目"
+    },
+    "family": {
+      "scientificName": "Molidae",
+      "zhName": "翻车鲀科"
+    },
+    "genus": {
+      "scientificName": "Masturus",
+      "zhName": "矛尾翻车鲀属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2011,
+    "assessor": "FishBase 转录 IUCN 全球 LC，评估日期为 2011-06-07；全球种群趋势未核实。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "热带与温带海洋"
+    ],
+    "countries": [],
+    "range": "在全球热带与温带海域有记录，完整分布仍有待研究。澳大利亚及邻近海域也有标本和观察记录。"
+  },
+  "habitats": [
+    {
+      "name": "大洋开放水域",
+      "realm": "marine",
+      "description": "在全球热带与温带海域有记录，完整分布仍有待研究。澳大利亚及邻近海域也有标本和观察记录。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "水母",
+      "管水母等胶质动物"
+    ],
+    "description": "资料记载主要摄食水母、管水母等胶质动物；不把翻车鲀科其他种的全部食谱直接套用于本种。"
+  },
+  "tags": [
+    "矛尾翻车鲀",
+    "大洋开放水域"
+  ],
+  "summary": "矛尾翻车鲀有高高的背鳍和臀鳍，身体后缘中央伸出一个尖突。",
+  "description": "身体高而侧扁，成体多呈灰褐色。后端的舵鳍叫 clavus，其中部向后伸出尖突，可帮助区别其他大型翻车鲀。它没有普通鱼类那样的尾柄和尾鳍结构。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "找出后方的小尖突",
+      "body": "沿身体后缘找到中央伸出的尖突。这是舵鳍的一部分；它的边缘没有典型波浪状缺刻，幼鱼的尖突相对更长。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "圆身体前的小嘴",
+      "body": "从前侧找眼睛和小嘴。两颌牙齿融合成喙状齿板，外观图只能帮助定位嘴部，不能展示内部咬合。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "身体上下各有一片高鳍",
+      "body": "背鳍和臀鳍位于身体后部，形状相近。静态图片展示鳍的位置，要看摆动方式仍需自然行为影像。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "眼睛后面的小鳍",
+      "body": "在眼睛后方找小而圆的胸鳍。成体的灰褐色皮肤看起来粗糙，图片中的纹理不是伤口或统一的个体标记。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "生活在开阔的海里",
+      "body": "把鱼放回周围的蓝色水域中观察。它也会摄食水母等胶质动物；我们对本种的繁殖和生活史仍了解有限。"
+    },
+    {
+      "key": "observation-6",
+      "label": "保护与分类",
+      "title": "把误捕记录留下来",
+      "body": "全球等级为无危，但部分海域的渔业会捕到这种鱼。记录物种身份和出现地点，有助于补充分布资料，不把少见等同于濒危。"
+    }
+  ],
+  "keyFacts": [
+    "矛尾翻车鲀有高高的背鳍和臀鳍，身体后缘中央伸出一个尖突。",
+    "FishBase 转录 IUCN 全球 LC，评估日期为 2011-06-07；全球种群趋势未核实。"
+  ],
+  "threats": [
+    "渔业捕获与误捕"
+  ],
+  "conservationActions": [
+    "改善物种辨识与渔获记录",
+    "减少非目标鱼类误捕"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "大洋开放水域"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "找出后方的小尖突"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "无危",
+      "note": "FishBase 转录 IUCN 全球 LC，评估日期为 2011-06-07；全球种群趋势未核实。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/sharptail-sunfish/01-cover.webp",
+    "alt": "矛尾翻车鲀及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/sharptail-sunfish/02-observation.webp",
+        "alt": "矛尾翻车鲀：找出后方的小尖突",
+        "title": "找出后方的小尖突",
+        "caption": "AI 生成科学情景重建。沿身体后缘找到中央伸出的尖突。这是舵鳍的一部分；它的边缘没有典型波浪状缺刻，幼鱼的尖突相对更长。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sharptail-sunfish/03-observation.webp",
+        "alt": "矛尾翻车鲀：圆身体前的小嘴",
+        "title": "圆身体前的小嘴",
+        "caption": "AI 生成科学情景重建。从前侧找眼睛和小嘴。两颌牙齿融合成喙状齿板，外观图只能帮助定位嘴部，不能展示内部咬合。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sharptail-sunfish/04-observation.webp",
+        "alt": "矛尾翻车鲀：身体上下各有一片高鳍",
+        "title": "身体上下各有一片高鳍",
+        "caption": "AI 生成科学情景重建。背鳍和臀鳍位于身体后部，形状相近。静态图片展示鳍的位置，要看摆动方式仍需自然行为影像。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sharptail-sunfish/05-observation.webp",
+        "alt": "矛尾翻车鲀：眼睛后面的小鳍",
+        "title": "眼睛后面的小鳍",
+        "caption": "AI 生成科学情景重建。在眼睛后方找小而圆的胸鳍。成体的灰褐色皮肤看起来粗糙，图片中的纹理不是伤口或统一的个体标记。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sharptail-sunfish/06-observation.webp",
+        "alt": "矛尾翻车鲀：生活在开阔的海里",
+        "title": "生活在开阔的海里",
+        "caption": "AI 生成科学情景重建。把鱼放回周围的蓝色水域中观察。它也会摄食水母等胶质动物；我们对本种的繁殖和生活史仍了解有限。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "澳大利亚博物馆：辨识与分布",
+      "url": "https://australian.museum/learn/animals/fishes/sharptail-sunfish-masturus-lanceolatus/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "Fishes of Australia：舵鳍、食性与知识局限",
+      "url": "https://fishesofaustralia.net.au/home/species/783",
+      "kind": "ecology",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "FishBase：全球 LC 与评估日期",
+      "url": "https://www.fishbase.se/summary/Masturus-lanceolatus.html",
+      "kind": "conservation",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "达尔文基金会：接受学名与 LC",
+      "url": "https://datazone.darwinfoundation.org/en/checklist/?species=14090",
+      "kind": "conservation",
+      "accessedAt": "2026-10-07"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

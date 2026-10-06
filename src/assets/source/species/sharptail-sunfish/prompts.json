@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Masturus lanceolatus sharptail sunfish, deep compressed oval grey-brown body, small eye and beak-like mouth on left, tall triangular dorsal and anal fins toward rear, smooth clavus trailing edge with distinct short pointed central projection at right. No normal caudal peduncle, no forked tail. All fin tips visible. Open deep blue ocean. COVER COMPOSITION: Complete single animal on RIGHT side, all outer features between x=670 and 1460, y=100 and 930. Fill this area with the animal, keep background clearance around all fins and tail. Left 40 percent quiet blurred habitat. No text, watermark, collage, people or aquarium. Natural anatomy.",
+      "sourceSha256": "dd79c77700d0ee65227ce0c04e4810037a70496e0793b0471c76aa9f875bf46a",
+      "runtimeSha256": "33f6c6e8156f850b8e5953b5cea4dc95aa03c3e8edcaefec9a66b639aa0c8ba1"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific-educational. Edit the referenced Masturus lanceolatus natural-history image. Preserve grey-brown fish, oval body, side view, tiny mouth, tall dorsal and anal fins and blue water. Correct ONLY the rear clavus outline: its margin between upper and lower tall fins must be SMOOTH with NO repeated scallops, no repeated round lobes, no sawteeth. Keep one single triangular central projection pointing right. Naturalistic reconstruction, not diagram, no text.",
+      "sourceSha256": "0e6689ceda33a276d24bae51ad1f2d903e461938e68e9db993eeca73e661de03",
+      "runtimeSha256": "70c3a0ee6325b2f3114620c7069fc48ec994503a0c58c980a8d8fc405c1b4b51"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Masturus lanceolatus sharptail sunfish, deep compressed oval grey-brown body, small eye and beak-like mouth on left, tall triangular dorsal and anal fins toward rear, smooth clavus trailing edge with distinct short pointed central projection at right. No normal caudal peduncle, no forked tail. All fin tips visible. Open deep blue ocean. Specific scene overrides generic pose: Three-quarter front view of living grey-brown fish, small mouth and eye, entire oval body and tall dorsal and anal fins visible. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "3874cb691922caa405b468e535e02dd319ca78c41867baf9422294be12e7fc7d",
+      "runtimeSha256": "e175b2976fbf2caf6d322145500c04ff18b5d505bd15ff6326bff836069cfe9f"
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Masturus lanceolatus sharptail sunfish, deep compressed oval grey-brown body, small eye and beak-like mouth on left, tall triangular dorsal and anal fins toward rear, smooth clavus trailing edge with distinct short pointed central projection at right. No normal caudal peduncle, no forked tail. All fin tips visible. Open deep blue ocean. Specific scene overrides generic pose: Whole fish in side view under natural surface light, emphasize tall dorsal and anal fins at rear, not a conventional fish tail. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "78fe6f635e737ba1e7b1cd84d9eaae84325b8bf3b3f27eb5b4ce24df67616136",
+      "runtimeSha256": "21621848c6e2f23fde97074c6279953387e65f9e62c5836dd6511df4f505f5ec"
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Masturus lanceolatus sharptail sunfish, deep compressed oval grey-brown body, small eye and beak-like mouth on left, tall triangular dorsal and anal fins toward rear, smooth clavus trailing edge with distinct short pointed central projection at right. No normal caudal peduncle, no forked tail. All fin tips visible. Open deep blue ocean. Specific scene overrides generic pose: Close profile of textured grey skin, small pectoral fin behind eye, open water, living healthy animal. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "1363283a2cde6750f339ab751358dd8885bcd95467b97107b0e51e84b86a56be",
+      "runtimeSha256": "a767ac2a92e7b213c08895a5729b558341c051ce1aa188f7bca62027b2352dd3"
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic natural-history reconstruction. Species: Masturus lanceolatus sharptail sunfish, deep compressed oval grey-brown body, small eye and beak-like mouth on left, tall triangular dorsal and anal fins toward rear, smooth clavus trailing edge with distinct short pointed central projection at right. No normal caudal peduncle, no forked tail. All fin tips visible. Open deep blue ocean. Specific scene overrides generic pose: Wide open-ocean habitat view with one whole fish at mid-distance, gentle sun rays, no seabed or beach. No text, watermark, collage, borders, people, aquarium glass, human handling, gore or anthropomorphism. Anatomically plausible wildlife.",
+      "sourceSha256": "8c9b82533dc32e085e54620255a4117bcb23781e23704a8fe2392ea327ad917f",
+      "runtimeSha256": "e73d295a4c3e9ace0cabf3514add19858f5e45001c4fc8297e9df597258ca1b0"
+    }
+  ],
+  "reviewedAt": "2026-10-07"
+}

@@ -4661,6 +4661,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1128,
       "bottom": 916
     }
+  },
+  "sharptail-sunfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 608,
+      "top": 26,
+      "right": 1432,
+      "bottom": 950
+    }
   }
 
 };
