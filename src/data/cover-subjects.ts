@@ -4711,6 +4711,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1478,
       "bottom": 702
     }
+  },
+  "bluestreak-cleaner-wrasse": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 610,
+      "top": 311,
+      "right": 1453,
+      "bottom": 599
+    }
   }
 
 };

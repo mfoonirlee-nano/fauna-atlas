@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Labroides dimidiatus adult cleaner wrasse, slender body with pale silvery front, pale blue rear body and tail, broad black longitudinal stripe from muzzle through eye widening towards tail, small terminal mouth. Scene: One complete adult hovering above coral reef. Cover composition: primary fish entirely within right half around x=700..1450, center at 70% width, all appendages including barbels contained with background clearance. Maximize fish within this area. Left 40% calm unobstructed water for title.",
+      "sourceSha256": "1e27173c868c6e5744b314630b4abba2c7bb32265704bc1913384a18d62eea3f",
+      "runtimeSha256": "9c6261b0abeca59947e53ae45f354419bdcfdcb7bc93e8948520a610e2e1ec34",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Labroides dimidiatus adult cleaner wrasse, slender body with pale silvery front, pale blue rear body and tail, broad black longitudinal stripe from muzzle through eye widening towards tail, small terminal mouth. Scene: A small adult cleaner wrasse approaching flank of a much larger passive reef grouper, entire cleaner visible, nonviolent cleaning station.",
+      "sourceSha256": "4f5b2672315469252e3f048afd41ceda5a5ce5daf28f463e66bd2c258d541e75",
+      "runtimeSha256": "587d0e06bf1973fc461dfe5904e3a5307051abae9b972afbc590b90293fca544",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Labroides dimidiatus adult cleaner wrasse, slender body with pale silvery front, pale blue rear body and tail, broad black longitudinal stripe from muzzle through eye widening towards tail, small terminal mouth. Scene: Close lateral view of adult head and body showing black stripe and tiny pointed mouth.",
+      "sourceSha256": "407890f7c8a1c897c2274b80f03906c872520676577b9fdb3814786a38ebe5fb",
+      "runtimeSha256": "08c45ce991b95cf8bb1ac6f7201fdc31309b21471b0853a483cd009f77f22aef",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Labroides dimidiatus adult cleaner wrasse, slender body with pale silvery front, pale blue rear body and tail, broad black longitudinal stripe from muzzle through eye widening towards tail, small terminal mouth. Scene: A juvenile Labroides dimidiatus, specifically black with a narrow electric blue dorsal longitudinal stripe, alone near coral. No adult color pattern.",
+      "sourceSha256": "8524e4d6ff0f10e68d122f47ac6328aa992aef263eaffe53ab60f9c402c381fa",
+      "runtimeSha256": "4f97e53212155907c72b1a8046bc9b91fcd1bf74acc94200dfe815ea07f345f3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Labroides dimidiatus adult cleaner wrasse, slender body with pale silvery front, pale blue rear body and tail, broad black longitudinal stripe from muzzle through eye widening towards tail, small terminal mouth. Scene: Two complete adult cleaner wrasses near a coral outcrop, reef setting.",
+      "sourceSha256": "092261014f4292e5a79c575f18ce392a562d73b935deb429fa3887f3910b6d8f",
+      "runtimeSha256": "0636d7061c0c700ad717ca46b243a87f22c9ed8c1b597a8ef38ac9389af27816",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Labroides dimidiatus adult cleaner wrasse, slender body with pale silvery front, pale blue rear body and tail, broad black longitudinal stripe from muzzle through eye widening towards tail, small terminal mouth. Scene: Wider reef view with single adult cleaner wrasse at coral cleaning station and passive larger reef fish nearby, no predation.",
+      "sourceSha256": "e4eb70f63cd9a84d5e4fc4e5a793e2e019c84721175b6483829367b07087180a",
+      "runtimeSha256": "4fc44f3b8959f91998df74a8decfe3025806d17e73563080cca7930aed6c9a24",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

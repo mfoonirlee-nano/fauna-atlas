@@ -698,3 +698,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [黄头后颌鰧 image set](./species/yellowhead-jawfish/README.md)
 
 - [双带双锯鱼 image set](./species/clarks-anemonefish/README.md)
+- [裂唇鱼 image set](./species/bluestreak-cleaner-wrasse/README.md)

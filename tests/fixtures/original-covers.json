@@ -3794,5 +3794,18 @@
       },
       "sha256": "de4e80612a3c9fd66aec29ea753488baef7190cf95ee6ea42f9d22cdb8faa53a"
     }
+  },
+  "bluestreak-cleaner-wrasse": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 610,
+        "top": 311,
+        "right": 1453,
+        "bottom": 599
+      },
+      "sha256": "9c6261b0abeca59947e53ae45f354419bdcfdcb7bc93e8948520a610e2e1ec34"
+    }
   }
 }
