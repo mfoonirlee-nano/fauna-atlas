@@ -3937,5 +3937,18 @@
       },
       "sha256": "2328a1f49e19383f7fc6be7227b1dd761fae7834353fa3c8e0d6bb1168742c2b"
     }
+  },
+  "golden-tortoise-beetle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 55,
+        "right": 1467,
+        "bottom": 902
+      },
+      "sha256": "170883c0b4d1d62baab7c21974934f4ae6bc59b768124911488ffec7c9ce53ae"
+    }
   }
 }

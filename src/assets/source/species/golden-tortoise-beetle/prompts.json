@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Charidotella sexpunctata. Scene: One whole golden tortoise beetle from above on morning glory leaf, tiny rounded domed metallic gold center and broad clear translucent shieldlike pronotum and elytral rim, six small yellow legs mostly concealed beneath rim, two short antennae. COVER: place the ENTIRE animal including every antenna and leg strictly inside x=680..1460 y=110..920, as large as fits those bounds; center around 72% canvas width. Left 40 percent is quiet defocused habitat only. Preserve real background clearance all sides. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "6ffabfdd9cd194bcf7706b60c61e767403840c76e458d100204ef8dfb786a1ad",
+      "runtimeSha256": "170883c0b4d1d62baab7c21974934f4ae6bc59b768124911488ffec7c9ce53ae",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Charidotella sexpunctata. Scene: Top view single golden tortoise beetle, broad nearly transparent outer rim, domed gold center, midline suture on paired elytra, on leaf. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "179eff6e1da444fc54d5f0339ddedb192556e955b6482e944a612e8fe0c18f09",
+      "runtimeSha256": "204323ba2dae0d3bd7d186e3dd12aeb5be9b02b03347b2bc4c8167c2c42c4cee",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Charidotella sexpunctata. Scene: Low side view golden tortoise beetle on leaf showing domed metallic golden shell and clear thin expanded margins, tiny yellow legs beneath. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "1869ce4719ea61984496554f0a353664b7b6c14e7a2a671e60b673fa420b8cad",
+      "runtimeSha256": "95e53bfcbe9e313f9780e7d6d7689194e9d1ef2405e6b20f33cded786433e636",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Charidotella sexpunctata. Scene: One golden tortoise beetle eating edge of morning glory leaf with small irregular feeding holes, metallic gold dome and clear rim. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "3a1dbc176de1a19f795680413007a0fd9c801762317c8b52a1ff5cfc813dfe09",
+      "runtimeSha256": "0b5f077751984c1385a7794ae2743594c1a595601bc020fc98a62cb8eb16cd16",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Charidotella sexpunctata. Scene: Only one golden tortoise beetle larva, flattened yellow brown body with branched lateral spines, three pairs short thoracic legs, rear fork carries small dark debris shield over back, on leaf underside. No adult. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "3b24d1e169ec9fd7de912713b171171d3b221b274aba8cb7981e566971067752",
+      "runtimeSha256": "9a816236eb954356753d666e081538ac90121801ad953a1899e605315d292c9a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Charidotella sexpunctata. Scene: Single adult Charidotella sexpunctata with copper orange rather than bright gold coloration and transparent margins resting on bindweed leaf. Natural color variant, not ladybird. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "80311827718f4bea60f6101940bd10d9f426e16cfc487bd582ea20f660f30dae",
+      "runtimeSha256": "f8324127e1e47994e5ef50c8cff43b062f86d4123e98505c4ac5e1b917ea0678",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

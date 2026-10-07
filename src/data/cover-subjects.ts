@@ -4821,5 +4821,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1443,
       "bottom": 845
     }
+  },
+  "golden-tortoise-beetle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 55,
+      "right": 1467,
+      "bottom": 902
+    }
   }
 };
