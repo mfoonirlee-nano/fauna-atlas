@@ -3846,5 +3846,18 @@
       },
       "sha256": "7be48776d29cc6811154c758541129d2933236119d461b929f675839025be92c"
     }
+  },
+  "three-spined-stickleback": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 616,
+        "top": 306,
+        "right": 1422,
+        "bottom": 598
+      },
+      "sha256": "5bf066609c546a9d236c8413f7787952a4a0e70307a83fe39611215a63189998"
+    }
   }
 }

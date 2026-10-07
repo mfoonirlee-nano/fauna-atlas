@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this three-spined stickleback cover. Preserve fish anatomy, three dorsal spines and red breeding male. Reduce fish size slightly and move it right so snout starts at x=650, tail ends at x=1460, complete subject stays within these coordinates on 1536x1024 image. Preserve natural pond background, left 40 percent quiet water. No text.",
+      "sourceSha256": "42f0fe6eea94b852796a985a75c307ffa4e61d0ac5961c69de8fac40ca36fc66",
+      "runtimeSha256": "5bf066609c546a9d236c8413f7787952a4a0e70307a83fe39611215a63189998",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Gasterosteus aculeatus: three-spined stickleback, small slender silver fish, narrow tail base, exactly three separate dorsal spines ahead of soft dorsal fin; breeding male has red underside and blue-green eye. Scene: Breeding male carrying a short fragment of aquatic plant in mouth toward a small nest on pond floor, lateral view.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "ba66edcc6d3ed3c9fb9d538013179a79f929df1a4873ab4b2098e55ccf0444ad",
+      "runtimeSha256": "09415eea720ac14c0854f7d091b9e8d8d0461c3374a430627104e66920f2505a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Gasterosteus aculeatus: three-spined stickleback, small slender silver fish, narrow tail base, exactly three separate dorsal spines ahead of soft dorsal fin; breeding male has red underside and blue-green eye. Scene: Male hovering beside a low tunnel nest of plant fibers among pond plants; no eggs exposed.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "2f8c183d4af86acfacae6e9a6a93e4ba806f5508b7c911c6ee4cb103ecc4c63b",
+      "runtimeSha256": "a6d9da306d56c7cd1275ac8f060c2c9dae9fac35aac57ca0c6c5ed0e029670d6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Gasterosteus aculeatus: three-spined stickleback, small slender silver fish, narrow tail base, exactly three separate dorsal spines ahead of soft dorsal fin; breeding male has red underside and blue-green eye. Scene: Nonbreeding silver female lateral view in clear shallow water, no red throat.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "bd3fdbd5c379f21a39f0f79eca61bb508823479ea9f480bf275915a0c5507b48",
+      "runtimeSha256": "f0a7293d3c656726132e1b73b877352d7355a19a6d0711c0b547ab779decefc8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Gasterosteus aculeatus: three-spined stickleback, small slender silver fish, narrow tail base, exactly three separate dorsal spines ahead of soft dorsal fin; breeding male has red underside and blue-green eye. Scene: Detailed lateral view of three distinct dorsal spines followed by soft dorsal fin, entire fish.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "58acec19721828ec9b9e9b4ea0e431c3a7422fefe2a6bd0ebbeb0a3ac1f70e57",
+      "runtimeSha256": "a46ff4500aeb80283faf795d09ac8a4abafa9eead5de73b0069f97f0e316ee7f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Gasterosteus aculeatus: three-spined stickleback, small slender silver fish, narrow tail base, exactly three separate dorsal spines ahead of soft dorsal fin; breeding male has red underside and blue-green eye. Scene: Natural vegetated shallow pond underwater habitat, two small silver sticklebacks apart.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "35889bbd45c29ee9892298e1880ece67ce8890599fb56dda1007d67e3eb3be65",
+      "runtimeSha256": "9e1e2c1bff13be6c77574c551143864d0b5ecccfa9b439a7034d357e83574ed3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

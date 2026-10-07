@@ -702,3 +702,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [霓虹虾虎鱼 image set](./species/neon-goby/README.md)
 - [红腹食人鱼 image set](./species/red-bellied-piranha/README.md)
 - [玻璃鲶 image set](./species/glass-catfish/README.md)
+
+- [三刺鱼 image set](./species/three-spined-stickleback/README.md)

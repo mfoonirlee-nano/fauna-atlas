@@ -4751,6 +4751,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1488,
       "bottom": 635
     }
+  },
+  "three-spined-stickleback": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 616,
+      "top": 306,
+      "right": 1422,
+      "bottom": 598
+    }
   }
-
 };
