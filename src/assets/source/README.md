@@ -704,3 +704,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [玻璃鲶 image set](./species/glass-catfish/README.md)
 
 - [三刺鱼 image set](./species/three-spined-stickleback/README.md)
+- [月蛾 image set](./species/luna-moth/README.md)

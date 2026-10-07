@@ -4761,5 +4761,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1422,
       "bottom": 598
     }
+  },
+  "luna-moth": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 642,
+      "top": 88,
+      "right": 1454,
+      "bottom": 919
+    }
   }
 };

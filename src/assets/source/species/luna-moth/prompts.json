@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit cover composition in this 1536x1024 image. Keep complete luna moth including BOTH long hindwing tails, four eyespots, white body and feathered antennae. Reduce scale slightly and move right so LEFTMOST wing starts at x=650 and rightmost wing ends at x=1450, antennae and tails fit y=100..920. Preserve natural background with leftmost 40 percent quiet defocused habitat. No text.",
+      "sourceSha256": "ac089fb4ae743307817f2cb5ef87b2fc5a0057c2cc8784db89bad8b1adb95bd7",
+      "runtimeSha256": "7109e02e7158840267304ab55d9e9c63faa5a1fd68b27c6ba550e95188d4da37",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Actias luna: Actias luna North American luna moth, pale lime green broad wings, one small eyespot on each of four wings, maroon leading edge of forewings, white furry body, two long gently twisting hindwing tails, feathery antennae. Scene: Dorsal view of resting adult on a leaf with both long hindwing tails fully visible.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "2585419f2d636a7e3fc43e078270d9854a09549a33530aa85139ac52224d3e1b",
+      "runtimeSha256": "9f9a7830b8493e936525d8d427dfe7e441d6236cae0909ef8d20f35febd1f447",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Actias luna: Actias luna North American luna moth, pale lime green broad wings, one small eyespot on each of four wings, maroon leading edge of forewings, white furry body, two long gently twisting hindwing tails, feathery antennae. Scene: Oblique close view of adult resting on twig, showing feathery antennae and white furry thorax.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "219a51f70bed1afa2a4a0f9eb241616774c50b81d038bccbdda5f10cef2fbc68",
+      "runtimeSha256": "318e701de7cb20a5c7227892a8678217fe3f07e40168580667ab64784813b896",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Scientific natural history macro reconstruction, landscape 1536x1024. ONLY a single mature Actias luna luna moth caterpillar feeding on sweetgum leaf. Plump translucent lime-green body, subtle pale yellow lateral stripe, sparse short fine hairs, SMALL orange-red low tubercles on segments. No big blue or yellow knobs, no cecropia caterpillar, no adult moth, no other stages. Natural forest background, no text or scale bar. Anatomically credible, complete larva.",
+      "sourceSha256": "2ae2a97d800afe59a682490e11f485b28801c8ac7bb40a58809952724344b086",
+      "runtimeSha256": "1231e176a8b20c32298da8fc2f0720b6f0125dedee322c52b75fd3b71810085c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Actias luna: Actias luna North American luna moth, pale lime green broad wings, one small eyespot on each of four wings, maroon leading edge of forewings, white furry body, two long gently twisting hindwing tails, feathery antennae. Scene: Brown silken cocoon wrapped inside dry fallen leaves on forest floor, no adult.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "2d26698a473e24b966e072c3a28309223306621f8039b9916ae8755b78c0c4ea",
+      "runtimeSha256": "ba1696ab575312e5b208c8b10f9e7f060a45020642ae3719aa304c35611f4cd7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Actias luna: Actias luna North American luna moth, pale lime green broad wings, one small eyespot on each of four wings, maroon leading edge of forewings, white furry body, two long gently twisting hindwing tails, feathery antennae. Scene: Entire adult perched on bark in eastern North American deciduous forest at dusk, wings open.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "ce15935226d03a6604bd1d9317dc17cc36f4b3e5b88b604f42ace0478dd30890",
+      "runtimeSha256": "bdf1630b6235ec1b566eecb8310554a380222ee7b78226176a6a311a7dd99ca4",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
