@@ -3807,5 +3807,18 @@
       },
       "sha256": "9c6261b0abeca59947e53ae45f354419bdcfdcb7bc93e8948520a610e2e1ec34"
     }
+  },
+  "neon-goby": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 597,
+        "top": 326,
+        "right": 1472,
+        "bottom": 643
+      },
+      "sha256": "c26f6431e17b5a7ad0754b594682fca2c0d478726ca4ead7b203afd386cb74dc"
+    }
   }
 }

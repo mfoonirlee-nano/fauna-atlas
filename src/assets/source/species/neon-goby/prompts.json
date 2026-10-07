@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Elacatinus oceanops neon goby, tiny slender black-backed goby with a brilliant narrow electric blue stripe on each upper side from snout through eye to tail base, whitish underside, translucent fins, separate small dorsal fins. Scene: One complete neon goby perched on reef rock, close macro showing entire fish. Cover composition: primary fish entirely within right half around x=700..1450, center at 70% width, all appendages including barbels contained with background clearance. Maximize fish within this area. Left 40% calm unobstructed water for title.",
+      "sourceSha256": "1eebb1cd7ee54c84602419260954dd588253afb2dff0dca640f8adcf71099545",
+      "runtimeSha256": "c26f6431e17b5a7ad0754b594682fca2c0d478726ca4ead7b203afd386cb74dc",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Elacatinus oceanops neon goby, tiny slender black-backed goby with a brilliant narrow electric blue stripe on each upper side from snout through eye to tail base, whitish underside, translucent fins, separate small dorsal fins. Scene: Close full lateral macro highlighting continuous blue stripe, coral background.",
+      "sourceSha256": "e736c7d3a970db62d08547488fd18f4058dc8c745484d4ea36341196c3cd78a1",
+      "runtimeSha256": "eb3fa5c3c34027fc7551acd75b17bff21558c7eef342ba30f6fe7f277e115aeb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Elacatinus oceanops neon goby, tiny slender black-backed goby with a brilliant narrow electric blue stripe on each upper side from snout through eye to tail base, whitish underside, translucent fins, separate small dorsal fins. Scene: Small neon goby perched on a large passive reef fish's flank near its gill cover, cleaning symbiosis, realistic strong size difference.",
+      "sourceSha256": "ea3adcfa9c3faa9005b468b3297039337d8a6d8621c9940676585776e68dc99b",
+      "runtimeSha256": "fbd3fbafb9d7b87ffb410d2c6281124ac686092be00e97430199af13dc39d72c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Elacatinus oceanops neon goby, tiny slender black-backed goby with a brilliant narrow electric blue stripe on each upper side from snout through eye to tail base, whitish underside, translucent fins, separate small dorsal fins. Scene: Two whole neon gobies resting apart on coral heads, natural reef.",
+      "sourceSha256": "6373fbd2364f3e5de5d587001f844e2a787a7208b6573d6685796d2e73f5a257",
+      "runtimeSha256": "bcba0db385d4fae24567510205935b39bafcc214f53b9a5ea7d33082737e5462",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Correct only the head coloration in this Elacatinus oceanops neon goby image. Scientific diagnostic character: the lateral blue stripes extend just a short distance ahead of each eye, but DO NOT MEET ACROSS THE SNOUT. Remove the bright blue U-shaped band crossing the forehead/front of snout and any central blue forehead streak. Keep the central snout and middle of forehead dark charcoal black, with separate blue stripe ending shortly in front of each eye. Preserve pale whitish underside, both lateral blue body stripes, eyes, fish pose, fins and background. No text.",
+      "sourceSha256": "eef9c5ed8306495250e4598eb489e1ddf4b515eeff7f6632b541f9aa417286e0",
+      "runtimeSha256": "192be3cc3dbaedad8aa484cb827a4205220c4c5c71b34ab5951f7bf042b835bf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Elacatinus oceanops neon goby, tiny slender black-backed goby with a brilliant narrow electric blue stripe on each upper side from snout through eye to tail base, whitish underside, translucent fins, separate small dorsal fins. Scene: Wide view of Florida Caribbean coral reef, single neon goby on coral foreground, natural blue water.",
+      "sourceSha256": "8fff6fc85a834c9025b13bd3da8fc557a64bb94e6813ff7ab1e5fd1b66c0b35f",
+      "runtimeSha256": "3d8cf24bb9c9fab1a1ae3d8c083eaf24b25c89068b8bcae9e367d4e4a899318f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

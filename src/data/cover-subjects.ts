@@ -4721,6 +4721,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1453,
       "bottom": 599
     }
+  },
+  "neon-goby": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 597,
+      "top": 326,
+      "right": 1472,
+      "bottom": 643
+    }
   }
 
 };

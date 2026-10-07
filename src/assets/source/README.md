@@ -699,3 +699,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [双带双锯鱼 image set](./species/clarks-anemonefish/README.md)
 - [裂唇鱼 image set](./species/bluestreak-cleaner-wrasse/README.md)
+- [霓虹虾虎鱼 image set](./species/neon-goby/README.md)
