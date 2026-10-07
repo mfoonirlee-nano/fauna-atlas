@@ -3898,5 +3898,18 @@
       },
       "sha256": "8e356d78d7ea7c9838381d54c013f639414a059c1460dde143214768c5ab1a0b"
     }
+  },
+  "rosy-maple-moth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 718,
+        "top": 40,
+        "right": 1364,
+        "bottom": 895
+      },
+      "sha256": "5c6f1d418a70b2b2519f2f900d718f4a15a617f58a2ff71532b268eca9ec6823"
+    }
   }
 }

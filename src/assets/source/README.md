@@ -707,3 +707,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [月蛾 image set](./species/luna-moth/README.md)
 - [大透翅天蛾 image set](./species/coffee-bee-hawk-moth/README.md)
 - [大白粉蝶 image set](./species/large-white/README.md)
+- [玫瑰枫蛾 image set](./species/rosy-maple-moth/README.md)

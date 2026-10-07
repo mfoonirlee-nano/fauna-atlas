@@ -4791,5 +4791,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1419,
       "bottom": 724
     }
+  },
+  "rosy-maple-moth": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 40,
+      "right": 1364,
+      "bottom": 895
+    }
   }
 };

@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Dryocampa rubicunda: Dryocampa rubicunda rosy maple moth, small furry yellow body, pink legs, forewings pink along base and outer margin with broad cream yellow middle band, pink-yellow hindwings, two antennae, natural moth anatomy, no face or smile. Scene: COVER. Entire adult resting with wings rooflike on maple twig.. Cover composition: full subject including wings, antennae, legs and tails occupies right side x=650..1450 and y=120..920, centered at 70% width, maximize subject within these bounds. Left 40% quiet defocused habitat. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "926a657cc07e121931a474298dd4d276f60881df6abd559ef710c8158126eceb",
+      "runtimeSha256": "5c6f1d418a70b2b2519f2f900d718f4a15a617f58a2ff71532b268eca9ec6823",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Dryocampa rubicunda: Dryocampa rubicunda rosy maple moth, small furry yellow body, pink legs, forewings pink along base and outer margin with broad cream yellow middle band, pink-yellow hindwings, two antennae, natural moth anatomy, no face or smile. Scene: Dorsal close view resting adult on maple leaf, natural pink yellow wing pattern.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "f4cce1c0958f5d30d45e26131542cb7b3bbd52631453a184a76ac360459eee8c",
+      "runtimeSha256": "50986a53f00b633a7189caed0ba01c771d0564d14770f5ca94ad6b9b37763bd9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Dryocampa rubicunda: Dryocampa rubicunda rosy maple moth, small furry yellow body, pink legs, forewings pink along base and outer margin with broad cream yellow middle band, pink-yellow hindwings, two antennae, natural moth anatomy, no face or smile. Scene: Side close view complete adult resting on bark, yellow fuzzy thorax pink legs and antennae.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "b35ee7094ab94a5c0b92db8d149b32b2d661824204381e50d51b0526b321f753",
+      "runtimeSha256": "8d860a44db193f23f595f83430126c2644d74fd3cd2a7bbcc7dc88d4a5059589",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Dryocampa rubicunda: Dryocampa rubicunda rosy maple moth, small furry yellow body, pink legs, forewings pink along base and outer margin with broad cream yellow middle band, pink-yellow hindwings, two antennae, natural moth anatomy, no face or smile. Scene: Greenstriped mapleworm Dryocampa rubicunda caterpillar with lengthwise pale stripes, dark head, paired long black horns just behind head on maple leaf.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "aaccca745c0b058201425aa5ae9c68d99b4b8cdd3b2130b2b7ad2e562b85b5af",
+      "runtimeSha256": "67033eea11480955154de64b84e77a57d6891874f50896be5d58d2da0af99443",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Dryocampa rubicunda: Dryocampa rubicunda rosy maple moth, small furry yellow body, pink legs, forewings pink along base and outer margin with broad cream yellow middle band, pink-yellow hindwings, two antennae, natural moth anatomy, no face or smile. Scene: Small cluster of pale yellow eggs on underside of maple leaf, macro; no other life stages.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "891359dcada60a59481da877cd23ecfafe0413ec94a99fdc76a40fa1c492d193",
+      "runtimeSha256": "c88792bcd72d4891d12680493a87c75bb806479d951f0e9224f61da300fc4883",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Dryocampa rubicunda: Dryocampa rubicunda rosy maple moth, small furry yellow body, pink legs, forewings pink along base and outer margin with broad cream yellow middle band, pink-yellow hindwings, two antennae, natural moth anatomy, no face or smile. Scene: Adult resting on maple trunk within leafy eastern North American deciduous woodland, wider habitat view.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "b4d4895eadba4f588c1539a715ce1bc93f0c1cfac635225e5037e488f24bf412",
+      "runtimeSha256": "dda3d6da782cacb80408265222aca8cac7df4499fd38a7a80b45a9b527fe2da0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
