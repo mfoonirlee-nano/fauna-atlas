@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Pseudocreobotra wahlbergii. Scene: Whole adult spiny flower mantis resting on thin flowering twig, cream and green spiny body, folded green forewings with black cream spiral eyespot, two slender antennae, four walking legs and two folded raptorial forelegs. COVER: place the ENTIRE animal including every antenna and leg strictly inside x=680..1460 y=110..920, as large as fits those bounds; center around 72% canvas width. Left 40 percent is quiet defocused habitat only. Preserve real background clearance all sides. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "b858ecfbe853b68a43474ba145fed72037beadabc4e676185ee30c30c74c8824",
+      "runtimeSha256": "e38bbccb5680facfdbc110c4ad65262ce7bb524106692dc6338e2e911b1b50b8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Pseudocreobotra wahlbergii. Scene: Adult in natural defensive wing display, two opened forewings each with one black and cream spiral eyespot, pale green white spiny body and yellow orange hindwings. No human or predator. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "efae835ee3f35626126223dd9f344bf39e4b64fa0d6861db66f00f4a53447bec",
+      "runtimeSha256": "d2c770262a127af7e36f9e0f1e11574ca74abb20303030062c6c5c8f35b071f4",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Pseudocreobotra wahlbergii. Scene: Side view resting adult on twig, focus on folded spined raptorial front legs, four walking legs, triangular head and two antennae. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "ce3cd218d989c928615bfe83342da3c6666e6c289f05816f79c53f531375463e",
+      "runtimeSha256": "2ba30a9c1016ae8265596a6733d291a6bf7e23e7a7b068de48888d637e078f12",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Pseudocreobotra wahlbergii. Scene: One late-instar wingless nymph on twig, pale green cream body with raised spiny abdomen, tiny wing buds, no adult wings. Only nymph. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "f641cd588ff5773dff239f415fd3d899454d56d2e0590340533d80d7dc4eeaf4",
+      "runtimeSha256": "d2b3a12b763d0d9d022b0a3cd89caafe27b8a67b311cff278ab220173d700317",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Pseudocreobotra wahlbergii. Scene: One adult camouflaged among small pale flowers and green foliage, wings closed. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "7060917069bbbe03ddfcf423c56f616a66ccbe08c7b833e78701eecf988dd651",
+      "runtimeSha256": "f0448f1ff2c66df5fd8f5f3ac2da0a63313798d80aec0d783bf20a2be76cd501",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Pseudocreobotra wahlbergii. Scene: One adult waiting on leafy branch, raptorial forelegs folded, oblique front view showing triangular head, entirely natural calm pose. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "a58ea899885e3b99f375b682526d8e153c7857fd38f1df6ec0786e6f32a77c86",
+      "runtimeSha256": "47debecb5ece1264498b18ae643fe248a81a310c64ab90f53c03d75f4a1de4c7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

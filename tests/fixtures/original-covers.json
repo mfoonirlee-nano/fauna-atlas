@@ -3911,5 +3911,18 @@
       },
       "sha256": "5c6f1d418a70b2b2519f2f900d718f4a15a617f58a2ff71532b268eca9ec6823"
     }
+  },
+  "spiny-flower-mantis": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 32,
+        "right": 1460,
+        "bottom": 920
+      },
+      "sha256": "e38bbccb5680facfdbc110c4ad65262ce7bb524106692dc6338e2e911b1b50b8"
+    }
   }
 }

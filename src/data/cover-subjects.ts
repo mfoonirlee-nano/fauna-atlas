@@ -4801,5 +4801,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1364,
       "bottom": 895
     }
+  },
+  "spiny-flower-mantis": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 32,
+      "right": 1460,
+      "bottom": 920
+    }
   }
 };
