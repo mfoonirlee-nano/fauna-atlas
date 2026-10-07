@@ -83,7 +83,8 @@ export function speciesBundle(): Plugin {
                 ? 1 : [media.focalPoint.x, media.focalPoint.y]
               : undefined],
           h: encodeLabels(habitats.map(({ name }) => name)), g: tags.map((tag) => tag === names.zh ? -1 : labelIndexes.get(tag) ?? tag),
-          ...(id === item.slug ? {} : { id }),
+          // Older profiles derive their id from the scientific name; keep exceptions verbatim.
+          ...(id === item.slug ? {} : { id: id === `species-${scientificName.toLowerCase().replaceAll(' ', '-')}` ? 1 : id }),
           t: taxonomyRanks.map((rank) => indexes.get(JSON.stringify(taxonomy[rank]))),
         }));
         // Many species share kingdom through order; serialize those four ranks once.
@@ -110,7 +111,7 @@ export function speciesBundle(): Plugin {
           const conservationCodes=${JSON.stringify(conservationCodes)};
           const realmSets=${JSON.stringify(realmSets)};
           const restoreLabels=(values,name)=>values.map(value=>value===-1?name:typeof value==='number'?labels[value]:value);
-          export const species=${JSON.stringify(rows)}.map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
+          export const species=${JSON.stringify(rows)}.map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id===1?'species-'+(Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n).toLowerCase().replaceAll(' ','-'):id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
             conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:realmSets[d[1]],...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:g===1?[l[0],restoreLabels(h)[0]]:restoreLabels(g,l[0]),
             taxonomy:Object.fromEntries([...lineages[t[0]],...t.slice(1)].map((taxon,index)=>[ranks[index],taxa[taxon]]))}));
           const imports=[${loaders}];
