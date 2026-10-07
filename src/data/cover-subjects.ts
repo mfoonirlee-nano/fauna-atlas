@@ -4831,5 +4831,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1467,
       "bottom": 902
     }
+  },
+  "goliath-beetle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 159,
+      "right": 1522,
+      "bottom": 798
+    }
   }
 };

@@ -3950,5 +3950,18 @@
       },
       "sha256": "170883c0b4d1d62baab7c21974934f4ae6bc59b768124911488ffec7c9ce53ae"
     }
+  },
+  "goliath-beetle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 159,
+        "right": 1522,
+        "bottom": 798
+      },
+      "sha256": "8ec30e3bc8d82c438487514a08a0b9e98dffbdc672bc83c8770afc9b1acd5824"
+    }
   }
 }

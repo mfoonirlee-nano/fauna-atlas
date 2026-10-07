@@ -1,0 +1,67 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only composition of this Goliathus goliatus cover. Preserve beetle anatomy, color and natural branch. Reposition and slightly reduce beetle so full silhouette ALL claws antennae legs horns lies x=680..1450 y=120..900 in 1536x1024 image. Entire subject on right 60%, prominent. Left 40% softly blurred forest. No cropping body or appendages. No text.",
+      "originalPrompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Goliathus goliatus. Scene: One entire adult male Goliathus goliatus on thick forest branch, robust oval beetle, dark chestnut brown elytra, black pronotum with longitudinal white stripes, black head with short bifurcated Y-shaped horn, six strong black legs with claws and short antennae. Not Goliathus orientalis. COVER: place the ENTIRE animal including every antenna and leg strictly inside x=680..1460 y=110..920, as large as fits those bounds; center around 72% canvas width. Left 40 percent is quiet defocused habitat only. Preserve real background clearance all sides. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "42174759a287e275251f7525404a5cf57b5b7ce4b931195354c8f71fc4b00b64",
+      "runtimeSha256": "8ec30e3bc8d82c438487514a08a0b9e98dffbdc672bc83c8770afc9b1acd5824",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Goliathus goliatus. Scene: Dorsal view adult male Goliathus goliatus, chestnut elytra black white striped thorax, bifurcated head horn. Whole body on plain bark, no ruler. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "b25488d982268f46c5732f5518c6856205cdd956db71c2d35866e6c59756dfa4",
+      "runtimeSha256": "05772a7541b8586dcd4c49876602e29bb9b8586d817ed7632038515588c79acd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Goliathus goliatus. Scene: Oblique close view adult male on bark highlighting Y-shaped head horn and black white striped pronotum, chestnut brown elytra. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "ed1ab37cc1bb377ce908a6876a8706df3c141c8182e67b4dadab194dbb7777df",
+      "runtimeSha256": "3804182b53588c1265ecf748f8dbc6c61e105d4c36f4daac5ffcaf336afd9b6f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Goliathus goliatus. Scene: One adult female Goliathus goliatus, robust dark chestnut brown elytra, longitudinal white stripes on black thorax, head WITHOUT male bifurcated horn, six black legs, on bark. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "7d468b6f8c2bc0a5213b44c79df3febc2d127531b274021f9d3cda364475b9f2",
+      "runtimeSha256": "00f4469861265a90e482e0b1badc9271b72371db61eb8e2d62bef2a1b60cb68c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Goliathus goliatus. Scene: Adult male Goliathus goliatus feeding at natural tree sap seep, chestnut elytra white striped thorax, intact whole beetle, no fruit bowl. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "471a3caed96bd3d8c181d15f3c4521ff2914cd19d2d105d1acb7b8f4bdf22bae",
+      "runtimeSha256": "bb57a7bf836e971fd833f6115978f593979a6857c1a03e6ec7d04004ce28e930",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Goliathus goliatus. Scene: Only a cream C-shaped Goliathus goliatus beetle larva on dark humus, brown head capsule, three pairs of short jointed thoracic legs immediately behind head, soft segmented abdomen. No adult, no caterpillar prolegs. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "05f620446d8427384952be57703155e58327bd8c58f717a5c8897a63dba0f7ec",
+      "runtimeSha256": "ee4ea6a123895f7baf8158e968cc5d098c024b32bd65c0c65948dbceb4c6b235",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
