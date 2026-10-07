@@ -236,6 +236,12 @@ test('retains assessment years except for explicitly documented missing evidence
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.sources.some(({ kind }) => kind === 'conservation'));
+    } else if (profile.slug === 'giraffe-weevil') {
+      // GBIF and the 2021 citation confirm NT, but the original assessment date is inaccessible.
+      assert.equal(profile.conservation.code, 'NT');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.ok(profile.sources.some(({ url }) => url === 'https://doi.org/10.2305/IUCN.UK.2021-2.RLTS.T193348632A193724158.en'));
+      assert.match(profile.conservation.assessor, /原页本次访问受限.*未补填评估日期/);
     } else if (profile.slug === 'central-bearded-dragon') {
       // The 2018 IUCN citation establishes publication year, not the assessment date.
       assert.equal(profile.conservation.code, 'LC');
@@ -24356,7 +24362,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 480);
+  assert.equal(species.length, 485);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24414,7 +24420,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 59);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 64);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24464,17 +24470,17 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cardiida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cardiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tridacna')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 36);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 41);
   assert.equal(findTaxon(tree, 'order', 'Hemiptera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cicadidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Magicicada')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 14);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bombyx')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Mantidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tenodera')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Coleoptera')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'order', 'Coleoptera')?.speciesCount, 11);
   assert.equal(findTaxon(tree, 'family', 'Coccinellidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Coccinella')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 1);
@@ -24527,7 +24533,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 480);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 485);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -26478,7 +26484,7 @@ test('the final todo batch completes all selections with distinct six-image prof
 test('September 24 ten todo animals have complete profiles and sixty distinct accepted images', async () => {
   const cases = [["kinkajou", "Potos flavus", "Procyonidae"], ["bat-eared-fox", "Otocyon megalotis", "Canidae"], ["eurasian-tree-sparrow", "Passer montanus", "Passeridae"], ["light-vented-bulbul", "Pycnonotus sinensis", "Pycnonotidae"], ["crested-gecko", "Correlophus ciliatus", "Diplodactylidae"], ["vietnamese-mossy-frog", "Theloderma corticale", "Rhacophoridae"], ["longhorn-cowfish", "Lactoria cornuta", "Ostraciidae"], ["old-world-swallowtail", "Papilio machaon", "Papilionidae"], ["giant-pacific-octopus", "Enteroctopus dofleini", "Enteroctopodidae"], ["brown-hydra", "Hydra vulgaris", "Hydridae"]];
   const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
-  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 80);
+  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 85);
   assert.equal([...todo.matchAll(/- \[ \]/g)].length, 0);
   const hashes = new Set();
   for (const [slug, name, family] of cases) {
@@ -26724,7 +26730,7 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   assert.doesNotMatch(todo, /- \[x\]/);
   const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
-  assert.equal(pendingNames.length, 30);
+  assert.equal(pendingNames.length, 25);
   for (const profile of species) {
     assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
   }
@@ -26807,4 +26813,36 @@ test('October 7 stickleback and moth batch preserves stages, sexes and image pro
   for (const [slug, indexes] of [['coffee-bee-hawk-moth', [2]], ['large-white', [0, 1]], ['rosy-maple-moth', [2, 3]]]) {
     for (const index of indexes) assert.match(findSpecies(slug).media.gallery[index].caption, /不同阶段对照/);
   }
+});
+
+test('October 7 insect batch preserves sex, stage, scale and construction distinctions', async () => {
+  const expected = [
+    ['spiny-flower-mantis', 'Pseudocreobotra wahlbergii', 'Hymenopodidae'],
+    ['giraffe-weevil', 'Trachelophorus giraffa', 'Attelabidae'],
+    ['golden-tortoise-beetle', 'Charidotella sexpunctata', 'Chrysomelidae'],
+    ['goliath-beetle', 'Goliathus goliatus', 'Scarabaeidae'],
+    ['asian-weaver-ant', 'Oecophylla smaragdina', 'Formicidae'],
+  ];
+  const hashes = new Set();
+  for (const [slug, scientificName, family] of expected) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, scientificName);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.storySections.length, 6);
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true,
+    });
+    for (const { image } of [profile.media, ...profile.media.gallery]) {
+      hashes.add(createHash('sha256').update(await readFile(new URL(`../public/${image.slice(2)}`, import.meta.url))).digest('hex'));
+    }
+  }
+  assert.equal(hashes.size, 30);
+  assert.equal(findSpecies('giraffe-weevil').conservation.code, 'NT');
+  assert.equal(findSpecies('giraffe-weevil').conservation.assessedYear, undefined);
+  assert.match(findSpecies('giraffe-weevil').description, /雄虫.*雌虫/);
+  assert.match(findSpecies('spiny-flower-mantis').media.gallery[0].caption, /不能通过刺激活体/);
+  assert.match(findSpecies('golden-tortoise-beetle').media.gallery[4].caption, /不能证明同一只甲虫正在变色/);
+  assert.match(findSpecies('goliath-beetle').media.gallery[0].caption, /10 厘米.*不构成实测比例尺/);
+  assert.match(findSpecies('asian-weaver-ant').media.gallery[1].caption, /幼虫吐出的丝.*工蚁本身不从腹部吐丝/);
 });
