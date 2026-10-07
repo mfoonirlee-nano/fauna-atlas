@@ -4781,5 +4781,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1293,
       "bottom": 731
     }
+  },
+  "large-white": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 677,
+      "top": 235,
+      "right": 1419,
+      "bottom": 724
+    }
   }
 };

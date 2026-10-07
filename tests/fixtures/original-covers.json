@@ -3885,5 +3885,18 @@
       },
       "sha256": "6e1581430f071458b810aeb2e31073e7bf34a9f1f387bd8550a1a6f3bd0d86c1"
     }
+  },
+  "large-white": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 677,
+        "top": 235,
+        "right": 1419,
+        "bottom": 724
+      },
+      "sha256": "8e356d78d7ea7c9838381d54c013f639414a059c1460dde143214768c5ab1a0b"
+    }
   }
 }

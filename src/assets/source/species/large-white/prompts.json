@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only composition. Move the entire female white butterfly 100 pixels to the RIGHT and reduce its size by 10 percent. Place its LEFTMOST WINGTIP at x=700, rightmost wingtip at x=1460 of this 1536x1024 canvas, centered about x=1080. Preserve two black spots per forewing, black tips, antennae and legs. Extend natural blurred meadow on left, no text.",
+      "sourceSha256": "9c880c03d388535afcc8e045d4337e225578cd18f343c1a25d780d0fe283caae",
+      "runtimeSha256": "8e356d78d7ea7c9838381d54c013f639414a059c1460dde143214768c5ab1a0b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Pieris brassicae: Pieris brassicae large white butterfly, white wings with broad black forewing apical patches, female has two black spots on EACH forewing dorsal side, clubbed antennae, six legs, hindwing underside pale yellowish. Scene: Macro of cluster of upright yellow ribbed Pieris brassicae eggs on underside of cabbage leaf, no other stages.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "901a5c7640762d48acc6b9dac57cedcb4b9724bccc70a586e38662ece89fe8a2",
+      "runtimeSha256": "4cf8ef91dae7dde4c2207c2ea275aa4d074d576e8ddd4037e5f2eed3da04a7c4",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Pieris brassicae: Pieris brassicae large white butterfly, white wings with broad black forewing apical patches, female has two black spots on EACH forewing dorsal side, clubbed antennae, six legs, hindwing underside pale yellowish. Scene: Several young yellowish green black-speckled Pieris brassicae caterpillars on cabbage leaf, natural scale.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "454d27db07f0a593f2f44cd0f1749eebccbe6cba4a18f9d9b3bf655d252a488b",
+      "runtimeSha256": "9dec0828453c538bdac7dfcb8319367f49041b7ada9aa4843f0d8cd3236accc6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Pieris brassicae: Pieris brassicae large white butterfly, white wings with broad black forewing apical patches, female has two black spots on EACH forewing dorsal side, clubbed antennae, six legs, hindwing underside pale yellowish. Scene: Single angular pale green-gray chrysalis with dark speckles attached upright to stem by silk girdle, no adult.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "96666145995c0a73ed5ff996685bcd781d4330fd96a482066ea3c5f88044555e",
+      "runtimeSha256": "65eec26b2e854726684cdb5f096e6386f7df7d4aeae4242f75698aade5765a45",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Pieris brassicae: Pieris brassicae large white butterfly, white wings with broad black forewing apical patches, female has two black spots on EACH forewing dorsal side, clubbed antennae, six legs, hindwing underside pale yellowish. Scene: Entire female butterfly feeding on purple flower in side view, wings closed showing pale underside.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "231783a4bcae75e679ab4441ca1b5b65016d918f49d4e1840b2c6f80ffcbcf43",
+      "runtimeSha256": "387e017eb82f16769a1262bea1b16a3744c0f9ccc5d7b09042222d7394f41298",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Pieris brassicae: Pieris brassicae large white butterfly, white wings with broad black forewing apical patches, female has two black spots on EACH forewing dorsal side, clubbed antennae, six legs, hindwing underside pale yellowish. Scene: Entire male with wings open on vegetation: black forewing tips but NO paired black spots on upper forewings, natural garden.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "ff0f169b270a394a0c23a5afe1f45cdeed2c1010790d85739bb4d96af58d1203",
+      "runtimeSha256": "fec1b4e5d2436962781e53c49a11244e12fd59be832df70da81b5d592574bdc5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
