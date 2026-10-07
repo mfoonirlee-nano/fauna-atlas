@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Pygocentrus nattereri adult red-bellied piranha, deep compressed rounded body, silver flecked grey flanks, red orange chin and belly, blunt short head, stout lower jaw, small adipose fin, forked tail. Scene: One complete adult swimming calmly in Amazonian freshwater above submerged branches, mouth closed. Cover composition: primary fish entirely within right half around x=700..1450, center at 70% width, all appendages including barbels contained with background clearance. Maximize fish within this area. Left 40% calm unobstructed water for title.",
+      "sourceSha256": "054e8185928618f3e7912d0d7c4a86d433e3a3fe5c7a1fa4cba1839896f6eff7",
+      "runtimeSha256": "07d4f185419800853775048ffe3e6aeba293cd2fa21f77de0fca1dea282af655",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Pygocentrus nattereri adult red-bellied piranha, deep compressed rounded body, silver flecked grey flanks, red orange chin and belly, blunt short head, stout lower jaw, small adipose fin, forked tail. Scene: Close lateral head view with lips slightly parted showing only a modest row of triangular teeth. Anatomical natural pose, no exaggerated fangs, no blood or prey.",
+      "sourceSha256": "aafeb2875dc7aa722ae4fe8ed5d5614a4dc0a7d5c401c9989c472eb477f16cc9",
+      "runtimeSha256": "f0ab67a30af9559f389a9e1a717dc385f9b320a85a79ec6c781d04874e4f3404",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Pygocentrus nattereri adult red-bellied piranha, deep compressed rounded body, silver flecked grey flanks, red orange chin and belly, blunt short head, stout lower jaw, small adipose fin, forked tail. Scene: Five fish swimming peacefully together among submerged branches, separate readable silhouettes.",
+      "sourceSha256": "8fa02872b189a4ee66965ba1494ab3d1b98aa0f6e5450b8a01ac2c53ec5162d3",
+      "runtimeSha256": "e90c90279cabc76efe81c8ffb212c82f9d5df4d3938b41178d1abe47371aef64",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Pygocentrus nattereri adult red-bellied piranha, deep compressed rounded body, silver flecked grey flanks, red orange chin and belly, blunt short head, stout lower jaw, small adipose fin, forked tail. Scene: Full lateral close view emphasizing red underside and silver flecked scales, mouth closed.",
+      "sourceSha256": "ec1d2bec2e8e89a78cc530afacc985ee6cd0a8b9ffe7429facc71055e775a7e8",
+      "runtimeSha256": "08df66245367e3d4fe37446063bf6dc4a3434accd319c84ab0f1e14c7eaf4a94",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Pygocentrus nattereri adult red-bellied piranha, deep compressed rounded body, silver flecked grey flanks, red orange chin and belly, blunt short head, stout lower jaw, small adipose fin, forked tail. Scene: A single fish near submerged riparian roots in softly amber river water.",
+      "sourceSha256": "db4822ed8f7b2a3efb0ffaaa9173d7afbb8140331516c4e6bc3cbb4476e88d73",
+      "runtimeSha256": "846559aa1dc4a2a3c4ff7f2f193b6347a1bc68ce3338487d42d836c0a62b85f7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Pygocentrus nattereri adult red-bellied piranha, deep compressed rounded body, silver flecked grey flanks, red orange chin and belly, blunt short head, stout lower jaw, small adipose fin, forked tail. Scene: A single fish calmly near fallen ripe fruit and leaf litter on riverbed, no attack.",
+      "sourceSha256": "998ce1cc600511997ae5e851c29ba194322eab55c17fdaf064c9b5bcb32bb5b2",
+      "runtimeSha256": "880ce39fac4519956f10c40b1d8eb533872867c252decce74b9053018ece453a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

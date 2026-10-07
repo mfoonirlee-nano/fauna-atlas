@@ -3820,5 +3820,18 @@
       },
       "sha256": "c26f6431e17b5a7ad0754b594682fca2c0d478726ca4ead7b203afd386cb74dc"
     }
+  },
+  "red-bellied-piranha": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 149,
+        "right": 1504,
+        "bottom": 715
+      },
+      "sha256": "07d4f185419800853775048ffe3e6aeba293cd2fa21f77de0fca1dea282af655"
+    }
   }
 }

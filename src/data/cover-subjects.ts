@@ -4731,6 +4731,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1472,
       "bottom": 643
     }
+  },
+  "red-bellied-piranha": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 149,
+      "right": 1504,
+      "bottom": 715
+    }
   }
 
 };
