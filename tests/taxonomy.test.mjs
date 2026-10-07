@@ -24356,7 +24356,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 470);
+  assert.equal(species.length, 475);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24527,7 +24527,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 470);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 475);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24548,7 +24548,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 365);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 370);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 129);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 45);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
@@ -24570,8 +24570,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 42);
-  assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 47);
+  assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Scombriformes')?.speciesCount, 1);
@@ -24996,7 +24996,7 @@ test('registers Himalayan marmot separately from other animals called groundhogs
 test('integrates ocellaris clownfish with source-verified media and taxonomy', async () => {
   const profile = findSpecies('ocellaris-clownfish');
   const tree = buildTaxonomyTree(species);
-  assert.equal(findTaxon(tree, 'family', 'Pomacentridae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Pomacentridae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Amphiprion')?.children[0]?.species.scientificName, 'Amphiprion ocellaris');
   assert.equal(profile.metrics.adultLengthCm, undefined, 'a maximum-only length record must not become an adult range');
   await assertGeneratedImageSet({
@@ -26478,7 +26478,7 @@ test('the final todo batch completes all selections with distinct six-image prof
 test('September 24 ten todo animals have complete profiles and sixty distinct accepted images', async () => {
   const cases = [["kinkajou", "Potos flavus", "Procyonidae"], ["bat-eared-fox", "Otocyon megalotis", "Canidae"], ["eurasian-tree-sparrow", "Passer montanus", "Passeridae"], ["light-vented-bulbul", "Pycnonotus sinensis", "Pycnonotidae"], ["crested-gecko", "Correlophus ciliatus", "Diplodactylidae"], ["vietnamese-mossy-frog", "Theloderma corticale", "Rhacophoridae"], ["longhorn-cowfish", "Lactoria cornuta", "Ostraciidae"], ["old-world-swallowtail", "Papilio machaon", "Papilionidae"], ["giant-pacific-octopus", "Enteroctopus dofleini", "Enteroctopodidae"], ["brown-hydra", "Hydra vulgaris", "Hydridae"]];
   const todo = await readFile(new URL('../docs/research/todo-completed-2026-09-30.md', import.meta.url), 'utf8');
-  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 70);
+  assert.equal([...todo.matchAll(/- \[x\]/g)].length, 75);
   assert.equal([...todo.matchAll(/- \[ \]/g)].length, 0);
   const hashes = new Set();
   for (const [slug, name, family] of cases) {
@@ -26724,7 +26724,7 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   assert.doesNotMatch(todo, /- \[x\]/);
   const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
-  assert.equal(pendingNames.length, 40);
+  assert.equal(pendingNames.length, 35);
   for (const profile of species) {
     assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
   }
@@ -26747,4 +26747,35 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   assert.equal(findSpecies('eastern-long-necked-turtle').conservation.assessedYear, 1996);
   assert.match(findSpecies('eastern-long-necked-turtle').conservation.assessor, /历史/);
   assert.match(findSpecies('diamondback-terrapin').description, /微咸水/);
+});
+
+test('October 7 next five fish retain distinct identities and accepted image sets', async () => {
+  const cases = [
+    ['clarks-anemonefish', 'Amphiprion clarkii', 'Pomacentridae', 2021],
+    ['bluestreak-cleaner-wrasse', 'Labroides dimidiatus', 'Labridae', 2008],
+    ['neon-goby', 'Elacatinus oceanops', 'Gobiidae', 2010],
+    ['red-bellied-piranha', 'Pygocentrus nattereri', 'Serrasalmidae', 2020],
+    ['glass-catfish', 'Kryptopterus vitreolus', 'Siluridae', 2019],
+  ];
+  const hashes = new Set();
+  for (const [slug, name, family, year] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.conservation.code, 'LC');
+    assert.equal(profile.conservation.assessedYear, year);
+    assert.equal(profile.conservation.trend, 'unknown');
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+    for (const { image } of [profile.media, ...profile.media.gallery]) {
+      hashes.add(createHash('sha256').update(await readFile(new URL(`../public/${image.slice(2)}`, import.meta.url))).digest('hex'));
+    }
+  }
+  assert.equal(hashes.size, 30);
+  assert.match(findSpecies('clarks-anemonefish').description, /尾柄/);
+  assert.match(findSpecies('bluestreak-cleaner-wrasse').media.gallery[2].caption, /幼鱼/);
+  assert.match(findSpecies('neon-goby').media.gallery[0].caption, /放大展示/);
+  assert.match(findSpecies('red-bellied-piranha').diet.description, /植物/);
+  assert.match(findSpecies('glass-catfish').description, /不能当作本种的同物异名/);
 });
