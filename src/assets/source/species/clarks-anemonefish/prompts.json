@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic underwater wildlife image, landscape 1536x1024. Species Amphiprion clarkii (Clark's anemonefish): deep dark brown body, yellow orange face and fins, two broad white vertical body bars plus narrower white caudal peduncle bar, yellow tail. One complete fish facing left hovering just above a host sea anemone on an Indo-Pacific coral reef. Cover composition: entire fish including every fin and tail contained within right half, approximately x=690 to 1450, with generous real background clearance, center around 70% image width. Maximize fish in this region. Left 40% calm dark blue water for title. Natural light and anatomically credible fins. No lettering, watermarks, borders, collage, human objects or second fish.",
+      "sourceSha256": "0a5ed34bfb0340c5a95074c1d46f87ce5223fa13f9c4e91ac4fe4761e8da2556",
+      "runtimeSha256": "de4e80612a3c9fd66aec29ea753488baef7190cf95ee6ea42f9d22cdb8faa53a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Amphiprion clarkii, dark brown deep body, orange-yellow face and fins, two broad white vertical bars and narrow third white bar at caudal peduncle, yellow caudal fin. Scene: One fish peeking between sea anemone tentacles, recognizable white bars.",
+      "sourceSha256": "88cac94ab190bc1f7e9f9c4a925a530bb3e11ddd5797e6e434dde73989e130a6",
+      "runtimeSha256": "4c953159c27c6b462089997e9c92188c275fd4337cae322fd7af3490f1ade9f9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Amphiprion clarkii, dark brown deep body, orange-yellow face and fins, two broad white vertical bars and narrow third white bar at caudal peduncle, yellow caudal fin. Scene: Full lateral view showing both white body bars and smaller white tail-base bar against reef.",
+      "sourceSha256": "9164082b3fcbab5040038b3b7d6e9407a410f77d1a0e77683bd9fb785ac9eb4c",
+      "runtimeSha256": "b32c56bb0e2129b71c4af99a537c8b2edaf66fdb9c8f9b768e144dfa9bdbcfcb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Amphiprion clarkii, dark brown deep body, orange-yellow face and fins, two broad white vertical bars and narrow third white bar at caudal peduncle, yellow caudal fin. Scene: Two individuals of different size hovering near one sea anemone. Both fully visible.",
+      "sourceSha256": "9c55b6197da609cd6184fc990a7e2bae8210fabbd20b984e0429b3b39d71ae94",
+      "runtimeSha256": "40901a1501cbf53efad42f4bc2d5ba644d0e2a8563b3a787a93d37c665623b6c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Amphiprion clarkii, dark brown deep body, orange-yellow face and fins, two broad white vertical bars and narrow third white bar at caudal peduncle, yellow caudal fin. Scene: A male beside small attached orange eggs on rock directly beside host anemone, natural egg tending, no human objects.",
+      "sourceSha256": "a07e1cc2425458f21ccdfdde3f4c17198e610b3616478461fd201bf6fd545453",
+      "runtimeSha256": "29b5fa9a44dc3379e22c9d770d941f187829b65d22ae709d8d771fb85824a569",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Amphiprion clarkii, dark brown deep body, orange-yellow face and fins, two broad white vertical bars and narrow third white bar at caudal peduncle, yellow caudal fin. Scene: Wide coral lagoon habitat, one small but clearly visible fish with host anemone, blue water and reef.",
+      "sourceSha256": "5bb75208b7fe9364fd5a7db397da69e400b37cc6cf53e4fcc9fa58c68d4ce0bd",
+      "runtimeSha256": "74f78609f8a4c7c24cc2a007aa93961107dfeb8e948af521f671effc62ba9b92",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

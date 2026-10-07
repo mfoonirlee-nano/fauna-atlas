@@ -131271,6 +131271,240 @@ export const species = [
   "updatedAt": "2026-10-07"
 },
 
+{
+  "id": "clarks-anemonefish",
+  "slug": "clarks-anemonefish",
+  "names": {
+    "zh": "双带双锯鱼",
+    "en": "Clark's Anemonefish"
+  },
+  "scientificName": "Amphiprion clarkii",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Perciformes",
+      "zhName": "鲈形目"
+    },
+    "family": {
+      "scientificName": "Pomacentridae",
+      "zhName": "雀鲷科"
+    },
+    "genus": {
+      "scientificName": "Amphiprion",
+      "zhName": "双锯鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2021,
+    "assessor": "FishBase 转录 IUCN 全球 LC，评估日期为 2021-02-03；全球种群趋势未核实。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "印度洋与西太平洋"
+    ],
+    "countries": [],
+    "range": "分布于印度洋至西太平洋的热带海域，在潟湖、沿岸及外海珊瑚礁与多种海葵共同生活。"
+  },
+  "habitats": [
+    {
+      "name": "珊瑚礁与海葵",
+      "realm": "marine",
+      "description": "分布于印度洋至西太平洋的热带海域，在潟湖、沿岸及外海珊瑚礁与多种海葵共同生活。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "藻类",
+      "浮游动物",
+      "小型无脊椎动物"
+    ],
+    "description": "摄食藻类和小型动物，食物来源随栖息环境而变。"
+  },
+  "tags": [
+    "双带双锯鱼",
+    "珊瑚礁与海葵"
+  ],
+  "summary": "双带双锯鱼在海葵触手间穿行，深色身体上有醒目的白色横带。",
+  "description": "身体颜色可从橙黄变到近黑色，尾鳍也有黄色或白色差异。中文名里的“双带”不能理解成全身只能有两道白纹：除了头后和身体中段的白带，尾柄还有一道较窄白带。它与眼斑双锯鱼同属，属于不同物种。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "触手之间的小鱼",
+      "body": "找找海葵触手间露出的脸和白带。海葵为鱼提供藏身处，鱼的排泄物也能为共生体系提供营养。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "数数身体上的白带",
+      "body": "从眼后沿身体看到尾巴，比较两道宽白带与尾柄的窄白带。体色和鳍色存在个体差异。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "同一片海葵旁的大鱼和小鱼",
+      "body": "群体有体型和社会地位差异，繁殖雌鱼通常最大。图中大小仅作观察对照，不能凭尺寸判定每条鱼的性别。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "岩石上的卵",
+      "body": "雌鱼把卵产在海葵附近清理过的底面，雄鱼守护并为卵通水。图为护卵情景重建，卵的数量、颜色和发育阶段不用于测量。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "把海葵和珊瑚礁一起看",
+      "body": "先找海葵，再找小鱼。这种鱼能与多种海葵共同生活，不只依赖画面中的一种外形。"
+    },
+    {
+      "key": "observation-6",
+      "label": "保护与分类",
+      "title": "观察时给海葵留空间",
+      "body": "全球评估为无危。潜水和观赏活动中不触碰海葵、不驱赶鱼，也不搬走它们产卵的石块。"
+    }
+  ],
+  "keyFacts": [
+    "双带双锯鱼在海葵触手间穿行，深色身体上有醒目的白色横带。",
+    "FishBase 转录 IUCN 全球 LC，评估日期为 2021-02-03；全球种群趋势未核实。"
+  ],
+  "threats": [
+    "局部栖息地变化"
+  ],
+  "conservationActions": [
+    "保护原生栖息地",
+    "观察时保持距离"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "珊瑚礁与海葵"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "触手之间的小鱼"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "无危",
+      "note": "FishBase 转录 IUCN 全球 LC，评估日期为 2021-02-03；全球种群趋势未核实。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/clarks-anemonefish/01-cover.webp",
+    "alt": "双带双锯鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/clarks-anemonefish/02-observation.webp",
+        "alt": "双带双锯鱼：触手之间的小鱼",
+        "title": "触手之间的小鱼",
+        "caption": "AI 生成科学情景重建。找找海葵触手间露出的脸和白带。海葵为鱼提供藏身处，鱼的排泄物也能为共生体系提供营养。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/clarks-anemonefish/03-observation.webp",
+        "alt": "双带双锯鱼：数数身体上的白带",
+        "title": "数数身体上的白带",
+        "caption": "AI 生成科学情景重建。从眼后沿身体看到尾巴，比较两道宽白带与尾柄的窄白带。体色和鳍色存在个体差异。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/clarks-anemonefish/04-observation.webp",
+        "alt": "双带双锯鱼：同一片海葵旁的大鱼和小鱼",
+        "title": "同一片海葵旁的大鱼和小鱼",
+        "caption": "AI 生成科学情景重建。群体有体型和社会地位差异，繁殖雌鱼通常最大。图中大小仅作观察对照，不能凭尺寸判定每条鱼的性别。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/clarks-anemonefish/05-observation.webp",
+        "alt": "双带双锯鱼：岩石上的卵",
+        "title": "岩石上的卵",
+        "caption": "AI 生成科学情景重建。雌鱼把卵产在海葵附近清理过的底面，雄鱼守护并为卵通水。图为护卵情景重建，卵的数量、颜色和发育阶段不用于测量。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/clarks-anemonefish/06-observation.webp",
+        "alt": "双带双锯鱼：把海葵和珊瑚礁一起看",
+        "title": "把海葵和珊瑚礁一起看",
+        "caption": "AI 生成科学情景重建。先找海葵，再找小鱼。这种鱼能与多种海葵共同生活，不只依赖画面中的一种外形。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Fishes of Australia：形态、共生与繁殖",
+      "url": "https://fishesofaustralia.net.au/Home/species/316",
+      "kind": "ecology",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "FishBase：物种资料与全球保护评估日期",
+      "url": "https://www.fishbase.se/summary/Amphiprion-clarkii.html",
+      "kind": "conservation",
+      "accessedAt": "2026-10-07"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
