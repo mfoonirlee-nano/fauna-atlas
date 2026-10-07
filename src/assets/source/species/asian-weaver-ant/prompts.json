@@ -1,0 +1,69 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit composition only. Keep ant identical but reposition and resize its complete silhouette so leftmost antenna tip is at x=700, rightmost rear foot at x=1450, topmost antenna tip at y=160, bottom foot at y=850 on this 1536x1024 canvas. The present antenna reaches too far left; move ALL of ant right and shrink proportionally as needed. Preserve all six feet and two antennae fully, fill original location with soft background. Leave left 40% quiet. No text.",
+      "originalPrompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Oecophylla smaragdina. Scene: One complete Oecophylla smaragdina worker on leaf edge, orange head and mesosoma, green oval gaster typical Australian form, slender narrow waist, six long orange legs, two elbowed antennae, no wings. COVER: place the ENTIRE animal including every antenna and leg strictly inside x=680..1460 y=110..920, as large as fits those bounds; center around 72% canvas width. Left 40 percent is quiet defocused habitat only. Preserve real background clearance all sides. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "regenerationPrompt": "Scientific educational photorealistic reconstruction, 1536x1024 landscape cover. ONE anatomically accurate Oecophylla smaragdina Australian worker: orange head, slender elongated orange mesosoma with natural saddle profile (not a string of beads), SINGLE narrow petiole node, green oval gaster, SIX slender long legs arising only from mesosoma, TWO long elbowed antennae. Side profile facing upper left on leaf edge. Entire silhouette INCLUDING antenna tips and feet must lie in rectangle x=680..1460 y=100..920. Animal centered x=1100 prominent within right side. Left 40% soft defocused tropical canopy only. No text, watermark, scale bar, human, other animals.",
+      "sourceSha256": "5dc3f13e65afd966a83bb1ac0c24bcc9de27131c7007becd5b100fa374ded865",
+      "runtimeSha256": "ad7cb5539bb192187b5a10455be108b88cd173b197c489f0af3ab569445fca82",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Oecophylla smaragdina. Scene: Three orange and green Oecophylla smaragdina workers pulling two living green leaf edges together using jaws, feet braced on leaves, credible ant anatomy, each six legs. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "b0a686b4566c61a07d79f98374dff8e534f52e169c6a14fdc84e591955c0d4fb",
+      "runtimeSha256": "09abd43f74dc40a126702054335583cacd8ba6821fddaaa7356fd85a4614d8f4",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Correct only larval pose in this educational Oecophylla smaragdina scene. Worker holds SMALL pale legless larva gently around the MIDDLE, so larva's tiny narrowed HEAD is free and points to the leaf seam at right. Fine silk originates from the larva's MOUTH at this narrow head tip touching the leaf margin, NOT from its broad rounded rear. Make larva about half current size. Worker retains realistic six legs and two antennae. No text.",
+      "originalPrompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Oecophylla smaragdina. Scene: Close view one orange Oecophylla smaragdina worker gently holding small pale legless ant larva in mandibles at a leaf seam; a few fine white silk threads attach the leaf edges. Silk from larva, no silk from ant abdomen. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "c102b5c91b8a6b53a8b579f2a0c43448401ee0e60e936b927c18f84c05df7e65",
+      "runtimeSha256": "6929be27137448fc8754d3e862d43d23ff4887e68ed4ebcf40d7e883f4803206",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Oecophylla smaragdina. Scene: Green living leaves folded together into woven ant nest in tropical tree canopy, thin whitish silk at seams, a few small orange workers on exterior. Not detached cut leaves. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "d92d98503c13464b1ef941b41ca60972f9b9f0338786ef665d3d2ae0049a6b6e",
+      "runtimeSha256": "eb302227b1c1273c001b8c37a26db06f306333a5745df3996c25aca7d5da7cb3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Oecophylla smaragdina. Scene: Single orange green Oecophylla smaragdina worker walking along twig, macro shows elbowed antennae and narrow waist, six slender legs. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "474cb2061b5f2fc0beec0daa0bc89b1e825779c9e8982f3168c32c76d7cc573a",
+      "runtimeSha256": "acb6a54a36c14672ebc75f72f54c3a243f3a7a47cb02d0775c60d4399724e52c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Oecophylla smaragdina. Scene: Several orange Oecophylla smaragdina workers walking along leafy branch in tropical canopy near leaf nest, natural path, no leaf pieces being carried, no fungus farm. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "fe6e6d024c471960ce1a51ba23e30419c9fb81a1872e468ed8e8aed041250b04",
+      "runtimeSha256": "d0243f29e6f7c0b42602311d5c99588c0ecb1339ac545192b88053d5b84d070b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

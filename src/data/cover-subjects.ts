@@ -4841,5 +4841,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1522,
       "bottom": 798
     }
+  },
+  "asian-weaver-ant": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 664,
+      "top": 146,
+      "right": 1495,
+      "bottom": 833
+    }
   }
 };

@@ -713,3 +713,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [长颈卷叶象 image set](./species/giraffe-weevil/README.md)
 - [金龟甲 image set](./species/golden-tortoise-beetle/README.md)
 - [大花金龟 image set](./species/goliath-beetle/README.md)
+- [澳洲织叶蚁 image set](./species/asian-weaver-ant/README.md)

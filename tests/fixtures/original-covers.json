@@ -3963,5 +3963,18 @@
       },
       "sha256": "8ec30e3bc8d82c438487514a08a0b9e98dffbdc672bc83c8770afc9b1acd5824"
     }
+  },
+  "asian-weaver-ant": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 664,
+        "top": 146,
+        "right": 1495,
+        "bottom": 833
+      },
+      "sha256": "ad7cb5539bb192187b5a10455be108b88cd173b197c489f0af3ab569445fca82"
+    }
   }
 }

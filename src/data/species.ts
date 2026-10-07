@@ -134621,6 +134621,253 @@ export const species = [
   "updatedAt": "2026-10-07"
 },
 
+{
+  "id": "asian-weaver-ant",
+  "slug": "asian-weaver-ant",
+  "names": {
+    "zh": "澳洲织叶蚁",
+    "en": "Asian Weaver Ant"
+  },
+  "scientificName": "Oecophylla smaragdina",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Hymenoptera",
+      "zhName": "膜翅目"
+    },
+    "family": {
+      "scientificName": "Formicidae",
+      "zhName": "蚁科"
+    },
+    "genus": {
+      "scientificName": "Oecophylla",
+      "zhName": "织叶蚁属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "所引资料未确认全球物种级 IUCN 评估，沿用项目 NE 占位口径；未评估不表示没有风险。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "亚洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "亚洲热带地区与澳大利亚北部"
+    ],
+    "countries": [],
+    "range": "分布跨越亚洲热带地区至澳大利亚北部。中文沿用待办“澳洲织叶蚁”，不表示它只生活在澳大利亚；也不等同于非洲的 Oecophylla longinoda。"
+  },
+  "habitats": [
+    {
+      "name": "热带树冠的叶巢",
+      "realm": "terrestrial",
+      "description": "分布跨越亚洲热带地区至澳大利亚北部。中文沿用待办“澳洲织叶蚁”，不表示它只生活在澳大利亚；也不等同于非洲的 Oecophylla longinoda。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "小型节肢动物",
+      "含糖液体"
+    ],
+    "description": "工蚁在树上捕食小型节肢动物，也收集含糖液体。树叶主要用于建巢。"
+  },
+  "tags": [
+    "澳洲织叶蚁",
+    "热带树冠的叶巢"
+  ],
+  "summary": "澳洲织叶蚁的工蚁拉拢树叶，再用幼虫吐出的丝把叶缘粘在一起。",
+  "description": "找找工蚁咬住的叶片边缘。它们用仍连在树上的活叶建巢，工蚁搬着幼虫把丝贴在叶缝处。封面展示澳大利亚常见的绿色腹部外观，不代表整个分布区的所有个体。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "一起拉拢叶缘",
+      "body": "工蚁用大颚咬住叶缘，身体和足支撑在叶面上，将叶片拉近。图片展示动作位置，不是连续实拍。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "丝来自幼虫",
+      "body": "工蚁衔着幼虫，让幼虫吐出的丝连接叶片。工蚁本身不从腹部吐丝；不要把这一过程画成蜘蛛结网。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "树叶组成的巢",
+      "body": "活叶和丝组成树上的巢室，同一蚁群可以使用多个叶巢。这里展示巢的外部，不拆开巢室观察。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "细腰和弯折的触角",
+      "body": "工蚁身体细长，触角有明显弯折，足帮助它们在枝叶上行走。放大图不是实际体型。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "沿着枝条往来",
+      "body": "工蚁沿枝条在巢和觅食地点间往来。这种织叶蚁用活叶建巢，不把它与搬运叶片培育真菌的切叶蚁混为一谈。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "在原处观察",
+      "body": "远处看叶巢和蚁路，不掰开叶巢，不用手拨动工蚁，也不把活蚁带到新的地区。 所引资料未确认全球物种级 IUCN 评估，沿用项目 NE 占位口径；未评估不表示没有风险。"
+    }
+  ],
+  "keyFacts": [
+    "澳洲织叶蚁的工蚁拉拢树叶，再用幼虫吐出的丝把叶缘粘在一起。",
+    "工蚁在树上捕食小型节肢动物，也收集含糖液体。树叶主要用于建巢。"
+  ],
+  "threats": [
+    "栖息环境改变；本次未量化全球种群趋势。"
+  ],
+  "conservationActions": [
+    "远处看叶巢和蚁路，不掰开叶巢，不用手拨动工蚁，也不把活蚁带到新的地区。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "热带树冠的叶巢"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "一起拉拢叶缘"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "未评估",
+      "note": "所引资料未确认全球物种级 IUCN 评估，沿用项目 NE 占位口径；未评估不表示没有风险。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/asian-weaver-ant/01-cover.webp",
+    "alt": "澳洲织叶蚁及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/asian-weaver-ant/02-observation.webp",
+        "title": "一起拉拢叶缘",
+        "alt": "澳洲织叶蚁：一起拉拢叶缘",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。工蚁用大颚咬住叶缘，身体和足支撑在叶面上，将叶片拉近。图片展示动作位置，不是连续实拍。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/asian-weaver-ant/03-observation.webp",
+        "title": "丝来自幼虫",
+        "alt": "澳洲织叶蚁：丝来自幼虫",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。工蚁衔着幼虫，让幼虫吐出的丝连接叶片。工蚁本身不从腹部吐丝；不要把这一过程画成蜘蛛结网。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/asian-weaver-ant/04-observation.webp",
+        "title": "树叶组成的巢",
+        "alt": "澳洲织叶蚁：树叶组成的巢",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。活叶和丝组成树上的巢室，同一蚁群可以使用多个叶巢。这里展示巢的外部，不拆开巢室观察。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/asian-weaver-ant/05-observation.webp",
+        "title": "细腰和弯折的触角",
+        "alt": "澳洲织叶蚁：细腰和弯折的触角",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。工蚁身体细长，触角有明显弯折，足帮助它们在枝叶上行走。放大图不是实际体型。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/asian-weaver-ant/06-observation.webp",
+        "title": "沿着枝条往来",
+        "alt": "澳洲织叶蚁：沿着枝条往来",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。工蚁沿枝条在巢和觅食地点间往来。这种织叶蚁用活叶建巢，不把它与搬运叶片培育真菌的切叶蚁混为一谈。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "加拿大自然博物馆：拉叶与幼虫吐丝",
+      "url": "https://nature.ca/en/amazing-ants/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "澳大利亚博物馆：蜥蜴岛织叶蚁及叶巢",
+      "url": "https://lifg.australian.museum/HotShot.html?resourceId=bqVnJMH2",
+      "kind": "general",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "澳大利亚博物馆联合馆藏：本种记录及 NE 标记",
+      "url": "https://ozcam.ala.org.au/occurrences/15d5279c-16ce-4db8-ae27-8c78aafa4a3c",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-07"
+    },
+    {
+      "title": "马来西亚理科大学：织叶蚁食物选择与觅食研究",
+      "url": "https://ejournal.usm.my/tlsr/article/view/tlsr_vol30-no-2-2019_12",
+      "kind": "ecology",
+      "accessedAt": "2026-10-07"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
