@@ -3833,5 +3833,18 @@
       },
       "sha256": "07d4f185419800853775048ffe3e6aeba293cd2fa21f77de0fca1dea282af655"
     }
+  },
+  "glass-catfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 589,
+        "top": 379,
+        "right": 1488,
+        "bottom": 635
+      },
+      "sha256": "7be48776d29cc6811154c758541129d2933236119d461b929f675839025be92c"
+    }
   }
 }

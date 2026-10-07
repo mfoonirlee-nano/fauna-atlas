@@ -4741,6 +4741,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1504,
       "bottom": 715
     }
+  },
+  "glass-catfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 589,
+      "top": 379,
+      "right": 1488,
+      "bottom": 635
+    }
   }
 
 };

@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this glass catfish cover. Keep one whole transparent Kryptopterus vitreolus facing right and natural dark green water. Two corrections: (1) compress the subject's overall horizontal occupancy and shift right so the ENTIRE fish including tail and both long forward maxillary whiskers fits between x=650 and x=1470 of the 1536 pixel wide image. Tail must be at x650 or further right; leave leftmost 40% EMPTY water. Keep body as large as those constraints allow. (2) remove the two dangling long chin whiskers underneath head, mandibular barbels are tiny less than one quarter of eye diameter. Preserve two long upper-jaw barbels. No dorsal fin, retain long anal fin and forked tail. No text.",
+      "sourceSha256": "6ce1e228861ba01cdf9fa4f3b9cc9d58655ba759a190e5b4f063aa7e2a208082",
+      "runtimeSha256": "7be48776d29cc6811154c758541129d2933236119d461b929f675839025be92c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Kryptopterus vitreolus glass catfish, a small translucent slender laterally flattened Thai freshwater catfish, opaque silvery head and tiny visceral sac just behind head, visible thin vertebral column, long transparent anal fin, forked transparent tail, two long maxillary barbels, dorsal fin extremely reduced not a tall sail. Scene: Full lateral macro with transmitted light making spine faintly visible through translucent body, opaque head and small visceral sac, two barbels. Maxillary barbels long, mandibular barbels extremely short, less than eye radius.",
+      "sourceSha256": "3bf7c5b71e64b53058e438d8147a786f1bc181e9ff6baff7354443d456f55d44",
+      "runtimeSha256": "42f4dd8010604e4a932dce89188c3c7c6a392d64e51c41022d29218a5e588d9e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Kryptopterus vitreolus glass catfish, a small translucent slender laterally flattened Thai freshwater catfish, opaque silvery head and tiny visceral sac just behind head, visible thin vertebral column, long transparent anal fin, forked transparent tail, two long maxillary barbels, dorsal fin extremely reduced not a tall sail. Scene: Four complete glass catfish hovering together in a stream near aquatic plants, two barbels each, no overlaps concealing anatomy. Important: dorsal fin vestigial virtually invisible, NO tall triangular dorsal fin. Maxillary barbels long, mandibular barbels tiny less than quarter eye diameter.",
+      "sourceSha256": "b734ea7e9f291422f54149f101062a0674a716255ec4a0b7151d482992975fcf",
+      "runtimeSha256": "f6a147b911c6e229f3270b02969161bd1467d66f63a389ab72a9aba0ebcf7f74",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Kryptopterus vitreolus glass catfish, a small translucent slender laterally flattened Thai freshwater catfish, opaque silvery head and tiny visceral sac just behind head, visible thin vertebral column, long transparent anal fin, forked transparent tail, two long maxillary barbels, dorsal fin extremely reduced not a tall sail. Scene: Head and front-body macro showing two slender maxillary barbels and opaque silvery head, dark water background. Important: dorsal fin vestigial virtually invisible, NO tall triangular dorsal fin. Maxillary barbels long, mandibular barbels tiny less than quarter eye diameter.",
+      "sourceSha256": "c6b44c8b1fd30fdd7d99060ee93f32e31f2edf69fc5d939f42e1db3276f08db0",
+      "runtimeSha256": "83387aea77eca26daf06923d61a4c055f52ee1ac3dedccec3b859e42df3d4ade",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Kryptopterus vitreolus glass catfish, a small translucent slender laterally flattened Thai freshwater catfish, opaque silvery head and tiny visceral sac just behind head, visible thin vertebral column, long transparent anal fin, forked transparent tail, two long maxillary barbels, dorsal fin extremely reduced not a tall sail. Scene: Full fish side view showing long delicate transparent anal fin underneath posterior body, rippling stream light. Important dorsal fin vestigial virtually invisible, NO tall triangular dorsal fin. Maxillary barbels long, mandibular barbels tiny less than quarter eye diameter.",
+      "sourceSha256": "21c1d702d100b4440eee206dc02a35804338a0d0a042e09f88530344a2acde54",
+      "runtimeSha256": "28cbc356b5dbee3a3c9279379825a55883a61ae31ced40ca4f3dd1b380a7f883",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's natural history atlas, anatomically credible, natural underwater illumination, no letters, diagrams, borders, collage or watermark. Species: Kryptopterus vitreolus glass catfish, a small translucent slender laterally flattened Thai freshwater catfish, opaque silvery head and tiny visceral sac just behind head, visible thin vertebral column, long transparent anal fin, forked transparent tail, two long maxillary barbels, dorsal fin extremely reduced not a tall sail. Scene: Wide Thai lowland stream underwater habitat with three small translucent fish near vegetation and submerged twigs, soft natural light. Important dorsal fin vestigial virtually invisible, NO tall triangular dorsal fin. Maxillary barbels long, mandibular barbels tiny less than quarter eye diameter.",
+      "sourceSha256": "393550aeb30824e7d0c23d09895ad02cf4e5ebd1e08070b7e202589f8b7be59f",
+      "runtimeSha256": "738ccf9152b2f1ebfedc2ba2d7bb6c1d9187c33111a5c83195e255a4041603db",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
