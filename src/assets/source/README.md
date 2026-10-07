@@ -705,3 +705,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [三刺鱼 image set](./species/three-spined-stickleback/README.md)
 - [月蛾 image set](./species/luna-moth/README.md)
+- [大透翅天蛾 image set](./species/coffee-bee-hawk-moth/README.md)

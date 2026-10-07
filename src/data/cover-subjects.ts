@@ -4771,5 +4771,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1454,
       "bottom": 919
     }
+  },
+  "coffee-bee-hawk-moth": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 622,
+      "top": 196,
+      "right": 1293,
+      "bottom": 731
+    }
   }
 };

@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit cover composition in this 1536x1024 image. Keep Cephonodes hylas with transparent wings and narrow dark wing margins. Entire moth must fit x=650..1450, y=150..850. Reduce scale so right wing is fully visible with generous real background to the right. Keep all antennae, legs and wingtips. Preserve natural background with leftmost 40 percent quiet defocused habitat. No text.",
+      "sourceSha256": "5ebf676c9b6bb7a0ba7c333973b0f76ab8c7b9e43c2158a9d435bec9495e7e44",
+      "runtimeSha256": "6e1581430f071458b810aeb2e31073e7bf34a9f1f387bd8550a1a6f3bd0d86c1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Cephonodes hylas: Cephonodes hylas coffee bee hawkmoth, olive green fuzzy thorax, stout yellow-green abdomen with dark band, clear translucent wings with narrow dark margins and visible veins, two antennae, six legs, moth NOT bird or bee. Scene: Resting adult dorsal macro against soft green background, transparent wings show background through membrane.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "f35b26c7384cb2aca78c5bd89ee686218a803946340606e56bc422ba588813c9",
+      "runtimeSha256": "6b5845266e15471be7f8ba6eef4b4ce0ff9e8fa4dfaf762fe07437fb801d499b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Cephonodes hylas: Cephonodes hylas coffee bee hawkmoth, olive green fuzzy thorax, stout yellow-green abdomen with dark band, clear translucent wings with narrow dark margins and visible veins, two antennae, six legs, moth NOT bird or bee. Scene: Adult hovering at a small flower with long thin proboscis extended, natural wing motion.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "8d5e085013782427bc8c0e2fd6abaa263a9c59987856d2308c70d21b1d1ce685",
+      "runtimeSha256": "bc3ac3f18479a4a82e26ed28f9075a28fd68cf749bf55a994f21b38310e3df6b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Cephonodes hylas: Cephonodes hylas coffee bee hawkmoth, olive green fuzzy thorax, stout yellow-green abdomen with dark band, clear translucent wings with narrow dark margins and visible veins, two antennae, six legs, moth NOT bird or bee. Scene: Green Cephonodes hylas caterpillar with pale lateral line and curved caudal horn feeding on gardenia leaf.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "b4d7cb0592ea7bd820a28e36aab618e0113d20b9a0cbe354b2a88f9c7bb89bfb",
+      "runtimeSha256": "e070b4035e4dc539b404b79ee9eb103cfd1c2e48b8c070f797e02da605bef812",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Cephonodes hylas: Cephonodes hylas coffee bee hawkmoth, olive green fuzzy thorax, stout yellow-green abdomen with dark band, clear translucent wings with narrow dark margins and visible veins, two antennae, six legs, moth NOT bird or bee. Scene: Side view of resting adult gripping gardenia twig with legs, no flower.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "b7b557e3a6f4ccc67ad199b18bfa25ed97f66e4961ff27f55e490481eb8734b1",
+      "runtimeSha256": "083ce418f4ff9d64788b7bc6b534c22cb2e87f3cdb094bbe2e35a6cac66f60cf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 photorealistic wildlife reconstruction for a children's atlas. Species Cephonodes hylas: Cephonodes hylas coffee bee hawkmoth, olive green fuzzy thorax, stout yellow-green abdomen with dark band, clear translucent wings with narrow dark margins and visible veins, two antennae, six legs, moth NOT bird or bee. Scene: Wide tropical garden with one complete adult resting on gardenia foliage, diffuse daylight.. Natural composition, detailed credible anatomy. No text, labels, scale bar, watermark, border or collage.",
+      "sourceSha256": "5c6dd4a8fd63ef53ef632dd055c57d4efce1e6d5a411b8d564459dd11883e2fd",
+      "runtimeSha256": "8d71a52f7b96710aaed48877ab4b6bbf6fb1c4b879933a3d9ab1c748ea1b912a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

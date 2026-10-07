@@ -3872,5 +3872,18 @@
       },
       "sha256": "7109e02e7158840267304ab55d9e9c63faa5a1fd68b27c6ba550e95188d4da37"
     }
+  },
+  "coffee-bee-hawk-moth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 622,
+        "top": 196,
+        "right": 1293,
+        "bottom": 731
+      },
+      "sha256": "6e1581430f071458b810aeb2e31073e7bf34a9f1f387bd8550a1a6f3bd0d86c1"
+    }
   }
 }
