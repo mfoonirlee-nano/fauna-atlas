@@ -4811,5 +4811,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1460,
       "bottom": 920
     }
+  },
+  "giraffe-weevil": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 762,
+      "top": 183,
+      "right": 1443,
+      "bottom": 845
+    }
   }
 };

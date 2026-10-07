@@ -710,3 +710,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [玫瑰枫蛾 image set](./species/rosy-maple-moth/README.md)
 
 - [大丽花螳螂 image set](./species/spiny-flower-mantis/README.md)
+- [长颈卷叶象 image set](./species/giraffe-weevil/README.md)

@@ -3924,5 +3924,18 @@
       },
       "sha256": "e38bbccb5680facfdbc110c4ad65262ce7bb524106692dc6338e2e911b1b50b8"
     }
+  },
+  "giraffe-weevil": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 762,
+        "top": 183,
+        "right": 1443,
+        "bottom": 845
+      },
+      "sha256": "2328a1f49e19383f7fc6be7227b1dd761fae7834353fa3c8e0d6bb1168742c2b"
+    }
   }
 }

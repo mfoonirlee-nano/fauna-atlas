@@ -1,0 +1,68 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-07",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this giraffe weevil cover only composition: preserve the exact realistic male weevil anatomy and habitat. Shift the entire animal about 100 pixels to the right and reduce it by about 8% so ALL antennae, legs and body are within x=680..1460 y=110..920 in 1536x1024 canvas. Left 40% quiet soft forest background, no text. Keep full animal prominent.",
+      "originalPrompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Trachelophorus giraffa. Scene: One whole male giraffe weevil in profile on leaf, long narrow shiny black articulated prothorax forming giraffe-like neck, small black head with short snout and two antennae, six black legs and domed red elytra, Madagascar forest. COVER: place the ENTIRE animal including every antenna and leg strictly inside x=680..1460 y=110..920, as large as fits those bounds; center around 72% canvas width. Left 40 percent is quiet defocused habitat only. Preserve real background clearance all sides. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "02cfaf4cca75ea2d5a10f2b41e5acf5472b9c1a97a468ee1315451892150c032",
+      "runtimeSha256": "2328a1f49e19383f7fc6be7227b1dd761fae7834353fa3c8e0d6bb1168742c2b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Trachelophorus giraffa. Scene: Side profile male, sharply visible long black neck between small head and rounded bright red wing cases, on green leaf. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "0116823126325cb5e60a21b6083ae43e4031b2256d1e0efc30830458d0d077d3",
+      "runtimeSha256": "5583de0640497e741f93ccd01762893b1f2d1977d4c7b1b061a74ee1c0c7b0c5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Trachelophorus giraffa. Scene: One female giraffe weevil with much shorter black neck, rounded bright red elytra and six black legs, standing on leaf; no male. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "0f9a0bbb9b5986beb9f424d267cc17b0fe12947e90048e5021e58f0f5ece3c6b",
+      "runtimeSha256": "a07b2f52fc77cb289614b8ebd9ead133bdbe6fe591bdee070587098420035b0e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Trachelophorus giraffa. Scene: Female giraffe weevil with short neck and red elytra working at curled edge of green leaf, early stage of rolling leaf cradle, realistic macro. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "d4918a453991f0e645ae0f36128cc35192d64ca0a8c05d2977c069745b881d1c",
+      "runtimeSha256": "fb42f553494824aba00034630eae4f5ee0fca3dcb7c2d04f62c9994f06d93e88",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Edit this scientific reconstruction of giraffe-weevil leaf cradle. Remove ALL thin white threadlike bindings and tied-looking loops from around the rolled leaf. A giraffe weevil rolls and folds leaf tissue, it does NOT tie a leaf with silk or string. Show only a small naturally folded tightly rolled green leaf cylinder among broad smooth-edged Madagascar foliage. Keep photorealism, no animal needed, no text.",
+      "originalPrompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Trachelophorus giraffa. Scene: A tightly rolled green leaf tube suspended near foliage, leaf cradle of Trachelophorus giraffa; no cutaway, no visible larvae, no adult. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "5b042bfe8078a5def7f1c49d4cf994c9165368fa0ed62ae51270d89697fb5933",
+      "runtimeSha256": "95e514ace9ef512a108305d364025929fd88d44873e01332e83bedfed6cf1efd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate one photorealistic wildlife reconstruction, landscape 1536x1024, for a children's animal atlas. Species Trachelophorus giraffa. Scene: Single male giraffe weevil walking on broad leaf in Madagascar humid forest, long black neck and red elytra. Gallery observation, detailed biologically credible anatomy and natural lighting. No text, labels, watermark, frame, collage, ruler or scale bar.",
+      "sourceSha256": "6a3f48315c5ea650a6a8fae76c72a98bd744669ad1d0f08d675e008fabd5980a",
+      "runtimeSha256": "2d14ad0a3446d8fbdb6cd0d11daa48296fb06f33b036a563263932cbd3317f9f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
