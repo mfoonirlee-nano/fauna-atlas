@@ -4880,5 +4880,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1316,
       "bottom": 992
     }
+  },
+  "pom-pom-crab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 764,
+      "top": 226,
+      "right": 1521,
+      "bottom": 817
+    }
   }
 };

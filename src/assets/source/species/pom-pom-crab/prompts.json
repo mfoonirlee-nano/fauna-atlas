@@ -1,0 +1,50 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-08",
+  "images": [
+    {
+      "slug": "pom-pom-crab",
+      "num": 1,
+      "prompt": "Shift the entire crab and BOTH held anemones 90 pixels to the RIGHT without resizing. Full leftmost walking leg must start no earlier than x690, rightmost tip no later than x1470. Keep animal size, species, pose, existing limbs, patterns, scene and1536x1024 canvas. Empty left40percent blue background. The entire animal must remain visible with margin.",
+      "originalPrompt": "Use case: scientific-educational. Naturalistic wildlife reconstruction, 1536x1024 landscape encyclopedia cover. A single tiny Lybia tessellata pom-pom crab viewed from front at slight overhead angle on coral rubble, patterned cream tan and dark brown polygon mosaic carapace, slender banded walking legs, one small pale pink sea anemone held in EACH of the two front claws. Two separate pale translucent tuft anemones, natural radial tentacles, no boxing gloves. Whole crab and both anemones on right side with all leg tips inside x650..1460 y150..890. Quiet blue muted underwater bokeh left 40 percent. Large subject, full body. No writing, labels, watermark or border. Soft natural illumination.",
+      "previousEditPrompt": "Recompose this same Lybia tessellata crab and its two anemones so every walking leg tip is fully visible with background margin, with the whole crab about 15 percent smaller. Keep the full crab centered x1080 y500 in 1536x1024. Full boundary x680 to1460 y140 to870. Left 40 percent empty blue bokeh. Preserve species, natural anatomy, two anemones, patterned shell and leg bands, coral rubble. No text.",
+      "sourceSha256": "710f06a16282284deeebd29efd6713c90aa7b834cd3b89689f33ab6b33dd8736",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "pom-pom-crab",
+      "num": 2,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Front close macro of Lybia tessellata pom-pom crab holding exactly one small living pale anemone in each front claw. Focus on attachment: tiny claw fingers grasp base of each separate anemone, soft radial tentacles above. Cream brown polygon mosaic shell and banded legs. Underwater coral rubble background. Anemones not flowers, no boxing gloves, no human objects. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "35be3ea59beaf0d9054d048d26d1cbd0a3d4990f18dd3eee7c1d53a774d92467",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "pom-pom-crab",
+      "num": 3,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Dorsal macro view of a single Lybia tessellata crab on pale coral rubble. Emphasize mosaic polygon brown tan cream pattern of flat carapace, slender banded walking legs around, small pale anemones in two front claws. All legs included, realistic tiny crab shape, no raised insect antennae. Underwater soft light. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "1725fec9cc570e9a8ffe1392e5d63a250c82f982e56c48603cbf74c0c9531bc2",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "pom-pom-crab",
+      "num": 4,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. A tiny Lybia tessellata pom-pom crab partly sheltered in a natural crevice between two coral rubble rocks, visible mosaic shell front and banded legs plus two small pale anemones held in front claws. Wider habitat composition with crevice and clear blue water. No hands, no rearranged rocks, no aquarium equipment. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "4d8f8a5df886ba90dbbdd4c3477f61f347895bc5147f91f3f97e9c95c185d2e8",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "pom-pom-crab",
+      "num": 5,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Lybia tessellata pom-pom crab on coral rubble holding one small pale sea anemone in each tiny claw, anemone tentacles gently extended into passing water with a few minuscule suspended food particles. Side oblique close view, natural cream brown polygon shell and banded legs. No exaggerated prey, no transfer of food shown, no magical glow. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "df7f6e30ac4db8b577f5309d6eab7d91e4ea5977ad5521c3113fd48a830acc21",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "pom-pom-crab",
+      "num": 6,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. A tiny Lybia tessellata pom-pom crab in a wider close habitat view on coral sand and rubble, entire crab only about one third image width, cream brown polygon mosaic shell, banded legs, holding two tiny pale anemones. Surrounding naturally varied sand and coral fragments, blue water bokeh. No measuring ruler, no false scale bar, no coins, no hands. Emphasize small animal in habitat. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "2e041c7dc77a9faae18722744d2e1aa88f4a62771fa8501ecab4bcb4dcdddb54",
+      "sourceDimensions": "1536 1024"
+    }
+  ]
+}

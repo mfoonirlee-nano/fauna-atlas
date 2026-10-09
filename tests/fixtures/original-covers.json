@@ -4015,5 +4015,18 @@
       },
       "sha256": "68a56d40a9a0929682787da18309f293e1aa381765f87f0fb4b51115098524a9"
     }
+  },
+  "pom-pom-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 764,
+        "top": 226,
+        "right": 1521,
+        "bottom": 817
+      },
+      "sha256": "a80ccde3279fcb790812f2747572055a16fb654eb19c818bc33c3bc085cba561"
+    }
   }
 }

@@ -135598,6 +135598,242 @@ export const species = [
   "updatedAt": "2026-10-08"
 },
 
+{
+  "id": "pom-pom-crab",
+  "slug": "pom-pom-crab",
+  "names": {
+    "zh": "拳击蟹",
+    "en": "Pom-pom Crab"
+  },
+  "scientificName": "Lybia tessellata",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Malacostraca",
+      "zhName": "软甲纲"
+    },
+    "order": {
+      "scientificName": "Decapoda",
+      "zhName": "十足目"
+    },
+    "family": {
+      "scientificName": "Xanthidae",
+      "zhName": "扇蟹科"
+    },
+    "genus": {
+      "scientificName": "Lybia",
+      "zhName": "花纹蟹属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "Nausicaá 标记为 Not Evaluated；本次未核实独立的全球评估记录。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "非洲",
+      "亚洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "印度洋与太平洋热带珊瑚礁"
+    ],
+    "countries": [],
+    "range": "分布于印度—太平洋，包括红海、印度洋岛屿至法属波利尼西亚，以及日本南部到澳大利亚的海域。"
+  },
+  "habitats": [
+    {
+      "name": "珊瑚碎屑与礁石缝隙",
+      "realm": "marine",
+      "description": "分布于印度—太平洋，包括红海、印度洋岛屿至法属波利尼西亚，以及日本南部到澳大利亚的海域。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "小型无脊椎动物",
+      "藻类",
+      "有机碎屑"
+    ],
+    "description": "食物包括小型无脊椎动物、藻类和碎屑；夹持的海葵也参与获取食物。"
+  },
+  "tags": [
+    "拳击蟹",
+    "珊瑚碎屑与礁石缝隙"
+  ],
+  "summary": "拳击蟹常在两只螯中各夹一只小海葵，看起来像举着两个小绒球。",
+  "description": "找找两只螯前的小海葵。海葵也是动物，触手能协助取食和防御；图片中的海葵没有鉴定到种，不把它当作蟹身体长出的花。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "螯前的两只海葵",
+      "body": "看两只螯和海葵接触的位置。海葵有自己的身体和触手，不是蟹的拳头。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "背甲上的花纹",
+      "body": "背甲上有深浅相间的多边形花纹。图案位置有个体差异，不能按重建图中的纹路识别个体。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "躲在碎石之间",
+      "body": "拳击蟹可生活在浅礁碎屑和石块下。图中从已有缝隙观察，不翻动活珊瑚寻找它。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "带着海葵取食",
+      "body": "海葵的触手能够接触水中的细小食物。单张图重建夹持姿态，不展示捕获、转移食物的完整过程。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "小蟹有多小",
+      "body": "水族馆资料给出的背甲宽约 2 cm，足展开后的范围更大。成人可在纸上画 2 cm 线段作比较；图中的碎石不是比例尺。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留在原处观察",
+      "body": "通过照片或水族馆观察，不取走野外拳击蟹，也不拉开它与海葵。 Nausicaá 标记为 Not Evaluated；本次未核实独立的全球评估记录。"
+    }
+  ],
+  "keyFacts": [
+    "拳击蟹常在两只螯中各夹一只小海葵，看起来像举着两个小绒球。",
+    "食物包括小型无脊椎动物、藻类和碎屑；夹持的海葵也参与获取食物。"
+  ],
+  "threats": [
+    "珊瑚礁和近岸环境改变；本次未量化全球种群趋势。"
+  ],
+  "conservationActions": [
+    "通过照片或水族馆观察，不取走野外拳击蟹，也不拉开它与海葵。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "珊瑚碎屑与礁石缝隙"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "螯前的两只海葵"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "未评估",
+      "note": "Nausicaá 标记为 Not Evaluated；本次未核实独立的全球评估记录。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/pom-pom-crab/01-cover.webp",
+    "alt": "拳击蟹及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/pom-pom-crab/02-observation.webp",
+        "title": "螯前的两只海葵",
+        "alt": "拳击蟹：螯前的两只海葵",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。看两只螯和海葵接触的位置。海葵有自己的身体和触手，不是蟹的拳头。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pom-pom-crab/03-observation.webp",
+        "title": "背甲上的花纹",
+        "alt": "拳击蟹：背甲上的花纹",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。背甲上有深浅相间的多边形花纹。图案位置有个体差异，不能按重建图中的纹路识别个体。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pom-pom-crab/04-observation.webp",
+        "title": "躲在碎石之间",
+        "alt": "拳击蟹：躲在碎石之间",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。拳击蟹可生活在浅礁碎屑和石块下。图中从已有缝隙观察，不翻动活珊瑚寻找它。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pom-pom-crab/05-observation.webp",
+        "title": "带着海葵取食",
+        "alt": "拳击蟹：带着海葵取食",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。海葵的触手能够接触水中的细小食物。单张图重建夹持姿态，不展示捕获、转移食物的完整过程。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pom-pom-crab/06-observation.webp",
+        "title": "小蟹有多小",
+        "alt": "拳击蟹：小蟹有多小",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。水族馆资料给出的背甲宽约 2 cm，足展开后的范围更大。成人可在纸上画 2 cm 线段作比较；图中的碎石不是比例尺。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Nausicaá：分布、甲宽、食物与夹持海葵",
+      "url": "https://www.nausicaa.fr/en/my-visit/animals/pom-pom-crab",
+      "kind": "general",
+      "accessedAt": "2026-10-08"
+    },
+    {
+      "title": "WoRMS：接受学名与属级归属",
+      "url": "https://www.marinespecies.org/aphia.php?id=208964&p=taxdetails",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-08"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08"
+},
 
 
 ] as const satisfies readonly Species[];
