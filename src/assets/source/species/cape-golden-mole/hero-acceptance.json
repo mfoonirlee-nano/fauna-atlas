@@ -1,0 +1,223 @@
+{
+  "cover": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 585,
+      "top": 240,
+      "right": 1460,
+      "bottom": 825
+    }
+  },
+  "sha256": "71c0e9e97b3211c35dbb29dbe78e31a83b63ca1a6d12dec22ffb75d4cd4f8ca0",
+  "frames": [
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "panel": [
+        320,
+        260
+      ],
+      "subjectSize": [
+        154.94791666666669,
+        103.59375
+      ],
+      "minimumClearance": 37.458333333333314,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "panel": [
+        390,
+        292.5
+      ],
+      "subjectSize": [
+        194.82421875,
+        130.25390625
+      ],
+      "minimumClearance": 40.921875,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        392.4719999999999,
+        494.0
+      ],
+      "subjectSize": [
+        344.4719999999999,
+        230.30413714285712
+      ],
+      "minimumClearance": 24.0,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        469.2,
+        494.0
+      ],
+      "subjectSize": [
+        421.2,
+        281.6022857142857
+      ],
+      "minimumClearance": 24.0,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        579.5999999999999,
+        499.20000000000005
+      ],
+      "subjectSize": [
+        531.5999999999999,
+        355.41257142857137
+      ],
+      "minimumClearance": 24.0,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        726.4319999999999,
+        499.20000000000005
+      ],
+      "subjectSize": [
+        674.871794871795,
+        451.20000000000005
+      ],
+      "minimumClearance": 24.0,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        875.8399999999999,
+        585.0
+      ],
+      "subjectSize": [
+        803.2051282051282,
+        537.0
+      ],
+      "minimumClearance": 24.0,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        873.9999999999999,
+        585.0
+      ],
+      "subjectSize": [
+        803.2051282051282,
+        537.0
+      ],
+      "minimumClearance": 24.0,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        873.9999999999999,
+        585.0
+      ],
+      "subjectSize": [
+        803.2051282051282,
+        537.0
+      ],
+      "minimumClearance": 24.0,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ]
+    }
+  ],
+  "method": "Current fitHeroSubject equations and mobile full-source contain, 24 CSS px inset; opacity-only animation endpoints share geometry."
+}

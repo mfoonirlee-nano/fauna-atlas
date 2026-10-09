@@ -139884,6 +139884,250 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "cape-golden-mole",
+  "slug": "cape-golden-mole",
+  "names": {
+    "zh": "好望角金毛鼹",
+    "en": "Cape Golden Mole"
+  },
+  "scientificName": "Chrysochloris asiatica",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Afrosoricida",
+      "zhName": "非洲猬目"
+    },
+    "family": {
+      "scientificName": "Chrysochloridae",
+      "zhName": "金毛鼹科"
+    },
+    "genus": {
+      "scientificName": "Chrysochloris",
+      "zhName": "金毛鼹属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "南非西部开普地区"
+    ],
+    "countries": [
+      "南非"
+    ],
+    "range": "南非西部开普地区。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "松软沙土",
+      "realm": "terrestrial",
+      "description": "它生活在地下隧道中，也可在地表取食。松软底质便于挖掘，厚重黏土不属于同样适宜的环境。内部耳骨对地面振动的响应已有研究，不能仅凭无耳廓外观推断听觉缺失。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "昆虫",
+      "蚯蚓",
+      "其他土壤无脊椎动物"
+    ],
+    "description": "它寻找昆虫、蚯蚓等土壤小动物，嗅觉与振动感知帮助探查环境。剖面图只示意身体与土层的位置，不把其他金毛鼹的隧道深度或长度套给本种。"
+  },
+  "tags": [
+    "好望角金毛鼹",
+    "松软沙土"
+  ],
+  "summary": "粗爪挖土，眼睛藏在毛下。",
+  "description": "好望角金毛鼹的身体紧凑，鼻端有皮革状裸露区，前脚带粗大的挖掘爪。褐色毛在不同光线下可见绿紫色光泽，眼睛退化并由皮肤和毛覆盖，耳廓不突出。它生活在地下隧道中，也可在地表取食。松软底质便于挖掘，厚重黏土不属于同样适宜的环境。内部耳骨对地面振动的响应已有研究，不能仅凭无耳廓外观推断听觉缺失。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "鼻端的皮革区",
+      "body": "好望角金毛鼹的身体紧凑，鼻端有皮革状裸露区，前脚带粗大的挖掘爪。褐色毛在不同光线下可见绿紫色光泽，眼睛退化并由皮肤和毛覆盖，耳廓不突出。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它生活在地下隧道中，也可在地表取食。松软底质便于挖掘，厚重黏土不属于同样适宜的环境。内部耳骨对地面振动的响应已有研究，不能仅凭无耳廓外观推断听觉缺失。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它寻找昆虫、蚯蚓等土壤小动物，嗅觉与振动感知帮助探查环境。剖面图只示意身体与土层的位置，不把其他金毛鼹的隧道深度或长度套给本种。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它是胎生、哺乳的哺乳动物。旧资料中的繁殖细节有来自近似种的推测，本批不采用固定繁殖季或每胎数量。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种属于非洲猬目、金毛鼹科。它与鼹科动物分别归属不同分类单元；本项目使用“好望角金毛鼹”展示名，以 Chrysochloris asiatica 定位。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护松软沙土及其自然隐蔽空间。共读时先观察图中的鼻端的皮革区，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "放大展示鼻端；眼睛由皮肤和毛覆盖，图中没有画成裸露的大眼。",
+    "前足粗爪帮助挖掘，AI 重建不供精确计数或骨骼测量。",
+    "地下与地表位置的情景对照，不代表某次真实出洞记录。",
+    "土层剖面示意，非实测比例，也不代表完整巢穴设计。",
+    "毛色随照明与角度变化；紫色反光不是身体自行发光。",
+    "本种属于非洲猬目、金毛鼹科。它与鼹科动物分别归属不同分类单元；本项目使用“好望角金毛鼹”展示名，以 Chrysochloris asiatica 定位。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "栖息地改变与土壤干扰"
+  ],
+  "conservationActions": [
+    "保护松软沙土与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "松软沙土"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "鼻端的皮革区"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/cape-golden-mole/01-cover.webp",
+    "alt": "好望角金毛鼹及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/cape-golden-mole/02-observation.webp",
+        "title": "鼻端的皮革区",
+        "alt": "好望角金毛鼹：鼻端的皮革区，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。放大展示鼻端；眼睛由皮肤和毛覆盖，图中没有画成裸露的大眼。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/cape-golden-mole/03-observation.webp",
+        "title": "挖土的爪子",
+        "alt": "好望角金毛鼹：挖土的爪子，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。前足粗爪帮助挖掘，AI 重建不供精确计数或骨骼测量。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/cape-golden-mole/04-observation.webp",
+        "title": "隧道入口",
+        "alt": "好望角金毛鼹：隧道入口，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。地下与地表位置的情景对照，不代表某次真实出洞记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/cape-golden-mole/05-observation.webp",
+        "title": "土层中的身体",
+        "alt": "好望角金毛鼹：土层中的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。土层剖面示意，非实测比例，也不代表完整巢穴设计。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/cape-golden-mole/06-observation.webp",
+        "title": "褐毛的光泽",
+        "alt": "好望角金毛鼹：褐毛的光泽，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。毛色随照明与角度变化；紫色反光不是身体自行发光。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/2432182",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "密歇根大学 ADW：好望角金毛鼹",
+      "url": "https://animaldiversity.org/accounts/Chrysochloris_asiatica/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "JEB：好望角金毛鼹中耳对振动的响应",
+      "url": "https://doi.org/10.1242/jeb.01989",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];

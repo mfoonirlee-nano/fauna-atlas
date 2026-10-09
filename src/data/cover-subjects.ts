@@ -5061,5 +5061,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1495,
       "bottom": 800
     }
+  },
+  "cape-golden-mole": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 585,
+      "top": 240,
+      "right": 1460,
+      "bottom": 825
+    }
   }
 };

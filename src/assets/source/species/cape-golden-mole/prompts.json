@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Chrysochloris asiatica (Cape Golden Mole). Anatomy: small rounded streamlined mammal, iridescent brown fur with violet highlights, wedge-shaped head, leathery pale nose pad, eyes covered by skin and fur, no external ears or visible tail, short forelimbs with stout digging claws. Scene: loose sandy soil beside Cape fynbos at dusk. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "e8d8439f4b75c3ff9a8a9f2ef2db8befd947942417f916f0e15d2111ab78d3be",
+      "runtimeSha256": "71c0e9e97b3211c35dbb29dbe78e31a83b63ca1a6d12dec22ffb75d4cd4f8ca0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Chrysochloris asiatica (Cape Golden Mole). Anatomy: small rounded streamlined mammal, iridescent brown fur with violet highlights, wedge-shaped head, leathery pale nose pad, eyes covered by skin and fur, no external ears or visible tail, short forelimbs with stout digging claws. Scene: close view of leathery nose pad and covered eye area. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "f1627a1036116ca63dc1bfa5a5da60cf8aa977794cdf32f0bb472275517c18d8",
+      "runtimeSha256": "2c6a9a1aa7f0ba383e99809d5a6d73cb23af40d9d36853636c3190aedf568e14",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Chrysochloris asiatica (Cape Golden Mole). Anatomy: small rounded streamlined mammal, iridescent brown fur with violet highlights, wedge-shaped head, leathery pale nose pad, eyes covered by skin and fur, no external ears or visible tail, short forelimbs with stout digging claws. Scene: forefeet and stout digging claws beside loose sand. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "85b514277090bdb52e620d936d4131dbef2ff8a50ce731d379409878378c17ea",
+      "runtimeSha256": "006c1037fe61a20f6acfd83a42592c39d32cd90b77be350a3356b8ab288675e4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Chrysochloris asiatica (Cape Golden Mole). Anatomy: small rounded streamlined mammal, iridescent brown fur with violet highlights, wedge-shaped head, leathery pale nose pad, eyes covered by skin and fur, no external ears or visible tail, short forelimbs with stout digging claws. Scene: whole animal at a natural tunnel opening. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "5eca21b34c1eac11aa2b9075c0bc78c1b063a23003e5aba28df5aacae9f9952e",
+      "runtimeSha256": "cd23189811c2ee822aaa2359c8bebca11951d95ecd6454078d2c43652f78d43a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Chrysochloris asiatica (Cape Golden Mole). Anatomy: small rounded streamlined mammal, iridescent brown fur with violet highlights, wedge-shaped head, leathery pale nose pad, eyes covered by skin and fur, no external ears or visible tail, short forelimbs with stout digging claws. Scene: illustrative soil cutaway showing one animal in shallow tunnel, no labels. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "a6601ebab7be993c9999974bb1d5a259eaee136618276cd24ca46f4902ad05e2",
+      "runtimeSha256": "64e733f7285d0c263675aa076b268b7ec29446f09646d5bee0f535077ec971c1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Chrysochloris asiatica (Cape Golden Mole). Anatomy: small rounded streamlined mammal, iridescent brown fur with violet highlights, wedge-shaped head, leathery pale nose pad, eyes covered by skin and fur, no external ears or visible tail, short forelimbs with stout digging claws. Scene: full side view of brown iridescent coat in soft light. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "1525d654245bc822755a26a1f04b04c472695c51c86faa7ebdc16e9e10fd4118",
+      "runtimeSha256": "5e3ab5f0bdc7008814badd193f2b4186e71a30226a9f2c072ab70f5470e6d7a8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

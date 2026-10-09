@@ -746,3 +746,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [海萤 image set](./species/sea-firefly/README.md)
 
 - [海地沟齿鼩 image set](./species/hispaniolan-solenodon/README.md)
+- [好望角金毛鼹 image set](./species/cape-golden-mole/README.md)
