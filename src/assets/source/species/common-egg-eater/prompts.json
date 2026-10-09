@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "A single whole Dasypeltis scabra African egg-eating snake, grey-brown rhombic dark blotches and keeled scales. Arrange entire snake in COMPACT LOOSE COIL on a branch in the RIGHT half, including head and terminal pointed tail entirely inside x=750..1430 and y=120..900. Tail bends upward and ends visibly on branch, never exits bottom. No cropping. Left 45% softly blurred African woodland. Large full snake within these margins. Landscape 1536x1024 photorealistic scientific reconstruction, no text, no humans.",
+      "sourceSha256": "9e301ce2e68923f64572f3a2b5de79a70e2c913180b20585dac8d6382d460d48",
+      "runtimeSha256": "ba8d859ae33431506c884c96b3f6c61b76c9adfed4ab0b5d0f0580417ffb6484",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "discardedPrompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Dasypeltis scabra (Common Egg-eater). Anatomy: slender grey-brown African snake with dark rhombic dorsal blotches, strongly keeled scales, small rounded head, slim tail, no fangs visible. Scene: African dry woodland branch, full snake in compact loose coils. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "discardedSourceSha256": "716e60d1eaeee9151635e2b6ccdf7f71c204c9573596ef49de5a975da92f8b7a",
+      "discardedSourceDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Dasypeltis scabra (Common Egg-eater). Anatomy: slender grey-brown African snake with dark rhombic dorsal blotches, strongly keeled scales, small rounded head, slim tail, no fangs visible. Scene: close view of small rounded head and keeled scales. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "3650ec1c725e1317c2676cd8df60fa751c8d391b94aa8233745fb24fe6fc18bf",
+      "runtimeSha256": "1e9d3a7bb06c0ad18d77bb0ac25095cbcdc27bd8d2bc626a5c0d3d7c23e5dea9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Dasypeltis scabra (Common Egg-eater). Anatomy: slender grey-brown African snake with dark rhombic dorsal blotches, strongly keeled scales, small rounded head, slim tail, no fangs visible. Scene: snake investigating one intact small bird egg in abandoned nest. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "b2bf8764fcf145167adc5ec838d06c1e18f7caf22eac0becf56e857dd4e61745",
+      "runtimeSha256": "e3cafc1b0a8f867292b8369758385cd26e2cd5e6f72b8863b70fcf9db61afb4b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Dasypeltis scabra (Common Egg-eater). Anatomy: slender grey-brown African snake with dark rhombic dorsal blotches, strongly keeled scales, small rounded head, slim tail, no fangs visible. Scene: snake with jaws gently stretched around a small egg, no blood. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "dbd8b8fe62060a71988f50d6fa40425eebff49997b15750936234d7daa56ebe0",
+      "runtimeSha256": "83cbfdbe0a97b88e1a6c5b59421e01781f29d10fb662dcf47f23a1ed382387db",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Dasypeltis scabra (Common Egg-eater). Anatomy: slender grey-brown African snake with dark rhombic dorsal blotches, strongly keeled scales, small rounded head, slim tail, no fangs visible. Scene: whole snake resting on dry leaf litter. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "beabdfecb531839d4aa978dc39e19cdcacb18dc61fe7ddbd0c4a7668988ffea4",
+      "runtimeSha256": "891e605e3076e8e32f465f9ed1df6539472c632a0d56d2cd78766171e48468b4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Dasypeltis scabra (Common Egg-eater). Anatomy: slender grey-brown African snake with dark rhombic dorsal blotches, strongly keeled scales, small rounded head, slim tail, no fangs visible. Scene: whole snake climbing a thin bush branch. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "40bbf329b71cd3a94acd1c5ab468fed05429babaec6f20f29bf5f587c5183548",
+      "runtimeSha256": "e7355e5358cd4a4176f5d4fcbf1c8788573888b893d0ec547866411740243d83",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -144936,6 +144936,237 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "common-egg-eater",
+  "slug": "common-egg-eater",
+  "names": {
+    "zh": "卵食蛇",
+    "en": "Common Egg-eater"
+  },
+  "scientificName": "Dasypeltis scabra",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Squamata",
+      "zhName": "有鳞目"
+    },
+    "family": {
+      "scientificName": "Colubridae",
+      "zhName": "游蛇科"
+    },
+    "genus": {
+      "scientificName": "Dasypeltis",
+      "zhName": "食卵蛇属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "非洲多地的林地、草原与灌丛"
+    ],
+    "countries": [],
+    "range": "非洲多地的林地、草原与灌丛。范围由本批资料限定，不能从生成图推断地点。"
+  },
+  "habitats": [
+    {
+      "name": "林地与灌丛",
+      "realm": "terrestrial",
+      "description": "它在地面与灌丛中寻找鸟卵，也能攀爬到巢位。资料中的防御行为不用于设计惊吓或诱发摆姿的活动。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鸟卵"
+    ],
+    "description": "它吞入鸟卵，脊椎的特殊突起进入食道区域帮助破壳，摄取内容物后吐出压碎的壳。该结构由成人配资料解释，嘴部重建不是内部解剖证据。"
+  },
+  "tags": [
+    "卵食蛇",
+    "林地与灌丛"
+  ],
+  "summary": "卵食蛇：嘴围住一枚卵。",
+  "description": "卵食蛇身体常为灰褐色，背部有深色菱形斑，鳞片有棱，头较小。个体花纹存在差异，不能靠生成图判断种类。它在地面与灌丛中寻找鸟卵，也能攀爬到巢位。资料中的防御行为不用于设计惊吓或诱发摆姿的活动。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "嘴围住一枚卵",
+      "body": "卵食蛇身体常为灰褐色，背部有深色菱形斑，鳞片有棱，头较小。个体花纹存在差异，不能靠生成图判断种类。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "林地与灌丛",
+      "body": "它在地面与灌丛中寻找鸟卵，也能攀爬到巢位。资料中的防御行为不用于设计惊吓或诱发摆姿的活动。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它吞入鸟卵，脊椎的特殊突起进入食道区域帮助破壳，摄取内容物后吐出压碎的壳。该结构由成人配资料解释，嘴部重建不是内部解剖证据。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "本种自身也产卵。食物里的鸟卵与它产出的蛇卵必须分开，图库的卵均标为食物情景中的鸟卵。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Dasypeltis scabra，属于爬行纲、有鳞目、游蛇科。图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先看图，再读资料",
+      "body": "共读时先找嘴围住一枚卵。图片为 AI 科学情景重建，不代替鉴定、测量或行为实录。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "卵食蛇身体常为灰褐色，背部有深色菱形斑，鳞片有棱，头较小。个体花纹存在差异，不能靠生成图判断种类。",
+    "本种自身也产卵。食物里的鸟卵与它产出的蛇卵必须分开，图库的卵均标为食物情景中的鸟卵。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "栖息地改变与人为干扰；本批未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "保留自然隐蔽空间，观察时保持距离，不捕捉、翻动或诱发行为。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "林地与灌丛"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "嘴围住一枚卵"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-egg-eater/01-cover.webp",
+    "alt": "卵食蛇及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-egg-eater/02-observation.webp",
+        "title": "小头和有棱的鳞片",
+        "alt": "卵食蛇：小头和有棱的鳞片，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部放大重建，非实测比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-egg-eater/03-observation.webp",
+        "title": "检查一枚鸟卵",
+        "alt": "卵食蛇：检查一枚鸟卵，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。鸟卵为食物情景，不是蛇卵。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-egg-eater/04-observation.webp",
+        "title": "嘴围住鸟卵",
+        "alt": "卵食蛇：嘴围住鸟卵，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。吞卵姿态示意，尺寸不表示吞卵上限。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-egg-eater/05-observation.webp",
+        "title": "落叶上的身体",
+        "alt": "卵食蛇：落叶上的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整身体和背部斑纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-egg-eater/06-observation.webp",
+        "title": "灌丛里的攀爬",
+        "alt": "卵食蛇：灌丛里的攀爬，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。攀爬情景重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Reptile Database：接受名称、分类与范围",
+      "url": "https://reptile-database.reptarium.cz/Dasypeltis/scabra",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "SANBI：卵食蛇食性与破壳结构",
+      "url": "https://biodiversityadvisor.sanbi.org/search/detail/80882",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "GBIF：接受学名与分类定位",
+      "url": "https://www.gbif.org/species/2456029",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 

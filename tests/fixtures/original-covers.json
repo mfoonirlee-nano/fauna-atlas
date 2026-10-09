@@ -4522,5 +4522,18 @@
       },
       "sha256": "33fbbebc947df9374ec7c1f6c08df9f7dea5e7cc800c5e21cf779cfbbd85e9a7"
     }
+  },
+  "common-egg-eater": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 140,
+        "right": 1485,
+        "bottom": 810
+      },
+      "sha256": "ba8d859ae33431506c884c96b3f6c61b76c9adfed4ab0b5d0f0580417ffb6484"
+    }
   }
 }
