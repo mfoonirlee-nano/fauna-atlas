@@ -140128,6 +140128,259 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "selayar-tarsier",
+  "slug": "selayar-tarsier",
+  "names": {
+    "zh": "塞拉亚跗猴",
+    "en": "Selayar Tarsier",
+    "aliases": [
+      "跗猴",
+      "眼镜猴",
+      "Spectral Tarsier"
+    ]
+  },
+  "scientificName": "Tarsius tarsier",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Primates",
+      "zhName": "灵长目"
+    },
+    "family": {
+      "scientificName": "Tarsiidae",
+      "zhName": "跗猴科"
+    },
+    "genus": {
+      "scientificName": "Tarsius",
+      "zhName": "跗猴属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "印度尼西亚塞拉亚岛"
+    ],
+    "countries": [
+      "印度尼西亚"
+    ],
+    "range": "印度尼西亚塞拉亚岛。国家列表为代表地点，不表示完整国家范围。采用塞拉亚岛的当前物种范围，排除旧广义资料中的其他岛屿。"
+  },
+  "habitats": [
+    {
+      "name": "岛屿林地",
+      "realm": "terrestrial",
+      "description": "跗猴抓握枝干，也利用长后肢跳跃。连续录像可以展示起跳、落点和抓握，单张图只能展示一个姿态。放大手足图中的圆形指端是观察线索。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫等小型动物"
+    ],
+    "description": "它捕食昆虫等小型动物。此处没有把其他跗猴的食物比例、猎物清单或群体行为直接归给本种，也没有用饲喂和闪光惊扰情景生成图片。"
+  },
+  "tags": [
+    "塞拉亚跗猴",
+    "岛屿林地"
+  ],
+  "summary": "塞拉亚岛的夜行跗猴。",
+  "description": "塞拉亚跗猴有朝前的大眼睛、圆耳和细长的手指，后肢与踝部延长，细尾末端带毛簇。它夜间在树木和其他竖直支撑物间活动。跗猴抓握枝干，也利用长后肢跳跃。连续录像可以展示起跳、落点和抓握，单张图只能展示一个姿态。放大手足图中的圆形指端是观察线索。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "大眼睛和圆耳朵",
+      "body": "塞拉亚跗猴有朝前的大眼睛、圆耳和细长的手指，后肢与踝部延长，细尾末端带毛簇。它夜间在树木和其他竖直支撑物间活动。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "跗猴抓握枝干，也利用长后肢跳跃。连续录像可以展示起跳、落点和抓握，单张图只能展示一个姿态。放大手足图中的圆形指端是观察线索。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它捕食昆虫等小型动物。此处没有把其他跗猴的食物比例、猎物清单或群体行为直接归给本种，也没有用饲喂和闪光惊扰情景生成图片。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它胎生并哺乳，属于灵长目跗猴科。本批没有采用旧广义物种资料中的繁殖参数，图片只呈现成体形态与树栖情景。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "MDD 采用 Tarsius tarsier 对应 Selayar Tarsier。早期资料曾把苏拉威西其他地区的跗猴包含在同名范围中；本档案将分布限定为塞拉亚岛，中文名为项目展示标签，保留“跗猴”搜索别名。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护岛屿林地及其自然隐蔽空间。共读时先观察图中的大眼睛和圆耳朵，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "放大展示，非实测比例。外形重建不能用于区分外观相近的跗猴。",
+    "手指和脚趾抓握竖直支撑物，静态画面不表示握力测量。",
+    "完整动物与尾端一同展示，不把尾巴裁成局部。",
+    "取食环境示意；不能把两者同框当作一次真实捕食观察。",
+    "树根环境为重建，不证明某处树根是本种固定日间睡眠点。",
+    "MDD 采用 Tarsius tarsier 对应 Selayar Tarsier。早期资料曾把苏拉威西其他地区的跗猴包含在同名范围中；本档案将分布限定为塞拉亚岛，中文名为项目展示标签，保留“跗猴”搜索别名。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "岛屿林地的改变"
+  ],
+  "conservationActions": [
+    "保护岛屿林地与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "岛屿林地"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "大眼睛和圆耳朵"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/selayar-tarsier/01-cover.webp",
+    "alt": "塞拉亚跗猴及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/selayar-tarsier/02-observation.webp",
+        "title": "大眼睛和圆耳朵",
+        "alt": "塞拉亚跗猴：大眼睛和圆耳朵，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。外形重建不能用于区分外观相近的跗猴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/selayar-tarsier/03-observation.webp",
+        "title": "抱住树干的手脚",
+        "alt": "塞拉亚跗猴：抱住树干的手脚，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。手指和脚趾抓握竖直支撑物，静态画面不表示握力测量。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/selayar-tarsier/04-observation.webp",
+        "title": "尾端的毛簇",
+        "alt": "塞拉亚跗猴：尾端的毛簇，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整动物与尾端一同展示，不把尾巴裁成局部。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/selayar-tarsier/05-observation.webp",
+        "title": "树枝上的小猎物",
+        "alt": "塞拉亚跗猴：树枝上的小猎物，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。取食环境示意；不能把两者同框当作一次真实捕食观察。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/selayar-tarsier/06-observation.webp",
+        "title": "林间的隐蔽处",
+        "alt": "塞拉亚跗猴：林间的隐蔽处，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。树根环境为重建，不证明某处树根是本种固定日间睡眠点。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/4266949",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "密歇根大学 ADW：塞拉亚跗猴",
+      "url": "https://animaldiversity.org/accounts/Tarsius_tarsier/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "ASM MDD：塞拉亚跗猴接受名称与分类",
+      "url": "https://www.mammaldiversity.org/taxon/1000926/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "IUCN 灵长类专家组：跗猴修订与塞拉亚岛范围",
+      "url": "https://www.primate-sg.org/storage/pdf/PC31_Shekelle_et_al_Two_new_tarsiers.pdf",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];

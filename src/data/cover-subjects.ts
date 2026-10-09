@@ -5071,5 +5071,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1460,
       "bottom": 825
     }
+  },
+  "selayar-tarsier": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 20,
+      "right": 1300,
+      "bottom": 985
+    }
   }
 };

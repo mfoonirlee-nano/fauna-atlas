@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Tarsius tarsier (Selayar Tarsier). Anatomy: tiny grey-brown nocturnal primate, enormous forward-facing amber eyes, round ears, elongated hindlimbs and ankle region, long slender fingers with rounded pads, long thin mostly naked tail with dark terminal tuft. Scene: vertical tree stem in Selayar island forest at twilight. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "41cdd3e2d3bffaa1c5339f2c9ab8d73d31a4a71b18b766c0ba6650e6516c8b49",
+      "runtimeSha256": "96251bfb77c4c41d95ad41ddc38dce3a213210e4d8d753bed4e9ba140cdbd0f8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Tarsius tarsier (Selayar Tarsier). Anatomy: tiny grey-brown nocturnal primate, enormous forward-facing amber eyes, round ears, elongated hindlimbs and ankle region, long slender fingers with rounded pads, long thin mostly naked tail with dark terminal tuft. Scene: close portrait of large eyes and round ears. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "34061197854ce0f4d8c1f4bdef17bde561afa1f7236e7cd6ddc8533537e95ead",
+      "runtimeSha256": "d827bd34a9c9ed7c1c3ccbdf7e14a42463761ccdb8eafc00c396ad63494336de",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Tarsius tarsier (Selayar Tarsier). Anatomy: tiny grey-brown nocturnal primate, enormous forward-facing amber eyes, round ears, elongated hindlimbs and ankle region, long slender fingers with rounded pads, long thin mostly naked tail with dark terminal tuft. Scene: hands and feet gently gripping vertical stem. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "09c29a1807bbae3d8f93d3df927e1008f0474da86c620f67850e0305edb99a27",
+      "runtimeSha256": "86511ac44a45895d9eebed8a78625cf2a578f29e9e92412915df8d6638da0403",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Tarsius tarsier (Selayar Tarsier). Anatomy: tiny grey-brown nocturnal primate, enormous forward-facing amber eyes, round ears, elongated hindlimbs and ankle region, long slender fingers with rounded pads, long thin mostly naked tail with dark terminal tuft. Scene: complete animal including tufted tail clinging to a slim trunk. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "aa26b299c2fde1a8fa12f22d19dfb6c0b261f853309d7ac3bb887284a779d49d",
+      "runtimeSha256": "46e2495f4847267896943a206371313b26298ae8404a190badc52336adac32f6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Tarsius tarsier (Selayar Tarsier). Anatomy: tiny grey-brown nocturnal primate, enormous forward-facing amber eyes, round ears, elongated hindlimbs and ankle region, long slender fingers with rounded pads, long thin mostly naked tail with dark terminal tuft. Scene: complete animal watching an insect on a branch without staged contact. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "b771d0d9c57bf7b0d0e64c98ec5a5f2f0681fa0e4e3acf0e3f509534b9fff325",
+      "runtimeSha256": "c60f4e5972fbacf67299a5a878f5fde1c274b889fe109cf3c44d99364be69b9f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Tarsius tarsier (Selayar Tarsier). Anatomy: tiny grey-brown nocturnal primate, enormous forward-facing amber eyes, round ears, elongated hindlimbs and ankle region, long slender fingers with rounded pads, long thin mostly naked tail with dark terminal tuft. Scene: whole animal resting among natural tree roots, no flash. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "672cdd7762d1f9c6cb93ac1f7768da36ea067a5a030252d4df85a3bec5f10f5b",
+      "runtimeSha256": "fb9758d0080f9a0496287c8c5f1e92e1738f3e83fef56fe96ede69531517cb41",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

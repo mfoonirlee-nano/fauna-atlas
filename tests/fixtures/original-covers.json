@@ -4262,5 +4262,18 @@
       },
       "sha256": "71c0e9e97b3211c35dbb29dbe78e31a83b63ca1a6d12dec22ffb75d4cd4f8ca0"
     }
+  },
+  "selayar-tarsier": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 20,
+        "right": 1300,
+        "bottom": 985
+      },
+      "sha256": "96251bfb77c4c41d95ad41ddc38dce3a213210e4d8d753bed4e9ba140cdbd0f8"
+    }
   }
 }
