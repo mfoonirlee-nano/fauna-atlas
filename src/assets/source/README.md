@@ -762,3 +762,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [橙脚冢雉 image set](./species/orange-footed-scrubfowl/README.md)
 
 - [大响蜜鴷 image set](./species/greater-honeyguide/README.md)
+- [红交嘴雀 image set](./species/red-crossbill/README.md)

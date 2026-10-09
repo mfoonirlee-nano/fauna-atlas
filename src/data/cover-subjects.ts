@@ -5211,5 +5211,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1350,
       "bottom": 925
     }
+  },
+  "red-crossbill": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 525,
+      "top": 70,
+      "right": 1390,
+      "bottom": 850
+    }
   }
 };

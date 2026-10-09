@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Loxia curvirostra (Red Crossbill). Anatomy: adult male brick-red plumage, dark brown wings without white wing bars, notched tail, upper and lower bill tips visibly crossing sideways. Scene: conifer forest branch. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "2ff4761dd0d010b56e9c4fdf91371c3843cb16c8ca03a89d62fcbfa966bda3b9",
+      "runtimeSha256": "2ed19be2877a9e1f14779a7a3b1fc050a8c64a15309c3478ce570235f39036db",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Loxia curvirostra (Red Crossbill). Anatomy: adult male brick-red plumage, dark brown wings without white wing bars, notched tail, upper and lower bill tips visibly crossing sideways. Scene: close side view of crossed upper and lower bill tips. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "0bf0d241c3ffb5ef5daf658362fc388ca600bd396f06a1e6403a19f0c3b97a6c",
+      "runtimeSha256": "bee0734d329215d2d990627b3c1f90c08ec5c51e3cfffd168104a814f9514613",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Loxia curvirostra (Red Crossbill). Anatomy: adult male brick-red plumage, dark brown wings without white wing bars, notched tail, upper and lower bill tips visibly crossing sideways. Scene: male using crossed bill to separate pine cone scales. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "0d5724364f2b158abe9b8e132e6e354becb41ed240e310526479b7a5dcd49031",
+      "runtimeSha256": "f14af61a31557a2d1dbca48cbcfb9c2415db72c7847c4467eddf5bd42ddf5faf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Loxia curvirostra (Red Crossbill). Anatomy: adult male brick-red plumage, dark brown wings without white wing bars, notched tail, upper and lower bill tips visibly crossing sideways. Scene: olive-green adult female on fir branch. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "c5cd71d94f0e610ce645b47c2d5128673084ed715bf1ed0560228ad97325ddc5",
+      "runtimeSha256": "384d2d4e0bb7d7958c4dca7bb25c95b3b9a6a1a3d0fabf05205d48e3f629ee22",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Loxia curvirostra (Red Crossbill). Anatomy: adult male brick-red plumage, dark brown wings without white wing bars, notched tail, upper and lower bill tips visibly crossing sideways. Scene: streaked brown juvenile perched on pine twig. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "b25afa5ae10c4cbb525c1aea1541caf6a56d7ea25a5ffc4111387f34b3c8827e",
+      "runtimeSha256": "4be01b3f8ab683131816c4156047a7c19351872389caf6cadde952907010998c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Loxia curvirostra (Red Crossbill). Anatomy: adult male brick-red plumage, dark brown wings without white wing bars, notched tail, upper and lower bill tips visibly crossing sideways. Scene: small flock of males and females in conifer canopy. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "0fe091f22dd01fd5121c1dc03b4d6b074deea147b2708913c9644e4fed147b45",
+      "runtimeSha256": "fc9369edfa814a93a22927875f6eacf9ed90c55fd21cec849d1f3024c3dd28c2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

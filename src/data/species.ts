@@ -143568,6 +143568,231 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "red-crossbill",
+  "slug": "red-crossbill",
+  "names": {
+    "zh": "红交嘴雀",
+    "en": "Red Crossbill"
+  },
+  "scientificName": "Loxia curvirostra",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Passeriformes",
+      "zhName": "雀形目"
+    },
+    "family": {
+      "scientificName": "Fringillidae",
+      "zhName": "燕雀科"
+    },
+    "genus": {
+      "scientificName": "Loxia",
+      "zhName": "交嘴雀属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "北半球针叶林及部分山地"
+    ],
+    "countries": [],
+    "range": "北半球针叶林及部分山地。范围由本批资料限定，不能从生成图推断地点。"
+  },
+  "habitats": [
+    {
+      "name": "针叶林",
+      "realm": "terrestrial",
+      "description": "红交嘴雀生活在有充足针叶树种子的林地，会随食物供应游移。不同种群的叫声和嘴形存在差异，不把一个地方的取食树种套给全部种群。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "针叶树种子"
+    ],
+    "description": "交错的嘴尖帮助拨开球果鳞片，再取出种子。图中的球果与鸟嘴供观察结构，不能测量受力或确定球果成熟度。"
+  },
+  "tags": [
+    "红交嘴雀",
+    "针叶林"
+  ],
+  "summary": "红交嘴雀：交错的鸟嘴。",
+  "description": "雄鸟常为砖红色，雌鸟多为橄榄绿或黄绿色；幼鸟有褐色纵纹。上嘴和下嘴的尖端交错，个体之间可向不同方向交叉。红交嘴雀生活在有充足针叶树种子的林地，会随食物供应游移。不同种群的叫声和嘴形存在差异，不把一个地方的取食树种套给全部种群。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "交错的鸟嘴",
+      "body": "雄鸟常为砖红色，雌鸟多为橄榄绿或黄绿色；幼鸟有褐色纵纹。上嘴和下嘴的尖端交错，个体之间可向不同方向交叉。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "针叶林",
+      "body": "红交嘴雀生活在有充足针叶树种子的林地，会随食物供应游移。不同种群的叫声和嘴形存在差异，不把一个地方的取食树种套给全部种群。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "交错的嘴尖帮助拨开球果鳞片，再取出种子。图中的球果与鸟嘴供观察结构，不能测量受力或确定球果成熟度。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它在树上筑巢并孵卵，繁殖时间与食物供应有关。幼鸟外形与成鸟不同，图库单独标注幼鸟，不把红色套给所有个体。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Loxia curvirostra，属于鸟纲、雀形目、燕雀科。图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先看图，再读资料",
+      "body": "共读时先找交错的鸟嘴。图片为 AI 科学情景重建，不代替鉴定、测量或行为实录。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "雄鸟常为砖红色，雌鸟多为橄榄绿或黄绿色；幼鸟有褐色纵纹。上嘴和下嘴的尖端交错，个体之间可向不同方向交叉。",
+    "它在树上筑巢并孵卵，繁殖时间与食物供应有关。幼鸟外形与成鸟不同，图库单独标注幼鸟，不把红色套给所有个体。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "栖息地改变与人为干扰；本批未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "保留自然隐蔽空间，观察时保持距离，不捕捉、翻动或诱发行为。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "针叶林"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "交错的鸟嘴"
+    }
+  ],
+  "media": {
+    "image": "./images/species/red-crossbill/01-cover.webp",
+    "alt": "红交嘴雀及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/red-crossbill/02-observation.webp",
+        "title": "交错的嘴尖",
+        "alt": "红交嘴雀：交错的嘴尖，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部放大重建，嘴尖有侧向交错。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-crossbill/03-observation.webp",
+        "title": "球果里的种子",
+        "alt": "红交嘴雀：球果里的种子，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。取食情景重建，动作需看连续影像。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-crossbill/04-observation.webp",
+        "title": "黄绿色的雌鸟",
+        "alt": "红交嘴雀：黄绿色的雌鸟，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雌雄成鸟对照，雌鸟黄绿色，雄鸟砖红色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-crossbill/05-observation.webp",
+        "title": "有纵纹的幼鸟",
+        "alt": "红交嘴雀：有纵纹的幼鸟，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成鸟与有褐色纵纹的幼鸟对照，非实测比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-crossbill/06-observation.webp",
+        "title": "针叶林里的小群",
+        "alt": "红交嘴雀：针叶林里的小群，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。不同性别同框，个体数量不表示典型群体大小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ADW：红交嘴雀的外形与生活史",
+      "url": "https://animaldiversity.org/accounts/Loxia_curvirostra/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "GBIF：接受学名与分类定位",
+      "url": "https://www.gbif.org/species/9629160",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 

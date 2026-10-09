@@ -4444,5 +4444,18 @@
       },
       "sha256": "d292fb4ca285b3452fc661d0fcf8255154573a6f01188c865b33257cfd5c4a89"
     }
+  },
+  "red-crossbill": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 525,
+        "top": 70,
+        "right": 1390,
+        "bottom": 850
+      },
+      "sha256": "2ed19be2877a9e1f14779a7a3b1fc050a8c64a15309c3478ce570235f39036db"
+    }
   }
 }
