@@ -1,0 +1,62 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Edit this species atlas cover composition. Preserve species identity, realistic anatomy, color, texture and quiet aquatic background. Reposition and rescale the complete animal so ALL outer silhouette, including antennae, limbs, fins and tentacle tips, fits strictly within x=680..1480 and y=90..930 of a 1536x1024 image. Left 40% must contain background ONLY, no part of animal. Animal remains as large as possible within that box, centered around 72% image width. Preserve all appendages and background margins. No text, no collage.",
+      "originalPrompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration for species atlas cover. Subject: Artemia salina brine shrimp, translucent slender segmented branchiopod body, paired stalked dark eyes, many delicate leaflike thoracic swimming limbs, slim abdomen with forked tail, no hard carapace, no lobster claws. Scene: full body adult female swimming in side view, leaflike thoracic appendages and slim abdomen clear. Environment: clear saline water, diffuse teal backdrop, magnified scientific aquatic imagery. Large full animal occupies right half, center x=73% width; entire silhouette within x=760..1460 and y=160..900 including every tip. Left 40% quiet negative space. Maximize subject inside those bounds, background clearance at every edge. Accurate taxon anatomy. No text, fake scale bars, watermark, collage, or anthropomorphic features.",
+      "previousSourceSha256": "7d25280ea967731ef94934892d5588ee3b17dda47c252ac080836d3fd6014298",
+      "sourceSha256": "314f3913e4fc221964edccfd7d7438181e511bf9aadc126d4c938a4337afa22e",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "5634fc7ed547c98632af5901a60d24a6a5454381a393b28c7f4d49223ffc482d",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Artemia salina brine shrimp, translucent slender segmented branchiopod body, paired stalked dark eyes, many delicate leaflike thoracic swimming limbs, slim abdomen with forked tail, no hard carapace, no lobster claws. Specific scene: side view of leaflike swimming appendages along thorax, full adult body. Environment: clear saline water, diffuse teal backdrop, magnified scientific aquatic imagery. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "6933e926cc51effc516d50f31488711c6245d79b4f7b5be1c9783d54c7df9328",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "925156da5fbd41424d5524b6044737e1805619cac81fd1960a6bacb9f5ec6d18",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Artemia salina brine shrimp, translucent slender segmented branchiopod body, paired stalked dark eyes, many delicate leaflike thoracic swimming limbs, slim abdomen with forked tail, no hard carapace, no lobster claws. Specific scene: dorsal view of single adult female with paired eyes and slender segmented body. Environment: clear saline water, diffuse teal backdrop, magnified scientific aquatic imagery. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "3097fb20d139bf4a2241665f39a225bf88b45941a8f22e5acef1940fc9cf9d6f",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "82dd4686aa0612b1eade64910be34e24fcc01d031a9f3824321f3687ed0684e7",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Artemia salina early nauplius larva; override adult anatomy. Specific scene: single nauplius early larva, small unsegmented oval orange body with one median dark eye and three pairs of appendages, scientific microscope-style reconstruction; do not show adult anatomy. Environment: clear saline water, diffuse teal backdrop, magnified scientific aquatic imagery. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "ec5c7900a21148c4e0bccf6b34d57c7bfa51f0df590f33d63052d59d4c96bfa0",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "f88ab76bf7aa08d750efa135923a10e7c7e20b52b7cc16817fd9a03a5bf17fec",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Artemia salina dormant cysts; no adult anatomy. Specific scene: magnified dormant round brown cysts suspended near salt pond sediment, no adult shrimp, no labels. Environment: clear saline water, diffuse teal backdrop, magnified scientific aquatic imagery. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "36700ae1e2d7be9435bf37c154011b5ad8fe2d3bd654a6b2a8403d4e904a8155",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "951d6a4c3111cdb64fcc5f62b561ad0eaa55f4edc72e40205936957b7ed65769",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Artemia salina brine shrimp, translucent slender segmented branchiopod body, paired stalked dark eyes, many delicate leaflike thoracic swimming limbs, slim abdomen with forked tail, no hard carapace, no lobster claws. Specific scene: small group of adult brine shrimps swimming freely at different orientations in saltwater, distinct individuals, no giant animals. Environment: clear saline water, diffuse teal backdrop, magnified scientific aquatic imagery. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "b237d83c17ded0398f60e54c3c5dc78c70b7c0c01c22967bf5cf6561c117e158",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "709fc5995a69c317f61acd0e77eb743ef59306f4cead4d8014b935542eed231b",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}

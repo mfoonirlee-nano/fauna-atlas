@@ -4054,5 +4054,18 @@
       },
       "sha256": "77ae0141252836833fa49ddb4d29132026cfe4f8de5a3b353c46333a30f9d63a"
     }
+  },
+  "brine-shrimp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 130,
+        "right": 1475,
+        "bottom": 901
+      },
+      "sha256": "5634fc7ed547c98632af5901a60d24a6a5454381a393b28c7f4d49223ffc482d"
+    }
   }
 }

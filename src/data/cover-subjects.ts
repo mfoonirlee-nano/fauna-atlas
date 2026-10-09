@@ -4911,5 +4911,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1488,
       "bottom": 867
     }
+  },
+  "brine-shrimp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 130,
+      "right": 1475,
+      "bottom": 901
+    }
   }
 };

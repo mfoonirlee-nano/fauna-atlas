@@ -136311,6 +136311,253 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "brine-shrimp",
+  "slug": "brine-shrimp",
+  "names": {
+    "zh": "盐水丰年虫",
+    "en": "Brine Shrimp"
+  },
+  "scientificName": "Artemia salina",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Branchiopoda",
+      "zhName": "鳃足纲"
+    },
+    "order": {
+      "scientificName": "Anostraca",
+      "zhName": "无甲目"
+    },
+    "family": {
+      "scientificName": "Artemiidae",
+      "zhName": "卤虫科"
+    },
+    "genus": {
+      "scientificName": "Artemia",
+      "zhName": "卤虫属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "欧洲",
+      "非洲",
+      "亚洲"
+    ],
+    "regions": [
+      "地中海沿岸盐田与盐水潟湖"
+    ],
+    "countries": [],
+    "range": "本档案采用地中海盆地的狭义 Artemia salina。历史资料曾把多种丰年虫统称为这个学名，不将美洲或商品卵的记录直接当作本种分布。站内归入海洋筛选以容纳沿海高盐水域，不表示它生活在外海。"
+  },
+  "habitats": [
+    {
+      "name": "高盐盐田与潟湖",
+      "realm": "marine",
+      "description": "本档案采用地中海盆地的狭义 Artemia salina。历史资料曾把多种丰年虫统称为这个学名，不将美洲或商品卵的记录直接当作本种分布。站内归入海洋筛选以容纳沿海高盐水域，不表示它生活在外海。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "filter-feeder"
+    ],
+    "foods": [
+      "微藻",
+      "悬浮有机颗粒"
+    ],
+    "description": "通过附肢运动从水中收集微藻和悬浮有机颗粒；刚孵出的早期无节幼体依靠卵黄。"
+  },
+  "tags": [
+    "盐水丰年虫",
+    "高盐盐田与潟湖"
+  ],
+  "summary": "盐水丰年虫用身体两旁的叶状附肢划水，也靠它们收集食物。",
+  "description": "用放大影像看看胸部两侧的附肢，再找细长的腹部。这里介绍 Artemia salina；商品“丰年虾”可能是其他 Artemia 种，不能仅凭商品名或生成图确认身份。它属于鳃足纲，不是十足目真虾。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "两旁摆动的小足",
+      "body": "成体胸部有叶状附肢，运动时推动水流，也参与取食与气体交换。图中细毛和附肢为示意重建，不能用于精确计数。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "细长的身体",
+      "body": "从背面找前方的一对有柄复眼，再沿身体找到细长腹部和分叉尾端。图中为成年雌体，腹部前端可见卵囊。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "刚孵出的幼体",
+      "body": "早期无节幼体呈小小的卵圆形，中央有一只无节眼，形态与成体不同。此图与成体图采用不同放大倍数，不能比较图上大小来测量生长。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "休眠卵囊",
+      "body": "丰年虫在一定环境条件下可产生包有耐受外壳的休眠胚胎，常称休眠卵。图中的圆球来自放大重建，不是肉眼下的实际大小。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "在盐水里游动",
+      "body": "不同个体会朝不同方向游动。用放大影像观察附肢的摆动；盐田里的其他丰年虫可能属于近缘种。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留在原处观察",
+      "body": "观看放大影像，不向自然水体投放商品丰年虫或其卵。 本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+    }
+  ],
+  "keyFacts": [
+    "盐水丰年虫用身体两旁的叶状附肢划水，也靠它们收集食物。",
+    "通过附肢运动从水中收集微藻和悬浮有机颗粒；刚孵出的早期无节幼体依靠卵黄。"
+  ],
+  "threats": [
+    "地中海部分本地种群面临盐田环境改变和外来丰年虫扩散压力。"
+  ],
+  "conservationActions": [
+    "观看放大影像，不向自然水体投放商品丰年虫或其卵。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "高盐盐田与潟湖"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "两旁摆动的小足"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "未评估",
+      "note": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/brine-shrimp/01-cover.webp",
+    "alt": "盐水丰年虫及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/brine-shrimp/02-observation.webp",
+        "title": "两旁摆动的小足",
+        "alt": "盐水丰年虫：两旁摆动的小足",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。成体胸部有叶状附肢，运动时推动水流，也参与取食与气体交换。图中细毛和附肢为示意重建，不能用于精确计数。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/brine-shrimp/03-observation.webp",
+        "title": "细长的身体",
+        "alt": "盐水丰年虫：细长的身体",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。从背面找前方的一对有柄复眼，再沿身体找到细长腹部和分叉尾端。图中为成年雌体，腹部前端可见卵囊。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/brine-shrimp/04-observation.webp",
+        "title": "刚孵出的幼体",
+        "alt": "盐水丰年虫：刚孵出的幼体",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。早期无节幼体呈小小的卵圆形，中央有一只无节眼，形态与成体不同。此图与成体图采用不同放大倍数，不能比较图上大小来测量生长。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/brine-shrimp/05-observation.webp",
+        "title": "休眠卵囊",
+        "alt": "盐水丰年虫：休眠卵囊",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。丰年虫在一定环境条件下可产生包有耐受外壳的休眠胚胎，常称休眠卵。图中的圆球来自放大重建，不是肉眼下的实际大小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/brine-shrimp/06-observation.webp",
+        "title": "在盐水里游动",
+        "alt": "盐水丰年虫：在盐水里游动",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。不同个体会朝不同方向游动。用放大影像观察附肢的摆动；盐田里的其他丰年虫可能属于近缘种。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FAO：Artemia 生物学与物种范围",
+      "url": "https://www.fao.org/4/w3732e/w3732e0m.htm",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：Artemia salina 学名检索",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxlist&tName=Artemia+salina",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "地中海丰年虫物种更替研究",
+      "url": "https://doi.org/10.1007/s10530-022-02779-6",
+      "kind": "distribution",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "OBIS：六级分类归属",
+      "url": "https://obis.org/taxon/480246",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 
