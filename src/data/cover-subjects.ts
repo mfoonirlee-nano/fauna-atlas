@@ -5011,5 +5011,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1495,
       "bottom": 802
     }
+  },
+  "greater-siren": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 656,
+      "top": 108,
+      "right": 1506,
+      "bottom": 887
+    }
   }
 };

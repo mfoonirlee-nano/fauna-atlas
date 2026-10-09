@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "reviewedAt": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 Fauna Atlas cover, naturalistic scientific reconstruction. Siren lacertina greater siren: long dark olive eel-shaped salamander with mottling, broad blunt head, conspicuous three feathery external gill stalks on each side behind head, exactly two tiny forelimbs with four digits, no hindlimbs, laterally flattened long tail fin. Whole animal in a gentle curved pose in shallow freshwater among sparse plants, all gills feet and tail visible. Composition: main complete subject occupies right half, center at 70% of width; quiet left 40%, generous background margins around every extremity; maximize subject in right half. Soft realistic lighting and authentic textures. No text labels watermark collage or scale bars.",
+      "sourceSha256": "0f04dc570ee9e4f8867f1a8379f871694af5de4d4e825fbab7198097c7f530bf",
+      "runtimeSha256": "f56e47a23c0cc5feda2f7b45e1adc85b205bb4f9f2cb7c79494bbc060fac2e7c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Siren lacertina: olive mottled eel-shaped salamander, three feathered external gill stalks per side, two tiny four-digit forefeet, no hindlegs, flattened tail fin. Scene: Closeup head with both gill fans and small forefeet. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "774706f81494bec68c30fd64126455e69520027d71fa91d83bf838ee12f28cf5",
+      "runtimeSha256": "acad5cc4e00ee2c2631976d53bf06fb9e1c5951ae43ccc13eaab95dd6eb6b26b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Siren lacertina: olive mottled eel-shaped salamander, three feathered external gill stalks per side, two tiny four-digit forefeet, no hindlegs, flattened tail fin. Scene: Whole adult side view showing long flattened tail and only forefeet. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "f2df4bd43c3ceacb4bdec4f2d4eabff2a87866f6f21e21ef630b023e4a435133",
+      "runtimeSha256": "d8569fd73c2aabad1d9c3dfe7d5aaea9cd8d0bf60d9c1037c5a07a46117b8965",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Siren lacertina: olive mottled eel-shaped salamander, three feathered external gill stalks per side, two tiny four-digit forefeet, no hindlegs, flattened tail fin. Scene: Adult sheltered among submerged roots on freshwater pond bottom. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "dda9dde51ceb2e55cfdeeced1ed864732b1e0911298c03306139b5c65a81fe3f",
+      "runtimeSha256": "283fbe521fe3933e007155259c5b0e0977489be255cdfb4096c89fb851787323",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Siren lacertina: olive mottled eel-shaped salamander, three feathered external gill stalks per side, two tiny four-digit forefeet, no hindlegs, flattened tail fin. Scene: Adult snout meeting freshwater surface, air-breathing educational scene. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "d2c0e87558da14879ff77d38fc97a6d79748e30b826395b9ef8004c90a5203d8",
+      "runtimeSha256": "c6e53015456b8945fdc722c01c0ec1c782a328f40e28b86cdb238fabde7d3ce2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Siren lacertina: olive mottled eel-shaped salamander, three feathered external gill stalks per side, two tiny four-digit forefeet, no hindlegs, flattened tail fin. Scene: Adult beside small aquatic snail on pond bottom, no gore. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "f97d766c4c5af1c222e15a11b1d07fd30ba28acd67ac164f1e6b440cec0f16c6",
+      "runtimeSha256": "116e28f92ad322a438b7a14bbfe0de4f22dd423a276a607641819aa1f08ee378",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
