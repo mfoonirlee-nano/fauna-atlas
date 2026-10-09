@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image for species atlas cover. Naturalistic detailed scientific reconstruction. Subject: Brachionus calyciflorus freshwater monogonont rotifer, microscopic transparent broad oval cup-shaped lorica, four short stout anterior dorsal spines around head opening, ciliated corona emerging at head, granular internal mastax and digestive tract visible through lorica, slender retractile foot ending in two small toes emerging at rear. No crustacean limbs, no stalk, no cartoon eyes. Environment: microscope transmitted-light naturalistic reconstruction, pale gray-green freshwater background, microscale only, no visible macroscopic plants. Composition: whole primary subject LARGE on RIGHT, full silhouette contained within x=730..1450 and y=100..900, center at 71% width; maximize size within these limits. All outer appendages and bubble raft (if present) must be included with background clearance. Left 40% quiet low-detail space for website text. No text, labels, scale bars, logo, watermark, collage, human features, or fantasy structures.",
+      "sourceSha256": "1d4969d29e2fab359bbc6491e1b5db7500f0375a2000e3302de0206286357dd1",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "eb6b7a410d223ffa00491dfd6ebb218f4e53519abe86d9cc39fbcfb9daf02180",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use reference image ONLY as morphology reference for Brachionus calyciflorus rotifer. Generate a NEW landscape 1536x1024 transmitted-light microscope naturalistic scientific reconstruction. Specific scene: One full animal front view, expanded corona, all lorica margins smooth oval except exactly four broad based anterior spines bordering head opening. Foot with two toes at rear. Match the reference's smooth wide oval body, short anterior spines, head corona, internal mastax and small two-toed foot. Pale grey green freshwater microscopic background with sparse algal cells. Entire animal with comfortable margins, centered composition. Not an arthropod. No many lateral spikes, segmented legs, stalk, text, scale bars, cartoon face or labels.",
+      "sourceSha256": "f653acf85a81b6c0733cc6aa5fcadb80558d417c0ce19f21b76d594638d519f8",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "b1bda6a7ca2fc348861702438acb9bf75582304efdc06e0a3c38fb22432fa172",
+      "runtimeDimensions": "1536 1024",
+      "referenceSha256": "1d4969d29e2fab359bbc6491e1b5db7500f0375a2000e3302de0206286357dd1",
+      "discardedSourceSha256": "b0a6d628a5c81ca4fab53995a9bb98ed764db33b165a93d16c9b03bfc80bcc69"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Brachionus calyciflorus microscopic freshwater monogonont rotifer, transparent broad oval soft lorica, FOUR short broad-based triangular anterior dorsal spines, head ciliated corona, granular mastax and digestive tract inside, slender retractile foot with two tiny toes at rear. No crustacean limbs, stalk or cartoon face. Scene: microscope close view ciliated head corona and four anterior dorsal spines, no cartoon eyes. Environment: transmitted-light microscopy naturalistic scientific reconstruction, gray green aqueous microscopic field, no macroscopic plants. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "317631f9cc41f8685aee7cbec6f04d879b6bef0a4be4bca6f203ecf8f74a0023",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "47ccf141cfa87c027b43d44384e0fec0d0d129f7cd9922470c562b6207e4eddc",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use reference image ONLY as morphology reference for Brachionus calyciflorus rotifer. Generate a NEW landscape 1536x1024 transmitted-light microscope naturalistic scientific reconstruction. Specific scene: One full animal lateral slightly oblique view, expanded corona at anterior end, smooth ovoid lorica body. Exactly four short triangular spines ONLY at head opening, no spikes on sides or back. Mastax and granular gut visible. Slender retractile foot two toes at rear. Match the reference's smooth wide oval body, short anterior spines, head corona, internal mastax and small two-toed foot. Pale grey green freshwater microscopic background with sparse algal cells. Entire animal with comfortable margins, centered composition. Not an arthropod. No many lateral spikes, segmented legs, stalk, text, scale bars, cartoon face or labels.",
+      "sourceSha256": "db6fe42be2fd7ed871e2b2b7f5e01c34b38777cccf32acf678acf7e6486abc89",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "30c7591a18e8e1c52fff5aa7a35eae0aef3219367bff4b442b0666e2838dd2a0",
+      "runtimeDimensions": "1536 1024",
+      "referenceSha256": "1d4969d29e2fab359bbc6491e1b5db7500f0375a2000e3302de0206286357dd1",
+      "discardedSourceSha256": "585e8706f732f02daa8562cd4efcc143a22f46698e8e3dc51c6a8e439be9cc2f"
+    },
+    {
+      "num": 5,
+      "prompt": "Use reference image ONLY as morphology reference for Brachionus calyciflorus rotifer. Generate a NEW landscape 1536x1024 transmitted-light microscope naturalistic scientific reconstruction. Specific scene: One full female animal oblique view with expanded corona at head, smooth oval soft lorica and exactly four short anterior spines ONLY around head opening. NO lateral or posterior spines. One attached oval egg beside rear; slender foot ends in two toes. Match the reference's smooth wide oval body, short anterior spines, head corona, internal mastax and small two-toed foot. Pale grey green freshwater microscopic background with sparse algal cells. Entire animal with comfortable margins, centered composition. Not an arthropod. No many lateral spikes, segmented legs, stalk, text, scale bars, cartoon face or labels.",
+      "sourceSha256": "5f62724ed5993a8ad815b5dbc61cccb08cf5db6a1ba2ad42242b9979488f1309",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "3a0dc84d3d4ee2e8871e9322ce3b4484d61af98ba7eb8fa2a9e717ac1e310266",
+      "runtimeDimensions": "1536 1024",
+      "referenceSha256": "1d4969d29e2fab359bbc6491e1b5db7500f0375a2000e3302de0206286357dd1",
+      "discardedSourceSha256": "23b845539a440c56edb1a6807088fc32dd21b95fa7d02bbee00b9d064775ce37"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Brachionus calyciflorus microscopic freshwater monogonont rotifer, transparent broad oval soft lorica, FOUR short broad-based triangular anterior dorsal spines, head ciliated corona, granular mastax and digestive tract inside, slender retractile foot with two tiny toes at rear. No crustacean limbs, stalk or cartoon face. Scene: two free-swimming microscopic rotifers among fine algal cells in wider microscopy field. Environment: transmitted-light microscopy naturalistic scientific reconstruction, gray green aqueous microscopic field, no macroscopic plants. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "4e21f96713cd7b1c7d741250783d9f64accd6f601c437cb2948a4b9a7913bb73",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "61babe7bfd173a738d10e891c69a3e36cc4ecae57e94b1a8b4ecae84c25e9e7a",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}

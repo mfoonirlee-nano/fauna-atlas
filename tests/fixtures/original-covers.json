@@ -4158,5 +4158,18 @@
       },
       "sha256": "d568b3a1ff6ff56846e8c3df2f98bf9353c381de033e91f14a5bbb62a2351bff"
     }
+  },
+  "brachionus-calyciflorus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 780,
+        "top": 26,
+        "right": 1425,
+        "bottom": 981
+      },
+      "sha256": "eb6b7a410d223ffa00491dfd6ebb218f4e53519abe86d9cc39fbcfb9daf02180"
+    }
   }
 }

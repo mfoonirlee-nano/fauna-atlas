@@ -4991,5 +4991,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1432,
       "bottom": 937
     }
+  },
+  "brachionus-calyciflorus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 780,
+      "top": 26,
+      "right": 1425,
+      "bottom": 981
+    }
   }
 };

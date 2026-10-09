@@ -138245,6 +138245,244 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "brachionus-calyciflorus",
+  "slug": "brachionus-calyciflorus",
+  "names": {
+    "zh": "萼花臂尾轮虫",
+    "en": "Brachionus calyciflorus"
+  },
+  "scientificName": "Brachionus calyciflorus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Rotifera",
+      "zhName": "轮形动物门"
+    },
+    "class": {
+      "scientificName": "Eurotatoria",
+      "zhName": "真轮虫纲"
+    },
+    "order": {
+      "scientificName": "Ploima",
+      "zhName": "游泳目"
+    },
+    "family": {
+      "scientificName": "Brachionidae",
+      "zhName": "臂尾轮虫科"
+    },
+    "genus": {
+      "scientificName": "Brachionus",
+      "zhName": "臂尾轮虫属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [
+      "亚洲",
+      "欧洲",
+      "北美洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "多地区淡水湖泊与池塘"
+    ],
+    "countries": [],
+    "range": "2018 年修订将广义种群拆分并重新描述四种，确认狭义 B. calyciflorus 在古北区的形态和遗传记录，也汇总其他生物地理区的文献记录。本档案采用狭义物种，不把所有历史同名记录都视为已完成分子核验。"
+  },
+  "habitats": [
+    {
+      "name": "淡水浮游环境",
+      "realm": "freshwater",
+      "description": "2018 年修订将广义种群拆分并重新描述四种，确认狭义 B. calyciflorus 在古北区的形态和遗传记录，也汇总其他生物地理区的文献记录。本档案采用狭义物种，不把所有历史同名记录都视为已完成分子核验。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "filter-feeder"
+    ],
+    "foods": [
+      "微小藻类等悬浮颗粒"
+    ],
+    "description": "头端纤毛带动水流，将微小藻类等可食悬浮颗粒送入口部，内部咀嚼器处理食物。图中颗粒大小采用教学重建，不代表实际取食比例。"
+  },
+  "tags": [
+    "萼花臂尾轮虫",
+    "淡水浮游环境"
+  ],
+  "summary": "萼花臂尾轮虫是显微镜下的多细胞动物，用头端纤毛游动和取食。",
+  "description": "在显微放大图中先找头端的细毛，再看透明身体和后端可伸缩的足。纤毛依次摆动，看起来像小轮子在转。它生活在淡水里，身体包含许多细胞；近似种需要形态与遗传资料核验。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "头端的小轮子",
+      "body": "头端纤毛依次摆动，形成像轮子转动的视觉效果。静态生成图只展示结构，观察动作须看显微视频。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "头端与前缘棘",
+      "body": "狭义物种的被甲前背缘有四枚棘，形态会变化。图中微小结构为重建，不能根据生成图精确计数或鉴定。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "透明身体里的结构",
+      "body": "被甲包围躯干，显微观察可以看见内部结构。这里重建咀嚼器和消化区域的总体位置，不替代解剖图。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "身旁的一枚卵",
+      "body": "雌虫可携带卵，图中展示一个独立育幼场景。卵的外观不能用来判定近似种，也不把不同场景当成同一只个体的连续记录。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "淡水中的微小动物",
+      "body": "两只轮虫与微小藻类出现在同一显微视野。轮虫是多细胞动物；画面采用显微放大、非实测比例，也不据水中生物判断饮水安全。"
+    }
+  ],
+  "keyFacts": [
+    "属于动物界、轮形动物门。",
+    "现行 WoRMS 用真轮虫纲，单巢类 Monogononta 在该口径中为亚纲。",
+    "头端纤毛帮助移动和取食。",
+    "广义 B. calyciflorus 涉及复合种，不能仅凭生成图鉴定。"
+  ],
+  "threats": [
+    "本次未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "通过影像观察，保留来源与物种限定。",
+    "减少水域污染，野外观察不取走活体。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "scale",
+      "label": "观察方式",
+      "value": "显微放大"
+    },
+    {
+      "key": "realm",
+      "label": "生活水域",
+      "value": "淡水"
+    }
+  ],
+  "media": {
+    "image": "./images/species/brachionus-calyciflorus/01-cover.webp",
+    "alt": "萼花臂尾轮虫及其栖息环境，AI 生成科学情景重建，显微放大，非实测比例",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/brachionus-calyciflorus/02-observation.webp",
+        "title": "头端的小轮子",
+        "alt": "萼花臂尾轮虫：头端的小轮子",
+        "caption": "AI 生成科学情景重建。显微放大，非实测比例。头端纤毛依次摆动，形成像轮子转动的视觉效果。静态生成图只展示结构，观察动作须看显微视频。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/brachionus-calyciflorus/03-observation.webp",
+        "title": "头端与前缘棘",
+        "alt": "萼花臂尾轮虫：头端与前缘棘",
+        "caption": "AI 生成科学情景重建。显微放大，非实测比例。狭义物种的被甲前背缘有四枚棘，形态会变化。图中微小结构为重建，不能根据生成图精确计数或鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/brachionus-calyciflorus/04-observation.webp",
+        "title": "透明身体里的结构",
+        "alt": "萼花臂尾轮虫：透明身体里的结构",
+        "caption": "AI 生成科学情景重建。显微放大，非实测比例。被甲包围躯干，显微观察可以看见内部结构。这里重建咀嚼器和消化区域的总体位置，不替代解剖图。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/brachionus-calyciflorus/05-observation.webp",
+        "title": "身旁的一枚卵",
+        "alt": "萼花臂尾轮虫：身旁的一枚卵",
+        "caption": "AI 生成科学情景重建。显微放大，非实测比例。雌虫可携带卵，图中展示一个独立育幼场景。卵的外观不能用来判定近似种，也不把不同场景当成同一只个体的连续记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/brachionus-calyciflorus/06-observation.webp",
+        "title": "淡水中的微小动物",
+        "alt": "萼花臂尾轮虫：淡水中的微小动物",
+        "caption": "AI 生成科学情景重建。显微放大，非实测比例。两只轮虫与微小藻类出现在同一显微视野。轮虫是多细胞动物；画面采用显微放大、非实测比例，也不据水中生物判断饮水安全。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "2018 年臂尾轮虫复合种修订：狭义物种形态与分布",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6147415/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：萼花臂尾轮虫完整分类链",
+      "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/134980",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "FAO：淡水轮虫食物记录（修订前广义口径）",
+      "url": "https://www.fao.org/4/w3732e/w3732e0h.htm",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：接受学名与分类",
+      "url": "https://www.marinespecies.org/aphia.php?id=134980&p=taxdetails",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 
