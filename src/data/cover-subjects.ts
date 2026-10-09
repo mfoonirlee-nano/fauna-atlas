@@ -5001,5 +5001,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1425,
       "bottom": 981
     }
+  },
+  "mexican-mole-lizard": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 728,
+      "top": 210,
+      "right": 1495,
+      "bottom": 802
+    }
   }
 };

@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "reviewedAt": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate a single landscape 1536x1024 cover for Fauna Atlas: Bipes biporus, Mexican five-toed mole lizard, scientific naturalistic reconstruction. Pale pink cylindrical ring-scaled body, blunt rounded head tiny eyes, exactly two stout forelegs immediately behind head with five digging digits per foot, absolutely no hindlegs, short tapering tail. Complete animal resting in a gentle curved S pose on sandy Baja California soil, primary animal occupies right side, all extremities inside image with ample background, subject center near 70% image width, quiet empty left 40%. Bright soft natural light, realistic skin and soil. No text, no watermark, no diagram labels.",
+      "sourceSha256": "7c025f80e0f1bf55008af50ab7ca3bfe989c6361c59c7b77081ecbef4645cb0f",
+      "runtimeSha256": "a1fc9453055cf127626fc5c7a280d23d2875398110008da735097b65029ce148",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Bipes biporus: pale pink ring-scaled cylindrical reptile, blunt tiny-eyed head, exactly two stout five-digit forefeet near head, no hindlegs, short tail. Scene: Head and both clawed digging forefeet on sandy soil, close low angle. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "1fd90dd9d09349a656364f4a4dd9a093d114a15f8e9822a0abb92e45b4d170c2",
+      "runtimeSha256": "0145aaab1a931c4e3686bcebec11af6f6c8b021847617df4bcfcf4b163b6a1b8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Bipes biporus: pale pink ring-scaled cylindrical reptile, blunt tiny-eyed head, exactly two stout five-digit forefeet near head, no hindlegs, short tail. Scene: Macro lateral view annulated scales on curved pink body. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "1b132a88440c41ccf11f1d31879c3e66d1461d629f2d61a8cfb97512c871a38f",
+      "runtimeSha256": "eb1f96727f843a08dc37bd689dd22d6e64b4844718dbad4b9b2434f4d4c93190",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Bipes biporus: pale pink ring-scaled cylindrical reptile, blunt tiny-eyed head, exactly two stout five-digit forefeet near head, no hindlegs, short tail. Scene: Whole animal inside shallow sandy burrow, naturalistic soil cutaway teaching reconstruction. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "6d9154afc561d72a3993aafb5b75b4a5928ce395b4314623b7d357c46beaa288",
+      "runtimeSha256": "56980ae2a5853f43fe79f656cfb75a93f2530f956596f4d323ad22010b09bb9f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Bipes biporus: pale pink ring-scaled cylindrical reptile, blunt tiny-eyed head, exactly two stout five-digit forefeet near head, no hindlegs, short tail. Scene: Whole animal near small beetle on soil, no gore. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "121d1ead73674a90e1b93099cc60b2090c2dcc86536f59292b80e75f029aa629",
+      "runtimeSha256": "b286c7f6ae4e8c0fb4474754f22b2b09e0b0c5e928895ae1630d83055fc6a093",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Bipes biporus: pale pink ring-scaled cylindrical reptile, blunt tiny-eyed head, exactly two stout five-digit forefeet near head, no hindlegs, short tail. Scene: Whole animal under fallen branch in Baja California arid scrub, environmental view. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "a904f77195fa9b288cb8b817607c166d12cc41b7f9ab873de723572b6a7cb777",
+      "runtimeSha256": "5e83730dec63bb755db11d16ba60cf9055e5ef78417fee90ed54717d8f3fd5c9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

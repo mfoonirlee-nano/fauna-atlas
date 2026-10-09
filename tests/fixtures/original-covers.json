@@ -4171,5 +4171,18 @@
       },
       "sha256": "eb6b7a410d223ffa00491dfd6ebb218f4e53519abe86d9cc39fbcfb9daf02180"
     }
+  },
+  "mexican-mole-lizard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 728,
+        "top": 210,
+        "right": 1495,
+        "bottom": 802
+      },
+      "sha256": "a1fc9453055cf127626fc5c7a280d23d2875398110008da735097b65029ce148"
+    }
   }
 }

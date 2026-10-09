@@ -738,3 +738,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [血腹栉水母 image set](./species/bloody-belly-comb-jelly/README.md)
 
 - [萼花臂尾轮虫 image set](./species/brachionus-calyciflorus/README.md)
+
+- [双足蚓蜥 image set](./species/mexican-mole-lizard/README.md)
