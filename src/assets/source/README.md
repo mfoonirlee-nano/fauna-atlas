@@ -726,3 +726,13 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [草莓鱿鱼 image set](./species/strawberry-squid/README.md)
 - [裸海蝶 image set](./species/sea-angel/README.md)
 - [叶羊海天牛 image set](./species/leaf-sheep/README.md)
+
+- [心形鸟蛤 image set](./species/heart-cockle/README.md)
+
+- [紫螺 image set](./species/violet-snail/README.md)
+
+- [仙后水母 image set](./species/upside-down-jellyfish/README.md)
+
+- [血腹栉水母 image set](./species/bloody-belly-comb-jelly/README.md)
+
+- [萼花臂尾轮虫 image set](./species/brachionus-calyciflorus/README.md)

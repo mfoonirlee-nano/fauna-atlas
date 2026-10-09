@@ -8,6 +8,9 @@ export default defineConfig({
     manifest: true,
     rolldownOptions: {
       output: {
+        // The catalogue already carries every slug; keep lazy profile URLs short.
+        chunkFileNames: (chunk) => chunk.facadeModuleId?.includes('virtual:species-profile/')
+          ? 'assets/p-[hash].js' : 'assets/[name]-[hash].js',
         codeSplitting: {
           groups: [{ name: 'vendor', test: /node_modules/ }],
         },
