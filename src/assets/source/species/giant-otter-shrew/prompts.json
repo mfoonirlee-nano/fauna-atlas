@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Potamogale velox (Giant Otter Shrew). Anatomy: elongated dark brown mammal with cream underside, broad flat muzzle and stiff whiskers, small eyes and round ears, short legs with unwebbed toes, long laterally compressed thick tail tapering to tip. Scene: central African forest stream bank at dusk. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "e1b189bca4784bd6fe81d7f0ef9ab2826e15c31fee6854330b88345a217dafb9",
+      "runtimeSha256": "388ab30e81647b0cbc746d5030b334e380626b0668f1844bfb2285af5be81fdb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Potamogale velox (Giant Otter Shrew). Anatomy: elongated dark brown mammal with cream underside, broad flat muzzle and stiff whiskers, small eyes and round ears, short legs with unwebbed toes, long laterally compressed thick tail tapering to tip. Scene: close view of broad muzzle and whiskers. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "211f96a3181f908b3aeac6acdbc5e5bf538eb64bf7e23d55f38718b8159f7072",
+      "runtimeSha256": "fc33f55fb9a5dcdc4b874c72daabe5b90bf6650d7c038a25d26be741c2f1e1a7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Potamogale velox (Giant Otter Shrew). Anatomy: elongated dark brown mammal with cream underside, broad flat muzzle and stiff whiskers, small eyes and round ears, short legs with unwebbed toes, long laterally compressed thick tail tapering to tip. Scene: whole animal in clear shallow water with laterally flattened tail visible. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "6a28a18c1e1f29ddcecc66266508b607db80a006ebe544ee8704f17bf64db897",
+      "runtimeSha256": "d36989e32baaed4fe49157c4791bbe2b227a4f61219dcf01216c3fab2b24610e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Potamogale velox (Giant Otter Shrew). Anatomy: elongated dark brown mammal with cream underside, broad flat muzzle and stiff whiskers, small eyes and round ears, short legs with unwebbed toes, long laterally compressed thick tail tapering to tip. Scene: side view of short feet on wet bank, no webbing. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "f51f3859e7633c573ec0ece7892fba8c4d3b75d226978edaf1c256c813b32ed7",
+      "runtimeSha256": "cba314d358d2aa4ac297703000f025c59c916c556281e8fc11d24e9c13da602d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Potamogale velox (Giant Otter Shrew). Anatomy: elongated dark brown mammal with cream underside, broad flat muzzle and stiff whiskers, small eyes and round ears, short legs with unwebbed toes, long laterally compressed thick tail tapering to tip. Scene: whole animal beside natural streambank burrow entrance. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "51d7b4d37e1ed04a1473c70d6fb65f90d3b19979ef130cb00e0cf953171fb685",
+      "runtimeSha256": "5a4df7721f768ec82a6b7183fead37de6f1e11ffcc1316d261b8ce0dde4fef23",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Potamogale velox (Giant Otter Shrew). Anatomy: elongated dark brown mammal with cream underside, broad flat muzzle and stiff whiskers, small eyes and round ears, short legs with unwebbed toes, long laterally compressed thick tail tapering to tip. Scene: whole animal on bank near small freshwater crab, no graphic predation. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "3d70a7ea272fe1f848a7f36f9860e90863380d42cba8d39049391d6ef207f5a3",
+      "runtimeSha256": "2dc81ceb52daf1093d9585c20fa81ccb657b67186894ec303a69d99c8e983666",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -5111,5 +5111,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1370,
       "bottom": 895
     }
+  },
+  "giant-otter-shrew": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 425,
+      "top": 300,
+      "right": 1515,
+      "bottom": 730
+    }
   }
 };

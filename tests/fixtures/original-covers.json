@@ -4314,5 +4314,18 @@
       },
       "sha256": "30ab83c66e25fd16303a7cf9b2f378d53ada6f7920b3b0fe9d99571c075f2770"
     }
+  },
+  "giant-otter-shrew": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 425,
+        "top": 300,
+        "right": 1515,
+        "bottom": 730
+      },
+      "sha256": "388ab30e81647b0cbc746d5030b334e380626b0668f1844bfb2285af5be81fdb"
+    }
   }
 }

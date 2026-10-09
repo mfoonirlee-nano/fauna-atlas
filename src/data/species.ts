@@ -141126,6 +141126,255 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "giant-otter-shrew",
+  "slug": "giant-otter-shrew",
+  "names": {
+    "zh": "巨獭鼩",
+    "en": "Giant Otter Shrew"
+  },
+  "scientificName": "Potamogale velox",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Afrosoricida",
+      "zhName": "非洲猬目"
+    },
+    "family": {
+      "scientificName": "Potamogalidae",
+      "zhName": "獭鼩科"
+    },
+    "genus": {
+      "scientificName": "Potamogale",
+      "zhName": "獭鼩属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "非洲中部热带林区"
+    ],
+    "countries": [
+      "加蓬",
+      "喀麦隆",
+      "刚果民主共和国"
+    ],
+    "range": "非洲中部热带林区。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "森林溪流",
+      "realm": "freshwater",
+      "description": "它夜间在森林溪流和岸边寻找食物，游泳时以身体和尾部的侧向动作推进。日间利用岸边洞穴隐蔽，水中与岸上各自提供不同的活动空间。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "蟹",
+      "鱼",
+      "蛙",
+      "其他小型动物"
+    ],
+    "description": "它捕食蟹、鱼、蛙等小动物，触觉和嗅觉参与探查。近水岸的重建图展示环境，不把一只蟹和动物同框当作一次实测捕食或食物偏好实验。"
+  },
+  "tags": [
+    "巨獭鼩",
+    "森林溪流"
+  ],
+  "summary": "用侧扁长尾游泳。",
+  "description": "巨獭鼩有宽扁的吻部、硬须、小眼和短腿，背部深褐，腹部较浅。长尾在侧面压扁，足趾之间没有水獭式蹼膜。它属于獭鼩科，外貌与名字不决定科级归属。它夜间在森林溪流和岸边寻找食物，游泳时以身体和尾部的侧向动作推进。日间利用岸边洞穴隐蔽，水中与岸上各自提供不同的活动空间。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "宽嘴和硬须",
+      "body": "巨獭鼩有宽扁的吻部、硬须、小眼和短腿，背部深褐，腹部较浅。长尾在侧面压扁，足趾之间没有水獭式蹼膜。它属于獭鼩科，外貌与名字不决定科级归属。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它夜间在森林溪流和岸边寻找食物，游泳时以身体和尾部的侧向动作推进。日间利用岸边洞穴隐蔽，水中与岸上各自提供不同的活动空间。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它捕食蟹、鱼、蛙等小动物，触觉和嗅觉参与探查。近水岸的重建图展示环境，不把一只蟹和动物同框当作一次实测捕食或食物偏好实验。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它胎生并哺乳，繁殖资料仍有限。本批不填写统一寿命，也没有把早期圈养后存活天数误写为物种寿命。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "MDD 将 Potamogale velox 放在非洲猬目獭鼩科；ADW 旧页使用马岛猬科，本项目采用前者。分布文本表达非洲中部热带林区，列出的国家为代表地点。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护森林溪流及其自然隐蔽空间。共读时先观察图中的宽嘴和硬须，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "头部放大图用于观察外形，不能量化感觉能力。",
+    "水中姿态重建，推进方式需要结合自然录像。",
+    "足趾没有蹼膜，AI 重建不用于细微趾骨鉴定。",
+    "岸洞入口情景，不代表实测洞穴路线。",
+    "取食环境示意，不证明这一只动物偏好蟹。",
+    "MDD 将 Potamogale velox 放在非洲猬目獭鼩科；ADW 旧页使用马岛猬科，本项目采用前者。分布文本表达非洲中部热带林区，列出的国家为代表地点。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "林地与溪流栖息地改变",
+    "渔网和鱼陷阱误捕"
+  ],
+  "conservationActions": [
+    "保护森林溪流与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "森林溪流"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "宽嘴和硬须"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/giant-otter-shrew/01-cover.webp",
+    "alt": "巨獭鼩及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/giant-otter-shrew/02-observation.webp",
+        "title": "宽嘴和硬须",
+        "alt": "巨獭鼩：宽嘴和硬须，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部放大图用于观察外形，不能量化感觉能力。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-otter-shrew/03-observation.webp",
+        "title": "侧扁的尾巴",
+        "alt": "巨獭鼩：侧扁的尾巴，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水中姿态重建，推进方式需要结合自然录像。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-otter-shrew/04-observation.webp",
+        "title": "岸边的短脚",
+        "alt": "巨獭鼩：岸边的短脚，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。足趾没有蹼膜，AI 重建不用于细微趾骨鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-otter-shrew/05-observation.webp",
+        "title": "溪岸的隐蔽空间",
+        "alt": "巨獭鼩：溪岸的隐蔽空间，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。岸洞入口情景，不代表实测洞穴路线。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-otter-shrew/06-observation.webp",
+        "title": "岸边的小动物",
+        "alt": "巨獭鼩：岸边的小动物，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。取食环境示意，不证明这一只动物偏好蟹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/2432147",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "密歇根大学 ADW：巨獭鼩",
+      "url": "https://animaldiversity.org/accounts/Potamogale_velox/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "ASM MDD：獭鼩科归属",
+      "url": "https://www.mammaldiversity.org/taxon/1000488/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];
