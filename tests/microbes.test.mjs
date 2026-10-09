@@ -35,11 +35,12 @@ test('the topic contains exactly the ten todo organisms and none enter the anima
   const { species } = await server.ssrLoadModule('virtual:species-catalogue');
   const completed = await readFile(new URL('../docs/microbes-topic.md', import.meta.url), 'utf8');
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
-  assert.doesNotMatch(todo, /- \[[ x]\]/);
+  assert.doesNotMatch(todo, /- \[x\]/);
   assert.equal(microbeTopics.length, 10);
   assert.equal(new Set(microbeTopics.map((item) => item.slug)).size, 10);
   assert.deepEqual(['bacteria', 'fungus', 'protist'].map((group) => microbeTopics.filter((item) => item.group === group).length), [6, 1, 3]);
   for (const item of microbeTopics) {
+    assert.ok(!todo.includes(`- [ ] ${item.name} *${item.scientificName}*`), `${item.name} must not remain pending`);
     assert.ok(completed.includes(`- [x] ${item.name} *${item.scientificName}*`), `${item.name} is archived as complete`);
     assert.ok(!species.some((animal) => animal.scientificName === item.scientificName));
     assert.ok(item.sources.length > 0);
