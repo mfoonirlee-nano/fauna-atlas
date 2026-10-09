@@ -3976,5 +3976,18 @@
       },
       "sha256": "ad7cb5539bb192187b5a10455be108b88cd173b197c489f0af3ab569445fca82"
     }
+  },
+  "common-green-lacewing": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 12,
+        "right": 1526,
+        "bottom": 924
+      },
+      "sha256": "b3e520ef31075c560cbf3135b1678519556698a44626573fc8afc3a1d31002ed"
+    }
   }
 }

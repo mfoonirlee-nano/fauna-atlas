@@ -134868,6 +134868,258 @@ export const species = [
   "updatedAt": "2026-10-07"
 },
 
+{
+  "id": "common-green-lacewing",
+  "slug": "common-green-lacewing",
+  "names": {
+    "zh": "草蛉",
+    "en": "Common Green Lacewing"
+  },
+  "scientificName": "Chrysoperla carnea",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Neuroptera",
+      "zhName": "脉翅目"
+    },
+    "family": {
+      "scientificName": "Chrysopidae",
+      "zhName": "草蛉科"
+    },
+    "genus": {
+      "scientificName": "Chrysoperla",
+      "zhName": "通草蛉属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲的草地、灌丛与农田边缘"
+    ],
+    "countries": [],
+    "range": "本档案采用狭义 Chrysoperla carnea，以欧洲记录为范围依据。旧资料中的同名记录常包括近似隐存种，不将旧称的全北区分布直接套用到本种。"
+  },
+  "habitats": [
+    {
+      "name": "草地与灌丛叶面",
+      "realm": "terrestrial",
+      "description": "本档案采用狭义 Chrysoperla carnea，以欧洲记录为范围依据。旧资料中的同名记录常包括近似隐存种，不将旧称的全北区分布直接套用到本种。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "花粉",
+      "花蜜",
+      "蜜露",
+      "蚜虫等小型昆虫（幼虫）"
+    ],
+    "description": "成虫主要摄取花粉、花蜜和蜜露；幼虫捕食蚜虫等软体小昆虫。两阶段的食物不同。"
+  },
+  "tags": [
+    "草蛉",
+    "草地与灌丛叶面"
+  ],
+  "summary": "草蛉把小卵放在细柄顶端，成虫的透明翅膀上有密密的翅脉。",
+  "description": "找找叶片上细丝顶端的小卵，再看看绿色成虫的翅膀。这里的“草蛉”特指 Chrysoperla carnea；近似种常需结合求偶振动信号或 DNA 区分，不能凭这些重建图鉴定。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "细柄上的小卵",
+      "body": "雌虫把卵产在细柄顶端。放大图里可以沿着一根柄找到一枚卵；图中叶片没有已知尺寸，不能充当比例尺。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "翅膀里的细网",
+      "body": "成虫停歇时把透明翅膀收在背上，翅脉像细网。沿着翅缘找一圈，再找头前细长的触角。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "幼虫在叶上找食物",
+      "body": "幼虫身体细长，头前有弯曲的口器，会捕食蚜虫。它长大后才成为有翅的成虫；图中不展示捕食伤口。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "藏在叶下的茧",
+      "body": "成熟幼虫结成圆圆的丝茧，在里面化蛹。这里展示茧的外部，不扒开茧观察。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "成虫来到花边",
+      "body": "有翅的成虫可以在花边取食。把这张图与幼虫图对照：翅膀、身体轮廓和食物都发生了变化。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留在原处观察",
+      "body": "在原处看叶片上的卵和成虫，不折断卵柄，也不将购买的昆虫放进野外。 本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+    }
+  ],
+  "keyFacts": [
+    "草蛉把小卵放在细柄顶端，成虫的透明翅膀上有密密的翅脉。",
+    "成虫主要摄取花粉、花蜜和蜜露；幼虫捕食蚜虫等软体小昆虫。两阶段的食物不同。"
+  ],
+  "threats": [
+    "植被和农田边缘环境改变；不推断本种全球种群趋势。"
+  ],
+  "conservationActions": [
+    "在原处看叶片上的卵和成虫，不折断卵柄，也不将购买的昆虫放进野外。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "草地与灌丛叶面"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "细柄上的小卵"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "未评估",
+      "note": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-green-lacewing/01-cover.webp",
+    "alt": "草蛉及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-green-lacewing/02-observation.webp",
+        "title": "细柄上的小卵",
+        "alt": "草蛉：细柄上的小卵",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。雌虫把卵产在细柄顶端。放大图里可以沿着一根柄找到一枚卵；图中叶片没有已知尺寸，不能充当比例尺。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-green-lacewing/03-observation.webp",
+        "title": "翅膀里的细网",
+        "alt": "草蛉：翅膀里的细网",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。成虫停歇时把透明翅膀收在背上，翅脉像细网。沿着翅缘找一圈，再找头前细长的触角。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-green-lacewing/04-observation.webp",
+        "title": "幼虫在叶上找食物",
+        "alt": "草蛉：幼虫在叶上找食物",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。幼虫身体细长，头前有弯曲的口器，会捕食蚜虫。它长大后才成为有翅的成虫；图中不展示捕食伤口。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-green-lacewing/05-observation.webp",
+        "title": "藏在叶下的茧",
+        "alt": "草蛉：藏在叶下的茧",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。成熟幼虫结成圆圆的丝茧，在里面化蛹。这里展示茧的外部，不扒开茧观察。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-green-lacewing/06-observation.webp",
+        "title": "成虫来到花边",
+        "alt": "草蛉：成虫来到花边",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。有翅的成虫可以在花边取食。把这张图与幼虫图对照：翅膀、身体轮廓和食物都发生了变化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "2015 年研究：模式标本 DNA 与本种身份",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4390323/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-08"
+    },
+    {
+      "title": "2023 年基因组研究：狭义物种及隐存种背景",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10116181/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-08"
+    },
+    {
+      "title": "UC IPM：卵柄、幼虫、茧与成虫食物",
+      "url": "https://ipm.ucanr.edu/natural-enemies/green-lacewings/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-08"
+    },
+    {
+      "title": "Cornell IPM：生活史（旧有应用口径）",
+      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/common-green-lacewing-biocontrol-agent-factsheet",
+      "kind": "ecology",
+      "accessedAt": "2026-10-08"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08"
+},
+
+
+
+
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

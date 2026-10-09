@@ -1,0 +1,49 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-08",
+  "images": [
+    {
+      "slug": "common-green-lacewing",
+      "num": 1,
+      "prompt": "Use case: scientific-educational. Asset: species cover. Naturalistic wildlife reconstruction, 1536x1024 landscape. A single adult Chrysoperla carnea green lacewing, side view resting on a diagonal leaf stem, facing UP AND RIGHT. Narrow light green body and clear unspotted finely net-veined wings tented along body, copper eyes, two slender long antennae curving UPWARD and to the RIGHT above head. Full insect including antennae and all feet fits only inside right-hand x650..1450 y100..900. Left 40 percent dark quiet green bokeh. Large subject. No part reaches left 40 percent. Maximize complete animal within the stated bounds. Natural soft light, credible anatomy, no text, no labels, no watermark.",
+      "sourceSha256": "1791fde1c23fd1b9af52d1fa4e32f605ae22b13b44f27cb833220768ac6b6e4a",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-green-lacewing",
+      "num": 2,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic macro scene for an encyclopedia gallery. Extreme macro of several individual Chrysoperla carnea eggs attached to a green leaf, each tiny pale green oval egg at the END of its own upright slender silk stalk. Five separate stalks irregularly spaced, rounded oval eggs no faces, realistic leaf texture and green blur. No adult. Magnified educational reconstruction, not an actual measurement. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "c8d0f0c4207b8f9d81058f1e785f9d2db3a6451dce8167d14d8c3f76658234e0",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-green-lacewing",
+      "num": 3,
+      "prompt": "Use case: scientific-educational. Generate a 1536x1024 landscape naturalistic macro wildlife reconstruction for an animal encyclopedia cover. A single adult common green lacewing Chrysoperla carnea resting on a thin leaf, pale green narrow body, copper golden eyes, very long thin antennae, six delicate legs and clear finely net-veined wings folded rooflike. Full insect including both entire antennae, feet and wing tips contained with background margin. Subject on RIGHT with full boundary approximately x650..1460 y140..900, center x1070. Left 40 percent quiet dark green bokeh, no other insects. Maximize subject size in this boundary. Soft natural light, anatomically credible. No writing, no labels, no border, no watermark.",
+      "note": "Initial cover candidate retained as wing observation: antennae extend into left area.",
+      "sourceSha256": "bad79f6a375383b5ef285cfbcbf6277ba87b58b8d2be48ef93235caf16d33b21",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-green-lacewing",
+      "num": 4,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic macro scene for an encyclopedia gallery. Macro of a single Chrysoperla carnea lacewing larva on a leaf near two small green aphids. Elongate mottled brown-gray slightly flattened alligator-like larva, distinct segmented body, six legs near front and two sickle shaped slender jaws projecting forward. Full larva and jaws, natural fine bristles, no debris carried on back, no wings. No gore, quiet natural scene. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "b9b9a879c9923dfdc9104353adae7dcd84a00b4a55e713870c3e9b8d903b5afb",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-green-lacewing",
+      "num": 5,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic macro scene for an encyclopedia gallery. Macro naturalistic scene of one small round off-white silk cocoon of Chrysoperla carnea attached underneath a curled green leaf in sheltered foliage. Cocoon spherical, fine fibrous opaque papery silk, no exposed caterpillar, no pupa hanging naked, no egg stalks. Shallow depth of field, gentle light. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "65a0ac7d9a3f05e76c85c93265e86f61e8d3ae45289a66836f16db2a9bc03704",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-green-lacewing",
+      "num": 6,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic macro scene for encyclopedia gallery. Adult Chrysoperla carnea pale green lacewing with roof-folded clear veined wings feeding at a small open pale flower, head close to pollen-bearing stamens, full long antennae and feet visible. Natural meadow macro, no aphids, no proboscis like a butterfly. Soft evening light. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "341ae11d5632fb4d543321aa00df260866c116f9ce735f2f72f5b4765f318cf6",
+      "sourceDimensions": "1536 1024"
+    }
+  ]
+}

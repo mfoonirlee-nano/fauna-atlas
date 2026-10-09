@@ -4002,505 +4002,505 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     }
   },
   "kinkajou": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 690,
-    "top": 130,
-    "right": 1520,
-    "bottom": 740
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 690,
+      "top": 130,
+      "right": 1520,
+      "bottom": 740
+    }
+  },
   "bat-eared-fox": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 680,
-    "top": 45,
-    "right": 1490,
-    "bottom": 940
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 45,
+      "right": 1490,
+      "bottom": 940
+    }
+  },
   "eurasian-tree-sparrow": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 710,
-    "top": 120,
-    "right": 1480,
-    "bottom": 855
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 120,
+      "right": 1480,
+      "bottom": 855
+    }
+  },
   "light-vented-bulbul": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 775,
-    "top": 120,
-    "right": 1445,
-    "bottom": 900
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 775,
+      "top": 120,
+      "right": 1445,
+      "bottom": 900
+    }
+  },
   "crested-gecko": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 710,
-    "top": 170,
-    "right": 1495,
-    "bottom": 795
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 170,
+      "right": 1495,
+      "bottom": 795
+    }
+  },
   "vietnamese-mossy-frog": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 625,
-    "top": 165,
-    "right": 1510,
-    "bottom": 885
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 165,
+      "right": 1510,
+      "bottom": 885
+    }
+  },
   "longhorn-cowfish": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 645,
-    "top": 140,
-    "right": 1470,
-    "bottom": 655
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 645,
+      "top": 140,
+      "right": 1470,
+      "bottom": 655
+    }
+  },
   "old-world-swallowtail": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 765,
-    "top": 145,
-    "right": 1495,
-    "bottom": 715
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 765,
+      "top": 145,
+      "right": 1495,
+      "bottom": 715
+    }
+  },
   "giant-pacific-octopus": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 635,
-    "top": 125,
-    "right": 1480,
-    "bottom": 865
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 635,
+      "top": 125,
+      "right": 1480,
+      "bottom": 865
+    }
+  },
   "brown-hydra": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 840,
-    "top": 35,
-    "right": 1485,
-    "bottom": 845
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 840,
+      "top": 35,
+      "right": 1485,
+      "bottom": 845
+    }
+  },
   "spotted-linsang": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 710,
-    "top": 120,
-    "right": 1510,
-    "bottom": 780
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 120,
+      "right": 1510,
+      "bottom": 780
+    }
+  },
   "eastern-spotted-skunk": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 690,
-    "top": 30,
-    "right": 1515,
-    "bottom": 825
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 690,
+      "top": 30,
+      "right": 1515,
+      "bottom": 825
+    }
+  },
   "pallas-cat": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 675,
-    "top": 75,
-    "right": 1505,
-    "bottom": 825
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 675,
+      "top": 75,
+      "right": 1505,
+      "bottom": 825
+    }
+  },
   "sand-cat": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 685,
-    "top": 125,
-    "right": 1500,
-    "bottom": 855
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 125,
+      "right": 1500,
+      "bottom": 855
+    }
+  },
   "hoffmanns-two-toed-sloth": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 685,
-    "top": 15,
-    "right": 1515,
-    "bottom": 895
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 15,
+      "right": 1515,
+      "bottom": 895
+    }
+  },
   "giant-armadillo": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 640,
-    "top": 205,
-    "right": 1515,
-    "bottom": 840
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 205,
+      "right": 1515,
+      "bottom": 840
+    }
+  },
   "lowland-streaked-tenrec": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 635,
-    "top": 230,
-    "right": 1465,
-    "bottom": 800
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 635,
+      "top": 230,
+      "right": 1465,
+      "bottom": 800
+    }
+  },
   "southern-tamandua": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 785,
-    "top": 45,
-    "right": 1405,
-    "bottom": 955
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 785,
+      "top": 45,
+      "right": 1405,
+      "bottom": 955
+    }
+  },
   "silky-anteater": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 830,
-    "top": 90,
-    "right": 1380,
-    "bottom": 925
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 830,
+      "top": 90,
+      "right": 1380,
+      "bottom": 925
+    }
+  },
   "short-eared-sengi": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 665,
-    "top": 350,
-    "right": 1480,
-    "bottom": 730
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 350,
+      "right": 1480,
+      "bottom": 730
+    }
+  },
   "long-eared-jerboa": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 680,
-    "top": 250,
-    "right": 1500,
-    "bottom": 870
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 250,
+      "right": 1500,
+      "bottom": 870
+    }
+  },
   "hazel-dormouse": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 755,
-    "top": 90,
-    "right": 1320,
-    "bottom": 966
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 755,
+      "top": 90,
+      "right": 1320,
+      "bottom": 966
+    }
+  },
   "north-american-porcupine": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 755,
-    "top": 310,
-    "right": 1510,
-    "bottom": 735
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 755,
+      "top": 310,
+      "right": 1510,
+      "bottom": 735
+    }
+  },
   "black-tailed-prairie-dog": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 890,
-    "top": 70,
-    "right": 1350,
-    "bottom": 930
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 890,
+      "top": 70,
+      "right": 1350,
+      "bottom": 930
+    }
+  },
   "crested-porcupine": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 750,
-    "top": 278,
-    "right": 1510,
-    "bottom": 785
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 750,
+      "top": 278,
+      "right": 1510,
+      "bottom": 785
+    }
+  },
   "rock-hyrax": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 745,
-    "top": 130,
-    "right": 1425,
-    "bottom": 842
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 745,
+      "top": 130,
+      "right": 1425,
+      "bottom": 842
+    }
+  },
   "markhor": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 850,
-    "top": 20,
-    "right": 1490,
-    "bottom": 930
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 850,
+      "top": 20,
+      "right": 1490,
+      "bottom": 930
+    }
+  },
   "hooded-seal": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 755,
-    "top": 332,
-    "right": 1465,
-    "bottom": 675
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 755,
+      "top": 332,
+      "right": 1465,
+      "bottom": 675
+    }
+  },
   "common-blackbird": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 700,
-    "top": 195,
-    "right": 1495,
-    "bottom": 845
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 195,
+      "right": 1495,
+      "bottom": 845
+    }
+  },
   "spotted-dove": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 715,
-    "top": 200,
-    "right": 1490,
-    "bottom": 805
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 715,
+      "top": 200,
+      "right": 1490,
+      "bottom": 805
+    }
+  },
   "great-tit": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 748,
-    "top": 120,
-    "right": 1468,
-    "bottom": 878
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 748,
+      "top": 120,
+      "right": 1468,
+      "bottom": 878
+    }
+  },
   "long-tailed-tit": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 760,
-    "top": 210,
-    "right": 1495,
-    "bottom": 830
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 760,
+      "top": 210,
+      "right": 1495,
+      "bottom": 830
+    }
+  },
   "eurasian-nuthatch": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 718,
-    "top": 178,
-    "right": 1490,
-    "bottom": 805
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 178,
+      "right": 1490,
+      "bottom": 805
+    }
+  },
   "northern-lapwing": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 795,
-    "top": 20,
-    "right": 1440,
-    "bottom": 915
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 795,
+      "top": 20,
+      "right": 1440,
+      "bottom": 915
+    }
+  },
   "eurasian-oystercatcher": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 666,
-    "top": 135,
-    "right": 1492,
-    "bottom": 853
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 666,
+      "top": 135,
+      "right": 1492,
+      "bottom": 853
+    }
+  },
   "black-skimmer": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 710,
-    "top": 358,
-    "right": 1457,
-    "bottom": 745
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 358,
+      "right": 1457,
+      "bottom": 745
+    }
+  },
   "great-crested-grebe": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 650,
-    "top": 120,
-    "right": 1468,
-    "bottom": 745
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 120,
+      "right": 1468,
+      "bottom": 745
+    }
+  },
   "victoria-crowned-pigeon": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 760,
-    "top": 18,
-    "right": 1485,
-    "bottom": 945
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 760,
+      "top": 18,
+      "right": 1485,
+      "bottom": 945
+    }
+  },
   "lilac-breasted-roller": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 758,
-    "top": 26,
-    "right": 1488,
-    "bottom": 965
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 758,
+      "top": 26,
+      "right": 1488,
+      "bottom": 965
+    }
+  },
   "northern-carmine-bee-eater": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 742,
-    "top": 64,
-    "right": 1508,
-    "bottom": 995
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 742,
+      "top": 64,
+      "right": 1508,
+      "bottom": 995
+    }
+  },
   "long-tailed-widowbird": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 825,
-    "top": 30,
-    "right": 1468,
-    "bottom": 990
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 825,
+      "top": 30,
+      "right": 1468,
+      "bottom": 990
+    }
+  },
   "andean-cock-of-the-rock": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 814,
-    "top": 54,
-    "right": 1395,
-    "bottom": 925
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 814,
+      "top": 54,
+      "right": 1395,
+      "bottom": 925
+    }
+  },
   "red-billed-streamertail": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 762,
-    "top": 70,
-    "right": 1370,
-    "bottom": 975
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 762,
+      "top": 70,
+      "right": 1370,
+      "bottom": 975
+    }
+  },
   "rainbow-lorikeet": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 910,
-    "top": 88,
-    "right": 1440,
-    "bottom": 1016
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 910,
+      "top": 88,
+      "right": 1440,
+      "bottom": 1016
+    }
+  },
   "kea": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 744,
-    "top": 84,
-    "right": 1455,
-    "bottom": 799
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 744,
+      "top": 84,
+      "right": 1455,
+      "bottom": 799
+    }
+  },
   "common-tailorbird": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 715,
-    "top": 40,
-    "right": 1440,
-    "bottom": 880
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 715,
+      "top": 40,
+      "right": 1440,
+      "bottom": 880
+    }
+  },
   "red-eyed-crocodile-skink": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 650,
-    "top": 245,
-    "right": 1495,
-    "bottom": 885
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 245,
+      "right": 1495,
+      "bottom": 885
+    }
+  },
   "green-anole": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 735,
-    "top": 115,
-    "right": 1410,
-    "bottom": 950
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 115,
+      "right": 1410,
+      "bottom": 950
+    }
+  },
   "eastern-blue-tongued-skink": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 615,
-    "top": 400,
-    "right": 1498,
-    "bottom": 800
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 400,
+      "right": 1498,
+      "bottom": 800
+    }
+  },
   "shingleback": {
-  "width": 1536,
-  "height": 1024,
-  "bounds": {
-    "left": 628,
-    "top": 415,
-    "right": 1505,
-    "bottom": 750
-  }
-},
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 415,
+      "right": 1505,
+      "bottom": 750
+    }
+  },
   "armadillo-girdled-lizard": {
     "width": 1536,
     "height": 1024,
@@ -4651,7 +4651,6 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 877
     }
   },
-
   "jointed-razorfish": {
     "width": 1536,
     "height": 1024,
@@ -4850,6 +4849,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "top": 146,
       "right": 1495,
       "bottom": 833
+    }
+  },
+  "common-green-lacewing": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 12,
+      "right": 1526,
+      "bottom": 924
     }
   }
 };
