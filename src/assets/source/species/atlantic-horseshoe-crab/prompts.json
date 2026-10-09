@@ -1,0 +1,48 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-08",
+  "images": [
+    {
+      "slug": "atlantic-horseshoe-crab",
+      "num": 1,
+      "prompt": "Use case: scientific-educational. Naturalistic wildlife reconstruction, 1536x1024 landscape encyclopedia cover. An Atlantic horseshoe crab Limulus polyphemus completely on the RIGHT HALF of a wide landscape image, viewed from above on wet sand. Animal points toward TOP of frame, its complete STRAIGHT TAIL points vertically DOWN, so its long axis is vertical. Rounded horseshoe domed front shield at x850..1370 y160..510, smaller hinged rear shield below it y490..650, long thin straight telson ending at x1100 y910. Full animal overall x790..1400 y120..920. Left half is only smooth empty wet beach sand. Natural olive brown shell, correct horseshoe crab proportions, complete tail with margin. No writing, labels, watermark or border. Soft natural illumination.",
+      "sourceSha256": "7dfe9a889fe3d245f1988f5437dbbf633494a6beeea03de34c24c61dfb13a1b8",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "atlantic-horseshoe-crab",
+      "num": 2,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Limulus polyphemus Atlantic horseshoe crab in shallow clear coastal water, low SIDE profile to show the arch of its domed front carapace and smaller hinged rear shield. Complete long straight tail behind, olive brown wet shell, sandy bottom. One full animal centered with margin. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "33a9f24cb4d4ea0c19d211b21eca82b80a896357c688312731fff6c181d0ed70",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "atlantic-horseshoe-crab",
+      "num": 3,
+      "prompt": "Use case: scientific-educational. Asset: species cover. Naturalistic wildlife reconstruction, 1536x1024 landscape. One Limulus polyphemus Atlantic horseshoe crab walking on wet Atlantic beach sand in very shallow clear water, low three-quarter side view. Full domed rounded brown front carapace, hinged smaller spiny rear shield and ENTIRE long straight pointed telson visible, oriented diagonally front upper right tail lower left. Full subject only RIGHT x640..1460 y120..900 with generous real background margin. Quiet wet sandy shore left 40 percent. No threatening sting or crab pincers. Maximize complete animal within the stated bounds. Natural soft light, credible anatomy, no text, no labels, no watermark.",
+      "sourceSha256": "af685fe59db370204da953baa0c7066f51a47a854a0a025cf31888f0838fd81b",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "atlantic-horseshoe-crab",
+      "num": 4,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Three adult Atlantic horseshoe crabs Limulus polyphemus spaced apart on wet beach at high water edge, oblique wide natural shore scene. Rounded horseshoe front shields, smaller hinged rear shields, complete long straight tails. All whole subjects visible, no stacked malformed shells, no human hands. Natural shallow ripples, late spring coastal light. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "1f85724136f30eb5e3ed1d112f350622476d594c4e514dc3372bb27cd69f949b",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "atlantic-horseshoe-crab",
+      "num": 5,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Extreme macro educational reconstruction of a small cluster of tiny round olive green Limulus polyphemus horseshoe crab eggs nestled between moist beach sand grains, naturally irregular grouping in a shallow exposed section. Eggs smooth nearly spherical green semiopaque, no embryo eyes or faces, no adult. This is magnified depiction not real scale. Soft diffuse light. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "6ef31c0d166774ee11dd29f68cdc50f49589ac0ae1c1fec97e06bf6ea6b70df2",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "atlantic-horseshoe-crab",
+      "num": 6,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Single juvenile Atlantic horseshoe crab Limulus polyphemus walking in shallow clear water on muddy sand tidal flat. Full juvenile olive brown horseshoe shield and smaller rear segment with a developed thin straight tail completely visible. Dorsal oblique view, not newly hatched larva, not a trilobite fossil. Macro naturalistic reconstruction, gentle ripples. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "e490bc6145e1c2d4e1e5d4582d755838d25386168daad63e6a0a0ff9977258a9",
+      "sourceDimensions": "1536 1024"
+    }
+  ]
+}

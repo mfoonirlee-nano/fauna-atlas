@@ -4870,5 +4870,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1484,
       "bottom": 880
     }
+  },
+  "atlantic-horseshoe-crab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 844,
+      "top": 49,
+      "right": 1316,
+      "bottom": 992
+    }
   }
 };

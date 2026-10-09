@@ -4002,5 +4002,18 @@
       },
       "sha256": "e16e709fdfbf7aa9305db8c7984ce79ed82a93a4931b03a5a09c3605e6193854"
     }
+  },
+  "atlantic-horseshoe-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 844,
+        "top": 49,
+        "right": 1316,
+        "bottom": 992
+      },
+      "sha256": "68a56d40a9a0929682787da18309f293e1aa381765f87f0fb4b51115098524a9"
+    }
   }
 }
