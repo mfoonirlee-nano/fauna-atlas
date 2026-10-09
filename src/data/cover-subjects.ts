@@ -4931,5 +4931,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1450,
       "bottom": 908
     }
+  },
+  "sea-angel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 24,
+      "right": 1422,
+      "bottom": 950
+    }
   }
 };

@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration for species atlas cover. Subject: Clione limacina northern sea angel, translucent shell-less pelagic sea slug, elongated tapered gelatinous body, orange-red internal organs near head, two short head tentacles, exactly two broad translucent winglike parapodia. Scene: full body floating vertically, both wings spread, complete pointed tail and head appendages visible. Environment: cold North Atlantic open water, dark blue backdrop, macro underwater scientific reconstruction. Large full animal occupies right half, center x=73% width; entire silhouette within x=760..1460 and y=160..900 including every tip. Left 40% quiet negative space. Maximize subject inside those bounds, background clearance at every edge. Accurate taxon anatomy. No text, fake scale bars, watermark, collage, or anthropomorphic features.",
+      "sourceSha256": "6f82166f791a4309d889ffb202844612e4f692661d33e165f0621ef56d3352c4",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "6ba639f2b7d83fbc25fa9f5ed9b5d405b1af533610cf81e92dcbe53b8d92599f",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Clione limacina northern sea angel, translucent shell-less pelagic sea slug, elongated tapered gelatinous body, orange-red internal organs near head, two short head tentacles, exactly two broad translucent winglike parapodia. Specific scene: full body three-quarter view with two translucent winglike parapodia extended sideways. Environment: cold North Atlantic open water, dark blue backdrop, macro underwater scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "89980fa173f344c4adca48911c10aa229777f697fda9ffdb3e1439dfbe369e44",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "690fc42a3ce03674640294112e7bac52149518a9dd1711086fd60101eb3302c2",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Clione limacina northern sea angel, translucent shell-less pelagic sea slug, elongated tapered gelatinous body, orange-red internal organs near head, two short head tentacles, exactly two broad translucent winglike parapodia. Specific scene: side view of translucent body showing orange internal organs near head and tapered tail. Environment: cold North Atlantic open water, dark blue backdrop, macro underwater scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "6eb284dfe64957e2f624400dc3dec240c6dbc0c84616cb8627aa0ce9022ca2a7",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "a57964f9c5b9f7f875bb17da5d87bcb9800269ec2fbf7a4320a2724bbae44f94",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Clione limacina northern sea angel, translucent shell-less pelagic sea slug, elongated tapered gelatinous body, orange-red internal organs near head, two short head tentacles, exactly two broad translucent winglike parapodia. Specific scene: single full body with parapodia lifted upward in swimming posture, same species anatomy. Environment: cold North Atlantic open water, dark blue backdrop, macro underwater scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "c3861ec4d74a7721e26f90e39ca059f5f1190a74c127d2434c698e4e5d3cfbd1",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "dc6154963357b026cb321fa22ecbe56a817eeaa12935dec1f29c1a4b721adda0",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Clione limacina northern sea angel, translucent shell-less pelagic sea slug, elongated tapered gelatinous body, orange-red internal organs near head, two short head tentacles, exactly two broad translucent winglike parapodia. Specific scene: single full body with parapodia lowered downward in swimming posture, same species anatomy. Environment: cold North Atlantic open water, dark blue backdrop, macro underwater scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "0d786d6e46426d49a7ad9669c879ddaad94f5550f90e10c5d697d605fbc2da17",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "54b17c8f39f2527257f2d68be471173bf25513b03fa8835ec9ab7e71023478c2",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Clione limacina northern sea angel, translucent shell-less pelagic sea slug, elongated tapered gelatinous body, orange-red internal organs near head, two short head tentacles, exactly two broad translucent winglike parapodia. Specific scene: full body adult floating beside a small distant coiled-shell Limacina prey animal, no attack or gore, show shell-less adult contrasted to shelled prey. Environment: cold North Atlantic open water, dark blue backdrop, macro underwater scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "2324d782730646739355ccf2f00de99532b7da1669203014be75fb7218a0be0f",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "0b9384c472a5997b6a3404006b4e626bbd6140186bb8e8cfdb0fddb2846f6ef7",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}

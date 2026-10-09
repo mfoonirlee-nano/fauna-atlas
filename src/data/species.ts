@@ -136815,6 +136815,242 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "sea-angel",
+  "slug": "sea-angel",
+  "names": {
+    "zh": "裸海蝶",
+    "en": "Sea Angel"
+  },
+  "scientificName": "Clione limacina",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Mollusca",
+      "zhName": "软体动物门"
+    },
+    "class": {
+      "scientificName": "Gastropoda",
+      "zhName": "腹足纲"
+    },
+    "order": {
+      "scientificName": "Pteropoda",
+      "zhName": "翼足目"
+    },
+    "family": {
+      "scientificName": "Clionidae",
+      "zhName": "裸海蝶科"
+    },
+    "genus": {
+      "scientificName": "Clione",
+      "zhName": "裸海蝶属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "北冰洋与北大西洋冷水域"
+    ],
+    "countries": [],
+    "range": "本档案采用北冰洋及北大西洋冷水域的 Clione limacina；不将南极近缘种 Clione antarctica 或北太平洋近缘种的记录合并进来。"
+  },
+  "habitats": [
+    {
+      "name": "冷水海洋中上层",
+      "realm": "marine",
+      "description": "本档案采用北冰洋及北大西洋冷水域的 Clione limacina；不将南极近缘种 Clione antarctica 或北太平洋近缘种的记录合并进来。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "海蝶属等有壳翼足类"
+    ],
+    "description": "捕食有壳翼足类，例如 Limacina helicina；会用口部专门的结构抓住猎物。"
+  },
+  "tags": [
+    "裸海蝶",
+    "冷水海洋中上层"
+  ],
+  "summary": "裸海蝶用两侧透明的翼状附肢游泳，成体没有贝壳。",
+  "description": "找找身体两侧像小翅膀的翼足，再看透明身体里的橙红色部分。它是腹足类软体动物，成体已失去壳。图中的亮边来自模拟照明，不表示它会像灯泡一样发光。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "水里的小翅膀",
+      "body": "两侧的翼状附肢由足演化而来，摆动时帮助裸海蝶在水中游泳。它没有鸟类的羽毛。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "透明身体里的颜色",
+      "body": "透过体壁能看见部分内部结构，橙红色与体内色素有关。生成图不用于识别每一个器官。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "翼足向上",
+      "body": "这一幅展示翼足抬起的姿态。与下一幅一起观察上下方向，二者是独立重建的动作对照，不是真实连续帧。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "翼足向下",
+      "body": "这一幅展示翼足向下的姿态。配合自然视频看摆动，不能用两张生成图推算游泳速度或摆动频率。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "没有壳的捕食者",
+      "body": "成年裸海蝶没有壳，却会捕食有壳的海蝶。图中较小的螺旋壳动物用于食物关系示意，两者距离和大小不是实测值。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留在原处观察",
+      "body": "观看自然水下影像，不将冷水海洋动物带离栖息环境。 本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+    }
+  ],
+  "keyFacts": [
+    "裸海蝶用两侧透明的翼状附肢游泳，成体没有贝壳。",
+    "捕食有壳翼足类，例如 Limacina helicina；会用口部专门的结构抓住猎物。"
+  ],
+  "threats": [
+    "海洋环境变化可能影响翼足类及其食物关系；本次未核实本种全球趋势。"
+  ],
+  "conservationActions": [
+    "观看自然水下影像，不将冷水海洋动物带离栖息环境。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "冷水海洋中上层"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "水里的小翅膀"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "未评估",
+      "note": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/sea-angel/01-cover.webp",
+    "alt": "裸海蝶及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/sea-angel/02-observation.webp",
+        "title": "水里的小翅膀",
+        "alt": "裸海蝶：水里的小翅膀",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。两侧的翼状附肢由足演化而来，摆动时帮助裸海蝶在水中游泳。它没有鸟类的羽毛。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sea-angel/03-observation.webp",
+        "title": "透明身体里的颜色",
+        "alt": "裸海蝶：透明身体里的颜色",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。透过体壁能看见部分内部结构，橙红色与体内色素有关。生成图不用于识别每一个器官。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sea-angel/04-observation.webp",
+        "title": "翼足向上",
+        "alt": "裸海蝶：翼足向上",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。这一幅展示翼足抬起的姿态。与下一幅一起观察上下方向，二者是独立重建的动作对照，不是真实连续帧。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sea-angel/05-observation.webp",
+        "title": "翼足向下",
+        "alt": "裸海蝶：翼足向下",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。这一幅展示翼足向下的姿态。配合自然视频看摆动，不能用两张生成图推算游泳速度或摆动频率。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/sea-angel/06-observation.webp",
+        "title": "没有壳的捕食者",
+        "alt": "裸海蝶：没有壳的捕食者",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。成年裸海蝶没有壳，却会捕食有壳的海蝶。图中较小的螺旋壳动物用于食物关系示意，两者距离和大小不是实测值。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "太平洋水族馆：裸海蝶生物学",
+      "url": "https://www.aquariumofpacific.org/onlinelearningcenter/species/sea_angel",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：接受学名",
+      "url": "https://marinespecies.org/Berms/aphia.php?id=139178&p=taxdetails",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "NCBI：翼足类归属",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=71516&mode=Info",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 
