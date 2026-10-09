@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Desmodus rotundus (Common Vampire Bat). Anatomy: small grey-brown bat, short broad muzzle with low nasal pad, pointed ears, no external tail, reduced tail membrane, strong hindlegs, long clawed thumbs, dark membranous wings. Scene: natural cave floor in tropical America with wings folded. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "a905a7e12f9cb0074f2eaa63eb8267ba231c5090374ce4dd544a8c2dc59e3366",
+      "runtimeSha256": "ec8f6113b0bffb161be9f08e6123254a08365711a753b0ca545eb9e70fda7346",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Desmodus rotundus (Common Vampire Bat). Anatomy: small grey-brown bat, short broad muzzle with low nasal pad, pointed ears, no external tail, reduced tail membrane, strong hindlegs, long clawed thumbs, dark membranous wings. Scene: close portrait of short broad nose and ears, mouth closed. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "b7acc897e9ee6932b84c7ee994e5b1d2648d23e80c125d7193c474df5fe613a3",
+      "runtimeSha256": "dd4f13d627f8776d67fbf790afe93103766c9001d2bc058f4b3c8f918480d17e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Desmodus rotundus (Common Vampire Bat). Anatomy: small grey-brown bat, short broad muzzle with low nasal pad, pointed ears, no external tail, reduced tail membrane, strong hindlegs, long clawed thumbs, dark membranous wings. Scene: side view walking on cave floor on feet and folded wing thumbs. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "1ba7304305639fb494395636b98efcf46d344a16e5ded222d98c5e9459531a49",
+      "runtimeSha256": "53a694956987b055df48c4df13c5beba7f0a8c64a293a4140c69a591bab26a99",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Desmodus rotundus (Common Vampire Bat). Anatomy: small grey-brown bat, short broad muzzle with low nasal pad, pointed ears, no external tail, reduced tail membrane, strong hindlegs, long clawed thumbs, dark membranous wings. Scene: whole animal hanging calmly with folded wings. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "963372aec8d3e0d8851648d50626108b87e407154944151fec749af9959d9cb5",
+      "runtimeSha256": "d3faece87c1eb1dd6ad75bb4c0e6ab586db5662b29cc1f521bd0fc48fcd97148",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Desmodus rotundus (Common Vampire Bat). Anatomy: small grey-brown bat, short broad muzzle with low nasal pad, pointed ears, no external tail, reduced tail membrane, strong hindlegs, long clawed thumbs, dark membranous wings. Scene: one bat flying with both complete wing tips visible. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "726926ba3dc050c7d8f99de31809e4e545a991e739e16ef89044db5a512a059a",
+      "runtimeSha256": "f234768e911f21a4aa881bccb37368caa2ff8089409dac3f880623263234c24b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Desmodus rotundus (Common Vampire Bat). Anatomy: small grey-brown bat, short broad muzzle with low nasal pad, pointed ears, no external tail, reduced tail membrane, strong hindlegs, long clawed thumbs, dark membranous wings. Scene: small group of bats calmly roosting apart on cave wall, no wounds or blood. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "cbde1fc90f394de3463d50fb38dd2c9de0aa3cbce2904eadcb89707e2abc2684",
+      "runtimeSha256": "f492313ec25a54cd9402929be1e73f9925619359f2254b616ed898b640dfb6ad",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

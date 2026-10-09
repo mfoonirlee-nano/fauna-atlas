@@ -4275,5 +4275,18 @@
       },
       "sha256": "96251bfb77c4c41d95ad41ddc38dce3a213210e4d8d753bed4e9ba140cdbd0f8"
     }
+  },
+  "common-vampire-bat": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 115,
+        "right": 1480,
+        "bottom": 920
+      },
+      "sha256": "ec8f6113b0bffb161be9f08e6123254a08365711a753b0ca545eb9e70fda7346"
+    }
   }
 }

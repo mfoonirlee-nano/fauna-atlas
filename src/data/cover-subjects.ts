@@ -5081,5 +5081,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1300,
       "bottom": 985
     }
+  },
+  "common-vampire-bat": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 115,
+      "right": 1480,
+      "bottom": 920
+    }
   }
 };
