@@ -1,0 +1,115 @@
+{
+  "method": "built-in image_gen",
+  "images": [
+    {
+      "slug": "saccharomyces-cerevisiae",
+      "src": "./images/microbes/saccharomyces-cerevisiae/01-observation.webp",
+      "alt": "酿酒酵母：椭圆细胞与相连的小芽。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cde6982efc9966c297c673c9738ed6e7f03919a334d9620153af5182e681d459",
+      "bytes": 59516,
+      "review": "椭圆细胞与相连的小芽",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "streptococcus-thermophilus",
+      "src": "./images/microbes/streptococcus-thermophilus/01-observation.webp",
+      "alt": "嗜热链球菌：球形细胞组成的短链。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b069fe5695e0c82a86d1fcd84c0034343424893846a3dab7123ec23d473e8065",
+      "bytes": 68080,
+      "review": "球形细胞组成的短链",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "lactobacillus-delbrueckii",
+      "src": "./images/microbes/lactobacillus-delbrueckii/01-observation.webp",
+      "alt": "德氏乳杆菌：杆形细胞及短链，保加利亚亚种的简化形态。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a64ef3925036aa945e6515d44b22857cc674be9c1cf57013a5b50e8fdbae3a9f",
+      "bytes": 57364,
+      "review": "杆形细胞及短链，保加利亚亚种的简化形态",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "bifidobacterium-bifidum",
+      "src": "./images/microbes/bifidobacterium-bifidum/01-observation.webp",
+      "alt": "双歧双歧杆菌：Y 形、V 形和普通杆形细胞。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "eab341b4accd46b0eb5c488333e4f2fbef7c445e71ffaa78b1e46fc5dbb790eb",
+      "bytes": 80824,
+      "review": "Y 形、V 形和普通杆形细胞",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "escherichia-coli",
+      "src": "./images/microbes/escherichia-coli/01-observation.webp",
+      "alt": "大肠杆菌：圆端短杆细胞，不描绘菌株特异结构。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d5ed8d4babb35fcbfb2c6dacbc4b3cd2a5a3c720e6edde9bea38b10dd3ec027b",
+      "bytes": 70718,
+      "review": "圆端短杆细胞，不描绘菌株特异结构",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "salmonella-enterica",
+      "src": "./images/microbes/salmonella-enterica/01-observation.webp",
+      "alt": "肠道沙门菌：杆形细胞与分布在表面的细长鞭毛。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1adff56dad631f673af63b96b5d9e2893fbfc74e7f87be15ad12f56809e4dab1",
+      "bytes": 87598,
+      "review": "杆形细胞与分布在表面的细长鞭毛",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "streptococcus-mutans",
+      "src": "./images/microbes/streptococcus-mutans/01-observation.webp",
+      "alt": "变异链球菌：多串球形细胞链，不代表完整牙菌斑。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9279169313bfa69ba71298bb41e8e0c2cc2cb3678b037c80955ca011ab6d6f7e",
+      "bytes": 95122,
+      "review": "多串球形细胞链，不代表完整牙菌斑",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "giardia-duodenalis",
+      "src": "./images/microbes/giardia-duodenalis/01-observation.webp",
+      "alt": "蓝氏贾第鞭毛虫：梨形滋养体、两个细胞核与四对鞭毛。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0cb4e44d54b00f9afd612a4e3430715af506e97dd4ef80a314641ecbc037e492",
+      "bytes": 52246,
+      "review": "梨形滋养体、两个细胞核与四对鞭毛",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "paramecium-caudatum",
+      "src": "./images/microbes/paramecium-caudatum/01-observation.webp",
+      "alt": "大草履虫：长形细胞、周边短纤毛与口沟。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "df003f9aa2fc7993bc95f7ec9bdc3ca90be9bbfb1a8624b3440e1bdc69835918",
+      "bytes": 91790,
+      "review": "长形细胞、周边短纤毛与口沟",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    },
+    {
+      "slug": "euglena-gracilis",
+      "src": "./images/microbes/euglena-gracilis/01-observation.webp",
+      "alt": "眼虫：梭形细胞、绿色叶绿体、红色眼点与长鞭毛。AI 科学重建，配色示意，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5cd3ae17aa404c6ee2e38ad139539253150d79cbf2e5d41afb856e9fb099eb9a",
+      "bytes": 50164,
+      "review": "梭形细胞、绿色叶绿体、红色眼点与长鞭毛",
+      "limitations": "科学插图，不是真实显微照片；表面纹理、透明度、配色和模糊背景均为视觉重建，不用于辨认物种、菌株、真实尺寸或致病性。"
+    }
+  ]
+}

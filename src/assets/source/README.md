@@ -6,6 +6,8 @@ PNG inputs are temporary and ignored by Git. Existing PNG filenames and hashes i
 
 ## Image workflow
 
+非动物微生物专题的生成图与结构示意独立于动物图片集，详见[微生物图片记录](./microbes/README.md)。
+
 1. Generate or edit temporary `*-source.png` files under this directory. Inspect them before conversion.
 2. Run `npm run convert:webp -- <source.png>...` (requires `cwebp` and ImageMagick). It creates the matching path under `public/images/`, validates decoding and dimensions, and replaces the output only on success. TinyPNG via `npm run compress -- <source.png>...` is optional; WebP conversion does not need API credentials.
 3. Inspect the final WebP, record its SHA-256 and cover acceptance evidence, and run the relevant tests. Remove the temporary PNG after acceptance. Never repeatedly recompress an accepted WebP.

@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "saccharomyces-cerevisiae",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-4b8f9cdd-af19-4808-af15-33ca12fcc709.png"
+  },
+  {
+    "slug": "streptococcus-thermophilus",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-35e35584-77b2-4717-b638-bb813d12cd39.png"
+  },
+  {
+    "slug": "lactobacillus-delbrueckii",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-fa269114-9a04-410e-a0e6-8f52e49d92ba.png"
+  },
+  {
+    "slug": "bifidobacterium-bifidum",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-5b610e7d-dfe5-43ee-84ec-994fcf65f482.png"
+  },
+  {
+    "slug": "escherichia-coli",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-f409fa70-3da7-494d-8bb6-f8a9293e6181.png"
+  },
+  {
+    "slug": "salmonella-enterica",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-f1cfc81a-f53f-472f-8263-2b6fda05669f.png"
+  },
+  {
+    "slug": "streptococcus-mutans",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-ef30db02-5765-45a7-915c-25c41e7081af.png"
+  },
+  {
+    "slug": "giardia-duodenalis",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-4ed15caf-bd0d-4107-bc7b-8a12f0b82e63.png"
+  },
+  {
+    "slug": "paramecium-caudatum",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-63c67951-ac6a-4fcd-bca7-9098a0a44d2b.png"
+  },
+  {
+    "slug": "euglena-gracilis",
+    "sourcePath": "/Users/chris.li/.codex/generated_images/01a0cd98-f13a-7ad2-a4e5-140fc230fd6e/exec-33b3f968-a28b-4256-a5a3-bdc67e31f57b.png"
+  }
+]
