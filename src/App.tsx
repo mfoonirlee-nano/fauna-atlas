@@ -1404,6 +1404,7 @@ function App() {
         <nav className={`site-nav${mobileMenuOpen ? ' site-nav--open' : ''}`} aria-label="主导航">
           <a href="#taxonomy" onClick={onNavClick}>分类图谱</a>
           <a href="#atlas" onClick={onNavClick}>探索图鉴</a>
+          <a href="#microbes" onClick={onNavClick}>微生物专题</a>
           <a href="#mission" onClick={onNavClick}>我们为何记录</a>
           <a href="#about" onClick={onNavClick}>关于项目</a>
           <span className="site-nav__edition">简体中文 · CN</span>

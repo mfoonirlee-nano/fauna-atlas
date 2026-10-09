@@ -1,5 +1,8 @@
 @layer reset, base, components, layout, responsive;
 
+.page-notice { padding: 48px 24px; max-width: 760px; margin: auto; line-height: 2; }
+.page-notice a, .page-notice button { color: var(--forest); margin-right: 20px; }
+
 @layer reset {
   *,
   *::before,

@@ -10,6 +10,39 @@ const deploymentPath = '/__fauna_atlas__/';
 // A standalone extension used to restore compact filenames is not an asset URL.
 const imageReferencePattern = /(["'`])((?!https?:\/\/|data:)[^"'`\s<>]+?\.(?:avif|gif|ico|jpe?g|png|svg|webp)(?:[?#][^"'`\s<>]*)?)\1/gi;
 
+test('animal and microbe pages remain separate lazy entries under a deployment subpath', async () => {
+  const manifest = JSON.parse(await readFile(join(distDirectory, '.vite/manifest.json'), 'utf8'));
+  const animals = 'src/App.tsx';
+  const microbes = 'src/topics/microbes/MicrobesPage.tsx';
+  function importsFor(key, visited = new Set()) {
+    if (visited.has(key)) return visited;
+    visited.add(key);
+    for (const dependency of manifest[key].imports ?? []) importsFor(dependency, visited);
+    return visited;
+  }
+  assert.ok(manifest[animals]?.isDynamicEntry);
+  assert.ok(manifest[microbes]?.isDynamicEntry);
+  assert.ok(!importsFor('index.html').has(animals));
+  assert.ok(!importsFor('index.html').has(microbes));
+  assert.ok(!importsFor(microbes).has(animals));
+  assert.ok(!importsFor(animals).has(microbes));
+  // Lazy routing must preserve the existing budgets for each page's own load.
+  for (const page of [animals, microbes]) {
+    let bytes = 0;
+    for (const key of importsFor(page)) {
+      const size = (await readFile(join(distDirectory, manifest[key].file))).byteLength;
+      assert.ok(size < 350_000, `${key} exceeds the individual JS budget: ${size}`);
+      bytes += size;
+    }
+    assert.ok(bytes < 550_000, `${page} exceeds the page JS budget: ${bytes}`);
+  }
+  const topicCode = await readFile(join(distDirectory, manifest[microbes].file), 'utf8');
+  assert.ok(!topicCode.includes('images/species/'));
+  const subpathUrl = new URL(`${deploymentPath}#microbes`, 'https://atlas.test');
+  assert.equal(subpathUrl.pathname, deploymentPath);
+  assert.equal(subpathUrl.hash, '#microbes');
+});
+
 async function listBuildFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = await Promise.all(
