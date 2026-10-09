@@ -140883,6 +140883,249 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "greater-bulldog-bat",
+  "slug": "greater-bulldog-bat",
+  "names": {
+    "zh": "大兔唇蝠",
+    "en": "Greater Bulldog Bat"
+  },
+  "scientificName": "Noctilio leporinus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Chiroptera",
+      "zhName": "翼手目"
+    },
+    "family": {
+      "scientificName": "Noctilionidae",
+      "zhName": "兔唇蝠科"
+    },
+    "genus": {
+      "scientificName": "Noctilio",
+      "zhName": "兔唇蝠属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "美洲热带水域附近"
+    ],
+    "countries": [
+      "墨西哥",
+      "巴西",
+      "阿根廷"
+    ],
+    "range": "美洲热带水域附近。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "河岸与树洞",
+      "realm": "terrestrial",
+      "description": "它在水面上方飞行，用回声定位探查水面扰动，后脚可伸入水中抓取小鱼。大脚与尾膜的姿态可以从图中观察，捕获动作需要连续自然影像。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "piscivore",
+      "insectivore"
+    ],
+    "foods": [
+      "小鱼",
+      "昆虫",
+      "小型甲壳动物"
+    ],
+    "description": "它摄食鱼，也取食昆虫和小型甲壳动物，不同地点与季节的比例会变化。没有把一项地点研究中的摄食比例写成整个物种的固定食谱。"
+  },
+  "tags": [
+    "大兔唇蝠",
+    "河岸与树洞"
+  ],
+  "summary": "用后脚钩爪捕鱼。",
+  "description": "大兔唇蝠的上唇有分开的皱褶，耳朵长而尖，后腿和后脚的钩爪突出。雄性的背毛可呈橙褐色，雌性常较灰褐；本批图像以雄性外形重建。它在水面上方飞行，用回声定位探查水面扰动，后脚可伸入水中抓取小鱼。大脚与尾膜的姿态可以从图中观察，捕获动作需要连续自然影像。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "分开的上唇",
+      "body": "大兔唇蝠的上唇有分开的皱褶，耳朵长而尖，后腿和后脚的钩爪突出。雄性的背毛可呈橙褐色，雌性常较灰褐；本批图像以雄性外形重建。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它在水面上方飞行，用回声定位探查水面扰动，后脚可伸入水中抓取小鱼。大脚与尾膜的姿态可以从图中观察，捕获动作需要连续自然影像。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它摄食鱼，也取食昆虫和小型甲壳动物，不同地点与季节的比例会变化。没有把一项地点研究中的摄食比例写成整个物种的固定食谱。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它胎生并哺乳，白天可利用洞穴、岩隙和树洞栖息。本批没有采用旧资料中的固定繁殖月份，照片式重建也不证明双亲育幼的程度。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种属于兔唇蝠科，与普通吸血蝠和猪鼻蝠分别建立科级归属。所有图均为 AI 重建；画面中的水面高度和身体比例不供测量。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护河岸与树洞及其自然隐蔽空间。共读时先观察图中的分开的上唇，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "雄性外形重建，放大观察嘴唇皱褶和长耳。",
+    "后脚是水面捕食的重要结构，图中不展示人为诱发捕食。",
+    "后脚下降的姿态示意，静态图无法证明捕获成功。",
+    "自然栖息环境重建，不代表所有群体都住树洞。",
+    "整个动物留在画面内；连续影像才能解释脚入水与离水的过程。",
+    "本种属于兔唇蝠科，与普通吸血蝠和猪鼻蝠分别建立科级归属。所有图均为 AI 重建；画面中的水面高度和身体比例不供测量。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "群栖点干扰",
+    "水边栖息环境改变"
+  ],
+  "conservationActions": [
+    "保护河岸与树洞与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "河岸与树洞"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "分开的上唇"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/greater-bulldog-bat/01-cover.webp",
+    "alt": "大兔唇蝠及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/greater-bulldog-bat/02-observation.webp",
+        "title": "分开的上唇",
+        "alt": "大兔唇蝠：分开的上唇，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雄性外形重建，放大观察嘴唇皱褶和长耳。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/greater-bulldog-bat/03-observation.webp",
+        "title": "后脚的大钩爪",
+        "alt": "大兔唇蝠：后脚的大钩爪，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。后脚是水面捕食的重要结构，图中不展示人为诱发捕食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/greater-bulldog-bat/04-observation.webp",
+        "title": "水面上方",
+        "alt": "大兔唇蝠：水面上方，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。后脚下降的姿态示意，静态图无法证明捕获成功。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/greater-bulldog-bat/05-observation.webp",
+        "title": "树洞旁的栖息姿态",
+        "alt": "大兔唇蝠：树洞旁的栖息姿态，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。自然栖息环境重建，不代表所有群体都住树洞。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/greater-bulldog-bat/06-observation.webp",
+        "title": "飞行时的脚和尾膜",
+        "alt": "大兔唇蝠：飞行时的脚和尾膜，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。整个动物留在画面内；连续影像才能解释脚入水与离水的过程。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/2433343",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "密歇根大学 ADW：大兔唇蝠",
+      "url": "https://animaldiversity.org/accounts/Noctilio_leporinus/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];

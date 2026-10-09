@@ -750,3 +750,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [塞拉亚跗猴 image set](./species/selayar-tarsier/README.md)
 - [普通吸血蝠 image set](./species/common-vampire-bat/README.md)
 - [猪鼻蝠 image set](./species/kittis-hog-nosed-bat/README.md)
+- [大兔唇蝠 image set](./species/greater-bulldog-bat/README.md)

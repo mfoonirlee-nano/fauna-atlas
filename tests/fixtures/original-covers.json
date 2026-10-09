@@ -4301,5 +4301,18 @@
       },
       "sha256": "a7471062200452f6894eab1495e16e9fa60222969d82f69ddc729796cb47f75f"
     }
+  },
+  "greater-bulldog-bat": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 25,
+        "right": 1370,
+        "bottom": 895
+      },
+      "sha256": "30ab83c66e25fd16303a7cf9b2f378d53ada6f7920b3b0fe9d99571c075f2770"
+    }
   }
 }

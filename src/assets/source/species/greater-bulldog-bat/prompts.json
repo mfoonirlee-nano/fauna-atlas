@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Noctilio leporinus (Greater Bulldog Bat). Anatomy: male bat with short orange-brown fur, hare-like divided upper lip, no nose leaf, long pointed separated ears, narrow membranous wings, long hindlegs and very large curved hindfoot claws, tail membrane with short free tail tip. Scene: tropical American riverbank branch at dusk with wings folded and feet visible. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "0353e72b0e919cef09ecc8415e4539d0931f67eac02eb677e6afcbfda3c45018",
+      "runtimeSha256": "30ab83c66e25fd16303a7cf9b2f378d53ada6f7920b3b0fe9d99571c075f2770",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Noctilio leporinus (Greater Bulldog Bat). Anatomy: male bat with short orange-brown fur, hare-like divided upper lip, no nose leaf, long pointed separated ears, narrow membranous wings, long hindlegs and very large curved hindfoot claws, tail membrane with short free tail tip. Scene: close portrait of divided upper lip and pointed ears. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "ea1cafc0d0d29c636a7d76c4c08891acc4e955a6e4945874d140794e5f41821f",
+      "runtimeSha256": "c5323b57e1a03fef311838b218c6b422e29409b6a6ec3ebf5a2cf8ff52e59da3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Noctilio leporinus (Greater Bulldog Bat). Anatomy: male bat with short orange-brown fur, hare-like divided upper lip, no nose leaf, long pointed separated ears, narrow membranous wings, long hindlegs and very large curved hindfoot claws, tail membrane with short free tail tip. Scene: large hindfeet and hooked claws on a branch. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "1305e1e405e5d3197d0f3ca70892ec527e20cc427a2f412bd4e20b89e6392dcf",
+      "runtimeSha256": "1ca629a269b40baa9df5c90f7f0fad97023f4ab664af1e96f8c60ad18a21fa66",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Noctilio leporinus (Greater Bulldog Bat). Anatomy: male bat with short orange-brown fur, hare-like divided upper lip, no nose leaf, long pointed separated ears, narrow membranous wings, long hindlegs and very large curved hindfoot claws, tail membrane with short free tail tip. Scene: one complete flying bat skimming above calm river, feet lowered without fish. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "f3e1e96ddc55758443ca3dccd47f6525742169c0031e8ec078498824237799e1",
+      "runtimeSha256": "12f72b6f4eff70fde6bc8e31e7c8f18bb4fa5c7834c60b9d614f3b6bffa84ba5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Noctilio leporinus (Greater Bulldog Bat). Anatomy: male bat with short orange-brown fur, hare-like divided upper lip, no nose leaf, long pointed separated ears, narrow membranous wings, long hindlegs and very large curved hindfoot claws, tail membrane with short free tail tip. Scene: whole bat hanging at a natural hollow tree entrance. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "dae1d6d249bce6531e0dcbfb089db9095c3c410ebc6208910c524cd96b5520f3",
+      "runtimeSha256": "1324943a356e5cd166c117c6b0d6651b1e7f0f11dd646f0914d74bec77ed758b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Noctilio leporinus (Greater Bulldog Bat). Anatomy: male bat with short orange-brown fur, hare-like divided upper lip, no nose leaf, long pointed separated ears, narrow membranous wings, long hindlegs and very large curved hindfoot claws, tail membrane with short free tail tip. Scene: one flying bat over water in side view, all wing tips and feet visible. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "051262c920c6a5d3777a07e3e2ecc9bf4f5ff3cda9369a12d4eca1ba781b4a0e",
+      "runtimeSha256": "061126e6e730629efaa1f0671d4f9b8edb801f96abfd8d22bb98e40d8ee8e80f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

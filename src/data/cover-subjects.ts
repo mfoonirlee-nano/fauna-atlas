@@ -5101,5 +5101,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1360,
       "bottom": 795
     }
+  },
+  "greater-bulldog-bat": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 25,
+      "right": 1370,
+      "bottom": 895
+    }
   }
 };
