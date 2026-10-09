@@ -136083,6 +136083,235 @@ export const species = [
   "updatedAt": "2026-10-08"
 },
 
+
+{
+  "id": "regal-jumping-spider",
+  "slug": "regal-jumping-spider",
+  "names": {
+    "zh": "跳蛛",
+    "en": "Regal Jumping Spider"
+  },
+  "scientificName": "Phidippus regius",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Arachnida",
+      "zhName": "蛛形纲"
+    },
+    "order": {
+      "scientificName": "Araneae",
+      "zhName": "蜘蛛目"
+    },
+    "family": {
+      "scientificName": "Salticidae",
+      "zhName": "跳蛛科"
+    },
+    "genus": {
+      "scientificName": "Phidippus",
+      "zhName": "菲跳蛛属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "美国东南部与加勒比岛屿"
+    ],
+    "countries": [],
+    "range": "分布于美国东南部、大安的列斯群岛和巴哈马；佛罗里达半岛常见。成体常在灌木、棕榈和树干表面活动。"
+  },
+  "habitats": [
+    {
+      "name": "草地与开阔林地",
+      "realm": "terrestrial",
+      "description": "分布于美国东南部、大安的列斯群岛和巴哈马；佛罗里达半岛常见。成体常在灌木、棕榈和树干表面活动。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "其他小型节肢动物"
+    ],
+    "description": "依靠视觉寻找并跳向猎物，取食昆虫等节肢动物。"
+  },
+  "tags": [
+    "跳蛛",
+    "草地与开阔林地"
+  ],
+  "summary": "跳蛛用朝前的大眼睛寻找猎物，再跳过去捕捉。",
+  "description": "这里的跳蛛指 Phidippus regius，不能代表整个跳蛛科。先在微距图中找两只大眼睛，再看头前短短的触肢。封面为黑白色成年雄蛛，末张观察图为橙褐色成年雌蛛的一种色型。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "朝前的大眼睛",
+      "body": "前方中央的一对眼睛比旁边的眼睛大，帮助跳蛛观察猎物。近图中的绿色螯肢位于眼睛下方。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "跳跃时带着丝线",
+      "body": "跳蛛移动时可在身后留下安全丝，跳跃失足时丝线能起保护作用。这张图展示起跳前的姿态。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "从上方看身体",
+      "body": "头胸部与腹部之间有细腰，足连在头胸部。雄蛛腹部有白色斑纹；图中纹样为重建，不能据此鉴定近似种。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "丝做的休息处",
+      "body": "跳蛛会用丝建造休息、蜕皮或产卵的巢。找到叶片间的开口，从外面观察，不拆开丝巢。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "雌蛛也有多种颜色",
+      "body": "本图表现橙褐色成年雌蛛。雌蛛也可能呈灰、褐或其他色型，不能把橙色当作所有雌蛛的固定颜色。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "留在原处观察",
+      "body": "用照片或自然观察认识跳蛛，不抓握、刺激它跳跃。 本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+    }
+  ],
+  "keyFacts": [
+    "跳蛛用朝前的大眼睛寻找猎物，再跳过去捕捉。",
+    "依靠视觉寻找并跳向猎物，取食昆虫等节肢动物。"
+  ],
+  "threats": [
+    "栖息地改变和不当用药可能影响当地节肢动物；未据此推断本种全球趋势。"
+  ],
+  "conservationActions": [
+    "用照片或自然观察认识跳蛛，不抓握、刺激它跳跃。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "value": "草地与开阔林地"
+    },
+    {
+      "key": "observation",
+      "label": "观察提示",
+      "value": "朝前的大眼睛"
+    },
+    {
+      "key": "status",
+      "label": "全球保护等级",
+      "value": "未评估",
+      "note": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/regal-jumping-spider/01-cover.webp",
+    "alt": "跳蛛及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/regal-jumping-spider/02-observation.webp",
+        "title": "朝前的大眼睛",
+        "alt": "跳蛛：朝前的大眼睛",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。前方中央的一对眼睛比旁边的眼睛大，帮助跳蛛观察猎物。近图中的绿色螯肢位于眼睛下方。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/regal-jumping-spider/03-observation.webp",
+        "title": "跳跃时带着丝线",
+        "alt": "跳蛛：跳跃时带着丝线",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。跳蛛移动时可在身后留下安全丝，跳跃失足时丝线能起保护作用。这张图展示起跳前的姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/regal-jumping-spider/04-observation.webp",
+        "title": "从上方看身体",
+        "alt": "跳蛛：从上方看身体",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。头胸部与腹部之间有细腰，足连在头胸部。雄蛛腹部有白色斑纹；图中纹样为重建，不能据此鉴定近似种。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/regal-jumping-spider/05-observation.webp",
+        "title": "丝做的休息处",
+        "alt": "跳蛛：丝做的休息处",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。跳蛛会用丝建造休息、蜕皮或产卵的巢。找到叶片间的开口，从外面观察，不拆开丝巢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/regal-jumping-spider/06-observation.webp",
+        "title": "雌蛛也有多种颜色",
+        "alt": "跳蛛：雌蛛也有多种颜色",
+        "caption": "AI 生成科学情景重建。放大展示，非实测比例。本图表现橙褐色成年雌蛛。雌蛛也可能呈灰、褐或其他色型，不能把橙色当作所有雌蛛的固定颜色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "UF/IFAS：形态、分布与生活史",
+      "url": "https://ask.ifas.ufl.edu/publication/IN309",
+      "kind": "general",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

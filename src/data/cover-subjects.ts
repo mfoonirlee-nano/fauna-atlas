@@ -4901,5 +4901,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1529,
       "bottom": 868
     }
+  },
+  "regal-jumping-spider": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 616,
+      "top": 145,
+      "right": 1488,
+      "bottom": 867
+    }
   }
 };

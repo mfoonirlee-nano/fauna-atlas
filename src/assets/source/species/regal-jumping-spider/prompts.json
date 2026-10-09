@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Use case: scientific-educational. Generate ONE landscape 1536x1024 naturalistic wildlife illustration for a species atlas cover: adult male regal jumping spider Phidippus regius, black hairy body with white markings, iridescent green chelicerae, two large forward-facing eyes and smaller eyes, anatomically correct eight legs and two short pedipalps, on a sunlit twig in Florida scrub. Entire spider and every leg tip visible, large subject occupies right half, silhouette bounds roughly x=800..1450 y=220..850; center beyond 60% width. Left 40% quiet softly blurred green habitat. Real background clearance all edges. No text, no scale bar, no watermark. Not a collage.",
+      "sourceSha256": "1db345a47f060524684b273fb1de9ec118e91b23968063bd96701d9245f6be4e",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "77ae0141252836833fa49ddb4d29132026cfe4f8de5a3b353c46333a30f9d63a",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: adult male regal jumping spider Phidippus regius, black hairy body with white patches, iridescent green chelicerae, large forward facing principal eyes, eight legs and two short pedipalps. Specific scene: front three-quarter close view of two large forward-facing eyes; retain body and natural leg connections. Environment: a twig in Florida scrub with softly blurred green background. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "df141b762d3776abbf069550e581aa05c8b344a301276954d861368e78a4bffe",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "c716395202b104c1dcf629a978a604cf03ad86447f5c8c31bbce5e1babe6adad",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: adult male regal jumping spider Phidippus regius, black hairy body with white patches, iridescent green chelicerae, large forward facing principal eyes, eight legs and two short pedipalps. Specific scene: side view standing on leaf preparing to jump, silk safety line visible behind abdomen; only one spider. Environment: a twig in Florida scrub with softly blurred green background. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "0fa9fdc9030e8db10365bac835890cecb59c91049e153dc9a60e2d470783cf49",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "90f08b879be9df7b933017b08160bbbd09a85d773fc4170bfdd6d17de2e36ae6",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: adult male regal jumping spider Phidippus regius, black hairy body with white patches, iridescent green chelicerae, large forward facing principal eyes, eight legs and two short pedipalps. Specific scene: dorsal view of white marks on black hairy abdomen on pale bark. Environment: a twig in Florida scrub with softly blurred green background. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "23a99dcb3d462119dcdf565a06812251839bc63485a3b2c3e1e32212502fbd7b",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "435e0ab7a12afc9b792f5579784f0d815a1f78fe7e5467f775d508a33fbfeabc",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: adult male regal jumping spider Phidippus regius, black hairy body with white patches, iridescent green chelicerae, large forward facing principal eyes, eight legs and two short pedipalps. Specific scene: silken resting retreat between two leaves with spider visible at entrance. Environment: a twig in Florida scrub with softly blurred green background. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "9fa8636d4946aabd5177596489af202e39f6b4f5eedbf71894bc6e29b32be619",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "f46a1f7729e545bd554d66f0ab8077ae35b72632b9b4d84039676f15344e2a40",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: adult FEMALE Phidippus regius, orange-brown and cream hairy jumping spider with eight legs and two short pedipalps; no male black color. Specific scene: adult female brown-orange and cream regal jumping spider on a broad leaf, full body, clearly different from black and white male. Environment: a twig in Florida scrub with softly blurred green background. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "549eb5f504157b366114c34733ddb2866cce7dec4278ce825ea9745052163149",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "5ab823ea0cf09a660f27a4f7bc412b5f2bdaf463572a027768137133e0b28a5f",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}

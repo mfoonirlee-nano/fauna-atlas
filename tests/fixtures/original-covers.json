@@ -4041,5 +4041,18 @@
       },
       "sha256": "52fe830850ab0b88891b3f5c66d7afc56c550dcb421f50ce09fc5fff72dc5fb8"
     }
+  },
+  "regal-jumping-spider": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 616,
+        "top": 145,
+        "right": 1488,
+        "bottom": 867
+      },
+      "sha256": "77ae0141252836833fa49ddb4d29132026cfe4f8de5a3b353c46333a30f9d63a"
+    }
   }
 }
