@@ -4431,5 +4431,18 @@
       },
       "sha256": "8a6e58d63841f5ef12807c378b4d4b98b3a3e443c1398275e8fb8894ef3a4ac2"
     }
+  },
+  "greater-honeyguide": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 895,
+        "top": 60,
+        "right": 1350,
+        "bottom": 925
+      },
+      "sha256": "d292fb4ca285b3452fc661d0fcf8255154573a6f01188c865b33257cfd5c4a89"
+    }
   }
 }

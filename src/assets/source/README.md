@@ -760,3 +760,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [暴风海燕 image set](./species/european-storm-petrel/README.md)
 - [普通鹈燕 image set](./species/common-diving-petrel/README.md)
 - [橙脚冢雉 image set](./species/orange-footed-scrubfowl/README.md)
+
+- [大响蜜鴷 image set](./species/greater-honeyguide/README.md)

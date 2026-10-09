@@ -5201,5 +5201,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1445,
       "bottom": 905
     }
+  },
+  "greater-honeyguide": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 895,
+      "top": 60,
+      "right": 1350,
+      "bottom": 925
+    }
   }
 };

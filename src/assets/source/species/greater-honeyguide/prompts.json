@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Create one landscape 1536x1024 photorealistic scientific reconstruction of a single adult male greater honeyguide Indicator indicator perched on a horizontal branch in sub-Saharan dry woodland. Brown-grey body, black throat patch, pinkish stout short bill, white outer tail feathers visible with folded tail, no exaggerated plumage. Full bird including bill, feet and tail visible. Primary bird occupies right side with silhouette centered at 70% image width, large subject within right 60%, quiet softly blurred woodland left 40%. Real background clearance around every body part. Warm natural light. No text, no borders, no watermark. This is the cover for a children's species atlas.",
+      "sourceSha256": "2d32dcaeb494f56ea225f8c38aa1e0313d66dfdc0ae724647219b005d4eca1cc",
+      "runtimeSha256": "d292fb4ca285b3452fc661d0fcf8255154573a6f01188c865b33257cfd5c4a89",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Indicator indicator (Greater Honeyguide). Anatomy: adult male, grey-brown back, pale breast, black throat, pink stout bill, white outer tail feathers. Scene: close view of white outer tail feathers gently fanned. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "cbac4016e90ea6f222544d8cfcac7eaace77d703e7fa2276401f9aeba8560bbc",
+      "runtimeSha256": "790f342c0eecae1a1db667de761116230ddf7cf1819845158d4d7763a8e462f7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Indicator indicator (Greater Honeyguide). Anatomy: adult male, grey-brown back, pale breast, black throat, pink stout bill, white outer tail feathers. Scene: male perched beside old exposed beeswax, no human or bee disturbance. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "6fe754e39f1cf8b153dd7edbce825a5e8845fa180e043eaf98c33fd47ee4906d",
+      "runtimeSha256": "90a65f953c0e6dc5d2c9338da6e3c377ad236fd8b23c33b501885d76d29a0acc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Indicator indicator (Greater Honeyguide). Anatomy: adult male, grey-brown back, pale breast, black throat, pink stout bill, white outer tail feathers. Scene: adult female grey-brown without black throat perched on twig. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "a76b10eb75e72afb4bf94c7b5aaf4a3f5ba269c8e9d1d335ef769aa04e403707",
+      "runtimeSha256": "316fb2db42154a9f12d1a9a1d57359693fba554ea9bdbdd0123f810933c0c4c9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Indicator indicator (Greater Honeyguide). Anatomy: adult male, grey-brown back, pale breast, black throat, pink stout bill, white outer tail feathers. Scene: male in flight with all wings visible over woodland. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "b9a3536e3ac27ac419a26ffc62137b205a7513c930eebcfd50aaac29231cf428",
+      "runtimeSha256": "4dfaf7cb5aa0b7946194e55c55d3b217a7e3dbe2bc0077190a1a6621dd932690",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Indicator indicator (Greater Honeyguide). Anatomy: adult male, grey-brown back, pale breast, black throat, pink stout bill, white outer tail feathers. Scene: male resting on a branch near a natural tree cavity. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "667377e6b3867cd1f7063936142218e118919f0fe9ebe5ca3b0d07949c2c06a8",
+      "runtimeSha256": "fd0036896ae332c453022b466197515958105f6e90b4613b81e94d536a55b6d3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
