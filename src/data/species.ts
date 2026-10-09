@@ -141375,6 +141375,254 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "saola",
+  "slug": "saola",
+  "names": {
+    "zh": "中南大羚",
+    "en": "Saola",
+    "aliases": [
+      "武广牛",
+      "索拉羚"
+    ]
+  },
+  "scientificName": "Pseudoryx nghetinhensis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Artiodactyla",
+      "zhName": "偶蹄目"
+    },
+    "family": {
+      "scientificName": "Bovidae",
+      "zhName": "牛科"
+    },
+    "genus": {
+      "scientificName": "Pseudoryx",
+      "zhName": "中南大羚属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "越南与老挝安南山脉"
+    ],
+    "countries": [
+      "越南",
+      "老挝"
+    ],
+    "range": "越南与老挝安南山脉。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "湿润常绿林",
+      "realm": "terrestrial",
+      "description": "它生活在安南山脉的湿润常绿林，真实野外记录很少。相机陷阱、早期短期圈养资料和遗存提供了研究线索，本批没有编造固定群体大小、奔跑速度或迁移路线。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "森林植物的叶片"
+    ],
+    "description": "它摄取植物性食物。植物旁的重建图供观察头角与环境，不代表已记录某一种植物的野外摄食比例。"
+  },
+  "tags": [
+    "中南大羚",
+    "湿润常绿林"
+  ],
+  "summary": "长角、白脸纹的牛科动物。",
+  "description": "中南大羚有两根细长、近乎平行的角，褐色身体上带白色面部斑纹和腿部标记。雌雄都可有角，学名为 Pseudoryx nghetinhensis，属于牛科。它生活在安南山脉的湿润常绿林，真实野外记录很少。相机陷阱、早期短期圈养资料和遗存提供了研究线索，本批没有编造固定群体大小、奔跑速度或迁移路线。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "两根长角和白脸纹",
+      "body": "中南大羚有两根细长、近乎平行的角，褐色身体上带白色面部斑纹和腿部标记。雌雄都可有角，学名为 Pseudoryx nghetinhensis，属于牛科。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它生活在安南山脉的湿润常绿林，真实野外记录很少。相机陷阱、早期短期圈养资料和遗存提供了研究线索，本批没有编造固定群体大小、奔跑速度或迁移路线。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它摄取植物性食物。植物旁的重建图供观察头角与环境，不代表已记录某一种植物的野外摄食比例。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "关于繁殖和育幼的资料有限，本批只说明它属于胎生并哺乳的哺乳动物，没有用通用羚羊模板填充幼仔数量、妊娠期或季节。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "项目使用“中南大羚”展示名，并保留“武广牛”和“索拉羚”搜索别名。WWF 描述其高度濒危；本批没有核实当前全球物种级评估的年份，保护字段按项目 NE 占位，绝不表示本种安全或实际未受评估。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护湿润常绿林及其自然隐蔽空间。共读时先观察图中的两根长角和白脸纹，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "AI 形态重建；两根角并存，不画成独角。",
+    "情景重建，不能当作新的野外照片或活动证据。",
+    "完整角尖可见，斑纹与角长不供测量或个体识别。",
+    "环境示意，未确认画中植物为本种特定食物。",
+    "重建位置不代表实测饮水点或固定行动路线。",
+    "项目使用“中南大羚”展示名，并保留“武广牛”和“索拉羚”搜索别名。WWF 描述其高度濒危；本批没有核实当前全球物种级评估的年份，保护字段按项目 NE 占位，绝不表示本种安全或实际未受评估。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "钢丝套索捕猎",
+    "森林栖息地改变"
+  ],
+  "conservationActions": [
+    "保护湿润常绿林与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "湿润常绿林"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "两根长角和白脸纹"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/saola/01-cover.webp",
+    "alt": "中南大羚及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/saola/02-observation.webp",
+        "title": "两根长角和白脸纹",
+        "alt": "中南大羚：两根长角和白脸纹，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。AI 形态重建；两根角并存，不画成独角。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/saola/03-observation.webp",
+        "title": "森林中的身体轮廓",
+        "alt": "中南大羚：森林中的身体轮廓，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。情景重建，不能当作新的野外照片或活动证据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/saola/04-observation.webp",
+        "title": "沿着角看到尖端",
+        "alt": "中南大羚：沿着角看到尖端，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整角尖可见，斑纹与角长不供测量或个体识别。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/saola/05-observation.webp",
+        "title": "常绿林的植被",
+        "alt": "中南大羚：常绿林的植被，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。环境示意，未确认画中植物为本种特定食物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/saola/06-observation.webp",
+        "title": "林间溪流旁",
+        "alt": "中南大羚：林间溪流旁，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。重建位置不代表实测饮水点或固定行动路线。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/4262655",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "密歇根大学 ADW：中南大羚",
+      "url": "https://animaldiversity.org/accounts/Pseudoryx_nghetinhensis/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WWF：中南大羚的形态、范围与保护",
+      "url": "https://www.worldwildlife.org/species/saola/",
+      "kind": "conservation",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];

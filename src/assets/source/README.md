@@ -752,3 +752,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [猪鼻蝠 image set](./species/kittis-hog-nosed-bat/README.md)
 - [大兔唇蝠 image set](./species/greater-bulldog-bat/README.md)
 - [巨獭鼩 image set](./species/giant-otter-shrew/README.md)
+- [中南大羚 image set](./species/saola/README.md)

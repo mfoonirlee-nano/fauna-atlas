@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pseudoryx nghetinhensis (Saola). Anatomy: brown slender bovid with white facial stripes and patches, two long nearly straight parallel black horns curving gently backward, dark dorsal stripe, pale lower leg markings, cloven hooves and short tail; never unicorn. Scene: Annamite wet evergreen forest, cautious standing pose. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "450fe305e7f4958c78126e81050b078aa3f2319fa555279ae8ee44b2a61fbf89",
+      "runtimeSha256": "fb910b270813e11280c70bf31251195e619db48f47f5d803e37044f856c494f9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pseudoryx nghetinhensis (Saola). Anatomy: brown slender bovid with white facial stripes and patches, two long nearly straight parallel black horns curving gently backward, dark dorsal stripe, pale lower leg markings, cloven hooves and short tail; never unicorn. Scene: head portrait with both horns and white face markings. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "07d182447a65554ed20ed0a36cff5ed21e93483c4f98b6b60b0c06b17313cafe",
+      "runtimeSha256": "394064a76f496c49ec829574baf41a8524420d60d1c6eddf104b60f07d65a8ef",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pseudoryx nghetinhensis (Saola). Anatomy: brown slender bovid with white facial stripes and patches, two long nearly straight parallel black horns curving gently backward, dark dorsal stripe, pale lower leg markings, cloven hooves and short tail; never unicorn. Scene: whole animal side view among ferns. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "e674f95037735af925383248474f3e3f3707061a9d64e777cc12d675e1f74a8f",
+      "runtimeSha256": "09318267ad808ec09c7b9c5f974400d0058d6b9eb20940496ca2ddf57ba9b3dd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pseudoryx nghetinhensis (Saola). Anatomy: brown slender bovid with white facial stripes and patches, two long nearly straight parallel black horns curving gently backward, dark dorsal stripe, pale lower leg markings, cloven hooves and short tail; never unicorn. Scene: close view of two complete long horns against forest background. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "544ac2335911e79c1be26da63819e4ccc1e64c7b5a9b2d70931c997af81f4435",
+      "runtimeSha256": "977b99c30fdb54881d6c01b13963fe8fe95d302c13fd5ce92f42119ed5244964",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pseudoryx nghetinhensis (Saola). Anatomy: brown slender bovid with white facial stripes and patches, two long nearly straight parallel black horns curving gently backward, dark dorsal stripe, pale lower leg markings, cloven hooves and short tail; never unicorn. Scene: whole animal standing beside leafy forest vegetation. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "15a0f14aae46b262f1f554354b4dfb895d97db9a400c9549c5f0cb3ea2f2d496",
+      "runtimeSha256": "128fffa12cbe2b35874fc6f9851c7a4e8d91de51f4e63ae7d3a1f8266a8f36f0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pseudoryx nghetinhensis (Saola). Anatomy: brown slender bovid with white facial stripes and patches, two long nearly straight parallel black horns curving gently backward, dark dorsal stripe, pale lower leg markings, cloven hooves and short tail; never unicorn. Scene: whole animal at forest stream edge, reconstruction not camera-trap evidence. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "21580f667da663820bae6f182875bd830c74ea40fd3a62487e107f5f347cdcf7",
+      "runtimeSha256": "edcdf0ce47f2e8beebf9ec9c15c27fffe28c76db9949ea28e78bae76cd6856d9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

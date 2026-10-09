@@ -4327,5 +4327,18 @@
       },
       "sha256": "388ab30e81647b0cbc746d5030b334e380626b0668f1844bfb2285af5be81fdb"
     }
+  },
+  "saola": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 40,
+        "right": 1445,
+        "bottom": 950
+      },
+      "sha256": "fb910b270813e11280c70bf31251195e619db48f47f5d803e37044f856c494f9"
+    }
   }
 }
