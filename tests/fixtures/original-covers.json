@@ -4418,5 +4418,18 @@
       },
       "sha256": "f5d1479b0c1342249cba1792610eb6aab60feda189752582c9e23bbd783412cd"
     }
+  },
+  "orange-footed-scrubfowl": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 100,
+        "right": 1445,
+        "bottom": 905
+      },
+      "sha256": "8a6e58d63841f5ef12807c378b4d4b98b3a3e443c1398275e8fb8894ef3a4ac2"
+    }
   }
 }

@@ -5191,5 +5191,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1485,
       "bottom": 890
     }
+  },
+  "orange-footed-scrubfowl": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 100,
+      "right": 1445,
+      "bottom": 905
+    }
   }
 };

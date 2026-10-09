@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Megapodius reinwardt (Orange-footed Scrubfowl). Anatomy: medium ground bird, dark brown body, grey head and neck, small pointed crest, robust bright orange legs and feet with large toes and claws, short rounded tail. Scene: northern Australian tropical forest beside leaf mound. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "dcec960a75a81eaae942d48e73fe5c550ba67a1f91b8283606b1d85970a1f36d",
+      "runtimeSha256": "8a6e58d63841f5ef12807c378b4d4b98b3a3e443c1398275e8fb8894ef3a4ac2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Megapodius reinwardt (Orange-footed Scrubfowl). Anatomy: medium ground bird, dark brown body, grey head and neck, small pointed crest, robust bright orange legs and feet with large toes and claws, short rounded tail. Scene: close view of orange feet raking dry leaves. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "7ab38e005fd36399bd5af067effcc3bae4f1260518e6d71e134456d4f8503b06",
+      "runtimeSha256": "0bb99309c80858c5a8627eb5373e969e57603d3952d16e92ad40eee8c4732e75",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Megapodius reinwardt (Orange-footed Scrubfowl). Anatomy: medium ground bird, dark brown body, grey head and neck, small pointed crest, robust bright orange legs and feet with large toes and claws, short rounded tail. Scene: whole bird beside large nest mound. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "a9e7ea5906761ab5240466247440e82a7b0bf7ffd93cd1975aad3fe6f3f49d3f",
+      "runtimeSha256": "0b42879657c41423ac2782ba6896b91e5fa66d6465c3d8bd58e830281d914645",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Megapodius reinwardt (Orange-footed Scrubfowl). Anatomy: medium ground bird, dark brown body, grey head and neck, small pointed crest, robust bright orange legs and feet with large toes and claws, short rounded tail. Scene: illustrative nest mound cross-section with buried eggs, no parent sitting, no labels. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "c003b7ef59fcb8913f289fa003a90386c9fbb83457328328d452a7a132cc8878",
+      "runtimeSha256": "81e95d7cd586e043e8c053c026ae5aaeb4191ddea4c4f98297be7613bf39e33c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Megapodius reinwardt (Orange-footed Scrubfowl). Anatomy: medium ground bird, dark brown body, grey head and neck, small pointed crest, robust bright orange legs and feet with large toes and claws, short rounded tail. Scene: head portrait showing small crest and grey neck. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "42ec7ea3342ba1d0af4a46a58c47b64a75bbcaea053510dc346cfdb9bf22e817",
+      "runtimeSha256": "3dad0e7998aa0d88f9f91a6dfca3575a43e4c9beb4c9d2167f6ed172103de03d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Megapodius reinwardt (Orange-footed Scrubfowl). Anatomy: medium ground bird, dark brown body, grey head and neck, small pointed crest, robust bright orange legs and feet with large toes and claws, short rounded tail. Scene: juvenile fully feathered scrubfowl beside mound, alone, no adult feeding. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "07a27d5d6dd77057ad79dbd91156320e15059642e1c68c491e3256b1c250400e",
+      "runtimeSha256": "e44a3dc3e271a79b387c444a3b46897910fa142ffd6c4f44b6dd6bd04e60efbd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

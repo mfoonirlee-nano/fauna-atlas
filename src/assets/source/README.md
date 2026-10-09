@@ -759,3 +759,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [普通潜鸟 image set](./species/common-loon/README.md)
 - [暴风海燕 image set](./species/european-storm-petrel/README.md)
 - [普通鹈燕 image set](./species/common-diving-petrel/README.md)
+- [橙脚冢雉 image set](./species/orange-footed-scrubfowl/README.md)
