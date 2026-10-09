@@ -5241,5 +5241,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1330,
       "bottom": 1005
     }
+  },
+  "tawny-frogmouth": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 855,
+      "top": 45,
+      "right": 1310,
+      "bottom": 1005
+    }
   }
 };

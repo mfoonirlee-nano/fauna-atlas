@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Podargus strigoides (Tawny Frogmouth). Anatomy: silver-grey mottled Australian frogmouth, yellow eyes, broad olive-grey heavy triangular bill, forehead bristles, no owl talons or ear tufts. Scene: Australian eucalyptus branch. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "a2318cd422470423053daf1a4fbb082d0614bafc0ed718642ae6734d13aa96f2",
+      "runtimeSha256": "a756eb26477cc4b201e9923ae79948b01eeb897534614fdeaeba9ff62a2dbf0a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Podargus strigoides (Tawny Frogmouth). Anatomy: silver-grey mottled Australian frogmouth, yellow eyes, broad olive-grey heavy triangular bill, forehead bristles, no owl talons or ear tufts. Scene: close head side view with wide bill. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "215b3539a5e53f2bcfb62e1e593f1b2434d23be0f33260073f20b1eca3f45320",
+      "runtimeSha256": "0f9a8297149083d887e2232a8f308e5006efbc077aa531b610272afa1f0895e8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Podargus strigoides (Tawny Frogmouth). Anatomy: silver-grey mottled Australian frogmouth, yellow eyes, broad olive-grey heavy triangular bill, forehead bristles, no owl talons or ear tufts. Scene: bird resting upright with narrowed eyes against grey bark. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "4fbbc86aef73fd546e587eb1eaa9a56023c33adbfc086e681900a659cb4e5026",
+      "runtimeSha256": "95667576d3192fee081a87bbf408e00f0632a7f6f808dc023235194fe0aa81e1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Podargus strigoides (Tawny Frogmouth). Anatomy: silver-grey mottled Australian frogmouth, yellow eyes, broad olive-grey heavy triangular bill, forehead bristles, no owl talons or ear tufts. Scene: bird at twilight perched over leaf litter. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "c2ac88015352e0538fd2db73bdf33a5a6ccf8a8f1ff08f17800292a762a520bc",
+      "runtimeSha256": "d9a9252757582e884e1439e3c0464675e6c703199bc956eb857f8c5df27daaaa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Podargus strigoides (Tawny Frogmouth). Anatomy: silver-grey mottled Australian frogmouth, yellow eyes, broad olive-grey heavy triangular bill, forehead bristles, no owl talons or ear tufts. Scene: bird with naturally open wide mouth, no distress. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "5a7f10b21d98e809522f8a8c4e5a77da55395a859f4d34af5fa7ddda3a9f19b6",
+      "runtimeSha256": "1b5a98f22b868858c90c7f805721ceba2996da27c90141df6ac03fadab7a5233",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Podargus strigoides (Tawny Frogmouth). Anatomy: silver-grey mottled Australian frogmouth, yellow eyes, broad olive-grey heavy triangular bill, forehead bristles, no owl talons or ear tufts. Scene: adult incubating on loose twig platform on horizontal branch fork. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "6496b80f2cdb6f2fac895ae68e443f26afd4cd8246a9b2cc13f1537d4f948891",
+      "runtimeSha256": "d111da8e000f8ac7f977001b0a219411f22027261c5882bb458439611096419c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

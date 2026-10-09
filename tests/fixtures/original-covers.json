@@ -4483,5 +4483,18 @@
       },
       "sha256": "2e64e9f508166d4d4e935248b82ed7063564bf3ad26e36c85989ac6d5e9fc9f2"
     }
+  },
+  "tawny-frogmouth": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 855,
+        "top": 45,
+        "right": 1310,
+        "bottom": 1005
+      },
+      "sha256": "a756eb26477cc4b201e9923ae79948b01eeb897534614fdeaeba9ff62a2dbf0a"
+    }
   }
 }
