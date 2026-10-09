@@ -1,0 +1,50 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-08",
+  "images": [
+    {
+      "slug": "yellowline-arrow-crab",
+      "num": 1,
+      "prompt": "Edit the image with minimal horizontal movement. Move entire arrow crab EXACTLY TEN PIXELS to the right in this1536x1024 image, NOT ten percent. Preserve its current size, pose, eight walking legs and claws. Original leftmost tip near x615 should become x625. Original rightmost tip near x1485 should become x1495. Keep ALL feet fully visible and at least30pixels from right image border. Preserve reef and quiet left water. No cropping, no enlargement, no other changes.",
+      "originalPrompt": "Use case: scientific-educational. Naturalistic wildlife reconstruction, 1536x1024 landscape encyclopedia cover. A single Stenorhynchus seticornis yellowline arrow crab. Narrow triangular golden-brown body with fine dark lengthwise stripes, prominent long pointed upward rostrum, very long fine jointed legs, two small purplish claws. Front three-quarter view on Caribbean reef rock, whole leg span and entire pointed rostrum fit RIGHT x640..1470 y110..920 with visible margin. Body center around x1070. Left 40 percent soft dark blue water. Anatomically credible ten appendages: eight walking legs and two claw bearing arms. No extra legs. Large subject. No writing, labels, watermark or border. Soft natural illumination.",
+      "previousEditPrompt": "Recompose same Stenorhynchus seticornis arrow crab with all EIGHT walking leg tips, both claws and whole pointed rostrum visible. Place whole crab in RIGHT HALF only, center x1090 y510, full boundary x660..1470 y120..900 in1536x1024 canvas. Its feet must not reach left 40 percent or touch any frame edge. Reduce whole animal size by25 percent and move it right. Maintain realistic proportions narrow striped body, very long jointed legs, purple claws, reef background. Left quiet dark blue water. No text.",
+      "sourceSha256": "da482957d406deb0f6b2238740bf34fefaa1c52acedbddd42103eda5ca4a4a63",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "yellowline-arrow-crab",
+      "num": 2,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Full Stenorhynchus seticornis yellowline arrow crab on open coral rubble, slightly overhead view emphasizing eight very long slender jointed walking legs surrounding a tiny triangular golden striped body and two smaller purple-tipped front claws. Whole leg tips and long pointed rostrum fit inside frame with margins. Natural underwater light. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "24947bc5234e8fe7890fac56e9f01e8e04598211600743b1bccee55c23b89761",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "yellowline-arrow-crab",
+      "num": 3,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Close front oblique portrait of Stenorhynchus seticornis arrow crab emphasizing its long pointed golden striped rostrum protruding upward, small eyes on either side at base, triangular striped carapace below. Full rostrum tip visible with margin, body in focus, long legs extending into soft underwater reef background, credible anatomy. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "e06d6c111a46e8b1263e9355fd3b85f117fab88017ef4270928b34b29f46cff2",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "yellowline-arrow-crab",
+      "num": 4,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Close view of Stenorhynchus seticornis arrow crab emphasizing its two small purple-tipped pincers on thin front arms, both claws completely visible against muted reef, tiny golden striped triangular body above, walking legs behind. No missing claw fingers, no anemones, natural underwater documentary style. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "20ca8884ca918464898b71361a8ae70e1de6708c04780fe7bf0545201900dbdb",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "yellowline-arrow-crab",
+      "num": 5,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Stenorhynchus seticornis arrow crab sheltered beneath a natural Caribbean reef overhang beside a tubular sponge during daytime. Long slender golden legs, pointed striped triangular body and purple claws, side view within rock crevice, sunlight on outside reef and softer shadows inside. No hands or aquarium glass. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "49519e70e86fda2752daa533be8f908fe04bc19abaff979cfb008bd85f4b796c",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "yellowline-arrow-crab",
+      "num": 6,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. Stenorhynchus seticornis arrow crab walking across Caribbean coral rubble at night under gentle simulated dive light, dark blue-black water background, golden striped pointed small body with very long jointed slender legs, tiny purple claws reaching toward a small bit of organic debris. No gore, no human, no feeding equipment, full animal with margin. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "3e55078126b9e43982c111b70acdd7ccee7063fdb0f3ae3434a4ed3b0be9d733",
+      "sourceDimensions": "1536 1024"
+    }
+  ]
+}

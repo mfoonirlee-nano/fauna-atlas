@@ -4890,5 +4890,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1521,
       "bottom": 817
     }
+  },
+  "yellowline-arrow-crab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 644,
+      "top": 167,
+      "right": 1529,
+      "bottom": 868
+    }
   }
 };

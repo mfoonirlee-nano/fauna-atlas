@@ -4028,5 +4028,18 @@
       },
       "sha256": "a80ccde3279fcb790812f2747572055a16fb654eb19c818bc33c3bc085cba561"
     }
+  },
+  "yellowline-arrow-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 644,
+        "top": 167,
+        "right": 1529,
+        "bottom": 868
+      },
+      "sha256": "52fe830850ab0b88891b3f5c66d7afc56c550dcb421f50ce09fc5fff72dc5fb8"
+    }
   }
 }
