@@ -4106,5 +4106,18 @@
       },
       "sha256": "33324012d33437374727bbd4473fec38829ae983c37b39f5b0eb2d2d127c491a"
     }
+  },
+  "heart-cockle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 738,
+        "top": 125,
+        "right": 1405,
+        "bottom": 885
+      },
+      "sha256": "283a5cbc012ed30077545941c66819f4dd763d6c3ac1ec38c261e0de8329676f"
+    }
   }
 }

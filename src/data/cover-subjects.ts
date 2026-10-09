@@ -4951,5 +4951,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1476,
       "bottom": 857
     }
+  },
+  "heart-cockle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 738,
+      "top": 125,
+      "right": 1405,
+      "bottom": 885
+    }
   }
 };

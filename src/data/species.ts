@@ -137289,6 +137289,242 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "heart-cockle",
+  "slug": "heart-cockle",
+  "names": {
+    "zh": "心形鸟蛤",
+    "en": "Heart Cockle"
+  },
+  "scientificName": "Corculum cardissa",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Mollusca",
+      "zhName": "软体动物门"
+    },
+    "class": {
+      "scientificName": "Bivalvia",
+      "zhName": "双壳纲"
+    },
+    "order": {
+      "scientificName": "Cardiida",
+      "zhName": "鸟蛤目"
+    },
+    "family": {
+      "scientificName": "Cardiidae",
+      "zhName": "鸟蛤科"
+    },
+    "genus": {
+      "scientificName": "Corculum",
+      "zhName": "心鸟蛤属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "亚洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "印度洋与西太平洋热带浅海"
+    ],
+    "countries": [],
+    "range": "生活在印度洋与西太平洋的热带浅海，常见于光照可达的珊瑚礁浅滩与砂砾底。法国自然历史博物馆的东帝汶标本记录提供了一个具体地点；该地点不代表完整分布。"
+  },
+  "habitats": [
+    {
+      "name": "珊瑚礁浅滩",
+      "realm": "marine",
+      "description": "生活在印度洋与西太平洋的热带浅海，常见于光照可达的珊瑚礁浅滩与砂砾底。法国自然历史博物馆的东帝汶标本记录提供了一个具体地点；该地点不代表完整分布。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "filter-feeder"
+    ],
+    "foods": [
+      "悬浮微粒",
+      "共生藻提供的光合产物"
+    ],
+    "description": "通过滤食摄取水中悬浮微粒，也从组织里的共生藻获得光合产物；共生藻需要光。"
+  },
+  "tags": [
+    "心形鸟蛤",
+    "珊瑚礁浅滩"
+  ],
+  "summary": "心形鸟蛤合拢的两片壳从合适角度看像一颗心，壳上还有能透光的小窗。",
+  "description": "先沿着合拢的两片壳找轮廓，再换个角度看壳面。心形来自立体壳体的形状，单独一片壳和不同角度的轮廓会有差别。它的组织里生活着共生藻，壳的透光区域让光进入。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "两片壳合成的轮廓",
+      "body": "从前后方向观察合拢的壳，可以看见心形轮廓。换到侧面后，轮廓会变化；不把每片壳都画成平面的爱心。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "壳面上的放射纹",
+      "body": "细纹从壳顶附近向壳缘展开。沿着纹路找壳缘，再看看不同部位的浅粉色与乳白色。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "壳上透光的地方",
+      "body": "壳后部有透光区域，光可以到达组织里的共生藻。生成图重建透光外观，不能展示或测量壳内的光学结构。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "留在浅滩的阳光里",
+      "body": "它生活在光照可达的浅海。部分壳体可埋入沉积物，露出的区域仍能接收光。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "把贝壳放回环境中",
+      "body": "在砂砾和珊瑚碎屑之间找出贝壳轮廓。看图片时比较角度，野外观察不翻动活贝或取走活体。"
+    }
+  ],
+  "keyFacts": [
+    "属于双壳纲，身体由两片贝壳包围。",
+    "心形轮廓随观察角度改变。",
+    "组织中的共生藻利用穿过壳体的光。"
+  ],
+  "threats": [
+    "本次未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "通过影像观察，保留来源与物种限定。",
+    "减少水域污染，野外观察不取走活体。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "shell",
+      "label": "贝壳",
+      "value": "两片"
+    },
+    {
+      "key": "light",
+      "label": "观察重点",
+      "value": "透光区域"
+    }
+  ],
+  "media": {
+    "image": "./images/species/heart-cockle/01-cover.webp",
+    "alt": "心形鸟蛤及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/heart-cockle/02-observation.webp",
+        "title": "两片壳合成的轮廓",
+        "alt": "心形鸟蛤：两片壳合成的轮廓",
+        "caption": "AI 生成科学情景重建。从前后方向观察合拢的壳，可以看见心形轮廓。换到侧面后，轮廓会变化；不把每片壳都画成平面的爱心。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/heart-cockle/03-observation.webp",
+        "title": "壳面上的放射纹",
+        "alt": "心形鸟蛤：壳面上的放射纹",
+        "caption": "AI 生成科学情景重建。细纹从壳顶附近向壳缘展开。沿着纹路找壳缘，再看看不同部位的浅粉色与乳白色。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/heart-cockle/04-observation.webp",
+        "title": "壳上透光的地方",
+        "alt": "心形鸟蛤：壳上透光的地方",
+        "caption": "AI 生成科学情景重建。壳后部有透光区域，光可以到达组织里的共生藻。生成图重建透光外观，不能展示或测量壳内的光学结构。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/heart-cockle/05-observation.webp",
+        "title": "留在浅滩的阳光里",
+        "alt": "心形鸟蛤：留在浅滩的阳光里",
+        "caption": "AI 生成科学情景重建。它生活在光照可达的浅海。部分壳体可埋入沉积物，露出的区域仍能接收光。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/heart-cockle/06-observation.webp",
+        "title": "把贝壳放回环境中",
+        "alt": "心形鸟蛤：把贝壳放回环境中",
+        "caption": "AI 生成科学情景重建。在砂砾和珊瑚碎屑之间找出贝壳轮廓。看图片时比较角度，野外观察不翻动活贝或取走活体。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "西澳博物馆：壳体形态与光合共生",
+      "url": "https://museum.wa.gov.au/online-collections/names/corculum-cardissa",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "心形鸟蛤壳体光传输研究",
+      "url": "https://doi.org/10.1038/s41467-024-53110-x",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "法国自然历史博物馆：东帝汶标本",
+      "url": "https://science.mnhn.fr/institution/mnhn/collection/im/item/2024-14208",
+      "kind": "distribution",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：接受学名与分类",
+      "url": "https://www.marinespecies.org/aphia.php?id=216387&p=taxdetails",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 

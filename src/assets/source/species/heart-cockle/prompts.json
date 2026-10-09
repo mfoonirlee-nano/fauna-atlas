@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image for species atlas cover. Naturalistic detailed scientific reconstruction. Subject: Corculum cardissa heart cockle, closed living bivalve, two thin flattened ivory-to-pink valves with fine radial ribs. Heart outline visible ONLY in view looking at closed joined valves edge-on from anterior or posterior; broad rounded lobes and pointed lower end, seam centered. Not a heart-shaped single valve. Environment: shallow tropical Indo-Pacific sandy reef flat, soft blue water. Composition: whole primary subject LARGE on RIGHT, full silhouette contained within x=730..1450 and y=100..900, center at 71% width; maximize size within these limits. All outer appendages and bubble raft (if present) must be included with background clearance. Left 40% quiet low-detail space for website text. No text, labels, scale bars, logo, watermark, collage, human features, or fantasy structures.",
+      "sourceSha256": "d1d4aa499b77f157cfed01cd61a067e27bf2c38ac7ada5d48137e544fb70bc29",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "283a5cbc012ed30077545941c66819f4dd763d6c3ac1ec38c261e0de8329676f",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Corculum cardissa living heart cockle, closed thin flattened ivory pink bivalve with fine radial ribs. Heart shape visible from posterior of JOINED TWO VALVES with centered seam, not single heart-shaped valve. Scene: closed joined valves viewed directly from posterior showing heart outline and centered valve seam. Environment: sunlit tropical Indo-Pacific shallow sandy reef flat. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "a24137611c76e14e280c030d5113ce063901d71d4581120ecbb91a08428e4c78",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "31881144175e2161a5a1afbdb353174ab948e6482296c3536503e6f10d3e02ca",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Corculum cardissa living heart cockle, closed thin flattened ivory pink bivalve with fine radial ribs. Heart shape visible from posterior of JOINED TWO VALVES with centered seam, not single heart-shaped valve. Scene: oblique side view of broad valve showing radial shell ribs and pink mottling. Environment: sunlit tropical Indo-Pacific shallow sandy reef flat. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "611e8bffaaa986bfa2b9c332689941041261eeb7b70fd01bd9a12fe38e68e350",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "063fc1c9955fb4cc9ac269721b455553e473a704a6780a6a0442af8bf5f56966",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Corculum cardissa living heart cockle, closed thin flattened ivory pink bivalve with fine radial ribs. Heart shape visible from posterior of JOINED TWO VALVES with centered seam, not single heart-shaped valve. Scene: posterior shell translucent windows under natural transmitted sunlight, no diagram rays. Environment: sunlit tropical Indo-Pacific shallow sandy reef flat. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "e30a143279e4cebcd3e51aedd17d85447a38dc6c4b4322d335c5d96429803555",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "8a40ce9835871b1154731a490f7c265aae26fef9131fb19530295188811d56f5",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Corculum cardissa living heart cockle, closed thin flattened ivory pink bivalve with fine radial ribs. Heart shape visible from posterior of JOINED TWO VALVES with centered seam, not single heart-shaped valve. Scene: living bivalve partly nestled in shallow sand with upper shell exposed in sunlight. Environment: sunlit tropical Indo-Pacific shallow sandy reef flat. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "d9d00bef2bc177f6e50c41ee304098abe231d33a3ffa1dc6eeab62cdb7285d96",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "f265d226659f339704609aa76f36ff563ba64ba658ac13f2994c662a258ab291",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Corculum cardissa living heart cockle, closed thin flattened ivory pink bivalve with fine radial ribs. Heart shape visible from posterior of JOINED TWO VALVES with centered seam, not single heart-shaped valve. Scene: two closed living bivalves among coral rubble and fine sand, wider habitat. Environment: sunlit tropical Indo-Pacific shallow sandy reef flat. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "da7ef1d23576cf84e5f7d29a25698b5206e26085387bfe74f9ca16d8fc04b160",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "5ca37295f691c87b4cd66e577439e8b7a4deeb26d574f80ec3d162aee97ca3e2",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}
