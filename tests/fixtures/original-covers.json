@@ -4223,5 +4223,18 @@
       },
       "sha256": "c4d942a30d06e0ba0e865ad664ab2871d0ef21a64e423b15b21a40dd388bf8b3"
     }
+  },
+  "sea-firefly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 570,
+        "top": 148,
+        "right": 1458,
+        "bottom": 840
+      },
+      "sha256": "2d6d2eee5594aad37c03a78953e4d778499c82c723aae0e6ebd14f26d106f7da"
+    }
   }
 }

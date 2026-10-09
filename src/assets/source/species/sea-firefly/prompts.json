@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "reviewedAt": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 Fauna Atlas cover, naturalistic scientific reconstruction. Vargula hilgendorfii sea firefly ostracod: one tiny oval translucent cream bivalved crustacean shell with protruding fine swimming appendages from ventral opening, dark small eye and subtle internal mass, fully visible in close macro scientific reconstruction just above sandy Japanese shallow seabed. No enormous insect eyes, no insect wings. Macro magnification non measured scale, body does not itself glow neon. Composition: main complete subject occupies right half, center at 70% of width; quiet left 40%, generous background margins around every extremity; maximize subject in right half. Soft realistic lighting and authentic textures. No text labels watermark collage or scale bars.",
+      "sourceSha256": "26f962fded8a1e22fc053b09da1a9c188949d0f43ffd11f9ad2e41c669629863",
+      "runtimeSha256": "2d6d2eee5594aad37c03a78953e4d778499c82c723aae0e6ebd14f26d106f7da",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Vargula hilgendorfii: tiny cream translucent oval bivalved ostracod crustacean, delicate appendages emerging from ventral opening, small dark eye. Not insect, no huge eyes, no wings, no neon glowing body. Scene: Closeup oval paired shell valves, ventral gap and delicate crustacean appendages. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "0d0ccdd5d84aeb89b88d74c810692d6989d3039843695cc2c407367a3b17826f",
+      "runtimeSha256": "9abc6260024c47b8119ef542e8d034d25cb349db7cd005551e38d27dc5eb5f34",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Vargula hilgendorfii: tiny cream translucent oval bivalved ostracod crustacean, delicate appendages emerging from ventral opening, small dark eye. Not insect, no huge eyes, no wings, no neon glowing body. Scene: One swimming Vargula over sand at night in restrained observation light, no glowing body. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "db0e7a276aad852ce96647c99de9c5cc0cc4886083f3f03164561b28e318ae92",
+      "runtimeSha256": "57fc1beeb1934035457269f9e1cb093458f08e587a4fd7337a01b91311fedc83",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Vargula hilgendorfii: tiny cream translucent oval bivalved ostracod crustacean, delicate appendages emerging from ventral opening, small dark eye. Not insect, no huge eyes, no wings, no neon glowing body. Scene: Small cream oval Vargula beside separate blue luminous secretion cloud in dark water, secretion glows outside animal, teaching reconstruction. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "13ed7454d25164f859fd390c3a56da214f13419e069d4d89a90ccb941612c07c",
+      "runtimeSha256": "47079c080a8bc14736e28fa68b8cdf8018576158a2c8706b1c61924106ef553b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Vargula hilgendorfii: tiny cream translucent oval bivalved ostracod crustacean, delicate appendages emerging from ventral opening, small dark eye. Not insect, no huge eyes, no wings, no neon glowing body. Scene: One Vargula partly sheltered in sandy substrate, macro view enlarged sand grains, non measured scale. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "0ba0c71ef9e097d1e6ee92acd550b7b38ee1644aa5ad96382615f921c47843f3",
+      "runtimeSha256": "8ca3a758578efb00abc4a9856ea284023a2d61b450ee5d7d0cfc553166dda2ff",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Vargula hilgendorfii: tiny cream translucent oval bivalved ostracod crustacean, delicate appendages emerging from ventral opening, small dark eye. Not insect, no huge eyes, no wings, no neon glowing body. Scene: Adult female translucent bivalved shell with small rounded eggs inside posterior brood chamber, teaching reconstruction, no giant external eggs. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "6c79fb84d48bfd5c9ecaeeff6318accd5a2c94194aa5955dfeafc56f2742d659",
+      "runtimeSha256": "158d24386627c261d849c43707f64754802077427a32922a4ef345f6b295ce44",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
