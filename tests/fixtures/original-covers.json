@@ -4496,5 +4496,18 @@
       },
       "sha256": "a756eb26477cc4b201e9923ae79948b01eeb897534614fdeaeba9ff62a2dbf0a"
     }
+  },
+  "javan-file-snake": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 105,
+        "right": 1490,
+        "bottom": 850
+      },
+      "sha256": "8a524b01eaed6129924f394dc7734687157510053d74c7f913bdadc1a306e5c2"
+    }
   }
 }

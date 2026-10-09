@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Acrochordus javanicus (Javan File Snake). Anatomy: thick aquatic brown snake with baggy loose skin, fine granular nonoverlapping scales, broad blunt head little wider than body, dorsal nostrils, tapering short tail, no fins or legs. Scene: clear Southeast Asian slow river underwater, full snake in compact loose S curve. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "6448d1d6cf9c0b080896419e35bb8a47348e4c3a0529d2ab17cb8f1058e77a40",
+      "runtimeSha256": "8a524b01eaed6129924f394dc7734687157510053d74c7f913bdadc1a306e5c2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Acrochordus javanicus (Javan File Snake). Anatomy: thick aquatic brown snake with baggy loose skin, fine granular nonoverlapping scales, broad blunt head little wider than body, dorsal nostrils, tapering short tail, no fins or legs. Scene: macro of granular brown scales on loose skin. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "3f49db5a7b1f24d4f0f2c4dd2605aa83bc9012bed0cb3943659c411e574f4317",
+      "runtimeSha256": "a718c46d121bc9449d5741516650663aa0e76609e6a212678aa6bf25ec3d5426",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Acrochordus javanicus (Javan File Snake). Anatomy: thick aquatic brown snake with baggy loose skin, fine granular nonoverlapping scales, broad blunt head little wider than body, dorsal nostrils, tapering short tail, no fins or legs. Scene: head at water surface with dorsally placed nostrils. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "9509f02ab16b2af5ef253aff99da0b16545d9b0390e73e9f0c4482a0e99f1fc9",
+      "runtimeSha256": "077f1af32a4269724dd6b56b8655270386ae13ccd68580ad46d4ea042c3aec9d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Acrochordus javanicus (Javan File Snake). Anatomy: thick aquatic brown snake with baggy loose skin, fine granular nonoverlapping scales, broad blunt head little wider than body, dorsal nostrils, tapering short tail, no fins or legs. Scene: whole snake loosely curved underwater beside roots. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "d8e834a3732aceafb01646d9a50c4ff66994b404fda444ca63c6476022c03b11",
+      "runtimeSha256": "a8f434508175ac374e0b41f28c0e6ba236c0cb80d13cf252133e2b47f1589bb0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Acrochordus javanicus (Javan File Snake). Anatomy: thick aquatic brown snake with baggy loose skin, fine granular nonoverlapping scales, broad blunt head little wider than body, dorsal nostrils, tapering short tail, no fins or legs. Scene: snake resting on muddy river bottom. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "635cf8f9de31746c33f5d7b91d2336eb191f3a6ee3ad6db601e75f0cd718c414",
+      "runtimeSha256": "f850d01ca89f4c73e49bd297974d0f2290b72b19e2fe26dd14575d93cce1faeb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Acrochordus javanicus (Javan File Snake). Anatomy: thick aquatic brown snake with baggy loose skin, fine granular nonoverlapping scales, broad blunt head little wider than body, dorsal nostrils, tapering short tail, no fins or legs. Scene: small juvenile of same species underwater, no eggs. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "ce0c264212d1e7af786b7298a971c7ae5b4bdd77dacb9820508cdb4d4aa0ca5d",
+      "runtimeSha256": "fde1e4f5b2499f143f7d4b5d021a48b0bd81e2b74a82310cab0e6b28cb19633f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

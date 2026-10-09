@@ -144474,6 +144474,237 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "javan-file-snake",
+  "slug": "javan-file-snake",
+  "names": {
+    "zh": "瘰鳞蛇",
+    "en": "Javan File Snake"
+  },
+  "scientificName": "Acrochordus javanicus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Squamata",
+      "zhName": "有鳞目"
+    },
+    "family": {
+      "scientificName": "Acrochordidae",
+      "zhName": "瘰鳞蛇科"
+    },
+    "genus": {
+      "scientificName": "Acrochordus",
+      "zhName": "瘰鳞蛇属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "东南亚，包括爪哇、苏门答腊和婆罗洲"
+    ],
+    "countries": [],
+    "range": "东南亚，包括爪哇、苏门答腊和婆罗洲。范围由本批资料限定，不能从生成图推断地点。"
+  },
+  "habitats": [
+    {
+      "name": "缓流河道",
+      "realm": "freshwater",
+      "description": "本种生活在水中。本档案采用 Reptile Database 的东南亚范围，排除旧 ADW 把印度、斯里兰卡和所罗门群岛并入的广义分布。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "piscivore"
+    ],
+    "foods": [
+      "鱼类"
+    ],
+    "description": "它在水中捕食鱼类，身体与粗糙表皮帮助固定猎物。仅凭松弛的外观不能判断健康或刚完成进食。"
+  },
+  "tags": [
+    "瘰鳞蛇",
+    "缓流河道"
+  ],
+  "summary": "瘰鳞蛇：颗粒状鳞片。",
+  "description": "瘰鳞蛇身体粗壮，皮肤松弛，表面有小而粗糙的颗粒状鳞片。头部宽钝，鼻孔靠上；它没有鱼鳍或四肢。本种生活在水中。本档案采用 Reptile Database 的东南亚范围，排除旧 ADW 把印度、斯里兰卡和所罗门群岛并入的广义分布。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "颗粒状鳞片",
+      "body": "瘰鳞蛇身体粗壮，皮肤松弛，表面有小而粗糙的颗粒状鳞片。头部宽钝，鼻孔靠上；它没有鱼鳍或四肢。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "缓流河道",
+      "body": "本种生活在水中。本档案采用 Reptile Database 的东南亚范围，排除旧 ADW 把印度、斯里兰卡和所罗门群岛并入的广义分布。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它在水中捕食鱼类，身体与粗糙表皮帮助固定猎物。仅凭松弛的外观不能判断健康或刚完成进食。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "胚胎在母体内发育，雌蛇产出幼蛇。幼蛇图不配蛇卵，不直接套用其他蛇的产卵场景。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Acrochordus javanicus，属于爬行纲、有鳞目、瘰鳞蛇科。图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先看图，再读资料",
+      "body": "共读时先找颗粒状鳞片。图片为 AI 科学情景重建，不代替鉴定、测量或行为实录。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "瘰鳞蛇身体粗壮，皮肤松弛，表面有小而粗糙的颗粒状鳞片。头部宽钝，鼻孔靠上；它没有鱼鳍或四肢。",
+    "胚胎在母体内发育，雌蛇产出幼蛇。幼蛇图不配蛇卵，不直接套用其他蛇的产卵场景。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "栖息地改变与人为干扰；本批未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "保留自然隐蔽空间，观察时保持距离，不捕捉、翻动或诱发行为。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "缓流河道"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "颗粒状鳞片"
+    }
+  ],
+  "media": {
+    "image": "./images/species/javan-file-snake/01-cover.webp",
+    "alt": "瘰鳞蛇及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/javan-file-snake/02-observation.webp",
+        "title": "皮肤上的小颗粒",
+        "alt": "瘰鳞蛇：皮肤上的小颗粒，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。微距放大重建，非实测比例，不用于鳞片计数。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/javan-file-snake/03-observation.webp",
+        "title": "水面上的鼻孔",
+        "alt": "瘰鳞蛇：水面上的鼻孔，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。鼻孔位置重建，呼吸频率不能从图中推断。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/javan-file-snake/04-observation.webp",
+        "title": "树根旁的身体",
+        "alt": "瘰鳞蛇：树根旁的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整身体在水中弯曲的情景。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/javan-file-snake/05-observation.webp",
+        "title": "河底的停留",
+        "alt": "瘰鳞蛇：河底的停留，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。泥底颜色与植物为环境重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/javan-file-snake/06-observation.webp",
+        "title": "水中的幼蛇",
+        "alt": "瘰鳞蛇：水中的幼蛇，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。幼蛇阶段，非实测比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Reptile Database：接受名称、分类与范围",
+      "url": "https://reptile-database.reptarium.cz/Acrochordus/javanicus",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "ADW：瘰鳞蛇的外形与生活史",
+      "url": "https://animaldiversity.org/accounts/Acrochordus_javanicus/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "GBIF：接受学名与分类定位",
+      "url": "https://www.gbif.org/species/2472764",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 
