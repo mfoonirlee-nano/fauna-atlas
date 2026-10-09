@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "reviewedAt": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 Fauna Atlas cover, naturalistic scientific reconstruction. Hydrolagus colliei spotted ratfish chimaera: grey brown sleek fish with many small pale white spots, large eyes, blunt rabbitlike face, large triangular pectoral fins, tall triangular first dorsal fin with one leading spine and elongated tapering ratlike tail. Fully visible complete fish swimming just above sandy northeast Pacific seabed. Composition: main complete subject occupies right half, center at 70% of width; quiet left 40%, generous background margins around every extremity; maximize subject in right half. Soft realistic lighting and authentic textures. No text labels watermark collage or scale bars.",
+      "sourceSha256": "4e3cac40a3919c03f570be08bbc760c6e3957c9acacf44c3845510f3a389f03d",
+      "runtimeSha256": "40129516f7bfd4a1f43728c6b032b884c6b71406e7f2b66ec2dd43eb733f5688",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Hydrolagus colliei female chimaera: smooth grey-brown skin with white spots, large green eyes, blunt snout, triangular pectoral fins, single spine before first dorsal, second low dorsal, long fine ratlike tail. Scene: Head closeup large green eye blunt snout white spots. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "7e36f4e38f9ca00867ba60255f749313abba45755bb72c7db479ed4759809570",
+      "runtimeSha256": "df287121bea8826ff7d11b6331de0b8bed868f1cb2395a08605c7973c3cfedf5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Hydrolagus colliei female chimaera: smooth grey-brown skin with white spots, large green eyes, blunt snout, triangular pectoral fins, single spine before first dorsal, second low dorsal, long fine ratlike tail. Scene: Whole female angled toward viewer showing broad triangular pectoral fins and entire fine tail. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "91c613e4eaacb7e6fcb9f1fbc26355387a24fd9fb0f33da650f8fae23cd85206",
+      "runtimeSha256": "2505ad7b02c477681aa280156b3fb9e6c345d2b3c131fe797b4b52520bb410a4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Hydrolagus colliei female chimaera: smooth grey-brown skin with white spots, large green eyes, blunt snout, triangular pectoral fins, single spine before first dorsal, second low dorsal, long fine ratlike tail. Scene: First dorsal fin and single leading spine closeup, no touch. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "c0d5062462300b06d9ecf8c3ebfac0b57dc7d0203e33cbaac4250ed905b79e65",
+      "runtimeSha256": "31b90cd2eee59c61d08d6dd14c55367c556022ef2a70545daf3cb31dbf25c416",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Hydrolagus colliei female chimaera: smooth grey-brown skin with white spots, large green eyes, blunt snout, triangular pectoral fins, single spine before first dorsal, second low dorsal, long fine ratlike tail. Scene: Whole fish near a clam and small crab on seabed, no gore. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "12166e9aaa8832d5d122f04b50e79faaebe367438ff90507e5d527bec2e9f68a",
+      "runtimeSha256": "2c5454527b13732c626275dd67752ab79fa26d1458a01d87ff14839c704d3a9b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Hydrolagus colliei female chimaera: smooth grey-brown skin with white spots, large green eyes, blunt snout, triangular pectoral fins, single spine before first dorsal, second low dorsal, long fine ratlike tail. Scene: One long leathery spindle shaped chimaera egg capsule on seabed, no adult, not a rectangular shark egg purse. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "5910b8a2c7519bb773c25b91a9bee0d20f54b1c1bc0a970191c040ae5b96f8d2",
+      "runtimeSha256": "8dcf1075a71734c773bd94addb57ae985797a6bd410560dcf93524fb05e5f2c3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
