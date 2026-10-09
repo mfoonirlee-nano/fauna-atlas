@@ -5171,5 +5171,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1500,
       "bottom": 695
     }
+  },
+  "european-storm-petrel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 150,
+      "right": 1465,
+      "bottom": 810
+    }
   }
 };

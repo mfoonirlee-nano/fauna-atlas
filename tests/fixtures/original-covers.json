@@ -4392,5 +4392,18 @@
       },
       "sha256": "ecd059316e34f3181a5bd7bc775c1d3df3287353c02cc7f489163fd28e51d1fe"
     }
+  },
+  "european-storm-petrel": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 150,
+        "right": 1465,
+        "bottom": 810
+      },
+      "sha256": "34fbea976fd15151006c6e16a0691cd6cc8c47a2b58bd5885f466fdb788de407"
+    }
   }
 }

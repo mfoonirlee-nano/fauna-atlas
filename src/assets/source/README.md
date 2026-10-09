@@ -757,3 +757,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [东部长吻针鼹 image set](./species/eastern-long-beaked-echidna/README.md)
 - [美洲蛇鹈 image set](./species/anhinga/README.md)
 - [普通潜鸟 image set](./species/common-loon/README.md)
+- [暴风海燕 image set](./species/european-storm-petrel/README.md)

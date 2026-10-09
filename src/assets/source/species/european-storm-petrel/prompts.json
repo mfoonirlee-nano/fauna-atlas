@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this existing scientific reconstruction of European Storm Petrel Hydrobates pelagicus. Preserve the exact animal pose, full silhouette, composition, background and 1536x1024 landscape dimensions. Correct plumage only: TOP SURFACE of both wings must be entirely dark charcoal brown-black, with NO WHITE WING BAR, NO WHITE STRIPE, NO WHITE PANEL across the upperwing. The species has a conspicuous white RUMP at the BASE OF THE TAIL only, retain that white rump. A fine narrow white underwing band is permissible ONLY on the true underside if a wing underside is visibly turned toward the viewer; do not add it to the top wing. Preserve dark square-ended non-forked tail, dark feet, small dark bill with tube nostrils. No text, no border, no watermark.",
+      "originalPrompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Hydrobates pelagicus (European Storm Petrel). Anatomy: tiny dark brown-black seabird with white rump patch, short dark bill with tubular nostrils, dark legs and feet, short nearly square tail, white underwing bar. Scene: northeast Atlantic rocky island ledge, wings folded. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "sourceSha256": "e23ca3e36d78eb28729e11f0f6c14db6e9aef635e976c40fed111c2cc6306d6a",
+      "runtimeSha256": "34fbea976fd15151006c6e16a0691cd6cc8c47a2b58bd5885f466fdb788de407",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Edit this existing scientific reconstruction of European Storm Petrel Hydrobates pelagicus. Preserve the exact animal pose, full silhouette, composition, background and 1536x1024 landscape dimensions. Correct plumage only: TOP SURFACE of both wings must be entirely dark charcoal brown-black, with NO WHITE WING BAR, NO WHITE STRIPE, NO WHITE PANEL across the upperwing. The species has a conspicuous white RUMP at the BASE OF THE TAIL only, retain that white rump. A fine narrow white underwing band is permissible ONLY on the true underside if a wing underside is visibly turned toward the viewer; do not add it to the top wing. Preserve dark square-ended non-forked tail, dark feet, small dark bill with tube nostrils. No text, no border, no watermark.",
+      "originalPrompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Hydrobates pelagicus (European Storm Petrel). Anatomy: tiny dark brown-black seabird with white rump patch, short dark bill with tubular nostrils, dark legs and feet, short nearly square tail, white underwing bar. Scene: one complete bird in flight with white rump visible. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "sourceSha256": "03e4110baa86abe5631bd88a7a0fd8f05384f79ae6fac9f3e3fc77413b126268",
+      "runtimeSha256": "87ba4b38095a162436d4a051ac25acfa2a91a337aa186b81f1666719ff8fd893",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Edit this existing scientific reconstruction of European Storm Petrel Hydrobates pelagicus. Preserve the exact animal pose, full silhouette, composition, background and 1536x1024 landscape dimensions. Correct plumage only: TOP SURFACE of both wings must be entirely dark charcoal brown-black, with NO WHITE WING BAR, NO WHITE STRIPE, NO WHITE PANEL across the upperwing. The species has a conspicuous white RUMP at the BASE OF THE TAIL only, retain that white rump. A fine narrow white underwing band is permissible ONLY on the true underside if a wing underside is visibly turned toward the viewer; do not add it to the top wing. Preserve dark square-ended non-forked tail, dark feet, small dark bill with tube nostrils. No text, no border, no watermark.",
+      "originalPrompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Hydrobates pelagicus (European Storm Petrel). Anatomy: tiny dark brown-black seabird with white rump patch, short dark bill with tubular nostrils, dark legs and feet, short nearly square tail, white underwing bar. Scene: one complete bird hovering low over water, feet touching surface. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "sourceSha256": "789c64d09748df20d67244b39c5ea396a561fd01a15025fe9260875655391fd6",
+      "runtimeSha256": "db3715e08deaeba5593c965a0e91e7c93feeb414a6fee67d2658ee7fd3c816b0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Hydrobates pelagicus (European Storm Petrel). Anatomy: tiny dark brown-black seabird with white rump patch, short dark bill with tubular nostrils, dark legs and feet, short nearly square tail, white underwing bar. Scene: close head portrait with tubular nostrils. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "1ef3338820743d3d523fc33a6ed50f6d945d4bbf8e198ed3488f0fc149f132f7",
+      "runtimeSha256": "a5353b0f7989492caa9a16d82cd9dd6a8caec8e40b493a12e5c16de555de8277",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Edit this existing scientific reconstruction of European Storm Petrel Hydrobates pelagicus. Preserve the exact animal pose, full silhouette, composition, background and 1536x1024 landscape dimensions. Correct plumage only: TOP SURFACE of both wings must be entirely dark charcoal brown-black, with NO WHITE WING BAR, NO WHITE STRIPE, NO WHITE PANEL across the upperwing. The species has a conspicuous white RUMP at the BASE OF THE TAIL only, retain that white rump. A fine narrow white underwing band is permissible ONLY on the true underside if a wing underside is visibly turned toward the viewer; do not add it to the top wing. Preserve dark square-ended non-forked tail, dark feet, small dark bill with tube nostrils. No text, no border, no watermark.",
+      "originalPrompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Hydrobates pelagicus (European Storm Petrel). Anatomy: tiny dark brown-black seabird with white rump patch, short dark bill with tubular nostrils, dark legs and feet, short nearly square tail, white underwing bar. Scene: whole bird at natural rocky nest crevice. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "sourceSha256": "6b2697e805cfda0eb13d45a6f87cc1fd4d0f326c8662c21bd537b8fcdbbee531",
+      "runtimeSha256": "057c2cf4df91cb6666d7f5308ad3548d2aa49dd1a0e98277b661b91edb967e84",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Edit this existing scientific reconstruction of European Storm Petrel Hydrobates pelagicus. Preserve the exact animal pose, full silhouette, composition, background and 1536x1024 landscape dimensions. Correct plumage only: TOP SURFACE of both wings must be entirely dark charcoal brown-black, with NO WHITE WING BAR, NO WHITE STRIPE, NO WHITE PANEL across the upperwing. The species has a conspicuous white RUMP at the BASE OF THE TAIL only, retain that white rump. A fine narrow white underwing band is permissible ONLY on the true underside if a wing underside is visibly turned toward the viewer; do not add it to the top wing. Preserve dark square-ended non-forked tail, dark feet, small dark bill with tube nostrils. No text, no border, no watermark.",
+      "originalPrompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Hydrobates pelagicus (European Storm Petrel). Anatomy: tiny dark brown-black seabird with white rump patch, short dark bill with tubular nostrils, dark legs and feet, short nearly square tail, white underwing bar. Scene: one complete bird in flight viewed from below, white underwing bars visible. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "sourceSha256": "5d99391d684552acc55e0be2f76328393a8288b756e73b810e3380f6c4aebfde",
+      "runtimeSha256": "cc3b3e6fe6012b7c37cb681a0af79754e30b27967f404e0fa06d5818617dbe5e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

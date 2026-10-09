@@ -142592,6 +142592,247 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "european-storm-petrel",
+  "slug": "european-storm-petrel",
+  "names": {
+    "zh": "暴风海燕",
+    "en": "European Storm Petrel"
+  },
+  "scientificName": "Hydrobates pelagicus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Procellariiformes",
+      "zhName": "鹱形目"
+    },
+    "family": {
+      "scientificName": "Hydrobatidae",
+      "zhName": "海燕科"
+    },
+    "genus": {
+      "scientificName": "Hydrobates",
+      "zhName": "海燕属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "东北大西洋及地中海周边繁殖岛屿"
+    ],
+    "countries": [
+      "英国",
+      "爱尔兰"
+    ],
+    "range": "东北大西洋及地中海周边繁殖岛屿。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "远洋与岩岛",
+      "realm": "marine",
+      "description": "它在海面附近飞行，觅食时双翼抬起、脚可轻触水面。成年鸟利用岩隙等隐蔽处繁殖，离开或返回繁殖点的时间与海上觅食时间不能混作同一活动表。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "浮游动物",
+      "小鱼",
+      "甲壳动物"
+    ],
+    "description": "它摄食浮游动物、小鱼和甲壳动物。脚触水与低空飞行图是姿态重建，不能证明每次触水都获得食物。"
+  },
+  "tags": [
+    "暴风海燕",
+    "远洋与岩岛"
+  ],
+  "summary": "白腰斑，脚尖轻触海面。",
+  "description": "暴风海燕体形小，羽毛深褐近黑，腰部有白斑，尾端近方而非深叉。嘴上有管状鼻孔，是鹱形目海鸟的一项观察特点。它在海面附近飞行，觅食时双翼抬起、脚可轻触水面。成年鸟利用岩隙等隐蔽处繁殖，离开或返回繁殖点的时间与海上觅食时间不能混作同一活动表。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "白色腰斑",
+      "body": "暴风海燕体形小，羽毛深褐近黑，腰部有白斑，尾端近方而非深叉。嘴上有管状鼻孔，是鹱形目海鸟的一项观察特点。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它在海面附近飞行，觅食时双翼抬起、脚可轻触水面。成年鸟利用岩隙等隐蔽处繁殖，离开或返回繁殖点的时间与海上觅食时间不能混作同一活动表。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它摄食浮游动物、小鱼和甲壳动物。脚触水与低空飞行图是姿态重建，不能证明每次触水都获得食物。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它产卵并在岛上繁殖。地面与洞隙生活让繁殖地外来捕食者成为需要关注的因素，观察者应使用不干扰巢区的方式。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本档案采用 Hydrobates pelagicus、鹱形目海燕科。RSPB 的 Amber 是英国地区保护类别，不写入全球 IUCN 代码；本批未核实全球评估年份，采用 NE 数据占位。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护远洋与岩岛及其自然隐蔽空间。共读时先观察图中的白色腰斑，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "完整飞行姿态，尾端近方；不套用白腰叉尾海燕的叉尾。",
+    "觅食姿态示意，静态图不能确认正在取食。",
+    "局部放大重建，非实测比例，不供解剖鉴定。",
+    "繁殖环境示意，不展示人为打开巢穴。",
+    "从下方观察翼纹，画面不用于辨认年龄或个体。",
+    "本档案采用 Hydrobates pelagicus、鹱形目海燕科。RSPB 的 Amber 是英国地区保护类别，不写入全球 IUCN 代码；本批未核实全球评估年份，采用 NE 数据占位。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "岛上外来捕食者",
+    "繁殖地干扰"
+  ],
+  "conservationActions": [
+    "保护远洋与岩岛与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "远洋与岩岛"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "白色腰斑"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/european-storm-petrel/01-cover.webp",
+    "alt": "暴风海燕及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/european-storm-petrel/02-observation.webp",
+        "title": "白色腰斑",
+        "alt": "暴风海燕：白色腰斑，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整飞行姿态，尾端近方；不套用白腰叉尾海燕的叉尾。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-storm-petrel/03-observation.webp",
+        "title": "脚尖碰到海面",
+        "alt": "暴风海燕：脚尖碰到海面，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。觅食姿态示意，静态图不能确认正在取食。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-storm-petrel/04-observation.webp",
+        "title": "嘴上的管状鼻孔",
+        "alt": "暴风海燕：嘴上的管状鼻孔，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。局部放大重建，非实测比例，不供解剖鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-storm-petrel/05-observation.webp",
+        "title": "岩隙旁",
+        "alt": "暴风海燕：岩隙旁，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。繁殖环境示意，不展示人为打开巢穴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-storm-petrel/06-observation.webp",
+        "title": "翅膀下面的浅色带",
+        "alt": "暴风海燕：翅膀下面的浅色带，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。从下方观察翼纹，画面不用于辨认年龄或个体。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/4408455",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "RSPB：暴风海燕形态、尺寸与海面取食",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/storm-petrel",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];
