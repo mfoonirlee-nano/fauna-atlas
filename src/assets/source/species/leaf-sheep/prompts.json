@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration for species atlas cover. Subject: Costasiella kuroshimae tiny sacoglossan sea slug on green Avrainvillea alga, white head with close-set black eyes, two upright dark-tipped rhinophores, multiple densely packed leaf-shaped green cerata with pale tips, elongated slug foot, no mammal features. Scene: full body slug in three-quarter view on algal blade, all cerata and rhinophores visible. Environment: tropical shallow marine algae, magnified macro naturalistic scientific reconstruction. Large full animal occupies right half, center x=73% width; entire silhouette within x=760..1460 and y=160..900 including every tip. Left 40% quiet negative space. Maximize subject inside those bounds, background clearance at every edge. Accurate taxon anatomy. No text, fake scale bars, watermark, collage, or anthropomorphic features.",
+      "sourceSha256": "993cb4b3377e3fdad8e009ef81a80be55720fe6c79e42be16a6105fe8ccdee30",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "33324012d33437374727bbd4473fec38829ae983c37b39f5b0eb2d2d127c491a",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Costasiella kuroshimae tiny sacoglossan sea slug on green Avrainvillea alga, white head with close-set black eyes, two upright dark-tipped rhinophores, multiple densely packed leaf-shaped green cerata with pale tips, elongated slug foot, no mammal features. Specific scene: front close view of paired rhinophores and tiny adjacent black eyes, actual slug anatomy no cartoon smile. Environment: tropical shallow marine algae, magnified macro naturalistic scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "179be11c104cb0f47ffbc6247904de3539e75b891b7fb458a082f74081ddef4a",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "69065b8296362728fd50e087c7eff13b4940a718cd3cdcf4f81dadba387a84b4",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Costasiella kuroshimae tiny sacoglossan sea slug on green Avrainvillea alga, white head with close-set black eyes, two upright dark-tipped rhinophores, multiple densely packed leaf-shaped green cerata with pale tips, elongated slug foot, no mammal features. Specific scene: side view of green leaf-shaped cerata on back and crawling foot along algal blade. Environment: tropical shallow marine algae, magnified macro naturalistic scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "1f89089b110233757cd07a411ce56b5ba201fe9079c9997e39b4428501aa3e63",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "0f88cd947480bf84123ede17cfb37be260e2028ef407317eeb2c869e52005dbc",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Costasiella kuroshimae tiny sacoglossan sea slug on green Avrainvillea alga, white head with close-set black eyes, two upright dark-tipped rhinophores, multiple densely packed leaf-shaped green cerata with pale tips, elongated slug foot, no mammal features. Specific scene: dorsal view of entire slug showing layered rows of green cerata. Environment: tropical shallow marine algae, magnified macro naturalistic scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "46d841873c407b5cc276a94840d3baeb99aaa605066b57ca47eb8de19b630f43",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "fd753c5d2c1a1cdab4bb6174490915f478a81c10c5fea9876f5e51c9c5d538bb",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Costasiella kuroshimae tiny sacoglossan sea slug on green Avrainvillea alga, white head with close-set black eyes, two upright dark-tipped rhinophores, multiple densely packed leaf-shaped green cerata with pale tips, elongated slug foot, no mammal features. Specific scene: side close view of mouth contacting Avrainvillea alga while feeding, no teeth, no cartoon face. Environment: tropical shallow marine algae, magnified macro naturalistic scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "509bd56fdceb35f021a23ee086708b63db4c4f685f104983da64b832fb592edf",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "5028aa42214602d612abe9afeafd895185735f86606b4be7e9b85fbacbc25521",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Costasiella kuroshimae tiny sacoglossan sea slug on green Avrainvillea alga, white head with close-set black eyes, two upright dark-tipped rhinophores, multiple densely packed leaf-shaped green cerata with pale tips, elongated slug foot, no mammal features. Specific scene: wider habitat view with two tiny slugs on separate Avrainvillea algal blades, algae dominates, clarify small size visually without fake ruler. Environment: tropical shallow marine algae, magnified macro naturalistic scientific reconstruction. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "33e292edc756f1b0bae203eae0d3734de970de5d3a95ae077cc322325a7b4056",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "1107ce3cfcea87fac520284fb4224122edbf59388f2a570fef1851d894b473a4",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}

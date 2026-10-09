@@ -4941,5 +4941,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1422,
       "bottom": 950
     }
+  },
+  "leaf-sheep": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 76,
+      "right": 1476,
+      "bottom": 857
+    }
   }
 };

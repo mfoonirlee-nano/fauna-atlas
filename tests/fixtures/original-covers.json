@@ -4093,5 +4093,18 @@
       },
       "sha256": "6ba639f2b7d83fbc25fa9f5ed9b5d405b1af533610cf81e92dcbe53b8d92599f"
     }
+  },
+  "leaf-sheep": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 76,
+        "right": 1476,
+        "bottom": 857
+      },
+      "sha256": "33324012d33437374727bbd4473fec38829ae983c37b39f5b0eb2d2d127c491a"
+    }
   }
 }
