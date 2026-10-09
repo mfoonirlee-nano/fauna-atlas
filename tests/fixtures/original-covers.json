@@ -4210,5 +4210,18 @@
       },
       "sha256": "40129516f7bfd4a1f43728c6b032b884c6b71406e7f2b66ec2dd43eb733f5688"
     }
+  },
+  "robust-sea-squirt": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 880,
+        "top": 44,
+        "right": 1382,
+        "bottom": 929
+      },
+      "sha256": "c4d942a30d06e0ba0e865ad664ab2871d0ef21a64e423b15b21a40dd388bf8b3"
+    }
   }
 }

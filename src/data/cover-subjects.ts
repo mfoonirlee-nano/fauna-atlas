@@ -5031,5 +5031,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1515,
       "bottom": 720
     }
+  },
+  "robust-sea-squirt": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 880,
+      "top": 44,
+      "right": 1382,
+      "bottom": 929
+    }
   }
 };

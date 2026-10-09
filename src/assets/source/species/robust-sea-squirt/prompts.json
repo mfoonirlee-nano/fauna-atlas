@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "reviewedAt": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 Fauna Atlas cover, naturalistic scientific reconstruction. Ciona robusta solitary adult sea squirt: one elongated translucent pale cream tubular tunicate attached by broad base to a submerged rock, one terminal oral siphon and one shorter offset lateral atrial siphon, orange yellow siphon margins with discrete small red pigment spots. Complete adult including attached base and both siphons visible, green coastal underwater background. No fins legs tentacles or flowers. Composition: main complete subject occupies right half, center at 70% of width; quiet left 40%, generous background margins around every extremity; maximize subject in right half. Soft realistic lighting and authentic textures. No text labels watermark collage or scale bars.\nEdit: Edit this Ciona robusta scientific reconstruction cover. Preserve its complete body, two siphons, rock-attached base, composition, 1536x1024 dimensions, quiet left side and all environmental details. Correct only siphon rims: change orange/yellow rims to pale cream/translucent off-white, retain small discrete red pigment dots. Remove bright yellow/orange coloring from siphon openings, keep natural pale tunic and realistic underwater lighting. No text or watermark.",
+      "sourceSha256": "4fc0c20a789476ebab7072c7e7f7cfcc740d06b8ee7cef98c2ba20621dfbbd5b",
+      "runtimeSha256": "c4d942a30d06e0ba0e865ad664ab2871d0ef21a64e423b15b21a40dd388bf8b3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Ciona robusta: solitary pale translucent cylindrical adult tunicate attached by base, two separate tubular siphons, pale rims with subtle red pigment dots. No bright yellow margins, fins, limbs, tentacles. Scene: Closeup adult two distinct siphon mouths pale rims subtle red dots. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "7df164b1cf526a3f2a6c3d1b73a72756e78a1924cc6883b17b495923be021e28",
+      "runtimeSha256": "d77489f52b7bd8bba3390af3df32454ca2c12dd9fb63a9c60fd8aa2224acd840",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Ciona robusta: solitary pale translucent cylindrical adult tunicate attached by base, two separate tubular siphons, pale rims with subtle red pigment dots. No bright yellow margins, fins, limbs, tentacles. Scene: Whole adult rock attachment base and translucent tunic side view. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "41edd488feb4ab8876f2af713df97a225bbce8880e163ca4d5b468c15d0cf119",
+      "runtimeSha256": "df2a3145e6c122483ca4cf4042da103b064361d61b5cd987f205fa8619fcb3b4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Ciona robusta: solitary pale translucent cylindrical adult tunicate attached by base, two separate tubular siphons, pale rims with subtle red pigment dots. No bright yellow margins, fins, limbs, tentacles. Scene: Whole translucent adult with tiny suspended particles near oral siphon, filter feeding reconstruction no arrows. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "3e0f5f92fab128057de199828ddccf5e2a84d350992ccbf00911eb53dae780f7",
+      "runtimeSha256": "7339d54b9b58cdece89a8e34d97333b8ec9bb2b9f1eefe681db60d14cc021acf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Ciona robusta: solitary pale translucent cylindrical adult tunicate attached by base, two separate tubular siphons, pale rims with subtle red pigment dots. No bright yellow margins, fins, limbs, tentacles. Scene: One tiny Ciona robusta tadpole-shaped LARVA only: oval trunk unsegmented slender tail fin, no adult tubes legs fish fins, macro teaching view. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "f1fce75b027474c95739a37f1f6bd99ace69350ae9ce7f36e22bd39299030247",
+      "runtimeSha256": "d4f7fce23504ecdfcf63720d8a91f7246db2e5af44df85f0f6b4347b84542213",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 Fauna Atlas gallery image, naturalistic scientific reconstruction. Accurate anatomy: Ciona robusta: solitary pale translucent cylindrical adult tunicate attached by base, two separate tubular siphons, pale rims with subtle red pigment dots. No bright yellow margins, fins, limbs, tentacles. Scene: Several separate solitary adults on submerged pier wood, each distinct body and two siphons, not connected colony. Clear prominent observation subject, authentic textures, soft light. No text labels scale bars watermark collage humans or staged animal disturbance.",
+      "sourceSha256": "18fcda67702e842b280cc064d4ad37d0a47511486812172e5e15a4c2ba91b915",
+      "runtimeSha256": "0bda357137d4bfb96de4e1a129a501114ba94802e1fbd6a23ea4981e23a1eea3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

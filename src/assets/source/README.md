@@ -742,3 +742,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [双足蚓蜥 image set](./species/mexican-mole-lizard/README.md)
 - [大鳗螈 image set](./species/greater-siren/README.md)
 - [斑点银鲛 image set](./species/spotted-ratfish/README.md)
+- [强壮海鞘 image set](./species/robust-sea-squirt/README.md)
