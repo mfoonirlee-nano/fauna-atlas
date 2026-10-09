@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image for species atlas cover. Naturalistic detailed scientific reconstruction. Subject: Lampocteis cruentiventer bloody-belly comb jelly, transparent deep crimson-purple lobate gelatinous body with two broad short oral lobes, dark red central gut, eight longitudinal rows of tiny iridescent ciliary comb plates, ROV illumination causes rainbow diffraction along combs. Not a bell jellyfish, no long trailing tentacles. Environment: dark deep Pacific midwater with sparse marine snow, scientific ROV observation lighting. Composition: whole primary subject LARGE on RIGHT, full silhouette contained within x=730..1450 and y=100..900, center at 71% width; maximize size within these limits. All outer appendages and bubble raft (if present) must be included with background clearance. Left 40% quiet low-detail space for website text. No text, labels, scale bars, logo, watermark, collage, human features, or fantasy structures.",
+      "sourceSha256": "ba0efcb3da2c0600e8d607930b14b20e6fc95bfad5dcde772a2e69570bc582e6",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "d568b3a1ff6ff56846e8c3df2f98bf9353c381de033e91f14a5bbb62a2351bff",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Lampocteis cruentiventer bloody-belly comb jelly, transparent crimson-purple lobate gelatinous body with two broad short oral lobes, dark red central gut and eight longitudinal rows of tiny iridescent ciliary comb plates. Rainbow diffraction under observation lamp; not a bell jellyfish, no long trailing tentacles. Scene: three-quarter entire lobate red body and fine iridescent comb rows. Environment: dark deep Pacific midwater with sparse marine snow, scientific ROV observation light. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "dbf273c170d338cdda39a02c7eeb7c513531074427eb5f9cefa355a161af9d7d",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "99627e44baf71d904b0677dadd37432d2250d1f0ef89b7bf7add1f0d77f18865",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Lampocteis cruentiventer bloody-belly comb jelly, transparent crimson-purple lobate gelatinous body with two broad short oral lobes, dark red central gut and eight longitudinal rows of tiny iridescent ciliary comb plates. Rainbow diffraction under observation lamp; not a bell jellyfish, no long trailing tentacles. Scene: macro detail of one comb row, tiny parallel hairlike ciliary plates on gelatinous crimson body. Environment: dark deep Pacific midwater with sparse marine snow, scientific ROV observation light. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "e61d2ac4746d113b360115f5c3767864a82f126a9ca268b7d748e01b9a9332f5",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "e263f912b4faebbb2b93c3f65dcf54db0cf42bb56465d1262301a15c05dd87eb",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Lampocteis cruentiventer bloody-belly comb jelly, transparent crimson-purple lobate gelatinous body with two broad short oral lobes, dark red central gut and eight longitudinal rows of tiny iridescent ciliary comb plates. Rainbow diffraction under observation lamp; not a bell jellyfish, no long trailing tentacles. Scene: whole side profile with dark crimson gut within translucent purple-red body. Environment: dark deep Pacific midwater with sparse marine snow, scientific ROV observation light. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "109dd99e24a948212ecd23e1d0b7ed99463f9d72e2647f4cff3ca2610f038134",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "da6acf2dd320f99a126dc686e2dc06303ccb9afbddfeac910de597d7b2979462",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Lampocteis cruentiventer bloody-belly comb jelly, transparent crimson-purple lobate gelatinous body with two broad short oral lobes, dark red central gut and eight longitudinal rows of tiny iridescent ciliary comb plates. Rainbow diffraction under observation lamp; not a bell jellyfish, no long trailing tentacles. Scene: oblique view of broad oral lobes and comb rows, no invented prey. Environment: dark deep Pacific midwater with sparse marine snow, scientific ROV observation light. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "b81a9ef72d9eb26d876cf2438a1ed6bf0f5e121490ae416c9e333c4e23854f22",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "be698bcb28da8115f1441b357466083bb9cb515c6c618205fb53110b03ad5f73",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Lampocteis cruentiventer bloody-belly comb jelly, transparent crimson-purple lobate gelatinous body with two broad short oral lobes, dark red central gut and eight longitudinal rows of tiny iridescent ciliary comb plates. Rainbow diffraction under observation lamp; not a bell jellyfish, no long trailing tentacles. Scene: wide dark deep midwater with single red comb jelly illuminated by observation lamp and sparse marine snow. Environment: dark deep Pacific midwater with sparse marine snow, scientific ROV observation light. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "9b0f779fe88708147e71b6fe504dad2b7c08e18c3ec00fb8a902c0c9110e4397",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "3dd6b1444fd1b1d47dafce8b8243a553105ac622e565146d69d4d3fc6fbe4f9a",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}

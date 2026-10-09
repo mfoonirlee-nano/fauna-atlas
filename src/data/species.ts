@@ -138002,6 +138002,249 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "bloody-belly-comb-jelly",
+  "slug": "bloody-belly-comb-jelly",
+  "names": {
+    "zh": "血腹栉水母",
+    "en": "Bloody-belly Comb Jelly"
+  },
+  "scientificName": "Lampocteis cruentiventer",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Ctenophora",
+      "zhName": "栉水母动物门"
+    },
+    "class": {
+      "scientificName": "Tentaculata",
+      "zhName": "触手纲"
+    },
+    "order": {
+      "scientificName": "Lobata",
+      "zhName": "兜水母目"
+    },
+    "family": {
+      "scientificName": "Lampoctenidae",
+      "zhName": "灯栉水母科"
+    },
+    "genus": {
+      "scientificName": "Lampocteis",
+      "zhName": "灯栉水母属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "北美洲",
+      "亚洲"
+    ],
+    "regions": [
+      "北太平洋深层水域"
+    ],
+    "countries": [],
+    "range": "MBARI 列出北太平洋范围，包括加拿大至下加利福尼亚及日本。记录水深约 250—1500 米，生活在水体中层而非固定在海底；不同资料的观察深度区间不完全相同。"
+  },
+  "habitats": [
+    {
+      "name": "深海中层水域",
+      "realm": "marine",
+      "description": "MBARI 列出北太平洋范围，包括加拿大至下加利福尼亚及日本。记录水深约 250—1500 米，生活在水体中层而非固定在海底；不同资料的观察深度区间不完全相同。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "max": 16,
+      "unit": "cm",
+      "note": "MBARI 给出的最大大小，非所有个体的固定体长。"
+    }
+  },
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [],
+    "description": "属于捕食性栉水母。MBARI 与蒙特雷湾水族馆将具体食谱列为未知；本档案不编造某一种鱼、虾或固定取食比例。"
+  },
+  "tags": [
+    "血腹栉水母",
+    "深海中层水域"
+  ],
+  "summary": "血腹栉水母用梳状纤毛游动，观察灯下能看见红色腹部和彩色光带。",
+  "description": "在观察灯照亮的图像里，先找身体侧面一行行的梳状纤毛，再看中央深红色的消化区域。彩色光带来自纤毛对入射光的衍射。深海里红色显得很暗，红色腹部能遮掩吞入猎物的光。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "沿身体找彩色光带",
+      "body": "梳板由许多细小纤毛组成，动物靠纤毛摆动游泳。观察灯照射后，可在梳板上看见衍射形成的彩色光带。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "一排排梳状纤毛",
+      "body": "微距图放大一条梳板行。光带随光线和角度改变，生成图不用于计数纤毛，也不是实际显微照片。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "中央的深红色",
+      "body": "深红色消化区域能遮掩吞入的发光猎物。观察灯让红色显现，自然深海的环境光不能让它像图中一样鲜亮。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "柔软的口叶",
+      "body": "身体前端有宽大的口叶。它属于栉水母动物门，图中的柔软口叶和梳板帮助区分常见伞状水母外形。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "游在深海水体中",
+      "body": "周围可见细小漂浮颗粒。画面采用模拟观察灯；具体食谱仍不明确，不在图中虚构某种猎物或进食过程。"
+    }
+  ],
+  "keyFacts": [
+    "属于栉水母动物门。",
+    "身体有八行梳板。",
+    "梳板的彩色光带来自入射光的衍射。",
+    "MBARI 列出的最大体长为 16 厘米，具体食谱未知。"
+  ],
+  "threats": [
+    "本次未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "通过影像观察，保留来源与物种限定。",
+    "减少水域污染，野外观察不取走活体。"
+  ],
+  "metrics": {
+    "maxDiveDepthM": 1500
+  },
+  "featuredStats": [
+    {
+      "key": "combs",
+      "label": "梳板行",
+      "value": "8 行"
+    },
+    {
+      "key": "depth",
+      "label": "记录水深",
+      "value": "250—1500",
+      "unit": "m"
+    },
+    {
+      "key": "length",
+      "label": "最大体长",
+      "value": "16",
+      "unit": "cm"
+    }
+  ],
+  "media": {
+    "image": "./images/species/bloody-belly-comb-jelly/01-cover.webp",
+    "alt": "血腹栉水母及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/bloody-belly-comb-jelly/02-observation.webp",
+        "title": "沿身体找彩色光带",
+        "alt": "血腹栉水母：沿身体找彩色光带",
+        "caption": "AI 生成科学情景重建。梳板由许多细小纤毛组成，动物靠纤毛摆动游泳。观察灯照射后，可在梳板上看见衍射形成的彩色光带。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bloody-belly-comb-jelly/03-observation.webp",
+        "title": "一排排梳状纤毛",
+        "alt": "血腹栉水母：一排排梳状纤毛",
+        "caption": "AI 生成科学情景重建。微距图放大一条梳板行。光带随光线和角度改变，生成图不用于计数纤毛，也不是实际显微照片。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bloody-belly-comb-jelly/04-observation.webp",
+        "title": "中央的深红色",
+        "alt": "血腹栉水母：中央的深红色",
+        "caption": "AI 生成科学情景重建。深红色消化区域能遮掩吞入的发光猎物。观察灯让红色显现，自然深海的环境光不能让它像图中一样鲜亮。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bloody-belly-comb-jelly/05-observation.webp",
+        "title": "柔软的口叶",
+        "alt": "血腹栉水母：柔软的口叶",
+        "caption": "AI 生成科学情景重建。身体前端有宽大的口叶。它属于栉水母动物门，图中的柔软口叶和梳板帮助区分常见伞状水母外形。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bloody-belly-comb-jelly/06-observation.webp",
+        "title": "游在深海水体中",
+        "alt": "血腹栉水母：游在深海水体中",
+        "caption": "AI 生成科学情景重建。周围可见细小漂浮颗粒。画面采用模拟观察灯；具体食谱仍不明确，不在图中虚构某种猎物或进食过程。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "MBARI：血腹栉水母",
+      "url": "https://www.mbari.org/animal/bloody-belly-comb-jelly/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "蒙特雷湾水族馆：梳板衍射与生活范围",
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/bloodybelly-comb-jelly",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：接受学名与分类",
+      "url": "https://www.marinespecies.org/aphia.php?id=265955&p=taxdetails",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 

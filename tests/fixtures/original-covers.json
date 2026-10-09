@@ -4145,5 +4145,18 @@
       },
       "sha256": "c9336e9c375885f5d1514a0cd22b73397eff8285a8365bc4af902f6823d2bcd6"
     }
+  },
+  "bloody-belly-comb-jelly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 46,
+        "right": 1432,
+        "bottom": 937
+      },
+      "sha256": "d568b3a1ff6ff56846e8c3df2f98bf9353c381de033e91f14a5bbb62a2351bff"
+    }
   }
 }

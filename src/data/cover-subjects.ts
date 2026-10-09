@@ -4981,5 +4981,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1498,
       "bottom": 835
     }
+  },
+  "bloody-belly-comb-jelly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 675,
+      "top": 46,
+      "right": 1432,
+      "bottom": 937
+    }
   }
 };
