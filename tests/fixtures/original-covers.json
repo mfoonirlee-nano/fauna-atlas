@@ -4236,5 +4236,18 @@
       },
       "sha256": "2d6d2eee5594aad37c03a78953e4d778499c82c723aae0e6ebd14f26d106f7da"
     }
+  },
+  "hispaniolan-solenodon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 500,
+        "top": 175,
+        "right": 1495,
+        "bottom": 800
+      },
+      "sha256": "ee0c42b3aa42144bf282ba8847dfdfabd02408d073d7f1b46945afc3520979d3"
+    }
   }
 }

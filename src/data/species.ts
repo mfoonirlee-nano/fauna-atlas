@@ -139631,6 +139631,261 @@ export const species = [
   "updatedAt": "2026-10-09"
 },
 
+{
+  "id": "hispaniolan-solenodon",
+  "slug": "hispaniolan-solenodon",
+  "names": {
+    "zh": "海地沟齿鼩",
+    "en": "Hispaniolan Solenodon"
+  },
+  "scientificName": "Solenodon paradoxus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Eulipotyphla",
+      "zhName": "真盲缺目"
+    },
+    "family": {
+      "scientificName": "Solenodontidae",
+      "zhName": "沟齿鼩科"
+    },
+    "genus": {
+      "scientificName": "Solenodon",
+      "zhName": "沟齿鼩属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "伊斯帕尼奥拉岛"
+    ],
+    "countries": [
+      "海地",
+      "多米尼加共和国"
+    ],
+    "range": "伊斯帕尼奥拉岛。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "热带林地",
+      "realm": "terrestrial",
+      "description": "它夜间在地面活动，用前足拨开土和落叶，白天利用树根、岩隙或洞穴隐蔽。看自然录像时，可以观察鼻尖探查与前足拨动的先后。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore",
+      "insectivore"
+    ],
+    "foods": [
+      "昆虫",
+      "蚯蚓",
+      "其他小型无脊椎动物"
+    ],
+    "description": "它主要寻找昆虫等小型动物，植物性食物的记录在旧资料中有分歧，本批不采用固定杂食比例。下颌牙齿的沟槽与带毒唾液有关；这一结构来自解剖和研究资料，外观图片无法展示毒液输送过程。"
+  },
+  "tags": [
+    "海地沟齿鼩",
+    "热带林地"
+  ],
+  "summary": "长鼻尖、长尾。",
+  "description": "海地沟齿鼩有细长而能活动的吻部，小眼睛藏在褐色毛间，尾部的毛很少。它属于沟齿鼩科，展示名中的海地指向所在岛屿，分布也包括多米尼加共和国。它夜间在地面活动，用前足拨开土和落叶，白天利用树根、岩隙或洞穴隐蔽。看自然录像时，可以观察鼻尖探查与前足拨动的先后。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "细长的鼻尖",
+      "body": "海地沟齿鼩有细长而能活动的吻部，小眼睛藏在褐色毛间，尾部的毛很少。它属于沟齿鼩科，展示名中的海地指向所在岛屿，分布也包括多米尼加共和国。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它夜间在地面活动，用前足拨开土和落叶，白天利用树根、岩隙或洞穴隐蔽。看自然录像时，可以观察鼻尖探查与前足拨动的先后。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它主要寻找昆虫等小型动物，植物性食物的记录在旧资料中有分歧，本批不采用固定杂食比例。下颌牙齿的沟槽与带毒唾液有关；这一结构来自解剖和研究资料，外观图片无法展示毒液输送过程。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它胎生并哺乳。图片只展示成体外形和林地情景，本批没有把未经逐项核对的妊娠天数、幼仔数量或寿命写成物种常数。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本档案对应 Solenodon paradoxus，与古巴沟齿鼩分开。AI 重建中的毛色、足趾和鼻尖细节供共读观察，不能作为近似种鉴定或野外记录。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护热带林地及其自然隐蔽空间。共读时先观察图中的细长的鼻尖，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "鼻尖可以活动，长吻帮助探查地面。局部放大图没有实物比例尺。",
+    "前脚带爪，动物在地面拨动底质寻找食物。静态图不展示完整挖掘动作。",
+    "它夜间活动；画面为林地情景重建，不能据此计算活动时间。",
+    "树根和洞隙提供隐蔽空间，画面不代表实测巢穴结构。",
+    "尾巴与覆盖粗毛的身体形成外观差异，完整尾端保留在图中。",
+    "本档案对应 Solenodon paradoxus，与古巴沟齿鼩分开。AI 重建中的毛色、足趾和鼻尖细节供共读观察，不能作为近似种鉴定或野外记录。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "森林栖息地改变",
+    "外来捕食者"
+  ],
+  "conservationActions": [
+    "保护热带林地与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带林地"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "细长的鼻尖"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/hispaniolan-solenodon/01-cover.webp",
+    "alt": "海地沟齿鼩及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/hispaniolan-solenodon/02-observation.webp",
+        "title": "细长的鼻尖",
+        "alt": "海地沟齿鼩：细长的鼻尖，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。鼻尖可以活动，长吻帮助探查地面。局部放大图没有实物比例尺。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hispaniolan-solenodon/03-observation.webp",
+        "title": "拨开落叶的前脚",
+        "alt": "海地沟齿鼩：拨开落叶的前脚，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。前脚带爪，动物在地面拨动底质寻找食物。静态图不展示完整挖掘动作。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hispaniolan-solenodon/04-observation.webp",
+        "title": "夜晚的林地",
+        "alt": "海地沟齿鼩：夜晚的林地，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。它夜间活动；画面为林地情景重建，不能据此计算活动时间。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hispaniolan-solenodon/05-observation.webp",
+        "title": "树根旁的隐蔽处",
+        "alt": "海地沟齿鼩：树根旁的隐蔽处，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。树根和洞隙提供隐蔽空间，画面不代表实测巢穴结构。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/hispaniolan-solenodon/06-observation.webp",
+        "title": "毛少的尾巴",
+        "alt": "海地沟齿鼩：毛少的尾巴，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。尾巴与覆盖粗毛的身体形成外观差异，完整尾端保留在图中。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/5219470",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "密歇根大学 ADW：海地沟齿鼩",
+      "url": "https://animaldiversity.org/accounts/Solenodon_paradoxus/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "ASM MDD：真盲缺目归属",
+      "url": "https://www.mammaldiversity.org/taxon/1003840/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "PNAS：沟齿鼩毒液与基因组研究",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6926037/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
+
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

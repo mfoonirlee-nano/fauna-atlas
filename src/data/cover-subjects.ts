@@ -5051,5 +5051,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1458,
       "bottom": 840
     }
+  },
+  "hispaniolan-solenodon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 500,
+      "top": 175,
+      "right": 1495,
+      "bottom": 800
+    }
   }
 };

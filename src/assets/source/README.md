@@ -744,3 +744,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [斑点银鲛 image set](./species/spotted-ratfish/README.md)
 - [强壮海鞘 image set](./species/robust-sea-squirt/README.md)
 - [海萤 image set](./species/sea-firefly/README.md)
+
+- [海地沟齿鼩 image set](./species/hispaniolan-solenodon/README.md)

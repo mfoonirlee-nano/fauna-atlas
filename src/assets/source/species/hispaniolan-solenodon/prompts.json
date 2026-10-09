@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate a single landscape 1536x1024 wildlife scientific reconstruction for a species atlas cover: Hispaniolan solenodon, Solenodon paradoxus, a stocky shrew-like mammal with shaggy dark brown fur, paler reddish face and legs, very long slender flexible pink snout, small eyes, rounded ears, long nearly naked scaly tail, five clawed toes. One complete animal foraging quietly on leaf litter in a humid Hispaniolan forest at twilight. Full body in side three-quarter view facing left, primary animal entirely on the right with center at 70 percent width, body including entire tail, feet and snout confined between x 650 and 1450, y 180 and 850; left 40 percent quiet forest floor for text. Maximize clear animal size with background clearance, show anatomically plausible details. Natural documentary aesthetic, explicitly a reconstruction not real field evidence. No text, no watermark, no panels.",
+      "originalPrompt": null,
+      "sourceSha256": "97dcdc623b29c74f9b5fc777c5334bc2c64496a3790480a4a6e43b2362cfda0a",
+      "runtimeSha256": "ee0c42b3aa42144bf282ba8847dfdfabd02408d073d7f1b46945afc3520979d3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Solenodon paradoxus (Hispaniolan Solenodon). Anatomy: stocky shrew-like mammal, shaggy dark brown fur, reddish face and legs, very long slender flexible pink snout, small eyes, round ears, long nearly naked scaly tail, five clawed toes. Scene: close view of long flexible snout and whiskers. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "e981d9610b85b11579321f686b7350fa377ac913446def3c0c02429a7b03c927",
+      "runtimeSha256": "983d64516320176a99ab4078a82f3c16d1c6727342d17bc7efda74003d93e2a8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Solenodon paradoxus (Hispaniolan Solenodon). Anatomy: stocky shrew-like mammal, shaggy dark brown fur, reddish face and legs, very long slender flexible pink snout, small eyes, round ears, long nearly naked scaly tail, five clawed toes. Scene: side view of forefeet on leaf litter. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "bc04e1eaba21744913abf31d87feef3559b8b51a616c67cbdf49d44da6771d86",
+      "runtimeSha256": "29c925872f48192cd17ff2f67c40f754ecfabd4d8b6ee6df5345a62cf097db3e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Solenodon paradoxus (Hispaniolan Solenodon). Anatomy: stocky shrew-like mammal, shaggy dark brown fur, reddish face and legs, very long slender flexible pink snout, small eyes, round ears, long nearly naked scaly tail, five clawed toes. Scene: whole animal gently sniffing loose forest soil at night. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "afa6c71e5ce2f9289568a2d587865d08a0fb9b3c18ab55fadbf0f05a704e94d0",
+      "runtimeSha256": "dd9d0ba6106bc8d08780db6fad4222524cd6c52c9e418814ee256189c45d5896",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Solenodon paradoxus (Hispaniolan Solenodon). Anatomy: stocky shrew-like mammal, shaggy dark brown fur, reddish face and legs, very long slender flexible pink snout, small eyes, round ears, long nearly naked scaly tail, five clawed toes. Scene: whole animal near natural root shelter. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "b88ceb82163af73e145e853dd8a0ecd6373f234e5eb1e5c04eed2a961cc197b2",
+      "runtimeSha256": "444653a26cfd637e0697449346cc9b46c1a7a734b3a27241e54dc8f03a5ae04c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Solenodon paradoxus (Hispaniolan Solenodon). Anatomy: stocky shrew-like mammal, shaggy dark brown fur, reddish face and legs, very long slender flexible pink snout, small eyes, round ears, long nearly naked scaly tail, five clawed toes. Scene: side view showing long naked tail behind furry body. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "2ae073970891bb383e24f322d8e301ed0df884626ff31cb653a79138fac19665",
+      "runtimeSha256": "d9ab80aea05b7a938bf135b09459b52632680a5c343fe34a44d5467d405422c4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
