@@ -144020,6 +144020,232 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "great-potoo",
+  "slug": "great-potoo",
+  "names": {
+    "zh": "大林鸱",
+    "en": "Great Potoo"
+  },
+  "scientificName": "Nyctibius grandis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Nyctibiiformes",
+      "zhName": "林鸱目"
+    },
+    "family": {
+      "scientificName": "Nyctibiidae",
+      "zhName": "林鸱科"
+    },
+    "genus": {
+      "scientificName": "Nyctibius",
+      "zhName": "林鸱属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "中美洲与南美洲热带地区"
+    ],
+    "countries": [],
+    "range": "中美洲与南美洲热带地区。范围由本批资料限定，不能从生成图推断地点。"
+  },
+  "habitats": [
+    {
+      "name": "热带森林",
+      "realm": "terrestrial",
+      "description": "它在白天静止停栖，常沿树枝或断枝的方向伸直身体；夜间从栖枝出发捕捉空中的猎物。图中闭眼姿态不代表全天闭眼。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "大型飞行昆虫",
+      "部分小型脊椎动物"
+    ],
+    "description": "它以夜间飞行昆虫为主要猎物，也有小型脊椎动物记录。图库用栖枝和飞蛾同框说明环境，不描绘夸大的吞食过程。"
+  },
+  "tags": [
+    "大林鸱",
+    "热带森林"
+  ],
+  "summary": "大林鸱：树桩旁的身体轮廓。",
+  "description": "大林鸱头较大，嘴外观短，张口时口裂宽。灰白、褐色与深色斑纹覆盖身体，长尾的羽纹与树皮颜色相近。它在白天静止停栖，常沿树枝或断枝的方向伸直身体；夜间从栖枝出发捕捉空中的猎物。图中闭眼姿态不代表全天闭眼。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "树桩旁的身体轮廓",
+      "body": "大林鸱头较大，嘴外观短，张口时口裂宽。灰白、褐色与深色斑纹覆盖身体，长尾的羽纹与树皮颜色相近。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "热带森林",
+      "body": "它在白天静止停栖，常沿树枝或断枝的方向伸直身体；夜间从栖枝出发捕捉空中的猎物。图中闭眼姿态不代表全天闭眼。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它以夜间飞行昆虫为主要猎物，也有小型脊椎动物记录。图库用栖枝和飞蛾同框说明环境，不描绘夸大的吞食过程。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它利用树枝凹处等天然位置产一枚卵，不搭建常见杯状巢。亲鸟孵卵并照料幼鸟；画中的树桩不是所有巢位的统一形状。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Nyctibius grandis，属于鸟纲、林鸱目、林鸱科。图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先看图，再读资料",
+      "body": "共读时先找树桩旁的身体轮廓。图片为 AI 科学情景重建，不代替鉴定、测量或行为实录。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "大林鸱头较大，嘴外观短，张口时口裂宽。灰白、褐色与深色斑纹覆盖身体，长尾的羽纹与树皮颜色相近。",
+    "它利用树枝凹处等天然位置产一枚卵，不搭建常见杯状巢。亲鸟孵卵并照料幼鸟；画中的树桩不是所有巢位的统一形状。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "栖息地改变与人为干扰；本批未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "保留自然隐蔽空间，观察时保持距离，不捕捉、翻动或诱发行为。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "热带森林"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "树桩旁的身体轮廓"
+    }
+  ],
+  "media": {
+    "image": "./images/species/great-potoo/01-cover.webp",
+    "alt": "大林鸱及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/great-potoo/02-observation.webp",
+        "title": "像断枝的姿态",
+        "alt": "大林鸱：像断枝的姿态，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。白天停栖重建，不通过惊吓诱导姿态。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-potoo/03-observation.webp",
+        "title": "夜间的大眼睛",
+        "alt": "大林鸱：夜间的大眼睛，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。模拟夜间观察照明，瞳孔大小受光照影响。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-potoo/04-observation.webp",
+        "title": "短嘴下的宽口裂",
+        "alt": "大林鸱：短嘴下的宽口裂，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。自然张口姿态，口裂宽不等于嘴角受伤。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-potoo/05-observation.webp",
+        "title": "夜里的栖枝",
+        "alt": "大林鸱：夜里的栖枝，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。飞蛾同框不是捕食实录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/great-potoo/06-observation.webp",
+        "title": "天然凹处的一枚卵",
+        "alt": "大林鸱：天然凹处的一枚卵，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。亲鸟在天然枝端凹处孵卵，卵由身体遮挡；画面不用于测量巢位。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "ADW：大林鸱的外形与生活史",
+      "url": "https://animaldiversity.org/accounts/Nyctibius_grandis/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "GBIF：接受学名与分类定位",
+      "url": "https://www.gbif.org/species/2496801",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 

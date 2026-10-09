@@ -4470,5 +4470,18 @@
       },
       "sha256": "9aedc7739b5cdc5715badbe5110971fe0b5d8bd4da16ba04cf7ad8ec0d9d634e"
     }
+  },
+  "great-potoo": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 910,
+        "top": 25,
+        "right": 1330,
+        "bottom": 1005
+      },
+      "sha256": "2e64e9f508166d4d4e935248b82ed7063564bf3ad26e36c85989ac6d5e9fc9f2"
+    }
   }
 }

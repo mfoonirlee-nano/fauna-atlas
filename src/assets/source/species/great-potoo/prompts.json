@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Nyctibius grandis (Great Potoo). Anatomy: large mottled pale grey-brown nocturnal bird, broad head, huge yellow-brown iris with dark pupils, tiny bill but broad gape, long tail, no owl ear tufts. Scene: upright tropical American dead tree stump. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "f69e616cfa2cc313a6149b49f265cf74a978d1ed59f4e454305630765a0581d0",
+      "runtimeSha256": "2e64e9f508166d4d4e935248b82ed7063564bf3ad26e36c85989ac6d5e9fc9f2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Nyctibius grandis (Great Potoo). Anatomy: large mottled pale grey-brown nocturnal bird, broad head, huge yellow-brown iris with dark pupils, tiny bill but broad gape, long tail, no owl ear tufts. Scene: upright bird with closed eyes mimicking a broken branch. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "9763a9fa8326d2eb71dbf770f30c52a4082b5756b9e2afbb7f07c0e647dc13b0",
+      "runtimeSha256": "035f43b58b48506792710d0c5081a66aa00375976ab3b900292fb7506614b7be",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Nyctibius grandis (Great Potoo). Anatomy: large mottled pale grey-brown nocturnal bird, broad head, huge yellow-brown iris with dark pupils, tiny bill but broad gape, long tail, no owl ear tufts. Scene: close broad head with open yellow-brown eyes at dusk. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "b0ecf72ac50dd44a4afc6e9b34a66b50ac5ecb5980c708289d9a7940776e3323",
+      "runtimeSha256": "48a9fdfb245819317cbfc97d31bd703101a30fd0c20e9817164f0790a657663f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Nyctibius grandis (Great Potoo). Anatomy: large mottled pale grey-brown nocturnal bird, broad head, huge yellow-brown iris with dark pupils, tiny bill but broad gape, long tail, no owl ear tufts. Scene: side view with naturally open broad gape, no distress. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "a1b0c5f46e2b1e79c4032ea9d9bcea18c82e411fe1f7a88beaf2e4797884f6b1",
+      "runtimeSha256": "9e6c9e9f2d07cd159418eb2ccefd90ec439a1d61e58e3454186a60be12d147e3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Nyctibius grandis (Great Potoo). Anatomy: large mottled pale grey-brown nocturnal bird, broad head, huge yellow-brown iris with dark pupils, tiny bill but broad gape, long tail, no owl ear tufts. Scene: adult at night on branch with moth nearby, no attack. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "3ae357131c7afffad38c8b1ba912b77b9b6c50f0b20a3006252e1c78da90a6e1",
+      "runtimeSha256": "cfa5d751fc1dca2a2a4f5776ae480c058e51b97f9224d67ab244328d972fbb60",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Nyctibius grandis (Great Potoo). Anatomy: large mottled pale grey-brown nocturnal bird, broad head, huge yellow-brown iris with dark pupils, tiny bill but broad gape, long tail, no owl ear tufts. Scene: single adult sitting over one egg on flat natural stump tip. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "db38016e56b1a28641fa13f74ad6f58b289eb4706f192094025a6d7b5735e6e3",
+      "runtimeSha256": "2562628e93a81298582d40ec8c2ae67df8a248e515e7ffe59c0a9c9aa9f3bc09",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -764,3 +764,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [大响蜜鴷 image set](./species/greater-honeyguide/README.md)
 - [红交嘴雀 image set](./species/red-crossbill/README.md)
 - [丘鹬 image set](./species/eurasian-woodcock/README.md)
+- [大林鸱 image set](./species/great-potoo/README.md)

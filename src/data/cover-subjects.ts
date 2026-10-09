@@ -5231,5 +5231,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 890
     }
+  },
+  "great-potoo": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 910,
+      "top": 25,
+      "right": 1330,
+      "bottom": 1005
+    }
   }
 };
