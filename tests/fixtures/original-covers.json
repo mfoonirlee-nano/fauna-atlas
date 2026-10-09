@@ -4067,5 +4067,18 @@
       },
       "sha256": "5634fc7ed547c98632af5901a60d24a6a5454381a393b28c7f4d49223ffc482d"
     }
+  },
+  "strawberry-squid": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 635,
+        "top": 128,
+        "right": 1450,
+        "bottom": 908
+      },
+      "sha256": "ef1ab30bb410f7ddea80b777034ff01f1d26d4fa5b7d33ec76908307cd8036d5"
+    }
   }
 }

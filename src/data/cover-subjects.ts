@@ -4921,5 +4921,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 901
     }
+  },
+  "strawberry-squid": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 635,
+      "top": 128,
+      "right": 1450,
+      "bottom": 908
+    }
   }
 };

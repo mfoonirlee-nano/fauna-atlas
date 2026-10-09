@@ -1,0 +1,62 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Edit this species atlas cover composition. Preserve species identity, realistic anatomy, color, texture and quiet aquatic background. Reposition and rescale the complete animal so ALL outer silhouette, including antennae, limbs, fins and tentacle tips, fits strictly within x=680..1480 and y=90..930 of a 1536x1024 image. Left 40% must contain background ONLY, no part of animal. Animal remains as large as possible within that box, centered around 72% image width. Preserve all appendages and background margins. No text, no collage.",
+      "originalPrompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration for species atlas cover. Subject: Histioteuthis heteropsis strawberry squid, red strawberry-colored mantle speckled with discrete photophores, asymmetric eyes: left eye conspicuously large yellow-green, right eye smaller blue dark, short rounded fins, eight arms and two tentacles with natural overlap. Scene: full entire squid seen from left three-quarter side with large left yellow eye prominent, all arms and tentacle tips within frame. Environment: dark open deep sea water lit by a scientific ROV, sparse marine snow, no seabed. Large full animal occupies right half, center x=73% width; entire silhouette within x=760..1460 and y=160..900 including every tip. Left 40% quiet negative space. Maximize subject inside those bounds, background clearance at every edge. Accurate taxon anatomy. No text, fake scale bars, watermark, collage, or anthropomorphic features.",
+      "previousSourceSha256": "5652473372bf949b64e8460b9c85c28db698a661f93a2a4d813936fc25c10859",
+      "sourceSha256": "da94785bd7dc193788b05c38c94c5d4ec8f6ce04495f624bdbd814aa8587aca6",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "ef1ab30bb410f7ddea80b777034ff01f1d26d4fa5b7d33ec76908307cd8036d5",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Histioteuthis heteropsis strawberry squid, red strawberry-colored mantle speckled with discrete photophores, asymmetric eyes: left eye conspicuously large yellow-green, right eye smaller blue dark, short rounded fins, eight arms and two tentacles with natural overlap. Specific scene: left side view highlighting large yellow-green eye, red photophore-speckled mantle. Environment: dark open deep sea water lit by a scientific ROV, sparse marine snow, no seabed. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "94fe909fdd5933c509c0137f8478232366a9828ef3a9e042e7a065ac6fb6c2b4",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "07dc6e1f0e445bba167da759e6031aa0b6ae18d6422296fac9dee8957400e8e0",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Histioteuthis heteropsis strawberry squid, red strawberry-colored mantle speckled with discrete photophores, asymmetric eyes: left eye conspicuously large yellow-green, right eye smaller blue dark, short rounded fins, eight arms and two tentacles with natural overlap. Specific scene: right side view highlighting smaller darker blue eye, anatomically correct smaller eye; no large eye on visible right side. Environment: dark open deep sea water lit by a scientific ROV, sparse marine snow, no seabed. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "dec43cfbe2535cb3df0def678cb82601b9d55b4e20ce2aafc2208d2764a9fb36",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "169d9049cc5a52b42777a30d25aa1da5dce8a27f5e07c6c118ffc91913f8728f",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Histioteuthis heteropsis strawberry squid, red strawberry-colored mantle speckled with discrete photophores, asymmetric eyes: left eye conspicuously large yellow-green, right eye smaller blue dark, short rounded fins, eight arms and two tentacles with natural overlap. Specific scene: full squid floating tilted head-down with large left eye facing upward toward faint surface light. Environment: dark open deep sea water lit by a scientific ROV, sparse marine snow, no seabed. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "49034c892f60817b59ac3e6bbcd44b0e830082da75f86a6dbcfe36aebcd6f254",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "aa470ecaca806fdb3c1f77ce9ea25e66eb4202f29bd2b5602838755a860f2ef0",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Histioteuthis heteropsis strawberry squid, red strawberry-colored mantle speckled with discrete photophores, asymmetric eyes: left eye conspicuously large yellow-green, right eye smaller blue dark, short rounded fins, eight arms and two tentacles with natural overlap. Specific scene: macro view of mantle photophore dots embedded in red skin; no luminous rainbow. Environment: dark open deep sea water lit by a scientific ROV, sparse marine snow, no seabed. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "a2e2add9ecc2436433b55bd98f2f8026997abd725c10d13668224fa0dd037e9d",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "c3a98bfcb310f35828e852c17196112cd2c6f2aa997d0280f23d3544106d46e8",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic scientific illustration, species atlas gallery. Subject: Histioteuthis heteropsis strawberry squid, red strawberry-colored mantle speckled with discrete photophores, asymmetric eyes: left eye conspicuously large yellow-green, right eye smaller blue dark, short rounded fins, eight arms and two tentacles with natural overlap. Specific scene: full squid swimming in midwater, fins beside mantle and arms loosely extended, quiet dark backdrop. Environment: dark open deep sea water lit by a scientific ROV, sparse marine snow, no seabed. Clearly readable accurate anatomy; comfortable margins, center composition. No text, fake scale bars, watermark, collage or anthropomorphic features.",
+      "sourceSha256": "593068997db0bf61019eedab996a60f544c4a903723a28e8e972f80ad226cae4",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "0706383c27b7c2c0401fff998013c58373c63c3d7df7081a7d1b966a50ef9026",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}
