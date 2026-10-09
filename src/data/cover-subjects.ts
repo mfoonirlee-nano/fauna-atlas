@@ -4971,5 +4971,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 884
     }
+  },
+  "upside-down-jellyfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 722,
+      "top": 260,
+      "right": 1498,
+      "bottom": 835
+    }
   }
 };

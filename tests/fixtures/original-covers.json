@@ -4132,5 +4132,18 @@
       },
       "sha256": "d044395c9a74df9e9cbe3cf17f9f45d9ac81e2a1e711d98a453a4517d14343ca"
     }
+  },
+  "upside-down-jellyfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 722,
+        "top": 260,
+        "right": 1498,
+        "bottom": 835
+      },
+      "sha256": "c9336e9c375885f5d1514a0cd22b73397eff8285a8365bc4af902f6823d2bcd6"
+    }
   }
 }

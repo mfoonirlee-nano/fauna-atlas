@@ -1,0 +1,63 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image for species atlas cover. Naturalistic detailed scientific reconstruction. Subject: Cassiopea xamachana upside-down jellyfish, broad flattened tan bell lying flat ON sandy bottom, branching frilly brown oral arms rising UP into the water, some pale blue appendages, whole bell and all arm tips visible. No hanging long tentacles. Environment: sunlit shallow Caribbean mangrove lagoon floor. Composition: whole primary subject LARGE on RIGHT, full silhouette contained within x=730..1450 and y=100..900, center at 71% width; maximize size within these limits. All outer appendages and bubble raft (if present) must be included with background clearance. Left 40% quiet low-detail space for website text. No text, labels, scale bars, logo, watermark, collage, human features, or fantasy structures.",
+      "sourceSha256": "e431e736c8b2843f7a48882271a0ca9e21711fb6fbba8043aa6ae321ac9902b6",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "c9336e9c375885f5d1514a0cd22b73397eff8285a8365bc4af902f6823d2bcd6",
+      "runtimeDimensions": "1536 1024",
+      "editPrompt": "Edit this existing Cassiopea xamachana cover. Preserve naturalistic upside-down jellyfish anatomy, bell touching sand and oral arms upward, lighting and mangrove lagoon. Recompose entire jellyfish slightly smaller and further right so EVERY bell edge and branching oral-arm tip lies within x=650..1460 and y=140..880 in 1536x1024 image. Whole subject center beyond 60%, left 40% quiet water/sand background. Maximize full animal within these bounds, real background at every edge. No text, labels, new animals or changes of species.",
+      "originalSourceSha256": "b95b84bf478981b8d988c24555fbdf13657e6c16ac1a586d0186c1bd44ea12ed",
+      "originalPrompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image for species atlas cover. Naturalistic detailed scientific reconstruction. Subject: Cassiopea xamachana upside-down jellyfish, broad flattened tan bell lying flat ON sandy bottom, branching frilly brown oral arms rising UP into the water, some pale blue appendages, whole bell and all arm tips visible. No hanging long tentacles. Environment: sunlit shallow Caribbean mangrove lagoon floor. Composition: whole primary subject LARGE on RIGHT, full silhouette contained within x=730..1450 and y=100..900, center at 71% width; maximize size within these limits. All outer appendages and bubble raft (if present) must be included with background clearance. Left 40% quiet low-detail space for website text. No text, labels, scale bars, logo, watermark, collage, human features, or fantasy structures."
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Cassiopea xamachana upside-down jellyfish, broad flattened tan bell lying ON sand and many branching frilly brown oral arms rising UP into water, pale blue appendages, no long dangling tentacles. Scene: low side view full bell on sand with branching oral arms directed upward. Environment: sunlit shallow Caribbean mangrove lagoon bottom. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "c57bf11b6b5865ccacc57edd826843cdd40d3f7ce5ea300dfa9078475a0c071d",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "c606775608711d608e0e72f60740a6558b30a6a8bb9463a91975b1c5f68cb241",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Cassiopea xamachana upside-down jellyfish, broad flattened tan bell lying ON sand and many branching frilly brown oral arms rising UP into water, pale blue appendages, no long dangling tentacles. Scene: top-down entire circular bell and frilly oral arms with radial arrangement. Environment: sunlit shallow Caribbean mangrove lagoon bottom. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "0e5ae23d2fee4831aa5bc3a8d18c845b17cfb272975c6784dbabefbf7c6ae3b6",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "4e722a99175d15d6cc157d2cb8685cb36ad1553b1b7c283959b850bbfb80cde3",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Cassiopea xamachana upside-down jellyfish, broad flattened tan bell lying ON sand and many branching frilly brown oral arms rising UP into water, pale blue appendages, no long dangling tentacles. Scene: oblique close view branching oral arms with brown symbiotic tissue and pale blue appendages. Environment: sunlit shallow Caribbean mangrove lagoon bottom. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "adc15e48639bd1aea0c5aa67aad41ccdbc73d9ffe236e64a2d2f944dfc4c4ed8",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "ac72397bf3fda7b3209063f1ec8e23397c4e7b0a8bcb665ea33cffe15c8cfc88",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Cassiopea xamachana upside-down jellyfish, broad flattened tan bell lying ON sand and many branching frilly brown oral arms rising UP into water, pale blue appendages, no long dangling tentacles. Scene: side view bell edge slightly lifted during ordinary pulsation, oral arms remain upward. Environment: sunlit shallow Caribbean mangrove lagoon bottom. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "a27d7f020afda2d9ca69452e548fa681b36682cfd5cc3dfff0c6ccd39363c9d4",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "3452208e87adddce379830f4e09325069f7207ec5a8415910d4cc2ba1ff8f68b",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Cassiopea xamachana upside-down jellyfish, broad flattened tan bell lying ON sand and many branching frilly brown oral arms rising UP into water, pale blue appendages, no long dangling tentacles. Scene: three spaced upside-down jellies resting in sunlit mangrove lagoon floor, wider habitat. Environment: sunlit shallow Caribbean mangrove lagoon bottom. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "29fc86c467fb239ef6254f1bfb45a54fb02863d6c612fbfcb75db3b043049fa8",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "e9e4c41bb77b2e578a9a2c346342c95b987bafc2b0bdd0ba29cf0799cdb10496",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}

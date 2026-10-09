@@ -137765,6 +137765,243 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "upside-down-jellyfish",
+  "slug": "upside-down-jellyfish",
+  "names": {
+    "zh": "仙后水母",
+    "en": "Upside-down Jellyfish"
+  },
+  "scientificName": "Cassiopea xamachana",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Cnidaria",
+      "zhName": "刺胞动物门"
+    },
+    "class": {
+      "scientificName": "Scyphozoa",
+      "zhName": "钵水母纲"
+    },
+    "order": {
+      "scientificName": "Rhizostomeae",
+      "zhName": "根口水母目"
+    },
+    "family": {
+      "scientificName": "Cassiopeidae",
+      "zhName": "仙后水母科"
+    },
+    "genus": {
+      "scientificName": "Cassiopea",
+      "zhName": "仙后水母属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "北美洲",
+      "南美洲"
+    ],
+    "regions": [
+      "加勒比海与邻近西大西洋浅海"
+    ],
+    "countries": [],
+    "range": "本档案以加勒比海及邻近西大西洋的记录为主要范围，包括佛罗里达与加勒比沿岸的浅海潟湖、红树林附近水域。仙后水母属存在外观相似的种，不把其他种的全部分布并入本种。"
+  },
+  "habitats": [
+    {
+      "name": "红树林浅海",
+      "realm": "marine",
+      "description": "本档案以加勒比海及邻近西大西洋的记录为主要范围，包括佛罗里达与加勒比沿岸的浅海潟湖、红树林附近水域。仙后水母属存在外观相似的种，不把其他种的全部分布并入本种。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "小型浮游动物",
+      "共生藻提供的光合产物"
+    ],
+    "description": "捕捉小型浮游动物，同时利用共生藻的光合产物。Smithsonian 对本种的研究发现，黏液中的 cassiosomes 刺细胞结构能够捕获猎物。"
+  },
+  "tags": [
+    "仙后水母",
+    "红树林浅海"
+  ],
+  "summary": "仙后水母把伞部贴在海底，让分枝的口腕朝上，在浅水里轻轻搏动。",
+  "description": "先找贴着沙底的圆形伞部，再看上方像小枝丛一样的口腕。口腕中的共生藻可以利用阳光，水母也会捕食小动物。观察时隔着影像看，周围水体中的刺细胞结构也可能引起蜇刺。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "口腕朝着上方",
+      "body": "宽扁的伞部贴在底上，分枝口腕朝水面方向伸展。先在侧面图里找出底和上方。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "从上面看圆形伞部",
+      "body": "从上方看口腕和伞部的圆形轮廓。色彩、附属结构和分枝形态会变化，单凭外观不能确定仙后水母属内的种。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "口腕里的共生藻",
+      "body": "共生藻住在组织中，利用浅水里的光。生成图表现外形和色彩，不把藻细胞画成肉眼可见的大叶片。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "伞部的搏动",
+      "body": "水母通过伞部搏动带动周围的水。观察图展示一种姿态，静态图不能证明动作速度或频率。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "在红树林附近的浅海",
+      "body": "几只仙后水母各自倒置在底上。保持距离观察，释放到水里的黏液也可能带有能蜇刺的结构。"
+    }
+  ],
+  "keyFacts": [
+    "属于刺胞动物门的钵水母纲。",
+    "伞部朝下，分枝口腕朝上。",
+    "共生藻参与供能，水母也捕食。",
+    "未接触身体也可能因附近水体中的刺细胞结构受到蜇刺。"
+  ],
+  "threats": [
+    "本次未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "通过影像观察，保留来源与物种限定。",
+    "减少水域污染，野外观察不取走活体。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "pose",
+      "label": "姿态",
+      "value": "倒置"
+    },
+    {
+      "key": "habitat",
+      "label": "生活水域",
+      "value": "浅海"
+    }
+  ],
+  "media": {
+    "image": "./images/species/upside-down-jellyfish/01-cover.webp",
+    "alt": "仙后水母及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/upside-down-jellyfish/02-observation.webp",
+        "title": "口腕朝着上方",
+        "alt": "仙后水母：口腕朝着上方",
+        "caption": "AI 生成科学情景重建。宽扁的伞部贴在底上，分枝口腕朝水面方向伸展。先在侧面图里找出底和上方。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/upside-down-jellyfish/03-observation.webp",
+        "title": "从上面看圆形伞部",
+        "alt": "仙后水母：从上面看圆形伞部",
+        "caption": "AI 生成科学情景重建。从上方看口腕和伞部的圆形轮廓。色彩、附属结构和分枝形态会变化，单凭外观不能确定仙后水母属内的种。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/upside-down-jellyfish/04-observation.webp",
+        "title": "口腕里的共生藻",
+        "alt": "仙后水母：口腕里的共生藻",
+        "caption": "AI 生成科学情景重建。共生藻住在组织中，利用浅水里的光。生成图表现外形和色彩，不把藻细胞画成肉眼可见的大叶片。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/upside-down-jellyfish/05-observation.webp",
+        "title": "伞部的搏动",
+        "alt": "仙后水母：伞部的搏动",
+        "caption": "AI 生成科学情景重建。水母通过伞部搏动带动周围的水。观察图展示一种姿态，静态图不能证明动作速度或频率。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/upside-down-jellyfish/06-observation.webp",
+        "title": "在红树林附近的浅海",
+        "alt": "仙后水母：在红树林附近的浅海",
+        "caption": "AI 生成科学情景重建。几只仙后水母各自倒置在底上。保持距离观察，释放到水里的黏液也可能带有能蜇刺的结构。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Smithsonian：仙后水母黏液中的刺细胞结构",
+      "url": "https://www.si.edu/newsdesk/releases/stinging-water-mystery-solved-jellyfish-can-sting-swimmers-prey-mucus-grenades",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "Cassiopea xamachana 系统综述",
+      "url": "https://doi.org/10.3389/fevo.2018.00035",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "墨西哥加勒比海钵水母名录与分子核验",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12869186/",
+      "kind": "distribution",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：接受学名与分类",
+      "url": "https://www.marinespecies.org/aphia.php?id=287172&p=taxdetails",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 
