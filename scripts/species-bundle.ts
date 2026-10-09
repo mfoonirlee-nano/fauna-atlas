@@ -92,10 +92,19 @@ export function speciesBundle(): Plugin {
           [JSON.stringify(t.slice(0, 4)), t.slice(0, 4)] as const,
         )).values()];
         const lineageIndexes = new Map(lineages.map((lineage, index) => [JSON.stringify(lineage), index]));
+        // Standard cover filenames, alt suffixes and focal points repeat together.
+        // Intern those tuples without changing the restored catalogue metadata.
+        const mediaCounts = new Map<string, number>();
+        for (const { m } of catalogue) {
+          const key = JSON.stringify(m);
+          mediaCounts.set(key, (mediaCounts.get(key) ?? 0) + 1);
+        }
+        const mediaPresets = [...mediaCounts].filter(([, count]) => count > 1).map(([key]) => JSON.parse(key));
+        const mediaIndexes = new Map(mediaPresets.map((media, index) => [JSON.stringify(media), index]));
         // Positional rows avoid repeating keys. The common name + primary habitat
         // tag pair can be restored from fields already present in the same row.
         const rows = catalogue.map(({ slug, l, n, s, c, d, t, m, h, g, id }) =>
-          [slug, l, n, s, c, d, [lineageIndexes.get(JSON.stringify(t.slice(0, 4))), ...t.slice(4)], m, h,
+          [slug, l, n, s, c, d, [lineageIndexes.get(JSON.stringify(t.slice(0, 4))), ...t.slice(4)], mediaIndexes.get(JSON.stringify(m)) ?? m, h,
             g.length === 2 && g[0] === -1 && g[1] === h[0] ? 1 : g, ...(id === undefined ? [] : [id])],
         );
         // Match catalogue order so the loader table does not repeat every slug.
@@ -110,8 +119,9 @@ export function speciesBundle(): Plugin {
           const altSuffixes=${JSON.stringify(altSuffixes)};
           const conservationCodes=${JSON.stringify(conservationCodes)};
           const realmSets=${JSON.stringify(realmSets)};
+          const mediaPresets=${JSON.stringify(mediaPresets)};
           const restoreLabels=(values,name)=>values.map(value=>value===-1?name:typeof value==='number'?labels[value]:value);
-          export const species=${JSON.stringify(rows)}.map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id===1?'species-'+(Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n).toLowerCase().replaceAll(' ','-'):id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
+          export const species=${JSON.stringify(rows)}.map(row=>{if(typeof row[7]==='number') row[7]=mediaPresets[row[7]];return row;}).map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id===1?'species-'+(Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n).toLowerCase().replaceAll(' ','-'):id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
             conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:realmSets[d[1]],...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:g===1?[l[0],restoreLabels(h)[0]]:restoreLabels(g,l[0]),
             taxonomy:Object.fromEntries([...lineages[t[0]],...t.slice(1)].map((taxon,index)=>[ranks[index],taxa[taxon]]))}));
           const imports=[${loaders}];
