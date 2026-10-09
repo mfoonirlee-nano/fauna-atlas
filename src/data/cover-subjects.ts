@@ -5181,5 +5181,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1465,
       "bottom": 810
     }
+  },
+  "common-diving-petrel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 655,
+      "top": 135,
+      "right": 1485,
+      "bottom": 890
+    }
   }
 };

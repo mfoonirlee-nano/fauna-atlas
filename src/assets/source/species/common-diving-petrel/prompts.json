@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pelecanoides urinatrix (Common Diving Petrel). Anatomy: small compact seabird, black upperparts, white underparts, short neck, short thick black bill with upward-facing tubular nostrils, short rounded wings, blue-grey feet, short tail. Scene: subantarctic coastal rock ledge, wings folded. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "85817a9928802a433cd8e6f8910ef17647c59f812d22862ad260b14c73f5c9a6",
+      "runtimeSha256": "f5d1479b0c1342249cba1792610eb6aab60feda189752582c9e23bbd783412cd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pelecanoides urinatrix (Common Diving Petrel). Anatomy: small compact seabird, black upperparts, white underparts, short neck, short thick black bill with upward-facing tubular nostrils, short rounded wings, blue-grey feet, short tail. Scene: side portrait of short bill and nostrils. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "621be5fb3bf01b11e82d4ec6097e4181acd7dcf5e31f7a2effd7ba084508f961",
+      "runtimeSha256": "eed0b0efd13af104d844770c288e0cdd927c2b28d99784a5a29e22cd00540769",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pelecanoides urinatrix (Common Diving Petrel). Anatomy: small compact seabird, black upperparts, white underparts, short neck, short thick black bill with upward-facing tubular nostrils, short rounded wings, blue-grey feet, short tail. Scene: whole bird floating on sea. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "63dd7a7e487514beb5973bf27ba2ca46889ef93d304b4adf8b27b0a5a2a63f3b",
+      "runtimeSha256": "cf09bb2a3bbfc24c93286bf4529fad4f838dda789fe020fd88bb7df1a8562ba5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pelecanoides urinatrix (Common Diving Petrel). Anatomy: small compact seabird, black upperparts, white underparts, short neck, short thick black bill with upward-facing tubular nostrils, short rounded wings, blue-grey feet, short tail. Scene: one complete bird underwater using both short wings, no feet-only propulsion. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "f2ae35cfc2cd1a496fb9765d3a7810c63cd8724207b1faf697921db83b177176",
+      "runtimeSha256": "a2f530c78e3616a498f80e8794069833c8b6acbc958729608b48e1bed0fc37ea",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pelecanoides urinatrix (Common Diving Petrel). Anatomy: small compact seabird, black upperparts, white underparts, short neck, short thick black bill with upward-facing tubular nostrils, short rounded wings, blue-grey feet, short tail. Scene: whole bird beside natural burrow entrance in grassy coastal soil. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "984912c12409ce91230f4127e1486b991768c48baf6010a2ff76719c79d2f0c8",
+      "runtimeSha256": "f128d62c70dc0e7f456bb62682349a29a7ee17ac310bc366d158ac1536254e83",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Pelecanoides urinatrix (Common Diving Petrel). Anatomy: small compact seabird, black upperparts, white underparts, short neck, short thick black bill with upward-facing tubular nostrils, short rounded wings, blue-grey feet, short tail. Scene: one complete bird flying low above ocean with short wings. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "d8b45a9157e855bb1b97549a44b789dfc5e11b1ffa5e3c7ca510657965baa650",
+      "runtimeSha256": "192b81f7fbb5289c9b35fce7c403d4e450ad317f044ec071a26b2ba78cffe9a8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

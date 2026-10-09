@@ -4405,5 +4405,18 @@
       },
       "sha256": "34fbea976fd15151006c6e16a0691cd6cc8c47a2b58bd5885f466fdb788de407"
     }
+  },
+  "common-diving-petrel": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 655,
+        "top": 135,
+        "right": 1485,
+        "bottom": 890
+      },
+      "sha256": "f5d1479b0c1342249cba1792610eb6aab60feda189752582c9e23bbd783412cd"
+    }
   }
 }

@@ -142833,6 +142833,253 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "common-diving-petrel",
+  "slug": "common-diving-petrel",
+  "names": {
+    "zh": "普通鹈燕",
+    "en": "Common Diving Petrel"
+  },
+  "scientificName": "Pelecanoides urinatrix",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Aves",
+      "zhName": "鸟纲"
+    },
+    "order": {
+      "scientificName": "Procellariiformes",
+      "zhName": "鹱形目"
+    },
+    "family": {
+      "scientificName": "Pelecanoididae",
+      "zhName": "鹈燕科"
+    },
+    "genus": {
+      "scientificName": "Pelecanoides",
+      "zhName": "鹈燕属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial",
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "南半球温带与亚南极岛屿及近海"
+    ],
+    "countries": [
+      "新西兰",
+      "澳大利亚"
+    ],
+    "range": "南半球温带与亚南极岛屿及近海。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "岛屿近海",
+      "realm": "marine",
+      "description": "它贴近海面飞行，也在水下用部分折叠的翅膀推进。潜游姿态与飞行姿态分开展示，不能把脚推进的潜鸟模板套给本种。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "小型浮游甲壳动物",
+      "磷虾",
+      "桡足类"
+    ],
+    "description": "它在水中追逐小型浮游甲壳动物，食物包含磷虾和桡足类。不同调查地点的潜深记录只属于对应样本，本批没有填写全物种最大潜深。"
+  },
+  "tags": [
+    "普通鹈燕",
+    "岛屿近海"
+  ],
+  "summary": "用短翼在水下推进。",
+  "description": "普通鹈燕身体紧凑，背部深色，腹面浅色，嘴短而粗，脚呈蓝灰色。翅膀短，外观与一些海雀相似，但本种属于鹱形目。它贴近海面飞行，也在水下用部分折叠的翅膀推进。潜游姿态与飞行姿态分开展示，不能把脚推进的潜鸟模板套给本种。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "短而粗的嘴",
+      "body": "普通鹈燕身体紧凑，背部深色，腹面浅色，嘴短而粗，脚呈蓝灰色。翅膀短，外观与一些海雀相似，但本种属于鹱形目。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它贴近海面飞行，也在水下用部分折叠的翅膀推进。潜游姿态与飞行姿态分开展示，不能把脚推进的潜鸟模板套给本种。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它在水中追逐小型浮游甲壳动物，食物包含磷虾和桡足类。不同调查地点的潜深记录只属于对应样本，本批没有填写全物种最大潜深。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它在海岛土洞或岩隙内繁殖，通常夜间回到繁殖地。外来鼠、猫等捕食者会影响岛上群体，保护繁殖岛屿是相关工作的一部分。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "项目沿用鹈燕科 Pelecanoididae 的科级口径，与同为鹱形目的其他科分开。NZ Birds Online 当前将该属并入鹱科 Procellariidae，研究记录保留此差异，不在图谱中同时建立两种科级关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护岛屿近海及其自然隐蔽空间。共读时先观察图中的短而粗的嘴，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "局部外形重建，管状鼻孔的细微位置不用于近似种鉴定。",
+    "水面漂浮姿态，画面大小不代表真实尺寸。",
+    "翅膀参与推进，静态图不构成连续划动证据。",
+    "自然巢区环境重建，没有打开或翻动真实巢穴。",
+    "完整双翼留在图中，速度需由研究或录像说明。",
+    "项目沿用鹈燕科 Pelecanoididae 的科级口径，与同为鹱形目的其他科分开。NZ Birds Online 当前将该属并入鹱科 Procellariidae，研究记录保留此差异，不在图谱中同时建立两种科级关系。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "岛上外来捕食者",
+    "繁殖地干扰"
+  ],
+  "conservationActions": [
+    "保护岛屿近海与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "岛屿近海"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "短而粗的嘴"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-diving-petrel/01-cover.webp",
+    "alt": "普通鹈燕及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-diving-petrel/02-observation.webp",
+        "title": "短而粗的嘴",
+        "alt": "普通鹈燕：短而粗的嘴，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。局部外形重建，管状鼻孔的细微位置不用于近似种鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-diving-petrel/03-observation.webp",
+        "title": "海面上的小身体",
+        "alt": "普通鹈燕：海面上的小身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水面漂浮姿态，画面大小不代表真实尺寸。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-diving-petrel/04-observation.webp",
+        "title": "水下划动的短翼",
+        "alt": "普通鹈燕：水下划动的短翼，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。翅膀参与推进，静态图不构成连续划动证据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-diving-petrel/05-observation.webp",
+        "title": "海岛洞口",
+        "alt": "普通鹈燕：海岛洞口，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。自然巢区环境重建，没有打开或翻动真实巢穴。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-diving-petrel/06-observation.webp",
+        "title": "贴近海面的飞行",
+        "alt": "普通鹈燕：贴近海面的飞行，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整双翼留在图中，速度需由研究或录像说明。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/2481418",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "新西兰鸟类在线：普通鹈燕的形态与生活史",
+      "url": "https://www.nzbirdsonline.org.nz/species/common-diving-petrel",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "澳大利亚南极计划：普通鹈燕",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/flying-birds/petrels-and-shearwaters/common-diving-petrel/",
+      "kind": "distribution",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];
