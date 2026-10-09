@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Chrysopelea paradisi (Paradise Flying Snake). Anatomy: slender green and black patterned arboreal snake, scattered yellow and red dorsal accents, narrow head, long tapering tail, no wings or limbs. Scene: Southeast Asian rainforest branch, full snake in compact loops. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "ab503953ee25dca96daf43eeed3c988963ed6f4759263d686881f7419dfdc276",
+      "runtimeSha256": "33fbbebc947df9374ec7c1f6c08df9f7dea5e7cc800c5e21cf779cfbbd85e9a7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Chrysopelea paradisi (Paradise Flying Snake). Anatomy: slender green and black patterned arboreal snake, scattered yellow and red dorsal accents, narrow head, long tapering tail, no wings or limbs. Scene: head and green black scales on branch. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "c6d2007ee5807d6de5afc43a0560b64c0f1157f1e2fe11c4c85c2675176e6618",
+      "runtimeSha256": "b43b484c440e1730418c2d1c8138809c6c79011168ba30436bdf06d5567a8d12",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Chrysopelea paradisi (Paradise Flying Snake). Anatomy: slender green and black patterned arboreal snake, scattered yellow and red dorsal accents, narrow head, long tapering tail, no wings or limbs. Scene: whole snake bridging two nearby branches. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "d65f1dc3e5932908c083f54c5b71f7104f40570f20b92a00e4e50987996c91bf",
+      "runtimeSha256": "47739db3dde00e19dfa64350e3190e24ca5529e2a3149373eefffe302a8d1544",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Chrysopelea paradisi (Paradise Flying Snake). Anatomy: slender green and black patterned arboreal snake, scattered yellow and red dorsal accents, narrow head, long tapering tail, no wings or limbs. Scene: single flattened snake in broad S-shaped gliding pose in air above forest, no wings. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "c3df9e652f873882196882c8f6d02e0c04d1191c7cd0c08184ad8f1b19e4dafa",
+      "runtimeSha256": "a12d4c80ae6e3ca5a0b76cdf23c74d423410f841ba60635c0c3aa399b10b6195",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Chrysopelea paradisi (Paradise Flying Snake). Anatomy: slender green and black patterned arboreal snake, scattered yellow and red dorsal accents, narrow head, long tapering tail, no wings or limbs. Scene: whole snake climbing tree bark. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "d9725e2ec1165c4a9987292dc57ff58bea9717f8d5758e752298cdcbf72ed156",
+      "runtimeSha256": "b0ba3b7ff332fc68025a6dc12d5e062f420d0e9aac5ca41792383e1190f71ad2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Chrysopelea paradisi (Paradise Flying Snake). Anatomy: slender green and black patterned arboreal snake, scattered yellow and red dorsal accents, narrow head, long tapering tail, no wings or limbs. Scene: whole snake resting in foliage with tail visible. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "1bd3a0a102d1ddb3f5338d4bda814ddb3a2a49bc8914a2503582cc42d91734e6",
+      "runtimeSha256": "dfe73a7a7142224bca3e54d3c3c0f33b594ae9777afb27ad0ff92c6806ea6a6b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

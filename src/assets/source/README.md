@@ -767,3 +767,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [大林鸱 image set](./species/great-potoo/README.md)
 - [茶色蟆口鸱 image set](./species/tawny-frogmouth/README.md)
 - [瘰鳞蛇 image set](./species/javan-file-snake/README.md)
+- [天堂金花蛇 image set](./species/paradise-flying-snake/README.md)

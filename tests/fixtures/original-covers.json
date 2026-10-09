@@ -4509,5 +4509,18 @@
       },
       "sha256": "8a524b01eaed6129924f394dc7734687157510053d74c7f913bdadc1a306e5c2"
     }
+  },
+  "paradise-flying-snake": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 600,
+        "top": 130,
+        "right": 1360,
+        "bottom": 1015
+      },
+      "sha256": "33fbbebc947df9374ec7c1f6c08df9f7dea5e7cc800c5e21cf779cfbbd85e9a7"
+    }
   }
 }
