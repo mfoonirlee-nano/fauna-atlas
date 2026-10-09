@@ -145167,6 +145167,238 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "cantors-giant-softshell-turtle",
+  "slug": "cantors-giant-softshell-turtle",
+  "names": {
+    "zh": "鼋",
+    "en": "Cantor’s Giant Softshell Turtle"
+  },
+  "scientificName": "Pelochelys cantorii",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Testudines",
+      "zhName": "龟鳖目"
+    },
+    "family": {
+      "scientificName": "Trionychidae",
+      "zhName": "鳖科"
+    },
+    "genus": {
+      "scientificName": "Pelochelys",
+      "zhName": "鼋属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "南亚与东南亚部分河流"
+    ],
+    "countries": [],
+    "range": "南亚与东南亚部分河流。范围由本批资料限定，不能从生成图推断地点。"
+  },
+  "habitats": [
+    {
+      "name": "沙底河道",
+      "realm": "freshwater",
+      "description": "它生活在河流等水域，能藏在沙底，只露出部分头部。生成图里的明亮河水便于观察，不代表所有栖地的水质。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "甲壳动物等水生动物"
+    ],
+    "description": "它摄食水生动物。不同地区的食谱记录不能直接转换为全球固定比例；本档案不填未经核实的速度、寿命或体重极值。"
+  },
+  "tags": [
+    "鼋",
+    "沙底河道"
+  ],
+  "summary": "鼋：宽扁的背和鼻尖。",
+  "description": "鼋有宽扁的软背甲，外表覆盖皮肤，缺少典型硬壳龟的角质盾片。头宽，吻端有短管状鼻部，四肢有蹼和爪。它生活在河流等水域，能藏在沙底，只露出部分头部。生成图里的明亮河水便于观察，不代表所有栖地的水质。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "宽扁的背和鼻尖",
+      "body": "鼋有宽扁的软背甲，外表覆盖皮肤，缺少典型硬壳龟的角质盾片。头宽，吻端有短管状鼻部，四肢有蹼和爪。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "沙底河道",
+      "body": "它生活在河流等水域，能藏在沙底，只露出部分头部。生成图里的明亮河水便于观察，不代表所有栖地的水质。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它摄食水生动物。不同地区的食谱记录不能直接转换为全球固定比例；本档案不填未经核实的速度、寿命或体重极值。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "雌鼋在河岸产卵。保护项目在柬埔寨湄公河保护巢区并放归幼鼋，项目放归数量不等于全球野生种群数量。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Pelochelys cantorii，属于爬行纲、龟鳖目、鳖科。图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先看图，再读资料",
+      "body": "共读时先找宽扁的背和鼻尖。图片为 AI 科学情景重建，不代替鉴定、测量或行为实录。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "鼋有宽扁的软背甲，外表覆盖皮肤，缺少典型硬壳龟的角质盾片。头宽，吻端有短管状鼻部，四肢有蹼和爪。",
+    "雌鼋在河岸产卵。保护项目在柬埔寨湄公河保护巢区并放归幼鼋，项目放归数量不等于全球野生种群数量。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "栖息地改变与人为干扰；本批未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "保留自然隐蔽空间，观察时保持距离，不捕捉、翻动或诱发行为。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "沙底河道"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "宽扁的背和鼻尖"
+    }
+  ],
+  "media": {
+    "image": "./images/species/cantors-giant-softshell-turtle/01-cover.webp",
+    "alt": "鼋及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/cantors-giant-softshell-turtle/02-observation.webp",
+        "title": "沙面露出的鼻尖",
+        "alt": "鼋：沙面露出的鼻尖，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。埋沙情景，只露头不等于完整身体很小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/cantors-giant-softshell-turtle/03-observation.webp",
+        "title": "俯看宽扁的软背甲",
+        "alt": "鼋：俯看宽扁的软背甲，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。俯视重建，不据图测量甲长。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/cantors-giant-softshell-turtle/04-observation.webp",
+        "title": "宽头和短吻",
+        "alt": "鼋：宽头和短吻，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部放大重建，非实测比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/cantors-giant-softshell-turtle/05-observation.webp",
+        "title": "沙底上方的游泳",
+        "alt": "鼋：沙底上方的游泳，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。游泳姿态重建，动作需看录像。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/cantors-giant-softshell-turtle/06-observation.webp",
+        "title": "湿沙上的幼鼋",
+        "alt": "鼋：湿沙上的幼鼋，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。幼鼋阶段，非实测比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "IUCN：鼋的 2021 全球评估入口",
+      "url": "https://doi.org/10.2305/IUCN.UK.2021-2.RLTS.T135458600A1076984.en",
+      "kind": "conservation",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WCS：湄公河幼鼋放归与巢区保护",
+      "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/10178/Over-150-Asian-Giant-Softshell-Turtles-Return-to-the-Wild.aspx",
+      "kind": "conservation",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "GBIF：接受学名与分类定位",
+      "url": "https://www.gbif.org/species/2442658",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 

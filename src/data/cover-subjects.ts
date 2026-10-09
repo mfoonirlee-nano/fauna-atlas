@@ -5281,5 +5281,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1485,
       "bottom": 810
     }
+  },
+  "cantors-giant-softshell-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 465,
+      "top": 275,
+      "right": 1480,
+      "bottom": 750
+    }
   }
 };

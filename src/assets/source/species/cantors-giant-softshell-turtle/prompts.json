@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "A single entire Pelochelys cantorii Asian giant softshell turtle seen underwater on sand from oblique side view. Wide flattened leathery smooth olive grey carapace without scutes, broad head and short tubular snout, FOUR webbed clawed limbs and SHORT tail. Entire animal in RIGHT half within x=640..1450 y=240..830 with background on every side, especially both rear feet and tail at least 85 pixels from right edge. Head toward left, hindquarters at right. Make animal large but all parts visible. Left 40% empty softly lit river water sand. Landscape 1536x1024 photorealistic scientific reconstruction, no text no humans.",
+      "sourceSha256": "009bfed57fae2189e8f17d234443f7111dd940fba3f550bc12b7bd16c26c68e1",
+      "runtimeSha256": "4e0437ae51d1451665bf5e89d8bc56f8384276d9556e7aa54850da79c5d217bf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "discardedPrompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Pelochelys cantorii (Cantor’s Giant Softshell Turtle). Anatomy: broad flattened olive-grey softshell turtle, smooth leathery disc without hard scutes, broad head, short tubular snout, four webbed clawed limbs and short tail. Scene: clear Asian river sandy bottom, whole turtle unburied. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "discardedSourceSha256": "a229c7073757c220bdec59cfa27c40541e1a3eea8d325661dc0a685dd4c4f3a2",
+      "discardedSourceDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Pelochelys cantorii (Cantor’s Giant Softshell Turtle). Anatomy: broad flattened olive-grey softshell turtle, smooth leathery disc without hard scutes, broad head, short tubular snout, four webbed clawed limbs and short tail. Scene: head and tubular nostrils at sand surface, body buried. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "d986d37edfe59336b09539433a9bcbb426f7c45964d92c798754bcf70b64a2ae",
+      "runtimeSha256": "6f00d4499b788b9e0f73fe153e29c0270a93cd521a5a4a488033078062021dde",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Pelochelys cantorii (Cantor’s Giant Softshell Turtle). Anatomy: broad flattened olive-grey softshell turtle, smooth leathery disc without hard scutes, broad head, short tubular snout, four webbed clawed limbs and short tail. Scene: whole softshell turtle from above with four limbs visible. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "9cfe142accf755fa832f85de82eb0d43a538f2c32d639218f72de001e6f685a6",
+      "runtimeSha256": "87394b068a3e573ffa01d87ba02c8e733eaf9655fededafa14bd870ca54697ea",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Pelochelys cantorii (Cantor’s Giant Softshell Turtle). Anatomy: broad flattened olive-grey softshell turtle, smooth leathery disc without hard scutes, broad head, short tubular snout, four webbed clawed limbs and short tail. Scene: close side profile of broad head and short snout. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "74b140b1cc8729b10087202cb581af040dfcd10387d0d99160730d9cf22f67ab",
+      "runtimeSha256": "3eeb75333e20356868395c6c472f419b3b82b1474b4c43cebc4cf1661df27657",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Pelochelys cantorii (Cantor’s Giant Softshell Turtle). Anatomy: broad flattened olive-grey softshell turtle, smooth leathery disc without hard scutes, broad head, short tubular snout, four webbed clawed limbs and short tail. Scene: whole turtle swimming just above sandy bottom. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "7a948a9cc881ee6f7dbf6e56e4deb45dc92df2dd42919c3f087f034847cc95e1",
+      "runtimeSha256": "d3dbc00377edb3092db98b9846f24ce6ddb24dbffdce7cad6ab1f53d8bef9dff",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Pelochelys cantorii (Cantor’s Giant Softshell Turtle). Anatomy: broad flattened olive-grey softshell turtle, smooth leathery disc without hard scutes, broad head, short tubular snout, four webbed clawed limbs and short tail. Scene: juvenile softshell on wet river sand, no humans. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "e4c12817515d80c1862e561fca9cedb765b6e17b2e6f1534ac683b5e399c144a",
+      "runtimeSha256": "92fe72308715fb422bb30e786895d3e99d97bb7f97fd15f6e0ca6d6520b4350c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
