@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "One complete Platysternon megacephalum Chinese big-headed turtle on a stone in southern Chinese forest stream. Oversized olive-brown head, hooked beak, LOW hard shell, FOUR clawed limbs, long tapering tail. Head to left, tail to right gently CURVED FORWARD alongside shell so entire tail tip visible within RIGHT half. Entire silhouette strictly inside x=650..1450 y=160..880 and center beyond 65% width. Quiet left 40% stream background. Do not extend tail to left image edge, do not crop. Maximize full animal within stated box. Landscape 1536x1024 photorealistic scientific reconstruction. No text or watermark.",
+      "sourceSha256": "db048bce871b26206ae04f54085564c11bffcd15cbb31fdff72cc039e80dd966",
+      "runtimeSha256": "d44aff7bc38692a3bdd5edeb2168711eac7c10ae5b625823c66bb60042dda1bc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "discardedPrompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Platysternon megacephalum (Chinese Big-headed Turtle). Anatomy: olive-brown turtle with low flattened hard shell, oversized head, hooked beak, four strong clawed feet, exceptionally long tapering tail almost shell length, no webbed flippers. Scene: rocky clear southern Chinese forest stream, all tail and limbs visible. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "discardedSourceSha256": "cd21f460e9cde22f0f49765f11ca733817f6e03d190bfb5109cdddb3f74c370b",
+      "discardedSourceDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Platysternon megacephalum (Chinese Big-headed Turtle). Anatomy: olive-brown turtle with low flattened hard shell, oversized head, hooked beak, four strong clawed feet, exceptionally long tapering tail almost shell length, no webbed flippers. Scene: side profile showing large head relative to low shell. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "a4cccda43a08ef57a5ac31a264a617f84d8178a2f7989b22f176922880573d18",
+      "runtimeSha256": "a3ce138c0ee219069b96e062a3a9102114bdcee39a9bfcf4ede37b03713bdfe7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Platysternon megacephalum (Chinese Big-headed Turtle). Anatomy: olive-brown turtle with low flattened hard shell, oversized head, hooked beak, four strong clawed feet, exceptionally long tapering tail almost shell length, no webbed flippers. Scene: whole turtle gripping stream rocks with claws. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "e84e49bd8669747eb59e620d5a8c28b4d6f5c7dbbadf0d26dd262fd2d5a719df",
+      "runtimeSha256": "531447b978376b03a10139ba4b2f4733cf7f54dbd8de216cd7eb5bd32b50bf4d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Platysternon megacephalum (Chinese Big-headed Turtle). Anatomy: olive-brown turtle with low flattened hard shell, oversized head, hooked beak, four strong clawed feet, exceptionally long tapering tail almost shell length, no webbed flippers. Scene: whole turtle with complete long tail extending behind shell. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "4a3a437a5f14c3a4f458c7f0436a3c216d49a5a330cc068a6a0849f2bb6c6bab",
+      "runtimeSha256": "b77c0e64409b5e8300993db0022b1591057aaf34540f161a3f921cb858c39bce",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Platysternon megacephalum (Chinese Big-headed Turtle). Anatomy: olive-brown turtle with low flattened hard shell, oversized head, hooked beak, four strong clawed feet, exceptionally long tapering tail almost shell length, no webbed flippers. Scene: whole turtle resting underwater among stones. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "a7ae08b76f64282428ad2b051d9d395b7ced2585e7de7b520781b5c1f22ee9e7",
+      "runtimeSha256": "9f8a849c07825ead747bbf92983178a3d5dd7f8ce92aa53002576935278bf7da",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Platysternon megacephalum (Chinese Big-headed Turtle). Anatomy: olive-brown turtle with low flattened hard shell, oversized head, hooked beak, four strong clawed feet, exceptionally long tapering tail almost shell length, no webbed flippers. Scene: juvenile on wet stone, long tail fully visible. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "f76f59135e4cbc3190c179a7bbb8af2ace6b707981d93ca6782b32d548fe9c35",
+      "runtimeSha256": "a38d8f3381cd401d8e021da13c0d9649653accda2cb291fbdb6d0a4d2fc5c7f2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

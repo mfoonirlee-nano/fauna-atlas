@@ -5291,5 +5291,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 750
     }
+  },
+  "big-headed-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 540,
+      "top": 265,
+      "right": 1515,
+      "bottom": 700
+    }
   }
 };

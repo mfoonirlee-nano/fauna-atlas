@@ -145399,6 +145399,244 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "big-headed-turtle",
+  "slug": "big-headed-turtle",
+  "names": {
+    "zh": "平胸龟",
+    "en": "Chinese Big-headed Turtle"
+  },
+  "scientificName": "Platysternon megacephalum",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Reptilia",
+      "zhName": "爬行纲"
+    },
+    "order": {
+      "scientificName": "Testudines",
+      "zhName": "龟鳖目"
+    },
+    "family": {
+      "scientificName": "Platysternidae",
+      "zhName": "平胸龟科"
+    },
+    "genus": {
+      "scientificName": "Platysternon",
+      "zhName": "平胸龟属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "中国南部的山地溪流"
+    ],
+    "countries": [],
+    "range": "中国南部的山地溪流。范围由本批资料限定，不能从生成图推断地点。"
+  },
+  "habitats": [
+    {
+      "name": "山地溪流",
+      "realm": "freshwater",
+      "description": "它在山地溪流的石块间活动，爪有助于攀附。近年的平胸龟属修订将部分旧广义种群分开，本档案限定 P. megacephalum，不复制旧广义东南亚分布。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "溪流中的无脊椎动物",
+      "其他小型水生动物"
+    ],
+    "description": "它摄食溪流中的小型动物。生成图不用于判定具体野外食物、咬合力或年龄。"
+  },
+  "tags": [
+    "平胸龟",
+    "山地溪流"
+  ],
+  "summary": "平胸龟：大头与长尾。",
+  "description": "平胸龟头大，背甲低而扁，嘴前端呈钩状，尾巴较长，足部有爪。它的大头不能完全缩入壳内。它在山地溪流的石块间活动，爪有助于攀附。近年的平胸龟属修订将部分旧广义种群分开，本档案限定 P. megacephalum，不复制旧广义东南亚分布。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "大头与长尾",
+      "body": "平胸龟头大，背甲低而扁，嘴前端呈钩状，尾巴较长，足部有爪。它的大头不能完全缩入壳内。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "山地溪流",
+      "body": "它在山地溪流的石块间活动，爪有助于攀附。近年的平胸龟属修订将部分旧广义种群分开，本档案限定 P. megacephalum，不复制旧广义东南亚分布。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它摄食溪流中的小型动物。生成图不用于判定具体野外食物、咬合力或年龄。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "本种产卵。幼龟的身体比例和颜色随生长变化，图库分阶段标注；野外观察不翻动藏身石块。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Platysternon megacephalum，属于爬行纲、龟鳖目、平胸龟科。图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先看图，再读资料",
+      "body": "共读时先找大头与长尾。图片为 AI 科学情景重建，不代替鉴定、测量或行为实录。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "平胸龟头大，背甲低而扁，嘴前端呈钩状，尾巴较长，足部有爪。它的大头不能完全缩入壳内。",
+    "本种产卵。幼龟的身体比例和颜色随生长变化，图库分阶段标注；野外观察不翻动藏身石块。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "栖息地改变与人为干扰；本批未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "保留自然隐蔽空间，观察时保持距离，不捕捉、翻动或诱发行为。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "山地溪流"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "大头与长尾"
+    }
+  ],
+  "media": {
+    "image": "./images/species/big-headed-turtle/01-cover.webp",
+    "alt": "平胸龟及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/big-headed-turtle/02-observation.webp",
+        "title": "大头和低背甲",
+        "alt": "平胸龟：大头和低背甲，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。侧视重建，头不能完全缩进壳中。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/big-headed-turtle/03-observation.webp",
+        "title": "抓住石块的爪",
+        "alt": "平胸龟：抓住石块的爪，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。爪与岩石的情景重建，不用于计数趾爪。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/big-headed-turtle/04-observation.webp",
+        "title": "壳后的长尾巴",
+        "alt": "平胸龟：壳后的长尾巴，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整尾端展示，非实测比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/big-headed-turtle/05-observation.webp",
+        "title": "石缝间的停留",
+        "alt": "平胸龟：石缝间的停留，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水下休息情景重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/big-headed-turtle/06-observation.webp",
+        "title": "溪石上的幼龟",
+        "alt": "平胸龟：溪石上的幼龟，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。幼龟阶段重建，不能据图判年龄。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "TFTSG：平胸龟名称范围与保护资料",
+      "url": "https://iucn-tftsg.org/cbftt/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "TFTSG：平胸龟名称范围与保护资料",
+      "url": "https://iucn-tftsg.org/wp-content/uploads/crm.10.checklist.atlas_.v10.2025.pdf",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "TFTSG：平胸龟名称范围与保护资料",
+      "url": "https://iucn-tftsg.org/wp-content/uploads/file/Top%2025/TCC_2025_Turtles-in-Trouble.low_.rez_.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "GBIF：接受学名与分类定位",
+      "url": "https://www.gbif.org/species/2441884",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 

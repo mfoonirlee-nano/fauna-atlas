@@ -4548,5 +4548,18 @@
       },
       "sha256": "4e0437ae51d1451665bf5e89d8bc56f8384276d9556e7aa54850da79c5d217bf"
     }
+  },
+  "big-headed-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 540,
+        "top": 265,
+        "right": 1515,
+        "bottom": 700
+      },
+      "sha256": "d44aff7bc38692a3bdd5edeb2168711eac7c10ae5b625823c66bb60042dda1bc"
+    }
   }
 }
