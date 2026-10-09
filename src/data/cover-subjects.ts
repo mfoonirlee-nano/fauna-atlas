@@ -5221,5 +5221,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1390,
       "bottom": 850
     }
+  },
+  "eurasian-woodcock": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 165,
+      "right": 1475,
+      "bottom": 890
+    }
   }
 };

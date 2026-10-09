@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Scolopax rusticola (Eurasian Woodcock). Anatomy: plump mottled russet and brown woodland wader, very long straight slim bill, eyes high and rearward on head, short pinkish legs, transverse dark crown bars. Scene: leaf litter in Eurasian woodland. Complete animal on right, silhouette center at 70% width; all extremities within x=620..1460 y=80..940. Maximize full subject while keeping real background clearance. Left 40% quiet background. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "482d0949360c6d0087ececf5dd46cfcf80d4a92955ff0dab337556a1932790df",
+      "runtimeSha256": "9aedc7739b5cdc5715badbe5110971fe0b5d8bd4da16ba04cf7ad8ec0d9d634e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Scolopax rusticola (Eurasian Woodcock). Anatomy: plump mottled russet and brown woodland wader, very long straight slim bill, eyes high and rearward on head, short pinkish legs, transverse dark crown bars. Scene: close head profile with complete long bill and high rear eye. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "9976deb4460bc074bfbf58ed0a767cb65f45ff19c928d9653ea48805ef813420",
+      "runtimeSha256": "3e67e9970f5ec960aabdde71d8ddada6be900f41b7197009e013048682a80064",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Scolopax rusticola (Eurasian Woodcock). Anatomy: plump mottled russet and brown woodland wader, very long straight slim bill, eyes high and rearward on head, short pinkish legs, transverse dark crown bars. Scene: whole bird probing damp soil with bill. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "1d45fede7adcc8d04307e9d5062b77ae6b80e66af92f3bbaca586c40e3e86d06",
+      "runtimeSha256": "d0d606f48d19af076b1d4b0cb6e154f90a16b4b9bf9c780ee4096880a3b05c8c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Scolopax rusticola (Eurasian Woodcock). Anatomy: plump mottled russet and brown woodland wader, very long straight slim bill, eyes high and rearward on head, short pinkish legs, transverse dark crown bars. Scene: whole bird camouflaged in brown fallen leaves. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "86ab242a451262f554b437b85757c06be3c7b8278f8183f647b890074b65502c",
+      "runtimeSha256": "4a8bd7973e7baf10c0bcf7412015215fc007b714bf655bd291a8c024d425b3c8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Scolopax rusticola (Eurasian Woodcock). Anatomy: plump mottled russet and brown woodland wader, very long straight slim bill, eyes high and rearward on head, short pinkish legs, transverse dark crown bars. Scene: whole bird at dusk near woodland clearing. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "cef669e5aa931ff014149c867c36ab1fc662e480fabf0582ad50e3ccff3cce9a",
+      "runtimeSha256": "989deda56a8d3f8cd6f6204ef8c73ba082667cc912d2de6cb1b09fb1c4827e72",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case scientific educational. One landscape 1536x1024 naturalistic species atlas scientific reconstruction. Subject Scolopax rusticola (Eurasian Woodcock). Anatomy: plump mottled russet and brown woodland wader, very long straight slim bill, eyes high and rearward on head, short pinkish legs, transverse dark crown bars. Scene: adult bird with two downy chicks on forest floor. Prominent observation subject, composition matches scene. Preserve species anatomy. Authentic texture and natural lighting. No text, watermark, collage, human handling, blood, staged distress, invented scale bar.",
+      "sourceSha256": "84a72e848eba837b25dc7b85cab90334990c2a30abbe96997faaf945a606d19e",
+      "runtimeSha256": "71d251da7d481a482f1a07cc1c4430ceeeec5cf487519b7d9857733a8c2b2ff0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
