@@ -5151,5 +5151,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1455,
       "bottom": 865
     }
+  },
+  "anhinga": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 595,
+      "top": 40,
+      "right": 1415,
+      "bottom": 955
+    }
   }
 };

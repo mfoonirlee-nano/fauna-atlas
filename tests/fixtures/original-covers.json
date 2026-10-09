@@ -4366,5 +4366,18 @@
       },
       "sha256": "ad66b39fbd7fdc672f8a7e8fb27c8d9afc48d67bb8e859f9b019f8020c4182f0"
     }
+  },
+  "anhinga": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 595,
+        "top": 40,
+        "right": 1415,
+        "bottom": 955
+      },
+      "sha256": "d32ba8c867369add42133ffaeb01befc4f82c5220a33c997c218cb5a9dd4ea6d"
+    }
   }
 }

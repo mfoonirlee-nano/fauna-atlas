@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Anhinga anhinga (Anhinga). Anatomy: adult male aquatic bird with glossy black plumage, white-silver streaks on folded wings, extremely long slender neck, straight pointed yellowish dagger bill, long fan-like tail, webbed feet. Scene: wetland log in tropical America, wings folded and complete tail and feet visible. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "b7e0cd61f6bfc6532d3e0d21ff2645131d57b401c3e0550c172b00eafe7d36a6",
+      "runtimeSha256": "d32ba8c867369add42133ffaeb01befc4f82c5220a33c997c218cb5a9dd4ea6d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Anhinga anhinga (Anhinga). Anatomy: adult male aquatic bird with glossy black plumage, white-silver streaks on folded wings, extremely long slender neck, straight pointed yellowish dagger bill, long fan-like tail, webbed feet. Scene: head and slender neck with straight pointed bill. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "0f6aa9b68b6168e8f2bcd5fa9d7c9caee7b645f99a7ffa57d31f77c2a62d792c",
+      "runtimeSha256": "30952ad53c7146d96d1d8800735fdcf62cdccb5811f174cb9fcad16b8a77a541",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Anhinga anhinga (Anhinga). Anatomy: adult male aquatic bird with glossy black plumage, white-silver streaks on folded wings, extremely long slender neck, straight pointed yellowish dagger bill, long fan-like tail, webbed feet. Scene: complete bird spreading both wings to dry on log. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "dcf59581245703079b7428801bd6ab4522743d73aedbfe31569aeba607b8eeca",
+      "runtimeSha256": "da9a8528ffa1d039d427752b53b72edd5882fcae25bed3986f28b9cca209c79f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Anhinga anhinga (Anhinga). Anatomy: adult male aquatic bird with glossy black plumage, white-silver streaks on folded wings, extremely long slender neck, straight pointed yellowish dagger bill, long fan-like tail, webbed feet. Scene: bird swimming with only neck and head above water. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "960dde89f4e76a08488e9564904436ecf36c8ceb257d76b306e58056a01a53da",
+      "runtimeSha256": "98145e8bf115e5bc8354bd411ce3bb8998219e2b9290a424fe756b12a7d15fdc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Anhinga anhinga (Anhinga). Anatomy: adult male aquatic bird with glossy black plumage, white-silver streaks on folded wings, extremely long slender neck, straight pointed yellowish dagger bill, long fan-like tail, webbed feet. Scene: full side view standing on log showing long tail and feet. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "866704d42dc42322f578be5dd57903f483edf441c0cb67f1f0741c0c5a9db071",
+      "runtimeSha256": "da0610fc9467648330700cf88a7bb2f4037636325ba7bfc60c7c517796023891",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Anhinga anhinga (Anhinga). Anatomy: adult male aquatic bird with glossy black plumage, white-silver streaks on folded wings, extremely long slender neck, straight pointed yellowish dagger bill, long fan-like tail, webbed feet. Scene: one complete bird underwater with folded wings and feet extended, still reconstruction. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "5b3ca3d9150203aadd3795f38b7c7ba493e3188251fb4a1168010b5759319b20",
+      "runtimeSha256": "aaed4bc7da40f3469ee6e07adcc231f05806ae2b91844ebd3cafeb6ce7d86d24",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
