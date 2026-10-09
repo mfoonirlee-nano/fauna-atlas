@@ -1,0 +1,49 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-08",
+  "images": [
+    {
+      "slug": "common-antlion",
+      "num": 1,
+      "prompt": "Move the entire adult antlion and supporting dry stalk 65 pixels to the right, keep body size, all wings, antennae and feet complete. Source 1536x1024. Maintain natural anatomy. Leftmost wingtip should be x665 or further right. Blur the left40 percent forest background more to create quiet negative space. Do not crop anything. No text.",
+      "originalPrompt": "Use case: scientific-educational. Asset: species cover. Naturalistic wildlife reconstruction, 1536x1024 landscape. A single adult Myrmeleon formicarius antlion resting diagonally on a dry grass stalk, all complete on RIGHT x650..1450 y120..900. Slender elongated dark body, two pairs long narrow TRANSPARENT UNMARKED net-veined wings folded rooflike, two short CLUBBED antennae and six legs. No spotted wings, no dragonfly pose. Quiet sandy woodland background on left 40 percent. Maximize complete animal within the stated bounds. Natural soft light, credible anatomy, no text, no labels, no watermark.",
+      "sourceSha256": "ff7ce0893c0b2777daddee1e4f7aed5242ec3adadaeba00528bac92b16bc3149",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-antlion",
+      "num": 2,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic macro scene for encyclopedia gallery. Top oblique macro view of a single conical antlion pit in fine dry tan sand, made by larva of Myrmeleon formicarius. Clearly sloping funnel walls and small dark center, two minute curved mandible tips just visible at bottom, body buried. Sparse pine needles and dry vegetation outside pit. No adult, no large exposed monster, no prey falling, no artificially arranged stones. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "541acc3ed5ae568356af7868bff7c5e566983aa85fe8e6a783223a39bf19c441",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-antlion",
+      "num": 3,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic macro scene for encyclopedia gallery. A single Myrmeleon formicarius antlion LARVA on fine dry sand, magnified educational dorsal oblique view. Stocky oval segmented gray-brown bristly abdomen, small head with two long curved toothed jaws, six short legs at front. No wings, no antenna clubs. Full body with sand grains around it. No prey, no blood. This is a morphology reconstruction, not a disturbed real animal. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "f62a6ac49b67c5a9744019f5908076f8e637a1eab4a9ada2ad3e3d18b9ba1a64",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-antlion",
+      "num": 4,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic macro scene for encyclopedia gallery. Myrmeleon formicarius antlion larva almost entirely buried at bottom of its conical sand pit, only head and two jaws visible, a few grains of sand suspended low just above pit slope as it flicks sand. Single scene, subtle believable movement, no explosive shower, no other insects, no exposed giant larval body. Dry sunny sandy habitat. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "7ff0d1323629cf67c66167bf31d192dafaca81405c49850a7e80260f5f098360",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-antlion",
+      "num": 5,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic macro scene for encyclopedia gallery. Detailed macro of adult Myrmeleon formicarius antlion resting on dry grass, head and thorax with two SHORT distinctly clubbed antennae in sharp focus, folded long transparent net-veined wings extending behind into soft focus. Narrow blackish body with modest pale markings. No spotted wings. Natural warm light, no dragonfly eyes. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "4b8a88ded0f38cbe466c8bf0901acdb5bed59e3b13aad66511bf6e1097349d33",
+      "sourceDimensions": "1536 1024"
+    },
+    {
+      "slug": "common-antlion",
+      "num": 6,
+      "prompt": "Use case: scientific-educational. 1536x1024 landscape single naturalistic wildlife reconstruction for encyclopedia gallery. One adult Myrmeleon formicarius antlion resting on a dry grass stem at the edge of a sandy open woodland clearing. Habitat view with adult occupying half frame, long dark thin body, unmarked clear net-veined wings folded roofwise, clubbed antennae. Complete body. Natural evening illumination. No text, labels, collage, scale bar, border or watermark.",
+      "sourceSha256": "9b1b4b0b434c59138d76180052e7fce7043598ae2e4d18c78bc43a08a6611cc8",
+      "sourceDimensions": "1536 1024"
+    }
+  ]
+}

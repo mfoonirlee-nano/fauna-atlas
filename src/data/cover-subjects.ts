@@ -4860,5 +4860,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1526,
       "bottom": 924
     }
+  },
+  "common-antlion": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 704,
+      "top": 73,
+      "right": 1484,
+      "bottom": 880
+    }
   }
 };
