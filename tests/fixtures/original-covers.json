@@ -4379,5 +4379,18 @@
       },
       "sha256": "d32ba8c867369add42133ffaeb01befc4f82c5220a33c997c218cb5a9dd4ea6d"
     }
+  },
+  "common-loon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 570,
+        "top": 295,
+        "right": 1500,
+        "bottom": 695
+      },
+      "sha256": "ecd059316e34f3181a5bd7bc775c1d3df3287353c02cc7f489163fd28e51d1fe"
+    }
   }
 }

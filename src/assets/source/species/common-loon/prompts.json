@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Gavia immer (Common Loon). Anatomy: adult breeding common loon, black head and neck, white striped neck collar, black-and-white checkerboard back, white belly, straight black dagger bill, red eye, webbed feet far back on body. Scene: clear northern lake, full body afloat. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "994111e9c5565bd0f536a92fa14a8187294b53e4858f0d382d9ffb8023de768a",
+      "runtimeSha256": "ecd059316e34f3181a5bd7bc775c1d3df3287353c02cc7f489163fd28e51d1fe",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Gavia immer (Common Loon). Anatomy: adult breeding common loon, black head and neck, white striped neck collar, black-and-white checkerboard back, white belly, straight black dagger bill, red eye, webbed feet far back on body. Scene: head portrait with red eye and striped collar. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "dd598af2a35556fc08ef154875a65092e9314b55144d35002c92c26978c46d0b",
+      "runtimeSha256": "e6ea2f61035da59e1a3eca8c62ba42cbe9b70b1e84e10d31207d01d8677681c7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Gavia immer (Common Loon). Anatomy: adult breeding common loon, black head and neck, white striped neck collar, black-and-white checkerboard back, white belly, straight black dagger bill, red eye, webbed feet far back on body. Scene: whole bird afloat showing checkerboard back. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "70c2481f86b1136e448d0a530bd16fb339d6cca2ae3e6ef9b22f8b2fa055e7df",
+      "runtimeSha256": "ca28f0cf0c6ce038740ad034fecf6b18b1e1a4bd7fb211c26fbd4408434ee099",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Gavia immer (Common Loon). Anatomy: adult breeding common loon, black head and neck, white striped neck collar, black-and-white checkerboard back, white belly, straight black dagger bill, red eye, webbed feet far back on body. Scene: one complete bird underwater with rear webbed feet visible, wings folded. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "7bd009ede5f060d1c286deded2dd3ca9708d60c2ba2922f7c7382a9cda6252f0",
+      "runtimeSha256": "efb82b35cbd4a8e69ec4d70b9d480e22635626b10feb11c5356407cfb7572f61",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Gavia immer (Common Loon). Anatomy: adult breeding common loon, black head and neck, white striped neck collar, black-and-white checkerboard back, white belly, straight black dagger bill, red eye, webbed feet far back on body. Scene: bird on low shore nest with eggs, breeding plumage. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "f4f8da2fb4dd81250c72cebbb7970416975b880b0fbed54b3c8116ceba38cf7c",
+      "runtimeSha256": "dc78f35147e465b83285846cc37203ce8289973f691735e7438e57b730c0dff9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Gavia immer (Common Loon). Anatomy: adult breeding common loon, black head and neck, white striped neck collar, black-and-white checkerboard back, white belly, straight black dagger bill, red eye, webbed feet far back on body. Scene: adult nonbreeding plumage grey-brown above white throat below on water, no breeding checkerboard. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "96f0af71771f5184e6c501eef2562d2e750107cb07238c0b2b3d08dcf8f241f2",
+      "runtimeSha256": "9d5c7062ad86a410639e9ee53961cd71845a29a82b9a2e87ab1a3ed419e4262f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

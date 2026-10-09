@@ -5161,5 +5161,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1415,
       "bottom": 955
     }
+  },
+  "common-loon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 570,
+      "top": 295,
+      "right": 1500,
+      "bottom": 695
+    }
   }
 };
