@@ -118,7 +118,10 @@ test('hero separates foreground from backdrop and never scales during crossfade'
     assert.match(animation, /opacity:/);
   }
   const mobile = stylesSource.slice(stylesSource.indexOf('@media (max-width: 760px)'));
-  assert.match(mobile, /\.hero-carousel__visual \{[^}]*grid-row: 1;/);
+  assert.match(stylesSource, /\.hero-carousel__visual \{[^}]*position: absolute;[^}]*inset: 0;/);
+  assert.match(stylesSource, /\.hero__stage \{[^}]*overflow: visible;/);
+  assert.match(mobile, /\.hero \{[^}]*grid-template-rows: clamp\(260px, 75vw, 500px\) auto;/);
+  assert.match(mobile, /\.hero__stage \{[^}]*inset: 100px 0 auto;[^}]*overflow: hidden;/);
   assert.match(mobile, /\.hero__content \{[^}]*grid-row: 2;/);
   assert.match(mobile, /\.hero__image--fitted \{[^}]*inset: 24px;[^}]*object-fit: contain;/);
   assert.deepEqual(Object.keys(coverSubjects).sort(), species.map((item) => item.slug).sort());
@@ -138,22 +141,29 @@ for (const [slug, { cover }] of Object.entries(reviewedCovers)) {
   test(`${slug}: entire subject stays inside desktop and mobile panels with 24px clearance`, () => {
     assert.deepEqual(coverSubjects[slug], { width: cover.width, height: cover.height, bounds: cover.bounds });
     for (const [viewportWidth, viewportHeight] of [[320, 760], [390, 760], [761, 760], [900, 760], [1100, 768], [1366, 768], [1920, 900], [2560, 900], [3840, 900]]) {
-      // Panel dimensions follow the grid, padding, gap and minimum height in styles.css.
+      // Desktop subject area extends to the hero edges; copy keeps its grid column.
       const mobile = viewportWidth <= 760;
-      const width = mobile ? viewportWidth : (viewportWidth - 2 * Math.max(24, (viewportWidth - 1600) / 2) - Math.min(80, Math.max(24, viewportWidth * .04))) * 1.15 / 2;
-      const height = mobile ? Math.min(500, Math.max(260, viewportWidth * .75)) : Math.min(680, Math.max(440, viewportHeight * .65));
-      const fit = fitHeroSubject(coverSubjects[slug], width, height);
-      const scale = mobile ? Math.min((width - 48) / cover.width, (height - 48) / cover.height) : fit.width / cover.width;
-      const left = mobile ? (width - cover.width * scale) / 2 : fit.left;
-      const top = mobile ? (height - cover.height * scale) / 2 : fit.top;
-      const { bounds } = cover;
-      const edges = { left: left + bounds.left * scale, right: left + bounds.right * scale, top: top + bounds.top * scale, bottom: top + bounds.bottom * scale };
-      assert.ok(edges.left >= 24 - 1e-6, `${slug} left at ${viewportWidth}`);
-      assert.ok(edges.top >= 24 - 1e-6, `${slug} top at ${viewportWidth}`);
-      assert.ok(edges.right <= width - 24 + 1e-6, `${slug} right at ${viewportWidth}`);
-      assert.ok(edges.bottom <= height - 24 + 1e-6, `${slug} bottom at ${viewportWidth}`);
-      if (!mobile) {
-        assert.ok(Math.abs((bounds.right - bounds.left) * scale - (width - 48)) < 1e-6 || Math.abs((bounds.bottom - bounds.top) * scale - (height - 48)) < 1e-6, 'maximize subject within the available panel');
+      const gutter = Math.max(24, (viewportWidth - 1600) / 2);
+      const gap = Math.min(80, Math.max(24, viewportWidth * .04));
+      const stageLeft = gutter + (viewportWidth - 2 * gutter - gap) * .425 + gap;
+      const width = mobile ? viewportWidth : viewportWidth - stageLeft;
+      const minimumHeroHeight = Math.max(Math.min(900, viewportHeight), 200 + Math.min(680, Math.max(440, viewportHeight * .65)));
+      // Include taller content-driven heroes as well as their CSS minimum height.
+      const height = mobile ? Math.min(500, Math.max(260, viewportWidth * .75)) : minimumHeroHeight;
+      for (const measuredHeight of mobile ? [height] : [height, height + 160]) {
+        const fit = fitHeroSubject(coverSubjects[slug], width, measuredHeight);
+        const scale = mobile ? Math.min((width - 48) / cover.width, (height - 48) / cover.height) : fit.width / cover.width;
+        const left = mobile ? (width - cover.width * scale) / 2 : fit.left;
+        const top = mobile ? (height - cover.height * scale) / 2 : fit.top;
+        const { bounds } = cover;
+        const edges = { left: left + bounds.left * scale, right: left + bounds.right * scale, top: top + bounds.top * scale, bottom: top + bounds.bottom * scale };
+        assert.ok(edges.left >= 24 - 1e-6, `${slug} left at ${viewportWidth}`);
+        assert.ok(edges.top >= 24 - 1e-6, `${slug} top at ${viewportWidth}`);
+        assert.ok(edges.right <= width - 24 + 1e-6, `${slug} right at ${viewportWidth}`);
+        assert.ok(edges.bottom <= measuredHeight - 24 + 1e-6, `${slug} bottom at ${viewportWidth}`);
+        if (!mobile) {
+          assert.ok(Math.abs((bounds.right - bounds.left) * scale - (width - 48)) < 1e-6 || Math.abs((bounds.bottom - bounds.top) * scale - (measuredHeight - 48)) < 1e-6, 'maximize subject within the available panel');
+        }
       }
     }
   });
