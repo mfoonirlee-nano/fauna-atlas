@@ -127,3 +127,11 @@
 - [x] 金龟甲 *Charidotella sexpunctata*：盾形轮廓。“沿着身体找找宽宽的外缘。”
 - [x] 大花金龟 *Goliathus goliatus*：大型甲虫。“借助比例尺，看看它的身体有多宽。”
 - [x] 澳洲织叶蚁 *Oecophylla smaragdina*：树叶巢。“看看工蚁怎样拉住叶片边缘。”
+
+2026-10-08 完成：草蛉、蚁蛉、美洲剑尾鲎、拳击蟹、箭蟹。见[资料与验收记录](todo-five-2026-10-08.md)。
+
+- [x] 草蛉 *Chrysoperla carnea*：带细柄的卵。“找找叶片上细丝顶端的小卵。”
+- [x] 蚁蛉 *Myrmeleon formicarius*：幼虫的沙坑。“看看沙地上的漏斗形小坑。”
+- [x] 美洲剑尾鲎 *Limulus polyphemus*：海岸上的背甲。“从侧面看看拱起的甲壳。”
+- [x] 拳击蟹 *Lybia tessellata*：螯中的海葵。“找找两只螯前的小海葵。”
+- [x] 箭蟹 *Stenorhynchus seticornis*：长腿与尖额。“找找细长腿中间的小身体。”

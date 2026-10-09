@@ -714,3 +714,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [金龟甲 image set](./species/golden-tortoise-beetle/README.md)
 - [大花金龟 image set](./species/goliath-beetle/README.md)
 - [澳洲织叶蚁 image set](./species/asian-weaver-ant/README.md)
+
+- [草蛉 image set](./species/common-green-lacewing/README.md)
+- [蚁蛉 image set](./species/common-antlion/README.md)
+- [美洲剑尾鲎 image set](./species/atlantic-horseshoe-crab/README.md)
+- [拳击蟹 image set](./species/pom-pom-crab/README.md)
+- [箭蟹 image set](./species/yellowline-arrow-crab/README.md)
