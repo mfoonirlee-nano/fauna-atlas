@@ -720,3 +720,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [美洲剑尾鲎 image set](./species/atlantic-horseshoe-crab/README.md)
 - [拳击蟹 image set](./species/pom-pom-crab/README.md)
 - [箭蟹 image set](./species/yellowline-arrow-crab/README.md)
+
+- [跳蛛 image set](./species/regal-jumping-spider/README.md)
+- [盐水丰年虫 image set](./species/brine-shrimp/README.md)
+- [草莓鱿鱼 image set](./species/strawberry-squid/README.md)
+- [裸海蝶 image set](./species/sea-angel/README.md)
+- [叶羊海天牛 image set](./species/leaf-sheep/README.md)

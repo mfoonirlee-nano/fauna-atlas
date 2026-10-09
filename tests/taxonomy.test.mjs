@@ -24362,7 +24362,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 490);
+  assert.equal(species.length, 495);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24420,8 +24420,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 69);
-  assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 71);
+  assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Daphnia')?.speciesCount, 1);
@@ -24443,7 +24443,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 18);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 21);
   assert.equal(findTaxon(tree, 'class', 'Scaphopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dentaliida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dentaliidae')?.speciesCount, 1);
@@ -24452,14 +24452,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Chitonida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Mopaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Cryptochiton')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 7);
+  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nautilus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Octopoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Octopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Octopus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'order', 'Stylommatophora')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Helicidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Cornu')?.speciesCount, 1);
@@ -24486,8 +24486,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Aeshnidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Anax')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 5);
-  assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Araneae')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'family', 'Theraphosidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Theraphosa')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Scorpiones')?.speciesCount, 1);
@@ -24533,7 +24533,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 490);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 495);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -26730,7 +26730,7 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   assert.doesNotMatch(todo, /- \[x\]/);
   const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
-  assert.equal(pendingNames.length, 20);
+  assert.equal(pendingNames.length, 15);
   for (const profile of species) {
     assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
   }
