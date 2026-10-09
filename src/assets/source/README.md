@@ -749,3 +749,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [好望角金毛鼹 image set](./species/cape-golden-mole/README.md)
 - [塞拉亚跗猴 image set](./species/selayar-tarsier/README.md)
 - [普通吸血蝠 image set](./species/common-vampire-bat/README.md)
+- [猪鼻蝠 image set](./species/kittis-hog-nosed-bat/README.md)

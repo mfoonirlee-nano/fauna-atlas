@@ -140619,6 +140619,270 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "kittis-hog-nosed-bat",
+  "slug": "kittis-hog-nosed-bat",
+  "names": {
+    "zh": "猪鼻蝠",
+    "en": "Kitti’s Hog-nosed Bat",
+    "aliases": [
+      "基蒂氏猪鼻蝠",
+      "大黄蜂蝠"
+    ]
+  },
+  "scientificName": "Craseonycteris thonglongyai",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Chiroptera",
+      "zhName": "翼手目"
+    },
+    "family": {
+      "scientificName": "Craseonycteridae",
+      "zhName": "猪鼻蝠科"
+    },
+    "genus": {
+      "scientificName": "Craseonycteris",
+      "zhName": "猪鼻蝠属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "泰国西部与缅甸东南部"
+    ],
+    "countries": [
+      "泰国",
+      "缅甸"
+    ],
+    "range": "泰国西部与缅甸东南部。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "石灰岩洞穴",
+      "realm": "terrestrial",
+      "description": "它在石灰岩洞穴栖息，外出到林地上方寻找小型昆虫。身体小并不表示不会飞行，翅膜由延长的手指等结构支撑。群栖图不代表某个洞穴的实测数量。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "min": 29,
+      "max": 33,
+      "unit": "mm",
+      "note": "成体头体长，ADW 汇总；不含展开翼宽。"
+    },
+    "weight": {
+      "min": 1.7,
+      "max": 2,
+      "unit": "g",
+      "note": "成体体重，ADW 汇总；不是每个个体的固定值。"
+    }
+  },
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "小型昆虫"
+    ],
+    "description": "它以小昆虫为食，使用回声定位探查环境。本批不画人造的可见声波，也不把一张飞行图当作悬停或回声定位的实验记录。"
+  },
+  "tags": [
+    "猪鼻蝠",
+    "石灰岩洞穴"
+  ],
+  "summary": "短宽鼻，栖息洞穴。",
+  "description": "猪鼻蝠的鼻子短而宽，两个鼻孔之间的间隔明显，耳朵相对身体较大。它是体型很小的哺乳动物，成体头体长约 29–33 毫米，体重约 1.7–2 克；图中的放大程度不能用于与其他动物比较大小。它在石灰岩洞穴栖息，外出到林地上方寻找小型昆虫。身体小并不表示不会飞行，翅膜由延长的手指等结构支撑。群栖图不代表某个洞穴的实测数量。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "像小猪的鼻子",
+      "body": "猪鼻蝠的鼻子短而宽，两个鼻孔之间的间隔明显，耳朵相对身体较大。它是体型很小的哺乳动物，成体头体长约 29–33 毫米，体重约 1.7–2 克；图中的放大程度不能用于与其他动物比较大小。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它在石灰岩洞穴栖息，外出到林地上方寻找小型昆虫。身体小并不表示不会飞行，翅膜由延长的手指等结构支撑。群栖图不代表某个洞穴的实测数量。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它以小昆虫为食，使用回声定位探查环境。本批不画人造的可见声波，也不把一张飞行图当作悬停或回声定位的实验记录。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它胎生并哺乳，属于猪鼻蝠科。没有外露的尾巴，但不能据此描述为完全没有尾部骨骼；成体外形与内部解剖分别说明。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本档案对应 Craseonycteris thonglongyai。ADW 的前臂单位存在明显排版错误，本批仅采用头体长与体重字段；没有使用蜂、硬币或手掌制造未经核实的同尺度对照。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护石灰岩洞穴及其自然隐蔽空间。共读时先观察图中的像小猪的鼻子，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "局部放大重建，非实测比例；鼻孔之间有较宽的间隔。",
+    "安静栖息情景，没有翻动或手持动物。",
+    "完整翼尖可见，不能从静态图测量速度或确认悬停。",
+    "放大展示，岩石纹理不是校准过的尺寸参照。",
+    "群栖环境重建，不代表实际群体数量或密度。",
+    "本档案对应 Craseonycteris thonglongyai。ADW 的前臂单位存在明显排版错误，本批仅采用头体长与体重字段；没有使用蜂、硬币或手掌制造未经核实的同尺度对照。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "洞穴栖息点干扰",
+    "周边林地改变"
+  ],
+  "conservationActions": [
+    "保护石灰岩洞穴与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {
+    "adultLengthCm": [
+      2.9,
+      3.3
+    ],
+    "adultMassKg": [
+      0.0017,
+      0.002
+    ]
+  },
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "石灰岩洞穴"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "像小猪的鼻子"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/kittis-hog-nosed-bat/01-cover.webp",
+    "alt": "猪鼻蝠及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/kittis-hog-nosed-bat/02-observation.webp",
+        "title": "像小猪的鼻子",
+        "alt": "猪鼻蝠：像小猪的鼻子，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。局部放大重建，非实测比例；鼻孔之间有较宽的间隔。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/kittis-hog-nosed-bat/03-observation.webp",
+        "title": "石灰岩上的栖息姿态",
+        "alt": "猪鼻蝠：石灰岩上的栖息姿态，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。安静栖息情景，没有翻动或手持动物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/kittis-hog-nosed-bat/04-observation.webp",
+        "title": "林地上方的飞行",
+        "alt": "猪鼻蝠：林地上方的飞行，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整翼尖可见，不能从静态图测量速度或确认悬停。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/kittis-hog-nosed-bat/05-observation.webp",
+        "title": "小身体与石面",
+        "alt": "猪鼻蝠：小身体与石面，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。放大展示，岩石纹理不是校准过的尺寸参照。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/kittis-hog-nosed-bat/06-observation.webp",
+        "title": "洞壁上的分散个体",
+        "alt": "猪鼻蝠：洞壁上的分散个体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。群栖环境重建，不代表实际群体数量或密度。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/2433358",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "密歇根大学 ADW：猪鼻蝠",
+      "url": "https://animaldiversity.org/accounts/Craseonycteris_thonglongyai/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];

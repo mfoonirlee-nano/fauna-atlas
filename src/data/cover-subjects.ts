@@ -5091,5 +5091,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 920
     }
+  },
+  "kittis-hog-nosed-bat": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 145,
+      "right": 1360,
+      "bottom": 795
+    }
   }
 };

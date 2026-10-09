@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Craseonycteris thonglongyai (Kitti’s Hog-nosed Bat). Anatomy: very tiny reddish-brown bat, pig-like blunt nose with two visible nostrils, no nose leaf, large rounded ears, no visible tail, greyish belly, membranous wings. Scene: limestone cave ledge in Thailand, wings folded. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "1d1d9fe640987e101b4c80a8fd77ad42dbbd0226241657b40e006ccf2bb902ce",
+      "runtimeSha256": "a7471062200452f6894eab1495e16e9fa60222969d82f69ddc729796cb47f75f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Craseonycteris thonglongyai (Kitti’s Hog-nosed Bat). Anatomy: very tiny reddish-brown bat, pig-like blunt nose with two visible nostrils, no nose leaf, large rounded ears, no visible tail, greyish belly, membranous wings. Scene: close portrait emphasizing pig-like nose, scientifically reconstructed magnification. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "b27230834e7519d1037ccff02429a52637fabe689e17a8f2811df4dddd5e9a2b",
+      "runtimeSha256": "22e0f44edd5a3564610a9322a8e95cedbfa62dea6db932b53017bffe28b68cb7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Craseonycteris thonglongyai (Kitti’s Hog-nosed Bat). Anatomy: very tiny reddish-brown bat, pig-like blunt nose with two visible nostrils, no nose leaf, large rounded ears, no visible tail, greyish belly, membranous wings. Scene: complete animal hanging quietly on limestone. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "38fa589b1e373a4b480b4b7a8fef0ca9d3a9f78244a0c195c3572a10646dd1a3",
+      "runtimeSha256": "0b955aafa7141764cafa1bea6fc036aa4d8334153a8b0b69ba838be31c782cfb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Craseonycteris thonglongyai (Kitti’s Hog-nosed Bat). Anatomy: very tiny reddish-brown bat, pig-like blunt nose with two visible nostrils, no nose leaf, large rounded ears, no visible tail, greyish belly, membranous wings. Scene: one bat flying with complete wing tips in bamboo forest dusk. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "2273e17751deffd86b84aee52fc2b5d8749b8382e5cbe0178f3e43640b1b83d2",
+      "runtimeSha256": "c83f160c646c94896c13e7bf982e32551e03299a642faf6f560e78038a82122f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Craseonycteris thonglongyai (Kitti’s Hog-nosed Bat). Anatomy: very tiny reddish-brown bat, pig-like blunt nose with two visible nostrils, no nose leaf, large rounded ears, no visible tail, greyish belly, membranous wings. Scene: small individual on limestone beside natural rock texture, no invented scale bar. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "4988e3b2719cf72a8b0be468719ff7a6bca305bbccd172d045fc5e73d89310c6",
+      "runtimeSha256": "89d73e0d200e89dafac387d8008af3a8bc7ce787a64b81bb3deba170dcf83b2e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Craseonycteris thonglongyai (Kitti’s Hog-nosed Bat). Anatomy: very tiny reddish-brown bat, pig-like blunt nose with two visible nostrils, no nose leaf, large rounded ears, no visible tail, greyish belly, membranous wings. Scene: several separated bats roosting calmly high on limestone cave wall. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "c9613d96a5334bd43a3b52846412b80032d170639f6c65f9bd0d36894a244a2f",
+      "runtimeSha256": "b9e2854d6fc776df729fb2ff669816d59ed76c12ba2b23e5e56ebd7dbba78b49",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -4288,5 +4288,18 @@
       },
       "sha256": "ec8f6113b0bffb161be9f08e6123254a08365711a753b0ca545eb9e70fda7346"
     }
+  },
+  "kittis-hog-nosed-bat": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 145,
+        "right": 1360,
+        "bottom": 795
+      },
+      "sha256": "a7471062200452f6894eab1495e16e9fa60222969d82f69ddc729796cb47f75f"
+    }
   }
 }
