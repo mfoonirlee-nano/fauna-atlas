@@ -753,3 +753,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [大兔唇蝠 image set](./species/greater-bulldog-bat/README.md)
 - [巨獭鼩 image set](./species/giant-otter-shrew/README.md)
 - [中南大羚 image set](./species/saola/README.md)
+- [草原黏鼠 image set](./species/plains-viscacha/README.md)

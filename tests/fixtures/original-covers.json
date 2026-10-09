@@ -4340,5 +4340,18 @@
       },
       "sha256": "fb910b270813e11280c70bf31251195e619db48f47f5d803e37044f856c494f9"
     }
+  },
+  "plains-viscacha": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 490,
+        "top": 150,
+        "right": 1500,
+        "bottom": 815
+      },
+      "sha256": "aaa1d2a9958777cc85ab8c53ad316173bfcc2725d3ee120dcdabba88e46250f2"
+    }
   }
 }

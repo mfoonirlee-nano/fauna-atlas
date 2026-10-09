@@ -5131,5 +5131,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1445,
       "bottom": 950
     }
+  },
+  "plains-viscacha": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 490,
+      "top": 150,
+      "right": 1500,
+      "bottom": 815
+    }
   }
 };

@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Lagostomus maximus (Plains Viscacha). Anatomy: stout grey-brown rodent, conspicuous horizontal black facial band below eye and pale stripe above, blunt muzzle, long whiskers, short pointed ears, powerful hindlegs, bushy tail. Scene: Argentine pampas grassland beside burrow at dusk. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "4190223523881d2044a09c711fe6581275d5278b902d2ddc6117bc26d3bd6dfc",
+      "runtimeSha256": "aaa1d2a9958777cc85ab8c53ad316173bfcc2725d3ee120dcdabba88e46250f2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Lagostomus maximus (Plains Viscacha). Anatomy: stout grey-brown rodent, conspicuous horizontal black facial band below eye and pale stripe above, blunt muzzle, long whiskers, short pointed ears, powerful hindlegs, bushy tail. Scene: close portrait showing black and white facial bands. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "ce19fe43edeb32ea528532fe82a162d5f9d94ebc7cce1f87f4f61cf86ab6ab29",
+      "runtimeSha256": "66fb5bceaaa9a41bea6c3ab717fe1f39cf40cc902e0e31678c3c05889a8707da",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Lagostomus maximus (Plains Viscacha). Anatomy: stout grey-brown rodent, conspicuous horizontal black facial band below eye and pale stripe above, blunt muzzle, long whiskers, short pointed ears, powerful hindlegs, bushy tail. Scene: whole animal at earthen burrow entrance. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "f96e2285be38911993d5246aab3fcbc4b683ac789a8405bc7cfd0832f158e915",
+      "runtimeSha256": "1ecad07f54ad1c06dc1572b4ec5aecbddcc797ed5d034c061ca4b9fe097ae70a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Lagostomus maximus (Plains Viscacha). Anatomy: stout grey-brown rodent, conspicuous horizontal black facial band below eye and pale stripe above, blunt muzzle, long whiskers, short pointed ears, powerful hindlegs, bushy tail. Scene: small group beside separate burrow openings. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "188915fb9db2b0d3f1eff8c19f2e94cb0f759c76ac1f437b6aa61f16d1342312",
+      "runtimeSha256": "915115f1891f49a63ffaa2369d9030c337ad713e037be554d271e18f33f7a7f0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Lagostomus maximus (Plains Viscacha). Anatomy: stout grey-brown rodent, conspicuous horizontal black facial band below eye and pale stripe above, blunt muzzle, long whiskers, short pointed ears, powerful hindlegs, bushy tail. Scene: whole animal grazing short grass. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "6fb3a99687a5787472427132106a5583949d9805aa132a474962ac0bbe35d08d",
+      "runtimeSha256": "ff6a705be6b4b859301d71b38e935d00edd7961e2abe8ade8d56928574c9ed88",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Lagostomus maximus (Plains Viscacha). Anatomy: stout grey-brown rodent, conspicuous horizontal black facial band below eye and pale stripe above, blunt muzzle, long whiskers, short pointed ears, powerful hindlegs, bushy tail. Scene: side view showing hindfeet and bushy tail. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "1f0b65a7098d43eb96706b51b8d0693c77f767bde8ce934f8a0e2697074cd39e",
+      "runtimeSha256": "af81472ea955cf87087ab8a2c4328a8505bb4402c7e5bdcafbdad756fb16069b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
