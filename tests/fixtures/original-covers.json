@@ -4119,5 +4119,18 @@
       },
       "sha256": "283a5cbc012ed30077545941c66819f4dd763d6c3ac1ec38c261e0de8329676f"
     }
+  },
+  "violet-snail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 672,
+        "top": 52,
+        "right": 1480,
+        "bottom": 884
+      },
+      "sha256": "d044395c9a74df9e9cbe3cf17f9f45d9ac81e2a1e711d98a453a4517d14343ca"
+    }
   }
 }

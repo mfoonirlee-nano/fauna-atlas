@@ -1,0 +1,60 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "num": 1,
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape image for species atlas cover. Naturalistic detailed scientific reconstruction. Subject: Janthina janthina violet sea snail, thin globose violet spiral shell hanging BELOW a compact raft of transparent mucus-coated air bubbles at ocean water surface, snail foot contacting underside of raft. Upright bubbles on surface, shell suspended underwater. Include full shell, foot and bubble raft. Environment: warm open ocean, split-level side view of air-water boundary, no land. Composition: whole primary subject LARGE on RIGHT, full silhouette contained within x=730..1450 and y=100..900, center at 71% width; maximize size within these limits. All outer appendages and bubble raft (if present) must be included with background clearance. Left 40% quiet low-detail space for website text. No text, labels, scale bars, logo, watermark, collage, human features, or fantasy structures.",
+      "sourceSha256": "bab64f3b90fc091628adeb779a77a2cb7c80b0a986c25db5681d558831f38a15",
+      "sourceDimensions": "1536 1024",
+      "file": "01-cover.webp",
+      "runtimeSha256": "d044395c9a74df9e9cbe3cf17f9f45d9ac81e2a1e711d98a453a4517d14343ca",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 2,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Janthina janthina violet sea snail, thin globose violet spiral shell hanging BELOW compact transparent mucus-coated bubble raft AT ocean water surface; snail foot attaches underneath raft, include full shell and bubbles. Scene: split-level side view snail suspended under bubble raft, air above and shell below water. Environment: warm ocean water surface with distinct air-water interface. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "c1914098da97a7ea88687dca05835138286f2d2a484833eda01ba09876b090f7",
+      "sourceDimensions": "1536 1024",
+      "file": "02-observation.webp",
+      "runtimeSha256": "dcbe38ce2717fe07b720eb9fd1534ee118a1813a6a005fdf1ffaaef1ca3e6a2c",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 3,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Janthina janthina violet sea snail, thin globose violet spiral shell hanging BELOW compact transparent mucus-coated bubble raft AT ocean water surface; snail foot attaches underneath raft, include full shell and bubbles. Scene: close view transparent mucus-coated raft bubbles and snail foot attached to underside. Environment: warm ocean water surface with distinct air-water interface. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "84a2803bec52f6ce8f0a8b08956c0287609bba3b145621eb39ceb72a8476cbbc",
+      "sourceDimensions": "1536 1024",
+      "file": "03-observation.webp",
+      "runtimeSha256": "9d7522bc0b866333663f13be4f40545aae9cde3eab665458cb01b4c4491d37d0",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 4,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Janthina janthina violet sea snail, thin globose violet spiral shell hanging BELOW compact transparent mucus-coated bubble raft AT ocean water surface; snail foot attaches underneath raft, include full shell and bubbles. Scene: underwater side view entire violet spiral shell suspended just below surface. Environment: warm ocean water surface with distinct air-water interface. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "d077294e535d6b9c162b366d9107a1c04fc21d69af16062c26f25341a1688482",
+      "sourceDimensions": "1536 1024",
+      "file": "04-observation.webp",
+      "runtimeSha256": "751bfa00be9b48fb2b32544d2f01e42b0e3cfbd170660be279c3fd47e46ab5aa",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 5,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Janthina janthina violet sea snail, thin globose violet spiral shell hanging BELOW compact transparent mucus-coated bubble raft AT ocean water surface; snail foot attaches underneath raft, include full shell and bubbles. Scene: snail on bubble raft approaching Velella velella floating colony, natural feeding scene. Environment: warm ocean water surface with distinct air-water interface. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "379e1f013aa6bcc3d992950abbf8a883c8d8c99faa362b42aaef8099fb61d111",
+      "sourceDimensions": "1536 1024",
+      "file": "05-observation.webp",
+      "runtimeSha256": "aaef1d555956e23406d817baed9ebf03ec7967b1303e25c8bdcdd41554540345",
+      "runtimeDimensions": "1536 1024"
+    },
+    {
+      "num": 6,
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 detailed naturalistic scientific reconstruction for species atlas gallery. Subject: Janthina janthina violet sea snail, thin globose violet spiral shell hanging BELOW compact transparent mucus-coated bubble raft AT ocean water surface; snail foot attaches underneath raft, include full shell and bubbles. Scene: two spaced bubble rafts carrying one snail each at open ocean surface, wider habitat. Environment: warm ocean water surface with distinct air-water interface. Comfortable margins, readable anatomy, centered composition. No text, labels, fake scale bars, logos, watermark, collage, fantasy structures or anthropomorphic features.",
+      "sourceSha256": "ff29c3bc43b42a6347bd137729178bd3ef39703419f28f0dfd7e0b3b8a5b80d9",
+      "sourceDimensions": "1536 1024",
+      "file": "06-observation.webp",
+      "runtimeSha256": "7a4de007f69b7a72dcbe131e0545fd116371151db05ec81bc2667ebd7bfb440a",
+      "runtimeDimensions": "1536 1024"
+    }
+  ]
+}

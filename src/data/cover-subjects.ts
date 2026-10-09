@@ -4961,5 +4961,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1405,
       "bottom": 885
     }
+  },
+  "violet-snail": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 672,
+      "top": 52,
+      "right": 1480,
+      "bottom": 884
+    }
   }
 };

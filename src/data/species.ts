@@ -137525,6 +137525,246 @@ export const species = [
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
 },
+{
+  "id": "violet-snail",
+  "slug": "violet-snail",
+  "names": {
+    "zh": "紫螺",
+    "en": "Violet Snail"
+  },
+  "scientificName": "Janthina janthina",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Mollusca",
+      "zhName": "软体动物门"
+    },
+    "class": {
+      "scientificName": "Gastropoda",
+      "zhName": "腹足纲"
+    },
+    "order": {
+      "scientificName": "Caenogastropoda incertae sedis",
+      "zhName": "新腹足类目级未定群"
+    },
+    "family": {
+      "scientificName": "Epitoniidae",
+      "zhName": "梯螺科"
+    },
+    "genus": {
+      "scientificName": "Janthina",
+      "zhName": "紫螺属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实全球物种级 IUCN 评估，沿用项目 NE 占位口径；不表示没有保护风险。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "亚洲",
+      "非洲",
+      "欧洲",
+      "北美洲",
+      "南美洲",
+      "大洋洲"
+    ],
+    "regions": [
+      "三大洋热带与亚热带表层"
+    ],
+    "countries": [],
+    "range": "分布于大西洋、太平洋和印度洋的热带与亚热带海域，在海面附近漂浮。澳大利亚多个沿岸地区有记录；被浪冲上岸的壳不意味着它平时生活在陆地上。"
+  },
+  "habitats": [
+    {
+      "name": "海洋表层",
+      "realm": "marine",
+      "description": "分布于大西洋、太平洋和印度洋的热带与亚热带海域，在海面附近漂浮。澳大利亚多个沿岸地区有记录；被浪冲上岸的壳不意味着它平时生活在陆地上。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {
+    "length": {
+      "typical": 3,
+      "unit": "cm",
+      "note": "澳大利亚博物馆列出的壳体大小约 3 厘米，不作为全部成体的固定长度。"
+    }
+  },
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "僧帽水母属动物",
+      "帆水母"
+    ],
+    "description": "捕食海面附近漂浮的刺胞动物，包括 Physalia 属动物和帆水母 Velella velella；不把它描述成吃藻的陆生蜗牛。"
+  },
+  "tags": [
+    "紫螺",
+    "海洋表层"
+  ],
+  "summary": "紫螺挂在自己制作的泡沫筏下，带着紫色螺壳在海面漂浮。",
+  "description": "先找水面上的泡泡，再找泡泡下面的紫色螺壳。它用黏液包住空气，形成能托住身体的泡沫筏。海风和水流带着它移动，它也在海面附近寻找漂浮的刺胞动物。",
+  "storySections": [
+    {
+      "key": "observation-1",
+      "label": "生活与认识",
+      "title": "泡泡在上，螺壳在下",
+      "body": "泡沫筏托在海面上，紫色壳和大部分身体悬在水下。先沿水面找出泡泡和壳的位置。"
+    },
+    {
+      "key": "observation-2",
+      "label": "生活与认识",
+      "title": "用黏液包住空气",
+      "body": "紫螺制作黏液包裹的泡泡，并用足附着在筏下。泡泡数量和大小会变化，生成图不能用来精确计数。"
+    },
+    {
+      "key": "observation-3",
+      "label": "生活与认识",
+      "title": "紫色的螺旋壳",
+      "body": "壳薄而带紫色，外形有螺旋。不同部位的颜色深浅有差别，观察图采用水下视角。"
+    },
+    {
+      "key": "observation-4",
+      "label": "生活与认识",
+      "title": "海面附近的食物",
+      "body": "紫螺会取食帆水母等漂浮刺胞动物。图中为独立取食场景重建，不表示连续拍摄，也不据图判断一次吃多少。"
+    },
+    {
+      "key": "observation-5",
+      "label": "生活与认识",
+      "title": "随风和水流漂浮",
+      "body": "两只紫螺各挂在自己的泡沫筏下。海面生活使它们随风和水流移动，海滩上有时能看见被冲上岸的壳。"
+    }
+  ],
+  "keyFacts": [
+    "泡沫筏由黏液包裹的空气泡组成。",
+    "螺壳悬在泡沫筏下方。",
+    "现行 WoRMS 将其目级归属列为 Caenogastropoda incertae sedis，科为梯螺科。"
+  ],
+  "threats": [
+    "本次未核实全球物种级威胁排序。"
+  ],
+  "conservationActions": [
+    "通过影像观察，保留来源与物种限定。",
+    "减少水域污染，野外观察不取走活体。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "raft",
+      "label": "漂浮工具",
+      "value": "泡沫筏"
+    },
+    {
+      "key": "food",
+      "label": "食物",
+      "value": "漂浮刺胞动物"
+    }
+  ],
+  "media": {
+    "image": "./images/species/violet-snail/01-cover.webp",
+    "alt": "紫螺及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/violet-snail/02-observation.webp",
+        "title": "泡泡在上，螺壳在下",
+        "alt": "紫螺：泡泡在上，螺壳在下",
+        "caption": "AI 生成科学情景重建。泡沫筏托在海面上，紫色壳和大部分身体悬在水下。先沿水面找出泡泡和壳的位置。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/violet-snail/03-observation.webp",
+        "title": "用黏液包住空气",
+        "alt": "紫螺：用黏液包住空气",
+        "caption": "AI 生成科学情景重建。紫螺制作黏液包裹的泡泡，并用足附着在筏下。泡泡数量和大小会变化，生成图不能用来精确计数。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/violet-snail/04-observation.webp",
+        "title": "紫色的螺旋壳",
+        "alt": "紫螺：紫色的螺旋壳",
+        "caption": "AI 生成科学情景重建。壳薄而带紫色，外形有螺旋。不同部位的颜色深浅有差别，观察图采用水下视角。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/violet-snail/05-observation.webp",
+        "title": "海面附近的食物",
+        "alt": "紫螺：海面附近的食物",
+        "caption": "AI 生成科学情景重建。紫螺会取食帆水母等漂浮刺胞动物。图中为独立取食场景重建，不表示连续拍摄，也不据图判断一次吃多少。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/violet-snail/06-observation.webp",
+        "title": "随风和水流漂浮",
+        "alt": "紫螺：随风和水流漂浮",
+        "caption": "AI 生成科学情景重建。两只紫螺各挂在自己的泡沫筏下。海面生活使它们随风和水流移动，海滩上有时能看见被冲上岸的壳。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "澳大利亚博物馆：紫螺",
+      "url": "https://australian.museum/learn/animals/molluscs/violet-snail/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：紫螺完整分类链",
+      "url": "https://www.marinespecies.org/rest/AphiaClassificationByAphiaID/140155",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "WoRMS：接受学名与分类",
+      "url": "https://www.marinespecies.org/aphia.php?id=140155&p=taxdetails",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
+},
 
 ] as const satisfies readonly Species[];
 
