@@ -4353,5 +4353,18 @@
       },
       "sha256": "aaa1d2a9958777cc85ab8c53ad316173bfcc2725d3ee120dcdabba88e46250f2"
     }
+  },
+  "eastern-long-beaked-echidna": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 495,
+        "top": 135,
+        "right": 1455,
+        "bottom": 865
+      },
+      "sha256": "ad66b39fbd7fdc672f8a7e8fb27c8d9afc48d67bb8e859f9b019f8020c4182f0"
+    }
   }
 }

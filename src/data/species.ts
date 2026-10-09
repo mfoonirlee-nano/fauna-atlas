@@ -141866,6 +141866,243 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-09",
   "updatedAt": "2026-10-09"
+},{
+  "id": "eastern-long-beaked-echidna",
+  "slug": "eastern-long-beaked-echidna",
+  "names": {
+    "zh": "东部长吻针鼹",
+    "en": "Eastern Long-beaked Echidna"
+  },
+  "scientificName": "Zaglossus bartoni",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Mammalia",
+      "zhName": "哺乳纲"
+    },
+    "order": {
+      "scientificName": "Monotremata",
+      "zhName": "单孔目"
+    },
+    "family": {
+      "scientificName": "Tachyglossidae",
+      "zhName": "针鼹科"
+    },
+    "genus": {
+      "scientificName": "Zaglossus",
+      "zhName": "长吻针鼹属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "新几内亚高地"
+    ],
+    "countries": [
+      "巴布亚新几内亚"
+    ],
+    "range": "新几内亚高地。国家列表为代表地点，不表示完整国家范围。"
+  },
+  "habitats": [
+    {
+      "name": "高地森林",
+      "realm": "terrestrial",
+      "description": "它多在夜间活动，在新几内亚高地森林地面寻找土壤动物。长吻探入软土，脚爪拨动底质，具体动作要结合连续自然影像。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "蚯蚓等土壤无脊椎动物"
+    ],
+    "description": "它主要寻找蚯蚓等小型无脊椎动物，舌部参与取食。本批没有用普通蚂蚁食性模板替代长吻针鼹的食物，也没有把探土画面当作内部取食结构证据。"
+  },
+  "tags": [
+    "东部长吻针鼹",
+    "高地森林"
+  ],
+  "summary": "用弯长的吻寻找蚯蚓。",
+  "description": "东部长吻针鼹的吻部很长并向下弯，深褐粗毛间散布浅色棘刺，脚爪帮助挖掘。它属于单孔目针鼹科，和短吻针鼹分别对应不同属与物种。它多在夜间活动，在新几内亚高地森林地面寻找土壤动物。长吻探入软土，脚爪拨动底质，具体动作要结合连续自然影像。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "弯弯的长吻",
+      "body": "东部长吻针鼹的吻部很长并向下弯，深褐粗毛间散布浅色棘刺，脚爪帮助挖掘。它属于单孔目针鼹科，和短吻针鼹分别对应不同属与物种。"
+    },
+    {
+      "key": "movement",
+      "label": "生活环境",
+      "title": "在栖息地活动",
+      "body": "它多在夜间活动，在新几内亚高地森林地面寻找土壤动物。长吻探入软土，脚爪拨动底质，具体动作要结合连续自然影像。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它主要寻找蚯蚓等小型无脊椎动物，舌部参与取食。本批没有用普通蚂蚁食性模板替代长吻针鼹的食物，也没有把探土画面当作内部取食结构证据。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "它产卵，孵化后的幼体摄取母体分泌的乳汁。产卵与哺乳是两个不同阶段，图库没有把哺乳动物一概画成胎生，也没有编造本种完整育幼剖面。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本档案对应 Zaglossus bartoni，与西部长吻针鼹分开。ADW 的体型数据存在地点、亚种与样本差异，本批保留外形说明，不填写统一寿命、速度或全物种体重范围。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "观察与保护",
+      "body": "保护高地森林及其自然隐蔽空间。共读时先观察图中的弯弯的长吻，再由成人读资料说明。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "侧面观察吻部长度与弯曲，画中比例不供测量。",
+    "刺与毛共同覆盖身体，重建不作为亚种鉴定依据。",
+    "取食环境示意，不能从鼻尖入土推断捕获某一种猎物。",
+    "前脚与爪的局部重建，细微趾数需用标本或研究图核对。",
+    "高地林地情景，不代表一次真实活动记录。",
+    "本档案对应 Zaglossus bartoni，与西部长吻针鼹分开。ADW 的体型数据存在地点、亚种与样本差异，本批保留外形说明，不填写统一寿命、速度或全物种体重范围。",
+    "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  ],
+  "threats": [
+    "栖息地改变",
+    "狩猎压力"
+  ],
+  "conservationActions": [
+    "保护高地森林与天然隐蔽空间，观察时保留安静距离。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "高地森林"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "弯弯的长吻"
+    },
+    {
+      "key": "conservation",
+      "label": "评估资料",
+      "value": "尚未核实",
+      "note": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/eastern-long-beaked-echidna/01-cover.webp",
+    "alt": "东部长吻针鼹及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/eastern-long-beaked-echidna/02-observation.webp",
+        "title": "弯弯的长吻",
+        "alt": "东部长吻针鼹：弯弯的长吻，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。侧面观察吻部长度与弯曲，画中比例不供测量。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-long-beaked-echidna/03-observation.webp",
+        "title": "粗毛间的刺",
+        "alt": "东部长吻针鼹：粗毛间的刺，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。刺与毛共同覆盖身体，重建不作为亚种鉴定依据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-long-beaked-echidna/04-observation.webp",
+        "title": "探查软土",
+        "alt": "东部长吻针鼹：探查软土，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。取食环境示意，不能从鼻尖入土推断捕获某一种猎物。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-long-beaked-echidna/05-observation.webp",
+        "title": "挖掘的前脚",
+        "alt": "东部长吻针鼹：挖掘的前脚，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。前脚与爪的局部重建，细微趾数需用标本或研究图核对。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/eastern-long-beaked-echidna/06-observation.webp",
+        "title": "苔藓与倒木旁",
+        "alt": "东部长吻针鼹：苔藓与倒木旁，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。高地林地情景，不代表一次真实活动记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受学名与分类入口",
+      "url": "https://www.gbif.org/species/2433385",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-09"
+    },
+    {
+      "title": "密歇根大学 ADW：东部长吻针鼹",
+      "url": "https://animaldiversity.org/accounts/Zaglossus_bartoni/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09"
 },
 
 ] as const satisfies readonly Species[];

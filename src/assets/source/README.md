@@ -754,3 +754,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [巨獭鼩 image set](./species/giant-otter-shrew/README.md)
 - [中南大羚 image set](./species/saola/README.md)
 - [草原黏鼠 image set](./species/plains-viscacha/README.md)
+- [东部长吻针鼹 image set](./species/eastern-long-beaked-echidna/README.md)

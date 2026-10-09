@@ -5141,5 +5141,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1500,
       "bottom": 815
     }
+  },
+  "eastern-long-beaked-echidna": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 495,
+      "top": 135,
+      "right": 1455,
+      "bottom": 865
+    }
   }
 };

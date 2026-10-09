@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-09",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Zaglossus bartoni (Eastern Long-beaked Echidna). Anatomy: large rounded dark brown echidna with dense coarse fur and scattered pale spines, very long downward-curving slender beak, small eyes, tiny ears, strong digging feet with five claws on forefeet and four to five hindfoot claws. Scene: New Guinea highland forest floor. Complete animal on right half, center at 70% width, all extremities inside x=650..1450 and y=120..900; left 40% quiet background. Maximize animal within these full-body margins. No cut-off tail, horns, feet, wings, bill or snout. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "69941f2371ffd5c7cc296634077f5fa8c0b53de9c59c554454c2c03528f8f1ca",
+      "runtimeSha256": "ad66b39fbd7fdc672f8a7e8fb27c8d9afc48d67bb8e859f9b019f8020c4182f0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Zaglossus bartoni (Eastern Long-beaked Echidna). Anatomy: large rounded dark brown echidna with dense coarse fur and scattered pale spines, very long downward-curving slender beak, small eyes, tiny ears, strong digging feet with five claws on forefeet and four to five hindfoot claws. Scene: side portrait showing long curved beak. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "3e11f7411e4431a87adee88e6181f1c72b327da321347eb167d2d87246f5640a",
+      "runtimeSha256": "4b538f1713e3b3f2acf150e8d97db5c7a5b0328669695854c6989f8a4b39f33b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Zaglossus bartoni (Eastern Long-beaked Echidna). Anatomy: large rounded dark brown echidna with dense coarse fur and scattered pale spines, very long downward-curving slender beak, small eyes, tiny ears, strong digging feet with five claws on forefeet and four to five hindfoot claws. Scene: close view of spines among coarse fur. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "83cfd56520ef2078ccf258e556e05980e45e0a74f016e1b2592aad543e30248a",
+      "runtimeSha256": "94185738cda65099851cb8e7d8e38227184825f23bfbd3c4e1a20d0a7db1fbd0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Zaglossus bartoni (Eastern Long-beaked Echidna). Anatomy: large rounded dark brown echidna with dense coarse fur and scattered pale spines, very long downward-curving slender beak, small eyes, tiny ears, strong digging feet with five claws on forefeet and four to five hindfoot claws. Scene: whole animal probing soft soil with beak. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "56ed066d8649ef9e59af2e0ebf57adaa9eb6f044f1da2c1473115f76fe17253a",
+      "runtimeSha256": "e7a729f4e2a93787e5c5927daed621d35578d11d33210c18574660f9250b4970",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Zaglossus bartoni (Eastern Long-beaked Echidna). Anatomy: large rounded dark brown echidna with dense coarse fur and scattered pale spines, very long downward-curving slender beak, small eyes, tiny ears, strong digging feet with five claws on forefeet and four to five hindfoot claws. Scene: close view of digging forefeet on forest floor. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "a3e59884b78dfe98d504396ec9634383e6f30708f92d47b420b9dd658fe5d5c3",
+      "runtimeSha256": "dd246c7faabacbb2ace1da2cca39d74ab293ace551a9a3c66264fd75733e5e12",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 species atlas image. Subject: Zaglossus bartoni (Eastern Long-beaked Echidna). Anatomy: large rounded dark brown echidna with dense coarse fur and scattered pale spines, very long downward-curving slender beak, small eyes, tiny ears, strong digging feet with five claws on forefeet and four to five hindfoot claws. Scene: whole animal walking beside mossy logs. Prominent clear observation subject, composition matches scene; preserve anatomy and visible features. Naturalistic scientific reconstruction, authentic texture and soft natural lighting. No text, watermark, collage, human handling, blood, invented scale bar or staged distress.",
+      "originalPrompt": null,
+      "sourceSha256": "ba9ac258db7c807cb51c035ea888f2d8a2858a03cab756dd322e203a048b3b4c",
+      "runtimeSha256": "0c8419c1af6f6f219eb3145d8357d4e0d9dd3d08a2cde4da73e1b2dfe3e88e26",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
