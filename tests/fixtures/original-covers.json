@@ -4652,5 +4652,18 @@
         "bottom": 810
       }
     }
+  },
+  "common-coqui": {
+    "cover": {
+      "sha256": "0823b905edeb73c708fd28c9763918d4d9b044a012a330516e2a77bc53301e26",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 845,
+        "top": 365,
+        "right": 1420,
+        "bottom": 830
+      }
+    }
   }
 }

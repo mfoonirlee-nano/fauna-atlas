@@ -147304,6 +147304,233 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-10",
   "updatedAt": "2026-10-10"
+},
+{
+  "id": "common-coqui",
+  "slug": "common-coqui",
+  "names": {
+    "zh": "科基蛙",
+    "en": "Common Coqui"
+  },
+  "scientificName": "Eleutherodactylus coqui",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Amphibia",
+      "zhName": "两栖纲"
+    },
+    "order": {
+      "scientificName": "Anura",
+      "zhName": "无尾目"
+    },
+    "family": {
+      "scientificName": "Eleutherodactylidae",
+      "zhName": "离趾蟾科"
+    },
+    "genus": {
+      "scientificName": "Eleutherodactylus",
+      "zhName": "离趾蟾属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "波多黎各（原生分布）"
+    ],
+    "countries": [
+      "美国"
+    ],
+    "range": "原生于波多黎各，利用湿润林地的叶面、落叶层和隐蔽空隙。夏威夷等地的记录属于引入分布，不能把它写成这些地方的原生动物；没有以引入种群替代全球保护等级。"
+  },
+  "habitats": [
+    {
+      "name": "湿润林地的叶面与落叶层",
+      "realm": "terrestrial",
+      "description": "原生于波多黎各，利用湿润林地的叶面、落叶层和隐蔽空隙。夏威夷等地的记录属于引入分布，不能把它写成这些地方的原生动物；没有以引入种群替代全球保护等级。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore",
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "蜘蛛等小型无脊椎动物"
+    ],
+    "description": "取食昆虫、蜘蛛等小型无脊椎动物，食物随个体大小变化。叶面姿态图是情景重建，不能证明一次真实捕食或鸣叫。"
+  },
+  "tags": [
+    "科基蛙",
+    "湿润林地的叶面与落叶层"
+  ],
+  "summary": "科基蛙：从卵中孵出的幼蛙。",
+  "description": "科基蛙体色常为褐色至灰褐色，背部有深浅不同的花纹，足趾末端有趾垫，趾间没有游泳蛙那样宽大的蹼。英文名称来自雄性两段式鸣声。原生于波多黎各，利用湿润林地的叶面、落叶层和隐蔽空隙。夏威夷等地的记录属于引入分布，不能把它写成这些地方的原生动物；没有以引入种群替代全球保护等级。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "从卵中孵出的幼蛙",
+      "body": "科基蛙体色常为褐色至灰褐色，背部有深浅不同的花纹，足趾末端有趾垫，趾间没有游泳蛙那样宽大的蹼。英文名称来自雄性两段式鸣声。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "湿润林地的叶面与落叶层",
+      "body": "原生于波多黎各，利用湿润林地的叶面、落叶层和隐蔽空隙。夏威夷等地的记录属于引入分布，不能把它写成这些地方的原生动物；没有以引入种群替代全球保护等级。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "取食昆虫、蜘蛛等小型无脊椎动物，食物随个体大小变化。叶面姿态图是情景重建，不能证明一次真实捕食或鸣叫。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "卵在湿润的陆地隐蔽处发育，雄性有护卵行为。胚胎在卵中完成发育，孵出的是有四肢的小蛙，没有自由游泳的蝌蚪阶段。图库分开标注雄性鸣叫、护卵和新孵幼蛙，不套用池塘蝌蚪生活史。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Eleutherodactylus coqui，属于两栖纲、无尾目、离趾蟾科。分类图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察从卵中孵出的幼蛙。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "科基蛙体色常为褐色至灰褐色，背部有深浅不同的花纹，足趾末端有趾垫，趾间没有游泳蛙那样宽大的蹼。英文名称来自雄性两段式鸣声。",
+    "卵在湿润的陆地隐蔽处发育，雄性有护卵行为。胚胎在卵中完成发育，孵出的是有四肢的小蛙，没有自由游泳的蝌蚪阶段。图库分开标注雄性鸣叫、护卵和新孵幼蛙，不套用池塘蝌蚪生活史。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不代表连续动作。"
+  ],
+  "threats": [
+    "原生林地栖息环境改变；引入地区的生态影响另作说明"
+  ],
+  "conservationActions": [
+    "保留原生湿润林地",
+    "避免跨地区运输动物及携带动物的植物材料"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "从卵中孵出的幼蛙"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-coqui/01-cover.webp",
+    "alt": "科基蛙及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-coqui/02-observation.webp",
+        "title": "叶面上的成蛙",
+        "alt": "科基蛙：叶面上的成蛙，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成体外形重建，观察圆形趾垫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-coqui/03-observation.webp",
+        "title": "雄性的鸣叫姿态",
+        "alt": "科基蛙：雄性的鸣叫姿态，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雄性声囊重建；声音与鸣叫过程需用有声自然影像观察。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-coqui/04-observation.webp",
+        "title": "落叶层的隐蔽处",
+        "alt": "科基蛙：落叶层的隐蔽处，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成体日间栖息情景，性别未判定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-coqui/05-observation.webp",
+        "title": "雄性守护卵团",
+        "alt": "科基蛙：雄性守护卵团，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雄性护卵教学重建，卵内发育不按实测比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-coqui/06-observation.webp",
+        "title": "新孵出的幼蛙",
+        "alt": "科基蛙：新孵出的幼蛙，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。幼蛙与空卵囊重建；本种没有自由游泳的蝌蚪阶段。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "USGS：科基蛙识别、原生与引入分布",
+      "url": "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=60",
+      "kind": "distribution",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "密歇根大学 ADW：分类、趾垫、直接发育与雄性护卵",
+      "url": "https://animaldiversity.org/accounts/Eleutherodactylus_coqui/",
+      "kind": "general",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
 },] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

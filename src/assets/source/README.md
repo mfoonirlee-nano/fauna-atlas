@@ -780,3 +780,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [奇异多指节蟾 image set](./species/paradoxical-frog/README.md)
 - [锡兰鱼螈 image set](./species/ceylon-caecilian/README.md)
+- [科基蛙 image set](./species/common-coqui/README.md)

@@ -5372,4 +5372,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 810
     }
   },
+  "common-coqui": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 845,
+      "top": 365,
+      "right": 1420,
+      "bottom": 830
+    }
+  },
 };

@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 realistic natural-history reconstruction. Species Eleutherodactylus coqui. Anatomy: small tan-brown Puerto Rican coqui frog, large round eyes with horizontal pupils, subtle dark dorsal markings, round toe pads, four legs, no webbed swimming feet, no tail. Scene: whole adult on broad green leaf at dusk in Puerto Rican moist tropical forest. COVER COMPOSITION: entire animal strictly in RIGHT HALF, all extremities within x=760..1450 y=180..880. Center at 72% width. Left HALF quiet habitat background. Maximize full animal within this box. For elongate animals curve body and tail gently into right half. Real background margins. No text, watermark, collage, cropped fins/toes/tail, humans, distress. Scientific reconstruction.",
+      "sourceSha256": "fe3dd8eba43e6f1d1f0b9368e926a25e3619113614d936c24b350fffe6b33acc",
+      "runtimeSha256": "0823b905edeb73c708fd28c9763918d4d9b044a012a330516e2a77bc53301e26",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Eleutherodactylus coqui. Adult anatomy reference: small tan-brown Puerto Rican coqui frog, large round eyes with horizontal pupils, subtle dark dorsal markings, round toe pads, four legs, no webbed swimming feet, no tail. Scene and LIFE STAGE override adult reference where explicitly specified: whole adult on broad green leaf at dusk, in Puerto Rican moist tropical forest. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "b3720df755913828c901aa1ae886ea788794826063a080ca0f60f5823f202e2e",
+      "runtimeSha256": "5f42e5cb5cbc4110fc6946fb131ef7b52556194ff1dd29e911dde3a19cb7fb42",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Eleutherodactylus coqui. Adult anatomy reference: small tan-brown Puerto Rican coqui frog, large round eyes with horizontal pupils, subtle dark dorsal markings, round toe pads, four legs, no webbed swimming feet, no tail. Scene and LIFE STAGE override adult reference where explicitly specified: male frog at night perched on leaf with inflated throat vocal sac, naturalistic calling posture, in Puerto Rican moist tropical forest. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "73bbef661fc2e812d911ebfa95dec415c60965c1661757e4fddcf0f9bd570de9",
+      "runtimeSha256": "e43b9be91a2285c192f63667cc0230e7f11da18b22934b8c35f37988001d6f3c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Eleutherodactylus coqui. Adult anatomy reference: small tan-brown Puerto Rican coqui frog, large round eyes with horizontal pupils, subtle dark dorsal markings, round toe pads, four legs, no webbed swimming feet, no tail. Scene and LIFE STAGE override adult reference where explicitly specified: female or unspecified adult in moist leaf litter by day, closed mouth, in Puerto Rican moist tropical forest. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "e15d0bd05a97f1e23efb22a4390ac3d19a1a5938e83e9aac2a7e2e6de2267d7e",
+      "runtimeSha256": "d64f85798b81bccc3d72bb8a886c5a26bf16570a4490031e62cd799327e45b10",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Eleutherodactylus coqui. Adult anatomy reference: small tan-brown Puerto Rican coqui frog, large round eyes with horizontal pupils, subtle dark dorsal markings, round toe pads, four legs, no webbed swimming feet, no tail. Scene and LIFE STAGE override adult reference where explicitly specified: adult male guarding small clutch of translucent eggs in moist sheltered leaf cavity, embryos frog-shaped; direct development reconstruction, no swimming tadpoles, in Puerto Rican moist tropical forest. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "3f3811c0e8c866ba1fa2be5bdafb19845f9f9a0209b08e21400c897084dd62f0",
+      "runtimeSha256": "5ec59b55bb5f6e6ebb2081b8b5b2910a142cdc9ff92db62f28091cd2372400c0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Eleutherodactylus coqui. Adult anatomy reference: small tan-brown Puerto Rican coqui frog, large round eyes with horizontal pupils, subtle dark dorsal markings, round toe pads, four legs, no webbed swimming feet, no tail. Scene and LIFE STAGE override adult reference where explicitly specified: tiny newly hatched froglet beside translucent empty egg capsules on wet leaf, four legs and no external tail; no aquatic tadpole, in Puerto Rican moist tropical forest. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "7ed799573db1520d4de8f022338427947137618db9b7db49854ac1fc249756d2",
+      "runtimeSha256": "8ef31ed1d9520d10da4fd995f7392f3089b04fc494f14161a68bea1c937d0aac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
