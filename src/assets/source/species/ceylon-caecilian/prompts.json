@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this image of Ichthyophis glutinosus. Remove the thin dangling strand protruding below the chin/mouth; reconstruct smooth continuous chin outline with wet skin and leaf background. The caecilian has tiny paired sensory tentacles between each eye and nostril, never a thread hanging from its mouth. Keep small eye, blunt head, yellow lateral stripe, limbless annulated body, pose, full-body right-side placement, habitat, image size and lighting unchanged. No snake tongue, no text, no other modifications.",
+      "sourceSha256": "b2e4fbcc047e4d0280ada659f523d243131ce95345f261b6892c95de5563f4c0",
+      "runtimeSha256": "9e1ba2b1cdb78f0bb97b131ffccac0ce2a34763705db807919bef502a3a04797",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. ONE landscape 1536x1024 realistic natural-history reconstruction. Species Ichthyophis glutinosus. Anatomy: limbless cylindrical caecilian amphibian, dark purple-brown wet skin, fine annular grooves, bright continuous yellow stripe along each side, blunt head with tiny eyes, minute sensory tentacles, short blunt tail, NO snake scales, NO legs. Scene: whole adult loosely curved on wet leaf litter, continuous yellow lateral stripe visible in Sri Lankan humid forest floor beside freshwater stream. COVER COMPOSITION: entire animal strictly in RIGHT HALF, all extremities within x=760..1450 y=180..880. Center at 72% width. Left HALF quiet habitat background. Maximize full animal within this box. For elongate animals curve body and tail gently into right half. Real background margins. No text, watermark, collage, cropped fins/toes/tail, humans, distress. Scientific reconstruction.",
+      "discardedSourceSha256": "20608d9f71856a3ee6af3c5fc4140d7767a914f10eb63930e6c5672550452ac1"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Ichthyophis glutinosus. Adult anatomy reference: limbless cylindrical caecilian amphibian, dark purple-brown wet skin, fine annular grooves, bright continuous yellow stripe along each side, blunt head with tiny eyes, minute sensory tentacles, short blunt tail, NO snake scales, NO legs. Scene and LIFE STAGE override adult reference where explicitly specified: whole adult loosely curved on wet leaf litter, continuous yellow lateral stripe visible, in Sri Lankan humid forest floor beside freshwater stream. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "5e378ae7d269a6432f04db8421c795ca000244688447c22e5d94a850ff711cd7",
+      "runtimeSha256": "2967aa7caa2ad32e87c18fd1e1de0dacd2f15aa2b1622ced694ef7eed0b4652a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Ichthyophis glutinosus. Adult anatomy reference: limbless cylindrical caecilian amphibian, dark purple-brown wet skin, fine annular grooves, bright continuous yellow stripe along each side, blunt head with tiny eyes, minute sensory tentacles, short blunt tail, NO snake scales, NO legs. Scene and LIFE STAGE override adult reference where explicitly specified: macro side view of blunt head with tiny eye and small sensory tentacle between eye and nostril, no snake forked tongue, in Sri Lankan humid forest floor beside freshwater stream. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "1d241cd96add050b47960f27eb7ed74946980274fc02481bf082d3765cc249b4",
+      "runtimeSha256": "2b44eaf14e881e42da7f9b885a13f3f804357f1eb42d80e92ba9db8dd41f746a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Ichthyophis glutinosus. Adult anatomy reference: limbless cylindrical caecilian amphibian, dark purple-brown wet skin, fine annular grooves, bright continuous yellow stripe along each side, blunt head with tiny eyes, minute sensory tentacles, short blunt tail, NO snake scales, NO legs. Scene and LIFE STAGE override adult reference where explicitly specified: whole adult in natural soil burrow revealed as scientific cutaway, fine annular grooves and yellow side stripe, in Sri Lankan humid forest floor beside freshwater stream. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "d1acac32874665d39557e63a64c0a7d81c1ad5a417e3a22f40b77491500bfddb",
+      "runtimeSha256": "62c4d7664fae241871322c8abb69d69f34500f32e4c415d4a7aea9b057ffcc18",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Ichthyophis glutinosus. Adult anatomy reference: limbless cylindrical caecilian amphibian, dark purple-brown wet skin, fine annular grooves, bright continuous yellow stripe along each side, blunt head with tiny eyes, minute sensory tentacles, short blunt tail, NO snake scales, NO legs. Scene and LIFE STAGE override adult reference where explicitly specified: adult female gently coiled around clutch of translucent cream eggs in moist terrestrial nest near water; scientific reproductive reconstruction, in Sri Lankan humid forest floor beside freshwater stream. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "e5f1128358df987a00d00edc84fd5638b4ef425cd1d6d25f5fd06ffff2de2060",
+      "runtimeSha256": "025bd3e4d8db3fd845f29b7e074fe4b06cbdd2339c36095170f3ebade51c3b44",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Ichthyophis glutinosus. Adult anatomy reference: limbless cylindrical caecilian amphibian, dark purple-brown wet skin, fine annular grooves, bright continuous yellow stripe along each side, blunt head with tiny eyes, minute sensory tentacles, short blunt tail, NO snake scales, NO legs. Scene and LIFE STAGE override adult reference where explicitly specified: single slender aquatic caecilian larva in shallow freshwater, subtle tail fin, no legs; life-stage reconstruction, no adult yellow stripe forced onto larva, in Sri Lankan humid forest floor beside freshwater stream. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "c9c07e637e8259765159246a6c76916af7c511300dffdf2ac6c73d82572c7531",
+      "runtimeSha256": "2972a857b43caeb18ed23ad62c30282c7115eeff40d8dc85f2d6dec7114a2e2a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

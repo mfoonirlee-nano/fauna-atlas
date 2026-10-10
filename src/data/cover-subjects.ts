@@ -5362,4 +5362,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 880
     }
   },
+  "ceylon-caecilian": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 695,
+      "top": 330,
+      "right": 1510,
+      "bottom": 810
+    }
+  },
 };

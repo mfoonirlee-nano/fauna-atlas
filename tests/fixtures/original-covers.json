@@ -4639,5 +4639,18 @@
         "bottom": 880
       }
     }
+  },
+  "ceylon-caecilian": {
+    "cover": {
+      "sha256": "9e1ba2b1cdb78f0bb97b131ffccac0ce2a34763705db807919bef502a3a04797",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 695,
+        "top": 330,
+        "right": 1510,
+        "bottom": 810
+      }
+    }
   }
 }
