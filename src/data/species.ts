@@ -146581,6 +146581,249 @@ export const species = [
   "publishedAt": "2026-10-10",
   "updatedAt": "2026-10-10"
 },
+{
+  "id": "coastal-tailed-frog",
+  "slug": "coastal-tailed-frog",
+  "names": {
+    "zh": "尾蟾",
+    "en": "Coastal Tailed Frog"
+  },
+  "scientificName": "Ascaphus truei",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "order": {
+      "scientificName": "Anura",
+      "zhName": "无尾目"
+    },
+    "family": {
+      "scientificName": "Ascaphidae",
+      "zhName": "尾蟾科"
+    },
+    "genus": {
+      "scientificName": "Ascaphus",
+      "zhName": "尾蟾属"
+    },
+    "class": {
+      "scientificName": "Amphibia",
+      "zhName": "两栖纲"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "北美洲太平洋沿岸的山地溪流"
+    ],
+    "countries": [
+      "美国",
+      "加拿大"
+    ],
+    "range": "北美洲太平洋沿岸的山地溪流。范围依据资料，生成图不表示真实拍摄地点。"
+  },
+  "habitats": [
+    {
+      "name": "冷凉清澈的森林溪流",
+      "realm": "freshwater",
+      "description": "它依赖冷凉、清澈、常年有水的森林溪流。蝌蚪腹面的宽大吸盘口部能贴住石面。当前 A. truei 指沿海物种，不能把内陆 A. montanus 的分布并入。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫等小型无脊椎动物（成体）",
+      "石面生物膜（蝌蚪）"
+    ],
+    "description": "成体摄食昆虫等小型无脊椎动物；蝌蚪主要刮食溪石表面的生物膜。两个阶段的取食方式不同。"
+  },
+  "tags": [
+    "尾蟾",
+    "冷凉清澈的森林溪流"
+  ],
+  "summary": "尾蟾：蝌蚪贴住石头的吸盘口部。",
+  "description": "尾蟾成体小，头宽而扁，体色常与溪石相近，瞳孔竖直。成年雄性有短尾状突起，这是交配结构，并非保留的蝌蚪尾巴；成年雌性没有这一突起。它依赖冷凉、清澈、常年有水的森林溪流。蝌蚪腹面的宽大吸盘口部能贴住石面。当前 A. truei 指沿海物种，不能把内陆 A. montanus 的分布并入。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "蝌蚪贴住石头的吸盘口部",
+      "body": "尾蟾成体小，头宽而扁，体色常与溪石相近，瞳孔竖直。成年雄性有短尾状突起，这是交配结构，并非保留的蝌蚪尾巴；成年雌性没有这一突起。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "冷凉清澈的森林溪流",
+      "body": "它依赖冷凉、清澈、常年有水的森林溪流。蝌蚪腹面的宽大吸盘口部能贴住石面。当前 A. truei 指沿海物种，不能把内陆 A. montanus 的分布并入。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "成体摄食昆虫等小型无脊椎动物；蝌蚪主要刮食溪石表面的生物膜。两个阶段的取食方式不同。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "本种体内受精，雌性把串状卵附在水下石块底面。蝌蚪在溪流中发育，变态时长出四肢并吸收幼体尾巴。成年雄性的尾状结构与幼体尾巴分别说明。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Ascaphus truei，属于两栖纲、无尾目、尾蟾科。分类图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察蝌蚪贴住石头的吸盘口部。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "尾蟾成体小，头宽而扁，体色常与溪石相近，瞳孔竖直。成年雄性有短尾状突起，这是交配结构，并非保留的蝌蚪尾巴；成年雌性没有这一突起。",
+    "本种体内受精，雌性把串状卵附在水下石块底面。蝌蚪在溪流中发育，变态时长出四肢并吸收幼体尾巴。成年雄性的尾状结构与幼体尾巴分别说明。"
+  ],
+  "threats": [
+    "森林与溪流栖息地改变",
+    "水温升高与沉积物增加"
+  ],
+  "conservationActions": [
+    "保护原生栖息环境，保留隐蔽空间，观察时不捕捉或诱发行为。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "冷凉清澈的森林溪流"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "蝌蚪贴住石头的吸盘口部"
+    }
+  ],
+  "media": {
+    "image": "./images/species/coastal-tailed-frog/01-cover.webp",
+    "alt": "尾蟾及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/coastal-tailed-frog/02-observation.webp",
+        "title": "溪石上的成年雌性",
+        "alt": "尾蟾：溪石上的成年雌性，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成年雌性重建，没有雄性的短尾状结构。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/coastal-tailed-frog/03-observation.webp",
+        "title": "成年雄性的水边姿态",
+        "alt": "尾蟾：成年雄性的水边姿态，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成年雄性重建，短尾状突起可能因姿态遮挡；其生殖结构含义由资料说明。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/coastal-tailed-frog/04-observation.webp",
+        "title": "贴住溪石的蝌蚪",
+        "alt": "尾蟾：贴住溪石的蝌蚪，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水生幼体重建，腹面吸盘口部附着石面；静图不证明吸附力。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/coastal-tailed-frog/05-observation.webp",
+        "title": "腹面的吸盘口部",
+        "alt": "尾蟾：腹面的吸盘口部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。腹面观察的教学重建，不按比例，不能用于测量或鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/coastal-tailed-frog/06-observation.webp",
+        "title": "变态中的幼蛙",
+        "alt": "尾蟾：变态中的幼蛙，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。幼蛙阶段重建，残余幼体尾巴与成年雄性的突起不同。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "AMNH：沿海尾蟾与尾蟾科归属",
+      "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Ascaphidae/Ascaphus/Ascaphus-truei",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "华盛顿州鱼类与野生动物部门：形态与溪流生活",
+      "url": "https://wdfw.wa.gov/species-habitats/species/ascaphus-truei",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "2011 原始研究：蝌蚪刮食石面生物膜",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4553603/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "2019 原始研究：物种区分、雌雄结构与分布",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6417668/",
+      "kind": "distribution",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
+},
 
 ] as const satisfies readonly Species[];
 

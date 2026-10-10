@@ -4613,5 +4613,18 @@
       },
       "sha256": "2a6dc5f6d043739c8077c189e997be3f4e55137a1dc9f7423161e0ed2c9c9b90"
     }
+  },
+  "coastal-tailed-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 240,
+        "right": 1470,
+        "bottom": 805
+      },
+      "sha256": "9606c30815a500eed4a4dbfddecbfea0086872aa91889ad81b88ca9a0d36acb1"
+    }
   }
 }

@@ -776,3 +776,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [菲律宾帆蜥 image set](./species/philippine-sailfin-lizard/README.md)
 - [斑泥螈 image set](./species/common-mudpuppy/README.md)
 - [红背无肺螈 image set](./species/eastern-red-backed-salamander/README.md)
+- [尾蟾 image set](./species/coastal-tailed-frog/README.md)
