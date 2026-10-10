@@ -777,3 +777,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [斑泥螈 image set](./species/common-mudpuppy/README.md)
 - [红背无肺螈 image set](./species/eastern-red-backed-salamander/README.md)
 - [尾蟾 image set](./species/coastal-tailed-frog/README.md)
+
+- [奇异多指节蟾 image set](./species/paradoxical-frog/README.md)

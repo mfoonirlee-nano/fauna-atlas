@@ -4626,5 +4626,18 @@
       },
       "sha256": "9606c30815a500eed4a4dbfddecbfea0086872aa91889ad81b88ca9a0d36acb1"
     }
+  },
+  "paradoxical-frog": {
+    "cover": {
+      "sha256": "f276c0af34498cf839758938251f2f1995c5c8275762c7e08d2bcbb08913c389",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 305,
+        "right": 1505,
+        "bottom": 880
+      }
+    }
   }
 }

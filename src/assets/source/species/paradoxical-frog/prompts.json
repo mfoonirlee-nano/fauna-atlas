@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 realistic natural-history reconstruction. Species Pseudis paradoxa. Anatomy: adult aquatic olive-green and brown mottled frog, smooth skin, elevated eyes, strong hind legs, fully webbed hind toes; not a bullfrog. Scene: complete adult resting on a floating leaf in South American vegetated freshwater pond. COVER COMPOSITION: entire animal strictly in RIGHT HALF, all extremities within x=760..1450 y=180..880. Center at 72% width. Left HALF quiet habitat background. Maximize full animal within this box. For elongate animals curve body and tail gently into right half. Real background margins. No text, watermark, collage, cropped fins/toes/tail, humans, distress. Scientific reconstruction.",
+      "sourceSha256": "edf711e2feac6bd9c5fae0c96218c52b2b3205e872f4727b1f337dd96327288d",
+      "runtimeSha256": "f276c0af34498cf839758938251f2f1995c5c8275762c7e08d2bcbb08913c389",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate a single wide 1536x1024 realistic natural-history reconstruction for an animal atlas cover. Subject: one adult paradoxical frog Pseudis paradoxa, green-olive and brown mottled smooth skin, elevated eyes, stout hind legs and extensively webbed toes, resting on a floating leaf at the edge of a South American vegetated freshwater pond. Full animal including all visible toes. Side three-quarter view facing left. Animal fills right region with full silhouette within x=690..1450 y=240..830; center beyond 60% image width. Quiet softly blurred pond in left 40%, real background margins around body. Soft daylight, credible anatomy, no text, no watermark, no collage. AI scientific reconstruction, not fantasy.",
+      "sourceSha256": "cdba1c62ef33548657f5b923328f1ff2eadb28d14aabffb3ed61098eef138cf2",
+      "runtimeSha256": "54976fac8d52761c97aff523b22476d910fc4da3545b0214d9447c3f7187714d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Pseudis paradoxa. Adult anatomy reference: adult aquatic olive-green and brown mottled frog, smooth skin, elevated eyes, strong hind legs, fully webbed hind toes; not a bullfrog. Scene and LIFE STAGE override adult reference where explicitly specified: close side view of adult head at waterline, elevated eyes above water, in South American vegetated freshwater pond. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "0819308f3b2377eea2ba7ed1b2b2cad505f2394d1f71ef263192504815d41e3d",
+      "runtimeSha256": "f1a7c61c3816205eedb80fb538360964bd4c5ab9924389062cf5de5288bce60b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Pseudis paradoxa. Adult anatomy reference: adult aquatic olive-green and brown mottled frog, smooth skin, elevated eyes, strong hind legs, fully webbed hind toes; not a bullfrog. Scene and LIFE STAGE override adult reference where explicitly specified: side view of one large brown-olive TADPOLE with bulbous body and long transparent finned tail, no frog body or legs; aquatic plants, no adult, in South American vegetated freshwater pond. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "89b9f89bfc225177543288a84f49a9cbd470af4ac46ca03d44b5e99351e4ed7f",
+      "runtimeSha256": "98711f38e2a94ae52c189ff44bfa51cc4d8dedf800a604d86cb6ba823e0baa89",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Pseudis paradoxa. Adult anatomy reference: adult aquatic olive-green and brown mottled frog, smooth skin, elevated eyes, strong hind legs, fully webbed hind toes; not a bullfrog. Scene and LIFE STAGE override adult reference where explicitly specified: scientific naturalistic side by side view of one large late-stage tadpole with hind legs and one small adult frog, neutral aquatic background; relative comparison schematic, no ruler, no labels, in South American vegetated freshwater pond. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "d68b20333b428b5f3efbb2d31ba98ec998a0a78704ef936de5ead56445622c99",
+      "runtimeSha256": "6d598ae54fdb51076c976922f5b43ed6c88df30e9557931f5fdd80bea2e2d41b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic detailed animal-atlas reconstruction. Species Pseudis paradoxa. Adult anatomy reference: adult aquatic olive-green and brown mottled frog, smooth skin, elevated eyes, strong hind legs, fully webbed hind toes; not a bullfrog. Scene and LIFE STAGE override adult reference where explicitly specified: whole adult from above showing webbed hind feet beside pond vegetation, in South American vegetated freshwater pond. Prominent subject and appropriate close-up or complete body framing. Species-accurate stage-specific anatomy. Credible natural textures and lighting. No text, watermark, collage, human handling, blood, distress, or invented ruler. Image is a scientific reconstruction, not evidence of behavior.",
+      "sourceSha256": "73dd01fdff6d844881adde8a1ac31a8ace9aac472346dd877021e8f3a9262f1d",
+      "runtimeSha256": "e558ea3b322ace0bf39ad7df22a06278b977aa0cfb555be6d320fc84df3544d1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

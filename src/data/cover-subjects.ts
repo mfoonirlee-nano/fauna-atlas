@@ -5351,5 +5351,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1470,
       "bottom": 805
     }
-  }
+  },
+  "paradoxical-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 305,
+      "right": 1505,
+      "bottom": 880
+    }
+  },
 };

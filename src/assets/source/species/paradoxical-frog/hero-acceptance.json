@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-10",
+  "runtimeSha256": "f276c0af34498cf839758938251f2f1995c5c8275762c7e08d2bcbb08913c389",
+  "subject": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 305,
+      "right": 1505,
+      "bottom": 880
+    }
+  },
+  "viewports": [
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "panel": [
+        320,
+        260
+      ],
+      "subjectSize": [
+        149.63541666666669,
+        101.82291666666667
+      ],
+      "clearance": 29.489583333333314
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "panel": [
+        390,
+        292.5
+      ],
+      "subjectSize": [
+        188.14453125,
+        128.02734375
+      ],
+      "clearance": 30.90234375
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        760
+      ],
+      "subjectSize": [
+        368.47200000000004,
+        250.73538461538465
+      ],
+      "clearance": 24.0
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        920
+      ],
+      "subjectSize": [
+        368.47200000000004,
+        250.73538461538465
+      ],
+      "clearance": 24.0
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        760
+      ],
+      "subjectSize": [
+        445.2,
+        302.94674556213016
+      ],
+      "clearance": 23.999999999999943
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        920
+      ],
+      "subjectSize": [
+        445.2,
+        302.94674556213016
+      ],
+      "clearance": 23.999999999999943
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        768
+      ],
+      "subjectSize": [
+        555.6,
+        378.07100591715977
+      ],
+      "clearance": 24.0
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        928
+      ],
+      "subjectSize": [
+        555.6,
+        378.07100591715977
+      ],
+      "clearance": 24.0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        768
+      ],
+      "subjectSize": [
+        702.432,
+        477.9862721893491
+      ],
+      "clearance": 24.0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        928
+      ],
+      "subjectSize": [
+        702.432,
+        477.9862721893491
+      ],
+      "clearance": 24.0
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        900
+      ],
+      "subjectSize": [
+        987.8400000000003,
+        672.1988165680475
+      ],
+      "clearance": 23.999999999999773
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        1060
+      ],
+      "subjectSize": [
+        987.8400000000003,
+        672.1988165680475
+      ],
+      "clearance": 23.999999999999773
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354.0,
+        900
+      ],
+      "subjectSize": [
+        1252.0695652173913,
+        852.0
+      ],
+      "clearance": 24.0
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354.0,
+        1060
+      ],
+      "subjectSize": [
+        1306.0,
+        888.698224852071
+      ],
+      "clearance": 23.999999999999886
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994.0,
+        900
+      ],
+      "subjectSize": [
+        1252.0695652173913,
+        852.0
+      ],
+      "clearance": 24.0
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994.0,
+        1060
+      ],
+      "subjectSize": [
+        1487.2,
+        1012.0
+      ],
+      "clearance": 24.0
+    }
+  ],
+  "animationEndpoints": [
+    "settled",
+    "initial enter",
+    "initial leave",
+    "forward enter",
+    "forward leave",
+    "backward enter",
+    "backward leave"
+  ],
+  "animation": "Current CSS endpoints change opacity only; identical subject geometry.",
+  "sourceReview": "Original-resolution source and retained WebP inspected; gallery contact sheets inspected.",
+  "limitations": "Static geometry and panel simulations do not verify browser typography or the full rendered page."
+}
