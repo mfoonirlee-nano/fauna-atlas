@@ -18,7 +18,7 @@
     "test:microbes": "node --test tests/microbes.test.mjs",
     "test:images": "node --test tests/convert-webp.test.mjs",
     "test:taxonomy": "tsc -p tests/tsconfig.taxonomy.json --pretty false && node --test tests/taxonomy.test.mjs tests/profile-loader.test.mjs",
-    "test:taxonomy-explorer": "node --test tests/taxonomy-explorer.test.mjs",
+    "test:taxonomy-explorer": "node --test tests/taxonomy-explorer.test.mjs tests/taxonomy-diagram-performance.test.mjs",
     "test:carousel": "tsc -p tests/tsconfig.carousel.json --pretty false && node --test tests/hero-carousel.test.mjs && node --test tests/hero-carousel-ui.test.mjs",
     "test:image-viewer": "tsc -p tests/tsconfig.image-viewer.json --pretty false && node --test tests/image-viewer.test.mjs",
     "test:brand-mark": "node --test tests/brand-mark.test.mjs",

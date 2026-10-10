@@ -98,28 +98,42 @@ export function TaxonomyDiagram({
     if (!host || !canvas) return;
 
     let animationFrame = 0;
+    const scroller = host.closest<HTMLElement>(
+      '.taxonomy-panel__scroll, .taxonomy-mobile-map__diagram-scroll, .taxonomy-lineage__stage-scroll',
+    );
+    const nodeById = new Map(nodes.map((node) => [node.id, node]));
 
     const draw = () => {
       const width = host.clientWidth;
-      const canvasHeight = host.clientHeight;
-      if (width <= 0 || canvasHeight <= 0) return;
+      const diagramHeight = host.clientHeight;
+      const viewportWidth = Math.min(width, scroller?.clientWidth ?? width);
+      const viewportHeight = Math.min(diagramHeight, scroller?.clientHeight ?? diagramHeight);
+      const left = Math.min(scroller?.scrollLeft ?? 0, Math.max(0, width - viewportWidth));
+      const top = Math.min(scroller?.scrollTop ?? 0, Math.max(0, diagramHeight - viewportHeight));
+      if (viewportWidth <= 0 || viewportHeight <= 0) return;
 
       const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
-      canvas.width = Math.round(width * pixelRatio);
-      canvas.height = Math.round(canvasHeight * pixelRatio);
+      const pixelWidth = Math.round(viewportWidth * pixelRatio);
+      const pixelHeight = Math.round(viewportHeight * pixelRatio);
+      // Reassigning either dimension clears and reallocates the backing store.
+      if (canvas.width !== pixelWidth) canvas.width = pixelWidth;
+      if (canvas.height !== pixelHeight) canvas.height = pixelHeight;
+      canvas.style.width = `${viewportWidth}px`;
+      canvas.style.height = `${viewportHeight}px`;
+      canvas.style.transform = `translate(${left}px, ${top}px)`;
 
       const context = canvas.getContext('2d');
       if (!context) return;
 
       context.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
-      context.clearRect(0, 0, width, canvasHeight);
+      context.clearRect(0, 0, viewportWidth, viewportHeight);
+      context.translate(-left, -top);
       context.lineCap = 'round';
       context.lineJoin = 'round';
 
       const styles = getComputedStyle(host);
       const quietLine = styles.getPropertyValue('--taxonomy-diagram-line').trim() || 'rgba(23, 63, 53, 0.25)';
       const activeLine = styles.getPropertyValue('--taxonomy-diagram-active').trim() || '#9e593f';
-      const nodeById = new Map(nodes.map((node) => [node.id, node]));
 
       const traceEdge = (edge: TaxonomyDiagramEdge) => {
         const from = nodeById.get(edge.from);
@@ -127,9 +141,16 @@ export function TaxonomyDiagram({
         if (!from || !to) return;
 
         const fromX = from.x * width;
-        const fromY = from.y * canvasHeight;
+        const fromY = from.y * diagramHeight;
         const toX = to.x * width;
-        const toY = to.y * canvasHeight;
+        const toY = to.y * diagramHeight;
+        // These curves stay inside their endpoint bounds, including crossing edges.
+        if (
+          Math.max(fromX, toX) < left - 3
+          || Math.min(fromX, toX) > left + viewportWidth + 3
+          || Math.max(fromY, toY) < top - 3
+          || Math.min(fromY, toY) > top + viewportHeight + 3
+        ) return;
         const horizontal = Math.abs(toX - fromX) >= Math.abs(toY - fromY);
 
         context.beginPath();
@@ -158,8 +179,11 @@ export function TaxonomyDiagram({
     };
 
     const scheduleDraw = () => {
-      window.cancelAnimationFrame(animationFrame);
-      animationFrame = window.requestAnimationFrame(draw);
+      if (animationFrame) return;
+      animationFrame = window.requestAnimationFrame(() => {
+        animationFrame = 0;
+        draw();
+      });
     };
 
     const resizeObserver = new ResizeObserver(scheduleDraw);
@@ -172,17 +196,20 @@ export function TaxonomyDiagram({
     };
 
     resizeObserver.observe(host);
+    if (scroller) resizeObserver.observe(scroller);
     resolutionQuery.addEventListener('change', handleResolutionChange);
     window.addEventListener('resize', scheduleDraw);
+    scroller?.addEventListener('scroll', scheduleDraw, { passive: true });
     scheduleDraw();
 
     return () => {
       resizeObserver.disconnect();
       resolutionQuery.removeEventListener('change', handleResolutionChange);
       window.removeEventListener('resize', scheduleDraw);
+      scroller?.removeEventListener('scroll', scheduleDraw);
       window.cancelAnimationFrame(animationFrame);
     };
-  }, [activeSlug, edges, nodes, theme]);
+  }, [activeSlug, edges, nodes, theme, height]);
 
   return (
     <div

@@ -259,6 +259,7 @@
   overscroll-behavior: contain;
   scroll-padding-block: 22px;
   scrollbar-gutter: stable;
+  overflow-anchor: none;
 }
 
 .taxonomy-diagram {

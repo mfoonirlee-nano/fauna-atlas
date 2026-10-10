@@ -1,6 +1,6 @@
 // PROTOTYPE — Three homepage taxonomy directions, switchable with ?variant=A|B|C.
 import { ArrowUpRight } from 'lucide-react';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import {
   TAXONOMY_RANKS,
   buildTaxonomyTree,
@@ -400,13 +400,12 @@ function MobileLineageMap({
 
 function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const hasMountedOverviewRef = useRef(false);
   const fullOverview = useMemo(() => projectTaxonomyOverview(tree), [tree]);
   const initialSlug = items[0]?.slug ?? '';
   const initialExpandedClassKey = fullOverview.branches.find((branch) =>
     branch.species.some((leaf) => leaf.species.slug === initialSlug),
   )?.key ?? fullOverview.branches[0]?.key ?? null;
-  const scrollTargetTaxonKeyRef = useRef<string | null>(initialExpandedClassKey);
+  const scrollAnchorRef = useRef<{ nodeKey: string; viewportY: number } | null>(null);
   const [collapsedTaxonKeys, setCollapsedTaxonKeys] = useState<ReadonlySet<string>>(
     () => new Set(
       fullOverview.branches
@@ -432,35 +431,27 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
   );
   const diagramHeight = Math.max(560, overview.rows.length * overviewRowPitch + 80);
 
-  useEffect(() => {
-    if (!hasMountedOverviewRef.current) {
-      hasMountedOverviewRef.current = true;
-      return undefined;
-    }
-    const targetTaxonKey = scrollTargetTaxonKeyRef.current;
-    if (!targetTaxonKey) return undefined;
-
-    const animationFrame = window.requestAnimationFrame(() => {
-      const scroller = scrollRef.current;
-      if (!scroller) return;
-      const taxon = [...scroller.querySelectorAll<HTMLElement>('[data-taxonomy-node]')]
-        .find((element) => element.dataset.taxonomyNode === targetTaxonKey);
-      if (!taxon) return;
-
-      const targetTop = taxon.offsetTop + taxon.offsetHeight / 2 - scroller.clientHeight / 2;
-      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      scroller.scrollTo({
-        top: Math.max(0, targetTop),
-        behavior: reduceMotion ? 'auto' : 'smooth',
-      });
-    });
-
-    return () => window.cancelAnimationFrame(animationFrame);
-  }, [collapsedTaxonKeys]);
+  useLayoutEffect(() => {
+    const anchor = scrollAnchorRef.current;
+    const scroller = scrollRef.current;
+    scrollAnchorRef.current = null;
+    if (!anchor || !scroller) return;
+    const node = diagram.nodes.find((item) => item.id === anchor.nodeKey);
+    if (!node) return;
+    // Apply before paint so a branch toggle keeps its control under the pointer.
+    scroller.scrollTop = Math.max(0, node.y * diagramHeight - anchor.viewportY);
+  }, [diagram, diagramHeight]);
 
   const toggleTaxon = (nodeKey: string) => {
     if (!taxonKeys.has(nodeKey)) return;
-    scrollTargetTaxonKeyRef.current = nodeKey;
+    const scroller = scrollRef.current;
+    const node = diagram.nodes.find((item) => item.id === nodeKey);
+    if (scroller && node) {
+      scrollAnchorRef.current = {
+        nodeKey,
+        viewportY: node.y * diagramHeight - scroller.scrollTop,
+      };
+    }
     setPreviewSlug(undefined);
     setCollapsedTaxonKeys((currentKeys) =>
       toggleOverviewTaxon(currentKeys, nodeKey, taxonKeys),

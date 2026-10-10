@@ -267,14 +267,6 @@ test('keeps species surfaces while rendering interactive taxa as quiet labels', 
   assert.match(forcedColorsOverviewPanelRule, /color:\s*CanvasText/);
   assert.match(forcedColorsOverviewPanelRule, /background:\s*Canvas/);
   assert.doesNotMatch(forcedColorsStyles, /aria-expanded='true'/);
-  assert.match(
-    explorerSource,
-    /matchMedia\(['"]\(prefers-reduced-motion: reduce\)['"]\)/,
-  );
-  assert.match(
-    explorerSource,
-    /behavior:\s*reduceMotion\s*\?\s*'auto'\s*:\s*'smooth'/,
-  );
   assert.doesNotMatch(
     styles,
     /\.taxonomy-diagram__node-copy\s*\{[^}]*var\(--taxonomy-diagram-label\) 91%/s,
