@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "ONE landscape 1536x1024 realistic scientific animal-atlas reconstruction. Species Lampris guttatus. Anatomy: North Atlantic opah, very deep oval laterally compressed metallic blue-silver body, scattered round pale silvery-white spots, small mouth, medium-large round eye, vivid red pointed pectoral and pelvic fins, tall red anterior dorsal lobe and deeply forked red tail, no goldfish scales. Scene: whole adult side view swimming in dark North Atlantic open water, all long fin tips and forked tail intact. COVER COMPOSITION: entire one animal including ALL fins and tail strictly in RIGHT HALF x=760..1450 y=150..880, center 72% width, maximize visible size in that box. Left 45% quiet blurred natural habitat reserved for webpage copy. Real background margins, full intact silhouette. Gently curve long bodies to fit. No text, labels, ruler, watermark, collage, human handling, cutoffs, blood or distress. Scientific reconstruction, not wildlife photography.",
+      "sourceSha256": "46b5739820a67e8a29cd83daae166acfc3c064312fe31bf176164fbd04c63955",
+      "runtimeSha256": "06a0a7a3a23ce251ec953e93a98afd1876e8059c7233b291655943dc92350995",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lampris guttatus. Anatomy adult reference: deep oval laterally compressed metallic blue-silver body with round pale spots, small mouth, round eye, bright red pointed pectoral and pelvic fins, tall anterior dorsal lobe and deeply forked red tail. Habitat: North Atlantic open seawater. Scene: whole adult lateral view, all red fin tips visible. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "ff941d8479d9b3059d6152e46e2036583d8cadfaf7de2d7fb93aac889ac42fac",
+      "runtimeSha256": "ad42498972e97cdbb5e8bf7d5fe6bbd5f4de7fd24e5aecaf3829b1915c7d741b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lampris guttatus. Anatomy adult reference: deep oval laterally compressed metallic blue-silver body with round pale spots, small mouth, round eye, bright red pointed pectoral and pelvic fins, tall anterior dorsal lobe and deeply forked red tail. Habitat: North Atlantic open seawater. Scene: head and anterior body close-up with eye and round white spots. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "78568d2b2108cba6837d37448697205e21cd01bcd474ce7b5cae33fc8c20aa82",
+      "runtimeSha256": "8a9e0351614beea02507cb6238ffffda17bb3cb9f59b3512eef3b0c2091c69e1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lampris guttatus. Anatomy adult reference: deep oval laterally compressed metallic blue-silver body with round pale spots, small mouth, round eye, bright red pointed pectoral and pelvic fins, tall anterior dorsal lobe and deeply forked red tail. Habitat: North Atlantic open seawater. Scene: whole adult three-quarter view showing deep laterally compressed body. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "b2e61288ddd2c41da2a412c686494fec77a76ce65e36e3a094fc76716f24dc25",
+      "runtimeSha256": "9a5aec0d0b20b5ce459a8a507b5afd7116c76533456982d391721df8f191f28b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lampris guttatus. Anatomy adult reference: deep oval laterally compressed metallic blue-silver body with round pale spots, small mouth, round eye, bright red pointed pectoral and pelvic fins, tall anterior dorsal lobe and deeply forked red tail. Habitat: North Atlantic open seawater. Scene: whole adult in dim blue open water, no coral or seafloor. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "827d921a936460bd77bfc4297dc8cab84590b54b96608185c1fed7c3e4d5fdf3",
+      "runtimeSha256": "48f8f3b1019ddbd41c2db264c6ff0e169335cecba9d697831e2fccdae70612d8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lampris guttatus. Anatomy adult reference: deep oval laterally compressed metallic blue-silver body with round pale spots, small mouth, round eye, bright red pointed pectoral and pelvic fins, tall anterior dorsal lobe and deeply forked red tail. Habitat: North Atlantic open seawater. Scene: whole adult with red pectoral and pelvic fins spread, no glowing heat or internal cutaway. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "32ac75f1b0f231f5fd7a11e42425265a3740dfabb828b3813f7898a33469d936",
+      "runtimeSha256": "cfaccc082c426f28c4629f1ff23cda7ac649c306853758ea026d1ba783caf01e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

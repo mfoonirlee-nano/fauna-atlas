@@ -783,3 +783,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [科基蛙 image set](./species/common-coqui/README.md)
 - [皱鳃鲨 image set](./species/frilled-shark/README.md)
 - [欧氏尖吻鲨 image set](./species/goblin-shark/README.md)
+
+- [四眼鱼 image set](./species/largescale-foureyes/README.md)
+- [南美肺鱼 image set](./species/south-american-lungfish/README.md)
+- [大西洋弹涂鱼 image set](./species/atlantic-mudskipper/README.md)
+- [黑鳍冰鱼 image set](./species/blackfin-icefish/README.md)
+- [月鱼 image set](./species/north-atlantic-opah/README.md)

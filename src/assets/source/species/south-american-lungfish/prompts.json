@@ -1,0 +1,106 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this exact south-american-lungfish cover. Keep this SAME animal's species-specific external anatomy, markings, fins, whole tail, orientation and natural habitat. Change ONLY its size and placement: modestly reduce the whole animal about 12% and move it RIGHT so its ENTIRE silhouette lies between x=700 and x=1470 on the 1536-pixel-wide canvas. NOTHING belonging to the animal may extend left of x=690: snout, eyes, fin tips, threadlike fins, tail, all included. Its center should be x=1100. Preserve background in the LEFT 45% with NO fish pixels there. Maintain genuine background margin around the complete animal and no cutoffs at right edge. Preserve landscape 1536x1024 and lighting; reconstruct freed background naturally, no smearing. Keep all anatomical features, do not add or remove fins or external organs. No text or labels.",
+      "sourceSha256": "99b19b1b7478ba347ee24dbc6407dd7c79c66cb35b405dd8acfcd121bff8b1b6",
+      "runtimeSha256": "caa10a01ab95c6cc223830c75dd83f142b282f1594bc85250f08c8b0fdad6600",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "ONE landscape 1536x1024 realistic scientific animal-atlas reconstruction. Species Lepidosiren paradoxa. Anatomy: long eel-like dark grey-brown adult South American lungfish, FOUR extremely slender threadlike paired fins: two pectoral behind head, two pelvic farther back; continuous low fin fold around tapering tail, small eyes, no salamander feet, no external gills on adult. Scene: gently curved whole adult underwater above muddy submerged plants in a South American swamp. COVER COMPOSITION: entire one animal including ALL fins and tail strictly in RIGHT HALF x=760..1450 y=150..880, center 72% width, maximize visible size in that box. Left 45% quiet blurred natural habitat reserved for webpage copy. Real background margins, full intact silhouette. Gently curve long bodies to fit. No text, labels, ruler, watermark, collage, human handling, cutoffs, blood or distress. Scientific reconstruction, not wildlife photography.",
+      "discardedSourceSha256": "dc5be3be69a1efa8c71f3e553aa89e1efda7149062900be1c4ff34b5a2c7d232",
+      "discardedSubject": {
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 610,
+          "top": 180,
+          "right": 1500,
+          "bottom": 908
+        }
+      },
+      "discardedHeroAt1366": [
+        702.432,
+        574.573591011236
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lepidosiren paradoxa. Anatomy adult reference: eel-like dark grey adult, FOUR threadlike paired fins, small eyes, low continuous fin fold around tapering tail, adult without external gills or feet. Habitat: South American freshwater swamp. Scene: whole adult gently curved above muddy bottom with all four threadlike paired fins. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "6c5ba99dfe7c42e4e10a9fb78eb4a5d3d2543fec7ed83b90c3a26c6dbcdb46dc",
+      "runtimeSha256": "45436e9d4f1326f44c8a3ec393b924f9a6f369a6e1337844898f5aecb35a159e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lepidosiren paradoxa. Anatomy adult reference: eel-like dark grey adult, FOUR threadlike paired fins, small eyes, low continuous fin fold around tapering tail, adult without external gills or feet. Habitat: South American freshwater swamp. Scene: close-up side of head and threadlike pectoral fin, no adult external gills. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "267cc1c97ff26d9d62e1aa0c6b84803b8c391f1190cea697f7b3d53088f76600",
+      "runtimeSha256": "54f40ce3ca02e5de8aa53922d8aa793a8e794fea0d116ad1fc5a36674944e5c6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lepidosiren paradoxa. Anatomy adult reference: eel-like dark grey adult, FOUR threadlike paired fins, small eyes, low continuous fin fold around tapering tail, adult without external gills or feet. Habitat: South American freshwater swamp. Scene: whole adult at water surface, snout touching air, underwater body. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "933ca928495b16e7d24ab78be67a9c28865b504fcc0fd0ece76f5552f9aed4da",
+      "runtimeSha256": "590c5fba8f7982afee0856366232f091f16ed99f8dac3d198337a1cf3bd4799f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lepidosiren paradoxa. Anatomy adult reference: eel-like dark grey adult, FOUR threadlike paired fins, small eyes, low continuous fin fold around tapering tail, adult without external gills or feet. Habitat: South American freshwater swamp. Scene: yellow-spotted juvenile in submerged vegetation, not an adult or tadpole. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "4b05a9c07aa5caa41242149bfe191c3d534eed266f27aa0771b0eacfa9ab4503",
+      "runtimeSha256": "c43f9bebd72069c941551fd0c895f08c0032b839b5788f9652985aec5f59eae4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Lepidosiren paradoxa. Anatomy adult reference: eel-like dark grey adult, FOUR threadlike paired fins, small eyes, low continuous fin fold around tapering tail, adult without external gills or feet. Habitat: South American freshwater swamp. Scene: whole adult showing posterior threadlike paired pelvic fins and continuous tail fold. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "713fac3b72e7e0c6740a25f4e4ac14b06b0ef0258c6f8d767c0c241a8c3218e0",
+      "runtimeSha256": "534dfbc654efe0b4aac9856d47e1673bdb30dc05b9f937b9078d08c5accffc16",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

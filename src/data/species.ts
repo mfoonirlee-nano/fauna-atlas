@@ -147989,6 +147989,1185 @@ export const species = [
   "updatedAt": "2026-10-10"
 },
 
+
+{
+  "id": "largescale-foureyes",
+  "slug": "largescale-foureyes",
+  "names": {
+    "zh": "四眼鱼",
+    "en": "Largescale Foureyes"
+  },
+  "scientificName": "Anableps anableps",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Cyprinodontiformes",
+      "zhName": "鳉形目"
+    },
+    "family": {
+      "scientificName": "Anablepidae",
+      "zhName": "四眼鱼科"
+    },
+    "genus": {
+      "scientificName": "Anableps",
+      "zhName": "四眼鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2020,
+    "assessor": "FishBase 当前页面转引 IUCN 全球评估，评估日期 2020-04-10；本档案未独立核实全球种群趋势。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "marine"
+    ],
+    "continents": [
+      "南美洲"
+    ],
+    "regions": [
+      "南美洲北部与特立尼达沿岸"
+    ],
+    "countries": [
+      "巴西",
+      "委内瑞拉",
+      "特立尼达和多巴哥"
+    ],
+    "range": "生活在南美洲北部与特立尼达的淡水、河口及红树林沿岸半咸水环境。潮汐会改变可进入的浅水区域；国家列表是代表记录，图片不能证明具体水域的盐度或地点。"
+  },
+  "habitats": [
+    {
+      "name": "河口与红树林水面",
+      "realm": "freshwater",
+      "description": "生活在南美洲北部与特立尼达的淡水、河口及红树林沿岸半咸水环境。潮汐会改变可进入的浅水区域；国家列表是代表记录，图片不能证明具体水域的盐度或地点。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "小型无脊椎动物",
+      "藻类",
+      "小鱼"
+    ],
+    "description": "取食昆虫、其他小型无脊椎动物、小鱼与藻类。巴西红树林的原始研究记录了随潮汐和地点变化的食物组成，不能把某一地点以红藻为主的食谱当作所有种群的固定比例。"
+  },
+  "tags": [
+    "四眼鱼",
+    "河口与红树林水面"
+  ],
+  "summary": "四眼鱼：水面上下的两只眼睛。",
+  "description": "头顶有两只突出的眼睛，每只眼睛的角膜与瞳孔分成上下部分，共用一个晶状体。它通常贴近水面游动，眼睛同时接收空气与水中的光；“四眼”不表示四个独立眼球。身体有较大的鳞片和纵向条纹。生活在南美洲北部与特立尼达的淡水、河口及红树林沿岸半咸水环境。潮汐会改变可进入的浅水区域；国家列表是代表记录，图片不能证明具体水域的盐度或地点。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "水面上下的两只眼睛",
+      "body": "头顶有两只突出的眼睛，每只眼睛的角膜与瞳孔分成上下部分，共用一个晶状体。它通常贴近水面游动，眼睛同时接收空气与水中的光；“四眼”不表示四个独立眼球。身体有较大的鳞片和纵向条纹。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "河口与红树林水面",
+      "body": "生活在南美洲北部与特立尼达的淡水、河口及红树林沿岸半咸水环境。潮汐会改变可进入的浅水区域；国家列表是代表记录，图片不能证明具体水域的盐度或地点。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "取食昆虫、其他小型无脊椎动物、小鱼与藻类。巴西红树林的原始研究记录了随潮汐和地点变化的食物组成，不能把某一地点以红藻为主的食谱当作所有种群的固定比例。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与研究范围",
+      "body": "本种为胎生鱼，幼体在母体内发育后出生。2017 年研究描述了眼部结构在出生前的发育变化。图库幼鱼是外形重建，不表示胚胎阶段、真实出生体长或一次产仔数量。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Anableps anableps，属于辐鳍鱼纲、鳉形目、四眼鱼科。分类图谱表达分类归属，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察水面上下的两只眼睛。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。FishBase 当前页面转引 IUCN 全球评估，评估日期 2020-04-10；本档案未独立核实全球种群趋势。"
+    }
+  ],
+  "keyFacts": [
+    "头顶有两只突出的眼睛，每只眼睛的角膜与瞳孔分成上下部分，共用一个晶状体。它通常贴近水面游动，眼睛同时接收空气与水中的光；“四眼”不表示四个独立眼球。身体有较大的鳞片和纵向条纹。",
+    "本种为胎生鱼，幼体在母体内发育后出生。2017 年研究描述了眼部结构在出生前的发育变化。图库幼鱼是外形重建，不表示胚胎阶段、真实出生体长或一次产仔数量。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [
+    "河口与红树林栖息环境改变"
+  ],
+  "conservationActions": [
+    "保护河口浅水与红树林",
+    "用连续影像观察水面活动"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "水面上下的两只眼睛"
+    }
+  ],
+  "media": {
+    "image": "./images/species/largescale-foureyes/01-cover.webp",
+    "alt": "四眼鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/largescale-foureyes/02-observation.webp",
+        "title": "贴近水面的身体",
+        "alt": "四眼鱼：贴近水面的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。全身侧面，眼睛位于水面上下。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/largescale-foureyes/03-observation.webp",
+        "title": "眼部与身体侧面",
+        "alt": "四眼鱼：眼部与身体侧面，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。眼部与身体侧面重建；具体角膜与瞳孔结构以原始研究图为准。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/largescale-foureyes/04-observation.webp",
+        "title": "红树林根旁",
+        "alt": "四眼鱼：红树林根旁，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。河口环境重建，不表示具体采样地点。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/largescale-foureyes/05-observation.webp",
+        "title": "从前侧看两只眼睛",
+        "alt": "四眼鱼：从前侧看两只眼睛，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。找两只抬高的眼睛，勿按四个眼球计数。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/largescale-foureyes/06-observation.webp",
+        "title": "浅水里的幼鱼",
+        "alt": "四眼鱼：浅水里的幼鱼，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。出生后的幼鱼外形重建，尺度非实测。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：分类、分布、食性及 IUCN 评估日期",
+      "url": "https://www.fishbase.se/summary/Anableps-anableps.html",
+      "kind": "general",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "2017 原始研究：眼部与头骨发育",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5394668/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "2007 原始研究：潮汐迁移与食物组成",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1095-8649.2007.01313.x",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
+},
+{
+  "id": "south-american-lungfish",
+  "slug": "south-american-lungfish",
+  "names": {
+    "zh": "南美肺鱼",
+    "en": "South American Lungfish"
+  },
+  "scientificName": "Lepidosiren paradoxa",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Sarcopterygii",
+      "zhName": "肉鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Ceratodontiformes",
+      "zhName": "角齿鱼目"
+    },
+    "family": {
+      "scientificName": "Lepidosirenidae",
+      "zhName": "美洲肺鱼科"
+    },
+    "genus": {
+      "scientificName": "Lepidosiren",
+      "zhName": "美洲肺鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2020,
+    "assessor": "FishBase 当前页面转引 IUCN 全球评估，评估日期 2020-10-21；本档案未独立核实全球种群趋势。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [
+      "南美洲"
+    ],
+    "regions": [
+      "亚马孙与巴拉圭—巴拉那水系"
+    ],
+    "countries": [
+      "巴西",
+      "玻利维亚",
+      "巴拉圭",
+      "阿根廷"
+    ],
+    "range": "生活在南美洲淡水缓流、沼泽和季节性水域，包括亚马孙及巴拉圭—巴拉那水系。成体使用肺呼吸空气，会到水面换气；季节性干旱时可进入泥中。本档案不把其他肺鱼的茧结构和持续时间套给本种。"
+  },
+  "habitats": [
+    {
+      "name": "南美缓流与沼泽",
+      "realm": "freshwater",
+      "description": "生活在南美洲淡水缓流、沼泽和季节性水域，包括亚马孙及巴拉圭—巴拉那水系。成体使用肺呼吸空气，会到水面换气；季节性干旱时可进入泥中。本档案不把其他肺鱼的茧结构和持续时间套给本种。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "软体动物",
+      "小型水生动物",
+      "植物性食物"
+    ],
+    "description": "取食软体动物、其他小型水生动物以及植物性食物，用齿板处理食物。食谱随年龄和环境变化，未录入缺少统一依据的每日摄食量。"
+  },
+  "tags": [
+    "南美肺鱼",
+    "南美缓流与沼泽"
+  ],
+  "summary": "南美肺鱼：细丝状的成对鱼鳍。",
+  "description": "成体身体长，呈灰黑或褐色，胸鳍与腹鳍各一对，像细长的丝。它们是鱼鳍，并非蝾螈的脚；幼体常有黄色斑点，成体颜色与幼体不同。尾端有连续的低鳍褶。生活在南美洲淡水缓流、沼泽和季节性水域，包括亚马孙及巴拉圭—巴拉那水系。成体使用肺呼吸空气，会到水面换气；季节性干旱时可进入泥中。本档案不把其他肺鱼的茧结构和持续时间套给本种。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "细丝状的成对鱼鳍",
+      "body": "成体身体长，呈灰黑或褐色，胸鳍与腹鳍各一对，像细长的丝。它们是鱼鳍，并非蝾螈的脚；幼体常有黄色斑点，成体颜色与幼体不同。尾端有连续的低鳍褶。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "南美缓流与沼泽",
+      "body": "生活在南美洲淡水缓流、沼泽和季节性水域，包括亚马孙及巴拉圭—巴拉那水系。成体使用肺呼吸空气，会到水面换气；季节性干旱时可进入泥中。本档案不把其他肺鱼的茧结构和持续时间套给本种。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "取食软体动物、其他小型水生动物以及植物性食物，用齿板处理食物。食谱随年龄和环境变化，未录入缺少统一依据的每日摄食量。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与研究范围",
+      "body": "湿季在巢中产卵，雄性守护后代。幼体早期可有外鳃，成体与幼体的呼吸结构不同。繁殖期雄性鳍上细丝的功能仍有讨论，本档案不将其解释为已经确定的向卵供氧机制。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Lepidosiren paradoxa，属于肉鳍鱼纲、角齿鱼目、美洲肺鱼科。分类图谱表达分类归属，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察细丝状的成对鱼鳍。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。FishBase 当前页面转引 IUCN 全球评估，评估日期 2020-10-21；本档案未独立核实全球种群趋势。"
+    }
+  ],
+  "keyFacts": [
+    "成体身体长，呈灰黑或褐色，胸鳍与腹鳍各一对，像细长的丝。它们是鱼鳍，并非蝾螈的脚；幼体常有黄色斑点，成体颜色与幼体不同。尾端有连续的低鳍褶。",
+    "湿季在巢中产卵，雄性守护后代。幼体早期可有外鳃，成体与幼体的呼吸结构不同。繁殖期雄性鳍上细丝的功能仍有讨论，本档案不将其解释为已经确定的向卵供氧机制。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [
+    "淡水湿地改变与水质退化"
+  ],
+  "conservationActions": [
+    "保护季节性湿地与水系连通",
+    "记录不同生活阶段的外形"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "细丝状的成对鱼鳍"
+    }
+  ],
+  "media": {
+    "image": "./images/species/south-american-lungfish/01-cover.webp",
+    "alt": "南美肺鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/south-american-lungfish/02-observation.webp",
+        "title": "缓流底部的成体",
+        "alt": "南美肺鱼：缓流底部的成体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。四枚细丝状成对鳍，不是四肢。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/south-american-lungfish/03-observation.webp",
+        "title": "头部与细胸鳍",
+        "alt": "南美肺鱼：头部与细胸鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成体近景，不画幼体外鳃。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/south-american-lungfish/04-observation.webp",
+        "title": "接近水面的吻部",
+        "alt": "南美肺鱼：接近水面的吻部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。换气姿态重建；呼吸过程需用连续影像观察。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/south-american-lungfish/05-observation.webp",
+        "title": "带黄斑的幼鱼",
+        "alt": "南美肺鱼：带黄斑的幼鱼，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。幼体体色重建，非实测尺寸。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/south-american-lungfish/06-observation.webp",
+        "title": "身体后方的细腹鳍",
+        "alt": "南美肺鱼：身体后方的细腹鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成对腹鳍与尾端鳍褶的外形。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：现代分类、繁殖资料限制及评估日期",
+      "url": "https://www.fishbase.se/summary/Lepidosiren-paradoxa",
+      "kind": "general",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "密歇根大学 ADW：分布、外形与生活史",
+      "url": "https://animaldiversity.org/accounts/Lepidosiren_paradoxa/",
+      "kind": "general",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "FishBase：美洲肺鱼科的当前分类归属",
+      "url": "https://fishbase.se/Summary/FamilySummary.php?ID=28",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
+},
+{
+  "id": "atlantic-mudskipper",
+  "slug": "atlantic-mudskipper",
+  "names": {
+    "zh": "大西洋弹涂鱼",
+    "en": "Atlantic Mudskipper"
+  },
+  "scientificName": "Periophthalmus barbarus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Gobiiformes",
+      "zhName": "虾虎鱼目"
+    },
+    "family": {
+      "scientificName": "Oxudercidae",
+      "zhName": "背眼虾虎鱼科"
+    },
+    "genus": {
+      "scientificName": "Periophthalmus",
+      "zhName": "弹涂鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2019,
+    "assessor": "FishBase 当前页面转引 IUCN 全球评估，评估日期 2019-10-20；本档案未独立核实全球种群趋势。"
+  },
+  "distribution": {
+    "realms": [
+      "marine",
+      "freshwater"
+    ],
+    "continents": [
+      "非洲"
+    ],
+    "regions": [
+      "西非大西洋沿岸"
+    ],
+    "countries": [
+      "塞内加尔",
+      "塞拉利昂",
+      "利比里亚",
+      "尼日利亚"
+    ],
+    "range": "生活在西非沿海河口、红树林和潮间带泥滩，也可进入靠近海岸的淡水区域。退潮后在湿润泥面活动，具有水中与空气呼吸能力；静止图片不能证明气体交换的具体路径或频率。"
+  },
+  "habitats": [
+    {
+      "name": "西非红树林潮间带",
+      "realm": "marine",
+      "description": "生活在西非沿海河口、红树林和潮间带泥滩，也可进入靠近海岸的淡水区域。退潮后在湿润泥面活动，具有水中与空气呼吸能力；静止图片不能证明气体交换的具体路径或频率。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "小蟹",
+      "昆虫",
+      "其他节肢动物",
+      "部分植物性食物"
+    ],
+    "description": "成体主要寻找泥面上的节肢动物，包括小蟹和昆虫；资料也有植物性食物记录。本种食性说明不使用其他弹涂鱼的摄食比例。"
+  },
+  "tags": [
+    "大西洋弹涂鱼",
+    "西非红树林潮间带"
+  ],
+  "summary": "大西洋弹涂鱼：用胸鳍支撑的鱼。",
+  "description": "两只眼睛高出头顶，身体褐灰色，常有细小蓝色斑点，背上有两枚背鳍。它用胸鳍支撑身体，尾部仍是鱼尾。生活方式能跨越水陆，却属于辐鳍鱼纲，不能把它归入两栖纲。生活在西非沿海河口、红树林和潮间带泥滩，也可进入靠近海岸的淡水区域。退潮后在湿润泥面活动，具有水中与空气呼吸能力；静止图片不能证明气体交换的具体路径或频率。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "用胸鳍支撑的鱼",
+      "body": "两只眼睛高出头顶，身体褐灰色，常有细小蓝色斑点，背上有两枚背鳍。它用胸鳍支撑身体，尾部仍是鱼尾。生活方式能跨越水陆，却属于辐鳍鱼纲，不能把它归入两栖纲。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "西非红树林潮间带",
+      "body": "生活在西非沿海河口、红树林和潮间带泥滩，也可进入靠近海岸的淡水区域。退潮后在湿润泥面活动，具有水中与空气呼吸能力；静止图片不能证明气体交换的具体路径或频率。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "成体主要寻找泥面上的节肢动物，包括小蟹和昆虫；资料也有植物性食物记录。本种食性说明不使用其他弹涂鱼的摄食比例。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与研究范围",
+      "body": "在泥滩洞穴中产卵，巢穴属于生活环境的一部分。图库只展示洞口外的成体，不编造地下卵室结构、运气泡过程或特定护卵动作；这些细节须有本种的直接研究支持。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Periophthalmus barbarus，属于辐鳍鱼纲、虾虎鱼目、背眼虾虎鱼科。分类图谱表达分类归属，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察用胸鳍支撑的鱼。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。FishBase 当前页面转引 IUCN 全球评估，评估日期 2019-10-20；本档案未独立核实全球种群趋势。"
+    }
+  ],
+  "keyFacts": [
+    "两只眼睛高出头顶，身体褐灰色，常有细小蓝色斑点，背上有两枚背鳍。它用胸鳍支撑身体，尾部仍是鱼尾。生活方式能跨越水陆，却属于辐鳍鱼纲，不能把它归入两栖纲。",
+    "在泥滩洞穴中产卵，巢穴属于生活环境的一部分。图库只展示洞口外的成体，不编造地下卵室结构、运气泡过程或特定护卵动作；这些细节须有本种的直接研究支持。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [
+    "红树林与潮间带栖息地改变"
+  ],
+  "conservationActions": [
+    "保护潮间带及红树林",
+    "观察时保留动物与洞口距离"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "用胸鳍支撑的鱼"
+    }
+  ],
+  "media": {
+    "image": "./images/species/atlantic-mudskipper/01-cover.webp",
+    "alt": "大西洋弹涂鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/atlantic-mudskipper/02-observation.webp",
+        "title": "湿泥面上的成体",
+        "alt": "大西洋弹涂鱼：湿泥面上的成体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。胸鳍支撑身体，尾部完整。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/atlantic-mudskipper/03-observation.webp",
+        "title": "头顶的两只眼睛",
+        "alt": "大西洋弹涂鱼：头顶的两只眼睛，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部近景与蓝色斑点。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/atlantic-mudskipper/04-observation.webp",
+        "title": "洞口旁的身体",
+        "alt": "大西洋弹涂鱼：洞口旁的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。洞口环境重建，不表示内部巢室。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/atlantic-mudskipper/05-observation.webp",
+        "title": "水池边的胸鳍",
+        "alt": "大西洋弹涂鱼：水池边的胸鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。鳍支撑姿态，不画脚趾。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/atlantic-mudskipper/06-observation.webp",
+        "title": "竖起的第一背鳍",
+        "alt": "大西洋弹涂鱼：竖起的第一背鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。背鳍边缘颜色重建，非求偶或争斗实录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：分类、形态、分布与评估日期",
+      "url": "https://www.fishbase.se/summary/Periophthalmus_barbarus.html",
+      "kind": "general",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "澳大利亚博物馆：弹涂鱼类分类修订及本种诊断",
+      "url": "https://media.australian.museum/media/Uploads/Journals/17704/93_complete.pdf",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "1995 原始研究：本种水中与空气呼吸测量",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1095-8649.1995.tb01898.x",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
+},
+{
+  "id": "blackfin-icefish",
+  "slug": "blackfin-icefish",
+  "names": {
+    "zh": "黑鳍冰鱼",
+    "en": "Blackfin Icefish"
+  },
+  "scientificName": "Chaenocephalus aceratus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Perciformes",
+      "zhName": "鲈形目"
+    },
+    "family": {
+      "scientificName": "Channichthyidae",
+      "zhName": "鳄冰鱼科"
+    },
+    "genus": {
+      "scientificName": "Chaenocephalus",
+      "zhName": "头带冰鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "VU",
+    "label": {
+      "zh": "易危",
+      "en": "Vulnerable"
+    },
+    "trend": "unknown",
+    "assessedYear": 2023,
+    "assessor": "FishBase 当前页面转引 IUCN 全球评估，评估日期 2023-11-29；本档案未独立核实全球种群趋势。",
+    "criteria": "A2bcde"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "斯科舍海与南极半岛北部等南大洋水域"
+    ],
+    "countries": [],
+    "range": "在南大洋陆架和海底附近生活，记录包括斯科舍海、南极半岛北部及布韦岛周边。2019 年本种基因组研究确认缺少功能性血红蛋白基因与红细胞，氧主要以物理溶解形式随血液运输；这不表示动物没有血液或无需氧。"
+  },
+  "habitats": [
+    {
+      "name": "南极陆架海底",
+      "realm": "marine",
+      "description": "在南大洋陆架和海底附近生活，记录包括斯科舍海、南极半岛北部及布韦岛周边。2019 年本种基因组研究确认缺少功能性血红蛋白基因与红细胞，氧主要以物理溶解形式随血液运输；这不表示动物没有血液或无需氧。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "磷虾"
+    ],
+    "description": "成体取食鱼类与磷虾。图库中的磷虾用于说明环境中的潜在食物，不是一次摄食事件的证据，也不表示固定捕食比例。"
+  },
+  "tags": [
+    "黑鳍冰鱼",
+    "南极陆架海底"
+  ],
+  "summary": "黑鳍冰鱼：宽大的胸鳍与浅色身体。",
+  "description": "头部宽而扁，吻部较长，身体浅灰并带斑纹，胸鳍宽大，背鳍分为前后两枚。皮肤不是透明玻璃，不能从生成图的浅色身体推断血液颜色或内部器官。在南大洋陆架和海底附近生活，记录包括斯科舍海、南极半岛北部及布韦岛周边。2019 年本种基因组研究确认缺少功能性血红蛋白基因与红细胞，氧主要以物理溶解形式随血液运输；这不表示动物没有血液或无需氧。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "宽大的胸鳍与浅色身体",
+      "body": "头部宽而扁，吻部较长，身体浅灰并带斑纹，胸鳍宽大，背鳍分为前后两枚。皮肤不是透明玻璃，不能从生成图的浅色身体推断血液颜色或内部器官。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "南极陆架海底",
+      "body": "在南大洋陆架和海底附近生活，记录包括斯科舍海、南极半岛北部及布韦岛周边。2019 年本种基因组研究确认缺少功能性血红蛋白基因与红细胞，氧主要以物理溶解形式随血液运输；这不表示动物没有血液或无需氧。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "成体取食鱼类与磷虾。图库中的磷虾用于说明环境中的潜在食物，不是一次摄食事件的证据，也不表示固定捕食比例。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与研究范围",
+      "body": "本种产卵，幼体有较长的浮游阶段，与成体近底生活不同。图库只保留成体与外部形态，不凭生成图推断卵数、出生大小或成熟年龄。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Chaenocephalus aceratus，属于辐鳍鱼纲、鲈形目、鳄冰鱼科。分类图谱表达分类归属，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察宽大的胸鳍与浅色身体。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。FishBase 当前页面转引 IUCN 全球评估，评估日期 2023-11-29；本档案未独立核实全球种群趋势。"
+    }
+  ],
+  "keyFacts": [
+    "头部宽而扁，吻部较长，身体浅灰并带斑纹，胸鳍宽大，背鳍分为前后两枚。皮肤不是透明玻璃，不能从生成图的浅色身体推断血液颜色或内部器官。",
+    "本种产卵，幼体有较长的浮游阶段，与成体近底生活不同。图库只保留成体与外部形态，不凭生成图推断卵数、出生大小或成熟年龄。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [
+    "渔业捕获及南大洋环境变化"
+  ],
+  "conservationActions": [
+    "按物种记录渔业捕获与种群调查",
+    "保护南极海洋生态环境"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "宽大的胸鳍与浅色身体"
+    }
+  ],
+  "media": {
+    "image": "./images/species/blackfin-icefish/01-cover.webp",
+    "alt": "黑鳍冰鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/blackfin-icefish/02-observation.webp",
+        "title": "岩石海底旁的成体",
+        "alt": "黑鳍冰鱼：岩石海底旁的成体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。南极陆架环境重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blackfin-icefish/03-observation.webp",
+        "title": "宽头与胸鳍",
+        "alt": "黑鳍冰鱼：宽头与胸鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。外形近景，不展示血液或内部器官。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blackfin-icefish/04-observation.webp",
+        "title": "展开的扇形胸鳍",
+        "alt": "黑鳍冰鱼：展开的扇形胸鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。浅色身体与斑纹。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blackfin-icefish/05-observation.webp",
+        "title": "磷虾附近的身体",
+        "alt": "黑鳍冰鱼：磷虾附近的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。潜在食物的环境重建，非摄食实录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blackfin-icefish/06-observation.webp",
+        "title": "前后两枚背鳍",
+        "alt": "黑鳍冰鱼：前后两枚背鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整体形与尾鳍，不以浅色证明血液生理。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：分类、分布、食物及 2023 年 VU 评估",
+      "url": "https://www.fishbase.se/summary/Chaenocephalus-aceratus.html",
+      "kind": "general",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "2019 原始研究：黑鳍冰鱼基因组与血液生理",
+      "url": "https://www.nature.com/articles/s41559-019-0812-7",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "英国南极调查局：分布与生态研究",
+      "url": "https://nora.nerc.ac.uk/775/1/Reid_et_al._Scotia_Sea_icefish_revised_textfigs.pdf",
+      "kind": "distribution",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
+},
+{
+  "id": "north-atlantic-opah",
+  "slug": "north-atlantic-opah",
+  "names": {
+    "zh": "月鱼",
+    "en": "North Atlantic Opah"
+  },
+  "scientificName": "Lampris guttatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Lampriformes",
+      "zhName": "月鱼目"
+    },
+    "family": {
+      "scientificName": "Lampridae",
+      "zhName": "月鱼科"
+    },
+    "genus": {
+      "scientificName": "Lampris",
+      "zhName": "月鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "FishBase 的 LC 记录评估于 2013 年，早于 2018 年物种范围修订；本批未核实狭义北大西洋本种的对应评估，NE 为资料占位，不表示实际上未受评估或安全。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "北大西洋，包括北海、爱尔兰海与地中海"
+    ],
+    "countries": [],
+    "range": "按 2018 年月鱼属修订，本档案只记录北大西洋 Lampris guttatus 的范围，包括北海、爱尔兰海与地中海。修订前以同一学名报告的全球月鱼记录涉及多个物种，不直接合并其深度、体重或生活史数值。"
+  },
+  "habitats": [
+    {
+      "name": "北大西洋中上层水域",
+      "realm": "marine",
+      "description": "按 2018 年月鱼属修订，本档案只记录北大西洋 Lampris guttatus 的范围，包括北海、爱尔兰海与地中海。修订前以同一学名报告的全球月鱼记录涉及多个物种，不直接合并其深度、体重或生活史数值。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "中层鱼类（旧广义月鱼资料）",
+      "头足类（旧广义月鱼资料）"
+    ],
+    "description": "旧版汇总资料记载月鱼捕食中层鱼类和头足类，但页面提示部分信息涉及后来分出的物种。此处将这些食物作为旧资料的概括说明，未录入北大西洋本种的固定比例或数值。"
+  },
+  "tags": [
+    "月鱼",
+    "北大西洋中上层水域"
+  ],
+  "summary": "月鱼：圆扁的身体与红色鱼鳍。",
+  "description": "身体深而侧扁，轮廓接近椭圆，蓝银色体表有浅色斑点，鱼鳍呈红色，尾鳍深叉。看图先找红色胸鳍、腹鳍与尾鳍；细小鳍条和斑点不能作为物种鉴定依据。按 2018 年月鱼属修订，本档案只记录北大西洋 Lampris guttatus 的范围，包括北海、爱尔兰海与地中海。修订前以同一学名报告的全球月鱼记录涉及多个物种，不直接合并其深度、体重或生活史数值。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "圆扁的身体与红色鱼鳍",
+      "body": "身体深而侧扁，轮廓接近椭圆，蓝银色体表有浅色斑点，鱼鳍呈红色，尾鳍深叉。看图先找红色胸鳍、腹鳍与尾鳍；细小鳍条和斑点不能作为物种鉴定依据。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "北大西洋中上层水域",
+      "body": "按 2018 年月鱼属修订，本档案只记录北大西洋 Lampris guttatus 的范围，包括北海、爱尔兰海与地中海。修订前以同一学名报告的全球月鱼记录涉及多个物种，不直接合并其深度、体重或生活史数值。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "旧版汇总资料记载月鱼捕食中层鱼类和头足类，但页面提示部分信息涉及后来分出的物种。此处将这些食物作为旧资料的概括说明，未录入北大西洋本种的固定比例或数值。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与研究范围",
+      "body": "北大西洋本种的繁殖细节尚未在本批资料中独立核实，不沿用旧广义月鱼的产卵月份与繁殖数量。图库均为成体外形重建。2015 年全身体内产热研究发生在分类修订前，不能据其旧学名把太平洋样本的实测结论直接归给本种。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Lampris guttatus，属于辐鳍鱼纲、月鱼目、月鱼科。分类图谱表达分类归属，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察圆扁的身体与红色鱼鳍。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。FishBase 的 LC 记录评估于 2013 年，早于 2018 年物种范围修订；本批未核实狭义北大西洋本种的对应评估，NE 为资料占位，不表示实际上未受评估或安全。"
+    }
+  ],
+  "keyFacts": [
+    "身体深而侧扁，轮廓接近椭圆，蓝银色体表有浅色斑点，鱼鳍呈红色，尾鳍深叉。看图先找红色胸鳍、腹鳍与尾鳍；细小鳍条和斑点不能作为物种鉴定依据。",
+    "北大西洋本种的繁殖细节尚未在本批资料中独立核实，不沿用旧广义月鱼的产卵月份与繁殖数量。图库均为成体外形重建。2015 年全身体内产热研究发生在分类修订前，不能据其旧学名把太平洋样本的实测结论直接归给本种。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [
+    "金枪鱼等渔业的兼捕记录（旧广义月鱼资料）"
+  ],
+  "conservationActions": [
+    "按修订后的物种名称记录捕获",
+    "保留产热研究的样本地点与分类范围"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "圆扁的身体与红色鱼鳍"
+    }
+  ],
+  "media": {
+    "image": "./images/species/north-atlantic-opah/01-cover.webp",
+    "alt": "月鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/north-atlantic-opah/02-observation.webp",
+        "title": "圆扁的全身侧面",
+        "alt": "月鱼：圆扁的全身侧面，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。按北大西洋月鱼外形重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-atlantic-opah/03-observation.webp",
+        "title": "头部与浅色斑点",
+        "alt": "月鱼：头部与浅色斑点，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部与体表斑点可见；斑点不作为鉴定依据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-atlantic-opah/04-observation.webp",
+        "title": "从前侧看侧扁身体",
+        "alt": "月鱼：从前侧看侧扁身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。三分之四视角，非实测体宽。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-atlantic-opah/05-observation.webp",
+        "title": "蓝色开放水域",
+        "alt": "月鱼：蓝色开放水域，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。北大西洋环境重建，非地点记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/north-atlantic-opah/06-observation.webp",
+        "title": "展开的红色鱼鳍",
+        "alt": "月鱼：展开的红色鱼鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。鱼鳍外形重建，不展示热成像或产热证据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "2018 原始分类修订：限定 Lampris guttatus 并区分其他月鱼",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29690102/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "FishBase：北大西洋范围与旧物种复合群资料提示",
+      "url": "https://www.fishbase.se/summary/1072",
+      "kind": "general",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "NOAA 保存的 2015 年产热原始研究（修订前学名）",
+      "url": "https://repository.library.noaa.gov/view/noaa/29052",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "2021 原始研究：月鱼分类与北大西洋范围",
+      "url": "https://link.springer.com/article/10.1134/S0032945221020089",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

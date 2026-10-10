@@ -4691,5 +4691,70 @@
         "bottom": 605
       }
     }
+  },
+  "largescale-foureyes": {
+    "cover": {
+      "sha256": "9d081ac7613d17b30e872172d8e1fc6e675a09853f3978d08eac87fb3f0abddb",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 775,
+        "top": 384,
+        "right": 1467,
+        "bottom": 581
+      }
+    }
+  },
+  "south-american-lungfish": {
+    "cover": {
+      "sha256": "caa10a01ab95c6cc223830c75dd83f142b282f1594bc85250f08c8b0fdad6600",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 760,
+        "top": 231,
+        "right": 1442,
+        "bottom": 795
+      }
+    }
+  },
+  "atlantic-mudskipper": {
+    "cover": {
+      "sha256": "186533793cb26e0c38608b3312f20c944b4d38b866d05fd34feb159ab458f346",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 335,
+        "right": 1500,
+        "bottom": 715
+      }
+    }
+  },
+  "blackfin-icefish": {
+    "cover": {
+      "sha256": "07841327cd5d06efbcf64404a9a7be383c257da73dd9ecb9af83f2409e0d0c3a",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 768,
+        "top": 299,
+        "right": 1390,
+        "bottom": 607
+      }
+    }
+  },
+  "north-atlantic-opah": {
+    "cover": {
+      "sha256": "06a0a7a3a23ce251ec953e93a98afd1876e8059c7233b291655943dc92350995",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 32,
+        "right": 1520,
+        "bottom": 865
+      }
+    }
   }
 }

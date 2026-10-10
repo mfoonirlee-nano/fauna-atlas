@@ -1,0 +1,106 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this exact blackfin-icefish cover. Keep this SAME animal's species-specific external anatomy, markings, fins, whole tail, orientation and natural habitat. Change ONLY its size and placement: modestly reduce the whole animal about 12% and move it RIGHT so its ENTIRE silhouette lies between x=700 and x=1470 on the 1536-pixel-wide canvas. NOTHING belonging to the animal may extend left of x=690: snout, eyes, fin tips, threadlike fins, tail, all included. Its center should be x=1100. Preserve background in the LEFT 45% with NO fish pixels there. Maintain genuine background margin around the complete animal and no cutoffs at right edge. Preserve landscape 1536x1024 and lighting; reconstruct freed background naturally, no smearing. Keep all anatomical features, do not add or remove fins or external organs. No text or labels.",
+      "sourceSha256": "3abf5010b8167d93fb456d76ab1d8ec3f51da316e73b0cb8b97cb00d2beade84",
+      "runtimeSha256": "07841327cd5d06efbcf64404a9a7be383c257da73dd9ecb9af83f2409e0d0c3a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "ONE landscape 1536x1024 realistic scientific animal-atlas reconstruction. Species Chaenocephalus aceratus. Anatomy: Antarctic blackfin icefish, pale grey mottled scaleless elongated body, broad flattened large head, long duckbill-like snout and wide CLOSED mouth, huge fan-shaped pectoral fins, two dorsal fins, dark fin edges, ordinary fish body not transparent glass; no red blood visible. Scene: whole adult resting above Antarctic continental shelf rocky seabed in cold dim blue seawater, no floating ice on seafloor. COVER COMPOSITION: entire one animal including ALL fins and tail strictly in RIGHT HALF x=760..1450 y=150..880, center 72% width, maximize visible size in that box. Left 45% quiet blurred natural habitat reserved for webpage copy. Real background margins, full intact silhouette. Gently curve long bodies to fit. No text, labels, ruler, watermark, collage, human handling, cutoffs, blood or distress. Scientific reconstruction, not wildlife photography.",
+      "discardedSourceSha256": "05f1c52993abb5506b562e136987f880fd0a3fc33e41a1e2ae47f42c0b1e58ca",
+      "discardedSubject": {
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 580,
+          "top": 228,
+          "right": 1495,
+          "bottom": 670
+        }
+      },
+      "discardedHeroAt1366": [
+        702.432,
+        339.3168786885246
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Chaenocephalus aceratus. Anatomy adult reference: pale grey mottled scaleless elongated fish, broad flattened head and long duckbill snout, huge fan-shaped pectoral fins, two dorsal fins and dark fin margins, not transparent glass. Habitat: cold dim Antarctic shelf seawater. Scene: whole adult near rocky Antarctic shelf seabed. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "a57dd478fde06d1eb59f3f34e6ddf09194fd462978ccb21fa9ee174affd0fb8a",
+      "runtimeSha256": "ef691f96cb7134b71adad45ce3108aa0e1668a14d780ef4b6ce806aa2bd2e0f7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Chaenocephalus aceratus. Anatomy adult reference: pale grey mottled scaleless elongated fish, broad flattened head and long duckbill snout, huge fan-shaped pectoral fins, two dorsal fins and dark fin margins, not transparent glass. Habitat: cold dim Antarctic shelf seawater. Scene: close-up broad flattened head and pectoral fin, mouth closed. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "27720ffcf4f1b2259f4a16cd4fbcb20fe78a0bc2879df6d2cd5ddc4f3b91a674",
+      "runtimeSha256": "3220ab67d694b22f4292f434dd6e948390b4d422facab6d7fdfecc95cb5a5649",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Chaenocephalus aceratus. Anatomy adult reference: pale grey mottled scaleless elongated fish, broad flattened head and long duckbill snout, huge fan-shaped pectoral fins, two dorsal fins and dark fin margins, not transparent glass. Habitat: cold dim Antarctic shelf seawater. Scene: whole pale mottled adult with fan-shaped pectoral fins spread. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "22d0fefb573bc596cf4c0f898e842cc181681f5d75d53dba489f496ff1235d7a",
+      "runtimeSha256": "bccfc2b3632efbc24f8fcbd7eed07c9fc2b900dafdbc080071ef0ab2ada54130",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Chaenocephalus aceratus. Anatomy adult reference: pale grey mottled scaleless elongated fish, broad flattened head and long duckbill snout, huge fan-shaped pectoral fins, two dorsal fins and dark fin margins, not transparent glass. Habitat: cold dim Antarctic shelf seawater. Scene: whole adult near small krill on cold seafloor, no attack or blood. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "d62647814c91ecce43e450c91af846a52bbea1271263d7bd08a2f2d0bd937605",
+      "runtimeSha256": "80acad5756d98256658790068309389e01666159feca4cc5a1dcc5e03c977f36",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Chaenocephalus aceratus. Anatomy adult reference: pale grey mottled scaleless elongated fish, broad flattened head and long duckbill snout, huge fan-shaped pectoral fins, two dorsal fins and dark fin margins, not transparent glass. Habitat: cold dim Antarctic shelf seawater. Scene: side view complete fish showing two dorsal fins and intact tail. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "c5cb002291fb85144d91500279ea791afd31be333a0de6b2ac11b82f2379056b",
+      "runtimeSha256": "dc46cdb35cc2761fa0b4ab2549ea12c25e6b74d50c39b9893fc92376821c71cb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

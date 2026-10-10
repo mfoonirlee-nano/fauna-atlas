@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "ONE landscape 1536x1024 realistic scientific animal-atlas reconstruction. Species Periophthalmus barbarus. Anatomy: brown-grey Atlantic mudskipper with fine blue speckles, TWO raised turret eyes on top of head, stout pectoral fins supporting body, two dorsal fins first with dark stripe and blue rim, tapering fish tail; NO frog legs or feet. Scene: whole adult supported on pectoral fins on wet West African mangrove mud next to a shallow tidal pool. COVER COMPOSITION: entire one animal including ALL fins and tail strictly in RIGHT HALF x=760..1450 y=150..880, center 72% width, maximize visible size in that box. Left 45% quiet blurred natural habitat reserved for webpage copy. Real background margins, full intact silhouette. Gently curve long bodies to fit. No text, labels, ruler, watermark, collage, human handling, cutoffs, blood or distress. Scientific reconstruction, not wildlife photography.",
+      "sourceSha256": "f143934b91330409aa6bb262e88fb4c6e52a7e2aa41eee09cf51f5389d2d15b3",
+      "runtimeSha256": "186533793cb26e0c38608b3312f20c944b4d38b866d05fd34feb159ab458f346",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Periophthalmus barbarus. Anatomy adult reference: brown-grey body with blue speckles, TWO raised turret eyes, supporting pectoral fins, two dorsal fins with blackish stripe and blue margin, tapering fish tail, no feet. Habitat: West African mangrove tidal mudflat. Scene: whole adult on wet mud supported by pectoral fins. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "405b6e7db5a4c2322817e8edba4219f0a1c325a111ca8dbcfb209e095bbcb7be",
+      "runtimeSha256": "bcd77d23ca2ade3cbfc4f105700a25be0b9c1342039447526e973d8ce7d711b3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Periophthalmus barbarus. Anatomy adult reference: brown-grey body with blue speckles, TWO raised turret eyes, supporting pectoral fins, two dorsal fins with blackish stripe and blue margin, tapering fish tail, no feet. Habitat: West African mangrove tidal mudflat. Scene: close-up of head, raised eyes and blue cheek speckles. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "762686fc35b855569105450c46d3928e1c4ef210619911733ec86385bae25889",
+      "runtimeSha256": "7ea9f3553341393f3fae205c4590427ae4740eb3ccbc88f04dd607579107a3e9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Periophthalmus barbarus. Anatomy adult reference: brown-grey body with blue speckles, TWO raised turret eyes, supporting pectoral fins, two dorsal fins with blackish stripe and blue margin, tapering fish tail, no feet. Habitat: West African mangrove tidal mudflat. Scene: whole adult beside burrow entrance in mangrove mud. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "fc72a0292ef224d38df062dc1092562da67bd622c1bd9a287160c946a5f39a5d",
+      "runtimeSha256": "ddfde4e496461ce2db83ea48aa067fee68480ef6ec74ddc8abcc035685aa8b8d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Periophthalmus barbarus. Anatomy adult reference: brown-grey body with blue speckles, TWO raised turret eyes, supporting pectoral fins, two dorsal fins with blackish stripe and blue margin, tapering fish tail, no feet. Habitat: West African mangrove tidal mudflat. Scene: whole adult at tidal pool edge with pectoral fins spread supporting body. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "ac8196a1d9c452a71d074203fcf8d94a4bc68ea1362006f21d627b11da4cd6a2",
+      "runtimeSha256": "dde86a6e8f51574c8c444f47afbdcf565c0c0566449ed069b02623f57b612155",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Periophthalmus barbarus. Anatomy adult reference: brown-grey body with blue speckles, TWO raised turret eyes, supporting pectoral fins, two dorsal fins with blackish stripe and blue margin, tapering fish tail, no feet. Habitat: West African mangrove tidal mudflat. Scene: side view adult with first dorsal fin raised showing dark stripe and blue rim. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "2ee21554bb50442b3ec0f4d14b39c16616c4016a74f6a55886f006e0d7b29be3",
+      "runtimeSha256": "cb8d19d7e2d8e2dbb4d76a2e3a423e74cc65114613410d68ec6adf61a19ebeba",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

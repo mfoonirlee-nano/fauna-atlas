@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 40 种，动物目录增至 540 种，活动清单剩余 60 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)和[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)。
+本轮目标为新增 100 种动物；累计完成 45 种，动物目录增至 545 种，活动清单剩余 55 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)和[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -54,3 +54,13 @@
 - [x] 科基蛙 *Eleutherodactylus coqui*：直接发育。共读：“看看卵里长出的小青蛙。”不能套用游泳蝌蚪的通用生活史。
 - [x] 皱鳃鲨 *Chlamydoselachus anguineus*：皱鳃鲨科的长形身体。共读：“找找头后面一排鳃裂。”
 - [x] 欧氏尖吻鲨 *Mitsukurina owstoni*：剑吻鲨科与可前伸的颌。共读：“先看看长吻，再用慢镜头看嘴的位置变化。”
+
+## 2026-10-10 接续鱼类五种
+
+资料与验收见[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)。
+
+- [x] 四眼鱼 *Anableps anableps*：跨越水面的视觉结构。共读：“看看每只眼睛的哪一部分露在水面上。”“四眼”不表示四个眼球。
+- [x] 南美肺鱼 *Lepidosiren paradoxa*：肺鱼类的地区与形态差异。共读：“找找细细的成对鳍。”呼吸结构用示意说明。
+- [x] 大西洋弹涂鱼 *Periophthalmus barbarus*：潮间带活动与水陆交界。共读：“看看胸鳍怎样撑住身体。”不能把它写成两栖动物。
+- [x] 黑鳍冰鱼 *Chaenocephalus aceratus*：南极冰鱼与特殊血液生理。共读：“看看浅色身体和宽大的胸鳍。”缺少血红蛋白的说明需附来源。
+- [x] 月鱼 *Lampris guttatus*：深水鱼的体形与产热研究。共读：“找找圆扁的身体和红色鱼鳍。”复核月鱼属修订，不把整个属的记录套给本种。

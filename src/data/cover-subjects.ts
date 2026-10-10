@@ -5402,4 +5402,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 605
     }
   },
+  "largescale-foureyes": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 775,
+      "top": 384,
+      "right": 1467,
+      "bottom": 581
+    }
+  },
+  "south-american-lungfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 760,
+      "top": 231,
+      "right": 1442,
+      "bottom": 795
+    }
+  },
+  "atlantic-mudskipper": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 335,
+      "right": 1500,
+      "bottom": 715
+    }
+  },
+  "blackfin-icefish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 768,
+      "top": 299,
+      "right": 1390,
+      "bottom": 607
+    }
+  },
+  "north-atlantic-opah": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 32,
+      "right": 1520,
+      "bottom": 865
+    }
+  },
 };

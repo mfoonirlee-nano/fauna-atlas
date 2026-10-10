@@ -1,6 +1,6 @@
 # 制作清单：拓展动物界的 100 种新动物
 
-2026-10-10 更新：本轮新增 100 种选题，已完成 40 种，现有 540 份物种档案，剩余 60 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)和[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
+2026-10-10 更新：本轮新增 100 种选题，已完成 45 种，现有 545 份物种档案，剩余 55 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)和[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
 
 上一轮动物完成记录见[上一轮归档](research/todo-completed-2026-09-30.md)和[最后五种研究与验收记录](research/todo-final-five-2026-10-09.md)，更早记录见[历史归档](research/todo-completed-2026-09-23.md)。微生物实现与验证见[专题说明](microbes-topic.md)。
 
@@ -24,25 +24,20 @@
 | 鸟类 | 0 | 潜水、夜行、育幼与食物专化 |
 | 爬行动物 | 0 | 肢体差异、滑翔、软壳与攀爬 |
 | 两栖动物 | 0 | 外鳃、无肺、直接发育与无足身体 |
-| 鱼类与其他脊索动物 | 11 | 软骨鱼、特殊呼吸与无脊柱的脊索动物 |
+| 鱼类与其他脊索动物 | 6 | 软骨鱼、特殊呼吸与无脊柱的脊索动物 |
 | 昆虫与其他节肢动物 | 19 | 少见昆虫目、六足近邻、微小甲壳类与蛛形动物 |
 | 其他无脊椎动物 | 30 | 少见动物门、固着、群体、寄生与显微生活 |
-| 动物合计 | 60 | 本轮已完成 40 种 |
+| 动物合计 | 55 | 本轮已完成 45 种 |
 | 微生物专题（另计） | 0 | 10 个选题已完成 |
 
 ## 两栖动物（已完成）
 
 本组已完成，见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)。
 
-## 鱼类与其他脊索动物（11 种）
+## 鱼类与其他脊索动物（6 种）
 
-前 10 项为鱼类；最后 1 项为被囊动物。后者属于脊索动物门，没有脊柱，制作时不得归入鱼类。
+前 5 项为鱼类；最后 1 项为被囊动物。后者属于脊索动物门，没有脊柱，制作时不得归入鱼类。
 
-- [ ] 四眼鱼 *Anableps anableps*：跨越水面的视觉结构。共读：“看看每只眼睛的哪一部分露在水面上。”“四眼”不表示四个眼球。
-- [ ] 南美肺鱼 *Lepidosiren paradoxa*：肺鱼类的地区与形态差异。共读：“找找细细的成对鳍。”呼吸结构用示意说明。
-- [ ] 大西洋弹涂鱼 *Periophthalmus barbarus*：潮间带活动与水陆交界。共读：“看看胸鳍怎样撑住身体。”不能把它写成两栖动物。
-- [ ] 黑鳍冰鱼 *Chaenocephalus aceratus*：南极冰鱼与特殊血液生理。共读：“看看浅色身体和宽大的胸鳍。”缺少血红蛋白的说明需附来源。
-- [ ] 月鱼 *Lampris guttatus*：深水鱼的体形与产热研究。共读：“找找圆扁的身体和红色鱼鳍。”复核月鱼属修订，不把整个属的记录套给本种。
 - [ ] 黑叉齿龙鱼 *Chiasmodon niger*：深海鱼的可扩张胃部。共读：“看看细长身体与肚子的轮廓。”不用夸张重建替代摄食记录。
 - [ ] 达尔文蝙蝠鱼 *Ogcocephalus darwini*：海底用鳍支撑和移动的鱼。共读：“看看身体下方像小脚的鱼鳍。”
 - [ ] 泥鳅 *Misgurnus anguillicaudatus*：身边淡水鱼与辅助呼吸。共读：“找找嘴周围的小须。”肠呼吸用资料解释。

@@ -1,0 +1,106 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this exact largescale-foureyes cover. Keep this SAME animal's species-specific external anatomy, markings, fins, whole tail, orientation and natural habitat. Change ONLY its size and placement: modestly reduce the whole animal about 12% and move it RIGHT so its ENTIRE silhouette lies between x=700 and x=1470 on the 1536-pixel-wide canvas. NOTHING belonging to the animal may extend left of x=690: snout, eyes, fin tips, threadlike fins, tail, all included. Its center should be x=1100. Preserve background in the LEFT 45% with NO fish pixels there. Maintain genuine background margin around the complete animal and no cutoffs at right edge. Preserve landscape 1536x1024 and lighting; reconstruct freed background naturally, no smearing. Keep all anatomical features, do not add or remove fins or external organs. No text or labels.",
+      "sourceSha256": "56a4619e55980b9fd4c47e15fac25fb8ff7634e35d27ebc83dff869c8194e9a2",
+      "runtimeSha256": "9d081ac7613d17b30e872172d8e1fc6e675a09853f3978d08eac87fb3f0abddb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "ONE landscape 1536x1024 realistic natural-history scientific reconstruction, no text. Anableps anableps largescale four-eyed fish, full intact adult body side view at calm brackish estuary water surface, northern South America. Olive tan dorsal body, silver sides with fine dark horizontal stripes, large scales, TWO protruding eyes high on head (only one eye visible in side view), each eye horizontally divided at waterline; no four separate eyeballs. Short rounded fins, dorsal fin far back, rounded tail. Eye half above water and half below, split-level view without distorted duplicate bodies. COVER: entire single fish including tail and fins in RIGHT HALF x760..1450 y280..780, center x1100; left 45% quiet dark blurred mangrove water; full real background margins, clear animal, no cropped features, no people, labels, watermark, diagrams or collage. Scientific reconstruction.",
+      "discardedSourceSha256": "2c5bb0287fe3e60f46e59a4789a2b6ade3d13e8c33638433017a19e7700cb324",
+      "discardedSubject": {
+        "width": 1536,
+        "height": 1024,
+        "bounds": {
+          "left": 595,
+          "top": 344,
+          "right": 1510,
+          "bottom": 606
+        }
+      },
+      "discardedHeroAt1366": [
+        702.432,
+        201.13353442622952
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Anableps anableps. Anatomy adult reference: olive back, silvery large-scaled sides with blue horizontal stripes, rounded tail, posterior dorsal fin, TWO raised eyes each with horizontally divided pupil, never four eyeballs. Habitat: northern South American mangrove estuary. Scene: whole adult side view at water surface, eyes bisected by surface. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "e250a1b2c85f66d3e29a04facd707cc26011991199dcfc3747210399813970e4",
+      "runtimeSha256": "dce742d1117a7e7a9ccbb4b900cb190db77e807dbe4a6e9d9c19b3ed2d5db825",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Anableps anableps. Anatomy adult reference: olive back, silvery large-scaled sides with blue horizontal stripes, rounded tail, posterior dorsal fin, TWO raised eyes each with horizontally divided pupil, never four eyeballs. Habitat: northern South American mangrove estuary. Scene: close-up of single elevated eye at waterline, subtle horizontal pupil division, no extra eyeballs. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "33598834db9f4b779103c018d4f630eb78a8f3a714b0d809c3cba4fea310a49c",
+      "runtimeSha256": "47af9f22ecb456d7d85db9e71a9597dfc20bade8c4a2c1fa80135eca8883d74f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Anableps anableps. Anatomy adult reference: olive back, silvery large-scaled sides with blue horizontal stripes, rounded tail, posterior dorsal fin, TWO raised eyes each with horizontally divided pupil, never four eyeballs. Habitat: northern South American mangrove estuary. Scene: whole fish among mangrove roots at estuary surface. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "b2a21006212db15589b7093c1ec18cefe1986056db97c7c5397246a0904f0569",
+      "runtimeSha256": "7116d8c6af857d19eb4fc89a38d63b4b8998520fa1adc7c33523dec6d28dd6e1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Anableps anableps. Anatomy adult reference: olive back, silvery large-scaled sides with blue horizontal stripes, rounded tail, posterior dorsal fin, TWO raised eyes each with horizontally divided pupil, never four eyeballs. Habitat: northern South American mangrove estuary. Scene: whole fish front three-quarter view showing exactly TWO elevated eyes. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "cde55d574d14551a83923cde4ed9b86ce55de205cc2fcf97742151e40a67de0f",
+      "runtimeSha256": "9f6b1e2d8f5ac9b6d8dda764c1efb904d797c3029bcb7a7afd19e38f8b23b19e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "ONE landscape 1536x1024 realistic detailed scientific animal-atlas reconstruction. Species Anableps anableps. Anatomy adult reference: olive back, silvery large-scaled sides with blue horizontal stripes, rounded tail, posterior dorsal fin, TWO raised eyes each with horizontally divided pupil, never four eyeballs. Habitat: northern South American mangrove estuary. Scene: small free-swimming juvenile in shallow water, not an embryo or birth scene. Juvenile instructions override adult coloration. Prominent accurate animal, intact fins and tail, full body except specified close-up. Natural light and textures. No text, watermark, labels, ruler, collage, human handling, blood, distress, or invented organs. Reconstructed external appearance, not evidence of behavior or measured scale.",
+      "sourceSha256": "55eaffa736549a5be3b6513ec54efcc5a94b2c9c0c2b039651390797b06ecd39",
+      "runtimeSha256": "20238de1900a9c48696623dd1c683798211f00d4afa012da0b80e9534c9d0da7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

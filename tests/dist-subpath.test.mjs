@@ -185,6 +185,29 @@ test('the initial JS stays small and full profiles load independently without da
   }
 });
 
+test('the deferred profile table resolves catalogue indexes and rejects unknown slugs', async () => {
+  const manifest = JSON.parse(await readFile(join(distDirectory, '.vite/manifest.json'), 'utf8'));
+  const loaderKey = 'virtual:species-loaders';
+  assert.ok(manifest[loaderKey]?.isDynamicEntry);
+  assert.ok(!(manifest['src/App.tsx'].imports ?? []).includes(loaderKey));
+  const { createServer: createViteServer } = await import('vite');
+  const server = await createViteServer({
+    server: { middlewareMode: true, watch: null, hmr: false },
+    appType: 'custom',
+  });
+  try {
+    const { species: summaries, loadSpecies } = await server.ssrLoadModule('virtual:species-catalogue');
+    const sourceCode = await readFile(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url), 'utf8');
+    const { species } = await import(`data:text/javascript;base64,${Buffer.from(sourceCode).toString('base64')}`);
+    for (const index of [0, 534, species.length - 1]) {
+      assert.deepEqual(await loadSpecies(summaries[index].slug), species[index]);
+    }
+    await assert.rejects(loadSpecies('unknown-species'), /Unknown species/);
+  } finally {
+    await server.close();
+  }
+});
+
 test('the compact catalogue preserves every browsing field and taxonomy rank', async () => {
   const { createServer: createViteServer } = await import('vite');
   const server = await createViteServer({
