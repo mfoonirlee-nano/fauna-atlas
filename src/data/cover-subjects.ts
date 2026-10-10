@@ -5382,4 +5382,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 830
     }
   },
+  "frilled-shark": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 145,
+      "right": 1505,
+      "bottom": 660
+    }
+  },
 };

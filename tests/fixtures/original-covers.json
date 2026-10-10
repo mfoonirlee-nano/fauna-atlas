@@ -4665,5 +4665,18 @@
         "bottom": 830
       }
     }
+  },
+  "frilled-shark": {
+    "cover": {
+      "sha256": "deb7abd2cdb4a42d6a3c0e0cda16bda3452862089f32100c959780ecb6c725a6",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 145,
+        "right": 1505,
+        "bottom": 660
+      }
+    }
   }
 }
