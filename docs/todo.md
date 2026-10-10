@@ -1,6 +1,6 @@
 # 制作清单：拓展动物界的 100 种新动物
 
-2026-10-10 更新：本轮新增 100 种选题，已完成 40 种，现有 540 份物种档案，剩余 60 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)和[接续五种记录](research/todo-expansion-five-2026-10-10.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
+2026-10-10 更新：本轮新增 100 种选题，已完成 40 种，现有 540 份物种档案，剩余 60 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)和[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
 
 上一轮动物完成记录见[上一轮归档](research/todo-completed-2026-09-30.md)和[最后五种研究与验收记录](research/todo-final-five-2026-10-09.md)，更早记录见[历史归档](research/todo-completed-2026-09-23.md)。微生物实现与验证见[专题说明](microbes-topic.md)。
 
@@ -30,8 +30,9 @@
 | 动物合计 | 60 | 本轮已完成 40 种 |
 | 微生物专题（另计） | 0 | 10 个选题已完成 |
 
-## 两栖动物（0 种）
+## 两栖动物（已完成）
 
+本组已完成，见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)。
 
 ## 鱼类与其他脊索动物（11 种）
 
