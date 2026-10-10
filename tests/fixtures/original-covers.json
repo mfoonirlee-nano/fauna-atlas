@@ -4561,5 +4561,18 @@
       },
       "sha256": "d44aff7bc38692a3bdd5edeb2168711eac7c10ae5b625823c66bb60042dda1bc"
     }
+  },
+  "yellow-spotted-night-lizard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 228,
+        "right": 1504,
+        "bottom": 820
+      },
+      "sha256": "ad615fc3300003085e9996a39f0ff52575a7f8581ae2c59e1a876b7454651018"
+    }
   }
 }

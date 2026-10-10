@@ -771,3 +771,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [卵食蛇 image set](./species/common-egg-eater/README.md)
 - [鼋 image set](./species/cantors-giant-softshell-turtle/README.md)
 - [平胸龟 image set](./species/big-headed-turtle/README.md)
+
+- [黄斑夜蜥 image set](./species/yellow-spotted-night-lizard/README.md)

@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Landscape 1536x1024 photorealistic scientific species atlas cover. ONE Lepidophyma flavimaculatum yellow-spotted night lizard on forest log. Dark brown scales with small cream yellow spots, FOUR clawed limbs, long tapering tail. Place WHOLE lizard STRICTLY in RIGHT HALF: head at x=780, body at x=1050, tail curved to right then back toward x=900. Entire subject silhouette within x=720..1450 y=180..900. Left half EMPTY forest background. Do NOT put head in left half. Complete tail tip and all visible feet. Maximize animal size in right-half box. No text, watermark, collage, human.",
+      "sourceSha256": "594fe4d4d0b65c36b8818a0f93582f76ed4f05c3f4ef644c40e6ff8ca7a504a1",
+      "runtimeSha256": "ad615fc3300003085e9996a39f0ff52575a7f8581ae2c59e1a876b7454651018",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "discardedPrompt": "Use case: scientific-educational. Generate ONE landscape 1536x1024 photorealistic scientific reconstruction for species atlas cover. Subject: Lepidophyma flavimaculatum yellow-spotted night lizard, slender dark brown black scaled lizard with small yellow cream spots in lateral rows, modest head, FOUR short clawed limbs and long tapering tail. One complete animal on wet tropical forest log in Central America. Entire silhouette including toes and gently curved tail INSIDE right half x=650..1450 y=180..850, center near 70% width. Maximize animal size within these constraints; natural background clearance around all extremities. LEFT 40% quiet dim forest background. No text, watermark, humans, collage, exaggerated glowing spots.",
+      "discardedSourceSha256": "71ab17b8de7317099e37c9ac9de4d781a34f54c65a1c9f524e704d8f2117c22c"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Lepidophyma flavimaculatum. Anatomy: slender dark brown black scaled lizard with small yellow cream spots along flanks, four short clawed limbs, long tapering tail. Scene: close side view of yellow spots against dark flank in Central American humid forest fallen wood. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "d03b4f36e319db57d1858be0badbaccd0f6923d1945eb5bedb0fe4789af1db2e",
+      "runtimeSha256": "99330a5798548fa6ed14051c2aee89da81ee54131d093b0e155894c18ccd92d9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Lepidophyma flavimaculatum. Anatomy: slender dark brown black scaled lizard with small yellow cream spots along flanks, four short clawed limbs, long tapering tail. Scene: whole animal on damp leaf litter, all four limbs visible in Central American humid forest fallen wood. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "92ac3d41fbbec2f05df947effffbd04153993dc44afc18fd40488894bdefd70c",
+      "runtimeSha256": "35af7a280e13cf5760ae20c77635af4938b2627a08d0ff4e50f0acb41f8b9a4c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Lepidophyma flavimaculatum. Anatomy: slender dark brown black scaled lizard with small yellow cream spots along flanks, four short clawed limbs, long tapering tail. Scene: dorsal view of whole lizard on decaying log, full tapering tail in Central American humid forest fallen wood. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "2231d5532e2ed138dfeefe6d81b7689d81c09b08cdae66f2e8efc391c08c7f3c",
+      "runtimeSha256": "19245045af43fb4e2744a86343721e8e3c4863d56e96a2ea935b163b8d77780b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Lepidophyma flavimaculatum. Anatomy: slender dark brown black scaled lizard with small yellow cream spots along flanks, four short clawed limbs, long tapering tail. Scene: lizard resting at opening under naturally fallen log, no handling in Central American humid forest fallen wood. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "8e85405b41c15cc13577b89735362ca3de2d22fba3e92b333b5210eb0877e215",
+      "runtimeSha256": "64def68697f10bd95427844ad84007cbab75c1c5f0bec05d9029fb09e9350be2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Lepidophyma flavimaculatum. Anatomy: slender dark brown black scaled lizard with small yellow cream spots along flanks, four short clawed limbs, long tapering tail. Scene: whole small juvenile on forest floor, same small yellow spots; no eggs in Central American humid forest fallen wood. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "de84bd13cf809fadf1b9c6840e663aa9a287aa41a250160c23d1d6e9f3fee12a",
+      "runtimeSha256": "5d17d2f0afe87706a0fb4a1258d6504bcba6494b8d2014fe648054209e71fe59",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
