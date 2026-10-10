@@ -1,0 +1,115 @@
+{
+  "method": "built-in image_gen",
+  "images": [
+    {
+      "slug": "saccharomyces-cerevisiae",
+      "src": "./images/microbes/saccharomyces-cerevisiae/02-story.webp",
+      "alt": "酿酒酵母：亲子观察面团和面包，放大窗口展示椭圆细胞与小芽。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "06d79803c0c0e7c9e56158b4bf1d6a1021f0e31c4ba23f9f4be98d84e2423c81",
+      "bytes": 267120,
+      "review": "亲子观察面团和面包，放大窗口展示椭圆细胞与小芽",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "streptococcus-thermophilus",
+      "src": "./images/microbes/streptococcus-thermophilus/02-story.webp",
+      "alt": "嗜热链球菌：亲子观察酸奶，放大窗口展示球形细胞短链。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4262d44bce001251dbaaf0a167ba8f6465f88fe9420729dd5cf56a4bed169ba0",
+      "bytes": 206876,
+      "review": "亲子观察酸奶，放大窗口展示球形细胞短链",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "lactobacillus-delbrueckii",
+      "src": "./images/microbes/lactobacillus-delbrueckii/02-story.webp",
+      "alt": "德氏乳杆菌：牛奶与酸奶的比较，放大窗口展示杆形细胞和球形细胞链。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2976f580e242fd827187cdaea89b34ea5f71af0557a73939bb36414d5a742c55",
+      "bytes": 204660,
+      "review": "牛奶与酸奶的比较，放大窗口展示杆形细胞和球形细胞链",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "bifidobacterium-bifidum",
+      "src": "./images/microbes/bifidobacterium-bifidum/02-story.webp",
+      "alt": "双歧双歧杆菌：亲子阅读身体图，放大窗口展示肠道中的分枝杆形细胞。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2587a0a79e906cc7c3174b9a8bfa19c1efd89265a48aaf1ee84baf0ace263429",
+      "bytes": 245958,
+      "review": "亲子阅读身体图，放大窗口展示肠道中的分枝杆形细胞",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "escherichia-coli",
+      "src": "./images/microbes/escherichia-coli/02-story.webp",
+      "alt": "大肠杆菌：家长陪孩子洗手，放大窗口展示肠道里的圆端短杆细胞。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a153a07bb4ae2a1b391e69e4deb1be49f2b7801a13decc4973639c54abc331ff",
+      "bytes": 190394,
+      "review": "家长陪孩子洗手，放大窗口展示肠道里的圆端短杆细胞",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "salmonella-enterica",
+      "src": "./images/microbes/salmonella-enterica/02-story.webp",
+      "alt": "肠道沙门菌：亲子隔着玻璃观察乌龟，放大窗口展示杆形细胞与细长鞭毛。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1650073a595e2767fcc1e7bd4243f75b1b0bb7657f6a71771dced5cf6cd7a27b",
+      "bytes": 314936,
+      "review": "亲子隔着玻璃观察乌龟，放大窗口展示杆形细胞与细长鞭毛",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "streptococcus-mutans",
+      "src": "./images/microbes/streptococcus-mutans/02-story.webp",
+      "alt": "变异链球菌：家长帮助孩子刷牙，放大窗口展示牙齿表面薄膜和球形细胞链。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "78d35dbb342c981301212d5cc3847a080a1193532507f81dade50ace84040e0e",
+      "bytes": 167008,
+      "review": "家长帮助孩子刷牙，放大窗口展示牙齿表面薄膜和球形细胞链",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "giardia-duodenalis",
+      "src": "./images/microbes/giardia-duodenalis/02-story.webp",
+      "alt": "蓝氏贾第鞭毛虫：亲子在溪边使用自己的水瓶，放大窗口对照包囊和滋养体。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c0fe0d5fdb6e37279cff6a9924aed6c95444fd89b0ad527fce5dda17e865778e",
+      "bytes": 392724,
+      "review": "亲子在溪边使用自己的水瓶，放大窗口对照包囊和滋养体",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "paramecium-caudatum",
+      "src": "./images/microbes/paramecium-caudatum/02-story.webp",
+      "alt": "大草履虫：亲子通过显微镜观察，放大窗口展示短纤毛、口沟和内部小泡。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "310a1c58db123f8f73a3f558aa135071cbffd89ab25330903542f3ac0c1b3bd9",
+      "bytes": 320164,
+      "review": "亲子通过显微镜观察，放大窗口展示短纤毛、口沟和内部小泡",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    },
+    {
+      "slug": "euglena-gracilis",
+      "src": "./images/microbes/euglena-gracilis/02-story.webp",
+      "alt": "眼虫：阳光下的水域，放大窗口展示绿色叶绿体、红色眼点和长鞭毛。AI 科普插画，非显微照片，不按比例。",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "643fb1f09a3f61f330eb9cf4da5135e868f54219cdcfaa2b42835e326316735a",
+      "bytes": 296698,
+      "review": "阳光下的水域，放大窗口展示绿色叶绿体、红色眼点和长鞭毛",
+      "limitations": "AI 生成的教学插画，场景与放大窗口属于说明性组合，不代表真实取样结果；颜色、纹理和尺寸不能用于鉴定物种、菌株或致病性。"
+    }
+  ]
+}

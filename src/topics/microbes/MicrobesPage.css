@@ -35,7 +35,6 @@
 .microbes-start { display: inline-flex; align-items: center; gap: 20px; padding: 14px 20px; margin-top: 28px; border-radius: 12px; background: var(--forest); color: var(--paper) !important; text-decoration: none; }
 .hero-window { padding: 24px; border: 1px solid var(--line); border-radius: 28px 28px 70px 28px; background: var(--paper-soft); box-shadow: 0 18px 60px #263c2e0a; transform: rotate(2deg); }
 .hero-window__top { display: flex; justify-content: space-between; color: var(--ink-soft); font: 12px var(--micro-mono); }
-.hero-window .microbe-diagram { margin: 20px 0; border-radius: 50%; }
 .hero-window h2 { font-size: 22px; }
 .hero-window p { color: var(--ink-soft); font-size: 14px; margin: 8px 0 14px; }
 .hero-window a { display: inline-flex; align-items: center; gap: 12px; font-size: 14px; }
@@ -76,22 +75,10 @@
 .microbe-reader__heading .microbes-eyebrow { margin-bottom: 8px; }
 .microbe-topic__latin { color: var(--ink-soft); font: 12px var(--micro-mono); margin-top: 8px; overflow-wrap: anywhere; }
 .reader-question { font-size: 16px; color: var(--forest); padding: 12px 18px; background: var(--paper-deep); border-radius: 12px; }
-.microbe-reader__layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); }
+.microbe-reader__layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
 .observation-desk { padding: 28px; border-right: 1px solid var(--line); }
 .observation-switch, .feature-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
 .observation-switch button, .feature-buttons button { font-size: 12px; }
-.microbe-diagram { margin: 20px 0; padding: 24px 16px 18px; --cell-color: var(--micro-bacteria); background: radial-gradient(circle at 50% 45%, transparent 80px, var(--line) 81px, transparent 82px), var(--micro-field); border-radius: 16px; }
-.microbe-diagram--fungus { --cell-color: var(--micro-fungus); }
-.microbe-diagram--protist { --cell-color: var(--micro-protist); }
-.microbe-diagram svg { width: 100%; height: auto; display: block; }
-.microbe-diagram__cell { fill: var(--paper-soft); stroke: var(--cell-color); stroke-width: 3; }
-.microbe-diagram__detail { fill: var(--cell-color); stroke: none; opacity: .8; }
-.microbe-diagram__eyespot { fill: var(--rust); stroke: none; }
-.microbe-diagram__lines { fill: none; stroke: var(--cell-color); stroke-width: 2; stroke-linecap: round; }
-.microbe-diagram__marker circle { fill: none; stroke: var(--rust); stroke-width: 2; stroke-dasharray: 3 3; }
-.microbe-diagram__marker text { fill: var(--rust); font: bold 16px var(--micro-mono); text-anchor: middle; paint-order: stroke; stroke: var(--paper-soft); stroke-width: 3px; }
-.microbe-diagram figcaption, .diagram-note { color: var(--ink-soft); font-size: 11px; line-height: 1.7; }
-.microbe-diagram figcaption { text-align: center; margin-top: 10px; }
 .feature-explanation { font-size: 14px; margin: 14px 0; min-height: 3.7em; }
 .microbe-image { margin: 20px 0; background: var(--micro-field); border-radius: 16px; overflow: hidden; }
 .microbe-image .atlas-image { position: relative; display: block; aspect-ratio: 3 / 2; }
@@ -102,14 +89,11 @@
 .child-script h4 { font-size: 13px; margin-bottom: 8px; }
 .child-script p { font-size: 15px; }
 .reader-content { padding: 28px 32px; min-width: 0; }
-.reader-chapters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin-bottom: 28px; }
+.reader-chapters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; margin-bottom: 28px; }
 .reader-chapters button { display: grid; gap: 6px; text-align: left; padding: 12px 10px; font-size: 12px; }
 .reader-chapters span { font: 11px var(--micro-mono); }
 #reader-chapter h4 { font-size: 23px; margin-bottom: 16px; }
 #reader-chapter > p:not(.microbes-eyebrow) { font-size: 16px; line-height: 2; }
-.reader-observe { border-top: 1px dashed var(--line-strong); margin-top: 24px; padding-top: 20px; }
-.reader-observe strong { font-size: 13px; color: var(--forest); }
-.reader-observe p { font-size: 14px; color: var(--ink-soft); margin-top: 8px; }
 .reader-pagination { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 24px; }
 .reader-pagination button { display: flex; align-items: center; gap: 10px; font-size: 13px; }
 .reader-pagination > span { font-size: 12px; color: var(--ink-soft); }
@@ -118,13 +102,6 @@
 .life-process__steps button { display: flex; align-items: center; gap: 12px; text-align: left; font-size: 14px; }
 .life-process__steps button > svg { margin-left: auto; flex-shrink: 0; }
 .life-process__steps button > span { font: 14px var(--micro-mono); }
-.life-process__stage { display: grid; grid-template-columns: minmax(180px, .6fr) minmax(0, 1fr); gap: 28px; align-items: center; margin: 20px 0 10px; padding: 20px; border-radius: 16px; background: var(--micro-field); }
-.life-process__drawing { display: flex; align-items: center; justify-content: center; gap: 14px; color: var(--forest); }
-.life-process__drawing > svg:first-child { flex-shrink: 0; width: 50px; }
-.life-process__drawing > svg:last-child { width: 100%; max-width: 220px; height: 110px; fill: var(--rust); }
-.process-outline { fill: none; stroke: var(--forest); stroke-width: 2; }
-.life-process__stage h4 { font-size: 18px; margin-bottom: 8px; }
-.life-process__stage p { font-size: 15px; }
 .reader-bottom { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; padding: 28px 32px; border-top: 1px solid var(--line); }
 .microbe-quiz h4 { font-size: 18px; line-height: 1.6; }
 .microbe-quiz [role='group'] { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
@@ -154,8 +131,7 @@
   .discovery-dates strong { font-size: 13px; }
   .scene-picker { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .observation-desk { border-right: 0; border-bottom: 1px solid var(--line); }
-  .observation-desk .microbe-diagram, .observation-desk .microbe-image { max-width: 480px; margin: 20px auto; }
-  .reader-chapters { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .reader-chapters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .microbes-reading__grid, .reader-bottom { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 520px) {
@@ -170,9 +146,22 @@
   .discovery-story, .microbe-reader__heading, .observation-desk, .reader-content, .life-process, .reader-bottom, .microbes-reading { padding: 24px 18px; }
   .reader-chapters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .life-process__steps { grid-template-columns: minmax(0, 1fr); gap: 8px; }
-  .life-process__stage { grid-template-columns: minmax(0, 1fr); gap: 16px; padding: 16px; }
   .next-organism { margin-left: 18px; }
 }
 
 .microbes-page button:disabled { opacity: .6; cursor: default; }
 @media (prefers-reduced-motion: reduce) { html:has(.microbes-page) { scroll-behavior: auto; } }
+
+.hero-window > .atlas-image { position: relative; display: block; aspect-ratio: 3 / 2; margin: 20px 0; border-radius: 16px; overflow: hidden; }
+.hero-window > .atlas-image img { width: 100%; height: 100%; object-fit: contain; }
+.picture-prompt { font-size: 14px; margin: 20px 0 12px; }
+#reader-chapter > p + p { margin-top: 16px; }
+.life-process > h4 { font-size: 20px; margin-bottom: 20px; }
+.life-process__explanation { font-size: 16px; margin-top: 20px; padding: 20px 24px; background: var(--paper-deep); border-radius: 12px; }
+.microbe-image { border: 1px solid var(--line); }
+
+.picture-zoom { font-size: 13px !important; }
+.microbe-reader--expanded .microbe-reader__layout { grid-template-columns: minmax(0, 1fr); }
+.microbe-reader--expanded .observation-desk { border-right: 0; border-bottom: 1px solid var(--line); }
+.microbe-reader--expanded .microbe-image { max-width: none; }
+.microbe-reader--expanded .reader-content { max-width: 760px; width: 100%; margin: auto; }
