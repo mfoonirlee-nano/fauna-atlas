@@ -5392,4 +5392,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 660
     }
   },
+  "goblin-shark": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 400,
+      "right": 1515,
+      "bottom": 605
+    }
+  },
 };

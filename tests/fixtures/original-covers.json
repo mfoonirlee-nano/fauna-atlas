@@ -4678,5 +4678,18 @@
         "bottom": 660
       }
     }
+  },
+  "goblin-shark": {
+    "cover": {
+      "sha256": "ad45f426b1c5d8264ba87cef184ab34677268b817b62b8ae494ed7ea5fe70728",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 400,
+        "right": 1515,
+        "bottom": 605
+      }
+    }
   }
 }

@@ -147759,7 +147759,237 @@ export const species = [
   "featured": true,
   "publishedAt": "2026-10-10",
   "updatedAt": "2026-10-10"
-},] as const satisfies readonly Species[];
+},
+{
+  "id": "goblin-shark",
+  "slug": "goblin-shark",
+  "names": {
+    "zh": "欧氏尖吻鲨",
+    "en": "Goblin Shark"
+  },
+  "scientificName": "Mitsukurina owstoni",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Chondrichthyes",
+      "zhName": "软骨鱼纲"
+    },
+    "order": {
+      "scientificName": "Lamniformes",
+      "zhName": "鼠鲨目"
+    },
+    "family": {
+      "scientificName": "Mitsukurinidae",
+      "zhName": "剑吻鲨科"
+    },
+    "genus": {
+      "scientificName": "Mitsukurina",
+      "zhName": "尖吻鲨属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "大西洋、印度洋与太平洋的深水陆坡"
+    ],
+    "countries": [
+      "日本",
+      "澳大利亚",
+      "新西兰",
+      "美国"
+    ],
+    "range": "在多个大洋的深水陆坡和海底峡谷有记录，较少遇见。国家列表是代表记录，生成图不能证明地点或水深。长吻的外形与颌部运动分别观察。"
+  },
+  "habitats": [
+    {
+      "name": "深水陆坡与海底峡谷",
+      "realm": "marine",
+      "description": "在多个大洋的深水陆坡和海底峡谷有记录，较少遇见。国家列表是代表记录，生成图不能证明地点或水深。长吻的外形与颌部运动分别观察。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "头足类",
+      "甲壳类"
+    ],
+    "description": "取食鱼类、头足类与甲壳类等动物。2016 年研究分析了两条鲨鱼的五次摄食影像，记录了颌部快速前伸；图库只展示动作的教学姿态，不提供运动速度测量。"
+  },
+  "tags": [
+    "欧氏尖吻鲨",
+    "深水陆坡与海底峡谷"
+  ],
+  "summary": "欧氏尖吻鲨：长吻下方可前伸的颌。",
+  "description": "吻部细长而扁，位于嘴上方，身体常呈粉灰色，眼睛小，具有五对鳃裂与两枚低背鳍。休息时颌部收回；伸颌姿态属于取食动作的一部分，不能把持续外伸的嘴当作普通游泳外形。在多个大洋的深水陆坡和海底峡谷有记录，较少遇见。国家列表是代表记录，生成图不能证明地点或水深。长吻的外形与颌部运动分别观察。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "长吻下方可前伸的颌",
+      "body": "吻部细长而扁，位于嘴上方，身体常呈粉灰色，眼睛小，具有五对鳃裂与两枚低背鳍。休息时颌部收回；伸颌姿态属于取食动作的一部分，不能把持续外伸的嘴当作普通游泳外形。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "深水陆坡与海底峡谷",
+      "body": "在多个大洋的深水陆坡和海底峡谷有记录，较少遇见。国家列表是代表记录，生成图不能证明地点或水深。长吻的外形与颌部运动分别观察。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "取食鱼类、头足类与甲壳类等动物。2016 年研究分析了两条鲨鱼的五次摄食影像，记录了颌部快速前伸；图库只展示动作的教学姿态，不提供运动速度测量。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "本种繁殖与早期生活史资料有限，资料通常推测胚胎在母体内发育。本档案把这种说法标为推测，不编造卵囊、产仔场景、繁殖周期或妊娠时长。幼体观察图只展示外形重建。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Mitsukurina owstoni，属于软骨鱼纲、鼠鲨目、剑吻鲨科。分类图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察长吻下方可前伸的颌。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "吻部细长而扁，位于嘴上方，身体常呈粉灰色，眼睛小，具有五对鳃裂与两枚低背鳍。休息时颌部收回；伸颌姿态属于取食动作的一部分，不能把持续外伸的嘴当作普通游泳外形。",
+    "本种繁殖与早期生活史资料有限，资料通常推测胚胎在母体内发育。本档案把这种说法标为推测，不编造卵囊、产仔场景、繁殖周期或妊娠时长。幼体观察图只展示外形重建。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不代表连续动作。"
+  ],
+  "threats": [
+    "深水拖网、延绳钓与刺网的兼捕"
+  ],
+  "conservationActions": [
+    "记录兼捕及深水栖息环境",
+    "持续研究繁殖与种群资料"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "长吻下方可前伸的颌"
+    }
+  ],
+  "media": {
+    "image": "./images/species/goblin-shark/01-cover.webp",
+    "alt": "欧氏尖吻鲨及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/goblin-shark/02-observation.webp",
+        "title": "收颌时的全身侧面",
+        "alt": "欧氏尖吻鲨：收颌时的全身侧面，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。常态外形重建，长吻与嘴分开观察。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/goblin-shark/03-observation.webp",
+        "title": "长吻与小眼睛",
+        "alt": "欧氏尖吻鲨：长吻与小眼睛，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部侧面放大，吻部不是锯齿状武器。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/goblin-shark/04-observation.webp",
+        "title": "颌部前伸姿态",
+        "alt": "欧氏尖吻鲨：颌部前伸姿态，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。摄食姿态教学重建；动作与速度以原始影像研究为依据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/goblin-shark/05-observation.webp",
+        "title": "陆坡上方的身体",
+        "alt": "欧氏尖吻鲨：陆坡上方的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整身体与两枚低背鳍重建，人工照明不表示自然光照。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/goblin-shark/06-observation.webp",
+        "title": "幼体的外形",
+        "alt": "欧氏尖吻鲨：幼体的外形，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。幼体科学重建，非已知出生体长或真实个体记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "佛罗里达博物馆：分类、形态、分布及繁殖资料限制",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/goblin-shark/",
+      "kind": "general",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "Nakaya 等 2016：颌部前伸的原始影像分析",
+      "url": "https://www.nature.com/articles/srep27786",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
+},
+
+] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
   species.map((item) => [item.slug, item]),

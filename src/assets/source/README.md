@@ -782,3 +782,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [锡兰鱼螈 image set](./species/ceylon-caecilian/README.md)
 - [科基蛙 image set](./species/common-coqui/README.md)
 - [皱鳃鲨 image set](./species/frilled-shark/README.md)
+- [欧氏尖吻鲨 image set](./species/goblin-shark/README.md)
