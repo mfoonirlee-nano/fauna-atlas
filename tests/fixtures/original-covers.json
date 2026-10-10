@@ -4574,5 +4574,18 @@
       },
       "sha256": "ad615fc3300003085e9996a39f0ff52575a7f8581ae2c59e1a876b7454651018"
     }
+  },
+  "philippine-sailfin-lizard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 140,
+        "right": 1502,
+        "bottom": 902
+      },
+      "sha256": "f30540186a112fc684f034d3c88c3dc128d6b81267b0ded2e05a48d9e23660a2"
+    }
   }
 }

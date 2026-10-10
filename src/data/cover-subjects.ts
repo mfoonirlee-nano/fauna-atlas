@@ -5310,5 +5310,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1504,
       "bottom": 820
     }
+  },
+  "philippine-sailfin-lizard": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 140,
+      "right": 1502,
+      "bottom": 902
+    }
   }
 };

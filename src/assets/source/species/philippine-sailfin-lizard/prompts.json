@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Hydrosaurus pustulatus. Anatomy: adult male gray olive scaled lizard with violet tinges, crest along back, tall upright sail on BASE OF TAIL, four clawed limbs, long tail curving alongside body, no wings. Scene: one complete animal in Philippine lowland tropical riverbank. Subject completely inside x=650..1450 y=150..900, CENTER at 70% width, all toes, gills, crest, tail visible, tail gently CURVED alongside body to fit RIGHT half. Maximize complete animal within box; real background clearance. Left 40% quiet environment background. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "ca276c7c4904b6f387bdf5c51fcbf542409461fa8f9fbab7f036691d8d6fed94",
+      "runtimeSha256": "f30540186a112fc684f034d3c88c3dc128d6b81267b0ded2e05a48d9e23660a2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Hydrosaurus pustulatus. Anatomy: adult male gray olive scaled lizard with violet tinges, crest along back, tall upright sail on BASE OF TAIL, four clawed limbs, long tail curving alongside body, no wings. Scene: adult MALE side view showing tall sail at base of long tail in Philippine lowland tropical riverbank. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "0f71b4432691cfae31634066cf7c820ddc0e803b62d7b638406dfecc1d9157ed",
+      "runtimeSha256": "a02bc857a1f26c8e03648e21a7fb7519e82ddf257002e2705baed4107c215c14",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Hydrosaurus pustulatus. Anatomy: adult male gray olive scaled lizard with violet tinges, crest along back, tall upright sail on BASE OF TAIL, four clawed limbs, long tail curving alongside body, no wings. Scene: adult FEMALE whole body with much lower crest and tail sail in Philippine lowland tropical riverbank. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "8cf08144891eccfb2823f26cc5d41a2dce5c2308dedb12811715d9a7442e0908",
+      "runtimeSha256": "c8100b9f908604baf807b972e724460386d1739fca08744d907e844b6b33fe05",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Hydrosaurus pustulatus. Anatomy: adult male gray olive scaled lizard with violet tinges, crest along back, tall upright sail on BASE OF TAIL, four clawed limbs, long tail curving alongside body, no wings. Scene: whole adult at water edge, flattened tail visible; static resting pose in Philippine lowland tropical riverbank. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "3fd0dbe1a039548b67460f178d0d1fd249e502e61ecee823553e94799a35ed73",
+      "runtimeSha256": "8cdee2f4074cc27c31973fce02eee06d6be6574c943fd97d1e0450378b36ad7f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Hydrosaurus pustulatus. Anatomy: adult male gray olive scaled lizard with violet tinges, crest along back, tall upright sail on BASE OF TAIL, four clawed limbs, long tail curving alongside body, no wings. Scene: whole juvenile on low riverside branch, LOW crest, no adult high sail in Philippine lowland tropical riverbank. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "b54bdd487c1da32f67e5b44d4e59e651f5a8ca07bf654131582fb5826b00fc9e",
+      "runtimeSha256": "5ef44d30c7981a84a53d7fe8df09b4773905eaac52f4f7bf992c199d531cedca",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Hydrosaurus pustulatus. Anatomy: adult male gray olive scaled lizard with violet tinges, crest along back, tall upright sail on BASE OF TAIL, four clawed limbs, long tail curving alongside body, no wings. Scene: adult male resting on log above tropical river, full toes and tail in Philippine lowland tropical riverbank. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "0de4b284c2e1ddfc7d04d55507a04f5987428fc9d6c9b1cf6cda5a0a98e0ae59",
+      "runtimeSha256": "03f8eed28ee6a7af04a7188126d93eca5c47829f005d3936745264b545dc7c74",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
