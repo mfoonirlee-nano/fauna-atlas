@@ -50,43 +50,101 @@ test('the topic contains exactly the ten todo organisms and none enter the anima
   assert.match(microbeTopics.find((item) => item.slug === 'giardia-duodenalis').parentNote, /Giardia lamblia.*Giardia intestinalis/);
 });
 
-test('group filters, reading sections and empty search recovery work on the independent page', async (context) => {
+test('family exploration filters, reading chapters, structures, processes and feedback work', async (context) => {
   const { server, root, dom } = await setup(context);
   const { default: MicrobesPage } = await server.ssrLoadModule('/src/topics/microbes/MicrobesPage.tsx');
   await act(() => root.render(createElement(MicrobesPage)));
+  const click = async (selector, text) => {
+    const button = [...document.querySelectorAll(selector)].find(button => button.textContent.includes(text));
+    assert.ok(button, `button exists: ${text}`);
+    await act(() => button.click());
+  };
   assert.equal(document.querySelectorAll('[data-topic]').length, 10);
-  assert.equal(document.querySelectorAll('.microbe-image .atlas-image__photo').length, 10);
-  for (const picture of document.querySelectorAll('.microbe-image .atlas-image__photo')) {
-    assert.match(picture.getAttribute('src'), /^\.\/images\/microbes\//);
-    assert.match(picture.getAttribute('alt'), /AI 科学重建.*不按比例/);
-    assert.equal(picture.getAttribute('loading'), 'lazy');
-  }
-  assert.equal(document.querySelectorAll('figure svg[role="img"]').length, 10);
-  for (const svg of document.querySelectorAll('figure svg')) {
+  assert.equal(document.querySelectorAll('.microbe-reader').length, 1);
+  assert.match(document.querySelector('#microbe-reader-title').textContent, /酿酒酵母/);
+  assert.equal(document.querySelector('.microbe-image'), null);
+  for (const svg of document.querySelectorAll('.microbe-diagram svg')) {
     assert.match(document.getElementById(svg.getAttribute('aria-labelledby')).textContent, /非显微照片，不按比例/);
   }
   assert.equal(document.querySelector('#atlas'), null);
   assert.equal(document.querySelector('#taxonomy'), null);
-  const buttons = () => [...document.querySelectorAll('.microbes-filters button')];
-  await act(() => buttons().find((button) => button.textContent === '细菌').click());
-  assert.equal(document.querySelectorAll('[data-topic]').length, 6);
-  assert.equal(buttons().find((button) => button.textContent === '细菌').getAttribute('aria-pressed'), 'true');
-  await act(() => buttons().find((button) => button.textContent === '真菌').click());
-  assert.equal(document.querySelectorAll('[data-topic]').length, 1);
-  const details = document.querySelector('details');
-  await act(() => details.querySelector('summary').click());
-  assert.equal(details.open, true);
-  assert.match(details.textContent, /不尝生面团/);
+  await click('.discovery-dates button', '1857');
+  assert.match(document.querySelector('.discovery-story').textContent, /巴斯德/);
+  await click('.feature-buttons button', '母细胞');
+  assert.match(document.querySelector('.feature-explanation').textContent, /完整的单细胞真菌/);
+  assert.equal(document.querySelector('.observation-desk .microbe-diagram__marker text').textContent, '2');
+  await click('.observation-switch button', '重建插图');
+  const picture = document.querySelector('.microbe-image .atlas-image__photo');
+  assert.match(picture.getAttribute('src'), /^\.\/images\/microbes\//);
+  assert.match(picture.getAttribute('alt'), /AI 科学重建.*不按比例/);
+  assert.equal(picture.getAttribute('loading'), 'lazy');
+  await click('.observation-switch button', '可点选结构图');
+  await click('.reader-chapters button', '怎样生活');
+  assert.match(document.querySelector('#reader-chapter').textContent, /母细胞.*小芽/);
+  await click('.reader-pagination button', '作用与影响');
+  assert.match(document.querySelector('#reader-chapter').textContent, /烘烤.*小孔/);
+  await click('.life-process__steps button', '面包的小孔');
+  assert.match(document.querySelector('.life-process__stage').textContent, /成人烘烤/);
+  await click('.microbe-quiz button', '叶子');
+  assert.match(document.querySelector('.quiz-feedback').textContent, /再看看.*二氧化碳/);
+  await click('.microbe-quiz button', '二氧化碳');
+  assert.match(document.querySelector('.quiz-feedback').textContent, /找到了关键/);
+  await act(() => document.querySelector('.reader-sources summary').click());
+  assert.equal(document.querySelector('.reader-sources').open, true);
+  assert.match(document.querySelector('.reader-sources').textContent, /不尝生面团/);
+  await click('.scene-picker button', '厨房');
+  assert.equal(document.querySelectorAll('[data-topic]').length, 3);
+  await click('.microbes-filters button', '细菌');
+  assert.equal(document.querySelectorAll('[data-topic]').length, 2);
+  assert.match(document.querySelector('#microbe-reader-title').textContent, /嗜热链球菌/);
+  assert.equal(document.querySelector('.quiz-feedback'), null);
+  assert.equal(document.querySelector('.reader-chapters [aria-pressed="true"]').textContent, '01发现线索');
+  await click('.next-organism', '下一种');
+  assert.match(document.querySelector('#microbe-reader-title').textContent, /德氏乳杆菌/);
+  assert.equal(document.activeElement.id, 'microbe-reader-title');
+  await click('.scene-picker button', '一滴水');
+  assert.equal(document.querySelectorAll('[data-topic]').length, 0);
+  await click('.microbes-empty button', '查看全部');
+  assert.equal(document.querySelectorAll('[data-topic]').length, 10);
   const input = document.querySelector('input[type="search"]');
   await act(() => {
     Object.getOwnPropertyDescriptor(dom.window.HTMLInputElement.prototype, 'value').set.call(input, '没有这个名字');
     input.dispatchEvent(new dom.window.Event('input', { bubbles: true }));
   });
   assert.equal(document.querySelectorAll('[data-topic]').length, 0);
-  await act(() => document.querySelector('.microbes-empty button').click());
-  assert.equal(document.querySelectorAll('[data-topic]').length, 10);
+  assert.equal(document.querySelector('.microbe-reader'), null);
+  await click('.microbes-empty button', '查看全部');
   assert.equal(document.querySelector('input').value, '');
+  await click('.open-reader', '一起读');
+  assert.equal(document.activeElement.id, 'microbe-reader-title');
   assert.ok(dom.window.location.pathname.endsWith('/nested/'));
+});
+
+test('each organism has sourced reading content and switching organisms resets exploration state', async (context) => {
+  const { server, root } = await setup(context);
+  const { default: MicrobesPage } = await server.ssrLoadModule('/src/topics/microbes/MicrobesPage.tsx');
+  const { microbeTopics } = await server.ssrLoadModule('/src/topics/microbes/content.ts');
+  const { learningStories } = await server.ssrLoadModule('/src/topics/microbes/learning.ts');
+  assert.deepEqual(Object.keys(learningStories).sort(), microbeTopics.map(item => item.slug).sort());
+  await act(() => root.render(createElement(MicrobesPage)));
+  for (const item of microbeTopics) {
+    const story = learningStories[item.slug];
+    assert.equal(story.process.length, 3);
+    assert.equal(story.processNotes.length, 3);
+    assert.ok(story.quiz.correct === 0 || story.quiz.correct === 1);
+    await act(() => document.querySelector(`[data-topic="${item.slug}"]`).click());
+    assert.equal(document.querySelector('#microbe-reader-title').textContent, item.name);
+    assert.equal(document.querySelector('.feature-buttons [aria-pressed="true"]').textContent.startsWith('1'), true);
+    assert.equal(document.querySelector('.quiz-feedback'), null);
+    for (const [index, field] of ['discovery', 'habits', 'role', 'care'].entries()) {
+      await act(() => document.querySelectorAll('.reader-chapters button')[index].click());
+      assert.ok(document.querySelector('#reader-chapter').textContent.includes(story[field]));
+    }
+    await act(() => document.querySelectorAll('.life-process__steps button')[2].click());
+    await act(() => document.querySelectorAll('.microbe-quiz button')[story.quiz.correct].click());
+    assert.ok(document.querySelector('.quiz-feedback').textContent.includes(story.quiz.explanation));
+    for (const source of story.sources ?? []) assert.equal(new URL(source.url).protocol, 'https:');
+  }
 });
 
 test('every topic has one distinct retained WebP bound to its decoded dimensions and hash', async (context) => {

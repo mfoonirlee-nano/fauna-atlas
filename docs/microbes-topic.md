@@ -1,47 +1,49 @@
 # 微生物专题
 
-2026-10-09
+2026-10-10 更新。
 
-## 入口与范围
+## 入口与共读方式
 
-动物页主导航的“微生物专题”打开 `#microbes`。专题提供“动物图鉴”返回链接。两个页面按路由分别挂载、懒加载，支持静态站点的子路径部署，支持直接打开与前进后退。
+动物页主导航的“微生物专题”打开 `#microbes`。家长通过专题认识微生物的发现、生活方式、作用和危害，孩子先观察图形、讲自己的猜想，再与家长一起读过程。两个页面按路由分别挂载、懒加载，支持静态站点的子路径部署、直接打开与前进后退。
 
-专题包含 todo 的 10 种微生物：酿酒酵母、嗜热链球菌、德氏乳杆菌、双歧双歧杆菌、大肠杆菌、肠道沙门菌、变异链球菌、蓝氏贾第鞭毛虫、大草履虫和眼虫。德氏乳杆菌的发酵介绍明确限定保加利亚亚种；贾第鞭毛虫保留同物异名说明。
+专题保留 10 种微生物，独立于动物物种档案、搜索、轮播和分类图谱。本期涵盖细菌、真菌与单细胞真核生物，尚未介绍病毒。
 
-每种提供结构示意、介绍、观察问题、生活联系、成人说明与资料来源。支持名称、学名或特点搜索，以及细菌、真菌、单细胞真核生物筛选。筛选不是分类阶元。动物的数据、计数、搜索、收藏、轮播和分类图谱未加入这些选题。
+页面提供三个发现故事：胡克的《显微图谱》、列文虎克的观察与通信、巴斯德的发酵研究。家长点选时间节点阅读故事和共读问题。各选题的“发现线索”介绍研究者如何获取证据，不声称给出了每种微生物的首次发现日期。
 
-## 插图与来源
+家长可从厨房、身体和水滴三个生活场景选题，也可结合类型筛选或搜索。页面一次展示一个完整共读单元，每种提供“发现线索”“怎样生活”“作用与影响”“危害与防护”四个章节、可直接讲给孩子听的短文、三步过程说明、一道理解题和成人资料来源。切换微生物时重置章节、结构点选、过程步骤和答题状态。搜索无结果时可以恢复全部选题。
 
-专题采用独立的“微生物观察室”视觉：冷蓝色网格背景、圆形观察窗、无衬线标题、等宽学名和观察编号。细菌、真菌、单细胞真核生物分别用蓝、紫、青色辅助区分，同时显示文字类型；颜色不表示危害程度。深浅色变量限定在专题根节点内，窄屏将介绍与观察窗上下排列。
+## 图像与交互
 
-每篇首图为内置 image_gen 单独生成的 AI 科学重建，接受的 10 张 WebP 保存在 `public/images/microbes/`；尺寸均为 1536×1024，总计 713,422 字节。图片不是真实显微照片，配色和纹理属于说明性重建。每种微生物的提示词、生成路径、哈希和检查记录见[图片记录](../src/assets/source/microbes/README.md)。
+页面默认展示人工绘制的 SVG 结构示意。孩子点选结构名称后，可以在图上找到对应编号，并读到该结构的说明。酵母展示母细胞与芽；细菌展示球形、链形、杆形或分枝线索；贾第鞭毛虫展示滋养体的双核与四对鞭毛；草履虫展示纤毛、口沟和伸缩泡；眼虫展示鞭毛、叶绿体与眼点。
 
-共读展开区保留仓库内人工绘制的 SVG 结构示意。两类图及页面均说明不按比例，不提供虚构的显微尺度标尺。贾第鞭毛虫展示两个细胞核与四对鞭毛，不把细胞核画成表情。草履虫展示纤毛，眼虫展示鞭毛、叶绿体与眼点。所有图片使用完整画面显示，不进入动物图鉴。
+原有 10 张 AI 科学重建 WebP 保留为“重建插图”辅助视图，不再用十张大图充当页面主体。图片记录见[来源目录](../src/assets/source/microbes/README.md)。结构图与 AI 插图均不按比例，不证明真实尺寸、物种或菌株身份、致病性。
 
-内容来源链接保存在 `src/topics/microbes/content.ts` 并展示在每篇共读说明里。2026-10-09 查阅 CDC 的大肠杆菌、沙门菌、爬行动物与两栖动物、贾第鞭毛虫、DPDx 生活史及洗手资料，NIDCR 的口腔微生物与龋齿资料，以及以下研究与物种资料：
+过程区使用代码绘制的图形和图标，帮助家长讲面团膨大、酸奶发酵、肠道营养转化、接触传播、牙菌斑产酸、寄生生活史、草履虫取食与眼虫光合作用。点选三个步骤可逐步阅读说明。过程图为教学示意，不是显微影像或实验结果。
 
-- [SGD：酵母](https://wiki.yeastgenome.org/index.php/What_are_yeast%3F)
-- [酸奶菌共同发酵研究](https://pubmed.ncbi.nlm.nih.gov/24936380/)
-- [德氏乳杆菌保加利亚亚种研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC3022021/)
-- [肠道双歧杆菌研究](https://pubmed.ncbi.nlm.nih.gov/19168652/)
-- [USP：双歧双歧杆菌形态](https://doi.usp.org/USPNF/USPNF_M13098_02_01.html)
-- [Carolina：大草履虫](https://www.carolina.com/protozoa/paramecium-caudatum-living/131554.pr)
-- [Carolina：眼虫](https://www.carolina.com/algae/euglena-gracilis-living/152800.pr)
-- [眼虫感光研究](https://pubs.rsc.org/En/content/articlehtml/2012/ib/c1ib00115a)
+专题使用米白底色、绿色强调和共读工作台布局，支持深浅色与手机端排列。筛选、结构点选、章节和步骤按钮都显示选中状态；状态反馈供辅助技术读取。“一起读”按钮滚动至当前共读单元并聚焦标题，用户要求减少动态效果时取消该按钮的平滑滚动。
 
-不安排幼儿培养未知样本，不提供诊断、用药或益生菌购买建议。卫生提示采用生活动作，避免恐吓或责怪孩子。
+## 科学资料与内容边界
 
-## 验证
+2026-10-10 核对了以下内容来源，页面在发现故事和成人备课区提供相应链接：
 
-专题测试覆盖 10 个选题与动物目录的隔离、筛选、搜索无结果与恢复、共读展开、直接进入专题及页面切换。生产构建测试检查子路径资源、入口 JavaScript 预算、专题与动物页的独立懒加载。
+- [皇家学会：《显微图谱》](https://royalsociety.org/blog/2013/04/restoration-reading/)、[列文虎克](https://royalsociety.org/blog/2023/07/celebrating-leeuwenhoek/)、[1676 年通信记录](https://catalogues.royalsociety.org/CalmView/Record.aspx?id=EL%2FL1%2F19&src=CalmView.Catalog)。
+- [巴斯德研究所：发酵研究](https://www.pasteur.fr/en/whats-new/latest-news/features/louis-pasteur-universal-legacy)。
+- [SGD：酵母](https://wiki.yeastgenome.org/index.php/What_are_yeast%3F)、[酸奶菌共同发酵研究](https://pubmed.ncbi.nlm.nih.gov/24936380/)、[保加利亚亚种研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC3022021/)。
+- [肠道双歧杆菌研究](https://pubmed.ncbi.nlm.nih.gov/19168652/)、[交叉营养研究](https://pubmed.ncbi.nlm.nih.gov/28721502/)。
+- [CDC：大肠杆菌](https://www.cdc.gov/ecoli/about/index.html)、[沙门菌](https://www.cdc.gov/salmonella/about/index.html)、[爬行动物与两栖动物](https://www.cdc.gov/healthy-pets/about/reptiles-and-amphibians.html)、[贾第鞭毛虫生活史](https://www.cdc.gov/dpdx/giardiasis/index.html)、[生面团食品安全](https://www.cdc.gov/food-safety/foods/no-raw-dough.html)、[洗手](https://www.cdc.gov/clean-hands/about/index.html)。
+- [NIDCR：龋齿](https://www.nidcr.nih.gov/health-info/tooth-decay)。
+- [OpenStax：单细胞生物的结构与生活方式](https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists)、[眼虫感光研究](https://pubs.rsc.org/En/content/articlehtml/2012/ib/c1ib00115a)。
 
-`npm test` 的 780 项检查通过，包含生产构建、类型检查与子路径资源验证。最后修改后的专题交互测试另行通过。懒加载后的各页面仍遵守单文件 350,000 字节、页面依赖合计 550,000 字节的既有预算。
+德氏乳杆菌的酸奶发酵介绍限定保加利亚亚种。贾第鞭毛虫保留同物异名和滋养体、包囊的区别。大肠杆菌区分无害类型与致病类型；肠道菌研究不延伸成益生菌购买或治疗建议。卫生提示采用生活动作，不安排幼儿培养未知样本，不提供诊断或用药建议，不责怪生病的孩子。
 
-未启动 GUI 或无头浏览器。DOM 测试和静态代码检查不验证浏览器中的排版与完整页面视觉效果。
+## 本次验证
 
-视觉调整后再次通过 `npm run test:microbes` 和 `npm run test:dist-subpath`（各 4 项，包含类型检查、生产构建和体积预算）。静态计算的浅色正文与背景对比度为 6.36:1，深色为 9.33:1；三种类型颜色在对应内容底色上的对比度均不低于 5.70:1。此计算不替代浏览器视觉验收。
+- `npm run typecheck` 通过。
+- `npm run test:microbes`：6 项通过，覆盖十个选题隔离、内容完整性、来源链接格式、场景与类型联合筛选、空结果恢复、结构标记、章节切换、过程点选、答题反馈、状态重置、标题聚焦、图片尺寸与哈希、路由切换。
+- `npm run test:dist-subpath`：4 项通过，包含生产构建、子路径资源、独立懒加载和既有 JavaScript 预算。
+- `git diff --check` 通过。
 
-生成图接入后再次通过 `test:microbes`（新增资产检查后为 5 项）、`test:images`（1 项）及 `test:dist-subpath`（4 项）。每种选题的运行时 WebP 均核对实际尺寸与哈希，原有结构示意移入共读展开区。
+按项目约定未启动 GUI 或无头浏览器；DOM 测试、构建与静态检查不能代替浏览器里的视觉验收。
 
 ## 已完成选题记录
 
