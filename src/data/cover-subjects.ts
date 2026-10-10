@@ -5330,5 +5330,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 770
     }
+  },
+  "eastern-red-backed-salamander": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 905,
+      "top": 345,
+      "right": 1475,
+      "bottom": 810
+    }
   }
 };

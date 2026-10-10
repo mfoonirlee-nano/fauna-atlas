@@ -1,0 +1,94 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this landscape animal cover for hero layout. Move the ENTIRE animal with ALL visible extremities to the RIGHT by 140 pixels and scale the animal uniformly to 85% of its current size, preserving anatomy, colors, pose and complete silhouette. The head and nearest foot currently extend too far left. After edit LEFTMOST animal pixel must be beyond x=710 in 1536px wide image, rightmost before x=1490. Reconstruct natural surrounding background in vacated region. Keep full image dimensions 1536x1024 and natural habitat. Do not crop animal, do not change species, do not leave a second animal, no text.",
+      "sourceSha256": "f97da375e690bcf4aa8dc362a9f687b4e54451db1748bcbf8f680ed7f5f7bd9b",
+      "runtimeSha256": "2a6dc5f6d043739c8077c189e997be3f4e55137a1dc9f7423161e0ed2c9c9b90",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "discardedPrompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Plethodon cinereus. Anatomy: small slender terrestrial salamander with dark gray sides and broad rust red orange stripe along back through tail, four small limbs, smooth moist skin, no external gills. Scene: one complete animal in eastern North American damp deciduous forest floor. Subject completely inside x=650..1450 y=150..900, CENTER at 70% width, all toes, gills, crest, tail visible, tail gently CURVED alongside body to fit RIGHT half. Maximize complete animal within box; real background clearance. Left 40% quiet environment background. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "discardedSourceSha256": "a096618f18857f91900bb6947a1e17193d0922888eb53d86cf0d202fa1cf4178",
+      "discardedPrompt2": "ONE landscape 1536x1024 photorealistic scientific reconstruction. Plethodon cinereus. small slender terrestrial salamander with dark gray sides and broad rust red orange stripe along back through tail, four small limbs, smooth moist skin, no external gills. Natural habitat eastern North American damp deciduous forest floor. COMPOSITION CRITICAL: whole animal in RIGHT HALF ONLY, not centered. Nearest extremity at x=760, farthest at x=1430, top at y=220, bottom at y=880. Left HALF empty quiet habitat. Full head, all visible legs, tail and gills with background clearance. Curve long tail alongside body within right half. Maximize subject inside this box. No text, watermark, humans, no cropped extremities.",
+      "discardedSourceSha2562": "c62bbfc7b927396e4e05ee06f49af0ae57b66727fb81f9a76646cb32abf9a05c"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Plethodon cinereus. Anatomy: small slender terrestrial salamander with dark gray sides and broad rust red orange stripe along back through tail, four small limbs, smooth moist skin, no external gills. Scene: whole red-backed color morph on fallen leaf, stripe through tail in eastern North American damp deciduous forest floor. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "3702a0c72ee0e6284b26510794bfa6364f30e107695f18f29fc93e66d74194ad",
+      "runtimeSha256": "d823c04c9c9ec272476f0497e83a26c7315dfa9cba752eb86c722b341000a9c4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Plethodon cinereus. Anatomy: small slender terrestrial salamander with dark gray sides and broad rust red orange stripe along back through tail, four small limbs, smooth moist skin, no external gills. Scene: whole LEAD-BACK color morph, uniformly gray black without red stripe in eastern North American damp deciduous forest floor. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "d258f93168e45260b8044788257e861c99ec051903af679d48b796db0313800a",
+      "runtimeSha256": "e471d1e16e2881f16837cce82d7876c1413b1310ecb0a7f5f0661b7a4404ddbe",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Plethodon cinereus. Anatomy: small slender terrestrial salamander with dark gray sides and broad rust red orange stripe along back through tail, four small limbs, smooth moist skin, no external gills. Scene: macro side profile red-back morph showing costal grooves and smooth skin, no gills in eastern North American damp deciduous forest floor. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "931129780579cd367c52afe9058ffaaf25dbddcfc1e50d38834ad8db8f1f8424",
+      "runtimeSha256": "723c45c18f2a7ced7bbdeb8e419e4fa3b6d115e4abf369e8b2c06fceaf466730",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Plethodon cinereus. Anatomy: small slender terrestrial salamander with dark gray sides and broad rust red orange stripe along back through tail, four small limbs, smooth moist skin, no external gills. Scene: whole salamander beside naturally decaying wood and leaf litter in eastern North American damp deciduous forest floor. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "6815bd5bc48c3099e2876a8f3b44edd83c6a29ccf548ef9ba2317b1acdc3dcf1",
+      "runtimeSha256": "b4c1d22e14c2e65ff4f340e1a6019ac44549ad1e6a1231ff52dae815cac7b92c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Plethodon cinereus. Anatomy: small slender terrestrial salamander with dark gray sides and broad rust red orange stripe along back through tail, four small limbs, smooth moist skin, no external gills. Scene: mother curled near small cluster of translucent eggs beneath forest log, eggs with tiny fully formed salamanders, NO swimming tadpoles, ecological reconstruction in eastern North American damp deciduous forest floor. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "c66157ae3d5256e5cae1ea6217884edb58bc9392bebe6610014e1510f9c4b680",
+      "runtimeSha256": "5b75c5e8924a4719e288816301dcc8aae146ec2ab36dff66d36d77bd4da091e1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

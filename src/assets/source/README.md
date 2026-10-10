@@ -775,3 +775,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [黄斑夜蜥 image set](./species/yellow-spotted-night-lizard/README.md)
 - [菲律宾帆蜥 image set](./species/philippine-sailfin-lizard/README.md)
 - [斑泥螈 image set](./species/common-mudpuppy/README.md)
+- [红背无肺螈 image set](./species/eastern-red-backed-salamander/README.md)

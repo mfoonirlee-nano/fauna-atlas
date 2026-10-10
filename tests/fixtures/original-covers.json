@@ -4600,5 +4600,18 @@
       },
       "sha256": "376e3ef61d70793a9e3525f2b2bb8c5c439edc633ab8deb145ee937a4d4e8875"
     }
+  },
+  "eastern-red-backed-salamander": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 905,
+        "top": 345,
+        "right": 1475,
+        "bottom": 810
+      },
+      "sha256": "2a6dc5f6d043739c8077c189e997be3f4e55137a1dc9f7423161e0ed2c9c9b90"
+    }
   }
 }
