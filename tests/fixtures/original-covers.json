@@ -4587,5 +4587,18 @@
       },
       "sha256": "f30540186a112fc684f034d3c88c3dc128d6b81267b0ded2e05a48d9e23660a2"
     }
+  },
+  "common-mudpuppy": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 855,
+        "top": 205,
+        "right": 1480,
+        "bottom": 770
+      },
+      "sha256": "376e3ef61d70793a9e3525f2b2bb8c5c439edc633ab8deb145ee937a4d4e8875"
+    }
   }
 }

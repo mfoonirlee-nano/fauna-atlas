@@ -146116,6 +146116,238 @@ export const species = [
   "publishedAt": "2026-10-10",
   "updatedAt": "2026-10-10"
 },
+{
+  "id": "common-mudpuppy",
+  "slug": "common-mudpuppy",
+  "names": {
+    "zh": "斑泥螈",
+    "en": "Common Mudpuppy"
+  },
+  "scientificName": "Necturus maculosus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "order": {
+      "scientificName": "Caudata",
+      "zhName": "有尾目"
+    },
+    "family": {
+      "scientificName": "Proteidae",
+      "zhName": "洞螈科"
+    },
+    "genus": {
+      "scientificName": "Necturus",
+      "zhName": "泥螈属"
+    },
+    "class": {
+      "scientificName": "Amphibia",
+      "zhName": "两栖纲"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "加拿大南部与美国东部、中央地区的淡水水域"
+    ],
+    "countries": [
+      "加拿大",
+      "美国"
+    ],
+    "range": "加拿大南部与美国东部、中央地区的淡水水域。范围依据资料，生成图不表示真实拍摄地点。"
+  },
+  "habitats": [
+    {
+      "name": "湖泊与河流底部",
+      "realm": "freshwater",
+      "description": "它终生在淡水中生活，躲在石块、沉木或水草附近。外鳃在成年后仍存在，鳃的大小会随水中氧气条件变化。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "水生昆虫幼虫",
+      "甲壳类",
+      "小型水生动物"
+    ],
+    "description": "它吃水生昆虫幼虫、甲壳类和其他小型水生动物，也可能摄食小鱼。"
+  },
+  "tags": [
+    "斑泥螈",
+    "湖泊与河流底部"
+  ],
+  "summary": "斑泥螈：成年仍保留的外鳃。",
+  "description": "斑泥螈成体体表常有深色斑点，头宽而扁，头后两侧保留红褐色外鳃。它有四肢，各足四趾；尾巴侧扁。幼体可见纵向条纹。它终生在淡水中生活，躲在石块、沉木或水草附近。外鳃在成年后仍存在，鳃的大小会随水中氧气条件变化。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "成年仍保留的外鳃",
+      "body": "斑泥螈成体体表常有深色斑点，头宽而扁，头后两侧保留红褐色外鳃。它有四肢，各足四趾；尾巴侧扁。幼体可见纵向条纹。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "湖泊与河流底部",
+      "body": "它终生在淡水中生活，躲在石块、沉木或水草附近。外鳃在成年后仍存在，鳃的大小会随水中氧气条件变化。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "它吃水生昆虫幼虫、甲壳类和其他小型水生动物，也可能摄食小鱼。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "繁殖与幼体",
+      "body": "雌性把卵附在水下巢穴顶部，并守护到孵化。幼体带外鳃，成体继续保留外鳃；不能把它套用成离水生活的普通蝾螈。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类与范围",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Necturus maculosus，属于两栖纲、有尾目、洞螈科。分类图谱表达分类归属，不表示演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "共读时先观察成年仍保留的外鳃。图片为 AI 科学情景重建，不能代替行为实录、鉴定或测量。本批未核实当前全球物种级 IUCN 评估及年份，NE 为资料占位，不表示本种安全或实际上未受评估；全球种群趋势未录入。"
+    }
+  ],
+  "keyFacts": [
+    "斑泥螈成体体表常有深色斑点，头宽而扁，头后两侧保留红褐色外鳃。它有四肢，各足四趾；尾巴侧扁。幼体可见纵向条纹。",
+    "雌性把卵附在水下巢穴顶部，并守护到孵化。幼体带外鳃，成体继续保留外鳃；不能把它套用成离水生活的普通蝾螈。"
+  ],
+  "threats": [
+    "水体污染与沉积物增加",
+    "栖息地破坏"
+  ],
+  "conservationActions": [
+    "保护原生栖息环境，保留隐蔽空间，观察时不捕捉或诱发行为。"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "habitat",
+      "label": "生活环境",
+      "value": "湖泊与河流底部"
+    },
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "成年仍保留的外鳃"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-mudpuppy/01-cover.webp",
+    "alt": "斑泥螈及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-mudpuppy/02-observation.webp",
+        "title": "头旁的外鳃",
+        "alt": "斑泥螈：头旁的外鳃，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成体外鳃重建，不凭鳃丝数量判定个体健康。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-mudpuppy/03-observation.webp",
+        "title": "水底的四只脚",
+        "alt": "斑泥螈：水底的四只脚，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成体水下姿态重建，各足四趾的描述以资料为准。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-mudpuppy/04-observation.webp",
+        "title": "侧扁的尾巴",
+        "alt": "斑泥螈：侧扁的尾巴，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。侧面观察重建，静图不证明游泳动作。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-mudpuppy/05-observation.webp",
+        "title": "沉木下的隐蔽处",
+        "alt": "斑泥螈：沉木下的隐蔽处，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水下隐蔽环境重建，不移开动物藏身的沉木。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-mudpuppy/06-observation.webp",
+        "title": "带条纹的幼体",
+        "alt": "斑泥螈：带条纹的幼体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。幼体条纹与外鳃重建，和成体斑点分别标注。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "AMNH：斑泥螈学名与分类",
+      "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Caudata/Proteidae/Necturus/Necturus-maculosus",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "title": "密歇根大学 ADW：形态、分布与生活史",
+      "url": "https://animaldiversity.org/accounts/Necturus_maculosus/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10"
+},
 
 ] as const satisfies readonly Species[];
 

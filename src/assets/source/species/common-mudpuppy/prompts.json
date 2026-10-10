@@ -1,0 +1,94 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-10",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this landscape animal cover for hero layout. Move the ENTIRE animal with ALL visible extremities to the RIGHT by 140 pixels and scale the animal uniformly to 85% of its current size, preserving anatomy, colors, pose and complete silhouette. The head and nearest foot currently extend too far left. After edit LEFTMOST animal pixel must be beyond x=710 in 1536px wide image, rightmost before x=1490. Reconstruct natural surrounding background in vacated region. Keep full image dimensions 1536x1024 and natural habitat. Do not crop animal, do not change species, do not leave a second animal, no text.",
+      "sourceSha256": "578a3eecbc3011e3971b85a7cad3d9233862ea2e4ab40fbae81f3c7d8a32cd63",
+      "runtimeSha256": "376e3ef61d70793a9e3525f2b2bb8c5c439edc633ab8deb145ee937a4d4e8875",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "discardedPrompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Necturus maculosus. Anatomy: adult brown gray salamander with dark spots, flat broad head, three red branched external gill stalks ON EACH SIDE behind head, four legs with FOUR toes each, flattened paddle tail, no axolotl head fins. Scene: one complete animal in clear North American freshwater lake bottom. Subject completely inside x=650..1450 y=150..900, CENTER at 70% width, all toes, gills, crest, tail visible, tail gently CURVED alongside body to fit RIGHT half. Maximize complete animal within box; real background clearance. Left 40% quiet environment background. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "discardedSourceSha256": "8bda50c1613da3fa6a2652c1af243094c67ee6948bf8ae1c7ebe7634319df3a0",
+      "discardedPrompt2": "ONE landscape 1536x1024 photorealistic scientific reconstruction. Necturus maculosus. adult brown gray salamander with dark spots, flat broad head, three red branched external gill stalks ON EACH SIDE behind head, four legs with FOUR toes each, flattened paddle tail, no axolotl head fins. Natural habitat clear North American freshwater lake bottom. COMPOSITION CRITICAL: whole animal in RIGHT HALF ONLY, not centered. Nearest extremity at x=760, farthest at x=1430, top at y=220, bottom at y=880. Left HALF empty quiet habitat. Full head, all visible legs, tail and gills with background clearance. Curve long tail alongside body within right half. Maximize subject inside this box. No text, watermark, humans, no cropped extremities.",
+      "discardedSourceSha2562": "481121438190d0d9d6f7e68a64009de06babd9ba4a1a92add09fc6bfb85f2963"
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Necturus maculosus. Anatomy: adult brown gray salamander with dark spots, flat broad head, three red branched external gill stalks ON EACH SIDE behind head, four legs with FOUR toes each, flattened paddle tail, no axolotl head fins. Scene: close head view showing three external gill stalks on each side in clear North American freshwater lake bottom. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "60faf41d23d6a5912eff3a921f19094d83a091aedeb89a6b2475cb61d03eb5f0",
+      "runtimeSha256": "7297a2f9a5a67e2a067db8e82feceeaccb7bc864d2c995676999d130f0271523",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Necturus maculosus. Anatomy: adult brown gray salamander with dark spots, flat broad head, three red branched external gill stalks ON EACH SIDE behind head, four legs with FOUR toes each, flattened paddle tail, no axolotl head fins. Scene: whole spotted adult resting on pebbles, four legs clearly separated in clear North American freshwater lake bottom. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "641bf8129b91bd529ac7e4a9cdb19a984a9cd5fadc3192dba779594f85567645",
+      "runtimeSha256": "2f729bf2fb7f88df43eb795cfc667b80b3c3628ed91d14dc7c42543dddae5f35",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Necturus maculosus. Anatomy: adult brown gray salamander with dark spots, flat broad head, three red branched external gill stalks ON EACH SIDE behind head, four legs with FOUR toes each, flattened paddle tail, no axolotl head fins. Scene: whole animal side view revealing laterally flattened swimming tail in clear North American freshwater lake bottom. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "4692588e62233c598658d0aff47514a069fe0cd928b72c79c1590b22641e3441",
+      "runtimeSha256": "07c4072baebc58d87aca23210255eff228c28262e8ce4e9d791e88c834c8fa6f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Necturus maculosus. Anatomy: adult brown gray salamander with dark spots, flat broad head, three red branched external gill stalks ON EACH SIDE behind head, four legs with FOUR toes each, flattened paddle tail, no axolotl head fins. Scene: adult sheltering below naturally overhanging submerged log, not handled in clear North American freshwater lake bottom. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "53f0553d7f08d932e07d060f70d9d273bc9c5bb24d5c8b7fa9d0d755840cde3c",
+      "runtimeSha256": "7c572eecb2018aff50285b7cc6f3fdea6c50c97f0ef5e2574f27ad8fa5e22244",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 naturalistic photorealistic species-atlas scientific reconstruction. Species Necturus maculosus. Anatomy: adult brown gray salamander with dark spots, flat broad head, three red branched external gill stalks ON EACH SIDE behind head, four legs with FOUR toes each, flattened paddle tail, no axolotl head fins. Scene: juvenile salamander with dark and yellow longitudinal stripes, external gills and four limbs in clear North American freshwater lake bottom. Prominent subject, composition appropriate for scene. Preserve species anatomy and explicitly specified life stage/sex/morph. Natural light and authentic textures. No text, watermark, collage, human handling, distress, blood, invented scale bars.",
+      "sourceSha256": "4e50e201e55201145caac1ac6c1986822f91141da57483a312fc829ecd950204",
+      "runtimeSha256": "87f700cb594bd153619b668662f2fc96c2c2951c30be5b2330b18fff5c0b2972",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -5320,5 +5320,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1502,
       "bottom": 902
     }
+  },
+  "common-mudpuppy": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 855,
+      "top": 205,
+      "right": 1480,
+      "bottom": 770
+    }
   }
 };
