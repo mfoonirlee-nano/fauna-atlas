@@ -21,7 +21,7 @@ export const microbeImages: Readonly<Record<string, MicrobeImage>> = {
   },
   "bifidobacterium-bifidum": {
     "src": "./images/microbes/bifidobacterium-bifidum/01-observation.webp",
-    "alt": "双歧双歧杆菌：Y 形、V 形和普通杆形细胞。AI 科学重建，配色示意，不按比例。",
+    "alt": "两歧双歧杆菌：Y 形、V 形和普通杆形细胞。AI 科学重建，配色示意，不按比例。",
     "width": 1536,
     "height": 1024
   },
@@ -84,7 +84,7 @@ export const microbeStoryImages: Readonly<Record<string, MicrobeImage>> = {
   },
   "bifidobacterium-bifidum": {
     "src": "./images/microbes/bifidobacterium-bifidum/02-story.webp",
-    "alt": "双歧双歧杆菌：亲子阅读身体图，放大窗口展示肠道中的分枝杆形细胞。AI 科普插画，非显微照片，不按比例。",
+    "alt": "两歧双歧杆菌：亲子阅读身体图，放大窗口展示肠道中的分枝杆形细胞。AI 科普插画，非显微照片，不按比例。",
     "width": 1536,
     "height": 1024
   },

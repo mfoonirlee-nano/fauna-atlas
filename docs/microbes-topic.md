@@ -54,7 +54,7 @@
 - [x] 酿酒酵母 *Saccharomyces cerevisiae*：真菌；比较单个细胞与面团里的气泡。“小小的酵母怎样让面团鼓起来？”由成人演示食品级酵母，联系做食物前洗手，不尝生面团。
 - [x] 嗜热链球菌 *Streptococcus thermophilus*：细菌；看看链状排列的细胞，认识酸奶发酵参与者。联系食品按包装要求冷藏，不把所有细菌说成有害。
 - [x] 德氏乳杆菌 *Lactobacillus delbrueckii*：细菌；以保加利亚亚种讲酸奶发酵。“看看一个个细胞像什么形状。”制作时明确亚种，不与上一项合并成同一种菌。
-- [x] 双歧双歧杆菌 *Bifidobacterium bifidum*：细菌；认识肠道微生物及分枝形态。提示“身体里也住着微小生命”，不延伸成购买益生菌或治疗效果建议。
+- [x] 两歧双歧杆菌 *Bifidobacterium bifidum*：细菌；认识肠道微生物及分枝形态。提示“身体里也住着微小生命”，不延伸成购买益生菌或治疗效果建议。
 - [x] 大肠杆菌 *Escherichia coli*：细菌；用杆状细胞图讲菌株差异。多数无害，部分可致病；联系便后、吃东西前洗手，不凭图片判断菌株是否致病。[资料：CDC](https://www.cdc.gov/ecoli/about/index.html)
 - [x] 肠道沙门菌 *Salmonella enterica*：细菌；用“动物生活区域、手、食物”的示意图讲传播机会。联系接触动物及其用品后洗手；本专题面向幼儿，爬宠和两栖动物用图片观察，5 岁以下不直接接触。[资料：CDC](https://www.cdc.gov/healthy-pets/about/reptiles-and-amphibians.html)
 - [x] 变异链球菌 *Streptococcus mutans*：细菌；用牙菌斑示意图讲口腔细菌利用糖产酸。联系成人帮助早晚刷牙；说明龋齿涉及多种细菌、饮食和时间，不画成一只虫在啃牙。[资料：NIDCR 口腔微生物](https://www.nidcr.nih.gov/news-events/nidcr-news/2024/exploring-mouths-microbial-wonders)、[CDC 龋齿介绍](https://www.cdc.gov/oral-health/about/cavities-tooth-decay.html)
