@@ -4886,5 +4886,18 @@
       },
       "sha256": "7c95dc55416298b137d8f7f077802b08f962339d82c604d6da7c8ddc848843cd"
     }
+  },
+  "snakefly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 785,
+        "top": 165,
+        "right": 1445,
+        "bottom": 760
+      },
+      "sha256": "cd6f9ee307f552432bf24121fb5092ea6963866f871e067d3131a0d1489e6798"
+    }
   }
 }

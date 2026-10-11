@@ -151478,6 +151478,240 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "snakefly",
+  "slug": "snakefly",
+  "names": {
+    "zh": "蛇蛉",
+    "en": "Snakefly"
+  },
+  "scientificName": "Raphidia ophiopsis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Raphidioptera",
+      "zhName": "蛇蛉目"
+    },
+    "family": {
+      "scientificName": "Raphidiidae",
+      "zhName": "蛇蛉科"
+    },
+    "genus": {
+      "scientificName": "Raphidia",
+      "zhName": "蛇蛉属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲",
+      "亚洲"
+    ],
+    "regions": [
+      "欧洲与亚洲旧北界林地"
+    ],
+    "countries": [],
+    "range": "Neuropterida 物种目录记录本种广布于旧北界中部与东部。这里用林地树皮与枝条重建观察场景，不把旧英国文献中同名的其他蛇蛉记录算作本种分布。"
+  },
+  "habitats": [
+    {
+      "name": "旧北界林地",
+      "realm": "terrestrial",
+      "description": "Neuropterida 物种目录记录本种广布于旧北界中部与东部。这里用林地树皮与枝条重建观察场景，不把旧英国文献中同名的其他蛇蛉记录算作本种分布。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "insectivore"
+    ],
+    "foods": [
+      "小型节肢动物"
+    ],
+    "description": "蛇蛉类成虫和幼虫具有咀嚼式口器并捕食小型节肢动物。本种幼虫有树皮缝隙中的捕食记录；不把其他属的实验食谱或猎物比例套用给本种。"
+  },
+  "tags": [
+    "蛇蛉",
+    "旧北界林地"
+  ],
+  "summary": "蛇蛉：头后方的前胸细长，透明翅膀有网状翅脉。",
+  "description": "头后方的前胸细长，透明翅膀有网状翅脉。成虫休息时把两对翅膀拢在背上；雌虫腹端伸出的细长产卵器不是毒刺。Neuropterida 物种目录记录本种广布于旧北界中部与东部。这里用林地树皮与枝条重建观察场景，不把旧英国文献中同名的其他蛇蛉记录算作本种分布。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "头后方的前胸细长，透明翅膀有网状翅脉。成虫休息时把两对翅膀拢在背上；雌虫腹端伸出的细长产卵器不是毒刺。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "Neuropterida 物种目录记录本种广布于旧北界中部与东部。这里用林地树皮与枝条重建观察场景，不把旧英国文献中同名的其他蛇蛉记录算作本种分布。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "蛇蛉类成虫和幼虫具有咀嚼式口器并捕食小型节肢动物。本种幼虫有树皮缝隙中的捕食记录；不把其他属的实验食谱或猎物比例套用给本种。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "蛇蛉目经历卵、幼虫、蛹和成虫阶段。本批图库展示成虫和雌虫产卵器，未重建旧文献中物种定位不清的幼虫。尾端结构和翅脉需要标本核验，不能用生成图鉴定。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Raphidia ophiopsis，采用节肢动物门、昆虫纲、蛇蛉目、蛇蛉科。中文名沿用选题展示标签；少见科属中文名为项目标签，接受学名承担物种定位。分类图谱只表达归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "先找头后面细长的前胸，再看透明翅膀。雌虫图中细长的腹端是产卵器。翅脉为近似重建，不能据此鉴别近似种。本次未核实可引用的 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "头后方的前胸细长，透明翅膀有网状翅脉。成虫休息时把两对翅膀拢在背上；雌虫腹端伸出的细长产卵器不是毒刺。",
+    "蛇蛉目经历卵、幼虫、蛹和成虫阶段。本批图库展示成虫和雌虫产卵器，未重建旧文献中物种定位不清的幼虫。尾端结构和翅脉需要标本核验，不能用生成图鉴定。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保留自然栖息环境",
+    "观察时减少对动物的干扰"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "先找头后面细长的前胸，再看透明翅膀。雌虫图中细长的腹端是产卵器。翅脉为近似重建，不能据此鉴别近似种。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/snakefly/01-cover.webp",
+    "alt": "蛇蛉及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/snakefly/02-observation.webp",
+        "title": "树皮上的成虫",
+        "alt": "蛇蛉：树皮上的成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫全身侧面。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/snakefly/03-observation.webp",
+        "title": "细长的前胸",
+        "alt": "蛇蛉：细长的前胸，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫头部与前胸放大外观。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/snakefly/04-observation.webp",
+        "title": "透明翅膀的翅脉",
+        "alt": "蛇蛉：透明翅膀的翅脉，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫翅脉近似重建，不作鉴定依据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/snakefly/05-observation.webp",
+        "title": "雌虫的产卵器",
+        "alt": "蛇蛉：雌虫的产卵器，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雌性成虫；细长产卵器不是毒刺。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/snakefly/06-observation.webp",
+        "title": "枝条上的成虫",
+        "alt": "蛇蛉：枝条上的成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫与林地枝条；静图不证明运动。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/2006704",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "Neuropterida：名称与旧北界分布",
+      "url": "https://lacewing.tamu.edu/edoc/17504",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "Watson 与 Dallwitz：蛇蛉目形态、食性与生活史",
+      "url": "https://www.delta-intkey.com/britin/ord/www/raphidio.htm",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "USDA 保存的研究资料：本种幼虫树皮缝隙捕食记录",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80620520/Batko74.pdf",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

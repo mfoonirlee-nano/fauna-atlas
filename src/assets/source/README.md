@@ -801,3 +801,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [加州大石蝇 image set](./species/giant-salmonfly/README.md)
 - [月斑石蛾 image set](./species/lunated-caddisfly/README.md)
 - [普通蝎蛉 image set](./species/common-scorpionfly/README.md)
+
+- [蛇蛉 image set](./species/snakefly/README.md)

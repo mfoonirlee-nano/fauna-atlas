@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction. Adult Raphidia ophiopsis: flattened dark head, elongated dark prothorax, two pairs clear lace-veined wings folded rooflike, six slender legs and two fine antennae. No mantis raptorial legs. Scene: full complete adult resting in natural habitat. EVERY appendage visible with background clearance. Entire animal must fit RIGHT region x=700..1460 y=150..880, including antennae, wings and feet; place body center x=1100. LEFT 40 percent entirely empty quiet blurred habitat. Maximize full animal inside region. No text no watermark.\nComposition edit: Edit composition ONLY, preserve species and natural textures. Shrink complete animal to 78% of current size and move to right, with entire silhouette including antenna tips leg tips cerci and wings inside x=660..1450 y=130..900. Full body no cut features. LEFT 40 percent entirely quiet habitat. Keep 1536x1024, no text.",
+      "sourceSha256": "c5346bf65bc1e22c32198d5bb17c83d4b741bb4406871fae8ebfb67040a83316",
+      "runtimeSha256": "cd6f9ee307f552432bf24121fb5092ea6963866f871e067d3131a0d1489e6798",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Raphidia ophiopsis. Adult Raphidia ophiopsis: flattened dark head, elongated dark prothorax, two pairs clear lace-veined wings folded rooflike, six slender legs and two fine antennae. No mantis raptorial legs. Scene: Adult resting on pine bark, full body side view. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "cb9df0d6c4d96931081ceefb31a7f8e6e1de7c506e9184a2004d118948876aa7",
+      "runtimeSha256": "cfe11dafd257753e2334eefc8b2b3b2b84256b31d8479f8475d41a6af6ca5dd3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Raphidia ophiopsis. Adult Raphidia ophiopsis: flattened dark head, elongated dark prothorax, two pairs clear lace-veined wings folded rooflike, six slender legs and two fine antennae. No mantis raptorial legs. Scene: Head and elongated prothorax close view. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "26f1b9aeedcf9a519381809b60ca23b3d860d3638ae27ede4682a12f31737e9b",
+      "runtimeSha256": "0528238795ea9f00ab919c80faf90c4f00d9784ad0f88c2fe768640a05a59439",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Raphidia ophiopsis. Adult Raphidia ophiopsis: flattened dark head, elongated dark prothorax, two pairs clear lace-veined wings folded rooflike, six slender legs and two fine antennae. No mantis raptorial legs. Scene: Wing venation close oblique view of resting adult. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "c95770d8fb37387ae70dc24506cfad0aaf82ee80255705969e0ab300f5432337",
+      "runtimeSha256": "73ce0e1e99d2ff613b736bc0b198d6467e1d1865483115fa10c50b353aad5e2a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Raphidia ophiopsis. Adult Raphidia ophiopsis: flattened dark head, elongated dark prothorax, two pairs clear lace-veined wings folded rooflike, six slender legs and two fine antennae. No mantis raptorial legs. Scene: Female adult on bark, thin long ovipositor at abdomen tip, not a sting. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "b9ced28ce1443f3e8e8f4ff8a9f7444019395cbc2f0e1fce1de3982b06623c48",
+      "runtimeSha256": "8db516a87f31e189d8671417be3c24ddbdeda6eda209ae07d70f7446d72b3752",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Raphidia ophiopsis. Adult Raphidia ophiopsis: flattened dark head, elongated dark prothorax, two pairs clear lace-veined wings folded rooflike, six slender legs and two fine antennae. No mantis raptorial legs. Scene: Adult resting on pine twig in woodland. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "8af6f24778429b1824ea2a703f7cc29b55e593c24576a9471a86c837de374b3c",
+      "runtimeSha256": "cce91f314f65d4a7a8b692dd8a48171de16aa828aa1726c5889f4b98eaad57f2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
