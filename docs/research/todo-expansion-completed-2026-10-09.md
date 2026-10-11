@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 45 种，动物目录增至 545 种，活动清单剩余 55 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)和[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)。
+本轮目标为新增 100 种动物；累计完成 50 种，动物目录增至 550 种，活动清单剩余 50 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)和[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -64,3 +64,9 @@
 - [x] 大西洋弹涂鱼 *Periophthalmus barbarus*：潮间带活动与水陆交界。共读：“看看胸鳍怎样撑住身体。”不能把它写成两栖动物。
 - [x] 黑鳍冰鱼 *Chaenocephalus aceratus*：南极冰鱼与特殊血液生理。共读：“看看浅色身体和宽大的胸鳍。”缺少血红蛋白的说明需附来源。
 - [x] 月鱼 *Lampris guttatus*：深水鱼的体形与产热研究。共读：“找找圆扁的身体和红色鱼鳍。”复核月鱼属修订，不把整个属的记录套给本种。
+
+- [x] 黑叉齿龙鱼 *Chiasmodon niger*：深海鱼的可扩张胃部。共读：“看看细长身体与肚子的轮廓。”不用夸张重建替代摄食记录。
+- [x] 达尔文蝙蝠鱼 *Ogcocephalus darwini*：海底用鳍支撑和移动的鱼。共读：“看看身体下方像小脚的鱼鳍。”
+- [x] 泥鳅 *Misgurnus anguillicaudatus*：身边淡水鱼与辅助呼吸。共读：“找找嘴周围的小须。”肠呼吸用资料解释。
+- [x] 斑点雀鳝 *Lepisosteus oculatus*：雀鳝类与菱形硬鳞。共读：“看看长嘴，再近看身上的鳞片。”
+- [x] 塞内加尔多鳍鱼 *Polypterus senegalus*：多鳍鱼类与分开的背鳍。共读：“沿着背找找一片片小鳍。”
