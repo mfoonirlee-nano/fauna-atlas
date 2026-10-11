@@ -149620,6 +149620,236 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "pond-loach",
+  "slug": "pond-loach",
+  "names": {
+    "zh": "泥鳅",
+    "en": "Pond Loach"
+  },
+  "scientificName": "Misgurnus anguillicaudatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Cypriniformes",
+      "zhName": "鲤形目"
+    },
+    "family": {
+      "scientificName": "Cobitidae",
+      "zhName": "鳅科"
+    },
+    "genus": {
+      "scientificName": "Misgurnus",
+      "zhName": "泥鳅属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2011,
+    "assessor": "FishBase 转录 IUCN 全球 LC，评估日期为 2011-09-20；全球种群趋势未独立核实。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "东亚原生淡水水域"
+    ],
+    "countries": [],
+    "range": "原生范围包括中国、日本、朝鲜半岛及邻近东亚水系，生活在河流、湖泊、池塘和稻田等环境。USGS 记录北美等地的引入种群，原生分布与人为引入分别理解。"
+  },
+  "habitats": [
+    {
+      "name": "泥底淡水与稻田",
+      "realm": "freshwater",
+      "description": "原生范围包括中国、日本、朝鲜半岛及邻近东亚水系，生活在河流、湖泊、池塘和稻田等环境。USGS 记录北美等地的引入种群，原生分布与人为引入分别理解。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "蠕虫",
+      "小型甲壳动物",
+      "昆虫幼虫"
+    ],
+    "description": "泥鳅在泥底及落叶附近取食蠕虫、小型甲壳动物和昆虫幼虫等水生小动物。嘴周围的须是观察重点，图片不展示实测食物比例。"
+  },
+  "tags": [
+    "泥鳅",
+    "泥底淡水与稻田"
+  ],
+  "summary": "泥鳅：嘴周围的小须与细长身体。",
+  "description": "泥鳅有细长的身体，黄褐至棕色底色上有深色斑纹，尾鳍较圆，嘴周围有五对须。生成图中的须可能遮挡或失真，观察提示不把图片当作准确计数证据。原生范围包括中国、日本、朝鲜半岛及邻近东亚水系，生活在河流、湖泊、池塘和稻田等环境。USGS 记录北美等地的引入种群，原生分布与人为引入分别理解。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "嘴周围的小须与细长身体",
+      "body": "泥鳅有细长的身体，黄褐至棕色底色上有深色斑纹，尾鳍较圆，嘴周围有五对须。生成图中的须可能遮挡或失真，观察提示不把图片当作准确计数证据。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "泥底淡水与稻田",
+      "body": "原生范围包括中国、日本、朝鲜半岛及邻近东亚水系，生活在河流、湖泊、池塘和稻田等环境。USGS 记录北美等地的引入种群，原生分布与人为引入分别理解。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "泥鳅在泥底及落叶附近取食蠕虫、小型甲壳动物和昆虫幼虫等水生小动物。嘴周围的须是观察重点，图片不展示实测食物比例。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "成体与早期生活",
+      "body": "泥鳅产卵并在体外受精。成体与早期幼鱼的形态会变化，本批图库使用成体，不把成体的须和鱼鳍画法套给刚孵化幼鱼。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Misgurnus anguillicaudatus，采用辐鳍鱼纲、鲤形目、鳅科。分类图谱表示归属关系，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "泥鳅用鳃在水中呼吸，也能吞入空气，利用后肠辅助气体交换。2024 年研究用组织切片及影像分析讨论消化与呼吸的分区。水面姿态图只呈现外观；共读不安排离水或缺氧实验。 FishBase 转录 IUCN 全球 LC，评估日期为 2011-09-20；全球种群趋势未独立核实。"
+    }
+  ],
+  "keyFacts": [
+    "泥鳅有细长的身体，黄褐至棕色底色上有深色斑纹，尾鳍较圆，嘴周围有五对须。生成图中的须可能遮挡或失真，观察提示不把图片当作准确计数证据。",
+    "泥鳅用鳃在水中呼吸，也能吞入空气，利用后肠辅助气体交换。2024 年研究用组织切片及影像分析讨论消化与呼吸的分区。水面姿态图只呈现外观；共读不安排离水或缺氧实验。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [
+    "人为引入可影响原生水生生态"
+  ],
+  "conservationActions": [
+    "保护原生湿地和淡水生境",
+    "不将养殖或观赏个体放入野外"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "嘴周围的小须与细长身体"
+    }
+  ],
+  "media": {
+    "image": "./images/species/pond-loach/01-cover.webp",
+    "alt": "泥鳅及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/pond-loach/02-observation.webp",
+        "title": "细长身体与圆尾",
+        "alt": "泥鳅：细长身体与圆尾，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成体全身侧面外观。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pond-loach/03-observation.webp",
+        "title": "嘴边的小须",
+        "alt": "泥鳅：嘴边的小须，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。放大重建，不用于须的准确计数。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pond-loach/04-observation.webp",
+        "title": "泥底与落叶",
+        "alt": "泥鳅：泥底与落叶，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。底部栖息情景，非实地记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pond-loach/05-observation.webp",
+        "title": "靠近水面的姿态",
+        "alt": "泥鳅：靠近水面的姿态，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。不以静图证明肠呼吸，也不展示内部器官。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pond-loach/06-observation.webp",
+        "title": "水草根旁的鱼鳍",
+        "alt": "泥鳅：水草根旁的鱼鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。斜上方观察成体身体与小鳍。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：分类、分布与全球保护评估日期",
+      "url": "https://www.fishbase.se/summary/Misgurnus-anguillicaudatus.html",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "2024 原始研究：泥鳅消化道与肠呼吸",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11201251/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "USGS：泥鳅引入记录与原生范围",
+      "url": "https://nas.er.usgs.gov/queries/greatLakes/FactSheet.aspx?H=&Potential=N&Species_ID=498&Type=0",
+      "kind": "distribution",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

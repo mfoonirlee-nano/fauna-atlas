@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Edit the wildlife atlas cover. Preserve this fish's species anatomy, natural body and colors. Recompose the prominent entire fish including every visible fin, snout, barbels and tail entirely within x=650 to 1470 of the 1536x1024 canvas. Quiet simple underwater environment on left 40 percent, reduce distracting foreground plants and rocks there. Complete silhouette with real background around every extremity, centered near x=1060. Preserve natural underwater lighting, no text no labels no watermark.\nFinal composition edit: Edit composition ONLY. The fish currently reaches into the left half. REDUCE THE FISH TO 70% OF ITS CURRENT SIZE and move it RIGHT so that the WHOLE fish sits inside the RIGHT HALF of the picture. Nose and all whiskers start at 45% of image width; tail finishes at 95% of image width. Leave the LEFT 40% ENTIRELY EMPTY WATER with no animal, fins or snout. This is a webpage title area. Keep exact fish anatomy, natural underwater lighting and detailed textures. Full silhouette clear with real background margins on all four sides. No text no watermark. Landscape 1536x1024.",
+      "sourceSha256": "d8e3663065b1a696a950705a0d2222e988d7e5cab82db564ab61fd37db841ed8",
+      "runtimeSha256": "65cc648d86e616329d8f9a0c21da8c03f7f3513b164e49c181f4b65af642b223",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Misgurnus anguillicaudatus pond loach. Long cylindrical mottled yellow-brown body, small eyes, short rounded fins and rounded tail, fine small barbels around mouth. Shallow freshwater muddy stream. Scene: Full lateral adult showing long mottled body and rounded tail, natural shallow muddy water. Natural scientific reconstruction with accurate species anatomy and detailed textures. Centered prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "d4f44a597532772a0b528986d0abc954b4ed74f1380ddc93ae86d282c88ab092",
+      "runtimeSha256": "871b37d67acb7b1b6d38f0ee1ef6f3d6c29efa98d2151aa7a9067fc195eefa35",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Misgurnus anguillicaudatus pond loach. Long cylindrical mottled yellow-brown body, small eyes, short rounded fins and rounded tail, fine small barbels around mouth. Shallow freshwater muddy stream. Scene: Close side view of head with fine small barbels around mouth, not long catfish whiskers. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "e5c44882bc1b99208c700c80bcd2e3cd42a15a1d8dd5aba097e0d19406f15fee",
+      "runtimeSha256": "61a7a1e5313c2e8d98b00c40c6f632ca93ebee3b412f36c178ac2103140a9b71",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Misgurnus anguillicaudatus pond loach. Long cylindrical mottled yellow-brown body, small eyes, short rounded fins and rounded tail, fine small barbels around mouth. Shallow freshwater muddy stream. Scene: Full fish lying among brown leaf litter on muddy freshwater bottom. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "f402998c92b63d5778e541a141e3006047e9a4a556b7e882f29b9c34a24fb17f",
+      "runtimeSha256": "1ca1bd6806ea08f73795df8a7c5420e52876c6e7e19ec521b046e007b04a3fa1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Misgurnus anguillicaudatus pond loach. Long cylindrical mottled yellow-brown body, small eyes, short rounded fins and rounded tail, fine small barbels around mouth. Shallow freshwater muddy stream. Scene: Full adult angled toward water surface with mouth near interface, no exposed intestines no bubble proof of breathing. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "017daa67615093f594f6db8b3120d6ad8e26deafe73e1cf67dc0554eeb40042c",
+      "runtimeSha256": "02e80e455bc2b322b3bd2a61fd03b65655b477c20bb676e33c3b0c716680dc0a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Misgurnus anguillicaudatus pond loach. Long cylindrical mottled yellow-brown body, small eyes, short rounded fins and rounded tail, fine small barbels around mouth. Shallow freshwater muddy stream. Scene: Full fish over silt with sparse reed roots, dorsolateral view showing small rounded fins. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "11f611402a773732fe7e9be666b74a6dc22ffb96d1b008dcd863a1a471de9709",
+      "runtimeSha256": "499c799672e752e68199fa8e076ce368603e09ebe57219593b778a3378331e8d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

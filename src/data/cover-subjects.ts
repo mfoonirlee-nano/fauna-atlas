@@ -5462,6 +5462,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 563
     }
   },
+  "pond-loach": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 352,
+      "right": 1478,
+      "bottom": 602
+    }
+  },
   "red-lipped-batfish": {
     "width": 1536,
     "height": 1024,
