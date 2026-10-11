@@ -150538,6 +150538,242 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "green-drake-mayfly",
+  "slug": "green-drake-mayfly",
+  "names": {
+    "zh": "丹麦蜉蝣",
+    "en": "Green Drake Mayfly"
+  },
+  "scientificName": "Ephemera danica",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Ephemeroptera",
+      "zhName": "蜉蝣目"
+    },
+    "family": {
+      "scientificName": "Ephemeridae",
+      "zhName": "蜉蝣科"
+    },
+    "genus": {
+      "scientificName": "Ephemera",
+      "zhName": "蜉蝣属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲淡水与河岸"
+    ],
+    "countries": [],
+    "range": "欧洲物种，本档案以英国及德国淡水记录为介绍范围。若虫生活在砂或砾石底的河流、溪流和湖泊，成虫在邻近岸边植被和水面上方活动；记录地点不等于完整分布区。"
+  },
+  "habitats": [
+    {
+      "name": "砂砾底淡水与河岸",
+      "realm": "freshwater",
+      "description": "欧洲物种，本档案以英国及德国淡水记录为介绍范围。若虫生活在砂或砾石底的河流、溪流和湖泊，成虫在邻近岸边植被和水面上方活动；记录地点不等于完整分布区。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "detritivore"
+    ],
+    "foods": [
+      "若虫取食细颗粒有机碎屑"
+    ],
+    "description": "水生若虫在底质中掘穴，从水流和沉积物收集细颗粒有机碎屑。2018 年稳定同位素研究讨论若虫积累的营养如何分配到亚成虫组织；有翅阶段不取食，利用水生阶段积累的能量。"
+  },
+  "tags": [
+    "丹麦蜉蝣",
+    "砂砾底淡水与河岸"
+  ],
+  "summary": "丹麦蜉蝣：竖起的翅膀、三根尾丝与水生若虫。",
+  "description": "有翅成虫的身体细长，浅色腹部带褐色斑纹，尾端有三根长尾丝，休息时翅膀竖起。亚成虫翅膀较暗而不透明，成熟成虫翅膀更透明；生成图不用于翅脉或斑纹鉴定。欧洲物种，本档案以英国及德国淡水记录为介绍范围。若虫生活在砂或砾石底的河流、溪流和湖泊，成虫在邻近岸边植被和水面上方活动；记录地点不等于完整分布区。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "有翅成虫的身体细长，浅色腹部带褐色斑纹，尾端有三根长尾丝，休息时翅膀竖起。亚成虫翅膀较暗而不透明，成熟成虫翅膀更透明；生成图不用于翅脉或斑纹鉴定。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "欧洲物种，本档案以英国及德国淡水记录为介绍范围。若虫生活在砂或砾石底的河流、溪流和湖泊，成虫在邻近岸边植被和水面上方活动；记录地点不等于完整分布区。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "水生若虫在底质中掘穴，从水流和沉积物收集细颗粒有机碎屑。2018 年稳定同位素研究讨论若虫积累的营养如何分配到亚成虫组织；有翅阶段不取食，利用水生阶段积累的能量。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "它经历卵、水生若虫、有翅亚成虫和成熟成虫。亚成虫还会再蜕皮。多数介绍记载约两年的生活史，英国较暖水域可在一年完成；成虫期短不等于一生只有一天。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Ephemera danica，采用 节肢动物门、昆虫纲、蜉蝣目、蜉蝣科。中文名沿用选题展示标签，不宣称为统一规范通名。分类图谱只表示归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "先找竖起的翅膀和三根尾丝，再对照没有成虫翅膀的水生若虫。翅脉、鳃和足可能重建失真；以真实影像理解羽化与飞行，不从静图推断动作。本次未核实 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "有翅成虫的身体细长，浅色腹部带褐色斑纹，尾端有三根长尾丝，休息时翅膀竖起。亚成虫翅膀较暗而不透明，成熟成虫翅膀更透明；生成图不用于翅脉或斑纹鉴定。",
+    "它经历卵、水生若虫、有翅亚成虫和成熟成虫。亚成虫还会再蜕皮。多数介绍记载约两年的生活史，英国较暖水域可在一年完成；成虫期短不等于一生只有一天。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [
+    "水质污染与淡水生境改变"
+  ],
+  "conservationActions": [
+    "保护河流与湖泊水质",
+    "保留自然河岸植被"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "先找竖起的翅膀和三根尾丝，再对照没有成虫翅膀的水生若虫。翅脉、鳃和足可能重建失真；以真实影像理解羽化与飞行，不从静图推断动作。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/green-drake-mayfly/01-cover.webp",
+    "alt": "丹麦蜉蝣及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/green-drake-mayfly/02-observation.webp",
+        "title": "成虫与三根尾丝",
+        "alt": "丹麦蜉蝣：成虫与三根尾丝，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫侧面；细丝与足可能重叠，不用于精确结构计数。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/green-drake-mayfly/03-observation.webp",
+        "title": "竖起的透明翅膀",
+        "alt": "丹麦蜉蝣：竖起的透明翅膀，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成熟成虫；翅脉与斑纹为近似重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/green-drake-mayfly/04-observation.webp",
+        "title": "砂砾底的水生若虫",
+        "alt": "丹麦蜉蝣：砂砾底的水生若虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水生若虫，展示鳃与尾丝；没有成虫的展开翅膀。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/green-drake-mayfly/05-observation.webp",
+        "title": "较暗翅膀的亚成虫",
+        "alt": "丹麦蜉蝣：较暗翅膀的亚成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅亚成虫，尚会再蜕皮；色调非诊断证据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/green-drake-mayfly/06-observation.webp",
+        "title": "河岸叶片上的成虫",
+        "alt": "丹麦蜉蝣：河岸叶片上的成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫与河岸情景；静图不证明飞行或羽化。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/5716472",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "NatureSpot：实地记录、形态与生活史",
+      "url": "https://www.naturespot.org/species/green-drake-mayfly",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "原始研究：营养在亚成虫组织中的分配",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6295106/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "NCBI：Ephemera danica 分类与基因组项目",
+      "url": "https://www.ncbi.nlm.nih.gov/bioproject/171755",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

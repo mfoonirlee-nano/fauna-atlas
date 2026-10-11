@@ -1,6 +1,6 @@
 # 制作清单：拓展动物界的 100 种新动物
 
-2026-10-11 更新：本轮新增 100 种选题，已完成 51 种，现有 551 份物种档案，剩余 49 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](research/todo-expansion-next-fish-five-2026-10-11.md)和[尾海鞘与昆虫五种记录](research/todo-expansion-invertebrate-five-2026-10-11.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
+2026-10-11 更新：本轮新增 100 种选题，已完成 52 种，现有 552 份物种档案，剩余 48 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](research/todo-expansion-next-fish-five-2026-10-11.md)和[尾海鞘与昆虫五种记录](research/todo-expansion-invertebrate-five-2026-10-11.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
 
 上一轮动物完成记录见[上一轮归档](research/todo-completed-2026-09-30.md)和[最后五种研究与验收记录](research/todo-final-five-2026-10-09.md)，更早记录见[历史归档](research/todo-completed-2026-09-23.md)。微生物实现与验证见[专题说明](microbes-topic.md)。
 
@@ -25,9 +25,9 @@
 | 爬行动物 | 0 | 肢体差异、滑翔、软壳与攀爬 |
 | 两栖动物 | 0 | 外鳃、无肺、直接发育与无足身体 |
 | 鱼类与其他脊索动物 | 0 | 软骨鱼、特殊呼吸与无脊柱的脊索动物 |
-| 昆虫与其他节肢动物 | 19 | 少见昆虫目、六足近邻、微小甲壳类与蛛形动物 |
+| 昆虫与其他节肢动物 | 18 | 少见昆虫目、六足近邻、微小甲壳类与蛛形动物 |
 | 其他无脊椎动物 | 30 | 少见动物门、固着、群体、寄生与显微生活 |
-| 动物合计 | 49 | 本轮已完成 51 种 |
+| 动物合计 | 48 | 本轮已完成 52 种 |
 | 微生物专题（另计） | 0 | 10 个选题已完成 |
 
 ## 两栖动物（已完成）
@@ -38,11 +38,10 @@
 
 本组已完成，见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)。其中巨型尾海鞘属于脊索动物门，没有脊柱，不归入鱼类。
 
-## 昆虫与其他节肢动物（19 种）
+## 昆虫与其他节肢动物（18 种）
 
-前 10 项为昆虫。后 9 项补充弹尾、原尾、双尾、甲壳、蛛形、海蜘蛛和多足等类群；六足动物的内部归属在制作分类链时核实。
+前 9 项为昆虫。后 9 项补充弹尾、原尾、双尾、甲壳、蛛形、海蜘蛛和多足等类群；六足动物的内部归属在制作分类链时核实。
 
-- [ ] 丹麦蜉蝣 *Ephemera danica*：蜉蝣目与水生若虫、空中成虫的转换。共读：“找找尾端的细丝和竖起的翅膀。”
 - [ ] 加州大石蝇 *Pteronarcys californica*：襀翅目与溪流生活。共读：“看看翅膀平放在背上的样子。”若虫另图标注。
 - [ ] 月斑石蛾 *Limnephilus lunatus*：毛翅目与幼虫携带的巢筒。共读：“看看幼虫住的小筒由什么材料拼成。”成虫、幼虫分开展示。
 - [ ] 普通蝎蛉 *Panorpa communis*：长翅目与雄性尾端外形。共读：“找找长长的嘴部和尾端。”弯曲尾端是生殖结构，不能画成毒刺。

@@ -5512,4 +5512,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 834
     }
   },
+  "green-drake-mayfly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 270,
+      "right": 1425,
+      "bottom": 850
+    }
+  },
 };

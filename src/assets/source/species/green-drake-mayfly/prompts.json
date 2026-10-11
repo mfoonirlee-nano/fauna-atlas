@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Ephemera danica. Adult European green drake mayfly, slender pale cream abdomen with dark triangular posterior markings, large translucent finely veined upright wings (large forewings small hindwings), exactly three very long fine caudal filaments, six fine legs, short antennae. Riverbank vegetation. Scene: Complete adult, all outer features including antennae legs wings and tails visible; primary animal entirely in RIGHT HALF x=650..1450 y=150..880; maximize size inside that box; left 40 percent quiet blurred habitat for webpage text. Real background margin around every extremity. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.\nFinal composition edit: Edit composition ONLY. Preserve species anatomy and natural textures. Reduce subject group to 70 percent current size and MOVE RIGHT. ENTIRE subject including every antenna, leg, tail filament, wing, and mucus house where present fits inside RIGHT HALF of 1536x1024 canvas x=650..1460 y=130..900. Left 40 percent completely quiet habitat with no animal parts. Maximize entire subject within box. Real background margin around every feature, no text no watermark.\nSecond composition edit: Edit composition only. SHRINK complete insect 15 percent and MOVE IT RIGHT 120 pixels. No part of the insect may enter the LEFT 42 percent of image, including the very long thin antennae or all three tail filaments. LEFTMOST animal pixel at x=700 or more, RIGHTMOST at x=1470 or less, full silhouette with genuine background margin. Preserve species anatomy, body color, wing position, natural environment, no text no watermark. 1536x1024 landscape.",
+      "sourceSha256": "d68a8293eff7dae29fc06dc11173241c2d66faeb606288c32703dd7565827c4c",
+      "runtimeSha256": "2c9d590d3543d536d522681695fdb9b7a1607365077934ec822cc560531a02d2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Ephemera danica. Adult European green drake mayfly, slender pale cream abdomen with dark triangular posterior markings, large translucent finely veined upright wings (large forewings small hindwings), exactly three very long fine caudal filaments, six fine legs, short antennae. Riverbank vegetation. Scene: Adult full lateral view perched on reed, three long tail filaments and upright wings. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "e830583bf54ffbff80164c9aa2570bf9511360ba05f0a9995fbe3b48b7d7fa7f",
+      "runtimeSha256": "a177610b45fccbcc577f01f261afb275523fccaee26cb710537d7fe18e0d7ae4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Ephemera danica. Adult European green drake mayfly, slender pale cream abdomen with dark triangular posterior markings, large translucent finely veined upright wings (large forewings small hindwings), exactly three very long fine caudal filaments, six fine legs, short antennae. Riverbank vegetation. Scene: Close view of translucent upright adult wings and dark marked slender abdomen. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "56d97f6a3eef98636f862cd6aa44786423e66aaedfab957179e56497c125463c",
+      "runtimeSha256": "e58910e5e4980c41e6b074b7dfba781d3b92107867ed8da6e772c744d3f15ce6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas AI reconstruction of Ephemera danica. Aquatic burrowing NYMPH ONLY in shallow clear river sandy sediment, pale cylindrical body, six legs, feathery abdominal gills, three short tail filaments, NO fully developed wings. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale. Accurate stage and sex, do NOT substitute an adult or male for this requested specimen.",
+      "sourceSha256": "b24c2a783d7281de3c0d7c186a05074cf491933f0405d5a9cae24cb1f1d8f310",
+      "runtimeSha256": "37e523b8af02e16c5858f911252262571e7932e0cea2a7fd45d76ca2033cfbc0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Ephemera danica. Adult European green drake mayfly, slender pale cream abdomen with dark triangular posterior markings, large translucent finely veined upright wings (large forewings small hindwings), exactly three very long fine caudal filaments, six fine legs, short antennae. Riverbank vegetation. Scene: Winged subimago ONLY resting on riverside stem, duller slightly opaque yellowish wings, three tail filaments. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "fb40245e2a4c1f752a0fd0d94c73b7368439ca65d913895491c6afb3f030eab5",
+      "runtimeSha256": "443eabe54e3464260d13ed793a640502c365d9c126791489df54d9e5b0d6be93",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Ephemera danica. Adult European green drake mayfly, slender pale cream abdomen with dark triangular posterior markings, large translucent finely veined upright wings (large forewings small hindwings), exactly three very long fine caudal filaments, six fine legs, short antennae. Riverbank vegetation. Scene: Adult full dorsolateral view on riverside green leaf, entire tail filaments with clean background. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "743ef075e94f6d9149346663ee1869bc0d05b925abe264dc116807aba19f1595",
+      "runtimeSha256": "3c0105d16830c71d595cbcc71b1b0cf3b6370f6c3b21f27c2f50c00485ebeda1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

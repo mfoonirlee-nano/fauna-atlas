@@ -797,3 +797,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [塞内加尔多鳍鱼 image set](./species/senegal-bichir/README.md)
 
 - [巨型尾海鞘 image set](./species/blue-tailed-giant-larvacean/README.md)
+- [丹麦蜉蝣 image set](./species/green-drake-mayfly/README.md)

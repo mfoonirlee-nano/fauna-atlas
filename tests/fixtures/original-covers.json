@@ -4834,5 +4834,18 @@
       },
       "sha256": "3e1e89e4e5c84337d6791512663f6532c1edb32e9f38a6e3fedfd2ef39cd6ef0"
     }
+  },
+  "green-drake-mayfly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 270,
+        "right": 1425,
+        "bottom": 850
+      },
+      "sha256": "2c9d590d3543d536d522681695fdb9b7a1607365077934ec822cc560531a02d2"
+    }
   }
 }

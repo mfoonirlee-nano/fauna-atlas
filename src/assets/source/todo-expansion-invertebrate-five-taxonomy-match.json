@@ -22,5 +22,31 @@
       "genusKey": 4356845,
       "speciesKey": 9603764
     }
+  },
+  {
+    "slug": "green-drake-mayfly",
+    "match": {
+      "usageKey": 5716472,
+      "scientificName": "Ephemera danica Müller, 1764",
+      "canonicalName": "Ephemera danica",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "order": "Ephemeroptera",
+      "family": "Ephemeridae",
+      "genus": "Ephemera",
+      "species": "Ephemera danica",
+      "kingdomKey": 1,
+      "phylumKey": 54,
+      "classKey": 216,
+      "orderKey": 1225,
+      "familyKey": 4298,
+      "genusKey": 1407107,
+      "speciesKey": 5716472,
+      "class": "Insecta"
+    }
   }
 ]
