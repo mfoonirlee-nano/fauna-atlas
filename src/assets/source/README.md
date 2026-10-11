@@ -794,3 +794,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [达尔文蝙蝠鱼 image set](./species/red-lipped-batfish/README.md)
 - [泥鳅 image set](./species/pond-loach/README.md)
 - [斑点雀鳝 image set](./species/spotted-gar/README.md)
+- [塞内加尔多鳍鱼 image set](./species/senegal-bichir/README.md)

@@ -5482,6 +5482,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 781
     }
   },
+  "senegal-bichir": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 452,
+      "right": 1478,
+      "bottom": 697
+    }
+  },
   "spotted-gar": {
     "width": 1536,
     "height": 1024,

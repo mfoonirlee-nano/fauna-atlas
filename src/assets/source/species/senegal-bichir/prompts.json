@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Edit the wildlife atlas cover. Preserve this fish's species anatomy, natural body and colors. Recompose the prominent entire fish including every visible fin, snout, barbels and tail entirely within x=650 to 1470 of the 1536x1024 canvas. Quiet simple underwater environment on left 40 percent, reduce distracting foreground plants and rocks there. Complete silhouette with real background around every extremity, centered near x=1060. Preserve natural underwater lighting, no text no labels no watermark.\nFinal composition edit: Edit composition ONLY. The fish currently reaches into the left half. REDUCE THE FISH TO 70% OF ITS CURRENT SIZE and move it RIGHT so that the WHOLE fish sits inside the RIGHT HALF of the picture. Nose and all whiskers start at 45% of image width; tail finishes at 95% of image width. Leave the LEFT 40% ENTIRELY EMPTY WATER with no animal, fins or snout. This is a webpage title area. Keep exact fish anatomy, natural underwater lighting and detailed textures. Full silhouette clear with real background margins on all four sides. No text no watermark. Landscape 1536x1024.",
+      "sourceSha256": "7dd8fff6b43c39fdf003e839bca3f9d004184dadeafe0b22401c2d9f7dc6ad3d",
+      "runtimeSha256": "a6de5165bd1f146939c8b4fc7a870ba5c495cf0d5f6289a7e0f4847674dd23a5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Polypterus senegalus Senegal bichir. Elongate uniform gray olive body, broad blunt head, short paired nostril tubes, fleshy pectoral fin bases, a row of distinct separate triangular dorsal finlets, rounded tail. African freshwater sandy bottom. Scene: Full side view showing distinct individual dorsal finlets along uniform gray olive elongated body. Natural scientific reconstruction with accurate species anatomy and detailed textures. Centered prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "80e7af41a373020a9ff64e8399ffbd39121e66d6b8e1869aeea20bda45901552",
+      "runtimeSha256": "d7cf6e3571cd0e718e97c991d35f7a0369688d3f0e427dbcba2c76602fad0454",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Polypterus senegalus Senegal bichir. Elongate uniform gray olive body, broad blunt head, short paired nostril tubes, fleshy pectoral fin bases, a row of distinct separate triangular dorsal finlets, rounded tail. African freshwater sandy bottom. Scene: Head close view with short paired external nostril tubes and fleshy pectoral fin bases. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "c447aac4d3bdfabdea5b74a53bec85fe0958a3c5ee79da04743aa4860dc7f4fb",
+      "runtimeSha256": "81ed5a9711341dad283113b4ce4d91da499b9a5a9d48dd8968699f34d98fd9fb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Polypterus senegalus Senegal bichir. Elongate uniform gray olive body, broad blunt head, short paired nostril tubes, fleshy pectoral fin bases, a row of distinct separate triangular dorsal finlets, rounded tail. African freshwater sandy bottom. Scene: Whole adult dorsal oblique view showing separate dorsal finlets and rounded tail, no eel continuous fin. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "0543eb96c3992ac9c6569f42c41d2a90e0fc55430b27b4c35077214200d016a9",
+      "runtimeSha256": "6ba0b0da8bc7ac6b8731efb39a27b45323ea73ab7e7842f7dfc7a5fefa818074",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Polypterus senegalus Senegal bichir. Elongate uniform gray olive body, broad blunt head, short paired nostril tubes, fleshy pectoral fin bases, a row of distinct separate triangular dorsal finlets, rounded tail. African freshwater sandy bottom. Scene: Whole fish near freshwater surface, mouth at water interface, no lung cutaway no inference of actual breathing. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "1ec2cf39b19c99ab6b2a585f60aef3a2685280d432d60bd7bba6fb41ce8aa723",
+      "runtimeSha256": "094c6e841b0edb886b2462d008df377b0d503d247cf1ec44824148d50053f4d1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Polypterus senegalus Senegal bichir. Elongate uniform gray olive body, broad blunt head, short paired nostril tubes, fleshy pectoral fin bases, a row of distinct separate triangular dorsal finlets, rounded tail. African freshwater sandy bottom. Scene: Entire adult on sandy substrate among sparse submerged plants, side view, no ornate spotted pattern. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "229b124a28ddfbbdc472ca51047057a45401444451afd105a301bb6d30d800c6",
+      "runtimeSha256": "71e6d31204702425ab8e77ea7607fac791da22c6dbcbfcd4cc9348eb8e71983e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

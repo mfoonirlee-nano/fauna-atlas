@@ -150079,6 +150079,229 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "senegal-bichir",
+  "slug": "senegal-bichir",
+  "names": {
+    "zh": "塞内加尔多鳍鱼",
+    "en": "Senegal Bichir"
+  },
+  "scientificName": "Polypterus senegalus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Polypteriformes",
+      "zhName": "多鳍鱼目"
+    },
+    "family": {
+      "scientificName": "Polypteridae",
+      "zhName": "多鳍鱼科"
+    },
+    "genus": {
+      "scientificName": "Polypterus",
+      "zhName": "多鳍鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2019,
+    "assessor": "FishBase 转录 IUCN 全球 LC，评估日期为 2019-06-07；全球种群趋势未独立核实。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "非洲西部至尼罗河流域及部分湖泊、刚果河流域"
+    ],
+    "countries": [],
+    "range": "FishBase 汇总西非多个流域、尼罗河流域及部分湖泊的记录，也列出南部亚种在刚果河流域的分布。本档案按整个物种介绍，不把某一亚种分布当作全部范围。"
+  },
+  "habitats": [
+    {
+      "name": "非洲淡水河岸与沼泽",
+      "realm": "freshwater",
+      "description": "FishBase 汇总西非多个流域、尼罗河流域及部分湖泊的记录，也列出南部亚种在刚果河流域的分布。本档案按整个物种介绍，不把某一亚种分布当作全部范围。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "昆虫",
+      "甲壳动物",
+      "软体动物",
+      "鱼类"
+    ],
+    "description": "本种取食昆虫、甲壳动物、软体动物和鱼类等动物性食物，资料中的组成因亚种与地点而异。本档案不填写固定食物比例。"
+  },
+  "tags": [
+    "塞内加尔多鳍鱼",
+    "非洲淡水河岸与沼泽"
+  ],
+  "summary": "塞内加尔多鳍鱼：背上一片片分开的小鳍。",
+  "description": "身体细长，头部较宽，背部有一列分开的小背鳍，胸鳍基部较厚，尾部较圆。图库按灰橄榄色成体重建；小鳍的数量与细节不作为鉴定或计数依据。FishBase 汇总西非多个流域、尼罗河流域及部分湖泊的记录，也列出南部亚种在刚果河流域的分布。本档案按整个物种介绍，不把某一亚种分布当作全部范围。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "背上一片片分开的小鳍",
+      "body": "身体细长，头部较宽，背部有一列分开的小背鳍，胸鳍基部较厚，尾部较圆。图库按灰橄榄色成体重建；小鳍的数量与细节不作为鉴定或计数依据。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "非洲淡水河岸与沼泽",
+      "body": "FishBase 汇总西非多个流域、尼罗河流域及部分湖泊的记录，也列出南部亚种在刚果河流域的分布。本档案按整个物种介绍，不把某一亚种分布当作全部范围。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "本种取食昆虫、甲壳动物、软体动物和鱼类等动物性食物，资料中的组成因亚种与地点而异。本档案不填写固定食物比例。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "成体与早期生活",
+      "body": "资料记录在茂密水生植物间产卵，幼体具有外鳃。成体图不代表幼体；也不把其他多鳍鱼的繁殖月份和数量套给本种。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Polypterus senegalus，采用辐鳍鱼纲、多鳍鱼目、多鳍鱼科。分类图谱表示归属关系，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "多鳍鱼属于辐鳍鱼纲。2014 年研究包含塞内加尔多鳍鱼，记录头部喷水孔参与空气吸入、空气进入肺的过程。鼻端短管与喷水孔不同；水面重建图不证明气流方向。 FishBase 转录 IUCN 全球 LC，评估日期为 2019-06-07；全球种群趋势未独立核实。"
+    }
+  ],
+  "keyFacts": [
+    "身体细长，头部较宽，背部有一列分开的小背鳍，胸鳍基部较厚，尾部较圆。图库按灰橄榄色成体重建；小鳍的数量与细节不作为鉴定或计数依据。",
+    "多鳍鱼属于辐鳍鱼纲。2014 年研究包含塞内加尔多鳍鱼，记录头部喷水孔参与空气吸入、空气进入肺的过程。鼻端短管与喷水孔不同；水面重建图不证明气流方向。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保护原生淡水生境",
+    "观察时不诱发离水或缺氧行为"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "背上一片片分开的小鳍"
+    }
+  ],
+  "media": {
+    "image": "./images/species/senegal-bichir/01-cover.webp",
+    "alt": "塞内加尔多鳍鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/senegal-bichir/02-observation.webp",
+        "title": "分开的背鳍",
+        "alt": "塞内加尔多鳍鱼：分开的背鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。全身侧面观察背部小鳍，不用于计数。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/senegal-bichir/03-observation.webp",
+        "title": "头部与胸鳍基部",
+        "alt": "塞内加尔多鳍鱼：头部与胸鳍基部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。鼻端短管为外鼻孔相关结构，不标作喷水孔。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/senegal-bichir/04-observation.webp",
+        "title": "从上方看背部",
+        "alt": "塞内加尔多鳍鱼：从上方看背部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。斜上方观察分开的背鳍与尾部。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/senegal-bichir/05-observation.webp",
+        "title": "靠近水面的姿态",
+        "alt": "塞内加尔多鳍鱼：靠近水面的姿态，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水面外观重建，不呈现肺或气流。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/senegal-bichir/06-observation.webp",
+        "title": "水草旁的成体",
+        "alt": "塞内加尔多鳍鱼：水草旁的成体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。灰橄榄色成体与非洲淡水环境重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：分类、分布与全球保护评估日期",
+      "url": "https://www.fishbase.se/summary/Polypterus-senegalus.html",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "2014 原始研究：含本种的喷水孔空气呼吸",
+      "url": "https://www.nature.com/articles/ncomms4022",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

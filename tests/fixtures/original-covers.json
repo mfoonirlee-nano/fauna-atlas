@@ -4796,6 +4796,19 @@
       "sha256": "7b617c8330121226f99d19399c6b9213efa29e65d1b09c664f37e698f6149d11"
     }
   },
+  "senegal-bichir": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 452,
+        "right": 1478,
+        "bottom": 697
+      },
+      "sha256": "a6de5165bd1f146939c8b4fc7a870ba5c495cf0d5f6289a7e0f4847674dd23a5"
+    }
+  },
   "spotted-gar": {
     "cover": {
       "width": 1536,
