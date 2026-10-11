@@ -4899,5 +4899,18 @@
       },
       "sha256": "cd6f9ee307f552432bf24121fb5092ea6963866f871e067d3131a0d1489e6798"
     }
+  },
+  "mengenilla-chobauti": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 790,
+        "top": 112,
+        "right": 1492,
+        "bottom": 820
+      },
+      "sha256": "5d39aaa76d89d9120cceeb05db4fbbbd37e8de7070b911d378fdf1c10f6d40e0"
+    }
   }
 }

@@ -803,3 +803,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [普通蝎蛉 image set](./species/common-scorpionfly/README.md)
 
 - [蛇蛉 image set](./species/snakefly/README.md)
+- [捻翅虫 image set](./species/mengenilla-chobauti/README.md)

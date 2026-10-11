@@ -5562,4 +5562,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 760
     }
   },
+  "mengenilla-chobauti": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 112,
+      "right": 1492,
+      "bottom": 820
+    }
+  },
 };

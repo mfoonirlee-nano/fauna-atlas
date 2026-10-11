@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction. Adult MALE Mengenilla chobauti strepsipteran, tiny dark brown body, distinctive branched flabellate antennae, raspberry-like large eyes, ONE PAIR broad fan-shaped membranous HIND wings, tiny club-shaped forewings in front of hind wings, six legs. Not a fly, moth or beetle. Scene: full complete adult resting in natural habitat. EVERY appendage visible with background clearance. Entire animal must fit RIGHT region x=700..1460 y=150..880, including antennae, wings and feet; place body center x=1100. LEFT 40 percent entirely empty quiet blurred habitat. Maximize full animal inside region. No text no watermark.\nComposition edit: Edit composition ONLY, preserve species and natural textures. Shrink complete animal to 78% of current size and move to right, with entire silhouette including antenna tips leg tips cerci and wings inside x=660..1450 y=130..900. Full body no cut features. LEFT 40 percent entirely quiet habitat. Keep 1536x1024, no text. Also correct male antennae to sparse flabellate six-segment antennae, each with only THREE long smooth branches arising from segments 3 4 5, plus long terminal segment. NOT feathered moth antennae, NOT dozens of fine branches.",
+      "sourceSha256": "f54e521c12b80ccca3b6e6a3e1fa246eb2cefc66dd9fb8122d4400f05648f19b",
+      "runtimeSha256": "5d39aaa76d89d9120cceeb05db4fbbbd37e8de7070b911d378fdf1c10f6d40e0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Mengenilla chobauti. Adult MALE Mengenilla chobauti strepsipteran, tiny dark brown body, distinctive branched flabellate antennae, raspberry-like large eyes, ONE PAIR broad fan-shaped membranous HIND wings, tiny club-shaped forewings in front of hind wings, six legs. Not a fly, moth or beetle. Scene: Adult male complete body resting on limestone. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.\nAnatomy edit: Correct ONLY male Mengenilla antennae, keep specimen posture, hindwings, background, six legs and framing. Each antenna has a short basal stalk and THREE long smooth tapered flabella arising from segments 3 4 5 plus slender terminal segment, like sparse four-prong fork. Remove ALL excess featherlike branches. Not moth feather antennae. Six antennomeres, only three lateral flabella. No text.",
+      "sourceSha256": "981ed875b631cb42c815266c6b64ce7d0e53a54aa6c4d9328a93bea09ad5aa6b",
+      "runtimeSha256": "b530ecd41f76b735ade661e02bdc12359d71aa90a01b6e43e9cd74961f2d9ea7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Mengenilla chobauti. Adult MALE Mengenilla chobauti strepsipteran, tiny dark brown body, distinctive branched flabellate antennae, raspberry-like large eyes, ONE PAIR broad fan-shaped membranous HIND wings, tiny club-shaped forewings in front of hind wings, six legs. Not a fly, moth or beetle. Scene: Close view of male head with flabellate antennae and clustered large eyes. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.\nAnatomy edit: Correct ONLY male Mengenilla antennae, keep specimen posture, hindwings, background, six legs and framing. Each antenna has a short basal stalk and THREE long smooth tapered flabella arising from segments 3 4 5 plus slender terminal segment, like sparse four-prong fork. Remove ALL excess featherlike branches. Not moth feather antennae. Six antennomeres, only three lateral flabella. No text.",
+      "sourceSha256": "6452be0f72f71454c053e0593168c6406d2db8217325e47a9c845bf33e945a6b",
+      "runtimeSha256": "1b16c4c15ed2b4712e5a0ab2c39dd35e6d8d59f415488b199540edf613b3f9c0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Mengenilla chobauti.  Scene: Adult FEMALE Mengenilla chobauti only, free living wingless pale cream grub-like segmented body with distinct head two short antennae and SIX short thoracic legs, on limestone. No wings no host body, NOT legless endoparasitic Stylops female.. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "1b9dc00bf30521ef455949bae9e77f734c13bb6ae10f30db1fe40e1d9db5bb1f",
+      "runtimeSha256": "91c9e10b545f5dd24b7dc6b8174b4e25328276ddd1c8c6d5c650f5deb294c82b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Mengenilla chobauti. Adult MALE Mengenilla chobauti strepsipteran, tiny dark brown body, distinctive branched flabellate antennae, raspberry-like large eyes, ONE PAIR broad fan-shaped membranous HIND wings, tiny club-shaped forewings in front of hind wings, six legs. Not a fly, moth or beetle. Scene: Dorsal oblique view of adult male extended broad fan hindwings and tiny forewing clubs. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.\nAnatomy edit: Correct ONLY male Mengenilla antennae, keep specimen posture, hindwings, background, six legs and framing. Each antenna has a short basal stalk and THREE long smooth tapered flabella arising from segments 3 4 5 plus slender terminal segment, like sparse four-prong fork. Remove ALL excess featherlike branches. Not moth feather antennae. Six antennomeres, only three lateral flabella. No text.",
+      "sourceSha256": "27a172a6671862fb96f4bd1cbcfc16d418ecac45aaa7fe64c0cba450d2a05716",
+      "runtimeSha256": "e772d0211d436a084b04cb277d74bd016305d366c5649f441ee1e568265e2082",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Mengenilla chobauti. Adult MALE Mengenilla chobauti strepsipteran, tiny dark brown body, distinctive branched flabellate antennae, raspberry-like large eyes, ONE PAIR broad fan-shaped membranous HIND wings, tiny club-shaped forewings in front of hind wings, six legs. Not a fly, moth or beetle. Scene: Adult male on dry stone in Mediterranean scrub. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.\nAnatomy edit: Correct ONLY male Mengenilla antennae, keep specimen posture, hindwings, background, six legs and framing. Each antenna has a short basal stalk and THREE long smooth tapered flabella arising from segments 3 4 5 plus slender terminal segment, like sparse four-prong fork. Remove ALL excess featherlike branches. Not moth feather antennae. Six antennomeres, only three lateral flabella. No text.",
+      "sourceSha256": "5bb2b98b1a5fb1626902fa3be9648d3d05323cb0106f912a6d041221a7e2b3e0",
+      "runtimeSha256": "753a1c2cadf0e48353e611803138d288a6a8079d33173c86f7149eae960bf2d2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
