@@ -4795,5 +4795,18 @@
       },
       "sha256": "7b617c8330121226f99d19399c6b9213efa29e65d1b09c664f37e698f6149d11"
     }
+  },
+  "spotted-gar": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 345,
+        "right": 1476,
+        "bottom": 565
+      },
+      "sha256": "b8b52280cca7950d35600c6f3703825f65fc72b77640370344b9cabb0675d523"
+    }
   }
 }

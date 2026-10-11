@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Edit the wildlife atlas cover. Preserve this fish's species anatomy, natural body and colors. Recompose the prominent entire fish including every visible fin, snout, barbels and tail entirely within x=650 to 1470 of the 1536x1024 canvas. Quiet simple underwater environment on left 40 percent, reduce distracting foreground plants and rocks there. Complete silhouette with real background around every extremity, centered near x=1060. Preserve natural underwater lighting, no text no labels no watermark.\nFinal composition edit: Edit composition ONLY. The fish currently reaches into the left half. REDUCE THE FISH TO 70% OF ITS CURRENT SIZE and move it RIGHT so that the WHOLE fish sits inside the RIGHT HALF of the picture. Nose and all whiskers start at 45% of image width; tail finishes at 95% of image width. Leave the LEFT 40% ENTIRELY EMPTY WATER with no animal, fins or snout. This is a webpage title area. Keep exact fish anatomy, natural underwater lighting and detailed textures. Full silhouette clear with real background margins on all four sides. No text no watermark. Landscape 1536x1024.",
+      "sourceSha256": "97c54ed0b307ab49131dd0bdc83760800b0eaa7f42f9bddffa7d111af1089df4",
+      "runtimeSha256": "b8b52280cca7950d35600c6f3703825f65fc72b77640370344b9cabb0675d523",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Lepisosteus oculatus spotted gar. Elongate olive cylindrical body with dark spots on head body and fins, long narrow toothed jaws closed, diamond scale texture, dorsal and anal fins near rounded tail. Freshwater submerged vegetation. Scene: Full side view among freshwater plants showing long narrow closed snout and spots on head body fins. Natural scientific reconstruction with accurate species anatomy and detailed textures. Centered prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "5099c6e64c9f0635a8e08391f3355b47d669af26addb3d3ddc1cd49df1457bb8",
+      "runtimeSha256": "42cbb41052b8b4ca474559759ae9071b2d569f68f2dd660a744a1a9f1ace55fc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Lepisosteus oculatus spotted gar. Elongate olive cylindrical body with dark spots on head body and fins, long narrow toothed jaws closed, diamond scale texture, dorsal and anal fins near rounded tail. Freshwater submerged vegetation. Scene: Close side view of head with narrow closed toothed jaws and spotted cheek, no crocodile legs. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "2b8c4a6dc93e9973afd0fdd8c58370193211fc8fe669a06f46632e776a904cf7",
+      "runtimeSha256": "8ca7dc3d905046430cddeec7b7ee4dc09a248d49870dfc69780f2567c94cbb82",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Lepisosteus oculatus spotted gar. Elongate olive cylindrical body with dark spots on head body and fins, long narrow toothed jaws closed, diamond scale texture, dorsal and anal fins near rounded tail. Freshwater submerged vegetation. Scene: Close side view of middle body showing diamond shaped hard scales and dark spots, preserve realistic gar anatomy. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "88e4b4740beaa70b5c47f87a3cb11f4279bc7603e0149ced471d43c4d2663e0b",
+      "runtimeSha256": "6a6f0a211460d30c44a8e111da44de3762fa4a29816453173d30b829a4a0a228",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Lepisosteus oculatus spotted gar. Elongate olive cylindrical body with dark spots on head body and fins, long narrow toothed jaws closed, diamond scale texture, dorsal and anal fins near rounded tail. Freshwater submerged vegetation. Scene: Full dorsolateral fish showing dorsal and anal fins far back near rounded tail. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "f0f61c5f649d64d31e1e116f4f88fae75a54e82ea8a1eb27c351332bdccfad95",
+      "runtimeSha256": "d153e0250d95e2074e18f8a4528fe82ca7962e8bb755f89995364d43b792fe20",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Lepisosteus oculatus spotted gar. Elongate olive cylindrical body with dark spots on head body and fins, long narrow toothed jaws closed, diamond scale texture, dorsal and anal fins near rounded tail. Freshwater submerged vegetation. Scene: Whole fish suspended among submerged stems in slow North American freshwater wetland. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "1b3860eac275284e96f98bcff9e04d8c817ffa6876ce02c332316618b5b85869",
+      "runtimeSha256": "d25f88b163c325dc8074a80e4f391fde81643a07846d4607c5d7ca279aedfeee",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -149850,6 +149850,235 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "spotted-gar",
+  "slug": "spotted-gar",
+  "names": {
+    "zh": "斑点雀鳝",
+    "en": "Spotted Gar"
+  },
+  "scientificName": "Lepisosteus oculatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Lepisosteiformes",
+      "zhName": "雀鳝目"
+    },
+    "family": {
+      "scientificName": "Lepisosteidae",
+      "zhName": "雀鳝科"
+    },
+    "genus": {
+      "scientificName": "Lepisosteus",
+      "zhName": "雀鳝属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2018,
+    "assessor": "FishBase 转录 IUCN 全球 LC，评估日期为 2018-03-20；全球种群趋势未独立核实。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater"
+    ],
+    "continents": [],
+    "regions": [
+      "北美洲五大湖部分水系至美国墨西哥湾沿岸"
+    ],
+    "countries": [],
+    "range": "原生范围从伊利湖、密歇根湖南部的部分水系，经密西西比河流域延伸至美国墨西哥湾沿岸。常生活在有水草的缓流水域、河湾和湿地；加拿大种群位于范围北缘。"
+  },
+  "habitats": [
+    {
+      "name": "缓流河道与水草湿地",
+      "realm": "freshwater",
+      "description": "原生范围从伊利湖、密歇根湖南部的部分水系，经密西西比河流域延伸至美国墨西哥湾沿岸。常生活在有水草的缓流水域、河湾和湿地；加拿大种群位于范围北缘。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类",
+      "甲壳动物"
+    ],
+    "description": "斑点雀鳝捕食鱼类和甲壳动物。观察长嘴和身体位置即可；图库没有连续捕食影像，不根据静态姿态判定具体捕食动作。"
+  },
+  "tags": [
+    "斑点雀鳝",
+    "缓流河道与水草湿地"
+  ],
+  "summary": "斑点雀鳝：长嘴与带斑点的硬鳞身体。",
+  "description": "身体细长，嘴向前延伸，头部、身体和鱼鳍都有暗色斑点，硬鳞呈菱形。背鳍和臀鳍靠近尾部。斑点本身不足以与佛罗里达雀鳝区分，生成图不能作为鉴定照片。原生范围从伊利湖、密歇根湖南部的部分水系，经密西西比河流域延伸至美国墨西哥湾沿岸。常生活在有水草的缓流水域、河湾和湿地；加拿大种群位于范围北缘。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "长嘴与带斑点的硬鳞身体",
+      "body": "身体细长，嘴向前延伸，头部、身体和鱼鳍都有暗色斑点，硬鳞呈菱形。背鳍和臀鳍靠近尾部。斑点本身不足以与佛罗里达雀鳝区分，生成图不能作为鉴定照片。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "缓流河道与水草湿地",
+      "body": "原生范围从伊利湖、密歇根湖南部的部分水系，经密西西比河流域延伸至美国墨西哥湾沿岸。常生活在有水草的缓流水域、河湾和湿地；加拿大种群位于范围北缘。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "斑点雀鳝捕食鱼类和甲壳动物。观察长嘴和身体位置即可；图库没有连续捕食影像，不根据静态姿态判定具体捕食动作。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "成体与早期生活",
+      "body": "加拿大恢复计划记载本种在浅水水草区域产卵，卵附着在植物上，幼体吻部有附着结构。研究地点的月份和水温不推广到全球；本批图库只画成体。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Lepisosteus oculatus，采用辐鳍鱼纲、雀鳝目、雀鳝科。分类图谱表示归属关系，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "FishBase 转录的 IUCN 全球等级为 LC；加拿大 2024 年恢复计划记载当地法律保护等级为濒危。两者适用范围不同，全球无危不代表每处种群都没有风险。 FishBase 转录 IUCN 全球 LC，评估日期为 2018-03-20；全球种群趋势未独立核实。"
+    }
+  ],
+  "keyFacts": [
+    "身体细长，嘴向前延伸，头部、身体和鱼鳍都有暗色斑点，硬鳞呈菱形。背鳍和臀鳍靠近尾部。斑点本身不足以与佛罗里达雀鳝区分，生成图不能作为鉴定照片。",
+    "FishBase 转录的 IUCN 全球等级为 LC；加拿大 2024 年恢复计划记载当地法律保护等级为濒危。两者适用范围不同，全球无危不代表每处种群都没有风险。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [
+    "加拿大局部种群的生境损失与水草变化"
+  ],
+  "conservationActions": [
+    "保护产卵水草与湿地",
+    "区分全球评估和地区种群保护"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "长嘴与带斑点的硬鳞身体"
+    }
+  ],
+  "media": {
+    "image": "./images/species/spotted-gar/01-cover.webp",
+    "alt": "斑点雀鳝及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/spotted-gar/02-observation.webp",
+        "title": "长嘴与全身斑点",
+        "alt": "斑点雀鳝：长嘴与全身斑点，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成体侧面，不用于与近似种鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-gar/03-observation.webp",
+        "title": "长嘴的侧面",
+        "alt": "斑点雀鳝：长嘴的侧面，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部放大，牙齿形态可能有生成误差。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-gar/04-observation.webp",
+        "title": "菱形硬鳞",
+        "alt": "斑点雀鳝：菱形硬鳞，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。体表纹理重建，非显微测量。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-gar/05-observation.webp",
+        "title": "靠近尾部的鱼鳍",
+        "alt": "斑点雀鳝：靠近尾部的鱼鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。斜上方观察背鳍、臀鳍与尾部。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/spotted-gar/06-observation.webp",
+        "title": "水草中的身体",
+        "alt": "斑点雀鳝：水草中的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。北美淡水湿地环境重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：分类、分布与全球保护评估日期",
+      "url": "https://www.fishbase.se/summary/Lepisosteus-oculatus.html",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "佛罗里达博物馆：本种标本与近似种",
+      "url": "https://www.floridamuseum.ufl.edu/discover-fish/florida-fishes-gallery/spotted-gar/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "加拿大渔业与海洋部：2024 恢复计划、繁殖与当地种群",
+      "url": "https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/recovery-strategies/spotted-gar-2024.html",
+      "kind": "conservation",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

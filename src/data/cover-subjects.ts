@@ -5482,4 +5482,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 781
     }
   },
+  "spotted-gar": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 345,
+      "right": 1476,
+      "bottom": 565
+    }
+  },
 };
