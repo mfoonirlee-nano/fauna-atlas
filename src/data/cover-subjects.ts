@@ -5582,4 +5582,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 800
     }
   },
+  "bombardier-beetle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 880,
+      "top": 165,
+      "right": 1380,
+      "bottom": 865
+    }
+  },
 };

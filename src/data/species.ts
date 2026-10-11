@@ -152181,6 +152181,239 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "bombardier-beetle",
+  "slug": "bombardier-beetle",
+  "names": {
+    "zh": "喷炮步甲",
+    "en": "Bombardier Beetle"
+  },
+  "scientificName": "Brachinus crepitans",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Coleoptera",
+      "zhName": "鞘翅目"
+    },
+    "family": {
+      "scientificName": "Carabidae",
+      "zhName": "步甲科"
+    },
+    "genus": {
+      "scientificName": "Brachinus",
+      "zhName": "喷炮步甲属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲石灰质草地"
+    ],
+    "countries": [],
+    "range": "本档案用欧洲石灰质草地介绍本种。NatureSpot 的英国记录集中于南部，偏好白垩或石灰岩环境；该记录范围不等于物种完整分布。"
+  },
+  "habitats": [
+    {
+      "name": "石灰质草地",
+      "realm": "terrestrial",
+      "description": "本档案用欧洲石灰质草地介绍本种。NatureSpot 的英国记录集中于南部，偏好白垩或石灰岩环境；该记录范围不等于物种完整分布。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "小型动物性食物"
+    ],
+    "description": "本种原始防御研究在饲养条件下提供蟋蟀碎块。这里仅以小型动物性食物作概述，不把实验饲料写成野外固定食谱，也不推定幼虫的具体宿主。"
+  },
+  "tags": [
+    "喷炮步甲",
+    "石灰质草地"
+  ],
+  "summary": "喷炮步甲：头部和较窄的前胸呈橙红色，鞘翅呈深蓝绿到近黑色。",
+  "description": "头部和较窄的前胸呈橙红色，鞘翅呈深蓝绿到近黑色。它是有三对足、两根触角的步甲，背部硬质鞘翅保护后方身体。本档案用欧洲石灰质草地介绍本种。NatureSpot 的英国记录集中于南部，偏好白垩或石灰岩环境；该记录范围不等于物种完整分布。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "头部和较窄的前胸呈橙红色，鞘翅呈深蓝绿到近黑色。它是有三对足、两根触角的步甲，背部硬质鞘翅保护后方身体。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "本档案用欧洲石灰质草地介绍本种。NatureSpot 的英国记录集中于南部，偏好白垩或石灰岩环境；该记录范围不等于物种完整分布。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "本种原始防御研究在饲养条件下提供蟋蟀碎块。这里仅以小型动物性食物作概述，不把实验饲料写成野外固定食谱，也不推定幼虫的具体宿主。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "本种属于鞘翅目，经历卵、幼虫、蛹和成虫阶段。腹部的成对防御腺含储存室与反应室，研究记录其排出热的含苯醌分泌物。它不喷火，示意不展示刺激动物的方法。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Brachinus crepitans，采用节肢动物门、昆虫纲、鞘翅目、步甲科。中文名沿用选题展示标签；少见科属中文名为项目标签，接受学名承担物种定位。分类图谱只表达归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "找找橙红色前半身和深色鞘翅。防御腺用简化示意说明，不惊吓或刺激动物喷射；腺体颜色是教学区分，非实测组织颜色。本次未核实可引用的 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "头部和较窄的前胸呈橙红色，鞘翅呈深蓝绿到近黑色。它是有三对足、两根触角的步甲，背部硬质鞘翅保护后方身体。",
+    "本种属于鞘翅目，经历卵、幼虫、蛹和成虫阶段。腹部的成对防御腺含储存室与反应室，研究记录其排出热的含苯醌分泌物。它不喷火，示意不展示刺激动物的方法。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保留自然栖息环境",
+    "观察时减少对动物的干扰"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "找找橙红色前半身和深色鞘翅。防御腺用简化示意说明，不惊吓或刺激动物喷射；腺体颜色是教学区分，非实测组织颜色。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/bombardier-beetle/01-cover.webp",
+    "alt": "喷炮步甲及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/bombardier-beetle/02-observation.webp",
+        "title": "橙红与深蓝绿的身体",
+        "alt": "喷炮步甲：橙红与深蓝绿的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫全身，橙红头胸与深色鞘翅。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bombardier-beetle/03-observation.webp",
+        "title": "头部和前胸",
+        "alt": "喷炮步甲：头部和前胸，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫头部与窄前胸放大。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bombardier-beetle/04-observation.webp",
+        "title": "硬质鞘翅",
+        "alt": "喷炮步甲：硬质鞘翅，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫鞘翅近似纹理，不能据此鉴别近似种。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bombardier-beetle/05-observation.webp",
+        "title": "腹部防御腺示意",
+        "alt": "喷炮步甲：腹部防御腺示意，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫腹部防御腺剖面示意；储存室、反应室与细雾，非实测比例，不是喷火。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/bombardier-beetle/06-observation.webp",
+        "title": "石灰质草地上的成虫",
+        "alt": "喷炮步甲：石灰质草地上的成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫自然静止场景，未诱发防御。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/4474861",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "本种防御反应的分子基础原始研究",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12092131/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "NatureSpot：本种形态与实地记录",
+      "url": "https://www.naturespot.org/species/Brachinus-crepitans",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "喷炮步甲防御系统功能解剖研究",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1467803915000766",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

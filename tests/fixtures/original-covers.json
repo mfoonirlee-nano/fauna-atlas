@@ -4925,5 +4925,18 @@
       },
       "sha256": "fb9fd6298756e0a7a7784bb6a399439ea174893f854f1066715a97a7d95667c8"
     }
+  },
+  "bombardier-beetle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 880,
+        "top": 165,
+        "right": 1380,
+        "bottom": 865
+      },
+      "sha256": "53b5c5ba30c6b56379af4eeb68cf5250d8df0f6f99fa9a2b547c724f740860a8"
+    }
   }
 }

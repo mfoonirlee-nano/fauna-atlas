@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction. Brachinus crepitans adult ground beetle: orange-red head and narrow orange-red prothorax, dark blue-green finely longitudinally ridged elytra with central seam, orange six legs and two fine orange antennae. No fire, smoke, cannon, giant weapon or spray. Scene: full complete adult resting in natural habitat. EVERY appendage visible with background clearance. Entire animal must fit RIGHT region x=700..1460 y=150..880, including antennae, wings and feet; place body center x=1100. LEFT 40 percent entirely empty quiet blurred habitat. Maximize full animal inside region. No text no watermark.\nComposition edit: Edit composition ONLY, preserve species and natural textures. Shrink complete animal to 78% of current size and move to right, with entire silhouette including antenna tips leg tips cerci and wings inside x=660..1450 y=130..900. Full body no cut features. LEFT 40 percent entirely quiet habitat. Keep 1536x1024, no text.",
+      "sourceSha256": "64cbf231cb462ca72209f565556bb7d335897a6e9da005c1c7ca158d3a948578",
+      "runtimeSha256": "53b5c5ba30c6b56379af4eeb68cf5250d8df0f6f99fa9a2b547c724f740860a8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Brachinus crepitans. Brachinus crepitans adult ground beetle: orange-red head and narrow orange-red prothorax, dark blue-green finely longitudinally ridged elytra with central seam, orange six legs and two fine orange antennae. No fire, smoke, cannon, giant weapon or spray. Scene: Adult full dorsal oblique view on limestone gravel. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "d5f5e444c5616c36f846eb23f2680dee514cb086bc62708bd6fe2ac8fa42adc1",
+      "runtimeSha256": "da87bdbea8eec67c2c81e637e2f1c6268ca9dcbdf653af1856e4ce5418d4d59a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Brachinus crepitans. Brachinus crepitans adult ground beetle: orange-red head and narrow orange-red prothorax, dark blue-green finely longitudinally ridged elytra with central seam, orange six legs and two fine orange antennae. No fire, smoke, cannon, giant weapon or spray. Scene: Macro head and narrow orange-red prothorax. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "7ea2c42e704e9acdb80df07eb7ad9af7756d6762d85602af04d0728a1cc1fe0c",
+      "runtimeSha256": "39f1653149523d7b0ebf14cb5b2c9b8335942770c188275d145bc1974128ba57",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Brachinus crepitans. Brachinus crepitans adult ground beetle: orange-red head and narrow orange-red prothorax, dark blue-green finely longitudinally ridged elytra with central seam, orange six legs and two fine orange antennae. No fire, smoke, cannon, giant weapon or spray. Scene: Close dorsal view of blue-green ridged elytra with central seam. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "2a8aee92ecbdae9c1a387991e7c45323bbb09575b29516daeca18b1c8fd5f109",
+      "runtimeSha256": "d3d55b85ca16b783698a4d8193a359b35c780aea2c7c8e87d8a486b7ddd067c5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Brachinus crepitans.  Scene: Educational simplified side cutaway schematic of ONE beetle abdomen, paired storage reservoirs and smaller reaction chambers at rear, short fine mist leaving abdomen. No fire, no hands, no provocation, no text; diagram non-measured scale, warm neutral backdrop. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "e6d910934e02ba179f3a3720b0f89f21ad0609aba3774c32fa61b6c9ab32874b",
+      "runtimeSha256": "94c87bf632c06106769615eac3563a73b4aa44e68d9133d046e2049c8852cf95",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Brachinus crepitans. Brachinus crepitans adult ground beetle: orange-red head and narrow orange-red prothorax, dark blue-green finely longitudinally ridged elytra with central seam, orange six legs and two fine orange antennae. No fire, smoke, cannon, giant weapon or spray. Scene: Adult resting among grass and limestone chips. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "ad7af3494056494b71a2867618554746304b730352c5b47ff574b0f4e56fbfef",
+      "runtimeSha256": "243c70b6b2fe37f9c9cf414a762a3aacb16015719144fef069d942eb8eebdbd7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
