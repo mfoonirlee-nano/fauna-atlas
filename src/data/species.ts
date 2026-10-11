@@ -152414,6 +152414,237 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "pea-aphid",
+  "slug": "pea-aphid",
+  "names": {
+    "zh": "豌豆蚜",
+    "en": "Pea Aphid"
+  },
+  "scientificName": "Acyrthosiphon pisum",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Hemiptera",
+      "zhName": "半翅目"
+    },
+    "family": {
+      "scientificName": "Aphididae",
+      "zhName": "蚜科"
+    },
+    "genus": {
+      "scientificName": "Acyrthosiphon",
+      "zhName": "长管蚜属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [],
+    "regions": [
+      "多地豆科植物种植区"
+    ],
+    "countries": [],
+    "range": "豌豆蚜在多地豆科植物种植区和草地有记录，常见寄主包括豌豆和苜蓿。不同寄主群体存在分化，不能把记录中的全部寄主范围套给每个个体。"
+  },
+  "habitats": [
+    {
+      "name": "豆科植物叶片与嫩茎",
+      "realm": "terrestrial",
+      "description": "豌豆蚜在多地豆科植物种植区和草地有记录，常见寄主包括豌豆和苜蓿。不同寄主群体存在分化，不能把记录中的全部寄主范围套给每个个体。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "豆科植物韧皮部汁液"
+    ],
+    "description": "豌豆蚜以刺吸口器获取植物韧皮部汁液，腹管不是取食用的嘴。它与体内 Buchnera 细菌共生，原始基因组研究讨论双方在氨基酸营养上的联系。共生细菌不进入动物分类链。"
+  },
+  "tags": [
+    "豌豆蚜",
+    "豆科植物叶片与嫩茎"
+  ],
+  "summary": "豌豆蚜：柔软的身体有长触角和细足，腹部后方有两根管状腹管。",
+  "description": "柔软的身体有长触角和细足，腹部后方有两根管状腹管。豌豆蚜包含有翅和无翅个体，也有绿色、粉红等体色；颜色不能单独决定物种或性别。豌豆蚜在多地豆科植物种植区和草地有记录，常见寄主包括豌豆和苜蓿。不同寄主群体存在分化，不能把记录中的全部寄主范围套给每个个体。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "柔软的身体有长触角和细足，腹部后方有两根管状腹管。豌豆蚜包含有翅和无翅个体，也有绿色、粉红等体色；颜色不能单独决定物种或性别。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "豌豆蚜在多地豆科植物种植区和草地有记录，常见寄主包括豌豆和苜蓿。不同寄主群体存在分化，不能把记录中的全部寄主范围套给每个个体。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "豌豆蚜以刺吸口器获取植物韧皮部汁液，腹管不是取食用的嘴。它与体内 Buchnera 细菌共生，原始基因组研究讨论双方在氨基酸营养上的联系。共生细菌不进入动物分类链。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "豌豆蚜存在孤雌生殖和有性生殖阶段；部分温带种群在秋季产生有性个体及越冬卵，其他种群的周期不同。有翅与无翅是不同形态，若虫经过蜕皮成为成虫，没有蛹期。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Acyrthosiphon pisum，采用节肢动物门、昆虫纲、半翅目、蚜科。中文名沿用选题展示标签；少见科属中文名为项目标签，接受学名承担物种定位。分类图谱只表达归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "找找腹部后方两根小管，再对照有翅、无翅和若虫。图片不按实测比例，腹管不是取食器官；绿色和粉红色图不能用来判断性别。本次未核实可引用的 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "柔软的身体有长触角和细足，腹部后方有两根管状腹管。豌豆蚜包含有翅和无翅个体，也有绿色、粉红等体色；颜色不能单独决定物种或性别。",
+    "豌豆蚜存在孤雌生殖和有性生殖阶段；部分温带种群在秋季产生有性个体及越冬卵，其他种群的周期不同。有翅与无翅是不同形态，若虫经过蜕皮成为成虫，没有蛹期。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保留自然栖息环境",
+    "观察时减少对动物的干扰"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "找找腹部后方两根小管，再对照有翅、无翅和若虫。图片不按实测比例，腹管不是取食器官；绿色和粉红色图不能用来判断性别。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/pea-aphid/01-cover.webp",
+    "alt": "豌豆蚜及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/pea-aphid/02-observation.webp",
+        "title": "无翅成虫",
+        "alt": "豌豆蚜：无翅成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。绿色无翅成虫。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pea-aphid/03-observation.webp",
+        "title": "腹部后方的腹管",
+        "alt": "豌豆蚜：腹部后方的腹管，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。无翅成虫腹管放大；不是取食口器。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pea-aphid/04-observation.webp",
+        "title": "有翅成虫",
+        "alt": "豌豆蚜：有翅成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫；与无翅个体分开标注。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pea-aphid/05-observation.webp",
+        "title": "叶片上的若虫",
+        "alt": "豌豆蚜：叶片上的若虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。不同大小的无翅若虫，不按实测比例，不是成虫繁殖动作图。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/pea-aphid/06-observation.webp",
+        "title": "粉红色无翅成虫",
+        "alt": "豌豆蚜：粉红色无翅成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。粉红色无翅成虫；体色不表示性别。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/2077503",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "INRAE 蚜虫百科：本种寄主与形态",
+      "url": "https://eng-encyclopedie-pucerons.hub.inrae.fr/species/aphids/acyrthosiphon/a.-pisum",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "豌豆蚜基因组原始研究：共生与营养",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2826372/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "有性与无性豌豆蚜种群生活史比较研究",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28313668/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

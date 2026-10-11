@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction. Acyrthosiphon pisum WINGLESS adult pea aphid, pale green soft pear-shaped abdomen, two long fine antennae and six long fine legs, two slender straight tubular cornicles projecting from dorsal rear abdomen, small cauda at end. True aphid, not beetle or cricket. Scene: full complete adult resting in natural habitat. EVERY appendage visible with background clearance. Entire animal must fit RIGHT region x=700..1460 y=150..880, including antennae, wings and feet; place body center x=1100. LEFT 40 percent entirely empty quiet blurred habitat. Maximize full animal inside region. No text no watermark.\nComposition edit: Edit composition ONLY, preserve species and natural textures. Shrink complete animal to 78% of current size and move to right, with entire silhouette including antenna tips leg tips cerci and wings inside x=660..1450 y=130..900. Full body no cut features. LEFT 40 percent entirely quiet habitat. Keep 1536x1024, no text.",
+      "sourceSha256": "46254e363334b4b8a65b440e7490f383f2859bb803b519c12235ab69f9b680d4",
+      "runtimeSha256": "b56b29822ec2a67a4cc65b21bf3d67f702a9dd72b02b2a5b22e9f1fe0f691633",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Acyrthosiphon pisum. Acyrthosiphon pisum WINGLESS adult pea aphid, pale green soft pear-shaped abdomen, two long fine antennae and six long fine legs, two slender straight tubular cornicles projecting from dorsal rear abdomen, small cauda at end. True aphid, not beetle or cricket. Scene: Wingless adult full side oblique view on pea stem. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "e2b26739399e8d40368aa7ccf96b9a72519566b3015f52d4ad484f5fc1b3f56b",
+      "runtimeSha256": "8e5a13d023912e1e9cfdada8ba6a1db210133e1be55a1b04efb6e3335be68597",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Acyrthosiphon pisum. Acyrthosiphon pisum WINGLESS adult pea aphid, pale green soft pear-shaped abdomen, two long fine antennae and six long fine legs, two slender straight tubular cornicles projecting from dorsal rear abdomen, small cauda at end. True aphid, not beetle or cricket. Scene: Dorsal rear close view showing paired straight tubular cornicles on soft green abdomen. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "664bb58cc2b354a06d03144ef425b957425ebcfbe05fc84375476e1a0e2883ed",
+      "runtimeSha256": "7a2eb1ea94cff90c6895ba4738d73aacb78307bc8dad4dab4420aecb8b510b32",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Acyrthosiphon pisum.  Scene: WINGED adult Acyrthosiphon pisum ONLY, dark thorax green abdomen, two pairs clear wings tentlike, two fine antennae, six legs and paired cornicles, on pea leaf. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "be80d141ea6fb4c117259685c5c9d0ce595564debb695b28858e822b629995ac",
+      "runtimeSha256": "412f8dc32d07748bacf66099864c51ac5d40dffd7df7390ad47c0c82e858dfae",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Acyrthosiphon pisum.  Scene: Several green pea aphid NYMPHS of different sizes on pea leaf, wingless, each six legs antennae and paired cornicles, no beetle larvae. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "76dc5e13b914f296883bcda1610777850a0a00c42525c8392591c4c144206148",
+      "runtimeSha256": "7ef07fadb8691d7f33a500b950328dd34e7abee4e0b80640bf16490a1d620cb6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Acyrthosiphon pisum.  Scene: One pink color morph WINGLESS adult Acyrthosiphon pisum on pea stem, six slender legs long antennae paired tubular cornicles. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "a04539e97fe914496613ec8b011ab3f75f4e9c2718e6f0b4a873140a17d16c56",
+      "runtimeSha256": "a54c02183f5ddfc5fdb8aa44f6783a52dfebc5ea5458590fc84e71a4377b2b7d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

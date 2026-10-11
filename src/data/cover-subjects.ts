@@ -5592,4 +5592,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 865
     }
   },
+  "pea-aphid": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 830,
+      "top": 200,
+      "right": 1480,
+      "bottom": 870
+    }
+  },
 };

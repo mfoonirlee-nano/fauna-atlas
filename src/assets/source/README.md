@@ -806,3 +806,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [捻翅虫 image set](./species/mengenilla-chobauti/README.md)
 - [欧洲蝼蛄 image set](./species/european-mole-cricket/README.md)
 - [喷炮步甲 image set](./species/bombardier-beetle/README.md)
+- [豌豆蚜 image set](./species/pea-aphid/README.md)

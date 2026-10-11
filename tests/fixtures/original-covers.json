@@ -4938,5 +4938,18 @@
       },
       "sha256": "53b5c5ba30c6b56379af4eeb68cf5250d8df0f6f99fa9a2b547c724f740860a8"
     }
+  },
+  "pea-aphid": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 830,
+        "top": 200,
+        "right": 1480,
+        "bottom": 870
+      },
+      "sha256": "b56b29822ec2a67a4cc65b21bf3d67f702a9dd72b02b2a5b22e9f1fe0f691633"
+    }
   }
 }
