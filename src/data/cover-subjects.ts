@@ -5452,4 +5452,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 865
     }
   },
+  "black-swallower": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 368,
+      "right": 1485,
+      "bottom": 563
+    }
+  },
 };

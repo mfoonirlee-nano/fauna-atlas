@@ -4756,5 +4756,18 @@
         "bottom": 865
       }
     }
+  },
+  "black-swallower": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 368,
+        "right": 1485,
+        "bottom": 563
+      },
+      "sha256": "442f72202c8dfc3238c28b3ac707b4b145129745189ba40e5dbcb8bcd69cc172"
+    }
   }
 }

@@ -789,3 +789,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [大西洋弹涂鱼 image set](./species/atlantic-mudskipper/README.md)
 - [黑鳍冰鱼 image set](./species/blackfin-icefish/README.md)
 - [月鱼 image set](./species/north-atlantic-opah/README.md)
+
+- [黑叉齿龙鱼 image set](./species/black-swallower/README.md)

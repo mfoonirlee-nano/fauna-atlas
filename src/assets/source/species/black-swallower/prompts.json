@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Edit this Chiasmodon niger black swallower cover. Correct anatomy: more slender scaleless tapering dark black-brown body; long jaws with lower jaw slightly protruding, small eyes; first dorsal fin small and low rather than tall triangular sail, second dorsal fin elongated low soft rays and elongated anal fin opposite it, small forked tail. Preserve natural deep dark blue open water, normal unexpanded belly, no prey. Recompose complete fish prominently entirely in right region x=650 to 1470 in 1536x1024 source, left 40 percent quiet water. Clear all snout and fin tips from edges. No text.\nFinal composition edit: Edit composition only. Keep the corrected Chiasmodon niger anatomy and underwater background. MOVE THE FISH RIGHT AND MAKE IT 15 PERCENT SHORTER IN THE FRAME: snout must begin at x=680 instead of x=545, tail ends at x=1480. Every part of fish must stay right of x=650. Fill the vacated area with dark water. Full fish still prominent, no clipping of any fins or tail. Source 1536x1024. No text.",
+      "sourceSha256": "dafdd7ca69463b0b17a2fd529f3c3b89b126849e3262398b1e721c184e003be0",
+      "runtimeSha256": "442f72202c8dfc3238c28b3ac707b4b145129745189ba40e5dbcb8bcd69cc172",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Chiasmodon niger black swallower: slender dark brown-black deep sea fish, long closed jaws, small eyes, two dorsal fins, translucent fins and forked tail in dark blue open Atlantic deep water. Scene: Complete normal unexpanded fish side view centered, no prey, restrained ROV lighting. Natural scientific reconstruction with accurate species anatomy and detailed textures. Centered prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "d23f1150adf41037307560916ff3e335987768105491eaf02e3bbe4a9ca56c72",
+      "runtimeSha256": "246b41f6982eac15d803b8e6e4c771e88248d5a03f44239a41494cdaffc41f97",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Chiasmodon niger black swallower: slender dark brown-black deep sea fish, long closed jaws, small eyes, two dorsal fins, translucent fins and forked tail in dark blue open Atlantic deep water. Scene: Closer lateral view of the long head and closed jaw, small visible teeth only, no monstrous exaggeration. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "7e12cf60dd500dedaf7665ce3ac1ccadfd8a7972a6e88e58c135d1aef20391cd",
+      "runtimeSha256": "6dfcf65a8ac6df313c287976f8628f4b30d48f7e3e52ea6d3ba6bc59202cbd75",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Chiasmodon niger black swallower: slender dark brown-black deep sea fish, long closed jaws, small eyes, two dorsal fins, translucent fins and forked tail in dark blue open Atlantic deep water. Scene: Oblique full body view showing thin body and delicate fins, no expanded stomach. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "df8c5450b2029bca2b32b875c61b608059c75e73c77f24c724b8aeeef5b8b84c",
+      "runtimeSha256": "7cf6e7d0d8dd2b4fe80e82fb051bb0851709b00fa4d75b55627e89f546fa71ed",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Chiasmodon niger black swallower: slender dark brown-black deep sea fish, long closed jaws, small eyes, two dorsal fins, translucent fins and forked tail in dark blue open Atlantic deep water. Scene: Complete fish in dark open water with sparse suspended particles, habitat reconstruction no seafloor. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "a0a17d7674466abff36fda52f7cc5d67477135941cd4d829d611936c2f572c9b",
+      "runtimeSha256": "239bdbf2d34695b1273eac6bdefb07b5eb68ecacd9bb20e82a6a3fa3603fad3e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Chiasmodon niger black swallower: slender dark brown-black deep sea fish, long closed jaws, small eyes, two dorsal fins, translucent fins and forked tail in dark blue open Atlantic deep water. Scene: Scientific external morphology illustration on dark water backdrop, entire fish with mildly distended soft lower belly after feeding. Modest bulge only, no visible prey silhouette, no giant balloon, no scene of swallowing. Non measured conceptual reconstruction. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "421b75d181b3c75e2d912487b5dc2b790537ea5ea1e1bb099d21e8a2ab875110",
+      "runtimeSha256": "8e3dcae3d3f959b8a2cf94398068972b317b504a87302ca931bd7d02c4f7e846",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

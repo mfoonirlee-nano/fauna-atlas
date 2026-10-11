@@ -149168,6 +149168,232 @@ export const species = [
   "publishedAt": "2026-10-10",
   "updatedAt": "2026-10-10"
 },
+{
+  "id": "black-swallower",
+  "slug": "black-swallower",
+  "names": {
+    "zh": "黑叉齿龙鱼",
+    "en": "Black Swallower"
+  },
+  "scientificName": "Chiasmodon niger",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Scombriformes",
+      "zhName": "鲭形目"
+    },
+    "family": {
+      "scientificName": "Chiasmodontidae",
+      "zhName": "叉齿龙鱼科"
+    },
+    "genus": {
+      "scientificName": "Chiasmodon",
+      "zhName": "叉齿龙鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2014,
+    "assessor": "FishBase 转录 IUCN 全球 LC，评估日期为 2014-07-15；全球种群趋势未独立核实。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "大西洋温带与热带深水，包括墨西哥湾"
+    ],
+    "countries": [],
+    "range": "本档案以 FishBase 与 WHOI 介绍的大西洋温带、热带深水及墨西哥湾记录为范围。不同数据库对全球范围的汇总存在差异，不把这段介绍作为完整分布边界。"
+  },
+  "habitats": [
+    {
+      "name": "深海开放水域",
+      "realm": "marine",
+      "description": "本档案以 FishBase 与 WHOI 介绍的大西洋温带、热带深水及墨西哥湾记录为范围。不同数据库对全球范围的汇总存在差异，不把这段介绍作为完整分布边界。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "鱼类"
+    ],
+    "description": "本种吞食鱼类，可扩张的胃能够容纳较大的猎物。爱尔兰国家博物馆保存的标本提供胃部扩张的实物记录；图库的腹部外观示意只解释轮廓，不表示摄食过程或实测比例。"
+  },
+  "tags": [
+    "黑叉齿龙鱼",
+    "深海开放水域"
+  ],
+  "summary": "黑叉齿龙鱼：细长的暗色身体与长口裂。",
+  "description": "身体细长，体表暗色，口裂很长，下颌略向前突出。先沿着身体找尾部，再看看头部与嘴的比例；生成图中的牙齿和鳍条不用于鉴定。本档案以 FishBase 与 WHOI 介绍的大西洋温带、热带深水及墨西哥湾记录为范围。不同数据库对全球范围的汇总存在差异，不把这段介绍作为完整分布边界。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "细长的暗色身体与长口裂",
+      "body": "身体细长，体表暗色，口裂很长，下颌略向前突出。先沿着身体找尾部，再看看头部与嘴的比例；生成图中的牙齿和鳍条不用于鉴定。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "深海开放水域",
+      "body": "本档案以 FishBase 与 WHOI 介绍的大西洋温带、热带深水及墨西哥湾记录为范围。不同数据库对全球范围的汇总存在差异，不把这段介绍作为完整分布边界。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "本种吞食鱼类，可扩张的胃能够容纳较大的猎物。爱尔兰国家博物馆保存的标本提供胃部扩张的实物记录；图库的腹部外观示意只解释轮廓，不表示摄食过程或实测比例。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "成体与早期生活",
+      "body": "幼鱼与较大个体的采集水层有差异，不能把成体图当作所有发育阶段的样貌。本批未核实产卵季节与数量，保留成体外观图。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Chiasmodon niger，采用辐鳍鱼纲、鲭形目、叉齿龙鱼科。分类图谱表示归属关系，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "深水记录多来自采集标本；静止重建图不能证明吞咽动作。共读时观察细长身体和腹部轮廓，不让孩子用大口吞食模仿动物。 FishBase 转录 IUCN 全球 LC，评估日期为 2014-07-15；全球种群趋势未独立核实。"
+    }
+  ],
+  "keyFacts": [
+    "身体细长，体表暗色，口裂很长，下颌略向前突出。先沿着身体找尾部，再看看头部与嘴的比例；生成图中的牙齿和鳍条不用于鉴定。",
+    "深水记录多来自采集标本；静止重建图不能证明吞咽动作。共读时观察细长身体和腹部轮廓，不让孩子用大口吞食模仿动物。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保留深海标本的采集地点与水深",
+    "区分实物标本、自然影像与生成示意"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "细长的暗色身体与长口裂"
+    }
+  ],
+  "media": {
+    "image": "./images/species/black-swallower/01-cover.webp",
+    "alt": "黑叉齿龙鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/black-swallower/02-observation.webp",
+        "title": "普通腹部的全身",
+        "alt": "黑叉齿龙鱼：普通腹部的全身，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。展示未明显扩张腹部的成体外形。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/black-swallower/03-observation.webp",
+        "title": "长口裂与头部",
+        "alt": "黑叉齿龙鱼：长口裂与头部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。头部放大重建，牙齿细节不用于鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/black-swallower/04-observation.webp",
+        "title": "斜侧面的细长身体",
+        "alt": "黑叉齿龙鱼：斜侧面的细长身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。斜侧视角观察身体与鱼鳍。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/black-swallower/05-observation.webp",
+        "title": "深水环境",
+        "alt": "黑叉齿龙鱼：深水环境，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。照明为情景重建，非自然光或地点记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/black-swallower/06-observation.webp",
+        "title": "腹部轮廓示意",
+        "alt": "黑叉齿龙鱼：腹部轮廓示意，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。胃部扩张的概念外观示意，非实测比例、标本复刻或摄食记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：分类、分布与全球保护评估日期",
+      "url": "https://www.fishbase.se/summary/Chiasmodon-niger.html",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "WHOI：黑叉齿龙鱼身体与生活环境",
+      "url": "https://www.whoi.edu/ocean-learning-hub/ocean-facts/black-swallower/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "爱尔兰国家博物馆：扩张胃部的馆藏标本",
+      "url": "https://www.museum.ie/getmedia/cd11862c-a1a7-4691-a39f-d8f77f2268ea/nhm_guide_web_en.pdf",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
