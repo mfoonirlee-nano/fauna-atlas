@@ -4821,5 +4821,18 @@
       },
       "sha256": "b8b52280cca7950d35600c6f3703825f65fc72b77640370344b9cabb0675d523"
     }
+  },
+  "blue-tailed-giant-larvacean": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 190,
+        "right": 1455,
+        "bottom": 834
+      },
+      "sha256": "3e1e89e4e5c84337d6791512663f6532c1edb32e9f38a6e3fedfd2ef39cd6ef0"
+    }
   }
 }

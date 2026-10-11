@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Create ONE landscape 1536x1024 wildlife atlas cover, scientifically grounded AI reconstruction of Bathochordaeus mcnutti, blue-tailed giant larvacean. Dark navy midwater Monterey Bay backdrop. A SINGLE translucent compact oval trunk connected to a long wide flattened transparent paddle tail edged with a fine vivid blue line, subtly visible internal structures, NO eyes like a fish, NO fins, NO legs, NO jellyfish tentacles. Show the complete animal and its delicate transparent mucus filter house, an irregular double-layer veil with internal filter lobes, not a solid bubble. House is much larger than the animal. Entire subject group including house lies within x=650..1450 y=150..880, visually centered on right 70%, left 40% quiet empty dark water for title. Prominent clear body, full tail and complete house with real water margin around all sides. Realistic ROV illumination, no text no watermark no labels.\nFinal composition edit: Edit composition ONLY. Preserve species anatomy and natural textures. Reduce subject group to 70 percent current size and MOVE RIGHT. ENTIRE subject including every antenna, leg, tail filament, wing, and mucus house where present fits inside RIGHT HALF of 1536x1024 canvas x=650..1460 y=130..900. Left 40 percent completely quiet habitat with no animal parts. Maximize entire subject within box. Real background margin around every feature, no text no watermark.",
+      "sourceSha256": "17c727f15018c7833e3398e4fd52dbeb05f76282c38b8b3a841ce530baadbfd3",
+      "runtimeSha256": "3e1e89e4e5c84337d6791512663f6532c1edb32e9f38a6e3fedfd2ef39cd6ef0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Bathochordaeus mcnutti. Single compact translucent oval trunk connected to long broad flat paddle-shaped transparent tail with fine vivid blue margin and central notochord. No fish eyes fins legs or jellyfish tentacles. Dark navy Monterey Bay midwater, ROV illumination. Scene: Complete translucent animal alone outside mucus house, full trunk and entire blue-edged paddle tail. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "2bf3472830038d48bead05f0d436183be42e46fc9779da0abc267b4fc84ad42a",
+      "runtimeSha256": "b464f679f91701aae453b36884686bd7dd85ca9429fd72b502553805746d7cd4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Bathochordaeus mcnutti. Single compact translucent oval trunk connected to long broad flat paddle-shaped transparent tail with fine vivid blue margin and central notochord. No fish eyes fins legs or jellyfish tentacles. Dark navy Monterey Bay midwater, ROV illumination. Scene: Close view of trunk and base of blue-edged tail, natural semitransparent internal structures not a cutaway. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "0da93f934c6312a783847a11c99f8a050e0827b1bd37269bae9551266ea09899",
+      "runtimeSha256": "ed5d9a06d42cc84cccca35a2b793baacdcb8a43ccb7e0c73c340ef0f331640f5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Bathochordaeus mcnutti. Single compact translucent oval trunk connected to long broad flat paddle-shaped transparent tail with fine vivid blue margin and central notochord. No fish eyes fins legs or jellyfish tentacles. Dark navy Monterey Bay midwater, ROV illumination. Scene: Small animal inside large irregular double-layer translucent mucus house, distinct body and filter structure, not a solid bubble. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "6df7e17ba7369310840a4ee11d7a3a570b53fcf77368fd20644a8dd9b91daed9",
+      "runtimeSha256": "eae8ac5d56d79fb18646a7ad51a85b47e457aba8a69e44cfffc79e239b188cfd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Bathochordaeus mcnutti. Single compact translucent oval trunk connected to long broad flat paddle-shaped transparent tail with fine vivid blue margin and central notochord. No fish eyes fins legs or jellyfish tentacles. Dark navy Monterey Bay midwater, ROV illumination. Scene: Animal just outside empty abandoned sagging mucus filter house, clearly separate individual and empty house. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "a41467a001a909efb70084ed2e4d7027333c58569f2a0e581bfaa57939852264",
+      "runtimeSha256": "851ce3a20eb2c3cbed31718ca14fc4985e426dc3eb12c47d1fed218242a638f6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Bathochordaeus mcnutti. Single compact translucent oval trunk connected to long broad flat paddle-shaped transparent tail with fine vivid blue margin and central notochord. No fish eyes fins legs or jellyfish tentacles. Dark navy Monterey Bay midwater, ROV illumination. Scene: Oblique view of compact trunk and long gently curved flat tail in open dark water, entire animal visible. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "d8341369eea0f6fba1fe42c7aa19b4ac76b47d329a5359e58123647afe50beba",
+      "runtimeSha256": "dd505c5804e3ecab8022134889e9a2981ccabcd9446c9e9ed15429508a54efcd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

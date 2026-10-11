@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "blue-tailed-giant-larvacean",
+    "match": {
+      "usageKey": 9603764,
+      "scientificName": "Bathochordaeus mcnutti Sherlock, Walz, Schlining & Robison, 2017",
+      "canonicalName": "Bathochordaeus mcnutti",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Copelata",
+      "family": "Oikopleuridae",
+      "genus": "Bathochordaeus",
+      "species": "Bathochordaeus mcnutti",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1441,
+      "familyKey": 3394,
+      "genusKey": 4356845,
+      "speciesKey": 9603764
+    }
+  }
+]

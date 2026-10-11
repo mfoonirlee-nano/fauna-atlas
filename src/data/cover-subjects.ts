@@ -5502,4 +5502,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 565
     }
   },
+  "blue-tailed-giant-larvacean": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 190,
+      "right": 1455,
+      "bottom": 834
+    }
+  },
 };

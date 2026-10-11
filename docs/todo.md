@@ -1,6 +1,6 @@
 # 制作清单：拓展动物界的 100 种新动物
 
-2026-10-11 更新：本轮新增 100 种选题，已完成 50 种，现有 550 份物种档案，剩余 50 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)和[接续鱼类五种记录](research/todo-expansion-next-fish-five-2026-10-11.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
+2026-10-11 更新：本轮新增 100 种选题，已完成 51 种，现有 551 份物种档案，剩余 49 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](research/todo-expansion-next-fish-five-2026-10-11.md)和[尾海鞘与昆虫五种记录](research/todo-expansion-invertebrate-five-2026-10-11.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
 
 上一轮动物完成记录见[上一轮归档](research/todo-completed-2026-09-30.md)和[最后五种研究与验收记录](research/todo-final-five-2026-10-09.md)，更早记录见[历史归档](research/todo-completed-2026-09-23.md)。微生物实现与验证见[专题说明](microbes-topic.md)。
 
@@ -24,21 +24,19 @@
 | 鸟类 | 0 | 潜水、夜行、育幼与食物专化 |
 | 爬行动物 | 0 | 肢体差异、滑翔、软壳与攀爬 |
 | 两栖动物 | 0 | 外鳃、无肺、直接发育与无足身体 |
-| 鱼类与其他脊索动物 | 1 | 软骨鱼、特殊呼吸与无脊柱的脊索动物 |
+| 鱼类与其他脊索动物 | 0 | 软骨鱼、特殊呼吸与无脊柱的脊索动物 |
 | 昆虫与其他节肢动物 | 19 | 少见昆虫目、六足近邻、微小甲壳类与蛛形动物 |
 | 其他无脊椎动物 | 30 | 少见动物门、固着、群体、寄生与显微生活 |
-| 动物合计 | 50 | 本轮已完成 50 种 |
+| 动物合计 | 49 | 本轮已完成 51 种 |
 | 微生物专题（另计） | 0 | 10 个选题已完成 |
 
 ## 两栖动物（已完成）
 
 本组已完成，见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)。
 
-## 鱼类与其他脊索动物（1 种）
+## 鱼类与其他脊索动物（已完成）
 
-本组剩余的尾海鞘属于脊索动物门，没有脊柱，制作时不得归入鱼类。
-
-- [ ] 巨型尾海鞘（中文名待核） *Bathochordaeus mcnutti*：终生保留尾部的被囊动物与黏液滤食房。共读：“找找透明房子里的小身体和尾巴。”房子大小不能当作身体大小。[行为依据：MBARI](https://annualreport.mbari.org/2018/story/discovering-animals-never-seen-before)。
+本组已完成，见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)。其中巨型尾海鞘属于脊索动物门，没有脊柱，不归入鱼类。
 
 ## 昆虫与其他节肢动物（19 种）
 

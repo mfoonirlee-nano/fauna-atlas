@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 50 种，动物目录增至 550 种，活动清单剩余 50 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)和[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)。
+本轮目标为新增 100 种动物；累计完成 51 种，动物目录增至 551 种，活动清单剩余 49 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)和[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -70,3 +70,5 @@
 - [x] 泥鳅 *Misgurnus anguillicaudatus*：身边淡水鱼与辅助呼吸。共读：“找找嘴周围的小须。”肠呼吸用资料解释。
 - [x] 斑点雀鳝 *Lepisosteus oculatus*：雀鳝类与菱形硬鳞。共读：“看看长嘴，再近看身上的鳞片。”
 - [x] 塞内加尔多鳍鱼 *Polypterus senegalus*：多鳍鱼类与分开的背鳍。共读：“沿着背找找一片片小鳍。”
+
+- [x] 巨型尾海鞘（中文名待核） *Bathochordaeus mcnutti*：终生保留尾部的被囊动物与黏液滤食房。共读：“找找透明房子里的小身体和尾巴。”房子大小不能当作身体大小。[行为依据：MBARI](https://annualreport.mbari.org/2018/story/discovering-animals-never-seen-before)。

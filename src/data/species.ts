@@ -150302,6 +150302,242 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "blue-tailed-giant-larvacean",
+  "slug": "blue-tailed-giant-larvacean",
+  "names": {
+    "zh": "巨型尾海鞘",
+    "en": "Blue-tailed Giant Larvacean"
+  },
+  "scientificName": "Bathochordaeus mcnutti",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Appendicularia",
+      "zhName": "尾海鞘纲"
+    },
+    "order": {
+      "scientificName": "Copelata",
+      "zhName": "有尾目"
+    },
+    "family": {
+      "scientificName": "Oikopleuridae",
+      "zhName": "住囊虫科"
+    },
+    "genus": {
+      "scientificName": "Bathochordaeus",
+      "zhName": "巨型尾海鞘属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "东北太平洋蒙特雷湾"
+    ],
+    "countries": [],
+    "range": "原始描述来自美国加利福尼亚蒙特雷湾的中层水域。研究录像中多数个体出现在约 90–120 米深处；这是当地样本的集中深度，不能当作全球深度上下限。"
+  },
+  "habitats": [
+    {
+      "name": "海洋中层水域",
+      "realm": "marine",
+      "description": "原始描述来自美国加利福尼亚蒙特雷湾的中层水域。研究录像中多数个体出现在约 90–120 米深处；这是当地样本的集中深度，不能当作全球深度上下限。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "filter-feeder"
+    ],
+    "foods": [
+      "悬浮有机颗粒",
+      "浮游微小生物"
+    ],
+    "description": "它摆动尾部推动海水穿过滤食房，收集悬浮的小颗粒。外层和内层滤网承担不同过滤作用，堵塞后的房子会被舍弃。静图只能展示外形，过滤水流须看研究影像。"
+  },
+  "tags": [
+    "巨型尾海鞘",
+    "海洋中层水域"
+  ],
+  "summary": "巨型尾海鞘：透明身体、蓝边长尾与黏液滤食房。",
+  "description": "小而透明的躯干连接宽而扁的长尾，尾缘有蓝色线条。成体保留尾部及脊索，没有脊柱。它属于被囊动物，图中的大房子是分泌的黏液滤食结构，身体大小与房子大小分别理解。原始描述来自美国加利福尼亚蒙特雷湾的中层水域。研究录像中多数个体出现在约 90–120 米深处；这是当地样本的集中深度，不能当作全球深度上下限。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "小而透明的躯干连接宽而扁的长尾，尾缘有蓝色线条。成体保留尾部及脊索，没有脊柱。它属于被囊动物，图中的大房子是分泌的黏液滤食结构，身体大小与房子大小分别理解。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "原始描述来自美国加利福尼亚蒙特雷湾的中层水域。研究录像中多数个体出现在约 90–120 米深处；这是当地样本的集中深度，不能当作全球深度上下限。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "它摆动尾部推动海水穿过滤食房，收集悬浮的小颗粒。外层和内层滤网承担不同过滤作用，堵塞后的房子会被舍弃。静图只能展示外形，过滤水流须看研究影像。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "它终生在海水中浮游，成体仍有尾部。原始描述记录有卵和精巢的成熟个体；尾海鞘名称中的“尾”不表示图中个体只是其他海鞘的幼体。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Bathochordaeus mcnutti，采用 脊索动物门、尾海鞘纲、有尾目、住囊虫科。GBIF 名称匹配缺少纲字段，尾海鞘纲依据原始物种描述补充。巨型尾海鞘及其属级中文名为项目展示标签，未核实权威中文通名。分类图谱只表示归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "先找透明房子里的躯干，再沿着蓝色边缘找完整的尾巴。房子是黏液结构，不能算作身体；蓝边、滤网褶皱和内部结构为 AI 重建，图像不按实测比例。本次未核实 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "小而透明的躯干连接宽而扁的长尾，尾缘有蓝色线条。成体保留尾部及脊索，没有脊柱。它属于被囊动物，图中的大房子是分泌的黏液滤食结构，身体大小与房子大小分别理解。",
+    "它终生在海水中浮游，成体仍有尾部。原始描述记录有卵和精巢的成熟个体；尾海鞘名称中的“尾”不表示图中个体只是其他海鞘的幼体。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [
+    "海洋颗粒污染及其食物网传递需要监测"
+  ],
+  "conservationActions": [
+    "减少塑料进入海洋",
+    "通过无干扰水下观测研究浮游动物"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "先找透明房子里的躯干，再沿着蓝色边缘找完整的尾巴。房子是黏液结构，不能算作身体；蓝边、滤网褶皱和内部结构为 AI 重建，图像不按实测比例。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/blue-tailed-giant-larvacean/01-cover.webp",
+    "alt": "巨型尾海鞘及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/blue-tailed-giant-larvacean/02-observation.webp",
+        "title": "房子外的身体",
+        "alt": "巨型尾海鞘：房子外的身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。完整躯干与蓝边长尾；身体及尾的比例非实测。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tailed-giant-larvacean/03-observation.webp",
+        "title": "透明躯干与尾基",
+        "alt": "巨型尾海鞘：透明躯干与尾基，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。放大重建；内部结构不能代替解剖依据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tailed-giant-larvacean/04-observation.webp",
+        "title": "黏液滤食房",
+        "alt": "巨型尾海鞘：黏液滤食房，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。个体与周围黏液房分别观察；滤网形态为近似重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tailed-giant-larvacean/05-observation.webp",
+        "title": "身体与旧房子",
+        "alt": "巨型尾海鞘：身体与旧房子，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。舍弃滤食房的情景重建；静图不能证明动作先后。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/blue-tailed-giant-larvacean/06-observation.webp",
+        "title": "海水中的长尾",
+        "alt": "巨型尾海鞘：海水中的长尾，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。斜侧面身体外观；蓝色尾缘不表示尾部会发光。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/9603764",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "原始物种描述：形态、生态与成熟个体",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5159439/",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "MBARI：新发现动物与尾海鞘",
+      "url": "https://annualreport.mbari.org/2018",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "研究：滤食与碳输送",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5415331/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

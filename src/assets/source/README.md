@@ -795,3 +795,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [泥鳅 image set](./species/pond-loach/README.md)
 - [斑点雀鳝 image set](./species/spotted-gar/README.md)
 - [塞内加尔多鳍鱼 image set](./species/senegal-bichir/README.md)
+
+- [巨型尾海鞘 image set](./species/blue-tailed-giant-larvacean/README.md)
