@@ -26996,3 +26996,38 @@ test('October 11 larvacean and insects retain life-stage distinctions and review
   assert.match(scorpionfly.media.gallery[2].caption, /雌性/);
   assert.match(scorpionfly.media.gallery[3].caption, /生殖.*非毒刺/);
 });
+
+test('October 11 next insects distinguish free-living females, nymphs and defence diagrams', async () => {
+  const entries = [
+    ['snakefly', 'Raphidia ophiopsis', 'Raphidioptera', 'Raphidiidae'],
+    ['mengenilla-chobauti', 'Mengenilla chobauti', 'Strepsiptera', 'Mengenillidae'],
+    ['european-mole-cricket', 'Gryllotalpa gryllotalpa', 'Orthoptera', 'Gryllotalpidae'],
+    ['bombardier-beetle', 'Brachinus crepitans', 'Coleoptera', 'Carabidae'],
+    ['pea-aphid', 'Acyrthosiphon pisum', 'Hemiptera', 'Aphididae'],
+  ];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  for (const [slug, name, order, family] of entries) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.class.scientificName, 'Insecta');
+    assert.equal(profile.taxonomy.order.scientificName, order);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.ok(!todo.split('\n').some((line) => line.startsWith('- [ ]') && line.includes(name)));
+    assert.match(profile.conservation.assessor, /未核实.*全球评估/);
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true,
+    });
+  }
+  const parasite = findSpecies('mengenilla-chobauti');
+  assert.match(parasite.media.gallery[2].caption, /雌性.*无翅.*保留足.*离开宿主/);
+  assert.match(parasite.diet.description, /Ctenolepisma ciliata/);
+  assert.match(findSpecies('european-mole-cricket').media.gallery[2].caption, /若虫.*没有.*成虫翅膀/);
+  assert.match(findSpecies('european-mole-cricket').conservation.assessor, /区域等级.*全球等级/);
+  assert.match(findSpecies('bombardier-beetle').media.gallery[3].caption, /防御腺剖面示意.*不是喷火/);
+  const aphid = findSpecies('pea-aphid');
+  assert.match(aphid.media.gallery[2].caption, /有翅成虫/);
+  assert.match(aphid.media.gallery[3].caption, /若虫/);
+  assert.match(aphid.media.gallery[4].caption, /体色不表示性别/);
+  assert.match(aphid.diet.description, /腹管不是.*嘴/);
+});
