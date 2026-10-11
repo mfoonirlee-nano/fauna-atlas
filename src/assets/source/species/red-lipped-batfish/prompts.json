@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Edit the wildlife atlas cover. Flatten the body into a low horizontal triangular disc; remove the tall triangular back hump completely. Ogcocephalus darwini has a horizontally broad flattened body, low profile, thin narrow tail and limb-like pectoral fins, red lips and short bony snout. Smooth finely rough skin, no huge sharp dorsal crest. Recompose the prominent entire fish including every visible fin, snout, barbels and tail entirely within x=650 to 1470 of the 1536x1024 canvas. Quiet simple underwater environment on left 40 percent, reduce distracting foreground plants and rocks there. Complete silhouette with real background around every extremity, centered near x=1060. Preserve natural underwater lighting, no text no labels no watermark.\nFinal composition edit: Edit composition ONLY. The fish currently reaches into the left half. REDUCE THE FISH TO 70% OF ITS CURRENT SIZE and move it RIGHT so that the WHOLE fish sits inside the RIGHT HALF of the picture. Nose and all whiskers start at 45% of image width; tail finishes at 95% of image width. Leave the LEFT 40% ENTIRELY EMPTY WATER with no animal, fins or snout. This is a webpage title area. Keep exact fish anatomy, natural underwater lighting and detailed textures. Full silhouette clear with real background margins on all four sides. No text no watermark. Landscape 1536x1024.",
+      "sourceSha256": "0286c001de70c2c771d4431082f23963aa7fdde6e74c7bd473a38ff683e70498",
+      "runtimeSha256": "7b617c8330121226f99d19399c6b9213efa29e65d1b09c664f37e698f6149d11",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Ogcocephalus darwini Galapagos batfish. Brown flattened triangular disk body, bony pointed snout, distinct small red lips, pectoral and pelvic fins supporting body on sandy seafloor, narrow tail. Scene: Full adult from above showing broad triangular disc and narrow tail, on sandy bottom. Natural scientific reconstruction with accurate species anatomy and detailed textures. Centered prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "f5f4f1654001e2ea01edac7999d86be78f553440dd24ca39950771b4ed5dcedb",
+      "runtimeSha256": "881e35e95c71b8f4efb2cfa35d778f78631f60a1e2756b9a671b0893805283e1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Ogcocephalus darwini Galapagos batfish. Brown flattened triangular disk body, bony pointed snout, distinct small red lips, pectoral and pelvic fins supporting body on sandy seafloor, narrow tail. Scene: Close frontal three-quarter face showing small red lips and pointed bony snout, no human lipstick. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "cd2c9ec9aceea419d4cec8834d753eb9eedf0758dcf308d5b0250cab9fcdd2c5",
+      "runtimeSha256": "fc791507f0e6c1aaa5c140d2b060bcbb42699162d73096965b8d28d3074a3bcf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Ogcocephalus darwini Galapagos batfish. Brown flattened triangular disk body, bony pointed snout, distinct small red lips, pectoral and pelvic fins supporting body on sandy seafloor, narrow tail. Scene: Low side view showing fish supported by bent pectoral and pelvic fins on sand, full body visible. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "89aaf0d4373b032f8bcd45e034617f9eea7f0a378639affe62e79fcd71315c4d",
+      "runtimeSha256": "1a419ede55d692f1321fd0ab3d05e372c3823fa29d23d83be90b612b4d1fe1f6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Ogcocephalus darwini Galapagos batfish. Brown flattened triangular disk body, bony pointed snout, distinct small red lips, pectoral and pelvic fins supporting body on sandy seafloor, narrow tail. Scene: Entire adult among sparse rocky sandy seafloor, no colorful tropical coral scene. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "996aaaf1b8005423f55be5f9b1202d36de7bc580ab2afe9c66159292e603c328",
+      "runtimeSha256": "18265c5b842b9fafcdd752daac10fe887b241bae0f32919d55cb5a0066281ac1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic underwater wildlife atlas gallery image. Ogcocephalus darwini Galapagos batfish. Brown flattened triangular disk body, bony pointed snout, distinct small red lips, pectoral and pelvic fins supporting body on sandy seafloor, narrow tail. Scene: Rear three-quarter view showing narrow tail behind broad flattened body, all fin extremities visible. Natural scientific reconstruction with accurate species anatomy and detailed textures. Prominent subject, natural illumination. No text no labels no watermark no scale bars.",
+      "sourceSha256": "0748798cb81a2afa4569bcd41bfff93a0fb8a020797260be5c53668e6abdc391",
+      "runtimeSha256": "4f3fdc5070ccd6fb98f82e5b2223dd8c12d60d8f3cecc43ab8a6f91b7c1d6b99",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

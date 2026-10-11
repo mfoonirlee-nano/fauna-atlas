@@ -791,3 +791,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [月鱼 image set](./species/north-atlantic-opah/README.md)
 
 - [黑叉齿龙鱼 image set](./species/black-swallower/README.md)
+- [达尔文蝙蝠鱼 image set](./species/red-lipped-batfish/README.md)

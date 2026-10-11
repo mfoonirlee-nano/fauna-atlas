@@ -5462,4 +5462,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 563
     }
   },
+  "red-lipped-batfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 744,
+      "top": 425,
+      "right": 1478,
+      "bottom": 781
+    }
+  },
 };

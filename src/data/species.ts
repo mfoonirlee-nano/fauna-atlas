@@ -149394,6 +149394,232 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "red-lipped-batfish",
+  "slug": "red-lipped-batfish",
+  "names": {
+    "zh": "达尔文蝙蝠鱼",
+    "en": "Galápagos Batfish"
+  },
+  "scientificName": "Ogcocephalus darwini",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Chordata",
+      "zhName": "脊索动物门"
+    },
+    "class": {
+      "scientificName": "Actinopterygii",
+      "zhName": "辐鳍鱼纲"
+    },
+    "order": {
+      "scientificName": "Lophiiformes",
+      "zhName": "鮟鱇目"
+    },
+    "family": {
+      "scientificName": "Ogcocephalidae",
+      "zhName": "蝙蝠鱼科"
+    },
+    "genus": {
+      "scientificName": "Ogcocephalus",
+      "zhName": "蝙蝠鱼属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "LC",
+    "label": {
+      "zh": "无危",
+      "en": "Least Concern"
+    },
+    "trend": "unknown",
+    "assessedYear": 2022,
+    "assessor": "FishBase 转录 IUCN 全球 LC，评估日期为 2022-09-13；全球种群趋势未独立核实。"
+  },
+  "distribution": {
+    "realms": [
+      "marine"
+    ],
+    "continents": [],
+    "regions": [
+      "东南太平洋加拉帕戈斯群岛至秘鲁"
+    ],
+    "countries": [],
+    "range": "FishBase 记录本种分布在东南太平洋的加拉帕戈斯群岛至秘鲁海域，常见于沙质底部。加州科学院研究提供加拉帕戈斯本种的自然照片与分类讨论，不把蝙蝠鱼科其他物种混作本种。"
+  },
+  "habitats": [
+    {
+      "name": "浅海沙质海底",
+      "realm": "marine",
+      "description": "FishBase 记录本种分布在东南太平洋的加拉帕戈斯群岛至秘鲁海域，常见于沙质底部。加州科学院研究提供加拉帕戈斯本种的自然照片与分类讨论，不把蝙蝠鱼科其他物种混作本种。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "小型无脊椎动物"
+    ],
+    "description": "资料把本种描述为可能捕食小型无脊椎动物的底栖鱼。这里保留资料中的不确定程度，不给红色嘴唇补造诱饵、警告或求偶功能。"
+  },
+  "tags": [
+    "达尔文蝙蝠鱼",
+    "浅海沙质海底"
+  ],
+  "summary": "达尔文蝙蝠鱼：扁平身体和支撑在沙上的鱼鳍。",
+  "description": "身体前部扁而宽，向尾部收窄，吻部向前突出，嘴唇可呈红色。胸鳍与腹鳍能支撑身体。看图找身体下方的鳍，移动方式需用连续影像观察。FishBase 记录本种分布在东南太平洋的加拉帕戈斯群岛至秘鲁海域，常见于沙质底部。加州科学院研究提供加拉帕戈斯本种的自然照片与分类讨论，不把蝙蝠鱼科其他物种混作本种。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "外形观察",
+      "title": "扁平身体和支撑在沙上的鱼鳍",
+      "body": "身体前部扁而宽，向尾部收窄，吻部向前突出，嘴唇可呈红色。胸鳍与腹鳍能支撑身体。看图找身体下方的鳍，移动方式需用连续影像观察。"
+    },
+    {
+      "key": "ecology",
+      "label": "生活环境",
+      "title": "浅海沙质海底",
+      "body": "FishBase 记录本种分布在东南太平洋的加拉帕戈斯群岛至秘鲁海域，常见于沙质底部。加州科学院研究提供加拉帕戈斯本种的自然照片与分类讨论，不把蝙蝠鱼科其他物种混作本种。"
+    },
+    {
+      "key": "feeding",
+      "label": "食物与身体",
+      "title": "寻找食物",
+      "body": "资料把本种描述为可能捕食小型无脊椎动物的底栖鱼。这里保留资料中的不确定程度，不给红色嘴唇补造诱饵、警告或求偶功能。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "成体与早期生活",
+      "body": "本批未找到可核实的本种产卵数量、育幼行为与幼体外观，图库均采用成体情景重建，不套用其他鮟鱇鱼的繁殖方式。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "名称对应的物种",
+      "body": "本种学名为 Ogcocephalus darwini，采用辐鳍鱼纲、鮟鱇目、蝙蝠鱼科。分类图谱表示归属关系，不表示祖先关系或演化时间。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "先找图中可见的特点",
+      "body": "身体下方像小脚的部分是鱼鳍。共读时先找鳍与尾部，再用研究照片对照红色嘴唇；生成图不能用于计数鳍条。 FishBase 转录 IUCN 全球 LC，评估日期为 2022-09-13；全球种群趋势未独立核实。"
+    }
+  ],
+  "keyFacts": [
+    "身体前部扁而宽，向尾部收窄，吻部向前突出，嘴唇可呈红色。胸鳍与腹鳍能支撑身体。看图找身体下方的鳍，移动方式需用连续影像观察。",
+    "身体下方像小脚的部分是鱼鳍。共读时先找鳍与尾部，再用研究照片对照红色嘴唇；生成图不能用于计数鳍条。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "观察海底动物时保持距离",
+    "记录本种与同属近似种的区别"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "观察重点",
+      "value": "扁平身体和支撑在沙上的鱼鳍"
+    }
+  ],
+  "media": {
+    "image": "./images/species/red-lipped-batfish/01-cover.webp",
+    "alt": "达尔文蝙蝠鱼及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/red-lipped-batfish/02-observation.webp",
+        "title": "从上方看扁平身体",
+        "alt": "达尔文蝙蝠鱼：从上方看扁平身体，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。背面观察宽阔身体与较细尾部。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-lipped-batfish/03-observation.webp",
+        "title": "红色嘴唇与吻部",
+        "alt": "达尔文蝙蝠鱼：红色嘴唇与吻部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。前侧视角观察脸部，不解释颜色的功能。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-lipped-batfish/04-observation.webp",
+        "title": "支撑身体的鱼鳍",
+        "alt": "达尔文蝙蝠鱼：支撑身体的鱼鳍，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。姿态重建；静图不证明行走动作。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-lipped-batfish/05-observation.webp",
+        "title": "沙地与岩石旁",
+        "alt": "达尔文蝙蝠鱼：沙地与岩石旁，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。海底环境重建，非地点记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/red-lipped-batfish/06-observation.webp",
+        "title": "身体后方与尾部",
+        "alt": "达尔文蝙蝠鱼：身体后方与尾部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。后侧观察身体轮廓与尾鳍。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "FishBase：分类、分布与全球保护评估日期",
+      "url": "https://www.fishbase.se/summary/Ogcocephalus-darwini.html",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "加州科学院：加拉帕戈斯蝙蝠鱼研究与本种照片",
+      "url": "https://www.calacademy.org/sites/default/files/assets/ibss/departments/ichthyology/bradbury_et_al._dibranchus_galapagos_lo_res.pdf",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "史密森研究所：蝙蝠鱼属鳍与身体结构",
+      "url": "https://biogeodb.stri.si.edu/caribbean/en/thefishes/taxon/775",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
