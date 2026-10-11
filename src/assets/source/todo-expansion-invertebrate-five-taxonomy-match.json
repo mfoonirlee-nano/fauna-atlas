@@ -100,5 +100,31 @@
       "speciesKey": 1442474,
       "class": "Insecta"
     }
+  },
+  {
+    "slug": "common-scorpionfly",
+    "match": {
+      "usageKey": 5742495,
+      "scientificName": "Panorpa communis Linnaeus, 1758",
+      "canonicalName": "Panorpa communis",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "order": "Mecoptera",
+      "family": "Panorpidae",
+      "genus": "Panorpa",
+      "species": "Panorpa communis",
+      "kingdomKey": 1,
+      "phylumKey": 54,
+      "classKey": 216,
+      "orderKey": 1000,
+      "familyKey": 7925,
+      "genusKey": 1031814,
+      "speciesKey": 5742495,
+      "class": "Insecta"
+    }
   }
 ]

@@ -5542,4 +5542,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 765
     }
   },
+  "common-scorpionfly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 135,
+      "right": 1480,
+      "bottom": 825
+    }
+  },
 };

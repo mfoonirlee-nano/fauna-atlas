@@ -4873,5 +4873,18 @@
       },
       "sha256": "cf18c1c1e2de371b4aebac4d375664ea3a5ac5469c967c58e4134f553f949ba9"
     }
+  },
+  "common-scorpionfly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 135,
+        "right": 1480,
+        "bottom": 825
+      },
+      "sha256": "7c95dc55416298b137d8f7f077802b08f962339d82c604d6da7c8ddc848843cd"
+    }
   }
 }

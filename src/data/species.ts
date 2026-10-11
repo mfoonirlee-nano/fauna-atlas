@@ -151243,6 +151243,241 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "common-scorpionfly",
+  "slug": "common-scorpionfly",
+  "names": {
+    "zh": "普通蝎蛉",
+    "en": "Common Scorpionfly"
+  },
+  "scientificName": "Panorpa communis",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Mecoptera",
+      "zhName": "长翅目"
+    },
+    "family": {
+      "scientificName": "Panorpidae",
+      "zhName": "蝎蛉科"
+    },
+    "genus": {
+      "scientificName": "Panorpa",
+      "zhName": "蝎蛉属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲树篱与林缘"
+    ],
+    "countries": [],
+    "range": "本档案以英国和欧洲观察记录为介绍范围，常见于树篱、荨麻丛与林缘植被。英国近似种需要检查生殖结构区分；生成图不支持种级鉴定。"
+  },
+  "habitats": [
+    {
+      "name": "树篱与林缘植被",
+      "realm": "terrestrial",
+      "description": "本档案以英国和欧洲观察记录为介绍范围，常见于树篱、荨麻丛与林缘植被。英国近似种需要检查生殖结构区分；生成图不支持种级鉴定。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "carnivore"
+    ],
+    "foods": [
+      "成虫取食死昆虫"
+    ],
+    "description": "成虫主要取食死昆虫，也会从蜘蛛网中取得食物。英国蜘蛛学会的观察论文记录了 Panorpa 属个体在蛛网上取食，包括本种；图库不把静止姿态当作取食证据。"
+  },
+  "tags": [
+    "普通蝎蛉",
+    "树篱与林缘植被"
+  ],
+  "summary": "普通蝎蛉：长口部与雌雄不同的腹端。",
+  "description": "长长的口部向下伸出，透明翅膀带深色斑纹。雄虫腹部末端向上弯曲，末端是生殖结构，没有蝎子的毒刺；雌虫腹端形状不同，不能给雌虫套上雄虫的弯曲尾端。本档案以英国和欧洲观察记录为介绍范围，常见于树篱、荨麻丛与林缘植被。英国近似种需要检查生殖结构区分；生成图不支持种级鉴定。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "长长的口部向下伸出，透明翅膀带深色斑纹。雄虫腹部末端向上弯曲，末端是生殖结构，没有蝎子的毒刺；雌虫腹端形状不同，不能给雌虫套上雄虫的弯曲尾端。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "本档案以英国和欧洲观察记录为介绍范围，常见于树篱、荨麻丛与林缘植被。英国近似种需要检查生殖结构区分；生成图不支持种级鉴定。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "成虫主要取食死昆虫，也会从蜘蛛网中取得食物。英国蜘蛛学会的观察论文记录了 Panorpa 属个体在蛛网上取食，包括本种；图库不把静止姿态当作取食证据。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "本批图库展示有翅成虫及雌雄外观。NatureSpot 的记录提醒本属英国近似种需要检查雄虫生殖囊或雌虫产卵器。生殖结构的细节须用标本和显微依据，AI 放大图只用于共读。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Panorpa communis，采用 节肢动物门、昆虫纲、长翅目、蝎蛉科。中文名沿用选题展示标签，不宣称为统一规范通名。分类图谱只表示归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "先找长长的口部，再对照雄虫弯曲的腹端与雌虫较直的腹端。告诉孩子弯曲部分是生殖结构，不是毒刺。翅斑与生殖囊细节为近似重建，不能靠它们识别野外个体。本次未核实 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "长长的口部向下伸出，透明翅膀带深色斑纹。雄虫腹部末端向上弯曲，末端是生殖结构，没有蝎子的毒刺；雌虫腹端形状不同，不能给雌虫套上雄虫的弯曲尾端。",
+    "本批图库展示有翅成虫及雌雄外观。NatureSpot 的记录提醒本属英国近似种需要检查雄虫生殖囊或雌虫产卵器。生殖结构的细节须用标本和显微依据，AI 放大图只用于共读。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [
+    "树篱与林缘植被损失"
+  ],
+  "conservationActions": [
+    "保留树篱、林缘与自然植被",
+    "减少对昆虫栖息地的干扰"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "先找长长的口部，再对照雄虫弯曲的腹端与雌虫较直的腹端。告诉孩子弯曲部分是生殖结构，不是毒刺。翅斑与生殖囊细节为近似重建，不能靠它们识别野外个体。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/common-scorpionfly/01-cover.webp",
+    "alt": "普通蝎蛉及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/common-scorpionfly/02-observation.webp",
+        "title": "雄虫的长口部与腹端",
+        "alt": "普通蝎蛉：雄虫的长口部与腹端，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雄性有翅成虫；弯曲腹端为生殖结构，没有毒刺。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-scorpionfly/03-observation.webp",
+        "title": "向下伸出的口部",
+        "alt": "普通蝎蛉：向下伸出的口部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫头部放大外观；不是吸血或毒液注射器官的示意。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-scorpionfly/04-observation.webp",
+        "title": "雌虫的腹端",
+        "alt": "普通蝎蛉：雌虫的腹端，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雌性有翅成虫，腹端较直；与雄性图分开比较。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-scorpionfly/05-observation.webp",
+        "title": "雄虫的生殖囊",
+        "alt": "普通蝎蛉：雄虫的生殖囊，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雄性生殖结构放大重建，非毒刺；不用于显微鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/common-scorpionfly/06-observation.webp",
+        "title": "林缘叶片上的雄虫",
+        "alt": "普通蝎蛉：林缘叶片上的雄虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。雄性有翅成虫与林缘环境；翅斑为近似重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/5742495",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "NatureSpot：本种记录、雌雄结构与食性",
+      "url": "https://www.naturespot.org/species/scorpion-fly",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "英国蜘蛛学会：蝎蛉在蛛网取食的观察",
+      "url": "https://britishspiders.org.uk/system/files/library/090402.pdf",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "EPPO：接受名称与分类入口",
+      "url": "https://gd.eppo.int/taxon/PNRPCO",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

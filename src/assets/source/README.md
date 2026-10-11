@@ -800,3 +800,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [丹麦蜉蝣 image set](./species/green-drake-mayfly/README.md)
 - [加州大石蝇 image set](./species/giant-salmonfly/README.md)
 - [月斑石蛾 image set](./species/lunated-caddisfly/README.md)
+- [普通蝎蛉 image set](./species/common-scorpionfly/README.md)

@@ -24362,7 +24362,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 554);
+  assert.equal(species.length, 555);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24420,7 +24420,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 75);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 76);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24470,7 +24470,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cardiida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cardiidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Tridacna')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 46);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 47);
   assert.equal(findTaxon(tree, 'order', 'Hemiptera')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cicadidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Magicicada')?.speciesCount, 1);
@@ -24533,7 +24533,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 554);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 555);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -26730,7 +26730,7 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   assert.doesNotMatch(todo, /- \[x\]/);
   const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
-  assert.equal(pendingNames.length, 46);
+  assert.equal(pendingNames.length, 45);
   for (const profile of species) {
     assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
   }
@@ -26958,4 +26958,41 @@ test('October 9 fifteen animals retain revised identities, lifecycle stages and 
   assert.match(findSpecies('common-diving-petrel').media.gallery[2].caption, /翅膀参与推进/);
   assert.match(findSpecies('orange-footed-scrubfowl').media.gallery[2].caption, /剖面示意[\s\S]*没有坐在卵上/);
   assert.match(findSpecies('saola').media.gallery[1].caption, /不能当作新的野外照片/);
+});
+
+test('October 11 larvacean and insects retain life-stage distinctions and reviewed six-image sets', async () => {
+  const entries = [
+    ['blue-tailed-giant-larvacean', 'Bathochordaeus mcnutti', 'Appendicularia', 'Copelata', 'Oikopleuridae'],
+    ['green-drake-mayfly', 'Ephemera danica', 'Insecta', 'Ephemeroptera', 'Ephemeridae'],
+    ['giant-salmonfly', 'Pteronarcys californica', 'Insecta', 'Plecoptera', 'Pteronarcyidae'],
+    ['lunated-caddisfly', 'Limnephilus lunatus', 'Insecta', 'Trichoptera', 'Limnephilidae'],
+    ['common-scorpionfly', 'Panorpa communis', 'Insecta', 'Mecoptera', 'Panorpidae'],
+  ];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  for (const [slug, scientificName, className, order, family] of entries) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, scientificName);
+    assert.equal(profile.taxonomy.class.scientificName, className);
+    assert.equal(profile.taxonomy.order.scientificName, order);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.ok(!todo.split('\n').some((line) => line.startsWith('- [ ]') && line.includes(scientificName)));
+    assert.equal(profile.conservation.code, 'NE');
+    assert.match(profile.conservation.assessor, /未核实/);
+    assert.equal(profile.conservation.assessedYear, undefined);
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true,
+    });
+  }
+  const larvacean = findSpecies('blue-tailed-giant-larvacean');
+  assert.equal(larvacean.taxonomy.phylum.scientificName, 'Chordata');
+  assert.deepEqual(larvacean.distribution.realms, ['marine']);
+  assert.match(larvacean.description, /没有脊柱/);
+  assert.match(larvacean.description, /身体大小与房子大小/);
+  assert.match(findSpecies('green-drake-mayfly').media.gallery[2].caption, /水生若虫/);
+  assert.match(findSpecies('giant-salmonfly').media.gallery[3].caption, /空.*蜕壳.*非活体/);
+  assert.match(findSpecies('lunated-caddisfly').media.gallery[2].caption, /幼虫.*巢筒.*无成虫翅膀/);
+  const scorpionfly = findSpecies('common-scorpionfly');
+  assert.match(scorpionfly.media.gallery[2].caption, /雌性/);
+  assert.match(scorpionfly.media.gallery[3].caption, /生殖.*非毒刺/);
 });

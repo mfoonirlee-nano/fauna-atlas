@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Panorpa communis. Adult male common scorpionfly, elongated downward pointed rostrum, yellow-black slender body, two pairs translucent wings with irregular dark patches, six slender legs, two long thin antennae, reddish terminal genital capsule curls upward at abdomen end, small rounded grasping capsule NOT a pointed stinger, no scorpion pincers. Scene: Complete adult, all outer features including antennae legs wings and tails visible; primary animal entirely in RIGHT HALF x=650..1450 y=150..880; maximize size inside that box; left 40 percent quiet blurred habitat for webpage text. Real background margin around every extremity. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.\nFinal composition edit: Edit composition ONLY. Preserve species anatomy and natural textures. Reduce subject group to 70 percent current size and MOVE RIGHT. ENTIRE subject including every antenna, leg, tail filament, wing, and mucus house where present fits inside RIGHT HALF of 1536x1024 canvas x=650..1460 y=130..900. Left 40 percent completely quiet habitat with no animal parts. Maximize entire subject within box. Real background margin around every feature, no text no watermark.",
+      "sourceSha256": "687120619122fde39e5391b9780b9ae26fe2bd030e25300957100f288417b01d",
+      "runtimeSha256": "7c95dc55416298b137d8f7f077802b08f962339d82c604d6da7c8ddc848843cd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Panorpa communis. Adult male common scorpionfly, elongated downward pointed rostrum, yellow-black slender body, two pairs translucent wings with irregular dark patches, six slender legs, two long thin antennae, reddish terminal genital capsule curls upward at abdomen end, small rounded grasping capsule NOT a pointed stinger, no scorpion pincers. Scene: Adult MALE full side view on nettle leaf, long beak and rounded curled red genital capsule clearly visible, wings with dark patches. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "5eb4fda7f4634db9b81fcd1bcba8851fda62536248c0306c50c682799b7ce165",
+      "runtimeSha256": "286effaf6652ea844537a53106bc7c257720624b820be37503a77982ee281c51",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Panorpa communis. Adult male common scorpionfly, elongated downward pointed rostrum, yellow-black slender body, two pairs translucent wings with irregular dark patches, six slender legs, two long thin antennae, reddish terminal genital capsule curls upward at abdomen end, small rounded grasping capsule NOT a pointed stinger, no scorpion pincers. Scene: Close side view of adult head showing extended downward rostrum, natural antennae and eyes. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "5257792f9bf9a2fa06b1d1be24c3c2e0366220c0cf34cc91a35e55a17e8cc2a9",
+      "runtimeSha256": "51aeef3750b6c667de6837d3e953ddebd72a35783cb76b41f1bf105eeb331a2c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas AI reconstruction of Panorpa communis. Adult FEMALE ONLY full side view on green leaf, abdomen ends tapered straight, NO curled male capsule, dark-patched translucent wings. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale. Accurate stage and sex, do NOT substitute an adult or male for this requested specimen.",
+      "sourceSha256": "cd3aff2feb09b4c3542ceb2ecb9837457a57e6e0b386f00f4f874da1ba738907",
+      "runtimeSha256": "877ff7fbaaeac328dad68cb5020998548c02e381e10efc7a6f258b0ab9f0a3c9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Panorpa communis. Adult male common scorpionfly, elongated downward pointed rostrum, yellow-black slender body, two pairs translucent wings with irregular dark patches, six slender legs, two long thin antennae, reddish terminal genital capsule curls upward at abdomen end, small rounded grasping capsule NOT a pointed stinger, no scorpion pincers. Scene: Close oblique view of adult male abdomen end with rounded red reproductive capsule and small paired graspers, NO sharp stinger or venom. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "1a59a62a937e6748f66a796bac76472fbbf28f0022c4acd04f38f788da0c1bbc",
+      "runtimeSha256": "8db37735d8694fa41c592a5bd3e973f28fef807bbefef18e83b24c0f1821826b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Panorpa communis. Adult male common scorpionfly, elongated downward pointed rostrum, yellow-black slender body, two pairs translucent wings with irregular dark patches, six slender legs, two long thin antennae, reddish terminal genital capsule curls upward at abdomen end, small rounded grasping capsule NOT a pointed stinger, no scorpion pincers. Scene: Adult male full dorsolateral view resting on hedgerow leaf in dappled woodland light, two pairs dark-marked transparent wings. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "f9ef2b5d8122491701c5f060f659bc715fb5f3fae625e203bc34b7da6ec60e27",
+      "runtimeSha256": "f9b2c39643d721e208ed1b00b5e8a22150b0d647fb3a6ed82171f30b83a5e6d1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
