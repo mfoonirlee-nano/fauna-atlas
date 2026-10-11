@@ -5532,4 +5532,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 840
     }
   },
+  "lunated-caddisfly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 785,
+      "top": 307,
+      "right": 1470,
+      "bottom": 765
+    }
+  },
 };

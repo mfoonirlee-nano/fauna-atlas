@@ -74,5 +74,31 @@
       "speciesKey": 2001399,
       "class": "Insecta"
     }
+  },
+  {
+    "slug": "lunated-caddisfly",
+    "match": {
+      "usageKey": 1442474,
+      "scientificName": "Limnephilus lunatus Curtis, 1834",
+      "canonicalName": "Limnephilus lunatus",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "order": "Trichoptera",
+      "family": "Limnephilidae",
+      "genus": "Limnephilus",
+      "species": "Limnephilus lunatus",
+      "kingdomKey": 1,
+      "phylumKey": 54,
+      "classKey": 216,
+      "orderKey": 1003,
+      "familyKey": 4396,
+      "genusKey": 1442450,
+      "speciesKey": 1442474,
+      "class": "Insecta"
+    }
   }
 ]

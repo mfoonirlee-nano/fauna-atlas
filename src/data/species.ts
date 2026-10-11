@@ -151013,6 +151013,236 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "lunated-caddisfly",
+  "slug": "lunated-caddisfly",
+  "names": {
+    "zh": "月斑石蛾",
+    "en": "Lunated Caddisfly"
+  },
+  "scientificName": "Limnephilus lunatus",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Trichoptera",
+      "zhName": "毛翅目"
+    },
+    "family": {
+      "scientificName": "Limnephilidae",
+      "zhName": "北石蛾科"
+    },
+    "genus": {
+      "scientificName": "Limnephilus",
+      "zhName": "北石蛾属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲淡水与湿地边缘"
+    ],
+    "countries": [],
+    "range": "本档案以英国实地记录和瑞典幼虫研究为介绍范围。幼虫生活于淡水，成虫出现在溪流、池塘、湖泊及湿地附近；未把地方常见程度推作全球种群趋势。"
+  },
+  "habitats": [
+    {
+      "name": "池塘溪流与湿地",
+      "realm": "freshwater",
+      "description": "本档案以英国实地记录和瑞典幼虫研究为介绍范围。幼虫生活于淡水，成虫出现在溪流、池塘、湖泊及湿地附近；未把地方常见程度推作全球种群趋势。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "herbivore"
+    ],
+    "foods": [
+      "幼虫取食植物性材料"
+    ],
+    "description": "原始行为研究把携筒幼虫作为淡水植食模型研究。本档案的食性针对幼虫，以植物性材料为共读重点；资料不足时不补写成虫的具体食谱。"
+  },
+  "tags": [
+    "月斑石蛾",
+    "池塘溪流与湿地"
+  ],
+  "summary": "月斑石蛾：携筒幼虫与半月翅斑。",
+  "description": "褐色成虫有细长触角和带毛的翅膀，静止时翅膀像小屋顶罩住身体。前翅后缘附近有深边浅色的半月斑；幼虫用叶片碎屑、沙粒等拼接巢筒。本档案以英国实地记录和瑞典幼虫研究为介绍范围。幼虫生活于淡水，成虫出现在溪流、池塘、湖泊及湿地附近；未把地方常见程度推作全球种群趋势。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "褐色成虫有细长触角和带毛的翅膀，静止时翅膀像小屋顶罩住身体。前翅后缘附近有深边浅色的半月斑；幼虫用叶片碎屑、沙粒等拼接巢筒。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "本档案以英国实地记录和瑞典幼虫研究为介绍范围。幼虫生活于淡水，成虫出现在溪流、池塘、湖泊及湿地附近；未把地方常见程度推作全球种群趋势。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "原始行为研究把携筒幼虫作为淡水植食模型研究。本档案的食性针对幼虫，以植物性材料为共读重点；资料不足时不补写成虫的具体食谱。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "它经历卵、水生幼虫、蛹和有翅成虫，属于完全变态昆虫。幼虫携带巢筒，头部和胸足可从前端伸出；成虫没有幼虫的携带式巢筒，观察图将两个阶段分开。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Limnephilus lunatus，采用 节肢动物门、昆虫纲、毛翅目、北石蛾科。中文名沿用选题展示标签，不宣称为统一规范通名。分类图谱只表示归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "先找幼虫小筒上的叶片与沙粒，再看伸出的头和脚。对照成虫长触角与屋顶状翅膀；半月斑及幼虫细节为近似重建，不能当作种级鉴定依据。本次未核实 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "褐色成虫有细长触角和带毛的翅膀，静止时翅膀像小屋顶罩住身体。前翅后缘附近有深边浅色的半月斑；幼虫用叶片碎屑、沙粒等拼接巢筒。",
+    "它经历卵、水生幼虫、蛹和有翅成虫，属于完全变态昆虫。幼虫携带巢筒，头部和胸足可从前端伸出；成虫没有幼虫的携带式巢筒，观察图将两个阶段分开。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [
+    "淡水污染与湿地生境损失"
+  ],
+  "conservationActions": [
+    "保护淡水水质与湿地植被",
+    "保留自然水边和底部有机物环境"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "先找幼虫小筒上的叶片与沙粒，再看伸出的头和脚。对照成虫长触角与屋顶状翅膀；半月斑及幼虫细节为近似重建，不能当作种级鉴定依据。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/lunated-caddisfly/01-cover.webp",
+    "alt": "月斑石蛾及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/lunated-caddisfly/02-observation.webp",
+        "title": "成虫的屋顶状翅膀",
+        "alt": "月斑石蛾：成虫的屋顶状翅膀，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫侧面与长触角；微距重建，尺度非实测。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lunated-caddisfly/03-observation.webp",
+        "title": "翅膀上的半月斑",
+        "alt": "月斑石蛾：翅膀上的半月斑，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫放大外观；生成花纹不用于鉴定。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lunated-caddisfly/04-observation.webp",
+        "title": "携筒的水生幼虫",
+        "alt": "月斑石蛾：携筒的水生幼虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水生幼虫，头和胸足伸出叶片、沙粒巢筒；无成虫翅膀。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lunated-caddisfly/05-observation.webp",
+        "title": "叶片与沙粒拼成的巢筒",
+        "alt": "月斑石蛾：叶片与沙粒拼成的巢筒，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水生幼虫及巢筒的近景；材料拼接为情景重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/lunated-caddisfly/06-observation.webp",
+        "title": "湿地边缘的成虫",
+        "alt": "月斑石蛾：湿地边缘的成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫与湿地背景，静图不证明飞行。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/1442474",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "NatureSpot：成虫半月斑、幼虫巢筒与记录",
+      "url": "https://www.naturespot.org/species/limnephilus-lunatus",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "原始行为研究：携筒幼虫与植食模型",
+      "url": "https://doi.org/10.1080/01650424.2020.1865545",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

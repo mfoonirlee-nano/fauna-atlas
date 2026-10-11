@@ -4860,5 +4860,18 @@
       },
       "sha256": "636abb5f87040cd0770e552ad1b49fe3e898820006ab6b3e4f016b4cb40abe88"
     }
+  },
+  "lunated-caddisfly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 785,
+        "top": 307,
+        "right": 1470,
+        "bottom": 765
+      },
+      "sha256": "cf18c1c1e2de371b4aebac4d375664ea3a5ac5469c967c58e4134f553f949ba9"
+    }
   }
 }

@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Limnephilus lunatus. Adult brown caddisfly with hairy narrow forewings held tent-like over body, long thin threadlike antennae, six slender legs, pale half-moon patch edged dark near rear edge of forewing, variable tan brown speckling. European freshwater margin. Scene: Complete adult, all outer features including antennae legs wings and tails visible; primary animal entirely in RIGHT HALF x=650..1450 y=150..880; maximize size inside that box; left 40 percent quiet blurred habitat for webpage text. Real background margin around every extremity. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.\nFinal composition edit: Edit composition ONLY. Preserve species anatomy and natural textures. Reduce subject group to 70 percent current size and MOVE RIGHT. ENTIRE subject including every antenna, leg, tail filament, wing, and mucus house where present fits inside RIGHT HALF of 1536x1024 canvas x=650..1460 y=130..900. Left 40 percent completely quiet habitat with no animal parts. Maximize entire subject within box. Real background margin around every feature, no text no watermark.\nSecond composition edit: Edit composition only. SHRINK complete insect 15 percent and MOVE IT RIGHT 120 pixels. No part of the insect may enter the LEFT 42 percent of image, including the very long thin antennae or all three tail filaments. LEFTMOST animal pixel at x=700 or more, RIGHTMOST at x=1470 or less, full silhouette with genuine background margin. Preserve species anatomy, body color, wing position, natural environment, no text no watermark. 1536x1024 landscape.",
+      "sourceSha256": "59350acf6a1d8a9d49f197256e546b8dab9d74967b234834c17ac461bd948fd8",
+      "runtimeSha256": "cf18c1c1e2de371b4aebac4d375664ea3a5ac5469c967c58e4134f553f949ba9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Limnephilus lunatus. Adult brown caddisfly with hairy narrow forewings held tent-like over body, long thin threadlike antennae, six slender legs, pale half-moon patch edged dark near rear edge of forewing, variable tan brown speckling. European freshwater margin. Scene: Adult full side view on reed, hairy tent-like brown wings and long antennae. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "9d60201a910003d4eca959aa32629be2ba56fa6d88ccf2218fa4db8410ff4eb0",
+      "runtimeSha256": "4cf8d0da561e3279ef39bcb008b8d5d65cafa7133eccfcd4e6c0bec7d863dd37",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Limnephilus lunatus. Adult brown caddisfly with hairy narrow forewings held tent-like over body, long thin threadlike antennae, six slender legs, pale half-moon patch edged dark near rear edge of forewing, variable tan brown speckling. European freshwater margin. Scene: Close view of folded adult forewing showing pale half-moon marking with dark edge near rear margin, subtle natural marking not drawn symbol. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "298b6034998465f1d98fd09facf6fc7da44d4def013204d5a5e543c6909aaae4",
+      "runtimeSha256": "ff7cb68f5f19ce962884d37df9fac3678649d17de10db3840bdd643fd107bf38",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas AI reconstruction of Limnephilus lunatus. Aquatic LARVA ONLY with brown hardened head and thorax, six thoracic legs emerging from portable cylindrical case of small leaf fragments sand grains plant debris, shallow pond bottom, no adult wings. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale. Accurate stage and sex, do NOT substitute an adult or male for this requested specimen.",
+      "sourceSha256": "1f681548cf8b040caee1a3f9ae3555b39e36a423ca97d0cc2aae9cc297e7842b",
+      "runtimeSha256": "8cd0e4429410a6697d74ee924a834bdd52d7b9d43323498f38783993de0caa5e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas AI reconstruction of Limnephilus lunatus. Aquatic LARVA ONLY oblique close view of leaf fragment and sand grain case on submerged leaf litter, head and thoracic legs projecting at open end. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale. Accurate stage and sex, do NOT substitute an adult or male for this requested specimen.",
+      "sourceSha256": "bd8ee3fe16f248a86cdd8f383028b0aaf0b043e377f209a8170800aee069e3ce",
+      "runtimeSha256": "851a64cf7ad6ae828f4d86ff700c60538635bedcafffdf1edb92b73a82fac2cb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Limnephilus lunatus. Adult brown caddisfly with hairy narrow forewings held tent-like over body, long thin threadlike antennae, six slender legs, pale half-moon patch edged dark near rear edge of forewing, variable tan brown speckling. European freshwater margin. Scene: Adult full dorsolateral view resting on marsh grass beside still freshwater, entire antennae and body visible. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "129ea707c9ad4e1db41b820b07877af16280c0df1612397970cc176aeefcc4e1",
+      "runtimeSha256": "26d0e8175133c304b9c67ddd1ac539992bb482b600260ea07c87ad8da40a6590",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
