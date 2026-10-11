@@ -798,3 +798,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [巨型尾海鞘 image set](./species/blue-tailed-giant-larvacean/README.md)
 - [丹麦蜉蝣 image set](./species/green-drake-mayfly/README.md)
+- [加州大石蝇 image set](./species/giant-salmonfly/README.md)

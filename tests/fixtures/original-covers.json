@@ -4847,5 +4847,18 @@
       },
       "sha256": "2c9d590d3543d536d522681695fdb9b7a1607365077934ec822cc560531a02d2"
     }
+  },
+  "giant-salmonfly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 175,
+        "right": 1485,
+        "bottom": 840
+      },
+      "sha256": "636abb5f87040cd0770e552ad1b49fe3e898820006ab6b3e4f016b4cb40abe88"
+    }
   }
 }

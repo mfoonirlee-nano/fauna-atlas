@@ -48,5 +48,31 @@
       "speciesKey": 5716472,
       "class": "Insecta"
     }
+  },
+  {
+    "slug": "giant-salmonfly",
+    "match": {
+      "usageKey": 2001399,
+      "scientificName": "Pteronarcys californica Newport, 1848",
+      "canonicalName": "Pteronarcys californica",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "order": "Plecoptera",
+      "family": "Pteronarcyidae",
+      "genus": "Pteronarcys",
+      "species": "Pteronarcys californica",
+      "kingdomKey": 1,
+      "phylumKey": 54,
+      "classKey": 216,
+      "orderKey": 787,
+      "familyKey": 2995,
+      "genusKey": 2001397,
+      "speciesKey": 2001399,
+      "class": "Insecta"
+    }
   }
 ]

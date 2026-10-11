@@ -150774,6 +150774,245 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "giant-salmonfly",
+  "slug": "giant-salmonfly",
+  "names": {
+    "zh": "加州大石蝇",
+    "en": "Giant Salmonfly"
+  },
+  "scientificName": "Pteronarcys californica",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Plecoptera",
+      "zhName": "襀翅目"
+    },
+    "family": {
+      "scientificName": "Pteronarcyidae",
+      "zhName": "大石蝇科"
+    },
+    "genus": {
+      "scientificName": "Pteronarcys",
+      "zhName": "大石蝇属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+  },
+  "distribution": {
+    "realms": [
+      "freshwater",
+      "terrestrial"
+    ],
+    "continents": [
+      "北美洲"
+    ],
+    "regions": [
+      "北美西部河流"
+    ],
+    "countries": [],
+    "range": "生活在北美西部河流，记录包括加拿大和美国西部多地。若虫栖于流水中的石块底质，成熟后爬向岸边羽化。河岸成虫与水下若虫分别展示。"
+  },
+  "habitats": [
+    {
+      "name": "流水砾石底与河岸",
+      "realm": "freshwater",
+      "description": "生活在北美西部河流，记录包括加拿大和美国西部多地。若虫栖于流水中的石块底质，成熟后爬向岸边羽化。河岸成虫与水下若虫分别展示。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "detritivore",
+      "herbivore"
+    ],
+    "foods": [
+      "若虫取食植物碎屑",
+      "藻类"
+    ],
+    "description": "若虫参与河流有机物的分解，可取食植物碎屑、藻类等。研究中某些地点的肠内容物含有动物残余，不能把一个地点的比例套给所有种群；本档案的食性说明针对水生若虫。"
+  },
+  "tags": [
+    "加州大石蝇",
+    "流水砾石底与河岸"
+  ],
+  "summary": "加州大石蝇：平放的翅膀与河流中的若虫。",
+  "description": "成虫颜色深，腹部侧面和部分关节呈橙色，两对翅膀休息时平放在背上。它有长触角和尾端附肢；水生若虫体节明显，具有翅芽和鳃簇，不能画成水下有翅成虫。生活在北美西部河流，记录包括加拿大和美国西部多地。若虫栖于流水中的石块底质，成熟后爬向岸边羽化。河岸成虫与水下若虫分别展示。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "成虫颜色深，腹部侧面和部分关节呈橙色，两对翅膀休息时平放在背上。它有长触角和尾端附肢；水生若虫体节明显，具有翅芽和鳃簇，不能画成水下有翅成虫。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "生活在北美西部河流，记录包括加拿大和美国西部多地。若虫栖于流水中的石块底质，成熟后爬向岸边羽化。河岸成虫与水下若虫分别展示。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "若虫参与河流有机物的分解，可取食植物碎屑、藻类等。研究中某些地点的肠内容物含有动物残余，不能把一个地点的比例套给所有种群；本档案的食性说明针对水生若虫。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "水生阶段跨越多年，持续时间随地点与温度变化。成熟若虫爬出水面，脱下外骨骼成为有翅成虫；岸边空蜕壳可作为研究羽化数量的线索。图库将若虫、空蜕壳和成虫分别标注。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Pteronarcys californica，采用 节肢动物门、昆虫纲、襀翅目、大石蝇科。中文名沿用选题展示标签，不宣称为统一规范通名。分类图谱只表示归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "先找成虫背上平放的翅膀，再看若虫的体节和岸边空蜕壳。保护自然河岸，在图像和自然影像中观察，不翻石捕捉；蜕壳图不代表正在羽化的活体。本次未核实 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "成虫颜色深，腹部侧面和部分关节呈橙色，两对翅膀休息时平放在背上。它有长触角和尾端附肢；水生若虫体节明显，具有翅芽和鳃簇，不能画成水下有翅成虫。",
+    "水生阶段跨越多年，持续时间随地点与温度变化。成熟若虫爬出水面，脱下外骨骼成为有翅成虫；岸边空蜕壳可作为研究羽化数量的线索。图库将若虫、空蜕壳和成虫分别标注。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [
+    "河水升温、流量改变与污染",
+    "细沉积物增加和河岸土地利用改变"
+  ],
+  "conservationActions": [
+    "保留清洁流水和自然河岸",
+    "监测若虫及羽化记录"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "先找成虫背上平放的翅膀，再看若虫的体节和岸边空蜕壳。保护自然河岸，在图像和自然影像中观察，不翻石捕捉；蜕壳图不代表正在羽化的活体。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/giant-salmonfly/01-cover.webp",
+    "alt": "加州大石蝇及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/giant-salmonfly/02-observation.webp",
+        "title": "平放在背上的翅膀",
+        "alt": "加州大石蝇：平放在背上的翅膀，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫；橙色腹侧与折叠翅膀。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-salmonfly/03-observation.webp",
+        "title": "成虫的头胸部",
+        "alt": "加州大石蝇：成虫的头胸部，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫放大外观；触角和翅脉非鉴定证据。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-salmonfly/04-observation.webp",
+        "title": "水下的若虫",
+        "alt": "加州大石蝇：水下的若虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。水生若虫，展示翅芽、鳃簇与尾端附肢；不按实测比例。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-salmonfly/05-observation.webp",
+        "title": "岸边的空蜕壳",
+        "alt": "加州大石蝇：岸边的空蜕壳，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。空的若虫蜕壳，非活体；情景不证明羽化过程。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/giant-salmonfly/06-observation.webp",
+        "title": "河边枝条上的成虫",
+        "alt": "加州大石蝇：河边枝条上的成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫与河流背景；不用于估算个体大小。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/2001399",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "2025 原始基因组研究：生活史、分类及环境压力",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12130441/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "NatureServe：北美分布与生态记录",
+      "url": "https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.112052/Pteronarcys_californica",
+      "kind": "distribution",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "2020 原始研究：蜕壳与幼期密度估算",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7148124/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

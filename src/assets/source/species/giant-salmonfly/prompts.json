@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Pteronarcys californica. Adult giant salmonfly stonefly, elongated dark charcoal brown body with orange pronotum edging, orange abdomen visible beside smoky dark finely veined wings folded FLAT overlapping along back, six legs, two long filamentous antennae, two short cerci. Western North American rocky riverbank. Scene: Complete adult, all outer features including antennae legs wings and tails visible; primary animal entirely in RIGHT HALF x=650..1450 y=150..880; maximize size inside that box; left 40 percent quiet blurred habitat for webpage text. Real background margin around every extremity. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.\nFinal composition edit: Edit composition ONLY. Preserve species anatomy and natural textures. Reduce subject group to 70 percent current size and MOVE RIGHT. ENTIRE subject including every antenna, leg, tail filament, wing, and mucus house where present fits inside RIGHT HALF of 1536x1024 canvas x=650..1460 y=130..900. Left 40 percent completely quiet habitat with no animal parts. Maximize entire subject within box. Real background margin around every feature, no text no watermark.",
+      "sourceSha256": "6e633660124b00700e6d40d3444120e9bd23d3087cf520499b0d598b1b274599",
+      "runtimeSha256": "636abb5f87040cd0770e552ad1b49fe3e898820006ab6b3e4f016b4cb40abe88",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Pteronarcys californica. Adult giant salmonfly stonefly, elongated dark charcoal brown body with orange pronotum edging, orange abdomen visible beside smoky dark finely veined wings folded FLAT overlapping along back, six legs, two long filamentous antennae, two short cerci. Western North American rocky riverbank. Scene: Adult dorsolateral view on streamside rock, dark wings folded flat along back, orange sides of abdomen. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "c45933b2ac1da403052f4c9fd86ecd32ca9ba6d694113f2999eb75c2905327b9",
+      "runtimeSha256": "525aa428904b7deec9c276981639a92cc94bd4c95f317838158ebf7d158cdbc8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Pteronarcys californica. Adult giant salmonfly stonefly, elongated dark charcoal brown body with orange pronotum edging, orange abdomen visible beside smoky dark finely veined wings folded FLAT overlapping along back, six legs, two long filamentous antennae, two short cerci. Western North American rocky riverbank. Scene: Close side view of adult head antennae and orange edged thorax, finely veined dark wings. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "15d3f1d519d89165d01ae5ff271393221fe7692100cc038c2095cb182ef9a014",
+      "runtimeSha256": "8ac7fcadfde346252ceb7b2f52555cd36f15d8e24bcca16892bbe47d147131e6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas AI reconstruction of Pteronarcys californica. Aquatic NYMPH ONLY under clear flowing water on cobble, robust dark segmented body, six legs, TWO long caudal cerci, wing PADS not adult wings, fine gill tufts at leg bases. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale. Accurate stage and sex, do NOT substitute an adult or male for this requested specimen.",
+      "sourceSha256": "9d9ee018a24e5703d185d3e289f7acc24ffeb133b6e062c8fef131b06288344d",
+      "runtimeSha256": "096bf9f7c5192d6c5419c3608b3eedd8814602c280b42c3d5fb409a506ca90e7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas AI reconstruction of Pteronarcys californica. Empty shed nymphal exoskeleton alone attached to dry streamside rock, dorsal split at thorax, no living insect inside. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale. Accurate stage and sex, do NOT substitute an adult or male for this requested specimen.",
+      "sourceSha256": "7c2b640a510de1b89317bdbda47a37e67bd2cece6dd4ae0c77d6279059399490",
+      "runtimeSha256": "78c7f0254dd7a3763bd8ff5ce9ef1140efdd8e26a8b78e0f0d31a7f558ec099b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 landscape realistic macro wildlife atlas image, AI reconstruction. Species: Pteronarcys californica. Adult giant salmonfly stonefly, elongated dark charcoal brown body with orange pronotum edging, orange abdomen visible beside smoky dark finely veined wings folded FLAT overlapping along back, six legs, two long filamentous antennae, two short cerci. Western North American rocky riverbank. Scene: Adult full side view on riverside twig with blurred flowing rocky river behind, complete antennae legs wings and cerci. Prominent centered subject with natural environment. Detailed natural textures, accurate life stage, no text no labels no watermark, non-measured scale.",
+      "sourceSha256": "bc8441bee086d55eb32a8ef549c19d28fc2aa6a51dabe5f6f57343a9beb8dae9",
+      "runtimeSha256": "99169a6dbd1aa52754b9fa7edc953983d53620c3afb06c8e85c03dd99a27f3e8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

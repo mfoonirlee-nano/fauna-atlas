@@ -5522,4 +5522,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 850
     }
   },
+  "giant-salmonfly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 675,
+      "top": 175,
+      "right": 1485,
+      "bottom": 840
+    }
+  },
 };
