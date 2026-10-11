@@ -5572,4 +5572,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 820
     }
   },
+  "european-mole-cricket": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 205,
+      "right": 1500,
+      "bottom": 800
+    }
+  },
 };

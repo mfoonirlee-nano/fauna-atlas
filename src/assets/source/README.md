@@ -804,3 +804,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [蛇蛉 image set](./species/snakefly/README.md)
 - [捻翅虫 image set](./species/mengenilla-chobauti/README.md)
+- [欧洲蝼蛄 image set](./species/european-mole-cricket/README.md)

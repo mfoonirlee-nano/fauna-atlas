@@ -151946,6 +151946,241 @@ export const species = [
   "publishedAt": "2026-10-11",
   "updatedAt": "2026-10-11"
 },
+{
+  "id": "european-mole-cricket",
+  "slug": "european-mole-cricket",
+  "names": {
+    "zh": "欧洲蝼蛄",
+    "en": "European Mole Cricket"
+  },
+  "scientificName": "Gryllotalpa gryllotalpa",
+  "taxonomy": {
+    "kingdom": {
+      "scientificName": "Animalia",
+      "zhName": "动物界"
+    },
+    "phylum": {
+      "scientificName": "Arthropoda",
+      "zhName": "节肢动物门"
+    },
+    "class": {
+      "scientificName": "Insecta",
+      "zhName": "昆虫纲"
+    },
+    "order": {
+      "scientificName": "Orthoptera",
+      "zhName": "直翅目"
+    },
+    "family": {
+      "scientificName": "Gryllotalpidae",
+      "zhName": "蝼蛄科"
+    },
+    "genus": {
+      "scientificName": "Gryllotalpa",
+      "zhName": "蝼蛄属"
+    }
+  },
+  "conservation": {
+    "system": "IUCN Red List",
+    "code": "NE",
+    "label": {
+      "zh": "未评估",
+      "en": "Not Evaluated"
+    },
+    "trend": "unknown",
+    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。 已查到欧洲区域评估，不能把区域等级填作全球等级。"
+  },
+  "distribution": {
+    "realms": [
+      "terrestrial"
+    ],
+    "continents": [
+      "欧洲"
+    ],
+    "regions": [
+      "欧洲及邻近地区"
+    ],
+    "countries": [],
+    "range": "欧洲蝼蛄在欧洲及邻近地区有记录。英国记录方案描述它生活在湿地边缘与渗水处的深厚疏松湿土中；局部减少不能作为全球受威胁等级。"
+  },
+  "habitats": [
+    {
+      "name": "湿润疏松土壤",
+      "realm": "terrestrial",
+      "description": "欧洲蝼蛄在欧洲及邻近地区有记录。英国记录方案描述它生活在湿地边缘与渗水处的深厚疏松湿土中；局部减少不能作为全球受威胁等级。",
+      "isPrimary": true
+    }
+  ],
+  "measurements": {},
+  "diet": {
+    "types": [
+      "omnivore"
+    ],
+    "foods": [
+      "植物材料",
+      "昆虫幼虫",
+      "蚯蚓"
+    ],
+    "description": "英国直翅类记录方案列出植物材料、昆虫幼虫和蚯蚓等食物。前足帮助挖掘，取食依靠口器，不能把前足称作嘴或把它写成只吃植物的动物。"
+  },
+  "tags": [
+    "欧洲蝼蛄",
+    "湿润疏松土壤"
+  ],
+  "summary": "欧洲蝼蛄：棕色身体表面有绒毛，宽大的前足带挖掘用的齿。",
+  "description": "棕色身体表面有绒毛，宽大的前足带挖掘用的齿。它有三对足，前足与其余两对足的形状不同；成虫有翅，若虫没有发育完整的成虫翅膀。欧洲蝼蛄在欧洲及邻近地区有记录。英国记录方案描述它生活在湿地边缘与渗水处的深厚疏松湿土中；局部减少不能作为全球受威胁等级。",
+  "storySections": [
+    {
+      "key": "appearance",
+      "label": "身体外观",
+      "title": "先找身体上的特点",
+      "body": "棕色身体表面有绒毛，宽大的前足带挖掘用的齿。它有三对足，前足与其余两对足的形状不同；成虫有翅，若虫没有发育完整的成虫翅膀。"
+    },
+    {
+      "key": "habitat",
+      "label": "栖息环境",
+      "title": "它生活在哪里",
+      "body": "欧洲蝼蛄在欧洲及邻近地区有记录。英国记录方案描述它生活在湿地边缘与渗水处的深厚疏松湿土中；局部减少不能作为全球受威胁等级。"
+    },
+    {
+      "key": "feeding",
+      "label": "取食",
+      "title": "食物与生活阶段",
+      "body": "英国直翅类记录方案列出植物材料、昆虫幼虫和蚯蚓等食物。前足帮助挖掘，取食依靠口器，不能把前足称作嘴或把它写成只吃植物的动物。"
+    },
+    {
+      "key": "life-cycle",
+      "label": "生活史",
+      "title": "对照生活阶段",
+      "body": "蝼蛄经历卵、若虫和成虫阶段，不经过蛹期。若虫在土中生长并蜕皮。本批以无完整翅的若虫与有翅成虫比较，洞穴图为土壤剖面示意，不代表现场挖开记录。"
+    },
+    {
+      "key": "taxonomy",
+      "label": "分类归属",
+      "title": "学名与中文标签",
+      "body": "学名为 Gryllotalpa gryllotalpa，采用节肢动物门、昆虫纲、直翅目、蝼蛄科。中文名沿用选题展示标签；少见科属中文名为项目标签，接受学名承担物种定位。分类图谱只表达归属关系。"
+    },
+    {
+      "key": "conservation",
+      "label": "保护与共读",
+      "title": "一起看图",
+      "body": "先找像小铲子的前足，再找其余两对足。洞穴图帮助理解地下生活，不按实测比例；用来源录音解释鸣声，静图不能证明挖掘动作。本次未核实可引用的 IUCN 全球评估，NE 暂作资料占位。"
+    }
+  ],
+  "keyFacts": [
+    "棕色身体表面有绒毛，宽大的前足带挖掘用的齿。它有三对足，前足与其余两对足的形状不同；成虫有翅，若虫没有发育完整的成虫翅膀。",
+    "蝼蛄经历卵、若虫和成虫阶段，不经过蛹期。若虫在土中生长并蜕皮。本批以无完整翅的若虫与有翅成虫比较，洞穴图为土壤剖面示意，不代表现场挖开记录。",
+    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+  ],
+  "threats": [],
+  "conservationActions": [
+    "保留自然栖息环境",
+    "观察时减少对动物的干扰"
+  ],
+  "metrics": {},
+  "featuredStats": [
+    {
+      "key": "observation",
+      "label": "共读观察",
+      "value": "先找像小铲子的前足，再找其余两对足。洞穴图帮助理解地下生活，不按实测比例；用来源录音解释鸣声，静图不能证明挖掘动作。"
+    }
+  ],
+  "media": {
+    "image": "./images/species/european-mole-cricket/01-cover.webp",
+    "alt": "欧洲蝼蛄及其栖息环境，AI 生成科学情景重建",
+    "focalPoint": {
+      "x": 0.7,
+      "y": 0.5
+    },
+    "credit": "Fauna Atlas · AI 生成科学情景重建",
+    "gallery": [
+      {
+        "image": "./images/species/european-mole-cricket/02-observation.webp",
+        "title": "湿土上的成虫",
+        "alt": "欧洲蝼蛄：湿土上的成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。有翅成虫全身侧面。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-mole-cricket/03-observation.webp",
+        "title": "挖掘型前足",
+        "alt": "欧洲蝼蛄：挖掘型前足，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫前足放大，齿的细节为近似重建。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-mole-cricket/04-observation.webp",
+        "title": "没有完整翅的若虫",
+        "alt": "欧洲蝼蛄：没有完整翅的若虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。若虫，没有发育完整的成虫翅膀。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-mole-cricket/05-observation.webp",
+        "title": "土中洞穴剖面",
+        "alt": "欧洲蝼蛄：土中洞穴剖面，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫与土壤洞穴剖面示意，不按比例，非现场记录。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      },
+      {
+        "image": "./images/species/european-mole-cricket/06-observation.webp",
+        "title": "湿地边缘的成虫",
+        "alt": "欧洲蝼蛄：湿地边缘的成虫，AI 生成科学情景重建",
+        "caption": "AI 生成科学情景重建。成虫和湿土环境；静图不证明挖掘行为。",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "credit": "Fauna Atlas · AI 生成科学情景重建"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "GBIF：接受名称与分类链",
+      "url": "https://www.gbif.org/species/1716128",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "英国直翅类记录方案：形态、食性与湿土栖息地",
+      "url": "https://orthoptera.org.uk/species/gryllotalpa-gryllotalpa",
+      "kind": "general",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "欧洲蝼蛄栖息地适宜性原始研究",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10147984/",
+      "kind": "ecology",
+      "accessedAt": "2026-10-11"
+    },
+    {
+      "title": "IUCN 欧洲直翅类红色名录：区域评估背景",
+      "url": "https://portals.iucn.org/library/sites/library/files/documents/RL-4-021.pdf",
+      "kind": "conservation",
+      "accessedAt": "2026-10-11"
+    }
+  ],
+  "featured": true,
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11"
+},
 ] as const satisfies readonly Species[];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

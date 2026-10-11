@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-11",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction. Gryllotalpa gryllotalpa adult mole cricket, brown velvety cylindrical body, broad shield-like prothorax, two broad shovel-like digging forelegs bearing robust outward teeth, four ordinary remaining legs, two long fine antennae, paired thin cerci, folded short brown forewings. Not a mole mammal. Scene: full complete adult resting in natural habitat. EVERY appendage visible with background clearance. Entire animal must fit RIGHT region x=700..1460 y=150..880, including antennae, wings and feet; place body center x=1100. LEFT 40 percent entirely empty quiet blurred habitat. Maximize full animal inside region. No text no watermark.\nComposition edit: Edit composition ONLY, preserve species and natural textures. Shrink complete animal to 78% of current size and move to right, with entire silhouette including antenna tips leg tips cerci and wings inside x=660..1450 y=130..900. Full body no cut features. LEFT 40 percent entirely quiet habitat. Keep 1536x1024, no text.",
+      "sourceSha256": "fe33f78f5675c548ba711b5ed916fc26b495b7024e8d2ef2f48dcb03dc349a13",
+      "runtimeSha256": "fb9fd6298756e0a7a7784bb6a399439ea174893f854f1066715a97a7d95667c8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Gryllotalpa gryllotalpa. Gryllotalpa gryllotalpa adult mole cricket, brown velvety cylindrical body, broad shield-like prothorax, two broad shovel-like digging forelegs bearing robust outward teeth, four ordinary remaining legs, two long fine antennae, paired thin cerci, folded short brown forewings. Not a mole mammal. Scene: Complete adult side view on moist loose soil. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "d45af65f75cd5af18c362f754aad5ad00e00efdfd599b2a04002ddadf0497cbe",
+      "runtimeSha256": "c7f3eb5fbbcffc48a3e5b000a4e6654ce2efdb3b25bfb42c2a2e036c03d41cc9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Gryllotalpa gryllotalpa. Gryllotalpa gryllotalpa adult mole cricket, brown velvety cylindrical body, broad shield-like prothorax, two broad shovel-like digging forelegs bearing robust outward teeth, four ordinary remaining legs, two long fine antennae, paired thin cerci, folded short brown forewings. Not a mole mammal. Scene: Close front view of broad shovel-like forelegs with teeth. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "d78c07057a361edff6f0559563848b00050d2dfe8b85539252b798f6be2df685",
+      "runtimeSha256": "a8858a9d572641225106a69fd90a995ec86e28d6362bbe6bed239e26118ee27d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Gryllotalpa gryllotalpa.  Scene: Wingless mole cricket NYMPH on moist soil, smaller compact body, no developed adult wings. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "d483e527e2b511ae24adef6fb57b5c0ad9676c0f70291f4dc153282a7764cfdb",
+      "runtimeSha256": "c9e457d5b5215e97b7d7e241660746e5b7e19d3385054b09ad6e8568723ec748",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Gryllotalpa gryllotalpa. Gryllotalpa gryllotalpa adult mole cricket, brown velvety cylindrical body, broad shield-like prothorax, two broad shovel-like digging forelegs bearing robust outward teeth, four ordinary remaining legs, two long fine antennae, paired thin cerci, folded short brown forewings. Not a mole mammal. Scene: Educational side cutaway reconstruction of moist soil burrow with ONE adult mole cricket inside, internal tunnel schematic non-measured scale. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "9e2dd946191784c725bd6219618d1ec713b31245da6d5ec735323e7891f8bf1e",
+      "runtimeSha256": "d93950e0dd6c103eafc27ce57f850c55557289dcb798fa3220940b352630cf0a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 realistic macro atlas AI reconstruction of Gryllotalpa gryllotalpa. Gryllotalpa gryllotalpa adult mole cricket, brown velvety cylindrical body, broad shield-like prothorax, two broad shovel-like digging forelegs bearing robust outward teeth, four ordinary remaining legs, two long fine antennae, paired thin cerci, folded short brown forewings. Not a mole mammal. Scene: Adult on damp soil near wetland grass roots. Prominent centered subject, natural textures, exact requested life stage and sex, scale non-measured. No text no labels no watermark.",
+      "sourceSha256": "16703efbc7c3844f6e45d20070ac7ba9a137d5c0b07aefd2143a88091bcfdeaf",
+      "runtimeSha256": "ffed760d9679a452c0f9462660c07bbd246eb524ec7a5ce077343635a1ca3e27",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -4912,5 +4912,18 @@
       },
       "sha256": "5d39aaa76d89d9120cceeb05db4fbbbd37e8de7070b911d378fdf1c10f6d40e0"
     }
+  },
+  "european-mole-cricket": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 205,
+        "right": 1500,
+        "bottom": 800
+      },
+      "sha256": "fb9fd6298756e0a7a7784bb6a399439ea174893f854f1066715a97a7d95667c8"
+    }
   }
 }
