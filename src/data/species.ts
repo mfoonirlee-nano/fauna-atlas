@@ -30637,8 +30637,8 @@ export const species = [
       {
         key: 'giant-with-boundaries',
         label: '体型与分类',
-        title: '接近三米，名字仍要谨慎使用',
-        body: '现代资料把巨骨舌鱼写作可接近三米、约二百千克，是世界最大型淡水鱼之一。历史四点五米说法缺少现代凭证；属内另有多个接受种，早年跨流域研究不能自动全部归给 A. gigas。',
+        title: '大型淡水鱼的纪录与物种边界',
+        body: '现代资料给出巨骨舌鱼可接近三米、约二百千克，是世界最大型淡水鱼之一。历史四点五米说法缺少现代凭证。巨骨舌鱼属另有多个接受种，早期跨流域研究的物种身份需要重新核对。',
       },
       {
         key: 'swim-bladder-lung',
@@ -30649,7 +30649,7 @@ export const species = [
       {
         key: 'flood-pulse-movement',
         label: '洪水节律',
-        title: '涨水把湖泊连进森林',
+        title: '随洪水进入森林，退水后返回湖泊',
         body: '洪水上涨时，个体沿水道进入淹水森林和草本滩地寻找食物与庇护。水位回落后，鱼返回较深湖泊和河汊；堤坝、道路与水坝切断横向连通时，完整生活史会失去空间。',
       },
       {
@@ -30667,12 +30667,18 @@ export const species = [
       {
         key: 'surface-count-management',
         label: '计数与共管',
-        title: '浮头让训练渔民完成水面计数',
+        title: '受训渔民利用浮头习性计数',
         body: '强制空气呼吸产生可见、可听的浮头事件。训练渔民在安静天气按固定水面单元和时段计数，原始标记重捕校验相关系数为 0.98；温度、体型与活动会改变间隔，方法需要本地校准。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '1822 年的命名与后来属内修订',
+        body: '巨骨舌鱼的科学命名记录署名为 Schinz，年份为 1822 年，现用学名为 Arapaima gigas。后来分类研究在巨骨舌鱼属内承认了多个物种，因此早年跨流域资料需要重新确认身份。它必须到水面吸气的习性，也使当地受训渔民能够用浮头计数参与种群管理。',
       },
     ],
     keyFacts: [
-      'Catalog of Fishes 接受 Arapaima gigas (Schinz, 1822)，本档案采用巨骨舌鱼科 Arapaimidae。',
+      'Catalog of Fishes 接受 Arapaima gigas (Schinz, 1822)，分类上属于巨骨舌鱼科 Arapaimidae。',
       '巨骨舌鱼属还包括 A. agassizii、A. arapaima、A. leptosoma 和 A. mapae，不能写成单型属。',
       '2026 年综合研究把索利蒙伊斯、茹鲁阿、普鲁斯和桑塔伦所检材料归入 A. gigas，未覆盖整个属的地理与模式材料问题。',
       'IUCN 全球等级为 DD、趋势未知，评估日期为 1996 年 8 月 1 日。',
@@ -30725,7 +30731,7 @@ export const species = [
         label: '实验幼鱼空气供氧',
         value: '63–75',
         unit: '%',
-        note: '4–6 克与 600–700 克实验组；不能外推成所有体型和环境的固定比例',
+        note: '4 至 6 克与 600 至 700 克实验组；不能外推成所有体型和环境的固定比例',
       },
       {
         key: 'surface-count-validation',
@@ -30783,7 +30789,15 @@ export const species = [
         },
       ],
     },
-    sources: ARAPAIMA_SOURCES,
+    sources: [
+      ...ARAPAIMA_SOURCES,
+      {
+        title: 'GBIF: Arapaima gigas (Schinz, 1822) nomenclatural record',
+        url: 'https://www.gbif.org/species/5212877',
+        kind: 'taxonomy',
+        accessedAt: '2026-10-11',
+      },
+    ],
     featured: true,
     publishedAt: ARAPAIMA_CONTENT_DATE,
     updatedAt: ARAPAIMA_CONTENT_DATE,
