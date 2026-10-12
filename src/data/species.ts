@@ -116693,7 +116693,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "科级采用欧盟物种目录与 ADW 的 Inachidae 口径；部分新文献使用 Macrocheiridae。太平洋水族馆列未评估，不写成无危；不把未经验证的百年寿命当作确定数值。"
+    "assessor": '太平洋水族馆列 NE（未评估）；寿命缺少充分证据，不能确定为一百年。'
   },
   "distribution": {
     "realms": [
@@ -116710,7 +116710,7 @@ export const species = [
     {
       "name": "较深海域的沙泥与岩石海底",
       "realm": "marine",
-      "description": "甘氏巨螯蟹的腿又细又长，中间的身体显得小小的。前面两只螯帮助它拾取食物。",
+      "description": '西北太平洋日本附近较深海域的沙泥和岩石海底。',
       "isPrimary": true
     }
   ],
@@ -116730,45 +116730,51 @@ export const species = [
     "甘氏巨螯蟹",
     "较深海域的沙泥与岩石海底"
   ],
-  "summary": "甘氏巨螯蟹的腿又细又长，中间的身体显得小小的。前面两只螯帮助它拾取食物。",
-  "description": "甘氏巨螯蟹的腿又细又长，中间的身体显得小小的。前面两只螯帮助它拾取食物。从上方看，八条步足分布在身体两侧，前面另有一对带螯的附肢。图中底物只作环境参照。",
+  "summary": '甘氏巨螯蟹在日本附近海底用螯拾取食物，八条细长步足支撑身体。关节帮助长腿越过不平海底。',
+  "description": '甘氏巨螯蟹在日本附近较深的沙泥和岩石海底生活，用一对螯拾取食物和动物残骸。八条细长步足支撑身体，各段关节弯曲时能越过不平海底。粗糙背甲上有突起，眼睛长在短柄上。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "长腿围着小身体",
-      "body": "从上方看，八条步足分布在身体两侧，前面另有一对带螯的附肢。图中底物只作环境参照。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '长腿围着小身体',
+      body: '从上方看，八条步足分布在身体两侧，前面另有一对带螯的附肢。图中底物只作环境参照。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "粗糙的背甲",
-      "body": "背甲表面有突起，眼睛长在短柄上。近景展示背甲和眼睛，不用于判断年龄。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '粗糙的背甲',
+      body: '背甲表面有突起，眼睛长在短柄上。近景展示背甲和眼睛，不用于判断年龄。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "用螯拾取食物",
-      "body": "它用前面的螯拿取海底的食物，也会取食动物残骸。长步足支撑着身体。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '用螯拾取食物',
+      body: '它用前面的螯拿取海底的食物，也会取食动物残骸。长步足支撑着身体。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "关节怎样弯曲",
-      "body": "每条长腿由多段组成。走动时，各段在关节处弯曲，让身体越过不平的海底。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '关节怎样弯曲',
+      body: '每条长腿由多段组成。走动时，各段在关节处弯曲，让身体越过不平的海底。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "海底的邻居",
-      "body": "它们生活在日本附近的海底。画面中的石块大小未知，不能据此推算蟹的腿展。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '海底的邻居',
+      body: '它们生活在日本附近的海底。画面中的石块大小未知，不能据此推算蟹的腿展。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "科级采用欧盟物种目录与 ADW 的 Inachidae 口径；部分新文献使用 Macrocheiridae。太平洋水族馆列未评估，不写成无危；不把未经验证的百年寿命当作确定数值。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '太平洋水族馆列本种为 NE（未评估），这不等于无危。分类资料对科的归属仍有不同处理；寿命缺少充分证据，图中石块也不能用于推算腿展。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '日本俗名里的“高脚蟹”',
+      body: 'Temminck 在 1836 年发表了甘氏巨螯蟹的科学描述，今天采用 Macrocheira kaempferi。日本俗名 taka-ashi-gani 意为“高脚蟹”，能直接对照细长的步足。它用螯拾取海底食物，虽常见“能活一百年”的介绍，但寿命仍缺少充分证据，不能把这项估计当作已测定数值。',
+    },
   ],
   "keyFacts": [
     "从上方看，八条步足分布在身体两侧，前面另有一对带螯的附肢。图中底物只作环境参照。",
@@ -116884,7 +116890,13 @@ export const species = [
       "url": "https://fish-commercial-names.ec.europa.eu/fish-names/species/macrocheira-kaempferi_en",
       "kind": "taxonomy",
       "accessedAt": "2026-09-23"
-    }
+    },
+    {
+      title: 'GBIF：甘氏巨螯蟹的科学命名记录',
+      url: 'https://www.gbif.org/species/5729749',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-23",
