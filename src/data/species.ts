@@ -92858,13 +92858,13 @@ export const species = [
       "哥伦比亚",
       "巴西"
     ],
-    "range": "生活在亚马孙流域的森林支流，见于黑水和清水溪流。体侧蓝色亮带下方，前腹部银白，后半部有红色。"
+    "range": '生活在亚马孙流域的森林支流，见于黑水和清水溪流。'
   },
   "habitats": [
     {
       "name": "亚马孙森林溪流",
       "realm": "freshwater",
-      "description": "生活在亚马孙流域的森林支流，见于黑水和清水溪流。体侧蓝色亮带下方，前腹部银白，后半部有红色。",
+      "description": '森林溪流中常有落叶和树根，树冠遮住部分阳光。',
       "isPrimary": true
     }
   ],
@@ -92885,44 +92885,50 @@ export const species = [
     "蓝色带与红色块"
   ],
   "summary": "霓虹脂鲤体侧有蓝色亮带，下方前腹部银白、后半部红色。它生活在亚马孙流域森林中的黑水和清水溪流。",
-  "description": "生活在亚马孙流域的森林支流，见于黑水和清水溪流。体侧蓝色亮带下方，前腹部银白，后半部有红色。",
+  "description": '霓虹脂鲤在亚马孙流域的森林溪流中结群生活，栖息水域包括黑水和清水溪流。它的小嘴取食小型无脊椎动物及植物性物质。体侧蓝色亮带反射光线，下方前腹部银白、后半部红色；看到的亮带颜色会随角度变化。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "蓝色带与红色块",
-      "body": "先找蓝色亮带，再看看腹部后半段的红色。不要与红色范围更大的近缘种混淆。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '蓝色带与红色块',
+      body: '先找蓝色亮带，再看看腹部后半段的红色。不要与红色范围更大的近缘种混淆。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "在水中结群",
-      "body": "几条小鱼一起游过林间溪流，身体侧面的亮带清楚可见。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '在水中结群',
+      body: '几条小鱼一起游过林间溪流，身体侧面的亮带清楚可见。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "亮带反射光线",
-      "body": "蓝色亮带能反射光，颜色会随角度变化；它不是自己发光的小灯。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '亮带反射光线',
+      body: '蓝色亮带能反射光，颜色会随角度变化；它不是自己发光的小灯。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "落叶和树根之间",
-      "body": "森林溪流底部常有落叶与树根，树冠遮住一部分阳光。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '落叶和树根之间',
+      body: '森林溪流底部常有落叶与树根，树冠遮住一部分阳光。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "小嘴找食物",
-      "body": "霓虹脂鲤会取食小型无脊椎动物，食物也包括植物性物质。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '小嘴找食物',
+      body: '霓虹脂鲤会取食小型无脊椎动物，食物也包括植物性物质。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护原生栖息地，不捕捉野生动物。全球无危不代表每个地方的种群都安全。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护原生栖息地，不捕捉野生动物。全球无危不代表每个地方的种群都安全。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '一封寄去鉴定的标本',
+      body: 'Myers 在 1936 年描述霓虹脂鲤，种名 innesi 纪念美国水族爱好者兼出版人 William T. Innes。Innes 把标本寄给 Myers，请他鉴定这种小鱼。“霓虹”来自它明亮的外观，但蓝带靠反射光线显色，身体并不会像霓虹灯那样自行发光。',
+    },
   ],
   "keyFacts": [
     "先找蓝色亮带，再看看腹部后半段的红色。不要与红色范围更大的近缘种混淆。",
@@ -93035,7 +93041,13 @@ export const species = [
       "url": "https://arxiv.org/abs/2406.07819",
       "kind": "ecology",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'ETYFish：Paracheirodon innesi 名称词源',
+      url: 'https://etyfish.org/ETYFish_Acestrorhamphidae.pdf',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
