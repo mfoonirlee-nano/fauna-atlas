@@ -81568,7 +81568,7 @@ export const species = [
     {
       "name": "南美洲森林",
       "realm": "terrestrial",
-      "description": "原生于南美洲，从哥伦比亚和委内瑞拉一带向南到乌拉圭及阿根廷北部等地，生活在多种森林环境。",
+      "description": '南美洲多种森林提供果实、小动物和可攀爬的树木。长鼻能伸入落叶与土壤，长尾在爬树时帮助平衡。',
       "isPrimary": true
     }
   ],
@@ -81589,51 +81589,57 @@ export const species = [
     "低下长鼻子找食物"
   ],
   "summary": "南美浣熊用长而灵活的鼻子在落叶间寻找食物，也能爬树。带环纹的长尾帮助它保持平衡，但不能抓握树枝。",
-  "description": "南美浣熊也叫南美长鼻浣熊，属于浣熊科。它的吻部长而灵活，尾巴长，常带有环纹。它会在地面寻找食物，也能爬树；尾巴帮助平衡，不能像手那样抓住树枝。",
+  "description": '南美浣熊也叫南美长鼻浣熊，属于浣熊科。雌性和幼兽常结群觅食，成年雄性通常独自活动；它们吃小动物和果实，用爪抓住树干攀爬。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "长鼻子贴近落叶",
-      "body": "南美浣熊用长而灵活的鼻子在落叶间寻找食物，也能爬树。带环纹的长尾帮助它保持平衡，但不能抓握树枝。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '长鼻子贴近落叶',
+      body: '灵活长鼻能在落叶和土壤间寻找食物。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "走路时竖起尾巴",
-      "body": "找找身体后面长长的尾巴，再看看上面的环纹。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '走路时竖起尾巴',
+      body: '长尾常带环纹，行走时可以竖起，能帮助平衡。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "爪子抓住树干",
-      "body": "它用爪子抓住树干攀爬，尾巴帮助保持平衡。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '爪子抓住树干',
+      body: '它用爪抓住树干攀爬，尾巴辅助平衡，不能抓握树枝。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "吃一口果实",
-      "body": "南美浣熊既吃小动物，也会吃森林中的果实。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '吃一口果实',
+      body: '南美浣熊既吃小动物，也吃森林中的果实。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "同伴一起找食物",
-      "body": "雌性和幼兽常结群活动；成年雄性通常独自活动。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '同伴一起找食物',
+      body: '雌性和幼兽常结群活动，成年雄性通常独自活动。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "所列资料记载全球等级为无危。森林砍伐和捕猎仍会影响当地种群。观察野生个体时不要投喂。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: '南美浣熊全球属无危，森林砍伐与捕猎仍影响当地种群。观察野生个体时不要投喂。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '长鼻找食物，环尾保持平衡',
+      body: 'Linnaeus 于 1766 年描述了这个物种，现用学名为 Nasua nasua。“长鼻浣熊”指向灵活的长吻，取食时它能贴近落叶和土壤。环纹长尾则帮助攀树时平衡，不能抓握枝条；雌性和幼兽结群，成年雄性通常独自活动。',
+    },
   ],
   "keyFacts": [
-    "南美浣熊用长而灵活的鼻子在落叶间寻找食物，也能爬树。带环纹的长尾帮助它保持平衡，但不能抓握树枝。",
-    "找找身体后面长长的尾巴，再看看上面的环纹。",
-    "它用爪子抓住树干攀爬，尾巴帮助保持平衡。",
-    "南美浣熊既吃小动物，也会吃森林中的果实。",
-    "雌性和幼兽常结群活动；成年雄性通常独自活动。"
+    '灵活长鼻能在落叶和土壤间寻找食物。',
+    '长尾常带环纹，行走时可以竖起，能帮助平衡。',
+    '它用爪抓住树干攀爬，尾巴辅助平衡，不能抓握树枝。',
+    '南美浣熊既吃小动物，也吃森林中的果实。',
+    '雌性和幼兽常结群活动，成年雄性通常独自活动。',
   ],
   "threats": [
     "森林砍伐",
@@ -81670,7 +81676,7 @@ export const species = [
       {
         "image": "./images/species/south-american-coati/02-observation.webp",
         "title": "长鼻子贴近落叶",
-        "alt": "南美浣熊：长鼻子贴近落叶",
+        "alt": '长鼻子贴近落叶',
         "caption": "AI 生成科学情景重建。看看它低下长鼻子，在落叶间闻一闻、找一找。",
         "focalPoint": {
           "x": 0.5,
@@ -81681,7 +81687,7 @@ export const species = [
       {
         "image": "./images/species/south-american-coati/03-observation.webp",
         "title": "走路时竖起尾巴",
-        "alt": "南美浣熊：走路时竖起尾巴",
+        "alt": '走路时竖起尾巴',
         "caption": "AI 生成科学情景重建。找找身体后面长长的尾巴，再看看上面的环纹。",
         "focalPoint": {
           "x": 0.5,
@@ -81692,7 +81698,7 @@ export const species = [
       {
         "image": "./images/species/south-american-coati/04-observation.webp",
         "title": "爪子抓住树干",
-        "alt": "南美浣熊：爪子抓住树干",
+        "alt": '爪子抓住树干',
         "caption": "AI 生成科学情景重建。它用爪子抓住树干攀爬，尾巴帮助保持平衡。",
         "focalPoint": {
           "x": 0.5,
@@ -81703,7 +81709,7 @@ export const species = [
       {
         "image": "./images/species/south-american-coati/05-observation.webp",
         "title": "吃一口果实",
-        "alt": "南美浣熊：吃一口果实",
+        "alt": '吃一口果实',
         "caption": "AI 生成科学情景重建。南美浣熊既吃小动物，也会吃森林中的果实。",
         "focalPoint": {
           "x": 0.5,
@@ -81714,7 +81720,7 @@ export const species = [
       {
         "image": "./images/species/south-american-coati/06-observation.webp",
         "title": "同伴一起找食物",
-        "alt": "南美浣熊：同伴一起找食物",
+        "alt": '同伴一起找食物',
         "caption": "AI 生成科学情景重建。雌性和幼兽常结群活动；成年雄性通常独自活动。",
         "focalPoint": {
           "x": 0.5,
@@ -81742,7 +81748,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Nasua_nasua/",
       "kind": "ecology",
       "accessedAt": "2026-09-16"
-    }
+    },
+    {
+      title: 'GBIF：Nasua nasua 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2433536',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-16",
