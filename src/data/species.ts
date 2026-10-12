@@ -118921,7 +118921,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "采用 Otocyon megalotis，不与耳廓狐混同。Mammal Diversity Database 列全球 IUCN 无危；独立评估年份未核实。"
+    "assessor": '全球等级为 LC；独立评估年份尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -118938,7 +118938,7 @@ export const species = [
     {
       "name": "稀树草原与短草地",
       "realm": "terrestrial",
-      "description": "大耳狐竖着两只宽大的耳朵，在草地上寻找小虫。它的脸部、腿和尾尖颜色较深。",
+      "description": '非洲东部和南部的稀树草原、短草地。',
       "isPrimary": true
     }
   ],
@@ -118958,45 +118958,51 @@ export const species = [
     "大耳狐",
     "稀树草原与短草地"
   ],
-  "summary": "大耳狐竖着两只宽大的耳朵，在草地上寻找小虫。它的脸部、腿和尾尖颜色较深。",
-  "description": "大耳狐竖着两只宽大的耳朵，在草地上寻找小虫。它的脸部、腿和尾尖颜色较深。两只耳朵比脸高出一大截。耳朵帮助它听见周围的声音，也参与散热。",
+  "summary": '大耳狐在非洲短草地寻找白蚁等昆虫，宽耳帮助听声和散热。它利用地洞藏身，雄狐也参与育幼。',
+  "description": '大耳狐生活在非洲东部和南部的短草地、稀树草原，主要找白蚁、甲虫等小型无脊椎动物。宽耳帮助听声，也参与散热，脸、腿和尾尖呈深色。它利用地洞休息和躲避危险，雄狐也参与照顾幼狐。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "宽大的耳朵",
-      "body": "两只耳朵比脸高出一大截。耳朵帮助它听见周围的声音，也参与散热。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '宽大的耳朵',
+      body: '两只耳朵比脸高出一大截。耳朵帮助它听见周围的声音，也参与散热。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "低头寻找白蚁",
-      "body": "大耳狐会在地面寻找白蚁等昆虫。鼻子贴近土面时，耳朵仍然竖在头顶。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '低头寻找白蚁',
+      body: '大耳狐会在地面寻找白蚁等昆虫。鼻子贴近土面时，耳朵仍然竖在头顶。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "深色的小腿",
-      "body": "灰黄的身体下面是颜色较深的腿。看看它走路时，四只脚怎样交替落地。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '深色的小腿',
+      body: '灰黄的身体下面是颜色较深的腿。看看它走路时，四只脚怎样交替落地。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "地洞旁休息",
-      "body": "大耳狐利用地洞躲避危险和休息。观察洞口时保持距离，不堵住它进出的路。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '地洞旁休息',
+      body: '大耳狐利用地洞躲避危险和休息。观察洞口时保持距离，不堵住它进出的路。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "幼狐跟在身旁",
-      "body": "成年大耳狐会照顾幼狐，雄狐也参与育幼。幼狐长大后，大耳朵会越来越显眼。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '幼狐跟在身旁',
+      body: '成年大耳狐会照顾幼狐，雄狐也参与育幼。幼狐长大后，大耳朵会越来越显眼。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "采用 Otocyon megalotis，不与耳廓狐混同。Mammal Diversity Database 列全球 IUCN 无危；独立评估年份未核实。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '本种的全球保护等级为 LC（无危），独立评估年份尚未确认。观察地洞旁的狐群时保持距离，给幼狐留下进出洞穴的路。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '学名也在说“大耳朵”',
+      body: 'Desmarest 在 1822 年发表了大耳狐的科学描述，今天采用 Otocyon megalotis。圣迭戈动物园解释，学名的希腊语词根分别涉及“耳”“犬”和“大”，与宽大耳朵相对应。它与耳廓狐是不同种，大耳狐的主要食物包括白蚁。',
+    },
   ],
   "keyFacts": [
     "两只耳朵比脸高出一大截。耳朵帮助它听见周围的声音，也参与散热。",
@@ -119106,7 +119112,13 @@ export const species = [
       "url": "https://www.mammaldiversity.org/taxon/1005963/",
       "kind": "conservation",
       "accessedAt": "2026-09-24"
-    }
+    },
+    {
+      title: 'GBIF：大耳狐的科学命名记录',
+      url: 'https://www.gbif.org/species/2434349',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-24",
