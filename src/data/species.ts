@@ -103938,7 +103938,7 @@ export const species = [
       "en": "Endangered"
     },
     "trend": "unknown",
-    "assessor": "采用所列机构来源中的全球类别；未核实独立评估日期，年份留空。"
+    "assessor": '全球等级为 EN（濒危）；独立评估日期尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -103979,45 +103979,51 @@ export const species = [
     "金狮狨",
     "脸旁的金色长毛"
   ],
-  "summary": "看看脸旁一圈金色的毛，再找找树枝上的长尾巴。",
+  "summary": '金狮狨白天用细长手指在树皮缝里寻找食物，夜间睡树洞。脸旁有金色长毛，家人共同照顾幼仔。',
   "description": "金狮狨是生活在巴西森林里的小型灵长类。它白天在枝叶间活动，用细长手指寻找食物，夜间在树洞里休息。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "脸旁的金色长毛",
-      "body": "脸旁长着一圈金色长毛，中间露出深色的小脸。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '脸旁的金色长毛',
+      body: '脸旁长着一圈金色长毛，中间露出深色的小脸。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "细手指找食物",
-      "body": "它用细长的手指探进树皮缝和叶丛，寻找小动物。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '细手指找食物',
+      body: '它用细长的手指探进树皮缝和叶丛，寻找小动物。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "抱着果子吃",
-      "body": "金狮狨也吃果实，可以用前肢拿着食物。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '抱着果子吃',
+      body: '金狮狨也吃果实，可以用前肢拿着食物。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "树洞里休息",
-      "body": "天黑后，一家金狮狨会在树洞里休息。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '树洞里休息',
+      body: '天黑后，一家金狮狨会在树洞里休息。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "家人背着幼仔",
-      "body": "家人会帮忙照顾幼仔，成年雄猴也会把小猴背在身上。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '家人背着幼仔',
+      body: '家人会帮忙照顾幼仔，成年雄猴也会把小猴背在身上。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "恢复大西洋森林，并让分散的森林斑块重新连通。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '恢复大西洋森林，并让分散的森林斑块重新连通。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '金毛小猴有自己的科学名称',
+      body: 'Linnaeus 在 1766 年发表了金狮狨的科学描述，今天采用 Leontopithecus rosalia。脸旁一圈金色长毛让人容易联想到狮鬃，这只小型灵长类实际在巴西树冠里寻找食物。家庭育幼也有特点，成年雄猴和其他家人会帮忙背幼仔。',
+    },
   ],
   "keyFacts": [
     "脸旁长着一圈金色长毛，中间露出深色的小脸。",
@@ -104117,7 +104123,13 @@ export const species = [
       "url": "https://nationalzoo.si.edu/animals/golden-lion-tamarin",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：金狮狨的科学命名记录',
+      url: 'https://www.gbif.org/species/2436482',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
