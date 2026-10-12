@@ -31188,19 +31188,19 @@ export const species = [
     summary:
       '大弹涂鱼是东亚至东南亚河口泥滩上的两栖鱼类，以高位眼、肉质胸鳍和浅蓝斑点识别。它在低潮刮食泥表硅藻，并把卵留在泥洞的空气产卵室中。',
     description:
-      '退潮让大弹涂鱼的生活空间从水下延伸到湿泥表面。它以胸鳍支撑身体，用湿润皮肤和富血管的口咽—鳃盖表面辅助空气呼吸；高潮则退回洞穴。它不是以蟹为食的 Giant Mudskipper，而是以泥表微型藻类为核心食物的刮食者。全球 IUCN 评估为易危，捕捞和河口生境退化仍在压缩种群。',
+      '退潮后，大弹涂鱼用肉质胸鳍支撑身体，在湿泥面刮食微型藻类。湿润皮肤、富血管的口咽和鳃盖腔表面帮助它在空气中呼吸，高潮时则退回泥洞。它的英文名 Great Blue-spotted Mudskipper 与另一种以动物性食物为主的 Giant Mudskipper 不同。全球 IUCN 评估为易危，捕捞和河口生境退化仍在压缩种群。',
     storySections: [
       {
         key: 'blue-spotted-identity',
         label: '识别',
-        title: '蓝点，而不是“巨型”',
+        title: '浅蓝斑点与高位眼',
         body: '宽钝头、高位眼、两枚背鳍和散落在青褐身体上的浅蓝点组成了它的识别线索。英文主名是 Great Blue-spotted Mudskipper；Giant Mudskipper 指另一种体形更大的 Periophthalmodon schlosseri。',
       },
       {
         key: 'amphibious-respiration',
         label: '呼吸',
         title: '皮肤与口咽表面都要保持湿润',
-        body: '贴近表皮的毛细血管和富血管的口咽—鳃盖腔内衬让它离水后继续交换气体，鳃也没有退出这套系统。回到水洼和保持黏液湿润，是在潮滩活动的必要条件。',
+        body: '贴近表皮的毛细血管和富血管的口咽、鳃盖腔内衬让它离水后继续交换气体，鳃也没有退出这套系统。回到水洼和保持黏液湿润，是在潮滩活动的必要条件。',
       },
       {
         key: 'fin-supported-motion',
@@ -31211,7 +31211,7 @@ export const species = [
       {
         key: 'diatom-grazing',
         label: '食性',
-        title: '一层看不见的硅藻草场',
+        title: '刮食泥表的微型藻膜',
         body: '它让嘴贴近泥面，刮取硅藻主导的微型底栖藻膜。香港研究发现它偏向摄食最大长度超过 50 微米的硅藻；这个数字属于特定泥滩实验，不是所有河口的固定菜单。',
       },
       {
@@ -31223,14 +31223,20 @@ export const species = [
       {
         key: 'shared-mudflat',
         label: '保护',
-        title: '与招潮蟹共享泥滩，不是互利共生',
-        body: '调查可以在同一河口泥面记录大弹涂鱼和弧边招潮蟹，这只说明两者共域。保护潮沟、泥滩水文和沉积物质量能同时保留许多潮间带居民，却不代表鱼和蟹相互喂食或依存。',
+        title: '大弹涂鱼与招潮蟹共用泥滩',
+        body: '调查可以在同一河口泥面记录到大弹涂鱼和弧边招潮蟹，说明它们在同一地区生活。尚无证据表明二者相互喂食或依存。保护潮沟、泥滩水文和沉积物质量，也有助于维持其他潮间带动物。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '1758 年的命名与相似英文名',
+        body: '大弹涂鱼的命名记录可追溯到林奈 1758 年的描述，现用学名为 Boleophthalmus pectinirostris。英文名 Great Blue-spotted Mudskipper 对应体表浅蓝斑点；Giant Mudskipper 则指另一个物种 Periophthalmodon schlosseri。泥洞研究发现，大弹涂鱼把卵附着在空气产卵室的壁面与顶部。',
       },
     ],
     keyFacts: [
       'Catalog of Fishes 接受 Boleophthalmus pectinirostris，当前科级口径为 Oxudercidae。',
       'IUCN 2024 年评估为 VU A2bcd，当前趋势为 decreasing。',
-      '皮肤、口咽—鳃盖腔内衬和鳃共同参与水陆气体交换。',
+      '皮肤、口咽、鳃盖腔内衬和鳃共同参与水陆气体交换。',
       '低潮主要刮食泥表硅藻型微型底栖藻类。',
       '卵附着在无水产卵室壁面和顶部，雄鱼留洞护卵。',
       '与弧边招潮蟹的关系只能写同域共现，不能写互利共生。',
@@ -31310,7 +31316,7 @@ export const species = [
           image:
             './images/species/great-blue-spotted-mudskipper/04-diatom-film-grazing.webp',
           alt: '一尾大弹涂鱼把宽口贴近湿泥表面，刮过薄薄的微型底栖藻膜',
-          title: '嘴贴泥面，刮过硅藻草场',
+          title: '贴近泥面刮食藻膜',
           caption:
             '一次接触只能重建泥表刮食情境，不能识别硅藻种类、测量摄入量或代表完整食谱。',
           focalPoint: { x: 0.55, y: 0.55 },
@@ -31338,7 +31344,15 @@ export const species = [
         },
       ],
     },
-    sources: GREAT_BLUE_SPOTTED_MUDSKIPPER_SOURCES,
+    sources: [
+      ...GREAT_BLUE_SPOTTED_MUDSKIPPER_SOURCES,
+      {
+        title: 'GBIF: Boleophthalmus pectinirostris (Linnaeus, 1758) nomenclatural record',
+        url: 'https://www.gbif.org/species/2378429',
+        kind: 'taxonomy',
+        accessedAt: '2026-10-11',
+      },
+    ],
     featured: true,
     publishedAt: GREAT_BLUE_SPOTTED_MUDSKIPPER_CONTENT_DATE,
     updatedAt: GREAT_BLUE_SPOTTED_MUDSKIPPER_CONTENT_DATE,
