@@ -77752,7 +77752,7 @@ export const species = [
     {
       "name": "清凉河流与北大西洋",
       "realm": "freshwater",
-      "description": "自然分布在北大西洋及两岸河流中；洄游种群往返于淡水与海水，也有终生生活在淡水中的种群。",
+      "description": '清凉河流的砾石床供卵发育，幼鱼在河流中觅食。洄游种群还需要连通河流与北大西洋的水道，也有终生留在淡水的种群。',
       "isPrimary": true
     }
   ],
@@ -77773,51 +77773,57 @@ export const species = [
     "向河流上游游动"
   ],
   "summary": "洄游型大西洋鲑在河里出生，到海里生长，再回河流繁殖。它的体色会随生长阶段变化。",
-  "description": "大西洋鲑身体修长。洄游个体在河里出生，到海里生长，再回到河流繁殖；不同阶段的体色会变化。",
+  "description": '大西洋鲑在河流中的幼鱼常有深色竖纹，海洋阶段多为银色，身体上部有深色斑点。雌鱼在河床砾石间形成产卵窝，卵需要清凉、含氧的流水发育。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "银色身上的小斑点",
-      "body": "海洋阶段的身体多呈银色，体侧上部有深色斑点。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '银色身上的小斑点',
+      body: '海洋阶段身体多呈银色，体侧上部有深色斑点。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "迎着水流游回河里",
-      "body": "成鱼回到河流产卵时向上游游动，需要能通过的水道。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '迎着水流游回河里',
+      body: '繁殖成鱼沿河流上溯，途中需要可以通行的水道。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "幼鱼身上的竖纹",
-      "body": "河流中的幼鱼常有深色竖向斑纹，与银亮的成鱼不同。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '幼鱼身上的竖纹',
+      body: '河流中的幼鱼常有深色竖纹，与银亮成鱼的体色不同。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "到海里生长",
-      "body": "洄游个体进入海洋后继续生长，再返回淡水繁殖。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '到海里生长',
+      body: '洄游个体到海洋继续生长，再返回淡水繁殖。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "卵藏在砾石间",
-      "body": "雌鱼在河床砾石中形成产卵窝。清凉、含氧的流水对卵的发育很重要。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '卵藏在砾石间',
+      body: '雌鱼在河床砾石中形成产卵窝，清凉、含氧的流水让卵发育。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "IUCN 在 2023 年将全球等级调整为近危。美国缅因湾种群的 ESA 濒危身份属于地区保护，不能替代全球等级。修复河道连通和河流生境有助于洄游。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: 'IUCN 在 2023 年将全球等级调整为近危。美国缅因湾种群的 ESA 濒危身份属于地区保护，不能替代全球等级。修复河道连通和河流生境有助于洄游。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '一生往返于两种水域',
+      body: 'Linnaeus 于 1758 年描述了这个物种，现用学名为 Salmo salar。洄游型大西洋鲑从河流出海生长，再回到淡水繁殖，河道中的障碍可能阻断这段旅程。但这个物种也有终生生活在淡水的种群，不能把出海经历套到每一条大西洋鲑身上。',
+    },
   ],
   "keyFacts": [
-    "海洋阶段的身体多呈银色，体侧上部有深色斑点。",
-    "成鱼回到河流产卵时向上游游动，需要能通过的水道。",
-    "河流中的幼鱼常有深色竖向斑纹，与银亮的成鱼不同。",
-    "洄游个体进入海洋后继续生长，再返回淡水繁殖。",
-    "雌鱼在河床砾石中形成产卵窝。清凉、含氧的流水对卵的发育很重要。"
+    '海洋阶段身体多呈银色，体侧上部有深色斑点。',
+    '繁殖成鱼沿河流上溯，途中需要可以通行的水道。',
+    '河流中的幼鱼常有深色竖纹，与银亮成鱼的体色不同。',
+    '洄游个体到海洋继续生长，再返回淡水繁殖。',
+    '雌鱼在河床砾石中形成产卵窝，清凉、含氧的流水让卵发育。',
   ],
   "threats": [
     "阻隔洄游的水坝",
@@ -77854,7 +77860,7 @@ export const species = [
       {
         "image": "./images/species/atlantic-salmon/02-observation.webp",
         "title": "银色鳞片与深色斑点",
-        "alt": "大西洋鲑：银色鳞片与深色斑点",
+        "alt": '银色鳞片与深色斑点',
         "caption": "AI 生成科学情景重建。海洋阶段的身体多呈银色，体侧上部有深色斑点。",
         "focalPoint": {
           "x": 0.5,
@@ -77865,7 +77871,7 @@ export const species = [
       {
         "image": "./images/species/atlantic-salmon/03-observation.webp",
         "title": "河流中的上溯成鱼",
-        "alt": "大西洋鲑：河流中的上溯成鱼",
+        "alt": '河流中的上溯成鱼',
         "caption": "AI 生成科学情景重建。成鱼回到河流产卵时向上游游动，需要能通过的水道。",
         "focalPoint": {
           "x": 0.5,
@@ -77876,7 +77882,7 @@ export const species = [
       {
         "image": "./images/species/atlantic-salmon/04-observation.webp",
         "title": "带竖纹的幼鱼",
-        "alt": "大西洋鲑：带竖纹的幼鱼",
+        "alt": '带竖纹的幼鱼',
         "caption": "AI 生成科学情景重建。河流中的幼鱼常有深色竖向斑纹，与银亮的成鱼不同。",
         "focalPoint": {
           "x": 0.5,
@@ -77887,7 +77893,7 @@ export const species = [
       {
         "image": "./images/species/atlantic-salmon/05-observation.webp",
         "title": "海里的银色成鱼",
-        "alt": "大西洋鲑：海里的银色成鱼",
+        "alt": '海里的银色成鱼',
         "caption": "AI 生成科学情景重建。洄游个体进入海洋后继续生长，再返回淡水繁殖。",
         "focalPoint": {
           "x": 0.5,
@@ -77898,7 +77904,7 @@ export const species = [
       {
         "image": "./images/species/atlantic-salmon/06-observation.webp",
         "title": "砾石河床上的成鱼",
-        "alt": "大西洋鲑：砾石河床上的成鱼",
+        "alt": '砾石河床上的成鱼',
         "caption": "AI 生成科学情景重建。雌鱼在河床砾石中形成产卵窝。清凉、含氧的流水对卵的发育很重要。",
         "focalPoint": {
           "x": 0.5,
@@ -77926,7 +77932,13 @@ export const species = [
       "url": "https://iucn.org/press-release/202312/freshwater-fish-highlight-escalating-climate-impacts-species-iucn-red-list",
       "kind": "conservation",
       "accessedAt": "2026-09-14"
-    }
+    },
+    {
+      title: 'GBIF：Salmo salar 的命名作者与年份',
+      url: 'https://www.gbif.org/species/7595433',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-14",
