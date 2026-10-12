@@ -107149,7 +107149,7 @@ export const species = [
     },
     "trend": "unknown",
     "assessedYear": 2015,
-    "assessor": "FishBase 引用全球 LC，评估日期 2015-03-03；直接页面访问失败，日期由检索索引核对。"
+    "assessor": 'FishBase 记载全球等级为 LC，评估日期为 2015-03-03；日期据检索记录核对，直接评估页未能确认。'
   },
   "distribution": {
     "realms": [
@@ -107185,45 +107185,51 @@ export const species = [
     "翱翔蓑鲉",
     "展开的胸鳍"
   ],
-  "summary": "找找像扇子一样展开的鳍和一根根长鳍条。",
+  "summary": '翱翔蓑鲉有红褐条纹和扇状胸鳍，在礁区捕食小鱼与甲壳动物。长鳍棘带毒，西大西洋种群属于引入范围。',
   "description": "翱翔蓑鲉身上有红褐色与浅色相间的条带，胸鳍展开时像两把扇子，背上竖着长鳍棘。它在礁区游动，捕食小鱼和甲壳动物。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "展开的胸鳍",
-      "body": "身体两侧的胸鳍展开，形成宽宽的扇面。沿着扇面找找一根根鳍条。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '展开的胸鳍',
+      body: '身体两侧的胸鳍展开，形成宽宽的扇面。沿着扇面找找一根根鳍条。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "相间的条带",
-      "body": "从头部到身体，看看深浅相间的条带；尾鳍和部分软鳍上还有小斑点。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '相间的条带',
+      body: '从头部到身体，看看深浅相间的条带；尾鳍和部分软鳍上还有小斑点。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "背上的长鳍棘",
-      "body": "背鳍的长棘向上伸出，其中有能注入毒液的棘。观看时保持距离，不用手碰。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '背上的长鳍棘',
+      body: '背鳍的长棘向上伸出，其中有能注入毒液的棘。观看时保持距离，不用手碰。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "岩石下方休息",
-      "body": "翱翔蓑鲉会在岩檐或缝隙旁停留，利用礁体提供的遮蔽。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '岩石下方休息',
+      body: '翱翔蓑鲉会在岩檐或缝隙旁停留，利用礁体提供的遮蔽。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "在礁区游动",
-      "body": "它在海水中游动和悬停。名字里的“翱翔”不表示它能像鸟一样在空中飞。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '在礁区游动',
+      body: '它在海水中游动和悬停。名字里的“翱翔”不表示它能像鸟一样在空中飞。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护原生礁区，不把水族箱里的鱼放入野外；本种在西大西洋的扩散会影响当地生态。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护原生礁区，不把水族箱里的鱼放入野外；本种在西大西洋的扩散会影响当地生态。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '长鳍条与两个海洋范围',
+      body: 'Linnaeus 在 1758 年发表了翱翔蓑鲉的科学描述，今天采用 Pterois volitans。“翱翔”这个名称容易让人注意展开的长鳍条，它实际在水中游动。认识本种还要区分原生范围与引入范围：印度洋东部和太平洋有原生种群，西大西洋及加勒比海的种群来自引入。',
+    },
   ],
   "keyFacts": [
     "身体两侧的胸鳍展开，形成宽宽的扇面。沿着扇面找找一根根鳍条。",
@@ -107341,7 +107347,13 @@ export const species = [
       "url": "https://www.floridamuseum.ufl.edu/100-years/object/pacific-red-lionfish/",
       "kind": "distribution",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：翱翔蓑鲉的科学命名记录',
+      url: 'https://www.gbif.org/species/2334438',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
