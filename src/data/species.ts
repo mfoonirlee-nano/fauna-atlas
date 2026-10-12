@@ -114520,45 +114520,51 @@ export const species = [
     "安波双鞭虾",
     "珊瑚礁岩缝"
   ],
-  "summary": "安波双鞭虾伸着长长的白触角，背上的红带中间夹着白线，还会替鱼清理体表。",
-  "description": "安波双鞭虾伸着长长的白触角，背上的红带中间夹着白线，还会替鱼清理体表。从背面看看两条红带与中央白线。透明偏黄的身体两侧与背部形成颜色差别。",
+  "summary": '安波双鞭虾在礁区设置清洁站，吃鱼体表的寄生生物和死组织。长白触角与红带中央的白线容易辨认。',
+  "description": '安波双鞭虾有长白触角，背上两条红带夹着中央白线，身体两侧透明偏黄。它在珊瑚或岩石旁设置清洁站，取食鱼体表的寄生生物和死组织。鱼会在站旁停留，接受清理。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "红带中间的白线",
-      "body": "从背面看看两条红带与中央白线。透明偏黄的身体两侧与背部形成颜色差别。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '红带中间的白线',
+      body: '从背面看看两条红带与中央白线。透明偏黄的身体两侧与背部形成颜色差别。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "给鱼清理身体",
-      "body": "它在岩石或珊瑚旁设立清洁站，取食鱼体表的寄生生物和死组织。鱼会停下来接受清理。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '给鱼清理身体',
+      body: '它在岩石或珊瑚旁设立清洁站，取食鱼体表的寄生生物和死组织。鱼会停下来接受清理。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "细足扶着岩石",
-      "body": "它属于十足目。足能扶住底物，也参与取食；长触角则从头部伸出。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '细足扶着岩石',
+      body: '它属于十足目。足能扶住底物，也参与取食；长触角则从头部伸出。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "岩缝里的清洁站",
-      "body": "它常在礁石缝和遮蔽处停留。这里的图像重建生活环境，不是某一次野外清洁的记录。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '岩缝里的清洁站',
+      body: '它常在礁石缝和遮蔽处停留。这里的图像重建生活环境，不是某一次野外清洁的记录。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "长白触角",
-      "body": "沿着白色细线找到触角的末端。触角比身体伸得更远，观察时不要触碰。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '长白触角',
+      body: '沿着白色细线找到触角的末端。触角比身体伸得更远，观察时不要触碰。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "太平洋水族馆支持印太与红海、清洁行为和 NE；2022 年幼体研究支持 Lysmatidae。不要与大西洋 Lysmata grabhami 混用。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '太平洋水族馆记载本种为 NE（未评估），这不等于无危。潜水观察时保留珊瑚礁岩缝，不触碰清洁虾和停留的鱼。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '清洁虾会照顾别的鱼',
+      body: 'De Man 在 1888 年发表了安波双鞭虾的科学描述。英文俗名中的 Cleaner 指它替鱼清理体表的行为。太平洋水族馆还介绍，它起初具有雄性功能，长大后可同时具有雌雄功能，配对繁殖时由一只抱卵。它与大西洋的 Lysmata grabhami 是不同种。',
+    },
   ],
   "keyFacts": [
     "从背面看看两条红带与中央白线。透明偏黄的身体两侧与背部形成颜色差别。",
@@ -114680,7 +114686,13 @@ export const species = [
       "url": "https://www.biodiversity-science.net/CN/PDF/10.17520/biods.2022635",
       "kind": "taxonomy",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：安波双鞭虾的科学命名记录',
+      url: 'https://www.gbif.org/species/2226409',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-23",
