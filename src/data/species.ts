@@ -95645,45 +95645,51 @@ export const species = [
     "印度竹节虫",
     "像一段细树枝"
   ],
-  "summary": "在细树枝之间找找虫子的长腿。",
-  "description": "细长的身体和腿帮助它藏在枝条之间。成虫没有翅膀。它生活在南印度及斯里兰卡的草地与林地；其他地区有引入种群。",
+  "summary": '印度竹节虫没有翅膀，细长身体藏在枝条间，以叶片为食。雌虫可以通过孤雌生殖繁育下一代。',
+  "description": '印度竹节虫原生于南印度和斯里兰卡的草地、林地，其他地区也有引入种群。成虫没有翅膀，细长身体和腿让它容易藏在枝条间。它从叶缘咬取植物，幼虫长大需要蜕皮。雌虫能不经交配产下可以发育的卵，这叫孤雌生殖。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "像一段细树枝",
-      "body": "细长的身体和腿帮助它藏在枝条之间。成虫没有翅膀。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '像一段细树枝',
+      body: '细长的身体和腿帮助它藏在枝条之间。成虫没有翅膀。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "头上的两根触角",
-      "body": "先找头部，再找两根细长触角；腿则长在胸部。图为放大观察，叶片仅作环境参照。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '头上的两根触角',
+      body: '先找头部，再找两根细长触角；腿则长在胸部。图为放大观察，叶片仅作环境参照。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "沿着叶边吃",
-      "body": "它以植物叶片为食，会从叶缘取食。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '沿着叶边吃',
+      body: '它以植物叶片为食，会从叶缘取食。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "小小的卵",
-      "body": "雌虫能不经交配产下可发育的卵。这种繁殖方式叫孤雌生殖。卵的微距图不表示实际大小。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '小小的卵',
+      body: '雌虫能不经交配产下可发育的卵。这种繁殖方式叫孤雌生殖。卵的微距图不表示实际大小。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "小虫慢慢长大",
-      "body": "幼虫外形已经像细枝，长大时要经历蜕皮。叶片提供环境参照，各图非等比例。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '小虫慢慢长大',
+      body: '幼虫外形已经像细枝，长大时要经历蜕皮。叶片提供环境参照，各图非等比例。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "在原生环境保留植被；饲养个体不得随意放生，以免引入外地。所引资料列为未评估；不据此推断种群安全。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '在原生环境保留植被；饲养个体不得随意放生，以免引入外地。所引资料列为未评估；不据此推断种群安全。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '枝条外观和无需交配的卵',
+      body: 'Brunner von Wattenwyl 在 1907 年发表 Carausius morosus 这个名称。“竹节虫”可以和细枝般的身体联系起来，不过它仍有头、触角和长在胸部的腿。这个物种还有一种特别的繁殖方式：雌虫不经交配也能产下可发育的卵，形成下一代。',
+    },
   ],
   "keyFacts": [
     "细长的身体和腿帮助它藏在枝条之间。成虫没有翅膀。",
@@ -95795,7 +95801,13 @@ export const species = [
       "url": "https://zsi.gov.in/uploads/documents/checklist/hindi/093_Insecta_PHASMIDA_V2_2025_PR21.pdf",
       "kind": "taxonomy",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：印度竹节虫的科学命名记录',
+      url: 'https://www.gbif.org/species/1411953',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
