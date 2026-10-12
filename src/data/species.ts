@@ -93115,13 +93115,13 @@ export const species = [
       "印度尼西亚",
       "马尔代夫"
     ],
-    "range": "分布于印度洋至太平洋的热带浅礁和潟湖，常在分枝珊瑚上方成群活动。"
+    "range": '分布于印度洋至太平洋的热带浅礁和潟湖。'
   },
   "habitats": [
     {
       "name": "印度洋与太平洋的珊瑚礁",
       "realm": "marine",
-      "description": "分布于印度洋至太平洋的热带浅礁和潟湖，常在分枝珊瑚上方成群活动。",
+      "description": '常在分枝珊瑚上方成群活动，受惊时退入枝杈间。',
       "isPrimary": true
     }
   ],
@@ -93141,44 +93141,50 @@ export const species = [
     "珊瑚上方的鱼群"
   ],
   "summary": "蓝绿光鳃鱼常在分枝珊瑚上方成群活动，分布于印度洋至太平洋的热带浅礁和潟湖。",
-  "description": "分布于印度洋至太平洋的热带浅礁和潟湖，常在分枝珊瑚上方成群活动。",
+  "description": '蓝绿光鳃鱼生活在印度洋至太平洋的热带浅礁和潟湖，常成群游在分枝珊瑚上方，寻找浮游生物。受到惊扰时，它们退进珊瑚枝杈之间。身体后的尾鳍分叉，蓝绿色的体色会随光线和观看角度变化。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "珊瑚上方的鱼群",
-      "body": "一群蓝绿色小鱼在分枝珊瑚上方游动。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '珊瑚上方的鱼群',
+      body: '一群蓝绿色小鱼在分枝珊瑚上方游动。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "分叉的尾巴",
-      "body": "找找身体后方分叉的尾鳍。体色可随光线和观察角度呈蓝色或绿色。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '分叉的尾巴',
+      body: '找找身体后方分叉的尾鳍。体色可随光线和观察角度呈蓝色或绿色。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "枝杈间的藏身处",
-      "body": "受到惊扰时，小鱼会躲进珊瑚枝杈之间。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '枝杈间的藏身处',
+      body: '受到惊扰时，小鱼会躲进珊瑚枝杈之间。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "水中的细小食物",
-      "body": "鱼群在珊瑚上方的水中寻找浮游生物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '水中的细小食物',
+      body: '鱼群在珊瑚上方的水中寻找浮游生物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "生活在浅礁",
-      "body": "有分枝珊瑚的浅礁和潟湖为它们提供生活空间。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '生活在浅礁',
+      body: '有分枝珊瑚的浅礁和潟湖为它们提供生活空间。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护原生栖息地，不捕捉野生动物。全球无危不代表每个地方的种群都安全。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护原生栖息地，不捕捉野生动物。全球无危不代表每个地方的种群都安全。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '绿色种名与蓝绿色身体',
+      body: 'Cuvier 在 1830 年描述了蓝绿光鳃鱼。种名 viridis 的意思是绿色，原始描述也提到了偏海蓝绿色的体色，以及更蓝的背部和尾部。这个名称可以和观察联系起来：换一个角度，同一条鱼的身体可能看起来更蓝，也可能更绿。',
+    },
   ],
   "keyFacts": [
     "一群蓝绿色小鱼在分枝珊瑚上方游动。",
@@ -93285,7 +93291,13 @@ export const species = [
       "url": "https://www.nausicaa.fr/en/my-visit/animals/blue-green-damselfish",
       "kind": "ecology",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'ETYFish：雀鲷科鱼类名称词源',
+      url: 'https://etyfish.org/wp-content/uploads/2025/08/ETYFish_Cichliformes10.pdf',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
