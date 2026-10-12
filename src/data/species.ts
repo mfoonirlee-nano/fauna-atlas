@@ -105157,7 +105157,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "采用所列机构来源中的全球类别；未核实独立评估日期，年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -105199,45 +105199,51 @@ export const species = [
     "三趾两栖鲵",
     "找找四条小腿"
   ],
-  "summary": "沿着长长的身体，找找四条很小的腿。",
+  "summary": '三趾两栖鲵身体细长、四肢很小，每脚通常三趾。它在水底洞穴藏身，捕食水生动物，也要到水面呼吸。',
   "description": "三趾两栖鲵是身体细长的水栖有尾两栖动物。四肢很小，成年个体没有外露的羽状鳃，游泳时主要摆动身体和尾部。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "找找四条小腿",
-      "body": "沿着长身体慢慢看，可以找到两对很小的腿。每只脚通常有三趾。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '找找四条小腿',
+      body: '沿着长身体慢慢看，可以找到两对很小的腿。每只脚通常有三趾。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "摆动身体游泳",
-      "body": "它用长身体和侧扁的尾部在水里摆动前进。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '摆动身体游泳',
+      body: '它用长身体和侧扁的尾部在水里摆动前进。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "洞口露出头",
-      "body": "它会利用水底洞穴躲藏，有时只把头伸出来等待猎物。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '洞口露出头',
+      body: '它会利用水底洞穴躲藏，有时只把头伸出来等待猎物。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "水中的食物",
-      "body": "螯虾和其他水生小动物是它的食物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '水中的食物',
+      body: '螯虾和其他水生小动物是它的食物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "到水面换气",
-      "body": "三趾两栖鲵有肺，会到水面呼吸空气。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '到水面换气',
+      body: '三趾两栖鲵有肺，会到水面呼吸空气。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留湿地、缓流和岸边遮蔽物，减少污染进入水域。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留湿地、缓流和岸边遮蔽物，减少污染进入水域。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '长身体上藏着三趾小脚',
+      body: 'Cuvier 在 1827 年发表 Amphiuma tridactylum 这个名称。中文名“三趾两栖鲵”提示每只小脚通常有三趾，但它的四肢很小，容易被细长身体遮住。它用肺呼吸，成年没有外露羽状鳃，在水中主要靠身体和尾部摆动。',
+    },
   ],
   "keyFacts": [
     "沿着长身体慢慢看，可以找到两对很小的腿。每只脚通常有三趾。",
@@ -105343,7 +105349,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Amphiuma_tridactylum/",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：三趾两栖鲵的科学命名记录',
+      url: 'https://www.gbif.org/species/2432081',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
