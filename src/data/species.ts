@@ -108882,7 +108882,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "来源见本档案资料列表；未核实独立评估年份，全球趋势未核实。"
+    "assessor": '全球等级为 LC（无危）；独立评估年份与全球种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -108918,45 +108918,51 @@ export const species = [
     "飞角鱼",
     "展开大胸鳍"
   ],
-  "summary": "看看它在海底展开的两把大扇子。",
+  "summary": '飞角鱼在大西洋和地中海的沙泥海底寻找小动物。头部有硬骨板，展开的宽胸鳍带蓝色花纹。',
   "description": "飞角鱼的头部有硬骨板，胸鳍展开时像两把带蓝色花纹的扇子。它生活在海底附近，名字里的“飞”不表示它能像飞鱼那样离水滑翔。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "展开大胸鳍",
-      "body": "看看身体两侧的宽胸鳍和蓝色边纹。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '展开大胸鳍',
+      body: '看看身体两侧的宽胸鳍和蓝色边纹。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "把鳍收起来",
-      "body": "宽大的胸鳍可以收在身体两边，收拢后轮廓变窄。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '把鳍收起来',
+      body: '宽大的胸鳍可以收在身体两边，收拢后轮廓变窄。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "硬硬的头部",
-      "body": "找找头部的骨板和靠近头顶的眼睛。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '硬硬的头部',
+      body: '找找头部的骨板和靠近头顶的眼睛。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "贴近沙底",
-      "body": "飞角鱼在沙泥海底附近活动，在底部寻找小动物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '贴近沙底',
+      body: '飞角鱼在沙泥海底附近活动，在底部寻找小动物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "寻找小甲壳动物",
-      "body": "它会吃底栖甲壳动物等食物。观察嘴巴与海底之间的位置。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '寻找小甲壳动物',
+      body: '它会吃底栖甲壳动物等食物。观察嘴巴与海底之间的位置。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "保护近岸海底环境，潜水观察时不追赶或触碰鱼鳍。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '保护近岸海底环境，潜水观察时不追赶或触碰鱼鳍。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '名字里的“飞”与扇状胸鳍',
+      body: 'Linnaeus 在 1758 年发表了飞角鱼的科学描述，今天采用 Dactylopterus volitans。名字里的“飞”容易让人联想到展开的大胸鳍，但它并不离开水面滑翔。它靠近沙泥海底生活，收起胸鳍后身体轮廓会变窄，寻找的食物包括底栖甲壳动物。',
+    },
   ],
   "keyFacts": [
     "看看身体两侧的宽胸鳍和蓝色边纹。",
@@ -109069,7 +109075,13 @@ export const species = [
       "url": "https://www.calacademy.org/scientists/catalog-of-fishes-classification/",
       "kind": "taxonomy",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：飞角鱼的科学命名记录',
+      url: 'https://www.gbif.org/species/2333605',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
