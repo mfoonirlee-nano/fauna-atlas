@@ -104423,7 +104423,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "采用所列机构来源中的全球类别；未核实独立评估日期，年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -104461,45 +104461,51 @@ export const species = [
     "黑头织布鸟",
     "用嘴编草条"
   ],
-  "summary": "看看它用嘴叼着草条，把巢编在树枝上。",
+  "summary": '黑头织布鸟用嘴把草条编成悬挂巢，常成群筑巢。繁殖期雄鸟黄身黑头，雌鸟偏黄绿。',
   "description": "繁殖期的雄性黑头织布鸟有黄色身体和黑色头部。它会把草叶编成悬挂的巢，许多个体常在同一片树上筑巢。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "用嘴编草条",
-      "body": "雄鸟把草条穿来穿去，编成挂在树枝上的巢。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '用嘴编草条',
+      body: '雄鸟把草条穿来穿去，编成挂在树枝上的巢。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "巢口朝下",
-      "body": "沿着圆鼓鼓的草巢，找找下面的入口。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '巢口朝下',
+      body: '沿着圆鼓鼓的草巢，找找下面的入口。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "许多巢在一起",
-      "body": "黑头织布鸟会成群筑巢，同一棵树上可以挂着许多巢。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '许多巢在一起',
+      body: '黑头织布鸟会成群筑巢，同一棵树上可以挂着许多巢。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "粗嘴吃种子",
-      "body": "粗短的嘴可以处理种子；它也会吃昆虫。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '粗嘴吃种子',
+      body: '粗短的嘴可以处理种子；它也会吃昆虫。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "雌鸟的颜色",
-      "body": "雌鸟的羽毛偏黄绿，头部没有繁殖期雄鸟那样大片的黑色。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '雌鸟的颜色',
+      body: '雌鸟的羽毛偏黄绿，头部没有繁殖期雄鸟那样大片的黑色。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留筑巢树木，从远处观察，避免干扰巢中的鸟。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留筑巢树木，从远处观察，避免干扰巢中的鸟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '织布般穿编草巢',
+      body: 'Statius Muller 在 1776 年发表 Ploceus cucullatus 这个名称。“织布鸟”能让人记住雄鸟用嘴穿编草条的动作，巢挂在树上，入口位于下方。“黑头”则主要对应繁殖期雄鸟的羽色，同种雌鸟没有那片大片黑羽。',
+    },
   ],
   "keyFacts": [
     "雄鸟把草条穿来穿去，编成挂在树枝上的巢。",
@@ -104605,7 +104611,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Ploceus_cucullatus/classification/",
       "kind": "taxonomy",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：黑头织布鸟的科学命名记录',
+      url: 'https://www.gbif.org/species/2494058',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
