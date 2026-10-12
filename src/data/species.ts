@@ -137922,7 +137922,7 @@ export const species = [
     {
       "name": "浅水水草区",
       "realm": "freshwater",
-      "description": "分布于北半球温带和寒温带的淡水、半咸水与近岸海域。不同种群的迁移方式和体侧骨板数量有差异。",
+      "description": '利用淡水、半咸水和近岸海域的浅水区域，植物碎片和浅水底面可供雄鱼筑巢。',
       "isPrimary": true
     }
   ],
@@ -137941,49 +137941,58 @@ export const species = [
     "三刺鱼",
     "浅水水草区"
   ],
-  "summary": "三刺鱼会衔来植物碎片筑巢，繁殖期雄鱼的腹部常呈红色。",
-  "description": "先找背上分开的硬棘，再看看嘴里衔着的植物。封面展示繁殖期雄鱼，雌鱼和非繁殖期个体的颜色不同。",
+  "summary": '三刺鱼雄鱼在浅水中用植物碎片筑巢、守卵并扇动胸鳍通水，背上通常有三根分开的硬棘。',
+  "description": '三刺鱼生活在北半球温带和寒温带的淡水、半咸水和近岸海域，吃小型甲壳动物与水生昆虫幼虫。有的种群留在淡水，有的在海水和淡水间迁移，体侧骨板数量也有差别。繁殖期雄鱼常有红色喉部，会收集植物碎片在浅水底筑巢，守护卵并扇动胸鳍通水。背上通常有三根分开的硬棘，后面才是柔软背鳍；雌鱼与非繁殖个体颜色不同。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "衔来一片植物",
-      "body": "雄鱼收集植物碎片，在浅水底部搭建巢。单张重建图展示衔运的一刻，不能代替连续行为影像。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '衔来一片植物',
+      body: '雄鱼收集植物碎片，在浅水底筑巢。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "巢边的雄鱼",
-      "body": "雄鱼在巢边守护卵，并扇动胸鳍使水流经过巢。观察时不翻动巢或靠近惊扰。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '巢边的雄鱼',
+      body: '雄鱼守护巢中的卵，并扇动胸鳍使水流经过巢。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "银色的小鱼",
-      "body": "雌鱼通常没有繁殖期雄鱼那样鲜红的喉部。颜色还随种群、季节和状态变化。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '银色的小鱼',
+      body: '雌鱼通常没有繁殖期雄鱼的鲜红喉部，颜色还随种群、季节与状态而变。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "找找背上的棘",
-      "body": "背上通常有三根分开的硬棘，后方才是柔软的背鳍。图中的棘与鳍条属于重建，不能用于标本计数。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '找找背上的棘',
+      body: '背上通常有三根分开的硬棘，后方有柔软背鳍。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "水草间的生活",
-      "body": "有的种群终生住在淡水，有的会在海水与淡水间迁移。这里只展示一种浅水生境。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '水草间的生活',
+      body: '有的种群终生在淡水生活，有的在海水与淡水间迁移。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护浅水植被，观察时不翻动鱼巢。FishBase 转录 IUCN 全球 LC，评估日期为 2022-05-30；全球趋势未核实，局部种群等级不能代替全球物种等级。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '全球保护等级为无危。保护浅水植被，观察时不翻动鱼巢。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '名字来自三根背棘，育幼由雄鱼承担',
+      body: '林奈在 1758 年发表了 Gasterosteus aculeatus，这个名称沿用至今。中文“三刺鱼”和英文 Three-spined Stickleback 都提示背上通常分开的三根硬棘。它的雄鱼还会筑巢、守卵、扇鳍通水，这些繁殖行为让浅水植物区成为生活中不可缺少的一部分。',
+    },
   ],
   "keyFacts": [
-    "三刺鱼会衔来植物碎片筑巢，繁殖期雄鱼的腹部常呈红色。",
-    "取食水中的小型动物。"
+    '雄鱼收集植物碎片，在浅水底筑巢。',
+    '雄鱼守护巢中的卵，并扇动胸鳍使水流经过巢。',
+    '雌鱼通常没有繁殖期雄鱼的鲜红喉部，颜色还随种群、季节与状态而变。',
+    '背上通常有三根分开的硬棘，后方有柔软背鳍。',
+    '有的种群终生在淡水生活，有的在海水与淡水间迁移。',
   ],
   "threats": [
     "局部栖息地改变"
@@ -138088,7 +138097,13 @@ export const species = [
       "url": "https://www.fishbase.se/summary/Gasterosteus_aculeatus.html",
       "kind": "conservation",
       "accessedAt": "2026-10-07"
-    }
+    },
+    {
+      title: 'GBIF：Gasterosteus aculeatus 的描述作者与年份',
+      url: 'https://www.gbif.org/species/4286327',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-10-07",
