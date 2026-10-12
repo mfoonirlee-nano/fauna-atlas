@@ -5602,4 +5602,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 870
     }
   },
+  "cat-flea": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 125,
+      "right": 1500,
+      "bottom": 930
+    }
+  },
 };

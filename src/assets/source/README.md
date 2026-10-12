@@ -807,3 +807,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [欧洲蝼蛄 image set](./species/european-mole-cricket/README.md)
 - [喷炮步甲 image set](./species/bombardier-beetle/README.md)
 - [豌豆蚜 image set](./species/pea-aphid/README.md)
+
+- [猫栉首蚤 image set](./species/cat-flea/README.md)

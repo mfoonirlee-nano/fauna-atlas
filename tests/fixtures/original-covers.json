@@ -4951,5 +4951,18 @@
       },
       "sha256": "b56b29822ec2a67a4cc65b21bf3d67f702a9dd72b02b2a5b22e9f1fe0f691633"
     }
+  },
+  "cat-flea": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 125,
+        "right": 1500,
+        "bottom": 930
+      },
+      "sha256": "46d640621ed12c90569973718a6d2d0dbe91c2baf24c26db420d4fbc184d3fe9"
+    }
   }
 }

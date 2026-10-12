@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Ctenocephalides felis adult cat flea. Warm reddish brown, wingless laterally compressed oval body, sloping small head, short recessed antennae, genal and pronotal combs of backward directed spines, SIX legs total including long folded hind pair. No wings, no extra legs, no blood. Scene: Lateral whole adult specimen, beige microscopy backdrop. COVER COMPOSITION STRICT: single complete subject in RIGHT region x=760..1410 y=180..840 including every antenna tip and leg or tail tip. Body center x=1090, do not expand any appendage outside this region. LEFT 45% completely quiet blurred backdrop. Full silhouette should be ~650x600 pixels, real empty margin all sides. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "e9e8a88f287a910da69674734dffef6a64825fa10c063c07d745c2646db681b3",
+      "runtimeSha256": "46d640621ed12c90569973718a6d2d0dbe91c2baf24c26db420d4fbc184d3fe9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Ctenocephalides felis adult cat flea. Warm reddish brown, wingless laterally compressed oval body, sloping small head, short recessed antennae, genal and pronotal combs of backward directed spines, SIX legs total including long folded hind pair. No wings, no extra legs, no blood. Scene: Oblique side view revealing laterally narrow body and hindlegs on neutral microscope background. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "d43fb7cc8fb888b7e85581824a33c97d7cd1c7f976d990a48ee30e8883233a6b",
+      "runtimeSha256": "099dc46e070d6d96ccf7a247cd4d15164ce9b2fbb933a5c9259ffd39e61e6141",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Ctenocephalides felis adult cat flea. Warm reddish brown, wingless laterally compressed oval body, sloping small head, short recessed antennae, genal and pronotal combs of backward directed spines, SIX legs total including long folded hind pair. No wings, no extra legs, no blood. Scene: Close view of head and front thorax, clearly limited comb rows at head and pronotum, scientific microscopy reconstruction. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.\nEdit: Edit this scientific cat flea image into a HEAD AND PRONOTUM close-up only. Show sloping head, small single lateral eye, a short recessed antenna, genal comb on lower head margin and pronotal comb directly behind head. Enlarge that anterior region to fill center image, exclude rear abdomen and hindlegs from frame; preserve brown chitin textures. Genal and pronotal combs should have backward pointing simple spines. Approximate external morphology not a real microscope image. 1536x1024 neutral beige background, no text or labels.",
+      "sourceSha256": "de723f8d06f5036c9210d20311a652033f23615731367099fbfc0aafb7cb213a",
+      "runtimeSha256": "97fd2faa727c275bfa0576021fb83a8fc1ac9118e3f8f327e730b924a236331b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Ctenocephalides felis cat flea life stages; larva legless, whitish elongated body sparse setae brown head; egg tiny oval pale, pupa in fiber-covered cocoon. Scene: Whole whitish wormlike larva with sparse bristles and brown head, no legs, NOT an adult flea; neutral beige microscopic background. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.\nEdit: Edit image to show ONLY the single legless cat flea LARVA. Remove the egg and cocoon entirely, replace their space with uniform beige microscope background. Keep and center the complete pale translucent wormlike segmented larva with sparse fine bristles and small brown head, no eyes no legs no adult. 1536x1024 no text or labels, non-measured scientific reconstruction.",
+      "sourceSha256": "df940249f319e66fd60473520874c8ee737a9bca3a6af1a7d2c63618d5ee3917",
+      "runtimeSha256": "d5ae3b4ccf09b4a650bbe7da0cf01392520256c949a77193d59f8c9245069430",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Ctenocephalides felis cat flea life stages; larva legless, whitish elongated body sparse setae brown head; egg tiny oval pale, pupa in fiber-covered cocoon. Scene: Egg, legless bristly larva and cocoon containing pupa in three separated non-measured educational zones, calm beige background. No arrows no text no adult at larva stage. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "22e23f19a0db7bc66159162ca6c2d1a6eac376492dc39ca35847f1df42c3ddd9",
+      "runtimeSha256": "33ab76ea1bd92608e33207d236006b5df3e7bbad6a2e9d3cf6582466d820f8b4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Ctenocephalides felis adult cat flea. Warm reddish brown, wingless laterally compressed oval body, sloping small head, short recessed antennae, genal and pronotal combs of backward directed spines, SIX legs total including long folded hind pair. No wings, no extra legs, no blood. Scene: Whole adult on soft out-of-focus fibers from animal bedding, no host no blood. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "921d1394c73f1dc0970bc51302b14b40f6637180327d46831ca1b880eb57c6d2",
+      "runtimeSha256": "145af7dd14330c3b89d747abe76127ef1d436c3303cbef15565bfd6f9344ab34",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
