@@ -104177,7 +104177,7 @@ export const species = [
       "en": "Endangered"
     },
     "trend": "unknown",
-    "assessor": "采用所列机构来源中的全球类别；未核实独立评估日期，年份留空。"
+    "assessor": '全球等级为 EN（濒危）；独立评估日期尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -104219,45 +104219,51 @@ export const species = [
     "袋獾",
     "黑毛上的白花纹"
   ],
-  "summary": "找找黑色身体、短腿和胸前的白色花纹。",
+  "summary": '袋獾头宽、腿短，夜间靠嗅觉寻找食物，也吃腐肉。白天它藏在洞穴或中空树干，幼仔早期在育儿袋里生长。',
   "description": "袋獾是食肉的有袋类，头宽、腿短、身体结实。它常在夜间寻找食物，白天利用洞穴或中空树干躲藏。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "黑毛上的白花纹",
-      "body": "看看黑色身体前面的白色胸纹。不同袋獾的白纹并不完全一样。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '黑毛上的白花纹',
+      body: '看看黑色身体前面的白色胸纹。不同袋獾的白纹并不完全一样。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "低低的身体",
-      "body": "它的身体贴近地面，四条短腿支撑着结实的身躯。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '低低的身体',
+      body: '它的身体贴近地面，四条短腿支撑着结实的身躯。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "用鼻子寻找",
-      "body": "袋獾常在夜里活动，用嗅觉寻找食物，也吃动物留下的尸体。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '用鼻子寻找',
+      body: '袋獾常在夜里活动，用嗅觉寻找食物，也吃动物留下的尸体。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "白天躲起来",
-      "body": "白天，它会在洞穴或中空的木头里休息。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '白天躲起来',
+      body: '白天，它会在洞穴或中空的木头里休息。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "长大的小袋獾",
-      "body": "幼仔早期在妈妈的育儿袋里生长，稍大后会离袋活动。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '长大的小袋獾',
+      body: '幼仔早期在妈妈的育儿袋里生长，稍大后会离袋活动。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护栖息地，监测疾病，并维持保护繁育种群。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护栖息地，监测疾病，并维持保护繁育种群。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '塔斯马尼亚之外的历史记录',
+      body: 'Boitard 在 1841 年发表了袋獾的科学描述，今天采用 Sarcophilus harrisii。它现存的自然野生家园主要在塔斯马尼亚，但历史上也生活在澳大利亚大陆。认识这种有袋动物时，还能留意幼仔早期在母兽育儿袋里生长的生活阶段。',
+    },
   ],
   "keyFacts": [
     "看看黑色身体前面的白色胸纹。不同袋獾的白纹并不完全一样。",
@@ -104363,7 +104369,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Sarcophilus_harrisii/",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：袋獾的科学命名记录',
+      url: 'https://www.gbif.org/species/2435451',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
