@@ -129656,7 +129656,7 @@ export const species = [
     {
       "name": "桉树林、雨林与城市树木",
       "realm": "terrestrial",
-      "description": "吸蜜鹦鹉的蓝色头部、橙黄色胸口和绿色翅膀很好辨认。它会爬到开花的枝头，取食花蜜和花粉。",
+      "description": '利用桉树林、雨林和城市树木觅食，需要开花植物与可供繁殖的树洞。',
       "isPrimary": true
     }
   ],
@@ -129678,52 +129678,58 @@ export const species = [
     "吸蜜鹦鹉",
     "桉树林、雨林与城市树木"
   ],
-  "summary": "吸蜜鹦鹉的蓝色头部、橙黄色胸口和绿色翅膀很好辨认。它会爬到开花的枝头，取食花蜜和花粉。",
-  "description": "吸蜜鹦鹉的蓝色头部、橙黄色胸口和绿色翅膀很好辨认。它会爬到开花的枝头，取食花蜜和花粉。这里介绍的是彩虹吸蜜鹦鹉 Trichoglossus moluccanus。成年雌雄羽色相似，不能仅凭图中羽色判断性别。",
+  "summary": '彩虹吸蜜鹦鹉在澳大利亚东部的树上取食花蜜和花粉，也利用树洞繁殖，成年雌雄羽色相似。',
+  "description": '彩虹吸蜜鹦鹉的头蓝色，胸口橙黄，翅膀绿色。它会攀上开花的树枝，取食花蜜和花粉，也吃果实、种子和昆虫。它生活在澳大利亚东部沿海的林地和城市绿地，珀斯还有引入种群。繁殖时利用树洞；成年雌雄羽色相似，仅看羽色难以分清性别。它的学名为 Trichoglossus moluccanus。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "从蓝头找到绿翅膀",
-      "body": "先找蓝色头部，再找橙黄色胸口和绿色翅膀。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '从蓝头找到绿翅膀',
+      body: '成年鸟头部蓝色，胸口橙黄色，翅膀绿色。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "花丛里的食物",
-      "body": "看看嘴停在花的什么位置。它常在树木和灌木的花上取食花蜜与花粉。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '花丛里的食物',
+      body: '它在树木和灌木的花上取食花蜜与花粉。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "枝头的同伴",
-      "body": "两只鸟的颜色很相近。成年雌雄外形相似，这张图不用于判断哪只是雄鸟。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '枝头的同伴',
+      body: '成年雌雄羽色相似。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "抓住树枝的脚",
-      "body": "看看脚怎样抱住斜斜的树枝。图像展示抓握姿态，不用于数脚趾。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '抓住树枝的脚',
+      body: '脚能抓住斜枝，帮助它攀爬和取食。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "树干上的洞口",
-      "body": "找找鸟旁边的树洞。吸蜜鹦鹉会利用树洞繁殖，观察时不要探看或触碰洞内。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '树干上的洞口',
+      body: '彩虹吸蜜鹦鹉利用树洞繁殖，观察时应与洞口保持距离。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "保留适宜的巢树和开花树木，从远处看野鸟，不用人的食物投喂。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '保留适宜的巢树和开花树木，从远处看野鸟，不用人的食物投喂。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '“彩虹”对应身上的不同羽色',
+      body: '本种的科学名称可追溯到 Gmelin 在 1788 年发表的记录，现用名为 Trichoglossus moluccanus。“彩虹吸蜜鹦鹉”和英文名 Rainbow Lorikeet 都对应它身上的多种羽色。中文名里的“吸蜜”也与食性有关，它在花上取食花蜜和花粉。',
+    },
   ],
   "keyFacts": [
-    "先找蓝色头部，再找橙黄色胸口和绿色翅膀。",
-    "看看嘴停在花的什么位置。它常在树木和灌木的花上取食花蜜与花粉。",
-    "两只鸟的颜色很相近。成年雌雄外形相似，这张图不用于判断哪只是雄鸟。",
-    "看看脚怎样抱住斜斜的树枝。图像展示抓握姿态，不用于数脚趾。",
-    "找找鸟旁边的树洞。吸蜜鹦鹉会利用树洞繁殖，观察时不要探看或触碰洞内。"
+    '成年鸟头部蓝色，胸口橙黄色，翅膀绿色。',
+    '它在树木和灌木的花上取食花蜜与花粉。',
+    '成年雌雄羽色相似。',
+    '脚能抓住斜枝，帮助它攀爬和取食。',
+    '彩虹吸蜜鹦鹉利用树洞繁殖，观察时应与洞口保持距离。',
   ],
   "threats": [
     "巢树移除",
@@ -129829,7 +129835,13 @@ export const species = [
       "url": "https://birdlife.org.au/bird-profiles/rainbow-lorikeet/",
       "kind": "conservation",
       "accessedAt": "2026-09-29"
-    }
+    },
+    {
+      title: 'GBIF：Trichoglossus moluccanus 的描述作者与年份',
+      url: 'https://www.gbif.org/species/2479694',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-29",
