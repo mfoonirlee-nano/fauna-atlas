@@ -97092,7 +97092,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -97139,45 +97139,51 @@ export const species = [
     "反嘴鹬",
     "嘴尖向上弯"
   ],
-  "summary": "沿着细嘴巴，看看尖端朝哪边弯。",
-  "description": "反嘴鹬的细黑嘴向上弯曲，头顶和后颈有黑色羽毛。它生活在欧亚大陆和非洲的浅水湿地、盐湖与沿海潟湖。",
+  "summary": '反嘴鹬的细黑嘴向上弯曲，觅食时左右扫水。它在浅水湿地成群活动，蓝灰色长腿有助于涉水。',
+  "description": '反嘴鹬在欧亚大陆和非洲的浅水湿地、盐湖和沿海潟湖活动。它的细黑嘴向上弯，觅食时在浅水中左右扫动。头顶和后颈有黑羽，长腿蓝灰色，脚趾间有部分蹼。它常成群活动，休息时会把头收进肩部羽毛。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "嘴尖向上弯",
-      "body": "反嘴鹬的细黑嘴向上弯曲，头顶和后颈有黑色羽毛。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '嘴尖向上弯',
+      body: '反嘴鹬的细黑嘴向上弯曲，头顶和后颈有黑色羽毛。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "左右扫着觅食",
-      "body": "它把嘴伸入浅水，左右摆动，寻找小型水生无脊椎动物。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '左右扫着觅食',
+      body: '它把嘴伸入浅水，左右摆动，寻找小型水生无脊椎动物。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "蓝灰色长腿",
-      "body": "蓝灰色长腿帮助它在泥地与浅水中走动，脚趾之间有部分蹼。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '蓝灰色长腿',
+      body: '蓝灰色长腿帮助它在泥地与浅水中走动，脚趾之间有部分蹼。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "展开黑白翅膀",
-      "body": "飞行时，白色翅面上的黑色区域更容易看清。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '展开黑白翅膀',
+      body: '飞行时，白色翅面上的黑色区域更容易看清。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "水边停下来",
-      "body": "反嘴鹬会成群活动，也会在安全的水边休息，把头收进肩部羽毛。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '水边停下来',
+      body: '反嘴鹬会成群活动，也会在安全的水边休息，把头收进肩部羽毛。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留浅水觅食区与安静的繁殖地，观察时避免惊飞鸟群。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留浅水觅食区与安静的繁殖地，观察时避免惊飞鸟群。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '向上弯的嘴怎么找食物',
+      body: 'Linnaeus 在 1758 年发表 Recurvirostra avosetta 这个名称。中文名“反嘴鹬”把注意力放在向上弯曲的细嘴上。观察它觅食时，会看到嘴在浅水中左右摆动，捕捉水生小动物；嘴的形状和用法可以放在一起理解。',
+    },
   ],
   "keyFacts": [
     "反嘴鹬的细黑嘴向上弯曲，头顶和后颈有黑色羽毛。",
@@ -97279,7 +97285,13 @@ export const species = [
       "url": "https://www.bto.org/learn/about-birds/birdfacts/avocet",
       "kind": "conservation",
       "accessedAt": "2026-09-21"
-    }
+    },
+    {
+      title: 'GBIF：反嘴鹬的科学命名记录',
+      url: 'https://www.gbif.org/species/2480259',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-21",
