@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Sminthurus viridis adult globular springtail. Light yellow-green speckled nearly spherical abdomen, tiny head with dark lateral eye patches, two segmented antennae, three pairs of short legs, wingless. Not a flea, beetle, tick or aphid. Scene: Whole adult on clover leaf, body oblique side view. COVER COMPOSITION STRICT: single complete subject in RIGHT region x=760..1410 y=180..840 including every antenna tip and leg or tail tip. Body center x=1090, do not expand any appendage outside this region. LEFT 45% completely quiet blurred backdrop. Full silhouette should be ~650x600 pixels, real empty margin all sides. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "ee78273077ef5c0cb2c4475c8b0787119484c502fd180c7ae10b9f397857d81c",
+      "runtimeSha256": "238f0c50267cc9d262dc82ddd8ed3277202f415d5915ee4708e03cfc478ddadd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Sminthurus viridis adult globular springtail. Light yellow-green speckled nearly spherical abdomen, tiny head with dark lateral eye patches, two segmented antennae, three pairs of short legs, wingless. Not a flea, beetle, tick or aphid. Scene: Whole globular adult on leaf underside, natural macro. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "c3ac058d3f6784a8699b244162a5ffee725187ce93f534d92188742904b3ac55",
+      "runtimeSha256": "832ba703bcbf22c34c227e407c351d9df5694cb55f8e55078ec872d483021d77",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Sminthurus viridis adult globular springtail. Light yellow-green speckled nearly spherical abdomen, tiny head with dark lateral eye patches, two segmented antennae, three pairs of short legs, wingless. Not a flea, beetle, tick or aphid. Scene: Side-ventral educational anatomical illustration: complete springtail held clear of ground, abdomen with bifurcate furcula folded FORWARD underneath toward head, six legs separate from furcula. Keep plausible simple structure, no text. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "3f5eaeed25dd831e7c479b6ac8441800ed603ef6a07d09528b2e0bccb5af6dc5",
+      "runtimeSha256": "7becd8f260bd8a06fd5770e301f54a76fddee49ae8110b498299a1fade22262e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Sminthurus viridis adult globular springtail. Light yellow-green speckled nearly spherical abdomen, tiny head with dark lateral eye patches, two segmented antennae, three pairs of short legs, wingless. Not a flea, beetle, tick or aphid. Scene: Dorsal whole view of mottled green round abdomen and segmented antennae. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "042bf770ba6bfb868d41c0a1ed49ec193df04b352e8e8deba408c9b2d95e4dec",
+      "runtimeSha256": "9125a057a40b6bc1355a88d63d5afa54570ba3f61afaf37692fa69fddcfa1a86",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Sminthurus viridis adult globular springtail. Light yellow-green speckled nearly spherical abdomen, tiny head with dark lateral eye patches, two segmented antennae, three pairs of short legs, wingless. Not a flea, beetle, tick or aphid. Scene: Small juvenile and larger adult side by side on clover leaf; same globular shape six legs, no wings, relative scale schematic. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "54a9c430022b13da668d2a91635feb3db20679f45d14397028b486c7f8256713",
+      "runtimeSha256": "9cc11d743cc5b5e7834945f3d4a304d152f7debffd00d32402caa802ffcd6fa6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Sminthurus viridis adult globular springtail. Light yellow-green speckled nearly spherical abdomen, tiny head with dark lateral eye patches, two segmented antennae, three pairs of short legs, wingless. Not a flea, beetle, tick or aphid. Scene: Adult near translucent grazed window in leaf between intact veins. Macro reconstruction, no unnatural holes through whole leaf. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "359c45b423df590dc72f8a405bbcebaeced790af2a169dbc168310449ae7d80a",
+      "runtimeSha256": "2a2ee82b8a555c05b1f45beb859e7bf7e4eee710b623baad112837555eb6d93e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

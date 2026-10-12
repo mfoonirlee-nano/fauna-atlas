@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "561 animal species profiles; 560 historical reviews and 1 additions on 2026-10-12; microbial topics excluded",
+  "scope": "562 animal species profiles; 560 historical reviews and 2 additions on 2026-10-12; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 1,
+    "addedProfiles": 2,
     "addedProfilesReviewDate": "2026-10-12",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -26268,6 +26268,55 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/1419472"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-12 新增档案：核对习性、外观、分布、发现与命名的来源。图注注明放大、重建和非实测比例；描述年份不表示人类首次认识动物。"
+      ]
+    },
+    {
+      "slug": "lucerne-springtail",
+      "name": "苜蓿跳虫",
+      "scientificName": "Sminthurus viridis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://agriculture.vic.gov.au/biosecurity/pest-insects-and-mites/priority-pest-insects-and-mites/lucerne-flea",
+            "https://www.gbif.org/species/5167064",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=100378"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://agriculture.vic.gov.au/biosecurity/pest-insects-and-mites/priority-pest-insects-and-mites/lucerne-flea",
+            "https://www.gbif.org/species/5167064",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=100378"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://agriculture.vic.gov.au/biosecurity/pest-insects-and-mites/priority-pest-insects-and-mites/lucerne-flea",
+            "https://www.gbif.org/species/5167064",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=100378"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://agriculture.vic.gov.au/biosecurity/pest-insects-and-mites/priority-pest-insects-and-mites/lucerne-flea",
+            "https://www.gbif.org/species/5167064",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=100378"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5167064",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=100378"
           ]
         }
       },

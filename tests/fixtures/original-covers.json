@@ -4964,5 +4964,18 @@
       },
       "sha256": "46d640621ed12c90569973718a6d2d0dbe91c2baf24c26db420d4fbc184d3fe9"
     }
+  },
+  "lucerne-springtail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 150,
+        "right": 1410,
+        "bottom": 780
+      },
+      "sha256": "238f0c50267cc9d262dc82ddd8ed3277202f415d5915ee4708e03cfc478ddadd"
+    }
   }
 }

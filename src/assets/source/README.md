@@ -809,3 +809,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [豌豆蚜 image set](./species/pea-aphid/README.md)
 
 - [猫栉首蚤 image set](./species/cat-flea/README.md)
+- [苜蓿跳虫 image set](./species/lucerne-springtail/README.md)
