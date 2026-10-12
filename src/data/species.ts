@@ -72469,7 +72469,7 @@ export const species = [
     {
       "name": "热带雨林",
       "realm": "terrestrial",
-      "description": "分布于澳大利亚北昆士兰、新几内亚以及印度尼西亚东部部分岛屿的雨林。",
+      "description": '雨林地面的落果是双垂鹤鸵的重要食物。它们用强壮的腿在林下走动，树木之间连通的森林为它们提供活动空间。',
       "isPrimary": true
     }
   ],
@@ -72493,44 +72493,50 @@ export const species = [
     "头顶的角盔"
   ],
   "summary": "双垂鹤鸵头顶长着角盔，蓝色的头颈前垂着两条红色肉垂。它不会飞，用强壮的腿在雨林地面行走。",
-  "description": "双垂鹤鸵长着黑色、像粗毛一样的羽毛，头颈有蓝色裸皮，脖子前垂着两条肉垂。头顶的角盔是身体的一部分。它不会飞，会用强壮的腿在雨林地面行走。",
+  "description": '双垂鹤鸵身上的黑羽像粗毛，蓝色裸露头颈前有两条红色肉垂。每只脚有三根向前的趾，内侧趾爪很长；雌鸟产下绿色卵后，雄鸟负责孵卵和带领幼鸟。',
   "storySections": [
     {
-      "key": "casque",
-      "label": "生活与认识",
-      "title": "头顶的角盔",
-      "body": "角盔长在头顶，不是羽冠。看图时沿着轮廓找找它的边缘，再看看下方的蓝色颈部和两条肉垂。"
+      key: 'casque',
+      label: '生活与认识',
+      title: '头顶的角盔',
+      body: '头顶的角盔是身体的一部分，下面是蓝色头颈和两条肉垂。它与由羽毛组成的羽冠不同。',
     },
     {
-      "key": "food",
-      "label": "生活与认识",
-      "title": "低头找落果",
-      "body": "双垂鹤鸵主要在林地寻找掉下来的果实。不同果树在不同时间结果，它们会在自己的活动范围内寻找食物。"
+      key: 'food',
+      label: '生活与认识',
+      title: '低头找落果',
+      body: '双垂鹤鸵主要在林地寻找掉下来的果实。不同果树在不同时间结果，它们会在自己的活动范围内寻找食物。',
     },
     {
-      "key": "walking",
-      "label": "生活与认识",
-      "title": "用强壮的腿走路",
-      "body": "它们不会飞，常在雨林地面走动。每只脚有三根向前的脚趾，内侧趾爪很长；观察时保持距离，不接近或喂食。"
+      key: 'walking',
+      label: '生活与认识',
+      title: '用强壮的腿走路',
+      body: '它们不会飞，常在雨林地面走动。每只脚有三根向前的脚趾，内侧趾爪很长；观察时保持距离，不接近或喂食。',
     },
     {
-      "key": "young",
-      "label": "生活与认识",
-      "title": "幼鸟跟着爸爸",
-      "body": "成年雄鸟会带领雏鸟觅食。幼鸟有浅色和深色纵纹，还没有成鸟那样鲜艳的头颈和高大的角盔。"
+      key: 'young',
+      label: '生活与认识',
+      title: '幼鸟跟着爸爸',
+      body: '成年雄鸟会带领雏鸟觅食。幼鸟有浅色和深色纵纹，还没有成鸟那样鲜艳的头颈和高大的角盔。',
     },
     {
-      "key": "nest",
-      "label": "生活与认识",
-      "title": "爸爸留在地面孵卵",
-      "body": "雌鸟把绿色卵产在铺有植物材料的地面浅窝里，雄鸟负责孵卵并照顾幼鸟。巢边的成鸟需要不受干扰的空间。"
+      key: 'nest',
+      label: '生活与认识',
+      title: '爸爸留在地面孵卵',
+      body: '雌鸟把绿色卵产在铺有植物材料的地面浅窝里，雄鸟负责孵卵并照顾幼鸟。巢边的成鸟需要不受干扰的空间。',
     },
     {
-      "key": "conservation",
-      "label": "生活与认识",
-      "title": "让雨林连在一起",
-      "body": "BirdLife 列出的全球等级为无危，但澳大利亚部分种群仍面临生境丧失、道路和犬只等压力。保护相连的雨林，开车经过活动区域时留意野生动物。"
-    }
+      key: 'conservation',
+      label: '生活与认识',
+      title: '让雨林连在一起',
+      body: 'BirdLife 列出的全球等级为无危，但澳大利亚部分种群仍面临生境丧失、道路和犬只等压力。保护相连的雨林，开车经过活动区域时留意野生动物。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '两条肉垂与育雏的父亲',
+      body: 'Linnaeus 于 1758 年描述了这个物种，现用学名为 Casuarius casuarius。“双垂”对应颈前的两条肉垂。繁殖时，雌鸟把绿色卵产在地面的浅窝，雄鸟留在巢中孵卵，随后带领有纵纹、角盔尚小的幼鸟在林地觅食。',
+    },
   ],
   "keyFacts": [
     "角盔长在头顶，不是羽冠。",
@@ -72663,7 +72669,13 @@ export const species = [
       "url": "https://www.qld.gov.au/environment/plants-animals/conservation/threatened-species/featured-projects/southern-cassowary",
       "kind": "conservation",
       "accessedAt": "2026-09-14"
-    }
+    },
+    {
+      title: 'GBIF：Casuarius casuarius 的命名作者与年份',
+      url: 'https://www.gbif.org/species/5231783',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-14",
