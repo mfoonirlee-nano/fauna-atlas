@@ -120653,7 +120653,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "采用 Enteroctopus dofleini，不将其他大型章鱼的记录混入。图谱沿用八腕目，科采用 Enteroctopodidae；本轮未核实全球 IUCN 等级，NE 为仓库缺省，不代表无危。"
+    "assessor": '全球保护评估尚未确认；NE（未评估）不等于无危。'
   },
   "distribution": {
     "realms": [
@@ -120670,7 +120670,7 @@ export const species = [
     {
       "name": "寒冷海水中的岩礁与岩洞",
       "realm": "marine",
-      "description": "北太平洋巨型章鱼有八条柔软的腕，腕上排列着吸盘。它常藏在岩洞里，也能改变皮肤的颜色和纹理。",
+      "description": '北太平洋沿岸寒冷海水的岩礁和岩洞，从日本附近至阿拉斯加与北美西岸。',
       "isPrimary": true
     }
   ],
@@ -120690,45 +120690,51 @@ export const species = [
     "北太平洋巨型章鱼",
     "寒冷海水中的岩礁与岩洞"
   ],
-  "summary": "北太平洋巨型章鱼有八条柔软的腕，腕上排列着吸盘。它常藏在岩洞里，也能改变皮肤的颜色和纹理。",
-  "description": "北太平洋巨型章鱼有八条柔软的腕，腕上排列着吸盘。它常藏在岩洞里，也能改变皮肤的颜色和纹理。腕的内侧有两列吸盘，能帮助抓住物体，也参与感知。近景只展示一条腕的局部。",
+  "summary": '北太平洋巨型章鱼以八条带吸盘的腕探索、捕食，常藏在岩洞。它能改变肤色和纹理，雌体照顾巢内卵串。',
+  "description": '北太平洋巨型章鱼生活在日本至阿拉斯加、北美西岸的寒冷海水，常藏在岩洞，捕食蟹、贝类和鱼。八条柔腕的内侧各有两列吸盘，能抓握、感知。它还会改变皮肤颜色和纹理，雌体在巢内悬挂卵串并照顾卵。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "一排排吸盘",
-      "body": "腕的内侧有两列吸盘，能帮助抓住物体，也参与感知。近景只展示一条腕的局部。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '一排排吸盘',
+      body: '腕的内侧有两列吸盘，能帮助抓住物体，也参与感知。近景只展示一条腕的局部。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "岩洞里的身体",
-      "body": "柔软的身体可以缩进岩石间的空隙。看看洞口旁露出的眼睛和腕，不伸手探洞。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '岩洞里的身体',
+      body: '柔软的身体可以缩进岩石间的空隙。看看洞口旁露出的眼睛和腕，不伸手探洞。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "岩石般的外表",
-      "body": "它能够改变皮肤颜色和表面纹理，与周围环境相近。图中只展示一种伪装状态，不是连续变色记录。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '岩石般的外表',
+      body: '它能够改变皮肤颜色和表面纹理，与周围环境相近。图中只展示一种伪装状态，不是连续变色记录。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "腕寻找食物",
-      "body": "章鱼会用腕探索周围，也会捕食蟹和贝类。图中闭合的贝壳用于展示探索场景。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '腕寻找食物',
+      body: '章鱼会用腕探索周围，也会捕食蟹和贝类。图中闭合的贝壳用于展示探索场景。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "岩洞顶上的卵串",
-      "body": "雌章鱼将卵成串附着在巢穴内，并照顾发育中的卵。小章鱼孵化时远比成体小，图像不表达精确比例。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '岩洞顶上的卵串',
+      body: '雌章鱼将卵成串附着在巢穴内，并照顾发育中的卵。小章鱼孵化时远比成体小，图像不表达精确比例。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "采用 Enteroctopus dofleini，不将其他大型章鱼的记录混入。图谱沿用八腕目，科采用 Enteroctopodidae；本轮未核实全球 IUCN 等级，NE 为仓库缺省，不代表无危。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '全球保护评估尚未确认。岩洞是章鱼藏身、育卵的场所，观察时不伸手探洞，不触碰卵串或拉扯腕。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '巨型章鱼会用腕探索和学习',
+      body: 'Wülker 在 1910 年发表了本种的科学描述，今天采用 Enteroctopus dofleini。中文名同时提示北太平洋家园和巨大成体，但孵出的幼体很小。蒙特雷湾水族馆还记录，它能学习打开罐子和解决简单任务，吸盘的抓握与感知都参与探索。',
+    },
   ],
   "keyFacts": [
     "腕的内侧有两列吸盘，能帮助抓住物体，也参与感知。近景只展示一条腕的局部。",
@@ -120844,7 +120850,19 @@ export const species = [
       "url": "https://www.marinebio.org/species/giant-octopuses/enteroctopus-dofleini/",
       "kind": "taxonomy",
       "accessedAt": "2026-09-24"
-    }
+    },
+    {
+      title: 'GBIF：北太平洋巨型章鱼的科学命名记录',
+      url: 'https://www.gbif.org/species/2289485',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
+    {
+      title: 'Monterey Bay Aquarium：北太平洋巨型章鱼的行为和外形',
+      url: 'https://www.montereybayaquarium.org/animals/animals-a-to-z/giant-pacific-octopus',
+      kind: 'ecology',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-24",
