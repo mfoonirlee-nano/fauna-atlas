@@ -61696,51 +61696,57 @@ export const species = [
     "龟壳外的身体"
   ],
   "summary": "亚达伯拉象龟用粗壮的四肢支撑身体在陆地行走。隆起的龟壳内部有骨骼，外面覆盖盾片，是它身体的一部分。",
-  "description": "粗壮、有鳞片的四肢支撑它在陆地走动。龟壳是象龟身体的一部分，里面有骨骼，外面覆盖盾片。它不能离开龟壳，壳面可见盾片之间的边界。",
+  "description": '亚达伯拉象龟的头颈和有鳞片的粗腿伸出隆起龟壳。它在环礁草地与灌丛间吃植物，炎热时移到阴凉处休息。',
   "storySections": [
     {
-      "key": "body",
-      "label": "生活与认识",
-      "title": "头和腿伸出大龟壳",
-      "body": "粗壮、有鳞片的四肢支撑它在陆地走动。"
+      key: 'body',
+      label: '生活与认识',
+      title: '头和腿伸出大龟壳',
+      body: '粗壮、有鳞片的四肢支撑它在陆地走动。',
     },
     {
-      "key": "shell",
-      "label": "生活与认识",
-      "title": "龟壳连着身体",
-      "body": "龟壳是象龟身体的一部分，里面有骨骼，外面覆盖盾片。它不能离开龟壳，壳面可见盾片之间的边界。"
+      key: 'shell',
+      label: '生活与认识',
+      title: '龟壳连着身体',
+      body: '龟壳是象龟身体的一部分，里面有骨骼，外面覆盖盾片。它不能离开龟壳，壳面可见盾片之间的边界。',
     },
     {
-      "key": "food",
-      "label": "生活与认识",
-      "title": "伸长脖子吃植物",
-      "body": "亚达伯拉象龟主要吃草、叶等植物。它可以低头啃草，也会伸长脖子够到一些枝叶。"
+      key: 'food',
+      label: '生活与认识',
+      title: '伸长脖子吃植物',
+      body: '亚达伯拉象龟主要吃草、叶等植物。它可以低头啃草，也会伸长脖子够到一些枝叶。',
     },
     {
-      "key": "walk",
-      "label": "生活与认识",
-      "title": "用粗腿走过地面",
-      "body": "象龟迈动粗腿，在草地和石灰岩地面活动。远侧的脚有时被壳或近侧的腿挡住，不必在一张照片里数全。"
+      key: 'walk',
+      label: '生活与认识',
+      title: '用粗腿走过地面',
+      body: '象龟迈动粗腿，走过草地和石灰岩地面。龟壳有时遮住远侧的脚，换一个观察角度就较容易看见。',
     },
     {
-      "key": "shade",
-      "label": "生活与认识",
-      "title": "热的时候找树阴",
-      "body": "象龟会利用灌丛等遮阴处躲避高温。环礁的植物既提供食物，也给它们留下休息位置。"
+      key: 'shade',
+      label: '生活与认识',
+      title: '热的时候找树阴',
+      body: '象龟会利用灌丛等遮阴处躲避高温。环礁的植物既提供食物，也给它们留下休息位置。',
     },
     {
-      "key": "conservation",
-      "label": "生活与认识",
-      "title": "守护环礁上的栖息地",
-      "body": "Smithsonian 引用 IUCN 将本种列为易危。保护亚达伯拉环礁、控制外来物种，并应对海平面上升与气候变化，有助于保留它的野外家园。"
-    }
+      key: 'conservation',
+      label: '生活与认识',
+      title: '守护环礁上的栖息地',
+      body: 'Smithsonian 引用 IUCN 将本种列为易危。保护亚达伯拉环礁、控制外来物种，并应对海平面上升与气候变化，有助于保留它的野外家园。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '环礁上的巨大陆龟',
+      body: 'Schweigger 于 1812 年描述了这个物种，现用学名为 Aldabrachelys gigantea。它的天然野外核心分布位于塞舌尔亚达伯拉环礁，其他岛屿也有迁地保护或引入种群。粗腿支撑身体走过草地与石灰岩，龟壳连着骨骼，无法像衣服一样脱下。',
+    },
   ],
   "keyFacts": [
-    "头和腿伸出大龟壳",
-    "龟壳连着身体",
-    "伸长脖子吃植物",
-    "用粗腿走过地面",
-    "热的时候找树阴"
+    '头颈和粗壮四肢伸出隆起的龟壳。',
+    '龟壳有骨骼和外层盾片，是身体的一部分。',
+    '主要吃草和叶片。',
+    '能走过草地和石灰岩地面。',
+    '炎热时利用灌丛的阴影休息。',
   ],
   "threats": [
     "气候变化与海平面上升。",
@@ -61791,7 +61797,13 @@ export const species = [
       "url": "https://nationalzoo.si.edu/animals/news/happy-50th-zooniversary-chyna-and-rulon-zoos-aldabra-giant-tortoises",
       "kind": "conservation",
       "accessedAt": "2026-09-09"
-    }
+    },
+    {
+      title: 'GBIF：Aldabrachelys gigantea 的命名作者与年份',
+      url: 'https://www.gbif.org/species/7696021',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "media": {
     "image": "./images/species/aldabra-giant-tortoise/01-cover.webp",
