@@ -107401,7 +107401,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "仅核实欧洲区域 LC，未取得全球评估证据；全球字段暂保留 NE，不把区域等级当作全球等级。"
+    "assessor": '已核实欧洲区域等级为 LC；全球评估尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -107416,13 +107416,13 @@ export const species = [
       "欧洲花园与林缘"
     ],
     "countries": [],
-    "range": "分布于古北界多个地区，欧洲的花园、公园和林缘常有记录；这里展示欧洲春季活动场景，不把英国资料视为完整全球范围。"
+    "range": '分布于古北界多个地区，包括欧洲、亚洲和非洲部分地区；欧洲花园、公园和林缘有常见记录。'
   },
   "habitats": [
     {
       "name": "有花与孔洞的花园、林缘",
       "realm": "terrestrial",
-      "description": "分布于古北界多个地区，欧洲的花园、公园和林缘常有记录；这里展示欧洲春季活动场景，不把英国资料视为完整全球范围。",
+      "description": '有开花植物和筑巢孔洞的花园、公园及林缘。',
       "isPrimary": true
     }
   ],
@@ -107442,45 +107442,51 @@ export const species = [
     "红壁蜂",
     "用泥封住洞口"
   ],
-  "summary": "看看雌蜂怎样用泥把小洞口封起来。",
+  "summary": '红壁蜂的雌蜂在茎秆或其他孔洞里筑巢，用泥分隔小室，给每枚卵准备花粉和花蜜。它在春季花间活动。',
   "description": "红壁蜂身上长着姜黄色至锈红色的毛。每只雌蜂各自筑巢，利用空心植物茎或其他孔洞，用泥把巢分成小室，为幼虫准备花粉和花蜜。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "用泥封住洞口",
-      "body": "雌蜂把泥团带回巢，用来筑隔墙和封口。图中的空心茎可作大小参照，放大画面不代表真实体长。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '用泥封住洞口',
+      body: '雌蜂把泥团带回巢，用来筑隔墙和封口。图中的空心茎可作大小参照，放大画面不代表真实体长。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "到花上找食物",
-      "body": "红壁蜂会拜访苹果等植物的花，取食花蜜并收集花粉。看花朵与蜂的大小关系。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '到花上找食物',
+      body: '红壁蜂会拜访苹果等植物的花，取食花蜜并收集花粉。看花朵与蜂的大小关系。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "带回一小团泥",
-      "body": "雌蜂用口器搬运泥团，脸上的一对突起能帮助整理泥墙。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '带回一小团泥',
+      body: '雌蜂用口器搬运泥团，脸上的一对突起能帮助整理泥墙。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "借用现成的小孔",
-      "body": "雌蜂会利用空心茎和木头里的孔洞，每个巢室里放一枚卵和供幼虫吃的食物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '借用现成的小孔',
+      body: '雌蜂会利用空心茎和木头里的孔洞，每个巢室里放一枚卵和供幼虫吃的食物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "身上的红褐色毛",
-      "body": "看看腹部的红褐色毛和背上折起的翅膀。雄蜂通常更小，脸上有浅色毛；本组画的是雌蜂。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '身上的红褐色毛',
+      body: '看看腹部的红褐色毛和背上折起的翅膀。雄蜂通常更小，脸上有浅色毛；本组画的是雌蜂。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留花源和可供筑巢的枯茎，观察蜂巢时不拆开泥封。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留花源和可供筑巢的枯茎，观察蜂巢时不拆开泥封。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '用泥分隔育幼小室',
+      body: 'Linnaeus 在 1758 年发表 Osmia bicornis 这个名称。“壁蜂”可以联想到雌蜂在孔洞里筑泥墙的行为，每个小室各放一枚卵和一份花粉、花蜜。雌蜂脸前的两处突起也值得观察，它们参与处理筑巢的泥。每只雌蜂独自安排这些小室。',
+    },
   ],
   "keyFacts": [
     "雌蜂把泥团带回巢，用来筑隔墙和封口。图中的空心茎可作大小参照，放大画面不代表真实体长。",
@@ -107599,7 +107605,13 @@ export const species = [
       "url": "https://www.iucn-uk-peatlandprogramme.org/wildlife-explorer/bees-and-wasps/red-mason-bee",
       "kind": "general",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：红壁蜂的科学命名记录',
+      url: 'https://www.gbif.org/species/5039315',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
