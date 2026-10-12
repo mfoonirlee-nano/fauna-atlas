@@ -74123,7 +74123,7 @@ export const species = [
     "countries": [
       "美国"
     ],
-    "range": "原生分布以美国东部和东南部为主，栖息于林地、林缘和草地等环境；不把已独立成种的 Pantherophis emoryi 的分布并入本档案。",
+    "range": '原生分布以美国东部和东南部为主，栖息于林地、林缘和草地等环境。Pantherophis emoryi 已独立成种，分布另计。',
     "center": {
       "lat": 33,
       "lng": -83
@@ -74133,7 +74133,7 @@ export const species = [
     {
       "name": "林地、林缘与草地",
       "realm": "terrestrial",
-      "description": "原生分布以美国东部和东南部为主，栖息于林地、林缘和草地等环境；不把已独立成种的 Pantherophis emoryi 的分布并入本档案。",
+      "description": '玉米蛇利用林地、林缘和草地，能在地面移动，也能攀爬枝条。树皮下、洞穴与其他缝隙提供休息位置。',
       "isPrimary": true
     }
   ],
@@ -74157,44 +74157,50 @@ export const species = [
     "把身体弯起来前进"
   ],
   "summary": "玉米蛇用肌肉和腹部鳞片配合地面支撑向前移动，也能爬上枝条。常见个体背上有带深色边缘的红褐斑块。",
-  "description": "玉米蛇常见橙褐底色，背上有深色边缘的红褐斑块。它用肌肉和腹部鳞片配合地面支撑移动，也能爬上枝条。它是无毒蛇，但受到惊扰仍可能咬人，适合隔着距离观察。",
+  "description": '玉米蛇常见橙褐底色，背上有带深色边缘的红褐斑块。它藏在树皮下或洞穴中休息，外出捕食小动物，也会蜕去外层旧皮。它没有毒液，受到惊扰仍可能咬人，观察时应保持距离。',
   "storySections": [
     {
-      "key": "move",
-      "label": "生活与认识",
-      "title": "把身体弯起来前进",
-      "body": "玉米蛇在地面移动时，身体会出现弯曲。肌肉和腹部鳞片共同帮助它获得支撑，图中的弯曲只是一个姿势。"
+      key: 'move',
+      label: '生活与认识',
+      title: '把身体弯起来前进',
+      body: '玉米蛇弯曲身体向前移动，肌肉与腹部鳞片配合地面获得支撑。',
     },
     {
-      "key": "tongue",
-      "label": "生活与认识",
-      "title": "伸出分叉的舌头",
-      "body": "蛇伸出舌头采集周围的化学信息，再送到口腔内的感受器官。舌头能帮助它了解环境，不是用来叮人的。"
+      key: 'tongue',
+      label: '生活与认识',
+      title: '伸出分叉的舌头',
+      body: '蛇用分叉舌采集周围的化学信息，再送到口腔内的感受器官，帮助了解环境。舌头不是用来叮人的。',
     },
     {
-      "key": "climb",
-      "label": "生活与认识",
-      "title": "沿着树枝爬",
-      "body": "玉米蛇也会攀爬，用身体贴住粗糙枝条。看看身体在哪些地方绕过树枝，再找到没有分叉的尾巴。"
+      key: 'climb',
+      label: '生活与认识',
+      title: '沿着树枝爬',
+      body: '玉米蛇能攀爬，用身体贴住粗糙枝条，在不同接触点获得支撑。',
     },
     {
-      "key": "shelter",
-      "label": "生活与认识",
-      "title": "藏在树皮和缝隙里",
-      "body": "它会在树皮下、洞穴或其他隐蔽处休息，出来寻找猎物。玉米蛇吃小动物，不以玉米为食。"
+      key: 'shelter',
+      label: '生活与认识',
+      title: '藏在树皮和缝隙里',
+      body: '它会在树皮下、洞穴或其他隐蔽处休息，出来寻找猎物。玉米蛇吃小动物，不以玉米为食。',
     },
     {
-      "key": "skin",
-      "label": "生活与认识",
-      "title": "长大时蜕下旧皮",
-      "body": "玉米蛇会蜕去外层旧皮。观察图把蛇与蜕皮放在同一场景中，帮助认识蜕皮；它不是记录某只蛇蜕皮过程的实拍。"
+      key: 'skin',
+      label: '生活与认识',
+      title: '长大时蜕下旧皮',
+      body: '玉米蛇会蜕去外层旧皮，换上新的外层皮肤。',
     },
     {
-      "key": "conservation",
-      "label": "生活与认识",
-      "title": "给林缘留下藏身处",
-      "body": "玉米蛇全球属无危。保护林地边缘和藏身空间，减少道路伤害与人为捕捉，有助于维持野外种群。"
-    }
+      key: 'conservation',
+      label: '生活与认识',
+      title: '给林缘留下藏身处',
+      body: '玉米蛇全球属无危。保护林地边缘和藏身空间，减少道路伤害与人为捕捉，有助于维持野外种群。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '名字里有玉米，食物是小动物',
+      body: 'Linnaeus 于 1766 年描述了这个物种，现用学名为 Pantherophis guttatus。玉米蛇捕食啮齿动物、鸟和蜥蜴，玉米不是它的主食。它用分叉舌采集化学信息，身体肌肉和腹部鳞片则配合地面支撑，帮助这条没有四肢的蛇移动。',
+    },
   ],
   "keyFacts": [
     "玉米蛇在地面移动时，身体会出现弯曲。",
@@ -74288,7 +74294,7 @@ export const species = [
         "image": "./images/species/corn-snake/06-observation.webp",
         "title": "小蛇和蜕下的皮",
         "alt": "幼年玉米蛇停在一段空的蜕皮旁",
-        "caption": "AI 生成科学情景重建。幼年玉米蛇停在一段空的蜕皮旁。",
+        "caption": 'AI 生成科学情景重建。幼年玉米蛇停在一段空的蜕皮旁。蛇与蜕皮同处一张示意图，不能当作某一个体蜕皮过程的实拍。',
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -74321,7 +74327,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Pantherophis_guttatus/",
       "kind": "conservation",
       "accessedAt": "2026-09-14"
-    }
+    },
+    {
+      title: 'GBIF：Pantherophis guttatus 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2455615',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-14",
