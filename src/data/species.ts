@@ -120157,7 +120157,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "采用 Lactoria cornuta，不能与粒突箱鲀混同。形态与取食资料采用 Fishes of Australia；本轮全球 IUCN 等级待核实，NE 沿用仓库缺省，不代表无危。"
+    "assessor": '全球保护评估尚未确认；NE（未评估）不等于无危。'
   },
   "distribution": {
     "realms": [
@@ -120174,7 +120174,7 @@ export const species = [
     {
       "name": "礁石附近的沙底与海草区域",
       "realm": "marine",
-      "description": "角箱鲀顶着两根长角，身体像一个硬盒子。看看它怎样摆动小鳍，在沙底上方缓缓游动。",
+      "description": '印度洋和太平洋热带、亚热带礁石附近的沙底及海草区域。',
       "isPrimary": true
     }
   ],
@@ -120192,45 +120192,51 @@ export const species = [
     "角箱鲀",
     "礁石附近的沙底与海草区域"
   ],
-  "summary": "角箱鲀顶着两根长角，身体像一个硬盒子。看看它怎样摆动小鳍，在沙底上方缓缓游动。",
-  "description": "角箱鲀顶着两根长角，身体像一个硬盒子。看看它怎样摆动小鳍，在沙底上方缓缓游动。头部前方伸出一对长棘，看起来像角。它们属于身体结构，观察时不触碰或抓握。",
+  "summary": '角箱鲀有盒状硬身体，头前和后下方伸出长棘。它向沙底吹水，寻找小型无脊椎动物。',
+  "description": '角箱鲀在印度洋和太平洋暖海的礁边沙底、海草区域活动。坚硬甲壳包围盒状身体，头前一对长棘像角，后下方也有长棘。它摆动小鳍游动，向沙底吹水，寻找埋藏的小型无脊椎动物。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "眼睛前面的长角",
-      "body": "头部前方伸出一对长棘，看起来像角。它们属于身体结构，观察时不触碰或抓握。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '眼睛前面的长角',
+      body: '头部前方伸出一对长棘，看起来像角。它们属于身体结构，观察时不触碰或抓握。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "盒子般的身体",
-      "body": "身体外有坚硬的甲壳，侧面轮廓方方的。游动时可以找找身体旁摆动的小鳍。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '盒子般的身体',
+      body: '身体外有坚硬的甲壳，侧面轮廓方方的。游动时可以找找身体旁摆动的小鳍。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "后面也有尖棘",
-      "body": "除了头前的一对，身体后下方也有向后伸出的长棘。尾巴从较窄的尾柄伸出去。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '后面也有尖棘',
+      body: '除了头前的一对，身体后下方也有向后伸出的长棘。尾巴从较窄的尾柄伸出去。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "吹开沙粒找食物",
-      "body": "角箱鲀可以向沙底吹水，露出埋藏的小型无脊椎动物。图中的沙粒表示这一取食场景。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '吹开沙粒找食物',
+      body: '角箱鲀可以向沙底吹水，露出埋藏的小型无脊椎动物。图中的沙粒表示这一取食场景。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "沙地与海草之间",
-      "body": "它会在礁石附近的沙地和有海草的地方活动。浅黄色到橄榄色的身体上可见浅蓝色小斑点。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '沙地与海草之间',
+      body: '它会在礁石附近的沙地和有海草的地方活动。浅黄色到橄榄色的身体上可见浅蓝色小斑点。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "采用 Lactoria cornuta，不能与粒突箱鲀混同。形态与取食资料采用 Fishes of Australia；本轮全球 IUCN 等级待核实，NE 沿用仓库缺省，不代表无危。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '全球保护评估尚未确认。观察时不抓握长棘，不触碰或移动鱼，保留礁边沙底和海草生境。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '盒状身体前后的长棘',
+      body: 'Linnaeus 在 1758 年发表了角箱鲀的科学描述，今天采用 Lactoria cornuta。中文名“角箱”能与头前长棘和盒状硬身体对应，英文俗名 Longhorn Cowfish 也提示长角外观。它与粒突箱鲀是不同种，辨认时还可以留意身体后下方的长棘。',
+    },
   ],
   "keyFacts": [
     "头部前方伸出一对长棘，看起来像角。它们属于身体结构，观察时不触碰或抓握。",
@@ -120340,7 +120346,13 @@ export const species = [
       "url": "https://lifg.australian.museum/Group.html?groupId=18EfNNlk",
       "kind": "distribution",
       "accessedAt": "2026-09-24"
-    }
+    },
+    {
+      title: 'GBIF：角箱鲀的科学命名记录',
+      url: 'https://www.gbif.org/species/2408107',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-24",
