@@ -84204,13 +84204,13 @@ export const species = [
       "非洲中西部"
     ],
     "countries": [],
-    "range": "主要生活在非洲中西部的热带森林，分布向东延伸至东非部分地区；本档案不包含独立种 Psittacus timneh。"
+    "range": '主要分布于非洲中西部热带森林，向东延伸至东非部分地区。Psittacus timneh 已列为独立物种，分布另计。'
   },
   "habitats": [
     {
       "name": "热带森林",
       "realm": "terrestrial",
-      "description": "主要生活在非洲中西部的热带森林，分布向东延伸至东非部分地区；本档案不包含独立种 Psittacus timneh。",
+      "description": '热带森林提供果实、种子和棕榈果，大树的洞穴供灰鹦鹉繁殖。树冠也供鸟群停留和休息。',
       "isPrimary": true
     }
   ],
@@ -84231,51 +84231,57 @@ export const species = [
     "灰羽毛里的红尾巴"
   ],
   "summary": "非洲灰鹦鹉身体灰色，短尾鲜红，黑色喙向下弯曲。眼睛周围有一片浅色裸皮。",
-  "description": "非洲灰鹦鹉的身体以灰色为主，短尾巴鲜红，弯曲的嘴呈黑色。眼睛周围有一片浅色裸皮。",
+  "description": '非洲灰鹦鹉用黑色弯喙处理果实和种子，利用大树已有的洞穴筑巢。野外个体会结群飞行、在树上聚集休息，头颈和胸羽的浅色边缘形成层层纹路。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "灰羽毛里的红尾巴",
-      "body": "沿着灰色背部向下看，尾端有一片鲜红色。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '灰羽毛里的红尾巴',
+      body: '灰色身体后有鲜红短尾。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "用嘴打开食物",
-      "body": "灰鹦鹉会用弯曲的嘴处理果实和种子。看看它怎样把食物送到嘴边。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '用嘴打开食物',
+      body: '灰鹦鹉用弯曲喙处理果实和种子。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "住进树洞",
-      "body": "灰鹦鹉利用树上已有的洞穴筑巢，大树能提供适合的巢址。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '住进树洞',
+      body: '它利用树上已有的洞穴筑巢，大树能提供合适巢址。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "和同伴待在一起",
-      "body": "野外灰鹦鹉会结群飞行，也会聚集在树上休息。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '和同伴待在一起',
+      body: '野外灰鹦鹉会结群飞行，在树上聚集休息。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "细看灰色羽毛",
-      "body": "头颈和胸部的羽毛边缘形成一层层浅色纹路，眼睛周围则较白。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '细看灰色羽毛',
+      body: '头颈和胸羽的浅色边缘形成层层纹路，眼睛周围有浅色裸皮。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "全球等级为濒危。捕捉贸易和森林损失威胁野生灰鹦鹉；欣赏它们的颜色和行为时，也要为它们保留野外的家。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: '非洲灰鹦鹉全球属濒危，捕捉贸易和森林损失威胁野生种群。保护森林及减少野外捕捉，能保留它们的生活空间。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '灰色身体和鲜红短尾',
+      body: 'Linnaeus 于 1758 年描述了这个物种，现用学名为 Psittacus erithacus。灰鹦鹉的中文名对应灰色羽衣，尾巴却是鲜红色。近似的 Psittacus timneh 已列为另一物种；本种利用森林大树的天然洞穴繁殖，野外生活还包括结群飞行和休息。',
+    },
   ],
   "keyFacts": [
-    "沿着灰色背部向下看，尾端有一片鲜红色。",
-    "灰鹦鹉会用弯曲的嘴处理果实和种子。看看它怎样把食物送到嘴边。",
-    "灰鹦鹉利用树上已有的洞穴筑巢，大树能提供适合的巢址。",
-    "野外灰鹦鹉会结群飞行，也会聚集在树上休息。",
-    "头颈和胸部的羽毛边缘形成一层层浅色纹路，眼睛周围则较白。"
+    '灰色身体后有鲜红短尾。',
+    '灰鹦鹉用弯曲喙处理果实和种子。',
+    '它利用树上已有的洞穴筑巢，大树能提供合适巢址。',
+    '野外灰鹦鹉会结群飞行，在树上聚集休息。',
+    '头颈和胸羽的浅色边缘形成层层纹路，眼睛周围有浅色裸皮。',
   ],
   "threats": [
     "为宠物贸易捕捉野鸟",
@@ -84310,7 +84316,7 @@ export const species = [
       {
         "image": "./images/species/african-grey-parrot/02-observation.webp",
         "title": "灰羽毛里的红尾巴",
-        "alt": "非洲灰鹦鹉：灰羽毛里的红尾巴",
+        "alt": '灰羽毛里的红尾巴',
         "caption": "AI 生成科学情景重建。沿着灰色背部向下看，尾端有一片鲜红色。",
         "focalPoint": {
           "x": 0.5,
@@ -84321,7 +84327,7 @@ export const species = [
       {
         "image": "./images/species/african-grey-parrot/03-observation.webp",
         "title": "用嘴打开食物",
-        "alt": "非洲灰鹦鹉：用嘴打开食物",
+        "alt": '用嘴打开食物',
         "caption": "AI 生成科学情景重建。灰鹦鹉会用弯曲的嘴处理果实和种子。看看它怎样把食物送到嘴边。",
         "focalPoint": {
           "x": 0.5,
@@ -84332,7 +84338,7 @@ export const species = [
       {
         "image": "./images/species/african-grey-parrot/04-observation.webp",
         "title": "住进树洞",
-        "alt": "非洲灰鹦鹉：住进树洞",
+        "alt": '住进树洞',
         "caption": "AI 生成科学情景重建。灰鹦鹉利用树上已有的洞穴筑巢，大树能提供适合的巢址。",
         "focalPoint": {
           "x": 0.5,
@@ -84343,7 +84349,7 @@ export const species = [
       {
         "image": "./images/species/african-grey-parrot/05-observation.webp",
         "title": "和同伴待在一起",
-        "alt": "非洲灰鹦鹉：和同伴待在一起",
+        "alt": '和同伴待在一起',
         "caption": "AI 生成科学情景重建。野外灰鹦鹉会结群飞行，也会聚集在树上休息。",
         "focalPoint": {
           "x": 0.5,
@@ -84354,7 +84360,7 @@ export const species = [
       {
         "image": "./images/species/african-grey-parrot/06-observation.webp",
         "title": "细看灰色羽毛",
-        "alt": "非洲灰鹦鹉：细看灰色羽毛",
+        "alt": '细看灰色羽毛',
         "caption": "AI 生成科学情景重建。头颈和胸部的羽毛边缘形成一层层浅色纹路，眼睛周围则较白。",
         "focalPoint": {
           "x": 0.5,
@@ -84382,7 +84388,13 @@ export const species = [
       "url": "https://www.worldlandtrust.org/species/grey-parrot/",
       "kind": "taxonomy",
       "accessedAt": "2026-09-16"
-    }
+    },
+    {
+      title: 'GBIF：Psittacus erithacus 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2480181',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-16",
