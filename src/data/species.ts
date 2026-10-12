@@ -155340,13 +155340,13 @@ export const species = [
       "大西洋温带与热带深水，包括墨西哥湾"
     ],
     "countries": [],
-    "range": "本档案以 FishBase 与 WHOI 介绍的大西洋温带、热带深水及墨西哥湾记录为范围。不同数据库对全球范围的汇总存在差异，不把这段介绍作为完整分布边界。"
+    "range": 'FishBase 与 WHOI 记录包括大西洋温带、热带深水和墨西哥湾。不同数据库的全球汇总范围有差异，这些地点并非完整分布边界。'
   },
   "habitats": [
     {
       "name": "深海开放水域",
       "realm": "marine",
-      "description": "本档案以 FishBase 与 WHOI 介绍的大西洋温带、热带深水及墨西哥湾记录为范围。不同数据库对全球范围的汇总存在差异，不把这段介绍作为完整分布边界。",
+      "description": '深海开放水域供黑叉齿龙鱼生活，幼鱼与较大个体采集到的水层不同。',
       "isPrimary": true
     }
   ],
@@ -155358,56 +155358,64 @@ export const species = [
     "foods": [
       "鱼类"
     ],
-    "description": "本种吞食鱼类，可扩张的胃能够容纳较大的猎物。爱尔兰国家博物馆保存的标本提供胃部扩张的实物记录；图库的腹部外观示意只解释轮廓，不表示摄食过程或实测比例。"
+    "description": '黑叉齿龙鱼吞食鱼类，可扩张的胃能容纳较大猎物，博物馆标本保留了扩张胃部的实物记录。'
   },
   "tags": [
     "黑叉齿龙鱼",
     "深海开放水域"
   ],
-  "summary": "黑叉齿龙鱼：细长的暗色身体与长口裂。",
-  "description": "身体细长，体表暗色，口裂很长，下颌略向前突出。先沿着身体找尾部，再看看头部与嘴的比例；生成图中的牙齿和鳍条不用于鉴定。本档案以 FishBase 与 WHOI 介绍的大西洋温带、热带深水及墨西哥湾记录为范围。不同数据库对全球范围的汇总存在差异，不把这段介绍作为完整分布边界。",
+  "summary": '黑叉齿龙鱼身体细长、体色暗，口裂很长。它可扩张的胃能够容纳较大的鱼类猎物。',
+  "description": '黑叉齿龙鱼下颌略向前突出，在深水中吞食鱼类。深水记录多来自采集标本，幼鱼和较大个体的采集水层有差异；爱尔兰国家博物馆保存有胃部扩张的实物标本。',
   "storySections": [
     {
-      "key": "appearance",
-      "label": "外形观察",
-      "title": "细长的暗色身体与长口裂",
-      "body": "身体细长，体表暗色，口裂很长，下颌略向前突出。先沿着身体找尾部，再看看头部与嘴的比例；生成图中的牙齿和鳍条不用于鉴定。"
+      key: 'appearance',
+      label: '外形观察',
+      title: '细长的暗色身体与长口裂',
+      body: '身体细长、暗色，口裂很长，下颌略向前突出。',
     },
     {
-      "key": "ecology",
-      "label": "生活环境",
-      "title": "深海开放水域",
-      "body": "本档案以 FishBase 与 WHOI 介绍的大西洋温带、热带深水及墨西哥湾记录为范围。不同数据库对全球范围的汇总存在差异，不把这段介绍作为完整分布边界。"
+      key: 'ecology',
+      label: '生活环境',
+      title: '深海开放水域',
+      body: '记录包括大西洋温带、热带深水和墨西哥湾，各数据库对完整全球范围的汇总有差异。',
     },
     {
-      "key": "feeding",
-      "label": "食物与身体",
-      "title": "寻找食物",
-      "body": "本种吞食鱼类，可扩张的胃能够容纳较大的猎物。爱尔兰国家博物馆保存的标本提供胃部扩张的实物记录；图库的腹部外观示意只解释轮廓，不表示摄食过程或实测比例。"
+      key: 'feeding',
+      label: '食物与身体',
+      title: '扩张的胃容纳鱼类猎物',
+      body: '黑叉齿龙鱼吞食鱼类，可扩张胃部容纳较大猎物。爱尔兰国家博物馆保存有相关标本。',
     },
     {
-      "key": "life-cycle",
-      "label": "生活史",
-      "title": "成体与早期生活",
-      "body": "幼鱼与较大个体的采集水层有差异，不能把成体图当作所有发育阶段的样貌。本批未核实产卵季节与数量，保留成体外观图。"
+      key: 'life-cycle',
+      label: '生活史',
+      title: '幼鱼与大个体利用不同水层',
+      body: '幼鱼和较大个体的采集水层有差异，产卵季节与数量尚缺确认资料。',
     },
     {
-      "key": "taxonomy",
-      "label": "分类归属",
-      "title": "名称对应的物种",
-      "body": "本种学名为 Chiasmodon niger，采用辐鳍鱼纲、鲭形目、叉齿龙鱼科。分类图谱表示归属关系，不表示祖先关系或演化时间。"
+      key: 'taxonomy',
+      label: '分类归属',
+      title: '叉齿龙鱼科中的深水鱼',
+      body: '黑叉齿龙鱼的学名为 Chiasmodon niger，属于辐鳍鱼纲、鲭形目和叉齿龙鱼科。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "先找图中可见的特点",
-      "body": "深水记录多来自采集标本；静止重建图不能证明吞咽动作。共读时观察细长身体和腹部轮廓，不让孩子用大口吞食模仿动物。 FishBase 转录 IUCN 全球 LC，评估日期为 2014-07-15；全球种群趋势未独立核实。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '全球无危，趋势尚未确认',
+      body: '全球 IUCN 等级为无危，FishBase 转引的评估日期为 2014-07-15。全球种群趋势尚未确认。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '馆藏标本保存了扩张的胃',
+      body: 'Johnson 于 1864 年描述了这个物种，现用学名为 Chiasmodon niger。“黑”对应暗色体表，英文名 Black Swallower 则让人留意它吞食鱼类的方式。爱尔兰国家博物馆保存有胃部扩张标本，提供真实身体结构的记录；图片里的膨大腹部只用于解释外形。',
+    },
   ],
   "keyFacts": [
-    "身体细长，体表暗色，口裂很长，下颌略向前突出。先沿着身体找尾部，再看看头部与嘴的比例；生成图中的牙齿和鳍条不用于鉴定。",
-    "深水记录多来自采集标本；静止重建图不能证明吞咽动作。共读时观察细长身体和腹部轮廓，不让孩子用大口吞食模仿动物。",
-    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作。"
+    '身体细长暗色，口裂长。',
+    '下颌略向前突出。',
+    '胃能够扩张，容纳较大猎物。',
+    '主要吞食鱼类。',
+    '幼鱼与较大个体的采集水层有差异。',
   ],
   "threats": [],
   "conservationActions": [
@@ -155434,8 +155442,8 @@ export const species = [
       {
         "image": "./images/species/black-swallower/02-observation.webp",
         "title": "普通腹部的全身",
-        "alt": "黑叉齿龙鱼：普通腹部的全身，AI 生成科学情景重建",
-        "caption": "AI 生成科学情景重建。展示未明显扩张腹部的成体外形。",
+        "alt": '普通腹部的全身，AI 生成科学情景重建',
+        "caption": 'AI 生成科学情景重建。展示未明显扩张腹部的成体外形。图像尺度未经实测，单幅图只能展示姿态。',
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -155445,7 +155453,7 @@ export const species = [
       {
         "image": "./images/species/black-swallower/03-observation.webp",
         "title": "长口裂与头部",
-        "alt": "黑叉齿龙鱼：长口裂与头部，AI 生成科学情景重建",
+        "alt": '长口裂与头部，AI 生成科学情景重建',
         "caption": "AI 生成科学情景重建。头部放大重建，牙齿细节不用于鉴定。",
         "focalPoint": {
           "x": 0.5,
@@ -155456,7 +155464,7 @@ export const species = [
       {
         "image": "./images/species/black-swallower/04-observation.webp",
         "title": "斜侧面的细长身体",
-        "alt": "黑叉齿龙鱼：斜侧面的细长身体，AI 生成科学情景重建",
+        "alt": '斜侧面的细长身体，AI 生成科学情景重建',
         "caption": "AI 生成科学情景重建。斜侧视角观察身体与鱼鳍。",
         "focalPoint": {
           "x": 0.5,
@@ -155467,7 +155475,7 @@ export const species = [
       {
         "image": "./images/species/black-swallower/05-observation.webp",
         "title": "深水环境",
-        "alt": "黑叉齿龙鱼：深水环境，AI 生成科学情景重建",
+        "alt": '深水环境，AI 生成科学情景重建',
         "caption": "AI 生成科学情景重建。照明为情景重建，非自然光或地点记录。",
         "focalPoint": {
           "x": 0.5,
@@ -155478,8 +155486,8 @@ export const species = [
       {
         "image": "./images/species/black-swallower/06-observation.webp",
         "title": "腹部轮廓示意",
-        "alt": "黑叉齿龙鱼：腹部轮廓示意，AI 生成科学情景重建",
-        "caption": "AI 生成科学情景重建。胃部扩张的概念外观示意，非实测比例、标本复刻或摄食记录。",
+        "alt": '腹部轮廓示意，AI 生成科学情景重建',
+        "caption": 'AI 生成科学情景重建。胃部扩张的概念外观示意，非实测比例、标本复刻或摄食记录。共读时可以比较腹部轮廓，不让孩子模仿大口吞食。',
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -155506,7 +155514,13 @@ export const species = [
       "url": "https://www.museum.ie/getmedia/cd11862c-a1a7-4691-a39f-d8f77f2268ea/nhm_guide_web_en.pdf",
       "kind": "ecology",
       "accessedAt": "2026-10-11"
-    }
+    },
+    {
+      title: 'GBIF：Chiasmodon niger 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2394676',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-10-11",
