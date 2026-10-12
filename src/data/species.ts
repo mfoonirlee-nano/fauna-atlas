@@ -116197,7 +116197,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "MarLIN 支持骨质环、鳍和英国沿岸生境；伊比利亚半岛研究支持食性及雄性尾腹育儿囊。本轮未核实全球 IUCN 等级，NE 不代表无危。"
+    "assessor": '全球保护评估尚未确认；NE（未评估）不等于无危。'
   },
   "distribution": {
     "realms": [
@@ -116214,7 +116214,7 @@ export const species = [
     {
       "name": "浅海海草与海藻丛",
       "realm": "marine",
-      "description": "尖海龙的身体细长，嘴像一根小管子。它藏在海草旁，用小小的鳍游动。",
+      "description": '东北大西洋欧洲沿岸及地中海等海域的浅海海草、海藻丛。',
       "isPrimary": true
     }
   ],
@@ -116232,45 +116232,51 @@ export const species = [
     "尖海龙",
     "浅海海草与海藻丛"
   ],
-  "summary": "尖海龙的身体细长，嘴像一根小管子。它藏在海草旁，用小小的鳍游动。",
-  "description": "尖海龙的身体细长，嘴像一根小管子。它藏在海草旁，用小小的鳍游动。嘴开在长吻的末端。它靠近小型甲壳动物时，把食物吸入口中。",
+  "summary": '尖海龙在海草和海藻旁用管状吻吸食小型甲壳动物。身体有骨质环，雄鱼在尾部腹面的育儿囊携带卵。',
+  "description": '尖海龙在东北大西洋欧洲沿岸和地中海的浅海海草、海藻丛生活。细长身体由骨质环包围，管状吻部末端的小嘴能吸入小型甲壳动物。雄鱼尾部腹面有育儿囊，替雌鱼携带卵。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "管子一样的嘴",
-      "body": "嘴开在长吻的末端。它靠近小型甲壳动物时，把食物吸入口中。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '管子一样的嘴',
+      body: '嘴开在长吻的末端。它靠近小型甲壳动物时，把食物吸入口中。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "一圈圈的身体",
-      "body": "体表有骨质环，身体不像鳗鱼那样柔软。找找细长身体上的环纹。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '一圈圈的身体',
+      body: '体表有骨质环，身体不像鳗鱼那样柔软。找找细长身体上的环纹。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "爸爸的育儿囊",
-      "body": "雄鱼尾部腹面有育儿囊，雌鱼把卵交给雄鱼携带。封闭的囊从外面看只是局部隆起。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '爸爸的育儿囊',
+      body: '雄鱼尾部腹面有育儿囊，雌鱼把卵交给雄鱼携带。封闭的囊从外面看只是局部隆起。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "小鳍也能游泳",
-      "body": "背部有一枚薄薄的鳍，尾端也有小尾鳍。它靠鳍的运动在水中调整位置。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '小鳍也能游泳',
+      body: '背部有一枚薄薄的鳍，尾端也有小尾鳍。它靠鳍的运动在水中调整位置。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "藏进海草里",
-      "body": "绿褐色和深浅斑纹能帮助身体融入海草、海藻背景。和海马相比，它的身体更直、更长。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '藏进海草里',
+      body: '绿褐色和深浅斑纹能帮助身体融入海草、海藻背景。和海马相比，它的身体更直、更长。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "MarLIN 支持骨质环、鳍和英国沿岸生境；伊比利亚半岛研究支持食性及雄性尾腹育儿囊。本轮未核实全球 IUCN 等级，NE 不代表无危。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '全球保护评估尚未确认。海草和海藻为尖海龙提供藏身处，潜水时不拔取植物，也不捕捉携卵雄鱼。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '长吻之外还有雄鱼育儿囊',
+      body: 'Linnaeus 在 1758 年发表 Syngnathus acus 这个名称。英文 Pipefish 能与管状长吻对应，同种雄鱼还会在尾部腹面的育儿囊携带卵。雌鱼把卵交给雄鱼后，封闭育儿囊从外面看只表现为局部隆起，不能凭图片看到囊内全部过程。',
+    },
   ],
   "keyFacts": [
     "嘴开在长吻的末端。它靠近小型甲壳动物时，把食物吸入口中。",
@@ -116386,7 +116392,13 @@ export const species = [
       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=161584",
       "kind": "taxonomy",
       "accessedAt": "2026-09-23"
-    }
+    },
+    {
+      title: 'GBIF：尖海龙的科学命名记录',
+      url: 'https://www.gbif.org/species/2332927',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-23",
