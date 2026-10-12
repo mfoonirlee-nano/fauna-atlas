@@ -107900,7 +107900,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "来源见本档案资料列表；未核实独立评估年份，全球趋势未核实。"
+    "assessor": '全球等级为 LC（无危）；独立评估年份与全球种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -107938,45 +107938,51 @@ export const species = [
     "南非豪猪",
     "背上的长刺"
   ],
-  "summary": "找找背上长长的黑白色刺。",
+  "summary": '南非豪猪夜间寻找根、块茎等植物食物，白天藏在洞穴或岩缝。背刺由毛发变来，尾刺碰撞能发声。',
   "description": "南非豪猪有粗壮的身体和短腿，背部覆盖长刺。它主要在夜间到地面寻找植物食物，白天常在洞穴或岩隙中休息。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "背上的长刺",
-      "body": "刺是特化的毛。遇到威胁时豪猪可以竖起刺，但不会把刺射出去。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '背上的长刺',
+      body: '刺是特化的毛。遇到威胁时豪猪可以竖起刺，但不会把刺射出去。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "低头找食物",
-      "body": "它用鼻子寻找地下的根和块茎，再用前脚挖掘。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '低头找食物',
+      body: '它用鼻子寻找地下的根和块茎，再用前脚挖掘。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "短腿走过地面",
-      "body": "看看四条短腿怎样托住身体，长刺沿着背部向后伸。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '短腿走过地面',
+      body: '看看四条短腿怎样托住身体，长刺沿着背部向后伸。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "洞口旁休息",
-      "body": "白天它常躲在洞穴、岩缝等隐蔽处。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '洞口旁休息',
+      body: '白天它常躲在洞穴、岩缝等隐蔽处。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "尾部的小刺",
-      "body": "尾部有一些中空的短刺，抖动时会发出响声。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '尾部的小刺',
+      body: '尾部有一些中空的短刺，抖动时会发出响声。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "远处观察豪猪，保留它使用的洞穴和植被。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '远处观察豪猪，保留它使用的洞穴和植被。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '背刺是特别长硬的毛',
+      body: 'Peters 在 1852 年发表 Hystrix africaeaustralis 这个名称。中文名“南非豪猪”提示其非洲南部家园，它的范围也延伸到非洲中部。背刺由毛发变来，不会从身体里射出去；受到威胁时，尾部中空的刺相互碰撞，能发出响声。',
+    },
   ],
   "keyFacts": [
     "刺是特化的毛。遇到威胁时豪猪可以竖起刺，但不会把刺射出去。",
@@ -108083,7 +108089,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Hystrix_africaeaustralis/",
       "kind": "ecology",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：南非豪猪的科学命名记录',
+      url: 'https://www.gbif.org/species/5219885',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
