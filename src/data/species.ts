@@ -73301,7 +73301,7 @@ export const species = [
     {
       "name": "池塘、湖泊与缓流水域",
       "realm": "freshwater",
-      "description": "原生于美国中部和东南部的淡水水域；红耳亚种经人为引入，在亚洲、欧洲等地形成野外种群。",
+      "description": '滑龟利用池塘、湖泊和缓流水域，水边的木头与石头能供它们晒背。产卵需要附近的陆地环境。',
       "isPrimary": true
     }
   ],
@@ -73325,44 +73325,50 @@ export const species = [
     "爬上木头晒背"
   ],
   "summary": "滑龟在水中游泳，也会爬上木头和岸边晒背。图中红耳亚种的眼睛后有红斑，其他亚种的头部花纹有所不同。",
-  "description": "滑龟在水中游泳，也会爬上木头和岸边晒背。图集展示红耳亚种，眼睛后面有红色斑块；其他滑龟亚种的头部花纹不同。它的脚趾之间有蹼，背上覆盖着坚硬的龟壳。",
+  "description": '滑龟的脚趾之间有蹼，游泳时用四肢划水，到水面露出鼻孔呼吸。晒背能提高体温；繁殖时，它们上岸产卵，小龟孵出后独立生活。',
   "storySections": [
     {
-      "key": "basking",
-      "label": "生活与认识",
-      "title": "爬上木头晒背",
-      "body": "滑龟会爬到水边的木头或石头上，伸出头和四肢晒太阳。晒背能帮助它提高体温。一起找找支撑身体的前脚。"
+      key: 'basking',
+      label: '生活与认识',
+      title: '爬上木头晒背',
+      body: '滑龟会爬到水边的木头或石头上，伸出头和四肢晒太阳，以提高体温。',
     },
     {
-      "key": "swimming",
-      "label": "生活与认识",
-      "title": "张开有蹼的脚",
-      "body": "它用四肢在水里划动，脚趾之间连着蹼。游到水面时，它会露出鼻孔呼吸。"
+      key: 'swimming',
+      label: '生活与认识',
+      title: '张开有蹼的脚',
+      body: '它用四肢在水里划动，脚趾之间连着蹼。游到水面时，它会露出鼻孔呼吸。',
     },
     {
-      "key": "identity",
-      "label": "生活与认识",
-      "title": "红斑在眼睛后面",
-      "body": "本图集中的红耳亚种学名为 Trachemys scripta elegans，红斑在眼睛后方。滑龟还包括头侧带黄色花纹的亚种。"
+      key: 'identity',
+      label: '生活与认识',
+      title: '红斑在眼睛后面',
+      body: '红耳亚种的学名为 Trachemys scripta elegans，红斑在眼睛后方。滑龟还包括头侧带黄色花纹的亚种；本图集展示红耳亚种。',
     },
     {
-      "key": "food",
-      "label": "生活与认识",
-      "title": "水草和小动物都吃",
-      "body": "幼龟常吃昆虫等小动物；随着长大，许多个体会吃更多植物。食物比例也随生活地点变化。"
+      key: 'food',
+      label: '生活与认识',
+      title: '水草和小动物都吃',
+      body: '幼龟常吃昆虫等小动物；随着长大，许多个体会吃更多植物。食物比例也随生活地点变化。',
     },
     {
-      "key": "young",
-      "label": "生活与认识",
-      "title": "小龟也有自己的壳",
-      "body": "滑龟在陆地上产卵。小龟孵出时已经有龟壳，之后独立生活，龟壳会随着身体一起长大。"
+      key: 'young',
+      label: '生活与认识',
+      title: '小龟也有自己的壳',
+      body: '滑龟在陆地上产卵。小龟孵出时已经有龟壳，之后独立生活，龟壳会随着身体一起长大。',
     },
     {
-      "key": "conservation",
-      "label": "生活与认识",
-      "title": "让水塘里的动物各有家",
-      "body": "滑龟全球属无危。人们把红耳龟放入原本没有它们的水域，可能影响当地龟类；不要把饲养动物放进河湖。"
-    }
+      key: 'conservation',
+      label: '生活与认识',
+      title: '让水塘里的动物各有家',
+      body: '滑龟全球属无危。人们把红耳龟放入原本没有它们的水域，可能影响当地龟类；不要把饲养动物放进河湖。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '一个物种里的不同头纹',
+      body: 'Thunberg In Schoepff 于 1792 年描述了这个物种，现用学名为 Trachemys scripta。滑龟的红耳亚种在眼睛后方有红斑，其他亚种的头侧可带黄色花纹。晒背和水中游泳属于它们的生活习性，但红斑只是红耳亚种的辨认线索。',
+    },
   ],
   "keyFacts": [
     "滑龟会爬到水边的木头或石头上，伸出头和四肢晒太阳。",
@@ -73481,7 +73487,13 @@ export const species = [
       "url": "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=173819",
       "kind": "conservation",
       "accessedAt": "2026-09-14"
-    }
+    },
+    {
+      title: 'GBIF：Trachemys scripta 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2443002',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-14",
