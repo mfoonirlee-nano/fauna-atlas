@@ -79793,7 +79793,7 @@ export const species = [
     {
       "name": "森林与山地灌丛",
       "realm": "terrestrial",
-      "description": "分布于欧洲至亚洲的适宜生境，包括西伯利亚森林和中亚山地；一些欧洲种群彼此隔离。",
+      "description": '森林和山地灌丛提供猎物与隐蔽位置。冬季雪地中的猞猁用宽脚掌分散重量，草木也帮助它隐蔽接近猎物。',
       "isPrimary": true
     }
   ],
@@ -79814,51 +79814,57 @@ export const species = [
     "黑尖短尾巴"
   ],
   "summary": "欧亚猞猁有长腿、宽脚掌和耳尖的黑色长毛，短尾末端也是黑色。身上斑纹随个体和地区而变化。",
-  "description": "欧亚猞猁有长腿、宽脚掌和耳尖上的黑色长毛。它的尾巴短，末端是黑色；身上的斑纹会随个体和地区变化。",
+  "description": '欧亚猞猁常独自活动，借草木掩护接近有蹄类、野兔和鸟。冬季脚掌上的毛更密，宽脚掌帮助它在雪中行走；幼崽跟随母亲生活，长大后寻找自己的活动区域。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "短尾巴在哪里",
-      "body": "沿着背部往后看，找找末端黑黑的短尾巴。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '短尾巴在哪里',
+      body: '尾巴很短，末端呈黑色。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "耳尖的黑色长毛",
-      "body": "看看两只耳朵上竖起来的黑色毛簇。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '耳尖的黑色长毛',
+      body: '两只耳朵尖端各有竖起的黑色长毛。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "宽脚掌走过雪地",
-      "body": "冬季脚掌上的毛更密，能帮助猞猁在雪中行走。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '宽脚掌走过雪地',
+      body: '冬季脚掌上的毛更密，宽脚掌帮助它在雪中行走。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "藏在林地里",
-      "body": "猞猁通常独自活动，会借助草木掩护接近猎物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '藏在林地里',
+      body: '欧亚猞猁通常独自活动，借助草木掩护接近猎物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "林间的小猞猁",
-      "body": "幼崽会跟随母亲生活，长大后离开，寻找自己的活动区域。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '林间的小猞猁',
+      body: '幼崽跟随母亲生活，长大后离开，寻找自己的活动区域。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "全球等级为无危，一些欧洲孤立种群仍受威胁。连接森林、减少道路伤害和非法捕猎，有助于保护猞猁。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: '全球等级为无危，一些欧洲孤立种群仍受威胁。连接森林、减少道路伤害和非法捕猎，有助于保护猞猁。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '短尾与宽脚掌',
+      body: 'Linnaeus 于 1758 年描述了这个物种，现用学名为 Lynx lynx。欧亚猞猁的短尾有黑色末端，耳尖长着黑毛，身上的斑纹却随个体和地区变化。冬季脚掌的毛更密，宽脚掌帮助这只长腿猫在雪中行走。',
+    },
   ],
   "keyFacts": [
-    "沿着背部往后看，找找末端黑黑的短尾巴。",
-    "看看两只耳朵上竖起来的黑色毛簇。",
-    "冬季脚掌上的毛更密，能帮助猞猁在雪中行走。",
-    "猞猁通常独自活动，会借助草木掩护接近猎物。",
-    "幼崽会跟随母亲生活，长大后离开，寻找自己的活动区域。"
+    '尾巴很短，末端呈黑色。',
+    '两只耳朵尖端各有竖起的黑色长毛。',
+    '冬季脚掌上的毛更密，宽脚掌帮助它在雪中行走。',
+    '欧亚猞猁通常独自活动，借助草木掩护接近猎物。',
+    '幼崽跟随母亲生活，长大后离开，寻找自己的活动区域。',
   ],
   "threats": [
     "栖息地破碎化",
@@ -79895,7 +79901,7 @@ export const species = [
       {
         "image": "./images/species/eurasian-lynx/02-observation.webp",
         "title": "短尾巴在哪里",
-        "alt": "欧亚猞猁：短尾巴在哪里",
+        "alt": '短尾巴在哪里',
         "caption": "AI 生成科学情景重建。沿着背部往后看，找找末端黑黑的短尾巴。",
         "focalPoint": {
           "x": 0.5,
@@ -79906,7 +79912,7 @@ export const species = [
       {
         "image": "./images/species/eurasian-lynx/03-observation.webp",
         "title": "耳尖的黑色长毛",
-        "alt": "欧亚猞猁：耳尖的黑色长毛",
+        "alt": '耳尖的黑色长毛',
         "caption": "AI 生成科学情景重建。看看两只耳朵上竖起来的黑色毛簇。",
         "focalPoint": {
           "x": 0.5,
@@ -79917,7 +79923,7 @@ export const species = [
       {
         "image": "./images/species/eurasian-lynx/04-observation.webp",
         "title": "宽脚掌走过雪地",
-        "alt": "欧亚猞猁：宽脚掌走过雪地",
+        "alt": '宽脚掌走过雪地',
         "caption": "AI 生成科学情景重建。冬季脚掌上的毛更密，能帮助猞猁在雪中行走。",
         "focalPoint": {
           "x": 0.5,
@@ -79928,7 +79934,7 @@ export const species = [
       {
         "image": "./images/species/eurasian-lynx/05-observation.webp",
         "title": "藏在林地里",
-        "alt": "欧亚猞猁：藏在林地里",
+        "alt": '藏在林地里',
         "caption": "AI 生成科学情景重建。猞猁通常独自活动，会借助草木掩护接近猎物。",
         "focalPoint": {
           "x": 0.5,
@@ -79939,7 +79945,7 @@ export const species = [
       {
         "image": "./images/species/eurasian-lynx/06-observation.webp",
         "title": "林间的小猞猁",
-        "alt": "欧亚猞猁：林间的小猞猁",
+        "alt": '林间的小猞猁',
         "caption": "AI 生成科学情景重建。幼崽会跟随母亲生活，长大后离开，寻找自己的活动区域。",
         "focalPoint": {
           "x": 0.5,
@@ -79961,7 +79967,13 @@ export const species = [
       "url": "https://www.catsg.org/living-species-eurasianlynx",
       "kind": "conservation",
       "accessedAt": "2026-09-15"
-    }
+    },
+    {
+      title: 'GBIF：Lynx lynx 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2435240',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-15",
