@@ -80545,7 +80545,7 @@ export const species = [
     {
       "name": "稀树草原与开阔灌丛",
       "realm": "terrestrial",
-      "description": "分布于撒哈拉以南非洲的多种开阔生境，局部地区已消失或数量减少。",
+      "description": '稀树草原和开阔灌丛提供猎物与群体活动空间。局部地区的猎物减少与人兽冲突会影响当地种群。',
       "isPrimary": true
     }
   ],
@@ -80567,51 +80567,57 @@ export const species = [
     "前高后低的身体"
   ],
   "summary": "斑鬣狗肩高臀低，背部向后倾斜。它有圆耳朵和粗壮的颈部，身上布着深色斑点，属于鬣狗科。",
-  "description": "斑鬣狗的肩部高、臀部低，背部向后倾斜。它有圆耳朵、粗壮的颈部和深色斑点，属于鬣狗科。",
+  "description": '斑鬣狗会主动捕猎，也吃其他动物留下的肉和骨骼。它们组成社会群体，用声音、气味和姿势交流，常夜间活动，白天也能见到；幼仔毛色较深，斑点随成长更明显。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "倾斜的背部",
-      "body": "从肩膀向尾巴看，背部的轮廓逐渐降低。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '倾斜的背部',
+      body: '肩部高、臀部低，使背部轮廓向后倾斜。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "圆耳朵和宽嘴巴",
-      "body": "找找头顶的圆耳朵和宽宽的口鼻。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '圆耳朵和宽嘴巴',
+      body: '头顶有圆耳朵，口鼻较宽，颈部粗壮。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "群体中的同伴",
-      "body": "斑鬣狗组成社会群体，成员之间会用声音、气味和姿势交流。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '群体中的同伴',
+      body: '斑鬣狗组成社会群体，用声音、气味和姿势交流。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "深色的小宝宝",
-      "body": "年幼的斑鬣狗毛色较深，长大后身上的斑点更容易看清。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '深色的小宝宝',
+      body: '幼仔毛色较深，长大后深色斑点更加显眼。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "黄昏的草地",
-      "body": "斑鬣狗常在夜间活动，白天也能见到它们。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '黄昏的草地',
+      body: '斑鬣狗常在夜间活动，白天也能见到。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "全球等级为无危，部分地区仍有下降和局部消失。保护野生猎物、改善家畜防护，可减少人兽冲突。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: '全球等级为无危，部分地区仍有下降和局部消失。保护野生猎物、改善家畜防护，可减少人兽冲突。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '鬣狗科的捕猎者',
+      body: 'Erxleben 于 1777 年描述了这个物种，现用学名为 Crocuta crocuta。斑鬣狗属于鬣狗科，肩高臀低、带斑点的身体容易辨认。它会主动捕猎，也取食其他动物留下的肉和骨骼；幼仔的毛色更深，斑点要在成长后才更明显。',
+    },
   ],
   "keyFacts": [
-    "从肩膀向尾巴看，背部的轮廓逐渐降低。",
-    "找找头顶的圆耳朵和宽宽的口鼻。",
-    "斑鬣狗组成社会群体，成员之间会用声音、气味和姿势交流。",
-    "年幼的斑鬣狗毛色较深，长大后身上的斑点更容易看清。",
-    "斑鬣狗常在夜间活动，白天也能见到它们。"
+    '肩部高、臀部低，使背部轮廓向后倾斜。',
+    '头顶有圆耳朵，口鼻较宽，颈部粗壮。',
+    '斑鬣狗组成社会群体，用声音、气味和姿势交流。',
+    '幼仔毛色较深，长大后深色斑点更加显眼。',
+    '斑鬣狗常在夜间活动，白天也能见到。',
   ],
   "threats": [
     "栖息地减少",
@@ -80648,7 +80654,7 @@ export const species = [
       {
         "image": "./images/species/spotted-hyena/02-observation.webp",
         "title": "倾斜的背部",
-        "alt": "斑鬣狗：倾斜的背部",
+        "alt": '倾斜的背部',
         "caption": "AI 生成科学情景重建。从肩膀向尾巴看，背部的轮廓逐渐降低。",
         "focalPoint": {
           "x": 0.5,
@@ -80659,7 +80665,7 @@ export const species = [
       {
         "image": "./images/species/spotted-hyena/03-observation.webp",
         "title": "圆耳朵和宽嘴巴",
-        "alt": "斑鬣狗：圆耳朵和宽嘴巴",
+        "alt": '圆耳朵和宽嘴巴',
         "caption": "AI 生成科学情景重建。找找头顶的圆耳朵和宽宽的口鼻。",
         "focalPoint": {
           "x": 0.5,
@@ -80670,7 +80676,7 @@ export const species = [
       {
         "image": "./images/species/spotted-hyena/04-observation.webp",
         "title": "群体中的同伴",
-        "alt": "斑鬣狗：群体中的同伴",
+        "alt": '群体中的同伴',
         "caption": "AI 生成科学情景重建。斑鬣狗组成社会群体，成员之间会用声音、气味和姿势交流。",
         "focalPoint": {
           "x": 0.5,
@@ -80681,7 +80687,7 @@ export const species = [
       {
         "image": "./images/species/spotted-hyena/05-observation.webp",
         "title": "深色的小宝宝",
-        "alt": "斑鬣狗：深色的小宝宝",
+        "alt": '深色的小宝宝',
         "caption": "AI 生成科学情景重建。年幼的斑鬣狗毛色较深，长大后身上的斑点更容易看清。",
         "focalPoint": {
           "x": 0.5,
@@ -80692,7 +80698,7 @@ export const species = [
       {
         "image": "./images/species/spotted-hyena/06-observation.webp",
         "title": "黄昏的草地",
-        "alt": "斑鬣狗：黄昏的草地",
+        "alt": '黄昏的草地',
         "caption": "AI 生成科学情景重建。斑鬣狗常在夜间活动，白天也能见到它们。",
         "focalPoint": {
           "x": 0.5,
@@ -80720,7 +80726,13 @@ export const species = [
       "url": "https://animals.sandiegozoo.org/animals/spotted-hyena",
       "kind": "ecology",
       "accessedAt": "2026-09-15"
-    }
+    },
+    {
+      title: 'GBIF：Crocuta crocuta 的命名作者与年份',
+      url: 'https://www.gbif.org/species/5218781',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-15",
