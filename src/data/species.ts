@@ -35489,31 +35489,31 @@ export const species = [
     summary:
       '西北太平洋温带岩石与砾石底的红色海参，以二十枚盾状触手摄食表层沉积物；2017年修订后，绿、黑色型已归入A. armatus。',
     description:
-      '仿刺参Apostichopus japonicus是西北太平洋的温带底栖棘皮动物。严格本种对应红色型，背侧体壁退化桌形骨片的盘缘平滑；绿色和黑色型属于近缘A. armatus。它用腹面管足移动，以二十枚盾状触手抓取沉积物中的有机碎屑、微藻和微生物，并在高温季节进入夏眠。IUCN仍把拆分前广义种评为濒危，因此页面同时展示正式等级和分类年代限制。',
+      '仿刺参Apostichopus japonicus是西北太平洋的温带底栖棘皮动物。严格本种对应红色型，背侧体壁退化桌形骨片的盘缘平滑；绿色和黑色型属于近缘A. armatus。它用腹面管足移动，以二十枚盾状触手抓取沉积物中的有机碎屑、微藻和微生物，并在高温季节进入夏眠。IUCN仍把拆分前广义种评为濒危，该评估的物种范围早于 2017 年拆分。',
     storySections: [
       {
         key: 'one-old-name-two-species',
         label: '分类',
-        title: '红色型和绿色型不再共用一张身份证',
-        body: '很长时间里，红、绿、黑三种海参都叫Apostichopus japonicus。2017年，研究者重新检查模式标本和馆藏骨片，认定红色型才是严格A. japonicus，绿色型和黑色型属于A. armatus。这个变化不只改了名字，也改变了哪些养殖、温度和食性实验能直接写进本页。',
+        title: '2017 年重新分开红色与绿黑色型',
+        body: '很长时间里，红、绿、黑三种海参都叫Apostichopus japonicus。2017年，研究者重新检查模式标本和馆藏骨片，认定红色型才是严格A. japonicus，绿色型和黑色型属于A. armatus。因此旧养殖、温度和食性实验需要先核对物种身份。',
       },
       {
         key: 'ossicle-diagnosis',
         label: '识别',
-        title: '答案藏在背侧体壁的微小骨片里',
-        body: '严格仿刺参的背侧体壁含退化桌形骨片，圆盘边缘平滑、不具刺。近缘A. armatus则以有刺边缘的同类骨片为主。活体颜色、底质和外形能帮助筛查，却不能替代骨片组合或经过验证的分子鉴定。一张漂亮照片不等于一份分类凭证。',
+        title: '微小骨片帮助鉴定物种',
+        body: '严格仿刺参的背侧体壁含退化桌形骨片，圆盘边缘平滑、不具刺。近缘A. armatus则以有刺边缘的同类骨片为主。活体颜色、底质和外形能帮助筛查，却不能替代骨片组合或经过验证的分子鉴定。',
       },
       {
         key: 'twenty-tentacles',
         label: '取食',
-        title: '它捡起的不是沙，而是沙里的食物',
+        title: '摄食沉积物中的有机材料',
         body: '口周围的二十枚盾状触手轮流贴近海床，抓起表层沉积物并送入口中。动物消化其中的有机碎屑、微藻和微生物，再排出重新加工的颗粒。实验还发现肠内和周围沉积物的细菌群落不同，说明取食过程并非毫无选择地吞下一切。',
       },
       {
         key: 'summer-aestivation',
         label: '行为',
         title: '夏天缩进石缝',
-        body: '日本早期研究在高温夏季观察到几乎全部红色型进入夏眠。它们收缩身体、减少移动和摄食，并利用岩石或砾石间隙隐蔽。不同海域的温度、食物和水流会改变时间表，所以页面不设一个全球通用的“夏眠开关温度”。',
+        body: '日本早期研究在高温夏季观察到几乎全部红色型进入夏眠。它们收缩身体、减少移动和摄食，并利用岩石或砾石间隙隐蔽。不同海域的温度、食物和水流会改变时间表，尚无全种统一的夏眠温度阈值。',
       },
       {
         key: 'transparent-larva',
@@ -35524,8 +35524,14 @@ export const species = [
       {
         key: 'identify-before-release',
         label: '保护',
-        title: '放流前先回答“放的是谁”',
+        title: '放流前核对物种和遗传来源',
         body: '旧养殖体系常把两个现行物种都写作A. japonicus。若苗种没有骨片、遗传来源和病原记录，放流数量再大也无法判断它是否补充了目标野生种群。有效的增殖需要未放流对照、长期回捕或遗传监测，还要公开存活与繁殖结果。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '1867 年的命名由模式材料重新核对',
+        body: '仿刺参的科学命名记录署名为 Selenka，年份为 1867 年，现用学名为 Apostichopus japonicus。2017 年研究者重新检查模式标本和馆藏骨片，确定红色型属于严格本种，绿色和黑色型属于 A. armatus。微小骨片的盘缘差异使一个长期混用的名称重新得到厘清。',
       },
     ],
     keyFacts: [
@@ -35539,7 +35545,7 @@ export const species = [
       '严格本种分布在中国、日本、朝鲜半岛和俄罗斯远东的西北太平洋温带浅海。',
       '2017年修订给出的北界是萨哈林岛，南界是日本鹿儿岛县。',
       '红色型常与较外海的岩石、卵石和砾石底联系。',
-      '旧资料中绿、黑色型的近岸沙泥底生境属于A. armatus，不进入本页主要生境。',
+      '旧资料中绿、黑色型的近岸沙泥底生境属于A. armatus，不属于严格本种的主要生境。',
       '口位于前端偏腹侧，周围有20枚盾状触手。',
       '腹面较平，管足沿纵向步带排列并负责附着和缓慢移动。',
       '它以盾状触手抓取海床表层沉积物，摄食其中的有机碎屑、微藻和微生物。',
@@ -35663,7 +35669,15 @@ export const species = [
         },
       ],
     },
-    sources: JAPANESE_SEA_CUCUMBER_SOURCES,
+    sources: [
+      ...JAPANESE_SEA_CUCUMBER_SOURCES,
+      {
+        title: 'GBIF: Apostichopus japonicus (Selenka, 1867) nomenclatural record',
+        url: 'https://www.gbif.org/species/2279100',
+        kind: 'taxonomy',
+        accessedAt: '2026-10-11',
+      },
+    ],
     featured: false,
     publishedAt: JAPANESE_SEA_CUCUMBER_CONTENT_DATE,
     updatedAt: JAPANESE_SEA_CUCUMBER_CONTENT_DATE,
