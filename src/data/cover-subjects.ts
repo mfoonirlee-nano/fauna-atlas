@@ -5642,4 +5642,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 825
     }
   },
+  "calanus-finmarchicus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 715,
+      "top": 210,
+      "right": 1455,
+      "bottom": 840
+    }
+  },
 };

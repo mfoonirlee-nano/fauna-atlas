@@ -812,3 +812,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [苜蓿跳虫 image set](./species/lucerne-springtail/README.md)
 - [原尾虫 image set](./species/eosentomon-transitorium/README.md)
 - [双尾虫 image set](./species/campodea-staphylinus/README.md)
+- [北方哲水蚤 image set](./species/calanus-finmarchicus/README.md)

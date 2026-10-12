@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Calanus finmarchicus adult female calanoid copepod. Translucent pale amber pear-shaped tapered prosome with segmented narrow urosome, tiny paired caudal rami and fine tail setae, TWO extremely long first antennae gracefully spreading from head, small median eye, five small pairs of ventral swimming legs with fine setae. Marine copepod not insect, shrimp or water flea. Pale oval internal lipid reserve schematic. Scene: Whole adult female suspended in navy seawater, full long antennae, tail and ventral appendages visible. COVER COMPOSITION STRICT: single complete subject in RIGHT region x=760..1410 y=180..840 including every antenna tip and leg or tail tip. Body center x=1090, do not expand any appendage outside this region. LEFT 45% completely quiet blurred backdrop. Full silhouette should be ~650x600 pixels, real empty margin all sides. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.\nEdit: Edit ONLY composition of this adult female Calanus finmarchicus image. Preserve translucent body, both long antennules, small swimming appendages and tail setae. Shrink complete animal to 86% current size, shift slightly right, entire silhouette including antenna tips and setae inside x=680..1470 y=130..900. LEFT 42 percent quiet blue water. Keep 1536x1024 no text.",
+      "sourceSha256": "e40a26b21ddaaee5e802511ebc035d91c2731f7e5b0658f018070b5796178834",
+      "runtimeSha256": "24c996399bcb016c5c750bc30430799664bbb024be10103191336ea22555bc3b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Calanus finmarchicus adult female calanoid copepod. Translucent pale amber pear-shaped tapered prosome with segmented narrow urosome, tiny paired caudal rami and fine tail setae, TWO extremely long first antennae gracefully spreading from head, small median eye, five small pairs of ventral swimming legs with fine setae. Marine copepod not insect, shrimp or water flea. Pale oval internal lipid reserve schematic. Scene: Whole adult female dorsal microscopy reconstruction with symmetrically spread long first antennae and tapering posterior body. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "8d9c171e0c9bd6693ab0454776ded3f3e15eeab67f0f2b01ba6c3c2797d51097",
+      "runtimeSha256": "122f571c9763a2595a0f455ea8312ecfd7022587f921b8bc9922f94e5b918782",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Calanus finmarchicus adult female calanoid copepod. Translucent pale amber pear-shaped tapered prosome with segmented narrow urosome, tiny paired caudal rami and fine tail setae, TWO extremely long first antennae gracefully spreading from head, small median eye, five small pairs of ventral swimming legs with fine setae. Marine copepod not insect, shrimp or water flea. Pale oval internal lipid reserve schematic. Scene: Whole adult female side view highlighting segmented narrow urosome, tiny tail forks and ventral swimming limbs. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "5bf20168505138843bd869ced0eb55c045b8955a2894e349924dd2994ea87abb",
+      "runtimeSha256": "72951cbf75d1db3a54d27af8e19d2133046f7b73dc0d2b62e61a5d85b78fee03",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Calanus finmarchicus NAUPLIUS larva educational reconstruction, distinguish from adult copepod. Scene: Schematic nauplius larva only, small oval unsegmented body with three pairs of early appendages and central eye, microscope beige backdrop; not an adult and not six insect legs. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "149253303bcc268267fc23d64ae723632ede33bc27c1aa1a760b16e2c9bf5e63",
+      "runtimeSha256": "dc7f6d65f0c5d565613bb3a737ff1b0d4dec7ada2c24a202317126ae49a1e802",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Calanus finmarchicus adult female calanoid copepod. Translucent pale amber pear-shaped tapered prosome with segmented narrow urosome, tiny paired caudal rami and fine tail setae, TWO extremely long first antennae gracefully spreading from head, small median eye, five small pairs of ventral swimming legs with fine setae. Marine copepod not insect, shrimp or water flea. Pale oval internal lipid reserve schematic. Scene: Copepodite stage V schematic transparent body with elongated pale internal lipid reserve, marine blue backdrop; no egg sac. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "7f4d87f63c65a6b6f4d26772dd06fc6ab35f4b44aacd6217668634b76a9e17b1",
+      "runtimeSha256": "1323e1306b87ff283ece1400c444fa0ec9df1f6db5eb9ca9ca12f2ece9131918",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Calanus finmarchicus adult female calanoid copepod. Translucent pale amber pear-shaped tapered prosome with segmented narrow urosome, tiny paired caudal rami and fine tail setae, TWO extremely long first antennae gracefully spreading from head, small median eye, five small pairs of ventral swimming legs with fine setae. Marine copepod not insect, shrimp or water flea. Pale oval internal lipid reserve schematic. Scene: One adult female near sparse diatom cells floating in blue seawater, food cells shown with non-measured magnification, not adhered eggs. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "b8954f4f7afaa30c0d1f8b578ee3ff821981a9556001cee27f9e1c9124374e9d",
+      "runtimeSha256": "f84c4073ab53e1f5d290c751f8ecfa76e2ec5d77e6a42a046251e82b424cdd06",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -5003,5 +5003,18 @@
       },
       "sha256": "5d91d7516189451896edcb75489a5af9dd9c6a734d52069f14f92211c5d631e7"
     }
+  },
+  "calanus-finmarchicus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 715,
+        "top": 210,
+        "right": 1455,
+        "bottom": 840
+      },
+      "sha256": "24c996399bcb016c5c750bc30430799664bbb024be10103191336ea22555bc3b"
+    }
   }
 }
