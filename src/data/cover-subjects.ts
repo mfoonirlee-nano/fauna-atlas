@@ -5672,4 +5672,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 850
     }
   },
+  "damon-diadema": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 140,
+      "right": 1520,
+      "bottom": 770
+    }
+  },
 };

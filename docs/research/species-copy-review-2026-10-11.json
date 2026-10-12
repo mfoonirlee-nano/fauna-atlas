@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "567 animal species profiles; 560 historical reviews and 7 additions on 2026-10-12; microbial topics excluded",
+  "scope": "568 animal species profiles; 560 historical reviews and 8 additions on 2026-10-12; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 7,
+    "addedProfiles": 8,
     "addedProfilesReviewDate": "2026-10-12",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -26579,6 +26579,67 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/2117779"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-12 接续五种：核对外观、生命阶段、食性、分布和命名；图注标明重建与非实测比例，描述年份不表示人类首次认识动物。"
+      ]
+    },
+    {
+      "slug": "damon-diadema",
+      "name": "无鞭蝎",
+      "scientificName": "Damon diadema",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://doi.org/10.1016/j.ode.2004.12.004",
+            "https://naturalhistory.si.edu/visit/accessibility/audio-and-visual-description/insect-zoo-audio-description-tour",
+            "https://doi.org/10.1636/S04-23.1",
+            "https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/arac-36-2-336.pdf/?no_cache=1",
+            "https://www.gbif.org/species/2181351",
+            "https://wac.nmbe.ch/order/amblypygi/speciesdata/1021"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://doi.org/10.1016/j.ode.2004.12.004",
+            "https://naturalhistory.si.edu/visit/accessibility/audio-and-visual-description/insect-zoo-audio-description-tour",
+            "https://doi.org/10.1636/S04-23.1",
+            "https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/arac-36-2-336.pdf/?no_cache=1",
+            "https://www.gbif.org/species/2181351",
+            "https://wac.nmbe.ch/order/amblypygi/speciesdata/1021"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1016/j.ode.2004.12.004",
+            "https://naturalhistory.si.edu/visit/accessibility/audio-and-visual-description/insect-zoo-audio-description-tour",
+            "https://doi.org/10.1636/S04-23.1",
+            "https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/arac-36-2-336.pdf/?no_cache=1",
+            "https://www.gbif.org/species/2181351",
+            "https://wac.nmbe.ch/order/amblypygi/speciesdata/1021"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1016/j.ode.2004.12.004",
+            "https://naturalhistory.si.edu/visit/accessibility/audio-and-visual-description/insect-zoo-audio-description-tour",
+            "https://doi.org/10.1636/S04-23.1",
+            "https://www.americanarachnology.org/journal-joa/joa-all-volumes/detail/article/download/arac-36-2-336.pdf/?no_cache=1",
+            "https://www.gbif.org/species/2181351",
+            "https://wac.nmbe.ch/order/amblypygi/speciesdata/1021"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2181351",
+            "https://wac.nmbe.ch/order/amblypygi/speciesdata/1021"
           ]
         }
       },

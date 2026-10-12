@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Damon diadema adult amblypygid tailless whip scorpion, brown gray dorsoventrally flattened broad carapace and separate oval segmented abdomen, TWO raptorial spiny pedipalps folded forward, SIX sturdy walking legs (three pairs), TWO extremely slender very long antenniform FIRST LEGS held ahead and gently bent. Antenniform legs originate at carapace as legs not head antennae. No tail no sting no wings no scorpion pincers. Scene: One complete adult on shaded rough rock, all walking legs, pedipalps and two slender sensory first legs visible, sensory legs naturally curved inward to stay in frame. COVER: place ENTIRE subject including all appendages inside RIGHT region x=710..1460 y=140..890. Center entire silhouette x=1080 or more. LEFT 42% empty blurred habitat. Full-body prominent, no cropped legs or antennae, real background margins on all sides. No text no labels no watermark no scale bar. No invented appendages.\nEdit: Edit composition of this Damon diadema image: shrink ENTIRE animal including TWO full sensory first legs, SIX walking legs and TWO folded spiny pedipalps to 72% current size, translate to right. All sensory leg tips and walking feet MUST remain visible inside x=660..1460 y=140..890, gently bend sensory legs inward if needed without shortening their anatomical proportions. LEFT 42% completely quiet rocky background. No tail no stinger. Keep 1536x1024 and natural textures; no text.",
+      "sourceSha256": "6aca40dca6b7ac1aa109a2485b53e622561ce3313469b1078e1f49450ac09375",
+      "runtimeSha256": "9ade058bb685384258eec189bd5d431979fd055d32a2ff96648219408e533d04",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Damon diadema adult amblypygid tailless whip scorpion, brown gray dorsoventrally flattened broad carapace and separate oval segmented abdomen, TWO raptorial spiny pedipalps folded forward, SIX sturdy walking legs (three pairs), TWO extremely slender very long antenniform FIRST LEGS held ahead and gently bent. Antenniform legs originate at carapace as legs not head antennae. No tail no sting no wings no scorpion pincers. Scene: Dorsal full animal on dark cave rock, distinguish six walking legs and two finer sensory legs. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "cc7110d77e448b1753efc801ec9856e942566af3b8c6e056aac9956c896c75f8",
+      "runtimeSha256": "36e54d2cd2d25a9e25502aaa5e07ef31fefc18e606688e11cd609663ef71093e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Damon diadema adult amblypygid tailless whip scorpion, brown gray dorsoventrally flattened broad carapace and separate oval segmented abdomen, TWO raptorial spiny pedipalps folded forward, SIX sturdy walking legs (three pairs), TWO extremely slender very long antenniform FIRST LEGS held ahead and gently bent. Antenniform legs originate at carapace as legs not head antennae. No tail no sting no wings no scorpion pincers. Scene: Anterior close-up showing spiny grasping pedipalps and bases of first sensory legs on flattened carapace. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "7a6fcafd99693e1a3837d17a14cb4e2aa41f16107b3baa78126b2f6fdebe5d18",
+      "runtimeSha256": "25345bcbc43ae4627524d89b7916770b6afb83fb268d4f04283b1b396dd6f883",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Damon diadema adult amblypygid tailless whip scorpion, brown gray dorsoventrally flattened broad carapace and separate oval segmented abdomen, TWO raptorial spiny pedipalps folded forward, SIX sturdy walking legs (three pairs), TWO extremely slender very long antenniform FIRST LEGS held ahead and gently bent. Antenniform legs originate at carapace as legs not head antennae. No tail no sting no wings no scorpion pincers. Scene: Whole animal on vertical bark, sensory first legs extend ahead separately from walking legs, night natural lighting. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "b81b178113cf146998f24bd3429d403aac9971fc315160e4ad97f0085f630c01",
+      "runtimeSha256": "12df147c65816f1d5fdd296a93740c75a32e35e5ea966cbd4e9c4c3bb74e503e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Damon diadema adult amblypygid tailless whip scorpion, brown gray dorsoventrally flattened broad carapace and separate oval segmented abdomen, TWO raptorial spiny pedipalps folded forward, SIX sturdy walking legs (three pairs), TWO extremely slender very long antenniform FIRST LEGS held ahead and gently bent. Antenniform legs originate at carapace as legs not head antennae. No tail no sting no wings no scorpion pincers. Scene: Mother and two clearly smaller juveniles near her on sheltered rock; all animals have no tails and sensory first legs. Captive association educational reconstruction, non-measured ratios. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "0777994b8c3083163baa7a43ccfb9599f76eb36f196ca261d60c95f2c6c71aef",
+      "runtimeSha256": "d1a4b07625bb33e134f1ec1e712360c44b40053e804640253ce14c6b5bbae2e8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Damon diadema adult amblypygid tailless whip scorpion, brown gray dorsoventrally flattened broad carapace and separate oval segmented abdomen, TWO raptorial spiny pedipalps folded forward, SIX sturdy walking legs (three pairs), TWO extremely slender very long antenniform FIRST LEGS held ahead and gently bent. Antenniform legs originate at carapace as legs not head antennae. No tail no sting no wings no scorpion pincers. Scene: Posterior dorsal detailed view of oval segmented abdomen and flattened carapace, no tail or stinger, dark background. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "efc36529523f4c8120b33f51ca17cf6a6ce6c348e894ae256515369f19979a42",
+      "runtimeSha256": "ab2f618809b6dffdd4d059dafb076dd18813a2c7e2234a1fd44392bc79530fbb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -5042,5 +5042,18 @@
       },
       "sha256": "d13868623167661847f6ec9cd2765120a15a38842a797223abb4f18331e8c98d"
     }
+  },
+  "damon-diadema": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 140,
+        "right": 1520,
+        "bottom": 770
+      },
+      "sha256": "9ade058bb685384258eec189bd5d431979fd055d32a2ff96648219408e533d04"
+    }
   }
 }
