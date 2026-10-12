@@ -27332,43 +27332,43 @@ export const species = [
         key: 'hood-and-pointed-wings',
         label: '形态',
         title: '黑头罩下的空中猎手',
-        body:
-          '成鸟蓝灰色上体、深色头罩和粗黑髭纹构成醒目的面部图案，浅色腹部布满横斑。长而尖的双翼适合快速飞行，雌鸟通常比雄鸟大；亚种和年龄会改变羽色深浅。',
+        body: '成鸟蓝灰色上体、深色头罩和粗黑髭纹构成醒目的面部图案，浅色腹部布满横斑。长而尖的双翼适合快速飞行，雌鸟通常比雄鸟大；亚种和年龄会改变羽色深浅。',
       },
       {
         key: 'stoop-speed-evidence',
         label: '飞行',
-        title: '俯冲速度没有一个万能数字',
-        body:
-          '游隼从高处收拢双翼进入狩猎俯冲，重力、气动外形和起始高度共同影响速度。320 千米/小时是 Cornell 使用的圆整科普值，野外雷达、训练鸟试验和模型给出不同结果，平飞速度也低得多。',
+        title: '俯冲速度受飞行条件影响',
+        body: '游隼从高处收拢双翼进入狩猎俯冲，重力、气动外形和起始高度共同影响速度。320 千米/小时是 Cornell 使用的圆整科普值，野外雷达、训练鸟试验和模型给出不同结果，平飞速度也低得多。',
       },
       {
         key: 'urban-cliff-analogue',
         label: '城市生态',
-        title: '高楼复制了一块崖台',
-        body:
-          '城市建筑、桥梁和塔架提供类似岩壁的高位平台，鸽类又提供稳定猎物。人工结构也带来玻璃碰撞、车辆、施工和灯光风险；城市种群需要巢台管理与低干扰观察。',
+        title: '在城市高处筑巢',
+        body: '城市建筑、桥梁和塔架提供类似岩壁的高位平台，鸽类又提供稳定猎物。人工结构也带来玻璃碰撞、车辆、施工和灯光风险；城市种群需要巢台管理与低干扰观察。',
       },
       {
         key: 'aerial-bird-hunter',
         label: '食性',
         title: '大多数猎物在空中被截住',
-        body:
-          '游隼常从高位观察，再俯冲或水平追逐飞鸟。鸽、滨鸟、鸭、海鸟和鸣禽都会进入食谱，部分种群也捕食蝙蝠；具体猎物由当地季节性鸟群决定。',
+        body: '游隼常从高位观察，再俯冲或水平追逐飞鸟。鸽、滨鸟、鸭、海鸟和鸣禽都会进入食谱，部分种群也捕食蝙蝠；具体猎物由当地季节性鸟群决定。',
       },
       {
         key: 'latitude-and-migration',
         label: '迁徙',
-        title: '北方个体把“游”写进名字',
-        body:
-          '北极和高纬种群可跨洲迁徙，低纬度与南半球种群多留居。对 56 只北极游隼的追踪识别出五条主要路线，研究种群的平均迁徙距离约 3,600 或 6,400 千米。',
+        title: '高纬种群可跨洲迁徙',
+        body: '北极和高纬种群可跨洲迁徙，低纬度与南半球种群多留居。对 56 只北极游隼的追踪识别出五条主要路线，研究种群的平均迁徙距离约 3,600 或 6,400 千米。',
       },
       {
         key: 'recovery-and-vigilance',
         label: '保护',
-        title: '一次恢复不能替代持续监测',
-        body:
-          '禁用 DDT、圈养繁育和放归推动北美种群恢复，全球评估现为 LC 且趋势上升。非法捕捉、碰撞、污染、巢区干扰和 HPAI 仍在不同地区发生；中国区域红色名录为 NT，法律保护等级为国家二级。',
+        title: '种群恢复后继续减少风险',
+        body: '禁用 DDT、圈养繁育和放归推动北美种群恢复，全球评估现为 LC 且趋势上升。非法捕捉、碰撞、污染、巢区干扰和 HPAI 仍在不同地区发生；中国区域红色名录为 NT，法律保护等级为国家二级。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '1771 年的游隼命名记录',
+        body: '游隼的科学命名记录署名为 Tunstall，年份为 1771 年，现用学名为 Falco peregrinus。它长而尖的双翼适合快速飞行，高纬种群还会跨洲迁徙。城市高楼、桥梁和塔架提供类似崖壁的巢台，使这种原本利用自然岩壁的鸟也能在城市繁殖。',
       },
     ],
     keyFacts: [
@@ -27485,7 +27485,15 @@ export const species = [
         },
       ],
     },
-    sources: PEREGRINE_FALCON_SOURCES,
+    sources: [
+      ...PEREGRINE_FALCON_SOURCES,
+      {
+        title: 'GBIF: Falco peregrinus Tunstall, 1771 nomenclatural record',
+        url: 'https://www.gbif.org/species/2481047',
+        kind: 'taxonomy',
+        accessedAt: '2026-10-11',
+      },
+    ],
     featured: true,
     publishedAt: PEREGRINE_FALCON_CONTENT_DATE,
     updatedAt: PEREGRINE_FALCON_CONTENT_DATE,
