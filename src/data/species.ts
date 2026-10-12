@@ -116445,7 +116445,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "采用 World Spider Catalog 当前园蛛科 Araneidae，不沿用旧金蛛科 Nephilidae。新加坡地方 LC 不作为全球 IUCN 结论；本轮全球等级未核实，记 NE。"
+    "assessor": '新加坡地方 LC 不代表全球 IUCN 等级；全球评估尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -116462,7 +116462,7 @@ export const species = [
     {
       "name": "林缘与有树木灌丛的环境",
       "realm": "terrestrial",
-      "description": "人面金蛛把长腿搭在蛛网上。显眼的大蜘蛛通常是雌蛛，雄蛛要小得多。",
+      "description": '南亚、东亚、东南亚至澳大利亚的林缘，以及有树木、灌丛的环境。',
       "isPrimary": true
     }
   ],
@@ -116480,45 +116480,51 @@ export const species = [
     "人面金蛛",
     "林缘与有树木灌丛的环境"
   ],
-  "summary": "人面金蛛把长腿搭在蛛网上。显眼的大蜘蛛通常是雌蛛，雄蛛要小得多。",
-  "description": "人面金蛛把长腿搭在蛛网上。显眼的大蜘蛛通常是雌蛛，雄蛛要小得多。从中间向外伸的丝和绕着中心排列的丝组成圆网。蜘蛛借网捕捉经过的昆虫。",
+  "summary": '人面金蛛结圆网捕食昆虫，靠蛛丝振动感知网上活动。显眼的大蜘蛛通常是雌蛛，同种雄蛛小得多。',
+  "description": '人面金蛛在南亚至澳大利亚的林缘、树木和灌丛间结圆网，捕食落网昆虫。成年雌蛛腹部细长，有黑黄花纹和八条长足，雄蛛小得多。蜘蛛接触蛛丝、感知振动，了解网上的活动。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "蛛丝织成的网",
-      "body": "从中间向外伸的丝和绕着中心排列的丝组成圆网。蜘蛛借网捕捉经过的昆虫。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '蛛丝织成的网',
+      body: '从中间向外伸的丝和绕着中心排列的丝组成圆网。蜘蛛借网捕捉经过的昆虫。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "长腿和花纹",
-      "body": "图中是成年雌蛛，腹部细长，有黑黄花纹，八条足从头胸部伸出。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '长腿和花纹',
+      body: '图中是成年雌蛛，腹部细长，有黑黄花纹，八条足从头胸部伸出。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "一大一小的同类",
-      "body": "雄蛛比雌蛛小得多，可能出现在雌蛛的网上。这里展示大小差异，不作为精确比例图。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '一大一小的同类',
+      body: '雄蛛比雌蛛小得多，可能出现在雌蛛的网上。这里展示大小差异，不作为精确比例图。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "沿着丝移动",
-      "body": "它用足接触和调整蛛丝。蛛网上的振动能传递附近活动的信息。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '沿着丝移动',
+      body: '它用足接触和调整蛛丝。蛛网上的振动能传递附近活动的信息。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "雨后的蛛网",
-      "body": "水珠让细丝更容易看见。观察时可以沿着丝寻找蜘蛛，别用手拉扯它的网。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '雨后的蛛网',
+      body: '水珠让细丝更容易看见。观察时可以沿着丝寻找蜘蛛，别用手拉扯它的网。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "采用 World Spider Catalog 当前园蛛科 Araneidae，不沿用旧金蛛科 Nephilidae。新加坡地方 LC 不作为全球 IUCN 结论；本轮全球等级未核实，记 NE。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '新加坡地方等级为 LC（无危），但全球评估尚未确认，两者范围不同。观察时不拉扯蛛网，保留蜘蛛取食的空间。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '同种蜘蛛也有悬殊大小',
+      body: 'Fabricius 在 1793 年发表了人面金蛛的科学描述，今天采用 Nephila pilipes。网上显眼的大蜘蛛通常是雌蛛，小得多的雄蛛可能与她出现在同一张网上。分类资料过去常列金蛛科，现行世界蜘蛛名录把它归入园蛛科，阅读旧资料时会遇到这项变化。',
+    },
   ],
   "keyFacts": [
     "从中间向外伸的丝和绕着中心排列的丝组成圆网。蜘蛛借网捕捉经过的昆虫。",
@@ -116634,7 +116640,13 @@ export const species = [
       "url": "https://lkcnhm.nus.edu.sg/app/uploads/2017/04/sbr2016-013.pdf",
       "kind": "ecology",
       "accessedAt": "2026-09-23"
-    }
+    },
+    {
+      title: 'GBIF：人面金蛛的科学命名记录',
+      url: 'https://www.gbif.org/species/2149490',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-23",
