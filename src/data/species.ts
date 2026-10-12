@@ -93362,13 +93362,13 @@ export const species = [
       "韩国",
       "中国"
     ],
-    "range": "见于东亚。档案采用 Byasa alcinous，旧文献中包含的部分近缘类群存在拆分处理，不把旧广义分布全部并入。"
+    "range": '见于东亚。部分旧文献把今天分开的近缘类群合并记录，旧时的广义分布不能全部归入本种。'
   },
   "habitats": [
     {
       "name": "东亚林缘与有寄主植物的植被",
       "realm": "terrestrial",
-      "description": "见于东亚。档案采用 Byasa alcinous，旧文献中包含的部分近缘类群存在拆分处理，不把旧广义分布全部并入。",
+      "description": '生活在林缘及有马兜铃属寄主植物的植被间。',
       "isPrimary": true
     }
   ],
@@ -93387,45 +93387,51 @@ export const species = [
     "麝凤蝶",
     "翅膀后面的长尾突"
   ],
-  "summary": "麝凤蝶见于东亚，后翅有长长的尾突。本档案采用 Byasa alcinous 的物种范围，部分旧文献包含的近缘类群已有拆分。",
-  "description": "见于东亚。档案采用 Byasa alcinous，旧文献中包含的部分近缘类群存在拆分处理，不把旧广义分布全部并入。",
+  "summary": '麝凤蝶的后翅有长尾突和红斑。东亚林缘的成蝶吸食花蜜，幼虫则取食马兜铃属植物。',
+  "description": '麝凤蝶生活在东亚林缘及有寄主植物的植被间。成蝶用细长的喙吸食花蜜，幼虫取食马兜铃属植物，身上有肉质突起。后翅的长尾突和红色斑纹容易观察，雌蝶的翅色常较浅。旧文献把部分今天分开的近缘类群合在一起，分布记录需要区分。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "翅膀后面的长尾突",
-      "body": "长尾突从后翅伸出。看看深色翅膀边缘的红色斑纹。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '翅膀后面的长尾突',
+      body: '长尾突从后翅伸出。看看深色翅膀边缘的红色斑纹。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "在花上取食",
-      "body": "成蝶伸出细长的喙吸食花蜜，停下时可以观察翅膀和触角。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '在花上取食',
+      body: '成蝶伸出细长的喙吸食花蜜，停下时可以观察翅膀和触角。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "叶子上的幼虫",
-      "body": "幼虫取食马兜铃属植物。它身体上的肉质突起与成蝶的翅膀很不一样。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '叶子上的幼虫',
+      body: '幼虫取食马兜铃属植物。它身体上的肉质突起与成蝶的翅膀很不一样。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "雌蝶的翅膀",
-      "body": "雌蝶的翅色常较浅，呈灰褐色；后翅也有长尾突和红斑。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '雌蝶的翅膀',
+      body: '雌蝶的翅色常较浅，呈灰褐色；后翅也有长尾突和红斑。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "停在叶片上",
-      "body": "成蝶用足抓住叶片。图库各张展示不同情景，不是同一个体的连续动作。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '停在叶片上',
+      body: '成蝶用足抓住叶片。图库各张展示不同情景，不是同一个体的连续动作。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护原生栖息地，不捕捉野生动物。全球无危不代表每个地方的种群都安全。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护原生栖息地，不捕捉野生动物。全球无危不代表每个地方的种群都安全。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '长尾突蝴蝶的旧名录',
+      body: 'Klug 在 1836 年发表了麝凤蝶的科学描述，今天采用的名称为 Byasa alcinous。旧名录里的物种范围有时更宽，后来研究者区分出其中的近缘类群。比较这些记录时，长尾突、红斑和幼虫食用的马兜铃都值得观察，单凭一处翅色不能覆盖完整的物种判断。',
+    },
   ],
   "keyFacts": [
     "长尾突从后翅伸出。看看深色翅膀边缘的红色斑纹。",
@@ -93544,7 +93550,13 @@ export const species = [
       "url": "https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T121971564A170542047.en",
       "kind": "conservation",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：麝凤蝶的科学命名记录',
+      url: 'https://www.gbif.org/species/1937556',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
