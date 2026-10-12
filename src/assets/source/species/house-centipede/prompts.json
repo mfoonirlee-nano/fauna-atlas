@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Scutigera coleoptrata ADULT house centipede, yellowish-brown elongated narrow cylindrical body with THREE dark longitudinal dorsal stripes, FIFTEEN pairs (30 total) of very slender long banded jointed legs arranged along body, legs increase in length rearward and LAST PAIR extremely long; two long thin beaded antennae at head and large lateral compound eyes. No millipede short leg template, no wings. Scene: One complete adult on shaded natural stone; gently oblique nearly dorsal whole-body pose, every long leg and both antenna tips included. COVER: place ENTIRE subject including all appendages inside RIGHT region x=710..1460 y=140..890. Center entire silhouette x=1080 or more. LEFT 42% empty blurred habitat. Full-body prominent, no cropped legs or antennae, real background margins on all sides. No text no labels no watermark no scale bar. No invented appendages.\nEdit: Edit composition ONLY of this Scutigera coleoptrata image. Shrink COMPLETE subject including both head antennae and extremely long last pair of legs to 78% current size, move right, full silhouette inside x=660..1460 y=100..920 with real backdrop margin. Do not shorten posterior legs or remove leg pairs. Keep adult striped body, banded legs, complete tips. LEFT 42% quiet stone. Keep1536x1024 no text.",
+      "sourceSha256": "f16988f6ac7caa7d9bc3304054d41ddf43310b252fc081e53184000150c2afb1",
+      "runtimeSha256": "2dca3af36b9e7308ae91f414b4b87b9f40b9869a084836bdc4334459d0e54e61",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Scutigera coleoptrata ADULT house centipede, yellowish-brown elongated narrow cylindrical body with THREE dark longitudinal dorsal stripes, FIFTEEN pairs (30 total) of very slender long banded jointed legs arranged along body, legs increase in length rearward and LAST PAIR extremely long; two long thin beaded antennae at head and large lateral compound eyes. No millipede short leg template, no wings. Scene: Complete dorsal adult on neutral stone background showing three longitudinal stripes and legs increasing in length toward rear. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "9199c67a1ec58f3d4b8a5531538f7d13d3be689fb2496b6d273d61b8574ae3b4",
+      "runtimeSha256": "556b1592571c44c602a1aa50914c11c76c4dc026c87a0798fabdd41db201d580",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Scutigera coleoptrata ADULT house centipede, yellowish-brown elongated narrow cylindrical body with THREE dark longitudinal dorsal stripes, FIFTEEN pairs (30 total) of very slender long banded jointed legs arranged along body, legs increase in length rearward and LAST PAIR extremely long; two long thin beaded antennae at head and large lateral compound eyes. No millipede short leg template, no wings. Scene: Head and anterior segment close-up showing large lateral eyes and fine beaded antennae, no monster jaws. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "4b7eccfb82a2359ec92c34be3550bcd74ad1eb2c6bc5a3694393f93a56d2a400",
+      "runtimeSha256": "01067c31bd3103c5602eb10d30162a9661fd3039c71f7c51fbfe779593efeec4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Scutigera coleoptrata ADULT house centipede, yellowish-brown elongated narrow cylindrical body with THREE dark longitudinal dorsal stripes, FIFTEEN pairs (30 total) of very slender long banded jointed legs arranged along body, legs increase in length rearward and LAST PAIR extremely long; two long thin beaded antennae at head and large lateral compound eyes. No millipede short leg template, no wings. Scene: Rear half close-up showing lengthening banded legs including extremely long last pair, do not make tail cerci instead of legs. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "1fec5d4593fb282268c9fb1e62f1158cbdbc104a8d8d87f4a6a24eed5c28a425",
+      "runtimeSha256": "996ad53be0bd528d78c9eea201903d76af23e4026fefb68dbf2693770b71f716",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 AI scientific reconstruction. Scutigera coleoptrata JUVENILE with 9 pairs of legs, not fifteen-pair adult, long antennae and banded legs. Scene: Juvenile with FEWER than 15 leg pairs, e.g. 9 pairs, short pale striped body on damp stone; NOT an adult, no wings. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "20d3a1dc071706e20b4cb8638fc6bb97c27d2591e26046dc49d8210bf8a3ae1c",
+      "runtimeSha256": "e582e5dcd647dfef4f596d7cd8579d0801030435dfb4e87ff69a172117d6a67d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Scutigera coleoptrata ADULT house centipede, yellowish-brown elongated narrow cylindrical body with THREE dark longitudinal dorsal stripes, FIFTEEN pairs (30 total) of very slender long banded jointed legs arranged along body, legs increase in length rearward and LAST PAIR extremely long; two long thin beaded antennae at head and large lateral compound eyes. No millipede short leg template, no wings. Scene: Single complete adult resting beside a dry small wall crevice, all limbs contained, habitat reconstruction not racing action. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "b9e25e5597123d48b0e0320660e72556807b05f7705986ddd231ee013f55b6e6",
+      "runtimeSha256": "f5b394dafbb01a2e2e4fd6fdcec327e2353409549bf75003be9faafdc9174fc5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

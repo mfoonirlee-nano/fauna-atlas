@@ -5055,5 +5055,18 @@
       },
       "sha256": "9ade058bb685384258eec189bd5d431979fd055d32a2ff96648219408e533d04"
     }
+  },
+  "house-centipede": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 110,
+        "right": 1490,
+        "bottom": 925
+      },
+      "sha256": "2dca3af36b9e7308ae91f414b4b87b9f40b9869a084836bdc4334459d0e54e61"
+    }
   }
 }

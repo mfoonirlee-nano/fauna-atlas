@@ -817,3 +817,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [二斑叶螨 image set](./species/two-spotted-spider-mite/README.md)
 - [海蜘蛛 image set](./species/gracile-sea-spider/README.md)
 - [无鞭蝎 image set](./species/damon-diadema/README.md)
+- [蚰蜒 image set](./species/house-centipede/README.md)
