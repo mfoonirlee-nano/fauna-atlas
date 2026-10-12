@@ -5702,4 +5702,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 735
     }
   },
+  "neopilina-galatheae": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 788,
+      "top": 330,
+      "right": 1390,
+      "bottom": 718
+    }
+  },
+  "chaetoderma-nitidulum": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 214,
+      "right": 1460,
+      "bottom": 772
+    }
+  },
+  "disk-abalone": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 739,
+      "top": 258,
+      "right": 1400,
+      "bottom": 718
+    }
+  },
+  "naval-shipworm": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 714,
+      "top": 264,
+      "right": 1332,
+      "bottom": 726
+    }
+  },
+  "geography-cone": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 808,
+      "top": 382,
+      "right": 1445,
+      "bottom": 766
+    }
+  },
 };

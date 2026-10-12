@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Chaetoderma nitidulum adult caudofoveate mollusc: unsegmented slender cream-grey cylindrical vermiform body, slightly bulbous posterior, small narrow anterior mouth shield; entire surface densely covered in microscopic pale overlapping calcareous sclerites. No shell, no legs, no eyes, no earthworm rings, no chiton plates, no giant bristles. Scene: One complete gently curved worm-like mollusc on damp fine marine sediment, scientific macro reconstruction. COVER: entire primary subject including all visible soft parts and shell inside x=700..1460 y=150..870 of a 1536x1024 frame. Silhouette center at least 65% frame width. Maximize subject in right half; left 40% quiet background; real clearance at every edge. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.\nEdit: Edit composition only of inspected cover. Reduce complete animal to 78% current size and move right so entire gently curved body inside x=710..1450 y=200..820. Preserve unsegmented sclerite covered soft body, no shell legs or rings. Make left42% quiet blurry sediment. 1536x1024.",
+      "sourceSha256": "c8c8cc5aef405dbb72129c90b83abc70142aa05b1e853b0555c903c37e28264b",
+      "runtimeSha256": "43f652aa310b010e9e176adac8b7470e489daf3cda68f3332219ec6ab206f1eb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Chaetoderma nitidulum adult caudofoveate mollusc: unsegmented slender cream-grey cylindrical vermiform body, slightly bulbous posterior, small narrow anterior mouth shield; entire surface densely covered in microscopic pale overlapping calcareous sclerites. No shell, no legs, no eyes, no earthworm rings, no chiton plates, no giant bristles. Scene: Full body horizontal lateral macro reconstruction, tiny scaly surface texture, dark plain backdrop. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "4f2e86bf5524bcb2dcf4106bb0cef1583da5e1c655fe7ead3648191aac5a8d33",
+      "runtimeSha256": "ce53cd235a2097bbcac517dcad73d81d49504a849db3e4c759c74893d8d5f906",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Chaetoderma nitidulum adult caudofoveate mollusc: unsegmented slender cream-grey cylindrical vermiform body, slightly bulbous posterior, small narrow anterior mouth shield; entire surface densely covered in microscopic pale overlapping calcareous sclerites. No shell, no legs, no eyes, no earthworm rings, no chiton plates, no giant bristles. Scene: Scientific extreme close-up of overlapping tiny pale calcareous sclerites on curved body wall; no large spikes, clearly an enlarged reconstruction. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "c637e975499de244f3d5d0d33a51b4ce60a71630c2605ee750404687d234ac73",
+      "runtimeSha256": "41953a61ab5f045223cbafbb3e25cca15bf2205d7ff853dcdf507fef20bedf9a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Chaetoderma nitidulum adult caudofoveate mollusc: unsegmented slender cream-grey cylindrical vermiform body, slightly bulbous posterior, small narrow anterior mouth shield; entire surface densely covered in microscopic pale overlapping calcareous sclerites. No shell, no legs, no eyes, no earthworm rings, no chiton plates, no giant bristles. Scene: Restrained cutaway habitat reconstruction showing animal anterior down in marine sediment and rounded posterior near sediment-water interface; not a photograph. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "f5f9f94a23f11e2d4b7f4c70873f6940e02233a47ed5d7b08fd58babfaea00c2",
+      "runtimeSha256": "628e99fa7bec12aa120d9917efdc9d55e108d279c8925b75f11a0d0c05e9152d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Chaetoderma nitidulum adult caudofoveate mollusc: unsegmented slender cream-grey cylindrical vermiform body, slightly bulbous posterior, small narrow anterior mouth shield; entire surface densely covered in microscopic pale overlapping calcareous sclerites. No shell, no legs, no eyes, no earthworm rings, no chiton plates, no giant bristles. Scene: Scientific close-up of narrow anterior end with small oral shield, no teeth or jaws exposed, grey sediment backdrop. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "421647d109f6be6c657587ca905448470a43f4ab298f4dd62b11575ded7ead52",
+      "runtimeSha256": "1445f4aa1621adb4f2e3044cf3b982506c77c89362481d9badf9a9b7e0d32236",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Chaetoderma nitidulum adult caudofoveate mollusc: unsegmented slender cream-grey cylindrical vermiform body, slightly bulbous posterior, small narrow anterior mouth shield; entire surface densely covered in microscopic pale overlapping calcareous sclerites. No shell, no legs, no eyes, no earthworm rings, no chiton plates, no giant bristles. Scene: Macro view of rounded posterior mantle end with subtle tiny gill region, no giant feathery crown, no tentacles; educational reconstruction. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "0664e3bca3be421c56ea4d1f19cc24b78acd48991f8242df58317a41c550039e",
+      "runtimeSha256": "1bbf1882255df73e86dbefb0dd54103c3ff901f3418af27e2ee374ba44ae0783",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

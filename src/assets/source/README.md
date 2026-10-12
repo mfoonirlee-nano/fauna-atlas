@@ -819,3 +819,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [无鞭蝎 image set](./species/damon-diadema/README.md)
 - [蚰蜒 image set](./species/house-centipede/README.md)
 - [球马陆 image set](./species/black-pill-millipede/README.md)
+
+- [新碟贝 image set](./species/neopilina-galatheae/README.md)
+- [毛皮贝（暂用中文标签） image set](./species/chaetoderma-nitidulum/README.md)
+- [盘鲍 image set](./species/disk-abalone/README.md)
+- [船蛆 image set](./species/naval-shipworm/README.md)
+- [地纹芋螺 image set](./species/geography-cone/README.md)

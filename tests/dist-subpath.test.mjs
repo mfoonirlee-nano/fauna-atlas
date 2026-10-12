@@ -164,8 +164,7 @@ test('the initial JS stays small and full profiles load independently without da
   }
   assert.ok(initialBytes < 550_000, `initial JS budget exceeded: ${initialBytes}`);
 
-  const sourceCode = await readFile(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url), 'utf8');
-  const { species } = await import(`data:text/javascript;base64,${Buffer.from(sourceCode).toString('base64')}`);
+  const { species } = await import(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url).href);
   const profiles = Object.entries(manifest).filter(([key]) => key.startsWith('virtual:species-profile/'));
   assert.equal(profiles.length, species.length);
   const { server, origin } = await startStaticServer();
@@ -197,8 +196,7 @@ test('the deferred profile table resolves catalogue indexes and rejects unknown 
   });
   try {
     const { species: summaries, loadSpecies } = await server.ssrLoadModule('virtual:species-catalogue');
-    const sourceCode = await readFile(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url), 'utf8');
-    const { species } = await import(`data:text/javascript;base64,${Buffer.from(sourceCode).toString('base64')}`);
+    const { species } = await import(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url).href);
     for (const index of [0, 534, species.length - 1]) {
       assert.deepEqual(await loadSpecies(summaries[index].slug), species[index]);
     }
@@ -216,8 +214,7 @@ test('the compact catalogue preserves every browsing field and taxonomy rank', a
   });
   try {
     const { species: summaries } = await server.ssrLoadModule('virtual:species-catalogue');
-    const sourceCode = await readFile(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url), 'utf8');
-    const { species } = await import(`data:text/javascript;base64,${Buffer.from(sourceCode).toString('base64')}`);
+    const { species } = await import(new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url).href);
     assert.equal(summaries.length, species.length);
     for (const [index, summary] of summaries.entries()) {
       const original = species[index];

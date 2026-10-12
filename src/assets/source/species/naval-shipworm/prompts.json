@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Teredo navalis adult shipworm, a bivalve mollusc with long soft UNSEGMENTED pale cream cylindrical body. Two SMALL white ridged shell valves ONLY at ANTERIOR boring end, paired short siphons and two small paddle-like pallets at opposite POSTERIOR end. Entire long body normally enclosed in wood tunnel. No insect, no annelid rings, no full-length clam shell. Scene: Scientific non-photographic cutaway of single submerged driftwood timber on dark seafloor, one entire pale elongated shipworm inside one curving tunnel, tiny shell at deep inner end and short paired siphons at opening. Whole animal AND wood within right-half frame. COVER: entire primary subject including all visible soft parts and shell inside x=700..1460 y=150..870 of a 1536x1024 frame. Silhouette center at least 65% frame width. Maximize subject in right half; left 40% quiet background; real clearance at every edge. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.\nEdit: Edit composition only of inspected cover. Reduce and reposition ENTIRE timber cutaway AND shipworm to fit inside x=700..1460 y=160..860. Every wood edge must be visible with real background all around. Preserve ONE long unsegmented Teredo navalis with tiny two-valved shell at inner left end and paired short siphons at upper right opposite end. Wood and entire worm prominent on right, left42% quiet blue marine background. 1536x1024.",
+      "sourceSha256": "7ee1d7efb752116481d596403a0640fba62cc3f3c336399a40f8642675f6e502",
+      "runtimeSha256": "17db54d6c7509a906ec6c8dad9f1943c68e3ed184e8430165b07e815c1316c4e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Teredo navalis adult shipworm, a bivalve mollusc with long soft UNSEGMENTED pale cream cylindrical body. Two SMALL white ridged shell valves ONLY at ANTERIOR boring end, paired short siphons and two small paddle-like pallets at opposite POSTERIOR end. Entire long body normally enclosed in wood tunnel. No insect, no annelid rings, no full-length clam shell. Scene: Scientific cutaway of wood tunnel with entire long soft shipworm, two small anterior shell valves at left inner end and paired siphons at right wood opening, plain marine background. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "fae12d06eefd98234b7d5615952995e04382b6add0855c927d896dc8ff900301",
+      "runtimeSha256": "475002bff88df1959205e971cdc7baf4bf790cb2b3e216abddf71ca33130e2d2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Teredo navalis adult shipworm, a bivalve mollusc with long soft UNSEGMENTED pale cream cylindrical body. Two SMALL white ridged shell valves ONLY at ANTERIOR boring end, paired short siphons and two small paddle-like pallets at opposite POSTERIOR end. Entire long body normally enclosed in wood tunnel. No insect, no annelid rings, no full-length clam shell. Scene: Enlarged museum anatomical reconstruction of tiny anterior paired white ridged boring shell valves at front of pale wormlike body, wood shavings beside end, no gore. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.\nEdit: Correct Teredo navalis anterior close-up. Show ONLY tiny paired ridged boring shell valves at one front end of long pale unsegmented body, nestled in cutaway wood. Body extends out of frame to right; do NOT show opposite posterior end. REMOVE ALL siphons, tubes and fan-like pallets from this anterior close-up. Do not add any tubes beside shell. Tiny paired valves loosely partly enclose front end. Non-photographic anatomical scientific reconstruction, no text. 1536x1024.",
+      "sourceSha256": "6f797c8114351a0c93ae1202b96a70fe19ed246e8d9d3a64fadb55ee96de04d8",
+      "runtimeSha256": "c9a5e0ce8608d3071ec6e86ee17dbb71d4326d5a16d9e4ed47ca16bdd9a60ecb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Teredo navalis adult shipworm, a bivalve mollusc with long soft UNSEGMENTED pale cream cylindrical body. Two SMALL white ridged shell valves ONLY at ANTERIOR boring end, paired short siphons and two small paddle-like pallets at opposite POSTERIOR end. Entire long body normally enclosed in wood tunnel. No insect, no annelid rings, no full-length clam shell. Scene: Close-up scientific reconstruction of posterior paired short siphons emerging from tiny opening in submerged timber, small paired pallets at their base. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "9d993c8a2a10409630b79652504385f8b4825b481b391d617ccee2756e38f5fc",
+      "runtimeSha256": "f78d47c8eaf2205754566bc0596d9729f7e01b0c249c4fd15b0b35cc0c0637a5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Teredo navalis adult shipworm, a bivalve mollusc with long soft UNSEGMENTED pale cream cylindrical body. Two SMALL white ridged shell valves ONLY at ANTERIOR boring end, paired short siphons and two small paddle-like pallets at opposite POSTERIOR end. Entire long body normally enclosed in wood tunnel. No insect, no annelid rings, no full-length clam shell. Scene: Scientific cross section of abandoned wood with several empty curved calcium-lined tunnels, no animal depicted, marine backdrop. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "3b918a7f3c8a753ab479f48d957ad7420e459db9126aa61aefbfd42f318e8786",
+      "runtimeSha256": "2479c912758103bb601d34c1b30e31d3e1d68c679367e78ccdf7c372efbe4eec",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Teredo navalis adult shipworm, a bivalve mollusc with long soft UNSEGMENTED pale cream cylindrical body. Two SMALL white ridged shell valves ONLY at ANTERIOR boring end, paired short siphons and two small paddle-like pallets at opposite POSTERIOR end. Entire long body normally enclosed in wood tunnel. No insect, no annelid rings, no full-length clam shell. Scene: Non-photographic life-stage reconstruction with a minute swimming bivalve veliger having small two-valved shell and delicate ciliated velum at left, long wood-dwelling adult in cutaway at right; separate magnification, no scale bar, no invented labels. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.\nEdit: Correct Teredo navalis adult anatomy in this life-stage diagram. Adult inside wood must have SMALL paired ridged shell valves only at LEFT deep interior ANTERIOR end. TWO short siphons must be at opposite RIGHT POSTERIOR end at wood opening. DELETE tubes beside anterior shells. Remove oversized fanlike pallets, keep two tiny flat pallets only near posterior siphons. Long pale unsegmented soft body connects both ends inside wood. Keep separately enlarged floating bivalve veliger at upper left with two-valved shell and ciliated velum; NOT to scale. Scientific anatomical diagram no text no arrows no gore. 1536x1024.",
+      "sourceSha256": "81bfcef1ceac48852b317857730e43e7675f35c51637e3e70b2cfd7fa25053e6",
+      "runtimeSha256": "ce13403ec32b46ae9870880b9e44f0eaba3ed50baa7bba3995207ca889be1076",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

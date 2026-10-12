@@ -2,12 +2,8 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 
-const code = await readFile(
-  new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url),
-  'utf8',
-);
 const { species } = await import(
-  `data:text/javascript;base64,${Buffer.from(code).toString('base64')}`
+  new URL('../node_modules/.tmp/taxonomy-test/data/species.js', import.meta.url).href,
 );
 const report = JSON.parse(await readFile(
   new URL('../docs/research/species-copy-review-2026-10-11.json', import.meta.url),

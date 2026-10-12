@@ -5081,5 +5081,70 @@
       },
       "sha256": "e8ad3e99fef7b9eb0c53d7076cb1861d71d0a771e380b6b5c02cf218720a2c6e"
     }
+  },
+  "neopilina-galatheae": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 788,
+        "top": 330,
+        "right": 1390,
+        "bottom": 718
+      },
+      "sha256": "ec6377d9acf3e6e7e965c936603eefc2750632efc338dbb1602ba8e0282b77a7"
+    }
+  },
+  "chaetoderma-nitidulum": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 214,
+        "right": 1460,
+        "bottom": 772
+      },
+      "sha256": "43f652aa310b010e9e176adac8b7470e489daf3cda68f3332219ec6ab206f1eb"
+    }
+  },
+  "disk-abalone": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 739,
+        "top": 258,
+        "right": 1400,
+        "bottom": 718
+      },
+      "sha256": "c77d20746a07f12fe76fade4a725e450a5013dc60dfbc7555291f084b86ab724"
+    }
+  },
+  "naval-shipworm": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 714,
+        "top": 264,
+        "right": 1332,
+        "bottom": 726
+      },
+      "sha256": "17db54d6c7509a906ec6c8dad9f1943c68e3ed184e8430165b07e815c1316c4e"
+    }
+  },
+  "geography-cone": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 808,
+        "top": 382,
+        "right": 1445,
+        "bottom": 766
+      },
+      "sha256": "b060d8a06ff244a9391b5307893899684710a96a1604e661c07e9dbcf34beb38"
+    }
   }
 }

@@ -4,6 +4,7 @@ import test from 'node:test';
 
 async function importCompiledModule(relativePath) {
   const fileUrl = new URL(relativePath, import.meta.url);
+  if (relativePath.endsWith('/data/species.js')) return import(fileUrl.href);
   const code = await readFile(fileUrl, 'utf8');
   const moduleUrl = `data:text/javascript;base64,${Buffer.from(code).toString('base64')}`;
   return import(moduleUrl);

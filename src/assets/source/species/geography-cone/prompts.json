@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Conus geographus adult geography cone snail: broad inflated tapering conical shell with LOW flattened spire, cream base irregular chestnut brown netlike map patches; long narrow aperture, mottled pale soft muscular foot underneath, small short siphon at front. Not tall-spired snail, no bivalve. Scene: Complete adult on sandy tropical reef seabed with low rocks, entire shell and visible soft foot and short siphon inside frame, subdued blue water. COVER: entire primary subject including all visible soft parts and shell inside x=700..1460 y=150..870 of a 1536x1024 frame. Silhouette center at least 65% frame width. Maximize subject in right half; left 40% quiet background; real clearance at every edge. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.\nEdit: Edit composition only: reduce complete Conus geographus snail including shell, soft foot and siphon to 75% current size, move right. Entire silhouette must be inside x=710..1460 y=200..840 of 1536x1024 image, real margins, left42% quiet blurred marine background. Preserve broad low-spired cone shell with brown map net pattern and soft mottled foot. No text.",
+      "sourceSha256": "ac197dcdcd1d0f183c77b4f32f573decf6220ad0a33a97ed59c7de0b40cc6f7b",
+      "runtimeSha256": "b060d8a06ff244a9391b5307893899684710a96a1604e661c07e9dbcf34beb38",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Conus geographus adult geography cone snail: broad inflated tapering conical shell with LOW flattened spire, cream base irregular chestnut brown netlike map patches; long narrow aperture, mottled pale soft muscular foot underneath, small short siphon at front. Not tall-spired snail, no bivalve. Scene: Dorsal-lateral shell macro showing cream and chestnut irregular maplike net pattern and low spire, sand. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "3cace40ce125d6b05e0386971cea4c95142324636bffee277667ac2a8b7d29fd",
+      "runtimeSha256": "ae74017531c642c98a70a20aad90cae12c011f9c94658737789816e1bf0498c6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Conus geographus adult geography cone snail: broad inflated tapering conical shell with LOW flattened spire, cream base irregular chestnut brown netlike map patches; long narrow aperture, mottled pale soft muscular foot underneath, small short siphon at front. Not tall-spired snail, no bivalve. Scene: Museum reconstruction of empty shell aperture side: long narrow vertical opening from shoulder to tapered base, low spire; dark neutral backdrop. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "731d660cccf4906ce7a4e6aedcf19ab79dc51006579421c1c3c4cdfcd888800d",
+      "runtimeSha256": "24e691465a44bae0396b487a37e6da23953392e0ef32ec9cb45c1595ee554fb9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Conus geographus adult geography cone snail: broad inflated tapering conical shell with LOW flattened spire, cream base irregular chestnut brown netlike map patches; long narrow aperture, mottled pale soft muscular foot underneath, small short siphon at front. Not tall-spired snail, no bivalve. Scene: Low side view of living adult soft foot resting on fine sand below broad cone shell, small siphon visible, no exposed tooth. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "c93d081633768f8f7a64be337a6476404989d229541cd85b3b35b82be0d75fb6",
+      "runtimeSha256": "dcecb11a5428faa1eebf9e24a865a5176e1ba2ca6dbc141defb09b72f0279f61",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Conus geographus adult geography cone snail: broad inflated tapering conical shell with LOW flattened spire, cream base irregular chestnut brown netlike map patches; long narrow aperture, mottled pale soft muscular foot underneath, small short siphon at front. Not tall-spired snail, no bivalve. Scene: Restrained non-photographic anatomical diagram: isolated magnified slender hollow barbed radular tooth alongside simple snail outline indicating internal location, clean dark background; no human, no wound, no invented exposed giant harpoon. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "0096898943dcc0e6d38b7991f60b5d94652960c1a0440388fb075f8fa6f4d6cb",
+      "runtimeSha256": "4c1581623bde669898cdfa7599f75342cd36900c7fdba17628b78a6845447ce9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Conus geographus adult geography cone snail: broad inflated tapering conical shell with LOW flattened spire, cream base irregular chestnut brown netlike map patches; long narrow aperture, mottled pale soft muscular foot underneath, small short siphon at front. Not tall-spired snail, no bivalve. Scene: Restrained non-photographic feeding-context reconstruction: one cone snail and a few small fish nearby in tropical water, subtle translucent schematic diffusion field near snail mouth, no gore, no arrows, no attack staged as real photograph. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "aa84bfb15de8436ddcc047522ce22dcffde29145b290ee21e434f96f3398f498",
+      "runtimeSha256": "b44c7c3793d14d75ce996e6c17c83ba5dcb90437ef2937b2b8ecfd0334fc7523",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

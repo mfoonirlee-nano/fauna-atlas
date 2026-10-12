@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 70 种，动物目录增至 570 种，活动清单剩余 30 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
+本轮目标为新增 100 种动物；累计完成 75 种，动物目录增至 575 种，活动清单剩余 25 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -106,3 +106,13 @@
 - [x] 无鞭蝎 *Damon diadema*：无鞭目与感觉型第一对足。共读：“看看最细长的一对脚怎样向前探。”说明它们与行走足的用途差异。
 - [x] 蚰蜒 *Scutigera coleoptrata*：唇足类的长足形态。共读：“看看越靠后的脚是不是更长。”与马陆分别说明。
 - [x] 球马陆 *Glomeris marginata*：倍足类与卷球防御。共读：“对照伸展和卷起的身体，找找脚藏到哪里。”与鼠妇分别注明分类。
+
+## 2026-10-12 软体动物五种
+
+资料与验收见[本批记录](todo-expansion-molluscs-five-2026-10-12.md)。
+
+- [x] 新碟贝 *Neopilina galatheae*：单板类，补充帽状壳与软体动物的内部差异。共读：“看看背上的壳，再用腹面示意找找脚。”成对内部结构另附依据。
+- [x] 毛皮贝（中文名待核） *Chaetoderma nitidulum*：尾腔类，补充无典型贝壳、蠕虫形的软体动物。共读：“在微距图里找找身体表面的细小骨针。”不能归为环节动物。
+- [x] 盘鲍 *Haliotis discus*：腹足类，补充开放壳形与附着生活。共读：“沿着壳边找找一排小孔。”
+- [x] 船蛆 *Teredo navalis*：双壳类，补充钻木生活与缩小的壳。共读：“用剖面示意找找木头里的身体。”名称里的“蛆”不表示昆虫幼虫。
+- [x] 地纹芋螺 *Conus geographus*：腹足类，补充捕食性螺与毒液。共读：“看看锥形的壳和表面花纹。”齿舌与捕食用示意，不能根据花纹判断接触安全。

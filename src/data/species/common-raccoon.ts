@@ -1,0 +1,137 @@
+import type { Species } from '../../types/species.ts';
+
+import { animalTaxonomy, conservation, taxon } from './shared.js';
+
+const profile = {
+    id: 'species-procyon-lotor',
+    slug: 'common-raccoon',
+    names: { zh: '普通浣熊', en: 'Common Raccoon', aliases: ['小浣熊', '浣熊', '北美浣熊', 'Northern Raccoon', 'Procyon lotor'] },
+    scientificName: 'Procyon lotor',
+    taxonomy: animalTaxonomy(
+      taxon('Chordata', '脊索动物门'),
+      taxon('Mammalia', '哺乳纲'),
+      taxon('Carnivora', '食肉目'),
+      taxon('Procyonidae', '浣熊科'),
+      taxon('Procyon', '浣熊属'),
+    ),
+    conservation: conservation('LC', 'unknown'),
+    distribution: {
+      realms: ['terrestrial', 'freshwater'],
+      continents: ['北美洲'],
+      regions: ['加拿大南部', '美国大部', '墨西哥', '中美洲'],
+      countries: ['加拿大', '美国', '墨西哥', '伯利兹', '危地马拉', '萨尔瓦多', '洪都拉斯', '尼加拉瓜', '哥斯达黎加', '巴拿马'],
+      range: '原生范围从加拿大南部延伸至巴拿马。欧洲和日本等地另有由人类引入后建立的种群，形成历史与原生范围不同。',
+      center: { lat: 35, lng: -95 },
+    },
+    habitats: [
+      { name: '河岸林与湿地边缘', realm: 'terrestrial', description: '在林下活动，利用树洞藏身，并沿溪流、湖岸和沼泽边缘觅食。', isPrimary: true },
+      { name: '浅水与溪岸', realm: 'freshwater', description: '伸出前爪探摸浅水中的食物，回到岸上休息与育幼。' },
+      { name: '农田与城郊林地', realm: 'terrestrial', description: '取食果实、农作物及人类留下的食物，也会利用建筑空隙藏身。' },
+    ],
+    measurements: {
+      weight: { min: 1.8, max: 10.4, unit: 'kg', note: 'Animal Diversity Web汇总范围；随地区、性别和季节变化，不包括全部极值。' },
+    },
+    diet: {
+      types: ['omnivore'],
+      foods: ['浆果', '橡实', '昆虫', '螯虾', '蛙', '鱼', '小型哺乳动物'],
+      description: '随当地食物与季节改变食谱，在岸边摸索动物性食物，也在林地寻找果实和坚果；城郊个体会取食未收好的垃圾和宠物食物。',
+    },
+    activity: ['夜行性', '晨昏活动', '攀树', '浅水觅食', '前爪探摸'],
+    tags: ['北美洲', '河岸林', '杂食', '黑色眼罩', '环纹尾', '前爪触觉', 'IUCN无危'],
+    summary: '普通浣熊有黑色眼罩、环纹尾和灵巧的五趾前爪，常在夜间沿溪岸或林地觅食。它吃小动物、果实和坚果，也能适应城郊生活。',
+    description: '普通浣熊原生于加拿大南部至巴拿马，利用树洞等隐蔽处休息和育幼。灰褐色粗毛下是能攀树的身体，前爪裸露的皮肤对接触很敏感，帮助它在石缝和浅水中摸索食物。所谓“洗食物”包含浸水和揉弄动作，现有观察不足以证明清洁目的。雌性负责照顾幼崽，幼崽常与母亲度过第一个冬季。',
+    storySections: [
+      {
+        key: 'identity',
+        label: '外形与分类',
+        title: '黑眼罩之外，还要看环纹尾',
+        body: '普通浣熊属于浣熊科浣熊属；日常称呼“小浣熊”也用于成体。黑色眼罩外缘较浅，尾上有深浅相间的环纹，前后足各有五趾。辨认时应合看脸部、尾和足部，避免只凭黑眼斑把它与貉混淆。',
+      },
+      {
+        key: 'touch',
+        label: '前爪触觉',
+        title: '用前爪探索接触到的东西',
+        body: '研究者在前爪记录到快速适应、慢速适应和帕西尼型机械感觉纤维；趾端皮肤的神经分布比靠近掌部更密。这样的触觉系统支持它在石缝和浅水中检查物体。1986年的实验还发现，湿润皮肤后，所测慢速适应纤维的响应增强、刺激阈值降低；这不能换算成野外觅食成功率。',
+      },
+      {
+        key: 'dousing',
+        label: '行为辨析',
+        title: '浸水动作不能证明“爱干净”',
+        body: '1963年的研究观察了10只圈养浣熊的浸水行为，并跟踪5只幼体的行为发育。作者建议用dousing描述动作，避免先把清洗目的写进名称。它会在水边探摸和揉弄食物，但观察到浸水，不足以说明它在去污、消毒，或每餐都必须用水。',
+      },
+      {
+        key: 'food',
+        label: '食性',
+        title: '从林中果实到溪边小动物',
+        body: '普通浣熊会吃浆果、橡实、昆虫、螯虾和小型脊椎动物，食物组合随地点改变。人类留下的食物也会吸引它：亚利桑那州一项在25个喂鸟点进行的相机研究发现，添加猫粮后，浣熊等中型食肉动物的访问增多。该结果描述研究地点的响应，不能外推为全种的固定食谱。',
+      },
+      {
+        key: 'family',
+        label: '繁殖与日常',
+        title: '幼崽在母亲身边度过第一个冬季',
+        body: '雌性承担哺乳、照料和保护幼崽的工作。资料汇总的妊娠期为63 至 65天，幼崽出生时眼睛闭合，之后才开始随母亲外出。它们通常以树洞等隐蔽处为巢。寒冷天气里，浣熊可连续数日留在巢中，依靠储存的脂肪度过缺食期；季节与地区会影响活动安排。',
+      },
+      {
+        key: 'range-and-coexistence',
+        label: '分布与共处',
+        title: '原生地与引入地需要分别看待',
+        body: 'MDD列普通浣熊的IUCN等级为无危。它适应城郊生活的能力，并不能消除车辆撞击等局部死亡因素。在欧洲和日本等引入地，它还可能捕食当地动物。德国遗传研究发现至少四次独立引入的证据，提醒人们不能只凭少数放生故事解释扩散历史。减少食物暴露、避免释放个体，并监测当地影响，能帮助管理者处理这些问题。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '最初以 Ursus Lotor 命名',
+        body: '林奈在 1758 年以 Ursus Lotor 正式命名普通浣熊，模式产地记为美国宾夕法尼亚，现用组合为 Procyon lotor。早期属名与今天不同，现代分类将它放在浣熊科。另一个常见误解来自浸水动作：研究者曾建议用 dousing 描述可见行为，避免仅凭动作就推定它在洗净食物。',
+      },
+    ],
+    keyFacts: [
+      '普通浣熊的学名为 Procyon lotor，“小浣熊”也可用于称呼成体。',
+      '它属于食肉目，但实际食性为杂食。',
+      '前后足各有五趾，尾上带深浅相间的环纹。',
+      '前爪裸露皮肤有多类机械感受器，趾端神经分布较密。',
+      '湿润皮肤可改变实验中所测感觉纤维的响应，不代表清洗食物的目的。',
+      '雌性负责育幼，幼崽常与母亲度过第一个冬季。',
+      '欧洲和日本的外来种群应与北美洲原生范围分开描述。',
+      '全球等级为无危；现有来源未提供可核实的原始评估年份与全球趋势。',
+    ],
+    threats: ['车辆撞击造成个体死亡。', '捕猎、捕捉及围绕建筑和食物的冲突带来局部压力。', '疾病、寄生虫与食物短缺可影响地方种群；未据此推断全球下降。'],
+    conservationActions: ['在原生范围维持河岸林、湿地边缘和可用的树洞。', '收好垃圾、食物与宠物粮，减少聚集和人兽冲突。', '避免释放圈养个体；在引入地监测扩散和对当地动物的影响。'],
+    metrics: { adultMassKg: [1.8, 10.4] },
+    featuredStats: [
+      { key: 'mass', label: '体重范围', value: '1.8—10.4', unit: '千克', note: '资料汇总范围，地区与季节差异明显。' },
+      { key: 'digits', label: '每足趾数', value: '5', unit: '趾', note: '前后足均为五趾。' },
+      { key: 'gestation', label: '妊娠期', value: '63—65', unit: '天', note: 'Animal Diversity Web汇总值。' },
+      { key: 'dousing-study', label: '浸水行为研究', value: '10', unit: '只', note: '1963年圈养研究样本，另观察5只幼体的发育。' },
+    ],
+    media: {
+      image: './images/species/common-raccoon/01-woodland-stream-cover.webp',
+      alt: '林间溪岸右侧，一只普通浣熊面朝左站立，黑眼罩、四肢轮廓与完整环纹尾均在画内。',
+      focalPoint: { x: 0.85, y: 0.34 },
+      credit: 'Fauna Atlas · AI 生成科学情景重建',
+      gallery: [
+        { image: './images/species/common-raccoon/02-field-marks.webp', alt: '普通浣熊在落叶地上向左行走，呈现黑眼罩和蓬松环纹尾。', title: '黑眼罩与环纹尾', caption: 'AI生成科学情景重建；表现外形组合，不能用于测量体型或判定性别。' },
+        { image: './images/species/common-raccoon/03-shallow-water-foraging.webp', alt: '普通浣熊把前爪伸进浅溪，后足留在岸边。', title: '在浅水中探摸', caption: 'AI生成科学情景重建；前爪接触水面，不能据静帧判定清洗目的或捕食结果。' },
+        { image: './images/species/common-raccoon/04-forest-fruit.webp', alt: '普通浣熊坐在林地上，用前爪把小果实举向嘴边。', title: '前爪握住林中果实', caption: 'AI生成科学情景重建；未指定果实物种，不表示果实占全食谱的比例。' },
+        { image: './images/species/common-raccoon/05-tree-climbing.webp', alt: '普通浣熊抓住倾斜树干，完整环纹尾垂在身后，远侧后足受遮挡。', title: '沿树干攀爬', caption: 'AI生成科学情景重建；表现攀爬姿态，无法测出速度或抓握力。' },
+        { image: './images/species/common-raccoon/06-family-den.webp', alt: '一只成年外观浣熊与两只较小幼体靠在树洞边。', title: '树洞边的成体与幼体', caption: 'AI生成科学情景重建；母幼关系是场景设定，图像不能证明亲缘、性别或实际窝仔数。' },
+      ],
+    },
+    sources: [
+      { title: 'ASM Mammal Diversity Database — Procyon lotor', url: 'https://www.mammaldiversity.org/taxon/1005892/', kind: 'taxonomy', accessedAt: '2026-09-06' },
+      { title: 'Animal Diversity Web — Procyon lotor', url: 'https://animaldiversity.org/accounts/Procyon_lotor/', kind: 'general', accessedAt: '2026-09-06' },
+      { title: 'Texas Tech University — Northern Raccoon', url: 'https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Carnivora/Procyon_lotor.php', kind: 'conservation', accessedAt: '2026-09-06' },
+      { title: 'NPS Olympic — Raccoon', url: 'https://www.nps.gov/olym/learn/nature/raccoon.htm', kind: 'ecology', accessedAt: '2026-09-06' },
+      { title: 'NPS Big Thicket — Raccoon', url: 'https://www.nps.gov/bith/learn/nature/raccoon.htm', kind: 'ecology', accessedAt: '2026-09-06' },
+      { title: 'Turnbull & Rasmusson 1986 — Forepaw receptor types', url: 'https://pubmed.ncbi.nlm.nih.gov/3797914/', kind: 'ecology', accessedAt: '2026-09-06' },
+      { title: 'Rasmusson & Turnbull 1986 — Wetting and slowly adapting fibers', url: 'https://pubmed.ncbi.nlm.nih.gov/3797915/', kind: 'ecology', accessedAt: '2026-09-06' },
+      { title: 'Lyall-Watson 1963 — Re-examination of food washing', url: 'https://doi.org/10.1111/j.1469-7998.1963.tb01617.x', kind: 'ecology', accessedAt: '2026-09-06' },
+      { title: 'Urban Ecosystems 2015 — Anthropogenic food sources', url: 'https://doi.org/10.1007/s11252-015-0436-x', kind: 'ecology', accessedAt: '2026-09-06' },
+      { title: 'Fischer et al. 2015 — Multiple introductions in Germany', url: 'https://doi.org/10.1371/journal.pone.0125441', kind: 'distribution', accessedAt: '2026-09-06' },
+      { title: 'IUCN SSC Invasive Species Specialist Group — Procyon lotor', url: 'https://www.iucngisd.org/gisd/species.php?sc=1262', kind: 'distribution', accessedAt: '2026-09-06' },
+    ],
+    featured: true,
+    publishedAt: '2026-09-06',
+    updatedAt: '2026-09-06',
+  } as const satisfies Species;
+
+export default profile;

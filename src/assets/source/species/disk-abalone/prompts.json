@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Haliotis discus adult disk abalone: single flattened ear-shaped oval reddish-brown ridged shell, low off-center spiral at rear and ONE curved row of raised open respiratory holes near lateral shell edge; broad muscular pale foot, fringed epipodium and small cephalic tentacles. Not clam or limpet. Scene: One complete living adult on submerged rocky substrate, entire shell, soft foot fringe and tentacles visible, dim blue-green sea. COVER: entire primary subject including all visible soft parts and shell inside x=700..1460 y=150..870 of a 1536x1024 frame. Silhouette center at least 65% frame width. Maximize subject in right half; left 40% quiet background; real clearance at every edge. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.\nEdit: Edit composition only of inspected cover. Reduce entire abalone including ALL visible tentacles and foot fringes to 72% current size and move right. Complete silhouette inside x=710..1460 y=210..830 with real background margins. Preserve Haliotis discus low ear shell, ONE row shell holes and attached foot. Left42% quiet marine background. 1536x1024.",
+      "sourceSha256": "33a1e375845377f38b774a92999058e6c4a5f54634159f8e623f4c9e8186e23c",
+      "runtimeSha256": "c77d20746a07f12fe76fade4a725e450a5013dc60dfbc7555291f084b86ab724",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Haliotis discus adult disk abalone: single flattened ear-shaped oval reddish-brown ridged shell, low off-center spiral at rear and ONE curved row of raised open respiratory holes near lateral shell edge; broad muscular pale foot, fringed epipodium and small cephalic tentacles. Not clam or limpet. Scene: Dorsal macro of ear-shaped brown shell showing single curved row of holes near edge, no extra rows. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "0e20321104f5f03715c6ed9656e38b4247f7a7a8075e5be0434faa829a8ce4c0",
+      "runtimeSha256": "a0798b6be8f624c1310a26e139c495272335de37f98bcb6a2c470928bc541be7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Haliotis discus adult disk abalone: single flattened ear-shaped oval reddish-brown ridged shell, low off-center spiral at rear and ONE curved row of raised open respiratory holes near lateral shell edge; broad muscular pale foot, fringed epipodium and small cephalic tentacles. Not clam or limpet. Scene: Low side view of broad pale muscular foot adhering to submerged rock beneath low shell, fringed mantle edge. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "dfba78407dae532427c131a902258b917dd6457f66cb40ec88cac8e4926f6094",
+      "runtimeSha256": "dec5236c55e43d3606c8915ea47c7021a47d0104d1830ac6328487051b9daed6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Haliotis discus adult disk abalone: single flattened ear-shaped oval reddish-brown ridged shell, low off-center spiral at rear and ONE curved row of raised open respiratory holes near lateral shell edge; broad muscular pale foot, fringed epipodium and small cephalic tentacles. Not clam or limpet. Scene: Museum reconstruction of empty Haliotis discus shell viewed from underside with silvery iridescent nacre and edge holes, neutral backdrop, no attached living flesh. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "fe51324c977629d8fef06a61a24abb995e9849bd33e31549f6504d595301f89a",
+      "runtimeSha256": "cb288d7fcf7754e2f52ca31699fbeda018b4154a7a228b578e22547122961321",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Haliotis discus adult disk abalone: single flattened ear-shaped oval reddish-brown ridged shell, low off-center spiral at rear and ONE curved row of raised open respiratory holes near lateral shell edge; broad muscular pale foot, fringed epipodium and small cephalic tentacles. Not clam or limpet. Scene: Adult abalone beside brown marine algae on rocky seabed at dusk, feeding-context reconstruction, no plants growing from animal. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "4b797da966f95c1b425138cc9ca0bd23a7622922ef84744781187b522fd4fa78",
+      "runtimeSha256": "3caba448e1d45081f84749e4b46e7ada86147808e4e45a2ea0c3b31afc976ae9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Haliotis discus adult disk abalone: single flattened ear-shaped oval reddish-brown ridged shell, low off-center spiral at rear and ONE curved row of raised open respiratory holes near lateral shell edge; broad muscular pale foot, fringed epipodium and small cephalic tentacles. Not clam or limpet. Scene: Macro of head emerging under front rim showing slender tentacles and fringe, no mammal face; submerged rock. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "5be08015a0b25836525a93a39cb0847a9c6a555c72c6d8ba2c804acdc589d859",
+      "runtimeSha256": "856f6237e7b06539ebeac32dd2e38adb7bff4e162ce9a53a670d5689c478cfa5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

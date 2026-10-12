@@ -26751,6 +26751,241 @@
       "notes": [
         "2026-10-12 接续五种：核对外观、生命阶段、食性、分布和命名；图注标明重建与非实测比例，描述年份不表示人类首次认识动物。"
       ]
+    },
+    {
+      "slug": "neopilina-galatheae",
+      "scientificName": "Neopilina galatheae",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://academic.oup.com/mollus/article/90/2/eyae014/7673177"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://academic.oup.com/mollus/article/90/2/eyae014/7673177"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://academic.oup.com/mollus/article/90/2/eyae014/7673177"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2306873",
+            "https://academic.oup.com/mollus/article/90/2/eyae014/7673177"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2306873",
+            "https://academic.oup.com/mollus/article/90/2/eyae014/7673177"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "chaetoderma-nitidulum",
+      "scientificName": "Chaetoderma nitidulum",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://academic.oup.com/mollus/article/84/2/113/4955205",
+            "https://ns-mollusca.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?epi=183&id=121440",
+            "https://etd.auburn.edu/bitstream/handle/10415/3581/Kocot_dissertation_final.pdf?isAllowed=y&sequence=2"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://academic.oup.com/mollus/article/84/2/113/4955205",
+            "https://ns-mollusca.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?epi=183&id=121440",
+            "https://etd.auburn.edu/bitstream/handle/10415/3581/Kocot_dissertation_final.pdf?isAllowed=y&sequence=2"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://academic.oup.com/mollus/article/84/2/113/4955205",
+            "https://ns-mollusca.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?epi=183&id=121440",
+            "https://etd.auburn.edu/bitstream/handle/10415/3581/Kocot_dissertation_final.pdf?isAllowed=y&sequence=2"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5189550",
+            "https://academic.oup.com/mollus/article/84/2/113/4955205",
+            "https://ns-mollusca.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?epi=183&id=121440",
+            "https://etd.auburn.edu/bitstream/handle/10415/3581/Kocot_dissertation_final.pdf?isAllowed=y&sequence=2"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5189550",
+            "https://academic.oup.com/mollus/article/84/2/113/4955205",
+            "https://ns-mollusca.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/taxon.php?epi=183&id=121440",
+            "https://etd.auburn.edu/bitstream/handle/10415/3581/Kocot_dissertation_final.pdf?isAllowed=y&sequence=2"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "disk-abalone",
+      "scientificName": "Haliotis discus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666003/",
+            "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T215430084A215430133.en",
+            "https://sciwatch.kiost.ac.kr/handle/2020.kiost/30038",
+            "https://www.godac.jamstec.go.jp/bismal/e/view/9025355"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666003/",
+            "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T215430084A215430133.en",
+            "https://sciwatch.kiost.ac.kr/handle/2020.kiost/30038",
+            "https://www.godac.jamstec.go.jp/bismal/e/view/9025355"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666003/",
+            "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T215430084A215430133.en",
+            "https://sciwatch.kiost.ac.kr/handle/2020.kiost/30038",
+            "https://www.godac.jamstec.go.jp/bismal/e/view/9025355"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4357763",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666003/",
+            "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T215430084A215430133.en",
+            "https://sciwatch.kiost.ac.kr/handle/2020.kiost/30038",
+            "https://www.godac.jamstec.go.jp/bismal/e/view/9025355"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4357763",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666003/",
+            "https://doi.org/10.2305/IUCN.UK.2022-2.RLTS.T215430084A215430133.en",
+            "https://sciwatch.kiost.ac.kr/handle/2020.kiost/30038",
+            "https://www.godac.jamstec.go.jp/bismal/e/view/9025355"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "naval-shipworm",
+      "scientificName": "Teredo navalis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://invasions.si.edu/nemesis/species_summary/81862",
+            "https://whatsinaname.hmnh.harvard.edu/shipworm",
+            "https://www.journals.uchicago.edu/doi/10.2307/1537080"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://invasions.si.edu/nemesis/species_summary/81862",
+            "https://whatsinaname.hmnh.harvard.edu/shipworm",
+            "https://www.journals.uchicago.edu/doi/10.2307/1537080"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://invasions.si.edu/nemesis/species_summary/81862",
+            "https://whatsinaname.hmnh.harvard.edu/shipworm",
+            "https://www.journals.uchicago.edu/doi/10.2307/1537080"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2288847",
+            "https://invasions.si.edu/nemesis/species_summary/81862",
+            "https://whatsinaname.hmnh.harvard.edu/shipworm",
+            "https://www.journals.uchicago.edu/doi/10.2307/1537080"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2288847",
+            "https://invasions.si.edu/nemesis/species_summary/81862",
+            "https://whatsinaname.hmnh.harvard.edu/shipworm",
+            "https://www.journals.uchicago.edu/doi/10.2307/1537080"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "geography-cone",
+      "scientificName": "Conus geographus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11336141/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330763/",
+            "https://www.sealifebase.org/summary/Conus-geographus.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11336141/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330763/",
+            "https://www.sealifebase.org/summary/Conus-geographus.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11336141/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330763/",
+            "https://www.sealifebase.org/summary/Conus-geographus.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5728277",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11336141/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330763/",
+            "https://www.sealifebase.org/summary/Conus-geographus.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5728277",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11336141/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4330763/",
+            "https://www.sealifebase.org/summary/Conus-geographus.html"
+          ]
+        }
+      }
     }
   ]
 }

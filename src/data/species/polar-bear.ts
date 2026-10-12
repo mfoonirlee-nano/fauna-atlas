@@ -1,0 +1,372 @@
+import type { SpeciesSource, Species } from '../../types/species.ts';
+
+import { animalTaxonomy, conservation, taxon } from './shared.js';
+
+const POLAR_BEAR_SOURCE_DATE = '2026-08-20' as const;
+
+const POLAR_BEAR_CONTENT_DATE = '2026-08-20' as const;
+
+const POLAR_BEAR_SOURCES = [
+  {
+    title: 'ASM Mammal Diversity Database v2.5 — Ursus maritimus',
+    url: 'https://www.mammaldiversity.org/taxon/1005936/',
+    kind: 'taxonomy',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN Red List — Ursus maritimus (2015 assessment)',
+    url: 'https://doi.org/10.2305/IUCN.UK.2015-4.RLTS.T22823A14871490.en',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN/SSC Polar Bear Specialist Group — 2024 Status Report',
+    url: 'https://www.iucn-pbsg.org/wp-content/uploads/2024/11/PBSG-Status-Criteria-and-Report_Final_2024Oct7.pdf',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'IUCN/SSC Polar Bear Specialist Group — Proceedings of the 20th Working Meeting',
+    url: 'https://www.iucn-pbsg.org/wp-content/uploads/2025/09/PBSG-20th-Proceedings_FINAL_20250815.pdf',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Regehr et al. 2016 — Conservation status of polar bears in relation to projected sea-ice declines',
+    url: 'https://doi.org/10.1098/rsbl.2016.0556',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Polar Bear Range States — Polar Bear Biology',
+    url: 'https://polarbearagreement.org/polar-bear-biology',
+    kind: 'general',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Polar Bear Range States — Habitat Needs and Characteristics',
+    url: 'https://polarbearagreement.org/polar-bear-biology/habitat-needs-and-characteristics',
+    kind: 'ecology',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Polar Bear Range States — Diet',
+    url: 'https://polarbearagreement.org/polar-bear-biology/diet',
+    kind: 'ecology',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Polar Bear Range States — Movement and Migration',
+    url: 'https://polarbearagreement.org/polar-bear-biology/movement-and-migration',
+    kind: 'ecology',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Polar Bear Range States — Reproduction',
+    url: 'https://polarbearagreement.org/polar-bear-biology/reproduction',
+    kind: 'ecology',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Polar Bear Range States — Circumpolar Action Plan 2015–2025',
+    url: 'https://polarbearagreement.org/circumpolar-action-plan',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'CITES — Appendices I, II and III (effective 5 March 2026)',
+    url: 'https://cites.org/sites/default/files/eng/app/2026/E-Appendices-2026-03-05.pdf',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'CMS — Appendices I and II (effective 27 June 2026)',
+    url: 'https://www.cms.int/sites/default/files/basic_page_documents/revised-appendices_cop15_e.pdf',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Environment and Climate Change Canada — Polar Bear Management Plan [Proposed] 2025',
+    url: 'https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/management-plans/polar-bear-proposed-2025.html',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'U.S. Fish and Wildlife Service — Polar Bear 5-Year Status Review FAQ',
+    url: 'https://www.fws.gov/page/polar-bear-5-year-status-review-FAQ',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Parks Canada — Polar Bears in Wapusk National Park',
+    url: 'https://parks.canada.ca/pn-np/mb/wapusk/nature/faune-animals/mammiferes-mammals/ours-bears/polaire-polar',
+    kind: 'general',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Thiemann et al. 2008 — Polar bear diets and arctic marine food webs',
+    url: 'https://doi.org/10.1890/07-1050.1',
+    kind: 'ecology',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Laidre et al. 2022 — Glacial ice supports a distinct and undocumented polar bear subpopulation',
+    url: 'https://doi.org/10.1126/science.abk2793',
+    kind: 'distribution',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Pagano et al. 2024 — Polar bear energetic and behavioral strategies on land',
+    url: 'https://doi.org/10.1038/s41467-023-44682-1',
+    kind: 'ecology',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+  {
+    title: 'Regehr et al. 2025 — International principles for sustainable polar bear harvest',
+    url: 'https://doi.org/10.1111/cobi.70010',
+    kind: 'conservation',
+    accessedAt: POLAR_BEAR_SOURCE_DATE,
+  },
+] as const satisfies readonly SpeciesSource[];
+
+const profile = {
+    id: 'species-ursus-maritimus',
+    slug: 'polar-bear',
+    names: { zh: '北极熊', en: 'Polar Bear', aliases: [] },
+    scientificName: 'Ursus maritimus',
+    taxonomy: animalTaxonomy(
+      taxon('Chordata', '脊索动物门'),
+      taxon('Mammalia', '哺乳纲'),
+      taxon('Carnivora', '食肉目'),
+      taxon('Ursidae', '熊科'),
+      taxon('Ursus', '熊属'),
+    ),
+    conservation: conservation('VU', 'unknown', 2015, 'A3c'),
+    distribution: {
+      realms: ['marine', 'terrestrial'],
+      continents: ['北美洲', '欧洲', '亚洲'],
+      regions: [
+        '阿拉斯加—楚科奇海与波弗特海',
+        '加拿大北极群岛、哈德逊湾与詹姆斯湾',
+        '巴芬湾、格陵兰海与东南格陵兰峡湾',
+        '斯瓦尔巴群岛与巴伦支海',
+        '俄罗斯喀拉海、拉普捷夫海和东西伯利亚海',
+        '北极海盆及其大陆架边缘',
+      ],
+      countries: ['加拿大', '格陵兰（丹麦王国）', '挪威', '俄罗斯', '美国'],
+      range:
+        '环北极分布，南缘主要受季节性海冰范围限制；多数个体使用生产力较高大陆架及群岛水道上方海冰，并随冻结、融化和漂移移动。五个常住范围国为加拿大、格陵兰、挪威、俄罗斯和美国；冰岛只有迷行或存疑记录，不列为常住范围国。',
+      center: { lat: 80, lng: 0 },
+    },
+    habitats: [
+      {
+        name: '大陆架上方的季节性海冰',
+        realm: 'marine',
+        description: '最关键捕食和交配平台；裂隙、压力脊、海豹的呼吸孔和雪下育幼穴使北极熊能接近环斑海豹与髯海豹。',
+        isPrimary: true,
+      },
+      {
+        name: '多年冰边缘、汇聚冰区与北极群岛水道',
+        realm: 'marine',
+        description: '海流和岸线使冰在生产力较高水域聚集，部分高纬亚种群可更久留在冰上；中央深水海盆生产力较低。',
+      },
+      {
+        name: '季节性海岸、岛屿与冻原避难地',
+        realm: 'terrestrial',
+        description: '海冰完全融化的地区，个体夏季可上岸约二至五个月，主要依靠脂肪储备等待秋季冻结。',
+      },
+      {
+        name: '陆地雪堆、冻土和海岸产仔区',
+        realm: 'terrestrial',
+        description: '孕雌在秋季进入雪堆、冻土或泥炭中的产仔穴；位置分散且对干扰敏感，邻近春季海冰猎场很重要。',
+      },
+    ],
+    measurements: {
+      length: {
+        max: 2.8,
+        unit: 'm',
+        note: '成年雄性的上限参考（五范围国共同资料）；雌性通常在 2.5 米以内',
+      },
+      weight: {
+        max: 800,
+        unit: 'kg',
+        note: '成年雄性的上限参考；雌性通常在 400 千克以内，体重随性别、季节和体况起伏',
+      },
+    },
+    diet: {
+      types: ['carnivore'],
+      foods: [
+        '环斑海豹',
+        '髯海豹',
+        '区域性的格陵兰海豹、冠海豹与港海豹',
+        '机会性幼年海象、白鲸与独角鲸',
+        '鲸类及其他海洋哺乳动物尸体',
+        '少量鸟、蛋、鱼、浆果、植被与海带',
+      ],
+      description: '高度肉食，主要借海冰捕食富含脂肪的环斑海豹和髯海豹；会随地区和机会利用其他海洋哺乳动物及陆地食物，但后者通常无法替代海豹带来的能量。',
+    },
+    activity: [
+      '多为独居；母子、交配期配对和大型食物周围的临时聚集除外',
+      '随海冰冻结、融化和漂移移动，并常逆冰漂保持在高生产力大陆架水域',
+      '在海豹呼吸孔和雪下育幼穴旁静候或短距离伏击',
+      '能稳定游过冰间水道，长距离游泳会增加能量消耗和幼体风险',
+      '季节冰区夏季上岸后多休息并依靠脂肪，等待秋季重新结冰',
+      '通常只有孕雌冬季长期处于产仔穴，其他性别年龄仍在海冰活动',
+    ],
+    tags: ['环北极海洋哺乳动物', '海冰依赖', '顶级捕食者', '20 个管理亚种群', 'IUCN 易危', 'CITES 附录 II', 'CMS 附录 II'],
+    summary: '北极熊依靠环北极海冰接近并捕食海豹，目前处于易危状态。二十个管理亚种群的局地趋势不同，但长期海冰减少是共同的威胁。',
+    description: '北极熊依靠海冰接近海豹，在呼吸孔或雪下育幼穴旁等候猎物。长颈、小耳、宽掌和厚脂肪层帮助它在冰面与冰间水道移动。五个分布范围国划定了二十个管理亚种群，各地短期趋势从增加到下降不等，一半仍资料不足，因此 IUCN 的全球趋势为未知。长期海冰减少会缩短捕猎时间，陆地食物只能提供有限补充。保护行动需要减排，维护觅食和产仔区域，并与原住民共同管理、减少冲突、污染和工业风险。',
+    storySections: [
+      {
+        key: 'sea-ice-platform',
+        label: '核心生境',
+        title: '借海冰接近海豹',
+        body: '北极熊沿海冰接近环斑海豹的呼吸孔、雪下育幼穴和冰缘。海冰若退到深而贫瘠的中央海盆，即使熊仍站在冰上，也可能远离猎物丰富的水域。',
+      },
+      {
+        key: 'twenty-subpopulations',
+        label: '种群状态',
+        title: '二十个管理亚种群的状况不同',
+        body: '北极熊专家组 PBSG 划定二十个管理亚种群，相邻单元之间仍有个体交流。2024 年短期趋势为二个增加、五个稳定、三个下降、十个资料不足，各自评估的时间窗也不同。各地状况有差异，但都面临长期海冰减少的影响。',
+      },
+      {
+        key: 'seal-energy',
+        label: '食性',
+        title: '海豹脂肪提供大量能量',
+        body: '环斑海豹和髯海豹的脂肪，为北极熊维持大型体型、禁食和繁殖提供能量。熊也吃鸟、蛋、浆果和植被，不过西哈德逊湾的追踪研究发现，绝大多数个体在上岸期仍然失重。陆地食物通常难以补足失去海豹猎物后的能量缺口。',
+      },
+      {
+        key: 'moving-ice',
+        label: '移动',
+        title: '跟随海冰移动',
+        body: '遥测显示，北极熊会随海冰冻结和融化移动，有时逆着冰漂行走，以留在猎物丰富的大陆架水域。它们也能游过水道，但长距离游泳耗费体力。最长泳程记录属于个别个体，日常移动通常是在冰间水道短距离游泳。',
+      },
+      {
+        key: 'den-and-cubs',
+        label: '繁殖',
+        title: '母熊在雪穴中产仔',
+        body: '孕雌秋季入穴，幼体冬季出生、春季约十千克时随母亲出穴。通常一至两仔、至少约三年的成功繁殖间隔和漫长母育，使成年个体损失后无法快速补回。',
+      },
+      {
+        key: 'climate-and-coexistence',
+        label: '保护',
+        title: '减排、保护生境与社区合作',
+        body: '减缓温室气体排放是保住长期海冰的根本；地方行动则包括保护觅食、迁移和产仔生境，基于监测与原住民知识管理捕获，密闭吸引物、社区巡护和非致死驱离，并降低航运、油污与污染风险。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '北极航海记里的 Ursus maritimus',
+        body: '菲普斯在 1774 年出版的北极航海报告中，用 Ursus maritimus 描述北极熊，这个学名沿用至今。现行数据库将命名材料的产地列为挪威斯瓦尔巴群岛的斯匹次卑尔根。那份早期记录提到陆地、附近岛屿和冰原上的熊，与它依靠海冰活动的生活方式相符。',
+      },
+    ],
+    keyFacts: [
+      '当前 IUCN 为易危、全球趋势未知、2015 年评估、标准 A3c；A3c 指未来三代的生境驱动预测。',
+      'PBSG 当前承认 20 个管理亚种群，东南格陵兰于 2024 年成为第 20 个；这是管理划区，与亚种无关。',
+      '最近全球估算约 26,000 只总个体（95% CI 22,000 至 31,000），由不同年份的资料汇总而来。',
+      '2024 短期趋势拼图为 2 个增加、5 个稳定、3 个下降、10 个资料不足，评估时间窗并不一致。',
+      '环斑海豹是最重要猎物；上岸期的浆果、鸟蛋和植被通常无法替代高脂海洋猎物。',
+      '只有孕雌通常长期留在冬季产仔穴；每胎多为一至两仔，慢繁殖限制种群恢复。',
+    ],
+    threats: [
+      '温室气体驱动的海冰减少、破碎、提前融化和推迟冻结',
+      '捕猎季缩短、猎场移向低生产力深水区及更长禁食造成的营养压力',
+      '不可持续的人类造成死亡、非法捕杀与未充分监测的捕获',
+      '上岸时间增加、聚落吸引物和沿岸活动加剧人与熊冲突',
+      '油气矿业、航运与旅游对关键觅食、迁移和产仔生境的干扰',
+      '海上溢油、持久性有机污染物、汞、塑料及其他污染',
+      '病原体、猎物变化与多重压力在营养不良亚种群中的叠加',
+      '低繁殖率使成年个体额外死亡难以迅速补回',
+    ],
+    conservationActions: [
+      '通过快速、持续减少温室气体排放限制长期海冰生境损失',
+      '保护大陆架海冰猎场、迁移通道、夏季避难地和陆地产仔区，并设置干扰缓冲',
+      '以一致方法监测 20 个亚种群的丰度、体况、繁殖、移动、海冰与人类造成死亡',
+      '把原住民知识和社区伙伴纳入共同研究、决策与长期治理',
+      '采用状态依赖和适应性捕获管理，确保合法生计捕猎可持续并遏制非法贸易',
+      '密闭垃圾和食物吸引物，支持社区巡护、预警、非致死驱离和冲突事件复盘',
+      '在油气、矿业、航运和旅游规划中避让关键时空，强化低温海域溢油预防与响应',
+      '监测污染物、塑料、病原体和猎物变化，并评估与营养压力的累积效应',
+      '落实 1973 年协定、CITES 与 CMS 的跨境科研、管理和贸易合作',
+    ],
+    metrics: {},
+    featuredStats: [
+      {
+        key: 'management-subpopulations',
+        label: '管理亚种群',
+        value: '20',
+        unit: '个',
+        note: 'PBSG 2024；这是管理划区，不是亚种划分',
+      },
+      {
+        key: 'global-estimate',
+        label: '最近全球估算',
+        value: '26,000',
+        unit: '只总个体',
+        note: '95% CI 22,000 至 31,000；由不同年份的资料汇总而来',
+      },
+      {
+        key: 'short-term-status',
+        label: '短期增 / 稳 / 降 / 资料不足',
+        value: '2 / 5 / 3 / 10',
+        unit: '个亚种群',
+        note: 'PBSG 2024；各单元趋势时间窗不同',
+      },
+      {
+        key: 'generation-length',
+        label: '平均世代长度',
+        value: '11.5',
+        unit: '年',
+        note: 'IUCN 与 PBSG 趋势窗口的计算参数，别把它当成寿命',
+      },
+    ],
+    media: {
+      image: './images/species/polar-bear/01-sea-ice-edge-portrait.webp',
+      alt: '蓝灰色北极海冰上，一只体型健壮的北极熊沿开阔水道边缘缓步前行',
+      focalPoint: { x: 0.72, y: 0.57 },
+      credit: 'Fauna Atlas · AI 生成原创图像',
+      gallery: [
+        {
+          image: './images/species/polar-bear/02-seal-breathing-hole-still-hunt.webp',
+          alt: '一只北极熊伏在海冰上的海豹呼吸孔旁安静守候，画面中没有海豹或捕食结果',
+          title: '呼吸孔旁的静候',
+          caption: '北极熊会在海冰上的环斑海豹呼吸孔旁等候，待海豹浮起呼吸时捕猎。',
+          focalPoint: { x: 0.5, y: 0.58 },
+        },
+        {
+          image: './images/species/polar-bear/03-arctic-sea-ice-habitat.webp',
+          alt: '北极浮冰、水道与压力脊组成的广阔生境中，一只北极熊在远处穿行',
+          title: '随海冰变化的猎场',
+          caption: '海冰的类型和漂移方向，以及下方水域的猎物供应，影响北极熊能否捕到海豹。',
+          focalPoint: { x: 0.64, y: 0.54 },
+        },
+        {
+          image: './images/species/polar-bear/04-open-water-swimming.webp',
+          alt: '一只湿毛北极熊在两片海冰之间平静游泳，头、颈和上背自然露出水面',
+          title: '游过冰间水道',
+          caption: '在冰海之间，游泳是寻常的移动方式；只是长泳耗力，对带着幼崽的母熊尤其如此。',
+          focalPoint: { x: 0.5, y: 0.55 },
+        },
+        {
+          image: './images/species/polar-bear/05-mother-and-cubs-den-emergence.webp',
+          alt: '春季海岸雪堆旁，一只雌性北极熊带着两只幼崽离开隐蔽的产仔雪穴',
+          title: '从雪穴走向春季海冰',
+          caption: '幼崽在冬季的雪穴里出生，春天长到约十千克，才跟着母亲第一次踏上海冰。',
+          focalPoint: { x: 0.53, y: 0.58 },
+        },
+        {
+          image: './images/species/polar-bear/06-passive-coastal-camera-monitoring.webp',
+          alt: '北极海岸冻原上一台自动相机固定在低矮支架上，远处一只北极熊与设备保持距离',
+          title: '不接触个体的海岸监测',
+          caption: '自动相机记录北极熊经过的时间与行为，估算数量和趋势还需要结合其他调查资料。',
+          focalPoint: { x: 0.52, y: 0.55 },
+        },
+      ],
+    },
+    sources: POLAR_BEAR_SOURCES,
+    featured: true,
+    publishedAt: POLAR_BEAR_CONTENT_DATE,
+    updatedAt: POLAR_BEAR_CONTENT_DATE,
+  } as const satisfies Species;
+
+export default profile;

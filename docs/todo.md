@@ -1,6 +1,6 @@
 # 制作清单：拓展动物界的 100 种新动物
 
-2026-10-12 更新：本轮新增 100 种选题，已完成 70 种，现有 570 份物种档案，剩余 30 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](research/todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](research/todo-expansion-invertebrate-five-2026-10-11.md)、[接续昆虫五种记录](research/todo-expansion-insects-five-2026-10-11.md)、[微小节肢动物五种记录](research/todo-expansion-micro-arthropods-five-2026-10-12.md)和[接续节肢动物五种记录](research/todo-expansion-final-arthropods-five-2026-10-12.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
+2026-10-12 更新：本轮新增 100 种选题，已完成 75 种，现有 575 份物种档案，剩余 25 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](research/todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](research/todo-expansion-invertebrate-five-2026-10-11.md)、[接续昆虫五种记录](research/todo-expansion-insects-five-2026-10-11.md)、[微小节肢动物五种记录](research/todo-expansion-micro-arthropods-five-2026-10-12.md)、[接续节肢动物五种记录](research/todo-expansion-final-arthropods-five-2026-10-12.md)和[软体动物五种记录](research/todo-expansion-molluscs-five-2026-10-12.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
 
 上一轮动物完成记录见[上一轮归档](research/todo-completed-2026-09-30.md)和[最后五种研究与验收记录](research/todo-final-five-2026-10-09.md)，更早记录见[历史归档](research/todo-completed-2026-09-23.md)。微生物实现与验证见[专题说明](microbes-topic.md)。
 
@@ -26,8 +26,8 @@
 | 两栖动物 | 0 | 外鳃、无肺、直接发育与无足身体 |
 | 鱼类与其他脊索动物 | 0 | 软骨鱼、特殊呼吸与无脊柱的脊索动物 |
 | 昆虫与其他节肢动物 | 0 | 少见昆虫目、六足近邻、微小甲壳类与蛛形动物 |
-| 其他无脊椎动物 | 30 | 少见动物门、固着、群体、寄生与显微生活 |
-| 动物合计 | 30 | 本轮已完成 70 种 |
+| 其他无脊椎动物 | 25 | 少见动物门、固着、群体、寄生与显微生活 |
+| 动物合计 | 25 | 本轮已完成 75 种 |
 | 微生物专题（另计） | 0 | 10 个选题已完成 |
 
 ## 两栖动物（已完成）
@@ -42,15 +42,10 @@
 
 本组已完成，见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)和[接续节肢动物五种记录](research/todo-expansion-final-arthropods-five-2026-10-12.md)。
 
-## 其他无脊椎动物（30 种）
+## 其他无脊椎动物（25 种）
 
-前 16 项补充软体、刺胞、栉水母、海绵、环节与棘皮动物，后 14 项补充少见类群、显微动物与寄生生活。小颚动物的阶元口径和分类关系须复核，不补造缺失阶元。
+前 11 项补充刺胞、栉水母、海绵、环节与棘皮动物，后 14 项补充少见类群、显微动物与寄生生活。小颚动物的阶元口径和分类关系须复核，不补造缺失阶元。
 
-- [ ] 新碟贝 *Neopilina galatheae*：单板类，补充帽状壳与软体动物的内部差异。共读：“看看背上的壳，再用腹面示意找找脚。”成对内部结构另附依据。
-- [ ] 毛皮贝（中文名待核） *Chaetoderma nitidulum*：尾腔类，补充无典型贝壳、蠕虫形的软体动物。共读：“在微距图里找找身体表面的细小骨针。”不能归为环节动物。
-- [ ] 盘鲍 *Haliotis discus*：腹足类，补充开放壳形与附着生活。共读：“沿着壳边找找一排小孔。”
-- [ ] 船蛆 *Teredo navalis*：双壳类，补充钻木生活与缩小的壳。共读：“用剖面示意找找木头里的身体。”名称里的“蛆”不表示昆虫幼虫。
-- [ ] 地纹芋螺 *Conus geographus*：腹足类，补充捕食性螺与毒液。共读：“看看锥形的壳和表面花纹。”齿舌与捕食用示意，不能根据花纹判断接触安全。
 - [ ] 星状海葵 *Nematostella vectensis*：刺胞动物，补充小型海葵与河口底栖生活。共读：“找找口周围一圈细触手。”
 - [ ] 耳形十字水母 *Haliclystus auricula*：刺胞动物，补充有柄固着的十字水母类。共读：“找找身体下面连在海藻上的柄。”
 - [ ] 诱饵管水母（中文名待核） *Erenna sirena*：刺胞动物，补充群体分工与深海诱捕。共读：“沿着群体找找不同形状的小部分。”群体与个员分别说明。[行为依据：MBARI](https://www.mbari.org/animal/angler-siphonophore/)。
@@ -79,7 +74,7 @@
 
 ## 制作顺序与资料
 
-建议首批的前五种已完成。后续可继续制作新碟贝、竖琴海绵、科瓦列夫斯基柱头虫、头翼箭虫、微颚动物，补充可见的身体差异与分类空缺；显微、群体和内部结构需要先找到可核对的参考资料再生成图片。上述物种已列在各组中，不重复计数。
+建议首批的前五种已完成。新碟贝已完成。后续可继续制作竖琴海绵、科瓦列夫斯基柱头虫、头翼箭虫、微颚动物，补充可见的身体差异与分类空缺；显微、群体和内部结构需要先找到可核对的参考资料再生成图片。上述物种已列在各组中，不重复计数。
 
 选题记录保存本轮 100 种的 GBIF 名称匹配结果与来源入口。它核验候选物种的定位和类群；档案制作仍需研究行为、分布、保护状态、中文名和六张图的内容。
 

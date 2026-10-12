@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate a single landscape scientific museum-quality reconstruction of Neopilina galatheae, a deep sea monoplacophoran mollusc. Adult animal with a single low limpet-like pale beige cap shell, anterior apex, finely concentric growth lines, a subtle visible soft foot margin beneath shell, on grey deep sea sediment, black water background, no plants. Do not portray a bivalve or coiled snail. Cover composition: complete animal centered at 72% image width, occupying right half of landscape frame with ample real background at all edges, entire shell and foot visible. Left 40% quiet dark background. Realistic textures but explicitly scientific reconstruction rather than actual photograph. No text, no labels, no watermark.\nEdit: Edit composition only of inspected cover. Reduce complete shell AND foot to 88% current size and move right so complete boundary inside x=700..1460 y=220..800. Preserve single low cap shell and realistic deep muddy sediment. Left42% quiet. 1536x1024.",
+      "sourceSha256": "5b7d1ee5e6ccb42edce35c39b3480d46860fa7328302b2d9ea993caf46a9d871",
+      "runtimeSha256": "ec6377d9acf3e6e7e965c936603eefc2750632efc338dbb1602ba8e0282b77a7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Neopilina galatheae adult deep sea monoplacophoran: single LOW pale beige limpet-like cap shell with anterior apex and concentric growth lines; soft broad foot underneath. No spiral, no two-valved shell. Scene: Dorsal close-up of the single cap shell and concentric fine growth lines on grey sediment. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "9525e14624713e4488d14e81d09919b42e1755ab21ba42b4f328300d04b3936c",
+      "runtimeSha256": "962dbfcfaf783a35673c586227943c10fccd04db64ab0a6fa423e2c1b9f41d45",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Neopilina galatheae adult deep sea monoplacophoran: single LOW pale beige limpet-like cap shell with anterior apex and concentric growth lines; soft broad foot underneath. No spiral, no two-valved shell. Scene: Restrained anatomical ventral reconstruction on neutral dark background: a broad oval central muscular foot, five pairs of small featherlike gills beside it under shell rim, small head end. No arms or legs. Not a photograph. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.\nEdit: Correct anatomical schematic of Neopilina galatheae ventral side. Current reconstruction shows only four pairs of gills; it must show FIVE DISTINCT PAIRED featherlike gills along EACH side of broad central foot (10 gills total). Add one small pair toward posterior end and space all five pairs clearly. Preserve cap shell, anterior head at top, broad muscular oval foot, neutral dark background. Scientific non-photographic anatomical reconstruction. No text. Ensure FIVE, not four, gills on each side.",
+      "sourceSha256": "1aeb1b4f8c1aeaced7e24fe5a6e309ebf41204644429c8427d6d03044f2aba55",
+      "runtimeSha256": "2b0c8252a0d009d7875b7627c84bf50ce5eafbda5547be785b55854877ee795c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Neopilina galatheae adult deep sea monoplacophoran: single LOW pale beige limpet-like cap shell with anterior apex and concentric growth lines; soft broad foot underneath. No spiral, no two-valved shell. Scene: Low side view showing low shell profile and narrow soft foot margin contacting sediment. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "55281bc5efd4be986e6f2343e19c0113e8959392da04acfaa7ad2a41a923d7fd",
+      "runtimeSha256": "6486f28f6104ad1c9df835a3177127f539ba1fd24d75f4574e1d98f765fbe9e7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Neopilina galatheae adult deep sea monoplacophoran: single LOW pale beige limpet-like cap shell with anterior apex and concentric growth lines; soft broad foot underneath. No spiral, no two-valved shell. Scene: Wider deep sea muddy clay habitat with one visible small cap-shelled animal; no sunlight or coral reef. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "f077d65a3762760190bdfa28c1211ae9696033977e8c6c220bf17a0aa5a3414f",
+      "runtimeSha256": "caa11e91f5bfb3d3b25cd5dad9644ee626d6914c5314c220773a15c3c8fd6257",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape 1536x1024 animal atlas image, museum-quality scientifically restrained AI reconstruction with realistic texture. Neopilina galatheae adult deep sea monoplacophoran: single LOW pale beige limpet-like cap shell with anterior apex and concentric growth lines; soft broad foot underneath. No spiral, no two-valved shell. Scene: Museum scientific shell reconstruction, exterior and inner surface of same species side by side, inner shell has eight pairs of faint muscle attachment marks; neutral background, no living animal dissection. Prominent centered composition with complete relevant structures and clear natural margins. No text, no labels, no watermark, no numeric scale bar. Never claim this is a research photograph.",
+      "sourceSha256": "fa04a74bc4d57cd08a8f026fcfd7b8e084f1be83b8aa080377764cb7bfd9a22f",
+      "runtimeSha256": "7aa9b773f8f3ce90effdf66868a951e584db31046b374510e423720628eec464",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
