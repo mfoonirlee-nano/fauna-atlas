@@ -77244,7 +77244,7 @@ export const species = [
     {
       "name": "池塘边的灌丛与叶片",
       "realm": "terrestrial",
-      "description": "生活在中国东部、东南部及台湾等地的低山湿地和植被中。",
+      "description": '池塘边的灌丛与高秆植物提供攀爬和鸣叫位置，水域让卵和蝌蚪发育。',
       "isPrimary": true
     }
   ],
@@ -77264,51 +77264,57 @@ export const species = [
     "绿叶上的绿色身体"
   ],
   "summary": "中国雨蛙背部绿色、腹部浅色，眼睛后有深色细纹。它的圆趾端能贴住叶片。",
-  "description": "中国雨蛙背部绿色，腹面浅色。眼睛后面有深色细纹，圆形趾端能贴住叶片。",
+  "description": '中国雨蛙用圆形指、趾端黏附在叶片和细茎上，在灌丛与高秆植物中活动。雄蛙夜里在叶片上鸣叫；繁殖依靠水域，蝌蚪在水中发育后成为幼蛙。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "趾端圆圆的",
-      "body": "它用指、趾端的吸盘附着在植物上。找找贴住叶面的地方。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '趾端圆圆的',
+      body: '圆形指、趾端帮助中国雨蛙附着在植物表面。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "后腿折在身旁",
-      "body": "看看它蹲下时折起来的后腿。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '后腿折在身旁',
+      body: '蹲伏时，它把后腿折在身体两侧。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "沿着植物攀爬",
-      "body": "它能在灌丛和高秆植物上活动。顺着细茎找找四肢的位置。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '沿着植物攀爬',
+      body: '中国雨蛙能沿灌丛和高秆植物的细茎攀爬。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "叶片上的夜晚",
-      "body": "夜里，雄蛙会在植物叶片上鸣叫。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '叶片上的夜晚',
+      body: '雄蛙夜里会在植物叶片上鸣叫。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "水边长大的小蛙",
-      "body": "它在水边产卵，蝌蚪在水中发育，再长成幼蛙。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '水边长大的小蛙',
+      body: '中国雨蛙在水边产卵，蝌蚪在水中发育，随后长成幼蛙。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "中国两栖类数据库列为全球无危。共读时可从保留池塘边的植物、减少水体污染谈起。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: '中国雨蛙的全球保护等级为无危。池塘边的植物和清洁水体是它生活与繁殖所需的环境。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '叶片上的鸣叫与水中的幼体',
+      body: 'Günther 于 1858 年描述了这个物种，现用学名为 Hyla chinensis。中国雨蛙属于树蛙，圆形趾端能黏住植物表面。雄蛙会在叶片上鸣叫，但下一代仍要经历水中的蝌蚪阶段，池塘与岸边植被都和它的生活有关。',
+    },
   ],
   "keyFacts": [
-    "它用指、趾端的吸盘附着在植物上。找找贴住叶面的地方。",
-    "看看它蹲下时折起来的后腿。",
-    "它能在灌丛和高秆植物上活动。顺着细茎找找四肢的位置。",
-    "夜里，雄蛙会在植物叶片上鸣叫。",
-    "它在水边产卵，蝌蚪在水中发育，再长成幼蛙。"
+    '圆形指、趾端帮助中国雨蛙附着在植物表面。',
+    '蹲伏时，它把后腿折在身体两侧。',
+    '中国雨蛙能沿灌丛和高秆植物的细茎攀爬。',
+    '雄蛙夜里会在植物叶片上鸣叫。',
+    '中国雨蛙在水边产卵，蝌蚪在水中发育，随后长成幼蛙。',
   ],
   "threats": [
     "湿地改变",
@@ -77343,7 +77349,7 @@ export const species = [
       {
         "image": "./images/species/chinese-tree-frog/02-observation.webp",
         "title": "叶面上的圆趾端",
-        "alt": "中国雨蛙：叶面上的圆趾端",
+        "alt": '叶面上的圆趾端',
         "caption": "AI 生成科学情景重建。它用指、趾端的吸盘附着在植物上。找找贴住叶面的地方。",
         "focalPoint": {
           "x": 0.5,
@@ -77354,7 +77360,7 @@ export const species = [
       {
         "image": "./images/species/chinese-tree-frog/03-observation.webp",
         "title": "身旁折起的后腿",
-        "alt": "中国雨蛙：身旁折起的后腿",
+        "alt": '身旁折起的后腿',
         "caption": "AI 生成科学情景重建。看看它蹲下时折起来的后腿。",
         "focalPoint": {
           "x": 0.5,
@@ -77365,7 +77371,7 @@ export const species = [
       {
         "image": "./images/species/chinese-tree-frog/04-observation.webp",
         "title": "沿细茎攀爬",
-        "alt": "中国雨蛙：沿细茎攀爬",
+        "alt": '沿细茎攀爬',
         "caption": "AI 生成科学情景重建。它能在灌丛和高秆植物上活动。顺着细茎找找四肢的位置。",
         "focalPoint": {
           "x": 0.5,
@@ -77376,7 +77382,7 @@ export const species = [
       {
         "image": "./images/species/chinese-tree-frog/05-observation.webp",
         "title": "暮色里的绿叶",
-        "alt": "中国雨蛙：暮色里的绿叶",
+        "alt": '暮色里的绿叶',
         "caption": "AI 生成科学情景重建。夜里，雄蛙会在植物叶片上鸣叫。",
         "focalPoint": {
           "x": 0.5,
@@ -77387,7 +77393,7 @@ export const species = [
       {
         "image": "./images/species/chinese-tree-frog/06-observation.webp",
         "title": "池塘边的小雨蛙",
-        "alt": "中国雨蛙：池塘边的小雨蛙",
+        "alt": '池塘边的小雨蛙',
         "caption": "AI 生成科学情景重建。它在水边产卵，蝌蚪在水中发育，再长成幼蛙。",
         "focalPoint": {
           "x": 0.5,
@@ -77415,7 +77421,13 @@ export const species = [
       "url": "https://amphibiachina.org/species/306",
       "kind": "conservation",
       "accessedAt": "2026-09-14"
-    }
+    },
+    {
+      title: 'GBIF：Hyla chinensis 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2427571',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-14",
