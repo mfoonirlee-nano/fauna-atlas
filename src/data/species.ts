@@ -87017,7 +87017,7 @@ export const species = [
     {
       "name": "湖泊、河口与湿地",
       "realm": "freshwater",
-      "description": "原生于澳大利亚，在南部较常见；新西兰等地有引入种群。生活于淡水、咸淡水及部分咸水湿地。",
+      "description": '湖泊、河口和湿地提供水草、藻类与岸边草叶。黑天鹅利用淡水、咸淡水和部分咸水湿地。',
       "isPrimary": true
     }
   ],
@@ -87044,51 +87044,57 @@ export const species = [
     "红嘴和长脖子"
   ],
   "summary": "黑天鹅大部分羽毛黑色，展翅时才露出白色飞羽。它脖子长，红色嘴尖附近有一道窄白纹。",
-  "description": "黑天鹅的大部分羽毛是黑色，伸展翅膀时可见白色飞羽。它有长脖子和红色的嘴，嘴尖附近带窄窄的白纹。",
+  "description": '黑天鹅伸长脖子在水下取食水草与藻类，也到岸上吃草，弯颈用喙整理羽毛。灰色雏鸟孵出不久就能游泳，成长后才有成鸟的深色羽衣。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "红嘴和长脖子",
-      "body": "顺着弯弯的脖子找到红嘴，再看看嘴尖附近的白色窄纹。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '红嘴和长脖子',
+      body: '黑天鹅有长颈和红喙，喙尖附近有窄白纹。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "黑翅膀里的白羽毛",
-      "body": "黑天鹅也有白色飞羽。翅膀伸展开时，这片白色更容易看见。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '黑翅膀里的白羽毛',
+      body: '大部分羽毛黑色，展开翅膀时露出白色飞羽。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "伸长脖子吃水草",
-      "body": "它把长脖子伸入水中取食水草和藻类，有时也在岸上吃草。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '伸长脖子吃水草',
+      body: '长颈伸入水中取食水草和藻类，有时到岸上吃草。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "灰色的小天鹅",
-      "body": "雏鸟披着灰色绒羽，刚孵出不久就能游泳。看看它们和成鸟的颜色差别。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '灰色的小天鹅',
+      body: '灰色绒羽雏鸟孵出不久就能游泳。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "整理羽毛",
-      "body": "它弯过脖子，用嘴整理背上的羽毛。图片只展示一个姿势。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '整理羽毛',
+      body: '黑天鹅弯过长颈，用喙整理背羽。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "留住它的生活环境",
-      "body": "所列资料支持全球无危等级。保护它生活的环境，观察时保持距离，不干扰野生动物。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '留住它的生活环境',
+      body: '黑天鹅全球属无危。湿地的植物食物和清洁水体提供生活条件，观察时应留出活动空间。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '黑色羽衣之中，还有白色飞羽',
+      body: 'Latham 于 1790 年描述了这个物种，现用学名为 Cygnus atratus。黑天鹅原生于澳大利亚，名称对应大部分黑色羽毛，展开翅膀时却能看到白色飞羽。刚孵出的雏鸟也没有全黑羽衣，而是灰色绒羽，孵出不久就能游泳。',
+    },
   ],
   "keyFacts": [
-    "顺着弯弯的脖子找到红嘴，再看看嘴尖附近的白色窄纹。",
-    "黑天鹅也有白色飞羽。翅膀伸展开时，这片白色更容易看见。",
-    "它把长脖子伸入水中取食水草和藻类，有时也在岸上吃草。",
-    "雏鸟披着灰色绒羽，刚孵出不久就能游泳。看看它们和成鸟的颜色差别。",
-    "它弯过脖子，用嘴整理背上的羽毛。图片只展示一个姿势。"
+    '黑天鹅有长颈和红喙，喙尖附近有窄白纹。',
+    '大部分羽毛黑色，展开翅膀时露出白色飞羽。',
+    '长颈伸入水中取食水草和藻类，有时到岸上吃草。',
+    '灰色绒羽雏鸟孵出不久就能游泳。',
+    '黑天鹅弯过长颈，用喙整理背羽。',
   ],
   "threats": [
     "局地栖息环境改变与人为干扰"
@@ -87127,7 +87133,7 @@ export const species = [
       {
         "image": "./images/species/black-swan/02-observation.webp",
         "title": "红嘴和长脖子",
-        "alt": "黑天鹅：红嘴和长脖子",
+        "alt": '红嘴和长脖子',
         "caption": "AI 生成科学情景重建。顺着弯弯的脖子找到红嘴，再看看嘴尖附近的白色窄纹。",
         "focalPoint": {
           "x": 0.5,
@@ -87138,7 +87144,7 @@ export const species = [
       {
         "image": "./images/species/black-swan/03-observation.webp",
         "title": "黑翅膀里的白羽毛",
-        "alt": "黑天鹅：黑翅膀里的白羽毛",
+        "alt": '黑翅膀里的白羽毛',
         "caption": "AI 生成科学情景重建。黑天鹅也有白色飞羽。翅膀伸展开时，这片白色更容易看见。",
         "focalPoint": {
           "x": 0.5,
@@ -87149,7 +87155,7 @@ export const species = [
       {
         "image": "./images/species/black-swan/04-observation.webp",
         "title": "伸长脖子吃水草",
-        "alt": "黑天鹅：伸长脖子吃水草",
+        "alt": '伸长脖子吃水草',
         "caption": "AI 生成科学情景重建。它把长脖子伸入水中取食水草和藻类，有时也在岸上吃草。",
         "focalPoint": {
           "x": 0.5,
@@ -87160,7 +87166,7 @@ export const species = [
       {
         "image": "./images/species/black-swan/05-observation.webp",
         "title": "灰色的小天鹅",
-        "alt": "黑天鹅：灰色的小天鹅",
+        "alt": '灰色的小天鹅',
         "caption": "AI 生成科学情景重建。雏鸟披着灰色绒羽，刚孵出不久就能游泳。看看它们和成鸟的颜色差别。",
         "focalPoint": {
           "x": 0.5,
@@ -87171,7 +87177,7 @@ export const species = [
       {
         "image": "./images/species/black-swan/06-observation.webp",
         "title": "整理羽毛",
-        "alt": "黑天鹅：整理羽毛",
+        "alt": '整理羽毛',
         "caption": "AI 生成科学情景重建。它弯过脖子，用嘴整理背上的羽毛。图片只展示一个姿势。",
         "focalPoint": {
           "x": 0.5,
@@ -87193,7 +87199,13 @@ export const species = [
       "url": "https://birdlife.org.au/bird-profiles/black-swan/",
       "kind": "conservation",
       "accessedAt": "2026-09-17"
-    }
+    },
+    {
+      title: 'GBIF：Cygnus atratus 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2498344',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-17",
