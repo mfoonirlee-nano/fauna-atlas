@@ -113977,7 +113977,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "本轮未核实全球评估；NE 不代表无危"
+    "assessor": '全球保护评估尚未确认；NE（未评估）不等于无危。'
   },
   "distribution": {
     "realms": [
@@ -114020,45 +114020,51 @@ export const species = [
     "黄缘龙虱",
     "池塘与缓流水域"
   ],
-  "summary": "黄缘龙虱有黄边的椭圆身体，用扁平、带细毛的后足在水里划动。",
-  "description": "黄缘龙虱有黄边的椭圆身体，用扁平、带细毛的后足在水里划动。后足扁平，边缘有细毛，划动时帮助身体向前。成虫一共有六条足。",
+  "summary": '黄缘龙虱用带细毛的扁平后足划水，捕食水生小动物。它到水面补充鞘翅下的空气，也能飞到新水域。',
+  "description": '黄缘龙虱是生活在池塘和缓流水域的捕食性甲虫，椭圆身体边缘有黄纹。扁平、带细毛的后足划水，成虫还会到水面补充鞘翅下的空气。它能飞到新水域，幼虫也是捕食者，外形却与成虫不同。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "两条后足划水",
-      "body": "后足扁平，边缘有细毛，划动时帮助身体向前。成虫一共有六条足。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '两条后足划水',
+      body: '后足扁平，边缘有细毛，划动时帮助身体向前。成虫一共有六条足。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "到水面补充空气",
-      "body": "它把腹部末端伸到水面，补充储存在鞘翅下面的空气。图中展示接近水面的姿态。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '到水面补充空气',
+      body: '它把腹部末端伸到水面，补充储存在鞘翅下面的空气。图中展示接近水面的姿态。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "水草间停留",
-      "body": "它会在池塘水草间活动，捕食水生小动物。幼虫同样是捕食者，但外形与成虫不同。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '水草间停留',
+      body: '它会在池塘水草间活动，捕食水生小动物。幼虫同样是捕食者，但外形与成虫不同。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "身体外圈的黄边",
-      "body": "看看前胸与鞘翅外缘的黄色边框。图中为鞘翅平滑的雄成虫。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '身体外圈的黄边',
+      body: '看看前胸与鞘翅外缘的黄色边框。图中为鞘翅平滑的雄成虫。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "水边的陆地",
-      "body": "成虫可以离开水体，也能飞行到新的水域。池塘边的泥土和植物为水生昆虫提供落脚处。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '水边的陆地',
+      body: '成虫可以离开水体，也能飞行到新的水域。池塘边的泥土和植物为水生昆虫提供落脚处。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "英国资料的 Common 是当地常见程度，不等于全球 LC。图中全部采用雄成虫，微距底物只作环境参照。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '英国资料中的“常见”指当地情况，不能据此判断全球保护等级。图库展示雄成虫，放大图里的底物只作环境参照。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '黄边和划水后足',
+      body: 'Linnaeus 在 1758 年发表 Dytiscus marginalis 这个名称。中文名“黄缘”能与前胸、鞘翅外缘的黄纹对应。成虫虽然住在水里，还要到水面补充空气，也能飞到新的水域；同种幼虫与椭圆形成虫有不同外形。',
+    },
   ],
   "keyFacts": [
     "后足扁平，边缘有细毛，划动时帮助身体向前。成虫一共有六条足。",
@@ -114180,7 +114186,13 @@ export const species = [
       "url": "https://www.nhm.at/en/exhibitions/permanent_exhibitions/first_floor/crustaceans_spiders_insects",
       "kind": "ecology",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：黄缘龙虱的科学命名记录',
+      url: 'https://www.gbif.org/species/1038064',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-23",
