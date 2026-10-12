@@ -108634,7 +108634,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "来源见本档案资料列表；未核实独立评估年份，全球趋势未核实。"
+    "assessor": '全球等级为 LC（无危）；独立评估年份与全球种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -108671,45 +108671,51 @@ export const species = [
     "黄唇青斑海蛇",
     "扁尾划水"
   ],
-  "summary": "看看身体后面扁扁的尾巴。",
+  "summary": '黄唇青斑海蛇用扁尾在海中游动，潜入礁缝捕食鳗类。它用肺呼吸，回陆地休息、蜕皮和产卵。',
   "description": "黄唇青斑海蛇有黑色环带和浅蓝灰色身体，吻部带黄色。它在海里寻找鳗类，也会回到陆地休息、蜕皮和产卵，需要到水面呼吸空气。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "扁尾划水",
-      "body": "从侧面找找像小桨一样扁平的尾部。尾巴帮助它在水中移动。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '扁尾划水',
+      body: '从侧面找找像小桨一样扁平的尾部。尾巴帮助它在水中移动。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "黄色的嘴边",
-      "body": "看看头部前方的黄色区域和身上的黑色环带。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '黄色的嘴边',
+      body: '看看头部前方的黄色区域和身上的黑色环带。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "礁缝里找鳗鱼",
-      "body": "它会把头探向礁石缝隙，寻找鳗类。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '礁缝里找鳗鱼',
+      body: '它会把头探向礁石缝隙，寻找鳗类。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "回到岸边",
-      "body": "它会爬上海岸，在陆地休息和消化食物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '回到岸边',
+      body: '它会爬上海岸，在陆地休息和消化食物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "水面呼吸",
-      "body": "海蛇用肺呼吸，需要游到水面换气。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '水面呼吸',
+      body: '海蛇用肺呼吸，需要游到水面换气。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "保护礁区和海岸。海蛇有毒，和孩子保持距离观察，不触碰或阻拦。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '保护礁区和海岸。海蛇有毒，和孩子保持距离观察，不触碰或阻拦。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '黄唇和桨状尾巴',
+      body: 'Schneider 在 1799 年发表了黄唇青斑海蛇的科学描述，今天采用 Laticauda colubrina。中文名“黄唇”对应嘴边的黄色，黑色环带和桨状扁尾也容易辨认。它在礁区寻找鳗类，却还要回陆地休息、蜕皮和产卵，是一种兼用海岸与海水环境的蛇。',
+    },
   ],
   "keyFacts": [
     "从侧面找找像小桨一样扁平的尾部。尾巴帮助它在水中移动。",
@@ -108822,7 +108828,13 @@ export const species = [
       "url": "https://reptile-database.reptarium.cz/Laticauda/colubrina",
       "kind": "taxonomy",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：黄唇青斑海蛇的科学命名记录',
+      url: 'https://www.gbif.org/species/8374394',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
