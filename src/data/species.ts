@@ -95105,7 +95105,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -95146,45 +95146,51 @@ export const species = [
     "番茄蛙",
     "圆圆的红身体"
   ],
-  "summary": "看看成年雌蛙红红的背和圆圆的身体。",
-  "description": "成年雌蛙通常比雄蛙大，背部呈鲜艳的橙红色到红色。它生活在马达加斯加东北部的湿润低地。",
+  "summary": '番茄蛙白天藏在湿润土壤里，夜间捕捉小动物。雌蛙通常更大、呈橙红色到红色，雄蛙常偏黄橙色。',
+  "description": '番茄蛙生活在马达加斯加东北部的湿润低地。雌蛙通常比雄蛙大，背部呈橙红色到红色，雄蛙则常偏黄橙色。白天它会钻进松软土壤躲藏，夜间等待小型无脊椎动物靠近。卵和蝌蚪在水中发育，之后变态成幼蛙。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "圆圆的红身体",
-      "body": "成年雌蛙通常比雄蛙大，背部呈鲜艳的橙红色到红色。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '圆圆的红身体',
+      body: '成年雌蛙通常比雄蛙大，背部呈鲜艳的橙红色到红色。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "雄蛙颜色不同",
-      "body": "雄蛙通常偏黄橙色。雌雄两张图不是等比例大小比较。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '雄蛙颜色不同',
+      body: '雄蛙通常偏黄橙色。雌雄两张图不是等比例大小比较。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "藏进松软的土里",
-      "body": "番茄蛙会钻入松软的土壤，在潮湿的隐蔽处休息。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '藏进松软的土里',
+      body: '番茄蛙会钻入松软的土壤，在潮湿的隐蔽处休息。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "等小虫走近",
-      "body": "它常在夜间活动，等待小型无脊椎动物进入捕食范围。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '等小虫走近',
+      body: '它常在夜间活动，等待小型无脊椎动物进入捕食范围。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "水里的蝌蚪",
-      "body": "繁殖离不开水，卵孵化后，蝌蚪先在水中生长，再变态为幼蛙。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '水里的蝌蚪',
+      body: '繁殖离不开水，卵孵化后，蝌蚪先在水中生长，再变态为幼蛙。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留潮湿地面和繁殖水体，观察时不抓握或刺激青蛙。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留潮湿地面和繁殖水体，观察时不抓握或刺激青蛙。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '红色外观留下的印象',
+      body: 'Grandidier 在 1877 年发表 Dyscophus antongilii 这个名称。中文名“番茄蛙”可以让人记住成体雌蛙的红色、圆胖外观，不过雄蛙通常偏黄橙色，大小也有差别。它的早期生活仍是水中的卵和蝌蚪，与成年蛙钻入土中的生活场景不同。',
+    },
   ],
   "keyFacts": [
     "成年雌蛙通常比雄蛙大，背部呈鲜艳的橙红色到红色。",
@@ -95297,7 +95303,13 @@ export const species = [
       "url": "https://www.conservationneeds.org/Assessment/AssessmentResults?assessmentId=599&countryId=7&speciesId=6503",
       "kind": "conservation",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：番茄蛙的科学命名记录',
+      url: 'https://www.gbif.org/species/5216573',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
