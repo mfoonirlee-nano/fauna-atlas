@@ -75198,7 +75198,7 @@ export const species = [
     {
       "name": "浅海湾、河口与热带河流",
       "realm": "marine",
-      "description": "历史上广布热带沿岸及相通淡水水域，如今许多地方已消失或只剩零星记录，澳大利亚北部仍有重要种群。历史分布不能视作连续的现存范围。",
+      "description": '幼鱼利用河流和河口浅水，红树林附近水域也提供生活空间。成鱼可利用沿岸海湾及相通淡水，河流与河口之间的通道需要保持连通。',
       "isPrimary": true
     }
   ],
@@ -75219,51 +75219,57 @@ export const species = [
     "长吻两边的小尖齿"
   ],
   "summary": "锯鲛属于鳐类，头前伸出宽长的吻，两侧排列着尖齿，看起来像一把锯子。",
-  "description": "锯鲛头部扁平，头前伸出宽而长的吻，两边排列尖齿。虽然中文名称里有“鲛”，它属于鳐类。Pristis microdon 和 Pristis perotteti 现并入 Pristis pristis，本档案按合并后的物种范围记录。",
+  "description": '锯鲛属于软骨鱼中的鳐类，真正的嘴巴和鳃裂位于头部下面。宽胸鳍后有两片背鳍；幼鱼常利用河流、河口和红树林附近的浅水成长。Pristis microdon 和 Pristis perotteti 现并入本种。',
   "storySections": [
     {
-      "key": "rostrum",
-      "label": "生活与认识",
-      "title": "尖齿排在长吻两旁",
-      "body": "从吻尖往头部看，两边各排着一列尖齿。这是吻部的结构，真正的嘴巴在头部腹面，不能把长吻画成张开的嘴。"
+      key: 'rostrum',
+      label: '生活与认识',
+      title: '尖齿排在长吻两旁',
+      body: '宽长吻部的两侧各排一列尖齿，形似锯子。真正的嘴位于头部腹面，长吻本身不会像嘴一样张开。',
     },
     {
-      "key": "nursery",
-      "label": "生活与认识",
-      "title": "幼鱼游进浅水河口",
-      "body": "幼年锯鲛会利用河流和河口等浅水栖息地。红树林附近的水域为小鱼提供生活空间。"
+      key: 'nursery',
+      label: '生活与认识',
+      title: '幼鱼游进浅水河口',
+      body: '幼年锯鲛会利用河流和河口等浅水栖息地。红树林附近的水域为小鱼提供生活空间。',
     },
     {
-      "key": "underside",
-      "label": "生活与认识",
-      "title": "嘴巴和鳃在下面",
-      "body": "锯鲛属于软骨鱼中的鳐类。观察腹面，嘴巴和鳃裂位于头部下方；图示用于认识位置，不作为鳃裂计数图。"
+      key: 'underside',
+      label: '生活与认识',
+      title: '嘴巴和鳃在下面',
+      body: '锯鲛属于软骨鱼中的鳐类，嘴巴和鳃裂位于头部下方。',
     },
     {
-      "key": "feeding",
-      "label": "生活与认识",
-      "title": "用长吻寻找食物",
-      "body": "长吻能探测猎物，还能左右挥动以击中小鱼。画面展示靠近鱼群的场景，不代表每次接近都会捕食成功。"
+      key: 'feeding',
+      label: '生活与认识',
+      title: '用长吻寻找食物',
+      body: '长吻能探测猎物，还能左右挥动，击中小鱼。',
     },
     {
-      "key": "sand",
-      "label": "生活与认识",
-      "title": "贴着沙底看全身",
-      "body": "在浅水沙底上，找找扁平的头、宽胸鳍、两片背鳍和尾巴。长吻两侧的尖齿容易缠住渔网。"
+      key: 'sand',
+      label: '生活与认识',
+      title: '贴着沙底看全身',
+      body: '锯鲛有扁平的头、宽胸鳍、两片背鳍和尾巴。长吻两侧的尖齿容易缠住渔网。',
     },
     {
-      "key": "conservation",
-      "label": "生活与认识",
-      "title": "为锯鲛保留河口",
-      "body": "锯鲛全球 IUCN 等级为极危。误捕、捕捞和栖息地退化使其数量下降。保护河口与河流之间的通道、减少误捕，有助于保留现存种群。"
-    }
+      key: 'conservation',
+      label: '生活与认识',
+      title: '为锯鲛保留河口',
+      body: '锯鲛全球 IUCN 等级为极危。误捕、捕捞和栖息地退化使其数量下降。保护河口与河流之间的通道、减少误捕，有助于保留现存种群。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '曾经三个学名，如今合为一个物种',
+      body: 'Linnaeus 于 1758 年描述了这个物种，现用学名为 Pristis pristis。Pristis microdon 和 Pristis perotteti 后来并入 Pristis pristis，过去分别记录的分布因此需要合起来理解。中文名里的“锯”对应带尖齿的长吻；它的分类属于鳐类，真正的嘴在头部下方。',
+    },
   ],
   "keyFacts": [
-    "从吻尖往头部看，两边各排着一列尖齿。这是吻部的结构，真正的嘴巴在头部腹面，不能把长吻画成张开的嘴。",
-    "幼年锯鲛会利用河流和河口等浅水栖息地。红树林附近的水域为小鱼提供生活空间。",
-    "锯鲛属于软骨鱼中的鳐类。观察腹面，嘴巴和鳃裂位于头部下方；图示用于认识位置，不作为鳃裂计数图。",
-    "长吻能探测猎物，还能左右挥动以击中小鱼。画面展示靠近鱼群的场景，不代表每次接近都会捕食成功。",
-    "在浅水沙底上，找找扁平的头、宽胸鳍、两片背鳍和尾巴。长吻两侧的尖齿容易缠住渔网。"
+    '长吻两侧各有一列尖齿，真正的嘴在头部腹面。',
+    '幼鱼会利用河流、河口和红树林附近浅水。',
+    '锯鲛属于鳐类，嘴巴和鳃裂在头部下方。',
+    '长吻能探测猎物，并左右挥动击中小鱼。',
+    '长吻的尖齿容易缠住渔网。',
   ],
   "threats": [
     "渔具误捕",
@@ -75322,7 +75328,7 @@ export const species = [
         "image": "./images/species/largetooth-sawfish/04-observation.webp",
         "title": "头部的下面",
         "alt": "从下方观察锯鲛的嘴巴和鳃裂",
-        "caption": "AI 生成科学情景重建。从下方观察锯鲛的嘴巴和鳃裂。",
+        "caption": 'AI 生成科学情景重建。从下方观察锯鲛的嘴巴和鳃裂。腹面图用于认识嘴和鳃裂的位置，不能作为鳃裂计数图。',
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -75333,7 +75339,7 @@ export const species = [
         "image": "./images/species/largetooth-sawfish/05-observation.webp",
         "title": "游近小鱼群",
         "alt": "锯鲛带着长吻靠近一群小鱼",
-        "caption": "AI 生成科学情景重建。锯鲛带着长吻靠近一群小鱼。",
+        "caption": 'AI 生成科学情景重建。锯鲛带着长吻靠近一群小鱼。画面展示接近鱼群的场景，不能据此判断一次捕食是否成功。',
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -75371,7 +75377,13 @@ export const species = [
       "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/largetooth-sawfish/",
       "kind": "conservation",
       "accessedAt": "2026-09-14"
-    }
+    },
+    {
+      title: 'GBIF：Pristis pristis 的命名作者与年份',
+      url: 'https://www.gbif.org/species/5216276',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-14",
