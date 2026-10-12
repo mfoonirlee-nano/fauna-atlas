@@ -87772,7 +87772,7 @@ export const species = [
     {
       "name": "热带河流、湖泊与沼泽",
       "realm": "freshwater",
-      "description": "原生于中美洲和南美洲的热带地区，生活在河流、湖泊和沼泽中。部分原生范围以外的种群来自人为引入。",
+      "description": '热带河流、湖泊和沼泽提供鱼类、昆虫、甲壳类与软体动物。水域和岸边让凯门鳄调节体温。',
       "isPrimary": true
     }
   ],
@@ -87794,51 +87794,57 @@ export const species = [
     "背上的一排排凸起"
   ],
   "summary": "眼镜凯门鳄两眼之间的骨质横脊像眼镜鼻梁，背上有成排凸起的鳞甲。它属于短吻鳄科。",
-  "description": "眼镜凯门鳄背上有凸起的鳞甲，眼睛之间有一道骨质横脊，看起来像眼镜的鼻梁。它属于短吻鳄科，和湾鳄分属不同的科。",
+  "description": '眼镜凯门鳄属于短吻鳄科，与湾鳄分属不同科。它会在水边晒太阳，也在水中活动，以环境调节体温；幼鳄偏黄，带深色斑纹和横带，成年后通常更暗。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "背上的一排排凸起",
-      "body": "看看背上鳞甲的排列，再沿着背部找到长尾巴。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '背上的一排排凸起',
+      body: '背部有成排凸起鳞甲，身后有长尾巴。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "眼睛之间的横脊",
-      "body": "两只眼睛之间有一道骨质横脊，“眼镜”这个名字就与它有关。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '眼睛之间的横脊',
+      body: '两眼之间的骨质横脊像眼镜鼻梁，“眼镜”名与它有关。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "在水边晒太阳",
-      "body": "它会到岸边晒太阳，也会留在水中，利用环境调节体温。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '在水边晒太阳',
+      body: '它在岸边晒太阳，也留在水里，以周围环境调节体温。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "只露出头顶",
-      "body": "游在水面附近时，头顶的眼睛和吻端的鼻孔可以露在水面上。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '只露出头顶',
+      body: '靠近水面游动时，头顶眼睛和吻端鼻孔可以露出水面。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "幼鳄的横带",
-      "body": "幼鳄颜色偏黄，身上有深色斑纹和横带。长大后体色通常更暗。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '幼鳄的横带',
+      body: '幼鳄偏黄，有深色斑纹和横带，成年后通常更暗。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "留住它的生活环境",
-      "body": "所列资料记录的全球等级为无危。保护热带湿地、不购买来源不明的野生动物制品。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '留住它的生活环境',
+      body: '所列资料记录的全球等级为无危。保护热带湿地、不购买来源不明的野生动物制品。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '“眼镜”指两眼之间的骨脊',
+      body: 'Linnaeus 于 1758 年描述了这个物种，现用学名为 Caiman crocodilus。两眼之间的骨质横脊像眼镜鼻梁，是名称和辨认线索。眼镜凯门鳄属于短吻鳄科，和湾鳄不同；它原生于中、南美洲热带地区，其他地区的部分种群来自人为引入。',
+    },
   ],
   "keyFacts": [
-    "看看背上鳞甲的排列，再沿着背部找到长尾巴。",
-    "两只眼睛之间有一道骨质横脊，“眼镜”这个名字就与它有关。",
-    "它会到岸边晒太阳，也会留在水中，利用环境调节体温。",
-    "游在水面附近时，头顶的眼睛和吻端的鼻孔可以露在水面上。",
-    "幼鳄颜色偏黄，身上有深色斑纹和横带。长大后体色通常更暗。"
+    '背部有成排凸起鳞甲，身后有长尾巴。',
+    '两眼之间的骨质横脊像眼镜鼻梁，“眼镜”名与它有关。',
+    '它在岸边晒太阳，也留在水里，以周围环境调节体温。',
+    '靠近水面游动时，头顶眼睛和吻端鼻孔可以露出水面。',
+    '幼鳄偏黄，有深色斑纹和横带，成年后通常更暗。',
   ],
   "threats": [
     "皮革贸易带来的捕猎压力",
@@ -87873,7 +87879,7 @@ export const species = [
       {
         "image": "./images/species/spectacled-caiman/02-observation.webp",
         "title": "背上的一排排凸起",
-        "alt": "眼镜凯门鳄：背上的一排排凸起",
+        "alt": '背上的一排排凸起',
         "caption": "AI 生成科学情景重建。看看背上鳞甲的排列，再沿着背部找到长尾巴。",
         "focalPoint": {
           "x": 0.5,
@@ -87884,7 +87890,7 @@ export const species = [
       {
         "image": "./images/species/spectacled-caiman/03-observation.webp",
         "title": "眼睛之间的横脊",
-        "alt": "眼镜凯门鳄：眼睛之间的横脊",
+        "alt": '眼睛之间的横脊',
         "caption": "AI 生成科学情景重建。两只眼睛之间有一道骨质横脊，“眼镜”这个名字就与它有关。",
         "focalPoint": {
           "x": 0.5,
@@ -87895,7 +87901,7 @@ export const species = [
       {
         "image": "./images/species/spectacled-caiman/04-observation.webp",
         "title": "在水边晒太阳",
-        "alt": "眼镜凯门鳄：在水边晒太阳",
+        "alt": '在水边晒太阳',
         "caption": "AI 生成科学情景重建。它会到岸边晒太阳，也会留在水中，利用环境调节体温。",
         "focalPoint": {
           "x": 0.5,
@@ -87906,7 +87912,7 @@ export const species = [
       {
         "image": "./images/species/spectacled-caiman/05-observation.webp",
         "title": "只露出头顶",
-        "alt": "眼镜凯门鳄：只露出头顶",
+        "alt": '只露出头顶',
         "caption": "AI 生成科学情景重建。游在水面附近时，头顶的眼睛和吻端的鼻孔可以露在水面上。",
         "focalPoint": {
           "x": 0.5,
@@ -87917,7 +87923,7 @@ export const species = [
       {
         "image": "./images/species/spectacled-caiman/06-observation.webp",
         "title": "幼鳄的横带",
-        "alt": "眼镜凯门鳄：幼鳄的横带",
+        "alt": '幼鳄的横带',
         "caption": "AI 生成科学情景重建。幼鳄颜色偏黄，身上有深色斑纹和横带。长大后体色通常更暗。",
         "focalPoint": {
           "x": 0.5,
@@ -87939,7 +87945,13 @@ export const species = [
       "url": "https://reptile-database.reptarium.cz/Caiman/crocodilus",
       "kind": "taxonomy",
       "accessedAt": "2026-09-18"
-    }
+    },
+    {
+      title: 'GBIF：Caiman crocodilus 的命名作者与年份',
+      url: 'https://www.gbif.org/species/8953936',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-18",
