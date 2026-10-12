@@ -105439,45 +105439,51 @@ export const species = [
     "双吻前口蝠鲼",
     "宽大的胸鳍"
   ],
-  "summary": "看看身体两边的大鳍怎样像翅膀一样展开。",
+  "summary": '双吻前口蝠鲼摆动宽大胸鳍游泳，嘴前头鳍引导水流，滤取浮游动物。研究者用腹面斑点辨认个体。',
   "description": "双吻前口蝠鲼有宽大的菱形身体，嘴前长着一对头鳍。它依靠胸鳍游动，取食时从水中滤取浮游动物。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "宽大的胸鳍",
-      "body": "身体两侧的大胸鳍上下摆动，帮助它在海里游动。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '宽大的胸鳍',
+      body: '身体两侧的大胸鳍上下摆动，帮助它在海里游动。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "嘴旁的头鳍",
-      "body": "取食时，嘴前的一对头鳍展开，把带有食物的水引向嘴巴。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '嘴旁的头鳍',
+      body: '取食时，嘴前的一对头鳍展开，把带有食物的水引向嘴巴。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "腹面的斑点",
-      "body": "浅色腹面散布着深色斑点，研究者会用花纹帮助辨认个体。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '腹面的斑点',
+      body: '浅色腹面散布着深色斑点，研究者会用花纹帮助辨认个体。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "水里的小食物",
-      "body": "它从水中滤取浮游动物，体形大，食物却可以很小。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '水里的小食物',
+      body: '它从水中滤取浮游动物，体形大，食物却可以很小。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "礁旁的清洁站",
-      "body": "它会来到清洁地点，让小鱼啄食体表的寄生物等。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '礁旁的清洁站',
+      body: '它会来到清洁地点，让小鱼啄食体表的寄生物等。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "减少误捕和废弃渔具，海上观察时保持距离。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '减少误捕和废弃渔具，海上观察时保持距离。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '大鳍之外还能看腹面斑点',
+      body: 'Walbaum 在 1792 年发表了双吻前口蝠鲼的科学描述，今天采用 Mobula birostris。宽大的胸鳍和嘴前头鳍是容易观察的线索。研究者还利用腹面深色斑点辨认个体，记录同一只动物在不同时间、海域的出现。',
+    },
   ],
   "keyFacts": [
     "身体两侧的大胸鳍上下摆动，帮助它在海里游动。",
@@ -105595,7 +105601,13 @@ export const species = [
       "url": "https://www.fishbase.se/Fieldguide/FieldGuideSummary.php?c_code=360&genusname=Mobula&speciesname=birostris",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：双吻前口蝠鲼的科学命名记录',
+      url: 'https://www.gbif.org/species/9548142',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
