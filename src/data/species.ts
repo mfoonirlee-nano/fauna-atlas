@@ -94355,7 +94355,7 @@ export const species = [
       "en": "Endangered"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 EN（濒危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -94398,45 +94398,51 @@ export const species = [
     "蛇鹫",
     "迈开长腿"
   ],
-  "summary": "看看这只鸟怎样迈着长腿走过草地。",
-  "description": "蛇鹫常在地面步行寻找食物，长腿把身体抬得很高。它生活在撒哈拉以南非洲的开阔草原。",
+  "summary": '蛇鹫迈着长腿在非洲草原找食物，后脑有一簇黑色长羽。它能飞，也会在树上筑巢和过夜。',
+  "description": '蛇鹫生活在撒哈拉以南非洲的开阔草原，常迈着长腿在地面寻找昆虫和小型脊椎动物，食物包括蛇。后脑的一簇黑色长羽和橙色脸部容易辨认。它也能飞，飞行时长腿向后伸；一对蛇鹫会在树上用枝条筑巢，并到树上过夜。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "迈开长腿",
-      "body": "蛇鹫常在地面步行寻找食物，长腿把身体抬得很高。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '迈开长腿',
+      body: '蛇鹫常在地面步行寻找食物，长腿把身体抬得很高。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "头后的黑羽毛",
-      "body": "它的后脑长着一簇细长的黑色羽毛，脸部有橙色裸露皮肤。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '头后的黑羽毛',
+      body: '它的后脑长着一簇细长的黑色羽毛，脸部有橙色裸露皮肤。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "长腿也能飞",
-      "body": "蛇鹫能够飞翔，飞行时长腿向后伸。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '长腿也能飞',
+      body: '蛇鹫能够飞翔，飞行时长腿向后伸。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "树上的枝条巢",
-      "body": "一对蛇鹫会在树上用枝条筑巢，也会在树上过夜。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '树上的枝条巢',
+      body: '一对蛇鹫会在树上用枝条筑巢，也会在树上过夜。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "低头找食物",
-      "body": "它沿草地寻找昆虫和小型脊椎动物，食物并不限于蛇。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '低头找食物',
+      body: '它沿草地寻找昆虫和小型脊椎动物，食物并不限于蛇。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留开阔草原和筑巢树木，远离正在育雏的鸟巢。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留开阔草原和筑巢树木，远离正在育雏的鸟巢。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '耳后羽毛笔的名称解释',
+      body: 'J. F. Miller 在 1779 年发表了蛇鹫的科学描述。它的英文名 Secretarybird 常译成“秘书鸟”。圣迭戈动物园介绍过一种传统解释：后脑黑色长羽像旧时秘书夹在耳后的羽毛笔，灰色羽毛和腿上的黑羽也让人想到他们的衣着。这是名称的解释，并不能用来推定当地人第一次见到它的时间。',
+    },
   ],
   "keyFacts": [
     "蛇鹫常在地面步行寻找食物，长腿把身体抬得很高。",
@@ -94543,7 +94549,13 @@ export const species = [
       "url": "https://www.birdlife.org.za/red-data-book/red-list/secretarybird/",
       "kind": "conservation",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：蛇鹫的科学命名记录',
+      url: 'https://www.gbif.org/species/5229409',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
