@@ -41613,7 +41613,7 @@ export const species = [
         '阿鲁巴一次记录中的 Leptodeira bakeri（贝氏猫眼蛇）',
       ],
       description:
-        '物种级食物记录来自三组边界清楚的来源。Molinari 等人在委内瑞拉洞穴直接见到本种捕食 Blaberus discoidalis，并在同一洞穴记录 3 次捕食、涉及 3 种蝙蝠；Rutherford 记录一只特立尼达个体在圈养环境中捕食 Eublaberus distanti；van Buurt 与 Dilrosun 在阿鲁巴记录一只个体攻击并取食 Leptodeira bakeri。这些资料都不能泛化为整个物种的常见猎物、食谱比例或猎物偏好。图集第 04 幅只用盘腹蟑螂状节肢动物代表有直接观察的猎物，没有重演某次记录，也不能靠像素核验身份或捕食。',
+        '物种级食物记录来自三组边界清楚的来源。Molinari 等人在委内瑞拉洞穴直接见到本种捕食 Blaberus discoidalis，并在同一洞穴记录 3 次捕食、涉及 3 种蝙蝠；Rutherford 记录一只特立尼达个体在圈养环境中捕食 Eublaberus distanti；van Buurt 与 Dilrosun 在阿鲁巴记录一只个体攻击并取食 Leptodeira bakeri。这些资料都不能泛化为整个物种的常见猎物、食谱比例或猎物偏好。',
     },
     activity: [
       '在落叶、石块与朽木形成的缝隙间隐蔽和移动',
@@ -41641,13 +41641,13 @@ export const species = [
     summary:
       '南美巨人蜈蚣用 21 对步足在岩隙与落叶间移动，第一躯干附肢特化成带毒颚肢；委内瑞拉一处洞穴留下三次捕食三种蝙蝠的记录，但这些偶遇不能代表全种食谱。',
     description:
-      '南美巨人蜈蚣是蜈蚣科蜈蚣属的大型陆生捕食者。ChiloBase 接受 Scolopendra gigantea Linnaeus, 1758，Myriatrix 汇编的分类资料记录 17 个触角节与 21 对步足。Shelley 与 Kiser 指定的模式地点在委内瑞拉瓦伦西亚；结合 Shelley 2006 年目录和后来的巴拿马记录，现行范围为巴拿马、南美洲北部加勒比沿岸和南加勒比海若干岛屿。秘鲁旧记录现归 S. galapagoensis，“秘鲁巨人蜈蚣”只在纠错说明中出现，不进入主名或别名。文献报道体长超过 300 毫米，但没有提供全种硬上限。颚肢负责抓持和注毒，多对步足能协同压住猎物。现有物种级食物资料包括圈养盘腹蟑螂、阿鲁巴一例贝氏猫眼蛇，以及委内瑞拉同一洞穴 3 次捕食 3 种蝙蝠的记录；这些资料不足以给食谱设定比例。IUCN Red List 没有返回本种评估，档案记为 NE 和趋势未知。',
+      '南美巨人蜈蚣是蜈蚣科蜈蚣属的大型陆生捕食者。ChiloBase 接受 Scolopendra gigantea Linnaeus, 1758，Myriatrix 汇编的分类资料记录 17 个触角节与 21 对步足。Shelley 与 Kiser 指定的模式地点在委内瑞拉瓦伦西亚；结合 Shelley 2006 年目录和后来的巴拿马记录，现行范围为巴拿马、南美洲北部加勒比沿岸和南加勒比海若干岛屿。秘鲁旧记录现归 S. galapagoensis，旧称“秘鲁巨人蜈蚣”容易与现行分布混淆。文献报道体长超过 300 毫米，但没有提供全种硬上限。颚肢负责抓持和注毒，多对步足能协同压住猎物。现有物种级食物资料包括圈养盘腹蟑螂、阿鲁巴一例贝氏猫眼蛇，以及委内瑞拉同一洞穴 3 次捕食 3 种蝙蝠的记录；这些资料不足以给食谱设定比例。IUCN Red List 没有返回本种评估，全球趋势未知。',
     storySections: [
       {
         key: 'name-and-range-correction',
         label: '名字与地图',
         title: '秘鲁旧名，指向了另一种蜈蚣',
-        body: 'Pucará 的 S. gigantea weyrauchi 现归 S. galapagoensis。真正的 S. gigantea 沿巴拿马、南美北岸与南加勒比岛屿展开；档案采用“南美巨人蜈蚣”作为主名，避免旧误称反向扩张分布。',
+        body: 'Pucará 的 S. gigantea weyrauchi 现归 S. galapagoensis。真正的 S. gigantea 沿巴拿马、南美北岸与南加勒比岛屿展开；中文名“南美巨人蜈蚣”与修订后的主要范围相符。',
       },
       {
         key: 'twenty-one-pairs',
@@ -41676,13 +41676,19 @@ export const species = [
       {
         key: 'venom-evidence',
         label: '毒液与证据',
-        title: '能检出蛋白酶，不能推导通用疗法或种群安全',
-        body: '物种级实验在毒液中检出丝氨酸蛋白酶、金属蛋白酶和酮糖，病例也记录过局部剧痛与水肿；现有研究没有给出完整毒液组、人类致死剂量或通用处方。公众应避免徒手接触；发生毒蜇后应寻求专业医疗评估，档案不提供药物或急救处方。',
+        title: '毒液研究与伤害证据仍有限',
+        body: '物种级实验在毒液中检出丝氨酸蛋白酶、金属蛋白酶和酮糖，病例也记录过局部剧痛与水肿；现有研究没有给出完整毒液组、人类致死剂量或通用处方。公众应避免徒手接触；发生毒蜇后应寻求专业医疗评估。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '1758 年名称与委内瑞拉新模标本',
+        body: '林奈于 1758 年命名南美巨人蜈蚣，现用学名为 Scolopendra gigantea。后来的 Shelley 与 Kiser 用委内瑞拉瓦伦西亚标本指定新模，重新固定名称对应的物种，并把秘鲁旧记录归入 S. galapagoensis。三个蝙蝠取食事件则来自同一座委内瑞拉洞穴，研究者未看到最初捕捉过程。',
       },
     ],
     keyFacts: [
       'ChiloBase 2.0 接受名为 Scolopendra gigantea Linnaeus, 1758。',
-      '本档案的六级路径为动物界、节肢动物门、唇足纲、蜈蚣目、蜈蚣科、蜈蚣属。',
+      '它属于节肢动物门、唇足纲、蜈蚣目、蜈蚣科和蜈蚣属。',
       'Shelley 与 Kiser 以委内瑞拉卡拉沃沃州瓦伦西亚标本指定新模式。',
       '“南美巨人蜈蚣”比“秘鲁巨人蜈蚣”更符合修订后的地理范围。',
       '现行汇编分布包括巴拿马、哥伦比亚、委内瑞拉、圭亚那、苏里南，以及特立尼达、玛格丽塔岛、库拉索和阿鲁巴。',
@@ -41707,11 +41713,11 @@ export const species = [
       '三次洞穴偶遇不能泛化为整个物种普遍捕食蝙蝠，也不能把蝙蝠列为主要猎物。',
       'van Buurt 与 Dilrosun 在阿鲁巴记录一只 S. gigantea 攻击并取食 Leptodeira bakeri。',
       '洞穴论文直接记录本种捕食约 45 毫米的 Blaberus discoidalis，但没有给出频率或食谱比例。',
-      '图集第 04 幅以盘腹蟑螂状节肢动物代表这类直接猎物记录，没有重演具体时刻，也不能靠像素核验身份或捕食。',
+      '洞穴论文直接记录本种捕食盘腹蟑螂，图中的相似节肢动物仅为情景重建。',
       'IUCN Red List 当前没有返回本种评估；NE 不表示无危、稳定或数量充足。',
       '物种级毒液研究检出丝氨酸蛋白酶、金属蛋白酶与酮糖，但没有交付完整毒液组或人类致死剂量。',
       '一例新生儿毒蜇病例记录局部剧痛与水肿，单例不能代表所有年龄或咬伤结局。',
-      '公众应避免徒手接触；发生毒蜇后应寻求专业医疗评估，档案不提供药物或急救处方。',
+      '公众应避免徒手接触；发生毒蜇后应寻求专业医疗评估。',
     ],
     threats: [
       'IUCN 尚未评估，全球数量、种群趋势和威胁排序没有物种级结论',
@@ -41823,7 +41829,15 @@ export const species = [
         },
       ],
     },
-    sources: SOUTH_AMERICAN_GIANT_CENTIPEDE_SOURCES,
+    sources: [
+      ...SOUTH_AMERICAN_GIANT_CENTIPEDE_SOURCES,
+      {
+        title: 'GBIF: Scolopendra gigantea Linnaeus, 1758 nomenclatural record',
+        url: 'https://www.gbif.org/species/5179388',
+        kind: 'taxonomy',
+        accessedAt: '2026-10-11',
+      },
+    ],
     featured: true,
     publishedAt: SOUTH_AMERICAN_GIANT_CENTIPEDE_CONTENT_DATE,
     updatedAt: SOUTH_AMERICAN_GIANT_CENTIPEDE_CONTENT_DATE,
