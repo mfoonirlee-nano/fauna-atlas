@@ -122932,7 +122932,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "采用 MDD 拆分后的 Cyclopes didactylus；旧文献的中美洲分布不用于本档案。近似种不能只凭生成图鉴定；图片不提供测量尺度。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+    "assessor": '全球等级为 LC（无危），独立评估年份尚未确认；旧中美洲广义分布不适用于拆分后的本种。'
   },
   "distribution": {
     "realms": [
@@ -122949,7 +122949,7 @@ export const species = [
     {
       "name": "热带森林的树冠",
       "realm": "terrestrial",
-      "description": "侏食蚁兽的身体小巧，长着柔软的毛。它在树枝间活动，用弯爪和能抓握的尾巴稳住身体。",
+      "description": '南美洲北部、巴西北部及东北部、特立尼达岛部分地区的热带森林树冠。',
       "isPrimary": true
     }
   ],
@@ -122967,45 +122967,51 @@ export const species = [
     "侏食蚁兽",
     "热带森林的树冠"
   ],
-  "summary": "侏食蚁兽的身体小巧，长着柔软的毛。它在树枝间活动，用弯爪和能抓握的尾巴稳住身体。",
-  "description": "侏食蚁兽的身体小巧，长着柔软的毛。它在树枝间活动，用弯爪和能抓握的尾巴稳住身体。找找细枝间弓起的身体。侏食蚁兽属于体型很小的食蚁兽，图片经过放大，不代表实物大小。",
+  "summary": '侏食蚁兽夜间在树冠寻找蚂蚁，白天蜷在枝间。它用弯爪和抓握尾巴稳住小身体，嘴比领食蚁兽短。',
+  "description": '侏食蚁兽身体小巧、毛柔软，在南美洲北部等地的热带树冠吃蚂蚁。弯爪打开蚂蚁藏处，能抓握的尾巴支撑身体。它主要夜间活动，白天蜷在枝间休息，嘴比领食蚁兽短。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "树枝间的小身体",
-      "body": "找找细枝间弓起的身体。侏食蚁兽属于体型很小的食蚁兽，图片经过放大，不代表实物大小。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '树枝间的小身体',
+      body: '找找细枝间弓起的身体。侏食蚁兽属于体型很小的食蚁兽，图片经过放大，不代表实物大小。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "弯爪抓住枝条",
-      "body": "从前肢向下找弯曲的爪。它用爪抓住树枝，也用爪打开蚂蚁藏身的地方。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '弯爪抓住枝条',
+      body: '从前肢向下找弯曲的爪。它用爪抓住树枝，也用爪打开蚂蚁藏身的地方。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "尾巴帮忙抓握",
-      "body": "看看尾巴怎样绕在枝上。它的尾巴能抓握，在树上移动时提供支撑。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '尾巴帮忙抓握',
+      body: '看看尾巴怎样绕在枝上。它的尾巴能抓握，在树上移动时提供支撑。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "毛里的小脸",
-      "body": "柔软的毛围着小脸，嘴比领食蚁兽的短。找找鼻尖与小眼睛。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '毛里的小脸',
+      body: '柔软的毛围着小脸，嘴比领食蚁兽的短。找找鼻尖与小眼睛。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "蜷在枝上睡觉",
-      "body": "白天，它常蜷在树枝间休息，主要在夜间活动。图中展示休息姿势，不是连续动作记录。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '蜷在枝上睡觉',
+      body: '白天，它常蜷在树枝间休息，主要在夜间活动。图中展示休息姿势，不是连续动作记录。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "保留它生活的热带森林的树冠，观察时保持距离，不移动动物或破坏藏身处。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '保留热带森林树冠，观察时保持距离，不移动动物或破坏藏身处。近似种不能只凭重建图鉴定，图片也不提供测量尺度。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '旧资料中的侏食蚁兽范围后来缩小',
+      body: 'Linnaeus 在 1758 年发表了侏食蚁兽的科学描述，今天采用 Cyclopes didactylus。分类研究后来把旧时合并的类群拆分，本种如今主要指南美洲北部等地的种群，旧文献中的中美洲范围不适用。柔软毛和小体型能说明通用外观，近似种仍需专业鉴定。',
+    },
   ],
   "keyFacts": [
     "找找细枝间弓起的身体。侏食蚁兽属于体型很小的食蚁兽，图片经过放大，不代表实物大小。",
@@ -123036,7 +123042,7 @@ export const species = [
       "key": "conservation",
       "label": "保护等级",
       "value": "无危",
-      "note": "采用 MDD 拆分后的 Cyclopes didactylus；旧文献的中美洲分布不用于本档案。近似种不能只凭生成图鉴定；图片不提供测量尺度。保护等级采用 MDD 所列 IUCN 全球等级，独立评估年份未核实。"
+      "note": '这里介绍拆分后的 Cyclopes didactylus，旧文献中的中美洲分布涉及其他近缘种。生成图不能鉴定近似种或提供测量尺度。MDD 列出的全球 IUCN 等级为无危，独立评估年份尚未确认。'
     }
   ],
   "media": {
@@ -123117,7 +123123,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Cyclopes_didactylus/",
       "kind": "ecology",
       "accessedAt": "2026-09-26"
-    }
+    },
+    {
+      title: 'GBIF：侏食蚁兽的科学命名记录',
+      url: 'https://www.gbif.org/species/2436326',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-26",
