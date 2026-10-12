@@ -104665,7 +104665,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "采用所列机构来源中的全球类别；未核实独立评估日期，年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -104706,45 +104706,51 @@ export const species = [
     "缎蓝园丁鸟",
     "草茎搭的通道"
   ],
-  "summary": "找找雄鸟搭的草茎通道和旁边的蓝色物件。",
+  "summary": '缎蓝园丁鸟雄鸟在地面搭通道、收集蓝色饰物求偶。雌鸟和年轻雄鸟偏黄绿，雌鸟在树上另筑育雏巢。',
   "description": "成年雄鸟的羽毛有蓝黑色光泽，雌鸟和年轻雄鸟偏黄绿色。雄鸟在地面搭建并装饰求偶场地，雌鸟在树上另筑育雏巢。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "草茎搭的通道",
-      "body": "雄鸟在地面搭起两排草茎和细枝，形成求偶时使用的通道。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '草茎搭的通道',
+      body: '雄鸟在地面搭起两排草茎和细枝，形成求偶时使用的通道。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "收集蓝色物件",
-      "body": "看看通道旁的蓝色花和羽毛。雄鸟会收集这些物件装饰求偶场地。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '收集蓝色物件',
+      body: '看看通道旁的蓝色花和羽毛。雄鸟会收集这些物件装饰求偶场地。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "雌鸟是黄绿色",
-      "body": "雌鸟背部偏橄榄绿，浅色腹面有深色鳞状花纹。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '雌鸟是黄绿色',
+      body: '雌鸟背部偏橄榄绿，浅色腹面有深色鳞状花纹。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "树上才是育雏巢",
-      "body": "雌鸟在树或灌木上另筑巢，独自承担育雏工作。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '树上才是育雏巢',
+      body: '雌鸟在树或灌木上另筑巢，独自承担育雏工作。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "枝头找果实",
-      "body": "它们一年中主要吃果实，也会补充昆虫和叶子。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '枝头找果实',
+      body: '它们一年中主要吃果实，也会补充昆虫和叶子。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留森林和林下环境，观察时不移动求偶场地里的枝条与饰物。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留森林和林下环境，观察时不移动求偶场地里的枝条与饰物。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '求偶场地与育雏巢各在一处',
+      body: 'Vieillot 在 1816 年发表了缎蓝园丁鸟的科学描述，今天采用 Ptilonorhynchus violaceus。“园丁鸟”容易让人联想到雄鸟装饰求偶场地的行为。它在地面搭草茎通道、收集蓝色物件，雌鸟则另在树上筑巢，独自养育幼鸟。',
+    },
   ],
   "keyFacts": [
     "雄鸟在地面搭起两排草茎和细枝，形成求偶时使用的通道。",
@@ -104850,7 +104856,13 @@ export const species = [
       "url": "https://collections.museumsvictoria.com.au/species/14376",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：缎蓝园丁鸟的科学命名记录',
+      url: 'https://www.gbif.org/species/5231665',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
