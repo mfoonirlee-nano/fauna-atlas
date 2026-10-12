@@ -106653,7 +106653,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "所列来源支持全球类别；未核实独立评估日期，年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -106693,45 +106693,51 @@ export const species = [
     "穴小鸮",
     "洞口旁的小鸮"
   ],
-  "summary": "在地面洞口旁，找找长腿站着的小鸮。",
+  "summary": '穴小鸮在美洲开阔草地的洞穴里筑巢，长腿适合在地面行走。它捕食昆虫和小型脊椎动物，昼夜都能活动。',
   "description": "穴小鸮有黄色眼睛、圆圆的头和细长的腿，褐色羽毛上散着白斑。它常在地面活动，并在地下洞穴里筑巢。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "洞口旁的小鸮",
-      "body": "穴小鸮常借用其他动物挖出的地洞，也有自己挖洞的种群。看看洞口与站在旁边的小鸮。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '洞口旁的小鸮',
+      body: '穴小鸮常借用其他动物挖出的地洞，也有自己挖洞的种群。看看洞口与站在旁边的小鸮。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "用长腿走路",
-      "body": "长腿把身体撑离地面。它能在草地上走动，也能飞行。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '用长腿走路',
+      body: '长腿把身体撑离地面。它能在草地上走动，也能飞行。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "黄色的眼睛",
-      "body": "找找圆头上的黄眼睛、浅色眉纹和短嘴。它没有耳羽簇。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '黄色的眼睛',
+      body: '找找圆头上的黄眼睛、浅色眉纹和短嘴。它没有耳羽簇。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "开阔地方找食物",
-      "body": "它在地面或低处观察周围，捕食昆虫和小型动物；白天和夜间都可能觅食。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '开阔地方找食物',
+      body: '它在地面或低处观察周围，捕食昆虫和小型动物；白天和夜间都可能觅食。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "一起待在洞旁",
-      "body": "繁殖期的成对穴小鸮会在洞穴附近活动，亲鸟也会照顾幼鸟。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '一起待在洞旁',
+      body: '繁殖期的成对穴小鸮会在洞穴附近活动，亲鸟也会照顾幼鸟。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留开阔草地和洞穴，观察时远离巢洞，不堵洞或追赶幼鸟。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留开阔草地和洞穴，观察时远离巢洞，不堵洞或追赶幼鸟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '洞穴里的小鸮',
+      body: 'Molina 在 1782 年发表了穴小鸮的科学描述，今天采用 Athene cunicularia。中文名里的“穴”对应地洞，它常借用其他动物挖好的洞穴，部分地方的种群也会自己挖洞。长腿适合在地面行走，捕食活动可以发生在白天或夜间。',
+    },
   ],
   "keyFacts": [
     "穴小鸮常借用其他动物挖出的地洞，也有自己挖洞的种群。看看洞口与站在旁边的小鸮。",
@@ -106844,7 +106850,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Athene_cunicularia/",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：穴小鸮的科学命名记录',
+      url: 'https://www.gbif.org/species/2497240',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
