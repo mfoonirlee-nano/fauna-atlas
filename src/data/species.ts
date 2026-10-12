@@ -110118,7 +110118,7 @@ export const species = [
     {
       "name": "北极苔原",
       "realm": "terrestrial",
-      "description": "北极苔原中的生活场景。",
+      "description": '北极树线以北的苔原，夏季生长草、莎草和灌木，冬季寒冷多风。',
       "isPrimary": true
     }
   ],
@@ -110138,45 +110138,51 @@ export const species = [
     "麝牛",
     "垂到腿旁的长毛"
   ],
-  "summary": "看看长毛怎样垂到腿旁边。",
-  "description": "麝牛生活在北极苔原。看看长毛怎样垂到腿旁边。外层长毛遮挡风雪，内层绒毛帮助保暖。短腿支撑着厚实的身体。冬天，麝牛会寻找积雪较浅处的植物。",
+  "summary": '麝牛有遮挡风雪的长毛和保暖绒毛，雌雄都长弯角。它在北极苔原吃植物，冬天寻找浅雪处取食。',
+  "description": '麝牛在北极苔原吃草、莎草和灌木枝叶。厚实身体下是短腿，外层长毛遮挡风雪，内层绒毛保暖。雌雄都有弯角，成年雄性的角基更厚。冬季，它们寻找积雪较浅的地方取食。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "垂到腿旁的长毛",
-      "body": "看看长毛怎样垂到腿旁边。外层长毛遮挡风雪，内层绒毛帮助保暖。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '垂到腿旁的长毛',
+      body: '看看长毛怎样垂到腿旁边。外层长毛遮挡风雪，内层绒毛帮助保暖。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "弯弯的角",
-      "body": "角从头顶向两侧弯下，再朝上翘起。雌雄都有角，成年雄性的角基更厚。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '弯弯的角',
+      body: '角从头顶向两侧弯下，再朝上翘起。雌雄都有角，成年雄性的角基更厚。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "低头吃草",
-      "body": "夏季，麝牛在苔原低头吃草和莎草，也吃灌木枝叶。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '低头吃草',
+      body: '夏季，麝牛在苔原低头吃草和莎草，也吃灌木枝叶。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "跟着妈妈",
-      "body": "小麝牛出生后不久就能站立，随后跟着妈妈，吃奶并获得保护。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '跟着妈妈',
+      body: '小麝牛出生后不久就能站立，随后跟着妈妈，吃奶并获得保护。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "雪地里的短腿",
-      "body": "短腿支撑着厚实的身体。冬天，麝牛会寻找积雪较浅处的植物。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '雪地里的短腿',
+      body: '短腿支撑着厚实的身体。冬天，麝牛会寻找积雪较浅处的植物。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "远距离观察麝牛，让带幼仔的兽群保持安静。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '远距离观察麝牛，让带幼仔的兽群保持安静。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '回到阿拉斯加的麝牛',
+      body: 'Zimmermann 在 1780 年发表了麝牛的科学描述。它在阿拉斯加的原有种群于十九世纪末消失，二十世纪三十年代，保护人员从格陵兰引入麝牛，重新建立当地种群。今天读分布图时，需要把加拿大、格陵兰的自然家园和这类再引入地区区分开。',
+    },
   ],
   "keyFacts": [
     "看看长毛怎样垂到腿旁边。外层长毛遮挡风雪，内层绒毛帮助保暖。",
@@ -110274,7 +110280,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Ovibos_moschatus/",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：麝牛的科学命名记录',
+      url: 'https://www.gbif.org/species/2441108',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
