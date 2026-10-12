@@ -83142,7 +83142,7 @@ export const species = [
     {
       "name": "石滩、草丛与近海",
       "realm": "marine",
-      "description": "在多个亚南极岛屿和南极半岛繁殖，常在繁殖地附近海域觅食。",
+      "description": '石滩和草丛提供筑巢位置，繁殖地附近海域提供食物。幼鸟留在岸上，待长出适合游泳的羽毛后进入海洋。',
       "isPrimary": true
     }
   ],
@@ -83170,51 +83170,57 @@ export const species = [
     "头顶连起来的白斑"
   ],
   "summary": "巴布亚企鹅的白色花纹跨过头顶，嘴呈橙红色，脚为橙色。它属于阿德利企鹅属。",
-  "description": "巴布亚企鹅有橙红色的嘴、橙色的脚和跨过头顶的白色花纹。它属于阿德利企鹅属；本档案采用资料来源中的广义 Pygoscelis papua 范围。",
+  "description": '巴布亚企鹅用鳍状翅划水，捕食甲壳类、小鱼和鱿鱼。亲鸟在石滩或草丛间筑巢，轮流孵卵；绒羽幼鸟由亲鸟喂食，长出适合游泳的羽毛后下海。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "头顶的白色花纹",
-      "body": "看看两眼上方的白斑怎样从头顶连起来。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '头顶的白色花纹',
+      body: '两眼上方的白斑跨过头顶，形成连在一起的白色花纹。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "橙色的蹼足",
-      "body": "走上石滩时，找找橙色脚趾之间连着的蹼。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '橙色的蹼足',
+      body: '橙色脚趾之间连着蹼，走上石滩时能够看见。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "在岸上筑巢",
-      "body": "巴布亚企鹅在石滩或草丛间筑巢，亲鸟轮流孵蛋。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '在岸上筑巢',
+      body: '巴布亚企鹅在石滩或草丛间筑巢，亲鸟轮流孵卵。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "鳍状翅划水",
-      "body": "在水里，它用鳍状翅推动身体，捕捉鱼和甲壳类。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '鳍状翅划水',
+      body: '在水中，它用鳍状翅推动身体，捕捉鱼和甲壳类。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "亲鸟和幼鸟",
-      "body": "绒羽幼鸟留在岸上，由亲鸟喂食；长出适合游泳的羽毛后再下海。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '亲鸟和幼鸟',
+      body: '绒羽幼鸟留在岸上，由亲鸟喂食，换上适合游泳的羽毛后下海。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "全球等级为无危。不同地区的种群变化不同，保护工作需要结合当地繁殖地与海域情况。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: '全球等级为无危。不同地区的种群变化不同，保护工作需要结合当地繁殖地与海域情况。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '名字里的“巴布亚”来自旧误记',
+      body: 'J.R.Forster 于 1781 年描述了这个物种，现用学名为 Pygoscelis papua。Forster 命名时将福克兰群岛的企鹅与此前误报的新几内亚记录联系起来，留下了 papua 这个种名。它实际在亚南极岛屿和南极半岛繁殖，名字不能当作分布证据；这里保留资料来源中的广义物种范围。',
+    },
   ],
   "keyFacts": [
-    "看看两眼上方的白斑怎样从头顶连起来。",
-    "走上石滩时，找找橙色脚趾之间连着的蹼。",
-    "巴布亚企鹅在石滩或草丛间筑巢，亲鸟轮流孵蛋。",
-    "在水里，它用鳍状翅推动身体，捕捉鱼和甲壳类。",
-    "绒羽幼鸟留在岸上，由亲鸟喂食；长出适合游泳的羽毛后再下海。"
+    '两眼上方的白斑跨过头顶，形成连在一起的白色花纹。',
+    '橙色脚趾之间连着蹼，走上石滩时能够看见。',
+    '巴布亚企鹅在石滩或草丛间筑巢，亲鸟轮流孵卵。',
+    '在水中，它用鳍状翅推动身体，捕捉鱼和甲壳类。',
+    '绒羽幼鸟留在岸上，由亲鸟喂食，换上适合游泳的羽毛后下海。',
   ],
   "threats": [
     "繁殖地干扰",
@@ -83256,7 +83262,7 @@ export const species = [
       {
         "image": "./images/species/gentoo-penguin/02-observation.webp",
         "title": "头顶的白色花纹",
-        "alt": "巴布亚企鹅：头顶的白色花纹",
+        "alt": '头顶的白色花纹',
         "caption": "AI 生成科学情景重建。看看两眼上方的白斑怎样从头顶连起来。",
         "focalPoint": {
           "x": 0.5,
@@ -83267,7 +83273,7 @@ export const species = [
       {
         "image": "./images/species/gentoo-penguin/03-observation.webp",
         "title": "橙色的蹼足",
-        "alt": "巴布亚企鹅：橙色的蹼足",
+        "alt": '橙色的蹼足',
         "caption": "AI 生成科学情景重建。走上石滩时，找找橙色脚趾之间连着的蹼。",
         "focalPoint": {
           "x": 0.5,
@@ -83278,7 +83284,7 @@ export const species = [
       {
         "image": "./images/species/gentoo-penguin/04-observation.webp",
         "title": "在岸上筑巢",
-        "alt": "巴布亚企鹅：在岸上筑巢",
+        "alt": '在岸上筑巢',
         "caption": "AI 生成科学情景重建。巴布亚企鹅在石滩或草丛间筑巢，亲鸟轮流孵蛋。",
         "focalPoint": {
           "x": 0.5,
@@ -83289,7 +83295,7 @@ export const species = [
       {
         "image": "./images/species/gentoo-penguin/05-observation.webp",
         "title": "鳍状翅划水",
-        "alt": "巴布亚企鹅：鳍状翅划水",
+        "alt": '鳍状翅划水',
         "caption": "AI 生成科学情景重建。在水里，它用鳍状翅推动身体，捕捉鱼和甲壳类。",
         "focalPoint": {
           "x": 0.5,
@@ -83300,7 +83306,7 @@ export const species = [
       {
         "image": "./images/species/gentoo-penguin/06-observation.webp",
         "title": "亲鸟和幼鸟",
-        "alt": "巴布亚企鹅：亲鸟和幼鸟",
+        "alt": '亲鸟和幼鸟',
         "caption": "AI 生成科学情景重建。绒羽幼鸟留在岸上，由亲鸟喂食；长出适合游泳的羽毛后再下海。",
         "focalPoint": {
           "x": 0.5,
@@ -83328,7 +83334,19 @@ export const species = [
       "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/gentoo-penguin/",
       "kind": "taxonomy",
       "accessedAt": "2026-09-16"
-    }
+    },
+    {
+      title: 'GBIF：Pygoscelis papua 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2481666',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
+    {
+      title: 'HANZAB：Gentoo Penguin 原始命名地点误记',
+      url: 'https://www.nzbirdsonline.org.nz/assets/95597/1691727492-042_gentoo-20penguin.pdf',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-16",
