@@ -127849,7 +127849,7 @@ export const species = [
     {
       "name": "有水生植物的湖泊与缓流河段",
       "realm": "freshwater",
-      "description": "凤头䴙䴘有细长脖子，繁殖期头侧长出栗色与黑色饰羽。幼鸟会钻到亲鸟背上，露出带黑白条纹的小脑袋。",
+      "description": '生活在有水生植物的湖泊和缓流河段，巢用植物材料搭成，并依靠附近植被固定。',
       "isPrimary": true
     }
   ],
@@ -127862,58 +127862,65 @@ export const species = [
       "鱼",
       "水生无脊椎动物"
     ],
-    "description": "食物包括鱼、水生无脊椎动物。"
+    "description": '食物包括鱼、水生无脊椎动物。'
   },
   "tags": [
     "凤头䴙䴘",
     "有水生植物的湖泊与缓流河段"
   ],
-  "summary": "凤头䴙䴘有细长脖子，繁殖期头侧长出栗色与黑色饰羽。幼鸟会钻到亲鸟背上，露出带黑白条纹的小脑袋。",
-  "description": "凤头䴙䴘有细长脖子，繁殖期头侧长出栗色与黑色饰羽。幼鸟会钻到亲鸟背上，露出带黑白条纹的小脑袋。本组成年鸟采用繁殖羽。雄鸟和雌鸟都参与照顾幼鸟，不能只凭背负幼鸟的画面把亲鸟叫作妈妈。",
+  "summary": '凤头䴙䴘潜水捕鱼，用水草筑巢；雌雄都会照料幼鸟，小鸟常乘在亲鸟背上休息。',
+  "description": '凤头䴙䴘脖子细长，繁殖期头部有黑色羽冠和栗色饰羽。求偶时，两只鸟可面对面摇头；繁殖后，雌雄都参与照顾幼鸟，幼鸟常乘在亲鸟背上，露出黑白条纹的头部。它潜水取食鱼和水生无脊椎动物，在湖泊或缓流河段用水草搭巢。分布涉及欧洲、亚洲、非洲部分地区及澳大利亚和新西兰，部分种群冬季到沿海活动。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "背上的小脑袋",
-      "body": "在成年鸟背上找找条纹。年幼的凤头䴙䴘会乘在亲鸟背上休息。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '背上的小脑袋',
+      body: '年幼的凤头䴙䴘会乘在亲鸟背上休息，头部有黑白条纹，雌雄都能照顾幼鸟。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "头两侧的饰羽",
-      "body": "从黑色羽冠看到栗色的脸侧羽毛。繁殖期的头部饰羽更醒目。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '头两侧的饰羽',
+      body: '繁殖期头部有黑色羽冠和栗色的脸侧饰羽。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "面对面的两只鸟",
-      "body": "看看两只鸟竖起的脖子。求偶时它们会面对面摇头，图中只展示其中一个姿态。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '面对面的两只鸟',
+      body: '求偶时，两只鸟会面对面摇头。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "水草边的巢",
-      "body": "沿着水面找找堆起的植物。它们用水生植物筑巢，依靠附近植被固定。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '水草边的巢',
+      body: '亲鸟用水生植物筑巢，并依靠附近植被固定。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "嘴边的小鱼",
-      "body": "找找嘴里叼着的小鱼。凤头䴙䴘会潜到水下寻找食物。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '嘴边的小鱼',
+      body: '凤头䴙䴘潜到水下找食物，包括鱼和水生无脊椎动物。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "保护湖岸植被，观察时远离水边的巢和带幼鸟的亲鸟。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '保护湖岸植被，观察时远离水边的巢和带幼鸟的亲鸟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '带羽冠的鸟曾叫 Colymbus cristatus',
+      body: '林奈在 1758 年以 Colymbus cristatus 发表了凤头䴙䴘的科学名称，后来它被归入 Podiceps 属，现用学名为 Podiceps cristatus。中文名中的“凤头”对应繁殖期醒目的羽冠。到了非繁殖期，头部装饰会有变化，观察时要考虑季节。',
+    },
   ],
   "keyFacts": [
-    "在成年鸟背上找找条纹。年幼的凤头䴙䴘会乘在亲鸟背上休息。",
-    "从黑色羽冠看到栗色的脸侧羽毛。繁殖期的头部饰羽更醒目。",
-    "看看两只鸟竖起的脖子。求偶时它们会面对面摇头，图中只展示其中一个姿态。",
-    "沿着水面找找堆起的植物。它们用水生植物筑巢，依靠附近植被固定。",
-    "找找嘴里叼着的小鱼。凤头䴙䴘会潜到水下寻找食物。"
+    '年幼的凤头䴙䴘会乘在亲鸟背上休息，头部有黑白条纹，雌雄都能照顾幼鸟。',
+    '繁殖期头部有黑色羽冠和栗色的脸侧饰羽。',
+    '求偶时，两只鸟会面对面摇头。',
+    '亲鸟用水生植物筑巢，并依靠附近植被固定。',
+    '凤头䴙䴘潜到水下找食物，包括鱼和水生无脊椎动物。',
+    '林奈在 1758 年以 Colymbus cristatus 发表了凤头䴙䴘的科学名称，后来它被归入 Podiceps 属，现用学名为 Podiceps cristatus。中文名中的“凤头”对应繁殖期醒目的羽冠。到了非繁殖期，头部装饰会有变化，观察时要考虑季节。',
   ],
   "threats": [
     "水域污染",
@@ -128025,7 +128032,19 @@ export const species = [
       "url": "https://www.bto.org/learn/about-birds/birdfacts/great-crested-grebe",
       "kind": "conservation",
       "accessedAt": "2026-09-28"
-    }
+    },
+    {
+      title: 'GBIF：Podiceps cristatus 的描述作者与年份',
+      url: 'https://www.gbif.org/species/2482054',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
+    {
+      title: 'GBIF：凤头䴙䴘原学名 Colymbus cristatus',
+      url: 'https://www.gbif.org/taxon/782YB',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-28",
