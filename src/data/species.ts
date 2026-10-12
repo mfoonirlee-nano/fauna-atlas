@@ -84993,7 +84993,7 @@ export const species = [
     {
       "name": "桉树林与开阔林地",
       "realm": "terrestrial",
-      "description": "原生于澳大利亚东部；塔斯马尼亚、澳大利亚西南部及新西兰的种群来自引入。",
+      "description": '桉树林和开阔林地提供观察地面的栖枝，地面小动物供笑翠鸟取食。天然树洞能提供繁殖位置。',
       "isPrimary": true
     }
   ],
@@ -85021,51 +85021,57 @@ export const species = [
     "粗粗的嘴巴"
   ],
   "summary": "笑翠鸟常从枝头扑向地面捕食。它头大、嘴粗长，脸上有深色过眼纹，腹部浅色，翅背棕色。",
-  "description": "笑翠鸟有大头和粗长的嘴，脸上有深色过眼纹，浅色腹部与棕色翅背相对照。它常从枝头扑向地面捕食。",
+  "description": '笑翠鸟从枝头观察地面，发现猎物后向下扑捕。它利用天然树洞筑巢，其他家族成员也可能帮助育雏；听起来像笑声的鸣叫能宣示领地，不能据此判断情绪。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "粗粗的嘴巴",
-      "body": "看看嘴巴从脸前伸出的形状，再找找经过眼睛的深色条纹。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '粗粗的嘴巴',
+      body: '笑翠鸟头大，嘴粗长，眼部有深色条纹。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "从高处往下看",
-      "body": "它停在枝头观察地面，发现猎物后会扑下去捕捉。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '从高处往下看',
+      body: '它停在枝头看向地面，发现猎物后扑下捕捉。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "嘴里捉着小虫",
-      "body": "昆虫是笑翠鸟的食物之一。它也会吃蠕虫和小型脊椎动物。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '嘴里捉着小虫',
+      body: '昆虫、蠕虫和小型脊椎动物都在食谱中。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "树洞旁的鸟",
-      "body": "笑翠鸟会利用天然树洞筑巢，家族中的其他成员也可能帮忙照料幼鸟。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '树洞旁的鸟',
+      body: '它利用天然树洞筑巢，家族中的其他成员也可能帮忙照顾幼鸟。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "张嘴鸣叫",
-      "body": "两只鸟停在枝头，一只张开嘴。听起来像笑声的鸣叫可用来宣示领地，不能据此判断它开心。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '张嘴鸣叫',
+      body: '像笑声的鸣叫用于宣示领地，听到笑声不能据此判断它开心。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "留住它的生活环境",
-      "body": "所列资料支持全球无危等级。独立评估日期和全球趋势未核实；观察时不要干扰鸟巢。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '留住它的生活环境',
+      body: '笑翠鸟全球属无危，独立评估日期和全球种群趋势尚未确认。观察时不要干扰鸟巢。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '听似笑声的领地鸣叫',
+      body: 'Hermann 于 1783 年描述了这个物种，现用学名为 Dacelo novaeguineae。“笑翠鸟”对应听起来像笑声的鸣叫，这种声音可以宣示领地。它和许多水边捕鱼的翠鸟习性不同，常从高处扑向地面小动物，亲鸟之外的家族成员还可能帮助育雏。',
+    },
   ],
   "keyFacts": [
-    "看看嘴巴从脸前伸出的形状，再找找经过眼睛的深色条纹。",
-    "它停在枝头观察地面，发现猎物后会扑下去捕捉。",
-    "昆虫是笑翠鸟的食物之一。它也会吃蠕虫和小型脊椎动物。",
-    "笑翠鸟会利用天然树洞筑巢，家族中的其他成员也可能帮忙照料幼鸟。",
-    "两只鸟停在枝头，一只张开嘴。听起来像笑声的鸣叫可用来宣示领地，不能据此判断它开心。"
+    '笑翠鸟头大，嘴粗长，眼部有深色条纹。',
+    '它停在枝头看向地面，发现猎物后扑下捕捉。',
+    '昆虫、蠕虫和小型脊椎动物都在食谱中。',
+    '它利用天然树洞筑巢，家族中的其他成员也可能帮忙照顾幼鸟。',
+    '像笑声的鸣叫用于宣示领地，听到笑声不能据此判断它开心。',
   ],
   "threats": [
     "局地栖息环境改变与巢址干扰"
@@ -85104,7 +85110,7 @@ export const species = [
       {
         "image": "./images/species/laughing-kookaburra/02-observation.webp",
         "title": "粗粗的嘴巴",
-        "alt": "笑翠鸟：粗粗的嘴巴",
+        "alt": '粗粗的嘴巴',
         "caption": "AI 生成科学情景重建。看看嘴巴从脸前伸出的形状，再找找经过眼睛的深色条纹。",
         "focalPoint": {
           "x": 0.5,
@@ -85115,7 +85121,7 @@ export const species = [
       {
         "image": "./images/species/laughing-kookaburra/03-observation.webp",
         "title": "从高处往下看",
-        "alt": "笑翠鸟：从高处往下看",
+        "alt": '从高处往下看',
         "caption": "AI 生成科学情景重建。它停在枝头观察地面，发现猎物后会扑下去捕捉。",
         "focalPoint": {
           "x": 0.5,
@@ -85126,7 +85132,7 @@ export const species = [
       {
         "image": "./images/species/laughing-kookaburra/04-observation.webp",
         "title": "嘴里捉着小虫",
-        "alt": "笑翠鸟：嘴里捉着小虫",
+        "alt": '嘴里捉着小虫',
         "caption": "AI 生成科学情景重建。昆虫是笑翠鸟的食物之一。它也会吃蠕虫和小型脊椎动物。",
         "focalPoint": {
           "x": 0.5,
@@ -85137,7 +85143,7 @@ export const species = [
       {
         "image": "./images/species/laughing-kookaburra/05-observation.webp",
         "title": "树洞旁的鸟",
-        "alt": "笑翠鸟：树洞旁的鸟",
+        "alt": '树洞旁的鸟',
         "caption": "AI 生成科学情景重建。笑翠鸟会利用天然树洞筑巢，家族中的其他成员也可能帮忙照料幼鸟。",
         "focalPoint": {
           "x": 0.5,
@@ -85148,7 +85154,7 @@ export const species = [
       {
         "image": "./images/species/laughing-kookaburra/06-observation.webp",
         "title": "张嘴鸣叫",
-        "alt": "笑翠鸟：张嘴鸣叫",
+        "alt": '张嘴鸣叫',
         "caption": "AI 生成科学情景重建。两只鸟停在枝头，一只张开嘴。听起来像笑声的鸣叫可用来宣示领地，不能据此判断它开心。",
         "focalPoint": {
           "x": 0.5,
@@ -85176,7 +85182,13 @@ export const species = [
       "url": "https://birdnet.cornell.edu/taxonomy/species/Dacelo%20novaeguineae",
       "kind": "taxonomy",
       "accessedAt": "2026-09-17"
-    }
+    },
+    {
+      title: 'GBIF：Dacelo novaeguineae 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2475648',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-17",
