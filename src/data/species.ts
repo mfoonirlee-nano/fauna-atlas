@@ -97339,7 +97339,7 @@ export const species = [
       "en": "Critically Endangered"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 CR（极危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -97381,45 +97381,51 @@ export const species = [
     "饼干龟",
     "扁扁的龟壳"
   ],
-  "summary": "从侧面看看它扁扁的壳，再看看岩石缝。",
-  "description": "饼干龟的背甲低而扁，与许多背甲高高拱起的陆龟不同。它生活在东非干燥草原和灌丛中的岩石丘陵。",
+  "summary": '饼干龟用扁平、较灵活的身体钻进岩缝躲藏。它在东非岩石丘陵生活，主要取食草和其他植物。',
+  "description": '饼干龟生活在东非干燥草原、灌丛中的岩石丘陵。低而扁的棕黄色背甲带深色纹路，身体较灵活，能钻进狭窄岩缝躲藏。它用脚爪抓住粗糙岩面，在岩石附近取食草和其他植物。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "扁扁的龟壳",
-      "body": "饼干龟的背甲低而扁，与许多背甲高高拱起的陆龟不同。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '扁扁的龟壳',
+      body: '饼干龟的背甲低而扁，与许多背甲高高拱起的陆龟不同。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "岩缝里的藏身处",
-      "body": "扁平、较灵活的身体让它能够钻进狭窄岩缝躲藏。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '岩缝里的藏身处',
+      body: '扁平、较灵活的身体让它能够钻进狭窄岩缝躲藏。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "地上的植物",
-      "body": "它主要取食草和其他植物，常在岩石附近寻找食物。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '地上的植物',
+      body: '它主要取食草和其他植物，常在岩石附近寻找食物。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "壳上的棕色纹路",
-      "body": "棕黄色甲片上有深色纹路，和干燥岩地的颜色接近。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '壳上的棕色纹路',
+      body: '棕黄色甲片上有深色纹路，和干燥岩地的颜色接近。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "脚抓住岩面",
-      "body": "它能用脚爪抓住粗糙岩面，在岩石之间攀爬。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '脚抓住岩面',
+      body: '它能用脚爪抓住粗糙岩面，在岩石之间攀爬。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护岩石栖息地，不购买来源不明的野生龟。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护岩石栖息地，不购买来源不明的野生龟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '人名和扁平龟壳',
+      body: 'Siebenrock 在 1903 年发表的原名是 Testudo tornieri，今天采用 Malacochersus tornieri。种名 tornieri 纪念德国动物学家 Gustav Tornier。俗名“饼干龟”和英文 Pancake Tortoise 则把人们的视线引向扁平龟壳，这样的身体能钻进岩石缝隙。',
+    },
   ],
   "keyFacts": [
     "饼干龟的背甲低而扁，与许多背甲高高拱起的陆龟不同。",
@@ -97526,7 +97532,13 @@ export const species = [
       "url": "https://www.belfastcity.gov.uk/zoo/our-animals/reptiles/pancake-tortoise",
       "kind": "conservation",
       "accessedAt": "2026-09-21"
-    }
+    },
+    {
+      title: 'The Reptile Database：饼干龟名称词源',
+      url: 'https://reptile-database.reptarium.cz/Malacochersus/tornieri',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-21",
