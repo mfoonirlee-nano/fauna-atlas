@@ -157990,7 +157990,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "本次未核实可引用的 IUCN 全球评估，暂用 NE 作为资料占位，不宣称该物种从未接受评估；地方常见程度或 NatureServe 等级不转换为 IUCN 等级。"
+    "assessor": '尚未确认可引用的 IUCN 全球评估；“未评估”表示资料缺口，不能据此判断种群安全。地方记录或 NatureServe 等级不能代替 IUCN 全球等级。'
   },
   "distribution": {
     "realms": [
@@ -158004,13 +158004,13 @@ export const species = [
       "地中海地区"
     ],
     "countries": [],
-    "range": "2012 年 Mengenilla 属研究汇总本种在北非、西班牙、葡萄牙、克里特、马耳他及意大利的记录。本档案用地中海石隙重建环境，不代表新的采集或当前完整范围。"
+    "range": '2012 年属级研究汇总了本种在北非、西班牙、葡萄牙、克里特、马耳他与意大利的记录。这些地点并非当前完整分布边界。'
   },
   "habitats": [
     {
       "name": "地中海地区石隙",
       "realm": "terrestrial",
-      "description": "2012 年 Mengenilla 属研究汇总本种在北非、西班牙、葡萄牙、克里特、马耳他及意大利的记录。本档案用地中海石隙重建环境，不代表新的采集或当前完整范围。",
+      "description": '本种在地中海周边多地有记录，幼虫的生活与衣鱼宿主相联系。',
       "isPrimary": true
     }
   ],
@@ -158022,56 +158022,64 @@ export const species = [
     "foods": [
       "幼期从衣鱼宿主获得营养"
     ],
-    "description": "幼期在宿主体内发育并从宿主获得营养。物种研究记录本种宿主为衣鱼类 Ctenolepisma ciliata；不把其他捻翅虫寄生蜂或蝉的记录算作本种宿主。未核实本种成虫食谱。"
+    "description": '幼虫从衣鱼宿主体内获得营养，研究记录的宿主为 Ctenolepisma ciliata。本种成虫的食谱尚缺确认资料。'
   },
   "tags": [
     "捻翅虫",
     "地中海地区石隙"
   ],
-  "summary": "捻翅虫：雄性成虫有分枝触角、大复眼和一对扇形后翅，前翅缩小。",
-  "description": "雄性成虫有分枝触角、大复眼和一对扇形后翅，前翅缩小。雌性成虫无翅，身体较柔软，保留足；本种不能套用多数捻翅虫雌性终生留在宿主体内的形态。2012 年 Mengenilla 属研究汇总本种在北非、西班牙、葡萄牙、克里特、马耳他及意大利的记录。本档案用地中海石隙重建环境，不代表新的采集或当前完整范围。",
+  "summary": '这种捻翅虫的雄虫有扇形后翅，雌虫无翅。幼虫在衣鱼宿主体内发育，晚期会离开宿主化蛹。',
+  "description": '雄虫有分枝触角和大复眼，前翅缩小；雌虫身体较软，保留足，能离开蛹壳。它的雌虫与多数终生留在宿主体内的捻翅虫不同。',
   "storySections": [
     {
-      "key": "appearance",
-      "label": "身体外观",
-      "title": "先找身体上的特点",
-      "body": "雄性成虫有分枝触角、大复眼和一对扇形后翅，前翅缩小。雌性成虫无翅，身体较柔软，保留足；本种不能套用多数捻翅虫雌性终生留在宿主体内的形态。"
+      key: 'appearance',
+      label: '身体外观',
+      title: '雄虫有翅，雌虫无翅',
+      body: '雄性成虫有分枝触角、大复眼和一对扇形后翅，前翅缩小。雌性成虫无翅，身体较软，仍保留足。',
     },
     {
-      "key": "habitat",
-      "label": "栖息环境",
-      "title": "它生活在哪里",
-      "body": "2012 年 Mengenilla 属研究汇总本种在北非、西班牙、葡萄牙、克里特、马耳他及意大利的记录。本档案用地中海石隙重建环境，不代表新的采集或当前完整范围。"
+      key: 'habitat',
+      label: '栖息环境',
+      title: '地中海周边的研究记录',
+      body: '2012 年 Mengenilla 属研究汇总了本种在北非、西班牙、葡萄牙、克里特、马耳他及意大利的记录。',
     },
     {
-      "key": "feeding",
-      "label": "取食",
-      "title": "食物与生活阶段",
-      "body": "幼期在宿主体内发育并从宿主获得营养。物种研究记录本种宿主为衣鱼类 Ctenolepisma ciliata；不把其他捻翅虫寄生蜂或蝉的记录算作本种宿主。未核实本种成虫食谱。"
+      key: 'feeding',
+      label: '取食',
+      title: '幼虫从衣鱼宿主获得营养',
+      body: '幼虫在宿主体内发育并获取营养。本种记录的宿主为衣鱼类 Ctenolepisma ciliata，成虫的具体食谱尚未确认。',
     },
     {
-      "key": "life-cycle",
-      "label": "生活史",
-      "title": "对照生活阶段",
-      "body": "Mengenillidae 的晚期幼虫离开衣鱼宿主后化蛹，雄虫有翅，雌虫无翅且保留足。本种雌虫能离开蛹壳；文献也记录留在蛹壳内的情形。本批仅重建成虫，未生成感染过程。"
+      key: 'life-cycle',
+      label: '生活史',
+      title: '离开宿主后化蛹',
+      body: '本种所属科的晚期幼虫离开衣鱼宿主后化蛹。雄虫有翅，雌虫无翅且保留足。本种雌虫能离开蛹壳，文献也记录了留在蛹壳内的情形。',
     },
     {
-      "key": "taxonomy",
-      "label": "分类归属",
-      "title": "学名与中文标签",
-      "body": "学名为 Mengenilla chobauti，采用节肢动物门、昆虫纲、捻翅目、门氏捻翅虫科。中文名沿用选题展示标签；少见科属中文名为项目标签，接受学名承担物种定位。分类图谱只表达归属关系。"
+      key: 'taxonomy',
+      label: '分类归属',
+      title: '捻翅目中的 Mengenilla chobauti',
+      body: '捻翅虫的学名为 Mengenilla chobauti，属于昆虫纲、捻翅目和门氏捻翅虫科。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起看图",
-      "body": "对照雄虫和雌虫，找找哪一只有翅膀。放大图不按实测比例；分枝触角、复眼小面与雌性外观只作共读，不用于显微鉴定或计数。本次未核实可引用的 IUCN 全球评估，NE 暂作资料占位。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '全球保护资料待补充',
+      body: '尚未确认可引用的 IUCN 全球评估，全球数量趋势也未确认。“未评估”表示资料缺口。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '离开宿主的雌虫提供形态比较线索',
+      body: 'Hofeneder 于 1910 年描述了这个物种，现用学名为 Mengenilla chobauti。本种雌虫无翅但保留足，能够离开蛹壳，与许多终生留在宿主体内的捻翅虫雌性不同。2012 年属级分类研究比较了相关形态，并汇总本种分布和衣鱼宿主记录，因此不能把其他捻翅虫的外形和宿主直接套用给它。',
+    },
   ],
   "keyFacts": [
-    "雄性成虫有分枝触角、大复眼和一对扇形后翅，前翅缩小。雌性成虫无翅，身体较柔软，保留足；本种不能套用多数捻翅虫雌性终生留在宿主体内的形态。",
-    "Mengenillidae 的晚期幼虫离开衣鱼宿主后化蛹，雄虫有翅，雌虫无翅且保留足。本种雌虫能离开蛹壳；文献也记录留在蛹壳内的情形。本批仅重建成虫，未生成感染过程。",
-    "图片为 AI 科学情景重建，尺度非实测；静图不能证明连续动作或作为种级鉴定依据。"
+    '雄虫有分枝触角与大复眼。',
+    '雄虫后翅呈扇形，前翅缩小。',
+    '雌虫无翅，但保留足。',
+    '幼虫寄生于衣鱼类 Ctenolepisma ciliata。',
+    '晚期幼虫离开宿主后化蛹。',
   ],
   "threats": [],
   "conservationActions": [
@@ -158083,7 +158091,7 @@ export const species = [
     {
       "key": "observation",
       "label": "共读观察",
-      "value": "对照雄虫和雌虫，找找哪一只有翅膀。放大图不按实测比例；分枝触角、复眼小面与雌性外观只作共读，不用于显微鉴定或计数。"
+      "value": '雄虫的分枝触角与扇形后翅，以及无翅雌虫的足。'
     }
   ],
   "media": {
@@ -158098,8 +158106,8 @@ export const species = [
       {
         "image": "./images/species/mengenilla-chobauti/02-observation.webp",
         "title": "有翅的雄虫",
-        "alt": "捻翅虫：有翅的雄虫，AI 生成科学情景重建",
-        "caption": "AI 生成科学情景重建。雄性成虫；一对扇形后翅。",
+        "alt": '有翅的雄虫，AI 生成科学情景重建',
+        "caption": 'AI 生成科学情景重建。雄性成虫；一对扇形后翅。图像尺度未经实测，不能用于物种鉴定或判断连续动作。',
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -158109,7 +158117,7 @@ export const species = [
       {
         "image": "./images/species/mengenilla-chobauti/03-observation.webp",
         "title": "雄虫的触角与眼睛",
-        "alt": "捻翅虫：雄虫的触角与眼睛，AI 生成科学情景重建",
+        "alt": '雄虫的触角与眼睛，AI 生成科学情景重建',
         "caption": "AI 生成科学情景重建。雄性成虫头部放大，复眼小面为近似重建。",
         "focalPoint": {
           "x": 0.5,
@@ -158120,7 +158128,7 @@ export const species = [
       {
         "image": "./images/species/mengenilla-chobauti/04-observation.webp",
         "title": "无翅的雌虫",
-        "alt": "捻翅虫：无翅的雌虫，AI 生成科学情景重建",
+        "alt": '无翅的雌虫，AI 生成科学情景重建',
         "caption": "AI 生成科学情景重建。雌性成虫，无翅且保留足，可离开宿主生活；不是宿主体内无足雌虫。",
         "focalPoint": {
           "x": 0.5,
@@ -158131,7 +158139,7 @@ export const species = [
       {
         "image": "./images/species/mengenilla-chobauti/05-observation.webp",
         "title": "后翅与缩小的前翅",
-        "alt": "捻翅虫：后翅与缩小的前翅，AI 生成科学情景重建",
+        "alt": '后翅与缩小的前翅，AI 生成科学情景重建',
         "caption": "AI 生成科学情景重建。雄性成虫；扇形后翅与缩小前翅的外观重建。",
         "focalPoint": {
           "x": 0.5,
@@ -158142,7 +158150,7 @@ export const species = [
       {
         "image": "./images/species/mengenilla-chobauti/06-observation.webp",
         "title": "石隙旁的雄虫",
-        "alt": "捻翅虫：石隙旁的雄虫，AI 生成科学情景重建",
+        "alt": '石隙旁的雄虫，AI 生成科学情景重建',
         "caption": "AI 生成科学情景重建。雄性成虫与地中海石隙场景，非新野外记录。",
         "focalPoint": {
           "x": 0.5,
