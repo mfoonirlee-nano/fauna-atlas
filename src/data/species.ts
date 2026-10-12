@@ -84726,7 +84726,7 @@ export const species = [
     {
       "name": "近水的干旱灌丛与疏林",
       "realm": "terrestrial",
-      "description": "原生于安哥拉西南部、纳米比亚和南非西北部等非洲西南地区，常在有水源的干旱环境活动。",
+      "description": '近水的干旱灌丛和疏林提供草籽、树木种子与花。鸟群需要饮水位置，树枝可供抓握停留。',
       "isPrimary": true
     }
   ],
@@ -84758,51 +84758,57 @@ export const species = [
     "粉红色的脸"
   ],
   "summary": "野生原色桃脸牡丹鹦鹉身体以绿色为主，脸和喉部桃粉色，腰部蓝色。它尾巴较短，人工培育的个体还可能有其他颜色。",
-  "description": "野生原色桃脸牡丹鹦鹉以绿色为主，脸和喉部桃粉色，腰部蓝色，尾巴较短。人工培育的颜色变异不代表本档案展示的野生原色。",
+  "description": '桃脸牡丹鹦鹉常结群活动，拾取植物上或地面的种子，再剥去外壳。雌鸟会把细条状巢材夹在腰部羽毛间搬运；野生原色与人工培育的颜色变异有差别。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "粉红色的脸",
-      "body": "从浅色弯嘴旁边找起，脸颊和喉部都有桃粉色羽毛。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '粉红色的脸',
+      body: '浅色弯喙旁的脸颊和喉部带桃粉色羽毛。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "藏在背后的蓝色",
-      "body": "转到背面看看，绿色身体和短尾巴之间能看到蓝色腰部。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '藏在背后的蓝色',
+      body: '绿色身体与短尾之间有蓝色腰部。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "找草籽吃",
-      "body": "它们会从植物上或地面拾取种子，再剥去外壳。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '找草籽吃',
+      body: '它拾取植物上或地面的种子，剥去外壳后进食。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "羽毛里夹着材料",
-      "body": "雌鸟能把整理好的细条状巢材夹在腰部羽毛间搬运。图中用这一行为帮助观察羽毛和材料的位置。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '羽毛里夹着材料',
+      body: '雌鸟将细条状巢材夹在腰部羽毛间，运到筑巢位置。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "靠近同伴",
-      "body": "桃脸牡丹鹦鹉常结群活动。看看两只鸟停在树枝上时，脚怎样抓住枝条。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '靠近同伴',
+      body: '桃脸牡丹鹦鹉常结群活动，用脚抓住枝条停留。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "全球等级为无危。野外观察时不要干扰巢穴；饲养的鸟也不应随意放到野外。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: '全球等级为无危。野外观察时不要干扰巢穴；饲养的鸟也不应随意放到野外。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '桃粉色脸，羽毛还帮忙搬材料',
+      body: 'Vieillot 于 1818 年描述了这个物种，现用学名为 Agapornis roseicollis。“桃脸”对应脸颊和喉部的桃粉色羽毛。更有趣的是腰部羽毛的用途：雌鸟将细条状巢材夹在羽毛间，带着材料回巢，不需要全部衔在嘴里。',
+    },
   ],
   "keyFacts": [
-    "从浅色弯嘴旁边找起，脸颊和喉部都有桃粉色羽毛。",
-    "转到背面看看，绿色身体和短尾巴之间能看到蓝色腰部。",
-    "它们会从植物上或地面拾取种子，再剥去外壳。",
-    "雌鸟能把整理好的细条状巢材夹在腰部羽毛间搬运。图中用这一行为帮助观察羽毛和材料的位置。",
-    "桃脸牡丹鹦鹉常结群活动。看看两只鸟停在树枝上时，脚怎样抓住枝条。"
+    '浅色弯喙旁的脸颊和喉部带桃粉色羽毛。',
+    '绿色身体与短尾之间有蓝色腰部。',
+    '它拾取植物上或地面的种子，剥去外壳后进食。',
+    '雌鸟将细条状巢材夹在腰部羽毛间，运到筑巢位置。',
+    '桃脸牡丹鹦鹉常结群活动，用脚抓住枝条停留。',
   ],
   "threats": [
     "局部栖息地改变",
@@ -84842,7 +84848,7 @@ export const species = [
       {
         "image": "./images/species/rosy-faced-lovebird/02-observation.webp",
         "title": "粉红色的脸",
-        "alt": "桃脸牡丹鹦鹉：粉红色的脸",
+        "alt": '粉红色的脸',
         "caption": "AI 生成科学情景重建。从浅色弯嘴旁边找起，脸颊和喉部都有桃粉色羽毛。",
         "focalPoint": {
           "x": 0.5,
@@ -84853,7 +84859,7 @@ export const species = [
       {
         "image": "./images/species/rosy-faced-lovebird/03-observation.webp",
         "title": "藏在背后的蓝色",
-        "alt": "桃脸牡丹鹦鹉：藏在背后的蓝色",
+        "alt": '藏在背后的蓝色',
         "caption": "AI 生成科学情景重建。转到背面看看，绿色身体和短尾巴之间能看到蓝色腰部。",
         "focalPoint": {
           "x": 0.5,
@@ -84864,7 +84870,7 @@ export const species = [
       {
         "image": "./images/species/rosy-faced-lovebird/04-observation.webp",
         "title": "找草籽吃",
-        "alt": "桃脸牡丹鹦鹉：找草籽吃",
+        "alt": '找草籽吃',
         "caption": "AI 生成科学情景重建。它们会从植物上或地面拾取种子，再剥去外壳。",
         "focalPoint": {
           "x": 0.5,
@@ -84875,7 +84881,7 @@ export const species = [
       {
         "image": "./images/species/rosy-faced-lovebird/05-observation.webp",
         "title": "羽毛里夹着材料",
-        "alt": "桃脸牡丹鹦鹉：羽毛里夹着材料",
+        "alt": '羽毛里夹着材料',
         "caption": "AI 生成科学情景重建。雌鸟能把整理好的细条状巢材夹在腰部羽毛间搬运。图中用这一行为帮助观察羽毛和材料的位置。",
         "focalPoint": {
           "x": 0.5,
@@ -84886,7 +84892,7 @@ export const species = [
       {
         "image": "./images/species/rosy-faced-lovebird/06-observation.webp",
         "title": "靠近同伴",
-        "alt": "桃脸牡丹鹦鹉：靠近同伴",
+        "alt": '靠近同伴',
         "caption": "AI 生成科学情景重建。桃脸牡丹鹦鹉常结群活动。看看两只鸟停在树枝上时，脚怎样抓住枝条。",
         "focalPoint": {
           "x": 0.5,
@@ -84914,7 +84920,13 @@ export const species = [
       "url": "https://www.allaboutbirds.org/guide/Rosy-faced_Lovebird/overview",
       "kind": "taxonomy",
       "accessedAt": "2026-09-16"
-    }
+    },
+    {
+      title: 'GBIF：Agapornis roseicollis 的命名作者与年份',
+      url: 'https://www.gbif.org/species/9770031',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-16",
