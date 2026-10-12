@@ -106904,7 +106904,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "所列来源支持全球类别；未核实独立评估日期，年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -106919,13 +106919,13 @@ export const species = [
     "countries": [
       "马达加斯加"
     ],
-    "range": "马达加斯加特有，生活在岛屿东部等地的湿润森林低层枝叶间。此档案只指 Uroplatus phantasticus，不泛指全部叶尾守宫。"
+    "range": '马达加斯加特有，生活在岛屿东部等地的湿润森林低层枝叶间。这里介绍 Uroplatus phantasticus 这一种。'
   },
   "habitats": [
     {
       "name": "雨林低层枝叶",
       "realm": "terrestrial",
-      "description": "马达加斯加特有，生活在岛屿东部等地的湿润森林低层枝叶间。此档案只指 Uroplatus phantasticus，不泛指全部叶尾守宫。",
+      "description": '马达加斯加湿润森林低层的枝叶间。',
       "isPrimary": true
     }
   ],
@@ -106943,45 +106943,51 @@ export const species = [
     "叶尾守宫",
     "像枯叶的尾巴"
   ],
-  "summary": "把它扁扁的尾巴和旁边的枯叶放在一起看。",
+  "summary": '叶尾守宫在马达加斯加湿润森林的低层枝叶间生活，夜间活动。扁平尾巴和身体颜色帮助它融入枯叶。',
   "description": "叶尾守宫的身体呈褐色、灰色或锈色，扁平的尾巴带着不规则边缘，看起来像一片枯叶。它在马达加斯加雨林的树枝和灌木间生活。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "像枯叶的尾巴",
-      "body": "尾巴扁平，边缘像枯叶的缺口。沿着尾巴看看形状，再与旁边的叶子比较。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '像枯叶的尾巴',
+      body: '尾巴扁平，边缘像枯叶的缺口。沿着尾巴看看形状，再与旁边的叶子比较。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "大眼睛与小尖鳞",
-      "body": "它有大眼睛和竖直瞳孔，眼睛上方的尖鳞像小小的角。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '大眼睛与小尖鳞',
+      body: '它有大眼睛和竖直瞳孔，眼睛上方的尖鳞像小小的角。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "抓住细树枝",
-      "body": "看看四条腿上的脚趾怎样抓住枝条。它常在离地不高的枝叶间活动。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '抓住细树枝',
+      body: '看看四条腿上的脚趾怎样抓住枝条。它常在离地不高的枝叶间活动。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "藏在枯叶之间",
-      "body": "褐色斑纹和不规则轮廓让身体融进枝叶背景。先找眼睛，再顺着身体找到尾巴。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '藏在枯叶之间',
+      body: '褐色斑纹和不规则轮廓让身体融进枝叶背景。先找眼睛，再顺着身体找到尾巴。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "夜间活动",
-      "body": "它主要在夜里活动，白天休息。野外食谱研究有限；人工照护下会吃蟋蟀和蛾等小型无脊椎动物。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '夜间活动',
+      body: '它主要在夜里活动，白天休息。野外食谱研究有限；人工照护下会吃蟋蟀和蛾等小型无脊椎动物。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护马达加斯加雨林，不捕捉野生守宫，也不购买来历不明的野生动物。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护马达加斯加雨林，不捕捉野生守宫，也不购买来历不明的野生动物。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '叶片般的尾巴与种名解释',
+      body: 'Boulenger 在 1888 年发表了叶尾守宫的科学描述。爬行动物数据库推测，种名 phantasticus 与它奇特的外形，尤其是叶片般的样子有关；这项词源解释仍带有不确定性。中文名“叶尾”则能直接对照扁平、边缘带缺口的尾巴。',
+    },
   ],
   "keyFacts": [
     "尾巴扁平，边缘像枯叶的缺口。沿着尾巴看看形状，再与旁边的叶子比较。",
