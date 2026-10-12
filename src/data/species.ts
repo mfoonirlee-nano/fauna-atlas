@@ -121422,7 +121422,7 @@ export const species = [
       "en": "Vulnerable"
     },
     "trend": "unknown",
-    "assessor": "采用 MDD 拆分后的 Spilogale putorius，排除 S. interrupta；保留 todo 中文名斑灵猫，别名东部斑臭鼬。MDD 列 IUCN 易危，但评估年份及评估与拆分范围的对应尚未独立核实，不把旧广义分布和数量直接套用。"
+    "assessor": '数据库列 VU（易危）；评估年份、该等级是否对应拆分后的范围尚未独立确认。'
   },
   "distribution": {
     "realms": [
@@ -121439,7 +121439,7 @@ export const species = [
     {
       "name": "林地、灌丛与林缘",
       "realm": "terrestrial",
-      "description": "斑灵猫身上有断开的白纹和白斑，尾巴蓬松。它属于臭鼬科，会在林地和灌丛间寻找食物。",
+      "description": '美国密西西比河以东部分地区的林地、灌丛和林缘。',
       "isPrimary": true
     }
   ],
@@ -121459,45 +121459,51 @@ export const species = [
     "斑灵猫",
     "林地、灌丛与林缘"
   ],
-  "summary": "斑灵猫身上有断开的白纹和白斑，尾巴蓬松。它属于臭鼬科，会在林地和灌丛间寻找食物。",
-  "description": "斑灵猫身上有断开的白纹和白斑，尾巴蓬松。它属于臭鼬科，会在林地和灌丛间寻找食物。背上和身体两侧的白纹会分开成白斑。看看哪些白色部分连在一起，哪些隔着黑毛。",
+  "summary": '斑灵猫是黑白斑纹的斑臭鼬，在林地找昆虫和小动物，利用洞穴育幼。受惊时可能倒立警戒并释放气味。',
+  "description": '斑灵猫是美国东部的斑臭鼬，黑毛上有断开的白纹、白斑，尾巴蓬松，尾尖白色。它在林地和灌丛寻找昆虫、小动物和鸟卵，利用洞穴休息育幼。受惊时可能倒立警戒，再释放强烈气味。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "断开的白色条纹",
-      "body": "背上和身体两侧的白纹会分开成白斑。看看哪些白色部分连在一起，哪些隔着黑毛。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '断开的白色条纹',
+      body: '背上和身体两侧的白纹会分开成白斑。看看哪些白色部分连在一起，哪些隔着黑毛。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "额头的一块白",
-      "body": "鼻子上方有一块白色，耳朵小而圆。从鼻尖向上找找这块浅色花纹。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '额头的一块白',
+      body: '鼻子上方有一块白色，耳朵小而圆。从鼻尖向上找找这块浅色花纹。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "蓬松的长尾巴",
-      "body": "长尾巴上长着蓬松的毛，尾端有白色。看看尾巴抬起时和身体形成什么轮廓。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '蓬松的长尾巴',
+      body: '长尾巴上长着蓬松的毛，尾端有白色。看看尾巴抬起时和身体形成什么轮廓。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "落叶旁找食物",
-      "body": "斑灵猫会吃昆虫和小型动物，食物随季节变化。图中展示嗅闻落叶的情景，没有把某片叶子当作食物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '落叶旁找食物',
+      body: '斑灵猫会吃昆虫和小型动物，食物随季节变化。图中展示嗅闻落叶的情景，没有把某片叶子当作食物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "根旁的藏身处",
-      "body": "它会利用地下洞穴等隐蔽处休息、育幼。看图找洞口，不把手伸进野外洞穴。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '根旁的藏身处',
+      body: '它会利用地下洞穴等隐蔽处休息、育幼。看图找洞口，不把手伸进野外洞穴。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "它受惊时可能倒立警戒并释放气味。共读时看自然活动图片，不靠近或刺激动物来观察这种动作。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '它受惊时可能倒立警戒并释放气味。共读时看自然活动图片，不靠近或刺激动物来观察这种动作。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '金雕调查相机里的意外来客',
+      body: 'Linnaeus 在 1758 年发表了斑灵猫的科学描述，今天采用 Spilogale putorius，也叫东部斑臭鼬。二十一世纪初，弗吉尼亚州研究金雕的自动相机意外拍到了它，引起生物学家的关注，2013 年当地大学开始专门研究。现行物种范围还排除了过去合并的 S. interrupta。',
+    },
   ],
   "keyFacts": [
     "背上和身体两侧的白纹会分开成白斑。看看哪些白色部分连在一起，哪些隔着黑毛。",
@@ -121613,7 +121619,13 @@ export const species = [
       "url": "https://dwr.virginia.gov/blog/understanding-the-eastern-spotted-skunk-is-a-step-toward-conserving-it/",
       "kind": "conservation",
       "accessedAt": "2026-09-25"
-    }
+    },
+    {
+      title: 'GBIF：斑灵猫的科学命名记录',
+      url: 'https://www.gbif.org/species/2434831',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-25",
