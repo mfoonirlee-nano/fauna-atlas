@@ -105695,45 +105695,51 @@ export const species = [
     "小豆长喙天蛾",
     "停在花前的空中"
   ],
-  "summary": "看看它悬停在花前时伸出的细长喙。",
+  "summary": '小豆长喙天蛾白天在花前悬停、伸长喙吸蜜。灰褐前翅后面露出橙色后翅，幼虫以植物叶片为食。',
   "description": "小豆长喙天蛾白天也会活动。它的前翅灰褐，后翅橙色，成虫在花前快速振翅吸蜜；幼虫在食草上吃叶。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "停在花前的空中",
-      "body": "它能一边扇翅一边停留在花前，把长喙伸进花里吸蜜。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '停在花前的空中',
+      body: '它能一边扇翅一边停留在花前，把长喙伸进花里吸蜜。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "休息时收起喙",
-      "body": "不用吸蜜时，细长的喙可以卷起来，收在头部下面。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '休息时收起喙',
+      body: '不用吸蜜时，细长的喙可以卷起来，收在头部下面。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "橙色的后翅",
-      "body": "飞动时，灰褐色前翅后面会露出橙色的后翅。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '橙色的后翅',
+      body: '飞动时，灰褐色前翅后面会露出橙色的后翅。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "叶子上的毛毛虫",
-      "body": "幼虫吃植物的叶子，绿色身体上有浅色纵线，后端长着一根小角。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '叶子上的毛毛虫',
+      body: '幼虫吃植物的叶子，绿色身体上有浅色纵线，后端长着一根小角。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "花丛间飞行",
-      "body": "白天也能看见它在花间活动。花朵可以帮助我们感受这只小昆虫的大小。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '花丛间飞行',
+      body: '白天也能看见它在花间活动。花朵可以帮助我们感受这只小昆虫的大小。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留多种本地花草和幼虫食草，减少不必要的杀虫剂使用。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留多种本地花草和幼虫食草，减少不必要的杀虫剂使用。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '花前悬停的蛾',
+      body: 'Linnaeus 在 1758 年发表 Macroglossum stellatarum 这个名称。英文俗名 Hummingbird Hawk-moth 可以与花前悬停、伸喙吸蜜的姿势联系起来，它仍是一只蛾。成虫白天活动，幼虫吃叶，长大时外形和食物都有变化。',
+    },
   ],
   "keyFacts": [
     "它能一边扇翅一边停留在花前，把长喙伸进花里吸蜜。",
@@ -105839,7 +105845,13 @@ export const species = [
       "url": "https://eunis.eea.europa.eu/species/Macroglossum%20stellatarum",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：小豆长喙天蛾的科学命名记录',
+      url: 'https://www.gbif.org/species/1864652',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
