@@ -1,0 +1,479 @@
+{
+  "reviewedAt": "2026-10-12",
+  "coverSha256": "090e16d7c7d092c65883d83fd36ec37abd2d51943050e833e96d8c8be8b1051b",
+  "subject": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 645,
+      "top": 265,
+      "right": 1445,
+      "bottom": 715
+    }
+  },
+  "focalPoint": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "method": "current fitHeroSubject geometry; mobile full-image contain; 24px inset",
+  "animationEndpoints": [
+    "initial",
+    "enter-forward",
+    "leave-forward",
+    "enter-backward",
+    "leave-backward",
+    "settled"
+  ],
+  "animationGeometry": "opacity only; identical placement at all endpoints",
+  "frames": [
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "panel": [
+        320,
+        260
+      ],
+      "contentGrowth": 0,
+      "image": {
+        "width": 272.0,
+        "height": 181.33333333333334,
+        "left": 24.0,
+        "top": 39.33333333333333
+      },
+      "subjectCss": [
+        141.66666666666669,
+        79.6875
+      ],
+      "edges": {
+        "left": 138.21875,
+        "top": 86.26041666666666,
+        "right": 279.8854166666667,
+        "bottom": 165.94791666666669
+      },
+      "minimumClearance": 40.114583333333314
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "panel": [
+        390,
+        292.5
+      ],
+      "contentGrowth": 0.0,
+      "image": {
+        "width": 342.0,
+        "height": 228.0,
+        "left": 24.0,
+        "top": 32.25
+      },
+      "subjectCss": [
+        178.125,
+        100.1953125
+      ],
+      "edges": {
+        "left": 167.61328125,
+        "top": 91.25390625,
+        "right": 345.73828125,
+        "bottom": 191.44921875
+      },
+      "minimumClearance": 44.26171875
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        760
+      ],
+      "contentGrowth": 0,
+      "image": {
+        "width": 707.4662400000001,
+        "height": 471.64416000000006,
+        "left": -273.08055,
+        "top": 154.31089999999998
+      },
+      "subjectCss": [
+        368.47200000000004,
+        207.26550000000003
+      ],
+      "edges": {
+        "left": 24.0,
+        "top": 276.36725,
+        "right": 392.4720000000001,
+        "bottom": 483.63275
+      },
+      "minimumClearance": 23.999999999999943
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        920
+      ],
+      "contentGrowth": 160,
+      "image": {
+        "width": 707.4662400000001,
+        "height": 471.64416000000006,
+        "left": -273.08055,
+        "top": 234.31089999999998
+      },
+      "subjectCss": [
+        368.47200000000004,
+        207.26550000000003
+      ],
+      "edges": {
+        "left": 24.0,
+        "top": 356.36725,
+        "right": 392.4720000000001,
+        "bottom": 563.63275
+      },
+      "minimumClearance": 23.999999999999943
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        760
+      ],
+      "contentGrowth": 0,
+      "image": {
+        "width": 854.784,
+        "height": 569.856,
+        "left": -334.9425,
+        "top": 107.315
+      },
+      "subjectCss": [
+        445.2,
+        250.425
+      ],
+      "edges": {
+        "left": 24.0,
+        "top": 254.7875,
+        "right": 469.20000000000005,
+        "bottom": 505.2125
+      },
+      "minimumClearance": 23.999999999999943
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        920
+      ],
+      "contentGrowth": 160,
+      "image": {
+        "width": 854.784,
+        "height": 569.856,
+        "left": -334.9425,
+        "top": 187.315
+      },
+      "subjectCss": [
+        445.2,
+        250.425
+      ],
+      "edges": {
+        "left": 24.0,
+        "top": 334.7875,
+        "right": 469.20000000000005,
+        "bottom": 585.2125
+      },
+      "minimumClearance": 23.999999999999943
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        768
+      ],
+      "contentGrowth": 0,
+      "image": {
+        "width": 1066.752,
+        "height": 711.168,
+        "left": -423.95250000000004,
+        "top": 43.69499999999999
+      },
+      "subjectCss": [
+        555.6,
+        312.525
+      ],
+      "edges": {
+        "left": 23.999999999999943,
+        "top": 227.73749999999998,
+        "right": 579.5999999999999,
+        "bottom": 540.2625
+      },
+      "minimumClearance": 23.999999999999943
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        928
+      ],
+      "contentGrowth": 160,
+      "image": {
+        "width": 1066.752,
+        "height": 711.168,
+        "left": -423.95250000000004,
+        "top": 123.695
+      },
+      "subjectCss": [
+        555.6,
+        312.525
+      ],
+      "edges": {
+        "left": 23.999999999999943,
+        "top": 307.73749999999995,
+        "right": 579.5999999999999,
+        "bottom": 620.2625
+      },
+      "minimumClearance": 23.999999999999943
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        768
+      ],
+      "contentGrowth": 0,
+      "image": {
+        "width": 1348.6694400000001,
+        "height": 899.11296,
+        "left": -542.3358000000001,
+        "top": -46.239599999999996
+      },
+      "subjectCss": [
+        702.432,
+        395.118
+      ],
+      "edges": {
+        "left": 24.0,
+        "top": 186.441,
+        "right": 726.432,
+        "bottom": 581.5590000000001
+      },
+      "minimumClearance": 24.0
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        928
+      ],
+      "contentGrowth": 160,
+      "image": {
+        "width": 1348.6694400000001,
+        "height": 899.11296,
+        "left": -542.3358000000001,
+        "top": 33.760400000000004
+      },
+      "subjectCss": [
+        702.432,
+        395.118
+      ],
+      "edges": {
+        "left": 24.0,
+        "top": 266.44100000000003,
+        "right": 726.432,
+        "bottom": 661.5590000000001
+      },
+      "minimumClearance": 24.0
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        900
+      ],
+      "contentGrowth": 0,
+      "image": {
+        "width": 1896.6528000000003,
+        "height": 1264.4352000000001,
+        "left": -772.4460000000001,
+        "top": -155.05200000000002
+      },
+      "subjectCss": [
+        987.8400000000001,
+        555.6600000000001
+      ],
+      "edges": {
+        "left": 23.999999999999886,
+        "top": 172.17000000000002,
+        "right": 1011.8400000000001,
+        "bottom": 727.83
+      },
+      "minimumClearance": 23.999999999999886
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        1060
+      ],
+      "contentGrowth": 160,
+      "image": {
+        "width": 1896.6528000000003,
+        "height": 1264.4352000000001,
+        "left": -772.4460000000001,
+        "top": -75.05200000000002
+      },
+      "subjectCss": [
+        987.8400000000001,
+        555.6600000000001
+      ],
+      "edges": {
+        "left": 23.999999999999886,
+        "top": 252.17000000000002,
+        "right": 1011.8400000000001,
+        "bottom": 807.83
+      },
+      "minimumClearance": 23.999999999999886
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354.0,
+        900
+      ],
+      "contentGrowth": 0,
+      "image": {
+        "width": 2507.52,
+        "height": 1671.68,
+        "left": -1028.9625,
+        "top": -349.92500000000007
+      },
+      "subjectCss": [
+        1306.0,
+        734.625
+      ],
+      "edges": {
+        "left": 24.0,
+        "top": 82.68749999999994,
+        "right": 1330.0,
+        "bottom": 817.3124999999999
+      },
+      "minimumClearance": 24.0
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354.0,
+        1060
+      ],
+      "contentGrowth": 160,
+      "image": {
+        "width": 2507.52,
+        "height": 1671.68,
+        "left": -1028.9625,
+        "top": -269.92500000000007
+      },
+      "subjectCss": [
+        1306.0,
+        734.625
+      ],
+      "edges": {
+        "left": 24.0,
+        "top": 162.68749999999994,
+        "right": 1330.0,
+        "bottom": 897.3124999999999
+      },
+      "minimumClearance": 24.0
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994.0,
+        900
+      ],
+      "contentGrowth": 0,
+      "image": {
+        "width": 2908.16,
+        "height": 1938.7733333333333,
+        "left": -981.5333333333333,
+        "top": -477.73333333333335
+      },
+      "subjectCss": [
+        1514.6666666666667,
+        852.0
+      ],
+      "edges": {
+        "left": 239.66666666666674,
+        "top": 24.0,
+        "right": 1754.3333333333335,
+        "bottom": 876.0
+      },
+      "minimumClearance": 24.0
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994.0,
+        1060
+      ],
+      "contentGrowth": 160,
+      "image": {
+        "width": 3454.293333333333,
+        "height": 2302.862222222222,
+        "left": -1353.0888888888885,
+        "top": -571.9555555555555
+      },
+      "subjectCss": [
+        1799.1111111111109,
+        1011.9999999999999
+      ],
+      "edges": {
+        "left": 97.4444444444448,
+        "top": 24.0,
+        "right": 1896.5555555555557,
+        "bottom": 1036.0
+      },
+      "minimumClearance": 24.0
+    }
+  ],
+  "limitations": "Static geometry and image panels do not verify browser typography, full page layout or measured content-driven height."
+}

@@ -5622,4 +5622,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 780
     }
   },
+  "eosentomon-transitorium": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 645,
+      "top": 265,
+      "right": 1445,
+      "bottom": 715
+    }
+  },
 };

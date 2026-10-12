@@ -4977,5 +4977,18 @@
       },
       "sha256": "238f0c50267cc9d262dc82ddd8ed3277202f415d5915ee4708e03cfc478ddadd"
     }
+  },
+  "eosentomon-transitorium": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 645,
+        "top": 265,
+        "right": 1445,
+        "bottom": 715
+      },
+      "sha256": "090e16d7c7d092c65883d83fd36ec37abd2d51943050e833e96d8c8be8b1051b"
+    }
   }
 }

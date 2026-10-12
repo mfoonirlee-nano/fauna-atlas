@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Eosentomon transitorium adult proturan, microscopic pale cream elongated segmented soft body, small conical head WITHOUT antennae and WITHOUT eyes, SIX thoracic legs with front pair raised forward as sensory organs originating from THORAX, other four legs walking, no wings and no long tail cerci. Sparse fine setae. Scientifically restrained reconstruction. Scene: Whole adult on dark damp humus microscope backdrop; front pair of sensory legs held forward, head no antennae. COVER COMPOSITION STRICT: single complete subject in RIGHT region x=760..1410 y=180..840 including every antenna tip and leg or tail tip. Body center x=1090, do not expand any appendage outside this region. LEFT 45% completely quiet blurred backdrop. Full silhouette should be ~650x600 pixels, real empty margin all sides. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "84a678ffea46ef32298ad1d3b811dc2c20f29642193cea29fb8ab15d53706eef",
+      "runtimeSha256": "090e16d7c7d092c65883d83fd36ec37abd2d51943050e833e96d8c8be8b1051b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Eosentomon transitorium adult proturan, microscopic pale cream elongated segmented soft body, small conical head WITHOUT antennae and WITHOUT eyes, SIX thoracic legs with front pair raised forward as sensory organs originating from THORAX, other four legs walking, no wings and no long tail cerci. Sparse fine setae. Scientifically restrained reconstruction. Scene: Whole lateral-oblique adult with clear small head and SIX legs, long tapering segmented abdomen. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "74fb67a8b1f495199b5e00c02a0776c814103ed31599d67a3cb56848cafba933",
+      "runtimeSha256": "e7c5e6573788f4cadf8a3ab9d5c183fb34ed33ec8f4a7a836c1df91204a6a857",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Eosentomon transitorium adult proturan, microscopic pale cream elongated segmented soft body, small conical head WITHOUT antennae and WITHOUT eyes, SIX thoracic legs with front pair raised forward as sensory organs originating from THORAX, other four legs walking, no wings and no long tail cerci. Sparse fine setae. Scientifically restrained reconstruction. Scene: Anterior anatomical reconstruction close view: conical head without antennae or eyes, forelegs originate behind head from first thoracic segment and raised ahead. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "83a112927d3505d4f289e1b8ee7c6c8f6dd9279ade8ccc0362a38763fda8405b",
+      "runtimeSha256": "ea91ebd83f88051f03809250035038dc656861f8762d6d44ffa386e64950ea9c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Eosentomon transitorium adult proturan, microscopic pale cream elongated segmented soft body, small conical head WITHOUT antennae and WITHOUT eyes, SIX thoracic legs with front pair raised forward as sensory organs originating from THORAX, other four legs walking, no wings and no long tail cerci. Sparse fine setae. Scientifically restrained reconstruction. Scene: Dorsal whole adult, clearly segmented abdomen tapering to short terminal end, no cerci. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "b075dc62dfe53fcb7b6d03fc21c9432193d88e43bf091c8b17b8db70df1ea631",
+      "runtimeSha256": "c038d9d508d3371110ce9f609f08b2b46fe3f78bb899d49a7063e0c7e03342a7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Eosentomon transitorium adult proturan, microscopic pale cream elongated segmented soft body, small conical head WITHOUT antennae and WITHOUT eyes, SIX thoracic legs with front pair raised forward as sensory organs originating from THORAX, other four legs walking, no wings and no long tail cerci. Sparse fine setae. Scientifically restrained reconstruction. Scene: Single complete adult among soil pore and decomposing leaf fibers; all thoracic legs distinguishable, no legs along abdomen. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "16ed979928adb3b6a75c056ba99a55976a2f37bffe969db64e08a6a25dd753d9",
+      "runtimeSha256": "87a25f836c56e6ebe939173aacff60794c5f71e6ca4e0a2d22e96401d6f5da39",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Eosentomon transitorium adult proturan, microscopic pale cream elongated segmented soft body, small conical head WITHOUT antennae and WITHOUT eyes, SIX thoracic legs with front pair raised forward as sensory organs originating from THORAX, other four legs walking, no wings and no long tail cerci. Sparse fine setae. Scientifically restrained reconstruction. Scene: Simplified profile illustration whole proturan with FOUR walking legs touching substrate, TWO sensory front legs held aloft, conical head no antennae. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "7868767d5caf31ca95500ef695aa2ee2f5bac39ee4437a3ef798cfcd0c9de284",
+      "runtimeSha256": "a2205921c36d34987f47a2f7f78c90bccc6bea25556caa94fb6e79f7f70e5565",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

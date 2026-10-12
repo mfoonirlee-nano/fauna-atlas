@@ -810,3 +810,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [猫栉首蚤 image set](./species/cat-flea/README.md)
 - [苜蓿跳虫 image set](./species/lucerne-springtail/README.md)
+- [原尾虫 image set](./species/eosentomon-transitorium/README.md)
