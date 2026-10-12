@@ -98399,45 +98399,51 @@ export const species = [
     "蓝贻贝",
     "两片深蓝色贝壳"
   ],
-  "summary": "看看一簇贝壳怎样贴在岩石上。",
-  "description": "蓝贻贝的两片壳合拢在一起，外形细长，壳面有弯曲的生长纹。它生活在北大西洋沿岸的潮间带与浅海硬底。",
+  "summary": '蓝贻贝用足丝固定在岩石上，浸水时滤食，退潮后合壳保水。许多个体聚成贝床，缝隙里住着其他小动物。',
+  "description": '蓝贻贝生活在北大西洋沿岸的潮间带和浅海硬底。它分泌结实的足丝，连接岩石或其他贝壳，常聚成贝床。细长双壳表面有弯曲生长纹，浸水时微张，滤取浮游植物和细颗粒；退潮后合壳减少失水。贝壳之间也给其他小动物提供藏身空间。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "两片深蓝色贝壳",
-      "body": "蓝贻贝的两片壳合拢在一起，外形细长，壳面有弯曲的生长纹。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '两片深蓝色贝壳',
+      body: '蓝贻贝的两片壳合拢在一起，外形细长，壳面有弯曲的生长纹。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "细丝把身体固定住",
-      "body": "它分泌细而结实的足丝，把自己连接到岩石或其他贝壳上。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '细丝把身体固定住',
+      body: '它分泌细而结实的足丝，把自己连接到岩石或其他贝壳上。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "海水带来食物",
-      "body": "浸在水中时，它可以微微张壳，滤取水中的浮游植物和其他细小颗粒。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '海水带来食物',
+      body: '浸在水中时，它可以微微张壳，滤取水中的浮游植物和其他细小颗粒。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "退潮时合上壳",
-      "body": "海水退去后，贻贝合拢双壳，减少身体失水。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '退潮时合上壳',
+      body: '海水退去后，贻贝合拢双壳，减少身体失水。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "挤在一起的贝群",
-      "body": "许多贻贝可以聚成贝床，壳间也为其他小动物提供藏身空间。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '挤在一起的贝群',
+      body: '许多贻贝可以聚成贝床，壳间也为其他小动物提供藏身空间。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "减少对贻贝床的踩踏和破坏，保护海岸水质。所引资料列为未评估；不据此推断种群安全。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '减少对贻贝床的踩踏和破坏，保护海岸水质。所引资料列为未评估；不据此推断种群安全。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '会吐固定细丝的贝类',
+      body: 'Linnaeus 在 1758 年发表 Mytilus edulis 这个名称。蓝贻贝的深色外壳容易先被注意到，但成群附着的本领来自足丝：它把分泌出的细丝接到岩石或邻居的壳上。许多个体这样聚成贝床，壳间缝隙还能容纳其他小动物。',
+    },
   ],
   "keyFacts": [
     "蓝贻贝的两片壳合拢在一起，外形细长，壳面有弯曲的生长纹。",
@@ -98545,7 +98551,13 @@ export const species = [
       "url": "https://www.sealifebase.org/summary/Mytilus-edulis.html",
       "kind": "conservation",
       "accessedAt": "2026-09-21"
-    }
+    },
+    {
+      title: 'GBIF：蓝贻贝的科学命名记录',
+      url: 'https://www.gbif.org/species/8288896',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-21",
