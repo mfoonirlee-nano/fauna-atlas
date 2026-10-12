@@ -105914,7 +105914,7 @@ export const species = [
       "印度洋—西太平洋近岸礁区"
     ],
     "countries": [],
-    "range": "以印度洋—西太平洋暖水近岸、礁区和海草床为代表；地中海记录涉及经苏伊士运河扩散，不能标为原生分布。"
+    "range": '以印度洋至西太平洋的暖水近岸、礁区和海草床为代表；地中海记录涉及经苏伊士运河扩散，属于后来的扩散范围。'
   },
   "habitats": [
     {
@@ -105939,45 +105939,51 @@ export const species = [
     "莱氏拟乌贼",
     "身体两侧的薄鳍"
   ],
-  "summary": "看看身体两侧宽宽的薄鳍，再找找头前的腕。",
+  "summary": '莱氏拟乌贼有宽鳍、八条腕和两条捕食触腕，捕食小鱼与甲壳动物。皮肤色素细胞能改变深浅和花纹。',
   "description": "莱氏拟乌贼的宽鳍沿外套膜两侧伸展，游动时可调整姿态。它有八条腕和两条捕食触腕，皮肤上的色素细胞可以改变体色外观。 这个学名下存在尚待厘清的物种复合体，图片只呈现通用外形，不用于区分隐存谱系。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "身体两侧的薄鳍",
-      "body": "宽宽的鳍沿外套膜两侧伸展，摆动时帮助它调整位置。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '身体两侧的薄鳍',
+      body: '宽宽的鳍沿外套膜两侧伸展，摆动时帮助它调整位置。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "腕上的吸盘",
-      "body": "头前的腕有吸盘，帮助它抓住猎物。另有两条较长的捕食触腕。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '腕上的吸盘',
+      body: '头前的腕有吸盘，帮助它抓住猎物。另有两条较长的捕食触腕。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "皮肤上的色点",
-      "body": "皮肤里的色素细胞能改变外观，让身体呈现不同的深浅和花纹。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '皮肤上的色点',
+      body: '皮肤里的色素细胞能改变外观，让身体呈现不同的深浅和花纹。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "寻找小鱼和虾",
-      "body": "它会捕食小鱼和甲壳动物，用腕和触腕抓住食物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '寻找小鱼和虾',
+      body: '它会捕食小鱼和甲壳动物，用腕和触腕抓住食物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "附着的卵囊",
-      "body": "雌体会把成串的卵囊附着在水下物体上，幼体在其中发育。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '附着的卵囊',
+      body: '雌体会把成串的卵囊附着在水下物体上，幼体在其中发育。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护海草床和礁区水质，减少遗失渔具。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护海草床和礁区水质，减少遗失渔具。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '一个学名下尚待厘清的类群',
+      body: 'D’Orbigny 在 1826 年发表 Sepioteuthis lessoniana 这个名称。后来研究发现，这个学名下包含尚待厘清的物种复合体，也就是外形相似、身份仍需进一步区分的类群。宽鳍、八条腕和两条捕食触腕能说明通用外形，图片不能据此区分其中的隐存谱系。',
+    },
   ],
   "keyFacts": [
     "宽宽的鳍沿外套膜两侧伸展，摆动时帮助它调整位置。",
@@ -106089,7 +106095,13 @@ export const species = [
       "url": "https://www.sealifebase.org/summary/Sepioteuthis-lessoniana.html",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：莱氏拟乌贼的科学命名记录',
+      url: 'https://www.gbif.org/species/8920970',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
