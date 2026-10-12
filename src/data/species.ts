@@ -110831,7 +110831,7 @@ export const species = [
     {
       "name": "森林与灌丛地面",
       "realm": "terrestrial",
-      "description": "森林与灌丛地面中的生活场景。",
+      "description": '新西兰北岛的森林、灌丛地面，洞穴和浓密植被提供白天藏身处。',
       "isPrimary": true
     }
   ],
@@ -110851,45 +110851,51 @@ export const species = [
     "北岛褐几维",
     "长长的嘴"
   ],
-  "summary": "看看它长长的嘴和蓬松的褐色羽毛。",
-  "description": "北岛褐几维生活在森林与灌丛地面。看看它长长的嘴和蓬松的褐色羽毛。几维不会飞，主要在地面活动。它通常夜间外出，白天藏在洞穴、树根或茂密植物下。",
+  "summary": '北岛褐几维不会飞，通常夜间在地面觅食。长嘴伸进土壤，嘴尖附近的鼻孔帮助它找到蚯蚓等小动物。',
+  "description": '北岛褐几维生活在新西兰北岛，蓬松褐羽下有粗壮腿脚。它不会飞，夜间把长嘴伸入土壤和落叶，靠嘴尖附近的鼻孔与嗅觉寻找蚯蚓等小动物。白天躲在洞穴、树根或茂密植物下。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "长长的嘴",
-      "body": "看看它长长的嘴和蓬松的褐色羽毛。几维不会飞，主要在地面活动。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '长长的嘴',
+      body: '看看它长长的嘴和蓬松的褐色羽毛。几维不会飞，主要在地面活动。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "落叶下面",
-      "body": "它把长嘴伸进湿润的土和落叶，寻找蚯蚓等小动物。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '落叶下面',
+      body: '它把长嘴伸进湿润的土和落叶，寻找蚯蚓等小动物。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "鼻孔靠近嘴尖",
-      "body": "几维的鼻孔靠近嘴尖，嗅觉帮助它寻找食物。近景只用于认识外形。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '鼻孔靠近嘴尖',
+      body: '几维的鼻孔靠近嘴尖，嗅觉帮助它寻找食物。近景只用于认识外形。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "用脚走路",
-      "body": "找找羽毛下面粗壮的腿和脚。几维在森林地面行走觅食。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '用脚走路',
+      body: '找找羽毛下面粗壮的腿和脚。几维在森林地面行走觅食。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "白天的藏身处",
-      "body": "它通常夜间外出，白天藏在洞穴、树根或茂密植物下。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '白天的藏身处',
+      body: '它通常夜间外出，白天藏在洞穴、树根或茂密植物下。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "在几维分布区管好犬只，并支持当地捕食者控制和栖息地保护。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '在几维分布区管好犬只，并支持当地捕食者控制和栖息地保护。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '中文名同时提示地点与羽色',
+      body: 'Bartlett 在 1852 年发表 Apteryx mantelli 这个名称。中文名“北岛褐几维”提示新西兰北岛的生活区域和褐色羽毛，不能把其他几维都算作这一种。认识它时还可留意嘴尖附近的鼻孔，嗅觉帮助它在土壤里寻找食物。',
+    },
   ],
   "keyFacts": [
     "看看它长长的嘴和蓬松的褐色羽毛。几维不会飞，主要在地面活动。",
@@ -111002,7 +111008,13 @@ export const species = [
       "url": "https://nc.iucnredlist.org/redlist/content/attachment_files/2017_3_RL_Stats_Table_7.pdf",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：北岛褐几维的科学命名记录',
+      url: 'https://www.gbif.org/species/2495144',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
