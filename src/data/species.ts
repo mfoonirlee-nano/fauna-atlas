@@ -104910,7 +104910,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "采用所列机构来源中的全球类别；未核实独立评估日期，年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -104953,45 +104953,51 @@ export const species = [
     "枯叶龟",
     "落叶旁的脑袋"
   ],
-  "summary": "在水底落叶旁找找它扁扁的头和带突起的脖子。",
+  "summary": '枯叶龟在缓流或静水中等待小鱼，快速张嘴吸入猎物。宽扁头部、皮肤突起和粗糙背甲帮助它隐蔽。',
   "description": "枯叶龟有粗糙背甲、宽扁头部和管状鼻尖。它生活在缓流或静水的浅水环境，借助外形隐藏在枯叶和泥底旁。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "落叶旁的脑袋",
-      "body": "宽扁的头和颈部皮肤突起，让它在水底落叶旁不容易被发现。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '落叶旁的脑袋',
+      body: '宽扁的头和颈部皮肤突起，让它在水底落叶旁不容易被发现。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "细细的鼻尖",
-      "body": "它把管状鼻尖伸到水面呼吸，身体可以留在水里。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '细细的鼻尖',
+      body: '它把管状鼻尖伸到水面呼吸，身体可以留在水里。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "背上的凸起",
-      "body": "看看粗糙背甲上排列的凸起，再沿边缘找找龟壳的轮廓。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '背上的凸起',
+      body: '看看粗糙背甲上排列的凸起，再沿边缘找找龟壳的轮廓。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "等鱼靠近",
-      "body": "它主要吃鱼，常在水底等待，再快速张嘴吸入靠近的小鱼。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '等鱼靠近',
+      body: '它主要吃鱼，常在水底等待，再快速张嘴吸入靠近的小鱼。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "在浅水里移动",
-      "body": "枯叶龟生活在缓流或静水环境，四肢可以撑着身体在水底移动。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '在浅水里移动',
+      body: '枯叶龟生活在缓流或静水环境，四肢可以撑着身体在水底移动。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护湿地和缓流水域，不捕捉野生枯叶龟。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护湿地和缓流水域，不捕捉野生枯叶龟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '带流苏边缘的名称与后来的拆分',
+      body: 'Schneider 在 1783 年以 Testudo fimbriata 描述枯叶龟，种名 fimbriata 有“带流苏边缘的”含义。2020 年研究者把过去合并的另一类群分成 Chelus orinocensis，今天本种的范围主要包括亚马孙流域和马于里河水系。枯叶般的外观与学名里提示的皮肤边缘结构可以一起观察。',
+    },
   ],
   "keyFacts": [
     "宽扁的头和颈部皮肤突起，让它在水底落叶旁不容易被发现。",
