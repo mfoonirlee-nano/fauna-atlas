@@ -31468,15 +31468,15 @@ export const species = [
       '鲎试剂',
     ],
     summary:
-      '在东亚至东南亚浅海、育幼泥滩与产卵沙滩之间完成漫长生活史，以含铜血蓝蛋白运氧的濒危海生铰口类。',
+      '中华鲎生活在东亚至东南亚浅海，成体到沙滩产卵，幼体在沙泥潮滩生长。含铜的血蓝蛋白使氧合血淋巴呈蓝色，全球评估为濒危。',
     description:
-      '中华鲎不是螃蟹，而是保留马蹄形前体、具棘后体和长尾剑的海生铰口类节肢动物。成体平时生活在近岸海床，繁殖时返回上部潮间带沙滩；幼体又依赖沙泥质育幼滩，经多年蜕皮后才转入海中。氧合血蓝蛋白让血淋巴呈蓝色，变形细胞中的凝固级联则成为 TAL 细菌内毒素试剂的基础，两套机制不能混写。捕捞与海岸开发同时切断成体、卵、幼体和亚成体环节，IUCN 因此在 2018 年按 EN A4bcd 评估其全球风险。',
+      '中华鲎是海生铰口类节肢动物，有马蹄形前体、带棘后体和长尾剑。成体平时生活在近岸海床，繁殖时返回上部潮间带沙滩；幼体又依赖沙泥质育幼滩，经多年蜕皮后才转入海中。氧合血蓝蛋白让血淋巴呈蓝色，变形细胞中的凝固级联则成为 TAL 细菌内毒素试剂的基础，两套机制不能混写。捕捞与海岸开发同时切断成体、卵、幼体和亚成体环节，IUCN 因此在 2018 年按 EN A4bcd 评估其全球风险。',
     storySections: [
       {
         key: 'chelicerate-not-crab',
         label: '分类与演化',
-        title: '马蹄形背甲下，不是一只蟹',
-        body: '中华鲎属于海生铰口类节肢动物，身体由马蹄形前体、具棘后体和尾剑组成。鲎类的化石历史很古老，现生中华鲎却不是四亿多年不变的同一物种；分子系统和基因组都记录了持续分化与演化。',
+        title: '马蹄形前体、具棘后体与尾剑',
+        body: '中华鲎属于海生铰口类节肢动物，身体由马蹄形前体、具棘后体和尾剑组成。鲎类化石历史古老，现生中华鲎的分子系统和基因组仍记录到持续分化与演化。',
       },
       {
         key: 'sex-and-claspers',
@@ -31493,7 +31493,7 @@ export const species = [
       {
         key: 'low-tide-foraging',
         label: '食性与潮汐',
-        title: '退潮后，软泥里是一张混合菜单',
+        title: '幼体在退潮后的软底觅食',
         body: '幼体在潮水退去后爬出，寻找昆虫幼虫、多毛类、小型甲壳类和薄壳双壳类，回潮时重新埋藏。海草为这张食物网输入碳和栖息结构，但稳定同位素证据不能改写成中华鲎专门啃食整株海草。',
       },
       {
@@ -31505,8 +31505,14 @@ export const species = [
       {
         key: 'four-linked-habitats',
         label: '保护',
-        title: '要保住的不是一个点，而是四段海岸',
+        title: '保护四类彼此相连的海岸生境',
         body: '成体海床、浅潮下带、幼体育幼滩和上部产卵沙滩必须保持连通。只放流幼体却继续硬化岸线，或只保护沙滩却放任成体捕捞，都无法修复完整生活史。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '1819 年的 Limulus tridentatus',
+        body: '1819 年，Leach 以 Limulus tridentatus 命名中华鲎，后来它被归入鲎属 Tachypleus。后体末端常见三枚固定小棘，但数量可能变异，鉴定仍须结合其他特征。中华鲎是四种现生鲎之一，另外三种的分布与保护资料不能直接混用。',
       },
     ],
     keyFacts: [
@@ -31624,7 +31630,15 @@ export const species = [
         },
       ],
     },
-    sources: CHINESE_HORSESHOE_CRAB_SOURCES,
+    sources: [
+      ...CHINESE_HORSESHOE_CRAB_SOURCES,
+      {
+        title: 'GBIF: Tachypleus tridentatus (Leach, 1819) nomenclatural record',
+        url: 'https://www.gbif.org/species/1010608',
+        kind: 'taxonomy',
+        accessedAt: '2026-10-11',
+      },
+    ],
     featured: true,
     publishedAt: CHINESE_HORSESHOE_CRAB_CONTENT_DATE,
     updatedAt: CHINESE_HORSESHOE_CRAB_CONTENT_DATE,
