@@ -94603,7 +94603,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -94650,45 +94650,51 @@ export const species = [
     "白琵鹭",
     "嘴尖像小勺"
   ],
-  "summary": "找找嘴巴末端像小勺一样变宽的地方。",
-  "description": "成年白琵鹭的长嘴大部分是黑色，宽阔的末端常带黄色。它生活在欧亚大陆和非洲的浅水湿地与沿海滩涂。",
+  "summary": '白琵鹭用末端宽阔的长嘴左右扫水，捕捉小鱼和水生无脊椎动物。它常成群生活，飞行时伸直脖子。',
+  "description": '白琵鹭在欧亚大陆和非洲的浅水湿地、沿海滩涂生活。成鸟的黑色长嘴末端宽，常带黄色，觅食时把嘴放入浅水左右扫动，寻找小鱼和水生无脊椎动物。它会成群休息、繁殖，飞行时脖子向前伸直。繁殖期头后有白色冠羽，胸前可见淡黄色羽毛。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "嘴尖像小勺",
-      "body": "成年白琵鹭的长嘴大部分是黑色，宽阔的末端常带黄色。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '嘴尖像小勺',
+      body: '成年白琵鹭的长嘴大部分是黑色，宽阔的末端常带黄色。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "左右扫着找食物",
-      "body": "它把嘴放进浅水，左右摆动，寻找小鱼和水生无脊椎动物。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '左右扫着找食物',
+      body: '它把嘴放进浅水，左右摆动，寻找小鱼和水生无脊椎动物。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "伸着脖子飞",
-      "body": "飞行时，它把脖子向前伸直，长脚向后伸出。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '伸着脖子飞',
+      body: '飞行时，它把脖子向前伸直，长脚向后伸出。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "湿地里一起休息",
-      "body": "白琵鹭会聚在湿地休息，也会成群繁殖。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '湿地里一起休息',
+      body: '白琵鹭会聚在湿地休息，也会成群繁殖。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "繁殖期的冠羽",
-      "body": "繁殖期成鸟头后有较长的白色冠羽，胸前可见淡黄色羽毛。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '繁殖期的冠羽',
+      body: '繁殖期成鸟头后有较长的白色冠羽，胸前可见淡黄色羽毛。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留浅水湿地与迁徙停歇地，从远处观察休息和筑巢的鸟。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留浅水湿地与迁徙停歇地，从远处观察休息和筑巢的鸟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '宽嘴白鸟的学名',
+      body: 'Linnaeus 在 1758 年发表 Platalea leucorodia 这个名称。认识白琵鹭时，可以先看长嘴宽阔的末端，再看它怎样在水中左右扫动。繁殖期伸长的冠羽和胸前淡黄色羽毛会改变外观，同一物种在不同季节不一定看起来完全一样。',
+    },
   ],
   "keyFacts": [
     "成年白琵鹭的长嘴大部分是黑色，宽阔的末端常带黄色。",
@@ -94796,7 +94802,13 @@ export const species = [
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12529062/",
       "kind": "conservation",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：白琵鹭的科学命名记录',
+      url: 'https://www.gbif.org/species/2480801',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
