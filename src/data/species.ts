@@ -36048,7 +36048,7 @@ export const species = [
         '津巴布韦',
       ],
       range:
-        '分布于撒哈拉以南非洲。Mammal Diversity Database当前列出42个原生范围国；2014年IUCN全球评估列出40国，差异来自资料年份与国家口径，页面的结构化国家列表采用当前MDD。记录从海平面延伸到约3,200米，但硬岩、永久积水地和缺少蚁类猎物的环境会限制占用。',
+        '分布于撒哈拉以南非洲。Mammal Diversity Database当前列出42个原生范围国；2014年IUCN全球评估列出40国，差异来自资料年份与国家口径，当前范围国记录采用 MDD。记录从海平面延伸到约3,200米，但硬岩、永久积水地和缺少蚁类猎物的环境会限制占用。',
       center: { lat: -2, lng: 24 },
     },
     habitats: [
@@ -36139,7 +36139,7 @@ export const species = [
       {
         key: 'selective-myrmecophage',
         label: '食性',
-        title: '蚁巢并不是地下自助餐',
+        title: '取食蚁类时也会选择种类',
         body: '研究者在南非卡鲁跟踪13只土豚，发现食谱主要由蚂蚁和白蚁构成，个体还会在可用猎物中作出选择。少量金龟子幼虫或蛹，以及纳米比亚地下结果的Cucumis humifructus，说明局地例外存在；它们不能代表全范围、全年或每只土豚的固定食谱。',
       },
       {
@@ -36157,8 +36157,14 @@ export const species = [
       {
         key: 'least-concern-unknown-trend',
         label: '保护',
-        title: '无危等级下仍缺一条趋势线',
+        title: '全球趋势仍未知',
         body: 'IUCN在2014年完成全球评估，并在2015-2版本发布无危结论；评估没有给出全球成熟个体数或种群趋势。CITES曾在1975年把本种列入附录II，1992年删除，2026年现行附录没有收录。管理者仍需监测猎捕、农业扩张、围栏和干旱对局地种群的影响。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '1766 年曾被归入食蚁兽属',
+        body: '1766 年，Pallas 以 Myrmecophaga afra 正式描述土豚，模式产地为南非好望角。后来它被归入土豚属 Orycteropus，并成为管齿目唯一现生种。旧属名反映早期对食性的归类，今天它与真正的食蚁兽分属不同演化谱系。',
       },
     ],
     keyFacts: [
