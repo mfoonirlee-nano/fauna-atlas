@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Tetranychus urticae ADULT FEMALE two-spotted spider mite, microscopic oval translucent yellow-green body with TWO large dark lateral internal blotches, FOUR pairs of short legs (8 total), fine dorsal bristles, small anterior mouthparts, NO antennae, no wings, no spider waist. Scene: Single complete adult female oblique dorsal view on green leaf underside. COVER: place ENTIRE subject including all appendages inside RIGHT region x=710..1460 y=140..890. Center entire silhouette x=1080 or more. LEFT 42% empty blurred habitat. Full-body prominent, no cropped legs or antennae, real background margins on all sides. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "fd280df9856932128d334b96b61912b74d5627a605adcfda2a92062853c99efe",
+      "runtimeSha256": "a5c7185fd482514fe4603259287d9b8f69b3403396ce7499d93c0f72a730033f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Tetranychus urticae ADULT FEMALE two-spotted spider mite, microscopic oval translucent yellow-green body with TWO large dark lateral internal blotches, FOUR pairs of short legs (8 total), fine dorsal bristles, small anterior mouthparts, NO antennae, no wings, no spider waist. Scene: Complete adult female dorsal view on leaf with eight legs arranged four pairs. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "a8faf2b65695c01ae083dffbf15b24803cd6b1ff0dfc99f168eecadb3785910e",
+      "runtimeSha256": "3576156aa5ad420c5f667afd66064308f1b7cee9fad6eab552ab8e64130b62b8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Tetranychus urticae ADULT FEMALE two-spotted spider mite, microscopic oval translucent yellow-green body with TWO large dark lateral internal blotches, FOUR pairs of short legs (8 total), fine dorsal bristles, small anterior mouthparts, NO antennae, no wings, no spider waist. Scene: Lateral magnified adult on very fine sparse silk over leaf underside, no exaggerated spider orb-web. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "ffc8ca8d654d90dce8c54d49d16398ea42a4ee96e88319de7174723be433a335",
+      "runtimeSha256": "b5605491ec946977e5387074601d879cef5de48bef3407f5a049a154c7614e67",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 AI scientific reconstruction. ONLY Tetranychus urticae six-legged larva, three pairs of short legs, no antennae. Scene: ONLY one SIX-LEGGED larva, tiny oval pale body, THREE pairs short legs, NOT adult; neutral green microscopy background. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "8cfcffc26de07a4a3079a5ba092459fcb0fc5757c014965e4fa01d9688b74529",
+      "runtimeSha256": "92d55108d1b1df3d99df3c10795fcaa00e4375259133276c4b8fa9af592f0163",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 AI scientific reconstruction. Tetranychus urticae egg, SIX-legged larva and EIGHT-legged adult female in distinct educational zones. Scene: Three educational separated zones: pale spherical egg, small six-legged larva and larger eight-legged adult female, non-measured relative sizes; no text. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "1d22fadf7804fb1a4197642c98a6d5140999d2bc20cb98830d2947006a968623",
+      "runtimeSha256": "1361479828b4690cecb2c50bc1e81b226028236771e844cad5e8e9004986bf8a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Tetranychus urticae ADULT FEMALE two-spotted spider mite, microscopic oval translucent yellow-green body with TWO large dark lateral internal blotches, FOUR pairs of short legs (8 total), fine dorsal bristles, small anterior mouthparts, NO antennae, no wings, no spider waist. Scene: Overwintering reddish-orange ADULT FEMALE with eight legs on dry sheltered leaf litter, no eggs. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "779784093ea1104ffaa0f4bbf38fcc0ac864697f0c5607dc89c68a202b5b11eb",
+      "runtimeSha256": "8203fab1c036d91277349fa7e6547a4326962da78a7af7a0ce719cff3f4fb764",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -5016,5 +5016,18 @@
       },
       "sha256": "24c996399bcb016c5c750bc30430799664bbb024be10103191336ea22555bc3b"
     }
+  },
+  "two-spotted-spider-mite": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 45,
+        "right": 1520,
+        "bottom": 960
+      },
+      "sha256": "a5c7185fd482514fe4603259287d9b8f69b3403396ce7499d93c0f72a730033f"
+    }
   }
 }

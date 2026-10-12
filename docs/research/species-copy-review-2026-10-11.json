@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "565 animal species profiles; 560 historical reviews and 5 additions on 2026-10-12; microbial topics excluded",
+  "scope": "566 animal species profiles; 560 historical reviews and 6 additions on 2026-10-12; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 5,
+    "addedProfiles": 6,
     "addedProfilesReviewDate": "2026-10-12",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -26488,6 +26488,50 @@
       },
       "notes": [
         "2026-10-12 新增档案：核对习性、外观、分布、发现与命名的来源。图注注明放大、重建和非实测比例；描述年份不表示人类首次认识动物。"
+      ]
+    },
+    {
+      "slug": "two-spotted-spider-mite",
+      "name": "二斑叶螨",
+      "scientificName": "Tetranychus urticae",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN307",
+            "https://www.gbif.org/species/2130185"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN307",
+            "https://www.gbif.org/species/2130185"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN307",
+            "https://www.gbif.org/species/2130185"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN307",
+            "https://www.gbif.org/species/2130185"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2130185"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-12 接续五种：核对外观、生命阶段、食性、分布和命名；图注标明重建与非实测比例，描述年份不表示人类首次认识动物。"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 65 种，动物目录增至 565 种，活动清单剩余 35 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
+本轮目标为新增 100 种动物；累计完成 66 种，动物目录增至 566 种，活动清单剩余 34 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -96,3 +96,7 @@
 - [x] 原尾虫 *Eosentomon transitorium*：原尾类与前足感觉功能。共读：“在显微图里看看前脚怎样向前举起。”头部结构用标注图解释。
 - [x] 双尾虫 *Campodea staphylinus*：双尾类与尾端附肢。共读：“找找身体后面两根长长的尾须。”与蠼螋分开说明。
 - [x] 北方哲水蚤 *Calanus finmarchicus*：桡足类与海洋浮游动物。共读：“在放大图里找找两根长触角。”使用尺度参照，不与昆虫蚤混为一类。
+
+## 2026-10-12 接续节肢动物
+
+- [x] 二斑叶螨 *Tetranychus urticae*：螨类与植物上的微小动物。共读：“在显微图里数数成体的脚。”幼体另图注明。

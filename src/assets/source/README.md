@@ -813,3 +813,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [原尾虫 image set](./species/eosentomon-transitorium/README.md)
 - [双尾虫 image set](./species/campodea-staphylinus/README.md)
 - [北方哲水蚤 image set](./species/calanus-finmarchicus/README.md)
+
+- [二斑叶螨 image set](./species/two-spotted-spider-mite/README.md)
