@@ -24272,7 +24272,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 569);
+  assert.equal(species.length, 570);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24330,7 +24330,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 90);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 91);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24339,7 +24339,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Scolopendromorpha')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Scolopendridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Scolopendra')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Diplopoda')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Diplopoda')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Spirostreptida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Spirostreptidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Archispirostreptus')?.speciesCount, 1);
@@ -24443,7 +24443,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 569);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 570);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -26647,7 +26647,7 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   assert.doesNotMatch(todo, /- \[x\]/);
   const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
-  assert.equal(pendingNames.length, 31);
+  assert.equal(pendingNames.length, 30);
   for (const profile of species) {
     assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
   }
@@ -26961,7 +26961,7 @@ test('October 12 micro arthropods retain distinct anatomy and life stages', asyn
     ['calanus-finmarchicus', 'Calanus finmarchicus', 'Copepoda', 'Calanoida', 'Calanidae'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
-  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 31);
+  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 30);
   for (const [slug, name, className, order, family] of entries) {
     const profile = findSpecies(slug);
     assert.equal(profile.scientificName, name);
@@ -26989,4 +26989,43 @@ test('October 12 micro arthropods retain distinct anatomy and life stages', asyn
   assert.match(copepod.media.gallery[2].caption, /无节幼体/);
   assert.match(copepod.media.gallery[3].caption, /第五桡足幼体.*脂质.*不是.*卵囊/);
   assertAnimalCopy(copepod, ['第五桡足幼体阶段', '滞育']);
+});
+
+
+test('October 12 final arthropods distinguish appendages, juveniles and rolled bodies', async () => {
+  const entries = [
+    ['two-spotted-spider-mite', 'Tetranychus urticae', 'Arachnida', 'Trombidiformes', 'Tetranychidae'],
+    ['gracile-sea-spider', 'Nymphon gracile', 'Pycnogonida', 'Pantopoda', 'Nymphonidae'],
+    ['damon-diadema', 'Damon diadema', 'Arachnida', 'Amblypygi', 'Phrynichidae'],
+    ['house-centipede', 'Scutigera coleoptrata', 'Chilopoda', 'Scutigeromorpha', 'Scutigeridae'],
+    ['black-pill-millipede', 'Glomeris marginata', 'Diplopoda', 'Glomerida', 'Glomeridae'],
+  ];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 30);
+  for (const [slug, name, className, order, family] of entries) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.class.scientificName, className);
+    assert.equal(profile.taxonomy.order.scientificName, order);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.ok(!todo.split('\n').some((line) => line.startsWith('- [ ]') && line.includes(name)));
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+  }
+  const mite = findSpecies('two-spotted-spider-mite');
+  assert.match(mite.media.gallery[2].caption, /幼虫.*三对足.*六足/);
+  assert.match(mite.media.gallery[4].caption, /越冬.*雌性/);
+  const sea = findSpecies('gracile-sea-spider');
+  assert.deepEqual(sea.distribution.realms, ['marine']);
+  assert.match(sea.media.gallery[2].caption, /雄性.*抱卵肢.*不是.*行走足/);
+  assertAnimalCopy(sea, ['Dynamena pumila', 'Amathia imbricata']);
+  const whip = findSpecies('damon-diadema');
+  assert.match(whip.media.gallery[3].caption, /圈养.*母体.*幼体/);
+  assertAnimalCopy(whip, ['另外三对足', '没有蝎子的尾刺']);
+  assert.match(findSpecies('house-centipede').media.gallery[3].caption, /幼体.*少于.*十五对/);
+  assert.match(findSpecies('house-centipede').media.gallery[2].caption, /行走足.*不是尾须/);
+  const pill = findSpecies('black-pill-millipede');
+  assert.match(pill.media.gallery[1].caption, /卷球.*头与足收在内部/);
+  assert.equal(pill.diet.types[0], 'detritivore');
 });

@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Glomeris marginata ADULT black pill millipede, compact convex oval elongated pill-shaped body with shiny black-brown smooth arched dorsal plates edged narrow cream-white, small tucked head with two SHORT clubbed antennae and many short legs UNDER body, paired legs typical millipede. Not a pillbug (isopod), not long tubular millipede, not beetle. Scene: One complete unrolled adult, three-quarter side view on damp fallen beech leaf, short legs and cream plate margins visible. COVER: place ENTIRE subject including all appendages inside RIGHT region x=710..1460 y=140..890. Center entire silhouette x=1080 or more. LEFT 42% empty blurred habitat. Full-body prominent, no cropped legs or antennae, real background margins on all sides. No text no labels no watermark no scale bar. No invented appendages.\nEdit: Edit composition ONLY of this Glomeris marginata image. Shrink complete animal including short antennae and feet to 88% current size and move slightly right; ENTIRE subject inside x=700..1460 y=200..830. Preserve glossy black-brown convex cream edged plates, short feet UNDER body and natural leaf. Left42% quiet habitat. 1536x1024 no text.",
+      "sourceSha256": "9808316a7b641d51cdea3a6c3be1a51ebcba470d887df89a6ca7681732a76909",
+      "runtimeSha256": "e8ad3e99fef7b9eb0c53d7076cb1861d71d0a771e380b6b5c02cf218720a2c6e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Glomeris marginata ADULT black pill millipede, compact convex oval elongated pill-shaped body with shiny black-brown smooth arched dorsal plates edged narrow cream-white, small tucked head with two SHORT clubbed antennae and many short legs UNDER body, paired legs typical millipede. Not a pillbug (isopod), not long tubular millipede, not beetle. Scene: Unrolled adult complete side view with many small walking legs underneath, glossy black white-edged plates. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "17839375b74f48d852b9f0f2966f3ee318306069f4ac1aee8dc30b46f32293ba",
+      "runtimeSha256": "d6c72369add90de6738d4f0253b5a8b384b5898b102a94133aba8557763a4294",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Glomeris marginata ADULT black pill millipede, compact convex oval elongated pill-shaped body with shiny black-brown smooth arched dorsal plates edged narrow cream-white, small tucked head with two SHORT clubbed antennae and many short legs UNDER body, paired legs typical millipede. Not a pillbug (isopod), not long tubular millipede, not beetle. Scene: One tightly rolled smooth ball, black arched overlapping plates with fine creamy edges, legs and antennae hidden INSIDE, natural moist leaf. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "8b3aa6a823c58544bad68bd6c4ac1d18b860eccdae1455aca94c932ea01ef47d",
+      "runtimeSha256": "69914ad85bce04871eda3638a7677f651d0dd454ca381e73f918fdbd149e557c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Glomeris marginata ADULT black pill millipede, compact convex oval elongated pill-shaped body with shiny black-brown smooth arched dorsal plates edged narrow cream-white, small tucked head with two SHORT clubbed antennae and many short legs UNDER body, paired legs typical millipede. Not a pillbug (isopod), not long tubular millipede, not beetle. Scene: Unrolled adult dorsal view, compact oval body glossy dark arched plates with cream edges, head small. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "84c641b7c8a58c37d2d994360364ab86cd82b7ac4b7f54f4d15d976d46589d03",
+      "runtimeSha256": "be3c3a2d83c2248ffe30e049e7bf4e66d8edbf879f9dd38ed701bce8f693125b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Glomeris marginata ADULT black pill millipede, compact convex oval elongated pill-shaped body with shiny black-brown smooth arched dorsal plates edged narrow cream-white, small tucked head with two SHORT clubbed antennae and many short legs UNDER body, paired legs typical millipede. Not a pillbug (isopod), not long tubular millipede, not beetle. Scene: Low side-ventral scientific external illustration exposing multiple pairs of short legs under plates, not a pillbug belly, dark neutral backdrop. Non-measured structure. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "cbc6b23a196b76b68f438a63e7063e91f5d71619fc1d03922eb0b491c62c5ecd",
+      "runtimeSha256": "bdf498d791b5cfef709065523be93d167116ec30ff849cfcc6385492a727256c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 AI scientific reconstruction. Glomeris marginata first juvenile with THREE pairs of legs alongside unrolled adult with many short legs under convex black cream-edged plates. Scene: Two separated stages side-by-side on moist litter, one pale much smaller juvenile with THREE pairs legs, one unrolled dark white-edged adult with many short legs. Non-measured size relation. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "4f4bf38364ce1212754c4e89dec7e5668d709bc94fa139ba77006989eb716d0a",
+      "runtimeSha256": "09008ac77b7dcae4c434f33ec99cd4f5a4a768637fa5ddf548672de154e23e36",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

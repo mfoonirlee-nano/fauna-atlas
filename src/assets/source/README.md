@@ -818,3 +818,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [海蜘蛛 image set](./species/gracile-sea-spider/README.md)
 - [无鞭蝎 image set](./species/damon-diadema/README.md)
 - [蚰蜒 image set](./species/house-centipede/README.md)
+- [球马陆 image set](./species/black-pill-millipede/README.md)

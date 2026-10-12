@@ -5068,5 +5068,18 @@
       },
       "sha256": "2dca3af36b9e7308ae91f414b4b87b9f40b9869a084836bdc4334459d0e54e61"
     }
+  },
+  "black-pill-millipede": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 275,
+        "right": 1480,
+        "bottom": 735
+      },
+      "sha256": "e8ad3e99fef7b9eb0c53d7076cb1861d71d0a771e380b6b5c02cf218720a2c6e"
+    }
   }
 }

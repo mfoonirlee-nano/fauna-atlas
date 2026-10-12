@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 69 种，动物目录增至 569 种，活动清单剩余 31 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
+本轮目标为新增 100 种动物；累计完成 70 种，动物目录增至 570 种，活动清单剩余 30 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -97,9 +97,12 @@
 - [x] 双尾虫 *Campodea staphylinus*：双尾类与尾端附肢。共读：“找找身体后面两根长长的尾须。”与蠼螋分开说明。
 - [x] 北方哲水蚤 *Calanus finmarchicus*：桡足类与海洋浮游动物。共读：“在放大图里找找两根长触角。”使用尺度参照，不与昆虫蚤混为一类。
 
-## 2026-10-12 接续节肢动物
+## 2026-10-12 接续节肢动物五种
+
+资料与验收见[接续节肢动物五种记录](todo-expansion-final-arthropods-five-2026-10-12.md)。
 
 - [x] 二斑叶螨 *Tetranychus urticae*：螨类与植物上的微小动物。共读：“在显微图里数数成体的脚。”幼体另图注明。
 - [x] 海蜘蛛 *Nymphon gracile*：海蜘蛛类与身体、腿的比例。共读：“找找细小身体周围的长腿。”完整展示附肢，不能按陆生蜘蛛模板画图。
 - [x] 无鞭蝎 *Damon diadema*：无鞭目与感觉型第一对足。共读：“看看最细长的一对脚怎样向前探。”说明它们与行走足的用途差异。
 - [x] 蚰蜒 *Scutigera coleoptrata*：唇足类的长足形态。共读：“看看越靠后的脚是不是更长。”与马陆分别说明。
+- [x] 球马陆 *Glomeris marginata*：倍足类与卷球防御。共读：“对照伸展和卷起的身体，找找脚藏到哪里。”与鼠妇分别注明分类。
