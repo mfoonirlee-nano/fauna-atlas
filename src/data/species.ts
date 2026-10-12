@@ -111766,7 +111766,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "本轮未取得全球 IUCN 评估证据，暂保留 NE；不将地区等级当作全球评估。"
+    "assessor": '全球 IUCN 评估尚未确认；地区等级不等于全球评估。'
   },
   "distribution": {
     "realms": [
@@ -111783,7 +111783,7 @@ export const species = [
     {
       "name": "池塘与缓流的水面",
       "realm": "freshwater",
-      "description": "池塘与缓流的水面中的生活场景。",
+      "description": '池塘、沟渠及缓流水域的水面。',
       "isPrimary": true
     }
   ],
@@ -111801,52 +111801,58 @@ export const species = [
     "水黾",
     "长腿碰到水面"
   ],
-  "summary": "找找长腿碰到水面的地方。",
-  "description": "水黾生活在池塘与缓流的水面。找找长腿碰到水面的地方。足上的疏水毛和水面张力帮助它停在水面。池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。",
+  "summary": '水黾靠足部防水细毛和水面张力停在水面，中后足划动身体，前足抓住落水昆虫。它能感知水面振动。',
+  "description": '水黾在池塘、沟渠和缓流的水面活动。足上的防水细毛与水面张力共同托住身体，中后足负责支持和移动，较短的前足抓食物。它感知水面振动，寻找落水的小昆虫。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "长腿碰到水面",
-      "body": "找找长腿碰到水面的地方。足上的疏水毛和水面张力帮助它停在水面。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '长腿碰到水面',
+      body: '足上的防水细毛和水面张力帮助水黾停在水面，长足接触处可形成小凹痕。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "小小的凹痕",
-      "body": "从侧面看看足端下的水面凹痕。水黾用中后足支持身体并移动。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '小小的凹痕',
+      body: '从侧面看看足端下的水面凹痕。水黾用中后足支持身体并移动。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "浮萍旁的小虫",
-      "body": "把水黾和旁边的浮萍一起看。微距图放大了细节，浮萍不是精确比例尺。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '浮萍旁的小虫',
+      body: '把水黾和旁边的浮萍一起看。微距图放大了细节，浮萍不是精确比例尺。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "前腿抓食物",
-      "body": "较短的前足能抓住食物。水黾会感知水面振动，寻找落水的小昆虫。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '前腿抓食物',
+      body: '较短的前足能抓住食物。水黾会感知水面振动，寻找落水的小昆虫。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "池塘边",
-      "body": "池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '池塘边',
+      body: '池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "保持池塘清洁，保留岸边植物，陪孩子在安全岸边观察。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '保持池塘清洁，保留岸边植物，陪孩子在安全岸边观察。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '在水面“滑行”的昆虫',
+      body: 'Linnaeus 在 1758 年发表了水黾的科学描述，今天采用 Gerris lacustris。英文俗名 Pond Skater 能与它在水面移动的动作联系起来。足上的防水毛和水面张力让它留在水面，足端下还可见小凹痕；这套结构和较短的捕食前足各有作用。',
+    },
   ],
   "keyFacts": [
-    "找找长腿碰到水面的地方。足上的疏水毛和水面张力帮助它停在水面。",
-    "从侧面看看足端下的水面凹痕。水黾用中后足支持身体并移动。",
-    "把水黾和旁边的浮萍一起看。微距图放大了细节，浮萍不是精确比例尺。",
-    "较短的前足能抓住食物。水黾会感知水面振动，寻找落水的小昆虫。",
-    "池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。"
+    '足上的防水细毛和水面张力帮助水黾停在水面，长足接触处可形成小凹痕。',
+    '从侧面看看足端下的水面凹痕。水黾用中后足支持身体并移动。',
+    '把水黾和旁边的浮萍一起看。微距图放大了细节，浮萍不是精确比例尺。',
+    '较短的前足能抓住食物。水黾会感知水面振动，寻找落水的小昆虫。',
+    '池塘、沟渠和缓流都能成为水黾的生活场所。站在岸边就能观察。',
   ],
   "threats": [],
   "conservationActions": [
@@ -111943,7 +111949,13 @@ export const species = [
       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=108914&mode=Info",
       "kind": "taxonomy",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：水黾的科学命名记录',
+      url: 'https://www.gbif.org/species/5154105',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
