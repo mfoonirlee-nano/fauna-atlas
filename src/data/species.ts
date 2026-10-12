@@ -108143,7 +108143,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "来源见本档案资料列表；未核实独立评估年份，全球趋势未核实。"
+    "assessor": '全球等级为 LC（无危）；独立评估年份与全球种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -108181,45 +108181,51 @@ export const species = [
     "大走鹃",
     "迈开长腿"
   ],
-  "summary": "看看它在地上走时伸出的长尾巴。",
+  "summary": '大走鹃在美国西南部和墨西哥的干旱灌丛奔走，捕食昆虫与小动物。长尾帮助保持平衡，头顶有可竖起的羽冠。',
   "description": "大走鹃常在干旱灌丛间的地面活动。它有长腿、长尾和能竖起的羽冠，会在地面寻找昆虫、蜥蜴等食物，也能飞上低处的枝头。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "迈开长腿",
-      "body": "走鹃常在地面行走和奔跑，长尾伸在身后。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '迈开长腿',
+      body: '走鹃常在地面行走和奔跑，长尾伸在身后。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "头顶的羽冠",
-      "body": "看看头顶蓬起的一簇羽毛，羽冠可以竖起或放低。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '头顶的羽冠',
+      body: '看看头顶蓬起的一簇羽毛，羽冠可以竖起或放低。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "寻找小动物",
-      "body": "它会寻找昆虫、蜥蜴和其他小动物，长嘴能夹住食物。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '寻找小动物',
+      body: '它会寻找昆虫、蜥蜴和其他小动物，长嘴能夹住食物。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "两前两后的脚趾",
-      "body": "走鹃每只脚有两根脚趾朝前、两根朝后。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '两前两后的脚趾',
+      body: '走鹃每只脚有两根脚趾朝前、两根朝后。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "灌木间的巢",
-      "body": "亲鸟会在灌木或低树上筑巢，用枝条搭起巢的底部。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '灌木间的巢',
+      body: '亲鸟会在灌木或低树上筑巢，用枝条搭起巢的底部。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "保留灌丛和地面活动空间，不追赶正在觅食的鸟。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '保留灌丛和地面活动空间，不追赶正在觅食的鸟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '适合沿地面奔走的长腿',
+      body: 'Lesson 在 1829 年发表了大走鹃的科学描述，今天采用 Geococcyx californianus。“走鹃”这个名称能帮助记住它常在地面活动的样子。它在干旱灌丛寻找昆虫、蜥蜴等猎物，也能飞到较低的枝条上，巢通常建在低矮灌木或树上。',
+    },
   ],
   "keyFacts": [
     "走鹃常在地面行走和奔跑，长尾伸在身后。",
@@ -108326,7 +108332,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Geococcyx_californianus/",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：大走鹃的科学命名记录',
+      url: 'https://www.gbif.org/species/2496459',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
