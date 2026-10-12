@@ -78767,7 +78767,7 @@ export const species = [
     {
       "name": "热带森林",
       "realm": "terrestrial",
-      "description": "分布于东南亚及邻近地区的热带森林，包括苏门答腊和婆罗洲。",
+      "description": '热带森林中的树木能供马来熊攀爬和休息，也提供果实。朽木和其他藏有昆虫的位置提供取食机会。',
       "isPrimary": true
     }
   ],
@@ -78788,51 +78788,57 @@ export const species = [
     "胸前浅色的花纹"
   ],
   "summary": "马来熊体型小，黑色短毛之间有浅色胸斑，每只的斑形不同。它常爬树取食或休息。",
-  "description": "马来熊体型小，黑色短毛间露出浅色胸斑。胸斑形状因个体而异；它常爬树取食或休息。",
+  "description": '马来熊用弯爪攀树，在树上取食或休息。它还能伸出长舌舔取昆虫和蜂蜜，果实也在食谱中；浅色胸斑的形状因个体而异。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "胸前的浅色弯纹",
-      "body": "在黑色胸口找找浅色花纹，看看弯曲的形状。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '胸前的浅色弯纹',
+      body: '黑色胸口上有浅色弯纹，不同个体的胸斑形状有差异。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "爪子抓住树干",
-      "body": "马来熊能用弯爪攀爬，看看前脚和后脚落在哪里。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '爪子抓住树干',
+      body: '马来熊用弯爪抓住树干，前后脚配合攀爬。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "伸出长舌头",
-      "body": "它能用长舌头舔取昆虫或蜂蜜，图中展示在朽木处取食的情景。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '伸出长舌头',
+      body: '长舌能舔取昆虫或蜂蜜，也能伸入朽木中的取食位置。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "地上的果实",
-      "body": "马来熊也吃果实，找找嘴边的食物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '地上的果实',
+      body: '果实是马来熊食物的一部分。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "树枝上休息",
-      "body": "看看它把身体放在树枝上的姿势。树木也为它提供休息的地方。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '树枝上休息',
+      body: '马来熊能把身体放在树枝上休息。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "了解它的生存环境",
-      "body": "全球等级为易危。森林减少、盗猎和非法宠物贸易威胁马来熊；保护森林并支持救护与野外保护工作有助于减少这些压力。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '了解它的生存环境',
+      body: '全球等级为易危。森林减少、盗猎和非法宠物贸易威胁马来熊；保护森林并支持救护与野外保护工作有助于减少这些压力。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '胸斑让人联想到太阳',
+      body: 'Raffles 于 1822 年描述了这个物种，现用学名为 Helarctos malayanus。马来熊原生于东南亚热带森林，胸前浅色斑纹的形状因个体而异。除了攀树，它还会用长舌舔取昆虫和蜂蜜，短毛下的弯爪则帮助抓住树皮。英文名 Sun Bear 来自胸前浅色的马蹄形斑纹，被比作升起或落下的太阳。它也有“蜜熊”的称呼，长舌有助于舔取蜂巢中的蜂蜜。',
+    },
   ],
   "keyFacts": [
-    "在黑色胸口找找浅色花纹，看看弯曲的形状。",
-    "马来熊能用弯爪攀爬，看看前脚和后脚落在哪里。",
-    "它能用长舌头舔取昆虫或蜂蜜，图中展示在朽木处取食的情景。",
-    "马来熊也吃果实，找找嘴边的食物。",
-    "看看它把身体放在树枝上的姿势。树木也为它提供休息的地方。"
+    '黑色胸口上有浅色弯纹，不同个体的胸斑形状有差异。',
+    '马来熊用弯爪抓住树干，前后脚配合攀爬。',
+    '长舌能舔取昆虫或蜂蜜，也能伸入朽木中的取食位置。',
+    '果实是马来熊食物的一部分。',
+    '马来熊能把身体放在树枝上休息。',
   ],
   "threats": [
     "森林丧失",
@@ -78869,7 +78875,7 @@ export const species = [
       {
         "image": "./images/species/sun-bear/02-observation.webp",
         "title": "胸前的浅色弯纹",
-        "alt": "马来熊：胸前的浅色弯纹",
+        "alt": '胸前的浅色弯纹',
         "caption": "AI 生成科学情景重建。在黑色胸口找找浅色花纹，看看弯曲的形状。",
         "focalPoint": {
           "x": 0.5,
@@ -78880,7 +78886,7 @@ export const species = [
       {
         "image": "./images/species/sun-bear/03-observation.webp",
         "title": "爪子抓住树干",
-        "alt": "马来熊：爪子抓住树干",
+        "alt": '爪子抓住树干',
         "caption": "AI 生成科学情景重建。马来熊能用弯爪攀爬，看看前脚和后脚落在哪里。",
         "focalPoint": {
           "x": 0.5,
@@ -78891,7 +78897,7 @@ export const species = [
       {
         "image": "./images/species/sun-bear/04-observation.webp",
         "title": "伸出长舌头",
-        "alt": "马来熊：伸出长舌头",
+        "alt": '伸出长舌头',
         "caption": "AI 生成科学情景重建。它能用长舌头舔取昆虫或蜂蜜，图中展示在朽木处取食的情景。",
         "focalPoint": {
           "x": 0.5,
@@ -78902,7 +78908,7 @@ export const species = [
       {
         "image": "./images/species/sun-bear/05-observation.webp",
         "title": "地上的果实",
-        "alt": "马来熊：地上的果实",
+        "alt": '地上的果实',
         "caption": "AI 生成科学情景重建。马来熊也吃果实，找找嘴边的食物。",
         "focalPoint": {
           "x": 0.5,
@@ -78913,7 +78919,7 @@ export const species = [
       {
         "image": "./images/species/sun-bear/06-observation.webp",
         "title": "树枝上休息",
-        "alt": "马来熊：树枝上休息",
+        "alt": '树枝上休息',
         "caption": "AI 生成科学情景重建。看看它把身体放在树枝上的姿势。树木也为它提供休息的地方。",
         "focalPoint": {
           "x": 0.5,
@@ -78947,7 +78953,13 @@ export const species = [
       "url": "https://www.bsbcc.org.my/sun-bear-facts",
       "kind": "conservation",
       "accessedAt": "2026-09-15"
-    }
+    },
+    {
+      title: 'GBIF：Helarctos malayanus 的命名作者与年份',
+      url: 'https://www.gbif.org/species/2433403',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-15",
