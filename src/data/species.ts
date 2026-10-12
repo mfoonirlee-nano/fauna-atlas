@@ -93856,7 +93856,7 @@ export const species = [
       "en": "Vulnerable"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 VU（易危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -93899,45 +93899,51 @@ export const species = [
     "大食蚁兽",
     "长嘴里的细舌头"
   ],
-  "summary": "看看它从长嘴里伸出的细舌头。",
-  "description": "大食蚁兽没有牙齿，会把带黏液的长舌头伸进蚁巢，粘住蚂蚁和白蚁。它生活在中美洲与南美洲的草原、湿地和热带森林。",
+  "summary": '大食蚁兽用黏而长的舌头取食蚂蚁和白蚁。它没有牙齿，走路时收起前爪，幼兽常伏在母兽背上。',
+  "description": '大食蚁兽在中美洲和南美洲的草原、湿地及热带森林生活。它靠嗅觉寻找蚁巢，再把带黏液的长舌伸进去，粘住蚂蚁和白蚁。它没有牙齿，走路时把锋利的前爪收向掌心，用指关节着地。幼兽会爬上母兽的背，休息时母兽还能用蓬松尾巴盖住身体。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "长嘴里的细舌头",
-      "body": "大食蚁兽没有牙齿，会把带黏液的长舌头伸进蚁巢，粘住蚂蚁和白蚁。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '长嘴里的细舌头',
+      body: '大食蚁兽没有牙齿，会把带黏液的长舌头伸进蚁巢，粘住蚂蚁和白蚁。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "收起前爪走路",
-      "body": "它把锋利的前爪收向掌心，用前足的指关节着地行走。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '收起前爪走路',
+      body: '它把锋利的前爪收向掌心，用前足的指关节着地行走。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "毛茸茸的大尾巴",
-      "body": "休息时，它可以把蓬松的尾巴盖在身上。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '毛茸茸的大尾巴',
+      body: '休息时，它可以把蓬松的尾巴盖在身上。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "妈妈背着幼兽",
-      "body": "幼兽出生后会爬上妈妈的背，跟着妈妈一起移动。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '妈妈背着幼兽',
+      body: '幼兽出生后会爬上妈妈的背，跟着妈妈一起移动。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "低头闻一闻",
-      "body": "它的嗅觉灵敏，会低头寻找蚁巢。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '低头闻一闻',
+      body: '它的嗅觉灵敏，会低头寻找蚁巢。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留草原与森林之间的通道，减少道路碰撞和人为火灾。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留草原与森林之间的通道，减少道路碰撞和人为火灾。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '长舌食蚁兽的科学记录',
+      body: 'Linnaeus 在 1758 年发表了大食蚁兽的科学名称 Myrmecophaga tridactyla。中文名中的“食蚁”很好记，但它取食时靠的是黏舌而非牙齿；这种动物根本没有牙齿。幼兽背在母兽背上的姿势，则能帮助人们认识它的育幼生活。',
+    },
   ],
   "keyFacts": [
     "大食蚁兽没有牙齿，会把带黏液的长舌头伸进蚁巢，粘住蚂蚁和白蚁。",
@@ -94051,7 +94057,13 @@ export const species = [
       "url": "https://www.mammaldiversity.org/taxon/1000442/",
       "kind": "taxonomy",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：大食蚁兽的科学命名记录',
+      url: 'https://www.gbif.org/species/2436346',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
