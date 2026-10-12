@@ -96152,45 +96152,51 @@ export const species = [
     "大扇贝",
     "两片壳合在一起"
   ],
-  "summary": "看看两片扇形壳怎样张开和合上。",
-  "description": "大扇贝有两片扇形壳，上方左壳较平，下方右壳较鼓。它生活在东北大西洋欧洲沿岸及邻近岛屿的沙砾海底。",
+  "summary": '大扇贝用双壳滤食，也能快速合壳排水、短距离游动。它两片壳一平一鼓，张壳时可见许多小眼睛。',
+  "description": '大扇贝生活在东北大西洋欧洲沿岸及邻近岛屿的沙砾海底。成体常卧在浅凹处，较平的左壳朝上，较鼓的右壳朝下。张壳时，壳边可见许多小眼睛和触手；遇到威胁，它能快速合壳排水，短距离游动。它从海水中滤取浮游植物和悬浮有机颗粒。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "两片壳合在一起",
-      "body": "大扇贝有两片扇形壳，上方左壳较平，下方右壳较鼓。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '两片壳合在一起',
+      body: '大扇贝有两片扇形壳，上方左壳较平，下方右壳较鼓。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "壳边的小眼睛",
-      "body": "张开的壳边有外套膜和许多小眼睛，旁边还能看到细触手。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '壳边的小眼睛',
+      body: '张开的壳边有外套膜和许多小眼睛，旁边还能看到细触手。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "沙地里的浅窝",
-      "body": "成体常卧在沙砾海底的浅凹处，较平的壳朝上。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '沙地里的浅窝',
+      body: '成体常卧在沙砾海底的浅凹处，较平的壳朝上。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "合壳也能移动",
-      "body": "它快速合拢双壳、排出水，可以短距离游动来躲避威胁。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '合壳也能移动',
+      body: '它快速合拢双壳、排出水，可以短距离游动来躲避威胁。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "从壳顶散开的纹路",
-      "body": "壳面有向外放射的粗肋，铰合处两侧各有耳状突起。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '从壳顶散开的纹路',
+      body: '壳面有向外放射的粗肋，铰合处两侧各有耳状突起。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "减少对扇贝栖息海底的破坏，按当地渔业管理要求开展捕捞。所引资料列为未评估；不据此推断种群安全。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '减少对扇贝栖息海底的破坏，按当地渔业管理要求开展捕捞。所引资料列为未评估；不据此推断种群安全。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '有小眼睛的扇形贝壳',
+      body: 'Linnaeus 在 1758 年发表了大扇贝的科学名称，今天常用 Pecten maximus。“扇贝”让人先注意放射状粗肋和扇形外壳，活着的动物还可以从壳边认识：张壳时能见到许多小眼睛，合壳排水则能让它短距离游走。',
+    },
   ],
   "keyFacts": [
     "大扇贝有两片扇形壳，上方左壳较平，下方右壳较鼓。",
@@ -96297,7 +96303,13 @@ export const species = [
       "url": "https://www.macduff-aquarium.org.uk/explore/fish-finder/king-scallop",
       "kind": "conservation",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：大扇贝的科学命名记录',
+      url: 'https://www.gbif.org/species/2285980',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
