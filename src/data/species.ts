@@ -95897,45 +95897,51 @@ export const species = [
     "加州海兔",
     "耳朵般的嗅角"
   ],
-  "summary": "找找头上像兔耳朵一样的两根触角。",
-  "description": "头上的一对嗅角能够感受水中的化学信号，帮助它寻找同伴。它生活在加利福尼亚北部至加利福尼亚湾的沿岸浅海。",
+  "summary": '加州海兔在浅海吃藻类，用腹足爬行。头上的嗅角能感受化学信号，退化的小壳藏在体内。',
+  "description": '加州海兔生活在加利福尼亚北部至加利福尼亚湾的沿岸浅海，取食藻类。头上的一对嗅角感受水中化学信号，帮助寻找同伴；身体下方的腹足用于爬行，两侧有可折叠的侧足。它把卵产在细长胶质卵带中，卵带缠绕成团，体内还保留一片退化的小壳。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "耳朵般的嗅角",
-      "body": "头上的一对嗅角能够感受水中的化学信号，帮助它寻找同伴。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '耳朵般的嗅角',
+      body: '头上的一对嗅角能够感受水中的化学信号，帮助它寻找同伴。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "在石头上吃藻",
-      "body": "加州海兔吃藻类等植物，常在长有海藻的浅水岩岸活动。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '在石头上吃藻',
+      body: '加州海兔吃藻类等植物，常在长有海藻的浅水岩岸活动。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "软身体向前爬",
-      "body": "它用身体下方的腹足爬行，背部两侧有能折叠的侧足。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '软身体向前爬',
+      body: '它用身体下方的腹足爬行，背部两侧有能折叠的侧足。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "绕成一团的卵带",
-      "body": "它把卵产在胶质卵带中，许多细长的卵带缠绕成团。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '绕成一团的卵带',
+      body: '它把卵产在胶质卵带中，许多细长的卵带缠绕成团。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "壳藏在里面",
-      "body": "它仍有一片退化的内壳，从外面看不到蜗牛那样的螺旋壳。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '壳藏在里面',
+      body: '它仍有一片退化的内壳，从外面看不到蜗牛那样的螺旋壳。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护岩岸水质，观察时让海兔留在水中，不刺激它释放墨汁。所引资料列为未评估；不据此推断种群安全。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护岩岸水质，观察时让海兔留在水中，不刺激它释放墨汁。所引资料列为未评估；不据此推断种群安全。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '海兔保留在体内的小壳',
+      body: 'J. G. Cooper 在 1863 年发表 Aplysia californica 这个名称。它头上的嗅角让人容易想到兔耳，实际作用是感受水里的化学信号。这只软体动物也保留着壳，只是壳已经退化并藏在身体内，从外面看不到蜗牛那样的螺旋壳。',
+    },
   ],
   "keyFacts": [
     "头上的一对嗅角能够感受水中的化学信号，帮助它寻找同伴。",
@@ -96048,7 +96054,13 @@ export const species = [
       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6500",
       "kind": "taxonomy",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：加州海兔的科学命名记录',
+      url: 'https://www.gbif.org/species/5191261',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
