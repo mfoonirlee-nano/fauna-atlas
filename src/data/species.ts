@@ -96845,7 +96845,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -96892,45 +96892,51 @@ export const species = [
     "黑翅长脚鹬",
     "长长的粉红腿"
   ],
-  "summary": "看看它站在浅水里时，身体离水面有多高。",
-  "description": "细长的粉红色腿把黑白相间的身体抬高，适合在浅水中行走。它生活在欧亚大陆和非洲的浅水湿地与沿海潟湖。",
+  "summary": '黑翅长脚鹬用粉红长腿在浅水中行走，细直黑嘴啄取小动物。飞起来时，长腿伸到尾羽后方。',
+  "description": '黑翅长脚鹬生活在欧亚大陆和非洲的浅水湿地、沿海潟湖。细长粉红腿把黑白身体抬高，它用细直黑嘴啄取水面或泥里的小型无脊椎动物。飞行时，腿伸到尾羽后面。它们会聚集休息或繁殖，成鸟头颈的黑白花纹因个体而异。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "长长的粉红腿",
-      "body": "细长的粉红色腿把黑白相间的身体抬高，适合在浅水中行走。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '长长的粉红腿',
+      body: '细长的粉红色腿把黑白相间的身体抬高，适合在浅水中行走。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "细直嘴找食物",
-      "body": "它用细长而直的黑嘴啄取水面或泥中的小型无脊椎动物。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '细直嘴找食物',
+      body: '它用细长而直的黑嘴啄取水面或泥中的小型无脊椎动物。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "一步跨进浅水",
-      "body": "走动时，长腿轮流抬起和落下。站在岸边，能看见细长的脚趾。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '一步跨进浅水',
+      body: '走动时，长腿轮流抬起和落下。站在岸边，能看见细长的脚趾。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "飞行时腿向后伸",
-      "body": "飞起来后，两条长腿拖在尾羽后面，黑色翅膀与白色身体形成对照。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '飞行时腿向后伸',
+      body: '飞起来后，两条长腿拖在尾羽后面，黑色翅膀与白色身体形成对照。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "湿地里的同伴",
-      "body": "它们可在湿地聚集休息或繁殖。这里展示成鸟，头颈黑白花纹会因个体而异。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '湿地里的同伴',
+      body: '它们可在湿地聚集休息或繁殖。这里展示成鸟，头颈黑白花纹会因个体而异。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护浅水湿地，从远处观察鸟群，给它们留出休息空间。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护浅水湿地，从远处观察鸟群，给它们留出休息空间。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '长腿留在名字里',
+      body: 'Linnaeus 在 1758 年发表了黑翅长脚鹬的科学描述，今天采用 Himantopus himantopus。中文名同时提示黑色翅膀和长腿，英文俗名中的 stilt 也容易让人想到高跷。识别时还要看细直黑嘴和粉红腿，头颈黑白花纹会随个体变化。',
+    },
   ],
   "keyFacts": [
     "细长的粉红色腿把黑白相间的身体抬高，适合在浅水中行走。",
@@ -97032,7 +97038,13 @@ export const species = [
       "url": "https://www.bto.org/learn/about-birds/birdfacts/black-winged-stilt",
       "kind": "conservation",
       "accessedAt": "2026-09-21"
-    }
+    },
+    {
+      title: 'GBIF：黑翅长脚鹬的科学命名记录',
+      url: 'https://www.gbif.org/species/5229126',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-21",
