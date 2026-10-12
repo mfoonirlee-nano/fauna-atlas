@@ -94856,7 +94856,7 @@ export const species = [
       "en": "Endangered"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 EN（濒危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -94900,45 +94900,51 @@ export const species = [
     "猪鼻龟",
     "前肢像小桨"
   ],
-  "summary": "看看它用像小桨一样的前肢划水。",
-  "description": "猪鼻龟用宽扁的前肢在水中游动，四肢外形与许多淡水龟不同。它生活在新几内亚南部与澳大利亚北部的河流和湖泊。",
+  "summary": '猪鼻龟用宽扁前肢划水，把突出的鼻部伸出水面呼吸。它的背甲覆盖皮肤，雌龟会到沙质河岸产卵。',
+  "description": '猪鼻龟生活在新几内亚南部和澳大利亚北部的河流、湖泊。它用宽扁前肢划水，把突出的鼻部伸向水面呼吸，身体仍可留在水里。背甲覆盖皮肤，表面呈革质外观。它吃落入河中的果实、水生植物和小动物；雌龟上沙质河岸挖穴产卵。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "前肢像小桨",
-      "body": "猪鼻龟用宽扁的前肢在水中游动，四肢外形与许多淡水龟不同。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '前肢像小桨',
+      body: '猪鼻龟用宽扁的前肢在水中游动，四肢外形与许多淡水龟不同。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "鼻孔探出水面",
-      "body": "它把突出的鼻部伸向水面呼吸，身体可以留在水里。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '鼻孔探出水面',
+      body: '它把突出的鼻部伸向水面呼吸，身体可以留在水里。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "背上没有大块角质盾片",
-      "body": "背甲表面覆盖皮肤，呈革质外观，不像海龟那样有明显的大块角质盾片。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '背上没有大块角质盾片',
+      body: '背甲表面覆盖皮肤，呈革质外观，不像海龟那样有明显的大块角质盾片。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "河里的落果",
-      "body": "它会吃落入河中的果实，也取食水生植物和小动物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '河里的落果',
+      body: '它会吃落入河中的果实，也取食水生植物和小动物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "雌龟到岸上产卵",
-      "body": "雌龟会离开水面，在沙质河岸挖穴产卵。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '雌龟到岸上产卵',
+      body: '雌龟会离开水面，在沙质河岸挖穴产卵。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护产卵沙岸，减少采卵和对野生个体的捕捉。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护产卵沙岸，减少采卵和对野生个体的捕捉。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '卷册年份和出版年份不相同',
+      body: 'Ramsay 在 1886 年描述猪鼻龟，模式产地记录为新几内亚的弗莱河。原始描述所在卷册标着 1887 年，但爬行动物数据库记录实际出版时间是 1886 年 5 月 25 日。种名 insculpta 有“雕刻过的”含义，指背甲表面的凹纹；中文名则让人注意它突出的鼻部。',
+    },
   ],
   "keyFacts": [
     "猪鼻龟用宽扁的前肢在水中游动，四肢外形与许多淡水龟不同。",
@@ -95045,7 +95051,13 @@ export const species = [
       "url": "https://iucn-tftsg.org/wp-content/uploads/crm.10.checklist.atlas_.v10.2025.pdf",
       "kind": "conservation",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'The Reptile Database：猪鼻龟命名史',
+      url: 'https://reptile-database.reptarium.cz/Carettochelys/insculpta',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
