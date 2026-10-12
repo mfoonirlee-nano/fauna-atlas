@@ -109129,7 +109129,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "来源见本档案资料列表；未核实独立评估年份，全球趋势未核实。"
+    "assessor": '全球等级为 LC（无危）；独立评估年份与全球种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -109165,45 +109165,51 @@ export const species = [
     "中华管口鱼",
     "长长的管状嘴"
   ],
-  "summary": "找找长身体前面像管子一样的嘴。",
-  "description": "中华管口鱼身体细长，吻部像一根细管，下颌有小须。它会利用周围环境靠近小鱼，再把猎物吸入口中；本组画面展示黄色体色，野外也有其他颜色。",
+  "summary": '中华管口鱼的嘴在细长管状吻部末端。它头朝下藏在珊瑚旁，也会借大鱼遮挡接近小鱼，再吸入口中。',
+  "description": '中华管口鱼身体细长，管状吻部末端有小嘴，下颌有一根小须。它在珊瑚礁旁头朝下等待，或借较大鱼的遮挡接近猎物，再把小鱼吸入口中。野外个体有不同体色。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "长长的管状嘴",
-      "body": "沿着身体向前找，看看管状吻部末端的小嘴。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '长长的管状嘴',
+      body: '沿着身体向前找，看看管状吻部末端的小嘴。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "头朝下停留",
-      "body": "它常把头朝下藏在珊瑚等结构旁，接近下方的小鱼。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '头朝下停留',
+      body: '它常把头朝下藏在珊瑚等结构旁，接近下方的小鱼。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "靠近别的鱼",
-      "body": "它有时跟在较大的鱼身旁，借着遮挡接近猎物。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '靠近别的鱼',
+      body: '它有时跟在较大的鱼身旁，借着遮挡接近猎物。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "靠后的鱼鳍",
-      "body": "找找身体后段的背鳍和臀鳍，再看看尾鳍。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '靠后的鱼鳍',
+      body: '找找身体后段的背鳍和臀鳍，再看看尾鳍。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "下巴上的小须",
-      "body": "嘴巴下方有一根小须，可以帮助认识它的外形。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '下巴上的小须',
+      body: '嘴巴下方有一根小须，可以帮助认识它的外形。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "保护珊瑚礁，观察时不触碰珊瑚和鱼。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '保护珊瑚礁，观察时不触碰珊瑚和鱼。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '管状吻部对应中文名',
+      body: 'Linnaeus 在 1766 年发表 Aulostomus chinensis 这个名称。中文名“管口鱼”能直接对照它细长的管状吻部，小嘴在管子的末端。它有时靠近较大的鱼，利用遮挡接近猎物；黄色只是本种能出现的体色之一。',
+    },
   ],
   "keyFacts": [
     "沿着身体向前找，看看管状吻部末端的小嘴。",
@@ -109244,7 +109250,7 @@ export const species = [
         "image": "./images/species/chinese-trumpetfish/02-observation.webp",
         "title": "长长的管状嘴",
         "alt": "中华管口鱼：长长的管状嘴",
-        "caption": "AI 生成科学情景重建。沿着身体向前找，看看管状吻部末端的小嘴。",
+        "caption": 'AI 生成科学情景重建。沿着身体向前找，看看管状吻部末端的小嘴。本组重建图采用黄色个体。',
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -109309,7 +109315,13 @@ export const species = [
       "url": "https://fishesofaustralia.net.au/home/species/1875",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：中华管口鱼的科学命名记录',
+      url: 'https://www.gbif.org/species/2332603',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
