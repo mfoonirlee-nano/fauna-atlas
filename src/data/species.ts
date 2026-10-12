@@ -113004,52 +113004,58 @@ export const species = [
     "双冠蜥",
     "热带森林溪岸"
   ],
-  "summary": "双冠蜥有长尾巴和长后趾，遇险时能用后腿在水面奔跑一小段。",
-  "description": "双冠蜥有长尾巴和长后趾，遇险时能用后腿在水面奔跑一小段。成年雄性头顶、背部和尾部有明显的冠。这里采用棕色的 Basiliscus basiliscus。",
+  "summary": '双冠蜥生活在热带溪岸，能攀树和游泳，遇险时后脚拍水，短暂在水面奔跑。成年雄性有明显的冠。',
+  "description": '双冠蜥在中美洲至南美洲西北部的热带溪岸活动，能攀爬、游泳，也能用后足拍击水面短暂奔跑。成年雄性头顶、背部和尾部有明显的冠。它白天晒太阳，吃昆虫、其他小动物及植物。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "雄蜥的冠",
-      "body": "成年雄性头顶、背部和尾部有明显的冠。这里采用棕色的 Basiliscus basiliscus。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '雄蜥的冠',
+      body: '成年雄性头顶、背部和尾部有明显的冠。图像展示棕色的 Basiliscus basiliscus。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "溪岸上的长尾巴",
-      "body": "它常在溪流附近活动，长尾巴沿身体后方延伸。看看长趾怎样踩住地面。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '溪岸上的长尾巴',
+      body: '它常在溪流附近活动，长尾巴沿身体后方延伸。看看长趾怎样踩住地面。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "后脚拍过水面",
-      "body": "后脚拍击水面、身体向前移动，让它能短暂在水上奔跑。图中只是单个姿态的重建，不能当作动作分解或速度证据。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '后脚拍过水面',
+      body: '后脚拍击水面、身体向前移动，让它能短暂在水上奔跑。图中只是单个姿态的重建，不能当作动作分解或速度证据。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "水边的树枝",
-      "body": "双冠蜥会攀爬，也能游泳。溪岸的枝条和岩石都是它活动的地方。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '水边的树枝',
+      body: '双冠蜥会攀爬，也能游泳。溪岸的枝条和岩石都是它活动的地方。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "停在岩石上",
-      "body": "它会在日间晒太阳，食物包括昆虫及其他小动物，也吃植物。观察时不要驱赶它下水。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '停在岩石上',
+      body: '它会在日间晒太阳，食物包括昆虫及其他小动物，也吃植物。观察时不要驱赶它下水。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "不与绿色的 Basiliscus plumifrons 混用。采用冠蜥科；ADW 支持水面奔跑；2025 年野外观察论文列全球 LC，独立评估日期与趋势未核实。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '本种的全球保护等级为 LC（无危），独立评估日期与趋势尚未确认。观察时保留溪岸植被，不驱赶蜥蜴下水。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '头顶像王冠的结构',
+      body: 'Linnaeus 在 1758 年以 Lacerta basiliscus 发表了双冠蜥的科学描述。今天属名 Basiliscus 来自希腊语“小国王”，对应头部像冠一样的扩展结构。这里介绍棕色的 Basiliscus basiliscus，绿色的 Basiliscus plumifrons 是另一种冠蜥。',
+    },
   ],
   "keyFacts": [
-    "成年雄性头顶、背部和尾部有明显的冠。这里采用棕色的 Basiliscus basiliscus。",
-    "它常在溪流附近活动，长尾巴沿身体后方延伸。看看长趾怎样踩住地面。",
-    "后脚拍击水面、身体向前移动，让它能短暂在水上奔跑。图中只是单个姿态的重建，不能当作动作分解或速度证据。",
-    "双冠蜥会攀爬，也能游泳。溪岸的枝条和岩石都是它活动的地方。",
-    "它会在日间晒太阳，食物包括昆虫及其他小动物，也吃植物。观察时不要驱赶它下水。"
+    '成年雄性头顶、背部和尾部有明显的冠。图像展示棕色的 Basiliscus basiliscus。',
+    '它常在溪流附近活动，长尾巴沿身体后方延伸。看看长趾怎样踩住地面。',
+    '后脚拍击水面、身体向前移动，让它能短暂在水上奔跑。图中只是单个姿态的重建，不能当作动作分解或速度证据。',
+    '双冠蜥会攀爬，也能游泳。溪岸的枝条和岩石都是它活动的地方。',
+    '它会在日间晒太阳，食物包括昆虫及其他小动物，也吃植物。观察时不要驱赶它下水。',
   ],
   "threats": [],
   "conservationActions": [
@@ -113158,7 +113164,13 @@ export const species = [
       "url": "https://journals.ku.edu/reptilesandamphibians/article/download/24095/22067/93812",
       "kind": "conservation",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: '爬行动物数据库：双冠蜥的命名与词源',
+      url: 'https://reptile-database.reptarium.cz/Basiliscus/basiliscus',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-23",
