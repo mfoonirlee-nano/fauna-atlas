@@ -109617,7 +109617,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "本轮未取得全球 IUCN 评估证据，暂保留 NE；不把区域常见程度或局部数量当作全球等级。"
+    "assessor": '全球 IUCN 评估尚未确认；局部常见程度不代表全球保护等级。'
   },
   "distribution": {
     "realms": [
@@ -109634,7 +109634,7 @@ export const species = [
     {
       "name": "潮间带至浅海的岩石和沙地",
       "realm": "marine",
-      "description": "东北大西洋；英国和爱尔兰沿岸均有记录的潮间带至浅海的岩石和沙地。",
+      "description": '东北大西洋的潮间带至浅海，岩石和沙质海底均有记录。',
       "isPrimary": true
     }
   ],
@@ -109655,45 +109655,51 @@ export const species = [
     "普通寄居蟹",
     "背着壳走"
   ],
-  "summary": "看看它走动时背着的螺壳。",
+  "summary": '普通寄居蟹把柔软腹部藏在空螺壳里，右螯大于左螯。它在东北大西洋沿岸活动，长大后需要换壳。',
   "description": "普通寄居蟹把柔软的腹部藏在空螺壳里，头部、螯和步足从壳口伸出来。它的右螯较大，随着身体长大需要寻找更合适的壳。",
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "背着壳走",
-      "body": "螺壳原本属于软体动物。寄居蟹借用空壳保护柔软的腹部。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '背着壳走',
+      body: '螺壳原本属于软体动物。寄居蟹借用空壳保护柔软的腹部。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "一大一小的螯",
-      "body": "看看壳口两边的螯，右螯比左螯大。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '一大一小的螯',
+      body: '看看壳口两边的螯，右螯比左螯大。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "伸出的触角",
-      "body": "头部有眼柄和触角。看看它们从壳口伸出的方向。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '伸出的触角',
+      body: '头部有眼柄和触角。看看它们从壳口伸出的方向。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "寻找合适的壳",
-      "body": "身体长大后，原来的壳可能太小。它会检查其他空壳。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '寻找合适的壳',
+      body: '身体长大后，原来的壳可能太小。它会检查其他空壳。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "岩石与沙地",
-      "body": "它能在岩石和沙质海底活动。本组用小石子和贝壳作自然参照，不用于精确测量。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '岩石与沙地',
+      body: '它能在岩石和沙质海底活动。本组用小石子和贝壳作自然参照，不用于精确测量。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "把海滩上的空壳留在原处，不把寄居蟹拉出壳。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '把海滩上的空壳留在原处，不把寄居蟹拉出壳。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '寄住的螺壳会更换',
+      body: 'Linnaeus 在 1758 年发表了普通寄居蟹的科学描述，今天采用 Pagurus bernhardus。中文名“寄居”对应借用空螺壳的习惯，壳最初由软体动物形成。蟹本身的腹部柔软，长大后要检查、选择更合适的空壳，海滩留下的壳也是它可用的住处。',
+    },
   ],
   "keyFacts": [
     "螺壳原本属于软体动物。寄居蟹借用空壳保护柔软的腹部。",
@@ -109806,7 +109812,13 @@ export const species = [
       "url": "https://obis.org/taxon/107232",
       "kind": "taxonomy",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：普通寄居蟹的科学命名记录',
+      url: 'https://www.gbif.org/species/2224231',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-22",
