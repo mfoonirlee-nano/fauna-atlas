@@ -30064,44 +30064,44 @@ export const species = [
       {
         key: 'notochord-not-vertebrae',
         label: '分类与身体',
-        title: '名字里有鱼，身体里没有脊柱',
-        body:
-          '厦门文昌鱼是一种头索动物。它没有头颅、颌、脊椎和成对鳍，终生保留的背索从吻端贯穿身体，体侧肌节沿这根弹性轴线逐段收缩，让半透明身体产生侧向波。',
+        title: '终生保留背索的头索动物',
+        body: '厦门文昌鱼是一种头索动物。它没有头颅、颌、脊椎和成对鳍，终生保留的背索从吻端贯穿身体，体侧肌节沿这根弹性轴线逐段收缩，让半透明身体产生侧向波。',
       },
       {
         key: 'oral-hood-filter',
         label: '滤食结构',
-        title: '口笠前的一道筛网',
-        body:
-          '口笠触手先把大颗粒挡在外面，轮器则藏在口腔前庭内推动水流。小颗粒进入咽部后被内柱黏液捕获，纤毛再把食物送进消化道；轮器不能画成第二圈外露触手。',
+        title: '口笠粗筛，黏液捕获小颗粒',
+        body: '口笠触手先把大颗粒挡在外面，轮器则藏在口腔前庭内推动水流。小颗粒进入咽部后被内柱黏液捕获，纤毛再把食物送进消化道，轮器位于口腔前庭内部。',
       },
       {
         key: 'buried-filter-feeder',
         label: '砂底生境',
-        title: '半埋在会呼吸的砂里',
-        body:
-          '底栖个体把身体埋进低有机质砂底，只留下前端迎着水流。洁净粒隙和持续水交换同时带来氧和食物；泥化、压实或水流改变会让一片看似普通的沙失去功能。',
+        title: '在洁净、富氧砂底中埋栖',
+        body: '底栖个体把身体埋进低有机质砂底，只留下前端迎着水流。洁净粒隙和持续水交换同时带来氧和食物；泥化、压实或水流改变会让一片看似普通的沙失去功能。',
       },
       {
         key: 'two-lancelet-names',
         label: '物种边界',
         title: '两种文昌鱼曾共用一个名字',
-        body:
-          '厦门水域的两种文昌鱼外形相近：本种肛前鳍室为 80 至 103 个，B. japonicum 为 48 至 64 个，线粒体序列也清楚分开。青岛与日本旧称 B. belcheri 的资料多属于 B. japonicum，旧论文中的数字必须先确认物种身份。',
+        body: '厦门水域的两种文昌鱼外形相近：本种肛前鳍室为 80 至 103 个，B. japonicum 为 48 至 64 个，线粒体序列也清楚分开。青岛与日本旧称 B. belcheri 的资料多属于 B. japonicum，旧论文中的数字必须先确认物种身份。',
       },
       {
         key: 'planktonic-to-benthic',
         label: '繁殖与发育',
         title: '浮游幼体落向砂底',
-        body:
-          '卵和精子在海水中相遇，胚胎与幼体先随水层生活，变态后才进入砂底。香港的 6 至 7 月和厦门的 6 至 9 月都是局地繁殖窗口；实验室全年产卵说明可塑性，不是野外日历。',
+        body: '卵和精子在海水中相遇，胚胎与幼体先随水层生活，变态后才进入砂底。香港的 6 至 7 月和厦门的 6 至 9 月都是局地繁殖窗口；实验室全年产卵说明可塑性，不是野外日历。',
       },
       {
         key: 'protect-moving-sand',
         label: '保护与监测',
-        title: '保护一片会移动的砂',
-        body:
-          '国家二级保护约束的是野外种群，真正的保护对象还包括粒径、水流和低有机质共同维持的砂床。固定站位监测、物种级鉴定和工程避让比一个脱离采样背景的总数更能判断变化。',
+        title: '保护砂床、水流和野外种群',
+        body: '国家二级保护约束的是野外种群，真正的保护对象还包括粒径、水流和低有机质共同维持的砂床。固定站位监测、物种级鉴定和工程避让比一个脱离采样背景的总数更能判断变化。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '1847 年的命名与婆罗洲模式产地',
+        body: '厦门文昌鱼的科学命名记录署名为 Gray，年份为 1847 年，现用学名为 Branchiostoma belcheri，模式产地在婆罗洲。中文名包含“厦门”，其自然范围却还包括其他经确认地点。厦门水域后来发现两个近似物种，青岛和日本旧称 B. belcheri 的材料多归入 B. japonicum。',
       },
     ],
     keyFacts: [
@@ -30219,7 +30219,15 @@ export const species = [
         },
       ],
     },
-    sources: BELCHERS_LANCELET_SOURCES,
+    sources: [
+      ...BELCHERS_LANCELET_SOURCES,
+      {
+        title: 'GBIF: Branchiostoma belcheri (Gray, 1847) nomenclatural record',
+        url: 'https://www.gbif.org/species/5227667',
+        kind: 'taxonomy',
+        accessedAt: '2026-10-11',
+      },
+    ],
     featured: true,
     publishedAt: BELCHERS_LANCELET_CONTENT_DATE,
     updatedAt: BELCHERS_LANCELET_CONTENT_DATE,
