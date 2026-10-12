@@ -128364,7 +128364,7 @@ export const species = [
     {
       "name": "稀树草原与干燥疏林",
       "realm": "terrestrial",
-      "description": "紫胸佛法僧常停在开阔地的枝头观察猎物。它胸前有紫色羽毛，展开翅膀时能看见浅蓝和深蓝的羽区。",
+      "description": '生活在稀树草原和干燥疏林，利用较高枝条观察猎物，树洞可供繁殖。',
       "isPrimary": true
     }
   ],
@@ -128379,58 +128379,64 @@ export const species = [
       "小蜥蜴",
       "蛙"
     ],
-    "description": "食物包括蝗虫、甲虫、小蜥蜴、蛙。"
+    "description": '食物包括蝗虫、甲虫、小蜥蜴、蛙。'
   },
   "tags": [
     "紫胸佛法僧",
     "稀树草原与干燥疏林"
   ],
-  "summary": "紫胸佛法僧常停在开阔地的枝头观察猎物。它胸前有紫色羽毛，展开翅膀时能看见浅蓝和深蓝的羽区。",
-  "description": "紫胸佛法僧常停在开阔地的枝头观察猎物。它胸前有紫色羽毛，展开翅膀时能看见浅蓝和深蓝的羽区。图像采用指名亚种 Coracias caudatus caudatus 的紫色喉胸外观；两根延长的外侧尾羽在成年鸟身后拖出。",
+  "summary": '紫胸佛法僧停在非洲疏林和稀树草原的高枝上等待猎物，用树洞繁殖，展开翅膀时可见浅蓝与深蓝羽区。',
+  "description": '紫胸佛法僧常停在高枝上观察地面，捕食蝗虫、甲虫，也吃小蜥蜴和蛙。它生活在非洲东部至南部的疏林与稀树草原，用树洞繁殖。指名亚种的喉胸呈紫色，腹部蓝绿，翅膀有浅蓝和深蓝羽区，成年鸟的两根外侧尾羽明显延长。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "展开的蓝色翅膀",
-      "body": "从浅蓝色看到翅膀外侧的深蓝色，再找找长尾羽。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '展开的蓝色翅膀',
+      body: '翅膀有浅蓝和深蓝羽区，成年鸟两根外侧尾羽明显延长。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "从胸口找到肚子",
-      "body": "找到紫色胸部和蓝绿色腹部，看看两种颜色在哪里相接。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '从胸口找到肚子',
+      body: '指名亚种胸部紫色，腹部蓝绿色。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "高枝上向下看",
-      "body": "顺着鸟嘴的方向看看地面。它常从高处等待猎物出现。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '高枝上向下看',
+      body: '紫胸佛法僧常从高处等待地面上的猎物出现。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "嘴里的小虫",
-      "body": "找找嘴边的昆虫。它会捕食蝗虫等动物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '嘴里的小虫',
+      body: '它会捕食蝗虫、甲虫，也吃小蜥蜴和蛙。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "树干上的洞口",
-      "body": "在鸟旁边找一个树洞。紫胸佛法僧会利用树洞繁殖。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '树干上的洞口',
+      body: '紫胸佛法僧利用树洞繁殖。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "保留稀树草原中的树木和天然树洞，从远处观察停枝的鸟。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '保留稀树草原中的树木和天然树洞，从远处观察停枝的鸟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '紫色胸部写进了通名',
+      body: '林奈在 1766 年发表了紫胸佛法僧的科学描述，现用学名为 Coracias caudatus。中文名“紫胸”和英文名 Lilac-breasted roller 都与胸部羽色相对应。指名亚种的喉胸呈紫色，成年鸟的两根外侧长尾羽也是辨认线索。',
+    },
   ],
   "keyFacts": [
-    "从浅蓝色看到翅膀外侧的深蓝色，再找找长尾羽。",
-    "找到紫色胸部和蓝绿色腹部，看看两种颜色在哪里相接。",
-    "顺着鸟嘴的方向看看地面。它常从高处等待猎物出现。",
-    "找找嘴边的昆虫。它会捕食蝗虫等动物。",
-    "在鸟旁边找一个树洞。紫胸佛法僧会利用树洞繁殖。"
+    '翅膀有浅蓝和深蓝羽区，成年鸟两根外侧尾羽明显延长。',
+    '指名亚种胸部紫色，腹部蓝绿色。',
+    '紫胸佛法僧常从高处等待地面上的猎物出现。',
+    '它会捕食蝗虫、甲虫，也吃小蜥蜴和蛙。',
+    '紫胸佛法僧利用树洞繁殖。',
   ],
   "threats": [
     "局地疏林栖息地改变"
@@ -128481,7 +128487,7 @@ export const species = [
         "image": "./images/species/lilac-breasted-roller/03-observation.webp",
         "alt": "紫胸佛法僧：从胸口找到肚子",
         "title": "从胸口找到肚子",
-        "caption": "AI 生成科学情景重建。找到紫色胸部和蓝绿色腹部，看看两种颜色在哪里相接。",
+        "caption": 'AI 生成科学情景重建。找到紫色胸部和蓝绿色腹部，看看两种颜色在哪里相接。采用紫色喉胸的指名亚种外形。',
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -128541,7 +128547,13 @@ export const species = [
       "url": "https://www.biodiversityexplorer.info/birds/coraciidae/coracias_caudatus.htm",
       "kind": "ecology",
       "accessedAt": "2026-09-28"
-    }
+    },
+    {
+      title: 'GBIF：Coracias caudatus 的描述作者与年份',
+      url: 'https://www.gbif.org/species/2475360',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-28",
