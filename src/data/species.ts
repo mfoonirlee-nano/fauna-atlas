@@ -99344,7 +99344,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "采用全球 LC；南非 2025 年区域评估为 VU，不能替代全球类别。独立评估日期和全球趋势未核实，年份留空。"
+    "assessor": '全球等级为无危；南非 2025 年地区评估为易危。全球独立评估日期与种群趋势尚未核实。'
   },
   "distribution": {
     "realms": [
@@ -99389,45 +99389,51 @@ export const species = [
     "白鹈鹕",
     "嘴下面的喉囊"
   ],
-  "summary": "看看它长嘴下面能够张开的袋子。",
-  "description": "白鹈鹕的下嘴连着能伸展的黄色喉囊。它捕鱼时可以把鱼和水一起兜住。 非洲、欧洲东南部和亚洲部分地区的湖泊与湿地是它的生活区域。",
+  "summary": '白鹈鹕用黄色喉囊兜鱼，排水后吞下猎物。它常在湖泊结群活动，展开白色翅膀可见黑色飞羽。',
+  "description": '白鹈鹕生活在非洲、欧洲东南部和亚洲部分地区的湖泊、湿地，常结群活动，有时一起把鱼赶向浅水。捕鱼时，它用能伸展的黄色喉囊兜住鱼和水，再排水吞鱼。短腿上的蹼足用于划水，白色身体展开翅膀后能看见黑色飞羽。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "嘴下面的喉囊",
-      "body": "白鹈鹕的下嘴连着能伸展的黄色喉囊。它捕鱼时可以把鱼和水一起兜住。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '嘴下面的喉囊',
+      body: '白鹈鹕的下嘴连着能伸展的黄色喉囊。它捕鱼时可以把鱼和水一起兜住。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "把嘴伸进水里",
-      "body": "白鹈鹕常在水面游动时捕鱼，随后排出喉囊里的水，再吞下鱼。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '把嘴伸进水里',
+      body: '白鹈鹕常在水面游动时捕鱼，随后排出喉囊里的水，再吞下鱼。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "脚趾之间有蹼",
-      "body": "白色身体下面是短腿，脚趾之间连着蹼，能帮助它在水里划动。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '脚趾之间有蹼',
+      body: '白色身体下面是短腿，脚趾之间连着蹼，能帮助它在水里划动。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "展开黑白翅膀",
-      "body": "白鹈鹕站着时显得很白，展开翅膀后，可以看到黑色的飞羽。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '展开黑白翅膀',
+      body: '白鹈鹕站着时显得很白，展开翅膀后，可以看到黑色的飞羽。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "湖面上的同伴",
-      "body": "白鹈鹕常结群活动，有时会一起把鱼赶向浅水处。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '湖面上的同伴',
+      body: '白鹈鹕常结群活动，有时会一起把鱼赶向浅水处。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护湖泊和繁殖地，观察鸟群时与巢区保持距离。采用全球 LC；南非 2025 年区域评估为 VU，不能替代全球类别。独立评估日期和全球趋势未核实，年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护湖泊和繁殖地，观察鸟群时与巢区保持距离。全球保护等级为无危，南非 2025 年的地区评估为易危，两个等级适用的范围不同。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '白鸟展开翅膀之后',
+      body: 'Linnaeus 在 1758 年发表 Pelecanus onocrotalus 这个名称。“白鹈鹕”让人先想到白色身体，但它展开翅膀时还能看到黑色飞羽。黄色喉囊也与捕鱼有关：它先把鱼和水一起兜住，排去水后再吞下鱼。',
+    },
   ],
   "keyFacts": [
     "白鹈鹕的下嘴连着能伸展的黄色喉囊。它捕鱼时可以把鱼和水一起兜住。",
@@ -99534,7 +99540,13 @@ export const species = [
       "url": "https://animaldiversity.org/accounts/Pelecanus_onocrotalus/",
       "kind": "ecology",
       "accessedAt": "2026-09-21"
-    }
+    },
+    {
+      title: 'GBIF：白鹈鹕的科学命名记录',
+      url: 'https://www.gbif.org/species/2480350',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-21",
