@@ -112241,7 +112241,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "本轮未取得全球 IUCN 评估证据，暂保留 NE；不将地区等级当作全球评估。"
+    "assessor": '全球 IUCN 评估尚未确认；地区等级不等于全球评估。'
   },
   "distribution": {
     "realms": [
@@ -112258,7 +112258,7 @@ export const species = [
     {
       "name": "浅海岩石等硬质基底",
       "realm": "marine",
-      "description": "浅海岩石等硬质基底中的生活场景。",
+      "description": '地中海及邻近大西洋浅海的岩石等硬质表面。',
       "isPrimary": true
     }
   ],
@@ -112278,45 +112278,51 @@ export const species = [
     "浴海绵",
     "表面的孔"
   ],
-  "summary": "找找海绵表面大小不同的孔。",
-  "description": "浴海绵生活在浅海岩石等硬质基底。找找海绵表面大小不同的孔。水从微小入水孔进入，再从较大的出水孔排出。活浴海绵常呈灰色到近黑色。加工后淡黄色的海绵骨架与活体外观不同。",
+  "summary": '浴海绵固定在岩石等表面，过滤海水里的细菌和微小颗粒。活体多呈灰黑色，洗浴用品取自处理后的骨架。',
+  "description": '浴海绵附着在浅海岩石等硬表面，靠流经身体的海水取得细菌和微小有机颗粒。水从细小入水孔进入，从较大的出水孔排出。活体常为灰色至近黑色，与加工后淡黄色的柔软骨架外观不同。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "表面的孔",
-      "body": "找找海绵表面大小不同的孔。水从微小入水孔进入，再从较大的出水孔排出。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '表面的孔',
+      body: '找找海绵表面大小不同的孔。水从微小入水孔进入，再从较大的出水孔排出。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "固定在岩石上",
-      "body": "成年浴海绵附着在岩石等表面生活。它是动物，没有脚也没有叶子。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '固定在岩石上',
+      body: '成年浴海绵附着在岩石等表面生活。它是动物，没有脚也没有叶子。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "不规则的轮廓",
-      "body": "从上面看看圆块状或分叶状的身体。不同个体的外形和颜色会有差异。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '不规则的轮廓',
+      body: '从上面看看圆块状或分叶状的身体。不同个体的外形和颜色会有差异。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "海底的生活",
-      "body": "海水流经身体时，海绵取得其中的细菌和微小有机颗粒作为食物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '海底的生活',
+      body: '海水流经身体时，海绵取得其中的细菌和微小有机颗粒作为食物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "活海绵的表面",
-      "body": "活浴海绵常呈灰色到近黑色。加工后淡黄色的海绵骨架与活体外观不同。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '活海绵的表面',
+      body: '活浴海绵常呈灰色到近黑色。加工后淡黄色的海绵骨架与活体外观不同。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "一起观察与保护",
-      "body": "观察活海绵时不触摸或掰取，保护海底附着生物和水质。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '一起观察与保护',
+      body: '观察活海绵时不触摸或掰取，保护海底附着生物和水质。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '洗浴用的是海绵的骨架',
+      body: 'Linnaeus 在 1759 年发表 Spongia officinalis 这个名称。人们曾把这种海绵的柔软骨架用作洗浴用品，中文名“浴海绵”能与这项用途对应。法国潜水协会 DORIS 解释，种名 officinalis 与旧时商店、药房售卖的用品有关；活海绵仍是附着在海底的动物。',
+    },
   ],
   "keyFacts": [
     "找找海绵表面大小不同的孔。水从微小入水孔进入，再从较大的出水孔排出。",
