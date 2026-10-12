@@ -815,3 +815,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [北方哲水蚤 image set](./species/calanus-finmarchicus/README.md)
 
 - [二斑叶螨 image set](./species/two-spotted-spider-mite/README.md)
+- [海蜘蛛 image set](./species/gracile-sea-spider/README.md)

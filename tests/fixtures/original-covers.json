@@ -5029,5 +5029,18 @@
       },
       "sha256": "a5c7185fd482514fe4603259287d9b8f69b3403396ce7499d93c0f72a730033f"
     }
+  },
+  "gracile-sea-spider": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 730,
+        "top": 170,
+        "right": 1380,
+        "bottom": 850
+      },
+      "sha256": "d13868623167661847f6ec9cd2765120a15a38842a797223abb4f18331e8c98d"
+    }
   }
 }

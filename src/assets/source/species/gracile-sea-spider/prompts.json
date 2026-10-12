@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Nymphon gracile adult sea spider, translucent pale amber to pink extremely slender segmented trunk, FOUR pairs of very long thin jointed walking legs (8 total), small cylindrical proboscis pointing forward and paired chelifores with tiny pincers beside it, small palps and ovigers near anterior trunk. Tiny posterior abdomen NOT a round spider abdomen, no head antennae. Sea spider not terrestrial spider, crustacean crab or insect. Scene: Single complete adult on submerged rocky substrate with sparse hydroids, dorsal oblique view, long legs fully within frame. COVER: place ENTIRE subject including all appendages inside RIGHT region x=710..1460 y=140..890. Center entire silhouette x=1080 or more. LEFT 42% empty blurred habitat. Full-body prominent, no cropped legs or antennae, real background margins on all sides. No text no labels no watermark no scale bar. No invented appendages.\nEdits: Edit Nymphon gracile scientific reconstruction. Correct anterior anatomy: a SHORT stout cylindrical forward-pointing proboscis, length about twice its own width, ending in a small plain mouth, NOT a long needle or pincer. The two separate chelifores flank it and end in small chelae; palps and folded ovigers are finer anterior appendages. Retain exactly FOUR pairs of long thin walking legs, tiny narrow trunk and very small posterior abdomen. Shrink full animal 90% and shift slightly right so every walking foot lies in x=680..1460 y=120..900, LEFT42% quiet underwater rock. No terrestrial spider abdomen, antennae or extra walking legs. 1536x1024 no text.\nFurther edit: Image1 is the COVER to edit; image2 is reference for FOUR pairs of walking legs. Add the missing 4th pair of long slender walking legs to Image1, retaining the first3 pairs. Must have exactly FOUR roots on each side of slender trunk, eight long jointed legs total, with no overlaps hiding a pair. Add pair arising from posterior trunk beside tiny abdomen. Preserve Image1 underwater rock, right-side placement, short cylindrical mouth proboscis and separate small chelifores. Every foot tip inside x=670..1470 y=120..930, LEFT42% quiet habitat. Maintain natural proportions and1536x1024. No text or labels.",
+      "sourceSha256": "0b1d34651b0787bda6c1a0ed6408de1183dd91f911685b4b178bfc36bbc0c443",
+      "runtimeSha256": "d13868623167661847f6ec9cd2765120a15a38842a797223abb4f18331e8c98d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Nymphon gracile adult sea spider, translucent pale amber to pink extremely slender segmented trunk, FOUR pairs of very long thin jointed walking legs (8 total), small cylindrical proboscis pointing forward and paired chelifores with tiny pincers beside it, small palps and ovigers near anterior trunk. Tiny posterior abdomen NOT a round spider abdomen, no head antennae. Sea spider not terrestrial spider, crustacean crab or insect. Scene: Complete adult dorsal view on dark marine microscopy background, very slender trunk and all long walking legs. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.\nEdit: Correct the Nymphon gracile dorsal scientific reconstruction. It currently shows only THREE pairs of large walking legs. ADD the missing FOURTH pair from the posterior walking-leg-bearing trunk segment, one long slender jointed leg on EACH side. Final MUST have exactly 8 long walking legs: 4 distinct roots on left of trunk and 4 on right. Spread all eight without overlap, fit every tip inside margins. Short stout cylindrical proboscis at front, length twice own width, plain terminal mouth, with two separate small-chelate chelifores beside it. Keep translucent thin segmented trunk, tiny posterior abdomen, dark marine microscopy background. No terrestrial spider abdomen, antennae, text or labels.1536x1024",
+      "sourceSha256": "76dbf1fd145cb490babfbb1dcf522e0fa4736eeed27e7562649db360560f7539",
+      "runtimeSha256": "8d4c7f03b811681911c4a79bc203644e28550e6c52484536f7392f37bfaf338f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Nymphon gracile adult sea spider, translucent pale amber to pink extremely slender segmented trunk, FOUR pairs of very long thin jointed walking legs (8 total), small cylindrical proboscis pointing forward and paired chelifores with tiny pincers beside it, small palps and ovigers near anterior trunk. Tiny posterior abdomen NOT a round spider abdomen, no head antennae. Sea spider not terrestrial spider, crustacean crab or insect. Scene: Anterior close-up of narrow trunk, cylindrical proboscis and small paired chelate chelifores; don't add land spider fangs. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "7e199c40213ee28b0a5aa6fb94f00e84be03d18a3570caacfe8efe89ba58dbb8",
+      "runtimeSha256": "7d6f2b16959a590a2e24d6531edd9c1f51f29547d30862c5dccb51dc874722b0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Nymphon gracile adult sea spider, translucent pale amber to pink extremely slender segmented trunk, FOUR pairs of very long thin jointed walking legs (8 total), small cylindrical proboscis pointing forward and paired chelifores with tiny pincers beside it, small palps and ovigers near anterior trunk. Tiny posterior abdomen NOT a round spider abdomen, no head antennae. Sea spider not terrestrial spider, crustacean crab or insect. Scene: Adult male with several small compact egg clusters held under trunk on ovigers, keep distinct from eight walking legs, dark sea floor. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "495fdd7355ba74f68c3ca00a8ac9a661c71b26dde853ffc445c00e1c39760956",
+      "runtimeSha256": "e131c6606ab818337cc396b9ea31dec55eadfad470eeff729459a5d40b7c0858",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Nymphon gracile adult sea spider, translucent pale amber to pink extremely slender segmented trunk, FOUR pairs of very long thin jointed walking legs (8 total), small cylindrical proboscis pointing forward and paired chelifores with tiny pincers beside it, small palps and ovigers near anterior trunk. Tiny posterior abdomen NOT a round spider abdomen, no head antennae. Sea spider not terrestrial spider, crustacean crab or insect. Scene: Whole adult beside branching Dynamena pumila hydroid colony, calm feeding relation reconstruction no violence. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "5ca8f406ecf1042d3f9c0b615443663905df2032978c4008fdbe12578811e7c1",
+      "runtimeSha256": "16cc56916292f291ca6b8fae150fe45b72d000e42c57e0d6c425a1e3fc756fd2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE 1536x1024 animal atlas image, scientifically restrained AI reconstruction, macro or microscopy realistic texture. Nymphon gracile adult sea spider, translucent pale amber to pink extremely slender segmented trunk, FOUR pairs of very long thin jointed walking legs (8 total), small cylindrical proboscis pointing forward and paired chelifores with tiny pincers beside it, small palps and ovigers near anterior trunk. Tiny posterior abdomen NOT a round spider abdomen, no head antennae. Sea spider not terrestrial spider, crustacean crab or insect. Scene: Complete adult side-oblique view showing long thin legs and tiny narrow trunk on underwater rock, soft navy background. Prominent center subject; retain appendages with real margins, except explicitly requested anatomical close-ups. No text no labels no watermark no scale bar. No invented appendages.",
+      "sourceSha256": "1374811803f974e64c3997559687cec721fdc7a7437d1225f7258c97e0a044fe",
+      "runtimeSha256": "d0299a9ec8831f90db1efad13558d53a69cdb0c424cb4d48843591a65e71b1e9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
