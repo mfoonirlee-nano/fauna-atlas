@@ -94111,7 +94111,7 @@ export const species = [
       "en": "Near Threatened"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 NT（近危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -94155,45 +94155,51 @@ export const species = [
     "鬃狼",
     "高草里的长腿"
   ],
-  "summary": "找找草丛上方的身体和下面的长腿。",
-  "description": "鬃狼用长腿穿过高草，也能把头抬到草丛上方观察周围。它生活在南美洲中东部的塞拉多草原与灌丛。",
+  "summary": '鬃狼用长腿穿过南美洲高草，常独自活动。脖子后的深色鬃毛很醒目，它既吃小动物，也吃狼果等果实。',
+  "description": '鬃狼生活在南美洲中东部的塞拉多草原和灌丛，常在黄昏、夜间独自寻找食物。长腿把身体抬出高草，大耳朵能转动，听草丛中小动物的动静。它吃小动物，也吃当地称为狼果的植物果实。红褐色身体上有深色鬃毛，喉部和尾端有白毛。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "高草里的长腿",
-      "body": "鬃狼用长腿穿过高草，也能把头抬到草丛上方观察周围。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '高草里的长腿',
+      body: '鬃狼用长腿穿过高草，也能把头抬到草丛上方观察周围。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "转动大耳朵",
-      "body": "它会转动竖起的大耳朵，听草丛里小动物的动静。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '转动大耳朵',
+      body: '它会转动竖起的大耳朵，听草丛里小动物的动静。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "也会吃果子",
-      "body": "鬃狼吃小动物，也吃果实，包括当地称为狼果的植物果实。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '也会吃果子',
+      body: '鬃狼吃小动物，也吃果实，包括当地称为狼果的植物果实。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "黄昏出来走走",
-      "body": "它常在黄昏和夜间活动，通常独自寻找食物。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '黄昏出来走走',
+      body: '它常在黄昏和夜间活动，通常独自寻找食物。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "脖子后的黑鬃毛",
-      "body": "红褐色身体上有一片深色鬃毛，喉部和尾端则有白毛。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '脖子后的黑鬃毛',
+      body: '红褐色身体上有一片深色鬃毛，喉部和尾端则有白毛。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保护塞拉多原生植被，让道路为野生动物保留通行空间。所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保护塞拉多原生植被，让道路为野生动物保留通行空间。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '名字里的鬃毛',
+      body: 'Illiger 在 1815 年发表了鬃狼的科学描述，今天常用 Chrysocyon brachyurus。中文名中的“鬃”可以对应到脖子后的深色长毛。它的食物也值得留意：这只外形高挑的犬科动物除了捕捉小动物，还会吃当地称为狼果的果实。',
+    },
   ],
   "keyFacts": [
     "鬃狼用长腿穿过高草，也能把头抬到草丛上方观察周围。",
@@ -94295,7 +94301,13 @@ export const species = [
       "url": "https://nationalzoo.si.edu/animals/maned-wolf",
       "kind": "conservation",
       "accessedAt": "2026-09-20"
-    }
+    },
+    {
+      title: 'GBIF：鬃狼的科学命名记录',
+      url: 'https://www.gbif.org/species/2434450',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-20",
