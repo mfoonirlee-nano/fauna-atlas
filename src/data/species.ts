@@ -113715,7 +113715,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "本轮未核实全球评估；NE 不代表无危"
+    "assessor": '全球保护评估尚未确认；NE（未评估）不等于无危。'
   },
   "distribution": {
     "realms": [
@@ -113732,7 +113732,7 @@ export const species = [
     {
       "name": "浅海潟湖与珊瑚碎石底",
       "realm": "marine",
-      "description": "在浅海潟湖与珊瑚碎石底中寻找食物和藏身处。",
+      "description": '西太平洋浅海潟湖及珊瑚碎石底，礁底缝隙提供藏身处。',
       "isPrimary": true
     }
   ],
@@ -113757,45 +113757,51 @@ export const species = [
     "花斑连鳍䲗",
     "浅海潟湖与珊瑚碎石底"
   ],
-  "summary": "花斑连鳍䲗贴近礁底活动，身上蓝、橙、绿色的弯纹像一条条彩色小路。",
-  "description": "花斑连鳍䲗贴近礁底活动，身上蓝、橙、绿色的弯纹像一条条彩色小路。沿着鱼身上的弯纹慢慢看。这些曲线不同于近似种身上一圈圈的靶状斑。",
+  "summary": '花斑连鳍䲗在礁底用小嘴吃小型甲壳动物，常藏在碎珊瑚缝隙。身上的彩色弯纹区别于近似种的靶状斑。',
+  "description": '花斑连鳍䲗生活在西太平洋浅海潟湖和珊瑚碎石底，用小嘴取食小型甲壳动物等底栖动物。身上有蓝、橙、绿色弯纹，胸鳍像两把小扇。它常藏在礁底缝隙，弯纹与某些近似种的靶状斑不同。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "身上的彩色弯纹",
-      "body": "沿着鱼身上的弯纹慢慢看。这些曲线不同于近似种身上一圈圈的靶状斑。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '身上的彩色弯纹',
+      body: '沿着鱼身上的弯纹慢慢看。这些曲线不同于近似种身上一圈圈的靶状斑。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "礁底找小食物",
-      "body": "它靠近珊瑚碎块寻找小型甲壳动物，用小嘴取食。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '礁底找小食物',
+      body: '它靠近珊瑚碎块寻找小型甲壳动物，用小嘴取食。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "宽脑袋和小嘴",
-      "body": "从斜前方看看头部，再找找前端小小的嘴。近景画面放大了鱼体，不代表实际大小。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '宽脑袋和小嘴',
+      body: '从斜前方看看头部，再找找前端小小的嘴。近景画面放大了鱼体，不代表实际大小。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "扇动胸鳍",
-      "body": "胸鳍像两把小扇，帮助它在礁底附近活动。鱼鳍形状会随姿态改变。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '扇动胸鳍',
+      body: '胸鳍像两把小扇，帮助它在礁底附近活动。鱼鳍形状会随姿态改变。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "碎珊瑚旁休息",
-      "body": "它常藏在浅海礁底的缝隙和碎块间。保留这些栖息空间，才能保留它的食物来源。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '碎珊瑚旁休息',
+      body: '它常藏在浅海礁底的缝隙和碎块间。保留这些栖息空间，才能保留它的食物来源。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "观察与保护",
-      "body": "采用 ADW/NCBI 的 Synchiropus splendidus；Fishes of Australia 使用 Pterosynchiropus splendidus，记为别名。图谱沿用鲈形目口径。未取得全球等级证据。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '观察与保护',
+      body: '全球保护评估尚未确认。保留浅海礁底缝隙和碎珊瑚等生活空间，观察时不移动鱼。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '一种鱼有过不同属名',
+      body: 'Herre 在 1927 年发表了花斑连鳍䲗的科学描述，今天这里采用 Synchiropus splendidus。有些资料写作 Pterosynchiropus splendidus，属名的处理有差别，但指向这份档案介绍的同一种鱼。弯曲彩纹与近似种的一圈圈靶状斑是有用的外观区别。',
+    },
   ],
   "keyFacts": [
     "沿着鱼身上的弯纹慢慢看。这些曲线不同于近似种身上一圈圈的靶状斑。",
@@ -113917,7 +113923,13 @@ export const species = [
       "url": "https://www.tfrin.gov.tw/theme_data.php?id=1269&sub_theme=special_message&theme=book_data",
       "kind": "taxonomy",
       "accessedAt": "2026-09-22"
-    }
+    },
+    {
+      title: 'GBIF：花斑连鳍䲗的科学命名记录',
+      url: 'https://www.gbif.org/species/2386640',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-23",
