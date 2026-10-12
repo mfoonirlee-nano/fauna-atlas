@@ -98099,7 +98099,7 @@ export const species = [
       "en": "Not Evaluated"
     },
     "trend": "unknown",
-    "assessor": "所引动物园资料未提供 IUCN 类别，本档案暂记 NE（未评估）；未核实正式全球评估，不据此推断安全。"
+    "assessor": '所引动物园资料未提供 IUCN 类别，全球评估尚未确认；NE 表示资料不完整，不据此判断本种安全。'
   },
   "distribution": {
     "realms": [
@@ -98139,45 +98139,51 @@ export const species = [
     "兰花螳螂",
     "像花瓣的腿"
   ],
-  "summary": "看看白色腿上宽宽的部分，像不像花瓣。",
-  "description": "雌虫的四条步行足上有宽阔的叶片状部分，常呈白色或粉色。图为放大观察，叶片仅作环境参照。它生活在东南亚热带雨林的枝叶间。",
+  "summary": '兰花螳螂等待昆虫靠近，用带刺前足捕捉。雌虫的白色或粉色宽腿像花瓣，雄虫更小、更纤细。',
+  "description": '兰花螳螂生活在东南亚热带雨林的枝叶间，会等待昆虫靠近，用带刺的前足捕捉。雌虫四条步行足有宽阔扩展部分，常呈白色或粉色，像花瓣，能吸引部分访花昆虫。成年雄虫更小、更纤细，腿上的扩展部分也较小。图像用于放大观察。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "像花瓣的腿",
-      "body": "雌虫的四条步行足上有宽阔的叶片状部分，常呈白色或粉色。图为放大观察，叶片仅作环境参照。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '像花瓣的腿',
+      body: '雌虫的四条步行足上有宽阔的叶片状部分，常呈白色或粉色。图为放大观察，叶片仅作环境参照。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "前足用来抓食物",
-      "body": "前面一对捕捉足能折叠，内侧的刺帮助它抓住靠近的昆虫。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '前足用来抓食物',
+      body: '前面一对捕捉足能折叠，内侧的刺帮助它抓住靠近的昆虫。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "在叶片上等一等",
-      "body": "它也会停在普通枝叶上。像花的外形能够吸引一些访花昆虫靠近。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '在叶片上等一等',
+      body: '它也会停在普通枝叶上。像花的外形能够吸引一些访花昆虫靠近。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "雄虫更纤细",
-      "body": "成年雄虫比雌虫小而纤细，腿上的扩展部分也较小。两张图不是等比例大小比较。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '雄虫更纤细',
+      body: '成年雄虫比雌虫小而纤细，腿上的扩展部分也较小。两张图不是等比例大小比较。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "等昆虫靠近",
-      "body": "兰花螳螂是捕食者，会等待昆虫进入前足能够抓到的范围。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '等昆虫靠近',
+      body: '兰花螳螂是捕食者，会等待昆虫进入前足能够抓到的范围。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留雨林中的植物和昆虫，不从野外随意采集。所引动物园资料未提供 IUCN 类别，本档案暂记 NE（未评估）；未核实正式全球评估，不据此推断安全。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留雨林中的植物和昆虫，避免采集野生个体。全球保护评估尚未确认，资料不足不能说明本种安全。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '像花的捕食者',
+      body: 'Olivier 在 1792 年发表 Hymenopus coronatus 这个名称。“兰花螳螂”容易让人把它与花联系起来，它也可以停在普通枝叶上。雌虫的白色、粉色外观和宽阔腿部能吸引部分访花昆虫，昆虫一旦进入前足范围，就可能成为它的食物。',
+    },
   ],
   "keyFacts": [
     "雌虫的四条步行足上有宽阔的叶片状部分，常呈白色或粉色。图为放大观察，叶片仅作环境参照。",
@@ -98295,7 +98301,13 @@ export const species = [
       "url": "https://mnzoo.org/blog/mantids-bug-world/",
       "kind": "ecology",
       "accessedAt": "2026-09-21"
-    }
+    },
+    {
+      title: 'GBIF：兰花螳螂的科学命名记录',
+      url: 'https://www.gbif.org/species/1406471',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-21",
