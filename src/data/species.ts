@@ -102936,7 +102936,7 @@ export const species = [
       "en": "Least Concern"
     },
     "trend": "unknown",
-    "assessor": "所引资料确认全球类别；独立评估日期和种群趋势未核实，评估年份留空。"
+    "assessor": '全球等级为 LC（无危）；独立评估日期与种群趋势尚未确认。'
   },
   "distribution": {
     "realms": [
@@ -102980,45 +102980,51 @@ export const species = [
     "美洲水雉",
     "把脚趾铺开"
   ],
-  "summary": "看看细长的脚趾怎样铺在水面叶子上。",
-  "description": "美洲水雉有栗色翅膀、黑色头颈和黄色嘴，嘴根附近有红色肉垂。长长的脚趾让它能够在浮水植物上行走。",
+  "summary": '美洲水雉用细长脚趾在浮叶上行走，寻找昆虫和种子。它在浮水植物上筑巢，由雄鸟孵卵、照顾幼鸟。',
+  "description": '美洲水雉生活在从巴拿马、特立尼达向南至南美洲安第斯山脉以东的湿地。长趾和爪分散体重，让它在浮叶上寻找昆虫和种子。栗色翅膀展开时露出黄绿飞羽，嘴根有红色肉垂。它在浮水植物上筑巢，由雄鸟孵卵、照料雏鸟。',
   "storySections": [
     {
-      "key": "observation-1",
-      "label": "生活与认识",
-      "title": "把脚趾铺开",
-      "body": "细长的脚趾和爪子分散身体的重量。它踩着浮叶前进，脚趾之间没有鸭子那样的蹼。"
+      key: 'observation-1',
+      label: '生活与认识',
+      title: '把脚趾铺开',
+      body: '细长的脚趾和爪子分散身体的重量。它踩着浮叶前进，脚趾之间没有鸭子那样的蹼。',
     },
     {
-      "key": "observation-2",
-      "label": "生活与认识",
-      "title": "在叶面找食物",
-      "body": "它会在浮水植物上寻找昆虫等小动物，也吃一些种子。看看低下去的嘴指向哪里。"
+      key: 'observation-2',
+      label: '生活与认识',
+      title: '在叶面找食物',
+      body: '它会在浮水植物上寻找昆虫等小动物，也吃一些种子。看看低下去的嘴指向哪里。',
     },
     {
-      "key": "observation-3",
-      "label": "生活与认识",
-      "title": "展开翅膀的颜色",
-      "body": "翅膀收起时能看到栗色羽毛，展开后露出黄绿色飞羽。这里展示一个展翅姿态。"
+      key: 'observation-3',
+      label: '生活与认识',
+      title: '展开翅膀的颜色',
+      body: '翅膀收起时能看到栗色羽毛，展开后露出黄绿色飞羽。这里展示一个展翅姿态。',
     },
     {
-      "key": "observation-4",
-      "label": "生活与认识",
-      "title": "浮水植物上的巢",
-      "body": "水雉在浮水植物上搭巢。雄鸟承担孵卵和照顾雏鸟的工作；观察时要离巢远一些。"
+      key: 'observation-4',
+      label: '生活与认识',
+      title: '浮水植物上的巢',
+      body: '水雉在浮水植物上搭巢。雄鸟承担孵卵和照顾雏鸟的工作；观察时要离巢远一些。',
     },
     {
-      "key": "observation-5",
-      "label": "生活与认识",
-      "title": "小鸟也有长脚趾",
-      "body": "小水雉长着绒羽，身体下方颜色较浅。它们也用长脚趾踩着水边植物走动。"
+      key: 'observation-5',
+      label: '生活与认识',
+      title: '小鸟也有长脚趾',
+      body: '小水雉长着绒羽，身体下方颜色较浅。它们也用长脚趾踩着水边植物走动。',
     },
     {
-      "key": "conservation",
-      "label": "保护与共读",
-      "title": "保留生活的地方",
-      "body": "保留湿地和浮水植物，观察时不要靠近巢和雏鸟。"
-    }
+      key: 'conservation',
+      label: '保护与共读',
+      title: '保留生活的地方',
+      body: '保留湿地和浮水植物，观察时不要靠近巢和雏鸟。',
+    },
+    {
+      key: 'discovery-naming',
+      label: '发现与命名',
+      title: '踩浮叶的脚和育雏的雄鸟',
+      body: 'Linnaeus 在 1766 年发表了美洲水雉的科学描述，今天采用 Jacana jacana。它的名字可以和湿地生活联系起来，长趾帮助它踩在浮水植物上。浮叶也是筑巢场所，承担孵卵和照顾雏鸟工作的主要是雄鸟。',
+    },
   ],
   "keyFacts": [
     "细长的脚趾和爪子分散身体的重量。它踩着浮叶前进，脚趾之间没有鸭子那样的蹼。",
@@ -103125,7 +103131,13 @@ export const species = [
       "url": "https://animals.sandiegozoo.org/animals/jacana",
       "kind": "ecology",
       "accessedAt": "2026-09-21"
-    }
+    },
+    {
+      title: 'GBIF：美洲水雉的科学命名记录',
+      url: 'https://www.gbif.org/species/2481846',
+      kind: 'taxonomy',
+      accessedAt: '2026-10-11',
+    },
   ],
   "featured": true,
   "publishedAt": "2026-09-21",
