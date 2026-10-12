@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "563 animal species profiles; 560 historical reviews and 3 additions on 2026-10-12; microbial topics excluded",
+  "scope": "564 animal species profiles; 560 historical reviews and 4 additions on 2026-10-12; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 3,
+    "addedProfiles": 4,
     "addedProfilesReviewDate": "2026-10-12",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -26374,6 +26374,54 @@
           "sources": [
             "https://www.gbif.org/species/2119211",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC5904375/"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-12 新增档案：核对习性、外观、分布、发现与命名的来源。图注注明放大、重建和非实测比例；描述年份不表示人类首次认识动物。"
+      ]
+    },
+    {
+      "slug": "campodea-staphylinus",
+      "name": "双尾虫",
+      "scientificName": "Campodea staphylinus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S0031405623002135",
+            "https://linnet.geog.ubc.ca/biodiversity/efauna/DipluraofBC.html",
+            "https://www.gbif.org/species/2119507"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S0031405623002135",
+            "https://linnet.geog.ubc.ca/biodiversity/efauna/DipluraofBC.html",
+            "https://www.gbif.org/species/2119507"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S0031405623002135",
+            "https://linnet.geog.ubc.ca/biodiversity/efauna/DipluraofBC.html",
+            "https://www.gbif.org/species/2119507"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S0031405623002135",
+            "https://linnet.geog.ubc.ca/biodiversity/efauna/DipluraofBC.html",
+            "https://www.gbif.org/species/2119507"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2119507"
           ]
         }
       },

@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-12",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Campodea staphylinus adult dipluran. Slender elongated pale ivory translucent segmented body, eyeless head, two long many-segmented antennae, SIX short thoracic legs, abdomen with TWO long many-segmented cerci extending from tail. No third tail filament, no forceps, no wings, no beetle armor. Sparse fine hairs. Scene: Whole adult on dark moist leaf litter, overhead oblique view. Include entire antennae and both tail cerci. COVER COMPOSITION STRICT: single complete subject in RIGHT region x=760..1410 y=180..840 including every antenna tip and leg or tail tip. Body center x=1090, do not expand any appendage outside this region. LEFT 45% completely quiet blurred backdrop. Full silhouette should be ~650x600 pixels, real empty margin all sides. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.\nEdit: Edit this Campodea staphylinus scientific reconstruction. Make TWO distinct long fine segmented tail cerci originate separately from the final abdominal segment, both clearly visible and separated, not one tail; preserve two head antennae and exactly six thoracic legs, no eyes, no wings. Shrink complete animal including both antennae and cerci to 82% of current size and shift slightly right so ENTIRE silhouette lies x=700..1460 y=130..910. Natural moist leaf litter, left 42% quiet backdrop. Keep image 1536x1024, scientific approximate external anatomy, no text.",
+      "sourceSha256": "dd93d3f773e96e48a19697b1f95eeeaebe8bc8cf97121d5d304e4931fbdca0b4",
+      "runtimeSha256": "5d91d7516189451896edcb75489a5af9dd9c6a734d52069f14f92211c5d631e7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Campodea staphylinus adult dipluran. Slender elongated pale ivory translucent segmented body, eyeless head, two long many-segmented antennae, SIX short thoracic legs, abdomen with TWO long many-segmented cerci extending from tail. No third tail filament, no forceps, no wings, no beetle armor. Sparse fine hairs. Scene: Whole adult lateral view crawling on moist humus. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "aa0c807baaa59f716293f0b5ad6c9eb11572e47e096d5b240f30f3ac3c5ea7c1",
+      "runtimeSha256": "956cc8113d17afda30161209ad28aa7658d7f6a1b591df50c0d1e888467108b4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Campodea staphylinus adult dipluran. Slender elongated pale ivory translucent segmented body, eyeless head, two long many-segmented antennae, SIX short thoracic legs, abdomen with TWO long many-segmented cerci extending from tail. No third tail filament, no forceps, no wings, no beetle armor. Sparse fine hairs. Scene: Anterior macro head view showing two fine beaded antennae and eyeless soft head, front thorax with legs. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "995be7afcb4b48835849ed5cb3ecffc978b027a740ac3de8fe108020fb517225",
+      "runtimeSha256": "280747bcea3d57f73e15dcef0c019e54179a129d5bea014d30a0ff91e5121616",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Campodea staphylinus adult dipluran. Slender elongated pale ivory translucent segmented body, eyeless head, two long many-segmented antennae, SIX short thoracic legs, abdomen with TWO long many-segmented cerci extending from tail. No third tail filament, no forceps, no wings, no beetle armor. Sparse fine hairs. Scene: Posterior abdominal view with TWO threadlike segmented cerci, natural dark backdrop. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.\nEdit: Edit composition into a posterior body close-up of Campodea staphylinus ONLY. Focus on final 4 abdominal segments and TWO long clearly separate thin many-segmented tail cerci extending out of the last segment, entire cerci visible. Exclude the head, antennae and thoracic legs from this detailed posterior frame, preserving pale translucent body and moist dark substrate. 1536x1024 no labels no text, anatomy approximate scientific reconstruction.",
+      "sourceSha256": "46cacd97a3aec597f8aace6993d264c42d7c555237347a17039706ac3d1d2e23",
+      "runtimeSha256": "0c2b689d8ec564e1432377058373a562d149f3806cb818a86302c079d659aed0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Campodea staphylinus adult dipluran. Slender elongated pale ivory translucent segmented body, eyeless head, two long many-segmented antennae, SIX short thoracic legs, abdomen with TWO long many-segmented cerci extending from tail. No third tail filament, no forceps, no wings, no beetle armor. Sparse fine hairs. Scene: Whole dorsal adult centered on neutral gray scientific microscopy background, clearly show six legs, paired head antennae and paired tail cerci. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "c8db5bbac8aef59b619b9a95e170dc03b3a5926f118ec13d68bef892e705fdcd",
+      "runtimeSha256": "5fe0afe9bb104e65f994b3dfdb047fe35be03c5cbd9871d8474208f5e2187cac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Generate ONE 1536x1024 image for a species atlas. AI scientific external reconstruction with realistic macro/microscopic textures; not an authentic research micrograph. Campodea staphylinus adult dipluran. Slender elongated pale ivory translucent segmented body, eyeless head, two long many-segmented antennae, SIX short thoracic legs, abdomen with TWO long many-segmented cerci extending from tail. No third tail filament, no forceps, no wings, no beetle armor. Sparse fine hairs. Scene: Whole adult in narrow damp soil pore beside decomposed leaf fragment, scientific reconstruction no exaggerated cave. Center subject prominently, preserve appendages within frame unless this is an explicitly requested anatomical close-up. No text, labels, watermark, real scale bar or decorative border. Natural pose, anatomy readable, no invented anatomical details.",
+      "sourceSha256": "4fb77c5372ae58621a0a90804327e6813337117c03915b250db87908159cfa9e",
+      "runtimeSha256": "96775c994f58229d5f53eaa0135be6926fa134fcbb00a8bbe13d7cb7a995f339",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

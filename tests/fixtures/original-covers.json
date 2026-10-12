@@ -4990,5 +4990,18 @@
       },
       "sha256": "090e16d7c7d092c65883d83fd36ec37abd2d51943050e833e96d8c8be8b1051b"
     }
+  },
+  "campodea-staphylinus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 140,
+        "right": 1390,
+        "bottom": 825
+      },
+      "sha256": "5d91d7516189451896edcb75489a5af9dd9c6a734d52069f14f92211c5d631e7"
+    }
   }
 }
