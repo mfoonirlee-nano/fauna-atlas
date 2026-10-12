@@ -21963,20 +21963,20 @@ export const species = [
       {
         key: 'name-revision',
         label: '分类与名称',
-        title: '名称换了，螃蟹没有换',
-        body: '“Uca spp.”是旧招潮蟹大属的泛称，罩着许多物种。2016 年系统修订把 Tubuca 提升为属，旧文献的 Uca arcuata 与 Uca (Tubuca) arcuata，如今都归到同一接受名 Tubuca arcuata；更早的原始组合则写作 Ocypode (Gelasimus) arcuata。',
+        title: '旧属名与现行属名',
+        body: '旧文献用 Uca 泛称多种招潮蟹。2016 年系统修订将 Tubuca 提升为属，Uca arcuata 与 Uca (Tubuca) arcuata 都对应今天的 Tubuca arcuata，早期原始名称则写作 Ocypode (Gelasimus) arcuata。',
       },
       {
         key: 'claw-development',
         label: '螯足分化',
-        title: '一大一小，是后来才分家的',
-        body: '很小的幼蟹先有两只相等小螯；进入过渡尺寸后，一侧脱落再生为取食小螯，另一侧持续长成雄蟹主螯。左主螯与右主螯约各占一半，雌蟹则保留两只小螯，因此她们可以左右交替筛泥取食。',
+        title: '雄蟹的大螯在成长中形成',
+        body: '很小的幼蟹先有两只大小相等的小螯，进入过渡尺寸后，一侧脱落再生为取食小螯，另一侧继续长成雄蟹主螯。左右主螯约各占一半，雌蟹保留两只小螯，能交替筛泥取食。',
       },
       {
         key: 'vertical-wave',
         label: '垂直挥螯',
-        title: '举起来的是信号',
-        body: '雄蟹会朝附近的雌蟹定向抬起主螯，身边无人时也照样挥舞，像在向整片泥滩广播。日本样地里，所有成功的洞内交配之前都有定向挥螯；泥面上的交配则偶尔省去这一步。“招潮”只是个形象名字——潮水决定它何时上泥面，巨螯可请不动海。',
+        title: '上下挥螯向雌蟹传递信号',
+        body: '雄蟹既会朝附近雌蟹抬起主螯，也会在身边没有雌蟹时挥舞。日本样地所有成功洞内交配之前都有定向挥螯，泥面交配偶尔省略这一步。潮汐决定它们何时出洞，挥螯是动物间的信号。',
       },
       {
         key: 'mud-chimney',
@@ -21987,14 +21987,20 @@ export const species = [
       {
         key: 'deposit-feeding',
         label: '退潮饭桌',
-        title: '每一小螯，都是一把泥面筛子',
+        title: '用小螯筛取泥中的食物',
         body: '退潮后，小螯不断把泥送到口器，微型底栖生产者、微生物与细碎有机物被筛出。深圳样地中，有两只取食螯的雌蟹比雄蟹吃得更快；营养盐升高又会改变取食、行走和掘洞，把个体行为与整片泥滩的沉积处理联系起来。',
       },
       {
         key: 'larval-currents-conservation',
         label: '幼生与保护',
         title: '幼生乘流，保护要跨过河口',
-        body: '雌蟹把卵抱在腹部下方，孵化后的幼生进入水体。线粒体记录显示台湾海峡冰期陆桥曾促成南北分化，今天的黑潮等暖流又可能在繁殖季推动扩散。护住一只蟹，得护住一张跨河口的网络：泥滩水文、清洁水质，加上跨地区的标准化调查。',
+        body: '雌蟹把卵抱在腹部下方，孵化幼生进入水体。线粒体记录显示，台湾海峡冰期陆桥曾促成南北分化，今天的黑潮等暖流可能推动繁殖季扩散。保护需要维护不同河口的泥滩水文与水质，并开展跨地区标准化调查。',
+      },
+      {
+        key: 'discovery-naming',
+        label: '发现与命名',
+        title: '德哈恩的描述与后来调整的属名',
+        body: '弧边招潮蟹的命名记录署为德哈恩、1835 年，原始名称为 Ocypode (Gelasimus) arcuata。它后来长期列入 Uca 属，2016 年的系统修订将 Tubuca 提升为属，形成今天的 Tubuca arcuata。查阅挥螯或泥烟囱的早期研究时，Uca arcuata 仍是重要的检索名称。',
       },
     ],
     keyFacts: [
@@ -22075,14 +22081,14 @@ export const species = [
           image: './images/species/bowed-fiddler-crab/04-female-sediment-feeding.webp',
           alt: '一只雌性弧边招潮蟹在洞口附近用小螯把一小撮表层泥送向口器，身前散落少量处理后的泥粒',
           title: '两只小螯轮流筛过泥面',
-          caption: '雌蟹用两只小螯轮流把表层泥送进嘴里；筛下的泥粒散在身前，像撒了一地小小的圆饼。',
+          caption: '雌蟹交替用两只小螯把表层泥送入口器，筛取食物后留下小泥粒。',
           focalPoint: { x: 0.54, y: 0.52 },
         },
         {
           image: './images/species/bowed-fiddler-crab/05-vertical-claw-wave.webp',
           alt: '雄性弧边招潮蟹在泥滩洞口旁朝数个身位外的一只雌蟹垂直抬起唯一的橘红巨螯',
           title: '举起来的是信号',
-          caption: '垂直挥螯可以面向附近的雌蟹，也可以向整片泥滩广播；至于雌蟹答不答应，还得看它自己的心意。',
+          caption: '雄蟹可朝附近雌蟹定向上下挥螯，也会在没有雌蟹时挥舞，是求偶与展示行为的一部分。',
           focalPoint: { x: 0.48, y: 0.5 },
         },
         {
@@ -22094,7 +22100,15 @@ export const species = [
         },
       ],
     },
-    sources: BOWED_FIDDLER_CRAB_SOURCES,
+    sources: [
+      ...BOWED_FIDDLER_CRAB_SOURCES,
+      {
+        title: '弧边招潮蟹：描述与命名记录',
+        url: 'https://www.st.nmfs.noaa.gov/nauplius/media/copepedia/taxa/T4015488/',
+        kind: 'taxonomy',
+        accessedAt: '2026-10-11',
+      },
+    ],
     featured: true,
     publishedAt: BOWED_FIDDLER_CRAB_CONTENT_DATE,
     updatedAt: BOWED_FIDDLER_CRAB_CONTENT_DATE,
