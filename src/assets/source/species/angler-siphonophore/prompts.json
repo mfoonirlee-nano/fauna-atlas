@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Erenna sirena: one connected colonial siphonophore with apical float, short chain of swimming bells, longer common stem with feeding zooids, fine trailing tentacles and tiny red lure tips, no giant jelly umbrella. Habitat: dark deep midwater. Cover: one complete animal or complete connected colony, large clear subject entirely within right half, center x 73% of source width, quiet left 40% background. All tentacles, branches and root structures visible, real background margin to every edge. Landscape 1536x1024. No text.",
+      "sourceSha256": "0e86836c12bd6464573acfbe317a4516acda1b873d920c3e7cf3729f4d98c355",
+      "runtimeSha256": "7224b4ef4bb7e5ccb99f23fa10bd3747dc72a5d5e04281f58bca496bdbe75f82",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Erenna sirena: one connected colonial siphonophore with apical float, short chain of swimming bells, longer common stem with feeding zooids, fine trailing tentacles and tiny red lure tips, no giant jelly umbrella. Habitat: dark deep midwater. Scene: float and short swimming bell chain close-up. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "bd9a11ebcc42d47ab1a5a912af3c53ec65d14dd970f0624d56e45810d39428f1",
+      "runtimeSha256": "469ace8c761ac616197a287e11ae67f3065bc9cf79c1e27831ec3b51336f6f60",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Erenna sirena: one connected colonial siphonophore with apical float, short chain of swimming bells, longer common stem with feeding zooids, fine trailing tentacles and tiny red lure tips, no giant jelly umbrella. Habitat: dark deep midwater. Scene: feeding zooids connected to common stem close-up. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "8942c297825e580e700e22e430f2829e6aaa58f2dc80082270158ab2b05333d9",
+      "runtimeSha256": "9ae23602b907c8e6984ed1ee83c6d91f0be54bcdd2c4b5efe97bf6980c1aa5bf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Erenna sirena: one connected colonial siphonophore with apical float, short chain of swimming bells, longer common stem with feeding zooids, fine trailing tentacles and tiny red lure tips, no giant jelly umbrella. Habitat: dark deep midwater. Scene: isolated magnified red lure on fine tentacle branch, no exaggerated glow. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "5f1a00db8375404905ba57482fffef8cb56aae110ce9dfe4f1979c360f56f2ba",
+      "runtimeSha256": "780e81666797d0d27e9b720724c58b24a385ce033ed1a25d6c8b393344bced34",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Erenna sirena: one connected colonial siphonophore with apical float, short chain of swimming bells, longer common stem with feeding zooids, fine trailing tentacles and tiny red lure tips, no giant jelly umbrella. Habitat: dark deep midwater. Scene: complete colony with one small nearby lanternfish, feeding relation. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "a6595b39d1f5e4ea2e6c06fb408851e594f974d89d1a100d60364d1eed9d04d8",
+      "runtimeSha256": "34e548d5a225961ad8c93539ac0445dfc62bc2df75e187e2009e122e3132f6b8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Erenna sirena: one connected colonial siphonophore with apical float, short chain of swimming bells, longer common stem with feeding zooids, fine trailing tentacles and tiny red lure tips, no giant jelly umbrella. Habitat: dark deep midwater. Scene: complete colony drifting in deep midwater, no seabed. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "61b1f0a8dc9c7b012ba67aa45a7c32458ebde69d0ce996eacab90f5f27eb29da",
+      "runtimeSha256": "8eaea033f86aaaecf47007ff605efbc325c02910bed3c745b52f59e65e5017c0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
