@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Correct this Spadella cephaloptera scientific microscope reconstruction: remove the two extremely long hornlike projections above the head. Show only paired arrays of SHORT curved grasping spines along the two sides of the rounded head, all shorter than one head diameter, curled toward the mouth. NO antennae, horns or independent mouth tentacles. Keep transparent trunk, thin gut, paired ovaries, ONE pair of lateral fins and caudal fin. Complete subject stays on the right with background margin; quiet left 40%. No text.",
+      "sourceSha256": "2e84225160d4dcd90579ad873ef12cbf403a97d889af9ddc09265cab2a2996f4",
+      "runtimeSha256": "e852816efeddfe2fa0709e5c01bc43ddea012e592d6d5641db92fc4fc77d28d6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spadella cephaloptera. Morphology: One complete tiny transparent benthic arrow worm in artificial-color microscopy reconstruction: distinct rounded head bearing short curved grasping spines, transparent short trunk containing thin gut and paired ovaries, ONE PAIR of lateral fins toward the posterior trunk and a single caudal fin, simple leaflike transparent fins not fish rays, tiny adhesion papillae not legs. Environment: soft blue-grey microscopy background, benthic marine surface. Gallery: head with grasping spines magnified in transparent microscopy view. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "6298a9baa412ac29c1da20c18e916632d64cafc559f904fcf605ba2baea36c56",
+      "runtimeSha256": "3f879fae199888ba6128ee4b22f48406368110ff207ca32b6b71593938b24ecf",
+      "sourceDimensions": [
+        1535,
+        1024
+      ],
+      "runtimeDimensions": [
+        1535,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spadella cephaloptera. Morphology: One complete tiny transparent benthic arrow worm in artificial-color microscopy reconstruction: distinct rounded head bearing short curved grasping spines, transparent short trunk containing thin gut and paired ovaries, ONE PAIR of lateral fins toward the posterior trunk and a single caudal fin, simple leaflike transparent fins not fish rays, tiny adhesion papillae not legs. Environment: soft blue-grey microscopy background, benthic marine surface. Gallery: posterior region showing ONE PAIR lateral fins and caudal fin, no fin rays. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "491abb0ad7d0e15cd4466dd4c9ab7ee4d5c022e1b05f78fbee7def804719ebf9",
+      "runtimeSha256": "1ab35383a2bccd5441f063f250d372034333090dca208d3f815038fca7db2e3c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spadella cephaloptera. Morphology: One complete tiny transparent benthic arrow worm in artificial-color microscopy reconstruction: distinct rounded head bearing short curved grasping spines, transparent short trunk containing thin gut and paired ovaries, ONE PAIR of lateral fins toward the posterior trunk and a single caudal fin, simple leaflike transparent fins not fish rays, tiny adhesion papillae not legs. Environment: soft blue-grey microscopy background, benthic marine surface. Gallery: transparent trunk with thin gut and paired reproductive structures, non-measured. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "628ba9fd37d6c872e0a0247d9635da05e8fb372c77be6e0a089b179e5a8fe18c",
+      "runtimeSha256": "2829613475ebeaad44ea7d75b0b8ca1964298cf7d6ac490933cdebebc401a8d0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spadella cephaloptera. Morphology: One complete tiny transparent benthic arrow worm in artificial-color microscopy reconstruction: distinct rounded head bearing short curved grasping spines, transparent short trunk containing thin gut and paired ovaries, ONE PAIR of lateral fins toward the posterior trunk and a single caudal fin, simple leaflike transparent fins not fish rays, tiny adhesion papillae not legs. Environment: soft blue-grey microscopy background, benthic marine surface. Gallery: small adhesive papillae at posterior underside against surface, separate-scale inset. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "b125d4c77754a55c16da85b1e8ecaaf0f329ea8c8f82641064b032839ec87401",
+      "runtimeSha256": "676b8abdc1f86207fb3d420e0c0772f8845ec6e05cfbb30941fdd2d9fb9d4800",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spadella cephaloptera. Morphology: One complete tiny transparent benthic arrow worm in artificial-color microscopy reconstruction: distinct rounded head bearing short curved grasping spines, transparent short trunk containing thin gut and paired ovaries, ONE PAIR of lateral fins toward the posterior trunk and a single caudal fin, simple leaflike transparent fins not fish rays, tiny adhesion papillae not legs. Environment: soft blue-grey microscopy background, benthic marine surface. Gallery: whole arrow worm with small nearby copepod, conceptual feeding relation. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "92258c8da8429ded58cb7823a3171c72742d8a0ce3853cc020ae5f2381235c5f",
+      "runtimeSha256": "0a7e0ac0c0d33cfec2b2259724d7d6652bd5b7e3a6d5f5b1c0482302a0c014e0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
