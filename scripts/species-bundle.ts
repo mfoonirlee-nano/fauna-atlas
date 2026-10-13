@@ -123,15 +123,21 @@ export function speciesBundle(): Plugin {
           const parts = (slug as string).split('-').map((word) => slugWordIndexes.get(word) ?? word);
           return [parts.some((part) => typeof part === 'number') ? parts : slug, ...fields];
         });
-        // Delimited taxon pairs avoid an array wrapper per shared label. When
-        // the display label is the scientific name, restore it from that name.
-        // Keep pairs containing the delimiter as arrays so text is lossless.
+        // Delimited taxon pairs avoid an array wrapper per shared label. Reuse
+        // identical labels and shorten the common Chinese genus suffix on the
+        // wire. Preserve delimiter-bearing labels as arrays for lossless text.
         const taxonPairs = taxa.map(({ scientificName, zhName }) =>
-          scientificName.includes('|') || zhName.includes('|')
+          scientificName.includes('|') || zhName.includes('|') || zhName.includes('~')
             ? [scientificName, zhName]
-            : scientificName === zhName ? scientificName : `${scientificName}|${zhName}`,
+            : scientificName === zhName ? scientificName
+              : `${scientificName}|${zhName.endsWith('属') ? zhName.slice(0, -1) + '~' : zhName}`,
         );
-        return `const taxa=${JSON.stringify(taxonPairs)}.map(pair=>Array.isArray(pair)?pair:pair.split('|')).map(([scientificName,zhName=scientificName])=>({scientificName,zhName}));
+        // A delimited string removes a JSON array wrapper for each taxon. Keep
+        // the array representation when a label needs structured escaping.
+        const packedTaxa = taxonPairs.every((pair) => typeof pair === 'string' && !pair.includes('\n'))
+          ? taxonPairs.join('\n') : taxonPairs;
+        return `const packedTaxa=${JSON.stringify(packedTaxa)};
+          const taxa=(typeof packedTaxa==='string'?packedTaxa.split('\\n'):packedTaxa).map(pair=>{if(Array.isArray(pair))return pair;const [name,label=name]=pair.split('|');return [name,label.endsWith('~')?label.slice(0,-1)+'属':label];}).map(([scientificName,zhName=scientificName])=>({scientificName,zhName}));
           const ranks=${JSON.stringify(taxonomyRanks)};
           const lineages=${JSON.stringify(lineages)};
           const labels=${JSON.stringify(labels)};
