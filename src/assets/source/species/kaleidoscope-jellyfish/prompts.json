@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Use case: scientific-educational. Fauna Atlas AI scientific reconstruction, natural detailed underwater macro illustration, landscape 1536x1024, no text, arrows, frame or watermark. Subject: Haliclystus auricula stalked jellyfish: translucent brown-green funnel calyx on a slender stalk attached to seaweed, eight short arms each topped by a cluster of short tentacles, kidney-shaped anchors between arm tips, no long dangling tentacles. Habitat: shallow coastal seaweed. Cover composition: one whole subject centered at 73% width, bounding silhouette including all branches/tentacles inside x 780..1450 y 100..910. Quiet left 40% background, large clear complete animal and real margin at all edges.",
+      "sourceSha256": "1bdaaecc2dd187393e82adf643e4f86db4c33504989f6044f0977c0b895d753a",
+      "runtimeSha256": "a7512d5551fe10d2e961e36c3df4cd727d346156b7064dd8783c01221deb9ddc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Haliclystus auricula: funnel-shaped brown-green stalked jellyfish attached to seaweed, eight short arms topped by clusters of short tentacles, kidney-shaped anchors between the arms. Habitat: coastal seaweed. Scene: oblique oral view showing eight short tentacle clusters. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "9668e59607b6b6311fcfa63f7193c9fb8e978219af62e604126e9ceb92f6b841",
+      "runtimeSha256": "b42da745e5021ac747ab9245ea6d5996215ef541c4d79b55c4605908ae3617f3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Haliclystus auricula: funnel-shaped brown-green stalked jellyfish attached to seaweed, eight short arms topped by clusters of short tentacles, kidney-shaped anchors between the arms. Habitat: coastal seaweed. Scene: stalk and basal attachment disc on seaweed. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "806c906dcf2e390632380baed641c5099e6561f7c0dd6d00d3062a2e44adb664",
+      "runtimeSha256": "7f1f1ffa2a43a999cadd7970711a0b11800e268573e49b7c757f61f6b7aae5cc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Haliclystus auricula: funnel-shaped brown-green stalked jellyfish attached to seaweed, eight short arms topped by clusters of short tentacles, kidney-shaped anchors between the arms. Habitat: coastal seaweed. Scene: magnified rim with kidney-shaped anchors between arms. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "e661ff9c8dc3aff86f26e89a44fde6d779df2e404b46e19b2fe6f82b865e8810",
+      "runtimeSha256": "51fd2729993bccc0365eb59ec2403a11195d34fee5f19dd809253fc547379629",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Haliclystus auricula: funnel-shaped brown-green stalked jellyfish attached to seaweed, eight short arms topped by clusters of short tentacles, kidney-shaped anchors between the arms. Habitat: coastal seaweed. Scene: whole attached adult among red coastal algae. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "ef57c817bab7c54469b379ff12387e5ea5c5b9441b6d715d766efc3e973efa45",
+      "runtimeSha256": "1d4a4a159c7a3a0e2c574d3d793e0df39a6ef89b19813c5445197bf35910f2b3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Haliclystus auricula: funnel-shaped brown-green stalked jellyfish attached to seaweed, eight short arms topped by clusters of short tentacles, kidney-shaped anchors between the arms. Habitat: coastal seaweed. Scene: one short tentacle cluster with nearby small crustacean. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "383101b780c43fcb284a16dbcacb306a7f1b4e504888cabc30a72715d390f01a",
+      "runtimeSha256": "5a76b949e9bfb94493c960fb607029353f835138fdd026f0aafd2c88700d46dd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
