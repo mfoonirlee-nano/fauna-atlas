@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Saccoglossus kowalevskii. Morphology: One whole soft pale tan acorn worm, anterior acorn-shaped muscular proboscis clearly separated from a short collar and much longer slender smooth unsegmented trunk gently curved; tapered rear, no legs, no eyes, no antennae, no external gills. Environment: shallow marine muddy sand. Cover: ONE complete primary subject on right, center at 73% width. Keep its ENTIRE visible silhouette including all outer spines, palps, proboscis, roots, branch tips and fins within x 780..1450 and y 70..940, with real background clearance. Maximize subject size within this region. Quiet left 40% contains only background. For cutaway, show entire worm including buried tissue; substrate is backdrop.",
+      "sourceSha256": "871f3d8f8d02069be254ac81abf176ac13a5cf9e8a06ab50406c5e7274502421",
+      "runtimeSha256": "cb7b2907b7011510b9c32ddccaf978289f09dc57fb25c5412c7d045811338822",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Saccoglossus kowalevskii. Morphology: One whole soft pale tan acorn worm, anterior acorn-shaped muscular proboscis clearly separated from a short collar and much longer slender smooth unsegmented trunk gently curved; tapered rear, no legs, no eyes, no antennae, no external gills. Environment: shallow marine muddy sand. Gallery: acornlike proboscis and short collar in macro view. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "f0f9e445e8d1218efb4a39c95fe20afd0ad0db1337cba9b646c28ff2059b64d1",
+      "runtimeSha256": "085aaab3a7eb40a6dacab880d9c30785f3c24204af6e6915a46d13173ed083fe",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Saccoglossus kowalevskii. Morphology: One whole soft pale tan acorn worm, anterior acorn-shaped muscular proboscis clearly separated from a short collar and much longer slender smooth unsegmented trunk gently curved; tapered rear, no legs, no eyes, no antennae, no external gills. Environment: shallow marine muddy sand. Gallery: long smooth trunk whole animal coiled on sand. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "389075ea8364017babb7a6b1cd4f0e5dc440fcce64761c8a33af38e895b4f68a",
+      "runtimeSha256": "51d46ef871cf83df4d1706dd4f06c52acb070b7a118e8d37ccff5a68b3dd7609",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Saccoglossus kowalevskii. Morphology: One whole soft pale tan acorn worm, anterior acorn-shaped muscular proboscis clearly separated from a short collar and much longer slender smooth unsegmented trunk gently curved; tapered rear, no legs, no eyes, no antennae, no external gills. Environment: shallow marine muddy sand. Gallery: whole animal inside clean U-shaped sediment burrow cutaway. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "4eb0bd9424bcd6264992aab20bacba1d64e532992200c0e470530833c9828753",
+      "runtimeSha256": "b3d7a509d894b104c8309658a366740cfa9e8ddf74469cd95af948f817428e33",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Saccoglossus kowalevskii. Morphology: One whole soft pale tan acorn worm, anterior acorn-shaped muscular proboscis clearly separated from a short collar and much longer slender smooth unsegmented trunk gently curved; tapered rear, no legs, no eyes, no antennae, no external gills. Environment: shallow marine muddy sand. Gallery: egg and tiny juvenile separately enlarged, direct-development conceptual comparison, no tornaria larva. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "ed4a1cd0d02e193fa3b1982d3c779042ac582ac1756e8ef5e64a22d0cf1cc9bf",
+      "runtimeSha256": "a531764c5575b68a6c5c8087df4339e1f9ad4351f7b2dc94ce773277a183b811",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Saccoglossus kowalevskii. Morphology: One whole soft pale tan acorn worm, anterior acorn-shaped muscular proboscis clearly separated from a short collar and much longer slender smooth unsegmented trunk gently curved; tapered rear, no legs, no eyes, no antennae, no external gills. Environment: shallow marine muddy sand. Gallery: front end against sediment surface, feeding relation, no teeth. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "4625195ae1e8b0aacd44b2f74047935ca2cee5efcd0b0b76b4703bfdf5023093",
+      "runtimeSha256": "470bc9c917dc38038a4551c319921aa13be39f87c1fb28ad68ac4e7b0b80afec",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
