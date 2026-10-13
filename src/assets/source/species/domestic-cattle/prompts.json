@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-13",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas cover composition. Keep the same animal, its anatomical proportions, coat color and markings, pose, naturalistic lighting and habitat. Recompose the complete animal so ALL extremities including tail, whiskers and ears are inside x=670..1450 and y=130..910 of the 1536x1024 landscape canvas. The entire LEFT 40 percent must be empty quiet habitat background with absolutely no part of the animal. Adjust whole animal scale only enough to fit that rectangle, maximize within it. Leave visible background on all sides. Do not cut off any tail or ears. No text or collage.",
+      "originalPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas species hero cover. One naturalistic landscape 1536x1024 image. Subject: Bos taurus adult brown hornless taurine domestic cow, broad muzzle, four legs with cloven hooves, long tail with tuft, modest udder. Scene: green farm pasture, natural daylight. One complete adult animal in clear side or three-quarter standing pose on RIGHT side, its complete silhouette confined within x=640..1450 y=120..910, center around 70% width. Maximize visible animal within those margins. Left 40% quiet background. Show full ears, muzzle, whiskers, every visible hoof or paw, tail tip, wool or mane with real background around edges. Anatomically faithful, realistic textures. No people, tack, collars, text, logos, watermark, collage or other animals.",
+      "sourceSha256": "86380bae99bb16b2d64742ea47975c109099ff97dd5ed454830963e01debeec4",
+      "runtimeSha256": "3b5f064367d23119de9604c289c5c670ba2c69230a2e9aebf76a69e05f5aea92",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Bos taurus brown hornless taurine cow, broad muzzle, cloven hooves, tufted tail, no hump. Scene: close view of two lower legs with correctly divided cloven hooves resting on firm earth. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "e4cb6f3fd0dc091e662341e12006bed5a7d0b199c06a932eed4c34d7b5b577c4",
+      "runtimeSha256": "caf720f5283d5e6e8bf5731f32356900a3be1ecac75f6c4c534e6709970e363f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Bos taurus brown hornless taurine cow, broad muzzle, cloven hooves, tufted tail, no hump. Scene: full brown hornless taurine cow with head lowered grazing, no hump. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "ca96bd659e1f5d9f8280d1be5ae889c90a8059909f2789534109cda015e95b27",
+      "runtimeSha256": "ed61639a2c4e348eec112669c9d640dd112e9a813f86c9b242f3be1d8c3e9315",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Bos taurus brown hornless taurine cow, broad muzzle, cloven hooves, tufted tail, no hump. Scene: brown cow resting on folded legs in pasture, mouth relaxed, no external stomach diagram. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "0ba1308542a803f3282a65ba58bf974e180b4bb6ea69c66cd9ca4bddb34a82fc",
+      "runtimeSha256": "a3c92bbd9058d7afde815ebd1361b27e322288a049d90b31cd6db240ac043070",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Bos taurus brown hornless taurine cow, broad muzzle, cloven hooves, tufted tail, no hump. Scene: adult hornless brown cow beside one small calf in quiet pasture, both entire bodies. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "d964e882df5998d0866675164dce7d0ab08587a246dfc4a90cdc514591ee5da6",
+      "runtimeSha256": "638ec2f667f9fe3b0f95372adfd4ac9e536c8e0c18c98fe10911aa083c98d642",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Bos taurus brown hornless taurine cow, broad muzzle, cloven hooves, tufted tail, no hump. Scene: two domestic taurine cows, one black-and-white spotted and one brown, standing together, no horns, no breed label. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "dee8a10db3723e276ae81322e9c60fb4dd8396905112ce4ed51ac1dd0056bec6",
+      "runtimeSha256": "af2814720d67212a10a5f332386e6124ee2ab5dbdb818c04173af11a9c3e7628",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
