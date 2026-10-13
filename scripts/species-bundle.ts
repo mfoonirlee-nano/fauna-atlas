@@ -123,13 +123,15 @@ export function speciesBundle(): Plugin {
           const parts = (slug as string).split('-').map((word) => slugWordIndexes.get(word) ?? word);
           return [parts.some((part) => typeof part === 'number') ? parts : slug, ...fields];
         });
-        // Delimited taxon pairs avoid an array wrapper per shared label. Keep
-        // pairs containing the delimiter as arrays so editorial text is lossless.
+        // Delimited taxon pairs avoid an array wrapper per shared label. When
+        // the display label is the scientific name, restore it from that name.
+        // Keep pairs containing the delimiter as arrays so text is lossless.
         const taxonPairs = taxa.map(({ scientificName, zhName }) =>
           scientificName.includes('|') || zhName.includes('|')
-            ? [scientificName, zhName] : `${scientificName}|${zhName}`,
+            ? [scientificName, zhName]
+            : scientificName === zhName ? scientificName : `${scientificName}|${zhName}`,
         );
-        return `const taxa=${JSON.stringify(taxonPairs)}.map(pair=>Array.isArray(pair)?pair:pair.split('|')).map(([scientificName,zhName])=>({scientificName,zhName}));
+        return `const taxa=${JSON.stringify(taxonPairs)}.map(pair=>Array.isArray(pair)?pair:pair.split('|')).map(([scientificName,zhName=scientificName])=>({scientificName,zhName}));
           const ranks=${JSON.stringify(taxonomyRanks)};
           const lineages=${JSON.stringify(lineages)};
           const labels=${JSON.stringify(labels)};
