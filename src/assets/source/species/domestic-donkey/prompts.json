@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-13",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas cover composition. Keep the same animal, its anatomical proportions, coat color and markings, pose, naturalistic lighting and habitat. Recompose the complete animal so ALL extremities including tail, whiskers and ears are inside x=670..1450 and y=130..910 of the 1536x1024 landscape canvas. The entire LEFT 40 percent must be empty quiet habitat background with absolutely no part of the animal. Adjust whole animal scale only enough to fit that rectangle, maximize within it. Leave visible background on all sides. Do not cut off any tail or ears. No text or collage.",
+      "originalPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas species hero cover. One naturalistic landscape 1536x1024 image. Subject: Equus asinus grey domestic donkey with long ears, pale muzzle, short upright dark mane, tail ending in hair tuft, single hoof per foot. Scene: quiet grassy farm enclosure, natural daylight. One complete adult animal in clear side or three-quarter standing pose on RIGHT side, its complete silhouette confined within x=640..1450 y=120..910, center around 70% width. Maximize visible animal within those margins. Left 40% quiet background. Show full ears, muzzle, whiskers, every visible hoof or paw, tail tip, wool or mane with real background around edges. Anatomically faithful, realistic textures. No people, tack, collars, text, logos, watermark, collage or other animals.",
+      "sourceSha256": "43546f6fe0e1bf46d84cde480c1622218e5fd7313884949bfef5a503c50fcf4b",
+      "runtimeSha256": "019fafaf64fd09b4b86f7f44a7836a71eee175973b5573b48d72d34f91b2deeb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Edit this scientific donkey portrait by widening the framing only. Preserve this grey domestic donkey's anatomy, face, pale muzzle, very long erect ears, natural textures and daylight farm habitat. Keep both complete ears including fur tips visible, with at least 80 pixels of clear sky above the highest ear on a 1536x1024 landscape canvas. Preserve head prominence and show upper neck, not full body. Do not shorten ears, crop tips, add text or invent extra ears.",
+      "originalPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus asinus grey domestic donkey, very long ears, pale muzzle, short upright mane, tail ending in hair tuft, single hooves. Scene: close head portrait, very long upright ears completely visible, pale muzzle, short dark mane. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "8cf59c2510c4d875f5e5dce71548be491a3c3301b59687e8114f069f4cfdfbd1",
+      "runtimeSha256": "1ef875923091217edd21cfd9c8afd6f0915ee4d3d4e64234820be77ff43f8d7a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus asinus grey domestic donkey, very long ears, pale muzzle, short upright mane, tail ending in hair tuft, single hooves. Scene: full side view of a grey donkey, intact tail with tuft and small undivided hooves. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "247ba0801e1bc223d85f581c13dfaeac062389cbe29865461686376399f0f48a",
+      "runtimeSha256": "2d7ae1f4ab26762326dc48653a90f3b4775c185a20e77e35755ea601f0193f16",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus asinus grey domestic donkey, very long ears, pale muzzle, short upright mane, tail ending in hair tuft, single hooves. Scene: grey donkey eating dry hay from a low clean trough in farm enclosure. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "d66c14c3c12d5be5e362d3ef98bf845677fc5a331d27f257a9eabecb7a2fb68d",
+      "runtimeSha256": "9ca2d3be3faad2f770a3926f2b7081f3056bf7b6b3cd936a0fd8a6eb72178db0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus asinus grey domestic donkey, very long ears, pale muzzle, short upright mane, tail ending in hair tuft, single hooves. Scene: adult grey jenny with one small donkey foal in a paddock, both entire bodies. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "6cf608d33e521e0598e0e1abfdb8a03574a4d9317729bbd2d7a742bd06eb3a50",
+      "runtimeSha256": "1273723c23a866a21a5c27244a4987e0e5de2336d6c71cff218eefb47d8768ad",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus asinus grey domestic donkey, very long ears, pale muzzle, short upright mane, tail ending in hair tuft, single hooves. Scene: two relaxed grey donkeys standing together in a grassy paddock, distinct bodies. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "3c20ba768a4377c17eeb7eb3c590dd087f556103323a839a006dd7359ac339db",
+      "runtimeSha256": "f375b4bf7072d6dba0659b714bc02aa51446a7179340ed9db596cdb9b08bfd94",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
