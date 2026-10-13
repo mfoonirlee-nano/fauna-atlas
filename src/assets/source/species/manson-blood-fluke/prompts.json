@@ -1,0 +1,94 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific-educational species cover, landscape 1536x1024 detailed scientific illustration. Species Schistosoma mansoni. Complete adult PAIR in a calm scientific illustration: shorter thicker tuberculate male with ventrally folded longitudinal gynecophoral canal cradling a longer much thinner smooth female, female anterior and posterior tips visibly project from male, tiny oral and ventral suckers at anterior. Pale cream artificial colors. No red blood, human wound, gore, leaflike liver-fluke silhouette or segmentation.. Environment neutral dark blue-grey educational microscopy background, abstract host setting, no human. Whole subject at right around 73% width, ALL anatomical features visible with background margins, quiet empty left 40%, x=700..1450 y=100..920. No text, labels, arrows, frame or watermark. Artificial-color reconstruction, not actual photograph.",
+      "sourceSha256": "3cc3b65bbea3c1f8b30ef878efa66aa59ae877b25a39382b1569884570019543",
+      "runtimeSha256": "04a7c9546a7678e3b8fec56e0cb7b918589c47cb299c2c1c8b07aabf9e56dbe2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Schistosoma mansoni. Observation 成虫配对: whole adult male thick pale cream with tubercles and gynecophoral canal holding long slender female, both endpoints of female visible, no blood. General anatomy: Complete adult PAIR in a calm scientific illustration: shorter thicker tuberculate male with ventrally folded longitudinal gynecophoral canal cradling a longer much thinner smooth female, female anterior and posterior tips visibly project from male, tiny oral and ventral suckers at anterior. Pale cream artificial colors. No red blood, human wound, gore, leaflike liver-fluke silhouette or segmentation.. Setting neutral dark blue-grey educational microscopy background, abstract host setting, no human. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "aac9c012078f26af8a5332c2a75da2f271ad4824bd56701ee510c5563822aca7",
+      "runtimeSha256": "dad33443ad0ab77466e27a72e72d665e18df4edbe9bba2dd02134ed6325b3c22",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Schistosoma mansoni. Observation 卵的侧棘: one microscopic pale oval Schistosoma mansoni egg with exactly ONE prominent lateral spine near posterior end, NOT terminal spine, no blood. General anatomy: Complete adult PAIR in a calm scientific illustration: shorter thicker tuberculate male with ventrally folded longitudinal gynecophoral canal cradling a longer much thinner smooth female, female anterior and posterior tips visibly project from male, tiny oral and ventral suckers at anterior. Pale cream artificial colors. No red blood, human wound, gore, leaflike liver-fluke silhouette or segmentation.. Setting neutral dark blue-grey educational microscopy background, abstract host setting, no human. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "29866fb0477eca071233a3529fe740136ba86e8a12bc6f391ca8fec73c706a6a",
+      "runtimeSha256": "0d24535e63c2da92391d15fd242ee2e675f04d705acae8e97be15f127c23ab05",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Schistosoma mansoni. Observation 毛蚴与尾蚴: two separated vignettes: oval ciliated miracidium WITHOUT tail on left; cercaria with compact body and stem tail splitting into two fine branches on right, no shared scale. General anatomy: Complete adult PAIR in a calm scientific illustration: shorter thicker tuberculate male with ventrally folded longitudinal gynecophoral canal cradling a longer much thinner smooth female, female anterior and posterior tips visibly project from male, tiny oral and ventral suckers at anterior. Pale cream artificial colors. No red blood, human wound, gore, leaflike liver-fluke silhouette or segmentation.. Setting neutral dark blue-grey educational microscopy background, abstract host setting, no human. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "dd114dcdf0f78af26c8da9a4c813068af8b8be2476f7acd9475a706263bdfd10",
+      "runtimeSha256": "2400614783798d818f1cd9cf49800ddb77b72504046ccc5c158aa556d039ea41",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Remove the entire adult male-female Schistosoma mansoni worm pair on the right. Preserve ONLY the Biomphalaria snail at left and the separate circular microscopic sporocyst schematic. Fill the right side with quiet dark freshwater background and small submerged plant texture. No adult blood flukes living free in water, no blood, no human injury. This scene illustrates snail intermediate host and internal sporocyst, not free adults.",
+      "sourceSha256": "96c260485e90bf7a8d06b00bc208bf0bc27f99c388f2a664b0806ff1c1fdb7a8",
+      "runtimeSha256": "4dc9f6054495d7bdf010651b1f3f3414a3f9033700ab7da93473a31e9274c84d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revision": {
+        "previousPrompt": "Scientific educational natural illustration, landscape 1536x1024. Species Schistosoma mansoni. Observation 螺是中间宿主: Biomphalaria freshwater snail with planispiral disk shell in clean water plus separate enlarged sporocyst schematic without human wounds, no giant worms attached. General anatomy: Complete adult PAIR in a calm scientific illustration: shorter thicker tuberculate male with ventrally folded longitudinal gynecophoral canal cradling a longer much thinner smooth female, female anterior and posterior tips visibly project from male, tiny oral and ventral suckers at anterior. Pale cream artificial colors. No red blood, human wound, gore, leaflike liver-fluke silhouette or segmentation.. Setting neutral dark blue-grey educational microscopy background, abstract host setting, no human. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+        "previousSourceSha256": "49cd90fd02f3062ab9ef2008aa06ddba10a07c55a6b80e5829c45f9edf24229d"
+      }
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Schistosoma mansoni. Observation 生活史的几个位置: calm three separate educational vignettes no arrows or text: abstract translucent intestinal vein holding paired adults; freshwater Biomphalaria snail; fork-tailed cercaria in water; no skin wound or blood. General anatomy: Complete adult PAIR in a calm scientific illustration: shorter thicker tuberculate male with ventrally folded longitudinal gynecophoral canal cradling a longer much thinner smooth female, female anterior and posterior tips visibly project from male, tiny oral and ventral suckers at anterior. Pale cream artificial colors. No red blood, human wound, gore, leaflike liver-fluke silhouette or segmentation.. Setting neutral dark blue-grey educational microscopy background, abstract host setting, no human. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "a46569e39366a1fa773075a90c52c8fe632429960bb5da16b7fcf0eb1649efe5",
+      "runtimeSha256": "9e0845eb0b2a799329f022c8a253cb7f21bda3d0c5e77777913321063b0c54d8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
