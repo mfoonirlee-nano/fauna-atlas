@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Preserve species identity Enypniastes eximia, the whole transparent sea cucumber, anterior veil, short oral tentacles, rear finlike membranes and visible gut. Move the entire animal to the right and reduce width modestly. ENTIRE silhouette including veil and oral tentacles must fit inside x 730..1470 and y 90..880 in a 1536x1024 source. Left 40 percent dark quiet water, clear real background margin around the whole subject. No fish tail or fin rays, rear lobes are soft thin membranes. No text.",
+      "sourceSha256": "abf5f963ae510975ef74099a1d22b5ed53fea30b1e235f54b4953b8dec8274a3",
+      "runtimeSha256": "775eab955272e2eb28dc5cee6094a2642ab63aa8f0dbf26f4d93a354403a5f4d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Enypniastes eximia. Morphology: One whole translucent pink-red gelatinous swimming sea cucumber: oblong barrel body, a broad delicate anterior swimming veil wrapping around front like a shallow umbrella, paired smaller posterior finlike lobes and short oral feeding tentacles on underside; visible internal coiled gut, no fish tail, no eyes, no wings. Environment: dark deep water immediately above muddy seabed. Gallery: oblique whole animal showing broad thin anterior veil. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "2c700b684502779dc92b894e0b9b9fb7bfbdc296038787aa5e68d59a29c9aafe",
+      "runtimeSha256": "15e43acda831e20881c3811ea141a357f0d571ecaf030f9128a2b28f48d7606c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Enypniastes eximia. Morphology: One whole translucent pink-red gelatinous swimming sea cucumber: oblong barrel body, a broad delicate anterior swimming veil wrapping around front like a shallow umbrella, paired smaller posterior finlike lobes and short oral feeding tentacles on underside; visible internal coiled gut, no fish tail, no eyes, no wings. Environment: dark deep water immediately above muddy seabed. Gallery: short oral tentacles near muddy seabed, conceptual feeding pose. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "7892baf6bd57174fcfca736c153266e8b8e41c862caa80ac0e53c0fc5275d684",
+      "runtimeSha256": "9e6fb74600ac074a9b88038ac931e97492bce9a3510d59e24784c80b6aad877d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Enypniastes eximia. Morphology: One whole translucent pink-red gelatinous swimming sea cucumber: oblong barrel body, a broad delicate anterior swimming veil wrapping around front like a shallow umbrella, paired smaller posterior finlike lobes and short oral feeding tentacles on underside; visible internal coiled gut, no fish tail, no eyes, no wings. Environment: dark deep water immediately above muddy seabed. Gallery: transparent body with visible gut, no anatomical dissection. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "1b7c2b58f1555ea3c3c79199c938eb31eeea999b0683453e74407b00e2b89175",
+      "runtimeSha256": "41bbf08c4b1c3949d7c1ab400f94fa5f1bfc0afcd88ef1e2cc31655f2ed1a82e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Enypniastes eximia. Morphology: One whole translucent pink-red gelatinous swimming sea cucumber: oblong barrel body, a broad delicate anterior swimming veil wrapping around front like a shallow umbrella, paired smaller posterior finlike lobes and short oral feeding tentacles on underside; visible internal coiled gut, no fish tail, no eyes, no wings. Environment: dark deep water immediately above muddy seabed. Gallery: one complete animal hovering above seafloor, illustrative posture not motion sequence. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "07673d6a0e7e15927436384600c672a6ad9dad10965aeae6eb9d1000a8acce6c",
+      "runtimeSha256": "a97f73c4e2cf6973f14ddd7697c0bb0d7912f4744778ceae4ebebea443b4aac5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Enypniastes eximia. Morphology: One whole translucent pink-red gelatinous swimming sea cucumber: oblong barrel body, a broad delicate anterior swimming veil wrapping around front like a shallow umbrella, paired smaller posterior finlike lobes and short oral feeding tentacles on underside; visible internal coiled gut, no fish tail, no eyes, no wings. Environment: dark deep water immediately above muddy seabed. Gallery: posterior smaller finlike lobes in close-up, no fish tail. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "bc9041a517c209699a2e68e3ba1647c3bd95a50409e5ced3c38e53bbcc8b8b8a",
+      "runtimeSha256": "62542ccbbaf697641b3a87117103ee0de384269c633f2d7320f737b737aaa3fb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
