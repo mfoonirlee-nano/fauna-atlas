@@ -1,0 +1,94 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Remove the round bead-like bulb at the tip of EVERY tentacle. Pedicellina cernua tentacles should be slender, smooth, tapered and ciliated, not hydra tentacles with knobs. Preserve entire three-zooid colony, stolon, stalks, calyces, framing, quiet left background, all complete subjects.",
+      "sourceSha256": "39def7dea868b65f9e26a95dd49ef591cabe656bd6cdfe5748dcf10550135c76",
+      "runtimeSha256": "24ff8801f0fb3caf0c8575c23fb7cc1e3b2bbb3c04a81d8db1625517de4563ba",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revision": {
+        "previousPrompt": "Use case: scientific-educational. Fauna Atlas canonical species cover. Landscape 1536x1024. Detailed restrained scientific natural illustration. Species Pedicellina cernua. Anatomy: One small complete colony of three zooids connected by a short creeping stolon. Each zooid has a flexible unsegmented stalk and asymmetric oval cup calyx carrying a ring of fine ciliated tentacles, cups softly bent forward, complete tentacle tips and stolon visible. No coral branches or plant leaves.. Environment: marine submerged hard substrate, muted dark teal microscope macro reconstruction. Composition: complete subject centered at 73% of source width. Entire subject within x=700..1440 and y=100..920. Keep left 40% quiet low contrast empty background. Large readable full subject with real margins around every outer feature. No text, labels, arrows, watermark, frames or anatomical inset panels. Microscopic colors are artificial; not a photograph.",
+        "previousSourceSha256": "444a781f049983c9aabe1e23fef19224aecb1c3e16d19e845969e44a82b75ef3"
+      }
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Pedicellina cernua. Observation 小杯与细柄: one whole stalked zooid, asymmetrical calyx, fine ciliated tapering tentacles without terminal bulbs, partial stolon. General anatomy: One small complete colony of three zooids connected by a short creeping stolon. Each zooid has a flexible unsegmented stalk and asymmetric oval cup calyx carrying a ring of fine ciliated tentacles, cups softly bent forward, complete tentacle tips and stolon visible. No coral branches or plant leaves.. Setting marine submerged hard substrate, muted dark teal microscope macro reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "8cebf79cf2012e842b282ffa960b9f5a4dfdd3d666d3be626e9cfca8508f0f0a",
+      "runtimeSha256": "bb7c5595ec1152ac17c51f60321f60a8351f524f47e4f54a32436edce667c97e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Pedicellina cernua. Observation 触手冠: close-up of calyx rim with ciliated tentacles, every tentacle smoothly tapers without round terminal knobs. General anatomy: One small complete colony of three zooids connected by a short creeping stolon. Each zooid has a flexible unsegmented stalk and asymmetric oval cup calyx carrying a ring of fine ciliated tentacles, cups softly bent forward, complete tentacle tips and stolon visible. No coral branches or plant leaves.. Setting marine submerged hard substrate, muted dark teal microscope macro reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "a8727d40c76669442083bd1308f7a6bcc5c0c30f072078ffefa107f969015ccd",
+      "runtimeSha256": "ad56d7a276df6d0e85dfd0977b8c6db78754dd895d0c0647367fa1e2894696d6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Pedicellina cernua. Observation 相连的个体: three complete zooids connected by creeping stolon across hard substrate, no plant roots. General anatomy: One small complete colony of three zooids connected by a short creeping stolon. Each zooid has a flexible unsegmented stalk and asymmetric oval cup calyx carrying a ring of fine ciliated tentacles, cups softly bent forward, complete tentacle tips and stolon visible. No coral branches or plant leaves.. Setting marine submerged hard substrate, muted dark teal microscope macro reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "37958a1ef877569c5d0209137a8ccf6d7dbbf1c268f13cb9d6f8bcd9eb69530d",
+      "runtimeSha256": "b753212a8e544260be27b7db044ff65830c93b05a3eaae70e63de631f72b4f92",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Pedicellina cernua. Observation 新生的小芽: colony with two mature zooids and small developing bud on stolon, immature bud lacks full tentacle crown. General anatomy: One small complete colony of three zooids connected by a short creeping stolon. Each zooid has a flexible unsegmented stalk and asymmetric oval cup calyx carrying a ring of fine ciliated tentacles, cups softly bent forward, complete tentacle tips and stolon visible. No coral branches or plant leaves.. Setting marine submerged hard substrate, muted dark teal microscope macro reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "cd35ca2a400737b36b056928aac95a26fa2c1775da15035b01a9f1cff1aaecda",
+      "runtimeSha256": "6441344371c591410109d098b2a37bb1e1c4adfc9d71bbf32e29a08fc3dba113",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Pedicellina cernua. Observation 弯下的柄: two zooids on stolon one upright one stalk bent, soft calyx intact, conceptual comparison no motion arrows. General anatomy: One small complete colony of three zooids connected by a short creeping stolon. Each zooid has a flexible unsegmented stalk and asymmetric oval cup calyx carrying a ring of fine ciliated tentacles, cups softly bent forward, complete tentacle tips and stolon visible. No coral branches or plant leaves.. Setting marine submerged hard substrate, muted dark teal microscope macro reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "35053e5407dcf88d70c217089819b9f7354cbe88f575fd94a754176623704a5e",
+      "runtimeSha256": "e7d60acca07f2aea3992fc1ae653011eccdedbfebb24abdd73c16fbd78954e77",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
