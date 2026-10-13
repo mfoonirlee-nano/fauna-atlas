@@ -24273,7 +24273,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 580);
+  assert.equal(species.length, 590);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24291,7 +24291,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 8);
+  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 10);
   assert.equal(findTaxon(tree, 'class', 'Crinoidea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Comatulida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Antedonidae')?.speciesCount, 1);
@@ -24300,7 +24300,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Camarodonta')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Strongylocentrotidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Strongylocentrotus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Ophiuroidea')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Ophiuroidea')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Amphilepidida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Ophiotrichidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Ophiothrix')?.speciesCount, 1);
@@ -24308,18 +24308,18 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Valvatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Acanthasteridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Acanthaster')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Holothuroidea')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Holothuroidea')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Synallactida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Stichopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Apostichopus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'phylum', 'Annelida')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'class', 'Clitellata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Crassiclitellata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Megascolecidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Megascolides')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 4);
-  assert.equal(findTaxon(tree, 'order', 'Sabellida')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'family', 'Siboglinidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Sabellida')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'family', 'Siboglinidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Riftia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'phylum', 'Brachiopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Lingulata')?.speciesCount, 1);
@@ -24444,7 +24444,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 580);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 590);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24455,7 +24455,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tricladida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dugesiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Dugesia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Porifera')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'phylum', 'Porifera')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'class', 'Hexactinellida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Lyssacinosida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euplectellidae')?.speciesCount, 1);
@@ -24603,21 +24603,23 @@ test('keeps every branch in canonical rank order with species at the leaf', () =
   const tree = buildTaxonomyTree(species);
   const orderedRanks = [...TAXONOMY_RANKS, 'species'];
 
-  function verify(nodes, expectedIndex) {
+  function verify(nodes, parentIndex) {
     for (const node of nodes) {
-      assert.equal(node.rank, orderedRanks[expectedIndex]);
+      const rankIndex = orderedRanks.indexOf(node.rank);
+      assert.ok(rankIndex > parentIndex, `${node.rank} must follow its parent's rank`);
+      if (parentIndex === -1) assert.equal(node.rank, 'kingdom');
 
       if (node.kind === 'species') {
-        assert.equal(expectedIndex, orderedRanks.length - 1);
+        assert.equal(parentIndex, orderedRanks.indexOf('genus'));
         assert.deepEqual(node.children, []);
       } else {
         assert.ok(node.children.length > 0);
-        verify(node.children, expectedIndex + 1);
+        verify(node.children, rankIndex);
       }
     }
   }
 
-  verify(tree, 0);
+  verify(tree, -1);
 });
 
 test('exposes complete, stable taxonomy paths for search and node identity', () => {
@@ -25243,7 +25245,7 @@ test('integrates bobbit worm on the eunicidan branch with scoped distribution an
     'Animalia', 'Annelida', 'Polychaeta', 'Eunicida', 'Eunicidae', 'Eunice',
   ]);
   assert.equal(findTaxon(tree, 'genus', 'Eunice')?.children[0]?.species.id, profile.id);
-  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'class', 'Polychaeta')?.speciesCount, 6);
   assert.equal(profile.distribution.endemicTo, undefined, 'a study locality is not an endemic range');
   assert.equal(profile.metrics.adultLengthCm, undefined, 'unverified giant worms do not define this species length');
   assert.equal(profile.conservation.code, 'NE');
@@ -26648,7 +26650,7 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   assert.doesNotMatch(todo, /- \[x\]/);
   const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
-  assert.equal(pendingNames.length, 20);
+  assert.equal(pendingNames.length, 10);
   for (const profile of species) {
     assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
   }
@@ -26962,7 +26964,7 @@ test('October 12 micro arthropods retain distinct anatomy and life stages', asyn
     ['calanus-finmarchicus', 'Calanus finmarchicus', 'Copepoda', 'Calanoida', 'Calanidae'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
-  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 20);
+  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 10);
   for (const [slug, name, className, order, family] of entries) {
     const profile = findSpecies(slug);
     assert.equal(profile.scientificName, name);
@@ -27002,7 +27004,7 @@ test('October 12 final arthropods distinguish appendages, juveniles and rolled b
     ['black-pill-millipede', 'Glomeris marginata', 'Diplopoda', 'Glomerida', 'Glomeridae'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
-  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 20);
+  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 10);
   for (const [slug, name, className, order, family] of entries) {
     const profile = findSpecies(slug);
     assert.equal(profile.scientificName, name);
@@ -27058,4 +27060,27 @@ test('October 12 molluscs retain accepted image sets and distinct body plans', a
   assertAnimalCopy(findSpecies('naval-shipworm'), ['双壳类', '原生范围', '面盘幼体']);
   assertAnimalCopy(findSpecies('geography-cone'), ['毒液', '不捡拾或接触活体']);
   assert.equal(findSpecies('geography-cone').conservation.assessedYear, 2011);
+});
+
+// These classifications omit a rank in the source; never invent placeholder taxa.
+test('unassigned class and order ranks keep named parents and stable species leaves', () => {
+  const tree = buildTaxonomyTree(species);
+  for (const [slug, ranks, phylum] of [
+    ['naked-peanut-worm', ['kingdom', 'phylum', 'order', 'family', 'genus'], 'Annelida'],
+    ['kowalevsky-acorn-worm', ['kingdom', 'phylum', 'class', 'family', 'genus'], 'Hemichordata'],
+    ['mystic-loriciferan', ['kingdom', 'phylum', 'order', 'family', 'genus'], 'Loricifera'],
+  ]) {
+    const profile = findSpecies(slug);
+    const path = getSpeciesTaxonomyPath(profile);
+    assert.deepEqual(path.map(({ rank }) => rank), ranks);
+    assert.equal(path[1].taxon.scientificName, phylum);
+    assert.equal(path.at(-1).taxon.scientificName, profile.scientificName.split(' ')[0]);
+    const leaves = flatten(tree).filter(node => node.kind === 'species' && node.species.slug === slug);
+    assert.equal(leaves.length, 1);
+    const parent = flatten(tree).find(node => node.key === path.at(-1).key);
+    assert.ok(parent.children.some(node => node.key === leaves[0].key));
+    assert.ok(!leaves[0].key.includes('incertae sedis'));
+  }
+  assert.equal(findTaxon(tree, 'phylum', 'Sipuncula'), undefined);
+  assert.deepEqual(getSpeciesTaxonomyPath(findSpecies('giant-panda')).map(({ rank }) => rank), TAXONOMY_RANKS);
 });

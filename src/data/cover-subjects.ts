@@ -5802,4 +5802,104 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 925
   }
 },
+  "freshwater-sponge": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 660,
+    "top": 40,
+    "right": 1400,
+    "bottom": 990
+  }
+},
+  "frankpress-bone-worm": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 760,
+    "top": 25,
+    "right": 1370,
+    "bottom": 1000
+  }
+},
+  "green-spoon-worm": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 710,
+    "top": 35,
+    "right": 1395,
+    "bottom": 945
+  }
+},
+  "naked-peanut-worm": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 828,
+    "top": 18,
+    "right": 1250,
+    "bottom": 950
+  }
+},
+  "gorgons-head-basket-star": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 620,
+    "top": 36,
+    "right": 1470,
+    "bottom": 943
+  }
+},
+  "swimming-sea-cucumber": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 675,
+    "top": 170,
+    "right": 1460,
+    "bottom": 650
+  }
+},
+  "kowalevsky-acorn-worm": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 745,
+    "top": 52,
+    "right": 1425,
+    "bottom": 950
+  }
+},
+  "benthic-arrow-worm": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 618,
+    "top": 100,
+    "right": 1335,
+    "bottom": 975
+  }
+},
+  "dujardin-mud-dragon": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 682,
+    "top": 28,
+    "right": 1498,
+    "bottom": 985
+  }
+},
+  "mystic-loriciferan": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 805,
+    "top": 26,
+    "right": 1310,
+    "bottom": 847
+  }
+},
 };

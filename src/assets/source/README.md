@@ -835,3 +835,23 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [卵形瓜水母 image set](./species/ovate-comb-jelly/README.md)
 
 - [竖琴海绵 image set](./species/harp-sponge/README.md)
+
+- [湖沼海绵 image set](./species/freshwater-sponge/README.md)
+
+- [弗氏食骨虫 image set](./species/frankpress-bone-worm/README.md)
+
+- [绿螠 image set](./species/green-spoon-worm/README.md)
+
+- [裸体方格星虫 image set](./species/naked-peanut-worm/README.md)
+
+- [蛇发篮海星 image set](./species/gorgons-head-basket-star/README.md)
+
+- [游泳海参 image set](./species/swimming-sea-cucumber/README.md)
+
+- [科瓦列夫斯基柱头虫 image set](./species/kowalevsky-acorn-worm/README.md)
+
+- [头翼箭虫 image set](./species/benthic-arrow-worm/README.md)
+
+- [动吻虫 image set](./species/dujardin-mud-dragon/README.md)
+
+- [铠甲虫 image set](./species/mystic-loriciferan/README.md)

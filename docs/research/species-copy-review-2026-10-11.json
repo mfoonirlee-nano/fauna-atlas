@@ -27166,6 +27166,386 @@
           ]
         }
       }
+    },
+    {
+      "slug": "freshwater-sponge",
+      "scientificName": "Spongilla lacustris",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11162577/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11162577/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://redpath-staff.mcgill.ca/ricciardi/Ricciardi%26Reiswig1993.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2244988",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11162577/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2244988",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11162577/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "frankpress-bone-worm",
+      "scientificName": "Osedax frankpressi",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/news/whale-carcass-yields-bone-devouring-worms/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/news/whale-carcass-yields-bone-devouring-worms/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/news/whale-carcass-yields-bone-devouring-worms/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2329594",
+            "https://www.mbari.org/news/whale-carcass-yields-bone-devouring-worms/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2329594",
+            "https://www.mbari.org/news/whale-carcass-yields-bone-devouring-worms/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "green-spoon-worm",
+      "scientificName": "Bonellia viridis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13299783/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13299783/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13299783/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5234395",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13299783/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5234395",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13299783/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "naked-peanut-worm",
+      "scientificName": "Sipunculus nudus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://ns-sipuncula.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?id=117097"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://ns-sipuncula.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?id=117097"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ns-sipuncula.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?id=117097"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5234445",
+            "https://ns-sipuncula.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?id=117097"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5234445",
+            "https://ns-sipuncula.linnaeus.naturalis.nl/linnaeus_ng/app/views/species/nsr_taxon.php?id=117097"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "gorgons-head-basket-star",
+      "scientificName": "Gorgonocephalus caputmedusae",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://doi.org/10.1007/s00227-005-0032-3"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://doi.org/10.1007/s00227-005-0032-3"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=124967&p=taxdetails"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2278436",
+            "https://www.marinespecies.org/aphia.php?id=124967&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2278436",
+            "https://www.marinespecies.org/aphia.php?id=124967&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "swimming-sea-cucumber",
+      "scientificName": "Enypniastes eximia",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://oceanexplorer.noaa.gov/ocean-fact/what-is-a-headless-chicken-monster/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://oceanexplorer.noaa.gov/ocean-fact/what-is-a-headless-chicken-monster/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://oceanexplorer.noaa.gov/ocean-fact/what-is-a-headless-chicken-monster/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2279457",
+            "https://oceanexplorer.noaa.gov/ocean-fact/what-is-a-headless-chicken-monster/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2279457",
+            "https://oceanexplorer.noaa.gov/ocean-fact/what-is-a-headless-chicken-monster/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "kowalevsky-acorn-worm",
+      "scientificName": "Saccoglossus kowalevskii",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4081662/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4081662/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4081662/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2254481",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4081662/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2254481",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4081662/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "benthic-arrow-worm",
+      "scientificName": "Spadella cephaloptera",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13330366/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13330366/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13330366/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2307111",
+            "https://www.marinespecies.org/aphia.php?id=105468&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2307111",
+            "https://www.marinespecies.org/aphia.php?id=105468&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dujardin-mud-dragon",
+      "scientificName": "Echinoderes dujardinii",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=101111&p=taxdetails"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4021568/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=101111&p=taxdetails"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4282163",
+            "https://www.marinespecies.org/aphia.php?id=101111&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4282163",
+            "https://www.marinespecies.org/aphia.php?id=101111&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mystic-loriciferan",
+      "scientificName": "Nanaloricus mysticus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0250403"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0250403"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0250403"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2501317",
+            "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0250403"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2501317",
+            "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0250403"
+          ]
+        }
+      }
     }
   ]
 }

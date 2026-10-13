@@ -581,6 +581,17 @@ import profile577 from './species/angler-siphonophore.js';
 import profile578 from './species/ovate-comb-jelly.js';
 import profile579 from './species/harp-sponge.js';
 
+import profile580 from './species/freshwater-sponge.js';
+import profile581 from './species/frankpress-bone-worm.js';
+import profile582 from './species/green-spoon-worm.js';
+import profile583 from './species/naked-peanut-worm.js';
+import profile584 from './species/gorgons-head-basket-star.js';
+import profile585 from './species/swimming-sea-cucumber.js';
+import profile586 from './species/kowalevsky-acorn-worm.js';
+import profile587 from './species/benthic-arrow-worm.js';
+import profile588 from './species/dujardin-mud-dragon.js';
+import profile589 from './species/mystic-loriciferan.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1162,6 +1173,16 @@ export const species: readonly Species[] = [
   profile577,
   profile578,
   profile579,
+  profile580,
+  profile581,
+  profile582,
+  profile583,
+  profile584,
+  profile585,
+  profile586,
+  profile587,
+  profile588,
+  profile589,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

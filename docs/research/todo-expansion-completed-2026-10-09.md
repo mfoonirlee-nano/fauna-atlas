@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 80 种，动物目录增至 580 种，活动清单剩余 20 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
+本轮目标为新增 100 种动物；累计完成 90 种，动物目录增至 590 种，活动清单剩余 10 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -126,3 +126,18 @@
 - [x] 竖琴海绵 *Chondrocladia lyra*：海绵动物，补充捕食性海绵。共读：“看看竖起的小枝怎样排成一排。”不能把所有海绵都描述为滤食者。[行为依据：MBARI](https://www.mbari.org/news/scientists-discover-extraordinary-new-carnivorous-sponge/)。
 
 资料与验收见[本批记录](todo-expansion-jellies-five-2026-10-13.md)。
+
+## 2026-10-13 十种无脊椎动物
+
+- [x] 湖沼海绵 *Spongilla lacustris*：海绵动物，补充淡水中的固着动物。共读：“在水下枝条上找找附着的海绵。”用放大图说明孔洞，不按绿色外观判断是不是植物。
+- [x] 弗氏食骨虫 *Osedax frankpressi*：环节动物，补充鲸落与细菌共生。共读：“看看骨头上方露出的红色羽状部分。”骨内结构使用剖面示意。[行为依据：MBARI](https://annualreport.mbari.org/2018/story/discovering-animals-never-seen-before)。
+- [x] 螠虫（中文名待核） *Bonellia viridis*：环节动物中的螠虫类，补充雌雄大小差异与长吻。共读：“看看绿色长吻的末端怎样分叉。”不能把小雄虫当成雌虫幼体。
+- [x] 裸体方格星虫 *Sipunculus nudus*：环节动物中的星虫类，补充不显分节的身体与可缩入的吻部。共读：“对照两张图，找找哪一张伸出了前端。”复核分类口径，不直接沿用旧“星虫门”。
+- [x] 蛇发篮海星 *Gorgonocephalus caputmedusae*：棘皮动物中的蛇尾类，补充反复分叉的腕。共读：“沿着一条腕找找分出的细枝。”不能归入海星纲。
+- [x] 游泳海参 *Enypniastes eximia*：棘皮动物，补充海参的游泳方式。共读：“用连续影像看看身体旁的薄膜怎样摆动。”[行为依据：NOAA](https://oceanexplorer.noaa.gov/ocean-fact/what-is-a-headless-chicken-monster/)。
+- [x] 科瓦列夫斯基柱头虫 *Saccoglossus kowalevskii*：半索动物，补充吻、领、躯干的身体结构。共读：“找找前端橡子形的小部分。”与脊索动物分别说明。
+- [x] 头翼箭虫 *Spadella cephaloptera*：毛颚动物，补充透明的捕食性小动物。共读：“在放大图里找找头旁的捕捉刺。”[学名与归属：WoRMS](https://www.marinespecies.org/aphia.php?id=105468&p=taxdetails)。
+- [x] 动吻虫 *Echinoderes dujardinii*：动吻动物，补充海底沉积物中的分节微小身体。共读：“在显微图里沿着身体找找一节节的边界。”
+- [x] 铠甲虫 *Nanaloricus mysticus*：铠甲动物，补充沙粒间生活与外部甲板。共读：“看看放大后的身体外壳。”不能按名字画成甲虫。
+
+资料与验收见[本批记录](todo-expansion-invertebrates-ten-2026-10-13.md)。

@@ -1,0 +1,216 @@
+{
+  "sipunculus": {
+    "record": {
+      "AphiaID": 136084,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=136084",
+      "scientificname": "Sipunculus (Sipunculus) nudus",
+      "authority": "Linnaeus, 1766",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 136084,
+      "valid_name": "Sipunculus (Sipunculus) nudus",
+      "valid_authority": "Linnaeus, 1766",
+      "parentNameUsageID": 410762,
+      "originalNameUsageID": 424084,
+      "kingdom": "Animalia",
+      "phylum": "Annelida",
+      "class": null,
+      "order": "Sipuncula",
+      "family": "Sipunculidae",
+      "genus": "Sipunculus",
+      "citation": "Read, G.; Saiz-Salinas, J. (2026). World Sipuncula Database. Sipunculus (Sipunculus) nudus Linnaeus, 1766. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=136084 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:136084",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": 0,
+      "match_type": "exact",
+      "modified": "2024-03-22T01:51:12.937Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 882,
+          "rank": "Phylum",
+          "scientificname": "Annelida",
+          "child": {
+            "AphiaID": 1268,
+            "rank": "Order",
+            "scientificname": "Sipuncula",
+            "child": {
+              "AphiaID": 1648,
+              "rank": "Family",
+              "scientificname": "Sipunculidae",
+              "child": {
+                "AphiaID": 136031,
+                "rank": "Genus",
+                "scientificname": "Sipunculus",
+                "child": {
+                  "AphiaID": 410762,
+                  "rank": "Subgenus",
+                  "scientificname": "Sipunculus (Sipunculus)",
+                  "child": {
+                    "AphiaID": 136084,
+                    "rank": "Species",
+                    "scientificname": "Sipunculus (Sipunculus) nudus",
+                    "child": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "nanaloricus": {
+    "record": {
+      "AphiaID": 101151,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101151",
+      "scientificname": "Nanaloricus mysticus",
+      "authority": "Kristensen, 1983",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 101151,
+      "valid_name": "Nanaloricus mysticus",
+      "valid_authority": "Kristensen, 1983",
+      "parentNameUsageID": 101090,
+      "originalNameUsageID": 101151,
+      "kingdom": "Animalia",
+      "phylum": "Loricifera",
+      "class": null,
+      "order": "Nanaloricida",
+      "family": "Nanaloricidae",
+      "genus": "Nanaloricus",
+      "citation": "Fujimoto, S.; Sørensen, M.V. (2026). World List of Loricifera. Nanaloricus mysticus Kristensen, 1983. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=101151 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:101151",
+      "isMarine": 1,
+      "isBrackish": null,
+      "isFreshwater": null,
+      "isTerrestrial": null,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2023-02-20T11:56:22.300Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 101061,
+          "rank": "Phylum",
+          "scientificname": "Loricifera",
+          "child": {
+            "AphiaID": 101066,
+            "rank": "Order",
+            "scientificname": "Nanaloricida",
+            "child": {
+              "AphiaID": 101075,
+              "rank": "Family",
+              "scientificname": "Nanaloricidae",
+              "child": {
+                "AphiaID": 101090,
+                "rank": "Genus",
+                "scientificname": "Nanaloricus",
+                "child": {
+                  "AphiaID": 101151,
+                  "rank": "Species",
+                  "scientificname": "Nanaloricus mysticus",
+                  "child": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "saccoglossus": {
+    "record": {
+      "AphiaID": 137600,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=137600",
+      "scientificname": "Saccoglossus kowalevskii",
+      "authority": "(Agassiz, 1873)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 137600,
+      "valid_name": "Saccoglossus kowalevskii",
+      "valid_authority": "(Agassiz, 1873)",
+      "parentNameUsageID": 137590,
+      "originalNameUsageID": 1290047,
+      "kingdom": "Animalia",
+      "phylum": "Hemichordata",
+      "class": "Enteropneusta",
+      "order": "Enteropneusta incertae sedis",
+      "family": "Harrimaniidae",
+      "genus": "Saccoglossus",
+      "citation": "Swalla, B.J.; Halanych, K.; van der Land, J. (2026). Hemichordata World Database. Saccoglossus kowalevskii (Agassiz, 1873). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=137600 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:137600",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2018-08-12T19:13:27.330Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1818,
+          "rank": "Phylum",
+          "scientificname": "Hemichordata",
+          "child": {
+            "AphiaID": 1820,
+            "rank": "Class",
+            "scientificname": "Enteropneusta",
+            "child": {
+              "AphiaID": 22753,
+              "rank": "Order",
+              "scientificname": "Enteropneusta incertae sedis",
+              "child": {
+                "AphiaID": 2018,
+                "rank": "Family",
+                "scientificname": "Harrimaniidae",
+                "child": {
+                  "AphiaID": 137590,
+                  "rank": "Genus",
+                  "scientificname": "Saccoglossus",
+                  "child": {
+                    "AphiaID": 137600,
+                    "rank": "Species",
+                    "scientificname": "Saccoglossus kowalevskii",
+                    "child": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
