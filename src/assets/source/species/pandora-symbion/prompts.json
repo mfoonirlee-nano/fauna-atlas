@@ -1,0 +1,94 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Move the entire Symbion pandora feeding-stage body, ciliated funnel, stalk and adhesive disc about 120 pixels toward the right so the complete subject's boundary lies approximately x=720..1320. Preserve size and anatomy and diagonal lobster seta attachment, keep left 40% quiet background, all fine cilia visible within frame.",
+      "sourceSha256": "e509d134621e06d7e5e00b96a8ef3c285110fe04e90c2966c5f9b81e1e5c82cb",
+      "runtimeSha256": "91c7947c8d67d18eeb8e46a8c4575cc07846846c3d0d58ba7cf15bbf4c71ce50",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revision": {
+        "previousPrompt": "Use case: scientific-educational. Fauna Atlas canonical species cover. Landscape 1536x1024. Detailed restrained scientific natural illustration. Species Symbion pandora. Anatomy: One whole sessile FEEDING individual, oval sac-like trunk, anterior wide funnel with circular rim of fine cilia, short posterior stalk ending in an adhesive disc on ONE fine brown lobster mouthpart seta. No hydra tentacles, no eyes, no arthropod legs. Clearly show organism and adhesive disc at microscopic scale.. Environment: quiet blue-grey microscopic field with one cropped host seta as substrate; only the seta may extend off frame. Composition: complete subject centered at 73% of source width. Entire subject within x=700..1440 and y=100..920. Keep left 40% quiet low contrast empty background. Large readable full subject with real margins around every outer feature. No text, labels, arrows, watermark, frames or anatomical inset panels. Microscopic colors are artificial; not a photograph.",
+        "previousSourceSha256": "af8c7fe05bd37580e299234dc36f424ecf870096ece8eb98ba759486568ce2b1"
+      }
+    },
+    {
+      "scene": 2,
+      "prompt": "Use case scientific-educational. Fauna Atlas gallery observation: 宿主与刚毛. Landscape 1536x1024. Species Symbion pandora. General morphology One whole sessile FEEDING individual, oval sac-like trunk, anterior wide funnel with circular rim of fine cilia, short posterior stalk ending in an adhesive disc on ONE fine brown lobster mouthpart seta. No hydra tentacles, no eyes, no arthropod legs. Clearly show organism and adhesive disc at microscopic scale.. Environment quiet blue-grey microscopic field with one cropped host seta as substrate; only the seta may extend off frame. Requested scene: two clearly separate conceptual magnifications: complete Norway lobster Nephrops norvegicus with slender claws on left; one mouthpart seta bearing microscopic feeding Symbion individuals on right, never giant worms on lobster shell. Restrained detailed scientific illustration with plausible anatomy, artificial microscopic coloration, conceptual magnification not measured scale. Complete relevant structures have generous margins. No text, letters, numeric scales, labels, arrows, watermark or decorative frame.",
+      "sourceSha256": "301e203bf7a5ab136953ed1c66fa560332edd8b3546046c08cc7e70a0f0dc6cd",
+      "runtimeSha256": "a84dd3e75203cc4390560ba051b4aec35b9cfcece52998b0d63af68dcd99f7bf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Symbion pandora. Observation 取食漏斗: microscopic whole sessile feeding individual with oval trunk and ciliated funnel, fine cilia not tentacles, short attachment stalk on seta. General anatomy: One whole sessile FEEDING individual, oval sac-like trunk, anterior wide funnel with circular rim of fine cilia, short posterior stalk ending in an adhesive disc on ONE fine brown lobster mouthpart seta. No hydra tentacles, no eyes, no arthropod legs. Clearly show organism and adhesive disc at microscopic scale.. Setting quiet blue-grey microscopic field with one cropped host seta as substrate; only the seta may extend off frame. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "e4abc7743e8efd7f132f5f52a9371af78a3779f3b139dfe5b95ee2a4108cfff9",
+      "runtimeSha256": "eb65cbe79ddeb22a8e48f67f67ec664df65f1051d3679889bf868488485dffb5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Symbion pandora. Observation 黏附盘: close-up of posterior short stalk and flat attachment disc on host mouthpart seta, entire organism smaller inset. General anatomy: One whole sessile FEEDING individual, oval sac-like trunk, anterior wide funnel with circular rim of fine cilia, short posterior stalk ending in an adhesive disc on ONE fine brown lobster mouthpart seta. No hydra tentacles, no eyes, no arthropod legs. Clearly show organism and adhesive disc at microscopic scale.. Setting quiet blue-grey microscopic field with one cropped host seta as substrate; only the seta may extend off frame. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "0df61ce90bd3425cf9587ae7bc11998a71ac2debd422b124647ac4770606b442",
+      "runtimeSha256": "9b933cdc5a43dccd2933946f38d3b08f156b28a4a0b7b46461f3fa0041ad48f9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Symbion pandora. Observation Pandora 幼体: separate vignettes of sessile feeding adult on seta and a free compact ovoid ciliated Pandora larva, NO feeding funnel or long stalk on larva. General anatomy: One whole sessile FEEDING individual, oval sac-like trunk, anterior wide funnel with circular rim of fine cilia, short posterior stalk ending in an adhesive disc on ONE fine brown lobster mouthpart seta. No hydra tentacles, no eyes, no arthropod legs. Clearly show organism and adhesive disc at microscopic scale.. Setting quiet blue-grey microscopic field with one cropped host seta as substrate; only the seta may extend off frame. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "a7dbe465824ec51e4f66ccc053a94696fa50f51992136683965250cf8a39dd9c",
+      "runtimeSha256": "232a1bf2270356c7bb9bb2f3f5258952fce85cb40018d5174052aff072d9312e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Symbion pandora. Observation 一根刚毛上的取食个体: several tiny sessile feeding individuals attached along one lobster mouthpart seta, each oval trunk, short stalk, ciliated funnel. General anatomy: One whole sessile FEEDING individual, oval sac-like trunk, anterior wide funnel with circular rim of fine cilia, short posterior stalk ending in an adhesive disc on ONE fine brown lobster mouthpart seta. No hydra tentacles, no eyes, no arthropod legs. Clearly show organism and adhesive disc at microscopic scale.. Setting quiet blue-grey microscopic field with one cropped host seta as substrate; only the seta may extend off frame. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "a86baee8b30a085f8b6676449bd20b7c0a59927e870776f66adc83ba90ad001e",
+      "runtimeSha256": "57d16a08894dd52e12cecd02da0a4d36d93046c13db9109b1cd994f50093d699",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
