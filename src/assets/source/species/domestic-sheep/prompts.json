@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-13",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas cover composition. Keep the same animal, its anatomical proportions, coat color and markings, pose, naturalistic lighting and habitat. Recompose the complete animal so ALL extremities including tail, whiskers and ears are inside x=670..1450 and y=130..910 of the 1536x1024 landscape canvas. The entire LEFT 40 percent must be empty quiet habitat background with absolutely no part of the animal. Adjust whole animal scale only enough to fit that rectangle, maximize within it. Leave visible background on all sides. Do not cut off any tail or ears. No text or collage.",
+      "originalPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas species hero cover. One naturalistic landscape 1536x1024 image. Subject: Ovis aries adult hornless ewe with white wool fleece, narrow muzzle, horizontal pupils, slender legs ending in cloven hooves, short tail. Scene: green farm meadow, natural daylight. One complete adult animal in clear side or three-quarter standing pose on RIGHT side, its complete silhouette confined within x=640..1450 y=120..910, center around 70% width. Maximize visible animal within those margins. Left 40% quiet background. Show full ears, muzzle, whiskers, every visible hoof or paw, tail tip, wool or mane with real background around edges. Anatomically faithful, realistic textures. No people, tack, collars, text, logos, watermark, collage or other animals.",
+      "sourceSha256": "d9bcf5bb11f13676489c12a73b88d73faf037e89b7dfae93a881f55cec1acefe",
+      "runtimeSha256": "2be46f4c02334b141e0a5076f0d3067d4bad0408bc9f85ea3df409bb0d34d41d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Ovis aries white hornless ewe with wool fleece, narrow muzzle, cloven hooves, short downward tail. Scene: close view of natural curled white sheep wool on side of ewe, visible texture, no hands or tools. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "bc029154d7c612803639bbbdbe00a9317997bd80714d74f97a24d5a5ab328576",
+      "runtimeSha256": "2f5254a8652d048e29b7e7a76547353fe0e4ce0614e1c9e25ab9589ad733bd46",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Ovis aries white hornless ewe with wool fleece, narrow muzzle, cloven hooves, short downward tail. Scene: adult white hornless ewe eating grass, full body visible. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "5c43db465e0d603af01703df5b931d925162aead2285ed7f777141bc3a925cfa",
+      "runtimeSha256": "e0b78e7c645a723d8157e241b55c7b0b222eebf7a9835294120072077142de02",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Ovis aries white hornless ewe with wool fleece, narrow muzzle, cloven hooves, short downward tail. Scene: small flock of three white hornless sheep in quiet meadow, distinct anatomically correct bodies. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "9d3fb73c04535c6bdfde417fdfe563c1ddc66b1ba90613e09b227147d58e7a5f",
+      "runtimeSha256": "4f8c629bda044ebd1cabb79bd054d132155ccb5764048fc6b8cb635ac96f521f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Ovis aries white hornless ewe with wool fleece, narrow muzzle, cloven hooves, short downward tail. Scene: adult white ewe standing beside one small white lamb, both complete bodies. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "a94ba9e296d962782683f7397f02ae52d86754467fbb8692d4c0c576d1034303",
+      "runtimeSha256": "897754e47edeba74956af48b619f70cf1f1e19adbd1c4030a5f0066c4e466ca9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Ovis aries white hornless ewe with wool fleece, narrow muzzle, cloven hooves, short downward tail. Scene: side view of one white hornless ewe, hanging ears, fleece, short downward tail and cloven hooves, no goat beard. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "a117b7032df07c2d2da07da74509c8f31695610b654f65e0b2619e868c371e3f",
+      "runtimeSha256": "3f44b834a4f2882d2eb343b3a76f713e84282354483b5ee110bca62fffc92045",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
