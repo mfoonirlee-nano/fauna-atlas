@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific-educational species cover, landscape 1536x1024 detailed scientific illustration. Species Adineta vaga. One whole microscopic creeping bdelloid rotifer: soft transparent elongate telescoping unarmored body, broad flat head with rostral lamella, VENTRAL flat ciliary field and tiny paired rakes near mouth; narrow segmented telescoping posterior foot with tiny spurs and three short toes. NO twin circular wheel corona, no Brachionus lorica, no jointed legs.. Environment freshwater moss detritus microscopy field, subdued warm translucent artificial colors. Whole subject at right around 73% width, ALL anatomical features visible with background margins, quiet empty left 40%, x=700..1450 y=100..920. No text, labels, arrows, frame or watermark. Artificial-color reconstruction, not actual photograph.",
+      "sourceSha256": "691da17fb47ab63c572ea349949857dae8c0ba0b38ddfdc5ec2b89c0e391b22e",
+      "runtimeSha256": "b8d33e63b4b67bf5297cce8bdaeb8d87ab4d96586a0a5283cf37bda3d25a6bf5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Adineta vaga. Observation 柔软的全身: one entire creeping Adineta with unarmored telescoping trunk, flat head and narrow foot, no circular wheels. General anatomy: One whole microscopic creeping bdelloid rotifer: soft transparent elongate telescoping unarmored body, broad flat head with rostral lamella, VENTRAL flat ciliary field and tiny paired rakes near mouth; narrow segmented telescoping posterior foot with tiny spurs and three short toes. NO twin circular wheel corona, no Brachionus lorica, no jointed legs.. Setting freshwater moss detritus microscopy field, subdued warm translucent artificial colors. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "b894798e932ff365074494739bc0354e61bb6ca5b9883971e9cbb62203e642e7",
+      "runtimeSha256": "3877239d45dc259ff17f30e338eef5e6edbd68a1eeddc4a85e8102471d6110d8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Adineta vaga. Observation 腹面纤毛区: ventral head close-up of flat ciliary carpet and rostral lamella, fine rake structures near mouth, NO two circular wheel discs. General anatomy: One whole microscopic creeping bdelloid rotifer: soft transparent elongate telescoping unarmored body, broad flat head with rostral lamella, VENTRAL flat ciliary field and tiny paired rakes near mouth; narrow segmented telescoping posterior foot with tiny spurs and three short toes. NO twin circular wheel corona, no Brachionus lorica, no jointed legs.. Setting freshwater moss detritus microscopy field, subdued warm translucent artificial colors. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "3ef32411089e735fd5dfd738edb5dc682b2668f68d3d590a8a0dedd56bef2a60",
+      "runtimeSha256": "100fedf285d52d4d59ecb06f7a37e52f9e50e57c3a1a99662b7235679a4fa0d4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Adineta vaga. Observation 伸长与收缩: two separated complete silhouettes, long extended body and shorter contracted body, still no lorica or wheel crowns. General anatomy: One whole microscopic creeping bdelloid rotifer: soft transparent elongate telescoping unarmored body, broad flat head with rostral lamella, VENTRAL flat ciliary field and tiny paired rakes near mouth; narrow segmented telescoping posterior foot with tiny spurs and three short toes. NO twin circular wheel corona, no Brachionus lorica, no jointed legs.. Setting freshwater moss detritus microscopy field, subdued warm translucent artificial colors. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "fc3ced8b606e4f4a4cd275218719dec5e4cada2f8c8f8bcc0f7237237426ebcb",
+      "runtimeSha256": "7f7c42641e23629ae944e453a42072e76d0688181700d05f183e15d9160aa529",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Adineta vaga. Observation 后端小足与趾: close-up of telescoping narrow foot with short spurs and three tiny toes, no huge suction cups. General anatomy: One whole microscopic creeping bdelloid rotifer: soft transparent elongate telescoping unarmored body, broad flat head with rostral lamella, VENTRAL flat ciliary field and tiny paired rakes near mouth; narrow segmented telescoping posterior foot with tiny spurs and three short toes. NO twin circular wheel corona, no Brachionus lorica, no jointed legs.. Setting freshwater moss detritus microscopy field, subdued warm translucent artificial colors. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "e42e37a57ed59df28017680574016aa1cc9e414144faa4e7b8acb24524d21e3c",
+      "runtimeSha256": "24587b98138cb33b42828b2c652bb0cee6fe1502ff94dc6c5c6cdd3770d09381",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Adineta vaga. Observation 苔藓水膜: one whole Adineta creeping across submerged moss tissue and thin water film, microscope field. General anatomy: One whole microscopic creeping bdelloid rotifer: soft transparent elongate telescoping unarmored body, broad flat head with rostral lamella, VENTRAL flat ciliary field and tiny paired rakes near mouth; narrow segmented telescoping posterior foot with tiny spurs and three short toes. NO twin circular wheel corona, no Brachionus lorica, no jointed legs.. Setting freshwater moss detritus microscopy field, subdued warm translucent artificial colors. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "4d5cd28fbae8698ebfc5cc0596e175bf2117991877010d19e620c3a2bacdeb6e",
+      "runtimeSha256": "984cd5e493517f21cf447b2ed84087a9c14c2a746f9560ee544050f6f2b8e85c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
