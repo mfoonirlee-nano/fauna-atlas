@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Edit this Gorgonocephalus caputmedusae scientific cover. Correct the central-disk body plan to EXACTLY FIVE primary arm bases around the disk, evenly distributed. Each of these five primary arms repeatedly bifurcates into many fine curled branches. Remove the sixth primary arm; do not add extra primary arm bases. Preserve natural texture, pale tan color and underwater rocks. Recompose the WHOLE basket star on the right: every fine terminal curl entirely inside x 680..1460 y 60..950 on a 1536x1024 source. Keep the left 40% quiet background. Complete disk, all five arms and all fine tips visible with true background margin. No text, border or watermark.",
+      "sourceSha256": "c3584a866042ab65815ab50a0ac8e8c682998c3114138c239de8bae3878b6684",
+      "runtimeSha256": "68200ad0e3474e7d73904f95a9bfb1996f89d060b4deb0514693a7b253e02bea",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Gorgonocephalus caputmedusae. Morphology: One whole pale tan basket star with central rounded disk and FIVE primary arms that repeatedly branch dichotomously into many fine curled twigs. Many branches radiate and coil, all terminal tips visible. Not a five-point solid starfish, no coral base or stalk. Environment: cool dark marine rocky seabed. Gallery: one primary arm splitting repeatedly into curled branches, close-up. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "a3af968757abf99eb18afa5a7cfbb0cbfd5dafc26f1881e113ba3e3d2b6992f9",
+      "runtimeSha256": "f43043a361c1d3d69f43c3c40e9cacc49552342332df08ea09d2994bfa5bc54f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Gorgonocephalus caputmedusae. Morphology: One whole pale tan basket star with central rounded disk and FIVE primary arms that repeatedly branch dichotomously into many fine curled twigs. Many branches radiate and coil, all terminal tips visible. Not a five-point solid starfish, no coral base or stalk. Environment: cool dark marine rocky seabed. Gallery: central disk and bases of the five arms close-up. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "a8b7e6b64d758b6d57590cf2fb18a2b16261466ba2738f4b22fccb88630d9926",
+      "runtimeSha256": "04c0d200f384872d334e454956b9c680a48b3e158ff77289fbc7a9c6622cec4f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Gorgonocephalus caputmedusae. Morphology: One whole pale tan basket star with central rounded disk and FIVE primary arms that repeatedly branch dichotomously into many fine curled twigs. Many branches radiate and coil, all terminal tips visible. Not a five-point solid starfish, no coral base or stalk. Environment: cool dark marine rocky seabed. Gallery: whole animal with arms partly curled, all twigs complete. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "cfb7a60973e595ee16a8a938f19cdb18591f0e9e684575d9925ab776bdb041aa",
+      "runtimeSha256": "2339d5833a83d7c4c53a71ac0cdb5681783d8b5dccbadbb281ddac79d60fdcf6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Gorgonocephalus caputmedusae. Morphology: One whole pale tan basket star with central rounded disk and FIVE primary arms that repeatedly branch dichotomously into many fine curled twigs. Many branches radiate and coil, all terminal tips visible. Not a five-point solid starfish, no coral base or stalk. Environment: cool dark marine rocky seabed. Gallery: fine terminal branches with nearby tiny plankton crustacean, nonviolent feeding relation. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "07e542412b6126155accc51243b8dd26feb7ec185145f40cd68f027c13b1e412",
+      "runtimeSha256": "9eb7ba5b702d2466b40d5c9c542e4584277836a7ee02031cec2851ef242eb2f0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Gorgonocephalus caputmedusae. Morphology: One whole pale tan basket star with central rounded disk and FIVE primary arms that repeatedly branch dichotomously into many fine curled twigs. Many branches radiate and coil, all terminal tips visible. Not a five-point solid starfish, no coral base or stalk. Environment: cool dark marine rocky seabed. Gallery: whole adult on rough seabed with raised branched arms, no coral mistaken for body. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "9d3eb87c6be1839e4e8e7daf8792d932865c31f185513bcbb9c2b7c636d92a90",
+      "runtimeSha256": "3add0e8868cc68c4091bd772d71a6e6dbe1502cc9a7a3b0f000aba8888ded706",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
