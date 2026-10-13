@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Beroe ovata: transparent flattened oval sac, broad mouth, eight longitudinal fine iridescent comb rows and branching internal canals, no tentacles, no jellyfish umbrella. Habitat: blue coastal water. Cover: one complete animal or complete connected colony, large clear subject entirely within right half, center x 73% of source width, quiet left 40% background. All tentacles, branches and root structures visible, real background margin to every edge. Landscape 1536x1024. No text.",
+      "sourceSha256": "621a38b01c430a08b69dc30d81e1d90a8ddb2f1fc2ec9e77b61612f225029827",
+      "runtimeSha256": "5287936b9f9c764818858a397c913b6d2233b8915346026c891b232f69f651f3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Beroe ovata: transparent flattened oval sac, broad mouth, eight longitudinal fine iridescent comb rows and branching internal canals, no tentacles, no jellyfish umbrella. Habitat: blue coastal water. Scene: oval transparent whole body oblique view. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "690311beee8b93dd031c9c168b707fe67a807ff568890ac5d9ceb6edc424cfe7",
+      "runtimeSha256": "a97bd56f65f64e31d7a4161c90cf8d1dd44adcc78291d0f9059453c1fa0a95ea",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Beroe ovata: transparent flattened oval sac, broad mouth, eight longitudinal fine iridescent comb rows and branching internal canals, no tentacles, no jellyfish umbrella. Habitat: blue coastal water. Scene: magnified row of ciliary comb plates, structural reconstruction. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "c553da2062dab83c059889570251ada5a3230321b75ec980e7587e70fb4d6cb9",
+      "runtimeSha256": "3193557b91ca62d036b3a568cf693501418bae5d2f61e56d201fea3f0bec2a89",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Beroe ovata: transparent flattened oval sac, broad mouth, eight longitudinal fine iridescent comb rows and branching internal canals, no tentacles, no jellyfish umbrella. Habitat: blue coastal water. Scene: wide oral end front view, no teeth or tentacles. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "59a42cb77846d64da930764db326b13d30e23b4c5a99b18a7f910d33fac977a8",
+      "runtimeSha256": "b722043fa3366918092b4b4f38d2583aec3c06da974befb04ff48c37d6ac244f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Beroe ovata: transparent flattened oval sac, broad mouth, eight longitudinal fine iridescent comb rows and branching internal canals, no tentacles, no jellyfish umbrella. Habitat: blue coastal water. Scene: whole Beroe with separate small lobate Mnemiopsis prey. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "5c264459dca39ccf157f1dbd1a6ce1fdcd9483b94961a4deff1adf8beea3f9f7",
+      "runtimeSha256": "943cbc0e75fbeb9816cdeaecdbf18ad93fcc3827aa66a59a14c2bc0c2ffac28a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Beroe ovata: transparent flattened oval sac, broad mouth, eight longitudinal fine iridescent comb rows and branching internal canals, no tentacles, no jellyfish umbrella. Habitat: blue coastal water. Scene: smaller juvenile and larger adult, both oval and tentacle-free, life stages. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "d6d8a4ec53329b3c9aa9be89a42880853c75c215802d20e3c83502c4fda8d4a3",
+      "runtimeSha256": "ee114dfce3385420437d9957818e350ff62dc7f8f4c2bd28c30f2143f4655611",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
