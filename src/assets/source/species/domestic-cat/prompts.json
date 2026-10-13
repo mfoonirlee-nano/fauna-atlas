@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-13",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas cover composition. Keep the same animal, its anatomical proportions, coat color and markings, pose, naturalistic lighting and habitat. Recompose the complete animal so ALL extremities including tail, whiskers and ears are inside x=670..1450 and y=130..910 of the 1536x1024 landscape canvas. The entire LEFT 40 percent must be empty quiet habitat background with absolutely no part of the animal. Adjust whole animal scale only enough to fit that rectangle, maximize within it. Leave visible background on all sides. Do not cut off any tail or ears. No text or collage.",
+      "originalPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas species hero cover. One naturalistic landscape 1536x1024 image. Subject: Felis catus domestic shorthaired ginger tabby cat, triangular ears, long intact tail, whiskers, four paws. Scene: quiet enclosed home garden, natural daylight. One complete adult animal in clear side or three-quarter standing pose on RIGHT side, its complete silhouette confined within x=640..1450 y=120..910, center around 70% width. Maximize visible animal within those margins. Left 40% quiet background. Show full ears, muzzle, whiskers, every visible hoof or paw, tail tip, wool or mane with real background around edges. Anatomically faithful, realistic textures. No people, tack, collars, text, logos, watermark, collage or other animals.",
+      "sourceSha256": "ac723cc74a95abf2c440ba563655f382200c627fa15e1a2541a8171a6acdc02d",
+      "runtimeSha256": "fa7b883c55a95883ae03b0d837cb9ab07edc068a442b036e429a57c41287b55b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Felis catus ginger tabby domestic shorthaired cat, triangular ears, intact tail, whiskers, four paws. Scene: close natural portrait with complete whiskers, ears and eyes visible. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "ab29b9828de0d8a58d88573502af17e11d3570f88992f1da837b54b530dfa65e",
+      "runtimeSha256": "8c890bcaf7add388cfddaf33518ecd7bdb1ae06817e5e814944da41b817d6292",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Felis catus ginger tabby domestic shorthaired cat, triangular ears, intact tail, whiskers, four paws. Scene: side view scratching a sisal scratch post, clearly show one extended forepaw and natural claws, no extra toes. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "302049d12a228c9f36d68c74e7e389edc858d563d7700dfcadcf47fd51ad3452",
+      "runtimeSha256": "3f8e8a2e3d23214e878dcd0165c3efbadf26ba043a50e5c38798a07c138a5da8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Felis catus ginger tabby domestic shorthaired cat, triangular ears, intact tail, whiskers, four paws. Scene: adult mother resting beside two alert six-week-old kittens on a clean blanket indoors. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "35e87acbb88d9eba8c1b5c84cf7c311b5c13301c7215e292ec67cded370412ca",
+      "runtimeSha256": "70b9058768b1a33eb3ebcf35b6bc215b8507cfe903851a81275b6f175dfb3a4f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Felis catus ginger tabby domestic shorthaired cat, triangular ears, intact tail, whiskers, four paws. Scene: ginger tabby walking across a quiet indoor room, show complete tail and paws. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "37a144cb9f04ff9a3f6f9264606f4d309665be5ccc174286292272a26b601440",
+      "runtimeSha256": "701ad8cd9417e2b0b5bb420db594dfebead2f124d9e515ff9ae29faf03080e8a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Felis catus ginger tabby domestic shorthaired cat, triangular ears, intact tail, whiskers, four paws. Scene: adult tabby curled sleeping on a cushioned window perch, relaxed pose. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "b0c302ce15f49bc23a56925661212b772b6259311e9208264534d7b213494278",
+      "runtimeSha256": "576930ba550c474a91226259d83ed24746059f6aa6acd4916302e2d1059160a7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
