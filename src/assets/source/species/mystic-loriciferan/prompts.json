@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Correct this Nanaloricus mysticus ADULT FEMALE microscope reconstruction: REMOVE ALL long toe-like appendages below the lorica. Those toes belong to Higgins larvae and must not appear on this adult. Bottom of adult lorica should be a compact closed rounded posterior end with only a TINY anal cone, no long tail, roots, walking legs, toes or tentacles. Preserve vase-shaped six-plate lorica with honeycomb texture, narrow neck, everted introvert, fine radial head scalids and central mouth cone. Entire adult subject centered right of 60% with real background clearance at all edges and quiet left 40%. No text, no labels.",
+      "sourceSha256": "f215ef988296aa273d4a13f6f60092710f8597e13932ac452ec5c6a8f716945f",
+      "runtimeSha256": "76c5e42f63a9aabfa416e1e7c4d31350f1b3caa61ca55d541c062136986b54e7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Edit this ADULT FEMALE Nanaloricus mysticus structure observation. Preserve main lorica plates and honeycomb texture, everted head, mouth cone, fine scalids, shell grains and separate magnification panels. REMOVE all tiny long toe/leg-like appendages below the main lorica. Adult posterior should be closed rounded end with a very tiny anal cone only, no larval toes. Keep microscopic artificial color reconstruction, no text.",
+      "sourceSha256": "9efa23a801e8104d2e8a74b2c32997023c5a25b88f1973ac9c854108c2115c2d",
+      "runtimeSha256": "998f4bb197676b7689174c1027a394e518d3fa09a13c75d58e21bf54583a848b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Nanaloricus mysticus. Morphology: One whole adult FEMALE loriciferan in artificial-color SEM-like reconstruction: compact vase-shaped lorica armored by six cuticular plates with honeycomb texture, narrow neck, everted round introvert with radial rows of fine scalids, slender central mouth cone, complete fine head spines. No jointed walking legs, insect antennae, wings, beetle head or larval toes. Environment: shelly sand-grain interstice, muted blue-grey microscopic background. Gallery: everted head introvert with fine scalids and central mouth cone in close-up. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "e85cc41c2cf899578fd3e1b2ee0d7f92fe4d272085ffa319754c510b0dfb443d",
+      "runtimeSha256": "5b16672be393a0ed9a441a3d7f3938630c702371ea505518d6c5bb4886d9e4b4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Edit this Nanaloricus mysticus ADULT observation into a FULLY RETRACTED HEAD posture. Preserve the six-plate honeycomb lorica, whole body and surrounding shell sand. Remove all visible projecting head scalids and central oral cone: tuck the introvert and mouth cone inside the neck and lorica, leaving a compact closed anterior opening above the armored lorica with low folded neck tissue. No external crown of spines, no tall mouth cone, no legs or posterior toes. Complete adult visible, scientifically plausible microscopy reconstruction, no text.",
+      "sourceSha256": "fd75f38859567e8acf66672b58244dc1115dfd4d5532ec03555846a5a2028964",
+      "runtimeSha256": "b15fb2275bbf3a0213c3935ddf67d1da326a53eeefe0e725e1ef9588430a5451",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Nanaloricus mysticus. Morphology: One whole adult FEMALE loriciferan in artificial-color SEM-like reconstruction: compact vase-shaped lorica armored by six cuticular plates with honeycomb texture, narrow neck, everted round introvert with radial rows of fine scalids, slender central mouth cone, complete fine head spines. No jointed walking legs, insect antennae, wings, beetle head or larval toes. Environment: shelly sand-grain interstice, muted blue-grey microscopic background. Gallery: adult female and separate Higgins larva with posterior toes, distinct stages and scales, no beetle larvae. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "749f04c4416efbf503e5793ed1efffc95c23990bcb13ef138390d29301e0116e",
+      "runtimeSha256": "a6c51963ebad0a7e92b32143497462ef4317f79a1fc4fbb17e4174daff587a14",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Nanaloricus mysticus. Morphology: One whole adult FEMALE loriciferan in artificial-color SEM-like reconstruction: compact vase-shaped lorica armored by six cuticular plates with honeycomb texture, narrow neck, everted round introvert with radial rows of fine scalids, slender central mouth cone, complete fine head spines. No jointed walking legs, insect antennae, wings, beetle head or larval toes. Environment: shelly sand-grain interstice, muted blue-grey microscopic background. Gallery: whole adult female nestled between shell sand fragments, microscopic scale. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "50d52512783dd4e483c74e9ba964f0592a449e70e21e4a2deb69929dc41544c8",
+      "runtimeSha256": "2c0a6b6882ed4e8e033efd07a710fe0e10ff36a9be3d0557c1a559266ed2a26b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
