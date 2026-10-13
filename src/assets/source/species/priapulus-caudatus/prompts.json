@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Use case: scientific-educational. Fauna Atlas canonical species cover. Landscape 1536x1024. Restrained detailed natural scientific illustration, not a photographic claim. Species Priapulus caudatus. Anatomy: A whole pink-brown unsegmented cylindrical adult with transverse annulations, everted blunt spiny introvert at anterior bearing fine longitudinal rows of scalids, and ONE posterior tuft-like caudal appendage with a short central stalk and multiple fleshy fingerlike tubes, no jointed legs, no feather plume.. Environment: quiet subtidal muddy seafloor, cutaway presentation reveals complete body without dissection. Composition: complete subject centered around 72% source width, full outer boundary within x=700..1450 and y=100..900, quiet low-contrast left 40% for website copy, maximize subject within those margins, background clearance around ALL features. No text, labels, arrows, scales, watermark, panels or frame.",
+      "sourceSha256": "1bcdf9942783b92413977473a85f886827dadf01a602475a7d35a5518525e4bf",
+      "runtimeSha256": "19bfa6ce7039ce6a7ec308009d1bc9f498c0d758a4bf96fbac6873208b00a699",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Use case scientific-educational. Fauna Atlas gallery observation: 翻出的吻部. Landscape 1536x1024. Species Priapulus caudatus. General morphology A whole pink-brown unsegmented cylindrical adult with transverse annulations, everted blunt spiny introvert at anterior bearing fine longitudinal rows of scalids, and ONE posterior tuft-like caudal appendage with a short central stalk and multiple fleshy fingerlike tubes, no jointed legs, no feather plume.. Environment quiet subtidal muddy seafloor, cutaway presentation reveals complete body without dissection. Requested scene: everted anterior introvert with fine scalids in longitudinal rows, whole trunk and tail tuft smaller in background. Restrained detailed scientific illustration with plausible anatomy, artificial microscopic coloration, conceptual magnification not measured scale. Complete relevant structures have generous margins. No text, letters, numeric scales, labels, arrows, watermark or decorative frame.",
+      "sourceSha256": "34f09d33b7a039f135b21af4b32b9f2285d80ea1bca110d934f54923f5cde69a",
+      "runtimeSha256": "7285a157f5c7bb473a9dbdecd0f251a87298a5c5f2b2e9d016d4670d7bb70dd9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Use case scientific-educational. Fauna Atlas gallery observation: 后端的指状附肢. Landscape 1536x1024. Species Priapulus caudatus. General anatomy A whole pink-brown unsegmented cylindrical adult with transverse annulations, everted blunt spiny introvert at anterior bearing fine longitudinal rows of scalids, and ONE posterior tuft-like caudal appendage with a short central stalk and multiple fleshy fingerlike tubes, no jointed legs, no feather plume.. Environment quiet subtidal muddy seafloor, cutaway presentation reveals complete body without dissection. Specific observation requested: posterior tuft with central hollow stalk and many short fleshy fingerlike tubes; anterior end out of close-up. Prioritize this requested stage or view over general adult anatomy when they differ. Scientific natural illustration, plausible accurate anatomy, restrained artificial microscopic colors, conceptual magnification not measured scale. All relevant features visible with generous margins. No text, numbers, labels, arrows, watermark or decorative frame. Tentacles always taper smoothly WITHOUT terminal bulbs.",
+      "sourceSha256": "31e5e9f3a3d4efde60389e54778a930d9a8a74111b8a2bdd0b7bb2d848630e6d",
+      "runtimeSha256": "09d307970900d8c24e69441ded605e01faf274993f3d4b2b91802951027a63f5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Use case scientific-educational. Fauna Atlas gallery observation: 缩回吻部. Landscape 1536x1024. Species Priapulus caudatus. General anatomy A whole pink-brown unsegmented cylindrical adult with transverse annulations, everted blunt spiny introvert at anterior bearing fine longitudinal rows of scalids, and ONE posterior tuft-like caudal appendage with a short central stalk and multiple fleshy fingerlike tubes, no jointed legs, no feather plume.. Environment quiet subtidal muddy seafloor, cutaway presentation reveals complete body without dissection. Specific observation requested: one whole adult with introvert fully withdrawn inside trunk, blunt anterior opening, retain posterior tuft. Prioritize this requested stage or view over general adult anatomy when they differ. Scientific natural illustration, plausible accurate anatomy, restrained artificial microscopic colors, conceptual magnification not measured scale. All relevant features visible with generous margins. No text, numbers, labels, arrows, watermark or decorative frame. Tentacles always taper smoothly WITHOUT terminal bulbs.",
+      "sourceSha256": "a48a3458adb2ab6a07cd6cf0b7ae7dff407db1a824e196960e296e0843ed756b",
+      "runtimeSha256": "0bf89cc793994eee0e7fc91bb7e2825414176e98f36596e154903ee2b90a4d4f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Use case scientific-educational. Fauna Atlas gallery observation: 软泥中的身体. Landscape 1536x1024. Species Priapulus caudatus. General anatomy A whole pink-brown unsegmented cylindrical adult with transverse annulations, everted blunt spiny introvert at anterior bearing fine longitudinal rows of scalids, and ONE posterior tuft-like caudal appendage with a short central stalk and multiple fleshy fingerlike tubes, no jointed legs, no feather plume.. Environment quiet subtidal muddy seafloor, cutaway presentation reveals complete body without dissection. Specific observation requested: conceptual transparent sediment cross-section shows whole adult burrowing horizontally, no dissection. Prioritize this requested stage or view over general adult anatomy when they differ. Scientific natural illustration, plausible accurate anatomy, restrained artificial microscopic colors, conceptual magnification not measured scale. All relevant features visible with generous margins. No text, numbers, labels, arrows, watermark or decorative frame. Tentacles always taper smoothly WITHOUT terminal bulbs.",
+      "sourceSha256": "dd7823229b6e178aed6cfceedb732686f8e91e2c9059abd61ec47df9ac3022d1",
+      "runtimeSha256": "779d100f4b25c34dd625d3f1b9d918c070fef0ad60e630c9fa36418ff92d0889",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Priapulus caudatus. Observation 幼体与成体: two separate vignettes: simple hatching larva with few scalids and small sensory tubuli, adult with caudal tuft; not equal scale. General anatomy: A whole pink-brown unsegmented cylindrical adult with transverse annulations, everted blunt spiny introvert at anterior bearing fine longitudinal rows of scalids, and ONE posterior tuft-like caudal appendage with a short central stalk and multiple fleshy fingerlike tubes, no jointed legs, no feather plume.. Setting quiet subtidal muddy seafloor, cutaway presentation reveals complete body without dissection. Prioritize requested stage/view over adult defaults. Accurate plausible morphology. Artificial microscope colors and conceptual magnifications, not measured scale. Entire relevant subject with background margins, no text, letters, labels, arrows, watermark. Tentacles taper without end bulbs.",
+      "sourceSha256": "fdf982b0360e2e0b05086d3b070851b5c98635ae156f11e0f95dc8c4df1a971d",
+      "runtimeSha256": "88449d4fa87a8d20c62d1aa9ad6f11f130ef76305ae8d64a26071dedf04ba852",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
