@@ -6002,4 +6002,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 936
   }
 },
+  "domestic-cat": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 665,
+    "top": 190,
+    "right": 1430,
+    "bottom": 795
+  }
+},
+  "domestic-horse": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 650,
+    "top": 110,
+    "right": 1415,
+    "bottom": 915
+  }
+},
+  "domestic-donkey": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 685,
+    "top": 120,
+    "right": 1455,
+    "bottom": 915
+  }
+},
+  "domestic-cattle": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 650,
+    "top": 165,
+    "right": 1480,
+    "bottom": 850
+  }
+},
+  "domestic-sheep": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 675,
+    "top": 140,
+    "right": 1405,
+    "bottom": 900
+  }
+},
 };

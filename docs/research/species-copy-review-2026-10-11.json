@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "600 animal species profiles; 560 historical baseline reviews and 40 additions through 2026-10-13; microbial topics excluded",
+  "scope": "605 animal species profiles; 560 historical baseline reviews and 45 additions through 2026-10-13; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 40,
+    "addedProfiles": 45,
     "addedProfilesReviewDate": "2026-10-13",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -28091,6 +28091,211 @@
           ]
         }
       }
+    },
+    {
+      "slug": "domestic-cat",
+      "name": "家猫",
+      "scientificName": "Felis catus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Felis_catus/",
+            "https://www.cats.org.uk/cats-blog/why-do-cats-have-whiskers"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Felis_catus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Felis_catus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2435035",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5612713/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2435035"
+          ]
+        }
+      },
+      "notes": [
+        "家养范围；品种不另计物种；保护状态不套用野生祖先。"
+      ]
+    },
+    {
+      "slug": "domestic-horse",
+      "name": "家马",
+      "scientificName": "Equus caballus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Equus_caballus/",
+            "https://extension.umn.edu/agriculture/animals-and-livestock/horse/ten-things-you-should-know-about-feeding-the-mature-horse"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Equus_caballus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Equus_caballus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440886"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440886"
+          ]
+        }
+      },
+      "notes": [
+        "家养范围；品种不另计物种；保护状态不套用野生祖先。"
+      ]
+    },
+    {
+      "slug": "domestic-donkey",
+      "name": "家驴",
+      "scientificName": "Equus asinus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Equus_asinus/",
+            "https://www.aspcapro.org/sites/default/files/donkey-care-handbook-5th-edition.pdf"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Equus_asinus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Equus_asinus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440891"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440891"
+          ]
+        }
+      },
+      "notes": [
+        "家养范围；品种不另计物种；保护状态不套用野生祖先。"
+      ]
+    },
+    {
+      "slug": "domestic-cattle",
+      "name": "家牛",
+      "scientificName": "Bos taurus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Bos_taurus/",
+            "https://extension.umn.edu/agriculture/animals-and-livestock/dairy/the-ruminant-digestive-system"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Bos_taurus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Bos_taurus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441022"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441022"
+          ]
+        }
+      },
+      "notes": [
+        "家养范围；品种不另计物种；保护状态不套用野生祖先。"
+      ]
+    },
+    {
+      "slug": "domestic-sheep",
+      "name": "绵羊",
+      "scientificName": "Ovis aries",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Ovis_aries/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Ovis_aries/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Ovis_aries/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441110"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441110"
+          ]
+        }
+      },
+      "notes": [
+        "家养范围；品种不另计物种；保护状态不套用野生祖先。"
+      ]
     }
   ],
   "updatedAt": "2026-10-13"

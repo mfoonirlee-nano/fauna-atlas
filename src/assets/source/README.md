@@ -866,3 +866,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [水生铁线虫 image set](./species/aquatic-horsehair-worm/README.md)
 - [曼氏血吸虫 image set](./species/manson-blood-fluke/README.md)
 - [蛭态轮虫 image set](./species/wandering-bdelloid/README.md)
+
+- [家猫 image set](./species/domestic-cat/README.md)
+- [家马 image set](./species/domestic-horse/README.md)
+- [家驴 image set](./species/domestic-donkey/README.md)
+- [家牛 image set](./species/domestic-cattle/README.md)
+- [绵羊 image set](./species/domestic-sheep/README.md)

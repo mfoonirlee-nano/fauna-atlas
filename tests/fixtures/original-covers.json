@@ -5146,5 +5146,70 @@
       },
       "sha256": "b060d8a06ff244a9391b5307893899684710a96a1604e661c07e9dbcf34beb38"
     }
+  },
+  "domestic-cat": {
+    "cover": {
+      "sha256": "fa7b883c55a95883ae03b0d837cb9ab07edc068a442b036e429a57c41287b55b",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 190,
+        "right": 1430,
+        "bottom": 795
+      }
+    }
+  },
+  "domestic-horse": {
+    "cover": {
+      "sha256": "ccd9391d891374508a35b22b943986880094b72c0116172c9762f1802aeda9ac",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 110,
+        "right": 1415,
+        "bottom": 915
+      }
+    }
+  },
+  "domestic-donkey": {
+    "cover": {
+      "sha256": "019fafaf64fd09b4b86f7f44a7836a71eee175973b5573b48d72d34f91b2deeb",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 120,
+        "right": 1455,
+        "bottom": 915
+      }
+    }
+  },
+  "domestic-cattle": {
+    "cover": {
+      "sha256": "3b5f064367d23119de9604c289c5c670ba2c69230a2e9aebf76a69e05f5aea92",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 165,
+        "right": 1480,
+        "bottom": 850
+      }
+    }
+  },
+  "domestic-sheep": {
+    "cover": {
+      "sha256": "2be46f4c02334b141e0a5076f0d3067d4bad0408bc9f85ea3df409bb0d34d41d",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 140,
+        "right": 1405,
+        "bottom": 900
+      }
+    }
   }
 }
