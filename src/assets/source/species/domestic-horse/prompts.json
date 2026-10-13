@@ -1,0 +1,91 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-13",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas cover composition. Keep the same animal, its anatomical proportions, coat color and markings, pose, naturalistic lighting and habitat. Recompose the complete animal so ALL extremities including tail, whiskers and ears are inside x=670..1450 and y=130..910 of the 1536x1024 landscape canvas. The entire LEFT 40 percent must be empty quiet habitat background with absolutely no part of the animal. Adjust whole animal scale only enough to fit that rectangle, maximize within it. Leave visible background on all sides. Do not cut off any tail or ears. No text or collage.",
+      "originalPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas species hero cover. One naturalistic landscape 1536x1024 image. Subject: Equus caballus bay domestic horse, black mane and long black tail, one undivided hoof per foot, erect ears. Scene: green farm paddock, natural daylight. One complete adult animal in clear side or three-quarter standing pose on RIGHT side, its complete silhouette confined within x=640..1450 y=120..910, center around 70% width. Maximize visible animal within those margins. Left 40% quiet background. Show full ears, muzzle, whiskers, every visible hoof or paw, tail tip, wool or mane with real background around edges. Anatomically faithful, realistic textures. No people, tack, collars, text, logos, watermark, collage or other animals.",
+      "sourceSha256": "a08776d702f9eaef786d1caaf49e8ff7aca377fc35e81e6d700f52b718eb77e5",
+      "runtimeSha256": "ccd9391d891374508a35b22b943986880094b72c0116172c9762f1802aeda9ac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus caballus bay domestic horse, black mane and long black tail, one undivided hoof per foot. Scene: close low side view of two lower legs and clean intact undivided hooves on firm grass, no horseshoes, no legs cut at joints. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "b2e6fd4b29d96d3bcf476bfd1f213219ff2992a7e2a5122c943e028af220eda4",
+      "runtimeSha256": "7ae9f91b75d7f23d0a645e3c3de6cd4d262fbe46a0a017305186a0f43df1e8cf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus caballus bay domestic horse, black mane and long black tail, one undivided hoof per foot. Scene: close head and neck portrait including complete ears and flowing black mane. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "148e89e33c41211326b12953040b157263fcd09a6913acee133b8235ff973a45",
+      "runtimeSha256": "feaa0e07e1cc13d9bfa47662835d084859aa071ba79f8a876628b8c135181574",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus caballus bay domestic horse, black mane and long black tail, one undivided hoof per foot. Scene: bay horse grazing with head lowered in green pasture, full animal. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "6492e63b2f467d55067fa4a6ff7d0f993b815fdbeb39c16774fb702f66173126",
+      "runtimeSha256": "f98ef122461c0624ed50ab9e5b2f59b78e5b76b1bf72a2da5ee6e1cc9ae8d28a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus caballus bay domestic horse, black mane and long black tail, one undivided hoof per foot. Scene: bay mare standing beside one young foal in a paddock, both complete and distinct. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "9de241192d0ba4009a13275ab34c70d9cf884e220f842e7bfef9fb4ebe151b95",
+      "runtimeSha256": "a2aec3dc2f9214964600a686c1f21c61714b28cc9777c71275492cd6455b7831",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas observation gallery. Generate one landscape 1536x1024 naturalistic scientific reconstruction. Subject anatomy: Equus caballus bay domestic horse, black mane and long black tail, one undivided hoof per foot. Scene: two relaxed horses standing side by side in quiet pasture, entire animals visible. Accurate mammal anatomy, realistic texture, soft natural daylight. Clear prominent observation subject with framing appropriate to scene. Preserve visible extremities with background clearance. No text, logo, watermark, collage, people, distress, tack, invented scale bars or extra limbs.",
+      "sourceSha256": "885caf9751c92f324f09e0208a6c9a263c11a83e919898ce208b95578c81bc0f",
+      "runtimeSha256": "3a3cae887779ce5096b83baeaac3b8465cad65917cdcc41ce386ed186fa35315",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
