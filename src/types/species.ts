@@ -39,8 +39,9 @@ export interface Taxon {
 export interface SpeciesTaxonomy {
   readonly kingdom: Taxon;
   readonly phylum: Taxon;
-  readonly class: Taxon;
-  readonly order: Taxon;
+  /** Omit a rank when the documented classification does not assign it. */
+  readonly class?: Taxon;
+  readonly order?: Taxon;
   readonly family: Taxon;
   readonly genus: Taxon;
 }

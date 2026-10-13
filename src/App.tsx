@@ -220,7 +220,7 @@ function BrandMark({ compact = false }: { compact?: boolean }) {
 }
 
 function TaxonArtwork({ item, index, large = false }: { item: SpeciesSummary; index: number; large?: boolean }) {
-  const Icon = classIcon(item.taxonomy.class.scientificName);
+  const Icon = classIcon(item.taxonomy.class?.scientificName ?? item.taxonomy.phylum.scientificName);
   const hasPhoto = Boolean(item.media.image);
   const tone = visualTones[index % visualTones.length];
 
@@ -494,7 +494,7 @@ function SpeciesCard({ item, index, saved, onOpen, onToggleSaved }: SpeciesCardP
         </div>
         <p className="species-card__summary">{item.summary}</p>
         <div className="species-card__meta">
-          <span>{formatClassName(item.taxonomy.class.zhName)}</span>
+          <span>{formatClassName(item.taxonomy.class?.zhName ?? item.taxonomy.phylum.zhName)}</span>
           <span>{item.habitats[0]?.name ?? item.distribution.regions[0]}</span>
         </div>
       </div>
@@ -1295,11 +1295,13 @@ function App() {
         groups.set(phylum.scientificName, group);
       }
       group.count += 1;
-      const entry = group.classes.get(taxonClass.scientificName);
-      group.classes.set(taxonClass.scientificName, {
-        name: taxonClass.zhName,
-        count: (entry?.count ?? 0) + 1,
-      });
+      if (taxonClass) {
+        const entry = group.classes.get(taxonClass.scientificName);
+        group.classes.set(taxonClass.scientificName, {
+          name: taxonClass.zhName,
+          count: (entry?.count ?? 0) + 1,
+        });
+      }
     }
     return groups;
   }, []);
@@ -1311,7 +1313,7 @@ function App() {
     const normalizedQuery = query.trim().toLocaleLowerCase('zh-CN');
     return species.filter((item) => {
       const matchesPhylum = activePhylum === 'ALL' || item.taxonomy.phylum.scientificName === activePhylum;
-      const matchesClass = activeClass === 'ALL' || item.taxonomy.class.scientificName === activeClass;
+      const matchesClass = activeClass === 'ALL' || item.taxonomy.class?.scientificName === activeClass;
       const matchesStatus = activeStatus === 'ALL' || item.conservation.code === activeStatus;
       const searchable = [
         item.names.zh,

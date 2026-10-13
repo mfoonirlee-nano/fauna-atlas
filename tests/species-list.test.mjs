@@ -111,8 +111,8 @@ test('scientific-name mapping preserves every class that previously used the fis
   }
 });
 
-test('artwork icon selection uses scientific class names instead of translated labels', () => {
-  assert.match(appSource, /classIcon\(item\.taxonomy\.class\.scientificName\)/);
+test('artwork icon selection uses scientific class names with a phylum fallback', () => {
+  assert.match(appSource, /classIcon\(item\.taxonomy\.class\?\.scientificName\s*\?\?\s*item\.taxonomy\.phylum\.scientificName\)/);
   assert.doesNotMatch(classIconSource, /\.includes\(/);
 });
 

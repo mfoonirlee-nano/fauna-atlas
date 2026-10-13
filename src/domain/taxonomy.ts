@@ -69,22 +69,23 @@ function taxonIdentityKey(rank: TaxonomyRank, scientificName: string): string {
 }
 
 /**
- * Returns one species profile's six taxon ancestors in canonical rank order.
+ * Returns the documented taxon ancestors in canonical rank order.
  * Keys include the full parent path, so names reused in another branch cannot
  * collide in renderers or indexes.
  */
 export function getSpeciesTaxonomyPath(species: Species): readonly TaxonomyPathEntry[] {
   const path: KeySegment[] = [];
 
-  return TAXONOMY_RANKS.map((rank) => {
+  return TAXONOMY_RANKS.flatMap((rank) => {
     const taxon = species.taxonomy[rank];
+    if (!taxon) return [];
     path.push([rank, taxon.scientificName]);
 
-    return {
+    return [{
       key: taxonomyKey(path),
       rank,
       taxon,
-    };
+    }];
   });
 }
 
