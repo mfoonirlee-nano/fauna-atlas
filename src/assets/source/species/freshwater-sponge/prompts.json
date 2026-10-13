@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spongilla lacustris. Morphology: A whole small freshwater sponge growth, yellow-green irregular porous branching/encrusting body attached to a submerged twig, visible tiny surface pores and a few larger oscula, no leaves, no roots, no coral polyps. Environment: clear freshwater lake, submerged wood. Cover: ONE complete primary subject on right, center at 73% width. Keep its ENTIRE visible silhouette including all outer spines, palps, proboscis, roots, branch tips and fins within x 780..1450 and y 70..940, with real background clearance. Maximize subject size within this region. Quiet left 40% contains only background. For cutaway, show entire worm including buried tissue; substrate is backdrop.",
+      "sourceSha256": "f36c314997411c757437854926f4d0f958cc7c0ff131392ee90440e98bd6f7f3",
+      "runtimeSha256": "6fc98257b7f67eb641746efa4010f94de5a2d103a69b778e8b2284476d9f2a5f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spongilla lacustris. Morphology: A whole small freshwater sponge growth, yellow-green irregular porous branching/encrusting body attached to a submerged twig, visible tiny surface pores and a few larger oscula, no leaves, no roots, no coral polyps. Environment: clear freshwater lake, submerged wood. Gallery: surface pores and a larger osculum in macro view. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "0f39cb4fa594fc29aae5795458ce4f84ed6e4b2b46c61e644ee86facc8e5d6a7",
+      "runtimeSha256": "974fded8a604e70d4be6e13ce88e780f0848b7d822e7ac17a2f96940567cb11e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spongilla lacustris. Morphology: A whole small freshwater sponge growth, yellow-green irregular porous branching/encrusting body attached to a submerged twig, visible tiny surface pores and a few larger oscula, no leaves, no roots, no coral polyps. Environment: clear freshwater lake, submerged wood. Gallery: branching sponge growth on submerged twig, wider habitat. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "ffec452dda553a8c0c2d3c4f90a5d4469ce81b7d2b123b66a894f48bb96b8e42",
+      "runtimeSha256": "8a2d1a1337382f6d748894a56d29d513ecc608b1499f24ec5b65561c827e3462",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spongilla lacustris. Morphology: A whole small freshwater sponge growth, yellow-green irregular porous branching/encrusting body attached to a submerged twig, visible tiny surface pores and a few larger oscula, no leaves, no roots, no coral polyps. Environment: clear freshwater lake, submerged wood. Gallery: individual gemmule magnified in a separate microscopic inset, round resting capsule with opening, no leaves. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "aa2cc85874e8e5eaf97e18a2d5aef1f7673a97f7ad30b4e15672df0a90165265",
+      "runtimeSha256": "fc2b23432dfe02b8b2aa01bd32da9499e40738fb1115eac435ee4d0b97cc7b00",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Edit this Spongilla lacustris scientific educational observation image. Preserve freshwater sponge on wood and background. Correct isolated spicule diagrams at upper right: REMOVE all Y-shaped, triradiate or branched spicules. Show only unbranched SINGLE-AXIS siliceous spicules: slender straight or slightly curved tapered smooth oxea needles and small spiny oxea rods. No forks, no stars, no discs. Keep drawings distinct from the natural-scale body; no text or scale marks.",
+      "sourceSha256": "66397761207aab5c029187c116dcfb006d60481d393b1a01beb0f1344ea0372a",
+      "runtimeSha256": "af3571f5594749ae111010f00e48bc83798d4a6d0f604a1c723df1837471e8f8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Spongilla lacustris. Morphology: A whole small freshwater sponge growth, yellow-green irregular porous branching/encrusting body attached to a submerged twig, visible tiny surface pores and a few larger oscula, no leaves, no roots, no coral polyps. Environment: clear freshwater lake, submerged wood. Gallery: young sponge growth beside a separate gemmule, conceptual asexual-stage comparison. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "9da08dcc73ed84f6fa8fb506454e1d656a9bfbe38615136c1dad58f4d75f59e8",
+      "runtimeSha256": "b7d7ae3793a57a13ba6583209461151e0ff388003b64f940b34a073d018be281",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
