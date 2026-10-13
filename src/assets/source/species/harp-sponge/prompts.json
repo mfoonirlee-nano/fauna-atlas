@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Edit this scientific reconstruction cover. Preserve the entire Chondrocladia lyra harp sponge anatomy, branches, bulbs, rootlets and ocean-floor texture. Move the whole sponge to the right, modestly reducing width if required. All visible outer rootlets and branches must fit within x 700..1450, y 40..930 of a 1536x1024 image. Quiet left 40 percent with only muddy background. The subject should be large, clear, whole and centered around x 1075. No cropping of any root or bulb. No text.",
+      "sourceSha256": "8a38712d2595c1ead78a160ba48b56f8a1a13c1e13f362fb3af110b6c647955a",
+      "runtimeSha256": "40b897e23591fbeb4fa0c06882430128d35d8ccceb5eabc1a150144b42b5985e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Chondrocladia lyra: pale harp sponge rooted on mud, horizontal basal runner bearing parallel vertical branches with bulbous tips and fine side projections, no harp strings, no coral polyps. Habitat: deep muddy seabed. Scene: one whole vane oblique view of runner and parallel branches. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "831077b69e73d780f8f1eb4ef2165cbaf8e476e4c9c0c16c86c180ce00312a17",
+      "runtimeSha256": "49367601b6df1bcbb6d5d9c815c26fabea80512328dd2def715a033f225d5d8c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Chondrocladia lyra: pale harp sponge rooted on mud, horizontal basal runner bearing parallel vertical branches with bulbous tips and fine side projections, no harp strings, no coral polyps. Habitat: deep muddy seabed. Scene: bulbous branch tip close-up, reproductive structure. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "071331cc1fbf92f68e260088ca5162120683b37fd7a3d224dba4fadae7f42b2e",
+      "runtimeSha256": "2561b0967022e12194c421427b35576af963c41374cd9c7a1af035b55718b242",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Chondrocladia lyra: pale harp sponge rooted on mud, horizontal basal runner bearing parallel vertical branches with bulbous tips and fine side projections, no harp strings, no coral polyps. Habitat: deep muddy seabed. Scene: isolated microscopic hooked spicules, educational reconstruction. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "04ae56bc73e15ecbd37889a59312f5dd074d05cf1b1322b5ef04624b4b4b3e3a",
+      "runtimeSha256": "7cda94e5983ed2e021d9ee6e7741a29f9fe16526bd785133be990ada05b20073",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Chondrocladia lyra: pale harp sponge rooted on mud, horizontal basal runner bearing parallel vertical branches with bulbous tips and fine side projections, no harp strings, no coral polyps. Habitat: deep muddy seabed. Scene: branch and nearby tiny crustacean, nonviolent feeding relation. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "ce6fdf652a20d8190d1aab12a78f5580829cce076a4a8e2bcd9d8fdcd994b82e",
+      "runtimeSha256": "21f5c26ac42e1f00b644394a7207fdcbba83c3b6192343786c1167f9d35a4ef6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Chondrocladia lyra: pale harp sponge rooted on mud, horizontal basal runner bearing parallel vertical branches with bulbous tips and fine side projections, no harp strings, no coral polyps. Habitat: deep muddy seabed. Scene: two-vane rooted specimen on muddy deep seabed, no strings between branches. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "a46f80d8608254753510b95517302ee0545adfeda26d1c96770339d687375cf2",
+      "runtimeSha256": "cdb51000410144c457691424c1516be8e0429d1dbfd74147d026ea88c5a9ac13",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
