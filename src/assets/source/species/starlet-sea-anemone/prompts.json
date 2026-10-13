@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas, landscape 1536x1024. One complete Nematostella vectensis starlet sea anemone, tiny slender translucent pale tubular body with rounded aboral end and oral disc ring of thin tentacles, side view naturally extended on estuary sediment. Place entire animal within x 850..1400 and y 180..880, centered right of 60%, quiet left 40% muddy water. Every tentacle tip and whole body visible with background margin. Fine natural macro detail, not a flower, no text, no frame, no watermark.",
+      "sourceSha256": "012617c9f732caafcd705b536751e7507922f01e7d30ad1468460ea5d16df0af",
+      "runtimeSha256": "7dc21ddc85921bb9fc5b397e8301e657d876a8213cffc3686c59635c7ce603bb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Nematostella vectensis: slender translucent tubular anemone with rounded lower end and ring of thin oral tentacles, no broad adhesive foot. Habitat: muddy estuary. Scene: magnified oral disc with fine tentacle ring. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "5fbfba98ee94e760f924269e8c6b23fde6b8f8e7a153e5e4d077dc47b02e1a6a",
+      "runtimeSha256": "93e9012dec1f09026ab19fccab8ad55331f653c5ad3e89303fc71affe2db1165",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Nematostella vectensis: slender translucent tubular anemone with rounded lower end and ring of thin oral tentacles, no broad adhesive foot. Habitat: muddy estuary. Scene: whole animal in sediment cutaway with lower body buried and oral disc exposed. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "7ade6aa1ae83a446cc0b5a0e149d5bee41bf4bf77c75f6399238a06626450b96",
+      "runtimeSha256": "27ac2e42b272862e344a14469ffb87779a7c2c17dcf14932fac79069bb695c6a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Nematostella vectensis: slender translucent tubular anemone with rounded lower end and ring of thin oral tentacles, no broad adhesive foot. Habitat: muddy estuary. Scene: complete translucent slender body in anatomical side view. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "38e483e7a60ab2780fecf2fc11d34956c3712487eb5f212e6b7fcc656c27c56e",
+      "runtimeSha256": "8cade5ddf2b889da4317bede37d6496fa4af080aff677fa53e838d1105fbe7e1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Nematostella vectensis: slender translucent tubular anemone with rounded lower end and ring of thin oral tentacles, no broad adhesive foot. Habitat: muddy estuary. Scene: adult and separate tiny planula larva, life stages, not same scale. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "5834111c9678bad59e800c9422189f23d24c93a1029db99b170a57ab772e949a",
+      "runtimeSha256": "1ceeb3bd8ce2a70be02907d98a190b20f267be9c59ba792919c7f1854f8860f5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational AI reconstruction for Fauna Atlas. Landscape 1536x1024, detailed natural underwater macro illustration, no text, arrows, frames or watermark. Subject: Nematostella vectensis: slender translucent tubular anemone with rounded lower end and ring of thin oral tentacles, no broad adhesive foot. Habitat: muddy estuary. Scene: tentacles and nearby tiny copepod, nonviolent feeding relation. Clear observational framing with background margins. Anatomy and enlargement not measured to scale.",
+      "sourceSha256": "dcdcc69b2a2ae40261c03ccb773664857c88a9500668b724cf72dca0c3a82225",
+      "runtimeSha256": "a79a7af56a838c843175d9b0f852355ff20005a910a8ad712ad461dac266f14b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
