@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific-educational species cover, landscape 1536x1024 detailed scientific illustration. Species Gordius aquaticus. One entire extraordinarily slender dark chestnut horsehair worm, threadlike smooth unsegmented body wound into a loose elongated loop on the right, both blunt endpoints clearly visible, uniform hairlike thickness, no distinct head bulb, legs, jaws, eyes or segmented earthworm rings. No host animal.. Environment clear shallow freshwater over muted stones, macro scientific reconstruction. Whole subject at right around 73% width, ALL anatomical features visible with background margins, quiet empty left 40%, x=700..1450 y=100..920. No text, labels, arrows, frame or watermark. Artificial-color reconstruction, not actual photograph.",
+      "sourceSha256": "ae97a3c1295d15cd78e9ce61dbb7a4f3b196ba7169f504be879f7130c1064263",
+      "runtimeSha256": "8b26591212c0dbee3c8c72704a10f53253b7ef5748ffb7c788282cfbc12d1501",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gordius aquaticus. Observation 细长的全身: one entire hairlike unsegmented chestnut worm in open loop, both endpoints visible, no bulbous head. General anatomy: One entire extraordinarily slender dark chestnut horsehair worm, threadlike smooth unsegmented body wound into a loose elongated loop on the right, both blunt endpoints clearly visible, uniform hairlike thickness, no distinct head bulb, legs, jaws, eyes or segmented earthworm rings. No host animal.. Setting clear shallow freshwater over muted stones, macro scientific reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "d7fde7d8b6720df671b254126aca22a2a74435a530b6cf4004d861ea914806d4",
+      "runtimeSha256": "915c27c1a20014bd9934dab3328f8e3ace620a12e8e3d26759ab85368e1476cb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gordius aquaticus. Observation 光滑体表: conceptual microscope close-up of smooth unsegmented cuticle with fine surface texture, no invented scales or rings. General anatomy: One entire extraordinarily slender dark chestnut horsehair worm, threadlike smooth unsegmented body wound into a loose elongated loop on the right, both blunt endpoints clearly visible, uniform hairlike thickness, no distinct head bulb, legs, jaws, eyes or segmented earthworm rings. No host animal.. Setting clear shallow freshwater over muted stones, macro scientific reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "fd304e14178f75d4c0276edec722ba685bd1d9b9d0ee616548a00cd124c4ca84",
+      "runtimeSha256": "09ec95f21be4d6ec11605b0e1a7ef97180ecdfa2f8380b788641513b14c3915c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gordius aquaticus. Observation 不同的弯曲姿态: two separate vignettes of one worm in wide U and loose S, each complete, no merging bodies. General anatomy: One entire extraordinarily slender dark chestnut horsehair worm, threadlike smooth unsegmented body wound into a loose elongated loop on the right, both blunt endpoints clearly visible, uniform hairlike thickness, no distinct head bulb, legs, jaws, eyes or segmented earthworm rings. No host animal.. Setting clear shallow freshwater over muted stones, macro scientific reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "107bd9f80cd85480775cc3601f510c09d065dc2a59e7d4b0c298f669ef267a04",
+      "runtimeSha256": "9fb39b5e0f23eaff662f5554f3c8b1f1b0d5516fceced12c5952e162c69951a0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gordius aquaticus. Observation 浅水中的线: one complete threadlike worm beneath still freshwater among small stones, keep thread narrow. General anatomy: One entire extraordinarily slender dark chestnut horsehair worm, threadlike smooth unsegmented body wound into a loose elongated loop on the right, both blunt endpoints clearly visible, uniform hairlike thickness, no distinct head bulb, legs, jaws, eyes or segmented earthworm rings. No host animal.. Setting clear shallow freshwater over muted stones, macro scientific reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "404b332b659ea316e8f29b82d78bab8c41c827f2576ae2e18172c33731697df0",
+      "runtimeSha256": "b2b33cbed4925b80dd330c837839d59d080c04aced169623001ef6404f75342f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gordius aquaticus. Observation 端部的放大窗口: whole female-form horsehair worm with blunt unbranched posterior end plus separate anterior blunt end inset, no monster mouth. General anatomy: One entire extraordinarily slender dark chestnut horsehair worm, threadlike smooth unsegmented body wound into a loose elongated loop on the right, both blunt endpoints clearly visible, uniform hairlike thickness, no distinct head bulb, legs, jaws, eyes or segmented earthworm rings. No host animal.. Setting clear shallow freshwater over muted stones, macro scientific reconstruction. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "8b840e4da13e56ee775323305022456e496786c91cd579339d21fe634f4b12c8",
+      "runtimeSha256": "b3265d9a666ab6906a72e2a62ab994de5c8a6f7111ba34019b1b3b248c2c6422",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
