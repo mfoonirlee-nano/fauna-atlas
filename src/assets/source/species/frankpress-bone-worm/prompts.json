@@ -1,0 +1,90 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Osedax frankpressi. Morphology: One female bone-eating worm in a clean whale-bone cutaway: four red and white feathery respiratory palps atop a pink slender trunk in a tube; pale ovary and fine green branching root tissue embedded inside bone and visible in the cutaway. No mouth, eyes, legs, or jaw. Bone is background, not animal. Environment: dark deep seafloor with a small bone fragment, scientific cutaway. Cover: ONE complete primary subject on right, center at 73% width. Keep its ENTIRE visible silhouette including all outer spines, palps, proboscis, roots, branch tips and fins within x 780..1450 and y 70..940, with real background clearance. Maximize subject size within this region. Quiet left 40% contains only background. For cutaway, show entire worm including buried tissue; substrate is backdrop.",
+      "sourceSha256": "549c2c1ca8589d83843ec265184cbe6418e2a94170afe9385039a0376e59ec56",
+      "runtimeSha256": "7336718f83cd1326a96dafe50445e55381113b62b30dc215c46c4b0f4bc28195",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Osedax frankpressi. Morphology: One female bone-eating worm in a clean whale-bone cutaway: four red and white feathery respiratory palps atop a pink slender trunk in a tube; pale ovary and fine green branching root tissue embedded inside bone and visible in the cutaway. No mouth, eyes, legs, or jaw. Bone is background, not animal. Environment: dark deep seafloor with a small bone fragment, scientific cutaway. Gallery: red and white four palps above whale bone in macro view, roots hidden. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "a2754a625edc41273693d4385d41e69c87f06032b952857ceba2a4477e9a5986",
+      "runtimeSha256": "cd02da9db4ca9ee83943e63aa09f21e44bb12ea2c953abab968de3c1f9dfdd02",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Osedax frankpressi. Morphology: One female bone-eating worm in a clean whale-bone cutaway: four red and white feathery respiratory palps atop a pink slender trunk in a tube; pale ovary and fine green branching root tissue embedded inside bone and visible in the cutaway. No mouth, eyes, legs, or jaw. Bone is background, not animal. Environment: dark deep seafloor with a small bone fragment, scientific cutaway. Gallery: single female trunk with buried fine green roots in clean bone cutaway. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "4feabb80ecf3b645a200174eb683f96296f35663bf40f9b7c3f9de82b08720fd",
+      "runtimeSha256": "7db5168898223f8b9149284e7ec6da0dff82f03361af30325dd492cb4ab66f26",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Osedax frankpressi. Morphology: One female bone-eating worm in a clean whale-bone cutaway: four red and white feathery respiratory palps atop a pink slender trunk in a tube; pale ovary and fine green branching root tissue embedded inside bone and visible in the cutaway. No mouth, eyes, legs, or jaw. Bone is background, not animal. Environment: dark deep seafloor with a small bone fragment, scientific cutaway. Gallery: single isolated microscopic dwarf male in enlarged neutral structural view, no red plume, no big green roots. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "f1346d57be2a2521ad8f1a6fdddf029cb326fb8082ea849565ad90c92144f123",
+      "runtimeSha256": "4a9a002459efa5b7e01be5076cf4d0007f31580d5b30d345c12ea5d5db0e0108",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Osedax frankpressi. Morphology: One female bone-eating worm in a clean whale-bone cutaway: four red and white feathery respiratory palps atop a pink slender trunk in a tube; pale ovary and fine green branching root tissue embedded inside bone and visible in the cutaway. No mouth, eyes, legs, or jaw. Bone is background, not animal. Environment: dark deep seafloor with a small bone fragment, scientific cutaway. Gallery: female with separate magnified dwarf-male inset in the tube, dramatic scale difference explicitly conceptual. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "579996a4a15b12b6e24756d5906a3d8d9cdf8a25e02e5fd02a9a6697bd0260db",
+      "runtimeSha256": "1a41714a54b66b4531d7c8e06a3bfef96da10ac9e56dbe29053ca156b30f3a24",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational reconstruction for Fauna Atlas. Landscape 1536x1024. Detailed restrained natural illustration, scientifically plausible anatomy, no text, labels, arrows, watermark or border. Species: Osedax frankpressi. Morphology: One female bone-eating worm in a clean whale-bone cutaway: four red and white feathery respiratory palps atop a pink slender trunk in a tube; pale ovary and fine green branching root tissue embedded inside bone and visible in the cutaway. No mouth, eyes, legs, or jaw. Bone is background, not animal. Environment: dark deep seafloor with a small bone fragment, scientific cutaway. Gallery: several feeding females on one old clean bone fragment at whale fall, no carcass flesh. Clear observational framing, all relevant features with margins. Any microscopic structure or life-stage comparison is conceptual, not measured to scale.",
+      "sourceSha256": "6b5a57335e847ab470284ca19bacca7001a41563bc6dda749ebaa92e5d419741",
+      "runtimeSha256": "c9fb5d6b68ed937c10bf91c5f22c42b37a100de1da2ec425e35bbd864a10567b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
