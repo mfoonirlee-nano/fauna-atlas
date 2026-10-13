@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "570 animal species profiles; 560 historical reviews and 10 additions on 2026-10-12; microbial topics excluded",
+  "scope": "600 animal species profiles; 560 historical baseline reviews and 40 additions through 2026-10-13; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 10,
-    "addedProfilesReviewDate": "2026-10-12",
+    "addedProfiles": 40,
+    "addedProfilesReviewDate": "2026-10-13",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -27546,6 +27546,552 @@
           ]
         }
       }
+    },
+    {
+      "slug": "priapulus-caudatus",
+      "scientificName": "Priapulus caudatus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/2501343",
+            "https://apps-afsc.fisheries.noaa.gov/refm/reem/set/PreyData.php?NODC=7400010101",
+            "https://pubmed.ncbi.nlm.nih.gov/29865393/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4685585/",
+            "https://www.nature.com/articles/1901216a0",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101160"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/2501343",
+            "https://apps-afsc.fisheries.noaa.gov/refm/reem/set/PreyData.php?NODC=7400010101",
+            "https://pubmed.ncbi.nlm.nih.gov/29865393/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4685585/",
+            "https://www.nature.com/articles/1901216a0",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101160"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2501343",
+            "https://apps-afsc.fisheries.noaa.gov/refm/reem/set/PreyData.php?NODC=7400010101",
+            "https://pubmed.ncbi.nlm.nih.gov/29865393/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4685585/",
+            "https://www.nature.com/articles/1901216a0",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101160"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2501343",
+            "https://apps-afsc.fisheries.noaa.gov/refm/reem/set/PreyData.php?NODC=7400010101",
+            "https://pubmed.ncbi.nlm.nih.gov/29865393/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4685585/",
+            "https://www.nature.com/articles/1901216a0",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101160"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2501343",
+            "https://apps-afsc.fisheries.noaa.gov/refm/reem/set/PreyData.php?NODC=7400010101",
+            "https://pubmed.ncbi.nlm.nih.gov/29865393/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4685585/",
+            "https://www.nature.com/articles/1901216a0",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101160"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "scaled-gastrotrich",
+      "scientificName": "Lepidodermella squamata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/4281692",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4563153/",
+            "https://onlinelibrary.wiley.com/doi/10.1002/jmor.21659",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=378207"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/4281692",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4563153/",
+            "https://onlinelibrary.wiley.com/doi/10.1002/jmor.21659",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=378207"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/4281692",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4563153/",
+            "https://onlinelibrary.wiley.com/doi/10.1002/jmor.21659",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=378207"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4281692",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4563153/",
+            "https://onlinelibrary.wiley.com/doi/10.1002/jmor.21659",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=378207"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4281692",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4563153/",
+            "https://onlinelibrary.wiley.com/doi/10.1002/jmor.21659",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=378207"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "paradox-jaw-worm",
+      "scientificName": "Gnathostomula paradoxa",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/2307163",
+            "https://doi.org/10.1007/s004350050038",
+            "https://repository.si.edu/bitstream/handle/10088/5298/SCtZ-0076-Lo_res.pdf",
+            "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=66783",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=114737"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/2307163",
+            "https://doi.org/10.1007/s004350050038",
+            "https://repository.si.edu/bitstream/handle/10088/5298/SCtZ-0076-Lo_res.pdf",
+            "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=66783",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=114737"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2307163",
+            "https://doi.org/10.1007/s004350050038",
+            "https://repository.si.edu/bitstream/handle/10088/5298/SCtZ-0076-Lo_res.pdf",
+            "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=66783",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=114737"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2307163",
+            "https://doi.org/10.1007/s004350050038",
+            "https://repository.si.edu/bitstream/handle/10088/5298/SCtZ-0076-Lo_res.pdf",
+            "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=66783",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=114737"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2307163",
+            "https://doi.org/10.1007/s004350050038",
+            "https://repository.si.edu/bitstream/handle/10088/5298/SCtZ-0076-Lo_res.pdf",
+            "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=66783",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=114737"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "maersk-micrognathozoan",
+      "scientificName": "Limnognathia maerski",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/4632630",
+            "https://pure.au.dk/portal/en/publications/micrognathozoa-a-new-class-with-complicated-jaws-like-those-of-ro/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333266/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098970/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11836703/",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1335354"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/4632630",
+            "https://pure.au.dk/portal/en/publications/micrognathozoa-a-new-class-with-complicated-jaws-like-those-of-ro/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333266/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098970/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11836703/",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1335354"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/4632630",
+            "https://pure.au.dk/portal/en/publications/micrognathozoa-a-new-class-with-complicated-jaws-like-those-of-ro/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333266/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098970/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11836703/",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1335354"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4632630",
+            "https://pure.au.dk/portal/en/publications/micrognathozoa-a-new-class-with-complicated-jaws-like-those-of-ro/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333266/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098970/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11836703/",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1335354"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4632630",
+            "https://pure.au.dk/portal/en/publications/micrognathozoa-a-new-class-with-complicated-jaws-like-those-of-ro/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333266/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098970/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11836703/",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1335354"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pandora-symbion",
+      "scientificName": "Symbion pandora",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/2307136",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4398483/",
+            "https://www.vliz.be/imisdocs/publications/382320.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106408"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/2307136",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4398483/",
+            "https://www.vliz.be/imisdocs/publications/382320.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106408"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2307136",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4398483/",
+            "https://www.vliz.be/imisdocs/publications/382320.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106408"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2307136",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4398483/",
+            "https://www.vliz.be/imisdocs/publications/382320.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106408"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2307136",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4398483/",
+            "https://www.vliz.be/imisdocs/publications/382320.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106408"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "nodding-entoproct",
+      "scientificName": "Pedicellina cernua",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/5188746",
+            "https://www.marinespecies.org/aphia.php?id=111806&p=taxdetails",
+            "https://livrepository.liverpool.ac.uk/3174510/1/504529.pdf",
+            "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/fish-bull/fb30.5.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=111806"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/5188746",
+            "https://www.marinespecies.org/aphia.php?id=111806&p=taxdetails",
+            "https://livrepository.liverpool.ac.uk/3174510/1/504529.pdf",
+            "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/fish-bull/fb30.5.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=111806"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/5188746",
+            "https://www.marinespecies.org/aphia.php?id=111806&p=taxdetails",
+            "https://livrepository.liverpool.ac.uk/3174510/1/504529.pdf",
+            "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/fish-bull/fb30.5.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=111806"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5188746",
+            "https://www.marinespecies.org/aphia.php?id=111806&p=taxdetails",
+            "https://livrepository.liverpool.ac.uk/3174510/1/504529.pdf",
+            "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/fish-bull/fb30.5.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=111806"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5188746",
+            "https://www.marinespecies.org/aphia.php?id=111806&p=taxdetails",
+            "https://livrepository.liverpool.ac.uk/3174510/1/504529.pdf",
+            "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/fish-bull/fb30.5.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=111806"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "southern-horseshoe-worm",
+      "scientificName": "Phoronis australis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/5186393",
+            "https://www.marinespecies.org/aphia.php?id=128547&p=taxdetails",
+            "https://doi.org/10.1080/12265071.1998.9647407",
+            "https://museum-publications.australian.museum/media/dd/Uploads/Documents/35604/ams370_vXV_11_lowres.0a4558f.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=128547"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/5186393",
+            "https://www.marinespecies.org/aphia.php?id=128547&p=taxdetails",
+            "https://doi.org/10.1080/12265071.1998.9647407",
+            "https://museum-publications.australian.museum/media/dd/Uploads/Documents/35604/ams370_vXV_11_lowres.0a4558f.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=128547"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/5186393",
+            "https://www.marinespecies.org/aphia.php?id=128547&p=taxdetails",
+            "https://doi.org/10.1080/12265071.1998.9647407",
+            "https://museum-publications.australian.museum/media/dd/Uploads/Documents/35604/ams370_vXV_11_lowres.0a4558f.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=128547"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5186393",
+            "https://www.marinespecies.org/aphia.php?id=128547&p=taxdetails",
+            "https://doi.org/10.1080/12265071.1998.9647407",
+            "https://museum-publications.australian.museum/media/dd/Uploads/Documents/35604/ams370_vXV_11_lowres.0a4558f.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=128547"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5186393",
+            "https://www.marinespecies.org/aphia.php?id=128547&p=taxdetails",
+            "https://doi.org/10.1080/12265071.1998.9647407",
+            "https://museum-publications.australian.museum/media/dd/Uploads/Documents/35604/ams370_vXV_11_lowres.0a4558f.pdf",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=128547"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "aquatic-horsehair-worm",
+      "scientificName": "Gordius aquaticus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/2255445",
+            "https://doi.org/10.11646/zootaxa.2533.1.1",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=64229",
+            "https://www.biodiversidadcanarias.es/biota/especie/E08208?lang=es&orderByRefer=anioDocumento&orderFormRefer=true"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/2255445",
+            "https://doi.org/10.11646/zootaxa.2533.1.1",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=64229",
+            "https://www.biodiversidadcanarias.es/biota/especie/E08208?lang=es&orderByRefer=anioDocumento&orderFormRefer=true"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2255445",
+            "https://doi.org/10.11646/zootaxa.2533.1.1",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=64229",
+            "https://www.biodiversidadcanarias.es/biota/especie/E08208?lang=es&orderByRefer=anioDocumento&orderFormRefer=true"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2255445",
+            "https://doi.org/10.11646/zootaxa.2533.1.1",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=64229",
+            "https://www.biodiversidadcanarias.es/biota/especie/E08208?lang=es&orderByRefer=anioDocumento&orderFormRefer=true"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2255445",
+            "https://doi.org/10.11646/zootaxa.2533.1.1",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=64229",
+            "https://www.biodiversidadcanarias.es/biota/especie/E08208?lang=es&orderByRefer=anioDocumento&orderFormRefer=true"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "manson-blood-fluke",
+      "scientificName": "Schistosoma mansoni",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/5967489",
+            "https://www.cdc.gov/dpdx/schistosomiasis/index.html",
+            "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/schistosomiasis.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4723577/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/5967489",
+            "https://www.cdc.gov/dpdx/schistosomiasis/index.html",
+            "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/schistosomiasis.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4723577/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/5967489",
+            "https://www.cdc.gov/dpdx/schistosomiasis/index.html",
+            "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/schistosomiasis.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4723577/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5967489",
+            "https://www.cdc.gov/dpdx/schistosomiasis/index.html",
+            "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/schistosomiasis.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4723577/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5967489",
+            "https://www.cdc.gov/dpdx/schistosomiasis/index.html",
+            "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/schistosomiasis.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4723577/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "wandering-bdelloid",
+      "scientificName": "Adineta vaga",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.gbif.org/species/1000794",
+            "https://www.nies.go.jp/chiiki1/protoz/morpho/rotifera/r-adinet.htm",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8494291/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710870/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/1000794",
+            "https://www.nies.go.jp/chiiki1/protoz/morpho/rotifera/r-adinet.htm",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8494291/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710870/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/1000794",
+            "https://www.nies.go.jp/chiiki1/protoz/morpho/rotifera/r-adinet.htm",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8494291/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710870/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1000794",
+            "https://www.nies.go.jp/chiiki1/protoz/morpho/rotifera/r-adinet.htm",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8494291/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710870/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1000794",
+            "https://www.nies.go.jp/chiiki1/protoz/morpho/rotifera/r-adinet.htm",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8494291/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710870/"
+          ]
+        }
+      }
     }
-  ]
+  ],
+  "updatedAt": "2026-10-13"
 }

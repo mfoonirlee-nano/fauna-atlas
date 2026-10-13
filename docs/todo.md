@@ -1,6 +1,6 @@
-# 制作清单：拓展动物界的 100 种新动物
+# 制作清单：拓展动物界的 100 种新动物（已完成）
 
-2026-10-13 更新：本轮新增 100 种选题，已完成 90 种，现有 590 份物种档案，剩余 10 种待制作。本轮全部完成后，动物目录目标为 600 种。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](research/todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](research/todo-expansion-invertebrate-five-2026-10-11.md)、[接续昆虫五种记录](research/todo-expansion-insects-five-2026-10-11.md)、[微小节肢动物五种记录](research/todo-expansion-micro-arthropods-five-2026-10-12.md)、[接续节肢动物五种记录](research/todo-expansion-final-arthropods-five-2026-10-12.md)、[海葵、水母与海绵五种记录](research/todo-expansion-jellies-five-2026-10-13.md)、[十种无脊椎动物记录](research/todo-expansion-invertebrates-ten-2026-10-13.md)和[软体动物五种记录](research/todo-expansion-molluscs-five-2026-10-12.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
+2026-10-13 更新：本轮新增 100 种选题，已完成 100 种，现有 600 份物种档案，待制作 0 种。本轮动物扩展已完成。最后十种的资料与验收见[收尾记录](research/todo-expansion-final-ten-2026-10-13.md)。完成项见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)，资料与验收见[首批五种记录](research/todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](research/todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](research/todo-expansion-ten-2026-10-09.md)、[接续五种记录](research/todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](research/todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](research/todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](research/todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](research/todo-expansion-invertebrate-five-2026-10-11.md)、[接续昆虫五种记录](research/todo-expansion-insects-five-2026-10-11.md)、[微小节肢动物五种记录](research/todo-expansion-micro-arthropods-five-2026-10-12.md)、[接续节肢动物五种记录](research/todo-expansion-final-arthropods-five-2026-10-12.md)、[海葵、水母与海绵五种记录](research/todo-expansion-jellies-five-2026-10-13.md)、[十种无脊椎动物记录](research/todo-expansion-invertebrates-ten-2026-10-13.md)和[软体动物五种记录](research/todo-expansion-molluscs-five-2026-10-12.md)。10 个微生物选题已完成，继续使用独立专题页面（`#microbes`），不计入本轮动物数量。学名与类群核验见[本轮选题记录](research/todo-expansion-2026-10-09.md)。
 
 上一轮动物完成记录见[上一轮归档](research/todo-completed-2026-09-30.md)和[最后五种研究与验收记录](research/todo-final-five-2026-10-09.md)，更早记录见[历史归档](research/todo-completed-2026-09-23.md)。微生物实现与验证见[专题说明](microbes-topic.md)。
 
@@ -26,8 +26,8 @@
 | 两栖动物 | 0 | 外鳃、无肺、直接发育与无足身体 |
 | 鱼类与其他脊索动物 | 0 | 软骨鱼、特殊呼吸与无脊柱的脊索动物 |
 | 昆虫与其他节肢动物 | 0 | 少见昆虫目、六足近邻、微小甲壳类与蛛形动物 |
-| 其他无脊椎动物 | 10 | 少见动物门、固着、群体、寄生与显微生活 |
-| 动物合计 | 10 | 本轮已完成 90 种 |
+| 其他无脊椎动物 | 0 | 少见动物门、固着、群体、寄生与显微生活 |
+| 动物合计 | 0 | 本轮已完成 100 种 |
 | 微生物专题（另计） | 0 | 10 个选题已完成 |
 
 ## 两栖动物（已完成）
@@ -42,24 +42,13 @@
 
 本组已完成，见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)和[接续节肢动物五种记录](research/todo-expansion-final-arthropods-five-2026-10-12.md)。
 
-## 其他无脊椎动物（10 种）
+## 其他无脊椎动物（已完成）
 
-本组剩余选题补充少见类群、显微动物与寄生生活。小颚动物的阶元口径和分类关系须复核，不补造缺失阶元。
-
-- [ ] 鳃曳虫 *Priapulus caudatus*：鳃曳动物，补充可翻出的吻部与钻泥生活。共读：“用连续影像看看前端怎样伸出、缩回。”
-- [ ] 鳞皮腹毛虫（中文名待核） *Lepidodermella squamata*：腹毛动物，补充纤毛滑行的淡水微小动物。共读：“看看它怎样沿着表面滑过去。”放大图标注腹面纤毛的位置。
-- [ ] 颚口虫（中文名待核） *Gnathostomula paradoxa*：颚胃动物，补充沉积物间隙中的微小蠕虫。共读：“在显微图里看看细长身体怎样弯动。”颚部另配结构示意。
-- [ ] 微颚动物 *Limnognathia maerski*：小颚动物类群，补充复杂颚器与淡水显微生活。共读：“先找小身体，再看放大的颚部示意。”制作时核实其分类阶元。
-- [ ] 潘多拉共生虫 *Symbion pandora*：环口动物，补充附着在挪威海螯虾口器刚毛上的生活。共读：“从宿主放大到一根刚毛，再找找上面的小动物。”宿主、取食个体与其他生活史阶段分别标注。
-- [ ] 垂头海索虫（中文名待核） *Pedicellina cernua*：内肛动物，补充有柄群体与触手冠。共读：“找找细柄顶端的小杯和一圈触手。”与外肛动物分别说明，不能因外形近似混用分类。
-- [ ] 南方帚虫 *Phoronis australis*：帚形动物，补充管栖身体与马蹄形触手冠。共读：“看看管口伸出的触手怎样围成弯弯的一圈。”
-- [ ] 水生铁线虫 *Gordius aquaticus*：线形动物，补充幼期寄生与成体水中生活。共读：“看看细长身体怎样绕成弯曲的线。”宿主记录需核实到物种，不把线形动物与线虫混为一门。
-- [ ] 曼氏血吸虫 *Schistosoma mansoni*：扁形动物，补充吸虫类、宿主转换与寄生生活。共读：“在生活史示意里找找水、螺和成虫各在哪里。”由成人解释，使用非惊吓性示意，不安排接触实验。
-- [ ] 蛭态轮虫 *Adineta vaga*：轮虫动物，补充蛭态轮虫的爬行与显微身体。共读：“用显微影像看看它怎样伸长、缩短。”不能按臂尾轮虫模板画成带被甲的身体。
+本组已完成，见[本轮完成归档](research/todo-expansion-completed-2026-10-09.md)与[最后十种研究和验收](research/todo-expansion-final-ten-2026-10-13.md)。档案分别说明显微结构、宿主与不同生活阶段，分类路径保留来源中的缺失阶元。
 
 ## 制作顺序与资料
 
-建议首批的前五种已完成。新碟贝已完成。后续可继续制作微颚动物及其余少见类群，补充身体差异与分类空缺；显微、群体和内部结构需要先找到可核对的参考资料再生成图片。上述物种已列在各组中，不重复计数。
+本轮 100 个动物选题已制作完毕，完成项保存在归档中。显微图、群体与内部结构均附资料、提示词与验收记录；10 个微生物选题继续独立于动物目录。
 
 选题记录保存本轮 100 种的 GBIF 名称匹配结果与来源入口。它核验候选物种的定位和类群；档案制作仍需研究行为、分布、保护状态、中文名和六张图的内容。
 

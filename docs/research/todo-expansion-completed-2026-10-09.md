@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 90 种，动物目录增至 590 种，活动清单剩余 10 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
+本轮目标为新增 100 种动物；累计完成 100 种，动物目录增至 600 种，活动清单剩余 0 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -141,3 +141,18 @@
 - [x] 铠甲虫 *Nanaloricus mysticus*：铠甲动物，补充沙粒间生活与外部甲板。共读：“看看放大后的身体外壳。”不能按名字画成甲虫。
 
 资料与验收见[本批记录](todo-expansion-invertebrates-ten-2026-10-13.md)。
+
+## 2026-10-13 最后十种
+
+资料与验收见[收尾记录](todo-expansion-final-ten-2026-10-13.md)。少见物种的中文名保留项目暂用标签，科学名称定位档案。
+
+- [x] 鳃曳虫 *Priapulus caudatus*：鳃曳动物，补充可翻出的吻部与钻泥生活。共读：“用连续影像看看前端怎样伸出、缩回。”
+- [x] 鳞皮腹毛虫（中文名待核） *Lepidodermella squamata*：腹毛动物，补充纤毛滑行的淡水微小动物。共读：“看看它怎样沿着表面滑过去。”放大图标注腹面纤毛的位置。
+- [x] 颚口虫（中文名待核） *Gnathostomula paradoxa*：颚胃动物，补充沉积物间隙中的微小蠕虫。共读：“在显微图里看看细长身体怎样弯动。”颚部另配结构示意。
+- [x] 微颚动物 *Limnognathia maerski*：小颚动物类群，补充复杂颚器与淡水显微生活。共读：“先找小身体，再看放大的颚部示意。”制作时核实其分类阶元。
+- [x] 潘多拉共生虫 *Symbion pandora*：环口动物，补充附着在挪威海螯虾口器刚毛上的生活。共读：“从宿主放大到一根刚毛，再找找上面的小动物。”宿主、取食个体与其他生活史阶段分别标注。
+- [x] 垂头海索虫（中文名待核） *Pedicellina cernua*：内肛动物，补充有柄群体与触手冠。共读：“找找细柄顶端的小杯和一圈触手。”与外肛动物分别说明，不能因外形近似混用分类。
+- [x] 南方帚虫 *Phoronis australis*：帚形动物，补充管栖身体与马蹄形触手冠。共读：“看看管口伸出的触手怎样围成弯弯的一圈。”
+- [x] 水生铁线虫 *Gordius aquaticus*：线形动物，补充幼期寄生与成体水中生活。共读：“看看细长身体怎样绕成弯曲的线。”宿主记录需核实到物种，不把线形动物与线虫混为一门。
+- [x] 曼氏血吸虫 *Schistosoma mansoni*：扁形动物，补充吸虫类、宿主转换与寄生生活。共读：“在生活史示意里找找水、螺和成虫各在哪里。”由成人解释，使用非惊吓性示意，不安排接触实验。
+- [x] 蛭态轮虫 *Adineta vaga*：轮虫动物，补充蛭态轮虫的爬行与显微身体。共读：“用显微影像看看它怎样伸长、缩短。”不能按臂尾轮虫模板画成带被甲的身体。

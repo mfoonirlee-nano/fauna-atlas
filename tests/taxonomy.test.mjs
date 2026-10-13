@@ -24273,7 +24273,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 590);
+  assert.equal(species.length, 600);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24444,13 +24444,13 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 590);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 600);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Rhabditidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Caenorhabditis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Platyhelminthes')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'phylum', 'Platyhelminthes')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'class', 'Rhabditophora')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Tricladida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dugesiidae')?.speciesCount, 1);
@@ -26650,7 +26650,7 @@ test('September 30 reptiles retain species boundaries, reviewed images and a pen
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
   assert.doesNotMatch(todo, /- \[x\]/);
   const pendingNames = [...todo.matchAll(/^- \[ \].*?\*([^*]+)\*/gm)].map((match) => match[1]);
-  assert.equal(pendingNames.length, 10);
+  assert.equal(pendingNames.length, 0);
   for (const profile of species) {
     assert.ok(!pendingNames.includes(profile.scientificName), `${profile.slug} must not remain pending`);
   }
@@ -26964,7 +26964,7 @@ test('October 12 micro arthropods retain distinct anatomy and life stages', asyn
     ['calanus-finmarchicus', 'Calanus finmarchicus', 'Copepoda', 'Calanoida', 'Calanidae'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
-  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 10);
+  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 0);
   for (const [slug, name, className, order, family] of entries) {
     const profile = findSpecies(slug);
     assert.equal(profile.scientificName, name);
@@ -27004,7 +27004,7 @@ test('October 12 final arthropods distinguish appendages, juveniles and rolled b
     ['black-pill-millipede', 'Glomeris marginata', 'Diplopoda', 'Glomerida', 'Glomeridae'],
   ];
   const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
-  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 10);
+  assert.equal(todo.split('\n').filter((line) => line.startsWith('- [ ]')).length, 0);
   for (const [slug, name, className, order, family] of entries) {
     const profile = findSpecies(slug);
     assert.equal(profile.scientificName, name);
@@ -27083,4 +27083,31 @@ test('unassigned class and order ranks keep named parents and stable species lea
   }
   assert.equal(findTaxon(tree, 'phylum', 'Sipuncula'), undefined);
   assert.deepEqual(getSpeciesTaxonomyPath(findSpecies('giant-panda')).map(({ rank }) => rank), TAXONOMY_RANKS);
+});
+
+
+test('final ten animals complete the expansion with distinct body plans and documented missing ranks', async () => {
+  const cases = [["priapulus-caudatus", "Priapulus caudatus"], ["scaled-gastrotrich", "Lepidodermella squamata"], ["paradox-jaw-worm", "Gnathostomula paradoxa"], ["maersk-micrognathozoan", "Limnognathia maerski"], ["pandora-symbion", "Symbion pandora"], ["nodding-entoproct", "Pedicellina cernua"], ["southern-horseshoe-worm", "Phoronis australis"], ["aquatic-horsehair-worm", "Gordius aquaticus"], ["manson-blood-fluke", "Schistosoma mansoni"], ["wandering-bdelloid", "Adineta vaga"]];
+  const todo = await readFile(new URL('../docs/todo.md', import.meta.url), 'utf8');
+  assert.doesNotMatch(todo, /^- \[ \]/m);
+  for (const [slug, name] of cases) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assertStorySectionCount(profile, 6);
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true });
+  }
+  for (const slug of ['nodding-entoproct', 'southern-horseshoe-worm']) {
+    const path = getSpeciesTaxonomyPath(findSpecies(slug));
+    assert.deepEqual(path.map(({ rank }) => rank), ['kingdom', 'phylum', 'family', 'genus']);
+  }
+  assert.equal(findSpecies('scaled-gastrotrich').taxonomy.order.scientificName, 'Chaetonotida');
+  assert.equal(findSpecies('maersk-micrognathozoan').taxonomy.phylum.scientificName, 'Gnathifera');
+  assert.equal(findSpecies('maersk-micrognathozoan').taxonomy.class.scientificName, 'Micrognathozoa');
+  assertAnimalCopy(findSpecies('pandora-symbion'), ['Nephrops norvegicus', 'Pandora 幼体', 'Prometheus']);
+  assertAnimalCopy(findSpecies('southern-horseshoe-worm'), ['幼体未知', '盘卷']);
+  assertAnimalCopy(findSpecies('aquatic-horsehair-worm'), ['鉴定困难', '宿主记录']);
+  assert.match(findSpecies('manson-blood-fluke').media.gallery[1].caption, /侧棘/);
+  assertAnimalCopy(findSpecies('wandering-bdelloid'), ['无硬被甲', '2021', '2022']);
 });

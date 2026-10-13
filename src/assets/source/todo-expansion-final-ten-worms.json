@@ -1,0 +1,488 @@
+{
+  "Priapulus caudatus": {
+    "record": {
+      "AphiaID": 101160,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101160",
+      "scientificname": "Priapulus caudatus",
+      "authority": "Lamarck, 1816",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 101160,
+      "valid_name": "Priapulus caudatus",
+      "valid_authority": "Lamarck, 1816",
+      "parentNameUsageID": 101095,
+      "originalNameUsageID": 101160,
+      "kingdom": "Animalia",
+      "phylum": "Priapulida",
+      "class": null,
+      "order": "Priapulomorpha",
+      "family": "Priapulidae",
+      "genus": "Priapulus",
+      "citation": "Paulay, G. (2026). World List of Priapulida. Priapulus caudatus Lamarck, 1816. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=101160 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:101160",
+      "isMarine": 1,
+      "isBrackish": null,
+      "isFreshwater": null,
+      "isTerrestrial": null,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2008-01-04T16:28:44.880Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 101063,
+          "rank": "Phylum",
+          "scientificname": "Priapulida",
+          "child": {
+            "AphiaID": 1263790,
+            "rank": "Order",
+            "scientificname": "Priapulomorpha",
+            "child": {
+              "AphiaID": 101078,
+              "rank": "Family",
+              "scientificname": "Priapulidae",
+              "child": {
+                "AphiaID": 101095,
+                "rank": "Genus",
+                "scientificname": "Priapulus",
+                "child": {
+                  "AphiaID": 101160,
+                  "rank": "Species",
+                  "scientificname": "Priapulus caudatus",
+                  "child": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Lepidodermella squamata": {
+    "record": {
+      "AphiaID": 378207,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=378207",
+      "scientificname": "Lepidodermella squamata",
+      "authority": "(Dujardin, 1841)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 378207,
+      "valid_name": "Lepidodermella squamata",
+      "valid_authority": "(Dujardin, 1841)",
+      "parentNameUsageID": 114432,
+      "originalNameUsageID": 765213,
+      "kingdom": "Animalia",
+      "phylum": "Gastrotricha",
+      "class": null,
+      "order": "Chaetonotida",
+      "family": "Chaetonotidae",
+      "genus": "Lepidodermella",
+      "citation": "Todaro, A.; d'Hondt, J-L. (2026). World Gastrotricha Database. Lepidodermella squamata (Dujardin, 1841). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=378207 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:378207",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 1,
+      "isTerrestrial": 0,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2020-12-16T09:18:14.023Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 2078,
+          "rank": "Phylum",
+          "scientificname": "Gastrotricha",
+          "child": {
+            "AphiaID": 247836,
+            "rank": "Order",
+            "scientificname": "Chaetonotida",
+            "child": {
+              "AphiaID": 154555,
+              "rank": "Suborder",
+              "scientificname": "Paucitubulatina",
+              "child": {
+                "AphiaID": 114416,
+                "rank": "Family",
+                "scientificname": "Chaetonotidae",
+                "child": {
+                  "AphiaID": 371010,
+                  "rank": "Subfamily",
+                  "scientificname": "Chaetonotinae",
+                  "child": {
+                    "AphiaID": 114432,
+                    "rank": "Genus",
+                    "scientificname": "Lepidodermella",
+                    "child": {
+                      "AphiaID": 378207,
+                      "rank": "Species",
+                      "scientificname": "Lepidodermella squamata",
+                      "child": null
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Gnathostomula paradoxa": {
+    "record": {
+      "AphiaID": 114737,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=114737",
+      "scientificname": "Gnathostomula paradoxa",
+      "authority": "Ax, 1956",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 114737,
+      "valid_name": "Gnathostomula paradoxa",
+      "valid_authority": "Ax, 1956",
+      "parentNameUsageID": 114721,
+      "originalNameUsageID": 114737,
+      "kingdom": "Animalia",
+      "phylum": "Gnathostomulida",
+      "class": null,
+      "order": "Bursovaginoidea",
+      "family": "Gnathostomulidae",
+      "genus": "Gnathostomula",
+      "citation": "WoRMS (2026). Gnathostomula paradoxa Ax, 1956. Accessed at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=114737 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:114737",
+      "isMarine": 1,
+      "isBrackish": null,
+      "isFreshwater": null,
+      "isTerrestrial": null,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2006-04-11T13:44:36.633Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 14262,
+          "rank": "Phylum",
+          "scientificname": "Gnathostomulida",
+          "child": {
+            "AphiaID": 19497,
+            "rank": "Order",
+            "scientificname": "Bursovaginoidea",
+            "child": {
+              "AphiaID": 114710,
+              "rank": "Family",
+              "scientificname": "Gnathostomulidae",
+              "child": {
+                "AphiaID": 114721,
+                "rank": "Genus",
+                "scientificname": "Gnathostomula",
+                "child": {
+                  "AphiaID": 114737,
+                  "rank": "Species",
+                  "scientificname": "Gnathostomula paradoxa",
+                  "child": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Limnognathia maerski": {
+    "record": {
+      "AphiaID": 1335354,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1335354",
+      "scientificname": "Limnognathia maerski",
+      "authority": "Kristensen & Funch, 2000",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 1335354,
+      "valid_name": "Limnognathia maerski",
+      "valid_authority": "Kristensen & Funch, 2000",
+      "parentNameUsageID": 1335350,
+      "originalNameUsageID": 1335354,
+      "kingdom": "Animalia",
+      "phylum": "Gnathifera",
+      "class": "Micrognathozoa",
+      "order": "Limnognathida",
+      "family": "Limnognathiidae",
+      "genus": "Limnognathia",
+      "citation": "WoRMS (2026). Limnognathia maerski Kristensen & Funch, 2000. Accessed at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=1335354 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:1335354",
+      "isMarine": 0,
+      "isBrackish": 0,
+      "isFreshwater": 1,
+      "isTerrestrial": 0,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2019-03-22T10:16:41.623Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1335342,
+          "rank": "Phylum",
+          "scientificname": "Gnathifera",
+          "child": {
+            "AphiaID": 1335338,
+            "rank": "Class",
+            "scientificname": "Micrognathozoa",
+            "child": {
+              "AphiaID": 1335348,
+              "rank": "Order",
+              "scientificname": "Limnognathida",
+              "child": {
+                "AphiaID": 1335349,
+                "rank": "Family",
+                "scientificname": "Limnognathiidae",
+                "child": {
+                  "AphiaID": 1335350,
+                  "rank": "Genus",
+                  "scientificname": "Limnognathia",
+                  "child": {
+                    "AphiaID": 1335354,
+                    "rank": "Species",
+                    "scientificname": "Limnognathia maerski",
+                    "child": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Symbion pandora": {
+    "record": {
+      "AphiaID": 106408,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106408",
+      "scientificname": "Symbion pandora",
+      "authority": "Funch & Kristensen, 1995",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 106408,
+      "valid_name": "Symbion pandora",
+      "valid_authority": "Funch & Kristensen, 1995",
+      "parentNameUsageID": 106407,
+      "originalNameUsageID": 106408,
+      "kingdom": "Animalia",
+      "phylum": "Cycliophora",
+      "class": "Eucycliophora",
+      "order": "Symbiida",
+      "family": "Symbiidae",
+      "genus": "Symbion",
+      "citation": "WoRMS (2026). Symbion pandora Funch & Kristensen, 1995. Accessed at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=106408 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:106408",
+      "isMarine": 1,
+      "isBrackish": null,
+      "isFreshwater": null,
+      "isTerrestrial": null,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2010-07-16T09:24:04.590Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 22586,
+          "rank": "Phylum",
+          "scientificname": "Cycliophora",
+          "child": {
+            "AphiaID": 106404,
+            "rank": "Class",
+            "scientificname": "Eucycliophora",
+            "child": {
+              "AphiaID": 106405,
+              "rank": "Order",
+              "scientificname": "Symbiida",
+              "child": {
+                "AphiaID": 106406,
+                "rank": "Family",
+                "scientificname": "Symbiidae",
+                "child": {
+                  "AphiaID": 106407,
+                  "rank": "Genus",
+                  "scientificname": "Symbion",
+                  "child": {
+                    "AphiaID": 106408,
+                    "rank": "Species",
+                    "scientificname": "Symbion pandora",
+                    "child": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Pedicellina cernua": {
+    "record": {
+      "AphiaID": 111806,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=111806",
+      "scientificname": "Pedicellina cernua",
+      "authority": "(Pallas, 1774)",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 111806,
+      "valid_name": "Pedicellina cernua",
+      "valid_authority": "(Pallas, 1774)",
+      "parentNameUsageID": 111796,
+      "originalNameUsageID": 1301166,
+      "kingdom": "Animalia",
+      "phylum": "Entoprocta",
+      "class": null,
+      "order": null,
+      "family": "Pedicellinidae",
+      "genus": "Pedicellina",
+      "citation": "WoRMS (2026). Pedicellina cernua (Pallas, 1774). Accessed at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=111806 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:111806",
+      "isMarine": 1,
+      "isBrackish": 0,
+      "isFreshwater": 0,
+      "isTerrestrial": 0,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2004-12-21T15:54:05Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1271,
+          "rank": "Phylum",
+          "scientificname": "Entoprocta",
+          "child": {
+            "AphiaID": 111793,
+            "rank": "Family",
+            "scientificname": "Pedicellinidae",
+            "child": {
+              "AphiaID": 111796,
+              "rank": "Genus",
+              "scientificname": "Pedicellina",
+              "child": {
+                "AphiaID": 111806,
+                "rank": "Species",
+                "scientificname": "Pedicellina cernua",
+                "child": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Phoronis australis": {
+    "record": {
+      "AphiaID": 128547,
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=128547",
+      "scientificname": "Phoronis australis",
+      "authority": "Haswell, 1883",
+      "status": "accepted",
+      "unacceptreason": null,
+      "taxonRankID": 220,
+      "rank": "Species",
+      "valid_AphiaID": 128547,
+      "valid_name": "Phoronis australis",
+      "valid_authority": "Haswell, 1883",
+      "parentNameUsageID": 128545,
+      "originalNameUsageID": 128547,
+      "kingdom": "Animalia",
+      "phylum": "Phoronida",
+      "class": null,
+      "order": null,
+      "family": "Phoronidae",
+      "genus": "Phoronis",
+      "citation": "WoRMS (2026). Phoronis australis Haswell, 1883. Accessed at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=128547 on 2026-10-13",
+      "lsid": "urn:lsid:marinespecies.org:taxname:128547",
+      "isMarine": 1,
+      "isBrackish": null,
+      "isFreshwater": null,
+      "isTerrestrial": null,
+      "isExtinct": null,
+      "match_type": "exact",
+      "modified": "2019-08-23T13:08:58.810Z"
+    },
+    "classification": {
+      "AphiaID": 1,
+      "rank": "Superdomain",
+      "scientificname": "Biota",
+      "child": {
+        "AphiaID": 2,
+        "rank": "Kingdom",
+        "scientificname": "Animalia",
+        "child": {
+          "AphiaID": 1789,
+          "rank": "Phylum",
+          "scientificname": "Phoronida",
+          "child": {
+            "AphiaID": 148378,
+            "rank": "Family",
+            "scientificname": "Phoronidae",
+            "child": {
+              "AphiaID": 128545,
+              "rank": "Genus",
+              "scientificname": "Phoronis",
+              "child": {
+                "AphiaID": 128547,
+                "rank": "Species",
+                "scientificname": "Phoronis australis",
+                "child": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -855,3 +855,14 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [动吻虫 image set](./species/dujardin-mud-dragon/README.md)
 
 - [铠甲虫 image set](./species/mystic-loriciferan/README.md)
+
+- [鳃曳虫 image set](./species/priapulus-caudatus/README.md)
+- [鳞皮腹毛虫 image set](./species/scaled-gastrotrich/README.md)
+- [颚口虫 image set](./species/paradox-jaw-worm/README.md)
+- [微颚动物 image set](./species/maersk-micrognathozoan/README.md)
+- [潘多拉共生虫 image set](./species/pandora-symbion/README.md)
+- [垂头海索虫 image set](./species/nodding-entoproct/README.md)
+- [南方帚虫 image set](./species/southern-horseshoe-worm/README.md)
+- [水生铁线虫 image set](./species/aquatic-horsehair-worm/README.md)
+- [曼氏血吸虫 image set](./species/manson-blood-fluke/README.md)
+- [蛭态轮虫 image set](./species/wandering-bdelloid/README.md)

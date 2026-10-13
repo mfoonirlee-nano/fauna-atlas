@@ -1,0 +1,576 @@
+[
+  {
+    "slug": "priapulus-caudatus",
+    "scientificName": "Priapulus caudatus",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Priapulida",
+        "zhName": "鳃曳动物门"
+      },
+      "order": {
+        "scientificName": "Priapulomorpha",
+        "zhName": "鳃曳虫目"
+      },
+      "family": {
+        "scientificName": "Priapulidae",
+        "zhName": "Priapulidae"
+      },
+      "genus": {
+        "scientificName": "Priapulus",
+        "zhName": "Priapulus"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/2501343",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "NOAA：鳃曳虫完整标本与结构",
+        "url": "https://apps-afsc.fisheries.noaa.gov/refm/reem/set/PreyData.php?NODC=7400010101",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "吻部显微结构原始研究",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29865393/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "幼体神经系统与发育研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4685585/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "尾部附肢功能研究",
+        "url": "https://www.nature.com/articles/1901216a0",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：名称与分类对照",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=101160",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "scaled-gastrotrich",
+    "scientificName": "Lepidodermella squamata",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Gastrotricha",
+        "zhName": "腹毛动物门"
+      },
+      "order": {
+        "scientificName": "Chaetonotida",
+        "zhName": "鼬虫目"
+      },
+      "family": {
+        "scientificName": "Chaetonotidae",
+        "zhName": "Chaetonotidae"
+      },
+      "genus": {
+        "scientificName": "Lepidodermella",
+        "zhName": "Lepidodermella"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/4281692",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "欧洲腹毛动物名录与原始显微影像",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4563153/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "延迟发育卵壳的超微结构研究",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmor.21659",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：名称与分类对照",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=378207",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "paradox-jaw-worm",
+    "scientificName": "Gnathostomula paradoxa",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Gnathostomulida",
+        "zhName": "颚胃动物门"
+      },
+      "order": {
+        "scientificName": "Bursovaginoidea",
+        "zhName": "囊阴目"
+      },
+      "family": {
+        "scientificName": "Gnathostomulidae",
+        "zhName": "Gnathostomulidae"
+      },
+      "genus": {
+        "scientificName": "Gnathostomula",
+        "zhName": "Gnathostomula"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/2307163",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "咽部超微结构与功能原始研究",
+        "url": "https://doi.org/10.1007/s004350050038",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "Smithsonian：颚胃动物形态与研究记录",
+        "url": "https://repository.si.edu/bitstream/handle/10088/5298/SCtZ-0076-Lo_res.pdf",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "NCBI：物种与文献定位",
+        "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=66783",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：名称与分类对照",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=114737",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "maersk-micrognathozoan",
+    "scientificName": "Limnognathia maerski",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Gnathifera",
+        "zhName": "有颚动物门"
+      },
+      "class": {
+        "scientificName": "Micrognathozoa",
+        "zhName": "微颚动物纲"
+      },
+      "order": {
+        "scientificName": "Limnognathida",
+        "zhName": "微颚动物目"
+      },
+      "family": {
+        "scientificName": "Limnognathiidae",
+        "zhName": "Limnognathiidae"
+      },
+      "genus": {
+        "scientificName": "Limnognathia",
+        "zhName": "Limnognathia"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/4632630",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "原始描述：小颚动物与复杂颚器",
+        "url": "https://pure.au.dk/portal/en/publications/micrognathozoa-a-new-class-with-complicated-jaws-like-those-of-ro/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "肌肉与颚器结构研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333266/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "神经与腹面纤毛结构研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5098970/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "2025 年第二种小颚动物研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11836703/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：名称与分类对照",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1335354",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "pandora-symbion",
+    "scientificName": "Symbion pandora",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Cycliophora",
+        "zhName": "环口动物门"
+      },
+      "class": {
+        "scientificName": "Eucycliophora",
+        "zhName": "真环口纲"
+      },
+      "order": {
+        "scientificName": "Symbiida",
+        "zhName": "共生虫目"
+      },
+      "family": {
+        "scientificName": "Symbiidae",
+        "zhName": "Symbiidae"
+      },
+      "genus": {
+        "scientificName": "Symbion",
+        "zhName": "Symbion"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/2307136",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "侏儒雄性电镜研究与生活史说明",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4398483/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "环口动物研究章节与宿主刚毛影像",
+        "url": "https://www.vliz.be/imisdocs/publications/382320.pdf",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：名称与分类对照",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=106408",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "nodding-entoproct",
+    "scientificName": "Pedicellina cernua",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Entoprocta",
+        "zhName": "内肛动物门"
+      },
+      "family": {
+        "scientificName": "Pedicellinidae",
+        "zhName": "Pedicellinidae"
+      },
+      "genus": {
+        "scientificName": "Pedicellina",
+        "zhName": "Pedicellina"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/5188746",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：接受名称与分布记录",
+        "url": "https://www.marinespecies.org/aphia.php?id=111806&p=taxdetails",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "Liverpool：海索虫群体形态调查",
+        "url": "https://livrepository.liverpool.ac.uk/3174510/1/504529.pdf",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "NOAA 历史调查与形态图",
+        "url": "https://spo.nmfs.noaa.gov/sites/default/files/pdf-content/fish-bull/fb30.5.pdf",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：名称与分类对照",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=111806",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "southern-horseshoe-worm",
+    "scientificName": "Phoronis australis",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Phoronida",
+        "zhName": "帚形动物门"
+      },
+      "family": {
+        "scientificName": "Phoronidae",
+        "zhName": "Phoronidae"
+      },
+      "genus": {
+        "scientificName": "Phoronis",
+        "zhName": "Phoronis"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/5186393",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：接受名称、分布和幼体资料缺口",
+        "url": "https://www.marinespecies.org/aphia.php?id=128547&p=taxdetails",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "筒状海葵与南方帚虫关联的原始研究",
+        "url": "https://doi.org/10.1080/12265071.1998.9647407",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "Australian Museum：管栖关联影像记录",
+        "url": "https://museum-publications.australian.museum/media/dd/Uploads/Documents/35604/ams370_vXV_11_lowres.0a4558f.pdf",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "WoRMS：名称与分类对照",
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=128547",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "aquatic-horsehair-worm",
+    "scientificName": "Gordius aquaticus",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Nematomorpha",
+        "zhName": "线形动物门"
+      },
+      "class": {
+        "scientificName": "Gordioida",
+        "zhName": "铁线虫纲"
+      },
+      "order": {
+        "scientificName": "Gordioidea",
+        "zhName": "铁线虫目"
+      },
+      "family": {
+        "scientificName": "Gordiidae",
+        "zhName": "Gordiidae"
+      },
+      "genus": {
+        "scientificName": "Gordius",
+        "zhName": "Gordius"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/2255445",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "Gordius 属修订与 G. aquaticus 鉴定讨论",
+        "url": "https://doi.org/10.11646/zootaxa.2533.1.1",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "ITIS：水生铁线虫分类记录",
+        "url": "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=64229",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "加那利群岛生物数据库：本种记录",
+        "url": "https://www.biodiversidadcanarias.es/biota/especie/E08208?lang=es&orderByRefer=anioDocumento&orderFormRefer=true",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "manson-blood-fluke",
+    "scientificName": "Schistosoma mansoni",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Platyhelminthes",
+        "zhName": "扁形动物门"
+      },
+      "class": {
+        "scientificName": "Trematoda",
+        "zhName": "Trematoda"
+      },
+      "order": {
+        "scientificName": "Diplostomida",
+        "zhName": "Diplostomida"
+      },
+      "family": {
+        "scientificName": "Schistosomatidae",
+        "zhName": "Schistosomatidae"
+      },
+      "genus": {
+        "scientificName": "Schistosoma",
+        "zhName": "Schistosoma"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/5967489",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "CDC DPDx：成虫形态、卵与生活史",
+        "url": "https://www.cdc.gov/dpdx/schistosomiasis/index.html",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "CDC Yellow Book：分布与传播说明",
+        "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/schistosomiasis.html",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "血吸虫命名历史研究综述",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4723577/",
+        "kind": "general",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "wandering-bdelloid",
+    "scientificName": "Adineta vaga",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Rotifera",
+        "zhName": "轮形动物门"
+      },
+      "class": {
+        "scientificName": "Eurotatoria",
+        "zhName": "真轮虫纲"
+      },
+      "order": {
+        "scientificName": "Bdelloidea",
+        "zhName": "蛭态目"
+      },
+      "family": {
+        "scientificName": "Adinetidae",
+        "zhName": "Adinetidae"
+      },
+      "genus": {
+        "scientificName": "Adineta",
+        "zhName": "Adineta"
+      }
+    },
+    "sources": [
+      {
+        "title": "GBIF：接受名称与原始分类链",
+        "url": "https://www.gbif.org/species/1000794",
+        "kind": "taxonomy",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "日本国立环境研究所：Adineta 形态记录",
+        "url": "https://www.nies.go.jp/chiiki1/protoz/morpho/rotifera/r-adinet.htm",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "染色体级基因组与重组研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8494291/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      },
+      {
+        "title": "卵发生期间非还原性减数分裂研究",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710870/",
+        "kind": "ecology",
+        "accessedAt": "2026-10-13"
+      }
+    ]
+  }
+]

@@ -2520,5 +2520,135 @@
         "bottom": 847
       }
     }
+  },
+  "priapulus-caudatus": {
+    "cover": {
+      "sha256": "19bfa6ce7039ce6a7ec308009d1bc9f498c0d758a4bf96fbac6873208b00a699",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 522,
+        "top": 49,
+        "right": 1480,
+        "bottom": 925
+      }
+    }
+  },
+  "scaled-gastrotrich": {
+    "cover": {
+      "sha256": "c1eff23915b4636fe9d94e4a24e318cbe5dc340be7b208fb6b86b187fa0d9359",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 530,
+        "top": 35,
+        "right": 1394,
+        "bottom": 902
+      }
+    }
+  },
+  "paradox-jaw-worm": {
+    "cover": {
+      "sha256": "52a10d9e335881393fb4db048dc5a4068495f89f7d3ade77e9583ee47b4462f6",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 570,
+        "top": 79,
+        "right": 1405,
+        "bottom": 894
+      }
+    }
+  },
+  "maersk-micrognathozoan": {
+    "cover": {
+      "sha256": "242644597fd1c5ce69fb68ceb348f575b92659b5857fbda55637f94bcab5c7df",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 670,
+        "top": 19,
+        "right": 1240,
+        "bottom": 910
+      }
+    }
+  },
+  "pandora-symbion": {
+    "cover": {
+      "sha256": "91c7947c8d67d18eeb8e46a8c4575cc07846846c3d0d58ba7cf15bbf4c71ce50",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 755,
+        "top": 35,
+        "right": 1335,
+        "bottom": 859
+      }
+    }
+  },
+  "nodding-entoproct": {
+    "cover": {
+      "sha256": "24ff8801f0fb3caf0c8575c23fb7cc1e3b2bbb3c04a81d8db1625517de4563ba",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 518,
+        "top": 60,
+        "right": 1430,
+        "bottom": 818
+      }
+    }
+  },
+  "southern-horseshoe-worm": {
+    "cover": {
+      "sha256": "de24ddaf517dff14158794494edd3bc5df057e1a35dbe6e759abf624ad9fde39",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 708,
+        "top": 19,
+        "right": 1323,
+        "bottom": 958
+      }
+    }
+  },
+  "aquatic-horsehair-worm": {
+    "cover": {
+      "sha256": "8b26591212c0dbee3c8c72704a10f53253b7ef5748ffb7c788282cfbc12d1501",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 766,
+        "top": 101,
+        "right": 1440,
+        "bottom": 900
+      }
+    }
+  },
+  "manson-blood-fluke": {
+    "cover": {
+      "sha256": "04a7c9546a7678e3b8fec56e0cb7b918589c47cb299c2c1c8b07aabf9e56dbe2",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 670,
+        "top": 34,
+        "right": 1413,
+        "bottom": 962
+      }
+    }
+  },
+  "wandering-bdelloid": {
+    "cover": {
+      "sha256": "b8d33e63b4b67bf5297cce8bdaeb8d87ab4d96586a0a5283cf37bda3d25a6bf5",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 594,
+        "top": 56,
+        "right": 1423,
+        "bottom": 936
+      }
+    }
   }
 }

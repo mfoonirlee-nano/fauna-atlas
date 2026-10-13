@@ -592,6 +592,17 @@ import profile587 from './species/benthic-arrow-worm.js';
 import profile588 from './species/dujardin-mud-dragon.js';
 import profile589 from './species/mystic-loriciferan.js';
 
+import profile590 from './species/priapulus-caudatus.js';
+import profile591 from './species/scaled-gastrotrich.js';
+import profile592 from './species/paradox-jaw-worm.js';
+import profile593 from './species/maersk-micrognathozoan.js';
+import profile594 from './species/pandora-symbion.js';
+import profile595 from './species/nodding-entoproct.js';
+import profile596 from './species/southern-horseshoe-worm.js';
+import profile597 from './species/aquatic-horsehair-worm.js';
+import profile598 from './species/manson-blood-fluke.js';
+import profile599 from './species/wandering-bdelloid.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1183,6 +1194,16 @@ export const species: readonly Species[] = [
   profile587,
   profile588,
   profile589,
+  profile590,
+  profile591,
+  profile592,
+  profile593,
+  profile594,
+  profile595,
+  profile596,
+  profile597,
+  profile598,
+  profile599,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

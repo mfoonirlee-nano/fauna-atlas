@@ -5902,4 +5902,104 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 847
   }
 },
+"priapulus-caudatus": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 522,
+    "top": 49,
+    "right": 1480,
+    "bottom": 925
+  }
+},
+"scaled-gastrotrich": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 530,
+    "top": 35,
+    "right": 1394,
+    "bottom": 902
+  }
+},
+"paradox-jaw-worm": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 570,
+    "top": 79,
+    "right": 1405,
+    "bottom": 894
+  }
+},
+"maersk-micrognathozoan": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 670,
+    "top": 19,
+    "right": 1240,
+    "bottom": 910
+  }
+},
+"pandora-symbion": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 755,
+    "top": 35,
+    "right": 1335,
+    "bottom": 859
+  }
+},
+"nodding-entoproct": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 518,
+    "top": 60,
+    "right": 1430,
+    "bottom": 818
+  }
+},
+"southern-horseshoe-worm": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 708,
+    "top": 19,
+    "right": 1323,
+    "bottom": 958
+  }
+},
+"aquatic-horsehair-worm": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 766,
+    "top": 101,
+    "right": 1440,
+    "bottom": 900
+  }
+},
+"manson-blood-fluke": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 670,
+    "top": 34,
+    "right": 1413,
+    "bottom": 962
+  }
+},
+"wandering-bdelloid": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 594,
+    "top": 56,
+    "right": 1423,
+    "bottom": 936
+  }
+},
 };
