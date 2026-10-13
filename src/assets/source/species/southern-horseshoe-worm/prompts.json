@@ -1,0 +1,98 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Remove ALL bead-like terminal bulbs from the ciliated tentacles. Phoronis australis has fine smoothly tapered tentacles along two spirally coiled lophophore arms. Preserve both spiral arms, entire long unsegmented tube-dwelling trunk, posterior ampulla, conceptual transparent tube wall, right placement and quiet left background.",
+      "sourceSha256": "43c00f5c77beaf995d0fbe6c15b4c35d63ae10bc70ccc43f938b7a7a5c426752",
+      "runtimeSha256": "de24ddaf517dff14158794494edd3bc5df057e1a35dbe6e759abf624ad9fde39",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revision": {
+        "previousPrompt": "Scientific-educational species cover, landscape 1536x1024 detailed scientific illustration. Species Phoronis australis. One whole adult dark-brown phoronid in a conceptual transparent tube-wall view, long smooth unsegmented soft trunk with posterior ampulla inside its tube, and complete anterior lophophore whose two dense arms coil SPIRALLY into several turns, with many fine ciliated tentacles along the coils. No flat circular feather-duster fan, no chaetae or segmented annelid body.. Environment marine cerianthid-anemone tube wall macro section without showing anemone. Whole subject at right around 73% width, ALL anatomical features visible with background margins, quiet empty left 40%, x=700..1450 y=100..920. No text, labels, arrows, frame or watermark. Artificial-color reconstruction, not actual photograph.",
+        "previousSourceSha256": "5e7a5fa0163e7e5e767b1619622300705b4ed343943301967b65b014be0e1937"
+      }
+    },
+    {
+      "scene": 2,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Phoronis australis. Observation 盘卷的触手冠: mature lophophore with two spirally coiled arms bearing fine tapering ciliated tentacles, no terminal bulbs. General anatomy: One whole adult dark-brown phoronid in a conceptual transparent tube-wall view, long smooth unsegmented soft trunk with posterior ampulla inside its tube, and complete anterior lophophore whose two dense arms coil SPIRALLY into several turns, with many fine ciliated tentacles along the coils. No flat circular feather-duster fan, no chaetae or segmented annelid body.. Setting marine cerianthid-anemone tube wall macro section without showing anemone. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "f7f333ebad1f5bde42ba45ead68f093d8e120d3cad3f3a1b8473f3a137a0b90d",
+      "runtimeSha256": "9186d6cff205401361014cebdd8c6be4b8d99e090645e582782193cdac7d6e91",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Phoronis australis. Observation 管内的身体: conceptual transparent tube wall showing full unsegmented long trunk and posterior ampulla, lophophore at opening. General anatomy: One whole adult dark-brown phoronid in a conceptual transparent tube-wall view, long smooth unsegmented soft trunk with posterior ampulla inside its tube, and complete anterior lophophore whose two dense arms coil SPIRALLY into several turns, with many fine ciliated tentacles along the coils. No flat circular feather-duster fan, no chaetae or segmented annelid body.. Setting marine cerianthid-anemone tube wall macro section without showing anemone. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "11195eb952129ecfc70104f708c63e5be27395e57a52f89ac36dc16d2b206a7f",
+      "runtimeSha256": "a89f5c6ad8d5e1b9d1c179231285638203c836d9f60f73aa24e715a5d381d809",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 4,
+      "prompt": "Preserve the existing Phoronis australis individuals emerging from a conceptual cutaway tube wall. Add ONE separate circular context inset in upper left showing a complete tube-dwelling Cerianthus anemone with a slender tube and two whorls of smooth long tentacles, and tiny phoronid lophophores emerging from its TUBE WALL. The inset is a different conceptual magnification, not same scale. Keep main phoronid body anatomy and no labels, arrows, numbers or text.",
+      "sourceSha256": "537734f4ea913b993279d3d40d712ad127b8be46aa79088c3adeecd2245faf8a",
+      "runtimeSha256": "868de669c4a979d13228aaaf9cc10c020897677d03db036f0f0539dde26d00b1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revision": {
+        "previousPrompt": "Scientific educational natural illustration, landscape 1536x1024. Species Phoronis australis. Observation 海葵与管壁: separate contextual vignette of cerianthid tube-anemone and tiny Phoronis crowns emerging from its tube wall, not from anemone tentacles. General anatomy: One whole adult dark-brown phoronid in a conceptual transparent tube-wall view, long smooth unsegmented soft trunk with posterior ampulla inside its tube, and complete anterior lophophore whose two dense arms coil SPIRALLY into several turns, with many fine ciliated tentacles along the coils. No flat circular feather-duster fan, no chaetae or segmented annelid body.. Setting marine cerianthid-anemone tube wall macro section without showing anemone. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+        "previousSourceSha256": "aa856a22e603786fa4a63fc1cf71ce804a7fcc317c0b4bd9ab91b5969782e4e5"
+      }
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Phoronis australis. Observation 缩入管内: one phoronid fully withdrawn lophophore within conceptual transparent tube, no exposed crown outside mouth. General anatomy: One whole adult dark-brown phoronid in a conceptual transparent tube-wall view, long smooth unsegmented soft trunk with posterior ampulla inside its tube, and complete anterior lophophore whose two dense arms coil SPIRALLY into several turns, with many fine ciliated tentacles along the coils. No flat circular feather-duster fan, no chaetae or segmented annelid body.. Setting marine cerianthid-anemone tube wall macro section without showing anemone. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "77eb33f8cbb564bded7d21d7ac0331043130ad78ca7e0c4224940fa4eaa60877",
+      "runtimeSha256": "a43404305e3e37c97a6ac030e848f49b6b8496136b7ecfef234ff9a266fe21ce",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Phoronis australis. Observation 触手上的细纤毛: close view of smooth tapering tentacles along spiral arm with short lateral cilia and tiny particles. General anatomy: One whole adult dark-brown phoronid in a conceptual transparent tube-wall view, long smooth unsegmented soft trunk with posterior ampulla inside its tube, and complete anterior lophophore whose two dense arms coil SPIRALLY into several turns, with many fine ciliated tentacles along the coils. No flat circular feather-duster fan, no chaetae or segmented annelid body.. Setting marine cerianthid-anemone tube wall macro section without showing anemone. Requested stage/view takes precedence over adult defaults. Accurate plausible morphology. Artificial microscope colors, conceptual magnification not measured scale. Complete relevant subject with margins, no text, letters, labels, arrows, watermark. Tentacles taper WITHOUT end bulbs. Microscopic cilia are very thin and short; do not invent thick head antennae.",
+      "sourceSha256": "0f49b4cd7364441632e167d7d8be7f7aa87809a65148bad984004ac84c2e8e0c",
+      "runtimeSha256": "73ac63b04c7bd6c5ccaf30d9c20dad46b0725837cdf6b46bb80127a4c03f6b62",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
