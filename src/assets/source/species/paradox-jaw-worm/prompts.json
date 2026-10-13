@@ -1,0 +1,102 @@
+{
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-10-13",
+  "scenes": [
+    {
+      "scene": 1,
+      "prompt": "Use case: scientific-educational. Fauna Atlas canonical species cover. Landscape 1536x1024. Detailed restrained scientific natural illustration. Species Gnathostomula paradoxa. Anatomy: One whole slender transparent unsegmented microscopic jaw worm with rounded anterior, smooth tapered posterior without furca or adhesive toes, fine evenly ciliated epidermis, a tiny internal paired jaw apparatus in the anterior ventral pharynx, no external gigantic jaws, no eyes or jointed legs.. Environment: marine sand-grain interstice, muted blue-grey artificial-color microscopy reconstruction. Composition: complete subject centered at 73% of source width. Entire subject within x=700..1440 and y=100..920. Keep left 40% quiet low contrast empty background. Large readable full subject with real margins around every outer feature. No text, labels, arrows, watermark, frames or anatomical inset panels. Microscopic colors are artificial; not a photograph.",
+      "sourceSha256": "2f7fa07628208cba47fc33dd18678e581de7a7363e41a8522ba6a785cf210cbd",
+      "runtimeSha256": "52a10d9e335881393fb4db048dc5a4068495f89f7d3ade77e9583ee47b4462f6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 2,
+      "prompt": "Use case scientific-educational. Fauna Atlas gallery observation: 全身纤毛. Landscape 1536x1024. Species Gnathostomula paradoxa. General morphology One whole slender transparent unsegmented microscopic jaw worm with rounded anterior, smooth tapered posterior without furca or adhesive toes, fine evenly ciliated epidermis, a tiny internal paired jaw apparatus in the anterior ventral pharynx, no external gigantic jaws, no eyes or jointed legs.. Environment marine sand-grain interstice, muted blue-grey artificial-color microscopy reconstruction. Requested scene: whole slender transparent adult with fine uniformly short epidermal cilia. Restrained detailed scientific illustration with plausible anatomy, artificial microscopic coloration, conceptual magnification not measured scale. Complete relevant structures have generous margins. No text, letters, numeric scales, labels, arrows, watermark or decorative frame.",
+      "sourceSha256": "190f6481e4140d30dd925b9502d2410e3e8feac1eaaff83b020c82af00698704",
+      "runtimeSha256": "85df37ce54b4da0d1812fe50f68fbd1959716afbd97e8a82cc387478d957d507",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 3,
+      "prompt": "Remove ALL long fingerlike antennae and thick tentacle-like projections from the main worm and upper-right anterior enlargement. Gnathostomula paradoxa has a rounded anterior contour with uniform very short fine epidermal cilia; no head tentacles or antennae. Preserve slender worm, internal pharyngeal jaws and paired jaw/basal plate conceptual diagram in lower-right panel; complete animal in left panel.",
+      "sourceSha256": "e576fdb7f609c763a23b2b8270371ede7d0d3078446b7cbcb9e02820155788a5",
+      "runtimeSha256": "68af882825b18addcfeb700b472e9f729dbff2b2bec0f839b35d51daf08b8679",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revision": {
+        "previousPrompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gnathostomula paradoxa. Observation 咽部与颚器: transparent anterior pharynx close-up plus separate tiny paired jaw halves and basal plate schematic, INTERNAL not external mandibles. General anatomy: One whole slender transparent unsegmented microscopic jaw worm with rounded anterior, smooth tapered posterior without furca or adhesive toes, fine evenly ciliated epidermis, a tiny internal paired jaw apparatus in the anterior ventral pharynx, no external gigantic jaws, no eyes or jointed legs.. Setting marine sand-grain interstice, muted blue-grey artificial-color microscopy reconstruction. Prioritize requested stage/view over adult defaults. Accurate plausible morphology. Artificial microscope colors and conceptual magnifications, not measured scale. Entire relevant subject with background margins, no text, letters, labels, arrows, watermark. Tentacles taper without end bulbs.",
+        "previousSourceSha256": "3b9fd88bc5f9f03630a4c1c8c7d5086984651818d0d2d1042ff128a6f8e6101e"
+      }
+    },
+    {
+      "scene": 4,
+      "prompt": "Remove all THREE thick long fingerlike anterior tentacles/antennae. This Gnathostomula paradoxa has only a smooth rounded head contour with uniform fine short epidermal cilia. Preserve anterior ventral mouth near the grain and tiny internal pharyngeal jaws, slender unsegmented body, body pose, sand grains and framing.",
+      "sourceSha256": "76a8341145f039d5f0b0e7b28e1604b66866a3a78e6eb6af793150d729d0d9a6",
+      "runtimeSha256": "1279272388dd6753bd052b0d5e8d4271784a220e4a1b8eeada6ede7ce78969ef",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revision": {
+        "previousPrompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gnathostomula paradoxa. Observation 砂粒表面取食: small jaw worm near film-coated marine grain, tiny food particles at ventral anterior mouth, no external monster jaws. General anatomy: One whole slender transparent unsegmented microscopic jaw worm with rounded anterior, smooth tapered posterior without furca or adhesive toes, fine evenly ciliated epidermis, a tiny internal paired jaw apparatus in the anterior ventral pharynx, no external gigantic jaws, no eyes or jointed legs.. Setting marine sand-grain interstice, muted blue-grey artificial-color microscopy reconstruction. Prioritize requested stage/view over adult defaults. Accurate plausible morphology. Artificial microscope colors and conceptual magnifications, not measured scale. Entire relevant subject with background margins, no text, letters, labels, arrows, watermark. Tentacles taper without end bulbs.",
+        "previousSourceSha256": "f65e1b02fdfa43a42a7c1797464b48bb33bdff1df3ed8ed2b537d76095020168"
+      }
+    },
+    {
+      "scene": 5,
+      "prompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gnathostomula paradoxa. Observation 弯曲的身体: one entire jaw worm gently S curved with uniform short cilia, no appendages. General anatomy: One whole slender transparent unsegmented microscopic jaw worm with rounded anterior, smooth tapered posterior without furca or adhesive toes, fine evenly ciliated epidermis, a tiny internal paired jaw apparatus in the anterior ventral pharynx, no external gigantic jaws, no eyes or jointed legs.. Setting marine sand-grain interstice, muted blue-grey artificial-color microscopy reconstruction. Prioritize requested stage/view over adult defaults. Accurate plausible morphology. Artificial microscope colors and conceptual magnifications, not measured scale. Entire relevant subject with background margins, no text, letters, labels, arrows, watermark. Tentacles taper without end bulbs.",
+      "sourceSha256": "dcfffe6720da59f2746c49359907c7c7e8e05b2bf3a572c413ce698c29ca2cba",
+      "runtimeSha256": "80ea8676871d0d6d7769ccb1f81f93f822d1dc52ff4ab77eede67317f5047017",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": 6,
+      "prompt": "Remove all FOUR thick long anterior tentacles/antennae and any eye-like round spot. Gnathostomula paradoxa has smooth rounded anterior with fine uniformly short epidermal cilia only. Preserve tiny internal pharyngeal jaws, full slender unsegmented body, sand-grain environment and framing.",
+      "sourceSha256": "0c54f6cf976aecf8da14b8e7e4b5f8a450ebe5f10b31f880058b9a2c4ddf5039",
+      "runtimeSha256": "832067607be98b357ad354f0d96fe2e6ae07ce31dc47df6b82f2a22def3c03e7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revision": {
+        "previousPrompt": "Scientific educational natural illustration, landscape 1536x1024. Species Gnathostomula paradoxa. Observation 砂粒间隙: whole jaw worm between porous marine sand grains, microscope reconstruction. General anatomy: One whole slender transparent unsegmented microscopic jaw worm with rounded anterior, smooth tapered posterior without furca or adhesive toes, fine evenly ciliated epidermis, a tiny internal paired jaw apparatus in the anterior ventral pharynx, no external gigantic jaws, no eyes or jointed legs.. Setting marine sand-grain interstice, muted blue-grey artificial-color microscopy reconstruction. Prioritize requested stage/view over adult defaults. Accurate plausible morphology. Artificial microscope colors and conceptual magnifications, not measured scale. Entire relevant subject with background margins, no text, letters, labels, arrows, watermark. Tentacles taper without end bulbs.",
+        "previousSourceSha256": "e61a9583cbfde3559cb8c0021507809282bbfef0aba69356fd1c302633699934"
+      }
+    }
+  ]
+}
