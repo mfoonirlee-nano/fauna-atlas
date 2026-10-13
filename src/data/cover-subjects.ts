@@ -5752,4 +5752,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 766
     }
   },
+  "starlet-sea-anemone": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 698,
+    "top": 50,
+    "right": 1365,
+    "bottom": 881
+  }
+},
+  "kaleidoscope-jellyfish": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 655,
+    "top": 32,
+    "right": 1300,
+    "bottom": 934
+  }
+},
+  "angler-siphonophore": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 640,
+    "top": 22,
+    "right": 1425,
+    "bottom": 992
+  }
+},
+  "ovate-comb-jelly": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 660,
+    "top": 55,
+    "right": 1425,
+    "bottom": 884
+  }
+},
+  "harp-sponge": {
+  "width": 1536,
+  "height": 1024,
+  "bounds": {
+    "left": 690,
+    "top": 40,
+    "right": 1492,
+    "bottom": 925
+  }
+},
 };

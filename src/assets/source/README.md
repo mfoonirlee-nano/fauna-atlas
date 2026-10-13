@@ -825,3 +825,13 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [盘鲍 image set](./species/disk-abalone/README.md)
 - [船蛆 image set](./species/naval-shipworm/README.md)
 - [地纹芋螺 image set](./species/geography-cone/README.md)
+
+- [星状海葵 image set](./species/starlet-sea-anemone/README.md)
+
+- [耳形十字水母 image set](./species/kaleidoscope-jellyfish/README.md)
+
+- [诱饵管水母 image set](./species/angler-siphonophore/README.md)
+
+- [卵形瓜水母 image set](./species/ovate-comb-jelly/README.md)
+
+- [竖琴海绵 image set](./species/harp-sponge/README.md)

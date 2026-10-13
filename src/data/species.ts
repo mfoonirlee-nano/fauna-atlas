@@ -575,6 +575,12 @@ import profile572 from './species/disk-abalone.js';
 import profile573 from './species/naval-shipworm.js';
 import profile574 from './species/geography-cone.js';
 
+import profile575 from './species/starlet-sea-anemone.js';
+import profile576 from './species/kaleidoscope-jellyfish.js';
+import profile577 from './species/angler-siphonophore.js';
+import profile578 from './species/ovate-comb-jelly.js';
+import profile579 from './species/harp-sponge.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1151,6 +1157,11 @@ export const species: readonly Species[] = [
   profile572,
   profile573,
   profile574,
+  profile575,
+  profile576,
+  profile577,
+  profile578,
+  profile579,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

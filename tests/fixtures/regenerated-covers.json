@@ -2325,5 +2325,70 @@
       },
       "sha256": "4489b345aa52adf0aa708c1b294913f8b569583eb5213492198909801fa911a5"
     }
+  },
+  "starlet-sea-anemone": {
+    "cover": {
+      "sha256": "7dc21ddc85921bb9fc5b397e8301e657d876a8213cffc3686c59635c7ce603bb",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 698,
+        "top": 50,
+        "right": 1365,
+        "bottom": 881
+      }
+    }
+  },
+  "kaleidoscope-jellyfish": {
+    "cover": {
+      "sha256": "a7512d5551fe10d2e961e36c3df4cd727d346156b7064dd8783c01221deb9ddc",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 655,
+        "top": 32,
+        "right": 1300,
+        "bottom": 934
+      }
+    }
+  },
+  "angler-siphonophore": {
+    "cover": {
+      "sha256": "7224b4ef4bb7e5ccb99f23fa10bd3747dc72a5d5e04281f58bca496bdbe75f82",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 22,
+        "right": 1425,
+        "bottom": 992
+      }
+    }
+  },
+  "ovate-comb-jelly": {
+    "cover": {
+      "sha256": "5287936b9f9c764818858a397c913b6d2233b8915346026c891b232f69f651f3",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 55,
+        "right": 1425,
+        "bottom": 884
+      }
+    }
+  },
+  "harp-sponge": {
+    "cover": {
+      "sha256": "40b897e23591fbeb4fa0c06882430128d35d8ccceb5eabc1a150144b42b5985e",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 690,
+        "top": 40,
+        "right": 1492,
+        "bottom": 925
+      }
+    }
   }
 }

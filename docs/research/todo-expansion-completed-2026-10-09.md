@@ -1,6 +1,6 @@
 # 2026-10-09 拓展动物清单完成归档
 
-本轮目标为新增 100 种动物；累计完成 75 种，动物目录增至 575 种，活动清单剩余 25 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
+本轮目标为新增 100 种动物；累计完成 80 种，动物目录增至 580 种，活动清单剩余 20 种。每种包含物种档案、一张封面和五张观察图。资料和验收见[首批五种记录](todo-expansion-first-five-2026-10-09.md)、[接续十五种记录](todo-expansion-fifteen-2026-10-09.md)、[鸟类与爬行动物十种记录](todo-expansion-ten-2026-10-09.md)、[接续五种记录](todo-expansion-five-2026-10-10.md)、[两栖动物与鲨鱼五种记录](todo-expansion-next-five-2026-10-10.md)、[鱼类五种记录](todo-expansion-fish-five-2026-10-10.md)、[接续鱼类五种记录](todo-expansion-next-fish-five-2026-10-11.md)、[尾海鞘与昆虫五种记录](todo-expansion-invertebrate-five-2026-10-11.md)和[接续昆虫五种记录](todo-expansion-insects-five-2026-10-11.md)。
 
 - [x] 双足蚓蜥 *Bipes biporus*：蚓蜥类与仅有前肢的身体。共读：“找找头后面的两只小脚。”
 - [x] 大鳗螈 *Siren lacertina*：鳗螈科、外鳃与仅有前肢的身体。共读：“找找头后的小脚和毛刷一样的鳃。”
@@ -116,3 +116,13 @@
 - [x] 盘鲍 *Haliotis discus*：腹足类，补充开放壳形与附着生活。共读：“沿着壳边找找一排小孔。”
 - [x] 船蛆 *Teredo navalis*：双壳类，补充钻木生活与缩小的壳。共读：“用剖面示意找找木头里的身体。”名称里的“蛆”不表示昆虫幼虫。
 - [x] 地纹芋螺 *Conus geographus*：腹足类，补充捕食性螺与毒液。共读：“看看锥形的壳和表面花纹。”齿舌与捕食用示意，不能根据花纹判断接触安全。
+
+## 2026-10-13 海葵、水母与海绵五种
+
+- [x] 星状海葵 *Nematostella vectensis*：刺胞动物，补充小型海葵与河口底栖生活。共读：“找找口周围一圈细触手。”
+- [x] 耳形十字水母 *Haliclystus auricula*：刺胞动物，补充有柄固着的十字水母类。共读：“找找身体下面连在海藻上的柄。”
+- [x] 诱饵管水母（中文名待核） *Erenna sirena*：刺胞动物，补充群体分工与深海诱捕。共读：“沿着群体找找不同形状的小部分。”群体与个员分别说明。[行为依据：MBARI](https://www.mbari.org/animal/angler-siphonophore/)。
+- [x] 卵形瓜水母 *Beroe ovata*：栉水母，补充无触手的栉水母形态。共读：“找找透明身体上整齐的栉板带。”不能写成刺胞动物或套用触手捕食图。
+- [x] 竖琴海绵 *Chondrocladia lyra*：海绵动物，补充捕食性海绵。共读：“看看竖起的小枝怎样排成一排。”不能把所有海绵都描述为滤食者。[行为依据：MBARI](https://www.mbari.org/news/scientists-discover-extraordinary-new-carnivorous-sponge/)。
+
+资料与验收见[本批记录](todo-expansion-jellies-five-2026-10-13.md)。

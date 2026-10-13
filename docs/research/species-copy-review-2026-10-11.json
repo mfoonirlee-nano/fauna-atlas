@@ -26986,6 +26986,186 @@
           ]
         }
       }
+    },
+    {
+      "slug": "starlet-sea-anemone",
+      "scientificName": "Nematostella vectensis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://invasions.si.edu/nemesis/species_summary/52498"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://invasions.si.edu/nemesis/species_summary/52498"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://invasions.si.edu/nemesis/species_summary/52498"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://invasions.si.edu/nemesis/species_summary/52498"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://invasions.si.edu/nemesis/species_summary/52498"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "kaleidoscope-jellyfish",
+      "scientificName": "Haliclystus auricula",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/2051"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/2051"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/2051"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/2051"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marlin.ac.uk/species/detail/2051"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "angler-siphonophore",
+      "scientificName": "Erenna sirena",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/angler-siphonophore/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/angler-siphonophore/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/angler-siphonophore/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/angler-siphonophore/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/animal/angler-siphonophore/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ovate-comb-jelly",
+      "scientificName": "Beroe ovata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9170174/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9170174/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.si.edu/object/beroe-ovata%3Anmnhinvertebratezoology_17186420"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=1719780&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=1719780&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "harp-sponge",
+      "scientificName": "Chondrocladia lyra",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/news/scientists-discover-extraordinary-new-carnivorous-sponge/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/news/scientists-discover-extraordinary-new-carnivorous-sponge/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/news/scientists-discover-extraordinary-new-carnivorous-sponge/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/news/scientists-discover-extraordinary-new-carnivorous-sponge/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mbari.org/news/scientists-discover-extraordinary-new-carnivorous-sponge/"
+          ]
+        }
+      }
     }
   ]
 }
