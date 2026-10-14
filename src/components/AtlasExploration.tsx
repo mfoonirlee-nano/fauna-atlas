@@ -1,6 +1,6 @@
-import { useCallback, useMemo, useRef, useState } from 'react';
+import { useCallback, useId, useMemo, useRef, useState } from 'react';
 import { geoGraticule10, geoPath } from 'd3-geo';
-import { ArrowLeft, ArrowUpRight, Minus, Plus, RotateCcw, Search } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, Compass, Globe2, MapPin, Minus, Plus, RotateCcw, Search } from 'lucide-react';
 import type { SpeciesSummary } from '../types/species';
 import { buildTaxonomyTree, getSpeciesTaxonomyPath, type TaxonomyTreeNode } from '../domain/taxonomy';
 import { clusterSpecies, layoutTaxonomyTiles, mapProjection, projectSpecies, searchExploration } from '../domain/atlas-exploration';
@@ -29,7 +29,25 @@ function SpeciesPreview({ item, onOpenSpecies }: { item?: SpeciesSummary; onOpen
   </div>;
 }
 
+const mapViews = [
+  { name: '全球', center: [0, 0], zoom: 1 },
+  { name: '亚洲', center: [100, 30], zoom: 2 },
+  { name: '非洲', center: [20, 0], zoom: 2 },
+  { name: '欧洲', center: [20, 50], zoom: 4 },
+  { name: '美洲', center: [-85, 10], zoom: 2 },
+  { name: '大洋洲', center: [140, -25], zoom: 4 },
+];
+const realmNames = { terrestrial: '陆地', freshwater: '淡水', marine: '海洋' };
+function coordinates(item: SpeciesSummary) {
+  const point = item.distribution.center;
+  return point && projectSpecies(item) ? `${Math.abs(point.lat).toFixed(1)}°${point.lat < 0 ? 'S' : 'N'} / ${Math.abs(point.lng).toFixed(1)}°${point.lng < 0 ? 'W' : 'E'}` : '暂无代表坐标';
+}
+
 function Geography({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
+  const gradientId = useId();
+  const [viewName, setViewName] = useState('全球');
+  const [hoverKey, setHoverKey] = useState<string>();
+  const [isDragging, setIsDragging] = useState(false);
   const [zoom, setZoom] = useState(1);
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [clusterKey, setClusterKey] = useState<string>();
@@ -37,77 +55,128 @@ function Geography({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
   const drag = useRef<{ x: number; y: number; panX: number; panY: number; moved: boolean; active: boolean } | null>(null);
   const svg = useRef<SVGSVGElement>(null);
   const groups = useMemo(() => clusterSpecies(items, zoom), [items, zoom]);
+  const hoveredGroup = groups.find((group) => group.key === hoverKey);
   const activeGroup = groups.find((group) => group.key === clusterKey);
   const list = activeGroup?.items ?? items;
   const selected = items.find((item) => item.slug === selectedSlug);
   const mappedCount = groups.reduce((sum, group) => sum + group.items.length, 0);
   const select = (item: SpeciesSummary) => {
-    setSelectedSlug(item.slug);
+    setSelectedSlug(item.slug); setHoverKey(undefined);
     const point = projectSpecies(item);
-    if (point) setPan({ x: (500 - point[0]) * zoom, y: (260 - point[1]) * zoom });
+    if (point) {
+      setViewName('物种定位');
+      setPan({ x: (500 - point[0]) * zoom, y: (260 - point[1]) * zoom });
+    }
   };
   const changeZoom = (next: number) => {
     const value = Math.max(1, Math.min(8, next));
     setPan((current) => value === 1 ? { x: 0, y: 0 } : { x: current.x * value / zoom, y: current.y * value / zoom });
-    setZoom(value); setClusterKey(undefined);
+    setZoom(value); setClusterKey(undefined); setHoverKey(undefined);
+    if (value === 1) setViewName('全球');
   };
-  const reset = () => { setZoom(1); setPan({ x: 0, y: 0 }); setClusterKey(undefined); };
-  return <div className="exploration-body">
-    <div className="exploration-map">
-      <div className="exploration-map__controls" role="group" aria-label="地图缩放">
-        <button type="button" aria-label="放大地图" disabled={zoom === 8} onClick={() => changeZoom(zoom * 2)}><Plus size={18} /></button>
-        <button type="button" aria-label="缩小地图" disabled={zoom === 1} onClick={() => changeZoom(zoom / 2)}><Minus size={18} /></button>
-        <button type="button" aria-label="恢复世界地图" onClick={reset}><RotateCcw size={17} /></button>
-        <span>{zoom}×</span>
+  const reset = () => { setZoom(1); setPan({ x: 0, y: 0 }); setClusterKey(undefined); setSelectedSlug(undefined); setHoverKey(undefined); setViewName('全球'); };
+  const focusView = (view: typeof mapViews[number]) => {
+    if (view.zoom === 1) { reset(); return; }
+    const point = mapProjection(view.center as [number, number]);
+    if (!point) return;
+    setZoom(view.zoom); setPan({ x: (500 - point[0]) * view.zoom, y: (260 - point[1]) * view.zoom });
+    setClusterKey(undefined); setSelectedSlug(undefined); setHoverKey(undefined); setViewName(view.name);
+  };
+  const activateGroup = (group: typeof groups[number]) => {
+    setClusterKey(group.key); setSelectedSlug(group.items[0]?.slug); setHoverKey(undefined);
+  };
+  return <div className="exploration-geography">
+    <nav className="exploration-regions" aria-label="地图区域定位">
+      <span><Compass size={15} /> 快速定位</span>
+      {mapViews.map((view) => <button type="button" key={view.name} aria-pressed={viewName === view.name} onClick={() => focusView(view)}>{view.name}</button>)}
+    </nav>
+    <div className="exploration-body">
+      <div className={`exploration-map${isDragging ? ' is-dragging' : ''}`}>
+        <div className="exploration-map__identity"><Globe2 size={20} /><div><strong>{viewName}</strong><span>代表点位 · {groups.length} 处</span></div></div>
+        <div className="exploration-map__controls" role="group" aria-label="地图缩放">
+          <button type="button" aria-label="放大地图" disabled={zoom === 8} onClick={() => changeZoom(zoom * 2)}><Plus size={18} /></button>
+          <button type="button" aria-label="缩小地图" disabled={zoom === 1} onClick={() => changeZoom(zoom / 2)}><Minus size={18} /></button>
+          <button type="button" aria-label="恢复世界地图" onClick={reset}><RotateCcw size={17} /></button>
+          <span>{zoom}×</span>
+        </div>
+        <svg ref={svg} viewBox="0 0 1000 520" tabIndex={0} aria-label="动物代表分布点地图，可拖动地图并点击聚合点选择物种" onKeyDown={(event) => {
+          if (event.target !== event.currentTarget) return;
+          const directions: Record<string, [number, number]> = { ArrowLeft: [60, 0], ArrowRight: [-60, 0], ArrowUp: [0, 60], ArrowDown: [0, -60] };
+          const offset = directions[event.key];
+          if (offset && zoom > 1) {
+            event.preventDefault(); setHoverKey(undefined); setViewName('自由探索');
+            setPan((current) => ({ x: Math.max(-500 * zoom, Math.min(500 * zoom, current.x + offset[0])), y: Math.max(-260 * zoom, Math.min(260 * zoom, current.y + offset[1])) }));
+          }
+          if (event.key === '+' || event.key === '=') { event.preventDefault(); changeZoom(zoom * 2); }
+          if (event.key === '-') { event.preventDefault(); changeZoom(zoom / 2); }
+          if (event.key === 'Escape') reset();
+        }} onPointerDown={(event) => {
+          if (event.button !== 0) return;
+          drag.current = { x: event.clientX, y: event.clientY, panX: pan.x, panY: pan.y, moved: false, active: true };
+        }} onPointerMove={(event) => {
+          if (!drag.current?.active || zoom === 1) return;
+          const dx = event.clientX - drag.current.x, dy = event.clientY - drag.current.y;
+          if (Math.abs(dx) + Math.abs(dy) < 5 && !drag.current.moved) return;
+          drag.current.moved = true; setIsDragging(true); setHoverKey(undefined); setViewName('自由探索');
+          event.currentTarget.setPointerCapture(event.pointerId);
+          const rect = event.currentTarget.getBoundingClientRect();
+          const scale = Math.max(1000 / rect.width, 520 / rect.height);
+          setPan({ x: Math.max(-500 * zoom, Math.min(500 * zoom, drag.current.panX + dx * scale)),
+            y: Math.max(-260 * zoom, Math.min(260 * zoom, drag.current.panY + dy * scale)) });
+        }} onPointerUp={(event) => {
+          if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
+          if (drag.current) drag.current.active = false;
+          setIsDragging(false);
+          // Keep the moved flag through the ensuing click so a drag never selects a point.
+        }} onPointerCancel={() => { drag.current = null; setIsDragging(false); }}>
+          <defs>
+            <radialGradient id={gradientId}><stop offset="0%" stopColor="#254f50" /><stop offset="100%" stopColor="#102e35" /></radialGradient>
+          </defs>
+          <g className="exploration-map__surface" transform={`translate(${500 + pan.x} ${260 + pan.y}) scale(${zoom}) translate(-500 -260)`}>
+            <path className="exploration-ocean" d={spherePath} style={{ fill: `url(#${gradientId})` }} />
+            <path className="exploration-graticule" d={gridPath} />
+            <path className="exploration-land" d={landPath} />
+            {groups.map((group) => <g key={group.key} transform={`translate(${group.x} ${group.y}) scale(${1 / zoom})`}
+              className={`exploration-marker${activeGroup?.key === group.key || group.items.some((item) => item.slug === selectedSlug) ? ' is-active' : ''}`}
+              role="button" tabIndex={0} aria-pressed={activeGroup?.key === group.key || group.items.some((item) => item.slug === selectedSlug)}
+              aria-label={`${group.items.length} 个物种：${group.items.slice(0, 3).map((item) => item.names.zh).join('、')}`}
+              onPointerEnter={() => { if (!drag.current?.active) setHoverKey(group.key); }} onPointerLeave={() => setHoverKey(undefined)}
+              onFocus={() => setHoverKey(group.key)} onBlur={() => setHoverKey(undefined)}
+              onClick={() => { if (drag.current?.moved) return; activateGroup(group); }}
+              onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); activateGroup(group); } }}>
+              <circle className="exploration-marker__halo" r={Math.min(29, 20 + Math.log2(group.items.length + 1) * 2)} />
+              <circle className="exploration-marker__core" r={Math.min(21, 12 + Math.log2(group.items.length + 1) * 2)} />
+              <text textAnchor="middle" dy=".35em">{group.items.length}</text>
+            </g>)}
+            {selected && projectSpecies(selected) && <g className="exploration-selected-point" transform={`translate(${projectSpecies(selected)!.join(' ')}) scale(${1 / zoom})`}>
+              <circle r="26" /><circle r="5" />
+            </g>}
+          </g>
+        </svg>
+        {hoveredGroup && <div className="exploration-map__tooltip" role="status">
+          <span><MapPin size={13} /> {hoveredGroup.items.length} 个物种 · 代表点位</span>
+          <strong>{hoveredGroup.items.slice(0, 3).map((item) => item.names.zh).join('、')}{hoveredGroup.items.length > 3 ? '…' : ''}</strong>
+          <small>{hoveredGroup.items[0]?.distribution.regions[0]} · 点按查看物种</small>
+        </div>}
+        <div className="exploration-map__legend"><span /> 代表点位 <span /> 已选物种</div>
+        <p className="exploration-map__caption">{mappedCount} 个物种有代表坐标 · {items.length - mappedCount} 个物种暂未标点<br />点按数字查看物种 · 放大后拖动或用方向键移动</p>
       </div>
-      <svg ref={svg} viewBox="0 0 1000 520" aria-label="动物代表分布点地图，可拖动地图并点击聚合点选择物种" onPointerDown={(event) => {
-        if (event.button !== 0) return;
-        drag.current = { x: event.clientX, y: event.clientY, panX: pan.x, panY: pan.y, moved: false, active: true };
-      }} onPointerMove={(event) => {
-        if (!drag.current?.active || zoom === 1) return;
-        const dx = event.clientX - drag.current.x, dy = event.clientY - drag.current.y;
-        if (Math.abs(dx) + Math.abs(dy) < 5 && !drag.current.moved) return;
-        drag.current.moved = true;
-        event.currentTarget.setPointerCapture(event.pointerId);
-        const rect = event.currentTarget.getBoundingClientRect();
-        const scale = Math.max(1000 / rect.width, 520 / rect.height);
-        setPan({ x: Math.max(-500 * zoom, Math.min(500 * zoom, drag.current.panX + dx * scale)),
-          y: Math.max(-260 * zoom, Math.min(260 * zoom, drag.current.panY + dy * scale)) });
-      }} onPointerUp={(event) => {
-        if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
-        if (drag.current) drag.current.active = false;
-        // Keep the moved flag through the ensuing click so a drag never selects a point.
-      }} onPointerCancel={() => { drag.current = null; }}>
-        <g transform={`translate(${500 + pan.x} ${260 + pan.y}) scale(${zoom}) translate(-500 -260)`}>
-          <path className="exploration-ocean" d={spherePath} />
-          <path className="exploration-graticule" d={gridPath} />
-          <path className="exploration-land" d={landPath} />
-          {groups.map((group) => <g key={group.key} transform={`translate(${group.x} ${group.y}) scale(${1 / zoom})`}
-            className={`exploration-marker${activeGroup?.key === group.key ? ' is-active' : ''}`}
-            role="button" tabIndex={0} aria-pressed={activeGroup?.key === group.key}
-            aria-label={`${group.items.length} 个物种：${group.items.slice(0, 3).map((item) => item.names.zh).join('、')}`}
-            onClick={() => { if (drag.current?.moved) return; setClusterKey(group.key); setSelectedSlug(group.items[0]?.slug); }}
-            onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); setClusterKey(group.key); setSelectedSlug(group.items[0]?.slug); } }}>
-            <circle r={Math.min(21, 12 + Math.log2(group.items.length + 1) * 2)} />
-            <text textAnchor="middle" dy=".35em">{group.items.length}</text>
-          </g>)}
-          {selected && projectSpecies(selected) && <g className="exploration-selected-point" transform={`translate(${projectSpecies(selected)!.join(' ')}) scale(${1 / zoom})`}>
-            <circle r="26" /><circle r="5" />
-          </g>}
-        </g>
-      </svg>
-      <p className="exploration-map__caption">{mappedCount} 个物种有代表坐标 · {items.length - mappedCount} 个物种暂未标点<br />放大后拖动地图；点按数字，浏览该处的物种。</p>
+      <aside className="exploration-sidebar">
+        <div className="exploration-sidebar__heading"><span>{activeGroup ? '点位内的物种' : '探索物种'} · {list.length}</span>
+          {activeGroup && <button type="button" onClick={() => setClusterKey(undefined)}>查看全部</button>}</div>
+        <div className="exploration-list">{list.map((item) => <button type="button" key={item.slug}
+          aria-pressed={selected?.slug === item.slug} onClick={() => select(item)}>
+          <span className="exploration-list__pin"><MapPin size={15} /></span>
+          <span className="exploration-list__name">{item.names.zh}<i lang="la">{item.scientificName}</i><em>{projectSpecies(item) ? item.distribution.regions[0] : '暂无代表坐标'}</em></span>
+          <ArrowUpRight size={14} className="exploration-list__arrow" />
+        </button>)}</div>
+        {selected ? <div className="exploration-field-note" key={selected.slug}>
+          <div className="exploration-field-note__label"><MapPin size={13} /> 物种定位 <span>{coordinates(selected)}</span></div>
+          <SpeciesPreview item={selected} onOpenSpecies={onOpenSpecies} />
+          <div className="exploration-realm-tags">{selected.distribution.realms.map((realm) => <span key={realm}>{realmNames[realm]}</span>)}</div>
+        </div> : <div className="exploration-map__invitation"><Compass size={28} /><strong>从一个点位开始</strong><p>悬停或聚焦数字预览物种，点按后查看地区与档案。</p></div>}
+      </aside>
     </div>
-    <aside className="exploration-sidebar">
-      <div className="exploration-sidebar__heading"><span>{activeGroup ? '选中点位' : '搜索结果'} · {list.length}</span>
-        {activeGroup && <button type="button" onClick={() => setClusterKey(undefined)}>查看全部</button>}</div>
-      <div className="exploration-list">{list.map((item) => <button type="button" key={item.slug}
-        aria-pressed={selected?.slug === item.slug} onClick={() => select(item)}>
-        <span>{item.names.zh}<i lang="la">{item.scientificName}</i></span>
-        <small>{projectSpecies(item) ? item.distribution.regions[0] : '暂无代表坐标'}</small>
-      </button>)}</div>
-      <SpeciesPreview item={selected} onOpenSpecies={onOpenSpecies} />
-    </aside>
   </div>;
 }
 
@@ -177,7 +246,7 @@ export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
   const [realm, setRealm] = useState('');
   const results = useMemo(() => searchExploration(items, query, realm), [items, query, realm]);
   const geography = mode === 'geography';
-  return <section className="atlas-exploration" aria-labelledby="exploration-title">
+  return <section className={`atlas-exploration${geography ? ' atlas-exploration--geography' : ''}`} aria-labelledby="exploration-title">
     <div className="exploration-workspace">
       <header className="exploration-heading">
         <div><p>{geography ? 'GEOGRAPHIC ATLAS' : 'TAXONOMY MOSAIC'}</p><h2 id="exploration-title">{geography ? '沿着地图，认识动物' : '在一屏里，探索动物分类'}</h2></div>
