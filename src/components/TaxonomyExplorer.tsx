@@ -1,5 +1,5 @@
 // PROTOTYPE — Three homepage taxonomy directions, switchable with ?variant=A|B|C.
-import { ArrowUpRight, GitBranch, Globe2 } from 'lucide-react';
+import { ArrowUpRight, GitBranch, Globe2, LayoutGrid } from 'lucide-react';
 import { lazy, Suspense, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import {
   TAXONOMY_RANKS,
@@ -754,7 +754,7 @@ function VariantC({ items, tree, theme, onOpenSpecies }: VariantProps) {
 export function TaxonomyExplorer({ items, theme, onOpenSpecies }: TaxonomyExplorerProps) {
   const tree = useMemo(() => buildTaxonomyTree(items), [items]);
   const [variant, setVariant] = useState<PrototypeVariantKey>(readPrototypeVariant);
-  const [view, setView] = useState<'tree' | 'geography'>('tree');
+  const [view, setView] = useState<'tree' | 'geography' | 'compact'>('tree');
 
   useEffect(() => {
     if (!import.meta.env.DEV) return undefined;
@@ -780,6 +780,7 @@ export function TaxonomyExplorer({ items, theme, onOpenSpecies }: TaxonomyExplor
       <nav id="taxonomy" className="atlas-view-switch" aria-label="动物图谱展示方式">
         <button type="button" aria-pressed={view === 'tree'} onClick={() => setView('tree')}><GitBranch size={16} />树形图谱</button>
         <button type="button" aria-pressed={view === 'geography'} onClick={() => setView('geography')}><Globe2 size={16} />地理分布</button>
+        <button type="button" aria-pressed={view === 'compact'} onClick={() => setView('compact')}><LayoutGrid size={16} />单屏总览</button>
       </nav>
       {view !== 'tree' && <Suspense fallback={<p className="exploration-loading" role="status">正在加载图谱…</p>}>
         <AtlasExploration key={view} items={items} mode={view} onOpenSpecies={onOpenSpecies} />

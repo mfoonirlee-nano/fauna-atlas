@@ -1,9 +1,9 @@
-import { useMemo, useRef, useState } from 'react';
+import { useCallback, useMemo, useRef, useState } from 'react';
 import { geoGraticule10, geoPath } from 'd3-geo';
-import { ArrowUpRight, Minus, Plus, RotateCcw, Search } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, Minus, Plus, RotateCcw, Search } from 'lucide-react';
 import type { SpeciesSummary } from '../types/species';
-import { getSpeciesTaxonomyPath } from '../domain/taxonomy';
-import { clusterSpecies, mapProjection, projectSpecies, searchExploration } from '../domain/atlas-exploration';
+import { buildTaxonomyTree, getSpeciesTaxonomyPath, type TaxonomyTreeNode } from '../domain/taxonomy';
+import { clusterSpecies, layoutTaxonomyTiles, mapProjection, projectSpecies, searchExploration } from '../domain/atlas-exploration';
 import landJson from '../data/maps/land.geojson?raw';
 import './AtlasExploration.css';
 
@@ -11,10 +11,11 @@ const path = geoPath(mapProjection);
 const landPath = path(JSON.parse(landJson)) ?? '';
 const gridPath = path(geoGraticule10()) ?? '';
 const spherePath = path({ type: 'Sphere' }) ?? '';
+const ranks = { kingdom: '界', phylum: '门', class: '纲', order: '目', family: '科', genus: '属', species: '种' };
 
 interface Props {
   readonly items: readonly SpeciesSummary[];
-  readonly mode: 'geography';
+  readonly mode: 'geography' | 'compact';
   readonly onOpenSpecies: (item: SpeciesSummary) => void;
 }
 
@@ -110,6 +111,67 @@ function Geography({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
   </div>;
 }
 
+function CompactTaxonomy({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
+  const tree = useMemo(() => buildTaxonomyTree(items), [items]);
+  const overviewKeys = tree.length === 1 ? [tree[0]!.key] : [];
+  const [focusKeys, setFocusKeys] = useState<string[]>(() => overviewKeys);
+  const [selectedSlug, setSelectedSlug] = useState<string>();
+  const [size, setSize] = useState({ width: 800, height: 480 });
+  // Callback ref cleans up its observer when React detaches the surface.
+  const measure = useCallback((element: HTMLDivElement | null) => {
+    if (!element) return;
+    const observer = new ResizeObserver(([entry]) => {
+      if (entry) setSize({ width: Math.max(1, entry.contentRect.width), height: Math.max(1, entry.contentRect.height) });
+    });
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
+  let children: readonly TaxonomyTreeNode[] = tree;
+  const trail: TaxonomyTreeNode[] = [];
+  for (const key of focusKeys) {
+    const node = children.find((child) => child.key === key);
+    if (!node || node.kind === 'species') break;
+    trail.push(node); children = node.children;
+  }
+  const tiles = useMemo(() => layoutTaxonomyTiles(children, size.width, size.height), [children, size]);
+  const selected = items.find((item) => item.slug === selectedSlug);
+  const activate = (node: TaxonomyTreeNode) => {
+    if (node.kind === 'species') setSelectedSlug(node.species.slug);
+    else { setFocusKeys([...trail.map((entry) => entry.key), node.key]); setSelectedSlug(undefined); }
+  };
+  return <>
+    <nav className="exploration-breadcrumb" aria-label="当前分类路径">
+      <button type="button" onClick={() => { setFocusKeys(overviewKeys); setSelectedSlug(undefined); }}>动物总览</button>
+      {trail.map((node, index) => <button type="button" key={node.key} onClick={() => setFocusKeys(trail.slice(0, index + 1).map((entry) => entry.key))}>
+        <span aria-hidden="true">› </span>{node.kind === 'taxon' ? node.taxon.zhName : ''}</button>)}
+      <button type="button" disabled={trail.length <= overviewKeys.length} onClick={() => setFocusKeys(trail.slice(0, -1).map((node) => node.key))}><ArrowLeft size={14} /> 返回上一级</button>
+    </nav>
+    <div className="exploration-body">
+      <div className="exploration-tiles" ref={measure} aria-label="按已收录物种数量划分面积的分类总览">
+        {tiles.map((tile, index) => <button type="button" key={tile.node.key}
+          className={`exploration-tile exploration-tile--${index % 5}${tile.width < 72 || tile.height < 54 ? ' exploration-tile--small' : ''}`}
+          style={{ left: tile.x, top: tile.y, width: tile.width, height: tile.height }}
+          aria-label={`${tile.node.kind === 'taxon' ? tile.node.taxon.zhName : tile.node.species.names.zh}，${ranks[tile.node.rank]}，${tile.node.speciesCount} 个物种`}
+          title={tile.node.kind === 'taxon' ? tile.node.taxon.zhName : tile.node.species.names.zh}
+          onClick={() => activate(tile.node)}>
+          <small>{ranks[tile.node.rank]} · {tile.node.speciesCount}</small>
+          <strong>{tile.node.kind === 'taxon' ? tile.node.taxon.zhName : tile.node.species.names.zh}</strong>
+          <i lang="la">{tile.node.kind === 'taxon' ? tile.node.taxon.scientificName : tile.node.species.scientificName}</i>
+        </button>)}
+      </div>
+      <aside className="exploration-sidebar">
+        <div className="exploration-sidebar__heading"><span>当前分类单元 · {children.length}</span></div>
+        <div className="exploration-list">{children.map((node) => <button type="button" key={node.key} onClick={() => activate(node)}>
+          <span>{node.kind === 'taxon' ? node.taxon.zhName : node.species.names.zh}
+            <i lang="la">{node.kind === 'taxon' ? node.taxon.scientificName : node.species.scientificName}</i></span>
+          <small>{ranks[node.rank]} · {node.speciesCount}</small>
+        </button>)}</div>
+        <SpeciesPreview item={selected} onOpenSpecies={onOpenSpecies} />
+      </aside>
+    </div>
+  </>;
+}
+
 export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
   const [query, setQuery] = useState('');
   const [realm, setRealm] = useState('');
@@ -128,7 +190,9 @@ export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
         </select>
         {(query || realm) && <button type="button" onClick={() => { setQuery(''); setRealm(''); }}>清除筛选</button>}
       </div>
-      {results.length ? <Geography key={`${query}:${realm}`} items={results} onOpenSpecies={onOpenSpecies} />
+      {results.length ? geography
+        ? <Geography key={`${query}:${realm}`} items={results} onOpenSpecies={onOpenSpecies} />
+        : <CompactTaxonomy key={`${query}:${realm}`} items={results} onOpenSpecies={onOpenSpecies} />
         : <div className="exploration-empty" role="status">没有找到匹配的动物。试试动物中文名、学名或地区名称。</div>}
       <footer className="exploration-footnote">{geography
         ? '点位仅表示档案的代表位置，不代表完整分布范围或野外观察记录。底图：Natural Earth。'

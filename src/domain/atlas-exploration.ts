@@ -1,5 +1,7 @@
 import { geoEqualEarth } from 'd3-geo';
+import { hierarchy, treemap } from 'd3-hierarchy';
 import type { SpeciesSummary } from '../types/species';
+import type { TaxonomyTreeNode } from './taxonomy';
 
 export const mapProjection = geoEqualEarth().scale(175).translate([500, 260]);
 
@@ -35,4 +37,15 @@ export function clusterSpecies(items: readonly SpeciesSummary[], zoom: number) {
   return [...groups.values()].map((group) => ({
     ...group, x: group.x / group.items.length, y: group.y / group.items.length,
   }));
+}
+
+/** Lay out immediate children only, so every level stays readable in one viewport. */
+export function layoutTaxonomyTiles(nodes: readonly TaxonomyTreeNode[], width: number, height: number) {
+  const root = hierarchy<{ children?: readonly TaxonomyTreeNode[]; node?: TaxonomyTreeNode }>(
+    { children: nodes },
+    (data) => data.children?.map((node) => ({ node })),
+  ).sum((data) => data.node?.speciesCount ?? 0).sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
+  return treemap<typeof root.data>().size([width, height]).paddingInner(5).round(true)(root)
+    .children?.map((tile) => ({ node: tile.data.node!, x: tile.x0, y: tile.y0,
+      width: tile.x1 - tile.x0, height: tile.y1 - tile.y0 })) ?? [];
 }

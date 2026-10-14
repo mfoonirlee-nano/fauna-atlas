@@ -42,6 +42,17 @@ test('map aggregation preserves documented points and search includes taxonomy a
     assert.equal(new Set(slugs).size, slugs.length);
     assert.ok(groups.every((group) => Number.isFinite(group.x) && Number.isFinite(group.y)));
   }
+  const { buildTaxonomyTree } = await server.ssrLoadModule('/src/domain/taxonomy.ts');
+  const visit = (nodes) => {
+    const tiles = domain.layoutTaxonomyTiles(nodes, 320, 220);
+    assert.equal(tiles.length, nodes.length);
+    for (const tile of tiles) {
+      assert.ok(tile.x >= 0 && tile.y >= 0 && tile.width >= 0 && tile.height >= 0);
+      assert.ok(tile.x + tile.width <= 320 && tile.y + tile.height <= 220);
+      if (tile.node.kind === 'taxon') visit(tile.node.children);
+    }
+  };
+  visit(buildTaxonomyTree(species));
 });
 
 test('geographic map clusters, zoom, coordinate omissions and profile actions work', async (context) => {
@@ -69,4 +80,21 @@ test('geographic map clusters, zoom, coordinate omissions and profile actions wo
   assert.ok(document.querySelector('.exploration-empty'));
   await act(() => [...document.querySelectorAll('button')].find((button) => button.textContent === '清除筛选').click());
   assert.equal(document.querySelectorAll('.exploration-list > button').length, 2);
+});
+
+test('single-screen taxonomy drills through existing ranks, opens species and returns to overview', async (context) => {
+  const { root, species, AtlasExploration } = await setup(context);
+  // A documented path with no assigned order must remain navigable.
+  const item = species.find((item) => item.slug === 'kowalevsky-acorn-worm');
+  assert.ok(item && !item.taxonomy.order);
+  let opened;
+  await act(() => root.render(createElement(AtlasExploration, { items: [item], mode: 'compact', onOpenSpecies: (value) => { opened = value; } })));
+  const rankCount = Object.values(item.taxonomy).length;
+  for (let i = 1; i < rankCount; i++) await act(() => document.querySelector('.exploration-tile').click());
+  assert.equal(document.querySelectorAll('.exploration-breadcrumb button').length, rankCount + 2);
+  await act(() => document.querySelector('.exploration-tile').click());
+  await act(() => document.querySelector('.exploration-preview button').click());
+  assert.equal(opened.slug, item.slug);
+  await act(() => document.querySelector('.exploration-breadcrumb button').click());
+  assert.equal(document.querySelectorAll('.exploration-breadcrumb button').length, 3);
 });

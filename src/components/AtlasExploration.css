@@ -46,7 +46,23 @@
 .exploration-map__controls button { display: grid; place-items: center; width: 36px; height: 36px; color: var(--forest); }
 .exploration-map__controls span { font-size: .7rem; padding: 0 8px; }
 .exploration-map__caption { position: absolute; bottom: 8px; left: 12px; margin: 0; padding: 6px; background: color-mix(in srgb, var(--paper) 90%, transparent); color: var(--muted); font-size: .65rem; line-height: 1.6; pointer-events: none; }
+.exploration-breadcrumb { display: flex; gap: 9px; flex-wrap: wrap; align-items: center; max-height: 70px; overflow: auto; flex-shrink: 0; }
+.exploration-breadcrumb button { display: flex; gap: 5px; align-items: center; font-size: .75rem; color: var(--forest); padding: 4px 0; }
+.exploration-breadcrumb button:last-child { margin-left: auto; }
 .exploration-workspace button:disabled { opacity: .4; cursor: default; }
+.exploration-tiles { position: relative; min-height: 0; overflow: hidden; }
+.exploration-tile { position: absolute; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; overflow: hidden; padding: 12px; border: 1px solid var(--line); color: var(--ink); text-align: left; background: color-mix(in srgb, var(--forest) 18%, var(--paper)); }
+.exploration-tile--1 { background: color-mix(in srgb, var(--rust) 23%, var(--paper)); }
+.exploration-tile--2 { background: color-mix(in srgb, var(--sun) 30%, var(--paper)); }
+.exploration-tile--3 { background: color-mix(in srgb, var(--forest) 30%, var(--paper)); }
+.exploration-tile--4 { background: color-mix(in srgb, var(--rust) 12%, var(--paper)); }
+.exploration-tile:hover { filter: brightness(1.05); border-color: var(--forest); }
+.exploration-tile small { font-size: .65rem; color: var(--muted); white-space: nowrap; }
+.exploration-tile strong { font: 500 clamp(.85rem, 1.6vw, 1.5rem)/1.3 var(--serif); margin: 5px 0; overflow-wrap: anywhere; }
+.exploration-tile i { font-size: .65rem; overflow-wrap: anywhere; }
+.exploration-tile--small { padding: 3px; }
+.exploration-tile--small strong { font: 500 .65rem/1.2 var(--sans); }
+.exploration-tile--small small, .exploration-tile--small i { display: none; }
 .exploration-footnote { font-size: .65rem; line-height: 1.6; color: var(--muted); flex-shrink: 0; }
 .exploration-empty { display: grid; place-items: center; text-align: center; flex: 1; font-size: .85rem; }
 @media (max-width: 760px) {
