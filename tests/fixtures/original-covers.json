@@ -5211,5 +5211,70 @@
         "bottom": 900
       }
     }
+  },
+  "domestic-goat": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 715,
+        "top": 150,
+        "right": 1442,
+        "bottom": 873
+      },
+      "sha256": "09e844f5304560f681f27883600bbff2fcba2dccd32c45c9464ff84280ecfa08"
+    }
+  },
+  "domestic-pig": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 207,
+        "right": 1455,
+        "bottom": 930
+      },
+      "sha256": "ec453ddf296a87d1b256e9010bb2084dee6d100446907682e2c81a0ceab623e6"
+    }
+  },
+  "domestic-chicken": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 648,
+        "top": 32,
+        "right": 1402,
+        "bottom": 951
+      },
+      "sha256": "ba7be82e54c74ddcf3fbf46e57319f3ad6eca3b551e8d7472dbe8d9f8dad922a"
+    }
+  },
+  "rock-pigeon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 730,
+        "top": 64,
+        "right": 1518,
+        "bottom": 948
+      },
+      "sha256": "df402760639d9dad267661913675daa100d74b6fd86d678b023e79b9cb8fd08f"
+    }
+  },
+  "little-egret": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 767,
+        "top": 60,
+        "right": 1504,
+        "bottom": 938
+      },
+      "sha256": "97d3c052e136c31c24eebed4af554a2ae8d8f2a67263eff5b0366960c866bf6f"
+    }
   }
 }

@@ -872,3 +872,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [家驴 image set](./species/domestic-donkey/README.md)
 - [家牛 image set](./species/domestic-cattle/README.md)
 - [绵羊 image set](./species/domestic-sheep/README.md)
+
+- [domestic-goat image set](./species/domestic-goat/README.md)
+- [domestic-pig image set](./species/domestic-pig/README.md)
+- [domestic-chicken image set](./species/domestic-chicken/README.md)
+- [rock-pigeon image set](./species/rock-pigeon/README.md)
+- [little-egret image set](./species/little-egret/README.md)

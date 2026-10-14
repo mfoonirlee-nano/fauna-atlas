@@ -6052,4 +6052,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
     "bottom": 900
   }
 },
+  "domestic-goat": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 715,
+      "top": 150,
+      "right": 1442,
+      "bottom": 873
+    }
+  },
+  "domestic-pig": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 207,
+      "right": 1455,
+      "bottom": 930
+    }
+  },
+  "domestic-chicken": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 648,
+      "top": 32,
+      "right": 1402,
+      "bottom": 951
+    }
+  },
+  "rock-pigeon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 730,
+      "top": 64,
+      "right": 1518,
+      "bottom": 948
+    }
+  },
+  "little-egret": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 767,
+      "top": 60,
+      "right": 1504,
+      "bottom": 938
+    }
+  }
 };

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "605 animal species profiles; 560 historical baseline reviews and 45 additions through 2026-10-13; microbial topics excluded",
+  "scope": "610 animal species profiles; 560 historical baseline reviews and 50 additions through 2026-10-14; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 45,
-    "addedProfilesReviewDate": "2026-10-13",
+    "addedProfiles": 50,
+    "addedProfilesReviewDate": "2026-10-14",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -28296,7 +28296,238 @@
       "notes": [
         "家养范围；品种不另计物种；保护状态不套用野生祖先。"
       ]
+    },
+    {
+      "slug": "domestic-goat",
+      "name": "山羊",
+      "scientificName": "Capra hircus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Capra_hircus/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Capra_hircus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Capra_hircus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441056"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441056"
+          ]
+        }
+      },
+      "notes": [
+        "本档案采用 GBIF 接受名 Capra hircus，记录家养山羊；Capra 与绵羊所在的 Ovis 是不同属。其他资料可能将家山羊作为野生山羊下的驯化形式，家养品种不另计物种。"
+      ]
+    },
+    {
+      "slug": "domestic-pig",
+      "name": "家猪",
+      "scientificName": "Sus scrofa",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.rspca.org.uk/adviceandwelfare/farm/pigs",
+            "https://www.rspca.org.uk/adviceandwelfare/farm/farmanimals/pigs/care",
+            "https://animaldiversity.org/accounts/Sus_scrofa/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.rspca.org.uk/adviceandwelfare/farm/pigs",
+            "https://www.rspca.org.uk/adviceandwelfare/farm/farmanimals/pigs/care",
+            "https://animaldiversity.org/accounts/Sus_scrofa/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.rspca.org.uk/adviceandwelfare/farm/pigs",
+            "https://www.rspca.org.uk/adviceandwelfare/farm/farmanimals/pigs/care",
+            "https://animaldiversity.org/accounts/Sus_scrofa/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7705930"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7705930"
+          ]
+        }
+      },
+      "notes": [
+        "本档案用 Sus scrofa 定位家猪主题，明确限定驯化动物。GBIF 的物种范围也包含野猪，因此不会另外把家猪品种计为新物种；野猪的生活范围和评估不能直接代表家猪。"
+      ]
+    },
+    {
+      "slug": "domestic-chicken",
+      "name": "家鸡",
+      "scientificName": "Gallus gallus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://poultry.extension.org/articles/poultry-behavior/normal-behaviors-of-chickens-in-small-and-backyard-poultry-flocks/",
+            "https://poultry.extension.org/articles/poultry-related-youth-programs/what-does-a-chicken-eat/",
+            "https://poultry.extension.org/articles/poultry-anatomy/avian-embryology/",
+            "https://animaldiversity.org/accounts/Gallus_gallus/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://poultry.extension.org/articles/poultry-behavior/normal-behaviors-of-chickens-in-small-and-backyard-poultry-flocks/",
+            "https://poultry.extension.org/articles/poultry-related-youth-programs/what-does-a-chicken-eat/",
+            "https://poultry.extension.org/articles/poultry-anatomy/avian-embryology/",
+            "https://animaldiversity.org/accounts/Gallus_gallus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://poultry.extension.org/articles/poultry-behavior/normal-behaviors-of-chickens-in-small-and-backyard-poultry-flocks/",
+            "https://poultry.extension.org/articles/poultry-related-youth-programs/what-does-a-chicken-eat/",
+            "https://poultry.extension.org/articles/poultry-anatomy/avian-embryology/",
+            "https://animaldiversity.org/accounts/Gallus_gallus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/9326020"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/9326020"
+          ]
+        }
+      },
+      "notes": [
+        "本档案以 Gallus gallus 记录家鸡主题。这个接受物种名也涵盖红原鸡，正文限定驯化范围；常见的 Gallus gallus domesticus 写法表达家养形式，家鸡品种不新增物种节点。"
+      ]
+    },
+    {
+      "slug": "rock-pigeon",
+      "name": "原鸽",
+      "scientificName": "Columba livia",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Columba_livia/",
+            "https://www.allaboutbirds.org/guide/Rock_Pigeon/lifehistory",
+            "https://www.bto.org/learn/about-birds/birdfacts/rock-dove",
+            "https://www.allaboutbirds.org/guide/Common_Wood-Pigeon/overview"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://animaldiversity.org/accounts/Columba_livia/",
+            "https://www.allaboutbirds.org/guide/Rock_Pigeon/lifehistory",
+            "https://www.bto.org/learn/about-birds/birdfacts/rock-dove"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Columba_livia/",
+            "https://www.allaboutbirds.org/guide/Rock_Pigeon/lifehistory",
+            "https://www.bto.org/learn/about-birds/birdfacts/rock-dove"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2495414"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2495414"
+          ]
+        }
+      },
+      "notes": [
+        "本档案采用 Columba livia，涵盖野生原鸽及其家养、野化后代。广场上的城市鸽多与家养后代有关，不能把城市观察记录当作原生野生种群；家鸽品种不另计物种。"
+      ]
+    },
+    {
+      "slug": "little-egret",
+      "name": "白鹭",
+      "scientificName": "Egretta garzetta",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0170/023500",
+            "https://www.bto.org/learn/about-birds/birdfacts/little-egret",
+            "https://birdlife.org.au/bird-profiles/little-egret/",
+            "https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T62774969A154819214.en"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0170/023500",
+            "https://www.bto.org/learn/about-birds/birdfacts/little-egret",
+            "https://birdlife.org.au/bird-profiles/little-egret/",
+            "https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T62774969A154819214.en"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0170/023500",
+            "https://www.bto.org/learn/about-birds/birdfacts/little-egret",
+            "https://birdlife.org.au/bird-profiles/little-egret/",
+            "https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T62774969A154819214.en"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2480876"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2480876"
+          ]
+        }
+      },
+      "notes": [
+        "本档案的白鹭指 Egretta garzetta，又称小白鹭，属于鹭科白鹭属。大白鹭、中白鹭和其他白色鹭鸟另有物种身份，不能只按白色羽毛合并。"
+      ]
     }
   ],
-  "updatedAt": "2026-10-13"
+  "updatedAt": "2026-10-14"
 }
