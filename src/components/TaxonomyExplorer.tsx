@@ -1,6 +1,6 @@
 // PROTOTYPE — Three homepage taxonomy directions, switchable with ?variant=A|B|C.
-import { ArrowUpRight } from 'lucide-react';
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { ArrowUpRight, GitBranch, Globe2 } from 'lucide-react';
+import { lazy, Suspense, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import {
   TAXONOMY_RANKS,
   buildTaxonomyTree,
@@ -24,6 +24,8 @@ import {
   type TaxonomyDiagramNode,
 } from './TaxonomyDiagram';
 import './TaxonomyExplorer.css';
+
+const AtlasExploration = lazy(() => import('./AtlasExploration').then((module) => ({ default: module.AtlasExploration })));
 
 interface TaxonomyExplorerProps {
   readonly items: readonly Species[];
@@ -466,7 +468,6 @@ function VariantA({ items, tree, theme, onOpenSpecies }: VariantProps) {
   return (
     <section
       className="taxonomy-explorer taxonomy-explorer--overview"
-      id="taxonomy"
       aria-labelledby="taxonomy-title"
       aria-describedby="taxonomy-description"
     >
@@ -554,7 +555,6 @@ function VariantB({ items, tree, theme, onOpenSpecies }: VariantProps) {
   return (
     <section
       className="taxonomy-explorer taxonomy-explorer--lineage"
-      id="taxonomy"
       aria-labelledby="taxonomy-title"
       aria-describedby="taxonomy-description"
     >
@@ -676,7 +676,6 @@ function VariantC({ items, tree, theme, onOpenSpecies }: VariantProps) {
   return (
     <section
       className="taxonomy-explorer taxonomy-explorer--focus"
-      id="taxonomy"
       aria-labelledby="taxonomy-title"
       aria-describedby="taxonomy-description"
     >
@@ -755,6 +754,7 @@ function VariantC({ items, tree, theme, onOpenSpecies }: VariantProps) {
 export function TaxonomyExplorer({ items, theme, onOpenSpecies }: TaxonomyExplorerProps) {
   const tree = useMemo(() => buildTaxonomyTree(items), [items]);
   const [variant, setVariant] = useState<PrototypeVariantKey>(readPrototypeVariant);
+  const [view, setView] = useState<'tree' | 'geography'>('tree');
 
   useEffect(() => {
     if (!import.meta.env.DEV) return undefined;
@@ -777,10 +777,17 @@ export function TaxonomyExplorer({ items, theme, onOpenSpecies }: TaxonomyExplor
 
   return (
     <>
-      {(!import.meta.env.DEV || variant === 'A') && <VariantA {...props} />}
-      {import.meta.env.DEV && variant === 'B' && <VariantB {...props} />}
-      {import.meta.env.DEV && variant === 'C' && <VariantC {...props} />}
-      {import.meta.env.DEV && (
+      <nav id="taxonomy" className="atlas-view-switch" aria-label="动物图谱展示方式">
+        <button type="button" aria-pressed={view === 'tree'} onClick={() => setView('tree')}><GitBranch size={16} />树形图谱</button>
+        <button type="button" aria-pressed={view === 'geography'} onClick={() => setView('geography')}><Globe2 size={16} />地理分布</button>
+      </nav>
+      {view !== 'tree' && <Suspense fallback={<p className="exploration-loading" role="status">正在加载图谱…</p>}>
+        <AtlasExploration key={view} items={items} mode={view} onOpenSpecies={onOpenSpecies} />
+      </Suspense>}
+      {view === 'tree' && (!import.meta.env.DEV || variant === 'A') && <VariantA {...props} />}
+      {view === 'tree' && import.meta.env.DEV && variant === 'B' && <VariantB {...props} />}
+      {view === 'tree' && import.meta.env.DEV && variant === 'C' && <VariantC {...props} />}
+      {view === 'tree' && import.meta.env.DEV && (
         <PrototypeSwitcher variants={prototypeVariants} current={variant} onChange={changeVariant} />
       )}
     </>

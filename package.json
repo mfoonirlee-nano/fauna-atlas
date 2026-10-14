@@ -14,7 +14,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "test": "npm run test:cloudflare-deploy && npm run test:images && npm run test:taxonomy && npm run test:taxonomy-explorer && npm run test:carousel && npm run test:image-viewer && npm run test:brand-mark && npm run test:species-list && npm run test:microbes && npm run test:dist-subpath",
+    "test": "npm run test:cloudflare-deploy && npm run test:images && npm run test:taxonomy && npm run test:taxonomy-explorer && npm run test:atlas-exploration && npm run test:carousel && npm run test:image-viewer && npm run test:brand-mark && npm run test:species-list && npm run test:microbes && npm run test:dist-subpath",
     "test:microbes": "node --test tests/microbes.test.mjs",
     "test:images": "node --test tests/convert-webp.test.mjs",
     "test:taxonomy": "tsc -p tests/tsconfig.taxonomy.json --pretty false && node --test tests/taxonomy.test.mjs tests/profile-loader.test.mjs tests/species-copy.test.mjs",
@@ -26,14 +26,17 @@
     "test:dist-subpath": "npm run build && tsc -p tests/tsconfig.taxonomy.json --pretty false && node --test tests/dist-subpath.test.mjs",
     "typecheck": "tsc -b --pretty false",
     "compress": "node scripts/compress-assets.js",
-    "convert:webp": "node scripts/convert-webp.js"
+    "convert:webp": "node scripts/convert-webp.js",
+    "test:atlas-exploration": "node --test tests/atlas-exploration.test.mjs"
   },
   "dependencies": {
+    "d3-geo": "^3.1.1",
     "lucide-react": "^1.28.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@types/d3-geo": "^3.1.1",
     "@types/node": "^26.1.2",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",

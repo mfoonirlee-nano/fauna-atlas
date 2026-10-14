@@ -1,3 +1,5 @@
+@import './AtlasExploration.css';
+
 .taxonomy-explorer {
   --taxonomy-canvas: color-mix(in srgb, var(--paper-soft) 90%, var(--moss-light));
   --taxonomy-label: color-mix(in srgb, var(--paper-soft) 94%, var(--paper-deep));
