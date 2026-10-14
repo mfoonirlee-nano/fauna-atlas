@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "610 animal species profiles; 560 historical baseline reviews and 50 additions through 2026-10-14; microbial topics excluded",
+  "scope": "615 animal species profiles; 560 historical baseline reviews and 55 additions through 2026-10-14; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 50,
+    "addedProfiles": 55,
     "addedProfilesReviewDate": "2026-10-14",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -28527,6 +28527,209 @@
       "notes": [
         "本档案的白鹭指 Egretta garzetta，又称小白鹭，属于鹭科白鹭属。大白鹭、中白鹭和其他白色鹭鸟另有物种身份，不能只按白色羽毛合并。"
       ]
+    },
+    {
+      "slug": "japanese-gecko",
+      "name": "多疣壁虎",
+      "scientificName": "Gekko japonicus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://doi.org/10.1038/ncomms10033",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026794/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://doi.org/10.1038/ncomms10033",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026794/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6394305/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2447295",
+            "https://reptile-database.reptarium.cz/Gekko/japonicus"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2447295",
+            "https://reptile-database.reptarium.cz/Gekko/japonicus"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "small-white",
+      "name": "菜粉蝶",
+      "scientificName": "Pieris rapae",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://ipm.ucanr.edu/agriculture/cole-crops/imported-cabbageworm/",
+            "https://entnemdept.ufl.edu/creatures/veg/leaf/imported_cabbageworm.htm"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://ipm.ucanr.edu/agriculture/cole-crops/imported-cabbageworm/",
+            "https://entnemdept.ufl.edu/creatures/veg/leaf/imported_cabbageworm.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6778179/",
+            "https://animaldiversity.org/accounts/Pieris_rapae/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1920496"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1920496"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "black-crowned-night-heron",
+      "name": "夜鹭",
+      "scientificName": "Nycticorax nycticorax",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.allaboutbirds.org/guide/Black-crowned_Night-Heron/lifehistory"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.allaboutbirds.org/guide/Black-crowned_Night-Heron/lifehistory"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Nycticorax_nycticorax/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2480863"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2480863"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "oriental-magpie-robin",
+      "name": "鹊鸲",
+      "scientificName": "Copsychus saularis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/7/4/748",
+            "https://doi.org/10.2981/wlb.00233",
+            "https://doi.org/10.17087/jbnhs/2025/v122/171089",
+            "https://www.wetlandpark.gov.hk/filemanager/files/public/Download/Pictorial_guide_Birds_t.pdf"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/7/4/748",
+            "https://doi.org/10.2981/wlb.00233",
+            "https://doi.org/10.17087/jbnhs/2025/v122/171089",
+            "https://www.wetlandpark.gov.hk/filemanager/files/public/Download/Pictorial_guide_Birds_t.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/7/4/748",
+            "https://doi.org/10.2981/wlb.00233",
+            "https://doi.org/10.17087/jbnhs/2025/v122/171089",
+            "https://www.wetlandpark.gov.hk/filemanager/files/public/Download/Pictorial_guide_Birds_t.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2492680"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2492680"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "migratory-locust",
+      "name": "飞蝗",
+      "scientificName": "Locusta migratoria",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.fao.org/locusts-cca/bioecology/what-are-locusts/en/",
+            "https://www.agriculture.gov.au/pests-diseases-weeds/locusts/about/migratory"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.fao.org/locusts-cca/bioecology/what-are-locusts/en/",
+            "https://www.agriculture.gov.au/pests-diseases-weeds/locusts/about/migratory"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/locusts-cca/bioecology/en"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1713418"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1713418"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-14"

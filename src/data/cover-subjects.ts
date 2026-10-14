@@ -6101,5 +6101,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1504,
       "bottom": 938
     }
+  },
+  "japanese-gecko": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 58,
+      "right": 1507,
+      "bottom": 860
+    }
+  },
+  "small-white": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 174,
+      "right": 1454,
+      "bottom": 724
+    }
+  },
+  "black-crowned-night-heron": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 768,
+      "top": 129,
+      "right": 1405,
+      "bottom": 893
+    }
+  },
+  "oriental-magpie-robin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 750,
+      "top": 106,
+      "right": 1444,
+      "bottom": 840
+    }
+  },
+  "migratory-locust": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 644,
+      "top": 164,
+      "right": 1486,
+      "bottom": 824
+    }
   }
 };

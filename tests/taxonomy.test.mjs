@@ -249,6 +249,16 @@ test('retains assessment years except for explicitly documented missing evidence
   for (const profile of species) {
     if (profile.conservation.code === 'NE') {
       assert.equal(profile.conservation.assessedYear, undefined);
+    } else if (['japanese-gecko', 'black-crowned-night-heron'].includes(profile.slug)) {
+      // The cited zoo/BirdLife records confirm LC but omit an independently verified assessment date.
+      assert.equal(profile.conservation.code, 'LC');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.equal(profile.conservation.trend, 'unknown');
+      const source = profile.slug === 'japanese-gecko'
+        ? 'https://www.ezooko.jp/rel_dgram/pub/detail.aspx?bk=1&c_id=30&id=277&pg=5'
+        : 'https://datazone.birdlife.org/site/factsheet/1824-el-hondo-wetland';
+      assert.ok(profile.sources.some(({ url, kind }) => url === source && kind === 'conservation'));
+      assert.match(profile.conservation.assessor, /(?:未.*核实|未提供可核实).*评估日期/);
     } else if (['spider-tailed-horned-viper', 'purple-frog'].includes(profile.slug)) {
       // IUCN's 2022 category-change table confirms NT, but does not give the assessment date.
       assert.equal(profile.conservation.code, 'NT');
@@ -24273,7 +24283,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 610);
+  assert.equal(species.length, 615);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24331,7 +24341,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 91);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 93);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24381,11 +24391,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cardiida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cardiidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Tridacna')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 53);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 55);
   assert.equal(findTaxon(tree, 'order', 'Hemiptera')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Cicadidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Magicicada')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 14);
+  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 15);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bombyx')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 3);
@@ -24408,7 +24418,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Xiphosurida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Limulidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Tachypleus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 62);
+  assert.equal(findTaxon(tree, 'class', 'Reptilia')?.speciesCount, 63);
   assert.equal(findTaxon(tree, 'order', 'Crocodylia')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Alligatoridae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Alligator')?.speciesCount, 2);
@@ -24424,7 +24434,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Rhynchocephalia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sphenodontidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Sphenodon')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 37);
+  assert.equal(findTaxon(tree, 'order', 'Squamata')?.speciesCount, 38);
   assert.equal(findTaxon(tree, 'family', 'Agamidae')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'genus', 'Moloch')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Phrynosomatidae')?.speciesCount, 1);
@@ -24444,7 +24454,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 610);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 615);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24465,7 +24475,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 431);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 434);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 146);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 46);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
@@ -24516,8 +24526,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 103);
-  assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 20);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 105);
+  assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 21);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Steatornithiformes')?.speciesCount, 1);
@@ -24550,7 +24560,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Strigiformes')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Strigidae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Bubo')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 6);
   assert.equal(findTaxon(tree, 'family', 'Balaenicipitidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Balaeniceps')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Threskiornithidae')?.speciesCount, 2);

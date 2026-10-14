@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species cover. Photorealistic natural reconstruction, landscape 1536x1024. Subject: small white butterfly Pieris rapae, white wings with modest charcoal forewing tip and two small black spots on each female forewing, pale yellow hindwing underside, black clubbed antennae, six legs. Scene: one female butterfly perched with wings open on a small flower on right side, all four wings and antennae intact. Composition mandatory: animal full silhouette confined to right half x=660..1460 y=100..920, center at 70% width. Large complete animal including all antennae tail wing tips toes and bill with generous genuine background margin; left 40% empty quiet softly blurred habitat for text. No text, watermark, labels, collage or frame. Accurate anatomy.",
+      "sourceSha256": "e0ea5c11ce5d2ea3af3138367c5f259a5542947cfefdcac38a37e354c933eab9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9c97dedb22e3eb43c9d579ba1d481bc49ed5ffa5e93fd247d26e3ba05a8a934d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: small white butterfly Pieris rapae, white wings with modest charcoal forewing tip and two small black spots on each female forewing, pale yellow hindwing underside, black clubbed antennae, six legs. Actual scene and life stage override adult reference: side view butterfly nectaring on purple flower, closed pale yellow hindwing underside, intact antennae and legs. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "e6883838c24ffa25d71e868a0b90fff6373b02c3033a00cc035846cb5b4c9cf2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d831419361a5ca0a3aef2a93fcfeec9abd16ce624e1611b1dc2a49fb3d8a18f4",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: small white butterfly Pieris rapae, white wings with modest charcoal forewing tip and two small black spots on each female forewing, pale yellow hindwing underside, black clubbed antennae, six legs. Actual scene and life stage override adult reference: single tiny upright pale yellow ridged egg on cabbage leaf, macro, no adults. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "65eafc9963f1f4029f55a2165b257b899cda79dd6bd3c59edd4630030bdb083f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6188a5ade7f942cadc1ff0b9ba55aa1cfaa914088183a84393a77ebd7d58ad57",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: small white butterfly Pieris rapae, white wings with modest charcoal forewing tip and two small black spots on each female forewing, pale yellow hindwing underside, black clubbed antennae, six legs. Actual scene and life stage override adult reference: one velvety green Pieris rapae caterpillar with fine pale dorsal line on cabbage leaf, full caterpillar with true legs and prolegs. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "7e4ff130ab0ac0e04ab7adfd442ea2fe730bb0ff759052ac09c86ce0219ba42a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "697a3559fd43784fbf50fb12436d49fce99a4c8c58ea60306172a444bffb22a3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: small white butterfly Pieris rapae, white wings with modest charcoal forewing tip and two small black spots on each female forewing, pale yellow hindwing underside, black clubbed antennae, six legs. Actual scene and life stage override adult reference: one angular pale green chrysalis attached upright to plant stalk by thin silk girdle, natural macro. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "1ed6cf13e694898aba8d19fbf569bbe9ef857729a5b9d4d4ef4307c14cf4658e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1afa5c3fedd737c90f0d236915e1f0a919816772af101dba5e4439bc17b323ce",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: small white butterfly Pieris rapae, white wings with modest charcoal forewing tip and two small black spots on each female forewing, pale yellow hindwing underside, black clubbed antennae, six legs. Actual scene and life stage override adult reference: one female adult with full open wings above cabbage patch, no other butterflies, wing spots visible. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "82aa4e0f27c36a567a211fff58b56c9a6cc73ae1249be5e23da8a1cc712e4ccd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8854e251d7a0d4f72ebcf7f8d39d23408abf3eb0d60e3eaf1666248d282e1bf0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

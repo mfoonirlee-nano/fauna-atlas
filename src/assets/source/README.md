@@ -878,3 +878,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [domestic-chicken image set](./species/domestic-chicken/README.md)
 - [rock-pigeon image set](./species/rock-pigeon/README.md)
 - [little-egret image set](./species/little-egret/README.md)
+
+- [多疣壁虎 image set](./species/japanese-gecko/README.md)
+- [菜粉蝶 image set](./species/small-white/README.md)
+- [夜鹭 image set](./species/black-crowned-night-heron/README.md)
+- [鹊鸲 image set](./species/oriental-magpie-robin/README.md)
+- [飞蝗 image set](./species/migratory-locust/README.md)

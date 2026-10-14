@@ -1,0 +1,93 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species cover. Photorealistic natural reconstruction, landscape 1536x1024. Subject: Japanese gecko Gekko japonicus, small gray-brown mottled lizard, granular dorsal skin with scattered tubercles, four short legs and five spread adhesive toes on each foot, intact tapering tail, large eyes with vertical pupils. Scene: complete gecko clinging sideways to pale plaster wall at dusk, tail curving upward entirely on right side. Composition mandatory: animal full silhouette confined to right half x=660..1460 y=100..920, center at 70% width. Large complete animal including all antennae tail wing tips toes and bill with generous genuine background margin; left 40% empty quiet softly blurred habitat for text. No text, watermark, labels, collage or frame. Accurate anatomy.",
+      "sourceSha256": "633bdc12060dfdbc2603d93f7ba0011864ca5024c38f6bf7b99beab636697726",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c40cf58ad522381c9ebff533969fd4d57472551e2cd75fb8b5ad94ca56ccd445",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: precise-object-edit. Edit this Japanese gecko observation image to include the entire tail tip inside the image with substantial real stone-wall margin. Preserve species Gekko japonicus gray brown granular skin and tubercles, four legs, intact five-toed feet, natural rough stone wall and daylight. Pull camera back enough to show full gecko including complete tapering tail within frame x=100..1430 y=80..900. Landscape 1536x1024. No text, watermark or added animal. Do not crop tail or toes.",
+      "sourceSha256": "ba0977bb528afee979fc19fbfe8b9f810b9d9622ba9bc160084ad88fe19fa521",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "abbde1f65a9842debc6748ccf601bd8a4c32ca783ceadcd69a4781a476fa9097",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: Japanese gecko Gekko japonicus, small gray-brown mottled lizard, granular dorsal skin with scattered tubercles, four short legs and five spread adhesive toes on each foot, intact tapering tail, large eyes with vertical pupils. Actual scene and life stage override adult reference: closer dorsal view on rough wall showing granular skin and scattered raised tubercles, complete lizard. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "rejectedSourceSha256": "fc53d4d5c913230a998df969ea0fbcc9fd3870376ae6cac7bbb32322331fe74e",
+      "rejection": "尾尖超出首版画面；内置编辑后保留完整尾尖与背景余量。"
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: Japanese gecko Gekko japonicus, small gray-brown mottled lizard, granular dorsal skin with scattered tubercles, four short legs and five spread adhesive toes on each foot, intact tapering tail, large eyes with vertical pupils. Actual scene and life stage override adult reference: underside oblique view through a glass window, spread toe pads clearly visible, complete animal. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "6192bada03dd58f2a542304a23bcca2d0994cb4fece5945e80ac61e217221d43",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e3216de8466222d1301cfc638ba848ed83398f13b1e5ac944990d78692b39797",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: Japanese gecko Gekko japonicus, small gray-brown mottled lizard, granular dorsal skin with scattered tubercles, four short legs and five spread adhesive toes on each foot, intact tapering tail, large eyes with vertical pupils. Actual scene and life stage override adult reference: one gecko stalking a tiny moth near wall at dusk, both animals separated and fully visible. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "b832449de6a58892dee3c69f8d70cf312d465fbc065cb07d575c35e2365f3b6f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "fc67f86e27adb2468619781ddc2206a4b087bca7b8dfa4aa43a172a71a536445",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: Japanese gecko Gekko japonicus, small gray-brown mottled lizard, granular dorsal skin with scattered tubercles, four short legs and five spread adhesive toes on each foot, intact tapering tail, large eyes with vertical pupils. Actual scene and life stage override adult reference: two small white oval gecko eggs in a protected wall crevice, no adults, natural macro. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "b4c7604c9cf43dbb38089f9db7b63b40e86aca89043263bf88c2566a9eaec03c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6fe779b55c2b4165ccf9d5078ffff267df45c85993433fb4de878a1d081d4a8c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: Japanese gecko Gekko japonicus, small gray-brown mottled lizard, granular dorsal skin with scattered tubercles, four short legs and five spread adhesive toes on each foot, intact tapering tail, large eyes with vertical pupils. Actual scene and life stage override adult reference: a small juvenile Japanese gecko on bark, intact full tail, show smaller life stage. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "fb17708e9bb7fdd551ccaf797708a4ca06813f0eb94023ba4b10ca95da707024",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6263a0678d73bf8a5be3431af7e60647be4c24a0f806c09c530d86a64138fa09",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

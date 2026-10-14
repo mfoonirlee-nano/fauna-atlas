@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species cover. Photorealistic natural reconstruction, landscape 1536x1024. Subject: adult migratory locust Locusta migratoria, greenish brown grasshopper, robust hind femora with dark markings, short threadlike antennae shorter than body, long folded forewings over abdomen, six legs. Scene: one adult side view perched on right-side grass stem, complete antennae hind legs and wing tips. Composition mandatory: animal full silhouette confined to right half x=660..1460 y=100..920, center at 70% width. Large complete animal including all antennae tail wing tips toes and bill with generous genuine background margin; left 40% empty quiet softly blurred habitat for text. No text, watermark, labels, collage or frame. Accurate anatomy.",
+      "sourceSha256": "3ca897807834e795314416d8c3ad6fab7a2cc92dc418edafc9794783d1e0702f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "958f3c1afe44b88e0aea1ef5d58f7d87adf9444ea0f880ec819f1e67dc2b9d02",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult migratory locust Locusta migratoria, greenish brown grasshopper, robust hind femora with dark markings, short threadlike antennae shorter than body, long folded forewings over abdomen, six legs. Actual scene and life stage override adult reference: one adult perched on grass, full body, close lateral view of strong hind legs and short antennae. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "f1b1cc34c5419fe8da77d21932d85516ac6d6541f8d57a767dad19c621369c15",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d23a38906b3ddf6bc881d16a2bd62e55113d09b354cbb5c1f8b6d9ba6190e536",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult migratory locust Locusta migratoria, greenish brown grasshopper, robust hind femora with dark markings, short threadlike antennae shorter than body, long folded forewings over abdomen, six legs. Actual scene and life stage override adult reference: one green immature wingless nymph on grass blade, six legs short antennae and undeveloped wing pads, complete body. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "8d93fd370321365abb3e4a37739fdb4a5ac08cd2fd605a61cb94d7bb89423914",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "08a77849bbb347e47eb70822ed48b99828975c816a7ddb0c5b1c777316f4213b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult migratory locust Locusta migratoria, greenish brown grasshopper, robust hind femora with dark markings, short threadlike antennae shorter than body, long folded forewings over abdomen, six legs. Actual scene and life stage override adult reference: one adult eating grass leaf, intact six legs head and folded wings. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "868435e30a2bbd6753b5a7ee392faaea2eb262ae7612238a4ea6cafa99ce4cbc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e9c2d1df42660b4921bd41523994706a0e343fd2ed283a19007ccbb5f80a6ebc",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult migratory locust Locusta migratoria, greenish brown grasshopper, robust hind femora with dark markings, short threadlike antennae shorter than body, long folded forewings over abdomen, six legs. Actual scene and life stage override adult reference: one adult in midflight above meadow, two pairs wings spread, complete wings antennae and legs. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "f45cf34858c658345cd35310745a092509d46c827bd47c1ce5dcef34409f5958",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f6ae027cc555520b7cd1c6e775d26dc12129dc4165c4426a5f0182fa608f5a39",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult migratory locust Locusta migratoria, greenish brown grasshopper, robust hind femora with dark markings, short threadlike antennae shorter than body, long folded forewings over abdomen, six legs. Actual scene and life stage override adult reference: three adult migratory locusts separated on grass stems, not an outbreak swarm, full bodies. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "0b8bf420003f97e67ea11ff5b987b723d1c157ce58d00feea29d08cdeafcc1e1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "356bb83f3a6d7d4c778e320965f0667fcfa783e9e5e236ac5eae8ed308444e07",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

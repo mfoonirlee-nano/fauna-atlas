@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species cover. Photorealistic natural reconstruction, landscape 1536x1024. Subject: adult black-crowned night heron Nycticorax nycticorax, stocky short-necked heron, black crown and back, gray wings, pale gray-white underparts, red eyes, thick dark pointed bill, yellowish legs, two thin white head plumes. Scene: one adult standing compactly on muddy pond bank on right side, full body bill feet and white plumes. Composition mandatory: animal full silhouette confined to right half x=660..1460 y=100..920, center at 70% width. Large complete animal including all antennae tail wing tips toes and bill with generous genuine background margin; left 40% empty quiet softly blurred habitat for text. No text, watermark, labels, collage or frame. Accurate anatomy.",
+      "sourceSha256": "533d12c0bd57cd777bb972f49afb59287434299d1d0f07ed66f52798857bb1f5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7b21d83734776d933681c6dd008fe0d0e020de5b1320211ef439ae381f157340",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult black-crowned night heron Nycticorax nycticorax, stocky short-necked heron, black crown and back, gray wings, pale gray-white underparts, red eyes, thick dark pointed bill, yellowish legs, two thin white head plumes. Actual scene and life stage override adult reference: one adult resting on tree branch in daytime, complete feet gripping branch. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "1318cb628d9ce7dbe810152c11071e699a489480c11f9e98c5cdec63676576a3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "438a6e58ce5c6c9a4acd0372459763afb23df7971158a660f5d5458ff02d0419",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult black-crowned night heron Nycticorax nycticorax, stocky short-necked heron, black crown and back, gray wings, pale gray-white underparts, red eyes, thick dark pointed bill, yellowish legs, two thin white head plumes. Actual scene and life stage override adult reference: one adult standing still beside shallow water at dusk, reddish eyes and thick dark bill. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "5e5ac2e83b428cac2e2e02175bf396409ebc68853ac11d785341b7c48e1a09b1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "80c97899be235d755feab546d8e5d216f4745535a10aca3d632043e2838abb42",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult black-crowned night heron Nycticorax nycticorax, stocky short-necked heron, black crown and back, gray wings, pale gray-white underparts, red eyes, thick dark pointed bill, yellowish legs, two thin white head plumes. Actual scene and life stage override adult reference: one brown streaked juvenile black-crowned night heron with pale buff spots on wing coverts, yellowish eye, full body on bank, no adult. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "13a54aa0bf4910b27bbcbdd1e08d5690805822842e116e2cf6985e942a17fbba",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a4eb61e3d01bf1f7d3f111e1648d0929ad9229196e38e9f5cf4349f5475af471",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult black-crowned night heron Nycticorax nycticorax, stocky short-necked heron, black crown and back, gray wings, pale gray-white underparts, red eyes, thick dark pointed bill, yellowish legs, two thin white head plumes. Actual scene and life stage override adult reference: one adult flying above pond, wings fully extended, neck tucked, complete feet and wing tips. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "288814d293fae97e4ef4bcf83d7abe89f6229b21f882e5c948e11883f54ddb10",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "56815c382031d2437bdd0137774d647682ab59ecfd95abca26a08fb9cd3eaa6f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: adult black-crowned night heron Nycticorax nycticorax, stocky short-necked heron, black crown and back, gray wings, pale gray-white underparts, red eyes, thick dark pointed bill, yellowish legs, two thin white head plumes. Actual scene and life stage override adult reference: one adult at edge of stick nest in tree with two feathered brown chicks, full subjects. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "efd2b36affc85b97b543f3f6ca4b20fe2ab1f378cbf8babfcea4dd8beadc8dc5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "afa5fc690cb425750f2d1cc2036785699d2142e1debe03ef08f178804eaf2dfd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

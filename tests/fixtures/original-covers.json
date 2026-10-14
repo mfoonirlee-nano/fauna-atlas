@@ -5276,5 +5276,70 @@
       },
       "sha256": "97d3c052e136c31c24eebed4af554a2ae8d8f2a67263eff5b0366960c866bf6f"
     }
+  },
+  "japanese-gecko": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 58,
+        "right": 1507,
+        "bottom": 860
+      },
+      "sha256": "c40cf58ad522381c9ebff533969fd4d57472551e2cd75fb8b5ad94ca56ccd445"
+    }
+  },
+  "small-white": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 174,
+        "right": 1454,
+        "bottom": 724
+      },
+      "sha256": "9c97dedb22e3eb43c9d579ba1d481bc49ed5ffa5e93fd247d26e3ba05a8a934d"
+    }
+  },
+  "black-crowned-night-heron": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 768,
+        "top": 129,
+        "right": 1405,
+        "bottom": 893
+      },
+      "sha256": "7b21d83734776d933681c6dd008fe0d0e020de5b1320211ef439ae381f157340"
+    }
+  },
+  "oriental-magpie-robin": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 750,
+        "top": 106,
+        "right": 1444,
+        "bottom": 840
+      },
+      "sha256": "40826700126649d57646594152a39238ec6b0d81f3b5270f8a9d7db8855b2461"
+    }
+  },
+  "migratory-locust": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 644,
+        "top": 164,
+        "right": 1486,
+        "bottom": 824
+      },
+      "sha256": "958f3c1afe44b88e0aea1ef5d58f7d87adf9444ea0f880ec819f1e67dc2b9d02"
+    }
   }
 }

@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species cover. Photorealistic natural reconstruction, landscape 1536x1024. Subject: male oriental magpie robin Copsychus saularis, glossy black head back and upper breast, white belly and broad white wing patch, long black tail with white outer feathers, slender black bill and legs. Scene: one male perched sideways on low garden branch at right, long tail cocked upwards, full body feet and tail. Composition mandatory: animal full silhouette confined to right half x=660..1460 y=100..920, center at 70% width. Large complete animal including all antennae tail wing tips toes and bill with generous genuine background margin; left 40% empty quiet softly blurred habitat for text. No text, watermark, labels, collage or frame. Accurate anatomy.",
+      "sourceSha256": "73f31a2a231da126315f79c65cf5a8de0f1d9a49406dea166b0b75846456371b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "40826700126649d57646594152a39238ec6b0d81f3b5270f8a9d7db8855b2461",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: male oriental magpie robin Copsychus saularis, glossy black head back and upper breast, white belly and broad white wing patch, long black tail with white outer feathers, slender black bill and legs. Actual scene and life stage override adult reference: one female with slate gray head upper breast and back, white belly white wing patch, full body on garden branch. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "bcaccca7584ed0a289b0ec23087e03368fc10f71b6617bbd3af7f718dd923215",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "bc51d1c2fa75f21a31be80e78f651864bf3f63e859fbd2a593e7f705efe3870e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: male oriental magpie robin Copsychus saularis, glossy black head back and upper breast, white belly and broad white wing patch, long black tail with white outer feathers, slender black bill and legs. Actual scene and life stage override adult reference: one male singing with open bill on branch, full raised tail and feet. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "29760874a23aca2c40641ecca6b570ce4aa3a213132d9ad88316a6b51843e3f6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "54864e1511ba701c8b0e9df9aa554b62394bd0e30a80d75f28cb4dd6c3a1e45b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: male oriental magpie robin Copsychus saularis, glossy black head back and upper breast, white belly and broad white wing patch, long black tail with white outer feathers, slender black bill and legs. Actual scene and life stage override adult reference: one male hopping on ground beside leaf litter, complete body and long tail. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "7ccec63de9813a46262ed65168b333865bd586c61e956440c341648dbade04ac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8ff087dd65c612f48840913b1ff3ac08cee0b69e1ed33fc8166e8d6d99f3d9e1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: male oriental magpie robin Copsychus saularis, glossy black head back and upper breast, white belly and broad white wing patch, long black tail with white outer feathers, slender black bill and legs. Actual scene and life stage override adult reference: one fledgling with brownish scaly mottled breast on low shrub branch, short tail, complete bird. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "f85d4540970ae7ed3b8d1aebbb37ed2386b5d23fe799e790f5297201803df6b2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "900be90d599e93df5e8df853a70b79b81c89197a50694824b8680105809b9319",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species gallery. Photorealistic scientific scene reconstruction, landscape 1536x1024. Species reference: male oriental magpie robin Copsychus saularis, glossy black head back and upper breast, white belly and broad white wing patch, long black tail with white outer feathers, slender black bill and legs. Actual scene and life stage override adult reference: one male with tail raised on low rock at edge of southern Chinese city park, complete bird. Natural habitat and lighting, biologically accurate anatomy. Show requested subject clearly with real margin around all visible features, full tails, antennae, bill and feet. One separate scene, not collage. No text, watermark, frame or labels.",
+      "sourceSha256": "72e7348803711eea5b048b5c20de6ca4b2aff047f404102b35afc32eddb4acbd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "fb27503d30cab546790c2e4214431484b8502bcd0f4fbaba729ddd6aee98905a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
