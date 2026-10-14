@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Subject: one adult domestic hen Gallus gallus, warm brown plumage, small red comb and wattles, scaly legs with three forward toes and one rear toe. Landscape 1536x1024. Natural daylight and appropriate farm or wild habitat. Complete animal entirely within x=650..1450 y=100..940, including every tail, wing, horn, foot, bill and ear; large subject centered at 70% width; quiet real habitat left 40%. No text, watermark or frame. Anatomically accurate.",
+      "sourceSha256": "4777266d8377cc0532d09ec481566b5535752315dd99ca236d981157b3e63684",
+      "runtimeSha256": "ba7be82e54c74ddcf3fbf46e57319f3ad6eca3b551e8d7472dbe8d9f8dad922a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic hen Gallus gallus, warm brown plumage, small red comb and wattles, scaly legs with three forward toes and one rear toe. Scene: adult rooster with larger comb and tail, full body. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "459726c775edd248aabdef7bf5a3de8c69e882154b9a21ca5b89eac8fe752991",
+      "runtimeSha256": "2519f19eff8f7d975e81fa2fcaafd6d4b3f03d8d4e0d9e42296e88b01f591cba",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic hen Gallus gallus, warm brown plumage, small red comb and wattles, scaly legs with three forward toes and one rear toe. Scene: hen pecking seeds on farm ground. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "74016fc8d8192e50fb0c21ddef2ca9092f3f0f50cd59495be536a8216aa8be0f",
+      "runtimeSha256": "aa0bcba721649dc0803ec5fb800a7400cd4db23940f1666ce503f2c01c0b4956",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic hen Gallus gallus, warm brown plumage, small red comb and wattles, scaly legs with three forward toes and one rear toe. Scene: hen seated in straw nest with few eggs beside her. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "8f8e220a204a03d5360be4fca83bcf55bcfe2f87601335480749305d61247f38",
+      "runtimeSha256": "26a2f1a7e321421be78900a5ad111a59fde8f829ea4482b32e1561d597372721",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic hen Gallus gallus, warm brown plumage, small red comb and wattles, scaly legs with three forward toes and one rear toe. Scene: hen with two fluffy chicks on farm grass. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "837b394ee3d7f6ccf8ede378e4ba2787435c4b1c7e7bcf4daf3fed4ebffb6995",
+      "runtimeSha256": "5d62a7819b8c12089d916c61b8ccaa8688699b912283a6d359a3f4f4df580f2d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic hen Gallus gallus, warm brown plumage, small red comb and wattles, scaly legs with three forward toes and one rear toe. Scene: close view of head showing comb, beak and wattles. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "18ddaa2450f2746b2448623d30a8adc3cdbeeae8b00465e991697a1593b48783",
+      "runtimeSha256": "967698a23beea80a9462f0889cc25bb363caaa46db3caf18ecd1c1bafd19ba5c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
