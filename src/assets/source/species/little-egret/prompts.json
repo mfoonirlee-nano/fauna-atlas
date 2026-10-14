@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Subject: one adult little egret Egretta garzetta, pure white plumage, thin black bill, black legs and yellow feet, slender long neck. Landscape 1536x1024. Natural daylight and appropriate farm or wild habitat. Complete animal entirely within x=650..1450 y=100..940, including every tail, wing, horn, foot, bill and ear; large subject centered at 70% width; quiet real habitat left 40%. No text, watermark or frame. Anatomically accurate.",
+      "sourceSha256": "e2747072d06b5c9597bd66b702a0f498041a5c62f9ae5344c0704fba382a5c76",
+      "runtimeSha256": "97d3c052e136c31c24eebed4af554a2ae8d8f2a67263eff5b0366960c866bf6f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult little egret Egretta garzetta, pure white plumage, thin black bill, black legs and yellow feet, slender long neck. Scene: head and neck portrait, black bill complete. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "fb62292fc00a1da0d46e29c2fe33fd983eca8107799b1d51101ec654fadd77e7",
+      "runtimeSha256": "931d5f4ed670302a3f0bbff3d424e35e8e11430917c0801cb9100249d762817d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult little egret Egretta garzetta, pure white plumage, thin black bill, black legs and yellow feet, slender long neck. Scene: wading in shallow wetland water with yellow toes visible. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "1b8ec85e1af6d5ec7ae243835a142b36d0f0d78cab00a36535c6cc7c42e3cc41",
+      "runtimeSha256": "9f03e03774c8cee35f1a5ec8ae417f719e4fcfa8e849b872742abfbd3b5157a1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult little egret Egretta garzetta, pure white plumage, thin black bill, black legs and yellow feet, slender long neck. Scene: nonbreeding egret with full wings spread in low flight above wetland, complete wingtips and legs. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "8d893802eb6db12fefe0879d763c857206e9e77dc84e68ca3b10c6e11578f245",
+      "runtimeSha256": "ced3fa705e0f7d8c9b2ca7b6a0d6e62013f28b2fd91eb0dd4fba6467b514ce73",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult little egret Egretta garzetta, pure white plumage, thin black bill, black legs and yellow feet, slender long neck. Scene: adult standing beside two feathered juveniles on tree nest. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "2ce744352e49e70739adb90548eb2f45986b09412205afafdde6890985746d88",
+      "runtimeSha256": "2fa669b6b7c88e4b9cc5b11cd9536a590d14b7fccd7f9f64363d35c058c4f140",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult little egret Egretta garzetta, pure white plumage, thin black bill, black legs and yellow feet, slender long neck. Scene: full side view of standing adult on muddy shore, black legs and yellow feet clearly visible. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "0f83dabc4e4b72d7726deda616662741169b31c9d1c9df19fb6b2fa68945f84d",
+      "runtimeSha256": "03b975a5f57dfd892133e0db3c71ba137f421246710c155d8ba657f4bf401dff",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
