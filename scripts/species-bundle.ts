@@ -136,6 +136,32 @@ export function speciesBundle(): Plugin {
         // the array representation when a label needs structured escaping.
         const packedTaxa = taxonPairs.every((pair) => typeof pair === 'string' && !pair.includes('\n'))
           ? taxonPairs.join('\n') : taxonPairs;
+        // Repeated Chinese phrases cost three UTF-8 bytes per character. Encode
+        // them once with unused private-use characters, restoring before JSON
+        // parsing so browsing text and search remain byte-for-byte unchanged.
+        let packedRows = JSON.stringify(compactRows);
+        const phrases: string[] = [];
+        if (!/[\uE000-\uE1FF]/u.test(packedRows)) {
+          const counts = new Map<string, number>();
+          for (const run of packedRows.match(/[\u3400-\u9FFF]{2,}/gu) ?? []) {
+            for (let size = 2; size <= Math.min(16, run.length); size++) {
+              for (let start = 0; start + size <= run.length; start++) {
+                const phrase = run.slice(start, start + size);
+                counts.set(phrase, (counts.get(phrase) ?? 0) + 1);
+              }
+            }
+          }
+          const candidates = [...counts].map(([phrase, count]) => ({
+            phrase, saving: (phrase.length * 3 - 3) * count - phrase.length * 3 - 3,
+          })).filter(({ saving }) => saving > 0).sort((a, b) => b.saving - a.saving);
+          for (const { phrase } of candidates) {
+            if (phrases.length === 512) break;
+            const count = packedRows.split(phrase).length - 1;
+            if ((phrase.length * 3 - 3) * count <= phrase.length * 3 + 3) continue;
+            packedRows = packedRows.replaceAll(phrase, String.fromCharCode(0xE000 + phrases.length));
+            phrases.push(phrase);
+          }
+        }
         return `const packedTaxa=${JSON.stringify(packedTaxa)};
           const taxa=(typeof packedTaxa==='string'?packedTaxa.split('\\n'):packedTaxa).map(pair=>{if(Array.isArray(pair))return pair;const [name,label=name]=pair.split('|');return [name,label.endsWith('~')?label.slice(0,-1)+'属':label];}).map(([scientificName,zhName=scientificName])=>({scientificName,zhName}));
           const ranks=${JSON.stringify(taxonomyRanks)};
@@ -147,7 +173,9 @@ export function speciesBundle(): Plugin {
           const mediaPresets=${JSON.stringify(mediaPresets)};
           const slugWords=${JSON.stringify(slugWords)};
           const restoreLabels=(values,name)=>(Array.isArray(values)?values:[values]).map(value=>value===-1?name:typeof value==='number'?labels[value]:value);
-          export const species=${JSON.stringify(compactRows)}.map(row=>{if(Array.isArray(row[0])) row[0]=row[0].map(word=>typeof word==='number'?slugWords[word]:word).join('-');if(typeof row[7]==='number') row[7]=mediaPresets[row[7]];return row;}).map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id===1?'species-'+(Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n).toLowerCase().replaceAll(' ','-'):id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
+          const phrases=${JSON.stringify(phrases)};
+          const rows=JSON.parse(${JSON.stringify(packedRows)}.replace(/[\\uE000-\\uE1FF]/g,char=>phrases[char.charCodeAt(0)-0xE000]??char));
+          export const species=rows.map(row=>{if(Array.isArray(row[0])) row[0]=row[0].map(word=>typeof word==='number'?slugWords[word]:word).join('-');if(typeof row[7]==='number') row[7]=mediaPresets[row[7]];return row;}).map(([slug,l,n,s,c,d,t,m,h,g,id])=>({slug,id:id===1?'species-'+(Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n).toLowerCase().replaceAll(' ','-'):id??slug,names:{zh:l[0],en:l[1]===1?slug.split('-').map(word=>word[0].toUpperCase()+word.slice(1)).join(' '):l[1],...(l.length>2?{aliases:l[2]}:{})},scientificName:Array.isArray(n)?n[0]:taxa[t[2]].scientificName+' '+n,summary:Array.isArray(s)?l[0]+s[0]:s,
             conservation:{code:conservationCodes[c]},distribution:{regions:restoreLabels(d[0]),realms:realmSets[d[1]],...(d.length>2?{center:d[2]}:{})},media:{image:m[0]===1||(m[0]&&!m[0].includes('/'))?'./images/species/'+slug+'/'+(m[0]===1?'01-cover':m[0])+'.webp':m[0]??undefined,alt:typeof m[1]==='number'?l[0]+altSuffixes[m[1]]:m[1],focalPoint:m[2]===1?{x:0.7,y:0.5}:m[2]?{x:m[2][0],y:m[2][1]}:undefined},habitats:restoreLabels(h).map(name=>({name})),tags:g===1?[l[0],restoreLabels(h)[0]]:restoreLabels(g,l[0]),
             taxonomy:Object.fromEntries([...lineages[t[0]],...t.slice(1)].flatMap((taxon,index)=>taxon===null?[]:[[ranks[index],taxa[taxon]]]))}));
           const indexes=new Map(species.map((item,index)=>[item.slug,index]));
