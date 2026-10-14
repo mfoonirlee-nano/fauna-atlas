@@ -1,0 +1,66 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Subject: one adult rock pigeon Columba livia, blue grey plumage, two black wing bars, iridescent green purple neck, pink feet. Landscape 1536x1024. Natural daylight and appropriate farm or wild habitat. Complete animal entirely within x=650..1450 y=100..940, including every tail, wing, horn, foot, bill and ear; large subject centered at 70% width; quiet real habitat left 40%. No text, watermark or frame. Anatomically accurate.",
+      "sourceSha256": "b0afed1040f9cf985bb78e3c42a39ea2a9a086949c40f86d41889d7dad64bbd0",
+      "runtimeSha256": "df402760639d9dad267661913675daa100d74b6fd86d678b023e79b9cb8fd08f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult rock pigeon Columba livia, blue grey plumage, two black wing bars, iridescent green purple neck, pink feet. Scene: close neck portrait showing iridescence and white cere. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "3aa4ce24cd0c72b52f70b3894f431864749abc6b9d99fb9a261f9393a0bca8f9",
+      "runtimeSha256": "a0aa4840130be102cb1ce9592f591cba2bb02569e216b6f7ad05752e21bffae1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult rock pigeon Columba livia, blue grey plumage, two black wing bars, iridescent green purple neck, pink feet. Scene: two adult pigeons at nest with featherless squabs, no food visible, anatomically accurate. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "bf149617444530b31707a8ee7be5ca45b16929ff6cab48f8add65cfd7cb997c1",
+      "runtimeSha256": "17e23ccc6b1c7ecd1a93d13024e6413c678ef09761c1e502e99892a9f3c6876c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult rock pigeon Columba livia, blue grey plumage, two black wing bars, iridescent green purple neck, pink feet. Scene: pigeon walking on town square ground. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "a9f69a0da052bc032cce73af3ffce20df3bdebc7672f8ae0cba503223a9c3bba",
+      "runtimeSha256": "10b7569f6b38eeac5e04f1a49d969fa48dbef044b22ded5c4e53b60a9227820f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult rock pigeon Columba livia, blue grey plumage, two black wing bars, iridescent green purple neck, pink feet. Scene: small flock with varied grey brown and white plumage on town square. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "1fa2a628601c8881ea6ce9d0824b63eb0955aed31f7d81570c8429568ef86f96",
+      "runtimeSha256": "53a1f43efe1d0368c7b0544b87a30cb94b48767b6aae196277cc6558a0e15577",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult rock pigeon Columba livia, blue grey plumage, two black wing bars, iridescent green purple neck, pink feet. Scene: wild-type rock pigeon standing on coastal cliff ledge. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "4ecb625f6fc216697cc915ea77a1623139d82c8fc6be27b741f3cfb7b6574b87",
+      "runtimeSha256": "31613b1a0167e4f944f2706ab5e434cc61821e72ed9a8afe01d1dfd9b9b2ad43",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
