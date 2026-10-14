@@ -1,0 +1,67 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only composition of this domestic pig cover. Keep the same pig with pink bristled skin, floppy ears, four cloven-hoof legs, curly tail, pose, realistic daylight and farm habitat. On 1536x1024 landscape, move and scale whole animal so complete boundary fits x=660..1450 y=130..930. Left 40% contains quiet background only. Maximize pig within that rectangle and preserve anatomical proportions. No text or collage.",
+      "originalPrompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Subject: one pink domestic pig Sus scrofa, sparse bristles, floppy ears, broad snout, cloven hooves, curly tail. Landscape 1536x1024. Natural daylight and appropriate farm or wild habitat. Complete animal entirely within x=650..1450 y=100..940, including every tail, wing, horn, foot, bill and ear; large subject centered at 70% width; quiet real habitat left 40%. No text, watermark or frame. Anatomically accurate.",
+      "sourceSha256": "5e9a9aa1f662682866fb83568240a8e4f32a0f8e3fc548339df429f5433927be",
+      "runtimeSha256": "ec453ddf296a87d1b256e9010bb2084dee6d100446907682e2c81a0ceab623e6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: pink domestic pig Sus scrofa, sparse bristles, floppy ears, broad snout, cloven hooves, curly tail. Scene: head portrait with nostrils and snout visible. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "ba4b4c9fbd8b91d5ddedda58180aa33dd0884f58442893d5f2cd9153428ef477",
+      "runtimeSha256": "646b5ea9594abe8709db84e8b7ab27684211669303be0206e18a3a13e30f2cc5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: pink domestic pig Sus scrofa, sparse bristles, floppy ears, broad snout, cloven hooves, curly tail. Scene: sniffing loose earth in outdoor farm paddock. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "44cb2383d33c4319d19ac3245bd8f7735393a1c8907fae9bcadbb044c3c39062",
+      "runtimeSha256": "41ab5fb7c51ac9b983f65026ed62fcb9a56cc626aa2e1c6fe7b64ee45fb1ee73",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: pink domestic pig Sus scrofa, sparse bristles, floppy ears, broad snout, cloven hooves, curly tail. Scene: resting in shallow muddy farm wallow. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "5245c6c396be02cc7b1a8f380d4d37235c313ba2ad59df5c6c963a6dbc99df15",
+      "runtimeSha256": "f8f0da58f0cf205edec4ed7e246b5f195bf18fa73326ad9432d68e0e7d3580c5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: pink domestic pig Sus scrofa, sparse bristles, floppy ears, broad snout, cloven hooves, curly tail. Scene: sow with two older piglets standing beside her. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "cc6d1b5f28390499f8d274dbda3d83913fccd3a02b0f6c6ea271517738022697",
+      "runtimeSha256": "0d74b22e9e299e8c650601517c30e3a77b1e968e308fc0835841c30c7bf8bd0a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: pink domestic pig Sus scrofa, sparse bristles, floppy ears, broad snout, cloven hooves, curly tail. Scene: side view of full pig in straw bed. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "53217e1e168cc2ae81335b045873d6816c9b56c33e8e476155906ea526d492e7",
+      "runtimeSha256": "e2db42dda6c1af0a5734ebd34bc008a863ea0034b962dbcc84a2c146d1efae1b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
