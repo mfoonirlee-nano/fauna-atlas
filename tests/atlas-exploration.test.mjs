@@ -202,3 +202,53 @@ test('fullscreen fallback supports Escape, focus containment and scroll restorat
   await act(() => root.unmount());
   assert.equal(document.body.style.overflow, 'scroll');
 });
+
+test('compact overview links tile previews to the list and clears selection when navigating back', async (context) => {
+  const { root, species, AtlasExploration } = await setup(context);
+  const panda = species.find((item) => item.slug === 'giant-panda');
+  const worm = species.find((item) => item.slug === 'kowalevsky-acorn-worm');
+  let resize;
+  globalThis.ResizeObserver = class {
+    constructor(callback) { resize = callback; }
+    observe() {}
+    disconnect() {}
+  };
+  await act(() => root.render(createElement(AtlasExploration, { items: [panda, worm], mode: 'compact', onOpenSpecies() {} })));
+  assert.equal(document.querySelector('.exploration-compact__context > span > strong').textContent, '2');
+  assert.ok(document.querySelector('.exploration-compact__welcome'));
+  const firstTile = document.querySelector('.exploration-tile');
+  const name = firstTile.querySelector('strong').textContent;
+  const tone = firstTile.className.match(/exploration-tile--\d/)[0];
+  await act(() => firstTile.dispatchEvent(new window.MouseEvent('pointerover', { bubbles: true })));
+  assert.equal(document.querySelector('.exploration-taxon-note > strong').textContent, name);
+  assert.match(document.querySelector('.exploration-taxon-note p').textContent, /大熊猫/);
+  const highlightedRow = document.querySelector('.exploration-list > button.is-highlighted');
+  assert.equal(highlightedRow.querySelector('.exploration-compact__name').firstChild.textContent, name);
+  // Narrow cells keep the same identity, while the list exposes full names and actions.
+  await act(() => resize([{ contentRect: { width: 80, height: 40 } }]));
+  assert.equal(document.querySelector('.exploration-tile').className.match(/exploration-tile--\d/)[0], tone);
+  assert.ok(document.querySelector('.exploration-tile--tiny'));
+  assert.equal(document.querySelectorAll('.exploration-list > button').length, 2);
+  await act(() => document.querySelector('.exploration-taxon-note button').click());
+  assert.equal(document.activeElement, document.querySelector('.exploration-tiles'), 'drill-down keeps keyboard focus within the overview');
+  assert.equal(document.querySelector('.exploration-compact__context h3').firstChild.textContent, name);
+  assert.equal(document.querySelector('.exploration-breadcrumb [aria-current="location"]').firstElementChild.tagName.toLowerCase(), 'svg');
+  for (let depth = 0; depth < 8; depth++) {
+    const tile = document.querySelector('.exploration-tile');
+    if (tile.hasAttribute('aria-pressed')) break;
+    await act(() => tile.click());
+  }
+  const speciesTile = document.querySelector('.exploration-tile');
+  assert.equal(speciesTile.getAttribute('aria-pressed'), 'false');
+  await act(() => speciesTile.focus());
+  await act(() => speciesTile.click());
+  assert.equal(document.querySelector('.exploration-tile.is-selected').getAttribute('aria-pressed'), 'true');
+  assert.equal(document.querySelector('.exploration-list > button').getAttribute('aria-pressed'), 'true');
+  assert.match(document.querySelector('.exploration-preview').textContent, /大熊猫/);
+  await act(() => document.querySelector('.exploration-breadcrumb button').click());
+  assert.equal(document.querySelector('.exploration-preview'), null);
+  assert.equal(document.querySelector('.exploration-taxon-note'), null);
+  assert.ok(document.querySelector('.exploration-compact__welcome'));
+  assert.equal(document.querySelectorAll('.exploration-list > button').length, 2);
+  assert.equal(document.querySelector('.exploration-breadcrumb button:last-child').disabled, true);
+});

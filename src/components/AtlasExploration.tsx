@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
 import { geoGraticule10, geoPath } from 'd3-geo';
-import { ArrowLeft, ArrowUpRight, Compass, Globe2, MapPin, Maximize2, Minimize2, Minus, Plus, RotateCcw, Search } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, BookOpen, ChevronRight, Compass, Globe2, MapPin, Maximize2, Minimize2, Minus, Network, Plus, RotateCcw, Search } from 'lucide-react';
 import type { SpeciesSummary } from '../types/species';
 import { buildTaxonomyTree, getSpeciesTaxonomyPath, type TaxonomyTreeNode } from '../domain/taxonomy';
 import { clusterSpecies, layoutTaxonomyTiles, mapProjection, projectSpecies, searchExploration } from '../domain/atlas-exploration';
@@ -180,14 +180,38 @@ function Geography({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
   </div>;
 }
 
+function nodeName(node: TaxonomyTreeNode) {
+  return node.kind === 'taxon' ? node.taxon.zhName : node.species.names.zh;
+}
+
+function tileTone(node: TaxonomyTreeNode) {
+  let hash = 0;
+  for (const letter of node.key) hash = (hash * 31 + letter.charCodeAt(0)) >>> 0;
+  return hash % 5;
+}
+
+function sampleSpecies(node: TaxonomyTreeNode, limit = 3): SpeciesSummary[] {
+  if (node.kind === 'species') return [node.species];
+  const samples: SpeciesSummary[] = [];
+  for (const child of node.children) {
+    samples.push(...sampleSpecies(child, limit - samples.length));
+    if (samples.length >= limit) break;
+  }
+  return samples;
+}
+
 function CompactTaxonomy({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
   const tree = useMemo(() => buildTaxonomyTree(items), [items]);
   const overviewKeys = tree.length === 1 ? [tree[0]!.key] : [];
   const [focusKeys, setFocusKeys] = useState<string[]>(() => overviewKeys);
   const [selectedSlug, setSelectedSlug] = useState<string>();
+  const [previewKey, setPreviewKey] = useState<string>();
   const [size, setSize] = useState({ width: 800, height: 480 });
+  const surface = useRef<HTMLDivElement | null>(null);
+  const previousPath = useRef(focusKeys.join('/'));
   // Callback ref cleans up its observer when React detaches the surface.
   const measure = useCallback((element: HTMLDivElement | null) => {
+    surface.current = element;
     if (!element) return;
     const observer = new ResizeObserver(([entry]) => {
       if (entry) setSize({ width: Math.max(1, entry.contentRect.width), height: Math.max(1, entry.contentRect.height) });
@@ -195,6 +219,11 @@ function CompactTaxonomy({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
     observer.observe(element);
     return () => observer.disconnect();
   }, []);
+  useEffect(() => {
+    const pathKey = focusKeys.join('/');
+    if (previousPath.current !== pathKey) surface.current?.focus({ preventScroll: true });
+    previousPath.current = pathKey;
+  }, [focusKeys]);
   let children: readonly TaxonomyTreeNode[] = tree;
   const trail: TaxonomyTreeNode[] = [];
   for (const key of focusKeys) {
@@ -204,41 +233,77 @@ function CompactTaxonomy({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
   }
   const tiles = useMemo(() => layoutTaxonomyTiles(children, size.width, size.height), [children, size]);
   const selected = items.find((item) => item.slug === selectedSlug);
-  const activate = (node: TaxonomyTreeNode) => {
-    if (node.kind === 'species') setSelectedSlug(node.species.slug);
-    else { setFocusKeys([...trail.map((entry) => entry.key), node.key]); setSelectedSlug(undefined); }
+  const current = trail.at(-1);
+  const currentCount = children.reduce((sum, node) => sum + node.speciesCount, 0);
+  const preview = children.find((node) => node.key === previewKey);
+  const previewSpecies = selected && (!preview || (preview.kind === 'species' && preview.species.slug === selected.slug)) ? selected : undefined;
+  const navigate = (keys: string[]) => {
+    setFocusKeys(keys); setSelectedSlug(undefined); setPreviewKey(undefined);
   };
-  return <>
+  const activate = (node: TaxonomyTreeNode) => {
+    if (node.kind === 'species') { setSelectedSlug(node.species.slug); setPreviewKey(node.key); }
+    else navigate([...trail.map((entry) => entry.key), node.key]);
+  };
+  const inspect = (node: TaxonomyTreeNode) => { setPreviewKey(node.key); };
+  return <div className="exploration-compact">
     <nav className="exploration-breadcrumb" aria-label="当前分类路径">
-      <button type="button" onClick={() => { setFocusKeys(overviewKeys); setSelectedSlug(undefined); }}>动物总览</button>
-      {trail.map((node, index) => <button type="button" key={node.key} onClick={() => setFocusKeys(trail.slice(0, index + 1).map((entry) => entry.key))}>
-        <span aria-hidden="true">› </span>{node.kind === 'taxon' ? node.taxon.zhName : ''}</button>)}
-      <button type="button" disabled={trail.length <= overviewKeys.length} onClick={() => setFocusKeys(trail.slice(0, -1).map((node) => node.key))}><ArrowLeft size={14} /> 返回上一级</button>
+      <button type="button" onClick={() => navigate(overviewKeys)}>动物总览</button>
+      {trail.map((node, index) => <button type="button" key={node.key}
+        aria-current={index === trail.length - 1 ? 'location' : undefined}
+        onClick={() => navigate(trail.slice(0, index + 1).map((entry) => entry.key))}>
+        <ChevronRight size={12} aria-hidden="true" />{nodeName(node)}<small>{ranks[node.rank]}</small></button>)}
+      <button type="button" disabled={trail.length <= overviewKeys.length} onClick={() => navigate(trail.slice(0, -1).map((node) => node.key))}><ArrowLeft size={14} /> 返回上一级</button>
     </nav>
+    <div className="exploration-compact__context" aria-live="polite">
+      <div><span className="exploration-compact__symbol"><Network size={22} /></span><div>
+        <h3>{current ? nodeName(current) : '动物总览'}<small>{current ? ranks[current.rank] : '总览'}</small></h3>
+        <p>{current?.kind === 'taxon' ? <i lang="la">{current.taxon.scientificName}</i> : '从这里开始，看看动物如何归类'}</p>
+      </div></div>
+      <span><strong>{currentCount}</strong> 个物种 <span aria-hidden="true">·</span> {children.length} 个{children.every((node) => node.kind === 'species') ? '物种档案' : '分类单元'}</span>
+    </div>
     <div className="exploration-body">
-      <div className="exploration-tiles" ref={measure} aria-label="按已收录物种数量划分面积的分类总览">
-        {tiles.map((tile, index) => <button type="button" key={tile.node.key}
-          className={`exploration-tile exploration-tile--${index % 5}${tile.width < 72 || tile.height < 54 ? ' exploration-tile--small' : ''}`}
-          style={{ left: tile.x, top: tile.y, width: tile.width, height: tile.height }}
-          aria-label={`${tile.node.kind === 'taxon' ? tile.node.taxon.zhName : tile.node.species.names.zh}，${ranks[tile.node.rank]}，${tile.node.speciesCount} 个物种`}
-          title={tile.node.kind === 'taxon' ? tile.node.taxon.zhName : tile.node.species.names.zh}
-          onClick={() => activate(tile.node)}>
-          <small>{ranks[tile.node.rank]} · {tile.node.speciesCount}</small>
-          <strong>{tile.node.kind === 'taxon' ? tile.node.taxon.zhName : tile.node.species.names.zh}</strong>
-          <i lang="la">{tile.node.kind === 'taxon' ? tile.node.taxon.scientificName : tile.node.species.scientificName}</i>
-        </button>)}
+      <div className="exploration-tiles" ref={measure} tabIndex={-1} aria-label="按已收录物种数量划分面积的分类总览">
+        {tiles.map((tile) => {
+          const node = tile.node;
+          const isSelected = node.kind === 'species' && selectedSlug === node.species.slug;
+          const small = tile.width < 110 || tile.height < 85;
+          const tiny = tile.width < 64 || tile.height < 38;
+          return <button type="button" key={node.key}
+            className={`exploration-tile exploration-tile--${tileTone(node)}${small ? ' exploration-tile--small' : ''}${tiny ? ' exploration-tile--tiny' : ''}${previewKey === node.key ? ' is-highlighted' : ''}${isSelected ? ' is-selected' : ''}`}
+            style={{ left: tile.x, top: tile.y, width: tile.width, height: tile.height }}
+            aria-label={`${nodeName(node)}，${ranks[node.rank]}，${node.speciesCount} 个物种`}
+            aria-pressed={node.kind === 'species' ? isSelected : undefined}
+            title={`${nodeName(node)} · ${node.speciesCount} 个物种`}
+            onPointerEnter={() => inspect(node)} onFocus={() => inspect(node)} onClick={() => activate(node)}>
+            <span className="exploration-tile__top"><small>{ranks[node.rank]}</small><span>{node.speciesCount}<em> 个物种</em></span></span>
+            <span className="exploration-tile__name"><strong>{nodeName(node)}</strong><i lang="la">{node.kind === 'taxon' ? node.taxon.scientificName : node.species.scientificName}</i></span>
+            <span className="exploration-tile__action">{node.kind === 'taxon' ? '进去看看' : '认识这个物种'}<ArrowUpRight size={15} /></span>
+            {node.kind === 'taxon' ? <Network className="exploration-tile__drawing" aria-hidden="true" /> : <BookOpen className="exploration-tile__drawing" aria-hidden="true" />}
+          </button>;
+        })}
       </div>
       <aside className="exploration-sidebar">
-        <div className="exploration-sidebar__heading"><span>当前分类单元 · {children.length}</span></div>
-        <div className="exploration-list">{children.map((node) => <button type="button" key={node.key} onClick={() => activate(node)}>
-          <span>{node.kind === 'taxon' ? node.taxon.zhName : node.species.names.zh}
-            <i lang="la">{node.kind === 'taxon' ? node.taxon.scientificName : node.species.scientificName}</i></span>
-          <small>{ranks[node.rank]} · {node.speciesCount}</small>
+        <div className="exploration-sidebar__heading"><span>{children.every((node) => node.kind === 'species') ? '认识这些物种' : '选择一个分类单元'} <small>{children.length}</small></span><Network size={15} /></div>
+        <div className="exploration-list">{children.map((node) => <button type="button" key={node.key}
+          className={`${previewKey === node.key ? 'is-highlighted' : ''} exploration-compact__row--${tileTone(node)}`}
+          aria-pressed={node.kind === 'species' ? selectedSlug === node.species.slug : undefined}
+          onPointerEnter={() => inspect(node)} onFocus={() => inspect(node)} onClick={() => activate(node)}>
+          <span className="exploration-compact__rank">{ranks[node.rank]}</span>
+          <span className="exploration-compact__name">{nodeName(node)}<i lang="la">{node.kind === 'taxon' ? node.taxon.scientificName : node.species.scientificName}</i></span>
+          <span className="exploration-compact__count">{node.speciesCount}<ChevronRight size={13} /></span>
         </button>)}</div>
-        <SpeciesPreview item={selected} onOpenSpecies={onOpenSpecies} />
+        <div className="exploration-compact__preview">
+          {previewSpecies ? <SpeciesPreview item={previewSpecies} onOpenSpecies={onOpenSpecies} /> : preview ? <div className="exploration-taxon-note" key={preview.key}>
+            <span>{ranks[preview.rank]} · {preview.speciesCount} 个已收录物种</span>
+            <strong>{nodeName(preview)}</strong>
+            <p>{preview.kind === 'taxon' ? '你可以在这里认识' : '物种档案'}：{sampleSpecies(preview).map((item) => item.names.zh).join('、')}{preview.speciesCount > 3 ? '…' : ''}</p>
+            <button type="button" onClick={() => activate(preview)}>{preview.kind === 'taxon' ? '探索这个分类单元' : '查看物种信息'}<ArrowUpRight size={14} /></button>
+          </div> : <div className="exploration-compact__welcome"><BookOpen size={25} /><strong>挑一块色彩，进去看看</strong><p>大色块里收录了更多物种。悬停或聚焦色块先看介绍，再点按逐级探索。</p></div>}
+        </div>
       </aside>
     </div>
-  </>;
+    <p className="exploration-compact__hint"><span><span /> 色块面积对应已收录物种数量</span><span>小色块也可以从列表进入</span></p>
+  </div>;
 }
 
 export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
@@ -306,12 +371,12 @@ export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
     if (fullscreenMode) await exitFullscreen();
     onOpenSpecies(item);
   };
-  return <section className={`atlas-exploration${geography ? ' atlas-exploration--geography' : ''}`} aria-labelledby="exploration-title">
+  return <section className={`atlas-exploration${geography ? ' atlas-exploration--geography' : ' atlas-exploration--compact'}`} aria-labelledby="exploration-title">
     <div ref={workspace} className={`exploration-workspace${fullscreenMode ? ' is-fullscreen' : ''}${fullscreenMode === 'page' ? ' is-page-fullscreen' : ''}`}
       role={fullscreenMode === 'page' ? 'dialog' : undefined} aria-modal={fullscreenMode === 'page' ? true : undefined}
       aria-labelledby={fullscreenMode === 'page' ? 'exploration-title' : undefined}>
       <header className="exploration-heading">
-        <div><p>{geography ? 'GEOGRAPHIC ATLAS' : 'TAXONOMY MOSAIC'}</p><h2 id="exploration-title">{geography ? '沿着地图，认识动物' : '在一屏里，探索动物分类'}</h2></div>
+        <div><p>{geography ? 'GEOGRAPHIC ATLAS' : 'TAXONOMY MOSAIC'}</p><h2 id="exploration-title">{geography ? '沿着地图，认识动物' : '一屏看见动物的多样'}</h2></div>
         <div className="exploration-heading__actions">
           <span aria-live="polite">{results.length} / {items.length} 个物种</span>
           {geography && <button ref={fullscreenButton} type="button" className="exploration-fullscreen-button"
