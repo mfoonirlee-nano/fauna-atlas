@@ -1,6 +1,6 @@
-import { useCallback, useId, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
 import { geoGraticule10, geoPath } from 'd3-geo';
-import { ArrowLeft, ArrowUpRight, Compass, Globe2, MapPin, Minus, Plus, RotateCcw, Search } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, Compass, Globe2, MapPin, Maximize2, Minimize2, Minus, Plus, RotateCcw, Search } from 'lucide-react';
 import type { SpeciesSummary } from '../types/species';
 import { buildTaxonomyTree, getSpeciesTaxonomyPath, type TaxonomyTreeNode } from '../domain/taxonomy';
 import { clusterSpecies, layoutTaxonomyTiles, mapProjection, projectSpecies, searchExploration } from '../domain/atlas-exploration';
@@ -109,7 +109,7 @@ function Geography({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
           }
           if (event.key === '+' || event.key === '=') { event.preventDefault(); changeZoom(zoom * 2); }
           if (event.key === '-') { event.preventDefault(); changeZoom(zoom / 2); }
-          if (event.key === 'Escape') reset();
+          if (event.key === 'Escape' && !event.currentTarget.closest('.is-fullscreen')) reset();
         }} onPointerDown={(event) => {
           if (event.button !== 0) return;
           drag.current = { x: event.clientX, y: event.clientY, panX: pan.x, panY: pan.y, moved: false, active: true };
@@ -242,15 +242,84 @@ function CompactTaxonomy({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
 }
 
 export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
+  const workspace = useRef<HTMLDivElement>(null);
+  const fullscreenButton = useRef<HTMLButtonElement>(null);
+  const [fullscreenMode, setFullscreenMode] = useState<'native' | 'page'>();
   const [query, setQuery] = useState('');
   const [realm, setRealm] = useState('');
   const results = useMemo(() => searchExploration(items, query, realm), [items, query, realm]);
   const geography = mode === 'geography';
+  useEffect(() => {
+    const element = workspace.current;
+    const syncFullscreen = () => {
+      if (document.fullscreenElement === element) setFullscreenMode('native');
+      else setFullscreenMode((current) => current === 'native' ? undefined : current);
+    };
+    document.addEventListener('fullscreenchange', syncFullscreen);
+    return () => {
+      document.removeEventListener('fullscreenchange', syncFullscreen);
+      if (document.fullscreenElement === element) void document.exitFullscreen().catch(() => {});
+    };
+  }, []);
+  useEffect(() => {
+    if (fullscreenMode !== 'page') return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    fullscreenButton.current?.focus();
+    const handleKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault(); event.stopPropagation(); setFullscreenMode(undefined);
+        fullscreenButton.current?.focus();
+      }
+      if (event.key === 'Tab') {
+        const controls = [...(workspace.current?.querySelectorAll<HTMLElement>('button:not(:disabled), input, select, [tabindex="0"]') ?? [])];
+        const first = controls[0], last = controls.at(-1);
+        if (event.shiftKey && (document.activeElement === first || !workspace.current?.contains(document.activeElement))) {
+          event.preventDefault(); last?.focus();
+        } else if (!event.shiftKey && (document.activeElement === last || !workspace.current?.contains(document.activeElement))) {
+          event.preventDefault(); first?.focus();
+        }
+      }
+    };
+    document.addEventListener('keydown', handleKey, true);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener('keydown', handleKey, true);
+    };
+  }, [fullscreenMode]);
+  const exitFullscreen = async () => {
+    if (document.fullscreenElement === workspace.current) await document.exitFullscreen();
+    setFullscreenMode(undefined);
+    fullscreenButton.current?.focus();
+  };
+  const toggleFullscreen = async () => {
+    if (fullscreenMode) { await exitFullscreen(); return; }
+    try {
+      if (workspace.current?.requestFullscreen) await workspace.current.requestFullscreen();
+      else setFullscreenMode('page');
+    } catch {
+      // Keep viewport expansion available when native fullscreen is unavailable.
+      setFullscreenMode('page');
+    }
+  };
+  const openSpecies = async (item: SpeciesSummary) => {
+    if (fullscreenMode) await exitFullscreen();
+    onOpenSpecies(item);
+  };
   return <section className={`atlas-exploration${geography ? ' atlas-exploration--geography' : ''}`} aria-labelledby="exploration-title">
-    <div className="exploration-workspace">
+    <div ref={workspace} className={`exploration-workspace${fullscreenMode ? ' is-fullscreen' : ''}${fullscreenMode === 'page' ? ' is-page-fullscreen' : ''}`}
+      role={fullscreenMode === 'page' ? 'dialog' : undefined} aria-modal={fullscreenMode === 'page' ? true : undefined}
+      aria-labelledby={fullscreenMode === 'page' ? 'exploration-title' : undefined}>
       <header className="exploration-heading">
         <div><p>{geography ? 'GEOGRAPHIC ATLAS' : 'TAXONOMY MOSAIC'}</p><h2 id="exploration-title">{geography ? '沿着地图，认识动物' : '在一屏里，探索动物分类'}</h2></div>
-        <span aria-live="polite">{results.length} / {items.length} 个物种</span>
+        <div className="exploration-heading__actions">
+          <span aria-live="polite">{results.length} / {items.length} 个物种</span>
+          {geography && <button ref={fullscreenButton} type="button" className="exploration-fullscreen-button"
+            aria-label={fullscreenMode ? '退出全屏展示' : '全屏展示地理分布'} aria-pressed={Boolean(fullscreenMode)}
+            onClick={() => { void toggleFullscreen(); }}>
+            {fullscreenMode ? <Minimize2 size={16} /> : <Maximize2 size={16} />}<span>{fullscreenMode ? '退出全屏' : '全屏展示'}</span>
+          </button>}
+        </div>
       </header>
       <div className="exploration-tools">
         <label><Search size={17} /><input aria-label="检索图谱中的动物、分类或地区" placeholder="搜索动物、分类或地区…" value={query} onChange={(event) => setQuery(event.target.value)} /></label>
@@ -260,8 +329,8 @@ export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
         {(query || realm) && <button type="button" onClick={() => { setQuery(''); setRealm(''); }}>清除筛选</button>}
       </div>
       {results.length ? geography
-        ? <Geography key={`${query}:${realm}`} items={results} onOpenSpecies={onOpenSpecies} />
-        : <CompactTaxonomy key={`${query}:${realm}`} items={results} onOpenSpecies={onOpenSpecies} />
+        ? <Geography key={`${query}:${realm}`} items={results} onOpenSpecies={openSpecies} />
+        : <CompactTaxonomy key={`${query}:${realm}`} items={results} onOpenSpecies={openSpecies} />
         : <div className="exploration-empty" role="status">没有找到匹配的动物。试试动物中文名、学名或地区名称。</div>}
       <footer className="exploration-footnote">{geography
         ? '点位仅表示档案的代表位置，不代表完整分布范围或野外观察记录。底图：Natural Earth。'

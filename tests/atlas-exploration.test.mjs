@@ -137,3 +137,68 @@ test('regional navigation, point previews and keyboard exploration preserve spec
   assert.match(document.querySelector('.exploration-field-note').textContent, /暂无代表坐标/);
   assert.equal(document.querySelector('.exploration-selected-point'), null);
 });
+
+test('native fullscreen follows browser exit and keeps the map selection', async (context) => {
+  const { root, species, AtlasExploration } = await setup(context);
+  const panda = species.find((item) => item.slug === 'giant-panda');
+  let fullscreenElement = null;
+  Object.defineProperty(document, 'fullscreenElement', { configurable: true, get: () => fullscreenElement });
+  document.exitFullscreen = async () => {
+    fullscreenElement = null;
+    document.dispatchEvent(new window.Event('fullscreenchange'));
+  };
+  let opened;
+  await act(() => root.render(createElement(AtlasExploration, { items: [panda], mode: 'geography', onOpenSpecies: (item) => { opened = item; } })));
+  const workspace = document.querySelector('.exploration-workspace');
+  workspace.requestFullscreen = async () => {
+    fullscreenElement = workspace;
+    document.dispatchEvent(new window.Event('fullscreenchange'));
+  };
+  await act(() => document.querySelector('.exploration-list > button').click());
+  const transform = document.querySelector('.exploration-map__surface').getAttribute('transform');
+  await act(async () => document.querySelector('[aria-label="全屏展示地理分布"]').click());
+  assert.equal(document.fullscreenElement, workspace);
+  assert.ok(workspace.classList.contains('is-fullscreen'));
+  assert.equal(document.querySelector('[aria-label="退出全屏展示"]').getAttribute('aria-pressed'), 'true');
+  assert.equal(document.querySelector('.exploration-map__surface').getAttribute('transform'), transform);
+  await act(() => document.querySelector('.exploration-map > svg').dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
+  assert.equal(document.querySelector('.exploration-map__surface').getAttribute('transform'), transform, 'Escape in fullscreen does not reset the map');
+  await act(async () => document.exitFullscreen()); // Browser Esc exits independently of the component button.
+  assert.ok(!workspace.classList.contains('is-fullscreen'));
+  assert.equal(document.querySelector('.exploration-list > button').getAttribute('aria-pressed'), 'true');
+  await act(async () => document.querySelector('[aria-label="全屏展示地理分布"]').click());
+  await act(async () => document.querySelector('[aria-label="退出全屏展示"]').click());
+  assert.equal(document.fullscreenElement, null);
+  await act(async () => document.querySelector('[aria-label="全屏展示地理分布"]').click());
+  await act(async () => document.querySelector('.exploration-preview button').click());
+  assert.equal(document.fullscreenElement, null, 'opening a profile leaves fullscreen so the profile remains visible');
+  assert.equal(opened.slug, panda.slug);
+});
+
+test('fullscreen fallback supports Escape, focus containment and scroll restoration', async (context) => {
+  const { root, species, AtlasExploration } = await setup(context);
+  const panda = species.find((item) => item.slug === 'giant-panda');
+  await act(() => root.render(createElement(AtlasExploration, { items: [panda], mode: 'geography', onOpenSpecies() {} })));
+  const workspace = document.querySelector('.exploration-workspace');
+  const button = document.querySelector('[aria-label="全屏展示地理分布"]');
+  document.body.style.overflow = 'scroll';
+  await act(async () => button.click());
+  assert.ok(workspace.classList.contains('is-page-fullscreen'));
+  assert.equal(workspace.getAttribute('aria-modal'), 'true');
+  assert.equal(document.body.style.overflow, 'hidden');
+  const last = [...workspace.querySelectorAll('button:not(:disabled), input, select, [tabindex="0"]')].at(-1);
+  await act(() => last.focus());
+  const tab = new window.KeyboardEvent('keydown', { key: 'Tab', bubbles: true, cancelable: true });
+  await act(() => last.dispatchEvent(tab));
+  assert.equal(tab.defaultPrevented, true);
+  assert.equal(document.activeElement, button);
+  await act(() => document.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
+  assert.ok(!workspace.classList.contains('is-fullscreen'));
+  assert.equal(document.body.style.overflow, 'scroll');
+  assert.equal(document.activeElement, button);
+  workspace.requestFullscreen = async () => { throw new Error('Fullscreen blocked'); };
+  await act(async () => button.click());
+  assert.ok(workspace.classList.contains('is-page-fullscreen'), 'native rejection still allows viewport expansion');
+  await act(() => root.unmount());
+  assert.equal(document.body.style.overflow, 'scroll');
+});

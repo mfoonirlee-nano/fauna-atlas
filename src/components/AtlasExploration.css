@@ -181,3 +181,18 @@
 @media (prefers-reduced-motion: reduce) {
   .exploration-geography *, .exploration-geography *::after { animation: none !important; transition: none !important; }
 }
+
+.exploration-heading__actions { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+.exploration-heading__actions > span { font-size: .75rem; white-space: nowrap; color: var(--muted); }
+.exploration-fullscreen-button { display: flex; align-items: center; gap: 7px; padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px; color: var(--forest); background: var(--paper); font-size: .75rem; }
+.exploration-fullscreen-button:hover { background: color-mix(in srgb, var(--forest) 10%, var(--paper)); }
+.exploration-fullscreen-button:focus-visible { outline: 2px solid var(--forest); outline-offset: 3px; }
+.atlas-exploration--geography .exploration-workspace.is-fullscreen { width: 100%; height: 100dvh; min-height: 0; margin: 0; border: 0; border-radius: 0; box-sizing: border-box; overflow: auto; }
+.exploration-workspace.is-page-fullscreen { position: fixed; inset: 0; z-index: 200; }
+@media (max-width: 760px) {
+  .atlas-exploration--geography .exploration-heading { align-items: flex-start; }
+  .atlas-exploration--geography .exploration-heading__actions { flex-direction: column-reverse; align-items: flex-end; gap: 6px; }
+  .exploration-heading__actions > span { font-size: .65rem; }
+  .exploration-fullscreen-button { padding: 7px 9px; font-size: .65rem; }
+  .atlas-exploration--geography .exploration-workspace.is-fullscreen { padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); }
+}
