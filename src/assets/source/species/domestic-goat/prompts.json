@@ -1,0 +1,67 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only the composition of this domestic goat cover. Keep same animal, anatomy, markings, natural light and farm setting. The complete goat including tail, horn tips, ears, beard and every hoof MUST fit inside x=660..1450 and y=110..930 on the 1536x1024 canvas. Recompose the animal somewhat smaller and farther right, maximizing size inside that rectangle. All left 40 percent must be quiet background with no animal. Leave background around the entire animal. No text.",
+      "originalPrompt": "Use case: scientific-educational. Create a photorealistic wildlife reconstruction for Fauna Atlas: one adult domestic goat Capra hircus with short cream and brown hair, curved horns, beard, horizontal pupils, two cloven hooves per leg; standing sideways on a grassy farm bank in soft daylight. Landscape 1536x1024. Complete body, both horns, all four legs and hooves, ears and short raised tail must fit entirely within x=640..1450 and y=100..940. Subject center around 70% of width, maximum size within these bounds. Quiet grass background in left 40%. No text, no watermark, no frame. Anatomically accurate; no sheep wool.",
+      "sourceSha256": "58892569617b6c9b9b2e1a6df6a0c536e1f8fa32203de274508c341e51e71dc1",
+      "runtimeSha256": "09e844f5304560f681f27883600bbff2fcba2dccd32c45c9464ff84280ecfa08",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic goat Capra hircus, cream and brown short hair, curved horns, beard, cloven hooves. Scene: head portrait showing both complete horns, ears and beard, horizontal pupil. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "931d72a452315400d80f8ae8354d64464adb0fc4ed4fdd42d6c824280a0356a7",
+      "runtimeSha256": "f80c65d7fce46205ae6722ff01a6001888f01d27f80097b790dab3bc082fdae3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic goat Capra hircus, cream and brown short hair, curved horns, beard, cloven hooves. Scene: browsing leaves on low shrub at farm. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "27fbde9c9b04a9050d5f35a53d273cd519bcef1c7c3d704612c8519fb9d22747",
+      "runtimeSha256": "72aaf0b8ca9e072ea5b305e18714cea44e03cf214772f680a337455737f4a807",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic goat Capra hircus, cream and brown short hair, curved horns, beard, cloven hooves. Scene: standing on low rocky farm bank, complete legs. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "2fa1144ad21b10acf547214d306cbc63a654977d2aaea02c9ef0d7147ac6e19b",
+      "runtimeSha256": "a9e31fc33f708a543f5e9c4d4c97bca1db8a7d67d8f9ecebe2a50ffbc30f4ee6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic goat Capra hircus, cream and brown short hair, curved horns, beard, cloven hooves. Scene: mother goat with one young kid on grass. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "e9ab8cfd6f1b44ea4670d42732d056df28bbc402975ee38b2d9d64a937195979",
+      "runtimeSha256": "625123ddf95e12f23a1afedd1cad6857455d410362c731583830a4b86c2871fb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Photorealistic animal reconstruction for Fauna Atlas. Species reference: adult domestic goat Capra hircus, cream and brown short hair, curved horns, beard, cloven hooves. Scene: side view showing short raised tail and cloven hooves. Landscape 1536x1024; natural soft daylight, detailed realistic anatomy and habitat. Clear main subject; leave margin around every required feature, no cut-off heads or feet. No text, labels, watermark, frame, fantasy anatomy. This is a separate image, not collage.",
+      "sourceSha256": "9a31cbd6e7b301194c2b1c88634c6f82d5700113e93d0d96ea5249b213a84961",
+      "runtimeSha256": "9056517fe97617af6a3291355b44ca241b427f6381eeb6b760ce1eb612e76383",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
