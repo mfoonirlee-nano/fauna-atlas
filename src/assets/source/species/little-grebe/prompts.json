@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas cover, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Little grebe Tachybaptus ruficollis, compact tiny grebe, breeding adult dark brown upperparts chestnut cheeks and neck, yellow gape patch, pointed short dark bill, no crest. Scene: floating on quiet reed pond. Mandatory cover composition: complete main bird on right half, silhouette center 72% across, contained within x=700..1450 y=100..900; left 40% quiet blurred habitat. Maximize bird size within this box. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "b5a59f07a39221b94738f1864e6abc7c6b387a5df1f2b3f3da22b16012a7275e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4ff27261716f254d3a6b06a9717bb31a7939b3844fd4ef8873c6dac6518d95fc",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Little grebe Tachybaptus ruficollis, compact tiny grebe, breeding adult dark brown upperparts chestnut cheeks and neck, yellow gape patch, pointed short dark bill, no crest. Scene: nonbreeding pale buff cheeks adult floating. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "70e1e12d7b2b1acc92fd6221b1ee4bcb107c060f65dc21ceffa6c83fa874fc40",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9d78890b17b9d548f8ba6db4ab2b610895818c8f2ca55d7e1ffd261dcc3dab7d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Little grebe Tachybaptus ruficollis, compact tiny grebe, breeding adult dark brown upperparts chestnut cheeks and neck, yellow gape patch, pointed short dark bill, no crest. Scene: adult standing at muddy waterline with lobed toes visible. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "d9afb15aef9135b6ec9460440e4fd14413837af82450f136f6785e6fafec915d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "07e2008d80dc0667f23505b87050d57cb3d67cb8f8db1fd724662a93bdbbd819",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Little grebe Tachybaptus ruficollis, compact tiny grebe, breeding adult dark brown upperparts chestnut cheeks and neck, yellow gape patch, pointed short dark bill, no crest. Scene: adult holding tiny aquatic insect at surface. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "ad348765fb69f2c40b0c19df2300d950843ad9cc81d9165cb835f509c43c1c64",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "06c0ea6fd4f4f04a29e22c43333ef985ed3607032b7af9f251c5414b02a776ce",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Little grebe Tachybaptus ruficollis, compact tiny grebe, breeding adult dark brown upperparts chestnut cheeks and neck, yellow gape patch, pointed short dark bill, no crest. Scene: striped-headed downy chick beside adult swimming. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "2cebded0ec4010d670b90f159707b2a0edf599896c5912fb3bfae3d0c472934d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "621803e5da94438cf27db2d8125aff57d19c755b7fe7413380b49cfce4110722",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Little grebe Tachybaptus ruficollis, compact tiny grebe, breeding adult dark brown upperparts chestnut cheeks and neck, yellow gape patch, pointed short dark bill, no crest. Scene: adult on floating vegetation nest, two eggs visible. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "55a20069265f9b2f2c16bb13265f6b7d294aeb3b31d385d0fca213ff49ccbc04",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "43cebcde1833492507beaa5692a2797b29040814a05574dd266ea35a7cca8956",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
