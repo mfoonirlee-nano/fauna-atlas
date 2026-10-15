@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Harmonia axyridis harlequin ladybird beetle; dome-shaped adult, orange-red elytra with multiple irregular black spots, pale cream pronotum with black M-shaped mark, six short black legs, two short clubbed antennae; spots vary between individuals. Scene: one orange spotted adult walking on green leaf. COVER COMPOSITION: put the complete animal only on the RIGHT HALF, centered at 72% of canvas width. Every visible antenna tip, leg, wingtip and abdomen must fit inside x=660..1450 and y=110..910. Left 40% must be quiet blurred habitat. Leave visible real background outside all appendages. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "dd64b7953d4b7f06ae86db2b665ad36371cfb571f0a616d9d9173ebe4e369313",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6391f3b29d53088e536aa07ba5a459afead14b048a19c910c4bf4ea66147e297",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Harmonia axyridis harlequin ladybird beetle; dome-shaped adult, orange-red elytra with multiple irregular black spots, pale cream pronotum with black M-shaped mark, six short black legs, two short clubbed antennae; spots vary between individuals. Scene: one black adult with two pairs of red-orange spots on elytra and pale margins to pronotum, dark color form. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "d851bfef06ebe7b965fea899a7bd9a7809f09dce353bf31f8ded57a05fa302ce",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4e5601ec8b728dbd765bbd4c1ca9d0a01cddb02d85602012f2695bf5b6c43a22",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. One Harmonia axyridis LADYBIRD LARVA actively eating a tiny aphid on a leaf: long black alligator-shaped segmented body with rows of short branching spines and orange patches along sides, exactly three pairs of short thoracic legs near head, no wing cases, no rounded beetle body. Aphids much smaller. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "4d4a54145d50d9b0e37899b146fdd0f703818adb133cd37818042e3bbfcea56a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8945a4c65cdc4466cf7de09d00aeffbb74eb678930887381811135af0e5fa698",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. One Harmonia axyridis ladybird PUPA attached to a leaf: compact curved orange-and-black pupal shell with black markings, motionless, attached at hind end with old dark shriveled larval skin at attachment. No visible legs walking, no adult wing cases, no adult ladybird anywhere. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "dc349261974c1ed985be5de445310e5f81eb3bf9ff64b5c24af4749333b97935",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "28c03a09b13d02ef144948a2d904d2448d8c66376860a749fd7539ff38505319",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Macro of a cluster of about fifteen upright elongated YELLOW Harmonia axyridis EGGS closely arranged on underside of green leaf, each egg smooth oval standing vertically from leaf surface. No adult beetles, no larvae, only eggs and leaf, eggs are tiny relative to leaf veins. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "d62fe1fae6f0ff18149c1f187dae7a3db11bc5d2c5d1a648d3943b0f1a35e819",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "fd96d846d5a9a5518c7b8c112afb11a8be8c0efb4d0a314126c24e19f0e90cab",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Harmonia axyridis harlequin ladybird beetle; dome-shaped adult, orange-red elytra with multiple irregular black spots, pale cream pronotum with black M-shaped mark, six short black legs, two short clubbed antennae; spots vary between individuals. Scene: adult feeding among small green aphids on rose stem, no gore. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "5af7e8054eb83c5950c241d0c4e26f39490f56404e1236a30f31dd4a149bd5df",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "357dc6e047e06b2339bde1825efbd39bd69828d212cfcd720c4dc6ee44b7ecef",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
