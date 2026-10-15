@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "620 animal species profiles; 560 historical baseline reviews and 60 additions through 2026-10-15; microbial topics excluded",
+  "scope": "630 animal species profiles; 560 historical baseline reviews and 70 additions through 2026-10-15; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 60,
+    "addedProfiles": 70,
     "addedProfilesReviewDate": "2026-10-15",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -28951,6 +28951,457 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/2480907"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "chinese-long-headed-grasshopper",
+      "name": "中华剑角蝗",
+      "scientificName": "Acrida cinerea",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3542064/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9147371/",
+            "https://agris.fao.org/search/en/providers/122431/records/6472510253aa8c89630609a4"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3542064/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9147371/",
+            "https://agris.fao.org/search/en/providers/122431/records/6472510253aa8c89630609a4"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3542064/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9147371/",
+            "https://agris.fao.org/search/en/providers/122431/records/6472510253aa8c89630609a4"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5099473"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5099473"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "spotted-lanternfly",
+      "name": "斑衣蜡蝉",
+      "scientificName": "Lycorma delicatula",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://extension.psu.edu/spotted-lanternfly-management-guide"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://extension.psu.edu/spotted-lanternfly-management-guide"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://extension.psu.edu/spotted-lanternfly-management-guide"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5157899"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5157899"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "chinese-bush-cricket",
+      "name": "中华蝈螽",
+      "scientificName": "Gampsocleis sinensis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://orthoptera.speciesfile.org/otus/849694",
+            "https://www.tbn.org.tw/taxa/c7c79e33-6e2c-4a0d-a457-900a8568e747",
+            "https://doi.org/10.11646/zootaxa.2780.1.4",
+            "https://www.faunajournal.com/vol2Issue1/Issue_feb_2015/2-2-37.1.pdf"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://orthoptera.speciesfile.org/otus/849694",
+            "https://www.tbn.org.tw/taxa/c7c79e33-6e2c-4a0d-a457-900a8568e747",
+            "https://doi.org/10.11646/zootaxa.2780.1.4",
+            "https://www.faunajournal.com/vol2Issue1/Issue_feb_2015/2-2-37.1.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://orthoptera.speciesfile.org/otus/849694",
+            "https://www.tbn.org.tw/taxa/c7c79e33-6e2c-4a0d-a457-900a8568e747",
+            "https://doi.org/10.11646/zootaxa.2780.1.4",
+            "https://www.faunajournal.com/vol2Issue1/Issue_feb_2015/2-2-37.1.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1694565"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1694565"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "asian-bluetail",
+      "name": "亚洲细蟌",
+      "scientificName": "Ischnura asiatica",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://taieol.tw/pages/108334/articles",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/db43a9f2-b585-4ffb-b0e8-70af5c18f438",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/",
+            "https://www.biodiversity-science.net/fileup/1005-0094/SUPPL/supplFile_art_20240816155117.pdf"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://taieol.tw/pages/108334/articles",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/db43a9f2-b585-4ffb-b0e8-70af5c18f438",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/",
+            "https://www.biodiversity-science.net/fileup/1005-0094/SUPPL/supplFile_art_20240816155117.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://taieol.tw/pages/108334/articles",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/db43a9f2-b585-4ffb-b0e8-70af5c18f438",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/",
+            "https://www.biodiversity-science.net/fileup/1005-0094/SUPPL/supplFile_art_20240816155117.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1423350"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1423350"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "japanese-carpenter-ant",
+      "name": "日本弓背蚁",
+      "scientificName": "Camponotus japonicus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://antwiki.org/wiki/Camponotus_japonicus",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10380308/",
+            "https://sj.jst.go.jp/publications/media/2017sw.pdf"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://antwiki.org/wiki/Camponotus_japonicus",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10380308/",
+            "https://sj.jst.go.jp/publications/media/2017sw.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://antwiki.org/wiki/Camponotus_japonicus",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10380308/",
+            "https://sj.jst.go.jp/publications/media/2017sw.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5034161"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5034161"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "scarlet-skimmer",
+      "name": "赭黄蜻蜓",
+      "scientificName": "Orthetrum testaceum",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/1/1/1196",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/4b1f5678-22ef-4262-895b-f60ca5df4b8d",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/1/1/1196",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/4b1f5678-22ef-4262-895b-f60ca5df4b8d",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/1/1/1196",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/4b1f5678-22ef-4262-895b-f60ca5df4b8d",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1428590"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1428590"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "common-scarlet",
+      "name": "赤蜻",
+      "scientificName": "Crocothemis servilia",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/5/6/5611",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/58ba26ce-0821-49c8-bdc8-a60338406436",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/5/6/5611",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/58ba26ce-0821-49c8-bdc8-a60338406436",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/5/6/5611",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/58ba26ce-0821-49c8-bdc8-a60338406436",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1427734"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1427734"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "wandering-glider",
+      "name": "黄蜻",
+      "scientificName": "Pantala flavescens",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://speciesstatus.sanbi.org/assessment/last-assessment/1680/",
+            "https://arxiv.org/abs/2206.11226",
+            "https://pureportal.inbo.be/files/123966529/Pantala_flavescens.pdf",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/a1b6a2c8-d224-4009-b22f-8e7f426300b6",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://speciesstatus.sanbi.org/assessment/last-assessment/1680/",
+            "https://arxiv.org/abs/2206.11226",
+            "https://pureportal.inbo.be/files/123966529/Pantala_flavescens.pdf",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/a1b6a2c8-d224-4009-b22f-8e7f426300b6",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://speciesstatus.sanbi.org/assessment/last-assessment/1680/",
+            "https://arxiv.org/abs/2206.11226",
+            "https://pureportal.inbo.be/files/123966529/Pantala_flavescens.pdf",
+            "https://www.nparks.gov.sg/docs/default-source/sbwr-wetlands-newsletter/wetlands-newsletter--vol-13-no-3-dec-2006.pdf",
+            "https://www.tbn.org.tw/taxa/a1b6a2c8-d224-4009-b22f-8e7f426300b6",
+            "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1427855"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1427855"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "harlequin-ladybird",
+      "name": "异色瓢虫",
+      "scientificName": "Harmonia axyridis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://ipm.ucanr.edu/natural-enemies/multicolored-asian-lady-beetle/",
+            "https://ucanr.edu/blog/pests-urban-landscape/article/multicolored-asian-lady-beetle-bad"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://ipm.ucanr.edu/natural-enemies/multicolored-asian-lady-beetle/",
+            "https://ucanr.edu/blog/pests-urban-landscape/article/multicolored-asian-lady-beetle-bad"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ipm.ucanr.edu/natural-enemies/multicolored-asian-lady-beetle/",
+            "https://ucanr.edu/blog/pests-urban-landscape/article/multicolored-asian-lady-beetle-bad"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4989904"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4989904"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "asian-swallowtail",
+      "name": "柑橘凤蝶",
+      "scientificName": "Papilio xuthus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://taieol.tw/pages/104327/articles",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3386895/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7347997/",
+            "https://www.sciencedirect.com/science/article/pii/S0022191006000813",
+            "https://commons.wikimedia.org/wiki/File:Papilio_xuthus_front_view_2011-07-16.jpg"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://taieol.tw/pages/104327/articles",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3386895/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7347997/",
+            "https://www.sciencedirect.com/science/article/pii/S0022191006000813",
+            "https://commons.wikimedia.org/wiki/File:Papilio_xuthus_front_view_2011-07-16.jpg"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://taieol.tw/pages/104327/articles",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3386895/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7347997/",
+            "https://www.sciencedirect.com/science/article/pii/S0022191006000813",
+            "https://commons.wikimedia.org/wiki/File:Papilio_xuthus_front_view_2011-07-16.jpg"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1937819"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1937819"
           ]
         }
       }

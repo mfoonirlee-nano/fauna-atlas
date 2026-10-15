@@ -110,6 +110,7 @@ async function assertGeneratedImageSet({
   slug,
   basenames,
   credit = 'Fauna Atlas · AI 生成科学情景重建',
+  credits,
   verifyAcceptedHashes = false,
 }) {
   assert.equal(basenames.length, 6);
@@ -117,6 +118,7 @@ async function assertGeneratedImageSet({
 
   const gallery = profile.media.gallery ?? [];
   const mediaRecords = [profile.media, ...gallery];
+  if (credits) assert.equal(credits.length, mediaRecords.length);
   const mediaPaths = mediaRecords.map(({ image }) => image);
   assert.deepEqual(
     mediaPaths,
@@ -131,8 +133,8 @@ async function assertGeneratedImageSet({
   );
   assert.ok(
     mediaRecords.every(
-      ({ focalPoint, credit: mediaCredit }) =>
-        mediaCredit === credit &&
+      ({ focalPoint, credit: mediaCredit }, index) =>
+        mediaCredit === (credits?.[index] ?? credit) &&
         focalPoint &&
         focalPoint.x >= 0 &&
         focalPoint.x <= 1 &&
@@ -281,7 +283,7 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.code, 'LC');
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.ok(profile.featuredStats.some((stat) => stat.note?.includes('评估年份未核实')));
-    } else if (['little-grebe', 'great-cormorant', 'eurasian-coot', 'common-moorhen', 'chinese-pond-heron', 'spotted-salamander', 'bargibants-pygmy-seahorse', 'striated-frogfish', 'oriental-flying-gurnard', 'wallaces-flying-frog', 'surinam-horned-frog', 'desert-rain-frog', 'african-bullfrog', 'armadillo-girdled-lizard', 'emerald-tree-boa', 'tentacled-snake', 'diamondback-terrapin', 'common-tailorbird', 'red-eyed-crocodile-skink', 'green-anole', 'eastern-blue-tongued-skink', 'shingleback', 'long-tailed-widowbird', 'andean-cock-of-the-rock', 'red-billed-streamertail', 'rainbow-lorikeet', 'kea', 'black-skimmer', 'great-crested-grebe', 'victoria-crowned-pigeon', 'lilac-breasted-roller', 'northern-carmine-bee-eater', 'great-tit', 'long-tailed-tit', 'eurasian-nuthatch', 'northern-lapwing', 'eurasian-oystercatcher', 'rock-hyrax', 'markhor', 'hooded-seal', 'common-blackbird', 'spotted-dove', 'long-eared-jerboa', 'hazel-dormouse', 'north-american-porcupine', 'black-tailed-prairie-dog', 'crested-porcupine', 'southern-tamandua', 'giant-armadillo', 'silky-anteater', 'lowland-streaked-tenrec', 'short-eared-sengi', 'spotted-linsang', 'eastern-spotted-skunk', 'sand-cat', 'hoffmanns-two-toed-sloth', 'kinkajou', 'bat-eared-fox', 'eurasian-tree-sparrow', 'light-vented-bulbul', 'sugar-glider', 'indian-flying-fox', 'moose', 'tropical-two-wing-flyingfish', 'south-african-springhare', 'gerenuk', 'common-basilisk', 'giant-frogfish', 'muskox', 'magnificent-bird-of-paradise', 'north-island-brown-kiwi', 'common-thresher-shark', 'matschies-tree-kangaroo', 'cape-porcupine', 'greater-roadrunner', 'sunbittern', 'yellow-lipped-sea-krait', 'flying-gurnard', 'chinese-trumpetfish', 'numbat', 'burrowing-owl', 'satanic-leaf-tailed-gecko', 'golden-lion-tamarin', 'tasmanian-devil', 'village-weaver', 'satin-bowerbird', 'amazon-mata-mata', 'three-toed-amphiuma', 'mantled-guereza', 'wattled-jacana', 'fleischmanns-glass-frog', 'spiny-leaf-insect', 'lar-gibbon', 'magnificent-frigatebird', 'sandfish-skink', 'great-hammerhead', 'proboscis-monkey', 'mandrill', 'great-white-pelican', 'blue-footed-booby', 'tokay-gecko', 'alpine-newt', 'leopard-slug', 'binturong', 'fossa', 'black-winged-stilt', 'pied-avocet', 'pancake-tortoise', 'common-midwife-toad', 'giant-anteater', 'maned-wolf', 'secretary-bird', 'eurasian-spoonbill', 'pig-nosed-turtle', 'tomato-frog', 'chinese-windmill', 'african-clawed-frog', 'basking-shark', 'zebra-shark', 'blue-shark', 'panther-chameleon', 'common-frog', 'strawberry-poison-frog', 'dyeing-poison-frog', 'sulcata-tortoise', 'hermanns-tortoise', 'hawksbill-turtle', 'loggerhead-turtle', 'ball-python', 'veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog', 'oriental-fire-bellied-newt', 'ocean-sunfish', 'largetooth-sawfish', 'american-lobster', 'striped-skunk', 'caracal', 'leopard', 'chinese-tree-frog', 'american-bullfrog', 'atlantic-salmon', 'green-tree-python', 'arctic-fox', 'american-black-bear', 'sun-bear', 'jaguar', 'puma', 'serval', 'eurasian-lynx', 'gray-wolf', 'african-wild-dog', 'spotted-hyena', 'honey-badger', 'wolverine', 'european-badger', 'south-american-coati', 'sperm-whale', 'pygmy-hippopotamus', 'black-rhinoceros', 'king-penguin', 'adelie-penguin', 'gentoo-penguin', 'african-penguin', 'emu', 'greater-rhea', 'african-grey-parrot', 'blue-and-yellow-macaw', 'rosy-faced-lovebird', 'laughing-kookaburra', 'european-bee-eater', 'toucan-barbet', 'common-raven', 'european-robin', 'blue-tit', 'zebra-finch', 'bald-eagle', 'black-swan', 'american-alligator', 'saltwater-crocodile', 'spectacled-caiman', 'common-snapping-turtle', 'alligator-snapping-turtle', 'leopard-tortoise'].includes(profile.slug)) {
+    } else if (['asian-bluetail', 'scarlet-skimmer', 'common-scarlet', 'wandering-glider', 'little-grebe', 'great-cormorant', 'eurasian-coot', 'common-moorhen', 'chinese-pond-heron', 'spotted-salamander', 'bargibants-pygmy-seahorse', 'striated-frogfish', 'oriental-flying-gurnard', 'wallaces-flying-frog', 'surinam-horned-frog', 'desert-rain-frog', 'african-bullfrog', 'armadillo-girdled-lizard', 'emerald-tree-boa', 'tentacled-snake', 'diamondback-terrapin', 'common-tailorbird', 'red-eyed-crocodile-skink', 'green-anole', 'eastern-blue-tongued-skink', 'shingleback', 'long-tailed-widowbird', 'andean-cock-of-the-rock', 'red-billed-streamertail', 'rainbow-lorikeet', 'kea', 'black-skimmer', 'great-crested-grebe', 'victoria-crowned-pigeon', 'lilac-breasted-roller', 'northern-carmine-bee-eater', 'great-tit', 'long-tailed-tit', 'eurasian-nuthatch', 'northern-lapwing', 'eurasian-oystercatcher', 'rock-hyrax', 'markhor', 'hooded-seal', 'common-blackbird', 'spotted-dove', 'long-eared-jerboa', 'hazel-dormouse', 'north-american-porcupine', 'black-tailed-prairie-dog', 'crested-porcupine', 'southern-tamandua', 'giant-armadillo', 'silky-anteater', 'lowland-streaked-tenrec', 'short-eared-sengi', 'spotted-linsang', 'eastern-spotted-skunk', 'sand-cat', 'hoffmanns-two-toed-sloth', 'kinkajou', 'bat-eared-fox', 'eurasian-tree-sparrow', 'light-vented-bulbul', 'sugar-glider', 'indian-flying-fox', 'moose', 'tropical-two-wing-flyingfish', 'south-african-springhare', 'gerenuk', 'common-basilisk', 'giant-frogfish', 'muskox', 'magnificent-bird-of-paradise', 'north-island-brown-kiwi', 'common-thresher-shark', 'matschies-tree-kangaroo', 'cape-porcupine', 'greater-roadrunner', 'sunbittern', 'yellow-lipped-sea-krait', 'flying-gurnard', 'chinese-trumpetfish', 'numbat', 'burrowing-owl', 'satanic-leaf-tailed-gecko', 'golden-lion-tamarin', 'tasmanian-devil', 'village-weaver', 'satin-bowerbird', 'amazon-mata-mata', 'three-toed-amphiuma', 'mantled-guereza', 'wattled-jacana', 'fleischmanns-glass-frog', 'spiny-leaf-insect', 'lar-gibbon', 'magnificent-frigatebird', 'sandfish-skink', 'great-hammerhead', 'proboscis-monkey', 'mandrill', 'great-white-pelican', 'blue-footed-booby', 'tokay-gecko', 'alpine-newt', 'leopard-slug', 'binturong', 'fossa', 'black-winged-stilt', 'pied-avocet', 'pancake-tortoise', 'common-midwife-toad', 'giant-anteater', 'maned-wolf', 'secretary-bird', 'eurasian-spoonbill', 'pig-nosed-turtle', 'tomato-frog', 'chinese-windmill', 'african-clawed-frog', 'basking-shark', 'zebra-shark', 'blue-shark', 'panther-chameleon', 'common-frog', 'strawberry-poison-frog', 'dyeing-poison-frog', 'sulcata-tortoise', 'hermanns-tortoise', 'hawksbill-turtle', 'loggerhead-turtle', 'ball-python', 'veiled-chameleon', 'oriental-fire-bellied-toad', 'great-white-shark', 'two-spotted-cricket', 'european-rabbit', 'eurasian-red-squirrel', 'mallard', 'golden-hamster', 'koala', 'capybara', 'european-hedgehog', 'little-blue-penguin', 'aldabra-giant-tortoise', 'great-spotted-woodpecker', 'walrus', 'harbor-seal', 'beluga-whale', 'killer-whale', 'atlantic-puffin', 'scarlet-macaw', 'common-cuttlefish', 'fire-salamander', 'malayan-tapir', 'brown-bear', 'eurasian-magpie', 'long-tailed-chinchilla', 'common-wombat', 'quokka', 'reindeer', 'red-fox', 'california-sea-lion', 'humpback-whale', 'narwhal', 'okapi', 'american-bison', 'saiga', 'chimpanzee', 'bornean-orangutan', 'cockatiel', 'mute-swan', 'indian-peafowl', 'sulphur-crested-cockatoo', 'eurasian-hoopoe', 'southern-cassowary', 'eurasian-eagle-owl', 'white-stork', 'pond-slider', 'leopard-gecko', 'frilled-lizard', 'corn-snake', 'whites-tree-frog', 'oriental-fire-bellied-newt', 'ocean-sunfish', 'largetooth-sawfish', 'american-lobster', 'striped-skunk', 'caracal', 'leopard', 'chinese-tree-frog', 'american-bullfrog', 'atlantic-salmon', 'green-tree-python', 'arctic-fox', 'american-black-bear', 'sun-bear', 'jaguar', 'puma', 'serval', 'eurasian-lynx', 'gray-wolf', 'african-wild-dog', 'spotted-hyena', 'honey-badger', 'wolverine', 'european-badger', 'south-american-coati', 'sperm-whale', 'pygmy-hippopotamus', 'black-rhinoceros', 'king-penguin', 'adelie-penguin', 'gentoo-penguin', 'african-penguin', 'emu', 'greater-rhea', 'african-grey-parrot', 'blue-and-yellow-macaw', 'rosy-faced-lovebird', 'laughing-kookaburra', 'european-bee-eater', 'toucan-barbet', 'common-raven', 'european-robin', 'blue-tit', 'zebra-finch', 'bald-eagle', 'black-swan', 'american-alligator', 'saltwater-crocodile', 'spectacled-caiman', 'common-snapping-turtle', 'alligator-snapping-turtle', 'leopard-tortoise'].includes(profile.slug)) {
       // The linked status citations confirm category, but not an independent assessment date.
       // Evidence scope is recorded in each species image-set README.
       assert.equal(profile.conservation.assessedYear, undefined);
@@ -24283,7 +24285,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 620);
+  assert.equal(species.length, 630);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24341,7 +24343,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cheilostomatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Bugulidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bugula')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 93);
+  assert.equal(findTaxon(tree, 'phylum', 'Arthropoda')?.speciesCount, 103);
   assert.equal(findTaxon(tree, 'class', 'Branchiopoda')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Anomopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Daphniidae')?.speciesCount, 1);
@@ -24391,20 +24393,20 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Cardiida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Cardiidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Tridacna')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 55);
-  assert.equal(findTaxon(tree, 'order', 'Hemiptera')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Insecta')?.speciesCount, 65);
+  assert.equal(findTaxon(tree, 'order', 'Hemiptera')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'family', 'Cicadidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Magicicada')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'order', 'Lepidoptera')?.speciesCount, 16);
   assert.equal(findTaxon(tree, 'family', 'Bombycidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Bombyx')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Mantodea')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Mantidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Tenodera')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Coleoptera')?.speciesCount, 12);
-  assert.equal(findTaxon(tree, 'family', 'Coccinellidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Coleoptera')?.speciesCount, 13);
+  assert.equal(findTaxon(tree, 'family', 'Coccinellidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Coccinella')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Odonata')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'family', 'Aeshnidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Anax')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Arachnida')?.speciesCount, 8);
@@ -24454,7 +24456,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 620);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 630);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -27142,4 +27144,34 @@ test('wetland birds retain separate genera, plumage stages and dated taxonomy ev
   assert.match(findSpecies('common-moorhen').description, /没有.*连蹼/);
   assert.match(findSpecies('common-moorhen').storySections.find(({ key }) => key === 'taxonomy').body, /Gallinula galeata/);
   assert.match(findSpecies('chinese-pond-heron').description, /非繁殖羽/);
+});
+
+
+test('common insects preserve species boundaries and distinguish juvenile stages', async () => {
+  const expected = [["chinese-long-headed-grasshopper", "Acrida cinerea"], ["spotted-lanternfly", "Lycorma delicatula"], ["chinese-bush-cricket", "Gampsocleis sinensis"], ["asian-bluetail", "Ischnura asiatica"], ["japanese-carpenter-ant", "Camponotus japonicus"], ["scarlet-skimmer", "Orthetrum testaceum"], ["common-scarlet", "Crocothemis servilia"], ["wandering-glider", "Pantala flavescens"], ["harlequin-ladybird", "Harmonia axyridis"], ["asian-swallowtail", "Papilio xuthus"]];
+  for (const [slug, name] of expected) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.phylum.scientificName, 'Arthropoda');
+    assert.equal(profile.taxonomy.class.scientificName, 'Insecta');
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      credits: slug === 'asian-swallowtail' ? ["Fauna Atlas · AI 生成科学情景重建；翅纹参考 Alpsdake，CC BY-SA 3.0，已改编，图像按同协议分享", "Fauna Atlas · AI 生成科学情景重建；翅纹参考 Alpsdake，CC BY-SA 3.0，已改编，图像按同协议分享", "Fauna Atlas · AI 生成科学情景重建", "Fauna Atlas · AI 生成科学情景重建", "Fauna Atlas · AI 生成科学情景重建", "Fauna Atlas · AI 生成科学情景重建"] : undefined,
+      verifyAcceptedHashes: true,
+    });
+  }
+  const chapter = (slug, key) => findSpecies(slug).storySections.find((section) => section.key === key).body;
+  assert.equal(findSpecies('chinese-bush-cricket').names.zh, '中华蝈螽');
+  assert.match(chapter('chinese-bush-cricket', 'taxonomy'), /Tettigonia chinensis.*另一物种/);
+  assert.deepEqual(findSpecies('chinese-bush-cricket').diet.types, []);
+  assert.match(chapter('spotted-lanternfly', 'life-cycle'), /没有蛹期/);
+  assert.match(chapter('asian-bluetail', 'life-cycle'), /三片叶状尾鳃/);
+  for (const slug of ['scarlet-skimmer', 'common-scarlet']) {
+    assert.match(chapter(slug, 'life-cycle'), /没有.*外露.*叶状尾鳃/);
+    assert.notEqual(findSpecies(slug).taxonomy.genus.scientificName, 'Ischnura');
+  }
+  assert.notEqual(findSpecies('scarlet-skimmer').taxonomy.genus.scientificName, findSpecies('common-scarlet').taxonomy.genus.scientificName);
+  assert.match(chapter('japanese-carpenter-ant', 'movement'), /土中筑巢/);
+  assert.match(chapter('harlequin-ladybird', 'appearance'), /斑点数不能当作年龄/);
+  assert.match(chapter('asian-swallowtail', 'life-cycle'), /早龄.*末龄.*眼状斑不是真眼|早龄.*末龄.*真正的眼/);
 });

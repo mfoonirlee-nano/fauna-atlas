@@ -894,3 +894,14 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [黑水鸡 image set](./species/common-moorhen/README.md)
 
 - [池鹭 image set](./species/chinese-pond-heron/README.md)
+
+- [Chinese Long-headed Grasshopper image set](./species/chinese-long-headed-grasshopper/README.md)
+- [Spotted Lanternfly image set](./species/spotted-lanternfly/README.md)
+- [Gampsocleis sinensis image set](./species/chinese-bush-cricket/README.md)
+- [Asian Bluetail image set](./species/asian-bluetail/README.md)
+- [Japanese Carpenter Ant image set](./species/japanese-carpenter-ant/README.md)
+- [Orange Skimmer image set](./species/scarlet-skimmer/README.md)
+- [Common Scarlet image set](./species/common-scarlet/README.md)
+- [Wandering Glider image set](./species/wandering-glider/README.md)
+- [Harlequin Ladybird image set](./species/harlequin-ladybird/README.md)
+- [Asian Swallowtail image set](./species/asian-swallowtail/README.md)

@@ -5406,5 +5406,135 @@
       },
       "sha256": "b8d03fad5633a1f400b96c894d7d783d72e3270d40e03aa0930a7886b2e06933"
     }
+  },
+  "chinese-long-headed-grasshopper": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 20,
+        "right": 1410,
+        "bottom": 974
+      },
+      "sha256": "6f62add8aedf24257b79883cac1bf709d583c5832ac7154f93e05705bc9502fd"
+    }
+  },
+  "spotted-lanternfly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 778,
+        "top": 60,
+        "right": 1378,
+        "bottom": 909
+      },
+      "sha256": "00b33b2d8c085b3e9cb0b5a43497f41bf628a7297a85cd449f2ccf1dff5502fb"
+    }
+  },
+  "japanese-carpenter-ant": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 602,
+        "top": 318,
+        "right": 1435,
+        "bottom": 760
+      },
+      "sha256": "3e85a4bed3b00e8f9912513bf5db787faa54a36c6ebf63e47ab223e310911310"
+    }
+  },
+  "chinese-bush-cricket": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 70,
+        "right": 1494,
+        "bottom": 820
+      },
+      "sha256": "99316280622bc7237c72d3a0bef249f29e6e6c3f1f69f9d8368080a162c29d33"
+    }
+  },
+  "asian-bluetail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 674,
+        "top": 246,
+        "right": 1420,
+        "bottom": 666
+      },
+      "sha256": "efec2d7a72a1618995c3d3f17d2697b6e7dc3d1005f86264f83740c1c16f4659"
+    }
+  },
+  "scarlet-skimmer": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 578,
+        "top": 145,
+        "right": 1499,
+        "bottom": 886
+      },
+      "sha256": "fa3609eca16ed08d17e5f0195fccba7712e6b1cfcbaf403a6cfb8a9616115b91"
+    }
+  },
+  "common-scarlet": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 596,
+        "top": 50,
+        "right": 1505,
+        "bottom": 864
+      },
+      "sha256": "546aeb3422125f5cf23e52d94660f8627fca4d19b8bd94b2401e60c80377c876"
+    }
+  },
+  "wandering-glider": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 718,
+        "top": 72,
+        "right": 1489,
+        "bottom": 688
+      },
+      "sha256": "9dd7c309707ad10825c845941c62301ac5d3c789ec6f4a26a1d01f35fd1529c8"
+    }
+  },
+  "harlequin-ladybird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 684,
+        "top": 178,
+        "right": 1460,
+        "bottom": 817
+      },
+      "sha256": "6391f3b29d53088e536aa07ba5a459afead14b048a19c910c4bf4ea66147e297"
+    }
+  },
+  "asian-swallowtail": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 574,
+        "top": 142,
+        "right": 1499,
+        "bottom": 822
+      },
+      "sha256": "737fe5cdc0a361f3febe4d3d38a24bec272ed58cdb9326930c7ec6dd2582800b"
+    }
   }
 }

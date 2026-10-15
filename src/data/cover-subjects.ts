@@ -6202,4 +6202,104 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 950
     }
   },
+  "chinese-long-headed-grasshopper": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 20,
+      "right": 1410,
+      "bottom": 974
+    }
+  },
+  "spotted-lanternfly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 778,
+      "top": 60,
+      "right": 1378,
+      "bottom": 909
+    }
+  },
+  "japanese-carpenter-ant": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 602,
+      "top": 318,
+      "right": 1435,
+      "bottom": 760
+    }
+  },
+  "chinese-bush-cricket": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 70,
+      "right": 1494,
+      "bottom": 820
+    }
+  },
+  "asian-bluetail": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 674,
+      "top": 246,
+      "right": 1420,
+      "bottom": 666
+    }
+  },
+  "scarlet-skimmer": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 578,
+      "top": 145,
+      "right": 1499,
+      "bottom": 886
+    }
+  },
+  "common-scarlet": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 596,
+      "top": 50,
+      "right": 1505,
+      "bottom": 864
+    }
+  },
+  "wandering-glider": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 72,
+      "right": 1489,
+      "bottom": 688
+    }
+  },
+  "harlequin-ladybird": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 684,
+      "top": 178,
+      "right": 1460,
+      "bottom": 817
+    }
+  },
+  "asian-swallowtail": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 574,
+      "top": 142,
+      "right": 1499,
+      "bottom": 822
+    }
+  },
 };
