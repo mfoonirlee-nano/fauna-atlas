@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas canonical species cover. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Lycorma delicatula spotted lanternfly; adult planthopper gray tan forewings with black round spots and black reticulated tips, six black legs, short antennae, dark head; bright red black white hindwings hidden when at rest. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: single adult at rest on tree bark, wings folded rooflike. Mandatory cover: full subject entirely on right, silhouette centered near 72% of width. Keep every antenna tip, leg, wingtip and abdominal tip within x=660..1460 y=100..920 with real background margin. Large prominent subject fitting this box, left 40% quiet softly blurred habitat. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "4425875f949d5054466138562f66e162d36b871b966fe6cac77e4084991cce30",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "00b33b2d8c085b3e9cb0b5a43497f41bf628a7297a85cd449f2ccf1dff5502fb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Lycorma delicatula spotted lanternfly; adult planthopper gray tan forewings with black round spots and black reticulated tips, six black legs, short antennae, dark head; bright red black white hindwings hidden when at rest. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: adult with all four wings spread, red basal hindwings with black spots white middle band black tips, yellow black abdomen. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "db84f78aa1b9d7c51e4adaff3db222e24c8ff9162668a6bfd784d7085712165c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "30b2d985e4f53d8dd81dbf21daaa6b6509dc67db66170dc59a1aa184db437499",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Lycorma delicatula spotted lanternfly; adult planthopper gray tan forewings with black round spots and black reticulated tips, six black legs, short antennae, dark head; bright red black white hindwings hidden when at rest. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: early instar black nymph with white spots, no wings, six legs. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "47f31ca059444016b949d6a155164273d3a7997d0bfa8b0ef1bdde5eb87f7188",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "62cf52e8ddd0b292d203b67dac36b6abb08745f6d12be183730903486c133e2f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. One fourth-instar spotted lanternfly nymph Lycorma delicatula, bright RED rounded thorax and RED abdomen with bold WHITE round spots and BLACK patches, six black jumping legs, short antennae, NO WINGS, on bark. The RED juvenile is the only insect in the scene. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "19551eb2146ce175757ab98ba4e7a162bc68d8f5b21091605b23be410d26713d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "cc8e54d2ed0308bc12d878110e3c47a8e0047678cbe9b45a356a871c1eb7e35c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. A single overwintering EGG MASS of spotted lanternfly Lycorma delicatula, a small flat patch of dozens of closely aligned beige oval eggs on rough bark, most eggs concealed under one continuous weathered GRAY PUTTY-LIKE WAX layer, a small edge revealing eggs. NO insects, NO wings, only the egg mass and bark. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "96ce2c50fd6afd4d606487396e3c44774b7241d61df704734a42b4213b99f81c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e51dd1f55eddc3f510c90ecbd7beef03ee4f15f1f820a7b05a1bfdce926a6e07",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Lycorma delicatula spotted lanternfly; adult planthopper gray tan forewings with black round spots and black reticulated tips, six black legs, short antennae, dark head; bright red black white hindwings hidden when at rest. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: adult resting with mouthparts against a young woody stem. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "d0b845aec8d90667e0db423fbe16c4bb59944874714308bee67183ecea0796ed",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "42a70ab29f7293639f98f515e3afa3ae4dfadc325e19410e9b327c18b293af17",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
