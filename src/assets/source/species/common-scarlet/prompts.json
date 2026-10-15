@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Crocothemis servilia Common Scarlet dragonfly; mature male red head red eyes red thorax and broad red abdomen with clear thin black longitudinal dorsal line, six legs and four transparent veined wings with amber hindwing bases. Scene: one mature male perched diagonally on twig, entire wings and abdomen visible. COVER COMPOSITION: put the complete animal only on the RIGHT HALF, centered at 72% of canvas width. Every visible antenna tip, leg, wingtip and abdomen must fit inside x=660..1450 and y=110..910. Left 40% must be quiet blurred habitat. Leave visible real background outside all appendages. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "f85adcc90f39eeb55ba234f34ea3fe43b7c532fdbf4d25dedc5db1290baa01a4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "546aeb3422125f5cf23e52d94660f8627fca4d19b8bd94b2401e60c80377c876",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Crocothemis servilia Common Scarlet dragonfly; mature male red head red eyes red thorax and broad red abdomen with clear thin black longitudinal dorsal line, six legs and four transparent veined wings with amber hindwing bases. Scene: adult male dorsal view showing black dorsal abdominal stripe and four wings. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "54c689e3b9b17c1c6bad94fe13006d25e7d88304e04e40eff1c3454aecf43885",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0f37a507ab28b551bf3b0b004b207ee0ca75ad876ce5c1c01938df2b5d1f01b5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Crocothemis servilia Common Scarlet dragonfly; mature male red head red eyes red thorax and broad red abdomen with clear thin black longitudinal dorsal line, six legs and four transparent veined wings with amber hindwing bases. Scene: light brown female on stem, black dorsal abdominal line, four wings, not red. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "84fcfb469b430e57906177ab740df7a36d747472c4ce8a79e1065685f0a8b6b1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b4f80a59fd6163c72031d8a7864b547ccf654d77faa2cf50e5a8ed91ce977ad5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Crocothemis servilia Common Scarlet dragonfly; mature male red head red eyes red thorax and broad red abdomen with clear thin black longitudinal dorsal line, six legs and four transparent veined wings with amber hindwing bases. Scene: male holding tiny flying insect near mouth while perched. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "4fc3c270c85af61b48a62953dfbb098c0643a585152263c056d8ed3863cd76f0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6bdee56c7f7800aa70933e7cae1dc95a145f6030c449a386adec2df02736f60f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Underwater macro of a Crocothemis servilia dragonfly NYMPH among submerged pond plants: stocky squat brown six-legged larva, large eyes, small wing pads, tapering segmented abdomen with short terminal spines. No external leaf gills, no long tails, no adult wings or red adult. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "d4e31c222dc3514568e7dbbbd5a961f1a4df57bcec452b66f73e171a37fdef13",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5d2a17690858925dd3c94a4509b005919588dcc8f9123cb73473621dcbbdc5ca",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Crocothemis servilia Common Scarlet dragonfly; mature male red head red eyes red thorax and broad red abdomen with clear thin black longitudinal dorsal line, six legs and four transparent veined wings with amber hindwing bases. Scene: new pale adult beside cast nymphal skin on reed above water, four wings. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "518eafe7b163ddb3c5825abce4f34926e091c457e9346aafc820f807b36f4909",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f08a2e0ab0e280fe5e2a73086d2cd802a0bfa4c5e64d64b662fcad2cdd6feef1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
