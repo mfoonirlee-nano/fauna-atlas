@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas canonical species cover. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Acrida cinerea, Chinese long-headed grasshopper; slender green adult, strongly elongated slanted cone-shaped head, flattened short sword-like antennae, long narrow folded forewings, six legs with enlarged jumping hindlegs. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: single green adult resting diagonally upward on grass blade. Mandatory cover: full subject entirely on right, silhouette centered near 72% of width. Keep every antenna tip, leg, wingtip and abdominal tip within x=660..1460 y=100..920 with real background margin. Large prominent subject fitting this box, left 40% quiet softly blurred habitat. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "1fbb3df39ee39b77ba048bb5b46294c29255558e8455d20c08bcef27e1daac00",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6f62add8aedf24257b79883cac1bf709d583c5832ac7154f93e05705bc9502fd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Acrida cinerea, Chinese long-headed grasshopper; slender green adult, strongly elongated slanted cone-shaped head, flattened short sword-like antennae, long narrow folded forewings, six legs with enlarged jumping hindlegs. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: side view of complete adult showing angular elongated head and short flat antennae. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "2948a29b6a04365f1c4c1fd7252811b00757d662c731258922c0f1f332725f1c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b90392fa4225708e1fae36ff73be6022da5390fed72265e7935fd2beeff37739",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Acrida cinerea, Chinese long-headed grasshopper; slender green adult, strongly elongated slanted cone-shaped head, flattened short sword-like antennae, long narrow folded forewings, six legs with enlarged jumping hindlegs. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: brown adult on dry tan grass, natural color variant. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "7d0b9bcabef8f917b7f6098f657cbb1fb289b3316a5c53dab0a3103ab2cabc20",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d35b3936f1d240fdf7efe8d6b9b6801c560b8951f0e149c0149d909e48bfe6fb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Acrida cinerea, Chinese long-headed grasshopper; slender green adult, strongly elongated slanted cone-shaped head, flattened short sword-like antennae, long narrow folded forewings, six legs with enlarged jumping hindlegs. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: small green wingless nymph on leaf with short wing buds. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "6c4dafcf516b0b761a9fb2a86698577f38bdc540a520172dd1c8b446b3415bc7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "cb117ffdcf49e2f3c2a5216efa8311a3ce94950029a3839e2961161621cec4ec",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Acrida cinerea, Chinese long-headed grasshopper; slender green adult, strongly elongated slanted cone-shaped head, flattened short sword-like antennae, long narrow folded forewings, six legs with enlarged jumping hindlegs. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: adult nibbling edge of grass blade. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "d530425a83ffad3fbfc81814195595f85f4358869c707e36ca96056fdd4fecc3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b31e11707423f44ad24d68cc9c03977bb7cc08c78734cb5c2b17710104135322",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Acrida cinerea, Chinese long-headed grasshopper; slender green adult, strongly elongated slanted cone-shaped head, flattened short sword-like antennae, long narrow folded forewings, six legs with enlarged jumping hindlegs. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: adult amid tall meadow grasses, complete body visible. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "33eaf24a598f79683ec7bd0efa5c4de21a408213c903008ac47b16ee774542f3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ce1c92c26a832d1997e13071b173b22532a80fdadbfeea64725230f0a8fb69c6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
