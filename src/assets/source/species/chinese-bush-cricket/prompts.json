@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific macro 1536x1024 landscape. Adult male Gampsocleis sinensis LONG-WINGED green brown-marked bush cricket, narrow forewings extending far beyond abdomen, enlarged hindlegs, two long fine curved antennae. Small enough that the ENTIRE INSECT INCLUDING ANTENNAE fits within RIGHT HALF rectangle x=700..1430 y=140..880. Head around x=1070, wings extending to x=1410, antennae curving toward x=750 but never to left half. Full legs and antenna tips clearly end in real background margin. Perched on a thin grass stem, quiet soft green background, LEFT HALF ONLY EMPTY BLURRED GREEN BACKGROUND. No text, labels, collage.",
+      "sourceSha256": "8521a1dd81f26d281d07d3cacc6b134c851f433ed807f10726458659c1551ac3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "99316280622bc7237c72d3a0bef249f29e6e6c3f1f69f9d8368080a162c29d33",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Adult FEMALE Gampsocleis sinensis LONG-WINGED bush cricket, green brown-marked body, very long fine antennae, enlarged hindlegs, narrow mottled forewings projecting far beyond abdomen, long straight gently upcurved swordlike ovipositor extending from abdomen under wings. Side view on low grass; complete ovipositor and antenna tips visible. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "61da3020d65796766c0d5cb80d09e8a28fad65ecb988f408621f18b204165c55",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "69d26e0c38bf10af01368908df448ac0aa43a73073f7038319110c4506680e9b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Adult MALE Gampsocleis sinensis LONG-WINGED bush cricket in grass, long narrow mottled green-brown forewings extending well beyond abdomen, forewings lifted just slightly for stridulation posture, long fine antennae entirely inside frame. Do not show short wings or fan-spread butterfly wings. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "2a7ae696b683fb51cefb1f818804a9ac954f8df2f45da5ae4ec4e4ab214bc8e6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d4c27332b0aad785eb448e6b2d2cfa1ae4b0ab761106246c49bf3d88cb9685eb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas observation gallery. Photorealistic macro scientific natural reconstruction, landscape 1536x1024. Species reference: Gampsocleis sinensis Chinese bush cricket; robust green katydid with mottled brown-green forewings, six legs, large angular hindlegs, two threadlike antennae longer than body, long spiny legs. EXACT SCENE AND LIFE STAGE, overriding adult reference if larva, egg or pupa requested: green nymph with short developing wing buds on leaf, long antennae. One single scene, show full subject with all visible appendages within generous background margin. Different stage must not inherit adult wings or body shape. Correct anatomy, appropriate six insect legs and two antennae when visible. Natural lighting and real habitat textures. No text, no labels, no scale bars, no watermark, no collage.",
+      "sourceSha256": "14c8efe02bbc212d46151dcc72c4119036959af6506d7257869219113bcc7fc1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "87ad7b7dbb00e105a36226ba09d9e0e19127be4d107aef031d8949530515f259",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Adult Gampsocleis sinensis LONG-WINGED bush cricket on a leaf using mandibles to hold a tiny dead insect, long narrow brown-green forewings extending WELL BEYOND abdomen, extremely long fine antennae, jumping hindlegs. Feeding reconstruction, no wounds or gore. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "5c92f254d18e582c159c912701c1ac30fc06a71245f870c3d87d0149efa49de6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "57e78d1700aad5a0f1cbaee1bc53d007d4cd45d1250913e11ee5381520f66258",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Adult Gampsocleis sinensis LONG-WINGED bush cricket on grass in low meadow vegetation, long narrow folded mottled brown-green forewings extending conspicuously well beyond abdomen. Fine long antennae, enlarged hindlegs. Side view showing full wings and antennae. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "a7565edee4314140020e61978ff2a1baf875bd20f0041eee1a616fda6b4d4a3b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7217b64ca640ff6867071c30565ab3b2e259c3dc3671d7ecba25c92027c18d61",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
