@@ -1,0 +1,116 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit the FIRST supplied image. Preserve its landscape 1536x1024 composition, natural setting, lighting, pose, full appendages and background. Correct ONLY the butterfly's species identity to Papilio xuthus using the SECOND image as the precise biological wing-pattern reference. It must be a predominantly BLACK butterfly with narrow cream-yellow elongated stripes radiating along the forewing cells, small pale submarginal spots, BLACK hindwings with narrow pale streaks, blue scale patches and small orange tornal spots, slender tails. Match the reference's actual black-to-cream balance and marking arrangement. Remove the broad pale-yellow fields and generic Papilio machaon tiger stripes from the first image. Keep the same view/perspective of image 1; translate reference markings naturally to it. Do not copy reference mesh, photographic setting or watermark. Keep butterfly entirely toward the right with clear complete antennae, wings and tails and real background margins. Left40 percent quiet background. No text, labels or collage. This is an AI scientific reconstruction informed by Alpsdake's CC BY-SA 3.0 Papilio xuthus reference.",
+      "sourceSha256": "4b0297cf0d6a08b35b7ebf34e41a24098a50f21185c805415723c244a54b6d85",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "737fe5cdc0a361f3febe4d3d38a24bec272ed58cdb9326930c7ec6dd2582800b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "references": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Papilio_xuthus_front_view_2011-07-16.jpg",
+          "author": "Alpsdake",
+          "license": "CC BY-SA 3.0",
+          "role": "Biological wing pattern; generated reconstruction with changed scene and pose",
+          "sha256": "9905e6004b04e7f579efce3ebcc95f9bf242deb031492815eb8b0d9515bfd336"
+        },
+        {
+          "role": "Original generated composition input",
+          "sha256": "14c7f030bc1e25164b2b04a5fbf54af7d827780442e7b832a020b39032b0d805"
+        }
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Edit the FIRST supplied image. Preserve its landscape 1536x1024 composition, natural setting, lighting, pose, full appendages and background. Correct ONLY the butterfly's species identity to Papilio xuthus using the SECOND image as the precise biological wing-pattern reference. It must be a predominantly BLACK butterfly with narrow cream-yellow elongated stripes radiating along the forewing cells, small pale submarginal spots, BLACK hindwings with narrow pale streaks, blue scale patches and small orange tornal spots, slender tails. Match the reference's actual black-to-cream balance and marking arrangement. Remove the broad pale-yellow fields and generic Papilio machaon tiger stripes from the first image. Keep the same view/perspective of image 1; translate reference markings naturally to it. Do not copy reference mesh, photographic setting or watermark. Butterfly remains side-on visiting pink flowers with folded upright wings and visible proboscis, complete tails and antennae. No text, labels or collage. This is an AI scientific reconstruction informed by Alpsdake's CC BY-SA 3.0 Papilio xuthus reference.",
+      "sourceSha256": "7cb175f5c21545e262d850b5a2fbf7ac1cad0d13580ea3cfbe0b2e61869b2519",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a374f163d47702d16323eb87cdb757316306bd06cbb5623b69095a063860925c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "references": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Papilio_xuthus_front_view_2011-07-16.jpg",
+          "author": "Alpsdake",
+          "license": "CC BY-SA 3.0",
+          "role": "Biological wing pattern; generated reconstruction with changed scene and pose",
+          "sha256": "9905e6004b04e7f579efce3ebcc95f9bf242deb031492815eb8b0d9515bfd336"
+        },
+        {
+          "role": "Original generated composition input",
+          "sha256": "96f74a1cdb6e2d1c1404e138d84f0fcfcb4cd95bf1715bc1c7bcd21cf8da837f"
+        }
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. One early instar Papilio xuthus CATERPILLAR resting on citrus leaf, small lumpy dark brown-black larva with broad creamy WHITE saddle patch resembling a BIRD DROPPING, small true head tucked in front, short thoracic legs and abdominal prolegs, NO green body, NO adult wings, NO butterfly. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "8085c5e234aedca88ee471dc92dca801818eec788dfa3adce64d23e4816225ac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1020275d026c890a7769383d2c20e3a075be10570809f003dfc7f20769df2abf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. One final fifth-instar Papilio xuthus CATERPILLAR on citrus twig: smooth thick GREEN larva with a pair of prominent FALSE EYESPOTS on swollen thoracic segments, small true head at front, dark green oblique band including V pattern on abdomen, thoracic legs and abdominal prolegs. No butterfly, no wings, no antenna-like horns. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "4931fed2a49f02940db71c837d218e53968ed4184a84ef64e12052f4c0078422",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "524190bd28d6a2aea45b485d25876d45c50f41b36112e33637bf23aafc4a1b20",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. One angular Papilio xuthus butterfly CHRYSALIS PUPA fixed upright along a thin citrus twig: green pointed angular pupal shell, narrow pale silk girdle around middle anchored to twig and silk cremaster at base. No exposed legs, no caterpillar, no adult wings, no butterfly. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "ed1eb00bfb25aac51739459b664f7a69cfb7eea2405d915e39b07cb22b7974f5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "99d842556c170b54dd119d5176dfdfd9dfd091a772a0d1013515b5db4516328f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. One tiny smooth spherical pale yellow Papilio xuthus EGG on fresh citrus leaf, macro close view showing scale relative to leaf veins. No insects, no caterpillars, no butterfly, only the round egg and green leaf. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "818e1d4258403b2e0fd22604e090b48bcecf1165d8f505a9c00510e3e231d617",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0fc78977a5458fa897d11796d9e88b03c9618561ab3eec242209766623d036fc",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
