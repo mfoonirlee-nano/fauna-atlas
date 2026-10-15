@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific macro reconstruction 1536x1024 landscape. Ischnura asiatica ADULT MALE Asian bluetail damselfly. Extremely slim BLACK segmented abdomen. CRITICAL species pattern: COUNT ten abdominal segments from thorax to tip. The long eighth segment S8 is BLACK ON ITS DORSAL TOP, the shorter ninth segment S9 is SKY BLUE ALL AROUND, the small tenth terminal segment S10 has BLACK DORSAL TOP and BLUE UNDERSIDE. Thus a SHORT BLUE BAND at the NINTH segment VERY NEAR THE TIP, NOT a long blue eighth segment. Green black thorax, separated compound eyes, six fine legs, four narrow transparent wings. Adult male perched in profile on a slender vertical waterside grass, wings closed above back. Full body on right with quiet left40 percent. All legs and wing tips inside canvas with generous margin. Accurate natural macro, no text or labels or collage.",
+      "sourceSha256": "fa43528d2a8d3e2887739ecc62ef86c0eb8df5c86f068a4b19e4f5375f449c3e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "efec2d7a72a1618995c3d3f17d2697b6e7dc3d1005f86264f83740c1c16f4659",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific macro reconstruction 1536x1024 landscape. Ischnura asiatica ADULT MALE Asian bluetail damselfly. Extremely slim BLACK segmented abdomen. CRITICAL species pattern: COUNT ten abdominal segments from thorax to tip. The long eighth segment S8 is BLACK ON ITS DORSAL TOP, the shorter ninth segment S9 is SKY BLUE ALL AROUND, the small tenth terminal segment S10 has BLACK DORSAL TOP and BLUE UNDERSIDE. Thus a SHORT BLUE BAND at the NINTH segment VERY NEAR THE TIP, NOT a long blue eighth segment. Green black thorax, separated compound eyes, six fine legs, four narrow transparent wings. Adult male lateral view on waterside grass, closed narrow wings, full abdomen unobscured. Accurate natural macro, no text or labels or collage.",
+      "sourceSha256": "feb3f232124bd2ebf1e458b1db93070e88375ac92b247a1c1fd6f6b8e13bedfc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d2f8892f75605fbae98ed5542fd1e6512526265dc618e1af8a9a13f60a1afab7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific macro reconstruction 1536x1024 landscape. Ischnura asiatica ADULT MALE Asian bluetail damselfly. Extremely slim BLACK segmented abdomen. CRITICAL species pattern: COUNT ten abdominal segments from thorax to tip. The long eighth segment S8 is BLACK ON ITS DORSAL TOP, the shorter ninth segment S9 is SKY BLUE ALL AROUND, the small tenth terminal segment S10 has BLACK DORSAL TOP and BLUE UNDERSIDE. Thus a SHORT BLUE BAND at the NINTH segment VERY NEAR THE TIP, NOT a long blue eighth segment. Green black thorax, separated compound eyes, six fine legs, four narrow transparent wings. Adult male holding a tiny gnat in legs beside mouth, perched on stem, full abdomen visible. Accurate natural macro, no text or labels or collage.",
+      "sourceSha256": "f1ab7c2fd39e11987c761d5e4b22b6669932bbb12329b3809a8cbac52d866321",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "56bc9badc8409dc9e1e7e9c1f11d32b8c9427a59c217bc747949d9ee2d989be8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Aquatic NYMPH of Asian bluetail damselfly Ischnura asiatica, a slim small green-brown wingless six-legged larva clinging UNDER WATER to a submerged plant stem. Long narrow segmented abdomen ending in exactly THREE FLAT LEAF-SHAPED CAUDAL GILLS (lamellae), clearly separated, thin wing pads on thorax. Tiny underwater particles. No adult, no wings, no blue adult abdomen. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "241bc0a7d1b0e0c9a7e3de949c6d6819612d0300da214525cdaee0925e5b5187",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "498853e6e1ad902519944a3aa12cb55cf74c299291256196e584b3a05e134a80",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific macro reconstruction 1536x1024 landscape. Ischnura asiatica ADULT MALE Asian bluetail damselfly. Extremely slim BLACK segmented abdomen. CRITICAL species pattern: COUNT ten abdominal segments from thorax to tip. The long eighth segment S8 is BLACK ON ITS DORSAL TOP, the shorter ninth segment S9 is SKY BLUE ALL AROUND, the small tenth terminal segment S10 has BLACK DORSAL TOP and BLUE UNDERSIDE. Thus a SHORT BLUE BAND at the NINTH segment VERY NEAR THE TIP, NOT a long blue eighth segment. Green black thorax, separated compound eyes, six fine legs, four narrow transparent wings. Fresh adult male damselfly perched above its empty pale larval exuvia on a reed above water, wings fully expanded and folded, correct adult pattern. Accurate natural macro, no text or labels or collage.",
+      "sourceSha256": "bd5a78ed552fbd459176d964b2955438cb0a3e0c804cb59f0589d8e6dbbdcde0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e00de823be9b0169a6b472aaa57532580de2c7592ca373bfaadfea6deec25047",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific macro reconstruction 1536x1024 landscape. Ischnura asiatica ADULT MALE Asian bluetail damselfly. Extremely slim BLACK segmented abdomen. CRITICAL species pattern: COUNT ten abdominal segments from thorax to tip. The long eighth segment S8 is BLACK ON ITS DORSAL TOP, the shorter ninth segment S9 is SKY BLUE ALL AROUND, the small tenth terminal segment S10 has BLACK DORSAL TOP and BLUE UNDERSIDE. Thus a SHORT BLUE BAND at the NINTH segment VERY NEAR THE TIP, NOT a long blue eighth segment. Green black thorax, separated compound eyes, six fine legs, four narrow transparent wings. One adult male damselfly perched on a thin reed beside still pond, full body visible in natural vegetation. Accurate natural macro, no text or labels or collage.",
+      "sourceSha256": "93caa1a855d1ff1c7158885aa3a08a763455cd04337306a7a04ba427e5e49119",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1488bfdb52dcf6cd749a26e2515a02cdbfda6b729861012958fb976f48d13e85",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
