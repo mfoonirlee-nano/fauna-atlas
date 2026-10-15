@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Orthetrum testaceum male Scarlet Skimmer dragonfly; orange-brown thorax, red abdomen, light brownish gray compound eyes, six dark legs, four transparent veined wings held horizontally with small amber patches at hindwing bases. Scene: one mature male resting on twig above pond, entire four wings and abdomen visible. COVER COMPOSITION: put the complete animal only on the RIGHT HALF, centered at 72% of canvas width. Every visible antenna tip, leg, wingtip and abdomen must fit inside x=660..1450 and y=110..910. Left 40% must be quiet blurred habitat. Leave visible real background outside all appendages. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "fe0493e31d0b745b0a7ae382b77e1011ad4444f8b84ea1e2f7243bdcc5dd4a23",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "fa3609eca16ed08d17e5f0195fccba7712e6b1cfcbaf403a6cfb8a9616115b91",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Orthetrum testaceum male Scarlet Skimmer dragonfly; orange-brown thorax, red abdomen, light brownish gray compound eyes, six dark legs, four transparent veined wings held horizontally with small amber patches at hindwing bases. Scene: female yellowish-brown adult with clear hindwing bases perched on twig, four wings fully visible. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "4acb8c8ba035e323c2911893d0b4747e2d66dcf55b90e0255adc8eba29c70b89",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "511a8d58f7d96641694cde7fd3d1e3f2b06021162e5601a5cdd51cbc19df8e56",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Orthetrum testaceum male Scarlet Skimmer dragonfly; orange-brown thorax, red abdomen, light brownish gray compound eyes, six dark legs, four transparent veined wings held horizontally with small amber patches at hindwing bases. Scene: mature male dorsal view showing orange thorax and red abdomen, four transparent wings. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "ebb377ed33db9fe56d0aab633232953f16c2a97426c108d2e7da9ce8ba39b642",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d17160bb036aeaa76ac5131abb67cbf6c9b5fba694cbfde1e4fb15330ec4f533",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Underwater macro of an Orthetrum testaceum dragonfly NYMPH on silt and submerged twigs. Broad stocky brown six-legged larva, large eyes, compact wing pads, segmented abdomen tapering to short anal spines. NO long tails and NO leaf-like external gills, NO adult wings, NO red adult. Natural pond underwater particles. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "d401af0785c7f82e615526fd7dd501148789b2a5caa20c7916160c5b76f5f7db",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6eb84f9facaf5ac6c01cb157926f73ee6c20e05f051b101ecd7ed53b15d0b2cb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Orthetrum testaceum male Scarlet Skimmer dragonfly; orange-brown thorax, red abdomen, light brownish gray compound eyes, six dark legs, four transparent veined wings held horizontally with small amber patches at hindwing bases. Scene: new adult with pale soft body resting above shed nymphal skin on reed, four wings. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "21d6a4b0735278d7081a85af5e364e8fbcb528a01af4ef152dc789271ff082f3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5d7edbb5444c87fa572189627fd657286835465b688b38aff601d7230e76d767",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Orthetrum testaceum male Scarlet Skimmer dragonfly; orange-brown thorax, red abdomen, light brownish gray compound eyes, six dark legs, four transparent veined wings held horizontally with small amber patches at hindwing bases. Scene: adult perched beside pond plants, wide habitat view. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "28ac4191b2c3c22f21de8a9ee0fb4570b8b45e55c6e6305c6356f11a07c7c696",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6a1eb598c25fc1b2dbff0b22a46d17d04f6e98b0adec4cb9f2491f57de4205e5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
