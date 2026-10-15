@@ -619,6 +619,11 @@ import profile611 from './species/small-white.js';
 import profile612 from './species/black-crowned-night-heron.js';
 import profile613 from './species/oriental-magpie-robin.js';
 import profile614 from './species/migratory-locust.js';
+import profile615 from './species/little-grebe.js';
+import profile616 from './species/great-cormorant.js';
+import profile617 from './species/eurasian-coot.js';
+import profile618 from './species/common-moorhen.js';
+import profile619 from './species/chinese-pond-heron.js';
 
 export const species: readonly Species[] = [
   profile0,
@@ -1236,6 +1241,11 @@ export const species: readonly Species[] = [
   profile612,
   profile613,
   profile614,
+  profile615,
+  profile616,
+  profile617,
+  profile618,
+  profile619,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

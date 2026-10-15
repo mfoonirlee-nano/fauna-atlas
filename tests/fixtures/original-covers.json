@@ -5341,5 +5341,70 @@
       },
       "sha256": "958f3c1afe44b88e0aea1ef5d58f7d87adf9444ea0f880ec819f1e67dc2b9d02"
     }
+  },
+  "little-grebe": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 210,
+        "right": 1440,
+        "bottom": 710
+      },
+      "sha256": "4ff27261716f254d3a6b06a9717bb31a7939b3844fd4ef8873c6dac6518d95fc"
+    }
+  },
+  "great-cormorant": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 40,
+        "right": 1480,
+        "bottom": 980
+      },
+      "sha256": "518f59c6fdccac010ef97a0072bc2ab6e0690d21302703db47928739d123575c"
+    }
+  },
+  "eurasian-coot": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 75,
+        "right": 1450,
+        "bottom": 935
+      },
+      "sha256": "9bf6576ed1251b645a8655defa781d06d00ab7c8db8559654d796b249fa65b6e"
+    }
+  },
+  "common-moorhen": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 600,
+        "top": 100,
+        "right": 1460,
+        "bottom": 940
+      },
+      "sha256": "2c13ffb4cd70acfa7b4f3ddcd8248c67d401fc28f30ad8c98a62d944fd382721"
+    }
+  },
+  "chinese-pond-heron": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 85,
+        "right": 1440,
+        "bottom": 950
+      },
+      "sha256": "b8d03fad5633a1f400b96c894d7d783d72e3270d40e03aa0930a7886b2e06933"
+    }
   }
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "615 animal species profiles; 560 historical baseline reviews and 55 additions through 2026-10-14; microbial topics excluded",
+  "scope": "620 animal species profiles; 560 historical baseline reviews and 60 additions through 2026-10-15; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 55,
-    "addedProfilesReviewDate": "2026-10-14",
+    "addedProfiles": 60,
+    "addedProfilesReviewDate": "2026-10-15",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -28727,6 +28727,230 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/1713418"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "little-grebe",
+      "name": "小䴙䴘",
+      "scientificName": "Tachybaptus ruficollis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/little-grebe",
+            "https://www.wetlandpark.gov.hk/tc/biodiversity/beauty-of-wetlands/wildlife/tachybaptus-ruficollis",
+            "https://canalrivertrust.org.uk/things-to-do/canal-and-river-wildlife/a-spotters-guide-to-waterway-wildlife/little-grebe",
+            "https://avifauna.hkbws.org.hk/species/0070/009000",
+            "https://www.bto.org/learn/about-birds/birdfacts/little-grebe"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/little-grebe",
+            "https://www.wetlandpark.gov.hk/tc/biodiversity/beauty-of-wetlands/wildlife/tachybaptus-ruficollis",
+            "https://canalrivertrust.org.uk/things-to-do/canal-and-river-wildlife/a-spotters-guide-to-waterway-wildlife/little-grebe",
+            "https://avifauna.hkbws.org.hk/species/0070/009000",
+            "https://www.bto.org/learn/about-birds/birdfacts/little-grebe"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/little-grebe",
+            "https://www.wetlandpark.gov.hk/tc/biodiversity/beauty-of-wetlands/wildlife/tachybaptus-ruficollis",
+            "https://canalrivertrust.org.uk/things-to-do/canal-and-river-wildlife/a-spotters-guide-to-waterway-wildlife/little-grebe",
+            "https://avifauna.hkbws.org.hk/species/0070/009000",
+            "https://www.bto.org/learn/about-birds/birdfacts/little-grebe"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2482048"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2482048"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "great-cormorant",
+      "name": "普通鸬鹚",
+      "scientificName": "Phalacrocorax carbo",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/cormorant",
+            "https://www.bto.org/learn/about-birds/birdfacts/cormorant",
+            "https://animaldiversity.org/accounts/Phalacrocorax_carbo/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/cormorant",
+            "https://www.bto.org/learn/about-birds/birdfacts/cormorant",
+            "https://animaldiversity.org/accounts/Phalacrocorax_carbo/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/cormorant",
+            "https://www.bto.org/learn/about-birds/birdfacts/cormorant",
+            "https://animaldiversity.org/accounts/Phalacrocorax_carbo/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2481890"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2481890"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "eurasian-coot",
+      "name": "白骨顶",
+      "scientificName": "Fulica atra",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/eurasian-coot",
+            "https://www.bto.org/learn/about-birds/birdfacts/coot",
+            "https://avifauna.hkbws.org.hk/species/0060/007800"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/eurasian-coot",
+            "https://www.bto.org/learn/about-birds/birdfacts/coot",
+            "https://avifauna.hkbws.org.hk/species/0060/007800"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/eurasian-coot",
+            "https://www.bto.org/learn/about-birds/birdfacts/coot",
+            "https://avifauna.hkbws.org.hk/species/0060/007800"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2474377"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2474377"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "common-moorhen",
+      "name": "黑水鸡",
+      "scientificName": "Gallinula chloropus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/moorhen",
+            "https://www.bto.org/learn/about-birds/birdfacts/moorhen",
+            "https://www.allaboutbirds.org/guide/Common_Gallinule/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/moorhen",
+            "https://www.bto.org/learn/about-birds/birdfacts/moorhen",
+            "https://www.allaboutbirds.org/guide/Common_Gallinule/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.rspb.org.uk/birds-and-wildlife/moorhen",
+            "https://www.bto.org/learn/about-birds/birdfacts/moorhen",
+            "https://www.allaboutbirds.org/guide/Common_Gallinule/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5228199"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5228199"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "chinese-pond-heron",
+      "name": "池鹭",
+      "scientificName": "Ardeola bacchus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/5/4/546",
+            "https://avifauna.hkbws.org.hk/species/0170/022900",
+            "https://www.hkbws.org.hk/web/chi/documents/report/egret_summer_report_2010.pdf",
+            "https://www.afcd.gov.hk/english/conservation/hkbiodiversity/database/popup_record.php?id=3325"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/5/4/546",
+            "https://avifauna.hkbws.org.hk/species/0170/022900",
+            "https://www.hkbws.org.hk/web/chi/documents/report/egret_summer_report_2010.pdf",
+            "https://www.afcd.gov.hk/english/conservation/hkbiodiversity/database/popup_record.php?id=3325"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/5/4/546",
+            "https://avifauna.hkbws.org.hk/species/0170/022900",
+            "https://www.hkbws.org.hk/web/chi/documents/report/egret_summer_report_2010.pdf",
+            "https://www.afcd.gov.hk/english/conservation/hkbiodiversity/database/popup_record.php?id=3325"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2480907"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2480907"
           ]
         }
       }

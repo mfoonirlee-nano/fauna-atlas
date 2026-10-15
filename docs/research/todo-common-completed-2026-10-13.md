@@ -1,6 +1,6 @@
 # 身边动物制作完成归档
 
-2026-10-14：本轮 100 个选题完成 15 个，待制作 85 个，项目共有 615 份物种档案。研究与验收见[首批五种](todo-common-first-five-2026-10-13.md)、[接续五种](todo-common-next-five-2026-10-14.md)和[第三批五种](todo-common-third-five-2026-10-14.md)。
+2026-10-15：本轮 100 个选题完成 20 个，待制作 80 个，项目共有 620 份物种档案。湿地鸟类见[本批研究与验收](todo-common-wetland-five-2026-10-15.md)。研究与验收见[首批五种](todo-common-first-five-2026-10-13.md)、[接续五种](todo-common-next-five-2026-10-14.md)和[第三批五种](todo-common-third-five-2026-10-14.md)。
 
 - [x] 013 家马（*Equus caballus*）：农场、动物园；马蹄与行走。
 - [x] 014 家驴（*Equus asinus*）：农场、乡间；长耳朵与身体特点。
@@ -19,3 +19,9 @@
 - [x] 003 夜鹭（*Nycticorax nycticorax*）：城市河道、池塘；晨昏活动与幼鸟羽色。
 - [x] 004 鹊鸲（*Copsychus saularis*）：南方公园；鸣叫、黑白羽毛与翘尾动作。
 - [x] 006 飞蝗（*Locusta migratoria*）：田野、草地；跳跃、飞行与若虫成长。
+
+- [x] 031 小䴙䴘（*Tachybaptus ruficollis*）：公园池塘；潜水与觅食。
+- [x] 049 普通鸬鹚（*Phalacrocorax carbo*）：湖泊、河流；潜水捕鱼与展翅姿势。
+- [x] 050 白骨顶（*Fulica atra*）：湖泊、湿地；脚趾上的瓣膜。
+- [x] 051 黑水鸡（*Gallinula chloropus*）：公园池塘；游泳与水边植物。
+- [x] 052 池鹭（*Ardeola bacchus*）：水田、池塘；停栖和飞行时的外观。

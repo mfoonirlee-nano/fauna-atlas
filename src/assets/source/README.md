@@ -884,3 +884,13 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [夜鹭 image set](./species/black-crowned-night-heron/README.md)
 - [鹊鸲 image set](./species/oriental-magpie-robin/README.md)
 - [飞蝗 image set](./species/migratory-locust/README.md)
+
+- [小䴙䴘 image set](./species/little-grebe/README.md)
+
+- [普通鸬鹚 image set](./species/great-cormorant/README.md)
+
+- [白骨顶 image set](./species/eurasian-coot/README.md)
+
+- [黑水鸡 image set](./species/common-moorhen/README.md)
+
+- [池鹭 image set](./species/chinese-pond-heron/README.md)

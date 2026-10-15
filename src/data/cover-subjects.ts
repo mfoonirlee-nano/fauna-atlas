@@ -6151,5 +6151,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1486,
       "bottom": 824
     }
-  }
+  },
+  "little-grebe": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 210,
+      "right": 1440,
+      "bottom": 710
+    }
+  },
+  "great-cormorant": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 40,
+      "right": 1480,
+      "bottom": 980
+    }
+  },
+  "eurasian-coot": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 75,
+      "right": 1450,
+      "bottom": 935
+    }
+  },
+  "common-moorhen": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 600,
+      "top": 100,
+      "right": 1460,
+      "bottom": 940
+    }
+  },
+  "chinese-pond-heron": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 85,
+      "right": 1440,
+      "bottom": 950
+    }
+  },
 };
