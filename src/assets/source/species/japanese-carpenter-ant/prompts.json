@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Camponotus japonicus Japanese carpenter ant; entirely black worker ant, elbowed antennae, six legs, smoothly arched mesosoma, single petiole node and rounded glossy gaster, no wings. Scene: one black worker on weathered wood, side view, entire antennae and six legs. COVER COMPOSITION: put the complete animal only on the RIGHT HALF, centered at 72% of canvas width. Every visible antenna tip, leg, wingtip and abdomen must fit inside x=660..1450 and y=110..910. Left 40% must be quiet blurred habitat. Leave visible real background outside all appendages. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "4e5fbaa04ff7d43e5acf9c228a3ff116db7307158b0af131c2695b08a27d9985",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3e85a4bed3b00e8f9912513bf5db787faa54a36c6ebf63e47ab223e310911310",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Camponotus japonicus Japanese carpenter ant; entirely black worker ant, elbowed antennae, six legs, smoothly arched mesosoma, single petiole node and rounded glossy gaster, no wings. Scene: two black workers differing in head size on bark, no wings. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "37ad8494fe98d94137cdebaa9ad1db82ee1669e9c309ecb73597c0a0038f858f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b352899706c6aee7e2d1683a1b7e08bef8f33774ca0bd70bfd4846aa1d917e1c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Camponotus japonicus Japanese carpenter ant; entirely black worker ant, elbowed antennae, six legs, smoothly arched mesosoma, single petiole node and rounded glossy gaster, no wings. Scene: worker antennating a small aphid on plant stem, honeydew foraging scene. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "fce8669642b787614bba06aac139a05456beb59ccaf9c568a6221412ba65083a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c05644a0dcc05a62b6ada2fee95d0a28c5f9f1f8a5902ecb381af570e2334cb1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Camponotus japonicus Japanese carpenter ant; entirely black worker ant, elbowed antennae, six legs, smoothly arched mesosoma, single petiole node and rounded glossy gaster, no wings. Scene: worker carrying small dead insect over soil, no gore. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "d760af94866d9dfb390dde778f11eaf9410b58d59ddfc3ef00d31ce0f46fadea",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "bc28d4b3d09cb36cf6c3c95f48d28fe1360655e7aa8dc83f69dd318e2898db40",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Macro inside a reconstructed earth chamber of Camponotus japonicus ant nest: two black adult nurse worker ants tending a group of CREAM WHITE CURVED LEGLESS ANT LARVAE. Soft grub shaped larvae, no eyes and no legs, clearly different from workers. Realistic brown soil walls. Underground cutaway reconstruction. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "5aec34f75917c0c90899e230e6093013b7b91aa5f3f7aeb10235992ff0450489",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8732d92355d51cbafaa600338127a153eebf694dc8221c8cb2d36fd5822730c6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Macro reconstructed underground SOIL chamber of Camponotus japonicus nest: two black adult workers tending elongated pale beige silk COCOONS enclosing ant pupae, each about worker body length, clearly distinct from tiny eggs. Soil walls, no wooden tunnels. No exposed adult inside cocoons. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "307a78eebe0732c7e8af4496e3fa485a8e18058f76f7e99f06245c081cb7c726",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b55944b01cd1eadab45ac8cd53094e6ddf281ddae29d6fad3400d711de4846c7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
