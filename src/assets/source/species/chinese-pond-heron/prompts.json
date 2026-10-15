@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas cover, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Chinese pond heron Ardeola bacchus, breeding adult maroon chestnut head and neck slate dark back pure white wings yellow bill with dark tip yellow legs. Scene: standing on muddy rice paddy margin, wings folded, entire toes visible. Mandatory cover composition: complete main bird on right half, silhouette center 72% across, contained within x=700..1450 y=100..900; left 40% quiet blurred habitat. Maximize bird size within this box. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "f7ea7a4c93df4524bfcc5922ecbda5e82ecea04392721fa28a20112e7564710a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b8d03fad5633a1f400b96c894d7d783d72e3270d40e03aa0930a7886b2e06933",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Chinese pond heron Ardeola bacchus, breeding adult maroon chestnut head and neck slate dark back pure white wings yellow bill with dark tip yellow legs. Scene: nonbreeding adult brown streaked head neck and back white belly standing. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "93ba67019691fefdd77a164f9732a1554f4a70f10094cf3a4e8de1b41a6886a9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b53a899e5b212d062acaa7c7419db2351937c654473e06ec02a05b3ed3df3264",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Chinese pond heron Ardeola bacchus, breeding adult maroon chestnut head and neck slate dark back pure white wings yellow bill with dark tip yellow legs. Scene: breeding adult in flight white wings fully spread neck retracted legs trailing. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "fdbc8f11391084ce950e319a58b1abf548017898a6fb00616f7132ffcc894429",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ae8fdb2af6adc288e68bb9703d10b4cb16790e295be5f9b82f03f389162528c3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Chinese pond heron Ardeola bacchus, breeding adult maroon chestnut head and neck slate dark back pure white wings yellow bill with dark tip yellow legs. Scene: breeding adult stalking tiny fish in shallow water. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "74988cd6084a87004faad1f9691e59b6e969d090cbcdea43c106cb3948956793",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b21f83fc5e517207ee732c2c8043a31b670cebbc933ed9477fd5f227b1081346",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Chinese pond heron Ardeola bacchus, breeding adult maroon chestnut head and neck slate dark back pure white wings yellow bill with dark tip yellow legs. Scene: nonbreeding adult perched in wetland tree. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "be202f0d24c837577c0dbaff5a504eee737584518b9b7e1968248f6624af99d0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "920bffa78fb0eca2c3484e6e6cb30025db283be132d916be2d0b2340e45bf88b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Chinese pond heron Ardeola bacchus, breeding adult maroon chestnut head and neck slate dark back pure white wings yellow bill with dark tip yellow legs. Scene: breeding adult beside stick nest in tree, no chicks. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "dba3e2bd6c382944da7b19ca89ca1ce96d8cde2a98b68e4c864841e1fb6b2c68",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "94f3921af82eacb6afbaa06e1851378672a7ca93bd4f83204011110339db504c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
