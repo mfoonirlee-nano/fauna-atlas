@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas cover, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Common moorhen Gallinula chloropus, adult charcoal gray black body brown back red frontal shield red bill yellow bill tip narrow white flank stripe white undertail long green legs and unwebbed slender long toes. Scene: standing sideways on muddy reed bank showing long green toes. Mandatory cover composition: complete main bird on right half, silhouette center 72% across, contained within x=700..1450 y=100..900; left 40% quiet blurred habitat. Maximize bird size within this box. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "af33c626ec671c859926efa33c9c488d26d4bc0c0260832166b542ea62074f98",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2c13ffb4cd70acfa7b4f3ddcd8248c67d401fc28f30ad8c98a62d944fd382721",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Common moorhen Gallinula chloropus, adult charcoal gray black body brown back red frontal shield red bill yellow bill tip narrow white flank stripe white undertail long green legs and unwebbed slender long toes. Scene: adult swimming white flank stripe visible. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "cbeac8b929a5ea9feb98aa6e4c6db2ec4b09b665129559e97496697dee17d7cc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d709f2d60318482193fa1b090e483566fa7a833a7e2160608fbb3323574b9282",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Common moorhen Gallinula chloropus, adult charcoal gray black body brown back red frontal shield red bill yellow bill tip narrow white flank stripe white undertail long green legs and unwebbed slender long toes. Scene: adult walking over floating vegetation with slender long unwebbed toes. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "e713858805cba22db694e378b23cbf8ea89dd94f4d16f044ca791e1316a211c3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0eebed3bbb2967ad7dcc6d890bc10063319880fdce3bd280f0861d32efb0ec40",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Common moorhen Gallinula chloropus, adult charcoal gray black body brown back red frontal shield red bill yellow bill tip narrow white flank stripe white undertail long green legs and unwebbed slender long toes. Scene: adult pecking seeds at muddy shore. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "d3cb01faca2152b41fe10ceaa0c500096245efe16d5215a9d81e8f31e52e129d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6e7a5e9b6dcdf85f1de014684c13b300b4e5e5954401d32bd4ed48e477af2ce6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Common moorhen Gallinula chloropus, adult charcoal gray black body brown back red frontal shield red bill yellow bill tip narrow white flank stripe white undertail long green legs and unwebbed slender long toes. Scene: brown juvenile without red frontal shield standing at water edge. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "dcdf3991b64db121f88b7c865ba991b3b8412480f1d773271aaaa3b5556926b3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "47728df543953d15b3deb90bdc2a7466b1bb7e9eae4cc0f71ba3112fac14dbe3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Common moorhen Gallinula chloropus, adult charcoal gray black body brown back red frontal shield red bill yellow bill tip narrow white flank stripe white undertail long green legs and unwebbed slender long toes. Scene: adult near reed nest with small downy black chick red-orange bill. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "bc3fc5f421010a750317b757abbed09ed47193b4221ec6a61f73174f31809a69",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4f5c82fb3bff26f908c044ada8fb4a7f47ae860a1d5d51f30b2dd3b84d58335d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
