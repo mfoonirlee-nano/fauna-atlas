@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas cover, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Eurasian coot Fulica atra, adult slate-black rounded waterbird white bill and white frontal shield red eyes gray-green legs and lobed NOT webbed toes. Scene: standing sideways on low muddy island with all lobed toes visible. Mandatory cover composition: complete main bird on right half, silhouette center 72% across, contained within x=700..1450 y=100..900; left 40% quiet blurred habitat. Maximize bird size within this box. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "4a4d5290f396d2827ba9dc00ecdd52a11e859923479c5d986d8ec3a63986829d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9bf6576ed1251b645a8655defa781d06d00ab7c8db8559654d796b249fa65b6e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Eurasian coot Fulica atra, adult slate-black rounded waterbird white bill and white frontal shield red eyes gray-green legs and lobed NOT webbed toes. Scene: adult swimming with white frontal shield visible. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "4d9bd8fd8c1c658dea65b3bab16a7e7a413c15f8467bcf3f29813180ac596691",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f0989dc97e71cac0ed74352712fb011440667a172e7196e2f948ad21c35f0203",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Eurasian coot Fulica atra, adult slate-black rounded waterbird white bill and white frontal shield red eyes gray-green legs and lobed NOT webbed toes. Scene: adult walking on mud showing separate lobed toes. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "e8be6ca67ad4767e61de846fcf47d63ebf879f33e21ac6aeeae8297ef4545420",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "76a9daa1bb5053d98c2932f8fe8658ea535caacefddd5e52a35ca33962f400ae",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Eurasian coot Fulica atra, adult slate-black rounded waterbird white bill and white frontal shield red eyes gray-green legs and lobed NOT webbed toes. Scene: adult picking green aquatic plant at surface. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "1a066770fde18482dbc9035e3d077257bfb9afa7c6ab72fd991110bc52f8e52d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "53d55a6d209ffc19a0f006035f784d5e2657c8b1006171fdf5fe161fc3ac4863",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Eurasian coot Fulica atra, adult slate-black rounded waterbird white bill and white frontal shield red eyes gray-green legs and lobed NOT webbed toes. Scene: small downy black chick red-orange bald head swimming near adult. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "4d3af1473773021b6db98bbd56ca66331ba3a75616f0d487edcb5e19e2e00207",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6c788792a903021b1a0b9da5757a28390ca6a4ae4a070d38f0da105d5f07341c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Eurasian coot Fulica atra, adult slate-black rounded waterbird white bill and white frontal shield red eyes gray-green legs and lobed NOT webbed toes. Scene: adult beside reed nest with spotted eggs. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "73a2c30fe50732dddd0f02e92c3cc5ef7af4501455fbc0c1926ab8fd3fc7daed",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "54d2f6f8a4b8fbf1ac5474234977b97b9e437ce2b5614b8bc9f8272289e4ac38",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
