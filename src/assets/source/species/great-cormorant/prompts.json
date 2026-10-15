@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas cover, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Great cormorant Phalacrocorax carbo, large black waterbird with long neck, hooked gray bill yellow bare gular patch, dark webbed feet and long tail. Scene: standing sideways on low lakeshore rock, wings folded. Mandatory cover composition: complete main bird on right half, silhouette center 72% across, contained within x=700..1450 y=100..900; left 40% quiet blurred habitat. Maximize bird size within this box. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "5dd8ad984b33a21a8d5c6e0700a8a0b8bc698b8be05383aa2981f46292b68f60",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "518f59c6fdccac010ef97a0072bc2ab6e0690d21302703db47928739d123575c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Great cormorant Phalacrocorax carbo, large black waterbird with long neck, hooked gray bill yellow bare gular patch, dark webbed feet and long tail. Scene: adult standing on rock with both wings spread fully. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "9b45f36f04a7f58d1b0288ba689c53d83a406262cd1a542b1d789b039e052930",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "959213cf61db9afd53924ce0f0c54e66d9c5e5f9879f65fc5ece4f2802e4cb7a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Great cormorant Phalacrocorax carbo, large black waterbird with long neck, hooked gray bill yellow bare gular patch, dark webbed feet and long tail. Scene: adult swimming low in water. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "4e580aabb48f28e15ec85e1ab8e98a23d60133ad23611c526df067602a65f5ab",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5d5e17e834d38758fc779f7da8930a9571cc02a549ecafd8a5faace88744921f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Great cormorant Phalacrocorax carbo, large black waterbird with long neck, hooked gray bill yellow bare gular patch, dark webbed feet and long tail. Scene: adult holding a small fish crosswise in hooked bill. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "0f1ba0f1d3dd9521d74fc95b67402ed06029e219aa20049d177574335113b77d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1ea1a1430df65435311174dfaa222f494c5973ae24551d9ec5a30978fdaaba8e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Great cormorant Phalacrocorax carbo, large black waterbird with long neck, hooked gray bill yellow bare gular patch, dark webbed feet and long tail. Scene: brown juvenile with pale breast standing at water edge. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "48ca23aff55615e095350f91c3d4c679e01ef11cdf314f9f3c298fd3f81b0975",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "029060e9390047dae619717324a9f422a624f8d1da90959d286bd4bf8bb2b498",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic natural scientific reconstruction. Species: Great cormorant Phalacrocorax carbo, large black waterbird with long neck, hooked gray bill yellow bare gular patch, dark webbed feet and long tail. Scene: adult resting beside a stick nest in tree, no chicks. Clear single scene with natural habitat and natural lighting. Full subject including all visible bill, wing tips, tail, toes inside frame with generous background margin. Correct life stage overrides adult reference. No text, labels, watermark, collage, border. Anatomical accuracy.",
+      "sourceSha256": "4bae62f63790c712f34bfe37b13793a72ce6ea05863f5c61de7e56594708cb40",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "eecf6e3e7596417c258b451008504c34b2c4ddfd0b636942f0fc4104f8eae1e9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
