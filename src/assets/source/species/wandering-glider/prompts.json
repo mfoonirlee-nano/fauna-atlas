@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Pantala flavescens Wandering Glider dragonfly; golden yellow ochre body, thin darker dorsal abdominal marks, large brownish red eyes, six legs, four broad transparent veined wings with very broad hindwing bases, no solid colored wing patches. Scene: one golden adult perching horizontally on a dry grass tip, all wings and abdomen inside frame. COVER COMPOSITION: put the complete animal only on the RIGHT HALF, centered at 72% of canvas width. Every visible antenna tip, leg, wingtip and abdomen must fit inside x=660..1450 and y=110..910. Left 40% must be quiet blurred habitat. Leave visible real background outside all appendages. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "50fae160bea77d523cf412119db11a970d042a3b28d62bd02fabe2c2544d0a68",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9dd7c309707ad10825c845941c62301ac5d3c789ec6f4a26a1d01f35fd1529c8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Pantala flavescens Wandering Glider dragonfly; golden yellow ochre body, thin darker dorsal abdominal marks, large brownish red eyes, six legs, four broad transparent veined wings with very broad hindwing bases, no solid colored wing patches. Scene: adult flying alone above open meadow, four wings extended completely. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "01dc08b9be400d0527fcd6e7dace51ebadcfb6db3353bd3ca94edb2cc71d04c4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "45b42da01bd6d47a7fbfe5e2f0e40419047e9fb5734e87c6820924ac24ce2e16",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Pantala flavescens Wandering Glider dragonfly; golden yellow ochre body, thin darker dorsal abdominal marks, large brownish red eyes, six legs, four broad transparent veined wings with very broad hindwing bases, no solid colored wing patches. Scene: adult at rest dorsal view showing broad transparent hindwings. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "c34d3d9ca68f1ddfecaa1e2724fbd8b778960331f93ed864ff9794c4d2bc709b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9bcd96631ade646ac1eb0137dd513b0a07e38ffd4e46af1a60b1c13d56e4c5c5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Pantala flavescens Wandering Glider dragonfly; golden yellow ochre body, thin darker dorsal abdominal marks, large brownish red eyes, six legs, four broad transparent veined wings with very broad hindwing bases, no solid colored wing patches. Scene: female touching abdominal tip to shallow rain puddle while hovering, egg-laying scene. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "f44259a9112b32f9e8e4a79a83569693194660ca31c91adb7942c0160911be4d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "65a091360253f6a8ed621a84b3e6e3eb9b0125b1df2efdb035b05d3d51c59a6e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Underwater macro of a Pantala flavescens dragonfly NYMPH in shallow temporary freshwater pool, squat broad brown six-legged larva, large eyes, short wing pads and tapered abdomen with short anal spines. No adult, no golden adult body, no external leaf gills, no long tails. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "bcdfd3a455ab8047cecfaf2e4ae79b9718eda40e117dd402004b258127e091e3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "aae92cb5695e4272efac4f20328f9fc8df9eb4b66493967fbcdf82cae0645c00",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific educational macro reconstruction. One landscape 1536x1024 image. Pantala flavescens Wandering Glider dragonfly; golden yellow ochre body, thin darker dorsal abdominal marks, large brownish red eyes, six legs, four broad transparent veined wings with very broad hindwing bases, no solid colored wing patches. Scene: adult resting on a grass stem after rainfall, droplets in background. Natural habitat, anatomically plausible. No text, labels, scale bars, watermark, collage or diagram.",
+      "sourceSha256": "0e63efd0af48af2bc84dc353a7baedc73e69847919d205d697d0a7a4df75c0c5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3df888a3abee45a1429c4e892cc88b86ff94e8600fd61e40b031ad652b2270c6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
