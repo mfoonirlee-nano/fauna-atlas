@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Cyprinus carpio",
+    "response": {
+      "usageKey": 4286975,
+      "scientificName": "Cyprinus carpio Linnaeus, 1758",
+      "canonicalName": "Cyprinus carpio",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Cyprinus",
+      "species": "Cyprinus carpio",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2347697,
+      "speciesKey": 4286975
+    }
+  },
+  {
+    "query": "Ctenopharyngodon idella",
+    "response": {
+      "usageKey": 2362030,
+      "scientificName": "Ctenopharyngodon idella (Valenciennes, 1844)",
+      "canonicalName": "Ctenopharyngodon idella",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Ctenopharyngodon",
+      "species": "Ctenopharyngodon idella",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2362029,
+      "speciesKey": 2362030
+    }
+  },
+  {
+    "query": "Hypophthalmichthys molitrix",
+    "response": {
+      "usageKey": 2362473,
+      "scientificName": "Hypophthalmichthys molitrix (Valenciennes, 1844)",
+      "canonicalName": "Hypophthalmichthys molitrix",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Hypophthalmichthys",
+      "species": "Hypophthalmichthys molitrix",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2362472,
+      "speciesKey": 2362473
+    }
+  },
+  {
+    "query": "Opsariichthys bidens",
+    "response": {
+      "usageKey": 2365479,
+      "scientificName": "Opsariichthys bidens Günther, 1873",
+      "canonicalName": "Opsariichthys bidens",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Opsariichthys",
+      "species": "Opsariichthys bidens",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2365476,
+      "speciesKey": 2365479
+    }
+  },
+  {
+    "query": "Hypophthalmichthys nobilis",
+    "response": {
+      "usageKey": 2362486,
+      "scientificName": "Hypophthalmichthys nobilis (Richardson, 1845)",
+      "canonicalName": "Hypophthalmichthys nobilis",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Hypophthalmichthys",
+      "species": "Hypophthalmichthys nobilis",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2362472,
+      "speciesKey": 2362486
+    }
+  }
+]

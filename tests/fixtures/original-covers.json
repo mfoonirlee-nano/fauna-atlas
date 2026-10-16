@@ -5536,5 +5536,70 @@
       },
       "sha256": "737fe5cdc0a361f3febe4d3d38a24bec272ed58cdb9326930c7ec6dd2582800b"
     }
+  },
+  "common-carp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 715,
+        "top": 250,
+        "right": 1430,
+        "bottom": 645
+      },
+      "sha256": "6ec16695a005d66f6e74052e08813882d0f7f3ea9b82bd4a6511afd57b139a74"
+    }
+  },
+  "grass-carp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 270,
+        "right": 1495,
+        "bottom": 620
+      },
+      "sha256": "1dd4822e312eedc39f9a7f066e1aaf57f68fcebfe7a84ea83a6ab2b10033b0c3"
+    }
+  },
+  "silver-carp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 328,
+        "right": 1440,
+        "bottom": 660
+      },
+      "sha256": "dbf12163315ea13e7607f7ac2e1fdc03e3f5cbcd480c3bc18f878152d340a22f"
+    }
+  },
+  "chinese-hooksnout-carp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 275,
+        "right": 1455,
+        "bottom": 575
+      },
+      "sha256": "a9558927e6c7ae734767c208dd42d289990a9eb16a0ad728b1264ed82f0d1de1"
+    }
+  },
+  "bighead-carp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 712,
+        "top": 304,
+        "right": 1444,
+        "bottom": 644
+      },
+      "sha256": "6aa7dd3b9bcacfdbd8dc080f8a63ace9454b54ea21ec8826f57bd7688f72ba77"
+    }
   }
 }

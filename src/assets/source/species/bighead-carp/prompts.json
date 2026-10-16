@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-16",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only composition of this bighead-carp cover. Keep the same species, correct anatomy and natural freshwater scene. The original fish extends into required text space. Reduce entire fish by about 15 percent and shift right. ENTIRE fish silhouette including mouth and all fin and tail tips must lie between x=700 and x=1430, y=220 and y=730 in the 1536x1024 source. LEFT 44 PERCENT of image must be empty water without any fish body. Preserve all features and enough background margins, no cropped fins. Do not add text or anything else.",
+      "sourceSha256": "06d6fa4b70d32be1bf3866fbb9fe1e0bd118a1de25863ac7be74d4148bf04cd1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6aa7dd3b9bcacfdbd8dc080f8a63ace9454b54ea21ec8826f57bd7688f72ba77",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys nobilis, bighead carp, massive head about one third body length, eyes low on head below mouth, large slightly upturned mouth, irregular dark mottled flanks, small scales, forked tail, no barbels. Scene: adult broadside above lake bottom, dark mottled flanks and huge head. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "1812cbdcbc15058f067f8206cfec3881480a705319a6c15c41b50423609514e3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d650ae2414522f58576458617b71b26b21edff7cecc3f783bd17a50725539d05",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys nobilis, bighead carp, massive head about one third body length, eyes low on head below mouth, large slightly upturned mouth, irregular dark mottled flanks, small scales, forked tail, no barbels. Scene: adult head three-quarter view, low-set eye and slightly open upturned mouth, no exposed gills. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "c71942d3a7f28659f6ddc4825732fb5ccc35e840b7ac032ba1c88dc98c8ffb01",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9c7ef9ea4e53bdb313ccbdb5b80510a55fa2cb7dcb9161d0d51de963a45b2f7e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys nobilis, bighead carp, massive head about one third body length, eyes low on head below mouth, large slightly upturned mouth, irregular dark mottled flanks, small scales, forked tail, no barbels. Scene: entire fish swimming through natural subtle zooplankton haze, no oversized microbes. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "e2e5265893bd1c2ed779c03e4be46d7d2cdd85da334fb499ee2e31dd366fe0c5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c62c207f8a3a6c165543a545fe529d544ab0096f67179f3114b345476fbc81fe",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys nobilis, bighead carp, massive head about one third body length, eyes low on head below mouth, large slightly upturned mouth, irregular dark mottled flanks, small scales, forked tail, no barbels. Scene: small juvenile bighead carp in freshwater nursery, proportionately large head. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "2304a3adb0830fa8c8bb956c800e39c551ac50224ef1fb15d4bbf7b740c77176",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "92d2bc802a08cc1c4ec7c2f586501174eb657395f394450f8c42b02e9e517689",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys nobilis, bighead carp, massive head about one third body length, eyes low on head below mouth, large slightly upturned mouth, irregular dark mottled flanks, small scales, forked tail, no barbels. Scene: macro reconstruction of translucent semi-buoyant fish eggs suspended in flowing river water, no adult fish, not to scale. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "fd049839db504ca600d3e758c4a847d53025f4ad63ce2dac6edcebcc384b48a5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "886f6db4a646cec86f484148198e714ba9bd61af0f283a42707845b071ea6321",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

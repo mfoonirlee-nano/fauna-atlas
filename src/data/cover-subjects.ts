@@ -6302,4 +6302,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 822
     }
   },
+  "common-carp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 715,
+      "top": 250,
+      "right": 1430,
+      "bottom": 645
+    }
+  },
+  "grass-carp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 270,
+      "right": 1495,
+      "bottom": 620
+    }
+  },
+  "silver-carp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 740,
+      "top": 328,
+      "right": 1440,
+      "bottom": 660
+    }
+  },
+  "chinese-hooksnout-carp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 275,
+      "right": 1455,
+      "bottom": 575
+    }
+  },
+  "bighead-carp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 712,
+      "top": 304,
+      "right": 1444,
+      "bottom": 644
+    }
+  }
 };

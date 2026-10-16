@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "630 animal species profiles; 560 historical baseline reviews and 70 additions through 2026-10-15; microbial topics excluded",
+  "scope": "635 animal species profiles; 560 historical baseline reviews and 75 additions through 2026-10-16; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 70,
-    "addedProfilesReviewDate": "2026-10-15",
+    "addedProfiles": 75,
+    "addedProfilesReviewDate": "2026-10-16",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -29405,6 +29405,206 @@
           ]
         }
       }
+    },
+    {
+      "slug": "common-carp",
+      "name": "鲤",
+      "scientificName": "Cyprinus carpio",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_commoncarp.htm"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_commoncarp.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_commoncarp.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4286975"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4286975"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-16：逐种核对物种范围、生活阶段与资料边界；按 stop-slop 复核。"
+      ]
+    },
+    {
+      "slug": "grass-carp",
+      "name": "草鱼",
+      "scientificName": "Ctenopharyngodon idella",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_grasscarp.htm"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_grasscarp.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_grasscarp.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362030"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362030"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-16：逐种核对物种范围、生活阶段与资料边界；按 stop-slop 复核。"
+      ]
+    },
+    {
+      "slug": "silver-carp",
+      "name": "鲢",
+      "scientificName": "Hypophthalmichthys molitrix",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_silvercarp.htm"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_silvercarp.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_silvercarp.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362473"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362473"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-16：逐种核对物种范围、生活阶段与资料边界；按 stop-slop 复核。"
+      ]
+    },
+    {
+      "slug": "chinese-hooksnout-carp",
+      "name": "马口鱼",
+      "scientificName": "Opsariichthys bidens",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://zoolstud.sinica.edu.tw/Journals/51.4/476.pdf"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://zoolstud.sinica.edu.tw/Journals/51.4/476.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://zoolstud.sinica.edu.tw/Journals/51.4/476.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2365479"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2365479"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-16：逐种核对物种范围、生活阶段与资料边界；按 stop-slop 复核。"
+      ]
+    },
+    {
+      "slug": "bighead-carp",
+      "name": "鳙",
+      "scientificName": "Hypophthalmichthys nobilis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_bigheadcarp.htm"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_bigheadcarp.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_bigheadcarp.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362486"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362486"
+          ]
+        }
+      },
+      "notes": [
+        "2026-10-16：逐种核对物种范围、生活阶段与资料边界；按 stop-slop 复核。"
+      ]
     }
   ],
   "updatedAt": "2026-10-14"

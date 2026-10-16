@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-16",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only composition of this Opsariichthys bidens cover. Preserve the slender barred breeding male, jaw shape and natural stream. Reduce entire fish about 8 percent and move it to the right so the entire silhouette including mouth and every fin and tail tip lies within x=680..1450 y=230..650 in the 1536x1024 landscape. Left 42% must have no part of the fish. Keep background margins and correct anatomy. No text.",
+      "sourceSha256": "2f71f58a9303b540d2d151adf6f26d235cc93d46cbadaca67fae0d5bc205bf4e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a9558927e6c7ae734767c208dd42d289990a9eb16a0ad728b1264ed82f0d1de1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Opsariichthys bidens, Chinese hooksnout carp, slender East Asian stream minnow, large oblique mouth, projecting lower jaw symphyseal knob, forked tail, adult male with irregular dark vertical bars and subtle blue orange breeding colors, no barbels. Scene: plain silver adult FEMALE with no bright breeding bars, clear gravel stream. Single clear observation scene with full subject and real background margin. Life stage and sex in scene override adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "0b6adea83018c4ccbc3fabc41833db4f1956df20082af947a3493b72c883e29c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3c3ac94f0ec9416a4b31f034d94f809337a135de128e7e60bb80185d790e3815",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Opsariichthys bidens, Chinese hooksnout carp, slender East Asian stream minnow, large oblique mouth, projecting lower jaw symphyseal knob, forked tail, adult male with irregular dark vertical bars and subtle blue orange breeding colors, no barbels. Scene: adult male near head side view showing large oblique mouth and jaw notch, entire head inside frame. Single clear observation scene with full subject and real background margin. Life stage and sex in scene override adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "9783eedac837804326219a89b7b729207cb7c452d2004440cf09a734b557d97e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3cf0c5aaaf9fd42fe1be8d66142888b5d487fb084c594a822304a65490b31dc3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Opsariichthys bidens, Chinese hooksnout carp, slender East Asian stream minnow, large oblique mouth, projecting lower jaw symphyseal knob, forked tail, adult male with irregular dark vertical bars and subtle blue orange breeding colors, no barbels. Scene: adult swimming near tiny aquatic insect in flowing stream. Single clear observation scene with full subject and real background margin. Life stage and sex in scene override adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "15e67dc4520184c3f19384419e02778277f93e8455602bca3b5ccbb5b5bed816",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "04393da37d8746c6a553f4890b9e0d4dc45a3b89d38aa68a2389fc6670daf9f1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Opsariichthys bidens, Chinese hooksnout carp, slender East Asian stream minnow, large oblique mouth, projecting lower jaw symphyseal knob, forked tail, adult male with irregular dark vertical bars and subtle blue orange breeding colors, no barbels. Scene: small silvery juvenile in shallow pebbly stream, not a miniature bright male. Single clear observation scene with full subject and real background margin. Life stage and sex in scene override adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "0e0c98a7289f9321756fcef5cb8d2f69bb746fae1e0ac914813e1dddd363b91e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6cfd962dd7b2bfc924e28d60cffdb67e38a9d078e2232e9b48f56a17b99c898f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Opsariichthys bidens, Chinese hooksnout carp, slender East Asian stream minnow, large oblique mouth, projecting lower jaw symphyseal knob, forked tail, adult male with irregular dark vertical bars and subtle blue orange breeding colors, no barbels. Scene: two adults entire bodies in clear riffle over rounded stones, male barred and female plain silver, no spawning claim. Single clear observation scene with full subject and real background margin. Life stage and sex in scene override adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "c13873a689dad44c6d741fc6535eb3983b6abf9330e7c5fa90249433566be906",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6e93e025f080bd991bfd29df8422ea295af609355e2f187101aeea62b9100d71",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

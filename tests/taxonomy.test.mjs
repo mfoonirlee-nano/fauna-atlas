@@ -24285,7 +24285,7 @@ test('integrates the October 6 species with reviewed images and scoped evidence'
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 630);
+  assert.equal(species.length, 635);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24456,7 +24456,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 630);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 635);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24477,7 +24477,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 439);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 444);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 146);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 46);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
@@ -24499,7 +24499,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Tubulidentata')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Orycteropodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Orycteropus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 57);
+  assert.equal(findTaxon(tree, 'class', 'Actinopterygii')?.speciesCount, 62);
   assert.equal(findTaxon(tree, 'order', 'Gobiiformes')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'family', 'Oxudercidae')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'genus', 'Boleophthalmus')?.speciesCount, 1);
@@ -27174,4 +27174,36 @@ test('common insects preserve species boundaries and distinguish juvenile stages
   assert.match(chapter('japanese-carpenter-ant', 'movement'), /土中筑巢/);
   assert.match(chapter('harlequin-ladybird', 'appearance'), /斑点数不能当作年龄/);
   assert.match(chapter('asian-swallowtail', 'life-cycle'), /早龄.*末龄.*眼状斑不是真眼|早龄.*末龄.*真正的眼/);
+});
+
+test('freshwater fish retain sourced species boundaries, diets and six accepted images', async () => {
+  const expected = [
+    ['common-carp', 'Cyprinus carpio', 'Cyprinus', 'LC', 2022],
+    ['grass-carp', 'Ctenopharyngodon idella', 'Ctenopharyngodon', 'LC', 2020],
+    ['silver-carp', 'Hypophthalmichthys molitrix', 'Hypophthalmichthys', 'NT', 2011],
+    ['chinese-hooksnout-carp', 'Opsariichthys bidens', 'Opsariichthys', 'LC', 2020],
+    ['bighead-carp', 'Hypophthalmichthys nobilis', 'Hypophthalmichthys', 'DD', 2010],
+  ];
+  for (const [slug, scientificName, genus, status, assessedYear] of expected) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, scientificName);
+    assert.equal(profile.taxonomy.genus.scientificName, genus);
+    assert.equal(profile.conservation.code, status);
+    assert.equal(profile.conservation.assessedYear, assessedYear);
+    assert.equal(profile.conservation.trend, 'unknown');
+    assert.ok(profile.sources.some(({ kind, url }) => kind === 'conservation' && url.startsWith('https://www.fishbase.se/')));
+    await assertGeneratedImageSet({
+      profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      verifyAcceptedHashes: true,
+    });
+  }
+  const stories = (slug) => findSpecies(slug).storySections.map(({ body }) => body).join('\n');
+  assert.match(stories('common-carp'), /Cyprinus rubrofuscus/);
+  assert.match(findSpecies('grass-carp').diet.description, /鱼苗.*浮游动物/);
+  assert.match(findSpecies('silver-carp').diet.description, /浮游植物/);
+  assert.match(findSpecies('bighead-carp').diet.description, /浮游动物/);
+  assert.match(stories('chinese-hooksnout-carp'), /Xenocyprididae/);
+  assert.match(stories('chinese-hooksnout-carp'), /清弋江/);
+  assert.match(stories('chinese-hooksnout-carp'), /iridescens/);
 });

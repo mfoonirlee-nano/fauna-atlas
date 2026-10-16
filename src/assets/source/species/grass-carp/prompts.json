@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-16",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas cover, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Ctenopharyngodon idella, grass carp, elongated cylindrical olive silver body, large dark-edged scales, blunt head, short dorsal fin, NO barbels. Scene: one entire adult in its natural freshwater habitat. Mandatory composition: entire fish on RIGHT, silhouette center at 71% image width; all visible fins tail mouth strictly inside x=680..1440 y=140..870. Left 42% quiet water for separate text. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "914df3b627a116544776943617512769ce90ae1d3da3b73a8d4998d14188ea13",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1dd4822e312eedc39f9a7f066e1aaf57f68fcebfe7a84ea83a6ab2b10033b0c3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Ctenopharyngodon idella, grass carp, elongated cylindrical olive silver body, large dark-edged scales, blunt head, short dorsal fin, NO barbels. Scene: entire fish broadside in clear pond with green plants. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "a10d438a10713d9be218b57b67f9ac62850b9d89b588f78d9090d83f90934309",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a9982bf510ef313903471bcf33ca6550d8a0283304e90a60fca3d0bbd44a59bb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Ctenopharyngodon idella, grass carp, elongated cylindrical olive silver body, large dark-edged scales, blunt head, short dorsal fin, NO barbels. Scene: adult nibbling a submerged tender aquatic plant. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "2577efab4130357aa3a5a0c4a931423a8cb3e363a637cf353e02e7d829414c14",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2841ef6eaad0b4352797f84ef196c9e007d96a8fa8bc5c6ecd022fdfbc4b5323",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Ctenopharyngodon idella, grass carp, elongated cylindrical olive silver body, large dark-edged scales, blunt head, short dorsal fin, NO barbels. Scene: three young grass carp swimming in nursery pond, entire fish. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "58bfa1b7159693941fb94f4d33ae092ff0795ec0b402b34ef77e20ad4212b2d6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9f8fd0b4deb841b297f13decb068b0eb1822e7b689825726266840131f72ba34",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Ctenopharyngodon idella, grass carp, elongated cylindrical olive silver body, large dark-edged scales, blunt head, short dorsal fin, NO barbels. Scene: adult in flowing river with gravel bottom. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "73ba32cb35173a02d5d23527463f7251d7ddb931d46f533678cd277deb3ec849",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "16066cd264c1b8163675a9502ff6ac986ed4e8fc38f771bd39961b86d980269c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Ctenopharyngodon idella, grass carp, elongated cylindrical olive silver body, large dark-edged scales, blunt head, short dorsal fin, NO barbels. Scene: macro reconstruction of translucent semi-buoyant fish eggs suspended in moving river water, NO vegetation attachment, no adult fish, not to scale. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "497d99bbd241d128607f0ed963c08ae12ba904b1315282eda38ef6c23ffa49c6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "93590af8c7e4d9d050f35be14dd49a2f1eb81eae138edb40ce3d6173d4b3697f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

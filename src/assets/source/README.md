@@ -905,3 +905,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Wandering Glider image set](./species/wandering-glider/README.md)
 - [Harlequin Ladybird image set](./species/harlequin-ladybird/README.md)
 - [Asian Swallowtail image set](./species/asian-swallowtail/README.md)
+
+- [Common Carp image set](./species/common-carp/README.md)
+- [Grass Carp image set](./species/grass-carp/README.md)
+- [Silver Carp image set](./species/silver-carp/README.md)
+- [Chinese Hooksnout Carp image set](./species/chinese-hooksnout-carp/README.md)
+- [Bighead Carp image set](./species/bighead-carp/README.md)

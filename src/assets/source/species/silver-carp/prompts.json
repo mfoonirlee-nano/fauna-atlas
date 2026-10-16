@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-16",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only composition of this silver-carp cover. Keep the same species, correct anatomy and natural freshwater scene. The original fish extends into required text space. Reduce entire fish by about 15 percent and shift right. ENTIRE fish silhouette including mouth and all fin and tail tips must lie between x=700 and x=1430, y=220 and y=730 in the 1536x1024 source. LEFT 44 PERCENT of image must be empty water without any fish body. Preserve all features and enough background margins, no cropped fins. Do not add text or anything else.",
+      "sourceSha256": "c744805b80a0829b0a53f63a3ad884fe2b8aa75dca483ded4322220cc80eb744",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "dbf12163315ea13e7607f7ac2e1fdc03e3f5cbcd480c3bc18f878152d340a22f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys molitrix, silver carp, deep laterally compressed silver body, smooth small scales, low-set small eyes below mouth level, slightly upturned mouth, short dorsal fin, forked tail, no barbels. Scene: adult side view in softly green freshwater. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "246b87a8c704528b71d43b4fbcf01a61888163343fe20b104f1fd7ac6efb039d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "57ffab197199e423776b66c478a6af01469a0567b5bd4fee5c971da54cf1d061",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys molitrix, silver carp, deep laterally compressed silver body, smooth small scales, low-set small eyes below mouth level, slightly upturned mouth, short dorsal fin, forked tail, no barbels. Scene: near frontal three-quarter head, showing low eyes and slightly open mouth, no exposed gills. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "fd5aa867ae9b5c7dd0cdc01e3654343523730cc51f8e3148804e479fd75db8d0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6e16e98148a1797f1768200f152da4555eb348f66905575c9e34abce7041bbc1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys molitrix, silver carp, deep laterally compressed silver body, smooth small scales, low-set small eyes below mouth level, slightly upturned mouth, short dorsal fin, forked tail, no barbels. Scene: entire fish swimming through subtle natural plankton haze, no giant microbes. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "fc66246a0a246b2080344a1dd90d9cd30d05d795959ed4fcbc3854a01c5effe3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0f6f750e39361d5dcb43e255e65e57a26ce5b7cbe0dfaecac7d5cb607ce7094c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys molitrix, silver carp, deep laterally compressed silver body, smooth small scales, low-set small eyes below mouth level, slightly upturned mouth, short dorsal fin, forked tail, no barbels. Scene: three small juvenile silver carp swimming in freshwater nursery. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "040f9f5fc3c8c8099bdda215f774b7fd4f3fa1924e6b000c2fd70c85c5bb1099",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6992a396da885219b7e3586a1bea6dbadaf0f9e53d071d3cd5672073bc9cfc74",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Hypophthalmichthys molitrix, silver carp, deep laterally compressed silver body, smooth small scales, low-set small eyes below mouth level, slightly upturned mouth, short dorsal fin, forked tail, no barbels. Scene: macro reconstruction of translucent semi-buoyant fish eggs suspended in river current, no adult fish; not to scale. Single clear observation scene with full subject and real background margin. Life stage in scene overrides adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "25cbe47cc9448b8b1c307d1e7056aef3d002fbab60818b9c12fc2c386da0cb2c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "15518ba68ed5eaf62c0cd6f0f82978cd2bd909abb3025d057d94151254d92a80",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

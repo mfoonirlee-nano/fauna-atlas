@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-16",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this common carp cover. Keep photorealistic underwater pond style and accurate entire carp. Recompose ONLY fish scale and position: reduce fish about 14 percent and place its ENTIRE silhouette (including mouth barbels, tail and every fin) between x=660 and x=1440 in the 1536x1024 landscape image. Target fish bounding box x=660..1440 y=230..760. Its body center at 70% of image width. The first 42% of image width must contain only quiet pond water and background, no part of fish. Do not crop any part. Preserve common carp bronze scales, long dorsal fin, two pairs of mouth barbels. No text.",
+      "sourceSha256": "af33fe02184026e870793e875ef9c1be7506b1d8380aed2fce2ffae4a6c1818b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6ec16695a005d66f6e74052e08813882d0f7f3ea9b82bd4a6511afd57b139a74",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Cyprinus carpio, bronze common carp, deep body large scales, two pairs of mouth barbels, long-based dorsal fin. Scene: side view above a muddy pond bed. Single clear observation scene in natural aquatic light. Full subject with real background margin. Life stage and sex in the scene override the adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "4120f8efa574ba7b0445a3bc77e06238fb0722728b78fcb1b5e90c4ec6119336",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9715f02d11d78a5f8d38cb6714d5c09428dc920f0c15bf0f030a8f2603498952",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Cyprinus carpio, bronze common carp, deep body large scales, two pairs of mouth barbels, long-based dorsal fin. Scene: near face showing fleshy lips and mouth barbels, natural pond. Single clear observation scene in natural aquatic light. Full subject with real background margin. Life stage and sex in the scene override the adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "1f6d07604579bc5468cdb36b562fd1e70180ace0724ea6732ce47a7085a27a01",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7ec75dd01aa92cb5ed199edb28627f534d6e1654e48c01cb07741bec19ff2dbc",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Cyprinus carpio, bronze common carp, deep body large scales, two pairs of mouth barbels, long-based dorsal fin. Scene: foraging gently among bottom sediment and aquatic plants. Single clear observation scene in natural aquatic light. Full subject with real background margin. Life stage and sex in the scene override the adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "5d5454abfb96e91c88f216977b3c468dd9da37f305e5bf702078edc5e36686a8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4593bbe67404faa17712e3442928b00fb4f886b3ea7350e9b02ef4f786484bf6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Cyprinus carpio, bronze common carp, deep body large scales, two pairs of mouth barbels, long-based dorsal fin. Scene: small juvenile fully scaled carp among pond plants. Single clear observation scene in natural aquatic light. Full subject with real background margin. Life stage and sex in the scene override the adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "9f44623f16ed176c2f50c1ce4d6f0be037b9419fa9f5d7b1e76890b1cc6857a5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c685aae909b2b5faf3fcc13e83f6c5bb0de01cbcb1ea232acdb1105e90bfe901",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas gallery, landscape 1536x1024. Photorealistic underwater scientific reconstruction. Species: Cyprinus carpio, bronze common carp, deep body large scales, two pairs of mouth barbels, long-based dorsal fin. Scene: macro reconstruction of a few sticky carp eggs attached to submerged vegetation, no adult fish; not to scale. Single clear observation scene in natural aquatic light. Full subject with real background margin. Life stage and sex in the scene override the adult reference. Anatomically correct fish. No text, labels, watermark, collage, borders or inset.",
+      "sourceSha256": "fd7f709cbcd15af6741e861a29129bfa68b300d5dc86865035f10af8960d2ddc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "956b486473de18fc72506831930617d0189136f6f8854c1c44916fffc13e1db2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
