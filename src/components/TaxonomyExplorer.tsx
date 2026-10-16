@@ -780,7 +780,7 @@ export function TaxonomyExplorer({ items, theme, onOpenSpecies }: TaxonomyExplor
       <nav id="taxonomy" className="atlas-view-switch" aria-label="动物图谱展示方式">
         <button type="button" aria-pressed={view === 'tree'} onClick={() => setView('tree')}><GitBranch size={16} />树形图谱</button>
         <button type="button" aria-pressed={view === 'geography'} onClick={() => setView('geography')}><Globe2 size={16} />地理分布</button>
-        <button type="button" aria-pressed={view === 'compact'} onClick={() => setView('compact')}><LayoutGrid size={16} />单屏总览</button>
+        <button type="button" aria-pressed={view === 'compact'} onClick={() => setView('compact')}><LayoutGrid size={16} />分类总览</button>
       </nav>
       {view !== 'tree' && <Suspense fallback={<p className="exploration-loading" role="status">正在加载图谱…</p>}>
         <AtlasExploration key={view} items={items} mode={view} onOpenSpecies={onOpenSpecies} />

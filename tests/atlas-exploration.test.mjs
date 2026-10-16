@@ -27,7 +27,7 @@ async function setup(context) {
 }
 
 test('map aggregation preserves documented points and search includes taxonomy and ecology', async (context) => {
-  const { domain, species, server } = await setup(context);
+  const { domain, species } = await setup(context);
   const panda = species.find((item) => item.slug === 'giant-panda');
   assert.ok(domain.searchExploration(species, '食肉目', '').some((item) => item.slug === panda.slug));
   assert.deepEqual(domain.searchExploration([panda], '大熊猫', 'marine'), []);
@@ -42,17 +42,7 @@ test('map aggregation preserves documented points and search includes taxonomy a
     assert.equal(new Set(slugs).size, slugs.length);
     assert.ok(groups.every((group) => Number.isFinite(group.x) && Number.isFinite(group.y)));
   }
-  const { buildTaxonomyTree } = await server.ssrLoadModule('/src/domain/taxonomy.ts');
-  const visit = (nodes) => {
-    const tiles = domain.layoutTaxonomyTiles(nodes, 320, 220);
-    assert.equal(tiles.length, nodes.length);
-    for (const tile of tiles) {
-      assert.ok(tile.x >= 0 && tile.y >= 0 && tile.width >= 0 && tile.height >= 0);
-      assert.ok(tile.x + tile.width <= 320 && tile.y + tile.height <= 220);
-      if (tile.node.kind === 'taxon') visit(tile.node.children);
-    }
-  };
-  visit(buildTaxonomyTree(species));
+
 });
 
 test('geographic map clusters, zoom, coordinate omissions and profile actions work', async (context) => {
@@ -82,7 +72,7 @@ test('geographic map clusters, zoom, coordinate omissions and profile actions wo
   assert.equal(document.querySelectorAll('.exploration-list > button').length, 2);
 });
 
-test('single-screen taxonomy drills through existing ranks, opens species and returns to overview', async (context) => {
+test('classification collections drill through existing ranks, open species and return to overview', async (context) => {
   const { root, species, AtlasExploration } = await setup(context);
   // A documented path with no assigned order must remain navigable.
   const item = species.find((item) => item.slug === 'kowalevsky-acorn-worm');
@@ -90,10 +80,9 @@ test('single-screen taxonomy drills through existing ranks, opens species and re
   let opened;
   await act(() => root.render(createElement(AtlasExploration, { items: [item], mode: 'compact', onOpenSpecies: (value) => { opened = value; } })));
   const rankCount = Object.values(item.taxonomy).length;
-  for (let i = 1; i < rankCount; i++) await act(() => document.querySelector('.exploration-tile').click());
+  for (let i = 1; i < rankCount; i++) await act(() => document.querySelector('.taxonomy-collection__heading button').click());
   assert.equal(document.querySelectorAll('.exploration-breadcrumb button').length, rankCount + 2);
-  await act(() => document.querySelector('.exploration-tile').click());
-  await act(() => document.querySelector('.exploration-preview button').click());
+  await act(() => document.querySelector('.taxonomy-portrait').click());
   assert.equal(opened.slug, item.slug);
   await act(() => document.querySelector('.exploration-breadcrumb button').click());
   assert.equal(document.querySelectorAll('.exploration-breadcrumb button').length, 3);
@@ -203,54 +192,68 @@ test('fullscreen fallback supports Escape, focus containment and scroll restorat
   assert.equal(document.body.style.overflow, 'scroll');
 });
 
-test('compact overview links tile previews to the list and clears selection when navigating back', async (context) => {
-  const { root, species, AtlasExploration } = await setup(context);
-  const panda = species.find((item) => item.slug === 'giant-panda');
-  const worm = species.find((item) => item.slug === 'kowalevsky-acorn-worm');
-  let resize;
-  globalThis.ResizeObserver = class {
-    constructor(callback) { resize = callback; }
-    observe() {}
-    disconnect() {}
-  };
-  await act(() => root.render(createElement(AtlasExploration, { items: [panda, worm], mode: 'compact', onOpenSpecies() {} })));
-  assert.equal(document.querySelector('.exploration-compact__context > span > strong').textContent, '2');
-  assert.ok(document.querySelector('.exploration-compact__welcome'));
-  const firstTile = document.querySelector('.exploration-tile');
-  const name = firstTile.querySelector('strong').textContent;
-  const tone = firstTile.className.match(/exploration-tile--\d/)[0];
-  await act(() => firstTile.dispatchEvent(new window.MouseEvent('pointerover', { bubbles: true })));
-  assert.equal(document.querySelector('.exploration-taxon-note > strong').textContent, name);
-  assert.match(document.querySelector('.exploration-taxon-note p').textContent, /大熊猫/);
-  const highlightedRow = document.querySelector('.exploration-list > button.is-highlighted');
-  assert.equal(highlightedRow.querySelector('.exploration-compact__name').firstChild.textContent, name);
-  // Narrow cells keep the same identity, while the list exposes full names and actions.
-  await act(() => resize([{ contentRect: { width: 80, height: 40 } }]));
-  assert.equal(document.querySelector('.exploration-tile').className.match(/exploration-tile--\d/)[0], tone);
-  assert.ok(document.querySelector('.exploration-tile--tiny'));
-  assert.equal(document.querySelectorAll('.exploration-list > button').length, 2);
-  await act(() => document.querySelector('.exploration-taxon-note button').click());
-  assert.equal(document.activeElement, document.querySelector('.exploration-tiles'), 'drill-down keeps keyboard focus within the overview');
-  assert.equal(document.querySelector('.exploration-compact__context h3').firstChild.textContent, name);
-  assert.equal(document.querySelector('.exploration-breadcrumb [aria-current="location"]').firstElementChild.tagName.toLowerCase(), 'svg');
-  for (let depth = 0; depth < 8; depth++) {
-    const tile = document.querySelector('.exploration-tile');
-    if (tile.hasAttribute('aria-pressed')) break;
-    await act(() => tile.click());
+test('classification overview shows every phylum and its actual children with representative covers', async (context) => {
+  const { root, species, AtlasExploration, server } = await setup(context);
+  const { buildTaxonomyTree } = await server.ssrLoadModule('/src/domain/taxonomy.ts');
+  const phyla = buildTaxonomyTree(species)[0].children;
+  await act(() => root.render(createElement(AtlasExploration, { items: species, mode: 'compact', onOpenSpecies() {} })));
+  const sections = [...document.querySelectorAll('.taxonomy-collection')];
+  assert.equal(sections.length, phyla.length, 'small phyla stay visible alongside large phyla');
+  assert.equal(document.querySelector('.exploration-compact__context strong').textContent, String(species.length));
+  const descendants = (node) => node.kind === 'species' ? [node.species] : node.children.flatMap(descendants);
+  for (let i = 0; i < phyla.length; i++) {
+    const node = phyla[i], section = sections[i];
+    assert.equal(section.getAttribute('aria-label'), node.taxon.zhName);
+    const cards = [...section.querySelectorAll('.taxonomy-portrait')];
+    assert.equal(cards.length, node.children.length);
+    node.children.forEach((child, index) => {
+      const card = cards[index];
+      assert.equal(card.querySelector('strong').textContent, child.taxon.zhName);
+      assert.equal(card.querySelector('small').textContent, { class: '纲', order: '目', family: '科', genus: '属' }[child.rank]);
+      const image = card.querySelector('.atlas-image__photo');
+      assert.ok(descendants(child).some((item) => item.media.image === image.getAttribute('src')));
+      assert.equal(image.loading || image.getAttribute('loading'), 'lazy');
+      assert.match(card.textContent, /图中：/);
+    });
   }
-  const speciesTile = document.querySelector('.exploration-tile');
-  assert.equal(speciesTile.getAttribute('aria-pressed'), 'false');
-  await act(() => speciesTile.focus());
-  await act(() => speciesTile.click());
-  assert.equal(document.querySelector('.exploration-tile.is-selected').getAttribute('aria-pressed'), 'true');
-  assert.equal(document.querySelector('.exploration-list > button').getAttribute('aria-pressed'), 'true');
-  assert.match(document.querySelector('.exploration-preview').textContent, /大熊猫/);
+  const chordates = sections.find((section) => section.getAttribute('aria-label') === '脊索动物门');
+  const mammals = [...chordates.querySelectorAll('.taxonomy-portrait')].find((button) => button.querySelector('strong').textContent === '哺乳纲');
+  await act(() => mammals.click());
+  assert.equal(document.querySelector('.exploration-compact__context h3').textContent, '哺乳纲');
+  assert.equal(document.activeElement, document.querySelector('.exploration-compact__context'));
+  const path = document.querySelector('.exploration-breadcrumb').textContent;
+  assert.match(path, /动物界.*脊索动物门.*哺乳纲/);
+  assert.ok(document.querySelectorAll('.taxonomy-collection').length > 1);
+  await act(() => document.querySelector('.exploration-breadcrumb button:last-child').click());
+  assert.equal(document.querySelector('.exploration-compact__context h3').textContent, '脊索动物门');
   await act(() => document.querySelector('.exploration-breadcrumb button').click());
-  assert.equal(document.querySelector('.exploration-preview'), null);
-  assert.equal(document.querySelector('.exploration-taxon-note'), null);
-  assert.ok(document.querySelector('.exploration-compact__welcome'));
-  assert.equal(document.querySelectorAll('.exploration-list > button').length, 2);
+  assert.equal(document.querySelectorAll('.taxonomy-collection').length, phyla.length);
   assert.equal(document.querySelector('.exploration-breadcrumb button:last-child').disabled, true);
+});
+
+test('classification filters keep counts and membership consistent, including missing ranks and covers', async (context) => {
+  const { root, species, AtlasExploration } = await setup(context);
+  const worm = species.find((item) => item.slug === 'kowalevsky-acorn-worm');
+  const missing = { ...worm, taxonomy: { ...worm.taxonomy, class: undefined }, media: { alt: '' } };
+  await act(() => root.render(createElement(AtlasExploration, { items: [missing], mode: 'compact', onOpenSpecies() {} })));
+  assert.equal(document.querySelector('.taxonomy-portrait small').textContent, '科', 'skip unsupported class and order without inventing nodes');
+  assert.ok(document.querySelector('.taxonomy-portrait__missing'));
+  await act(() => document.querySelector('.taxonomy-portrait').click());
+  assert.match(document.querySelector('.exploration-breadcrumb').textContent, /半索动物门.*科/);
+  assert.doesNotMatch(document.querySelector('.exploration-breadcrumb').textContent, /未分类/);
+  await act(() => root.render(createElement(AtlasExploration, { items: species, mode: 'compact', onOpenSpecies() {} })));
+  const selector = document.querySelector('[aria-label="筛选生态环境"]');
+  await act(() => {
+    selector.value = 'marine';
+    selector.dispatchEvent(new window.Event('change', { bubbles: true }));
+  });
+  const marine = species.filter((item) => item.distribution.realms.includes('marine'));
+  assert.equal(document.querySelector('.exploration-compact__context strong').textContent, String(marine.length));
+  assert.equal(document.querySelector('.exploration-breadcrumb button:last-child').disabled, true);
+  const allowedCovers = new Set(marine.map((item) => item.media.image));
+  for (const image of document.querySelectorAll('.taxonomy-portrait .atlas-image__photo')) assert.ok(allowedCovers.has(image.getAttribute('src')));
+  await act(() => [...document.querySelectorAll('button')].find((button) => button.textContent === '清除筛选').click());
+  assert.equal(document.querySelector('.exploration-compact__context strong').textContent, String(species.length));
 });
 
 function mapPointer(map, type, x, y, pointerId = 1, pointerType = 'mouse') {

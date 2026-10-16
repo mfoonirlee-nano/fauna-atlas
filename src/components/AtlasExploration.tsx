@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useId, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { geoGraticule10, geoPath } from 'd3-geo';
-import { ArrowLeft, ArrowUpRight, BookOpen, ChevronRight, Compass, Focus, Globe2, MapPin, Maximize2, Minimize2, Minus, Network, Plus, RotateCcw, Search } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, BookOpen, ChevronRight, Compass, Focus, Globe2, MapPin, Maximize2, Minimize2, Minus, Plus, RotateCcw, Search } from 'lucide-react';
 import type { SpeciesSummary } from '../types/species';
 import { buildTaxonomyTree, getSpeciesTaxonomyPath, type TaxonomyTreeNode } from '../domain/taxonomy';
-import { clusterSpecies, layoutTaxonomyTiles, mapProjection, projectSpecies, searchExploration } from '../domain/atlas-exploration';
+import { clusterSpecies, mapProjection, projectSpecies, searchExploration } from '../domain/atlas-exploration';
 import { useMapCamera } from '../hooks/useMapCamera';
 import { fitMapPoints, mapPoint, worldCamera, type MapCamera } from '../domain/map-camera';
 import { AtlasImage } from './AtlasImage';
@@ -253,44 +253,40 @@ function nodeName(node: TaxonomyTreeNode) {
   return node.kind === 'taxon' ? node.taxon.zhName : node.species.names.zh;
 }
 
-function tileTone(node: TaxonomyTreeNode) {
-  let hash = 0;
-  for (const letter of node.key) hash = (hash * 31 + letter.charCodeAt(0)) >>> 0;
-  return hash % 5;
+function representativeSpecies(node: TaxonomyTreeNode): SpeciesSummary {
+  if (node.kind === 'species') return node.species;
+  // Prefer an existing cover, without loading complete species profiles.
+  const candidates = node.children.map(representativeSpecies);
+  return candidates.find((item) => item.media.image) ?? candidates[0]!;
 }
 
-function sampleSpecies(node: TaxonomyTreeNode, limit = 3): SpeciesSummary[] {
-  if (node.kind === 'species') return [node.species];
-  const samples: SpeciesSummary[] = [];
-  for (const child of node.children) {
-    samples.push(...sampleSpecies(child, limit - samples.length));
-    if (samples.length >= limit) break;
-  }
-  return samples;
+function TaxonomyPortrait({ node, onActivate }: { node: TaxonomyTreeNode; onActivate: () => void }) {
+  const animal = representativeSpecies(node);
+  return <button type="button" className="taxonomy-portrait" onClick={onActivate}
+    aria-label={node.kind === 'taxon' ? `探索${nodeName(node)}，${ranks[node.rank]}，已收录 ${node.speciesCount} 个物种` : `打开${nodeName(node)}物种档案`}>
+    <span className="taxonomy-portrait__image">
+      {animal.media.image
+        ? <AtlasImage src={animal.media.image} alt={animal.media.alt || animal.names.zh} loading="lazy" decoding="async" />
+        : <span className="taxonomy-portrait__missing"><BookOpen size={28} /><span>暂无图片</span></span>}
+    </span>
+    <span className="taxonomy-portrait__body">
+      <span className="taxonomy-portrait__name"><strong>{nodeName(node)}</strong><small>{ranks[node.rank]}</small></span>
+      <i lang="la">{node.kind === 'taxon' ? node.taxon.scientificName : animal.scientificName}</i>
+      <span className="taxonomy-portrait__example">{node.kind === 'taxon' ? `图中：${animal.names.zh}` : animal.distribution.regions.join('、')}</span>
+      <span className="taxonomy-portrait__action">{node.kind === 'taxon' ? `已收录 ${node.speciesCount} 个物种` : '打开物种档案'}<ArrowUpRight size={15} aria-hidden="true" /></span>
+    </span>
+  </button>;
 }
 
 function CompactTaxonomy({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
   const tree = useMemo(() => buildTaxonomyTree(items), [items]);
   const overviewKeys = tree.length === 1 ? [tree[0]!.key] : [];
   const [focusKeys, setFocusKeys] = useState<string[]>(() => overviewKeys);
-  const [selectedSlug, setSelectedSlug] = useState<string>();
-  const [previewKey, setPreviewKey] = useState<string>();
-  const [size, setSize] = useState({ width: 800, height: 480 });
-  const surface = useRef<HTMLDivElement | null>(null);
+  const heading = useRef<HTMLDivElement>(null);
   const previousPath = useRef(focusKeys.join('/'));
-  // Callback ref cleans up its observer when React detaches the surface.
-  const measure = useCallback((element: HTMLDivElement | null) => {
-    surface.current = element;
-    if (!element) return;
-    const observer = new ResizeObserver(([entry]) => {
-      if (entry) setSize({ width: Math.max(1, entry.contentRect.width), height: Math.max(1, entry.contentRect.height) });
-    });
-    observer.observe(element);
-    return () => observer.disconnect();
-  }, []);
   useEffect(() => {
     const pathKey = focusKeys.join('/');
-    if (previousPath.current !== pathKey) surface.current?.focus({ preventScroll: true });
+    if (previousPath.current !== pathKey) heading.current?.focus();
     previousPath.current = pathKey;
   }, [focusKeys]);
   let children: readonly TaxonomyTreeNode[] = tree;
@@ -300,20 +296,14 @@ function CompactTaxonomy({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
     if (!node || node.kind === 'species') break;
     trail.push(node); children = node.children;
   }
-  const tiles = useMemo(() => layoutTaxonomyTiles(children, size.width, size.height), [children, size]);
-  const selected = items.find((item) => item.slug === selectedSlug);
   const current = trail.at(-1);
   const currentCount = children.reduce((sum, node) => sum + node.speciesCount, 0);
-  const preview = children.find((node) => node.key === previewKey);
-  const previewSpecies = selected && (!preview || (preview.kind === 'species' && preview.species.slug === selected.slug)) ? selected : undefined;
-  const navigate = (keys: string[]) => {
-    setFocusKeys(keys); setSelectedSlug(undefined); setPreviewKey(undefined);
+  const isOverview = trail.length === overviewKeys.length;
+  const navigate = (keys: string[]) => setFocusKeys(keys);
+  const activate = (node: TaxonomyTreeNode, parent?: TaxonomyTreeNode) => {
+    if (node.kind === 'species') onOpenSpecies(node.species);
+    else navigate([...trail.map((entry) => entry.key), ...(parent ? [parent.key] : []), node.key]);
   };
-  const activate = (node: TaxonomyTreeNode) => {
-    if (node.kind === 'species') { setSelectedSlug(node.species.slug); setPreviewKey(node.key); }
-    else navigate([...trail.map((entry) => entry.key), node.key]);
-  };
-  const inspect = (node: TaxonomyTreeNode) => { setPreviewKey(node.key); };
   return <div className="exploration-compact">
     <nav className="exploration-breadcrumb" aria-label="当前分类路径">
       <button type="button" onClick={() => navigate(overviewKeys)}>动物总览</button>
@@ -321,57 +311,28 @@ function CompactTaxonomy({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
         aria-current={index === trail.length - 1 ? 'location' : undefined}
         onClick={() => navigate(trail.slice(0, index + 1).map((entry) => entry.key))}>
         <ChevronRight size={12} aria-hidden="true" />{nodeName(node)}<small>{ranks[node.rank]}</small></button>)}
-      <button type="button" disabled={trail.length <= overviewKeys.length} onClick={() => navigate(trail.slice(0, -1).map((node) => node.key))}><ArrowLeft size={14} /> 返回上一级</button>
+      <button type="button" disabled={isOverview} onClick={() => navigate(trail.slice(0, -1).map((node) => node.key))}><ArrowLeft size={14} /> 返回上一级</button>
     </nav>
-    <div className="exploration-compact__context" aria-live="polite">
-      <div><span className="exploration-compact__symbol"><Network size={22} /></span><div>
-        <h3>{current ? nodeName(current) : '动物总览'}<small>{current ? ranks[current.rank] : '总览'}</small></h3>
-        <p>{current?.kind === 'taxon' ? <i lang="la">{current.taxon.scientificName}</i> : '从这里开始，看看动物如何归类'}</p>
-      </div></div>
-      <span><strong>{currentCount}</strong> 个物种 <span aria-hidden="true">·</span> {children.length} 个{children.every((node) => node.kind === 'species') ? '物种档案' : '分类单元'}</span>
-    </div>
-    <div className="exploration-body">
-      <div className="exploration-tiles" ref={measure} tabIndex={-1} aria-label="按已收录物种数量划分面积的分类总览">
-        {tiles.map((tile) => {
-          const node = tile.node;
-          const isSelected = node.kind === 'species' && selectedSlug === node.species.slug;
-          const small = tile.width < 110 || tile.height < 85;
-          const tiny = tile.width < 64 || tile.height < 38;
-          return <button type="button" key={node.key}
-            className={`exploration-tile exploration-tile--${tileTone(node)}${small ? ' exploration-tile--small' : ''}${tiny ? ' exploration-tile--tiny' : ''}${previewKey === node.key ? ' is-highlighted' : ''}${isSelected ? ' is-selected' : ''}`}
-            style={{ left: tile.x, top: tile.y, width: tile.width, height: tile.height }}
-            aria-label={`${nodeName(node)}，${ranks[node.rank]}，${node.speciesCount} 个物种`}
-            aria-pressed={node.kind === 'species' ? isSelected : undefined}
-            title={`${nodeName(node)} · ${node.speciesCount} 个物种`}
-            onPointerEnter={() => inspect(node)} onFocus={() => inspect(node)} onClick={() => activate(node)}>
-            <span className="exploration-tile__top"><small>{ranks[node.rank]}</small><span>{node.speciesCount}<em> 个物种</em></span></span>
-            <span className="exploration-tile__name"><strong>{nodeName(node)}</strong><i lang="la">{node.kind === 'taxon' ? node.taxon.scientificName : node.species.scientificName}</i></span>
-            <span className="exploration-tile__action">{node.kind === 'taxon' ? '进去看看' : '认识这个物种'}<ArrowUpRight size={15} /></span>
-            {node.kind === 'taxon' ? <Network className="exploration-tile__drawing" aria-hidden="true" /> : <BookOpen className="exploration-tile__drawing" aria-hidden="true" />}
-          </button>;
-        })}
+    <div className="exploration-compact__context" ref={heading} tabIndex={-1}>
+      <div><p>{isOverview ? '从门开始，认识动物的分类组成' : '沿着分类归属，继续探索'}</p>
+        <h3>{isOverview ? '动物总览' : current ? nodeName(current) : '动物总览'}</h3>
+        {!isOverview && current?.kind === 'taxon' && <i lang="la">{current.taxon.scientificName}</i>}
       </div>
-      <aside className="exploration-sidebar">
-        <div className="exploration-sidebar__heading"><span>{children.every((node) => node.kind === 'species') ? '认识这些物种' : '选择一个分类单元'} <small>{children.length}</small></span><Network size={15} /></div>
-        <div className="exploration-list">{children.map((node) => <button type="button" key={node.key}
-          className={`${previewKey === node.key ? 'is-highlighted' : ''} exploration-compact__row--${tileTone(node)}`}
-          aria-pressed={node.kind === 'species' ? selectedSlug === node.species.slug : undefined}
-          onPointerEnter={() => inspect(node)} onFocus={() => inspect(node)} onClick={() => activate(node)}>
-          <span className="exploration-compact__rank">{ranks[node.rank]}</span>
-          <span className="exploration-compact__name">{nodeName(node)}<i lang="la">{node.kind === 'taxon' ? node.taxon.scientificName : node.species.scientificName}</i></span>
-          <span className="exploration-compact__count">{node.speciesCount}<ChevronRight size={13} /></span>
-        </button>)}</div>
-        <div className="exploration-compact__preview">
-          {previewSpecies ? <SpeciesPreview item={previewSpecies} onOpenSpecies={onOpenSpecies} /> : preview ? <div className="exploration-taxon-note" key={preview.key}>
-            <span>{ranks[preview.rank]} · {preview.speciesCount} 个已收录物种</span>
-            <strong>{nodeName(preview)}</strong>
-            <p>{preview.kind === 'taxon' ? '你可以在这里认识' : '物种档案'}：{sampleSpecies(preview).map((item) => item.names.zh).join('、')}{preview.speciesCount > 3 ? '…' : ''}</p>
-            <button type="button" onClick={() => activate(preview)}>{preview.kind === 'taxon' ? '探索这个分类单元' : '查看物种信息'}<ArrowUpRight size={14} /></button>
-          </div> : <div className="exploration-compact__welcome"><BookOpen size={25} /><strong>挑一块色彩，进去看看</strong><p>大色块里收录了更多物种。悬停或聚焦色块先看介绍，再点按逐级探索。</p></div>}
-        </div>
-      </aside>
+      <p role="status">已收录 <strong>{currentCount}</strong> 个物种 · {children.length} 个{children.every((node) => node.kind === 'species') ? '物种档案' : '分类单元'}</p>
     </div>
-    <p className="exploration-compact__hint"><span><span /> 色块面积对应已收录物种数量</span><span>小色块也可以从列表进入</span></p>
+    <div className="taxonomy-collections" aria-label="分类组成与代表动物">
+      {children.map((node) => node.kind === 'species'
+        ? <TaxonomyPortrait key={node.key} node={node} onActivate={() => activate(node)} />
+        : <section key={node.key} className={`taxonomy-collection${node.children.length > 3 ? ' taxonomy-collection--wide' : ''}`} aria-label={nodeName(node)}>
+          <header className="taxonomy-collection__heading">
+            <div><span>{ranks[node.rank]}</span><h4><button type="button" onClick={() => activate(node)}>{nodeName(node)}<ChevronRight size={18} aria-hidden="true" /></button></h4><i lang="la">{node.taxon.scientificName}</i></div>
+            <p>已收录 <strong>{node.speciesCount}</strong> 个物种</p>
+          </header>
+          <div className="taxonomy-collection__grid">
+            {node.children.map((child) => <TaxonomyPortrait key={child.key} node={child} onActivate={() => activate(child, node)} />)}
+          </div>
+        </section>)}
+    </div>
   </div>;
 }
 
@@ -445,7 +406,7 @@ export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
       role={fullscreenMode === 'page' ? 'dialog' : undefined} aria-modal={fullscreenMode === 'page' ? true : undefined}
       aria-labelledby={fullscreenMode === 'page' ? 'exploration-title' : undefined}>
       <header className="exploration-heading">
-        <div><p>{geography ? 'GEOGRAPHIC ATLAS' : 'TAXONOMY MOSAIC'}</p><h2 id="exploration-title">{geography ? '沿着地图，认识动物' : '一屏看见动物的多样'}</h2></div>
+        <div><p>{geography ? 'GEOGRAPHIC ATLAS' : 'TAXONOMY COLLECTIONS'}</p><h2 id="exploration-title">{geography ? '沿着地图，认识动物' : '从分类，认识动物'}</h2></div>
         <div className="exploration-heading__actions">
           <span aria-live="polite">{results.length} / {items.length} 个物种</span>
           {geography && <button ref={fullscreenButton} type="button" className="exploration-fullscreen-button"
@@ -467,7 +428,7 @@ export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
         : <div className="exploration-empty" role="status">没有找到匹配的动物。试试动物中文名、学名或地区名称。</div>}
       <footer className="exploration-footnote">{geography
         ? '点位仅表示档案的代表位置，不代表完整分布范围或野外观察记录。底图：Natural Earth。'
-        : '点击色块逐级进入分类单元，面包屑可返回。面积表示本图册收录的物种数量；分类归属不表示亲缘远近。'}</footer>
+        : '图片展示分类单元中的代表动物，数量仅统计本图册已收录物种。点击分类继续探索，面包屑可返回；分类归属不表示亲缘远近。'}</footer>
     </div>
   </section>;
 }
