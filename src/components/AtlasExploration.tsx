@@ -1,9 +1,12 @@
-import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useId, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { geoGraticule10, geoPath } from 'd3-geo';
-import { ArrowLeft, ArrowUpRight, BookOpen, ChevronRight, Compass, Globe2, MapPin, Maximize2, Minimize2, Minus, Network, Plus, RotateCcw, Search } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, BookOpen, ChevronRight, Compass, Focus, Globe2, MapPin, Maximize2, Minimize2, Minus, Network, Plus, RotateCcw, Search } from 'lucide-react';
 import type { SpeciesSummary } from '../types/species';
 import { buildTaxonomyTree, getSpeciesTaxonomyPath, type TaxonomyTreeNode } from '../domain/taxonomy';
 import { clusterSpecies, layoutTaxonomyTiles, mapProjection, projectSpecies, searchExploration } from '../domain/atlas-exploration';
+import { useMapCamera } from '../hooks/useMapCamera';
+import { fitMapPoints, mapPoint, worldCamera, type MapCamera } from '../domain/map-camera';
+import { AtlasImage } from './AtlasImage';
 import landJson from '../data/maps/land.geojson?raw';
 import './AtlasExploration.css';
 
@@ -47,134 +50,200 @@ function Geography({ items, onOpenSpecies }: Omit<Props, 'mode'>) {
   const gradientId = useId();
   const [viewName, setViewName] = useState('全球');
   const [hoverKey, setHoverKey] = useState<string>();
-  const [isDragging, setIsDragging] = useState(false);
-  const [zoom, setZoom] = useState(1);
-  const [pan, setPan] = useState({ x: 0, y: 0 });
-  const [clusterKey, setClusterKey] = useState<string>();
+  const controller = useMapCamera();
+  const { svg, camera, interacting, moveTo, zoomTo, current: cameraRef } = controller;
+  const { zoom, x, y } = camera;
+  const speciesList = useRef<HTMLDivElement>(null);
+  const [pointSlugs, setPointSlugs] = useState<readonly string[]>();
   const [selectedSlug, setSelectedSlug] = useState<string>();
-  const drag = useRef<{ x: number; y: number; panX: number; panY: number; moved: boolean; active: boolean } | null>(null);
-  const svg = useRef<SVGSVGElement>(null);
-  const groups = useMemo(() => clusterSpecies(items, zoom), [items, zoom]);
+  // Recluster only at fixed zoom levels; continuous gestures keep marker identities stable.
+  const clusterZoom = 2 ** Math.floor(Math.log2(zoom * controller.viewportScale));
+  const groups = useMemo(() => clusterSpecies(items, clusterZoom), [items, clusterZoom]);
+  const pressedGroup = useRef<typeof groups[number] | undefined>(undefined);
+  const lastTapOnMarker = useRef(false);
   const hoveredGroup = groups.find((group) => group.key === hoverKey);
-  const activeGroup = groups.find((group) => group.key === clusterKey);
-  const list = activeGroup?.items ?? items;
+  const pointSet = useMemo(() => new Set(pointSlugs), [pointSlugs]);
+  const list = useMemo(() => pointSlugs ? items.filter((item) => pointSet.has(item.slug)) : items, [items, pointSlugs, pointSet]);
   const selected = items.find((item) => item.slug === selectedSlug);
-  const mappedCount = groups.reduce((sum, group) => sum + group.items.length, 0);
-  const select = (item: SpeciesSummary) => {
+  const mappedCount = useMemo(() => groups.reduce((sum, group) => sum + group.items.length, 0), [groups]);
+  const selectedPoint = selected && projectSpecies(selected);
+  const navigate = useCallback((next: MapCamera, name = '自由探索') => {
+    setHoverKey(undefined); setViewName(name); moveTo(next);
+  }, [moveTo]);
+  const select = useCallback((item: SpeciesSummary) => {
     setSelectedSlug(item.slug); setHoverKey(undefined);
     const point = projectSpecies(item);
     if (point) {
-      setViewName('物种定位');
-      setPan({ x: (500 - point[0]) * zoom, y: (260 - point[1]) * zoom });
+      const nextZoom = Math.max(2, cameraRef.current.zoom);
+      navigate({ zoom: nextZoom, x: (500 - point[0]) * nextZoom, y: (260 - point[1]) * nextZoom }, '物种定位');
     }
-  };
+  }, [cameraRef, navigate]);
   const changeZoom = (next: number) => {
-    const value = Math.max(1, Math.min(8, next));
-    setPan((current) => value === 1 ? { x: 0, y: 0 } : { x: current.x * value / zoom, y: current.y * value / zoom });
-    setZoom(value); setClusterKey(undefined); setHoverKey(undefined);
-    if (value === 1) setViewName('全球');
+    setHoverKey(undefined); setViewName(next <= 1 ? '全球' : '自由探索'); zoomTo(next);
   };
-  const reset = () => { setZoom(1); setPan({ x: 0, y: 0 }); setClusterKey(undefined); setSelectedSlug(undefined); setHoverKey(undefined); setViewName('全球'); };
+  const reset = () => {
+    navigate(worldCamera, '全球'); setPointSlugs(undefined); setSelectedSlug(undefined);
+  };
   const focusView = (view: typeof mapViews[number]) => {
     if (view.zoom === 1) { reset(); return; }
     const point = mapProjection(view.center as [number, number]);
     if (!point) return;
-    setZoom(view.zoom); setPan({ x: (500 - point[0]) * view.zoom, y: (260 - point[1]) * view.zoom });
-    setClusterKey(undefined); setSelectedSlug(undefined); setHoverKey(undefined); setViewName(view.name);
+    navigate({ zoom: view.zoom, x: (500 - point[0]) * view.zoom, y: (260 - point[1]) * view.zoom }, view.name);
   };
-  const activateGroup = (group: typeof groups[number]) => {
-    setClusterKey(group.key); setSelectedSlug(group.items[0]?.slug); setHoverKey(undefined);
+  const activateGroup = useCallback((group: typeof groups[number]) => {
+    setPointSlugs(group.items.map((item) => item.slug)); setHoverKey(undefined);
+    setSelectedSlug(group.items.length === 1 ? group.items[0]?.slug : undefined);
+  }, []);
+  const fitItems = (values: readonly SpeciesSummary[], maxZoom = 8) => {
+    const points = values.flatMap((item) => { const point = projectSpecies(item); return point ? [{ x: point[0], y: point[1] }] : []; });
+    const next = fitMapPoints(points, maxZoom);
+    if (next) navigate(next, '结果定位');
   };
+  // Filtering updates the catalogue without destroying the camera or gesture listeners.
+  useEffect(() => {
+    setPointSlugs(undefined); setSelectedSlug(undefined); setHoverKey(undefined);
+    pressedGroup.current = undefined;
+    setViewName(cameraRef.current.zoom <= 1 ? '全球' : '自由探索');
+    moveTo(cameraRef.current, false);
+  }, [items, cameraRef, moveTo]);
+  useEffect(() => {
+    if (interacting) { setHoverKey(undefined); setViewName('自由探索'); }
+  }, [interacting]);
+  useEffect(() => {
+    const list = speciesList.current;
+    if (!list) return;
+    const row = list.querySelector<HTMLElement>('[aria-pressed="true"]');
+    if (!row) { list.scrollTop = 0; return; }
+    const top = row.getBoundingClientRect().top - list.getBoundingClientRect().top + list.scrollTop;
+    if (top < list.scrollTop) list.scrollTop = top;
+    else if (top + row.offsetHeight > list.scrollTop + list.clientHeight) list.scrollTop = top + row.offsetHeight - list.clientHeight;
+  }, [selectedSlug, pointSlugs]);
+  // Camera frames should not rebuild the full species list.
+  const rows = useMemo(() => list.map((item) => <button type="button" key={item.slug}
+    className={pointSlugs ? 'exploration-species-card' : undefined}
+    aria-pressed={selectedSlug === item.slug} onClick={() => select(item)}>
+    {pointSlugs ? <span className="exploration-species-card__cover">
+      {item.media.image
+        ? <AtlasImage src={item.media.image} alt={item.media.alt || `${item.names.zh}封面`} loading="lazy" decoding="async" />
+        : <span className="exploration-species-card__missing"><BookOpen size={24} /><span>暂无封面</span></span>}
+    </span> : <span className="exploration-list__pin"><MapPin size={15} /></span>}
+    <span className="exploration-list__name">{pointSlugs ? <strong>{item.names.zh}</strong> : item.names.zh}<i lang="la">{item.scientificName}</i><em>{projectSpecies(item) ? item.distribution.regions[0] : '暂无代表坐标'}</em></span>
+    <ArrowUpRight size={14} className="exploration-list__arrow" />
+  </button>), [list, selectedSlug, select, pointSlugs]);
+  const markers = useMemo(() => groups.map((group) => <g key={group.key} transform={`translate(${group.x} ${group.y})`}
+    data-cluster-key={group.key}
+    className={`exploration-marker${group.items.some((item) => item.slug === selectedSlug || pointSet.has(item.slug)) ? ' is-active' : ''}`}
+    role="button" tabIndex={0} aria-pressed={group.items.some((item) => item.slug === selectedSlug || pointSet.has(item.slug))}
+    aria-label={`${group.items.length} 个物种：${group.items.slice(0, 3).map((item) => item.names.zh).join('、')}`}
+    onPointerEnter={() => { if (!controller.contacts.current.size) setHoverKey(group.key); }} onPointerLeave={() => setHoverKey(undefined)}
+    onFocus={() => {
+      const current = cameraRef.current;
+      const x = 500 + current.x + (group.x - 500) * current.zoom;
+      const y = 260 + current.y + (group.y - 260) * current.zoom;
+      if (x < 30 || x > 970 || y < 30 || y > 490) {
+        navigate({ zoom: current.zoom, x: (500 - group.x) * current.zoom, y: (260 - group.y) * current.zoom });
+      }
+      setHoverKey(group.key);
+    }} onBlur={() => setHoverKey(undefined)}
+    onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); activateGroup(group); } }}>
+    <g className="exploration-marker__symbol">
+      <circle className="exploration-marker__hit" r={26} />
+      <circle className="exploration-marker__halo" r={Math.min(29, 20 + Math.log2(group.items.length + 1) * 2)} />
+      <circle className="exploration-marker__core" r={Math.min(21, 12 + Math.log2(group.items.length + 1) * 2)} />
+      <text textAnchor="middle" dy=".35em">{group.items.length}</text>
+    </g>
+  </g>), [groups, selectedSlug, pointSet, controller.contacts, activateGroup, cameraRef, navigate]);
+
   return <div className="exploration-geography">
     <nav className="exploration-regions" aria-label="地图区域定位">
       <span><Compass size={15} /> 快速定位</span>
       {mapViews.map((view) => <button type="button" key={view.name} aria-pressed={viewName === view.name} onClick={() => focusView(view)}>{view.name}</button>)}
     </nav>
+    <div className="exploration-map-actions">
+      <span>{items.length} 个匹配物种 · {mappedCount} 个可定位</span>
+      <button type="button" disabled={!mappedCount} onClick={() => fitItems(items, 4)}><Focus size={15} />定位全部结果</button>
+      {pointSlugs && list.length > 1 && <button type="button" onClick={() => fitItems(list)}><Plus size={15} />展开所选点位</button>}
+    </div>
     <div className="exploration-body">
-      <div className={`exploration-map${isDragging ? ' is-dragging' : ''}`}>
-        <div className="exploration-map__identity"><Globe2 size={20} /><div><strong>{viewName}</strong><span>代表点位 · {groups.length} 处</span></div></div>
-        <div className="exploration-map__controls" role="group" aria-label="地图缩放">
-          <button type="button" aria-label="放大地图" disabled={zoom === 8} onClick={() => changeZoom(zoom * 2)}><Plus size={18} /></button>
-          <button type="button" aria-label="缩小地图" disabled={zoom === 1} onClick={() => changeZoom(zoom / 2)}><Minus size={18} /></button>
-          <button type="button" aria-label="恢复世界地图" onClick={reset}><RotateCcw size={17} /></button>
-          <span>{zoom}×</span>
+      <div className={`exploration-map${interacting ? ' is-dragging' : ''}`}>
+        <div className="exploration-map__toolbar">
+          <div className="exploration-map__identity"><Globe2 size={20} /><div><strong>{viewName}</strong><span>代表点位 · {groups.length} 处</span></div></div>
+          <div className="exploration-map__controls" role="group" aria-label="地图缩放">
+            <button type="button" aria-label="放大地图" disabled={zoom >= 8} onClick={() => changeZoom(controller.destination.current.zoom * 2)}><Plus size={18} /></button>
+            <button type="button" aria-label="缩小地图" disabled={zoom <= 1} onClick={() => changeZoom(controller.destination.current.zoom / 2)}><Minus size={18} /></button>
+            <button type="button" aria-label="恢复世界地图" onClick={reset}><RotateCcw size={17} /></button>
+            <span>{Number(zoom.toFixed(1))}×</span>
+          </div>
         </div>
-        <svg ref={svg} viewBox="0 0 1000 520" tabIndex={0} aria-label="动物代表分布点地图，可拖动地图并点击聚合点选择物种" onKeyDown={(event) => {
-          if (event.target !== event.currentTarget) return;
-          const directions: Record<string, [number, number]> = { ArrowLeft: [60, 0], ArrowRight: [-60, 0], ArrowUp: [0, 60], ArrowDown: [0, -60] };
-          const offset = directions[event.key];
-          if (offset && zoom > 1) {
+        <svg ref={svg} viewBox="0 0 1000 520" tabIndex={0}
+          style={{ '--map-marker-scale': 1 / (zoom * controller.viewportScale) } as CSSProperties}
+          role="group" aria-label="动物代表分布点地图，可拖动地图并点击聚合点选择物种" aria-describedby={`${gradientId}-help`}
+          {...controller.pointerHandlers}
+          onPointerDown={(event) => {
+            if (!controller.contacts.current.size) {
+              const key = (event.target as Element).closest('.exploration-marker')?.getAttribute('data-cluster-key');
+              pressedGroup.current = groups.find((group) => group.key === key);
+            }
+            controller.pointerHandlers.onPointerDown(event);
+          }}
+          onDoubleClick={(event) => {
+            if ((event.target as Element).closest('.exploration-marker') || (event.detail > 0 && lastTapOnMarker.current)) return;
             event.preventDefault(); setHoverKey(undefined); setViewName('自由探索');
-            setPan((current) => ({ x: Math.max(-500 * zoom, Math.min(500 * zoom, current.x + offset[0])), y: Math.max(-260 * zoom, Math.min(260 * zoom, current.y + offset[1])) }));
-          }
-          if (event.key === '+' || event.key === '=') { event.preventDefault(); changeZoom(zoom * 2); }
-          if (event.key === '-') { event.preventDefault(); changeZoom(zoom / 2); }
-          if (event.key === 'Escape' && !event.currentTarget.closest('.is-fullscreen')) reset();
-        }} onPointerDown={(event) => {
-          if (event.button !== 0) return;
-          drag.current = { x: event.clientX, y: event.clientY, panX: pan.x, panY: pan.y, moved: false, active: true };
-        }} onPointerMove={(event) => {
-          if (!drag.current?.active || zoom === 1) return;
-          const dx = event.clientX - drag.current.x, dy = event.clientY - drag.current.y;
-          if (Math.abs(dx) + Math.abs(dy) < 5 && !drag.current.moved) return;
-          drag.current.moved = true; setIsDragging(true); setHoverKey(undefined); setViewName('自由探索');
-          event.currentTarget.setPointerCapture(event.pointerId);
-          const rect = event.currentTarget.getBoundingClientRect();
-          const scale = Math.max(1000 / rect.width, 520 / rect.height);
-          setPan({ x: Math.max(-500 * zoom, Math.min(500 * zoom, drag.current.panX + dx * scale)),
-            y: Math.max(-260 * zoom, Math.min(260 * zoom, drag.current.panY + dy * scale)) });
-        }} onPointerUp={(event) => {
-          if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId);
-          if (drag.current) drag.current.active = false;
-          setIsDragging(false);
-          // Keep the moved flag through the ensuing click so a drag never selects a point.
-        }} onPointerCancel={() => { drag.current = null; setIsDragging(false); }}>
+            zoomTo(controller.current.current.zoom * (event.shiftKey ? .5 : 2), mapPoint({ x: event.clientX, y: event.clientY }, event.currentTarget.getBoundingClientRect()));
+          }}
+          onClick={(event) => {
+            if (event.detail > 0 && controller.suppressClick.current) { pressedGroup.current = undefined; return; }
+            const key = (event.target as Element).closest('.exploration-marker')?.getAttribute('data-cluster-key');
+            const group = groups.find((entry) => entry.key === key) ?? (event.detail > 0 ? pressedGroup.current : undefined);
+            pressedGroup.current = undefined;
+            lastTapOnMarker.current = Boolean(group);
+            if (group) { activateGroup(group); return; }
+            setPointSlugs(undefined); setSelectedSlug(undefined); setHoverKey(undefined);
+          }}
+          onKeyDown={(event) => {
+            const directions: Record<string, [number, number]> = { ArrowLeft: [60, 0], ArrowRight: [-60, 0], ArrowUp: [0, 60], ArrowDown: [0, -60] };
+            const offset = directions[event.key], current = controller.current.current;
+            if (offset || ['+', '=', '-', 'Home', 'Escape'].includes(event.key)) event.currentTarget.focus({ preventScroll: true });
+            if (offset) { event.preventDefault(); navigate({ ...current, x: current.x + offset[0], y: current.y + offset[1] }); }
+            if (event.key === '+' || event.key === '=') { event.preventDefault(); changeZoom(controller.destination.current.zoom * 2); }
+            if (event.key === '-') { event.preventDefault(); changeZoom(controller.destination.current.zoom / 2); }
+            if (event.key === 'Home' || (event.key === 'Escape' && !event.currentTarget.closest('.is-fullscreen'))) { event.preventDefault(); reset(); }
+          }}>
           <defs>
             <radialGradient id={gradientId}><stop offset="0%" stopColor="#254f50" /><stop offset="100%" stopColor="#102e35" /></radialGradient>
           </defs>
-          <g className="exploration-map__surface" transform={`translate(${500 + pan.x} ${260 + pan.y}) scale(${zoom}) translate(-500 -260)`}>
+          <g className="exploration-map__surface" transform={`translate(${500 + x} ${260 + y}) scale(${zoom}) translate(-500 -260)`}>
             <path className="exploration-ocean" d={spherePath} style={{ fill: `url(#${gradientId})` }} />
             <path className="exploration-graticule" d={gridPath} />
             <path className="exploration-land" d={landPath} />
-            {groups.map((group) => <g key={group.key} transform={`translate(${group.x} ${group.y}) scale(${1 / zoom})`}
-              className={`exploration-marker${activeGroup?.key === group.key || group.items.some((item) => item.slug === selectedSlug) ? ' is-active' : ''}`}
-              role="button" tabIndex={0} aria-pressed={activeGroup?.key === group.key || group.items.some((item) => item.slug === selectedSlug)}
-              aria-label={`${group.items.length} 个物种：${group.items.slice(0, 3).map((item) => item.names.zh).join('、')}`}
-              onPointerEnter={() => { if (!drag.current?.active) setHoverKey(group.key); }} onPointerLeave={() => setHoverKey(undefined)}
-              onFocus={() => setHoverKey(group.key)} onBlur={() => setHoverKey(undefined)}
-              onClick={() => { if (drag.current?.moved) return; activateGroup(group); }}
-              onKeyDown={(event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); activateGroup(group); } }}>
-              <circle className="exploration-marker__halo" r={Math.min(29, 20 + Math.log2(group.items.length + 1) * 2)} />
-              <circle className="exploration-marker__core" r={Math.min(21, 12 + Math.log2(group.items.length + 1) * 2)} />
-              <text textAnchor="middle" dy=".35em">{group.items.length}</text>
-            </g>)}
-            {selected && projectSpecies(selected) && <g className="exploration-selected-point" transform={`translate(${projectSpecies(selected)!.join(' ')}) scale(${1 / zoom})`}>
+            {markers}
+            {selectedPoint && <g className="exploration-selected-point" transform={`translate(${selectedPoint.join(' ')}) scale(${1 / (zoom * controller.viewportScale)})`}>
               <circle r="26" /><circle r="5" />
             </g>}
           </g>
         </svg>
-        {hoveredGroup && <div className="exploration-map__tooltip" role="status">
+        {hoveredGroup && !interacting && <div className="exploration-map__tooltip" role="status">
           <span><MapPin size={13} /> {hoveredGroup.items.length} 个物种 · 代表点位</span>
           <strong>{hoveredGroup.items.slice(0, 3).map((item) => item.names.zh).join('、')}{hoveredGroup.items.length > 3 ? '…' : ''}</strong>
           <small>{hoveredGroup.items[0]?.distribution.regions[0]} · 点按查看物种</small>
         </div>}
-        <div className="exploration-map__legend"><span /> 代表点位 <span /> 已选物种</div>
-        <p className="exploration-map__caption">{mappedCount} 个物种有代表坐标 · {items.length - mappedCount} 个物种暂未标点<br />点按数字查看物种 · 放大后拖动或用方向键移动</p>
+        <div className="exploration-map__footer">
+          <div className="exploration-map__legend"><span /> 代表点位 <span /> 已选物种</div>
+          <p id={`${gradientId}-help`} className="exploration-map__caption">{mappedCount} 个物种有代表坐标 · {items.length - mappedCount} 个物种暂未标点<br />点按数字查看物种 · 点击地图后滚轮缩放 · 双指缩放 / 拖动 · 方向键平移 / + − 缩放</p>
+        </div>
       </div>
-      <aside className="exploration-sidebar">
-        <div className="exploration-sidebar__heading"><span>{activeGroup ? '点位内的物种' : '探索物种'} · {list.length}</span>
-          {activeGroup && <button type="button" onClick={() => setClusterKey(undefined)}>查看全部</button>}</div>
-        <div className="exploration-list">{list.map((item) => <button type="button" key={item.slug}
-          aria-pressed={selected?.slug === item.slug} onClick={() => select(item)}>
-          <span className="exploration-list__pin"><MapPin size={15} /></span>
-          <span className="exploration-list__name">{item.names.zh}<i lang="la">{item.scientificName}</i><em>{projectSpecies(item) ? item.distribution.regions[0] : '暂无代表坐标'}</em></span>
-          <ArrowUpRight size={14} className="exploration-list__arrow" />
-        </button>)}</div>
+      <aside className={`exploration-sidebar${pointSlugs ? ' is-point-selection' : ''}`} aria-label="地图物种列表">
+        <div className="exploration-sidebar__heading"><span>{pointSlugs ? '点位内的物种' : '探索物种'} · {list.length}</span>
+          {pointSlugs && <button type="button" onClick={() => setPointSlugs(undefined)}>查看全部</button>}</div>
+        <div className={`exploration-list${pointSlugs ? ' exploration-species-grid' : ''}`} ref={speciesList}>{rows}
+          {!list.length && <p className="exploration-empty" role="status">没有找到匹配的动物。试试其他名称或清除筛选。</p>}
+        </div>
         {selected ? <div className="exploration-field-note" key={selected.slug}>
-          <div className="exploration-field-note__label"><MapPin size={13} /> 物种定位 <span>{coordinates(selected)}</span></div>
+          <div className="exploration-field-note__label"><MapPin size={13} /> {selectedPoint ? '物种定位' : '未标点档案'} <span>{coordinates(selected)}</span></div>
           <SpeciesPreview item={selected} onOpenSpecies={onOpenSpecies} />
           <div className="exploration-realm-tags">{selected.distribution.realms.map((realm) => <span key={realm}>{realmNames[realm]}</span>)}</div>
-        </div> : <div className="exploration-map__invitation"><Compass size={28} /><strong>从一个点位开始</strong><p>悬停或聚焦数字预览物种，点按后查看地区与档案。</p></div>}
+        </div> : pointSlugs ? <p className="exploration-species-grid__hint" role="status">点按动物图片或名字，查看地区与档案。</p>
+          : <div className="exploration-map__invitation"><Compass size={28} /><strong>从一个点位开始</strong><p>悬停或聚焦数字预览物种，点按后查看地区与档案。</p></div>}
       </aside>
     </div>
   </div>;
@@ -393,9 +462,8 @@ export function AtlasExploration({ items, mode, onOpenSpecies }: Props) {
         </select>
         {(query || realm) && <button type="button" onClick={() => { setQuery(''); setRealm(''); }}>清除筛选</button>}
       </div>
-      {results.length ? geography
-        ? <Geography key={`${query}:${realm}`} items={results} onOpenSpecies={openSpecies} />
-        : <CompactTaxonomy key={`${query}:${realm}`} items={results} onOpenSpecies={openSpecies} />
+      {geography ? <Geography items={results} onOpenSpecies={openSpecies} /> : results.length
+        ? <CompactTaxonomy key={`${query}:${realm}`} items={results} onOpenSpecies={openSpecies} />
         : <div className="exploration-empty" role="status">没有找到匹配的动物。试试动物中文名、学名或地区名称。</div>}
       <footer className="exploration-footnote">{geography
         ? '点位仅表示档案的代表位置，不代表完整分布范围或野外观察记录。底图：Natural Earth。'
