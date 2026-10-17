@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Generate one landscape naturalistic wildlife educational image for Fauna Atlas species cover. A domesticated Asian water buffalo (Bubalus bubalis), dark slate skin, sparse hair, broad muzzle, crescent horns sweeping laterally and backward, standing in a green rural wet meadow in southern China. Entire animal including both horn tips, all hooves and tail visible. Main animal occupies right side with silhouette bounded approximately by x=43%-94%, y=17%-85%; center near 69% width. Left 40% is quiet softly blurred meadow for separate website copy. Large clear subject, anatomically plausible, soft morning light, documentary photography style but no text, no watermark, no border. Single full body buffalo, no people.",
+      "sourceSha256": "4acf3013809626f595b5fa413698f5933586c150b1a389cf7677a4fc5d44fe4d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "581a44be5c41611a0da5555a3816bf8f89063bc2e5add2eee0d3c2cc543f9472",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Scientific-educational naturalistic animal atlas image, documentary photography style, landscape. Anatomically accurate, natural colors and lighting, no text, borders or watermark. Domestic Asian water buffalo Bubalus bubalis, head and upper body close view showing widely separated horn bases and laterally curving horns, dark sparse haired skin, grassy farm background; keep both horns fully visible.",
+      "sourceSha256": "2e3d370c6f6b91e4f77d7cc710fbee8be45c1014f3e35bc2c4de39b5e85ea2e9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0dc236df0c87c7d1920c760cf1a9bc59ad2e111de46ceed16e5fa0a343a7a978",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Scientific-educational naturalistic animal atlas image, documentary photography style, landscape. Anatomically accurate, natural colors and lighting, no text, borders or watermark. Domestic Asian water buffalo Bubalus bubalis full body grazing on meadow grass, mouth near grass, curved horns and all hooves visible.",
+      "sourceSha256": "d0ae5d8eab03726bade26880fecc090b1036d9eb466c021c71570197db187da7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "63c55ede3435adb00f57054c5d7446accd7970b735b90d2891793b1a0c90d028",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Scientific-educational naturalistic animal atlas image, documentary photography style, landscape. Anatomically accurate, natural colors and lighting, no text, borders or watermark. Domestic Asian water buffalo Bubalus bubalis resting partly submerged in a shallow muddy wallow on a rural farm. Head and horns above water. Quiet shaded background.",
+      "sourceSha256": "6a9be65e71b93913153053b89c2a89f5ce0d887f4ef3445d1eec4274e0c30ec6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f17944f867ab6648ed1309d25aa7a013e376b5081ccdb11060ee37c779bbde2a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Scientific-educational naturalistic animal atlas image, documentary photography style, landscape. Anatomically accurate, natural colors and lighting, no text, borders or watermark. Domestic Asian water buffalo Bubalus bubalis cow and one small calf standing side by side in a meadow. Natural size difference, full bodies, young calf has tiny horn buds.",
+      "sourceSha256": "06aaf8774a1dda196f9aef2fdf4d630ac41a80906549ab09ec69e5f771ad5154",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2743c432050a71194dfb884547b8ab36927210a70af8287032df91721a4ceadb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Scientific-educational naturalistic animal atlas image, documentary photography style, landscape. Anatomically accurate, natural colors and lighting, no text, borders or watermark. Domestic Asian water buffalo Bubalus bubalis lying resting on dry grass under a shade tree, head raised, full horns and folded legs visible.",
+      "sourceSha256": "fa18820b931d32216f050197191be3b37a4ccf755016f00bad03f1a29ee7fde9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a212a55c6b3235c5406d456034213f54f4f91457f51c08fa18a9c4e8e792e2dd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

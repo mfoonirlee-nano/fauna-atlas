@@ -1,0 +1,103 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Djungarian hamster (Phodopus sungorus) cover composition only. Preserve its round grey-brown body, dorsal stripe, short tail, small ears and natural steppe habitat. Move the entire animal right and reduce uniformly a little, so ALL of its pixels including the longest fine whiskers fit between x=720 and x=1460 of the 1536px wide image. All feet, ears, tail and whisker tips fully visible with real background margins. Left 45% is quiet blurred natural habitat without animal parts. Keep the animal prominent and natural proportions. No text or watermark.",
+      "sourceSha256": "74ac87d151f9f663570c7d9855ec17e1dfafeb7c03c815789e5223d9e93fafd9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "74186098870d74a8a68f625a098b490a4f6ca683c70bd02fb438e8c5e23dbe9f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Phodopus sungorus Djungarian hamster, compact round grey-brown body, single dark dorsal stripe, white underside, small rounded ears, furry feet, tiny short tail; NOT a Syrian hamster. Scene: whole animal three-quarter side view on steppe sandy ground with sparse grasses. COVER: entire subject including all visible toes, hooves, ears, antler tips and complete tail must fit inside x=44%-94%, y=12%-88%. Put subject on RIGHT, center at 70% width. Left 40% quiet blurred environment. Large prominent subject with generous background clearance around every extremity.",
+      "editInputSha256": "1018eaedfa88f65932e61803ec1e4f27f4ff0981c0ffdf382264cadf61cecdcf",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        590,
+        225,
+        1460,
+        775
+      ],
+      "revisionReason": "Initial fine whiskers extended into the left 40%; regenerate with the complete subject moved right and uniformly reduced."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Phodopus sungorus Djungarian hamster, compact round grey-brown body, single dark dorsal stripe, white underside, small rounded ears, furry feet, tiny short tail; NOT a Syrian hamster. Scene: oblique dorsal close view highlighting the single dark back stripe and white flanks. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "71dd695cddce67beaa2f9cef3809c734bb3c76fe9ba66697043bbdb0c570a4f4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7070cfc3b5bb751dc6d23335794bd787426fe9c10d4687d3849f4e1d6ee19ffd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Phodopus sungorus Djungarian hamster, compact round grey-brown body, single dark dorsal stripe, white underside, small rounded ears, furry feet, tiny short tail; NOT a Syrian hamster. Scene: holding a small grass seed with forepaws, slightly full cheeks, no exaggerated bulging. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "240c8a99ded88c14805dadf0822a85d653b3f7fa5bcba76ee2eb305238240a86",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6da59dfb21f8db2edd6059c16a714f168bb25e7741cf89638c00f9491f1ff6a8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Phodopus sungorus Djungarian hamster, compact round grey-brown body, single dark dorsal stripe, white underside, small rounded ears, furry feet, tiny short tail; NOT a Syrian hamster. Scene: at the entrance of a small ground burrow at dusk. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "8bf2276325a537507ebbd3d4af366a9d7cf253764da3076db2e29af869f5e57a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7d68c70d412f1d751ce236841555a2f24ef7249bac7150b3a080a22ed1257da0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Phodopus sungorus Djungarian hamster, compact round grey-brown body, single dark dorsal stripe, white underside, small rounded ears, furry feet, tiny short tail; NOT a Syrian hamster. Scene: one winter-coated mostly white individual with a faint dorsal stripe on sparse snowy steppe. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "ade2fe5ea379ac7f71d547c48c923a20cd9db1a833dfa89527727e47e6fc92e9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1a843fe78eef0117fd31ae0849e717f0becabaa4168bf0e051f4bf9f1fa5bfae",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Phodopus sungorus Djungarian hamster, compact round grey-brown body, single dark dorsal stripe, white underside, small rounded ears, furry feet, tiny short tail; NOT a Syrian hamster. Scene: one fully furred juvenile hamster on dry grass near a burrow, no adult. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "f297e60387f17836714c6af3188d0ec94670f6f57422b599250d52d51ea5b472",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "cac750ee5e87231c5347f1be7596abd4ac47e8eb1f47a749dd6997dbdad5e03d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

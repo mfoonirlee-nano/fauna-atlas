@@ -1,0 +1,682 @@
+[
+  {
+    "query": "Phodopus sungorus",
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=100&q=Phodopus%20sungorus",
+    "response": {
+      "offset": 0,
+      "limit": 100,
+      "endOfRecords": true,
+      "count": 2,
+      "results": [
+        {
+          "key": 176673683,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 2437845,
+          "parentKey": 340223614,
+          "parent": "Phodopus",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "CRICETIDAE",
+          "genus": "Phodopus",
+          "species": "Phodopus sungorus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340223541,
+          "genusKey": 340223614,
+          "speciesKey": 176673683,
+          "scientificName": "Phodopus sungorus (Pallas, 1773)",
+          "canonicalName": "Phodopus sungorus",
+          "authorship": "(Pallas, 1773)",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "ACCEPTED",
+          "rank": "SPECIES",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "17037",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [
+            "LEAST_CONCERN"
+          ],
+          "descriptions": [],
+          "vernacularNames": [
+            {
+              "vernacularName": "Dzhungarian Hamster",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Dzhungarskii Homyachok",
+              "language": "rus"
+            }
+          ],
+          "synonym": false,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340223541": "CRICETIDAE",
+            "340223614": "Phodopus"
+          },
+          "class": "MAMMALIA"
+        },
+        {
+          "key": 176673672,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 5786970,
+          "parentKey": 323992,
+          "parent": "Phodopus",
+          "acceptedKey": 176673670,
+          "accepted": "Phodopus campbelli (Thomas, 1905)",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "CRICETIDAE",
+          "genus": "Phodopus",
+          "species": "Phodopus campbelli",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340223541,
+          "genusKey": 340223614,
+          "speciesKey": 176673670,
+          "scientificName": "Phodopus sungorus subsp. tuvinicus Gromov & Baranova, 1981",
+          "canonicalName": "Phodopus sungorus tuvinicus",
+          "authorship": "Gromov & Baranova, 1981",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "SYNONYM",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "17035_2",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [],
+          "descriptions": [],
+          "vernacularNames": [],
+          "synonym": true,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340223541": "CRICETIDAE",
+            "340223614": "Phodopus",
+            "176673670": "Phodopus campbelli",
+            "323992": "Phodopus"
+          },
+          "class": "MAMMALIA"
+        }
+      ],
+      "facets": []
+    }
+  },
+  {
+    "query": "Mus musculus",
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=100&q=Mus%20musculus",
+    "response": {
+      "offset": 0,
+      "limit": 100,
+      "endOfRecords": true,
+      "count": 3,
+      "results": [
+        {
+          "key": 176677922,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 7429082,
+          "parentKey": 340224586,
+          "parent": "Mus",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "MURIDAE",
+          "genus": "Mus",
+          "species": "Mus musculus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340224175,
+          "genusKey": 340224586,
+          "speciesKey": 176677922,
+          "scientificName": "Mus musculus Linnaeus, 1758",
+          "canonicalName": "Mus musculus",
+          "authorship": "Linnaeus, 1758",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "ACCEPTED",
+          "rank": "SPECIES",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "13972",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [
+            "LEAST_CONCERN"
+          ],
+          "descriptions": [],
+          "vernacularNames": [
+            {
+              "vernacularName": "House Mouse",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Souris domestique",
+              "language": "fra"
+            },
+            {
+              "vernacularName": "Topolino delle case",
+              "language": "ita"
+            },
+            {
+              "vernacularName": "Ratón Casero",
+              "language": "spa"
+            }
+          ],
+          "synonym": false,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340224175": "MURIDAE",
+            "340224586": "Mus"
+          },
+          "class": "MAMMALIA"
+        },
+        {
+          "key": 176677924,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 4409155,
+          "parentKey": 316808,
+          "parent": "Mus",
+          "acceptedKey": 176677922,
+          "accepted": "Mus musculus Linnaeus, 1758",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "MURIDAE",
+          "genus": "Mus",
+          "species": "Mus musculus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340224175,
+          "genusKey": 340224586,
+          "speciesKey": 176677922,
+          "scientificName": "Mus domesticus Rutty, 1772",
+          "canonicalName": "Mus domesticus",
+          "authorship": "Rutty, 1772",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "SYNONYM",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "13972_2",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [],
+          "descriptions": [],
+          "vernacularNames": [],
+          "synonym": true,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340224175": "MURIDAE",
+            "340224586": "Mus",
+            "176677922": "Mus musculus",
+            "316808": "Mus"
+          },
+          "class": "MAMMALIA"
+        },
+        {
+          "key": 176677926,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 5786695,
+          "parentKey": 316808,
+          "parent": "Mus",
+          "acceptedKey": 176677922,
+          "accepted": "Mus musculus Linnaeus, 1758",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "MURIDAE",
+          "genus": "Mus",
+          "species": "Mus musculus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340224175,
+          "genusKey": 340224586,
+          "speciesKey": 176677922,
+          "scientificName": "Mus abbotti Waterhouse, 1837",
+          "canonicalName": "Mus abbotti",
+          "authorship": "Waterhouse, 1837",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "SYNONYM",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "13972_1",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [],
+          "descriptions": [],
+          "vernacularNames": [],
+          "synonym": true,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340224175": "MURIDAE",
+            "340224586": "Mus",
+            "176677922": "Mus musculus",
+            "316808": "Mus"
+          },
+          "class": "MAMMALIA"
+        }
+      ],
+      "facets": []
+    }
+  },
+  {
+    "query": "Rattus norvegicus",
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=100&q=Rattus%20norvegicus",
+    "response": {
+      "offset": 0,
+      "limit": 100,
+      "endOfRecords": true,
+      "count": 5,
+      "results": [
+        {
+          "key": 176677210,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 2439261,
+          "parentKey": 340224380,
+          "parent": "Rattus",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "MURIDAE",
+          "genus": "Rattus",
+          "species": "Rattus norvegicus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340224175,
+          "genusKey": 340224380,
+          "speciesKey": 176677210,
+          "scientificName": "Rattus norvegicus (Berkenhout, 1769)",
+          "canonicalName": "Rattus norvegicus",
+          "authorship": "(Berkenhout, 1769)",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "ACCEPTED",
+          "rank": "SPECIES",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "19353",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [
+            "LEAST_CONCERN"
+          ],
+          "descriptions": [],
+          "vernacularNames": [
+            {
+              "vernacularName": "Brown Rat",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Common Rat",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Domestic Rat",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Fancy Rat",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Lab Rat",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Norway Rat",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Sewer Rat",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Rat surmulot",
+              "language": "fra"
+            },
+            {
+              "vernacularName": "Pasyuk",
+              "language": "rus"
+            },
+            {
+              "vernacularName": "Seraya Krysa",
+              "language": "rus"
+            },
+            {
+              "vernacularName": "Rata de Noruega",
+              "language": "spa"
+            }
+          ],
+          "synonym": false,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340224175": "MURIDAE",
+            "340224380": "Rattus"
+          },
+          "class": "MAMMALIA"
+        },
+        {
+          "key": 176677212,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 5786773,
+          "parentKey": 312735,
+          "parent": "Rattus",
+          "acceptedKey": 176677210,
+          "accepted": "Rattus norvegicus (Berkenhout, 1769)",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "MURIDAE",
+          "genus": "Rattus",
+          "species": "Rattus norvegicus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340224175,
+          "genusKey": 340224380,
+          "speciesKey": 176677210,
+          "scientificName": "Rattus decimallus Pallas, 1779",
+          "canonicalName": "Rattus decimallus",
+          "authorship": "Pallas, 1779",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "SYNONYM",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "19353_4",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [],
+          "descriptions": [],
+          "vernacularNames": [],
+          "synonym": true,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340224175": "MURIDAE",
+            "340224380": "Rattus",
+            "176677210": "Rattus norvegicus",
+            "312735": "Rattus"
+          },
+          "class": "MAMMALIA"
+        },
+        {
+          "key": 176677215,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 5786774,
+          "parentKey": 312735,
+          "parent": "Rattus",
+          "acceptedKey": 176677210,
+          "accepted": "Rattus norvegicus (Berkenhout, 1769)",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "MURIDAE",
+          "genus": "Rattus",
+          "species": "Rattus norvegicus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340224175,
+          "genusKey": 340224380,
+          "speciesKey": 176677210,
+          "scientificName": "Rattus caraco Pallas, 1779",
+          "canonicalName": "Rattus caraco",
+          "authorship": "Pallas, 1779",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "SYNONYM",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "19353_2",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [],
+          "descriptions": [],
+          "vernacularNames": [],
+          "synonym": true,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340224175": "MURIDAE",
+            "340224380": "Rattus",
+            "176677210": "Rattus norvegicus",
+            "312735": "Rattus"
+          },
+          "class": "MAMMALIA"
+        },
+        {
+          "key": 176677217,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 4409182,
+          "parentKey": 312735,
+          "parent": "Rattus",
+          "acceptedKey": 176677210,
+          "accepted": "Rattus norvegicus (Berkenhout, 1769)",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "MURIDAE",
+          "genus": "Rattus",
+          "species": "Rattus norvegicus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340224175,
+          "genusKey": 340224380,
+          "speciesKey": 176677210,
+          "scientificName": "Mus norvegicus Berkenhout, 1769",
+          "canonicalName": "Mus norvegicus",
+          "authorship": "Berkenhout, 1769",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "SYNONYM",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "19353_1",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [],
+          "descriptions": [],
+          "vernacularNames": [],
+          "synonym": true,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340224175": "MURIDAE",
+            "340224380": "Rattus",
+            "176677210": "Rattus norvegicus",
+            "312735": "Rattus"
+          },
+          "class": "MAMMALIA"
+        },
+        {
+          "key": 176677214,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 5786772,
+          "parentKey": 312735,
+          "parent": "Rattus",
+          "acceptedKey": 176677210,
+          "accepted": "Rattus norvegicus (Berkenhout, 1769)",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "RODENTIA",
+          "family": "MURIDAE",
+          "genus": "Rattus",
+          "species": "Rattus norvegicus",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223387,
+          "familyKey": 340224175,
+          "genusKey": 340224380,
+          "speciesKey": 176677210,
+          "scientificName": "Rattus caspius Oken, 1816",
+          "canonicalName": "Rattus caspius",
+          "authorship": "Oken, 1816",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "SYNONYM",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "19353_3",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [],
+          "descriptions": [],
+          "vernacularNames": [],
+          "synonym": true,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223387": "RODENTIA",
+            "340224175": "MURIDAE",
+            "340224380": "Rattus",
+            "176677210": "Rattus norvegicus",
+            "312735": "Rattus"
+          },
+          "class": "MAMMALIA"
+        }
+      ],
+      "facets": []
+    }
+  },
+  {
+    "query": "Cervus nippon",
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=100&q=Cervus%20nippon",
+    "response": {
+      "offset": 0,
+      "limit": 100,
+      "endOfRecords": true,
+      "count": 1,
+      "results": [
+        {
+          "key": 176669420,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 2440954,
+          "parentKey": 340223366,
+          "parent": "Cervus",
+          "kingdom": "ANIMALIA",
+          "phylum": "CHORDATA",
+          "order": "ARTIODACTYLA",
+          "family": "CERVIDAE",
+          "genus": "Cervus",
+          "species": "Cervus nippon",
+          "kingdomKey": 340214027,
+          "phylumKey": 340214214,
+          "classKey": 340221458,
+          "orderKey": 340223141,
+          "familyKey": 340223356,
+          "genusKey": 340223366,
+          "speciesKey": 176669420,
+          "scientificName": "Cervus nippon Temminck, 1838",
+          "canonicalName": "Cervus nippon",
+          "authorship": "Temminck, 1838",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "ACCEPTED",
+          "rank": "SPECIES",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "41788",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [
+            "LEAST_CONCERN"
+          ],
+          "descriptions": [],
+          "vernacularNames": [
+            {
+              "vernacularName": "Japan-Sikahirsch",
+              "language": "deu"
+            },
+            {
+              "vernacularName": "Sika-Hirsch",
+              "language": "deu"
+            },
+            {
+              "vernacularName": "Sikahirsch",
+              "language": "deu"
+            },
+            {
+              "vernacularName": "Japanese Sika Deer",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Shansi Sika",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Sika",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Sika Deer",
+              "language": "eng"
+            },
+            {
+              "vernacularName": "Meihua Lu",
+              "language": "zho"
+            }
+          ],
+          "synonym": false,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340214214": "CHORDATA",
+            "340221458": "MAMMALIA",
+            "340223141": "ARTIODACTYLA",
+            "340223356": "CERVIDAE",
+            "340223366": "Cervus"
+          },
+          "class": "MAMMALIA"
+        }
+      ],
+      "facets": []
+    }
+  }
+]

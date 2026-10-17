@@ -1,0 +1,103 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this brown rat (Rattus norvegicus) species cover. Preserve its stocky body, small ears, blunt muzzle, fine whiskers, complete curved tail and natural riverside habitat. Change composition only: uniformly shrink and move the WHOLE animal including every whisker to the right. All animal pixels must fit between x=720 and x=1450 in the 1536px wide landscape image. Keep whole animal prominent, all paws, tail tip, ears and whiskers fully visible. Left 45% quiet softly blurred river background, no animal parts. No text or watermark. Keep natural proportions, do not shorten tail or trim whiskers.",
+      "sourceSha256": "69d9afeab8d183818316c113b94409da6b537ac23d056407f476962e6f0a465d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "573745c6ecd46fa9f3405afbbd5516a14880b7c6a3aaada311a5212182f9555c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Rattus norvegicus brown rat, stocky brown-grey body, blunt muzzle, relatively small round ears, thick scaly tail shorter than head-and-body length. Scene: whole animal side view on a riverbank grassy soil, full curled tail visible. COVER: entire subject including all visible toes, hooves, ears, antler tips and complete tail must fit inside x=44%-94%, y=12%-88%. Put subject on RIGHT, center at 70% width. Left 40% quiet blurred environment. Large prominent subject with generous background clearance around every extremity.",
+      "editInputSha256": "674b003fcda52e1375e0ab22517d1d3a7f9fcc9025e5a82c8c1796b159c300a8",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        515,
+        270,
+        1500,
+        810
+      ],
+      "revisionReason": "Initial fine whiskers extended into the left 40%; regenerate with the complete subject moved right and uniformly reduced."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Rattus norvegicus brown rat, stocky brown-grey body, blunt muzzle, relatively small round ears, thick scaly tail shorter than head-and-body length. Scene: close view head showing small ears, blunt muzzle and long whiskers. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "a34ac8cc24e1404fde1cfcabf034a7cba252518fef2faebd51d34ca4483ef284",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2e502b2a5b2fa19fd0a2a24b82e20f04d5e2fd876eabde90740918311424d7b3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Rattus norvegicus brown rat, stocky brown-grey body, blunt muzzle, relatively small round ears, thick scaly tail shorter than head-and-body length. Scene: adult holding a fallen grain in forepaws on grassy soil, full tail visible. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "a9810999af82b4ec598ba85166a642e736c26e4c071374df3953202484a8b0db",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "16533156ad1ea4e53fd128a702b412086ab4f4e2d2ae5917d6f5a2acae9b5e7f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Rattus norvegicus brown rat, stocky brown-grey body, blunt muzzle, relatively small round ears, thick scaly tail shorter than head-and-body length. Scene: adult near an earthen burrow under roots on a riverbank at dusk. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "f04e81160e7fc946f0cb0b521f4ba6443bfecb6af96ba213b748de8a6b8f830f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1a9272d958a79538b392025491ccd0ae49339984c780bcbc2487a2694a2c5083",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Rattus norvegicus brown rat, stocky brown-grey body, blunt muzzle, relatively small round ears, thick scaly tail shorter than head-and-body length. Scene: adult walking over damp soil beside reeds, full body and tail. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "296c836e609bcc32b0d5d919a0b7cbdf205382fabd9ba6059c15445016784d17",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "364b9664708f2f94d6258f67ce3493106e62f77890bef1f43fc493cc38726f8c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Rattus norvegicus brown rat, stocky brown-grey body, blunt muzzle, relatively small round ears, thick scaly tail shorter than head-and-body length. Scene: one fully furred juvenile rat resting on dry straw beside a sheltered burrow, full tail. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "8260ca5ca5cfe99a3e55867d04c0d5f9525f5c673cab893410425cb6de3345c0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ae8d8ed38a160a0e16ab3392537f74bf090ebaddf2b6dd32055da35579019fc7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

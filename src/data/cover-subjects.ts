@@ -6501,5 +6501,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1290,
       "bottom": 713
     }
+  },
+  "water-buffalo": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 673,
+      "top": 236,
+      "right": 1464,
+      "bottom": 910
+    }
+  },
+  "djungarian-hamster": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 786,
+      "top": 307,
+      "right": 1460,
+      "bottom": 742
+    }
+  },
+  "house-mouse": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 374,
+      "right": 1478,
+      "bottom": 726
+    }
+  },
+  "brown-rat": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 704,
+      "top": 378,
+      "right": 1460,
+      "bottom": 807
+    }
+  },
+  "sika-deer": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 702,
+      "top": 65,
+      "right": 1455,
+      "bottom": 947
+    }
   }
 };

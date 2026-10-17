@@ -1,0 +1,103 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this house mouse species cover. Preserve the naturalistic house mouse anatomy, fine whiskers, complete tail, wooden shed and grass habitat. Change composition only: move the entire mouse including ALL whiskers to the right so its leftmost whisker is at x=720 of a 1536px wide landscape image; keep its rightmost tail tip at or before x=1450, with at least 70px background to the right. Reduce the whole animal uniformly enough to meet those coordinates. Keep it prominent. Left 45 percent must contain only quiet softly blurred grasses and no animal parts. All paws, ears, tail tip and whiskers fully inside the source. No text or watermark.",
+      "sourceSha256": "6b7d9310d3e5f9ecb9381bb60c7ac08ec971230a43e61e1ddbd5dd7cfc0c0d5b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "84193dbf510a0f7e10322681e0bafbfbba7dc4939ebcb7cd5e37a69d5bdcc1c0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Mus musculus house mouse, small slender grey-brown rodent, pointed muzzle, large round ears, long thin sparsely haired scaly tail approximately body length. Scene: whole animal side view on a quiet dry grassy field edge beside an old wooden shed. COVER: entire subject including all visible toes, hooves, ears, antler tips and complete tail must fit inside x=44%-94%, y=12%-88%. Put subject on RIGHT, center at 70% width. Left 40% quiet blurred environment. Large prominent subject with generous background clearance around every extremity.",
+      "editInputSha256": "d293e3e74f8271633a7997b27baf41b3a472284e891f413a2744a0a716967b49",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        535,
+        341,
+        1478,
+        762
+      ],
+      "revisionReason": "Initial fine whiskers extended into the left 40%; regenerate with the complete subject moved right and uniformly reduced."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Mus musculus house mouse, small slender grey-brown rodent, pointed muzzle, large round ears, long thin sparsely haired scaly tail approximately body length. Scene: side view head and whiskers with a little forepaw visible. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "7e7a1dd62a6d3f68cc5c65f2bfbc1cd6bd07ee148d927a7e6d56de76cd99d3fa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "dda30ec1b983483a37d99ee5846f3ba954580e11067e6f3331618ccc21cc9311",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Mus musculus house mouse, small slender grey-brown rodent, pointed muzzle, large round ears, long thin sparsely haired scaly tail approximately body length. Scene: holding a small seed with forepaws, whole body and tail visible. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "33eac43951fadb30b310d8cbfc5db785e8a9c143644d02e532c5e38c47edf14b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "821877928cb147042ed8adf3b8191d5154ca8e92723bc1d7d00c2d16305bfbd4",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Mus musculus house mouse, small slender grey-brown rodent, pointed muzzle, large round ears, long thin sparsely haired scaly tail approximately body length. Scene: walking along base of an old wooden barn wall at dusk, no rubbish. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "422f942d93448b338d08b38d94966b444ea7f54a75ddd8aebe6e1a1dc5abcb00",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "dd4208eaa378df8f812ff50973e55d68c5cbca6d65bface934ed3cb505a27e16",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Mus musculus house mouse, small slender grey-brown rodent, pointed muzzle, large round ears, long thin sparsely haired scaly tail approximately body length. Scene: one adult curled resting in a small nest of dry grass inside a sheltered wooden hollow. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "06dba95dc6527e088c9e9f73790198c5eb22e4231736c8fefb066cfccd47d5fc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9368c7efdf3e34c17ca4627e0364323019b2441c5e14a475cd677f493e6927fd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Mus musculus house mouse, small slender grey-brown rodent, pointed muzzle, large round ears, long thin sparsely haired scaly tail approximately body length. Scene: one fully furred juvenile next to dry straw, full body and tail. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "b74f5559fc6dc3b04ed0e228abfa4a5a947961037796f2eb03d0434e47e965f3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4af06a9be0b57f838855e7344cc69f6b6913e371bf22b7729110ace20a017e2c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

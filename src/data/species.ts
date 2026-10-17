@@ -658,6 +658,12 @@ import profile647 from './species/yellow-pond-turtle.js';
 import profile648 from './species/northern-grass-lizard.js';
 import profile649 from './species/black-spotted-pond-frog.js';
 
+import profile650 from './species/water-buffalo.js';
+import profile651 from './species/djungarian-hamster.js';
+import profile652 from './species/house-mouse.js';
+import profile653 from './species/brown-rat.js';
+import profile654 from './species/sika-deer.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1309,6 +1315,11 @@ export const species: readonly Species[] = [
   profile647,
   profile648,
   profile649,
+  profile650,
+  profile651,
+  profile652,
+  profile653,
+  profile654,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

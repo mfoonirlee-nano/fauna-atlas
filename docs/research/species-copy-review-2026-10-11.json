@@ -30234,6 +30234,215 @@
           ]
         }
       }
+    },
+    {
+      "slug": "water-buffalo",
+      "scientificName": "Bubalus bubalis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fao.org/livestock-systems/global-distributions/buffaloes/en/",
+            "https://www.fao.org/4/v1650t/v1650t0a.htm",
+            "https://www.fao.org/4/t0413e/t0413e10.htm",
+            "https://animaldiversity.org/accounts/Bubalus_bubalis/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fao.org/livestock-systems/global-distributions/buffaloes/en/",
+            "https://www.fao.org/4/v1650t/v1650t0a.htm",
+            "https://www.fao.org/4/t0413e/t0413e10.htm",
+            "https://animaldiversity.org/accounts/Bubalus_bubalis/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/livestock-systems/global-distributions/buffaloes/en/",
+            "https://www.fao.org/4/v1650t/v1650t0a.htm",
+            "https://www.fao.org/4/t0413e/t0413e10.htm",
+            "https://animaldiversity.org/accounts/Bubalus_bubalis/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7422937"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7422937"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "djungarian-hamster",
+      "scientificName": "Phodopus sungorus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://treatment.plazi.org/GgServer/xhtml/03F06D13FFAC2064084213670A9AFC9D",
+            "https://pubmed.ncbi.nlm.nih.gov/3783717/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3864830/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://treatment.plazi.org/GgServer/xhtml/03F06D13FFAC2064084213670A9AFC9D",
+            "https://pubmed.ncbi.nlm.nih.gov/3783717/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3864830/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://treatment.plazi.org/GgServer/xhtml/03F06D13FFAC2064084213670A9AFC9D",
+            "https://pubmed.ncbi.nlm.nih.gov/3783717/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3864830/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2437845",
+            "https://www.mammaldiversity.org/taxon/1002215/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2437845",
+            "https://www.mammaldiversity.org/taxon/1002215/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "house-mouse",
+      "scientificName": "Mus musculus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://animaldiversity.org/accounts/Mus_musculus/",
+            "https://ipm.ucanr.edu/home-and-landscape/house-mouse/",
+            "https://ucanr.edu/county/cooperative-extension-ventura-county/mice"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://animaldiversity.org/accounts/Mus_musculus/",
+            "https://ipm.ucanr.edu/home-and-landscape/house-mouse/",
+            "https://ucanr.edu/county/cooperative-extension-ventura-county/mice"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Mus_musculus/",
+            "https://ipm.ucanr.edu/home-and-landscape/house-mouse/",
+            "https://ucanr.edu/county/cooperative-extension-ventura-county/mice"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7429082"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7429082"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "brown-rat",
+      "scientificName": "Rattus norvegicus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://animaldiversity.org/accounts/Rattus_norvegicus/",
+            "https://ipm.ucanr.edu/home-and-landscape/rats/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://animaldiversity.org/accounts/Rattus_norvegicus/",
+            "https://ipm.ucanr.edu/home-and-landscape/rats/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Rattus_norvegicus/",
+            "https://ipm.ucanr.edu/home-and-landscape/rats/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2439261"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2439261"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sika-deer",
+      "scientificName": "Cervus nippon",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://animaldiversity.org/accounts/Cervus_nippon/",
+            "https://home.nps.gov/articles/yell-horns-vs-antlers.htm"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://animaldiversity.org/accounts/Cervus_nippon/",
+            "https://home.nps.gov/articles/yell-horns-vs-antlers.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Cervus_nippon/",
+            "https://home.nps.gov/articles/yell-horns-vs-antlers.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440954"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440954"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17"

@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Cervus nippon sika deer, reddish-brown summer coat with clear white spots, white rump bordered dark, slender legs, natural East Asian woodland. Scene: adult male with modest branched antlers, full standing body. COVER: entire subject including all visible toes, hooves, ears, antler tips and complete tail must fit inside x=44%-94%, y=12%-88%. Put subject on RIGHT, center at 70% width. Left 40% quiet blurred environment. Large prominent subject with generous background clearance around every extremity.",
+      "sourceSha256": "ad158c868a1ce59c123e11b9119563468aa2a0782d68af5e8c98721b4f9a45f2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e3edbb78fed45df080ea850ac330bcbf4bb1e741f38c063cf882e1cd33e6e985",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Cervus nippon sika deer, reddish-brown summer coat with clear white spots, white rump bordered dark, slender legs, natural East Asian woodland. Scene: adult female without antlers, side view showing white spots. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "0c27b90ece1cfc189905fed6efa304c3dca9c2df986b7f25e880b4804309d477",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1fd5020da72b3ee63c809f73767c8bf27115332eed33f0e21e7a8059fb49b0fd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Cervus nippon sika deer, reddish-brown summer coat with clear white spots, white rump bordered dark, slender legs, natural East Asian woodland. Scene: adult female grazing on grass at a woodland edge, full body. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "057051eac0c66d888b693ae847110a6777849ad6cb4cae8b6c7dd6b722eface6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "59c7eae4ed7cfd7f7cbfd317996fab32a23e5ac9cf2ef6b5dadb13850cafd346",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Cervus nippon sika deer, reddish-brown summer coat with clear white spots, white rump bordered dark, slender legs, natural East Asian woodland. Scene: adult male with soft velvet-covered growing antlers, head and upper body showing both full antlers. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "abe32a76932eb51f9e92048e37ad74716f1ca4510610f2e91178b4cac39b451e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d729d0c121ecb128880f6265d6264575572910031c2175d80d33f23e5fcf43c7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Cervus nippon sika deer, reddish-brown summer coat with clear white spots, white rump bordered dark, slender legs, natural East Asian woodland. Scene: adult female and one spotted fawn standing together in woodland clearing, natural scale. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "6a8222ca1f22e7ff9cf47eaa3eab7f59c7209340581ec8374bb331fdcf44fdaa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6631bac8a92a1352dbd7cf348214d2453912d7fb5f255010f9564a12737395c4",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary wildlife photograph style, landscape 1536x1024, realistic anatomy, no text, watermark, border or humans. Cervus nippon sika deer, reddish-brown summer coat with clear white spots, white rump bordered dark, slender legs, natural East Asian woodland. Scene: one adult male in darker winter coat, subdued spots, full body with branched antlers. Educational observation scene with prominent subject and clear relevant features.",
+      "sourceSha256": "d66ead425b65d033eac5db52a01d039f7720c1e08045136861e360d026cc6e85",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "433489c803fc68de9cef05c5387f4c52ef92152a42056ae4d01b1208e5b89b32",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

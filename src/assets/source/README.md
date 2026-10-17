@@ -929,3 +929,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Yellow Pond Turtle image set](./species/yellow-pond-turtle/README.md)
 - [Northern Grass Lizard image set](./species/northern-grass-lizard/README.md)
 - [Black-spotted Pond Frog image set](./species/black-spotted-pond-frog/README.md)
+
+- [水牛 image set](./species/water-buffalo/README.md)
+- [加卡利亚仓鼠 image set](./species/djungarian-hamster/README.md)
+- [小家鼠 image set](./species/house-mouse/README.md)
+- [褐家鼠 image set](./species/brown-rat/README.md)
+- [梅花鹿 image set](./species/sika-deer/README.md)

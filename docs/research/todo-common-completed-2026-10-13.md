@@ -1,6 +1,6 @@
 # 身边动物制作完成归档
 
-2026-10-17：本轮 100 个选题完成 50 个，待制作 50 个，项目共有 650 份物种档案。爬行与两栖动物见[本批研究及验收](todo-common-reptile-amphibian-five-2026-10-17.md)。四种鱼与草龟见[本批研究及验收](todo-common-fish-turtle-five-2026-10-17.md)。接续淡水动物见[五种研究与验收](todo-common-next-freshwater-five-2026-10-17.md)。淡水鱼见[五种研究与验收](todo-common-freshwater-five-2026-10-16.md)。常见昆虫见[十种研究与验收](todo-common-insect-ten-2026-10-15.md)。湿地鸟类见[本批研究与验收](todo-common-wetland-five-2026-10-15.md)。研究与验收见[首批五种](todo-common-first-five-2026-10-13.md)、[接续五种](todo-common-next-five-2026-10-14.md)和[第三批五种](todo-common-third-five-2026-10-14.md)。
+2026-10-18：本轮 100 个选题完成 55 个，待制作 45 个，项目共有 655 份物种档案。五种哺乳动物见[研究与验收](todo-common-mammals-five-2026-10-17.md)。爬行与两栖动物见[本批研究及验收](todo-common-reptile-amphibian-five-2026-10-17.md)。四种鱼与草龟见[本批研究及验收](todo-common-fish-turtle-five-2026-10-17.md)。接续淡水动物见[五种研究与验收](todo-common-next-freshwater-five-2026-10-17.md)。淡水鱼见[五种研究与验收](todo-common-freshwater-five-2026-10-16.md)。常见昆虫见[十种研究与验收](todo-common-insect-ten-2026-10-15.md)。湿地鸟类见[本批研究与验收](todo-common-wetland-five-2026-10-15.md)。研究与验收见[首批五种](todo-common-first-five-2026-10-13.md)、[接续五种](todo-common-next-five-2026-10-14.md)和[第三批五种](todo-common-third-five-2026-10-14.md)。
 
 - [x] 013 家马（*Equus caballus*）：农场、动物园；马蹄与行走。
 - [x] 014 家驴（*Equus asinus*）：农场、乡间；长耳朵与身体特点。
@@ -64,3 +64,9 @@
 - [x] 063 黄喉拟水龟（*Mauremys mutica*）：水族场所；黄色喉部与水陆活动。
 - [x] 064 北草蜥（*Takydromus septentrionalis*）：草地、灌丛；长尾巴与爬行。
 - [x] 035 黑斑侧褶蛙（*Pelophylax nigromaculatus*）：田野、水边；蝌蚪长出四肢。
+
+- [x] 016 水牛（*Bubalus bubalis*）：农场、乡间；角、皮肤与水边生活。
+- [x] 022 加卡利亚仓鼠（*Phodopus sungorus*）：家庭饲养；颊囊与昼夜活动。
+- [x] 023 小家鼠（*Mus musculus*）：人类居住环境、科普场所；门齿与夜间活动。
+- [x] 024 褐家鼠（*Rattus norvegicus*）：城市、科普场所；感官与适应环境。
+- [x] 025 梅花鹿（*Cervus nippon*）：动物园；斑点与鹿角的生长脱落。
