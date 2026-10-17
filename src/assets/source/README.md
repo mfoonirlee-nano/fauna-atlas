@@ -923,3 +923,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [乌鳢 image set](./species/northern-snakehead/README.md)
 - [尼罗罗非鱼 image set](./species/nile-tilapia/README.md)
 - [草龟 image set](./species/reeves-turtle/README.md)
+
+- [Chinese Softshell Turtle image set](./species/chinese-softshell-turtle/README.md)

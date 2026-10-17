@@ -6451,5 +6451,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1526,
       "bottom": 680
     }
+  },
+  "chinese-softshell-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 430,
+      "right": 1340,
+      "bottom": 749
+    }
   }
 };

@@ -5731,5 +5731,18 @@
       },
       "sha256": "caaebc3926f47c4c8b6d6cdae8bb69486f6a00249ddcfb78206bf22d544a8c08"
     }
+  },
+  "chinese-softshell-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 430,
+        "right": 1340,
+        "bottom": 749
+      },
+      "sha256": "4078df1fbaabfe41c810bf06c2bd92f0dc93dbc95c8b0da71b52c3f7187168af"
+    }
   }
 }

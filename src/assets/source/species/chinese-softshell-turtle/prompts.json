@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this landscape wildlife scene. Keep the same species, anatomy, coloration, pose and natural background. Uniformly reduce the ENTIRE turtle to 74% of its present linear size, reposition complete animal centered x=1110 y=530 on 1536x1024 canvas. All animal pixels must fit x=760 to1450 y=240to820, including nose, every visible claw and complete tail tip. Restore natural background wherever turtle moved. Left 48% quiet water and bank only. Do not crop or cut off tail or feet. Preserve realistic animal, no extra limbs, no text.",
+      "sourceSha256": "6efc49ffd2cdc04c06d2c2fb70d44336c6273d253c3733b2ad5d0740a4bf23f1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4078df1fbaabfe41c810bf06c2bd92f0dc93dbc95c8b0da71b52c3f7187168af",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. One single Pelodiscus sinensis, Chinese softshell turtle. Adult with flat oval olive leathery shell without scutes, soft rim, long flexible neck, small head and tubular nostrils at tip of short snorkel snout, four webbed feet with three claws each, short tail. Not a hard-shelled turtle. COVER COMPOSITION: entire animal and every visible toe, nose and tail tip completely inside image. Place ALL animal pixels within RIGHT HALF, x=800 to 1460 of 1536. Left 48% contains quiet out-of-focus habitat only. Full animal prominent in right half, center near x=1130; generous real background around silhouette. Three quarter side view facing left, resting at natural waterside. No additional animals.",
+      "revisionNote": "Final source uses a built-in image_gen edit of the initial candidate; prompt records the edit instruction."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelodiscus sinensis, Chinese softshell turtle. Adult with flat oval olive leathery shell without scutes, soft rim, long flexible neck, small head and tubular nostrils at tip of short snorkel snout, four webbed feet with three claws each, short tail. Not a hard-shelled turtle. Full adult resting on sandy riverbank, three-quarter dorsal view facing left. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "41f9953318f5a6f9b131c56e52ef5ee260cf09ab0cfa19169e2cedbb1d8fda14",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "806df2ba2a1e772d9d7bf5643c086c2181c912acddc271aefedad249b8db6ef6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelodiscus sinensis, Chinese softshell turtle. Adult with flat oval olive leathery shell without scutes, soft rim, long flexible neck, small head and tubular nostrils at tip of short snorkel snout, four webbed feet with three claws each, short tail. Not a hard-shelled turtle. Side close observation of the tubular snout and extended neck at shallow water surface, no cutaway. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "ffe941c1d1ea143d7945498723caa6a4b26837fc674c693695ad6585a2580ebb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c227430b42f3a4ea3489932a128d76b4fa181edabf8279722fe4a67a1cf8efef",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelodiscus sinensis, Chinese softshell turtle. Adult with flat oval olive leathery shell without scutes, soft rim, long flexible neck, small head and tubular nostrils at tip of short snorkel snout, four webbed feet with three claws each, short tail. Not a hard-shelled turtle. Whole adult swimming over pale sandy bottom, webbed feet visible. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "6003e4518c09a88db57118f0f35a112a833343381642d099c18a2ff6649fbd6c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c0806d7bf524e072276873b97530174ca2c1d60404fb732033990edaf1decd64",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelodiscus sinensis, Chinese softshell turtle. Adult with flat oval olive leathery shell without scutes, soft rim, long flexible neck, small head and tubular nostrils at tip of short snorkel snout, four webbed feet with three claws each, short tail. Not a hard-shelled turtle. Small juvenile on wet sand, flat round leathery shell, proportionately longer tail, no adult shell scutes. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "b37f12edad76f1cf7b12c2dd6980df7b9bb6dd15927ecc88edf75869b0752416",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a7628e5f6cbd06ca3c6132c3e2dd783b2a55bd8247427d7e8b1afa5686bd8ab6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelodiscus sinensis, Chinese softshell turtle. Adult with flat oval olive leathery shell without scutes, soft rim, long flexible neck, small head and tubular nostrils at tip of short snorkel snout, four webbed feet with three claws each, short tail. Not a hard-shelled turtle. Whole adult partly nestled into river sand while head and neck remain visible. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "f602d911a167f56b78c56259daeeb139ade7ebb2d52c2cabe565f392e14ad702",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "50219c40e0101277c6ac99f38fc8c38be54b5cac88b8b6f1bcbec20d30185144",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
