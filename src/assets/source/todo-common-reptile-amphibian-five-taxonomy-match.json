@@ -1,0 +1,259 @@
+[
+  {
+    "query": "Pelodiscus sinensis",
+    "response": {
+      "usageKey": 5220435,
+      "scientificName": "Pelodiscus sinensis Wiegmann, 1835",
+      "canonicalName": "Pelodiscus sinensis",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Trionychidae",
+      "genus": "Pelodiscus",
+      "species": "Pelodiscus sinensis",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11418114,
+      "familyKey": 5469,
+      "genusKey": 7236986,
+      "speciesKey": 5220435,
+      "class": "Testudines"
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Reptilia",
+        "zhName": "爬行纲"
+      },
+      "order": {
+        "scientificName": "Testudines",
+        "zhName": "龟鳖目"
+      },
+      "family": {
+        "scientificName": "Trionychidae",
+        "zhName": "鳖科"
+      },
+      "genus": {
+        "scientificName": "Pelodiscus",
+        "zhName": "鳖属"
+      }
+    },
+    "adoptionNote": "保存原始响应；爬行动物采用 Reptile Database / USFWS 的 Reptilia 纲，龟类采用 Testudines 目，蜥蜴采用 Squamata 目。GBIF 原始响应将龟鳖目或有鳞目列作 class 且缺少 order，不直接照搬到图册。"
+  },
+  {
+    "query": "Mauremys sinensis",
+    "response": {
+      "usageKey": 2443244,
+      "scientificName": "Mauremys sinensis (Gray, 1834)",
+      "canonicalName": "Mauremys sinensis",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Geoemydidae",
+      "genus": "Mauremys",
+      "species": "Mauremys sinensis",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11418114,
+      "familyKey": 5463,
+      "genusKey": 9245902,
+      "speciesKey": 2443244,
+      "class": "Testudines"
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Reptilia",
+        "zhName": "爬行纲"
+      },
+      "order": {
+        "scientificName": "Testudines",
+        "zhName": "龟鳖目"
+      },
+      "family": {
+        "scientificName": "Geoemydidae",
+        "zhName": "地龟科"
+      },
+      "genus": {
+        "scientificName": "Mauremys",
+        "zhName": "拟水龟属"
+      }
+    },
+    "adoptionNote": "保存原始响应；爬行动物采用 Reptile Database / USFWS 的 Reptilia 纲，龟类采用 Testudines 目，蜥蜴采用 Squamata 目。GBIF 原始响应将龟鳖目或有鳞目列作 class 且缺少 order，不直接照搬到图册。"
+  },
+  {
+    "query": "Mauremys mutica",
+    "response": {
+      "usageKey": 2443393,
+      "scientificName": "Mauremys mutica (Cantor, 1842)",
+      "canonicalName": "Mauremys mutica",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Geoemydidae",
+      "genus": "Mauremys",
+      "species": "Mauremys mutica",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11418114,
+      "familyKey": 5463,
+      "genusKey": 9245902,
+      "speciesKey": 2443393,
+      "class": "Testudines"
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Reptilia",
+        "zhName": "爬行纲"
+      },
+      "order": {
+        "scientificName": "Testudines",
+        "zhName": "龟鳖目"
+      },
+      "family": {
+        "scientificName": "Geoemydidae",
+        "zhName": "地龟科"
+      },
+      "genus": {
+        "scientificName": "Mauremys",
+        "zhName": "拟水龟属"
+      }
+    },
+    "adoptionNote": "保存原始响应；爬行动物采用 Reptile Database / USFWS 的 Reptilia 纲，龟类采用 Testudines 目，蜥蜴采用 Squamata 目。GBIF 原始响应将龟鳖目或有鳞目列作 class 且缺少 order，不直接照搬到图册。"
+  },
+  {
+    "query": "Takydromus septentrionalis",
+    "response": {
+      "usageKey": 2468585,
+      "scientificName": "Takydromus septentrionalis Günther, 1864",
+      "canonicalName": "Takydromus septentrionalis",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Lacertidae",
+      "genus": "Takydromus",
+      "species": "Takydromus septentrionalis",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11592253,
+      "familyKey": 5201,
+      "genusKey": 2469687,
+      "speciesKey": 2468585,
+      "class": "Squamata"
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Reptilia",
+        "zhName": "爬行纲"
+      },
+      "order": {
+        "scientificName": "Squamata",
+        "zhName": "有鳞目"
+      },
+      "family": {
+        "scientificName": "Lacertidae",
+        "zhName": "蜥蜴科"
+      },
+      "genus": {
+        "scientificName": "Takydromus",
+        "zhName": "草蜥属"
+      }
+    },
+    "adoptionNote": "保存原始响应；爬行动物采用 Reptile Database / USFWS 的 Reptilia 纲，龟类采用 Testudines 目，蜥蜴采用 Squamata 目。GBIF 原始响应将龟鳖目或有鳞目列作 class 且缺少 order，不直接照搬到图册。"
+  },
+  {
+    "query": "Pelophylax nigromaculatus",
+    "response": {
+      "usageKey": 2426634,
+      "scientificName": "Pelophylax nigromaculatus (Hallowell, 1861)",
+      "canonicalName": "Pelophylax nigromaculatus",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Anura",
+      "family": "Ranidae",
+      "genus": "Pelophylax",
+      "species": "Pelophylax nigromaculatus",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 131,
+      "orderKey": 952,
+      "familyKey": 6746,
+      "genusKey": 2426629,
+      "speciesKey": 2426634,
+      "class": "Amphibia"
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Amphibia",
+        "zhName": "两栖纲"
+      },
+      "order": {
+        "scientificName": "Anura",
+        "zhName": "无尾目"
+      },
+      "family": {
+        "scientificName": "Ranidae",
+        "zhName": "蛙科"
+      },
+      "genus": {
+        "scientificName": "Pelophylax",
+        "zhName": "侧褶蛙属"
+      }
+    },
+    "adoptionNote": "采用 GBIF 与美国自然历史博物馆一致的 Amphibia / Anura / Ranidae / Pelophylax 分类链。"
+  }
+]

@@ -1,6 +1,6 @@
 # 身边动物制作完成归档
 
-2026-10-17：本轮 100 个选题完成 40 个，待制作 60 个，项目共有 640 份物种档案。接续淡水动物见[五种研究与验收](todo-common-next-freshwater-five-2026-10-17.md)。淡水鱼见[五种研究与验收](todo-common-freshwater-five-2026-10-16.md)。常见昆虫见[十种研究与验收](todo-common-insect-ten-2026-10-15.md)。湿地鸟类见[本批研究与验收](todo-common-wetland-five-2026-10-15.md)。研究与验收见[首批五种](todo-common-first-five-2026-10-13.md)、[接续五种](todo-common-next-five-2026-10-14.md)和[第三批五种](todo-common-third-five-2026-10-14.md)。
+2026-10-17：本轮 100 个选题完成 50 个，待制作 50 个，项目共有 650 份物种档案。爬行与两栖动物见[本批研究及验收](todo-common-reptile-amphibian-five-2026-10-17.md)。四种鱼与草龟见[本批研究及验收](todo-common-fish-turtle-five-2026-10-17.md)。接续淡水动物见[五种研究与验收](todo-common-next-freshwater-five-2026-10-17.md)。淡水鱼见[五种研究与验收](todo-common-freshwater-five-2026-10-16.md)。常见昆虫见[十种研究与验收](todo-common-insect-ten-2026-10-15.md)。湿地鸟类见[本批研究与验收](todo-common-wetland-five-2026-10-15.md)。研究与验收见[首批五种](todo-common-first-five-2026-10-13.md)、[接续五种](todo-common-next-five-2026-10-14.md)和[第三批五种](todo-common-third-five-2026-10-14.md)。
 
 - [x] 013 家马（*Equus caballus*）：农场、动物园；马蹄与行走。
 - [x] 014 家驴（*Equus asinus*）：农场、乡间；长耳朵与身体特点。
@@ -50,3 +50,17 @@
 - [x] 071 宽鳍鱲（*Zacco platypus*）：溪流；流水中的游动。
 
 本批见[接续淡水动物五种研究与验收](todo-common-next-freshwater-five-2026-10-17.md)。
+
+- [x] 009 草龟（中华草龟）（*Mauremys reevesii*）：家庭饲养、水族场所；龟壳、水中生活与晒背。
+- [x] 072 鲶（*Silurus asotus*）：河流、水产市场；嘴边的须。
+- [x] 073 黄颡鱼（*Tachysurus fulvidraco*）：河湖、水产市场；须、鱼鳍与身体颜色。
+- [x] 074 乌鳢（黑鱼）（*Channa argus*）：河塘、水产市场；呼吸方式。
+- [x] 075 尼罗罗非鱼（*Oreochromis niloticus*）：养殖场、水产市场；口孵育幼。
+
+本批见[四种鱼与草龟研究及验收](todo-common-fish-turtle-five-2026-10-17.md)。
+
+- [x] 061 中华鳖（*Pelodiscus sinensis*）：养殖场、水产市场；鳖与龟的外壳。
+- [x] 062 中华花龟（*Mauremys sinensis*）：家庭饲养、水族场所；颈部条纹。
+- [x] 063 黄喉拟水龟（*Mauremys mutica*）：水族场所；黄色喉部与水陆活动。
+- [x] 064 北草蜥（*Takydromus septentrionalis*）：草地、灌丛；长尾巴与爬行。
+- [x] 035 黑斑侧褶蛙（*Pelophylax nigromaculatus*）：田野、水边；蝌蚪长出四肢。

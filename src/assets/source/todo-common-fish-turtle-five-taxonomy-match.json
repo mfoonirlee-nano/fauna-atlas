@@ -1,0 +1,257 @@
+[
+  {
+    "query": "Silurus asotus",
+    "response": {
+      "usageKey": 2337594,
+      "scientificName": "Silurus asotus Linnaeus, 1758",
+      "canonicalName": "Silurus asotus",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Siluriformes",
+      "family": "Siluridae",
+      "genus": "Silurus",
+      "species": "Silurus asotus",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 708,
+      "familyKey": 5168,
+      "genusKey": 2333535,
+      "speciesKey": 2337594
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Actinopterygii",
+        "zhName": "辐鳍鱼纲"
+      },
+      "order": {
+        "scientificName": "Siluriformes",
+        "zhName": "鲶形目"
+      },
+      "family": {
+        "scientificName": "Siluridae",
+        "zhName": "鲶科"
+      },
+      "genus": {
+        "scientificName": "Silurus",
+        "zhName": "鲶属"
+      }
+    },
+    "adoptionNote": "保留原始 GBIF 响应。鱼类沿用图册现有 Actinopterygii，与现有共享目级归属一致。"
+  },
+  {
+    "query": "Tachysurus fulvidraco",
+    "response": {
+      "usageKey": 6168091,
+      "scientificName": "Tachysurus fulvidraco (Richardson, 1846)",
+      "canonicalName": "Tachysurus fulvidraco",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Siluriformes",
+      "family": "Bagridae",
+      "genus": "Tachysurus",
+      "species": "Tachysurus fulvidraco",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 708,
+      "familyKey": 8974,
+      "genusKey": 2338457,
+      "speciesKey": 6168091
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Actinopterygii",
+        "zhName": "辐鳍鱼纲"
+      },
+      "order": {
+        "scientificName": "Siluriformes",
+        "zhName": "鲶形目"
+      },
+      "family": {
+        "scientificName": "Bagridae",
+        "zhName": "鲿科"
+      },
+      "genus": {
+        "scientificName": "Tachysurus",
+        "zhName": "黄颡鱼属"
+      }
+    },
+    "adoptionNote": "保留原始 GBIF 响应。鱼类沿用图册现有 Actinopterygii，与现有共享目级归属一致。"
+  },
+  {
+    "query": "Channa argus",
+    "response": {
+      "usageKey": 4284921,
+      "scientificName": "Channa argus (Cantor, 1842)",
+      "canonicalName": "Channa argus",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Perciformes",
+      "family": "Channidae",
+      "genus": "Channa",
+      "species": "Channa argus",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 587,
+      "familyKey": 4259,
+      "genusKey": 2387196,
+      "speciesKey": 4284921
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Actinopterygii",
+        "zhName": "辐鳍鱼纲"
+      },
+      "order": {
+        "scientificName": "Perciformes",
+        "zhName": "鲈形目"
+      },
+      "family": {
+        "scientificName": "Channidae",
+        "zhName": "鳢科"
+      },
+      "genus": {
+        "scientificName": "Channa",
+        "zhName": "鳢属"
+      }
+    },
+    "adoptionNote": "保留原始 GBIF 响应。鱼类沿用图册现有 Actinopterygii，与现有共享目级归属一致。"
+  },
+  {
+    "query": "Oreochromis niloticus",
+    "response": {
+      "usageKey": 4285694,
+      "scientificName": "Oreochromis niloticus (Linnaeus, 1758)",
+      "canonicalName": "Oreochromis niloticus",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 98,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Perciformes",
+      "family": "Cichlidae",
+      "genus": "Oreochromis",
+      "species": "Oreochromis niloticus",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 587,
+      "familyKey": 8522,
+      "genusKey": 2372271,
+      "speciesKey": 4285694
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Actinopterygii",
+        "zhName": "辐鳍鱼纲"
+      },
+      "order": {
+        "scientificName": "Perciformes",
+        "zhName": "鲈形目"
+      },
+      "family": {
+        "scientificName": "Cichlidae",
+        "zhName": "丽鱼科"
+      },
+      "genus": {
+        "scientificName": "Oreochromis",
+        "zhName": "罗非鱼属"
+      }
+    },
+    "adoptionNote": "保留原始 GBIF 响应。鱼类沿用图册现有 Actinopterygii，与现有共享目级归属一致。"
+  },
+  {
+    "query": "Mauremys reevesii",
+    "response": {
+      "usageKey": 2443597,
+      "scientificName": "Mauremys reevesii (Gray, 1831)",
+      "canonicalName": "Mauremys reevesii",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Geoemydidae",
+      "genus": "Mauremys",
+      "species": "Mauremys reevesii",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "classKey": 11418114,
+      "familyKey": 5463,
+      "genusKey": 9245902,
+      "speciesKey": 2443597,
+      "class": "Testudines"
+    },
+    "adoptedTaxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Reptilia",
+        "zhName": "爬行纲"
+      },
+      "order": {
+        "scientificName": "Testudines",
+        "zhName": "龟鳖目"
+      },
+      "family": {
+        "scientificName": "Geoemydidae",
+        "zhName": "地龟科"
+      },
+      "genus": {
+        "scientificName": "Mauremys",
+        "zhName": "拟水龟属"
+      }
+    },
+    "adoptionNote": "原始 GBIF 将 Testudines 设为纲且未给目；图册参照 Reptile Database 的龟鳖目归属，沿用现有爬行纲 Reptilia → 龟鳖目 Testudines，保留 Geoemydidae → Mauremys。"
+  }
+]
