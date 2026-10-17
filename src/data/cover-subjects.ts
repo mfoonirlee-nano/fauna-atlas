@@ -6441,5 +6441,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1485,
       "bottom": 702
     }
+  },
+  "reeves-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 720,
+      "top": 334,
+      "right": 1526,
+      "bottom": 680
+    }
   }
 };

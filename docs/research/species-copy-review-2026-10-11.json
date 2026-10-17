@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "644 animal species profiles; 560 historical baseline reviews and 84 additions through 2026-10-17; microbial topics excluded",
+  "scope": "645 animal species profiles; 560 historical baseline reviews and 85 additions through 2026-10-17; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -29962,6 +29962,48 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/4285694"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "reeves-turtle",
+      "scientificName": "Mauremys reevesii",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://iucn-tftsg.org/cbftt/species-accounts/mauremys-reevesii-050/",
+            "https://iucn-tftsg.org/wp-content/uploads/file/Accounts/crm_5_050_reevesii_v1_2011.pdf",
+            "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.71630"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://iucn-tftsg.org/cbftt/species-accounts/mauremys-reevesii-050/",
+            "https://iucn-tftsg.org/wp-content/uploads/file/Accounts/crm_5_050_reevesii_v1_2011.pdf",
+            "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.71630"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://iucn-tftsg.org/cbftt/species-accounts/mauremys-reevesii-050/",
+            "https://iucn-tftsg.org/wp-content/uploads/file/Accounts/crm_5_050_reevesii_v1_2011.pdf",
+            "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.71630"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2443597"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2443597"
           ]
         }
       }

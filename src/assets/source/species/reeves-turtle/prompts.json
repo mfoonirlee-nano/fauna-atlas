@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Mauremys reevesii, Reeves's turtle: small freshwater pond turtle with brown elongated oval domed carapace carrying THREE longitudinal keels, yellow thin stripes along dark head and neck, sturdy clawed webbed feet, slim natural tail, no red ear patches, no long aquatic flippers. Cover scene: one adult basking in three-quarter view on a low pond log, full shell, head, claws and tail visible. WIDE ENVIRONMENTAL COMPOSITION: left 48% of the full canvas is quiet water or soft pond background with NO animal. ENTIRE animal occupies only the right 44% of the canvas, its full silhouette fits between 48% and 93% of image width, centered at 71% width and 48% height. Subject width about 42% of whole canvas. All extremities have real background margin. Large legible subject in that right-side area, not close-up. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "18611ebb6942e7f2a33b208d37380f8fc2e0a98c60f7d34997e44289d5006981",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "caaebc3926f47c4c8b6d6cdae8bb69486f6a00249ddcfb78206bf22d544a8c08",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Mauremys reevesii, Reeves's turtle: small freshwater pond turtle with brown elongated oval domed carapace carrying THREE longitudinal keels, yellow thin stripes along dark head and neck, sturdy clawed webbed feet, slim natural tail, no red ear patches, no long aquatic flippers. Gallery scene: adult basking on low log beside pond with all limbs and tail in view. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "4e9ae5cc776816cbb777e743bd7c886f3184a7494ca97765b40995b4e71a6fcf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "31d000db3329bda36b566a5a58e1a772250812acd99551eb6886a0601fc013e2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Mauremys reevesii, Reeves's turtle: small freshwater pond turtle with brown elongated oval domed carapace carrying THREE longitudinal keels, yellow thin stripes along dark head and neck, sturdy clawed webbed feet, slim natural tail, no red ear patches, no long aquatic flippers. Gallery scene: adult slightly elevated three-quarter view showing three longitudinal shell keels, full turtle. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "2dfcc3e9095783834e2b7d491592ec1caedbbcae23c07236a525fd5c0f933e34",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "91a60f5ffd949ae7304d58c29b91e180784e6b5cc9ce1803494151b8d7ba9eb9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Mauremys reevesii, Reeves's turtle: small freshwater pond turtle with brown elongated oval domed carapace carrying THREE longitudinal keels, yellow thin stripes along dark head and neck, sturdy clawed webbed feet, slim natural tail, no red ear patches, no long aquatic flippers. Gallery scene: entire swimming turtle underwater with neck extended and natural clawed feet. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "fcfbd609b3ea5b466116595619b6a31d3f80ee29cc185e874950274dddd82b70",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f82c56350f8c00fd0572641b03ef016f136516884df054e06e8154d350358a44",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Mauremys reevesii, Reeves's turtle: small freshwater pond turtle with brown elongated oval domed carapace carrying THREE longitudinal keels, yellow thin stripes along dark head and neck, sturdy clawed webbed feet, slim natural tail, no red ear patches, no long aquatic flippers. Gallery scene: small hatchling resting at shallow pond edge, relatively long tail, no adults. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "39be7b688f5484401bf93e8e59e5531f86476ce3fc7bd35e87315883b2f81231",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "675af69fc45360c12dc22aff4a5c770024e5744d579e382e0b4ad3136b028ca7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Mauremys reevesii, Reeves's turtle: small freshwater pond turtle with brown elongated oval domed carapace carrying THREE longitudinal keels, yellow thin stripes along dark head and neck, sturdy clawed webbed feet, slim natural tail, no red ear patches, no long aquatic flippers. Gallery scene: adult walking on damp bank vegetation close to water, no nest digging. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "4dc2fcfa8abe56abb4a486c52eb0e33a1499723e901beb8e1b28353c0f611c60",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2c2f44355738fe65d36770199fb51660a6051c119fb31e1d1695e7290a5a9aa8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

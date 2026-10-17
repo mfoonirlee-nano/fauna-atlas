@@ -5718,5 +5718,18 @@
       },
       "sha256": "8e4ef11227018e1b7828f57d5cabcc2588401fda1886588bf749d0c1ebd87a67"
     }
+  },
+  "reeves-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 720,
+        "top": 334,
+        "right": 1526,
+        "bottom": 680
+      },
+      "sha256": "caaebc3926f47c4c8b6d6cdae8bb69486f6a00249ddcfb78206bf22d544a8c08"
+    }
   }
 }
