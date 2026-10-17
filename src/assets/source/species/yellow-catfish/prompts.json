@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit framing only of this Tachysurus fulvidraco yellow catfish cover. Shrink entire fish INCLUDING every long whisker, dorsal spine and tail uniformly to 70 percent, center on x=1080 y=475 in 1536x1024. All whisker tips and fins must fit x=715..1450 y=240..720. Left 46 percent contains empty quiet water, absolutely no whiskers. Keep four pairs of barbels and natural yellow mottled skin, adipose fin and forked tail. Real background margins, no text, no extra fish.",
+      "sourceSha256": "b0b4811f551b37951ac53cf106d7643a1e6dd6c53fbc00ed291157aa4d06b1b2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "31897d033f2bdcadd80b1d906c28569fa941b1ae9e322337478d76d1bf4c0e05",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Tachysurus fulvidraco, yellow catfish: scaleless yellow-gold body with irregular dark brown blotches, four pairs of barbels, short triangular dorsal fin with single strong leading spine, small adipose fin behind dorsal, paired pectoral fins and forked tail. Gallery scene: adult broadside showing yellow and dark blotches. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "4cfb3ddff97171961b94bec7aa18f016bf07a3b1048368130a6e07d8b59ce9c5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "921ab11e9084fc0112b59b054102b974e16c4473acb835bc841541b42c64ff51",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Tachysurus fulvidraco, yellow catfish: scaleless yellow-gold body with irregular dark brown blotches, four pairs of barbels, short triangular dorsal fin with single strong leading spine, small adipose fin behind dorsal, paired pectoral fins and forked tail. Gallery scene: entire fish in three-quarter view with barbels clearly visible. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "413fe3b6c88786f5d2594c419bbb7d088ec9913b1529b810272a5055995ae611",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2f8894317642236a5044b1afbb54d0ac2e8bf73956273834145e79b75f6a3ef5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Tachysurus fulvidraco, yellow catfish: scaleless yellow-gold body with irregular dark brown blotches, four pairs of barbels, short triangular dorsal fin with single strong leading spine, small adipose fin behind dorsal, paired pectoral fins and forked tail. Gallery scene: adult over river sand, dorsal and pectoral leading spines visible but not exaggerated. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "a683e9b7e534ef10c218c4795646f737b031737e6eef97a178c42d2bdb640f9c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b6ea94c593a0ad6f78bff819e88afdfae67b5b672ed459ab6b15e5b90e5fbba5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Tachysurus fulvidraco, yellow catfish: scaleless yellow-gold body with irregular dark brown blotches, four pairs of barbels, short triangular dorsal fin with single strong leading spine, small adipose fin behind dorsal, paired pectoral fins and forked tail. Gallery scene: small juvenile with yellow-brown mottled body among roots. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "1d699abe45121f4ad17bccba201da5247e15b6a1d9839bb9b0dc05073b44beda",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "830bb75513433b1d70763d0903e92d32b1f462fc3072f00a6c2e63f225c4d480",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Tachysurus fulvidraco, yellow catfish: scaleless yellow-gold body with irregular dark brown blotches, four pairs of barbels, short triangular dorsal fin with single strong leading spine, small adipose fin behind dorsal, paired pectoral fins and forked tail. Gallery scene: adult close to small aquatic invertebrates on muddy bed, no biting. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "ac6071c196cd2d7a80c7f2edb77020e47db4755a9f021041c5181d3bd4d69c24",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7aaafb38a1ea28266fb8955f909e190e4a7f5550f951da8b39ea5e540352fb78",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -919,3 +919,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [宽鳍鱲 image set](./species/pale-chub/README.md)
 
 - [鲶 image set](./species/amur-catfish/README.md)
+- [黄颡鱼 image set](./species/yellow-catfish/README.md)

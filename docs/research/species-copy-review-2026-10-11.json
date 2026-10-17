@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "641 animal species profiles; 560 historical baseline reviews and 81 additions through 2026-10-17; microbial topics excluded",
+  "scope": "642 animal species profiles; 560 historical baseline reviews and 82 additions through 2026-10-17; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -29845,6 +29845,42 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/2337594"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "yellow-catfish",
+      "scientificName": "Tachysurus fulvidraco",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Tachysurus-fulvidraco.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Tachysurus-fulvidraco.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fishbase.se/summary/Tachysurus-fulvidraco.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6168091"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6168091"
           ]
         }
       }

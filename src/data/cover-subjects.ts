@@ -6411,5 +6411,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1410,
       "bottom": 547
     }
+  },
+  "yellow-catfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 301,
+      "right": 1304,
+      "bottom": 591
+    }
   }
 };

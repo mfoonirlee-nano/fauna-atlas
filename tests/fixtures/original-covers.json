@@ -5679,5 +5679,18 @@
       },
       "sha256": "0c743433f57a1afb4918fa695ade39dec2d3557783469e7e6d8667a67b372036"
     }
+  },
+  "yellow-catfish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 301,
+        "right": 1304,
+        "bottom": 591
+      },
+      "sha256": "31897d033f2bdcadd80b1d906c28569fa941b1ae9e322337478d76d1bf4c0e05"
+    }
   }
 }
