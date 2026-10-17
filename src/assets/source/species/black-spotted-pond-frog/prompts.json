@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. One single Pelophylax nigromaculatus, black-spotted pond frog. Adult true frog green to olive dorsal skin with irregular black roundish spots, two conspicuous pale dorsolateral folds and often a pale vertebral stripe, pointed snout, horizontal pupils, rounded tympanum behind eye, four fingers on forefeet and five webbed toes on hindfeet. No adhesive toe discs. COVER COMPOSITION: entire animal and every visible toe, nose and tail tip completely inside image. Place ALL animal pixels within RIGHT HALF, x=800 to 1460 of 1536. Left 48% contains quiet out-of-focus habitat only. Full animal prominent in right half, center near x=1130; generous real background around silhouette. Three quarter side view facing left, resting at natural waterside. No additional animals.",
+      "sourceSha256": "ac004477068b1be27b63e28788a3ea7a1bf916ff499c0c38f762daef92ffdd31",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e775060473ca9da96f6be9615a1d1477f3a191f6487f6acdbab08608b2ba8643",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelophylax nigromaculatus, black-spotted pond frog. Adult true frog green to olive dorsal skin with irregular black roundish spots, two conspicuous pale dorsolateral folds and often a pale vertebral stripe, pointed snout, horizontal pupils, rounded tympanum behind eye, four fingers on forefeet and five webbed toes on hindfeet. No adhesive toe discs. Whole adult resting on mud beside rice-paddy water, three-quarter view all feet visible. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "3a3d768017bdd9b03589f277c052f76b45e8255533c50191f3b2437754a3fe3f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5825f1a059802a4ac4a58f3a987cb644c9cb91320a359f90fe389fbbdca292ca",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelophylax nigromaculatus, black-spotted pond frog. Adult true frog green to olive dorsal skin with irregular black roundish spots, two conspicuous pale dorsolateral folds and often a pale vertebral stripe, pointed snout, horizontal pupils, rounded tympanum behind eye, four fingers on forefeet and five webbed toes on hindfeet. No adhesive toe discs. Oblique dorsal observation of paired dorsolateral folds, dark dorsal spots and pale midline. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "88dbbe873f9529127af49dce66504034cf86adea285db57074199bfc24a6af28",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "513de9c8c78e2a9dc84a5dfb6d233c3f2a7b3860f3c5e698cd489a66d02fe5ec",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelophylax nigromaculatus, black-spotted pond frog. Adult true frog green to olive dorsal skin with irregular black roundish spots, two conspicuous pale dorsolateral folds and often a pale vertebral stripe, pointed snout, horizontal pupils, rounded tympanum behind eye, four fingers on forefeet and five webbed toes on hindfeet. No adhesive toe discs. Whole adult crouching on a pond-edge stone, clear side profile and folded long hindlegs. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "7f4cc5bd7eb9a80d79912eee49e5acf0366b602e8f33d789135fca540cea717b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9fe5342f08735c959f5cc588acc869637a0bc7c87398eb52b4fd9a9b31c452f7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelophylax nigromaculatus, black-spotted pond frog. Larval stage only. A small group of dark tadpoles in clear shallow pond water, no legs, no adult frog, independent larval reconstruction. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "f71b8e0e1c5b383a057d7751e36cacde6782b7db24fbd3f17db2d54420f78b64",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "de15488b2a2cd5b9f9e9281de3815d7d77f3d4eb7a942950f3597d2dc1de6613",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Pelophylax nigromaculatus, black-spotted pond frog. Adult true frog green to olive dorsal skin with irregular black roundish spots, two conspicuous pale dorsolateral folds and often a pale vertebral stripe, pointed snout, horizontal pupils, rounded tympanum behind eye, four fingers on forefeet and five webbed toes on hindfeet. No adhesive toe discs. Young frog after metamorphosis on wet vegetation, small body with adult-like spots and folds, no tadpole tail. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "df6422a06e0747e16b2dc2c6526c26d20bdc28e764c9579d9b15d2a04f1511d1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "455656ff2d97d1b2750af5573fe9613ca3ef22355865e63c71af1fc6fa85a2ea",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -5771,6 +5771,19 @@
       "sha256": "78e603ade2aec7aec023f5518c3e1df3bf903ab63e55e354c519bfee92eff753"
     }
   },
+  "black-spotted-pond-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 709,
+        "top": 265,
+        "right": 1442,
+        "bottom": 824
+      },
+      "sha256": "e775060473ca9da96f6be9615a1d1477f3a191f6487f6acdbab08608b2ba8643"
+    }
+  },
   "chinese-stripe-necked-turtle": {
     "cover": {
       "width": 1536,

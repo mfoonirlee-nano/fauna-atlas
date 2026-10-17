@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "649 animal species profiles; 560 historical baseline reviews and 89 additions through 2026-10-17; microbial topics excluded",
+  "scope": "650 animal species profiles; 560 historical baseline reviews and 90 additions through 2026-10-17; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -30187,6 +30187,50 @@
             "https://www.gbif.org/species/2468585",
             "https://reptile-database.reptarium.cz/Takydromus/septentrionalis",
             "https://www.fws.gov/taxonomic-tree/2039731"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "black-spotted-pond-frog",
+      "scientificName": "Pelophylax nigromaculatus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.mdpi.com/1424-2818/16/5/259",
+            "https://doi.org/10.3390/d14050414",
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=73"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.mdpi.com/1424-2818/16/5/259",
+            "https://doi.org/10.3390/d14050414",
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=73"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mdpi.com/1424-2818/16/5/259",
+            "https://doi.org/10.3390/d14050414",
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=73"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2426634",
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Ranidae/Pelophylax/Pelophylax-nigromaculatus"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2426634",
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Ranidae/Pelophylax/Pelophylax-nigromaculatus"
           ]
         }
       }

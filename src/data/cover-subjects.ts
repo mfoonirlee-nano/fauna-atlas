@@ -6482,6 +6482,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 859
     }
   },
+  "black-spotted-pond-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 709,
+      "top": 265,
+      "right": 1442,
+      "bottom": 824
+    }
+  },
   "chinese-stripe-necked-turtle": {
     "width": 1536,
     "height": 1024,

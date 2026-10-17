@@ -928,3 +928,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Chinese Stripe-necked Turtle image set](./species/chinese-stripe-necked-turtle/README.md)
 - [Yellow Pond Turtle image set](./species/yellow-pond-turtle/README.md)
 - [Northern Grass Lizard image set](./species/northern-grass-lizard/README.md)
+- [Black-spotted Pond Frog image set](./species/black-spotted-pond-frog/README.md)
