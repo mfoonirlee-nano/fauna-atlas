@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "640 animal species profiles; 560 historical baseline reviews and 80 additions through 2026-10-17; microbial topics excluded",
+  "scope": "641 animal species profiles; 560 historical baseline reviews and 81 additions through 2026-10-17; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -29806,6 +29806,45 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/2365787"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "amur-catfish",
+      "scientificName": "Silurus asotus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Silurus-asotus.html",
+            "https://www.fra.go.jp/home/kenkyushokai/intercoop/ujnr/files/ujnr_poceedings_spawning_maturation1999.pdf"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Silurus-asotus.html",
+            "https://www.fra.go.jp/home/kenkyushokai/intercoop/ujnr/files/ujnr_poceedings_spawning_maturation1999.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fishbase.se/summary/Silurus-asotus.html",
+            "https://www.fra.go.jp/home/kenkyushokai/intercoop/ujnr/files/ujnr_poceedings_spawning_maturation1999.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2337594"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2337594"
           ]
         }
       }

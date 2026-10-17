@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Image 1 is the EDIT TARGET: adult Silurus asotus cover. Image 2 is anatomy reference ONLY, showing correct FOUR barbels. Correct ONLY the tiny extra dangling chin whisker in image 1: there are too many short threads under the chin. Keep TWO long upper-jaw whiskers and exactly TWO short chin whiskers, remove any extra middle chin thread. Adult has four total, not five or six. Preserve fish position, scale, all fins, river scene and landscape 1536x1024. Do not alter framing. No text.",
+      "sourceSha256": "2f5ec6626b910688da394b4a342c5609a0e1e92c85680a7a3b1932c12ba4f724",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0c743433f57a1afb4918fa695ade39dec2d3557783469e7e6d8667a67b372036",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Correct this adult Silurus asotus scientific reconstruction. It must have exactly FOUR barbels total: ONE pair of long whiskers at the upper mouth corners and ONE pair of short whiskers below the chin. Remove the second lower jaw pair entirely. Do not confuse with six-whiskered Silurus soldatovi. Keep broad flat head, scaleless skin, tiny dorsal fin, very long anal fin and NO adipose fin. Scale the full fish with all whiskers down slightly, so every whisker and fin has real background margin inside the image. Preserve realistic freshwater scene and pose. No text.",
+      "sourceSha256": "e029d675bf5e175337c902eb47d9a3b944ad759e23c7dda3e4f95ff82cf8534e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "87341b81b130f0ab941d6650c2b9f1238919a6e5301837fe305851a8aa472b43",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Correct this adult Silurus asotus scientific reconstruction. It must have exactly FOUR barbels total: ONE pair of long whiskers at the upper mouth corners and ONE pair of short whiskers below the chin. Remove the second lower jaw pair entirely. Do not confuse with six-whiskered Silurus soldatovi. Keep broad flat head, scaleless skin, tiny dorsal fin, very long anal fin and NO adipose fin. Scale the full fish with all whiskers down slightly, so every whisker and fin has real background margin inside the image. Preserve realistic freshwater scene and pose. No text.",
+      "sourceSha256": "3597c3fd71c3490ec6ff5e1a66338c51cd66f76769b70f071e4581968ae40eb2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "77b71328ef279092866803166c317408eebf24661c389f3cd34da02834ebb815",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Precise cleanup edit to this adult Silurus asotus photo reconstruction. REMOVE the extra long whisker that runs diagonally from lower LEFT lip around pixel (280,555) down-left to about (85,655). Keep all other structures unchanged: the long upper whisker curving left at y470-510, the long upper whisker sweeping down-right from the near cheek, and exactly two short whiskers under chin. Result four visible whiskers total. Preserve full 1536x1024 image, dusk water and whole fish. No other changes or text.",
+      "sourceSha256": "d4b791a552f930feeb1024d4fea3cc93d173b0c17feeef83cf3f3c6a66599233",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8554308d4f7448bbd4861db3ef605a1737377dd7b3b1e7e251922abf8d7c8bbb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Silurus asotus, Amur catfish: scaleless elongated dark olive-gray body, broad flattened head, two long upper jaw barbels and four shorter lower jaw barbels, tiny dorsal fin near head, very long anal fin along belly, rounded small tail, no adipose fin. Gallery scene: small juvenile near submerged roots, correct catfish shape. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "7de9c072fda6346abe40dcea33af6f6862b8a27b50cb7fc969ba92fccd770975",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0e7035057c3057a61f9ac94899fb672f8a5d8d8b63eca4be0f5f83fc224ed045",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One photorealistic underwater landscape 1536x1024 natural-history reconstruction of adult Silurus asotus in a slow river with scattered aquatic vegetation and soft bottom. ENTIRE fish broadside with full real margins. Adult anatomy: broad flattened head, elongated dark olive mottled SCALELESS body, tiny short dorsal fin near front, very long anal fin along belly, small rounded tail, NO adipose fin. Crucially exactly TWO pairs of barbels: ONE pair long at upper corners of mouth and ONE pair short beneath chin. Four total whiskers, never six. Do not add a second lower-jaw pair. Clearly show long anal fin along bottom. No other fish, no text, no labels, no diagram, no collage.",
+      "sourceSha256": "3b86e6da35c6bdc7e111a674adc8673d23eac637cc0948a568152e16510f12b0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9d552032b33c1062685836eb0576c8f0263bf30dadd345f0cb1a910f6e4410de",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

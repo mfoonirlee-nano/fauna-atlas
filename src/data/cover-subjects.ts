@@ -6401,5 +6401,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1406,
       "bottom": 612
     }
+  },
+  "amur-catfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 354,
+      "right": 1410,
+      "bottom": 547
+    }
   }
 };

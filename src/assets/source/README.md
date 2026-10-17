@@ -917,3 +917,5 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [麦穗鱼 image set](./species/topmouth-gudgeon/README.md)
 - [中华鳑鲏 image set](./species/chinese-bitterling/README.md)
 - [宽鳍鱲 image set](./species/pale-chub/README.md)
+
+- [鲶 image set](./species/amur-catfish/README.md)
