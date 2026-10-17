@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Adjust only the framing of this chinese-bitterling cover. Keep the same species, anatomy and water. Shrink the ENTIRE fish uniformly to 74 percent and center it on x=1080 y=475 in 1536x1024. Mouth and every fin tip must be within x=720..1450 and y=240..710. Left 46 percent must be empty water with no animal. Large clear fish on right. No text, extra animals, cropped fins or borders.",
+      "sourceSha256": "41770b42a9955bd0127fdaae68c51a68a1783cf97e6419b17c35a82cc3bfd877",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "094894ee19ee271c9da5c426640ed80e96dd3b9fa50c8bc5f6c830e5c521a107",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Rhodeus sinensis Chinese bitterling, small deep laterally compressed silver fish with subtle blue-green rear flank stripe, short snout, no barbels, forked tail. Gallery scene: adult in nonbreeding silver coloration broadside among aquatic plants. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "9e2c2a86448efee0584a2e4b37e649c81f9de15cc7b7a6e8fab3da7a086badd0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9cb87a1c234f969c046ffcb70c972a51f3a96f1c23791bf890f3cf870ec4b56e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Rhodeus sinensis Chinese bitterling, small deep laterally compressed silver fish with subtle blue-green rear flank stripe, short snout, no barbels, forked tail. Gallery scene: breeding male with subtle rosy-red belly and blue-green rear flank, complete fins. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "54e5365d40923717978c783b3ae555905ab5c76813465bc6cfea36dda2d3a3af",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c89145db877bd4974a0948290d970f0eeb8aea19c95ddf21999e325c4fe14cc8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Rhodeus sinensis Chinese bitterling, small deep laterally compressed silver fish with subtle blue-green rear flank stripe, short snout, no barbels, forked tail. Gallery scene: female with slender ovipositor trailing below belly near a living freshwater mussel, no cutaway. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "df4fae7ccb310a7f3acbb363882dc012029aab248ad8c5306406610fc5ad3714",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "53f56104006498ad31105be7d018e96f23a15943dfa42490cc1e89e7f3b619cf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Rhodeus sinensis Chinese bitterling, small deep laterally compressed silver fish with subtle blue-green rear flank stripe, short snout, no barbels, forked tail. Gallery scene: whole small juvenile near submerged vegetation, no long ovipositor. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "5069fb2fee594112e0f7a25b6f954ba321b283fb2ba547f27317faa715813bca",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f066ab923de19f4d3a0353d5fb02391dcfa9be92ebef482ce90a3893aee88780",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Rhodeus sinensis Chinese bitterling, small deep laterally compressed silver fish with subtle blue-green rear flank stripe, short snout, no barbels, forked tail. Gallery scene: adult and living freshwater mussel separated on sandy bed, ecological context, no eggs visible. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "c7110760a3b3eb7ea57a2a78a337fedd524833c6e74c0827982f07bdcfd92075",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "be0f26edacd2cdbb4a593b613936c63744274048324c4a8ce93e6bb19da94321",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

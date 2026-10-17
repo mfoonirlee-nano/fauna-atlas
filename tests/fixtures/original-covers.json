@@ -5601,5 +5601,70 @@
       },
       "sha256": "6aa7dd3b9bcacfdbd8dc080f8a63ace9454b54ea21ec8826f57bd7688f72ba77"
     }
+  },
+  "black-carp": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 658,
+        "top": 274,
+        "right": 1368,
+        "bottom": 580
+      },
+      "sha256": "1198a3c23dacfd2575fac6f3b6e04efe068115cf649ffc2ae7c349f9b518b968"
+    }
+  },
+  "asian-swamp-eel": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 704,
+        "top": 254,
+        "right": 1386,
+        "bottom": 551
+      },
+      "sha256": "bdd1057d24d64f8db693f9b3057af6d9617523e93669df2dc82a70ed035196e3"
+    }
+  },
+  "topmouth-gudgeon": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 712,
+        "top": 318,
+        "right": 1370,
+        "bottom": 596
+      },
+      "sha256": "9d84c09401dc417fef91be4878bd783a7ce15d77fee6102efe2123bc540e4973"
+    }
+  },
+  "chinese-bitterling": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 268,
+        "right": 1382,
+        "bottom": 644
+      },
+      "sha256": "094894ee19ee271c9da5c426640ed80e96dd3b9fa50c8bc5f6c830e5c521a107"
+    }
+  },
+  "pale-chub": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 682,
+        "top": 330,
+        "right": 1406,
+        "bottom": 612
+      },
+      "sha256": "81a130b6c75c73770e9e0a4be84a83e3cdab06329c73d24dba92b4ad67ce83e7"
+    }
   }
 }

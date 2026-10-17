@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Adjust ONLY the framing of this Asian swamp eel cover. Preserve the exact fish and natural water scene. Shrink entire eel uniformly to 70% of its present size then center it on x=1080 y=480. Entire silhouette INCLUDING mouth on left and curled pointed tail on top must be inside x=720 to 1440, y=250 to 710 in a 1536x1024 image. Left 46 percent completely quiet water without animal. Do not crop the eel, do not add fins, do not add text.",
+      "sourceSha256": "886084004d4f63524d166925a1a1fff87aec5d05c76f5df36b3b1c4be2b9e150",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "bdd1057d24d64f8db693f9b3057af6d9617523e93669df2dc82a70ed035196e3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Monopterus albus Asian swamp eel, slender cylindrical golden-brown scaleless body with small dark mottling, small eyes, tapering pointed tail, NO paired fins, no obvious dorsal fin, no snake tongue. Gallery scene: whole eel loosely curved on muddy pond bottom. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "859803651a6bf7dfaefced34ef452134cc568cfd8b1cbf9d2fc8e44f8aed4276",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "85153fbdad9ef6c5f0a4466475c4861437a543d14285daf5a18250c645dd078b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Monopterus albus Asian swamp eel, slender cylindrical golden-brown scaleless body with small dark mottling, small eyes, tapering pointed tail, NO paired fins, no obvious dorsal fin, no snake tongue. Gallery scene: entire eel with head close to water surface, short blunt head clearly visible. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "dd862ce028f2722dbdc64ecfadb2166e724c70089dee36804a241fc75802a8ea",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "08e46f31f4036c0949323d6fcaf09ab3a1c3897c73fb536fc0a71b082f59f8e8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Monopterus albus Asian swamp eel, slender cylindrical golden-brown scaleless body with small dark mottling, small eyes, tapering pointed tail, NO paired fins, no obvious dorsal fin, no snake tongue. Gallery scene: eel emerging from a natural mud-bank burrow, visible body curves and full tail. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "37395253adc49d13c5554e7607297fbffc48e47ba5e6cd47b2f0f060fcf56de5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "27a5992780ca07e5727bb5f26345476990409b1930f22abee158aa4752ff2838",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Monopterus albus Asian swamp eel, slender cylindrical golden-brown scaleless body with small dark mottling, small eyes, tapering pointed tail, NO paired fins, no obvious dorsal fin, no snake tongue. Gallery scene: small juvenile eel in shallow water with plant roots, no adults. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "f0fde3e4561a330b6285351bb226000e15d8fa1e178ce1e535d957f139c34765",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "eaf5580134e2bf353cfa492e42a8acc89d12a83819446c7d246ff3cd785e3732",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Monopterus albus Asian swamp eel, slender cylindrical golden-brown scaleless body with small dark mottling, small eyes, tapering pointed tail, NO paired fins, no obvious dorsal fin, no snake tongue. Gallery scene: whole eel winding through submerged rice-field vegetation. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "af952f1b2533e89c82320be76c29f7cdc8359a4a08e12a85cc3a3483c602ed20",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "85c34f247d2ca9510969a31ed3a6306cf696f0acc5feab2df3f56aa80e191acf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

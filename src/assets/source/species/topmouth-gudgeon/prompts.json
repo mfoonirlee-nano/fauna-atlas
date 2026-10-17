@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Adjust only the framing of this topmouth-gudgeon cover. Keep the same species, anatomy and water. Shrink the ENTIRE fish uniformly to 74 percent and center it on x=1080 y=475 in 1536x1024. Mouth and every fin tip must be within x=720..1450 and y=240..710. Left 46 percent must be empty water with no animal. Large clear fish on right. No text, extra animals, cropped fins or borders.",
+      "sourceSha256": "2e132325d137f2a7241e019ea1bc541e9c956e741ef57769fb815846c297cfee",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9d84c09401dc417fef91be4878bd783a7ce15d77fee6102efe2123bc540e4973",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Pseudorasbora parva topmouth gudgeon, small slender silvery fish, dark lateral stripe, small superior upturned mouth, large dark-edged scales, short dorsal fin and forked tail, no barbels. Gallery scene: single adult broadside showing lateral stripe. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "91579c0787034c7a24d5b1f61cc7e39668c014238dfb190591404bc62ce03a2f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "068bd7ba09e918849a1550ff8eff15b4e5c0333ede9f972150cca6b2ad01fc36",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Pseudorasbora parva topmouth gudgeon, small slender silvery fish, dark lateral stripe, small superior upturned mouth, large dark-edged scales, short dorsal fin and forked tail, no barbels. Gallery scene: three-quarter whole fish with small upturned mouth clearly visible. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "91ef52141172ae51e9519b9cf0fe17ca1b3898fe8ad7599a91d5fe93ccb6da2c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "eab4dec3a286d8bf82c14c440acd2ab0a4c0987734e9239c077692e87ea80604",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Pseudorasbora parva topmouth gudgeon, small slender silvery fish, dark lateral stripe, small superior upturned mouth, large dark-edged scales, short dorsal fin and forked tail, no barbels. Gallery scene: several small fish near aquatic plants, similar sizes with real depth separation. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "56f3c2ce7846edc255c7ee3942d0ffc28662e421a5ee583d6ce0680f83e7fe18",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "15d61d9da3da4519d414f7d4729e279bdbba41a46d2caaf673c8055376008ec8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Pseudorasbora parva topmouth gudgeon, small slender silvery fish, dark lateral stripe, small superior upturned mouth, large dark-edged scales, short dorsal fin and forked tail, no barbels. Gallery scene: male near eggs adhered to submerged twig, eggs tiny translucent and no mammal expression. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "1ea29531c271f03c99f76a92990b7bb0ced0983e931a642fa4da534f40226ed2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4477c183dfb4734106a19978299334f2b67f4a45e1de8e5cb04c33aed18784a8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Pseudorasbora parva topmouth gudgeon, small slender silvery fish, dark lateral stripe, small superior upturned mouth, large dark-edged scales, short dorsal fin and forked tail, no barbels. Gallery scene: single juvenile slender fish over pond sand. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "0a4b9bd73368a62b0391e4a69df24cc8f26acd1d7e4d6a84042584efd124c73a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1e815a40ac150244aec026a633fabb1cff50e8d1bba7963a198297f5fb58156e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

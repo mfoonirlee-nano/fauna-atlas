@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit composition only of the provided black carp cover. Preserve species anatomy, realistic river scene and all fins. Scale the entire fish uniformly down to 78 percent of its present size, then move right to center at x=1080. In final 1536x1024 image ENTIRE fish including lips, dorsal fin, all lower fins and tail strictly within x=710..1450, y=270..650. Left 45 percent must contain only empty water, no animal. Full fish must remain big and clear on right, with at least 80 pixels water before right edge. No text or other fish.",
+      "sourceSha256": "85bfe21f6cfbf11512d0ff52a8f668026eb3c07fca9cdd01f05defc00b0bde0f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1198a3c23dacfd2575fac6f3b6e04efe068115cf649ffc2ae7c349f9b518b968",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Mylopharyngodon piceus black carp, elongated dark slate-gray body, large dark-edged scales, short rounded head, no barbels, forked tail. Gallery scene: adult broadside showing dark scales above riverbed. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "afbe7646bb3084bd3444b91e8ff66fcb20fcfd1251a5f00a97179899ec4532e9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "548d36b24812b9a58ab41297603691e83c7164e8bdf6e047589aa44944508c62",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Mylopharyngodon piceus black carp, elongated dark slate-gray body, large dark-edged scales, short rounded head, no barbels, forked tail. Gallery scene: three-quarter adult showing rounded head and closed mouth, no exposed anatomy. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "a05a48fc79a741cbebe79e676c5ed24d6c546da2366d83b71f4a619050423e9c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4dbd175fc121831ddbcc7ce6054071425a31c33959658e07aabac014677297a0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Mylopharyngodon piceus black carp, elongated dark slate-gray body, large dark-edged scales, short rounded head, no barbels, forked tail. Gallery scene: whole adult near a few small freshwater snails on riverbed, no biting scene. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "2c40322131c40a452412b695c0fc6c0726448d572cb4ce4cb26dfd4a76ade363",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "01087758f4e49531ae11418eec590bdb5bbcf4c75353b22548d89bff646e7a10",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Mylopharyngodon piceus black carp, elongated dark slate-gray body, large dark-edged scales, short rounded head, no barbels, forked tail. Gallery scene: small juvenile over sand and scattered submerged plants. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "bef6bdafec92d3ff2f3f9a302942afbdd1aff06e770fc6146c4a13d11770509d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f04f1534cd755207266fe2b4ad9dd845be0be04e3a9516d58524e147fbc56974",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Mylopharyngodon piceus black carp, elongated dark slate-gray body, large dark-edged scales, short rounded head, no barbels, forked tail. Gallery scene: large river habitat, adult close to bottom with gravel and aquatic plants. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "6f8e2d24257a2014929e88148437e93e09cd2f6250ca6bb0a6d725bfa91b99ac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0093e84bf45b7b77cd608efb748af5e03f449c128334434b0e75a92dd5347e01",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

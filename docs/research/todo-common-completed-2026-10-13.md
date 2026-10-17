@@ -1,6 +1,6 @@
 # 身边动物制作完成归档
 
-2026-10-16：本轮 100 个选题完成 35 个，待制作 65 个，项目共有 635 份物种档案。淡水鱼见[五种研究与验收](todo-common-freshwater-five-2026-10-16.md)。常见昆虫见[十种研究与验收](todo-common-insect-ten-2026-10-15.md)。湿地鸟类见[本批研究与验收](todo-common-wetland-five-2026-10-15.md)。研究与验收见[首批五种](todo-common-first-five-2026-10-13.md)、[接续五种](todo-common-next-five-2026-10-14.md)和[第三批五种](todo-common-third-five-2026-10-14.md)。
+2026-10-17：本轮 100 个选题完成 40 个，待制作 60 个，项目共有 640 份物种档案。接续淡水动物见[五种研究与验收](todo-common-next-freshwater-five-2026-10-17.md)。淡水鱼见[五种研究与验收](todo-common-freshwater-five-2026-10-16.md)。常见昆虫见[十种研究与验收](todo-common-insect-ten-2026-10-15.md)。湿地鸟类见[本批研究与验收](todo-common-wetland-five-2026-10-15.md)。研究与验收见[首批五种](todo-common-first-five-2026-10-13.md)、[接续五种](todo-common-next-five-2026-10-14.md)和[第三批五种](todo-common-third-five-2026-10-14.md)。
 
 - [x] 013 家马（*Equus caballus*）：农场、动物园；马蹄与行走。
 - [x] 014 家驴（*Equus asinus*）：农场、乡间；长耳朵与身体特点。
@@ -42,3 +42,11 @@
 - [x] 033 鲢（*Hypophthalmichthys molitrix*）：养殖场、水产市场；滤食与水中食物。
 - [x] 034 马口鱼（*Opsariichthys bidens*）：溪流；嘴形与游泳。
 - [x] 066 鳙（大头鱼）（*Hypophthalmichthys nobilis*）：养殖场、水产市场；大脑袋与滤食。
+
+- [x] 067 青鱼（*Mylopharyngodon piceus*）：养殖场、水产市场；取食螺和贝类。
+- [x] 068 黄鳝（*Monopterus albus*）：稻田、水产市场；像蛇的鱼。
+- [x] 069 麦穗鱼（*Pseudorasbora parva*）：池塘、沟渠；小型淡水鱼。
+- [x] 070 中华鳑鲏（*Rhodeus sinensis*）：原生鱼水族、河塘；繁殖与淡水蚌的联系。
+- [x] 071 宽鳍鱲（*Zacco platypus*）：溪流；流水中的游动。
+
+本批见[接续淡水动物五种研究与验收](todo-common-next-freshwater-five-2026-10-17.md)。

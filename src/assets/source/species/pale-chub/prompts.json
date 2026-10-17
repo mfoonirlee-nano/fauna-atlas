@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Adjust only framing of this pale chub Zacco platypus cover. Keep same species anatomy and water. Shrink entire fish uniformly to 74 percent and center on x=1080 y=475 in 1536x1024. Mouth and every fin tip must be within x=720..1450 and y=240..710. Left 46 percent empty water without animal. Full fish on right, no cropped fins, no text, no extra fish.",
+      "sourceSha256": "159bc0851579425e09c5c52715ebfa3846cf5a6b4598d6a2fc336108ec904956",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "81a130b6c75c73770e9e0a4be84a83e3cdab06329c73d24dba92b4ad67ce83e7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Zacco platypus pale chub, slender laterally compressed silver freshwater fish, blue-green vertical flank bars, forked tail, no barbels, no exaggerated fang-like jaw. Gallery scene: nonbreeding silver adult showing vertical flank bars. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "bf2544382b1b486cb9c331628b557cc0ae95dd58980f9115d82697c0a7759710",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "dca8271c5cba5bb54d438713b7aa5be44d194b7354884241081fb0884642de8d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Zacco platypus pale chub, slender laterally compressed silver freshwater fish, blue-green vertical flank bars, forked tail, no barbels, no exaggerated fang-like jaw. Gallery scene: breeding male with blue-green flank patches and rosy-red underside, enlarged elongated anal fin, entire fish. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "c3e60303fb7bcf8bd158c7a4f8142442f1469ba93a7bc58c0c50c3e34c4af6ab",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a0a7f8322740c7a65ec137f4c8422c1e5cd2b5fce92fe9464bd6fdd3ba1d3436",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Zacco platypus pale chub, slender laterally compressed silver freshwater fish, blue-green vertical flank bars, forked tail, no barbels, no exaggerated fang-like jaw. Gallery scene: whole fish swimming above gravel in a clear shallow stream. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "b8e751fbbce8a7cd26cda3705b7373cb9fcab4db90d5a59389ecab0bec17a60f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "78df617250938b34672d50ece0cf226f4ceca2518f0c36dde7a7c128f4b71e40",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Zacco platypus pale chub, slender laterally compressed silver freshwater fish, blue-green vertical flank bars, forked tail, no barbels, no exaggerated fang-like jaw. Gallery scene: small juvenile silvery fish above pebbles in a stream margin. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "a6ce6c42850980d42895599c1984c3ad4f2f401937614c0c18e301c3c327b269",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5fa199e1af81a89f7d31cd4b28b472bdde942cc48fdaae5c198d0e6daf91e911",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas photorealistic underwater natural-history reconstruction, landscape 1536x1024. Species: Zacco platypus pale chub, slender laterally compressed silver freshwater fish, blue-green vertical flank bars, forked tail, no barbels, no exaggerated fang-like jaw. Gallery scene: adult broadside over submerged stones with natural current patterns. Clear subject with natural margins, full visible body. Life stage and sex in scene override generic adult description. Correct species anatomy, natural freshwater light. No text, labels, diagrams, collage, inset, border or watermark.",
+      "sourceSha256": "243a205acf02365c1a31f1626b06bd604cda4bc13ae1f44b82fd478e9f6e4db7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "fa41f3ec1e33878569fb969d4261bcd031617332b4737c143cf367ecce7115fa",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

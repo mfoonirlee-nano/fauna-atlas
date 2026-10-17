@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Mylopharyngodon piceus",
+    "response": {
+      "usageKey": 2362110,
+      "scientificName": "Mylopharyngodon piceus (Richardson, 1846)",
+      "canonicalName": "Mylopharyngodon piceus",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Mylopharyngodon",
+      "species": "Mylopharyngodon piceus",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2362109,
+      "speciesKey": 2362110
+    }
+  },
+  {
+    "query": "Monopterus albus",
+    "response": {
+      "usageKey": 5204081,
+      "scientificName": "Monopterus albus (Zuiew, 1793)",
+      "canonicalName": "Monopterus albus",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Synbranchiformes",
+      "family": "Synbranchidae",
+      "genus": "Monopterus",
+      "species": "Monopterus albus",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 889,
+      "familyKey": 2223,
+      "genusKey": 2352025,
+      "speciesKey": 5204081
+    }
+  },
+  {
+    "query": "Pseudorasbora parva",
+    "response": {
+      "usageKey": 2362868,
+      "scientificName": "Pseudorasbora parva (Temminck & Schlegel, 1846)",
+      "canonicalName": "Pseudorasbora parva",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Pseudorasbora",
+      "species": "Pseudorasbora parva",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2362864,
+      "speciesKey": 2362868
+    }
+  },
+  {
+    "query": "Rhodeus sinensis",
+    "response": {
+      "usageKey": 2360841,
+      "scientificName": "Rhodeus sinensis Günther, 1868",
+      "canonicalName": "Rhodeus sinensis",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Rhodeus",
+      "species": "Rhodeus sinensis",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2360802,
+      "speciesKey": 2360841
+    }
+  },
+  {
+    "query": "Zacco platypus",
+    "response": {
+      "usageKey": 2365787,
+      "scientificName": "Zacco platypus (Temminck & Schlegel, 1846)",
+      "canonicalName": "Zacco platypus",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 99,
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Zacco",
+      "species": "Zacco platypus",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 1153,
+      "familyKey": 7336,
+      "genusKey": 2365782,
+      "speciesKey": 2365787
+    }
+  }
+]

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "635 animal species profiles; 560 historical baseline reviews and 75 additions through 2026-10-16; microbial topics excluded",
+  "scope": "640 animal species profiles; 560 historical baseline reviews and 80 additions through 2026-10-17; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -29605,7 +29605,211 @@
       "notes": [
         "2026-10-16：逐种核对物种范围、生活阶段与资料边界；按 stop-slop 复核。"
       ]
+    },
+    {
+      "slug": "black-carp",
+      "scientificName": "Mylopharyngodon piceus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Mylopharyngodon-piceus.html",
+            "https://www.fws.gov/species/black-carp-mylopharyngodon-piceus",
+            "https://www.fao.org/4/AC264E/AC264E01.htm"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Mylopharyngodon-piceus.html",
+            "https://www.fws.gov/species/black-carp-mylopharyngodon-piceus",
+            "https://www.fao.org/4/AC264E/AC264E01.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fishbase.se/summary/Mylopharyngodon-piceus.html",
+            "https://www.fws.gov/species/black-carp-mylopharyngodon-piceus",
+            "https://www.fao.org/4/AC264E/AC264E01.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362110"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362110"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "asian-swamp-eel",
+      "scientificName": "Monopterus albus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Monopterus-albus.html",
+            "https://animaldiversity.org/accounts/Monopterus_albus/",
+            "https://nas.er.usgs.gov/Queries/FactSheet.aspx?SpeciesID=974"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Monopterus-albus.html",
+            "https://animaldiversity.org/accounts/Monopterus_albus/",
+            "https://nas.er.usgs.gov/Queries/FactSheet.aspx?SpeciesID=974"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fishbase.se/summary/Monopterus-albus.html",
+            "https://animaldiversity.org/accounts/Monopterus_albus/",
+            "https://nas.er.usgs.gov/Queries/FactSheet.aspx?SpeciesID=974"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5204081"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5204081"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "topmouth-gudgeon",
+      "scientificName": "Pseudorasbora parva",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Pseudorasbora-parva.html",
+            "https://nas.er.usgs.gov/queries/greatlakes/FactSheet.aspx?Species_ID=3650"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Pseudorasbora-parva.html",
+            "https://nas.er.usgs.gov/queries/greatlakes/FactSheet.aspx?Species_ID=3650"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fishbase.se/summary/Pseudorasbora-parva.html",
+            "https://nas.er.usgs.gov/queries/greatlakes/FactSheet.aspx?Species_ID=3650"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362868"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2362868"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "chinese-bitterling",
+      "scientificName": "Rhodeus sinensis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S2352513424005957",
+            "https://www.fishbase.se/summary/Rhodeus-sinensis.html",
+            "https://pubmed.ncbi.nlm.nih.gov/42728659/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S2352513424005957",
+            "https://www.fishbase.se/summary/Rhodeus-sinensis.html",
+            "https://pubmed.ncbi.nlm.nih.gov/42728659/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S2352513424005957",
+            "https://www.fishbase.se/summary/Rhodeus-sinensis.html",
+            "https://pubmed.ncbi.nlm.nih.gov/42728659/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2360841"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2360841"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pale-chub",
+      "scientificName": "Zacco platypus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Zacco-platypus.html",
+            "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2023.1142810/full"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Zacco-platypus.html",
+            "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2023.1142810/full"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fishbase.se/summary/Zacco-platypus.html",
+            "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2023.1142810/full"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2365787"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2365787"
+          ]
+        }
+      }
     }
   ],
-  "updatedAt": "2026-10-14"
+  "updatedAt": "2026-10-17"
 }

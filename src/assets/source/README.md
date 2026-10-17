@@ -911,3 +911,9 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [Silver Carp image set](./species/silver-carp/README.md)
 - [Chinese Hooksnout Carp image set](./species/chinese-hooksnout-carp/README.md)
 - [Bighead Carp image set](./species/bighead-carp/README.md)
+
+- [青鱼 image set](./species/black-carp/README.md)
+- [黄鳝 image set](./species/asian-swamp-eel/README.md)
+- [麦穗鱼 image set](./species/topmouth-gudgeon/README.md)
+- [中华鳑鲏 image set](./species/chinese-bitterling/README.md)
+- [宽鳍鱲 image set](./species/pale-chub/README.md)

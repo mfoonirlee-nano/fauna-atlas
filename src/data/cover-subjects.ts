@@ -6351,5 +6351,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1444,
       "bottom": 644
     }
+  },
+  "black-carp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 658,
+      "top": 274,
+      "right": 1368,
+      "bottom": 580
+    }
+  },
+  "asian-swamp-eel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 704,
+      "top": 254,
+      "right": 1386,
+      "bottom": 551
+    }
+  },
+  "topmouth-gudgeon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 712,
+      "top": 318,
+      "right": 1370,
+      "bottom": 596
+    }
+  },
+  "chinese-bitterling": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 268,
+      "right": 1382,
+      "bottom": 644
+    }
+  },
+  "pale-chub": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 330,
+      "right": 1406,
+      "bottom": 612
+    }
   }
 };

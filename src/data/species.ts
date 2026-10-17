@@ -641,6 +641,12 @@ import profile632 from './species/silver-carp.js';
 import profile633 from './species/chinese-hooksnout-carp.js';
 import profile634 from './species/bighead-carp.js';
 
+import profile635 from './species/black-carp.js';
+import profile636 from './species/asian-swamp-eel.js';
+import profile637 from './species/topmouth-gudgeon.js';
+import profile638 from './species/chinese-bitterling.js';
+import profile639 from './species/pale-chub.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1277,6 +1283,11 @@ export const species: readonly Species[] = [
   profile632,
   profile633,
   profile634,
+  profile635,
+  profile636,
+  profile637,
+  profile638,
+  profile639,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
