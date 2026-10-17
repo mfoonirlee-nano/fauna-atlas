@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this landscape wildlife scene. Keep the same species, anatomy, coloration, pose and natural background. Uniformly reduce the ENTIRE turtle to 74% of its present linear size, reposition complete animal centered x=1110 y=530 on 1536x1024 canvas. All animal pixels must fit x=760 to1450 y=240to820, including nose, every visible claw and complete tail tip. Restore natural background wherever turtle moved. Left 48% quiet water and bank only. Do not crop or cut off tail or feet. Preserve realistic animal, no extra limbs, no text.",
+      "sourceSha256": "3d188bc423ca4f2bd19fe3234c3a3e389f40153b4a5b2a6fc1ab096ce4bd727a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "76a827a8f97f396c7f30f2b226c4c176e0b38e6b5b6b08956f15b0cfc5da8c9a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. One single Mauremys sinensis, Chinese stripe-necked turtle. Oval brown hard shell with three low longitudinal keels; long neck and dark olive head with numerous thin parallel pale yellow stripes, including neck; four webbed clawed feet, slender tail. No red ear patches. COVER COMPOSITION: entire animal and every visible toe, nose and tail tip completely inside image. Place ALL animal pixels within RIGHT HALF, x=800 to 1460 of 1536. Left 48% contains quiet out-of-focus habitat only. Full animal prominent in right half, center near x=1130; generous real background around silhouette. Three quarter side view facing left, resting at natural waterside. No additional animals.",
+      "revisionNote": "Final source uses a built-in image_gen edit of the initial candidate; prompt records the edit instruction."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys sinensis, Chinese stripe-necked turtle. Oval brown hard shell with three low longitudinal keels; long neck and dark olive head with numerous thin parallel pale yellow stripes, including neck; four webbed clawed feet, slender tail. No red ear patches. Adult on a weathered log over a still pond, full body oblique side view. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "93246938af339a825b729f4ece8d8d164b368424f5cf28b71d5c044fd95eceea",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "19f17afe96775d56e0ccb80fbc14700bdf0bad6884c5e3c7026cb003a6dc566c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys sinensis, Chinese stripe-necked turtle. Oval brown hard shell with three low longitudinal keels; long neck and dark olive head with numerous thin parallel pale yellow stripes, including neck; four webbed clawed feet, slender tail. No red ear patches. Head and neck observation showing many fine parallel yellow stripes; naturally continuous pattern. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "b48d26f25a30f4a1406e264d88eedce801bd2bbd77a7d15d0f56adc81565e3c6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "40a26cae51aa19deed1a7e63d5747462b2728157ae4363d2a3340a3938b4315e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys sinensis, Chinese stripe-necked turtle. Oval brown hard shell with three low longitudinal keels; long neck and dark olive head with numerous thin parallel pale yellow stripes, including neck; four webbed clawed feet, slender tail. No red ear patches. Full adult viewed from above on a pond-side rock, three low shell keels. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "8a1570cfddea0f32151ff174b15e12530e4d0a80ec175877f957cefe6bbec776",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8991029a6c6364a38a0b141db60e1263b23f4509d8995bc090bd0c2600c258cb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys sinensis, Chinese stripe-necked turtle. Oval brown hard shell with three low longitudinal keels; long neck and dark olive head with numerous thin parallel pale yellow stripes, including neck; four webbed clawed feet, slender tail. No red ear patches. Juvenile on wet leaf litter beside pond, small brown three-keeled shell and fine yellow neck stripes. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "c29dbdb1e3274c54dcb9b8f9a9e62f774a070c65f1f74dba7837e4c757a349a6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "33950a1386ab2e8e689d2190a1f6e25610a91b4a46a5dc31d470a210bc53be28",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Scientific wildlife photo reconstruction, horizontal 1536x1024. One single adult Chinese stripe-necked turtle Mauremys sinensis swimming underwater in a clear shallow natural freshwater pond, whole brown oval hard shell, three low longitudinal keels, many fine narrow parallel pale-yellow stripes on dark olive head and long neck, four clawed webbed feet visible. No red ear patch. Entire body and slender tail inside frame with natural water background margins. Side view with head pointing left. No other animal, no text, no diagram, no human.",
+      "sourceSha256": "baaf404073e97c7662a81aa9a2f742ffb846ac0001051fe9289a5a753d62c8cd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4cbe51ec3779fcfad9ec9b233d874ca099ad6b61f027c63e405d4a48dea92cdd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -925,3 +925,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [草龟 image set](./species/reeves-turtle/README.md)
 
 - [Chinese Softshell Turtle image set](./species/chinese-softshell-turtle/README.md)
+- [Chinese Stripe-necked Turtle image set](./species/chinese-stripe-necked-turtle/README.md)

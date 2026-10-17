@@ -6461,5 +6461,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1340,
       "bottom": 749
     }
+  },
+  "chinese-stripe-necked-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 740,
+      "top": 452,
+      "right": 1290,
+      "bottom": 713
+    }
   }
 };

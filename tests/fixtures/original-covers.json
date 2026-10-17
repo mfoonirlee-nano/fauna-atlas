@@ -5744,5 +5744,18 @@
       },
       "sha256": "4078df1fbaabfe41c810bf06c2bd92f0dc93dbc95c8b0da71b52c3f7187168af"
     }
+  },
+  "chinese-stripe-necked-turtle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 452,
+        "right": 1290,
+        "bottom": 713
+      },
+      "sha256": "76a827a8f97f396c7f30f2b226c4c176e0b38e6b5b6b08956f15b0cfc5da8c9a"
+    }
   }
 }
