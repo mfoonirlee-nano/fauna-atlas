@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this landscape wildlife scene. Keep the same species, anatomy, coloration, pose and natural background. Uniformly reduce the ENTIRE turtle to 74% of its present linear size, reposition complete animal centered x=1110 y=530 on 1536x1024 canvas. All animal pixels must fit x=760 to1450 y=240to820, including nose, every visible claw and complete tail tip. Restore natural background wherever turtle moved. Left 48% quiet water and bank only. Do not crop or cut off tail or feet. Preserve realistic animal, no extra limbs, no text.",
+      "sourceSha256": "173c1636732f4fd3f149fd0fd12ca045a927fe9270c392307025b2fbd86f563f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0894d208dd8a830da913166af57b6e8c85d8b2d873c8ab78144b881e091f8cbb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. One single Mauremys mutica, yellow pond turtle. Semi-aquatic turtle with smooth low-domed unornamented tan-brown oval shell, yellow throat, olive-brown head with a single broad pale yellow postocular stripe on each side, four webbed clawed feet and short tail. No dense thin neck striping, no red ear. COVER COMPOSITION: entire animal and every visible toe, nose and tail tip completely inside image. Place ALL animal pixels within RIGHT HALF, x=800 to 1460 of 1536. Left 48% contains quiet out-of-focus habitat only. Full animal prominent in right half, center near x=1130; generous real background around silhouette. Three quarter side view facing left, resting at natural waterside. No additional animals.",
+      "revisionNote": "Final source uses a built-in image_gen edit of the initial candidate; prompt records the edit instruction."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys mutica, yellow pond turtle. Semi-aquatic turtle with smooth low-domed unornamented tan-brown oval shell, yellow throat, olive-brown head with a single broad pale yellow postocular stripe on each side, four webbed clawed feet and short tail. No dense thin neck striping, no red ear. Whole adult standing on wet stone beside wooded pond. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "c068495238c09f33f70147a844b5b376a1307d0305e832e9a25121a780c9ef7e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "01640f55ad8e53f231560f6e275b7f614eb2f716f5c198ea05638ed2ae36402f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys mutica, yellow pond turtle. Semi-aquatic turtle with smooth low-domed unornamented tan-brown oval shell, yellow throat, olive-brown head with a single broad pale yellow postocular stripe on each side, four webbed clawed feet and short tail. No dense thin neck striping, no red ear. Close side observation of yellow throat and broad postocular stripe, no forced handling. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "c005f9f0e53f75b3ef2623319a0aedd7505c455ff5d673fce3832079cf332f6f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "50ac0db6ef90431076fbcbcaca8da657de2778f4b1303ccd59304de7be30411f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys mutica, yellow pond turtle. Semi-aquatic turtle with smooth low-domed unornamented tan-brown oval shell, yellow throat, olive-brown head with a single broad pale yellow postocular stripe on each side, four webbed clawed feet and short tail. No dense thin neck striping, no red ear. Full adult swimming in clear stream pool, muted tan shell. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "937492952f8de0f91e2649a080cf9324c788f14e6677fdbb6331bef20799d730",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "02ce22b04673d2e5c772320c8ecbd8525ac280264b0b503b11a2ec50fccf4374",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys mutica, yellow pond turtle. Semi-aquatic turtle with smooth low-domed unornamented tan-brown oval shell, yellow throat, olive-brown head with a single broad pale yellow postocular stripe on each side, four webbed clawed feet and short tail. No dense thin neck striping, no red ear. Small juvenile resting on mossy pond-edge stone, low brown shell, yellowish neck. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "f4772326be3bb00e53064576fc85e52be1d1985865cceedabd85a6cbe2c331b0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "42164e6cc68c259cbba390a1f2997bf7927c8a79bfce93c2bbb796567373927b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Mauremys mutica, yellow pond turtle. Semi-aquatic turtle with smooth low-domed unornamented tan-brown oval shell, yellow throat, olive-brown head with a single broad pale yellow postocular stripe on each side, four webbed clawed feet and short tail. No dense thin neck striping, no red ear. Whole adult crossing damp leafy ground near pond, no exposed eggs. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "87312218222694f3dd24f5e99e726d884c0bff0d8bdfead76c43ae4b3c7bb627",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e7dbc10559d98a913203d7d972d3a12aa6d17263bc3b890cebb2b43387753fb5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

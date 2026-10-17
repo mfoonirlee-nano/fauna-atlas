@@ -6462,6 +6462,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 749
     }
   },
+  "yellow-pond-turtle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 790,
+      "top": 418,
+      "right": 1398,
+      "bottom": 726
+    }
+  },
   "chinese-stripe-necked-turtle": {
     "width": 1536,
     "height": 1024,
