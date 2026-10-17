@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. One single Takydromus septentrionalis, China grass lizard. Slender small lacertid lizard, bronze-brown above with pale narrow dorsolateral stripes and darker brown flank band, long pointed head, four slim limbs with five delicate clawed toes on each foot, exceptionally long fine tapering tail about three times snout-vent length. Not neon green; no broad gecko toe pads. COVER COMPOSITION: entire animal and every visible toe, nose and tail tip completely inside image. Place ALL animal pixels within RIGHT HALF, x=800 to 1460 of 1536. Left 48% contains quiet out-of-focus habitat only. Full animal prominent in right half, center near x=1130; generous real background around silhouette. Long tail forms a loose curved arc entirely within right half; leave clear gaps to image edges. No additional animals.",
+      "sourceSha256": "6bb73a5bddfc2d6b3916d0689efe303684aa06145c6afe0c0cfc84105aaa5b56",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "78e603ade2aec7aec023f5518c3e1df3bf903ab63e55e354c519bfee92eff753",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Takydromus septentrionalis, China grass lizard. Slender small lacertid lizard, bronze-brown above with pale narrow dorsolateral stripes and darker brown flank band, long pointed head, four slim limbs with five delicate clawed toes on each foot, exceptionally long fine tapering tail about three times snout-vent length. Not neon green; no broad gecko toe pads. Whole lizard posed diagonally on grass stems, entire very long tail visible. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "50ed886c77e95af4f6caa1b65ce60c7fada36d54befcefd30cd297954e756e42",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "33d1f633f6baf9f945a830be556836e10a7e7fd301fcf00e8ba6142abd1052ee",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Takydromus septentrionalis, China grass lizard. Slender small lacertid lizard, bronze-brown above with pale narrow dorsolateral stripes and darker brown flank band, long pointed head, four slim limbs with five delicate clawed toes on each foot, exceptionally long fine tapering tail about three times snout-vent length. Not neon green; no broad gecko toe pads. Side head and foreleg observation among green grass, small granular scales and five slender toes. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "593afc5061c0e6bdb9f72a12b00c256c024b4d60779f81f307c03bb80a724093",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5c8ee2ce73bc4d41fd845f632dcbfb321a2fdf8ab349b10011201a29a06dec79",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Takydromus septentrionalis, China grass lizard. Slender small lacertid lizard, bronze-brown above with pale narrow dorsolateral stripes and darker brown flank band, long pointed head, four slim limbs with five delicate clawed toes on each foot, exceptionally long fine tapering tail about three times snout-vent length. Not neon green; no broad gecko toe pads. Full lizard climbing a dry grass stem, entire curling tapering tail visible. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "2b0e385a1ca0a968a04d69b0fe3782d1cfad8e1e1ca8e36e4695b59802b8e039",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8663796a23a8eb2545e9a67e03eeeff0c78272722e040d424829f4de834c94f8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Takydromus septentrionalis, China grass lizard. Slender small lacertid lizard, bronze-brown above with pale narrow dorsolateral stripes and darker brown flank band, long pointed head, four slim limbs with five delicate clawed toes on each foot, exceptionally long fine tapering tail about three times snout-vent length. Not neon green; no broad gecko toe pads. Small juvenile on low broad leaf, slender body and disproportionately long tail all visible. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "58268371b328cd437e0b41283fa56aaaf819949128c46571936e983325b68654",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "34f9aa349e259d69b61f733fee13dedde313c0574c5768137f3bb42b0a4a84e7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Photorealistic scientific wildlife scene reconstruction for educational species atlas. Natural anatomy, restrained natural colors, realistic habitat, soft daylight, landscape 1536x1024. No text, labels, logos, diagrams, human hands, collars, food bowl or captive tank. Takydromus septentrionalis, China grass lizard. Slender small lacertid lizard, bronze-brown above with pale narrow dorsolateral stripes and darker brown flank band, long pointed head, four slim limbs with five delicate clawed toes on each foot, exceptionally long fine tapering tail about three times snout-vent length. Not neon green; no broad gecko toe pads. Whole lizard on a sunlit meadow edge with all four limbs and entire tail visible. Distinct observation composition, subject large and naturally centered; fully visible features relevant to scene. No predation or invented courtship.",
+      "sourceSha256": "3b4416ad39650781d289d3582ca63d1d042a77815f09f007e06d3e3e19ba8f54",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "48b68c5d78e41e75bc6ef7c8f16210bf6ab6e6ae3f5b22b52ef80c53ae5c6273",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

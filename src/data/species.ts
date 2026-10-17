@@ -655,6 +655,7 @@ import profile644 from './species/reeves-turtle.js';
 import profile645 from './species/chinese-softshell-turtle.js';
 import profile646 from './species/chinese-stripe-necked-turtle.js';
 import profile647 from './species/yellow-pond-turtle.js';
+import profile648 from './species/northern-grass-lizard.js';
 
 export const species: readonly Species[] = [
   profile0,
@@ -1305,6 +1306,7 @@ export const species: readonly Species[] = [
   profile645,
   profile646,
   profile647,
+  profile648,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

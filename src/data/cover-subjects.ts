@@ -6472,6 +6472,16 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 726
     }
   },
+  "northern-grass-lizard": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 749,
+      "top": 232,
+      "right": 1496,
+      "bottom": 859
+    }
+  },
   "chinese-stripe-necked-turtle": {
     "width": 1536,
     "height": 1024,

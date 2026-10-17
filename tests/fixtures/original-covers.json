@@ -5758,6 +5758,19 @@
       "sha256": "0894d208dd8a830da913166af57b6e8c85d8b2d873c8ab78144b881e091f8cbb"
     }
   },
+  "northern-grass-lizard": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 749,
+        "top": 232,
+        "right": 1496,
+        "bottom": 859
+      },
+      "sha256": "78e603ade2aec7aec023f5518c3e1df3bf903ab63e55e354c519bfee92eff753"
+    }
+  },
   "chinese-stripe-necked-turtle": {
     "cover": {
       "width": 1536,
