@@ -921,3 +921,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [鲶 image set](./species/amur-catfish/README.md)
 - [黄颡鱼 image set](./species/yellow-catfish/README.md)
 - [乌鳢 image set](./species/northern-snakehead/README.md)
+- [尼罗罗非鱼 image set](./species/nile-tilapia/README.md)

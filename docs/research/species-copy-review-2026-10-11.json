@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "643 animal species profiles; 560 historical baseline reviews and 83 additions through 2026-10-17; microbial topics excluded",
+  "scope": "644 animal species profiles; 560 historical baseline reviews and 84 additions through 2026-10-17; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -29923,6 +29923,45 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/4284921"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "nile-tilapia",
+      "scientificName": "Oreochromis niloticus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Oreochromis-niloticus.html",
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_niletilapia.htm"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fishbase.se/summary/Oreochromis-niloticus.html",
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_niletilapia.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fishbase.se/summary/Oreochromis-niloticus.html",
+            "https://www.fao.org/fishery/docs/CDrom/aquaculture/I1129m/file/en/en_niletilapia.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4285694"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4285694"
           ]
         }
       }

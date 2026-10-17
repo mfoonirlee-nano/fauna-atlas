@@ -6431,5 +6431,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1359,
       "bottom": 558
     }
+  },
+  "nile-tilapia": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 654,
+      "top": 252,
+      "right": 1485,
+      "bottom": 702
+    }
   }
 };

@@ -5705,5 +5705,18 @@
       },
       "sha256": "601d821968f6f57ca92aab75ee58b8f5b15b4ca23324579588a93a8fb99961d8"
     }
+  },
+  "nile-tilapia": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 654,
+        "top": 252,
+        "right": 1485,
+        "bottom": 702
+      },
+      "sha256": "8e4ef11227018e1b7828f57d5cabcc2588401fda1886588bf749d0c1ebd87a67"
+    }
   }
 }

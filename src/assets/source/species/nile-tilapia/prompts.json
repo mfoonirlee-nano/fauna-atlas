@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Oreochromis niloticus, Nile tilapia: deep laterally compressed gray-silver body, small head, long continuous spiny and soft dorsal fin, rounded caudal fin with distinct narrow vertical dark stripes, faint vertical bars on flanks, NO barbels. Cover scene: one entire adult fish in side view facing left in natural freshwater. WIDE ENVIRONMENTAL COMPOSITION: left 48% of the full canvas is quiet water or soft pond background with NO animal. ENTIRE animal occupies only the right 44% of the canvas, its full silhouette fits between 48% and 93% of image width, centered at 71% width and 48% height. Subject width about 42% of whole canvas. All extremities have real background margin. Large legible subject in that right-side area, not close-up. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "27efaced6d4c1d596566bafe0ed8bee5bd5ba702922dd08c8a10500dac15e980",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8e4ef11227018e1b7828f57d5cabcc2588401fda1886588bf749d0c1ebd87a67",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Oreochromis niloticus, Nile tilapia: deep laterally compressed gray-silver body, small head, long continuous spiny and soft dorsal fin, rounded caudal fin with distinct narrow vertical dark stripes, faint vertical bars on flanks, NO barbels. Gallery scene: adult broadside showing vertically striped tail. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "188659736ad16329ec2f6c71756d924a6bf358f90e7e2cb4ed6ff88d7af2d2e9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "91107b9c94a8f8e10c1f1fdcb207cbedf60202ee43f36c5d1263db9cfdddabc7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Oreochromis niloticus, Nile tilapia: deep laterally compressed gray-silver body, small head, long continuous spiny and soft dorsal fin, rounded caudal fin with distinct narrow vertical dark stripes, faint vertical bars on flanks, NO barbels. Gallery scene: adult in three-quarter profile, complete fish and correct fins. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "fbd30d03489850077611ac3c1c13c24e6b69e322b72683bc57fa487e310ef849",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ea4f2c9a55f5b3150d359b0ffe9d8c53a363890b805f9421e8a53dfbf2f4c168",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Oreochromis niloticus, Nile tilapia: deep laterally compressed gray-silver body, small head, long continuous spiny and soft dorsal fin, rounded caudal fin with distinct narrow vertical dark stripes, faint vertical bars on flanks, NO barbels. Gallery scene: female hovering with loosely closed mouth in clear shallow water, NO transparent head or cutaway or giant eggs. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "82655c636b374fb798f85c4654aec986e6406e14d97a7ca3fe4b8cd9dfafb6ef",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a7257b1393bd4ec46d23f01638f04b26f1c590bbabd7ef5f98dca4c75a9d7978",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Oreochromis niloticus, Nile tilapia: deep laterally compressed gray-silver body, small head, long continuous spiny and soft dorsal fin, rounded caudal fin with distinct narrow vertical dark stripes, faint vertical bars on flanks, NO barbels. Gallery scene: small fry schooling in shallow warm water, no adult. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "7fce5030744e67c71fb2bfd3b1b2afd8bccb0ff141eec1344dc0d0b25544a397",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e32df193741a25f25c85fd224799fe8f81640043264101c21d9bb4023cbc54fa",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Oreochromis niloticus, Nile tilapia: deep laterally compressed gray-silver body, small head, long continuous spiny and soft dorsal fin, rounded caudal fin with distinct narrow vertical dark stripes, faint vertical bars on flanks, NO barbels. Gallery scene: single adult near fine natural algae on stones, realistic microscopic food not magnified. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "268e3e3e9defa91d0052516ac82214d21f5bdb5e9ecb69fe16ca79d8808a8eab",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "33ec68df0721ef8ffad9969e546a4ec839fb141bcf966cd1fe083223160fe990",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

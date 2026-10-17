@@ -650,6 +650,7 @@ import profile639 from './species/pale-chub.js';
 import profile640 from './species/amur-catfish.js';
 import profile641 from './species/yellow-catfish.js';
 import profile642 from './species/northern-snakehead.js';
+import profile643 from './species/nile-tilapia.js';
 
 export const species: readonly Species[] = [
   profile0,
@@ -1295,6 +1296,7 @@ export const species: readonly Species[] = [
   profile640,
   profile641,
   profile642,
+  profile643,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
