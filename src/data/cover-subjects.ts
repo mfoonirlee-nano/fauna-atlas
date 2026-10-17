@@ -6421,5 +6421,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1304,
       "bottom": 591
     }
+  },
+  "northern-snakehead": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 714,
+      "top": 383,
+      "right": 1359,
+      "bottom": 558
+    }
   }
 };

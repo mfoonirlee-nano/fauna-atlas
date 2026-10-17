@@ -5692,5 +5692,18 @@
       },
       "sha256": "31897d033f2bdcadd80b1d906c28569fa941b1ae9e322337478d76d1bf4c0e05"
     }
+  },
+  "northern-snakehead": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 714,
+        "top": 383,
+        "right": 1359,
+        "bottom": 558
+      },
+      "sha256": "601d821968f6f57ca92aab75ee58b8f5b15b4ca23324579588a93a8fb99961d8"
+    }
   }
 }

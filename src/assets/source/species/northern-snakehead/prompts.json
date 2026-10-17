@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit framing only of this Channa argus northern snakehead cover. Preserve correct long dorsal and anal fins, rounded tail, dark flank blotches and scaley head with no barbels. Scale the ENTIRE fish uniformly down to 77 percent, place center at x=1090 y=480 in 1536x1024. Entire fish must fit x=715..1450 with all fin tips and tail clear of borders. Left 46 percent completely empty quiet water with no animal. Preserve natural pond setting; no text.",
+      "sourceSha256": "5781a36d4cf5cd3310e793284661577b1cf5867c33eaa3be11d20b1aec441641",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "601d821968f6f57ca92aab75ee58b8f5b15b4ca23324579588a93a8fb99961d8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Channa argus, northern snakehead: elongated muscular brown freshwater fish, large flattened snake-like head with large scales, irregular dark saddle-shaped flank blotches, long continuous dorsal and anal fins, rounded caudal fin, NO barbels. Gallery scene: adult broadside showing irregular dark blotches and long fins. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "0bc95a528cf7ecb6e0e3d96506599be779917f2ed070992406ce52f74d301457",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "37c283143d45ee7a713b40a14e344ee2f5ad4d4a57f4567dc7981bd49dc327b1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Channa argus, northern snakehead: elongated muscular brown freshwater fish, large flattened snake-like head with large scales, irregular dark saddle-shaped flank blotches, long continuous dorsal and anal fins, rounded caudal fin, NO barbels. Gallery scene: whole fish just below surface, broad scaly head approaching air. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "40a5306199b70361a64054cabcad7735efc6a85135177d97befaa0c81da06280",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "288df10d30195526501f4a6e0dd6984a45a8da756983624ca39246b7f9db1f04",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Channa argus, northern snakehead: elongated muscular brown freshwater fish, large flattened snake-like head with large scales, irregular dark saddle-shaped flank blotches, long continuous dorsal and anal fins, rounded caudal fin, NO barbels. Gallery scene: adult among dense submerged pond plants. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "3e0b3f7d038915d25ac857a9bcfeebdbd96671543a6124893ec36e75b12fc695",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e92e06d42b1211a02c03707218befa9395dd6dc0775417abcb47319b969b03a1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Channa argus, northern snakehead: elongated muscular brown freshwater fish, large flattened snake-like head with large scales, irregular dark saddle-shaped flank blotches, long continuous dorsal and anal fins, rounded caudal fin, NO barbels. Gallery scene: small juveniles in a loose group in vegetated shallows, no giant eggs. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "61958cfbc66349a9148734951d0dc24d03475ca09c84f3bd10782b81ef0ce0ef",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5895079f0ccaa7630ad46472503939712af84637de580f3518ebe2ed36b23173",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas natural-history photorealistic reconstruction, landscape 1536x1024. Species: Channa argus, northern snakehead: elongated muscular brown freshwater fish, large flattened snake-like head with large scales, irregular dark saddle-shaped flank blotches, long continuous dorsal and anal fins, rounded caudal fin, NO barbels. Gallery scene: adult broadside near reed roots above pond bed. Subject clear with natural background and margins. Life stage overrides adult reference. Correct anatomy and natural light. No text, labels, diagram, collage, inset, watermark or borders.",
+      "sourceSha256": "f0575863fea93a834b99e360dbadfbf42bb1943b85542530a936e4e33a343272",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "667aff22cfdc3d9d511460ccc43498b86d4d707453645bf10dd69cfec779cd04",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
