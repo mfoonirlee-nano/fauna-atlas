@@ -1,0 +1,34 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Edit only the composition. Preserve this exact species and its complete anatomy and native background style. Move the ENTIRE animal, including its tail tip, into the rightmost 55% of this landscape. Tail tip must be to the right of pixel 680 on a 1536-wide image. Head must stay left of pixel 1480. Make the animal a little smaller if necessary to fit ALL appendages, maintain prominent full body. Keep the left 40% entirely animal-free quiet natural background. Preserve aspect ratio. No text or extra animals. No cropped body parts.",
+    "tool": "built-in image_gen",
+    "referenceSha256": "44f7bd8b1ecbc78d7f5261d268d2f5f8dd538cac37baa682a97cb25d64eff201",
+    "generationPrompt": "Scientific-educational naturalistic museum illustration. Landscape 1536x1024 canonical Fauna Atlas cover. ONLY ONE Ectopistes migratorius, passenger pigeon. Anatomy Slender male pigeon, blue-grey head and back, rusty pink breast, long pointed graduated tail, red eye, slim dark bill. eastern North American deciduous forest background. Strict layout: entire animal INCLUDING long tail contained in right 56 percent, bounding box x=670 to 1480, y=90 to 950. Place tail tip at x=690 and head at x=1400 facing right, tail angled down toward body rather than reaching far left. For bird use upright stance with long tail hanging diagonally down. Show whole body all feet with background margins. Leftmost 40 percent empty quiet habitat with no animal parts. Maximize subject within right rectangle. No text, no panels, no border, no other animals, no watermark. Reconstruction not photo."
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Ectopistes migratorius, passenger pigeon. Anatomy: Slender male pigeon, blue-grey head and back, rusty pink breast, long pointed graduated tail, red eye, slim dark bill. Native place: eastern North American deciduous forest. Scene: Lateral full-body study against quiet natural background, show characteristic body proportions and appendages. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Scientific educational museum illustration, wide landscape. Single male passenger pigeon head and chest portrait, blue-grey head, salmon breast, red eye. No other species. Anatomy: Slender male pigeon, blue-grey head and back, rusty pink breast, long pointed graduated tail, red eye, slim dark bill. Quiet neutral background. Extinct animal scientific reconstruction. One continuous scene, only this one species, no composite panels, no text, no border. Soft daylight.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Scientific educational museum illustration of ONLY Ectopistes migratorius, passenger pigeon. Slender male pigeon, blue-grey head and back, rusty pink breast, long pointed graduated tail, red eye, slim dark bill. Show a complete small sculpted exterior reconstruction MODEL of this extinct animal on a plain rectangular museum plinth, three-quarter view, in a quiet neutral museum alcove. Clear matte painted sculptural surface, no exposed bones or internal anatomy. All body parts visible. The model is an interpretive model, NOT an actual preserved specimen or fossil. No other animal, no humans, no labels, no text, no border. Wide landscape, soft gallery lighting.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Ectopistes migratorius, passenger pigeon. Anatomy: Slender male pigeon, blue-grey head and back, rusty pink breast, long pointed graduated tail, red eye, slim dark bill. Native place: eastern North American deciduous forest. Scene: Wide historical habitat scene, single complete animal on ground or low perch in its native place. No modern buildings, humans or other species. Not a present-day sighting. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Ectopistes migratorius, passenger pigeon. Anatomy: Slender male pigeon, blue-grey head and back, rusty pink breast, long pointed graduated tail, red eye, slim dark bill. Native place: eastern North American deciduous forest. Scene: Two separate complete side views of SAME animal, one side facing left, one facing right, on pale neutral museum plate background. Study view comparison only, not interaction or sexual dimorphism; no labels or scale bars. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  }
+]
