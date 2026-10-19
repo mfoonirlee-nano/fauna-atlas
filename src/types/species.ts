@@ -46,16 +46,28 @@ export interface SpeciesTaxonomy {
   readonly genus: Taxon;
 }
 
-export interface ConservationStatus {
-  readonly system: 'IUCN Red List';
-  readonly code: IucnStatusCode;
+interface ConservationEvidence {
   readonly label: LocalizedText;
   readonly trend: PopulationTrend;
-  /** Year of the assessment represented by this record, not the import year. Absent for NE. */
-  readonly assessedYear?: number;
-  readonly criteria?: string;
   readonly assessor: string;
 }
+
+export type ConservationStatus = ConservationEvidence & (
+  | {
+    readonly system: 'IUCN Red List';
+    readonly code: IucnStatusCode;
+    /** Year of the cited assessment, not the import or extinction year. */
+    readonly assessedYear?: number;
+    readonly criteria?: string;
+  }
+  | {
+    /** Extinction established by historical records or fossils, without claiming an IUCN assessment. */
+    readonly system: 'Historical and fossil evidence';
+    readonly code: 'EX';
+    readonly assessedYear?: never;
+    readonly criteria?: never;
+  }
+);
 
 export interface GeoPoint {
   readonly lat: number;

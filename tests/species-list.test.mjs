@@ -170,6 +170,10 @@ test('species status filter exposes not-evaluated profiles', () => {
   assert.match(appSource, /IUCN 尚未评估/);
 });
 
+test('historical extinction evidence has its own source footer', () => {
+  assert.match(appSource, /conservation\.system === 'Historical and fossil evidence'\s*\? '灭绝依据：历史记录或化石研究'/);
+});
+
 const paginationCode = await readFile(new URL('../node_modules/.tmp/species-list-test/domain/species-pagination.js', import.meta.url), 'utf8');
 const { paginateSpecies } = await import(`data:text/javascript;base64,${Buffer.from(paginationCode).toString('base64')}`);
 

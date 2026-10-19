@@ -832,11 +832,13 @@ function SpeciesDetail({ item, index, saved, onClose, onToggleSaved }: SpeciesDe
             </div>
             <p className="source-section__updated">
               最近更新于 {formatDate(item.updatedAt)} ·{' '}
-              {item.conservation.assessedYear === undefined
-                ? item.conservation.code === 'NE'
-                  ? 'IUCN 尚未评估'
-                  : '保护等级评估年份待核实'
-                : `保护等级评估年份 ${item.conservation.assessedYear}`}
+              {item.conservation.system === 'Historical and fossil evidence'
+                ? '灭绝依据：历史记录或化石研究'
+                : item.conservation.assessedYear === undefined
+                  ? item.conservation.code === 'NE'
+                    ? 'IUCN 尚未评估'
+                    : '保护等级评估年份待核实'
+                  : `保护等级评估年份 ${item.conservation.assessedYear}`}
             </p>
           </section>
         </div>
