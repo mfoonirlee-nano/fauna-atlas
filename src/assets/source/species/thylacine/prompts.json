@@ -1,0 +1,34 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Edit only the composition. Preserve this exact species and its complete anatomy and native background style. Move the ENTIRE animal, including its tail tip, into the rightmost 55% of this landscape. Tail tip must be to the right of pixel 680 on a 1536-wide image. Head must stay left of pixel 1480. Make the animal a little smaller if necessary to fit ALL appendages, maintain prominent full body. Keep the left 40% entirely animal-free quiet natural background. Preserve aspect ratio. No text or extra animals. No cropped body parts.",
+    "tool": "built-in image_gen",
+    "referenceSha256": "e4f4771bef41df6b3e7dd8971cfa84077cd3f786aa7f59ec448827f9a80bfc05",
+    "generationPrompt": "Scientific-educational naturalistic museum illustration. Landscape 1536x1024 canonical Fauna Atlas cover. ONLY ONE Thylacinus cynocephalus, thylacine. Anatomy Lean sandy brown marsupial, dark transverse stripes over lower back and tail base, stiff tapered long tail, rounded upright ears, long muzzle, four legs. Not a tiger or wolf. Tasmanian open woodland background. Strict layout: entire animal INCLUDING long tail contained in right 56 percent, bounding box x=670 to 1480, y=90 to 950. Place tail tip at x=690 and head at x=1400 facing right, tail angled down toward body rather than reaching far left. For bird use upright stance with long tail hanging diagonally down. Show whole body all feet with background margins. Leftmost 40 percent empty quiet habitat with no animal parts. Maximize subject within right rectangle. No text, no panels, no border, no other animals, no watermark. Reconstruction not photo."
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Thylacinus cynocephalus, thylacine. Anatomy: Lean sandy brown marsupial, dark transverse stripes over lower back and tail base, stiff tapered long tail, rounded upright ears, long muzzle, four legs. Not a tiger or wolf. Native place: Tasmanian open woodland. Scene: Lateral full-body study against quiet natural background, show characteristic body proportions and appendages. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Scientific educational museum illustration, wide landscape. Single thylacine rear body detail showing transverse dark stripes and long tapering tail. No other species. Anatomy: Lean sandy brown marsupial, dark transverse stripes over lower back and tail base, stiff tapered long tail, rounded upright ears, long muzzle, four legs. Not a tiger or wolf. Quiet neutral background. Extinct animal scientific reconstruction. One continuous scene, only this one species, no composite panels, no text, no border. Soft daylight.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Scientific educational museum illustration of ONLY Thylacinus cynocephalus, thylacine. Lean sandy brown marsupial, dark transverse stripes over lower back and tail base, stiff tapered long tail, rounded upright ears, long muzzle, four legs. Not a tiger or wolf. Show a complete small sculpted exterior reconstruction MODEL of this extinct animal on a plain rectangular museum plinth, three-quarter view, in a quiet neutral museum alcove. Clear matte painted sculptural surface, no exposed bones or internal anatomy. All body parts visible. The model is an interpretive model, NOT an actual preserved specimen or fossil. No other animal, no humans, no labels, no text, no border. Wide landscape, soft gallery lighting.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Thylacinus cynocephalus, thylacine. Anatomy: Lean sandy brown marsupial, dark transverse stripes over lower back and tail base, stiff tapered long tail, rounded upright ears, long muzzle, four legs. Not a tiger or wolf. Native place: Tasmanian open woodland. Scene: Wide historical habitat scene, single complete animal on ground or low perch in its native place. No modern buildings, humans or other species. Not a present-day sighting. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Thylacinus cynocephalus, thylacine. Anatomy: Lean sandy brown marsupial, dark transverse stripes over lower back and tail base, stiff tapered long tail, rounded upright ears, long muzzle, four legs. Not a tiger or wolf. Native place: Tasmanian open woodland. Scene: Two separate complete side views of SAME animal, one side facing left, one facing right, on pale neutral museum plate background. Study view comparison only, not interaction or sexual dimorphism; no labels or scale bars. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  }
+]
