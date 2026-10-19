@@ -1,0 +1,32 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Use case: scientific-educational. Asset: Fauna Atlas canonical species cover, wide landscape 1536x1024. Create a naturalistic scientific reconstruction illustration of Raphus cucullatus (dodo), an upright lean flightless pigeon on Mauritius forest floor. Complete single adult body on right: large hooked bill, small wings, grey-brown plumage, short curled tail feathers, sturdy legs and all toes visible. Subject bounding box approximately x=690..1460, y=90..960; center beyond 60% width, maximize animal within this area. Left 40% quiet forest background for title. Real background clearance on all edges. Soft daylight, detailed restrained museum illustration, no text, watermark or frame. Not a photograph, not an obese caricature. Plumage tones are reconstruction choices; do not depict fantastical colors.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Raphus cucullatus, dodo. Anatomy: Upright lean grey-brown flightless pigeon, massive hooked bill, small wings, short curled pale tail, stout legs. Native place: Mauritius forest. Scene: Lateral full-body study against quiet natural background, show characteristic body proportions and appendages. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Scientific educational museum illustration, wide landscape. Single dodo head, hooked beak and shoulder close-up, no other species. Anatomy: Upright lean grey-brown flightless pigeon, massive hooked bill, small wings, short curled pale tail, stout legs. Quiet neutral background. Extinct animal scientific reconstruction. One continuous scene, only this one species, no composite panels, no text, no border. Soft daylight.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Scientific educational museum illustration of ONLY Raphus cucullatus, dodo. Upright lean grey-brown flightless pigeon, massive hooked bill, small wings, short curled pale tail, stout legs. Show a complete small sculpted exterior reconstruction MODEL of this extinct animal on a plain rectangular museum plinth, three-quarter view, in a quiet neutral museum alcove. Clear matte painted sculptural surface, no exposed bones or internal anatomy. All body parts visible. The model is an interpretive model, NOT an actual preserved specimen or fossil. No other animal, no humans, no labels, no text, no border. Wide landscape, soft gallery lighting.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Raphus cucullatus, dodo. Anatomy: Upright lean grey-brown flightless pigeon, massive hooked bill, small wings, short curled pale tail, stout legs. Native place: Mauritius forest. Scene: Wide historical habitat scene, single complete animal on ground or low perch in its native place. No modern buildings, humans or other species. Not a present-day sighting. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Raphus cucullatus, dodo. Anatomy: Upright lean grey-brown flightless pigeon, massive hooked bill, small wings, short curled pale tail, stout legs. Native place: Mauritius forest. Scene: Two separate complete side views of SAME animal, one side facing left, one facing right, on pale neutral museum plate background. Study view comparison only, not interaction or sexual dimorphism; no labels or scale bars. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  }
+]
