@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Cyanopica cyanus, Azure-winged Magpie, black cap, pale whitish throat, grey-brown body, pale blue wings and long light-blue tail, black short bill and feet. Habitat: East Asian open woodland park. Scene: one adult perched side-on on a slender branch with entire long tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "a0376fcc27db4e072eb47f7ce9d64675c42ae813fb71c8c18d06d8cc1d9cd1e0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3180fd042973a2cc06dae616582ea54dcd729cd4a1809cb638ba080c86a66b48",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Cyanopica cyanus, Azure-winged Magpie, black cap, pale whitish throat, grey-brown body, pale blue wings and long light-blue tail, black short bill and feet. Habitat: East Asian open woodland park. Scene: adult upper body showing black cap and whitish throat. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "ca3c6b1c448ee3397c7d58750325a4e1469b25f4139e68ad558414ecb3e6b2f4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "db9d5efeddca739e87a1828fbcfd076497b5b07912209770827c882535e30119",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Cyanopica cyanus, Azure-winged Magpie, black cap, pale whitish throat, grey-brown body, pale blue wings and long light-blue tail, black short bill and feet. Habitat: East Asian open woodland park. Scene: adult on ground holding a small acorn in bill. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "3e769ad06baba8d420c256620e886564267cee1da77ff15d0f3fdbca0c7eb781",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b2ce1768dbbdc99fd4c124e79719e0b952d9f5da170ddc1d613eb8345191baba",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Cyanopica cyanus, Azure-winged Magpie, black cap, pale whitish throat, grey-brown body, pale blue wings and long light-blue tail, black short bill and feet. Habitat: East Asian open woodland park. Scene: three adults spaced on a branch, all long tails visible. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "d1d688f98905e391b9e87a3a08a66d1a0a1b09cc0a5f8b2ef7400a947286be90",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "49fba0c2eb36d6efb12a50aea80bb4af829b8a133a6f6b9342881e2b86e9e165",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Cyanopica cyanus, Azure-winged Magpie, black cap, pale whitish throat, grey-brown body, pale blue wings and long light-blue tail, black short bill and feet. Habitat: East Asian open woodland park. Scene: one adult in flight, full pale blue wings and tail. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "ccd669af95fce3b37d373120e86b01bba938a3af4024f5f8739c1e4d765423f3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f8ed252fd2e8f393df945a742d1a50b8b404cc18c018d06e9ddaee7d6e3251a6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Cyanopica cyanus, Azure-winged Magpie, black cap, pale whitish throat, grey-brown body, pale blue wings and long light-blue tail, black short bill and feet. Habitat: East Asian open woodland park. Scene: adult perched rear three-quarter view, showing blue tail and folded wings. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "735de6069567e348524883275dcabf35634a8c833581a947a42ced7239b2685b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ffbd423a282eb7a85afbb5072f7bb70e3bc3cd291dd9fe9983005ab8bcd48f8e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

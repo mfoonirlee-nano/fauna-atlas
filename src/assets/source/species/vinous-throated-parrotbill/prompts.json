@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Sinosuthora webbiana, Vinous-throated Parrotbill, tiny rounded bird with cinnamon-rufous crown, warm pinkish-buff throat, greyish-brown back, short stout pale parrot-like bill and long graduated brown tail. Habitat: East Asian reed and scrub edge. Scene: one adult perched side-on on a thin reed with full tail and toes. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "c716f682841705bdfd55db36025b51f0532a961e745ac0b2e17046d8673aecaa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "51f9519648843e07a3cb96d82ec40f104e58b7b787a32138313517bc17be700f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Sinosuthora webbiana, Vinous-throated Parrotbill, tiny rounded bird with cinnamon-rufous crown, warm pinkish-buff throat, greyish-brown back, short stout pale parrot-like bill and long graduated brown tail. Habitat: East Asian reed and scrub edge. Scene: adult head close view of very short stout pale bill and cinnamon crown. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "6de5ce63a3d0200b97edc1bbb5a059a6c2cfbfabc4958d2fb20d31028c346f44",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1e942b565f62e843513ee584f0cfef5fe3fc4d931b75e0cbb7d86235f438a168",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Sinosuthora webbiana, Vinous-throated Parrotbill, tiny rounded bird with cinnamon-rufous crown, warm pinkish-buff throat, greyish-brown back, short stout pale parrot-like bill and long graduated brown tail. Habitat: East Asian reed and scrub edge. Scene: adult clinging to reed seedhead, full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "5995516279233f14af949b3bb4ce26681d385bad596294f356ca221428a365d2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3025f269b8084207357bea38c064f839d687c6a73b990770dd9bd78668d3ad17",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Sinosuthora webbiana, Vinous-throated Parrotbill, tiny rounded bird with cinnamon-rufous crown, warm pinkish-buff throat, greyish-brown back, short stout pale parrot-like bill and long graduated brown tail. Habitat: East Asian reed and scrub edge. Scene: three birds spaced on reed stems, full tails visible. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "f5582f2109a7ae84f75c29877e673c8355c30d1f8bff8a1b0029c63b83b77f22",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d6923f6251da74871791c919a6b2715f005e439a6a1c80d36e764937d5e3eedd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Sinosuthora webbiana, Vinous-throated Parrotbill, tiny rounded bird with cinnamon-rufous crown, warm pinkish-buff throat, greyish-brown back, short stout pale parrot-like bill and long graduated brown tail. Habitat: East Asian reed and scrub edge. Scene: one adult carrying a small invertebrate in bill on a shrub twig. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "ff85dda7def6e55a3c9ce823fe38afd44e8f782f1b114e99ed74417ceb9a6455",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8a62f858a3dfd638ed33e0493c1cdbd8752ca292d193d72237973820b99d52b3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Sinosuthora webbiana, Vinous-throated Parrotbill, tiny rounded bird with cinnamon-rufous crown, warm pinkish-buff throat, greyish-brown back, short stout pale parrot-like bill and long graduated brown tail. Habitat: East Asian reed and scrub edge. Scene: adult perched in dry winter reeds, warm vinous throat visible. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "156b1000a4fbcab7d64515430d091c257525a3e1f021be766ed515d23323e4c4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6d2407e7b31db553e0c05ec8a9f3eecb10b75856ef315fe055303ce84616f44c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical cover. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Cervus elaphus European red deer, reddish brown summer coat without white spots in adults, buff rump and short tail, stag with branched crown-like antlers, European woodland edge; not North American wapiti Cervus canadensis. Scene: one adult male stag side-on, moderate complete branched antlers, full body in open woodland glade. COVER COMPOSITION: Entire subject INCLUDING every whisker, all visible toes, ears, complete tail and all horn/antler tips must fit inside x=46%-93%, y=10%-90%. Large prominent animal on RIGHT, complete silhouette center at 70% image width. Left 40% quiet softly blurred native habitat. Visible background clearance surrounds every extremity. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "af3332a4c04c33f6ba7ff0437b340442053aa3c4c6d8259a882c7632d0390d7c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d7e8b56d3729f9fb75e66bec6f81eee3fb1d4db7e6a1e62280ebe065a672902f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Cervus elaphus European red deer, reddish brown summer coat without white spots in adults, buff rump and short tail, stag with branched crown-like antlers, European woodland edge; not North American wapiti Cervus canadensis. Scene: adult female hind without antlers grazing grass, complete body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "f0c826776102b1e278f3d008582d97f58e3b2aeead333054e87f2b2151439237",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6238a3306abd1e8b53167a452193cdc01ac75941f6f47b488146da365c51726c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Cervus elaphus European red deer, reddish brown summer coat without white spots in adults, buff rump and short tail, stag with branched crown-like antlers, European woodland edge; not North American wapiti Cervus canadensis. Scene: adult male with soft velvet on growing antlers, full body and whole antlers. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "09a88a43518c0c2335a169dba228a8bc034161676a8c51a15b67ad687d7ea82b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1d112db39e4a1c2d5890c96ff2397671f40c2ee6f0daf56bc4dbadc0e1c614da",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Cervus elaphus European red deer, reddish brown summer coat without white spots in adults, buff rump and short tail, stag with branched crown-like antlers, European woodland edge; not North American wapiti Cervus canadensis. Scene: female and one white-spotted fawn standing beside her in woodland, both complete. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "a3a417f3853c9055d4d0ee2beb16400d2bc14171637663baf0157805c2b8b7ff",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ce5b78b309dd0bbb71f8697cd0be1a9b5744000765609d4158e1705f7dfc0df7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Cervus elaphus European red deer, reddish brown summer coat without white spots in adults, buff rump and short tail, stag with branched crown-like antlers, European woodland edge; not North American wapiti Cervus canadensis. Scene: adult stag standing in autumn moorland with head raised and mouth open in rut-call pose, entire antlers and body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "0aa80d1a99116b8f8bb66d9d5b8289df3674390562d0d93378bfcf9950014aeb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0feee612047c819f723037ba45949f03d7a47910a8142ea8810c60facc241961",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Cervus elaphus European red deer, reddish brown summer coat without white spots in adults, buff rump and short tail, stag with branched crown-like antlers, European woodland edge; not North American wapiti Cervus canadensis. Scene: adult in thicker darker winter coat standing at woodland edge, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "6cfdfc4a7b5e3dac9a732032ae9cff4260759ff6a7306347f99345ccc6c58c55",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f695cd18fce36fe4e0c2e971c1571cc30c239a093211ece4571e4e7d123324c5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

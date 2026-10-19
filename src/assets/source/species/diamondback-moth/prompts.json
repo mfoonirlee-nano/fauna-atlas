@@ -1,0 +1,139 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas species COVER, 1536x1024 landscape. Preserve the narrow grey-brown Plutella xylostella moth, pale linked diamond pattern, fringed wings, six slender legs and two complete thin antennae on brassica leaf. Make entire moth INCLUDING antennae 75 percent of its current size and center the COMPLETE SILHOUETTE at x=1110. Every antenna tip, foot and wing fringe must stay strictly inside x=770 to x=1450 and y=150 to y=850. Left HALF of canvas must contain no insect parts. Keep prominent full animal, realistic anatomy and natural lighting. No text or watermark.",
+      "sourceFile": "exec-e81234f8-683e-4891-87a1-23d1e7ae6ee7.png",
+      "sourceSha256": "8426733324452c9633121a0355e4a6215bf671e51303398a65d83cb1da5c1961",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "341211589566aa56bde56b09bd9618bb2dac57ad41deea53cd5083ce7dfc6293",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Plutella xylostella (小菜蛾). Adult identification: small slender grey-brown diamondback moth, narrow fringed wings folded rooflike, pale wavy dorsal stripe forming linked light diamond shapes, thin antennae, six legs. Scene: whole resting adult on brassica leaf, side-three-quarter view; setting: brassica leaf in vegetable garden. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-2dc60780-526a-4d66-a60a-f3a2bdafada6.png",
+          "sourceSha256": "65951624e147de02c7b4b8be627e47f0ddfe88695749fa7b8a7179bb3aef39d8",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "subjectBounds": [
+            542,
+            93,
+            1394,
+            725
+          ],
+          "reviewReason": "Initial antennae or wing entered left 40 percent; reduce whole animal and move right."
+        }
+      ],
+      "editInputSha256": "65951624e147de02c7b4b8be627e47f0ddfe88695749fa7b8a7179bb3aef39d8",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        542,
+        93,
+        1394,
+        725
+      ],
+      "revisionReason": "Initial antennae or wing entered left 40 percent; reduce whole animal and move right."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Plutella xylostella (小菜蛾). Adult identification: small slender grey-brown diamondback moth, narrow fringed wings folded rooflike, pale wavy dorsal stripe forming linked light diamond shapes, thin antennae, six legs. Scene: dorsal resting adult showing pale linked diamond markings; setting: brassica leaf in vegetable garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-a4fcdfa8-df54-4a47-836e-92a1ce757fe0.png",
+      "sourceSha256": "675095725a6829b7bd2d842c60795f0d9298eb96a9c82cdd79494d75190615ed",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e9e34c3b46a5256b43ec240d2211921f2209efa9113ecf9e1b550f9b54edd544",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic documentary macro photograph, 1536x1024 landscape. ONLY ONE pale green Plutella xylostella CATERPILLAR on underside of a fresh brassica leaf. A small slender larva with tapered pointed rear, lightly segmented green body, small head, tiny thoracic legs and abdominal prolegs, no adult wings. Show caterpillar clearly, large and in focus, leaf veins as environment. NO ADULT MOTH anywhere. No collage, labels, text or watermark.",
+      "sourceFile": "exec-fdaa4bdb-a989-4117-a8cd-61bd787c079f.png",
+      "sourceSha256": "64a29380b7d0ef0ce2cd57598df187063aff1b3d9438eb7de0beefe05a741656",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8b947bf1bc69c1985b93a137b87a14e0863c7fa701f7fe0db26a6dbb06ea5814",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Plutella xylostella (小菜蛾). Adult identification: small slender grey-brown diamondback moth, narrow fringed wings folded rooflike, pale wavy dorsal stripe forming linked light diamond shapes, thin antennae, six legs. Scene: slender pale green caterpillar with tapered ends on underside of brassica leaf; setting: brassica leaf in vegetable garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-2248e828-6f75-4a07-9961-218c20b56437.png",
+          "sourceSha256": "a2d82ea98c61b4533cac000b32370ab53d8e6bec106c7fb1a9075b3d7351f370",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "reviewReason": "Initial image showed adult moth rather than intended green larva."
+        }
+      ],
+      "revisionReason": "Initial image showed adult moth rather than intended green larva."
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Plutella xylostella (小菜蛾). Adult identification: small slender grey-brown diamondback moth, narrow fringed wings folded rooflike, pale wavy dorsal stripe forming linked light diamond shapes, thin antennae, six legs. Scene: green caterpillar beside irregular small leaf feeding holes on cabbage; setting: brassica leaf in vegetable garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-5ef146c7-9c34-4f06-ad35-484c5bdb4fde.png",
+      "sourceSha256": "2e9648160d70d6e38426a22389f62e5399a846b8d3de98b740dc7621a649201c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7a16ecff4cb0333eea36d17f6b35dfdbb5af9296f57766e9e7e9e95b9626e54d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Plutella xylostella (小菜蛾). Adult identification: small slender grey-brown diamondback moth, narrow fringed wings folded rooflike, pale wavy dorsal stripe forming linked light diamond shapes, thin antennae, six legs. Scene: delicate loose white silk mesh cocoon holding slender pupa attached to cabbage underside; setting: brassica leaf in vegetable garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-1e5c8b29-ce00-4a09-a15d-ad8cdcbe261e.png",
+      "sourceSha256": "548d83c76f0c1f35bfb85cfb6b2b7940ff6833f000c214f2f30be7c02480f9ac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "42906be8533fc4eea3c278057992afae12c6cc88f014a6ab79329e2ef9f32519",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Plutella xylostella (小菜蛾). Adult identification: small slender grey-brown diamondback moth, narrow fringed wings folded rooflike, pale wavy dorsal stripe forming linked light diamond shapes, thin antennae, six legs. Scene: adult side view near intact brassica plant in garden, wings folded; setting: brassica leaf in vegetable garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-6ae16980-91b8-4f57-a55f-3174cf225b56.png",
+      "sourceSha256": "b2c1631819118a6562343941d256a1efb7845fdf2a67788bfc3552bc81346da7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a80b3db88f51f2453a5fc01351612d3c0731176009d40f9773c3923656486e7b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -664,6 +664,52 @@ import profile652 from './species/house-mouse.js';
 import profile653 from './species/brown-rat.js';
 import profile654 from './species/sika-deer.js';
 
+import profile655 from './species/adzuki-bean-beetle.js';
+import profile656 from './species/asian-common-toad.js';
+import profile657 from './species/asian-jumping-mantis.js';
+import profile658 from './species/asian-tiger-mosquito.js';
+import profile659 from './species/azure-winged-magpie.js';
+import profile660 from './species/bactrian-camel.js';
+import profile661 from './species/black-headed-gull.js';
+import profile662 from './species/black-soldier-fly.js';
+import profile663 from './species/black-tailed-gull.js';
+import profile664 from './species/chinese-carpenter-bee.js';
+import profile665 from './species/common-mormon.js';
+import profile666 from './species/crested-myna.js';
+import profile667 from './species/diamondback-moth.js';
+import profile668 from './species/domestic-yak.js';
+import profile669 from './species/eastern-cattle-egret.js';
+import profile670 from './species/eurasian-siskin.js';
+import profile671 from './species/gazami-crab.js';
+import profile672 from './species/green-leafhopper.js';
+import profile673 from './species/housefly.js';
+import profile674 from './species/large-billed-crow.js';
+import profile675 from './species/manila-clam.js';
+import profile676 from './species/oriental-river-prawn.js';
+import profile677 from './species/pacific-oyster.js';
+import profile678 from './species/paddy-frog.js';
+import profile679 from './species/pale-grass-blue.js';
+import profile680 from './species/pallas-squirrel.js';
+import profile681 from './species/pantropical-huntsman-spider.js';
+import profile682 from './species/pantropical-jumping-spider.js';
+import profile683 from './species/red-billed-blue-magpie.js';
+import profile684 from './species/red-deer.js';
+import profile685 from './species/red-swamp-crayfish.js';
+import profile686 from './species/red-whiskered-bulbul.js';
+import profile687 from './species/red-wiggler.js';
+import profile688 from './species/reeves-muntjac.js';
+import profile689 from './species/rice-weevil.js';
+import profile690 from './species/siberian-chipmunk.js';
+import profile691 from './species/siberian-weasel.js';
+import profile692 from './species/ventricose-orb-weaver.js';
+import profile693 from './species/vinous-throated-parrotbill.js';
+import profile694 from './species/western-yellow-wagtail.js';
+import profile695 from './species/white-browed-laughingthrush.js';
+import profile696 from './species/white-rumped-munia.js';
+import profile697 from './species/white-wagtail.js';
+import profile698 from './species/whiteleg-shrimp.js';
+import profile699 from './species/yellow-legged-hornet.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1320,6 +1366,51 @@ export const species: readonly Species[] = [
   profile652,
   profile653,
   profile654,
+  profile655,
+  profile656,
+  profile657,
+  profile658,
+  profile659,
+  profile660,
+  profile661,
+  profile662,
+  profile663,
+  profile664,
+  profile665,
+  profile666,
+  profile667,
+  profile668,
+  profile669,
+  profile670,
+  profile671,
+  profile672,
+  profile673,
+  profile674,
+  profile675,
+  profile676,
+  profile677,
+  profile678,
+  profile679,
+  profile680,
+  profile681,
+  profile682,
+  profile683,
+  profile684,
+  profile685,
+  profile686,
+  profile687,
+  profile688,
+  profile689,
+  profile690,
+  profile691,
+  profile692,
+  profile693,
+  profile694,
+  profile695,
+  profile696,
+  profile697,
+  profile698,
+  profile699,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

@@ -1,0 +1,242 @@
+{
+  "Cicadella viridis": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Cicadella%20viridis",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  },
+  "Araneus ventricosus": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Araneus%20ventricosus",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  },
+  "Heteropoda venatoria": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Heteropoda%20venatoria",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  },
+  "Plexippus paykulli": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Plexippus%20paykulli",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  },
+  "Procambarus clarkii": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Procambarus%20clarkii",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 1,
+      "results": [
+        {
+          "key": 176658132,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 2227300,
+          "parentKey": 340226576,
+          "parent": "Procambarus",
+          "kingdom": "ANIMALIA",
+          "phylum": "ARTHROPODA",
+          "order": "DECAPODA",
+          "family": "CAMBARIDAE",
+          "genus": "Procambarus",
+          "species": "Procambarus clarkii",
+          "kingdomKey": 340214027,
+          "phylumKey": 340222690,
+          "classKey": 340225443,
+          "orderKey": 340225645,
+          "familyKey": 340226561,
+          "genusKey": 340226576,
+          "speciesKey": 176658132,
+          "scientificName": "Procambarus clarkii (Girard, 1852)",
+          "canonicalName": "Procambarus clarkii",
+          "authorship": "(Girard, 1852)",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "ACCEPTED",
+          "rank": "SPECIES",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "153877",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [
+            "LEAST_CONCERN"
+          ],
+          "descriptions": [],
+          "vernacularNames": [
+            {
+              "vernacularName": "Red Swamp Crayfish",
+              "language": "eng"
+            }
+          ],
+          "synonym": false,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340222690": "ARTHROPODA",
+            "340225443": "MALACOSTRACA",
+            "340225645": "DECAPODA",
+            "340226561": "CAMBARIDAE",
+            "340226576": "Procambarus"
+          },
+          "class": "MALACOSTRACA"
+        }
+      ],
+      "facets": []
+    },
+    "descriptions": {
+      "url": "https://api.gbif.org/v1/species/176658132/descriptions",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "results": []
+      }
+    }
+  },
+  "Penaeus vannamei": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Penaeus%20vannamei",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  },
+  "Macrobrachium nipponense": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Macrobrachium%20nipponense",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 1,
+      "results": [
+        {
+          "key": 176653794,
+          "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+          "nubKey": 2224515,
+          "parentKey": 340225840,
+          "parent": "Macrobrachium",
+          "kingdom": "ANIMALIA",
+          "phylum": "ARTHROPODA",
+          "order": "DECAPODA",
+          "family": "PALAEMONIDAE",
+          "genus": "Macrobrachium",
+          "species": "Macrobrachium nipponense",
+          "kingdomKey": 340214027,
+          "phylumKey": 340222690,
+          "classKey": 340225443,
+          "orderKey": 340225645,
+          "familyKey": 340225812,
+          "genusKey": 340225840,
+          "speciesKey": 176653794,
+          "scientificName": "Macrobrachium nipponense (De Haan, 1849)",
+          "canonicalName": "Macrobrachium nipponense",
+          "authorship": "(De Haan, 1849)",
+          "nameType": "SCIENTIFIC",
+          "taxonomicStatus": "ACCEPTED",
+          "rank": "SPECIES",
+          "origin": "SOURCE",
+          "numDescendants": 0,
+          "numOccurrences": 0,
+          "taxonID": "197726",
+          "habitats": [],
+          "nomenclaturalStatus": [],
+          "threatStatuses": [
+            "LEAST_CONCERN"
+          ],
+          "descriptions": [],
+          "vernacularNames": [],
+          "synonym": false,
+          "higherClassificationMap": {
+            "340214027": "ANIMALIA",
+            "340222690": "ARTHROPODA",
+            "340225443": "MALACOSTRACA",
+            "340225645": "DECAPODA",
+            "340225812": "PALAEMONIDAE",
+            "340225840": "Macrobrachium"
+          },
+          "class": "MALACOSTRACA"
+        }
+      ],
+      "facets": []
+    },
+    "descriptions": {
+      "url": "https://api.gbif.org/v1/species/176653794/descriptions",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "results": []
+      }
+    }
+  },
+  "Portunus trituberculatus": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Portunus%20trituberculatus",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  },
+  "Ruditapes philippinarum": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Ruditapes%20philippinarum",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  },
+  "Magallana gigas": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Magallana%20gigas",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  },
+  "Eisenia fetida": {
+    "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&limit=10&q=Eisenia%20fetida",
+    "response": {
+      "offset": 0,
+      "limit": 10,
+      "endOfRecords": true,
+      "count": 0,
+      "results": [],
+      "facets": []
+    }
+  }
+}

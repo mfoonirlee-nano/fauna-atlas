@@ -1,0 +1,104 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: precise-object-edit. Change ONLY framing of this Fauna Atlas species cover; preserve species identity, natural anatomy, coat or skin details, habitat and photographic style. Keep every toe completely visible. Scale the ENTIRE ANIMAL uniformly to about 82% of its present size and shift it to the RIGHT. Show the COMPLETE subject, including every whisker or fur tip, all feet and toes, entire hind limbs and full tail where present. Entire animal boundary must be inside x=44%-94%, y=10%-90% of landscape source. Large prominent animal centered near 70% width. LEFT 40% contains ONLY quiet blurred habitat, no animal part. Leave real background clearance beyond every extremity. No new animals, text, border, watermark or humans.",
+      "sourceSha256": "1afbe1c684046aad9883568533a6009f1f45bcb9158af39de52e8dfbba193c8b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d3dbf1575985a696ed6640f5e95068a92bc6583afb7594bdb54af72c40f2a233",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical cover. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Duttaphrynus melanostictus Asian common toad, squat brown tan terrestrial toad, conspicuous black cranial ridges around eyes, black-tipped warts and large parotoid glands behind eyes, native South Asian garden-edge leaf litter; scientifically realistic and non-cartoon. Scene: one adult in three-quarter side view on low moist soil, complete limbs and every visible toe, empty quiet background. COVER COMPOSITION: Entire subject INCLUDING every whisker, all visible toes, ears, complete tail and all horn/antler tips must fit inside x=46%-93%, y=10%-90%. Large prominent animal on RIGHT, complete silhouette center at 70% image width. Left 40% quiet softly blurred native habitat. Visible background clearance surrounds every extremity. No text, watermark, border, humans, cages or decorative props.",
+      "editInputSha256": "360de99c2d9a570bc3e69e5f9c661c61aa266898e313c907870da343c41c559d",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "editReason": "Complete subject scaled modestly and shifted right so all fine whiskers, toes and muzzle stay outside the quiet left 40%.",
+      "initialSubjectBounds": [
+        565,
+        128,
+        1454,
+        850
+      ],
+      "initialSubjectIncomplete": false
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Duttaphrynus melanostictus Asian common toad, squat brown tan terrestrial toad, conspicuous black cranial ridges around eyes, black-tipped warts and large parotoid glands behind eyes, native South Asian garden-edge leaf litter; scientifically realistic and non-cartoon. Scene: adult in lateral view showing black cranial ridge and parotoid gland, whole body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "6cd98dd58d5f2cd0133510da170cfd2572f34e322510a47358bcf9686cc4f227",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2c283b6b6a6bbe8859d73731e9b74f2e4941abd58f1c248005cb5a3d1ef5b36d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Duttaphrynus melanostictus Asian common toad, squat brown tan terrestrial toad, conspicuous black cranial ridges around eyes, black-tipped warts and large parotoid glands behind eyes, native South Asian garden-edge leaf litter; scientifically realistic and non-cartoon. Scene: adult on moist leaf litter at dusk, complete body and all toes visible. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "03b9893fb50519a1755f9ac18dfe3efb9ac5c4134ff43f5ad12e3093b9f7d7fa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "74b462c94a932c2270dbde160223afe2c79bf2995a24a12b1e55bc8dfa657894",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Duttaphrynus melanostictus Asian common toad, squat brown tan terrestrial toad, conspicuous black cranial ridges around eyes, black-tipped warts and large parotoid glands behind eyes, native South Asian garden-edge leaf litter; scientifically realistic and non-cartoon. Scene: adult beside a small earthworm on soil, natural foraging scene without contact, entire toad. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "8e07d6cd68175d5dd0327e4733b8cbe52fab0279c7c58a30e843ffbbc497b985",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b4f633211d378e1e30408f4b874ed554b5ec5cc9e6f453dbf04b38bd0030557a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Duttaphrynus melanostictus Asian common toad, squat brown tan terrestrial toad, conspicuous black cranial ridges around eyes, black-tipped warts and large parotoid glands behind eyes, native South Asian garden-edge leaf litter; scientifically realistic and non-cartoon. Scene: two adults of different size on soil by a shallow seasonal pool, both complete, not mating. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "91093f5957d9e6b434ee230d6eff67b82942d3c2b89caf28dfe645b280bb31e3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "88d859e18389b0a2db58f6e2fe233f3397ba7828bdcfc138525bd0c60f80e34f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Duttaphrynus melanostictus Asian common toad, squat brown tan terrestrial toad, conspicuous black cranial ridges around eyes, black-tipped warts and large parotoid glands behind eyes, native South Asian garden-edge leaf litter; scientifically realistic and non-cartoon. Scene: adult at the edge of a shallow breeding pool with thin strings of eggs in distant water, complete adult. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "25b803df541b6b53125bf9e20fa3e882efce43f0be24b3992b70b0c18ceb57b0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c1684f56e78231c5b3f0f0b98ff75799318d768985e9206ad34bc531a7ca6652",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

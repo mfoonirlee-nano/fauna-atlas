@@ -1,0 +1,104 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: precise-object-edit. Edit only composition of this Fauna Atlas animal cover. Preserve the species identity, realistic anatomy, coat, colors, native habitat and photographic style. Scale the ENTIRE ANIMAL as one unit modestly smaller (about 85% of its present size) and move it right. Its complete boundary INCLUDING all fine whiskers, outer fur, ears, every horn/hump tip, all feet, and ENTIRE tail must be INSIDE x=44%-95%, y=10%-91% of the final landscape image. The animal remains large and prominent on RIGHT, center near 70% width. LEFT 40% must contain ONLY quiet blurred natural background, no animal part or whisker entering it. Keep visible background beyond every appendage and tail. Preserve the full image aspect ratio. No added animals, humans, text, watermark, border or prop.",
+      "sourceSha256": "4923561b41b81521fade9bf41720b9c406e7ecf1f9ee3b6dfb51045597597a92",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d4b4b9e0f7067c7cd9541c923c29047151beb0c803caff6e1c3a1278e2b27a63",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical species cover. Naturalistic documentary wildlife photograph, landscape 1536x1024. One Pallas's squirrel Callosciurus erythraeus in native East Asian evergreen woodland, gray olive grizzled back, reddish chestnut underside, rounded ears without tufts, long bushy tail. Entire squirrel standing side-on along a low horizontal branch, facing slightly left. Put the entire animal INCLUDING every whisker, ear, all visible toes and complete bushy tail inside x=46%-93%, y=12%-89%, visually centered at 70% image width. Large prominent complete animal on RIGHT. Left 40% quiet softly blurred forest with no foreground objects. Leave visible background clearance around every extremity. Realistic anatomy, no text, border, watermark, humans or other animals.",
+      "editInputSha256": "c91985275060059b459a9dd0258a8511f9c76c1052eddabee2915da5df28b797",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "editReason": "Complete subject scaled modestly and shifted right so all fine whiskers, toes and muzzle stay outside the quiet left 40%.",
+      "initialSubjectBounds": [
+        520,
+        55,
+        1490,
+        845
+      ],
+      "initialSubjectIncomplete": false
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Callosciurus erythraeus Pallas's squirrel, gray olive grizzled back, reddish chestnut belly, rounded tuftless ears and long bushy tail, native East Asian evergreen woodland. Scene: adult holding a fruit between forepaws, complete head and forepaws visible. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "4453f5354ab97a58a989a017fba70c4d724e7fdea9de877dff0d67486aa3f468",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c09b9ab029cdf45af817ad5f7d92b9953ae01d9c6d0bc4fe2d36cf09e1c3a583",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Callosciurus erythraeus Pallas's squirrel, gray olive grizzled back, reddish chestnut belly, rounded tuftless ears and long bushy tail, native East Asian evergreen woodland. Scene: adult climbing diagonally up tree trunk with gripping claws visible, full body and whole tail. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "0e14f03719ef7072bd00e133efd8f2b8435450574b1b08be1d2ffe475b7aaccd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8a0e69eac867d245528cf09c22c2ee15fa8ee974548f503a118220d3b71c1aa3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Callosciurus erythraeus Pallas's squirrel, gray olive grizzled back, reddish chestnut belly, rounded tuftless ears and long bushy tail, native East Asian evergreen woodland. Scene: adult foraging among fallen nuts on the forest floor, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "4dce9c4a72ffe2bf72b698c3318121868a6ff10be603defd23db6b174c79cde4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f5af7a4b893609541adce0150faf68d9c8513ad2bbd6d505127873597ef28c62",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Callosciurus erythraeus Pallas's squirrel, gray olive grizzled back, reddish chestnut belly, rounded tuftless ears and long bushy tail, native East Asian evergreen woodland. Scene: adult resting in a fork of branches, complete bushy tail curled beside body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "c6a85f32e58a82437bf9113e0e285ed3267055340a295742e8218b6b35c9df10",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "41fa3a8e7cc038349755fea1eda0fc8a9f21041c513e54cbd2f8760cb1d88bc0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Callosciurus erythraeus Pallas's squirrel, gray olive grizzled back, reddish chestnut belly, rounded tuftless ears and long bushy tail, native East Asian evergreen woodland. Scene: adult and one smaller young squirrel together on a broad branch, two complete animals. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "e98224aac7af301dff0f9283fba51cb5ee85de18222d2e22b895f298ee2dff0f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4cda1e576cc67e21ac9f481a8c3ee350806a375fcd7fec382e981ceb7c8c37ee",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

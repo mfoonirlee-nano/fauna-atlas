@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. One Musca domestica housefly with grey thorax bearing four dark longitudinal stripes, reddish compound eyes, short antennae, one pair of transparent wings and six slender legs. Whole insect in three-quarter side view on a green leaf edge. Entire fly including all six feet, antenna tips and wing tips inside x=47%-94%, y=15%-85%; prominent body centered at x=71%. Left 40 percent only quiet soft green bokeh. Anatomically plausible, leaf scale, natural daylight. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-18d45788-c88b-433c-807e-0d2f7d9085cc.png",
+      "sourceSha256": "64900cedda5513ab221a12c0dbf41c9d23fe48388fbbd153beaa499f7bb3095b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "74de5ad70103d96d4af0ceff396daffe01d7357f4d8c899035c32f590e5ee0d8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Musca domestica (家蝇). Adult identification: grey thorax with four dark longitudinal stripes, reddish compound eyes, short antennae, one pair of transparent wings and six slender legs. Scene: close side view showing reddish compound eye and short antenna with arista; setting: green leaf beside a farm garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-54a88a2a-145a-4a02-9411-3feb2d1d6cf8.png",
+      "sourceSha256": "2febbfaa5e15dd7a75c9f2066d0a490c872d141297723f16b662a2644c072a78",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a059ffac88152832dda80264df2b023237bd0376131374418248a2005117ea95",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Musca domestica (家蝇). Adult identification: grey thorax with four dark longitudinal stripes, reddish compound eyes, short antennae, one pair of transparent wings and six slender legs. Scene: dorsal view of adult showing four thoracic stripes and folded clear wings; setting: green leaf beside a farm garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-0d3c44b9-692c-4f73-92d0-368ffd6e2e88.png",
+      "sourceSha256": "193c97fa51e6cf46814737e423ac71476e008f75c40eb4a71339f8618b070aaa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d956e7153be54fe02aae2331ab943b979c192f07cc6e102d10e50857c692dcff",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Musca domestica (家蝇). Adult identification: grey thorax with four dark longitudinal stripes, reddish compound eyes, short antennae, one pair of transparent wings and six slender legs. Scene: adult using sponging mouthparts on a tiny ripe fruit surface; setting: green leaf beside a farm garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-03410416-24ec-4bfe-9b38-c0ceb505c9fa.png",
+      "sourceSha256": "4f6e12305ca3a5e694b7e28346f6e4a46f5829c4cdf8393a1655e0f8f0b6e125",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3b84c78a22b8caf5a61f431026db6ab71bd98f6a899fd9f949eadaad46efc6b7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Musca domestica (家蝇). Adult identification: grey thorax with four dark longitudinal stripes, reddish compound eyes, short antennae, one pair of transparent wings and six slender legs. Scene: three cream legless larvae on moist decaying plant material, separate from adult; setting: green leaf beside a farm garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-b5001683-6eff-482d-a92f-43ab22a67f44.png",
+      "sourceSha256": "bb117ab05101eaa6bc9ed8f51a52cc973474697b8fd84ad1e27510738fe76915",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "16f1934adbab8b6442bfdf756b584222708c1e5b8ba60df207cdf4d75372558b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Musca domestica (家蝇). Adult identification: grey thorax with four dark longitudinal stripes, reddish compound eyes, short antennae, one pair of transparent wings and six slender legs. Scene: one brown oval puparium on dry soil beside a shed; setting: green leaf beside a farm garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-e2e24feb-b2c8-4b27-b013-ee3dde817ad0.png",
+      "sourceSha256": "d6a5dad31c11e9fabb435bf08e40258036480840a8b17ed147322356afef3c82",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5ea37e84ba3daaf51cec252675478ca37ea262ffcab17c5db1acb36dbbc4ce76",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

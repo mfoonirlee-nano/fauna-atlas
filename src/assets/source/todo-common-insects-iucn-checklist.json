@@ -1,0 +1,137 @@
+{
+  "accessedAt": "2026-10-18",
+  "records": [
+    {
+      "requestedName": "Musca domestica",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Musca%20domestica&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Aedes albopictus",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Aedes%20albopictus&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Vespa velutina",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Vespa%20velutina&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Xylocopa sinensis",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Xylocopa%20sinensis&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Hermetia illucens",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Hermetia%20illucens&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Statilia maculata",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Statilia%20maculata&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Callosobruchus chinensis",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Callosobruchus%20chinensis&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Sitophilus oryzae",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Sitophilus%20oryzae&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Plutella xylostella",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Plutella%20xylostella&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Papilio polytes",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Papilio%20polytes&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    },
+    {
+      "requestedName": "Pseudozizeeria maha",
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Pseudozizeeria%20maha&limit=50",
+      "response": {
+        "offset": 0,
+        "limit": 50,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      }
+    }
+  ]
+}

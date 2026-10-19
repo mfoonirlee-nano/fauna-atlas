@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "650 animal species profiles; 560 historical baseline reviews and 90 additions through 2026-10-17; microbial topics excluded",
+  "scope": "700 animal species profiles; 560 historical baseline reviews and 140 additions through 2026-10-18; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 75,
-    "addedProfilesReviewDate": "2026-10-16",
+    "addedProfiles": 140,
+    "addedProfilesReviewDate": "2026-10-18",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -30443,7 +30443,1784 @@
           ]
         }
       }
+    },
+    {
+      "slug": "pallas-squirrel",
+      "scientificName": "Callosciurus erythraeus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2437394",
+            "https://www.science.smith.edu/departments/Biology/VHAYSSEN/msi/pdf/902_Callosciurus_erythraeus.pdf",
+            "https://animaldiversity.org/accounts/Callosciurus_erythraeus/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/2437394",
+            "https://www.science.smith.edu/departments/Biology/VHAYSSEN/msi/pdf/902_Callosciurus_erythraeus.pdf",
+            "https://animaldiversity.org/accounts/Callosciurus_erythraeus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2437394",
+            "https://www.science.smith.edu/departments/Biology/VHAYSSEN/msi/pdf/902_Callosciurus_erythraeus.pdf",
+            "https://animaldiversity.org/accounts/Callosciurus_erythraeus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2437394"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2437394"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "siberian-weasel",
+      "scientificName": "Mustela sibirica",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/5218972",
+            "https://academic.oup.com/mspecies/article/50/966/109/5102491",
+            "https://animaldiversity.org/accounts/Mustela_sibirica/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/5218972",
+            "https://academic.oup.com/mspecies/article/50/966/109/5102491",
+            "https://animaldiversity.org/accounts/Mustela_sibirica/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/5218972",
+            "https://academic.oup.com/mspecies/article/50/966/109/5102491",
+            "https://animaldiversity.org/accounts/Mustela_sibirica/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5218972"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5218972"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bactrian-camel",
+      "scientificName": "Camelus bactrianus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2441238",
+            "https://www.mammaldiversity.org/taxon/1006382/",
+            "https://doi.org/10.1017/S0030605322000114",
+            "https://animaldiversity.org/accounts/Camelus_bactrianus/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/2441238",
+            "https://www.mammaldiversity.org/taxon/1006382/",
+            "https://doi.org/10.1017/S0030605322000114",
+            "https://animaldiversity.org/accounts/Camelus_bactrianus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2441238",
+            "https://www.mammaldiversity.org/taxon/1006382/",
+            "https://doi.org/10.1017/S0030605322000114",
+            "https://animaldiversity.org/accounts/Camelus_bactrianus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441238"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441238"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "domestic-yak",
+      "scientificName": "Bos grunniens",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2441019",
+            "https://www.fao.org/4/ad347e/ad347e05.htm",
+            "https://www.fao.org/4/ad347e/ad347e06.htm",
+            "https://www.fao.org/4/ad347e/ad347e0j.htm"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/2441019",
+            "https://www.fao.org/4/ad347e/ad347e05.htm",
+            "https://www.fao.org/4/ad347e/ad347e06.htm",
+            "https://www.fao.org/4/ad347e/ad347e0j.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2441019",
+            "https://www.fao.org/4/ad347e/ad347e05.htm",
+            "https://www.fao.org/4/ad347e/ad347e06.htm",
+            "https://www.fao.org/4/ad347e/ad347e0j.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441019"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2441019"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "red-deer",
+      "scientificName": "Cervus elaphus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2440958",
+            "https://www.nature.scot/plants-animals-and-fungi/mammals/land-mammals/deer",
+            "https://www.nature.scot/doc/genetic-scorecard-indicator-red-deer",
+            "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T55997072A142404453.en"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/2440958",
+            "https://www.nature.scot/plants-animals-and-fungi/mammals/land-mammals/deer",
+            "https://www.nature.scot/doc/genetic-scorecard-indicator-red-deer",
+            "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T55997072A142404453.en"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2440958",
+            "https://www.nature.scot/plants-animals-and-fungi/mammals/land-mammals/deer",
+            "https://www.nature.scot/doc/genetic-scorecard-indicator-red-deer",
+            "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T55997072A142404453.en"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440958"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440958"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "reeves-muntjac",
+      "scientificName": "Muntiacus reevesi",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2440946",
+            "https://animaldiversity.org/accounts/Muntiacus_reevesi/",
+            "https://www.mammaldiversity.org/taxon/1006335/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/2440946",
+            "https://animaldiversity.org/accounts/Muntiacus_reevesi/",
+            "https://www.mammaldiversity.org/taxon/1006335/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2440946",
+            "https://animaldiversity.org/accounts/Muntiacus_reevesi/",
+            "https://www.mammaldiversity.org/taxon/1006335/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440946"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2440946"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "siberian-chipmunk",
+      "scientificName": "Tamias sibiricus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2437450",
+            "https://cdn.sciengine.com/doi/pdf/46E010F42A7D4C96877CD3FB59901108",
+            "https://www.mammalogy.org/image-library/eutamias-sibiricus-4919",
+            "https://doi.org/10.1111/mam.12117",
+            "https://animaldiversity.org/accounts/Tamias_sibiricus/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/2437450",
+            "https://cdn.sciengine.com/doi/pdf/46E010F42A7D4C96877CD3FB59901108",
+            "https://www.mammalogy.org/image-library/eutamias-sibiricus-4919",
+            "https://doi.org/10.1111/mam.12117",
+            "https://animaldiversity.org/accounts/Tamias_sibiricus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2437450",
+            "https://cdn.sciengine.com/doi/pdf/46E010F42A7D4C96877CD3FB59901108",
+            "https://www.mammalogy.org/image-library/eutamias-sibiricus-4919",
+            "https://doi.org/10.1111/mam.12117",
+            "https://animaldiversity.org/accounts/Tamias_sibiricus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2437450"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2437450"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "asian-common-toad",
+      "scientificName": "Duttaphrynus melanostictus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2422538",
+            "https://www.amphibiachina.org/species/47",
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Bufonidae/Duttaphrynus/Duttaphrynus-melanostictus",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11706960/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10339954/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/2422538",
+            "https://www.amphibiachina.org/species/47",
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Bufonidae/Duttaphrynus/Duttaphrynus-melanostictus",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11706960/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10339954/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2422538",
+            "https://www.amphibiachina.org/species/47",
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Bufonidae/Duttaphrynus/Duttaphrynus-melanostictus",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11706960/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10339954/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2422538"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2422538"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "paddy-frog",
+      "scientificName": "Fejervarya multistriata",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2430411",
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Dicroglossidae/Dicroglossinae/Fejervarya/Fejervarya-multistriata",
+            "https://doi.org/10.1016/j.agee.2019.04.003",
+            "https://pubmed.ncbi.nlm.nih.gov/41875788/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.gbif.org/species/2430411",
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Dicroglossidae/Dicroglossinae/Fejervarya/Fejervarya-multistriata",
+            "https://doi.org/10.1016/j.agee.2019.04.003",
+            "https://pubmed.ncbi.nlm.nih.gov/41875788/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2430411",
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Dicroglossidae/Dicroglossinae/Fejervarya/Fejervarya-multistriata",
+            "https://doi.org/10.1016/j.agee.2019.04.003",
+            "https://pubmed.ncbi.nlm.nih.gov/41875788/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2430411"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2430411"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "housefly",
+      "scientificName": "Musca domestica",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://ipm.ucanr.edu/home-and-landscape/flies/",
+            "https://doi.org/10.32473/edis-in205-1998"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://ipm.ucanr.edu/home-and-landscape/flies/",
+            "https://doi.org/10.32473/edis-in205-1998",
+            "https://www.gbif.org/species/1524843"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ipm.ucanr.edu/home-and-landscape/flies/",
+            "https://doi.org/10.32473/edis-in205-1998"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1524843"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1524843"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "asian-tiger-mosquito",
+      "scientificName": "Aedes albopictus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://stacks.cdc.gov/view/cdc/31033/cdc_31033_DS1.pdf",
+            "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://stacks.cdc.gov/view/cdc/31033/cdc_31033_DS1.pdf",
+            "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html/",
+            "https://www.gbif.org/species/1651430"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://stacks.cdc.gov/view/cdc/31033/cdc_31033_DS1.pdf",
+            "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1651430"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1651430"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "yellow-legged-hornet",
+      "scientificName": "Vespa velutina",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN1282",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9597825/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN1282",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9597825/",
+            "https://www.gbif.org/species/1311477"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN1282",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9597825/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1311477"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1311477"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "chinese-carpenter-bee",
+      "scientificName": "Xylocopa sinensis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.1111/j.1438-8677.2009.00279.x"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://doi.org/10.1111/j.1438-8677.2009.00279.x",
+            "https://www.gbif.org/species/10994965",
+            "https://upload.wikimedia.org/wikipedia/commons/c/c8/Catalogue_of_hymenopterous_insects_in_the_collection_of_the_British_museum.._%28IA_catalogueofhymen02brit%29.pdf",
+            "https://www.atlashymenoptera.net/biblio/00500/Wu_2000_Fauna%20Sinica.%20vol20%20Melittidae%20Apidae_OCR.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1111/j.1438-8677.2009.00279.x",
+            "https://www.si.edu/object/xylocopa-koptortosoma-sinensis%3Anmnhentomology_15909984"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/10994965",
+            "https://upload.wikimedia.org/wikipedia/commons/c/c8/Catalogue_of_hymenopterous_insects_in_the_collection_of_the_British_museum.._%28IA_catalogueofhymen02brit%29.pdf",
+            "https://www.atlashymenoptera.net/biblio/00500/Wu_2000_Fauna%20Sinica.%20vol20%20Melittidae%20Apidae_OCR.pdf"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/10994965",
+            "https://upload.wikimedia.org/wikipedia/commons/c/c8/Catalogue_of_hymenopterous_insects_in_the_collection_of_the_British_museum.._%28IA_catalogueofhymen02brit%29.pdf",
+            "https://www.atlashymenoptera.net/biblio/00500/Wu_2000_Fauna%20Sinica.%20vol20%20Melittidae%20Apidae_OCR.pdf"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "black-soldier-fly",
+      "scientificName": "Hermetia illucens",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN830"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN830",
+            "https://www.gbif.org/species/1577153"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN830"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1577153"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1577153"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "asian-jumping-mantis",
+      "scientificName": "Statilia maculata",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.1080/00379271.2020.1785941",
+            "https://www.unishivaji.ac.in/uploads/journal/2023/pgseminar/jouranl%2048%20%281%29%202022%20merged.pdf"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://doi.org/10.1080/00379271.2020.1785941",
+            "https://www.unishivaji.ac.in/uploads/journal/2023/pgseminar/jouranl%2048%20%281%29%202022%20merged.pdf",
+            "https://www.gbif.org/species/1405383",
+            "https://zookeys.pensoft.net/article/123355/download/pdf/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1080/00379271.2020.1785941",
+            "https://www.unishivaji.ac.in/uploads/journal/2023/pgseminar/jouranl%2048%20%281%29%202022%20merged.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1405383",
+            "https://zookeys.pensoft.net/article/123355/download/pdf/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1405383",
+            "https://zookeys.pensoft.net/article/123355/download/pdf/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "adzuki-bean-beetle",
+      "scientificName": "Callosobruchus chinensis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fao.org/4/x5048e/x5048E0a.htm"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fao.org/4/x5048e/x5048E0a.htm",
+            "https://www.gbif.org/species/1047341",
+            "https://gd.eppo.int/taxon/CALSCH"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/4/x5048e/x5048E0a.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1047341",
+            "https://gd.eppo.int/taxon/CALSCH"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1047341",
+            "https://gd.eppo.int/taxon/CALSCH"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "rice-weevil",
+      "scientificName": "Sitophilus oryzae",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://extension.umd.edu/resource/rice-and-granary-weevils",
+            "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://extension.umd.edu/resource/rice-and-granary-weevils",
+            "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food",
+            "https://www.gbif.org/species/9915023",
+            "https://www.gbif.org/dataset/9ca92552-f23a-41a8-a140-01abaa31c931/taxon/188080"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://extension.umd.edu/resource/rice-and-granary-weevils",
+            "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/9915023",
+            "https://www.gbif.org/dataset/9ca92552-f23a-41a8-a140-01abaa31c931/taxon/188080"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/9915023",
+            "https://www.gbif.org/dataset/9ca92552-f23a-41a8-a140-01abaa31c931/taxon/188080"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "diamondback-moth",
+      "scientificName": "Plutella xylostella",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN1443",
+            "https://ask.ifas.ufl.edu/pi042/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN1443",
+            "https://ask.ifas.ufl.edu/pi042/",
+            "https://www.gbif.org/species/1831136"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN1443",
+            "https://ask.ifas.ufl.edu/pi042/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1831136"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1831136"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "common-mormon",
+      "scientificName": "Papilio polytes",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/9/3/932"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/9/3/932",
+            "https://www.gbif.org/species/1938088"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nparks.gov.sg/florafaunaweb/fauna/9/3/932"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1938088"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1938088"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pale-grass-blue",
+      "scientificName": "Pseudozizeeria maha",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.3390/insects14020202",
+            "https://doi.org/10.1186/1471-2148-13-168"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://doi.org/10.3390/insects14020202",
+            "https://doi.org/10.1186/1471-2148-13-168",
+            "https://www.gbif.org/species/1921150",
+            "https://www.gbif.org/species/7346407",
+            "https://www.munisentzool.org/yayin/vol11/issue2/vol11issue2-475428.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.3390/insects14020202",
+            "https://doi.org/10.1186/1471-2148-13-168"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1921150",
+            "https://www.gbif.org/species/7346407",
+            "https://www.munisentzool.org/yayin/vol11/issue2/vol11issue2-475428.pdf"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/1921150",
+            "https://www.gbif.org/species/7346407",
+            "https://www.munisentzool.org/yayin/vol11/issue2/vol11issue2-475428.pdf"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "green-leafhopper",
+      "scientificName": "Cicadella viridis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC12485336/",
+            "https://journals.biologists.com/jeb/article/216/7/1270/12059/The-green-leafhopper-Cicadella-viridis-Hemiptera"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC12485336/",
+            "https://journals.biologists.com/jeb/article/216/7/1270/12059/The-green-leafhopper-Cicadella-viridis-Hemiptera"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC12485336/",
+            "https://journals.biologists.com/jeb/article/216/7/1270/12059/The-green-leafhopper-Cicadella-viridis-Hemiptera"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6260393"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6260393"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ventricose-orb-weaver",
+      "scientificName": "Araneus ventricosus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S096098222400914X",
+            "https://www.jircas.go.jp/sites/default/files/publication/jarq/jarq59-4_271-277.pdf"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S096098222400914X",
+            "https://www.jircas.go.jp/sites/default/files/publication/jarq/jarq59-4_271-277.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S096098222400914X",
+            "https://www.jircas.go.jp/sites/default/files/publication/jarq/jarq59-4_271-277.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2159950",
+            "https://wsc.nmbe.ch/genus-catalog/457/Araneus"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2159950",
+            "https://wsc.nmbe.ch/genus-catalog/457/Araneus"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pantropical-huntsman-spider",
+      "scientificName": "Heteropoda venatoria",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN317"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN317"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN317"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2161710"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2161710"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pantropical-jumping-spider",
+      "scientificName": "Plexippus paykulli",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN315"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN315"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ask.ifas.ufl.edu/publication/IN315"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2171214",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=887361"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2171214",
+            "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=887361"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "red-swamp-crayfish",
+      "scientificName": "Procambarus clarkii",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=217"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=217"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=217"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2227300"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2227300"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "whiteleg-shrimp",
+      "scientificName": "Penaeus vannamei",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_whitelegshrimp.htm",
+            "https://www.fao.org/4/ad505e/ad505e03.htm"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_whitelegshrimp.htm",
+            "https://www.fao.org/4/ad505e/ad505e03.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_whitelegshrimp.htm",
+            "https://www.fao.org/4/ad505e/ad505e03.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2223872"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2223872"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "oriental-river-prawn",
+      "scientificName": "Macrobrachium nipponense",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=3596",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5610250/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500556/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=3596",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5610250/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500556/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=3596",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5610250/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500556/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2224515"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2224515"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "gazami-crab",
+      "scientificName": "Portunus trituberculatus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://archive.iwlearn.net/yslmep.org/yslmep.org/www.yslmep.org/wp-content/uploads/2020/05/YSLME-Training-Module-for-Integrated-Multitrophic-Aquaculture-in-PR-China-09202018-1.pdf"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://archive.iwlearn.net/yslmep.org/yslmep.org/www.yslmep.org/wp-content/uploads/2020/05/YSLME-Training-Module-for-Integrated-Multitrophic-Aquaculture-in-PR-China-09202018-1.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://archive.iwlearn.net/yslmep.org/yslmep.org/www.yslmep.org/wp-content/uploads/2020/05/YSLME-Training-Module-for-Integrated-Multitrophic-Aquaculture-in-PR-China-09202018-1.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5716110",
+            "https://isopods.nhm.org/pdfs/4113/4113.pdf"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5716110",
+            "https://isopods.nhm.org/pdfs/4113/4113.pdf"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "manila-clam",
+      "scientificName": "Ruditapes philippinarum",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_japanesecarpetshell.htm"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_japanesecarpetshell.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_japanesecarpetshell.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4372686"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/4372686"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pacific-oyster",
+      "scientificName": "Magallana gigas",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/pacific-oyster"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/pacific-oyster"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/pacific-oyster"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7820753"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7820753"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "red-wiggler",
+      "scientificName": "Eisenia fetida",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://extension.oregonstate.edu/sites/default/files/documents/1/rodneyswormbins-10.pdf",
+            "https://extension.psu.edu/vermicomposting-puts-worms-to-work"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://extension.oregonstate.edu/sites/default/files/documents/1/rodneyswormbins-10.pdf",
+            "https://extension.psu.edu/vermicomposting-puts-worms-to-work"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://extension.oregonstate.edu/sites/default/files/documents/1/rodneyswormbins-10.pdf",
+            "https://extension.psu.edu/vermicomposting-puts-worms-to-work"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5815560"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5815560"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "crested-myna",
+      "scientificName": "Acridotheres cristatellus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0380/045000"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0380/045000"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0380/045000"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2489010"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2489010"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "azure-winged-magpie",
+      "scientificName": "Cyanopica cyanus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://lyj.hunan.gov.cn/lyj/ztzl/gdzt/bnl/201512/t20151229_2836891.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://lyj.hunan.gov.cn/lyj/ztzl/gdzt/bnl/201512/t20151229_2836891.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://lyj.hunan.gov.cn/lyj/ztzl/gdzt/bnl/201512/t20151229_2836891.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7341881"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/7341881"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "red-whiskered-bulbul",
+      "scientificName": "Pycnonotus jocosus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0290/036000"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0290/036000"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0290/036000"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2486151"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2486151"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "white-browed-laughingthrush",
+      "scientificName": "Garrulax sannio",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0370/044400"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0370/044400"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0370/044400"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2493450"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2493450"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "vinous-throated-parrotbill",
+      "scientificName": "Sinosuthora webbiana",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0360/043000"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0360/043000"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0360/043000"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6100921"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6100921"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "red-billed-blue-magpie",
+      "scientificName": "Urocissa erythroryncha",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0260/033400"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0260/033400"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0260/033400"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6100962"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6100962"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "white-wagtail",
+      "scientificName": "Motacilla alba",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0440/053810"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0440/053810"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0440/053810"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/9687165"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/9687165"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "western-yellow-wagtail",
+      "scientificName": "Motacilla flava",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0440/053400"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0440/053400"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0440/053400"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/9701857"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/9701857"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "large-billed-crow",
+      "scientificName": "Corvus macrorhynchos",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0260/034200"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0260/034200"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0260/034200"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2482487"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2482487"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "black-headed-gull",
+      "scientificName": "Chroicocephalus ridibundus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0110/016300"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0110/016300"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0110/016300"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6065824"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6065824"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "black-tailed-gull",
+      "scientificName": "Larus crassirostris",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0110/016900"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0110/016900"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0110/016900"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2481197"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2481197"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "eastern-cattle-egret",
+      "scientificName": "Bubulcus coromandus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0170/023000"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0170/023000"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0170/023000"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6066393"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6066393"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "white-rumped-munia",
+      "scientificName": "Lonchura striata",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0430/053100"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0430/053100"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0430/053100"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2493618"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2493618"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "eurasian-siskin",
+      "scientificName": "Spinus spinus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0450/055500"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0450/055500"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://avifauna.hkbws.org.hk/species/0450/055500"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6092830"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/6092830"
+          ]
+        }
+      }
     }
   ],
-  "updatedAt": "2026-10-17"
+  "updatedAt": "2026-10-17",
+  "lastExtendedAt": "2026-10-18"
 }

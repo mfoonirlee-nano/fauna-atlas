@@ -1,0 +1,126 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas scientific species cover. Composition correction: Preserve Aedes albopictus white central thoracic stripe, banded legs and leaf habitat. Move the entire complete insect inward and uniformly reduce its size about 18 percent, so ALL six feet, antennae, proboscis and wings fit strictly between x=730 and x=1440 of the 1536-pixel canvas. Leave at least 90 pixels real background at right. Keep exactly six legs with realistic articulated anatomy. Keep subject prominent, centered near 71 percent width, entire silhouette y=15%-85%. Left 40 percent only quiet blurred natural environment. No text, humans, labels, border or watermark.",
+      "sourceFile": "exec-7a818fe3-f5d2-458a-bd21-9a7cbd8afc72.png",
+      "sourceSha256": "0a81d5dd6d93507fdfe2256862cae65e1e82a5a1c8ff348e9aa72866afbe6426",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4f65d8119b871e9d8c17a8d9ad8e5e49f776681fc36d023ee35c9053b4ce2591",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Aedes albopictus (白纹伊蚊). Adult identification: slender black mosquito, single narrow silver-white stripe along center of thorax, white bands on six long legs, one pair of narrow transparent wings and long slender proboscis. Scene: whole adult female resting on a leaf, all slender legs visible; setting: leaf near a shaded garden water container. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-a5a8a25a-ab9b-4f93-b56a-15eb9b61cce8.png",
+          "sourceSha256": "d10d79d7b0515118dc3a92a057a2c0d0044706e9c5a0bf3cfe4685a85097774f",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "subjectBounds": [
+            661,
+            136,
+            1527,
+            811
+          ],
+          "reviewReason": "Move full antennae and feet out of left copy area and increase real source-edge clearance."
+        }
+      ],
+      "editInputSha256": "d10d79d7b0515118dc3a92a057a2c0d0044706e9c5a0bf3cfe4685a85097774f",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        661,
+        136,
+        1527,
+        811
+      ],
+      "revisionReason": "Move full antennae and feet out of left copy area and increase real source-edge clearance."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Aedes albopictus (白纹伊蚊). Adult identification: slender black mosquito, single narrow silver-white stripe along center of thorax, white bands on six long legs, one pair of narrow transparent wings and long slender proboscis. Scene: dorsal macro adult showing single central white thoracic stripe, not lyre pattern; setting: leaf near a shaded garden water container. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-0d60dd3b-d0be-43c0-a06e-333e72703618.png",
+      "sourceSha256": "daad6d2fcaf7a779ca3babb613e69bd8dae44a422e8f16ab4b2ef2426b8d1303",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "03665e397998476b5e7a519d576a7797b7f54605e39c5949aa5ca2de3ecf19ac",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Aedes albopictus (白纹伊蚊). Adult identification: slender black mosquito, single narrow silver-white stripe along center of thorax, white bands on six long legs, one pair of narrow transparent wings and long slender proboscis. Scene: adult taking nectar from a tiny flower, proboscis inserted, no blood or humans; setting: leaf near a shaded garden water container. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-6fa0bab0-67a3-460d-8a63-7bce729d9ad3.png",
+      "sourceSha256": "c02f9a3913998d4cf27e0d1ab883f5288160f19961e7912b099785542fed9e35",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "484650e4ae80df0ba0dcbdad9401d1a125e3869bd854941083b30af4445af02d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Aedes albopictus (白纹伊蚊). Adult identification: slender black mosquito, single narrow silver-white stripe along center of thorax, white bands on six long legs, one pair of narrow transparent wings and long slender proboscis. Scene: several slender mosquito larvae hanging at shallow water surface in a shaded tree hole; setting: leaf near a shaded garden water container. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-65274eae-583b-4ff6-ae91-aa7ed3ed3a21.png",
+      "sourceSha256": "91c0fb7d4be80397735df81d74593d6fb6fc928fc586862b95ebcce8d71fc04e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "87128bb574f32126313a2a5882f66034860a4d3ce625a0256c8d098ea1aea8dd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Aedes albopictus (白纹伊蚊). Adult identification: slender black mosquito, single narrow silver-white stripe along center of thorax, white bands on six long legs, one pair of narrow transparent wings and long slender proboscis. Scene: one comma-shaped aquatic pupa at water surface, macro side view; setting: leaf near a shaded garden water container. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-2e82cb08-2640-4641-9843-d54a3cde607b.png",
+      "sourceSha256": "4f2547824769d421839579be4016556f378c4f7e73a6f4d9e816441985e52ecc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "67511c52b9af409fa00a8673a8ba2571d3f811cc251ba66a5a8023fd384cd074",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Aedes albopictus (白纹伊蚊). Adult identification: slender black mosquito, single narrow silver-white stripe along center of thorax, white bands on six long legs, one pair of narrow transparent wings and long slender proboscis. Scene: small dark elongated mosquito eggs attached individually just above water line inside a weathered ceramic container; setting: leaf near a shaded garden water container. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-9d609916-7687-4c8f-a336-5e01a6d22f6d.png",
+      "sourceSha256": "99a93fd2faf67a3b2bf3b46242082aff1949f6c8ca85ea2fc1f8c62d2fc11087",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "90da053e64b0d66e04688c34253e107ead29534897041604f05d206374386548",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

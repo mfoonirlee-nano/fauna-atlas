@@ -1,0 +1,403 @@
+{
+  "date": "2026-10-18",
+  "species": [
+    {
+      "slug": "green-leafhopper",
+      "scientificName": "Cicadella viridis",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/6260393",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "大青叶蝉基因组及自然史研究",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12485336/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "大青叶蝉跳跃的高速影像研究",
+          "url": "https://journals.biologists.com/jeb/article/216/7/1270/12059/The-green-leafhopper-Cicadella-viridis-Hemiptera",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "ventricose-orb-weaver",
+      "scientificName": "Araneus ventricosus",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/2159950",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "世界蜘蛛名录：Araneus",
+          "url": "https://wsc.nmbe.ch/genus-catalog/457/Araneus",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "蜘蛛利用萤火虫信号的野外实验",
+          "url": "https://www.sciencedirect.com/science/article/pii/S096098222400914X",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "农光互补设施中的蜘蛛结网研究",
+          "url": "https://www.jircas.go.jp/sites/default/files/publication/jarq/jarq59-4_271-277.pdf",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "pantropical-huntsman-spider",
+      "scientificName": "Heteropoda venatoria",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/2161710",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "佛罗里达大学：白额高脚蛛",
+          "url": "https://ask.ifas.ufl.edu/publication/IN317",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "pantropical-jumping-spider",
+      "scientificName": "Plexippus paykulli",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/2171214",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "佛罗里达大学：跳蛛与黑色蝇虎",
+          "url": "https://ask.ifas.ufl.edu/publication/IN315",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "ITIS：Plexippus paykulli 分类记录",
+          "url": "https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=887361",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "red-swamp-crayfish",
+      "scientificName": "Procambarus clarkii",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "LC",
+        "label": {
+          "zh": "无危",
+          "en": "Least Concern"
+        },
+        "trend": "unknown",
+        "assessor": "本次核对的 IUCN 发布于 GBIF 的全球名录记为 LC；该等级不表示引入地区没有生态影响。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/2227300",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "美国地质调查局：克氏原螯虾生态与引入影响",
+          "url": "https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=217",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "IUCN 发布于 GBIF 的全球保护名录",
+          "url": "https://www.gbif.org/dataset/19491596-35ae-4a91-9a98-85cf505f1bd3/taxon/176658132",
+          "kind": "conservation",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "IUCN：克氏原螯虾全球评估",
+          "url": "https://www.iucnredlist.org/species/153877/4557336",
+          "kind": "conservation",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "whiteleg-shrimp",
+      "scientificName": "Penaeus vannamei",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/2223872",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "FAO：南美白对虾物种资料",
+          "url": "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_whitelegshrimp.htm",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "FAO：白对虾的跨地区引入历史",
+          "url": "https://www.fao.org/4/ad505e/ad505e03.htm",
+          "kind": "distribution",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "oriental-river-prawn",
+      "scientificName": "Macrobrachium nipponense",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "LC",
+        "label": {
+          "zh": "无危",
+          "en": "Least Concern"
+        },
+        "trend": "unknown",
+        "assessor": "本次核对的 IUCN 发布于 GBIF 的全球名录记为 LC；该等级不表示引入地区没有生态影响。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/2224515",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "美国地质调查局：日本沼虾分布、生活史与食物",
+          "url": "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=3596",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "日本沼虾雌性繁殖研究",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5610250/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "日本沼虾栖息地与肠道微生物研究",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500556/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "IUCN 发布于 GBIF 的全球保护名录",
+          "url": "https://www.gbif.org/dataset/19491596-35ae-4a91-9a98-85cf505f1bd3/taxon/176653794",
+          "kind": "conservation",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "IUCN：日本沼虾全球评估",
+          "url": "https://www.iucnredlist.org/species/197726/2497653",
+          "kind": "conservation",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "gazami-crab",
+      "scientificName": "Portunus trituberculatus",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/5716110",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "黄海大海洋生态系项目：梭子蟹综合养殖与生物学资料",
+          "url": "https://archive.iwlearn.net/yslmep.org/yslmep.org/www.yslmep.org/wp-content/uploads/2020/05/YSLME-Training-Module-for-Integrated-Multitrophic-Aquaculture-in-PR-China-09202018-1.pdf",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "FAO 物种鉴定手册：蟹类",
+          "url": "https://isopods.nhm.org/pdfs/4113/4113.pdf",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "manila-clam",
+      "scientificName": "Ruditapes philippinarum",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/4372686",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "FAO：菲律宾蛤仔物种与养殖资料",
+          "url": "https://www.fao.org/fishery/docs/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_japanesecarpetshell.htm",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "pacific-oyster",
+      "scientificName": "Magallana gigas",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/7820753",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "NOAA：太平洋牡蛎物种资料",
+          "url": "https://www.fisheries.noaa.gov/species/pacific-oyster",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "slug": "red-wiggler",
+      "scientificName": "Eisenia fetida",
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未取得可核实的全球 IUCN 评估，项目以 NE 记录此信息缺口；不据此断言该种从未被评估，NE 也不代表无危。"
+      },
+      "sources": [
+        {
+          "title": "GBIF：接受学名、命名人与分类链",
+          "url": "https://www.gbif.org/species/5815560",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "俄勒冈州立大学：蚯蚓堆肥与生物学",
+          "url": "https://extension.oregonstate.edu/sites/default/files/documents/1/rodneyswormbins-10.pdf",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "宾州州立大学：赤子爱胜蚓堆肥",
+          "url": "https://extension.psu.edu/vermicomposting-puts-worms-to-work",
+          "kind": "ecology",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "明尼苏达大学：蚯蚓与引入影响",
+          "url": "https://extension.umn.edu/natural-resources/forestry-and-wildlife/invasive-species/earthworms",
+          "kind": "conservation",
+          "accessedAt": "2026-10-18"
+        },
+        {
+          "title": "中国科学院植物智：厚环带目中文名称",
+          "url": "https://www.iplant.cn/info/Crassiclitellata",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}

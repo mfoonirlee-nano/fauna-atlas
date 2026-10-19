@@ -6551,5 +6551,455 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1455,
       "bottom": 947
     }
+  },
+  "pallas-squirrel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 670,
+      "top": 150,
+      "right": 1472,
+      "bottom": 795
+    }
+  },
+  "siberian-weasel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 675,
+      "top": 322,
+      "right": 1502,
+      "bottom": 763
+    }
+  },
+  "bactrian-camel": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 207,
+      "right": 1492,
+      "bottom": 885
+    }
+  },
+  "domestic-yak": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 722,
+      "top": 246,
+      "right": 1485,
+      "bottom": 830
+    }
+  },
+  "red-deer": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 775,
+      "top": 48,
+      "right": 1464,
+      "bottom": 954
+    }
+  },
+  "reeves-muntjac": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 664,
+      "top": 80,
+      "right": 1443,
+      "bottom": 898
+    }
+  },
+  "siberian-chipmunk": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 690,
+      "top": 265,
+      "right": 1498,
+      "bottom": 780
+    }
+  },
+  "asian-common-toad": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 732,
+      "top": 215,
+      "right": 1426,
+      "bottom": 812
+    }
+  },
+  "paddy-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 748,
+      "top": 298,
+      "right": 1448,
+      "bottom": 793
+    }
+  },
+  "housefly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 616,
+      "top": 115,
+      "right": 1476,
+      "bottom": 804
+    }
+  },
+  "asian-tiger-mosquito": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 206,
+      "right": 1470,
+      "bottom": 798
+    }
+  },
+  "yellow-legged-hornet": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 682,
+      "top": 286,
+      "right": 1348,
+      "bottom": 651
+    }
+  },
+  "chinese-carpenter-bee": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 137,
+      "right": 1430,
+      "bottom": 770
+    }
+  },
+  "black-soldier-fly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 220,
+      "right": 1476,
+      "bottom": 723
+    }
+  },
+  "asian-jumping-mantis": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 699,
+      "top": 86,
+      "right": 1467,
+      "bottom": 864
+    }
+  },
+  "adzuki-bean-beetle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 738,
+      "top": 171,
+      "right": 1458,
+      "bottom": 609
+    }
+  },
+  "rice-weevil": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 655,
+      "top": 227,
+      "right": 1410,
+      "bottom": 719
+    }
+  },
+  "diamondback-moth": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 751,
+      "top": 278,
+      "right": 1330,
+      "bottom": 693
+    }
+  },
+  "pale-grass-blue": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 96,
+      "right": 1355,
+      "bottom": 722
+    }
+  },
+  "common-mormon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 663,
+      "top": 198,
+      "right": 1386,
+      "bottom": 750
+    }
+  },
+  "green-leafhopper": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 704,
+      "top": 70,
+      "right": 1452,
+      "bottom": 914
+    }
+  },
+  "ventricose-orb-weaver": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 713,
+      "top": 27,
+      "right": 1420,
+      "bottom": 984
+    }
+  },
+  "pantropical-huntsman-spider": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 698,
+      "top": 153,
+      "right": 1503,
+      "bottom": 916
+    }
+  },
+  "pantropical-jumping-spider": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 69,
+      "right": 1485,
+      "bottom": 871
+    }
+  },
+  "red-swamp-crayfish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 674,
+      "top": 224,
+      "right": 1455,
+      "bottom": 792
+    }
+  },
+  "whiteleg-shrimp": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 765,
+      "top": 239,
+      "right": 1495,
+      "bottom": 806
+    }
+  },
+  "oriental-river-prawn": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 634,
+      "top": 166,
+      "right": 1486,
+      "bottom": 820
+    }
+  },
+  "gazami-crab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 621,
+      "top": 163,
+      "right": 1504,
+      "bottom": 836
+    }
+  },
+  "manila-clam": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 632,
+      "top": 209,
+      "right": 1495,
+      "bottom": 837
+    }
+  },
+  "pacific-oyster": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 744,
+      "top": 184,
+      "right": 1434,
+      "bottom": 803
+    }
+  },
+  "red-wiggler": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 666,
+      "top": 87,
+      "right": 1488,
+      "bottom": 886
+    }
+  },
+  "crested-myna": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 681,
+      "top": 50,
+      "right": 1470,
+      "bottom": 922
+    }
+  },
+  "azure-winged-magpie": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 689,
+      "top": 98,
+      "right": 1442,
+      "bottom": 964
+    }
+  },
+  "red-whiskered-bulbul": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 829,
+      "top": 22,
+      "right": 1340,
+      "bottom": 951
+    }
+  },
+  "white-browed-laughingthrush": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 683,
+      "top": 58,
+      "right": 1477,
+      "bottom": 944
+    }
+  },
+  "vinous-throated-parrotbill": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 765,
+      "top": 60,
+      "right": 1456,
+      "bottom": 928
+    }
+  },
+  "red-billed-blue-magpie": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 749,
+      "top": 47,
+      "right": 1316,
+      "bottom": 1008
+    }
+  },
+  "white-wagtail": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 691,
+      "top": 261,
+      "right": 1425,
+      "bottom": 826
+    }
+  },
+  "western-yellow-wagtail": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 708,
+      "top": 214,
+      "right": 1451,
+      "bottom": 806
+    }
+  },
+  "large-billed-crow": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 722,
+      "top": 217,
+      "right": 1440,
+      "bottom": 841
+    }
+  },
+  "black-headed-gull": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 631,
+      "top": 176,
+      "right": 1486,
+      "bottom": 851
+    }
+  },
+  "black-tailed-gull": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 656,
+      "top": 128,
+      "right": 1477,
+      "bottom": 821
+    }
+  },
+  "eastern-cattle-egret": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 691,
+      "top": 115,
+      "right": 1359,
+      "bottom": 914
+    }
+  },
+  "white-rumped-munia": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 789,
+      "top": 82,
+      "right": 1431,
+      "bottom": 900
+    }
+  },
+  "eurasian-siskin": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 716,
+      "top": 108,
+      "right": 1454,
+      "bottom": 830
+    }
   }
 };

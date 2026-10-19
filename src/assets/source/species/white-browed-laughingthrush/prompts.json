@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Garrulax sannio, White-browed Laughingthrush, warm brown body, dark brown chin, white eyebrow meeting a large pure white cheek patch, long brown tail, short dark bill. Habitat: southern Chinese dense shrub edge. Scene: one adult standing side-on on a low branch, complete tail and toes. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "d5b3d73d386247734e4cd5af35fda65a1d2b656c4fac692da4e1ee1a77a207ed",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5321ee1d19a122a38b1d99f4fa06b081a660d9a4764ac93af058927dc9f05410",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Garrulax sannio, White-browed Laughingthrush, warm brown body, dark brown chin, white eyebrow meeting a large pure white cheek patch, long brown tail, short dark bill. Habitat: southern Chinese dense shrub edge. Scene: adult head view showing white eyebrow and large white cheek with dark chin. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "0961946b445155c0472d11a262c128d9d9d37ea4049a234f0de2ef1a1823967e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c1d2cd4839707647c8a4e330bc24b18fce045e81e4b0d15f876cdda6b61ff691",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Garrulax sannio, White-browed Laughingthrush, warm brown body, dark brown chin, white eyebrow meeting a large pure white cheek patch, long brown tail, short dark bill. Habitat: southern Chinese dense shrub edge. Scene: adult on leaf litter searching beside a small ant. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "fb37b00d095858e15316a5be67a34bcbc5278f6cfa8b85587845f3dddc6b8ec1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "967c089ea6874a197d7f85a730f9726da86fdc20635d6508a4da4b54efb755f9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Garrulax sannio, White-browed Laughingthrush, warm brown body, dark brown chin, white eyebrow meeting a large pure white cheek patch, long brown tail, short dark bill. Habitat: southern Chinese dense shrub edge. Scene: three birds perched low inside separate parts of a shrub. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "7ccaf80d348220204801f12d9362f25a791fc5d97cf7c9d7a7ff674d72a91919",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8de34e75555562606c248e91cc05c79ecb73cdb2c7c1e2c4d86e401f02a1dfbf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Garrulax sannio, White-browed Laughingthrush, warm brown body, dark brown chin, white eyebrow meeting a large pure white cheek patch, long brown tail, short dark bill. Habitat: southern Chinese dense shrub edge. Scene: adult perched beside small dark berries, full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "8db4633b69de3105e357ccd0e506c9f0cfd9ac4384536f5951e0972dd127e11c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e73b399486468c65d7915cbc4bf4aab8b3555a3b25d205c480224317e1fa5786",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Garrulax sannio, White-browed Laughingthrush, warm brown body, dark brown chin, white eyebrow meeting a large pure white cheek patch, long brown tail, short dark bill. Habitat: southern Chinese dense shrub edge. Scene: adult walking across a small forest clearing, full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "eed0947120b208dd289169ddca4cf874f7e976f613c92fefbba2d6b58e5b217d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ceff5e883104a8481977e954c3317b705ad35ab1757353769979340e1a87eb17",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

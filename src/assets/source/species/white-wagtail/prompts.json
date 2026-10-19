@@ -1,0 +1,113 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "The full long tail still reaches into the left text area. Make a targeted composition correction: uniformly reduce the COMPLETE WHITE WAGTAIL to 78% of its current size, then translate the bird to the right so its complete silhouette has leftmost tail tip at x=740 pixels and rightmost bill tip at x=1430 pixels in this 1536x1024 landscape. Keep every toe and the entire tail. Left 45% must contain ONLY softly blurred river habitat, no bird. Bird centered around x=1085, with body large and clear. Place the feet naturally on the right-side rock. Preserve the same natural bird markings, anatomy, river light and habitat. No text or watermark. Recompose the actual image; no panel borders.",
+      "sourceSha256": "a7c8b820791abd4069eb700e8a25249f034d7f3456f2bb1df64d8857d2d1a094",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "134991fc05e7f1db458ecab8d3397e20d9cf11b58be36fbbdec7794cd337e535",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla alba, White Wagtail, slender black white and grey bird, long black tail with white outer feathers, thin black legs and pointed bill; East Asian leucopsis-like white face and black bib, no yellow underparts. Habitat: East Asian shallow river edge. Scene: one adult standing side-on on a river stone, entire long tail and toes. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "firstEditPrompt": "Edit only composition of this white wagtail cover for Fauna Atlas. Keep the same bird identity, leucopsis-like black and white markings, natural anatomy, light and rocky river habitat. Move the ENTIRE bird including its complete long tail, bill and every toe into the right side, uniformly reduce it only enough that all bird pixels fall within x=45%-94%, y=12%-88% of the 1536x1024 landscape. Bird silhouette center must be beyond 60% width, ideally 70%. Left 40% quiet softly blurred water, with absolutely no bird tail in left 40%. Keep the bird as large as full-body margins permit. Blend supporting rock naturally. No text, watermark or border.",
+      "revisionReason": "Initial complete tail extended into quiet left 40% and subject center was below 60% of width.",
+      "initialBounds": [
+        411,
+        145,
+        1363,
+        819
+      ],
+      "editInputEvidence": {
+        "sha256": "c44c56b69d7f0c45fe74996e3359e515b410d2ffadb5fc67f4c1a7b9fe00ea53",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      "firstRevisionEvidence": {
+        "sha256": "1d32fe0bb47f223ba0959b48af7d6f90d5bf9c87928c5348efff34397948866e",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      }
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla alba, White Wagtail, slender black white and grey bird, long black tail with white outer feathers, thin black legs and pointed bill; East Asian leucopsis-like white face and black bib, no yellow underparts. Habitat: East Asian shallow river edge. Scene: adult on moist open ground, white face black bib and grey-black back. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "4a403bd259c34a5b47d3ae8301068aab89fe392705b6e0b25ad29fd15bab91c2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e769f55c51a57d7d6660f70569a52a628a2e8420354094cd3db6aeedfc5592cf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla alba, White Wagtail, slender black white and grey bird, long black tail with white outer feathers, thin black legs and pointed bill; East Asian leucopsis-like white face and black bib, no yellow underparts. Habitat: East Asian shallow river edge. Scene: adult holding a small insect in bill at shallow water edge. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "15640be2419539613a00c07990a33ac6a2f52124ebcd639793b1d37323bb1db6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a31e461a3632768cc1aefb064bc2749bbcba91324d6efbf20ca1d17899e1989a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla alba, White Wagtail, slender black white and grey bird, long black tail with white outer feathers, thin black legs and pointed bill; East Asian leucopsis-like white face and black bib, no yellow underparts. Habitat: East Asian shallow river edge. Scene: one fully feathered grey juvenile with softer head markings on bank. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "7ec7a0442c53b28f65df8701c462597311e533b035ee8c643e4f2a9c3c8de018",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "15a3ea90b096888f644594b70f635ce83449cf33bae5fc58ef056f032caac271",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla alba, White Wagtail, slender black white and grey bird, long black tail with white outer feathers, thin black legs and pointed bill; East Asian leucopsis-like white face and black bib, no yellow underparts. Habitat: East Asian shallow river edge. Scene: adult in low flight with wings and tail fully visible. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "cf2745330b9e4324e4de7fcc7d421d3d5e3e1fa9349e4f7062fdab1b601cb19e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "10557b46083da372cff63b2ac297ea698b69b4174778c04a9eafaf7917d6b462",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla alba, White Wagtail, slender black white and grey bird, long black tail with white outer feathers, thin black legs and pointed bill; East Asian leucopsis-like white face and black bib, no yellow underparts. Habitat: East Asian shallow river edge. Scene: two adults spaced beside a clean stream, full bodies. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "5723dd3c6f244af95a2823f6b61b65fa9ee01839d7fa85489743e90c0e3fce86",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2b1dbaedbc0bb7efadbcf6c43337ad1d866a60873874a2dc7f98c237f882352a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

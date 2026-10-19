@@ -1,0 +1,126 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas species COVER, 1536x1024 landscape. Preserve this male Papilio polytes butterfly: black spread wings, broad creamy-white hindwing band and TWO long complete swallowtails, both antennae, full legs, flowering garden. Make WHOLE butterfly including wings and tails 70 percent of its current size and center it at x=1110. All wing margins, both antenna tips, both complete hindwing tail tips and feet must lie strictly in x=760 to x=1460 and y=160 to y=850. Left HALF must contain only quiet blurred garden, no butterfly parts. Keep prominent full animal, realistic anatomy and natural lighting. No text or watermark.",
+      "sourceFile": "exec-7bc51f48-7fef-4b51-902d-e807d0d492ed.png",
+      "sourceSha256": "50fff64ee188ad7b91d490c3fbb4e5ef95109793f31608cf78ad5dbcca558ea0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a07e068415f26c9cfc3d8a0653dfd0954c73677d38ae2f0c73c29fe502f8cfb9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Papilio polytes (玉带凤蝶). Adult identification: male Papilio polytes common mormon swallowtail, black wings, broad creamy white band across hindwings, long slender tails on both hindwings, six legs, clubbed antennae; no red spots for this male. Scene: whole adult male with wings spread on flower, both swallowtail tips complete; setting: flowering tropical garden. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-bafa2b3e-ba6b-4b17-b26a-4f8a5e8d765e.png",
+          "sourceSha256": "b370d2680d171387d523811512c918826122a929d9e19dc5853a6de92086f54f",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "subjectBounds": [
+            505,
+            100,
+            1497,
+            829
+          ],
+          "reviewReason": "Initial antennae or wing entered left 40 percent; reduce whole animal and move right."
+        }
+      ],
+      "editInputSha256": "b370d2680d171387d523811512c918826122a929d9e19dc5853a6de92086f54f",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        505,
+        100,
+        1497,
+        829
+      ],
+      "revisionReason": "Initial antennae or wing entered left 40 percent; reduce whole animal and move right."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Papilio polytes (玉带凤蝶). Adult identification: male Papilio polytes common mormon swallowtail, black wings, broad creamy white band across hindwings, long slender tails on both hindwings, six legs, clubbed antennae; no red spots for this male. Scene: adult male side view sipping nectar, hindwing tail fully visible; setting: flowering tropical garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-1e05d50c-514d-46b8-b6b0-0f29e97f31bf.png",
+      "sourceSha256": "20d027c4b31fda281403c2e23d0810984314042a2b62665a2d10b7a6f5fe752e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0dc77b3e659a8ec9f44b9784c1cacb7b0b93c79ff5fb894242a8a27f0cd4ff78",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Papilio polytes (玉带凤蝶). Adult identification: male Papilio polytes common mormon swallowtail, black wings, broad creamy white band across hindwings, long slender tails on both hindwings, six legs, clubbed antennae; no red spots for this male. Scene: adult male dorsal wing view showing creamy white hindwing band; setting: flowering tropical garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-03f10820-14f3-492d-8b1a-403f30bd880d.png",
+      "sourceSha256": "daad69607bea9471ef1628b39088ed70916b8a2ac799d54646e283f80d64d753",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "920373219057dda0aad054f064acedf96965655fd82cd67b7ec18452f3f7188d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Papilio polytes (玉带凤蝶). Adult identification: male Papilio polytes common mormon swallowtail, black wings, broad creamy white band across hindwings, long slender tails on both hindwings, six legs, clubbed antennae; no red spots for this male. Scene: mature green Papilio polytes caterpillar with swollen anterior and eye-like markings on citrus leaf; setting: flowering tropical garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-46d66144-09c6-4953-be10-7dd39e1a5a7a.png",
+      "sourceSha256": "c76c160eb4d23bd76ae50ee1f13657ae468a9ecaacecc5b92b97b12d36328632",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "fd063fc1fb0be65df73140e57900fea344ad060a2dff89a6315d4b9e93dc13f9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Papilio polytes (玉带凤蝶). Adult identification: male Papilio polytes common mormon swallowtail, black wings, broad creamy white band across hindwings, long slender tails on both hindwings, six legs, clubbed antennae; no red spots for this male. Scene: angular green swallowtail pupa fixed to citrus twig with silk girdle; setting: flowering tropical garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-6ac0920d-0708-4e1c-8901-bbf51aacd8b2.png",
+      "sourceSha256": "5bd28725d63c57b7151766411661b9030b20b7d40c6e0e4754323444fb4fe259",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9375577cca705fdf243f7aaa18eff2a2e8b0791171d846be9f596aecf813dbf2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Papilio polytes (玉带凤蝶). Adult identification: male Papilio polytes common mormon swallowtail, black wings, broad creamy white band across hindwings, long slender tails on both hindwings, six legs, clubbed antennae; no red spots for this male. Scene: single round pale yellow egg on fresh citrus leaf, macro natural light; setting: flowering tropical garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-1e12f663-9aea-4823-85c8-c0804a6d41fe.png",
+      "sourceSha256": "babc054476c5b19ad4cc1ec9b44156cabac39f73cb342f8be1a251ff3cdd415f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d0784236b148156a7fb6ac0bde1f1699587ebeeb94d09ab20b3d7877c3ef8bfb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

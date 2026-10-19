@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Bubulcus coromandus, Eastern Cattle Egret, stocky small white heron with short thick yellow bill, yellowish-dark legs, short neck usually tucked, nonbreeding all white plumage. Habitat: southern Chinese pasture. Scene: one nonbreeding adult standing on grass, full body bill feet and tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "02f1e6b4bbf1c6cbbb9bea2ec57521e7e151ee0244d259dcb38b90ccdb05955f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "02787b7c756cc75b11cbc88a4f450ea6070d91c86e5b9145df1f661121a2c972",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Bubulcus coromandus, Eastern Cattle Egret, stocky small heron in BREEDING PLUMAGE: rich orange-buff head and neck, buff plumes on back, rest of wings and underparts white, stout yellow-orange bill, short neck. Habitat: southern Chinese pasture. Scene: one adult with orange-buff breeding head neck and back, full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "be59097308ab619019f564bc18781eb6a2b87386406ade2d7a8d55dfc20047c5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "197dba34250f26f46fdf4443b11ef38ba4f1225e425156937d5547864c5a3f26",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Bubulcus coromandus, Eastern Cattle Egret, stocky small white heron with short thick yellow bill, yellowish-dark legs, short neck usually tucked, nonbreeding all white plumage. Habitat: southern Chinese pasture. Scene: one adult with orange-buff breeding head neck and back, full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "revisionReason": "Remove conflicting adult, male or nonbreeding template from requested life-stage/sex/plumage scene before generation."
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Bubulcus coromandus, Eastern Cattle Egret, stocky small white heron with short thick yellow bill, yellowish-dark legs, short neck usually tucked, nonbreeding all white plumage. Habitat: southern Chinese pasture. Scene: white nonbreeding adult several steps beside a grazing water buffalo searching grass; egret prominent. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "546360a226dcf9992411de4e6bf1eb040052bc75bc8450a57d0b12485d683166",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d760bc006e57cfe9a493fdfdae515ce9525126ee4cd39e7534d30bae55a1d9e0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Bubulcus coromandus, Eastern Cattle Egret, stocky small white heron with short thick yellow bill, yellowish-dark legs, short neck usually tucked, nonbreeding all white plumage. Habitat: southern Chinese pasture. Scene: one adult holding a small grasshopper in bill, grassy field. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "d5612b5f764aee01fd5e728a14c574c218f85a2c00997ff3482f02c881e9c9ce",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "22118a93aa34f8ed6dc594951f995e69d58c589503b64d07edadac09703845e6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Bubulcus coromandus, Eastern Cattle Egret, stocky small white heron with short thick yellow bill, yellowish-dark legs, short neck usually tucked, nonbreeding all white plumage. Habitat: southern Chinese pasture. Scene: adult in flight with full rounded white wings neck tucked. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "7e352dc6077278b635ea15a7ac18a477db3891d98224e8e5d5eb4fce45e8c1d6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0b965a20e02c4ad185a02a352a0146a92c7db2170c996546dea39c821f38c34d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Bubulcus coromandus, Eastern Cattle Egret, stocky small white heron with short thick yellow bill, yellowish-dark legs, short neck usually tucked, nonbreeding all white plumage. Habitat: southern Chinese pasture. Scene: two nonbreeding adults walking in wet short grass, full bodies. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "2d6b3d7eb21f9268724185e8d40211bc346a83305ce64b4402ab37479aef7042",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "cb5b49cca743d93b742e53a2ea760e8137e1aae949e37f276ea2baec598f41cf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

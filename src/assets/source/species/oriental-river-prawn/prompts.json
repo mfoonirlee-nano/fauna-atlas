@@ -1,0 +1,113 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Precision composition edit of this oriental-river-prawn cover. Scale the ENTIRE animal to 60 percent of its current size, keeping exact proportions, then position the center of its COMPLETE silhouette at x=1100, y=530 on a 1536x1024 landscape. Include long antennae, their complete tips, every claw, toe, leg and tail tip. All animal pixels must be within x=760..1440 and y=130..900. The left half must contain only softly blurred natural background. Reconstruct any antenna tip that previously ran off the right edge, curl the long antennae naturally inside the right-side safe area. Do not trim or shorten appendages. Keep same habitat, lighting, realistic anatomy and documentary macro photograph style. No text or watermark.",
+      "sourceSha256": "0754a58ab67b5a18db6572e268fbce66694a25e54c911c9b9155c7708504f815",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "128826e59cc30293cf99c20032d86ec8bfdcc3b3635524547208f67eb3b9a505",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Macrobrachium nipponense, living oriental river prawn, translucent olive-brown freshwater body, narrow toothed rostrum, long slender chelipeds with small terminal pincers, long fine antennae, segmented abdomen and fan tail. Scene: whole adult male on freshwater gravel, long slender arms and antennae gently folded within right half. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "editInputSha256": "5f60a5de2f4928810ef05041d415371a8ef425a45cfff0064c9f5746b9907e21",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        425,
+        35,
+        1536,
+        892
+      ],
+      "revisionReason": "Earlier composition edits still placed extremities in the left title area or cut an antenna at the frame; complete silhouette uniformly reduced again.",
+      "revisions": [
+        {
+          "prompt": "Edit only composition of this oriental-river-prawn Fauna Atlas cover. Keep realistic species anatomy, textures, natural environment and documentary photograph style. Uniformly reduce and move the COMPLETE animal to the right. In the 1536x1024 landscape canvas all animal parts must fit within x=710..1450 and y=110..910; leave clear background outside its full silhouette. Include every leg, claw, antenna or shell margin. Long fine antennae must be naturally curved and completely visible, never cut off. Do not shorten or amputate appendages. Keep animal large within this safe area. Left 42% quiet blurred environment without any animal parts. No text, borders, watermarks or people.",
+          "sourceSha256": "ed2e4cc30e0b2957a0c832bd042a1245c6eb788c51d68d2234ac3a3a52a8ff2b",
+          "sourceDimensions": [
+            1536,
+            1024
+          ]
+        }
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Macrobrachium nipponense, living oriental river prawn, translucent olive-brown freshwater body, narrow toothed rostrum, long slender chelipeds with small terminal pincers, long fine antennae, segmented abdomen and fan tail. Scene: side close view of narrow rostrum and stalked eyes. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "f08177f752c353558f4da7b5970d01673e8bb71a125bf97ec613e0bcf24709c8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "54a2e2a10430207690976f0b1c5d28dab12dcd21538d5d0cf7c0f45693e74cf6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Macrobrachium nipponense, living oriental river prawn, translucent olive-brown freshwater body, narrow toothed rostrum, long slender chelipeds with small terminal pincers, long fine antennae, segmented abdomen and fan tail. Scene: whole male showing long slender second chelipeds. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "ed7e155bc92a2af4914f1d3c0a526e98e1c40b1ac01a339a841879dbe36ec486",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7879b7f02fdee8de25941ee380df7f1f409d1866d7b54e5a7996c34c1f1e8eb3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Macrobrachium nipponense, living oriental river prawn, translucent olive-brown freshwater body, narrow toothed rostrum, long slender chelipeds with small terminal pincers, long fine antennae, segmented abdomen and fan tail. Scene: female with a cluster of tiny greenish eggs beneath abdomen. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "f0fdc46fe9cffdc45c26f8caafe5a4b35a65cc0804cca109200847cd87532025",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1f1c217b40c8efd3b538c8a7f4ad4adbc31447dd80771a9fbf74bfedadc7a183",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Macrobrachium nipponense, living oriental river prawn, translucent olive-brown freshwater body, narrow toothed rostrum, long slender chelipeds with small terminal pincers, long fine antennae, segmented abdomen and fan tail. Scene: small translucent juvenile among submerged pond plants. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "bdd7cc97b829a0fb166065a38fb550406d0f89c2b06d7616395e3d04b5a17de1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e852332a2480564eacf9b7ca3a33c1c9f1312ec93e49ee2718a13a865cde75c8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Macrobrachium nipponense, living oriental river prawn, translucent olive-brown freshwater body, narrow toothed rostrum, long slender chelipeds with small terminal pincers, long fine antennae, segmented abdomen and fan tail. Scene: whole prawn foraging on submerged leaf litter. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "5dbd22fc1b18eb7cb50a7d9c58228cdd0dfabcac2a74b187480f3c4a18c5c449",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d8e5fece9b3c55ef01ca26214adc353b3f6914b5e053dab9599bda37731752e6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

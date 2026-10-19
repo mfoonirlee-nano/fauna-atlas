@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Portunus trituberculatus, living gazami swimming crab, blue-grey mottled broad carapace, three low frontal teeth, long sharp lateral spines, paired claws, four pairs walking legs with flattened paddle-shaped last pair. Scene: whole adult on sandy sea bottom, full lateral spines and all visible legs contained in frame. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "f28d9ecad5e90a167300ccdbbb9f692361b4467e011e69c5dab33e93b23847d8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "134218b831e4d717545f48f3dc3cf89b5f1df3e35c79ee69215731cb2f7a7d48",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Portunus trituberculatus, living gazami swimming crab, blue-grey mottled broad carapace, three low frontal teeth, long sharp lateral spines, paired claws, four pairs walking legs with flattened paddle-shaped last pair. Scene: dorsal whole view showing broad carapace and side spines. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "89466f4bfd8b66369d99fac4026a34354880acaae4526bbe3eacc903fd676232",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ab84bcd3a1e6fd472c112ead733967535b46366af3e2d800370194f1f30976b3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Portunus trituberculatus, living gazami swimming crab, blue-grey mottled broad carapace, three low frontal teeth, long sharp lateral spines, paired claws, four pairs walking legs with flattened paddle-shaped last pair. Scene: rear oblique view clearly showing flattened rear swimming paddles. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "0236e04e556276eed6dda1c635ceab900ada49af3ed4cdc3b3fc7324513b5058",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "15a748a86782ca267153b60d494170c35be66f223d6d41705ed809d8fc43ebce",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Portunus trituberculatus, living gazami swimming crab, blue-grey mottled broad carapace, three low frontal teeth, long sharp lateral spines, paired claws, four pairs walking legs with flattened paddle-shaped last pair. Scene: front oblique close view showing claws and carapace front. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "86567f9be017ca5c2805fb1804fa2a5902646d42439ae48ef254ec886d4443fa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "91554175d6dfabbf45e5dec66c7fb299d77c858542ffd2120c6d67b934cd20aa",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Portunus trituberculatus, living gazami swimming crab, blue-grey mottled broad carapace, three low frontal teeth, long sharp lateral spines, paired claws, four pairs walking legs with flattened paddle-shaped last pair. Scene: female carrying dense orange eggs beneath abdomen, gentle underwater side view. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "9ed856c2ef2de71eca3bc71d0cdc66f9bb31872eccb78c95253f3d0e9df481a9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ac1a0470a2382c84a6ba6af8943530b7855208c734b639e49bbbe1787ab911c1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Portunus trituberculatus, living gazami swimming crab, blue-grey mottled broad carapace, three low frontal teeth, long sharp lateral spines, paired claws, four pairs walking legs with flattened paddle-shaped last pair. Scene: whole crab half resting on shallow coastal sand. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "673c4e497031196640f904d1cbba867689aa7208bda9c6ef88528c6cb05a7a89",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f252566ff68f4f81f1202c869df48563bad9710e19fe1868dbc127e24c757b21",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

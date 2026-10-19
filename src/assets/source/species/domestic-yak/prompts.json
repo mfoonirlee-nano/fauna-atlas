@@ -1,0 +1,104 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: precise-object-edit. Edit only composition of this Fauna Atlas animal cover. Preserve the species identity, realistic anatomy, coat, colors, native habitat and photographic style. Scale the ENTIRE ANIMAL as one unit modestly smaller (about 85% of its present size) and move it right. Its complete boundary INCLUDING all fine whiskers, outer fur, ears, every horn/hump tip, all feet, and ENTIRE tail must be INSIDE x=44%-95%, y=10%-91% of the final landscape image. The animal remains large and prominent on RIGHT, center near 70% width. LEFT 40% must contain ONLY quiet blurred natural background, no animal part or whisker entering it. Keep visible background beyond every appendage and tail. Preserve the full image aspect ratio. No added animals, humans, text, watermark, border or prop.",
+      "sourceSha256": "ddd213900bd2f1f08fa8af8f8c53f8e14b16f7894feda78e672df22a84adeddc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c7b7243457bc27917f05862bae30757ba3054ff27e1295bbe44e0803643e86db",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical cover. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Bos grunniens domestic yak, sturdy highland bovid, dense black brown coat with long shaggy belly skirt, upward sweeping horns, bushy tail, Tibetan Plateau alpine pasture, not giant wild Bos mutus. Scene: one adult dark domestic yak standing side-on on alpine meadow, full horns legs and entire bushy tail visible. COVER COMPOSITION: Entire subject INCLUDING every whisker, all visible toes, ears, complete tail and all horn/antler tips must fit inside x=46%-93%, y=10%-90%. Large prominent animal on RIGHT, complete silhouette center at 70% image width. Left 40% quiet softly blurred native habitat. Visible background clearance surrounds every extremity. No text, watermark, border, humans, cages or decorative props.",
+      "editInputSha256": "ef621bc089205854b32d9233a916c617d14898595abef0c51bd86a26864ae545",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "editReason": "Complete subject scaled modestly and shifted right so all fine whiskers, toes and muzzle stay outside the quiet left 40%.",
+      "initialSubjectBounds": [
+        570,
+        169,
+        1490,
+        885
+      ],
+      "initialSubjectIncomplete": false
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Bos grunniens domestic yak, sturdy highland bovid, dense black brown coat with long shaggy belly skirt, upward sweeping horns, bushy tail, Tibetan Plateau alpine pasture, not giant wild Bos mutus. Scene: adult grazing short alpine grasses, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "d0ab8246b8d56e36ea8dd7adc82d0790e61ff69759285412607daa23098151e2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2b51817b5d549658ac55b82acdcaeac5ada626c81c78be6ca8742d636bb39207",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Bos grunniens domestic yak, sturdy highland bovid, dense black brown coat with long shaggy belly skirt, upward sweeping horns, bushy tail, Tibetan Plateau alpine pasture, not giant wild Bos mutus. Scene: adult resting and chewing cud on highland meadow, full horns visible. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "d147eaa20ff1cb3c4ab83cb8f8171aa95e1527f3d0e3613711cfbf07098e69d7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8673574c458aaa2af9ef4ac70d736e00469eb9a3fcbe19535370a2846166e27d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Bos grunniens domestic yak, sturdy highland bovid, dense black brown coat with long shaggy belly skirt, upward sweeping horns, bushy tail, Tibetan Plateau alpine pasture, not giant wild Bos mutus. Scene: mother and one calf together on open alpine pasture, both complete animals. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "1ca9d42b4abe9868ebf0e232b451f3b33609fc15fce67fce6d3b85eae1cb025e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "416d68329292726e6b90d4a33ae8a5c04901e9c6132aef7331d6272475409725",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Bos grunniens domestic yak, sturdy highland bovid, dense black brown coat with long shaggy belly skirt, upward sweeping horns, bushy tail, Tibetan Plateau alpine pasture, not giant wild Bos mutus. Scene: one domestic yak with natural black and white coat variation, standing complete body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "6951ffdef852fae53f2c27a5640e0b1c42830487cb33831c0d7a3ba108d3cf94",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c82397636852889accfcbd8f4c32663ce87a588173c456853ccff0e74a0be13e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Bos grunniens domestic yak, sturdy highland bovid, dense black brown coat with long shaggy belly skirt, upward sweeping horns, bushy tail, Tibetan Plateau alpine pasture, not giant wild Bos mutus. Scene: adult in cold light with snowy distant mountains, full coat and entire body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "d828ba978fc374dc7648dde560e2e4923ea6e2804ecb015cc426fef8f8f84f15",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "68b9c25466b915c98704101a0a41928366e448c46716f59fa4c194fb0ee739c9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

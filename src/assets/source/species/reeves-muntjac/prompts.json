@@ -1,0 +1,97 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical cover. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Muntiacus reevesi Reeves's muntjac, small compact chestnut brown deer, arched back and short legs, dark facial stripes, male with SHORT simple antlers on long hairy pedicles and small upper canines, East Asian forest undergrowth. Scene: one adult male full body side-on in open forest clearing, short simple antlers and all hooves visible. COVER COMPOSITION: Entire subject INCLUDING every whisker, all visible toes, ears, complete tail and all horn/antler tips must fit inside x=46%-93%, y=10%-90%. Large prominent animal on RIGHT, complete silhouette center at 70% image width. Left 40% quiet softly blurred native habitat. Visible background clearance surrounds every extremity. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "5a1ae2a6790c6afe1b3b5b7743e407542945febe0b7a4660a7c2b9dea0a47e68",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "24004560998ac9dea04315462a7b8bf87ffe5a83e62e7592ef73e43684194b32",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Muntiacus reevesi Reeves's muntjac, small compact chestnut brown deer, arched back and short legs, dark facial stripes, male with SHORT simple antlers on long hairy pedicles and small upper canines, East Asian forest undergrowth. Scene: adult female without antlers standing by low green shrubs, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "f61aee1f5eaa711c35cba051119d53751b4bb736a024a03b2641ab79d1c0fd6e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5956cdff280273082928a0ec444269990e68fcdf8b518ea1f4b86858b9de3c6f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Muntiacus reevesi Reeves's muntjac, small compact chestnut brown deer, arched back and short legs, dark facial stripes, male with SHORT simple antlers on long hairy pedicles and small upper canines, East Asian forest undergrowth. Scene: adult male head and shoulders with both short antlers, facial ridges and natural small upper canine visible. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "cf55354f0f86a303849e699ede4de283b4b55ec49e1c282a9474651cee45f0dc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "575d6dcb5cb5485484483792ad1d9d692cdd4581c4efab3d4d9a0b20588d3f22",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Muntiacus reevesi Reeves's muntjac, small compact chestnut brown deer, arched back and short legs, dark facial stripes, male with SHORT simple antlers on long hairy pedicles and small upper canines, East Asian forest undergrowth. Scene: adult nibbling low leaves at woodland edge, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "eb431a502dac1ea8a281ef0b2a12a404387d7178c6a0d9c0e120a580f0c96ef4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "753ff14133be8bad5ea501d660e6f301c6ff352566d1a5dcfe17e077c49a2ad9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: precise-object-edit. Correct only the adult animal's sex in this realistic Muntiacus reevesi Reeves's muntjac mother-and-fawn educational photograph. The adult must be an anatomically correct FEMALE: completely REMOVE both antlers, the elongated protruding hairy male antler pedicles, and the visible tusk-like upper canine. Replace those areas with a natural female muntjac forehead, small dark hair tufts and normal muzzle. Preserve the adult's identity and coat, both ears, full body and legs, the entire spotted fawn, their positions, woodland background, lighting and image dimensions. There are exactly two animals. No text, watermark or border.",
+      "sourceSha256": "cfde23987e6b86fb0cd83938555bfc4ce66ae5f059abe69761017f0a584273dd",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4cd0c0a8993284a70ffca8f51cff5dbdba51ee4e042367b2b9db89d9cb0fb2a8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Muntiacus reevesi Reeves's muntjac, small compact chestnut brown deer, arched back and short legs, dark facial stripes, male with SHORT simple antlers on long hairy pedicles and small upper canines, East Asian forest undergrowth. Scene: female and one spotted fawn standing on dry leaves, both complete animals. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "editInputSha256": "e5ab22252873a3f230476d5e301b75268756020863ad943c1bc7a09eaccffdf3",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "editReason": "Rejected initial candidate depicted an antlered male beside the fawn despite requested mother. Built-in edit corrected adult female forehead and muzzle while preserving both animals."
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Muntiacus reevesi Reeves's muntjac, small compact chestnut brown deer, arched back and short legs, dark facial stripes, male with SHORT simple antlers on long hairy pedicles and small upper canines, East Asian forest undergrowth. Scene: adult walking along a narrow forest path at dusk, complete body and tail. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "f8c95d56c63acbb1387408b0c18a9d10c18e358ccc87498e11577100a5fe04d0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7ab194df1fdd589b393c42072569982c69fc8a90efc4ad34b4d68f078d0de3f2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

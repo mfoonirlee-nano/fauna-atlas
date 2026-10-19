@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Larus crassirostris, Black-tailed Gull, medium gull adult with dark slate-grey back, white head and underparts, yellow bill with black and red tip markings, yellow legs, white tail crossed by wide black band. Habitat: East Asian rocky seacoast. Scene: one adult standing side-on on coastal rock, full body yellow legs and tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "4f311ab94a41657e4ab296a34168e115820fd03952a3688a08c48922fad0744e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7ef28223d88acf3d2b633d7534a6ac6dbf5a2d5bfe8f116eb88d059735643fba",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Larus crassirostris, Black-tailed Gull, medium gull adult with dark slate-grey back, white head and underparts, yellow bill with black and red tip markings, yellow legs, white tail crossed by wide black band. Habitat: East Asian rocky seacoast. Scene: adult head close showing yellow bill with black band and red tip. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "7029bd758747c5d8d18d372c95b154cd013c01340c7bafbc9316e0ff866ce804",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0dbce2d083442ea8cad07649bddbcecd087c4fe7e4fc260a2492edd0335332f5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Larus crassirostris, Black-tailed Gull, medium gull adult with dark slate-grey back, white head and underparts, yellow bill with black and red tip markings, yellow legs, white tail crossed by wide black band. Habitat: East Asian rocky seacoast. Scene: adult rear three-quarter view showing broad black tail band and white edge. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "b085e83f6fdfb81a775c701b0ce40f9e82a0a12ab4a9b4559a50e7465942ee3d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6d002f04ec370a7d001374b7caa48262f9805666d64aba5a4e9cc3fefcc1be9e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Larus crassirostris, Black-tailed Gull, medium gull adult with dark slate-grey back, white head and underparts, yellow bill with black and red tip markings, yellow legs, white tail crossed by wide black band. Habitat: East Asian rocky seacoast. Scene: adult flying with complete wings and tail, clear black tail band. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "74e37a2b2091f7a775c6221d9c5a7174b511097ec4284ddd4e82242f301a30e9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e0e545bef01c85f27a08722797f11c0d3ed948932e0492ff67374c9e24f7e3c6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Larus crassirostris, Black-tailed Gull, fully feathered first-year juvenile gull with brown mottled body and scaled grey-brown wings, dusky grey-pink legs, mostly dark bill; no adult white head or bright yellow bill. Habitat: East Asian rocky seacoast. Scene: one brown mottled juvenile standing on coastal rock, full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "422c201d202c2d9678c3a4d4ee7ad4d51631c58a417f9920e92aedf13e5a1f60",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5dd7720b852fac2cc4f3caf52ea666344c11c66eddb83ed263df466c58fb0dfa",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Larus crassirostris, Black-tailed Gull, medium gull adult with dark slate-grey back, white head and underparts, yellow bill with black and red tip markings, yellow legs, white tail crossed by wide black band. Habitat: East Asian rocky seacoast. Scene: one brown mottled juvenile standing on coastal rock, full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "revisionReason": "Remove conflicting adult, male or nonbreeding template from requested life-stage/sex/plumage scene before generation."
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Larus crassirostris, Black-tailed Gull, medium gull adult with dark slate-grey back, white head and underparts, yellow bill with black and red tip markings, yellow legs, white tail crossed by wide black band. Habitat: East Asian rocky seacoast. Scene: two adults at a rocky shore with sea beyond, complete bodies. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "6694a8e88bb3ca3417be73de1275f022eaa89ca74514f30ebe0735e748f62837",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "97debd6d0d32729632bce172f35a2ecc71544a2ed3ffb8ea2670e51431da70e8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Chroicocephalus ridibundus, Black-headed Gull, small gull with pale grey upperwings white body red bill and legs, winter adult white head with a dark ear spot; slender black-tipped wings. Habitat: temperate lakeshore. Scene: one winter adult standing side-on on a quiet lakeshore rock, complete bill legs and tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "18e32b3308f6afb5474b7209cd0ed0182d850e15030116819df3a2f9095a5521",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "814d20568bf130422ebaa68e747e13e30086549e882ce6faac7346e3e0ebeff9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Chroicocephalus ridibundus, Black-headed Gull, small gull with pale grey upperwings white body red bill and legs, winter adult white head with a dark ear spot; slender black-tipped wings. Habitat: temperate lakeshore. Scene: winter adult close showing dark ear spot and red bill. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "f1254e84a0bd8e548336fc59378d685bcc807d02f4ed8ae6da3be494dbd9fdd4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d87963980ccaa132ace5db5a04bbd2233a15e64c811d28286e47e694f5867f48",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Chroicocephalus ridibundus, Black-headed Gull, small gull with pale grey upperwings white body red bill and legs, winter adult white head with a dark ear spot; slender black-tipped wings. Habitat: temperate lakeshore. Scene: breeding adult with chocolate-brown hood, full body at lake edge. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "1fc5abb1f7962921e48aa173be284fa00a8ed81dda9a0601b5ad861013ab0b51",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "681937f8c43bee0b0c886c53af6214a2e2d76d14011e8fffa575fa9badb4f0c5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Chroicocephalus ridibundus, Black-headed Gull, small gull with pale grey upperwings white body red bill and legs, winter adult white head with a dark ear spot; slender black-tipped wings. Habitat: temperate lakeshore. Scene: winter adult in flight with full wings showing dark primary tips and white leading edge. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "827af2fc74f9e29100835d8cf98fc6476af7427e56d22a285e76ce4cb6acf5f1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b398d9fa10fca4d07e5039f7d933856772eda3cf6c52a18269b94a64700e1fd7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Create one naturalistic documentary photograph-style bird image for Fauna Atlas, landscape 1536x1024, detailed realistic feathers, anatomically correct proportions, soft daylight, no text, watermark, border, people or artificial props. Subject: ONE FIRST-WINTER IMMATURE Black-headed Gull, Chroicocephalus ridibundus, in its first winter plumage, not an adult and not a downy chick. Age-specific appearance is essential: white head with a dark ear spot and a smaller dusky mark above the eye; pale grey back contrasting with conspicuous retained mottled brown upperwing coverts and brown-centred tertials; slender ORANGE bill with a clearly BLACK terminal third; both legs and webbed feet ORANGE rather than the deep red of an adult. The white tail has a conspicuous transverse BLACK SUBTERMINAL BAND and narrow white terminal edge. Scene: one fully feathered immature gull standing naturally on a low pebble beside a temperate lake. Use a three-quarter rear-side view, with its head turned sideways to show the orange-and-black bill. Its tail is gently spread enough that the black tail band can be seen clearly below and between the folded wing tips, while the brown wing markings remain visible. Show both complete legs and webbed feet, the complete bill, all wing tips and the entire tail, with generous habitat margin around every extremity. The bird is prominent and centered, natural water and distant reeds softly out of focus. This is an educational comparison image demonstrating first-winter plumage, with a distinct view from a side-view cover.",
+      "sourceSha256": "7970535fbba9db7baf9289965ac08eb0e0ce3a0508317fda8f1bfc1b47088bac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1f601acf8f6041adae005b9df0911d398d2c258736a94046f48c71512a9ee14b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Chroicocephalus ridibundus, Black-headed Gull, small gull with pale grey upperwings white body red bill and legs, winter adult white head with a dark ear spot; slender black-tipped wings. Habitat: temperate lakeshore. Scene: juvenile first-winter with brown wing markings and pinkish legs, complete body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "revisionReason": "Rejected first generation after full-resolution review: the prompt mixed an adult template with first-winter plumage; image retained deep-red adult-like bill and legs and did not show the required immature black tail band. Regenerated once with explicit first-winter orange bill with black tip, orange legs, brown retained wing feathers and a visible black subterminal tail band.",
+      "rejectedSourceEvidence": {
+        "sha256": "c78344fec179e8060a5af3e7eb85c0b907ce47b4ab4255defb3642ce3d8e42ff",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      }
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Chroicocephalus ridibundus, Black-headed Gull, small gull with pale grey upperwings white body red bill and legs, winter adult white head with a dark ear spot; slender black-tipped wings. Habitat: temperate lakeshore. Scene: three winter adults swimming on lake, natural separated group. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "58ad56eb724d00b0976d5c2f42e78eb6d63f8536df48adc8818c2585d6c5bb57",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2cc539627a329a64e089672908db0c834c0b10b7a389743a1fc8df35b3972e43",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Acridotheres cristatellus, Crested Myna, glossy black body, forehead tuft above the pale ivory-yellow bill, orange-yellow legs, pale orange eyes, white wing patches visible only when wings open. Habitat: subtropical grassy park edge. Scene: one adult standing on short grass, complete body side view. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "84594e2b7c4b0cb55c66104203cb44855eed9b8b2c74502cdc72fb7d66eda66e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e1f3b4d7c1058068e586ed606bedcdea90f255910619566ff3622daaec180747",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Acridotheres cristatellus, Crested Myna, glossy black body, forehead tuft above the pale ivory-yellow bill, orange-yellow legs, pale orange eyes, white wing patches visible only when wings open. Habitat: subtropical grassy park edge. Scene: adult perched side view showing forehead tuft and pale bill. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "1104980b6eeec0dcf8da9a8eec4ad501444775dc27d4375cfd011260cbe8fc93",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "55b00cbb9d119a794c26d0e0dfcd807472d1a03e0c777e5d26fef80db31a4e3b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Acridotheres cristatellus, Crested Myna, glossy black body, forehead tuft above the pale ivory-yellow bill, orange-yellow legs, pale orange eyes, white wing patches visible only when wings open. Habitat: subtropical grassy park edge. Scene: adult walking over short grass looking for invertebrates. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "058a8140f473458bfad1d31dda55eeab3ccc884e349b1cd2f1c328b6608713b8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "06559c260e04ee407453e5e351784736634924d324e03b3e0aa49653fc35e049",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Acridotheres cristatellus, Crested Myna, glossy black body, forehead tuft above the pale ivory-yellow bill, orange-yellow legs, pale orange eyes, white wing patches visible only when wings open. Habitat: subtropical grassy park edge. Scene: adult wings opened symmetrically showing white wing patches, full wings and tail visible. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "fefef1efb7eea6e67657e4714ed508fd7b01dc274e4ead2a95b3ff038120b71f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "76528a24e02856d768adbc847516bab3fe15ed908da83b592fe0db0be8c240c3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Acridotheres cristatellus, Crested Myna, glossy black body, forehead tuft above the pale ivory-yellow bill, orange-yellow legs, pale orange eyes, white wing patches visible only when wings open. Habitat: subtropical grassy park edge. Scene: two adults standing on a branch together, full bodies. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "bb619db54d690ef664cfb03f65f664cb295ae6a88ee08196ec5cfee9744e17ea",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "09c0c3dc0c543ec1b7c1e70efb8e6e49e7167de6c11e6556923bf1acc035e890",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Acridotheres cristatellus, Crested Myna, glossy black body, forehead tuft above the pale ivory-yellow bill, orange-yellow legs, pale orange eyes, white wing patches visible only when wings open. Habitat: subtropical grassy park edge. Scene: one brownish-black juvenile lacking a strong forehead tuft on a low branch. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "159bf8c4a5e259c39282d9917f630c9f8e0eafc42146d3fb2c362c8fcf0b89c1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1aa3719f3de8632532953d4ac63e98ae1cb39ca8d4b9a529680a597c0f5ef6f3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

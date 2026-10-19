@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Ruditapes philippinarum, living Manila clam, oval moderately inflated bivalve shell with intersecting radial ribs and concentric growth lines, varied mottled tan brown pattern, no scallop fan shape. Scene: single whole closed clam resting on wet intertidal sand with both shell margins complete. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "39fc6385452a2e4e4b3b3268fd8c0cdf4196d556d027cda5d86bd5f9bf97c321",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5da00a6f0688c184eb984680fb1c9f4d460b5599c39475a893a375478c1b4778",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Ruditapes philippinarum, living Manila clam, oval moderately inflated bivalve shell with intersecting radial ribs and concentric growth lines, varied mottled tan brown pattern, no scallop fan shape. Scene: macro side view showing intersecting radial ribs and growth lines. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "1b021faaf5f3e04370ed45c8a8e8105aaa87a4d8407ee45ff41d18c53d24972f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d9ffd2415be5e46ce9d173b355bb8b971f432191000f6caca0f7030716a4c4ca",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Ruditapes philippinarum, living Manila clam, oval moderately inflated bivalve shell with intersecting radial ribs and concentric growth lines, varied mottled tan brown pattern, no scallop fan shape. Scene: live clam partly buried in fine sandy mud, paired siphon tips visible. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "90b80b108904f25d74e5a00a7224240b0d52025d2f348720ce979f41f00a4b02",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "56f2b0d123d1a2be5f128a7e02a2d0fbb31d207a61bdc1f9c1adafeef7741c80",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Ruditapes philippinarum, living Manila clam, oval moderately inflated bivalve shell with intersecting radial ribs and concentric growth lines, varied mottled tan brown pattern, no scallop fan shape. Scene: three whole closed clams with natural varied brown patterns. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "f5d113c841436611fc3412b349eb7aaecc75792fbaec90a7c6cef015052fddc6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "dc4cc3e88bdee775396200640fb127258c4bc23914f9732f32e434bfbf044058",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Ruditapes philippinarum, living Manila clam, oval moderately inflated bivalve shell with intersecting radial ribs and concentric growth lines, varied mottled tan brown pattern, no scallop fan shape. Scene: single clam with short pale muscular foot extended into sand. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "72eaf9c81a4b6181d393d7b491bb23d898b92daa120e25fc06f4cffadc23083f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9f74bcdbb9dac2773a0a2b0fed13532bf5ebab2f75763082c267c91bc300b0a6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Ruditapes philippinarum, living Manila clam, oval moderately inflated bivalve shell with intersecting radial ribs and concentric growth lines, varied mottled tan brown pattern, no scallop fan shape. Scene: small juvenile clam on wet coarse sand beside a larger individual. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "71c4775209bdaf05b738afae1acec32d9782896ee779f9e03edeed892b02315e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7db7155792c99f41c652db5fd708c9383f249b8c6aa84bcba8517affeea48a5d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

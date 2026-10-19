@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Cicadella viridis, adult green leafhopper, vivid turquoise-green folded forewings, pale yellow head with two dark crown spots, six legs, compact wedge-shaped body. Scene: resting sideways on a marsh grass blade. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "57da630a0d28ba5e96658cdefc4405462f5492c449554cb478fd6dfea4b53153",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "15288a11c03d9d4a6e0870d2a147ccd49173b0ec8b62c653aecf94e14e4126b1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Cicadella viridis, adult green leafhopper, vivid turquoise-green folded forewings, pale yellow head with two dark crown spots, six legs, compact wedge-shaped body. Scene: dorsal close view of yellow spotted head and blue-green wing covers. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "2df87954b14fdb02f0ff42bb800ba185e609d0f717b865879fb206e29e88305b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "af69bc7c9a253959f9d5de4c80062f37f6ced562f5e8253bbbc7686b6391c669",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Cicadella viridis, adult green leafhopper, vivid turquoise-green folded forewings, pale yellow head with two dark crown spots, six legs, compact wedge-shaped body. Scene: side view showing folded rooflike wings on a sedge stem. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "55985de06adf224c11a0af22d2a6c8e649cfa91cc1eeff2ec0548f19e076be23",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ab65208073c6654445415e494d206113c27569098aee54f9b471ceb516a9bda8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Cicadella viridis, adult green leafhopper, vivid turquoise-green folded forewings, pale yellow head with two dark crown spots, six legs, compact wedge-shaped body. Scene: whole adult walking along a vertical rush stem. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "09591270b0f8ab7892d00887f55a8858b43b3571814d26c675c56fac4dd3de77",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "42ecfd808e7521e59804532864876018f4f41107a16437c00d61885b5787f93b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Cicadella viridis, adult green leafhopper, vivid turquoise-green folded forewings, pale yellow head with two dark crown spots, six legs, compact wedge-shaped body. Scene: small green nymph without developed wings on grass. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "46d8c731c4b6015ca01d9d51a816b041b1e764814c78a72a8845a002c8e65793",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c072107943b189a710d1a57b5033f58b3318682d7a6930857f3ec97a9b879363",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Cicadella viridis, adult green leafhopper, vivid turquoise-green folded forewings, pale yellow head with two dark crown spots, six legs, compact wedge-shaped body. Scene: adult among dew-covered damp meadow grasses. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "b220fcf71590d73bdd4ab96cb8f26c3a1a6f08152c64252bb2a51bbc7869d8d8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "47d615d79cd3c0090d033cbe441f71074fc88a2a78fc2c9f1b48697585bfa759",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

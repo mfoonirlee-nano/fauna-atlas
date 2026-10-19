@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Xylocopa sinensis (中华木蜂). Adult identification: Xylocopa sinensis Smith, 1854 female: robust black carpenter bee; dense bright yellow pubescence covering thorax and basal abdominal segment; rest of abdomen black; reddish amber translucent wings with darker reddish-brown apical cloud; tibiae and tarsi with bright reddish tawny hairs; six legs and two short curved antennae. Scene: whole adult female resting on a dry branch; setting: flowering garden beside an old dry branch. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-0536ab6b-adab-4fe5-9974-0ee947d7a21b.png",
+      "sourceSha256": "2bf5c5051684ae8594ec029cd345f1e949bdb1a50dc8a14530fbd595f0169c56",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b7c9171f5849efb57d11fee258fe1eeba56018cb50bda467b2c3f9970cbbc91a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Xylocopa sinensis (中华木蜂). Adult identification: Xylocopa sinensis Smith, 1854 female: robust black carpenter bee; dense bright yellow pubescence covering thorax and basal abdominal segment; rest of abdomen black; reddish amber translucent wings with darker reddish-brown apical cloud; tibiae and tarsi with bright reddish tawny hairs; six legs and two short curved antennae. Scene: adult female taking nectar at a purple flower, entire bee visible; setting: flowering garden beside an old dry branch. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-97100acc-4638-4378-9b31-70bae989970b.png",
+      "sourceSha256": "ebcf9e9d00d11be9e72616da208978d56465f69efb1265c92405fcec875a695f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "eefed66801a59c20e1e35146c9a582da9ed1b08248cc14b1e063dc9697690580",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Xylocopa sinensis (中华木蜂). Adult identification: Xylocopa sinensis Smith, 1854 female: robust black carpenter bee; dense bright yellow pubescence covering thorax and basal abdominal segment; rest of abdomen black; reddish amber translucent wings with darker reddish-brown apical cloud; tibiae and tarsi with bright reddish tawny hairs; six legs and two short curved antennae. Scene: dorsal macro showing black abdomen and reddish amber translucent wings; setting: flowering garden beside an old dry branch. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-6521c0c6-aea3-43dd-9a51-0b41fc63fb6a.png",
+      "sourceSha256": "43d36124b3a323743e796eb520b39ce3094cbe3b73b52acadd98821ac427a05b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b0becbb05bb72a49074a3cf29322249141ed4911c837d03d61b11d8ed6b9a1c2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Xylocopa sinensis (中华木蜂). Adult identification: Xylocopa sinensis Smith, 1854 female: robust black carpenter bee; dense bright yellow pubescence covering thorax and basal abdominal segment; rest of abdomen black; reddish amber translucent wings with darker reddish-brown apical cloud; tibiae and tarsi with bright reddish tawny hairs; six legs and two short curved antennae. Scene: adult at round tunnel entrance in dead wood, external view; setting: flowering garden beside an old dry branch. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-fd4509a5-53a2-4a40-a5c8-44851c9a3b3d.png",
+      "sourceSha256": "bcc57954a9a8123a587a985232337662e53288995c5466db7809b00c2e783e98",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6f77ffc92221321c54875fcc0c60553197c32dc54a25ef672716606884a1ae57",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Xylocopa sinensis (中华木蜂). Adult identification: Xylocopa sinensis Smith, 1854 female: robust black carpenter bee; dense bright yellow pubescence covering thorax and basal abdominal segment; rest of abdomen black; reddish amber translucent wings with darker reddish-brown apical cloud; tibiae and tarsi with bright reddish tawny hairs; six legs and two short curved antennae. Scene: adult on pale flowering shrub amid natural foliage; setting: flowering garden beside an old dry branch. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-d70a0c70-47a8-454e-953f-a422e508c030.png",
+      "sourceSha256": "c4f40c73737fe43b6d3af9641020c95c204c2803be7864b5880eabd7b12a8323",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a72bff19e14c807aad323be4b7bf92aa53be2889a14c9f53414e91b1ce27dde6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Xylocopa sinensis (中华木蜂). Adult identification: Xylocopa sinensis Smith, 1854 female: robust black carpenter bee; dense bright yellow pubescence covering thorax and basal abdominal segment; rest of abdomen black; reddish amber translucent wings with darker reddish-brown apical cloud; tibiae and tarsi with bright reddish tawny hairs; six legs and two short curved antennae. Scene: whole bee in side profile on leaf showing robust body and reddish hairy legs; setting: flowering garden beside an old dry branch. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-4b362784-4659-4d71-a84d-3259cf54eab5.png",
+      "sourceSha256": "58fb749c2b5dcbb0fe97b7ffe4836203dfd6177cc049f2cb7b1636e6995f66e7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5f6c03c5f4e0504315881bf17227ab0a0e53e175cfb48197bb713f8d0c3a7f67",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

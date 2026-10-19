@@ -1,0 +1,1484 @@
+{
+  "queriedAt": "2026-10-18",
+  "queries": [
+    {
+      "query": "Acridotheres cristatellus",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176631786,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2489010,
+            "parentKey": 340225587,
+            "parent": "Acridotheres",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "STURNIDAE",
+            "genus": "Acridotheres",
+            "species": "Acridotheres cristatellus",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340225507,
+            "genusKey": 340225587,
+            "speciesKey": 176631786,
+            "scientificName": "Acridotheres cristatellus (Linnaeus, 1766)",
+            "canonicalName": "Acridotheres cristatellus",
+            "authorship": "(Linnaeus, 1766)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22710946",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Crested Myna",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340225507": "STURNIDAE",
+              "340225587": "Acridotheres"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Acridotheres%20cristatellus&limit=20"
+    },
+    {
+      "query": "Cyanopica cyanus",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176650669,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 7341881,
+            "parentKey": 340224984,
+            "parent": "Cyanopica",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "CORVIDAE",
+            "genus": "Cyanopica",
+            "species": "Cyanopica cyanus",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340224964,
+            "genusKey": 340224984,
+            "speciesKey": 176650669,
+            "scientificName": "Cyanopica cyanus (Pallas, 1776)",
+            "canonicalName": "Cyanopica cyanus",
+            "authorship": "(Pallas, 1776)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "103721987",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Asian Azure-winged Magpie",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340224964": "CORVIDAE",
+              "340224984": "Cyanopica"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Cyanopica%20cyanus&limit=20"
+    },
+    {
+      "query": "Pycnonotus jocosus",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176634525,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2486151,
+            "parentKey": 340226251,
+            "parent": "Pycnonotus",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "PYCNONOTIDAE",
+            "genus": "Pycnonotus",
+            "species": "Pycnonotus jocosus",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226215,
+            "genusKey": 340226251,
+            "speciesKey": 176634525,
+            "scientificName": "Pycnonotus jocosus (Linnaeus, 1758)",
+            "canonicalName": "Pycnonotus jocosus",
+            "authorship": "(Linnaeus, 1758)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22712634",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Red-whiskered Bulbul",
+                "language": "eng"
+              },
+              {
+                "vernacularName": "Bulbul Orphée",
+                "language": "fra"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226215": "PYCNONOTIDAE",
+              "340226251": "Pycnonotus"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Pycnonotus%20jocosus&limit=20"
+    },
+    {
+      "query": "Garrulax sannio",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 192013029,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2493450,
+            "parentKey": 311601,
+            "parent": "Pterorhinus",
+            "acceptedKey": 176632671,
+            "accepted": "Pterorhinus sannio Swinhoe, 1867",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "LEIOTRICHIDAE",
+            "genus": "Pterorhinus",
+            "species": "Pterorhinus sannio",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226148,
+            "genusKey": 340226191,
+            "speciesKey": 176632671,
+            "scientificName": "Garrulax sannio Swinhoe, 1867",
+            "canonicalName": "Garrulax sannio",
+            "authorship": "Swinhoe, 1867",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22715707_1",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226148": "LEIOTRICHIDAE",
+              "340226191": "Pterorhinus",
+              "176632671": "Pterorhinus sannio",
+              "311601": "Pterorhinus"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Garrulax%20sannio&limit=20"
+    },
+    {
+      "query": "Suthora webbiana",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 3,
+        "results": [
+          {
+            "key": 176633007,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 8750564,
+            "parentKey": 340226552,
+            "parent": "Suthora",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "PARADOXORNITHIDAE",
+            "genus": "Suthora",
+            "species": "Suthora webbiana",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226541,
+            "genusKey": 340226552,
+            "speciesKey": 176633007,
+            "scientificName": "Suthora webbiana Gould, 1852",
+            "canonicalName": "Suthora webbiana",
+            "authorship": "Gould, 1852",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22716804",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Vinous-throated Parrotbill",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226541": "PARADOXORNITHIDAE",
+              "340226552": "Suthora"
+            },
+            "class": "AVES"
+          },
+          {
+            "key": 176633009,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2493518,
+            "parentKey": 311630,
+            "parent": "Suthora",
+            "acceptedKey": 176633007,
+            "accepted": "Suthora webbiana Gould, 1852",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "PARADOXORNITHIDAE",
+            "genus": "Suthora",
+            "species": "Suthora webbiana",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226541,
+            "genusKey": 340226552,
+            "speciesKey": 176633007,
+            "scientificName": "Paradoxornis webbianus (Gould, 1852)",
+            "canonicalName": "Paradoxornis webbianus",
+            "authorship": "(Gould, 1852)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22716804_1",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226541": "PARADOXORNITHIDAE",
+              "340226552": "Suthora",
+              "176633007": "Suthora webbiana",
+              "311630": "Suthora"
+            },
+            "class": "AVES"
+          },
+          {
+            "key": 192014901,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 6100921,
+            "parentKey": 311630,
+            "parent": "Suthora",
+            "acceptedKey": 176633007,
+            "accepted": "Suthora webbiana Gould, 1852",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "PARADOXORNITHIDAE",
+            "genus": "Suthora",
+            "species": "Suthora webbiana",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226541,
+            "genusKey": 340226552,
+            "speciesKey": 176633007,
+            "scientificName": "Sinosuthora webbiana (Gould, 1852)",
+            "canonicalName": "Sinosuthora webbiana",
+            "authorship": "(Gould, 1852)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22716804_2",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226541": "PARADOXORNITHIDAE",
+              "340226552": "Suthora",
+              "176633007": "Suthora webbiana",
+              "311630": "Suthora"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Suthora%20webbiana&limit=20"
+    },
+    {
+      "query": "Urocissa erythroryncha",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176650717,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 6100962,
+            "parentKey": 340224975,
+            "parent": "Urocissa",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "CORVIDAE",
+            "genus": "Urocissa",
+            "species": "Urocissa erythroryncha",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340224964,
+            "genusKey": 340224975,
+            "speciesKey": 176650717,
+            "scientificName": "Urocissa erythroryncha (Boddaert, 1783)",
+            "canonicalName": "Urocissa erythroryncha",
+            "authorship": "(Boddaert, 1783)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22705802",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Blue Magpie",
+                "language": "eng"
+              },
+              {
+                "vernacularName": "Red-billed Blue Magpie",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340224964": "CORVIDAE",
+              "340224975": "Urocissa"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Urocissa%20erythroryncha&limit=20"
+    },
+    {
+      "query": "Motacilla alba",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176635168,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 9687165,
+            "parentKey": 340225988,
+            "parent": "Motacilla",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "MOTACILLIDAE",
+            "genus": "Motacilla",
+            "species": "Motacilla alba",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340225975,
+            "genusKey": 340225988,
+            "speciesKey": 176635168,
+            "scientificName": "Motacilla alba Linnaeus, 1758",
+            "canonicalName": "Motacilla alba",
+            "authorship": "Linnaeus, 1758",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22718348",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "الذعرة البيضاء",
+                "language": "ara"
+              },
+              {
+                "vernacularName": "Pied Wagtail and White Wagtail",
+                "language": "eng"
+              },
+              {
+                "vernacularName": "White Wagtail",
+                "language": "eng"
+              },
+              {
+                "vernacularName": "Bergeronnette grise",
+                "language": "fra"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340225975": "MOTACILLIDAE",
+              "340225988": "Motacilla"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Motacilla%20alba&limit=20"
+    },
+    {
+      "query": "Motacilla flava",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176635189,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 9701857,
+            "parentKey": 340225988,
+            "parent": "Motacilla",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "MOTACILLIDAE",
+            "genus": "Motacilla",
+            "species": "Motacilla flava",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340225975,
+            "genusKey": 340225988,
+            "speciesKey": 176635189,
+            "scientificName": "Motacilla flava Linnaeus, 1758",
+            "canonicalName": "Motacilla flava",
+            "authorship": "Linnaeus, 1758",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "103822349",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Western Yellow Wagtail",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340225975": "MOTACILLIDAE",
+              "340225988": "Motacilla"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Motacilla%20flava&limit=20"
+    },
+    {
+      "query": "Corvus macrorhynchos",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 2,
+        "results": [
+          {
+            "key": 176650635,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2482487,
+            "parentKey": 340224981,
+            "parent": "Corvus",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "CORVIDAE",
+            "genus": "Corvus",
+            "species": "Corvus macrorhynchos",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340224964,
+            "genusKey": 340224981,
+            "speciesKey": 176650635,
+            "scientificName": "Corvus macrorhynchos Wagler, 1827",
+            "canonicalName": "Corvus macrorhynchos",
+            "authorship": "Wagler, 1827",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "103727590",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Large-billed Crow",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340224964": "CORVIDAE",
+              "340224981": "Corvus"
+            },
+            "class": "AVES"
+          },
+          {
+            "key": 176650637,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2482512,
+            "parentKey": 311392,
+            "parent": "Corvus",
+            "acceptedKey": 176650635,
+            "accepted": "Corvus macrorhynchos Wagler, 1827",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "CORVIDAE",
+            "genus": "Corvus",
+            "species": "Corvus macrorhynchos",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340224964,
+            "genusKey": 340224981,
+            "speciesKey": 176650635,
+            "scientificName": "Corvus levaillantii Lesson, 1831",
+            "canonicalName": "Corvus levaillantii",
+            "authorship": "Lesson, 1831",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "103727590_1",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340224964": "CORVIDAE",
+              "340224981": "Corvus",
+              "176650635": "Corvus macrorhynchos",
+              "311392": "Corvus"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Corvus%20macrorhynchos&limit=20"
+    },
+    {
+      "query": "Chroicocephalus ridibundus",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176606907,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 6486607,
+            "parentKey": 331114,
+            "parent": "Larus",
+            "acceptedKey": 176606903,
+            "accepted": "Larus ridibundus Linnaeus, 1766",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "CHARADRIIFORMES",
+            "family": "LARIDAE",
+            "genus": "Larus",
+            "species": "Larus ridibundus",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340222539,
+            "familyKey": 340222709,
+            "genusKey": 340222724,
+            "speciesKey": 176606903,
+            "scientificName": "Chroicocephalus ridibundus ssp. ridibundus — Christidis and Boles (2008)",
+            "canonicalName": "Chroicocephalus ridibundus ridibundus",
+            "nameType": "DOUBTFUL",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22694420_1",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340222539": "CHARADRIIFORMES",
+              "340222709": "LARIDAE",
+              "340222724": "Larus",
+              "176606903": "Larus ridibundus",
+              "331114": "Larus"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Chroicocephalus%20ridibundus&limit=20"
+    },
+    {
+      "query": "Larus crassirostris",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176606804,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2481197,
+            "parentKey": 340222724,
+            "parent": "Larus",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "CHARADRIIFORMES",
+            "family": "LARIDAE",
+            "genus": "Larus",
+            "species": "Larus crassirostris",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340222539,
+            "familyKey": 340222709,
+            "genusKey": 340222724,
+            "speciesKey": 176606804,
+            "scientificName": "Larus crassirostris Vieillot, 1818",
+            "canonicalName": "Larus crassirostris",
+            "authorship": "Vieillot, 1818",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22694289",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Black-tailed Gull",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340222539": "CHARADRIIFORMES",
+              "340222709": "LARIDAE",
+              "340222724": "Larus"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Larus%20crassirostris&limit=20"
+    },
+    {
+      "query": "Ardea coromanda",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Ardea%20coromanda&limit=20"
+    },
+    {
+      "query": "Lonchura striata",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 176636745,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2493618,
+            "parentKey": 340225954,
+            "parent": "Lonchura",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "ESTRILDIDAE",
+            "genus": "Lonchura",
+            "species": "Lonchura striata",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340225919,
+            "genusKey": 340225954,
+            "speciesKey": 176636745,
+            "scientificName": "Lonchura striata (Linnaus, 1766)",
+            "canonicalName": "Lonchura striata",
+            "authorship": "(Linnaus, 1766)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22719806",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "White-rumped Munia",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340225919": "ESTRILDIDAE",
+              "340225954": "Lonchura"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Lonchura%20striata&limit=20"
+    },
+    {
+      "query": "Spinus spinus",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 2,
+        "results": [
+          {
+            "key": 176653325,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 6092830,
+            "parentKey": 340226619,
+            "parent": "Spinus",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "FRINGILLIDAE",
+            "genus": "Spinus",
+            "species": "Spinus spinus",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226578,
+            "genusKey": 340226619,
+            "speciesKey": 176653325,
+            "scientificName": "Spinus spinus (Linnaeus, 1758)",
+            "canonicalName": "Spinus spinus",
+            "authorship": "(Linnaeus, 1758)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22720354",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "Λούγαρο",
+                "language": "ell"
+              },
+              {
+                "vernacularName": "Eurasian Siskin",
+                "language": "eng"
+              },
+              {
+                "vernacularName": "European Siskin",
+                "language": "eng"
+              },
+              {
+                "vernacularName": "Siskin",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226578": "FRINGILLIDAE",
+              "340226619": "Spinus"
+            },
+            "class": "AVES"
+          },
+          {
+            "key": 176653327,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2494701,
+            "parentKey": 332207,
+            "parent": "Spinus",
+            "acceptedKey": 176653325,
+            "accepted": "Spinus spinus (Linnaeus, 1758)",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "FRINGILLIDAE",
+            "genus": "Spinus",
+            "species": "Spinus spinus",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226578,
+            "genusKey": 340226619,
+            "speciesKey": 176653325,
+            "scientificName": "Carduelis spinus (Linnaeus, 1758)",
+            "canonicalName": "Carduelis spinus",
+            "authorship": "(Linnaeus, 1758)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22720354_1",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226578": "FRINGILLIDAE",
+              "340226619": "Spinus",
+              "176653325": "Spinus spinus",
+              "332207": "Spinus"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Spinus%20spinus&limit=20"
+    },
+    {
+      "query": "Sinosuthora webbiana",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 1,
+        "results": [
+          {
+            "key": 192014901,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 6100921,
+            "parentKey": 311630,
+            "parent": "Suthora",
+            "acceptedKey": 176633007,
+            "accepted": "Suthora webbiana Gould, 1852",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "PARADOXORNITHIDAE",
+            "genus": "Suthora",
+            "species": "Suthora webbiana",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226541,
+            "genusKey": 340226552,
+            "speciesKey": 176633007,
+            "scientificName": "Sinosuthora webbiana (Gould, 1852)",
+            "canonicalName": "Sinosuthora webbiana",
+            "authorship": "(Gould, 1852)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22716804_2",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226541": "PARADOXORNITHIDAE",
+              "340226552": "Suthora",
+              "176633007": "Suthora webbiana",
+              "311630": "Suthora"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Sinosuthora%20webbiana&limit=20"
+    },
+    {
+      "query": "Bubulcus coromandus",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 0,
+        "results": [],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Bubulcus%20coromandus&limit=20"
+    },
+    {
+      "query": "Bubulcus ibis",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 4,
+        "results": [
+          {
+            "key": 176611329,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2480830,
+            "parentKey": 340223074,
+            "parent": "Bubulcus",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PELECANIFORMES",
+            "family": "ARDEIDAE",
+            "genus": "Bubulcus",
+            "species": "Bubulcus ibis",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340223033,
+            "familyKey": 340223064,
+            "genusKey": 340223074,
+            "speciesKey": 176611329,
+            "scientificName": "Bubulcus ibis (Linnaeus, 1758)",
+            "canonicalName": "Bubulcus ibis",
+            "authorship": "(Linnaeus, 1758)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22697109",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "أبوقردان",
+                "language": "ara"
+              },
+              {
+                "vernacularName": "Γελαδάρης",
+                "language": "ell"
+              },
+              {
+                "vernacularName": "Cattle Egret",
+                "language": "eng"
+              },
+              {
+                "vernacularName": "Héron garde-boeufs",
+                "language": "fra"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340223033": "PELECANIFORMES",
+              "340223064": "ARDEIDAE",
+              "340223074": "Bubulcus"
+            },
+            "class": "AVES"
+          },
+          {
+            "key": 176611336,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 10994341,
+            "parentKey": 331257,
+            "parent": "Bubulcus",
+            "acceptedKey": 176611329,
+            "accepted": "Bubulcus ibis (Linnaeus, 1758)",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PELECANIFORMES",
+            "family": "ARDEIDAE",
+            "genus": "Bubulcus",
+            "species": "Bubulcus ibis",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340223033,
+            "familyKey": 340223064,
+            "genusKey": 340223074,
+            "speciesKey": 176611329,
+            "scientificName": "Ardea ibis ibis Christidis and Boles (1994)",
+            "canonicalName": "Ardea ibis ibis",
+            "authorship": "Christidis and Boles (1994)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22697109_1",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340223033": "PELECANIFORMES",
+              "340223064": "ARDEIDAE",
+              "340223074": "Bubulcus",
+              "176611329": "Bubulcus ibis",
+              "331257": "Bubulcus"
+            },
+            "class": "AVES"
+          },
+          {
+            "key": 176611335,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 10994341,
+            "parentKey": 331257,
+            "parent": "Bubulcus",
+            "acceptedKey": 176611329,
+            "accepted": "Bubulcus ibis (Linnaeus, 1758)",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PELECANIFORMES",
+            "family": "ARDEIDAE",
+            "genus": "Bubulcus",
+            "species": "Bubulcus ibis",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340223033,
+            "familyKey": 340223064,
+            "genusKey": 340223074,
+            "speciesKey": 176611329,
+            "scientificName": "Ardea ibis ibis Christidis and Boles (2008)",
+            "canonicalName": "Ardea ibis ibis",
+            "authorship": "Christidis and Boles (2008)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22697109_2",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340223033": "PELECANIFORMES",
+              "340223064": "ARDEIDAE",
+              "340223074": "Bubulcus",
+              "176611329": "Bubulcus ibis",
+              "331257": "Bubulcus"
+            },
+            "class": "AVES"
+          },
+          {
+            "key": 176611332,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 9203250,
+            "parentKey": 331257,
+            "parent": "Bubulcus",
+            "acceptedKey": 176611329,
+            "accepted": "Bubulcus ibis (Linnaeus, 1758)",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PELECANIFORMES",
+            "family": "ARDEIDAE",
+            "genus": "Bubulcus",
+            "species": "Bubulcus ibis",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340223033,
+            "familyKey": 340223064,
+            "genusKey": 340223074,
+            "speciesKey": 176611329,
+            "scientificName": "Ardeola ibis ibis Stotz et al. (1996)",
+            "canonicalName": "Ardeola ibis ibis",
+            "authorship": "Stotz et al. (1996)",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22697109_3",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340223033": "PELECANIFORMES",
+              "340223064": "ARDEIDAE",
+              "340223074": "Bubulcus",
+              "176611329": "Bubulcus ibis",
+              "331257": "Bubulcus"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Bubulcus%20ibis&limit=20"
+    },
+    {
+      "query": "Pterorhinus sannio",
+      "response": {
+        "offset": 0,
+        "limit": 20,
+        "endOfRecords": true,
+        "count": 2,
+        "results": [
+          {
+            "key": 176632671,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 10598340,
+            "parentKey": 340226191,
+            "parent": "Pterorhinus",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "LEIOTRICHIDAE",
+            "genus": "Pterorhinus",
+            "species": "Pterorhinus sannio",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226148,
+            "genusKey": 340226191,
+            "speciesKey": 176632671,
+            "scientificName": "Pterorhinus sannio Swinhoe, 1867",
+            "canonicalName": "Pterorhinus sannio",
+            "authorship": "Swinhoe, 1867",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "ACCEPTED",
+            "rank": "SPECIES",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22715707",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [
+              "LEAST_CONCERN"
+            ],
+            "descriptions": [],
+            "vernacularNames": [
+              {
+                "vernacularName": "White-browed Laughingthrush",
+                "language": "eng"
+              }
+            ],
+            "synonym": false,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226148": "LEIOTRICHIDAE",
+              "340226191": "Pterorhinus"
+            },
+            "class": "AVES"
+          },
+          {
+            "key": 192013029,
+            "datasetKey": "19491596-35ae-4a91-9a98-85cf505f1bd3",
+            "nubKey": 2493450,
+            "parentKey": 311601,
+            "parent": "Pterorhinus",
+            "acceptedKey": 176632671,
+            "accepted": "Pterorhinus sannio Swinhoe, 1867",
+            "kingdom": "ANIMALIA",
+            "phylum": "CHORDATA",
+            "order": "PASSERIFORMES",
+            "family": "LEIOTRICHIDAE",
+            "genus": "Pterorhinus",
+            "species": "Pterorhinus sannio",
+            "kingdomKey": 340214027,
+            "phylumKey": 340214214,
+            "classKey": 340221887,
+            "orderKey": 340224375,
+            "familyKey": 340226148,
+            "genusKey": 340226191,
+            "speciesKey": 176632671,
+            "scientificName": "Garrulax sannio Swinhoe, 1867",
+            "canonicalName": "Garrulax sannio",
+            "authorship": "Swinhoe, 1867",
+            "nameType": "SCIENTIFIC",
+            "taxonomicStatus": "SYNONYM",
+            "origin": "SOURCE",
+            "numDescendants": 0,
+            "numOccurrences": 0,
+            "taxonID": "22715707_1",
+            "habitats": [],
+            "nomenclaturalStatus": [],
+            "threatStatuses": [],
+            "descriptions": [],
+            "vernacularNames": [],
+            "synonym": true,
+            "higherClassificationMap": {
+              "340214027": "ANIMALIA",
+              "340214214": "CHORDATA",
+              "340221887": "AVES",
+              "340224375": "PASSERIFORMES",
+              "340226148": "LEIOTRICHIDAE",
+              "340226191": "Pterorhinus",
+              "176632671": "Pterorhinus sannio",
+              "311601": "Pterorhinus"
+            },
+            "class": "AVES"
+          }
+        ],
+        "facets": []
+      },
+      "url": "https://api.gbif.org/v1/species/search?datasetKey=19491596-35ae-4a91-9a98-85cf505f1bd3&q=Pterorhinus%20sannio&limit=20"
+    }
+  ]
+}

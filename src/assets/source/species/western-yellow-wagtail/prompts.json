@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla flava, Western Yellow Wagtail, slender wagtail with long dark tail edged white, olive-green back, bright yellow underside, thin dark legs and bill; male flava form has blue-grey head and white eyebrow. Habitat: European wet meadow. Scene: one breeding male flava form standing side-on on short meadow grass, complete body and tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "8c07cfedf3ce8c8b68b296798e29b990eb6d809c055be9b80841753f6aad039b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "74b7e2df6aa23e18bd6b458fb4d57fb95bc0daca3e91d88402fda589695e1960",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla flava, Western Yellow Wagtail, slender wagtail with long dark tail edged white, olive-green back, bright yellow underside, thin dark legs and bill; male flava form has blue-grey head and white eyebrow. Habitat: European wet meadow. Scene: breeding male head upper body showing blue-grey cap white eyebrow yellow throat. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "e13015634a69f5c4ddcc569af6e62b9a7cb25b6f2b0413714532e5a7b5c1cd8d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c44cf2a61992df263d4c3005264c8a73a19aa33771206d85636561f4a42afae6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla flava, Western Yellow Wagtail, slender wagtail with long dark tail edged white, olive-green back, bright yellow underside, thin dark legs and bill; male flava form has blue-grey head and white eyebrow. Habitat: European wet meadow. Scene: one adult walking near shallow water carrying a small fly. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "7ae7931a5eaac10cfbe889e03ff8db44da455da191da7efabf9c9fdb073679a8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "36fe2a47a5921f4c0442392fe18cc77d6197c7ebc3e62ae142d802c857ba56a3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla flava, Western Yellow Wagtail, slender wagtail with long dark tail edged white, olive-green back, bright yellow underside, thin dark legs and bill; male flava form has blue-grey head and white eyebrow. Habitat: European wet meadow. Scene: one paler female on low reed stem, full tail and toes. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "526bc090de28f62a5ab1f341149b718d4a50acd54e86051af2f45b71fd258b44",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a82c49f5d05e2e9cc2f031eebf75a1d104e238ba7267eb5c3e15ce89be8ed3fc",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla flava, Western Yellow Wagtail, slender wagtail with long dark tail edged white, olive-green back, bright yellow underside, thin dark legs and bill; male flava form has blue-grey head and white eyebrow. Habitat: European wet meadow. Scene: one adult in flight with complete wings and tail. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "fe13b0792b794e6a73dace72c386e622b6fc2b366e1b4cc11ad78b510d3376c1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e0a4f5ef49ee018ff09fed25cdbc312d7ee57bad9371d061f4adf3557977ec8c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Motacilla flava, Western Yellow Wagtail, slender wagtail with long dark tail edged white, olive-green back, bright yellow underside, thin dark legs and bill; male flava form has blue-grey head and white eyebrow. Habitat: European wet meadow. Scene: two adults spaced in wet grassland, natural variation in yellow intensity. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "daa4da61d594b1454d110ef5102df7f0ab2a704005536cf9ab37df1862701860",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9f2fb7487b0494d10e2d652eff1633aa9903e19bc1107a7f236db58e59c4cd21",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

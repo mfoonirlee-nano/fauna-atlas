@@ -1,0 +1,139 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Fauna Atlas scientific species cover. Composition correction: Preserve Hermetia illucens anatomy, long antennae, pale distal legs, black wasp-like fly body with abdominal windows, one wing pair and leaf habitat. Move ENTIRE insect including both long antennae right and uniformly reduce it just enough to fit every visible antenna tip, foot and wing tip strictly inside x=720 to x=1440 on the 1536-pixel-wide landscape canvas. Leftmost antenna must be right of x=720. Keep subject prominent, centered near 71 percent width, entire silhouette y=15%-85%. Left 40 percent only quiet blurred natural environment. No text, humans, labels, border or watermark.",
+      "sourceFile": "exec-46ae9fd6-d0cf-4440-8149-86af59f4e1c2.png",
+      "sourceSha256": "94c44bcbec5dbd2f20d163cdfa1ffc01b9c676a61efec8a73e1d167bb3f326cf",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ee0e58662f9b9b620b62272e27a3606b239774f0e067dee2a560af1d786745db",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Hermetia illucens (黑水虻). Adult identification: slender black soldier fly with elongated wasp-like body, long segmented black antennae, smoky transparent single pair of wings, pale translucent windows near abdominal base, six slender legs with pale distal portions, no wasp waist. Scene: whole adult resting side view on a green leaf; setting: broad green leaf beside compost garden. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-dda4f350-d389-4ee5-a5eb-10ab20a7c609.png",
+          "sourceSha256": "4884ac2931b26b01dff56bd55973f9347090b83a01011fa76576531e83e5a2ff",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "subjectBounds": [
+            557,
+            206,
+            1454,
+            724
+          ],
+          "reviewReason": "Move full antennae and feet out of left copy area and increase real source-edge clearance."
+        }
+      ],
+      "editInputSha256": "4884ac2931b26b01dff56bd55973f9347090b83a01011fa76576531e83e5a2ff",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        557,
+        206,
+        1454,
+        724
+      ],
+      "revisionReason": "Move full antennae and feet out of left copy area and increase real source-edge clearance."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Hermetia illucens (黑水虻). Adult identification: slender black soldier fly with elongated wasp-like body, long segmented black antennae, smoky transparent single pair of wings, pale translucent windows near abdominal base, six slender legs with pale distal portions, no wasp waist. Scene: dorsal macro adult showing two translucent abdominal windows; setting: broad green leaf beside compost garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-423a30c8-10ed-4012-9f64-c4600a50a8ba.png",
+      "sourceSha256": "6a842b72c548036ab4bf023b2f1a0fe217bc2691868b9dd57206e41bc269fb43",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "66b66eee5db38f41c68bc8ac89c7623f4c06ddc83bd72a8cc32aae534ce27c01",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Hermetia illucens (黑水虻). Adult identification: slender black soldier fly with elongated wasp-like body, long segmented black antennae, smoky transparent single pair of wings, pale translucent windows near abdominal base, six slender legs with pale distal portions, no wasp waist. Scene: adult side view on twig showing long segmented antennae; setting: broad green leaf beside compost garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-1c7a26cb-34f4-4bfe-8ac4-3126f8eb5b5a.png",
+      "sourceSha256": "3b1ded1cf492f021bb22a460d8f6e51c4a44e8e9741b98ddee6629c659ea493b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0e380c2566586b6cd0e233b28bab03c9623cba09192e8ed0eb8cf7ef6517f2e7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Hermetia illucens (黑水虻). Adult identification: slender black soldier fly with elongated wasp-like body, long segmented black antennae, smoky transparent single pair of wings, pale translucent windows near abdominal base, six slender legs with pale distal portions, no wasp waist. Scene: several plump ridged pale tan larvae in decomposing vegetable material; setting: broad green leaf beside compost garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-02e07f54-bfca-4d20-b6f6-baacfb9a3fb8.png",
+      "sourceSha256": "ce51c2e544363073bc43893a9ff814d9a65632b9cf235d5cc729ab95fb0eeef5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f02273b3cfcc99385246133ae243123c741543a3ec68f076bbe56ade649228b7",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic macro documentary photograph, 1536x1024 landscape. A SINGLE DARK BROWN MATURE PREPUPA of Hermetia illucens black soldier fly crawling on dry leaf litter away from compost. The subject is a plump, elongated, legless, deeply segmented ridged larval body, leathery dark brown surface, small projecting pointed head, rounded posterior. NO wings, NO long antennae, NO adult fly, NO beetle, NO legs. Put the prepupa large and clear at center-right, natural scale and soft daylight. No text, labels, collage or watermark.",
+      "sourceFile": "exec-b98e51bf-fca0-46cf-b8f2-e7ba5fb1cc87.png",
+      "sourceSha256": "be7be6255df49fd5dff808df2f4b7b05d598b7a161f2243ef619d780b80b4e24",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2040e797b6024348ce9ebb3547b430420a19ae291b13aa2c4534424f823b4d10",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Hermetia illucens (黑水虻). Adult identification: slender black soldier fly with elongated wasp-like body, long segmented black antennae, smoky transparent single pair of wings, pale translucent windows near abdominal base, six slender legs with pale distal portions, no wasp waist. Scene: dark mature prepupa crawling onto dry leaf litter; setting: broad green leaf beside compost garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-357c00b6-5c96-4839-9ee1-0dad0f05f95c.png",
+          "sourceSha256": "df06e77624ded63fde77cb3a8581902535c9dafa846ef101c0ba887fd749e616",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "reviewReason": "Initial observation lacked a clearly visible dark prepupa; replace with stage-only scene."
+        }
+      ],
+      "revisionReason": "Initial observation lacked a clearly visible dark prepupa; replace with stage-only scene."
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Hermetia illucens (黑水虻). Adult identification: slender black soldier fly with elongated wasp-like body, long segmented black antennae, smoky transparent single pair of wings, pale translucent windows near abdominal base, six slender legs with pale distal portions, no wasp waist. Scene: one brown ridged pupal case on dry soil, no adult present; setting: broad green leaf beside compost garden. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-0a748bc6-b7b9-41d5-9c6c-2c89ce02a05a.png",
+      "sourceSha256": "dfa63781b742a10e3e3aff0feffc0973c6e07a7edcb2cd2378cf2eb1a948d631",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7378eb8570832f04d31fd49c9eabcbe649e30c9f2841d0bc0073f7316e6391d0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

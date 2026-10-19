@@ -1,0 +1,104 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: precise-object-edit. Change ONLY framing of this Fauna Atlas species cover; preserve species identity, natural anatomy, coat or skin details, habitat and photographic style. Reconstruct the missing outer tail fur at the right source edge so its entire furry tail is visible. Scale the ENTIRE ANIMAL uniformly to about 82% of its present size and shift it to the RIGHT. Show the COMPLETE subject, including every whisker or fur tip, all feet and toes, entire hind limbs and full tail where present. Entire animal boundary must be inside x=44%-94%, y=10%-90% of landscape source. Large prominent animal centered near 70% width. LEFT 40% contains ONLY quiet blurred habitat, no animal part. Leave real background clearance beyond every extremity. No new animals, text, border, watermark or humans.",
+      "sourceSha256": "127f679ed0d14da912c43cda94942abf802992f45de3264f10ef033454aad54c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1434db8632064f003d7a6945b1dad17535609fdbb4136639f156b37ce118699e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical cover. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Tamias sibiricus also Eutamias sibiricus Siberian chipmunk, small ground squirrel with FIVE dark longitudinal dorsal stripes alternating pale stripes, distinct pale eye stripes, small rounded ears and long furry tail, northern Asian mixed woodland floor. Scene: one adult full body in three-quarter side view on a low flat log, back stripes and entire furry tail visible. COVER COMPOSITION: Entire subject INCLUDING every whisker, all visible toes, ears, complete tail and all horn/antler tips must fit inside x=46%-93%, y=10%-90%. Large prominent animal on RIGHT, complete silhouette center at 70% image width. Left 40% quiet softly blurred native habitat. Visible background clearance surrounds every extremity. No text, watermark, border, humans, cages or decorative props.",
+      "editInputSha256": "e9e37fe2a3668a006c4eb9e6ca2ab32a0049058d94fbd24b7f12c9a12151d55a",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "editReason": "Rejected initial candidate: tail or hind-foot extremity reached source edge. Built-in edit restored the complete subject with background clearance.",
+      "initialSubjectBounds": [
+        550,
+        174,
+        1536,
+        797
+      ],
+      "initialSubjectIncomplete": true
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Tamias sibiricus also Eutamias sibiricus Siberian chipmunk, small ground squirrel with FIVE dark longitudinal dorsal stripes alternating pale stripes, distinct pale eye stripes, small rounded ears and long furry tail, northern Asian mixed woodland floor. Scene: adult holding a seed between its forepaws, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "b3462eb434ad27f427c4f5a7434f8ea56ec37403d72c9f94a44d60f0be2efd72",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c71bb32cdfe241090c4d27476d9a7e989fe99745dd6a41aa4fc5d7754dbb3822",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Tamias sibiricus also Eutamias sibiricus Siberian chipmunk, small ground squirrel with FIVE dark longitudinal dorsal stripes alternating pale stripes, distinct pale eye stripes, small rounded ears and long furry tail, northern Asian mixed woodland floor. Scene: adult with modestly full cheek pouches on forest floor, full head body and tail. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "a15cf573fbc76ec73193ec449cf3feb439c31a2b7641f51da1ce3203ece7c661",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a698c00e2ea4a0db8a3f46e6132d91c68ab90f24e293542307afd7c32e26e9df",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Tamias sibiricus also Eutamias sibiricus Siberian chipmunk, small ground squirrel with FIVE dark longitudinal dorsal stripes alternating pale stripes, distinct pale eye stripes, small rounded ears and long furry tail, northern Asian mixed woodland floor. Scene: adult beside a small ground burrow entrance among dry leaves, complete body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "49e2e61f4d7d45e5b076eb497ff812c91c28ef2162597e212a6f652a87f75ad5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9a01e7069484e16ca482e2c8a0443841a4c8afaa287d1df996eb7b7d397aebef",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Tamias sibiricus also Eutamias sibiricus Siberian chipmunk, small ground squirrel with FIVE dark longitudinal dorsal stripes alternating pale stripes, distinct pale eye stripes, small rounded ears and long furry tail, northern Asian mixed woodland floor. Scene: adult moving over a mossy fallen log, dorsal stripes visible and entire tail. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "9b1c5aa7d18f227dcf54a65894bc059ea03cd3eab282cb183413cac4cbc8d290",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8675959aef091fc2b408bec09e1c9df4f8038b55987ea5e666a2cf8d11ba7c7d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Tamias sibiricus also Eutamias sibiricus Siberian chipmunk, small ground squirrel with FIVE dark longitudinal dorsal stripes alternating pale stripes, distinct pale eye stripes, small rounded ears and long furry tail, northern Asian mixed woodland floor. Scene: adult gathering scattered nuts and seeds on autumn woodland floor, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "25f4701a66fbf2920f343058a4ec5dfb2d66bcc518b469421ec813e4d36223a8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9a863e10afb1a48f2db85d3429392cf730dd5a4fe7a149a4ebf6fe7e8ebaf3e5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

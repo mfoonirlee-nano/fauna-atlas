@@ -1,0 +1,104 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: precise-object-edit. Change ONLY framing of this Fauna Atlas species cover; preserve species identity, natural anatomy, coat or skin details, habitat and photographic style. Reconstruct any missing outer hind foot and toes at the right source edge, showing complete anatomically plausible folded hind limbs with all visible toes inside the frame. Scale the ENTIRE ANIMAL uniformly to about 82% of its present size and shift it to the RIGHT. Show the COMPLETE subject, including every whisker or fur tip, all feet and toes, entire hind limbs and full tail where present. Entire animal boundary must be inside x=44%-94%, y=10%-90% of landscape source. Large prominent animal centered near 70% width. LEFT 40% contains ONLY quiet blurred habitat, no animal part. Leave real background clearance beyond every extremity. No new animals, text, border, watermark or humans.",
+      "sourceSha256": "f67896b288da28a2c09c473ee668dee9b2b9d1253099a5bb0136d99a73058a39",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "bdc16d28023119af2f3223215202b44c1165ce01aef9106cc5c48c367931c7ca",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical cover. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Fejervarya multistriata paddy frog, small brown gray rice-field frog, pointed snout, many interrupted elongated dorsal ridges, darker barred hind legs, narrow pale stripe along upper lip, no enlarged toe discs, southern Chinese paddy margin. Scene: one adult crouched side-on on low muddy paddy bank, complete long folded hind limbs and every visible toe. COVER COMPOSITION: Entire subject INCLUDING every whisker, all visible toes, ears, complete tail and all horn/antler tips must fit inside x=46%-93%, y=10%-90%. Large prominent animal on RIGHT, complete silhouette center at 70% image width. Left 40% quiet softly blurred native habitat. Visible background clearance surrounds every extremity. No text, watermark, border, humans, cages or decorative props.",
+      "editInputSha256": "01a0ed24b2bd83a8da50a2309f68235f0407169e155e0e8a38386afa5c14e3c8",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "editReason": "Rejected initial candidate: tail or hind-foot extremity reached source edge. Built-in edit restored the complete subject with background clearance.",
+      "initialSubjectBounds": [
+        618,
+        235,
+        1536,
+        838
+      ],
+      "initialSubjectIncomplete": true
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation image. Realistic documentary wildlife photograph, landscape 1536x1024. Fejervarya multistriata paddy frog from southern China, brown-gray skin, pointed snout, many interrupted elongated dorsal folds, dark bars across hind legs, narrow pale upper lip stripe, no enlarged toe discs. Scene: one whole adult in dorsal three-quarter view on moist soil, showing the interrupted elongated longitudinal folds along its back. Prominent subject with realistic frog anatomy, natural color and lighting. No lettering, watermark, border, humans, cage or decorative objects.",
+      "sourceSha256": "207748699ef3cd4ac13f02b72eab15c89008c68eee9b2212948978109ceb9f0b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "aed002067f2a83c94a22aa38f5b26e956f958132e3804224eeb2148cbb396432",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation image. Realistic documentary wildlife photograph, landscape 1536x1024. Fejervarya multistriata paddy frog from southern China, brown-gray skin, pointed snout, many interrupted elongated dorsal folds, dark bars across hind legs, narrow pale upper lip stripe, no enlarged toe discs. Scene: one whole adult beside shallow water and sparse rice stems, complete body with folded hind legs and toes unobscured. Prominent subject with realistic frog anatomy, natural color and lighting. No lettering, watermark, border, humans, cage or decorative objects.",
+      "sourceSha256": "fa601d7f90ab0d3453e80b3605cc6b5b3ef45b1f2c955be736a408e8999a761f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d4cee7f86238e46c0927724e00c9de471ea58d3e407e28155e931d6813399f22",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation image. Realistic documentary wildlife photograph, landscape 1536x1024. Fejervarya multistriata paddy frog from southern China, brown-gray skin, pointed snout, many interrupted elongated dorsal folds, dark bars across hind legs, narrow pale upper lip stripe, no enlarged toe discs. Scene: one whole adult on wet soil at dusk beside one small beetle, a non-contact foraging scene. Prominent subject with realistic frog anatomy, natural color and lighting. No lettering, watermark, border, humans, cage or decorative objects.",
+      "sourceSha256": "00f105abe2bba7c947a0303387f44658882b902b2bea5632e0c209a52eb62b1a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4d3c86ba50aea4d93ccc78e5fa6c090cd6823f045c9b0be53be95649e00550ca",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation image. Realistic documentary wildlife photograph, landscape 1536x1024. Fejervarya multistriata paddy frog from southern China, brown-gray skin, pointed snout, many interrupted elongated dorsal folds, dark bars across hind legs, narrow pale upper lip stripe, no enlarged toe discs. Scene: one whole adult by a clear shallow pond edge, a few tadpoles in water in background, this is a life-history reconstruction. Prominent subject with realistic frog anatomy, natural color and lighting. No lettering, watermark, border, humans, cage or decorative objects.",
+      "sourceSha256": "166033b7e504111a9ad6af43a6491ee9828610ebbe3c19b1f22375077003e532",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "249f687d64bf43b4a1c3d39a066839ea6c135c51928e5deb01e9a1b3270e4cf5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation image. Realistic documentary wildlife photograph, landscape 1536x1024. Fejervarya multistriata paddy frog from southern China, brown-gray skin, pointed snout, many interrupted elongated dorsal folds, dark bars across hind legs, narrow pale upper lip stripe, no enlarged toe discs. Scene: one whole adult on a muddy grassy bank after rain, side view clearly showing barred hind legs, complete toes visible. Prominent subject with realistic frog anatomy, natural color and lighting. No lettering, watermark, border, humans, cage or decorative objects.",
+      "sourceSha256": "7f3301d6258b745b690dc4fc3e12f70ae90ed19c9f188fb2e32608dd0e5a35c3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "51e30dd22002aaaa2bf82f59802757179d00c9a25577884f8b53a2f021dba494",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

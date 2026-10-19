@@ -1,0 +1,105 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Recompose this same large-billed crow in the same wooded park: uniformly reduce the ENTIRE bird to about 84% of its current size and shift it right. On this 1536x1024 image, fit complete silhouette, including arched bill, all toes, both wings and the very last tail tip, between x=700 and x=1430, y=150 and y=880. Keep bird large, with natural anatomy and glossy black feather texture. Left 44% contains only quiet softly blurred forest, absolutely no bill or other bird part. Naturally adjust the supporting branch. Keep all body parts, no clipping and no added features, no text, border or watermark.",
+      "sourceSha256": "f723060312eab38debad0a33539668b6e80e51e8c511e9e650c32132654f9a71",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7fc9c63345a6e4b36ebbca8f144e4ac000b3ce4b2d7249ab575bfbc687eb1152",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Corvus macrorhynchos, Large-billed Crow, entirely glossy black crow, heavy deep arched black bill, bulging forehead, broad black wings and rounded tail, black legs. Habitat: East Asian wooded city park. Scene: one adult standing side-on on a low branch full body bill and tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "revisionReason": "Bill tip entered the left 40% copy area.",
+      "initialBounds": [
+        577,
+        124,
+        1475,
+        885
+      ],
+      "editInputEvidence": {
+        "sha256": "b01603e0e3dd0c0c769bd88287e6da33070dd89a573891eae90dc7b067917e4d",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      }
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Corvus macrorhynchos, Large-billed Crow, entirely glossy black crow, heavy deep arched black bill, bulging forehead, broad black wings and rounded tail, black legs. Habitat: East Asian wooded city park. Scene: adult head close view showing deep curved bill and high forehead. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "b668fab0359fa339bab557200b6d690b39f25655ae9806729e0e081004d9b5f1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4dcd77344ab02c07188bdd47cae60cae12a330e9ce55b6a014fad6135430b004",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Corvus macrorhynchos, Large-billed Crow, entirely glossy black crow, heavy deep arched black bill, bulging forehead, broad black wings and rounded tail, black legs. Habitat: East Asian wooded city park. Scene: adult on ground inspecting a fallen nut. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "6fc069a910211d3b0099f8320f5ccff3011bd835941dce049c012581cfd152ce",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "906ef98ec7f14e872714443ef67acf248145e690603c7cbfe3fc1bf77ec219e8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Corvus macrorhynchos, Large-billed Crow, entirely glossy black crow, heavy deep arched black bill, bulging forehead, broad black wings and rounded tail, black legs. Habitat: East Asian wooded city park. Scene: two adults spaced on wooded park ground, no garbage. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "739b1908590043e5760b0d1edc42e84ad1b0993ebb6191c872d0552196c41d21",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2d82feac7388317eb7951f1feaff77d12aec5cf299b57e384c11673d4572546c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Corvus macrorhynchos, Large-billed Crow, entirely glossy black crow, heavy deep arched black bill, bulging forehead, broad black wings and rounded tail, black legs. Habitat: East Asian wooded city park. Scene: adult in flight complete broad wings and tail. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "bfa4725b7082931a7096e0b0f79c7900f0d17cb1c52265e670da79e4cf9e46ca",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9dcfdbcd7840467092387b1a1ba20c53a468d8086a90c870a5b3c734404801bf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Corvus macrorhynchos, Large-billed Crow, entirely glossy black crow, heavy deep arched black bill, bulging forehead, broad black wings and rounded tail, black legs. Habitat: East Asian wooded city park. Scene: adult perched high in a broadleaf tree with full body visible. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "97a580340287a416ac870340ac05ccd2a9809ad5b9ceb732c5f217605790ddf3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b83a769a8157869ff21c79fa744d5129f09dbeacd6177b504100374b1ce685ae",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

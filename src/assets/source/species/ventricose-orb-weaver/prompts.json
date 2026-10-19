@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Araneus ventricosus, female East Asian orb-weaver spider, large rounded mottled brown abdomen with paired shoulder humps, banded hairy eight legs, accurate spider anatomy. Scene: whole spider at the hub of a delicate orb web against blurred dark green foliage. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "2bc7149931a5b0ddbf1485090346a6269169fe465898f65761264b3bcff8fcc7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e55c75961a0a80282e116cf6d2db064309eeae1e5d42ce8ce615e9e17c5184c2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Araneus ventricosus, female East Asian orb-weaver spider, large rounded mottled brown abdomen with paired shoulder humps, banded hairy eight legs, accurate spider anatomy. Scene: dorsal view of rounded brown abdomen and banded legs. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "980d625f3b61bae03394a658c38b658c92d1e088c120f9e9f72c5acb3ba057f5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1a7148ee94848243e2f37f6d9de3ddb928f4e7d3c845417a161a19bc46f5045a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Araneus ventricosus, female East Asian orb-weaver spider, large rounded mottled brown abdomen with paired shoulder humps, banded hairy eight legs, accurate spider anatomy. Scene: whole spider on radial silk strands, fine orb web visible. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "4d6a204a3346e1ea0e872f3b6f1fb5b891b7192e801cd0f2c615ba08f231e816",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "47a422d3bbed7d9cec158807d8eb821140aaf58d0a82bee1eb3185db0986be99",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Araneus ventricosus, female East Asian orb-weaver spider, large rounded mottled brown abdomen with paired shoulder humps, banded hairy eight legs, accurate spider anatomy. Scene: side view of spider beside bark retreat at dusk. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "34825feb1cdd527d41b5a6532f692ffb78214f60f9d297161823e40c0271dfce",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "788878d8b2cd56c7e2ced14a0cb00b69e5c94ec77eb2a09351a7df0b651adfe8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Araneus ventricosus, female East Asian orb-weaver spider, large rounded mottled brown abdomen with paired shoulder humps, banded hairy eight legs, accurate spider anatomy. Scene: spider holding a small silk-wrapped insect on web. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "9e5d7e4227bdae9f7c06df941f47c220b4643b0de676f133b7e01975d60e64b1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1fdbd6ec3774f480c9eb029053f89af9599a1fe767b5c1335f0ad0981cbe04a0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Araneus ventricosus, female East Asian orb-weaver spider, large rounded mottled brown abdomen with paired shoulder humps, banded hairy eight legs, accurate spider anatomy. Scene: orb web among garden shrubs with spider visible at hub. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "218b7d23d09073fbf0c6961fbf30d6f79116f8c5c95fe6127b6c3a3785586a73",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a2a6910e9297a3ebb1240d7f9b564708a6d908387589da2714df2bc1cb553ac2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

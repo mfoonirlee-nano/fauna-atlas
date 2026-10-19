@@ -1,0 +1,109 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Pseudozizeeria maha (酢浆灰蝶). Adult identification: tiny pale grass blue butterfly Pseudozizeeria maha, male with pale violet-blue upperwings and narrow dark border, underside pale grey with small dark spots, no hindwing tails, clubbed antennae and six legs. Scene: whole male butterfly resting wings partly open on low flower, full antennae and feet; setting: low Oxalis patch with tiny pink flowers. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-0abe0a3c-13ce-42bb-acd2-c5762ac0a956.png",
+      "sourceSha256": "73a5d23b85ffb5b882ef9d66fb5a844810bb42318e3ba54d9d8168534a7a6bc4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1111d3136eeba0b6815ad4a71f6b94451ca66c32a3d7e0ed11e343fd501f733f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Pseudozizeeria maha (酢浆灰蝶). Adult identification: tiny pale grass blue butterfly Pseudozizeeria maha, male with pale violet-blue upperwings and narrow dark border, underside pale grey with small dark spots, no hindwing tails, clubbed antennae and six legs. Scene: underside side view with wings closed, pale grey ground and neat small black spots; setting: low Oxalis patch with tiny pink flowers. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-38dc955d-90fb-4a06-88d4-bf0e69fc4682.png",
+      "sourceSha256": "abad4b25892242e09b5358eb4ef9602a1aaf109b933154ab4a3221a41edc8515",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8e7c2ae44744ffe656ee95fe78e4e22f843a7f42e0ee74006bdf7fd0bab0d282",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Pseudozizeeria maha (酢浆灰蝶). Adult identification: tiny pale grass blue butterfly Pseudozizeeria maha, male with pale violet-blue upperwings and narrow dark border, underside pale grey with small dark spots, no hindwing tails, clubbed antennae and six legs. Scene: upper side male wing view showing pale violet blue and narrow dark edge; setting: low Oxalis patch with tiny pink flowers. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-f9506482-c06d-4dd7-9431-4e2e75fc2761.png",
+      "sourceSha256": "3d0642954ab614c8f6f20ffd00396b4af03b57f5e4850feb2bffcb6dd47167ca",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2b93caa70109f99bb59a7e56b83e9a94d4efd5656ba10ce21869da1fc6d7189c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic macro documentary photograph, 1536x1024 landscape. ONLY ONE small GREEN LYCAENID CATERPILLAR of Pseudozizeeria maha (Zizeeria maha) resting on a heart-shaped leaf of creeping wood sorrel Oxalis corniculata. Larva is short, flattened, plump, sluglike with a small retracted head, fine short hairs, subtle green dorsal line, tiny feet hidden beneath its body. Show complete caterpillar in clear focus at center-right, with a few Oxalis leaves in background. NO adult butterfly or blue wings anywhere. No collage, labels, text or watermark.",
+      "sourceFile": "exec-eac5af6d-1650-4c84-836f-d6122719814d.png",
+      "sourceSha256": "57cb1c2927e052532c00ffc40e4677e3a7e01ca24b4b10f15f8f198418372371",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2a33949238fb844962b00605d7247abe66f24d2f7a19796cf86cecfa32f47d0f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Pseudozizeeria maha (酢浆灰蝶). Adult identification: tiny pale grass blue butterfly Pseudozizeeria maha, male with pale violet-blue upperwings and narrow dark border, underside pale grey with small dark spots, no hindwing tails, clubbed antennae and six legs. Scene: small flattened green sluglike lycaenid caterpillar on Oxalis leaf; setting: low Oxalis patch with tiny pink flowers. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-6cc6734b-0d5c-4f5b-b182-3728b5d2a0f0.png",
+          "sourceSha256": "0033c7d939f0101c37d509b21afdebf87c519a302352f9b70afb6fc35bbd9016",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "reviewReason": "Initial scene showed adult butterfly without a clear caterpillar."
+        }
+      ],
+      "revisionReason": "Initial scene showed adult butterfly without a clear caterpillar."
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Pseudozizeeria maha (酢浆灰蝶). Adult identification: tiny pale grass blue butterfly Pseudozizeeria maha, male with pale violet-blue upperwings and narrow dark border, underside pale grey with small dark spots, no hindwing tails, clubbed antennae and six legs. Scene: tiny pale rounded egg on underside of Oxalis leaf, macro; setting: low Oxalis patch with tiny pink flowers. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-9ceaec52-d8d7-47ea-b005-6b439f98fd37.png",
+      "sourceSha256": "67e0060f931e30fdd05b6566bdc7c9b072e360d586d5e05486a171c6ab5d409b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d7fcd40a0e1f68bd06311caa274f3ecca017642f703cfd64d19a2b15b085792b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Pseudozizeeria maha (酢浆灰蝶). Adult identification: tiny pale grass blue butterfly Pseudozizeeria maha, male with pale violet-blue upperwings and narrow dark border, underside pale grey with small dark spots, no hindwing tails, clubbed antennae and six legs. Scene: whole adult nectaring on tiny pink flower among Oxalis leaves; setting: low Oxalis patch with tiny pink flowers. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-7ec451df-237c-4832-aaa4-0adb762c2b4e.png",
+      "sourceSha256": "896f36b75fdb52e5641f2cc65500bad0a357fef33cbf3ecb4b6a5c075fcac035",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b213b39453017fe626c2bea64153c0d6dbf4632b3529cb664870a08001301130",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

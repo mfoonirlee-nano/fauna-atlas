@@ -1,0 +1,99 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Pycnonotus jocosus, Red-whiskered Bulbul, tall pointed black crest, white cheek and throat, small red patch behind eye, brown back, white underside, red undertail coverts, slender black bill. Habitat: southern Chinese shrub garden. Scene: one adult perched upright full body with complete crest and tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "3e47fca3378e60e8a28cf95e3c1887265e6b445a359d686bf3a27ec5daeb95c5",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "73c6fded02ecf48dc5f9facd4536c26b22a3f942f52b11bfbf4d3d8e0431d43a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Pycnonotus jocosus, Red-whiskered Bulbul, tall pointed black crest, white cheek and throat, small red patch behind eye, brown back, white underside, red undertail coverts, slender black bill. Habitat: southern Chinese shrub garden. Scene: adult side head view showing red cheek patch and tall black crest. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "83843718bbc2a1ea15f04cb1a17d60aa492a66843b60e6a672b48ee39fa59bec",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b1e002f272052918ffd7b1a58ee0d9619bc6349b4346893cb25a640de2bbdf73",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Pycnonotus jocosus, Red-whiskered Bulbul, tall pointed black crest, white cheek and throat, small red patch behind eye, brown back, white underside, red undertail coverts, slender black bill. Habitat: southern Chinese shrub garden. Scene: adult eating one small ripe berry from shrub. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "5069e0e7acc6ded97c669d4f51592a9136b9c0d35a1b4e360ef3f4c879f224e2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f274a1a255abd1eb75fc013df4f8bca5f894828d526874feae6438ac6b79b864",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Pycnonotus jocosus, Red-whiskered Bulbul, tall pointed black crest, white cheek and throat, small red patch behind eye, brown back, white underside, red undertail coverts, slender black bill. Habitat: southern Chinese shrub garden. Scene: two adults on separate shrub twigs, natural spacing. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "56887f90d06ffcf16f6c061d1c275212adccd938c9764242ce36c2dbe7f18efc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "111db339cff46d435d77bdc0e7f899e2b9672d87da6097d7c2d31cc5520d0457",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Generate a NEW naturalistic documentary photograph style landscape 1536x1024 of ONE fully feathered juvenile Red-whiskered Bulbul Pycnonotus jocosus perched on a low garden twig. This is a JUVENILE, not an adult: small short brownish crest, brownish head, dull white cheek, ABSOLUTELY NO RED POST-OCULAR CHEEK PATCH behind the eye, pale underside, brown wings, subdued pinkish-orange vent, black slender bill and dark legs. Complete body and tail in frame, realistic juvenile proportions and natural soft light, prominent clear bird. Southern Chinese shrub garden. No adult birds. No text, labels, watermark, frame or collage.",
+      "sourceSha256": "8ad699e4d66ba77b9daa8ab0dcfed6a3ee48b86e4b1b34650fbe806a4cb8d7d6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5509e3e9ddb4c4a47372697cfc057b70feb6317b963f50d18cb92dfa89e4118d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Pycnonotus jocosus, Red-whiskered Bulbul, tall pointed black crest, white cheek and throat, small red patch behind eye, brown back, white underside, red undertail coverts, slender black bill. Habitat: southern Chinese shrub garden. Scene: one juvenile with shorter crest and without a clear red cheek patch, fully feathered. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "revisionReason": "Original juvenile scene incorrectly retained adult red cheek patch and tall black crest; regenerated with juvenile-only description.",
+      "rejectedSourceEvidence": {
+        "sha256": "19da93bd2ce0a4af4894aa6d59af763142e5f2f8ca7a02ece4928aa25997e4dc",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      }
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Pycnonotus jocosus, Red-whiskered Bulbul, tall pointed black crest, white cheek and throat, small red patch behind eye, brown back, white underside, red undertail coverts, slender black bill. Habitat: southern Chinese shrub garden. Scene: adult rear three-quarter showing red undertail and complete long tail. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "7ac7dcb6356247646105dca2205e4ea51e8e8127ee25d5e32c8c5cd702d0b1c7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "af15fc73a2e3eda1321b97bc4c738d9fb43ba6c7c80aca1512b57c8c4c8c53dd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

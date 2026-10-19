@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Plexippus paykulli, adult male pantropical jumping spider, dark compact hairy body, broad white central longitudinal stripe on carapace and abdomen, large forward-facing eyes, eight stout legs. Scene: whole spider on a sunlit pale stone with complete eight legs visible. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "03a79edb1fb199542f876aadfdee64c2bc28c8ea157f0aefa54c6f7222045c14",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "051edb10645a52b65a969529093dcd193eef485b63cb8f9e33c1dff482b31c64",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Plexippus paykulli, adult male pantropical jumping spider, dark compact hairy body, broad white central longitudinal stripe on carapace and abdomen, large forward-facing eyes, eight stout legs. Scene: front close view of large eyes and white facial markings. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "d50e743f19543b5638972c0778ff3f9379429ec9a33ad6c572436932b6468ba2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d4958063709554a7fc3545227dc9a20ca67c23fc3858c681d77129ead00a1249",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Plexippus paykulli, adult male pantropical jumping spider, dark compact hairy body, broad white central longitudinal stripe on carapace and abdomen, large forward-facing eyes, eight stout legs. Scene: dorsal whole male with clear white central stripe. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "0d5133a5d3caa080c8db94b251cf400776691b53466d73d636a827d79b991dfa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e30cd03430eaa739401261df60fee499e1056244de293727878028d0a5fcc853",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Plexippus paykulli, adult male pantropical jumping spider, dark compact hairy body, broad white central longitudinal stripe on carapace and abdomen, large forward-facing eyes, eight stout legs. Scene: brown female on a leaf with a pale abdominal stripe. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "0e4a5ac88b812a3df3522d606922f1a0b4bb04dac1017d100d4af2eeb3c56c14",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b27199f13c46edb892e37a2dcdb5bfe013dba66b4e0a5128032697e6ba8590ab",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Plexippus paykulli, adult male pantropical jumping spider, dark compact hairy body, broad white central longitudinal stripe on carapace and abdomen, large forward-facing eyes, eight stout legs. Scene: side view adult at leaf edge, poised before jumping. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "3589679f44a7224bc1a02505134acd905219fda2e0652def4739877b49db2a3c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8a594cdffed1cb2ab50e8af80589e45a39a857d0ee23a99e37cb6b0caa640b2e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Plexippus paykulli, adult male pantropical jumping spider, dark compact hairy body, broad white central longitudinal stripe on carapace and abdomen, large forward-facing eyes, eight stout legs. Scene: spider beside a small silky retreat in a wall crevice. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "d7c7cc0c09a5fc3fb7b1da9248414f04c7d0dc2aa997423915b4155a5f43021d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e5ff16c89ae982afa4a8f545a6f4c4e6caa4698f1bfd6dc1474eaab364767ac6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Callosobruchus chinensis seed beetle Fauna Atlas cover. Preserve the mottled short-elytra beetle, serrated antennae, six legs and mung bean environment. Move the ENTIRE beetle including both antenna tips uniformly RIGHT by about 140 pixels on this 1536px wide landscape canvas, keeping its size. All beetle parts must fit inside x=720 to x=1450 and y=150 to y=850. Keep entire bean supporting it naturally positioned. Left 40 percent must have only quiet softly blurred beans and wood with NO antennae or insect parts. No text, label or watermark.",
+      "sourceFile": "exec-c2f5262e-4a09-437c-9d81-efb376cfd700.png",
+      "sourceSha256": "079922642dc80e43fd7dc80494c2b6fa3301a368b37788b5c0aca59661ac0ec8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "65dd2b84afcb00968555d30e5ad5bd9fcade42caf92a35df54db3f74a1111e1a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Callosobruchus chinensis (绿豆象). Adult identification: tiny mottled brown seed beetle Callosobruchus chinensis, short oval body, shortened elytra exposing abdominal tip, pale and dark mottled hairs, serrated antennae, six legs, no long rice-weevil snout. Scene: whole beetle on one dry green mung bean; setting: dry mung beans on natural wooden surface. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-116586d1-ccd6-465d-9808-9625cfb053af.png",
+          "sourceSha256": "a3590362049f06ed544c75ab2eeaaae31bfab528f90465616c6cdfb59f27751d",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "subjectBounds": [
+            585,
+            169,
+            1316,
+            611
+          ],
+          "reviewReason": "Left antenna entered the left 40 percent; move whole beetle right."
+        }
+      ],
+      "editInputSha256": "a3590362049f06ed544c75ab2eeaaae31bfab528f90465616c6cdfb59f27751d",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        585,
+        169,
+        1316,
+        611
+      ],
+      "revisionReason": "Left antenna entered the left 40 percent; move whole beetle right."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Callosobruchus chinensis (绿豆象). Adult identification: tiny mottled brown seed beetle Callosobruchus chinensis, short oval body, shortened elytra exposing abdominal tip, pale and dark mottled hairs, serrated antennae, six legs, no long rice-weevil snout. Scene: dorsal macro adult on dry bean showing short mottled wing covers; setting: dry mung beans on natural wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-163907d5-5c41-4d75-9abf-52b62908b04a.png",
+      "sourceSha256": "5e5e1a3a0e0c8c244f102313a522f39541f4be19419e2a4a34d307ec7dfb6e7e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e26e1ca6706410850451843a114a86a5a1caa5bf6dc8fe58e9fe6848783409fb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Callosobruchus chinensis (绿豆象). Adult identification: tiny mottled brown seed beetle Callosobruchus chinensis, short oval body, shortened elytra exposing abdominal tip, pale and dark mottled hairs, serrated antennae, six legs, no long rice-weevil snout. Scene: adult side view on bean, serrated antennae and exposed abdominal tip visible; setting: dry mung beans on natural wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-687b1155-921c-4e15-a0f8-a03df5264c02.png",
+      "sourceSha256": "a3ff76fa5c4905d4e159cfb626fcbb273fe0da29b15837f03867165efc9c4c6d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "aa0fc86cbc2442537398687168ed2c0e73b5fa4d997ee902a77e94466f54be30",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Callosobruchus chinensis (绿豆象). Adult identification: tiny mottled brown seed beetle Callosobruchus chinensis, short oval body, shortened elytra exposing abdominal tip, pale and dark mottled hairs, serrated antennae, six legs, no long rice-weevil snout. Scene: mung bean with tiny whitish egg attached on surface, macro no text; setting: dry mung beans on natural wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-03ce20ca-a9b9-4214-bb50-b1e1a6628c4f.png",
+      "sourceSha256": "9481de555ce384a8d806ed1f75c05c712dfc67f95b97d5dff3d4f877bde10784",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ff87152e685765d122687de04aa51f10ef309d2b07dc6b9afaf9724276a4fa24",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Callosobruchus chinensis (绿豆象). Adult identification: tiny mottled brown seed beetle Callosobruchus chinensis, short oval body, shortened elytra exposing abdominal tip, pale and dark mottled hairs, serrated antennae, six legs, no long rice-weevil snout. Scene: one mung bean with neat circular adult exit hole beside whole adult; setting: dry mung beans on natural wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-a97d2277-4132-40f2-af9e-2fb1b1d409f9.png",
+      "sourceSha256": "d794233b06466f7cb4ee67979443d21b8192a7d5777a1ddc134dbe32282ffe1c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "37324d8cc379e8107f5470ff83bfea6147cd7b5d9a8b86a002fe840b7803a501",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Callosobruchus chinensis (绿豆象). Adult identification: tiny mottled brown seed beetle Callosobruchus chinensis, short oval body, shortened elytra exposing abdominal tip, pale and dark mottled hairs, serrated antennae, six legs, no long rice-weevil snout. Scene: few dry mung beans and one adult beetle on clean wooden table, no labels; setting: dry mung beans on natural wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-7ad6a221-c93c-47b2-ab85-c46cb83c9821.png",
+      "sourceSha256": "26e62f45c75c266e19eab3767f5748c35fb02ce52a03bdb80121871f3e22a6b6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "40bc87f3e3bb8d96dc8d8eb9bc383735e2ca0a67bae6a34c7a7c5f3c7e5d3343",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

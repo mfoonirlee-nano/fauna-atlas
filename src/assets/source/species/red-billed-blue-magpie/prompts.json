@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Urocissa erythroryncha, Red-billed Blue Magpie, black head and neck, white hindcrown patch, red bill and feet, cobalt blue wings and extremely long blue tail with broad white tip and black subterminal bands. Habitat: East Asian broadleaved woodland. Scene: one adult perched with tail angled downward, entire bird including very long tail and feet. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "0e50d03e67ce3a9a577a4fe69f687fc361188df75870e379b5a95ffc8d30d78b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "63b6e25ce391de69df64ecd44cdfc44de1a4b0c1c41d68aa8d436f9f1510ab2b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Urocissa erythroryncha, Red-billed Blue Magpie, black head and neck, white hindcrown patch, red bill and feet, cobalt blue wings and extremely long blue tail with broad white tip and black subterminal bands. Habitat: East Asian broadleaved woodland. Scene: adult upper body showing scarlet bill, white nape and black head. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "04c0d91e189fe2b8092c50c7bbcd6eb8b754e026905f978f846861d00bccc217",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "41df8ccc336f099978ac32ebd0fc87526ea8e26f406b3509ca8d26bd25e23ab9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Urocissa erythroryncha, Red-billed Blue Magpie, black head and neck, white hindcrown patch, red bill and feet, cobalt blue wings and extremely long blue tail with broad white tip and black subterminal bands. Habitat: East Asian broadleaved woodland. Scene: adult standing on woodland ground near fallen berries. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "ef7bd7ec494ff32ef66b80cc8c15ebc7fe57cd9332b1c6b68a20fa49e8243945",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f38abd18461fa5604d0ddb13810a159d81d78cd6a24959eb1f2e90e52094f72e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Urocissa erythroryncha, Red-billed Blue Magpie, black head and neck, white hindcrown patch, red bill and feet, cobalt blue wings and extremely long blue tail with broad white tip and black subterminal bands. Habitat: East Asian broadleaved woodland. Scene: two adults on separate branches, entire tails visible. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "5f36ad315c1d1337dd560ff84247ab3f8f995827bb540a374198f8c3199dcbe0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ccde8b50dd2cc8eed0565b9b47f96fd9e039f4676044a6b28b8b4307893f4bf3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Urocissa erythroryncha, Red-billed Blue Magpie, black head and neck, white hindcrown patch, red bill and feet, cobalt blue wings and extremely long blue tail with broad white tip and black subterminal bands. Habitat: East Asian broadleaved woodland. Scene: one adult in flight with full wings and extremely long tail inside frame. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "b8bcd9ae3c9d5abc9cbe61095ce88ecbb5842ebc1714b0b002d374bbc3897285",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3da07a1e1b60436cc938b1b250cdd5bc3317b32361c2a41c0926ad26a3ab51fb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Urocissa erythroryncha, Red-billed Blue Magpie, black head and neck, white hindcrown patch, red bill and feet, cobalt blue wings and extremely long blue tail with broad white tip and black subterminal bands. Habitat: East Asian broadleaved woodland. Scene: one adult on a forest branch side-on, tail stretching diagonally. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "dacd777cfdee3f95d9c5c84c91c009fc4c742d24ee7419fbc4b47214fe5b520d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2eb10b6ecc98239c31a1f5b76eff647303998ab424a76178ead217fa75e27f26",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

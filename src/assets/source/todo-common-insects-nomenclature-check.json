@@ -1,0 +1,124 @@
+{
+  "accessedAt": "2026-10-18",
+  "records": [
+    {
+      "requestedName": "Xylocopa sinensis Smith, 1854",
+      "url": "https://api.gbif.org/v1/species/match?name=Xylocopa%20sinensis%20Smith%2C%201854&strict=true",
+      "response": {
+        "usageKey": 10994965,
+        "scientificName": "Xylocopa sinensis Smith, 1854",
+        "canonicalName": "Xylocopa sinensis",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "order": "Hymenoptera",
+        "family": "Apidae",
+        "genus": "Xylocopa",
+        "species": "Xylocopa sinensis",
+        "kingdomKey": 1,
+        "phylumKey": 54,
+        "classKey": 216,
+        "orderKey": 1457,
+        "familyKey": 4334,
+        "genusKey": 1342048,
+        "speciesKey": 10994965,
+        "class": "Insecta"
+      }
+    },
+    {
+      "requestedName": "Xylocopa sinensis Wu, 1983",
+      "url": "https://api.gbif.org/v1/species/match?name=Xylocopa%20sinensis%20Wu%2C%201983&strict=true",
+      "response": {
+        "confidence": 99,
+        "note": "No match because of too little confidence",
+        "matchType": "NONE",
+        "synonym": false
+      }
+    },
+    {
+      "requestedName": "Zizeeria maha",
+      "url": "https://api.gbif.org/v1/species/match?name=Zizeeria%20maha&strict=true",
+      "response": {
+        "usageKey": 7346407,
+        "scientificName": "Zizeeria maha",
+        "canonicalName": "Zizeeria maha",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "order": "Lepidoptera",
+        "family": "Lycaenidae",
+        "genus": "Zizeeria",
+        "species": "Zizeeria maha",
+        "kingdomKey": 1,
+        "phylumKey": 54,
+        "classKey": 216,
+        "orderKey": 797,
+        "familyKey": 5473,
+        "genusKey": 1933641,
+        "speciesKey": 7346407,
+        "class": "Insecta"
+      }
+    },
+    {
+      "requestedName": "Pseudozizeeria maha (Kollar, 1844)",
+      "url": "https://api.gbif.org/v1/species/match?name=Pseudozizeeria%20maha%20%28Kollar%2C%201844%29&strict=true",
+      "response": {
+        "usageKey": 1921150,
+        "scientificName": "Pseudozizeeria maha (Kollar, 1848)",
+        "canonicalName": "Pseudozizeeria maha",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "order": "Lepidoptera",
+        "family": "Lycaenidae",
+        "genus": "Pseudozizeeria",
+        "species": "Pseudozizeeria maha",
+        "kingdomKey": 1,
+        "phylumKey": 54,
+        "classKey": 216,
+        "orderKey": 797,
+        "familyKey": 5473,
+        "genusKey": 1921138,
+        "speciesKey": 1921150,
+        "class": "Insecta"
+      }
+    },
+    {
+      "requestedName": "Sitophilus oryzae (Linnaeus, 1763)",
+      "url": "https://api.gbif.org/v1/species/match?name=Sitophilus%20oryzae%20%28Linnaeus%2C%201763%29&strict=true",
+      "response": {
+        "usageKey": 8984023,
+        "acceptedUsageKey": 9915023,
+        "scientificName": "Sitophilus oryzae (Linnaeus, 1758) Linnaeus, 1758",
+        "canonicalName": "Sitophilus oryzae",
+        "rank": "SPECIES",
+        "status": "SYNONYM",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Arthropoda",
+        "order": "Coleoptera",
+        "family": "Dryophthoridae",
+        "genus": "Sitophilus",
+        "species": "Sitophilus oryzae",
+        "kingdomKey": 1,
+        "phylumKey": 54,
+        "classKey": 216,
+        "orderKey": 1470,
+        "familyKey": 8494,
+        "genusKey": 1170172,
+        "speciesKey": 9915023,
+        "class": "Insecta"
+      }
+    }
+  ]
+}

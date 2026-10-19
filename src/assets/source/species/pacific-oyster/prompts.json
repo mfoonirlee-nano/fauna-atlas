@@ -1,0 +1,103 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only composition of this pacific-oyster Fauna Atlas cover. Keep realistic species anatomy, textures, natural environment and documentary photograph style. Uniformly reduce and move the COMPLETE animal to the right. In the 1536x1024 landscape canvas all animal parts must fit within x=710..1450 and y=110..910; leave clear background outside its full silhouette. Include every leg, claw, antenna or shell margin. Long fine antennae must be naturally curved and completely visible, never cut off. Do not shorten or amputate appendages. Keep animal large within this safe area. Left 42% quiet blurred environment without any animal parts. No text, borders, watermarks or people.",
+      "sourceSha256": "e364c9a7c05669b718e3f5725fe8e0ea003554ff9b3d515c9411d8512326a00c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b09862bc9502a66b4adcc2c803834e1ec415fd267e537943bdadb3c490357c5f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Magallana gigas, living Pacific oyster, irregular elongated thick rough grey-white bivalve shell, strongly sculptured fluted growth ridges, attached deeply cupped lower valve and flatter upper valve. Scene: single whole closed oyster attached to a low rock on tidal shore, complete irregular shell margin. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "editInputSha256": "d7dfb220850119dfa9de8775ae5119e516a711a1c25210fa598290b6fc2100ab",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        574,
+        96,
+        1436,
+        862
+      ],
+      "revisionReason": "Initial full silhouette entered the left 40% or antennae touched the frame edge."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Magallana gigas, living Pacific oyster, irregular elongated thick rough grey-white bivalve shell, strongly sculptured fluted growth ridges, attached deeply cupped lower valve and flatter upper valve. Scene: close view of rough shell growth ridges and layered edge. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "cca9d9145bf3e02a71f633ef06747c81e395313742391e091bde09d7872687f3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "5c3673011b9c2d066b5376f26c91ab450202109ec2ab7b3f0eeb08a11a4c0a01",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Magallana gigas, living Pacific oyster, irregular elongated thick rough grey-white bivalve shell, strongly sculptured fluted growth ridges, attached deeply cupped lower valve and flatter upper valve. Scene: small naturally attached oyster group on intertidal rock. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "285d8d02a0a93bf4bf21be40d77493216615864431e635f2fee859af262c8778",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d466e31ec42d8431f17c9580284b890ccb84824c0d7801a16829b37e0f85009a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Magallana gigas, living Pacific oyster, irregular elongated thick rough grey-white bivalve shell, strongly sculptured fluted growth ridges, attached deeply cupped lower valve and flatter upper valve. Scene: living oyster underwater with valves slightly gaping, no cut shell or knife. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "70d690f38a6bf20ddbe9b2f8391d76619ce4c2833dbbb691f1f2d28fc8705184",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3fbbff7276279758a1481e13f3504c8e727a6fd5580595c7c3ddd806a6de0463",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Magallana gigas, living Pacific oyster, irregular elongated thick rough grey-white bivalve shell, strongly sculptured fluted growth ridges, attached deeply cupped lower valve and flatter upper valve. Scene: small juvenile oysters attached to an older shell. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "bcd07570857d18377bc0c116afd40315780896caaa4d264fd24be4d3d184fb6e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "07d5283ec1c8972bba1afc1e35db585940f16b01f6ee95f4ee627a08596b74c6",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Magallana gigas, living Pacific oyster, irregular elongated thick rough grey-white bivalve shell, strongly sculptured fluted growth ridges, attached deeply cupped lower valve and flatter upper valve. Scene: whole oyster attached to rock as tide water covers it. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "f10e286b45f5559044d8a58f5d5ac0d6dafa55b96d35a6a30f052e21f14d6685",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8353b2e8a6952cbe4790509a224da8f5f748076479fe87f0977faaf020dfab0d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

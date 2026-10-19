@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Lonchura striata, White-rumped Munia, small brown finchlike bird with dark head and throat, stout conical grey bill, pale streaks on brown mantle, white rump, whitish belly and pointed dark tail. Habitat: southern Chinese grassy farmland edge. Scene: one adult perched side rear three-quarter on seed stem showing white rump and full tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "3a25845a551c0952fe8378c2993446f69aac87ab5abf8c181c305e08ec8e2834",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2f8e90a9aab4b9894293bd0922903bef794e34d893f630a0b6a2aa7687a373cd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Lonchura striata, White-rumped Munia, small brown finchlike bird with dark head and throat, stout conical grey bill, pale streaks on brown mantle, white rump, whitish belly and pointed dark tail. Habitat: southern Chinese grassy farmland edge. Scene: adult side head view showing stout conical grey bill and dark face. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "b5b1a53802f6c0c5d3e7c54f117c4836f554ebb673b8c75963238a958fd33bc9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "bfd2de6ee656c69bd877f1cab8a92609a3ccba04512205ab67c6e45ed74f94c8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Lonchura striata, White-rumped Munia, small brown finchlike bird with dark head and throat, stout conical grey bill, pale streaks on brown mantle, white rump, whitish belly and pointed dark tail. Habitat: southern Chinese grassy farmland edge. Scene: adult clinging to grass seedhead while eating seeds. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "a3f6ac2f413f6e6dab36389503aab3fd7d415ebff6ebdef4d75cfedf5822ff30",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "cd3fa2ff6752eb9b18c9fb792de5396666ea46df6cd11cc05a61353490e061f9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Lonchura striata, White-rumped Munia, small brown finchlike bird with dark head and throat, stout conical grey bill, pale streaks on brown mantle, white rump, whitish belly and pointed dark tail. Habitat: southern Chinese grassy farmland edge. Scene: three adults spaced on reed stems, full tails visible. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "fd38367c9292386cb2d6af8ffade64f153a8d076137f64581030d1d207e1c258",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "6b6f36942d6aaec3c61cc64e841d162ffe3afebe70374af6e753885f1a48490c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Lonchura striata, White-rumped Munia, fully feathered JUVENILE small munia, overall pale brown and buff, plain buff throat without the dark adult throat, pale brown head, stout conical grey bill, pale underparts and pointed dark tail. Habitat: southern Chinese grassy farmland edge. Scene: one pale brown fully feathered juvenile with plain buff belly and no dark adult throat. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "4d4479a34c704ea20f488fbf94efd8f0ced943a097d3a5e83976ef5ba0ad125c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "702ec174ce5d3aabb060f83a28eacd07ea5b08871eda702d72db073f5eca83a9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Lonchura striata, White-rumped Munia, small brown finchlike bird with dark head and throat, stout conical grey bill, pale streaks on brown mantle, white rump, whitish belly and pointed dark tail. Habitat: southern Chinese grassy farmland edge. Scene: one pale brown fully feathered juvenile with plain buff belly and no dark adult throat. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "revisionReason": "Remove conflicting adult, male or nonbreeding template from requested life-stage/sex/plumage scene before generation."
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Lonchura striata, White-rumped Munia, small brown finchlike bird with dark head and throat, stout conical grey bill, pale streaks on brown mantle, white rump, whitish belly and pointed dark tail. Habitat: southern Chinese grassy farmland edge. Scene: adult rear view on twig with clearly contrasting white rump and full tail. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "ddc9b18451b6d1f2d5cf38023abb2929398ad0a74e7ca5c083b64fafe6d8acfb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "bb2af08d51a4a19d1c6295c7932d3ff526c1e4dafc782e3bf1c0621755887887",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

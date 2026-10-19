@@ -1,0 +1,104 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: precise-object-edit. Edit only composition of this Fauna Atlas animal cover. Preserve the species identity, realistic anatomy, coat, colors, native habitat and photographic style. Scale the ENTIRE ANIMAL as one unit modestly smaller (about 85% of its present size) and move it right. Its complete boundary INCLUDING all fine whiskers, outer fur, ears, every horn/hump tip, all feet, and ENTIRE tail must be INSIDE x=44%-95%, y=10%-91% of the final landscape image. The animal remains large and prominent on RIGHT, center near 70% width. LEFT 40% must contain ONLY quiet blurred natural background, no animal part or whisker entering it. Keep visible background beyond every appendage and tail. Preserve the full image aspect ratio. No added animals, humans, text, watermark, border or prop.",
+      "sourceSha256": "f6a3b2f5e834588bb44b6c991916137252242e2a6522543091306c803ae1ba2a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "bf58c7fdd1a0664f961669a29af00eeea41a6d16cb6daecfa54e472a7036501f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical cover. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Camelus bactrianus DOMESTIC Bactrian camel, two upright fat humps, sturdy body, shaggy brown coat, long curved neck and broad paired padded toes, Central Asian pastoral desert steppe, distinguish from slender wild Camelus ferus. Scene: one adult side-on with both humps completely visible, full body standing on open desert steppe. COVER COMPOSITION: Entire subject INCLUDING every whisker, all visible toes, ears, complete tail and all horn/antler tips must fit inside x=46%-93%, y=10%-90%. Large prominent animal on RIGHT, complete silhouette center at 70% image width. Left 40% quiet softly blurred native habitat. Visible background clearance surrounds every extremity. No text, watermark, border, humans, cages or decorative props.",
+      "editInputSha256": "167c4bead87e91ec7858379ec90fa40acb0fa3997a3f00e8396e7d324eb18dbb",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "editReason": "Complete subject scaled modestly and shifted right so all fine whiskers, toes and muzzle stay outside the quiet left 40%.",
+      "initialSubjectBounds": [
+        580,
+        112,
+        1482,
+        938
+      ],
+      "initialSubjectIncomplete": false
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Camelus bactrianus DOMESTIC Bactrian camel, two upright fat humps, sturdy body, shaggy brown coat, long curved neck and broad paired padded toes, Central Asian pastoral desert steppe, distinguish from slender wild Camelus ferus. Scene: adult browsing dry steppe plants, full body and both humps. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "1cb2eee9b78fbf2e6fafcac2ee123e90bd32cbd56c6461c9bfd656c8d31613f2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8c8e3a23340a0985e340e1070dd0f2bab93c6aca26f485a1f3daeaf1c9cbb10e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Camelus bactrianus DOMESTIC Bactrian camel, two upright fat humps, sturdy body, shaggy brown coat, long curved neck and broad paired padded toes, Central Asian pastoral desert steppe, distinguish from slender wild Camelus ferus. Scene: close view of complete face and neck showing long eyelashes, split upper lip and small furry ears. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "5d004894b3b96fe28e801f0bea96eec6da6aa46e0e71ed4b1442b07094f5cd2f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4743f4630247b434547df7442b49bb39838f64031edb2306cb5fcea979a7613a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Camelus bactrianus DOMESTIC Bactrian camel, two upright fat humps, sturdy body, shaggy brown coat, long curved neck and broad paired padded toes, Central Asian pastoral desert steppe, distinguish from slender wild Camelus ferus. Scene: adult in shedding spring coat with uneven patches of long wool, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "1bb7bd3da72fd62ba673510dbd8b5dcda19e7da788b93eb2f6b5bdbe510c283f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2789dae6222ef3809504ac79cd17b9590f3873b3cac65505c609928399521be3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Camelus bactrianus DOMESTIC Bactrian camel, two upright fat humps, sturdy body, shaggy brown coat, long curved neck and broad paired padded toes, Central Asian pastoral desert steppe, distinguish from slender wild Camelus ferus. Scene: mother and one calf beside her on pastoral steppe, two complete animals. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "00bbc04db632572b80e161d7f77a716d3466e1a211872cc5460ea8c23c5a1f84",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8bcaf62186463a58423a26176b8c44f560f4f64b5f77cbb8fe65dfec9633ee3e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Camelus bactrianus DOMESTIC Bactrian camel, two upright fat humps, sturdy body, shaggy brown coat, long curved neck and broad paired padded toes, Central Asian pastoral desert steppe, distinguish from slender wild Camelus ferus. Scene: adult walking on sandy stony ground, complete broad padded feet visible and two humps. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "510ea4e4a4a18f1cad8510f677afa9efdff4cf5fb06b57c15e4d57115cb9694f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4203eaa0eeb105b3788e9b288912e7c815b5c6a05584ece8f33156e9b4d3d8b8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

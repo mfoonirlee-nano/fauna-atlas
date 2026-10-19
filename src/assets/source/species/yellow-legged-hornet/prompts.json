@@ -1,0 +1,142 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Composition-only revision of this Vespa velutina nigrithorax hornet image: make the ENTIRE hornet INCLUDING both antennae exactly 70 percent of its CURRENT SIZE, then center that complete subject at x=1110 on the same 1536x1024 landscape canvas. Complete silhouette should occupy only x=780 to x=1440. There must be no hornet parts in LEFT HALF of image. Preserve dark thorax, orange face and broad orange abdominal band, yellow foot ends, natural twig habitat. Correct anatomy to SIX legs all attached to thorax; REMOVE the erroneous small yellow leg coming out of the abdominal tail tip. All six feet and four wing tips complete with real background around them. Keep left half softly blurred environment. No text or watermark.",
+      "sourceFile": "exec-f5580e28-e412-4406-9936-f45e4c400cc0.png",
+      "sourceSha256": "696c55bb356f66fbc97742fef106a2ce0d1788e80a989d67338fd7cec161f0c0",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3c5477af3b84ac5ca5a60f9858cc8463aed0c64cf3b4edac110f769b83d5f172",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Vespa velutina (黄脚胡蜂). Adult identification: Vespa velutina nigrithorax appearance: mostly dark brown-black hornet, dark velvety thorax, orange face, broad orange band on fourth abdominal segment, yellow distal leg segments, two pairs amber transparent wings, six legs and two antennae. Scene: whole adult worker resting side-on on a twig; setting: twig in a leafy woodland edge. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-87d4f92c-60eb-43f0-a598-d7f8ad6630c4.png",
+          "sourceSha256": "bb2923be484ab889e510e50abe3c820724758c427cb02fa70e0f91a12b13055a",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "subjectBounds": [
+            464,
+            185,
+            1443,
+            722
+          ],
+          "reviewReason": "Move full antennae and feet out of left copy area and increase real source-edge clearance."
+        },
+        {
+          "prompt": "Edit this Fauna Atlas scientific species cover. Composition correction: Preserve Vespa velutina nigrithorax dark thorax, orange face, broad orange fourth abdominal band, yellow foot ends and twig habitat. Move the ENTIRE hornet uniformly right and reduce it just enough that every antenna tip, foot, wing tip and abdominal tip lies strictly between x=720 and x=1440 of a 1536-pixel landscape canvas. Leftmost antenna must start to the right of x=720. Exactly six anatomically correct legs attached to thorax; no leg growing from abdominal tip. Keep subject prominent, centered near 71 percent width, entire silhouette y=15%-85%. Left 40 percent only quiet blurred natural environment. No text, humans, labels, border or watermark.",
+          "sourceFile": "exec-68138e5a-5228-4d3a-8e0a-1e7ca8a72659.png",
+          "sourceSha256": "4fba4a076c6bfa4e15fe3a0d1bc9a1b09a34073eab7785697f83ac671a5bbb08",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "subjectBounds": [
+            572,
+            214,
+            1473,
+            714
+          ],
+          "reviewReason": "First edit still placed antenna in left 40 percent; reduce whole hornet further and remove spurious appendage at abdomen."
+        }
+      ],
+      "editInputSha256": "4fba4a076c6bfa4e15fe3a0d1bc9a1b09a34073eab7785697f83ac671a5bbb08",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        572,
+        214,
+        1473,
+        714
+      ],
+      "revisionReason": "First edit still placed antenna in left 40 percent; reduce whole hornet further and remove spurious appendage at abdomen."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Vespa velutina (黄脚胡蜂). Adult identification: Vespa velutina nigrithorax appearance: mostly dark brown-black hornet, dark velvety thorax, orange face, broad orange band on fourth abdominal segment, yellow distal leg segments, two pairs amber transparent wings, six legs and two antennae. Scene: close adult profile showing orange face and yellow foot ends; setting: twig in a leafy woodland edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-e65b3e6e-1821-4651-b9e6-0e03ff7f2e25.png",
+      "sourceSha256": "11dfb07d5c196207923b2d80b424f99bbd8f0922acf67ce5d7e4ee82e9a56328",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b5ef648017c755ed13b35db56c46a95158ab9c85f08265b2c6d383d1c98853bb",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Vespa velutina (黄脚胡蜂). Adult identification: Vespa velutina nigrithorax appearance: mostly dark brown-black hornet, dark velvety thorax, orange face, broad orange band on fourth abdominal segment, yellow distal leg segments, two pairs amber transparent wings, six legs and two antennae. Scene: one adult drinking from ripe split fig outdoors; setting: twig in a leafy woodland edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-09d6d1e2-598f-47da-a2e0-575e5eae0db4.png",
+      "sourceSha256": "23738cca1bd8613a9ac13393e8a5d262d1e3f5243ca252a89c8e50497013f5aa",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7c7e62dc82203c88f68deac7defb691f1977c04d21aae4b8e1c6dc6e3bdead62",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Vespa velutina (黄脚胡蜂). Adult identification: Vespa velutina nigrithorax appearance: mostly dark brown-black hornet, dark velvety thorax, orange face, broad orange band on fourth abdominal segment, yellow distal leg segments, two pairs amber transparent wings, six legs and two antennae. Scene: adult worker on outside of grey papery enclosed nest in tree, no exposed honeycomb; setting: twig in a leafy woodland edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-9c74d852-a0d1-4f2b-8f78-26f3ad13beba.png",
+      "sourceSha256": "e7103ceabf09413c9f8a35401a75522e3888b1aadf1b33ade8afeb3358432ceb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "15abfec0b31351c1b56cef87da580189feeab36865f10af09c4b1a127fba620c",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Vespa velutina (黄脚胡蜂). Adult identification: Vespa velutina nigrithorax appearance: mostly dark brown-black hornet, dark velvety thorax, orange face, broad orange band on fourth abdominal segment, yellow distal leg segments, two pairs amber transparent wings, six legs and two antennae. Scene: one foundress near a small early grey paper nest sheltered by branch; setting: twig in a leafy woodland edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-e5f3ca43-0bf8-4de1-9406-28779ade8d53.png",
+      "sourceSha256": "d33d4dc99ad92181fe1417347a575217c79453df0c31a441ee8bf37a7a96995a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d3db3a88f7bf1930f1000f241835d9be67219a7f290d2ecb8efcce8ffb262b00",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Vespa velutina (黄脚胡蜂). Adult identification: Vespa velutina nigrithorax appearance: mostly dark brown-black hornet, dark velvety thorax, orange face, broad orange band on fourth abdominal segment, yellow distal leg segments, two pairs amber transparent wings, six legs and two antennae. Scene: large enclosed grey paper nest high in leafy tree, small hornet visible at side opening; setting: twig in a leafy woodland edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-007ec4b6-fab3-4142-9bcc-55cdf658f8be.png",
+      "sourceSha256": "fd040a19562ce01937d226df78b5a6e48530c71b1f4687d6b48d740083f87950",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9218cec511e02accdfcdb006f569ded1ef72830a4f6f89632f869243a24fdf40",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

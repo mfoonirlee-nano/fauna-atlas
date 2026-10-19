@@ -1,0 +1,96 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Sitophilus oryzae (米象). Adult identification: tiny dark brown rice weevil, elongate oval hard beetle, clear long curved snout with elbowed antennae, four orange-red spots on grooved wing covers, six legs. Scene: whole rice weevil on uncooked rice grain; setting: uncooked rice grains on a wooden surface. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-0266d416-93e8-4fa5-80be-14774c662dd1.png",
+      "sourceSha256": "29e3cb3f76f3cb28fa6ac512087e16f9eaf6d1d1138fcef1e808841152b8a07d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e1bcdd9cbb9b1a80cfd337801bf2c40402aaa44451e9b663e834d5d301023c5d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Sitophilus oryzae (米象). Adult identification: tiny dark brown rice weevil, elongate oval hard beetle, clear long curved snout with elbowed antennae, four orange-red spots on grooved wing covers, six legs. Scene: side macro adult showing long curved rostrum and elbowed antennae; setting: uncooked rice grains on a wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-5eff517e-0b3a-42a4-94d7-c2297ed25276.png",
+      "sourceSha256": "ecd10ef0c200cb19164524c82d9022bb1d5783dd273679881bf51cff84cf82c4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c9b030291269af963e4e0f478a7a2f2f5905eeeccf62f8e6630d82263e7c7794",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Sitophilus oryzae (米象). Adult identification: tiny dark brown rice weevil, elongate oval hard beetle, clear long curved snout with elbowed antennae, four orange-red spots on grooved wing covers, six legs. Scene: dorsal macro showing four reddish-orange wing spots; setting: uncooked rice grains on a wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-420999ec-56ee-4556-b7da-0e368e152ec4.png",
+      "sourceSha256": "b3ee87e40f3e365ffe68b0be632902ff2ad833adf6dfed0f44931222ac608256",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8a1ccf212650c05a64013b182e38a43dd75ad4f3f08709c958bcfe1f1fc2fbb3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Sitophilus oryzae (米象). Adult identification: tiny dark brown rice weevil, elongate oval hard beetle, clear long curved snout with elbowed antennae, four orange-red spots on grooved wing covers, six legs. Scene: single rice grain with neat adult emergence hole, one adult nearby; setting: uncooked rice grains on a wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-502b71a7-fcab-4830-aa1c-775cb8626b43.png",
+      "sourceSha256": "55bbf87f77798e7093191d5105f11ca57e54b2cb0f8b09d8f1f75fa9b719eb7e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "56653964cab8643ade3e86ef2fd49ef3e045c03c9ab62362326374e90ac62f74",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Sitophilus oryzae (米象). Adult identification: tiny dark brown rice weevil, elongate oval hard beetle, clear long curved snout with elbowed antennae, four orange-red spots on grooved wing covers, six legs. Scene: one adult walking among dry unbroken rice grains; setting: uncooked rice grains on a wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-d30aae2f-1953-4a68-b923-2a514140cd62.png",
+      "sourceSha256": "623faa046f642510381d15def20fc397269affc9b4e0d519c264f228bd697299",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7375175d81b9964ce46128f41f33809a98579a84307a39a884de0a889ec60ab8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Sitophilus oryzae (米象). Adult identification: tiny dark brown rice weevil, elongate oval hard beetle, clear long curved snout with elbowed antennae, four orange-red spots on grooved wing covers, six legs. Scene: adult resting on wheat grain, full legs and snout visible; setting: uncooked rice grains on a wooden surface. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-02bf3ccb-6461-4617-b0cc-14b0f49ef98c.png",
+      "sourceSha256": "e7008088f15ddbd390b1ad7f1e0304078f4e8b56ca47bc06a88dc6bee8ba1b5f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7796ebc92b047d0e89ac8f48a1113d867eb84f73e534b9d18f31db6c70197223",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

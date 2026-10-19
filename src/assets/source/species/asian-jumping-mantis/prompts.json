@@ -1,0 +1,139 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit this Statilia maculata mantis cover to fix clipped antenna and composition. Preserve brown mantis anatomy, folded raptorial forelegs with black inner patches, wings and dry grass setting. Uniformly reduce entire mantis and move it RIGHT. Reconstruct both complete fine antennae with visible tips INSIDE the frame. The complete subject including BOTH antennae, all walking feet, wing ends and abdomen must fit x=720 to x=1440 and y=150 to y=880 within a 1536x1024 landscape. Every antenna tip must have real background above it, at least 100 pixels. Left 40 percent only quiet blurred dry meadow. One insect, exactly six legs. No text, labels, humans or watermark.",
+      "sourceFile": "exec-a5f1f92c-dcf7-49c0-904f-f99e4ab3e4f1.png",
+      "sourceSha256": "c56c72cbe9961c97f4a4c2ffe7f65cae2486388cee52470ff3233fe1cb7c43ee",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "3ded71c1d2284c0764563b4ec49749426dc68e0de078783285f4c2a6a4a919cd",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species cover, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Statilia maculata (棕静螳). Adult identification: slender brown Statilia maculata praying mantis, triangular head, two fine long antennae, long narrow prothorax, two folded raptorial forelegs with dark patch visible inside base, four walking legs, brown folded adult wings. Scene: whole adult brown mantis side view on dry grass, full legs and antennae; setting: dry grass stem at meadow edge. COVER COMPOSITION: one complete insect, including all visible antennae, mouthparts, feet, wings and tail tips, inside x=47%-94%, y=15%-85%. Prominent subject centered at x=71%. Left 40 percent only quiet soft environmental bokeh, no insect parts. Generous real background around every extremity. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-146ac1dd-0f59-4b04-8450-50e688c0257b.png",
+          "sourceSha256": "e05ee016487735234669b9e5b0148aa01e437b567000fca134f0871f562ce955",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "subjectBounds": [
+            556,
+            0,
+            1477,
+            883
+          ],
+          "reviewReason": "Initial long antenna clipped at top and entered left copy area; reconstruct complete tips and move whole insect right."
+        }
+      ],
+      "editInputSha256": "e05ee016487735234669b9e5b0148aa01e437b567000fca134f0871f562ce955",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        556,
+        0,
+        1477,
+        883
+      ],
+      "revisionReason": "Initial long antenna clipped at top and entered left copy area; reconstruct complete tips and move whole insect right."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Statilia maculata (棕静螳). Adult identification: slender brown Statilia maculata praying mantis, triangular head, two fine long antennae, long narrow prothorax, two folded raptorial forelegs with dark patch visible inside base, four walking legs, brown folded adult wings. Scene: close triangular head and forelegs, dark inner basal foreleg marking visible; setting: dry grass stem at meadow edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-b4a894b5-cc69-4462-99ab-4142a002cd6e.png",
+      "sourceSha256": "809a6dda23b4aeb67380b28f19e7646ff87a6895cc12216b8ac06f9a33318c76",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b15a61252d6904b7cd2773e1a72c3216c03fd061bfb07e3429658a09c6969339",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Statilia maculata (棕静螳). Adult identification: slender brown Statilia maculata praying mantis, triangular head, two fine long antennae, long narrow prothorax, two folded raptorial forelegs with dark patch visible inside base, four walking legs, brown folded adult wings. Scene: whole mantis in alert pose on grass stalk, forelegs folded; setting: dry grass stem at meadow edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-152a48b5-6248-43d5-9ca9-648e5f81e310.png",
+      "sourceSha256": "3e33cf891698388ea167d8e8ed5033956d021eb93eb2cda95fa249937bb83ad8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9100f38cf2be8dd4ba6570f319c39f33f34e9bce8408f71c68d54ea4c69cb6d8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Naturalistic macro documentary photograph, 1536x1024 landscape. One SMALL WINGLESS NYMPH of Statilia maculata, a young brown praying mantis on a dry grass blade. This is an immature nymph with completely exposed slender segmented abdomen and NO wings or long folded adult wing covers. Triangular head, two complete fine antennae, folded spiny raptorial forelegs with small inner dark patches and four slender walking legs. Exactly six legs. Shallow depth of field dry meadow. Full young insect visible. No adult mantis, no collage, no text, watermark or labels.",
+      "sourceFile": "exec-1d984c56-9d17-4f89-9cf4-dc2b2d8666d2.png",
+      "sourceSha256": "90212c7aaab547ad046b7f78d7de0807dcca16c41bfbc3b410f5c4badb78a675",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "8413b3e0d13942442beb58fac511f4439c7e762dc1aaa780d3e04bf8ed53d910",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "revisions": [
+        {
+          "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Statilia maculata (棕静螳). Adult identification: slender brown Statilia maculata praying mantis, triangular head, two fine long antennae, long narrow prothorax, two folded raptorial forelegs with dark patch visible inside base, four walking legs, brown folded adult wings. Scene: wingless small brown nymph on dry grass, six anatomically correct legs; setting: dry grass stem at meadow edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+          "sourceFile": "exec-0f9842d5-b10c-4422-bd9a-1a4c4863e3fc.png",
+          "sourceSha256": "6ab4a2f8bfabdf6874404032111a93895baa39f2a7ef71f414e4812560474b20",
+          "sourceDimensions": [
+            1536,
+            1024
+          ],
+          "reviewReason": "Initial observation depicted a fully winged adult where caption required a wingless nymph."
+        }
+      ],
+      "revisionReason": "Initial observation depicted a fully winged adult where caption required a wingless nymph."
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Statilia maculata (棕静螳). Adult identification: slender brown Statilia maculata praying mantis, triangular head, two fine long antennae, long narrow prothorax, two folded raptorial forelegs with dark patch visible inside base, four walking legs, brown folded adult wings. Scene: one adult mantis clinging to a slanted stem in meadow habitat; setting: dry grass stem at meadow edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-3cda85ba-ef4a-45e7-91d3-8b2aec036528.png",
+      "sourceSha256": "04aa13884d81018733be7fe19b6e99449a0d7ad3545468fa9260b8beb6061cd1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "7ecf9778fed7601265f0a98d6d9750f6ff3774e106e97fabfdccb515974e3f12",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Fauna Atlas species observation image, naturalistic documentary macro photograph style, landscape 1536x1024. Species: Statilia maculata (棕静螳). Adult identification: slender brown Statilia maculata praying mantis, triangular head, two fine long antennae, long narrow prothorax, two folded raptorial forelegs with dark patch visible inside base, four walking legs, brown folded adult wings. Scene: small tan ridged ootheca attached lengthwise to slender dry grass stem, no adult; setting: dry grass stem at meadow edge. Observe the specified life stage only; larvae, eggs and pupae must look like their own stage, not miniature adults. Prominent subject with the relevant feature in focus. Anatomically plausible, natural daylight and realistic textures. No text, labels, watermark, border, humans or collage.",
+      "sourceFile": "exec-5a5c8fa9-c392-49cd-8ff7-ef3b4d7de9c0.png",
+      "sourceSha256": "05d120f12af426c1f08ef9896bffefa4a5ac8a7af90469af31c6bd7c7ff91831",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "66736227e70ff7a9a4c25ad3b2e498f83b33ffc57840044d92d8c7f1ea3b4cde",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

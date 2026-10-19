@@ -1,0 +1,103 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Edit only composition of this pantropical-huntsman-spider Fauna Atlas cover. Keep realistic species anatomy, textures, natural environment and documentary photograph style. Uniformly reduce and move the COMPLETE animal to the right. In the 1536x1024 landscape canvas all animal parts must fit within x=710..1450 and y=110..910; leave clear background outside its full silhouette. Include every leg, claw, antenna or shell margin. Long fine antennae must be naturally curved and completely visible, never cut off. Do not shorten or amputate appendages. Keep animal large within this safe area. Left 42% quiet blurred environment without any animal parts. No text, borders, watermarks or people.",
+      "sourceSha256": "dc2710b0d19f342b819cc65ea2248fd657c43ff69b58681cabf719a725bafb96",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "48bbc2daadd04cdf006258f9f645757dd7ed719fb9009322c77d11cd02dca91b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Heteropoda venatoria, brown huntsman spider, flattened body, eight long sideways-oriented legs with dark speckles, pale cream band at front of face, no extra legs. Scene: whole female stationary on tree bark, eight legs gently flexed and contained in frame. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "editInputSha256": "33cd99d8015eff7fb175d5420b8c99e4512d8943009ef2c8aabeb4e0e616c9be",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        563,
+        121,
+        1505,
+        944
+      ],
+      "revisionReason": "Initial full silhouette entered the left 40% or antennae touched the frame edge."
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Heteropoda venatoria, brown huntsman spider, flattened body, eight long sideways-oriented legs with dark speckles, pale cream band at front of face, no extra legs. Scene: front close view showing cream facial band and spread legs. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "2ad6130695c5451822f6cfa346f9b7dff19dd1fb477737ab6a04dd56761a01e1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "307fd174b573b6f172a8973b1d27c47be1ad19ff1ddaa8213d4c8aba04fe158f",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Heteropoda venatoria, brown huntsman spider, flattened body, eight long sideways-oriented legs with dark speckles, pale cream band at front of face, no extra legs. Scene: dorsal whole body on plain warm plaster wall. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "ff28e39955e34c3c6921e7a04ed3a2def61e0de197fe31c50463d4d46e715bc1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2c3dea915ac2c71fc6d6c0e23eed1157ca9e9f49aa802bd550a2895fb770c7a8",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Heteropoda venatoria, brown huntsman spider, flattened body, eight long sideways-oriented legs with dark speckles, pale cream band at front of face, no extra legs. Scene: whole spider walking on tree bark at night. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "f2bb790453ecb6b0ff48ddf19b2524ddd0c0494f03c2c5a4bb3e76f49f8f2f99",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "c623bcb101ebbe8fe802422edd3e6806d3b24deaec984c6e67420d202488bd53",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Heteropoda venatoria, brown huntsman spider, flattened body, eight long sideways-oriented legs with dark speckles, pale cream band at front of face, no extra legs. Scene: female carrying a flat round pale egg sac beneath body. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "8fd61c23494c95492ca1adef21716008ec18dc9cab22483b1c6f9a1479ec4bd9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "9dbf911033b84b3cb7469a79294c9bdba823e092fb7ed3c68158bf5fe44a609d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Heteropoda venatoria, brown huntsman spider, flattened body, eight long sideways-oriented legs with dark speckles, pale cream band at front of face, no extra legs. Scene: spider sheltering beside a bark crevice. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "87e6f9bfedcbf94c2e098c65d9928817d613a0594721fb974760dce4f4a7c0ae",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "e979924e2fdf35ccff52e6727118394132191f2eaaf6be9f2f1c60257bc7a44b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

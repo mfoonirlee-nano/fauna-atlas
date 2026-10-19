@@ -1,0 +1,92 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Spinus spinus, Eurasian Siskin, small finch with fine pointed conical bill; adult male black cap and bib, yellow face and chest, streaky yellow-green body, yellow wing bar and yellow tail edges. Habitat: Eurasian alder and birch woodland. Scene: one adult male perched side-on on alder twig, complete body and tail. COVER layout: one complete bird on the RIGHT, all visible crest tips, bill, wings, toes and entire tail enclosed within x=45%-94%, y=10%-90%. Visually prominent, center near 71% width. Left 40% quiet blurred habitat for separate website copy. Real background clearance around every extremity. Keep the bird large within these limits.",
+      "sourceSha256": "a918febafb1b5a53ce1a095b356a66f8950c127aa784bebe02c7299317cea58d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "f117b3930bb2419ea7fe997098923e9aef9a5433b4557cd8e053f2ccedf5116a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Spinus spinus, Eurasian Siskin, small finch with fine pointed conical bill; adult male black cap and bib, yellow face and chest, streaky yellow-green body, yellow wing bar and yellow tail edges. Habitat: Eurasian alder and birch woodland. Scene: adult male head and chest showing black cap black chin and yellow face. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "5b07d29add1f10e458139f56dde0d1d70e8b46c4ffbe1e34211a50884260790f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "da4d80bb4b96a723ac470fb9beb6c2849547fb223f1921d00d235df73d9c0ef9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Spinus spinus, Eurasian Siskin, adult FEMALE Eurasian Siskin, fine pointed conical bill, grey-green head with NO black cap and NO black bib, pale buff-grey breast and flanks with many fine dark longitudinal streaks, subtle yellow wing and tail marks. Habitat: Eurasian alder and birch woodland. Scene: one female without black cap, grey-green and streaky, perched full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "4312f7c55e2adbd21dd66dd474308fab463ff7d583fb139a5160b4356cab30ac",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a3fe1f7be7117ed31365c8d888369b1907c688a00d37d00f434711c94bf30391",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Spinus spinus, Eurasian Siskin, small finch with fine pointed conical bill; adult male black cap and bib, yellow face and chest, streaky yellow-green body, yellow wing bar and yellow tail edges. Habitat: Eurasian alder and birch woodland. Scene: one female without black cap, grey-green and streaky, perched full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "revisionReason": "Remove conflicting adult, male or nonbreeding template from requested life-stage/sex/plumage scene before generation."
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Spinus spinus, Eurasian Siskin, small finch with fine pointed conical bill; adult male black cap and bib, yellow face and chest, streaky yellow-green body, yellow wing bar and yellow tail edges. Habitat: Eurasian alder and birch woodland. Scene: male hanging from alder seed cones feeding, full body. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "4427f6f028034a9acbc20c5079b8c797555a595eb263a04af63b22f33b8e49ba",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "154957e9c0543c564abc7fc50ade99433a1732c5a7433511809753cbaed1414b",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Spinus spinus, Eurasian Siskin, small finch with fine pointed conical bill; adult male black cap and bib, yellow face and chest, streaky yellow-green body, yellow wing bar and yellow tail edges. Habitat: Eurasian alder and birch woodland. Scene: three small siskins spaced on bare birch branches in winter, both sexes. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "d0066c652ad9271a8aedc5f8700f6e8864528e2914075231ec99f93e9cdc9e1a",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "83c6c20a856e1bb5e7b05be87b7f8c609ac11a65e7d1cf13d6d11e34ed818eed",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. One naturalistic documentary bird image for Fauna Atlas, landscape 1536x1024, realistic feathers and correct anatomy, soft natural light. No text, watermark, border or people. Subject: Spinus spinus, Eurasian Siskin, small finch with fine pointed conical bill; adult male black cap and bib, yellow face and chest, streaky yellow-green body, yellow wing bar and yellow tail edges. Habitat: Eurasian alder and birch woodland. Scene: adult male in flight with full wings and tail showing yellow bands. Educational observation composition; prominent birds, biologically plausible posture and intact visible extremities. Distinct viewpoint from cover.",
+      "sourceSha256": "7475e09ddce5b43fedbad1447f1a8a16f120248565125ef95ce8479fae1f9a7b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "233e718ddadb86bb324cf43d3478daa5ed99272eb7409a079183c3b997c108f5",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

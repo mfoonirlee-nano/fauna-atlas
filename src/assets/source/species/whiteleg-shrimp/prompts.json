@@ -1,0 +1,113 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Precision composition edit of this whiteleg-shrimp cover. Scale the ENTIRE animal to 60 percent of its current size, keeping exact proportions, then position the center of its COMPLETE silhouette at x=1100, y=530 on a 1536x1024 landscape. Include long antennae, their complete tips, every claw, toe, leg and tail tip. All animal pixels must be within x=760..1440 and y=130..900. The left half must contain only softly blurred natural background. Reconstruct any antenna tip that previously ran off the right edge, curl the long antennae naturally inside the right-side safe area. Do not trim or shorten appendages. Keep same habitat, lighting, realistic anatomy and documentary macro photograph style. No text or watermark.",
+      "sourceSha256": "cbacf2f0702ffcebafcf5686d2f3507b7369f4c37ae469617ad514c8e609c1ee",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b0dbe29594bba736a04c3b1cd0000de0729840a07882ffbd059147e325a1c716",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Penaeus vannamei, living whiteleg shrimp, translucent pale grey body with subtle greenish tone, white walking legs, long fine antennae, toothed straight rostrum, segmented abdomen and tail fan, no giant lobster claws. Scene: whole adult on sandy shallow sea bottom, fine antennae gently arcing within right half. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "editInputSha256": "dc43dc0bd110088f41989fb1ef970b6f20bbbb0f44dbe5ce2a36da1f52ad1778",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        414,
+        49,
+        1536,
+        807
+      ],
+      "revisionReason": "Earlier composition edits still placed extremities in the left title area or cut an antenna at the frame; complete silhouette uniformly reduced again.",
+      "revisions": [
+        {
+          "prompt": "Edit only composition of this whiteleg-shrimp Fauna Atlas cover. Keep realistic species anatomy, textures, natural environment and documentary photograph style. Uniformly reduce and move the COMPLETE animal to the right. In the 1536x1024 landscape canvas all animal parts must fit within x=710..1450 and y=110..910; leave clear background outside its full silhouette. Include every leg, claw, antenna or shell margin. Long fine antennae must be naturally curved and completely visible, never cut off. Do not shorten or amputate appendages. Keep animal large within this safe area. Left 42% quiet blurred environment without any animal parts. No text, borders, watermarks or people.",
+          "sourceSha256": "60c041d2cd7190a63795c3f6de57c501af91f7f9f0206b87995392b5a9a33029",
+          "sourceDimensions": [
+            1536,
+            1024
+          ]
+        }
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Penaeus vannamei, living whiteleg shrimp, translucent pale grey body with subtle greenish tone, white walking legs, long fine antennae, toothed straight rostrum, segmented abdomen and tail fan, no giant lobster claws. Scene: side close view of rostrum and black stalked eyes. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "3d4198d72342e713b58b9e1898eb3793afa135c65093337101e905c2b999fa05",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d7e0265ef0d310c20c045931c3d141cee7a4f91f36038031b94008b47357c21e",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Penaeus vannamei, living whiteleg shrimp, translucent pale grey body with subtle greenish tone, white walking legs, long fine antennae, toothed straight rostrum, segmented abdomen and tail fan, no giant lobster claws. Scene: whole adult with segmented abdomen and translucent legs. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "b570f3491ea033f4c78b7c02f764a79bb655c4b0e719491e12724cab0d79ce35",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b27d2db48e1dff45e05b899f98cda822aed78a57f268584cbf8c278d211a5dd3",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Penaeus vannamei, living whiteleg shrimp, translucent pale grey body with subtle greenish tone, white walking legs, long fine antennae, toothed straight rostrum, segmented abdomen and tail fan, no giant lobster claws. Scene: shrimp swimming just above sandy bottom with tail fan open. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "a9012514a3e7e8bba469c6f7eb82c18ac2260172d4b3caf9438879457c323223",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "eeb0923456a79727df4f0a9eead2d6fede34be3c8be383220c35826ee102cdaf",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Penaeus vannamei, living whiteleg shrimp, translucent pale grey body with subtle greenish tone, white walking legs, long fine antennae, toothed straight rostrum, segmented abdomen and tail fan, no giant lobster claws. Scene: small juvenile beside estuarine seagrass stems. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "15613284fa160a54db81533fe12f0da3609707df7a6df85944d1985ef3be0bf2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1122f509faba1e9240067315d42b7ec1ce8be1da7e0f80436d56f8c57550d8be",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Penaeus vannamei, living whiteleg shrimp, translucent pale grey body with subtle greenish tone, white walking legs, long fine antennae, toothed straight rostrum, segmented abdomen and tail fan, no giant lobster claws. Scene: several shrimp spaced naturally on an aquaculture pond bottom, living not food. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "255a14159aaf19f914980f2602c75790b70a805559ef3003ef0b941c3ed6ce7e",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "659ec2b8516e0d2d1ea5f8cddd769937bc9471f13342ec830d4a105e9efedf09",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

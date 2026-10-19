@@ -1,0 +1,113 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Precision composition edit of this red-swamp-crayfish cover. Scale the ENTIRE animal to 60 percent of its current size, keeping exact proportions, then position the center of its COMPLETE silhouette at x=1100, y=530 on a 1536x1024 landscape. Include long antennae, their complete tips, every claw, toe, leg and tail tip. All animal pixels must be within x=760..1440 and y=130..900. The left half must contain only softly blurred natural background. Reconstruct any antenna tip that previously ran off the right edge, curl the long antennae naturally inside the right-side safe area. Do not trim or shorten appendages. Keep same habitat, lighting, realistic anatomy and documentary macro photograph style. No text or watermark.",
+      "sourceSha256": "a740c064160514c8370700c1db98dc9389996424b56864c48a48b1576ebb1a1c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "2c34a734fff8cc5069eed6385e027cc3a0295936a41bb27b04ead31b71460069",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Procambarus clarkii, red swamp crayfish, dark red hard segmented exoskeleton, large tubercled red claws, four pairs of walking legs plus claws, complete long antennae, fan tail. Scene: whole adult facing left on submerged fine gravel, antennae arcing rightward within subject area. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "editInputSha256": "01b078868c6be9d65864842863115dfcc27373be3b77860b171248bbff06f3ea",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "initialSubjectBounds": [
+        478,
+        79,
+        1524,
+        847
+      ],
+      "revisionReason": "Earlier composition edits still placed extremities in the left title area or cut an antenna at the frame; complete silhouette uniformly reduced again.",
+      "revisions": [
+        {
+          "prompt": "Edit only composition of this red-swamp-crayfish Fauna Atlas cover. Keep realistic species anatomy, textures, natural environment and documentary photograph style. Uniformly reduce and move the COMPLETE animal to the right. In the 1536x1024 landscape canvas all animal parts must fit within x=710..1450 and y=110..910; leave clear background outside its full silhouette. Include every leg, claw, antenna or shell margin. Long fine antennae must be naturally curved and completely visible, never cut off. Do not shorten or amputate appendages. Keep animal large within this safe area. Left 42% quiet blurred environment without any animal parts. No text, borders, watermarks or people.",
+          "sourceSha256": "f48897ad2d781dc7423e1a8578061cf022779df9be51fcb6d792cf6b402d2a2a",
+          "sourceDimensions": [
+            1536,
+            1024
+          ]
+        }
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Procambarus clarkii, red swamp crayfish, dark red hard segmented exoskeleton, large tubercled red claws, four pairs of walking legs plus claws, complete long antennae, fan tail. Scene: close view of tubercled red claws with calm pose. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "7ebe192ecf54a61e6fa95e0b2b629440cdc1cbe0b3c554a53eda079392a02d13",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0aea37bbb92cfe57c3cbddb49acee8fc361ede4fa4717dcdd121789d4a702cab",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Procambarus clarkii, red swamp crayfish, dark red hard segmented exoskeleton, large tubercled red claws, four pairs of walking legs plus claws, complete long antennae, fan tail. Scene: side view showing segmented abdomen and folded fan tail. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "7e7bbb31a671f30b0288b8014f2aa8ca2dcc587bcab8258a6011cd26dc1e0af9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "99b1f17055db6db936baa8b23dbf775446aecaa683c5327faa01049314521fc2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Procambarus clarkii, red swamp crayfish, dark red hard segmented exoskeleton, large tubercled red claws, four pairs of walking legs plus claws, complete long antennae, fan tail. Scene: whole adult walking on shallow muddy pond bottom. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "d57a31e2527eb5ad234c93b678495b582f8ef449607ae62ca2f2798c4a22ce3d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "ef97609ee7d6bb89d49dcee37a11ced525a67af735ec3bbad974fab5fcfdc9d1",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Procambarus clarkii, red swamp crayfish, dark red hard segmented exoskeleton, large tubercled red claws, four pairs of walking legs plus claws, complete long antennae, fan tail. Scene: adult beside an earthen bank burrow entrance. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "bb841d269dc9f2fc70ce2d87f61b01ab3d5bf70a20a50cd89b9eac5b8d8ff8f1",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "55fc7000c5329d92bb4945346c7a3fc86c6999a0a7222108cd7a6c7213148389",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Procambarus clarkii, red swamp crayfish, dark red hard segmented exoskeleton, large tubercled red claws, four pairs of walking legs plus claws, complete long antennae, fan tail. Scene: small brownish juvenile among aquatic plants. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "31b41dde2089368a3f4b38777fcb2a4795dedc31751d25597b83bbffead0e1b8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0dd9407bb40638796c54381606e9783c4485c34496abc228dfe0f963fb57e998",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

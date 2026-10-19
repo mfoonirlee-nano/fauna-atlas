@@ -1,0 +1,104 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: precise-object-edit. Edit only composition of this Fauna Atlas animal cover. Preserve the species identity, realistic anatomy, coat, colors, native habitat and photographic style. Scale the ENTIRE ANIMAL as one unit modestly smaller (about 85% of its present size) and move it right. Its complete boundary INCLUDING all fine whiskers, outer fur, ears, every horn/hump tip, all feet, and ENTIRE tail must be INSIDE x=44%-95%, y=10%-91% of the final landscape image. The animal remains large and prominent on RIGHT, center near 70% width. LEFT 40% must contain ONLY quiet blurred natural background, no animal part or whisker entering it. Keep visible background beyond every appendage and tail. Preserve the full image aspect ratio. No added animals, humans, text, watermark, border or prop.",
+      "sourceSha256": "e6adadfd40b5a4715c5a927b04abab3b34ce1c84e2aef4d502d90dce90707bdc",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "4effaa48cfcafe7465d7fd9e14aec06128895bc2a97be8a6c3026d63707e5b87",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ],
+      "initialPrompt": "Use case: scientific-educational. Asset type: Fauna Atlas canonical cover. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Mustela sibirica Siberian weasel, elongated flexible golden ochre body, short legs, small rounded ears, dark eyes, paler muzzle, long furry ochre tail without a sharply black tail tip, East Asian forest edge. Scene: one adult standing side-on on flat mossy ground, all feet visible, tail gently extended to right. COVER COMPOSITION: Entire subject INCLUDING every whisker, all visible toes, ears, complete tail and all horn/antler tips must fit inside x=46%-93%, y=10%-90%. Large prominent animal on RIGHT, complete silhouette center at 70% image width. Left 40% quiet softly blurred native habitat. Visible background clearance surrounds every extremity. No text, watermark, border, humans, cages or decorative props.",
+      "editInputSha256": "557fbdfbb5904a719700a4d4dc235a684edb47761783fd8d15b1f928dd8e2ca2",
+      "editInputDimensions": [
+        1536,
+        1024
+      ],
+      "editReason": "Complete subject scaled modestly and shifted right so all fine whiskers, toes and muzzle stay outside the quiet left 40%.",
+      "initialSubjectBounds": [
+        478,
+        277,
+        1520,
+        785
+      ],
+      "initialSubjectIncomplete": false
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Mustela sibirica Siberian weasel, elongated flexible golden ochre body, short legs, small rounded ears, dark eyes, paler muzzle, long furry ochre tail without a sharply black tail tip, East Asian forest edge. Scene: adult alert with head raised at an opening in leaf litter, full slender body and entire tail. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "b2c921f52161e775f8675041f89c36aaddedf357ab627c1a5e03a912ccb0358f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "d03a33f8471f14edd5da345909044b4c6d5717b400440346fe243253bcd7babc",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Mustela sibirica Siberian weasel, elongated flexible golden ochre body, short legs, small rounded ears, dark eyes, paler muzzle, long furry ochre tail without a sharply black tail tip, East Asian forest edge. Scene: adult investigating a fallen log at dusk, all body unobscured. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "8baf84b120caa20bc767ca9914afe233f1078ce1c5d6ab2835824b01bd592f1b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "400484098495e0d6ff2ab652b60155491e45cfb986e8085a3870a7ef71db9436",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Mustela sibirica Siberian weasel, elongated flexible golden ochre body, short legs, small rounded ears, dark eyes, paler muzzle, long furry ochre tail without a sharply black tail tip, East Asian forest edge. Scene: adult moving low across woodland grass, non-blurred and complete body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "4826ced32a0c743e2f6ef4c8fd84d581ac84ce9042b45d0216c4f44d3fa96354",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a3e5073ccd6f15fae8d02de73f982ef8a4eb8823697e943bf0681bc779ab6d05",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Mustela sibirica Siberian weasel, elongated flexible golden ochre body, short legs, small rounded ears, dark eyes, paler muzzle, long furry ochre tail without a sharply black tail tip, East Asian forest edge. Scene: adult beside an abandoned rodent burrow, no prey, full body. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "3404d870fd1f27c9a8a98f8ae595039f3ac306950fa88cfd0a70a53aa25e2bd4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "1b17df965bbb35c02e132132ca5c2c92977fbed9b96767c75dd1872586df2b4d",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset type: Fauna Atlas species observation photograph. Naturalistic documentary wildlife photograph, landscape 1536x1024, realistic anatomy. Subject: Mustela sibirica Siberian weasel, elongated flexible golden ochre body, short legs, small rounded ears, dark eyes, paler muzzle, long furry ochre tail without a sharply black tail tip, East Asian forest edge. Scene: adult resting curled on dry leaves, entire animal visible. Educational observation scene, prominent relevant features, natural scale and whole animals where requested. No text, watermark, border, humans, cages or decorative props.",
+      "sourceSha256": "2a5e7d667ee1703990467e33f631b6f287e8de481d5b7980271fc5434a4fe834",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "a364e7212359e513e9c5f7ede6d24d52dadf6d793ce5ede3faa0fd0bf74b3370",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

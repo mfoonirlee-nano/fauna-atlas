@@ -1,0 +1,90 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "images": [
+    {
+      "file": "01-cover",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Eisenia fetida, red wiggler compost earthworm, slender red-brown ring-segmented body with paler yellowish intersegment bands, adult saddle-like clitellum near anterior, no legs or eyes. Scene: one whole gently curved adult on moist dark leaf compost, head and tail entirely visible. COVER composition: landscape 1536x1024. Place the complete animal, including ALL appendages, fine antennae, legs and extremities, entirely within x=46%-94% and y=14%-88%. Its center must be at 70% image width. Left 42% is quiet softly blurred habitat, free of any animal parts. Maximize complete subject size inside that safe area. Leave real background clearance around every outer tip. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "bf66ca822a3ac10c45fba9807ed9611bf8a76c52167b1b07e1bff8e6bef17e4f",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "b39f598b500250607156a6d7441d598638870df2485f19d90e1bbdf0cd1f247a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "02-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Eisenia fetida, red wiggler compost earthworm, slender red-brown ring-segmented body with paler yellowish intersegment bands, adult saddle-like clitellum near anterior, no legs or eyes. Scene: close macro of ring segments and thicker clitellum. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "7cb37dc67a155cde1686742758ff3db4afe6923b71cdc3168796834a681654a8",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "966ac45b953fe6ae76e514b382e12da812d3ff2c2d62ab2462a1aefa8e1a38d2",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "03-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Eisenia fetida, red wiggler compost earthworm, slender red-brown ring-segmented body with paler yellowish intersegment bands, adult saddle-like clitellum near anterior, no legs or eyes. Scene: whole worm moving across a decaying leaf on damp soil. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "0b18266bfcb96294e8a3c49788ddc48064b8f975bc2d4a3fce471bf437122ae9",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "75ab29073ab30ac6ea6e8ae375705ecc5b6e8bc58b922a40ea4ace8f5e4da11a",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "04-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Eisenia fetida, red wiggler compost earthworm, slender red-brown ring-segmented body with paler yellowish intersegment bands, adult saddle-like clitellum near anterior, no legs or eyes. Scene: several naturally separate compost worms among decomposing vegetable matter. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "e374804ab3ec5dfedb2a4d0a2ac8e0eab77b8767741499b46e37e96d20408695",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "83fae096d7fd3f5ad61f842f909eac5125aa004d55575284557158bc03b6a4a0",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "05-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Eisenia fetida, red wiggler compost earthworm, slender red-brown ring-segmented body with paler yellowish intersegment bands, adult saddle-like clitellum near anterior, no legs or eyes. Scene: small juveniles beside a tiny lemon-shaped brown cocoon in moist compost. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "bb57368ad74b74445e12ec56b3b64bcffa20a53d22a2110bd81b4737f9355143",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "0a793d79061f6bd4788bf81a4507f6bfc744340420d09719dcce263d334c0156",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "file": "06-observation",
+      "prompt": "Use case: scientific-educational. Asset: Fauna Atlas species image. Naturalistic documentary macro photography style, anatomically accurate. Subject: Eisenia fetida, red wiggler compost earthworm, slender red-brown ring-segmented body with paler yellowish intersegment bands, adult saddle-like clitellum near anterior, no legs or eyes. Scene: whole worm partly nestled in damp decomposing leaf litter. Landscape 1536x1024. Prominent clear educational observation scene; show relevant anatomical feature accurately and natural habitat. Avoid cropped important features. Natural soft lighting, realistic textures. No text, diagram, border, watermark, humans, tools or anthropomorphism.",
+      "sourceSha256": "5e17e642b54f139ad0e680cef7f6d51e4947ee2a354a23d89b050c3f1c9cbbe3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "runtimeSha256": "de32167aa34b73456d4cad927a8973a0d0686bbef8cb562d58b21fa682c658f9",
+      "runtimeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
