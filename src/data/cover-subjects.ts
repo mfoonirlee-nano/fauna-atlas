@@ -7001,5 +7001,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1454,
       "bottom": 830
     }
-  }
+  },
+  "dodo": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 40,
+      "right": 1485,
+      "bottom": 970
+    }
+  },
+  "rodrigues-solitaire": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 35,
+      "right": 1420,
+      "bottom": 965
+    }
+  },
+  "passenger-pigeon": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 210,
+      "right": 1420,
+      "bottom": 925
+    }
+  },
+  "great-auk": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 24,
+      "right": 1445,
+      "bottom": 969
+    }
+  },
+  "thylacine": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 285,
+      "right": 1508,
+      "bottom": 808
+    }
+  },
 };

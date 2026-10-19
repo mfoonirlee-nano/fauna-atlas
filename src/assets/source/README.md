@@ -983,3 +983,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [white-wagtail 图片集](./species/white-wagtail/README.md)
 - [whiteleg-shrimp 图片集](./species/whiteleg-shrimp/README.md)
 - [yellow-legged-hornet 图片集](./species/yellow-legged-hornet/README.md)
+
+## 2026-10-19 首批灭绝动物
+
+- [渡渡鸟图片集](./species/dodo/README.md)
+- [罗德里格斯孤鸽图片集](./species/rodrigues-solitaire/README.md)
+- [旅鸽图片集](./species/passenger-pigeon/README.md)
+- [大海雀图片集](./species/great-auk/README.md)
+- [袋狼图片集](./species/thylacine/README.md)

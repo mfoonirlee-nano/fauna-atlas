@@ -6446,5 +6446,70 @@
       },
       "sha256": "f117b3930bb2419ea7fe997098923e9aef9a5433b4557cd8e053f2ccedf5116a"
     }
+  },
+  "dodo": {
+    "cover": {
+      "sha256": "d2aed2f61faf8a82c8b97694befd25fb6f1a0ec728884ae776ce2d5c33e6fe1c",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 40,
+        "right": 1485,
+        "bottom": 970
+      }
+    }
+  },
+  "rodrigues-solitaire": {
+    "cover": {
+      "sha256": "2c3d455e97069e282f2104e4fb50f89dc9af69d7803d864bfde3ff8f8b966aab",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 35,
+        "right": 1420,
+        "bottom": 965
+      }
+    }
+  },
+  "passenger-pigeon": {
+    "cover": {
+      "sha256": "cbf9866dde0f1a0caaf26ae3bdd6d5b5dff299ba8aa81838287e32511efa5296",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 210,
+        "right": 1420,
+        "bottom": 925
+      }
+    }
+  },
+  "great-auk": {
+    "cover": {
+      "sha256": "68e50fd81b8e363339ffc7d3fe71c22dbdb00bd2d801afd3a04b7809a729ea78",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 718,
+        "top": 24,
+        "right": 1445,
+        "bottom": 969
+      }
+    }
+  },
+  "thylacine": {
+    "cover": {
+      "sha256": "47998b5a09bd0c4f6c0ad0eee57563314bc614928e0b89d9a461fe1d0a9f4378",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 285,
+        "right": 1508,
+        "bottom": 808
+      }
+    }
   }
 }

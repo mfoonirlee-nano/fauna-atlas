@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-19 更新：本轮新增 100 个已灭绝动物选题，已完成 0 个，待制作 100 个。现有动物目录仍为 700 份物种档案；本次只收集选题，没有新增档案或图片。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-19 更新：本轮 100 个已灭绝动物选题，已完成 5 个，待制作 95 个。新增渡渡鸟、罗德里格斯孤鸽、旅鸽、大海雀、袋狼，动物目录现有 705 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 ## 本轮范围与制作方式
 
@@ -19,14 +19,14 @@
 
 | 制作分组 | 待制作数量 |
 | --- | ---: |
-| 近代及全新世灭绝动物 | 30 |
+| 近代及全新世灭绝动物 | 25 |
 | 非鸟恐龙 | 25 |
 | 其他古爬行动物 | 12 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 100 |
+| 合计 | 95 |
 
 ## 选题与资料
 
@@ -36,15 +36,10 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 近代及全新世灭绝动物（30 种）
+### 近代及全新世灭绝动物（待制作 25 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E001 | 渡渡鸟 | *Raphus cucullatus* | 17 世纪灭绝；1662 年为可靠最后记录之一，来源也讨论更晚记录 | 粗大的喙、不会飞的鸽形鸟；复原与骨骼对应 | [NHM 物种研究](https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html) |
-| [ ] | E002 | 罗德里格斯孤鸽 | *Pezophaps solitaria* | 历史时期灭绝，约 18 世纪；不指定某次目击为灭绝年 | 小翅膀上的骨质突起；雌雄体型差异 | [NHM 研究者的原始论文](https://doi.org/10.1111/bij.12087)、[渡渡鸟与孤鸽研究](https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html) |
-| [ ] | E003 | 旅鸽 | *Ectopistes migratorius* | 最后已知圈养个体 Martha 于 1914 年死亡 | 大群迁飞、雌雄羽色与森林种子 | [NHM](https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html) |
-| [ ] | E004 | 大海雀 | *Pinguinus impennis* | 最后已知繁殖对于 1844 年遭捕杀；NHM 另载 1852 年目击，不把 1844 当无争议灭绝年 | 短翅潜水、陆上步行与企鹅外形比较 | [NHM](https://www.nhm.ac.uk/discover/worlds-collide-great-auk.html)、[Smithsonian](https://www.si.edu/exhibitions/research-case-great-auk-event-event-exhib-4482) |
-| [ ] | E005 | 袋狼 | *Thylacinus cynocephalus* | 最后确认圈养个体 1936 年死亡；1986 年宣布灭绝 | 后背条纹、育儿袋和保留下来的历史影像 | [塔斯马尼亚公园部门](https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger)、[澳大利亚博物馆](https://australian.museum/learn/australia-over-time/extinct-animals/the-thylacine/) |
 | [ ] | E006 | 斯特勒海牛 | *Hydrodamalis gigas* | 18 世纪灭绝，NHM 记为 1768 年 | 庞大身体、鳍状前肢与海带食物 | [NHM](https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html) |
 | [ ] | E007 | 大角鹿 | *Megaloceros giganteus* | 最晚已知化石约距今 8,000 年；欧洲西部消失得更早 | 掌状大鹿角、骨骼尺寸与季节性换角 | [NHM](https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html) |
 | [ ] | E008 | 加勒比僧海豹 | *Neomonachus tropicalis* | 最后确认目击 1952 年；NOAA 于 2008 年宣布灭绝；来源使用旧属名 Monachus | 鳍足与陆地休息，海豹和海狮比较 | [NOAA](https://www.fisheries.noaa.gov/national/endangered-species-conservation/delisting-species-under-endangered-species-act) |
@@ -172,6 +167,18 @@
 | [ ] | E100 | 布氏巨脉蜻蜓 | *Meganeura monyi* | 晚石炭世 | 翅脉与翅展；与蜻蜓比较 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=175806) |
 
 ---
+
+## 本轮完成归档：E001–E005
+
+2026-10-19 完成 5 份物种档案及 30 张 WebP 图片。完整测试、轮播几何与生产构建体积检查通过，详见[制作与验收记录](research/todo-extinct-first-five-2026-10-19.md)。
+
+| 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [x] | E001 | 渡渡鸟 | *Raphus cucullatus* | 17 世纪灭绝；1662 年为可靠最后记录之一，来源也讨论更晚记录 | 粗大的喙、不会飞的鸽形鸟；复原与骨骼对应 | [NHM 物种研究](https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html) |
+| [x] | E002 | 罗德里格斯孤鸽 | *Pezophaps solitaria* | 历史时期灭绝，约 18 世纪；不指定某次目击为灭绝年 | 小翅膀上的骨质突起；雌雄体型差异 | [NHM 研究者的原始论文](https://doi.org/10.1111/bij.12087)、[渡渡鸟与孤鸽研究](https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html) |
+| [x] | E003 | 旅鸽 | *Ectopistes migratorius* | 最后已知圈养个体 Martha 于 1914 年死亡 | 大群迁飞、雌雄羽色与森林种子 | [NHM](https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html) |
+| [x] | E004 | 大海雀 | *Pinguinus impennis* | 最后已知繁殖对于 1844 年遭捕杀；NHM 另载 1852 年目击，不把 1844 当无争议灭绝年 | 短翅潜水、陆上步行与企鹅外形比较 | [NHM](https://www.nhm.ac.uk/discover/worlds-collide-great-auk.html)、[Smithsonian](https://www.si.edu/exhibitions/research-case-great-auk-event-event-exhib-4482) |
+| [x] | E005 | 袋狼 | *Thylacinus cynocephalus* | 最后确认圈养个体 1936 年死亡；1986 年宣布灭绝 | 后背条纹、育儿袋和保留下来的历史影像 | [塔斯马尼亚公园部门](https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger)、[澳大利亚博物馆](https://australian.museum/learn/australia-over-time/extinct-animals/the-thylacine/) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

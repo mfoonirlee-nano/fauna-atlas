@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "700 animal species profiles; 560 historical baseline reviews and 140 additions through 2026-10-18; microbial topics excluded",
+  "scope": "705 animal species profiles; 700 prior profiles and 5 extinct-animal additions through 2026-10-19; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 140,
-    "addedProfilesReviewDate": "2026-10-18",
+    "addedProfiles": 145,
+    "addedProfilesReviewDate": "2026-10-19",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -32216,6 +32216,201 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.gbif.org/species/6092830"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dodo",
+      "name": "渡渡鸟",
+      "scientificName": "Raphus cucullatus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+            "https://www.gbif.org/species/2496198"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/the-dodo-bird-the-real-facts-about-this-icon-of-extinction.html",
+            "https://www.gbif.org/species/2496198"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "rodrigues-solitaire",
+      "name": "罗德里格斯孤鸽",
+      "scientificName": "Pezophaps solitaria",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://doi.org/10.1093/zoolinnean/zlae086"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://doi.org/10.1093/zoolinnean/zlae086"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1093/zoolinnean/zlae086"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1093/zoolinnean/zlae086",
+            "https://www.gbif.org/species/2496200"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1093/zoolinnean/zlae086",
+            "https://www.gbif.org/species/2496200"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "passenger-pigeon",
+      "name": "旅鸽",
+      "scientificName": "Ectopistes migratorius",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.si.edu/spotlight/passenger-pigeon"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.si.edu/spotlight/passenger-pigeon"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.si.edu/spotlight/passenger-pigeon"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.si.edu/spotlight/passenger-pigeon",
+            "https://www.gbif.org/species/2495898"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.si.edu/spotlight/passenger-pigeon",
+            "https://www.gbif.org/species/2495898"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "great-auk",
+      "name": "大海雀",
+      "scientificName": "Pinguinus impennis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/worlds-collide-great-auk.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/worlds-collide-great-auk.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/worlds-collide-great-auk.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/worlds-collide-great-auk.html",
+            "https://www.gbif.org/species/5229273"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/worlds-collide-great-auk.html",
+            "https://www.gbif.org/species/5229273"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "thylacine",
+      "name": "袋狼",
+      "scientificName": "Thylacinus cynocephalus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger",
+            "https://www.gbif.org/species/2435474"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger",
+            "https://www.gbif.org/species/2435474"
           ]
         }
       }
