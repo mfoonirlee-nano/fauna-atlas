@@ -1,0 +1,32 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Use case: scientific-educational. Fauna Atlas species cover, wide landscape 1536x1024. Naturalistic museum scientific reconstruction illustration of Pinguinus impennis, great auk. Anatomy: Flightless auk with upright black back and head, white belly, large white patch before each eye in breeding plumage, heavy black bill with vertical grooves, tiny black flipperlike wings, black webbed feet. Habitat: North Atlantic rocky breeding island. Single complete adult on right, full subject boundary within x=680..1470 y=80..950, center beyond 60% source width. Maximize visible animal; include every visible bill, tail tip, foot and wing, with real background clearance. Left 40% quiet background. Soft daylight, no text, watermark or border. Extinct-animal reconstruction, not a historical photograph; restrained plausible colors.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Pinguinus impennis, great auk. Anatomy: Flightless auk with upright black back and head, white belly, large white patch before each eye in breeding plumage, heavy black bill with vertical grooves, tiny black flipperlike wings, black webbed feet. Native place: North Atlantic rocky breeding island. Scene: Lateral full-body study against quiet natural background, show characteristic body proportions and appendages. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Scientific educational museum illustration, wide landscape. Single great auk head and shoulder portrait showing deep grooved bill and white pre-eye patch. No other species. Anatomy: Flightless auk with upright black back and head, white belly, large white patch before each eye in breeding plumage, heavy black bill with vertical grooves, tiny black flipperlike wings, black webbed feet. Quiet neutral background. Extinct animal scientific reconstruction. One continuous scene, only this one species, no composite panels, no text, no border. Soft daylight.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Scientific educational museum illustration of ONLY Pinguinus impennis, great auk. Flightless auk with upright black back and head, white belly, large white patch before each eye in breeding plumage, heavy black bill with vertical grooves, tiny black flipperlike wings, black webbed feet. Show a complete small sculpted exterior reconstruction MODEL of this extinct animal on a plain rectangular museum plinth, three-quarter view, in a quiet neutral museum alcove. Clear matte painted sculptural surface, no exposed bones or internal anatomy. All body parts visible. The model is an interpretive model, NOT an actual preserved specimen or fossil. No other animal, no humans, no labels, no text, no border. Wide landscape, soft gallery lighting.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Pinguinus impennis, great auk. Anatomy: Flightless auk with upright black back and head, white belly, large white patch before each eye in breeding plumage, heavy black bill with vertical grooves, tiny black flipperlike wings, black webbed feet. Native place: North Atlantic rocky breeding island. Scene: Wide historical habitat scene, single complete animal on ground or low perch in its native place. No modern buildings, humans or other species. Not a present-day sighting. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Use case: scientific-educational. Wide landscape 1536x1024 detailed naturalistic museum reconstruction illustration of extinct Pinguinus impennis, great auk. Anatomy: Flightless auk with upright black back and head, white belly, large white patch before each eye in breeding plumage, heavy black bill with vertical grooves, tiny black flipperlike wings, black webbed feet. Native place: North Atlantic rocky breeding island. Scene: Two separate complete side views of SAME animal, one side facing left, one facing right, on pale neutral museum plate background. Study view comparison only, not interaction or sexual dimorphism; no labels or scale bars. Retain characteristic species anatomy, all intended subjects within frame. Scientific reconstruction choices, not photographic evidence. No text, labels, watermark, logo or border. No invented colorful ornaments.",
+    "tool": "built-in image_gen"
+  }
+]
