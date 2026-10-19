@@ -1,0 +1,78 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+    "generationPrompt": "Use case: scientific-educational. Generate one landscape 1536x1024 cover illustration for a children's natural history atlas. Subject: Steller's sea cow Hydrodamalis gigas, extinct sirenian: enormous elongated plump body, small blunt head with fleshy muzzle, rough dark brown grey skin, two short paddle forelimbs, broad horizontal forked whale-like tail, no hind limbs, no dorsal fin. Calm side view underwater near the surface of cold Commander Islands coastal kelp waters, soft natural light, realistic painterly scientific reconstruction, NOT a photograph. Exactly one whole animal on the RIGHT, including entire tail and both visible fin tips; its complete silhouette inside x=640..1490 and y=210..820, center near x=1080. Left 40% quiet blue water for separate UI text. Make subject large within those bounds. Clear silhouette, no foreground kelp obscuring body. No writing, labels, logos, borders or other animals. Skin hue and environmental details are reconstruction choices.",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Edit the Steller's sea cow cover. Preserve the scientifically reconstructed animal's anatomy, kelp environment, painterly style and full-body pose. Move and proportionally reduce the ENTIRE animal so ALL of its silhouette from nose to tail fluke lies strictly inside x=660..1480, y=260..800 on a 1536x1024 canvas. Animal center near 1070. The leftmost 40 percent (x=0..614) must be empty blue water, without any part of the animal. Show complete tail and flippers with real background around every edge. Keep a single sea cow, no text.",
+        "referenceSha256": "85e16151a2dc5e574fff27f8475ec3df1c262c7a37de450be4c1dc1f70d31e12"
+      },
+      {
+        "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+        "referenceSha256": "537b475980e2a6fc1e78123221ce448b22b2dc7d67c2a507c38fc13628267843"
+      }
+    ]
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+    "generationPrompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Steller's sea cow Hydrodamalis gigas: giant barrel shaped sirenian, small blunt head and fleshy muzzle, dark grey brown wrinkled skin, short paddle forelimbs, forked horizontal tail flukes, no dorsal fin or hind limbs. Setting: cold Commander Islands coastal kelp waters. One whole animal in clear side profile, large centered, complete body including all extremities, quiet natural setting. Emphasize overall proportions. Style: detailed realistic painterly scientific reconstruction, soft daylight, coherent anatomy. Extinct animal reconstruction, not a historic photograph. Coat hue, lighting, surroundings are artistic choices. No writing, logos, watermarks, frames, scales, arrows, or other species.",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+        "referenceSha256": "0c03f0c78c77a1854817eac63eacbc2cd0776fdbb36da73f3f3c2bc1855fe6a9"
+      }
+    ]
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+    "generationPrompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Steller's sea cow Hydrodamalis gigas: giant barrel shaped sirenian, small blunt head and fleshy muzzle, dark grey brown wrinkled skin, short paddle forelimbs, forked horizontal tail flukes, no dorsal fin or hind limbs. Setting: cold Commander Islands coastal kelp waters. Closer three quarter view of the head and distinctive external features, carefully represent the muzzle and horns if present; for sea cow show small head and foreflipper, seal show whiskers and absence of external ear. Only this species, NO other animals, no inset pictures. Style: detailed realistic painterly scientific reconstruction, soft daylight, coherent anatomy. Extinct animal reconstruction, not a historic photograph. Coat hue, lighting, surroundings are artistic choices. No writing, logos, watermarks, frames, scales, arrows, or other species.",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+        "referenceSha256": "1b689fc608c3c363410b6ccf2ce03044db6dd516e7fbd4e3897fefa0d1eee0f3"
+      }
+    ]
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+    "generationPrompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Steller's sea cow Hydrodamalis gigas: giant barrel shaped sirenian, small blunt head and fleshy muzzle, dark grey brown wrinkled skin, short paddle forelimbs, forked horizontal tail flukes, no dorsal fin or hind limbs. Setting: cold Commander Islands coastal kelp waters. A painted sculpture model of this animal on a neutral museum-like plinth, entire model visible including all extremities. Invented exterior reconstruction model, not real museum specimen, no skeleton bones or text. Style: detailed realistic painterly scientific reconstruction, soft daylight, coherent anatomy. Extinct animal reconstruction, not a historic photograph. Coat hue, lighting, surroundings are artistic choices. No writing, logos, watermarks, frames, scales, arrows, or other species.",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+        "referenceSha256": "b2b506f3779646c607aa6a94a99b765b35f54742932c2a45950731f4d280d34c"
+      }
+    ]
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+    "generationPrompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Steller's sea cow Hydrodamalis gigas: giant barrel shaped sirenian, small blunt head and fleshy muzzle, dark grey brown wrinkled skin, short paddle forelimbs, forked horizontal tail flukes, no dorsal fin or hind limbs. Setting: cold Commander Islands coastal kelp waters. One entire animal shown calmly within its representative historic environment. Show habitat without hiding the main animal. No predation, reproduction or social behaviors inferred. Style: detailed realistic painterly scientific reconstruction, soft daylight, coherent anatomy. Extinct animal reconstruction, not a historic photograph. Coat hue, lighting, surroundings are artistic choices. No writing, logos, watermarks, frames, scales, arrows, or other species.",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+        "referenceSha256": "933a83cb8b1cf87ccbfaf866fcd04f188625149a1f83700a30500abdbf1b15e2"
+      }
+    ]
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+    "generationPrompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Steller's sea cow Hydrodamalis gigas: giant barrel shaped sirenian, small blunt head and fleshy muzzle, dark grey brown wrinkled skin, short paddle forelimbs, forked horizontal tail flukes, no dorsal fin or hind limbs. Setting: cold Commander Islands coastal kelp waters. Two separate studies of the SAME species from side and front-three-quarter angles, arranged on plain warm neutral background, full body each, no text or labels. Both depict same sex and adult stage; for giant deer both antlered males. Style: detailed realistic painterly scientific reconstruction, soft daylight, coherent anatomy. Extinct animal reconstruction, not a historic photograph. Coat hue, lighting, surroundings are artistic choices. No writing, logos, watermarks, frames, scales, arrows, or other species.",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Precise scientific anatomy correction to this Steller's sea cow Hydrodamalis gigas reconstruction. Edit ONLY the visible forelimbs on every animal/model/study in this image. Replace broad flat manatee-like flippers with much SHORTER, narrower, blunt, curved HOOK-LIKE forelimb stumps, without fingers, nails, webbing or pointed paddles. Historical accounts describe short hooked forelimbs lacking phalanges; thick dark leathery epidermis around each stump. Keep the rest of each animal, head, body, tail, skin, pose, scale, placement, scenery and entire image composition unchanged. Do not enlarge or move the animal; cover must preserve quiet left 40%. No labels or text.",
+        "referenceSha256": "31cf48c63fdd09c598729ed0ec1c22ce08336cd2e0ee65d183a23df0cd2271fd"
+      }
+    ]
+  }
+]
