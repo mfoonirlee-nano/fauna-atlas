@@ -6511,5 +6511,70 @@
         "bottom": 808
       }
     }
+  },
+  "stellers-sea-cow": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 628,
+        "top": 308,
+        "right": 1452,
+        "bottom": 684
+      },
+      "sha256": "92f43b34887fab7eddbe8d0d1db1b80bb1030f8ec7604f2582461fb02246dd4f"
+    }
+  },
+  "giant-deer": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 764,
+        "top": 226,
+        "right": 1396,
+        "bottom": 858
+      },
+      "sha256": "45b5faa7a5687530f8f0dd000901ac7b2437f1dcbd8c95bd9db23fc841d2271d"
+    }
+  },
+  "caribbean-monk-seal": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 718,
+        "top": 428,
+        "right": 1368,
+        "bottom": 726
+      },
+      "sha256": "4390f4a0b243326fd769f0c1bdd6a83b750a7f2424e14d8fd9be4b626b411406"
+    }
+  },
+  "falkland-island-wolf": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 726,
+        "top": 108,
+        "right": 1470,
+        "bottom": 852
+      },
+      "sha256": "24a7f81ab76b8445e70cd468baa2cdb64d9bfbc754747d33bef8d1e11b3afea8"
+    }
+  },
+  "bluebuck": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 696,
+        "top": 14,
+        "right": 1468,
+        "bottom": 940
+      },
+      "sha256": "92c4ae6c0c0a229eedc254b53b9d5bc435fce2ed6dde71329e9ac0a5a6800e27"
+    }
   }
 }

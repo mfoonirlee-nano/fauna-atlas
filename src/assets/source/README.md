@@ -991,3 +991,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [旅鸽图片集](./species/passenger-pigeon/README.md)
 - [大海雀图片集](./species/great-auk/README.md)
 - [袋狼图片集](./species/thylacine/README.md)
+
+## 2026-10-19 第二批灭绝动物
+
+- [斯特勒海牛图片集](./species/stellers-sea-cow/README.md)
+- [大角鹿图片集](./species/giant-deer/README.md)
+- [加勒比僧海豹图片集](./species/caribbean-monk-seal/README.md)
+- [福克兰狼图片集](./species/falkland-island-wolf/README.md)
+- [蓝马羚图片集](./species/bluebuck/README.md)

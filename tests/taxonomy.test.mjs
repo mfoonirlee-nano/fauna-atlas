@@ -249,7 +249,13 @@ test('keeps every catalogue association unique and attached to its named genus',
 
 test('retains assessment years except for explicitly documented missing evidence', () => {
   for (const profile of species) {
-    if (profile.conservation.code === 'NE') {
+    if (profile.conservation.system === 'Historical and fossil evidence') {
+      assert.equal(profile.conservation.code, 'EX');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.equal(profile.conservation.criteria, undefined);
+      assert.ok(profile.sources.some(({ kind }) => kind === 'conservation'));
+      assert.match(profile.conservation.assessor, /未采用.*IUCN.*评估/);
+    } else if (profile.conservation.code === 'NE') {
       assert.equal(profile.conservation.assessedYear, undefined);
     } else if (['japanese-gecko', 'black-crowned-night-heron'].includes(profile.slug)) {
       // The cited zoo/BirdLife records confirm LC but omit an independently verified assessment date.
@@ -324,6 +330,36 @@ test('retains assessment years except for explicitly documented missing evidence
       );
     }
   }
+});
+
+test('the next extinct mammals distinguish evidence, historical ranges and reconstruction', () => {
+  const expected = [
+    ['stellers-sea-cow', 'Hydrodamalis gigas', 'Sirenia', 'Dugongidae'],
+    ['giant-deer', 'Megaloceros giganteus', 'Artiodactyla', 'Cervidae'],
+    ['caribbean-monk-seal', 'Neomonachus tropicalis', 'Carnivora', 'Phocidae'],
+    ['falkland-island-wolf', 'Dusicyon australis', 'Carnivora', 'Canidae'],
+    ['bluebuck', 'Hippotragus leucophaeus', 'Artiodactyla', 'Bovidae'],
+  ];
+  for (const [slug, name, order, family] of expected) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.order.scientificName, order);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(profile.conservation.system, 'Historical and fossil evidence');
+    assert.equal(profile.conservation.code, 'EX');
+    assert.equal(profile.conservation.assessedYear, undefined);
+    assert.equal(profile.distribution.center, undefined);
+    assert.equal(profile.media.gallery.length, 5);
+    for (const image of [profile.media, ...profile.media.gallery]) {
+      assert.match(image.alt, /AI.*复原|复原.*AI/);
+    }
+  }
+  const stories = (slug) => findSpecies(slug).storySections.map(({ body }) => body).join(' ');
+  assert.match(stories('giant-deer'), /末次.*化石.*不能.*精确日期/);
+  assert.match(stories('caribbean-monk-seal'), /1952.*最后确认.*2008/s);
+  assert.match(findSpecies('caribbean-monk-seal').diet.description, /推测/);
+  assert.match(stories('falkland-island-wolf'), /据报.*1876/);
+  assert.match(stories('bluebuck'), /重新鉴定标本.*没有发现活体/);
 });
 
 test('registers the Eurasian otter as a complete Lutra lutra profile', () => {
@@ -24312,7 +24348,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 705);
+  assert.equal(species.length, 710);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24483,7 +24519,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 705);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 710);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24504,9 +24540,9 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 492);
-  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 159);
-  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 47);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 497);
+  assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 164);
+  assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 49);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Procyon')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Herpestidae')?.speciesCount, 1);
@@ -24619,8 +24655,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'genus', 'Daubentonia')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cercopithecidae')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'genus', 'Rhinopithecus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 25);
-  assert.equal(findTaxon(tree, 'family', 'Bovidae')?.speciesCount, 12);
+  assert.equal(findTaxon(tree, 'order', 'Artiodactyla')?.speciesCount, 27);
+  assert.equal(findTaxon(tree, 'family', 'Bovidae')?.speciesCount, 13);
   assert.equal(findTaxon(tree, 'genus', 'Pantholops')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Proboscidea')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Elephantidae')?.speciesCount, 2);

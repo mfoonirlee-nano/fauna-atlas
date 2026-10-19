@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-19 更新：本轮 100 个已灭绝动物选题，已完成 5 个，待制作 95 个。新增渡渡鸟、罗德里格斯孤鸽、旅鸽、大海雀、袋狼，动物目录现有 705 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-19 更新：本轮 100 个已灭绝动物选题，已完成 10 个，待制作 90 个。本次新增斯特勒海牛、大角鹿、加勒比僧海豹、福克兰狼、蓝马羚，动物目录现有 710 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)及[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 ## 本轮范围与制作方式
 
@@ -19,14 +19,14 @@
 
 | 制作分组 | 待制作数量 |
 | --- | ---: |
-| 近代及全新世灭绝动物 | 25 |
+| 近代及全新世灭绝动物 | 20 |
 | 非鸟恐龙 | 25 |
 | 其他古爬行动物 | 12 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 95 |
+| 合计 | 90 |
 
 ## 选题与资料
 
@@ -36,15 +36,10 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 近代及全新世灭绝动物（待制作 25 种）
+### 近代及全新世灭绝动物（待制作 20 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E006 | 斯特勒海牛 | *Hydrodamalis gigas* | 18 世纪灭绝，NHM 记为 1768 年 | 庞大身体、鳍状前肢与海带食物 | [NHM](https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html) |
-| [ ] | E007 | 大角鹿 | *Megaloceros giganteus* | 最晚已知化石约距今 8,000 年；欧洲西部消失得更早 | 掌状大鹿角、骨骼尺寸与季节性换角 | [NHM](https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html) |
-| [ ] | E008 | 加勒比僧海豹 | *Neomonachus tropicalis* | 最后确认目击 1952 年；NOAA 于 2008 年宣布灭绝；来源使用旧属名 Monachus | 鳍足与陆地休息，海豹和海狮比较 | [NOAA](https://www.fisheries.noaa.gov/national/endangered-species-conservation/delisting-species-under-endangered-species-act) |
-| [ ] | E009 | 福克兰狼 | *Dusicyon australis* | 博物馆记载最后个体据报于 1876 年遭捕杀 | 岛屿上的犬科动物、尾尖与毛皮标本 | [福克兰群岛博物馆](https://falklands-museum.com/the-warrah) |
-| [ ] | E010 | 蓝马羚 | *Hippotragus leucophaeus* | 约 1800 年灭绝；DNA 重新核验馆藏身份 | 后弯的环纹角，比较标本与历史画作 | [NHM](https://www.nhm.ac.uk/discover/news/2023/september/horns-in-museum-collection-from-extinct-bluebuck-antelope.html) |
 | [ ] | E011 | 小兔耳袋狸 | *Macrotis leucura* | 20 世纪中叶消失；政府与博物馆材料对 1950 至 1960 年代的表述不同，保留范围 | 大耳朵、沙地挖掘与白色尾部 | [北领地政府物种材料](https://nt.gov.au/__data/assets/pdf_file/0017/205424/lesser-bilby.pdf)、[澳大利亚博物馆](https://australian.museum/learn/animals/mammals/greater-bilby/) |
 | [ ] | E012 | 南方豚足袋狸 | *Chaeropus ecaudatus* | 欧洲殖民之后灭绝，最后时期需按 2019 年拆分后的物种范围复核 | 像小蹄子的前足；用骨骼识别物种 | [澳大利亚博物馆分类研究](https://australian.museum/blog/amri-news/a-new-type-of-pig-footed-bandicoot/) |
 | [ ] | E013 | 卡罗来纳鹦鹉 | *Conuropsis carolinensis* | 最后已知圈养个体于 1918 年死亡 | 黄色头部、绿色身体与群体取食 | [Smithsonian](https://blog.library.si.edu/blog/2014/07/04/carolina-parakeet-a-splendor-of-beauty-gone-forever/) |
@@ -168,9 +163,9 @@
 
 ---
 
-## 本轮完成归档：E001–E005
+## 本轮完成归档：E001–E010
 
-2026-10-19 完成 5 份物种档案及 30 张 WebP 图片。完整测试、轮播几何与生产构建体积检查通过，详见[制作与验收记录](research/todo-extinct-first-five-2026-10-19.md)。
+2026-10-19 已完成两批共 10 份物种档案及 60 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)及[第二批记录](research/todo-extinct-next-five-2026-10-19.md)。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -179,6 +174,11 @@
 | [x] | E003 | 旅鸽 | *Ectopistes migratorius* | 最后已知圈养个体 Martha 于 1914 年死亡 | 大群迁飞、雌雄羽色与森林种子 | [NHM](https://www.nhm.ac.uk/discover/passenger-pigeon-how-the-worlds-most-common-bird-went-extinct.html) |
 | [x] | E004 | 大海雀 | *Pinguinus impennis* | 最后已知繁殖对于 1844 年遭捕杀；NHM 另载 1852 年目击，不把 1844 当无争议灭绝年 | 短翅潜水、陆上步行与企鹅外形比较 | [NHM](https://www.nhm.ac.uk/discover/worlds-collide-great-auk.html)、[Smithsonian](https://www.si.edu/exhibitions/research-case-great-auk-event-event-exhib-4482) |
 | [x] | E005 | 袋狼 | *Thylacinus cynocephalus* | 最后确认圈养个体 1936 年死亡；1986 年宣布灭绝 | 后背条纹、育儿袋和保留下来的历史影像 | [塔斯马尼亚公园部门](https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger)、[澳大利亚博物馆](https://australian.museum/learn/australia-over-time/extinct-animals/the-thylacine/) |
+| [x] | E006 | 斯特勒海牛 | *Hydrodamalis gigas* | 18 世纪灭绝，NHM 记为 1768 年 | 庞大身体、鳍状前肢与海带食物 | [NHM](https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html) |
+| [x] | E007 | 大角鹿 | *Megaloceros giganteus* | 最晚已知化石约距今 8,000 年；欧洲西部消失得更早 | 掌状大鹿角、骨骼尺寸与季节性换角 | [NHM](https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html) |
+| [x] | E008 | 加勒比僧海豹 | *Neomonachus tropicalis* | 最后确认目击 1952 年；NOAA 于 2008 年宣布灭绝；来源使用旧属名 Monachus | 鳍足与陆地休息，海豹和海狮比较 | [NOAA](https://www.fisheries.noaa.gov/national/endangered-species-conservation/delisting-species-under-endangered-species-act) |
+| [x] | E009 | 福克兰狼 | *Dusicyon australis* | 博物馆记载最后个体据报于 1876 年遭捕杀 | 岛屿上的犬科动物、尾尖与毛皮标本 | [福克兰群岛博物馆](https://falklands-museum.com/the-warrah) |
+| [x] | E010 | 蓝马羚 | *Hippotragus leucophaeus* | 约 1800 年灭绝；DNA 重新核验馆藏身份 | 后弯的环纹角，比较标本与历史画作 | [NHM](https://www.nhm.ac.uk/discover/news/2023/september/horns-in-museum-collection-from-extinct-bluebuck-antelope.html) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

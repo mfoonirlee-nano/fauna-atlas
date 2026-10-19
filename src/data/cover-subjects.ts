@@ -7052,4 +7052,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 808
     }
   },
+  "stellers-sea-cow": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 308,
+      "right": 1452,
+      "bottom": 684
+    }
+  },
+  "giant-deer": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 764,
+      "top": 226,
+      "right": 1396,
+      "bottom": 858
+    }
+  },
+  "caribbean-monk-seal": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 718,
+      "top": 428,
+      "right": 1368,
+      "bottom": 726
+    }
+  },
+  "falkland-island-wolf": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 726,
+      "top": 108,
+      "right": 1470,
+      "bottom": 852
+    }
+  },
+  "bluebuck": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 696,
+      "top": 14,
+      "right": 1468,
+      "bottom": 940
+    }
+  },
 };

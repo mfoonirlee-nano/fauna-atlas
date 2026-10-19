@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "705 animal species profiles; 700 prior profiles and 5 extinct-animal additions through 2026-10-19; microbial topics excluded",
+  "scope": "710 animal species profiles; 700 prior profiles and 10 extinct-animal additions through 2026-10-19; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 145,
+    "addedProfiles": 150,
     "addedProfilesReviewDate": "2026-10-19",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -32411,6 +32411,206 @@
           "sources": [
             "https://parks.tas.gov.au/discovery-and-learning/wildlife/tasmanian-tiger",
             "https://www.gbif.org/species/2435474"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "stellers-sea-cow",
+      "name": "斯特勒海牛",
+      "scientificName": "Hydrodamalis gigas",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/stellers-sea-cow-first-historical-extinction-of-marine-mammal-at-human-hands.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "giant-deer",
+      "name": "大角鹿",
+      "scientificName": "Megaloceros giganteus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/irish-elk-giant-deer.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "caribbean-monk-seal",
+      "name": "加勒比僧海豹",
+      "scientificName": "Neomonachus tropicalis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://repository.library.noaa.gov/view/noaa/17045/noaa_17045_DS1.pdf",
+            "https://www.federalregister.gov/documents/2008/10/28/E8-25704/endangered-and-threatened-species-final-rule-to-remove-the-caribbean-monk-seal-from-the-federal-list"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://repository.library.noaa.gov/view/noaa/17045/noaa_17045_DS1.pdf",
+            "https://www.federalregister.gov/documents/2008/10/28/E8-25704/endangered-and-threatened-species-final-rule-to-remove-the-caribbean-monk-seal-from-the-federal-list"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://repository.library.noaa.gov/view/noaa/17045/noaa_17045_DS1.pdf",
+            "https://www.federalregister.gov/documents/2008/10/28/E8-25704/endangered-and-threatened-species-final-rule-to-remove-the-caribbean-monk-seal-from-the-federal-list"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://repository.library.noaa.gov/view/noaa/17045/noaa_17045_DS1.pdf",
+            "https://www.federalregister.gov/documents/2008/10/28/E8-25704/endangered-and-threatened-species-final-rule-to-remove-the-caribbean-monk-seal-from-the-federal-list"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://repository.library.noaa.gov/view/noaa/17045/noaa_17045_DS1.pdf",
+            "https://www.federalregister.gov/documents/2008/10/28/E8-25704/endangered-and-threatened-species-final-rule-to-remove-the-caribbean-monk-seal-from-the-federal-list"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "falkland-island-wolf",
+      "name": "福克兰狼",
+      "scientificName": "Dusicyon australis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://falklands-museum.com/the-warrah",
+            "https://animaldiversity.org/accounts/Dusicyon_australis/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://falklands-museum.com/the-warrah",
+            "https://animaldiversity.org/accounts/Dusicyon_australis/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://falklands-museum.com/the-warrah",
+            "https://animaldiversity.org/accounts/Dusicyon_australis/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://falklands-museum.com/the-warrah",
+            "https://animaldiversity.org/accounts/Dusicyon_australis/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://falklands-museum.com/the-warrah",
+            "https://animaldiversity.org/accounts/Dusicyon_australis/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bluebuck",
+      "name": "蓝马羚",
+      "scientificName": "Hippotragus leucophaeus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://link.springer.com/article/10.1007/s42991-023-00373-4",
+            "https://www.nhm.ac.uk/discover/news/2023/september/horns-in-museum-collection-from-extinct-bluebuck-antelope.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://link.springer.com/article/10.1007/s42991-023-00373-4",
+            "https://www.nhm.ac.uk/discover/news/2023/september/horns-in-museum-collection-from-extinct-bluebuck-antelope.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://link.springer.com/article/10.1007/s42991-023-00373-4",
+            "https://www.nhm.ac.uk/discover/news/2023/september/horns-in-museum-collection-from-extinct-bluebuck-antelope.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://link.springer.com/article/10.1007/s42991-023-00373-4",
+            "https://www.nhm.ac.uk/discover/news/2023/september/horns-in-museum-collection-from-extinct-bluebuck-antelope.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://link.springer.com/article/10.1007/s42991-023-00373-4",
+            "https://www.nhm.ac.uk/discover/news/2023/september/horns-in-museum-collection-from-extinct-bluebuck-antelope.html"
           ]
         }
       }
