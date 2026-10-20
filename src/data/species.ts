@@ -731,6 +731,12 @@ import extinct13 from './species/labrador-duck.js';
 
 import extinct14 from './species/spectacled-cormorant.js';
 
+import extinct15 from './species/elephant-bird.js';
+import extinct16 from './species/north-island-giant-moa.js';
+import extinct17 from './species/south-island-giant-moa.js';
+import extinct18 from './species/little-bush-moa.js';
+import extinct19 from './species/eastern-moa.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1447,6 +1453,11 @@ export const species: readonly Species[] = [
   extinct12,
   extinct13,
   extinct14,
+  extinct15,
+  extinct16,
+  extinct17,
+  extinct18,
+  extinct19,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

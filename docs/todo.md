@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 15 个，待制作 85 个。本次新增小兔耳袋狸、南方豚足袋狸、卡罗来纳鹦鹉、拉布拉多鸭、白令鸬鹚，动物目录现有 715 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)及[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 20 个，待制作 80 个。本次新增大象鸟、北岛巨恐鸟、南岛巨恐鸟、小丛林恐鸟、东部恐鸟，动物目录现有 720 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)及[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -20,14 +20,14 @@
 
 | 制作分组 | 待制作数量 |
 | --- | ---: |
-| 近代及全新世灭绝动物 | 15 |
+| 近代及全新世灭绝动物 | 10 |
 | 非鸟恐龙 | 25 |
 | 其他古爬行动物 | 12 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 85 |
+| 合计 | 80 |
 
 ## 选题与资料
 
@@ -37,15 +37,10 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 近代及全新世灭绝动物（待制作 15 种）
+### 近代及全新世灭绝动物（待制作 10 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E016 | 大象鸟 | *Aepyornis maximus* | 全新世晚期灭绝，蛋壳研究涵盖约千年前遗存；不设精确灭绝年 | 巨大的蛋、粗壮腿骨与蛋壳保存的线索 | [CSIRO 原研究团队说明](https://www.csiro.au/en/news/all/articles/2023/march/elephant-birds) |
-| [ ] | E017 | 北岛巨恐鸟 | *Dinornis novaezealandiae* | 约 15 世纪前后；恐鸟在人类抵达后数百年内全部灭绝 | 长颈、雌鸟较大的体型与没有翼骨的骨架 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/north-island-giant-moa) |
-| [ ] | E018 | 南岛巨恐鸟 | *Dinornis robustus* | 约 15 世纪前后，非欧洲探险时代动物 | 长颈取食高度、地面巢与巨大鸟蛋 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-giant-moa) |
-| [ ] | E019 | 小丛林恐鸟 | *Anomalopteryx didiformis* | 约 15 世纪前后 | 较小的身体、短喙与胃石 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/little-bush-moa) |
-| [ ] | E020 | 东部恐鸟 | *Emeus crassus* | 约 15 世纪前后 | 短粗腿、脚趾与低地森林栖息地 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/eastern-moa) |
 | [ ] | E021 | 重脚恐鸟 | *Pachyornis elephantopus* | 约 15 世纪前后 | 粗壮腿骨和宽阔脚掌，比较不同恐鸟骨架 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/heavy-footed-moa) |
 | [ ] | E022 | 高地恐鸟 | *Megalapteryx didinus* | 约 15 世纪前后 | 长到腿部的羽毛、细长脚趾与保存的皮肤 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/upland-moa) |
 | [ ] | E023 | 哈斯特鹰 | *Aquila moorei* | 约 15 世纪前后，随恐鸟消失；旧组合名 Hieraaetus moorei、Harpagornis moorei 不另计 | 巨大的爪、弯喙与捕食者食物关系 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/haasts-eagle) |
@@ -159,9 +154,9 @@
 
 ---
 
-## 本轮完成归档：E001–E015
+## 本轮完成归档：E001–E020
 
-2026-10-20 已完成三批共 15 份物种档案及 90 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)及[第三批记录](research/todo-extinct-third-five-2026-10-19.md)。
+2026-10-20 已完成四批共 20 份物种档案及 120 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)及[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -180,6 +175,12 @@
 | [x] | E013 | 卡罗来纳鹦鹉 | *Conuropsis carolinensis* | 最后已知圈养个体于 1918 年死亡 | 黄色头部、绿色身体与群体取食 | [Smithsonian](https://blog.library.si.edu/blog/2014/07/04/carolina-parakeet-a-splendor-of-beauty-gone-forever/) |
 | [x] | E014 | 拉布拉多鸭 | *Camptorhynchus labradorius* | 19 世纪后期灭绝；1878 年报道标本后来遗失，不能写作当前可核验末次记录 | 雄鸟黑白羽色与宽扁的喙；从馆藏认识动物 | [Smithsonian 灭绝鸟展](https://www.si.edu/exhibitions/lost-bird-project%3Aevent-exhib-5314)、[Smithsonian 历史研究](https://repository.si.edu/bitstreams/6d40137f-6042-4a9c-9c0f-d6365750bddd/download) |
 | [x] | E015 | 白令鸬鹚（眼镜鸬鹚） | *Urile perspicillatus* | 最后确认报道来自 1840 年代，通常估计 1850 年代灭绝；飞行能力仍有研究争议 | 大体型、裸露眼周与六件皮张的鉴别 | [NHM 原研究团队说明](https://www.nhm.ac.uk/discover/news/2024/march/rediscovering-worlds-largest-cormorant.html) |
+
+| [x] | E016 | 大象鸟 | *Aepyornis maximus* | 全新世晚期灭绝，蛋壳研究涵盖约千年前遗存；不设精确灭绝年 | 巨大的蛋、粗壮腿骨与蛋壳保存的线索 | [CSIRO 原研究团队说明](https://www.csiro.au/en/news/all/articles/2023/march/elephant-birds) |
+| [x] | E017 | 北岛巨恐鸟 | *Dinornis novaezealandiae* | 约 15 世纪前后；恐鸟在人类抵达后数百年内全部灭绝 | 长颈、雌鸟较大的体型与没有翼骨的骨架 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/north-island-giant-moa) |
+| [x] | E018 | 南岛巨恐鸟 | *Dinornis robustus* | 约 15 世纪前后，非欧洲探险时代动物 | 长颈取食高度、地面巢与巨大鸟蛋 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-giant-moa) |
+| [x] | E019 | 小丛林恐鸟 | *Anomalopteryx didiformis* | 约 15 世纪前后 | 较小的身体、短喙与胃石 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/little-bush-moa) |
+| [x] | E020 | 东部恐鸟 | *Emeus crassus* | 约 15 世纪前后 | 短粗腿、脚趾与低地森林栖息地 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/eastern-moa) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

@@ -32874,6 +32874,191 @@
           ]
         }
       }
+    },
+    {
+      "slug": "elephant-bird",
+      "name": "大象鸟",
+      "scientificName": "Aepyornis maximus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.csiro.au/en/news/all/articles/2023/march/elephant-birds"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.csiro.au/en/news/all/articles/2023/march/elephant-birds"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.csiro.au/en/news/all/articles/2023/march/elephant-birds"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.csiro.au/en/news/all/articles/2023/march/elephant-birds"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.csiro.au/en/news/all/articles/2023/march/elephant-birds"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "north-island-giant-moa",
+      "name": "北岛巨恐鸟",
+      "scientificName": "Dinornis novaezealandiae",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/north-island-giant-moa"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/north-island-giant-moa"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/north-island-giant-moa"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/north-island-giant-moa"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/north-island-giant-moa"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "south-island-giant-moa",
+      "name": "南岛巨恐鸟",
+      "scientificName": "Dinornis robustus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-giant-moa"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-giant-moa"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-giant-moa"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-giant-moa"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-giant-moa"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "little-bush-moa",
+      "name": "小丛林恐鸟",
+      "scientificName": "Anomalopteryx didiformis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/little-bush-moa"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/little-bush-moa"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/little-bush-moa"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/little-bush-moa"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/little-bush-moa"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "eastern-moa",
+      "name": "东部恐鸟",
+      "scientificName": "Emeus crassus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/eastern-moa"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/eastern-moa"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/eastern-moa"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/eastern-moa"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/eastern-moa"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",

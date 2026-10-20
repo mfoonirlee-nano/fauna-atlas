@@ -7151,5 +7151,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1495,
       "bottom": 915
     }
-  }
+  },
+  "elephant-bird": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 740,
+      "top": 25,
+      "right": 1435,
+      "bottom": 955
+    }
+  },
+  "north-island-giant-moa": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 785,
+      "top": 140,
+      "right": 1405,
+      "bottom": 940
+    }
+  },
+  "south-island-giant-moa": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 25,
+      "right": 1380,
+      "bottom": 955
+    }
+  },
+  "little-bush-moa": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 60,
+      "right": 1475,
+      "bottom": 920
+    }
+  },
+  "eastern-moa": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 670,
+      "top": 45,
+      "right": 1435,
+      "bottom": 960
+    }
+  },
 };

@@ -1007,3 +1007,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [卡罗来纳鹦鹉图片集](./species/carolina-parakeet/README.md)
 - [拉布拉多鸭图片集](./species/labrador-duck/README.md)
 - [白令鸬鹚图片集](./species/spectacled-cormorant/README.md)
+
+## 2026-10-20 第四批灭绝动物
+
+- [大象鸟图片集](./species/elephant-bird/README.md)
+- [北岛巨恐鸟图片集](./species/north-island-giant-moa/README.md)
+- [南岛巨恐鸟图片集](./species/south-island-giant-moa/README.md)
+- [小丛林恐鸟图片集](./species/little-bush-moa/README.md)
+- [东部恐鸟图片集](./species/eastern-moa/README.md)

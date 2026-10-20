@@ -6641,5 +6641,70 @@
       },
       "sha256": "0decdaf995a016fe64f359d88162efa7748ed1bb519cc4b6b9bc57c7330ef56d"
     }
+  },
+  "elephant-bird": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 25,
+        "right": 1435,
+        "bottom": 955
+      },
+      "sha256": "403ce597fe915b41a702d2b00b6b9988a2c0d755a4e2dcebc8086de6febd395f"
+    }
+  },
+  "north-island-giant-moa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 785,
+        "top": 140,
+        "right": 1405,
+        "bottom": 940
+      },
+      "sha256": "16e6fd39dde6fadc91cf271a406544ab553c2922ee9e626ff0a4f398c3b1e287"
+    }
+  },
+  "south-island-giant-moa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 25,
+        "right": 1380,
+        "bottom": 955
+      },
+      "sha256": "d09b9130ba40e3304ca7b536a87091c07854f4109fb8032dd86561ea328d4e4d"
+    }
+  },
+  "little-bush-moa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 60,
+        "right": 1475,
+        "bottom": 920
+      },
+      "sha256": "dc5b7023faf912b453b05eb4c96d7cc8e19e5227c8d4c9f300c7f2bdc8759a56"
+    }
+  },
+  "eastern-moa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 670,
+        "top": 45,
+        "right": 1435,
+        "bottom": 960
+      },
+      "sha256": "119541a0b56d263b167edd38feaab91419c2c5f85f1f82da609d73c43236cabf"
+    }
   }
 }
