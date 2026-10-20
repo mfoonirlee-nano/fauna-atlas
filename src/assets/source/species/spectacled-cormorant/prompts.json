@@ -1,0 +1,45 @@
+[
+  {
+    "scene": "01-cover",
+    "title": "封面",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct spectacled cormorant Urile perspicillatus, large heavy dark cormorant with long thick neck, black plumage with restrained green bronze sheen, pale bare eye ring, hooked slim bill, folded wings, long dark tail and black webbed feet, standing; no spectacles accessory, no flight demonstration. Setting: rocky Commander Islands shore with cool North Pacific light. One whole animal on RIGHT, complete silhouette including bill, folded wing tips, tail and feet inside x=680..1460 y=120..920. Center beyond 60% width, left 40% quiet background. Make subject large within those bounds, no obscuring plants. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species. Strict composition: fit ALL of the subject into right 48% of canvas including full tail. Leave empty background around every extremity.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen",
+    "edits": []
+  },
+  {
+    "scene": "02-observation",
+    "title": "外形与比例",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct spectacled cormorant Urile perspicillatus, large heavy dark cormorant with long thick neck, black plumage with restrained green bronze sheen, pale bare eye ring, hooked slim bill, folded wings, long dark tail and black webbed feet, standing; no spectacles accessory, no flight demonstration. Setting: rocky Commander Islands shore with cool North Pacific light. One whole animal in clear side profile, large centered, include every extremity with background clearance. Show proportions. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "03-observation",
+    "title": "头部与外部特征",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct spectacled cormorant Urile perspicillatus, large heavy dark cormorant with long thick neck, black plumage with restrained green bronze sheen, pale bare eye ring, hooked slim bill, folded wings, long dark tail and black webbed feet, standing; no spectacles accessory, no flight demonstration. Setting: rocky Commander Islands shore with cool North Pacific light. Close three quarter head study showing eye surround and bill. Accurate exterior only, no cutaway or inset. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "04-observation",
+    "title": "外观模型示意",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct spectacled cormorant Urile perspicillatus, large heavy dark cormorant with long thick neck, black plumage with restrained green bronze sheen, pale bare eye ring, hooked slim bill, folded wings, long dark tail and black webbed feet, standing; no spectacles accessory, no flight demonstration. Setting: rocky Commander Islands shore with cool North Pacific light. An imagined painted exterior sculpture of this species on a plain neutral plinth. Entire model visible. No bones, no museum labels; does not depict a real specimen. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "05-observation",
+    "title": "历史生活环境",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct spectacled cormorant Urile perspicillatus, large heavy dark cormorant with long thick neck, black plumage with restrained green bronze sheen, pale bare eye ring, hooked slim bill, folded wings, long dark tail and black webbed feet, standing; no spectacles accessory, no flight demonstration. Setting: rocky Commander Islands shore with cool North Pacific light. One whole animal centered in its representative historical environment. Clear feet and tail, restrained surroundings, no other animals. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "06-observation",
+    "title": "两个观察方向",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct spectacled cormorant Urile perspicillatus, large heavy dark cormorant with long thick neck, black plumage with restrained green bronze sheen, pale bare eye ring, hooked slim bill, folded wings, long dark tail and black webbed feet, standing; no spectacles accessory, no flight demonstration. Setting: rocky Commander Islands shore with cool North Pacific light. Two separate exterior studies of the same adult phenotype, one side view and one three quarter view, on a quiet neutral background. Whole subjects with clear extremities. Comparison illustration, not natural coexistence. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  }
+]
