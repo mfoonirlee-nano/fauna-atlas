@@ -6771,5 +6771,70 @@
       },
       "sha256": "0b8dc0c07e883949859c7192a87b12cfa9f1af877cd9c24e5863557aa562437b"
     }
+  },
+  "lyalls-wren": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 100,
+        "right": 1495,
+        "bottom": 935
+      },
+      "sha256": "1f59200e42678d82cd5f9597287993764c30a8c05720208682269dc1040ea342"
+    }
+  },
+  "auckland-island-merganser": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 55,
+        "right": 1495,
+        "bottom": 960
+      },
+      "sha256": "5909918563521d18b8e13f36c4ee8aba8ebb2a350b3dcd779216834d77ec615e"
+    }
+  },
+  "finschs-duck": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 655,
+        "top": 45,
+        "right": 1475,
+        "bottom": 945
+      },
+      "sha256": "c41bb5108bdc28be4dac1948c642ed5a4006f2de49ccb910c4c8afe290e5fc48"
+    }
+  },
+  "south-island-goose": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 630,
+        "top": 45,
+        "right": 1425,
+        "bottom": 950
+      },
+      "sha256": "d91662d604bbff6debf4a66ed88f43504800a935a1ad13f9e29b8c3c0ec08a56"
+    }
+  },
+  "south-island-adzebill": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 150,
+        "right": 1500,
+        "bottom": 920
+      },
+      "sha256": "b9c0d367cd857a3bff7bb0188e1cd61e2c35bb30701d823c345354e991d9b785"
+    }
   }
 }

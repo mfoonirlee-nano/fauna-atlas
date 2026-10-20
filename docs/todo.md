@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 25 个，待制作 75 个。本次新增重脚恐鸟、高地恐鸟、哈斯特鹰、垂耳鸦、笑鸮，动物目录现有 725 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)及[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 30 个，待制作 70 个。本次新增异鹩、奥克兰秋沙鸭、芬氏鸭、南岛巨鹅、南岛厚嘴鹤，动物目录现有 730 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)及[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -20,14 +20,14 @@
 
 | 制作分组 | 待制作数量 |
 | --- | ---: |
-| 近代及全新世灭绝动物 | 5 |
+| 近代及全新世灭绝动物 | 0 |
 | 非鸟恐龙 | 25 |
 | 其他古爬行动物 | 12 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 75 |
+| 合计 | 70 |
 
 ## 选题与资料
 
@@ -36,16 +36,6 @@
 - [近代及全新世 30 种研究](research/todo-extinct-recent-2026-10-19.md)：逐种地区、灭绝证据、时间限定与博物馆、政府、研究机构资料。
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
-
-### 近代及全新世灭绝动物（待制作 5 种）
-
-| 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E026 | 异鹩（莱氏鹩） | *Traversia lyalli* | 最后确认个体 1895 年；不能讲成一只猫独自灭绝全种 | 不会飞的小型鸣禽、短翅和大脚 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/lyalls-wren) |
-| [ ] | E027 | 奥克兰秋沙鸭 | *Mergus australis* | 最后标本 1902 年采集 | 细长有锯齿的喙、潜水食鱼与海岸水域 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/auckland-island-merganser) |
-| [ ] | E028 | 芬氏鸭 | *Chenonetta finschi* | 波利尼西亚人抵达后灭绝，是否延续到欧洲人时期仍不确定 | 粗腿、小翅与陆地取食；骨骼记录的变化 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/finschs-duck) |
-| [ ] | E029 | 南岛巨鹅 | *Cnemiornis calcitrans* | 欧洲人抵达前灭绝，不指定单一年份 | 巨大体型、短翅、截平的喙与吃草 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-goose) |
-| [ ] | E030 | 南岛厚嘴鹤 | *Aptornis defossor* | 欧洲定居前灭绝；与北岛种的划分按来源物种处理 | 粗壮下弯喙、缩小的翅骨与骨骼中的食性证据 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-adzebill) |
 
 ### 非鸟恐龙（25 种）
 
@@ -149,9 +139,9 @@
 
 ---
 
-## 本轮完成归档：E001–E025
+## 本轮完成归档：E001–E030
 
-2026-10-20 已完成五批共 25 份物种档案及 150 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)及[第五批记录](research/todo-extinct-fifth-five-2026-10-20.md)。
+2026-10-20 已完成六批共 30 份物种档案及 180 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批记录](research/todo-extinct-fifth-five-2026-10-20.md)及[第六批记录](research/todo-extinct-sixth-five-2026-10-20.md)。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -170,18 +160,21 @@
 | [x] | E013 | 卡罗来纳鹦鹉 | *Conuropsis carolinensis* | 最后已知圈养个体于 1918 年死亡 | 黄色头部、绿色身体与群体取食 | [Smithsonian](https://blog.library.si.edu/blog/2014/07/04/carolina-parakeet-a-splendor-of-beauty-gone-forever/) |
 | [x] | E014 | 拉布拉多鸭 | *Camptorhynchus labradorius* | 19 世纪后期灭绝；1878 年报道标本后来遗失，不能写作当前可核验末次记录 | 雄鸟黑白羽色与宽扁的喙；从馆藏认识动物 | [Smithsonian 灭绝鸟展](https://www.si.edu/exhibitions/lost-bird-project%3Aevent-exhib-5314)、[Smithsonian 历史研究](https://repository.si.edu/bitstreams/6d40137f-6042-4a9c-9c0f-d6365750bddd/download) |
 | [x] | E015 | 白令鸬鹚（眼镜鸬鹚） | *Urile perspicillatus* | 最后确认报道来自 1840 年代，通常估计 1850 年代灭绝；飞行能力仍有研究争议 | 大体型、裸露眼周与六件皮张的鉴别 | [NHM 原研究团队说明](https://www.nhm.ac.uk/discover/news/2024/march/rediscovering-worlds-largest-cormorant.html) |
-
 | [x] | E016 | 大象鸟 | *Aepyornis maximus* | 全新世晚期灭绝，蛋壳研究涵盖约千年前遗存；不设精确灭绝年 | 巨大的蛋、粗壮腿骨与蛋壳保存的线索 | [CSIRO 原研究团队说明](https://www.csiro.au/en/news/all/articles/2023/march/elephant-birds) |
 | [x] | E017 | 北岛巨恐鸟 | *Dinornis novaezealandiae* | 约 15 世纪前后；恐鸟在人类抵达后数百年内全部灭绝 | 长颈、雌鸟较大的体型与没有翼骨的骨架 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/north-island-giant-moa) |
 | [x] | E018 | 南岛巨恐鸟 | *Dinornis robustus* | 约 15 世纪前后，非欧洲探险时代动物 | 长颈取食高度、地面巢与巨大鸟蛋 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-giant-moa) |
 | [x] | E019 | 小丛林恐鸟 | *Anomalopteryx didiformis* | 约 15 世纪前后 | 较小的身体、短喙与胃石 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/little-bush-moa) |
 | [x] | E020 | 东部恐鸟 | *Emeus crassus* | 约 15 世纪前后 | 短粗腿、脚趾与低地森林栖息地 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/eastern-moa) |
-
 | [x] | E021 | 重脚恐鸟 | *Pachyornis elephantopus* | 约 15 世纪前后 | 粗壮腿骨和宽阔脚掌，比较不同恐鸟骨架 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/heavy-footed-moa) |
 | [x] | E022 | 高地恐鸟 | *Megalapteryx didinus* | 约 15 世纪前后 | 长到腿部的羽毛、细长脚趾与保存的皮肤 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/upland-moa) |
 | [x] | E023 | 哈斯特鹰 | *Aquila moorei* | 约 15 世纪前后，随恐鸟消失；旧组合名 Hieraaetus moorei、Harpagornis moorei 不另计 | 巨大的爪、弯喙与捕食者食物关系 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/haasts-eagle) |
 | [x] | E024 | 垂耳鸦 | *Heteralocha acutirostris* | 最后接受目击 1907 年，可能延续到 1920 年代；不把 1907 当确切灭绝年 | 雌雄形状不同的喙、白色尾端和肉垂 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/huia) |
 | [x] | E025 | 笑鸮 | *Ninox albifacies* | 最后确认标本 1914 年，估计 1940 年前灭绝；旧属名 Sceloglaux | 有纵纹的羽毛、面盘与洞穴中的食物残骸 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/laughing-owl) |
+| [x] | E026 | 异鹩（莱氏鹩） | *Traversia lyalli* | 最后确认个体 1895 年；不能讲成一只猫独自灭绝全种 | 不会飞的小型鸣禽、短翅和大脚 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/lyalls-wren) |
+| [x] | E027 | 奥克兰秋沙鸭 | *Mergus australis* | 最后标本 1902 年采集 | 细长有锯齿的喙、潜水食鱼与海岸水域 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/auckland-island-merganser) |
+| [x] | E028 | 芬氏鸭 | *Chenonetta finschi* | 波利尼西亚人抵达后灭绝，是否延续到欧洲人时期仍不确定 | 粗腿、小翅与陆地取食；骨骼记录的变化 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/finschs-duck) |
+| [x] | E029 | 南岛巨鹅 | *Cnemiornis calcitrans* | 欧洲人抵达前灭绝，不指定单一年份 | 巨大体型、短翅、截平的喙与吃草 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-goose) |
+| [x] | E030 | 南岛厚嘴鹤 | *Aptornis defossor* | 欧洲定居前灭绝；与北岛种的划分按来源物种处理 | 粗壮下弯喙、缩小的翅骨与骨骼中的食性证据 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-adzebill) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

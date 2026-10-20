@@ -7251,5 +7251,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1390,
       "bottom": 895
     }
+  },
+  "lyalls-wren": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 100,
+      "right": 1495,
+      "bottom": 935
+    }
+  },
+  "auckland-island-merganser": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 55,
+      "right": 1495,
+      "bottom": 960
+    }
+  },
+  "finschs-duck": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 655,
+      "top": 45,
+      "right": 1475,
+      "bottom": 945
+    }
+  },
+  "south-island-goose": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 630,
+      "top": 45,
+      "right": 1425,
+      "bottom": 950
+    }
+  },
+  "south-island-adzebill": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 150,
+      "right": 1500,
+      "bottom": 920
+    }
   }
 };

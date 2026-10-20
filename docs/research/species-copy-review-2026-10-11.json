@@ -33244,6 +33244,186 @@
           ]
         }
       }
+    },
+    {
+      "slug": "lyalls-wren",
+      "scientificName": "Traversia lyalli",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/lyalls-wren"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/lyalls-wren"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/lyalls-wren"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/lyalls-wren"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/lyalls-wren"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "auckland-island-merganser",
+      "scientificName": "Mergus australis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/auckland-island-merganser"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/auckland-island-merganser"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/auckland-island-merganser"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/auckland-island-merganser"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/auckland-island-merganser"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "finschs-duck",
+      "scientificName": "Chenonetta finschi",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/finschs-duck"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/finschs-duck"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/finschs-duck"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/finschs-duck"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/finschs-duck"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "south-island-goose",
+      "scientificName": "Cnemiornis calcitrans",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-goose"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-goose"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-goose"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-goose"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-goose"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "south-island-adzebill",
+      "scientificName": "Aptornis defossor",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-adzebill"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-adzebill"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-adzebill"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-adzebill"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/south-island-adzebill"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",

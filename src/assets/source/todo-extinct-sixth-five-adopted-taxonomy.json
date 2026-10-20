@@ -1,0 +1,51 @@
+{
+  "accessedAt": "2026-10-20",
+  "basis": "NZ Birds Online species accounts; same source scope as previous extinct New Zealand birds",
+  "species": [
+    {
+      "slug": "lyalls-wren",
+      "scientificName": "Traversia lyalli",
+      "order": "Passeriformes",
+      "family": "Acanthisittidae",
+      "genus": "Traversia",
+      "source": "https://www.nzbirdsonline.org.nz/species/lyalls-wren",
+      "notes": "Rothschild 于 1894 年命名。也称莱氏鹩或斯蒂芬斯岛鹩；这些名字指同一物种。"
+    },
+    {
+      "slug": "auckland-island-merganser",
+      "scientificName": "Mergus australis",
+      "order": "Anseriformes",
+      "family": "Anatidae",
+      "genus": "Mergus",
+      "source": "https://www.nzbirdsonline.org.nz/species/auckland-island-merganser",
+      "notes": "Hombron 与 Jacquinot 于 1841 年命名。大陆出土的秋沙鸭骨骼尚不能全部确定属于本种，不据此扩大确定分布。"
+    },
+    {
+      "slug": "finschs-duck",
+      "scientificName": "Chenonetta finschi",
+      "order": "Anseriformes",
+      "family": "Anatidae",
+      "genus": "Chenonetta",
+      "source": "https://www.nzbirdsonline.org.nz/species/finschs-duck",
+      "notes": "Van Beneden 于 1875 年依据化石命名。旧文献也使用 Euryanas finschi，本档案采用 Chenonetta finschi。"
+    },
+    {
+      "slug": "south-island-goose",
+      "scientificName": "Cnemiornis calcitrans",
+      "order": "Anseriformes",
+      "family": "Anatidae",
+      "genus": "Cnemiornis",
+      "source": "https://www.nzbirdsonline.org.nz/species/south-island-goose",
+      "notes": "Owen 于 1865 年命名。南岛巨鹅与较小的北岛巨鹅是不同物种，本档案只记录 Cnemiornis calcitrans。"
+    },
+    {
+      "slug": "south-island-adzebill",
+      "scientificName": "Aptornis defossor",
+      "order": "Gruiformes",
+      "family": "Aptornithidae",
+      "genus": "Aptornis",
+      "source": "https://www.nzbirdsonline.org.nz/species/south-island-adzebill",
+      "notes": "Owen 于 1871 年命名。本档案沿用所引来源，将南岛种 Aptornis defossor 与北岛厚嘴鹤分开处理。"
+    }
+  ]
+}

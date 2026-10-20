@@ -1023,3 +1023,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [哈斯特鹰图片集](./species/haasts-eagle/README.md)
 - [垂耳鸦图片集](./species/huia/README.md)
 - [笑鸮图片集](./species/laughing-owl/README.md)
+
+## 2026-10-20 第六批灭绝动物
+
+- [异鹩图片集](./species/lyalls-wren/README.md)
+- [奥克兰秋沙鸭图片集](./species/auckland-island-merganser/README.md)
+- [芬氏鸭图片集](./species/finschs-duck/README.md)
+- [南岛巨鹅图片集](./species/south-island-goose/README.md)
+- [南岛厚嘴鹤图片集](./species/south-island-adzebill/README.md)

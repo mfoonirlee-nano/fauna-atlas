@@ -1,0 +1,31 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": {
+    "01-cover": {
+      "prompt": "Use case: scientific-educational. Generate one landscape 1536x1024 naturalistic scientific reconstruction illustration for a children's fauna atlas. Subject extinct Lyall's wren Traversia lyalli, one tiny flightless bird, compact rounded dark olive brown body, yellowish narrow eyebrow, buff grey breast (female), solid pointed bill, very short rounded folded wings, very short dark brown tail, robust legs with large feet. Rocky floor of dense New Zealand coastal forest. Cover: complete bird LARGE on right with full bill feet toes tail visible, its silhouette within x=680..1440 y=100..920, center at 72 percent width, left 40 percent quiet forest background. Background clearance around all extremities, feet unobscured. Naturalistic plumage. Scientific reconstruction, not historical photography. No text labels watermark collage or extra limbs."
+    },
+    "02-observation": {
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic educational scientific reconstruction illustration. Traversia lyalli female Lyall's wren, tiny flightless olive brown bird, narrow yellow eyebrow, buff grey breast, solid pointed bill, very short rounded wings and very short tail, robust legs and large feet. dense New Zealand coastal forest rocky floor. Scene: ONE complete adult bird in clear SIDE PROFILE with head bill feet toes tail fully visible and generous margins, centrally composed to study body proportions. Detailed plausible anatomy, folded wings where present. ONLY this species, no other animals. No text labels scale bars watermark or collage. Extinct bird reconstruction, not historical photography. Plumage and pose partly speculative."
+    },
+    "03-observation": {
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic educational scientific reconstruction illustration. Subject Traversia lyalli female Lyall's wren, tiny flightless olive brown bird, narrow yellow eyebrow, buff grey breast, solid pointed bill, very short rounded wings and very short tail, robust legs and large feet. Historical habitat dense New Zealand coastal forest rocky floor. Scene: Close portrait observation of head and bill from side three-quarter view, detailed feather texture and eye, deliberate head-and-neck framing. Plausible anatomy. Extinct species reconstruction, not historical photograph. Plumage environment and posture partly speculative. No text labels watermark scale bars collage or extra limbs. Only the named species."
+    },
+    "04-observation": {
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic educational scientific reconstruction illustration. Subject Traversia lyalli female Lyall's wren, tiny flightless olive brown bird, narrow yellow eyebrow, buff grey breast, solid pointed bill, very short rounded wings and very short tail, robust legs and large feet. Historical habitat dense New Zealand coastal forest rocky floor. Scene: ONE complete bird as an imagined painted exterior educational reconstruction MODEL on a low plain plinth, neutral studio backdrop. No real museum, no fabricated fossil or skeleton, no specimen labels. Plausible anatomy. Extinct species reconstruction, not historical photograph. Plumage environment and posture partly speculative. No text labels watermark scale bars collage or extra limbs. Only the named species."
+    },
+    "05-observation": {
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic educational scientific reconstruction illustration. Subject Traversia lyalli female Lyall's wren, tiny flightless olive brown bird, narrow yellow eyebrow, buff grey breast, solid pointed bill, very short rounded wings and very short tail, robust legs and large feet. Historical habitat dense New Zealand coastal forest rocky floor. Scene: ONE complete bird standing in its historical natural habitat. Quiet searching posture, all bill feet tail visible, no other animals, no modern objects. Plausible anatomy. Extinct species reconstruction, not historical photograph. Plumage environment and posture partly speculative. No text labels watermark scale bars collage or extra limbs. Only the named species."
+    },
+    "06-observation": {
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic educational scientific reconstruction illustration. Subject Traversia lyalli female Lyall's wren, tiny flightless olive brown bird, narrow yellow eyebrow, buff grey breast, solid pointed bill, very short rounded wings and very short tail, robust legs and large feet. Historical habitat dense New Zealand coastal forest rocky floor. Scene: TWO spatially separated complete views, side profile and three-quarter front view, of the SAME adult individual and sex, on plain muted natural background. Comparison illustration, not a pair or encounter. No panels. Plausible anatomy. Extinct species reconstruction, not historical photograph. Plumage environment and posture partly speculative. No text labels watermark scale bars collage or extra limbs. Only the named species."
+    }
+  },
+  "acceptedPromptKeys": {
+    "01-cover": "01-cover",
+    "02-observation": "02-observation",
+    "03-observation": "03-observation",
+    "04-observation": "04-observation",
+    "05-observation": "05-observation",
+    "06-observation": "06-observation"
+  }
+}
