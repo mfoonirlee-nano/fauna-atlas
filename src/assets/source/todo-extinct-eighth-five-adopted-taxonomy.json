@@ -1,0 +1,97 @@
+{
+  "accessedAt": "2026-10-20",
+  "basis": "GBIF ranked chain; omit class and order absent in the queried GBIF chain under ADR 0002, same path policy as E031-E035. Cross-check species identities against PBDB and cited research.",
+  "notes": [
+    "All five GBIF matches EXACT/ACCEPTED.",
+    "PBDB leaves family unassigned for Allosaurus fragilis; adopted GBIF Allosauridae, also supported by NHM.",
+    "Retain Brontosaurus excelsus and Apatosaurus louisae separately; older Apatosaurus excelsus combination is not a sixth species.",
+    "PBDB class labels Saurischia and Reptilia are not inserted as inconsistent ranked placeholders into the GBIF chain."
+  ],
+  "species": [
+    {
+      "slug": "brontosaurus-excelsus",
+      "scientificName": "Brontosaurus excelsus",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Diplodocidae",
+      "genus": "Brontosaurus",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/brontosaurus-reinstating-a-prehistoric-icon.html",
+        "https://peabody.yale.edu/activity/explore-highlights-coloring-book",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4393826/"
+      ]
+    },
+    {
+      "slug": "apatosaurus-louisae",
+      "scientificName": "Apatosaurus louisae",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Diplodocidae",
+      "genus": "Apatosaurus",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://carnegiemnh.org/the-two-headed-dinosaur/",
+        "https://www.nps.gov/subjects/fossils/fossil-type-specimens-in-parks.htm",
+        "https://carnegiemnh.org/jurassic-days-specimen-scavenger-hunt/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4393826/"
+      ]
+    },
+    {
+      "slug": "allosaurus-fragilis",
+      "scientificName": "Allosaurus fragilis",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Allosauridae",
+      "genus": "Allosaurus",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+        "https://digitalcollections.amnh.org/archive/Mounted-skull-of-Allosaurus-fragilis--American-Museum-of-Natural-History-2URM1T1DZIAK.html",
+        "https://home.nps.gov/articles/000/dinosaur-skulls.htm"
+      ]
+    },
+    {
+      "slug": "velociraptor-mongoliensis",
+      "scientificName": "Velociraptor mongoliensis",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Dromaeosauridae",
+      "genus": "Velociraptor",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.amnh.org/explore/news-blogs/velociraptor-feather-evidence",
+        "https://www.nhm.ac.uk/discover/velociraptor-facts.html",
+        "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+      ]
+    },
+    {
+      "slug": "deinonychus-antirrhopus",
+      "scientificName": "Deinonychus antirrhopus",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Dromaeosauridae",
+      "genus": "Deinonychus",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/deinonychus.html",
+        "https://elischolar.library.yale.edu/peabody_museum_natural_history_bulletin/30/"
+      ]
+    }
+  ]
+}

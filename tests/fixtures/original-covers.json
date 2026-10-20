@@ -6901,5 +6901,18 @@
       },
       "sha256": "7eab1425adb749e30d20fb8801ebc33efa3264d8c49a36af2762b605986bc680"
     }
+  },
+  "brontosaurus-excelsus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 210,
+        "right": 1525,
+        "bottom": 785
+      },
+      "sha256": "a4f0847dcdfc3612baa2860b176a63f6e92d66fd50123682caf4eb15b1b784c1"
+    }
   }
 }

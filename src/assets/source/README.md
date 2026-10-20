@@ -1039,3 +1039,7 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [装甲剑龙图片集](./species/stegosaurus-stenops/README.md)
 - [巨型腕龙图片集](./species/brachiosaurus-altithorax/README.md)
 - [卡内基梁龙图片集](./species/diplodocus-carnegii/README.md)
+
+## 2026-10-20 第八批灭绝动物
+
+- [雷龙图片集](./species/brontosaurus-excelsus/README.md)

@@ -7351,5 +7351,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1530,
       "bottom": 745
     }
-  }
+  },
+  "brontosaurus-excelsus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 740,
+      "top": 210,
+      "right": 1525,
+      "bottom": 785
+    }
+  },
 };
