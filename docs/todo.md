@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 35 个，待制作 65 个。本次新增霸王龙、三角龙、装甲剑龙、巨型腕龙、卡内基梁龙，动物目录现有 735 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)及[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 40 个，待制作 60 个。本次新增雷龙、路氏迷惑龙、脆弱异特龙、蒙古伶盗龙、巨大恐爪龙，动物目录现有 740 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)及[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -21,13 +21,13 @@
 | 制作分组 | 待制作数量 |
 | --- | ---: |
 | 近代及全新世灭绝动物 | 0 |
-| 非鸟恐龙 | 20 |
+| 非鸟恐龙 | 15 |
 | 其他古爬行动物 | 12 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 65 |
+| 合计 | 60 |
 
 ## 选题与资料
 
@@ -37,15 +37,10 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 非鸟恐龙（待制作 20 种）
+### 非鸟恐龙（待制作 15 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E036 | 雷龙 | *Brontosaurus excelsus* | 晚侏罗世 | 四足支撑与颈椎结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52982) |
-| [ ] | E037 | 路氏迷惑龙 | *Apatosaurus louisae* | 晚侏罗世 | 与梁龙比较颈部骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=57752) |
-| [ ] | E038 | 脆弱异特龙 | *Allosaurus fragilis* | 晚侏罗世 | 牙齿、爪与后肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52962) |
-| [ ] | E039 | 蒙古伶盗龙 | *Velociraptor mongoliensis* | 白垩纪 | 第二趾爪与羽毛证据 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54554) |
-| [ ] | E040 | 巨大恐爪龙 | *Deinonychus antirrhopus* | 白垩纪 | 脚爪形状与关节活动范围 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54555) |
 | [ ] | E041 | 埃及棘龙 | *Spinosaurus aegyptiacus* | 白垩纪 | 背棘与尾部；水中运动假说 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=53372) |
 | [ ] | E042 | 萨氏食肉牛龙 | *Carnotaurus sastrei* | 白垩纪 | 额角与短小前肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54526) |
 | [ ] | E043 | 似鳄重爪龙 | *Baryonyx walkeri* | 白垩纪 | 长吻、圆锥牙与胃内容物证据 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=53370) |
@@ -134,9 +129,9 @@
 
 ---
 
-## 本轮完成归档：E001–E035
+## 本轮完成归档：E001–E040
 
-2026-10-20 已完成七批共 35 份物种档案及 210 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批记录](research/todo-extinct-sixth-five-2026-10-20.md)及[第七批记录](research/todo-extinct-seventh-five-2026-10-20.md)。
+2026-10-20 已完成八批共 40 份物种档案及 240 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批记录](research/todo-extinct-seventh-five-2026-10-20.md)及[第八批记录](research/todo-extinct-eighth-five-2026-10-20.md)。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -175,6 +170,11 @@
 | [x] | E033 | 装甲剑龙 | *Stegosaurus stenops* | 晚侏罗世 | 背板与尾刺的位置 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=56491) |
 | [x] | E034 | 巨型腕龙 | *Brachiosaurus altithorax* | 晚侏罗世 | 前后肢长度与肩部高度 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54864) |
 | [x] | E035 | 卡内基梁龙 | *Diplodocus carnegii* | 晚侏罗世 | 长颈与长尾的骨骼连接 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=65917) |
+| [x] | E036 | 雷龙 | *Brontosaurus excelsus* | 晚侏罗世 | 四足支撑与颈椎结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52982) |
+| [x] | E037 | 路氏迷惑龙 | *Apatosaurus louisae* | 晚侏罗世 | 与梁龙比较颈部骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=57752) |
+| [x] | E038 | 脆弱异特龙 | *Allosaurus fragilis* | 晚侏罗世 | 牙齿、爪与后肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52962) |
+| [x] | E039 | 蒙古伶盗龙 | *Velociraptor mongoliensis* | 白垩纪 | 第二趾爪与羽毛证据 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54554) |
+| [x] | E040 | 巨大恐爪龙 | *Deinonychus antirrhopus* | 白垩纪 | 脚爪形状与关节活动范围 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54555) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

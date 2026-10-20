@@ -6953,5 +6953,18 @@
       },
       "sha256": "d6a2a3383d6ef8c4817b1494c6ad634da6d5b6d9da4014913231475a1b90ba6e"
     }
+  },
+  "deinonychus-antirrhopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 275,
+        "right": 1505,
+        "bottom": 835
+      },
+      "sha256": "294d970a9e1222401bad7e246cbf9e1d06cbd368f54836680e7ed58c8b77ef45"
+    }
   }
 }

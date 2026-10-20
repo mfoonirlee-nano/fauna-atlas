@@ -7392,4 +7392,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 855
     }
   },
+  "deinonychus-antirrhopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 275,
+      "right": 1505,
+      "bottom": 835
+    }
+  }
 };

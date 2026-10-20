@@ -1,0 +1,59 @@
+{
+  "reviewedAt": "2026-10-20",
+  "images": [
+    {
+      "scene": "01-cover",
+      "sourceSha256": "12b339e8d18413db1c6091e46fe9fc09d888e3bcaeb51870aa146db2ea7045db",
+      "runtimeSha256": "294d970a9e1222401bad7e246cbf9e1d06cbd368f54836680e7ed58c8b77ef45",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "02-observation",
+      "sourceSha256": "26078f8c70c231760cd10d18db2f00e2ceb39bdf426434736e8a863cbabff357",
+      "runtimeSha256": "8bead562f038193535e0beed0006f6b6d60dca42fb779253a1e10609955b1448",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "03-observation",
+      "sourceSha256": "a213c6dd028b15a4398ad7c46aa65d8ea85ab983c62a8ff5c2aa65adcfdadb5c",
+      "runtimeSha256": "5f6b257ac98cd05fd412790773924a91833b220dea49cdce1db753e87b762355",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "04-observation",
+      "sourceSha256": "b063b9b45000ba7d1a55bc9b732fa6813930fba24e0f7ae38d3f945d8fe26835",
+      "runtimeSha256": "ea0e6c968000557c64dc499fae40d21c8b8808c804c852df8432eca96d1df91a",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "05-observation",
+      "sourceSha256": "f9faabe613804de6472b4652f0eb3063889c80f645000e76df856500cd514a6d",
+      "runtimeSha256": "bfa5a0437e56569678991f1bf4d3cfe9c2211de3fbf7decc535a218040ebdfda",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "06-observation",
+      "sourceSha256": "469d78b1e8bc7dd831af21c8b499acb40e5e5290d2fb9233cdc94ea246d1dc35",
+      "runtimeSha256": "03c629aedf8c391f0a9b6efe160f07b1792d5e7545ece7bfafb30a50e2507550",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

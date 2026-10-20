@@ -1046,3 +1046,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [路氏迷惑龙图片集](./species/apatosaurus-louisae/README.md)
 - [脆弱异特龙图片集](./species/allosaurus-fragilis/README.md)
 - [蒙古伶盗龙图片集](./species/velociraptor-mongoliensis/README.md)
+- [巨大恐爪龙图片集](./species/deinonychus-antirrhopus/README.md)
