@@ -1037,3 +1037,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [霸王龙图片集](./species/tyrannosaurus-rex/README.md)
 - [三角龙图片集](./species/triceratops-horridus/README.md)
 - [装甲剑龙图片集](./species/stegosaurus-stenops/README.md)
+- [巨型腕龙图片集](./species/brachiosaurus-altithorax/README.md)

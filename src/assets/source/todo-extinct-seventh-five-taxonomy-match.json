@@ -96,6 +96,30 @@
         "genusKey": 4823127,
         "speciesKey": 8541999
       }
+    },
+    {
+      "name": "Brachiosaurus altithorax",
+      "url": "https://api.gbif.org/v1/species/match?name=Brachiosaurus+altithorax&verbose=true",
+      "data": {
+        "usageKey": 4967320,
+        "scientificName": "Brachiosaurus altithorax (Riggs, 1903)",
+        "canonicalName": "Brachiosaurus altithorax",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "note": "Similarity: name=110; authorship=0; classification=-2; rank=6; status=1; score=115; singleMatch=5",
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Brachiosauridae",
+        "genus": "Brachiosaurus",
+        "species": "Brachiosaurus altithorax",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 3238998,
+        "genusKey": 4822846,
+        "speciesKey": 4967320
+      }
     }
   ]
 }

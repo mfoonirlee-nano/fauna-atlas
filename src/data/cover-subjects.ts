@@ -7331,5 +7331,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1530,
       "bottom": 820
     }
+  },
+  "brachiosaurus-altithorax": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 725,
+      "top": 150,
+      "right": 1505,
+      "bottom": 890
+    }
   }
 };

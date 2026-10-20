@@ -57,6 +57,23 @@
         "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=56491"
       ],
       "notes": "Marsh 于 1887 年命名 Stegosaurus stenops。剑龙属的命名更早，不能把属名的 1877 年直接当成本种命名年；这里保留具体种名以区分其他剑龙。"
+    },
+    {
+      "slug": "brachiosaurus-altithorax",
+      "scientificName": "Brachiosaurus altithorax",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Brachiosauridae",
+      "genus": "Brachiosaurus",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+        "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54864"
+      ],
+      "notes": "Elmer S. Riggs 于 1903 年命名 Brachiosaurus altithorax。属名含臂蜥蜴之意，与长前肢有关；非洲的 Giraffatitan brancai 在本档案中作为近缘种区分。"
     }
   ]
 }

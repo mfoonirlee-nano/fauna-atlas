@@ -6875,5 +6875,18 @@
       },
       "sha256": "483c25b2219a97be12fe34b85aa54499deaee3c17561a3bf85fdc6f1fbbe0ec7"
     }
+  },
+  "brachiosaurus-altithorax": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 725,
+        "top": 150,
+        "right": 1505,
+        "bottom": 890
+      },
+      "sha256": "d4aa1c5ba87761a16403d6046d98cce9abf71c7d9632572bd67dd3d51b7ab53e"
+    }
   }
 }

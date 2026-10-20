@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "733 animal species profiles; 700 prior profiles and 33 extinct-animal additions through 2026-10-20; microbial topics excluded",
+  "scope": "734 animal species profiles; 700 prior profiles and 34 extinct-animal additions through 2026-10-20; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 173,
+    "addedProfiles": 174,
     "addedProfilesReviewDate": "2026-10-20",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -33540,6 +33540,45 @@
             "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html",
             "https://www.nhm.ac.uk/discover/stegosaurus-brought-to-life.html",
             "https://www.nhm.ac.uk/discover/news/2016/may/dinosaur-eating-habit-insights-stegosaurus-stenops.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "brachiosaurus-altithorax",
+      "name": "巨型腕龙",
+      "scientificName": "Brachiosaurus altithorax",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+            "https://www.fieldmuseum.org/blog/why-we-dont-dress-sue-or-any-other-real-skeletons"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
+            "https://www.fieldmuseum.org/blog/why-we-dont-dress-sue-or-any-other-real-skeletons"
           ]
         }
       }
