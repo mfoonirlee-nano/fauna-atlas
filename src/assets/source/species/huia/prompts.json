@@ -1,0 +1,43 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": {
+    "01-cover-edit": {
+      "prompt": "Edit target: supplied extinct bird cover. Recompose the entire female bird, scaling it down to 82 percent of current size and shifting it right. Entire bill through tail must occupy x650..1450 and y130..900, center 1050. Keep very long female bill, white tail-tip and orange wattle precisely. Preserve anatomy, colors, pose, habitat and lighting, all toes, feathers and bill included with background margin. Quiet left 40 percent. Output 1536x1024. No text."
+    },
+    "01-cover": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Create a single landscape 1536x1024 high quality naturalistic educational scientific reconstruction illustration for a children's fauna atlas. Extinct species, reconstructed scene, not claimed historical photography. No text, labels, watermark, frames, collage or scale bars. Anatomically plausible, no extra limbs. Subject: Huia (Heteralocha acutirostris). Adult female huia, glossy black with subtle blue green sheen, long black tail with broad WHITE TERMINAL band, small fleshy orange wattles at bill base, long thin ivory strongly downcurved bill, blue grey legs. Not a toucan. Male has shorter sturdier less curved ivory bill. Setting: historical North Island New Zealand native forest. Cover composition: one bird with folded wings if present, standing in side three-quarter view, large and fully visible including ALL bill, feet, toes and tail. Subject occupies right portion, center around 72% width. Left 40% quiet habitat. Fit complete silhouette within x=650..1450 and y=70..950 with genuine background clearance on all sides; no plants obscuring feet. Warm natural light, detailed plumage."
+    },
+    "02-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Female huia Heteralocha acutirostris. Anatomy: Glossy black with blue green sheen, long black tail with broad white TERMINAL band, small orange wattles each side of bill base, long thin ivory curved female bill, blue grey feet. Habitat: historical North Island native forest. Scene: One complete bird in clear side profile, all bill, feet, tail visible with generous margins. Natural setting, plumage and proportions clearly visible. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "03-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Female huia Heteralocha acutirostris. Anatomy: Glossy black with blue green sheen, long black tail with broad white TERMINAL band, small orange wattles each side of bill base, long thin ivory curved female bill, blue grey feet. Habitat: historical North Island native forest. Scene: Close observation of the head, bill, eye and feather textures, deliberate portrait framing. Natural background. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "04-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Female huia Heteralocha acutirostris. Anatomy: Glossy black with blue green sheen, long black tail with broad white TERMINAL band, small orange wattles each side of bill base, long thin ivory curved female bill, blue grey feet. Habitat: historical North Island native forest. Scene: One complete bird as an imagined painted exterior educational reconstruction model on a plain low plinth, neutral studio. No real museum, no labels, no fabricated specimen or skeleton. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "05-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Female huia Heteralocha acutirostris. Anatomy: Glossy black with blue green sheen, long black tail with broad white TERMINAL band, small orange wattles each side of bill base, long thin ivory curved female bill, blue grey feet. Habitat: historical North Island native forest. Scene: One complete bird in its habitat, in a quiet natural feeding/searching posture. Moa browses low vegetation; huia probes decaying wood with bill; eagle perches observing open ground; owl stands by limestone shelter at dusk. No prey violence. Depict ONLY the appropriate species and behavior. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "05-observation-revision": {
+      "prompt": "Using supplied cover as anatomy reference, generate ONE new landscape 1536x1024 educational scientific reconstruction of Heteralocha acutirostris. Scene: single female glossy black huia probing decaying log with long thin downcurved ivory bill, orange wattle and white terminal tail band, North Island forest. ONLY ONE bird in entire image, NO other animals in foreground or background. Complete body including feet, bill and tail visible, natural detailed environment. Quiet natural searching posture, no violence. No texts, labels, watermark. Preserve reference species identity."
+    },
+    "06-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Female huia Heteralocha acutirostris. Anatomy: Glossy black with blue green sheen, long black tail with broad white TERMINAL band, small orange wattles each side of bill base, long thin ivory curved female bill, blue grey feet. Habitat: historical North Island native forest. Scene: Two separate side and three-quarter complete views of the SAME adult sex and species on simple muted natural background, as a comparative scientific illustration, separated spatially, not a mating pair or encounter. No text or panels. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    }
+  },
+  "acceptedPromptKeys": {
+    "01-cover": "01-cover-edit",
+    "02-observation": "02-observation",
+    "03-observation": "03-observation",
+    "04-observation": "04-observation",
+    "05-observation": "05-observation-revision",
+    "06-observation": "06-observation"
+  }
+}

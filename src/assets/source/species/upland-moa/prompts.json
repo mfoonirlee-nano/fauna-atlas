@@ -1,0 +1,55 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": {
+    "01-cover-edit": {
+      "prompt": "Edit target: supplied upland moa Megalapteryx didinus cover. Correct ONLY leg plumage: this species has feather-covered lower legs. Extend the mottled brown and cream feathers down both entire shanks to the BASE OF THE TOES, leaving just the long toes bare and visible. Absolutely no long bare scaly shanks. Preserve complete bird shape and position, head, bill, no wings, habitat, naturalistic scientific illustration style, exact 1536x1024 dimensions and all margins. No text."
+    },
+    "01-cover": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Create a single landscape 1536x1024 high quality naturalistic educational scientific reconstruction illustration for a children's fauna atlas. Extinct species, reconstructed scene, not claimed historical photography. No text, labels, watermark, frames, collage or scale bars. Anatomically plausible, no extra limbs. Subject: Upland Moa (Megalapteryx didinus). Relatively small slender wingless moa, small head, delicate pointed slightly downcurved bill, mottled brown and cream plumage continuing down lower legs to feet, long slender forward toes. No visible wings or external tail feathers. Setting: prehuman South Island New Zealand subalpine rocky tussock and southern beech forest edge. Cover composition: one bird with folded wings if present, standing in side three-quarter view, large and fully visible including ALL bill, feet, toes and tail. Subject occupies right portion, center around 72% width. Left 40% quiet habitat. Fit complete silhouette within x=650..1450 and y=70..950 with genuine background clearance on all sides; no plants obscuring feet. Warm natural light, detailed plumage."
+    },
+    "02-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Upland moa Megalapteryx didinus. Anatomy: Small slender wingless moa, small head, delicate pointed downcurved bill, mottled brown cream plumage covers lower legs to feet, long slender toes. No wings or external tail. Habitat: prehuman South Island subalpine rocky tussock and beech forest. Scene: One complete bird in clear side profile, all bill, feet, tail visible with generous margins. Natural setting, plumage and proportions clearly visible. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "02-observation-revision": {
+      "prompt": "Use supplied upland moa cover as anatomical reference. Create a new landscape 1536x1024 scientific educational reconstruction illustration of ONLY Megalapteryx didinus. One complete bird walking in clean side profile on rocky tussock; clear long toes. Essential: mottled brown cream feathers cover ALL of both shanks down to the toe bases; only toes are bare. NO naked long scaly shanks. Preserve small delicate downcurved bill, slender build, long toes, no wings and no external tail. No eagle, owl, huia or other species. Realistic educational illustration, speculative reconstructed scene, no text or labels."
+    },
+    "03-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Upland moa Megalapteryx didinus. Anatomy: Small slender wingless moa, small head, delicate pointed downcurved bill, mottled brown cream plumage covers lower legs to feet, long slender toes. No wings or external tail. Habitat: prehuman South Island subalpine rocky tussock and beech forest. Scene: Close observation of the head, bill, eye and feather textures, deliberate portrait framing. Natural background. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "03-observation-revision": {
+      "prompt": "Use supplied upland moa cover as anatomical reference. Create a new landscape 1536x1024 scientific educational reconstruction illustration of ONLY Megalapteryx didinus. Close head and upper neck portrait only; bill, nostril, eye, ear opening, feather texture; no legs in frame. Essential: mottled brown cream feathers cover ALL of both shanks down to the toe bases; only toes are bare. NO naked long scaly shanks. Preserve small delicate downcurved bill, slender build, long toes, no wings and no external tail. No eagle, owl, huia or other species. Realistic educational illustration, speculative reconstructed scene, no text or labels."
+    },
+    "04-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Upland moa Megalapteryx didinus. Anatomy: Small slender wingless moa, small head, delicate pointed downcurved bill, mottled brown cream plumage covers lower legs to feet, long slender toes. No wings or external tail. Habitat: prehuman South Island subalpine rocky tussock and beech forest. Scene: One complete bird as an imagined painted exterior educational reconstruction model on a plain low plinth, neutral studio. No real museum, no labels, no fabricated specimen or skeleton. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "04-observation-revision": {
+      "prompt": "Use supplied upland moa cover as anatomical reference. Create a new landscape 1536x1024 scientific educational reconstruction illustration of ONLY Megalapteryx didinus. Single complete exterior painted educational model on plain plinth with neutral backdrop; feathering includes lower legs. No actual museum. Essential: mottled brown cream feathers cover ALL of both shanks down to the toe bases; only toes are bare. NO naked long scaly shanks. Preserve small delicate downcurved bill, slender build, long toes, no wings and no external tail. No eagle, owl, huia or other species. Realistic educational illustration, speculative reconstructed scene, no text or labels."
+    },
+    "05-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Upland moa Megalapteryx didinus. Anatomy: Small slender wingless moa, small head, delicate pointed downcurved bill, mottled brown cream plumage covers lower legs to feet, long slender toes. No wings or external tail. Habitat: prehuman South Island subalpine rocky tussock and beech forest. Scene: One complete bird in its habitat, in a quiet natural feeding/searching posture. Moa browses low vegetation; huia probes decaying wood with bill; eagle perches observing open ground; owl stands by limestone shelter at dusk. No prey violence. Depict ONLY the appropriate species and behavior. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "05-observation-revision": {
+      "prompt": "Use supplied upland moa cover as anatomical reference. Create a new landscape 1536x1024 scientific educational reconstruction illustration of ONLY Megalapteryx didinus. Single complete bird bending neck to browse low subalpine plants. Absolutely no other bird or animal anywhere. Essential: mottled brown cream feathers cover ALL of both shanks down to the toe bases; only toes are bare. NO naked long scaly shanks. Preserve small delicate downcurved bill, slender build, long toes, no wings and no external tail. No eagle, owl, huia or other species. Realistic educational illustration, speculative reconstructed scene, no text or labels."
+    },
+    "06-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Upland moa Megalapteryx didinus. Anatomy: Small slender wingless moa, small head, delicate pointed downcurved bill, mottled brown cream plumage covers lower legs to feet, long slender toes. No wings or external tail. Habitat: prehuman South Island subalpine rocky tussock and beech forest. Scene: Two separate side and three-quarter complete views of the SAME adult sex and species on simple muted natural background, as a comparative scientific illustration, separated spatially, not a mating pair or encounter. No text or panels. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "06-observation-revision": {
+      "prompt": "Use supplied upland moa cover as anatomical reference. Create a new landscape 1536x1024 scientific educational reconstruction illustration of ONLY Megalapteryx didinus. Two separate complete views of the same adult, one side and one three-quarter, plain background. Both lower legs fully feathered to toe bases. Essential: mottled brown cream feathers cover ALL of both shanks down to the toe bases; only toes are bare. NO naked long scaly shanks. Preserve small delicate downcurved bill, slender build, long toes, no wings and no external tail. No eagle, owl, huia or other species. Realistic educational illustration, speculative reconstructed scene, no text or labels."
+    }
+  },
+  "acceptedPromptKeys": {
+    "01-cover": "01-cover-edit",
+    "02-observation": "02-observation-revision",
+    "03-observation": "03-observation-revision",
+    "04-observation": "04-observation-revision",
+    "05-observation": "05-observation-revision",
+    "06-observation": "06-observation-revision"
+  }
+}

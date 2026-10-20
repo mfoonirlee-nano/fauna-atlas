@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "heavy-footed-moa",
+    "scientificName": "Pachyornis elephantopus",
+    "source": "https://www.nzbirdsonline.org.nz/species/heavy-footed-moa",
+    "accessedAt": "2026-10-20",
+    "order": "Dinornithiformes",
+    "family": "Emeidae",
+    "genus": "Pachyornis",
+    "adopted": "NZ Birds Online species page; no unverified GBIF match or IUCN year"
+  },
+  {
+    "slug": "upland-moa",
+    "scientificName": "Megalapteryx didinus",
+    "source": "https://www.nzbirdsonline.org.nz/species/upland-moa",
+    "accessedAt": "2026-10-20",
+    "order": "Dinornithiformes",
+    "family": "Megalapterygidae",
+    "genus": "Megalapteryx",
+    "adopted": "NZ Birds Online species page; no unverified GBIF match or IUCN year"
+  },
+  {
+    "slug": "haasts-eagle",
+    "scientificName": "Aquila moorei",
+    "source": "https://www.nzbirdsonline.org.nz/species/haasts-eagle",
+    "accessedAt": "2026-10-20",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Aquila",
+    "adopted": "NZ Birds Online species page; no unverified GBIF match or IUCN year"
+  },
+  {
+    "slug": "huia",
+    "scientificName": "Heteralocha acutirostris",
+    "source": "https://www.nzbirdsonline.org.nz/species/huia",
+    "accessedAt": "2026-10-20",
+    "order": "Passeriformes",
+    "family": "Callaeidae",
+    "genus": "Heteralocha",
+    "adopted": "NZ Birds Online species page; no unverified GBIF match or IUCN year"
+  },
+  {
+    "slug": "laughing-owl",
+    "scientificName": "Ninox albifacies",
+    "source": "https://www.nzbirdsonline.org.nz/species/laughing-owl",
+    "accessedAt": "2026-10-20",
+    "order": "Strigiformes",
+    "family": "Strigidae",
+    "genus": "Ninox",
+    "adopted": "NZ Birds Online species page; no unverified GBIF match or IUCN year"
+  }
+]

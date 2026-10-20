@@ -7202,4 +7202,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 960
     }
   },
+  "heavy-footed-moa": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 810,
+      "top": 65,
+      "right": 1520,
+      "bottom": 950
+    }
+  },
+  "upland-moa": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 665,
+      "top": 40,
+      "right": 1325,
+      "bottom": 940
+    }
+  },
+  "haasts-eagle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 795,
+      "top": 100,
+      "right": 1515,
+      "bottom": 825
+    }
+  },
+  "huia": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 150,
+      "right": 1475,
+      "bottom": 790
+    }
+  },
+  "laughing-owl": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 65,
+      "right": 1390,
+      "bottom": 895
+    }
+  }
 };

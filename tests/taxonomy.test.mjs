@@ -24369,7 +24369,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 720);
+  assert.equal(species.length, 725);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24540,7 +24540,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 720);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 725);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24561,7 +24561,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 507);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 512);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 166);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 49);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
@@ -24612,8 +24612,8 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphioxiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Branchiostomatidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Branchiostoma')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 136);
-  assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 32);
+  assert.equal(findTaxon(tree, 'class', 'Aves')?.speciesCount, 141);
+  assert.equal(findTaxon(tree, 'order', 'Passeriformes')?.speciesCount, 33);
   assert.equal(findTaxon(tree, 'family', 'Menuridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Menura')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Steatornithiformes')?.speciesCount, 1);
@@ -24637,14 +24637,14 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Galliformes')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'family', 'Phasianidae')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'genus', 'Pavo')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 3);
-  assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 2);
-  assert.equal(findTaxon(tree, 'genus', 'Aquila')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Accipitriformes')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'family', 'Accipitridae')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'genus', 'Aquila')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Falconiformes')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Falconidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Falco')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Strigiformes')?.speciesCount, 3);
-  assert.equal(findTaxon(tree, 'family', 'Strigidae')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'order', 'Strigiformes')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'family', 'Strigidae')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'genus', 'Bubo')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'order', 'Pelecaniformes')?.speciesCount, 8);
   assert.equal(findTaxon(tree, 'family', 'Balaenicipitidae')?.speciesCount, 1);

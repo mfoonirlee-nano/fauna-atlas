@@ -1,0 +1,40 @@
+{
+  "mode": "built-in image_gen",
+  "prompts": {
+    "01-cover": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Create a single landscape 1536x1024 high quality naturalistic educational scientific reconstruction illustration for a children's fauna atlas. Extinct species, reconstructed scene, not claimed historical photography. No text, labels, watermark, frames, collage or scale bars. Anatomically plausible, no extra limbs. Subject: Laughing Owl (Ninox albifacies). Robust owl with round head no ear tufts, pale facial discs, yellow eyes, hooked yellowish bill, dark brown upperparts with buff longitudinal streaks, buff underparts with dark vertical streaks, pale bristly leg feathers down to toes, brown barred wings and tail. Setting: historical New Zealand rocky open woodland with limestone shelter. Cover composition: one bird with folded wings if present, standing in side three-quarter view, large and fully visible including ALL bill, feet, toes and tail. Subject occupies right portion, center around 72% width. Left 40% quiet habitat. Fit complete silhouette within x=650..1450 and y=70..950 with genuine background clearance on all sides; no plants obscuring feet. Warm natural light, detailed plumage."
+    },
+    "02-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Laughing owl Ninox albifacies. Anatomy: Robust round head owl with NO ear tufts, pale facial discs, yellow eyes, dark brown buff longitudinal streaked plumage, buff underparts with dark longitudinal streaks, bristly pale feathered legs, barred tail. Habitat: historical New Zealand rocky woodland. Scene: One complete bird in clear side profile, all bill, feet, tail visible with generous margins. Natural setting, plumage and proportions clearly visible. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "03-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Laughing owl Ninox albifacies. Anatomy: Robust round head owl with NO ear tufts, pale facial discs, yellow eyes, dark brown buff longitudinal streaked plumage, buff underparts with dark longitudinal streaks, bristly pale feathered legs, barred tail. Habitat: historical New Zealand rocky woodland. Scene: Close observation of the head, bill, eye and feather textures, deliberate portrait framing. Natural background. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "04-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Laughing owl Ninox albifacies. Anatomy: Robust round head owl with NO ear tufts, pale facial discs, yellow eyes, dark brown buff longitudinal streaked plumage, buff underparts with dark longitudinal streaks, bristly pale feathered legs, barred tail. Habitat: historical New Zealand rocky woodland. Scene: One complete bird as an imagined painted exterior educational reconstruction model on a plain low plinth, neutral studio. No real museum, no labels, no fabricated specimen or skeleton. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "05-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Laughing owl Ninox albifacies. Anatomy: Robust round head owl with NO ear tufts, pale facial discs, yellow eyes, dark brown buff longitudinal streaked plumage, buff underparts with dark longitudinal streaks, bristly pale feathered legs, barred tail. Habitat: historical New Zealand rocky woodland. Scene: One complete bird in its habitat, in a quiet natural feeding/searching posture. Moa browses low vegetation; huia probes decaying wood with bill; eagle perches observing open ground; owl stands by limestone shelter at dusk. No prey violence. Depict ONLY the appropriate species and behavior. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    },
+    "05-observation-revision": {
+      "prompt": "Using supplied cover as anatomy reference, generate ONE new landscape 1536x1024 educational scientific reconstruction of Ninox albifacies. Scene: single brown buff longitudinally streaked round-headed owl with pale face and feathered legs standing at limestone shelter at dusk. ONLY ONE bird in entire image, NO other animals in foreground or background. Complete body including feet, bill and tail visible, natural detailed environment. Quiet natural searching posture, no violence. No texts, labels, watermark. Preserve reference species identity."
+    },
+    "06-observation": {
+      "mode": "built-in image_gen",
+      "prompt": "Use case: scientific-educational. Single landscape 1536x1024 naturalistic educational reconstruction illustration for children's fauna atlas. Laughing owl Ninox albifacies. Anatomy: Robust round head owl with NO ear tufts, pale facial discs, yellow eyes, dark brown buff longitudinal streaked plumage, buff underparts with dark longitudinal streaks, bristly pale feathered legs, barred tail. Habitat: historical New Zealand rocky woodland. Scene: Two separate side and three-quarter complete views of the SAME adult sex and species on simple muted natural background, as a comparative scientific illustration, separated spatially, not a mating pair or encounter. No text or panels. Scientific reconstruction, not a historical photograph. No text, watermark, extra limbs, invented species or modern structures. Colors and poses partly speculative."
+    }
+  },
+  "acceptedPromptKeys": {
+    "01-cover": "01-cover",
+    "02-observation": "02-observation",
+    "03-observation": "03-observation",
+    "04-observation": "04-observation",
+    "05-observation": "05-observation-revision",
+    "06-observation": "06-observation"
+  }
+}

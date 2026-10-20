@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 20 个，待制作 80 个。本次新增大象鸟、北岛巨恐鸟、南岛巨恐鸟、小丛林恐鸟、东部恐鸟，动物目录现有 720 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)及[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 25 个，待制作 75 个。本次新增重脚恐鸟、高地恐鸟、哈斯特鹰、垂耳鸦、笑鸮，动物目录现有 725 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)及[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -20,14 +20,14 @@
 
 | 制作分组 | 待制作数量 |
 | --- | ---: |
-| 近代及全新世灭绝动物 | 10 |
+| 近代及全新世灭绝动物 | 5 |
 | 非鸟恐龙 | 25 |
 | 其他古爬行动物 | 12 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 80 |
+| 合计 | 75 |
 
 ## 选题与资料
 
@@ -37,15 +37,10 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 近代及全新世灭绝动物（待制作 10 种）
+### 近代及全新世灭绝动物（待制作 5 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E021 | 重脚恐鸟 | *Pachyornis elephantopus* | 约 15 世纪前后 | 粗壮腿骨和宽阔脚掌，比较不同恐鸟骨架 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/heavy-footed-moa) |
-| [ ] | E022 | 高地恐鸟 | *Megalapteryx didinus* | 约 15 世纪前后 | 长到腿部的羽毛、细长脚趾与保存的皮肤 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/upland-moa) |
-| [ ] | E023 | 哈斯特鹰 | *Aquila moorei* | 约 15 世纪前后，随恐鸟消失；旧组合名 Hieraaetus moorei、Harpagornis moorei 不另计 | 巨大的爪、弯喙与捕食者食物关系 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/haasts-eagle) |
-| [ ] | E024 | 垂耳鸦 | *Heteralocha acutirostris* | 最后接受目击 1907 年，可能延续到 1920 年代；不把 1907 当确切灭绝年 | 雌雄形状不同的喙、白色尾端和肉垂 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/huia) |
-| [ ] | E025 | 笑鸮 | *Ninox albifacies* | 最后确认标本 1914 年，估计 1940 年前灭绝；旧属名 Sceloglaux | 有纵纹的羽毛、面盘与洞穴中的食物残骸 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/laughing-owl) |
 | [ ] | E026 | 异鹩（莱氏鹩） | *Traversia lyalli* | 最后确认个体 1895 年；不能讲成一只猫独自灭绝全种 | 不会飞的小型鸣禽、短翅和大脚 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/lyalls-wren) |
 | [ ] | E027 | 奥克兰秋沙鸭 | *Mergus australis* | 最后标本 1902 年采集 | 细长有锯齿的喙、潜水食鱼与海岸水域 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/auckland-island-merganser) |
 | [ ] | E028 | 芬氏鸭 | *Chenonetta finschi* | 波利尼西亚人抵达后灭绝，是否延续到欧洲人时期仍不确定 | 粗腿、小翅与陆地取食；骨骼记录的变化 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/finschs-duck) |
@@ -154,9 +149,9 @@
 
 ---
 
-## 本轮完成归档：E001–E020
+## 本轮完成归档：E001–E025
 
-2026-10-20 已完成四批共 20 份物种档案及 120 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)及[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)。
+2026-10-20 已完成五批共 25 份物种档案及 150 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)及[第五批记录](research/todo-extinct-fifth-five-2026-10-20.md)。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -181,6 +176,12 @@
 | [x] | E018 | 南岛巨恐鸟 | *Dinornis robustus* | 约 15 世纪前后，非欧洲探险时代动物 | 长颈取食高度、地面巢与巨大鸟蛋 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-giant-moa) |
 | [x] | E019 | 小丛林恐鸟 | *Anomalopteryx didiformis* | 约 15 世纪前后 | 较小的身体、短喙与胃石 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/little-bush-moa) |
 | [x] | E020 | 东部恐鸟 | *Emeus crassus* | 约 15 世纪前后 | 短粗腿、脚趾与低地森林栖息地 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/eastern-moa) |
+
+| [x] | E021 | 重脚恐鸟 | *Pachyornis elephantopus* | 约 15 世纪前后 | 粗壮腿骨和宽阔脚掌，比较不同恐鸟骨架 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/heavy-footed-moa) |
+| [x] | E022 | 高地恐鸟 | *Megalapteryx didinus* | 约 15 世纪前后 | 长到腿部的羽毛、细长脚趾与保存的皮肤 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/upland-moa) |
+| [x] | E023 | 哈斯特鹰 | *Aquila moorei* | 约 15 世纪前后，随恐鸟消失；旧组合名 Hieraaetus moorei、Harpagornis moorei 不另计 | 巨大的爪、弯喙与捕食者食物关系 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/haasts-eagle) |
+| [x] | E024 | 垂耳鸦 | *Heteralocha acutirostris* | 最后接受目击 1907 年，可能延续到 1920 年代；不把 1907 当确切灭绝年 | 雌雄形状不同的喙、白色尾端和肉垂 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/huia) |
+| [x] | E025 | 笑鸮 | *Ninox albifacies* | 最后确认标本 1914 年，估计 1940 年前灭绝；旧属名 Sceloglaux | 有纵纹的羽毛、面盘与洞穴中的食物残骸 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/laughing-owl) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

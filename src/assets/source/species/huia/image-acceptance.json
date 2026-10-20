@@ -1,0 +1,60 @@
+{
+  "reviewedAt": "2026-10-20",
+  "images": [
+    {
+      "scene": "01-cover",
+      "sourceSha256": "e0dec62b3e6caccd4fc4156a411ecb2a8363a23d18b0609991850b62609df98d",
+      "runtimeSha256": "3ab4309dd6ad9a1b7c17974280cb0cf889697690cb282f861d76f3c66190293a",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "02-observation",
+      "sourceSha256": "fd22f7eaa7d920c1d9dfca883727ba9b2c7ef0aa9e1ed02ed124ae7e111691ad",
+      "runtimeSha256": "cbcb02f584594d5bcf9040b5567cc027d16075583f72039c09c1317640c003c6",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "03-observation",
+      "sourceSha256": "ddd4d916a9d713f4bf1271032b553ad205af4ca5f02c5a5f70c84caded65862a",
+      "runtimeSha256": "a59d31525489c5c7cce8392ab1723ae000b5dedb905da5c0f2dcb384cbe53e3d",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "04-observation",
+      "sourceSha256": "e9d2ce7a4db25a3cb2d71981e2de2db8214a986a70d829396fb28c1d39f931c8",
+      "runtimeSha256": "e7e70a46bf5eb37eb4869f3fc5148c6a07848b0c54e0e9041e468bcbc23eae76",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "05-observation",
+      "sourceSha256": "e7f3b3b7fcca24f3bd2655546b023fd2942e04b71036716af4f6d4e33a15b196",
+      "runtimeSha256": "ac1995e3a4c6e6b0f38d0f1525d029417d19c6be33329ac5b1b3d32d3344c00f",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "06-observation",
+      "sourceSha256": "88cb6956f4ef1cb4c2802e23f6615949b73046d20fc955a970f8809a23ae3002",
+      "runtimeSha256": "1f52058cd75efbbe80b2912be411b35a991dd07f16e6817724ad778790061f1f",
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "limitations": "AI 科学复原示意，羽色、软组织、姿态和环境含推测；模型不对应真实馆藏。"
+}

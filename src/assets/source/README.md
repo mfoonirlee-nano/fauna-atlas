@@ -1015,3 +1015,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [南岛巨恐鸟图片集](./species/south-island-giant-moa/README.md)
 - [小丛林恐鸟图片集](./species/little-bush-moa/README.md)
 - [东部恐鸟图片集](./species/eastern-moa/README.md)
+
+## 2026-10-20 第五批灭绝动物
+
+- [重脚恐鸟图片集](./species/heavy-footed-moa/README.md)
+- [高地恐鸟图片集](./species/upland-moa/README.md)
+- [哈斯特鹰图片集](./species/haasts-eagle/README.md)
+- [垂耳鸦图片集](./species/huia/README.md)
+- [笑鸮图片集](./species/laughing-owl/README.md)

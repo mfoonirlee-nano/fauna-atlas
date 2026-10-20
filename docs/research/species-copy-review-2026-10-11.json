@@ -33059,6 +33059,191 @@
           ]
         }
       }
+    },
+    {
+      "slug": "heavy-footed-moa",
+      "name": "重脚恐鸟",
+      "scientificName": "Pachyornis elephantopus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/heavy-footed-moa"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/heavy-footed-moa"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/heavy-footed-moa"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/heavy-footed-moa"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/heavy-footed-moa"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "upland-moa",
+      "name": "高地恐鸟",
+      "scientificName": "Megalapteryx didinus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/upland-moa"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/upland-moa"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/upland-moa"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/upland-moa"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/upland-moa"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "haasts-eagle",
+      "name": "哈斯特鹰",
+      "scientificName": "Aquila moorei",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/haasts-eagle"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/haasts-eagle"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/haasts-eagle"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/haasts-eagle"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/haasts-eagle"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "huia",
+      "name": "垂耳鸦",
+      "scientificName": "Heteralocha acutirostris",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/huia"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/huia"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/huia"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/huia"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/huia"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "laughing-owl",
+      "name": "笑鸮",
+      "scientificName": "Ninox albifacies",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/laughing-owl"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/laughing-owl"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/laughing-owl"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/laughing-owl"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nzbirdsonline.org.nz/species/laughing-owl"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",

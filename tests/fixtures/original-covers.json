@@ -6706,5 +6706,70 @@
       },
       "sha256": "119541a0b56d263b167edd38feaab91419c2c5f85f1f82da609d73c43236cabf"
     }
+  },
+  "heavy-footed-moa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 810,
+        "top": 65,
+        "right": 1520,
+        "bottom": 950
+      },
+      "sha256": "4f37a840542a133f5cb939e530b4cb92ed38ec0b4de8f355f3df9d10e4a4bdb1"
+    }
+  },
+  "upland-moa": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 665,
+        "top": 40,
+        "right": 1325,
+        "bottom": 940
+      },
+      "sha256": "e59a9f1c3372df2c4aaa1c714c4ba57f158139e4f0f16b8b9be49a8f33296eba"
+    }
+  },
+  "haasts-eagle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 795,
+        "top": 100,
+        "right": 1515,
+        "bottom": 825
+      },
+      "sha256": "097918cae3d9d57b5bc362c53f5911aa014f123a96eaa11e26d9dcdd2c2b114c"
+    }
+  },
+  "huia": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 150,
+        "right": 1475,
+        "bottom": 790
+      },
+      "sha256": "3ab4309dd6ad9a1b7c17974280cb0cf889697690cb282f861d76f3c66190293a"
+    }
+  },
+  "laughing-owl": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 65,
+        "right": 1390,
+        "bottom": 895
+      },
+      "sha256": "0b8dc0c07e883949859c7192a87b12cfa9f1af877cd9c24e5863557aa562437b"
+    }
   }
 }
