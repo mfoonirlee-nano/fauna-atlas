@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "731 animal species profiles; 700 prior profiles and 31 extinct-animal additions through 2026-10-20; microbial topics excluded",
+  "scope": "732 animal species profiles; 700 prior profiles and 32 extinct-animal additions through 2026-10-20; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 171,
+    "addedProfiles": 172,
     "addedProfilesReviewDate": "2026-10-20",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -33460,6 +33460,45 @@
           "sources": [
             "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
             "https://www.nhm.ac.uk/discover/how-did-tyrannosaurus-use-its-arms.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "triceratops-horridus",
+      "name": "三角龙",
+      "scientificName": "Triceratops horridus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+            "https://www.si.edu/object/nmnhpaleobiology_3572783"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+            "https://www.si.edu/object/nmnhpaleobiology_3572783"
           ]
         }
       }

@@ -23,6 +23,23 @@
         "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54833"
       ],
       "notes": "Henry Fairfield Osborn 于 1905 年命名 Tyrannosaurus rex，属名含暴君蜥蜴之意。本档案以这个具体物种为单位，不把所有大型肉食恐龙都叫霸王龙。"
+    },
+    {
+      "slug": "triceratops-horridus",
+      "scientificName": "Triceratops horridus",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Ceratopsidae",
+      "genus": "Triceratops",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
+        "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=63766"
+      ],
+      "notes": "Othniel Charles Marsh 于 1889 年命名本种。属名含三角面孔之意；本档案记录 Triceratops horridus，不将 Triceratops prorsus 的特征与名称混作同一个物种。"
     }
   ]
 }

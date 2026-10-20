@@ -6849,5 +6849,18 @@
       },
       "sha256": "f5627ef8f363951ea011805b8aefa3c55b67520613f9122385658b7bbe628cc5"
     }
+  },
+  "triceratops-horridus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 655,
+        "top": 255,
+        "right": 1515,
+        "bottom": 820
+      },
+      "sha256": "b2ab7e575eb410120bd894d71194eb9a2ea396f451917c91eeb2192fb2d0a487"
+    }
   }
 }

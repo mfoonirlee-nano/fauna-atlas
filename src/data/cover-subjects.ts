@@ -7311,5 +7311,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1520,
       "bottom": 805
     }
+  },
+  "triceratops-horridus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 655,
+      "top": 255,
+      "right": 1515,
+      "bottom": 820
+    }
   }
 };

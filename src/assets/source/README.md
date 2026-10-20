@@ -1035,3 +1035,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 ## 2026-10-20 第七批灭绝动物
 
 - [霸王龙图片集](./species/tyrannosaurus-rex/README.md)
+- [三角龙图片集](./species/triceratops-horridus/README.md)
