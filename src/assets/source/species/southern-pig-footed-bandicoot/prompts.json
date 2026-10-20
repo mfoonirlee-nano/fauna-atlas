@@ -1,0 +1,88 @@
+[
+  {
+    "scene": "01-cover",
+    "title": "封面",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct southern pig-footed bandicoot Chaeropus ecaudatus, small warm brown marsupial with pale underside, pointed muzzle, large upright ears, long thin delicate legs, two functional hooflike toes per forefoot and one main weightbearing toe per hindfoot, long slender tail with dark tuft; not a pig, not tailless. Setting: southern Australian open grassland with distant sparse woodland. One whole animal on RIGHT, complete silhouette including ear tips, muzzle, tail and feet inside x=680..1460 y=120..920. Center beyond 60% width, left 40% quiet background. Make subject large within those bounds, no obscuring plants. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species. Strict composition: fit ALL of the subject into right 48% of canvas including full tail. Leave empty background around every extremity.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Edit this scientific reconstruction of southern pig-footed bandicoot Chaeropus ecaudatus. Keep the brown coat, narrow pointed muzzle, large ears and long dark-tufted tail. Correct the posture to a normal small QUADRUPED walking or standing on all four feet, with low horizontal body; do not show a kangaroo upright hop. Forefeet each have two functional small hooflike toes, hindfeet a single main weightbearing toe, slender long limbs. Change composition so ENTIRE animal including whiskers, tail tuft and feet is contained x=670..1470 y=130..910 on unchanged1536x1024 canvas. Quiet left40 percent. Accurate natural history painterly reconstruction, not photo. Preserve environment style; no text, no new animals.",
+        "referenceSha256": "fae3565d6736f5908b6f09338a8555bceaf52df8cc1510beb75df53e6e08b367"
+      },
+      {
+        "prompt": "Composition-only edit. Preserve this quadrupedal southern pig-footed bandicoot exactly, including correct feet, long tail and brown coat. Uniformly reduce the ENTIRE animal to 80% of current size, then move it RIGHT by 100 pixels. On a 1536x1024 canvas the animal's leftmost nose/whisker must start beyond x=680 and the tail tip must end before x=1470. Keep all four feet grounded, whole silhouette visible, large in right half. Repaint vacated background seamlessly with the same grassland. Do not change anatomy, lighting, landscape dimensions. No text.",
+        "referenceSha256": "fc98c6da591c63962459b6566d71ee59b8b63aed42833f4b847ee1e3948c2b69"
+      },
+      {
+        "prompt": "Correct this southern pig-footed bandicoot Chaeropus ecaudatus reconstruction. Keep identity, coat, ears, pointed snout, long dark-tufted tail, background,1536x1024 landscape and composition. Each animal must have LOW HORIZONTAL body with ALL FOUR feet grounded, no upright kangaroo pose and no tucked forearms. Crucial anatomy: each FOREFOOT has TWO narrow claw-tipped functional toes; each HINDFOOT has ONE dominant elongated narrow pointed toe with a single nail, tiny joined side toes unobtrusive. Hindfeet must NOT look like split cloven hooves or two equal large toes. Keep entire silhouette in frame. Preserve source position and size exactly: whole subject stays in right half, including tail. Do not move or resize. No text, no other species.",
+        "referenceSha256": "8408711c11db065e0f3b95435be8c49f965a6d3dfa2931dc6ebbad45d20e60ed"
+      }
+    ]
+  },
+  {
+    "scene": "02-observation",
+    "title": "外形与比例",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct southern pig-footed bandicoot Chaeropus ecaudatus, small warm brown marsupial with pale underside, pointed muzzle, large upright ears, long thin delicate legs, two functional hooflike toes per forefoot and one main weightbearing toe per hindfoot, long slender tail with dark tuft; not a pig, not tailless. Setting: southern Australian open grassland with distant sparse woodland. One whole animal in clear side profile, large centered, include every extremity with background clearance. Show proportions. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Correct this southern pig-footed bandicoot Chaeropus ecaudatus reconstruction. Keep identity, coat, ears, pointed snout, long dark-tufted tail, background,1536x1024 landscape and composition. Each animal must have LOW HORIZONTAL body with ALL FOUR feet grounded, no upright kangaroo pose and no tucked forearms. Crucial anatomy: each FOREFOOT has TWO narrow claw-tipped functional toes; each HINDFOOT has ONE dominant elongated narrow pointed toe with a single nail, tiny joined side toes unobtrusive. Hindfeet must NOT look like split cloven hooves or two equal large toes. Keep entire silhouette in frame. One entire animal, all extremities clear. No text, no other species.",
+        "referenceSha256": "a8cb0b982e9415bc37e2869561abf161969cc2e1056e4cfb9add80242cd4e6a5"
+      }
+    ]
+  },
+  {
+    "scene": "03-observation",
+    "title": "头部与外部特征",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct southern pig-footed bandicoot Chaeropus ecaudatus, small warm brown marsupial with pale underside, pointed muzzle, large upright ears, long thin delicate legs, two functional hooflike toes per forefoot and one main weightbearing toe per hindfoot, long slender tail with dark tuft; not a pig, not tailless. Setting: southern Australian open grassland with distant sparse woodland. Close three quarter head study showing ears and muzzle. Accurate exterior only, no cutaway or inset. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Edit this southern pig-footed bandicoot natural history illustration into a CLOSE HEAD PORTRAIT only. Keep brown fur, long narrow snout, ears and whiskers. Show complete ears and snout with background around them. Frame from shoulders upward, no feet or legs in frame. Preserve scientific painterly style and1536x1024 landscape. No text.",
+        "referenceSha256": "2ea3ff71cb8dad6d48676c227764126aff6f46a4b6b0e27b6c98b81556a1ad4f"
+      }
+    ]
+  },
+  {
+    "scene": "04-observation",
+    "title": "外观模型示意",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct southern pig-footed bandicoot Chaeropus ecaudatus, small warm brown marsupial with pale underside, pointed muzzle, large upright ears, long thin delicate legs, two functional hooflike toes per forefoot and one main weightbearing toe per hindfoot, long slender tail with dark tuft; not a pig, not tailless. Setting: southern Australian open grassland with distant sparse woodland. An imagined painted exterior sculpture of this species on a plain neutral plinth. Entire model visible. No bones, no museum labels; does not depict a real specimen. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Correct this southern pig-footed bandicoot Chaeropus ecaudatus reconstruction. Keep identity, coat, ears, pointed snout, long dark-tufted tail, background,1536x1024 landscape and composition. Each animal must have LOW HORIZONTAL body with ALL FOUR feet grounded, no upright kangaroo pose and no tucked forearms. Crucial anatomy: each FOREFOOT has TWO narrow claw-tipped functional toes; each HINDFOOT has ONE dominant elongated narrow pointed toe with a single nail, tiny joined side toes unobtrusive. Hindfeet must NOT look like split cloven hooves or two equal large toes. Keep entire silhouette in frame. Keep the plinth: this is an imagined exterior sculpture, not a live animal or real museum specimen. No text, no other species.",
+        "referenceSha256": "2b7b8c510accb65fee8d26a3912f9303cda19bf3e639884859b8ecbd31129d18"
+      }
+    ]
+  },
+  {
+    "scene": "05-observation",
+    "title": "历史生活环境",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct southern pig-footed bandicoot Chaeropus ecaudatus, small warm brown marsupial with pale underside, pointed muzzle, large upright ears, long thin delicate legs, two functional hooflike toes per forefoot and one main weightbearing toe per hindfoot, long slender tail with dark tuft; not a pig, not tailless. Setting: southern Australian open grassland with distant sparse woodland. One whole animal centered in its representative historical environment. Clear feet and tail, restrained surroundings, no other animals. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Correct this southern pig-footed bandicoot Chaeropus ecaudatus reconstruction. Keep identity, coat, ears, pointed snout, long dark-tufted tail, background,1536x1024 landscape and composition. Each animal must have LOW HORIZONTAL body with ALL FOUR feet grounded, no upright kangaroo pose and no tucked forearms. Crucial anatomy: each FOREFOOT has TWO narrow claw-tipped functional toes; each HINDFOOT has ONE dominant elongated narrow pointed toe with a single nail, tiny joined side toes unobtrusive. Hindfeet must NOT look like split cloven hooves or two equal large toes. Keep entire silhouette in frame. One entire animal, all extremities clear. No text, no other species.",
+        "referenceSha256": "5380acbd2686feedb6b7334649475bc0dedde33c4e6e892ae8feef078d9bc082"
+      }
+    ]
+  },
+  {
+    "scene": "06-observation",
+    "title": "两个观察方向",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct southern pig-footed bandicoot Chaeropus ecaudatus, small warm brown marsupial with pale underside, pointed muzzle, large upright ears, long thin delicate legs, two functional hooflike toes per forefoot and one main weightbearing toe per hindfoot, long slender tail with dark tuft; not a pig, not tailless. Setting: southern Australian open grassland with distant sparse woodland. Two separate exterior studies of the same adult phenotype, one side view and one three quarter view, on a quiet neutral background. Whole subjects with clear extremities. Comparison illustration, not natural coexistence. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Correct this southern pig-footed bandicoot Chaeropus ecaudatus reconstruction. Keep identity, coat, ears, pointed snout, long dark-tufted tail, background,1536x1024 landscape and composition. Each animal must have LOW HORIZONTAL body with ALL FOUR feet grounded, no upright kangaroo pose and no tucked forearms. Crucial anatomy: each FOREFOOT has TWO narrow claw-tipped functional toes; each HINDFOOT has ONE dominant elongated narrow pointed toe with a single nail, tiny joined side toes unobtrusive. Hindfeet must NOT look like split cloven hooves or two equal large toes. Keep entire silhouette in frame. Keep two views of same adult phenotype, one side view and one threequarter view; both quadrupedal, whole bodies. No text, no other species.",
+        "referenceSha256": "a3c1f24daec45364039dd7f1f5e9fe04f387f0a0188e2619c03f551ce3946dcc"
+      }
+    ]
+  }
+]
