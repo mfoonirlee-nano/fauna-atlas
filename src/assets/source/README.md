@@ -1044,3 +1044,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [雷龙图片集](./species/brontosaurus-excelsus/README.md)
 - [路氏迷惑龙图片集](./species/apatosaurus-louisae/README.md)
+- [脆弱异特龙图片集](./species/allosaurus-fragilis/README.md)

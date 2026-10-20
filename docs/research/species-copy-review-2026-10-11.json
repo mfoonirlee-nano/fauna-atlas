@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "737 animal species profiles; 700 prior profiles and 37 extinct-animal additions through 2026-10-20; microbial topics excluded",
+  "scope": "738 animal species profiles; 700 prior profiles and 38 extinct-animal additions through 2026-10-20; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 177,
+    "addedProfiles": 178,
     "addedProfilesReviewDate": "2026-10-20",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -33721,6 +33721,53 @@
             "https://www.nps.gov/subjects/fossils/fossil-type-specimens-in-parks.htm",
             "https://carnegiemnh.org/jurassic-days-specimen-scavenger-hunt/",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC4393826/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "allosaurus-fragilis",
+      "name": "脆弱异特龙",
+      "scientificName": "Allosaurus fragilis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+            "https://digitalcollections.amnh.org/archive/Mounted-skull-of-Allosaurus-fragilis--American-Museum-of-Natural-History-2URM1T1DZIAK.html",
+            "https://home.nps.gov/articles/000/dinosaur-skulls.htm"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+            "https://digitalcollections.amnh.org/archive/Mounted-skull-of-Allosaurus-fragilis--American-Museum-of-Natural-History-2URM1T1DZIAK.html",
+            "https://home.nps.gov/articles/000/dinosaur-skulls.htm"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+            "https://digitalcollections.amnh.org/archive/Mounted-skull-of-Allosaurus-fragilis--American-Museum-of-Natural-History-2URM1T1DZIAK.html",
+            "https://home.nps.gov/articles/000/dinosaur-skulls.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+            "https://digitalcollections.amnh.org/archive/Mounted-skull-of-Allosaurus-fragilis--American-Museum-of-Natural-History-2URM1T1DZIAK.html",
+            "https://home.nps.gov/articles/000/dinosaur-skulls.htm"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
+            "https://digitalcollections.amnh.org/archive/Mounted-skull-of-Allosaurus-fragilis--American-Museum-of-Natural-History-2URM1T1DZIAK.html",
+            "https://home.nps.gov/articles/000/dinosaur-skulls.htm"
           ]
         }
       }

@@ -6927,5 +6927,18 @@
       },
       "sha256": "03fcbcdef245585ff586bf736abccc1ae3f219e83a31ea5ba15f98348c324f33"
     }
+  },
+  "allosaurus-fragilis": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 285,
+        "right": 1525,
+        "bottom": 830
+      },
+      "sha256": "52555949f7f662c3a0d39208db5bd2c5506a214b05812d2608455e7343f95a9a"
+    }
   }
 }

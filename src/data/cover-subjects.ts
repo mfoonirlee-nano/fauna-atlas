@@ -7372,4 +7372,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 790
     }
   },
+  "allosaurus-fragilis": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 285,
+      "right": 1525,
+      "bottom": 830
+    }
+  },
 };
