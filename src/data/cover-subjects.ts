@@ -7102,4 +7102,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 940
     }
   },
+  "lesser-bilby": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 210,
+      "right": 1460,
+      "bottom": 775
+    }
+  },
+  "southern-pig-footed-bandicoot": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 690,
+      "top": 385,
+      "right": 1475,
+      "bottom": 730
+    }
+  },
+  "carolina-parakeet": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 770,
+      "top": 48,
+      "right": 1400,
+      "bottom": 970
+    }
+  },
+  "labrador-duck": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 120,
+      "right": 1470,
+      "bottom": 880
+    }
+  },
+  "spectacled-cormorant": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 705,
+      "top": 60,
+      "right": 1495,
+      "bottom": 915
+    }
+  }
 };

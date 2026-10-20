@@ -999,3 +999,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [加勒比僧海豹图片集](./species/caribbean-monk-seal/README.md)
 - [福克兰狼图片集](./species/falkland-island-wolf/README.md)
 - [蓝马羚图片集](./species/bluebuck/README.md)
+
+## 2026-10-20 第三批灭绝动物
+
+- [小兔耳袋狸图片集](./species/lesser-bilby/README.md)
+- [南方豚足袋狸图片集](./species/southern-pig-footed-bandicoot/README.md)
+- [卡罗来纳鹦鹉图片集](./species/carolina-parakeet/README.md)
+- [拉布拉多鸭图片集](./species/labrador-duck/README.md)
+- [白令鸬鹚图片集](./species/spectacled-cormorant/README.md)

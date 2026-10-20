@@ -130,7 +130,7 @@ test('hero separates foreground from backdrop and never scales during crossfade'
 });
 
 test('new animal covers retain a complete right-side source silhouette', () => {
-  for (const slug of ['stellers-sea-cow', 'giant-deer', 'caribbean-monk-seal', 'falkland-island-wolf', 'bluebuck']) {
+  for (const slug of ['lesser-bilby', 'southern-pig-footed-bandicoot', 'carolina-parakeet', 'labrador-duck', 'spectacled-cormorant', 'stellers-sea-cow', 'giant-deer', 'caribbean-monk-seal', 'falkland-island-wolf', 'bluebuck']) {
     const { width, height, bounds } = reviewedCovers[slug].cover;
     assert.ok(bounds.left >= width * .4, `${slug}: quiet left side`);
     assert.ok((bounds.left + bounds.right) / 2 >= width * .6, `${slug}: right-side center`);

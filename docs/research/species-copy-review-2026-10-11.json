@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "710 animal species profiles; 700 prior profiles and 10 extinct-animal additions through 2026-10-19; microbial topics excluded",
+  "scope": "715 animal species profiles; 700 prior profiles and 15 extinct-animal additions through 2026-10-20; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 150,
-    "addedProfilesReviewDate": "2026-10-19",
+    "addedProfiles": 155,
+    "addedProfilesReviewDate": "2026-10-20",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -32614,8 +32614,268 @@
           ]
         }
       }
+    },
+    {
+      "slug": "lesser-bilby",
+      "name": "小兔耳袋狸",
+      "scientificName": "Macrotis leucura",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/5219459",
+            "https://nt.gov.au/__data/assets/pdf_file/0017/205424/lesser-bilby.pdf",
+            "https://australian.museum/blog/amri-news/australias-answer-to-the-easter-bunny-the-easter-bilby/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/5219459",
+            "https://nt.gov.au/__data/assets/pdf_file/0017/205424/lesser-bilby.pdf",
+            "https://australian.museum/blog/amri-news/australias-answer-to-the-easter-bunny-the-easter-bilby/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/5219459",
+            "https://nt.gov.au/__data/assets/pdf_file/0017/205424/lesser-bilby.pdf",
+            "https://australian.museum/blog/amri-news/australias-answer-to-the-easter-bunny-the-easter-bilby/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5219459",
+            "https://nt.gov.au/__data/assets/pdf_file/0017/205424/lesser-bilby.pdf",
+            "https://australian.museum/blog/amri-news/australias-answer-to-the-easter-bunny-the-easter-bilby/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5219459",
+            "https://nt.gov.au/__data/assets/pdf_file/0017/205424/lesser-bilby.pdf",
+            "https://australian.museum/blog/amri-news/australias-answer-to-the-easter-bunny-the-easter-bilby/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "southern-pig-footed-bandicoot",
+      "name": "南方豚足袋狸",
+      "scientificName": "Chaeropus ecaudatus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/5219454",
+            "https://australian.museum/blog/amri-news/a-new-type-of-pig-footed-bandicoot/",
+            "https://doi.org/10.11646/zootaxa.4566.1.1",
+            "https://journals.australian.museum/travouillon-2020-rec-aust-mus-723-7780/",
+            "https://visit.museum.wa.gov.au/learn/news-stories/wa-and-uk-researchers-discover-new-species-extinct-australian-mammal"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/5219454",
+            "https://australian.museum/blog/amri-news/a-new-type-of-pig-footed-bandicoot/",
+            "https://doi.org/10.11646/zootaxa.4566.1.1",
+            "https://journals.australian.museum/travouillon-2020-rec-aust-mus-723-7780/",
+            "https://visit.museum.wa.gov.au/learn/news-stories/wa-and-uk-researchers-discover-new-species-extinct-australian-mammal"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/5219454",
+            "https://australian.museum/blog/amri-news/a-new-type-of-pig-footed-bandicoot/",
+            "https://doi.org/10.11646/zootaxa.4566.1.1",
+            "https://journals.australian.museum/travouillon-2020-rec-aust-mus-723-7780/",
+            "https://visit.museum.wa.gov.au/learn/news-stories/wa-and-uk-researchers-discover-new-species-extinct-australian-mammal"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5219454",
+            "https://australian.museum/blog/amri-news/a-new-type-of-pig-footed-bandicoot/",
+            "https://doi.org/10.11646/zootaxa.4566.1.1",
+            "https://journals.australian.museum/travouillon-2020-rec-aust-mus-723-7780/",
+            "https://visit.museum.wa.gov.au/learn/news-stories/wa-and-uk-researchers-discover-new-species-extinct-australian-mammal"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5219454",
+            "https://australian.museum/blog/amri-news/a-new-type-of-pig-footed-bandicoot/",
+            "https://doi.org/10.11646/zootaxa.4566.1.1",
+            "https://journals.australian.museum/travouillon-2020-rec-aust-mus-723-7780/",
+            "https://visit.museum.wa.gov.au/learn/news-stories/wa-and-uk-researchers-discover-new-species-extinct-australian-mammal"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "carolina-parakeet",
+      "name": "卡罗来纳鹦鹉",
+      "scientificName": "Conuropsis carolinensis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/2479449",
+            "https://blog.library.si.edu/blog/2014/07/04/carolina-parakeet-a-splendor-of-beauty-gone-forever/",
+            "https://animaldiversity.org/accounts/Conuropsis_carolinensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019437/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9830951/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/2479449",
+            "https://blog.library.si.edu/blog/2014/07/04/carolina-parakeet-a-splendor-of-beauty-gone-forever/",
+            "https://animaldiversity.org/accounts/Conuropsis_carolinensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019437/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9830951/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/2479449",
+            "https://blog.library.si.edu/blog/2014/07/04/carolina-parakeet-a-splendor-of-beauty-gone-forever/",
+            "https://animaldiversity.org/accounts/Conuropsis_carolinensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019437/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9830951/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2479449",
+            "https://blog.library.si.edu/blog/2014/07/04/carolina-parakeet-a-splendor-of-beauty-gone-forever/",
+            "https://animaldiversity.org/accounts/Conuropsis_carolinensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019437/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9830951/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2479449",
+            "https://blog.library.si.edu/blog/2014/07/04/carolina-parakeet-a-splendor-of-beauty-gone-forever/",
+            "https://animaldiversity.org/accounts/Conuropsis_carolinensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019437/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9830951/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "labrador-duck",
+      "name": "拉布拉多鸭",
+      "scientificName": "Camptorhynchus labradorius",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/5232436",
+            "https://repository.si.edu/bitstreams/0ac3b3d9-37df-4d33-837d-813e93035e3d/download",
+            "https://repository.si.edu/bitstreams/6d40137f-6042-4a9c-9c0f-d6365750bddd/download"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/5232436",
+            "https://repository.si.edu/bitstreams/0ac3b3d9-37df-4d33-837d-813e93035e3d/download",
+            "https://repository.si.edu/bitstreams/6d40137f-6042-4a9c-9c0f-d6365750bddd/download"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/5232436",
+            "https://repository.si.edu/bitstreams/0ac3b3d9-37df-4d33-837d-813e93035e3d/download",
+            "https://repository.si.edu/bitstreams/6d40137f-6042-4a9c-9c0f-d6365750bddd/download"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5232436",
+            "https://repository.si.edu/bitstreams/0ac3b3d9-37df-4d33-837d-813e93035e3d/download",
+            "https://repository.si.edu/bitstreams/6d40137f-6042-4a9c-9c0f-d6365750bddd/download"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5232436",
+            "https://repository.si.edu/bitstreams/0ac3b3d9-37df-4d33-837d-813e93035e3d/download",
+            "https://repository.si.edu/bitstreams/6d40137f-6042-4a9c-9c0f-d6365750bddd/download"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "spectacled-cormorant",
+      "name": "白令鸬鹚",
+      "scientificName": "Urile perspicillatus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.gbif.org/species/11084312",
+            "https://www.nhm.ac.uk/discover/news/2024/march/rediscovering-worlds-largest-cormorant.html",
+            "https://doi.org/10.25226/bboc.v144i1.2024.a2",
+            "https://link.springer.com/article/10.1186/s12862-026-02585-x"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.gbif.org/species/11084312",
+            "https://www.nhm.ac.uk/discover/news/2024/march/rediscovering-worlds-largest-cormorant.html",
+            "https://doi.org/10.25226/bboc.v144i1.2024.a2",
+            "https://link.springer.com/article/10.1186/s12862-026-02585-x"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.gbif.org/species/11084312",
+            "https://www.nhm.ac.uk/discover/news/2024/march/rediscovering-worlds-largest-cormorant.html",
+            "https://doi.org/10.25226/bboc.v144i1.2024.a2",
+            "https://link.springer.com/article/10.1186/s12862-026-02585-x"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/11084312",
+            "https://www.nhm.ac.uk/discover/news/2024/march/rediscovering-worlds-largest-cormorant.html",
+            "https://doi.org/10.25226/bboc.v144i1.2024.a2",
+            "https://link.springer.com/article/10.1186/s12862-026-02585-x"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/11084312",
+            "https://www.nhm.ac.uk/discover/news/2024/march/rediscovering-worlds-largest-cormorant.html",
+            "https://doi.org/10.25226/bboc.v144i1.2024.a2",
+            "https://link.springer.com/article/10.1186/s12862-026-02585-x"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",
-  "lastExtendedAt": "2026-10-18"
+  "lastExtendedAt": "2026-10-20"
 }

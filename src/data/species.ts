@@ -721,6 +721,16 @@ import extinct7 from './species/caribbean-monk-seal.js';
 import extinct8 from './species/falkland-island-wolf.js';
 import extinct9 from './species/bluebuck.js';
 
+import extinct10 from './species/lesser-bilby.js';
+
+import extinct11 from './species/southern-pig-footed-bandicoot.js';
+
+import extinct12 from './species/carolina-parakeet.js';
+
+import extinct13 from './species/labrador-duck.js';
+
+import extinct14 from './species/spectacled-cormorant.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1432,6 +1442,11 @@ export const species: readonly Species[] = [
   extinct7,
   extinct8,
   extinct9,
+  extinct10,
+  extinct11,
+  extinct12,
+  extinct13,
+  extinct14,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
