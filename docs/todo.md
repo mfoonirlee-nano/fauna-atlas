@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 30 个，待制作 70 个。本次新增异鹩、奥克兰秋沙鸭、芬氏鸭、南岛巨鹅、南岛厚嘴鹤，动物目录现有 730 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)及[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-20 更新：本轮 100 个已灭绝动物选题，已完成 35 个，待制作 65 个。本次新增霸王龙、三角龙、装甲剑龙、巨型腕龙、卡内基梁龙，动物目录现有 735 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)及[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -21,13 +21,13 @@
 | 制作分组 | 待制作数量 |
 | --- | ---: |
 | 近代及全新世灭绝动物 | 0 |
-| 非鸟恐龙 | 25 |
+| 非鸟恐龙 | 20 |
 | 其他古爬行动物 | 12 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 70 |
+| 合计 | 65 |
 
 ## 选题与资料
 
@@ -37,15 +37,10 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 非鸟恐龙（25 种）
+### 非鸟恐龙（待制作 20 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E031 | 霸王龙 | *Tyrannosaurus rex* | 白垩纪 | 头骨、牙齿与前肢的比例 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54833) |
-| [ ] | E032 | 三角龙 | *Triceratops horridus* | 白垩纪 | 三根角与头盾的形状 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=63766) |
-| [ ] | E033 | 装甲剑龙 | *Stegosaurus stenops* | 晚侏罗世 | 背板与尾刺的位置 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=56491) |
-| [ ] | E034 | 巨型腕龙 | *Brachiosaurus altithorax* | 晚侏罗世 | 前后肢长度与肩部高度 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54864) |
-| [ ] | E035 | 卡内基梁龙 | *Diplodocus carnegii* | 晚侏罗世 | 长颈与长尾的骨骼连接 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=65917) |
 | [ ] | E036 | 雷龙 | *Brontosaurus excelsus* | 晚侏罗世 | 四足支撑与颈椎结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52982) |
 | [ ] | E037 | 路氏迷惑龙 | *Apatosaurus louisae* | 晚侏罗世 | 与梁龙比较颈部骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=57752) |
 | [ ] | E038 | 脆弱异特龙 | *Allosaurus fragilis* | 晚侏罗世 | 牙齿、爪与后肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52962) |
@@ -139,9 +134,9 @@
 
 ---
 
-## 本轮完成归档：E001–E030
+## 本轮完成归档：E001–E035
 
-2026-10-20 已完成六批共 30 份物种档案及 180 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批记录](research/todo-extinct-fifth-five-2026-10-20.md)及[第六批记录](research/todo-extinct-sixth-five-2026-10-20.md)。
+2026-10-20 已完成七批共 35 份物种档案及 210 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批记录](research/todo-extinct-sixth-five-2026-10-20.md)及[第七批记录](research/todo-extinct-seventh-five-2026-10-20.md)。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -175,6 +170,11 @@
 | [x] | E028 | 芬氏鸭 | *Chenonetta finschi* | 波利尼西亚人抵达后灭绝，是否延续到欧洲人时期仍不确定 | 粗腿、小翅与陆地取食；骨骼记录的变化 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/finschs-duck) |
 | [x] | E029 | 南岛巨鹅 | *Cnemiornis calcitrans* | 欧洲人抵达前灭绝，不指定单一年份 | 巨大体型、短翅、截平的喙与吃草 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-goose) |
 | [x] | E030 | 南岛厚嘴鹤 | *Aptornis defossor* | 欧洲定居前灭绝；与北岛种的划分按来源物种处理 | 粗壮下弯喙、缩小的翅骨与骨骼中的食性证据 | [NZ Birds Online](https://www.nzbirdsonline.org.nz/species/south-island-adzebill) |
+| [x] | E031 | 霸王龙 | *Tyrannosaurus rex* | 白垩纪 | 头骨、牙齿与前肢的比例 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54833) |
+| [x] | E032 | 三角龙 | *Triceratops horridus* | 白垩纪 | 三根角与头盾的形状 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=63766) |
+| [x] | E033 | 装甲剑龙 | *Stegosaurus stenops* | 晚侏罗世 | 背板与尾刺的位置 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=56491) |
+| [x] | E034 | 巨型腕龙 | *Brachiosaurus altithorax* | 晚侏罗世 | 前后肢长度与肩部高度 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54864) |
+| [x] | E035 | 卡内基梁龙 | *Diplodocus carnegii* | 晚侏罗世 | 长颈与长尾的骨骼连接 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=65917) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

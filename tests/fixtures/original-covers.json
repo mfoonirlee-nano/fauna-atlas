@@ -6888,5 +6888,18 @@
       },
       "sha256": "d4aa1c5ba87761a16403d6046d98cce9abf71c7d9632572bd67dd3d51b7ab53e"
     }
+  },
+  "diplodocus-carnegii": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 615,
+        "top": 375,
+        "right": 1530,
+        "bottom": 745
+      },
+      "sha256": "7eab1425adb749e30d20fb8801ebc33efa3264d8c49a36af2762b605986bc680"
+    }
   }
 }

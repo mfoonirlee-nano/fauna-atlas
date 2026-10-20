@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "734 animal species profiles; 700 prior profiles and 34 extinct-animal additions through 2026-10-20; microbial topics excluded",
+  "scope": "735 animal species profiles; 700 prior profiles and 35 extinct-animal additions through 2026-10-20; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 174,
+    "addedProfiles": 175,
     "addedProfilesReviewDate": "2026-10-20",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -33579,6 +33579,49 @@
           "sources": [
             "https://www.nhm.ac.uk/discover/dino-directory/brachiosaurus.html",
             "https://www.fieldmuseum.org/blog/why-we-dont-dress-sue-or-any-other-real-skeletons"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "diplodocus-carnegii",
+      "name": "卡内基梁龙",
+      "scientificName": "Diplodocus carnegii",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html",
+            "https://carnegiemnh.org/house-dippy-built/",
+            "https://www.nhm.ac.uk/discover/diplodocus-this-is-your-life.html",
+            "https://www.miketaylor.org.uk/dino/pubs/taylor-et-al-2025/TaylorEtAl2025--history-and-composition-of-the-Carnegie-Diplodocus.pdf"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html",
+            "https://carnegiemnh.org/house-dippy-built/",
+            "https://www.nhm.ac.uk/discover/diplodocus-this-is-your-life.html",
+            "https://www.miketaylor.org.uk/dino/pubs/taylor-et-al-2025/TaylorEtAl2025--history-and-composition-of-the-Carnegie-Diplodocus.pdf"
           ]
         }
       }

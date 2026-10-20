@@ -120,6 +120,53 @@
         "genusKey": 4822846,
         "speciesKey": 4967320
       }
+    },
+    {
+      "name": "Diplodocus carnegii",
+      "url": "https://api.gbif.org/v1/species/match?name=Diplodocus+carnegii&verbose=true",
+      "data": {
+        "usageKey": 4967492,
+        "scientificName": "Diplodocus carnegii Hatcher, 1901",
+        "canonicalName": "Diplodocus carnegii",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "note": "Similarity: name=110; authorship=0; classification=-2; rank=6; status=1; score=115; nextMatch=5",
+        "matchType": "EXACT",
+        "alternatives": [
+          {
+            "usageKey": 9492397,
+            "acceptedUsageKey": 4967492,
+            "scientificName": "Diplodocus carnegiei Hatcher, 1901",
+            "canonicalName": "Diplodocus carnegiei",
+            "rank": "SPECIES",
+            "status": "SYNONYM",
+            "confidence": 92,
+            "note": "Similarity: name=95; authorship=0; classification=-2; rank=6; status=0; score=99",
+            "matchType": "FUZZY",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Diplodocidae",
+            "genus": "Diplodocus",
+            "species": "Diplodocus carnegii",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3239001,
+            "genusKey": 4822550,
+            "speciesKey": 4967492
+          }
+        ],
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Diplodocidae",
+        "genus": "Diplodocus",
+        "species": "Diplodocus carnegii",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 3239001,
+        "genusKey": 4822550,
+        "speciesKey": 4967492
+      }
     }
   ]
 }

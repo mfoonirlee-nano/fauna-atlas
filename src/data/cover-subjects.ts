@@ -7341,5 +7341,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1505,
       "bottom": 890
     }
+  },
+  "diplodocus-carnegii": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 615,
+      "top": 375,
+      "right": 1530,
+      "bottom": 745
+    }
   }
 };

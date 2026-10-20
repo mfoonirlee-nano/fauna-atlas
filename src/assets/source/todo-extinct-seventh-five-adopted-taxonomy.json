@@ -74,6 +74,23 @@
         "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54864"
       ],
       "notes": "Elmer S. Riggs 于 1903 年命名 Brachiosaurus altithorax。属名含臂蜥蜴之意，与长前肢有关；非洲的 Giraffatitan brancai 在本档案中作为近缘种区分。"
+    },
+    {
+      "slug": "diplodocus-carnegii",
+      "scientificName": "Diplodocus carnegii",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Diplodocidae",
+      "genus": "Diplodocus",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html",
+        "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=65917"
+      ],
+      "notes": "John Bell Hatcher 于 1901 年命名 Diplodocus carnegii，种名纪念支持考察的 Andrew Carnegie。梁龙属名与尾下成对梁状骨有关，命名史不等于动物的生活年代。"
     }
   ]
 }
