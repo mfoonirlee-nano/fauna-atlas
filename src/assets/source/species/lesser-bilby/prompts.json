@@ -1,0 +1,50 @@
+[
+  {
+    "scene": "01-cover",
+    "title": "封面",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct lesser bilby Macrotis leucura, slim sandy-grey marsupial with pale belly, very large pink rabbitlike ears, narrow pointed snout, long white furry tail with NO black band, slender legs and digging claws. Setting: Australian inland sandy dunes and sparse spinifex. One whole animal on RIGHT, complete silhouette including ear tips, muzzle, tail and feet inside x=680..1460 y=120..920. Center beyond 60% width, left 40% quiet background. Make subject large within those bounds, no obscuring plants. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen",
+    "edits": [
+      {
+        "prompt": "Edit this lesser bilby scientific reconstruction cover. Preserve the same animal identity and anatomy, entirely white long tail, ears and all feet. Change composition only: uniformly scale the entire animal to 70 percent of its current size and move the complete animal to the RIGHT. Its ENTIRE silhouette including white tail tip, ear tips and muzzle must lie between x=670 and x=1470 and between y=120 and y=920 on the 1536x1024 canvas. Tail must not extend into left 40 percent. Keep animal as large as these limits allow. Repaint background naturally. Keep landscape canvas 1536x1024. No text, no new animals, no cropping of any extremity.",
+        "referenceSha256": "8e198db9efb526c486817e49edf5cbe551063d9cd9b126d6f9f983c61a5f7c6b"
+      }
+    ]
+  },
+  {
+    "scene": "02-observation",
+    "title": "外形与比例",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct lesser bilby Macrotis leucura, slim sandy-grey marsupial with pale belly, very large pink rabbitlike ears, narrow pointed snout, long white furry tail with NO black band, slender legs and digging claws. Setting: Australian inland sandy dunes and sparse spinifex. One whole animal in clear side profile, large centered, include every extremity with background clearance. Show proportions. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "03-observation",
+    "title": "头部与外部特征",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct lesser bilby Macrotis leucura, slim sandy-grey marsupial with pale belly, very large pink rabbitlike ears, narrow pointed snout, long white furry tail with NO black band, slender legs and digging claws. Setting: Australian inland sandy dunes and sparse spinifex. Close three quarter head study showing ears and muzzle. Accurate exterior only, no cutaway or inset. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "04-observation",
+    "title": "外观模型示意",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct lesser bilby Macrotis leucura, slim sandy-grey marsupial with pale belly, very large pink rabbitlike ears, narrow pointed snout, long white furry tail with NO black band, slender legs and digging claws. Setting: Australian inland sandy dunes and sparse spinifex. An imagined painted exterior sculpture of this species on a plain neutral plinth. Entire model visible. No bones, no museum labels; does not depict a real specimen. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "05-observation",
+    "title": "历史生活环境",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct lesser bilby Macrotis leucura, slim sandy-grey marsupial with pale belly, very large pink rabbitlike ears, narrow pointed snout, long white furry tail with NO black band, slender legs and digging claws. Setting: Australian inland sandy dunes and sparse spinifex. One whole animal centered in its representative historical environment. Clear feet and tail, restrained surroundings, no other animals. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  },
+  {
+    "scene": "06-observation",
+    "title": "两个观察方向",
+    "prompt": "Use case: scientific-educational. Asset: children's natural history atlas, landscape 1536x1024. Subject: Extinct lesser bilby Macrotis leucura, slim sandy-grey marsupial with pale belly, very large pink rabbitlike ears, narrow pointed snout, long white furry tail with NO black band, slender legs and digging claws. Setting: Australian inland sandy dunes and sparse spinifex. Two separate exterior studies of the same adult phenotype, one side view and one three quarter view, on a quiet neutral background. Whole subjects with clear extremities. Comparison illustration, not natural coexistence. Style: detailed realistic painterly scientific reconstruction, coherent anatomy, soft light. Extinct animal reconstruction, not historic photograph; scenery and pose are artistic choices. No text, labels, logo, watermark, border, scale bars, arrows or other species.",
+    "status": "accepted-2026-10-20",
+    "tool": "built-in image_gen"
+  }
+]

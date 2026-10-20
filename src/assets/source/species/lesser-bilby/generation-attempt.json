@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-19",
+  "tool": "built-in image_gen",
+  "scene": "01-cover",
+  "prompt": "Use case: scientific-educational. Generate a landscape 1536x1024 scientific reconstruction painting for children's animal atlas. Extinct lesser bilby Macrotis leucura, small slim sandy-grey marsupial with white belly, very long rabbitlike pink ears, narrow pointed snout, slender legs with digging claws, long entirely pale white furry tail. No black tail band (not greater bilby). Australian sandy desert sparse low spinifex, soft evening light. One complete animal on RIGHT: entire silhouette including ear tips, muzzle, feet and tail contained within x=680..1460 y=160..910. Animal center beyond 60% width, left 40% calm empty sand. Large clear subject, nothing obscures feet or tail. Realistic natural history illustration, reconstruction not historic photograph. No text labels borders or watermark.",
+  "outcome": "failed",
+  "error": {
+    "httpStatus": 429,
+    "type": "usage_limit_reached",
+    "limitWindowMinutes": 1440
+  },
+  "outputFiles": [],
+  "fallbackUsed": false
+}
