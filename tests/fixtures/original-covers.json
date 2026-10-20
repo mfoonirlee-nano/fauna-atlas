@@ -6914,5 +6914,18 @@
       },
       "sha256": "a4f0847dcdfc3612baa2860b176a63f6e92d66fd50123682caf4eb15b1b784c1"
     }
+  },
+  "apatosaurus-louisae": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 245,
+        "right": 1515,
+        "bottom": 790
+      },
+      "sha256": "03fcbcdef245585ff586bf736abccc1ae3f219e83a31ea5ba15f98348c324f33"
+    }
   }
 }

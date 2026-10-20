@@ -754,6 +754,7 @@ import extinct32 from './species/stegosaurus-stenops.js';
 import extinct33 from './species/brachiosaurus-altithorax.js';
 import extinct34 from './species/diplodocus-carnegii.js';
 import extinct35 from './species/brontosaurus-excelsus.js';
+import extinct36 from './species/apatosaurus-louisae.js';
 
 export const species: readonly Species[] = [
   profile0,
@@ -1492,6 +1493,7 @@ export const species: readonly Species[] = [
   extinct33,
   extinct34,
   extinct35,
+  extinct36,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

@@ -1043,3 +1043,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 ## 2026-10-20 第八批灭绝动物
 
 - [雷龙图片集](./species/brontosaurus-excelsus/README.md)
+- [路氏迷惑龙图片集](./species/apatosaurus-louisae/README.md)
