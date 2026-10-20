@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "738 animal species profiles; 700 prior profiles and 38 extinct-animal additions through 2026-10-20; microbial topics excluded",
+  "scope": "739 animal species profiles; 700 prior profiles and 39 extinct-animal additions through 2026-10-20; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 178,
+    "addedProfiles": 179,
     "addedProfilesReviewDate": "2026-10-20",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -33768,6 +33768,53 @@
             "https://www.nhm.ac.uk/discover/dino-directory/allosaurus.html",
             "https://digitalcollections.amnh.org/archive/Mounted-skull-of-Allosaurus-fragilis--American-Museum-of-Natural-History-2URM1T1DZIAK.html",
             "https://home.nps.gov/articles/000/dinosaur-skulls.htm"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "velociraptor-mongoliensis",
+      "name": "蒙古伶盗龙",
+      "scientificName": "Velociraptor mongoliensis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.amnh.org/explore/news-blogs/velociraptor-feather-evidence",
+            "https://www.nhm.ac.uk/discover/velociraptor-facts.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.amnh.org/explore/news-blogs/velociraptor-feather-evidence",
+            "https://www.nhm.ac.uk/discover/velociraptor-facts.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.amnh.org/explore/news-blogs/velociraptor-feather-evidence",
+            "https://www.nhm.ac.uk/discover/velociraptor-facts.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.amnh.org/explore/news-blogs/velociraptor-feather-evidence",
+            "https://www.nhm.ac.uk/discover/velociraptor-facts.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.amnh.org/explore/news-blogs/velociraptor-feather-evidence",
+            "https://www.nhm.ac.uk/discover/velociraptor-facts.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/velociraptor.html"
           ]
         }
       }

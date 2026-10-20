@@ -7382,4 +7382,14 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 830
     }
   },
+  "velociraptor-mongoliensis": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 635,
+      "top": 270,
+      "right": 1518,
+      "bottom": 855
+    }
+  },
 };

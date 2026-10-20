@@ -6940,5 +6940,18 @@
       },
       "sha256": "52555949f7f662c3a0d39208db5bd2c5506a214b05812d2608455e7343f95a9a"
     }
+  },
+  "velociraptor-mongoliensis": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 635,
+        "top": 270,
+        "right": 1518,
+        "bottom": 855
+      },
+      "sha256": "d6a2a3383d6ef8c4817b1494c6ad634da6d5b6d9da4014913231475a1b90ba6e"
+    }
   }
 }
