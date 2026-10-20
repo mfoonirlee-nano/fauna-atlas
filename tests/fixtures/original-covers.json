@@ -6836,5 +6836,18 @@
       },
       "sha256": "b9c0d367cd857a3bff7bb0188e1cd61e2c35bb30701d823c345354e991d9b785"
     }
+  },
+  "tyrannosaurus-rex": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 660,
+        "top": 250,
+        "right": 1520,
+        "bottom": 805
+      },
+      "sha256": "f5627ef8f363951ea011805b8aefa3c55b67520613f9122385658b7bbe628cc5"
+    }
   }
 }

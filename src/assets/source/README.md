@@ -1031,3 +1031,7 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [芬氏鸭图片集](./species/finschs-duck/README.md)
 - [南岛巨鹅图片集](./species/south-island-goose/README.md)
 - [南岛厚嘴鹤图片集](./species/south-island-adzebill/README.md)
+
+## 2026-10-20 第七批灭绝动物
+
+- [霸王龙图片集](./species/tyrannosaurus-rex/README.md)

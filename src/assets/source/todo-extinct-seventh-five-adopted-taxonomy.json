@@ -1,0 +1,28 @@
+{
+  "accessedAt": "2026-10-20",
+  "basis": "GBIF backbone for ranked path, with explicit species/genus correction for Triceratops horridus from PBDB and NHM. Omit class and order absent from GBIF ranked chain under ADR 0002; do not convert unranked dinosaur clades into classes/orders.",
+  "conflicts": [
+    "GBIF Triceratops horridus matches SYNONYM with genus Ceratops; adopted Triceratops horridus in genus Triceratops per PBDB accepted_name and current NHM/Smithsonian accounts.",
+    "PBDB phylo class labels differ between Reptilia, Ornithischia and Saurischia in the queried taxa; raw labels are recorded but not inserted into the GBIF-based ranked path.",
+    "PBDB aggregated early_interval for Tyrannosaurus and Triceratops includes Campanian; not adopted as final species age range. Profile uses only Late Cretaceous and museum evidence."
+  ],
+  "species": [
+    {
+      "slug": "tyrannosaurus-rex",
+      "scientificName": "Tyrannosaurus rex",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Tyrannosauridae",
+      "genus": "Tyrannosaurus",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
+        "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54833"
+      ],
+      "notes": "Henry Fairfield Osborn 于 1905 年命名 Tyrannosaurus rex，属名含暴君蜥蜴之意。本档案以这个具体物种为单位，不把所有大型肉食恐龙都叫霸王龙。"
+    }
+  ]
+}

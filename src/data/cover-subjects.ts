@@ -7301,5 +7301,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1500,
       "bottom": 920
     }
+  },
+  "tyrannosaurus-rex": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 660,
+      "top": 250,
+      "right": 1520,
+      "bottom": 805
+    }
   }
 };

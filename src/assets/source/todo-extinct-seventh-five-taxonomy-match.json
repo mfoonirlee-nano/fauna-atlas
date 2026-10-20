@@ -1,0 +1,52 @@
+{
+  "accessedAt": "2026-10-20",
+  "results": [
+    {
+      "name": "Tyrannosaurus rex",
+      "url": "https://api.gbif.org/v1/species/match?name=Tyrannosaurus+rex&verbose=true",
+      "data": {
+        "usageKey": 4822633,
+        "scientificName": "Tyrannosaurus rex Osborn, 1905",
+        "canonicalName": "Tyrannosaurus rex",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "note": "Similarity: name=110; authorship=0; classification=-2; rank=6; status=1; score=115; nextMatch=5",
+        "matchType": "EXACT",
+        "alternatives": [
+          {
+            "usageKey": 9601707,
+            "acceptedUsageKey": 4822633,
+            "scientificName": "Tyranosaurus rex Osborn, 1905",
+            "canonicalName": "Tyranosaurus rex",
+            "rank": "SPECIES",
+            "status": "SYNONYM",
+            "confidence": 79,
+            "note": "Similarity: name=75; authorship=0; classification=-2; rank=6; status=0; score=79",
+            "matchType": "FUZZY",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Tyrannosauridae",
+            "genus": "Tyrannosaurus",
+            "species": "Tyrannosaurus rex",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 4822619,
+            "genusKey": 4822631,
+            "speciesKey": 4822633
+          }
+        ],
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Tyrannosauridae",
+        "genus": "Tyrannosaurus",
+        "species": "Tyrannosaurus rex",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 4822619,
+        "genusKey": 4822631,
+        "speciesKey": 4822633
+      }
+    }
+  ]
+}

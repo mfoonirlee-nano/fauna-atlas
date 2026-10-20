@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "715 animal species profiles; 700 prior profiles and 15 extinct-animal additions through 2026-10-20; microbial topics excluded",
+  "scope": "731 animal species profiles; 700 prior profiles and 31 extinct-animal additions through 2026-10-20; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 155,
+    "addedProfiles": 171,
     "addedProfilesReviewDate": "2026-10-20",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -33421,6 +33421,45 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.nzbirdsonline.org.nz/species/south-island-adzebill"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tyrannosaurus-rex",
+      "name": "霸王龙",
+      "scientificName": "Tyrannosaurus rex",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
+            "https://www.nhm.ac.uk/discover/how-did-tyrannosaurus-use-its-arms.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/tyrannosaurus.html",
+            "https://www.nhm.ac.uk/discover/how-did-tyrannosaurus-use-its-arms.html"
           ]
         }
       }
