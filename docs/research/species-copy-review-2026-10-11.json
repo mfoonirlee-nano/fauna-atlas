@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "732 animal species profiles; 700 prior profiles and 32 extinct-animal additions through 2026-10-20; microbial topics excluded",
+  "scope": "733 animal species profiles; 700 prior profiles and 33 extinct-animal additions through 2026-10-20; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 172,
+    "addedProfiles": 173,
     "addedProfilesReviewDate": "2026-10-20",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -33499,6 +33499,47 @@
           "sources": [
             "https://www.nhm.ac.uk/discover/dino-directory/triceratops.html",
             "https://www.si.edu/object/nmnhpaleobiology_3572783"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "stegosaurus-stenops",
+      "name": "装甲剑龙",
+      "scientificName": "Stegosaurus stenops",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html",
+            "https://www.nhm.ac.uk/discover/stegosaurus-brought-to-life.html",
+            "https://www.nhm.ac.uk/discover/news/2016/may/dinosaur-eating-habit-insights-stegosaurus-stenops.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html",
+            "https://www.nhm.ac.uk/discover/stegosaurus-brought-to-life.html",
+            "https://www.nhm.ac.uk/discover/news/2016/may/dinosaur-eating-habit-insights-stegosaurus-stenops.html"
           ]
         }
       }

@@ -70,6 +70,41 @@
           }
         ]
       }
+    },
+    {
+      "name": "Stegosaurus stenops",
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Stegosaurus+stenops&show=attr%2Capp%2Cphylo&vocab=pbdb",
+      "data": {
+        "elapsed_time": 0.00244,
+        "records": [
+          {
+            "orig_no": "56491",
+            "taxon_no": "56491",
+            "record_type": "txn",
+            "taxon_rank": "species",
+            "taxon_name": "Stegosaurus stenops",
+            "taxon_attr": "(Marsh 1887)",
+            "accepted_no": "56491",
+            "accepted_rank": "species",
+            "accepted_name": "Stegosaurus stenops",
+            "parent_no": "38814",
+            "reference_no": "10619",
+            "is_extant": "extinct",
+            "n_occs": 9,
+            "firstapp_max_ma": 154.8,
+            "firstapp_min_ma": 149.2,
+            "lastapp_max_ma": 149.2,
+            "lastapp_min_ma": 143.1,
+            "early_interval": "Kimmeridgian",
+            "late_interval": "Tithonian",
+            "phylum": "Chordata",
+            "class": "Ornithischia",
+            "order": "NO_ORDER_SPECIFIED",
+            "family": "Stegosauridae",
+            "genus": "Stegosaurus"
+          }
+        ]
+      }
     }
   ]
 }

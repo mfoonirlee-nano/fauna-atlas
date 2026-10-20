@@ -6862,5 +6862,18 @@
       },
       "sha256": "b2ab7e575eb410120bd894d71194eb9a2ea396f451917c91eeb2192fb2d0a487"
     }
+  },
+  "stegosaurus-stenops": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 625,
+        "top": 220,
+        "right": 1530,
+        "bottom": 820
+      },
+      "sha256": "483c25b2219a97be12fe34b85aa54499deaee3c17561a3bf85fdc6f1fbbe0ec7"
+    }
   }
 }

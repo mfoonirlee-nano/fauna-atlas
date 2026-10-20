@@ -7321,5 +7321,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1515,
       "bottom": 820
     }
+  },
+  "stegosaurus-stenops": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 220,
+      "right": 1530,
+      "bottom": 820
+    }
   }
 };

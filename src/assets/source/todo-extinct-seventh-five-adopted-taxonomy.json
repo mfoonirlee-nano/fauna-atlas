@@ -40,6 +40,23 @@
         "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=63766"
       ],
       "notes": "Othniel Charles Marsh 于 1889 年命名本种。属名含三角面孔之意；本档案记录 Triceratops horridus，不将 Triceratops prorsus 的特征与名称混作同一个物种。"
+    },
+    {
+      "slug": "stegosaurus-stenops",
+      "scientificName": "Stegosaurus stenops",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "family": "Stegosauridae",
+      "genus": "Stegosaurus",
+      "omittedRanks": [
+        "class",
+        "order"
+      ],
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/stegosaurus.html",
+        "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=56491"
+      ],
+      "notes": "Marsh 于 1887 年命名 Stegosaurus stenops。剑龙属的命名更早，不能把属名的 1877 年直接当成本种命名年；这里保留具体种名以区分其他剑龙。"
     }
   ]
 }

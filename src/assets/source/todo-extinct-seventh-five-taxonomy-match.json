@@ -72,6 +72,30 @@
         "genusKey": 4823135,
         "speciesKey": 8972709
       }
+    },
+    {
+      "name": "Stegosaurus stenops",
+      "url": "https://api.gbif.org/v1/species/match?name=Stegosaurus+stenops&verbose=true",
+      "data": {
+        "usageKey": 8541999,
+        "scientificName": "Stegosaurus stenops Marsh, 1887",
+        "canonicalName": "Stegosaurus stenops",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "note": "Similarity: name=110; authorship=0; classification=-2; rank=6; status=1; score=115; singleMatch=5",
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Stegosauridae",
+        "genus": "Stegosaurus",
+        "species": "Stegosaurus stenops",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 3238864,
+        "genusKey": 4823127,
+        "speciesKey": 8541999
+      }
     }
   ]
 }

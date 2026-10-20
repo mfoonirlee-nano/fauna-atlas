@@ -1,0 +1,500 @@
+{
+  "reviewedAt": "2026-10-20",
+  "cover": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 625,
+      "top": 220,
+      "right": 1530,
+      "bottom": 820
+    }
+  },
+  "sha256": "483c25b2219a97be12fe34b85aa54499deaee3c17561a3bf85fdc6f1fbbe0ec7",
+  "focalPoint": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "frames": [
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "panel": [
+        320,
+        260
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        160.26041666666669,
+        106.25
+      ],
+      "minimumClearance": 25.0625,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 272,
+        "height": 181.33333333333334,
+        "left": 24,
+        "top": 39.33333333333333
+      }
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "panel": [
+        390,
+        292.5
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        201.50390625,
+        133.59375
+      ],
+      "minimumClearance": 25.3359375,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 342,
+        "height": 228,
+        "left": 24,
+        "top": 32.25
+      }
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        760
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        368.47200000000004,
+        244.2908287292818
+      ],
+      "minimumClearance": 23.999999999999886,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 625.3845215469614,
+        "height": 416.92301436464095,
+        "left": -230.46961325966853,
+        "top": 168.28128176795576
+      }
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        920
+      ],
+      "contentHeightDelta": 160,
+      "subjectSize": [
+        368.47200000000004,
+        244.2908287292818
+      ],
+      "minimumClearance": 23.999999999999886,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 625.3845215469614,
+        "height": 416.92301436464095,
+        "left": -230.46961325966853,
+        "top": 248.28128176795576
+      }
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        760
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        445.2,
+        295.16022099447514
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 755.6101657458563,
+        "height": 503.74011049723754,
+        "left": -283.4585635359116,
+        "top": 124.19447513812156
+      }
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        920
+      ],
+      "contentHeightDelta": 160,
+      "subjectSize": [
+        445.2,
+        295.16022099447514
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 755.6101657458563,
+        "height": 503.74011049723754,
+        "left": -283.4585635359116,
+        "top": 204.19447513812156
+      }
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        768
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        555.6,
+        368.353591160221
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 942.9851933701657,
+        "height": 628.6567955801105,
+        "left": -359.7016574585635,
+        "top": 64.76022099447516
+      }
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        928
+      ],
+      "contentHeightDelta": 160,
+      "subjectSize": [
+        555.6,
+        368.353591160221
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 942.9851933701657,
+        "height": 628.6567955801105,
+        "left": -359.7016574585635,
+        "top": 144.76022099447516
+      }
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        768
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        702.432,
+        465.700773480663
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 1192.1939801104973,
+        "height": 794.7959867403315,
+        "left": -461.10497237569064,
+        "top": -19.607337016574604
+      }
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        928
+      ],
+      "contentHeightDelta": 160,
+      "subjectSize": [
+        702.432,
+        465.700773480663
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 1192.1939801104973,
+        "height": 794.7959867403315,
+        "left": -461.10497237569064,
+        "top": 60.392662983425396
+      }
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        900
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        987.8400000000001,
+        654.921546961326
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 1676.5991602209947,
+        "height": 1117.7327734806631,
+        "left": -658.2099447513813,
+        "top": -117.59867403314922
+      }
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        1060
+      ],
+      "contentHeightDelta": 160,
+      "subjectSize": [
+        987.8400000000001,
+        654.921546961326
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 1676.5991602209947,
+        "height": 1117.7327734806631,
+        "left": -658.2099447513813,
+        "top": -37.59867403314922
+      }
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354,
+        900
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        1285.1,
+        852
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 2181.12,
+        "height": 1454.08,
+        "left": -853.05,
+        "top": -288.4
+      }
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354,
+        1060
+      ],
+      "contentHeightDelta": 160,
+      "subjectSize": [
+        1306,
+        865.8563535911602
+      ],
+      "minimumClearance": 23.999999999999886,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 2216.59226519337,
+        "height": 1477.72817679558,
+        "left": -877.9337016574586,
+        "top": -220.40883977900558
+      }
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994,
+        900
+      ],
+      "contentHeightDelta": 0,
+      "subjectSize": [
+        1285.1,
+        852
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 2181.12,
+        "height": 1454.08,
+        "left": -533.05,
+        "top": -288.4
+      }
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994,
+        1060
+      ],
+      "contentHeightDelta": 160,
+      "subjectSize": [
+        1526.4333333333334,
+        1012
+      ],
+      "minimumClearance": 23.999999999999773,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "fit": {
+        "width": 2590.7200000000003,
+        "height": 1727.1466666666668,
+        "left": -820.3833333333334,
+        "top": -347.0666666666667
+      }
+    }
+  ]
+}
