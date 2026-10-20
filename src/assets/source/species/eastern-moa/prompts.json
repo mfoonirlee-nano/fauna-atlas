@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "generatedAt": "2026-10-20",
+  "scenes": [
+    {
+      "image": "01-cover.webp",
+      "prompt": "Use case: scientific-educational. Landscape 1536x1024 natural-history scientific reconstruction illustration, painterly realistic. ONE species: Emeus crassus. Anatomy: Bulky medium-sized wingless moa, short thick legs and very wide feet, small head, delicate pointed slightly downcurved bill, sparse feathers on scaly neck, shaggy brown body feathers extending to upper legs, no wings or tail appendages. Habitat: New Zealand eastern South Island lowland wetland forest. Scene: Canonical cover. Entire adult at right, silhouette center 72% width, fit in x=48%-94%, y=8%-91%; left 40% quiet vegetation. Whole body and every toe visible with clear background margins. Conservative speculative muted earth-tone plumage, no claims of exact colors. No humans, modern objects, other species, text, watermark, ostrich wings or decorative tail. Three forward toes on each foot."
+    },
+    {
+      "image": "02-observation.webp",
+      "prompt": "Use case: scientific-educational. Landscape 1536x1024 natural-history scientific reconstruction illustration, painterly realistic. ONE species: Emeus crassus. Anatomy: Bulky medium-sized wingless moa, short thick legs and very wide feet, small head, delicate pointed slightly downcurved bill, sparse feathers on scaly neck, shaggy brown body feathers extending to upper legs, no wings or tail appendages. Habitat: New Zealand eastern South Island lowland wetland forest. Scene: Side-view whole adult standing in an open patch; centered composition, complete feet and head, emphasize overall proportions. Conservative speculative muted earth-tone plumage, no claims of exact colors. No humans, modern objects, other species, text, watermark, ostrich wings or decorative tail. Three forward toes on each foot."
+    },
+    {
+      "image": "03-observation.webp",
+      "prompt": "Use case: scientific-educational. Landscape 1536x1024 natural-history scientific reconstruction illustration, painterly realistic. ONE species: Emeus crassus. Anatomy: Bulky medium-sized wingless moa, short thick legs and very wide feet, small head, delicate pointed slightly downcurved bill, sparse feathers on scaly neck, shaggy brown body feathers extending to upper legs, no wings or tail appendages. Habitat: New Zealand eastern South Island lowland wetland forest. Scene: Close study of head and neck from side, eye and bill structure visible. No body anatomy cutaway. Conservative speculative muted earth-tone plumage, no claims of exact colors. No humans, modern objects, other species, text, watermark, ostrich wings or decorative tail. Three forward toes on each foot."
+    },
+    {
+      "image": "04-observation.webp",
+      "prompt": "Use case: scientific-educational. Landscape 1536x1024 natural-history scientific reconstruction illustration, painterly realistic. ONE species: Emeus crassus. Anatomy: Bulky medium-sized wingless moa, short thick legs and very wide feet, small head, delicate pointed slightly downcurved bill, sparse feathers on scaly neck, shaggy brown body feathers extending to upper legs, no wings or tail appendages. Habitat: New Zealand eastern South Island lowland wetland forest. Scene: Whole-body sculpted natural-history reconstruction model on a plain neutral plinth. An imagined educational model, no labels or fabricated museum details, no skeleton. Conservative speculative muted earth-tone plumage, no claims of exact colors. No humans, modern objects, other species, text, watermark, ostrich wings or decorative tail. Three forward toes on each foot."
+    },
+    {
+      "image": "05-observation.webp",
+      "prompt": "Use case: scientific-educational. Landscape 1536x1024 natural-history scientific reconstruction illustration, painterly realistic. ONE species: Emeus crassus. Anatomy: Bulky medium-sized wingless moa, short thick legs and very wide feet, small head, delicate pointed slightly downcurved bill, sparse feathers on scaly neck, shaggy brown body feathers extending to upper legs, no wings or tail appendages. Habitat: New Zealand eastern South Island lowland wetland forest. Scene: Whole adult reaching down towards low foliage in its historical environment; full body visible, no invented specific plant species. Conservative speculative muted earth-tone plumage, no claims of exact colors. No humans, modern objects, other species, text, watermark, ostrich wings or decorative tail. Three forward toes on each foot."
+    },
+    {
+      "image": "06-observation.webp",
+      "prompt": "Use case: scientific-educational. Landscape 1536x1024 natural-history scientific reconstruction illustration, painterly realistic. ONE species: Emeus crassus. Anatomy: Bulky medium-sized wingless moa, short thick legs and very wide feet, small head, delicate pointed slightly downcurved bill, sparse feathers on scaly neck, shaggy brown body feathers extending to upper legs, no wings or tail appendages. Habitat: New Zealand eastern South Island lowland wetland forest. Scene: Two separate side-by-side views of the same adult morphology, side and three-quarter front, on neutral natural background. Separated views, not interacting, no sex or scale comparison. Conservative speculative muted earth-tone plumage, no claims of exact colors. No humans, modern objects, other species, text, watermark, ostrich wings or decorative tail. Three forward toes on each foot."
+    }
+  ]
+}
