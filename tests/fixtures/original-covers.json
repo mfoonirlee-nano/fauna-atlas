@@ -6979,5 +6979,18 @@
       },
       "sha256": "9dfd43393a9e0a55dfa4fac076344828fd117cb26ad3f7831d08371b9c3057bd"
     }
+  },
+  "carnotaurus-sastrei": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 670,
+        "top": 350,
+        "right": 1495,
+        "bottom": 780
+      },
+      "sha256": "ed97d0d47d2e71552baa47e2191223cc6de04eaa0bd304e240b8584407d013d2"
+    }
   }
 }

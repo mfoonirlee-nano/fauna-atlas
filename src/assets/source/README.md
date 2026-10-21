@@ -1051,3 +1051,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 ## 2026-10-21 第九批灭绝动物
 
 - [埃及棘龙图片集](./species/spinosaurus-aegyptiacus/README.md)
+- [萨氏食肉牛龙图片集](./species/carnotaurus-sastrei/README.md)

@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-10-21",
+  "tool": "image_gen",
+  "scientificLimits": "从头顶找出成对短角，再比较前肢与后腿的大小。正面看，头骨较窄；侧面看，吻部短而高。小前肢与霸王龙不同，角的用途尚无定论。 研究者从骨架和皮肤印痕认识它的头角、前肢与鳞片。骨架仍缺少部分尾部和下肢，完整身体需要近缘种比较；皮肤印痕没有保存全身颜色。",
+  "images": [
+    {
+      "scene": "01-cover",
+      "prompt": "Edit this Carnotaurus paleoart cover: scale whole dinosaur down by 15 percent and position wholly in rightmost half of 1536x1024 landscape. Nose MUST be at x=720, tailtip x=1460. Complete animal silhouette bounded x=700..1480,y=270..840. Left44 percent contains landscape only. Preserve paired horns, short deep snout, extremely tiny arms, long tail, two feet complete, no text.",
+      "selectedSourceSha256": "b95f756291f17ffca76dd2543f51e24ded3fcb6ce6bde39ded77c90569dfbec1"
+    },
+    {
+      "scene": "02-observation",
+      "prompt": "Carnotaurus sastrei naturalistic scientifically informed paleoart, Centered complete profile. Landscape3:2, earthy speculative colors. No text labels gore or other animals.",
+      "promptRecord": "Initial generation brief reconstructed from scene specification; selected original source hash recorded separately.",
+      "selectedSourceSha256": "6e906a31a9b634ea74afa550eb0a29d2c8397241b0e3d2a9df8d5b98d3951703"
+    },
+    {
+      "scene": "03-observation",
+      "prompt": "Carnotaurus sastrei naturalistic scientifically informed paleoart, Head and neck closeup. Landscape3:2, earthy speculative colors. No text labels gore or other animals.",
+      "promptRecord": "Initial generation brief reconstructed from scene specification; selected original source hash recorded separately.",
+      "selectedSourceSha256": "20b6a75c6b44d76bdb1e5a91a700420fed2bbca8815d2077a2d4e3fed29034e2"
+    },
+    {
+      "scene": "04-observation",
+      "prompt": "Carnotaurus sastrei naturalistic scientifically informed paleoart, Painted life model on plain museum plinth, not actual fossil/specimen. Landscape3:2, earthy speculative colors. No text labels gore or other animals.",
+      "promptRecord": "Initial generation brief reconstructed from scene specification; selected original source hash recorded separately.",
+      "selectedSourceSha256": "267031edf17c87e986f2ed2de1bf91b115c1c3841419d514feaaabc6d7310349"
+    },
+    {
+      "scene": "05-observation",
+      "prompt": "Carnotaurus sastrei naturalistic scientifically informed paleoart, Complete animal in ancient environment. Landscape3:2, earthy speculative colors. No text labels gore or other animals.",
+      "promptRecord": "Initial generation brief reconstructed from scene specification; selected original source hash recorded separately.",
+      "selectedSourceSha256": "1856ad5b296a91f5404acd2313131c1de2a86007d0d4c66d9d568a92e6b5414a"
+    },
+    {
+      "scene": "06-observation",
+      "prompt": "Carnotaurus sastrei naturalistic scientifically informed paleoart, Single animal rear threequarter fullbody view. Landscape3:2, earthy speculative colors. No text labels gore or other animals.",
+      "promptRecord": "Initial generation brief reconstructed from scene specification; selected original source hash recorded separately.",
+      "selectedSourceSha256": "7ac785a91a0f1e5a05983687455b36653c4d2883f7cef0b37e5ed8f63c97e32f"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "sourceSha256": "d35ce7573889355f809ad2c8cb0599835ad2123978b75d51c492ed8b1d8458eb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "封面偏左",
+      "visuallyEstimatedBounds": [
+        580,
+        235,
+        1525,
+        815
+      ]
+    },
+    {
+      "sourceSha256": "cc5af2495ab227f9bae91873b4c2ebe9d4c677945b1aba3c87ba80392f24d859",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "吻端仍进入左40%",
+      "visuallyEstimatedBounds": [
+        600,
+        265,
+        1520,
+        835
+      ]
+    }
+  ]
+}

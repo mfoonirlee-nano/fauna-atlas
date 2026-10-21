@@ -760,6 +760,7 @@ import extinct38 from './species/velociraptor-mongoliensis.js';
 import extinct39 from './species/deinonychus-antirrhopus.js';
 
 import profile740 from './species/spinosaurus-aegyptiacus.js';
+import profile741 from './species/carnotaurus-sastrei.js';
 
 export const species: readonly Species[] = [
   profile0,
@@ -1503,6 +1504,7 @@ export const species: readonly Species[] = [
   extinct38,
   extinct39,
   profile740,
+  profile741,
 
 ];
 

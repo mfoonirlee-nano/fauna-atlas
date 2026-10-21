@@ -7410,5 +7410,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1505,
       "bottom": 755
     }
+  },
+  "carnotaurus-sastrei": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 670,
+      "top": 350,
+      "right": 1495,
+      "bottom": 780
+    }
   }
 };
