@@ -42,7 +42,8 @@ export interface SpeciesTaxonomy {
   /** Omit a rank when the documented classification does not assign it. */
   readonly class?: Taxon;
   readonly order?: Taxon;
-  readonly family: Taxon;
+  /** Omit when the documented classification leaves family unassigned. */
+  readonly family?: Taxon;
   readonly genus: Taxon;
 }
 

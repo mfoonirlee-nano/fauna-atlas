@@ -137,7 +137,7 @@ export function speciesBundle(): Plugin {
         // the array representation when a label needs structured escaping.
         const packedTaxa = taxonPairs.every((pair) => typeof pair === 'string' && !pair.includes('\n'))
           ? taxonPairs.join('\n') : taxonPairs;
-        // Repeated Chinese phrases cost three UTF-8 bytes per character. Encode
+        // Repeated phrases share a UTF-8 dictionary. Encode
         // them with two-byte UTF-8 markers from a range absent in source text.
         // Restore before JSON parsing so browsing text and search remain unchanged.
         // Include shared Chinese labels and alt suffixes in phrase compression.
@@ -146,7 +146,7 @@ export function speciesBundle(): Plugin {
         const phrases: string[] = [];
         if (!/[\u0400-\u07FF]/u.test(packedRows + packedTaxaText)) {
           const counts = new Map<string, number>();
-          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF]{2,}/gu) ?? []) {
+          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF]{2,}|[A-Za-z]{4,}/gu) ?? []) {
             for (let size = 2; size <= Math.min(16, run.length); size++) {
               for (let start = 0; start + size <= run.length; start++) {
                 const phrase = run.slice(start, start + size);
@@ -155,12 +155,12 @@ export function speciesBundle(): Plugin {
             }
           }
           const candidates = [...counts].map(([phrase, count]) => ({
-            phrase, saving: (phrase.length * 3 - 2) * count - phrase.length * 3 - 3,
+            phrase, saving: (Buffer.byteLength(phrase) - 2) * count - Buffer.byteLength(phrase) - 3,
           })).filter(({ saving }) => saving > 0).sort((a, b) => b.saving - a.saving);
           for (const { phrase } of candidates) {
             if (phrases.length === 1024) break;
             const count = packedRows.split(phrase).length + packedTaxaText.split(phrase).length - 2;
-            if ((phrase.length * 3 - 2) * count <= phrase.length * 3 + 3) continue;
+            if ((Buffer.byteLength(phrase) - 2) * count <= Buffer.byteLength(phrase) + 3) continue;
             packedRows = packedRows.replaceAll(phrase, String.fromCharCode(0x0400 + phrases.length));
             packedTaxaText = packedTaxaText.replaceAll(phrase, String.fromCharCode(0x0400 + phrases.length));
             phrases.push(phrase);
