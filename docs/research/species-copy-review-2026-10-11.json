@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "742 animal species profiles; 700 prior profiles and 42 extinct-animal additions through 2026-10-21; microbial topics excluded",
+  "scope": "743 animal species profiles; 700 prior profiles and 43 extinct-animal additions through 2026-10-21; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -33946,6 +33946,53 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.nhm.ac.uk/discover/dino-directory/carnotaurus.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "baryonyx-walkeri",
+      "name": "似鳄重爪龙",
+      "scientificName": "Baryonyx walkeri",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html",
+            "https://doi.org/10.1038/324359a0"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html",
+            "https://doi.org/10.1038/324359a0"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html",
+            "https://doi.org/10.1038/324359a0"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html",
+            "https://doi.org/10.1038/324359a0"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/how-did-baryonyx-change-what-we-knew-about-spinosaurs.html",
+            "https://www.nhm.ac.uk/discover/dino-directory/baryonyx.html",
+            "https://doi.org/10.1038/324359a0"
           ]
         }
       }

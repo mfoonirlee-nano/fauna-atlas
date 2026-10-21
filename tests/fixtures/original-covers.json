@@ -6992,5 +6992,18 @@
       },
       "sha256": "ed97d0d47d2e71552baa47e2191223cc6de04eaa0bd304e240b8584407d013d2"
     }
+  },
+  "baryonyx-walkeri": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 400,
+        "right": 1515,
+        "bottom": 785
+      },
+      "sha256": "7bce7b5896e63d01148a4392b26431a029b6bbd5f5bd2900e7315a928c4548e4"
+    }
   }
 }

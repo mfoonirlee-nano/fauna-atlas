@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-21",
+  "tool": "image_gen",
+  "scientificLimits": "看看细长的嘴，再找前肢拇指上较大的弯爪。爪的位置在手上，不能画成驰龙类抬起的第二趾爪；它的背部也没有埃及棘龙那样的高帆。 研究者从萨里郡出土的模式标本检查头骨、前肢与腹部遗存。鱼鳞和骨片提供食性线索，颜色、软组织和完整活动姿态需要复原；图中的模型不是馆藏照片。",
+  "images": [
+    {
+      "scene": "01-cover",
+      "prompt": "Edit cover composition: shrink animal 25percent and move right so whole Baryonyx from snout to tailtip lies within x=690..1480 y=270..840 of1536x1024. Left44percent empty landscape. Preserve long low snout, large thumbclaw, NO sail, full tailtip feet complete. No text.",
+      "selectedSourceSha256": "d7a7fbbd2bbca46585737428960036a3441925ab7cc7206bc2d4f55b49d1b6de"
+    },
+    {
+      "scene": "02-observation",
+      "prompt": "Baryonyx walkeri. Scientifically informed naturalistic paleoart, long narrow crocodile-like snout, conical teeth, powerful three-fingered inward facing hands with enlarged thumbclaw, low back WITHOUT tall sail, strong hindlegs, long tapering tail. Early Cretaceous England. Earthy speculative scales. No labels text watermark other animals gore. Landscape3:2. Centered side profile, entire snout feet and long tapered tailtip inside image with 8 percent margins.",
+      "selectedSourceSha256": "248b08e9cd0d2cf48788cce004a297dadaccd7c04ff343c1bf70bea510243303"
+    },
+    {
+      "scene": "03-observation",
+      "prompt": "Baryonyx walkeri. Scientifically informed naturalistic paleoart, long narrow crocodile-like snout, conical teeth, powerful three-fingered inward facing hands with enlarged thumbclaw, low back WITHOUT tall sail, strong hindlegs, long tapering tail. Early Cretaceous England. Earthy speculative scales. No labels text watermark other animals gore. Landscape3:2. Closeup of head and neck highlighting long narrow snout and conical teeth.",
+      "selectedSourceSha256": "74ce80f4e561d3ba905ba8ffd73145922e19db55acd77207e0a5a888b8dd5994"
+    },
+    {
+      "scene": "04-observation",
+      "prompt": "Baryonyx walkeri. Scientifically informed naturalistic paleoart, long narrow crocodile-like snout, conical teeth, powerful three-fingered inward facing hands with enlarged thumbclaw, low back WITHOUT tall sail, strong hindlegs, long tapering tail. Early Cretaceous England. Earthy speculative scales. No labels text watermark other animals gore. Landscape3:2. A painted full-body life reconstruction model on a plain museum plinth, not fossil or actual specimen. Whole tail with margins.",
+      "selectedSourceSha256": "8d013f40ddb48569ac2b6641e3400ee34eafdcd6852689fb323694fc03153c0f"
+    },
+    {
+      "scene": "05-observation",
+      "prompt": "Baryonyx walkeri. Scientifically informed naturalistic paleoart, long narrow crocodile-like snout, conical teeth, powerful three-fingered inward facing hands with enlarged thumbclaw, low back WITHOUT tall sail, strong hindlegs, long tapering tail. Early Cretaceous England. Earthy speculative scales. No labels text watermark other animals gore. Landscape3:2. Single animal walking along a riverbank amid Early Cretaceous England vegetation, entire body tailtip with margins.",
+      "selectedSourceSha256": "e628cce4829b3fe3e32521d297900a8041d53b25818ec5ba681c7f55a4eee654"
+    },
+    {
+      "scene": "06-observation",
+      "prompt": "Baryonyx walkeri. Scientifically informed naturalistic paleoart, long narrow crocodile-like snout, conical teeth, powerful three-fingered inward facing hands with enlarged thumbclaw, low back WITHOUT tall sail, strong hindlegs, long tapering tail. Early Cretaceous England. Earthy speculative scales. No labels text watermark other animals gore. Landscape3:2. Single animal rear three-quarter view, complete body including tailtip with generous margins.",
+      "selectedSourceSha256": "816ffca2ec535bb6c9dd54fa7f949f222c2e17fac7cb683d15f4b02de5c14793"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "sourceSha256": "8bc7ba33e6067ea96f4c31324d78920f4b0ff0aa3f3f1c7e8d93d5cf9dfa16c6",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "封面主体偏左",
+      "visuallyEstimatedBounds": [
+        395,
+        245,
+        1515,
+        820
+      ]
+    }
+  ]
+}

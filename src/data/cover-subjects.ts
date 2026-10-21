@@ -7420,5 +7420,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1495,
       "bottom": 780
     }
+  },
+  "baryonyx-walkeri": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 400,
+      "right": 1515,
+      "bottom": 785
+    }
   }
 };

@@ -761,6 +761,7 @@ import extinct39 from './species/deinonychus-antirrhopus.js';
 
 import profile740 from './species/spinosaurus-aegyptiacus.js';
 import profile741 from './species/carnotaurus-sastrei.js';
+import profile742 from './species/baryonyx-walkeri.js';
 
 export const species: readonly Species[] = [
   profile0,
@@ -1505,6 +1506,7 @@ export const species: readonly Species[] = [
   extinct39,
   profile740,
   profile741,
+  profile742,
 
 ];
 
