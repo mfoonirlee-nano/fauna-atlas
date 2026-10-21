@@ -24370,7 +24370,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 744);
+  assert.equal(species.length, 745);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24541,7 +24541,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 744);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 745);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24562,7 +24562,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 531);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 532);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 166);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 49);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
@@ -27292,4 +27292,25 @@ test('freshwater fish retain sourced species boundaries, diets and six accepted 
   assert.match(stories('chinese-hooksnout-carp'), /Xenocyprididae/);
   assert.match(stories('chinese-hooksnout-carp'), /清弋江/);
   assert.match(stories('chinese-hooksnout-carp'), /iridescens/);
+});
+
+
+test('ninth extinct batch keeps fossil evidence, corrected taxonomy and six reviewed images', async () => {
+  for (const slug of ['spinosaurus-aegyptiacus', 'carnotaurus-sastrei', 'baryonyx-walkeri', 'dilophosaurus-wetherilli', 'coelophysis-bauri']) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.conservation.code, 'EX');
+    assert.equal(profile.conservation.assessedYear, undefined);
+    assert.equal(profile.distribution.center, undefined);
+    await assertGeneratedImageSet({ profile, slug,
+      basenames: ['01-cover', '02-observation', '03-observation', '04-observation', '05-observation', '06-observation'],
+      credit: 'Fauna Atlas · AI 生成科学复原示意',
+      dimensions: Array.from({ length: 6 }, (_, i) => i === 1 && ['spinosaurus-aegyptiacus', 'carnotaurus-sastrei'].includes(slug) ? [1774, 887] : [1536, 1024]),
+      verifyAcceptedHashes: true });
+  }
+  assert.equal(findSpecies('coelophysis-bauri').taxonomy.genus.scientificName, 'Coelophysis');
+  assert.equal(findSpecies('coelophysis-bauri').taxonomy.family.scientificName, 'Coelophysidae');
+  assert.equal(findSpecies('dilophosaurus-wetherilli').taxonomy.family, undefined);
+  assertAnimalCopy(findSpecies('dilophosaurus-wetherilli'), ['颈部褶边', '喷毒']);
+  assertAnimalCopy(findSpecies('spinosaurus-aegyptiacus'), ['mirabilis', '争论']);
+  assertAnimalCopy(findSpecies('baryonyx-walkeri'), ['鱼鳞', '禽龙']);
 });

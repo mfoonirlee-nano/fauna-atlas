@@ -7440,5 +7440,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1445,
       "bottom": 715
     }
+  },
+  "coelophysis-bauri": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 700,
+      "top": 390,
+      "right": 1395,
+      "bottom": 680
+    }
   }
 };

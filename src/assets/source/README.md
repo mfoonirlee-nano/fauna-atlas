@@ -1054,3 +1054,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [萨氏食肉牛龙图片集](./species/carnotaurus-sastrei/README.md)
 - [似鳄重爪龙图片集](./species/baryonyx-walkeri/README.md)
 - [双嵴龙图片集](./species/dilophosaurus-wetherilli/README.md)
+- [巴氏腔骨龙图片集](./species/coelophysis-bauri/README.md)

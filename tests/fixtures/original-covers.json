@@ -7018,5 +7018,18 @@
       },
       "sha256": "2b544d4c19d39725d400dfe4133ad4fa576452e45fdc356036a0b6095a7c62ea"
     }
+  },
+  "coelophysis-bauri": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 700,
+        "top": 390,
+        "right": 1395,
+        "bottom": 680
+      },
+      "sha256": "3a01e36ddc88ace0d65b97629c9257af2cababaf129adbf56af8a04d701fe884"
+    }
   }
 }

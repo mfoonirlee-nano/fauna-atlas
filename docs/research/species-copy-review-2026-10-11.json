@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "744 animal species profiles; 700 prior profiles and 44 extinct-animal additions through 2026-10-21; microbial topics excluded",
+  "scope": "745 animal species profiles; 700 prior profiles and 45 extinct-animal additions through 2026-10-21; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -34040,6 +34040,53 @@
             "https://www.nhm.ac.uk/discover/dino-directory/dilophosaurus.html",
             "https://www.jsg.utexas.edu/news/2020/11/no-frills-for-jurassic-park-dino/",
             "https://doi.org/10.1017/jpa.2020.14"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "coelophysis-bauri",
+      "name": "巴氏腔骨龙",
+      "scientificName": "Coelophysis bauri",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html",
+            "https://www.si.edu/es/object/coelophysis-bauri-cope-1887%3Anmnhpaleobiology_3576821",
+            "https://www.si.edu/object/siris_sil_937001"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html",
+            "https://www.si.edu/es/object/coelophysis-bauri-cope-1887%3Anmnhpaleobiology_3576821",
+            "https://www.si.edu/object/siris_sil_937001"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html",
+            "https://www.si.edu/es/object/coelophysis-bauri-cope-1887%3Anmnhpaleobiology_3576821",
+            "https://www.si.edu/object/siris_sil_937001"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html",
+            "https://www.si.edu/es/object/coelophysis-bauri-cope-1887%3Anmnhpaleobiology_3576821",
+            "https://www.si.edu/object/siris_sil_937001"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/coelophysis.html",
+            "https://www.si.edu/es/object/coelophysis-bauri-cope-1887%3Anmnhpaleobiology_3576821",
+            "https://www.si.edu/object/siris_sil_937001"
           ]
         }
       }

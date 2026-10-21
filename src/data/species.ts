@@ -763,6 +763,7 @@ import profile740 from './species/spinosaurus-aegyptiacus.js';
 import profile741 from './species/carnotaurus-sastrei.js';
 import profile742 from './species/baryonyx-walkeri.js';
 import profile743 from './species/dilophosaurus-wetherilli.js';
+import profile744 from './species/coelophysis-bauri.js';
 
 export const species: readonly Species[] = [
   profile0,
@@ -1509,6 +1510,7 @@ export const species: readonly Species[] = [
   profile741,
   profile742,
   profile743,
+  profile744,
 
 ];
 

@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-21",
+  "tool": "image_gen",
+  "scientificLimits": "沿窄小的头、弯曲颈部一直看到细长尾端，再找支撑身体的两条后腿。部分肢骨内部中空；骨头中空不意味着身体透明，也不能直接从复原图看出内部结构。 幽灵牧场保存多具巴氏腔骨龙骨骼，研究者可比较不同个体。多个个体一起埋藏不直接证明围猎、家庭关系或同一瞬间死亡；复原皮肤颜色仍缺少直接依据。",
+  "images": [
+    {
+      "scene": "01-cover",
+      "prompt": "Edit this coelophysis-bauri cover composition. SHRINK whole dinosaur to 60 percent of current size; place the ENTIRE dinosaur including complete pointed tailtip, head crests if present and feet STRICTLY inside rectangle x=700..1460,y=300..800 on1536x1024. Tail may curve gently to fit, no cut tail. Left44percent EMPTY landscape. Whole creature about HALF frame width, do not fill whole canvas. Preserve scientific anatomy, original art style. No labels text.",
+      "selectedSourceSha256": "9990d808d2c63ea814c82993255e6ea1178d9709074c6aae612a2f76a468c426"
+    },
+    {
+      "scene": "02-observation",
+      "prompt": "Coelophysis bauri scientifically informed naturalistic paleoart. Small very slender gracile theropod, narrow pointed head NO crests, long curved neck, slender limbs and very long thin tapered tail, four-finger inward facing hands with reduced outer finger. Late Triassic New Mexico semi-arid Ghost Ranch floodplain, conifers and ferns. Earthy speculative colors, no text labels other animals gore. Landscape3:2. Centered complete side profile, head feet and long tailtip with8percent margins.",
+      "selectedSourceSha256": "10b34c47f0ce5b8d7821234de7fa64bbb8abcdd13eb49416b542c631e3aad476"
+    },
+    {
+      "scene": "03-observation",
+      "prompt": "Coelophysis bauri scientifically informed naturalistic paleoart. Small very slender gracile theropod, narrow pointed head NO crests, long curved neck, slender limbs and very long thin tapered tail, four-finger inward facing hands with reduced outer finger. Late Triassic New Mexico semi-arid Ghost Ranch floodplain, conifers and ferns. Earthy speculative colors, no text labels other animals gore. Landscape3:2. Head and neck closeup revealing narrow snout, no crests.",
+      "selectedSourceSha256": "c5dea6fc46a9e9c62c66a05cc88cb4141e273cb84bfced7df62f41e6229ebe65"
+    },
+    {
+      "scene": "04-observation",
+      "prompt": "Edit only composition and tail pose. The long tail is currently cut off on right edge. Curve the tail gently BACK toward the body into an S curve so its thin pointed tip ends around x=1200,y=600, CLEARLY inside the frame. Tail should be anatomically continuous, no truncation. Preserve the single small slender Coelophysis model, head, limbs and museum plinth, nature background. Entire model visible inside1536x1024. No text.",
+      "selectedSourceSha256": "ed3402eddc8a821f2082cd2d59a8b8f9903e329ec20679374405f4011fd0ea41"
+    },
+    {
+      "scene": "05-observation",
+      "prompt": "Coelophysis bauri scientifically informed naturalistic paleoart. Small very slender gracile theropod, narrow pointed head NO crests, long curved neck, slender limbs and very long thin tapered tail, four-finger inward facing hands with reduced outer finger. Late Triassic New Mexico semi-arid Ghost Ranch floodplain, conifers and ferns. Earthy speculative colors, no text labels other animals gore. Landscape3:2. One animal walking in semi-arid river floodplain, complete head feet and tailtip within8percent margins.",
+      "selectedSourceSha256": "cc7a5299441aa4c3a69800fbc25bfdd7774d897b107802761ef09bc8d6a5b547"
+    },
+    {
+      "scene": "06-observation",
+      "prompt": "Coelophysis bauri scientifically informed naturalistic paleoart. Small very slender gracile theropod, narrow pointed head NO crests, long curved neck, slender limbs and very long thin tapered tail, four-finger inward facing hands with reduced outer finger. Late Triassic New Mexico semi-arid Ghost Ranch floodplain, conifers and ferns. Earthy speculative colors, no text labels other animals gore. Landscape3:2. One animal rear threequarter fullbody view, entire head feet and long tailtip inside frame with8percent margins.",
+      "selectedSourceSha256": "cdbe4c2ff881f36651bccd675c9e5ec8a51afa93fcfda33701dbcb75922bb4a9"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "sourceSha256": "909421a2b74eeb194d1e1a43869e46cf021485e145f4ed726290b108bf2b3786",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "封面长尾进入左侧或裁切"
+    },
+    {
+      "sourceSha256": "966902fcfe14d92410b63c7f2f91a70fef966a578867b3aef3f87e07843ba4c2",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "尾端裁切，采用修订稿"
+    }
+  ]
+}
