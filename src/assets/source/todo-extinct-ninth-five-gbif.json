@@ -1,0 +1,121 @@
+{
+  "retrieved": "2026-10-21",
+  "records": [
+    {
+      "name": "Spinosaurus aegyptiacus",
+      "url": "https://api.gbif.org/v1/species/match?name=Spinosaurus%20aegyptiacus",
+      "result": {
+        "usageKey": 4967112,
+        "scientificName": "Spinosaurus aegyptiacus Stromer, 1915",
+        "canonicalName": "Spinosaurus aegyptiacus",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Spinosauridae",
+        "genus": "Spinosaurus",
+        "species": "Spinosaurus aegyptiacus",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 4822926,
+        "genusKey": 4822933,
+        "speciesKey": 4967112
+      }
+    },
+    {
+      "name": "Carnotaurus sastrei",
+      "url": "https://api.gbif.org/v1/species/match?name=Carnotaurus%20sastrei",
+      "result": {
+        "usageKey": 4966165,
+        "scientificName": "Carnotaurus sastrei Bonaparte, 1985",
+        "canonicalName": "Carnotaurus sastrei",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Abelisauridae",
+        "genus": "Carnotaurus",
+        "species": "Carnotaurus sastrei",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 4822824,
+        "genusKey": 4822830,
+        "speciesKey": 4966165
+      }
+    },
+    {
+      "name": "Baryonyx walkeri",
+      "url": "https://api.gbif.org/v1/species/match?name=Baryonyx%20walkeri",
+      "result": {
+        "usageKey": 4822931,
+        "scientificName": "Baryonyx walkeri Charig & Milner, 1986",
+        "canonicalName": "Baryonyx walkeri",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Spinosauridae",
+        "genus": "Baryonyx",
+        "species": "Baryonyx walkeri",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 4822926,
+        "genusKey": 4822930,
+        "speciesKey": 4822931
+      }
+    },
+    {
+      "name": "Dilophosaurus wetherilli",
+      "url": "https://api.gbif.org/v1/species/match?name=Dilophosaurus%20wetherilli",
+      "result": {
+        "usageKey": 4967130,
+        "scientificName": "Dilophosaurus wetherilli (Welles, 1954) Welles, 1954",
+        "canonicalName": "Dilophosaurus wetherilli",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Troodontidae",
+        "genus": "Dilophosaurus",
+        "species": "Dilophosaurus wetherilli",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 3238984,
+        "genusKey": 4822817,
+        "speciesKey": 4967130
+      }
+    },
+    {
+      "name": "Coelophysis bauri",
+      "url": "https://api.gbif.org/v1/species/match?name=Coelophysis%20bauri",
+      "result": {
+        "usageKey": 4967136,
+        "acceptedUsageKey": 7485578,
+        "scientificName": "Coelophysis bauri (Cope, 1887) Cope, 1887",
+        "canonicalName": "Coelophysis bauri",
+        "rank": "SPECIES",
+        "status": "SYNONYM",
+        "confidence": 98,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Coeluridae",
+        "genus": "Coelurus",
+        "species": "Coelurus bauri",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 4822569,
+        "genusKey": 4822575,
+        "speciesKey": 7485578
+      }
+    }
+  ]
+}

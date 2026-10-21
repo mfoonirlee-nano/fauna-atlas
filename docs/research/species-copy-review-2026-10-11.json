@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "740 animal species profiles; 700 prior profiles and 40 extinct-animal additions through 2026-10-20; microbial topics excluded",
+  "scope": "741 animal species profiles; 700 prior profiles and 41 extinct-animal additions through 2026-10-21; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -33860,8 +33860,60 @@
           ]
         }
       }
+    },
+    {
+      "slug": "spinosaurus-aegyptiacus",
+      "name": "埃及棘龙",
+      "scientificName": "Spinosaurus aegyptiacus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+            "https://www.nhm.ac.uk/discover/news/2022/march/spinosaurus-baryonyx-may-have-hunted-fish-underwater.html",
+            "https://doi.org/10.7554/eLife.80092",
+            "https://news.uchicago.edu/story/hell-heron-dinosaur-discovered-central-sahara"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+            "https://www.nhm.ac.uk/discover/news/2022/march/spinosaurus-baryonyx-may-have-hunted-fish-underwater.html",
+            "https://doi.org/10.7554/eLife.80092",
+            "https://news.uchicago.edu/story/hell-heron-dinosaur-discovered-central-sahara"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+            "https://www.nhm.ac.uk/discover/news/2022/march/spinosaurus-baryonyx-may-have-hunted-fish-underwater.html",
+            "https://doi.org/10.7554/eLife.80092",
+            "https://news.uchicago.edu/story/hell-heron-dinosaur-discovered-central-sahara"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+            "https://www.nhm.ac.uk/discover/news/2022/march/spinosaurus-baryonyx-may-have-hunted-fish-underwater.html",
+            "https://doi.org/10.7554/eLife.80092",
+            "https://news.uchicago.edu/story/hell-heron-dinosaur-discovered-central-sahara"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/spinosaurus.html",
+            "https://www.nhm.ac.uk/discover/news/2022/march/spinosaurus-baryonyx-may-have-hunted-fish-underwater.html",
+            "https://doi.org/10.7554/eLife.80092",
+            "https://news.uchicago.edu/story/hell-heron-dinosaur-discovered-central-sahara"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",
-  "lastExtendedAt": "2026-10-20"
+  "lastExtendedAt": "2026-10-21"
 }

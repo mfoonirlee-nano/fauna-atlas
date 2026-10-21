@@ -112,6 +112,7 @@ async function assertGeneratedImageSet({
   credit = 'Fauna Atlas · AI 生成科学情景重建',
   credits,
   verifyAcceptedHashes = false,
+  dimensions = basenames.map(() => [1536, 1024]),
 }) {
   assert.equal(basenames.length, 6);
   assert.equal(profile.media.gallery?.length, 5);
@@ -156,7 +157,7 @@ async function assertGeneratedImageSet({
 
   await Promise.all(imageFiles.map(({ url }) => access(url)));
   await Promise.all(
-    imageFiles.map(async ({ format, url }) => {
+    imageFiles.map(async ({ format, url }, index) => {
       const imagePath = fileURLToPath(url);
       const { stdout: metadata } = await execFileAsync('magick', [
         'identify',
@@ -171,8 +172,8 @@ async function assertGeneratedImageSet({
         { actualFormat, width, height, colorspace, opaque, frameCount },
         {
           actualFormat: format,
-          width: '1536',
-          height: '1024',
+          width: String(dimensions[index][0]),
+          height: String(dimensions[index][1]),
           colorspace: 'sRGB',
           opaque: 'True',
           frameCount: '1',
@@ -24369,7 +24370,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 740);
+  assert.equal(species.length, 741);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24540,7 +24541,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 740);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 741);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24561,7 +24562,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 527);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 528);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 166);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 49);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);

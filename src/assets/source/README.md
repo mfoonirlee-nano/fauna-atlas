@@ -1047,3 +1047,7 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [脆弱异特龙图片集](./species/allosaurus-fragilis/README.md)
 - [蒙古伶盗龙图片集](./species/velociraptor-mongoliensis/README.md)
 - [巨大恐爪龙图片集](./species/deinonychus-antirrhopus/README.md)
+
+## 2026-10-21 第九批灭绝动物
+
+- [埃及棘龙图片集](./species/spinosaurus-aegyptiacus/README.md)

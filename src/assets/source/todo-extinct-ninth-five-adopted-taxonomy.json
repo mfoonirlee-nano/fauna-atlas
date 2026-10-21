@@ -1,0 +1,128 @@
+{
+  "reviewedAt": "2026-10-21",
+  "records": [
+    {
+      "scientificName": "Spinosaurus aegyptiacus",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Spinosauridae",
+          "zhName": "棘龙科"
+        },
+        "genus": {
+          "scientificName": "Spinosaurus",
+          "zhName": "棘龙属"
+        }
+      },
+      "note": "研究者结合埃及旧标本记录、摩洛哥骨骼与尾部化石复原身体。原始埃及标本在第二次世界大战中毁损，后来的复原依靠不同标本的比较，未发现一具保存所有部位的完整骨架。",
+      "rankPolicy": "GBIF 链未设置纲、目，按 ADR 0002 省略。",
+      "resolution": "GBIF EXACT/ACCEPTED 确认种身份，科属与 NHM 资料交叉核对。"
+    },
+    {
+      "scientificName": "Carnotaurus sastrei",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Abelisauridae",
+          "zhName": "阿贝力龙科"
+        },
+        "genus": {
+          "scientificName": "Carnotaurus",
+          "zhName": "食肉牛龙属"
+        }
+      },
+      "note": "研究者从骨架和皮肤印痕认识它的头角、前肢与鳞片。骨架仍缺少部分尾部和下肢，完整身体需要近缘种比较；皮肤印痕没有保存全身颜色。",
+      "rankPolicy": "GBIF 链未设置纲、目，按 ADR 0002 省略。",
+      "resolution": "GBIF EXACT/ACCEPTED 确认种身份，科属与 NHM 资料交叉核对。"
+    },
+    {
+      "scientificName": "Baryonyx walkeri",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Spinosauridae",
+          "zhName": "棘龙科"
+        },
+        "genus": {
+          "scientificName": "Baryonyx",
+          "zhName": "重爪龙属"
+        }
+      },
+      "note": "研究者从萨里郡出土的模式标本检查头骨、前肢与腹部遗存。鱼鳞和骨片提供食性线索，颜色、软组织和完整活动姿态需要复原；图中的模型不是馆藏照片。",
+      "rankPolicy": "GBIF 链未设置纲、目，按 ADR 0002 省略。",
+      "resolution": "GBIF EXACT/ACCEPTED 确认种身份，科属与 NHM 资料交叉核对。"
+    },
+    {
+      "scientificName": "Dilophosaurus wetherilli",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "genus": {
+          "scientificName": "Dilophosaurus",
+          "zhName": "双嵴龙属"
+        }
+      },
+      "note": "Marsh 与 Rowe 在 2020 年比较凯恩塔组的多件骨骼，讨论头骨、含气腔骨骼与系统位置。研究没有恢复单系的双嵴龙科；本档案省略未确定的科，不沿用 GBIF 的伤齿龙科匹配。",
+      "rankPolicy": "GBIF 链未设置纲、目，按 ADR 0002 省略。",
+      "resolution": "拒绝 GBIF 的 Troodontidae；PBDB 的 NO_FAMILY_SPECIFIED、NHM 无科路径与 Marsh & Rowe 2020 未恢复单系 Dilophosauridae，支持省略科。",
+      "references": [
+        "https://doi.org/10.1017/jpa.2020.14",
+        "https://www.nhm.ac.uk/discover/dino-directory/dilophosaurus.html"
+      ]
+    },
+    {
+      "scientificName": "Coelophysis bauri",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Coelophysidae",
+          "zhName": "腔骨龙科"
+        },
+        "genus": {
+          "scientificName": "Coelophysis",
+          "zhName": "腔骨龙属"
+        }
+      },
+      "note": "幽灵牧场保存多具巴氏腔骨龙骨骼，研究者可比较不同个体。多个个体一起埋藏不直接证明围猎、家庭关系或同一瞬间死亡；复原皮肤颜色仍缺少直接依据。",
+      "rankPolicy": "GBIF 链未设置纲、目，按 ADR 0002 省略。",
+      "resolution": "拒绝 GBIF SYNONYM 链的 Coelurus／Coeluridae；采用 PBDB 与 Smithsonian 的 Coelophysis bauri、Coelophysidae。",
+      "references": [
+        "https://www.si.edu/es/object/coelophysis-bauri-cope-1887%3Anmnhpaleobiology_3576821"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-10-21",
+  "tool": "image_gen",
+  "scientificLimits": "先找背上高高的帆，再沿身体找到尾端。背帆内有延长的椎骨棘突，尾部骨骼也支持较深的轮廓；皮肤颜色、帆的花纹和完整软组织形状仍含推测。 研究者结合埃及旧标本记录、摩洛哥骨骼与尾部化石复原身体。原始埃及标本在第二次世界大战中毁损，后来的复原依靠不同标本的比较，未发现一具保存所有部位的完整骨架。",
+  "images": [
+    {
+      "scene": "01-cover",
+      "prompt": "Edit composition of this paleoart. Make the ENTIRE dinosaur 20% smaller, and move it right, so the tip of its nose is at x=700 pixels and tip of tail x=1470 pixels in a 1536x1024 landscape frame. Entire silhouette MUST stay within x=680 to1480 and y=260 to820. Leftmost 44% completely empty landscape. Keep head sail tail feet all complete and accurate; keep same creature features and landscape, no text. This is essential cover whitespace.",
+      "selectedSourceSha256": "24c9ddb57791d93aced918d25e2813968f376a5a2e57e8b146f5d64142cb76f2"
+    },
+    {
+      "scene": "02-observation",
+      "prompt": "Edit to zoom out 20 percent, show ENTIRE Spinosaurus complete tailtip and snout and both feet with at least8percent margins. Preserve naturalistic paleoart anatomy tall sail and deep paddle tail, no text.",
+      "selectedSourceSha256": "453da2b0b37411e48741469c987a0a941c7315ddb9d61d307ebfe64e27e5a7ab"
+    },
+    {
+      "scene": "03-observation",
+      "prompt": "Spinosaurus aegyptiacus naturalistic scientifically informed paleoart, Head and neck closeup. Landscape3:2, earthy speculative colors. No text labels gore or other animals.",
+      "promptRecord": "Initial generation brief reconstructed from scene specification; selected original source hash recorded separately.",
+      "selectedSourceSha256": "84ce805b245b8c6545e67adcd55e00de1a112e3527958df5a6305de53202c3de"
+    },
+    {
+      "scene": "04-observation",
+      "prompt": "Spinosaurus aegyptiacus naturalistic scientifically informed paleoart, Painted life model on plain museum plinth, not actual fossil/specimen. Landscape3:2, earthy speculative colors. No text labels gore or other animals.",
+      "promptRecord": "Initial generation brief reconstructed from scene specification; selected original source hash recorded separately.",
+      "selectedSourceSha256": "ccf62e07f614fb87d42b9f0497a0931c663ced59983c2644e8f5206041ad89d1"
+    },
+    {
+      "scene": "05-observation",
+      "prompt": "Spinosaurus aegyptiacus naturalistic scientifically informed paleoart, Complete animal in ancient environment. Landscape3:2, earthy speculative colors. No text labels gore or other animals.",
+      "promptRecord": "Initial generation brief reconstructed from scene specification; selected original source hash recorded separately.",
+      "selectedSourceSha256": "83fa25c0d021c135742a6f0d07a9062911b939f7df1c6f6bd77c3a9339158baf"
+    },
+    {
+      "scene": "06-observation",
+      "prompt": "Edit to zoom out20percent, show entire Spinosaurus from this rear threequarter view, complete long paddle tailtip fully INSIDE picture with8percent margin, head and feet also complete. Preserve anatomy, style, no text.",
+      "selectedSourceSha256": "b154c6209de7e92fbacca8966b0a390105051294b28550b5b3fba7c1afaaf619"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "sourceSha256": "956d22cf1385ba395dce3c96e13e274cc5c22019b602868c088805e22e9b405c",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "封面主体偏左",
+      "visuallyEstimatedBounds": [
+        395,
+        230,
+        1520,
+        765
+      ]
+    },
+    {
+      "sourceSha256": "b6cabf00f62a6dca3e7670ecd68c7079a1eccbc7363c502129732e1f79e51384",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "封面仍偏左",
+      "visuallyEstimatedBounds": [
+        515,
+        265,
+        1520,
+        760
+      ]
+    },
+    {
+      "sourceSha256": "19d327873e8437db0190abc88a37203099a4f14355743f45f0ea8f28bdc30317",
+      "sourceDimensions": [
+        1774,
+        887
+      ],
+      "reason": "侧面尾端裁切"
+    },
+    {
+      "sourceSha256": "012f8e5ad66100cb13c20267be58d6b80dddc39a0e5998cec761573bb46f3e85",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "后侧尾端裁切"
+    }
+  ]
+}

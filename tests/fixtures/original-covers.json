@@ -6966,5 +6966,18 @@
       },
       "sha256": "294d970a9e1222401bad7e246cbf9e1d06cbd368f54836680e7ed58c8b77ef45"
     }
+  },
+  "spinosaurus-aegyptiacus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 675,
+        "top": 365,
+        "right": 1505,
+        "bottom": 755
+      },
+      "sha256": "9dfd43393a9e0a55dfa4fac076344828fd117cb26ad3f7831d08371b9c3057bd"
+    }
   }
 }
