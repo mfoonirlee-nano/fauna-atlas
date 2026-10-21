@@ -24370,7 +24370,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 743);
+  assert.equal(species.length, 744);
 
   for (const node of flatten(tree).filter((candidate) => candidate.kind === 'taxon')) {
     assert.equal(
@@ -24541,7 +24541,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 743);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 744);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24562,7 +24562,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Mnemiopsis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 530);
+  assert.equal(findTaxon(tree, 'phylum', 'Chordata')?.speciesCount, 531);
   assert.equal(findTaxon(tree, 'class', 'Mammalia')?.speciesCount, 166);
   assert.equal(findTaxon(tree, 'order', 'Carnivora')?.speciesCount, 49);
   assert.equal(findTaxon(tree, 'family', 'Procyonidae')?.speciesCount, 3);
@@ -27160,9 +27160,10 @@ test('October 12 molluscs retain accepted image sets and distinct body plans', a
 });
 
 // These classifications omit a rank in the source; never invent placeholder taxa.
-test('unassigned class and order ranks keep named parents and stable species leaves', () => {
+test('unassigned class, order and family ranks keep named parents and stable species leaves', () => {
   const tree = buildTaxonomyTree(species);
   for (const [slug, ranks, phylum] of [
+    ['dilophosaurus-wetherilli', ['kingdom', 'phylum', 'genus'], 'Chordata'],
     ['naked-peanut-worm', ['kingdom', 'phylum', 'order', 'family', 'genus'], 'Annelida'],
     ['kowalevsky-acorn-worm', ['kingdom', 'phylum', 'class', 'family', 'genus'], 'Hemichordata'],
     ['mystic-loriciferan', ['kingdom', 'phylum', 'order', 'family', 'genus'], 'Loricifera'],

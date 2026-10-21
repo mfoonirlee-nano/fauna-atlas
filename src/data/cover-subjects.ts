@@ -7430,5 +7430,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1515,
       "bottom": 785
     }
+  },
+  "dilophosaurus-wetherilli": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 855,
+      "top": 435,
+      "right": 1445,
+      "bottom": 715
+    }
   }
 };

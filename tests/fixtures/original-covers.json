@@ -7005,5 +7005,18 @@
       },
       "sha256": "7bce7b5896e63d01148a4392b26431a029b6bbd5f5bd2900e7315a928c4548e4"
     }
+  },
+  "dilophosaurus-wetherilli": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 855,
+        "top": 435,
+        "right": 1445,
+        "bottom": 715
+      },
+      "sha256": "2b544d4c19d39725d400dfe4133ad4fa576452e45fdc356036a0b6095a7c62ea"
+    }
   }
 }

@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-21",
+  "tool": "image_gen",
+  "scientificLimits": "从斜前方找头顶两道并排的嵴，比较它们与吻部的位置。化石支持头嵴存在，嵴外的软组织形状与颜色仍不清楚；没有化石证据支持影视中的颈部褶边与喷毒。 Marsh 与 Rowe 在 2020 年比较凯恩塔组的多件骨骼，讨论头骨、含气腔骨骼与系统位置。研究没有恢复单系的双嵴龙科；本档案省略未确定的科，不沿用 GBIF 的伤齿龙科匹配。",
+  "images": [
+    {
+      "scene": "01-cover",
+      "prompt": "Edit this dilophosaurus-wetherilli cover composition. SHRINK whole dinosaur to 60 percent of current size; place the ENTIRE dinosaur including complete pointed tailtip, head crests if present and feet STRICTLY inside rectangle x=700..1460,y=300..800 on1536x1024. Tail may curve gently to fit, no cut tail. Left44percent EMPTY landscape. Whole creature about HALF frame width, do not fill whole canvas. Preserve scientific anatomy, original art style. No labels text.",
+      "selectedSourceSha256": "64e9533158bcdf838827ff7a5ae126233f4fe124494762ca690948b431283894"
+    },
+    {
+      "scene": "02-observation",
+      "prompt": "Edit this full body paleoart: zoom out substantially by35percent so ENTIRE long tail including last pointed tailtip fits INSIDE picture, with at least100pixel clear background on ALL four sides of creature. Tail must taper to visible point fully inside frame. Preserve species head anatomy, body, style and scene including plinth if present. Landscape1536x1024. No text.",
+      "selectedSourceSha256": "4da4a09aafefb3c78f669df9977ce7c870388a164451b01d7fe18fb88dd87bd7"
+    },
+    {
+      "scene": "03-observation",
+      "prompt": "Dilophosaurus wetherilli, scientifically informed naturalistic paleoart. Two parallel thin longitudinal rounded head crests, narrow long snout with slight subnarial notch, long neck, long tail, strong two hindlegs, four-finger hands with reduced outer finger directed inward. NO neck frill, NO venom, NO giant ear fins. Early Jurassic Kayenta Arizona landscape with conifers and ferns. Speculative earthy scale colors, no text labels watermark other animals gore. Landscape3:2. Close-up head threequarter view showing TWO distinct narrow parallel crests, no frill.",
+      "selectedSourceSha256": "01bb93773d5adc121c9817a23cf5865e10eebead868bbab6ecb662ef535a4582"
+    },
+    {
+      "scene": "04-observation",
+      "prompt": "Edit this full body paleoart: zoom out substantially by35percent so ENTIRE long tail including last pointed tailtip fits INSIDE picture, with at least100pixel clear background on ALL four sides of creature. Tail must taper to visible point fully inside frame. Preserve species head anatomy, body, style and scene including plinth if present. Landscape1536x1024. No text.",
+      "selectedSourceSha256": "9fbd2aaa4325a400727abd555bcc90c249458f3459a31670e57500f0b8f6e1f6"
+    },
+    {
+      "scene": "05-observation",
+      "prompt": "Edit this full body paleoart: zoom out substantially by35percent so ENTIRE long tail including last pointed tailtip fits INSIDE picture, with at least100pixel clear background on ALL four sides of creature. Tail must taper to visible point fully inside frame. Preserve species head anatomy, body, style and scene including plinth if present. Landscape1536x1024. No text.",
+      "selectedSourceSha256": "deec37cea5b9ab8d527dbf63b3a5e41876c0d1d806f3abedcd682b75dbfed0c0"
+    },
+    {
+      "scene": "06-observation",
+      "prompt": "Dilophosaurus wetherilli, scientifically informed naturalistic paleoart. Two parallel thin longitudinal rounded head crests, narrow long snout with slight subnarial notch, long neck, long tail, strong two hindlegs, four-finger hands with reduced outer finger directed inward. NO neck frill, NO venom, NO giant ear fins. Early Jurassic Kayenta Arizona landscape with conifers and ferns. Speculative earthy scale colors, no text labels watermark other animals gore. Landscape3:2. Single animal rear threequarter view, complete tailtip head and both feet,8percent margins.",
+      "selectedSourceSha256": "ed4682776b62781e62447d678a7638dd238f41fb9ed73951c99497c96f98587a"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "sourceSha256": "023937ee1017fac820c4940f8c741984bb5e2957fd3ffdfd64bb163af52e3414",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "封面长尾进入左侧或裁切"
+    },
+    {
+      "sourceSha256": "1c9e71d365efb11759c1cefcf26282185afe8d5ec1f497b64b97e9ac3ca34d48",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "尾端裁切，采用修订稿"
+    },
+    {
+      "sourceSha256": "f57530b847126bd7127e96618b5e3326c08708f531c687ae5acf3262e91ad323",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "尾端裁切，采用修订稿"
+    },
+    {
+      "sourceSha256": "f17e07e8b8775860477bce65f6d1f2827a5107291f3e60052db1b8d8dc71d30d",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "reason": "尾端裁切，采用修订稿"
+    }
+  ]
+}
