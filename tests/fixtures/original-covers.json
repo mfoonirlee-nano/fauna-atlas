@@ -7031,5 +7031,70 @@
       },
       "sha256": "3a01e36ddc88ace0d65b97629c9257af2cababaf129adbf56af8a04d701fe884"
     }
+  },
+  "plateosaurus-trossingensis": {
+    "cover": {
+      "width": 1774,
+      "height": 887,
+      "bounds": {
+        "left": 815,
+        "top": 40,
+        "right": 1690,
+        "bottom": 810
+      },
+      "sha256": "05a4d7237a152f1ed1243fccff6252f5ab933dcfaeca629f7fc035c3826c40fb"
+    }
+  },
+  "iguanodon-bernissartensis": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 680,
+        "top": 95,
+        "right": 1660,
+        "bottom": 780
+      },
+      "sha256": "8a48d9e3ec139af5d69268b6d5a0178061480bfdadc90b96eea441f6fbce3b87"
+    }
+  },
+  "parasaurolophus-walkeri": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 660,
+        "top": 78,
+        "right": 1662,
+        "bottom": 795
+      },
+      "sha256": "62609f9bede6392a6344fd952de6b37df11caf13f34a249b5cff6628d02deb83"
+    }
+  },
+  "edmontosaurus-annectens": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 615,
+        "top": 145,
+        "right": 1648,
+        "bottom": 790
+      },
+      "sha256": "2cbc07040c1cc39a7c75349b3980faad24578ba1c9dfa40d5f6307a6d12ad3f8"
+    }
+  },
+  "ankylosaurus-magniventris": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 670,
+        "top": 240,
+        "right": 1645,
+        "bottom": 750
+      },
+      "sha256": "e614ff6c2c75cd7a78b1efe1c5c48bd2b2b89b142dcd5e91941050e4997d9be7"
+    }
   }
 }

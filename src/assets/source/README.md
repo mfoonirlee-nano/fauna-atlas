@@ -1055,3 +1055,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [似鳄重爪龙图片集](./species/baryonyx-walkeri/README.md)
 - [双嵴龙图片集](./species/dilophosaurus-wetherilli/README.md)
 - [巴氏腔骨龙图片集](./species/coelophysis-bauri/README.md)
+
+## 2026-10-22 第十批灭绝动物
+
+- [板龙图片集](./species/plateosaurus-trossingensis/README.md)
+- [伯尼萨特禽龙图片集](./species/iguanodon-bernissartensis/README.md)
+- [沃克氏副栉龙图片集](./species/parasaurolophus-walkeri/README.md)
+- [连接埃德蒙顿龙图片集](./species/edmontosaurus-annectens/README.md)
+- [巨型甲龙图片集](./species/ankylosaurus-magniventris/README.md)

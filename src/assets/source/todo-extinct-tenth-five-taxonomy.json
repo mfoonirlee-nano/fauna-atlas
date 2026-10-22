@@ -1,0 +1,253 @@
+{
+  "reviewedAt": "2026-10-22",
+  "records": [
+    {
+      "scientificName": "Plateosaurus trossingensis",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Plateosaurus%20trossingensis",
+        "response": {
+          "usageKey": 8580226,
+          "acceptedUsageKey": 8611162,
+          "scientificName": "Plateosaurus trossingensis Fraas, 1913",
+          "canonicalName": "Plateosaurus trossingensis",
+          "rank": "SPECIES",
+          "status": "SYNONYM",
+          "confidence": 98,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Plateosauridae",
+          "genus": "Plateosaurus",
+          "species": "Plateosaurus erlenbergiensis",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 3239006,
+          "genusKey": 3239102,
+          "speciesKey": 8611162
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=64679&show=attr,class",
+        "response": {
+          "elapsed_time": 0.00146,
+          "records": [
+            {
+              "oid": "txn:64679",
+              "flg": "B",
+              "rnk": "species",
+              "nam": "Plateosaurus trossingensis",
+              "att": "Fraas 1913",
+              "par": "txn:38644",
+              "rid": "ref:26308",
+              "ext": "0",
+              "noc": 4,
+              "phl": "Chordata",
+              "cll": "Saurischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "Plateosauridae",
+              "gnl": "Plateosaurus"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scientificName": "Iguanodon bernissartensis",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Iguanodon%20bernissartensis",
+        "response": {
+          "usageKey": 4965972,
+          "scientificName": "Iguanodon bernissartensis Boulenger, 1881",
+          "canonicalName": "Iguanodon bernissartensis",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Iguanodontidae",
+          "genus": "Iguanodon",
+          "species": "Iguanodon bernissartensis",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 3238862,
+          "genusKey": 4823052,
+          "speciesKey": 4965972
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=58905&show=attr,class",
+        "response": {
+          "elapsed_time": 0.00133,
+          "records": [
+            {
+              "oid": "txn:58905",
+              "flg": "B",
+              "rnk": "species",
+              "nam": "Iguanodon bernissartensis",
+              "att": "Boulenger 1881",
+              "par": "txn:38749",
+              "rid": "ref:19188",
+              "ext": "0",
+              "noc": 23,
+              "phl": "Chordata",
+              "cll": "Ornithischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "NO_FAMILY_SPECIFIED",
+              "gnl": "Iguanodon"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scientificName": "Parasaurolophus walkeri",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Parasaurolophus%20walkeri",
+        "response": {
+          "usageKey": 4965917,
+          "scientificName": "Parasaurolophus walkeri Parks, 1922",
+          "canonicalName": "Parasaurolophus walkeri",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Lambeosauridae",
+          "genus": "Parasaurolophus",
+          "species": "Parasaurolophus walkeri",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 4823226,
+          "genusKey": 4823227,
+          "speciesKey": 4965917
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=63256&show=attr,class",
+        "response": {
+          "elapsed_time": 0.00141,
+          "records": [
+            {
+              "oid": "txn:63256",
+              "flg": "B",
+              "rnk": "species",
+              "nam": "Parasaurolophus walkeri",
+              "att": "Parks 1922",
+              "par": "txn:38766",
+              "rid": "ref:12350",
+              "ext": "0",
+              "noc": 2,
+              "phl": "Chordata",
+              "cll": "Ornithischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "Hadrosauridae",
+              "gnl": "Parasaurolophus"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scientificName": "Edmontosaurus annectens",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Edmontosaurus%20annectens",
+        "response": {
+          "usageKey": 4965901,
+          "acceptedUsageKey": 9619033,
+          "scientificName": "Edmontosaurus annectens (Marsh, 1892)",
+          "canonicalName": "Edmontosaurus annectens",
+          "rank": "SPECIES",
+          "status": "SYNONYM",
+          "confidence": 98,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Hadrosauridae",
+          "genus": "Edmontosaurus",
+          "species": "Claosaurus annectens",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 4823263,
+          "genusKey": 4823295,
+          "speciesKey": 9619033
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=54239&show=attr,class",
+        "response": {
+          "elapsed_time": 0.00212,
+          "records": [
+            {
+              "oid": "txn:54239",
+              "vid": "var:64305",
+              "flg": "B",
+              "rnk": "species",
+              "nam": "Edmontosaurus annectens",
+              "att": "(Marsh 1892)",
+              "par": "txn:38761",
+              "rid": "ref:9095",
+              "ext": "0",
+              "noc": 30,
+              "phl": "Chordata",
+              "cll": "Ornithischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "Hadrosauridae",
+              "gnl": "Edmontosaurus"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scientificName": "Ankylosaurus magniventris",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Ankylosaurus%20magniventris",
+        "response": {
+          "usageKey": 4965736,
+          "scientificName": "Ankylosaurus magniventris Brown, 1908",
+          "canonicalName": "Ankylosaurus magniventris",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Ankylosauridae",
+          "genus": "Ankylosaurus",
+          "species": "Ankylosaurus magniventris",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 3238871,
+          "genusKey": 4823327,
+          "speciesKey": 4965736
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=52793&show=attr,class",
+        "response": {
+          "elapsed_time": 0.00117,
+          "records": [
+            {
+              "oid": "txn:52793",
+              "flg": "B",
+              "rnk": "species",
+              "nam": "Ankylosaurus magniventris",
+              "att": "Brown 1908",
+              "par": "txn:38837",
+              "rid": "ref:4210",
+              "ext": "0",
+              "noc": 15,
+              "phl": "Chordata",
+              "cll": "Ornithischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "Ankylosauridae",
+              "gnl": "Ankylosaurus"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

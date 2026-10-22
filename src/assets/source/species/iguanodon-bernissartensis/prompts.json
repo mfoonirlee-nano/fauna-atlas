@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "generatedAt": "2026-10-22",
+  "scenes": [
+    {
+      "scene": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-a5c27fb4-84ee-4371-b522-b3da5c7aa110.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart cover: full animal on RIGHT, every visible part within x=44% to 94%, visually centered at 70% width. Left 40% empty quiet landscape for website copy; large subject with comfortable margins. Foreshorten body gently so entire head, feet and tail fit. Subject: Iguanodon bernissartensis, robust quadrupedal ornithopod, long deep head, beak, thumb spike pointing sideways separate from weight-bearing middle fingers, horizontal spine and raised thick tapering tail, no head horn. Environment: Early Cretaceous western European fern and conifer wetland. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or anachronistic animals. Keep every extremity visible and separated from image edges. One landscape image."
+    },
+    {
+      "scene": "02-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-923aeedc-2dec-4cf5-8b8d-999809a94b95.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete body true lateral side view, entire tail and feet clearly separated from frame edges, centered subject large within landscape. Subject: Iguanodon bernissartensis, robust quadrupedal ornithopod, long deep head, beak, thumb spike pointing sideways separate from weight-bearing middle fingers, horizontal spine and raised thick tapering tail, no head horn. Environment: Early Cretaceous western European fern and conifer wetland. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "03-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-6ad87b61-fb45-4b3d-9ef1-9dec1dc9cf83.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: close view of the head and neck, realistic external skin and beak details; show complete head including crest if any, no cutaways or floating diagrams. Subject: Iguanodon bernissartensis, robust quadrupedal ornithopod, long deep head, beak, thumb spike pointing sideways separate from weight-bearing middle fingers, horizontal spine and raised thick tapering tail, no head horn. Environment: Early Cretaceous western European fern and conifer wetland. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "04-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-35dc87f5-3063-47b1-b018-fad0a16bb8e5.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: a complete freestanding painted life reconstruction scale model on a neutral dark museum workshop plinth, three-quarter side view, clearly an invented model NOT a real fossil or specimen. Entire animal including tail tip visible. Subject: Iguanodon bernissartensis, robust quadrupedal ornithopod, long deep head, beak, thumb spike pointing sideways separate from weight-bearing middle fingers, horizontal spine and raised thick tapering tail, no head horn. Environment: Early Cretaceous western European fern and conifer wetland. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "05-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-ed17396d-adf3-4580-9c41-0bff27063db3.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete animal moving through its ancient habitat, wider environmental composition, visible ferns conifers sediment and water, entire silhouette visible, no other animals. Subject: Iguanodon bernissartensis, robust quadrupedal ornithopod, long deep head, beak, thumb spike pointing sideways separate from weight-bearing middle fingers, horizontal spine and raised thick tapering tail, no head horn. Environment: Early Cretaceous western European fern and conifer wetland. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "06-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-d06127c8-74ed-4041-96e0-f5bdf3ce2907.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete animal viewed from the rear three-quarter angle, body proportions and full tail visible, open softly lit background. Subject: Iguanodon bernissartensis, robust quadrupedal ornithopod, long deep head, beak, thumb spike pointing sideways separate from weight-bearing middle fingers, horizontal spine and raised thick tapering tail, no head horn. Environment: Early Cretaceous western European fern and conifer wetland. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    }
+  ]
+}

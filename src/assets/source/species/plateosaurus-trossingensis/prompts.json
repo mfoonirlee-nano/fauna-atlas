@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "generatedAt": "2026-10-22",
+  "scenes": [
+    {
+      "scene": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-9640ca35-ed5b-4d64-8a0d-696bfbf2510a.png",
+      "prompt": "Edit this Plateosaurus trossingensis cover. Keep its anatomy, realistic paleoart and environment. Recompose the ENTIRE dinosaur to the right: no part including tail left of 43% width, head and tail no farther right than 94%, feet above 88% height, head below 10%. Turn its body slightly toward viewer and curve tail in depth behind its body so it fits, keep full tail tip visible. Left 40% quiet empty landscape. Maximize complete animal within right 55%. One image without text."
+    },
+    {
+      "scene": "02-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-1063ac96-59ae-429b-945b-524d070ed01d.png",
+      "prompt": "Edit this scientific dinosaur reconstruction. Keep species anatomy, landscape and side view. Zoom the entire composition out and extend the background so the FULL TAIL TIP is visible with at least 8% image width of clear background beyond it. The complete animal including head and feet must fit inside the central 80% of the image. Tail must taper to a visible fine point, never exit the frame. One realistic landscape image, no text."
+    },
+    {
+      "scene": "03-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-45484151-b078-4734-8ec4-13694fe799b7.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: close view of the head and neck, realistic external skin and beak details; show complete head including crest if any, no cutaways or floating diagrams. Subject: Plateosaurus trossingensis, bipedal early sauropodomorph, small head, long neck, sturdy hind legs, shorter grasping forelimbs palms inward, long tapering tail. Environment: Late Triassic central European fern and conifer floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "04-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-a3ff8513-cd64-4afb-958b-dede5d84bc82.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: a complete freestanding painted life reconstruction scale model on a neutral dark museum workshop plinth, three-quarter side view, clearly an invented model NOT a real fossil or specimen. Entire animal including tail tip visible. Subject: Plateosaurus trossingensis, bipedal early sauropodomorph, small head, long neck, sturdy hind legs, shorter grasping forelimbs palms inward, long tapering tail. Environment: Late Triassic central European fern and conifer floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "05-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-b9546a47-23a1-4599-ab82-00699b6e0e2d.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete animal moving through its ancient habitat, wider environmental composition, visible ferns conifers sediment and water, entire silhouette visible, no other animals. Subject: Plateosaurus trossingensis, bipedal early sauropodomorph, small head, long neck, sturdy hind legs, shorter grasping forelimbs palms inward, long tapering tail. Environment: Late Triassic central European fern and conifer floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "06-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-09e16346-d8af-4385-8765-ab2ddd85e4a3.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete animal viewed from the rear three-quarter angle, body proportions and full tail visible, open softly lit background. Subject: Plateosaurus trossingensis, bipedal early sauropodomorph, small head, long neck, sturdy hind legs, shorter grasping forelimbs palms inward, long tapering tail. Environment: Late Triassic central European fern and conifer floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    }
+  ]
+}

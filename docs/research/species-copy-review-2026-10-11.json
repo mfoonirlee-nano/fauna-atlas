@@ -34090,8 +34090,220 @@
           ]
         }
       }
+    },
+    {
+      "slug": "plateosaurus-trossingensis",
+      "name": "板龙",
+      "scientificName": "Plateosaurus trossingensis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://biotaxa.org/bzn/article/view/56408",
+            "https://doi.org/10.1080/14772019.2024.2335387",
+            "https://www.naturkundemuseum-bw.de/forschung/science-blog/plateosaurus-trossingensis-und-die-dino-mania-in-wuerttemberg"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://biotaxa.org/bzn/article/view/56408",
+            "https://doi.org/10.1080/14772019.2024.2335387"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://biotaxa.org/bzn/article/view/56408",
+            "https://doi.org/10.1080/14772019.2024.2335387"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://biotaxa.org/bzn/article/view/56408",
+            "https://doi.org/10.1080/14772019.2024.2335387"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://biotaxa.org/bzn/article/view/56408",
+            "https://doi.org/10.1080/14772019.2024.2335387"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "iguanodon-bernissartensis",
+      "name": "伯尼萨特禽龙",
+      "scientificName": "Iguanodon bernissartensis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://collections.naturalsciences.be/ssh-paleontology/masterpieces/bernissart",
+            "https://www.naturalsciences.be/en/discover-join/discover/the-bernissart-iguanodons-at-a-glance",
+            "https://www.nhm.ac.uk/discover/the-discovery-of-iguanodon.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://collections.naturalsciences.be/ssh-paleontology/masterpieces/bernissart",
+            "https://www.naturalsciences.be/en/discover-join/discover/the-bernissart-iguanodons-at-a-glance",
+            "https://www.nhm.ac.uk/discover/the-discovery-of-iguanodon.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://collections.naturalsciences.be/ssh-paleontology/masterpieces/bernissart",
+            "https://www.naturalsciences.be/en/discover-join/discover/the-bernissart-iguanodons-at-a-glance",
+            "https://www.nhm.ac.uk/discover/the-discovery-of-iguanodon.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://collections.naturalsciences.be/ssh-paleontology/masterpieces/bernissart",
+            "https://www.naturalsciences.be/en/discover-join/discover/the-bernissart-iguanodons-at-a-glance",
+            "https://www.nhm.ac.uk/discover/the-discovery-of-iguanodon.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://collections.naturalsciences.be/ssh-paleontology/masterpieces/bernissart",
+            "https://www.naturalsciences.be/en/discover-join/discover/the-bernissart-iguanodons-at-a-glance",
+            "https://www.nhm.ac.uk/discover/the-discovery-of-iguanodon.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "parasaurolophus-walkeri",
+      "name": "沃克氏副栉龙",
+      "scientificName": "Parasaurolophus walkeri",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://dinomuseum.ca/2021/01/the-real-parasaurolophus"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://dinomuseum.ca/2021/01/the-real-parasaurolophus"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://dinomuseum.ca/2021/01/the-real-parasaurolophus"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://dinomuseum.ca/2021/01/the-real-parasaurolophus"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://dinomuseum.ca/2021/01/the-real-parasaurolophus"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "edmontosaurus-annectens",
+      "name": "连接埃德蒙顿龙",
+      "scientificName": "Edmontosaurus annectens",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.si.edu/object/nmnhpaleobiology_3441011",
+            "https://siris-sihistory.si.edu/ipac20/ipac.jsp?profile=all&source=~!sichronology&uri=full=3100001~!10583~!0",
+            "https://www.nhm.ac.uk/discover/dino-directory/edmontosaurus.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.si.edu/object/nmnhpaleobiology_3441011",
+            "https://siris-sihistory.si.edu/ipac20/ipac.jsp?profile=all&source=~!sichronology&uri=full=3100001~!10583~!0"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.si.edu/object/nmnhpaleobiology_3441011",
+            "https://siris-sihistory.si.edu/ipac20/ipac.jsp?profile=all&source=~!sichronology&uri=full=3100001~!10583~!0"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.si.edu/object/nmnhpaleobiology_3441011",
+            "https://siris-sihistory.si.edu/ipac20/ipac.jsp?profile=all&source=~!sichronology&uri=full=3100001~!10583~!0"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.si.edu/object/nmnhpaleobiology_3441011",
+            "https://siris-sihistory.si.edu/ipac20/ipac.jsp?profile=all&source=~!sichronology&uri=full=3100001~!10583~!0"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ankylosaurus-magniventris",
+      "name": "巨型甲龙",
+      "scientificName": "Ankylosaurus magniventris",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/Ankylosaurus.html",
+            "https://doi.org/10.1139/facets-2017-0063"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/Ankylosaurus.html",
+            "https://doi.org/10.1139/facets-2017-0063"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/Ankylosaurus.html",
+            "https://doi.org/10.1139/facets-2017-0063"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/Ankylosaurus.html",
+            "https://doi.org/10.1139/facets-2017-0063"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/Ankylosaurus.html",
+            "https://doi.org/10.1139/facets-2017-0063"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",
-  "lastExtendedAt": "2026-10-21"
+  "lastExtendedAt": "2026-10-22"
 }

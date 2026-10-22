@@ -1,0 +1,120 @@
+{
+  "reviewedAt": "2026-10-22",
+  "records": [
+    {
+      "scientificName": "Plateosaurus trossingensis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Plateosauridae",
+          "zhName": "板龙科"
+        },
+        "genus": {
+          "scientificName": "Plateosaurus",
+          "zhName": "板龙属"
+        }
+      },
+      "resolution": "拒绝 GBIF 的 Plateosaurus erlenbergiensis 异名链；采用 ICZN 2019、2024 年模式标本重描述及 PBDB。",
+      "rankPolicy": "沿 GBIF 基线省略未设置的纲与目；科属差异按上述来源修订。"
+    },
+    {
+      "scientificName": "Iguanodon bernissartensis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Iguanodontidae",
+          "zhName": "禽龙科"
+        },
+        "genus": {
+          "scientificName": "Iguanodon",
+          "zhName": "禽龙属"
+        }
+      },
+      "resolution": "采用 GBIF 的种名、禽龙科与属；比利时自然科学研究所标本资料核对种身份与时代。",
+      "rankPolicy": "沿 GBIF 基线省略未设置的纲与目；科属差异按上述来源修订。"
+    },
+    {
+      "scientificName": "Parasaurolophus walkeri",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Hadrosauridae",
+          "zhName": "鸭嘴龙科"
+        },
+        "genus": {
+          "scientificName": "Parasaurolophus",
+          "zhName": "副栉龙属"
+        }
+      },
+      "resolution": "GBIF 将 Lambeosauridae 列为科；按 PBDB 与博物馆的 Hadrosauridae／Lambeosaurinae 处理，采用鸭嘴龙科。",
+      "rankPolicy": "沿 GBIF 基线省略未设置的纲与目；科属差异按上述来源修订。"
+    },
+    {
+      "scientificName": "Edmontosaurus annectens",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Hadrosauridae",
+          "zhName": "鸭嘴龙科"
+        },
+        "genus": {
+          "scientificName": "Edmontosaurus",
+          "zhName": "埃德蒙顿龙属"
+        }
+      },
+      "resolution": "拒绝 GBIF 回到 Claosaurus annectens 的异名链；采用 Smithsonian 与 PBDB 的 Edmontosaurus annectens。",
+      "rankPolicy": "沿 GBIF 基线省略未设置的纲与目；科属差异按上述来源修订。"
+    },
+    {
+      "scientificName": "Ankylosaurus magniventris",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Ankylosauridae",
+          "zhName": "甲龙科"
+        },
+        "genus": {
+          "scientificName": "Ankylosaurus",
+          "zhName": "甲龙属"
+        }
+      },
+      "resolution": "GBIF 与 PBDB 的种名、甲龙科一致；骨骼与甲片复原采用 2017 年研究。",
+      "rankPolicy": "沿 GBIF 基线省略未设置的纲与目；科属差异按上述来源修订。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "revisedAt": "2026-10-22",
+  "revisions": [
+    {
+      "scene": "02-observation",
+      "initialPrompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete body true lateral side view, entire tail and feet clearly separated from frame edges, centered subject large within landscape. Subject: Edmontosaurus annectens, large robust quadrupedal hadrosaur, long low broad duck-billed head WITHOUT tall crest or comb, strong hind limbs, long muscular tail. Environment: Late Cretaceous Maastrichtian western North American fern and conifer floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image.",
+      "reason": "Initial tail tip met image edge; revised entire silhouette and background clearance.",
+      "revisionPrompt": "Edit this scientific dinosaur reconstruction. Keep species anatomy, landscape and side view. Zoom the entire composition out and extend the background so the FULL TAIL TIP is visible with at least 8% image width of clear background beyond it. The complete animal including head and feet must fit inside the central 80% of the image. Tail must taper to a visible fine point, never exit the frame. One realistic landscape image, no text."
+    }
+  ]
+}

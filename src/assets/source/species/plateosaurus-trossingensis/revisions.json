@@ -1,0 +1,17 @@
+{
+  "revisedAt": "2026-10-22",
+  "revisions": [
+    {
+      "scene": "01-cover",
+      "initialPrompt": "Use case: scientific-educational. Generate a single landscape paleoart cover for Plateosaurus trossingensis. Full animal on RIGHT with entire silhouette between 44% and 93% image width, center about 70%; quiet empty left 40% for website copy. Realistic museum quality scientific reconstruction illustration, Late Triassic central European fern and conifer floodplain. Bipedal early sauropodomorph, small head, long neck, sturdy hind legs, shorter grasping forelimbs held inward palms facing each other, long tapering tail entirely visible. Side three-quarter view with body gently foreshortened to fit right half; no dragging tail, no pronated hands, no modern grass, no other animals, no text. Keep background space around head, toes and tail tip. Muted speculative earthy skin coloration. Output one image, no collage.",
+      "reason": "Initial tail entered left copy area; revised dinosaur placement and tail pose.",
+      "revisionPrompt": "Edit this Plateosaurus trossingensis cover. Keep its anatomy, realistic paleoart and environment. Recompose the ENTIRE dinosaur to the right: no part including tail left of 43% width, head and tail no farther right than 94%, feet above 88% height, head below 10%. Turn its body slightly toward viewer and curve tail in depth behind its body so it fits, keep full tail tip visible. Left 40% quiet empty landscape. Maximize complete animal within right 55%. One image without text."
+    },
+    {
+      "scene": "02-observation",
+      "initialPrompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete body true lateral side view, entire tail and feet clearly separated from frame edges, centered subject large within landscape. Subject: Plateosaurus trossingensis, bipedal early sauropodomorph, small head, long neck, sturdy hind legs, shorter grasping forelimbs palms inward, long tapering tail. Environment: Late Triassic central European fern and conifer floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image.",
+      "reason": "Initial tail tip met image edge; revised entire silhouette and background clearance.",
+      "revisionPrompt": "Edit this scientific dinosaur reconstruction. Keep species anatomy, landscape and side view. Zoom the entire composition out and extend the background so the FULL TAIL TIP is visible with at least 8% image width of clear background beyond it. The complete animal including head and feet must fit inside the central 80% of the image. Tail must taper to a visible fine point, never exit the frame. One realistic landscape image, no text."
+    }
+  ]
+}

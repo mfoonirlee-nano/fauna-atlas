@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "generatedAt": "2026-10-22",
+  "scenes": [
+    {
+      "scene": "01-cover",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-fe5eed30-cd60-4026-acd0-5bc3ecffde14.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart cover: full animal on RIGHT, every visible part within x=44% to 94%, visually centered at 70% width. Left 40% empty quiet landscape for website copy; large subject with comfortable margins. Foreshorten body gently so entire head, feet and tail fit. Subject: Ankylosaurus magniventris, low wide quadrupedal armored dinosaur, broad low skull with small rear horns, broad blunt beak, low irregular bony osteoderms rather than tall stegosaur plates, short sturdy legs, muscular tail with stiff distal handle ending in broad rounded blunt bony club, no spiked tail. Environment: Late Cretaceous Maastrichtian western North American wooded floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or anachronistic animals. Keep every extremity visible and separated from image edges. One landscape image."
+    },
+    {
+      "scene": "02-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-3a7bd69c-b27e-4467-84f1-5104b1a6090b.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete body true lateral side view, entire tail and feet clearly separated from frame edges, centered subject large within landscape. Subject: Ankylosaurus magniventris, low wide quadrupedal armored dinosaur, broad low skull with small rear horns, broad blunt beak, low irregular bony osteoderms rather than tall stegosaur plates, short sturdy legs, muscular tail with stiff distal handle ending in broad rounded blunt bony club, no spiked tail. Environment: Late Cretaceous Maastrichtian western North American wooded floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "03-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-d67ed453-a154-4613-93be-e90046c66934.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: close view of the head and neck, realistic external skin and beak details; show complete head including crest if any, no cutaways or floating diagrams. Subject: Ankylosaurus magniventris, low wide quadrupedal armored dinosaur, broad low skull with small rear horns, broad blunt beak, low irregular bony osteoderms rather than tall stegosaur plates, short sturdy legs, muscular tail with stiff distal handle ending in broad rounded blunt bony club, no spiked tail. Environment: Late Cretaceous Maastrichtian western North American wooded floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "04-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-f2ab5a04-0223-4b3b-864a-89e7d4da8f03.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: a complete freestanding painted life reconstruction scale model on a neutral dark museum workshop plinth, three-quarter side view, clearly an invented model NOT a real fossil or specimen. Entire animal including tail tip visible. Subject: Ankylosaurus magniventris, low wide quadrupedal armored dinosaur, broad low skull with small rear horns, broad blunt beak, low irregular bony osteoderms rather than tall stegosaur plates, short sturdy legs, muscular tail with stiff distal handle ending in broad rounded blunt bony club, no spiked tail. Environment: Late Cretaceous Maastrichtian western North American wooded floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "05-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-7a6924b0-b000-4d63-abc0-a56b2527d5e4.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete animal moving through its ancient habitat, wider environmental composition, visible ferns conifers sediment and water, entire silhouette visible, no other animals. Subject: Ankylosaurus magniventris, low wide quadrupedal armored dinosaur, broad low skull with small rear horns, broad blunt beak, low irregular bony osteoderms rather than tall stegosaur plates, short sturdy legs, muscular tail with stiff distal handle ending in broad rounded blunt bony club, no spiked tail. Environment: Late Cretaceous Maastrichtian western North American wooded floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    },
+    {
+      "scene": "06-observation",
+      "path": "/Users/chris.li/.codex/generated_images/01a1617c-0567-7081-98c5-9d0208986a74/exec-50a67413-c724-4516-b213-dc025d7cbfb4.png",
+      "prompt": "Use case: scientific-educational. Asset type: fauna atlas paleoart observation: complete animal viewed from the rear three-quarter angle, body proportions and full tail visible, open softly lit background. Subject: Ankylosaurus magniventris, low wide quadrupedal armored dinosaur, broad low skull with small rear horns, broad blunt beak, low irregular bony osteoderms rather than tall stegosaur plates, short sturdy legs, muscular tail with stiff distal handle ending in broad rounded blunt bony club, no spiked tail. Environment: Late Cretaceous Maastrichtian western North American wooded floodplain. Realistic museum quality scientific reconstruction illustration. Muted earthy speculative colors. No text, watermark, collage, modern grass or other animals. No cutaways. One landscape image."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "reviewedAt": "2026-10-22",
+  "images": [
+    {
+      "scene": "01-cover",
+      "sourceSha256": "c9b4821d9427957ad60ee7f671cc6b0b66902f5251a31bcb83dc4dcb1e9c4295",
+      "runtimeSha256": "e614ff6c2c75cd7a78b1efe1c5c48bd2b2b89b142dcd5e91941050e4997d9be7",
+      "sourceDimensions": [
+        1672,
+        941
+      ],
+      "decodedDimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "02-observation",
+      "sourceSha256": "456179d247d0fea295f57c01348a2297d6b0fbf339c20b5d72ace3953cec22d3",
+      "runtimeSha256": "3d8b1097fdf7abf8a1cd7db5294d2baf03ee035cb809851d14a8e92b19a638d7",
+      "sourceDimensions": [
+        1672,
+        941
+      ],
+      "decodedDimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "scene": "03-observation",
+      "sourceSha256": "b0105a350513a7b06c856ff8f5e756f0bb08975145d085a13abd15646e1d4469",
+      "runtimeSha256": "7c6d18f90a4c62708c070635b45e9ed8aebd50e99f4e2e97ffa8fa4aefb8f914",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "04-observation",
+      "sourceSha256": "e04842db906e38394de8226cd69e5aaa4801218c0437426a4e45b824e148f979",
+      "runtimeSha256": "cb215dc0832dff39747016a118101e74950a93013f50ea205ef943b126c104b3",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "05-observation",
+      "sourceSha256": "16a718024ddebf9a2c5dc6124989bbaf49302fb40b717f4d14bc0b5454c2885c",
+      "runtimeSha256": "079df559cd6198b1e08c6c9c7d2d938e1825cbbd634c5ad99475e0cd269699e7",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "scene": "06-observation",
+      "sourceSha256": "aa96e6c1d720357b9ed7afaa5153292b17ca18e827616d6dc71bcbda2155d750",
+      "runtimeSha256": "e803ec6b98497cc9b068aa9f96d703f25dc935d66d707d14993cf3835df470f4",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "decodedDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

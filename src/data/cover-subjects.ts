@@ -7451,5 +7451,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1395,
       "bottom": 680
     }
+  },
+  "plateosaurus-trossingensis": {
+    "width": 1774,
+    "height": 887,
+    "bounds": {
+      "left": 815,
+      "top": 40,
+      "right": 1690,
+      "bottom": 810
+    }
+  },
+  "iguanodon-bernissartensis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 680,
+      "top": 95,
+      "right": 1660,
+      "bottom": 780
+    }
+  },
+  "parasaurolophus-walkeri": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 660,
+      "top": 78,
+      "right": 1662,
+      "bottom": 795
+    }
+  },
+  "edmontosaurus-annectens": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 615,
+      "top": 145,
+      "right": 1648,
+      "bottom": 790
+    }
+  },
+  "ankylosaurus-magniventris": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 670,
+      "top": 240,
+      "right": 1645,
+      "bottom": 750
+    }
   }
 };
