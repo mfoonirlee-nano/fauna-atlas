@@ -7226,5 +7226,70 @@
       },
       "sha256": "560ed764d04b42a7f2ae2c7e2b96d338c4eaf5492bbbe968bc39424ecfe9c840"
     }
+  },
+  "liopleurodon-ferox": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 695,
+        "top": 300,
+        "right": 1605,
+        "bottom": 660
+      },
+      "sha256": "dcfe487c8dec77795c6a1ba3bf8d9686161557fee62a83dd64e2627a7ed580eb"
+    }
+  },
+  "elasmosaurus-platyurus": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 740,
+        "top": 355,
+        "right": 1610,
+        "bottom": 567
+      },
+      "sha256": "8a170ca2d14171547970a6dcc1e6a5f9cbf7af17c84974705bcc0e5dd66a1d2f"
+    }
+  },
+  "mosasaurus-hoffmannii": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 705,
+        "top": 348,
+        "right": 1618,
+        "bottom": 558
+      },
+      "sha256": "47911d85da9e6b9b660bd4d5d86fc1907a3ee55cb233b2c4d3c130b41376c658"
+    }
+  },
+  "tylosaurus-proriger": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 720,
+        "top": 345,
+        "right": 1608,
+        "bottom": 542
+      },
+      "sha256": "dcd4ed31c57bc138b3305aad1025a39867b75610259871d46f03d54a56b8d7e5"
+    }
+  },
+  "tanystropheus-longobardicus": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 710,
+        "top": 310,
+        "right": 1648,
+        "bottom": 580
+      },
+      "sha256": "7bc3d17682ea72249ea27b7f7946e0cfd054de45ff0a1c414f76c465b2fbee8f"
+    }
   }
 }

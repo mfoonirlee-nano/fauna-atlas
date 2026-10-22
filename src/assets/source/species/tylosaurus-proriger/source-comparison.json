@@ -1,0 +1,28 @@
+{
+  "reviewedAt": "2026-10-22",
+  "initialSource": {
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "a507afa6f633459bc241b9a08628f3221b77f14eee76747df07965734832837b",
+    "bounds": {
+      "left": 501,
+      "top": 305,
+      "right": 1655,
+      "bottom": 558
+    },
+    "prompt": "Use case: scientific-educational. Create ONE landscape 16:9 museum-quality naturalistic paleoart cover for Fauna Atlas. The ONLY animal in the whole image is a single Tylosaurus proriger, slender long marine squamate reptile, long narrow skull with a rounded toothless bony snout projection beyond the tooth row, four short paddle flippers, long muscular tail with modest asymmetrical vertically oriented caudal fin with larger lower lobe. Muted brown-gray small-scaled skin. NO dorsal fin, NO back spikes or sail, NO gills, NO crocodile scutes, NO legs. Environment: Late Cretaceous Western Interior Seaway, fully underwater with distant sandy seabed. Exact side view showing COMPLETE animal, every flipper or foot and BOTH ends of neck and tail. Animal entirely within x=44% to96% canvas width, center x=70%, y=50%. The left40% must contain ONLY quiet open water/seabed, with no animal. Maximize complete animal inside that right-side region, 5% background margins around all extremities. No text, watermark, frame, labels, human, skeleton or additional creatures. This is scientific reconstruction with speculative muted coloration."
+  },
+  "acceptedCover": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 720,
+      "top": 345,
+      "right": 1608,
+      "bottom": 542
+    }
+  },
+  "acceptedWebpSha256": "dcd4ed31c57bc138b3305aad1025a39867b75610259871d46f03d54a56b8d7e5"
+}

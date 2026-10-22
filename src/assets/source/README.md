@@ -1079,3 +1079,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [古翼手龙图片集](./species/pterodactylus-antiquus/README.md)
 - [明氏喙嘴翼龙图片集](./species/rhamphorhynchus-muensteri/README.md)
 - [普通鱼龙图片集](./species/ichthyosaurus-communis/README.md)
+
+## 2026-10-22 第十三批灭绝动物
+
+- [四鳍滑齿龙图片集](./species/liopleurodon-ferox/README.md)
+- [宽尾薄板龙图片集](./species/elasmosaurus-platyurus/README.md)
+- [霍氏沧龙图片集](./species/mosasaurus-hoffmannii/README.md)
+- [普氏泰洛龙图片集](./species/tylosaurus-proriger/README.md)
+- [长颈龙图片集](./species/tanystropheus-longobardicus/README.md)

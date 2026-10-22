@@ -7601,5 +7601,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1600,
       "bottom": 608
     }
+  },
+  "liopleurodon-ferox": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 695,
+      "top": 300,
+      "right": 1605,
+      "bottom": 660
+    }
+  },
+  "elasmosaurus-platyurus": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 740,
+      "top": 355,
+      "right": 1610,
+      "bottom": 567
+    }
+  },
+  "mosasaurus-hoffmannii": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 705,
+      "top": 348,
+      "right": 1618,
+      "bottom": 558
+    }
+  },
+  "tylosaurus-proriger": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 720,
+      "top": 345,
+      "right": 1608,
+      "bottom": 542
+    }
+  },
+  "tanystropheus-longobardicus": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 710,
+      "top": 310,
+      "right": 1648,
+      "bottom": 580
+    }
   }
 };

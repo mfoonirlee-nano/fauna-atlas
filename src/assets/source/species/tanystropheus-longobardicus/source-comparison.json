@@ -1,0 +1,28 @@
+{
+  "reviewedAt": "2026-10-22",
+  "initialSource": {
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "56d0de21ba9d538b6d762b73b76877866db91dfd69a6653622d3e4e02c5424f0",
+    "bounds": {
+      "left": 530,
+      "top": 228,
+      "right": 1641,
+      "bottom": 559
+    },
+    "prompt": "Use case: scientific-educational. Create ONE landscape 16:9 museum-quality naturalistic paleoart cover for Fauna Atlas. The ONLY animal in the whole image is a single Tanystropheus longobardicus sensu 2020, SMALL species, a slender long-necked Triassic archosauromorph reptile. Tiny modest short triangular head, exceptionally long thin almost straight neck about three times torso length, short compact torso, four slender sprawling limbs with clawed digits, hind limbs longer than forelimbs, very long tapering simple tail. Muted brown-olive fine scaled skin. Terrestrial-type limbs NOT flippers. NO fins, NO shell, NO wings. Do NOT depict the huge crocodile-headed Tanystropheus hydroides. Environment: Middle Triassic Monte San Giorgio shallow coastal water, animal submerged just above rocky bottom, calm subdued water. Exact side view showing COMPLETE animal, every flipper or foot and BOTH ends of neck and tail. Animal entirely within x=44% to96% canvas width, center x=70%, y=50%. The left40% must contain ONLY quiet open water/seabed, with no animal. Maximize complete animal inside that right-side region, 5% background margins around all extremities. No text, watermark, frame, labels, human, skeleton or additional creatures. This is scientific reconstruction with speculative muted coloration."
+  },
+  "acceptedCover": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 710,
+      "top": 310,
+      "right": 1648,
+      "bottom": 580
+    }
+  },
+  "acceptedWebpSha256": "7bc3d17682ea72249ea27b7f7946e0cfd054de45ff0a1c414f76c465b2fbee8f"
+}

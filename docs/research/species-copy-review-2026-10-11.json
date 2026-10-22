@@ -34747,6 +34747,251 @@
           ]
         }
       }
+    },
+    {
+      "slug": "liopleurodon-ferox",
+      "scientificName": "Liopleurodon ferox",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/456993/1791795637995",
+            "https://www.nhm.uio.no/kunnskapsunivers/paleontologi/forhistoriske-dyr/dinosaurer/samtidig/liopleurodon/",
+            "https://www.emuseum.uni-tuebingen.de/en/objects/39174/liopleurodon-ferox-reptilia-sauropterygia-plesiosauria"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/456993/1791795637995",
+            "https://www.nhm.uio.no/kunnskapsunivers/paleontologi/forhistoriske-dyr/dinosaurer/samtidig/liopleurodon/",
+            "https://www.emuseum.uni-tuebingen.de/en/objects/39174/liopleurodon-ferox-reptilia-sauropterygia-plesiosauria"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/456993/1791795637995",
+            "https://www.nhm.uio.no/kunnskapsunivers/paleontologi/forhistoriske-dyr/dinosaurer/samtidig/liopleurodon/",
+            "https://www.emuseum.uni-tuebingen.de/en/objects/39174/liopleurodon-ferox-reptilia-sauropterygia-plesiosauria"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/456993/1791795637995",
+            "https://www.nhm.uio.no/kunnskapsunivers/paleontologi/forhistoriske-dyr/dinosaurer/samtidig/liopleurodon/",
+            "https://www.emuseum.uni-tuebingen.de/en/objects/39174/liopleurodon-ferox-reptilia-sauropterygia-plesiosauria"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/456993/1791795637995",
+            "https://www.nhm.uio.no/kunnskapsunivers/paleontologi/forhistoriske-dyr/dinosaurer/samtidig/liopleurodon/",
+            "https://www.emuseum.uni-tuebingen.de/en/objects/39174/liopleurodon-ferox-reptilia-sauropterygia-plesiosauria"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "elasmosaurus-platyurus",
+      "scientificName": "Elasmosaurus platyurus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3733804/",
+            "https://www.mdpi.com/1424-2818/16/2/106",
+            "https://www.palaeontologyonline.com/?p=3465"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3733804/",
+            "https://www.mdpi.com/1424-2818/16/2/106",
+            "https://www.palaeontologyonline.com/?p=3465"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3733804/",
+            "https://www.mdpi.com/1424-2818/16/2/106",
+            "https://www.palaeontologyonline.com/?p=3465"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3733804/",
+            "https://www.mdpi.com/1424-2818/16/2/106",
+            "https://www.palaeontologyonline.com/?p=3465"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3733804/",
+            "https://www.mdpi.com/1424-2818/16/2/106",
+            "https://www.palaeontologyonline.com/?p=3465"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mosasaurus-hoffmannii",
+      "scientificName": "Mosasaurus hoffmannii",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html",
+            "https://doi.org/10.1017/S0016756816000236",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/",
+            "https://repository.naturalis.nl/pub/800447/Schulp-2024-A-nomenclatural-note-on-Mosasaurus-hoffmanni-A.pdf"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html",
+            "https://doi.org/10.1017/S0016756816000236",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/",
+            "https://repository.naturalis.nl/pub/800447/Schulp-2024-A-nomenclatural-note-on-Mosasaurus-hoffmanni-A.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html",
+            "https://doi.org/10.1017/S0016756816000236",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/",
+            "https://repository.naturalis.nl/pub/800447/Schulp-2024-A-nomenclatural-note-on-Mosasaurus-hoffmanni-A.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html",
+            "https://doi.org/10.1017/S0016756816000236",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/",
+            "https://repository.naturalis.nl/pub/800447/Schulp-2024-A-nomenclatural-note-on-Mosasaurus-hoffmanni-A.pdf"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-is-a-mosasaur.html",
+            "https://doi.org/10.1017/S0016756816000236",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/",
+            "https://repository.naturalis.nl/pub/800447/Schulp-2024-A-nomenclatural-note-on-Mosasaurus-hoffmanni-A.pdf"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tylosaurus-proriger",
+      "scientificName": "Tylosaurus proriger",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://zenodo.org/records/20412622",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583613/",
+            "https://www.si.edu/object/nmnhpaleobiology_3429206",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://zenodo.org/records/20412622",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583613/",
+            "https://www.si.edu/object/nmnhpaleobiology_3429206",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://zenodo.org/records/20412622",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583613/",
+            "https://www.si.edu/object/nmnhpaleobiology_3429206",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://zenodo.org/records/20412622",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583613/",
+            "https://www.si.edu/object/nmnhpaleobiology_3429206",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://zenodo.org/records/20412622",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583613/",
+            "https://www.si.edu/object/nmnhpaleobiology_3429206",
+            "https://portal.research.lu.se/en/publications/soft-tissue-preservation-in-a-fossil-marine-lizard-with-a-bilobed/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tanystropheus-longobardicus",
+      "scientificName": "Tanystropheus longobardicus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://palaeo-electronica.org/content/2019/2870-revision-of-tanystropheus",
+            "https://doi.org/10.1016/j.cub.2020.07.025",
+            "https://news.uzh.ch/en/articles/2020/Tanystropheus.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8101476/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://palaeo-electronica.org/content/2019/2870-revision-of-tanystropheus",
+            "https://doi.org/10.1016/j.cub.2020.07.025",
+            "https://news.uzh.ch/en/articles/2020/Tanystropheus.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8101476/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://palaeo-electronica.org/content/2019/2870-revision-of-tanystropheus",
+            "https://doi.org/10.1016/j.cub.2020.07.025",
+            "https://news.uzh.ch/en/articles/2020/Tanystropheus.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8101476/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://palaeo-electronica.org/content/2019/2870-revision-of-tanystropheus",
+            "https://doi.org/10.1016/j.cub.2020.07.025",
+            "https://news.uzh.ch/en/articles/2020/Tanystropheus.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8101476/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://palaeo-electronica.org/content/2019/2870-revision-of-tanystropheus",
+            "https://doi.org/10.1016/j.cub.2020.07.025",
+            "https://news.uzh.ch/en/articles/2020/Tanystropheus.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8101476/"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",

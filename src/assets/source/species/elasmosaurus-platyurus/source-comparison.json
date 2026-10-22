@@ -1,0 +1,28 @@
+{
+  "reviewedAt": "2026-10-22",
+  "initialSource": {
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "c2c3d99f283dd13ee94d3e5c49449c98221b65db2992c9333e534b730923b615",
+    "bounds": {
+      "left": 531,
+      "top": 329,
+      "right": 1631,
+      "bottom": 590
+    },
+    "prompt": "Use case: scientific-educational. Create ONE landscape 16:9 museum-quality naturalistic paleoart cover for Fauna Atlas. The ONLY animal in the whole image is a single Elasmosaurus platyurus, long-necked plesiosaur. Extremely long nearly straight neck about half total length, very small narrow head, compact broad torso, four long hydrofoil flippers, short tapered tail. Neck held forward horizontally underwater with a mild natural curve, never swan-like S-neck. Muted olive-gray skin. NO dorsal fin, NO tail flukes, NO legs. Environment: Late Cretaceous Western Interior Seaway, fully underwater above distant sandy seabed. Exact side view showing COMPLETE animal, every flipper or foot and BOTH ends of neck and tail. Animal entirely within x=44% to96% canvas width, center x=70%, y=50%. The left40% must contain ONLY quiet open water/seabed, with no animal. Maximize complete animal inside that right-side region, 5% background margins around all extremities. No text, watermark, frame, labels, human, skeleton or additional creatures. This is scientific reconstruction with speculative muted coloration."
+  },
+  "acceptedCover": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 740,
+      "top": 355,
+      "right": 1610,
+      "bottom": 567
+    }
+  },
+  "acceptedWebpSha256": "8a170ca2d14171547970a6dcc1e6a5f9cbf7af17c84974705bcc0e5dd66a1d2f"
+}

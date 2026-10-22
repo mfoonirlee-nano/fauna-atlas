@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-22 更新：本轮 100 个已灭绝动物选题，已完成 60 个，待制作 40 个。本次新增长头无齿翼龙、诺氏风神翼龙、古翼手龙（旧选题名：克氏翼手龙）、明氏喙嘴翼龙、普通鱼龙，动物目录现有 760 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)、[第九批五种记录](research/todo-extinct-ninth-five-2026-10-21.md)、[第十批五种记录](research/todo-extinct-tenth-five-2026-10-22.md)、[第十一批五种记录](research/todo-extinct-eleventh-five-2026-10-22.md)及[第十二批五种记录](research/todo-extinct-twelfth-five-2026-10-22.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-22 更新：本轮 100 个已灭绝动物选题，已完成 65 个，待制作 35 个。本次新增四鳍滑齿龙、宽尾薄板龙、霍氏沧龙、普氏泰洛龙、长颈龙，动物目录现有 765 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)、[第九批五种记录](research/todo-extinct-ninth-five-2026-10-21.md)、[第十批五种记录](research/todo-extinct-tenth-five-2026-10-22.md)、[第十一批五种记录](research/todo-extinct-eleventh-five-2026-10-22.md)、[第十二批五种记录](research/todo-extinct-twelfth-five-2026-10-22.md)及[第十三批五种记录](research/todo-extinct-thirteenth-five-2026-10-22.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -22,12 +22,12 @@
 | --- | ---: |
 | 近代及全新世灭绝动物 | 0 |
 | 非鸟恐龙 | 0 |
-| 其他古爬行动物 | 7 |
+| 其他古爬行动物 | 2 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 40 |
+| 合计 | 35 |
 
 ## 选题与资料
 
@@ -37,15 +37,10 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 其他古爬行动物（7 种）
+### 其他古爬行动物（2 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E061 | 四鳍滑齿龙 | *Liopleurodon ferox* | 侏罗纪 | 头骨与鳍肢；体长估计依据 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=100097) |
-| [ ] | E062 | 宽尾薄板龙 | *Elasmosaurus platyurus* | 白垩纪 | 颈椎数目与身体比例 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=70301) |
-| [ ] | E063 | 霍氏沧龙 | *Mosasaurus hoffmannii* | 白垩纪 | 颌骨、牙齿与海生蜥蜴 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=170671) |
-| [ ] | E064 | 普氏泰洛龙 | *Tylosaurus proriger* | 白垩纪 | 长吻与骨骼重建 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=70306) |
-| [ ] | E065 | 长颈龙 | *Tanystropheus longobardicus* | 中三叠世 | 少数延长颈椎构成长颈 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=180927) |
 | [ ] | E066 | 恐鳄（具体种中文名待核） | *Deinosuchus riograndensis* | 白垩纪 | 巨型鳄类牙齿与体型推算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970) |
 | [ ] | E067 | 帝王肌鳄 | *Sarcosuchus imperator* | 白垩纪 | 长吻与头骨末端膨大 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885) |
 
@@ -104,9 +99,9 @@
 
 ---
 
-## 本轮完成归档：E001–E060
+## 本轮完成归档：E001–E065
 
-2026-10-22 已完成十二批共 60 份物种档案及 360 张 WebP 图片。逐批资料与验收见本文开头的研究记录链接。
+2026-10-22 已完成十三批共 65 份物种档案及 390 张 WebP 图片。逐批资料与验收见本文开头的研究记录链接。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -170,6 +165,11 @@
 | [x] | E058 | 古翼手龙（旧选题名：克氏翼手龙） | *Pterodactylus antiquus* | 晚侏罗世 | 延长第四指如何支撑翅膜 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=170084) |
 | [x] | E059 | 明氏喙嘴翼龙 | *Rhamphorhynchus muensteri* | 晚侏罗世 | 长尾与翼膜保存 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=95812) |
 | [x] | E060 | 普通鱼龙 | *Ichthyosaurus communis* | 侏罗纪 | 鳍状肢与海洋适应 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=95786) |
+| [x] | E061 | 四鳍滑齿龙 | *Liopleurodon ferox* | 侏罗纪 | 头骨与鳍肢；体长估计依据 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=100097) |
+| [x] | E062 | 宽尾薄板龙 | *Elasmosaurus platyurus* | 白垩纪 | 颈椎数目与身体比例 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=70301) |
+| [x] | E063 | 霍氏沧龙 | *Mosasaurus hoffmannii* | 白垩纪 | 颌骨、牙齿与海生蜥蜴 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=170671) |
+| [x] | E064 | 普氏泰洛龙 | *Tylosaurus proriger* | 白垩纪 | 长吻与骨骼重建 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=70306) |
+| [x] | E065 | 长颈龙 | *Tanystropheus longobardicus* | 中三叠世 | 少数延长颈椎构成长颈 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=180927) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

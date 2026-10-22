@@ -1,0 +1,289 @@
+{
+  "accessedAt": "2026-10-22",
+  "species": [
+    {
+      "name": "Liopleurodon ferox",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Liopleurodon%20ferox",
+          "response": {
+            "usageKey": 4968413,
+            "scientificName": "Liopleurodon ferox (Sauvage, 1873)",
+            "canonicalName": "Liopleurodon ferox",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "confidence": 99,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Pliosauridae",
+            "genus": "Liopleurodon",
+            "species": "Liopleurodon ferox",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 4823613,
+            "genusKey": 4823623,
+            "speciesKey": 4968413
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=100097&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.0021,
+            "records": [
+              {
+                "oid": "txn:100097",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Liopleurodon ferox",
+                "att": "(Sauvage 1873)",
+                "par": "txn:36485",
+                "rid": "ref:32159",
+                "ext": "0",
+                "noc": 8,
+                "fea": 165.3,
+                "fla": 161.5,
+                "lea": 165.3,
+                "lla": 154.8,
+                "tei": "Callovian",
+                "tli": "Oxfordian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Plesiosauria",
+                "fml": "Pliosauridae",
+                "gnl": "Liopleurodon"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Elasmosaurus platyurus",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Elasmosaurus%20platyurus",
+          "response": {
+            "usageKey": 4968465,
+            "scientificName": "Elasmosaurus platyurus (Cope, 1868)",
+            "canonicalName": "Elasmosaurus platyurus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "confidence": 99,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Elasmosauridae",
+            "genus": "Elasmosaurus",
+            "species": "Elasmosaurus platyurus",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3239129,
+            "genusKey": 4823562,
+            "speciesKey": 4968465
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=70301&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.00184,
+            "records": [
+              {
+                "oid": "txn:70301",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Elasmosaurus platyurus",
+                "att": "(Cope 1868)",
+                "par": "txn:36469",
+                "rid": "ref:15622",
+                "ext": "0",
+                "noc": 1,
+                "fea": 83.6,
+                "fla": 72.2,
+                "lea": 83.6,
+                "lla": 72.2,
+                "tei": "Campanian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Plesiosauria",
+                "fml": "Elasmosauridae",
+                "gnl": "Elasmosaurus"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mosasaurus hoffmannii",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Mosasaurus%20hoffmannii",
+          "response": {
+            "usageKey": 8661110,
+            "scientificName": "Mosasaurus hoffmannii Mantell, 1829",
+            "canonicalName": "Mosasaurus hoffmannii",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "confidence": 99,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Mosasauridae",
+            "genus": "Mosasaurus",
+            "species": "Mosasaurus hoffmannii",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3238752,
+            "genusKey": 11324948,
+            "speciesKey": 8661110
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=170671&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.00164,
+            "records": [
+              {
+                "oid": "txn:170671",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Mosasaurus hoffmannii",
+                "att": "Mantell 1829",
+                "par": "txn:36402",
+                "rid": "ref:33807",
+                "ext": "0",
+                "noc": 42,
+                "fea": 83.6,
+                "fla": 72.2,
+                "lea": 72.2,
+                "lla": 61.66,
+                "tei": "Campanian",
+                "tli": "Danian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Squamata",
+                "fml": "Mosasauridae",
+                "gnl": "Mosasaurus"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tylosaurus proriger",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Tylosaurus%20proriger",
+          "response": {
+            "usageKey": 5935979,
+            "acceptedUsageKey": 9241142,
+            "scientificName": "Tylosaurus proriger (Cope, 1869)",
+            "canonicalName": "Tylosaurus proriger",
+            "rank": "SPECIES",
+            "status": "SYNONYM",
+            "confidence": 98,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Mosasauridae",
+            "genus": "Tylosaurus",
+            "species": "Macrosaurus proriger",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3238752,
+            "genusKey": 3238757,
+            "speciesKey": 9241142
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=70306&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.00168,
+            "records": [
+              {
+                "oid": "txn:70306",
+                "vid": "var:139953",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Tylosaurus proriger",
+                "att": "(Cope 1869)",
+                "par": "txn:36418",
+                "rid": "ref:15624",
+                "ext": "0",
+                "noc": 6,
+                "fea": 85.7,
+                "fla": 83.6,
+                "lea": 83.6,
+                "lla": 72.2,
+                "tei": "Santonian",
+                "tli": "Campanian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Squamata",
+                "fml": "Mosasauridae",
+                "gnl": "Tylosaurus"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tanystropheus longobardicus",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Tanystropheus%20longobardicus",
+          "response": {
+            "usageKey": 8671445,
+            "scientificName": "Tanystropheus longobardicus (Bassani, 1886)",
+            "canonicalName": "Tanystropheus longobardicus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "confidence": 99,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Tanystropheidae",
+            "genus": "Tanystropheus",
+            "species": "Tanystropheus longobardicus",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 4823440,
+            "genusKey": 4823442,
+            "speciesKey": 8671445
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=180927&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.00518,
+            "records": [
+              {
+                "oid": "txn:180927",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Tanystropheus longobardicus",
+                "att": "(Bassani 1886)",
+                "par": "txn:38196",
+                "rid": "ref:47791",
+                "ext": "0",
+                "noc": 3,
+                "fea": 247,
+                "fla": 237,
+                "lea": 239.48,
+                "lla": 237,
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "NO_ORDER_SPECIFIED",
+                "fml": "Tanystropheidae",
+                "gnl": "Tanystropheus"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

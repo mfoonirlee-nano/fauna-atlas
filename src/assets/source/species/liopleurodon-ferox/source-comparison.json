@@ -1,0 +1,28 @@
+{
+  "reviewedAt": "2026-10-22",
+  "initialSource": {
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "0dae716050d25fab57f92a89e68503eb4b93fbaa9953dcff1b75efc32ad0be28",
+    "bounds": {
+      "left": 488,
+      "top": 238,
+      "right": 1634,
+      "bottom": 707
+    },
+    "prompt": "Use case: scientific-educational. Create ONE landscape 16:9 museum-quality naturalistic paleoart cover for Fauna Atlas. The ONLY animal in the whole image is a single Liopleurodon ferox, short-necked Jurassic pliosaur, massive elongated broad skull, robust barrel-shaped torso, four large long hydrofoil flippers arranged as two pairs, short tapering tail. Smooth speculative charcoal-gray skin with pale underside, tooth rows but mouth closed. NO dorsal fin, NO tail flukes, NO legs, NO horns. Environment: Middle Jurassic European sea, fully underwater in clear blue-green water with subtle distant seabed. Exact side view showing COMPLETE animal, every flipper or foot and BOTH ends of neck and tail. Animal entirely within x=44% to96% canvas width, center x=70%, y=50%. The left40% must contain ONLY quiet open water/seabed, with no animal. Maximize complete animal inside that right-side region, 5% background margins around all extremities. No text, watermark, frame, labels, human, skeleton or additional creatures. This is scientific reconstruction with speculative muted coloration."
+  },
+  "acceptedCover": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 695,
+      "top": 300,
+      "right": 1605,
+      "bottom": 660
+    }
+  },
+  "acceptedWebpSha256": "dcfe487c8dec77795c6a1ba3bf8d9686161557fee62a83dd64e2627a7ed580eb"
+}

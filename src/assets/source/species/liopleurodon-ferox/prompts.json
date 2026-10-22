@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-22",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "scene": "01-cover",
+      "prompt": "Edit composition ONLY: keep this single liopleurodon-ferox, its anatomy, pose, proportions and underwater environment. Fit the COMPLETE animal into the right half: the foremost snout must be at 45% canvas width, the rearmost tail tip at 95% canvas width. Scale the animal uniformly down just enough and translate right. ALL four limbs, every flipper tip, head, long neck and complete tail must remain visible with real background margins. Left42% is EMPTY water, no animal at all. Animal vertically centered. Do not add creatures, text, fins or limbs. Naturalistic museum paleoart, landscape16:9."
+    },
+    {
+      "scene": "02-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape naturalistic museum paleoart illustration, species observation image for Fauna Atlas. SINGLE SPECIES AND SINGLE ANIMAL ONLY: Liopleurodon ferox, short-necked Jurassic pliosaur, massive elongated broad skull, robust barrel-shaped torso, four large long hydrofoil flippers arranged as two pairs, short tapering tail. Smooth speculative charcoal-gray skin with pale underside, tooth rows but mouth closed. NO dorsal fin, NO tail flukes, NO legs, NO horns. Environment: Middle Jurassic European sea, fully underwater in clear blue-green water with subtle distant seabed. Composition: Full body in lateral view with all extremities in frame, centered, clear proportions against quiet water. The only animal shown is the named species. Clean readable silhouette. No other creatures of ANY kind, no text, no watermark, no diagrams, no skeletons. Muted plausible speculative coloration. Do not draw other reptiles in water, on shore or in sky."
+    },
+    {
+      "scene": "03-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape naturalistic museum paleoart illustration, species observation image for Fauna Atlas. SINGLE SPECIES AND SINGLE ANIMAL ONLY: Liopleurodon ferox, short-necked Jurassic pliosaur, massive elongated broad skull, robust barrel-shaped torso, four large long hydrofoil flippers arranged as two pairs, short tapering tail. Smooth speculative charcoal-gray skin with pale underside, tooth rows but mouth closed. NO dorsal fin, NO tail flukes, NO legs, NO horns. Environment: Middle Jurassic European sea, fully underwater in clear blue-green water with subtle distant seabed. Composition: Close-up side view of head and mouth region. Complete snout visible, subtly open mouth, no aggressive attack. Show head only with some neck or torso at edge. The only animal shown is the named species. Clean readable silhouette. No other creatures of ANY kind, no text, no watermark, no diagrams, no skeletons. Muted plausible speculative coloration. Do not draw other reptiles in water, on shore or in sky."
+    },
+    {
+      "scene": "04-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape naturalistic museum paleoart illustration, species observation image for Fauna Atlas. SINGLE SPECIES AND SINGLE ANIMAL ONLY: Liopleurodon ferox, short-necked Jurassic pliosaur, massive elongated broad skull, robust barrel-shaped torso, four large long hydrofoil flippers arranged as two pairs, short tapering tail. Smooth speculative charcoal-gray skin with pale underside, tooth rows but mouth closed. NO dorsal fin, NO tail flukes, NO legs, NO horns. Environment: Middle Jurassic European sea, fully underwater in clear blue-green water with subtle distant seabed. Composition: Full body in three-quarter front view, every extremity including tail inside frame with background margins; distinguish four limbs. The only animal shown is the named species. Clean readable silhouette. No other creatures of ANY kind, no text, no watermark, no diagrams, no skeletons. Muted plausible speculative coloration. Do not draw other reptiles in water, on shore or in sky."
+    },
+    {
+      "scene": "05-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape naturalistic museum paleoart illustration, species observation image for Fauna Atlas. SINGLE SPECIES AND SINGLE ANIMAL ONLY: Liopleurodon ferox, short-necked Jurassic pliosaur, massive elongated broad skull, robust barrel-shaped torso, four large long hydrofoil flippers arranged as two pairs, short tapering tail. Smooth speculative charcoal-gray skin with pale underside, tooth rows but mouth closed. NO dorsal fin, NO tail flukes, NO legs, NO horns. Environment: Middle Jurassic European sea, fully underwater in clear blue-green water with subtle distant seabed. Composition: Full body in side view in its ancient environment, gentle sun rays from above. Animal small enough for complete silhouette with real margins, but clear as subject. The only animal shown is the named species. Clean readable silhouette. No other creatures of ANY kind, no text, no watermark, no diagrams, no skeletons. Muted plausible speculative coloration. Do not draw other reptiles in water, on shore or in sky."
+    },
+    {
+      "scene": "06-observation",
+      "prompt": "Use case: scientific-educational. ONE landscape naturalistic museum paleoart illustration, species observation image for Fauna Atlas. SINGLE SPECIES AND SINGLE ANIMAL ONLY: Liopleurodon ferox, short-necked Jurassic pliosaur, massive elongated broad skull, robust barrel-shaped torso, four large long hydrofoil flippers arranged as two pairs, short tapering tail. Smooth speculative charcoal-gray skin with pale underside, tooth rows but mouth closed. NO dorsal fin, NO tail flukes, NO legs, NO horns. Environment: Middle Jurassic European sea, fully underwater in clear blue-green water with subtle distant seabed. Composition: Full body in three-quarter rear view, entire tail, head and four limbs inside frame with generous margins. Preserve correct neck proportions. The only animal shown is the named species. Clean readable silhouette. No other creatures of ANY kind, no text, no watermark, no diagrams, no skeletons. Muted plausible speculative coloration. Do not draw other reptiles in water, on shore or in sky."
+    }
+  ]
+}

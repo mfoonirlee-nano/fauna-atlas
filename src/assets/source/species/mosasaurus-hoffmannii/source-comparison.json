@@ -1,0 +1,28 @@
+{
+  "reviewedAt": "2026-10-22",
+  "initialSource": {
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "78738dc70e9f54d7200829d299839f38d603f3875b7e9f58d6217cc8904ea21d",
+    "bounds": {
+      "left": 515,
+      "top": 312,
+      "right": 1649,
+      "bottom": 578
+    },
+    "prompt": "Use case: scientific-educational. Create ONE landscape 16:9 museum-quality naturalistic paleoart cover for Fauna Atlas. The ONLY animal in the whole image is a single Mosasaurus hoffmannii, marine squamate reptile with robust long skull, powerful broad jaws, streamlined lizard-like torso, four short broad paddle flippers, long muscular tail ending in modest vertically oriented asymmetrical crescent caudal fin with larger lower lobe. Muted dark gray-green small-scaled skin. NO dorsal fin, NO back spikes or sail, NO gills, NO crocodile scutes, NO legs. Environment: Late Cretaceous Maastrichtian shallow European sea, fully underwater in blue-green water. Exact side view showing COMPLETE animal, every flipper or foot and BOTH ends of neck and tail. Animal entirely within x=44% to96% canvas width, center x=70%, y=50%. The left40% must contain ONLY quiet open water/seabed, with no animal. Maximize complete animal inside that right-side region, 5% background margins around all extremities. No text, watermark, frame, labels, human, skeleton or additional creatures. This is scientific reconstruction with speculative muted coloration."
+  },
+  "acceptedCover": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 705,
+      "top": 348,
+      "right": 1618,
+      "bottom": 558
+    }
+  },
+  "acceptedWebpSha256": "47911d85da9e6b9b660bd4d5d86fc1907a3ee55cb233b2c4d3c130b41376c658"
+}
