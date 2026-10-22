@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Megatherium americanum: giant ground sloth, massive robust body, relatively small elongate head, thick neck, long strong curved front claws held inward, huge hindlimbs, thick supporting tail, brown coarse short fur, quadrupedal conservative pose, not a bear. Habitat: Pleistocene South American pampas open woodland with low shrubs. Composition: entire animal in strictly RIGHT HALF only, muzzle must begin beyond 45% image width, tail tip before 96%, silhouette center 72%, maximize full body in that half with generous margin. Left 40% completely empty quiet habitat, no part of animal in left 40%. Broadside or gentle three-quarter view; keep all feet, ear tips, horn or tusk tips, trunk and tail complete. 16:9 wide website hero. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Megatherium americanum: giant ground sloth, massive robust body, relatively small elongate head, thick neck, long strong curved front claws held inward, huge hindlimbs, thick supporting tail, brown coarse short fur, quadrupedal conservative pose, not a bear. Habitat: Pleistocene South American pampas open woodland with low shrubs. Composition: whole animal broadside in center, entire silhouette including all limbs head tail and tusks or horns visible, clear anatomical field guide study, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Megatherium americanum: giant ground sloth, massive robust body, relatively small elongate head, thick neck, long strong curved front claws held inward, huge hindlimbs, thick supporting tail, brown coarse short fur, quadrupedal conservative pose, not a bear. Habitat: Pleistocene South American pampas open woodland with low shrubs. Composition: close portrait of head and upper neck in profile to observe muzzle teeth or horns or tusks, retain entire relevant head appendages within frame, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Megatherium americanum: giant ground sloth, massive robust body, relatively small elongate head, thick neck, long strong curved front claws held inward, huge hindlimbs, thick supporting tail, brown coarse short fur, quadrupedal conservative pose, not a bear. Habitat: Pleistocene South American pampas open woodland with low shrubs. Composition: whole animal front three-quarter view, entire body with all visible appendages and tail within frame, grounded calm standing pose, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Megatherium americanum: giant ground sloth, massive robust body, relatively small elongate head, thick neck, long strong curved front claws held inward, huge hindlimbs, thick supporting tail, brown coarse short fur, quadrupedal conservative pose, not a bear. Habitat: Pleistocene South American pampas open woodland with low shrubs. Composition: whole animal moving slowly in natural habitat, environmental educational illustration, no other animal species, all appendages visible, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Megatherium americanum: giant ground sloth, massive robust body, relatively small elongate head, thick neck, long strong curved front claws held inward, huge hindlimbs, thick supporting tail, brown coarse short fur, quadrupedal conservative pose, not a bear. Habitat: Pleistocene South American pampas open woodland with low shrubs. Composition: whole animal from rear three-quarter side view, emphasize hindlimbs tail and back shape, complete head remains visible in slight turn, whole body fully inside frame, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  }
+]

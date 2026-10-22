@@ -7291,5 +7291,135 @@
       },
       "sha256": "7bc3d17682ea72249ea27b7f7946e0cfd054de45ff0a1c414f76c465b2fbee8f"
     }
+  },
+  "deinosuchus-riograndensis": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 695,
+        "top": 345,
+        "right": 1650,
+        "bottom": 660
+      },
+      "sha256": "84cc1ad9ad721b654e089f7d6bba1dcd27bcbe073b50139f051b92171a06eb38"
+    }
+  },
+  "sarcosuchus-imperator": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 678,
+        "top": 414,
+        "right": 1622,
+        "bottom": 600
+      },
+      "sha256": "4a42ed0dcafe87500a09e70ba57c89da215419dc1daf7d5464ffbb75231c52d8"
+    }
+  },
+  "woolly-mammoth": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 770,
+        "top": 125,
+        "right": 1628,
+        "bottom": 750
+      },
+      "sha256": "5abbed6a2e8c7fa150e8c3c16f1f08109f72c3ea10a338459ed3a4b15c9496b2"
+    }
+  },
+  "woolly-rhinoceros": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 664,
+        "top": 128,
+        "right": 1638,
+        "bottom": 701
+      },
+      "sha256": "751c56c0873b2c4b78303dc4edd7a0e1124e77ffae6e9f4b7d7e919710973ef1"
+    }
+  },
+  "smilodon-fatalis": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 788,
+        "top": 132,
+        "right": 1618,
+        "bottom": 774
+      },
+      "sha256": "a1d43e3ca7998d2bd28edba11fd7c31f0b5aa0ecb552689c8e9c76b400fcb99c"
+    }
+  },
+  "dire-wolf": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 750,
+        "top": 65,
+        "right": 1635,
+        "bottom": 815
+      },
+      "sha256": "8e904b0df07b8b03b4ef793fa6061120651bc30ad6506d17b04362bf9bfa96f8"
+    }
+  },
+  "american-mastodon": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 703,
+        "top": 238,
+        "right": 1608,
+        "bottom": 762
+      },
+      "sha256": "dbab10771f703cf83d500ef9bb0b9c35201dab37e2329a9ebf18a97e6e186cb8"
+    }
+  },
+  "megatherium-americanum": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 718,
+        "top": 192,
+        "right": 1660,
+        "bottom": 737
+      },
+      "sha256": "620c08fb087efd15de75857a51e6db397ead6881732e0abaae527204b1f9205c"
+    }
+  },
+  "diprotodon-optatum": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 715,
+        "top": 143,
+        "right": 1608,
+        "bottom": 777
+      },
+      "sha256": "019bccb3dcafbba37908a850e340e990309bdc7db262cf194c2f83cf5f259678"
+    }
+  },
+  "thylacoleo-carnifex": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 737,
+        "top": 219,
+        "right": 1640,
+        "bottom": 699
+      },
+      "sha256": "8e0fd6ab86cd8d514b8e1991b30b77f2ed21afdfc4035212f4ac1113349a3c41"
+    }
   }
 }

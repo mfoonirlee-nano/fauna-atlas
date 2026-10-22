@@ -1,0 +1,15 @@
+[
+  {
+    "scene": "01-cover",
+    "originalPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Mammut americanum: American mastodon, elephant-like animal with long low torso, modest head without mammoth high domed crown, shoulders only moderately higher than hips, brown shaggy coat, small rounded ears, paired gently upcurving tusks, long trunk, four pillar legs. Habitat: Pleistocene eastern North American wet woodland with leafy shrubs and conifers. Composition: entire animal in strictly RIGHT HALF only, muzzle must begin beyond 45% image width, tail tip before 96%, silhouette center 72%, maximize full body in that half with generous margin. Left 40% completely empty quiet habitat, no part of animal in left 40%. Broadside or gentle three-quarter view; keep all feet, ear tips, horn or tusk tips, trunk and tail complete. 16:9 wide website hero. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "original": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "959326112e4f7327833cf48e7530e074b4ec75fa77061e149433fb8fbaca20f0"
+    },
+    "finalPrompt": "Use case: scientific-educational. Wide 16:9 paleoart landscape of Mammut americanum, American mastodon, elephant-like animal with long low torso, modest head without mammoth high domed crown, shoulders only moderately higher than hips, brown shaggy coat, small rounded ears, paired gently upcurving tusks, long trunk, four pillar legs, at Pleistocene eastern North American wet woodland with leafy shrubs and conifers. One complete animal BROADSIDE facing left, entire tusks, trunk, tail, four feet visible. CRITICAL COMPOSITION: Left 55% EMPTY calm forest background. The leftmost tusk tip must be RIGHT of 55% canvas width, entire animal silhouette fits between x=55% and x=95%, center at 75%. All appendages completely inside these bounds. Animal as large as fits in this right-side area, good background gap around extremities. Soft daylight, anatomically conservative, no text no other animals no people.",
+    "reason": "初稿象牙进入左侧文字区，重新安排完整主体。"
+  }
+]

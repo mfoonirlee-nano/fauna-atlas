@@ -7651,5 +7651,105 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1648,
       "bottom": 580
     }
+  },
+  "deinosuchus-riograndensis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 695,
+      "top": 345,
+      "right": 1650,
+      "bottom": 660
+    }
+  },
+  "sarcosuchus-imperator": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 678,
+      "top": 414,
+      "right": 1622,
+      "bottom": 600
+    }
+  },
+  "woolly-mammoth": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 770,
+      "top": 125,
+      "right": 1628,
+      "bottom": 750
+    }
+  },
+  "woolly-rhinoceros": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 664,
+      "top": 128,
+      "right": 1638,
+      "bottom": 701
+    }
+  },
+  "smilodon-fatalis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 788,
+      "top": 132,
+      "right": 1618,
+      "bottom": 774
+    }
+  },
+  "dire-wolf": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 750,
+      "top": 65,
+      "right": 1635,
+      "bottom": 815
+    }
+  },
+  "american-mastodon": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 703,
+      "top": 238,
+      "right": 1608,
+      "bottom": 762
+    }
+  },
+  "megatherium-americanum": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 718,
+      "top": 192,
+      "right": 1660,
+      "bottom": 737
+    }
+  },
+  "diprotodon-optatum": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 715,
+      "top": 143,
+      "right": 1608,
+      "bottom": 777
+    }
+  },
+  "thylacoleo-carnifex": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 737,
+      "top": 219,
+      "right": 1640,
+      "bottom": 699
+    }
   }
 };

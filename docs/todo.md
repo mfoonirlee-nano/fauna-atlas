@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-22 更新：本轮 100 个已灭绝动物选题，已完成 65 个，待制作 35 个。本次新增四鳍滑齿龙、宽尾薄板龙、霍氏沧龙、普氏泰洛龙、长颈龙，动物目录现有 765 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)、[第九批五种记录](research/todo-extinct-ninth-five-2026-10-21.md)、[第十批五种记录](research/todo-extinct-tenth-five-2026-10-22.md)、[第十一批五种记录](research/todo-extinct-eleventh-five-2026-10-22.md)、[第十二批五种记录](research/todo-extinct-twelfth-five-2026-10-22.md)及[第十三批五种记录](research/todo-extinct-thirteenth-five-2026-10-22.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-22 更新：本轮 100 个已灭绝动物选题，已完成 75 个，待制作 25 个。本次新增里奥格兰德恐鳄、帝王肌鳄、真猛犸象、披毛犀、致命刃齿虎、重型恐狼、美洲乳齿象、大地懒、双门齿兽和袋狮，动物目录现有 775 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)、[第九批五种记录](research/todo-extinct-ninth-five-2026-10-21.md)、[第十批五种记录](research/todo-extinct-tenth-five-2026-10-22.md)、[第十一批五种记录](research/todo-extinct-eleventh-five-2026-10-22.md)、[第十二批五种记录](research/todo-extinct-twelfth-five-2026-10-22.md)、[第十三批五种记录](research/todo-extinct-thirteenth-five-2026-10-22.md)及[本次十种记录](research/todo-extinct-next-ten-2026-10-22.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -22,12 +22,12 @@
 | --- | ---: |
 | 近代及全新世灭绝动物 | 0 |
 | 非鸟恐龙 | 0 |
-| 其他古爬行动物 | 2 |
-| 古哺乳动物及近缘类群 | 10 |
+| 其他古爬行动物 | 0 |
+| 古哺乳动物及近缘类群 | 2 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 35 |
+| 合计 | 25 |
 
 ## 选题与资料
 
@@ -37,26 +37,11 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 其他古爬行动物（2 种）
+### 古哺乳动物及近缘类群（2 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E066 | 恐鳄（具体种中文名待核） | *Deinosuchus riograndensis* | 白垩纪 | 巨型鳄类牙齿与体型推算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970) |
-| [ ] | E067 | 帝王肌鳄 | *Sarcosuchus imperator* | 白垩纪 | 长吻与头骨末端膨大 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885) |
-
-### 古哺乳动物及近缘类群（10 种）
-
-| 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E068 | 真猛犸象 | *Mammuthus primigenius* | 更新世（代表时期） | 长毛、象牙与冰期环境 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46027) |
-| [ ] | E069 | 披毛犀 | *Coelodonta antiquitatis* | 更新世（代表时期） | 毛被、犀角与牙齿 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54846) |
-| [ ] | E070 | 致命刃齿虎 | *Smilodon fatalis* | 更新世（代表时期） | 长犬齿与强壮前肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46515) |
-| [ ] | E071 | 重型恐狼 | *Aenocyon dirus* | 更新世（代表时期） | 牙齿与现生狼的异同；属名修订 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=44837) |
-| [ ] | E072 | 美洲乳齿象 | *Mammut americanum* | 更新世（代表时期） | 臼齿与猛犸象的比较 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46016) |
-| [ ] | E073 | 大地懒 | *Megatherium americanum* | 更新世（代表时期） | 爪、后肢与身体支撑 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83805) |
-| [ ] | E074 | 雕齿兽 | *Glyptodon clavipes* | 更新世（代表时期） | 骨甲与尾部；和犰狳比较 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83804) |
-| [ ] | E075 | 双门齿兽 | *Diprotodon optatum* | 更新世（代表时期） | 门齿与有袋类骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=248227) |
-| [ ] | E076 | 袋狮 | *Thylacoleo carnifex* | 更新世（代表时期） | 切割状牙齿与攀爬结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623) |
+| [ ] | E074 | 雕齿兽（种级鉴别待核） | *Glyptodon clavipes* | 更新世（代表时期） | 模式材料鉴别待核，暂不制作；见[本次研究记录](research/todo-extinct-next-ten-2026-10-22.md) | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83804) |
 | [ ] | E077 | 异齿龙（具体种中文名待核） | *Dimetrodon grandis* | 早二叠世 | 背帆与牙齿；早期合弓类 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059) |
 
 ### 古鸟类（3 种）
@@ -99,9 +84,9 @@
 
 ---
 
-## 本轮完成归档：E001–E065
+## 本轮完成归档：E001–E073、E075–E076
 
-2026-10-22 已完成十三批共 65 份物种档案及 390 张 WebP 图片。逐批资料与验收见本文开头的研究记录链接。
+2026-10-22 已完成 75 份物种档案及 450 张 WebP 图片。逐批资料与验收见本文开头的研究记录链接。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -170,6 +155,17 @@
 | [x] | E063 | 霍氏沧龙 | *Mosasaurus hoffmannii* | 白垩纪 | 颌骨、牙齿与海生蜥蜴 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=170671) |
 | [x] | E064 | 普氏泰洛龙 | *Tylosaurus proriger* | 白垩纪 | 长吻与骨骼重建 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=70306) |
 | [x] | E065 | 长颈龙 | *Tanystropheus longobardicus* | 中三叠世 | 少数延长颈椎构成长颈 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=180927) |
+
+| [x] | E066 | 里奥格兰德恐鳄 | *Deinosuchus riograndensis* | 白垩纪 | 巨型鳄类牙齿与体型推算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970) |
+| [x] | E067 | 帝王肌鳄 | *Sarcosuchus imperator* | 早白垩世 | 长吻与头骨末端膨大 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885) |
+| [x] | E068 | 真猛犸象 | *Mammuthus primigenius* | 更新世至全新世；岛屿种群约距今四千年前消失 | 长毛、象牙与冰期环境 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46027) |
+| [x] | E069 | 披毛犀 | *Coelodonta antiquitatis* | 更新世（代表时期） | 毛被、犀角与牙齿 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54846) |
+| [x] | E070 | 致命刃齿虎 | *Smilodon fatalis* | 更新世（代表时期） | 长犬齿与强壮前肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46515) |
+| [x] | E071 | 重型恐狼 | *Aenocyon dirus* | 更新世（代表时期） | 牙齿与现生狼的异同；属名修订 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=44837) |
+| [x] | E072 | 美洲乳齿象 | *Mammut americanum* | 更新世（代表时期） | 臼齿与猛犸象的比较 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46016) |
+| [x] | E073 | 大地懒 | *Megatherium americanum* | 更新世（代表时期） | 爪、后肢与身体支撑 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83805) |
+| [x] | E075 | 双门齿兽 | *Diprotodon optatum* | 更新世（代表时期） | 门齿与有袋类骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=248227) |
+| [x] | E076 | 袋狮 | *Thylacoleo carnifex* | 更新世（代表时期） | 切割状牙齿与攀爬结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

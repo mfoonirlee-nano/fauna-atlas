@@ -143,13 +143,13 @@ export function speciesBundle(): Plugin {
         const packedTaxa = taxonPairs.every((pair) => typeof pair === 'string' && !pair.includes('\n'))
           ? taxonPairs.join('\n') : taxonPairs;
         // Repeated phrases share a UTF-8 dictionary. Encode
-        // them with two-byte UTF-8 markers from a range absent in source text.
+        // them with UTF-8 markers from a range absent in source text.
         // Restore before JSON parsing so browsing text and search remain unchanged.
         // Include shared Chinese labels and alt suffixes in phrase compression.
         let packedRows = JSON.stringify([labels, altSuffixes, compactRows]);
         let packedTaxaText = typeof packedTaxa === 'string' ? packedTaxa : JSON.stringify(packedTaxa);
         const phrases: string[] = [];
-        if (!/[\u0400-\u07FF]/u.test(packedRows + packedTaxaText)) {
+        if (!/[\u0400-\u0FFF]/u.test(packedRows + packedTaxaText)) {
           const counts = new Map<string, number>();
           // Keep punctuation with Chinese clauses so repeated sentences share
           // dictionary entries without changing their restored text.
@@ -165,16 +165,17 @@ export function speciesBundle(): Plugin {
             phrase, saving: (Buffer.byteLength(phrase) - 2) * count - Buffer.byteLength(phrase) - 3,
           })).filter(({ saving }) => saving > 0).sort((a, b) => b.saving - a.saving);
           for (const { phrase } of candidates) {
-            if (phrases.length === 1024) break;
+            if (phrases.length === 3072) break;
             const count = packedRows.split(phrase).length + packedTaxaText.split(phrase).length - 2;
-            if ((Buffer.byteLength(phrase) - 2) * count <= Buffer.byteLength(phrase) + 3) continue;
+            const markerBytes = phrases.length < 1024 ? 2 : 3;
+            if ((Buffer.byteLength(phrase) - markerBytes) * count <= Buffer.byteLength(phrase) + 3) continue;
             packedRows = packedRows.replaceAll(phrase, String.fromCharCode(0x0400 + phrases.length));
             packedTaxaText = packedTaxaText.replaceAll(phrase, String.fromCharCode(0x0400 + phrases.length));
             phrases.push(phrase);
           }
         }
         return `const phrases=${JSON.stringify(phrases)};
-          const restoreText=text=>text.replace(/[\\u0400-\\u07FF]/g,char=>phrases[char.charCodeAt(0)-0x0400]??char);
+          const restoreText=text=>text.replace(/[\\u0400-\\u0FFF]/g,char=>phrases[char.charCodeAt(0)-0x0400]??char);
           const packedTaxa=${typeof packedTaxa === 'string'
             ? `restoreText(${JSON.stringify(packedTaxaText)})`
             : `JSON.parse(restoreText(${JSON.stringify(packedTaxaText)}))`};

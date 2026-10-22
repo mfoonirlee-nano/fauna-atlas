@@ -1,0 +1,39 @@
+{
+  "reviewedAt": "2026-10-22",
+  "baseline": "New species; no prior runtime cover. Initial generation candidate retained only as historical evidence.",
+  "initial": {
+    "sha256": "14d9291f260a364dc18c006ee4222de81b547c5a57d95ecb1fced9355c4feabd",
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "approximateVisualBounds": {
+      "left": 585,
+      "top": 95,
+      "right": 1640,
+      "bottom": 785
+    },
+    "approximateSubjectSize": [
+      1055,
+      690
+    ],
+    "accepted": false
+  },
+  "final": {
+    "sourceDimensions": [
+      1672,
+      941
+    ],
+    "runtime": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 770,
+        "top": 125,
+        "right": 1628,
+        "bottom": 750
+      }
+    },
+    "sha256": "5abbed6a2e8c7fa150e8c3c16f1f08109f72c3ea10a338459ed3a4b15c9496b2"
+  }
+}

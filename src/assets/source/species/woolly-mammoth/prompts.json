@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Use case: scientific-educational. Wide 16:9 museum paleoart cover. Mammuthus primigenius, woolly mammoth with tall shoulder hump, back sloping down to hips, shaggy brown coat, small ears, long curved paired ivory tusks, trunk, four pillar legs and short tail, on Pleistocene Eurasian dry cold grass steppe, sparse grasses, no deep snow. FULL BODY including all horn or tusk tips, trunk, tail and feet. STRICT LAYOUT: animal occupies only the FAR RIGHT 40% of canvas. LEFT 55% is completely empty background landscape, absolutely no part of animal including tusks or snout may reach into left half. Animal's leftmost pixel must be at 56% canvas width; rightmost at 96%. Center of entire animal at 76%. Fit largest whole animal possible in this right side, with background margin. The animal faces LEFT and is shown broadside. Calm pose, natural daylight, realistic anatomy, restrained colors, conservative reconstruction. No text, people, other animals or fantasy.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Mammuthus primigenius: woolly mammoth with tall shoulder hump, back sloping down to hips, shaggy brown coat, small ears, long curved paired ivory tusks, trunk, four pillar legs and short tail. Habitat: Pleistocene Eurasian dry cold grass steppe, sparse grasses, no deep snow. Composition: whole animal broadside in center, entire silhouette including all limbs head tail and tusks or horns visible, clear anatomical field guide study, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Mammuthus primigenius: woolly mammoth with tall shoulder hump, back sloping down to hips, shaggy brown coat, small ears, long curved paired ivory tusks, trunk, four pillar legs and short tail. Habitat: Pleistocene Eurasian dry cold grass steppe, sparse grasses, no deep snow. Composition: close portrait of head and upper neck in profile to observe muzzle teeth or horns or tusks, retain entire relevant head appendages within frame, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Mammuthus primigenius: woolly mammoth with tall shoulder hump, back sloping down to hips, shaggy brown coat, small ears, long curved paired ivory tusks, trunk, four pillar legs and short tail. Habitat: Pleistocene Eurasian dry cold grass steppe, sparse grasses, no deep snow. Composition: whole animal front three-quarter view, entire body with all visible appendages and tail within frame, grounded calm standing pose, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Mammuthus primigenius: woolly mammoth with tall shoulder hump, back sloping down to hips, shaggy brown coat, small ears, long curved paired ivory tusks, trunk, four pillar legs and short tail. Habitat: Pleistocene Eurasian dry cold grass steppe, sparse grasses, no deep snow. Composition: whole animal moving slowly in natural habitat, environmental educational illustration, no other animal species, all appendages visible, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Mammuthus primigenius: woolly mammoth with tall shoulder hump, back sloping down to hips, shaggy brown coat, small ears, long curved paired ivory tusks, trunk, four pillar legs and short tail. Habitat: Pleistocene Eurasian dry cold grass steppe, sparse grasses, no deep snow. Composition: whole animal from rear three-quarter side view, emphasize hindlimbs tail and back shape, complete head remains visible in slight turn, whole body fully inside frame, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  }
+]

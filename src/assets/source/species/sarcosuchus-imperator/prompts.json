@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  }
+]

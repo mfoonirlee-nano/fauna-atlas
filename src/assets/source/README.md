@@ -1087,3 +1087,16 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [霍氏沧龙图片集](./species/mosasaurus-hoffmannii/README.md)
 - [普氏泰洛龙图片集](./species/tylosaurus-proriger/README.md)
 - [长颈龙图片集](./species/tanystropheus-longobardicus/README.md)
+
+## 2026-10-22 接续十种灭绝动物
+
+- [里奥格兰德恐鳄图片集](./species/deinosuchus-riograndensis/README.md)
+- [帝王肌鳄图片集](./species/sarcosuchus-imperator/README.md)
+- [真猛犸象图片集](./species/woolly-mammoth/README.md)
+- [披毛犀图片集](./species/woolly-rhinoceros/README.md)
+- [致命刃齿虎图片集](./species/smilodon-fatalis/README.md)
+- [重型恐狼图片集](./species/dire-wolf/README.md)
+- [美洲乳齿象图片集](./species/american-mastodon/README.md)
+- [大地懒图片集](./species/megatherium-americanum/README.md)
+- [双门齿兽图片集](./species/diprotodon-optatum/README.md)
+- [袋狮图片集](./species/thylacoleo-carnifex/README.md)

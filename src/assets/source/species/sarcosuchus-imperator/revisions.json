@@ -1,0 +1,128 @@
+[
+  {
+    "scene": "01-cover",
+    "originalPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: entire animal in strictly RIGHT HALF only, muzzle must begin beyond 45% image width, tail tip before 96%, silhouette center 72%, maximize full body in that half with generous margin. Left 40% completely empty quiet habitat, no part of animal in left 40%. Broadside or gentle three-quarter view; keep all feet, ear tips, horn or tusk tips, trunk and tail complete. 16:9 wide website hero. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "editReference": {
+      "sha256": "01d737b0246dae0dc5654c98d4c364f9154169520cfdc4fdd1ec05dcbe197664",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "compositionPrompt": "Edit this Sarcosuchus imperator cover. The tail exits the right edge and must be fixed. Preserve this animal's head, bulbous nose, body proportions, four legs and riverbank style. Recompose so ENTIRE COMPLETE TAIL including its tapered last tip is plainly visible within canvas, curving gently back toward the body if necessary. Leave at least 8 percent canvas width of empty background between tail tip and RIGHT canvas edge. Keep head beyond 45 percent width. Scale whole animal down only enough to achieve this. Left40 percent stays empty river. Do not invent extra limbs or another animal. No text. Every visible appendage must remain complete with background margin.",
+    "original": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "44e7a724b145de1f51bf1a2f6706ca526a026b788cea59f3f45ad01d001e59a3"
+    },
+    "finalPrompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "reason": "依据Sereno等2001修正吻端：移除球状膨大，保留与颌骨连续、向两侧及腹侧扩展的低矮结构。"
+  },
+  {
+    "scene": "02-observation",
+    "originalPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: whole animal broadside in center, entire silhouette including all limbs head tail and tusks or horns visible, clear anatomical field guide study, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "editReference": {
+      "sha256": "c9ff9d771dc87f86a3e5cf3a5a1b3a2e4d7a3ce33a1c31b89ce1aacd0dd1f4b0",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: whole animal broadside in center, entire silhouette including all limbs head tail and tusks or horns visible, clear anatomical field guide study, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "c9ff9d771dc87f86a3e5cf3a5a1b3a2e4d7a3ce33a1c31b89ce1aacd0dd1f4b0"
+    },
+    "finalPrompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "reason": "依据Sereno等2001修正吻端：移除球状膨大，保留与颌骨连续、向两侧及腹侧扩展的低矮结构。"
+  },
+  {
+    "scene": "03-observation",
+    "originalPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: close portrait of head and upper neck in profile to observe muzzle teeth or horns or tusks, retain entire relevant head appendages within frame, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "editReference": {
+      "sha256": "d020a6ff27f0a823e518c09b8b1f3cfed0e90159eff69c8ccd0c2b9dadb62e2c",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: close portrait of head and upper neck in profile to observe muzzle teeth or horns or tusks, retain entire relevant head appendages within frame, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "d020a6ff27f0a823e518c09b8b1f3cfed0e90159eff69c8ccd0c2b9dadb62e2c"
+    },
+    "finalPrompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "reason": "依据Sereno等2001修正吻端：移除球状膨大，保留与颌骨连续、向两侧及腹侧扩展的低矮结构。"
+  },
+  {
+    "scene": "04-observation",
+    "originalPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: whole animal front three-quarter view, entire body with all visible appendages and tail within frame, grounded calm standing pose, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "editReference": {
+      "sha256": "cdcd312418381558ebfba879954de3a6c942a38049a36f25e7bf9d48d6c4712b",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: whole animal front three-quarter view, entire body with all visible appendages and tail within frame, grounded calm standing pose, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "cdcd312418381558ebfba879954de3a6c942a38049a36f25e7bf9d48d6c4712b"
+    },
+    "finalPrompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "reason": "依据Sereno等2001修正吻端：移除球状膨大，保留与颌骨连续、向两侧及腹侧扩展的低矮结构。"
+  },
+  {
+    "scene": "05-observation",
+    "originalPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: whole animal moving slowly in natural habitat, environmental educational illustration, no other animal species, all appendages visible, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "editReference": {
+      "sha256": "213c51a11eead865acb9ac70ac3341631e8e088a7183ac593f9aa95b6bdbe604",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: whole animal moving slowly in natural habitat, environmental educational illustration, no other animal species, all appendages visible, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "213c51a11eead865acb9ac70ac3341631e8e088a7183ac593f9aa95b6bdbe604"
+    },
+    "finalPrompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "reason": "依据Sereno等2001修正吻端：移除球状膨大，保留与颌骨连续、向两侧及腹侧扩展的低矮结构。"
+  },
+  {
+    "scene": "06-observation",
+    "originalPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: whole animal from rear three-quarter side view, emphasize hindlimbs tail and back shape, complete head remains visible in slight turn, whole body fully inside frame, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "editReference": {
+      "sha256": "a06b650632e12b11b0c07f4544dd8a6e807ebaeab4a3d58dc10cb32b587e0d3b",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Use case: scientific-educational. One museum paleoart illustration, scientific reconstruction of extinct Sarcosuchus imperator: long narrow snouted crocodile-relative, distinctly expanded bulbous bony nose at end of elongated snout, heavy armored body, four short legs and long thick tapering tail. Habitat: Early Cretaceous Niger freshwater river bank with ferns and araucarian trees. Composition: whole animal from rear three-quarter side view, emphasize hindlimbs tail and back shape, complete head remains visible in slight turn, whole body fully inside frame, 3:2 landscape. Natural soft daylight, lifelike anatomy, restrained earth colors, detailed skin or fur, calm animal. No text, letters, labels, borders, collage, watermark, gore, humans, modern objects, fantasy features or other animals. Reconstructed soft tissues colors and pose are plausible illustrative choices, no claims of exact known appearance.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "a06b650632e12b11b0c07f4544dd8a6e807ebaeab4a3d58dc10cb32b587e0d3b"
+    },
+    "finalPrompt": "Scientific accuracy correction to this Sarcosuchus imperator paleoart. Change ONLY the end of its snout. Remove the spherical ball-like growth or ghara at the tip. Replace with a LOW BROAD rounded SPOON-SHAPED bony premaxillary expansion integral to the jaw, flared sideways and slightly downward at snout end, containing nostrils on top; a subtle low swelling, not a sphere, not an inflated soft tissue sac, not a modern male gharial knob. Preserve the long fairly robust snout, eyes, closed jaws, small stout teeth, and crocodile-like head. Sereno et al. 2001 describe TRANSVERSE expansion and VENTRAL offset of snout end. Keep rest of animal, body, legs, tail, pose, exact framing, subject placement, background, colors, lighting and image aspect ratio unchanged. Keep complete tail tip and all appendages inside frame. No text or annotations.",
+    "reason": "依据Sereno等2001修正吻端：移除球状膨大，保留与颌骨连续、向两侧及腹侧扩展的低矮结构。"
+  }
+]

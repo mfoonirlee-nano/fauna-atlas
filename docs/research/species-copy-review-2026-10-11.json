@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "745 animal species profiles; 700 prior profiles and 45 extinct-animal additions through 2026-10-21; microbial topics excluded",
+  "scope": "775 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 180,
-    "addedProfilesReviewDate": "2026-10-20",
+    "addedProfiles": 215,
+    "addedProfilesReviewDate": "2026-10-22",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -34989,6 +34989,566 @@
             "https://doi.org/10.1016/j.cub.2020.07.025",
             "https://news.uzh.ch/en/articles/2020/Tanystropheus.html",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC8101476/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "deinosuchus-riograndensis",
+      "name": "里奥格兰德恐鳄",
+      "scientificName": "Deinosuchus riograndensis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nature.com/articles/s42003-025-07653-4",
+            "https://doi.org/10.1080/02724634.2020.1767638",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970",
+            "https://api.gbif.org/v1/species/match?name=Deinosuchus%20riograndensis"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nature.com/articles/s42003-025-07653-4",
+            "https://doi.org/10.1080/02724634.2020.1767638",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970",
+            "https://api.gbif.org/v1/species/match?name=Deinosuchus%20riograndensis"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nature.com/articles/s42003-025-07653-4",
+            "https://doi.org/10.1080/02724634.2020.1767638",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970",
+            "https://api.gbif.org/v1/species/match?name=Deinosuchus%20riograndensis"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nature.com/articles/s42003-025-07653-4",
+            "https://doi.org/10.1080/02724634.2020.1767638",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970",
+            "https://api.gbif.org/v1/species/match?name=Deinosuchus%20riograndensis"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nature.com/articles/s42003-025-07653-4",
+            "https://doi.org/10.1080/02724634.2020.1767638",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970",
+            "https://api.gbif.org/v1/species/match?name=Deinosuchus%20riograndensis"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sarcosuchus-imperator",
+      "name": "帝王肌鳄",
+      "scientificName": "Sarcosuchus imperator",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.1126/science.1066521",
+            "https://chronicle.uchicago.edu/011101/supercroc.shtml",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885",
+            "https://api.gbif.org/v1/species/match?name=Sarcosuchus%20imperator"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://doi.org/10.1126/science.1066521",
+            "https://chronicle.uchicago.edu/011101/supercroc.shtml",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885",
+            "https://api.gbif.org/v1/species/match?name=Sarcosuchus%20imperator"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1126/science.1066521",
+            "https://chronicle.uchicago.edu/011101/supercroc.shtml",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885",
+            "https://api.gbif.org/v1/species/match?name=Sarcosuchus%20imperator"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1126/science.1066521",
+            "https://chronicle.uchicago.edu/011101/supercroc.shtml",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885",
+            "https://api.gbif.org/v1/species/match?name=Sarcosuchus%20imperator"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1126/science.1066521",
+            "https://chronicle.uchicago.edu/011101/supercroc.shtml",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885",
+            "https://api.gbif.org/v1/species/match?name=Sarcosuchus%20imperator"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "woolly-mammoth",
+      "name": "真猛犸象",
+      "scientificName": "Mammuthus primigenius",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html",
+            "https://www.nhm.ac.uk/discover/last-mammoths.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46027",
+            "https://api.gbif.org/v1/species/match?name=Mammuthus%20primigenius"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html",
+            "https://www.nhm.ac.uk/discover/last-mammoths.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46027",
+            "https://api.gbif.org/v1/species/match?name=Mammuthus%20primigenius"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html",
+            "https://www.nhm.ac.uk/discover/last-mammoths.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46027",
+            "https://api.gbif.org/v1/species/match?name=Mammuthus%20primigenius"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html",
+            "https://www.nhm.ac.uk/discover/last-mammoths.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46027",
+            "https://api.gbif.org/v1/species/match?name=Mammuthus%20primigenius"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/were-all-mammoths-woolly.html",
+            "https://www.nhm.ac.uk/discover/last-mammoths.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46027",
+            "https://api.gbif.org/v1/species/match?name=Mammuthus%20primigenius"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "woolly-rhinoceros",
+      "name": "披毛犀",
+      "scientificName": "Coelodonta antiquitatis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.naturalsciences.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/70dc922844a77034effd0f51c0b060e27b4e7ac2/dd-e-giants-2023-4.pdf?name=DD_E+Giants_2023_4.pdf&type=application%2Fpdf",
+            "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/rhinocerotidae",
+            "https://av-sher.narod.ru/Biblio/16_boescorov_woolly_rhino.pdf",
+            "https://doi.org/10.1093/gbe/evaf239",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54846",
+            "https://api.gbif.org/v1/species/match?name=Coelodonta%20antiquitatis"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.naturalsciences.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/70dc922844a77034effd0f51c0b060e27b4e7ac2/dd-e-giants-2023-4.pdf?name=DD_E+Giants_2023_4.pdf&type=application%2Fpdf",
+            "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/rhinocerotidae",
+            "https://av-sher.narod.ru/Biblio/16_boescorov_woolly_rhino.pdf",
+            "https://doi.org/10.1093/gbe/evaf239",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54846",
+            "https://api.gbif.org/v1/species/match?name=Coelodonta%20antiquitatis"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.naturalsciences.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/70dc922844a77034effd0f51c0b060e27b4e7ac2/dd-e-giants-2023-4.pdf?name=DD_E+Giants_2023_4.pdf&type=application%2Fpdf",
+            "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/rhinocerotidae",
+            "https://av-sher.narod.ru/Biblio/16_boescorov_woolly_rhino.pdf",
+            "https://doi.org/10.1093/gbe/evaf239",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54846",
+            "https://api.gbif.org/v1/species/match?name=Coelodonta%20antiquitatis"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.naturalsciences.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/70dc922844a77034effd0f51c0b060e27b4e7ac2/dd-e-giants-2023-4.pdf?name=DD_E+Giants_2023_4.pdf&type=application%2Fpdf",
+            "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/rhinocerotidae",
+            "https://av-sher.narod.ru/Biblio/16_boescorov_woolly_rhino.pdf",
+            "https://doi.org/10.1093/gbe/evaf239",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54846",
+            "https://api.gbif.org/v1/species/match?name=Coelodonta%20antiquitatis"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.naturalsciences.be/file/cc73d96153bbd5448a56f19d925d05b1379c7f21/70dc922844a77034effd0f51c0b060e27b4e7ac2/dd-e-giants-2023-4.pdf?name=DD_E+Giants_2023_4.pdf&type=application%2Fpdf",
+            "https://research.amnh.org/paleontology/perissodactyl/evolution/groups/rhinocerotidae",
+            "https://av-sher.narod.ru/Biblio/16_boescorov_woolly_rhino.pdf",
+            "https://doi.org/10.1093/gbe/evaf239",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54846",
+            "https://api.gbif.org/v1/species/match?name=Coelodonta%20antiquitatis"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "smilodon-fatalis",
+      "name": "致命刃齿虎",
+      "scientificName": "Smilodon fatalis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/smilodon-fatalis/",
+            "https://tarpits.org/stories/smilodon-saber-tooths-and-tigersoh-my",
+            "https://tarpits.org/stories/suiting-smilodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46515",
+            "https://api.gbif.org/v1/species/match?name=Smilodon%20fatalis"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/smilodon-fatalis/",
+            "https://tarpits.org/stories/smilodon-saber-tooths-and-tigersoh-my",
+            "https://tarpits.org/stories/suiting-smilodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46515",
+            "https://api.gbif.org/v1/species/match?name=Smilodon%20fatalis"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/smilodon-fatalis/",
+            "https://tarpits.org/stories/smilodon-saber-tooths-and-tigersoh-my",
+            "https://tarpits.org/stories/suiting-smilodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46515",
+            "https://api.gbif.org/v1/species/match?name=Smilodon%20fatalis"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/smilodon-fatalis/",
+            "https://tarpits.org/stories/smilodon-saber-tooths-and-tigersoh-my",
+            "https://tarpits.org/stories/suiting-smilodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46515",
+            "https://api.gbif.org/v1/species/match?name=Smilodon%20fatalis"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.floridamuseum.ufl.edu/florida-vertebrate-fossils/species/smilodon-fatalis/",
+            "https://tarpits.org/stories/smilodon-saber-tooths-and-tigersoh-my",
+            "https://tarpits.org/stories/suiting-smilodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46515",
+            "https://api.gbif.org/v1/species/match?name=Smilodon%20fatalis"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dire-wolf",
+      "name": "重型恐狼",
+      "scientificName": "Aenocyon dirus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.1038/s41586-020-03082-x",
+            "https://www.qmul.ac.uk/news/latest-news/2021/se/ancient-dna-from-extinct-dire-wolves-reveals-their-unique-evolutionary-history.html",
+            "https://pubmed.ncbi.nlm.nih.gov/42508403",
+            "https://tarpits.org/sites/default/files/2019-03/lbtp_return_to_ice_age.pdf",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=44837",
+            "https://api.gbif.org/v1/species/match?name=Aenocyon%20dirus"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://doi.org/10.1038/s41586-020-03082-x",
+            "https://www.qmul.ac.uk/news/latest-news/2021/se/ancient-dna-from-extinct-dire-wolves-reveals-their-unique-evolutionary-history.html",
+            "https://pubmed.ncbi.nlm.nih.gov/42508403",
+            "https://tarpits.org/sites/default/files/2019-03/lbtp_return_to_ice_age.pdf",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=44837",
+            "https://api.gbif.org/v1/species/match?name=Aenocyon%20dirus"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1038/s41586-020-03082-x",
+            "https://www.qmul.ac.uk/news/latest-news/2021/se/ancient-dna-from-extinct-dire-wolves-reveals-their-unique-evolutionary-history.html",
+            "https://pubmed.ncbi.nlm.nih.gov/42508403",
+            "https://tarpits.org/sites/default/files/2019-03/lbtp_return_to_ice_age.pdf",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=44837",
+            "https://api.gbif.org/v1/species/match?name=Aenocyon%20dirus"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1038/s41586-020-03082-x",
+            "https://www.qmul.ac.uk/news/latest-news/2021/se/ancient-dna-from-extinct-dire-wolves-reveals-their-unique-evolutionary-history.html",
+            "https://pubmed.ncbi.nlm.nih.gov/42508403",
+            "https://tarpits.org/sites/default/files/2019-03/lbtp_return_to_ice_age.pdf",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=44837",
+            "https://api.gbif.org/v1/species/match?name=Aenocyon%20dirus"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1038/s41586-020-03082-x",
+            "https://www.qmul.ac.uk/news/latest-news/2021/se/ancient-dna-from-extinct-dire-wolves-reveals-their-unique-evolutionary-history.html",
+            "https://pubmed.ncbi.nlm.nih.gov/42508403",
+            "https://tarpits.org/sites/default/files/2019-03/lbtp_return_to_ice_age.pdf",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=44837",
+            "https://api.gbif.org/v1/species/match?name=Aenocyon%20dirus"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "american-mastodon",
+      "name": "美洲乳齿象",
+      "scientificName": "Mammut americanum",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://museum.state.il.us/exhibits/larson/mammut.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://www.charlestonmuseum.org/research/collection/mammut-americanum-mastodont-tooth/440FF5FD-F344-41F1-8D8B-283318096540",
+            "https://doi.org/10.7717/peerj.6614",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46016",
+            "https://api.gbif.org/v1/species/match?name=Mammut%20americanum"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://museum.state.il.us/exhibits/larson/mammut.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://www.charlestonmuseum.org/research/collection/mammut-americanum-mastodont-tooth/440FF5FD-F344-41F1-8D8B-283318096540",
+            "https://doi.org/10.7717/peerj.6614",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46016",
+            "https://api.gbif.org/v1/species/match?name=Mammut%20americanum"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://museum.state.il.us/exhibits/larson/mammut.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://www.charlestonmuseum.org/research/collection/mammut-americanum-mastodont-tooth/440FF5FD-F344-41F1-8D8B-283318096540",
+            "https://doi.org/10.7717/peerj.6614",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46016",
+            "https://api.gbif.org/v1/species/match?name=Mammut%20americanum"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://museum.state.il.us/exhibits/larson/mammut.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://www.charlestonmuseum.org/research/collection/mammut-americanum-mastodont-tooth/440FF5FD-F344-41F1-8D8B-283318096540",
+            "https://doi.org/10.7717/peerj.6614",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46016",
+            "https://api.gbif.org/v1/species/match?name=Mammut%20americanum"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://museum.state.il.us/exhibits/larson/mammut.html",
+            "https://www.nps.gov/articles/mammoth-or-mastodon.htm",
+            "https://www.charlestonmuseum.org/research/collection/mammut-americanum-mastodont-tooth/440FF5FD-F344-41F1-8D8B-283318096540",
+            "https://doi.org/10.7717/peerj.6614",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46016",
+            "https://api.gbif.org/v1/species/match?name=Mammut%20americanum"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "megatherium-americanum",
+      "name": "大地懒",
+      "scientificName": "Megatherium americanum",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-was-megatherium.html",
+            "https://mm.fieldmuseum.org/2892526d-cbee-4b7c-9123-9b8b39a30f1d",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83805",
+            "https://api.gbif.org/v1/species/match?name=Megatherium%20americanum"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-was-megatherium.html",
+            "https://mm.fieldmuseum.org/2892526d-cbee-4b7c-9123-9b8b39a30f1d",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83805",
+            "https://api.gbif.org/v1/species/match?name=Megatherium%20americanum"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-was-megatherium.html",
+            "https://mm.fieldmuseum.org/2892526d-cbee-4b7c-9123-9b8b39a30f1d",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83805",
+            "https://api.gbif.org/v1/species/match?name=Megatherium%20americanum"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-was-megatherium.html",
+            "https://mm.fieldmuseum.org/2892526d-cbee-4b7c-9123-9b8b39a30f1d",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83805",
+            "https://api.gbif.org/v1/species/match?name=Megatherium%20americanum"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/what-was-megatherium.html",
+            "https://mm.fieldmuseum.org/2892526d-cbee-4b7c-9123-9b8b39a30f1d",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83805",
+            "https://api.gbif.org/v1/species/match?name=Megatherium%20americanum"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "diprotodon-optatum",
+      "name": "双门齿兽",
+      "scientificName": "Diprotodon optatum",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://australian.museum/learn/australia-over-time/extinct-animals/diprotodon-optatum/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/diprotodon-optatum",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=248227",
+            "https://api.gbif.org/v1/species/match?name=Diprotodon%20optatum"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://australian.museum/learn/australia-over-time/extinct-animals/diprotodon-optatum/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/diprotodon-optatum",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=248227",
+            "https://api.gbif.org/v1/species/match?name=Diprotodon%20optatum"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://australian.museum/learn/australia-over-time/extinct-animals/diprotodon-optatum/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/diprotodon-optatum",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=248227",
+            "https://api.gbif.org/v1/species/match?name=Diprotodon%20optatum"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://australian.museum/learn/australia-over-time/extinct-animals/diprotodon-optatum/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/diprotodon-optatum",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=248227",
+            "https://api.gbif.org/v1/species/match?name=Diprotodon%20optatum"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://australian.museum/learn/australia-over-time/extinct-animals/diprotodon-optatum/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/diprotodon-optatum",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=248227",
+            "https://api.gbif.org/v1/species/match?name=Diprotodon%20optatum"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "thylacoleo-carnifex",
+      "name": "袋狮",
+      "scientificName": "Thylacoleo carnifex",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://australian.museum/Thylacoleo-carnifex/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/thylacoleo/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623",
+            "https://api.gbif.org/v1/species/match?name=Thylacoleo%20carnifex"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://australian.museum/Thylacoleo-carnifex/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/thylacoleo/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623",
+            "https://api.gbif.org/v1/species/match?name=Thylacoleo%20carnifex"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://australian.museum/Thylacoleo-carnifex/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/thylacoleo/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623",
+            "https://api.gbif.org/v1/species/match?name=Thylacoleo%20carnifex"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://australian.museum/Thylacoleo-carnifex/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/thylacoleo/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623",
+            "https://api.gbif.org/v1/species/match?name=Thylacoleo%20carnifex"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://australian.museum/Thylacoleo-carnifex/",
+            "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/thylacoleo/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623",
+            "https://api.gbif.org/v1/species/match?name=Thylacoleo%20carnifex"
           ]
         }
       }

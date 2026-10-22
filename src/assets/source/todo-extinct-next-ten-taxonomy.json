@@ -1,0 +1,546 @@
+[
+  {
+    "scientificName": "Deinosuchus riograndensis",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Deinosuchus%20riograndensis",
+      "response": {
+        "usageKey": 8551604,
+        "scientificName": "Deinosuchus riograndensis (Colbert & Bird, 1954)",
+        "canonicalName": "Deinosuchus riograndensis",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Crocodylidae",
+        "genus": "Deinosuchus",
+        "species": "Deinosuchus riograndensis",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 11493978,
+        "familyKey": 5685,
+        "genusKey": 4822222,
+        "speciesKey": 8551604,
+        "class": "Crocodylia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Deinosuchus%20riograndensis&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00246,
+        "records": [
+          {
+            "oid": "txn:193970",
+            "rnk": 3,
+            "nam": "Deinosuchus riograndensis",
+            "att": "(Colbert and Bird 1954)",
+            "par": "txn:38442",
+            "prl": "Deinosuchus",
+            "rid": "ref:61878",
+            "ext": "0",
+            "noc": 4,
+            "phl": "Chordata",
+            "cll": "Reptilia",
+            "odl": "Crocodylia",
+            "fml": "NO_FAMILY_SPECIFIED",
+            "gnl": "Deinosuchus"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Sarcosuchus imperator",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Sarcosuchus%20imperator",
+      "response": {
+        "usageKey": 4967722,
+        "scientificName": "Sarcosuchus imperator de Broin & Taquet, 1966",
+        "canonicalName": "Sarcosuchus imperator",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Crocodylidae",
+        "genus": "Sarcosuchus",
+        "species": "Sarcosuchus imperator",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 11493978,
+        "familyKey": 5685,
+        "genusKey": 4822214,
+        "speciesKey": 4967722,
+        "class": "Crocodylia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Sarcosuchus%20imperator&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00272,
+        "records": [
+          {
+            "oid": "txn:93885",
+            "rnk": 3,
+            "nam": "Sarcosuchus imperator",
+            "att": "de Broin and Taquet 1966",
+            "par": "txn:36607",
+            "prl": "Sarcosuchus",
+            "rid": "ref:25332",
+            "ext": "0",
+            "noc": 6,
+            "phl": "Chordata",
+            "cll": "Reptilia",
+            "odl": "NO_ORDER_SPECIFIED",
+            "fml": "Pholidosauridae",
+            "gnl": "Sarcosuchus"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Mammuthus primigenius",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Mammuthus%20primigenius",
+      "response": {
+        "usageKey": 4825833,
+        "scientificName": "Mammuthus primigenius (Blumenbach, 1799)",
+        "canonicalName": "Mammuthus primigenius",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Proboscidea",
+        "family": "Elephantidae",
+        "genus": "Mammuthus",
+        "species": "Mammuthus primigenius",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 359,
+        "orderKey": 799,
+        "familyKey": 9427,
+        "genusKey": 8411230,
+        "speciesKey": 4825833,
+        "class": "Mammalia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Mammuthus%20primigenius&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00242,
+        "records": [
+          {
+            "oid": "txn:46027",
+            "vid": "var:47880",
+            "rnk": 3,
+            "nam": "Mammuthus primigenius",
+            "att": "(Blumenbach 1799)",
+            "par": "txn:43266",
+            "prl": "Mammuthus",
+            "rid": "ref:92266",
+            "ext": "0",
+            "noc": 77,
+            "phl": "Chordata",
+            "cll": "Mammalia",
+            "odl": "Proboscidea",
+            "fml": "Elephantidae",
+            "gnl": "Mammuthus"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Coelodonta antiquitatis",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Coelodonta%20antiquitatis",
+      "response": {
+        "usageKey": 4969546,
+        "scientificName": "Coelodonta antiquitatis (Blumenbach, 1799)",
+        "canonicalName": "Coelodonta antiquitatis",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Perissodactyla",
+        "family": "Rhinocerotidae",
+        "genus": "Coelodonta",
+        "species": "Coelodonta antiquitatis",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 359,
+        "orderKey": 795,
+        "familyKey": 9415,
+        "genusKey": 4830642,
+        "speciesKey": 4969546,
+        "class": "Mammalia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Coelodonta%20antiquitatis&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00179,
+        "records": [
+          {
+            "oid": "txn:54846",
+            "vid": "var:54847",
+            "rnk": 3,
+            "nam": "Coelodonta antiquitatis",
+            "att": "(Blumenbach 1799)",
+            "par": "txn:43197",
+            "prl": "Coelodonta",
+            "rid": "ref:9223",
+            "ext": "0",
+            "noc": 27,
+            "phl": "Chordata",
+            "cll": "Mammalia",
+            "odl": "Perissodactyla",
+            "fml": "Rhinocerotidae",
+            "gnl": "Coelodonta"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Smilodon fatalis",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Smilodon%20fatalis",
+      "response": {
+        "usageKey": 5847305,
+        "acceptedUsageKey": 9475553,
+        "scientificName": "Smilodon fatalis (Leidy, 1868)",
+        "canonicalName": "Smilodon fatalis",
+        "rank": "SPECIES",
+        "status": "SYNONYM",
+        "confidence": 98,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Carnivora",
+        "family": "Felidae",
+        "genus": "Smilodon",
+        "species": "Felis fatalis",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 359,
+        "orderKey": 732,
+        "familyKey": 9703,
+        "genusKey": 3240061,
+        "speciesKey": 9475553,
+        "class": "Mammalia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Smilodon%20fatalis&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00218,
+        "records": [
+          {
+            "oid": "txn:46515",
+            "vid": "var:51613",
+            "rnk": 3,
+            "nam": "Smilodon fatalis",
+            "att": "(Leidy 1868)",
+            "par": "txn:41079",
+            "prl": "Smilodon",
+            "rid": "ref:63667",
+            "ext": "0",
+            "noc": 39,
+            "phl": "Chordata",
+            "cll": "Mammalia",
+            "odl": "Carnivora",
+            "fml": "Felidae",
+            "gnl": "Smilodon"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Aenocyon dirus",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Aenocyon%20dirus",
+      "response": {
+        "usageKey": 9530899,
+        "acceptedUsageKey": 5936116,
+        "scientificName": "Aenocyon dirus (Leidy, 1858)",
+        "canonicalName": "Aenocyon dirus",
+        "rank": "SPECIES",
+        "status": "SYNONYM",
+        "confidence": 98,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Carnivora",
+        "family": "Canidae",
+        "genus": "Canis",
+        "species": "Canis dirus",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 359,
+        "orderKey": 732,
+        "familyKey": 9701,
+        "genusKey": 5219142,
+        "speciesKey": 5936116,
+        "class": "Mammalia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Aenocyon%20dirus&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00259,
+        "records": [
+          {
+            "oid": "txn:44837",
+            "vid": "var:43789",
+            "rnk": 3,
+            "nam": "Aenocyon dirus",
+            "att": "(Leidy 1858)",
+            "par": "txn:43787",
+            "prl": "Aenocyon",
+            "rid": "ref:59118",
+            "ext": "0",
+            "noc": 86,
+            "phl": "Chordata",
+            "cll": "Mammalia",
+            "odl": "Carnivora",
+            "fml": "Canidae",
+            "gnl": "Aenocyon"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Mammut americanum",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Mammut%20americanum",
+      "response": {
+        "usageKey": 4825829,
+        "scientificName": "Mammut americanum",
+        "canonicalName": "Mammut americanum",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Proboscidea",
+        "family": "Mammutidae",
+        "genus": "Mammut",
+        "species": "Mammut americanum",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 359,
+        "orderKey": 799,
+        "familyKey": 3240496,
+        "genusKey": 3240497,
+        "speciesKey": 4825829,
+        "class": "Mammalia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Mammut%20americanum&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.0028,
+        "records": [
+          {
+            "oid": "txn:46016",
+            "vid": "var:47865",
+            "rnk": 3,
+            "nam": "Mammut americanum",
+            "att": "(Kerr 1792)",
+            "par": "txn:43274",
+            "prl": "Mammut",
+            "rid": "ref:2328",
+            "ext": "0",
+            "noc": 377,
+            "phl": "Chordata",
+            "cll": "Mammalia",
+            "odl": "Proboscidea",
+            "fml": "Mammutidae",
+            "gnl": "Mammut"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Megatherium americanum",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Megatherium%20americanum",
+      "response": {
+        "usageKey": 8537552,
+        "scientificName": "Megatherium americanum Cuvier, 1796",
+        "canonicalName": "Megatherium americanum",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Pilosa",
+        "family": "Megatheriidae",
+        "genus": "Megatherium",
+        "species": "Megatherium americanum",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 359,
+        "orderKey": 1494,
+        "familyKey": 3239349,
+        "genusKey": 3239357,
+        "speciesKey": 8537552,
+        "class": "Mammalia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Megatherium%20americanum&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00283,
+        "records": [
+          {
+            "oid": "txn:83805",
+            "rnk": 3,
+            "nam": "Megatherium americanum",
+            "att": "Cuvier 1796",
+            "par": "txn:43616",
+            "prl": "Megatherium",
+            "rid": "ref:17632",
+            "ext": "0",
+            "noc": 37,
+            "phl": "Chordata",
+            "cll": "Mammalia",
+            "odl": "Xenarthra",
+            "fml": "Megatheriidae",
+            "gnl": "Megatherium"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Diprotodon optatum",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Diprotodon%20optatum",
+      "response": {
+        "usageKey": 5816442,
+        "scientificName": "Diprotodon optatum Owen, 1838",
+        "canonicalName": "Diprotodon optatum",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Diprotodontia",
+        "family": "Diprotodontidae",
+        "genus": "Diprotodon",
+        "species": "Diprotodon optatum",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 359,
+        "orderKey": 1452,
+        "familyKey": 3240121,
+        "genusKey": 3240124,
+        "speciesKey": 5816442,
+        "class": "Mammalia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Diprotodon%20optatum&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00231,
+        "records": [
+          {
+            "oid": "txn:248227",
+            "rnk": 3,
+            "nam": "Diprotodon optatum",
+            "att": "Owen 1838",
+            "par": "txn:40187",
+            "prl": "Diprotodon",
+            "rid": "ref:27362",
+            "ext": "0",
+            "noc": 26,
+            "phl": "Chordata",
+            "cll": "Mammalia",
+            "odl": "Diprotodontia",
+            "fml": "Diprotodontidae",
+            "gnl": "Diprotodon",
+            "ttl": "Diprotodon optatum"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "scientificName": "Thylacoleo carnifex",
+    "queriedAt": "2026-10-22",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Thylacoleo%20carnifex",
+      "response": {
+        "usageKey": 4826096,
+        "scientificName": "Thylacoleo carnifex Owen, 1859",
+        "canonicalName": "Thylacoleo carnifex",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Diprotodontia",
+        "family": "Thylacoleonidae",
+        "genus": "Thylacoleo",
+        "species": "Thylacoleo carnifex",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 359,
+        "orderKey": 1452,
+        "familyKey": 4826091,
+        "genusKey": 4826095,
+        "speciesKey": 4826096,
+        "class": "Mammalia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Thylacoleo%20carnifex&show=attr,parent,class",
+      "response": {
+        "elapsed_time": 0.00287,
+        "records": [
+          {
+            "oid": "txn:166623",
+            "rnk": 3,
+            "nam": "Thylacoleo carnifex",
+            "att": "Owen 1859",
+            "par": "txn:40139",
+            "prl": "Thylacoleo",
+            "rid": "ref:32565",
+            "ext": "0",
+            "noc": 26,
+            "phl": "Chordata",
+            "cll": "Mammalia",
+            "odl": "Diprotodontia",
+            "fml": "Thylacoleonidae",
+            "gnl": "Thylacoleo"
+          }
+        ]
+      }
+    }
+  }
+]

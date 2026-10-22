@@ -787,6 +787,26 @@ import profile761 from './species/elasmosaurus-platyurus.js';
 import profile762 from './species/mosasaurus-hoffmannii.js';
 import profile763 from './species/tylosaurus-proriger.js';
 import profile764 from './species/tanystropheus-longobardicus.js';
+import profile765 from './species/deinosuchus-riograndensis.js';
+
+import profile766 from './species/sarcosuchus-imperator.js';
+
+import profile767 from './species/woolly-mammoth.js';
+
+import profile768 from './species/woolly-rhinoceros.js';
+
+import profile769 from './species/smilodon-fatalis.js';
+
+import profile770 from './species/dire-wolf.js';
+
+import profile771 from './species/american-mastodon.js';
+
+import profile772 from './species/megatherium-americanum.js';
+
+import profile773 from './species/diprotodon-optatum.js';
+
+import profile774 from './species/thylacoleo-carnifex.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1553,6 +1573,16 @@ export const species: readonly Species[] = [
   profile762,
   profile763,
   profile764,
+  profile774,
+  profile773,
+  profile772,
+  profile771,
+  profile770,
+  profile769,
+  profile768,
+  profile767,
+  profile766,
+  profile765,
 
 
 ];
