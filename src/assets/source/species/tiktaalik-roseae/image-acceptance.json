@@ -1,0 +1,107 @@
+{
+  "reviewedAt": "2026-10-22",
+  "images": [
+    {
+      "scene": "01-cover",
+      "source": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "sha256": "9ea07af9a742199b2425486da73625189126fb429528598104f8c31254868e79"
+      },
+      "runtime": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "sha256": "47fb4d62ba53bb6e4ee432b763fa0ff532fd185c62a72870548366b3649feb8d"
+      }
+    },
+    {
+      "scene": "02-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "35925182dce7566b3ff56bb073d879fa6cc8819bf8b8bef9efe794ae10d3899e"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "9522b07303616ff4ccbcb075013156bafdeceaf17c5c845333c65bc6fd60c9f2"
+      }
+    },
+    {
+      "scene": "03-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "d30b5ae8c277f894cf95c3e6c7d50fb4423f6622f978c6602d61db8bd50d0fc8"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "20433a9e65043ebfe149145a8e8c589f08aac18dba4578af46656a78960f99de"
+      }
+    },
+    {
+      "scene": "04-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "b84a1699d821dac02c70454084e949717d805b59c4893f674282205a8968a524"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "dc85f16ec7847e9257ef7323fc5274d345097311aa317418431469a220e4942e"
+      }
+    },
+    {
+      "scene": "05-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "e3509e81aa116f7db2065293f4322141d1ad215a833f962694f497e269abedb0"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "f2be899ed21a0a1d61f7be689b1293984b5de20a027bcfadd102a846190796a2"
+      }
+    },
+    {
+      "scene": "06-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "67e6be043aa7870989f6c1d5a8268897ee4ebad3fa9155de23b80df887b78bf1"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "d4c31012aed40a58e88c1d453f2f41b7e5279734607da6488ee1bae70ba9bd0c"
+      }
+    }
+  ]
+}

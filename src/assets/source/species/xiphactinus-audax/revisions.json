@@ -1,0 +1,15 @@
+[
+  {
+    "scene": "01-cover",
+    "originalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Xiphactinus audax only. Anatomy: large torpedo-bodied bony fish, tall blunt upturned face, deep massive jaws, visible unequal pointed teeth only if mouth slightly open, forked tail, dorsal and anal fins far back, paired pectoral fins low behind head. Muted silver-blue scales speculative; no shark gill slits or armor. Setting: Late Cretaceous Western Interior Seaway open marine water. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "original": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "d0df0d1903e4c044aafe1a6f4aa9e4b1efd8244f56865f878f19f01ba6d5d43b"
+    },
+    "finalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Xiphactinus audax only. Anatomy: large torpedo-bodied bony fish, tall blunt upturned face, deep massive jaws, visible unequal pointed teeth only if mouth slightly open, forked tail, dorsal and anal fins far back, paired pectoral fins low behind head. Muted silver-blue scales speculative; no shark gill slits or armor. Setting: Late Cretaceous Western Interior Seaway open marine water. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.\nHARD COVER LAYOUT: Fit the ENTIRE complete animal strictly within the RIGHT HALF x45%-94% of canvas width, and y14%-86%. Nose, pectoral appendages, fins, skull extensions, all limb/fin tips and tail tip must stay RIGHT of the x45% line, and LEFT of x94%. The whole left43% must contain only quiet water or plain ground and distant background, with no part of the animal. Large centered silhouette within that right half, readable full body, 6% right margin. Choose viewpoint to satisfy these boundaries.",
+    "reason": "初稿主体接近左侧文字区，重做封面构图；新增档案无旧运行封面。"
+  }
+]

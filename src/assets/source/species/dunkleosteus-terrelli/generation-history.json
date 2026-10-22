@@ -1,0 +1,102 @@
+[
+  {
+    "scene": "01-cover",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dunkleosteus terrelli only. Anatomy: compact deep-bodied armored placoderm fish, massive blunt armored head and thorax, sharp continuous bony gnathal plates rather than separate shark teeth, short robust trunk consistent with 2023 revised body reconstruction, tapering tail with conservative asymmetric fin. Tail and soft anatomy hypothetical. No giant eel-like torso. Setting: Late Devonian Cleveland marine waters. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "c91909cb4769a366da94759c56c6f41d59cb046a033d5820c985f734c8a3a76b",
+        "sourceDimensions": [
+          1672,
+          941
+        ]
+      },
+      {
+        "stage": "composition",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dunkleosteus terrelli only. Anatomy: compact deep-bodied armored placoderm fish, massive blunt armored head and thorax, sharp continuous bony gnathal plates rather than separate shark teeth, short robust trunk consistent with 2023 revised body reconstruction, tapering tail with conservative asymmetric fin. Tail and soft anatomy hypothetical. No giant eel-like torso. Setting: Late Devonian Cleveland marine waters. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.\nHARD COVER LAYOUT: Fit the ENTIRE complete animal strictly within the RIGHT HALF x45%-94% of canvas width, and y14%-86%. Nose, pectoral appendages, fins, skull extensions, all limb/fin tips and tail tip must stay RIGHT of the x45% line, and LEFT of x94%. The whole left43% must contain only quiet water or plain ground and distant background, with no part of the animal. Large centered silhouette within that right half, readable full body, 6% right margin. Choose viewpoint to satisfy these boundaries.",
+        "sourceSha256": "e876d367631add00bdd5d78b8a621d226f17e27483b21f76d667f9a310520e2e",
+        "sourceDimensions": [
+          1672,
+          941
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "02-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dunkleosteus terrelli only. Anatomy: compact deep-bodied armored placoderm fish, massive blunt armored head and thorax, sharp continuous bony gnathal plates rather than separate shark teeth, short robust trunk consistent with 2023 revised body reconstruction, tapering tail with conservative asymmetric fin. Tail and soft anatomy hypothetical. No giant eel-like torso. Setting: Late Devonian Cleveland marine waters. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "8d628243d964c7447762f278a4f531a06fa6613649c21262ef29a38f60b81af6",
+        "sourceDimensions": [
+          1774,
+          887
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "03-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dunkleosteus terrelli only. Anatomy: compact deep-bodied armored placoderm fish, massive blunt armored head and thorax, sharp continuous bony gnathal plates rather than separate shark teeth, short robust trunk consistent with 2023 revised body reconstruction, tapering tail with conservative asymmetric fin. Tail and soft anatomy hypothetical. No giant eel-like torso. Setting: Late Devonian Cleveland marine waters. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "69df0d8e2bbbda6fc3003719d0148636d9a21cc61447418cd09a4a70a909a108",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "04-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dunkleosteus terrelli only. Anatomy: compact deep-bodied armored placoderm fish, massive blunt armored head and thorax, sharp continuous bony gnathal plates rather than separate shark teeth, short robust trunk consistent with 2023 revised body reconstruction, tapering tail with conservative asymmetric fin. Tail and soft anatomy hypothetical. No giant eel-like torso. Setting: Late Devonian Cleveland marine waters. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "3c2501ff87587c60353b3ab350ca81bcda50c4ad7f29b955c298eef3ae1c858e",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "05-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dunkleosteus terrelli only. Anatomy: compact deep-bodied armored placoderm fish, massive blunt armored head and thorax, sharp continuous bony gnathal plates rather than separate shark teeth, short robust trunk consistent with 2023 revised body reconstruction, tapering tail with conservative asymmetric fin. Tail and soft anatomy hypothetical. No giant eel-like torso. Setting: Late Devonian Cleveland marine waters. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "79821466aa1b9f040d57198106097ab252df06050549d3f20ee3e90c2ff2ca69",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "06-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dunkleosteus terrelli only. Anatomy: compact deep-bodied armored placoderm fish, massive blunt armored head and thorax, sharp continuous bony gnathal plates rather than separate shark teeth, short robust trunk consistent with 2023 revised body reconstruction, tapering tail with conservative asymmetric fin. Tail and soft anatomy hypothetical. No giant eel-like torso. Setting: Late Devonian Cleveland marine waters. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "42b1302db0dd0520be246fc44cc99743c611bb614cf6d0e7d436441ae18c65c0",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  }
+]

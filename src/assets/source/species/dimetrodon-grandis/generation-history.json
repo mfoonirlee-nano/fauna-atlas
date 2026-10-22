@@ -1,0 +1,102 @@
+[
+  {
+    "scene": "01-cover",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Create one wide landscape 16:9 scientific paleoart illustration for a children's natural-history atlas: Dimetrodon grandis, Early Permian Texas, anatomically informed conservative life reconstruction. Single robust low-slung early synapsid with large deep skull, four sprawling legs, long tapering tail, tall unbranched neural-spine sail with skin membrane, NO fur, no dorsal crossbars, no dinosaur posture. Natural muted brown skin with speculative colors. Full body side view facing left, all feet, snout, tail tip and full sail visible with background clearance. Animal fills right portion: complete silhouette entirely within x=43%-96%, y=12%-88%; horizontal center about 70%. Left 40% quiet open floodplain with distant seed ferns and soft background. Subject large and sharp, grounded natural lighting, painterly realism, no text, labels, border, collage or watermark. Not a fossil photo. Save generated image for repository asset integration.",
+        "sourceSha256": "7cbd8017a2419c715feb44674b3875d702c1c6d105c275825d7e00408439efc8",
+        "sourceDimensions": [
+          1672,
+          941
+        ]
+      },
+      {
+        "stage": "composition",
+        "tool": "built-in image_gen",
+        "prompt": "One wide 16:9 scientific paleoart image of Dimetrodon grandis for children's atlas, painterly realism, natural light. Anatomy low-slung early synapsid, deep head, four sprawling legs, long tapering tail, high unbranched neural spine sail with skin membrane, no fur, no crossbars. Setting Early Permian Texas riverbank. Single complete animal entirely in RIGHT HALF, bounds x=45%-95%, y=12%-88%. In particular nose/beak, sail/wing tips, tail tip and feet must all lie RIGHT of x45%, with 5% real background margin at the right. The whole left43% is quiet empty environment for text. Animal faces left but does not intrude left. Maximize animal within that half. All appendages complete, no foreground occlusion. Muted natural colors hypothetical. No text, labels, borders, collage, humans or modern species. A life reconstruction, not a fossil photograph.",
+        "sourceSha256": "1f61fd19031071d9643c675ba439a0bfdf024f7239eb4374fcc9d7c8fd350af3",
+        "sourceDimensions": [
+          1672,
+          941
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "02-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dimetrodon grandis only. Anatomy: robust low-slung non-mammalian synapsid, deep skull, four sprawling limbs, long tapering tail, tall skin sail supported by unbranched neural spines. No fur, no sail crossbars, no dinosaur upright posture. Setting: Early Permian Texas river floodplain, seed ferns. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "e6b64f56051fa7e3578ffefb46d5e93116cbea5d3f042ca3cf95ef7ebfacd86f",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "03-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dimetrodon grandis only. Anatomy: robust low-slung non-mammalian synapsid, deep skull, four sprawling limbs, long tapering tail, tall skin sail supported by unbranched neural spines. No fur, no sail crossbars, no dinosaur upright posture. Setting: Early Permian Texas river floodplain, seed ferns. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "b1a7c7795944e6cb88373a38e4a29000a89c867405ec0f3c2937d551a7892463",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "04-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dimetrodon grandis only. Anatomy: robust low-slung non-mammalian synapsid, deep skull, four sprawling limbs, long tapering tail, tall skin sail supported by unbranched neural spines. No fur, no sail crossbars, no dinosaur upright posture. Setting: Early Permian Texas river floodplain, seed ferns. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "80d36a15ce61a2840bb03e5ee0119be57fb4560f44e71020ccadb8229c5742fa",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "05-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dimetrodon grandis only. Anatomy: robust low-slung non-mammalian synapsid, deep skull, four sprawling limbs, long tapering tail, tall skin sail supported by unbranched neural spines. No fur, no sail crossbars, no dinosaur upright posture. Setting: Early Permian Texas river floodplain, seed ferns. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "bd6f0c562517835738c0636e64560d4731f3ee577e7c9a61b6da061bdac53ce5",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "06-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Dimetrodon grandis only. Anatomy: robust low-slung non-mammalian synapsid, deep skull, four sprawling limbs, long tapering tail, tall skin sail supported by unbranched neural spines. No fur, no sail crossbars, no dinosaur upright posture. Setting: Early Permian Texas river floodplain, seed ferns. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "ee950af760d5016ca0ca3a7c6f955a6922813d234e0271ea21c854fd4e094649",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  }
+]

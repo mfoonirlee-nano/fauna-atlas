@@ -1,0 +1,344 @@
+[
+  {
+    "slug": "dimetrodon-grandis",
+    "scientificName": "Dimetrodon grandis",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Synapsida",
+        "zhName": "合弓纲"
+      },
+      "family": {
+        "scientificName": "Sphenacodontidae",
+        "zhName": "楔齿龙科"
+      },
+      "genus": {
+        "scientificName": "Dimetrodon",
+        "zhName": "异齿龙属"
+      }
+    },
+    "gbifStatus": "SYNONYM",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://www.si.edu/object/dimetrodon-grandis-romer-price-1940%3Anmnhpaleobiology_3451032",
+      "https://mczbase.mcz.harvard.edu/guid/MCZ%3AVP%3AVPRA-1491",
+      "https://whatsinaname.hmnh.harvard.edu/dimetrodon",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059",
+      "https://api.gbif.org/v1/species/match?name=Dimetrodon%20grandis"
+    ]
+  },
+  {
+    "slug": "archaeopteryx-lithographica",
+    "scientificName": "Archaeopteryx lithographica",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Aves",
+        "zhName": "鸟纲"
+      },
+      "family": {
+        "scientificName": "Archaeopterygidae",
+        "zhName": "始祖鸟科"
+      },
+      "genus": {
+        "scientificName": "Archaeopteryx",
+        "zhName": "始祖鸟属"
+      }
+    },
+    "gbifStatus": "ACCEPTED",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/fossil-birds.html",
+      "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/734808/1791363741884",
+      "https://www2.geo.utexas.edu/specimens/Archaeopteryx_lithographica/",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=55487",
+      "https://api.gbif.org/v1/species/match?name=Archaeopteryx%20lithographica"
+    ]
+  },
+  {
+    "slug": "hesperornis-regalis",
+    "scientificName": "Hesperornis regalis",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Aves",
+        "zhName": "鸟纲"
+      },
+      "family": {
+        "scientificName": "Hesperornithidae",
+        "zhName": "黄昏鸟科"
+      },
+      "genus": {
+        "scientificName": "Hesperornis",
+        "zhName": "黄昏鸟属"
+      }
+    },
+    "gbifStatus": "ACCEPTED",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://www.nature.com/articles/055534a0",
+      "https://doi.org/10.1186/s12862-016-0753-6",
+      "https://scholars.fhsu.edu/theses/2996/",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=96488",
+      "https://api.gbif.org/v1/species/match?name=Hesperornis%20regalis"
+    ]
+  },
+  {
+    "slug": "ichthyornis-dispar",
+    "scientificName": "Ichthyornis dispar",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Aves",
+        "zhName": "鸟纲"
+      },
+      "family": {
+        "scientificName": "Ichthyornithidae",
+        "zhName": "鱼鸟科"
+      },
+      "genus": {
+        "scientificName": "Ichthyornis",
+        "zhName": "鱼鸟属"
+      }
+    },
+    "gbifStatus": "ACCEPTED",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://www.nature.com/articles/s41586-018-0053-y",
+      "https://doi.org/10.1186/s12862-016-0753-6",
+      "https://doi.org/10.1111/j.1420-9101.2009.01909.x",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54877",
+      "https://api.gbif.org/v1/species/match?name=Ichthyornis%20dispar"
+    ]
+  },
+  {
+    "slug": "beelzebufo-ampinga",
+    "scientificName": "Beelzebufo ampinga",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Amphibia",
+        "zhName": "两栖纲"
+      },
+      "order": {
+        "scientificName": "Anura",
+        "zhName": "无尾目"
+      },
+      "genus": {
+        "scientificName": "Beelzebufo",
+        "zhName": "魔鬼蛙属"
+      }
+    },
+    "gbifStatus": "ACCEPTED",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://doi.org/10.1371/journal.pone.0087236",
+      "https://doi.org/10.1080/14772019.2022.2050824",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=118075",
+      "https://api.gbif.org/v1/species/match?name=Beelzebufo%20ampinga"
+    ]
+  },
+  {
+    "slug": "diplocaulus-magnicornis",
+    "scientificName": "Diplocaulus magnicornis",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Amphibia",
+        "zhName": "两栖纲"
+      },
+      "family": {
+        "scientificName": "Keraterpetontidae",
+        "zhName": "角螈科"
+      },
+      "genus": {
+        "scientificName": "Diplocaulus",
+        "zhName": "双螈属"
+      }
+    },
+    "gbifStatus": "ACCEPTED",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://3d.si.edu/object/3d/diplocaulus-magnicornis-skull%3A23a3cd17-8526-4b30-80e7-fdae0ecdd36a",
+      "https://storage.lib.uchicago.edu/pres/2006/pres2006-1042.pdf",
+      "https://www.mnhn.fr/fr/10-especes-disparues-qui-vont-vous-surprendre",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=81712",
+      "https://api.gbif.org/v1/species/match?name=Diplocaulus%20magnicornis"
+    ]
+  },
+  {
+    "slug": "dunkleosteus-terrelli",
+    "scientificName": "Dunkleosteus terrelli",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "family": {
+        "scientificName": "Dunkleosteidae",
+        "zhName": "邓氏鱼科"
+      },
+      "genus": {
+        "scientificName": "Dunkleosteus",
+        "zhName": "邓氏鱼属"
+      }
+    },
+    "gbifStatus": "ACCEPTED",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100833/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13549283/",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=421176",
+      "https://api.gbif.org/v1/species/match?name=Dunkleosteus%20terrelli"
+    ]
+  },
+  {
+    "slug": "otodus-megalodon",
+    "scientificName": "Otodus megalodon",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "class": {
+        "scientificName": "Chondrichthyes",
+        "zhName": "软骨鱼纲"
+      },
+      "order": {
+        "scientificName": "Lamniformes",
+        "zhName": "鼠鲨目"
+      },
+      "family": {
+        "scientificName": "Otodontidae",
+        "zhName": "耳齿鲨科"
+      },
+      "genus": {
+        "scientificName": "Otodus",
+        "zhName": "耳齿鲨属"
+      }
+    },
+    "gbifStatus": "SYNONYM",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://palaeo-electronica.org/content/2025/5450-biology-of-otodus-megalodon",
+      "https://www.nhm.ac.uk/discover/is-megalodon-still-alive.html",
+      "https://doi.org/10.7717/peerj.6088",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603",
+      "https://api.gbif.org/v1/species/match?name=Otodus%20megalodon"
+    ]
+  },
+  {
+    "slug": "xiphactinus-audax",
+    "scientificName": "Xiphactinus audax",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "family": {
+        "scientificName": "Ichthyodectidae",
+        "zhName": "乞丐鱼科"
+      },
+      "genus": {
+        "scientificName": "Xiphactinus",
+        "zhName": "剑射鱼属"
+      }
+    },
+    "gbifStatus": "SYNONYM",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://scholars.fhsu.edu/sternberg_photos/52/",
+      "https://store.beg.utexas.edu/files/BL/BEG-BL3201D.pdf",
+      "https://ocean.si.edu/through-time/xiphactinus",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=142482",
+      "https://api.gbif.org/v1/species/match?name=Xiphactinus%20audax"
+    ]
+  },
+  {
+    "slug": "bothriolepis-canadensis",
+    "scientificName": "Bothriolepis canadensis",
+    "taxonomy": {
+      "kingdom": {
+        "scientificName": "Animalia",
+        "zhName": "动物界"
+      },
+      "phylum": {
+        "scientificName": "Chordata",
+        "zhName": "脊索动物门"
+      },
+      "family": {
+        "scientificName": "Bothriolepididae",
+        "zhName": "沟鳞鱼科"
+      },
+      "genus": {
+        "scientificName": "Bothriolepis",
+        "zhName": "沟鳞鱼属"
+      }
+    },
+    "gbifStatus": "ACCEPTED",
+    "gbifAcceptedName": null,
+    "sources": [
+      "https://journals.lib.unb.ca/index.php/GC/article/download/geocanj.2013.40.008/24239?inline=1",
+      "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?id=93118&methode=consulter&type=bien",
+      "https://portal.idigbio.org/portal/records/fc174ffd-3408-4e34-b870-c32b9d4f93ce",
+      "https://palaeo-electronica.org/content/pdfs/417.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030608/",
+      "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=226310",
+      "https://api.gbif.org/v1/species/match?name=Bothriolepis%20canadensis"
+    ]
+  }
+]

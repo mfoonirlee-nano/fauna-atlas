@@ -1100,3 +1100,34 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [大地懒图片集](./species/megatherium-americanum/README.md)
 - [双门齿兽图片集](./species/diprotodon-optatum/README.md)
 - [袋狮图片集](./species/thylacoleo-carnifex/README.md)
+
+## 2026-10-22 第十四批十种灭绝动物
+
+- [大异齿龙图片集](./species/dimetrodon-grandis/README.md)
+- [始祖鸟图片集](./species/archaeopteryx-lithographica/README.md)
+- [王氏黄昏鸟图片集](./species/hesperornis-regalis/README.md)
+- [异齿鱼鸟图片集](./species/ichthyornis-dispar/README.md)
+- [盾甲魔鬼蛙图片集](./species/beelzebufo-ampinga/README.md)
+- [大角双螈图片集](./species/diplocaulus-magnicornis/README.md)
+- [泰瑞尔邓氏鱼图片集](./species/dunkleosteus-terrelli/README.md)
+- [巨齿鲨图片集](./species/otodus-megalodon/README.md)
+- [凶猛剑射鱼图片集](./species/xiphactinus-audax/README.md)
+- [加拿大沟鳞鱼图片集](./species/bothriolepis-canadensis/README.md)
+
+## 2026-10-22 灭绝动物收尾十五种
+
+- [麦氏提塔利克鱼图片集](./species/tiktaalik-roseae/README.md)
+- [加拿大奇虾图片集](./species/anomalocaris-canadensis/README.md)
+- [欧巴宾虫图片集](./species/opabinia-regalis/README.md)
+- [稀有怪诞虫图片集](./species/hallucigenia-sparsa/README.md)
+- [华美马尔拉虫图片集](./species/marrella-splendens/README.md)
+- [锯齿拟油栉虫图片集](./species/olenoides-serratus/README.md)
+- [意外西德尼虫图片集](./species/sidneyia-inexpectans/README.md)
+- [桨足广翅鲎图片集](./species/eurypterus-remipes/README.md)
+- [莱茵耶克尔鲎图片集](./species/jaekelopterus-rhenaniae/README.md)
+- [蛙形埃氏三叶虫图片集](./species/eldredgeops-rana/README.md)
+- [巨型等称虫图片集](./species/isotelus-maximus/README.md)
+- [普通指菊石图片集](./species/dactylioceras-commune/README.md)
+- [大王菊石图片集](./species/parapuzosia-seppenradensis/README.md)
+- [布氏巨脉蜻蜓图片集](./species/meganeura-monyi/README.md)
+- [网纹雕齿兽图片集](./species/glyptodon-reticulatus/README.md)

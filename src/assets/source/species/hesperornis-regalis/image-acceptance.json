@@ -1,0 +1,108 @@
+{
+  "reviewedAt": "2026-10-22",
+  "images": [
+    {
+      "scene": "01-cover",
+      "source": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "sha256": "f84d5eb2a8b7aacc6efe752ebd734802299a9ed454acb77fa14f651b0f60f02d"
+      },
+      "runtime": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "sha256": "acd8920ef76cdfb375638ecce5903b8fd02e65ce9eeb84bd0ae57d0fa3b4344a"
+      }
+    },
+    {
+      "scene": "02-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "e6023bc6b63bf0504b142994089dcefb5f5c547b990a70b3f274800faf3939cc"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "3715bf36928808f356ae8ac33e58963690f499d535cc7d5d559d4ecbcb2c9554"
+      }
+    },
+    {
+      "scene": "03-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "ef562c2713bfc4c6a54fb4939f167c02a4cbd91ebbaf13e66dc10b1530faa212"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "30adc92df5e486b710a5683000f3f17779ad5e89244026f4868a4c0c57823a7a"
+      }
+    },
+    {
+      "scene": "04-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "117a612cb402bc9fb0fc130989a32a93d7e9549bcd5a2562e29c67be43d7c19c"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "cc3409470efe3bf8e885f45b712a4da14f4b3ee22a44f1f935073691d7e7d55e"
+      }
+    },
+    {
+      "scene": "05-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "7cf41f5ec22fa74fd44935b1e460e1c993ee394eaf1b1312cc9ac9bb38df5c4d"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "01f41aa1cff487bee1aed028e6a766ce7bcc4f02f741381b07d6c64e3e414989"
+      }
+    },
+    {
+      "scene": "06-observation",
+      "source": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "b49d258565de9ec85f4cd0496ce72a3136a0190a1e84939b1da0ca67828543cd"
+      },
+      "runtime": {
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "43562c49824a76931c9f43a9f540cf666dd2cf9f5fef1b77b4519b17a1ca85c6"
+      }
+    }
+  ],
+  "limitations": "全部为 AI 科学复原示意。毛皮颜色、软组织、姿态与古环境含推测；不能按图测量标本或确定行为。"
+}

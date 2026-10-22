@@ -1,0 +1,559 @@
+[
+  {
+    "name": "Dimetrodon grandis",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Dimetrodon%20grandis",
+      "data": {
+        "usageKey": 4964949,
+        "acceptedUsageKey": 9259664,
+        "scientificName": "Dimetrodon grandis (Case, 1907)",
+        "canonicalName": "Dimetrodon grandis",
+        "rank": "SPECIES",
+        "status": "SYNONYM",
+        "confidence": 98,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Sphenacodontidae",
+        "genus": "Dimetrodon",
+        "species": "Theropleura grandis",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 4819448,
+        "genusKey": 4819454,
+        "speciesKey": 9259664
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Dimetrodon%20grandis&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00282,
+        "records": [
+          {
+            "oid": "txn:138059",
+            "vid": "var:122786",
+            "rnk": 3,
+            "nam": "Dimetrodon grandis",
+            "att": "(Case 1907)",
+            "par": "txn:38904",
+            "rid": "ref:7374",
+            "ext": "0",
+            "noc": 3,
+            "fea": 286,
+            "fla": 274.4,
+            "lea": 283.3,
+            "lla": 274.4,
+            "tei": "Artinskian",
+            "tli": "Kungurian",
+            "phl": "Chordata",
+            "cll": "Osteichthyes",
+            "odl": "Cotylosauria",
+            "fml": "Sphenacodontidae",
+            "gnl": "Dimetrodon"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Archaeopteryx lithographica",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Archaeopteryx%20lithographica",
+      "data": {
+        "usageKey": 4847899,
+        "scientificName": "Archaeopteryx lithographica von Meyer, 1861",
+        "canonicalName": "Archaeopteryx lithographica",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Archaeopterygidae",
+        "genus": "Archaeopteryx",
+        "species": "Archaeopteryx lithographica",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 212,
+        "familyKey": 4847895,
+        "genusKey": 8276153,
+        "speciesKey": 4847899,
+        "class": "Aves"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Archaeopteryx%20lithographica&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00242,
+        "records": [
+          {
+            "oid": "txn:55487",
+            "rnk": 3,
+            "nam": "Archaeopteryx lithographica",
+            "att": "Meyer 1861",
+            "par": "txn:39240",
+            "rid": "ref:35969",
+            "ext": "0",
+            "noc": 6,
+            "fea": 149.2,
+            "fla": 145.06,
+            "lea": 149.2,
+            "lla": 145.06,
+            "tei": "Tithonian",
+            "phl": "Chordata",
+            "cll": "Reptilia",
+            "odl": "NO_ORDER_SPECIFIED",
+            "fml": "NO_FAMILY_SPECIFIED",
+            "gnl": "Archaeopteryx"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Hesperornis regalis",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Hesperornis%20regalis",
+      "data": {
+        "usageKey": 4966843,
+        "scientificName": "Hesperornis regalis Marsh, 1872",
+        "canonicalName": "Hesperornis regalis",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Hesperornithidae",
+        "genus": "Hesperornis",
+        "species": "Hesperornis regalis",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 212,
+        "familyKey": 4851550,
+        "genusKey": 4851552,
+        "speciesKey": 4966843,
+        "class": "Aves"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Hesperornis%20regalis&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00249,
+        "records": [
+          {
+            "oid": "txn:96488",
+            "rnk": 3,
+            "nam": "Hesperornis regalis",
+            "att": "Marsh 1872",
+            "par": "txn:36620",
+            "rid": "ref:34551",
+            "ext": "0",
+            "noc": 20,
+            "fea": 89.8,
+            "fla": 83.6,
+            "lea": 83.6,
+            "lla": 72.2,
+            "tei": "Coniacian",
+            "tli": "Campanian",
+            "phl": "Chordata",
+            "cll": "Reptilia",
+            "odl": "Hesperornithiformes",
+            "fml": "Hesperornithidae",
+            "gnl": "Hesperornis"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Ichthyornis dispar",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Ichthyornis%20dispar",
+      "data": {
+        "usageKey": 4966863,
+        "scientificName": "Ichthyornis dispar Marsh, 1872",
+        "canonicalName": "Ichthyornis dispar",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Ichthyornithidae",
+        "genus": "Ichthyornis",
+        "species": "Ichthyornis dispar",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 212,
+        "familyKey": 4852428,
+        "genusKey": 4852429,
+        "speciesKey": 4966863,
+        "class": "Aves"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Ichthyornis%20dispar&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00252,
+        "records": [
+          {
+            "oid": "txn:54877",
+            "rnk": 3,
+            "nam": "Ichthyornis dispar",
+            "att": "Marsh 1872",
+            "par": "txn:36624",
+            "rid": "ref:34465",
+            "ext": "0",
+            "noc": 26,
+            "fea": 89.8,
+            "fla": 85.7,
+            "lea": 83.6,
+            "lla": 72.2,
+            "tei": "Coniacian",
+            "tli": "Campanian",
+            "phl": "Chordata",
+            "cll": "Reptilia",
+            "odl": "Ichthyornithes",
+            "fml": "NO_FAMILY_SPECIFIED",
+            "gnl": "Ichthyornis"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Beelzebufo ampinga",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Beelzebufo%20ampinga",
+      "data": {
+        "usageKey": 4964784,
+        "scientificName": "Beelzebufo ampinga Evans et al., 2008",
+        "canonicalName": "Beelzebufo ampinga",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Anura",
+        "genus": "Beelzebufo",
+        "species": "Beelzebufo ampinga",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 131,
+        "orderKey": 952,
+        "genusKey": 6141906,
+        "speciesKey": 4964784,
+        "class": "Amphibia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Beelzebufo%20ampinga&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00259,
+        "records": [
+          {
+            "oid": "txn:118075",
+            "rnk": 3,
+            "nam": "Beelzebufo ampinga",
+            "att": "Evans et al. 2008",
+            "par": "txn:118074",
+            "rid": "ref:26523",
+            "ext": "0",
+            "noc": 27,
+            "fea": 72.2,
+            "fla": 66,
+            "lea": 72.2,
+            "lla": 66,
+            "tei": "Maastrichtian",
+            "phl": "Chordata",
+            "cll": "Amphibia",
+            "odl": "Anura",
+            "fml": "NO_FAMILY_SPECIFIED",
+            "gnl": "Beelzebufo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Diplocaulus magnicornis",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Diplocaulus%20magnicornis",
+      "data": {
+        "usageKey": 4964725,
+        "scientificName": "Diplocaulus magnicornis Cope, 1882",
+        "canonicalName": "Diplocaulus magnicornis",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Keraterpetontidae",
+        "genus": "Diplocaulus",
+        "species": "Diplocaulus magnicornis",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 131,
+        "familyKey": 4816375,
+        "genusKey": 4816382,
+        "speciesKey": 4964725,
+        "class": "Amphibia"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Diplocaulus%20magnicornis&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00351,
+        "records": [
+          {
+            "oid": "txn:81712",
+            "rnk": 3,
+            "nam": "Diplocaulus magnicornis",
+            "att": "Cope 1882",
+            "par": "txn:37264",
+            "rid": "ref:17702",
+            "ext": "0",
+            "noc": 15,
+            "fea": 290.1,
+            "fla": 283.3,
+            "lea": 283.3,
+            "lla": 274.4,
+            "tei": "Artinskian",
+            "tli": "Kungurian",
+            "phl": "Chordata",
+            "cll": "Osteichthyes",
+            "odl": "NO_ORDER_SPECIFIED",
+            "fml": "Diplocaulidae",
+            "gnl": "Diplocaulus"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Dunkleosteus terrelli",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Dunkleosteus%20terrelli",
+      "data": {
+        "usageKey": 11198804,
+        "scientificName": "Dunkleosteus terrelli Newberry, 1873",
+        "canonicalName": "Dunkleosteus terrelli",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Dunkleosteidae",
+        "genus": "Dunkleosteus",
+        "species": "Dunkleosteus terrelli",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 8510286,
+        "genusKey": 8693483,
+        "speciesKey": 11198804
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Dunkleosteus%20terrelli&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00237,
+        "records": [
+          {
+            "oid": "txn:421176",
+            "rnk": 3,
+            "nam": "Dunkleosteus terrelli",
+            "att": "Newberry 1873",
+            "par": "txn:34328",
+            "rid": "ref:38755",
+            "ext": "0",
+            "noc": 1,
+            "fea": 382.31,
+            "fla": 358.86,
+            "lea": 382.31,
+            "lla": 358.86,
+            "tei": "Frasnian",
+            "tli": "Famennian",
+            "phl": "Chordata",
+            "cll": "Placodermi",
+            "odl": "Phlyctaeniiformes",
+            "fml": "Dunkleosteidae",
+            "gnl": "Dunkleosteus"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Otodus megalodon",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Otodus%20megalodon",
+      "data": {
+        "usageKey": 11267371,
+        "acceptedUsageKey": 9413495,
+        "scientificName": "Otodus megalodon (Agassiz, 1835)",
+        "canonicalName": "Otodus megalodon",
+        "rank": "SPECIES",
+        "status": "SYNONYM",
+        "confidence": 98,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "order": "Lamniformes",
+        "family": "Lamnidae",
+        "genus": "Otodus",
+        "species": "Carcharias megalodon",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "classKey": 121,
+        "orderKey": 885,
+        "familyKey": 5888,
+        "genusKey": 4824544,
+        "speciesKey": 9413495,
+        "class": "Elasmobranchii"
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Otodus%20megalodon&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00286,
+        "records": [
+          {
+            "oid": "txn:80603",
+            "vid": "var:381671",
+            "rnk": 3,
+            "nam": "Otodus megalodon",
+            "att": "(Agassiz 1835)",
+            "par": "txn:34621",
+            "rid": "ref:77551",
+            "ext": "0",
+            "noc": 350,
+            "fea": 66,
+            "fla": 61.66,
+            "lea": 3.6,
+            "lla": 0.34,
+            "tei": "Danian",
+            "tli": "Chibanian",
+            "phl": "Chordata",
+            "cll": "Chondrichthyes",
+            "odl": "Lamniformes",
+            "fml": "Otodontidae",
+            "gnl": "Otodus"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Xiphactinus audax",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Xiphactinus%20audax",
+      "data": {
+        "usageKey": 4964249,
+        "acceptedUsageKey": 9327863,
+        "scientificName": "Xiphactinus audax (Leidy, 1870)",
+        "canonicalName": "Xiphactinus audax",
+        "rank": "SPECIES",
+        "status": "SYNONYM",
+        "confidence": 98,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Ichthyodectidae",
+        "genus": "Xiphactinus",
+        "species": "Polygonodon audax",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 4838916,
+        "genusKey": 4838922,
+        "speciesKey": 9327863
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Xiphactinus%20audax&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00281,
+        "records": [
+          {
+            "oid": "txn:142482",
+            "vid": "var:117694",
+            "rnk": 3,
+            "nam": "Xiphactinus audax",
+            "att": "(Leidy 1870)",
+            "par": "txn:35308",
+            "rid": "ref:29294",
+            "ext": "0",
+            "noc": 38,
+            "fea": 100.5,
+            "fla": 93.9,
+            "lea": 83.6,
+            "lla": 72.2,
+            "tei": "Cenomanian",
+            "tli": "Campanian",
+            "phl": "Chordata",
+            "cll": "Osteichthyes",
+            "odl": "Ichthyodectiformes",
+            "fml": "Ichthyodectidae",
+            "gnl": "Xiphactinus"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Bothriolepis canadensis",
+    "gbif": {
+      "url": "https://api.gbif.org/v1/species/match?name=Bothriolepis%20canadensis",
+      "data": {
+        "usageKey": 4853185,
+        "scientificName": "Bothriolepis canadensis Whiteaves, 1880",
+        "canonicalName": "Bothriolepis canadensis",
+        "rank": "SPECIES",
+        "status": "ACCEPTED",
+        "confidence": 99,
+        "matchType": "EXACT",
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "family": "Bothriolepididae",
+        "genus": "Bothriolepis",
+        "species": "Bothriolepis canadensis",
+        "kingdomKey": 1,
+        "phylumKey": 44,
+        "familyKey": 4853178,
+        "genusKey": 4853180,
+        "speciesKey": 4853185
+      }
+    },
+    "pbdb": {
+      "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Bothriolepis%20canadensis&show=attr,app,class",
+      "data": {
+        "elapsed_time": 0.00306,
+        "records": [
+          {
+            "oid": "txn:226310",
+            "rnk": 3,
+            "nam": "Bothriolepis canadensis",
+            "att": "Whiteaves 1880",
+            "par": "txn:176322",
+            "rid": "ref:40577",
+            "ext": "0",
+            "noc": 1,
+            "fea": 382.31,
+            "fla": 372.15,
+            "lea": 382.31,
+            "lla": 372.15,
+            "tei": "Frasnian",
+            "phl": "Chordata",
+            "cll": "Placodermi",
+            "odl": "Bothriolepidiformes",
+            "fml": "Bothriolepididae",
+            "gnl": "Bothriolepis"
+          }
+        ]
+      }
+    }
+  }
+]

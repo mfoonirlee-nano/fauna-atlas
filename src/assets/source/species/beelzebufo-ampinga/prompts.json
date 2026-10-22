@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Beelzebufo ampinga only. Anatomy: broad squat robust frog with very wide flattened armored-looking bony head, low eyes, posterolateral skull flanges behind the eyes, stout limbs. Rough muted ochre skin speculative. No literal devil horns, no tail, no invented bony back spikes. Setting: Late Cretaceous Madagascar seasonally dry floodplain. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.\nHARD COVER LAYOUT: Fit the ENTIRE complete animal strictly within the RIGHT HALF x45%-94% of canvas width, and y14%-86%. Nose, pectoral appendages, fins, skull extensions, all limb/fin tips and tail tip must stay RIGHT of the x45% line, and LEFT of x94%. The whole left43% must contain only quiet water or plain ground and distant background, with no part of the animal. Large centered silhouette within that right half, readable full body, 6% right margin. Choose viewpoint to satisfy these boundaries.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Beelzebufo ampinga only. Anatomy: broad squat robust frog with very wide flattened armored-looking bony head, low eyes, posterolateral skull flanges behind the eyes, stout limbs. Rough muted ochre skin speculative. No literal devil horns, no tail, no invented bony back spikes. Setting: Late Cretaceous Madagascar seasonally dry floodplain. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Beelzebufo ampinga only. Anatomy: broad squat robust frog with very wide flattened armored-looking bony head, low eyes, posterolateral skull flanges behind the eyes, stout limbs. Rough muted ochre skin speculative. No literal devil horns, no tail, no invented bony back spikes. Setting: Late Cretaceous Madagascar seasonally dry floodplain. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Beelzebufo ampinga only. Anatomy: broad squat robust frog with very wide flattened armored-looking bony head, low eyes, posterolateral skull flanges behind the eyes, stout limbs. Rough muted ochre skin speculative. No literal devil horns, no tail, no invented bony back spikes. Setting: Late Cretaceous Madagascar seasonally dry floodplain. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Beelzebufo ampinga only. Anatomy: broad squat robust frog with very wide flattened armored-looking bony head, low eyes, posterolateral skull flanges behind the eyes, stout limbs. Rough muted ochre skin speculative. No literal devil horns, no tail, no invented bony back spikes. Setting: Late Cretaceous Madagascar seasonally dry floodplain. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Beelzebufo ampinga only. Anatomy: broad squat robust frog with very wide flattened armored-looking bony head, low eyes, posterolateral skull flanges behind the eyes, stout limbs. Rough muted ochre skin speculative. No literal devil horns, no tail, no invented bony back spikes. Setting: Late Cretaceous Madagascar seasonally dry floodplain. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  }
+]

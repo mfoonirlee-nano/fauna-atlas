@@ -7751,5 +7751,255 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1640,
       "bottom": 699
     }
-  }
+  },
+  "dimetrodon-grandis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 610,
+      "top": 22,
+      "right": 1665,
+      "bottom": 779
+    }
+  },
+  "archaeopteryx-lithographica": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 609,
+      "top": 76,
+      "right": 1651,
+      "bottom": 751
+    }
+  },
+  "hesperornis-regalis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 576,
+      "top": 64,
+      "right": 1611,
+      "bottom": 830
+    }
+  },
+  "ichthyornis-dispar": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 670,
+      "top": 24,
+      "right": 1654,
+      "bottom": 840
+    }
+  },
+  "beelzebufo-ampinga": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 642,
+      "top": 204,
+      "right": 1618,
+      "bottom": 742
+    }
+  },
+  "diplocaulus-magnicornis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 676,
+      "top": 136,
+      "right": 1624,
+      "bottom": 701
+    }
+  },
+  "dunkleosteus-terrelli": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 631,
+      "top": 187,
+      "right": 1651,
+      "bottom": 687
+    }
+  },
+  "otodus-megalodon": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 612,
+      "top": 190,
+      "right": 1640,
+      "bottom": 663
+    }
+  },
+  "xiphactinus-audax": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 613,
+      "top": 195,
+      "right": 1651,
+      "bottom": 633
+    }
+  },
+  "bothriolepis-canadensis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 769,
+      "top": 334,
+      "right": 1611,
+      "bottom": 603
+    }
+  },
+  "tiktaalik-roseae": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 620,
+      "top": 218,
+      "right": 1606,
+      "bottom": 615
+    }
+  },
+  "anomalocaris-canadensis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 723,
+      "top": 164,
+      "right": 1618,
+      "bottom": 678
+    }
+  },
+  "opabinia-regalis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 674,
+      "top": 187,
+      "right": 1527,
+      "bottom": 574
+    }
+  },
+  "hallucigenia-sparsa": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 515,
+      "top": 94,
+      "right": 1630,
+      "bottom": 756
+    }
+  },
+  "marrella-splendens": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 477,
+      "top": 158,
+      "right": 1598,
+      "bottom": 642
+    }
+  },
+  "olenoides-serratus": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 540,
+      "top": 124,
+      "right": 1608,
+      "bottom": 800
+    }
+  },
+  "sidneyia-inexpectans": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 508,
+      "top": 207,
+      "right": 1595,
+      "bottom": 785
+    }
+  },
+  "eurypterus-remipes": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 628,
+      "top": 50,
+      "right": 1644,
+      "bottom": 788
+    }
+  },
+  "jaekelopterus-rhenaniae": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 542,
+      "top": 36,
+      "right": 1645,
+      "bottom": 742
+    }
+  },
+  "eldredgeops-rana": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 706,
+      "top": 125,
+      "right": 1595,
+      "bottom": 781
+    }
+  },
+  "isotelus-maximus": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 656,
+      "top": 118,
+      "right": 1590,
+      "bottom": 767
+    }
+  },
+  "dactylioceras-commune": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 773,
+      "top": 88,
+      "right": 1532,
+      "bottom": 780
+    }
+  },
+  "parapuzosia-seppenradensis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 746,
+      "top": 29,
+      "right": 1475,
+      "bottom": 852
+    }
+  },
+  "meganeura-monyi": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 500,
+      "top": 30,
+      "right": 1647,
+      "bottom": 663
+    }
+  },
+  "glyptodon-reticulatus": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 704,
+      "top": 154,
+      "right": 1648,
+      "bottom": 731
+    }
+  },
 };

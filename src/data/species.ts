@@ -807,6 +807,42 @@ import profile773 from './species/diprotodon-optatum.js';
 
 import profile774 from './species/thylacoleo-carnifex.js';
 
+import profile775 from './species/dimetrodon-grandis.js';
+
+import profile776 from './species/archaeopteryx-lithographica.js';
+
+import profile777 from './species/hesperornis-regalis.js';
+
+import profile778 from './species/ichthyornis-dispar.js';
+
+import profile779 from './species/beelzebufo-ampinga.js';
+
+import profile780 from './species/diplocaulus-magnicornis.js';
+
+import profile781 from './species/dunkleosteus-terrelli.js';
+
+import profile782 from './species/otodus-megalodon.js';
+
+import profile783 from './species/xiphactinus-audax.js';
+
+import profile784 from './species/bothriolepis-canadensis.js';
+
+import profile785 from './species/tiktaalik-roseae.js';
+import profile786 from './species/anomalocaris-canadensis.js';
+import profile787 from './species/opabinia-regalis.js';
+import profile788 from './species/hallucigenia-sparsa.js';
+import profile789 from './species/marrella-splendens.js';
+import profile790 from './species/olenoides-serratus.js';
+import profile791 from './species/sidneyia-inexpectans.js';
+import profile792 from './species/eurypterus-remipes.js';
+import profile793 from './species/jaekelopterus-rhenaniae.js';
+import profile794 from './species/eldredgeops-rana.js';
+import profile795 from './species/isotelus-maximus.js';
+import profile796 from './species/dactylioceras-commune.js';
+import profile797 from './species/parapuzosia-seppenradensis.js';
+import profile798 from './species/meganeura-monyi.js';
+import profile799 from './species/glyptodon-reticulatus.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1573,6 +1609,16 @@ export const species: readonly Species[] = [
   profile762,
   profile763,
   profile764,
+  profile784,
+  profile783,
+  profile782,
+  profile781,
+  profile780,
+  profile779,
+  profile778,
+  profile777,
+  profile776,
+  profile775,
   profile774,
   profile773,
   profile772,
@@ -1585,6 +1631,21 @@ export const species: readonly Species[] = [
   profile765,
 
 
+  profile785,
+  profile786,
+  profile787,
+  profile788,
+  profile789,
+  profile790,
+  profile791,
+  profile792,
+  profile793,
+  profile794,
+  profile795,
+  profile796,
+  profile797,
+  profile798,
+  profile799,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

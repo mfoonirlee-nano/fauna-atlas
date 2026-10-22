@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "775 animal species profiles; microbial topics excluded",
+  "scope": "800 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 215,
+    "addedProfiles": 240,
     "addedProfilesReviewDate": "2026-10-22",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -35549,6 +35549,1201 @@
             "https://www.museum.qld.gov.au/learn-and-discover/queenslands-ancient-past/meet-the-megafauna/thylacoleo/",
             "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623",
             "https://api.gbif.org/v1/species/match?name=Thylacoleo%20carnifex"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dimetrodon-grandis",
+      "name": "大异齿龙",
+      "scientificName": "Dimetrodon grandis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.si.edu/object/dimetrodon-grandis-romer-price-1940%3Anmnhpaleobiology_3451032",
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AVP%3AVPRA-1491",
+            "https://whatsinaname.hmnh.harvard.edu/dimetrodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059",
+            "https://api.gbif.org/v1/species/match?name=Dimetrodon%20grandis"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.si.edu/object/dimetrodon-grandis-romer-price-1940%3Anmnhpaleobiology_3451032",
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AVP%3AVPRA-1491",
+            "https://whatsinaname.hmnh.harvard.edu/dimetrodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059",
+            "https://api.gbif.org/v1/species/match?name=Dimetrodon%20grandis"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.si.edu/object/dimetrodon-grandis-romer-price-1940%3Anmnhpaleobiology_3451032",
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AVP%3AVPRA-1491",
+            "https://whatsinaname.hmnh.harvard.edu/dimetrodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059",
+            "https://api.gbif.org/v1/species/match?name=Dimetrodon%20grandis"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.si.edu/object/dimetrodon-grandis-romer-price-1940%3Anmnhpaleobiology_3451032",
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AVP%3AVPRA-1491",
+            "https://whatsinaname.hmnh.harvard.edu/dimetrodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059",
+            "https://api.gbif.org/v1/species/match?name=Dimetrodon%20grandis"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.si.edu/object/dimetrodon-grandis-romer-price-1940%3Anmnhpaleobiology_3451032",
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AVP%3AVPRA-1491",
+            "https://whatsinaname.hmnh.harvard.edu/dimetrodon",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059",
+            "https://api.gbif.org/v1/species/match?name=Dimetrodon%20grandis"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "archaeopteryx-lithographica",
+      "name": "始祖鸟",
+      "scientificName": "Archaeopteryx lithographica",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/fossil-birds.html",
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/734808/1791363741884",
+            "https://www2.geo.utexas.edu/specimens/Archaeopteryx_lithographica/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=55487",
+            "https://api.gbif.org/v1/species/match?name=Archaeopteryx%20lithographica"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/fossil-birds.html",
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/734808/1791363741884",
+            "https://www2.geo.utexas.edu/specimens/Archaeopteryx_lithographica/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=55487",
+            "https://api.gbif.org/v1/species/match?name=Archaeopteryx%20lithographica"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/fossil-birds.html",
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/734808/1791363741884",
+            "https://www2.geo.utexas.edu/specimens/Archaeopteryx_lithographica/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=55487",
+            "https://api.gbif.org/v1/species/match?name=Archaeopteryx%20lithographica"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/fossil-birds.html",
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/734808/1791363741884",
+            "https://www2.geo.utexas.edu/specimens/Archaeopteryx_lithographica/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=55487",
+            "https://api.gbif.org/v1/species/match?name=Archaeopteryx%20lithographica"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/fossil-birds.html",
+            "https://data.nhm.ac.uk/dataset/collection-specimens/resource/05ff2255-c38a-40c9-b657-4ccb55ab2feb/record/734808/1791363741884",
+            "https://www2.geo.utexas.edu/specimens/Archaeopteryx_lithographica/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=55487",
+            "https://api.gbif.org/v1/species/match?name=Archaeopteryx%20lithographica"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "hesperornis-regalis",
+      "name": "王氏黄昏鸟",
+      "scientificName": "Hesperornis regalis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nature.com/articles/055534a0",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://scholars.fhsu.edu/theses/2996/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=96488",
+            "https://api.gbif.org/v1/species/match?name=Hesperornis%20regalis"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nature.com/articles/055534a0",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://scholars.fhsu.edu/theses/2996/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=96488",
+            "https://api.gbif.org/v1/species/match?name=Hesperornis%20regalis"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nature.com/articles/055534a0",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://scholars.fhsu.edu/theses/2996/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=96488",
+            "https://api.gbif.org/v1/species/match?name=Hesperornis%20regalis"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nature.com/articles/055534a0",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://scholars.fhsu.edu/theses/2996/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=96488",
+            "https://api.gbif.org/v1/species/match?name=Hesperornis%20regalis"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nature.com/articles/055534a0",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://scholars.fhsu.edu/theses/2996/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=96488",
+            "https://api.gbif.org/v1/species/match?name=Hesperornis%20regalis"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ichthyornis-dispar",
+      "name": "异齿鱼鸟",
+      "scientificName": "Ichthyornis dispar",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nature.com/articles/s41586-018-0053-y",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://doi.org/10.1111/j.1420-9101.2009.01909.x",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54877",
+            "https://api.gbif.org/v1/species/match?name=Ichthyornis%20dispar"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.nature.com/articles/s41586-018-0053-y",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://doi.org/10.1111/j.1420-9101.2009.01909.x",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54877",
+            "https://api.gbif.org/v1/species/match?name=Ichthyornis%20dispar"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nature.com/articles/s41586-018-0053-y",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://doi.org/10.1111/j.1420-9101.2009.01909.x",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54877",
+            "https://api.gbif.org/v1/species/match?name=Ichthyornis%20dispar"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nature.com/articles/s41586-018-0053-y",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://doi.org/10.1111/j.1420-9101.2009.01909.x",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54877",
+            "https://api.gbif.org/v1/species/match?name=Ichthyornis%20dispar"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nature.com/articles/s41586-018-0053-y",
+            "https://doi.org/10.1186/s12862-016-0753-6",
+            "https://doi.org/10.1111/j.1420-9101.2009.01909.x",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54877",
+            "https://api.gbif.org/v1/species/match?name=Ichthyornis%20dispar"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "beelzebufo-ampinga",
+      "name": "盾甲魔鬼蛙",
+      "scientificName": "Beelzebufo ampinga",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0087236",
+            "https://doi.org/10.1080/14772019.2022.2050824",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=118075",
+            "https://api.gbif.org/v1/species/match?name=Beelzebufo%20ampinga"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0087236",
+            "https://doi.org/10.1080/14772019.2022.2050824",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=118075",
+            "https://api.gbif.org/v1/species/match?name=Beelzebufo%20ampinga"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0087236",
+            "https://doi.org/10.1080/14772019.2022.2050824",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=118075",
+            "https://api.gbif.org/v1/species/match?name=Beelzebufo%20ampinga"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0087236",
+            "https://doi.org/10.1080/14772019.2022.2050824",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=118075",
+            "https://api.gbif.org/v1/species/match?name=Beelzebufo%20ampinga"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0087236",
+            "https://doi.org/10.1080/14772019.2022.2050824",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=118075",
+            "https://api.gbif.org/v1/species/match?name=Beelzebufo%20ampinga"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "diplocaulus-magnicornis",
+      "name": "大角双螈",
+      "scientificName": "Diplocaulus magnicornis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://3d.si.edu/object/3d/diplocaulus-magnicornis-skull%3A23a3cd17-8526-4b30-80e7-fdae0ecdd36a",
+            "https://storage.lib.uchicago.edu/pres/2006/pres2006-1042.pdf",
+            "https://www.mnhn.fr/fr/10-especes-disparues-qui-vont-vous-surprendre",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=81712",
+            "https://api.gbif.org/v1/species/match?name=Diplocaulus%20magnicornis"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://3d.si.edu/object/3d/diplocaulus-magnicornis-skull%3A23a3cd17-8526-4b30-80e7-fdae0ecdd36a",
+            "https://storage.lib.uchicago.edu/pres/2006/pres2006-1042.pdf",
+            "https://www.mnhn.fr/fr/10-especes-disparues-qui-vont-vous-surprendre",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=81712",
+            "https://api.gbif.org/v1/species/match?name=Diplocaulus%20magnicornis"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://3d.si.edu/object/3d/diplocaulus-magnicornis-skull%3A23a3cd17-8526-4b30-80e7-fdae0ecdd36a",
+            "https://storage.lib.uchicago.edu/pres/2006/pres2006-1042.pdf",
+            "https://www.mnhn.fr/fr/10-especes-disparues-qui-vont-vous-surprendre",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=81712",
+            "https://api.gbif.org/v1/species/match?name=Diplocaulus%20magnicornis"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://3d.si.edu/object/3d/diplocaulus-magnicornis-skull%3A23a3cd17-8526-4b30-80e7-fdae0ecdd36a",
+            "https://storage.lib.uchicago.edu/pres/2006/pres2006-1042.pdf",
+            "https://www.mnhn.fr/fr/10-especes-disparues-qui-vont-vous-surprendre",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=81712",
+            "https://api.gbif.org/v1/species/match?name=Diplocaulus%20magnicornis"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://3d.si.edu/object/3d/diplocaulus-magnicornis-skull%3A23a3cd17-8526-4b30-80e7-fdae0ecdd36a",
+            "https://storage.lib.uchicago.edu/pres/2006/pres2006-1042.pdf",
+            "https://www.mnhn.fr/fr/10-especes-disparues-qui-vont-vous-surprendre",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=81712",
+            "https://api.gbif.org/v1/species/match?name=Diplocaulus%20magnicornis"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dunkleosteus-terrelli",
+      "name": "泰瑞尔邓氏鱼",
+      "scientificName": "Dunkleosteus terrelli",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100833/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13549283/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=421176",
+            "https://api.gbif.org/v1/species/match?name=Dunkleosteus%20terrelli"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100833/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13549283/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=421176",
+            "https://api.gbif.org/v1/species/match?name=Dunkleosteus%20terrelli"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100833/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13549283/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=421176",
+            "https://api.gbif.org/v1/species/match?name=Dunkleosteus%20terrelli"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100833/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13549283/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=421176",
+            "https://api.gbif.org/v1/species/match?name=Dunkleosteus%20terrelli"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10100833/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC13549283/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=421176",
+            "https://api.gbif.org/v1/species/match?name=Dunkleosteus%20terrelli"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "otodus-megalodon",
+      "name": "巨齿鲨",
+      "scientificName": "Otodus megalodon",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://palaeo-electronica.org/content/2025/5450-biology-of-otodus-megalodon",
+            "https://www.nhm.ac.uk/discover/is-megalodon-still-alive.html",
+            "https://doi.org/10.7717/peerj.6088",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603",
+            "https://api.gbif.org/v1/species/match?name=Otodus%20megalodon"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://palaeo-electronica.org/content/2025/5450-biology-of-otodus-megalodon",
+            "https://www.nhm.ac.uk/discover/is-megalodon-still-alive.html",
+            "https://doi.org/10.7717/peerj.6088",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603",
+            "https://api.gbif.org/v1/species/match?name=Otodus%20megalodon"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://palaeo-electronica.org/content/2025/5450-biology-of-otodus-megalodon",
+            "https://www.nhm.ac.uk/discover/is-megalodon-still-alive.html",
+            "https://doi.org/10.7717/peerj.6088",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603",
+            "https://api.gbif.org/v1/species/match?name=Otodus%20megalodon"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://palaeo-electronica.org/content/2025/5450-biology-of-otodus-megalodon",
+            "https://www.nhm.ac.uk/discover/is-megalodon-still-alive.html",
+            "https://doi.org/10.7717/peerj.6088",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603",
+            "https://api.gbif.org/v1/species/match?name=Otodus%20megalodon"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://palaeo-electronica.org/content/2025/5450-biology-of-otodus-megalodon",
+            "https://www.nhm.ac.uk/discover/is-megalodon-still-alive.html",
+            "https://doi.org/10.7717/peerj.6088",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603",
+            "https://api.gbif.org/v1/species/match?name=Otodus%20megalodon"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "xiphactinus-audax",
+      "name": "凶猛剑射鱼",
+      "scientificName": "Xiphactinus audax",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://scholars.fhsu.edu/sternberg_photos/52/",
+            "https://store.beg.utexas.edu/files/BL/BEG-BL3201D.pdf",
+            "https://ocean.si.edu/through-time/xiphactinus",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=142482",
+            "https://api.gbif.org/v1/species/match?name=Xiphactinus%20audax"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://scholars.fhsu.edu/sternberg_photos/52/",
+            "https://store.beg.utexas.edu/files/BL/BEG-BL3201D.pdf",
+            "https://ocean.si.edu/through-time/xiphactinus",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=142482",
+            "https://api.gbif.org/v1/species/match?name=Xiphactinus%20audax"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://scholars.fhsu.edu/sternberg_photos/52/",
+            "https://store.beg.utexas.edu/files/BL/BEG-BL3201D.pdf",
+            "https://ocean.si.edu/through-time/xiphactinus",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=142482",
+            "https://api.gbif.org/v1/species/match?name=Xiphactinus%20audax"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://scholars.fhsu.edu/sternberg_photos/52/",
+            "https://store.beg.utexas.edu/files/BL/BEG-BL3201D.pdf",
+            "https://ocean.si.edu/through-time/xiphactinus",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=142482",
+            "https://api.gbif.org/v1/species/match?name=Xiphactinus%20audax"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://scholars.fhsu.edu/sternberg_photos/52/",
+            "https://store.beg.utexas.edu/files/BL/BEG-BL3201D.pdf",
+            "https://ocean.si.edu/through-time/xiphactinus",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=142482",
+            "https://api.gbif.org/v1/species/match?name=Xiphactinus%20audax"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "bothriolepis-canadensis",
+      "name": "加拿大沟鳞鱼",
+      "scientificName": "Bothriolepis canadensis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://journals.lib.unb.ca/index.php/GC/article/download/geocanj.2013.40.008/24239?inline=1",
+            "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?id=93118&methode=consulter&type=bien",
+            "https://portal.idigbio.org/portal/records/fc174ffd-3408-4e34-b870-c32b9d4f93ce",
+            "https://palaeo-electronica.org/content/pdfs/417.pdf",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030608/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=226310",
+            "https://api.gbif.org/v1/species/match?name=Bothriolepis%20canadensis"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://journals.lib.unb.ca/index.php/GC/article/download/geocanj.2013.40.008/24239?inline=1",
+            "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?id=93118&methode=consulter&type=bien",
+            "https://portal.idigbio.org/portal/records/fc174ffd-3408-4e34-b870-c32b9d4f93ce",
+            "https://palaeo-electronica.org/content/pdfs/417.pdf",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030608/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=226310",
+            "https://api.gbif.org/v1/species/match?name=Bothriolepis%20canadensis"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://journals.lib.unb.ca/index.php/GC/article/download/geocanj.2013.40.008/24239?inline=1",
+            "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?id=93118&methode=consulter&type=bien",
+            "https://portal.idigbio.org/portal/records/fc174ffd-3408-4e34-b870-c32b9d4f93ce",
+            "https://palaeo-electronica.org/content/pdfs/417.pdf",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030608/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=226310",
+            "https://api.gbif.org/v1/species/match?name=Bothriolepis%20canadensis"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://journals.lib.unb.ca/index.php/GC/article/download/geocanj.2013.40.008/24239?inline=1",
+            "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?id=93118&methode=consulter&type=bien",
+            "https://portal.idigbio.org/portal/records/fc174ffd-3408-4e34-b870-c32b9d4f93ce",
+            "https://palaeo-electronica.org/content/pdfs/417.pdf",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030608/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=226310",
+            "https://api.gbif.org/v1/species/match?name=Bothriolepis%20canadensis"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://journals.lib.unb.ca/index.php/GC/article/download/geocanj.2013.40.008/24239?inline=1",
+            "https://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?id=93118&methode=consulter&type=bien",
+            "https://portal.idigbio.org/portal/records/fc174ffd-3408-4e34-b870-c32b9d4f93ce",
+            "https://palaeo-electronica.org/content/pdfs/417.pdf",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6030608/",
+            "https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=226310",
+            "https://api.gbif.org/v1/species/match?name=Bothriolepis%20canadensis"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "tiktaalik-roseae",
+      "name": "麦氏提塔利克鱼",
+      "scientificName": "Tiktaalik roseae",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://biologicalsciences.uchicago.edu/news/how-change-hips-led-evolution-walking",
+            "https://doi.org/10.1038/nature04637",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3903263/",
+            "https://officeofthesecretary.fas.harvard.edu/sites/g/files/omnuum2291/files/2024-11/Jenkins_Memorial_Minute.pdf"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://biologicalsciences.uchicago.edu/news/how-change-hips-led-evolution-walking",
+            "https://doi.org/10.1038/nature04637",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3903263/",
+            "https://officeofthesecretary.fas.harvard.edu/sites/g/files/omnuum2291/files/2024-11/Jenkins_Memorial_Minute.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://biologicalsciences.uchicago.edu/news/how-change-hips-led-evolution-walking",
+            "https://doi.org/10.1038/nature04637",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3903263/",
+            "https://officeofthesecretary.fas.harvard.edu/sites/g/files/omnuum2291/files/2024-11/Jenkins_Memorial_Minute.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://biologicalsciences.uchicago.edu/news/how-change-hips-led-evolution-walking",
+            "https://doi.org/10.1038/nature04637",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3903263/",
+            "https://officeofthesecretary.fas.harvard.edu/sites/g/files/omnuum2291/files/2024-11/Jenkins_Memorial_Minute.pdf"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://biologicalsciences.uchicago.edu/news/how-change-hips-led-evolution-walking",
+            "https://doi.org/10.1038/nature04637",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC3903263/",
+            "https://officeofthesecretary.fas.harvard.edu/sites/g/files/omnuum2291/files/2024-11/Jenkins_Memorial_Minute.pdf"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "anomalocaris-canadensis",
+      "name": "加拿大奇虾",
+      "scientificName": "Anomalocaris canadensis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320336/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320336/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320336/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320336/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320336/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "opabinia-regalis",
+      "name": "欧巴宾虫",
+      "scientificName": "Opabinia regalis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "hallucigenia-sparsa",
+      "name": "稀有怪诞虫",
+      "scientificName": "Hallucigenia sparsa",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/hallucigenia-sparsa/",
+            "https://doi.org/10.1038/nature14573"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/hallucigenia-sparsa/",
+            "https://doi.org/10.1038/nature14573"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/hallucigenia-sparsa/",
+            "https://doi.org/10.1038/nature14573"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/hallucigenia-sparsa/",
+            "https://doi.org/10.1038/nature14573"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/hallucigenia-sparsa/",
+            "https://doi.org/10.1038/nature14573"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "marrella-splendens",
+      "name": "华美马尔拉虫",
+      "scientificName": "Marrella splendens",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/",
+            "https://portal.idigbio.org/portal/records/ffff3288-6b95-489e-bb7c-8586d5c69438"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/",
+            "https://portal.idigbio.org/portal/records/ffff3288-6b95-489e-bb7c-8586d5c69438"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/",
+            "https://portal.idigbio.org/portal/records/ffff3288-6b95-489e-bb7c-8586d5c69438"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/",
+            "https://portal.idigbio.org/portal/records/ffff3288-6b95-489e-bb7c-8586d5c69438"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/",
+            "https://portal.idigbio.org/portal/records/ffff3288-6b95-489e-bb7c-8586d5c69438"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "olenoides-serratus",
+      "name": "锯齿拟油栉虫",
+      "scientificName": "Olenoides serratus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sidneyia-inexpectans",
+      "name": "意外西德尼虫",
+      "scientificName": "Sidneyia inexpectans",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/sidneyia-inexpectans/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/sidneyia-inexpectans/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/sidneyia-inexpectans/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/sidneyia-inexpectans/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://burgess-shale.rom.on.ca/fossils/sidneyia-inexpectans/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "eurypterus-remipes",
+      "name": "桨足广翅鲎",
+      "scientificName": "Eurypterus remipes",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+            "https://www.digitalatlasofancientlife.org/vc/arthropoda/chelicerata/eurypterida/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+            "https://www.digitalatlasofancientlife.org/vc/arthropoda/chelicerata/eurypterida/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+            "https://www.digitalatlasofancientlife.org/vc/arthropoda/chelicerata/eurypterida/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+            "https://www.digitalatlasofancientlife.org/vc/arthropoda/chelicerata/eurypterida/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://nysm.nysed.gov/exhibitions/windows/eurypterid",
+            "https://www.digitalatlasofancientlife.org/vc/arthropoda/chelicerata/eurypterida/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "jaekelopterus-rhenaniae",
+      "name": "莱茵耶克尔鲎",
+      "scientificName": "Jaekelopterus rhenaniae",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC2412931/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9745958/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC2412931/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9745958/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC2412931/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9745958/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC2412931/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9745958/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC2412931/",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9745958/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "eldredgeops-rana",
+      "name": "蛙形埃氏三叶虫",
+      "scientificName": "Eldredgeops rana",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://qrius.si.edu/browse/object/10022093",
+            "https://devonianatlas.org/species/eldredgeops-rana/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://qrius.si.edu/browse/object/10022093",
+            "https://devonianatlas.org/species/eldredgeops-rana/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://qrius.si.edu/browse/object/10022093",
+            "https://devonianatlas.org/species/eldredgeops-rana/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://qrius.si.edu/browse/object/10022093",
+            "https://devonianatlas.org/species/eldredgeops-rana/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://qrius.si.edu/browse/object/10022093",
+            "https://devonianatlas.org/species/eldredgeops-rana/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "isotelus-maximus",
+      "name": "巨型等称虫",
+      "scientificName": "Isotelus maximus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AIP%3A100945",
+            "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/geologic-survey/educational-resources/isotelus-fossil",
+            "https://www.ordovicianatlas.org/atlas/arthropoda/trilobita/asaphida/asaphidae/isotelus/isotelus-maximus/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AIP%3A100945",
+            "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/geologic-survey/educational-resources/isotelus-fossil",
+            "https://www.ordovicianatlas.org/atlas/arthropoda/trilobita/asaphida/asaphidae/isotelus/isotelus-maximus/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AIP%3A100945",
+            "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/geologic-survey/educational-resources/isotelus-fossil",
+            "https://www.ordovicianatlas.org/atlas/arthropoda/trilobita/asaphida/asaphidae/isotelus/isotelus-maximus/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AIP%3A100945",
+            "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/geologic-survey/educational-resources/isotelus-fossil",
+            "https://www.ordovicianatlas.org/atlas/arthropoda/trilobita/asaphida/asaphidae/isotelus/isotelus-maximus/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://mczbase.mcz.harvard.edu/guid/MCZ%3AIP%3A100945",
+            "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/geologic-survey/educational-resources/isotelus-fossil",
+            "https://www.ordovicianatlas.org/atlas/arthropoda/trilobita/asaphida/asaphidae/isotelus/isotelus-maximus/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dactylioceras-commune",
+      "name": "普通指菊石",
+      "scientificName": "Dactylioceras commune",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dactylioceras/commune",
+            "https://oumrp.nsms.ox.ac.uk/cgi-bin/jurassic.cgi?detail_oid=J.31758"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dactylioceras/commune",
+            "https://oumrp.nsms.ox.ac.uk/cgi-bin/jurassic.cgi?detail_oid=J.31758"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dactylioceras/commune",
+            "https://oumrp.nsms.ox.ac.uk/cgi-bin/jurassic.cgi?detail_oid=J.31758"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dactylioceras/commune",
+            "https://oumrp.nsms.ox.ac.uk/cgi-bin/jurassic.cgi?detail_oid=J.31758"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dactylioceras/commune",
+            "https://oumrp.nsms.ox.ac.uk/cgi-bin/jurassic.cgi?detail_oid=J.31758"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "parapuzosia-seppenradensis",
+      "name": "大王菊石",
+      "scientificName": "Parapuzosia seppenradensis",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8580234/"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8580234/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8580234/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8580234/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8580234/"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "meganeura-monyi",
+      "name": "布氏巨脉蜻蜓",
+      "scientificName": "Meganeura monyi",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dictyoneura/monyi",
+            "https://isyeb.mnhn.fr/fr/actualites/les-libellules-geantes-du-paleozoique-sont-elles-encore-parmi-nous-4450"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dictyoneura/monyi",
+            "https://isyeb.mnhn.fr/fr/actualites/les-libellules-geantes-du-paleozoique-sont-elles-encore-parmi-nous-4450"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dictyoneura/monyi",
+            "https://isyeb.mnhn.fr/fr/actualites/les-libellules-geantes-du-paleozoique-sont-elles-encore-parmi-nous-4450"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dictyoneura/monyi",
+            "https://isyeb.mnhn.fr/fr/actualites/les-libellules-geantes-du-paleozoique-sont-elles-encore-parmi-nous-4450"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://science.mnhn.fr/taxon/species/dictyoneura/monyi",
+            "https://isyeb.mnhn.fr/fr/actualites/les-libellules-geantes-du-paleozoique-sont-elles-encore-parmi-nous-4450"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "glyptodon-reticulatus",
+      "name": "网纹雕齿兽",
+      "scientificName": "Glyptodon reticulatus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://cecoal.conicet.gov.ar/una-misma-especie-para-los-gliptodontes-sudamericanos/",
+            "https://doi.org/10.1080/02724634.2018.1525390"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://cecoal.conicet.gov.ar/una-misma-especie-para-los-gliptodontes-sudamericanos/",
+            "https://doi.org/10.1080/02724634.2018.1525390"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://cecoal.conicet.gov.ar/una-misma-especie-para-los-gliptodontes-sudamericanos/",
+            "https://doi.org/10.1080/02724634.2018.1525390"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://cecoal.conicet.gov.ar/una-misma-especie-para-los-gliptodontes-sudamericanos/",
+            "https://doi.org/10.1080/02724634.2018.1525390"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://cecoal.conicet.gov.ar/una-misma-especie-para-los-gliptodontes-sudamericanos/",
+            "https://doi.org/10.1080/02724634.2018.1525390"
           ]
         }
       }

@@ -1,0 +1,550 @@
+{
+  "reviewedAt": "2026-10-22",
+  "records": [
+    {
+      "scientificName": "Tiktaalik roseae",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Elpistostegidae",
+          "zhName": "希望螈科"
+        },
+        "genus": {
+          "scientificName": "Tiktaalik",
+          "zhName": "提塔利克鱼属"
+        }
+      },
+      "references": [
+        [
+          "芝加哥大学 · 2024 年躯干与骨盆研究",
+          "https://biologicalsciences.uchicago.edu/news/how-change-hips-led-evolution-walking"
+        ],
+        [
+          "Shubin 等2006 · 胸鳍与四足动物肢的起源",
+          "https://doi.org/10.1038/nature04637"
+        ],
+        [
+          "Shubin 等2014 · 腰带与腹鳍",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3903263/"
+        ],
+        [
+          "哈佛大学 · Jenkins 纪念文与命名记录",
+          "https://officeofthesecretary.fas.harvard.edu/sites/g/files/omnuum2291/files/2024-11/Jenkins_Memorial_Minute.pdf"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Anomalocaris canadensis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "order": {
+          "scientificName": "Radiodonta",
+          "zhName": "放射齿目"
+        },
+        "family": {
+          "scientificName": "Anomalocarididae",
+          "zhName": "奇虾科"
+        },
+        "genus": {
+          "scientificName": "Anomalocaris",
+          "zhName": "奇虾属"
+        }
+      },
+      "references": [
+        [
+          "ROM · 伯吉斯页岩物种与馆藏",
+          "https://burgess-shale.rom.on.ca/fossils/anomalocaris-canadensis/"
+        ],
+        [
+          "Bicknell 等2023 · 前附肢适合软猎物与快速捕食",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320336/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Opabinia regalis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "family": {
+          "scientificName": "Opabiniidae",
+          "zhName": "欧巴宾虫科"
+        },
+        "genus": {
+          "scientificName": "Opabinia",
+          "zhName": "欧巴宾虫属"
+        }
+      },
+      "references": [
+        [
+          "ROM · 伯吉斯页岩物种与馆藏",
+          "https://burgess-shale.rom.on.ca/fossils/opabinia-regalis/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Hallucigenia sparsa",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Onychophora",
+          "zhName": "有爪动物门"
+        },
+        "family": {
+          "scientificName": "Hallucigeniidae",
+          "zhName": "怪诞虫科"
+        },
+        "genus": {
+          "scientificName": "Hallucigenia",
+          "zhName": "怪诞虫属"
+        }
+      },
+      "references": [
+        [
+          "ROM · 伯吉斯页岩物种与馆藏",
+          "https://burgess-shale.rom.on.ca/fossils/hallucigenia-sparsa/"
+        ],
+        [
+          "Smith 与 Caron 2015 · 头部与口咽结构",
+          "https://doi.org/10.1038/nature14573"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Marrella splendens",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Marrellomorpha",
+          "zhName": "马尔拉虫纲"
+        },
+        "order": {
+          "scientificName": "Marrellida",
+          "zhName": "马尔拉虫目"
+        },
+        "family": {
+          "scientificName": "Marrellidae",
+          "zhName": "马尔拉虫科"
+        },
+        "genus": {
+          "scientificName": "Marrella",
+          "zhName": "马尔拉虫属"
+        }
+      },
+      "references": [
+        [
+          "ROM · 伯吉斯页岩物种与馆藏",
+          "https://burgess-shale.rom.on.ca/fossils/marrella-splendens/"
+        ],
+        [
+          "史密森馆藏 USNM PAL227777 · 原始分类与平台自动解释对照",
+          "https://portal.idigbio.org/portal/records/ffff3288-6b95-489e-bb7c-8586d5c69438"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Olenoides serratus",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Trilobita",
+          "zhName": "三叶虫纲"
+        },
+        "order": {
+          "scientificName": "Corynexochida",
+          "zhName": "褶颊虫目"
+        },
+        "family": {
+          "scientificName": "Dorypygidae",
+          "zhName": "叉尾虫科"
+        },
+        "genus": {
+          "scientificName": "Olenoides",
+          "zhName": "拟油栉虫属"
+        }
+      },
+      "references": [
+        [
+          "ROM · 伯吉斯页岩物种与馆藏",
+          "https://burgess-shale.rom.on.ca/fossils/olenoides-serratus/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Sidneyia inexpectans",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "family": {
+          "scientificName": "Sidneyiidae",
+          "zhName": "西德尼虫科"
+        },
+        "genus": {
+          "scientificName": "Sidneyia",
+          "zhName": "西德尼虫属"
+        }
+      },
+      "references": [
+        [
+          "ROM · 伯吉斯页岩物种与馆藏",
+          "https://burgess-shale.rom.on.ca/fossils/sidneyia-inexpectans/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Eurypterus remipes",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Merostomata",
+          "zhName": "肢口纲"
+        },
+        "order": {
+          "scientificName": "Eurypterida",
+          "zhName": "广翅鲎目"
+        },
+        "family": {
+          "scientificName": "Eurypteridae",
+          "zhName": "广翅鲎科"
+        },
+        "genus": {
+          "scientificName": "Eurypterus",
+          "zhName": "广翅鲎属"
+        }
+      },
+      "references": [
+        [
+          "纽约州博物馆 · 广翅鲎与州化石",
+          "https://nysm.nysed.gov/exhibitions/windows/eurypterid"
+        ],
+        [
+          "古生物研究所 · 广翅鲎标本与模型",
+          "https://www.digitalatlasofancientlife.org/vc/arthropoda/chelicerata/eurypterida/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Jaekelopterus rhenaniae",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Merostomata",
+          "zhName": "肢口纲"
+        },
+        "order": {
+          "scientificName": "Eurypterida",
+          "zhName": "广翅鲎目"
+        },
+        "family": {
+          "scientificName": "Pterygotidae",
+          "zhName": "翼肢鲎科"
+        },
+        "genus": {
+          "scientificName": "Jaekelopterus",
+          "zhName": "耶克尔鲎属"
+        }
+      },
+      "references": [
+        [
+          "Braddy 等2008 · 巨大螯肢与体长估算",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2412931/"
+        ],
+        [
+          "2022 · 广翅鲎螯肢的力学与捕食专化",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9745958/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Eldredgeops rana",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Trilobita",
+          "zhName": "三叶虫纲"
+        },
+        "order": {
+          "scientificName": "Phacopida",
+          "zhName": "镜眼虫目"
+        },
+        "family": {
+          "scientificName": "Phacopidae",
+          "zhName": "镜眼虫科"
+        },
+        "genus": {
+          "scientificName": "Eldredgeops",
+          "zhName": "埃氏三叶虫属"
+        }
+      },
+      "references": [
+        [
+          "史密森 Q?rius · Eldredgeops rana 标本",
+          "https://qrius.si.edu/browse/object/10022093"
+        ],
+        [
+          "古生物研究所 · 蛙形埃氏三叶虫与修订文献",
+          "https://devonianatlas.org/species/eldredgeops-rana/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Isotelus maximus",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Trilobita",
+          "zhName": "三叶虫纲"
+        },
+        "order": {
+          "scientificName": "Asaphida",
+          "zhName": "栉虫目"
+        },
+        "family": {
+          "scientificName": "Asaphidae",
+          "zhName": "栉虫科"
+        },
+        "genus": {
+          "scientificName": "Isotelus",
+          "zhName": "等称虫属"
+        }
+      },
+      "references": [
+        [
+          "哈佛 MCZ · Isotelus maximus 馆藏",
+          "https://mczbase.mcz.harvard.edu/guid/MCZ%3AIP%3A100945"
+        ],
+        [
+          "俄亥俄自然资源部门 · 等称虫州化石资料",
+          "https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/geologic-survey/educational-resources/isotelus-fossil"
+        ],
+        [
+          "奥陶纪生命图册 · 本种颊刺、地层与标本",
+          "https://www.ordovicianatlas.org/atlas/arthropoda/trilobita/asaphida/asaphidae/isotelus/isotelus-maximus/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Dactylioceras commune",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Mollusca",
+          "zhName": "软体动物门"
+        },
+        "class": {
+          "scientificName": "Cephalopoda",
+          "zhName": "头足纲"
+        },
+        "order": {
+          "scientificName": "Ammonitida",
+          "zhName": "菊石目"
+        },
+        "family": {
+          "scientificName": "Dactylioceratidae",
+          "zhName": "指菊石科"
+        },
+        "genus": {
+          "scientificName": "Dactylioceras",
+          "zhName": "指菊石属"
+        }
+      },
+      "references": [
+        [
+          "法国国家自然历史博物馆 · 学名与 R01419 标本",
+          "https://science.mnhn.fr/taxon/species/dactylioceras/commune"
+        ],
+        [
+          "牛津自然历史博物馆 · 惠特比 J.31758 标本",
+          "https://oumrp.nsms.ox.ac.uk/cgi-bin/jurassic.cgi?detail_oid=J.31758"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Parapuzosia seppenradensis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Mollusca",
+          "zhName": "软体动物门"
+        },
+        "class": {
+          "scientificName": "Cephalopoda",
+          "zhName": "头足纲"
+        },
+        "order": {
+          "scientificName": "Ammonitida",
+          "zhName": "菊石目"
+        },
+        "family": {
+          "scientificName": "Desmoceratidae",
+          "zhName": "清菊石科"
+        },
+        "genus": {
+          "scientificName": "Parapuzosia",
+          "zhName": "大王菊石属"
+        }
+      },
+      "references": [
+        [
+          "Ifrim 等2021 · 生长、演变与地理分布",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8580234/"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Meganeura monyi",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "zhName": "昆虫纲"
+        },
+        "order": {
+          "scientificName": "Meganisoptera",
+          "zhName": "巨翅目"
+        },
+        "family": {
+          "scientificName": "Meganeuridae",
+          "zhName": "巨脉科"
+        },
+        "genus": {
+          "scientificName": "Meganeura",
+          "zhName": "巨脉属"
+        }
+      },
+      "references": [
+        [
+          "法国国家自然历史博物馆 · 原名与馆藏",
+          "https://science.mnhn.fr/taxon/species/dictyoneura/monyi"
+        ],
+        [
+          "MNHN 研究者 · 古生代巨型蜻蜓与三维复原",
+          "https://isyeb.mnhn.fr/fr/actualites/les-libellules-geantes-du-paleozoique-sont-elles-encore-parmi-nous-4450"
+        ]
+      ]
+    },
+    {
+      "scientificName": "Glyptodon reticulatus",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "class": {
+          "scientificName": "Mammalia",
+          "zhName": "哺乳纲"
+        },
+        "order": {
+          "scientificName": "Cingulata",
+          "zhName": "有甲目"
+        },
+        "family": {
+          "scientificName": "Glyptodontidae",
+          "zhName": "雕齿兽科"
+        },
+        "genus": {
+          "scientificName": "Glyptodon",
+          "zhName": "雕齿兽属"
+        }
+      },
+      "references": [
+        [
+          "CONICET 原研究团队 · 南美雕齿兽种级修订",
+          "https://cecoal.conicet.gov.ar/una-misma-especie-para-los-gliptodontes-sudamericanos/"
+        ],
+        [
+          "Cuadrelli 等 · 更新世晚期雕齿兽亚科综合修订",
+          "https://doi.org/10.1080/02724634.2018.1525390"
+        ]
+      ]
+    }
+  ]
+}

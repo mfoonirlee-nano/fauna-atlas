@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-22 更新：本轮 100 个已灭绝动物选题，已完成 75 个，待制作 25 个。本次新增里奥格兰德恐鳄、帝王肌鳄、真猛犸象、披毛犀、致命刃齿虎、重型恐狼、美洲乳齿象、大地懒、双门齿兽和袋狮，动物目录现有 775 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)、[第九批五种记录](research/todo-extinct-ninth-five-2026-10-21.md)、[第十批五种记录](research/todo-extinct-tenth-five-2026-10-22.md)、[第十一批五种记录](research/todo-extinct-eleventh-five-2026-10-22.md)、[第十二批五种记录](research/todo-extinct-twelfth-five-2026-10-22.md)、[第十三批五种记录](research/todo-extinct-thirteenth-five-2026-10-22.md)及[本次十种记录](research/todo-extinct-next-ten-2026-10-22.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-22 更新：本轮 100 个已灭绝动物选题，已完成 100 个，待制作 0 个。本次补齐提塔利克鱼、13 种古无脊椎动物及网纹雕齿兽，动物目录现有 800 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)、[第九批五种记录](research/todo-extinct-ninth-five-2026-10-21.md)、[第十批五种记录](research/todo-extinct-tenth-five-2026-10-22.md)、[第十一批五种记录](research/todo-extinct-eleventh-five-2026-10-22.md)、[第十二批五种记录](research/todo-extinct-twelfth-five-2026-10-22.md)、[第十三批五种记录](research/todo-extinct-thirteenth-five-2026-10-22.md)、[接续十种记录](research/todo-extinct-next-ten-2026-10-22.md)、[第十四批十种记录](research/todo-extinct-fourteenth-ten-2026-10-22.md)及[收尾十五种记录](research/todo-extinct-final-2026-10-22.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -23,11 +23,11 @@
 | 近代及全新世灭绝动物 | 0 |
 | 非鸟恐龙 | 0 |
 | 其他古爬行动物 | 0 |
-| 古哺乳动物及近缘类群 | 2 |
-| 古鸟类 | 3 |
-| 古两栖类与鱼类 | 7 |
-| 古无脊椎动物 | 13 |
-| 合计 | 25 |
+| 古哺乳动物及近缘类群 | 0 |
+| 古鸟类 | 0 |
+| 古两栖类与鱼类 | 0 |
+| 古无脊椎动物 | 0 |
+| 合计 | 0 |
 
 ## 选题与资料
 
@@ -37,56 +37,13 @@
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
 
-### 古哺乳动物及近缘类群（2 种）
-
-| 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E074 | 雕齿兽（种级鉴别待核） | *Glyptodon clavipes* | 更新世（代表时期） | 模式材料鉴别待核，暂不制作；见[本次研究记录](research/todo-extinct-next-ten-2026-10-22.md) | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83804) |
-| [ ] | E077 | 异齿龙（具体种中文名待核） | *Dimetrodon grandis* | 早二叠世 | 背帆与牙齿；早期合弓类 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059) |
-
-### 古鸟类（3 种）
-
-| 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E078 | 始祖鸟 | *Archaeopteryx lithographica* | 晚侏罗世 | 羽毛、牙齿与长骨尾 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=55487) |
-| [ ] | E079 | 王氏黄昏鸟 | *Hesperornis regalis* | 晚白垩世 | 后肢、牙齿与潜水适应 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=96488) |
-| [ ] | E080 | 异齿鱼鸟 | *Ichthyornis dispar* | 晚白垩世 | 带牙的颌骨与飞行骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54877) |
-
-### 古两栖类与鱼类（7 种）
-
-| 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E081 | 盾甲魔鬼蛙 | *Beelzebufo ampinga* | 晚白垩世 | 头骨与体型估算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=118075) |
-| [ ] | E082 | 大角双螈 | *Diplocaulus magnicornis* | 二叠纪 | 回旋镖状头骨 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=81712) |
-| [ ] | E083 | 泰瑞尔邓氏鱼 | *Dunkleosteus terrelli* | 晚泥盆世 | 骨质颌板与体长重建 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=421176) |
-| [ ] | E084 | 巨齿鲨 | *Otodus megalodon* | 中新世—上新世 | 牙齿、椎骨与尺寸估算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603) |
-| [ ] | E085 | 凶猛剑射鱼 | *Xiphactinus audax* | 晚白垩世 | 大嘴与胃内容物化石 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=142482) |
-| [ ] | E086 | 沟鳞鱼 | *Bothriolepis canadensis* | 晚泥盆世 | 骨甲与胸鳍关节 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=226310) |
-| [ ] | E087 | 麦氏提塔利克鱼 | *Tiktaalik roseae* | 晚泥盆世 | 胸鳍内部骨骼与颈部 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=77136) |
-
-### 古无脊椎动物（13 种）
-
-| 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E088 | 加拿大奇虾 | *Anomalocaris canadensis* | 寒武纪 | 前附肢与放射状口器 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=490825) |
-| [ ] | E089 | 欧巴宾虫 | *Opabinia regalis* | 寒武纪 | 眼睛、长吻与侧叶 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=490826) |
-| [ ] | E090 | 怪诞虫 | *Hallucigenia sparsa* | 寒武纪 | 背刺、足与重建方向的修订 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=358348) |
-| [ ] | E091 | 马尔拉虫 | *Marrella splendens* | 寒武纪 | 头部突起与分节附肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=504460) |
-| [ ] | E092 | 拟油栉虫（中文名待核） | *Olenoides serratus* | 寒武纪 | 背甲分节与保存的附肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=461549) |
-| [ ] | E093 | 西德尼虫（中文名待核） | *Sidneyia inexpectans* | 寒武纪 | 附肢与取食证据 | [ROM](https://burgess-shale.rom.on.ca/fossils/sidneyia-inexpectans/) |
-| [ ] | E094 | 广翅鲎 | *Eurypterus remipes* | 志留纪 | 划水附肢与身体分节 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=109692) |
-| [ ] | E095 | 耶克尔鲎 | *Jaekelopterus rhenaniae* | 早泥盆世 | 螯肢化石与体长估算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=478238) |
-| [ ] | E096 | 蛙形三叶虫（中文名待核） | *Eldredgeops rana* | 泥盆纪 | 复眼与卷曲；旧属名 Phacops 的修订 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=190457) |
-| [ ] | E097 | 等称虫（中文名待核） | *Isotelus maximus* | 奥陶纪 | 宽大头尾甲与分节躯干 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=309481) |
-| [ ] | E098 | 指菊石（中文名待核） | *Dactylioceras commune* | 早侏罗世 | 螺壳肋纹与分隔结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=273671) |
-| [ ] | E099 | 大王菊石 | *Parapuzosia seppenradensis* | 晚白垩世 | 巨壳比例与生长纹 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=312646) |
-| [ ] | E100 | 布氏巨脉蜻蜓 | *Meganeura monyi* | 晚石炭世 | 翅脉与翅展；与蜻蜓比较 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=175806) |
+本轮已无待制作选题。E074 按种级修订改为网纹雕齿兽，替换依据见[收尾研究记录](research/todo-extinct-final-2026-10-22.md#e074-替换依据)。
 
 ---
 
-## 本轮完成归档：E001–E073、E075–E076
+## 本轮完成归档：E001–E100
 
-2026-10-22 已完成 75 份物种档案及 450 张 WebP 图片。逐批资料与验收见本文开头的研究记录链接。
+2026-10-22 已完成 100 份物种档案及 600 张 WebP 图片。逐批资料与验收见本文开头的研究记录链接。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -155,7 +112,6 @@
 | [x] | E063 | 霍氏沧龙 | *Mosasaurus hoffmannii* | 白垩纪 | 颌骨、牙齿与海生蜥蜴 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=170671) |
 | [x] | E064 | 普氏泰洛龙 | *Tylosaurus proriger* | 白垩纪 | 长吻与骨骼重建 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=70306) |
 | [x] | E065 | 长颈龙 | *Tanystropheus longobardicus* | 中三叠世 | 少数延长颈椎构成长颈 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=180927) |
-
 | [x] | E066 | 里奥格兰德恐鳄 | *Deinosuchus riograndensis* | 白垩纪 | 巨型鳄类牙齿与体型推算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=193970) |
 | [x] | E067 | 帝王肌鳄 | *Sarcosuchus imperator* | 早白垩世 | 长吻与头骨末端膨大 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=93885) |
 | [x] | E068 | 真猛犸象 | *Mammuthus primigenius* | 更新世至全新世；岛屿种群约距今四千年前消失 | 长毛、象牙与冰期环境 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46027) |
@@ -164,8 +120,33 @@
 | [x] | E071 | 重型恐狼 | *Aenocyon dirus* | 更新世（代表时期） | 牙齿与现生狼的异同；属名修订 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=44837) |
 | [x] | E072 | 美洲乳齿象 | *Mammut americanum* | 更新世（代表时期） | 臼齿与猛犸象的比较 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=46016) |
 | [x] | E073 | 大地懒 | *Megatherium americanum* | 更新世（代表时期） | 爪、后肢与身体支撑 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=83805) |
+| [x] | E074 | 网纹雕齿兽 | *Glyptodon reticulatus* | 更新世晚期（代表时期） | 骨甲与生长差异；原 G. clavipes 种级鉴别待核，按修订替换 | [研究依据与替换说明](research/todo-extinct-final-2026-10-22.md#e074-替换依据) |
 | [x] | E075 | 双门齿兽 | *Diprotodon optatum* | 更新世（代表时期） | 门齿与有袋类骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=248227) |
 | [x] | E076 | 袋狮 | *Thylacoleo carnifex* | 更新世（代表时期） | 切割状牙齿与攀爬结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=166623) |
+| [x] | E077 | 大异齿龙 | *Dimetrodon grandis* | 早二叠世（代表时期） | 背帆与牙齿；早期合弓类 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=138059) |
+| [x] | E078 | 始祖鸟 | *Archaeopteryx lithographica* | 晚侏罗世（代表时期） | 羽毛、牙齿与长骨尾 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=55487) |
+| [x] | E079 | 王氏黄昏鸟 | *Hesperornis regalis* | 晚白垩世（代表时期） | 后肢、牙齿与潜水适应 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=96488) |
+| [x] | E080 | 异齿鱼鸟 | *Ichthyornis dispar* | 晚白垩世（代表时期） | 带牙的颌骨与飞行骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54877) |
+| [x] | E081 | 盾甲魔鬼蛙 | *Beelzebufo ampinga* | 晚白垩世（代表时期） | 头骨与体型估算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=118075) |
+| [x] | E082 | 大角双螈 | *Diplocaulus magnicornis* | 早二叠世（代表时期） | 回旋镖状头骨 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=81712) |
+| [x] | E083 | 泰瑞尔邓氏鱼 | *Dunkleosteus terrelli* | 晚泥盆世（代表时期） | 骨质颌板与体长重建 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=421176) |
+| [x] | E084 | 巨齿鲨 | *Otodus megalodon* | 中新世至上新世（代表时期） | 牙齿、椎骨与尺寸估算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603) |
+| [x] | E085 | 凶猛剑射鱼 | *Xiphactinus audax* | 晚白垩世（代表时期） | 大嘴与胃内容物化石 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=142482) |
+| [x] | E086 | 加拿大沟鳞鱼 | *Bothriolepis canadensis* | 晚泥盆世（代表时期） | 骨甲与胸鳍关节 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=226310) |
+| [x] | E087 | 麦氏提塔利克鱼 | *Tiktaalik roseae* | 晚泥盆世 | 胸鳍内部骨骼与颈部 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=77136) |
+| [x] | E088 | 加拿大奇虾 | *Anomalocaris canadensis* | 寒武纪 | 前附肢与放射状口器 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=490825) |
+| [x] | E089 | 欧巴宾虫 | *Opabinia regalis* | 寒武纪 | 眼睛、长吻与侧叶 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=490826) |
+| [x] | E090 | 怪诞虫 | *Hallucigenia sparsa* | 寒武纪 | 背刺、足与重建方向的修订 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=358348) |
+| [x] | E091 | 马尔拉虫 | *Marrella splendens* | 寒武纪 | 头部突起与分节附肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=504460) |
+| [x] | E092 | 拟油栉虫（中文名待核） | *Olenoides serratus* | 寒武纪 | 背甲分节与保存的附肢 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=461549) |
+| [x] | E093 | 西德尼虫（中文名待核） | *Sidneyia inexpectans* | 寒武纪 | 附肢与取食证据 | [ROM](https://burgess-shale.rom.on.ca/fossils/sidneyia-inexpectans/) |
+| [x] | E094 | 广翅鲎 | *Eurypterus remipes* | 志留纪 | 划水附肢与身体分节 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=109692) |
+| [x] | E095 | 耶克尔鲎 | *Jaekelopterus rhenaniae* | 早泥盆世 | 螯肢化石与体长估算 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=478238) |
+| [x] | E096 | 蛙形三叶虫（中文名待核） | *Eldredgeops rana* | 泥盆纪 | 复眼与卷曲；旧属名 Phacops 的修订 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=190457) |
+| [x] | E097 | 等称虫（中文名待核） | *Isotelus maximus* | 奥陶纪 | 宽大头尾甲与分节躯干 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=309481) |
+| [x] | E098 | 指菊石（中文名待核） | *Dactylioceras commune* | 早侏罗世 | 螺壳肋纹与分隔结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=273671) |
+| [x] | E099 | 大王菊石 | *Parapuzosia seppenradensis* | 晚白垩世 | 巨壳比例与生长纹 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=312646) |
+| [x] | E100 | 布氏巨脉蜻蜓 | *Meganeura monyi* | 晚石炭世 | 翅脉与翅展；与蜻蜓比较 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=175806) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

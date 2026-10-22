@@ -1,0 +1,128 @@
+[
+  {
+    "scene": "01-cover",
+    "originalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "editReference": {
+      "sha256": "0b905b017f2cd07d2a44d6c8dbecb383c711e32156f00c6535a73417c84a33ae",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "compositionPrompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "original": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "fa8c1321b41e927ccf91ed34cc23627520db161f2683e09c45f77b34a3044f45"
+    },
+    "finalPrompt": "Edit ONLY composition of this corrected Bothriolepis canadensis life reconstruction. Keep the anatomy exactly, including smooth naked narrow tapering tail, no forked fan, and paired armored pectoral appendages. Canvas is 1672x941 landscape. The current animal spans roughly x444..1643. SHRINK the entire animal to 75% of its current size and TRANSLATE it to the right, so its new complete silhouette occupies x730..1630, y320..610. This is a body bounding rectangle target, not a cropped image. Keep every tail and pectoral tip inside the canvas. All of the left 43% width must be completely empty of animal, only the same quiet underwater background. Preserve all natural lighting and appearance. Do not add any text, frame or other animals.",
+    "reason": "依据软组织和三维复原研究，修正甲后部为裸露皮肤、狭长尾端，移除现代硬骨鱼式分叉尾鳍及多余腹鳍。"
+  },
+  {
+    "scene": "02-observation",
+    "originalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "editReference": {
+      "sha256": "b232807bfe2de35cb8b023ba7f726ec2ea39eafca1313e5bf6a5eb84e857f9b1",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "b232807bfe2de35cb8b023ba7f726ec2ea39eafca1313e5bf6a5eb84e857f9b1"
+    },
+    "finalPrompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "reason": "依据软组织和三维复原研究，修正甲后部为裸露皮肤、狭长尾端，移除现代硬骨鱼式分叉尾鳍及多余腹鳍。"
+  },
+  {
+    "scene": "03-observation",
+    "originalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "editReference": {
+      "sha256": "77fb364b7cd853f7d608a9e2822dbce61eafe434e96401855d3890c2c2797937",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "77fb364b7cd853f7d608a9e2822dbce61eafe434e96401855d3890c2c2797937"
+    },
+    "finalPrompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "reason": "依据软组织和三维复原研究，修正甲后部为裸露皮肤、狭长尾端，移除现代硬骨鱼式分叉尾鳍及多余腹鳍。"
+  },
+  {
+    "scene": "04-observation",
+    "originalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "editReference": {
+      "sha256": "1a969c681f9defeea5bd31f32dba0261690e69e979bc654eae84d2e0ef67e22a",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "1a969c681f9defeea5bd31f32dba0261690e69e979bc654eae84d2e0ef67e22a"
+    },
+    "finalPrompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "reason": "依据软组织和三维复原研究，修正甲后部为裸露皮肤、狭长尾端，移除现代硬骨鱼式分叉尾鳍及多余腹鳍。"
+  },
+  {
+    "scene": "05-observation",
+    "originalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "editReference": {
+      "sha256": "f906eb3c24a8bd41f3526e6f2cdb41bb9d307ac348d44ea4195e1a96abd1ee74",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "f906eb3c24a8bd41f3526e6f2cdb41bb9d307ac348d44ea4195e1a96abd1ee74"
+    },
+    "finalPrompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "reason": "依据软组织和三维复原研究，修正甲后部为裸露皮肤、狭长尾端，移除现代硬骨鱼式分叉尾鳍及多余腹鳍。"
+  },
+  {
+    "scene": "06-observation",
+    "originalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "editReference": {
+      "sha256": "9c1bf2dd6d8c51e0d63b098f3f8a27a39dec8831f6d166ff102ff51bd0649b78",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "compositionPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Bothriolepis canadensis only. Anatomy: small flattened bottom-dwelling antiarch armored fish, box-like head and trunk armor, eyes near top of head, paired long narrow jointed armored pectoral appendages projecting sideways and backward, unarmored slender tail, small dorsal fin. No legs, no walking pose, no shark teeth or long rostrum. Setting: Late Devonian Miguasha shallow estuarine bottom with silty substrate. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "original": {
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "9c1bf2dd6d8c51e0d63b098f3f8a27a39dec8831f6d166ff102ff51bd0649b78"
+    },
+    "finalPrompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "reason": "依据软组织和三维复原研究，修正甲后部为裸露皮肤、狭长尾端，移除现代硬骨鱼式分叉尾鳍及多余腹鳍。"
+  }
+]

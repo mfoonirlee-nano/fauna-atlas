@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "One wide 16:9 scientific paleoart image of Ichthyornis dispar for children's atlas, painterly realism, natural light. Anatomy small tern-like flying bird with small toothless beak tip and teeth farther back, short feathered tail. Standing with PARTLY OPEN wings so silhouette fits right half. Setting Late Cretaceous Western Interior Seaway coast. Single complete animal entirely in RIGHT HALF, bounds x=45%-95%, y=12%-88%. In particular nose/beak, sail/wing tips, tail tip and feet must all lie RIGHT of x45%, with 5% real background margin at the right. The whole left43% is quiet empty environment for text. Animal faces left but does not intrude left. Maximize animal within that half. All appendages complete, no foreground occlusion. Muted natural colors hypothetical. No text, labels, borders, collage, humans or modern species. A life reconstruction, not a fossil photograph.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Ichthyornis dispar only. Anatomy: small tern-like toothed flying bird, well-developed feathered wings, slender head, small toothless beak only at jaw tip, teeth farther back in jaws, short feathered tail. Muted gray plumage speculative; no pelican pouch or crest. Setting: Late Cretaceous Western Interior Seaway coast. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Ichthyornis dispar only. Anatomy: small tern-like toothed flying bird, well-developed feathered wings, slender head, small toothless beak only at jaw tip, teeth farther back in jaws, short feathered tail. Muted gray plumage speculative; no pelican pouch or crest. Setting: Late Cretaceous Western Interior Seaway coast. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Ichthyornis dispar only. Anatomy: small tern-like toothed flying bird, well-developed feathered wings, slender head, small toothless beak only at jaw tip, teeth farther back in jaws, short feathered tail. Muted gray plumage speculative; no pelican pouch or crest. Setting: Late Cretaceous Western Interior Seaway coast. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Ichthyornis dispar only. Anatomy: small tern-like toothed flying bird, well-developed feathered wings, slender head, small toothless beak only at jaw tip, teeth farther back in jaws, short feathered tail. Muted gray plumage speculative; no pelican pouch or crest. Setting: Late Cretaceous Western Interior Seaway coast. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Ichthyornis dispar only. Anatomy: small tern-like toothed flying bird, well-developed feathered wings, slender head, small toothless beak only at jaw tip, teeth farther back in jaws, short feathered tail. Muted gray plumage speculative; no pelican pouch or crest. Setting: Late Cretaceous Western Interior Seaway coast. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  }
+]

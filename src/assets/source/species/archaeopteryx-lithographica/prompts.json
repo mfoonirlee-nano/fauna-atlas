@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "One wide 16:9 scientific paleoart image of Archaeopteryx lithographica for children's atlas, painterly realism, natural light. Anatomy small feathered early bird, toothed jaws, clawed wing fingers, long bony tail with paired feathers along it, no modern fan tail. Wings PARTLY FOLDED to avoid overly wide silhouette. Setting Late Jurassic Solnhofen island shore. Single complete animal entirely in RIGHT HALF, bounds x=45%-95%, y=12%-88%. In particular nose/beak, sail/wing tips, tail tip and feet must all lie RIGHT of x45%, with 5% real background margin at the right. The whole left43% is quiet empty environment for text. Animal faces left but does not intrude left. Maximize animal within that half. All appendages complete, no foreground occlusion. Muted natural colors hypothetical. No text, labels, borders, collage, humans or modern species. A life reconstruction, not a fossil photograph.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Archaeopteryx lithographica only. Anatomy: small feathered early bird with feathered wings, separate small clawed fingers on wing, long bony tail with paired feathers along its length, small toothed jaws. Muted dark gray plumage speculative; no modern fan tail, no fleshy crest. Setting: Late Jurassic Solnhofen island shore, low cycads, limestone. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Archaeopteryx lithographica only. Anatomy: small feathered early bird with feathered wings, separate small clawed fingers on wing, long bony tail with paired feathers along its length, small toothed jaws. Muted dark gray plumage speculative; no modern fan tail, no fleshy crest. Setting: Late Jurassic Solnhofen island shore, low cycads, limestone. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Archaeopteryx lithographica only. Anatomy: small feathered early bird with feathered wings, separate small clawed fingers on wing, long bony tail with paired feathers along its length, small toothed jaws. Muted dark gray plumage speculative; no modern fan tail, no fleshy crest. Setting: Late Jurassic Solnhofen island shore, low cycads, limestone. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Archaeopteryx lithographica only. Anatomy: small feathered early bird with feathered wings, separate small clawed fingers on wing, long bony tail with paired feathers along its length, small toothed jaws. Muted dark gray plumage speculative; no modern fan tail, no fleshy crest. Setting: Late Jurassic Solnhofen island shore, low cycads, limestone. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Archaeopteryx lithographica only. Anatomy: small feathered early bird with feathered wings, separate small clawed fingers on wing, long bony tail with paired feathers along its length, small toothed jaws. Muted dark gray plumage speculative; no modern fan tail, no fleshy crest. Setting: Late Jurassic Solnhofen island shore, low cycads, limestone. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  }
+]

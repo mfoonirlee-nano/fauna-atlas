@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Edit ONLY composition of this corrected Bothriolepis canadensis life reconstruction. Keep the anatomy exactly, including smooth naked narrow tapering tail, no forked fan, and paired armored pectoral appendages. Canvas is 1672x941 landscape. The current animal spans roughly x444..1643. SHRINK the entire animal to 75% of its current size and TRANSLATE it to the right, so its new complete silhouette occupies x730..1630, y320..610. This is a body bounding rectangle target, not a cropped image. Keep every tail and pectoral tip inside the canvas. All of the left 43% width must be completely empty of animal, only the same quiet underwater background. Preserve all natural lighting and appearance. Do not add any text, frame or other animals.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "Edit this Bothriolepis canadensis scientific reconstruction, preserving its overall camera, environment, lighting and right-hand cover placement if present. Correct the entire post-thoracic soft body: smooth naked skin behind the box-like thoracic armor, NO regular fish scales on tail; make tail elongated, narrow, tapering, with a small narrow asymmetric fin fold following the terminal axis. REMOVE the obvious modern teleost forked caudal fan, V notch and separate big symmetric caudal lobes. Maintain one posterior rounded dorsal fin and the paired long narrow JOINTED ARMORED PECTORAL appendages from the thorax. Do NOT add pelvic/anal fins, legs, barbels or teeth. Head flattened with eyes close together near dorsal surface. All full-body scenes must keep the entire tail tip and both pectoral appendages clear of frame edges. Scientific educational paleoart, no labels or text. The soft tail outline remains a conservative reconstruction informed by published Bothriolepis canadensis studies, not a photograph.",
+    "tool": "built-in image_gen",
+    "useCase": "scientific-educational"
+  }
+]

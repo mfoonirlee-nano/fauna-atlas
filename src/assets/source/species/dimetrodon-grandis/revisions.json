@@ -1,0 +1,15 @@
+[
+  {
+    "scene": "01-cover",
+    "originalPrompt": "Create one wide landscape 16:9 scientific paleoart illustration for a children's natural-history atlas: Dimetrodon grandis, Early Permian Texas, anatomically informed conservative life reconstruction. Single robust low-slung early synapsid with large deep skull, four sprawling legs, long tapering tail, tall unbranched neural-spine sail with skin membrane, NO fur, no dorsal crossbars, no dinosaur posture. Natural muted brown skin with speculative colors. Full body side view facing left, all feet, snout, tail tip and full sail visible with background clearance. Animal fills right portion: complete silhouette entirely within x=43%-96%, y=12%-88%; horizontal center about 70%. Left 40% quiet open floodplain with distant seed ferns and soft background. Subject large and sharp, grounded natural lighting, painterly realism, no text, labels, border, collage or watermark. Not a fossil photo. Save generated image for repository asset integration.",
+    "original": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "7cbd8017a2419c715feb44674b3875d702c1c6d105c275825d7e00408439efc8"
+    },
+    "finalPrompt": "One wide 16:9 scientific paleoart image of Dimetrodon grandis for children's atlas, painterly realism, natural light. Anatomy low-slung early synapsid, deep head, four sprawling legs, long tapering tail, high unbranched neural spine sail with skin membrane, no fur, no crossbars. Setting Early Permian Texas riverbank. Single complete animal entirely in RIGHT HALF, bounds x=45%-95%, y=12%-88%. In particular nose/beak, sail/wing tips, tail tip and feet must all lie RIGHT of x45%, with 5% real background margin at the right. The whole left43% is quiet empty environment for text. Animal faces left but does not intrude left. Maximize animal within that half. All appendages complete, no foreground occlusion. Muted natural colors hypothetical. No text, labels, borders, collage, humans or modern species. A life reconstruction, not a fossil photograph.",
+    "reason": "初稿主体接近左侧文字区，重做封面构图；新增档案无旧运行封面。"
+  }
+]

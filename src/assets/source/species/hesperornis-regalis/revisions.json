@@ -1,0 +1,15 @@
+[
+  {
+    "scene": "01-cover",
+    "originalPrompt": "Scientific-educational paleoart for a children's natural-history atlas. One Hesperornis regalis only. Anatomy: flightless diving bird, elongate loon-like feathered body, long neck, slender jaws, tiny vestigial wings close to body, powerful far-back legs with lobed toes, short tail. No penguin flippers, no full flying wings. Setting: Late Cretaceous Western Interior Seaway coastal water. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+    "original": {
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "640dad11211a61f16b29ae5ff0b0fa1548e0de560ca83e1bfe145a2f917b24ab"
+    },
+    "finalPrompt": "One wide 16:9 scientific paleoart image of Hesperornis regalis for children's atlas, painterly realism, natural light. Anatomy flightless long-necked loon-like toothed diving bird with vestigial tiny wings and far-back powerful legs with lobed toes, no flying wings. Setting Late Cretaceous Western Interior Seaway, underwater. Single complete animal entirely in RIGHT HALF, bounds x=45%-95%, y=12%-88%. In particular nose/beak, sail/wing tips, tail tip and feet must all lie RIGHT of x45%, with 5% real background margin at the right. The whole left43% is quiet empty environment for text. Animal faces left but does not intrude left. Maximize animal within that half. All appendages complete, no foreground occlusion. Muted natural colors hypothetical. No text, labels, borders, collage, humans or modern species. A life reconstruction, not a fossil photograph.",
+    "reason": "初稿主体接近左侧文字区，重做封面构图；新增档案无旧运行封面。"
+  }
+]

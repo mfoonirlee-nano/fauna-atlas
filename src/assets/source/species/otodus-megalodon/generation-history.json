@@ -1,0 +1,102 @@
+[
+  {
+    "scene": "01-cover",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Otodus megalodon only. Anatomy: extinct megatooth lamniform shark with robust but elongated fusiform body, five gill slits each side, triangular dorsal fin, paired pectoral fins, heterocercal crescent caudal fin and broad snout. Conservative moderately elongated reconstruction informed by 2025 research, gray countershading speculative. Not an oversized stocky white shark; no fantastical fins. Setting: Miocene-Pliocene open marine water. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "6d04e830b0289f4454959a6740b6c1a3333181e8facd338595819694c488c80f",
+        "sourceDimensions": [
+          1672,
+          941
+        ]
+      },
+      {
+        "stage": "composition",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Otodus megalodon only. Anatomy: extinct megatooth lamniform shark with robust but elongated fusiform body, five gill slits each side, triangular dorsal fin, paired pectoral fins, heterocercal crescent caudal fin and broad snout. Conservative moderately elongated reconstruction informed by 2025 research, gray countershading speculative. Not an oversized stocky white shark; no fantastical fins. Setting: Miocene-Pliocene open marine water. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.\nHARD COVER LAYOUT: Fit the ENTIRE complete animal strictly within the RIGHT HALF x45%-94% of canvas width, and y14%-86%. Nose, pectoral appendages, fins, skull extensions, all limb/fin tips and tail tip must stay RIGHT of the x45% line, and LEFT of x94%. The whole left43% must contain only quiet water or plain ground and distant background, with no part of the animal. Large centered silhouette within that right half, readable full body, 6% right margin. Choose viewpoint to satisfy these boundaries.",
+        "sourceSha256": "51cdb4632fb6ead34ce9c4563624626fa585023e54e56ca2160d7e02a514e7f8",
+        "sourceDimensions": [
+          1672,
+          941
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "02-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Otodus megalodon only. Anatomy: extinct megatooth lamniform shark with robust but elongated fusiform body, five gill slits each side, triangular dorsal fin, paired pectoral fins, heterocercal crescent caudal fin and broad snout. Conservative moderately elongated reconstruction informed by 2025 research, gray countershading speculative. Not an oversized stocky white shark; no fantastical fins. Setting: Miocene-Pliocene open marine water. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "9a78d6eec430e2c881c567d2f8844a10fe39edbc1fd34a735c5054f2f4ed08c2",
+        "sourceDimensions": [
+          1774,
+          887
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "03-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Otodus megalodon only. Anatomy: extinct megatooth lamniform shark with robust but elongated fusiform body, five gill slits each side, triangular dorsal fin, paired pectoral fins, heterocercal crescent caudal fin and broad snout. Conservative moderately elongated reconstruction informed by 2025 research, gray countershading speculative. Not an oversized stocky white shark; no fantastical fins. Setting: Miocene-Pliocene open marine water. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "14f4824359a07057ff4a9afef9525152572cf58754072c674075ed76bd84ffbb",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "04-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Otodus megalodon only. Anatomy: extinct megatooth lamniform shark with robust but elongated fusiform body, five gill slits each side, triangular dorsal fin, paired pectoral fins, heterocercal crescent caudal fin and broad snout. Conservative moderately elongated reconstruction informed by 2025 research, gray countershading speculative. Not an oversized stocky white shark; no fantastical fins. Setting: Miocene-Pliocene open marine water. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "edefea6d3bc601961d231159f2c1b4985a2d19518ce276a4cb33e24538d7889d",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "05-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Otodus megalodon only. Anatomy: extinct megatooth lamniform shark with robust but elongated fusiform body, five gill slits each side, triangular dorsal fin, paired pectoral fins, heterocercal crescent caudal fin and broad snout. Conservative moderately elongated reconstruction informed by 2025 research, gray countershading speculative. Not an oversized stocky white shark; no fantastical fins. Setting: Miocene-Pliocene open marine water. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "3f15648dd011cc4b5c6d24a767716171da3c4749c60488eaefc604b162ddd2fa",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "06-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Otodus megalodon only. Anatomy: extinct megatooth lamniform shark with robust but elongated fusiform body, five gill slits each side, triangular dorsal fin, paired pectoral fins, heterocercal crescent caudal fin and broad snout. Conservative moderately elongated reconstruction informed by 2025 research, gray countershading speculative. Not an oversized stocky white shark; no fantastical fins. Setting: Miocene-Pliocene open marine water. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "a7435883226dc8d4b2a0014f3f2fe604c3e9357cacd0d3a3b65110180ee2a0a3",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  }
+]

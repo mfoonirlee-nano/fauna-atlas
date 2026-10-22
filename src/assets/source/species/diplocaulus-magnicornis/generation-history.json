@@ -1,0 +1,102 @@
+[
+  {
+    "scene": "01-cover",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Diplocaulus magnicornis only. Anatomy: aquatic early amphibian with broad flat boomerang-shaped head, two long bony posterolateral head extensions sweeping backward, small eyes atop head, four small limbs, elongated tapering laterally flattened tail. Smooth mottled brown skin speculative. No external gills, no head frill, no head-to-body webbing. Setting: Early Permian Texas freshwater stream bottom. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "dc24ccf0e463fd1024b05e0ada6733172977a9a1cf2b2b18f2c542d148e1c2ec",
+        "sourceDimensions": [
+          1672,
+          941
+        ]
+      },
+      {
+        "stage": "composition",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Diplocaulus magnicornis only. Anatomy: aquatic early amphibian with broad flat boomerang-shaped head, two long bony posterolateral head extensions sweeping backward, small eyes atop head, four small limbs, elongated tapering laterally flattened tail. Smooth mottled brown skin speculative. No external gills, no head frill, no head-to-body webbing. Setting: Early Permian Texas freshwater stream bottom. Composition: wide 16:9 landscape full-body cover, single complete animal in side or slight elevated side view facing left; silhouette ENTIRELY within x=43%-96%, y=12%-88%, center at 70% image width, left 40% quiet background. All outer features and tail or wing tips inside frame with visible background clearance. Maximize animal size in this area. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.\nHARD COVER LAYOUT: Fit the ENTIRE complete animal strictly within the RIGHT HALF x45%-94% of canvas width, and y14%-86%. Nose, pectoral appendages, fins, skull extensions, all limb/fin tips and tail tip must stay RIGHT of the x45% line, and LEFT of x94%. The whole left43% must contain only quiet water or plain ground and distant background, with no part of the animal. Large centered silhouette within that right half, readable full body, 6% right margin. Choose viewpoint to satisfy these boundaries.",
+        "sourceSha256": "3a47d8f1b8dd36547d39834fea571adbd3ecb86e6d83378b8680c3e987696c4d",
+        "sourceDimensions": [
+          1672,
+          941
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "02-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Diplocaulus magnicornis only. Anatomy: aquatic early amphibian with broad flat boomerang-shaped head, two long bony posterolateral head extensions sweeping backward, small eyes atop head, four small limbs, elongated tapering laterally flattened tail. Smooth mottled brown skin speculative. No external gills, no head frill, no head-to-body webbing. Setting: Early Permian Texas freshwater stream bottom. Composition: landscape side-view full-body natural history study, animal centered large with all outer features visible, quiet simple natural background. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "f3f1726ccd3990d184872d21db0a21c2fe56565ca5900b57608d70b3cd436092",
+        "sourceDimensions": [
+          1774,
+          887
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "03-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Diplocaulus magnicornis only. Anatomy: aquatic early amphibian with broad flat boomerang-shaped head, two long bony posterolateral head extensions sweeping backward, small eyes atop head, four small limbs, elongated tapering laterally flattened tail. Smooth mottled brown skin speculative. No external gills, no head frill, no head-to-body webbing. Setting: Early Permian Texas freshwater stream bottom. Composition: landscape close detail of head and anterior body in three-quarter view, show characteristic external shape clearly, closed or barely open mouth, no cutaway or invented internal anatomy. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "8c1a8f5fae4640a7a4cb81781c0a31f3d3305dfd482c2572d465cb16ff27dc7a",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "04-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Diplocaulus magnicornis only. Anatomy: aquatic early amphibian with broad flat boomerang-shaped head, two long bony posterolateral head extensions sweeping backward, small eyes atop head, four small limbs, elongated tapering laterally flattened tail. Smooth mottled brown skin speculative. No external gills, no head frill, no head-to-body webbing. Setting: Early Permian Texas freshwater stream bottom. Composition: landscape elevated three-quarter frontal full-body view showing bilateral structure, all tail, limbs and fins or wings inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "17f44ff9e1654f75274a4e1b94a66925747474af8dd2d430625fa2d65615dade",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "05-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Diplocaulus magnicornis only. Anatomy: aquatic early amphibian with broad flat boomerang-shaped head, two long bony posterolateral head extensions sweeping backward, small eyes atop head, four small limbs, elongated tapering laterally flattened tail. Smooth mottled brown skin speculative. No external gills, no head frill, no head-to-body webbing. Setting: Early Permian Texas freshwater stream bottom. Composition: landscape complete animal in a wider paleoenvironment, natural still or slow moving pose. One animal only, no other species, no predation or speculative nesting. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "39de1c23394ecd15fdc4446af921e43486433f202c8a1002e7db6f4180da29a0",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "06-observation",
+    "generations": [
+      {
+        "stage": "initial",
+        "tool": "built-in image_gen",
+        "prompt": "Scientific-educational paleoart for a children's natural-history atlas. One Diplocaulus magnicornis only. Anatomy: aquatic early amphibian with broad flat boomerang-shaped head, two long bony posterolateral head extensions sweeping backward, small eyes atop head, four small limbs, elongated tapering laterally flattened tail. Smooth mottled brown skin speculative. No external gills, no head frill, no head-to-body webbing. Setting: Early Permian Texas freshwater stream bottom. Composition: landscape rear three-quarter full-body view showing back and tail and limbs or fins, head turned enough for recognition, all tips inside frame. Painterly realism with natural light and clear anatomical outline. Life reconstruction illustration, colors, soft tissue and pose hypothetical; not an actual fossil or museum photograph. No text, labels, numbers, borders, collage, watermark, humans, modern plants or modern animals. Create a separate single image.",
+        "sourceSha256": "2297972def270372165aa049fcf5af3382e407cb96c53d2640cc676b78ee6036",
+        "sourceDimensions": [
+          1536,
+          1024
+        ]
+      }
+    ]
+  }
+]
