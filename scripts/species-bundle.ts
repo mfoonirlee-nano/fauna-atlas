@@ -146,7 +146,9 @@ export function speciesBundle(): Plugin {
         const phrases: string[] = [];
         if (!/[\u0400-\u07FF]/u.test(packedRows + packedTaxaText)) {
           const counts = new Map<string, number>();
-          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF]{2,}|[A-Za-z]{4,}/gu) ?? []) {
+          // Keep punctuation with Chinese clauses so repeated sentences share
+          // dictionary entries without changing their restored text.
+          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF，。；：、]{2,}|[A-Za-z]{4,}/gu) ?? []) {
             for (let size = 2; size <= Math.min(16, run.length); size++) {
               for (let start = 0; start + size <= run.length; start++) {
                 const phrase = run.slice(start, start + size);

@@ -1,0 +1,10 @@
+[
+  {
+    "scene": "01-cover",
+    "reason": "检查完整主体与尾端，调整源图构图。",
+    "previousPrompts": [
+      "Generate one wide landscape scientific paleoart cover image, no text, no watermark. Euoplocephalus tutus, Late Cretaceous Alberta: low broad quadrupedal ankylosaur with oval osteoderms, modest shoulder spikes, armored small head, long tail ending in rounded bony club NOT spikes. Muted olive brown speculative colors. One complete animal including every foot and entire tail, three quarter side view facing left, positioned entirely on right half, silhouette center at 70% image width, silhouette from x=43% to 96%, y=25% to 83%. Maximize animal within that box. Left 40% quiet softly misty floodplain woodland. Naturalistic museum quality digital scientific reconstruction, warm side light, no humans, other animals, flowers, grass lawns or Jurassic Park features. 16:9 landscape composition."
+    ],
+    "finalPrompt": "A single museum-quality scientific paleoart wide 16:9 cover image of Euoplocephalus tutus. low broad quadrupedal ankylosaur, small armored head, modest lateral shoulder spikes and oval back osteoderms, entire long tail ends in a rounded bony club without spikes. Late Cretaceous Alberta conifer woodland floodplain. COMPOSITION STRICT: entire animal from nose to very last tail tip is ONLY in the RIGHT HALF of the canvas. Animal faces LEFT and tail extends RIGHT, gently foreshortened three-quarter view. Draw animal within rectangle x=47% to 94% of canvas, y=18% to 85%. Animal body, all legs, head, full tail, all spines stay inside that rectangle. Left 45% is EMPTY calm distant misty scenery, no body parts there. This is a right-aligned hero asset. Large full body animal inside its own half panel, not distant. Muted earthy speculative colors, naturalistic detailed digital painting, no text no watermark no border no collage, no other animals."
+  }
+]

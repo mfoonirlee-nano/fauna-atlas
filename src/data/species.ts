@@ -771,6 +771,12 @@ import profile747 from './species/parasaurolophus-walkeri.js';
 import profile748 from './species/edmontosaurus-annectens.js';
 import profile749 from './species/ankylosaurus-magniventris.js';
 
+import profile750 from './species/euoplocephalus-tutus.js';
+import profile751 from './species/pachycephalosaurus-wyomingensis.js';
+import profile752 from './species/amargasaurus-cazaui.js';
+import profile753 from './species/therizinosaurus-cheloniformis.js';
+import profile754 from './species/psittacosaurus-mongoliensis.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1522,6 +1528,12 @@ export const species: readonly Species[] = [
   profile747,
   profile748,
   profile749,
+  profile750,
+  profile751,
+  profile752,
+  profile753,
+  profile754,
+
 
 ];
 

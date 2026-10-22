@@ -7096,5 +7096,70 @@
       },
       "sha256": "e614ff6c2c75cd7a78b1efe1c5c48bd2b2b89b142dcd5e91941050e4997d9be7"
     }
+  },
+  "euoplocephalus-tutus": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 670,
+        "top": 290,
+        "right": 1661,
+        "bottom": 732
+      },
+      "sha256": "eacc319502ed5770ea6a0b9d45e4254423f6d92898f29fb54be1fb895de45d4f"
+    }
+  },
+  "pachycephalosaurus-wyomingensis": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 655,
+        "top": 96,
+        "right": 1646,
+        "bottom": 810
+      },
+      "sha256": "fed647bd8b82acbf7838ff9f3cec76a716c37eac313eda3ada13e8b3b735f5a2"
+    }
+  },
+  "amargasaurus-cazaui": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 670,
+        "top": 140,
+        "right": 1658,
+        "bottom": 748
+      },
+      "sha256": "db9b9938484f2216b445372ddfde4c663e3e3f2bf7a24fabaf1c39e6378a01c8"
+    }
+  },
+  "therizinosaurus-cheloniformis": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 765,
+        "top": 15,
+        "right": 1635,
+        "bottom": 883
+      },
+      "sha256": "66305b9f98a87b008ac7ecd509efd0c0609ce0f34ae72c40259866a422722032"
+    }
+  },
+  "psittacosaurus-mongoliensis": {
+    "cover": {
+      "width": 1672,
+      "height": 941,
+      "bounds": {
+        "left": 710,
+        "top": 174,
+        "right": 1624,
+        "bottom": 819
+      },
+      "sha256": "12c65f24b52a6e009097920e0f16e4568b3acfdee5f263659939aa22c760756c"
+    }
   }
 }

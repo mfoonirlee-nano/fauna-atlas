@@ -1,0 +1,276 @@
+{
+  "queriedAt": "2026-10-22",
+  "records": [
+    {
+      "name": "Euoplocephalus tutus",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Euoplocephalus%20tutus",
+        "response": {
+          "usageKey": 4965741,
+          "acceptedUsageKey": 9338605,
+          "scientificName": "Euoplocephalus tutus (Lambe, 1902)",
+          "canonicalName": "Euoplocephalus tutus",
+          "rank": "SPECIES",
+          "status": "SYNONYM",
+          "confidence": 98,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Stegosauridae",
+          "genus": "Stereocephalus",
+          "species": "Stereocephalus tutus",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 3238864,
+          "genusKey": 3238653,
+          "speciesKey": 9338605
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Euoplocephalus%20tutus&show=attr,class,app",
+        "response": {
+          "elapsed_time": 0.00279,
+          "records": [
+            {
+              "oid": "txn:52912",
+              "vid": "var:63917",
+              "rnk": 3,
+              "nam": "Euoplocephalus tutus",
+              "att": "(Lambe 1902)",
+              "par": "txn:38838",
+              "rid": "ref:25127",
+              "ext": "0",
+              "noc": 6,
+              "phl": "Chordata",
+              "cll": "Ornithischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "Ankylosauridae",
+              "gnl": "Euoplocephalus",
+              "fea": 83.6,
+              "fla": 72.2,
+              "lea": 83.6,
+              "lla": 72.2,
+              "tei": "Campanian"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pachycephalosaurus wyomingensis",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Pachycephalosaurus%20wyomingensis",
+        "response": {
+          "usageKey": 4965835,
+          "acceptedUsageKey": 7692097,
+          "scientificName": "Pachycephalosaurus wyomingensis (Gilmore, 1931)",
+          "canonicalName": "Pachycephalosaurus wyomingensis",
+          "rank": "SPECIES",
+          "status": "SYNONYM",
+          "confidence": 98,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Troodontidae",
+          "genus": "Troodon",
+          "species": "Troodon wyomingensis",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 3238984,
+          "genusKey": 4822816,
+          "speciesKey": 7692097
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Pachycephalosaurus%20wyomingensis&show=attr,class,app",
+        "response": {
+          "elapsed_time": 0.00486,
+          "records": [
+            {
+              "oid": "txn:64648",
+              "vid": "var:52835",
+              "rnk": 3,
+              "nam": "Pachycephalosaurus wyomingensis",
+              "att": "(Gilmore 1931)",
+              "par": "txn:38786",
+              "rid": "ref:12772",
+              "ext": "0",
+              "noc": 26,
+              "phl": "Chordata",
+              "cll": "Ornithischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "NO_FAMILY_SPECIFIED",
+              "gnl": "Pachycephalosaurus",
+              "fea": 83.6,
+              "fla": 72.2,
+              "lea": 72.2,
+              "lla": 66,
+              "tei": "Campanian",
+              "tli": "Maastrichtian"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Amargasaurus cazaui",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Amargasaurus%20cazaui",
+        "response": {
+          "usageKey": 4822554,
+          "scientificName": "Amargasaurus cazaui Salgado & Bonaparte, 1991",
+          "canonicalName": "Amargasaurus cazaui",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Diplodocidae",
+          "genus": "Amargasaurus",
+          "species": "Amargasaurus cazaui",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 3239001,
+          "genusKey": 4822553,
+          "speciesKey": 4822554
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Amargasaurus%20cazaui&show=attr,class,app",
+        "response": {
+          "elapsed_time": 0.00316,
+          "records": [
+            {
+              "oid": "txn:53962",
+              "rnk": 3,
+              "nam": "Amargasaurus cazaui",
+              "att": "Salgado and Bonaparte 1991",
+              "par": "txn:53960",
+              "rid": "ref:5970",
+              "ext": "0",
+              "noc": 2,
+              "phl": "Chordata",
+              "cll": "Saurischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "Dicraeosauridae",
+              "gnl": "Amargasaurus",
+              "fea": 125.77,
+              "fla": 121.4,
+              "lea": 125.77,
+              "lla": 121.4,
+              "tei": "Barremian"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Therizinosaurus cheloniformis",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Therizinosaurus%20cheloniformis",
+        "response": {
+          "usageKey": 4822615,
+          "scientificName": "Therizinosaurus cheloniformis Maleev, 1954",
+          "canonicalName": "Therizinosaurus cheloniformis",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Therizinosauridae",
+          "genus": "Therizinosaurus",
+          "species": "Therizinosaurus cheloniformis",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 4822610,
+          "genusKey": 4573888,
+          "speciesKey": 4822615
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Therizinosaurus%20cheloniformis&show=attr,class,app",
+        "response": {
+          "elapsed_time": 0.0026,
+          "records": [
+            {
+              "oid": "txn:66673",
+              "rnk": 3,
+              "nam": "Therizinosaurus cheloniformis",
+              "att": "Maleev 1954",
+              "par": "txn:38553",
+              "rid": "ref:13917",
+              "ext": "0",
+              "noc": 2,
+              "phl": "Chordata",
+              "cll": "Reptilia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "Therizinosauridae",
+              "gnl": "Therizinosaurus",
+              "fea": 72.2,
+              "fla": 66,
+              "lea": 72.2,
+              "lla": 66,
+              "tei": "Maastrichtian"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Psittacosaurus mongoliensis",
+      "gbif": {
+        "url": "https://api.gbif.org/v1/species/match?name=Psittacosaurus%20mongoliensis",
+        "response": {
+          "usageKey": 4823246,
+          "scientificName": "Psittacosaurus mongoliensis Osborn, 1923",
+          "canonicalName": "Psittacosaurus mongoliensis",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "family": "Psittacosauridae",
+          "genus": "Psittacosaurus",
+          "species": "Psittacosaurus mongoliensis",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "familyKey": 4823242,
+          "genusKey": 4823245,
+          "speciesKey": 4823246
+        }
+      },
+      "pbdb": {
+        "url": "https://paleobiodb.org/data1.2/taxa/single.json?name=Psittacosaurus%20mongoliensis&show=attr,class,app",
+        "response": {
+          "elapsed_time": 0.00239,
+          "records": [
+            {
+              "oid": "txn:52831",
+              "rnk": 3,
+              "nam": "Psittacosaurus mongoliensis",
+              "att": "Osborn 1923",
+              "par": "txn:38844",
+              "rid": "ref:9632",
+              "ext": "0",
+              "noc": 14,
+              "phl": "Chordata",
+              "cll": "Ornithischia",
+              "odl": "NO_ORDER_SPECIFIED",
+              "fml": "NO_FAMILY_SPECIFIED",
+              "gnl": "Psittacosaurus",
+              "fea": 121.4,
+              "fla": 113.2,
+              "lea": 119.57,
+              "lla": 110.1,
+              "tei": "Aptian",
+              "tli": "Albian"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -34302,6 +34302,216 @@
           ]
         }
       }
+    },
+    {
+      "slug": "euoplocephalus-tutus",
+      "scientificName": "Euoplocephalus tutus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0062421"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0062421"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0062421"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0062421"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1371/journal.pone.0062421"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pachycephalosaurus-wyomingensis",
+      "scientificName": "Pachycephalosaurus wyomingensis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html",
+            "https://www.si.edu/object/nmnhpaleobiology_3448763"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html",
+            "https://www.si.edu/object/nmnhpaleobiology_3448763"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html",
+            "https://www.si.edu/object/nmnhpaleobiology_3448763"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html",
+            "https://www.si.edu/object/nmnhpaleobiology_3448763"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html",
+            "https://www.si.edu/object/nmnhpaleobiology_3448763"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "amargasaurus-cazaui",
+      "scientificName": "Amargasaurus cazaui",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.1111/joa.13659",
+            "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html",
+            "https://www.naturalhistory.si.edu/sites/default/files/media/translated_publications/Salgado%26amp%3BBona_91.pdf"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://doi.org/10.1111/joa.13659",
+            "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html",
+            "https://www.naturalhistory.si.edu/sites/default/files/media/translated_publications/Salgado%26amp%3BBona_91.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1111/joa.13659",
+            "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html",
+            "https://www.naturalhistory.si.edu/sites/default/files/media/translated_publications/Salgado%26amp%3BBona_91.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1111/joa.13659",
+            "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html",
+            "https://www.naturalhistory.si.edu/sites/default/files/media/translated_publications/Salgado%26amp%3BBona_91.pdf"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1111/joa.13659",
+            "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html",
+            "https://www.naturalhistory.si.edu/sites/default/files/media/translated_publications/Salgado%26amp%3BBona_91.pdf"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "therizinosaurus-cheloniformis",
+      "scientificName": "Therizinosaurus cheloniformis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html",
+            "https://www.dinosaur.pref.fukui.jp/dino/database_view/detail.php?id=309"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html",
+            "https://www.dinosaur.pref.fukui.jp/dino/database_view/detail.php?id=309"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html",
+            "https://www.dinosaur.pref.fukui.jp/dino/database_view/detail.php?id=309"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html",
+            "https://www.dinosaur.pref.fukui.jp/dino/database_view/detail.php?id=309"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html",
+            "https://www.dinosaur.pref.fukui.jp/dino/database_view/detail.php?id=309"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "psittacosaurus-mongoliensis",
+      "scientificName": "Psittacosaurus mongoliensis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html",
+            "https://www.cambridge.org/core/books/abs/dinosaur-systematics/new-data-on-parrotbeaked-dinosaurs-psittacosaurus/832ED13E8DF140D6D164593FD19DA300",
+            "https://doi.org/10.1038/s42003-022-03749-3"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html",
+            "https://www.cambridge.org/core/books/abs/dinosaur-systematics/new-data-on-parrotbeaked-dinosaurs-psittacosaurus/832ED13E8DF140D6D164593FD19DA300",
+            "https://doi.org/10.1038/s42003-022-03749-3"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html",
+            "https://www.cambridge.org/core/books/abs/dinosaur-systematics/new-data-on-parrotbeaked-dinosaurs-psittacosaurus/832ED13E8DF140D6D164593FD19DA300",
+            "https://doi.org/10.1038/s42003-022-03749-3"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html",
+            "https://www.cambridge.org/core/books/abs/dinosaur-systematics/new-data-on-parrotbeaked-dinosaurs-psittacosaurus/832ED13E8DF140D6D164593FD19DA300",
+            "https://doi.org/10.1038/s42003-022-03749-3"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html",
+            "https://www.cambridge.org/core/books/abs/dinosaur-systematics/new-data-on-parrotbeaked-dinosaurs-psittacosaurus/832ED13E8DF140D6D164593FD19DA300",
+            "https://doi.org/10.1038/s42003-022-03749-3"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",

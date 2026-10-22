@@ -1,6 +1,6 @@
 # 制作清单：100 种已灭绝动物
 
-2026-10-22 更新：本轮 100 个已灭绝动物选题，已完成 50 个，待制作 50 个。本次新增板龙、伯尼萨特禽龙、沃克氏副栉龙、连接埃德蒙顿龙、巨型甲龙，动物目录现有 750 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)、[第九批五种记录](research/todo-extinct-ninth-five-2026-10-21.md)及[第十批五种记录](research/todo-extinct-tenth-five-2026-10-22.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
+2026-10-22 更新：本轮 100 个已灭绝动物选题，已完成 55 个，待制作 45 个。本次新增图特河包头龙、怀俄明肿头龙、短颈潘龙、蒙古镰刀龙、蒙古鹦鹉嘴龙，动物目录现有 755 份物种档案。每种已补齐档案、一张封面和五张观察图；资料与验收见[首批五种记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批五种记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批五种记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批五种记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批五种记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批五种记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批五种记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批五种记录](research/todo-extinct-eighth-five-2026-10-20.md)、[第九批五种记录](research/todo-extinct-ninth-five-2026-10-21.md)、[第十批五种记录](research/todo-extinct-tenth-five-2026-10-22.md)及[第十一批五种记录](research/todo-extinct-eleventh-five-2026-10-22.md)。上一轮 100 种身边动物及更早完成记录保留在本文后半部分。
 
 
 ## 本轮范围与制作方式
@@ -21,13 +21,13 @@
 | 制作分组 | 待制作数量 |
 | --- | ---: |
 | 近代及全新世灭绝动物 | 0 |
-| 非鸟恐龙 | 5 |
+| 非鸟恐龙 | 0 |
 | 其他古爬行动物 | 12 |
 | 古哺乳动物及近缘类群 | 10 |
 | 古鸟类 | 3 |
 | 古两栖类与鱼类 | 7 |
 | 古无脊椎动物 | 13 |
-| 合计 | 50 |
+| 合计 | 45 |
 
 ## 选题与资料
 
@@ -36,16 +36,6 @@
 - [近代及全新世 30 种研究](research/todo-extinct-recent-2026-10-19.md)：逐种地区、灭绝证据、时间限定与博物馆、政府、研究机构资料。
 - [化石动物 70 种研究](research/todo-extinct-fossils-2026-10-19.md)：PBDB 与 ROM 来源、代表时期、分类修订及复原限制。
 - [化石动物原始查询记录](research/todo-extinct-fossil-taxonomy-2026-10-19.json)：查询日期、URL、69 个种阶元灭绝记录及原始参考文献；另 1 种采用 ROM 专页。原始年龄字段不作为已验收年代结论。
-
-### 非鸟恐龙（待制作 5 种）
-
-| 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [ ] | E051 | 图特河包头龙 | *Euoplocephalus tutus* | 白垩纪 | 甲片与尾部骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52912) |
-| [ ] | E052 | 怀俄明肿头龙 | *Pachycephalosaurus wyomingensis* | 白垩纪 | 增厚头顶；行为解释的限制 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=64648) |
-| [ ] | E053 | 短颈潘龙 | *Amargasaurus cazaui* | 白垩纪 | 颈背部成对长棘 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=53962) |
-| [ ] | E054 | 蒙古镰刀龙 | *Therizinosaurus cheloniformis* | 白垩纪 | 长爪与前肢；食性推断依据 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=66673) |
-| [ ] | E055 | 蒙古鹦鹉嘴龙 | *Psittacosaurus mongoliensis* | 白垩纪 | 鹦鹉式嘴部与颊部结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52831) |
 
 ### 其他古爬行动物（12 种）
 
@@ -119,9 +109,9 @@
 
 ---
 
-## 本轮完成归档：E001–E050
+## 本轮完成归档：E001–E055
 
-2026-10-21 已完成九批共 45 份物种档案及 270 张 WebP 图片。资料与验收分别见[首批记录](research/todo-extinct-first-five-2026-10-19.md)、[第二批记录](research/todo-extinct-next-five-2026-10-19.md)、[第三批记录](research/todo-extinct-third-five-2026-10-19.md)、[第四批记录](research/todo-extinct-fourth-five-2026-10-20.md)、[第五批记录](research/todo-extinct-fifth-five-2026-10-20.md)、[第六批记录](research/todo-extinct-sixth-five-2026-10-20.md)、[第七批记录](research/todo-extinct-seventh-five-2026-10-20.md)、[第八批记录](research/todo-extinct-eighth-five-2026-10-20.md)及[第九批记录](research/todo-extinct-ninth-five-2026-10-21.md)。
+2026-10-22 已完成十一批共 55 份物种档案及 330 张 WebP 图片。逐批资料与验收见本文开头的研究记录链接。
 
 | 状态 | 编号 | 中文选题名 | 学名 | 时期或末次记录的限定 | 科普切入点 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -175,6 +165,11 @@
 | [x] | E048 | 沃克氏副栉龙 | *Parasaurolophus walkeri* | 白垩纪 | 空心头冠与内部通道 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=63256) |
 | [x] | E049 | 连接埃德蒙顿龙 | *Edmontosaurus annectens* | 白垩纪 | 鸭嘴形吻部与牙齿排列 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=54239) |
 | [x] | E050 | 巨型甲龙 | *Ankylosaurus magniventris* | 白垩纪 | 骨甲与尾锤 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52793) |
+| [x] | E051 | 图特河包头龙 | *Euoplocephalus tutus* | 白垩纪 | 甲片与尾部骨骼 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52912) |
+| [x] | E052 | 怀俄明肿头龙 | *Pachycephalosaurus wyomingensis* | 白垩纪 | 增厚头顶；行为解释的限制 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=64648) |
+| [x] | E053 | 短颈潘龙 | *Amargasaurus cazaui* | 白垩纪 | 颈背部成对长棘 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=53962) |
+| [x] | E054 | 蒙古镰刀龙 | *Therizinosaurus cheloniformis* | 白垩纪 | 长爪与前肢；食性推断依据 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=66673) |
+| [x] | E055 | 蒙古鹦鹉嘴龙 | *Psittacosaurus mongoliensis* | 白垩纪 | 鹦鹉式嘴部与颊部结构 | [PBDB](https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=52831) |
 
 ## 上一轮：适合儿童科普的 100 种身边动物（已完成）
 

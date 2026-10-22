@@ -1,0 +1,26 @@
+[
+  {
+    "scene": "01-cover",
+    "prompt": "Scientific paleoart hero cover, horizontal 16:9. One Pachycephalosaurus wyomingensis, bipedal ornithischian with thick rounded domed skull, small blunt nodes around rear of head, small forearms, strong hind legs, long horizontally balanced tail, no horns on top of dome, in Late Cretaceous western North America woodland floodplain. Animal is seen from FRONT-LEFT at a 45-degree angle, head facing LEFT, tail receding into distance toward RIGHT, with ENTIRE tail tip visible. The FULL silhouette INCLUDING TAIL must fit inside RIGHT rectangle x=47% to 92%, y=15% to 86%. Absolutely no body part left of 45% or right of 94%. Leave 6% visible background to the right of tail tip. Quiet misty scenery in empty left half. Do not stretch tail across image. No cropped extremities. Muted brown speculative colors, naturalistic museum reconstruction, no text, no other creatures, no watermark."
+  },
+  {
+    "scene": "02-observation",
+    "prompt": "One scientific paleoart image, museum-quality naturalistic digital painting. Species: Pachycephalosaurus wyomingensis. Anatomy: bipedal ornithischian with thick rounded domed skull, small blunt nodes around rear of head, small forearms, strong hind legs, long horizontally balanced tail, no horns on top of dome. Setting: Late Cretaceous western North America woodland floodplain. Full body side profile observation, entire head and tail visible, centered animal filling 85% width, neutral natural ground and soft distant habitat. Wide landscape. Colors and soft tissue are speculative, restrained earthy palette. No text, labels, watermark, border, collage, humans or other animal species. No violent action. No modern lawn grass or flowers."
+  },
+  {
+    "scene": "03-observation",
+    "prompt": "One scientific paleoart image, museum-quality naturalistic digital painting. Species: Pachycephalosaurus wyomingensis. Anatomy: bipedal ornithischian with thick rounded domed skull, small blunt nodes around rear of head, small forearms, strong hind legs, long horizontally balanced tail, no horns on top of dome. Setting: Late Cretaceous western North America woodland floodplain. Close front-quarter view of the head, neck and distinctive anatomy, no internal cutaway, accurate eyes and beak, soft natural background. Landscape. Colors and soft tissue are speculative, restrained earthy palette. No text, labels, watermark, border, collage, humans or other animal species. No violent action. No modern lawn grass or flowers."
+  },
+  {
+    "scene": "04-observation",
+    "prompt": "One scientific paleoart image, museum-quality naturalistic digital painting. Species: Pachycephalosaurus wyomingensis. Anatomy: bipedal ornithischian with thick rounded domed skull, small blunt nodes around rear of head, small forearms, strong hind legs, long horizontally balanced tail, no horns on top of dome. Setting: Late Cretaceous western North America woodland floodplain. Complete full body three-quarter front observation in neutral daylight, all limbs and tail fit with margin. Simple pale earthy backdrop. Landscape. Colors and soft tissue are speculative, restrained earthy palette. No text, labels, watermark, border, collage, humans or other animal species. No violent action. No modern lawn grass or flowers."
+  },
+  {
+    "scene": "05-observation",
+    "prompt": "One scientific paleoart image, museum-quality naturalistic digital painting. Species: Pachycephalosaurus wyomingensis. Anatomy: bipedal ornithischian with thick rounded domed skull, small blunt nodes around rear of head, small forearms, strong hind legs, long horizontally balanced tail, no horns on top of dome. Setting: Late Cretaceous western North America woodland floodplain. Habitat reconstruction with one complete animal walking quietly by a river bank among period-appropriate conifers and ferns. Full body visible with generous clearance. Landscape. Colors and soft tissue are speculative, restrained earthy palette. No text, labels, watermark, border, collage, humans or other animal species. No violent action. No modern lawn grass or flowers."
+  },
+  {
+    "scene": "06-observation",
+    "prompt": "One scientific paleoart image, museum-quality naturalistic digital painting. Species: Pachycephalosaurus wyomingensis. Anatomy: bipedal ornithischian with thick rounded domed skull, small blunt nodes around rear of head, small forearms, strong hind legs, long horizontally balanced tail, no horns on top of dome. Setting: Late Cretaceous western North America woodland floodplain. Full body rear-quarter observation emphasizing tail, back and hind limb shape with head turned slightly to side, all extremities inside frame. Soft overcast light. Landscape. Colors and soft tissue are speculative, restrained earthy palette. No text, labels, watermark, border, collage, humans or other animal species. No violent action. No modern lawn grass or flowers."
+  }
+]

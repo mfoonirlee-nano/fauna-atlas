@@ -7501,5 +7501,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1645,
       "bottom": 750
     }
+  },
+  "euoplocephalus-tutus": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 670,
+      "top": 290,
+      "right": 1661,
+      "bottom": 732
+    }
+  },
+  "pachycephalosaurus-wyomingensis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 655,
+      "top": 96,
+      "right": 1646,
+      "bottom": 810
+    }
+  },
+  "amargasaurus-cazaui": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 670,
+      "top": 140,
+      "right": 1658,
+      "bottom": 748
+    }
+  },
+  "therizinosaurus-cheloniformis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 765,
+      "top": 15,
+      "right": 1635,
+      "bottom": 883
+    }
+  },
+  "psittacosaurus-mongoliensis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 710,
+      "top": 174,
+      "right": 1624,
+      "bottom": 819
+    }
   }
 };

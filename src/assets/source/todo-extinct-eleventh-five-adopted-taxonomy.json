@@ -1,0 +1,136 @@
+{
+  "reviewedAt": "2026-10-22",
+  "records": [
+    {
+      "scientificName": "Euoplocephalus tutus",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Ankylosauridae",
+          "zhName": "甲龙科"
+        },
+        "genus": {
+          "scientificName": "Euoplocephalus",
+          "zhName": "包头龙属"
+        }
+      },
+      "sources": [
+        "https://doi.org/10.1371/journal.pone.0062421"
+      ],
+      "decision": "GBIF 返回 Stereocephalus / Stegosauridae；采用 Arbour 与 Currie 2013 及 PBDB 的 Euoplocephalus / Ankylosauridae。"
+    },
+    {
+      "scientificName": "Pachycephalosaurus wyomingensis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Pachycephalosauridae",
+          "zhName": "肿头龙科"
+        },
+        "genus": {
+          "scientificName": "Pachycephalosaurus",
+          "zhName": "肿头龙属"
+        }
+      },
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/pachycephalosaurus.html",
+        "https://www.si.edu/object/nmnhpaleobiology_3448763"
+      ],
+      "decision": "GBIF 返回 Troodon / Troodontidae；采用 NHM 的 Pachycephalosaurus / Pachycephalosauridae 及 Smithsonian 种名记录。PBDB 未设置科。"
+    },
+    {
+      "scientificName": "Amargasaurus cazaui",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Dicraeosauridae",
+          "zhName": "叉龙科"
+        },
+        "genus": {
+          "scientificName": "Amargasaurus",
+          "zhName": "阿马加龙属"
+        }
+      },
+      "sources": [
+        "https://doi.org/10.1111/joa.13659",
+        "https://www.nhm.ac.uk/discover/dino-directory/amargasaurus.html",
+        "https://www.naturalhistory.si.edu/sites/default/files/media/translated_publications/Salgado%26amp%3BBona_91.pdf"
+      ],
+      "decision": "GBIF 返回 Diplodocidae；采用原始研究、2022 年研究、NHM 与 PBDB 的 Dicraeosauridae。"
+    },
+    {
+      "scientificName": "Therizinosaurus cheloniformis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Therizinosauridae",
+          "zhName": "镰刀龙科"
+        },
+        "genus": {
+          "scientificName": "Therizinosaurus",
+          "zhName": "镰刀龙属"
+        }
+      },
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/therizinosaurus.html",
+        "https://www.dinosaur.pref.fukui.jp/dino/database_view/detail.php?id=309"
+      ],
+      "decision": "GBIF 与 PBDB 的种名及科名一致。"
+    },
+    {
+      "scientificName": "Psittacosaurus mongoliensis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Psittacosauridae",
+          "zhName": "鹦鹉嘴龙科"
+        },
+        "genus": {
+          "scientificName": "Psittacosaurus",
+          "zhName": "鹦鹉嘴龙属"
+        }
+      },
+      "sources": [
+        "https://www.nhm.ac.uk/discover/dino-directory/psittacosaurus.html",
+        "https://www.cambridge.org/core/books/abs/dinosaur-systematics/new-data-on-parrotbeaked-dinosaurs-psittacosaurus/832ED13E8DF140D6D164593FD19DA300",
+        "https://doi.org/10.1038/s42003-022-03749-3"
+      ],
+      "decision": "GBIF 与 NHM 支持 Psittacosauridae；PBDB 未设置科。"
+    }
+  ]
+}

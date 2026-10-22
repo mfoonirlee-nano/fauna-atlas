@@ -1063,3 +1063,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [沃克氏副栉龙图片集](./species/parasaurolophus-walkeri/README.md)
 - [连接埃德蒙顿龙图片集](./species/edmontosaurus-annectens/README.md)
 - [巨型甲龙图片集](./species/ankylosaurus-magniventris/README.md)
+
+## 2026-10-22 第十一批灭绝动物
+
+- [图特河包头龙图片集](./species/euoplocephalus-tutus/README.md)
+- [怀俄明肿头龙图片集](./species/pachycephalosaurus-wyomingensis/README.md)
+- [短颈潘龙图片集](./species/amargasaurus-cazaui/README.md)
+- [蒙古镰刀龙图片集](./species/therizinosaurus-cheloniformis/README.md)
+- [蒙古鹦鹉嘴龙图片集](./species/psittacosaurus-mongoliensis/README.md)
