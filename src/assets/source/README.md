@@ -1071,3 +1071,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [短颈潘龙图片集](./species/amargasaurus-cazaui/README.md)
 - [蒙古镰刀龙图片集](./species/therizinosaurus-cheloniformis/README.md)
 - [蒙古鹦鹉嘴龙图片集](./species/psittacosaurus-mongoliensis/README.md)
+
+## 2026-10-22 第十二批灭绝动物
+
+- [长头无齿翼龙图片集](./species/pteranodon-longiceps/README.md)
+- [诺氏风神翼龙图片集](./species/quetzalcoatlus-northropi/README.md)
+- [古翼手龙图片集](./species/pterodactylus-antiquus/README.md)
+- [明氏喙嘴翼龙图片集](./species/rhamphorhynchus-muensteri/README.md)
+- [普通鱼龙图片集](./species/ichthyosaurus-communis/README.md)

@@ -34512,6 +34512,241 @@
           ]
         }
       }
+    },
+    {
+      "slug": "pteranodon-longiceps",
+      "scientificName": "Pteranodon longiceps",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps?view=modal",
+            "https://www.kgs.ku.edu/Current/2000/bennett/bennett3.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps?view=modal",
+            "https://www.kgs.ku.edu/Current/2000/bennett/bennett3.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps?view=modal",
+            "https://www.kgs.ku.edu/Current/2000/bennett/bennett3.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps?view=modal",
+            "https://www.kgs.ku.edu/Current/2000/bennett/bennett3.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps?view=modal",
+            "https://www.kgs.ku.edu/Current/2000/bennett/bennett3.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "quetzalcoatlus-northropi",
+      "scientificName": "Quetzalcoatlus northropi",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://news.utexas.edu/2021/12/08/worlds-largest-pterosaur-leaped-aloft-to-fly/",
+            "https://doi.org/10.1080/02724634.2021.1907587",
+            "https://www.iczn.org/cases/resolved-opinion-issued/case/3728",
+            "https://www.si.edu/object/nmnhpaleobiology_3447906"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://news.utexas.edu/2021/12/08/worlds-largest-pterosaur-leaped-aloft-to-fly/",
+            "https://doi.org/10.1080/02724634.2021.1907587",
+            "https://www.iczn.org/cases/resolved-opinion-issued/case/3728",
+            "https://www.si.edu/object/nmnhpaleobiology_3447906"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://news.utexas.edu/2021/12/08/worlds-largest-pterosaur-leaped-aloft-to-fly/",
+            "https://doi.org/10.1080/02724634.2021.1907587",
+            "https://www.iczn.org/cases/resolved-opinion-issued/case/3728",
+            "https://www.si.edu/object/nmnhpaleobiology_3447906"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://news.utexas.edu/2021/12/08/worlds-largest-pterosaur-leaped-aloft-to-fly/",
+            "https://doi.org/10.1080/02724634.2021.1907587",
+            "https://www.iczn.org/cases/resolved-opinion-issued/case/3728",
+            "https://www.si.edu/object/nmnhpaleobiology_3447906"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://news.utexas.edu/2021/12/08/worlds-largest-pterosaur-leaped-aloft-to-fly/",
+            "https://doi.org/10.1080/02724634.2021.1907587",
+            "https://www.iczn.org/cases/resolved-opinion-issued/case/3728",
+            "https://www.si.edu/object/nmnhpaleobiology_3447906"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pterodactylus-antiquus",
+      "scientificName": "Pterodactylus antiquus",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://oumnh.ox.ac.uk/node/4514516",
+            "https://doi.org/10.1007/s12542-012-0159-8",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://oumnh.ox.ac.uk/node/4514516",
+            "https://doi.org/10.1007/s12542-012-0159-8",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://oumnh.ox.ac.uk/node/4514516",
+            "https://doi.org/10.1007/s12542-012-0159-8",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://oumnh.ox.ac.uk/node/4514516",
+            "https://doi.org/10.1007/s12542-012-0159-8",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://oumnh.ox.ac.uk/node/4514516",
+            "https://doi.org/10.1007/s12542-012-0159-8",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "rhamphorhynchus-muensteri",
+      "scientificName": "Rhamphorhynchus muensteri",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4548500/",
+            "https://mczbase.mcz.harvard.edu/name/Rhamphorhynchus%20muensteri",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4548500/",
+            "https://mczbase.mcz.harvard.edu/name/Rhamphorhynchus%20muensteri",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4548500/",
+            "https://mczbase.mcz.harvard.edu/name/Rhamphorhynchus%20muensteri",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4548500/",
+            "https://mczbase.mcz.harvard.edu/name/Rhamphorhynchus%20muensteri",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC4548500/",
+            "https://mczbase.mcz.harvard.edu/name/Rhamphorhynchus%20muensteri",
+            "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "ichthyosaurus-communis",
+      "scientificName": "Ichthyosaurus communis",
+      "coverage": {
+        "habits": {
+          "path": "storySections.movement.body",
+          "sources": [
+            "https://doi.org/10.1080/14772019.2017.1291116",
+            "https://science.mnhn.fr/taxon/species/ichthyosaurus/communis",
+            "https://pure.manchester.ac.uk/ws/portalfiles/portal/127924285/FULL_TEXT.PDF",
+            "https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html"
+          ]
+        },
+        "traits": {
+          "path": "storySections.appearance.body",
+          "sources": [
+            "https://doi.org/10.1080/14772019.2017.1291116",
+            "https://science.mnhn.fr/taxon/species/ichthyosaurus/communis",
+            "https://pure.manchester.ac.uk/ws/portalfiles/portal/127924285/FULL_TEXT.PDF",
+            "https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1080/14772019.2017.1291116",
+            "https://science.mnhn.fr/taxon/species/ichthyosaurus/communis",
+            "https://pure.manchester.ac.uk/ws/portalfiles/portal/127924285/FULL_TEXT.PDF",
+            "https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1080/14772019.2017.1291116",
+            "https://science.mnhn.fr/taxon/species/ichthyosaurus/communis",
+            "https://pure.manchester.ac.uk/ws/portalfiles/portal/127924285/FULL_TEXT.PDF",
+            "https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1080/14772019.2017.1291116",
+            "https://science.mnhn.fr/taxon/species/ichthyosaurus/communis",
+            "https://pure.manchester.ac.uk/ws/portalfiles/portal/127924285/FULL_TEXT.PDF",
+            "https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",

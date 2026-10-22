@@ -7551,5 +7551,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1624,
       "bottom": 819
     }
+  },
+  "pteranodon-longiceps": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 780,
+      "top": 80,
+      "right": 1604,
+      "bottom": 872
+    }
+  },
+  "quetzalcoatlus-northropi": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 740,
+      "top": 126,
+      "right": 1595,
+      "bottom": 866
+    }
+  },
+  "pterodactylus-antiquus": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 682,
+      "top": 168,
+      "right": 1610,
+      "bottom": 806
+    }
+  },
+  "rhamphorhynchus-muensteri": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 940,
+      "top": 181,
+      "right": 1642,
+      "bottom": 806
+    }
+  },
+  "ichthyosaurus-communis": {
+    "width": 1672,
+    "height": 941,
+    "bounds": {
+      "left": 750,
+      "top": 307,
+      "right": 1600,
+      "bottom": 608
+    }
   }
 };

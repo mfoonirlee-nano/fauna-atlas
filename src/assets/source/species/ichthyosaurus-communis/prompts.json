@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-22",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "scene": "01-cover",
+      "prompt": "Edit cover composition only. Preserve this Ichthyosaurus communis anatomy with exactly four flippers, single dorsal fin, complete vertical caudal fin. Animal snout must start at 45 percent canvas width; tail must end at 95 percent canvas width. Keep the ENTIRE animal inside x=45% to 95% by reducing animal uniformly a little. Left 42% should be empty water and seabed, no animal. Keep animal centered vertically at 48% canvas height. Naturalistic rendering, same scene, no text or watermark. Wide 16:9.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "02-observation",
+      "prompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Ichthyosaurus communis, compact Early Jurassic marine reptile, streamlined dolphin-like body but fishlike vertical crescent tail, long narrow toothed snout, large eyes, four paddle-shaped flippers with larger front pair, triangular soft dorsal fin. Smooth speculative gray skin, no scales or dolphin blowhole. Scene: Early Jurassic shallow European sea, subdued blue-green water. View: Full-body exact lateral view, subject centered, wings completely open and both tips fully inside frame; in marine reptile show all four flippers, complete tail. Simple habitat backdrop. Broad landscape composition. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "03-observation",
+      "prompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Ichthyosaurus communis, compact Early Jurassic marine reptile, streamlined dolphin-like body but fishlike vertical crescent tail, long narrow toothed snout, large eyes, four paddle-shaped flippers with larger front pair, triangular soft dorsal fin. Smooth speculative gray skin, no scales or dolphin blowhole. Scene: Early Jurassic shallow European sea, subdued blue-green water. View: Close-up of head and neck from the side, clear eye and mouth anatomy. Keep full snout and any cranial crest inside frame. Mouth slightly open only for toothed animals, avoid snarling. Landscape. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "04-observation",
+      "prompt": "Precise edit: remove ALL pterosaurs, birds, flying or standing land animals from this image. Keep ONLY the large swimming Ichthyosaurus communis, preserve its anatomy and pose and complete silhouette. Exactly four flippers, one dorsal fin and vertical tail; remove any tiny extra dorsal/anal fins. Reconstruct empty water, seabed and shore seamlessly where other animals were. No extra animals, no text, no watermark.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "05-observation",
+      "prompt": "Precise edit: remove ALL pterosaurs, birds, flying or standing land animals from this image. Keep ONLY the large swimming Ichthyosaurus communis, preserve its anatomy and pose and complete silhouette. Exactly four flippers, one dorsal fin and vertical tail; remove any tiny extra dorsal/anal fins. Reconstruct empty water, seabed and shore seamlessly where other animals were. No extra animals, no text, no watermark.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "06-observation",
+      "prompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Ichthyosaurus communis, compact Early Jurassic marine reptile, streamlined dolphin-like body but fishlike vertical crescent tail, long narrow toothed snout, large eyes, four paddle-shaped flippers with larger front pair, triangular soft dorsal fin. Smooth speculative gray skin, no scales or dolphin blowhole. Scene: Early Jurassic shallow European sea, subdued blue-green water. View: Full animal in rear three-quarter view, centered, show entire tail and complete folded wings for pterosaur walking, marine reptile swimming away diagonally with complete tail and flippers. Clean separation of limbs. Full-body landscape. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    }
+  ]
+}

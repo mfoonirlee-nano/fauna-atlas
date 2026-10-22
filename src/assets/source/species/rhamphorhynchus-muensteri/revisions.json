@@ -1,0 +1,30 @@
+[
+  {
+    "scene": "01-cover",
+    "initialPrompt": "Use case: scientific-educational. One landscape 16:9 cover illustration for Fauna Atlas, naturalistic museum paleoart. Subject: Rhamphorhynchus muensteri, small long-tailed pterosaur, long stiff straight tail ending in small rhomboid vertical tail vane, slender jaws with visible forward-slanting interlocking teeth and toothless pointed tips, short neck, no head crest, membranous wings each supported by elongated fourth finger, fine body fuzz. Scene: Late Jurassic Solnhofen lagoon shore. Full animal entirely within right 55 percent of canvas, center at 72 percent width, left 40 percent quiet background for title. Maximize complete animal while retaining generous background margin around every extremity including snout, tail, crest, feet, folded wing tips or fins. Standing four-limbed with wings folded. No other animals, no text, no watermark. Speculative muted coloration.",
+    "intermediatePrompt": null,
+    "finalPrompt": "Edit this Fauna Atlas cover. Preserve the animal's anatomy, style, background environment and naturalistic rendering. Recompose so COMPLETE animal INCLUDING beak, head crest, entire long tail, wing tips, all feet or flippers fits between x=43% and x=96% of the canvas with 5% top and bottom margins. The left 40% MUST be empty quiet habitat with NO part of the animal. Scale the whole animal down only as much as needed to fit this right-hand region; maximize it within that region. This is essential for the hero title. Fold long tail alongside body in a gentle diagonal toward lower right if needed, retain correct tail vane.  No text or watermark. Landscape 16:9.",
+    "reason": "封面留出左侧文字区并保留完整主体；观察图去除无依据的共存动物。"
+  },
+  {
+    "scene": "04-observation",
+    "initialPrompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Rhamphorhynchus muensteri, small long-tailed pterosaur, long stiff straight tail ending in small rhomboid vertical tail vane, slender jaws with visible forward-slanting interlocking teeth and toothless pointed tips, short neck, no head crest, membranous wings each supported by elongated fourth finger, fine body fuzz. Scene: Late Jurassic Solnhofen lagoon shore. View: Complete body in three-quarter front view, centered, pterosaur standing quadrupedally with wings folded, marine reptile gently swimming toward camera with four flippers. Every extremity inside generous margins. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+    "intermediatePrompt": null,
+    "finalPrompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main rhamphorhynchus-muensteri and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+    "reason": "封面留出左侧文字区并保留完整主体；观察图去除无依据的共存动物。"
+  },
+  {
+    "scene": "05-observation",
+    "initialPrompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Rhamphorhynchus muensteri, small long-tailed pterosaur, long stiff straight tail ending in small rhomboid vertical tail vane, slender jaws with visible forward-slanting interlocking teeth and toothless pointed tips, short neck, no head crest, membranous wings each supported by elongated fourth finger, fine body fuzz. Scene: Late Jurassic Solnhofen lagoon shore. View: Full animal in paleoenvironment, centered, pterosaur gliding in gentle bank above habitat with both wings and tail complete, marine reptile swimming in sunlight beneath water surface. No other species. Full-body landscape. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+    "intermediatePrompt": null,
+    "finalPrompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main rhamphorhynchus-muensteri and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+    "reason": "封面留出左侧文字区并保留完整主体；观察图去除无依据的共存动物。"
+  },
+  {
+    "scene": "06-observation",
+    "initialPrompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Rhamphorhynchus muensteri, small long-tailed pterosaur, long stiff straight tail ending in small rhomboid vertical tail vane, slender jaws with visible forward-slanting interlocking teeth and toothless pointed tips, short neck, no head crest, membranous wings each supported by elongated fourth finger, fine body fuzz. Scene: Late Jurassic Solnhofen lagoon shore. View: Full animal in rear three-quarter view, centered, show entire tail and complete folded wings for pterosaur walking, marine reptile swimming away diagonally with complete tail and flippers. Clean separation of limbs. Full-body landscape. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+    "intermediatePrompt": null,
+    "finalPrompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main rhamphorhynchus-muensteri and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+    "reason": "封面留出左侧文字区并保留完整主体；观察图去除无依据的共存动物。"
+  }
+]

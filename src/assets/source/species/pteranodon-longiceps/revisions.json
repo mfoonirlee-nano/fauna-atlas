@@ -1,0 +1,30 @@
+[
+  {
+    "scene": "01-cover",
+    "initialPrompt": "Pteranodon longiceps naturalistic right-side cover, Late Cretaceous shore; full anatomy, quiet left 40%.",
+    "intermediatePrompt": null,
+    "finalPrompt": "Edit this Fauna Atlas cover. Preserve the animal's anatomy, style, background environment and naturalistic rendering. Recompose so COMPLETE animal INCLUDING beak, head crest, entire long tail, wing tips, all feet or flippers fits between x=43% and x=96% of the canvas with 5% top and bottom margins. The left 40% MUST be empty quiet habitat with NO part of the animal. Scale the whole animal down only as much as needed to fit this right-hand region; maximize it within that region. This is essential for the hero title.   No text or watermark. Landscape 16:9.",
+    "reason": "封面留出左侧文字区并保留完整主体；观察图去除无依据的共存动物。"
+  },
+  {
+    "scene": "04-observation",
+    "initialPrompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Pteranodon longiceps, long backward pointed cranial crest, long toothless beak, very short tail, membranous wings supported by one elongated fourth finger each; fine short body fuzz, no bird feathers. Scene: Late Cretaceous Western Interior Seaway coastal shore. View: Complete body in three-quarter front view, centered, pterosaur standing quadrupedally with wings folded, marine reptile gently swimming toward camera with four flippers. Every extremity inside generous margins. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+    "intermediatePrompt": null,
+    "finalPrompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main pteranodon-longiceps and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+    "reason": "封面留出左侧文字区并保留完整主体；观察图去除无依据的共存动物。"
+  },
+  {
+    "scene": "05-observation",
+    "initialPrompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Pteranodon longiceps, long backward pointed cranial crest, long toothless beak, very short tail, membranous wings supported by one elongated fourth finger each; fine short body fuzz, no bird feathers. Scene: Late Cretaceous Western Interior Seaway coastal shore. View: Full animal in paleoenvironment, centered, pterosaur gliding in gentle bank above habitat with both wings and tail complete, marine reptile swimming in sunlight beneath water surface. No other species. Full-body landscape. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+    "intermediatePrompt": null,
+    "finalPrompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main pteranodon-longiceps and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+    "reason": "封面留出左侧文字区并保留完整主体；观察图去除无依据的共存动物。"
+  },
+  {
+    "scene": "06-observation",
+    "initialPrompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Pteranodon longiceps, long backward pointed cranial crest, long toothless beak, very short tail, membranous wings supported by one elongated fourth finger each; fine short body fuzz, no bird feathers. Scene: Late Cretaceous Western Interior Seaway coastal shore. View: Full animal in rear three-quarter view, centered, show entire tail and complete folded wings for pterosaur walking, marine reptile swimming away diagonally with complete tail and flippers. Clean separation of limbs. Full-body landscape. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+    "intermediatePrompt": null,
+    "finalPrompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main pteranodon-longiceps and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+    "reason": "封面留出左侧文字区并保留完整主体；观察图去除无依据的共存动物。"
+  }
+]

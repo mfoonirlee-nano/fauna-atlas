@@ -1,0 +1,141 @@
+{
+  "accessedAt": "2026-10-22",
+  "species": [
+    {
+      "name": "Pteranodon longiceps",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Pteranodontidae",
+          "zhName": "无齿翼龙科"
+        },
+        "genus": {
+          "scientificName": "Pteranodon",
+          "zhName": "无齿翼龙属"
+        }
+      },
+      "note": "沿用 GBIF 界门科属基线，省略未设的纲目。喙嘴翼龙的 GBIF 旧组合采用 NHM、MCZ 与原始研究的现组合。",
+      "sources": [
+        "https://www.amnh.org/explore/ology/ology-cards/358-pteranodon-longiceps?view=modal",
+        "https://www.kgs.ku.edu/Current/2000/bennett/bennett3.html"
+      ]
+    },
+    {
+      "name": "Quetzalcoatlus northropi",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Azhdarchidae",
+          "zhName": "神龙翼龙科"
+        },
+        "genus": {
+          "scientificName": "Quetzalcoatlus",
+          "zhName": "风神翼龙属"
+        }
+      },
+      "note": "沿用 GBIF 界门科属基线，省略未设的纲目。喙嘴翼龙的 GBIF 旧组合采用 NHM、MCZ 与原始研究的现组合。",
+      "sources": [
+        "https://news.utexas.edu/2021/12/08/worlds-largest-pterosaur-leaped-aloft-to-fly/",
+        "https://doi.org/10.1080/02724634.2021.1907587",
+        "https://www.iczn.org/cases/resolved-opinion-issued/case/3728",
+        "https://www.si.edu/object/nmnhpaleobiology_3447906"
+      ]
+    },
+    {
+      "name": "Pterodactylus antiquus",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Pterodactylidae",
+          "zhName": "翼手龙科"
+        },
+        "genus": {
+          "scientificName": "Pterodactylus",
+          "zhName": "翼手龙属"
+        }
+      },
+      "note": "沿用 GBIF 界门科属基线，省略未设的纲目。喙嘴翼龙的 GBIF 旧组合采用 NHM、MCZ 与原始研究的现组合。",
+      "sources": [
+        "https://oumnh.ox.ac.uk/node/4514516",
+        "https://doi.org/10.1007/s12542-012-0159-8",
+        "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+      ]
+    },
+    {
+      "name": "Rhamphorhynchus muensteri",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Rhamphorhynchidae",
+          "zhName": "喙嘴翼龙科"
+        },
+        "genus": {
+          "scientificName": "Rhamphorhynchus",
+          "zhName": "喙嘴翼龙属"
+        }
+      },
+      "note": "沿用 GBIF 界门科属基线，省略未设的纲目。喙嘴翼龙的 GBIF 旧组合采用 NHM、MCZ 与原始研究的现组合。",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4548500/",
+        "https://mczbase.mcz.harvard.edu/name/Rhamphorhynchus%20muensteri",
+        "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/pterosaurs.html"
+      ]
+    },
+    {
+      "name": "Ichthyosaurus communis",
+      "taxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "family": {
+          "scientificName": "Ichthyosauridae",
+          "zhName": "鱼龙科"
+        },
+        "genus": {
+          "scientificName": "Ichthyosaurus",
+          "zhName": "鱼龙属"
+        }
+      },
+      "note": "沿用 GBIF 界门科属基线，省略未设的纲目。喙嘴翼龙的 GBIF 旧组合采用 NHM、MCZ 与原始研究的现组合。",
+      "sources": [
+        "https://doi.org/10.1080/14772019.2017.1291116",
+        "https://science.mnhn.fr/taxon/species/ichthyosaurus/communis",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/127924285/FULL_TEXT.PDF",
+        "https://www.nhm.ac.uk/discover/what-is-an-ichthyosaur.html"
+      ]
+    }
+  ]
+}

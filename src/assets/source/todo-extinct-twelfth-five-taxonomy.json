@@ -1,0 +1,291 @@
+{
+  "accessedAt": "2026-10-22",
+  "species": [
+    {
+      "name": "Pteranodon longiceps",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Pteranodon%20longiceps",
+          "response": {
+            "usageKey": 5935848,
+            "scientificName": "Pteranodon longiceps (Marsh, 1876)",
+            "canonicalName": "Pteranodon longiceps",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "confidence": 99,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Pteranodontidae",
+            "genus": "Pteranodon",
+            "species": "Pteranodon longiceps",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3238846,
+            "genusKey": 3238847,
+            "speciesKey": 5935848
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=52932&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.00149,
+            "records": [
+              {
+                "oid": "txn:52932",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Pteranodon longiceps",
+                "att": "(Marsh 1876)",
+                "par": "txn:38502",
+                "rid": "ref:7807",
+                "ext": "0",
+                "noc": 23,
+                "fea": 85.7,
+                "fla": 83.6,
+                "lea": 83.6,
+                "lla": 72.2,
+                "tei": "Santonian",
+                "tli": "Campanian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Pterosauria",
+                "fml": "NO_FAMILY_SPECIFIED",
+                "gnl": "Pteranodon"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Quetzalcoatlus northropi",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Quetzalcoatlus%20northropi",
+          "response": {
+            "usageKey": 4965553,
+            "scientificName": "Quetzalcoatlus northropi Lawson, 1975",
+            "canonicalName": "Quetzalcoatlus northropi",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "confidence": 99,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Azhdarchidae",
+            "genus": "Quetzalcoatlus",
+            "species": "Quetzalcoatlus northropi",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3238848,
+            "genusKey": 4818447,
+            "speciesKey": 4965553
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=133904&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.00149,
+            "records": [
+              {
+                "oid": "txn:133904",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Quetzalcoatlus northropi",
+                "att": "Lawson 1975",
+                "par": "txn:38504",
+                "rid": "ref:31084",
+                "ext": "0",
+                "noc": 6,
+                "fea": 72.2,
+                "fla": 66,
+                "lea": 72.2,
+                "lla": 66,
+                "tei": "Maastrichtian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Pterosauria",
+                "fml": "Azhdarchidae",
+                "gnl": "Quetzalcoatlus"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pterodactylus antiquus",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Pterodactylus%20antiquus",
+          "response": {
+            "usageKey": 5815931,
+            "scientificName": "Pterodactylus antiquus Soemmerring, 1812",
+            "canonicalName": "Pterodactylus antiquus",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "confidence": 99,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Pterodactylidae",
+            "genus": "Pterodactylus",
+            "species": "Pterodactylus antiquus",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3238840,
+            "genusKey": 5428847,
+            "speciesKey": 5815931
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=170084&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.00159,
+            "records": [
+              {
+                "oid": "txn:170084",
+                "vid": "var:156644",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Pterodactylus antiquus",
+                "att": "(Soemmerring 1812)",
+                "par": "txn:38494",
+                "rid": "ref:34083",
+                "ext": "0",
+                "noc": 1,
+                "fea": 149.2,
+                "fla": 145.06,
+                "lea": 149.2,
+                "lla": 145.06,
+                "tei": "Tithonian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Pterosauria",
+                "fml": "NO_FAMILY_SPECIFIED",
+                "gnl": "Pterodactylus"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rhamphorhynchus muensteri",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Rhamphorhynchus%20muensteri",
+          "response": {
+            "usageKey": 5935849,
+            "acceptedUsageKey": 9610456,
+            "scientificName": "Rhamphorhynchus muensteri (Goldfuss, 1831)",
+            "canonicalName": "Rhamphorhynchus muensteri",
+            "rank": "SPECIES",
+            "status": "SYNONYM",
+            "confidence": 98,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Rhamphorhynchidae",
+            "genus": "Rhamphorhynchus",
+            "species": "Ornithocephalus muensteri",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3238827,
+            "genusKey": 3238831,
+            "speciesKey": 9610456
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=95812&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.00129,
+            "records": [
+              {
+                "oid": "txn:95812",
+                "vid": "var:95813",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Rhamphorhynchus muensteri",
+                "att": "(Goldfuss 1831)",
+                "par": "txn:38476",
+                "rid": "ref:23690",
+                "ext": "0",
+                "noc": 21,
+                "fea": 152.21,
+                "fla": 149.2,
+                "lea": 149.2,
+                "lla": 145.06,
+                "tei": "Kimmeridgian",
+                "tli": "Tithonian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Pterosauria",
+                "fml": "Rhamphorhynchidae",
+                "gnl": "Rhamphorhynchus"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ichthyosaurus communis",
+      "queries": [
+        {
+          "url": "https://api.gbif.org/v1/species/match?name=Ichthyosaurus%20communis",
+          "response": {
+            "usageKey": 4818050,
+            "scientificName": "Ichthyosaurus communis (Conybeare, 1821)",
+            "canonicalName": "Ichthyosaurus communis",
+            "rank": "SPECIES",
+            "status": "ACCEPTED",
+            "confidence": 99,
+            "matchType": "EXACT",
+            "kingdom": "Animalia",
+            "phylum": "Chordata",
+            "family": "Ichthyosauridae",
+            "genus": "Ichthyosaurus",
+            "species": "Ichthyosaurus communis",
+            "kingdomKey": 1,
+            "phylumKey": 44,
+            "familyKey": 3239024,
+            "genusKey": 7682338,
+            "speciesKey": 4818050
+          }
+        },
+        {
+          "url": "https://paleobiodb.org/data1.2/taxa/single.json?id=95786&show=attr,app,class",
+          "response": {
+            "elapsed_time": 0.0016,
+            "records": [
+              {
+                "oid": "txn:95786",
+                "flg": "B",
+                "rnk": "species",
+                "nam": "Ichthyosaurus communis",
+                "att": "(Conybeare 1821)",
+                "par": "txn:36558",
+                "rid": "ref:16227",
+                "ext": "0",
+                "noc": 25,
+                "fea": 205.7,
+                "fla": 199.5,
+                "lea": 192.9,
+                "lla": 174.7,
+                "tei": "Rhaetian",
+                "tli": "Toarcian",
+                "phl": "Chordata",
+                "cll": "Reptilia",
+                "odl": "Ichthyosauria",
+                "fml": "Ichthyosauridae",
+                "gnl": "Ichthyosaurus"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

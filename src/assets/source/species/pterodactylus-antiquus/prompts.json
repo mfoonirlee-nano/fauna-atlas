@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-22",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "scene": "01-cover",
+      "prompt": "Edit this Fauna Atlas cover. Preserve the animal's anatomy, style, background environment and naturalistic rendering. Recompose so COMPLETE animal INCLUDING beak, head crest, entire long tail, wing tips, all feet or flippers fits between x=43% and x=96% of the canvas with 5% top and bottom margins. The left 40% MUST be empty quiet habitat with NO part of the animal. Scale the whole animal down only as much as needed to fit this right-hand region; maximize it within that region. This is essential for the hero title.   No text or watermark. Landscape 16:9.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "02-observation",
+      "prompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Pterodactylus antiquus, small slender pterosaur with elongated straight pointed toothed jaws, a modest low cranial soft-tissue crest, long neck, very short tail, membranous wings supported by elongated fourth fingers, fine body fuzz. No giant backward Pteranodon crest. Scene: Late Jurassic Solnhofen lagoon limestone shore. View: Full-body exact lateral view, subject centered, wings completely open and both tips fully inside frame; in marine reptile show all four flippers, complete tail. Simple habitat backdrop. Broad landscape composition. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "03-observation",
+      "prompt": "Use case: scientific-educational. Create ONE naturalistic museum paleoart illustration for children's species observation gallery. Subject: Pterodactylus antiquus, small slender pterosaur with elongated straight pointed toothed jaws, a modest low cranial soft-tissue crest, long neck, very short tail, membranous wings supported by elongated fourth fingers, fine body fuzz. No giant backward Pteranodon crest. Scene: Late Jurassic Solnhofen lagoon limestone shore. View: Close-up of head and neck from the side, clear eye and mouth anatomy. Keep full snout and any cranial crest inside frame. Mouth slightly open only for toothed animals, avoid snarling. Landscape. Accurate basic anatomy, muted speculative color, no text, no watermark, no diagrams or borders, no extra animals. This is a reconstruction, not a photograph or actual fossil specimen.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "04-observation",
+      "prompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main pterodactylus-antiquus and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "05-observation",
+      "prompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main pterodactylus-antiquus and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    },
+    {
+      "scene": "06-observation",
+      "prompt": "Precise edit: remove the swimming marine reptile and ALL other animals from the background, replacing with empty water and natural background. Preserve ONLY the main pterodactylus-antiquus and its full silhouette, every wing tip, foot, beak, head crest and tail.  Preserve environment, perspective and naturalistic paleoart. No other animals, no text or watermark.",
+      "tool": "built-in image_gen",
+      "kind": "AI scientific reconstruction"
+    }
+  ]
+}
