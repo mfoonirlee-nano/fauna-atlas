@@ -1,13 +1,13 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-22 更新：本轮选定 100 种新动物，已完成 0 种，待制作 100 种。前次推荐的 15 种已包含在这 100 种内，不另加成 115 种。正式动物目录仍为 800 份物种档案；以下为新增选题，尚未制作档案或图片。
+2026-10-23 更新：本轮选定 100 种新动物，已完成 10 种，待制作 90 种。前次推荐的 15 种已包含在这 100 种内。正式目录现有 810 份物种档案；本轮已完成的 10 种包含 10 份档案、60 张配图，来源与验收见[首批记录](research/todo-novel-first-five-2026-10-23.md)及[第二批记录](research/todo-novel-second-five-2026-10-23.md)。
 
 ## 选题范围与核查
 
 本轮按[800 种目录的分类覆盖评审](research/taxonomy-coverage-review-2026-10-22.md)补充较薄的分支，选择孩子能比较的外形、运动、取食、筑巢和育幼细节。84 种无脊椎动物、16 种脊索动物。中文名称为选题标签，少见种制作前核对规范名；每项用具体物种双名定位。
 
-- 100 个候选学名互不重复，均未与现有目录学名直接重复。GBIF 查询中，98 项精确匹配接受种，1 项精确匹配异名，1 项未匹配但已由 WoRMS 接受种和原始描述确认。
-- 99 个 GBIF 接受种键互不重复；逐键核对同义名分页，未与现有目录学名重叠。该检查仍不能替代制作时对种界、驯化形式和分类口径的研究。
+- 100 个候选学名互不重复，初筛时均未与当时 800 种基线的学名直接重复。GBIF 查询中，98 项精确匹配接受种，1 项精确匹配异名，1 项未匹配但已由 WoRMS 接受种和原始描述确认。
+- 99 个 GBIF 接受种键互不重复；逐键核对同义名分页，未与初筛时的 800 种目录学名重叠。该检查仍不能替代制作时对种界、驯化形式和分类口径的研究。
 - Bathydevius caudactylus 使用 WoRMS 接受种；Asianopis subrufa 采用 WSC 和澳大利亚博物馆的新组合，保留 GBIF 仍接受 Deinopis subrufa 的差异。水蜘蛛的科、竹节虫的目名等差异单独记录，不把名称更新计为新增分支。
 - 分类价值栏说明研究和比较方向。查询链中有 Squamata、Testudines 等与当前项目阶元处理不同的值，不能将查询结果直接写入正式数据，也不据此承诺新增多少纲或目。
 
@@ -17,13 +17,13 @@
 
 | 制作分组 | 已完成 | 待制作 |
 | --- | ---: | ---: |
-| 软体动物 | 0 | 21 |
+| 软体动物 | 5 | 16 |
 | 刺胞与栉水母动物 | 0 | 11 |
 | 棘皮动物 | 0 | 8 |
 | 环节、海绵及其他动物 | 0 | 16 |
-| 节肢动物 | 0 | 28 |
-| 脊索动物 | 0 | 16 |
-| 合计 | 0 | 100 |
+| 节肢动物 | 3 | 25 |
+| 脊索动物 | 2 | 14 |
+| 合计 | 10 | 90 |
 
 ## 制作顺序与完成条件
 
@@ -31,16 +31,16 @@
 
 每项先复核接受名、异名、种界和统一分类路径，再制作档案、一张封面、五张观察图及来源记录，按[物种图片与封面规则](../src/assets/source/README.md#species-image-set-rule)完成静态验收与相关测试后勾选。自然影像、结构示意与生成图分别说明，显微图标注比例；不把推测行为或未经鉴定的近似种图像当作本种证据。观察主题只用于编辑组织，不作为分类阶元。
 
-## 本轮待制作选题
+## 本轮选题与制作进度
 
 ### 软体动物（21 种）
 
 | 状态 | 编号 | 中文选题名 | 学名 | 儿童观察点 | 分类与比较价值 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | N006 | 火焰乌贼 | *Ascarosepion pfefferi* | 皮肤颜色变化，以及腹侧腕帮助在海底行走 | 已有乌贼科内新增物种与属，不能宣称新增科。 | [来源](https://new-www.mbl.edu/research/resources-research-facilities/marine-resources-center/cephalopods/cephalopod-breeding-center) |
-| [ ] | N007 | 夏威夷短尾乌贼 | *Euprymna scolopes* | 沙中藏身与腹部光器；用图示讲共生细菌如何帮助匹配上方光线 | 补 Sepiolida、Sepiolidae。 | [来源](https://doi.org/10.1073/pnas.0904571106) |
+| [x] | N006 | 火焰乌贼 | *Ascarosepion pfefferi* | 皮肤颜色变化，以及腹侧腕帮助在海底行走 | 已有乌贼科内新增物种与属，不能宣称新增科。 | [来源](https://new-www.mbl.edu/research/resources-research-facilities/marine-resources-center/cephalopods/cephalopod-breeding-center) |
+| [x] | N007 | 夏威夷短尾乌贼 | *Euprymna scolopes* | 沙中藏身与腹部光器；用图示讲共生细菌如何帮助匹配上方光线 | 补 Sepiolida、Sepiolidae。 | [来源](https://doi.org/10.1073/pnas.0904571106) |
 | [ ] | N008 | 紫毯章鱼 | *Tremoctopus violaceus* | 雌性展开背侧腕间的大膜，像一件披风 | 补 Tremoctopodidae。 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/) |
-| [ ] | N009 | 狮鬃海蛞蝓 | *Melibe leonina* | 口罩状口兜像小捞网，向下合拢抓取浮游动物 | 补 Tethydidae。 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/melibe) |
+| [x] | N009 | 狮鬃海蛞蝓 | *Melibe leonina* | 口罩状口兜像小捞网，向下合拢抓取浮游动物 | 补 Tethydidae。 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/melibe) |
 | [ ] | N010 | 海兔兔 | *Jorunna parva* | 两根嗅角像兔耳，背部鳃簇像小尾巴；比较动物外形与功能 | 补 Discodorididae。 | [来源](https://www.godac.jamstec.go.jp/bismal/e/view/9024943) |
 | [ ] | N013 | 龙骨新月贝 | *Neomenia carinata* | 像小蠕虫却属于软体动物；寻找腹部沟及细小骨针 | 补沟腹纲 Solenogastres、Neomeniidae。 | [来源](https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560) |
 | [ ] | N016 | 深海兜帽海蛞蝓 | *Bathydevius caudactylus* | 透明身体一端有捕食兜帽，另一端有指状尾突；游在深海水层 | 裸鳃类中加入远离海底的生活方式 | [来源](https://www.mbari.org/animal/mystery-mollusc/) |
@@ -48,8 +48,8 @@
 | [ ] | N018 | 八腕鱿鱼 | *Octopoteuthis deletron* | 成年个体只有八条腕，腕尖有发光器 | 比较鱿鱼不同发育阶段的附肢数量 | [来源](https://www.mbari.org/animal/octopus-squid/) |
 | [ ] | N019 | 珍珠章鱼 | *Muusoctopus robustus* | 温暖渗流水边，许多妈妈倒转身体护着卵 | 补充深海繁殖聚集与温度影响发育的例子 | [来源](https://www.mbari.org/animal/pearl-octopus/) |
 | [ ] | N020 | 七腕章鱼 | *Haliphron atlanticus* | 找出名字中的谜题：雄性藏起交接腕，看着像七条；雌性曾抱着水母进食 | 比较雌雄差异及水母食物网 | [来源](https://www.mbari.org/animal/seven-arm-octopus/) |
-| [ ] | N021 | 拟态章鱼 | *Thaumoctopus mimicus* | 比较把腕收拢成扁鱼状与伸展成狮子鱼状的姿势 | 加入多种姿势的拟态行为 | [来源](https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior) |
-| [ ] | N022 | 椰子章鱼 | *Amphioctopus marginatus* | 搬着椰壳走路，再把壳拼成藏身处 | 补充软体动物携带物体及搭建庇护所 | [来源](https://ocean.si.edu/ocean-life/invertebrates/veined-octopus-anilao-batangas-pier-philippines) |
+| [x] | N021 | 拟态章鱼 | *Thaumoctopus mimicus* | 比较把腕收拢成扁鱼状与伸展成狮子鱼状的姿势 | 加入多种姿势的拟态行为 | [来源](https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior) |
+| [x] | N022 | 椰子章鱼 | *Amphioctopus marginatus* | 搬着椰壳走路，再把壳拼成藏身处 | 补充软体动物携带物体及搭建庇护所 | [来源](https://ocean.si.edu/ocean-life/invertebrates/veined-octopus-anilao-batangas-pier-philippines) |
 | [ ] | N023 | 条纹睡衣乌贼 | *Sepioloidea lineolata* | 黑白条纹、黄色眼睛；把沙拨到身上，露出眼睛 | 加入瓶尾乌贼科 Sepiadariidae 的选题 | [来源](https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid) |
 | [ ] | N024 | 长突太阳能海蛞蝓 | *Phyllodesmium longicirrum* | 扁平背突上有褐色小斑，放大看共生藻所在区域 | 与叶羊、绿海天牛比较不同的光合伙伴关系 | [来源](https://seaslugforum.net/showall/phyllong) |
 | [ ] | N025 | 绿叶海天牛 | *Elysia chlorotica* | 像叶片的绿色侧足，放大观察分枝消化腺 | 加入不同种的盗食叶绿体现象，比较藻类食物 | [来源](https://seaslugforum.net/showall/elyschlo) |
@@ -117,7 +117,7 @@
 | [ ] | N012 | 图卢姆桨足虾 | *Xibalbanus tulumensis* | 黑暗洞穴中没有眼睛的甲壳动物；成排附肢与注毒口器 | 补桨足纲 Remipedia、Nectiopoda、Xibalbanidae。 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC3879455/) |
 | [ ] | N014 | 北方蛩蠊 | *Grylloblatta campodeiformis* | 无翅、长触角，在寒冷环境寻找小动物；比较雪地和朽木下的生活 | 补蛩蠊目 Grylloblattodea、Grylloblattidae。 | [来源](https://www.zoology.ubc.ca/entomology/main/Grylloblattodea/Grylloblattidae/) |
 | [ ] | N061 | 大螯枪虾 | *Alpheus heterochaelis* | 比较一大一小的螯；用慢动作图示看大螯闭合与空化气泡 | 补 Alpheidae；应使用北美鉴定材料，南美部分旧记录已另立种，不能整批照搬 | [来源](https://collections.naturalsciences.be/ssh-invertebrates/digital-library/crustacea/malacostraca/decapoda/biblio/versluis_how_2000) |
-| [ ] | N062 | 海绵背蟹 | *Dromia personata* | 螃蟹背着海绵走路；找出抓住海绵的后两对足 | 补 Dromiidae；把步行足与抓握足分别画出，不画成海绵自己长在蟹背上的固定壳 | [来源](https://www.vliz.be/imisdocs/publications/312811.pdf) |
+| [x] | N062 | 海绵背蟹 | *Dromia personata* | 螃蟹背着海绵走路；找出抓住海绵的后两对足 | 补 Dromiidae；把步行足与抓握足分别画出，不画成海绵自己长在蟹背上的固定壳 | [来源](https://www.vliz.be/imisdocs/publications/312811.pdf) |
 | [ ] | N063 | 雪人蟹 | *Kiwa hirsuta* | 热液附近的白色甲壳动物，前肢布满长刚毛 | 补 Kiwaidae；与其他雪人蟹物种区分，不把其他种的“挥舞培养细菌”行为直接移植过来 | [来源](https://www.mbari.org/news/discovery-of-the-yeti-crab/) |
 | [ ] | N064 | 斑点海葵瓷蟹 | *Neopetrolisthes maculatus* | 住在海葵旁，挥动有长刚毛的口器，像刷子扫取食物 | 补 Porcellanidae；可与真蟹比较腹部和触角，瓷蟹的大螯不是主要滤食器官 | [来源](https://museum.wa.gov.au/explore/blogs/andrew-hosie/creature-feature-neopetrolisthes-maculatus) |
 | [ ] | N065 | 桶居端足虾 | *Phronima sedentaria* | 雌体带着透明桶形“育儿房”游动，观察大眼与附肢 | 补 Amphipoda、Phronimidae；桶来自樽海鞘组织，不能画成它自己吐出的泡泡 | [来源](https://www.mbari.org/animal/barrel-amphipod/) |
@@ -131,10 +131,10 @@
 | [ ] | N073 | 三叶虫状红萤 | *Platerodrilus paradoxus* | 雌体保持宽扁幼虫状，雄体却是有翅甲虫；比较两种形态 | 补 Lycidae；旧名 Duliticola paradoxa 同种。按已鉴定雌雄材料制图，不把属级网图当本种 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC4137290/) |
 | [ ] | N074 | 橙翅捕蛛蜂 | *Pepsis grossa* | 蓝黑色身体配橙色翅，比较它与作为猎物的大蜘蛛；成蜂也访花 | 补 Pompilidae；须与 Pepsis thisbe 区分，不把“所有捕蛛蜂都是本种”写进档案 | [来源](https://extension.colostate.edu/resource/tarantula-hawks-of-colorado/) |
 | [ ] | N075 | 美洲埋葬虫 | *Nicrophorus americanus* | 爸妈一起把小动物遗体埋到地下，为幼虫准备食物 | 补 Staphylinidae 中埋葬虫分支；资料常用 Silphidae，GBIF 现并入 Staphylinidae，应先选定一致口径；画清洁的土层剖面即可讲照顾幼虫 | [来源](https://www.fws.gov/species/american-burying-beetle-nicrophorus-americanus) |
-| [ ] | N076 | 达氏柄眼蝇 | *Teleopsis dalmanni* | 眼睛长在头两侧的长柄末端；比较雌雄眼间距离 | 补 Diopsidae；旧组合 Cyrtodiopsis dalmanni 同种。用轮廓和比例表达，避免把长眼柄当成触角 | [来源](https://link.springer.com/article/10.1186/1471-2164-10-361) |
+| [x] | N076 | 达氏柄眼蝇 | *Teleopsis dalmanni* | 眼睛长在头两侧的长柄末端；比较雌雄眼间距离 | 补 Diopsidae；旧组合 Cyrtodiopsis dalmanni 同种。用轮廓和比例表达，避免把长眼柄当成触角 | [来源](https://link.springer.com/article/10.1186/1471-2164-10-361) |
 | [ ] | N077 | 透明幽蚊 | *Chaoborus crystallinus* | 透明幼虫悬浮水中，放大观察头部捕食附肢与猎物靠近过程 | 补 Chaoboridae；动作特写需标比例，不能把它画成透明成蚊；与已有蚊科比较水中幼期 | [来源](https://aslopubs.onlinelibrary.wiley.com/doi/10.4319/lo.1992.37.1.0014) |
 | [ ] | N078 | 绿虎甲 | *Cicindela campestris* | 绿色鞘翅、白色斑点、大眼和大颚；比较甲虫的捕食与吃叶生活 | 丰富 Carabidae，新增虎甲分支 Cicindela；部分分类将虎甲另列 Cicindelidae，制作不混用 | [来源](https://www.mitra-nature.uevora.pt/Especies-e-habitats/Invertebrados/Insetos/Coleoptera/Carabidae/Cicindelinae/Cicindela-campestris) |
-| [ ] | N079 | 水蜘蛛 | *Argyroneta aquatica* | 把空气带到水下丝罩里，做成“潜水钟”；观察腹部空气层 | 专业 WSC 现列 Argyronetidae，GBIF 仍列 Dictynidae，老论文列 Cybaeidae；三者不同时建科。潜水钟仍需补气，不能写成永不浮上水面 | [来源](https://digital.library.adelaide.edu.au/items/b88ff19c-7e87-472e-97b3-d872458651ba) |
+| [x] | N079 | 水蜘蛛 | *Argyroneta aquatica* | 把空气带到水下丝罩里，做成“潜水钟”；观察腹部空气层 | 专业 WSC 现列 Argyronetidae，GBIF 仍列 Dictynidae，老论文列 Cybaeidae；三者不同时建科。潜水钟仍需补气，不能写成永不浮上水面 | [来源](https://digital.library.adelaide.edu.au/items/b88ff19c-7e87-472e-97b3-d872458651ba) |
 | [ ] | N080 | 红褐撒网蛛 | *Asianopis subrufa* | 用前足撑开小网，向下包住经过的昆虫；寻找正面大眼 | 补 Deinopidae；WSC 与澳大利亚博物馆用 Asianopis，GBIF 仍接受 Deinopis subrufa，属名变更只计一物种 | [来源](https://australian.museum/learn/animals/spiders/net-casting-spiders/) |
 | [ ] | N081 | 书伪蝎 | *Chelifer cancroides* | 像小蝎子，有两只大螯却没有蝎尾；可在书页边放比例尺 | 补 Pseudoscorpiones、Cheliferidae；成体约几毫米，图片需放大。不要把钳状触肢称为步足 | [来源](https://extension.psu.edu/pseudoscorpions) |
 | [ ] | N082 | 卡氏节腹蛛 | *Ricinoides karschii* | 观察盖住口器的小“头罩”，比较幼体与后续龄期的足 | 补 Ricinulei、Ricinoididae；中文暂用标签，属于节腹类而非盲蛛目。旧文拼作 karschi，需按专业目录保留 karschii | [来源](https://britishspiders.org.uk/system/files/library/030902.pdf) |
@@ -146,7 +146,7 @@
 
 | 状态 | 编号 | 中文选题名 | 学名 | 儿童观察点 | 分类与比较价值 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | N001 | 那马瓜沙鸡 | *Pterocles namaqua* | 比较雄鸟干湿腹羽，观察爸爸如何把水带回给雏鸟；可画羽枝吸水的放大图 | 补沙鸡分支；文献常用 Pterocliformes、Pteroclidae。 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC10091193/) |
+| [x] | N001 | 那马瓜沙鸡 | *Pterocles namaqua* | 比较雄鸟干湿腹羽，观察爸爸如何把水带回给雏鸟；可画羽枝吸水的放大图 | 补沙鸡分支；文献常用 Pterocliformes、Pteroclidae。 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC10091193/) |
 | [ ] | N086 | 德氏鳞尾松鼠 | *Anomalurus derbianus* | 展开四肢间滑翔膜；放大尾根腹面的两列角质鳞片 | 补 Anomaluridae；与鼯鼠比较，不能按名字归松鼠科。鳞片作用的说法有研究更新，先描述可见结构 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC7476187/) |
 | [ ] | N087 | 大蔗鼠 | *Thryonomys swinderianus* | 在高大芦苇和草茎之间找体形粗壮的啮齿动物，比较食物和栖息地 | 补 Thryonomyidae；把河岸芦苇环境与常见家鼠城市环境比较，避免只靠毛色区分 | [来源](https://ewt.org/wp-content/uploads/2022/11/63.-Greater-Cane-Rat-Thryonomys-swinderianus_LC.pdf) |
 | [ ] | N088 | 北树鼩 | *Tupaia belangeri* | 尖长鼻吻配毛茸茸长尾，白天在枝条与地面觅食 | 补 Scandentia、Tupaiidae；树鼩不是鼩鼱，分类图中给两者各自路径；不采用馆页“本目只有这一种”的错误概括 | [来源](https://www.lpzoo.org/animals/northern-tree-shrew/) |
@@ -158,7 +158,7 @@
 | [ ] | N094 | 婆罗洲无耳蜥 | *Lanthanotus borneensis* | 粗糙成列的鳞，眼旁找不到外露耳孔；水陆姿态比较 | 补 Lanthanotidae；仅一只历史圈养个体的数据不写成全物种固定规律；中文“无耳”指外部耳孔特征 | [来源](https://varanidae.org/9_2_low.pdf) |
 | [ ] | N095 | 库氏铲足蟾 | *Scaphiopus couchii* | 放大后足黑色“铲子”，图示如何挖入沙土，雨后到临时水池繁殖 | 补 Scaphiopodidae；博物馆旧页拼 couchi、列 Pelobatidae，仅作行为参考，接受名与科用专业目录 | [来源](https://www.desertmuseum.org/books/nhsd_spadefoot.php) |
 | [ ] | N096 | 的的喀喀湖蛙 | *Telmatobius culeus* | 松垮褶皱皮肤像大衣；看水中展开的蹼足与皮肤结构 | 补 Telmatobiidae；褶皱皮肤参与水下气体交换，不把所有呼吸概括为完全不用肺 | [来源](https://citizen-conservation.org/wp-content/uploads/2024/08/CC-Breeding-Guidelines_Telmatobius-culeus_07-2024.pdf) |
-| [ ] | N097 | 龟蛙 | *Myobatrachus gouldii* | 小头、短腿和圆身体像没壳的小龟；看它用前足向前挖洞，幼蛙在卵里发育 | 补 Myobatrachidae；与后足挖掘的铲足类形成动作比较，直接发育不画成自由游泳蝌蚪 | [来源](https://museum.wa.gov.au/explore/frogwatch/frogs/turtle-frog) |
+| [x] | N097 | 龟蛙 | *Myobatrachus gouldii* | 小头、短腿和圆身体像没壳的小龟；看它用前足向前挖洞，幼蛙在卵里发育 | 补 Myobatrachidae；与后足挖掘的铲足类形成动作比较，直接发育不画成自由游泳蝌蚪 | [来源](https://museum.wa.gov.au/explore/frogwatch/frogs/turtle-frog) |
 | [ ] | N098 | 圆鳍鱼 | *Cyclopterus lumpus* | 圆身体带小突起，肚子下有吸盘，吸在岩石或玻璃上 | 补 Cyclopteridae；吸盘来自腹鳍；鱼类目级各目录有差异，先确定项目路径 | [来源](https://www.tokyo-zoo.net/en/kasai/encyclopedia/lumpsucker/index.html) |
 | [ ] | N099 | 大西洋狼鱼 | *Anarhichas lupus* | 前排尖齿夹住食物，后面圆钝牙齿磨碎贝壳；用头部剖面看不同牙形 | 补 Anarhichadidae；不与狼鳗 Anarrhichthys ocellatus 混图，尤其注意属名一个 r 的拼写 | [来源](https://www.calacademy.org/blogs/from-the-stacks/smack-fish-wolf-down) |
 | [ ] | N100 | 长尾海蛾鱼 | *Pegasus volitans* | 扁平有甲身体、展开像翅膀的胸鳍，在海底用腹鳍移动 | 补 Pegasidae；FishBase 当前列表与 GBIF 的目级归属不同，制作统一后再计目增量；不能把“飞马”属名写成会离水飞行 | [来源](https://www.fao.org/4/x2400e/x2400e18.pdf) |

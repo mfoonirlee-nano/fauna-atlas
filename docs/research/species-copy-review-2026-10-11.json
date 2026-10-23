@@ -36958,8 +36958,223 @@
           ]
         }
       }
+    },
+    {
+      "slug": "diving-bell-spider",
+      "name": "水蜘蛛",
+      "scientificName": "Argyroneta aquatica",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://journals.biologists.com/jeb/article/214/13/2175/10328/The-diving-bell-and-the-spider-the-physical-gill",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10700320/",
+            "https://www.jstage.jst.go.jp/article/asjaa1936/47/2/47_2_125/_article/-char/ja"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://journals.biologists.com/jeb/article/214/13/2175/10328/The-diving-bell-and-the-spider-the-physical-gill",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10700320/",
+            "https://www.jstage.jst.go.jp/article/asjaa1936/47/2/47_2_125/_article/-char/ja"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://journals.biologists.com/jeb/article/214/13/2175/10328/The-diving-bell-and-the-spider-the-physical-gill",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10700320/",
+            "https://www.jstage.jst.go.jp/article/asjaa1936/47/2/47_2_125/_article/-char/ja"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.wsc.nmbe.ch/spec-data/14930"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.wsc.nmbe.ch/spec-data/14930"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dalman-stalk-eyed-fly",
+      "name": "达氏柄眼蝇",
+      "scientificName": "Teleopsis dalmanni",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC2999598/",
+            "https://link.springer.com/article/10.1186/1471-2164-10-361",
+            "https://www.frontiersin.org/journals/ethology/articles/10.3389/fetho.2024.1461681/full"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC2999598/",
+            "https://link.springer.com/article/10.1186/1471-2164-10-361",
+            "https://www.frontiersin.org/journals/ethology/articles/10.3389/fetho.2024.1461681/full"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://file.go.gov.sg/reddatabook3-3of7.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://zenodo.org/records/5659728",
+            "https://www.gbif.org/species/1550809"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://zenodo.org/records/5659728",
+            "https://www.gbif.org/species/1550809"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "lion-mane-nudibranch",
+      "name": "狮鬃海蛞蝓",
+      "scientificName": "Melibe leonina",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/melibe",
+            "https://inverts.wallawalla.edu/Mollusca/Gastropoda/Opisthobranchia/Nudibranchia/Dendronotacea/Melibe_leonina.html",
+            "https://doi.org/10.2307/1541359"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/melibe",
+            "https://inverts.wallawalla.edu/Mollusca/Gastropoda/Opisthobranchia/Nudibranchia/Dendronotacea/Melibe_leonina.html",
+            "https://doi.org/10.2307/1541359"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/melibe",
+            "https://inverts.wallawalla.edu/Mollusca/Gastropoda/Opisthobranchia/Nudibranchia/Dendronotacea/Melibe_leonina.html",
+            "https://doi.org/10.2307/1541359"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=575441&p=taxdetails",
+            "https://obis.org/taxon/575441",
+            "https://shell.sinica.edu.tw/english/shellfamily.php?ORDER=family&PAGE=1&pageNum_Recordset1=18&totalRows_Recordset1=293"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=575441&p=taxdetails",
+            "https://obis.org/taxon/575441",
+            "https://shell.sinica.edu.tw/english/shellfamily.php?ORDER=family&PAGE=1&pageNum_Recordset1=18&totalRows_Recordset1=293"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sponge-crab",
+      "name": "海绵背蟹",
+      "scientificName": "Dromia personata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.vliz.be/imisdocs/publications/289289.pdf",
+            "https://www.aiamitalia.it/index.php?Itemid=84&genere=Dromia&option=com_schede&specie=personata&view=scheda"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.vliz.be/imisdocs/publications/289289.pdf",
+            "https://www.aiamitalia.it/index.php?Itemid=84&genere=Dromia&option=com_schede&specie=personata&view=scheda"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://litoraldegranada.ugr.es/el-litoral/el-litoral-sumergido/fauna/artropodos/crustaceos/decapodos/braquiuros/dromia-personata/",
+            "https://www.vliz.be/imisdocs/publications/312811.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://obis.org/taxon/107258",
+            "https://www.marinespecies.org/aphia.php?id=107258&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://obis.org/taxon/107258",
+            "https://www.marinespecies.org/aphia.php?id=107258&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "turtle-frog",
+      "name": "龟蛙",
+      "scientificName": "Myobatrachus gouldii",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://museum.wa.gov.au/explore/frogwatch/frogs/turtle-frog/",
+            "https://library.dbca.wa.gov.au/FullTextFiles/923003.pdf"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://museum.wa.gov.au/explore/frogwatch/frogs/turtle-frog/",
+            "https://library.dbca.wa.gov.au/FullTextFiles/923003.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://museum.wa.gov.au/explore/frogwatch/frogs/turtle-frog/",
+            "https://library.dbca.wa.gov.au/FullTextFiles/923003.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Myobatrachoidea/Myobatrachidae/Myobatrachus/Myobatrachus-gouldii"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Myobatrachoidea/Myobatrachidae/Myobatrachus/Myobatrachus-gouldii"
+          ]
+        }
+      }
     }
   ],
   "updatedAt": "2026-10-17",
-  "lastExtendedAt": "2026-10-22"
+  "lastExtendedAt": "2026-10-23"
 }

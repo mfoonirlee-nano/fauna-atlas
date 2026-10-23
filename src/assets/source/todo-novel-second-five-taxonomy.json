@@ -1,0 +1,408 @@
+{
+  "recordedAt": "2026-10-23",
+  "catalogueBefore": 805,
+  "catalogueAfter": 810,
+  "note": "The GBIF records are the dated initial screening baseline. The adopted paths use the cited specialist sources where a revision differs.",
+  "records": [
+    {
+      "slug": "diving-bell-spider",
+      "scientificName": "Argyroneta aquatica",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Arachnida",
+          "zhName": "蛛形纲"
+        },
+        "order": {
+          "scientificName": "Araneae",
+          "zhName": "蜘蛛目"
+        },
+        "family": {
+          "scientificName": "Argyronetidae",
+          "zhName": "水蛛科"
+        },
+        "genus": {
+          "scientificName": "Argyroneta",
+          "zhName": "水蛛属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Argyroneta+aquatica",
+        "response": {
+          "usageKey": 2179068,
+          "scientificName": "Argyroneta aquatica (Clerck, 1757)",
+          "canonicalName": "Argyroneta aquatica",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "order": "Araneae",
+          "family": "Dictynidae",
+          "genus": "Argyroneta",
+          "species": "Argyroneta aquatica",
+          "kingdomKey": 1,
+          "phylumKey": 54,
+          "classKey": 367,
+          "orderKey": 1496,
+          "familyKey": 3407,
+          "genusKey": 2179067,
+          "speciesKey": 2179068,
+          "class": "Arachnida"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "世界蜘蛛名录：接受学名、Clerck 1757 原描述及水蛛科归属",
+          "url": "https://www.wsc.nmbe.ch/spec-data/14930",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本档案尚未核实适用于该物种的 IUCN 全球评估；NE 为项目资料占位，不代表已确认未受威胁，不填写评估日期。"
+      }
+    },
+    {
+      "slug": "dalman-stalk-eyed-fly",
+      "scientificName": "Teleopsis dalmanni",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Insecta",
+          "zhName": "昆虫纲"
+        },
+        "order": {
+          "scientificName": "Diptera",
+          "zhName": "双翅目"
+        },
+        "family": {
+          "scientificName": "Diopsidae",
+          "zhName": "突眼蝇科"
+        },
+        "genus": {
+          "scientificName": "Teleopsis",
+          "zhName": "泰突眼蝇属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Teleopsis+dalmanni",
+        "response": {
+          "usageKey": 1550809,
+          "scientificName": "Teleopsis dalmanni (Wiedemann, 1830)",
+          "canonicalName": "Teleopsis dalmanni",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "order": "Diptera",
+          "family": "Diopsidae",
+          "genus": "Teleopsis",
+          "species": "Teleopsis dalmanni",
+          "kingdomKey": 1,
+          "phylumKey": 54,
+          "classKey": 216,
+          "orderKey": 811,
+          "familyKey": 7303,
+          "genusKey": 1550788,
+          "speciesKey": 1550809,
+          "class": "Insecta"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "Földvári 等（2007）：Teleopsis dalmanni 的种级标本修订与1830年原始名称",
+          "url": "https://zenodo.org/records/5659728",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "GBIF：本档案采用的接受名与分类路径",
+          "url": "https://www.gbif.org/species/1550809",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本档案尚未核实适用于该物种的 IUCN 全球评估；NE 为项目资料占位，不代表已确认未受威胁，不填写评估日期。"
+      }
+    },
+    {
+      "slug": "lion-mane-nudibranch",
+      "scientificName": "Melibe leonina",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Mollusca",
+          "zhName": "软体动物门"
+        },
+        "class": {
+          "scientificName": "Gastropoda",
+          "zhName": "腹足纲"
+        },
+        "order": {
+          "scientificName": "Nudibranchia",
+          "zhName": "裸鳃目"
+        },
+        "family": {
+          "scientificName": "Tethydidae",
+          "zhName": "大嘴海牛科"
+        },
+        "genus": {
+          "scientificName": "Melibe",
+          "zhName": "大嘴海蛞蝓属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Melibe+leonina&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 2292008,
+          "scientificName": "Melibe leonina (A.Gould, 1852)",
+          "canonicalName": "Melibe leonina",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Nudibranchia",
+          "family": "Tethydidae",
+          "genus": "Melibe",
+          "species": "Melibe leonina",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 225,
+          "orderKey": 980,
+          "familyKey": 2292006,
+          "genusKey": 2292007,
+          "speciesKey": 2292008,
+          "class": "Gastropoda"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "WoRMS：接受种、旧名及 Gould 原始描述",
+          "url": "https://www.marinespecies.org/aphia.php?id=575441&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "OBIS：当前分类路径",
+          "url": "https://obis.org/taxon/575441",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "中央研究院台湾贝类资料库：大嘴海牛科中文名称",
+          "url": "https://shell.sinica.edu.tw/english/shellfamily.php?ORDER=family&PAGE=1&pageNum_Recordset1=18&totalRows_Recordset1=293",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未核实可追溯的全球 IUCN 评估，暂用 NE；不代表已确认不存在评估"
+      }
+    },
+    {
+      "slug": "sponge-crab",
+      "scientificName": "Dromia personata",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Malacostraca",
+          "zhName": "软甲纲"
+        },
+        "order": {
+          "scientificName": "Decapoda",
+          "zhName": "十足目"
+        },
+        "family": {
+          "scientificName": "Dromiidae",
+          "zhName": "绵蟹科"
+        },
+        "genus": {
+          "scientificName": "Dromia",
+          "zhName": "绵蟹属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Dromia+personata",
+        "response": {
+          "usageKey": 2221836,
+          "scientificName": "Dromia personata (Linnaeus, 1758)",
+          "canonicalName": "Dromia personata",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "order": "Decapoda",
+          "family": "Dromiidae",
+          "genus": "Dromia",
+          "species": "Dromia personata",
+          "kingdomKey": 1,
+          "phylumKey": 54,
+          "classKey": 229,
+          "orderKey": 637,
+          "familyKey": 8038,
+          "genusKey": 2221831,
+          "speciesKey": 2221836,
+          "class": "Malacostraca"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "OBIS：Dromia personata 当前分类路径",
+          "url": "https://obis.org/taxon/107258",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "WoRMS：1758 年原名及原始描述第 628 页",
+          "url": "https://www.marinespecies.org/aphia.php?id=107258&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未核实可追溯的全球 IUCN 评估，暂用 NE；不代表已确认不存在评估"
+      }
+    },
+    {
+      "slug": "turtle-frog",
+      "scientificName": "Myobatrachus gouldii",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Chordata",
+          "zhName": "脊索动物门"
+        },
+        "class": {
+          "scientificName": "Amphibia",
+          "zhName": "两栖纲"
+        },
+        "order": {
+          "scientificName": "Anura",
+          "zhName": "无尾目"
+        },
+        "family": {
+          "scientificName": "Myobatrachidae",
+          "zhName": "龟蟾科"
+        },
+        "genus": {
+          "scientificName": "Myobatrachus",
+          "zhName": "龟蟾属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Myobatrachus+gouldii",
+        "response": {
+          "usageKey": 2424599,
+          "scientificName": "Myobatrachus gouldii (Gray, 1841)",
+          "canonicalName": "Myobatrachus gouldii",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "order": "Anura",
+          "family": "Myobatrachidae",
+          "genus": "Myobatrachus",
+          "species": "Myobatrachus gouldii",
+          "kingdomKey": 1,
+          "phylumKey": 44,
+          "classKey": 131,
+          "orderKey": 952,
+          "familyKey": 3089,
+          "genusKey": 2424598,
+          "speciesKey": 2424599,
+          "class": "Amphibia"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "美国自然历史博物馆：Myobatrachus gouldii、Gray 1841 原名及模式记录",
+          "url": "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Myobatrachoidea/Myobatrachidae/Myobatrachus/Myobatrachus-gouldii",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "LC",
+        "label": {
+          "zh": "无危",
+          "en": "Least Concern"
+        },
+        "trend": "stable",
+        "assessedYear": 2021,
+        "assessor": "IUCN SSC Amphibian Specialist Group；全球评估日期2021-05-18，2022年发布"
+      }
+    }
+  ]
+}

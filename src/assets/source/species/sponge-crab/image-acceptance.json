@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bce0dd53ea1683a7e25b90558698812f3bbec243edadd827d58c028d23c80711"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7e46e584650654caf9c34b00adf3358ffd9cad30e40f468a7316a0f2d2a1eb09"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7387a85ab2ff08537d7751942901d553ac4b9ed15c874080e77776b077306a70"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b3d20a2270eb59c76206380707824481485b343e107cf7c50b98d1a5cac857b8"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "db67ba41cd450b5b301962f0679b1e868c5d707efc1612ed594d143cde47c42a"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "771beda8759f8c35aedf1cfb878d029354d54de4f85cde68584356b204049c00"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bbcd6ae34ad94bfdd991eaad8c8b70818d868dca59601e0f8f22f5d52290e48d"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9b1e864858acf1ea5bffb5362f30e8a957559c07cc065c4a0d3e2547325acc7d"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e13e477a0646f342f7fff5e3fa7f94786daf84d5e413602b29e864e1dc3afa38"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ad2106afc4398c4a8e5e261125749e773a0fd1617116b99d16ac66552eb1fbb1"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3286becbbd00625e3d232f954e9cf34f680e22c7b1b2783a2832431febb53c2d"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7c62a0d82a4385dc519bed8b8313945c7fc4bfd0467201c2dba074d7a2dee758"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "海绵为携带物，后部抓握足部分被海绵与身体遮挡，不从生成图逐足计数；空载与携带图分别表示不同状态。封面边界含完整携带海绵。"
+}

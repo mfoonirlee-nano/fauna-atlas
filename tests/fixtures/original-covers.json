@@ -7811,5 +7811,70 @@
       },
       "sha256": "9c1a967a5efd1b11713402d4eaa18f3db98224d2597ece0554306916005a3dc3"
     }
+  },
+  "diving-bell-spider": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 155,
+        "right": 1430,
+        "bottom": 925
+      },
+      "sha256": "cd808c421f76be825017074cb84827805d6237977a5e9f6bb4751d16485e99a3"
+    }
+  },
+  "dalman-stalk-eyed-fly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 695,
+        "top": 170,
+        "right": 1505,
+        "bottom": 840
+      },
+      "sha256": "770ed95a8fe5380d82fec9a5a48218d3b81addba45367342fba29ed978d9fa20"
+    }
+  },
+  "lion-mane-nudibranch": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 740,
+        "top": 205,
+        "right": 1505,
+        "bottom": 655
+      },
+      "sha256": "ef9b6f0faa92ccdda97ac3a314b2818576b0389c71db2e1eafaaea203b486eee"
+    }
+  },
+  "sponge-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 705,
+        "top": 128,
+        "right": 1450,
+        "bottom": 860
+      },
+      "sha256": "7e46e584650654caf9c34b00adf3358ffd9cad30e40f468a7316a0f2d2a1eb09"
+    }
+  },
+  "turtle-frog": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 735,
+        "top": 350,
+        "right": 1445,
+        "bottom": 800
+      },
+      "sha256": "d638e7ad7f306b411979e2dec02e49b68e479b1e7712941d919f89220270a6b9"
+    }
   }
 }

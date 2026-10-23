@@ -42,4 +42,4 @@
 | 椰子章鱼 | [图片集](../../src/assets/source/species/coconut-octopus/README.md) · [提示词](../../src/assets/source/species/coconut-octopus/prompts.json) |
 | 那马瓜沙鸡 | [图片集](../../src/assets/source/species/namaqua-sandgrouse/README.md) · [提示词](../../src/assets/source/species/namaqua-sandgrouse/prompts.json) |
 
-验证结果在本批完成时记录。
+本批接入时 `npm test` 全部通过（805 种目录状态），已提交于 df980491。2026-10-23 完成第二批时补记 todo 中的五个完成勾选；详细验收证据保持本批原始记录。

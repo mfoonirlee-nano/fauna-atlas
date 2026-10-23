@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "52596b0104c89f4d764ecab4572a569582e0755b22021888805dc485aa3167d1"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cd808c421f76be825017074cb84827805d6237977a5e9f6bb4751d16485e99a3"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "809b388973c5e5da60d46d28f2d195f7cac424660042918d161fa1ea8ef30478"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0d092b0c3dedd18404cfd44d9864111f1d0d3ab37cf7c82f8ad331e6cd0cb375"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b173f3c3b02ed07f3a68597c01063f0d67a0151ab15f602644351fb01f49243e"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a5b593efbc78e553ff51aa5aa248a404933f8e46c5b0ad7ec9db67a00318d78f"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0eaf9c982152413d637dd2841f3256a37f04441f304d7216e1c2c147d4c38214"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "950647c668c8a94136e95774c550d508cb9800331260482c045558e8ab18a32b"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8d60ce95cb020038f988ff10579d29680192e88b151b3bbaa8abbdd103113cf8"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9939d8442b8214b84ebb14aae1ad6d2edd096c396a5d2d5953caf223dedab712"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "187b99b691960cd7c69cc8fb6ff4258b0e7b0412b459016ee26aa87aad041c1f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6cf13737d757f7384a8eecb759a6ce234076238ff68b4b011bf11b7a67db442a"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "气室由丝和水草支撑；空气层、运气与卵囊图用于解释结构和姿势，不按图估计气体体积。附肢局部自然遮挡，封面边界包括主要气室。"
+}

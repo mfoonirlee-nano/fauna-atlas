@@ -8052,4 +8052,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 880
     }
   },
+  "diving-bell-spider": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 155,
+      "right": 1430,
+      "bottom": 925
+    }
+  },
+  "dalman-stalk-eyed-fly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 695,
+      "top": 170,
+      "right": 1505,
+      "bottom": 840
+    }
+  },
+  "lion-mane-nudibranch": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 740,
+      "top": 205,
+      "right": 1505,
+      "bottom": 655
+    }
+  },
+  "sponge-crab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 705,
+      "top": 128,
+      "right": 1450,
+      "bottom": 860
+    }
+  },
+  "turtle-frog": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 735,
+      "top": 350,
+      "right": 1445,
+      "bottom": 800
+    }
+  }
 };

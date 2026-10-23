@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1c910ba2b94a959a63164cbf7639d5c183c949efd2f4e7f1f4af5737c26062db"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ef9b6f0faa92ccdda97ac3a314b2818576b0389c71db2e1eafaaea203b486eee"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f6b8edb9d9f18cc44940cb2a7a7d8ac7a9d53c1cf29ccdb036f1c0c17f82f14"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "97d5b0ff8c52b04c8af5914397f911cf4986e443981788b19a9cd83ab00de05c"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bac992fd734ecd68ac32ab71e96f143c349b6d559a0c1db293c4547537ea3494"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bd396be25b3237abacae6ac798d08517f9b59343bcaf5c2758fd3e1457b53dad"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6d4107637a8e38106116b724b4127ce6f88189fcbcd02d60924c4970b43c819f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7a4c06a487e11db2d4ab109f6848a27f19490b024bfa7c8bffb1b39f0dfb0e47"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f347fba86951b28f0bbe4d24026e47a1eb9c6dea1942a78cb958e15af121583b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "20f7ad60c7efa5baed44d57f9dbd7cbc89d4671f3c9e585bf138e89cc50209e9"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7fde8e70de2a956ddd1866085cd0e9bab7f28f1e48634872b497c008df31a50d"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "46e445618eb1468b4d8264e7348f0895dc34bb672b1eeaca8af9b7e00d197826"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "口兜开合为不同姿势示意，不从静态图推断动作先后；透明背突不作为解剖计数证据，卵带未按实测数量绘制。"
+}

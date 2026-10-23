@@ -1139,3 +1139,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [拟态章鱼图片集](./species/mimic-octopus/README.md)
 - [椰子章鱼图片集](./species/coconut-octopus/README.md)
 - [那马瓜沙鸡图片集](./species/namaqua-sandgrouse/README.md)
+
+## 2026-10-23 新奇动物第二批五种
+
+- [水蜘蛛图片集](./species/diving-bell-spider/README.md)
+- [达氏柄眼蝇图片集](./species/dalman-stalk-eyed-fly/README.md)
+- [狮鬃海蛞蝓图片集](./species/lion-mane-nudibranch/README.md)
+- [海绵背蟹图片集](./species/sponge-crab/README.md)
+- [龟蛙图片集](./species/turtle-frog/README.md)

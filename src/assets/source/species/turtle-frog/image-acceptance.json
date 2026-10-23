@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d1d7adc458f6a22068d01a734de06bbc1c88e55b78a9b45c5069d8950672f600"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d638e7ad7f306b411979e2dec02e49b68e479b1e7712941d919f89220270a6b9"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "77d192559b7527fa86e3a83125506e99740f406701a9a0efaa2f84ce6bb331bc"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f67aedd514a2fcf7897ff73fa34f87509c7f7cbf4276ff22f1723de3a2c1ab4e"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "90601d41d090137a4b091429da4e3b0dd1a9b78a2cd6eefa59f6c841c6bbd500"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ca2ac94aae68298f73bec3978f85a9c3664ea1ee3bf4f772f2353eaea05b1163"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cd6e8f30481b00ed59f71215ece4f6cacfc8cbb8bb14014d4a2921ad6640c4c2"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b773d2e270198b3013920ef162d499c162b4b0a15b33985be70ba730d9887f6b"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a27ee6320e06058c61e74752d127290a240707b34301ba2442efede00ebd8825"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7d3c2f2f9bf9cbaa6fbe99a16d777e4af89b2ec785a1b9594801e804c58b40ed"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "908c72c3395ec913fb1424b52455af12fe12f1039ab1b455d115f18834e690a1"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "428d15c66031cae000899def57d66bba79f447e94ed360b47faa4381a7165896"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "洞室配对和卵内发育为示意，不据图推断洞穴深度、卵大小及数量。卵图已移除无来源支持的守卵成体；白蚁为食物之一。"
+}
