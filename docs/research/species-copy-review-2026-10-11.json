@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "805 animal species profiles; microbial topics excluded",
+  "scope": "815 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -37170,6 +37170,244 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://amphibiansoftheworld.amnh.org/Amphibia/Anura/Myobatrachoidea/Myobatrachidae/Myobatrachus/Myobatrachus-gouldii"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sea-bunny",
+      "name": "海兔兔",
+      "scientificName": "Jorunna parva",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.seaslugforum.net/showall/joruparv",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9810844/",
+            "https://www.vliz.be/imisdocs/publications/309489.pdf",
+            "https://www.museum.yokosuka.kanagawa.jp/wp/wp-content/uploads/2020/07/S53-3_Hagiwara_2006.pdf"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.seaslugforum.net/showall/joruparv",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9810844/",
+            "https://www.vliz.be/imisdocs/publications/309489.pdf",
+            "https://www.museum.yokosuka.kanagawa.jp/wp/wp-content/uploads/2020/07/S53-3_Hagiwara_2006.pdf"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.seaslugforum.net/showall/joruparv",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC9810844/",
+            "https://www.vliz.be/imisdocs/publications/309489.pdf",
+            "https://www.museum.yokosuka.kanagawa.jp/wp/wp-content/uploads/2020/07/S53-3_Hagiwara_2006.pdf"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=534396&p=taxdetails",
+            "https://www.godac.jamstec.go.jp/bismal/e/view/9024943",
+            "https://doi.org/10.1093/mollus/eyn002",
+            "https://shell.sinica.edu.tw/english/shellfamily.php?ORDER=family&PAGE=1&pageNum_Recordset1=18&totalRows_Recordset1=293"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=534396&p=taxdetails",
+            "https://www.godac.jamstec.go.jp/bismal/e/view/9024943",
+            "https://doi.org/10.1093/mollus/eyn002",
+            "https://shell.sinica.edu.tw/english/shellfamily.php?ORDER=family&PAGE=1&pageNum_Recordset1=18&totalRows_Recordset1=293"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mystery-nudibranch",
+      "name": "深海兜帽海蛞蝓",
+      "scientificName": "Bathydevius caudactylus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://doi.org/10.1016/j.dsr.2024.104414",
+            "https://www.mbari.org/news/mbari-researchers-discover-remarkable-new-swimming-sea-slug-in-the-deep-sea/",
+            "https://www.mbari.org/animal/mystery-mollusc/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://doi.org/10.1016/j.dsr.2024.104414",
+            "https://www.mbari.org/news/mbari-researchers-discover-remarkable-new-swimming-sea-slug-in-the-deep-sea/",
+            "https://www.mbari.org/animal/mystery-mollusc/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://doi.org/10.1016/j.dsr.2024.104414",
+            "https://www.mbari.org/news/mbari-researchers-discover-remarkable-new-swimming-sea-slug-in-the-deep-sea/",
+            "https://www.mbari.org/animal/mystery-mollusc/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=1779673&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=1779673&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "venus-girdle",
+      "name": "金带栉水母",
+      "scientificName": "Cestum veneris",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://sio-legacy.ucsd.edu/zooplanktonguide/species/cestum-veneris",
+            "https://zdjp.si/wp-content/uploads/2022/07/ASHN_32-2022-1_ROGELJA-et-al..pdf",
+            "https://docs.rwu.edu/fcas_fp/1164/",
+            "https://blackmeditjournal.org/wp-content/uploads/6-2022-1_111-116.pdf",
+            "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://sio-legacy.ucsd.edu/zooplanktonguide/species/cestum-veneris",
+            "https://zdjp.si/wp-content/uploads/2022/07/ASHN_32-2022-1_ROGELJA-et-al..pdf",
+            "https://docs.rwu.edu/fcas_fp/1164/",
+            "https://blackmeditjournal.org/wp-content/uploads/6-2022-1_111-116.pdf",
+            "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://sio-legacy.ucsd.edu/zooplanktonguide/species/cestum-veneris",
+            "https://zdjp.si/wp-content/uploads/2022/07/ASHN_32-2022-1_ROGELJA-et-al..pdf",
+            "https://docs.rwu.edu/fcas_fp/1164/",
+            "https://blackmeditjournal.org/wp-content/uploads/6-2022-1_111-116.pdf",
+            "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=106363&p=taxdetails",
+            "https://obis.org/taxon/106363"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=106363&p=taxdetails",
+            "https://obis.org/taxon/106363"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "sunflower-sea-star",
+      "name": "向日葵海星",
+      "scientificName": "Pycnopodia helianthoides",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/sunflower-sea-star",
+            "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sunflower-star",
+            "https://oceanservice.noaa.gov/facts/starfish.html"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/sunflower-sea-star",
+            "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sunflower-star",
+            "https://oceanservice.noaa.gov/facts/starfish.html"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/sunflower-sea-star",
+            "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sunflower-star",
+            "https://oceanservice.noaa.gov/facts/starfish.html"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://obis.org/taxon/240764",
+            "https://www.marinespecies.org/DeepSea/aphia.php?id=240764&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://obis.org/taxon/240764",
+            "https://www.marinespecies.org/DeepSea/aphia.php?id=240764&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "yeti-crab",
+      "name": "雪人蟹",
+      "scientificName": "Kiwa hirsuta",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/news/discovery-of-the-yeti-crab/",
+            "https://doi.org/10.1111/j.1462-2920.2008.01684.x",
+            "https://ocean.si.edu/ocean-life/invertebrates/yeti-crab"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/news/discovery-of-the-yeti-crab/",
+            "https://doi.org/10.1111/j.1462-2920.2008.01684.x",
+            "https://ocean.si.edu/ocean-life/invertebrates/yeti-crab"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/news/discovery-of-the-yeti-crab/",
+            "https://doi.org/10.1111/j.1462-2920.2008.01684.x",
+            "https://ocean.si.edu/ocean-life/invertebrates/yeti-crab"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://zenodo.org/records/4891315",
+            "https://www.marinespecies.org/aphia.php?id=249751&p=taxdetails",
+            "https://obis.org/taxon/249751"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://zenodo.org/records/4891315",
+            "https://www.marinespecies.org/aphia.php?id=249751&p=taxdetails",
+            "https://obis.org/taxon/249751"
           ]
         }
       }

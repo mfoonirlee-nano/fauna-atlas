@@ -8101,5 +8101,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1445,
       "bottom": 800
     }
+  },
+  "sea-bunny": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 680,
+      "top": 200,
+      "right": 1480,
+      "bottom": 730
+    }
+  },
+  "mystery-nudibranch": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 765,
+      "top": 200,
+      "right": 1505,
+      "bottom": 690
+    }
+  },
+  "venus-girdle": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 725,
+      "top": 255,
+      "right": 1505,
+      "bottom": 765
+    }
+  },
+  "sunflower-sea-star": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 685,
+      "top": 125,
+      "right": 1515,
+      "bottom": 902
+    }
+  },
+  "yeti-crab": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 595,
+      "top": 115,
+      "right": 1515,
+      "bottom": 910
+    }
   }
 };

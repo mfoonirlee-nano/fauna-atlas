@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0cef086fcd04f3cce130e4ad7b7c1e257931aedfbe83c419b24aecf002ea65a2"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "81d11d7759deff9702006d6a1af7ba88c7d895549d6059f3dd46c00c73acc4cd"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9ea7662504c449f877b252c57ceee7f2541f8cd125f586d6de7a3e8d76038ad8"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e60e8c22b2373773dca3ecc99dd69684c97d197084ad9eea1fa57869a7fd7527"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "322e54a54655e075a29ad6b59f758a70d6feb6c349f974de65c42db793278d42"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b54bfe3db341c2da7d78a2f3abefa653c64d77db9309782e9a9008f2676e51d7"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "668c67f7d325d02cde569c6a31e0e3b3227af195845fb825be4c4bd830ecbe09"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4c5a53efa23677043293c42003aa4413ded92e2b45ddf2fb3d1ffecad5467e9e"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ec4fbad00e5b74b20ccf3cb53025de82d639b5d4256e0891b89bb4261fd3c28f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a01462646fc1b1a571c60f1423e0720dfcdf61dd856469f37962f5a7f4b6fcbf"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2c783e60489bd0648fe99ce6b1d068bce7b8b0ad189d3008f64702bdc5af0627"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f8a7d8815515ad2a102f887afd44ce05ce8722bdc4f60edd8249783fd7039b6b"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "长螯臂刚毛与裸露螯指分开；小型末对足自然遮挡，生成图不用于逐足或刚毛计数。附生细菌图为显微概念放大，不暗示已确认挥螯培菌行为。"
+}

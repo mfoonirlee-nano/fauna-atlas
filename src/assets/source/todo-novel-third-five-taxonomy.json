@@ -1,0 +1,408 @@
+{
+  "recordedAt": "2026-10-23",
+  "catalogueBefore": 810,
+  "catalogueAfter": 815,
+  "note": "GBIF lookups are the dated initial screening snapshot. Adopted taxonomy follows cited specialist sources.",
+  "records": [
+    {
+      "slug": "sea-bunny",
+      "scientificName": "Jorunna parva",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Mollusca",
+          "zhName": "软体动物门"
+        },
+        "class": {
+          "scientificName": "Gastropoda",
+          "zhName": "腹足纲"
+        },
+        "order": {
+          "scientificName": "Nudibranchia",
+          "zhName": "裸鳃目"
+        },
+        "family": {
+          "scientificName": "Discodorididae",
+          "zhName": "盘海牛科"
+        },
+        "genus": {
+          "scientificName": "Jorunna",
+          "zhName": "团鳃海牛属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Jorunna+parva&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 6519206,
+          "scientificName": "Jorunna parva (Baba, 1938)",
+          "canonicalName": "Jorunna parva",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Nudibranchia",
+          "family": "Discodorididae",
+          "genus": "Jorunna",
+          "species": "Jorunna parva",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 225,
+          "orderKey": 980,
+          "familyKey": 7041,
+          "genusKey": 2292452,
+          "speciesKey": 6519206,
+          "class": "Gastropoda"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "WoRMS：接受名、1938 年原始描述与 2008 年修订",
+          "url": "https://www.marinespecies.org/aphia.php?id=534396&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "JAMSTEC BISMaL：物种身份与分类路径",
+          "url": "https://www.godac.jamstec.go.jp/bismal/e/view/9024943",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Camacho-García 与 Gosliner（2008）：团鳃海牛属系统修订",
+          "url": "https://doi.org/10.1093/mollus/eyn002",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "中央研究院贝类资料库：盘海牛科中文名称",
+          "url": "https://shell.sinica.edu.tw/english/shellfamily.php?ORDER=family&PAGE=1&pageNum_Recordset1=18&totalRows_Recordset1=293",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未核实可追溯的全球 IUCN 评估，暂用 NE；不代表已确认不存在评估"
+      }
+    },
+    {
+      "slug": "mystery-nudibranch",
+      "scientificName": "Bathydevius caudactylus",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Mollusca",
+          "zhName": "软体动物门"
+        },
+        "class": {
+          "scientificName": "Gastropoda",
+          "zhName": "腹足纲"
+        },
+        "order": {
+          "scientificName": "Nudibranchia",
+          "zhName": "裸鳃目"
+        },
+        "family": {
+          "scientificName": "Bathydeviidae",
+          "zhName": "深海兜帽海蛞蝓科"
+        },
+        "genus": {
+          "scientificName": "Bathydevius",
+          "zhName": "深海兜帽海蛞蝓属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Bathydevius+caudactylus&strict=true&kingdom=Animalia",
+        "response": {
+          "confidence": 100,
+          "matchType": "NONE",
+          "synonym": false
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "WoRMS：接受种与 Bathydeviidae 科",
+          "url": "https://www.marinespecies.org/aphia.php?id=1779673&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未核实可追溯的全球 IUCN 评估，暂用 NE；不代表已确认不存在评估"
+      }
+    },
+    {
+      "slug": "venus-girdle",
+      "scientificName": "Cestum veneris",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Ctenophora",
+          "zhName": "栉水母动物门"
+        },
+        "class": {
+          "scientificName": "Tentaculata",
+          "zhName": "触手纲"
+        },
+        "order": {
+          "scientificName": "Cestida",
+          "zhName": "带栉目"
+        },
+        "family": {
+          "scientificName": "Cestidae",
+          "zhName": "带栉水母科"
+        },
+        "genus": {
+          "scientificName": "Cestum",
+          "zhName": "带栉水母属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Cestum+veneris&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 2501198,
+          "scientificName": "Cestum veneris Lesueur, 1813",
+          "canonicalName": "Cestum veneris",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Ctenophora",
+          "order": "Cestida",
+          "family": "Cestidae",
+          "genus": "Cestum",
+          "species": "Cestum veneris",
+          "kingdomKey": 1,
+          "phylumKey": 51,
+          "classKey": 365,
+          "orderKey": 1486,
+          "familyKey": 5696,
+          "genusKey": 2501197,
+          "speciesKey": 2501198,
+          "class": "Tentaculata"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "WoRMS：接受名、1813 年原始描述与尼斯模式产地",
+          "url": "https://www.marinespecies.org/aphia.php?id=106363&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "OBIS：Tentaculata、Cestida、Cestidae 分类路径",
+          "url": "https://obis.org/taxon/106363",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未核实可追溯的全球 IUCN 评估，暂用 NE；不代表已确认不存在评估"
+      }
+    },
+    {
+      "slug": "sunflower-sea-star",
+      "scientificName": "Pycnopodia helianthoides",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Echinodermata",
+          "zhName": "棘皮动物门"
+        },
+        "class": {
+          "scientificName": "Asteroidea",
+          "zhName": "海星纲"
+        },
+        "order": {
+          "scientificName": "Forcipulatida",
+          "zhName": "钳棘目"
+        },
+        "family": {
+          "scientificName": "Asteriidae",
+          "zhName": "海盘车科"
+        },
+        "genus": {
+          "scientificName": "Pycnopodia",
+          "zhName": "向日葵海星属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Pycnopodia+helianthoides&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 2274565,
+          "scientificName": "Pycnopodia helianthoides (Brandt, 1835)",
+          "canonicalName": "Pycnopodia helianthoides",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Echinodermata",
+          "order": "Forcipulatida",
+          "family": "Asteriidae",
+          "genus": "Pycnopodia",
+          "species": "Pycnopodia helianthoides",
+          "kingdomKey": 1,
+          "phylumKey": 50,
+          "classKey": 214,
+          "orderKey": 1462,
+          "familyKey": 6009,
+          "genusKey": 2274564,
+          "speciesKey": 2274565,
+          "class": "Asteroidea"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "OBIS：接受学名与海盘车科分类路径",
+          "url": "https://obis.org/taxon/240764",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "WoRMS：Brandt 1835 原始组合和描述",
+          "url": "https://www.marinespecies.org/DeepSea/aphia.php?id=240764&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "CR",
+        "label": {
+          "zh": "极危",
+          "en": "Critically Endangered"
+        },
+        "trend": "decreasing",
+        "assessedYear": 2020,
+        "assessor": "Gravem 等全球 IUCN 评估，2020 年评估、2021 年发表；未将加拿大或美国法律类别混作 IUCN 等级"
+      }
+    },
+    {
+      "slug": "yeti-crab",
+      "scientificName": "Kiwa hirsuta",
+      "adoptedTaxonomy": {
+        "kingdom": {
+          "scientificName": "Animalia",
+          "zhName": "动物界"
+        },
+        "phylum": {
+          "scientificName": "Arthropoda",
+          "zhName": "节肢动物门"
+        },
+        "class": {
+          "scientificName": "Malacostraca",
+          "zhName": "软甲纲"
+        },
+        "order": {
+          "scientificName": "Decapoda",
+          "zhName": "十足目"
+        },
+        "family": {
+          "scientificName": "Kiwaidae",
+          "zhName": "雪人蟹科"
+        },
+        "genus": {
+          "scientificName": "Kiwa",
+          "zhName": "雪人蟹属"
+        }
+      },
+      "initialScreeningDate": "2026-10-22",
+      "initialGbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Kiwa+hirsuta",
+        "response": {
+          "usageKey": 2222780,
+          "scientificName": "Kiwa hirsuta Macpherson, Jones & Segonzac, 2005",
+          "canonicalName": "Kiwa hirsuta",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 99,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Arthropoda",
+          "order": "Decapoda",
+          "family": "Kiwaidae",
+          "genus": "Kiwa",
+          "species": "Kiwa hirsuta",
+          "kingdomKey": 1,
+          "phylumKey": 54,
+          "classKey": 229,
+          "orderKey": 637,
+          "familyKey": 8047,
+          "genusKey": 2222779,
+          "speciesKey": 2222780,
+          "class": "Malacostraca"
+        }
+      },
+      "adoptedSources": [
+        {
+          "title": "Macpherson、Jones、Segonzac（2005）：模式标本及原始形态描述",
+          "url": "https://zenodo.org/records/4891315",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "WoRMS：接受名、命名年及 hirsuta 词源",
+          "url": "https://www.marinespecies.org/aphia.php?id=249751&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "OBIS：十足目、雪人蟹科和雪人蟹属的分类路径",
+          "url": "https://obis.org/taxon/249751",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ],
+      "conservation": {
+        "system": "IUCN Red List",
+        "code": "NE",
+        "label": {
+          "zh": "未评估",
+          "en": "Not Evaluated"
+        },
+        "trend": "unknown",
+        "assessor": "本次未核实可追溯的全球 IUCN 评估，暂用 NE；不代表已确认不存在评估"
+      }
+    }
+  ]
+}

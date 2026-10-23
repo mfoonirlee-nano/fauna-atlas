@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "377a5c23577fa8d44dbbc528083a3a24f306db9ff08316297abbb8d27388afcb"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5d6728f644fb568f711ad4414dfad8b3b15b991a150d70c8103f872a08c25903"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3f49c65cea4b9550d9c1458628b995a5debd47380cb3440e43526b02a5b34875"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "80e44789dae2709fbb6742ccc8cb68bc8aa108c29e592fa224f37d468acda0d3"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "64c150ee0d47f49005ec1d0eeb7052e314208d5fe6cb50702bcdca1d329ea815"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9c31d7a298c87d7c09b67972c578b752554ec4c25d652920fab3860eea399bb6"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2d3b67aca1c2e8d26879292e4e26186421dd49f30828f72cb25b05f6491f1ab6"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "52b9b5587da555a761a52fcf2b97717fca064a3b43de958d520fc64113cb2b24"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ed83e4ca2ff8a5c0261be0d6333da4188d7bf1b4c46104b36286014bb8a7a57b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b47844d7079152ea0f0803e51fb65a85bed2274e51b5a245d16cc87c2319e460"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1137437fa1965748ad647145c27b8cba16eb4e5fe98f7b01c6d4777913c997f9"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7bcb5ce7113aa88fe7076be52e8a5fb4804acf478106f6f1051b34a9d176ef97"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "浅色黑点外观按本种机构参考重建，短乳突不是毛发；不以生成图鉴定近似种，不把附着生物直接标为食物。局部图为放大观察，非显微实测。"
+}

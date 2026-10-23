@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2285520429e033b1e3c1714077f2d31d51d377ab4aa55ca040cbd2ed440fb79c"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6be432a1d152ba2ce77cc4f5e9912ccf3895c074a3c6374d90cf98f2bfcd8ac4"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "44e36749ac4756d17cb0c6300300a893639ef2be504dda14bc266e4cf290961f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6ad0b145dcf52057203a1f4bbca3ca8727f1065d02eead08e6b4834ba5fadd07"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d58e0943055a2865edd5b7383e3f8363b868b4a24afbbc0a1aa3fb7da17e477b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d0a4c8e8f0a6c2e63497eb6ee34623b66863265abf9364603cab03371faea6c5"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "963a91a885ec9e871dd9ed0cbb7178c355ab709ba4b01d29eae93a09e5b19d31"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4a78ed648e49f2d17b03a5b936538c635bdda2f09c96334b32fe74ffacea9fb2"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e8902b08a7cebc3fb0a70d27799b2f49c39cd8849d7dfd09168107e93c9e38e6"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "062708db7523ce0be779186bcb6399fc5eb76b5a08723179153f0a91ed281cf2"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0fe35bfffa9d91356572f29f7a9c287a28dfaa9ca45776515afc63bc9f8da666"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5521c9ad03162bf1507b76b8bc3d04e4b2d937340539dace9ee5f492a378ed8b"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "成体腕数和体色有变化，图示多腕成体不代表固定数量；腹面管足、幼成体比较为概念示意，幼成体大小非比例，不据图测量或翻动野外动物。"
+}

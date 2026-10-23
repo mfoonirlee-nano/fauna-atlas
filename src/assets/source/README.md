@@ -1147,3 +1147,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [狮鬃海蛞蝓图片集](./species/lion-mane-nudibranch/README.md)
 - [海绵背蟹图片集](./species/sponge-crab/README.md)
 - [龟蛙图片集](./species/turtle-frog/README.md)
+
+## 2026-10-23 新奇动物第三批五种
+
+- [海兔兔图片集](./species/sea-bunny/README.md)
+- [深海兜帽海蛞蝓图片集](./species/mystery-nudibranch/README.md)
+- [金带栉水母图片集](./species/venus-girdle/README.md)
+- [向日葵海星图片集](./species/sunflower-sea-star/README.md)
+- [雪人蟹图片集](./species/yeti-crab/README.md)

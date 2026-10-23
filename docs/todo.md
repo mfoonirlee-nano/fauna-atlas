@@ -1,6 +1,6 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-23 更新：本轮选定 100 种新动物，已完成 10 种，待制作 90 种。前次推荐的 15 种已包含在这 100 种内。正式目录现有 810 份物种档案；本轮已完成的 10 种包含 10 份档案、60 张配图，来源与验收见[首批记录](research/todo-novel-first-five-2026-10-23.md)及[第二批记录](research/todo-novel-second-five-2026-10-23.md)。
+2026-10-23 更新：本轮选定 100 种新动物，已完成 15 种，待制作 85 种。前次推荐的 15 种已包含在这 100 种内。正式目录现有 815 份物种档案；本轮已完成的 15 种包含 15 份档案、90 张配图，来源与验收见[首批记录](research/todo-novel-first-five-2026-10-23.md)、[第二批记录](research/todo-novel-second-five-2026-10-23.md)及[第三批记录](research/todo-novel-third-five-2026-10-23.md)。
 
 ## 选题范围与核查
 
@@ -17,13 +17,13 @@
 
 | 制作分组 | 已完成 | 待制作 |
 | --- | ---: | ---: |
-| 软体动物 | 5 | 16 |
-| 刺胞与栉水母动物 | 0 | 11 |
-| 棘皮动物 | 0 | 8 |
+| 软体动物 | 7 | 14 |
+| 刺胞与栉水母动物 | 1 | 10 |
+| 棘皮动物 | 1 | 7 |
 | 环节、海绵及其他动物 | 0 | 16 |
-| 节肢动物 | 3 | 25 |
+| 节肢动物 | 4 | 24 |
 | 脊索动物 | 2 | 14 |
-| 合计 | 10 | 90 |
+| 合计 | 15 | 85 |
 
 ## 制作顺序与完成条件
 
@@ -41,9 +41,9 @@
 | [x] | N007 | 夏威夷短尾乌贼 | *Euprymna scolopes* | 沙中藏身与腹部光器；用图示讲共生细菌如何帮助匹配上方光线 | 补 Sepiolida、Sepiolidae。 | [来源](https://doi.org/10.1073/pnas.0904571106) |
 | [ ] | N008 | 紫毯章鱼 | *Tremoctopus violaceus* | 雌性展开背侧腕间的大膜，像一件披风 | 补 Tremoctopodidae。 | [来源](https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/) |
 | [x] | N009 | 狮鬃海蛞蝓 | *Melibe leonina* | 口罩状口兜像小捞网，向下合拢抓取浮游动物 | 补 Tethydidae。 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/melibe) |
-| [ ] | N010 | 海兔兔 | *Jorunna parva* | 两根嗅角像兔耳，背部鳃簇像小尾巴；比较动物外形与功能 | 补 Discodorididae。 | [来源](https://www.godac.jamstec.go.jp/bismal/e/view/9024943) |
+| [x] | N010 | 海兔兔 | *Jorunna parva* | 两根嗅角像兔耳，背部鳃簇像小尾巴；比较动物外形与功能 | 补 Discodorididae。 | [来源](https://www.godac.jamstec.go.jp/bismal/e/view/9024943) |
 | [ ] | N013 | 龙骨新月贝 | *Neomenia carinata* | 像小蠕虫却属于软体动物；寻找腹部沟及细小骨针 | 补沟腹纲 Solenogastres、Neomeniidae。 | [来源](https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560) |
-| [ ] | N016 | 深海兜帽海蛞蝓 | *Bathydevius caudactylus* | 透明身体一端有捕食兜帽，另一端有指状尾突；游在深海水层 | 裸鳃类中加入远离海底的生活方式 | [来源](https://www.mbari.org/animal/mystery-mollusc/) |
+| [x] | N016 | 深海兜帽海蛞蝓 | *Bathydevius caudactylus* | 透明身体一端有捕食兜帽，另一端有指状尾突；游在深海水层 | 裸鳃类中加入远离海底的生活方式 | [来源](https://www.mbari.org/animal/mystery-mollusc/) |
 | [ ] | N017 | 透明中层章鱼 | *Japetella diaphana* | 对比近透明与不透明橙色身体；妈妈抱着卵漂游 | 比较中层章鱼与底栖章鱼的隐蔽和育幼 | [来源](https://www.mbari.org/animal/midwater-octopus/) |
 | [ ] | N018 | 八腕鱿鱼 | *Octopoteuthis deletron* | 成年个体只有八条腕，腕尖有发光器 | 比较鱿鱼不同发育阶段的附肢数量 | [来源](https://www.mbari.org/animal/octopus-squid/) |
 | [ ] | N019 | 珍珠章鱼 | *Muusoctopus robustus* | 温暖渗流水边，许多妈妈倒转身体护着卵 | 补充深海繁殖聚集与温度影响发育的例子 | [来源](https://www.mbari.org/animal/pearl-octopus/) |
@@ -63,7 +63,7 @@
 
 | 状态 | 编号 | 中文选题名 | 学名 | 儿童观察点 | 分类与比较价值 | 资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ ] | N002 | 金带栉水母 | *Cestum veneris* | 身体像透明丝带，寻找身体中央的口与纤毛梳板 | 补带栉目 Cestida、Cestidae。 | [来源](https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies) |
+| [x] | N002 | 金带栉水母 | *Cestum veneris* | 身体像透明丝带，寻找身体中央的口与纤毛梳板 | 补带栉目 Cestida、Cestidae。 | [来源](https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies) |
 | [ ] | N031 | 大红水母 | *Tiburonia granrojo* | 红色大伞下垂着短粗口腕，看不到伞缘长触手 | 与已有长触手水母比较捕食结构 | [来源](https://www.mbari.org/animal/big-red-jelly/) |
 | [ ] | N032 | 巨型幽灵水母 | *Stygiomedusa gigantea* | 四条像长丝带的口腕；有鱼在附近穿游 | 增加深海巨型钵水母与栖身关联例子 | [来源](https://www.mbari.org/animal/giant-phantom-jelly/) |
 | [ ] | N033 | 疙瘩水母 | *Stellamedusa ventana* | 放大看满身小突起；四条蕾丝状口腕扫过伞边 | 展示缺少长触手、以表面刺细胞捕猎的钵水母 | [来源](https://www.mbari.org/animal/bumpy-jelly/) |
@@ -82,7 +82,7 @@
 | [ ] | N041 | 鳞甲海参 | *Psolus squamatus* | 背上像铠甲，底面贴岩；分枝触手逐根送入口 | 比较行走海参与固着、悬浮摄食海参 | [来源](https://www.mbari.org/animal/armored-sea-cucumber/) |
 | [ ] | N042 | 加州太阳海星 | *Rathbunaster californicus* | 举腕接住游过的小动物；放大看表面小钳子 | 丰富海星的摄食方式及叉棘结构 | [来源](https://www.mbari.org/animal/california-sun-star/) |
 | [ ] | N043 | 脆壳粉红海胆 | *Strongylocentrotus fragilis* | 粉红海胆成群走过软泥，吃沉到海底的腐败海带 | 与浅海紫海胆比较食物和海底环境 | [来源](https://www.mbari.org/animal/fragile-pink-sea-urchin/) |
-| [ ] | N044 | 向日葵海星 | *Pycnopodia helianthoides* | 比较五腕幼体和最多二十四腕的成体；看密集管足 | 加入多腕海星的生长变化 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sunflower-star) |
+| [x] | N044 | 向日葵海星 | *Pycnopodia helianthoides* | 比较五腕幼体和最多二十四腕的成体；看密集管足 | 加入多腕海星的生长变化 | [来源](https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sunflower-star) |
 | [ ] | N045 | 赭色海星 | *Pisaster ochraceus* | 观察海星和贻贝的位置，比较橙、紫个体 | 丰富潮间带海星与食物网选题 | [来源](https://linnet.geog.ubc.ca/efauna/Atlas/Atlas.aspx?sciname=Pisaster+ochraceus) |
 | [ ] | N046 | 偏心沙钱 | *Dendraster excentricus* | 活体密布短棘，白色空壳上有花瓣纹；能立在沙中 | 与圆海胆、已有海饼比较扁平形态 | [来源](https://www.montereybayaquarium.org/animals/animals-a-to-z/sand-dollar) |
 | [ ] | N047 | 橙色瓜参 | *Cucumaria miniata* | 橙色树枝状触手伸出岩缝，沾食物后送入口 | 补悬浮摄食海参，与食沉积物海参比较 | [来源](https://inverts.wallawalla.edu/Echinodermata/Class%20Holothuroidea/Cucumaria_miniata.html) |
@@ -118,7 +118,7 @@
 | [ ] | N014 | 北方蛩蠊 | *Grylloblatta campodeiformis* | 无翅、长触角，在寒冷环境寻找小动物；比较雪地和朽木下的生活 | 补蛩蠊目 Grylloblattodea、Grylloblattidae。 | [来源](https://www.zoology.ubc.ca/entomology/main/Grylloblattodea/Grylloblattidae/) |
 | [ ] | N061 | 大螯枪虾 | *Alpheus heterochaelis* | 比较一大一小的螯；用慢动作图示看大螯闭合与空化气泡 | 补 Alpheidae；应使用北美鉴定材料，南美部分旧记录已另立种，不能整批照搬 | [来源](https://collections.naturalsciences.be/ssh-invertebrates/digital-library/crustacea/malacostraca/decapoda/biblio/versluis_how_2000) |
 | [x] | N062 | 海绵背蟹 | *Dromia personata* | 螃蟹背着海绵走路；找出抓住海绵的后两对足 | 补 Dromiidae；把步行足与抓握足分别画出，不画成海绵自己长在蟹背上的固定壳 | [来源](https://www.vliz.be/imisdocs/publications/312811.pdf) |
-| [ ] | N063 | 雪人蟹 | *Kiwa hirsuta* | 热液附近的白色甲壳动物，前肢布满长刚毛 | 补 Kiwaidae；与其他雪人蟹物种区分，不把其他种的“挥舞培养细菌”行为直接移植过来 | [来源](https://www.mbari.org/news/discovery-of-the-yeti-crab/) |
+| [x] | N063 | 雪人蟹 | *Kiwa hirsuta* | 热液附近的白色甲壳动物，前肢布满长刚毛 | 补 Kiwaidae；与其他雪人蟹物种区分，不把其他种的“挥舞培养细菌”行为直接移植过来 | [来源](https://www.mbari.org/news/discovery-of-the-yeti-crab/) |
 | [ ] | N064 | 斑点海葵瓷蟹 | *Neopetrolisthes maculatus* | 住在海葵旁，挥动有长刚毛的口器，像刷子扫取食物 | 补 Porcellanidae；可与真蟹比较腹部和触角，瓷蟹的大螯不是主要滤食器官 | [来源](https://museum.wa.gov.au/explore/blogs/andrew-hosie/creature-feature-neopetrolisthes-maculatus) |
 | [ ] | N065 | 桶居端足虾 | *Phronima sedentaria* | 雌体带着透明桶形“育儿房”游动，观察大眼与附肢 | 补 Amphipoda、Phronimidae；桶来自樽海鞘组织，不能画成它自己吐出的泡泡 | [来源](https://www.mbari.org/animal/barrel-amphipod/) |
 | [ ] | N066 | 巨型发光糠虾 | *Neognathophausia ingens* | 红色身体、长额角；展示受扰时口器附近释放的发光物 | 补 Lophogastrida、Gnathophausiidae；旧组合 Gnathophausia ingens 与本种只计一次。发光物需与身体颜色分开表达 | [来源](https://inverts.wallawalla.edu/Arthropoda/Crustacea/Malacostraca/Eumalacostraca/Peracarida/Lophogastrida/Neognathophausia_ingens.html) |

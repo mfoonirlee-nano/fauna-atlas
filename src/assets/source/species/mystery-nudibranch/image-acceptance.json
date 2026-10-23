@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "baf5f2e923450136e545a0a96c187544ba0b1215d7049478f6315a502a902017"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ecc94cfee5ab7d563d697d8437429822d9f574c68fd557c37720717dd4579e3b"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "01f8391bb337af5beb3085f334a4659113576e16cf8f6af171f020f68c05c365"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "370cc0b6e4aedc41e1eddd8ea255541a4442e9e3cb489f6e9a7d5248891d2734"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "933a13aea33a09c64bddd7bc55d282e6f0b0e6352698626dfbb88d7bb91fadcc"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4613919b21eeb09d7a749cbc8857594690e35ea4903452bc83de64a8cba7fd71"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "63e1d6bda068dae82776366551cebc644543a5adc96fbc5d8db44ae07f222956"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1986627eb8102973d38e9bb76009a575d5f49ee67e34a2b7de9b9f543eb0fc76"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "10cc0b316592c53c96ab1f85d01b51ff81d2af1db71038f1ce5671fc5726fe79"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8cad5342cc4aefdbb1c1372057f96be6f14b3f956b90981b6dd179c9a0021030"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "17818618ee79169d63d055da578267bf27c0fa17509a49481963199be3070957"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b2681f9337ec424a87e2b5bcc2deb24b5de2e2c038d46a66cbdc312ae2012413"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "透明兜帽、肌足与尾指按机构结构说明；糠虾、发光和产卵图属于特定情景示意，不提供动作顺序、光强或卵数实测。"
+}

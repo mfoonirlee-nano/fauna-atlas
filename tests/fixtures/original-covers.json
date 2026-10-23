@@ -7876,5 +7876,70 @@
       },
       "sha256": "d638e7ad7f306b411979e2dec02e49b68e479b1e7712941d919f89220270a6b9"
     }
+  },
+  "sea-bunny": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 200,
+        "right": 1480,
+        "bottom": 730
+      },
+      "sha256": "5d6728f644fb568f711ad4414dfad8b3b15b991a150d70c8103f872a08c25903"
+    }
+  },
+  "mystery-nudibranch": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 765,
+        "top": 200,
+        "right": 1505,
+        "bottom": 690
+      },
+      "sha256": "ecc94cfee5ab7d563d697d8437429822d9f574c68fd557c37720717dd4579e3b"
+    }
+  },
+  "venus-girdle": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 725,
+        "top": 255,
+        "right": 1505,
+        "bottom": 765
+      },
+      "sha256": "640451b6285b216c56bdc8bd431d3b2fedc8dce839cccab68b9add6cd9d523b5"
+    }
+  },
+  "sunflower-sea-star": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 685,
+        "top": 125,
+        "right": 1515,
+        "bottom": 902
+      },
+      "sha256": "6be432a1d152ba2ce77cc4f5e9912ccf3895c074a3c6374d90cf98f2bfcd8ac4"
+    }
+  },
+  "yeti-crab": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 595,
+        "top": 115,
+        "right": 1515,
+        "bottom": 910
+      },
+      "sha256": "81d11d7759deff9702006d6a1af7ba88c7d895549d6059f3dd46c00c73acc4cd"
+    }
   }
 }

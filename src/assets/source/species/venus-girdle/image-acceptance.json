@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "229263c1ddb163d25f5d9370bc366a21040429e89cc759d9a13585d1936347ec"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "640451b6285b216c56bdc8bd431d3b2fedc8dce839cccab68b9add6cd9d523b5"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ee2f99f9bd669225e8b4565c94a50bdff13225e44c5ed72d4835406923b123ec"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c1d2183a028f77dc0fe5f60997f2b7e46d968c46201cbb5432827e09173f0436"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0089a0be33c0534e2c71b53bcda613a5f409bd32e96b930c0e7640faab6d63ef"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c1fe510b5b1307a898bb93f1b86a545aced51f8c513f4ddc988e5356994ba824"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5b5178e8943f6767d7563ede7a8281ef00f7c2c9d65cd2d3bc0b5b71a0cad4b2"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "09201c6133751810d80d12bef812b2d24f8c9fc9c754a06b113da483f1a85aa7"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5fcd338a576d64a3741b236f722b2ba52ad9bfdfb1651aa881625d7f990628e7"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "181912ce42ab7fbbf0e954fdabb8a0381360483384583d253a7eb5080bec2b92"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "741b77baec2102a4352d995536ae7c80209803e883d339733f926298f627939a"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2ea2992fa894f97d08848a4030e2fd96cf25c0dfaf5b80718d1f8508ff8ea08d"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "透明宽扁带体、中央口及反口侧梳板按原始结构资料。生成图不用于梳板解剖计数；彩色为照明反光示意，不代表持续自身发光；微距捕食图非比例。"
+}
