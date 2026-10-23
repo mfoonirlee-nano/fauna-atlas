@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "initialPrompts": [
+    {
+      "index": 1,
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic scientific reconstruction for a children's animal encyclopedia. Realistic species anatomy and environment. Natural colors, no fantasy, no text, no labels, no watermark, no collage. Subject: coconut octopus Amphioctopus marginatus, rounded dark brown mantle with branching darker vein-like lines, cream wedge under each eye, eight muscular arms with dark edges and conspicuous pale blue white suckers. Habitat: Indonesian tropical sandy muddy seabed. COVER composition: single COMPLETE primary animal on right, silhouette occupying x=46-94%, y=16-84%, subject center beyond 60% width. Left 40% quiet background. Include ALL visible arms, fins, feet, bill, wings and tail tips with clear background margins. Large clear subject, not a distant speck. Animal resting beside one coconut shell half, all arms contained in right part."
+    },
+    {
+      "index": 2,
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic scientific reconstruction for a children's animal encyclopedia. Realistic species anatomy and environment. Natural colors, no fantasy, no text, no labels, no watermark, no collage. Subject identity: coconut octopus Amphioctopus marginatus, rounded dark brown mantle with branching darker vein-like lines, cream wedge under each eye, eight muscular arms with dark edges and conspicuous pale blue white suckers. Habitat: Indonesian tropical sandy muddy seabed. Scene: whole animal on sand beside an empty coconut shell half, veined mantle and pale suckers visible. Make the observation clear, use a distinct composition. Full visible subject edges safely inside the frame unless this is explicitly a close-up. This is an illustrative reconstruction, not documentary evidence."
+    },
+    {
+      "index": 3,
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic scientific reconstruction for a children's animal encyclopedia. Realistic species anatomy and environment. Natural colors, no fantasy, no text, no labels, no watermark, no collage. Subject identity: coconut octopus Amphioctopus marginatus, rounded dark brown mantle with branching darker vein-like lines, cream wedge under each eye, eight muscular arms with dark edges and conspicuous pale blue white suckers. Habitat: Indonesian tropical sandy muddy seabed. Scene: octopus holding a coconut shell half beneath its body with some arms, other arms extended downward for stilt walking across sand, shell NOT attached to body. Make the observation clear, use a distinct composition. Full visible subject edges safely inside the frame unless this is explicitly a close-up. This is an illustrative reconstruction, not documentary evidence."
+    },
+    {
+      "index": 4,
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic scientific reconstruction for a children's animal encyclopedia. Realistic species anatomy and environment. Natural colors, no fantasy, no text, no labels, no watermark, no collage. Subject identity: coconut octopus Amphioctopus marginatus, rounded dark brown mantle with branching darker vein-like lines, cream wedge under each eye, eight muscular arms with dark edges and conspicuous pale blue white suckers. Habitat: Indonesian tropical sandy muddy seabed. Scene: octopus sheltering between two natural coconut shell halves with one eye and several arm tips visible through gap. Make the observation clear, use a distinct composition. Full visible subject edges safely inside the frame unless this is explicitly a close-up. This is an illustrative reconstruction, not documentary evidence."
+    },
+    {
+      "index": 5,
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic scientific reconstruction for a children's animal encyclopedia. Realistic species anatomy and environment. Natural colors, no fantasy, no text, no labels, no watermark, no collage. Subject identity: coconut octopus Amphioctopus marginatus, rounded dark brown mantle with branching darker vein-like lines, cream wedge under each eye, eight muscular arms with dark edges and conspicuous pale blue white suckers. Habitat: Indonesian tropical sandy muddy seabed. Scene: close eye and veined mantle view, cream wedge under eye and pale bluish white suckers clearly visible. Make the observation clear, use a distinct composition. Full visible subject edges safely inside the frame unless this is explicitly a close-up. This is an illustrative reconstruction, not documentary evidence."
+    },
+    {
+      "index": 6,
+      "prompt": "Use case: scientific-educational. One landscape 1536x1024 naturalistic scientific reconstruction for a children's animal encyclopedia. Realistic species anatomy and environment. Natural colors, no fantasy, no text, no labels, no watermark, no collage. Subject identity: coconut octopus Amphioctopus marginatus, rounded dark brown mantle with branching darker vein-like lines, cream wedge under each eye, eight muscular arms with dark edges and conspicuous pale blue white suckers. Habitat: Indonesian tropical sandy muddy seabed. Scene: octopus using an empty bivalve shell as shelter on muddy sand, no coconut needed, no human objects. Make the observation clear, use a distinct composition. Full visible subject edges safely inside the frame unless this is explicitly a close-up. This is an illustrative reconstruction, not documentary evidence."
+    }
+  ],
+  "coverEdits": [
+    {
+      "prompt": "Edit the supplied animal encyclopedia cover. Preserve this exact species identity, realistic anatomy, coloration and habitat. Recompose the ENTIRE animal and any shell used as shelter into the RIGHT HALF of the landscape canvas. Output 1536x1024. HARD COMPOSITION: every visible part of animal including ALL arm tips, fins, tail etc and shelter shell must lie entirely within x=680 to 1470, y=140 to 890. The left 42 percent of the image MUST contain only quiet natural habitat, no part of animal at all. Subject silhouette center around x=1080 (70%). Animal must be large and clear within that right-side box, include all extremities with background margin. For octopus arrange long arms naturally folded or curled compactly in the right-side area so no tip reaches left. Complete subject must be visible, never crop an appendage at edge. Single naturalistic scene, no frames, no text, no labels, no watermark. This is a scientific illustrative reconstruction.",
+      "output_hint": "Generated images are saved to /Users/chris.li/.codex/generated_images/01a1663e-5470-7263-b202-2fb4fc91c533 as /Users/chris.li/.codex/generated_images/01a1663e-5470-7263-b202-2fb4fc91c533/exec-b4d9db59-f698-4003-a34e-7e4cac6adc6f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "acceptedCoverEdit": 1
+}

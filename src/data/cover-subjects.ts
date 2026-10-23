@@ -8002,4 +8002,54 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "bottom": 731
     }
   },
+  "flamboyant-cuttlefish": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 616,
+      "top": 240,
+      "right": 1500,
+      "bottom": 785
+    }
+  },
+  "hawaiian-bobtail-squid": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 600,
+      "top": 180,
+      "right": 1500,
+      "bottom": 916
+    }
+  },
+  "mimic-octopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 710,
+      "top": 164,
+      "right": 1500,
+      "bottom": 938
+    }
+  },
+  "coconut-octopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 684,
+      "top": 220,
+      "right": 1490,
+      "bottom": 840
+    }
+  },
+  "namaqua-sandgrouse": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 460,
+      "top": 128,
+      "right": 1440,
+      "bottom": 880
+    }
+  },
 };

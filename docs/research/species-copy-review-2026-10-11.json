@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "800 animal species profiles; microbial topics excluded",
+  "scope": "805 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 240,
-    "addedProfilesReviewDate": "2026-10-22",
+    "addedProfiles": 245,
+    "addedProfilesReviewDate": "2026-10-23",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -36744,6 +36744,217 @@
           "sources": [
             "https://cecoal.conicet.gov.ar/una-misma-especie-para-los-gliptodontes-sudamericanos/",
             "https://doi.org/10.1080/02724634.2018.1525390"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "flamboyant-cuttlefish",
+      "name": "火焰乌贼",
+      "scientificName": "Ascarosepion pfefferi",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbl.edu/research/research-organisms/flamboyant-cuttlefish"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbl.edu/research/research-organisms/flamboyant-cuttlefish"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbl.edu/research/research-organisms/flamboyant-cuttlefish"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1667026",
+            "https://www.gbif.org/species/12237854",
+            "https://www.mbl.edu/research/research-organisms/flamboyant-cuttlefish"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1667026",
+            "https://www.gbif.org/species/12237854"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "hawaiian-bobtail-squid",
+      "name": "夏威夷短尾乌贼",
+      "scientificName": "Euprymna scolopes",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/19509343/",
+            "https://www.tandfonline.com/doi/full/10.1080/13235818.2022.2107503"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/19509343/",
+            "https://www.tandfonline.com/doi/full/10.1080/13235818.2022.2107503"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://animaldiversity.org/accounts/Euprymna_scolopes/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=342322&p=taxdetails",
+            "https://obis.org/taxon/342322",
+            "https://www.gbif.org/species/2289092",
+            "https://pubmed.ncbi.nlm.nih.gov/19509343/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=342322&p=taxdetails",
+            "https://obis.org/taxon/342322",
+            "https://www.gbif.org/species/2289092"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "mimic-octopus",
+      "name": "拟态章鱼",
+      "scientificName": "Thaumoctopus mimicus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC1088805/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mapress.com/mrs/article/view/mr.25.2.1",
+            "https://www.gbif.org/species/4357171",
+            "https://www.amnh.org/explore/news-blogs/mimic-octopus-behavior"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.mapress.com/mrs/article/view/mr.25.2.1",
+            "https://www.gbif.org/species/4357171"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "coconut-octopus",
+      "name": "椰子章鱼",
+      "scientificName": "Amphioctopus marginatus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://australian.museum/learn/animals/molluscs/veined-octopus-octopus-marginatus/",
+            "https://doi.org/10.1016/j.cub.2009.10.052",
+            "https://www.latrobe.edu.au/news/videos/octopus-coconut"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://australian.museum/learn/animals/molluscs/veined-octopus-octopus-marginatus/",
+            "https://doi.org/10.1016/j.cub.2009.10.052",
+            "https://www.latrobe.edu.au/news/videos/octopus-coconut"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://ocean.si.edu/ocean-life/invertebrates/veined-octopus-anilao-batangas-pier-philippines"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5856039",
+            "https://australian.museum/learn/animals/molluscs/veined-octopus-octopus-marginatus/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/5856039"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "namaqua-sandgrouse",
+      "name": "那马瓜沙鸡",
+      "scientificName": "Pterocles namaqua",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/37042192/",
+            "https://news.mit.edu/2023/scientists-uncover-sandgrouse-hold-water-feathers-0411"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/37042192/",
+            "https://news.mit.edu/2023/scientists-uncover-sandgrouse-hold-water-feathers-0411"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.biodiversityexplorer.info/birds/pteroclidae/pterocles_namaqua.htm"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=177054",
+            "https://www.gbif.org/species/2480202",
+            "https://pubmed.ncbi.nlm.nih.gov/37042192/"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=177054",
+            "https://www.gbif.org/species/2480202"
           ]
         }
       }

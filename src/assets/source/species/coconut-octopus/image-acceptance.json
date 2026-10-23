@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a181b9b6e99a7cb4a7198969bfee7b38947adf9c52fa35e8b38006f5a3848a9f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2f8dd80af136e43a1efe391a65fe961db1cff984e4cbfc15a671a4bcc8c83f7a"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2d1c9bdad07829a4cfb25a43858fb0a5c973b06a902580bc09532b8dc5051d70"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1a5a7bbbbafb4e11561cda3c0bec98ba1a6346b560f45a4750b2ae4de8f8ea99"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "722cc60c922504cf9d6e732fe73ef8194451d656c52df3cc6af7e39dafe2b74b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b305028279fa2fe2971597e5f394f5590989ab8a273a49e6cfa878615686033f"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2b95088de81e249be200fe5a12f1be14c0e0b67a7cb0635a32b59f710abebd7e"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c1ab48f1824098a891a66dbd330d5ceb64a35710a545e653c57f6a158576ec69"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a9ed39d698e3aee7b9d65b9a3ad3e2887fc85644a274a4257e180db4215b8783"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "20181f883fb83a954a7f743830480e6bf4100582961a3c2804e7440a698219b7"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "36612afca5c6357dee9588feb5c9b3dca85510f9ef293ad1b63bc33c62c28771"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ea2bd79f5fd2f621639ab189933b4c68ca4d64547580f89242c82bda2fc9c7ec"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "主体边界记录可见动物，包括卷曲腕尖和吸盘；背后的壳为环境遮蔽物，壳缘靠近右侧。背景有局部纹理变化，不能作为自然影像。"
+}

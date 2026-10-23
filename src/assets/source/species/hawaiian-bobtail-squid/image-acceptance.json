@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "759825f4c25b08d3294bfd37858ab2d360b8878c86ae1af75d02778c2545884b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "132f4f80637745fb1dfa3147fcf859b5b8841d04c2790115883f4b5b01ea0ccd"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "edc9add5d7533aa5c04d260f6130d6059931d4881fbe8a726ddaddc4d8826990"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f01a7ab88eaac60dee1694ba1f1d5643b18f6d262513ded15034c90d2ed67b89"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "90fcfdaae85c6a92c6e082cdf47569ecdda5dbbdd8022a868f327a977a6d8969"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b68cbaffa56f0566fcfa56d9d7a0cd939db9b44b3f8a33814aa1836fbbaedd59"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a36ed78caa7c7da0eff91c431b44fd528237de364fe8dd4e6571fe4507c04cee"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fbb7138825f5e99901df959eba3c5f4dc32add4737ca61606fdeab9df11be595"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "47cb056fb4f2bca5d0323f991a3a752d44e8a86a7c069e542ec56acb689820d6"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3adf0c880f2c296fe5829f7fcd69f97bb2447bfd1a7457eb2453fa04ee8942c3"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a437d0b84a8bedb630bef4eaefbacdfa5751974de74cdc2bef45d90315658206"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "06598a356483020335a7b0bda6da6a03c89f98f6db7f9bb8c4a4a6e941985d3e"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "共生光的方向与亮度为概念示意；皮肤反光不能证明生物发光。原生图的红褐色点状花纹仅作外观介绍。"
+}

@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4a17d93863aa04930af072148fc455936ff16c2eae31626a4acb86671104a30b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9c1a967a5efd1b11713402d4eaa18f3db98224d2597ece0554306916005a3dc3"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "38a4d4a0fcc281d7245b7084528c409bc88351885ee6604e52fb5a2fa651b596"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ca8b9aa8fdc869f45e8a27e9c9c033ec51b1b607b4950ac5b155e881fd8e4cb4"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "195c08a610d45ab3ad675e6c45322632960d9a03ca1ce341f504be3c9cbf8590"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d1e9cbaed1057426547f8e32f8a78e1da6087cf149a2da10c02d82b3be719108"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7d7085b456d47822a7c325f42b4ff5c21e2e440365517ccea26d083c6a97d0dc"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7176085dec5d4d1c05754be7876d99221055389fe90a212076a7d24ac1183d97"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e6888fb7053a7b96eb8390163403ae91e94deb8ba031ad812a91d5425b952b87"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1e0f42c1094b8b9c242e378021b645c06057be9f439410363f62d6311e7009b9"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "df413e06f8255b1e595442be7662a8136597242826272325d18ee4c6442c93d3"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4716babe758b26ffe3262913e6119923a36871ba49b3580023848905aeb4173f"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "细长尾尖伸入画面左侧下方，其余主体位于右侧，完整轮廓水平中心超过 60%；左侧上部留白。雌雄观察图包含一对鸟，已按画面说明。湿羽图没有显微比例尺。"
+}

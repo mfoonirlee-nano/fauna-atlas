@@ -1131,3 +1131,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [大王菊石图片集](./species/parapuzosia-seppenradensis/README.md)
 - [布氏巨脉蜻蜓图片集](./species/meganeura-monyi/README.md)
 - [网纹雕齿兽图片集](./species/glyptodon-reticulatus/README.md)
+
+## 2026-10-23 新奇动物首批五种
+
+- [火焰乌贼图片集](./species/flamboyant-cuttlefish/README.md)
+- [夏威夷短尾乌贼图片集](./species/hawaiian-bobtail-squid/README.md)
+- [拟态章鱼图片集](./species/mimic-octopus/README.md)
+- [椰子章鱼图片集](./species/coconut-octopus/README.md)
+- [那马瓜沙鸡图片集](./species/namaqua-sandgrouse/README.md)

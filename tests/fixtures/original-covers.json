@@ -7746,5 +7746,70 @@
       },
       "sha256": "8b632b66d47acc7a0608093052f4a1495569ed9caa35d6b28ac5b5cf41466be8"
     }
+  },
+  "flamboyant-cuttlefish": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 616,
+        "top": 240,
+        "right": 1500,
+        "bottom": 785
+      },
+      "sha256": "c13b36e1e40f2e3d9656794452576fcbece011ec643b7a899536155bc396527b"
+    }
+  },
+  "hawaiian-bobtail-squid": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 600,
+        "top": 180,
+        "right": 1500,
+        "bottom": 916
+      },
+      "sha256": "132f4f80637745fb1dfa3147fcf859b5b8841d04c2790115883f4b5b01ea0ccd"
+    }
+  },
+  "mimic-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 710,
+        "top": 164,
+        "right": 1500,
+        "bottom": 938
+      },
+      "sha256": "b2aea8fa69c5e329c794aaf9289dd99387dbe674cc63ea2a4991040a7d7ebf99"
+    }
+  },
+  "coconut-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 684,
+        "top": 220,
+        "right": 1490,
+        "bottom": 840
+      },
+      "sha256": "2f8dd80af136e43a1efe391a65fe961db1cff984e4cbfc15a671a4bcc8c83f7a"
+    }
+  },
+  "namaqua-sandgrouse": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 460,
+        "top": 128,
+        "right": 1440,
+        "bottom": 880
+      },
+      "sha256": "9c1a967a5efd1b11713402d4eaa18f3db98224d2597ece0554306916005a3dc3"
+    }
   }
 }

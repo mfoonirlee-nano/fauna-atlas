@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "080c82af6e851910c76dce459e836e41fd3af63df4f2b9892112f1796204ef92"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c13b36e1e40f2e3d9656794452576fcbece011ec643b7a899536155bc396527b"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c0134a71183fa7dea3ebfb8a0d2d4c8d6a3f558c58f1665b0883637a018e2e34"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2752e18f32bc69433728b35475d1f79bf6ffafabcc36a71a73446e7d88113dbe"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c5494a94d0e008874a5f1e717c22348b9efa7b91f33ec4b203771d6787317532"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6dac85e31899e42904b873274dfad1f357acb41f30146c59ff83ef78453b20be"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2c216289ed8dcb0b2c235ee1e3824cd63aa393651f20ae3b887440528eeacb21"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8e57eeb218487a64374521f98792d8b645b57c47dcccf104f8c7ae3a380fcfe3"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2dd8980632aead27be8d5ab796ad53d3fb360b7b53a91a92b40712fc81bb73a0"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "67e0afbf69919422890565a12712486564cf49a5ed9d5fcec2a92a0cdcc3bcbe"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5638616bae075d58abbd17dba3620e1f0ca3e1b2d800eea83d5aae70bb9571a3"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9b5f101f4fa0184d3f97651786280eae75aecfb4c9c12e347967f7b578196275"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "展示色与伪装体色分别示意；卵图的胚胎大小、颜色与发育阶段未经实测。腕在自然姿势中相互遮挡。"
+}

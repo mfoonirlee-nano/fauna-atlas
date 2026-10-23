@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-23",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a3cf3cab8b97389b5f423173d61e646c0724bcf7a5937f352a54477b285e01e8"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b2aea8fa69c5e329c794aaf9289dd99387dbe674cc63ea2a4991040a7d7ebf99"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "dbb1f06bb9f62005ff6714728913cbfd2c0023a52e5bdddf575997db7e61e44f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0e46f1848e681da4845ce97af4511a479454537499ee0465170025c776c23b68"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d5d6c073bcf8376faefa01cccc2b7d051706a50c0b3a755b95204c0596e0df3b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b1fcfe2ba2aa6cc00851e4ac3366368cccfaef1b9f1ab908e4b1f132aad020f2"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "84f5a9552b57d182d95342a5279e937febc005bcd28f0dde658cf2fd9123c2a3"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "aa8ac5eb844bf38519713d8bdc59158baea710efeecdeaaebdde4e85a4834528"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "013cd955d0aa0781f0d7991a48178d2cd34b94ea962efb5edaadabbd9f7d3ff1"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "d913761c1776d60d89a421d1904a4f96bb39e989fcb9b8a1b61368f578e78be5"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e5302e8162f9f5ede55a1c077fc03e412e6886017ba291bb00d9dce73e9647da"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "36bd3afb50f10f135733e4efe33e2144230f425736f52ad38ebc2d693cded9a1"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "长腕自然交叠、卷曲；三种拟态图分别示意姿势，不据图判断动作顺序。封面的空壳属于环境布景。"
+}
