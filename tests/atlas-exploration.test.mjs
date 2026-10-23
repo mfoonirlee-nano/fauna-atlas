@@ -1,17 +1,28 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { JSDOM } from 'jsdom';
+import { createCanvas, Path2D } from '@napi-rs/canvas';
 import { createServer } from 'vite';
 import { act, createElement } from 'react';
 
 async function setup(context) {
   const dom = new JSDOM('<div id="root"></div>', { url: 'https://atlas.test/', pretendToBeVisual: true });
-  const keys = ['window', 'document', 'IS_REACT_ACT_ENVIRONMENT', 'ResizeObserver'];
+  const keys = ['window', 'document', 'IS_REACT_ACT_ENVIRONMENT', 'ResizeObserver', 'Path2D'];
   const previous = keys.map((key) => Object.getOwnPropertyDescriptor(globalThis, key));
   globalThis.window = dom.window;
   globalThis.document = dom.window.document;
   globalThis.IS_REACT_ACT_ENVIRONMENT = true;
   globalThis.ResizeObserver = class { observe() {} disconnect() {} };
+  globalThis.Path2D = Path2D;
+  const canvases = new WeakMap();
+  dom.window.HTMLCanvasElement.prototype.getContext = function (type) {
+    if (type !== '2d') return null;
+    let canvas = canvases.get(this);
+    if (!canvas) { canvas = createCanvas(this.width, this.height); canvases.set(this, canvas); }
+    if (canvas.width !== this.width) canvas.width = this.width;
+    if (canvas.height !== this.height) canvas.height = this.height;
+    return canvas.getContext('2d');
+  };
   const { createRoot } = await import('react-dom/client');
   const root = createRoot(document.getElementById('root'));
   const server = await createServer({ server: { middlewareMode: true, watch: null, hmr: false }, appType: 'custom' });
@@ -41,8 +52,78 @@ test('map aggregation preserves documented points and search includes taxonomy a
     assert.equal(slugs.length, species.filter((item) => domain.projectSpecies(item)).length);
     assert.equal(new Set(slugs).size, slugs.length);
     assert.ok(groups.every((group) => Number.isFinite(group.x) && Number.isFinite(group.y)));
+    for (let i = 0; i < groups.length; i++) for (let j = i + 1; j < groups.length; j++) {
+      assert.ok(Math.hypot(groups[i].x - groups[j].x, groups[i].y - groups[j].y) * zoom >= 44 - 1e-6,
+        'neighbouring grid cells must not leave overlapping cluster centres');
+    }
   }
 
+});
+
+test('canvas pointer hits select the painted point after zoom and ignore empty space and drags', async (context) => {
+  const { root, species, AtlasExploration, server, domain } = await setup(context);
+  const { mapScreenPoint } = await server.ssrLoadModule('/src/components/canvas-map-renderer.ts');
+  const panda = species.find((item) => item.slug === 'giant-panda');
+  await act(() => root.render(createElement(AtlasExploration, { items: [panda], mode: 'geography', onOpenSpecies() {} })));
+  const map = document.querySelector('.exploration-map__surface'); mockMapGeometry(map);
+  await act(() => [...document.querySelectorAll('.exploration-regions button')].find((button) => button.textContent === '亚洲').click());
+  const group = domain.clusterSpecies([panda], 2)[0];
+  const screen = mapScreenPoint(group, readCamera(), { width: 1000, height: 520 });
+  await act(() => mapPointer(map, 'pointermove', screen.x, screen.y));
+  assert.match(document.querySelector('.exploration-map__tooltip').textContent, /大熊猫/);
+  await act(() => {
+    mapPointer(map, 'pointerdown', screen.x, screen.y);
+    mapPointer(map, 'pointerup', screen.x, screen.y);
+    map.dispatchEvent(new window.MouseEvent('click', { bubbles: true, detail: 1, clientX: screen.x, clientY: screen.y }));
+  });
+  assert.match(document.querySelector('.exploration-field-note').textContent, /大熊猫/);
+  await act(() => {
+    mapPointer(map, 'pointerdown', 20, 20); mapPointer(map, 'pointerup', 20, 20);
+    map.dispatchEvent(new window.MouseEvent('click', { bubbles: true, detail: 1, clientX: 20, clientY: 20 }));
+  });
+  assert.equal(document.querySelector('.exploration-field-note'), null);
+  await act(() => mapPointer(map, 'pointerdown', screen.x, screen.y));
+  await nextMapFrame(() => mapPointer(map, 'pointermove', screen.x + 80, screen.y));
+  await act(() => {
+    mapPointer(map, 'pointerup', screen.x + 80, screen.y);
+    map.dispatchEvent(new window.MouseEvent('click', { bubbles: true, detail: 1, clientX: screen.x + 80, clientY: screen.y }));
+  });
+  assert.equal(document.querySelector('.exploration-field-note'), null);
+});
+
+test('real canvas raster stays sharp, keeps CSS marker sizes and reuses the basemap on hover', async (context) => {
+  const { server, species } = await setup(context);
+  const { createCanvasMapRenderer, mapScreenPoint, hitMapGroup } = await server.ssrLoadModule('/src/components/canvas-map-renderer.ts');
+  const base = createCanvas(500, 400), points = createCanvas(500, 400);
+  let basePaints = 0;
+  const original = base.getContext.bind(base);
+  base.getContext = (...args) => { basePaints++; return original(...args); };
+  const draw = createCanvasMapRenderer(base, points);
+  const group = { key: 'test', x: 500, y: 260, items: [species[0]] };
+  const scene = { camera: { x: 0, y: 0, zoom: 1 }, viewport: { width: 500, height: 400 }, groups: [group], activeSlugs: new Set() };
+  draw(scene, 2);
+  assert.equal(base.width, 1000); assert.equal(base.height, 800);
+  const firstPaint = basePaints;
+  draw({ ...scene, hoverKey: 'test' }, 2);
+  assert.equal(basePaints, firstPaint, 'hover redraws the point layer without repainting the geographic paths');
+  let previousWidth;
+  for (const ratio of [1, 2, 3]) for (const zoom of [1, 4, 8]) {
+    const camera = { x: 0, y: 0, zoom };
+    draw({ ...scene, camera }, ratio);
+    const center = mapScreenPoint(group, camera, scene.viewport);
+    assert.deepEqual(center, { x: 250, y: 200 });
+    assert.equal(hitMapGroup({ x: center.x + 21, y: center.y }, { ...scene, camera })?.key, 'test');
+    assert.equal(hitMapGroup({ x: center.x + 30, y: center.y }, { ...scene, camera }), undefined);
+    const row = points.getContext('2d').getImageData(0, Math.round(center.y * ratio), points.width, 1).data;
+    const occupied = [];
+    for (let x = 0; x < points.width; x++) if (row[x * 4 + 3] > 200) occupied.push(x);
+    const cssWidth = (occupied.at(-1) - occupied[0] + 1) / ratio;
+    if (previousWidth !== undefined) assert.ok(Math.abs(cssWidth - previousWidth) <= 1, 'marker diameter must not grow with camera zoom or DPR');
+    previousWidth = cssWidth;
+  }
+  const mobile = { width: 320, height: 480 }, camera = { x: 60, y: -20, zoom: 3 };
+  const point = mapScreenPoint(group, camera, mobile);
+  assert.equal(hitMapGroup(point, { ...scene, camera, viewport: mobile })?.key, 'test', 'letterboxed mobile hit coordinates match the painted marker');
 });
 
 test('geographic map clusters, zoom, coordinate omissions and profile actions work', async (context) => {
@@ -52,7 +133,9 @@ test('geographic map clusters, zoom, coordinate omissions and profile actions wo
   let opened;
   await act(() => root.render(createElement(AtlasExploration, { items: [panda, missing], mode: 'geography', onOpenSpecies: (item) => { opened = item; } })));
   assert.match(document.querySelector('.exploration-map__caption').textContent, /1 个物种有代表坐标.*1 个物种暂未标点/);
-  assert.ok(document.querySelector('.exploration-land').getAttribute('d').length > 1000);
+  assert.equal(document.querySelectorAll('.exploration-map canvas').length, 2);
+  assert.equal(document.querySelector('.exploration-map > svg'), null, 'geography uses Canvas, not an SVG map');
+  assert.ok(document.querySelector('.exploration-map__basemap').getContext('2d').getImageData(500, 260, 1, 1).data[3] > 0);
   await act(() => document.querySelector('.exploration-marker').dispatchEvent(new window.MouseEvent('click', { bubbles: true })));
   assert.equal(document.querySelectorAll('.exploration-list > button').length, 1);
   await act(() => document.querySelector('.exploration-preview button').click());
@@ -99,10 +182,10 @@ test('regional navigation, point previews and keyboard exploration preserve spec
   assert.equal(document.querySelector('.exploration-map__controls span').textContent, '2×');
   assert.equal(document.querySelectorAll('.exploration-list > button').length, 2, 'region shortcuts reposition the map without filtering the catalogue');
   const surface = document.querySelector('.exploration-map__surface');
-  const regionalTransform = surface.getAttribute('transform');
-  const map = document.querySelector('.exploration-map > svg');
+  const regionalTransform = surface.getAttribute('data-camera');
+  const map = document.querySelector('.exploration-map__surface');
   await act(() => map.dispatchEvent(new window.KeyboardEvent('keydown', { key: 'ArrowRight', bubbles: true })));
-  assert.notEqual(surface.getAttribute('transform'), regionalTransform);
+  assert.notEqual(surface.getAttribute('data-camera'), regionalTransform);
   assert.equal(document.querySelector('.exploration-map__identity strong').textContent, '自由探索');
   const marker = document.querySelector('.exploration-marker');
   await act(() => marker.dispatchEvent(new window.FocusEvent('focusin', { bubbles: true })));
@@ -118,11 +201,11 @@ test('regional navigation, point previews and keyboard exploration preserve spec
   await act(() => pandaButton.click());
   assert.equal(document.querySelector('.exploration-marker').getAttribute('aria-pressed'), 'true');
   const point = domain.projectSpecies(panda);
-  assert.equal(surface.getAttribute('transform'), `translate(${500 + Math.max(-500, Math.min(500, (500 - point[0]) * 2))} ${260 + Math.max(-260, Math.min(260, (260 - point[1]) * 2))}) scale(2) translate(-500 -260)`);
+  assert.deepEqual(readCamera(), { x: Math.max(-500, Math.min(500, (500 - point[0]) * 2)), y: Math.max(-260, Math.min(260, (260 - point[1]) * 2)), zoom: 2 });
   const missingButton = [...document.querySelectorAll('.exploration-list > button')].find((button) => button.textContent.includes('未标点物种'));
-  const locatedTransform = surface.getAttribute('transform');
+  const locatedTransform = surface.getAttribute('data-camera');
   await act(() => missingButton.click());
-  assert.equal(surface.getAttribute('transform'), locatedTransform, 'unmapped species do not move the map');
+  assert.equal(surface.getAttribute('data-camera'), locatedTransform, 'unmapped species do not move the map');
   assert.match(document.querySelector('.exploration-field-note').textContent, /暂无代表坐标/);
   assert.equal(document.querySelector('.exploration-selected-point'), null);
 });
@@ -144,14 +227,14 @@ test('native fullscreen follows browser exit and keeps the map selection', async
     document.dispatchEvent(new window.Event('fullscreenchange'));
   };
   await act(() => document.querySelector('.exploration-list > button').click());
-  const transform = document.querySelector('.exploration-map__surface').getAttribute('transform');
+  const transform = document.querySelector('.exploration-map__surface').getAttribute('data-camera');
   await act(async () => document.querySelector('[aria-label="全屏展示地理分布"]').click());
   assert.equal(document.fullscreenElement, workspace);
   assert.ok(workspace.classList.contains('is-fullscreen'));
   assert.equal(document.querySelector('[aria-label="退出全屏展示"]').getAttribute('aria-pressed'), 'true');
-  assert.equal(document.querySelector('.exploration-map__surface').getAttribute('transform'), transform);
-  await act(() => document.querySelector('.exploration-map > svg').dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
-  assert.equal(document.querySelector('.exploration-map__surface').getAttribute('transform'), transform, 'Escape in fullscreen does not reset the map');
+  assert.equal(document.querySelector('.exploration-map__surface').getAttribute('data-camera'), transform);
+  await act(() => document.querySelector('.exploration-map__surface').dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true })));
+  assert.equal(document.querySelector('.exploration-map__surface').getAttribute('data-camera'), transform, 'Escape in fullscreen does not reset the map');
   await act(async () => document.exitFullscreen()); // Browser Esc exits independently of the component button.
   assert.ok(!workspace.classList.contains('is-fullscreen'));
   assert.equal(document.querySelector('.exploration-list > button').getAttribute('aria-pressed'), 'true');
@@ -272,15 +355,13 @@ function mockMapGeometry(map) {
 }
 
 function readCamera() {
-  const transform = document.querySelector('.exploration-map__surface').getAttribute('transform');
-  const values = [...transform.matchAll(/-?\d+(?:\.\d+)?(?:e[-+]?\d+)?/gi)].map((match) => Number(match[0]));
-  return { x: values[0] - 500, y: values[1] - 260, zoom: values[2] };
+  return JSON.parse(document.querySelector('.exploration-map__surface').getAttribute('data-camera'));
 }
 
 test('map wheel zoom anchors the pointer and leaves ordinary page scrolling alone', async (context) => {
   const { root, species, AtlasExploration } = await setup(context);
   await act(() => root.render(createElement(AtlasExploration, { items: species.slice(0, 3), mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   mockMapGeometry(map);
   const wheel = (extra = {}) => new window.WheelEvent('wheel', { bubbles: true, cancelable: true, clientX: 650, clientY: 300, deltaY: -100, ...extra });
   const pageScroll = wheel();
@@ -299,7 +380,7 @@ test('map wheel zoom anchors the pointer and leaves ordinary page scrolling alon
 test('map drag captures immediately, respects bounds and survives pointer cancellation', async (context) => {
   const { root, species, AtlasExploration } = await setup(context);
   await act(() => root.render(createElement(AtlasExploration, { items: species.slice(0, 3), mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   const captured = mockMapGeometry(map);
   await act(() => document.querySelector('[aria-label="放大地图"]').click());
   await act(() => mapPointer(map, 'pointerdown', 400, 250));
@@ -335,7 +416,7 @@ test('pinch zoom, one-finger continuation and drag click suppression stay indepe
   const { root, species, AtlasExploration } = await setup(context);
   const panda = species.find((item) => item.slug === 'giant-panda');
   await act(() => root.render(createElement(AtlasExploration, { items: [panda], mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   mockMapGeometry(map);
   await act(() => {
     mapPointer(map, 'pointerdown', 400, 260, 1, 'touch');
@@ -362,7 +443,7 @@ test('pinch zoom, one-finger continuation and drag click suppression stay indepe
 test('double-click anchors zoom and lost capture stops further movement', async (context) => {
   const { root, species, AtlasExploration } = await setup(context);
   await act(() => root.render(createElement(AtlasExploration, { items: species.slice(0, 3), mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   mockMapGeometry(map);
   await act(() => map.dispatchEvent(new window.MouseEvent('dblclick', { bubbles: true, cancelable: true, clientX: 600, clientY: 300 })));
   assert.deepEqual(readCamera(), { x: -100, y: -40, zoom: 2 });
@@ -375,7 +456,7 @@ test('double-click anchors zoom and lost capture stops further movement', async 
   assert.ok(!document.querySelector('.exploration-map.is-dragging'));
 });
 
-test('camera math handles letterboxed SVGs and keeps the world visible over repeated zooms', async (context) => {
+test('camera math handles letterboxed canvas viewports and keeps the world visible over repeated zooms', async (context) => {
   const { server } = await setup(context);
   const { mapPoint, zoomCamera, constrainCamera } = await server.ssrLoadModule('/src/domain/map-camera.ts');
   assert.deepEqual(mapPoint({ x: 260, y: 420 }, { left: 10, top: 20, width: 500, height: 800 }), { x: 500, y: 260 });
@@ -393,11 +474,11 @@ test('captured marker taps select the original point without relying on the reta
   const { root, species, AtlasExploration } = await setup(context);
   const panda = species.find((item) => item.slug === 'giant-panda');
   await act(() => root.render(createElement(AtlasExploration, { items: [panda], mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   const captured = mockMapGeometry(map);
   const marker = document.querySelector('.exploration-marker');
   await act(() => mapPointer(marker, 'pointerdown', 500, 260));
-  assert.ok(captured.has(1), 'the stable SVG owns capture, even when starting on a marker');
+  assert.ok(captured.has(1), 'the stable surface owns capture, even when starting on a keyboard marker');
   await act(() => mapPointer(map, 'pointerup', 500, 260));
   await act(() => map.dispatchEvent(new window.MouseEvent('click', { bubbles: true, detail: 1 })));
   assert.match(document.querySelector('.exploration-field-note').textContent, /大熊猫/);
@@ -412,8 +493,8 @@ test('captured marker taps select the original point without relying on the reta
   assert.ok(!document.querySelector('.exploration-field-note'), 'a new background tap must not reuse the previous marker');
 });
 
-test('animated camera keeps marker size and position synchronized and gestures interrupt it', async (context) => {
-  const { root, species, AtlasExploration } = await setup(context);
+test('animated canvas camera publishes frames without resizing the bitmap and gestures interrupt it', async (context) => {
+  const { root, species, AtlasExploration, server } = await setup(context);
   const frames = new Map();
   let nextId = 0;
   window.requestAnimationFrame = (callback) => { frames.set(++nextId, callback); return nextId; };
@@ -424,7 +505,7 @@ test('animated camera keeps marker size and position synchronized and gestures i
     await act(() => pending.forEach((callback) => callback(now)));
   };
   await act(() => root.render(createElement(AtlasExploration, { items: species.slice(0, 2), mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   mockMapGeometry(map);
   await act(() => document.querySelector('[aria-label="放大地图"]').click());
   await act(() => document.querySelector('[aria-label="放大地图"]').click());
@@ -434,8 +515,7 @@ test('animated camera keeps marker size and position synchronized and gestures i
   await tick(performance.now() + 100);
   const mid = readCamera();
   assert.ok(mid.zoom > 2 && mid.zoom < 4);
-  const markerScale = Number(map.style.getPropertyValue('--map-marker-scale'));
-  assert.ok(Math.abs(markerScale * mid.zoom - 1) < 0.000001, 'marker scale follows the rendered camera on each animation frame');
+  assert.equal(document.querySelector('.exploration-map__points').width, 1000, 'camera animation redraws at the fixed backing resolution instead of scaling a bitmap');
   await act(() => window.dispatchEvent(new window.Event('blur')));
   assert.equal(frames.size, 0, 'window blur cancels an unfinished animation');
   await act(() => document.querySelector('[aria-label="放大地图"]').click());
@@ -493,7 +573,7 @@ test('search preserves the camera through empty results and clears stale point s
   const panda = species.find((item) => item.slug === 'giant-panda');
   await act(() => root.render(createElement(AtlasExploration, { items: species, mode: 'geography', onOpenSpecies() {} })));
   await act(() => document.querySelector('[aria-label="放大地图"]').click());
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   const before = readCamera();
   await act(() => document.querySelector('.exploration-marker').dispatchEvent(new window.KeyboardEvent('keydown', { key: 'Enter', bubbles: true })));
   const input = document.querySelector('.exploration-tools input');
@@ -503,13 +583,13 @@ test('search preserves the camera through empty results and clears stale point s
     input.dispatchEvent(new window.Event('input', { bubbles: true }));
   });
   await search('does-not-exist-12345');
-  assert.equal(document.querySelector('.exploration-map > svg'), map, 'zero results keep the map mounted');
+  assert.equal(document.querySelector('.exploration-map__surface'), map, 'zero results keep the map mounted');
   assert.deepEqual(readCamera(), before);
   assert.equal(document.querySelectorAll('.exploration-marker').length, 0);
   assert.ok(document.querySelector('.exploration-empty'));
   assert.equal(document.querySelector('.exploration-map-actions button').disabled, true);
   await search(panda.names.zh);
-  assert.equal(document.querySelector('.exploration-map > svg'), map);
+  assert.equal(document.querySelector('.exploration-map__surface'), map);
   assert.deepEqual(readCamera(), before);
   assert.equal(document.querySelectorAll('.exploration-list > button').length, 1);
   assert.equal(document.querySelector('.is-point-selection'), null);
@@ -522,7 +602,7 @@ test('cancelled marker contact cannot select a species or clear an existing sele
   const { root, species, AtlasExploration } = await setup(context);
   const panda = species.find((item) => item.slug === 'giant-panda');
   await act(() => root.render(createElement(AtlasExploration, { items: [panda], mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   mockMapGeometry(map);
   await act(() => mapPointer(document.querySelector('.exploration-marker'), 'pointerdown', 500, 260));
   await act(() => mapPointer(map, 'pointercancel', 500, 260));
@@ -559,7 +639,7 @@ test('cluster expansion fits representative points and preserves its candidate l
 test('camera-only frames do not mutate cluster contents or rebuild catalogue rows', async (context) => {
   const { root, species, AtlasExploration } = await setup(context);
   await act(() => root.render(createElement(AtlasExploration, { items: species, mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   mockMapGeometry(map);
   await act(() => document.querySelector('[aria-label="放大地图"]').click());
   const markers = [...document.querySelectorAll('.exploration-marker')];
@@ -584,7 +664,7 @@ test('keyboard focus brings hidden points into view and supports map shortcuts o
   const { root, species, AtlasExploration } = await setup(context);
   const panda = species.find((item) => item.slug === 'giant-panda');
   await act(() => root.render(createElement(AtlasExploration, { items: [panda], mode: 'geography', onOpenSpecies() {} })));
-  const map = document.querySelector('.exploration-map > svg');
+  const map = document.querySelector('.exploration-map__surface');
   mockMapGeometry(map);
   const europe = [...document.querySelectorAll('.exploration-regions button')].find((button) => button.textContent === '欧洲');
   await act(() => europe.click());

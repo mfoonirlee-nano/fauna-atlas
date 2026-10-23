@@ -5,12 +5,20 @@ interface Contact { start: MapPoint; point: MapPoint }
 
 /** A single camera drives the surface and markers together, including animation. */
 export function useMapCamera() {
-  const svg = useRef<SVGSVGElement>(null);
+  const surface = useRef<HTMLDivElement>(null);
   const current = useRef(worldCamera);
   const destination = useRef(worldCamera);
   const [camera, setCamera] = useState(worldCamera);
   const [interacting, setInteracting] = useState(false);
   const [viewportScale, setViewportScale] = useState(1);
+  const viewportScaleRef = useRef(1);
+  const [viewport, setViewport] = useState({ width: 1000, height: 520 });
+  const listeners = useRef(new Set<(camera: MapCamera) => void>());
+  const snapshotZoom = useRef(0);
+  const subscribe = useCallback((listener: (camera: MapCamera) => void) => {
+    listeners.current.add(listener);
+    return () => { listeners.current.delete(listener); };
+  }, []);
   const contacts = useRef(new Map<number, Contact>());
   const gesture = useRef<{ camera: MapCamera; center: MapPoint; distance: number } | undefined>(undefined);
   const suppressClick = useRef(false);
@@ -22,18 +30,27 @@ export function useMapCamera() {
     if (animation.current !== undefined) window.cancelAnimationFrame(animation.current);
     animation.current = undefined;
   }, []);
-  const publish = useCallback((next: MapCamera, deferred = false) => {
+  const flush = useCallback((settled: boolean) => {
+    for (const listener of listeners.current) listener(current.current);
+    // The canvas consumes every frame. React only needs cluster changes and settled controls.
+    const bucket = Math.floor(Math.log2(current.current.zoom * viewportScaleRef.current));
+    if (settled || bucket !== snapshotZoom.current) {
+      snapshotZoom.current = bucket;
+      setCamera(current.current);
+    }
+  }, []);
+  const publish = useCallback((next: MapCamera, deferred = false, settled = true) => {
     current.current = constrainCamera(next);
     if (deferred) {
       destination.current = current.current;
       if (renderFrame.current === undefined) renderFrame.current = window.requestAnimationFrame(() => {
-        renderFrame.current = undefined; setCamera(current.current);
+        renderFrame.current = undefined; flush(false);
       });
     } else {
       if (renderFrame.current !== undefined) window.cancelAnimationFrame(renderFrame.current);
-      renderFrame.current = undefined; setCamera(current.current);
+      renderFrame.current = undefined; flush(settled);
     }
-  }, []);
+  }, [flush]);
   const moveTo = useCallback((next: MapCamera, animate = true) => {
     stopAnimation();
     const target = constrainCamera(next), from = current.current;
@@ -45,7 +62,7 @@ export function useMapCamera() {
     const frame = (now: number) => {
       const t = Math.min(1, (now - start) / 240), eased = 1 - (1 - t) ** 3;
       publish({ x: from.x + (target.x - from.x) * eased, y: from.y + (target.y - from.y) * eased,
-        zoom: from.zoom + (target.zoom - from.zoom) * eased });
+        zoom: from.zoom + (target.zoom - from.zoom) * eased }, false, t === 1);
       animation.current = t < 1 ? window.requestAnimationFrame(frame) : undefined;
     };
     animation.current = window.requestAnimationFrame(frame);
@@ -60,7 +77,7 @@ export function useMapCamera() {
       center: b ? { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 } : a,
       distance: b ? Math.hypot(b.x - a.x, b.y - a.y) : 0 } : undefined;
   };
-  const pointerDown = (event: ReactPointerEvent<SVGSVGElement>) => {
+  const pointerDown = (event: ReactPointerEvent<HTMLDivElement>) => {
     if (event.button !== 0 || contacts.current.size >= 2) return;
     stopAnimation();
     destination.current = current.current;
@@ -68,13 +85,13 @@ export function useMapCamera() {
     if (!contacts.current.size) suppressClick.current = false;
     const point = mapPoint({ x: event.clientX, y: event.clientY }, event.currentTarget.getBoundingClientRect());
     contacts.current.set(event.pointerId, { start: point, point });
-    // Markers may unmount during reclustering; capture on the stable SVG instead.
-    event.currentTarget.setPointerCapture(event.pointerId);
+    // Keep capture on the surface while the canvas and cluster set change.
+    event.currentTarget.setPointerCapture?.(event.pointerId);
     event.currentTarget.focus({ preventScroll: true });
     if (contacts.current.size === 2) { suppressClick.current = true; setInteracting(true); }
     rebase();
   };
-  const pointerMove = (event: ReactPointerEvent<SVGSVGElement>) => {
+  const pointerMove = (event: ReactPointerEvent<HTMLDivElement>) => {
     const contact = contacts.current.get(event.pointerId), base = gesture.current;
     if (!contact || !base) return;
     const rect = event.currentTarget.getBoundingClientRect();
@@ -89,7 +106,7 @@ export function useMapCamera() {
       ? base.camera.zoom * Math.hypot(b.x - a.x, b.y - a.y) / base.distance : base.camera.zoom, base.center);
     publish({ ...zoomed, x: zoomed.x + center.x - base.center.x, y: zoomed.y + center.y - base.center.y }, true);
   };
-  const pointerEnd = (event: ReactPointerEvent<SVGSVGElement>) => {
+  const pointerEnd = (event: ReactPointerEvent<HTMLDivElement>) => {
     if (!contacts.current.delete(event.pointerId)) return;
     if (event.type === 'pointercancel' || event.type === 'lostpointercapture') suppressClick.current = true;
     const target = event.currentTarget;
@@ -98,7 +115,7 @@ export function useMapCamera() {
     if (!contacts.current.size) setInteracting(false);
   };
   useEffect(() => {
-    const element = svg.current;
+    const element = surface.current;
     if (!element) return;
     const wheel = (event: WheelEvent) => {
       if (!element.contains(document.activeElement) && !event.ctrlKey && !event.metaKey) return;
@@ -107,7 +124,9 @@ export function useMapCamera() {
       stopAnimation();
       setInteracting(true);
       clearTimeout(wheelEnd.current);
-      wheelEnd.current = setTimeout(() => { if (!contacts.current.size) setInteracting(false); }, 140);
+      wheelEnd.current = setTimeout(() => {
+        if (!contacts.current.size) { setInteracting(false); flush(true); }
+      }, 140);
       const delta = event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? element.clientHeight : 1);
       const anchor = mapPoint({ x: event.clientX, y: event.clientY }, element.getBoundingClientRect());
       publish(zoomCamera(current.current, current.current.zoom * Math.exp(-Math.max(-100, Math.min(100, delta)) * .002), anchor), true);
@@ -117,24 +136,30 @@ export function useMapCamera() {
         if (element.hasPointerCapture?.(id)) element.releasePointerCapture(id);
       }
       contacts.current.clear(); gesture.current = undefined; suppressClick.current = true;
-      clearTimeout(wheelEnd.current); stopAnimation(); destination.current = current.current; setInteracting(false);
+      clearTimeout(wheelEnd.current); stopAnimation(); destination.current = current.current; setInteracting(false); flush(true);
     };
     const resize = () => {
       const rect = element.getBoundingClientRect();
-      if (rect.width > 0 && rect.height > 0) setViewportScale(Math.min(rect.width / 1000, rect.height / 520));
+      if (rect.width > 0 && rect.height > 0) {
+        setViewportScale(Math.min(rect.width / 1000, rect.height / 520));
+        viewportScaleRef.current = Math.min(rect.width / 1000, rect.height / 520);
+        setViewport((previous) => previous.width === rect.width && previous.height === rect.height
+          ? previous : { width: rect.width, height: rect.height });
+      }
     };
     const observer = new ResizeObserver(resize);
     observer.observe(element); resize();
     element.addEventListener('wheel', wheel, { passive: false });
     window.addEventListener('blur', cancel);
+    window.addEventListener('resize', resize);
     return () => {
-      element.removeEventListener('wheel', wheel); window.removeEventListener('blur', cancel);
+      element.removeEventListener('wheel', wheel); window.removeEventListener('blur', cancel); window.removeEventListener('resize', resize);
       observer.disconnect(); clearTimeout(wheelEnd.current);
       stopAnimation();
       if (renderFrame.current !== undefined) window.cancelAnimationFrame(renderFrame.current);
     };
-  }, [publish, stopAnimation]);
-  return { svg, camera, current, destination, interacting, viewportScale, contacts, suppressClick, moveTo, zoomTo,
+  }, [publish, stopAnimation, flush]);
+  return { surface, camera, current, destination, interacting, viewportScale, viewport, subscribe, contacts, suppressClick, moveTo, zoomTo,
     pointerHandlers: { onPointerDown: pointerDown, onPointerMove: pointerMove,
       onPointerUp: pointerEnd, onPointerCancel: pointerEnd, onLostPointerCapture: pointerEnd } };
 }

@@ -3,14 +3,14 @@ export interface MapPoint { x: number; y: number }
 
 export const worldCamera: MapCamera = { x: 0, y: 0, zoom: 1 };
 
-/** Keep the projected world rectangle covering the viewBox at every zoom. */
+/** Keep the projected world rectangle covering the logical viewport at every zoom. */
 export function constrainCamera(camera: MapCamera): MapCamera {
   const zoom = Math.max(1, Math.min(8, camera.zoom));
   const maxX = 500 * (zoom - 1), maxY = 260 * (zoom - 1);
   return { zoom, x: Math.max(-maxX, Math.min(maxX, camera.x)), y: Math.max(-maxY, Math.min(maxY, camera.y)) };
 }
 
-/** SVG uses xMidYMid meet: account for the letterbox when converting gestures. */
+/** Match the canvas's undistorted world fit, including any letterboxed space. */
 export function mapPoint(client: MapPoint, rect: Pick<DOMRect, 'left' | 'top' | 'width' | 'height'>): MapPoint {
   const scale = Math.min(rect.width / 1000, rect.height / 520) || 1;
   return { x: (client.x - rect.left - (rect.width - 1000 * scale) / 2) / scale,

@@ -1,6 +1,8 @@
 import { geoEqualEarth } from 'd3-geo';
 import type { SpeciesSummary } from '../types/species';
 
+export interface MapGroup { key: string; x: number; y: number; items: SpeciesSummary[] }
+
 export const mapProjection = geoEqualEarth().scale(175).translate([500, 260]);
 
 export function searchExploration(items: readonly SpeciesSummary[], query: string, realm: string) {
@@ -32,7 +34,27 @@ export function clusterSpecies(items: readonly SpeciesSummary[], zoom: number) {
     group.x += point[0]; group.y += point[1]; group.items.push(item);
     groups.set(key, group);
   }
-  return [...groups.values()].map((group) => ({
+  const result = [...groups.values()].map((group) => ({
     ...group, x: group.x / group.items.length, y: group.y / group.items.length,
   }));
+  // Adjacent grid cells can put their centroids on the same border. Merge those
+  // neighbours so circles remain distinct, including at narrow viewport scales.
+  const separation = 44 / Math.max(Number.EPSILON, zoom);
+  let merged = true;
+  while (merged) {
+    merged = false;
+    for (let i = 0; i < result.length; i++) {
+      const a = result[i]!;
+      for (let j = i + 1; j < result.length; j++) {
+        const b = result[j]!;
+        if (Math.hypot(a.x - b.x, a.y - b.y) >= separation) continue;
+        const count = a.items.length + b.items.length;
+        a.x = (a.x * a.items.length + b.x * b.items.length) / count;
+        a.y = (a.y * a.items.length + b.y * b.items.length) / count;
+        a.items = [...a.items, ...b.items];
+        result.splice(j, 1); merged = true; j--;
+      }
+    }
+  }
+  return result;
 }
