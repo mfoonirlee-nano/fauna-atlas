@@ -8180,5 +8180,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1510,
       "bottom": 900
     }
+  },
+  "seven-arm-octopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 550,
+      "top": 40,
+      "right": 1495,
+      "bottom": 925
+    }
   }
 };

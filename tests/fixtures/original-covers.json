@@ -7980,5 +7980,18 @@
       },
       "sha256": "7232b304ad787700250a20737e2ef12fa134caec8738c812e2c9a23244d8c72d"
     }
+  },
+  "seven-arm-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 550,
+        "top": 40,
+        "right": 1495,
+        "bottom": 925
+      },
+      "sha256": "fb7c59fe5ee1c2e4fa807c0cbd234e3f9a39a2bf292ff2c77546ac1a97cc60c0"
+    }
   }
 }

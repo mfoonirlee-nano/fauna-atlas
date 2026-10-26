@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-24",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "903b1dce1863e0f9db036e30eb2451730386cff27eba7163702aba938fa49a8a"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fb7c59fe5ee1c2e4fa807c0cbd234e3f9a39a2bf292ff2c77546ac1a97cc60c0"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1e17b3b0ddd031c0f42b60a6c85f8230097e453203691c66349f926430992e97"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b60a455663ac2a3a42993f33383fe65481960b3e53bc163c9b87633d914cf7c7"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c347513a4eb21cae4f9093f46035921cffb75b12ce6d9840a5e17fe9f105b6bd"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f2c99e5c6b0161b801f9006f7d961f2afdd8f51de2a1d930625aea3b1689341d"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b29784dde8754ad8926ba05b2e6872fffbf1234b2033c12648d690aeb15cd557"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4907031798b106336bacd169a4ee37ff50713c94532c7e74651ef890b4fc8a41"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "31c36b9a1d1e95da3c307c349f25225b6154eca8c83945543caaeba72573d1a2"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5216efe418cc99e60291cd92a65c33dd127d8820df4716cfe7ff3a54898a69db"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b0bc3c01ca117b04331e750c25cf70be56be35c048979d3dc2be18115f21fbc6"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "24aed6552b1852b743d0dba57ab32a49c0db66cc4044cdcd05a28025f66dab1d"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "图集采用雌性外观；腕蹼与腕相互遮挡，不能据此推断雄性交接腕位置或计数。"
+}
