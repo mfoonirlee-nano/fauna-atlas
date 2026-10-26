@@ -7993,5 +7993,18 @@
       },
       "sha256": "fb7c59fe5ee1c2e4fa807c0cbd234e3f9a39a2bf292ff2c77546ac1a97cc60c0"
     }
+  },
+  "big-red-jelly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 60,
+        "right": 1440,
+        "bottom": 920
+      },
+      "sha256": "0030f921af543477871ec59be70613ff4122ec4293cc277e296cf77ee949a98c"
+    }
   }
 }

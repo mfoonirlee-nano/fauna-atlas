@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "819 animal species profiles; microbial topics excluded",
+  "scope": "820 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 249,
+    "addedProfiles": 250,
     "addedProfilesReviewDate": "2026-10-26",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -37577,6 +37577,48 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://data.aad.gov.au/aadc/biodiversity/taxon_data.cfm?taxon_id=116215"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "big-red-jelly",
+      "name": "大红水母",
+      "scientificName": "Tiburonia granrojo",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/big-red-jelly/",
+            "https://www.mbari.org/news/big-red-jelly-surprises-scientists/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/big-red-jelly/",
+            "https://www.mbari.org/news/big-red-jelly-surprises-scientists/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/big-red-jelly/",
+            "https://www.mbari.org/news/big-red-jelly-surprises-scientists/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1007/s00227-003-1047-2",
+            "https://www.marinespecies.org/aphia.php?id=291224&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://doi.org/10.1007/s00227-003-1047-2",
+            "https://www.marinespecies.org/aphia.php?id=291224&p=taxdetails"
           ]
         }
       }

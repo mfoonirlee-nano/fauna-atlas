@@ -1162,3 +1162,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [八腕鱿鱼图片集](./species/octopus-squid/README.md)
 - [珍珠章鱼图片集](./species/pearl-octopus/README.md)
 - [七腕章鱼图片集](./species/seven-arm-octopus/README.md)
+- [大红水母图片集](./species/big-red-jelly/README.md)

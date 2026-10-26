@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-24",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "84d7ea83be18ba022e6c6899aa6ad7ec2b82148b4e8b9d48960b5a17d22457d9"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0030f921af543477871ec59be70613ff4122ec4293cc277e296cf77ee949a98c"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f98eda69538b2bbc83943fec39c8ac18bd8cf11233d7b0421269aeb45ed9f917"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e2f718c88269a5b7944350d54f9e001079e34bc21c82576483843199908e2d92"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b2ea9ae3a775fdb25aa1cf61676c6bc4026b1c6bde887e6dac7a3aea7339ce46"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a09d58714c13d2effc6e6e84a942398147b844f25c36054aa0ce7d693febae47"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f1f930814c80bef9439eefc76a3fd0c23b1bdd06838e502092cdf98953a43039"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bf8fb505da34fede5a35de0068a1fe0e1104d24ae8953f17674ae9d8dda38e0a"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "faa4286db523748d65e251db879f47269d724b2626f8432b8302e54d5968b253"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e9428138d3a912c74d9adad1101f7b0b68cf5a78b95f144d825cccc5874e1eda"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fc8f7a1b0680fa7ecde445f950e895f77793ea02aead9c44b4f2fdf15887d107"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5e4971225ed1b6b8e29a1900e354afb55aaeed45996ee433c2b4eb75db5fd778"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "粗口腕部分相互遮挡，缺少伞缘长触手；表面褶皱为重建细节，不作为鉴定证据。"
+}

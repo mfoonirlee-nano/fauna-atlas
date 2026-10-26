@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-24",
+  "tool": "built-in image_gen",
+  "initialPrompts": [
+    {
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: whole jellyfish side view, heavy red bell above short thick oral arms against black water. Cover composition: entire main animal entirely on RIGHT, all visible extremities within x=700..1470 and y=130..900, center around x=1090. Enlarge within these bounds, full body with genuine background margins, left 40 percent quiet dark environment for title.Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: whole jellyfish oblique underside view showing cluster of thick oral arms and broad bell. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: close view of crimson fleshy bell edge and short oral arms, natural surface texture. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: whole jellyfish slightly contracted in dark blue midwater, no long tentacles. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: whole jellyfish in side oblique view lit softly by a scientific ROV outside frame. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: wide environmental portrait, solitary red jellyfish floating in blue-black bathypelagic water. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    }
+  ],
+  "coverEdits": [],
+  "acceptedCoverEdit": 0
+}
