@@ -1,0 +1,158 @@
+{
+  "status": "integrated-2026-10-24",
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "slug": "midwater-octopus",
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Japetella diaphana, a small gelatinous pelagic octopus with eight short compact curling arms, bulbous translucent mantle, dark eyes and visible reddish digestive organs; no fins. Scene: whole transparent octopus drifting horizontally in dark blue midwater. Cover composition: entire main animal entirely on RIGHT, all visible extremities within x=700..1470 and y=130..900, center around x=1090. Enlarge within these bounds, full body with genuine background margins, left 40 percent quiet dark environment for title.Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "midwater-octopus",
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Japetella diaphana, a small gelatinous pelagic octopus with eight short compact curling arms, bulbous translucent mantle, dark eyes and visible reddish digestive organs; no fins. Scene: whole octopus in its opaque orange-red chromatophore state, same gelatinous anatomy. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "midwater-octopus",
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Japetella diaphana, a small gelatinous pelagic octopus with eight short compact curling arms, bulbous translucent mantle, dark eyes and visible reddish digestive organs; no fins. Scene: close view of transparent mantle and dark eye, faint chromatophore dots, black water. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "midwater-octopus",
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Japetella diaphana, a small gelatinous pelagic octopus with eight short compact curling arms, bulbous translucent mantle, dark eyes and visible reddish digestive organs; no fins. Scene: female drifting while cradling a compact cluster of translucent eggs in her arms, without seafloor. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "midwater-octopus",
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Japetella diaphana, a small gelatinous pelagic octopus with eight short compact curling arms, bulbous translucent mantle, dark eyes and visible reddish digestive organs; no fins. Scene: whole octopus with loose curling arms seen obliquely from below, midnight water. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "midwater-octopus",
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Japetella diaphana, a small gelatinous pelagic octopus with eight short compact curling arms, bulbous translucent mantle, dark eyes and visible reddish digestive organs; no fins. Scene: wide environmental view, single translucent octopus suspended in a vast dark blue water column. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "octopus-squid",
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: whole adult squid hovering diagonally with paired fins fully spread and arm tips loosely curled. Cover composition: entire main animal entirely on RIGHT, all visible extremities within x=700..1470 and y=130..900, center around x=1090. Enlarge within these bounds, full body with genuine background margins, left 40 percent quiet dark environment for title.Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "octopus-squid",
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: whole adult squid facing camera, broad mantle fins visible behind head, eight compact arms. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "octopus-squid",
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: close view of a curling arm tip with small pale bioluminescent organ, head partially visible. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "octopus-squid",
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: whole red adult squid seen sideways in upper midnight open water, paired fins spread. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "octopus-squid",
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: whole adult squid showing mottled red and cream patches in dark midwater. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "octopus-squid",
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: wide night-water scene with one adult squid ascending through blue-black water, subtle particles. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "pearl-octopus",
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Muusoctopus robustus, pale lilac to pink deepsea benthic octopus, robust rounded mantle, eight supple arms with two rows of suckers, no fins or webbed umbrella. Scene: whole pale lilac octopus standing on dark rocky deep seafloor with arms loosely curled. Cover composition: entire main animal entirely on RIGHT, all visible extremities within x=700..1470 and y=130..900, center around x=1090. Enlarge within these bounds, full body with genuine background margins, left 40 percent quiet dark environment for title.Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "pearl-octopus",
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Muusoctopus robustus, pale lilac to pink deepsea benthic octopus, robust rounded mantle, eight supple arms with two rows of suckers, no fins or webbed umbrella. Scene: one brooding mother upside down at a rocky crevice, mantle raised like a pale pearl, arms folded around eggs attached beneath a rock lip. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "pearl-octopus",
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Muusoctopus robustus, pale lilac to pink deepsea benthic octopus, robust rounded mantle, eight supple arms with two rows of suckers, no fins or webbed umbrella. Scene: small loose group of pale brooding octopuses separated on basalt crevices, thermal spring seep invisible, no smoke or bubbles. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "pearl-octopus",
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Muusoctopus robustus, pale lilac to pink deepsea benthic octopus, robust rounded mantle, eight supple arms with two rows of suckers, no fins or webbed umbrella. Scene: side view of a single pale octopus crawling across muddy deepsea floor. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "pearl-octopus",
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Muusoctopus robustus, pale lilac to pink deepsea benthic octopus, robust rounded mantle, eight supple arms with two rows of suckers, no fins or webbed umbrella. Scene: close view of pale arm and suckers beside clustered elongated eggs under a basalt ledge, mother visible. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "pearl-octopus",
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Muusoctopus robustus, pale lilac to pink deepsea benthic octopus, robust rounded mantle, eight supple arms with two rows of suckers, no fins or webbed umbrella. Scene: wide rocky deep-sea nursery with a few separated pale inverted brooding females, no black smoker. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "seven-arm-octopus",
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Haliphron atlanticus, a giant gelatinous female pelagic octopus with broad reddish-brown mantle, large dark eyes, eight thick arms connected by a deep broad web, curling compactly, no fins, no squid tentacles. Scene: whole female drifting, all visible arm tips gently curled, reddish web and broad gelatinous mantle. Cover composition: entire main animal entirely on RIGHT, all visible extremities within x=700..1470 and y=130..900, center around x=1090. Enlarge within these bounds, full body with genuine background margins, left 40 percent quiet dark environment for title.Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "seven-arm-octopus",
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Haliphron atlanticus, a giant gelatinous female pelagic octopus with broad reddish-brown mantle, large dark eyes, eight thick arms connected by a deep broad web, curling compactly, no fins, no squid tentacles. Scene: female loosely holding a translucent jellyfish bell between webbed arms, whole octopus visible. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "seven-arm-octopus",
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Haliphron atlanticus, a giant gelatinous female pelagic octopus with broad reddish-brown mantle, large dark eyes, eight thick arms connected by a deep broad web, curling compactly, no fins, no squid tentacles. Scene: oblique underside view of one female, broad web stretched between eight arms, natural overlap. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "seven-arm-octopus",
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Haliphron atlanticus, a giant gelatinous female pelagic octopus with broad reddish-brown mantle, large dark eyes, eight thick arms connected by a deep broad web, curling compactly, no fins, no squid tentacles. Scene: close view of dark eye, gelatinous reddish skin and web joining arm bases. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "seven-arm-octopus",
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Haliphron atlanticus, a giant gelatinous female pelagic octopus with broad reddish-brown mantle, large dark eyes, eight thick arms connected by a deep broad web, curling compactly, no fins, no squid tentacles. Scene: whole female drifting sideways in deep dark blue midwater with arms gathered compactly. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "seven-arm-octopus",
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Haliphron atlanticus, a giant gelatinous female pelagic octopus with broad reddish-brown mantle, large dark eyes, eight thick arms connected by a deep broad web, curling compactly, no fins, no squid tentacles. Scene: wide environmental view of solitary female suspended above an unseen deep seafloor. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "big-red-jelly",
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: whole jellyfish side view, heavy red bell above short thick oral arms against black water. Cover composition: entire main animal entirely on RIGHT, all visible extremities within x=700..1470 and y=130..900, center around x=1090. Enlarge within these bounds, full body with genuine background margins, left 40 percent quiet dark environment for title.Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "big-red-jelly",
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: whole jellyfish oblique underside view showing cluster of thick oral arms and broad bell. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "big-red-jelly",
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: close view of crimson fleshy bell edge and short oral arms, natural surface texture. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "big-red-jelly",
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: whole jellyfish slightly contracted in dark blue midwater, no long tentacles. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "big-red-jelly",
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: whole jellyfish in side oblique view lit softly by a scientific ROV outside frame. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "slug": "big-red-jelly",
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Tiburonia granrojo, deep-sea big red jellyfish with thick opaque dark crimson rounded hemispherical bell and a cluster of six short thick finger-like oral arms beneath the bell; no long marginal tentacles, no fine trailing threads. Scene: wide environmental portrait, solitary red jellyfish floating in blue-black bathypelagic water. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    }
+  ],
+  "completionRecord": "../todo-novel-fourth-five-2026-10-24.md",
+  "previousFailure": "usage_limit_reached"
+}

@@ -1,0 +1,484 @@
+{
+  "status": "integrated-2026-10-24",
+  "reviewedAt": "2026-10-23",
+  "species": [
+    {
+      "todo": "N017",
+      "slug": "midwater-octopus",
+      "name": "透明中层章鱼",
+      "en": "Midwater Octopus",
+      "scientific": "Japetella diaphana",
+      "key": 2289230,
+      "aliases": [
+        "Eledonella diaphana",
+        "乍波蛸"
+      ],
+      "family": "Amphitretidae",
+      "order": "Octopoda",
+      "code": "LC",
+      "summary": "透明中层章鱼生活在开阔水层，能从近透明变成不透明的橙色。雌性抱着卵漂游。",
+      "description": "胶质身体帮助它悬浮，八条腕围在口部周围，暗色眼睛在透明身体上很显眼。皮肤有能扩张的色素胞，不能把透明外观解释成没有色素。",
+      "range": "广布于热带、亚热带海洋，也见于北太平洋寒温带水域。生活在中层至较深水层；地图拟采用蒙特雷外海代表点，不表达完整分布或野外观察记录。",
+      "center": {
+        "lat": 36.5,
+        "lng": -123
+      },
+      "habitat": "开阔中深层海水",
+      "foods": [
+        "甲壳动物",
+        "管水母等浮游动物"
+      ],
+      "diet": "捕食浮游动物，包括甲壳动物和管水母。身体的透明程度与隐蔽有关，不能据生成图判断它何时捕食。",
+      "stories": [
+        [
+          "pigment",
+          "透明与橙色",
+          "比较两种体色时，先找同样的圆外套膜和卷曲腕。色素胞扩张后，原先近透明的身体会变得不透明；两张观察图分别示意状态。"
+        ],
+        [
+          "brooding",
+          "卵跟着妈妈走",
+          "它在开阔水层育幼，雌性用腕抱住卵。2020 年研究记录了一只抱卵雌性，并依据生活史资料估计较长的孵育过程；估计时长不能当作连续观察结果。"
+        ],
+        [
+          "discovery-naming",
+          "1885 年的接受名",
+          "Hoyle 于 1885 年发表 Japetella diaphana。Eledonella diaphana 是后来使用的属名组合，本档案保留为检索别名。中文选题名用于介绍生活方式，分类身份以接受双名定位。"
+        ]
+      ],
+      "gallery": [
+        [
+          "橙色状态",
+          "色素胞扩张后的不透明橙色状态示意"
+        ],
+        [
+          "皮肤近景",
+          "外套膜与眼睛附近的透明组织近景"
+        ],
+        [
+          "抱卵漂游",
+          "雌性在水层中用腕抱卵的育幼示意"
+        ],
+        [
+          "从下方看",
+          "从斜下方观察卷曲腕与透明身体"
+        ],
+        [
+          "开阔水层",
+          "远离海底的水层生活场景"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "MBARI：中层章鱼",
+          "url": "https://www.mbari.org/animal/midwater-octopus/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Schwarz 等（2020）：生活史研究",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0967063720301527",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "原研究配套数据集",
+          "url": "https://doi.pangaea.de/10.1594/PANGAEA.924111",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "WoRMS：接受名与原始描述",
+          "url": "https://www.marinespecies.org/aphia.php?id=138849&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "GBIF / Catalogue of Life：LC 等级入口",
+          "url": "https://www.gbif.org/taxon/3QLWD",
+          "kind": "conservation",
+          "accessedAt": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "todo": "N018",
+      "slug": "octopus-squid",
+      "name": "八腕鱿鱼",
+      "en": "Octopus Squid",
+      "scientific": "Octopoteuthis deletron",
+      "key": 2289878,
+      "aliases": [],
+      "family": "Octopoteuthidae",
+      "order": "Oegopsida",
+      "code": "DD",
+      "summary": "八腕鱿鱼的成年个体只有八条腕，腕尖带有发光器。两条捕食触手在发育过程中被吸收。",
+      "description": "它有细长外套膜、一对宽鳍和大眼睛。腕常卷向头部上方，末端光器能闪光，皮肤也能呈现深浅斑块。腕的总数与发育阶段有关。",
+      "range": "本档案采用东北太平洋华盛顿州外海至下加利福尼亚的分布口径。FAO 另列秘鲁外海的一条可能离散记录，不把它扩成连续范围；地图代表点放在加州外海。",
+      "center": {
+        "lat": 35,
+        "lng": -123
+      },
+      "habitat": "昼深夜浅的开阔水层",
+      "foods": [],
+      "diet": "具体食物组成尚未核实，保留食物列表为空。研究者观察到昼夜垂直迁移，但迁移姿势不能作为食谱证据。",
+      "stories": [
+        [
+          "arms",
+          "成年后留下八条腕",
+          "幼体原有的两条捕食触手会在成熟过程中被吸收。成体仍属于鱿鱼，不能只凭附肢数量把它归为章鱼。观察图采用成体，卷曲腕可能相互遮挡。"
+        ],
+        [
+          "autotomy",
+          "腕尖的防御研究",
+          "Bush 于 2012 年通过遥控潜器观察和实验研究断腕。牵拉时腕可在接近接触点的位置断开，脱落部分会摆动，末端光器会发光；单幅图不能呈现这个过程。"
+        ],
+        [
+          "discovery-naming",
+          "1972 年描述的鱿鱼",
+          "R. E. Young 于 1972 年在南加利福尼亚外海头足类研究中描述 Octopoteuthis deletron。英文名称 Octopus Squid 提醒读者注意八条腕，正式分类采用 Oegopsida 与 Octopoteuthidae。"
+        ]
+      ],
+      "gallery": [
+        [
+          "宽鳍与卷曲腕",
+          "正面观察宽鳍与八条卷曲腕"
+        ],
+        [
+          "腕尖光器",
+          "腕尖小型光器的概念示意，亮度非实测"
+        ],
+        [
+          "侧面轮廓",
+          "外套膜和一对宽鳍的侧面姿势"
+        ],
+        [
+          "皮肤斑块",
+          "红褐与浅色斑块的外观示意"
+        ],
+        [
+          "夜间上移",
+          "夜间水层中上游姿势的场景示意"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "MBARI：八腕鱿鱼",
+          "url": "https://www.mbari.org/animal/octopus-squid/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Bush（2012）：断腕实验",
+          "url": "https://www.int-res.com/articles/meps2012/458/m458p133.pdf",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Smithsonian：断腕研究者介绍",
+          "url": "https://ocean.si.edu/ocean-life/invertebrates/meet-only-squid-willfully-lops-its-arms",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "FAO：分布与昼夜深度",
+          "url": "https://www.fao.org/4/i1920e/i1920e06.pdf",
+          "kind": "distribution",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "WoRMS：接受名、原始描述与 DD 等级",
+          "url": "https://www.marinespecies.org/aphia.php?id=342057&p=taxdetails",
+          "kind": "conservation",
+          "accessedAt": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "todo": "N019",
+      "slug": "pearl-octopus",
+      "name": "珍珠章鱼",
+      "en": "Pearl Octopus",
+      "scientific": "Muusoctopus robustus",
+      "key": 6521550,
+      "aliases": [
+        "Benthoctopus robustus"
+      ],
+      "family": "Enteroctopodidae",
+      "order": "Octopoda",
+      "code": "LC",
+      "summary": "珍珠章鱼会在深海温泉渗流处聚集繁殖。护卵雌性把腕翻折起来，浅色身体像岩缝中的珍珠。",
+      "description": "它的身体浅紫至粉白，外套膜圆厚，八条腕带有吸盘。育幼时倒转身体、翻折腕，护住固定在岩面上的卵；温泉水温不能从图片颜色判断。",
+      "range": "分布于东北太平洋俄勒冈至下加利福尼亚一带深海，利用软泥平原、海山和温泉附近海底。代表点放在戴维森海山附近，只供地理浏览。",
+      "center": {
+        "lat": 35.5,
+        "lng": -122.6
+      },
+      "habitat": "深海海底与温泉渗流处",
+      "foods": [
+        "鱼类",
+        "无脊椎动物",
+        "腐肉"
+      ],
+      "diet": "取食鱼类、无脊椎动物，也会利用腐肉。护卵雌性主要依靠体内储备维持育幼，不把温泉旁的聚集解释成集体捕食。",
+      "stories": [
+        [
+          "nursery",
+          "岩缝里的育幼地",
+          "研究者在戴维森海山附近的章鱼花园追踪巢位。这里约 3,200 米深，海底温水渗流加快胚胎发育，研究期间记录的孵化时间不到两年。"
+        ],
+        [
+          "warmth",
+          "温水怎样影响卵",
+          "项目记录显示，周围海水约 1.6℃，部分巢位岩缝接近 11℃。这些是研究地点的测量，不是所有珍珠章鱼的生存温度范围，画面不添加黑烟囱或沸腾水泡。"
+        ],
+        [
+          "discovery-naming",
+          "从旧属名到珍珠称呼",
+          "G. L. Voss 与 Pearcy 于 1990 年以 Benthoctopus robustus 描述本种，现采用 Muusoctopus robustus。珍珠这一科普称呼对应护卵雌性的浅色圆身体，不表示它会制造珍珠。"
+        ]
+      ],
+      "gallery": [
+        [
+          "倒转护卵",
+          "岩缝中倒转身体、翻折腕的护卵母体示意"
+        ],
+        [
+          "育幼岩缝",
+          "温水渗流处相互分开的护卵雌性"
+        ],
+        [
+          "海底行走",
+          "在深海软底上移动的单只章鱼"
+        ],
+        [
+          "吸盘与卵",
+          "岩石下方的卵和护卵腕近景"
+        ],
+        [
+          "温泉育幼地",
+          "深海海底育幼群体的环境示意"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "MBARI：珍珠章鱼",
+          "url": "https://www.mbari.org/animal/pearl-octopus/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "MBARI：章鱼花园项目与监测结果",
+          "url": "https://www.mbari.org/project/the-octopus-garden/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Barry 等（2023）：温泉与孵育原研究",
+          "url": "https://doi.org/10.1126/sciadv.adg3247",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Harvard MCZ：分类与命名年代",
+          "url": "https://mczbase.mcz.harvard.edu/name/Muusoctopus%2Brobustus",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "GBIF / Catalogue of Life：接受名、旧组合及 LC 等级",
+          "url": "https://www.gbif.org/taxon/44RF2",
+          "kind": "conservation",
+          "accessedAt": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "todo": "N020",
+      "slug": "seven-arm-octopus",
+      "name": "七腕章鱼",
+      "en": "Seven-arm Octopus",
+      "scientific": "Haliphron atlanticus",
+      "key": 2289216,
+      "aliases": [
+        "Alloposus mollis",
+        "Haliphron pacificus"
+      ],
+      "family": "Alloposidae",
+      "order": "Octopoda",
+      "code": "LC",
+      "summary": "七腕章鱼实际有八条腕。雄性常把交接腕收进眼睛下方的囊中，外表因而像只有七条。",
+      "description": "它有胶质身体，粗腕之间连着宽蹼，雌性可比雄性大得多。图集以雌性为主，保留八条腕的结构；自然卷曲和遮挡会影响可见数量。",
+      "range": "广布于全球热带和温带海洋的开阔水层。MBARI 报道从近表层至约 1,200 米；地图仅用蒙特雷外海代表点，不据少量潜器遇见次数推算全球数量。",
+      "center": {
+        "lat": 36.3,
+        "lng": -123
+      },
+      "habitat": "开阔海洋水层",
+      "foods": [
+        "水母",
+        "樽海鞘等胶质浮游动物"
+      ],
+      "diet": "潜器影像和馆藏标本胃内容物支持它取食水母等胶质动物。部分水母还带着小型甲壳动物；不能只凭抱着水母就推断防御用途。",
+      "stories": [
+        [
+          "name",
+          "七腕名字下的第八条腕",
+          "雄性交配时使用专门的交接腕，平时可把它藏在右眼下方的囊中。解释名称时区分雄性结构和雌性图像，不能把图中少露一条腕当作结构证明。"
+        ],
+        [
+          "jellies",
+          "抱住水母吃什么",
+          "Hoving 与 Haddock 于 2017 年结合原位观察与胃内容物研究胶质食物。观察到的个体抱着水母，作者还讨论了可能利用水母触手的作用；防御解释属于推测。"
+        ],
+        [
+          "discovery-naming",
+          "1861 年命名的中层章鱼",
+          "Steenstrup 于 1861 年命名 Haliphron atlanticus。曾使用 Alloposus mollis 等名称，现归入同一接受种。档案用七腕章鱼作科普名称，学名与 Alloposidae 分类路径共同定位这个物种。"
+        ]
+      ],
+      "gallery": [
+        [
+          "抱着水母",
+          "雌性抱住水母的摄食场景示意"
+        ],
+        [
+          "宽蹼与腕",
+          "从斜下方观察腕间宽蹼"
+        ],
+        [
+          "胶质身体",
+          "眼睛、腕基部与胶质组织近景"
+        ],
+        [
+          "侧面漂游",
+          "八条腕自然收拢的雌性侧面姿势"
+        ],
+        [
+          "水层环境",
+          "独自在开阔深水中漂游的雌性"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "MBARI：七腕章鱼",
+          "url": "https://www.mbari.org/animal/seven-arm-octopus/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Hoving 与 Haddock（2017）：取食胶质动物",
+          "url": "https://www.nature.com/articles/srep44952",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "AADC：分类与命名信息",
+          "url": "https://data.aad.gov.au/aadc/biodiversity/taxon_data.cfm?taxon_id=116215",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "WoRMS：接受名、异名与 LC 等级",
+          "url": "https://www.marinespecies.org/aphia.php?id=341781&p=taxdetails",
+          "kind": "conservation",
+          "accessedAt": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "todo": "N031",
+      "slug": "big-red-jelly",
+      "name": "大红水母",
+      "en": "Big Red Jelly",
+      "scientific": "Tiburonia granrojo",
+      "key": 2264436,
+      "aliases": [],
+      "family": "Ulmaridae",
+      "order": "Semaeostomeae",
+      "code": "NE",
+      "summary": "大红水母有厚实的暗红色伞，伞下垂着短粗口腕，没有一圈细长的边缘触手。",
+      "description": "深红至红褐色伞呈厚重半球形。原始描述记录四至七条粗口腕，数量随个体变化，不能用固定腕数概括本种；具体食谱仍不清楚。",
+      "range": "北太平洋有记录，包括加州与下加利福尼亚外海、夏威夷和日本附近。MBARI 简介列水深 600–2,100 米，水族馆资料更宽，深度数字保留来源差异；地图使用蒙特雷外海代表点。",
+      "center": {
+        "lat": 36.5,
+        "lng": -122.8
+      },
+      "habitat": "深海开阔水层",
+      "foods": [],
+      "diet": "研究者尚未确定它的具体食谱，食物列表保留为空。口腕与捕食有关，但不安排未经核实的鱼虾猎物或写入固定食谱。",
+      "stories": [
+        [
+          "arms",
+          "找粗口腕",
+          "先找厚实伞体，再找伞下的粗口腕。与许多有长触手的水母相比，它缺少边缘触手；原始描述的四至七条口腕不是所有水母共有的特征。"
+        ],
+        [
+          "discover",
+          "大动物也可能晚被认识",
+          "MBARI 在潜器影像中记录了这种水母，1998 年观察促成进一步确认，2003 年正式描述。首次拍到、确认新种和发表命名是不同事件。"
+        ],
+        [
+          "discovery-naming",
+          "名字纪念遥控潜器",
+          "Matsumoto、Raskoff 与 Lindsay 于 2003 年发表 Tiburonia granrojo，并建立新属。属名纪念记录这种水母的遥控潜器 Tiburon；中文大红水母用于介绍外观，不能代替接受学名。"
+        ]
+      ],
+      "gallery": [
+        [
+          "从下面看口腕",
+          "斜下方观察粗口腕与厚伞体"
+        ],
+        [
+          "厚实的伞缘",
+          "伞缘和口腕表面近景"
+        ],
+        [
+          "收缩姿势",
+          "伞体收缩时的全身姿势示意"
+        ],
+        [
+          "深红外观",
+          "探照灯照明下的深红色伞体"
+        ],
+        [
+          "深海水层",
+          "开阔深海中的单只大红水母"
+        ]
+      ],
+      "sources": [
+        {
+          "title": "MBARI：大红水母",
+          "url": "https://www.mbari.org/animal/big-red-jelly/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "MBARI（2003）：发现与原始描述介绍",
+          "url": "https://www.mbari.org/news/big-red-jelly-surprises-scientists/",
+          "kind": "ecology",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Monterey Bay Aquarium：大小与分布差异",
+          "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/big-red-jelly",
+          "kind": "distribution",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "Matsumoto 等（2003）：原始描述",
+          "url": "https://doi.org/10.1007/s00227-003-1047-2",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        },
+        {
+          "title": "WoRMS：接受名与原始描述记录",
+          "url": "https://www.marinespecies.org/aphia.php?id=291224&p=taxdetails",
+          "kind": "taxonomy",
+          "accessedAt": "2026-10-23"
+        }
+      ]
+    }
+  ],
+  "completionRecord": "../todo-novel-fourth-five-2026-10-24.md"
+}
