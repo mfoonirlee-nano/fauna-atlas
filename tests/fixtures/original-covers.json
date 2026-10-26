@@ -7954,5 +7954,18 @@
       },
       "sha256": "b9ad998f2551f892841cc376ea1802db11d0f4fffbf929aeab9d573509f58006"
     }
+  },
+  "octopus-squid": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 605,
+        "top": 15,
+        "right": 1390,
+        "bottom": 940
+      },
+      "sha256": "dc5eea1f31f1f1e554763d7a090eaee8986b7b847193c13c4d2a7e2376de61b9"
+    }
   }
 }

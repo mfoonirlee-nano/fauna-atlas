@@ -8160,5 +8160,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1475,
       "bottom": 845
     }
+  },
+  "octopus-squid": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 605,
+      "top": 15,
+      "right": 1390,
+      "bottom": 940
+    }
   }
 };

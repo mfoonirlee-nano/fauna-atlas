@@ -1159,3 +1159,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 ## 2026-10-24 新奇动物第四批五种
 
 - [透明中层章鱼图片集](./species/midwater-octopus/README.md)
+- [八腕鱿鱼图片集](./species/octopus-squid/README.md)

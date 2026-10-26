@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "816 animal species profiles; microbial topics excluded",
+  "scope": "817 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 246,
+    "addedProfiles": 247,
     "addedProfilesReviewDate": "2026-10-26",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -37451,6 +37451,49 @@
           "path": "storySections.discovery-naming.body",
           "sources": [
             "https://www.marinespecies.org/aphia.php?id=138849&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "octopus-squid",
+      "name": "八腕鱿鱼",
+      "scientificName": "Octopoteuthis deletron",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/octopus-squid/",
+            "https://www.int-res.com/articles/meps2012/458/m458p133.pdf",
+            "https://ocean.si.edu/ocean-life/invertebrates/meet-only-squid-willfully-lops-its-arms"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/octopus-squid/",
+            "https://www.int-res.com/articles/meps2012/458/m458p133.pdf",
+            "https://ocean.si.edu/ocean-life/invertebrates/meet-only-squid-willfully-lops-its-arms"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/octopus-squid/",
+            "https://www.int-res.com/articles/meps2012/458/m458p133.pdf",
+            "https://ocean.si.edu/ocean-life/invertebrates/meet-only-squid-willfully-lops-its-arms"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=342057&p=taxdetails"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.marinespecies.org/aphia.php?id=342057&p=taxdetails"
           ]
         }
       }

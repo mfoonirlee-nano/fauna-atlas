@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-24",
+  "tool": "built-in image_gen",
+  "initialPrompts": [
+    {
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: whole adult squid hovering diagonally with paired fins fully spread and arm tips loosely curled. Cover composition: entire main animal entirely on RIGHT, all visible extremities within x=700..1470 and y=130..900, center around x=1090. Enlarge within these bounds, full body with genuine background margins, left 40 percent quiet dark environment for title.Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: whole adult squid facing camera, broad mantle fins visible behind head, eight compact arms. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: close view of a curling arm tip with small pale bioluminescent organ, head partially visible. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: whole red adult squid seen sideways in upper midnight open water, paired fins spread. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: whole adult squid showing mottled red and cream patches in dark midwater. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    },
+    {
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Asset: animal encyclopedia naturalistic scientific reconstruction, single landscape image 1536x1024. Subject: Octopoteuthis deletron, a red-brown deepwater squid, pointed elongate mantle with broad paired triangular fins, large eyes, exactly eight arms curling above head, tiny light organs only at arm tips; adult has no two long feeding tentacles. Scene: wide night-water scene with one adult squid ascending through blue-black water, subtle particles. Observation image: clear anatomical focus, genuine background around all visible extremities. Realistic deep-ocean scientific camera lighting, restrained natural colors, no fantasy glow, no text, no diagram labels, no collage, no watermark. This is a scientifically constrained reconstruction, not a documented sighting."
+    }
+  ],
+  "coverEdits": [],
+  "acceptedCoverEdit": 0
+}

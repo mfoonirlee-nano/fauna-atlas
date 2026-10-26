@@ -256,9 +256,9 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.criteria, undefined);
       assert.ok(profile.sources.some(({ kind }) => kind === 'conservation'));
       assert.match(profile.conservation.assessor, /未采用.*IUCN.*评估/);
-    } else if (['flamboyant-cuttlefish', 'hawaiian-bobtail-squid', 'mimic-octopus', 'coconut-octopus', 'namaqua-sandgrouse', 'midwater-octopus'].includes(profile.slug)) {
+    } else if (['flamboyant-cuttlefish', 'hawaiian-bobtail-squid', 'mimic-octopus', 'coconut-octopus', 'namaqua-sandgrouse', 'midwater-octopus', 'octopus-squid'].includes(profile.slug)) {
       // Category links were checked; the underlying assessment dates were not independently verified.
-      const categories = { 'flamboyant-cuttlefish': 'DD', 'hawaiian-bobtail-squid': 'DD', 'mimic-octopus': 'LC', 'coconut-octopus': 'LC', 'namaqua-sandgrouse': 'LC', 'midwater-octopus': 'LC' };
+      const categories = { 'flamboyant-cuttlefish': 'DD', 'hawaiian-bobtail-squid': 'DD', 'mimic-octopus': 'LC', 'coconut-octopus': 'LC', 'namaqua-sandgrouse': 'LC', 'midwater-octopus': 'LC', 'octopus-squid': 'DD' };
       assert.equal(profile.conservation.code, categories[profile.slug]);
       assert.equal(profile.conservation.assessedYear, undefined);
       assert.equal(profile.conservation.trend, 'unknown');
@@ -24378,7 +24378,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 816);
+  assert.equal(species.length, 817);
   assert.equal(findTaxon(tree, 'order', 'Cestida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Discodorididae')?.speciesCount, 1);
@@ -24464,7 +24464,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 40);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 41);
   assert.equal(findTaxon(tree, 'class', 'Scaphopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dentaliida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dentaliidae')?.speciesCount, 1);
@@ -24473,7 +24473,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Chitonida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Mopaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Cryptochiton')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 15);
+  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 16);
   assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nautilus')?.speciesCount, 1);
@@ -24563,7 +24563,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 816);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 817);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
