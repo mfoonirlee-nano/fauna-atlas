@@ -1160,3 +1160,4 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 
 - [透明中层章鱼图片集](./species/midwater-octopus/README.md)
 - [八腕鱿鱼图片集](./species/octopus-squid/README.md)
+- [珍珠章鱼图片集](./species/pearl-octopus/README.md)

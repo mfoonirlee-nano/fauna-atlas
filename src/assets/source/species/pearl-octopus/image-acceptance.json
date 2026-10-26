@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-24",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "72ef0a17eee66c9a7be3066ce850f53097652a9bac449888679ace0ec7e55ca2"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7232b304ad787700250a20737e2ef12fa134caec8738c812e2c9a23244d8c72d"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a70e8c08bf3db8e8ab585c8071f9e9e0cd70d232b7043b64b75a55638e619c8f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e0240a8024ff4911e795693a027e22c18ca341702f8ed7286cee7001bf9f5b86"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5601b3c5552c18f1da4b20c19cf9cc97a416309b9c07f7e60faaeeacf6a70c6b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4e682c40489629dc9d26d3d32b9bd270e6ae69f773146956af2f5c5bd4f47a03"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7de521be5d9aa8bc9a941ea14035e72539a7d163636c497d011005c82b1d9fba"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "def77e100356bfbe0bd5734ea6430450bb27234c3391861eadeb958a66677ce3"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "66155ce27b5405dc6555920c390cf689e6ce05f9af178b02c389c8eb5dc23e4d"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a8058ae01c923256484e3385b623f25933c66c8bc7489853fcd19d382a853642"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "336ad9991dcff34072fd153d19fcd1528b3f029fa2ae37d4b8db28cb5433bf35"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a5bfe69ec37c28d00e5cd0058a47d7502e845fdc2e072906dce61463301fa005"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "卵附于岩石；育幼图为姿态示意，渗流水没有黑烟囱，不能由图像测定水温。"
+}

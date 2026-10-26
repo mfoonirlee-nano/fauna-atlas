@@ -8170,5 +8170,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1390,
       "bottom": 940
     }
+  },
+  "pearl-octopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 640,
+      "top": 140,
+      "right": 1510,
+      "bottom": 900
+    }
   }
 };

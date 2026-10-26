@@ -7967,5 +7967,18 @@
       },
       "sha256": "dc5eea1f31f1f1e554763d7a090eaee8986b7b847193c13c4d2a7e2376de61b9"
     }
+  },
+  "pearl-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 640,
+        "top": 140,
+        "right": 1510,
+        "bottom": 900
+      },
+      "sha256": "7232b304ad787700250a20737e2ef12fa134caec8738c812e2c9a23244d8c72d"
+    }
   }
 }
