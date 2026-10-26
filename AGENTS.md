@@ -14,4 +14,4 @@ Complete the requested change and relevant verification, fixing failures caused 
 
 ## Response style
 
-Read the [stop-slop skill](.agents/skills/stop-slop/SKILL.md) before your first reply and apply it to all user-facing replies, including progress updates and summaries.
+每次向用户发送回复前（包括进度说明和最终答复），按 [humanizer-zh](.agents/skills/humanizer-zh/SKILL.md) 检查草稿。首次使用时读取该技能，后续按已读取的规则执行；修改空话、重复和模板化表达，并核对事实、限定条件、归因和完成状态。只发送检查后的文本，无需展示检查过程；已通顺的文字可以保留。
