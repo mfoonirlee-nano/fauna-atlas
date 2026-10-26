@@ -7941,5 +7941,18 @@
       },
       "sha256": "81d11d7759deff9702006d6a1af7ba88c7d895549d6059f3dd46c00c73acc4cd"
     }
+  },
+  "midwater-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 645,
+        "top": 130,
+        "right": 1475,
+        "bottom": 845
+      },
+      "sha256": "b9ad998f2551f892841cc376ea1802db11d0f4fffbf929aeab9d573509f58006"
+    }
   }
 }

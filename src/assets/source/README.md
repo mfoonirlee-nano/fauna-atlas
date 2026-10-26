@@ -1155,3 +1155,7 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [金带栉水母图片集](./species/venus-girdle/README.md)
 - [向日葵海星图片集](./species/sunflower-sea-star/README.md)
 - [雪人蟹图片集](./species/yeti-crab/README.md)
+
+## 2026-10-24 新奇动物第四批五种
+
+- [透明中层章鱼图片集](./species/midwater-octopus/README.md)

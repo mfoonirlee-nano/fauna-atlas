@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-24",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5b2a3cf022d6a411d01f31ddc436bc74aeff0d32b9a6408922352ee54be72e44"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b9ad998f2551f892841cc376ea1802db11d0f4fffbf929aeab9d573509f58006"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f9dd887c15b20e09a2da9bd31ab0eb0340e9d9a790d32a39ab41af94945c56ba"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3fee43f03909f0c569926177cd63182ebefd79d4a33a85222768823add523ff9"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3f29c3049c64847af9adb98212f1046e58d72586bf4ac3281935a2d25d35d835"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "cb9cfae38e1ac3f452b41fa98bc3ebf7ba018be9ec0b2a436670b10b6e475979"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fc76ab8aefce3d014426c2a2a1509fa9e5a67376c6705990cddb188acdd22416"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e74d9a79b6f835022bfe585139ca6ac23a497bc3133f556e1995ecc168ceb7f5"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "33b05c36f395a384e8a9d86e600abef9a0ea6eafa5fb2b8533ea7d608ddb66ad"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "96b9eff5475a7d4c9edbdf8bf4c00a3ade863f9bd0ad0a25c9b47ed4cc8e99a5"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f2a93de2cf28e74b0047852c33818f9f98afae671c1e12b72326a5158dbe8493"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "13b58221b940de51ef1e08c9899887f50370a883e97943c08b8e4d22df3412ca"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "透明组织及色素胞为外观重建；腕部重叠，不作逐腕计数或内部器官定位依据。"
+}

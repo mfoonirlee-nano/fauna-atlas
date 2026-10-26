@@ -1,3 +1,4 @@
+import profile815 from './species/midwater-octopus.js';
 import type { Species } from '../types/species.ts';
 import profile800 from './species/flamboyant-cuttlefish.js';
 import profile801 from './species/hawaiian-bobtail-squid.js';
@@ -1676,6 +1677,7 @@ export const species: readonly Species[] = [
   profile812,
   profile813,
   profile814,
+  profile815,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(
