@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-27",
+  "tool": "built-in image_gen",
+  "initialPrompts": [
+    {
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Beroe abyssicola: transparent pink elongated oval sack-like comb jelly with broad mouth at one end and dark crimson digestive cavity, eight longitudinal rows of fine ciliary comb plates with subtle light diffraction; no tentacles, no jellyfish bell or oral arms, no fins, no eyes. Open dark seawater neutral ROV illumination. Scene: complete pink oval animal in three-quarter view, mouth closed COVER COMPOSITION: all extremities MUST be in right half, within x=700..1430 and y=85..935 in 1536x1024 canvas. Visual center 70% width. Empty quiet left 40%. Largest full animal that fits these bounds with real background margin all around. "
+    },
+    {
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Beroe abyssicola: transparent pink elongated oval sack-like comb jelly with broad mouth at one end and dark crimson digestive cavity, eight longitudinal rows of fine ciliary comb plates with subtle light diffraction; no tentacles, no jellyfish bell or oral arms, no fins, no eyes. Open dark seawater neutral ROV illumination. Scene: side view of longitudinal ciliary comb rows with subtle prismatic reflected glints. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    },
+    {
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Beroe abyssicola: transparent pink elongated oval sack-like comb jelly with broad mouth at one end and dark crimson digestive cavity, eight longitudinal rows of fine ciliary comb plates with subtle light diffraction; no tentacles, no jellyfish bell or oral arms, no fins, no eyes. Open dark seawater neutral ROV illumination. Scene: oblique view of wide OPEN mouth, no vertebrate teeth, no prey. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    },
+    {
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Beroe abyssicola: transparent pink elongated oval sack-like comb jelly with broad mouth at one end and dark crimson digestive cavity, eight longitudinal rows of fine ciliary comb plates with subtle light diffraction; no tentacles, no jellyfish bell or oral arms, no fins, no eyes. Open dark seawater neutral ROV illumination. Scene: close view through pink translucent body to crimson digestive cavity. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    },
+    {
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Beroe abyssicola: transparent pink elongated oval sack-like comb jelly with broad mouth at one end and dark crimson digestive cavity, eight longitudinal rows of fine ciliary comb plates with subtle light diffraction; no tentacles, no jellyfish bell or oral arms, no fins, no eyes. Open dark seawater neutral ROV illumination. Scene: whole animal with gently changing elongated shape swimming through open water. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    },
+    {
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Beroe abyssicola: transparent pink elongated oval sack-like comb jelly with broad mouth at one end and dark crimson digestive cavity, eight longitudinal rows of fine ciliary comb plates with subtle light diffraction; no tentacles, no jellyfish bell or oral arms, no fins, no eyes. Open dark seawater neutral ROV illumination. Scene: whole animal seen obliquely from mouth end emphasizing hollow sack-shaped anatomy. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    }
+  ],
+  "coverEdits": [],
+  "acceptedCoverEdit": 0
+}

@@ -8058,5 +8058,18 @@
       },
       "sha256": "6d19980352306378d291432e4f3c3a62656402885a798e291783563be7e74461"
     }
+  },
+  "abyssal-comb-jelly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 705,
+        "top": 100,
+        "right": 1410,
+        "bottom": 850
+      },
+      "sha256": "0987703295c80d984d9f300be869f772b661aad70ab1feed0120ec8027e837d9"
+    }
   }
 }

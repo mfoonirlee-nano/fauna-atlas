@@ -8241,5 +8241,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1445,
       "bottom": 865
     }
+  },
+  "abyssal-comb-jelly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 705,
+      "top": 100,
+      "right": 1410,
+      "bottom": 850
+    }
   }
 };

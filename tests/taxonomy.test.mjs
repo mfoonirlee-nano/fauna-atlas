@@ -24378,7 +24378,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 824);
+  assert.equal(species.length, 825);
   assert.equal(findTaxon(tree, 'order', 'Cestida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Discodorididae')?.speciesCount, 1);
@@ -24563,7 +24563,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 824);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 825);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -24579,7 +24579,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Lyssacinosida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euplectellidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euplectella')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Ctenophora')?.speciesCount, 4);
+  assert.equal(findTaxon(tree, 'phylum', 'Ctenophora')?.speciesCount, 5);
   assert.equal(findTaxon(tree, 'class', 'Tentaculata')?.speciesCount, 3);
   assert.equal(findTaxon(tree, 'order', 'Lobata')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Bolinopsidae')?.speciesCount, 1);

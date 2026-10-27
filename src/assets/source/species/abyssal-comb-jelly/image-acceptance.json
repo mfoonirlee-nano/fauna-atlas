@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-27",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1f22463f505482a805a63a552f151641401ed8f09f1d7a76f5ab12fb99ba1ad4"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0987703295c80d984d9f300be869f772b661aad70ab1feed0120ec8027e837d9"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2e77c1f9d5ba185a26ec8ea44fbffbe55a6784ff27bbe70fc3b0c1031c87846f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "37b8e2717ae24e06524415f15408e9f4471b56d7f988ea68c12946525fe4b6ea"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "bc5fff6f8ad4e65a021d56d0fef443abde0c491cccbb8f098e22657e22465f0e"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "019da0d5be41ca9ba92f6a640c50593e3a7046f8bb3879ec1e036a99fdf0cdcf"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1822a00577ae3fa6fa2c8c96b9f763a1f1256b9d2006836dc2d8e16d49b015a7"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "84c5daaf7da00c4fdd9c62bb8e3fec2710e72dad8f1e485db5015a04148f9796"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ab2744116683e480d282ff3a053df48409b214540691e07f5962e474aabb05c4"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9fc98d7817cec488dcc9a261998bc014b50779fbd0c0a33c82ed96904f9779b9"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "b8364c30da64815261a8b483f710d9fa394e66a1f58df5a70d7c92e09eb54cf8"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9bc3cc197647286197938ee92ac682aebb50cd82e84a7961b0ca503f0c248ac6"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "梳板彩光为照明下的反射外观示意，不表示生物发光强度；口内未展示显微纤毛结构。"
+}
