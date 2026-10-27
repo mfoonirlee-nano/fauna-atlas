@@ -8019,5 +8019,18 @@
       },
       "sha256": "1d8016e9569ebccd80ef98400f695345483f4f7023a64d1e597299a1357b1e6f"
     }
+  },
+  "bumpy-jelly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 680,
+        "top": 95,
+        "right": 1450,
+        "bottom": 875
+      },
+      "sha256": "333c8ec1e0b2949b712b92c276299dd08167ddea959fbabf4fe816898b37b025"
+    }
   }
 }

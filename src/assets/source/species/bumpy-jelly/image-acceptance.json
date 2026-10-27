@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-27",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c1128da6ec330efe73284b13f593ddea49362d259b9e553f41f5f7930c940381"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "333c8ec1e0b2949b712b92c276299dd08167ddea959fbabf4fe816898b37b025"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "66013131022c775880f5a71b5180d537c58be99aeece7cb2efcc4f55eec8d0e7"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c3a6eecc7173c9fafc6ffde17326965e501db085c3fb1bd02174a64938f9a256"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "420b5e5d2efafb70f4dd0ab68836c50792ebebe942982e264c29181fcdc2f9c9"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "9411f63795ed3ceb3f3b4db9a554358d7b8b6abe35285d4ca32277f05e4c895d"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "063aee090c115753486a6ec62b0a8daa5ebe10a003eacb706f0b6342008c0162"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6bd85d8a743b03e3ec2a4c6a80baf144ece87f2ca4181aae90acd091511509ed"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4f0ddcc04c8f6652898380ddb0c5047c4f45d9b3f16082baf283dc070474171b"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "fb875ce95d3081ce63a116e1ee5f4af5dbfdb82418a96766f1e12de0dde469b5"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "a29b62e56d709d1626abca4fd223cb9ea5e779d3962290e7698f4f8368633efc"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e0dec76749baa4ba038cf27466bb70ef1b2284f898a41cc80b91aac5eaa839f9"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "体表小突起和口腕边缘经重建，未绘制或测量单个刺细胞。"
+}

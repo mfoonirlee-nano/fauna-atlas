@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-27",
+  "tool": "built-in image_gen",
+  "initialPrompts": [
+    {
+      "index": 1,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Stellamedusa ventana: translucent milky whitish gelatinous rounded bulbous bell densely covered in tiny pale bumps, four short delicate lacy frilly oral arms tucked under and sweeping around the bell edge, NO fine marginal tentacles, NOT a red jelly. Scene: whole individual, bell and all four short lacy oral arms COVER COMPOSITION: all extremities MUST be in right half, within x=700..1430 and y=85..935 in 1536x1024 canvas. Visual center 70% width. Empty quiet left 40%. Largest full animal that fits these bounds with real background margin all around. "
+    },
+    {
+      "index": 2,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Stellamedusa ventana: translucent milky whitish gelatinous rounded bulbous bell densely covered in tiny pale bumps, four short delicate lacy frilly oral arms tucked under and sweeping around the bell edge, NO fine marginal tentacles, NOT a red jelly. Scene: oblique underside view of lacy oral arms collecting at the bell edge. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    },
+    {
+      "index": 3,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Stellamedusa ventana: translucent milky whitish gelatinous rounded bulbous bell densely covered in tiny pale bumps, four short delicate lacy frilly oral arms tucked under and sweeping around the bell edge, NO fine marginal tentacles, NOT a red jelly. Scene: macro view of the tiny bumps covering translucent bell, no invented microscopic cells. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    },
+    {
+      "index": 4,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Stellamedusa ventana: translucent milky whitish gelatinous rounded bulbous bell densely covered in tiny pale bumps, four short delicate lacy frilly oral arms tucked under and sweeping around the bell edge, NO fine marginal tentacles, NOT a red jelly. Scene: whole animal with gently contracted rounded bell. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    },
+    {
+      "index": 5,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Stellamedusa ventana: translucent milky whitish gelatinous rounded bulbous bell densely covered in tiny pale bumps, four short delicate lacy frilly oral arms tucked under and sweeping around the bell edge, NO fine marginal tentacles, NOT a red jelly. Scene: side view showing absence of long marginal tentacles and short frilly arms. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    },
+    {
+      "index": 6,
+      "prompt": "Use case: scientific-educational. Single naturalistic scientific reconstruction, landscape 1536x1024. Accurate animal anatomy, realistic delicate tissues, no text, labels, scale bars, watermark, border, collage, sunrays, fantasy glow, aquarium or other animals. Stellamedusa ventana: translucent milky whitish gelatinous rounded bulbous bell densely covered in tiny pale bumps, four short delicate lacy frilly oral arms tucked under and sweeping around the bell edge, NO fine marginal tentacles, NOT a red jelly. Scene: whole animal floating in open dark blue water. Gallery composition: animal large and centered, detail views may show selected structure; whole animal scenes keep all tips in frame."
+    }
+  ],
+  "coverEdits": [],
+  "acceptedCoverEdit": 0
+}
