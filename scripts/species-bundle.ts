@@ -42,7 +42,9 @@ export function speciesBundle(): Plugin {
         for (const label of summaries.flatMap(({ names, distribution, habitats, tags }) => [
           ...distribution.regions, ...habitats.map(({ name }) => name), ...tags.filter((tag) => tag !== names.zh),
         ])) labelCounts.set(label, (labelCounts.get(label) ?? 0) + 1);
-        const labels = [...labelCounts].filter(([, count]) => count > 1).map(([label]) => label);
+        // Give frequently referenced labels shorter numeric indexes.
+        const labels = [...labelCounts].filter(([, count]) => count > 1)
+          .sort((a, b) => b[1] - a[1]).map(([label]) => label);
         const labelIndexes = new Map(labels.map((label, index) => [label, index]));
         const encodeLabels = (values: readonly string[]) => values.map((value) => labelIndexes.get(value) ?? value);
         // A single region or habitat does not need its own array wrapper on the wire.
@@ -154,8 +156,9 @@ export function speciesBundle(): Plugin {
         if (!/[\u0400-\u0FFF]/u.test(packedRows + packedTaxaText)) {
           const counts = new Map<string, number>();
           // Keep punctuation with Chinese clauses so repeated sentences share
-          // dictionary entries without changing their restored text.
-          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF，。；：、（）]{2,}|[A-Za-z]{3,}/gu) ?? []) {
+          // dictionary entries without changing their restored text. Include spaces
+          // and hyphens so recurring English names can share whole phrases too.
+          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF，。；：、（）]{2,}|[A-Za-z][A-Za-z -]{2,}/gu) ?? []) {
             for (let size = 2; size <= Math.min(16, run.length); size++) {
               for (let start = 0; start + size <= run.length; start++) {
                 const phrase = run.slice(start, start + size);
