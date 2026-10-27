@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-27",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "5fb088287dba580ce1bf778e0b5ec42d221d5ab50145509e2ce95d49d67ee111"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6d19980352306378d291432e4f3c3a62656402885a798e291783563be7e74461"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "edbff9434a5e06f0cfe8f732868e0ff5df7f17438cf0e75faca97767c517e282"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e1130361d87875cb772aac5fd7e6a58b78cd7217205498d7ee43a4d8307357f8"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "21435b64e59d834ec250efa8ece95901ea47c7f491fa610e6ca768ab8ee9a3d5"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "96b4d1686b501ebddb0ef7d3ace5d9b06bdb7bd19d4034265c37f12da2054853"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e378e4d4d62bbc5cef44f3bef2ce967c395c4bcb3698a13c94ee48c2a8b978c3"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4ba27060136f52f56a75aedf0214a51a05c2aeec7684644c2fee526d1a3626b3"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "c3aca2b814cea1a8d2f5f7b47ed3874a1a2482bb594045aa707f3b6668e1ae2f"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8d0c9f85fa149a338a96ece82da56b31e0a2a3b9ffe5b86aecddaff4883fc5dd"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "722d7a51dac0276c72fa4d1c8d84ae90fdb2b5946ac3a8786b426e17657c18b5"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "458d50e638e00580544ba47ee60e98ad7b6f9e91766548b3c143ecae6a92a762"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "伞内幼体位置为示意，触手末端、生殖腺纹理与幼体数量不用于鉴定或计数。"
+}

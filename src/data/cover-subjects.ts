@@ -8231,5 +8231,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1490,
       "bottom": 870
     }
+  },
+  "psychedelic-jelly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 590,
+      "top": 165,
+      "right": 1445,
+      "bottom": 865
+    }
   }
 };

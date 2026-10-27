@@ -8045,5 +8045,18 @@
       },
       "sha256": "76428b5f1c96a7a607c0d618b72655f8829cf880d825c414a33d10b1b0af6f19"
     }
+  },
+  "psychedelic-jelly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 590,
+        "top": 165,
+        "right": 1445,
+        "bottom": 865
+      },
+      "sha256": "6d19980352306378d291432e4f3c3a62656402885a798e291783563be7e74461"
+    }
   }
 }
