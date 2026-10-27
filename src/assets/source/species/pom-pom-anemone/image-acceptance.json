@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-27",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "552bcf4aa460573e0976fdb5dfb840b2cdab041761e220146085f9418c68da01"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "76428b5f1c96a7a607c0d618b72655f8829cf880d825c414a33d10b1b0af6f19"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "968a4f71cf713b3a013295adccb215b7e66198866312a594aa048d200c09ae39"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4e6b5ec465f7b20ded2f8b41a4afc56789568efdd73c631e6a4a6156b1d0bf52"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ab7c91d664ed5707ecf3af2744c7cc59b91dbb8349ee20ac4dfef6f049ea7e5e"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3da3aa24470a375284b6005c142d2495d8480d84f4ab8a31d35d23ba6230dfbe"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "f5201fe2e0c011927f131dc19fbe50a8ff9db5a3077eb3438a86a39aea582f0d"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1b1c23619022660885e3c97e1aa382c7a64b0fadf3c5acfe946baecc013f01d6"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2218d5ba9a4f9a4e366731bb4145f17ba8009ce79782505dc920d80ccd5d02c5"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "48ac3bed66d57dd02f22d438cc3e562d0aa2db12ac123f0b6965f431be53e952"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "e51529b2c201409d53e7ce64c40acd30684f5352cdabfb36f0f15c9ee00be4a5"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "4e83777fec9a1c55240008fe1f2a8cc257f02721bf8e31966d4e038a25b1dd6f"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "身体姿态仅作示意，图集不构成滚动过程的连续记录。"
+}

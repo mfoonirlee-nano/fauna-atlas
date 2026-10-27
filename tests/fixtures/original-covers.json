@@ -8032,5 +8032,18 @@
       },
       "sha256": "333c8ec1e0b2949b712b92c276299dd08167ddea959fbabf4fe816898b37b025"
     }
+  },
+  "pom-pom-anemone": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 620,
+        "top": 145,
+        "right": 1490,
+        "bottom": 870
+      },
+      "sha256": "76428b5f1c96a7a607c0d618b72655f8829cf880d825c414a33d10b1b0af6f19"
+    }
   }
 }

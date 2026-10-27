@@ -8221,5 +8221,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1450,
       "bottom": 875
     }
+  },
+  "pom-pom-anemone": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 620,
+      "top": 145,
+      "right": 1490,
+      "bottom": 870
+    }
   }
 };
