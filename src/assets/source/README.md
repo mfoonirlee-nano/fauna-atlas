@@ -1163,3 +1163,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [珍珠章鱼图片集](./species/pearl-octopus/README.md)
 - [七腕章鱼图片集](./species/seven-arm-octopus/README.md)
 - [大红水母图片集](./species/big-red-jelly/README.md)
+
+## 2026-10-27 新奇动物第五批五种
+
+- [巨型幽灵水母图片集](./species/giant-phantom-jelly/README.md)
+- [疙瘩水母图片集](./species/bumpy-jelly/README.md)
+- [绒球海葵图片集](./species/pom-pom-anemone/README.md)
+- [米尔斯十字水母图片集](./species/psychedelic-jelly/README.md)
+- [深渊瓜水母图片集](./species/abyssal-comb-jelly/README.md)

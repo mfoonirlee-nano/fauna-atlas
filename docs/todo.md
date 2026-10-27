@@ -1,6 +1,6 @@
 # 制作清单：100 种新奇动物与分类补充
 
-2026-10-26 更新：本轮选定 100 种新动物，已完成 20 种，待制作 80 种。前次推荐的 15 种已包含在这 100 种内。正式目录现有 820 份物种档案；本轮已完成的 20 种包含 20 份档案、120 张配图，来源与验收见[首批记录](research/todo-novel-first-five-2026-10-23.md)、[第二批记录](research/todo-novel-second-five-2026-10-23.md)、[第三批记录](research/todo-novel-third-five-2026-10-23.md)及[第四批记录](research/todo-novel-fourth-five-2026-10-24.md)。
+2026-10-27 更新：本轮选定 100 种新动物，已完成 25 种，待制作 75 种。前次推荐的 15 种已包含在这 100 种内。正式目录现有 825 份物种档案；本轮已完成的 25 种包含 25 份档案、150 张配图，来源与验收见[首批记录](research/todo-novel-first-five-2026-10-23.md)、[第二批记录](research/todo-novel-second-five-2026-10-23.md)、[第三批记录](research/todo-novel-third-five-2026-10-23.md)、[第四批记录](research/todo-novel-fourth-five-2026-10-24.md)及[第五批记录](research/todo-novel-fifth-five-2026-10-27.md)。
 
 ## 选题范围与核查
 
@@ -18,12 +18,12 @@
 | 制作分组 | 已完成 | 待制作 |
 | --- | ---: | ---: |
 | 软体动物 | 11 | 10 |
-| 刺胞与栉水母动物 | 2 | 9 |
+| 刺胞与栉水母动物 | 7 | 4 |
 | 棘皮动物 | 1 | 7 |
 | 环节、海绵及其他动物 | 0 | 16 |
 | 节肢动物 | 4 | 24 |
 | 脊索动物 | 2 | 14 |
-| 合计 | 20 | 80 |
+| 合计 | 25 | 75 |
 
 ## 制作顺序与完成条件
 
@@ -65,15 +65,15 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [x] | N002 | 金带栉水母 | *Cestum veneris* | 身体像透明丝带，寻找身体中央的口与纤毛梳板 | 补带栉目 Cestida、Cestidae。 | [来源](https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies) |
 | [x] | N031 | 大红水母 | *Tiburonia granrojo* | 红色大伞下垂着短粗口腕，看不到伞缘长触手 | 与已有长触手水母比较捕食结构 | [来源](https://www.mbari.org/animal/big-red-jelly/) |
-| [ ] | N032 | 巨型幽灵水母 | *Stygiomedusa gigantea* | 四条像长丝带的口腕；有鱼在附近穿游 | 增加深海巨型钵水母与栖身关联例子 | [来源](https://www.mbari.org/animal/giant-phantom-jelly/) |
-| [ ] | N033 | 疙瘩水母 | *Stellamedusa ventana* | 放大看满身小突起；四条蕾丝状口腕扫过伞边 | 展示缺少长触手、以表面刺细胞捕猎的钵水母 | [来源](https://www.mbari.org/animal/bumpy-jelly/) |
-| [ ] | N034 | 双列管水母 | *Nanomia bijuga* | 前方一串游泳钟，后方不同形状个员分工；触手张开成网 | 丰富群体动物的运动与摄食例子 | [来源](https://www.mbari.org/animal/common-siphonophore/) |
-| [ ] | N035 | 绒球海葵 | *Liponema brevicorne* | 圆绒球状身体会卷起，随海流在海底滚动 | 比较固定和可移位的海葵生活方式 | [来源](https://www.mbari.org/animal/pom-pom-anemone/) |
-| [ ] | N036 | 米尔斯十字水母 | *Crossota millsae* | 透明伞内侧能看到依附的小水母，大小不同 | 加入水螅水母育幼及幼体、成体对照 | [来源](https://www.mbari.org/animal/psychedelic-jelly/) |
+| [x] | N032 | 巨型幽灵水母 | *Stygiomedusa gigantea* | 四条像长丝带的口腕；有鱼在附近穿游 | 增加深海巨型钵水母与栖身关联例子 | [来源](https://www.mbari.org/animal/giant-phantom-jelly/) |
+| [x] | N033 | 疙瘩水母 | *Stellamedusa ventana* | 放大看满身小突起；四条蕾丝状口腕扫过伞边 | 展示缺少长触手、以表面刺细胞捕猎的钵水母 | [来源](https://www.mbari.org/animal/bumpy-jelly/) |
+| [ ] | N034 | 双列管水母 | *Nanomia bijuga* | 前方一串游泳钟，后方不同形状个员分工；触手张开成网 | 丰富群体动物的运动与摄食例子；制作前按 2024 年修订厘清 N. bijuga 与 N. septata 的旧记录。 | [来源](https://www.mbari.org/animal/common-siphonophore/) |
+| [x] | N035 | 绒球海葵 | *Liponema brevicorne* | 圆绒球状身体会卷起，随海流在海底滚动 | 比较固定和可移位的海葵生活方式 | [来源](https://www.mbari.org/animal/pom-pom-anemone/) |
+| [x] | N036 | 米尔斯十字水母 | *Crossota millsae* | 透明伞内侧能看到依附的小水母，大小不同 | 加入水螅水母育幼及幼体、成体对照 | [来源](https://www.mbari.org/animal/psychedelic-jelly/) |
 | [ ] | N037 | 红色马鲁管水母 | *Marrus claudanielis* | 猩红身体上有一列透明游泳钟；比较游泳钟与营养个员 | 在管水母内增加不同体形和颜色的比较 | [来源](https://www.mbari.org/animal/red-siphonophore/) |
 | [ ] | N038 | 泡泡糖珊瑚 | *Paragorgia arborea* | 粉红枝丫上放大看羽状珊瑚虫；比较伸出与收起 | 补深海八放珊瑚、冷水珊瑚环境 | [来源](https://www.mbari.org/animal/bubblegum-coral/) |
 | [ ] | N039 | 蘑菇软珊瑚 | *Heteropolypus ritteri* | 触手伸开像花，收回像蘑菇；小动物在旁栖身 | 与分枝珊瑚比较软珊瑚群体形状 | [来源](https://www.mbari.org/animal/mushroom-soft-coral/) |
-| [ ] | N040 | 深渊瓜水母 | *Beroe abyssicola* | 张开大口吃其他栉水母；粉红身体和红色胃 | 与已有卵形瓜水母对照深海摄食与体色 | [来源](https://www.mbari.org/animal/abyssal-comb-jelly/) |
+| [x] | N040 | 深渊瓜水母 | *Beroe abyssicola* | 张开大口吃其他栉水母；粉红身体和红色胃 | 与已有卵形瓜水母对照深海摄食与体色 | [来源](https://www.mbari.org/animal/abyssal-comb-jelly/) |
 
 ### 棘皮动物（8 种）
 
