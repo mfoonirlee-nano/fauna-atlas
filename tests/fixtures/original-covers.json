@@ -8006,5 +8006,18 @@
       },
       "sha256": "0030f921af543477871ec59be70613ff4122ec4293cc277e296cf77ee949a98c"
     }
+  },
+  "giant-phantom-jelly": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 45,
+        "right": 1490,
+        "bottom": 1000
+      },
+      "sha256": "1d8016e9569ebccd80ef98400f695345483f4f7023a64d1e597299a1357b1e6f"
+    }
   }
 }

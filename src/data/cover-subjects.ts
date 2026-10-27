@@ -8201,5 +8201,15 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1440,
       "bottom": 920
     }
+  },
+  "giant-phantom-jelly": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 45,
+      "right": 1490,
+      "bottom": 1000
+    }
   }
 };

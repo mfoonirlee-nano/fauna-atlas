@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "820 animal species profiles; microbial topics excluded",
+  "scope": "821 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,8 +21,8 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 250,
-    "addedProfilesReviewDate": "2026-10-26",
+    "addedProfiles": 251,
+    "addedProfilesReviewDate": "2026-10-27",
     "addedProfilesReviewSkill": "stop-slop"
   },
   "species": [
@@ -37619,6 +37619,43 @@
           "sources": [
             "https://doi.org/10.1007/s00227-003-1047-2",
             "https://www.marinespecies.org/aphia.php?id=291224&p=taxdetails"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "giant-phantom-jelly",
+      "name": "巨型幽灵水母",
+      "scientificName": "Stygiomedusa gigantea",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.mbari.org/animal/giant-phantom-jelly/"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.mbari.org/animal/giant-phantom-jelly/"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.mbari.org/animal/giant-phantom-jelly/"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2264459"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.gbif.org/species/2264459"
           ]
         }
       }

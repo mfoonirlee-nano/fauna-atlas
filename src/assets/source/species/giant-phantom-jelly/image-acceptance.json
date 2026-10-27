@@ -1,0 +1,91 @@
+{
+  "reviewedAt": "2026-10-27",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "01-cover.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0eddd03cdfb06ee740ad61285f715214f973924ac795c727a9863d7939c8f566"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "1d8016e9569ebccd80ef98400f695345483f4f7023a64d1e597299a1357b1e6f"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "02-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ca0c15e40de2665e0db029801a3d1f944c60c09163a3811f016af1aaa12a80b8"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "3fc9dbc29c33a3a1c0202c3c86256c8a09bc8cec9ec59346c463a51068c4d03e"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "03-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "6f4cf6384ee8751895885a754360324ce01cbfb413d30b877cbf545ecb722aa9"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "2cc741a2083bb5d01d8642c8e68e5b962d90a04a7e3e4813dc6586e883c8aad0"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "04-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0f4eee3720ec3622fd18d2a248b0c0fb815c0384f4be3f79f424047ba2ba698d"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "0829ffb7412638ac73b250719785beaeb707513119c1589a3cd78dd0139a7d00"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "05-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "ce1577aca25ff2acd4caca0b5c0eb7388e6e284d5bb9595ca36166db85fe2103"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "96e3541154425be655979f5fd05ed2516ddf8735098ab48f44a606b5ec528ecf"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    },
+    {
+      "file": "06-observation.webp",
+      "source": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "7f40ba6263332bcd5ebf495bca8c167d5465cf8abd7c6d09663c4bc5078c9956"
+      },
+      "runtime": {
+        "width": 1536,
+        "height": 1024,
+        "sha256": "8e55a4f14a51018c39d019c229a44dea397c2d4126b5a84b121f185609febc44"
+      },
+      "review": "source and runtime contact sheets; cover additionally reviewed at original resolution"
+    }
+  ],
+  "limitations": "宽口腕有遮挡和折叠，图中展开长度与褶皱不是实测比例。"
+}
