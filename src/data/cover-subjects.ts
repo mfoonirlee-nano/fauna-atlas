@@ -8251,5 +8251,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1410,
       "bottom": 850
     }
+  },
+  "violet-blanket-octopus": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 438,
+      "top": 14,
+      "right": 1502,
+      "bottom": 946
+    }
+  },
+  "neomenia-carinata": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 580,
+      "top": 185,
+      "right": 1420,
+      "bottom": 760
+    }
+  },
+  "striped-pyjama-squid": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 650,
+      "top": 105,
+      "right": 1485,
+      "bottom": 820
+    }
+  },
+  "solar-powered-nudibranch": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 466,
+      "top": 90,
+      "right": 1460,
+      "bottom": 808
+    }
+  },
+  "eastern-emerald-elysia": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 548,
+      "top": 82,
+      "right": 1495,
+      "bottom": 845
+    }
   }
 };

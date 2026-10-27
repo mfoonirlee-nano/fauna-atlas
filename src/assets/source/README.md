@@ -1171,3 +1171,11 @@ Avoid: stock-photo gloss, oversaturation, centered subject, aggressive pose
 - [绒球海葵图片集](./species/pom-pom-anemone/README.md)
 - [米尔斯十字水母图片集](./species/psychedelic-jelly/README.md)
 - [深渊瓜水母图片集](./species/abyssal-comb-jelly/README.md)
+
+## 2026-10-27 新奇动物第六批五种
+
+- [violet-blanket-octopus 图片集](./species/violet-blanket-octopus/README.md)
+- [neomenia-carinata 图片集](./species/neomenia-carinata/README.md)
+- [striped-pyjama-squid 图片集](./species/striped-pyjama-squid/README.md)
+- [solar-powered-nudibranch 图片集](./species/solar-powered-nudibranch/README.md)
+- [eastern-emerald-elysia 图片集](./species/eastern-emerald-elysia/README.md)

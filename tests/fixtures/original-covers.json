@@ -8071,5 +8071,70 @@
       },
       "sha256": "0987703295c80d984d9f300be869f772b661aad70ab1feed0120ec8027e837d9"
     }
+  },
+  "violet-blanket-octopus": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 438,
+        "top": 14,
+        "right": 1502,
+        "bottom": 946
+      },
+      "sha256": "988d08e50aa243f6138e700f9330987b92fbb9f1b51ff23ae3dc92827cf7875f"
+    }
+  },
+  "neomenia-carinata": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 580,
+        "top": 185,
+        "right": 1420,
+        "bottom": 760
+      },
+      "sha256": "209a2347a54fa4596cc99383f7db50c79c3a657f0a7b30907eb577ea4933d215"
+    }
+  },
+  "striped-pyjama-squid": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 650,
+        "top": 105,
+        "right": 1485,
+        "bottom": 820
+      },
+      "sha256": "0b61937f3ae06b0357729f147a257d35d5a17b8090ae3c55af5e2b02f1eacbc0"
+    }
+  },
+  "solar-powered-nudibranch": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 466,
+        "top": 90,
+        "right": 1460,
+        "bottom": 808
+      },
+      "sha256": "db94852f42ea56306a0d8d542b02dd46aa668d53a6adcf2ae3b6ef951be4d973"
+    }
+  },
+  "eastern-emerald-elysia": {
+    "cover": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 548,
+        "top": 82,
+        "right": 1495,
+        "bottom": 845
+      },
+      "sha256": "d755f0ce228ce9423d669865a04c093f0bda8013f67ba1de3cfa97bdbbec2089"
+    }
   }
 }

@@ -868,6 +868,12 @@ import profile797 from './species/parapuzosia-seppenradensis.js';
 import profile798 from './species/meganeura-monyi.js';
 import profile799 from './species/glyptodon-reticulatus.js';
 
+import profile825 from './species/violet-blanket-octopus.js';
+import profile826 from './species/neomenia-carinata.js';
+import profile827 from './species/striped-pyjama-squid.js';
+import profile828 from './species/solar-powered-nudibranch.js';
+import profile829 from './species/eastern-emerald-elysia.js';
+
 export const species: readonly Species[] = [
   profile0,
   profile1,
@@ -1696,6 +1702,11 @@ export const species: readonly Species[] = [
   profile822,
   profile823,
   profile824,
+  profile825,
+  profile826,
+  profile827,
+  profile828,
+  profile829,
 ];
 
 export const speciesBySlug: Readonly<Record<string, Species>> = Object.fromEntries(

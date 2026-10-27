@@ -158,7 +158,9 @@ export function speciesBundle(): Plugin {
           // Keep punctuation with Chinese clauses so repeated sentences share
           // dictionary entries without changing their restored text. Include spaces
           // and hyphens so recurring English names can share whole phrases too.
-          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF，。；：、（）]{2,}|[A-Za-z][A-Za-z -]{2,}/gu) ?? []) {
+          // Numeric tuples repeat too (taxonomy indexes, coordinates, and flags).
+          // Restore these tokens before parsing JSON, just like text phrases.
+          for (const run of (packedRows + packedTaxaText).match(/[\u3400-\u9FFF，。；：、（）]{2,}|[A-Za-z][A-Za-z -]{2,}|[0-9,\[\]:.\-]{3,}/gu) ?? []) {
             for (let size = 2; size <= Math.min(16, run.length); size++) {
               for (let start = 0; start + size <= run.length; start++) {
                 const phrase = run.slice(start, start + size);
