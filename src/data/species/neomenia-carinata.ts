@@ -32,14 +32,14 @@ const profile = {
     }
   },
   "conservation": {
-    "system": "IUCN Red List",
-    "code": "NE",
+    "system": "Unverified",
+    "code": "UNVERIFIED",
     "label": {
-      "zh": "未评估",
-      "en": "Not Evaluated"
+      "zh": "保护评估待核实",
+      "en": "Assessment Unverified"
     },
     "trend": "unknown",
-    "assessor": "未核实可追溯的 IUCN 全球评估，暂用 NE 表示资料缺口；不表示已确认不存在评估。"
+    "assessor": "尚未核实可追溯的全球保护评估，不据此推断已经评估或尚未评估。"
   },
   "distribution": {
     "realms": [
@@ -123,50 +123,7 @@ const profile = {
     }
   ],
   "media": {
-    "image": "./images/species/neomenia-carinata/01-cover.webp",
-    "alt": "龙骨新月贝全身（AI 生成科学重建）",
-    "credit": "Fauna Atlas · AI 生成科学重建",
-    "focalPoint": {
-      "x": 0.7,
-      "y": 0.5
-    },
-    "gallery": [
-      {
-        "image": "./images/species/neomenia-carinata/02-observation.webp",
-        "title": "背部纵向龙骨",
-        "alt": "龙骨新月贝：背部纵向龙骨（AI 生成示意）",
-        "caption": "AI 生成科学重建。背部纵向龙骨；不作为物种鉴定、显微测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      },
-      {
-        "image": "./images/species/neomenia-carinata/03-observation.webp",
-        "title": "腹面狭沟示意",
-        "alt": "龙骨新月贝：腹面狭沟示意（AI 生成示意）",
-        "caption": "AI 生成科学重建。腹面狭沟示意；不作为物种鉴定、显微测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      },
-      {
-        "image": "./images/species/neomenia-carinata/04-observation.webp",
-        "title": "骨针概念图",
-        "alt": "龙骨新月贝：骨针概念图（AI 生成示意）",
-        "caption": "AI 生成科学重建。骨针概念图；不作为物种鉴定、显微测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      },
-      {
-        "image": "./images/species/neomenia-carinata/05-observation.webp",
-        "title": "弯曲的身体",
-        "alt": "龙骨新月贝：弯曲的身体（AI 生成示意）",
-        "caption": "AI 生成科学重建。弯曲的身体；不作为物种鉴定、显微测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      },
-      {
-        "image": "./images/species/neomenia-carinata/06-observation.webp",
-        "title": "海底全身外观",
-        "alt": "龙骨新月贝：海底全身外观（AI 生成示意）",
-        "caption": "AI 生成科学重建。海底全身外观；不作为物种鉴定、显微测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      }
-    ]
+    "alt": "龙骨新月贝配图核验中"
   },
   "sources": [
     {
@@ -196,7 +153,56 @@ const profile = {
   ],
   "featured": true,
   "publishedAt": "2026-10-27",
-  "updatedAt": "2026-10-27"
+  "updatedAt": "2026-10-27",
+  "pendingMedia": {
+    "reason": "已删除 04 图无依据的骨针显微插图。PESI 只核实接受名和文献入口，不能验证生成体形；关键形态论文仍返回 reCAPTCHA 页面，六张继续撤下。",
+    "assets": {
+      "image": "./images/species/neomenia-carinata/01-cover.webp",
+      "alt": "龙骨新月贝全身（AI 生成科学重建）",
+      "credit": "Fauna Atlas · AI 生成科学重建",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.5
+      },
+      "gallery": [
+        {
+          "image": "./images/species/neomenia-carinata/02-observation.webp",
+          "title": "背部纵向龙骨",
+          "alt": "龙骨新月贝：背部纵向龙骨（AI 生成示意）",
+          "caption": "AI 生成科学重建。背部纵向龙骨；不作为物种鉴定、显微测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        },
+        {
+          "image": "./images/species/neomenia-carinata/03-observation.webp",
+          "title": "腹面狭沟示意",
+          "alt": "龙骨新月贝：腹面狭沟示意（AI 生成示意）",
+          "caption": "AI 生成科学重建。腹面狭沟示意；不作为物种鉴定、显微测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        },
+        {
+          "image": "./images/species/neomenia-carinata/04-observation.webp",
+          "title": "体表外观（待核实）",
+          "alt": "龙骨新月贝体表外观草图，未通过本种形态核实",
+          "caption": "原有无依据的骨针放大结构已移除；本图仅保留待核实的外观草图，不展示显微结构。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        },
+        {
+          "image": "./images/species/neomenia-carinata/05-observation.webp",
+          "title": "弯曲的身体",
+          "alt": "龙骨新月贝：弯曲的身体（AI 生成示意）",
+          "caption": "AI 生成科学重建。弯曲的身体；不作为物种鉴定、显微测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        },
+        {
+          "image": "./images/species/neomenia-carinata/06-observation.webp",
+          "title": "海底全身外观",
+          "alt": "龙骨新月贝：海底全身外观（AI 生成示意）",
+          "caption": "AI 生成科学重建。海底全身外观；不作为物种鉴定、显微测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        }
+      ]
+    }
+  }
 } as const satisfies Species;
 
 export default profile;

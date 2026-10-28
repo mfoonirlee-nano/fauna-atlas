@@ -1,0 +1,280 @@
+{
+  "snapshotDate": "2026-10-22",
+  "reviewDate": "2026-10-27",
+  "note": "Reused the 2026-10-22 repository snapshot. The requested NOAA page and GBIF match endpoint returned HTTP 403 on 2026-10-27; cause not independently confirmed. No fresh remote verification is claimed.",
+  "candidates": [
+    {
+      "scientificName": "Cyphoma gibbosum",
+      "label": "火烈鸟舌螺",
+      "observation": "橙黄黑斑在包覆贝壳的活外套膜上，缩回后壳面不同",
+      "coverageNote": "加入梭螺科 Ovulidae，比较壳色与软组织颜色",
+      "researchNote": "[贝壳博物馆原始水下照片](https://www.shellmuseum.org/post/flamingo-tongue-goth-lips)、[外套膜花纹原始研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC5337085/)；*C. signatum* 等旧标签不能再计一物种",
+      "sources": [
+        "https://www.shellmuseum.org/post/flamingo-tongue-goth-lips",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337085/"
+      ],
+      "researchFile": "docs/research/novel-animal-expansion-marine-2026-10-22.md",
+      "id": "N026",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Cyphoma+gibbosum&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 5192687,
+          "scientificName": "Cyphoma gibbosum (Linnaeus, 1758)",
+          "canonicalName": "Cyphoma gibbosum",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Littorinimorpha",
+          "family": "Ovulidae",
+          "genus": "Cyphoma",
+          "species": "Cyphoma gibbosum",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 225,
+          "orderKey": 7390893,
+          "familyKey": 2666,
+          "genusKey": 2301273,
+          "speciesKey": 5192687,
+          "class": "Gastropoda"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/5192687/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Bulla gibbosa",
+          "Cyphoma alleneae",
+          "Cyphoma dorsatum",
+          "Cyphoma finkli",
+          "Cyphoma lindae",
+          "Cyphoma macumba",
+          "Cyphoma precursor",
+          "Ovula gibbosa",
+          "Ovula pharetra",
+          "Ovula rostrata"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    },
+    {
+      "scientificName": "Aliger gigas",
+      "label": "女王凤凰螺",
+      "observation": "粉橙色壳口，两根长眼柄分别转动",
+      "coverageNote": "加入大型凤凰螺及成体、幼体壳形比较",
+      "researchNote": "[NOAA 物种科学资料](https://www.fisheries.noaa.gov/species/queen-conch/science)；*Strombus gigas*、*Lobatus gigas* 为同种旧组合",
+      "sources": [
+        "https://www.fisheries.noaa.gov/species/queen-conch/science"
+      ],
+      "researchFile": "docs/research/novel-animal-expansion-marine-2026-10-22.md",
+      "id": "N027",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Aliger+gigas&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 10903982,
+          "scientificName": "Aliger gigas (Linnaeus, 1758)",
+          "canonicalName": "Aliger gigas",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Littorinimorpha",
+          "family": "Strombidae",
+          "genus": "Aliger",
+          "species": "Aliger gigas",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 225,
+          "orderKey": 7390893,
+          "familyKey": 7064,
+          "genusKey": 3244516,
+          "speciesKey": 10903982,
+          "class": "Gastropoda"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/10903982/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Eustrombus gigas",
+          "Lobatus gigas",
+          "Strombus canaliculatus",
+          "Strombus gigas",
+          "Strombus gigas pahayokee",
+          "Strombus gigas verrilli",
+          "Strombus horridus",
+          "Strombus lucifer",
+          "Strombus samba",
+          "Strombus verrilli"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    },
+    {
+      "scientificName": "Tonicella lineata",
+      "label": "线纹石鳖",
+      "observation": "数八块背板，观察锯齿状线纹，与橡胶靴石鳖比较",
+      "coverageNote": "在多板纲内增加可对照的小型石鳖",
+      "researchNote": "[Walla Walla 大学原始照片](https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html)、[Puget Sound 大学博物馆](https://www.pugetsound.edu/puget-sound-museum-natural-history/exhibits/marine-panel/lined-chiton)；注意 *T. undocaerulea* 的图像混用问题",
+      "sources": [
+        "https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html",
+        "https://www.pugetsound.edu/puget-sound-museum-natural-history/exhibits/marine-panel/lined-chiton"
+      ],
+      "researchFile": "docs/research/novel-animal-expansion-marine-2026-10-22.md",
+      "id": "N028",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Tonicella+lineata&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 2306813,
+          "scientificName": "Tonicella lineata (W.Wood, 1815)",
+          "canonicalName": "Tonicella lineata",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Chitonida",
+          "family": "Tonicellidae",
+          "genus": "Tonicella",
+          "species": "Tonicella lineata",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 346,
+          "orderKey": 8278247,
+          "familyKey": 3246305,
+          "genusKey": 2306809,
+          "speciesKey": 2306813,
+          "class": "Polyplacophora"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/2306813/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Chiton lineatus",
+          "Chiton lineatus fusca",
+          "Lepidochitona lineata",
+          "Tonicella undocarulea",
+          "Tonicia lineata"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    },
+    {
+      "scientificName": "Hapalochlaena lunulata",
+      "label": "大蓝环章鱼",
+      "observation": "对比平时体色与显现蓝环的警戒图案",
+      "coverageNote": "补蓝环章鱼属并解释可见图案的用途",
+      "researchNote": "[太平洋水族馆物种档案](https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1)；蓝环是体色显示，不能画成自带蓝灯；避免引用毒死人数的夸张比较",
+      "sources": [
+        "https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1"
+      ],
+      "researchFile": "docs/research/novel-animal-expansion-marine-2026-10-22.md",
+      "id": "N029",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Hapalochlaena+lunulata&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 2289324,
+          "scientificName": "Hapalochlaena lunulata (Quoy & Gaimard, 1832)",
+          "canonicalName": "Hapalochlaena lunulata",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Octopoda",
+          "family": "Octopodidae",
+          "genus": "Hapalochlaena",
+          "species": "Hapalochlaena lunulata",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 136,
+          "orderKey": 459,
+          "familyKey": 6835,
+          "genusKey": 2289323,
+          "speciesKey": 2289324,
+          "class": "Cephalopoda"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/2289324/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Octopus lunulatus"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    },
+    {
+      "scientificName": "Hexabranchus sanguineus",
+      "label": "西班牙舞娘海蛞蝓",
+      "observation": "宽大外套膜边缘翻动游泳；背上可见分离的鳃",
+      "coverageNote": "加入大型可游泳裸鳃类与六鳃海蛞蝓科",
+      "researchNote": "[澳大利亚博物馆专家原始观察](https://seaslugforum.net/find/hexasang)；属内近年有种界修订，旧网页各地色型不能全作本种参考，优先红海确证材料",
+      "sources": [
+        "https://seaslugforum.net/find/hexasang"
+      ],
+      "researchFile": "docs/research/novel-animal-expansion-marine-2026-10-22.md",
+      "id": "N030",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Hexabranchus+sanguineus&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 5724734,
+          "scientificName": "Hexabranchus sanguineus (Rüppell & Leuckart, 1830)",
+          "canonicalName": "Hexabranchus sanguineus",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Nudibranchia",
+          "family": "Hexabranchidae",
+          "genus": "Hexabranchus",
+          "species": "Hexabranchus sanguineus",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 225,
+          "orderKey": 980,
+          "familyKey": 6563,
+          "genusKey": 2292365,
+          "speciesKey": 5724734,
+          "class": "Gastropoda"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/5724734/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Albania formosa",
+          "Doris imperialis",
+          "Doris sanguinea",
+          "Hexabranchus aneitus",
+          "Hexabranchus imperialis",
+          "Hexabranchus mauritianus",
+          "Hexabranchus petersi",
+          "Hexabranchus plicatus",
+          "Hexabranchus praetextus",
+          "Hexabranchus suezensis"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    }
+  ]
+}

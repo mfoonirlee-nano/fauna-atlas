@@ -1,0 +1,473 @@
+{
+  "subject": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 628,
+      "top": 88,
+      "right": 1475,
+      "bottom": 752
+    }
+  },
+  "sha256": "1b269d0f3ab69e71c74f1bd1c7c71014f5e9228d52579795d2b2c9609cf8c1f8",
+  "focalPoint": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "method": "Current fitHeroSubject; mobile full source contain; opacity-only endpoints share geometry; no browser",
+  "rows": [
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "panel": [
+        320,
+        260
+      ],
+      "fullSubjectCss": [
+        149.98958333333334,
+        117.58333333333334
+      ],
+      "minimumClearance": 34.802083333333314,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        152.64583333333334,
+        131.75
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        760
+      ],
+      "panel": [
+        390,
+        292.5
+      ],
+      "fullSubjectCss": [
+        188.58984375,
+        147.84375
+      ],
+      "minimumClearance": 37.58203125,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        191.9296875,
+        165.65625
+      ]
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        760
+      ],
+      "fullSubjectCss": [
+        368.47200000000004,
+        288.86116646989376
+      ],
+      "minimumClearance": 23.99999999999997,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        368.4720000000001,
+        318.0315174013922
+      ]
+    },
+    {
+      "viewport": [
+        761,
+        760
+      ],
+      "panel": [
+        416.47200000000004,
+        920
+      ],
+      "fullSubjectCss": [
+        368.47200000000004,
+        288.86116646989376
+      ],
+      "minimumClearance": 23.99999999999997,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        368.4720000000001,
+        318.0315174013922
+      ]
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        760
+      ],
+      "fullSubjectCss": [
+        445.2,
+        349.0115702479339
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        445.20000000000005,
+        384.2561484918794
+      ]
+    },
+    {
+      "viewport": [
+        900,
+        760
+      ],
+      "panel": [
+        493.2,
+        920
+      ],
+      "fullSubjectCss": [
+        445.2,
+        349.0115702479339
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        445.20000000000005,
+        384.2561484918794
+      ]
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        768
+      ],
+      "fullSubjectCss": [
+        555.6,
+        435.5589138134593
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        555.6,
+        479.54338747099774
+      ]
+    },
+    {
+      "viewport": [
+        1100,
+        768
+      ],
+      "panel": [
+        603.6,
+        928
+      ],
+      "fullSubjectCss": [
+        555.6,
+        435.5589138134593
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        555.6,
+        479.54338747099774
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        768
+      ],
+      "fullSubjectCss": [
+        702.432,
+        550.666880755608
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        702.432,
+        606.275415313225
+      ]
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "panel": [
+        750.432,
+        928
+      ],
+      "fullSubjectCss": [
+        702.432,
+        550.666880755608
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        702.432,
+        606.275415313225
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        900
+      ],
+      "fullSubjectCss": [
+        987.8400000000003,
+        774.4105785123969
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        987.1290322580646,
+        852.0000000000001
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        900
+      ],
+      "panel": [
+        1035.8400000000001,
+        1060
+      ],
+      "fullSubjectCss": [
+        987.8400000000003,
+        774.4105785123969
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        987.84,
+        852.6136426914154
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354,
+        900
+      ],
+      "fullSubjectCss": [
+        1086.813253012048,
+        852
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        987.1290322580646,
+        852.0000000000001
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        900
+      ],
+      "panel": [
+        1354,
+        1060
+      ],
+      "fullSubjectCss": [
+        1290.9096385542168,
+        1012
+      ],
+      "minimumClearance": 23.999999999999943,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        1172.505376344086,
+        1011.9999999999999
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994,
+        900
+      ],
+      "fullSubjectCss": [
+        1086.813253012048,
+        852
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        987.1290322580646,
+        852.0000000000001
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        900
+      ],
+      "panel": [
+        1994,
+        1060
+      ],
+      "fullSubjectCss": [
+        1290.9096385542168,
+        1012
+      ],
+      "minimumClearance": 23.999999999999943,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        1172.505376344086,
+        1011.9999999999999
+      ]
+    }
+  ],
+  "previousCover": {
+    "subject": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 618,
+        "top": 88,
+        "right": 1480,
+        "bottom": 832
+      }
+    },
+    "sha256": "b43c75d852542d38eab639afda5ea70999c5bb930c6f3a26758e8d6437f3a74d",
+    "fullSubjectSourcePixels": [
+      862,
+      744
+    ]
+  },
+  "fullSubjectSourcePixels": [
+    847,
+    664
+  ]
+}

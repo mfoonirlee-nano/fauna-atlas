@@ -36,14 +36,14 @@ const profile = {
     }
   },
   "conservation": {
-    "system": "IUCN Red List",
-    "code": "NE",
+    "system": "Unverified",
+    "code": "UNVERIFIED",
     "label": {
-      "zh": "未评估",
-      "en": "Not Evaluated"
+      "zh": "保护评估待核实",
+      "en": "Assessment Unverified"
     },
     "trend": "unknown",
-    "assessor": "未核实可追溯的 IUCN 全球评估，暂用 NE 表示资料缺口；不表示已确认不存在评估。"
+    "assessor": "尚未核实可追溯的全球保护评估，不据此推断已经评估或尚未评估。"
   },
   "distribution": {
     "realms": [
@@ -72,7 +72,7 @@ const profile = {
     "foods": [
       "软珊瑚"
     ],
-    "description": "取食软珊瑚，并与来自食物的共生藻形成关联。这里的光合伙伴是完整的共生藻细胞，不能等同于海天牛保留叶绿体的方式。"
+    "description": "已记录取食 Sarcophyton 属软珊瑚，身体内保留完整的共生藻细胞。共生藻来自食物是专家提出的推测，不能据此断言获取过程已经证实；这也不同于海天牛保留叶绿体的方式。"
   },
   "tags": [
     "长突太阳能海蛞蝓",
@@ -103,7 +103,7 @@ const profile = {
       "key": "observation-3",
       "label": "生活与认识",
       "title": "软珊瑚上的观察",
-      "body": "观察它如何贴近软珊瑚表面，再找头部嗅角与背突。图像重建有遮挡，既不代表连续爬行动作，也不展示未经核实的特定珊瑚种。"
+      "body": "专家资料记录它取食 Sarcophyton 属软珊瑚，也有在 Porites 珊瑚表面爬行的照片。停留在某种珊瑚上不等于正在取食它，生成图中的背景也不能用来证明食谱。"
     },
     {
       "key": "discovery-naming",
@@ -179,7 +179,7 @@ const profile = {
       "title": "选题研究资料：Phyllodesmium longicirrum",
       "url": "https://seaslugforum.net/showall/phyllong",
       "kind": "ecology",
-      "accessedAt": "2026-10-22"
+      "accessedAt": "2026-10-27"
     },
     {
       "title": "GBIF：接受名与分类（2026-10-22 保存快照）",

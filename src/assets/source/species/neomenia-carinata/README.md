@@ -1,5 +1,10 @@
 # 龙骨新月贝图片集
 
+> 当前复核状态：继续撤下。已删除 04 图无依据的骨针显微插图。PESI 只核实接受名和文献入口，不能验证生成体形；关键形态论文仍返回 reCAPTCHA 页面，六张继续撤下。 保护评估为 UNVERIFIED，具体记录见 [biological-review.json](./biological-review.json)。
+
+## 历史制作与检查记录
+
+
 2026-10-27 使用内置 image_gen 制作一张封面和五张观察图。保留六张 WebP；最终提示词见 [prompts.json](./prompts.json)，源图与运行图尺寸、SHA-256 见 [image-acceptance.json](./image-acceptance.json)。资料与网络核实范围见[本批研究](../../../../../docs/research/todo-novel-sixth-five-2026-10-27.md)。
 
 ## 图像与证据边界

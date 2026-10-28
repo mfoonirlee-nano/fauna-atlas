@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "reviewed-reconstruction",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "按 NOAA 正文、插图和活体照片重画六张，移除巨大裙状足与圆盘状厣，改为软体大部分缩入壳口的静止姿态；04 单独重画为未展开宽外唇的幼体。06 不再声称展示足与厣的运动。ESA 受威胁标签与未核实的 IUCN 全球评估分开记录。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://www.fisheries.noaa.gov/species/queen-conch/science",
+      "responseSha256": "11699f735e61628e7ded13f51826282f3494ef77311469db5f91925c048619fc",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "1b269d0f3ab69e71c74f1bd1c7c71014f5e9228d52579795d2b2c9609cf8c1f8"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "0325a69aaf05587589948ec9b89403e863f58843ecde290cee401efe2857eb5a"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "99dff9df54e9663a278521b8e3b09d9cfc2b2a429dab022dd472b9d1158b5688"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "bddceeaf5e580aa7e45b09401e08d46b23ee6eb44ff06d88f80070db72b79849"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "6edbd360bd1cc990d3dd69be8e8765d37fa2bdfae68c210cd28313b5ede0edcd"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "b234ec338421403853afefd68fbf8452fb3f5ee7a03cb4f72ef7bb8226d19cb0"
+    }
+  ]
+}

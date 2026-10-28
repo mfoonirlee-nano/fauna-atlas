@@ -36,14 +36,14 @@ const profile = {
     }
   },
   "conservation": {
-    "system": "IUCN Red List",
-    "code": "NE",
+    "system": "Unverified",
+    "code": "UNVERIFIED",
     "label": {
-      "zh": "未评估",
-      "en": "Not Evaluated"
+      "zh": "保护评估待核实",
+      "en": "Assessment Unverified"
     },
     "trend": "unknown",
-    "assessor": "未核实可追溯的 IUCN 全球评估，暂用 NE 表示资料缺口；不表示已确认不存在评估。"
+    "assessor": "尚未核实可追溯的全球保护评估，不据此推断已经评估或尚未评估。"
   },
   "distribution": {
     "realms": [
@@ -179,7 +179,7 @@ const profile = {
       "title": "选题研究资料：Sepioloidea lineolata",
       "url": "https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid",
       "kind": "ecology",
-      "accessedAt": "2026-10-22"
+      "accessedAt": "2026-10-27"
     },
     {
       "title": "选题研究资料：Sepioloidea lineolata",

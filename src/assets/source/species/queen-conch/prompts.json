@@ -1,0 +1,181 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Aliger gigas queen conch, adult living large marine gastropod with heavy tan spiral shell, short blunt spire knobs, huge flared shell lip with warm pink orange inner surface, long independent eye stalks with dark eyes, thick mottled soft foot on Caribbean seagrass sandy seabed. Canonical cover. Place entire animal on the RIGHT at horizontal center 72 percent of source width. Keep ALL body parts within x 670..1460 y 140..870 of a 1536x1024 canvas. Left 40 percent calm low-detail natural background. Large clear full animal, real background margin on every side.. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. Cover: whole shell animal on RIGHT, center72%width, quiet left40%, all parts insidex670..1460,y140..880.",
+        "inputRuntimeSha256": "b43c75d852542d38eab639afda5ea70999c5bb930c6f3a26758e8d6437f3a74d",
+        "outputSourceSha256": "bbe3b3657391a6c62f8b6c751bfe5280f820dd1a35d533b18a2736b5de075f8e",
+        "references": [
+          {
+            "path": "ref-conch-0.jpg",
+            "sha256": "2182bdeeb7a6b0425af3da4c720c32b4080fbff60ad71228f61df67ba72dc768"
+          },
+          {
+            "path": "ref-conch-1.jpg",
+            "sha256": "00030dde785e508f553b3a5c5e040a0667d55a3a1ae3adf31f5eeba1608696c3"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. Cover: whole shell animal on RIGHT, center72%width, quiet left40%, all parts insidex670..1460,y140..880."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Aliger gigas queen conch, adult living large marine gastropod with heavy tan spiral shell, short blunt spire knobs, huge flared shell lip with warm pink orange inner surface, long independent eye stalks with dark eyes, thick mottled soft foot on Caribbean seagrass sandy seabed. low side view of two long eye stalks extending from shell. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. One adult only.",
+        "inputRuntimeSha256": "db50a9ae0790b7cb8cdd1f8d80c364f1959696d8c8f968b785e6cca685acccd2",
+        "outputSourceSha256": "9d235b2fec4065c62c7ee1b9f022e7577b99b8b743f4e4af2adba4228f891360",
+        "references": [
+          {
+            "path": "ref-conch-0.jpg",
+            "sha256": "2182bdeeb7a6b0425af3da4c720c32b4080fbff60ad71228f61df67ba72dc768"
+          },
+          {
+            "path": "ref-conch-1.jpg",
+            "sha256": "00030dde785e508f553b3a5c5e040a0667d55a3a1ae3adf31f5eeba1608696c3"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. One adult only."
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Aliger gigas queen conch, adult living large marine gastropod with heavy tan spiral shell, short blunt spire knobs, huge flared shell lip with warm pink orange inner surface, long independent eye stalks with dark eyes, thick mottled soft foot on Caribbean seagrass sandy seabed. adult shell aperture showing pink orange flared lip and living foot. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. One adult only.",
+        "inputRuntimeSha256": "50a352cda3668d6f68f8a788a880da3fe6581c92fee92365309eee9c8dcbdbf8",
+        "outputSourceSha256": "9189e5f6fdab7ece68593ce0e05a60e2432958f4700903ca945144b6fb86aa78",
+        "references": [
+          {
+            "path": "ref-conch-0.jpg",
+            "sha256": "2182bdeeb7a6b0425af3da4c720c32b4080fbff60ad71228f61df67ba72dc768"
+          },
+          {
+            "path": "ref-conch-1.jpg",
+            "sha256": "00030dde785e508f553b3a5c5e040a0667d55a3a1ae3adf31f5eeba1608696c3"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. One adult only."
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Aliger gigas queen conch, adult living large marine gastropod with heavy tan spiral shell, short blunt spire knobs, huge flared shell lip with warm pink orange inner surface, long independent eye stalks with dark eyes, thick mottled soft foot on Caribbean seagrass sandy seabed. juvenile conch with smaller shell and NO large flared adult lip, natural sandy habitat. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Completely replace both animals in the first illustration with ONE single juvenile Aliger gigas queen conch. This must be juvenile shell growth scene: NO flared adult lip, NO second adult anywhere. Keep sandy seagrass habitat. One tan brown spiralled small conch shell with short nodules, aperture narrow simple unflared rim, head and two eye stalks emerge slightly, other soft parts retracted inside. No broad flat foot skirt, no disk operculum. Entire juvenile in the picture with margins. Use attached NOAA factual anatomy refs but adult flared lip MUST NOT be copied into this juvenile. One coherent landscape1536x1024, natural history illustration, no text. Most important remove enormous adult shell and remove ALL flared shell lips.",
+        "inputRuntimeSha256": "29eb3362a03addcec00b3f92150f63122a36d49154d1f7de30499f97574042b2",
+        "outputSourceSha256": "11048f45258cbe7c82a3cf0841438a210e0174575eaa61739e81331d96b9bc7f",
+        "inputImageSha256": "68d852a81e628a7ae504da89e16bc235c83ea4aa86d9198b53410529203f23d6",
+        "references": [
+          {
+            "path": "exec-4f0dda2c-f63d-4e4e-b615-3e2f3c206d19.png",
+            "sha256": "68d852a81e628a7ae504da89e16bc235c83ea4aa86d9198b53410529203f23d6"
+          },
+          {
+            "path": "ref-conch-0.jpg",
+            "sha256": "2182bdeeb7a6b0425af3da4c720c32b4080fbff60ad71228f61df67ba72dc768"
+          },
+          {
+            "path": "ref-conch-1.jpg",
+            "sha256": "00030dde785e508f553b3a5c5e040a0667d55a3a1ae3adf31f5eeba1608696c3"
+          }
+        ]
+      }
+    ],
+    "candidateReview": [
+      {
+        "prompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. THIS scene has one juvenile only: small shell WITHOUT the flared adult lip; no adult second animal.",
+        "sourceSha256": "68d852a81e628a7ae504da89e16bc235c83ea4aa86d9198b53410529203f23d6",
+        "inputFiles": [
+          {
+            "name": "ref-conch-0.jpg",
+            "sha256": "2182bdeeb7a6b0425af3da4c720c32b4080fbff60ad71228f61df67ba72dc768"
+          },
+          {
+            "name": "ref-conch-1.jpg",
+            "sha256": "00030dde785e508f553b3a5c5e040a0667d55a3a1ae3adf31f5eeba1608696c3"
+          }
+        ],
+        "decision": "rejected or superseded"
+      },
+      {
+        "prompt": "Completely replace both animals in the first illustration with ONE single juvenile Aliger gigas queen conch. This must be juvenile shell growth scene: NO flared adult lip, NO second adult anywhere. Keep sandy seagrass habitat. One tan brown spiralled small conch shell with short nodules, aperture narrow simple unflared rim, head and two eye stalks emerge slightly, other soft parts retracted inside. No broad flat foot skirt, no disk operculum. Entire juvenile in the picture with margins. Use attached NOAA factual anatomy refs but adult flared lip MUST NOT be copied into this juvenile. One coherent landscape1536x1024, natural history illustration, no text. Most important remove enormous adult shell and remove ALL flared shell lips.",
+        "sourceSha256": "11048f45258cbe7c82a3cf0841438a210e0174575eaa61739e81331d96b9bc7f",
+        "inputFiles": [
+          {
+            "name": "exec-4f0dda2c-f63d-4e4e-b615-3e2f3c206d19.png",
+            "sha256": "68d852a81e628a7ae504da89e16bc235c83ea4aa86d9198b53410529203f23d6"
+          },
+          {
+            "name": "ref-conch-0.jpg",
+            "sha256": "2182bdeeb7a6b0425af3da4c720c32b4080fbff60ad71228f61df67ba72dc768"
+          },
+          {
+            "name": "ref-conch-1.jpg",
+            "sha256": "00030dde785e508f553b3a5c5e040a0667d55a3a1ae3adf31f5eeba1608696c3"
+          }
+        ],
+        "decision": "retained"
+      }
+    ],
+    "currentPrompt": "Completely replace both animals in the first illustration with ONE single juvenile Aliger gigas queen conch. This must be juvenile shell growth scene: NO flared adult lip, NO second adult anywhere. Keep sandy seagrass habitat. One tan brown spiralled small conch shell with short nodules, aperture narrow simple unflared rim, head and two eye stalks emerge slightly, other soft parts retracted inside. No broad flat foot skirt, no disk operculum. Entire juvenile in the picture with margins. Use attached NOAA factual anatomy refs but adult flared lip MUST NOT be copied into this juvenile. One coherent landscape1536x1024, natural history illustration, no text. Most important remove enormous adult shell and remove ALL flared shell lips."
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Aliger gigas queen conch, adult living large marine gastropod with heavy tan spiral shell, short blunt spire knobs, huge flared shell lip with warm pink orange inner surface, long independent eye stalks with dark eyes, thick mottled soft foot on Caribbean seagrass sandy seabed. adult conch shell spire and blunt knobs dorsal oblique. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. One adult only.",
+        "inputRuntimeSha256": "ea8435069133b7a9eafdeb688ca81d00c14e25b69138b98a48bed68b56d8bdc5",
+        "outputSourceSha256": "3b2ff562dbf08df9f8458c36d3c349873691a3a30bbe8d75c285b4e450e45a6b",
+        "references": [
+          {
+            "path": "ref-conch-0.jpg",
+            "sha256": "2182bdeeb7a6b0425af3da4c720c32b4080fbff60ad71228f61df67ba72dc768"
+          },
+          {
+            "path": "ref-conch-1.jpg",
+            "sha256": "00030dde785e508f553b3a5c5e040a0667d55a3a1ae3adf31f5eeba1608696c3"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. One adult only."
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Educational natural-history scientific reconstruction of Aliger gigas queen conch, adult living large marine gastropod with heavy tan spiral shell, short blunt spire knobs, huge flared shell lip with warm pink orange inner surface, long independent eye stalks with dark eyes, thick mottled soft foot on Caribbean seagrass sandy seabed. adult moving on seagrass sand bottom using foot and operculum, all body in frame. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. One adult only.",
+        "inputRuntimeSha256": "7a3ebec8bb1229356cbad269d29151fd0e9c52531de80b04445a9a62c72cbf39",
+        "outputSourceSha256": "d1adedf3ea2a4717248f859d847998b85438f179e2f4dfbe8ffe78367c89df08",
+        "references": [
+          {
+            "path": "ref-conch-0.jpg",
+            "sha256": "2182bdeeb7a6b0425af3da4c720c32b4080fbff60ad71228f61df67ba72dc768"
+          },
+          {
+            "path": "ref-conch-1.jpg",
+            "sha256": "00030dde785e508f553b3a5c5e040a0667d55a3a1ae3adf31f5eeba1608696c3"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Repair the first image into a biologically restrained Aliger gigas queen conch illustration. Use attached NOAA illustration and NOAA live conch photograph for actual shell and soft anatomy, without copying their composition or any human. Remove the enormous flat skirt foot entirely and remove any round disk behind the shell. Show a resting conch with almost all soft parts retracted INSIDE the aperture, head and two independently protruding short-to-long eye stalks only, each with a real eye. The small foot base if visible must be narrow and tucked under aperture, NEVER a huge flat land-snail skirt. Operculum is hidden within the shell, do not draw a disk, paddle or visible operculum. Heavy tan shell, short apical knobs, realistic shell aperture and warm pink inner outer lip. Preserve the first image habitat, camera and animal orientation and entire shell in frame with background margins. No motion or walking demonstration. Natural history educational realistic reconstruction, no text, landscape1536x1024. One adult only."
+  }
+]

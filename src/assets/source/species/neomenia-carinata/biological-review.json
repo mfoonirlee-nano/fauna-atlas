@@ -1,0 +1,48 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "pending",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "已删除 04 图无依据的骨针显微插图。PESI 只核实接受名和文献入口，不能验证生成体形；关键形态论文仍返回 reCAPTCHA 页面，六张继续撤下。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560",
+      "responseSha256": "4da6429d0e5286b20298c97ae0f3db96e509e88e5e20d1ba3253cb7db48d86d9",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "209a2347a54fa4596cc99383f7db50c79c3a657f0a7b30907eb577ea4933d215"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "3d5cea0d3acdeefa27df341b08e8bdb8ef8a9b2631e21178d5f470cd1b7869ce"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "90b8d93c8f58f9f9556137c8626686df4d7507db1110879164c8f5c21d13682b"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "6842f5d25b5bcc82860917fbea096cc118fb409db37b19a4c81438e77085728e"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "63732ef7ea96f3b9445f1fc2efa3ca77a5e2e18eee0c5502f4b38abe05785931"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "e8e514a458c811366999ea4754d9cb8bcad15beac5b5fc8d09e73467740eaed4"
+    }
+  ],
+  "blockedReferences": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11488289/",
+      "httpStatus": 200,
+      "body": "reCAPTCHA; article and figures unavailable",
+      "responseSha256": "cf833b28298cd455a5bf86240aad3d65072d0b6bd84392fd8744366a89736d08"
+    }
+  ]
+}

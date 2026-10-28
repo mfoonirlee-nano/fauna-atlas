@@ -48,8 +48,9 @@
       1536,
       1024
     ],
-    "sourceSha256": "481c159a5b6eb17ae9d7255d2ca30a35b32731468a5b4dac6281525a1642db0c",
-    "runtimeSha256": "2fa28b853a15cd89c9a266d0317d859e1ad2920a5007aa55039cbb81f5a99704"
+    "sourceSha256": "6b2c5bb9134eac849f725fda1cb14fe65cdedeb05f0547c4ba09e0e763b84b4b",
+    "runtimeSha256": "6842f5d25b5bcc82860917fbea096cc118fb409db37b19a4c81438e77085728e",
+    "supersededRuntimeSha256": "2fa28b853a15cd89c9a266d0317d859e1ad2920a5007aa55039cbb81f5a99704"
   },
   {
     "file": "05-observation.webp",

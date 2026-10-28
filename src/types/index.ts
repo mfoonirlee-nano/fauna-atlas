@@ -1,5 +1,6 @@
 export type {
   ConservationStatus,
+  ConservationCode,
   DietType,
   EcologicalRealm,
   FeaturedStat,

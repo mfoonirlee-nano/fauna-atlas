@@ -36,14 +36,14 @@ const profile = {
     }
   },
   "conservation": {
-    "system": "IUCN Red List",
-    "code": "NE",
+    "system": "Unverified",
+    "code": "UNVERIFIED",
     "label": {
-      "zh": "未评估",
-      "en": "Not Evaluated"
+      "zh": "保护评估待核实",
+      "en": "Assessment Unverified"
     },
     "trend": "unknown",
-    "assessor": "未核实可追溯的 IUCN 全球评估，暂用 NE 表示资料缺口；不表示已确认不存在评估。"
+    "assessor": "尚未核实可追溯的全球保护评估，不据此推断已经评估或尚未评估。"
   },
   "distribution": {
     "realms": [
@@ -130,50 +130,7 @@ const profile = {
     }
   ],
   "media": {
-    "image": "./images/species/violet-blanket-octopus/01-cover.webp",
-    "alt": "紫毯章鱼全身（AI 生成科学重建）",
-    "credit": "Fauna Atlas · AI 生成科学重建",
-    "focalPoint": {
-      "x": 0.7,
-      "y": 0.5
-    },
-    "gallery": [
-      {
-        "image": "./images/species/violet-blanket-octopus/02-observation.webp",
-        "title": "收拢的腕膜",
-        "alt": "紫毯章鱼：收拢的腕膜（AI 生成示意）",
-        "caption": "AI 生成科学重建。成年雌性腕膜收拢时的侧面重建；不作为鉴定、测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      },
-      {
-        "image": "./images/species/violet-blanket-octopus/03-observation.webp",
-        "title": "展开腕膜的雌性",
-        "alt": "紫毯章鱼：展开腕膜的雌性（AI 生成示意）",
-        "caption": "AI 生成科学重建。画面仅示意成年雌性，不呈现雄性或雌雄尺寸比例；不作为鉴定、测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      },
-      {
-        "image": "./images/species/violet-blanket-octopus/04-observation.webp",
-        "title": "腕与吸盘",
-        "alt": "紫毯章鱼：腕与吸盘（AI 生成示意）",
-        "caption": "AI 生成科学重建。可见腕部与吸盘的外观，遮挡处不能据图计数；不作为鉴定、测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      },
-      {
-        "image": "./images/species/violet-blanket-octopus/05-observation.webp",
-        "title": "水层中的雌性",
-        "alt": "紫毯章鱼：水层中的雌性（AI 生成示意）",
-        "caption": "AI 生成科学重建。成年雌性在开阔海水中的全身姿态；不作为鉴定、测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      },
-      {
-        "image": "./images/species/violet-blanket-octopus/06-observation.webp",
-        "title": "透光的腕膜",
-        "alt": "紫毯章鱼：透光的腕膜（AI 生成示意）",
-        "caption": "AI 生成科学重建。透光腕膜的纹理示意，颜色不作近似种辨认依据；不作为鉴定、测量或连续行为证据。",
-        "credit": "Fauna Atlas · AI 生成科学重建"
-      }
-    ]
+    "alt": "紫毯章鱼配图核验中"
   },
   "sources": [
     {
@@ -197,7 +154,56 @@ const profile = {
   ],
   "featured": true,
   "publishedAt": "2026-10-27",
-  "updatedAt": "2026-10-27"
+  "updatedAt": "2026-10-27",
+  "pendingMedia": {
+    "reason": "现有图的腕膜与种级鉴定依据不足。两篇关键论文返回的是 reCAPTCHA 页面，没有取得正文或已鉴定参考图；不得恢复。",
+    "assets": {
+      "image": "./images/species/violet-blanket-octopus/01-cover.webp",
+      "alt": "紫毯章鱼全身（AI 生成科学重建）",
+      "credit": "Fauna Atlas · AI 生成科学重建",
+      "focalPoint": {
+        "x": 0.7,
+        "y": 0.5
+      },
+      "gallery": [
+        {
+          "image": "./images/species/violet-blanket-octopus/02-observation.webp",
+          "title": "收拢的腕膜",
+          "alt": "紫毯章鱼：收拢的腕膜（AI 生成示意）",
+          "caption": "AI 生成科学重建。成年雌性腕膜收拢时的侧面重建；不作为鉴定、测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        },
+        {
+          "image": "./images/species/violet-blanket-octopus/03-observation.webp",
+          "title": "展开腕膜的雌性",
+          "alt": "紫毯章鱼：展开腕膜的雌性（AI 生成示意）",
+          "caption": "AI 生成科学重建。画面仅示意成年雌性，不呈现雄性或雌雄尺寸比例；不作为鉴定、测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        },
+        {
+          "image": "./images/species/violet-blanket-octopus/04-observation.webp",
+          "title": "腕与吸盘",
+          "alt": "紫毯章鱼：腕与吸盘（AI 生成示意）",
+          "caption": "AI 生成科学重建。可见腕部与吸盘的外观，遮挡处不能据图计数；不作为鉴定、测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        },
+        {
+          "image": "./images/species/violet-blanket-octopus/05-observation.webp",
+          "title": "水层中的雌性",
+          "alt": "紫毯章鱼：水层中的雌性（AI 生成示意）",
+          "caption": "AI 生成科学重建。成年雌性在开阔海水中的全身姿态；不作为鉴定、测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        },
+        {
+          "image": "./images/species/violet-blanket-octopus/06-observation.webp",
+          "title": "透光的腕膜",
+          "alt": "紫毯章鱼：透光的腕膜（AI 生成示意）",
+          "caption": "AI 生成科学重建。透光腕膜的纹理示意，颜色不作近似种辨认依据；不作为鉴定、测量或连续行为证据。",
+          "credit": "Fauna Atlas · AI 生成科学重建"
+        }
+      ]
+    }
+  }
 } as const satisfies Species;
 
 export default profile;

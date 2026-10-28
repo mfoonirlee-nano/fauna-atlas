@@ -9,8 +9,9 @@
       1536,
       1024
     ],
-    "sourceSha256": "e0f473cf84d6f58d2b27e69bf5da8789fd38cbd2e24792f0b7043ec571dfdcdc",
-    "runtimeSha256": "d755f0ce228ce9423d669865a04c093f0bda8013f67ba1de3cfa97bdbbec2089"
+    "sourceSha256": "c794a3812434219519096127641160c101ae7c94a2b124fe674c80c97ab93a7d",
+    "runtimeSha256": "9eaf683a8ed2ca459d732da26d915f5a142c455d2ede1aabccdd74be33342322",
+    "supersededRuntimeSha256": "d755f0ce228ce9423d669865a04c093f0bda8013f67ba1de3cfa97bdbbec2089"
   },
   {
     "file": "02-observation.webp",
@@ -22,8 +23,9 @@
       1536,
       1024
     ],
-    "sourceSha256": "6adc68e528b8e3cd36af84f3595f56378d0dd8bbb2606dd434a1df08701058f0",
-    "runtimeSha256": "8bd8e0b568d1a945d7455054a06bf3ceb2bd048c3794b0615938ed266103086f"
+    "sourceSha256": "2d57e1a4a6684f80c349e5838d8eb516ddff4e9ec5d51b9619ab4a06f2ed8765",
+    "runtimeSha256": "94a1fb9317c2ccf2dff0ea2663e2acf3eae34a8f7ad7f03e83920e9035a09104",
+    "supersededRuntimeSha256": "8bd8e0b568d1a945d7455054a06bf3ceb2bd048c3794b0615938ed266103086f"
   },
   {
     "file": "03-observation.webp",
@@ -35,8 +37,9 @@
       1536,
       1024
     ],
-    "sourceSha256": "de8fb4454ea3c11db4d4a7911baa3221f8bd12f0b7a349133da42b2f6224a02c",
-    "runtimeSha256": "fde236b72a38b37143a4033e8856a9df15bfb3b2242de4df73433238caca4d26"
+    "sourceSha256": "eb811fadc124525a5dad80a6fbdcbb860fa8c751b8627c1ebc36a3e558efcf69",
+    "runtimeSha256": "eef19f99338dde346a4d664297efad11469982cc8082b20d4c0f04e8ee10efe1",
+    "supersededRuntimeSha256": "fde236b72a38b37143a4033e8856a9df15bfb3b2242de4df73433238caca4d26"
   },
   {
     "file": "04-observation.webp",
@@ -48,8 +51,9 @@
       1536,
       1024
     ],
-    "sourceSha256": "a99c0e2fb9941f5806589575c74deda57abd6effa6cd9cebd333022779b125eb",
-    "runtimeSha256": "4671447c187df98a0e77e80e4dcc5195c37f48fb345c1da2c199d907ad93b8f8"
+    "sourceSha256": "ae0f0ff2cfcc5d7606c58082b1f8ecd37390a0867adad3537d809a604910bb3d",
+    "runtimeSha256": "2eed3fbcdb1bd20546720574205fa5d9abbb50dc7c2e163400276d99cc6a9eee",
+    "supersededRuntimeSha256": "4671447c187df98a0e77e80e4dcc5195c37f48fb345c1da2c199d907ad93b8f8"
   },
   {
     "file": "05-observation.webp",
@@ -61,8 +65,9 @@
       1536,
       1024
     ],
-    "sourceSha256": "9984ed69c904ce9196a7bb216d88dd27cd6b481a1909d43c9f554c7d5281fc8f",
-    "runtimeSha256": "4139866d360d232684c93c1ac82a73b7207c3be6fd0a76ce58fdc4cafd5c6897"
+    "sourceSha256": "900efe0495f3fe150e0d0ac301415c6bc4235017c2546c16e0708a74ef5df59d",
+    "runtimeSha256": "6e3302bebc2fa9ee22bc16f0eaf38f3c426710b461115e43bdd20a11c646490c",
+    "supersededRuntimeSha256": "4139866d360d232684c93c1ac82a73b7207c3be6fd0a76ce58fdc4cafd5c6897"
   },
   {
     "file": "06-observation.webp",
@@ -74,7 +79,8 @@
       1536,
       1024
     ],
-    "sourceSha256": "3be5cf4e76a28c93b8f7569c0ffb2da06244b713ea01108fe3bcb882229f4876",
-    "runtimeSha256": "c96775d4532aa33789a5a7a3f5f04ca4c4ec795dd5acafc4ff0d3462e1a9e5f7"
+    "sourceSha256": "f5a7db4ddf394143986ebdba599e98397411ee96f2e196997f1ef6a1cf08c6c3",
+    "runtimeSha256": "73b5826ce97e897598d169377a069371394625c082c51a51668385ca56908392",
+    "supersededRuntimeSha256": "c96775d4532aa33789a5a7a3f5f04ca4c4ec795dd5acafc4ff0d3462e1a9e5f7"
   }
 ]

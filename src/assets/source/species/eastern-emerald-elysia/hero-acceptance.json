@@ -3,13 +3,13 @@
     "width": 1536,
     "height": 1024,
     "bounds": {
-      "left": 548,
-      "top": 82,
-      "right": 1495,
-      "bottom": 845
+      "left": 512,
+      "top": 160,
+      "right": 1507,
+      "bottom": 867
     }
   },
-  "sha256": "d755f0ce228ce9423d669865a04c093f0bda8013f67ba1de3cfa97bdbbec2089",
+  "sha256": "9eaf683a8ed2ca459d732da26d915f5a142c455d2ede1aabccdd74be33342322",
   "focalPoint": {
     "x": 0.7,
     "y": 0.5
@@ -26,10 +26,10 @@
         260
       ],
       "fullSubjectCss": [
-        167.69791666666669,
-        135.11458333333334
+        176.19791666666669,
+        125.19791666666667
       ],
-      "minimumClearance": 31.26041666666663,
+      "minimumClearance": 29.13541666666663,
       "endpoints": [
         "settled",
         "initial",
@@ -37,6 +37,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        167.69791666666669,
+        135.11458333333334
       ]
     },
     {
@@ -49,17 +53,21 @@
         292.5
       ],
       "fullSubjectCss": [
+        221.54296875,
+        157.41796875
+      ],
+      "minimumClearance": 30.45703125,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
         210.85546875,
         169.88671875
-      ],
-      "minimumClearance": 33.12890625,
-      "endpoints": [
-        "settled",
-        "initial",
-        "forward-enter",
-        "forward-leave",
-        "backward-enter",
-        "backward-leave"
       ]
     },
     {
@@ -72,10 +80,10 @@
         760
       ],
       "fullSubjectCss": [
-        368.472,
-        296.8787074973601
+        368.47200000000004,
+        261.81879798994976
       ],
-      "minimumClearance": 23.99999999999997,
+      "minimumClearance": 24,
       "endpoints": [
         "settled",
         "initial",
@@ -83,6 +91,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        368.472,
+        296.8787074973601
       ]
     },
     {
@@ -95,10 +107,10 @@
         920
       ],
       "fullSubjectCss": [
-        368.472,
-        296.8787074973601
+        368.47200000000004,
+        261.81879798994976
       ],
-      "minimumClearance": 23.99999999999997,
+      "minimumClearance": 24,
       "endpoints": [
         "settled",
         "initial",
@@ -106,6 +118,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        368.472,
+        296.8787074973601
       ]
     },
     {
@@ -119,7 +135,7 @@
       ],
       "fullSubjectCss": [
         445.2,
-        358.6986272439282
+        316.33809045226127
       ],
       "minimumClearance": 24,
       "endpoints": [
@@ -129,6 +145,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        445.2,
+        358.6986272439282
       ]
     },
     {
@@ -142,16 +162,20 @@
       ],
       "fullSubjectCss": [
         445.2,
+        316.33809045226127
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        445.2,
         358.6986272439282
-      ],
-      "minimumClearance": 24,
-      "endpoints": [
-        "settled",
-        "initial",
-        "forward-enter",
-        "forward-leave",
-        "backward-enter",
-        "backward-leave"
       ]
     },
     {
@@ -165,7 +189,7 @@
       ],
       "fullSubjectCss": [
         555.6,
-        447.64815205913413
+        394.7831155778895
       ],
       "minimumClearance": 23.999999999999943,
       "endpoints": [
@@ -175,6 +199,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        555.6,
+        447.64815205913413
       ]
     },
     {
@@ -188,7 +216,7 @@
       ],
       "fullSubjectCss": [
         555.6,
-        447.64815205913413
+        394.7831155778895
       ],
       "minimumClearance": 23.999999999999943,
       "endpoints": [
@@ -198,6 +226,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        555.6,
+        447.64815205913413
       ]
     },
     {
@@ -211,9 +243,9 @@
       ],
       "fullSubjectCss": [
         702.432,
-        565.951020063358
+        499.1149989949748
       ],
-      "minimumClearance": 23.999999999999773,
+      "minimumClearance": 24,
       "endpoints": [
         "settled",
         "initial",
@@ -221,6 +253,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        702.432,
+        565.951020063358
       ]
     },
     {
@@ -234,16 +270,20 @@
       ],
       "fullSubjectCss": [
         702.432,
+        499.1149989949748
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        702.432,
         565.951020063358
-      ],
-      "minimumClearance": 23.999999999999773,
-      "endpoints": [
-        "settled",
-        "initial",
-        "forward-enter",
-        "forward-leave",
-        "backward-enter",
-        "backward-leave"
       ]
     },
     {
@@ -256,8 +296,8 @@
         900
       ],
       "fullSubjectCss": [
-        987.84,
-        795.904878563886
+        987.8400000000001,
+        701.9124422110553
       ],
       "minimumClearance": 24,
       "endpoints": [
@@ -267,6 +307,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        987.84,
+        795.904878563886
       ]
     },
     {
@@ -279,17 +323,21 @@
         1060
       ],
       "fullSubjectCss": [
+        987.8400000000001,
+        701.9124422110553
+      ],
+      "minimumClearance": 24,
+      "endpoints": [
+        "settled",
+        "initial",
+        "forward-enter",
+        "forward-leave",
+        "backward-enter",
+        "backward-leave"
+      ],
+      "previousFullSubjectCss": [
         987.84,
         795.904878563886
-      ],
-      "minimumClearance": 24,
-      "endpoints": [
-        "settled",
-        "initial",
-        "forward-enter",
-        "forward-leave",
-        "backward-enter",
-        "backward-leave"
       ]
     },
     {
@@ -302,8 +350,8 @@
         900
       ],
       "fullSubjectCss": [
-        1057.4626474442987,
-        851.9999999999999
+        1199.066478076379,
+        852.0000000000001
       ],
       "minimumClearance": 24,
       "endpoints": [
@@ -313,6 +361,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        1057.4626474442987,
+        851.9999999999999
       ]
     },
     {
@@ -325,8 +377,8 @@
         1060
       ],
       "fullSubjectCss": [
-        1256.0471821756225,
-        1012
+        1306,
+        927.9819095477387
       ],
       "minimumClearance": 24,
       "endpoints": [
@@ -336,6 +388,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        1256.0471821756225,
+        1012
       ]
     },
     {
@@ -348,8 +404,8 @@
         900
       ],
       "fullSubjectCss": [
-        1057.4626474442987,
-        851.9999999999999
+        1199.066478076379,
+        852.0000000000001
       ],
       "minimumClearance": 24,
       "endpoints": [
@@ -359,6 +415,10 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        1057.4626474442987,
+        851.9999999999999
       ]
     },
     {
@@ -371,8 +431,8 @@
         1060
       ],
       "fullSubjectCss": [
-        1256.0471821756225,
-        1012
+        1424.2432814710041,
+        1011.9999999999999
       ],
       "minimumClearance": 24,
       "endpoints": [
@@ -382,7 +442,32 @@
         "forward-leave",
         "backward-enter",
         "backward-leave"
+      ],
+      "previousFullSubjectCss": [
+        1256.0471821756225,
+        1012
       ]
     }
+  ],
+  "previousCover": {
+    "subject": {
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 548,
+        "top": 82,
+        "right": 1495,
+        "bottom": 845
+      }
+    },
+    "sha256": "d755f0ce228ce9423d669865a04c093f0bda8013f67ba1de3cfa97bdbbec2089",
+    "fullSubjectSourcePixels": [
+      947,
+      763
+    ]
+  },
+  "fullSubjectSourcePixels": [
+    995,
+    707
   ]
 }

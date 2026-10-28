@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "reviewed-reconstruction",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "对照贝壳博物馆 José H. Leal 的活体照片与说明，确认橙黄黑斑在外套膜上，缩回部分露出朴素壳面；保留六图，斑点布局不能替代种级鉴定。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://www.shellmuseum.org/post/flamingo-tongue-goth-lips",
+      "responseSha256": "948e132322a058dc3ec37b7732a0ff86a72d441d95bb389ec839a2dfb44de6d6",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "4489ff57c3b2373d66a90b0b3ec6748f86e1a8f5dafaf17647b7ebce6c09b84b"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "ffe56e2fcbdc42e14cfbba3937037a011a3c7b86a783091178f3c8bd0a70520a"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "520f41388426bf7e2b4212b49f2afea7e09ee646a3600c0cf46221e1e4162588"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "a5f478d866d8fdcd3b790d12fd81b2abc633b06385588e81c98a499ced15d128"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "651009735e74a9317aaa2ca1ca32020c893e89c805049bedc2555dbc9bcda376"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "2faa057fec6530d6aea28a55301190029e4b7ad9d9793542aa7b9f4c7f23cb94"
+    }
+  ]
+}

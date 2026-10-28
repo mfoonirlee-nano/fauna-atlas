@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-10-27",
+  "status": "reviewed-reconstruction",
+  "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
+  "findings": "对照太平洋水族馆本种照片与正文，检查囊状外套膜、腕和蓝环分布。蓝环表现为皮肤颜色而不照亮海底；保留六图，不用生成的环数或亮度判断危险程度。",
+  "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
+  "references": [
+    {
+      "url": "https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1",
+      "responseSha256": "afa48dbf9820c21fb22186fb16acc8f7e334978013db38689ca3545d2131712d",
+      "contentAvailable": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "c4e3417821a493e07c627706e4d2a8096b9283a4d9e2d87c7f53992256b882df"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "f5d513a79ec78102215f8542c0ede08b538671b7a08a6034aad3318286f4b42e"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "1e8a73ed88d53d92ccdc9450a5fad6e491d45211165465cc91a824ff96c62324"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "739c3e1f5450300be3f4977b5206a3894a2ea98a12f63b3e70a95511c4aa8549"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "16a276f7ff52be07d0ffbdf8d648efdfda97daa15247fd7e69857e65d568fc36"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "637b9840a18c1b5bad108cd9500683755088a842ae630c324feee1ae205fc75d"
+    }
+  ]
+}

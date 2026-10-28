@@ -256,6 +256,10 @@ test('retains assessment years except for explicitly documented missing evidence
       assert.equal(profile.conservation.criteria, undefined);
       assert.ok(profile.sources.some(({ kind }) => kind === 'conservation'));
       assert.match(profile.conservation.assessor, /未采用.*IUCN.*评估/);
+    } else if (profile.conservation.system === 'Unverified') {
+      assert.equal(profile.conservation.code, 'UNVERIFIED');
+      assert.equal(profile.conservation.assessedYear, undefined);
+      assert.equal(profile.conservation.trend, 'unknown');
     } else if (['flamboyant-cuttlefish', 'hawaiian-bobtail-squid', 'mimic-octopus', 'coconut-octopus', 'namaqua-sandgrouse', 'midwater-octopus', 'octopus-squid', 'pearl-octopus', 'seven-arm-octopus'].includes(profile.slug)) {
       // Category links were checked; the underlying assessment dates were not independently verified.
       const categories = { 'flamboyant-cuttlefish': 'DD', 'hawaiian-bobtail-squid': 'DD', 'mimic-octopus': 'LC', 'coconut-octopus': 'LC', 'namaqua-sandgrouse': 'LC', 'midwater-octopus': 'LC', 'octopus-squid': 'DD', 'pearl-octopus': 'LC', 'seven-arm-octopus': 'LC' };
@@ -24378,7 +24382,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 830);
+  assert.equal(species.length, 835);
   assert.equal(findTaxon(tree, 'order', 'Cestida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Discodorididae')?.speciesCount, 1);
@@ -24464,25 +24468,25 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Euphausiacea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Euphausiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Euphausia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 48);
+  assert.equal(findTaxon(tree, 'phylum', 'Mollusca')?.speciesCount, 53);
   assert.equal(findTaxon(tree, 'class', 'Solenogastres')?.speciesCount, 1);
-  for (const family of ['Tremoctopodidae', 'Neomeniidae', 'Sepiadariidae', 'Myrrhinidae']) {
+  for (const family of ['Tremoctopodidae', 'Neomeniidae', 'Sepiadariidae', 'Myrrhinidae', 'Ovulidae', 'Strombidae', 'Tonicellidae', 'Hexabranchidae']) {
     assert.equal(findTaxon(tree, 'family', family)?.speciesCount, 1);
   }
   assert.equal(findTaxon(tree, 'class', 'Scaphopoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Dentaliida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Dentaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Antalis')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Polyplacophora')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Chitonida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'class', 'Polyplacophora')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Chitonida')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Mopaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Cryptochiton')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 20);
+  assert.equal(findTaxon(tree, 'class', 'Cephalopoda')?.speciesCount, 21);
   assert.equal(findTaxon(tree, 'order', 'Nautilida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Nautilidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Nautilus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Octopoda')?.speciesCount, 9);
-  assert.equal(findTaxon(tree, 'family', 'Octopodidae')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'order', 'Octopoda')?.speciesCount, 10);
+  assert.equal(findTaxon(tree, 'family', 'Octopodidae')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'order', 'Sepiolida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Sepiolidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Pteroclidiformes')?.speciesCount, 1);
@@ -24493,11 +24497,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'family', 'Dromiidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Myobatrachidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Octopus')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 16);
+  assert.equal(findTaxon(tree, 'class', 'Gastropoda')?.speciesCount, 19);
   assert.equal(findTaxon(tree, 'order', 'Stylommatophora')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Helicidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Cornu')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'order', 'Nudibranchia')?.speciesCount, 6);
+  assert.equal(findTaxon(tree, 'order', 'Nudibranchia')?.speciesCount, 7);
   assert.equal(findTaxon(tree, 'family', 'Glaucidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Glaucus')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Bivalvia')?.speciesCount, 7);
@@ -24567,7 +24571,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 830);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 835);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -27404,8 +27408,9 @@ test('sixth novel batch separates whole-alga symbiosis, kleptoplasty and unassig
     const profile = findSpecies(slug);
     assert.equal(profile.scientificName, scientificName);
     assert.equal(profile.taxonomy.family.scientificName, family);
-    assert.equal(profile.media.gallery.length, 5);
-    const paths = [profile.media.image, ...profile.media.gallery.map(({ image }) => image)];
+    assert.equal((profile.pendingMedia?.assets ?? profile.media).gallery.length, 5);
+    const retained = profile.pendingMedia?.assets ?? profile.media;
+    const paths = [retained.image, ...retained.gallery.map(({ image }) => image)];
     assert.equal(new Set(paths).size, 6);
     await Promise.all(paths.map((path) => access(new URL('../public/' + path.slice(2), import.meta.url))));
     assert.equal(profile.conservation.trend, 'unknown');
@@ -27416,4 +27421,55 @@ test('sixth novel batch separates whole-alga symbiosis, kleptoplasty and unassig
   assert.match(animalCopy(findSpecies('solar-powered-nudibranch')), /完整.*藻细胞/);
   assert.match(animalCopy(findSpecies('eastern-emerald-elysia')), /盗食叶绿体/);
   assert.match(animalCopy(findSpecies('violet-blanket-octopus')), /成年雌性/);
+});
+
+
+test('seventh novel batch keeps mantle patterns, shell growth, plate counts and species scope distinct', async () => {
+  const expected = [
+    ['flamingo-tongue-snail', 'Cyphoma gibbosum', 'Ovulidae'],
+    ['queen-conch', 'Aliger gigas', 'Strombidae'],
+    ['lined-chiton', 'Tonicella lineata', 'Tonicellidae'],
+    ['greater-blue-ringed-octopus', 'Hapalochlaena lunulata', 'Octopodidae'],
+    ['spanish-dancer-nudibranch', 'Hexabranchus sanguineus', 'Hexabranchidae'],
+  ];
+  for (const [slug, name, family] of expected) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    const retained = profile.pendingMedia?.assets ?? profile.media;
+    const paths = [retained.image, ...retained.gallery.map(({ image }) => image)];
+    assert.equal(paths.length, 6);
+    assert.equal(new Set(paths).size, 6);
+    await Promise.all(paths.map((path) => access(new URL('../public/' + path.slice(2), import.meta.url))));
+    assert.equal(profile.conservation.trend, 'unknown');
+    assert.equal(profile.conservation.assessedYear, undefined);
+  }
+  assert.match(animalCopy(findSpecies('flamingo-tongue-snail')), /花纹属于活外套膜/);
+  assert.match(animalCopy(findSpecies('queen-conch')), /幼体.*尚无宽大的成体外唇/);
+  assert.match(animalCopy(findSpecies('lined-chiton')), /八块壳板/);
+  assert.match(animalCopy(findSpecies('greater-blue-ringed-octopus')), /不是.*蓝灯/);
+  assert.match(findSpecies('spanish-dancer-nudibranch').distribution.range, /限定.*红海/);
+});
+
+test('ten re-reviewed animals keep unresolved evidence separate from NE and retained assets separate from published media', () => {
+  const expected = ['violet-blanket-octopus', 'neomenia-carinata', 'striped-pyjama-squid', 'solar-powered-nudibranch', 'eastern-emerald-elysia', 'flamingo-tongue-snail', 'queen-conch', 'lined-chiton', 'greater-blue-ringed-octopus', 'spanish-dancer-nudibranch'];
+  const pending = species.filter((item) => item.pendingMedia);
+  assert.deepEqual(pending.map((item) => item.slug).sort(), ['neomenia-carinata', 'violet-blanket-octopus']);
+  for (const slug of expected) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.conservation.system, 'Unverified');
+    assert.equal(profile.conservation.code, 'UNVERIFIED');
+    assert.equal(profile.conservation.label.zh, '保护评估待核实');
+    assert.equal(profile.conservation.assessedYear, undefined);
+    assert.equal(profile.conservation.criteria, undefined);
+    if (profile.pendingMedia) {
+      assert.equal(profile.media.image, undefined);
+      assert.equal(profile.media.gallery, undefined);
+      assert.ok(profile.pendingMedia.reason.length > 0);
+      assert.ok(profile.pendingMedia.assets.image);
+    } else {
+      assert.ok(profile.media.image, 'reference-reviewed set restored');
+    }
+    assert.equal((profile.pendingMedia?.assets ?? profile.media).gallery.length, 5);
+  }
 });

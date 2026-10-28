@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedAt": "2026-10-11",
   "baselineCommit": "b8503db3275420b53b3385fa1e6c1ca048443329",
-  "scope": "830 animal species profiles; microbial topics excluded",
+  "scope": "835 animal species profiles; microbial topics excluded",
   "skill": "humanizer:humanizer",
   "requiredTopics": [
     "habits",
@@ -21,7 +21,7 @@
     "descriptionOnlyRegionEdits": [
       "common-flying-dragon: geographic scope preserved"
     ],
-    "addedProfiles": 260,
+    "addedProfiles": 265,
     "addedProfilesReviewDate": "2026-10-27",
     "addedProfilesReviewSkill": "stop-slop"
   },
@@ -38039,6 +38039,221 @@
           "sources": [
             "https://seaslugforum.net/showall/elyschlo",
             "https://www.gbif.org/species/5192082"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "flamingo-tongue-snail",
+      "scientificName": "Cyphoma gibbosum",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.shellmuseum.org/post/flamingo-tongue-goth-lips",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337085/",
+            "https://www.gbif.org/species/5192687"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.shellmuseum.org/post/flamingo-tongue-goth-lips",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337085/",
+            "https://www.gbif.org/species/5192687"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.shellmuseum.org/post/flamingo-tongue-goth-lips",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337085/",
+            "https://www.gbif.org/species/5192687"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.shellmuseum.org/post/flamingo-tongue-goth-lips",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337085/",
+            "https://www.gbif.org/species/5192687"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.shellmuseum.org/post/flamingo-tongue-goth-lips",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337085/",
+            "https://www.gbif.org/species/5192687"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "queen-conch",
+      "scientificName": "Aliger gigas",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/queen-conch/science",
+            "https://www.gbif.org/species/10903982"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/queen-conch/science",
+            "https://www.gbif.org/species/10903982"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/queen-conch/science",
+            "https://www.gbif.org/species/10903982"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/queen-conch/science",
+            "https://www.gbif.org/species/10903982"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.fisheries.noaa.gov/species/queen-conch/science",
+            "https://www.gbif.org/species/10903982"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "lined-chiton",
+      "scientificName": "Tonicella lineata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html",
+            "https://www.pugetsound.edu/puget-sound-museum-natural-history/exhibits/marine-panel/lined-chiton",
+            "https://www.gbif.org/species/2306813"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html",
+            "https://www.pugetsound.edu/puget-sound-museum-natural-history/exhibits/marine-panel/lined-chiton",
+            "https://www.gbif.org/species/2306813"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html",
+            "https://www.pugetsound.edu/puget-sound-museum-natural-history/exhibits/marine-panel/lined-chiton",
+            "https://www.gbif.org/species/2306813"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html",
+            "https://www.pugetsound.edu/puget-sound-museum-natural-history/exhibits/marine-panel/lined-chiton",
+            "https://www.gbif.org/species/2306813"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://inverts.wallawalla.edu/Mollusca/Polyplacophora/Tonicella_lineata.html",
+            "https://www.pugetsound.edu/puget-sound-museum-natural-history/exhibits/marine-panel/lined-chiton",
+            "https://www.gbif.org/species/2306813"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "greater-blue-ringed-octopus",
+      "scientificName": "Hapalochlaena lunulata",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1",
+            "https://www.gbif.org/species/2289324"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1",
+            "https://www.gbif.org/species/2289324"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1",
+            "https://www.gbif.org/species/2289324"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1",
+            "https://www.gbif.org/species/2289324"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://www.aquariumofpacific.org/onlinelearningcenter/species/greater_blue_ringed_octopus1",
+            "https://www.gbif.org/species/2289324"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "spanish-dancer-nudibranch",
+      "scientificName": "Hexabranchus sanguineus",
+      "coverage": {
+        "habits": {
+          "path": "diet.description",
+          "sources": [
+            "https://seaslugforum.net/find/hexasang",
+            "https://www.gbif.org/species/5724734"
+          ]
+        },
+        "traits": {
+          "path": "description",
+          "sources": [
+            "https://seaslugforum.net/find/hexasang",
+            "https://www.gbif.org/species/5724734"
+          ]
+        },
+        "range": {
+          "path": "distribution.range",
+          "sources": [
+            "https://seaslugforum.net/find/hexasang",
+            "https://www.gbif.org/species/5724734"
+          ]
+        },
+        "history": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://seaslugforum.net/find/hexasang",
+            "https://www.gbif.org/species/5724734"
+          ]
+        },
+        "naming": {
+          "path": "storySections.discovery-naming.body",
+          "sources": [
+            "https://seaslugforum.net/find/hexasang",
+            "https://www.gbif.org/species/5724734"
           ]
         }
       }

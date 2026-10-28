@@ -1,0 +1,180 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Correct the posterior gill anatomy of this Hexabranchus sanguineus Spanish dancer scientific illustration. The current image incorrectly shows only TWO enormous tree-shaped gills. Replace those with SIX smaller SEPARATE feathery branchial rosettes, each with its own distinct base on the posterior dorsal surface. Exactly SIX independent gill clusters, naturally grouped in a small loose horseshoe around the posterior dorsal region; every cluster distinguishable from the others. Do not confuse six branches of ONE tree with six separate gills. Preserve the broad red orange cream-mottled mantle, two small anterior rhinophores, and entire complete body. Preserve the right-side full-body composition with animal centered at 70 percent width, all animal parts inside x 630..1450 y 130..875 on 1536x1024 landscape. Keep the left 40 percent quiet reef-water background. Naturalistic educational reconstruction, no text no labels no border.",
+    "initialPrompt": "Educational natural-history scientific reconstruction of Hexabranchus sanguineus Red Sea Spanish dancer nudibranch, broad red orange mantle with irregular pale cream patches and thin pale margin, broad ruffled skirtlike mantle edge, two short rhinophores anteriorly and separated feathery gill tufts dorsally near rear, shell-less sea slug, Red Sea coral reef context. Canonical cover. Place entire animal on the RIGHT at horizontal center 72 percent of source width. Keep ALL body parts within x 670..1460 y 140..870 of a 1536x1024 canvas. Left 40 percent calm low-detail natural background. Large clear full animal, real background margin on every side.. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "editInputSha256": "05e2ff84327ddfef7eef3d435bb0d0c4f0cba1aba3e4fc45b3c23ac9afd8664d",
+    "editHistory": [
+      {
+        "prompt": "Correct the posterior gill anatomy of this Hexabranchus sanguineus Spanish dancer scientific illustration. The current image incorrectly shows only TWO enormous tree-shaped gills. Replace those with SIX smaller SEPARATE feathery branchial rosettes, each with its own distinct base on the posterior dorsal surface. Exactly SIX independent gill clusters, naturally grouped in a small loose horseshoe around the posterior dorsal region; every cluster distinguishable from the others. Do not confuse six branches of ONE tree with six separate gills. Preserve the broad red orange cream-mottled mantle, two small anterior rhinophores, and entire complete body. Preserve the right-side full-body composition with animal centered at 70 percent width, all animal parts inside x 630..1450 y 130..875 on 1536x1024 landscape. Keep the left 40 percent quiet reef-water background. Naturalistic educational reconstruction, no text no labels no border.",
+        "inputSha256": "05e2ff84327ddfef7eef3d435bb0d0c4f0cba1aba3e4fc45b3c23ac9afd8664d",
+        "outputSha256": "d34d35330b20c24c65afdf5e6ca964c2ac6aa67b759c695d2519cb24f065e042"
+      }
+    ],
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. Cover preserve animal on RIGHT center70%width, quiet left40% and background margin around entire mantle and all gill tips.",
+        "inputRuntimeSha256": "52f783ee4d00cf3dc0da462a9562269c6a52b8b0679bf8eb22dcdfc9054dca90",
+        "outputSourceSha256": "6ec59af337cfd45175c53adad271d5107dae2b917b0c18000b8060026b6bdf58",
+        "references": [
+          {
+            "path": "verified-spanish-photo.jpg",
+            "sha256": "be59bb0d633d8640907ce8108bc3d6045d228c6477becc2275a157083f1b1b53"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. Cover preserve animal on RIGHT center70%width, quiet left40% and background margin around entire mantle and all gill tips."
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Make one localized correction only. This image now has SEVEN separate posterior gill tufts. REMOVE ONLY the small CENTRAL tuft whose base is near pixel (510,240) in the 1536x1024 image, located inside the horseshoe between the back row and the front-most tuft. Fill its former attachment point with matching red mottled mantle tissue. Do not redraw or add any other gill. Keep the other six existing tufts exactly as they are, each with its current independent base. Everything else, including crawling pose, two anterior rhinophores, full mantle and reef background, remains identical. No text or labels.",
+    "initialPrompt": "Educational natural-history scientific reconstruction of Hexabranchus sanguineus Red Sea Spanish dancer nudibranch, broad red orange mantle with irregular pale cream patches and thin pale margin, broad ruffled skirtlike mantle edge, two short rhinophores anteriorly and separated feathery gill tufts dorsally near rear, shell-less sea slug, Red Sea coral reef context. crawling with broad mantle edge curled up slightly, showing dorsal body. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "editInputSha256": "0a802f09c0301e1336161bea101a8c35e425a9b414570baf4673f1915decfd48",
+    "editHistory": [
+      {
+        "prompt": "Correct the gill anatomy in this Hexabranchus sanguineus Red Sea Spanish dancer scientific reconstruction. Replace the TWO oversized posterior feathery gill trees with SIX smaller, independent feather-shaped branchial rosettes, each with its own clearly separate base attached to the posterior dorsal body. Six individual gills, not six branches on one gill. Natural loose horseshoe grouping, like the corrected anatomical description of this species. Preserve the original scene and posture on the reef with the broad red mantle and pale margin, and preserve the two anterior rhinophores. Retain whole-body clearance where shown. Do not add any limbs, eyes, text, numbers, labels or borders. Same naturalistic educational reconstruction style and 1536x1024 landscape.",
+        "inputSha256": "9335a82e8346c3e72185db61786c024da277a09263c064daa793e3f848109a7d",
+        "outputSha256": "0a802f09c0301e1336161bea101a8c35e425a9b414570baf4673f1915decfd48"
+      },
+      {
+        "prompt": "Make one localized correction only. This image now has SEVEN separate posterior gill tufts. REMOVE ONLY the small CENTRAL tuft whose base is near pixel (510,240) in the 1536x1024 image, located inside the horseshoe between the back row and the front-most tuft. Fill its former attachment point with matching red mottled mantle tissue. Do not redraw or add any other gill. Keep the other six existing tufts exactly as they are, each with its current independent base. Everything else, including crawling pose, two anterior rhinophores, full mantle and reef background, remains identical. No text or labels.",
+        "inputSha256": "0a802f09c0301e1336161bea101a8c35e425a9b414570baf4673f1915decfd48",
+        "outputSha256": "85b8b880171791c293c5dfdd91d005577cf8f0bc6d0eccf11d2a894fb7802207"
+      }
+    ],
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. ",
+        "inputRuntimeSha256": "fb5742e519d33eca1df95cf5b5dd08597a4fed4cd1ad0f1aee4bbad3aa8b67b9",
+        "outputSourceSha256": "0b862bdfa9251c1fcf8888c9c101214ed1bf45315982d1dd636e835e052c5ec4",
+        "references": [
+          {
+            "path": "verified-spanish-photo.jpg",
+            "sha256": "be59bb0d633d8640907ce8108bc3d6045d228c6477becc2275a157083f1b1b53"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. "
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Correct the gill anatomy in this Hexabranchus sanguineus Red Sea Spanish dancer scientific reconstruction. Replace the TWO oversized posterior feathery gill trees with SIX smaller, independent feather-shaped branchial rosettes, each with its own clearly separate base attached to the posterior dorsal body. Six individual gills, not six branches on one gill. Natural loose horseshoe grouping, like the corrected anatomical description of this species. Preserve the original scene and posture swimming with the broad red mantle margins undulating in open water, and preserve the two anterior rhinophores. Retain whole-body clearance where shown. Do not add any limbs, eyes, text, numbers, labels or borders. Same naturalistic educational reconstruction style and 1536x1024 landscape.",
+    "initialPrompt": "Educational natural-history scientific reconstruction of Hexabranchus sanguineus Red Sea Spanish dancer nudibranch, broad red orange mantle with irregular pale cream patches and thin pale margin, broad ruffled skirtlike mantle edge, two short rhinophores anteriorly and separated feathery gill tufts dorsally near rear, shell-less sea slug, Red Sea coral reef context. swimming with broad mantle margins undulating upward, complete body in midwater. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "editInputSha256": "e89441a261763752617f472ec83cc00317bbd5bce5df25c2e93288d0b1e550a2",
+    "editHistory": [
+      {
+        "prompt": "Correct the gill anatomy in this Hexabranchus sanguineus Red Sea Spanish dancer scientific reconstruction. Replace the TWO oversized posterior feathery gill trees with SIX smaller, independent feather-shaped branchial rosettes, each with its own clearly separate base attached to the posterior dorsal body. Six individual gills, not six branches on one gill. Natural loose horseshoe grouping, like the corrected anatomical description of this species. Preserve the original scene and posture swimming with the broad red mantle margins undulating in open water, and preserve the two anterior rhinophores. Retain whole-body clearance where shown. Do not add any limbs, eyes, text, numbers, labels or borders. Same naturalistic educational reconstruction style and 1536x1024 landscape.",
+        "inputSha256": "e89441a261763752617f472ec83cc00317bbd5bce5df25c2e93288d0b1e550a2",
+        "outputSha256": "e1b33e037e68bb8fa03f8c3f159772969654d7e23d49b0960801b379029623eb"
+      }
+    ],
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. ",
+        "inputRuntimeSha256": "085d0844bab8279ecaa309c8d6120d7356cbbdb6983e34f3fc52a138d3910b1c",
+        "outputSourceSha256": "8ce388a64d7454312159accb0423343992b9c5c078f85050992cbd064b71b86d",
+        "references": [
+          {
+            "path": "verified-spanish-photo.jpg",
+            "sha256": "be59bb0d633d8640907ce8108bc3d6045d228c6477becc2275a157083f1b1b53"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. "
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Correct the posterior gill anatomy of this Hexabranchus sanguineus Spanish dancer scientific illustration. The current image incorrectly shows only TWO enormous tree-shaped gills. Replace those with SIX smaller SEPARATE feathery branchial rosettes, each with its own distinct base on the posterior dorsal surface. Exactly SIX independent gill clusters, naturally grouped in a small loose horseshoe around the posterior dorsal region; every cluster distinguishable from the others. Do not confuse six branches of ONE tree with six separate gills. Preserve the broad red orange cream-mottled mantle, two small anterior rhinophores, and entire complete body. Use a slightly raised dorsal oblique view allowing the six gill bases to be visible without changing the whole animal into an anatomical cutaway. Naturalistic educational reconstruction, no text no labels no border.",
+    "initialPrompt": "Educational natural-history scientific reconstruction of Hexabranchus sanguineus Red Sea Spanish dancer nudibranch, broad red orange mantle with irregular pale cream patches and thin pale margin, broad ruffled skirtlike mantle edge, two short rhinophores anteriorly and separated feathery gill tufts dorsally near rear, shell-less sea slug, Red Sea coral reef context. dorsal posterior view showing separate feathery gill tufts, no invented labels. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "editInputSha256": "167aaee714c437f3781c43e524e72991c81317cb32650f40db9b0e4fe356cc38",
+    "editHistory": [
+      {
+        "prompt": "Correct the posterior gill anatomy of this Hexabranchus sanguineus Spanish dancer scientific illustration. The current image incorrectly shows only TWO enormous tree-shaped gills. Replace those with SIX smaller SEPARATE feathery branchial rosettes, each with its own distinct base on the posterior dorsal surface. Exactly SIX independent gill clusters, naturally grouped in a small loose horseshoe around the posterior dorsal region; every cluster distinguishable from the others. Do not confuse six branches of ONE tree with six separate gills. Preserve the broad red orange cream-mottled mantle, two small anterior rhinophores, and entire complete body. Use a slightly raised dorsal oblique view allowing the six gill bases to be visible without changing the whole animal into an anatomical cutaway. Naturalistic educational reconstruction, no text no labels no border.",
+        "inputSha256": "167aaee714c437f3781c43e524e72991c81317cb32650f40db9b0e4fe356cc38",
+        "outputSha256": "f309531a9586cce31d8eb5e3174e5dadeda009c4a41f432b25a5be97894defec"
+      }
+    ],
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. ",
+        "inputRuntimeSha256": "8371dfd4b5698d002dfa8297e93568294e5cc87e11c38989da7f037d68bf40d6",
+        "outputSourceSha256": "6d0f5e2dfee1f25131e12863d705639bb4e6069950c3588ab5bf8c814b3d655b",
+        "references": [
+          {
+            "path": "verified-spanish-photo.jpg",
+            "sha256": "be59bb0d633d8640907ce8108bc3d6045d228c6477becc2275a157083f1b1b53"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. "
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Correct the gill anatomy in this Hexabranchus sanguineus Red Sea Spanish dancer scientific reconstruction. Replace the TWO oversized posterior feathery gill trees with SIX smaller, independent feather-shaped branchial rosettes, each with its own clearly separate base attached to the posterior dorsal body. Six individual gills, not six branches on one gill. Natural loose horseshoe grouping, like the corrected anatomical description of this species. Preserve the original scene and posture on the reef with the broad red mantle and pale margin, and preserve the two anterior rhinophores. Retain whole-body clearance where shown. Do not add any limbs, eyes, text, numbers, labels or borders. Same naturalistic educational reconstruction style and 1536x1024 landscape.",
+    "initialPrompt": "Educational natural-history scientific reconstruction of Hexabranchus sanguineus Red Sea Spanish dancer nudibranch, broad red orange mantle with irregular pale cream patches and thin pale margin, broad ruffled skirtlike mantle edge, two short rhinophores anteriorly and separated feathery gill tufts dorsally near rear, shell-less sea slug, Red Sea coral reef context. anterior close view of two short rhinophores and broad mantle. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "editInputSha256": "d589962672959859b3cbd5a6f29cc2004d4d98f085efd8bd55acfc14e76d7751",
+    "editHistory": [
+      {
+        "prompt": "Correct the gill anatomy in this Hexabranchus sanguineus Red Sea Spanish dancer scientific reconstruction. Replace the TWO oversized posterior feathery gill trees with SIX smaller, independent feather-shaped branchial rosettes, each with its own clearly separate base attached to the posterior dorsal body. Six individual gills, not six branches on one gill. Natural loose horseshoe grouping, like the corrected anatomical description of this species. Preserve the original scene and posture on the reef with the broad red mantle and pale margin, and preserve the two anterior rhinophores. Retain whole-body clearance where shown. Do not add any limbs, eyes, text, numbers, labels or borders. Same naturalistic educational reconstruction style and 1536x1024 landscape.",
+        "inputSha256": "d589962672959859b3cbd5a6f29cc2004d4d98f085efd8bd55acfc14e76d7751",
+        "outputSha256": "8ff9158275a23803eecde9af6a9e5b272139bd445b34b1adc9f355e858c3c1cf"
+      }
+    ],
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. ",
+        "inputRuntimeSha256": "35122f3b3dd2ba8840edb0f0c4624963bce22349f8d98e81c90b2b99e0b1f5e9",
+        "outputSourceSha256": "c89d61e84e8e466c56c25eca95b6420f4cd32cc25da67246213a1fd20a55eeaf",
+        "references": [
+          {
+            "path": "verified-spanish-photo.jpg",
+            "sha256": "be59bb0d633d8640907ce8108bc3d6045d228c6477becc2275a157083f1b1b53"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. "
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Localized anatomical correction only: remove the LEFTMOST small feathery gill rosette, whose attachment base is near pixel (940,270) on this 1536x1024 image. It is a small separate gill just to the left of the tallest rear gill. Paint matching red mottled mantle tissue where that one gill was attached. The current image has SEVEN tufts; removing that specific leftmost tuft must leave SIX existing separate gills. Do NOT redraw, move, duplicate or add any of the other six gills. Do not change the rest of this Hexabranchus sanguineus, its two anterior rhinophores, broad mantle, pose or reef background. No text, labels or border.",
+    "initialPrompt": "Educational natural-history scientific reconstruction of Hexabranchus sanguineus Red Sea Spanish dancer nudibranch, broad red orange mantle with irregular pale cream patches and thin pale margin, broad ruffled skirtlike mantle edge, two short rhinophores anteriorly and separated feathery gill tufts dorsally near rear, shell-less sea slug, Red Sea coral reef context. entire slug settled on coral rubble, warm red cream Red Sea appearance. One coherent landscape image 1536x1024, restrained realistic anatomy, no text, no labels, no border, not a collage. No invented structures or behavior. Keep every visible outer part inside image.",
+    "editInputSha256": "c0b4ef5d004d17afcc48eea58e9cd6e546d0bc41148d3b22aaed9b66bd2d4f81",
+    "editHistory": [
+      {
+        "prompt": "Correct the gill anatomy in this Hexabranchus sanguineus Red Sea Spanish dancer scientific reconstruction. Replace the TWO oversized posterior feathery gill trees with SIX smaller, independent feather-shaped branchial rosettes, each with its own clearly separate base attached to the posterior dorsal body. Six individual gills, not six branches on one gill. Natural loose horseshoe grouping, like the corrected anatomical description of this species. Preserve the original scene and posture on the reef with the broad red mantle and pale margin, and preserve the two anterior rhinophores. Retain whole-body clearance where shown. Do not add any limbs, eyes, text, numbers, labels or borders. Same naturalistic educational reconstruction style and 1536x1024 landscape.",
+        "inputSha256": "d62a8a1499a8ee38c1428d20895703a7140a076e80c2e5b9b4f0929cfab459cc",
+        "outputSha256": "c0b4ef5d004d17afcc48eea58e9cd6e546d0bc41148d3b22aaed9b66bd2d4f81"
+      },
+      {
+        "prompt": "Localized anatomical correction only: remove the LEFTMOST small feathery gill rosette, whose attachment base is near pixel (940,270) on this 1536x1024 image. It is a small separate gill just to the left of the tallest rear gill. Paint matching red mottled mantle tissue where that one gill was attached. The current image has SEVEN tufts; removing that specific leftmost tuft must leave SIX existing separate gills. Do NOT redraw, move, duplicate or add any of the other six gills. Do not change the rest of this Hexabranchus sanguineus, its two anterior rhinophores, broad mantle, pose or reef background. No text, labels or border.",
+        "inputSha256": "c0b4ef5d004d17afcc48eea58e9cd6e546d0bc41148d3b22aaed9b66bd2d4f81",
+        "outputSha256": "bc3c2e224309bead313a4e54755063e610d15fa29ab92b668e6a4b5aa68addca"
+      }
+    ],
+    "biologicalReviewEdits": [
+      {
+        "date": "2026-10-27",
+        "prompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. ",
+        "inputRuntimeSha256": "635a5795038daecd808bf8991a0f170a192a2c6f10302150928fe2a15638258c",
+        "outputSourceSha256": "7ac64b3e46fe4d3c72e6907980eb1c81ab297c399b4d5e276ffc8b7e4603f6f1",
+        "references": [
+          {
+            "path": "verified-spanish-photo.jpg",
+            "sha256": "be59bb0d633d8640907ce8108bc3d6045d228c6477becc2275a157083f1b1b53"
+          }
+        ]
+      }
+    ],
+    "currentPrompt": "Correct gill anatomy in the first educational Hexabranchus sanguineus illustration. The second attachment is historical expert reference with two photographs: use ONLY LOWER Red Sea red animal, NOT the upper Philippines photo. Preserve first scene, pose, restrained red/pale mottled color, full mantle perimeter and two anterior rhinophores. Replace artificial row of tree-shaped gills with a compact natural posterior gill region: six branching feathery gills, each separately inserted in body wall around the anus, curved irregular horseshoe-like arrangement in the rear dorsal quarter, gills unevenly tilted and overlapping naturally; NOT a straight line, NOT equally spaced identical little trees, NOT a shared single tube, no common retractile pocket. Keep gill plumes modest relative to broad flat animal, roughly reference proportions. Where pose hides a gill, natural occlusion is appropriate; don't create a row for counting. Don't add more appendages. One coherent realistic landscape1536x1024 with no labels or text. "
+  }
+]

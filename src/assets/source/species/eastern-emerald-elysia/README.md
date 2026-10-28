@@ -1,40 +1,28 @@
 # 绿叶海天牛图片集
 
-2026-10-27 使用内置 image_gen 制作一张封面和五张观察图。保留六张 WebP；最终提示词见 [prompts.json](./prompts.json)，源图与运行图尺寸、SHA-256 见 [image-acceptance.json](./image-acceptance.json)。资料与网络核实范围见[本批研究](../../../../../docs/research/todo-novel-sixth-five-2026-10-27.md)。
+2026-10-27 复核返修。当前六张图片为参考资料支持的 AI 科学重建；不作为摄影、物种鉴定、显微测量或连续行为证据。保护评估为独立的 UNVERIFIED 状态，不属于 IUCN NE。
 
-## 图像与证据边界
+## 生物学修正与参考范围
 
-逐种检查源图、运行图联系表及原分辨率封面。图像为 AI 生成科学重建，不是自然摄影，不作为物种鉴定、显微测量、连续行为或保护等级证据。侧足上的深绿色分枝是消化腺外观示意，不是植物叶脉；不能据图判断单个叶绿体、光合效率或证明基因转移。
+按 Sea Slug Forum 本种全身照片重画六张：侧足为与身体相连的柔软组织，去除凸起植物叶脉和僵硬中肋，改为不规则斑驳内部分枝与小斑点，嗅角呈卷管状。
 
-项目内不保留临时 PNG。生成工具的原始输出留在检出目录外的 `/workspace/generated_images/`；未重复压缩已接受的 WebP。
+参考：[选题研究资料：Elysia chlorotica](https://seaslugforum.net/showall/elyschlo)。本次已读取正文并查看其中的本种照片；来源响应与当前运行图哈希见 [biological-review.json](./biological-review.json)。
 
-| 文件 | 源图及运行图尺寸 | 源 PNG SHA-256 | 运行 WebP SHA-256 |
-| --- | --- | --- | --- |
-| 01-cover.webp | 1536×1024 | `e0f473cf84d6f58d2b27e69bf5da8789fd38cbd2e24792f0b7043ec571dfdcdc` | `d755f0ce228ce9423d669865a04c093f0bda8013f67ba1de3cfa97bdbbec2089` |
-| 02-observation.webp | 1536×1024 | `6adc68e528b8e3cd36af84f3595f56378d0dd8bbb2606dd434a1df08701058f0` | `8bd8e0b568d1a945d7455054a06bf3ceb2bd048c3794b0615938ed266103086f` |
-| 03-observation.webp | 1536×1024 | `de8fb4454ea3c11db4d4a7911baa3221f8bd12f0b7a349133da42b2f6224a02c` | `fde236b72a38b37143a4033e8856a9df15bfb3b2242de4df73433238caca4d26` |
-| 04-observation.webp | 1536×1024 | `a99c0e2fb9941f5806589575c74deda57abd6effa6cd9cebd333022779b125eb` | `4671447c187df98a0e77e80e4dcc5195c37f48fb345c1da2c199d907ad93b8f8` |
-| 05-observation.webp | 1536×1024 | `9984ed69c904ce9196a7bb216d88dd27cd6b481a1909d43c9f554c7d5281fc8f` | `4139866d360d232684c93c1ac82a73b7207c3be6fd0a76ce58fdc4cafd5c6897` |
-| 06-observation.webp | 1536×1024 | `3be5cf4e76a28c93b8f7569c0ffb2da06244b713ea01108fe3bcb882229f4876` | `c96775d4532aa33789a5a7a3f5f04ca4c4ec795dd5acafc4ff0d3462e1a9e5f7` |
+最终生成/编辑提示、旧运行图与新源图哈希见 [prompts.json](./prompts.json)，实际尺寸与运行图哈希见 [image-acceptance.json](./image-acceptance.json)。返修过程中剔除的候选图不进入六张保留集。工具原始 PNG 留在 `/workspace/generated_images/`；项目内临时输入已在转换核对后删除。
 
-## 封面测量与适配
+## 当前运行素材
 
-新增档案无旧封面对照。运行封面实际解码尺寸 1536×1024，SHA-256 `d755f0ce228ce9423d669865a04c093f0bda8013f67ba1de3cfa97bdbbec2089`，focalPoint=(0.7,0.5)。完整可见主体边界为 (548, 82, 1495, 845)，大小 947×763 源像素，水平中心 66.50%。包括可见腕尖、嗅角、鳍或侧足轮廓；所有外缘与源图边缘之间保留真实背景。左侧整体为低细节环境，少量末端投影不充当文字背景中的主要主体。
+| 文件 | 实际解码尺寸 | WebP SHA-256 |
+| --- | --- | --- |
+| 01-cover.webp | 1536×1024 | `9eaf683a8ed2ca459d732da26d915f5a142c455d2ede1aabccdd74be33342322` |
+| 02-observation.webp | 1536×1024 | `94a1fb9317c2ccf2dff0ea2663e2acf3eae34a8f7ad7f03e83920e9035a09104` |
+| 03-observation.webp | 1536×1024 | `eef19f99338dde346a4d664297efad11469982cc8082b20d4c0f04e8ee10efe1` |
+| 04-observation.webp | 1536×1024 | `2eed3fbcdb1bd20546720574205fa5d9abbb50dc7c2e163400276d99cc6a9eee` |
+| 05-observation.webp | 1536×1024 | `6e3302bebc2fa9ee22bc16f0eaf38f3c426710b461115e43bdd20a11c646490c` |
+| 06-observation.webp | 1536×1024 | `73b5826ce97e897598d169377a069371394625c082c51a51668385ca56908392` |
 
-边界与尺寸同步登记在 cover-subjects.ts 及 original-covers.json，fixture 绑定当前 WebP 哈希。九档视口与桌面内容增高 160px 的几何见 [hero-acceptance.json](./hero-acceptance.json)，每项包含 settled、initial、forward-enter、forward-leave、backward-enter、backward-leave。动画仅改变透明度，端点共用几何。
+## 封面构图与适配
 
-| 视口 | 图片栏 CSS px | 完整主体 CSS px | 最小间距 CSS px |
-| --- | --- | --- | --- |
-| 320×760 | 320.00×260.00 | 167.70×135.11 | 31.26 |
-| 390×760 | 390.00×292.50 | 210.86×169.89 | 33.13 |
-| 761×760 | 416.47×760.00 | 368.47×296.88 | 24.00 |
-| 900×760 | 493.20×760.00 | 445.20×358.70 | 24.00 |
-| 1100×768 | 603.60×768.00 | 555.60×447.65 | 24.00 |
-| 1366×768 | 750.43×768.00 | 702.43×565.95 | 24.00 |
-| 1920×900 | 1035.84×900.00 | 987.84×795.90 | 24.00 |
-| 2560×900 | 1354.00×900.00 | 1057.46×852.00 | 24.00 |
-| 3840×900 | 1994.00×900.00 | 1057.46×852.00 | 24.00 |
+运行封面完整轮廓边界为 (512, 160, 1507, 867)，包括嗅角、触角、尾部、足或外套膜的所有可见外缘。源图与运行图原分辨率分别检查；宽高为 1536×1024，focalPoint=(0.7,0.5)。主体水平中心为 65.72%，左侧主要为低细节背景。
 
-检查 390、761、1920、3840 宽的图片栏模拟；桌面主体与文案使用独立区域，移动端按完整源图 contain。静态几何与图片栏模拟不验证浏览器字体、实际内容高度和完整页面；按项目要求未启动 GUI 或无头浏览器。
-
-保护等级暂用 NE 表示未核实全球评估的资料缺口，没有填入未经核实的评估年份或全球趋势。
+边界、尺寸和当前哈希同步到 cover-subjects.ts 与 original-covers.json。旧封面与返修封面的主体尺寸及各视口结果见 [hero-acceptance.json](./hero-acceptance.json)。检查 320、390、761、900、1100、1366、1920、2560、3840 宽度及桌面内容增高 160px；六种透明度端点共用几何，最小间距均不低于 24 CSS px。逐种查看 390、761、1920、3840 的图片栏静态模拟。静态模拟不验证浏览器字体或完整页面，按仓库规定未启动浏览器。

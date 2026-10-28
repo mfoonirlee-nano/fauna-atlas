@@ -1,5 +1,10 @@
 # 紫毯章鱼图片集
 
+> 当前复核状态：继续撤下。现有图的腕膜与种级鉴定依据不足。两篇关键论文返回的是 reCAPTCHA 页面，没有取得正文或已鉴定参考图；不得恢复。 保护评估为 UNVERIFIED，具体记录见 [biological-review.json](./biological-review.json)。
+
+## 历史制作与检查记录
+
+
 2026-10-27 使用内置 image_gen 制作一张封面和五张观察图。保留六张 WebP；最终提示词见 [prompts.json](./prompts.json)，源图与运行图尺寸、SHA-256 见 [image-acceptance.json](./image-acceptance.json)。资料与网络核实范围见[本批研究](../../../../../docs/research/todo-novel-sixth-five-2026-10-27.md)。
 
 ## 图像与证据边界
