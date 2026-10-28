@@ -1,0 +1,291 @@
+{
+  "status": "blocked-on-source-access",
+  "preparedAt": "2026-10-28",
+  "historicalSnapshotDate": "2026-10-22",
+  "warning": "Historical planning snapshot only; not a fresh taxonomy lookup or completed production acceptance.",
+  "catalogueNameChecks": [
+    {
+      "id": "N008",
+      "scientificName": "Tremoctopus violaceus",
+      "currentCatalogueNameOverlaps": []
+    },
+    {
+      "id": "N013",
+      "scientificName": "Neomenia carinata",
+      "currentCatalogueNameOverlaps": []
+    },
+    {
+      "id": "N023",
+      "scientificName": "Sepioloidea lineolata",
+      "currentCatalogueNameOverlaps": []
+    },
+    {
+      "id": "N024",
+      "scientificName": "Phyllodesmium longicirrum",
+      "currentCatalogueNameOverlaps": []
+    },
+    {
+      "id": "N025",
+      "scientificName": "Elysia chlorotica",
+      "currentCatalogueNameOverlaps": []
+    }
+  ],
+  "records": [
+    {
+      "scientificName": "Tremoctopus violaceus",
+      "label": "紫毯章鱼",
+      "observation": "雌性展开背侧腕间的大膜，像一件披风",
+      "coverageNote": "补 Tremoctopodidae。",
+      "researchNote": "与 *T. gracilis* 的辨认有研究争议；只用已鉴定本种图像，不照搬社交媒体的彩色毯子章鱼；巨膜画雌性",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8749848/"
+      ],
+      "researchFile": "docs/research/novel-animal-candidates-2026-10-22.md",
+      "id": "N008",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Tremoctopus+violaceus&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 2289798,
+          "scientificName": "Tremoctopus violaceus Chiaje, 1830",
+          "canonicalName": "Tremoctopus violaceus",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Octopoda",
+          "family": "Tremoctopodidae",
+          "genus": "Tremoctopus",
+          "species": "Tremoctopus violaceus",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 136,
+          "orderKey": 459,
+          "familyKey": 3441,
+          "genusKey": 2289334,
+          "speciesKey": 2289798,
+          "class": "Cephalopoda"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/2289798/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Octopus atlanticus",
+          "Octopus koellikeri",
+          "Octopus microstomus",
+          "Octopus quoyanus",
+          "Octopus semipalmatus",
+          "Octopus velatus",
+          "Octopus velifer",
+          "Ocythoe mezzaro",
+          "Ocythoe velata",
+          "Philonexis velifer",
+          "Tremoctopus hirondellei",
+          "Tremoctopus ocellatus",
+          "Tremoctopus violaceus violaceus"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    },
+    {
+      "scientificName": "Neomenia carinata",
+      "label": "龙骨新月贝",
+      "observation": "像小蠕虫却属于软体动物；寻找腹部沟及细小骨针",
+      "coverageNote": "补沟腹纲 Solenogastres、Neomeniidae。",
+      "researchNote": "采用当前省略目的路径，不用旧 Neomeniamorpha 补齐阶元；少见中文名暂不定稿；微小结构要标比例尺",
+      "sources": [
+        "https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560",
+        "https://obis.org/taxon/140560",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11488289/"
+      ],
+      "researchFile": "docs/research/novel-animal-candidates-2026-10-22.md",
+      "id": "N013",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Neomenia+carinata&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 7859997,
+          "scientificName": "Neomenia carinata Tullberg, 1875",
+          "canonicalName": "Neomenia carinata",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "family": "Neomeniidae",
+          "genus": "Neomenia",
+          "species": "Neomenia carinata",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 8365233,
+          "familyKey": 6888,
+          "genusKey": 2288984,
+          "speciesKey": 7859997,
+          "class": "Solenogastres"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/7859997/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Neomenia affinis",
+          "Neomenia carinata affinis",
+          "Neomenia carinata carinata",
+          "Neomenia carinata grandis",
+          "Neomenia grandis",
+          "Solenopus affinis",
+          "Solenopus nitidulus"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    },
+    {
+      "scientificName": "Sepioloidea lineolata",
+      "label": "条纹睡衣乌贼",
+      "observation": "黑白条纹、黄色眼睛；把沙拨到身上，露出眼睛",
+      "coverageNote": "加入瓶尾乌贼科 Sepiadariidae 的选题",
+      "researchNote": "[太平洋水族馆](https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid)、[CSIRO 标本与科级归属](https://www.cmar.csiro.au/data/caab/taxon_report.cfm?caab_code=23608001)；不据英文俗名直接写成普通鱿鱼",
+      "sources": [
+        "https://www.aquariumofpacific.org/onlinelearningcenter/species/pajama_squid",
+        "https://www.cmar.csiro.au/data/caab/taxon_report.cfm?caab_code=23608001"
+      ],
+      "researchFile": "docs/research/novel-animal-expansion-marine-2026-10-22.md",
+      "id": "N023",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Sepioloidea+lineolata&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 2290668,
+          "scientificName": "Sepioloidea lineolata (Quoy & Gaimard, 1832)",
+          "canonicalName": "Sepioloidea lineolata",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Sepiida",
+          "family": "Sepiadariidae",
+          "genus": "Sepioloidea",
+          "species": "Sepioloidea lineolata",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 136,
+          "orderKey": 989,
+          "familyKey": 3439,
+          "genusKey": 2290667,
+          "speciesKey": 2290668,
+          "class": "Cephalopoda"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/2290668/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Sepiola lineolata"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    },
+    {
+      "scientificName": "Phyllodesmium longicirrum",
+      "label": "长突太阳能海蛞蝓",
+      "observation": "扁平背突上有褐色小斑，放大看共生藻所在区域",
+      "coverageNote": "与叶羊、绿海天牛比较不同的光合伙伴关系",
+      "researchNote": "[澳大利亚博物馆专家观察](https://seaslugforum.net/showall/phyllong)；保留完整共生藻，区别于只保留叶绿体的类群；旧网页科名须更新",
+      "sources": [
+        "https://seaslugforum.net/showall/phyllong"
+      ],
+      "researchFile": "docs/research/novel-animal-expansion-marine-2026-10-22.md",
+      "id": "N024",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Phyllodesmium+longicirrum&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 6518595,
+          "scientificName": "Phyllodesmium longicirrum (Bergh, 1905)",
+          "canonicalName": "Phyllodesmium longicirrum",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "order": "Nudibranchia",
+          "family": "Myrrhinidae",
+          "genus": "Phyllodesmium",
+          "species": "Phyllodesmium longicirrum",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 225,
+          "orderKey": 980,
+          "familyKey": 4304701,
+          "genusKey": 2292205,
+          "speciesKey": 6518595,
+          "class": "Gastropoda"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/6518595/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [
+          "Myrrhine longicirra"
+        ],
+        "existingCatalogueOverlaps": []
+      }
+    },
+    {
+      "scientificName": "Elysia chlorotica",
+      "label": "绿叶海天牛",
+      "observation": "像叶片的绿色侧足，放大观察分枝消化腺",
+      "coverageNote": "加入不同种的盗食叶绿体现象，比较藻类食物",
+      "researchNote": "[澳大利亚博物馆专家与研究者记录](https://seaslugforum.net/showall/elyschlo)；不能写成植物，也不把旧基因转移猜想当定论",
+      "sources": [
+        "https://seaslugforum.net/showall/elyschlo"
+      ],
+      "researchFile": "docs/research/novel-animal-expansion-marine-2026-10-22.md",
+      "id": "N025",
+      "status": "pending",
+      "gbifLookup": {
+        "url": "https://api.gbif.org/v1/species/match?name=Elysia+chlorotica&strict=true&kingdom=Animalia",
+        "response": {
+          "usageKey": 5192082,
+          "scientificName": "Elysia chlorotica A.Gould, 1870",
+          "canonicalName": "Elysia chlorotica",
+          "rank": "SPECIES",
+          "status": "ACCEPTED",
+          "confidence": 100,
+          "matchType": "EXACT",
+          "kingdom": "Animalia",
+          "phylum": "Mollusca",
+          "family": "Plakobranchidae",
+          "genus": "Elysia",
+          "species": "Elysia chlorotica",
+          "kingdomKey": 1,
+          "phylumKey": 52,
+          "classKey": 225,
+          "familyKey": 3243610,
+          "genusKey": 2298889,
+          "speciesKey": 5192082,
+          "class": "Gastropoda"
+        }
+      },
+      "group": "软体动物",
+      "synonymCheck": {
+        "url": "https://api.gbif.org/v1/species/5192082/synonyms?limit=100",
+        "endOfRecords": true,
+        "canonicalNames": [],
+        "existingCatalogueOverlaps": []
+      }
+    }
+  ]
+}

@@ -2,13 +2,25 @@
   "reviewedAt": "2026-10-27",
   "status": "pending",
   "scope": "可见外形、来源与已识别错误；AI 重建不是摄影、鉴定标本或显微证据",
-  "findings": "现有图的腕膜与种级鉴定依据不足。两篇关键论文返回的是 reCAPTCHA 页面，没有取得正文或已鉴定参考图；不得恢复。",
+  "findings": "关键论文已通过 Europe PMC 官方接口读取，先前网页验证码是历史访问结果。现有保留图仍需逐张核对本种体形与结构，继续撤下。",
   "conservation": "UNVERIFIED is editorial; no verified global IUCN assessment",
   "references": [
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/",
       "responseSha256": "e1c856c79f11a15575b70f44f85ebf5be17c453266083997338c9cb584477011",
       "contentAvailable": false
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8749848/fullTextXML",
+      "responseSha256": "4db7323386df605341e35db9d262d9b9529dac6b5c8442231419c72f034b85f0",
+      "contentAvailable": true,
+      "checkedAt": "2026-10-28"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7854555/fullTextXML",
+      "responseSha256": "f48507cea160f8d1a1e9e36e58e0b651d550709333fa07f95a05a0454cd4f025",
+      "contentAvailable": true,
+      "checkedAt": "2026-10-28"
     }
   ],
   "assets": [
@@ -50,5 +62,7 @@
       "body": "reCAPTCHA; article and figures unavailable",
       "responseSha256": "1059e07d5b35e3dbc3af4bfa382cfc3a72a61924fc1d0d71d6eeb6639493efdb"
     }
-  ]
+  ],
+  "lastEvidenceUpdateAt": "2026-10-28",
+  "evidenceUpdate": "已取得官方全文并核对相关文字；未完成保留六图的逐张标本结构对照。维持 pending，不以技术检查或正文可读授予图片合格状态。"
 }

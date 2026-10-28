@@ -182,11 +182,17 @@ const profile = {
       "url": "https://www.gbif.org/species/5192082",
       "kind": "taxonomy",
       "accessedAt": "2026-10-22"
+    },
+    {
+      "title": "2022 年盗食叶绿体综述：基因转移解释的证据边界（官方全文）",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9642861/fullTextXML",
+      "kind": "ecology",
+      "accessedAt": "2026-10-28"
     }
   ],
   "featured": true,
   "publishedAt": "2026-10-27",
-  "updatedAt": "2026-10-27"
+  "updatedAt": "2026-10-28"
 } as const satisfies Species;
 
 export default profile;

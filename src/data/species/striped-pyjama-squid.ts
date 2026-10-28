@@ -43,7 +43,7 @@ const profile = {
       "en": "Assessment Unverified"
     },
     "trend": "unknown",
-    "assessor": "尚未核实可追溯的全球保护评估，不据此推断已经评估或尚未评估。"
+    "assessor": "GBIF 转录条目标为数据缺乏（DD）并提供 IUCN 评估链接，但原始评估内容、日期与种群趋势尚未直接核实，因此保护评估仍标记为待核实。"
   },
   "distribution": {
     "realms": [
@@ -192,11 +192,23 @@ const profile = {
       "url": "https://www.gbif.org/species/2290668",
       "kind": "taxonomy",
       "accessedAt": "2026-10-22"
+    },
+    {
+      "title": "GBIF 转录的 IUCN 类别；不替代原始评估核实",
+      "url": "https://api.gbif.org/v1/species/2290668/iucnRedListCategory",
+      "kind": "conservation",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "GBIF IUCN 名录条目与原始评估链接",
+      "url": "https://api.gbif.org/v1/species/176600347",
+      "kind": "conservation",
+      "accessedAt": "2026-10-28"
     }
   ],
   "featured": true,
   "publishedAt": "2026-10-27",
-  "updatedAt": "2026-10-27"
+  "updatedAt": "2026-10-28"
 } as const satisfies Species;
 
 export default profile;

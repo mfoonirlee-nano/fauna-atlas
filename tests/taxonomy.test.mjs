@@ -27428,6 +27428,37 @@ test('sixth novel batch separates whole-alga symbiosis, kleptoplasty and unassig
   assert.match(animalCopy(findSpecies('violet-blanket-octopus')), /成年雌性/);
 });
 
+test('parallel mollusc batches keep one canonical profile and preserve reviewed media decisions', async () => {
+  const canonical = [
+    ['Tremoctopus violaceus', 'violet-blanket-octopus'],
+    ['Neomenia carinata', 'neomenia-carinata'],
+    ['Sepioloidea lineolata', 'striped-pyjama-squid'],
+    ['Phyllodesmium longicirrum', 'solar-powered-nudibranch'],
+    ['Elysia chlorotica', 'eastern-emerald-elysia'],
+  ];
+  for (const [name, slug] of canonical) {
+    const profiles = species.filter(({ scientificName }) => scientificName === name);
+    assert.equal(profiles.length, 1, `${name}: one profile across both batches`);
+    assert.equal(profiles[0].slug, slug, `${name}: preserve the published slug`);
+    const retained = profiles[0].pendingMedia?.assets ?? profiles[0].media;
+    for (const path of [retained.image, ...retained.gallery.map(({ image }) => image)]) {
+      assert.ok(path.startsWith(`./images/species/${slug}/`), `${slug}: one retained image set`);
+    }
+    assert.equal(profiles[0].conservation.code, 'UNVERIFIED');
+  }
+  assert.ok(!species.some(({ slug }) => slug === 'long-cirrus-solar-slug'));
+  for (const path of ['../src/data/species/long-cirrus-solar-slug.ts', '../public/images/species/long-cirrus-solar-slug/']) {
+    await assert.rejects(access(new URL(path, import.meta.url)), { code: 'ENOENT' });
+  }
+  for (const slug of ['violet-blanket-octopus', 'neomenia-carinata']) {
+    const profile = findSpecies(slug);
+    assert.ok(profile.pendingMedia, 'new text evidence does not publish unreviewed images');
+    assert.equal(profile.media.image, undefined);
+    assert.equal(profile.media.gallery, undefined);
+    assert.ok(profile.sources.some(({ url }) => url.startsWith('https://www.ebi.ac.uk/europepmc/')));
+  }
+});
+
 
 test('seventh novel batch keeps mantle patterns, shell growth, plate counts and species scope distinct', async () => {
   const expected = [

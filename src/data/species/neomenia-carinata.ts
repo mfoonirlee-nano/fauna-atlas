@@ -103,7 +103,7 @@ const profile = {
       "key": "discovery-naming",
       "label": "发现与命名",
       "title": "名字与认识的过程",
-      "body": "保存的接受名记录为 Neomenia carinata Tullberg, 1875，并列出 Solenopus 等旧组合及种下名称。现代比较研究重新检查沟腹类结构；历史命名、名称组合变化与首次有人见到这种动物不能混为一谈。中文名沿用本清单的暂用标签。"
+      "body": "现用名记为 Neomenia carinata Tullberg, 1875，WoRMS 列有 Tullberg 同年介绍 Neomenia 新属的原始文献。接受名记录也列出 Solenopus 等旧组合及种下名称。历史命名、名称组合变化与后来的遗传研究属于不同阶段，不能据此确定首次有人见到它的时间。中文名沿用本清单的暂用标签。"
     }
   ],
   "keyFacts": [
@@ -149,13 +149,25 @@ const profile = {
       "url": "https://www.gbif.org/species/7859997",
       "kind": "taxonomy",
       "accessedAt": "2026-10-22"
+    },
+    {
+      "title": "2024 年沟腹类线粒体比较研究（官方全文）",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11488289/fullTextXML",
+      "kind": "general",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "WoRMS：本种接受名、原始文献与标本记录",
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=140560",
+      "kind": "taxonomy",
+      "accessedAt": "2026-10-28"
     }
   ],
   "featured": true,
   "publishedAt": "2026-10-27",
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "pendingMedia": {
-    "reason": "已删除 04 图无依据的骨针显微插图。PESI 只核实接受名和文献入口，不能验证生成体形；关键形态论文仍返回 reCAPTCHA 页面，六张继续撤下。",
+    "reason": "已取得 WoRMS 名称、原始文献与标本记录，以及 Europe PMC 比较研究正文；这些资料不构成保留六图的逐张生物学验收，体形与腹面结构仍待对照，配图继续撤下。",
     "assets": {
       "image": "./images/species/neomenia-carinata/01-cover.webp",
       "alt": "龙骨新月贝全身（AI 生成科学重建）",

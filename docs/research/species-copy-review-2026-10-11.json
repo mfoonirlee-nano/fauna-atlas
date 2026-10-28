@@ -37835,7 +37835,8 @@
           "sources": [
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC8749848/",
-            "https://www.gbif.org/species/2289798"
+            "https://www.gbif.org/species/2289798",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8749848/fullTextXML"
           ]
         },
         "range": {
@@ -37843,7 +37844,8 @@
           "sources": [
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC7854555/",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC8749848/",
-            "https://www.gbif.org/species/2289798"
+            "https://www.gbif.org/species/2289798",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8749848/fullTextXML"
           ]
         },
         "history": {
@@ -37901,7 +37903,8 @@
             "https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560",
             "https://obis.org/taxon/140560",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC11488289/",
-            "https://www.gbif.org/species/7859997"
+            "https://www.gbif.org/species/7859997",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=140560"
           ]
         },
         "naming": {
@@ -37910,7 +37913,8 @@
             "https://www.eu-nomen.eu/portal/taxon.php?GUID=urn%3Alsid%3Amarinespecies.org%3Ataxname%3A140560",
             "https://obis.org/taxon/140560",
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC11488289/",
-            "https://www.gbif.org/species/7859997"
+            "https://www.gbif.org/species/7859997",
+            "https://www.marinespecies.org/aphia.php?p=taxdetails&id=140560"
           ]
         }
       }
@@ -38017,7 +38021,8 @@
           "path": "description",
           "sources": [
             "https://seaslugforum.net/showall/elyschlo",
-            "https://www.gbif.org/species/5192082"
+            "https://www.gbif.org/species/5192082",
+            "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9642861/fullTextXML"
           ]
         },
         "range": {

@@ -104,7 +104,7 @@ const profile = {
       "key": "observation-3",
       "label": "生活与认识",
       "title": "辨认需要不止颜色",
-      "body": "地中海和墨西哥湾的研究将形态观察与分子证据结合，讨论 Tremoctopus violaceus 与近似种的辨认。档案采用已有名称核查快照的接受名；不把未经鉴定的热带毯子章鱼记录并入本种。"
+      "body": "地中海和墨西哥湾的研究将形态观察与分子证据结合，讨论 Tremoctopus violaceus 与近似种的辨认。档案采用已有名称核查快照的接受名；不把未经鉴定的热带毯子章鱼记录并入本种。2022 年地中海研究指出，本种与 T. gracilis 的幼体仅凭外形很难区分，不能把膜的颜色当作独立的种级鉴定依据。"
     },
     {
       "key": "discovery-naming",
@@ -150,13 +150,25 @@ const profile = {
       "url": "https://www.gbif.org/species/2289798",
       "kind": "taxonomy",
       "accessedAt": "2026-10-22"
+    },
+    {
+      "title": "2022 年地中海标本形态与遗传鉴定（官方全文）",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8749848/fullTextXML",
+      "kind": "ecology",
+      "accessedAt": "2026-10-28"
+    },
+    {
+      "title": "2021 年墨西哥湾严格种义记录（官方全文）",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7854555/fullTextXML",
+      "kind": "ecology",
+      "accessedAt": "2026-10-28"
     }
   ],
   "featured": true,
   "publishedAt": "2026-10-27",
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-28",
   "pendingMedia": {
-    "reason": "现有图的腕膜与种级鉴定依据不足。两篇关键论文返回的是 reCAPTCHA 页面，没有取得正文或已鉴定参考图；不得恢复。",
+    "reason": "已通过 Europe PMC 官方接口取得两篇种界论文正文；尚未完成保留六图与论文中已鉴定标本的逐张结构对照，腕膜与种级形态仍待审核，配图继续撤下。",
     "assets": {
       "image": "./images/species/violet-blanket-octopus/01-cover.webp",
       "alt": "紫毯章鱼全身（AI 生成科学重建）",
