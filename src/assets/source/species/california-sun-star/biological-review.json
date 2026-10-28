@@ -1,0 +1,46 @@
+{
+  "reviewedAt": "2026-10-28",
+  "status": "reviewed-reconstruction",
+  "reviewScope": "编辑性可见形态对照；不构成标本鉴定或专家审签",
+  "checks": [
+    "对照较小体盘、许多细长放射腕、浅色表面的小刺与绒簇，管足只出现在抬起腕的下方边缘。",
+    "未画成五条粗腕的蝙蝠海星或固定腕数的鉴定图；普通表面细节不作叉棘单个钳瓣的显微证据。"
+  ],
+  "referencePage": "https://www.mbari.org/animal/california-sun-star/",
+  "referencePhotos": [
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2020/07/Rathbunaster_californicus_and_Chrysaora_fuscescens_01_chrysaora.jpg",
+      "sha256": "eb5a7e3268a0231f258ea94c8b83634fe1044222ac114632eb8265323b487b34"
+    },
+    {
+      "url": "https://www.mbari.org/wp-content/uploads/2020/07/Rathbunaster-californicus_sunstar-1_high.jpg",
+      "sha256": "c5113c9eb678b21330cc05fb1eb1bcb26c3dd8c93dfbd7bc13b2e66c7ec2b1c8"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-cover.webp",
+      "sha256": "68baa4b60d057300c15362c5feb5a40a1a0cfdebb717a991d87562823fe2891c"
+    },
+    {
+      "file": "02-observation.webp",
+      "sha256": "1690872a94f9215054bd272290b28183dd195e44874f6c9a09dba019f61890cc"
+    },
+    {
+      "file": "03-observation.webp",
+      "sha256": "adc05e0e3427016a49bf45a82fd7203a999fc5db3951219cf56508894462ba8a"
+    },
+    {
+      "file": "04-observation.webp",
+      "sha256": "8af33748adb3f77c01b17035fada6185054a5731754b4e6841974a0bd5b29ec1"
+    },
+    {
+      "file": "05-observation.webp",
+      "sha256": "e4e08534b2d46a3559643c7964db31ba51cc2d03e30f825a2386fa8949820bb8"
+    },
+    {
+      "file": "06-observation.webp",
+      "sha256": "2984ff29164cfdd8377717f5e93b48a04d5953ab27965086c81e0c4e91fdcb74"
+    }
+  ]
+}

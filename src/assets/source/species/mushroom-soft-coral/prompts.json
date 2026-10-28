@@ -1,0 +1,110 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Heteropolypus ritteri mushroom soft coral, a SINGLE fleshy pink colony attached to rock by short stout stalk with a rounded broad soft cap. Follow the MBARI references: MANY individual feeding polyps sprout from cap surface; each extended polyp is a small tube ending in an EIGHT tentacled FEATHERY pinnate crown around its own mouth. The crowns are separate polyps, NOT one giant sea-anemone fringe around cap rim. Closed polyps look like little tubular buds or openings on fleshy cap. No fungal gills, no leaves, no extra branching trunks, no literal mushroom fungus, no emitted blue light. Scene: complete short stalk and broad domed cap with MOST polyps retracted and a few small partially open pinnate crowns. CANONICAL COVER on1536x1024 landscape: place the COMPLETE primary animal or entire primary colony on RIGHT, center70%width. All visible appendages, branches, base, filaments and arm tips safely inside x650..1440,y120..900, with substantial real background margin. Left40%quiet low-detail habitat. Make subject as large and clear as possible within these boundaries. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "heteropolypus-ref-0.jpg",
+        "sha256": "bf0bbc4f9d2a812ce0ccbfba8283c92ae6443703f65d174e45b8e527e534a7f1"
+      },
+      {
+        "file": "heteropolypus-ref-1.jpg",
+        "sha256": "5e47b41da2ff4b47537ca8396a374ed543c9d0a802ff4206c405eb5103fcba41"
+      },
+      {
+        "file": "heteropolypus-ref-2.jpg",
+        "sha256": "e4bd896a9b35d20bd9f6d452175a7a9c76e5ec1b01495145494b32d31b190e41"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Heteropolypus ritteri mushroom soft coral, a SINGLE fleshy pink colony attached to rock by short stout stalk with a rounded broad soft cap. Follow the MBARI references: MANY individual feeding polyps sprout from cap surface; each extended polyp is a small tube ending in an EIGHT tentacled FEATHERY pinnate crown around its own mouth. The crowns are separate polyps, NOT one giant sea-anemone fringe around cap rim. Closed polyps look like little tubular buds or openings on fleshy cap. No fungal gills, no leaves, no extra branching trunks, no literal mushroom fungus, no emitted blue light. Scene: close regional cap view with individual retracted polyps and their folded tips, as reference closed photo. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "heteropolypus-ref-0.jpg",
+        "sha256": "bf0bbc4f9d2a812ce0ccbfba8283c92ae6443703f65d174e45b8e527e534a7f1"
+      },
+      {
+        "file": "heteropolypus-ref-1.jpg",
+        "sha256": "5e47b41da2ff4b47537ca8396a374ed543c9d0a802ff4206c405eb5103fcba41"
+      },
+      {
+        "file": "heteropolypus-ref-2.jpg",
+        "sha256": "e4bd896a9b35d20bd9f6d452175a7a9c76e5ec1b01495145494b32d31b190e41"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Heteropolypus ritteri mushroom soft coral, a SINGLE fleshy pink colony attached to rock by short stout stalk with a rounded broad soft cap. Follow the MBARI references: MANY individual feeding polyps sprout from cap surface; each extended polyp is a small tube ending in an EIGHT tentacled FEATHERY pinnate crown around its own mouth. The crowns are separate polyps, NOT one giant sea-anemone fringe around cap rim. Closed polyps look like little tubular buds or openings on fleshy cap. No fungal gills, no leaves, no extra branching trunks, no literal mushroom fungus, no emitted blue light. Scene: complete fleshy colony with a few spatially separate extended polyp crowns and other buds retracted. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "heteropolypus-ref-0.jpg",
+        "sha256": "bf0bbc4f9d2a812ce0ccbfba8283c92ae6443703f65d174e45b8e527e534a7f1"
+      },
+      {
+        "file": "heteropolypus-ref-1.jpg",
+        "sha256": "5e47b41da2ff4b47537ca8396a374ed543c9d0a802ff4206c405eb5103fcba41"
+      },
+      {
+        "file": "heteropolypus-ref-2.jpg",
+        "sha256": "e4bd896a9b35d20bd9f6d452175a7a9c76e5ec1b01495145494b32d31b190e41"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Heteropolypus ritteri mushroom soft coral, a SINGLE fleshy pink colony attached to rock by short stout stalk with a rounded broad soft cap. Follow the MBARI references: MANY individual feeding polyps sprout from cap surface; each extended polyp is a small tube ending in an EIGHT tentacled FEATHERY pinnate crown around its own mouth. The crowns are separate polyps, NOT one giant sea-anemone fringe around cap rim. Closed polyps look like little tubular buds or openings on fleshy cap. No fungal gills, no leaves, no extra branching trunks, no literal mushroom fungus, no emitted blue light. Scene: whole closed colony side view showing stout stalk, cap and attachment to rocky bottom. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "heteropolypus-ref-0.jpg",
+        "sha256": "bf0bbc4f9d2a812ce0ccbfba8283c92ae6443703f65d174e45b8e527e534a7f1"
+      },
+      {
+        "file": "heteropolypus-ref-1.jpg",
+        "sha256": "5e47b41da2ff4b47537ca8396a374ed543c9d0a802ff4206c405eb5103fcba41"
+      },
+      {
+        "file": "heteropolypus-ref-2.jpg",
+        "sha256": "e4bd896a9b35d20bd9f6d452175a7a9c76e5ec1b01495145494b32d31b190e41"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Heteropolypus ritteri mushroom soft coral, a SINGLE fleshy pink colony attached to rock by short stout stalk with a rounded broad soft cap. Follow the MBARI references: MANY individual feeding polyps sprout from cap surface; each extended polyp is a small tube ending in an EIGHT tentacled FEATHERY pinnate crown around its own mouth. The crowns are separate polyps, NOT one giant sea-anemone fringe around cap rim. Closed polyps look like little tubular buds or openings on fleshy cap. No fungal gills, no leaves, no extra branching trunks, no literal mushroom fungus, no emitted blue light. Scene: regional view with one clearly separated open eight-feathery-tentacle polyp and several closed neighboring buds on same cap. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "heteropolypus-ref-0.jpg",
+        "sha256": "bf0bbc4f9d2a812ce0ccbfba8283c92ae6443703f65d174e45b8e527e534a7f1"
+      },
+      {
+        "file": "heteropolypus-ref-1.jpg",
+        "sha256": "5e47b41da2ff4b47537ca8396a374ed543c9d0a802ff4206c405eb5103fcba41"
+      },
+      {
+        "file": "heteropolypus-ref-2.jpg",
+        "sha256": "e4bd896a9b35d20bd9f6d452175a7a9c76e5ec1b01495145494b32d31b190e41"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Heteropolypus ritteri mushroom soft coral, a SINGLE fleshy pink colony attached to rock by short stout stalk with a rounded broad soft cap. Follow the MBARI references: MANY individual feeding polyps sprout from cap surface; each extended polyp is a small tube ending in an EIGHT tentacled FEATHERY pinnate crown around its own mouth. The crowns are separate polyps, NOT one giant sea-anemone fringe around cap rim. Closed polyps look like little tubular buds or openings on fleshy cap. No fungal gills, no leaves, no extra branching trunks, no literal mushroom fungus, no emitted blue light. Scene: complete mostly closed colony in rocky deep-sea habitat from oblique overhead. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "heteropolypus-ref-0.jpg",
+        "sha256": "bf0bbc4f9d2a812ce0ccbfba8283c92ae6443703f65d174e45b8e527e534a7f1"
+      },
+      {
+        "file": "heteropolypus-ref-1.jpg",
+        "sha256": "5e47b41da2ff4b47537ca8396a374ed543c9d0a802ff4206c405eb5103fcba41"
+      },
+      {
+        "file": "heteropolypus-ref-2.jpg",
+        "sha256": "e4bd896a9b35d20bd9f6d452175a7a9c76e5ec1b01495145494b32d31b190e41"
+      }
+    ]
+  }
+]

@@ -8351,5 +8351,55 @@ export const coverSubjects: Record<string, { width: number; height: number; boun
       "right": 1480,
       "bottom": 882
     }
+  },
+  "red-siphonophore": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 508,
+      "top": 106,
+      "right": 1504,
+      "bottom": 1002
+    }
+  },
+  "bubblegum-coral": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 475,
+      "top": 20,
+      "right": 1518,
+      "bottom": 929
+    }
+  },
+  "mushroom-soft-coral": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 512,
+      "top": 78,
+      "right": 1504,
+      "bottom": 925
+    }
+  },
+  "armored-sea-cucumber": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 554,
+      "top": 10,
+      "right": 1488,
+      "bottom": 958
+    }
+  },
+  "california-sun-star": {
+    "width": 1536,
+    "height": 1024,
+    "bounds": {
+      "left": 477,
+      "top": 28,
+      "right": 1510,
+      "bottom": 945
+    }
   }
 };

@@ -24382,7 +24382,7 @@ test('extinct profiles distinguish historical records from assessments and recon
 test('counts descendant species on shared taxon branches', () => {
   const tree = buildTaxonomyTree(species);
 
-  assert.equal(species.length, 835);
+  assert.equal(species.length, 840);
   assert.equal(findTaxon(tree, 'order', 'Cestida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Cestidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Discodorididae')?.speciesCount, 1);
@@ -24398,14 +24398,19 @@ test('counts descendant species on shared taxon branches', () => {
   }
 
   assert.equal(findTaxon(tree, 'genus', 'Sinosturio'), undefined);
-  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 17);
-  assert.equal(findTaxon(tree, 'class', 'Anthozoa')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'phylum', 'Cnidaria')?.speciesCount, 20);
+  assert.equal(findTaxon(tree, 'class', 'Anthozoa')?.speciesCount, 7);
   assert.equal(findTaxon(tree, 'class', 'Scyphozoa')?.speciesCount, 6);
-  assert.equal(findTaxon(tree, 'class', 'Hydrozoa')?.speciesCount, 4);
-  assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'class', 'Hydrozoa')?.speciesCount, 5);
+  assert.equal(findTaxon(tree, 'order', 'Siphonophorae')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'family', 'Agalmatidae')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'order', 'Scleralcyonacea')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'family', 'Coralliidae')?.speciesCount, 2);
+  assert.equal(findTaxon(tree, 'order', 'Dendrochirotida')?.speciesCount, 1);
+  assert.equal(findTaxon(tree, 'family', 'Psolidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Physaliidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Physalia')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 11);
+  assert.equal(findTaxon(tree, 'phylum', 'Echinodermata')?.speciesCount, 13);
   assert.equal(findTaxon(tree, 'class', 'Crinoidea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Comatulida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Antedonidae')?.speciesCount, 1);
@@ -24418,11 +24423,11 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Amphilepidida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Ophiotrichidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Ophiothrix')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Asteroidea')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Asteroidea')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'order', 'Valvatida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Acanthasteridae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Acanthaster')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'class', 'Holothuroidea')?.speciesCount, 3);
+  assert.equal(findTaxon(tree, 'class', 'Holothuroidea')?.speciesCount, 4);
   assert.equal(findTaxon(tree, 'order', 'Synallactida')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'family', 'Stichopodidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Apostichopus')?.speciesCount, 1);
@@ -24571,7 +24576,7 @@ test('counts descendant species on shared taxon branches', () => {
   assert.equal(findTaxon(tree, 'order', 'Gymnophiona')?.speciesCount, 2);
   assert.equal(findTaxon(tree, 'family', 'Siphonopidae')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'genus', 'Siphonops')?.speciesCount, 1);
-  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 835);
+  assert.equal(findTaxon(tree, 'kingdom', 'Animalia')?.speciesCount, 840);
   assert.equal(findTaxon(tree, 'phylum', 'Nematoda')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'class', 'Chromadorea')?.speciesCount, 1);
   assert.equal(findTaxon(tree, 'order', 'Rhabditida')?.speciesCount, 1);
@@ -27472,4 +27477,37 @@ test('ten re-reviewed animals keep unresolved evidence separate from NE and reta
     }
     assert.equal((profile.pendingMedia?.assets ?? profile.media).gallery.length, 5);
   }
+});
+
+test('eighth novel batch keeps uncertain diets, coral colonies and deep-sea identities distinct', async () => {
+  const expected = [
+    ['red-siphonophore', 'Marrus claudanielis', 'Agalmatidae'],
+    ['bubblegum-coral', 'Paragorgia arborea', 'Coralliidae'],
+    ['mushroom-soft-coral', 'Heteropolypus ritteri', 'Coralliidae'],
+    ['armored-sea-cucumber', 'Psolus squamatus', 'Psolidae'],
+    ['california-sun-star', 'Rathbunaster californicus', 'Asteriidae'],
+  ];
+  for (const [slug, name, family] of expected) {
+    const profile = findSpecies(slug);
+    assert.equal(profile.scientificName, name);
+    assert.equal(profile.taxonomy.family.scientificName, family);
+    assert.equal(species.filter((item) => item.scientificName === name).length, 1);
+    assert.equal(profile.conservation.system, 'Unverified');
+    assert.equal(profile.conservation.code, 'UNVERIFIED');
+    assert.equal(profile.conservation.assessedYear, undefined);
+    assert.equal(profile.conservation.trend, 'unknown');
+    assert.equal(profile.pendingMedia, undefined, 'a completed set is publicly reviewed');
+    const paths = [profile.media.image, ...profile.media.gallery.map(({ image }) => image)];
+    assert.equal(paths.length, 6);
+    assert.equal(new Set(paths).size, 6);
+    await Promise.all(paths.map((path) => access(new URL('../public/' + path.slice(2), import.meta.url))));
+  }
+  const marrus = findSpecies('red-siphonophore');
+  assert.deepEqual(marrus.diet.foods, [], 'possible prey must not become confirmed food records');
+  assert.deepEqual(marrus.diet.types, [], 'unknown species diet stays unclassified');
+  assert.match(marrus.diet.description, /未知.*推测/);
+  assert.match(animalCopy(findSpecies('mushroom-soft-coral')), /每个.*触手冠.*一个.*珊瑚虫/);
+  assert.match(animalCopy(findSpecies('bubblegum-coral')), /海底植物/);
+  assert.match(animalCopy(findSpecies('armored-sea-cucumber')), /钙质硬板/);
+  assert.match(findSpecies('california-sun-star').distribution.range, /阿拉斯加南部/);
 });

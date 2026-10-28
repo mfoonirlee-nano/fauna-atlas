@@ -156,11 +156,15 @@ test('unverified assessments and draft illustrations never appear as an IUCN res
   const { SpeciesDetail, HeroCarousel, default: App } = await server.ssrLoadModule('/src/App.tsx');
   const { species, loadSpecies } = await server.ssrLoadModule('virtual:species-catalogue');
   const unverified = species.filter((item) => item.conservation.code === 'UNVERIFIED');
-  assert.equal(unverified.length, 10);
+  assert.ok(unverified.some((item) => item.slug === 'neomenia-carinata'));
+  assert.ok(unverified.some((item) => item.slug === 'violet-blanket-octopus'));
   const pending = [];
   for (const summary of unverified) {
     const item = await loadSpecies(summary.slug);
     const html = renderToStaticMarkup(createElement(SpeciesDetail, { item, index: 0, saved: false, onClose() {}, onToggleSaved() {} }));
+    if (summary.slug === 'red-siphonophore') {
+      assert.match(html, /<dt>主要食物<\/dt><dd>尚未核实<\/dd>/, 'unknown food records do not render an empty field');
+    }
     assert.match(html, /保护评估待核实/);
     assert.match(html, /尚未核实可追溯的保护评估/);
     assert.doesNotMatch(html, /IUCN 尚未评估/);

@@ -1,0 +1,110 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Paragorgia arborea bubblegum coral, one attached colony of thick irregular salmon-pink to pale pink knobbly branching fan, leathery rounded blunt branch tips and a sturdy common base anchored to rock. Follow MBARI reference thick lumpy branches rather than fine plant twigs. Tiny pale pink eightfold pinnate polyps may be visible at selected bumps; many retracted smooth nodules. NOT a tree with leaves, no mushroom cap, no warm tropical reef. Cold dark deep rocky seafloor. Scene: one complete medium-sized branching colony with anchoring base and all branch tips visible. CANONICAL COVER on1536x1024 landscape: place the COMPLETE primary animal or entire primary colony on RIGHT, center70%width. All visible appendages, branches, base, filaments and arm tips safely inside x650..1440,y120..900, with substantial real background margin. Left40%quiet low-detail habitat. Make subject as large and clear as possible within these boundaries. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "paragorgia-ref-0.jpg",
+        "sha256": "80779787a2d2988c3810705d506f71a3346646a5650c727860dc095c0844b0ba"
+      },
+      {
+        "file": "paragorgia-ref-1.jpg",
+        "sha256": "96cf71c98e21fcf974ee3fd9bc67c56a0e033090467eb160ac858008cdd76ac6"
+      },
+      {
+        "file": "paragorgia-ref-2.jpg",
+        "sha256": "c3763785d7358746abd4e00fdc3a8cd0f06611e053ebc1c700e1b00081964964"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Paragorgia arborea bubblegum coral, one attached colony of thick irregular salmon-pink to pale pink knobbly branching fan, leathery rounded blunt branch tips and a sturdy common base anchored to rock. Follow MBARI reference thick lumpy branches rather than fine plant twigs. Tiny pale pink eightfold pinnate polyps may be visible at selected bumps; many retracted smooth nodules. NOT a tree with leaves, no mushroom cap, no warm tropical reef. Cold dark deep rocky seafloor. Scene: several thick knobbly branches with retracted polyp bumps, natural regional detail. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "paragorgia-ref-0.jpg",
+        "sha256": "80779787a2d2988c3810705d506f71a3346646a5650c727860dc095c0844b0ba"
+      },
+      {
+        "file": "paragorgia-ref-1.jpg",
+        "sha256": "96cf71c98e21fcf974ee3fd9bc67c56a0e033090467eb160ac858008cdd76ac6"
+      },
+      {
+        "file": "paragorgia-ref-2.jpg",
+        "sha256": "c3763785d7358746abd4e00fdc3a8cd0f06611e053ebc1c700e1b00081964964"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Paragorgia arborea bubblegum coral, one attached colony of thick irregular salmon-pink to pale pink knobbly branching fan, leathery rounded blunt branch tips and a sturdy common base anchored to rock. Follow MBARI reference thick lumpy branches rather than fine plant twigs. Tiny pale pink eightfold pinnate polyps may be visible at selected bumps; many retracted smooth nodules. NOT a tree with leaves, no mushroom cap, no warm tropical reef. Cold dark deep rocky seafloor. Scene: several branches with tiny extended feathered polyps as in reference photo, not giant flowers. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "paragorgia-ref-0.jpg",
+        "sha256": "80779787a2d2988c3810705d506f71a3346646a5650c727860dc095c0844b0ba"
+      },
+      {
+        "file": "paragorgia-ref-1.jpg",
+        "sha256": "96cf71c98e21fcf974ee3fd9bc67c56a0e033090467eb160ac858008cdd76ac6"
+      },
+      {
+        "file": "paragorgia-ref-2.jpg",
+        "sha256": "c3763785d7358746abd4e00fdc3a8cd0f06611e053ebc1c700e1b00081964964"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Paragorgia arborea bubblegum coral, one attached colony of thick irregular salmon-pink to pale pink knobbly branching fan, leathery rounded blunt branch tips and a sturdy common base anchored to rock. Follow MBARI reference thick lumpy branches rather than fine plant twigs. Tiny pale pink eightfold pinnate polyps may be visible at selected bumps; many retracted smooth nodules. NOT a tree with leaves, no mushroom cap, no warm tropical reef. Cold dark deep rocky seafloor. Scene: oblique complete colony anchored to rocky outcrop with irregular fan silhouette. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "paragorgia-ref-0.jpg",
+        "sha256": "80779787a2d2988c3810705d506f71a3346646a5650c727860dc095c0844b0ba"
+      },
+      {
+        "file": "paragorgia-ref-1.jpg",
+        "sha256": "96cf71c98e21fcf974ee3fd9bc67c56a0e033090467eb160ac858008cdd76ac6"
+      },
+      {
+        "file": "paragorgia-ref-2.jpg",
+        "sha256": "c3763785d7358746abd4e00fdc3a8cd0f06611e053ebc1c700e1b00081964964"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Paragorgia arborea bubblegum coral, one attached colony of thick irregular salmon-pink to pale pink knobbly branching fan, leathery rounded blunt branch tips and a sturdy common base anchored to rock. Follow MBARI reference thick lumpy branches rather than fine plant twigs. Tiny pale pink eightfold pinnate polyps may be visible at selected bumps; many retracted smooth nodules. NOT a tree with leaves, no mushroom cap, no warm tropical reef. Cold dark deep rocky seafloor. Scene: close regional view of rounded blunt pink branch tips and small polyp apertures. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "paragorgia-ref-0.jpg",
+        "sha256": "80779787a2d2988c3810705d506f71a3346646a5650c727860dc095c0844b0ba"
+      },
+      {
+        "file": "paragorgia-ref-1.jpg",
+        "sha256": "96cf71c98e21fcf974ee3fd9bc67c56a0e033090467eb160ac858008cdd76ac6"
+      },
+      {
+        "file": "paragorgia-ref-2.jpg",
+        "sha256": "c3763785d7358746abd4e00fdc3a8cd0f06611e053ebc1c700e1b00081964964"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Paragorgia arborea bubblegum coral, one attached colony of thick irregular salmon-pink to pale pink knobbly branching fan, leathery rounded blunt branch tips and a sturdy common base anchored to rock. Follow MBARI reference thick lumpy branches rather than fine plant twigs. Tiny pale pink eightfold pinnate polyps may be visible at selected bumps; many retracted smooth nodules. NOT a tree with leaves, no mushroom cap, no warm tropical reef. Cold dark deep rocky seafloor. Scene: complete colony from slightly above, cold rocky habitat without other dominant animals. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "paragorgia-ref-0.jpg",
+        "sha256": "80779787a2d2988c3810705d506f71a3346646a5650c727860dc095c0844b0ba"
+      },
+      {
+        "file": "paragorgia-ref-1.jpg",
+        "sha256": "96cf71c98e21fcf974ee3fd9bc67c56a0e033090467eb160ac858008cdd76ac6"
+      },
+      {
+        "file": "paragorgia-ref-2.jpg",
+        "sha256": "c3763785d7358746abd4e00fdc3a8cd0f06611e053ebc1c700e1b00081964964"
+      }
+    ]
+  }
+]

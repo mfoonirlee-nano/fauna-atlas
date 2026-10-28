@@ -1,0 +1,110 @@
+[
+  {
+    "file": "01-cover.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Marrus claudanielis colonial siphonophore. Follow the MBARI reference photos closely: a slender scarlet-red curved central stem, ONE very small gas float at one end, near that end a narrow SERIAL array of transparent swimming bells (nectophores), then a longer red feeding region with red-orange zooids and fine delicate reddish trailing fishing tentacles. NOT a jellyfish umbrella, NOT a squid or segmented worm with legs. Zooids have variable natural shapes, never uniform plastic beads. No prey or invented feeding event, no glow illuminating surrounding water. Entire colony anatomy from photographs. Scene: complete naturally curved colony in midwater against dark navy sea. CANONICAL COVER on1536x1024 landscape: place the COMPLETE primary animal or entire primary colony on RIGHT, center70%width. All visible appendages, branches, base, filaments and arm tips safely inside x650..1440,y120..900, with substantial real background margin. Left40%quiet low-detail habitat. Make subject as large and clear as possible within these boundaries. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "marrus-ref-0.jpg",
+        "sha256": "2a21935d738667f3652b4bd9199fff4ae40710ab7e1a21ce443ce23d746dad2b"
+      },
+      {
+        "file": "marrus-ref-1.jpg",
+        "sha256": "0815d789bb465f9dfd68b1c564eb2d6616fbc6a48173aa127bde013a4bf6e7bc"
+      },
+      {
+        "file": "marrus-ref-2.jpg",
+        "sha256": "f6810d471508be1ad76d7c630cc8a081ac91ff2fbc56dc854546c5b4a05c5b21"
+      }
+    ]
+  },
+  {
+    "file": "02-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Marrus claudanielis colonial siphonophore. Follow the MBARI reference photos closely: a slender scarlet-red curved central stem, ONE very small gas float at one end, near that end a narrow SERIAL array of transparent swimming bells (nectophores), then a longer red feeding region with red-orange zooids and fine delicate reddish trailing fishing tentacles. NOT a jellyfish umbrella, NOT a squid or segmented worm with legs. Zooids have variable natural shapes, never uniform plastic beads. No prey or invented feeding event, no glow illuminating surrounding water. Entire colony anatomy from photographs. Scene: oblique whole colony with swimming bell region clearly visible. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "marrus-ref-0.jpg",
+        "sha256": "2a21935d738667f3652b4bd9199fff4ae40710ab7e1a21ce443ce23d746dad2b"
+      },
+      {
+        "file": "marrus-ref-1.jpg",
+        "sha256": "0815d789bb465f9dfd68b1c564eb2d6616fbc6a48173aa127bde013a4bf6e7bc"
+      },
+      {
+        "file": "marrus-ref-2.jpg",
+        "sha256": "f6810d471508be1ad76d7c630cc8a081ac91ff2fbc56dc854546c5b4a05c5b21"
+      }
+    ]
+  },
+  {
+    "file": "03-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Marrus claudanielis colonial siphonophore. Follow the MBARI reference photos closely: a slender scarlet-red curved central stem, ONE very small gas float at one end, near that end a narrow SERIAL array of transparent swimming bells (nectophores), then a longer red feeding region with red-orange zooids and fine delicate reddish trailing fishing tentacles. NOT a jellyfish umbrella, NOT a squid or segmented worm with legs. Zooids have variable natural shapes, never uniform plastic beads. No prey or invented feeding event, no glow illuminating surrounding water. Entire colony anatomy from photographs. Scene: close view of anterior float and transparent nectophore array, anatomically faithful regional detail. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "marrus-ref-0.jpg",
+        "sha256": "2a21935d738667f3652b4bd9199fff4ae40710ab7e1a21ce443ce23d746dad2b"
+      },
+      {
+        "file": "marrus-ref-1.jpg",
+        "sha256": "0815d789bb465f9dfd68b1c564eb2d6616fbc6a48173aa127bde013a4bf6e7bc"
+      },
+      {
+        "file": "marrus-ref-2.jpg",
+        "sha256": "f6810d471508be1ad76d7c630cc8a081ac91ff2fbc56dc854546c5b4a05c5b21"
+      }
+    ]
+  },
+  {
+    "file": "04-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Marrus claudanielis colonial siphonophore. Follow the MBARI reference photos closely: a slender scarlet-red curved central stem, ONE very small gas float at one end, near that end a narrow SERIAL array of transparent swimming bells (nectophores), then a longer red feeding region with red-orange zooids and fine delicate reddish trailing fishing tentacles. NOT a jellyfish umbrella, NOT a squid or segmented worm with legs. Zooids have variable natural shapes, never uniform plastic beads. No prey or invented feeding event, no glow illuminating surrounding water. Entire colony anatomy from photographs. Scene: red feeding portion with several hanging zooids and delicate tentacle branches, no prey. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "marrus-ref-0.jpg",
+        "sha256": "2a21935d738667f3652b4bd9199fff4ae40710ab7e1a21ce443ce23d746dad2b"
+      },
+      {
+        "file": "marrus-ref-1.jpg",
+        "sha256": "0815d789bb465f9dfd68b1c564eb2d6616fbc6a48173aa127bde013a4bf6e7bc"
+      },
+      {
+        "file": "marrus-ref-2.jpg",
+        "sha256": "f6810d471508be1ad76d7c630cc8a081ac91ff2fbc56dc854546c5b4a05c5b21"
+      }
+    ]
+  },
+  {
+    "file": "05-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Marrus claudanielis colonial siphonophore. Follow the MBARI reference photos closely: a slender scarlet-red curved central stem, ONE very small gas float at one end, near that end a narrow SERIAL array of transparent swimming bells (nectophores), then a longer red feeding region with red-orange zooids and fine delicate reddish trailing fishing tentacles. NOT a jellyfish umbrella, NOT a squid or segmented worm with legs. Zooids have variable natural shapes, never uniform plastic beads. No prey or invented feeding event, no glow illuminating surrounding water. Entire colony anatomy from photographs. Scene: whole colony in a more gently vertical curved posture with tentacles partly gathered. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "marrus-ref-0.jpg",
+        "sha256": "2a21935d738667f3652b4bd9199fff4ae40710ab7e1a21ce443ce23d746dad2b"
+      },
+      {
+        "file": "marrus-ref-1.jpg",
+        "sha256": "0815d789bb465f9dfd68b1c564eb2d6616fbc6a48173aa127bde013a4bf6e7bc"
+      },
+      {
+        "file": "marrus-ref-2.jpg",
+        "sha256": "f6810d471508be1ad76d7c630cc8a081ac91ff2fbc56dc854546c5b4a05c5b21"
+      }
+    ]
+  },
+  {
+    "file": "06-observation.webp",
+    "prompt": "Create an ORIGINAL educational natural-history scientific reconstruction using attached correctly identified photographs for anatomical reference only, do not copy original photographic composition. Marrus claudanielis colonial siphonophore. Follow the MBARI reference photos closely: a slender scarlet-red curved central stem, ONE very small gas float at one end, near that end a narrow SERIAL array of transparent swimming bells (nectophores), then a longer red feeding region with red-orange zooids and fine delicate reddish trailing fishing tentacles. NOT a jellyfish umbrella, NOT a squid or segmented worm with legs. Zooids have variable natural shapes, never uniform plastic beads. No prey or invented feeding event, no glow illuminating surrounding water. Entire colony anatomy from photographs. Scene: complete colony in a broad C curve, delicate fishing filaments visible. One coherent landscape1536x1024. Keep main illustrated subject wholly within frame with background margins; regional detail scenes explicitly show a region rather than a microscopic diagram. Restrained lifelike anatomical illustration. No lettering, no labels, no border, no scale bar, no inset, no collage. No speculative behavior or invented microscopic structures.",
+    "references": [
+      {
+        "file": "marrus-ref-0.jpg",
+        "sha256": "2a21935d738667f3652b4bd9199fff4ae40710ab7e1a21ce443ce23d746dad2b"
+      },
+      {
+        "file": "marrus-ref-1.jpg",
+        "sha256": "0815d789bb465f9dfd68b1c564eb2d6616fbc6a48173aa127bde013a4bf6e7bc"
+      },
+      {
+        "file": "marrus-ref-2.jpg",
+        "sha256": "f6810d471508be1ad76d7c630cc8a081ac91ff2fbc56dc854546c5b4a05c5b21"
+      }
+    ]
+  }
+]

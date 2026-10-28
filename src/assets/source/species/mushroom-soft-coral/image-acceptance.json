@@ -1,0 +1,80 @@
+[
+  {
+    "file": "01-cover.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "88258a5f74ef8f6c63120db3fb648ca80f5baf80c9af2d94316c607ca4da2882",
+    "runtimeSha256": "cf2e75a674c77214d295d389d2cc169f18e5246e42d49c01de355bb5f8c7f872"
+  },
+  {
+    "file": "02-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "e63971aaeeeb0bb8c26093d1a19572ff3aa9b755ec85976f8d5d5697185eed29",
+    "runtimeSha256": "dfdf4d05a8a1169c51d68e341fb657780b14e9462ac1955b32fa0ba27a9caf12"
+  },
+  {
+    "file": "03-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "f7b74d5d633d99d120a32661677b96db24eefac69ac0bb52ac4effe0d782e65d",
+    "runtimeSha256": "302b9a156ad05eacd5da86ddf2e4ff206c3831f8154facbf4d784299a781fe67"
+  },
+  {
+    "file": "04-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "3f7693d73affb976296d2cfe931d73455efec5c88774c323755d6f184e03479e",
+    "runtimeSha256": "f666a88aab9f94763d33da782597eec1f6a8fee77ac498b0292056f0c30e801d"
+  },
+  {
+    "file": "05-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "fca9113934a91c2dbe8a7b3e19b182685d880b711074dc09c11d5f381361a176",
+    "runtimeSha256": "5e8ef284ce676fffdef81afe22d257df5b87b5693b00288ab69358017d5ef039"
+  },
+  {
+    "file": "06-observation.webp",
+    "sourceDimensions": [
+      1536,
+      1024
+    ],
+    "runtimeDimensions": [
+      1536,
+      1024
+    ],
+    "sourceSha256": "1e33851f028b909d86b75d82feec5cdc023d087fc2aac94982118b40809f5b10",
+    "runtimeSha256": "ba79c589ccc50be97d3a3c371b15cf0578239d7c50833365fb088843d56c5c7e"
+  }
+]
